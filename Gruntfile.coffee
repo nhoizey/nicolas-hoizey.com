@@ -1,12 +1,5 @@
 module.exports = (grunt) ->
 
-  # HELPERS
-  # ============================================================================
-  getBuildPath = ->
-    path = ['build']
-    path.push getBuildPrefix() if process.env.TRAVIS is 'true' and process.env.TRAVIS_SECURE_ENV_VARS is 'true'
-    path.join('/') + '/'
-
   # TASKS
   # ============================================================================
   grunt.initConfig
@@ -16,11 +9,11 @@ module.exports = (grunt) ->
     # --------
     clean:
       tpl    : ["src/js/templates/**/*.js"]
-      js     : ["#{getBuildPath()}js/"]
-      css    : ["#{getBuildPath()}css/"]
-      html   : ["#{getBuildPath()}*.html"]
-      assets : ["#{getBuildPath()}fonts/","#{getBuildPath()}img/","#{getBuildPath()}*.{ico,png}"]
-      all    : ["#{getBuildPath()}","src/templates/**/*.js"]
+      js     : ["build/js/"]
+      css    : ["build/css/"]
+      html   : ["build/*.html"]
+      assets : ["build/fonts/","build/img/","build/*.{ico,png}"]
+      all    : ["build/","src/templates/**/*.js"]
 
     # Copying
     # -------
@@ -29,22 +22,22 @@ module.exports = (grunt) ->
         expand : true
         cwd    : 'src/'
         src    : ['files/**', 'fonts/**','images/**','*.{png,ico}']
-        dest   : getBuildPath()
+        dest   : 'build/'
       libs:
         expand : true
         cwd    : 'src/'
         src    : ['js/lib/**']
-        dest   : getBuildPath()
+        dest   : 'build/'
       themecss:
         expand : true
         cwd    : 'src/'
         src    : ['css/**']
-        dest   : getBuildPath()
+        dest   : 'build/'
       themejs:
         expand : true
         cwd    : 'src/'
         src    : ['js/**']
-        dest   : getBuildPath()
+        dest   : 'build/'
       data:
         expand : true
         cwd    : 'build/_data/'
@@ -55,7 +48,7 @@ module.exports = (grunt) ->
     # ----------
     assemble:
       options:
-        assets    : "#{getBuildPath()}"
+        assets    : 'build/'
         data      : ['src/tpl/_data/**/**/*.{json,yml}','package.json'],
         helpers   : ['src/tpl/_helpers/**/*.js','node_modules/prettify/prettify.js']
         partials  : ['src/tpl/_includes/**/*.{md,html,hbs}','src/tpl/pages/**/*-ajax-*.{md,html,hbs}','src/tpl/pages/**/pop-*.{md,html,hbs}']
@@ -71,7 +64,7 @@ module.exports = (grunt) ->
           expand : true
           cwd    : 'src/tpl/pages/'
           src    : ['**/*.{md,html,hbs}']
-          dest   : getBuildPath()
+          dest   : 'build/'
           ext    : '.html'
         }]
       index:
@@ -92,11 +85,11 @@ module.exports = (grunt) ->
         bundleExec : true
       compile:
         options:
-          cssDir: "#{getBuildPath()}/css/"
+          cssDir: "build/css/"
           trace : false
       watch:
         options:
-          cssDir: "#{getBuildPath()}/css/"
+          cssDir: "build/css/"
           trace : true
       doc:
         options:
@@ -148,7 +141,7 @@ module.exports = (grunt) ->
     modernizr:
       dist:
         devFile    : 'remote'
-        outputFile : "#{getBuildPath()}js/lib/modernizr.js"
+        outputFile : "build/js/lib/modernizr.js"
         parseFiles : true
         extra:
           shiv       : true
