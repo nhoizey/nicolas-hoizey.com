@@ -1,0 +1,14 @@
+*.DS_Store
+*.sublime-*
+
+node_modules
+bower_components
+*.sass-cache*
+*.bundle
+*.assemble*
+
+build
+build-*
+**/_data/*.json
+
+!.gitkeep
