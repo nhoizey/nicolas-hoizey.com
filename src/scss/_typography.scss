@@ -21,3 +21,7 @@
        url('../fonts/sourcesanspro-light-webfont.ttf') format('truetype'),
        url('../fonts/sourcesanspro-light-webfont.svg#source_sans_prolight') format('svg');
 }
+.SourceSansPro300loaded body {
+	font-family: 'SourceSansPro300', sans-serif;
+	font-weight: 300;
+}
