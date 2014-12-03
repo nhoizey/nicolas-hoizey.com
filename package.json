@@ -25,6 +25,7 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-modernizr": "^0.5.2",
     "grunt-pleeease": "^1.2.0",
+    "grunt-responsive-images": "^0.1.4",
     "matchdep": "^0.3.0",
     "prettify": "^0.1.7"
   }

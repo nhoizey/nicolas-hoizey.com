@@ -112,6 +112,31 @@ module.exports = (grunt) ->
           minifier: false
         files:
           'build/css/styles.css': 'build/css/styles.css'
+
+    responsive_images:
+      options:
+        engine: "gm"
+        quality: 75
+      welcome:
+        options:
+          sizes: [
+            width: 320
+          ,
+            width: 480
+          ,
+            width: 640
+          ,
+            width: 960
+          ,
+            width: 1280
+          ,
+            width: 1600
+          ]
+        expand: true
+        src: ['**/*.jpg']
+        cwd: 'src/img/welcome/'
+        dest: 'build/img/welcome/'
+      avatar:
         options:
           baseUrl: 'src/js'
           mainConfigFile: 'src/js/main.js'
@@ -127,6 +152,18 @@ module.exports = (grunt) ->
           fileExclusionRegExp: /tpl|_/,
           out: 'build/js/main.js'
           include: ['almond']
+          quality: 90
+          sizes: [
+            width: 128
+          ,
+            width: 256
+          ,
+            width: 384
+          ]
+        expand: true
+        src: ['**/*.jpg']
+        cwd: 'src/img/avatar/'
+        dest: "build/img/avatar/"
 
     # JSHint
     # ------
@@ -204,6 +241,7 @@ module.exports = (grunt) ->
   grunt.registerTask 'js', ['clean:js','clean:tpl','libs','jshint','copy:themejs']
   grunt.registerTask 'css', ['assets','compass:compile','pleeease','copy:themecss']
   grunt.registerTask 'html', ['clean:html','assemble:pages']
+  grunt.registerTask 'images', ['clean:images', 'responsive_images']
 
   grunt.registerTask 'live', ['connect:basic','watch']
   grunt.registerTask 'build', ['clean:all','js','css','html']
