@@ -1,0 +1,14 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+@import '_typography';
+@import '_layout';
+@import '_header';
+@import '_main';
+@import '_home';
+
+body {
+	background-color: #F5FAFA;
+	color: #888;
+}
