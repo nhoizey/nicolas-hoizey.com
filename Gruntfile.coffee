@@ -100,6 +100,18 @@ module.exports = (grunt) ->
     # ---------
     requirejs:
       compile:
+    # Pleeease
+    # --------
+
+    pleeease:
+      custom:
+        options:
+          browsers: ['last 2 versions', '> 5%', 'ios 6']
+          filters : {'oldIE': true}
+          rem     : ['16px']
+          minifier: false
+        files:
+          'build/css/styles.css': 'build/css/styles.css'
         options:
           baseUrl: 'src/js'
           mainConfigFile: 'src/js/main.js'
@@ -172,7 +184,7 @@ module.exports = (grunt) ->
         atBegin: true
       css:
         files: ['src/scss/**/*.scss', 'src/css/**/*.css']
-        tasks: ['assets', 'compass:watch', 'copy:themecss']
+        tasks: ['assets', 'compass:watch', 'pleeease', 'copy:themecss']
       js:
         files: ['src/js/templates/**/*.tpl','src/js/**/*.js']
         tasks: ['js']
@@ -189,8 +201,8 @@ module.exports = (grunt) ->
   grunt.registerTask 'libs', ['modernizr','copy:libs']
   grunt.registerTask 'assets', ['clean:assets','clean:css','copy:assets']
 
-  grunt.registerTask 'css', ['assets','compass:compile','copy:themecss']
   grunt.registerTask 'js', ['clean:js','clean:tpl','libs','jshint','copy:themejs']
+  grunt.registerTask 'css', ['assets','compass:compile','pleeease','copy:themecss']
   grunt.registerTask 'html', ['clean:html','assemble:pages']
 
   grunt.registerTask 'live', ['connect:basic','watch']
