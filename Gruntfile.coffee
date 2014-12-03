@@ -21,7 +21,12 @@ module.exports = (grunt) ->
       assets:
         expand : true
         cwd    : 'src/'
-        src    : ['files/**', 'img/**', 'fonts/**', '*.{png,ico}']
+        src    : ['files/**', 'fonts/**', '*.{png,ico}']
+        dest   : 'build/'
+      images:
+        expand : true
+        cwd    : 'src/'
+        src    : ['img/**/*']
         dest   : 'build/'
       libs:
         expand : true
@@ -124,8 +129,8 @@ module.exports = (grunt) ->
             width: 1600
           ]
         expand: true
-        src: ['**/*.jpg']
-        cwd: 'src/img/welcome/'
+        cwd: 'src/raw-img/welcome/'
+        src: ['*.jpg']
         dest: 'build/img/welcome/'
       avatar:
         options:
@@ -138,8 +143,8 @@ module.exports = (grunt) ->
             width: 384
           ]
         expand: true
-        src: ['**/*.jpg']
-        cwd: 'src/img/avatar/'
+        cwd: 'src/raw-img/avatar/'
+        src: ['*.jpg']
         dest: "build/img/avatar/"
 
     # JSHint
@@ -193,7 +198,7 @@ module.exports = (grunt) ->
         files: ['src/pages/**/*.{md,hbs,html}', 'src/tpl/**/*.{md,hbs,html}']
         tasks: ['html']
       images:
-        files: ['src/images/**/*.{jpg}']
+        files: ['src/img/**/*.{jpg,png,svg}','src/raw-img/**/*.{jpg}']
         tasks: ['images']
 
 
@@ -208,7 +213,7 @@ module.exports = (grunt) ->
   grunt.registerTask 'css', ['assets','compass:compile','pleeease','copy:themecss']
   grunt.registerTask 'js', ['clean:js','libs','jshint','copy:themejs']
   grunt.registerTask 'html', ['clean:html','assemble:pages']
-  grunt.registerTask 'images', ['clean:images', 'responsive_images']
+  grunt.registerTask 'images', ['clean:images', 'copy:images', 'responsive_images']
 
   grunt.registerTask 'live', ['connect:basic','watch']
   grunt.registerTask 'build', ['clean:all','js','css','html','images']
