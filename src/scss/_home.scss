@@ -80,14 +80,21 @@
 			font-size: 2.1em;
 		}
 
+		.wf-sourcesanspro-n3-loaded {
+			.moi, a {
+				font-family: 'wf-sourcesanspro-n4', sans-serif;
+				font-weight: 400;
+			}
+		}
+
 		.moi {
-			font-family: 'SourceSansPro400', sans-serif;
+			font-family: sans-serif;
 			font-weight: 400;
 			color: #fff;
 		}
 
 		a {
-			font-family: 'SourceSansPro400', sans-serif;
+			font-family: sans-serif;
 			font-weight: 400;
 			color: #fff;
 			text-decoration: none;

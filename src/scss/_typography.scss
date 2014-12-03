@@ -1,5 +1,7 @@
+// https://github.com/typekit/fvd
+
 @font-face {
-  font-family: 'SourceSansPro400';
+  font-family: 'wf-sourcesanspro-n4';
   font-weight: 400;
   font-style: normal;
   src: url('../fonts/sourcesanspro-regular-webfont.eot');
@@ -11,7 +13,7 @@
 }
 
 @font-face {
-  font-family: 'SourceSansPro300';
+  font-family: 'wf-sourcesanspro-n3';
   font-weight: 300;
   font-style: normal;
   src: url('../fonts/sourcesanspro-light-webfont.eot');
@@ -22,8 +24,8 @@
        url('../fonts/sourcesanspro-light-webfont.svg#source_sans_prolight') format('svg');
 }
 
-.SourceSansPro300loaded body {
-	font-family: 'SourceSansPro300', sans-serif;
+.wf-sourcesanspro-n3-loaded body {
+	font-family: 'wf-sourcesanspro-n3', sans-serif;
 	font-weight: 300;
 }
 
