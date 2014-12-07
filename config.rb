@@ -1,6 +1,9 @@
 environment = :development
 # environment = :production
 
+# Require any additional compass plugins here.
+additional_import_paths = ['bower_components']
+
 # Set this to the root of your project when deployed:
 http_path = "/"
 sass_dir = "src/scss"
