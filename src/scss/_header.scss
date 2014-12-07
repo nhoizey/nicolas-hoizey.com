@@ -9,16 +9,31 @@
 	left: .5rem;
 	bottom: 1rem;
 
-	width: 2rem;
-	height: 3rem;
-	text-align: center;
-	border: none;
+	width: 3rem;
+	height: 4rem;
 	margin: 0;
-	padding: 0;
-	opacity: .9;
+	padding: .5rem;
+
+	text-align: center;
+
+	border: none;
+	border-radius: .5rem;
+
+	background-color: #222629;
+	color: #fff;
+	opacity: .75;
+
+	@media (min-width: $narrow-max) {
+		background-color: transparent;
+		left: 0;
+	}
 
 	@media (min-width: 45em) {
 		display: none;
+	}
+
+	.open & {
+		opacity: 1;
 	}
 
 	svg {
@@ -124,10 +139,10 @@
 			color: #999;
 
 			svg {
-				float: right;
 				width: 2rem;
 				height: 2rem;
-				margin: 0 0 0 1em;
+				margin: 0 0 0 .5em;
+				vertical-align: bottom;
 
 				path {
 					fill: #999;
