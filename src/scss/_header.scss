@@ -6,17 +6,15 @@
 
 .layout__header__toggle {
 	position: fixed;
-	top: 1em;
-	right: 1em;
+	left: .5rem;
+	bottom: 1rem;
 
-	color: #fff;
-	width: 3em;
-	height: 4em;
+	width: 2rem;
+	height: 3rem;
 	text-align: center;
 	border: none;
-	border-radius: .3em;
 	margin: 0;
-	padding: .2em;
+	padding: 0;
 	opacity: .9;
 
 	@media (min-width: 45em) {
@@ -24,6 +22,8 @@
 	}
 
 	svg {
+		width: 2rem;
+		height: 2rem;
 		transition: transform .5s ease-in-out;
 	}
 
@@ -47,16 +47,56 @@
 
 	.avatar {
 		margin: 0;
-		padding: 1em;
+		padding: 1rem .5rem;
+
+		img {
+			width: 2rem;
+			height: 2rem;
+			@media (min-height: 40em) {
+				margin-bottom: 6rem;
+			}
+
+			@media (min-width: $medium-max) {
+				width: 8rem;
+				height: 8rem;
+				margin-bottom: 0;
+			}
+
+			transition: all .5s ease-in-out;
+
+			.open & {
+				@media (min-height: 40em) {
+					width: 8rem;
+					height: 8rem;
+					margin-bottom: 0;
+				}
+			}
+		}
 
 		figcaption {
+			display: none;
+			opacity: 0;
+			transition: opacity .5s ease-in-out;
+
+			@media (min-height: 40em) {
+				display: block;
+			}
+
+			@media (min-width: $narrow-max) {
+				opacity: 1;
+			}
+
+			.open & {
+				opacity: 1;
+			}
+
 			p {
-				margin: .5em 0;
+				margin: .5rem 0;
 			}
 
 			.fn {
 				color: #fff;
-				font-size: 1.2em;
+				font-size: 1.2rem;
 			}
 		}
 	}
@@ -73,29 +113,43 @@
 
 		li {
 			margin: 0;
-			padding: .25em 1em;
 			width: 100%;
+		}
 
-			background-size: 1em 1em;
-			background-position: 1em center;
-			background-repeat: no-repeat;
+		a {
+			display: block;
+			padding: .5em .5em;
+			width: 100%;
+			text-decoration: none;
+			color: #999;
 
+			svg {
+				float: right;
+				width: 2rem;
+				height: 2rem;
+				margin: 0 0 0 1em;
 
-
+				path {
+					fill: #999;
+				}
 			}
 
 			&:hover {
 				background-color: #1C1F22;
+				color: #fff;
 				box-shadow: 0px 0px 0.25em 0px rgba(0, 0, 0, 0.125) inset;
+
+				svg {
+					path {
+						fill: #fff;
+					}
+				}
+			}
+
+			.active {
+				font-weight: 400;
 			}
 		}
 
-
-		a {
-			display: block;
-			width: 100%;
-			text-decoration: none;
-			color: rgba(255, 255, 255, .5);
-		}
 	}
 }

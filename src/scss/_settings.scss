@@ -1,0 +1,13 @@
+$narrow-max: 20rem;
+$narrow-nav: 13rem;
+$narrow-overflow: 0;
+$narrow-hidden: $narrow-nav - $narrow-overflow;
+$narrow-main: 100vw;
+$narrow-total: calc(#{$narrow-nav} + 100vw);
+
+$medium-max: 45rem;
+$medium-nav: 15rem;
+$medium-overflow: 3rem;
+$medium-hidden: $medium-nav - $medium-overflow;
+$medium-main: calc(100vw - #{$medium-overflow});
+$medium-total: calc(#{$medium-nav} + 100vw - #{$medium-overflow});

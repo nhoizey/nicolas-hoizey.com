@@ -5,73 +5,95 @@ body {
 	overflow-x: hidden;
 }
 
-.layout {
-	width: 100vw;
-	display: flex;
-	flex-direction: row;
-
-	.js & {
+.js {
+	.layout {
+		display: flex;
+		flex-direction: row;
 		position: relative;
-		left: -15rem;
-		width: calc(100vw + 15rem);
-		transition: transform .5s ease-in-out;
 
-		@media (min-width: 45em) {
+		width: $narrow-total;
+		left: -$narrow-hidden;
+
+		transition: transform .5s ease-in-out;
+	}
+
+	.open .layout {
+		transform: translate($narrow-hidden, 0);
+	}
+
+	.layout__header {
+		order: -1;
+		width: $narrow-nav;
+	}
+
+	.layout__main {
+		position: relative;
+		width: $narrow-main;
+		opacity: 1;
+
+		&:after {
+			content: ' ';
+			position: absolute;
 			left: 0;
-			width: 100vw;
+			top: 0;
+	  	bottom: 100%;
+			right: 0;
+			background-color: #000;
+	  	opacity: 0;
+			transition: opacity .3s ease-in-out;
+			transition-delay: .2s;
+		}
+
+		.open &:after {
+			bottom: 0;
+			opacity: .75;
+
+			@media (min-width: $medium-max) {
+				// if menu was open in small viewports, hide overlay when enlarging
+		  	bottom: 100%;
+				opacity: 0;
+			}
+		}
+
+	}
+
+	@media (min-width: $narrow-max) {
+		.layout {
+			width: $medium-total;
+			left: -$medium-hidden;
+		}
+
+		.open .layout {
+			transform: translate($medium-hidden, 0);
+		}
+
+		.layout__header {
+			width: $medium-nav;
+		}
+
+		.layout__main {
+			width: $medium-main;
 		}
 	}
 
-	.open & {
-		transform: translate(15rem, 0);
-
-		@media (min-width: 45em) {
+	@media (min-width: $medium-max) {
+		.layout {
+			width: 100vw;
+			left: 0;
+		}
+		.open .layout {
 			// if menu was open in small viewports, translate back when enlarging
 			transform: translate(0, 0);
 		}
-	}
-}
 
-.layout__header {
-	order: -1;
-	width: 15rem;
-
-	@media (min-width: 45em) {
-		width: 33.3vw;
+		.layout__header {
+			width: 33.3vw;
+		}
 	}
 
 	@media (min-width: 66em) {
-		width: 22rem;
-	}
-}
-
-.layout__main {
-	position: relative;
-	width: 100vw;
-	opacity: 1;
-
-	&:after {
-		content: ' ';
-		position: absolute;
-		left: 0;
-		top: 0;
-  	bottom: 100%;
-		right: 0;
-		background-color: #000;
-  	opacity: 0;
-		transition: opacity .3s ease-in-out;
-		transition-delay: .2s;
-	}
-
-	.open &:after {
-		bottom: 0;
-		opacity: .75;
-
-		@media (min-width: 45em) {
-			// if menu was open in small viewports, hide overlay when enlarging
-	  	bottom: 100%;
-			opacity: 0;
+		.layout__header {
+			width: 22rem;
 		}
-
 	}
 }
