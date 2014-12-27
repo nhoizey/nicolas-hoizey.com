@@ -1,5 +1,5 @@
 /* Really narrow screen, menu invisible */
-$nav-narrow-max: 20rem;
+$nav-narrow-max: 20em;
 $nav-narrow-width: 80vw;
 $nav-narrow-overflow: 0;
 $nav-narrow-hidden: $nav-narrow-width - $nav-narrow-overflow;
@@ -7,17 +7,17 @@ $nav-narrow-main: 100vw;
 $nav-narrow-total: calc(#{$nav-narrow-width} + 100vw);
 
 /* Small screen, menu icons visible */
-$nav-medium-max: 50rem;
-$nav-medium-width: 15rem;
-$nav-medium-overflow: 3rem;
+$nav-medium-max: 50em;
+$nav-medium-width: 15em;
+$nav-medium-overflow: 3em;
 $nav-medium-hidden: $nav-medium-width - $nav-medium-overflow;
 $nav-medium-main: calc(100vw - #{$nav-medium-overflow});
 $nav-medium-total: calc(#{$nav-medium-width} + 100vw - #{$nav-medium-overflow});
 
 /* Large screen, full menu visible */
-$nav-wide-width: 15rem;
+$nav-wide-width: 15em;
 $nav-wide-main: calc(100vw - #{$nav-wide-width});
 $nav-wide-total: 100vw;
 
 /* Tall screen, fixed menu */
-$nav-fixed-min-height: 100rem;
+$nav-fixed-min-height: 100em;
