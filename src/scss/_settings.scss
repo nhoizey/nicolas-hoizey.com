@@ -1,13 +1,23 @@
-$narrow-max: 20rem;
-$narrow-nav: 13rem;
-$narrow-overflow: 0;
-$narrow-hidden: $narrow-nav - $narrow-overflow;
-$narrow-main: 100vw;
-$narrow-total: calc(#{$narrow-nav} + 100vw);
+/* Really narrow screen, menu invisible */
+$nav-narrow-max: 20rem;
+$nav-narrow-width: 80vw;
+$nav-narrow-overflow: 0;
+$nav-narrow-hidden: $nav-narrow-width - $nav-narrow-overflow;
+$nav-narrow-main: 100vw;
+$nav-narrow-total: calc(#{$nav-narrow-width} + 100vw);
 
-$medium-max: 45rem;
-$medium-nav: 15rem;
-$medium-overflow: 3rem;
-$medium-hidden: $medium-nav - $medium-overflow;
-$medium-main: calc(100vw - #{$medium-overflow});
-$medium-total: calc(#{$medium-nav} + 100vw - #{$medium-overflow});
+/* Small screen, menu icons visible */
+$nav-medium-max: 50rem;
+$nav-medium-width: 15rem;
+$nav-medium-overflow: 3rem;
+$nav-medium-hidden: $nav-medium-width - $nav-medium-overflow;
+$nav-medium-main: calc(100vw - #{$nav-medium-overflow});
+$nav-medium-total: calc(#{$nav-medium-width} + 100vw - #{$nav-medium-overflow});
+
+/* Large screen, full menu visible */
+$nav-wide-width: 15rem;
+$nav-wide-main: calc(100vw - #{$nav-wide-width});
+$nav-wide-total: 100vw;
+
+/* Tall screen, fixed menu */
+$nav-fixed-min-height: 100rem;

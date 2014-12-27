@@ -1,99 +1,213 @@
 body {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 
-	overflow-x: hidden;
+  overflow-x: hidden;
+}
+
+.layout__header__toggle, .layout__header__toggle figure {
+  display: block;
+  width: 3rem;
+  height: 4rem;
+  margin: 0;
+  padding: .5rem;
+  border: none;
+  border-radius: .5rem;
+
+  position: fixed;
+  left: calc(100vw - 4rem);
+  top: calc(100vh - 9rem);
+
+  text-align: center;
+
+  background-color: #222629;
+  color: #fff;
+  opacity: .85;
+
+  svg {
+    width: 2rem;
+    height: 2rem;
+    transition: transform .5s ease-in-out;
+    transform: rotate(90deg); // point down when there is no JS
+
+    @media (min-width: $nav-narrow-max) {
+      transform: rotate(-120deg); // point down when there is no JS
+    }
+  }
+
+  figcaption {
+      font-size: .8rem;
+  }
+  &:focus {
+      outline: none;
+  }
+}
+
+@media (min-width: $nav-narrow-max) {
+  .layout {
+    display: flex;
+    flex-direction: row;
+    width: $nav-medium-total;
+    position: relative;
+    left: -$nav-medium-hidden;
+  }
+
+  .layout__header {
+    order: -1;
+    width: $nav-medium-width;
+  }
+
+  .layout__main {
+    position: relative;
+    width: $nav-medium-main;
+  }
+}
+
+@media (min-width: $nav-medium-max) {
+  .layout {
+    width: 100vw;
+    left: 0;
+  }
+  .open .layout {
+    // if menu was open in small viewports, move back when enlarging
+    left: 0;
+  }
+
+  .layout__header {
+    width: $nav-wide-width;
+  }
+
+  .layout__main {
+    width: $nav-wide-main;
+  }
+
+  .layout__header__toggle {
+    // display: none;
+  }
 }
 
 .js {
-	.layout {
-		display: flex;
-		flex-direction: row;
-		position: relative;
+  .layout {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: $nav-narrow-total;
+    left: -$nav-narrow-hidden;
+    transition: left .5s ease-in-out;
 
-		width: $narrow-total;
-		left: -$narrow-hidden;
+    @media (min-width: $nav-narrow-max) {
+      width: $nav-medium-total;
+      left: -$nav-medium-hidden;
+    }
 
-		transition: transform .5s ease-in-out;
-	}
+    @media (min-width: $nav-medium-max) {
+      width: 100vw;
+      left: 0;
+    }
+  }
 
-	.open .layout {
-		transform: translate($narrow-hidden, 0);
-	}
+  .open .layout {
+    left: 0;
 
-	.layout__header {
-		order: -1;
-		width: $narrow-nav;
-	}
+    @media (min-width: $nav-narrow-max) {
+      left: 0;
+    }
+  }
 
-	.layout__main {
-		position: relative;
-		width: $narrow-main;
-		opacity: 1;
+  .layout__header {
+    order: -1;
+    width: $nav-narrow-width;
 
-		&:after {
-			content: ' ';
-			position: absolute;
-			left: 0;
-			top: 0;
-	  	bottom: 100%;
-			right: 0;
-			background-color: #000;
-	  	opacity: 0;
-			transition: opacity .3s ease-in-out;
-			transition-delay: .2s;
-		}
+    @media (min-width: $nav-narrow-max) {
+      width: $nav-medium-width;
+    }
+  }
 
-		.open &:after {
-			bottom: 0;
-			opacity: .75;
+  .layout__main {
+    position: relative;
+    width: $nav-narrow-main;
+    opacity: 1;
 
-			@media (min-width: $medium-max) {
-				// if menu was open in small viewports, hide overlay when enlarging
-		  	bottom: 100%;
-				opacity: 0;
-			}
-		}
+    @media (min-width: $nav-narrow-max) {
+      width: $nav-medium-main;
+    }
 
-	}
+    &:after {
+      content: ' ';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 100%;
+      right: 0;
+      background-color: #000;
+      opacity: 0;
+      transition: opacity .3s ease-in-out;
+      transition-delay: .2s;
+    }
+  }
 
-	@media (min-width: $narrow-max) {
-		.layout {
-			width: $medium-total;
-			left: -$medium-hidden;
-		}
+  /* Tall screen, fixed menu */
+  @media (min-height: $nav-fixed-min-height) {
+    .layout {
+      width: 100vw;
+      left: 0;
+    }
 
-		.open .layout {
-			transform: translate($medium-hidden, 0);
-		}
+    .layout__header {
+      position: fixed;
+      top: 0;
+      left: -$nav-narrow-hidden;
+      height: 100vh;
 
-		.layout__header {
-			width: $medium-nav;
-		}
+      @media (min-width: $nav-narrow-max) {
+        left: -$nav-medium-hidden;
+      }
 
-		.layout__main {
-			width: $medium-main;
-		}
-	}
+      @media (min-width: $nav-medium-max) {
+        left: 0;
+      }
+    }
 
-	@media (min-width: $medium-max) {
-		.layout {
-			width: 100vw;
-			left: 0;
-		}
-		.open .layout {
-			// if menu was open in small viewports, translate back when enlarging
-			transform: translate(0, 0);
-		}
+    .layout__main {
+      width: 100vw;
+      margin-left: $nav-narrow-overflow;
 
-		.layout__header {
-			width: 33.3vw;
-		}
-	}
+      @media (min-width: $nav-narrow-max) {
+        margin-left: $nav-medium-overflow;
+      }
 
-	@media (min-width: 66em) {
-		.layout__header {
-			width: 22rem;
-		}
-	}
+      @media (min-width: $nav-medium-max) {
+        margin-left: $nav-wide-width;
+      }
+    }
+  }
+
+  .open {
+    .layout__main:after {
+      bottom: 0;
+      opacity: .75;
+
+      @media (min-width: $nav-medium-max) {
+        // if menu was open in small viewports, hide overlay when enlarging
+        bottom: 100%;
+        opacity: 0;
+      }
+    }
+  }
+
+  .layout__header__toggle {
+    svg {
+      transform: rotate(0deg);
+    }
+
+    @media (min-width: $nav-medium-max) {
+      display: none;
+    }
+  }
+
+  .open .layout__header__toggle {
+    svg {
+      transform: rotate(180deg);
+    }
+  }
 }

@@ -48,13 +48,17 @@
 		font-weight: 300;
 		font-size: 7vw;
 
-		@media (min-width: 20em) {
-			font-size: 1.4em;
+		@media (min-width: $nav-narrow-max) {
+			font-size: 6vw;
 		}
 
-		@media (min-width: 30em) {
-			font-size: 1.5em;
+		@media (min-width: 23em) {
+			font-size: 5.5vw;
 		}
+
+    @media (min-width: 26em) {
+      font-size: 5vw;
+    }
 
 		@media (min-width: 40em) {
 			font-size: 1.6em;

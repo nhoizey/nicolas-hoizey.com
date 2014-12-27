@@ -1,170 +1,98 @@
 .layout__header {
-	background-color: #222629;
-	color: rgba(255, 255, 255, .5);
-	box-shadow: -0.25em 0px 0.25em 0px rgba(0, 0, 0, 0.1) inset;
-}
-
-.layout__header__toggle {
-	position: fixed;
-	left: .5rem;
-	bottom: 1rem;
-
-	width: 3rem;
-	height: 4rem;
-	margin: 0;
-	padding: .5rem;
-
-	text-align: center;
-
-	border: none;
-	border-radius: .5rem;
-
-	background-color: #222629;
-	color: #fff;
-	opacity: .75;
-
-	@media (min-width: $narrow-max) {
-		background-color: transparent;
-		left: 0;
-	}
-
-	@media (min-width: 45em) {
-		display: none;
-	}
-
-	.open & {
-		opacity: 1;
-	}
-
-	svg {
-		width: 2rem;
-		height: 2rem;
-		transition: transform .5s ease-in-out;
-	}
-
-	.open & {
-		svg {
-			transform: rotate(180deg);
-		}
-	}
-
-	figcaption {
-		font-size: .9em;
-	}
-
-	&:focus {
-		outline: none;
-	}
+    background-color: #222629;
+    color: rgba(255, 255, 255, 0.5);
+    .js {
+        box-shadow: -0.25em 0px 0.25em 0px rgba(0, 0, 0, 0.1) inset;
+    }
 }
 
 .header__top {
-	text-align: right;
-
-	.avatar {
-		margin: 0;
-		padding: 1rem .5rem;
-
-		img {
-			width: 2rem;
-			height: 2rem;
-			@media (min-height: 40em) {
-				margin-bottom: 6rem;
-			}
-
-			@media (min-width: $medium-max) {
-				width: 8rem;
-				height: 8rem;
-				margin-bottom: 0;
-			}
-
-			transition: all .5s ease-in-out;
-
-			.open & {
-				@media (min-height: 40em) {
-					width: 8rem;
-					height: 8rem;
-					margin-bottom: 0;
-				}
-			}
-		}
-
-		figcaption {
-			display: none;
-			opacity: 0;
-			transition: opacity .5s ease-in-out;
-
-			@media (min-height: 40em) {
-				display: block;
-			}
-
-			@media (min-width: $narrow-max) {
-				opacity: 1;
-			}
-
-			.open & {
-				opacity: 1;
-			}
-
-			p {
-				margin: .5rem 0;
-			}
-
-			.fn {
-				color: #fff;
-				font-size: 1.2rem;
-			}
-		}
-	}
-
-	nav {
-		font-size: 1.2em;
-		font-weight: 300;
-
-		ul {
-			margin: 0;
-			padding: 0;
-			list-style-type: none;
-		}
-
-		li {
-			margin: 0;
-			width: 100%;
-		}
-
-		a {
-			display: block;
-			padding: .5em .5em;
-			width: 100%;
-			text-decoration: none;
-			color: #999;
-
-			svg {
-				width: 2rem;
-				height: 2rem;
-				margin: 0 0 0 .5em;
-				vertical-align: bottom;
-
-				path {
-					fill: #999;
-				}
-			}
-
-			&:hover {
-				background-color: #1C1F22;
-				color: #fff;
-				box-shadow: 0px 0px 0.25em 0px rgba(0, 0, 0, 0.125) inset;
-
-				svg {
-					path {
-						fill: #fff;
-					}
-				}
-			}
-
-			.active {
-				font-weight: 400;
-			}
-		}
-
-	}
+    text-align: right;
+    .avatar {
+        margin: 0;
+        padding: 1rem .5rem;
+        img {
+            width: 2rem;
+            height: 2rem;
+            @media (min-height: 40em) {
+                margin-bottom: 6rem;
+            }
+            @media (min-width: $nav-medium-max) {
+                width: 8rem;
+                height: 8rem;
+                margin-bottom: 0;
+            }
+            transition: all .5s ease-in-out;
+            .open & {
+                @media (min-height: 40em) {
+                    width: 8rem;
+                    height: 8rem;
+                    margin-bottom: 0;
+                }
+            }
+        }
+        figcaption {
+            display: none;
+            opacity: 0;
+            transition: opacity .5s ease-in-out;
+            @media (min-height: 40em) {
+                display: block;
+            }
+            @media (min-width: $nav-narrow-max) {
+                opacity: 1;
+            }
+            .open & {
+                opacity: 1;
+            }
+            p {
+                margin: .5rem 0;
+            }
+            .fn {
+                color: #fff;
+                font-size: 1.2rem;
+            }
+        }
+    }
+    nav {
+        font-size: 1.2em;
+        font-weight: 300;
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        li {
+            margin: 0;
+            width: 100%;
+        }
+        a {
+            display: block;
+            padding: .5em .5em;
+            width: 100%;
+            text-decoration: none;
+            color: #999;
+            svg {
+                width: 2rem;
+                height: 2rem;
+                margin: 0 0 0 .5em;
+                vertical-align: bottom;
+                path {
+                    fill: #999;
+                }
+            }
+            &:hover {
+                background-color: #1C1F22;
+                color: #fff;
+                box-shadow: 0px 0px 0.25em 0px rgba(0, 0, 0, 0.125) inset;
+                svg {
+                    path {
+                        fill: #fff;
+                    }
+                }
+            }
+            .active {
+                font-weight: 400;
+            }
+        }
+    }
 }
