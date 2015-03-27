@@ -1,0 +1,61 @@
+# based on https://github.com/poole/lanyon
+# Dependencies
+markdown:            redcarpet
+highlighter:         pygments
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           :year/:month/:title.html
+relative_permalinks: true
+
+# Setup
+title:               Nicolas Hoizey
+tagline:             "aka <a href=\"https://twitter.com/nhoizey\">@nhoizey</a>"
+description:         "Ce blog est mon recueil de créations et réflexions sur tous des sujets très variés, de la photo au Web en passant par la société, les voyages, etc."
+url:                 http://nicolas-hoizey.com
+baseurl:             /
+paginate:            5
+
+# Settings
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+
+# About/contact
+author:
+  name:              Nicolas Hoizey
+  url:               https://twitter.com/nhoizey
+  email:             nicolas@hoizey.com
+  twitter_username:  nhoizey
+  github_username:   nhoizey
+
+# Custom vars
+version:             1.0.0
+
+# <picture>
+picture:
+  source: "_assets/fullsize-images"
+  output: "assets/images"
+  markup: picture
+  presets:
+    default:
+      ppi: [1, 2]
+      source_1280:
+        media: "(min-width: 1024px)"
+        width: "1280"
+      source_1024:
+        media: "(min-width: 768px)"
+        width: "1024"
+      source_768:
+        media: "(min-width: 640px)"
+        width: "768"
+      source_640:
+        media: "(min-width: 320px)"
+        width: "640"
+      source_default:
+        width: "320"
