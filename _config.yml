@@ -55,6 +55,16 @@ author:
   twitter_username:  nhoizey
   github_username:   nhoizey
 
+collections:
+  projets:
+    output: true
+    permalink: /projets/:path/
+  publications:
+    output: true
+    permalink: /publications/:path/
+  conferences:
+    output: true
+    permalink: /conferences/:path/
 
 # <picture>
 picture:

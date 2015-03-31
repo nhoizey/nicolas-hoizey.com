@@ -1,0 +1,20 @@
+---
+layout: page
+title: Conférences
+---
+
+<div class="posts">
+  {% assign conferences = site.conferences | sort: 'date' | reverse %}
+  {% for conference in conferences %}
+  <div class="post">
+    <h1 class="post-title">
+      <span class="post-date">{{ conference.date | date_to_long_string }}</span>
+      <a href="{{ conference.url }}">
+        {{ conference.title }}
+      </a>
+    </h1>
+    {{ conference.content }}
+  </div>
+  {% endfor %}
+</div>
+

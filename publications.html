@@ -1,0 +1,18 @@
+---
+layout: page
+title: Publications
+---
+
+<div class="posts">
+  {% for publication in site.publications %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ publication.url }}">
+        {{ publication.title }}
+      </a>
+    </h1>
+    {{ publication.content }}
+  </div>
+  {% endfor %}
+</div>
+

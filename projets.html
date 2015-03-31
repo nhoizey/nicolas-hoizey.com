@@ -1,0 +1,18 @@
+---
+layout: page
+title: Projets
+---
+
+<div class="posts">
+  {% for projet in site.projets %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ projet.url }}">
+        {{ projet.title }}
+      </a>
+    </h1>
+    {{ projet.content }}
+  </div>
+  {% endfor %}
+</div>
+
