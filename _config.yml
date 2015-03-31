@@ -25,6 +25,25 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  -
+    scope:
+      path: ""
+      type: "conferences"
+    values:
+      layout: "conference"
+  -
+    scope:
+      path: ""
+      type: "publications"
+    values:
+      layout: "publication"
+  -
+    scope:
+      path: ""
+      type: "projets"
+    values:
+      layout: "projet"
+
 
 # About/contact
 author:
