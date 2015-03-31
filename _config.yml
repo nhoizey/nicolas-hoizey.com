@@ -8,14 +8,6 @@ highlighter:         pygments
 permalink:           :year/:month/:title.html
 relative_permalinks: true
 
-# Setup
-title:               Nicolas Hoizey
-tagline:             "aka <a href=\"https://twitter.com/nhoizey\">@nhoizey</a>"
-description:         "Ce blog est mon recueil de créations et réflexions sur tous des sujets très variés, de la photo au Web en passant par la société, les voyages, etc."
-url:                 http://nicolas-hoizey.com
-baseurl:             /
-paginate:            5
-
 # Settings
 defaults:
   -
@@ -43,11 +35,22 @@ defaults:
     values:
       layout: "projet"
 
+future: false
+show_drafts: false
+exclude: [".sass-cache", "*.sublime-project", "*.sublime-workspace", "README.md", "LICENSE.md", "node_modules", "Gruntfile.js", "package.json"]
+
+# Setup
+url:                 http://nicolas-hoizey.com
+baseurl:             /
+paginate:            5
 
 # About/contact
+title:               Nicolas Hoizey
+tagline:             "aka @nhoizey"
+description:         "Ce site est mon recueil de créations et réflexions sur des sujets très variés, de la photo au Web en passant par la société, les voyages, etc."
 author:
   name:              Nicolas Hoizey
-  url:               https://twitter.com/nhoizey
+  url:               http://nicolas-hoizey.com
   email:             nicolas@hoizey.com
   twitter_username:  nhoizey
   github_username:   nhoizey
