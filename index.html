@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Home
+title: Accueil
 ---
+
+<p>{{ site.description }}</p>
 
 <div class="posts">
   {% for post in paginator.posts %}
@@ -11,10 +13,7 @@ title: Home
         {{ post.title }}
       </a>
     </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
+    <span class="post-date">{{ post.date | date_to_long_string }}</span>
   </div>
   {% endfor %}
 </div>
