@@ -3,8 +3,6 @@ title:  		Les super délires des clips d'OK Go
 date:   		2014-06-19
 lang:				fr
 categories: musique vidéo
-redirects:
-- /blog/les-super-delires-des-clips-d-ok-go
 ---
 
 Voilà déjà 5 ans que j'ai découvert le groupe de rock [OK Go](http://fr.wikipedia.org/wiki/OK_Go) grâce à son [clip à base de tapis de course à pied pour la chanson « Here It Goes Again »](https://www.youtube.com/watch?v=dTAAsCNK7RA). Mais c'est l'année suivante qu'ils ont commencé à vraiment émerveiller le monde entier avec leur clips bien délirants et bluffants techniquement. En voici un florilège.

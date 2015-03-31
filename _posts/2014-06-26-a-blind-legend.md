@@ -3,8 +3,6 @@ title:  		A Blind Legend
 date:   		2014-06-26
 lang:				fr
 categories: jeu financement
-redirects:
-- /blog/a-blind-legend
 ---
 
 J’ai soutenu [le projet « A Blind Legend » sur Ulule](http://fr.ulule.com/a-blind-legend/) dès que je l’ai découvert ! C’est un projet de jeu d’aventure pour mobile qui a la particularité de n’utiliser que des sons, aucune interface visuelle.
