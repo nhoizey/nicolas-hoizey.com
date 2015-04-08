@@ -1,14 +1,6 @@
 <head>
   <meta charset="utf-8" />
-
-  <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}public/css/poole.css" />
-  <link rel="stylesheet" href="{{ site.baseurl }}public/css/syntax.css" />
-  <link rel="stylesheet" href="{{ site.baseurl }}public/css/lanyon.css" />
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400" />
 
   {% if page.title == "Accueil" %}
     <title>{{ site.title }} - {{ site.tagline }}</title>
@@ -16,13 +8,8 @@
     <title>{{ page.title }} - {{ site.title }}</title>
   {% endif %}
 
-  <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}public/apple-touch-icon-precomposed.png" />
-  <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico" />
-
-  <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="Abonnez-vous au flux" href="/atom.xml" />
 
-  <!-- pictureFill -->
-  <script async="true" src="{{ site.baseurl }}public/js/picturefill-2.3.0.js"></script>
+  {% stylesheet styles %}
+  {% javascript picturefill-2.3.0 async %}
 </head>
