@@ -16,24 +16,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-  -
-    scope:
-      path: ""
-      type: "conferences"
-    values:
-      layout: "conference"
-  -
-    scope:
-      path: ""
-      type: "publications"
-    values:
-      layout: "publication"
-  -
-    scope:
-      path: ""
-      type: "projets"
-    values:
-      layout: "projet"
 
 future: false
 show_drafts: false
@@ -54,17 +36,6 @@ author:
   email:             nicolas@hoizey.com
   twitter_username:  nhoizey
   github_username:   nhoizey
-
-collections:
-  projets:
-    output: true
-    permalink: /projets/:path/
-  publications:
-    output: true
-    permalink: /publications/:path/
-  conferences:
-    output: true
-    permalink: /conferences/:path/
 
 # <picture>
 picture:
