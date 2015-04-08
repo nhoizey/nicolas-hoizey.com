@@ -1,7 +1,4 @@
-# based on https://github.com/poole/lanyon
-
-# Dependencies
-markdown:            redcarpet
+markdown:            kramdown
 highlighter:         pygments
 
 # Permalinks
@@ -19,7 +16,19 @@ defaults:
 
 future: false
 show_drafts: false
-exclude: [".sass-cache", "*.sublime-project", "*.sublime-workspace", "README.md", "LICENSE.md", "node_modules", "Gruntfile.js", "package.json"]
+exclude: [".sass-cache", ".jekyll-assets-cache", "autoprefixer.yml", "Gemfile*", "*.sublime-project", "*.sublime-workspace", "README.md", "LICENSE.md", "TODO.md", "new_post.sh"]
+
+assets:
+  js_compressor:  uglifier
+  css_compressor: sass
+  cache: true
+
+# Tags
+tag_page_layout: tag
+tag_page_dir: tags
+tag_feed_layout: atom-tag
+tag_feed_dir: tags
+# tag_permalink_style: pretty
 
 # Setup
 url:                 http://nicolas-hoizey.com
