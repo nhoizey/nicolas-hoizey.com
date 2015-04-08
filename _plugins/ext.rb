@@ -1,1 +1,2 @@
-require 'jekyll/localization'
+require 'jekyll/tagging'
+require 'jekyll-assets'
