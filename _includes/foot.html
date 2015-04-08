@@ -1,0 +1,35 @@
+<script>
+	/* fontfaceobserver Copyright (c) 2014 - Bram Stein https://github.com/bramstein/fontfaceobserver/ */
+	{% asset fontfaceobserver.standalone.js %}
+
+	/*
+	Fonts are loaded through @font-face rules in the CSS whenever an element references them.
+	FontFaceObserver creates a referencing element to trigger the font request, and lsisten for font load events.
+	When all 3 fonts are loaded, we enable them by adding a class to the html element
+*/
+(function( w ){
+	// if the class is already set, we're good.
+	if( w.document.documentElement.className.indexOf( "fonts-loaded" ) > -1 ){
+		return;
+	}
+	var fontA = new w.FontFaceObserver( "Source Sans Pro", {
+		weight: 300
+	});
+	var fontB = new w.FontFaceObserver( "Source Sans Pro", {
+		weight: 600
+	});
+	var fontC = new w.FontFaceObserver( "Source Sans Pro", {
+		weight: 300,
+		style: "italic"
+	});
+	var fontD = new w.FontFaceObserver( "Source Sans Pro", {
+		weight: 600,
+		style: "italic"
+	});
+	w.Promise
+		.all([fontA.check(), fontB.check(), fontC.check(), fontD.check()])
+		.then(function(){
+			w.document.documentElement.className += " fonts-loaded";
+		});
+}( this ));
+</script>
