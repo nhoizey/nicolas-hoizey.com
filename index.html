@@ -3,20 +3,19 @@ layout: default
 title: Accueil
 ---
 
-<p>{{ site.description }}</p>
+<h1>Nicolas Hoizey</h1>
+<p class="intro">Bienvenue sur mon recueil de créations et réflexions sur des sujets très variés, de la photo au Web en passant par la société, les voyages, etc.</p>
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-    <span class="post-date">{{ post.date | date_to_long_string }}</span>
-  </div>
+<section class="list">
+  <h2>Contenus récents</h2>
+  {% for page in paginator.posts %}
+    <article>
+      {% include article-header.html page=page %}
+      <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+      {{ page.excerpt }}
+    </article>
   {% endfor %}
-</div>
+</section>
 
 <div class="pagination">
   {% if paginator.next_page %}
@@ -34,4 +33,3 @@ title: Accueil
     <span class="pagination-item newer">Newer</span>
   {% endif %}
 </div>
-
