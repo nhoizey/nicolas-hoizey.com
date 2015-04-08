@@ -1,3 +1,5 @@
 *.DS_Store
 *.sublime-*
 _site
+.jekyll-assets-cache
+.sass-cache
