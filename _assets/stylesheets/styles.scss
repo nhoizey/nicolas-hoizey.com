@@ -1,14 +1,6 @@
-@import 'fonts';
-@import 'basics';
 @import 'youtube';
 
-.fonts-loaded body {
-  font-family: "Source Sans Pro", sans-serif;
-}
-
 body {
-  font-family: sans-serif;
-
   margin: 0;
   padding: 0;
   min-height: 100vh;
@@ -119,7 +111,7 @@ h3 {
 .intro {
   font-size: 1.2em;
   letter-spacing: 0;
-  color: mine-shaft;
+  color: #333;
 
   @media (min-width: 30em) {
     font-weight: 600;
@@ -142,7 +134,7 @@ article {
   }
 
   header {
-    color: #666666;
+    color: #666;
 
     dl {
       margin: 0;

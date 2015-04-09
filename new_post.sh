@@ -18,9 +18,7 @@ read -d '' body <<EOF
 ---
 title:			$title
 lang:				fr
-categories:
--
--
+tags: 			[ , ]
 ---
 
 EOF

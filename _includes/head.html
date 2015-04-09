@@ -10,6 +10,18 @@
 
   <link rel="alternate" type="application/rss+xml" title="Abonnez-vous au flux" href="/atom.xml" />
 
-  {% stylesheet styles %}
+  <style>
+  {% asset critical %}
+  </style>
+
+  <script>
+  {% asset loadCSS %}
+  loadCSS("{% asset_path styles %}");
+  </script>
+  <noscript>
+    <link href="{% asset_path styles %}" rel="stylesheet">
+    <link href="{% asset_path more-fonts %}" rel="stylesheet">
+  </noscript>
+
   {% javascript picturefill-2.3.0 async %}
 </head>

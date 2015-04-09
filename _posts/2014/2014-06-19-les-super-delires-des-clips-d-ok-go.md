@@ -6,6 +6,8 @@ tags: [musique, vidéo]
 
 Voilà déjà 5 ans que j'ai découvert le groupe de rock [OK Go](http://fr.wikipedia.org/wiki/OK_Go) grâce à son [clip à base de tapis de course à pied pour la chanson « Here It Goes Again »](https://www.youtube.com/watch?v=dTAAsCNK7RA). Mais c'est l'année suivante qu'ils ont commencé à vraiment émerveiller le monde entier avec leur clips bien délirants et bluffants techniquement. En voici un florilège.
 
+---
+
 ## This Too Shall Pass
 
 Voici en effet en 2010 un [clip pour la chanson « This Too Shall Pass »](https://www.youtube.com/watch?v=qybUFnY7Y8w), utilisant une [machine de Rube Goldberg](http://fr.wikipedia.org/wiki/Machine_de_Rube_Goldberg) dans un immense entrepôt[^1] :

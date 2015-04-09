@@ -6,7 +6,9 @@ tags:       [jeu, RWD, SVG, esviji]
 
 Voilà plus d'un an que je travaille sur une nouvelle version de mon jeu *esviji* développé en technologies Web, et plus particulièrement en SVG.
 
-Avant la sortie prochaine de cette v2 sur tous vos écrans, voici déjà un petit *teasing* de son interface devenue complètement responsive :
+Avant la sortie prochaine de cette v2 sur tous vos écrans, voici déjà un petit *teasing* de son interface devenue complètement responsive.
+
+---
 
 {% youtube R2rxU9cVSqw %}
 
