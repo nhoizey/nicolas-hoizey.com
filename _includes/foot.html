@@ -8,8 +8,7 @@
 	var observer = new w.FontFaceObserver("Source Sans Pro", { weight: 300 });
 	observer.check(null, 5000).then(function() {
 		w.document.documentElement.className += " fonts-loaded";
-		console.log("{% asset_path more-fonts %}");
-		w.loadCSS("{% asset_path more-fonts %}");
+		w.loadCSS("{% asset_path morefonts %}");
 	});
 }(this));
 </script>
