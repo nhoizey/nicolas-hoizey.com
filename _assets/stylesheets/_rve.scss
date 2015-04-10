@@ -1,3 +1,5 @@
+// https://github.com/erossignon/jekyll-youtube-lazyloading
+
 article .embed-video-container iframe {
   margin: 0;
 }
@@ -30,15 +32,15 @@ article .embed-video-container iframe {
 }
 
 .ratio-16-9 {
-  padding-bottom: 56.25%; /* 9/16*100 */
+  padding-bottom: 56.25%; // 9/16*100
 }
 
 .ratio-4-3 {
-  padding-bottom: 75%; /* 3/4*100 */
+  padding-bottom: 75%; // 3/4*100
 }
 
 .ratio-1-1 {
-  padding-bottom: 100%; /* ... */
+  padding-bottom: 100%;
 }
 
 a.youtube-lazy-link {

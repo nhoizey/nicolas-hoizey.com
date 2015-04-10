@@ -1,6 +1,8 @@
 #  (c) Etienne Rossignon
 #  Licence : MIT
 #
+#  https://github.com/erossignon/jekyll-youtube-lazyloading
+#
 #  this liquid plugin insert a embeded youtube video to your octopress or Jekill blog
 #  using the following syntax:
 #    {% youtube ABCDEF123  %}
