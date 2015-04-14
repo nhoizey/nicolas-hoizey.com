@@ -5,6 +5,9 @@ highlighter:         pygments
 permalink:           :year/:month/:title.html
 relative_permalinks: true
 
+gems:
+  - jekyll-sitemap
+
 # Settings
 defaults:
   -

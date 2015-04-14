@@ -9,4 +9,5 @@ group :jekyll_plugins do
 	gem 'jekyll-assets'
 	gem 'autoprefixer-rails'
 	gem 'uglifier'
+	gem 'jekyll-sitemap'
 end
