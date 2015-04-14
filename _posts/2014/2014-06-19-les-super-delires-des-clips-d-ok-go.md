@@ -18,15 +18,13 @@ Voici en effet en 2010 un [clip pour la chanson « This Too Shall Pass »](https
 
 La vidéo a été vue plus de 43 millions de fois sur YouTube.
 
-Cela devrait rappeler à certains d'entre vous le jeu « [The Incredible Machine](http://fr.wikipedia.org/wiki/The_Incredible_Machine) », une merveille sur laquelle j'ai passé des heures il y a bien longtemps[^2] :
+Cela devrait rappeler à certains d'entre vous le jeu « [The Incredible Machine](http://fr.wikipedia.org/wiki/The_Incredible_Machine) », une merveille sur laquelle j'ai passé des heures il y a bien longtemps[^2].
 
 [^2]: Les plus jeunes connaissent peut-être plus « [Amazing Alex](http://www.amazingalex.com/) » de Rovio (Angry Birds), mais je ne l'ai vraiment pas trouvé à la hauteur de sa référence…]
 
-{% picture super-delires-clips-ok-go/the-incredible-machine.gif %}
-
 Ils sont allés jusqu'à mettre en ligne [le making of du clip](http://media.okgo.net/ttsp/FloorPlan_TV.html), très intéressant :
 
-{% picture super-delires-clips-ok-go/ok-go-this-too-shall-pass-making-of.png %}
+{% picture super-delires-clips-ok-go/ok-go-this-too-shall-pass-making-of.jpg %}
 
 ## Needing/Getting {#ng}
 
