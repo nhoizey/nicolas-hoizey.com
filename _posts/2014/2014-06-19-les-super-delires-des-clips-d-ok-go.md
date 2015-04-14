@@ -8,7 +8,7 @@ Voilà déjà 5 ans que j'ai découvert le groupe de rock [OK Go](http://fr.wiki
 
 ---
 
-## This Too Shall Pass
+## This Too Shall Pass {#ttsp}
 
 Voici en effet en 2010 un [clip pour la chanson « This Too Shall Pass »](https://www.youtube.com/watch?v=qybUFnY7Y8w), utilisant une [machine de Rube Goldberg](http://fr.wikipedia.org/wiki/Machine_de_Rube_Goldberg) dans un immense entrepôt[^1] :
 
@@ -28,7 +28,7 @@ Ils sont allés jusqu'à mettre en ligne [le making of du clip](http://media.okg
 
 {% picture super-delires-clips-ok-go/ok-go-this-too-shall-pass-making-of.png %}
 
-## Needing/Getting
+## Needing/Getting {#ng}
 
 En 2012, c'est en voiture qu'ils font de la musique, ou plutôt devrais-je dire {{avec}} une voiture :
 
@@ -38,7 +38,7 @@ Je vous laisserais juger la qualité de la musique… ;-)
 
 La vidéo a été vue plus de 27 millions de fois sur YouTube.
 
-## The Writing's On the Wall
+## The Writing's On the Wall {#twotw}
 
 Hier, c'est le clip de « The Writing's On the Wall » qui est publié, un retour dans un grand entrepôt, avec cette fois un enchainement d'illusions optiques saisies dans un plan séquence ahurissant :
 

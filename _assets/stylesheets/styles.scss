@@ -87,6 +87,17 @@ body {
 
 h1, h2, h3, h4 {
   margin: 1em 0 0 0;
+
+  a.deeplink {
+    font-size: .9em;
+    color: #ccc;
+    text-decoration: none;
+
+    &:hover {
+      color: #66f;
+      text-decoration: underline;
+    }
+  }
 }
 
 h1 {
