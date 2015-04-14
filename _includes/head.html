@@ -2,6 +2,10 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <style>
+  {% asset critical %}
+  </style>
+
   {% if page.title == "Accueil" %}
     <title>{{ site.title }} - {{ site.tagline }}</title>
   {% else %}
@@ -9,10 +13,6 @@
   {% endif %}
 
   <link rel="alternate" type="application/rss+xml" title="Abonnez-vous au flux" href="/atom.xml" />
-
-  <style>
-  {% asset critical %}
-  </style>
 
   <script>
   {% asset loadCSS %}
