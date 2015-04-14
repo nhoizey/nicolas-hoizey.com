@@ -2,13 +2,15 @@
 {% asset fontfaceobserver.standalone %}
 
 (function(w){
-	if(w.document.documentElement.className.indexOf("fonts-loaded" ) > -1) {
-		return;
-	}
-	var observer = new w.FontFaceObserver("Source Sans Pro", { weight: 300 });
-	observer.check(null, 5000).then(function() {
-		w.document.documentElement.className += " fonts-loaded";
-		w.loadCSS("{% asset_path morefonts %}");
-	});
+  if(w.document.documentElement.className.indexOf("fonts-loaded" ) > -1) {
+    return;
+  }
+  var observer = new w.FontFaceObserver("Source Sans Pro", { weight: 300 });
+  observer.check(null, 5000).then(function() {
+    w.document.documentElement.className += " fonts-loaded";
+    w.loadCSS("{% asset_path morefonts %}");
+  });
 }(this));
+
+{% asset behaviors %}
 </script>
