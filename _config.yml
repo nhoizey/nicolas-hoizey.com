@@ -19,7 +19,7 @@ defaults:
 
 future: false
 show_drafts: false
-exclude: [".sass-cache", ".jekyll-assets-cache", "autoprefixer.yml", "Gemfile*", "*.sublime-project", "*.sublime-workspace", "README.md", "LICENSE.md", "TODO.md", "new_post.sh", "url2post.sh"]
+exclude: [".sass-cache", ".jekyll-assets-cache", "autoprefixer.yml", "Gemfile*", "*.sublime-project", "*.sublime-workspace", "README.md", "LICENSE.md", "TODO.md"]
 
 assets:
   js_compressor:  uglifier
