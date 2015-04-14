@@ -1,0 +1,55 @@
+RewriteEngine On
+RewriteBase /
+
+# Ne pas lister les fichiers dans les dossiers
+Options -Indexes
+
+# Supprimer le www. pour tout le monde
+RewriteCond %{HTTP_HOST} ^www\.nicolas-hoizey\.com [NC]
+RewriteRule ^(.*) http://nicolas-hoizey.com/$1 [QSA,R=301,L]
+
+# Performance
+# https://github.com/sergeychernyshev/.htaccess/blob/master/.htaccess
+# Compression à la volée
+<IfModule mod_deflate.c>
+  AddOutputFilter DEFLATE application/atom+xml
+  AddOutputFilter DEFLATE application/json
+  AddOutputFilter DEFLATE application/xhtml+xml
+  AddOutputFilter DEFLATE application/xml
+  AddOutputFilter DEFLATE text/css
+  AddOutputFilter DEFLATE text/html
+  AddOutputFilter DEFLATE text/plain
+  AddOutputFilter DEFLATE text/x-component
+  AddOutputFilter DEFLATE text/xml
+
+  # The following MIME types are in the process of registration
+  AddOutputFilter DEFLATE application/xslt+xml
+  AddOutputFilter DEFLATE image/svg+xml
+
+  # The following MIME types are NOT registered
+  AddOutputFilter DEFLATE application/mathml+xml
+  AddOutputFilter DEFLATE application/rss+xml
+
+  # JavaScript has various MIME types
+  AddOutputFilter DEFLATE application/javascript
+  AddOutputFilter DEFLATE application/x-javascript
+  AddOutputFilter DEFLATE text/ecmascript
+  AddOutputFilter DEFLATE text/javascript
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 year"
+  # Pages
+  ExpiresByType text/html  "access plus 15 minutes"
+  # Flux RSS
+  ExpiresByType text/xml  "access plus 120 minutes"
+</IfModule>
+
+<IfModule mod_headers.c>
+  # Try removing etag headers (if it's coming from proxy for example)
+  Header unset ETag
+</IfModule>
+
+# Remove ETags
+FileETag None
