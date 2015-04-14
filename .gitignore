@@ -3,3 +3,5 @@
 _site
 .jekyll-assets-cache
 .sass-cache
+
+_publish.sh
