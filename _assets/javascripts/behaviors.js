@@ -1,3 +1,15 @@
+/* Load fonts */
+(function(w){
+  if(w.document.documentElement.className.indexOf("fonts-loaded" ) > -1) {
+    return;
+  }
+  var observer = new w.FontFaceObserver("Source Sans Pro", { weight: 300 });
+  observer.check(null, 5000).then(function() {
+    w.document.documentElement.className += " fonts-loaded";
+    w.loadCSS(moreFontsUrl);
+  });
+}(this));
+
 /* Add anchor links to titles in the article */
 (function(w){
   var i,
