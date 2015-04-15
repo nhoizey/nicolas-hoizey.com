@@ -13,6 +13,8 @@
   {% asset critical %}
   </style>
 
+  {% javascript picturefill-2.3.0 async defer %}
+
   <script>
   {% asset loadCSS %}
   loadCSS("{% asset_path styles %}");
@@ -21,6 +23,4 @@
     <link href="{% asset_path styles %}" rel="stylesheet">
     <link href="{% asset_path morefonts %}" rel="stylesheet">
   </noscript>
-
-  {% javascript picturefill-2.3.0 async defer %}
 </head>
