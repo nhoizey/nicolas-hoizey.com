@@ -45,18 +45,23 @@ body {
     color: #ccc;
     text-decoration: none;
     transition-property: color;
-    transition-duration: .2s;
+    transition-duration: .1s;
     transition-easing: ease-in-out;
 
     &:hover {
       text-decoration: underline;
       color: #5ae;
     }
+
+    &.github:hover {
+      color: #000;
+    }
   }
 
   svg {
     height: 1.5em;
     fill: currentColor;
+    vertical-align: bottom;
   }
 }
 
