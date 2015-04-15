@@ -37,17 +37,26 @@ body {
 #header {
   margin-bottom: 1em;
 
-  background-color: #eee;
-  color: #333;
-  border-bottom: 2px solid #ccc;
+  background-color: #555;
+  color: #ccc;
+  border-bottom: 2px solid #999;
 
   a {
-    color: #333;
+    color: #ccc;
     text-decoration: none;
+    transition-property: color;
+    transition-duration: .2s;
+    transition-easing: ease-in-out;
 
     &:hover {
       text-decoration: underline;
+      color: #5ae;
     }
+  }
+
+  svg {
+    height: 1.5em;
+    fill: currentColor;
   }
 }
 
@@ -173,6 +182,10 @@ article {
 
         &:before {
           content: '#';
+        }
+
+        &:hover {
+          text-decoration: underline;
         }
       }
     }
