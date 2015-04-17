@@ -30,13 +30,16 @@
     transition-easing: ease-in-out;
 
     &:hover {
-      text-decoration: underline;
       color: #5ae;
     }
 
     &.github:hover {
       color: #000;
     }
+  }
+
+  p:first-of-type a:hover {
+    text-decoration: underline;
   }
 
   svg {
