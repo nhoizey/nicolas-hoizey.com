@@ -18,14 +18,12 @@
 }
 
 #header {
-  margin-bottom: 1em;
+  margin: 1em 0 3em 0;
 
-  background-color: #555;
-  color: #ccc;
-  border-bottom: 2px solid #999;
+  color: #444;
 
   a {
-    color: #ccc;
+    color: #666;
     text-decoration: none;
     transition-property: color;
     transition-duration: .1s;
@@ -53,7 +51,7 @@ main {
 }
 
 #footer {
-  margin-top: 1em;
+  margin-top: 3em;
 
   background-color: #333;
   color: #999;
@@ -104,7 +102,7 @@ h1, h2, h3, h4 {
 }
 
 article {
-  margin: 1em 0;
+  margin: 0 0 3em 0;
 
   .list & {
     margin: 2em 0;
@@ -119,7 +117,7 @@ article {
   }
 
   header {
-    color: #666;
+    color: #444;
 
     dl {
       margin: 0;
@@ -134,7 +132,6 @@ article {
     }
 
     dd {
-      // flex: 1;
       margin: 0;
     }
 
@@ -144,7 +141,7 @@ article {
 
     .tags {
       a {
-        color: #999;
+        color: #666;
         text-decoration: none;
 
         &:before {
