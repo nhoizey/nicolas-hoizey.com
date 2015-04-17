@@ -6,7 +6,11 @@
 <body>
   <header id="header">
 		<div class="wrap">
-	    <p><a href="/" title="Home">{{ site.title }}</a></p>
+		  <p>
+		    {% if page.url != "/index.html" %}
+			  	<a href="/" title="Home">{{ site.title }}</a>
+		  	{% endif %}
+		  </p>
 	    <p>
 	    	<a href="https://twitter.com/nhoizey" class="twitter">{% asset icon-twitter.svg %}</a>
 	    	<a href="https://github.com/nhoizey" class="github">{% asset icon-github.svg %}</a>
