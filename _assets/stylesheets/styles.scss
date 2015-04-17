@@ -179,7 +179,16 @@ article {
   }
 
   div.footnotes {
-    border-left: 2px solid #ccc;
+    background-color: #eee;
+    color: #333;
+    border: 1px solid #ccc;
+    font-size: .9em;
+
+    ol {
+      margin: 0;
+      padding: .3em .5em .3em 1.5em;
+      list-style-position: outside;
+    }
   }
 
   img, iframe {
