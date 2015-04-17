@@ -7,11 +7,10 @@ title: Accueil
 <p class="intro">Bienvenue sur mon recueil de créations et réflexions sur des sujets très variés, de la photo au Web en passant par la société, les voyages, etc.</p>
 
 <section class="list">
-  <h2>Contenus récents</h2>
   {% for page in paginator.posts %}
     <article>
       {% include article-header.html page=page %}
-      <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+      <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
       {{ page.excerpt }}
     </article>
   {% endfor %}
