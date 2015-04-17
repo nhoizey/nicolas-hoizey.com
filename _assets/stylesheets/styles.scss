@@ -61,10 +61,18 @@ main {
     color: #999;
   }
 
+  .label {
+    display: none;
+
+    @media (min-width: 27em) {
+      display: inline;
+    }
+  }
+
   .tool {
     display: none;
 
-    @media (min-width: 20em) {
+    @media (min-width: 32em) {
       display: inline;
     }
   }
