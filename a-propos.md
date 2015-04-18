@@ -1,5 +1,6 @@
 ---
 title:      À propos de ce site
+layout:			page
 ---
 
 ## L'auteur
