@@ -57,17 +57,14 @@ picture:
   presets:
     default:
       ppi: [1, 2]
-      source_1280:
-        media: "(min-width: 1024px)"
-        width: "1280"
-      source_1024:
-        media: "(min-width: 768px)"
-        width: "1024"
-      source_768:
-        media: "(min-width: 640px)"
-        width: "768"
       source_640:
-        media: "(min-width: 320px)"
+        media: "(min-width: 580px)"
         width: "640"
+      source_530:
+        media: "(min-width: 460px)"
+        width: "530"
+      source_420:
+        media: "(min-width: 340px)"
+        width: "420"
       source_default:
-        width: "320"
+        width: "310"
