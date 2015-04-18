@@ -11,11 +11,6 @@ article .embed-video-container iframe {
   height: 0;
   margin: 1em 0;
 
-  @media (min-width: 50em) {
-    margin-left: -1em;
-    margin-right: -1em;
-  }
-
   iframe, object, embed {
     margin: 0;
     position: absolute;

@@ -201,12 +201,6 @@ article {
 
   img, iframe {
     max-width: 100%;
-
-    @media (min-width: 50em) {
-      margin-left: -1em;
-      margin-right: -1em;
-      max-width: calc(100% + 2em);
-    }
   }
 
   blockquote {
@@ -215,10 +209,6 @@ article {
 
     padding-left: 1em;
     border-left: 3px solid #999;
-
-    @media (min-width: 50em) {
-      margin-left: -1em;
-    }
 
     p {
       margin: 1em 0;
