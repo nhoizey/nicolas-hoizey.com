@@ -20,8 +20,13 @@ defaults:
 future: false
 show_drafts: false
 lsi: true
-exclude: ["autoprefixer.yml", "Gemfile*", "*.sublime-project", "*.sublime-workspace", "README.md", "LICENSE.md", "TODO.md"]
-include: [".htaccess"]
+exclude:
+  - autoprefixer.yml
+  - "Gemfile*"
+  - README.md
+  - LICENSE.md
+include:
+  - .htaccess
 
 assets:
   js_compressor:  uglifier
