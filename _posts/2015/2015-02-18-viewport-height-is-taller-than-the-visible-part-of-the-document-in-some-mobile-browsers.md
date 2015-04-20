@@ -10,23 +10,21 @@ oldurl:     http://gasteroprod.dev/web/viewport-height-is-taller-than-the-visibl
 
 When trying to use [a ```100vh``` CSS value](http://caniuse.com/viewport-units) to build a new interface for [a game](http://esviji.com/) that would use the full viewport, I discovered that this full height value meant the bottom of the game interface was partialy hidden behind the browser buttons bar or below the "fold" of some mobile browsers.
 
----
-
 ## An issue with Apple iOS Safari
 
 I first discovered this on my iPhone 5 and iPad 2.
 
 Here is what [this page](http://lab.gasteroprod.com/vub/index-ios-issue.html) looks like on an iPhone 5 :
 
-{% picture 2015-02-18-viewport-height/ios-safari-portrait-before-scroll.png %}
+{% picture ios-safari-portrait-before-scroll.png %}
 
-{% picture 2015-02-18-viewport-height/ios-safari-landscape-before-scroll.png %}
+{% picture ios-safari-landscape-before-scroll.png %}
 
 ```100vh``` is computed for when the browser interface is hidden, after a scroll :
 
-{% picture 2015-02-18-viewport-height/ios-safari-portrait-after-scroll.png %}
+{% picture ios-safari-portrait-after-scroll.png %}
 
-{% picture 2015-02-18-viewport-height/ios-safari-landscape-after-scroll.png %}
+{% picture ios-safari-landscape-after-scroll.png %}
 
 As suggested by Yoav Weiss [there](https://twitter.com/yoavweiss/status/568145414320492544) and [there](https://twitter.com/yoavweiss/status/568713697306267648), I opened a bug in [Apple Bug Reporter](https://bugreport.apple.com/)[^bugid] and [Webkit Bugzilla](https://bugs.webkit.org/show_bug.cgi?id=141832).
 
@@ -71,7 +69,7 @@ In fact I saw later that iOS Safari is not the only one doing this.
 
 I discovered later the same behavior on the browser of Firefox OS:
 
-{% picture 2015-02-18-viewport-height/firefox-os-before-scroll-r90.jpg %}
+{% picture firefox-os-before-scroll-r90.jpg %}
 
 ## So what?
 
