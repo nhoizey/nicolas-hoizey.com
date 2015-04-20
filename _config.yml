@@ -19,7 +19,9 @@ defaults:
 
 future: false
 show_drafts: false
-exclude: [".sass-cache", ".jekyll-assets-cache", "autoprefixer.yml", "Gemfile*", "*.sublime-project", "*.sublime-workspace", "README.md", "LICENSE.md", "TODO.md"]
+lsi: true
+exclude: ["autoprefixer.yml", "Gemfile*", "*.sublime-project", "*.sublime-workspace", "README.md", "LICENSE.md", "TODO.md"]
+include: [".htaccess"]
 
 assets:
   js_compressor:  uglifier
