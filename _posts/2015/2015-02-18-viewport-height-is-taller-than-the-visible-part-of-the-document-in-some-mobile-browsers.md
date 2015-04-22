@@ -1,11 +1,7 @@
 ---
 title:      Viewport height is taller than the visible part of the document in some mobile browsers
-date:       2015-02-18
-author:     Nicolas Hoizey
 lang:       en
-categories: Web Safari iPhone iPad bug
-logo:
-oldurl:     http://gasteroprod.dev/web/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers
+tags:				[safari, iphone, ipad, bug]
 ---
 
 When trying to use [a ```100vh``` CSS value](http://caniuse.com/viewport-units) to build a new interface for [a game](http://esviji.com/) that would use the full viewport, I discovered that this full height value meant the bottom of the game interface was partialy hidden behind the browser buttons bar or below the "fold" of some mobile browsers.
@@ -99,8 +95,7 @@ Meh…
 
 The W3C CSS Working Group replied on Twitter with links to past discussions:
 
-<blockquote class="twitter-tweet" data-conversation="none" lang="fr"><p><a href="https://twitter.com/nhoizey">@nhoizey</a> <a href="https://twitter.com/7studio">@7studio</a> <a href="http://t.co/tp55akEbyl">http://t.co/tp55akEbyl</a> <a href="https://t.co/xnhJNYHz5T">https://t.co/xnhJNYHz5T</a> <a href="https://t.co/BIEBTPfirq">https://t.co/BIEBTPfirq</a> Donc, utiliser html * overflow: scroll; *</p>&mdash; CSS Working Group (@csswg) <a href="https://twitter.com/csswg/status/571742414299246592">28 Février 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+{% twitter oembed https://twitter.com/csswg/status/571742414299246592 %}
 
 ## March 9th update
 
