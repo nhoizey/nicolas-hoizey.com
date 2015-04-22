@@ -60,8 +60,10 @@ author:
 # <picture>
 picture:
   source: "_assets/fullsize-images"
+  posts_folders: ":year/:year-:month-:day-:slug/"
   output: "assets/images"
   markup: picture
+
   presets:
     default:
       ppi: [1, 2]
