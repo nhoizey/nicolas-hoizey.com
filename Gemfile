@@ -10,4 +10,5 @@ group :jekyll_plugins do
 	gem 'autoprefixer-rails'
 	gem 'uglifier'
 	gem 'jekyll-sitemap'
+	gem 'jekyll-twitter-plugin'
 end

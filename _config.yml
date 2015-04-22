@@ -7,6 +7,7 @@ relative_permalinks: true
 
 gems:
   - jekyll-sitemap
+  - jekyll-twitter-plugin
 
 # Settings
 defaults:
@@ -75,3 +76,9 @@ picture:
         width: "420"
       source_default:
         width: "310"
+
+twitter:
+  consumer_key: …
+  consumer_secret: …
+  access_token: …
+  access_token_secret: …
