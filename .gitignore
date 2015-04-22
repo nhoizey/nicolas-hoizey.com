@@ -3,5 +3,6 @@
 _site
 .jekyll-assets-cache
 .sass-cache
-
-_publish.sh
+.tweet-cache
+_deploy.sh
+_config-twitter.yml
