@@ -23,7 +23,7 @@
   color: #444;
 
   a {
-    color: #666;
+    color: #999;
     text-decoration: none;
     transition-property: color;
     transition-duration: .1s;
@@ -177,8 +177,36 @@ article {
 
   }
 
-  p, blockquote, .intro, .footnotes, img, iframe {
+  p, blockquote, .intro, .footnotes, figure, img, iframe {
     margin: 1em 0;
+  }
+
+  figure img {
+    margin: 0;
+  }
+
+  figcaption {
+    margin: 0;
+
+    p {
+      margin: 0 1em;
+      font-size: .9em;
+    }
+  }
+
+  img, iframe {
+    max-width: 100%;
+  }
+
+  blockquote {
+    color: #666;
+
+    padding-left: 1em;
+    border-left: 3px solid #999;
+
+    p {
+      margin: 1em 0;
+    }
   }
 
   a.footnote, a.reversefootnote {
@@ -196,21 +224,6 @@ article {
       margin: 0;
       padding: .3em .5em .3em 1.5em;
       list-style-position: outside;
-    }
-  }
-
-  img, iframe {
-    max-width: 100%;
-  }
-
-  blockquote {
-    color: #666;
-
-    padding-left: 1em;
-    border-left: 3px solid #999;
-
-    p {
-      margin: 1em 0;
     }
   }
 }
