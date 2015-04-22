@@ -61,6 +61,8 @@ Produire un site en statique aide à optimiser cette performance, la génératio
 
 Pour cela, plusieurs recettes ont été combinées :
 
+Pour les opérations de base type concaténation et minification des CSS et JS, plus ajout d'un hash pour forcer un cache long au navigateur, le [plugin Jekyll Assets](https://github.com/jekyll-assets/jekyll-assets), basé sur [Sprockets](https://github.com/sstephenson/sprockets#readme), est incontournable. Il permet même de facilement insérer dans le HTML généré des bouts de CSS, JS et même SVG.
+
 Pour les fontes, j'ai adapté ce que Zach Leatherman —de Filament Group— présente dans son billet [Flash Of Faux Text (FOFT) approach](http://www.zachleat.com/web/foft/) : la fonte de base Roman est chargée en appliquant les [font events](http://www.filamentgroup.com/lab/font-events.html) présentés par Scott Jehl —lui aussi de Filament Group—, et les variantes (gras, italique, combinaison des deux) sont ensuite chargées dans une autre CSS en tant que Data URIs encodées en base64, avec [loadCSS](https://github.com/filamentgroup/loadCSS), comme expliqué   dans [ce billet précédent de Zach](http://www.filamentgroup.com/lab/font-loading.html). Un brin complexe à expliquer, mais le résultat est impressionnant par rapport aux pratiques les plus courantes.
 
 Pour les images, `<picture>` dans un premier temps, pour gérer au mieux l'aspect responsive du site, en attendant d'avoir la syntaxe `<img srcset sizes>` qui suffit dans 95% des cas, est plus légère dans le HTML, et plus optimisable par les navigateurs.
