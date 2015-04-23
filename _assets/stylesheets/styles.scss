@@ -209,6 +209,12 @@ article {
     }
   }
 
+  ul {
+    li {
+      list-style-type: circle;
+    }
+  }
+
   a.footnote, a.reversefootnote {
     text-decoration: none;
     padding: 0 .2em;
