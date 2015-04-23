@@ -6,13 +6,17 @@ if [ -z "$1" ]; then
 else
 	title="$@"
 fi
-
-y=$(date +"%Y")
-d=$(date +"%Y-%m-%d")
 slug=$(echo $title | tr '[:upper:]' '[:lower:]' | tr '[:space:]' '-' | tr '[:punct:]' '-')
 slug="${slug:0:${#slug}-1}"
-post="./_drafts/$d-$slug.md"
-assets="./_assets/fullsize-images/$y/$d-$slug/"
+
+y=$(date +"%Y")
+m=$(date +"%m")
+d=$(date +"%d")
+
+folder="./_drafts/$y/$m/$d-$slug"
+mkdir -p $folder
+
+post="$folder/$y-$m-$d-$slug.md"
 
 body=""
 read -d '' body <<EOF
@@ -25,6 +29,5 @@ tags:       [ ]
 EOF
 
 echo "$body" > $post
-mkdir "$assets"
 
 /Applications/MacDown.app/Contents/MacOS/MacDown $post &
