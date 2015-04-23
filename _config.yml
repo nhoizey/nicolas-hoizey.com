@@ -59,8 +59,8 @@ author:
 
 # <picture>
 picture:
-  source: "_assets/fullsize-images"
-  posts_folders: ":year/:year-:month-:day-:slug/"
+  source: "_posts"
+  posts_folders: ":year/:month/:day-:slug/"
   output: "assets/images"
   markup: picture
 
