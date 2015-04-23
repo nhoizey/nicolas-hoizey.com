@@ -1,14 +1,20 @@
-J'ai acheté il y a déjà quelques mois un dock thunderbolt Belkin pour faciliter le branchement de mon MacBook Air à mes périphériques sédentaires, et j'en suis très content. Une nouvelle version est sortie, et semble très intéressante sur le papier. Mais ce serait une très grosse régression pour mon usage…
+---
+title:      Quelle version du dock thunderbolt Belkin choisir ?
+date:       2015-01-27
+author:     Nicolas Hoizey
+lang:       fr
+tags:       [mac, matériel]
+logo:       
+url:     http://gasteroprod.dev/divers/quelle-version-du-dock-thunderbolt-belkin-choisir
+---
 
+J'ai acheté il y a déjà quelques mois un [Belkin Thunderbolt Express Dock](http://www.amazon.fr/gp/product/B00CIO8NT6/ref=as_li_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=B00CIO8NT6&linkCode=as2&tag=phpheaven-21&linkId=YPXS7PIDDXITVCGZ)[^1] pour faciliter le branchement de mon MacBook Air à mes périphériques sédentaires, et j'en suis très content. Une nouvelle version est sortie, et semble très intéressante sur le papier. Mais ce serait une très grosse régression pour mon usage…
 
-J'ai donc acheté il y a quelques mois un [Belkin Thunderbolt Express Dock](http://www.amazon.fr/gp/product/B00CIO8NT6/ref=as_li_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=B00CIO8NT6&linkCode=as2&tag=phpheaven-21&linkId=YPXS7PIDDXITVCGZ)[^1] et j'en suis très content, cela facilite vraiment le branchement de mes périphériques à mon MacBook Air : écran, son, réseau, disques externes, lecteur de cartes mémoire, etc.
-
+Voilà les périphériques que je branche ainsi à mon MacBook Air : écran, son, réseau, disques externes, lecteur de cartes mémoire, etc.
 
 <figure>
-{% picture belkin-thunderbolt-express-dock.jpg %}
-  <figcaption>
-    <p>Un seul câble à brancher sur le Mac pour le lier à de nombreux périphériques</p>
-
+  {% picture belkin-thunderbolt-express-dock.jpg %}<figcaption>
+    Un seul câble à brancher sur le Mac pour le lier à de nombreux périphériques
   </figcaption>
 </figure>
 
