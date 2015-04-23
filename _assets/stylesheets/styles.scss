@@ -181,16 +181,23 @@ article {
     margin: 1em 0;
   }
 
-  figure img {
-    margin: 0;
-  }
+  figure {
+    img {
+      display: block;
+      margin: 0;
+      padding: 0;
+    }
 
-  figcaption {
-    margin: 0;
-
-    p {
-      margin: 0 1em;
+    figcaption {
       font-size: .9em;
+      font-style: italic;
+      margin: 0;
+      padding: .3em .5em;
+      background-color: #eee;
+
+      p {
+        margin: 0;
+      }
     }
   }
 
