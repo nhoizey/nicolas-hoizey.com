@@ -71,13 +71,13 @@ picture:
         media: "(min-width: 580px)"
         width: "640"
       source_530:
-        media: "(min-width: 460px)"
+        media: "(min-width: 470px)"
         width: "530"
       source_420:
-        media: "(min-width: 340px)"
-        width: "420"
+        media: "(min-width: 350px)"
+        width: "430"
       source_default:
-        width: "310"
+        width: "320"
 
 twitter:
   consumer_key: …
