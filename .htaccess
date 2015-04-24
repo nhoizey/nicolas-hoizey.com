@@ -12,6 +12,9 @@ RewriteRule ^(.*) http://nicolas-hoizey.com/$1 [QSA,R=301,L]
 RewriteCond %{HTTP_HOST} \.fr$ [NC]
 RewriteRule ^(.*) http://nicolas-hoizey.com/$1 [QSA,R=301,L]
 
+AddType application/font-woff woff
+AddType application/font-woff2 woff2
+
 # Performance
 # https://github.com/sergeychernyshev/.htaccess/blob/master/.htaccess
 # Compression à la volée
