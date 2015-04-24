@@ -24,6 +24,20 @@
     <link href="{% asset_path morefonts %}" rel="stylesheet">
   </noscript>
 
+  <meta property="og:site_name" content="Nicolas Hoizey" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+  {% for tag in page.tags %}
+    <meta property="article:tag" content="{{ tag }}" />
+  {% endfor %}
+  <meta property="og:image" content="{{ site.url }}favicon.jpg" />
+
+  {% if page.title == "Accueil" %}
+    <meta name="description" content="Le recueil de créations et réflexions de Nicolas Hoizey sur des sujets très variés, de la photo au Web en passant par la société, les voyages, etc." />
+  {% else %}
+    <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 200 | strip_newlines | escape_once }}" />
+  {% endif %}
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
