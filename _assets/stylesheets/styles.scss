@@ -1,24 +1,8 @@
 @import 'rve';
 
-.wrap {
-  #header &, #footer & {
-    display: flex;
-    flex-direction: row;
-
-    p {
-      flex: 1;
-      margin: 0;
-      line-height: 2;
-
-      &:last-of-type {
-        text-align: right;
-      }
-    }
-  }
-}
-
 #header {
-  margin: 1em 0 3em 0;
+  font-size: 1.2em;
+  margin: .5em 0 3em 0;
 
   color: #444;
 
@@ -116,13 +100,13 @@ article {
   margin: 0 0 3em 0;
 
   .list & {
-    margin: 2em 0;
+    margin: 3em 0;
 
-    h3, p {
+    h3, p, img {
       margin-top: .3em;
     }
 
-    p {
+    p, img {
       padding-left: 1em;
     }
   }

@@ -47,6 +47,21 @@ strong {
   width: 90vw;
   max-width: 40rem;
   margin: 0 auto;
+
+  #header &, #footer & {
+    display: flex;
+    flex-direction: row;
+
+    p {
+      flex: 1;
+      margin: 0;
+      line-height: 2;
+
+      &:last-of-type {
+        text-align: right;
+      }
+    }
+  }
 }
 
 h1, h2, h3, h4 {
