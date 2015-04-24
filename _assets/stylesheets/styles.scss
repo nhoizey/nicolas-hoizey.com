@@ -1,42 +1,5 @@
 @import 'rve';
 
-#header {
-  font-size: 1.2em;
-  margin: .5em 0 3em 0;
-
-  color: #444;
-
-  a {
-    color: #999;
-    text-decoration: none;
-    transition-property: color;
-    transition-duration: .1s;
-    transition-easing: ease-in-out;
-
-    &:hover {
-      color: #5ae;
-    }
-
-    &.github:hover {
-      color: #000;
-    }
-  }
-
-  p:first-of-type a:hover {
-    text-decoration: underline;
-  }
-
-  svg {
-    height: 1.8em;
-    fill: currentColor;
-    vertical-align: middle;
-  }
-}
-
-main {
-  flex: 1;
-}
-
 #footer {
   margin-top: 3em;
 
