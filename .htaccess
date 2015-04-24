@@ -5,7 +5,11 @@ RewriteBase /
 Options -Indexes
 
 # Supprimer le www. pour tout le monde
-RewriteCond %{HTTP_HOST} ^www\.nicolas-hoizey\.com [NC]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^(.*) http://nicolas-hoizey.com/$1 [QSA,R=301,L]
+
+# Rediriger du .fr vers le .com
+RewriteCond %{HTTP_HOST} \.fr$ [NC]
 RewriteRule ^(.*) http://nicolas-hoizey.com/$1 [QSA,R=301,L]
 
 # Performance
