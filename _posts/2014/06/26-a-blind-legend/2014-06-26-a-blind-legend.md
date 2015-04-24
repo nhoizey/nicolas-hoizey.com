@@ -8,7 +8,7 @@ J’ai soutenu [le projet « A Blind Legend » sur Ulule](http://fr.ulule.com/a-
 
 ## Un jeu vidéo immersif dans le noir, c'est possible !
 
-{% picture artwork-hd.png %}
+{% picture artwork-hd.jpg %}
 
 Voilà le pitch du jeu :
 
