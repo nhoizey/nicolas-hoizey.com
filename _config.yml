@@ -62,7 +62,7 @@ author:
 picture:
   source: "_posts"
   posts_folders: ":year/:month/:day-:slug/"
-  output: "assets/images"
+  output: ""
   markup: picture
 
   presets:
