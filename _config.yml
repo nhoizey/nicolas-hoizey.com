@@ -46,6 +46,7 @@ tag_feed_dir: tags
 url:                 http://nicolas-hoizey.com
 baseurl:             /
 paginate:            5
+paginate_path:       "/:num/"
 
 # About/contact
 title:               Nicolas Hoizey
