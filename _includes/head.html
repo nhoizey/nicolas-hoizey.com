@@ -1,8 +1,8 @@
-<head>
+<head{% if page.title == "Accueil" %} itemscope itemtype="http://schema.org/WebSite"{% endif %}>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   {% if page.title == "Accueil" %}
-    <title>{{ site.title }} - {{ site.tagline }}</title>
+    <title itemprop="name">{{ site.title }}</title>
   {% else %}
     <title>{{ page.title }} - {{ site.title }}</title>
   {% endif %}
