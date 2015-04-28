@@ -20,7 +20,7 @@ title: Accueil
   <div class="pagination">
     <h2>Voir
     {% if paginator.next_page %}
-      des billets <a href="{{ site.baseurl }}{{ paginator.next_page }}#billets">plus anciens</a>
+      <a href="{{ site.baseurl }}{{ paginator.next_page }}#billets">des billets plus anciens</a>
       {% if paginator.previous_page %}
         ou
       {% endif %}
@@ -29,7 +29,7 @@ title: Accueil
       {% if paginator.page == 2 %}
         <a href="{{ site.baseurl }}#billets">les derniers billets</a>
       {% else %}
-        <a href="{{ site.baseurl }}{{ paginator.previous_page }}#billets">plus récents</a>
+        <a href="{{ site.baseurl }}{{ paginator.previous_page }}#billets">des billets plus récents</a>
       {% endif %}
     {% endif %}
     </h2>
