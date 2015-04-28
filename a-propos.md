@@ -9,7 +9,7 @@ Je m'appelle Nicolas Hoizey.
 
 Je suis passionné par le Web depuis que je l'ai découvert en 1996, durant mes études supérieures à l'École Internationale des Siences du Traitement de l'Information ([EISTI](https://www.eisti.fr/)). J'ai donc naturellement créé de nombreux sites au fil des années[^sites], autant de prétextes à explorer les nouveautés technologiques des standads du Web.
 
-[^sites]: [Ciné Files](http://back-to-1998.gasteroprod.com/) par exemple en 1998…
+[^sites]: [Ciné Files](http://archeologie.nicolas-hoizey.com/1998-cine-files/) par exemple en 1998…
 
 Toujours soucieux de qualité, j'ai participé très rapidement au beau projet [Opquast](http://opquast.com/fr/), un référenciel de qualité pour le Web. Je participe aussi régulièrement, parfois même en tant qu'orateur, à de belles conférences telles que [Paris Web](https://www.paris-web.fr/).
 
@@ -53,7 +53,7 @@ Dans la mesure du possible, les ressources externes sont chargées en asynchrone
 
 Les tweets sont chargés à l'aide du tag Liquid fourni par le [Jekyll Twitter Plugin](https://github.com/rob-murray/jekyll-twitter-plugin).
 
-### La webperf 
+### La webperf
 
 La performance des sites Web fait partie de mes dadas depuis plusieurs années, étant avant tout [frustré en tant que simple visiteur](https://twitter.com/nhoizey/status/562873571073355776/photo/1) par les sites plus lourds et lents les uns que les autres.
 
