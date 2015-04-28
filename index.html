@@ -20,16 +20,16 @@ title: Accueil
   <div class="pagination">
     <h2>Voir
     {% if paginator.next_page %}
-      <a href="{{ site.baseurl }}{{paginator.next_page}}#billets">les articles plus anciens</a>
+      des billets <a href="{{ site.baseurl }}{{ paginator.next_page }}#billets">plus anciens</a>
       {% if paginator.previous_page %}
         ou
       {% endif %}
     {% endif %}
     {% if paginator.previous_page %}
       {% if paginator.page == 2 %}
-        <a href="{{ site.baseurl }}#billets">les derniers articles</a>
+        <a href="{{ site.baseurl }}#billets">les derniers billets</a>
       {% else %}
-        <a href="{{ site.baseurl }}{{paginator.previous_page}}#billets">les articles plus récents</a>
+        <a href="{{ site.baseurl }}{{ paginator.previous_page }}#billets">plus récents</a>
       {% endif %}
     {% endif %}
     </h2>
