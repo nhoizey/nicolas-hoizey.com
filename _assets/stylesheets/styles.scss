@@ -165,7 +165,25 @@ article {
 
   ul {
     li {
-      list-style-type: circle;
+      // list-style-type: circle;
+    }
+  }
+
+  table {
+    border-collapse: collapse;
+
+    thead {
+      background-color: #eee;
+
+      th {
+        vertical-align: bottom;
+      }
+    }
+
+    th, td {
+      padding: .3em .5em;
+      border: 1px solid #ccc;
+      vertical-align: top;
     }
   }
 
@@ -174,7 +192,7 @@ article {
     padding: 0 .2em;
   }
 
-  div.footnotes {
+  .footnotes {
     background-color: #eee;
     color: #333;
     border: 1px solid #ccc;
@@ -185,6 +203,13 @@ article {
       padding: .3em .5em .3em 1.5em;
       list-style-position: outside;
     }
+  }
+
+  .edit {
+    border-top: 1px solid #ccc;
+    padding: .5em 0;
+    font-size: .9em;
+    color: #999;
   }
 }
 
