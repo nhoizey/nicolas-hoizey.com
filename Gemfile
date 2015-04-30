@@ -11,4 +11,5 @@ group :jekyll_plugins do
 	gem 'uglifier'
 	gem 'jekyll-sitemap'
 	gem 'jekyll-twitter-plugin'
+	gem 'jekyll-archives'
 end

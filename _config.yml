@@ -8,6 +8,7 @@ relative_permalinks: true
 gems:
   - jekyll-sitemap
   - jekyll-twitter-plugin
+  - jekyll-archives
 
 # Settings
 defaults:
@@ -80,6 +81,17 @@ picture:
         width: "430"
       source_default:
         width: "320"
+
+jekyll-archives:
+  enabled:
+    - "year"
+    - "month"
+  layouts:
+    year: "archives-year"
+    month: "archives-month"
+  permalinks:
+    year: "/:year/"
+    month: "/:year/:month/"
 
 twitter:
   consumer_key: …

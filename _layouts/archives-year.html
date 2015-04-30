@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<h1>Billets de {{ page.date | date: "%Y" }}</h1>
+
+<div class="list">
+	{% for post in page.posts %}
+    <article>
+      {% include article-header.html page=post %}
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      {{ post.excerpt | mardownify }}
+    </article>
+  {% endfor %}
+</div>
