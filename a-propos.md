@@ -49,6 +49,10 @@ Les tags sont supportés nativement par Jekyll, mais largement améliorés par l
 
 [^accents]: Bon, il reste [un petit bug à corriger](https://github.com/pattex/jekyll-tagging/issues/34) —où une amélioration à apporter, c'est une question de point de vue— mais c'est déjà très utile.
 
+Les pages d'archives par année et mois sont générées par le plugin [Jekyll Archives](https://github.com/jekyll/jekyll-archives)[^arch-tags].
+
+[^arch-tags]: Ce plugin peut aussi générer les archives de catégories et tags, mais je n'utilise pas les premières, et les secondes sont déjà générées par le plugin dédié.
+
 Dans la mesure du possible, les ressources externes sont chargées en asynchrone pour ne pas pénaliser votre navigation, voire même uniquement à la demande, comme c'est le cas des vidéos Youtube grâce au plugin [Jekyll Youtube Lazyloading](https://github.com/erossignon/jekyll-youtube-lazyloading) qui n'affiche qu'une image en attendant que le visiteur clique pour vraiment charger la vidéo.
 
 Les tweets sont chargés à l'aide du tag Liquid fourni par le [Jekyll Twitter Plugin](https://github.com/rob-murray/jekyll-twitter-plugin).
