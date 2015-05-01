@@ -15,6 +15,6 @@ On voit clairement que je me suis particulièrement focalisé sur l'intégration
 
 Pour mémoire :
 
-- 18 mars : [Lâchez prise !](art907), ne contrariez pas les préférences de vos visiteurs
-- 24 octobre : [Ma conférence à Paris Web 2013](art922), « Un petit pas pour l’em, un grand pas pour le Web »
-- 10 décembre : [Une ode à l’em](art928), ou la transcription (enrichie) de ma conférence Paris Web
+- 18 mars : [Lâchez prise !](/2013/03/lachez-prise.html), ne contrariez pas les préférences de vos visiteurs
+- 24 octobre : [Ma conférence à Paris Web 2013](/2013/10/ma-conference-a-paris-web-2013.html), « Un petit pas pour l’em, un grand pas pour le Web »
+- 10 décembre : [Une ode à l’em](/2013/12/une-ode-a-l-em.html), ou la transcription (enrichie) de ma conférence Paris Web
