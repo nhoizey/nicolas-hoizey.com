@@ -9,6 +9,10 @@ title: Accueil
 {% endif %}
 
 <section id="billets" class="list">
+  {% if paginator.page != 1 %}
+    <h1>Page {{ paginator.page }} sur {{ paginator.total_pages }}</h1>
+  {% endif %}
+
   {% for page in paginator.posts %}
     <article>
       {% include article-header.html page=page %}
