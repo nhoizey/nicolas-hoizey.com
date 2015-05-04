@@ -28,6 +28,9 @@ exclude:
   - README.md
   - LICENSE.md
   - "*.sublime*"
+  - "*.jpg"
+  - "*.png"
+  - "*.gif"
 include:
   - .htaccess
 
