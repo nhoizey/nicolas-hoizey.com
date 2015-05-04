@@ -129,6 +129,32 @@ article {
   }
 
   figure {
+    &.two-thirds {
+      max-width: 66%;
+    }
+
+    &.one-half {
+      max-width: 50%;
+    }
+
+    &.one-third {
+      max-width: 33%;
+    }
+
+    &.one-fourth {
+      max-width: 25%;
+    }
+
+    &.left {
+      float: left;
+      margin: 0 1em 1em 0;
+    }
+
+    &.right {
+      float: right;
+      margin: 0 0 1em 1em;
+    }
+
     img {
       display: block;
       margin: 0;
