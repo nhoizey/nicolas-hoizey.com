@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h1>{{ page.tag }}</h1>
+<h1>Billets marqués avec le tag «&nbsp;{{ page.tag }}&nbsp;»</h1>
 
 <div class="list">
 	{% for post in page.posts %}
@@ -15,6 +15,6 @@ layout: default
 </div>
 
 <div class="tagscloud">
-	<h2>Sujets à explorer</h2>
+	<h2>Autres tags à explorer</h2>
   {{ site | tag_cloud }}
 </div>
