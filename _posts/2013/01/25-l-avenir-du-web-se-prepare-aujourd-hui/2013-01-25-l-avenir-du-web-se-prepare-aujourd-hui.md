@@ -1,7 +1,7 @@
 ---
 title:      L'avenir du Web se prépare aujourd'hui
 lang:       fr
-tags:       [standards, RWD]
+tags:       [standards, Responsive Web Design, viewport]
 ---
 
 Dans le billet hebdomadaire de WDFriday, [Matthieu Bué](http://twikito.com/) lance un [appel à la mobilisation pour contribuer à l’élaboration de solutions pour « gérer la multiplication des devices »](http://wdfriday.com/blog/2013/01/le-web-a-besoin-de-nous/). Ce billet contient une incitation très pertinente à participer aux [community groups](http://www.w3.org/community/) du W3C, mais se trompe à mon avis de catalyseur.
