@@ -28,6 +28,7 @@
     <meta property="og:url" content="{{ site.url }}" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{{ site.title }}" />
+    <meta property="og:image" content="{{ site.url }}favicon.jpg" />
   {% else %}
     {% if page.tag %}
     {% comment %} if page.path contains "tags/" {% endcomment %}
@@ -36,7 +37,6 @@
         <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="{{ page.tag }}" />
-        <meta property="og:image" content="{{ site.url }}favicon.jpg" />
     {% else %}
       <title>{{ page.title }} - {{ site.title }}</title>
       <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 200 | strip_newlines | escape_once }}" />
