@@ -21,7 +21,7 @@ defaults:
 
 future: false
 show_drafts: false
-lsi: true
+lsi: false
 exclude:
   - autoprefixer.yml
   - "Gemfile*"
