@@ -7,7 +7,7 @@ layout:			page
 
 Je m'appelle Nicolas Hoizey.
 
-Je suis passionné par le Web depuis que je l'ai découvert en 1996, durant mes études supérieures à l'École Internationale des Siences du Traitement de l'Information ([EISTI](https://www.eisti.fr/)). J'ai donc naturellement créé de nombreux sites au fil des années[^sites], autant de prétextes à explorer les nouveautés technologiques des standads du Web.
+Je suis passionné par le Web depuis que je l'ai découvert en 1996, durant mes études supérieures à l'École Internationale des Sciences du Traitement de l'Information ([EISTI](https://www.eisti.fr/)). J'ai donc naturellement créé de nombreux sites au fil des années[^sites], autant de prétextes à explorer les nouveautés technologiques des standads du Web.
 
 [^sites]: [Ciné Files](http://archeologie.nicolas-hoizey.com/1998-cine-files/) par exemple en 1998…
 
