@@ -1,11 +1,6 @@
 <head{% if page.title == "Accueil" %} itemscope itemtype="http://schema.org/WebSite"{% endif %}>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  {% if page.title == "Accueil" %}
-    <title itemprop="name">{{ site.title }}</title>
-  {% else %}
-    <title>{{ page.title }} - {{ site.title }}</title>
-  {% endif %}
 
   <style>
   {% asset critical %}
@@ -23,18 +18,35 @@
   </noscript>
 
   <meta property="og:site_name" content="Nicolas Hoizey" />
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="{{ page.title }}" />
-  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-  {% for tag in page.tags %}
-    <meta property="article:tag" content="{{ tag }}" />
-  {% endfor %}
-  <meta property="og:image" content="{{ site.url }}favicon.jpg" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:creator" content="@nhoizey" />
+  <meta name="twitter:site" content="@nhoizey" />
 
   {% if page.title == "Accueil" %}
+    <title itemprop="name">{{ site.title }}</title>
     <meta name="description" content="Le recueil de créations et réflexions de Nicolas Hoizey sur des sujets très variés, de la photo au Web en passant par la société, les voyages, etc." />
+    <meta property="og:url" content="{{ site.url }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ site.title }}" />
   {% else %}
-    <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 200 | strip_newlines | escape_once }}" />
+    {% if page.tag %}
+    {% comment %} if page.path contains "tags/" {% endcomment %}
+        <title>{{ page.tag }} - {{ site.title }}</title>
+        <meta name="description" content="Billets auxquels est associé le tag « {{ page.tag }} »" />
+        <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="{{ page.tag }}" />
+        <meta property="og:image" content="{{ site.url }}favicon.jpg" />
+    {% else %}
+      <title>{{ page.title }} - {{ site.title }}</title>
+      <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 200 | strip_newlines | escape_once }}" />
+      <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+      <meta property="og:type" content="article" />
+      <meta property="og:title" content="{{ page.title }}" />
+      {% for tag in page.tags %}
+        <meta property="article:tag" content="{{ tag }}" />
+      {% endfor %}
+    {% endif %}
   {% endif %}
 
   <link rel="alternate" type="application/rss+xml" title="Abonnez-vous au flux" href="/atom.xml" />
