@@ -10,6 +10,7 @@ layout: default
   <p class="edit">Si vous voulez signaler une erreur ou proposer une modification de ce texte, n'hésitez pas à l'éditer directement à la source sur Github&nbsp;: <a href="https://github.com/nhoizey/nicolas-hoizey.com/tree/master/{{ page.path }}">{{ source.last }}</a></p>
 </article>
 
+{% comment %}
 <aside class="list">
   <h2>À découvrir aussi</h2>
   {% for post in site.related_posts limit:3 %}
@@ -22,3 +23,4 @@ layout: default
     {% endif %}
   {% endfor %}
 </aside>
+{% endcomment %}
