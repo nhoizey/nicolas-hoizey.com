@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 gem "jekyll"
 gem "redcarpet"
+gem 'yt'
 
 group :jekyll_plugins do
   gem 'jekyll-picture-tag', '~> 0.2.3'
