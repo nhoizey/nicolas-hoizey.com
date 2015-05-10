@@ -1,2 +1,2 @@
 #!/bin/sh
-jekyll s --config _config.yml,_config-twitter.yml
+jekyll s --config _config.yml,_config_credentials.yml
