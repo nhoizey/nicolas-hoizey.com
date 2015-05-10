@@ -1,10 +1,10 @@
 ---
 title:      Viewport height is taller than the visible part of the document in some mobile browsers
 lang:       en
-tags:				[safari, iphone, ipad, bug]
+tags:       [Safari, iPhone, iPad, bug]
 ---
 
-When trying to use [a ```100vh``` CSS value](http://caniuse.com/viewport-units) to build a new interface for [a game](http://esviji.com/) that would use the full viewport, I discovered that this full height value meant the bottom of the game interface was partialy hidden behind the browser buttons bar or below the "fold" of some mobile browsers.
+When trying to use [a `100vh` CSS value](http://caniuse.com/viewport-units) to build a new interface for [a game](http://esviji.com/) that would use the full viewport, I discovered that this full height value meant the bottom of the game interface was partialy hidden behind the browser buttons bar or below the "fold" of some mobile browsers.
 
 ## An issue with Apple iOS Safari
 
@@ -16,7 +16,7 @@ Here is what [this page](http://lab.gasteroprod.com/vub/index-ios-issue.html) lo
 
 {% picture ios-safari-landscape-before-scroll.png %}
 
-```100vh``` is computed for when the browser interface is hidden, after a scroll :
+`100vh` is computed for when the browser interface is hidden, after a scroll :
 
 {% picture ios-safari-portrait-after-scroll.png %}
 
@@ -28,7 +28,7 @@ As suggested by Yoav Weiss [there](https://twitter.com/yoavweiss/status/56814541
 
 ### Description
 
-When trying to use [a ```100vh``` CSS value](http://caniuse.com/viewport-units) to build an interface for [a game](http://esviji.com/) that would use the full viewport, I discovered that this full height value meant the bottom of the game interface was partialy hidden behind the browser buttons bar of Safari iOS on iPhone, or below the "fold" on iPad.
+When trying to use [a `100vh` CSS value](http://caniuse.com/viewport-units) to build an interface for [a game](http://esviji.com/) that would use the full viewport, I discovered that this full height value meant the bottom of the game interface was partialy hidden behind the browser buttons bar of Safari iOS on iPhone, or below the "fold" on iPad.
 
 ### Steps to Reproduce
 
@@ -37,13 +37,13 @@ When trying to use [a ```100vh``` CSS value](http://caniuse.com/viewport-units) 
 
 ### Expected Results
 
-I would have expected the viewport size (and the ```100vh``` dimension) to be equal to the visible part of the page in the browser. It's called **VIEW**port after all.
+I would have expected the viewport size (and the `100vh` dimension) to be equal to the visible part of the page in the browser. It's called **VIEW**port after all.
 
 I understand it means the viewport changes when the browser interface hides, but I find it better, and necessary for "full viewport" interfaces. Fullscreen API is not available either, so there is no simple way to fix this behavior.
 
 ### Actual Results
 
-The bottom part of the "bottom right" box is not visible, the ```100vh``` height container being taller than the visible part
+The bottom part of the "bottom right" box is not visible, the `100vh` height container being taller than the visible part
 
 ### Configuration
 
