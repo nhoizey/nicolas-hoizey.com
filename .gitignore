@@ -5,4 +5,4 @@ _site
 .sass-cache
 .tweet-cache
 _deploy.sh
-_config-twitter.yml
+_config_credentials.yml
