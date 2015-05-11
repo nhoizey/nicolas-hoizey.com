@@ -141,6 +141,71 @@ h3 {
   }
 }
 
-article h1 + p:first-of-type {
-  font-size: 1.2em;
+article {
+  margin: 0 0 3em 0;
+
+  .list & {
+    margin: 3em 0;
+
+    h3, p, img {
+      margin-top: .3em;
+    }
+
+    p, img {
+      padding-left: 1em;
+    }
+  }
+
+  header {
+    color: #444;
+
+    dl {
+      margin: 0;
+      font-size: .9em;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    dt {
+      display: none;
+    }
+
+    dd {
+      margin: 0;
+    }
+
+    .date {
+      white-space: nowrap;
+    }
+
+    .tags {
+      a {
+        color: #666;
+        text-decoration: none;
+
+        &:before {
+          content: '#';
+        }
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    @media (min-width: 30em) {
+      dl {
+        flex-direction: row;
+      }
+
+      .tags {
+        text-align: right;
+      }
+    }
+  }
+
+  h1 + p:first-of-type {
+    font-size: 1.2em;
+  }
 }
