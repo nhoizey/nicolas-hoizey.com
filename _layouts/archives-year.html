@@ -2,14 +2,47 @@
 layout: default
 ---
 
-<h1>Billets de {{ page.date | date: "%Y" }}</h1>
+{% assign this_year = page.date | date: "%Y" | plus: 0 %}
+{% assign max_year = site.time | date: "%Y" | plus: 0 %}
+<div class="annees">
+	<p class="avant">
+		{% if this_year > 2002 %}
+			<a href="/{{ this_year | minus: 1 }}/">«&nbsp;{{ this_year | minus: 1 }}</a>
+		{% else %}
+			<span title="Aucun contenu antérieur, désolé">«&nbsp;{{ this_year | minus: 1 }}</span>
+		{% endif %}
+	</p>
+	<p class="apres">
+		{% if this_year < max_year %}
+			<a href="/{{ this_year | plus: 1 }}/">{{ this_year | plus: 1 }}&nbsp;»</a>
+		{% else %}
+			<span title="Patience !">{{ this_year | plus: 1 }}&nbsp;»</span>
+		{% endif %}
+	</p>
+	<h1>{{ page.date | date: "%Y" }}</h1>
+</div>
 
 <div class="list">
-	{% for post in page.posts %}
+  {% assign month = "" %}
+	{% for post in page.posts reversed %}
+    {% assign post_month = post.date | date: "%m" %}
+    {% if post_month != month %}
+			<h2>{% include mois.html page=post %}</h2>
+			{% assign month = post_month %}
+		{% endif %}
     <article>
-      {% include article-header.html page=post %}
+			<header>
+			  <dl>
+			    <dt>Date</dt>
+			    <dd class="date">
+			      {{ post.date | date: "%-d" }}
+			      {% include mois.html page=post %}
+			    </dd>
+			    <dt>Tags</dt>
+			    <dd class="tags">{{ post | tags }}</dd>
+			  </dl>
+			</header>
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      {{ post.excerpt | mardownify }}
     </article>
   {% endfor %}
 </div>

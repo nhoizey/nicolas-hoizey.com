@@ -30,22 +30,29 @@
     <meta property="og:title" content="{{ site.title }}" />
     <meta property="og:image" content="{{ site.url }}favicon.jpg" />
   {% else %}
-    {% if page.tag %}
-    {% comment %} if page.path contains "tags/" {% endcomment %}
+    {% if page.type == "year" %}
+      <title>Billets de {{ page.date | date: "%Y" }} - {{ site.title }}</title>
+      <meta name="description" content="Billets de Nicolas Hoizey publiés en {{ page.date | date: "%Y" }}" />
+      <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Billets de {{ page.date | date: "%Y" }}" />
+    {% else %}
+      {% if page.tag %}
         <title>{{ page.tag }} - {{ site.title }}</title>
         <meta name="description" content="Billets de Nicolas Hoizey auxquels est associé le tag « {{ page.tag }} »" />
         <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="{{ page.tag }}" />
-    {% else %}
-      <title>{{ page.title }} - {{ site.title }}</title>
-      <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 200 | strip_newlines | escape_once }}" />
-      <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-      <meta property="og:type" content="article" />
-      <meta property="og:title" content="{{ page.title }}" />
-      {% for tag in page.tags %}
-        <meta property="article:tag" content="{{ tag }}" />
-      {% endfor %}
+      {% else %}
+        <title>{{ page.title }} - {{ site.title }}</title>
+        <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 200 | strip_newlines | escape_once }}" />
+        <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="{{ page.title }}" />
+        {% for tag in page.tags %}
+          <meta property="article:tag" content="{{ tag }}" />
+        {% endfor %}
+      {% endif %}
     {% endif %}
   {% endif %}
 
