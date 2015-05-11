@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+{% assign this_year = page.date | date: "%Y" | plus: 0 %}
+{% assign this_month = page.date | date: "%m" | plus: 0 %}
+{% assign max_year = site.time | date: "%Y" | plus: 0 %}
+{% assign max_month = site.time | date: "%m" | plus: 0 %}
+<h1>{% include mois.html page=page %} {{ page.date | date: "%Y" }}</h1>
+
+<div class="list">
+	{% for post in page.posts reversed %}
+    <article>
+			<header>
+			  <dl>
+			    <dt>Date</dt>
+			    <dd class="date">
+			      {{ post.date | date: "%-d" }}
+			      {% include mois.html page=post %}
+			    </dd>
+			    <dt>Tags</dt>
+			    <dd class="tags">{{ post | tags }}</dd>
+			  </dl>
+			</header>
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    </article>
+  {% endfor %}
+</div>
