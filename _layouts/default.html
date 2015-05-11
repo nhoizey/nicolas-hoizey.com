@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" class="{{ page.type }}">
+<html lang="fr" class="{{ page.type }}{% if page.path contains "_posts" %} post{% endif %}">
 
 {% include head.html %}
 
