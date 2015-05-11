@@ -111,9 +111,22 @@ h1, h2, h3, h4 {
   font-weight: 500;
   letter-spacing: -.07em;
 
+  text-transform: capitalize;
+
   .fonts-loaded & {
     font-weight: 600;
     letter-spacing: -.03em;
+  }
+}
+
+.post h1, .year h2, .month h1 {
+  a {
+    color: #333;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 
@@ -122,19 +135,6 @@ h1 {
 
   .fonts-loaded & {
     font-size: 2em;
-  }
-
-  .post & {
-    color: #333;
-
-    a {
-      color: #333;
-      text-decoration: none;
-
-      &:hover {
-        text-decoration: underline;
-      }
-    }
   }
 }
 

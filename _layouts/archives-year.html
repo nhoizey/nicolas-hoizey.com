@@ -27,7 +27,7 @@ layout: default
 	{% for post in page.posts reversed %}
     {% assign post_month = post.date | date: "%m" %}
     {% if post_month != month %}
-			<h2>{% include mois.html page=post %}</h2>
+			<h2><a href="/{{ page.date | date: "%Y" }}/{{ post.date | date: "%m" }}">{% include mois.html page=post %}</a></h2>
 			{% assign month = post_month %}
 		{% endif %}
     <article>
