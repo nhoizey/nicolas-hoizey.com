@@ -8,7 +8,12 @@
 		<div class="wrap">
 		  <p>
 		    {% if page.url != "/index.html" %}
-			  	<a href="/" title="Home">{{ site.title }}</a>
+		    	{% if page.path contains "_posts" %}
+		    		{% comment %} https://developers.google.com/structured-data/breadcrumbs {% endcomment %}
+		    		<span id="root" itemscope itemtype="http://data-vocabulary.org/Breadcrumb" itemref="year"><a href="/" title="Home" itemprop="url"><span itemprop="title">{{ site.title }}</span></a></span>
+		    	{% else %}
+				  	<a href="/" title="Home">{{ site.title }}</a>
+		    	{% endif %}
 		  	{% endif %}
 		  </p>
 	    <p>

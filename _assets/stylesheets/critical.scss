@@ -123,6 +123,19 @@ h1 {
   .fonts-loaded & {
     font-size: 2em;
   }
+
+  .post & {
+    color: #333;
+
+    a {
+      color: #333;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 }
 
 h2 {
