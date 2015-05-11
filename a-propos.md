@@ -27,9 +27,9 @@ Je ne m'interdis pas de publier aussi des billets complètement inutiles et/ou f
 
 ### Le statique, c'est fantastique
 
-Ce site est statique, c'est à dire que les pages et leurs contenus venant du même domaine sont envoyées tel quel par le serveur, sans aucune création à la volée. Difficile donc d'incriminer une quelconque application serveur en cas de lenteur… ;-)
+Ce site est statique, c'est à dire que les pages et leurs contenus venant du même domaine sont envoyées tel quel par le serveur, sans aucune création à la volée.  Difficile donc d'incriminer une quelconque application serveur en cas de lenteur… ;-)
 
-Tout le site est généré par [Jekyll](http://jekyllrb.com/) à partir de documents rédigés en syntaxe [Markdown](http://fr.wikipedia.org/wiki/Markdown)[^kramdown].
+Tout le site est généré par [Jekyll](http://jekyllrb.com/) à partir de documents rédigés en syntaxe [Markdown](http://fr.wikipedia.org/wiki/Markdown)[^kramdown]. Il a été généré pour la dernière fois le&nbsp;{{ site.time | date: "%d/%m/%Y"}}.
 
 [^kramdown]: Ou plutôt en [Kramdown](http://kramdown.gettalong.org/), une variante plus sympa permettant notamment cette note de bas de page, mais c'est un détail.
 
