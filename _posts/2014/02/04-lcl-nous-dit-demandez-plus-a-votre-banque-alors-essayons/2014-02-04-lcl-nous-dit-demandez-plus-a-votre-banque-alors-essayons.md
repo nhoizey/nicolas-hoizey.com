@@ -4,10 +4,10 @@ lang:       fr
 tags:       [qualité, banque, LCL]
 ---
 
+Je suis client de la banque [LCL](http://particuliers.lcl.fr/) parce que c'est celle qui m'a fait la meilleure offre quand j'ai voulu acheter une maison, et qu'une condition à ce prêt était que je domicilie mes comptes courants chez eux. Je regrette ce choix chaque fois que je dois accéder à l'interface en ligne…
 <figure>
   {% picture lcl-demandez-plus.jpg %}
 </figure>
-Je suis client de la banque [LCL](http://particuliers.lcl.fr/) parce que c'est celle qui m'a fait la meilleure offre quand j'ai voulu acheter une maison, et qu'une condition à ce prêt était que je domicilie mes comptes courants chez eux. Je regrette ce choix chaque fois que je dois accéder à l'interface en ligne…
 
 Jusqu'à présent, l'interface était vraiment nulle, pas ergonomique du tout, moche, etc.
 
