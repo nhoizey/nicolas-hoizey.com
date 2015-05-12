@@ -3,7 +3,11 @@
 
 {% include head.html %}
 
-<body>
+{% if page.path contains "a-propos.md" %}
+	<body itemscope itemtype="http://schema.org/AboutPage">
+{% else %}
+	<body itemscope itemtype="http://schema.org/WebPage">
+{% endif %}
   <header id="header">
 		<div class="wrap">
 		  <p>
