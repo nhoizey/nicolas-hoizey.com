@@ -111,7 +111,9 @@ h1, h2, h3, h4 {
   font-weight: 500;
   letter-spacing: -.07em;
 
-  text-transform: capitalize;
+  &:first-letter {
+    text-transform: capitalize;
+  }
 
   .fonts-loaded & {
     font-weight: 600;
@@ -126,6 +128,7 @@ h1, h2, h3, h4 {
 
     &:hover {
       text-decoration: underline;
+      text-decoration-style: dotted;
     }
   }
 }
@@ -192,18 +195,16 @@ article {
       white-space: nowrap;
     }
 
-    .tags {
-      a {
-        color: #666;
-        text-decoration: none;
+    a {
+      color: #666;
+      text-decoration: none;
+      transition-property: color;
+      transition-duration: .1s;
+      transition-easing: ease-in-out;
 
-        &:before {
-          content: '#';
-        }
-
-        &:hover {
-          text-decoration: underline;
-        }
+      &:hover {
+        color: #5ae;
+        text-decoration: underline;
       }
     }
 
