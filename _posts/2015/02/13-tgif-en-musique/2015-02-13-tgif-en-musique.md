@@ -5,7 +5,7 @@ tags:       [musique, tgif]
 ---
 
 Cette semaine, une petite sélection de chansons sur le thème *Thank God It's Friday*, pas si simple de trouver de la qualité…
-{% picture rebecca-black-friday-haters.jpg %}
+{% picture rebecca-black-friday-haters.jpg alt="Des avis catastrophique sur Youtube pour Rebecca Black" %}
 
 Soyons fou, on commence par « Friday » de Rebecca Black bien entendu. N'hésitez pas à passer directement à la suivante, je comprendrais parfaitement, après tout c'est pas loin d'être [le pire hit issu de YouTube](https://www.youtube.com/watch?v=smTm7ESzc4k)[^1]… ;-)
 
