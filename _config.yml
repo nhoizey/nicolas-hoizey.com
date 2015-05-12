@@ -28,6 +28,7 @@ exclude:
   - README.md
   - LICENSE.md
   - "*.sublime*"
+  - Rakefile
   - "*.jpg"
   - "*.png"
   - "*.gif"
@@ -101,3 +102,11 @@ twitter:
   consumer_secret: …
   access_token: …
   access_token_secret: …
+
+youtube:
+  api_key: …
+
+algolia:
+  index_name: blog_posts
+  application_id: …
+  search_only_api_key: …
