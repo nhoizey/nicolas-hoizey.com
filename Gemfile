@@ -2,15 +2,16 @@ source "https://rubygems.org"
 
 gem "jekyll"
 gem "redcarpet"
-gem 'yt'
+gem "yt"
 
 group :jekyll_plugins do
-  gem 'jekyll-picture-tag', '~> 0.2.3'
-	gem 'jekyll-tagging'
-	gem 'jekyll-assets'
-	gem 'autoprefixer-rails'
-	gem 'uglifier'
-	gem 'jekyll-sitemap'
-	gem 'jekyll-twitter-plugin'
-	gem 'jekyll-archives'
+  gem "jekyll-picture-tag"
+	gem "jekyll-tagging"
+	gem "jekyll-assets"
+	gem "autoprefixer-rails"
+	gem "uglifier"
+	gem "jekyll-sitemap"
+	gem "jekyll-twitter-plugin"
+	gem "jekyll-archives"
+	gem "algoliasearch"
 end

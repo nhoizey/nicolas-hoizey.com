@@ -8,6 +8,9 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.3.6)
+    algoliasearch (1.4.2)
+      httpclient (~> 2.4)
+      json (>= 1.5.1)
     autoprefixer-rails (5.1.8)
       execjs
       json
@@ -35,6 +38,7 @@ GEM
     http (0.6.4)
       http_parser.rb (~> 0.6.0)
     http_parser.rb (0.6.0)
+    httpclient (2.6.0.1)
     i18n (0.7.0)
     jekyll (2.5.3)
       classifier-reborn (~> 2.0)
@@ -151,11 +155,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  algoliasearch
   autoprefixer-rails
   jekyll
   jekyll-archives
   jekyll-assets
-  jekyll-picture-tag (~> 0.2.3)
+  jekyll-picture-tag
   jekyll-sitemap
   jekyll-tagging
   jekyll-twitter-plugin
