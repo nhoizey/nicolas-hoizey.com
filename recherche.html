@@ -12,7 +12,7 @@ title: Recherche
 <noscript>
   <p>Désolé, ce moteur de recherche ne fonctionne qu'en JavaScript.</p>
 </noscript>
-<div id="posts" class="list"></div>
+<div id="posts" class="list results"></div>
 
 <script src="//cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
 <script src="//cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
@@ -45,14 +45,19 @@ $(document).ready(function() {
 });
 
 function searchCallback(err, content) {
+  var months = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
+  var $posts = $("#posts");
+  $posts.empty();
+
   if (err) {
     console.error(err);
     return;
   }
 
-  var months = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
-  var $posts = $("#posts");
-  $posts.empty();
+  if (content.hits.length == 0) {
+    $posts.append("<p>Aucun résultat, veuillez modifier votre recherche.</p>");
+    return;
+  }
 
   for (var i = 0; i < content.hits.length; i++) {
     post_date = content.hits[i].date;
