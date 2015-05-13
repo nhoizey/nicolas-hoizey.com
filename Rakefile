@@ -1,5 +1,4 @@
 require "rubygems"
-# require "yaml"
 require "tmpdir"
 require "bundler/setup"
 require "jekyll"
