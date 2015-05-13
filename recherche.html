@@ -1,0 +1,71 @@
+---
+layout: recherche
+title: Recherche
+---
+
+<form id="search" method="get">
+  <p>
+    <input name="q" type="search" placeholder="Que cherchez vous ?" spellcheck="false" autocorrect="off" autocomplete="off" />
+    <input type="submit" value="chercher" />
+  </p>
+</form>
+<noscript>
+  <p>Désolé, ce moteur de recherche ne fonctionne qu'en JavaScript.</p>
+</noscript>
+<div id="posts" class="list"></div>
+
+<script src="//cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  var algolia = algoliasearch("{{ site.algolia.application_id }}", "{{ site.algolia.search_only_api_key }}");
+  var index = algolia.initIndex("{{ site.algolia.index_name }}");
+  var $input = $("#search input[type=search]");
+  var query = getParameterByName("q");
+  if (query.length > 0) {
+    $input.val(query);
+    if (query.length > 1) {
+      index.search(query, {
+        hitsPerPage: 20,
+        facets: '*'
+      }, searchCallback);
+    }
+  }
+  $input.keyup(function() {
+    if ($input.val().length > 1) {
+      index.search($input.val(), {
+        hitsPerPage: 20,
+        facets: '*'
+      }, searchCallback);
+    } else {
+      $("#posts").empty();
+    }
+  }).focus();
+});
+
+function searchCallback(err, content) {
+  if (err) {
+    console.error(err);
+    return;
+  }
+
+  var months = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
+  var $posts = $("#posts");
+  $posts.empty();
+
+  for (var i = 0; i < content.hits.length; i++) {
+    post_date = content.hits[i].date;
+    post_date = post_date.replace(/^[0-9]{4}-[0-9]{2}-([0-9]{2}).*$/g, '$1') + " " +months[parseInt(post_date.replace(/^[0-9]{4}-([0-9]{2}).*$/g, '$1'), 10) - 1] + " " + post_date.replace(/^([0-9]{4}).*$/g, '$1');
+    $posts.append("<article><header><dl><dt>Date</dt><dd class=\"date\">" + post_date + "</dd><dt>Tags</dt><dd class=\"tags\">" + content.hits[i].tags.join(', ') + "</dd></dl></header><h3><a href=\"" + content.hits[i].url + "\">" + content.hits[i].title + "</a></h3></article>");
+  }
+}
+
+{% comment %} http://stackoverflow.com/a/901144/717195 {% endcomment %}
+function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+</script>

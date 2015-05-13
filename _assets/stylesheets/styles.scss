@@ -236,3 +236,22 @@ article {
     text-transform: capitalize;
   }
 }
+
+#search {
+  input[type=search] {
+    width: 100%;
+    margin: 0;
+    padding: 8px 12px;
+    border: 2px solid #ccc;
+    outline: none;
+
+    &:focus {
+      border: 2px solid $color-blue;
+    }
+  }
+
+  input[type=submit] {
+    display: none;
+  }
+}
+
