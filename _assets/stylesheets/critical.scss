@@ -31,7 +31,7 @@ body {
 
   font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
   font-weight: 300;
-  font-size: calc(.95em + .3vw);
+  font-size: calc(.8em + .3vw + .3vh);
   line-height: 1.5;
 
   color: #222;
@@ -160,10 +160,10 @@ h3 {
 }
 
 article {
-  margin: 0 0 3em 0;
+  margin: 0 0 calc(1em + 5vh) 0;
 
   .list & {
-    margin: 3em 0;
+    margin: calc(1em + 5vh) 0;
 
     h3, p, img {
       margin-top: .3em;
@@ -178,7 +178,7 @@ article {
     color: $color-article-header;
 
     dl {
-      margin: 0;
+      margin: 1vh 0;
       font-size: .9em;
       display: flex;
       flex-direction: column;
@@ -195,6 +195,14 @@ article {
 
     .date {
       white-space: nowrap;
+    }
+
+    .tags {
+      display: none;
+
+      @media (min-height: 25em) {
+        display: block;
+      }
     }
 
     a {

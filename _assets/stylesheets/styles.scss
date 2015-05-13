@@ -239,10 +239,12 @@ article {
 
 #search {
   input[type=search] {
+    font-size: 16px;
     width: 100%;
     margin: 0;
     padding: 8px 12px;
     border: 2px solid #ccc;
+    border-radius: 2em;
     outline: none;
 
     &:focus {
@@ -255,3 +257,34 @@ article {
   }
 }
 
+.results {
+  article {
+    margin: 0;
+  }
+
+  dd.date {
+    display: none;
+
+    @media (min-height: 25em) {
+      display: block;
+    }
+  }
+
+  dd.tags {
+    display: none;
+
+    @media (min-height: 30em) {
+      display: block;
+    }
+  }
+
+  h3 {
+    margin: 0;
+    font-size: calc(1em + 1vh);
+
+    @media (min-height: 25em) {
+      margin: .3em 0 1em 0;
+      font-size: 1.3em;
+    }
+  }
+}
