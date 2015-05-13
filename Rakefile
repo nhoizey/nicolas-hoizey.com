@@ -5,16 +5,17 @@ require "jekyll"
 require "algoliasearch"
 
 namespace :site do
-  jekyll_config = Jekyll.configuration(source: '.', destination: '_site')
+  jekyll_config = Jekyll.configuration(source: ".", destination: "_site")
   jekyll_credentials = YAML.load_file("./_config_credentials.yml")
-  jekyll_site = Jekyll::Site.new(jekyll_config.merge jekyll_credentials)
+  jekyll_config = jekyll_config.merge jekyll_credentials
+  jekyll_site = Jekyll::Site.new(jekyll_config)
 
   desc "Generate blog files"
   task :generate do
     jekyll_site.process
   end
 
-  desc "Generate, index and publish blog to gh-pages"
+  desc "Generate and index blog"
   task :index, [:algolia_api_key] => :generate do |t, args|
     raise "missing algolia_api_key argument" if args[:algolia_api_key].nil?
 
