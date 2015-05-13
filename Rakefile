@@ -1,4 +1,5 @@
 require "rubygems"
+# require "yaml"
 require "tmpdir"
 require "bundler/setup"
 require "jekyll"
@@ -6,7 +7,8 @@ require "algoliasearch"
 
 namespace :site do
   jekyll_config = Jekyll.configuration(source: '.', destination: '_site')
-  jekyll_site = Jekyll::Site.new(jekyll_config)
+  jekyll_credentials = YAML.load_file("./_config_credentials.yml")
+  jekyll_site = Jekyll::Site.new(jekyll_config.merge jekyll_credentials)
 
   desc "Generate blog files"
   task :generate do
