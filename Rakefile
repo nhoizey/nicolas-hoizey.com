@@ -23,11 +23,12 @@ namespace :site do
     Algolia.init application_id: jekyll_config['algolia']['application_id'], api_key: args[:algolia_api_key]
     index = Algolia::Index.new(jekyll_config['algolia']['index_name'])
 
-    index.set_settings attributesToIndex: ['title', 'content', 'unordered(url)']
+    index.set_settings attributesToIndex: ['title', 'content', 'tags', 'unordered(url)']
     index.clear! rescue "not fatal"
     index.add_objects jekyll_site.posts.map { |post| {
       title: post.title,
       url: post.url,
+      tags: post.tags,
       date: post.date,
       content: post.content.gsub(/<[^>]*>/ui, '').gsub(/<!--(.*?)-->[\n]?/m, "")
     } }
