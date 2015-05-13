@@ -1,3 +1,5 @@
+@import "settings";
+
 // Base font:
 // http://www.filamentgroup.com/lab/font-events.html
 // + http://www.zachleat.com/web/foft/
@@ -69,17 +71,17 @@ strong {
   font-size: 1.2em;
   margin: .5em 0 3em 0;
 
-  color: #444;
+  color: $color-header-text;
 
   a {
-    color: #999;
+    color: $color-header-link;
     text-decoration: none;
     transition-property: color;
     transition-duration: .1s;
     transition-easing: ease-in-out;
 
     &:hover {
-      color: #5ae;
+      color: $color-header-hover;
     }
 
     &.github:hover {
@@ -106,7 +108,7 @@ h1, h2, h3, h4 {
   margin: 0 0 1em 0;
   line-height: 1.3;
 
-  color: #333;
+  color: $color-title;
 
   font-weight: 500;
   letter-spacing: -.07em;
@@ -123,7 +125,7 @@ h1, h2, h3, h4 {
 
 .post h1, .year h2, .month h1 {
   a {
-    color: #333;
+    color: $color-title;
     text-decoration: none;
 
     &:hover {
@@ -173,7 +175,7 @@ article {
   }
 
   header {
-    color: #444;
+    color: $color-article-header;
 
     dl {
       margin: 0;
@@ -196,14 +198,14 @@ article {
     }
 
     a {
-      color: #666;
+      color: $color-article-header-link;
       text-decoration: none;
       transition-property: color;
       transition-duration: .1s;
       transition-easing: ease-in-out;
 
       &:hover {
-        color: #5ae;
+        color: $color-article-header-hover;
         text-decoration: underline;
       }
     }

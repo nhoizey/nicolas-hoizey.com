@@ -1,14 +1,15 @@
-@import 'rve';
+@import "settings";
+@import "rve";
 
 #footer {
   margin-top: 3em;
 
-  background-color: #333;
-  color: #999;
-  border-top: 2px solid #666;
+  background-color: $color-footer-background;
+  color: $color-footer-text;
+  border-top: 2px solid $color-footer-border;
 
   p {
-    color: #999;
+    color: $color-footer-text;
   }
 
   .label {
@@ -28,10 +29,10 @@
   }
 
   a {
-    color: #999;
+    color: $color-footer-link;
 
     &:hover {
-      color: #fff;
+      color: $color-footer-hover;
     }
   }
 }
@@ -52,7 +53,7 @@ h1, h2, h3, h4 {
 .intro {
   font-size: 1.2em;
   letter-spacing: 0;
-  color: #333;
+  color: $color-article-intro;
 
   @media (min-width: 30em) {
     font-weight: 600;
