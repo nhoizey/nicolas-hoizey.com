@@ -113,10 +113,6 @@ h1, h2, h3, h4 {
   font-weight: 500;
   letter-spacing: -.07em;
 
-  &:first-letter {
-    text-transform: capitalize;
-  }
-
   .fonts-loaded & {
     font-weight: 600;
     letter-spacing: -.03em;
@@ -195,6 +191,7 @@ article {
 
     .date {
       white-space: nowrap;
+      flex-shrink: 0;
     }
 
     .tags {
@@ -231,5 +228,36 @@ article {
 
   h1 + p:first-of-type {
     font-size: 1.2em;
+  }
+}
+
+#search {
+  p {
+    display: flex;
+    flex-direction: row;
+  }
+
+  input {
+    font-size: 16px;
+    margin: 0;
+    padding: 8px 12px;
+    border-radius: 2em;
+    outline: none;
+  }
+
+  input[type=search] {
+    margin-right: 1em;
+    flex: 1;
+    border: 2px solid #ccc;
+
+    &:focus {
+      border: 2px solid $color-blue;
+    }
+  }
+
+  input[type=submit] {
+    background-color: $color-blue;
+    color: #fff;
+    border: 2px solid darken($color-blue, 10%);
   }
 }
