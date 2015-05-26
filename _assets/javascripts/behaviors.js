@@ -6,28 +6,28 @@
   var observer = new w.FontFaceObserver("Source Sans Pro", { weight: 300 });
   observer.check(null, 5000).then(function() {
     w.document.documentElement.className += " fonts-loaded";
-    // w.loadCSS(moreFontsUrl);
+    w.loadCSS(moreFontsUrl);
 
     // https://github.com/filamentgroup/font-loading/blob/master/data-uris.html
-    var supportsWoff2 = (function( win ){
-      if( !( "FontFace" in win ) ) {
-        return false;
-      }
-      var f = new win.FontFace( "t", 'url( "data:application/font-woff2;charset=utf-8," ) format( "woff2" )', {} );
-      f.load().catch(function() {});
-      return f.status == 'loading';
-    })( window );
-    // load font (woff)
-    var ua = navigator.userAgent,
-      fontFileUrl = "assets/fonts/morefonts-woff.css";
-    if( supportsWoff2 ) {
-      fontFileUrl = "assets/fonts/morefonts-woff2.css";
-    // sometimes you have to do the bad thing.  ¯\_(ツ)_/¯
-    //  ttf if non-chrome android webkit browser
-    } else if( ua.indexOf( "Android" ) > -1 && ua.indexOf( "like Gecko" ) > -1 && ua.indexOf( "Chrome" ) === -1 ){
-      fontFileUrl = "assets/fonts/morefonts-ttf.css";
-    }
-    loadCSS(fontFileUrl);
+    // var supportsWoff2 = (function( win ){
+    //   if( !( "FontFace" in win ) ) {
+    //     return false;
+    //   }
+    //   var f = new win.FontFace( "t", 'url( "data:application/font-woff2;charset=utf-8," ) format( "woff2" )', {} );
+    //   f.load().catch(function() {});
+    //   return f.status == 'loading';
+    // })( window );
+    // // load font (woff)
+    // var ua = navigator.userAgent,
+    //   fontFileUrl = "assets/fonts/morefonts-woff.css";
+    // if( supportsWoff2 ) {
+    //   fontFileUrl = "assets/fonts/morefonts-woff2.css";
+    // // sometimes you have to do the bad thing.  ¯\_(ツ)_/¯
+    // //  ttf if non-chrome android webkit browser
+    // } else if( ua.indexOf( "Android" ) > -1 && ua.indexOf( "like Gecko" ) > -1 && ua.indexOf( "Chrome" ) === -1 ){
+    //   fontFileUrl = "assets/fonts/morefonts-ttf.css";
+    // }
+    // loadCSS(fontFileUrl);
   });
 }(this));
 
