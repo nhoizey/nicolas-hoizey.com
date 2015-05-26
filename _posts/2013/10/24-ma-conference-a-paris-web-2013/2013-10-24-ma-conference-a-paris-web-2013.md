@@ -1,7 +1,7 @@
 ---
 title:      Ma conférence à Paris Web 2013
 lang:       fr
-tags:       [accessibilité, CSS, Paris Web, qualité, conférence, Responsive Web Design, intégration, em]
+tags:       [Paris Web, conférence, Responsive Web Design, intégration, em]
 ---
 
 Après y avoir assisté plusieurs années en tant qu'auditeur, j'ai eu la joie — le privilège — d'être sélectionné parmi les orateurs de l'édition 2013. Sélectionné qui plus est avec un sujet plutôt pointu, sur une bonne pratique que tout le monde devrait appliquer depuis plus de 10 ans, mais qui est très largement sous estimée.
