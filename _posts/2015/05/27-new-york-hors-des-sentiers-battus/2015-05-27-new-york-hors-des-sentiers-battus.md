@@ -1,7 +1,7 @@
 ---
 title:			New York hors des sentiers battus
 lang:			fr
-tags:       	[New York, voyage]
+tags:       	[New York, voyage, insolite]
 ---
 
 Ayant la chance de partir enfin à New York pour la première fois, j'avais bien entendu préparé le voyage avec quelques guides touristiques et ressources Web, mais j'avais aussi demandé autour de moi quelles sont les choses à voir/faire qui ne se trouvent pas dans ces guides.
@@ -12,14 +12,14 @@ J'ai donc posé la question [sur Twitter](https://twitter.com/nhoizey/status/596
 
 {% twitter oembed https://twitter.com/nhoizey/status/596616115607965696 %}
 
-On m'a donc conseillé différentes choses, que voici :
+On m'a alors conseillé différentes choses, que voici en vrac, si ça peut vous servir un jour :
 
 ## Des quartiers où se balader
 
 - [South Street Seaport](http://fr.wikipedia.org/wiki/South_Street_Seaport), port maritime historique sur l'East River[^eastriver], près du pont de Brooklyn, avec ses grands voiliers
 - [High Line Park](http://www.thehighline.org/), une promenade plantée sur d'anciennes lignes ferroviaires désafectées, inspirée de la [Coulée verte René-Dumont](http://fr.wikipedia.org/wiki/Coul%C3%A9e_verte_Ren%C3%A9-Dumont) de Paris
 - [Williamsburg](http://fr.wikipedia.org/wiki/Williamsburg_%28Brooklyn%29), un quartier de Brooklyn qui, je cite, « permet de remettre les pendules à l'heure sur le fait que le coeur de New York, ce n'est pas juste sur Manhattan »
-- Brooklyn Heights Promenade, un très beau parcours de 4.5 km avec des vue exceptionnelles sur Manhattan, Brooklyn Bridge et la Statue de la Liberté.
+- Brooklyn Heights Promenade, un très beau parcours avec des vues exceptionnelles sur Manhattan, Brooklyn Bridge et la Statue de la Liberté
 
 [^eastriver]: L'[East River](http://fr.wikipedia.org/wiki/East_River_(New_York)) qui n'est pas une rivière, d'ailleurs, c'est malin…
 
@@ -29,17 +29,16 @@ On m'a donc conseillé différentes choses, que voici :
 
 ## Des restaurants pour manger
 
-- [Kelley and Ping](http://kelleyandping.com/), un restaurant asiatique au 127 greene street, dans [SoHo](http://fr.wikipedia.org/wiki/SoHo)
-- [Rosemary's](http://rosemarysnyc.com/), un restaurant italien avec [un potager sur le toit](http://rosemarysnyc.com/about/rooftop-webcam/) au 18 Greenwich Avenue
+- [Kelley and Ping](http://kelleyandping.com/), un restaurant asiatique dans [SoHo](http://fr.wikipedia.org/wiki/SoHo)
+- [Rosemary's](http://rosemarysnyc.com/), un restaurant italien avec [un potager sur le toit](http://rosemarysnyc.com/about/rooftop-webcam/)
 
 ## Une librairie
 
-- [Three Lives](http://threelives.com/), *"one of the greatest bookstores on the face of the Earth"*, tout simplement, 154 West 10th Street
+- [Three Lives](http://threelives.com/), *"one of the greatest bookstores on the face of the Earth"*, tout simplement
 
 ## Des choses insolites
 
-- La [Brooklyn Grange](http://brooklyngrangefarm.com/), une ferme sur le toit d'un immeuble, au 63 Flushing Ave
-(building #3) et au 37-18 Northern Blvd, dans le Queens à Long Island City
+- La [Brooklyn Grange](http://brooklyngrangefarm.com/), une ferme sur le toit d'un immeuble
 
 On m'a aussi suggéré de regarder l'étrange escale à New York d'[@axolotblog](https://twitter.com/axolotblog), qui contient effectivement quelques pépites, dont une statue de Lénine :
 
