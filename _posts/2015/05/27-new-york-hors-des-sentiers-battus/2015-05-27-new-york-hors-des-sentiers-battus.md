@@ -44,6 +44,14 @@ On m'a aussi suggéré de regarder l'étrange escale à New York d'[@axolotblog]
 
 {% youtube 6NIMEJUMXXw %}
 
+## Et hop, une belle carte !
+
+Je me suis dit que placer ces lieux sur une carte rendrait la découverte plus simple :
+
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=zFlMnfIEzBkg.kLT5i0T7K17U" width="640" height="480"></iframe>
+
+## Bilan de l'opération
+
 Je n'ai pas pu tout faire, et je me dis que deux semaines seraient un minimum pour vraiment avoir le temps de faire ces visites atypiques, puisqu'il est bien difficile d'éviter les plus classiques, qui ont bien entendu un grand intérêt.
 
-J'y retournerais !
+J'y retournerais, c'est une certitude !
