@@ -8,9 +8,9 @@ J'avais adopté une structure très simple avec juste une rubrique blog lors de 
 
 Voici donc les 3 rubriques présentes maintenant en remplacement de l'unique rubrique « blog » :
 
-- [Web](/web/)
-- [Photographie](/photographie/)
-- [Divers](/divers/)
+- Web
+- Photographie
+- Divers
 
 Ces intitulés de rubriques se retrouvent bien évidemment dans leurs URL ainsi que dans celles des articles qu'elles contiennent.
 

@@ -6,7 +6,7 @@ tags:       [photo, sony, matériel]
 
 [Marc Charbonnier](http://marc-charbonnier.com/) a publié mi décembre un « test terrain » du compact expert [Sony RX100 III](http://www.sony.fr/electronics/appareils-photo-cyber-shot-compacts/dsc-rx100m3), constitué de retours d'expérience et avis d'heureux possesseurs de ce boitier, dont je fais partie depuis juin 2014. Une prise de contact sur Twitter m'a conduit à faire parti des photographes interrogés par Marc.
 
-J'avais déjà eu l'occasion de faire un [test du Panasonic Lumix DMC-GM1](art937), minuscule appareil photo hybride, grâce à [Phototrend](http://phototrend.fr/), mais je n'avais pas été convaincu, préférant attendre la sortie d'un appareil encore plus compact et possédant un viseur.
+J'avais déjà eu l'occasion de faire un [test du Panasonic Lumix DMC-GM1](/2014/08/mon-test-du-panasonic-lumix-dmc-gm1-un-minuscule-appareil-photo-hybride.html), minuscule appareil photo hybride, grâce à [Phototrend](http://phototrend.fr/), mais je n'avais pas été convaincu, préférant attendre la sortie d'un appareil encore plus compact et possédant un viseur.
 
 Dès que j'ai lu l'annonce de sortie du Sony RX100 III[^1] et les premiers avis de spécialistes, j'ai su que la perle rare était enfin au rendez-vous et je me suis empressé de l'acheter.
 

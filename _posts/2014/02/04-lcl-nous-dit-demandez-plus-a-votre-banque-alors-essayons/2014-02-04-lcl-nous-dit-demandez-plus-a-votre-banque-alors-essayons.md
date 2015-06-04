@@ -33,7 +33,7 @@ Une fois connecté, ils ont quand même mis une page qui liste les nouveautés[^
   </figcaption>
 </figure>
 
-Bien sûr, je me suis dit « suis-je bête, encore [un site qui se moque éperdument des préférences de ses utilisateurs](art907), c'est à cause de ma taille de texte définie à 18px ». Sauf que même en 16px, même si le contenu texte devient lisible intégralement, le picto en bas à droite reste indéchiffrable :
+Bien sûr, je me suis dit « suis-je bête, encore [un site qui se moque éperdument des préférences de ses utilisateurs](/2013/03/lachez-prise.html), c'est à cause de ma taille de texte définie à 18px ». Sauf que même en 16px, même si le contenu texte devient lisible intégralement, le picto en bas à droite reste indéchiffrable :
 
 <figure>
   {% picture lcl-changelog-bas-16px.png %}
