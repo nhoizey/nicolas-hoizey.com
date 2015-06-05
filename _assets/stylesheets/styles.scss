@@ -1,42 +1,6 @@
 @import "settings";
 @import "rve";
 
-#footer {
-  margin-top: 3em;
-
-  background-color: $color-footer-background;
-  color: $color-footer-text;
-  border-top: 2px solid $color-footer-border;
-
-  p {
-    color: $color-footer-text;
-  }
-
-  .label {
-    display: none;
-
-    @media (min-width: 27em) {
-      display: inline;
-    }
-  }
-
-  .tool {
-    display: none;
-
-    @media (min-width: 32em) {
-      display: inline;
-    }
-  }
-
-  a {
-    color: $color-footer-link;
-
-    &:hover {
-      color: $color-footer-hover;
-    }
-  }
-}
-
 h1, h2, h3, h4 {
   a.deeplink {
     font-size: .9em;
@@ -54,10 +18,6 @@ h1, h2, h3, h4 {
   font-size: 1.2em;
   letter-spacing: 0;
   color: $color-article-intro;
-
-  @media (min-width: 30em) {
-    font-weight: 600;
-  }
 }
 
 article {
@@ -208,6 +168,10 @@ article {
   }
 }
 
+.list {
+  clear: both;
+}
+
 .year {
   .annees {
     display: flex;
@@ -237,6 +201,12 @@ article {
   }
 }
 
+img.tag {
+  max-width: 25%;
+  float: right;
+  margin: 0 0 2em 1em;
+}
+
 // Search results
 
 .results {
@@ -258,3 +228,40 @@ article {
     color: #000;
   }
 }
+
+#footer {
+  margin-top: 3em;
+
+  background-color: $color-footer-background;
+  color: $color-footer-text;
+  border-top: 2px solid $color-footer-border;
+
+  p {
+    color: $color-footer-text;
+  }
+
+  .label {
+    display: none;
+
+    @media (min-width: 27em) {
+      display: inline;
+    }
+  }
+
+  .tool {
+    display: none;
+
+    @media (min-width: 32em) {
+      display: inline;
+    }
+  }
+
+  a {
+    color: $color-footer-link;
+
+    &:hover {
+      color: $color-footer-hover;
+    }
+  }
+}
+
