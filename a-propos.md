@@ -57,6 +57,8 @@ Dans la mesure du possible, les ressources externes sont chargées en asynchrone
 
 Les tweets sont chargés à l'aide du tag Liquid fourni par le [Jekyll Twitter Plugin](https://github.com/rob-murray/jekyll-twitter-plugin).
 
+Les images pour illustrer les pages de tags, ainsi que les meta opengraph, utilisent le plugin [Jekyll File Exists](https://github.com/michaelx/jekyll_file_exists).
+
 ### La webperf
 
 La performance des sites Web fait partie de mes dadas depuis plusieurs années, étant avant tout [frustré en tant que simple visiteur](https://twitter.com/nhoizey/status/562873571073355776/photo/1) par les sites plus lourds et lents les uns que les autres.
