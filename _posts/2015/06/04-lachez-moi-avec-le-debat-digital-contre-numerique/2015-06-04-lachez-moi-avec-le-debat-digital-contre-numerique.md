@@ -17,15 +17,6 @@ Sauf que je suis pragmatique.
 
 Alors je dis « digital » et non « numérique », et je commence à en avoir plus qu'assez que l'on me reprenne à ce sujet. C'est drôle une fois, deux fois, même dix fois éventuellement, mais ça fini par lasser.
 
-Petit exercice pour vous qui me reprennez régulièrement :
-
-- ne dîtes plus jamais « marketing » mais plutôt « mercatique »,
-- ne dîtes plus jamais « sponsor » mais plutôt « parraineur »,
-- ne dîtes plus jamais « bug » mais plutôt « bogue »,
-- etc.
-
-Et encore, je n'ai pas cherché les pires, et je suis d'accord, ceux-ci n'ont pas le même problème de détournement de sens…
-
 Bref, OSEF, faisons de beaux projets et arrêtons ces débats stériles, comme le dit si bien l'ami Élie :
 
 {% twitter oembed https://twitter.com/ElieSl/status/606040859751120896 %}
