@@ -29,6 +29,9 @@ exclude:
   - LICENSE.md
   - "*.sublime*"
   - Rakefile
+  - "*.jpg"
+  - "*.png"
+  - "*.gif"
 include:
   - .htaccess
 
