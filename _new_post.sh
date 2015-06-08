@@ -6,24 +6,29 @@ if [ -z "$1" ]; then
 else
 	title="$@"
 fi
-slug=$(echo $title | tr '[:upper:]' '[:lower:]' | tr '[:space:]' '-' | tr '[:punct:]' '-')
+
+# Slugify, inspired by https://github.com/benlinton/bash-slugify/blob/master/slugify
+slug=$(echo "$title" | tr [:upper:] [:lower:])
+slug=$(echo "$slug" | sed 'y/āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜĀÁǍÀĒÉĚÈĪÍǏÌŌÓǑÒŪÚǓÙǕǗǙǛ/aaaaeeeeiiiioooouuuuüüüüAAAAEEEEIIIIOOOOUUUUÜÜÜÜ/')
+slug=$(echo "$slug" | tr [:punct:] " ")
+slug=$(echo "$slug" | tr _ " ")
+slug=$(echo "$slug" | tr - " ")
+slug=$(echo "$slug" | tr -s " ")
+slug=$(echo "$slug" | tr [:space:] "-")
+while
 slug="${slug:0:${#slug}-1}"
 
-y=$(date +"%Y")
-m=$(date +"%m")
-d=$(date +"%d")
-
-folder="./_drafts/$y/$m/$d-$slug"
+folder="./_drafts/$slug"
 mkdir -p $folder
 
-post="$folder/$y-$m-$d-$slug.md"
+post="$folder/$slug.md"
 
 body=""
 read -d '' body <<EOF
 ---
-title:			$title
-lang:				fr
-tags:       [ ]
+title: $title
+lang:  fr
+tags:  [ ]
 ---
 
 EOF
