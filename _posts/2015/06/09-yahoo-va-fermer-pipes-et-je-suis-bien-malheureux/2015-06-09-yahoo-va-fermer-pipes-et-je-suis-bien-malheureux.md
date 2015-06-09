@@ -17,7 +17,7 @@ Voici [un exemple de *Pipe*](http://pipes.yahoo.com/pipes/pipe.edit?_id=bfe78fd6
   <figcaption>Vue graphique d'un *Pipe* de transformation de flux RSS</figcaption>
 </figure>
 
-Plus exactement, ce *Pipe* transforme le flux RSS fourni par Pinboard en un autre branché dans IFTTT pour alimenter Buffer, qui va lui poster le tweet. Compliqué ? Un peu, mais si utile.
+Plus exactement, ce *Pipe* transforme le flux RSS fourni par Pinboard en un autre branché dans [IFTTT](https://ifttt.com/) pour alimenter [Buffer](https://buffer.com/), qui va lui poster le tweet. Compliqué ? Un peu, mais si utile.
 
 Par exemple, [ce bookmark](https://pinboard.in/u:nhoizey/b:602669af0bcf) :
 
