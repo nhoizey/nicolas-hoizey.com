@@ -27,6 +27,7 @@ exclude:
   - "Gemfile*"
   - README.md
   - LICENSE.md
+  - Rakefile
   - "*.sublime*"
   - Rakefile
   - "*.jpg"
