@@ -8,9 +8,9 @@
 
   {% javascript vendors/picturefill-2.3.1 async defer %}
 
-  <script>
-  {% asset vendors/loadCSS %}
-  loadCSS("{% asset_path styles %}");
+  <script id="loadcss">
+  {% asset vendors/loadCSS-0.1.7 %}
+  loadCSS("{% asset_path styles %}", document.getElementById("loadcss"));
   </script>
   <noscript>
     <link href="{% asset_path styles %}" rel="stylesheet">
