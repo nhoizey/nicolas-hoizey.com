@@ -132,6 +132,16 @@ article {
 
 .pagination {
   margin-bottom: 3em;
+  text-align: center;
+  list-style-type: none;
+
+  li {
+    display: inline;
+
+    a, strong, .disabled {
+      padding: .2em .5em;
+    }
+  }
 }
 
 .tagscloud {

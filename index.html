@@ -21,23 +21,61 @@ title: Accueil
     </article>
   {% endfor %}
 
-  <div class="pagination">
-    <h2>Voir
-    {% if paginator.next_page %}
-      <a href="{{ site.baseurl }}{{ paginator.next_page }}#billets">des billets plus anciens</a>
+  {% if paginator.total_pages > 1 %}
+    <ul class="pagination">
       {% if paginator.previous_page %}
-        ou
-      {% endif %}
-    {% endif %}
-    {% if paginator.previous_page %}
-      {% if paginator.page == 2 %}
-        <a href="{{ site.baseurl }}#billets">les derniers billets</a>
+        {% if paginator.previous_page == 1 %}
+          <li><a href="/">&laquo;</a></li>
+        {% else %}
+          <li><a href="/{{paginator.previous_page}}">&laquo;</a></li>
+        {% endif %}
       {% else %}
-        <a href="{{ site.baseurl }}{{ paginator.previous_page }}#billets">des billets plus récents</a>
+        <li class="disabled">&laquo;</li>
       {% endif %}
-    {% endif %}
-    </h2>
-  </div>
+
+      {% if paginator.page == 1 %}
+        <li><strong>1</strong></li>
+      {% else %}
+        <li><a href="/">1</a></li>
+      {% endif %}
+
+      {% assign page_start = 2 %}
+      {% if paginator.page > 5 %}
+        {% assign page_start = paginator.page | minus: 2 %}
+        <li class="disabled">…</li>
+      {% endif %}
+
+      {% assign page_end = paginator.total_pages | minus: 1 %}
+      {% assign to_end = paginator.total_pages | minus: paginator.page %}
+      {% if to_end > 4 %}
+        {% assign page_end = paginator.page | plus: 2 %}
+      {% endif %}
+
+      {% for index in (page_start..page_end) %}
+        {% if index == paginator.page %}
+          <li><strong>{{index}}</strong></li>
+        {% else %}
+          <li><a href="/{{index}}">{{index}}</a></li>
+        {% endif %}
+      {% endfor %}
+
+      {% if to_end > 4 %}
+        <li class="disabled">…</li>
+      {% endif %}
+
+      {% if paginator.page == paginator.total_pages %}
+        <li><strong>{{paginator.page}}</strong></li>
+      {% else %}
+        <li><a href="/{{paginator.total_pages}}">{{paginator.total_pages}}</a></li>
+      {% endif %}
+
+      {% if paginator.next_page %}
+        <li><a href="/{{paginator.next_page}}">&raquo;</a></li>
+      {% else %}
+        <li class="disabled">&raquo;</li>
+      {% endif %}
+    </ul>
+  {% endif %}
 </section>
 
 <div class="tagscloud">
