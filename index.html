@@ -25,12 +25,12 @@ title: Accueil
     <ul class="pagination">
       {% if paginator.previous_page %}
         {% if paginator.previous_page == 1 %}
-          <li><a href="/">&laquo;</a></li>
+          <li class="prev"><a href="/">&laquo;</a></li>
         {% else %}
-          <li><a href="/{{paginator.previous_page}}">&laquo;</a></li>
+          <li class="prev"><a href="/{{paginator.previous_page}}">&laquo;</a></li>
         {% endif %}
       {% else %}
-        <li class="disabled">&laquo;</li>
+        <li class="prev disabled">&laquo;</li>
       {% endif %}
 
       {% if paginator.page == 1 %}
@@ -55,7 +55,11 @@ title: Accueil
         {% if index == paginator.page %}
           <li><strong>{{index}}</strong></li>
         {% else %}
-          <li><a href="/{{index}}">{{index}}</a></li>
+          {% assign dist = paginator.page | minus: index %}
+          {% if dist < 0 %}
+            {% assign dist = 0 | minus: dist %}
+          {% endif %}
+          <li class="dist{{dist}}"><a href="/{{index}}">{{index}}</a></li>
         {% endif %}
       {% endfor %}
 
@@ -70,15 +74,15 @@ title: Accueil
       {% endif %}
 
       {% if paginator.next_page %}
-        <li><a href="/{{paginator.next_page}}">&raquo;</a></li>
+        <li class="next"><a href="/{{paginator.next_page}}">&raquo;</a></li>
       {% else %}
-        <li class="disabled">&raquo;</li>
+        <li class="next disabled">&raquo;</li>
       {% endif %}
     </ul>
   {% endif %}
 </section>
 
-<div class="tagscloud">
+<div class="tagscloud" id="tags">
   <h2>Tags à explorer</h2>
   {{ site | tag_cloud }}
 </div>
