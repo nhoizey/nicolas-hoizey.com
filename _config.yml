@@ -35,6 +35,7 @@ exclude:
   - "*.gif"
 include:
   - .htaccess
+  - favicon.jpg
 
 assets:
   js_compressor:  uglifier
