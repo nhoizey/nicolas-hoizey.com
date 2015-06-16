@@ -29,8 +29,9 @@ There have been concerns in the Dribble comments that the original have too much
 SVG is even inline in the HTML, so there is no additional request at all.
 
 [Here it is](http://codepen.io/nhoizey/pen/ICJvA):
-<p data-height="500" data-theme-id="2148" data-slug-hash="ICJvA" data-user="nhoizey" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/nhoizey/pen/ICJvA'>SVG Responsive Icons</a> by Nicolas Hoizey (<a href='http://codepen.io/nhoizey'>@nhoizey</a>) on <a href='http://codepen.io'>CodePen</a></p>
-<script async src="//codepen.io/assets/embed/ei.js"></script>
+
+<p data-height="266" data-theme-id="2148" data-slug-hash="ICJvA" data-default-tab="result" data-user="nhoizey" class='codepen'>See the Pen <a href='http://codepen.io/nhoizey/pen/ICJvA/'>SVG Responsive Icons</a> by Nicolas Hoizey (<a href='http://codepen.io/nhoizey'>@nhoizey</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 I made a little screencast for those who don't have SVG support in their browser:
 {% youtube y1d1dDWs4_4 %}

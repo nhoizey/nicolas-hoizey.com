@@ -20,8 +20,6 @@ Ce qui a amené quelques réponses qu'il peut être intéressant de garder sous 
 
 {% twitter oembed https://twitter.com/jBleuzen/statuses/378119098858999808 %}
 
-{% twitter oembed https://twitter.com/weboxeur/statuses/378119251137024000 %}
-
 {% twitter oembed https://twitter.com/bobmaerten/statuses/378119926089011200 %}
 
 {% twitter oembed https://twitter.com/bobmaerten/statuses/378120095614386176 %}
