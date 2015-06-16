@@ -1,5 +1,6 @@
 @import "settings";
 @import "rve";
+@import "monokai";
 
 h1, h2, h3, h4 {
   a.deeplink {
@@ -104,6 +105,10 @@ article {
     }
   }
 
+  pre {
+    overflow-x: auto;
+  }
+
   a.footnote, a.reversefootnote {
     text-decoration: none;
     padding: 0 .2em;
@@ -137,11 +142,11 @@ article {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  align-items: baseline;
 
   li {
     flex-grow: 1;
+    text-align: center;
 
     &.dist1, &.dist2 {
       display: none;
@@ -149,13 +154,13 @@ article {
 
     @media (min-width: 18em) {
       &.dist1 {
-        display: inherit;
+        display: block;
       }
     }
 
     @media (min-width: 22em) {
       &.dist2 {
-        display: inherit;
+        display: block;
       }
     }
 

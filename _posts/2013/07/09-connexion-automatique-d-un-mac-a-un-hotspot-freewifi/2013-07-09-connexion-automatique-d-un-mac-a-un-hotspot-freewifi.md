@@ -10,7 +10,7 @@ Pour cela, vous devez vous connecter au HotSpot nommé `FreeWifi` puis saisir vo
 
 Voici un petit script permettant de simplifier la chose en réalisant la connexion à votre place.
 
-```shell
+``` shell
 #!/bin/sh
 url="https://wifi.free.fr/Auth"
 login="votre identifiant numérique"

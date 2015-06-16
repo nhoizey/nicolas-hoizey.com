@@ -3,6 +3,7 @@ source "https://rubygems.org"
 gem "jekyll"
 gem "redcarpet"
 gem "yt"
+gem "rouge"
 
 group :jekyll_plugins do
   gem "jekyll-picture-tag"
