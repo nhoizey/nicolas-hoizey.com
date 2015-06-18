@@ -15,7 +15,6 @@ slug=$(echo "$slug" | tr _ " ")
 slug=$(echo "$slug" | tr - " ")
 slug=$(echo "$slug" | tr -s " ")
 slug=$(echo "$slug" | tr [:space:] "-")
-while
 slug="${slug:0:${#slug}-1}"
 
 folder="./_drafts/$slug"
