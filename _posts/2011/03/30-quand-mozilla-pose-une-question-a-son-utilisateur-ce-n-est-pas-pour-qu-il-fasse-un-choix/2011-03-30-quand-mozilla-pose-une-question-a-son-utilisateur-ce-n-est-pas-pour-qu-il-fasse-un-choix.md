@@ -1,7 +1,7 @@
 --- 
 title:      Quand Mozilla pose une question à son utilisateur, ce n'est pas pour qu'il fasse un choix... 
 lang:       fr 
-tags:       [ergonomie, Mozilla, formulaire]
+tags:       [UX, Mozilla, formulaire]
 ---
 
 Je me suis enfin décidé à faire un peu de ménage dans [mes collections d'extensions Firefox](https://addons.mozilla.org/fr/firefox/collections/nhoizey/), et quand j'ai voulu supprimer les collections résiduelles, j'ai été surpris par la façon dont Mozilla demande confirmation, qui ne me paraît pas très ergonomique.

@@ -1,7 +1,7 @@
 ---
 title:      Laisser les champs mot de passe en clair
 lang:       fr
-tags:       [ergonomie, formulaire, mot de passe]
+tags:       [UX, formulaire, mot de passe]
 ---
 
 J'avais découvert chez Luke Wroblewski[^1] que la galère historique des mots de passe masqués dans les champs de formulaires Web n'est pas une fatalité, et je découvre aujourd'hui qu'il n'était pas le premier à y penser ni le mettre en œuvre. Voilà quelques ressources sur le sujet fournies par quelques-uns qui ont répondu à [mon appel à références sur Twitter](https://twitter.com/nhoizey/status/534669510708834305).
