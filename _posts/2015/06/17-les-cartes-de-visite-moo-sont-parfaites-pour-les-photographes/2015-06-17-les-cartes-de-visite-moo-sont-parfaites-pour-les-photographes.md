@@ -60,6 +60,6 @@ Voici un petit déballage en photo, pour bien montrer la qualité des cartes et 
     <figcaption>Les multiples couches de papier, avec une jolie tranche colorée</figcaption>
 </figure>
 
-Avouez que ça à de la gueule !
+Avouez que ça a de la gueule !
 
 Si vous voulez aussi commander vos carte de visite chez Moo, quel que soit le type que vous voulez, vous pouvez avoir [une réduction de 10% avec ce lien](http://www.moo.com/share/txpyyf).
