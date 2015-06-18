@@ -1,7 +1,7 @@
 ---
 title:      Un nouveau rubriquage, de nouvelles URL
 lang:       fr
-tags:       [Gastero Prod., url]
+tags:       [Gastero Prod., URL]
 ---
 
 J'avais adopté une structure très simple avec juste une rubrique blog lors de la dernière refonte, mais je commence à discerner deux grands thèmes dans mes articles, le web et la photo, donc j'ai décidé de créer des rubriques. De nouvelles URL les accompagnent évidemment. J'ai quelques questions pour vous pour la suite…

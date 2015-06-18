@@ -1,7 +1,7 @@
 ---
 title:      Les spammeurs, vils flatteurs
 lang:       fr
-tags:       [spip, spam]
+tags:       [SPIP, spam]
 ---
 
 Je ne sais pas chez vous, mais sur ce blog la plupart des spams récents sont rédigés sous forme de flatteries sans finesse, sans doute une nouvelle tendance dans la course sans fin entre spammeurs et systèmes anti spam. Le fait est que [le plugin NoSpam pour SPIP](http://plugins.spip.net/nospam.html) n'arrive pas — pour l'instant ? — à éviter ceux-ci. Voici un petit florilège.

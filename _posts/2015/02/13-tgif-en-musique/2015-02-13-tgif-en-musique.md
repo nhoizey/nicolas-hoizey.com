@@ -1,7 +1,7 @@
 ---
 title:      TGIF en musique
 lang:       fr
-tags:       [musique, tgif]
+tags:       [musique, TGIF]
 ---
 
 Cette semaine, une petite sélection de chansons sur le thème *Thank God It's Friday*, pas si simple de trouver de la qualité…

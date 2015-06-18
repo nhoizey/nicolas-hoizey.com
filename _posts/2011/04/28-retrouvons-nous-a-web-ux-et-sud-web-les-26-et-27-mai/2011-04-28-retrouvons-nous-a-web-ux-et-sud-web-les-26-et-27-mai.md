@@ -8,7 +8,7 @@ Vous le savez sans doute si vous me lisez régulièrement, sur ce blog ou via [m
 
 ## Web UX le 26 mai 2011
 
-<figure>
+<figure class="one-fourth right">
   {% picture web-ux.png %}
 </figure>
 
@@ -33,7 +33,7 @@ Vous pouvez retrouver [cette conférence sur Lanyrd](http://lanyrd.com/2011/webu
 
 ## Sud Web le 27 mai 2011
 
-<figure>
+<figure class="one-fourth right">
   {% picture sud-web.png %}
 </figure>
 

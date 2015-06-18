@@ -3,7 +3,7 @@ title:      Quelle version du dock thunderbolt Belkin choisir ?
 date:       2015-01-27
 author:     Nicolas Hoizey
 lang:       fr
-tags:       [mac, matériel]
+tags:       [Mac, matériel]
 logo:       
 url:     http://gasteroprod.dev/divers/quelle-version-du-dock-thunderbolt-belkin-choisir
 ---

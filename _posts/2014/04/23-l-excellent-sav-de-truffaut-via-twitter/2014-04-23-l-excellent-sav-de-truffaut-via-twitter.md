@@ -1,7 +1,7 @@
 ---
 title:      L'excellent SAV de Truffaut via Twitter
 lang:       fr
-tags:       [commerce, twitter, sav]
+tags:       [commerce, Twitter, SAV]
 ---
 
 <figure>
