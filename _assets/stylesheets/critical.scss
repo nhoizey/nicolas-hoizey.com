@@ -4,13 +4,13 @@
 // http://www.filamentgroup.com/lab/font-events.html
 // + http://www.zachleat.com/web/foft/
 @font-face {
-    font-family: "Source Sans Pro";
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    src: url("/assets/fonts/woff2/SourceSansPro-Light.woff2") format("woff2"),
-         url("/assets/fonts/woff/SourceSansPro-Light.woff") format("woff"),
-         url("/assets/fonts/ttf/SourceSansPro-Light.ttf") format("truetype");
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('/assets/fonts/woff2/SourceSansPro-Light.woff2') format('woff2'),
+       url('/assets/fonts/woff/SourceSansPro-Light.woff') format('woff'),
+       url('/assets/fonts/ttf/SourceSansPro-Light.ttf') format('truetype');
 }
 
 // Box sizing:
@@ -51,7 +51,8 @@ strong {
   max-width: 40rem;
   margin: 0 auto;
 
-  #header &, #footer & {
+  #header &,
+  #footer & {
     display: flex;
     flex-direction: row;
 
@@ -69,16 +70,16 @@ strong {
 
 #header {
   font-size: 1.2em;
-  margin: .5em 0 3em 0;
+  margin: .5em 0 3em;
 
   color: $color-header-text;
 
   a {
     color: $color-header-link;
     text-decoration: none;
-    transition-property: color;
     transition-duration: .1s;
-    transition-easing: ease-in-out;
+    transition-property: color;
+    transition-timing-function: ease-in-out;
 
     &:hover {
       color: $color-header-hover;
@@ -105,7 +106,7 @@ main {
 }
 
 h1, h2, h3, h4 {
-  margin: 0 0 1em 0;
+  margin: 0 0 1em;
   line-height: 1.3;
 
   color: $color-title;
@@ -119,7 +120,9 @@ h1, h2, h3, h4 {
   }
 }
 
-.post h1, .year h2, .month h1 {
+.post h1,
+.year h2,
+.month h1 {
   a {
     color: $color-title;
     text-decoration: none;
@@ -156,7 +159,7 @@ h3 {
 }
 
 article {
-  margin: 0 0 calc(1em + 5vh) 0;
+  margin: 0 0 calc(1em + 5vh);
 
   .list & {
     margin: calc(1em + 5vh) 0;
@@ -207,7 +210,7 @@ article {
       text-decoration: none;
       transition-property: color;
       transition-duration: .1s;
-      transition-easing: ease-in-out;
+      transition-timing-function: ease-in-out;
 
       &:hover {
         color: $color-article-header-hover;
@@ -245,7 +248,7 @@ article {
     outline: none;
   }
 
-  input[type=search] {
+  [type=search] {
     margin-right: 1em;
     flex: 1;
     border: 2px solid #ccc;
@@ -255,7 +258,7 @@ article {
     }
   }
 
-  input[type=submit] {
+  [type=submit] {
     background-color: $color-blue;
     color: #fff;
     border: 2px solid darken($color-blue, 10%);
