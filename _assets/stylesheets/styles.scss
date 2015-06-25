@@ -22,24 +22,31 @@ h1, h2, h3, h4 {
 }
 
 article {
-  p, blockquote, .intro, .footnotes, figure, img, iframe {
+  p, blockquote, .intro, .footnotes {
     margin: 1em 0;
   }
 
+  figure, img, iframe, .embed-video-container {
+    margin: 2em auto;
+    display: block;
+  }
+
   figure {
-    &.two-thirds {
-      max-width: 66%;
+    img, iframe, .embed-video-container {
+      display: block;
+      margin: 0;
+      padding: 0;
     }
 
-    &.one-half {
+    &.onehalf {
       max-width: 50%;
     }
 
-    &.one-third {
+    &.onethird {
       max-width: 33%;
     }
 
-    &.one-fourth {
+    &.onefourth {
       max-width: 25%;
     }
 
@@ -53,18 +60,13 @@ article {
       margin: 0 0 1em 1em;
     }
 
-    img {
-      display: block;
-      margin: 0;
-      padding: 0;
-    }
-
     figcaption {
       font-size: .9em;
       font-style: italic;
-      margin: 0;
+      margin: 1px 0 0;
       padding: .3em .5em;
-      background-color: #eee;
+      background: linear-gradient(to bottom, lighten($color-blue, 50%) 0%, lighten($color-blue, 30%) 60%, lighten($color-blue, 20%) 100%);
+      border: 1px solid $color-blue;
 
       p {
         margin: 0;
