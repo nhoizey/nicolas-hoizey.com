@@ -2,6 +2,13 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  {% if page.title == "Accueil" %}
+    <link rel="prerender" href="{{ site.url }}/a-propos.html" />
+    {% for post in site.posts limit:2 %}
+      <link rel="prerender" href="{{ site.url }}{{ post.url }}" />
+    {% endfor %}
+  {% endif %}
+
   <style>
   {% asset critical %}
   </style>
