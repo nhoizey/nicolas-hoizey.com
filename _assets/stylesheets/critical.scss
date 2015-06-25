@@ -85,8 +85,16 @@ strong {
       color: $color-header-hover;
     }
 
+    &.twitter:hover {
+      color: #55acee;
+    }
+
     &.github:hover {
-      color: #000;
+      color: #666;
+    }
+
+    &.facebook:hover {
+      color: #3b5998;
     }
   }
 
