@@ -1,7 +1,7 @@
 --- 
 title:      Performance Web, ma conférence à Web UX 
 lang:       fr 
-tags:       [webperf, Web UX]
+tags:       [webperf, Web UX, Web, UX]
 ---
 
 Pour ceux qui n'étaient pas présents à Web UX en mai 2011, et avec pas mal de retard[^1], voici mes slides, ainsi que la vidéo captée par l'équipe organisatrice.

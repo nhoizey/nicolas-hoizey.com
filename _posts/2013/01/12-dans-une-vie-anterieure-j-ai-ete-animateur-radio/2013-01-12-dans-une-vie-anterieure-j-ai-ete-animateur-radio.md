@@ -1,7 +1,7 @@
 ---
 title:      Dans une vie antérieure, j'ai été animateur radio
 lang:       fr
-tags:       [moi, musique, fun]
+tags:       [musique, radio, fun]
 ---
 
 Ah, ce qu'on a pu se marrer avec Philou en préparant ces quelques émissions pour la radio « Positive EISTI Waves », du temps où on faisait nos études à l'[EISTI](http://eisti.fr/) !

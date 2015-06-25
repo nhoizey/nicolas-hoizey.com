@@ -1,7 +1,7 @@
 --- 
 title:      Attention au détournement SEO de vos URL ! 
 lang:       fr 
-tags:       [fail, SEO, URL]
+tags:       [fail, SEO, URL, Web]
 ---
 
 On le sait bien, les termes qui se trouvent dans une URL sont utilisés par les moteurs de recherche dans leurs index. Au point que certains consultants SEO passent leur temps à optimiser ces termes, leurs valeurs, nombre et positionnement. Malheureusement, peu de sites s'assurent que l'URL ainsi définie soit la seule permettant d'arriver à la page correspondante. Le détournement d'URL est alors possible.

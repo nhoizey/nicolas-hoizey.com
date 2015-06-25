@@ -1,7 +1,7 @@
 ---
 title:      Viewport height is taller than the visible part of the document in some mobile browsers
 lang:       en
-tags:       [Safari, iPhone, iPad, bug]
+tags:       [Web, Safari, iPhone, iPad, bug]
 ---
 
 When trying to use [a `100vh` CSS value](http://caniuse.com/viewport-units) to build a new interface for [a game](http://esviji.com/) that would use the full viewport, I discovered that this full height value meant the bottom of the game interface was partialy hidden behind the browser buttons bar or below the "fold" of some mobile browsers.
@@ -12,13 +12,13 @@ I first discovered this on my iPhone 5 and iPad 2.
 
 Here is what [this page](http://lab.gasteroprod.com/vub/index-ios-issue.html) looks like on an iPhone 5 :
 
-{% picture ios-safari-portrait-before-scroll.png %}
+{% picture onehalf ios-safari-portrait-before-scroll.png %}
 
 {% picture ios-safari-landscape-before-scroll.png %}
 
 `100vh` is computed for when the browser interface is hidden, after a scroll :
 
-{% picture ios-safari-portrait-after-scroll.png %}
+{% picture onehalf ios-safari-portrait-after-scroll.png %}
 
 {% picture ios-safari-landscape-after-scroll.png %}
 
@@ -65,7 +65,7 @@ In fact I saw later that iOS Safari is not the only one doing this.
 
 I discovered later the same behavior on the browser of Firefox OS:
 
-{% picture firefox-os-before-scroll-r90.jpg %}
+{% picture onehalf firefox-os-before-scroll-r90.jpg %}
 
 ## So what?
 

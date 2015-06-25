@@ -1,7 +1,7 @@
 ---
 title:      Les bonnes pratiques webperf toujours sous la main
 lang:       fr
-tags:       [livre, webperf]
+tags:       [livre, webperf, Web]
 ---
 
 La [collection «mémento» de chez Eyrolles](http://www.eyrolles.com/Informatique/Collection/4143/memento.php) vient de s'agrandir, avec l'ajout d'un petit nouveau dédié aux [performances web](http://www.eyrolles.com/Informatique/Livre/memento-performances-web-9782212136586), en termes de vitesse. Incontournable !

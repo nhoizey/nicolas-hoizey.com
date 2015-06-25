@@ -1,7 +1,7 @@
 ---
 title:      Un petit pas pour l'em, un grand pas pour le Web
 lang:       fr
-tags:       [intégration, qualité, em, Paris Web]
+tags:       [Web, qualité, em, Paris Web]
 ---
 
 Voici le *pitch* de la conférence que j'ai proposé d'animer à Paris Web 2013.

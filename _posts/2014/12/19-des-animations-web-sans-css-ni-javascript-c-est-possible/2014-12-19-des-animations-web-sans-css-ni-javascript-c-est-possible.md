@@ -1,7 +1,7 @@
 ---
 title:      Des animations Web sans CSS ni JavaScript ? C'est possible !
 lang:       fr
-tags:       [animation, svg]
+tags:       [Web, animation, SVG]
 ---
 
 Pour faire des animations sur le Web, tout le monde sait que l'on peut utiliser CSS si l'animation est prédéfinie, ou JavaScript si elle dépend d'un contexte particulier (éventuellement en générant de la CSS). Si c'est du SVG que l'on veut animer, il est possible d'utiliser en plus SMIL.

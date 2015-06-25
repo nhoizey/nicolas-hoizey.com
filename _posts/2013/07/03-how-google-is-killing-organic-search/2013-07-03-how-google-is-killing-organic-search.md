@@ -1,7 +1,7 @@
 ---
 title:      How Google is Killing Organic Search
 lang:       fr
-tags:       [publicité, Google, recherche]
+tags:       [Web, publicité, Google, recherche]
 ---
 
 <figure>

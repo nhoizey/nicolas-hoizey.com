@@ -1,7 +1,7 @@
 ---
 title:      Mes tweets les plus marquants de 2013
 lang:       fr
-tags:       [moi, Twitter]
+tags:       [Twitter]
 ---
 
 C'est [Nico](http://www.nicolas-hoffmann.net/) qui m'a fait découvrir cet outil, Vizify, qui propose de faire [une vidéo des événements marquants de son année 2013 sur Twitter](https://www.vizify.com/nicolas-hoizey/twitter-video), et crée [une timeline des tweets les plus marquants de 2013](https://twitter.com/nhoizey/timelines/420123658359549953).

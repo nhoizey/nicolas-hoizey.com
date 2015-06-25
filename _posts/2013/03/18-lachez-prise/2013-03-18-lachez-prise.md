@@ -1,7 +1,7 @@
 ---
 title:      Lâchez prise !
 lang:       fr
-tags:       [UX, web, qualité]
+tags:       [UX, Web, qualité]
 ---
 
 Le Firefox de mon MacBook Pro HD est configuré avec une taille de texte par défaut de 18px. Sur mon Mac mini branché à la TV de mon salon, c’est 24px. Si votre site m’impose une taille de texte illisible de 11px ou son design est complètement cassé bien que respectant ma préférence de taille de texte, ne comptez pas sur moi pour y rester…

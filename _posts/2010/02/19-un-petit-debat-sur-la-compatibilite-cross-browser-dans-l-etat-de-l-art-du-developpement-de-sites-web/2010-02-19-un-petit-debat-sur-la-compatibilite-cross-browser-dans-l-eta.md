@@ -1,7 +1,7 @@
 --- 
 title:      Un petit débat sur la compatibilité cross-browser dans l'état de l'art du développement de sites Web 
 lang:       fr 
-tags:       [standards, accessibilité, développement, Internet]
+tags:       [Web, standards, accessibilité, développement]
 ---
 
 Adrien « [Voulf](http://www.twitter.com/Voulf) » Leygues lance [un petit débat sur l'état de l'art du développement de sites Web](http://www.bootleygues.net/index.php?post/2010/02/19/Debat-sur-l-etat-de-l-art) focalisé sur la compatibilité *cross-browser*. Voici mon point de vue.

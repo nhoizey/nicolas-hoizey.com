@@ -1,7 +1,7 @@
 --- 
 title:      Respecter les usages courants 
 lang:       fr 
-tags:       [UX, innovation]
+tags:       [UX, Web, innovation]
 ---
 
 L’innovation, ça a du bon, ça fait avancer. Mais à trop innover, on perd les utilisateurs en chemin, parce qu’on leur impose de nouvelles choses qui ne sont pas identiques aux habitudes qu’ils ont prises. Comme le disait Voltaire[^1], « le mieux est l’ennemi du bien ».

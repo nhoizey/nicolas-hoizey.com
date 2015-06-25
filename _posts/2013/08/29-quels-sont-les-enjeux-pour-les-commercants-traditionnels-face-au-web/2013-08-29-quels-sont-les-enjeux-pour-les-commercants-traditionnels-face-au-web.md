@@ -1,7 +1,7 @@
 ---
 title:      Quels sont les enjeux pour les commerçants traditionnels face au Web ?
 lang:       fr
-tags:       [e-commerce]
+tags:       [Web, e-commerce]
 ---
 
 Dans une lettre ouverte au philosophe Michel Serres[^serres], l'illustre voleur Laurent Chemla[^chemla] explique pourquoi certains commerçant traditionnels sont appelés à disparaître s'ils continuent à croire qu'une vitrine en ligne suffit pour concurrencer les *pure players* du e-commerce.
