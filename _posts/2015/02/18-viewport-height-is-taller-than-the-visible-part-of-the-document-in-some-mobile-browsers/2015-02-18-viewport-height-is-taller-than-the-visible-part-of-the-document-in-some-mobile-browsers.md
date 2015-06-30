@@ -22,9 +22,7 @@ Here is what [this page](http://lab.gasteroprod.com/vub/index-ios-issue.html) lo
 
 {% picture ios-safari-landscape-after-scroll.png %}
 
-As suggested by Yoav Weiss [there](https://twitter.com/yoavweiss/status/568145414320492544) and [there](https://twitter.com/yoavweiss/status/568713697306267648), I opened a bug in [Apple Bug Reporter](https://bugreport.apple.com/)[^bugid] and [Webkit Bugzilla](https://bugs.webkit.org/show_bug.cgi?id=141832).
-
-[^bugid]: Id 19879505
+As suggested by Yoav Weiss [there](https://twitter.com/yoavweiss/status/568145414320492544) and [there](https://twitter.com/yoavweiss/status/568713697306267648), I opened a bug in [Apple Bug Reporter](https://bugreport.apple.com/)(#19879505) and [Webkit Bugzilla](https://bugs.webkit.org/show_bug.cgi?id=141832).
 
 ### Description
 
@@ -101,4 +99,21 @@ The W3C CSS Working Group replied on Twitter with links to past discussions:
 
 The W3C CSS Working Group suggestion doesn't fix anything, in iOS at least. Test it [live here](http://lab.gasteroprod.com/vub/index-ios-overflow.html).
 
+## June 30th update
 
+Boris, a friend, told be he saw a disturbing behavior of my text content when scrolling on this site:
+
+{% twitter oembed https://twitter.com/borisschapira/status/615972778236182528 %}
+
+In fact, the viewport height changes when he scrolls and the browser chrome hides. Combine this with the fact that he `font-size` is partialy based on a `vh` value, and you understand that when scrolling and hiding the browser chrome, the text size was growing.
+
+Here is a visual demonstration, from [two](https://twitter.com/borisschapira/status/615981753002557440) [screenshots](https://twitter.com/borisschapira/status/615981790113714176) he gave me:
+
+<figure>
+    {% picture android-chrome-before-after-scroll.png %}
+    <figcaption>The font-size increases when the user scrolls</figcaption>
+</figure>
+
+Boris uses a [OnePlus One](https://oneplus.net/one) running Android 5.0.2 and Chrome 43.0.2357.93.
+
+So there is at least one browser that behaves as I want for my full height game screen… but it makes users wonder if there is an issue…
