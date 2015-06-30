@@ -142,10 +142,6 @@ article {
     flex-grow: 1;
     text-align: center;
 
-    &.prev, &.next {
-      font-weight: 700;
-    }
-
     &.dist1, &.dist2 {
       display: none;
     }
