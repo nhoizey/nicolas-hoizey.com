@@ -2,9 +2,8 @@
 @import "rve";
 @import "monokai";
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
   a.deeplink {
-    font-size: .9em;
     color: #ccc;
     text-decoration: none;
 
@@ -13,12 +12,6 @@ h1, h2, h3, h4 {
       text-decoration: underline;
     }
   }
-}
-
-.intro {
-  font-size: 1.2em;
-  letter-spacing: 0;
-  color: $color-article-intro;
 }
 
 article {
@@ -63,10 +56,11 @@ article {
     figcaption {
       font-size: .9em;
       font-style: italic;
-      margin: 1px 0 0;
+      margin: .2em 0 0;
       padding: .3em .5em;
-      background: linear-gradient(to bottom, lighten($color-blue, 50%) 0%, lighten($color-blue, 30%) 60%, lighten($color-blue, 20%) 100%);
-      border: 1px solid $color-blue;
+      background-color: rgba(51, 153, 255, .2);
+      border: 1px solid rgba(51, 153, 255, .4);
+      border-radius: .5em;
 
       p {
         margin: 0;
@@ -107,30 +101,28 @@ article {
     }
   }
 
-  pre {
-    overflow-x: auto;
-  }
-
   a.footnote, a.reversefootnote {
     text-decoration: none;
     padding: 0 .2em;
   }
 
   .footnotes {
+    margin: 2em 0;
     background-color: #eee;
     color: #333;
     border: 1px solid #ccc;
+    border-radius: .3em;
     font-size: .9em;
 
     ol {
       margin: 0;
-      padding: .3em .5em .3em 1.5em;
+      padding: 0 1em 0 2em;
       list-style-position: outside;
     }
   }
 
   .edit {
-    border-top: 1px solid #ccc;
+    border-top: 1px dotted #ccc;
     padding: .5em 0;
     font-size: .9em;
     color: #999;
