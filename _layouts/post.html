@@ -23,7 +23,8 @@ layout: default
   </h1>
   {{ content }}
   {% assign source = page.path | split: '/' %}
-  <p class="edit">Si vous voulez signaler une erreur ou proposer une modification de ce texte, n'hésitez pas à l'éditer directement à la source sur Github&nbsp;: <a href="https://github.com/nhoizey/nicolas-hoizey.com/tree/master/{{ page.path }}">{{ source.last }}</a></p>
+  <p class="edit">Si vous voulez signaler une erreur ou proposer une modification de ce texte, n'hésitez pas à l'éditer directement à la source sur Github&nbsp;:<br />
+  <a href="https://github.com/nhoizey/nicolas-hoizey.com/tree/master/{{ page.path }}">{{ source.last }}</a></p>
 </article>
 
 {% comment %}
