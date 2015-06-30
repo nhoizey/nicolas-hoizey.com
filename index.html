@@ -25,12 +25,10 @@ title: Accueil
     <ul class="pagination">
       {% if paginator.previous_page %}
         {% if paginator.previous_page == 1 %}
-          <li class="prev"><a href="/">&laquo;</a></li>
+          <li class="prev"><a href="/">&#9664;</a></li>
         {% else %}
-          <li class="prev"><a href="/{{paginator.previous_page}}">&laquo;</a></li>
+          <li class="prev"><a href="/{{paginator.previous_page}}">&#9664;</a></li>
         {% endif %}
-      {% else %}
-        <li class="prev disabled">&laquo;</li>
       {% endif %}
 
       {% if paginator.page == 1 %}
@@ -74,9 +72,7 @@ title: Accueil
       {% endif %}
 
       {% if paginator.next_page %}
-        <li class="next"><a href="/{{paginator.next_page}}">&raquo;</a></li>
-      {% else %}
-        <li class="next disabled">&raquo;</li>
+        <li class="next"><a href="/{{paginator.next_page}}">&#9654;</a></li>
       {% endif %}
     </ul>
   {% endif %}
