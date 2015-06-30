@@ -1,4 +1,10 @@
-$color-blue: #5ae;
+$color-blue: #39f;
+$color-red: #f33;
+
+$color-link: $color-blue;
+$color-link-visited: darken($color-blue, 20%);
+$color-link-hover: darken($color-blue, 10%);
+$color-link-active: $color-red;
 
 $color-title: #333;
 $color-hover: $color-blue;
