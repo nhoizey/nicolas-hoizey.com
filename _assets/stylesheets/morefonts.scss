@@ -1,29 +1,59 @@
 @font-face {
-    font-family: 'Source Sans Pro';
-    font-weight: 300;
+    font-family: 'PT Serif';
+    font-weight: 400;
     font-style: italic;
     font-stretch: normal;
-    src: url('/assets/fonts/woff2/SourceSansPro-LightIt.woff2') format('woff2'),
-         url('/assets/fonts/woff/SourceSansPro-LightIt.woff') format('woff'),
-         url('/assets/fonts/ttf/SourceSansPro-LightIt.ttf') format('truetype');
+    src: url('/assets/fonts/pt_serif/pt_serif_italic.woff2') format('woff2'),
+         url('/assets/fonts/pt_serif/pt_serif_italic.woff') format('woff'),
+         url('/assets/fonts/pt_serif/pt_serif_italic.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Source Sans Pro';
-    font-weight: 600;
+    font-family: 'PT Serif';
+    font-weight: 700;
     font-style: normal;
     font-stretch: normal;
-    src: url('/assets/fonts/woff2/SourceSansPro-Semibold.woff2') format('woff2'),
-         url('/assets/fonts/woff/SourceSansPro-Semibold.woff') format('woff'),
-         url('/assets/fonts/ttf/SourceSansPro-Semibold.ttf') format('truetype');
+    src: url('/assets/fonts/pt_serif/pt_serif_bold.woff2') format('woff2'),
+         url('/assets/fonts/pt_serif/pt_serif_bold.woff') format('woff'),
+         url('/assets/fonts/pt_serif/pt_serif_bold.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Source Sans Pro';
-    font-weight: 600;
+    font-family: 'PT Serif';
+    font-weight: 700;
     font-style: italic;
     font-stretch: normal;
-    src: url('/assets/fonts/woff2/SourceSansPro-SemiboldIt.woff2') format('woff2'),
-         url('/assets/fonts/woff/SourceSansPro-SemiboldIt.woff') format('woff'),
-         url('/assets/fonts/ttf/SourceSansPro-SemiboldIt.ttf') format('truetype');
+    src: url('/assets/fonts/pt_serif/pt_serif_bold_italic.woff2') format('woff2'),
+         url('/assets/fonts/pt_serif/pt_serif_bold_italic.woff') format('woff'),
+         url('/assets/fonts/pt_serif/pt_serif_bold_italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('/assets/fonts/pt_sans/pt_sans_italic.woff2') format('woff2'),
+         url('/assets/fonts/pt_sans/pt_sans_italic.woff') format('woff'),
+         url('/assets/fonts/pt_sans/pt_sans_italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('/assets/fonts/pt_sans/pt_sans_bold.woff2') format('woff2'),
+         url('/assets/fonts/pt_sans/pt_sans_bold.woff') format('woff'),
+         url('/assets/fonts/pt_sans/pt_sans_bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('/assets/fonts/pt_sans/pt_sans_bold_italic.woff2') format('woff2'),
+         url('/assets/fonts/pt_sans/pt_sans_bold_italic.woff') format('woff'),
+         url('/assets/fonts/pt_sans/pt_sans_bold_italic.ttf') format('truetype');
 }

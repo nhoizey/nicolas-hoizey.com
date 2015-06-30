@@ -3,7 +3,7 @@
   if(w.document.documentElement.className.indexOf("fonts-loaded" ) > -1) {
     return;
   }
-  var observer = new w.FontFaceObserver("Source Sans Pro", { weight: 300 });
+  var observer = new w.FontFaceObserver("PT Serif", { weight: 400 });
   observer.check(null, 5000).then(function() {
     w.document.documentElement.className += " fonts-loaded";
     w.loadCSS(moreFontsUrl);
