@@ -6,7 +6,7 @@ tags:  [photo, test, sac à dos, Phototrend]
 
 Ma [participation depuis quelques mois à la belle aventure Phototrend](http://phototrend.fr/author/nicolas-hoizey/) est l'occasion d'avoir accès à des produits photo dans le but de les tester. Voici donc un nouveau test, celui du sac à dos photo Kontrast Pro de Case Logic.
 <figure>
-    {% picture sac-case-logic-kontrast-pro-kdb-101-black-what-s-in-your-bag.jpg %}
+    {% picture sac-case-logic-kontrast-pro-kdb-101-black-what-s-in-your-bag.jpg alt="Le sac Case Logic Kontrast Pro en mode « what's in your bag? »" %}
     <figcaption>
         Le sac Case Logic Kontrast Pro en mode « what's in your bag? »
     </figcaption>
