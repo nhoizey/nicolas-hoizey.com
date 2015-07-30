@@ -12,7 +12,7 @@ Ma [participation depuis quelques mois à la belle aventure Phototrend](http://p
     </figcaption>
 </figure>
 
-Ce sac était très prometteur sur le papier, mais est vraiment décevant au final au niveau du confort de portage, une belle déception. Je vous laisse lire [le test complet](http://phototrend.fr/2015/07/test-sac-photo-case-logic-kontrast-pro/). J'espère que Case Logic prendra en compte mes remarques et sortira une nouvelle version améliorée, je pourrais faire partie de leurs clients potentiels.
+Ce sac était très prometteur sur le papier, mais est vraiment décevant au final au niveau du confort de portage. Je vous laisse lire [le test complet](http://phototrend.fr/2015/07/test-sac-photo-case-logic-kontrast-pro/). J'espère que Case Logic prendra en compte mes remarques et sortira une nouvelle version améliorée, je pourrais faire partie de leurs clients potentiels.
 
 J'ai déjà 4 sacs photos à titre personnel, mais je n'en utilise vraiment que 2 :
 
