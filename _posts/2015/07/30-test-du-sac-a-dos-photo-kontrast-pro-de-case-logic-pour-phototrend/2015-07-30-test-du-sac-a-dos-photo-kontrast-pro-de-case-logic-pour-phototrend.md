@@ -23,4 +23,11 @@ Mon soucis principal aujourd'hui concerne les moments où je souhaiterais transp
 
 La [quête du meilleur sac photo](/2008/12/quel-sac-photo-pour-un-reflex-et-ses-accessoires.html) est donc permanente, et je n'ai toujours pas trouvé la perle rare…
 
-Il faut que je regarde de près le [Lowepro ProTactic 350 AW](http://www.amazon.fr/gp/product/B00ND21JW0/ref=as_li_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=B00ND21JW0&linkCode=as2&tag=phpheaven-21&linkId=O4ZU3EIGDVF7EFVT), mais toutes vos suggestions m'intéressent ! ;-)
+J'ai quelques modèles qui me font de l'œil, il faudra que je les regarde de plus près pour voir dans quelle mesure ils peuvent répondre à mes attentes :
+
+- [Lowepro ProTactic 350 AW](http://www.amazon.fr/gp/product/B00ND21JW0/ref=as_li_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=B00ND21JW0&linkCode=as2&tag=phpheaven-21&linkId=O4ZU3EIGDVF7EFVT)
+- [Thule Perspektiv TPBP101](http://www.amazon.fr/gp/product/B00F4714IG/ref=as_li_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=B00F4714IG&linkCode=as2&tag=phpheaven-21&linkId=WCD6BKZ7FVYFC764)
+
+[David](https://larlet.fr/david/) m'a indiqué être très content de son Gura Gear  Kiboko[^davidbgk], maintenant remplacé par le fabricant par le [Gura Gear Bataflae](https://www.guragear.com/bataflae). Mais le modèle [Uinta](http://www.guragear.com/uinta/) me paraît encore plus intéressant avec sa modulartité et son accès dorsal cher à mes yeux. Sauf qu'il coûte un bras, voir plus.
+
+[^davidbgk]: Dont il parlait il y a quelques années dans ses « [quelques conseils photo](https://larlet.fr/david/biologeek/archives/20100512-quelques-conseils-photo/) ».
