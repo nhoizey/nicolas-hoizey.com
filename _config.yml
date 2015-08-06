@@ -1,4 +1,4 @@
-markdown:            kramdown
+markdown:    kramdown
 highlighter: rouge
 
 kramdown:
@@ -57,7 +57,7 @@ tag_feed_dir: tags
 url:                 http://nicolas-hoizey.com
 baseurl:             /
 paginate:            5
-paginate_path:       "/:num/"
+paginate_path:       "/page-:num/"
 
 # About/contact
 title:               Nicolas Hoizey
