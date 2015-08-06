@@ -39,9 +39,9 @@
 
   for (i = 0; i < nb; ++i) {
     if (undefined !== list[i].id) {
-      list[i].innerHTML += '&nbsp;<a class="deeplink" href="#' + list[i].id + '">⚓︎</a>';
+      list[i].innerHTML += '&nbsp;<a class="deeplink" href="#' + list[i].id + '">#︎</a>';
     } else {
-      list[i].innerHTML += '&nbsp;<a class="deeplink" href="#' + i + '">⚓︎</a>';
+      list[i].innerHTML += '&nbsp;<a class="deeplink" href="#' + i + '">#</a>';
     }
   }
 }(this));
