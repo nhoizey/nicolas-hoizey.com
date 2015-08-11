@@ -17,7 +17,7 @@ RewriteCond %{HTTP_HOST} nicolashoizey\.com$ [NC]
 RewriteRule ^(.*) http://nicolas-hoizey.com/$1 [QSA,R=301,L]
 
 # Rediriger les anciennes paginations
-RewriteRule ^([0-9]{1,2})/$ http://nicolas-hoizey.com/page-$1/ [QSA,R=301,L]
+RewriteRule ^([0-9]{1,2})/?$ http://nicolas-hoizey.com/page-$1/ [QSA,R=301,L]
 
 AddType application/font-woff woff
 AddType application/font-woff2 woff2

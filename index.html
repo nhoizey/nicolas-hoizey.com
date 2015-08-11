@@ -5,7 +5,7 @@ title: Accueil
 
 {% if page.url == "/index.html" %}
   <h1>Nicolas Hoizey</h1>
-  <p class="intro">Bienvenue sur mon recueil de créations et réflexions sur des sujets très variés, de la photo au Web en passant par la société, les voyages, etc. Vous pouvez <a href="/a-propos.html">en savoir plus sur moi et ce site</a>.</p>
+  <p class="intro">Bienvenue sur mon recueil de créations et réflexions sur des sujets très variés, notamment la <a href="/tags/photo.html">photo</a> et le <a href="/tags/web.html">Web</a>. Vous pouvez en savoir plus <a href="/a-propos.html">à propos de moi et ce site</a>.</p>
 {% endif %}
 
 <section id="billets" class="list">
@@ -27,7 +27,7 @@ title: Accueil
         {% if paginator.previous_page == 1 %}
           <li class="prev"><a href="/">&#9664;</a></li>
         {% else %}
-          <li class="prev"><a href="/{{paginator.previous_page}}">&#9664;</a></li>
+          <li class="prev"><a href="/page-{{paginator.previous_page}}/">&#9664;</a></li>
         {% endif %}
       {% endif %}
 
@@ -57,7 +57,7 @@ title: Accueil
           {% if dist < 0 %}
             {% assign dist = 0 | minus: dist %}
           {% endif %}
-          <li class="dist{{dist}}"><a href="/{{index}}">{{index}}</a></li>
+          <li class="dist{{dist}}"><a href="/page-{{index}}/">{{index}}</a></li>
         {% endif %}
       {% endfor %}
 
@@ -68,11 +68,11 @@ title: Accueil
       {% if paginator.page == paginator.total_pages %}
         <li><strong>{{paginator.page}}</strong></li>
       {% else %}
-        <li><a href="/{{paginator.total_pages}}">{{paginator.total_pages}}</a></li>
+        <li><a href="/page-{{paginator.total_pages}}/">{{paginator.total_pages}}</a></li>
       {% endif %}
 
       {% if paginator.next_page %}
-        <li class="next"><a href="/{{paginator.next_page}}">&#9654;</a></li>
+        <li class="next"><a href="/page-{{paginator.next_page}}/">&#9654;</a></li>
       {% endif %}
     </ul>
   {% endif %}
