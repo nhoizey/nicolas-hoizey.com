@@ -144,13 +144,27 @@ article {
     flex-grow: 1;
     text-align: center;
 
-    &.dist1, &.dist2 {
+    &.dist1, &.dist2, &.extreme {
       display: none;
+    }
+
+    @media (min-width: 20em) {
+      &.extreme {
+        display: block;
+      }
+
+      &.ellipsis1 {
+        display: none;
+      }
     }
 
     @media (min-width: 25em) {
       &.dist1 {
         display: block;
+      }
+
+      &.ellipsis2 {
+        display: none;
       }
     }
 
@@ -158,10 +172,14 @@ article {
       &.dist2 {
         display: block;
       }
+
+      &.ellipsis3 {
+        display: none;
+      }
     }
 
-    a, strong, .disabled {
-      padding: .1em .5em;
+    a, strong, &.disabled {
+      padding: .1em .3em;
       border-radius: .3em;
       border: 2px solid #fff;
       text-decoration: none;
@@ -310,4 +328,3 @@ img.tag {
     }
   }
 }
-

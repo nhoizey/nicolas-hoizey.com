@@ -34,7 +34,12 @@ title: Accueil
       {% if paginator.page == 1 %}
         <li><strong>1</strong></li>
       {% else %}
-        <li><a href="/">1</a></li>
+        <li class="extreme"><a href="/">1</a></li>
+      {% endif %}
+
+      {% assign ellipsis = paginator.page | minus: 1 %}
+      {% if ellipsis > 0 and ellipsis < 4 %}
+        <li class="ellipsis{{ ellipsis }}">…</li>
       {% endif %}
 
       {% assign page_start = 2 %}
@@ -65,10 +70,15 @@ title: Accueil
         <li class="disabled">…</li>
       {% endif %}
 
+      {% assign ellipsis = paginator.total_pages | minus: paginator.page %}
+      {% if ellipsis > 0 and ellipsis < 4 %}
+        <li class="ellipsis{{ ellipsis }}">…</li>
+      {% endif %}
+
       {% if paginator.page == paginator.total_pages %}
         <li><strong>{{paginator.page}}</strong></li>
       {% else %}
-        <li><a href="/page-{{paginator.total_pages}}/">{{paginator.total_pages}}</a></li>
+        <li class="extreme"><a href="/page-{{paginator.total_pages}}/">{{paginator.total_pages}}</a></li>
       {% endif %}
 
       {% if paginator.next_page %}
