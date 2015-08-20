@@ -39,6 +39,7 @@ exclude:
   - "*.gif"
 include:
   - .htaccess
+  - .well-known
   - favicon.jpg
 
 assets:
