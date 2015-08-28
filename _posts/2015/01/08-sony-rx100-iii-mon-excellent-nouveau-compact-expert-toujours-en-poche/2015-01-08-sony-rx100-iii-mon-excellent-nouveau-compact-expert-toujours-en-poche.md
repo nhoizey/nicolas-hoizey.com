@@ -1,7 +1,7 @@
 ---
 title:      Sony RX100 III, mon excellent nouveau compact expert toujours en poche
 lang:       fr
-tags:       [photo, sony, matériel]
+tags:       [photo, sony, RX100, matériel]
 ---
 
 [Marc Charbonnier](http://marc-charbonnier.com/) a publié mi décembre un « test terrain » du compact expert [Sony RX100 III](http://www.sony.fr/electronics/appareils-photo-cyber-shot-compacts/dsc-rx100m3), constitué de retours d'expérience et avis d'heureux possesseurs de ce boitier, dont je fais partie depuis juin 2014. Une prise de contact sur Twitter m'a conduit à faire parti des photographes interrogés par Marc.
