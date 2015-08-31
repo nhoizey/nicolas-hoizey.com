@@ -32,7 +32,6 @@ exclude:
   - README.md
   - LICENSE.md
   - Rakefile
-  - "*.sublime*"
   - Rakefile
   - "*.jpg"
   - "*.png"
