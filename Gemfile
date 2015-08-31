@@ -8,6 +8,7 @@ gem "rouge"
 group :jekyll_plugins do
   gem "jekyll-picture-tag"
 	gem "jekyll-tagging"
+  gem "sass", :require => "sass" # http://stackoverflow.com/a/6191046
 	gem "jekyll-assets"
 	gem "autoprefixer-rails"
 	gem "uglifier"
