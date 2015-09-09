@@ -394,3 +394,28 @@ RewriteRule ^(.+/)?index(\.html)?$ /%1 [R=301,L]
 
 RewriteCond %{REQUEST_URI} ^(.*?)(?:/){2,}$
 RewriteRule . $1/ [R=301,L]
+
+# ----------------------------------------------------------------------
+# Put well known resources in the .well-known folder
+# https://github.com/fvsch/scripts-and-snippets/blob/master/apache/rewrite-well-known.conf
+# ----------------------------------------------------------------------
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Some very common, then less common "well-known" patterns
+RewriteCond %{REQUEST_URI} =/favicon.ico [OR]
+RewriteCond %{REQUEST_URI} =/robots.txt [OR]
+RewriteCond %{REQUEST_URI} =/crossdomain.xml [OR]
+RewriteCond %{REQUEST_URI} =/apple-touch-icon.png [OR]
+RewriteCond %{REQUEST_URI} =/apple-touch-icon-precomposed.png [OR]
+RewriteCond %{REQUEST_URI} =/foaf.rdf [OR]
+RewriteCond %{REQUEST_URI} =/w3c/p3p.xml [OR]
+RewriteCond %{REQUEST_URI} ^/google[\da-f]{16}\.html$ [OR]
+RewriteCond %{REQUEST_URI} ^/y_key_[\da-f]{16}\.html$ [OR]
+RewriteCond %{REQUEST_URI} =/BingSiteAuth.xml$ [OR]
+RewriteCond %{REQUEST_URI} =/myopenid-hosted-verification.html [OR]
+RewriteCond %{REQUEST_URI} =/humans.txt
+
+# To further limit possible issues (e.g. if you mess up the conditions above),
+# we only match files at the root, not folders or files in subfolders
+RewriteRule ^([a-z0-9\-\._]+)$ /.well-known/$1 [L,NC]
