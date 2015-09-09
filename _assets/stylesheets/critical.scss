@@ -200,16 +200,21 @@ pre {
 
 #header, #footer {
   .wrap {
-    display: flex;
-    flex-direction: row;
-
     p {
-      flex: 1;
       margin: 0;
       line-height: 2;
 
       &:last-of-type {
         text-align: right;
+      }
+    }
+
+    @media (min-width: 20em){
+      display: flex;
+      flex-direction: row;
+
+      p {
+        flex: 1;
       }
     }
   }
