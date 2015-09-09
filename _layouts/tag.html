@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% capture tag_image_path %}assets/tags/{{ page.tag | slugify }}.png{% endcapture %}
+{% capture tag_image_path %}tags/{{ page.tag | slugify }}.png{% endcapture %}
 {% capture tag_image %}{% file_exists {{ tag_image_path }} %}{% endcapture %}
 {% if tag_image == "true" %}
 	<img src="/{{ tag_image_path }}" class="tag" />
@@ -10,7 +10,7 @@ layout: default
 
 <h1>Billets marqués avec le tag «&nbsp;{{ page.tag }}&nbsp;»</h1>
 
-{% capture tag_description_path %}assets/tags/{{ page.tag | slugify }}.md{% endcapture %}
+{% capture tag_description_path %}tags/{{ page.tag | slugify }}.md{% endcapture %}
 {% capture tag_description %}{% file_exists {{ tag_description_path }} %}{% endcapture %}
 {% if tag_description == "true" %}
 	<div class="intro">{% markdown {{ tag_description_path }} %}</div>

@@ -28,18 +28,17 @@ show_drafts: false
 lsi: false
 exclude:
   - autoprefixer.yml
-  - "Gemfile*"
+  - Gemfile*
   - README.md
   - LICENSE.md
+  - tags/*.md
   - Rakefile
   - Rakefile
-  - "*.jpg"
-  - "*.png"
-  - "*.gif"
 include:
   - .htaccess
   - .well-known
   - favicon.jpg
+  - tags
 
 assets:
   js_compressor:  uglifier
