@@ -392,8 +392,8 @@ RewriteRule ^(.+/)?index(\.html)?$ /%1 [R=301,L]
 # Remove trailing double slashes //
 # ----------------------------------------------------------------------
 
-RewriteCond %{REQUEST_URI} ^(.*?)(?:/){2,}$
-RewriteRule . $1/ [R=301,L]
+RewriteCond %{REQUEST_URI} ^(.*)//(.*)$
+RewriteRule . %1/%2 [R=301,L]
 
 # ----------------------------------------------------------------------
 # Put well known resources in the .well-known folder
