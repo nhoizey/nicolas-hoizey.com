@@ -410,6 +410,43 @@ RewriteRule ^(.*) http://nicolas-hoizey.com/$1 [QSA,R=301,L]
   RewriteRule .* – [F,L]
 </IfModule>
 
+# ----------------------------------------------------------------------
+# | Content Security Policy (CSP)                                      |
+# ----------------------------------------------------------------------
+
+# from https://github.com/h5bp/server-configs-apache/blob/master/src/security/content-security-policy.conf
+#
+# Mitigate the risk of cross-site scripting and other content-injection
+# attacks.
+#
+# This can be done by setting a `Content Security Policy` which
+# whitelists trusted sources of content for your website.
+#
+# The example header below allows ONLY scripts that are loaded from
+# the current website's origin (no inline scripts, no CDN, etc).
+# That almost certainly won't work as-is for your website!
+#
+# To make things easier, you can use an online CSP header generator
+# such as: http://cspisawesome.com/.
+#
+# http://content-security-policy.com/
+# http://www.html5rocks.com/en/tutorials/security/content-security-policy/
+# http://www.w3.org/TR/CSP11/).
+
+<IfModule mod_headers.c>
+
+    Header set Content-Security-Policy-Report-Only "script-src 'self'; object-src 'self'"
+
+    # `mod_headers` cannot match based on the content-type, however,
+    # the `Content-Security-Policy` response header should be send
+    # only for HTML documents and not for the other resources.
+
+    <FilesMatch "\.(appcache|atom|bbaw|bmp|crx|css|cur|eot|f4[abpv]|flv|geojson|gif|htc|ico|jpe?g|js|json(ld)?|m4[av]|manifest|map|mp4|oex|og[agv]|opus|otf|pdf|png|rdf|rss|safariextz|svgz?|swf|topojson|tt[cf]|txt|vcard|vcf|vtt|webapp|web[mp]|webmanifest|woff2?|xloc|xml|xpi)$">
+        Header unset Content-Security-Policy-Report-Only
+    </FilesMatch>
+
+</IfModule>
+
 # ##############################################################################
 # # WEB PERFORMANCE                                                            #
 # ##############################################################################
