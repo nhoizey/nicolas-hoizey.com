@@ -10,7 +10,7 @@ group :jekyll_plugins do
 	gem "jekyll-tagging"
   gem "sass", :require => "sass" # http://stackoverflow.com/a/6191046
 	gem "jekyll-assets"
-	gem "autoprefixer-rails", "5.2.1.3"
+	gem "autoprefixer-rails", "5.2.1.3" # https://github.com/ai/autoprefixer-rails/issues/81
 	gem "uglifier"
 	gem "jekyll-sitemap"
 	gem "jekyll-twitter-plugin"
