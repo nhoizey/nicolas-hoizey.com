@@ -6,7 +6,9 @@ tags:  [esviji, Firefox OS]
 
 Mon jeu [esviji](http://esviji.com) est principalement utilisé sur les smartphones Firefox OS — à 75% d'après Google Analytics — grâce à sa [présence dans la marketplace qui leur est dédiée](https://marketplace.firefox.com/app/esviji), et plutôt apprécié [visiblement](https://marketplace.firefox.com/app/esviji/ratings).
 
-Voilà les 10 versions de Firefox les plus utilisées sur http://play.esviji.com/ depuis 3 mois, et les versions de Firefox OS correspondantes[^corr] :
+Voilà les 10 versions de Firefox les plus utilisées sur [play.esviji.com](http://play.esviji.com/)[^v2] depuis 3 mois, et les versions de Firefox OS correspondantes[^corr] :
+
+[^v2]: N'oubliez pas que vous pouvez maintenant aller tester la version sur [v2.esviji.com](http://v2.esviji.com/) !
 
 [^corr]: Les correspondances sont données par [cette table](https://developer.mozilla.org/en-US/docs/Web/HTTP/Gecko_user_agent_string_reference#Firefox_OS_version_number).
 
