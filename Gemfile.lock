@@ -160,7 +160,7 @@ GEM
       unf_ext
     unf_ext (0.0.7.1)
     yajl-ruby (1.2.1)
-    yt (0.25.15)
+    yt (0.25.16)
       activesupport
 
 PLATFORMS
