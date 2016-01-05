@@ -461,6 +461,14 @@ RewriteRule ^(.*) http://nicolas-hoizey.com/$1 [QSA,R=301,L]
   Header always append X-Frame-Options SAMEORIGIN
 </IfModule>
 
+# ------------------------------------------------------------------------------
+# | X-Xss-Protection                                                           |
+# ------------------------------------------------------------------------------
+
+<IfModule mod_headers.c>
+  Header always set X-Xss-Protection "1; mode=block"
+  </IfModule>
+
 # ##############################################################################
 # # WEB PERFORMANCE                                                            #
 # ##############################################################################
