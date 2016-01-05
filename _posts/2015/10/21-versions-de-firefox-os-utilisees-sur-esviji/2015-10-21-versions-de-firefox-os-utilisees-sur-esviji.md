@@ -20,7 +20,7 @@ Voilà les 10 versions de Firefox les plus utilisées sur [play.esviji.com](http
 |               28.0 |                   1.3 |      489 |
 |               32.0 |                   2.0 |      122 |
 |               18.0 |                 1.0.1 |       19 |
-|               37.0 |                   2.? |       13 |
+|               37.0 |                   2.2 |       13 |
 |               34.0 |                   2.1 |        9 |
 |               26.0 |                   1.2 |        3 |
 |               30.0 |                   1.4 |        2 |
