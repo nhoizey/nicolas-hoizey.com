@@ -465,9 +465,29 @@ RewriteRule ^(.*) http://nicolas-hoizey.com/$1 [QSA,R=301,L]
 # | X-Xss-Protection                                                           |
 # ------------------------------------------------------------------------------
 
+# Used to configure the built in reflective XSS protection found in Internet
+# Explorer, Chrome and Safari (Webkit). Valid settings for the header are 0,
+# which disables the protection, 1 which enables the protection and
+# 1; mode=block which tells the browser to block the response if it detects an
+# attack rather than sanitising the script.
+
 <IfModule mod_headers.c>
   Header always set X-Xss-Protection "1; mode=block"
-  </IfModule>
+</IfModule>
+
+# ------------------------------------------------------------------------------
+# | X-Content-Type-Options                                                     |
+# ------------------------------------------------------------------------------
+
+# Prevents Google Chrome and Internet Explorer from trying to mime-sniff the
+# content-type of a response away from the one being declared by the server.
+# Reduces exposure to drive-by downloads and the risks of user uploaded content
+# that, with clever naming, could be treated as a different content-type,
+# like an executable.
+
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+</IfModule>
 
 # ##############################################################################
 # # WEB PERFORMANCE                                                            #
