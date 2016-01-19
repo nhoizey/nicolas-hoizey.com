@@ -6,7 +6,7 @@ layout: default
 {% assign this_month = page.date | date: "%m" | plus: 0 %}
 {% assign max_year = site.time | date: "%Y" | plus: 0 %}
 {% assign max_month = site.time | date: "%m" | plus: 0 %}
-<h1>{% include mois.html page=page %} <a href="/{{ page.date | date: "%Y" }}/">{{ page.date | date: "%Y" }}</a></h1>
+<h1>Billets de {% include mois.html page=page %} <a href="/{{ page.date | date: "%Y" }}/">{{ page.date | date: "%Y" }}</a></h1>
 
 <div class="list">
 	{% for post in page.posts reversed %}
