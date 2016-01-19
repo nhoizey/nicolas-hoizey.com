@@ -23,8 +23,7 @@ layout: default
   </h1>
   {{ content }}
   {% assign source = page.path | split: '/' %}
-  <p class="edit">Si vous voulez signaler une erreur ou proposer une modification de ce texte, n'hésitez pas à l'éditer directement à la source sur Github&nbsp;:<br />
-  <a href="https://github.com/nhoizey/nicolas-hoizey.com/tree/master/{{ page.path }}">{{ source.last }}</a></p>
+  <p class="edit">Si vous voulez signaler une erreur ou proposer une modification de ce texte, n'hésitez pas à l'éditer directement à <a href="https://github.com/nhoizey/nicolas-hoizey.com/tree/master/{{ page.path }}">la source sur Github</a>.</p>
 
   <div id="disqus_thread"></div>
   <script>
@@ -39,7 +38,7 @@ layout: default
       (d.head || d.body).appendChild(s);
   })();
   </script>
-  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  <noscript>Veuillez activer JavaScript pour voir <a href="https://disqus.com/?ref_noscript" rel="nofollow">les commentaires Disqus.</a></noscript>
 </article>
 
 <aside class="list">
