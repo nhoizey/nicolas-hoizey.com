@@ -240,10 +240,7 @@ article {
   .annees {
     display: flex;
     flex-direction: row;
-
-    * {
-      flex: 1;
-    }
+    align-items: stretch;
 
     .avant {
       order: 1;
@@ -251,7 +248,16 @@ article {
 
     h1 {
       order: 2;
+      flex: 1;
       text-align: center;
+
+      span {
+        display: none;
+
+        @media (min-width: 25em) {
+          display: inline;
+        }
+      }
     }
 
     .apres {
