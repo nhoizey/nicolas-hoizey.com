@@ -117,3 +117,11 @@ Here is a visual demonstration, from [two](https://twitter.com/borisschapira/sta
 Boris uses a [OnePlus One](https://oneplus.net/one) running Android 5.0.2 and Chrome 43.0.2357.93.
 
 So there is at least one browser that behaves as I want for my full height game screen… but it makes users wonder if there is an issue…
+
+## January 19th, 2016 update
+
+People developing Chrome for Android [now plan to change its behavior to match iOS Safari's one](https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/BK0oHURgmJ4), claiming that “Safari’s been doing this for years without user/developer complaint”.
+
+[I've tried to answer](https://groups.google.com/a/chromium.org/d/msg/blink-dev/BK0oHURgmJ4/WTFI3pifBAAJ)[^thanksyoav], but I don't believe it will change anything. At least, we will have the same "bug" everywhere…
+
+[^thanksyoav]: Thanks Yoav for the [notification](https://twitter.com/yoavweiss/status/689568512562577408) about this discussion!
