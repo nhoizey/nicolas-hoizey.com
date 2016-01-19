@@ -33,7 +33,6 @@ exclude:
   - LICENSE.md
   - tags/*.md
   - Rakefile
-  - Rakefile
 include:
   - .htaccess
   - .well-known
