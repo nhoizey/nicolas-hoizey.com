@@ -6,7 +6,7 @@ kramdown:
   syntax_highlighter: rouge
 
 # Permalinks
-permalink:           :year/:month/:title.html
+permalink:           :title.html
 relative_permalinks: true
 
 gems:
