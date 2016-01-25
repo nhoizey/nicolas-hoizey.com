@@ -50,7 +50,7 @@ De plus, l'indexation est plein texte, sans vraiment de paramétrage possible, c
 ### Algolia
 
 <figure class="onefourth right">
-    {% picture onefourth algolia-logo.png %}
+    {% picture onefourth algolia-logo.png alt="Algolia" %}
 </figure>
 C'est alors que j'ai entendu parler[^vvo] d'[Algolia](https://www.algolia.com/),un moteur de recherche en mode SaaS intégralement pilotable par une [API REST](https://www.algolia.com/doc/rest_api) extrêmement riche, et pour laquelle de [très nombreux clients](https://www.algolia.com/doc/apiclients) et [intégrations](https://www.algolia.com/doc/integrations) sont déjà proposés de base.
 
@@ -65,12 +65,12 @@ Algolia est bluffant à plus d'un titre :
 - et enfin, performance incroyable, avec des temps de réponse extrêmement faibles permettant une expérience utilisateur optimale, que ce soit en mode [suggestion de recherche](https://www.algolia.com/doc/tutorials/auto-complete) ou [résultats instantanés](https://www.algolia.com/doc/tutorials/instant-search)
 
 <figure>
-  {% picture algolia-dashboard-overview.jpg %}
+  {% picture algolia-dashboard-overview.jpg alt="Le tableau de bord Algolia" %}
   <figcaption>Un point de vue rapide sur l'état de l'indexation et des recherches.</figcaption>
 </figure>
 
 <figure>
-  {% picture algolia-dashboard-response-times.jpg %}
+  {% picture algolia-dashboard-response-times.jpg alt="Le suivi des temps de réponse" %}
   <figcaption>Le suivi des temps de réponse de l'API. Oui, l'échelle est en millisecondes !</figcaption>
 </figure>
 
