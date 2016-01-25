@@ -20,6 +20,7 @@ require 'fileutils'
 require 'pathname'
 require 'digest/md5'
 require 'mini_magick'
+require 'fastimage'
 
 module Jekyll
 
@@ -38,6 +39,7 @@ module Jekyll
       # Gather settings
       site = context.registers[:site]
       settings = site.config['picture']
+      url = site.config['url']
       markup = /^(?:(?<preset>[^\s.:\/]+)\s+)?(?<image_src>[^\s]+\.[a-zA-Z0-9]{3,4})\s*(?<source_src>(?:(source_[^\s.:\/]+:\s+[^\s]+\.[a-zA-Z0-9]{3,4})\s*)+)?(?<html_attr>[\s\S]+)?$/.match(render_markup)
       preset = settings['presets'][ markup[:preset] ] || settings['presets']['default']
       post_slug = File.basename(context['page']['path'], File.extname(context['page']['path']))
@@ -68,17 +70,17 @@ module Jekyll
 
       # Process alternate source images
       source_src = if markup[:source_src]
-        Hash[ *markup[:source_src].gsub(/:/, '').split ]
-      else
-        {}
-      end
+                     Hash[ *markup[:source_src].gsub(/:/, '').split ]
+                   else
+                     {}
+                   end
 
       # Process html attributes
       html_attr = if markup[:html_attr]
-        Hash[ *markup[:html_attr].scan(/(?<attr>[^\s="]+)(?:="(?<value>[^"]+)")?\s?/).flatten ]
-      else
-        {}
-      end
+                    Hash[ *markup[:html_attr].scan(/(?<attr>[^\s="]+)(?:="(?<value>[^"]+)")?\s?/).flatten ]
+                  else
+                    {}
+                  end
 
       if instance['attr']
         html_attr = instance.delete('attr').merge(html_attr)
@@ -134,14 +136,14 @@ module Jekyll
               ppi_key = "#{key}-x#{p}"
 
               ppi_sources[ppi_key] = {
-                :width => if source[:width] then (source[:width].to_f * p).round else nil end,
-                :height => if source[:height] then (source[:height].to_f * p).round else nil end,
-                'media' => if source['media']
-                  "#{source['media']} and (-webkit-min-device-pixel-ratio: #{p}), #{source['media']} and (min-resolution: #{(p * 96).round}dpi)"
-                else
-                  "(-webkit-min-device-pixel-ratio: #{p}), (min-resolution: #{(p * 96).to_i}dpi)"
-                end,
-                :src => source[:src]
+                  :width => if source[:width] then (source[:width].to_f * p).round else nil end,
+                  :height => if source[:height] then (source[:height].to_f * p).round else nil end,
+                  'media' => if source['media']
+                               "#{source['media']} and (-webkit-min-device-pixel-ratio: #{p}), #{source['media']} and (min-resolution: #{(p * 96).round}dpi)"
+                             else
+                               "(-webkit-min-device-pixel-ratio: #{p}), (min-resolution: #{(p * 96).to_i}dpi)"
+                             end,
+                  :src => source[:src]
               }
 
               # Add ppi_key to the source keys order
@@ -149,7 +151,7 @@ module Jekyll
             end
           }
         }
-      instance.merge!(ppi_sources)
+        instance.merge!(ppi_sources)
       end
 
       # Generate resized images
@@ -161,52 +163,66 @@ module Jekyll
       if settings['markup'] == 'picture'
 
         source_tags = ''
-        source_keys.each { |source|
+        source_keys.each do |source|
           media = " media=\"#{instance[source]['media']}\"" unless source == 'source_default'
-          source_tags += "#{markdown_escape * 4}<source srcset=\"#{instance[source][:generated_src]}\"#{media}>\n"
-        }
+          source_tags += "#{markdown_escape * 4}<source srcset=\"#{url}#{instance[source][:generated_src]}\"#{media}>\n"
+        end
 
         # Note: we can't indent html output because markdown parsers will turn 4 spaces into code blocks
         # Note: Added backslash+space escapes to bypass markdown parsing of indented code below -WD
         picture_tag = "<picture>\n"\
                       "#{source_tags}"\
-                      "#{markdown_escape * 4}<img src=\"#{instance['source_default'][:generated_src]}\" #{html_attr_string}>\n"\
+                      "#{markdown_escape * 4}<img src=\"#{url}#{instance['source_default'][:generated_src]}\" #{html_attr_string}>\n"\
                       "#{markdown_escape * 2}</picture>\n"
+      elsif settings['markup'] == 'interchange'
+
+        interchange_data = Array.new
+        source_keys.reverse.each do |source|
+          interchange_data << "[#{url}#{instance[source][:generated_src]}, #{source == 'source_default' ? '(default)' : instance[source]['media']}]"
+        end
+
+        picture_tag = %Q{<img data-interchange="#{interchange_data.join ', '}" #{html_attr_string} />\n}
+        picture_tag += %Q{<noscript><img src="#{url}#{instance['source_default'][:generated_src]}" #{html_attr_string} /></noscript>}
 
       elsif settings['markup'] == 'img'
         # TODO implement <img srcset/sizes>
       end
 
-        # Return the markup!
-        picture_tag
+      # Return the markup!
+      picture_tag
     end
 
     def generate_image(instance, site_source, site_dest, image_source, image_dest, baseurl)
-      image = MiniMagick::Image.open(File.join(site_source, image_source, instance[:src]))
-      digest = Digest::MD5.hexdigest(image.to_blob).slice!(0..5)
+      begin
+        digest = Digest::MD5.hexdigest(File.read(File.join(site_source, image_source, instance[:src]))).slice!(0..5)
+      rescue Errno::ENOENT
+        warn "Warning:".yellow + " source image #{instance[:src]} is missing."
+        return ""
+      end
 
       image_dir = File.dirname(instance[:src])
       ext = File.extname(instance[:src])
       basename = File.basename(instance[:src], ext)
 
-      orig_width = image[:width].to_f
-      orig_height = image[:height].to_f
-      orig_ratio = orig_width/orig_height
+      size = FastImage.size(File.join(site_source, image_source, instance[:src]))
+      orig_width = size[0]
+      orig_height = size[1]
+      orig_ratio = orig_width*1.0/orig_height
 
       gen_width = if instance[:width]
-        instance[:width].to_f
-      elsif instance[:height]
-        orig_ratio * instance[:height].to_f
-      else
-        orig_width
-      end
+                    instance[:width].to_f
+                  elsif instance[:height]
+                    orig_ratio * instance[:height].to_f
+                  else
+                    orig_width
+                  end
       gen_height = if instance[:height]
-        instance[:height].to_f
-      elsif instance[:width]
-        instance[:width].to_f / orig_ratio
-      else
-        orig_height
-      end
+                     instance[:height].to_f
+                   elsif instance[:width]
+                     instance[:width].to_f / orig_ratio
+                   else
+                     orig_height
+                   end
       gen_ratio = gen_width/gen_height
 
       # Don't allow upscaling. If the image is smaller than the requested dimensions, recalculate.
@@ -231,6 +247,7 @@ module Jekyll
         # Let people know their images are being generated
         puts "Generating #{gen_name}"
 
+        image = MiniMagick::Image.open(File.join(site_source, image_source, instance[:src]))
         # Scale and crop
         image.combine_options do |i|
           i.resize "#{gen_width}x#{gen_height}^"
