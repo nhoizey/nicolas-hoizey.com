@@ -58,11 +58,11 @@ article {
     figcaption {
       font-size: .9em;
       font-style: italic;
-      margin: .2em 0 0;
+      margin: 0;
       padding: .3em .5em;
-      background-color: rgba(51, 153, 255, .2);
-      border: 1px solid rgba(51, 153, 255, .4);
-      border-radius: .5em;
+      background: linear-gradient(to bottom, #fff 0%, rgba(153, 153, 255, .1) 50%, rgba(153, 153, 255, .2) 100%);
+      // border: 1px solid rgba(153, 153, 255, .4);
+      border-radius: 0 0 .5em .5em;
 
       p {
         margin: 0;
