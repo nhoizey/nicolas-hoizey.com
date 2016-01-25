@@ -73,12 +73,8 @@
             <meta property="og:image" content="{{ site.url }}/favicon.jpg" />
           {% endif %}
         {% else %}
-          {% if page.lang == "en" %}
-            <title>&ldquo;&nbsp;{{ page.title }}&nbsp;&rdquo;, a post by Nicolas Hoizey</title>
-          {% else %}
-            <title>&laquo;&nbsp;{{ page.title }}&nbsp;&raquo;, un billet de Nicolas Hoizey</title>
-          {% endif %}
-          <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 200 | strip_newlines | escape_once }}" />
+          <title>{{ page.title }}</title>
+          <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 150 | strip_newlines | escape_once }}" />
           <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
           <meta property="og:type" content="article" />
           <meta property="og:title" content="{{ page.title }}" />
