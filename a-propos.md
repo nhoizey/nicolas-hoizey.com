@@ -1,53 +1,59 @@
 ---
-title:      À propos de ce site
-layout:			page
+title:  Je m'appelle Nicolas Hoizey
+layout: page
 ---
 
-## L'auteur
+Je suis **passionné par le Web et la photographie**, entre nombreux autres centres d'intérêt.
 
-Je m'appelle Nicolas Hoizey.
+## J'aime le Web
 
-Je suis passionné par le Web depuis que je l'ai découvert en 1996, durant mes études supérieures à l'École Internationale des Sciences du Traitement de l'Information ([EISTI](https://www.eisti.fr/)). J'ai donc naturellement créé de nombreux sites au fil des années[^sites], autant de prétextes à explorer les nouveautés technologiques des standards du Web.
+Je suis passionné par le Web, que j'ai découvert en 1996 durant mes études supérieures à l'[EISTI](https://www.eisti.fr/). J'ai donc naturellement créé ou participé à la création de nombreux sites au fil des années[^sites], autant de prétextes à explorer les nouveautés technologiques des standards du Web.
 
-[^sites]: [Ciné Files](http://archeologie.nicolas-hoizey.com/1998-cine-files/) par exemple en 1998…
+[^sites]: J'essaie de remettre en ligne tous les vieux sites dont j'ai gardé ou retrouvé les sources, comme [Ciné Files](http://archeologie.nicolas-hoizey.com/1998-cine-files/) qui date de 1998…
 
-Toujours soucieux de qualité, j'ai participé très rapidement au beau projet [Opquast](http://opquast.com/fr/), un référenciel de qualité pour le Web. Je participe aussi régulièrement, parfois même en tant qu'orateur, à de belles conférences telles que [Paris Web](https://www.paris-web.fr/).
+Toujours **soucieux de qualité**, j'ai participé au projet communautaire [Opquast](http://opquast.com/fr/), un référentiel de qualité pour le Web initié par [Temesis](http://temesis.com/). Je participe aussi régulièrement, parfois même en tant qu'orateur, à de belles conférences telles que [Paris Web](https://www.paris-web.fr/) ou [Sud Web](http://sudweb.fr/).
 
-Hors Web, je suis aussi passionné de photo. Mon portfolio s'intitule [Photo Synthèse](http://photosynthese.net), mais vous pouvez aussi retrouver mes photos sur les sites de partage [500px](https://500px.com/nhoizey/) et [Flickr](https://www.flickr.com/photos/nicolas-hoizey/), ou sur [ma page Facebook](https://www.facebook.com/photo.synthese.nicolas.hoizey). J'ai aussi intégré l'équipe de [Phototrend](http://phototrend.fr/author/nicolas-hoizey/), où je publie des tests de matériels et logiciels, ainsi que des actus du monde de la photo.
+À titre professionnel, je suis **co-fondateur (en 2001) et directeur de l'innovation de [Clever Age](http://www.clever-age.com/)**, où je fais essentiellement du conseil en architecture Web (e-commerce, gestion de contenu, collaboratif, etc.) et de l'expertise *front end*, notamment Responsive Web Design et webperf. J'anime aussi quelques séminaires et formations sur ces sujets.
 
-À titre professionnel, je suis co-fondateur (en 2001) et directeur de l'innovation de [Clever Age](http://www.clever-age.com/).
+Un peu (trop ?) curieux et touche à tout en matière de Web, avec des connaissances des plus basses couches techniques réseau et système (ma spécialisation à l'EISTI) jusqu'à l'intégration *front end* de qualité intégrant notamment l'accessibilité universelle, je me qualifie moi-même aujourd'hui de **faciliteur de Web**, ayant à cœur de faire profiter les autres de mes connaissances, que ce soient mes clients, mes collègues ou d'autres membres de la communauté.
 
-## Les contenus
+## J'aime la photographie
 
-Ce site personnel est essentiellement un blog, dans lequel je publie mes réflexions et retours d'expériences sur des sujets très variés, dominés par les technologies et usages du Web, et la photographie.
+En dehors du Web, je suis aussi passionné de photographie. Jeune, j'ai beaucoup observé mon père utilisant son reflex argentique, surtout pour des photos de paysage ou de famille, et j'ai vite voulu m'y mettre aussi.
 
-Je ne m'interdis pas de publier aussi des billets complètement inutiles et/ou fun, surtout les [vendredi](/tags/tgif.html).
+Je n'ai pas de thème ou sujet qui se démarque vraiment des autres dans ma production photographique, mais j'ai **une forte préférence pour le naturel**, qu'il s'agisse de paysages de nature ou urbains, ou de portraits.
 
-## La technique
+Mon portfolio s'intitule [Photo Synthèse](http://photosynthese.net), et vous pouvez aussi retrouver mes photos sur les sites communautaires [500px](https://500px.com/nhoizey/) et [Flickr](https://www.flickr.com/photos/nicolas-hoizey/), ou sur [ma page Facebook](https://www.facebook.com/photo.synthese.nicolas.hoizey).
+
+J'ai rejoint fin 2014 le [Photo Club de Draveil](http://photoclubdraveil.fr/) qui était en train de se créer, et participé depuis à plusieurs expositions collectives, l'occasion de **confronter son travail aux yeux de parfaits inconnus**, ce qui me paraît nécessaire pour progresser.
+
+J'ai aussi récemment intégré l'équipe du magazine photo online [Phototrend](http://phototrend.fr/author/nicolas-hoizey/), où je publie surtout des tests de matériels et logiciels, mais aussi des actus du monde de la photo.
+
+## Voici comment je gère ce site
 
 ### Le statique, c'est fantastique
 
 Ce site est statique, c'est à dire que les pages et leurs contenus venant du même domaine sont envoyées tel quel par le serveur, sans aucune création à la volée.  Difficile donc d'incriminer une quelconque application serveur en cas de lenteur… ;-)
 
-Tout le site est généré par [Jekyll](http://jekyllrb.com/) à partir de documents rédigés en syntaxe [Markdown](http://fr.wikipedia.org/wiki/Markdown)[^kramdown]. Il a été généré pour la dernière fois le&nbsp;{{ site.time | date: "%d/%m/%Y"}}.
+Tout le site est généré par [Jekyll](http://jekyllrb.com/) à partir de documents rédigés en syntaxe Kramdown[^kramdown]. Il a été généré pour la dernière fois le&nbsp;{{ site.time | date: "%d/%m/%Y"}}.
 
-[^kramdown]: Ou plutôt en [Kramdown](http://kramdown.gettalong.org/), une variante plus sympa permettant notamment cette note de bas de page, mais c'est un détail.
+[^kramdown]: [Kramdown](http://kramdown.gettalong.org/) est une variante plus sympa de [Markdown](http://fr.wikipedia.org/wiki/Markdown), permettant notamment cette note de bas de page.
 
-Pour migrer les centaines de contenus rédigés depuis 2001 en syntaxe spécifique [SPIP](http://spip.net), j'ai développé un [plugin SPIP → Markdown](https://github.com/nhoizey/spip2markdown) qui transforme tant que possible cette syntaxe spécifique en syntaxe Kramdown, y compris avec le [YAML Front Matter](http://jekyllrb.com/docs/frontmatter/).
+Pour migrer les centaines de contenus rédigés depuis 2001 en syntaxe spécifique [SPIP](http://spip.net)[^spip], j'ai développé un [plugin SPIP → Markdown](https://github.com/nhoizey/spip2markdown) qui transforme tant que possible cette syntaxe spécifique en syntaxe Kramdown, y compris avec le [YAML Front Matter](http://jekyllrb.com/docs/frontmatter/).
+
+[^spip]: SPIP est un excellent outil libre français de gestion de contenu, particulièrement pertinent pour les contenus éditoriaux.
 
 ### Les plugins
 
 De [nombreux](http://jekyllrb.com/docs/plugins/#available-plugins) [plugins](http://www.jekyll-plugins.com/) existent dans l'écosystème Jekyll pour enrichir la solution de base, mais comme partout tous ne fonctionnent pas, certains imposent des modes de fonctionnement contradictoire, ou tout simplement ne sont pas suffisamment configurables. Attention, la plupart de ces plugins empêchent d'utiliser les [Github Pages](https://help.github.com/articles/using-jekyll-with-pages/).
 
-Les images bénéficient du plugin [Jekyll Picture Tag](https://github.com/robwierzbowski/jekyll-picture-tag)[^pr] qui implémente le nouveau standard `<picture>` pour les images responsives[^srcset].
+Les images bénéficient du plugin [Jekyll Picture Tag](https://github.com/robwierzbowski/jekyll-picture-tag)[^fork] qui implémente le nouveau standard `<picture>` pour les images responsives[^srcset].
 
-[^pr]: D'ailleurs, j'ai fait une petite [pull request](https://github.com/robwierzbowski/jekyll-picture-tag/pull/60) sympa pour faciliter l'usage, faut pas hésiter à la commenter !
+[^fork]: D'ailleurs, [mon fork de jekyll-picture-tag](https://github.com/nhoizey/jekyll-picture-tag/) facilite l'usage en permettant de stocker les images source au même endroit que les fichiers Markdown, mais la PR correspondante n'a pas été acceptée par le mainteneur.
 
-[^srcset]: Ce qui est déjà très bien, en attendant le support de `srcset/sizes`qui devrait être suffisant et bien plus léger.
+[^srcset]: Ce qui est déjà très bien, en attendant le support de `srcset/sizes`, qui serait suffisant et bien plus léger.
 
-Les tags sont supportés nativement par Jekyll, mais largement améliorés par le plugin [Jekyll Tagging](https://github.com/pattex/jekyll-tagging) qui génère les pages individuelles pour chaque tag[^accents], ainsi que le nuage de tags visible en page d'accueil.
-
-[^accents]: Bon, il reste [un petit bug à corriger](https://github.com/pattex/jekyll-tagging/issues/34) —où une amélioration à apporter, c'est une question de point de vue— mais c'est déjà très utile.
+Les tags sont supportés nativement par Jekyll, mais largement améliorés par le plugin [Jekyll Tagging](https://github.com/pattex/jekyll-tagging) qui génère les pages individuelles pour chaque tag, ainsi que le nuage de tags visible en page d'accueil.
 
 Les pages d'archives par année et mois sont générées par le plugin [Jekyll Archives](https://github.com/jekyll/jekyll-archives)[^arch-tags].
 
@@ -79,8 +85,28 @@ Les ressources externes, sources potentielles de troubles, sont principalement :
 - les *widgets* de certains services, dont Ulule
 - Google Analytics, pour savoir un peu ce qu'il se passe sur le site
 
+### Les commentaires
+
+Passer au statique m'a fait perdre les commentaires que j'avais nativement dans SPIP, et je me suis résolu à passer à Disqus pour ne pas perdre l'apport des discussions, bien que je n'aime pas trop que les commentaires soient du coup hébergé ailleurs.
+
+Je commence aussi à implémenter WebMention[^wmio] pour explorer une [nouvelle technique standard de dialogue inter-blogs](https://www.w3.org/TR/2016/WD-webmention-20160112/).
+
+[^wmio]: Notamment grâce à un service tiers, [webmention.io](http://webmention.io/), en attendant une éventuelle implémentation auto-hébergée.
+
+### Et la recherche
+
+La mise en place d'un moteur de recherche interne sur un site statique n'est pas plus simple que pour les commentaires. Il faut nécessairement faire du dynamique, trouver des éléments répondant aux critères de recherche et les lister.
+
+Avec un site dynamique, il est possible d'indexer directement les contenus présents dans le dépôt de contenus, en général une base de données. Certains CMS intègrent même directement cette fonctionnalité, plus ou moins clef en main.
+
+[Algolia](https://www.algolia.com/) est un moteur de recherche en mode SaaS intégralement pilotable par une API REST extrêmement riche. C'est [le choix que j'ai fait](http://nicolas-hoizey.com/2015/06/un-moteur-de-recherche-sur-un-site-statique-facile-avec-algolia.html) pour proposer [un moteur de recherche sur ce site](/recherche.html).
+
 ### Mais…
 
-Passer au statique m'a fait perdre les commentaires, dans lesquels se trouvent parfois plus de choses intéressantes que dans mes billets qui initient les discussions. Je vais implémenter WebMention pour essayer de compenser au moins partiellement.
+Publier un nouveau contenu est devenu plus compliqué, puisqu'il faut produire le Markdown et les éventuelles illustrations, puis lancer la compilation par Jekyll, avant de déployer.
 
-Publier un nouveau contenu est aussi plus compliqué, puisqu'il faut produire le Markdown et les éventuelles illustrations, puis lancer la compilation par Jekyll, puis déployer. Tout cela pourrait être facilité avec les Github Pages, mais c'est trop restrictif fonctionnellement.
+Tout cela pourrait être facilité avec les Github Pages, mais c'est trop restrictif fonctionnellement.
+
+Je pourrais aussi utiliser une solution d'intégration continue, [comme Boris](https://borisschapira.com/), mais j'ai encore quelques soucis de génération du site qui m'en empêchent pour l'instant.
+
+Mais avoir une source de contenus propre, dans un format plus standard, et  versionnée dans Github, est un gain considérable.
