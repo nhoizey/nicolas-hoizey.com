@@ -1,5 +1,5 @@
 ---
-title: Un moteur de recherche sur un site statique ? Facile avec Algolia !
+title: La recherche dans du statique ? Facile avec Algolia !
 lang:  fr
 tags:  [Web, statique, recherche, Algolia]
 ---
@@ -52,7 +52,7 @@ De plus, l'indexation est plein texte, sans vraiment de paramétrage possible, c
 <figure class="onefourth right">
     {% picture onefourth algolia-logo.png alt="Algolia" %}
 </figure>
-C'est alors que j'ai entendu parler[^vvo] d'[Algolia](https://www.algolia.com/),un moteur de recherche en mode SaaS intégralement pilotable par une [API REST](https://www.algolia.com/doc/rest_api) extrêmement riche, et pour laquelle de [très nombreux clients](https://www.algolia.com/doc/apiclients) et [intégrations](https://www.algolia.com/doc/integrations) sont déjà proposés de base.
+C'est alors que j'ai entendu parler[^vvo] d'[Algolia](https://www.algolia.com/), un moteur de recherche en mode SaaS intégralement pilotable par une [API REST](https://www.algolia.com/doc/rest_api) extrêmement riche, et pour laquelle de [très nombreux clients](https://www.algolia.com/doc/apiclients) et [intégrations](https://www.algolia.com/doc/integrations) sont déjà proposés de base.
 
 [^vvo]: Merci [Vincent](https://twitter.com/zeroload), qui y travaille depuis quelque temps et a notamment participé à la [refonte de l'excellente bibliothèque cliente en JavaScript](https://blog.algolia.com/modern-javascript-libraries-the-isomorphic-way/).
 
