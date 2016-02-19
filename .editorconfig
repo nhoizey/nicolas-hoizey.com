@@ -3,24 +3,8 @@
 # top-most EditorConfig file
 root = true
 
-# Unix-style newlines with a newline ending every file
 [*]
 end_of_line = lf
 insert_final_newline = true
-
-[*.js]
 indent_style = space
 indent_size = 2
-
-[*.scss]
-indent_style = space
-indent_size = 2
-
-[*.hbs]
-indent_style = tab
-indent_size = 4
-
-[{package.json}]
-indent_style = space
-indent_size = 2
-
