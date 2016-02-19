@@ -1,7 +1,7 @@
 --- 
 title:      Nouvelle tempête sur les flux RSS, réduisons les intermédiaires ! 
 lang:       fr 
-tags:       [Gastero Prod., Google, RSS, Yahoo!, FeedBurner]
+tags:       [Gastero Prod., Google, RSS, Yahoo, FeedBurner]
 ---
 
 Alors que je me -- et vous -- demandais il y a quelque temps si je devais [faire du ménage dans mes flux](/2008/07/faut-il-que-je-revienne-a-un-unique-flux-rss.html), et que la migration de FeedBurner vers Google[^1] ne semble pas bien se passer pour tout le monde[^2], j'ai l'impression que mes flux disponibles via FeedBurner ont de plus en plus de hoquets.
