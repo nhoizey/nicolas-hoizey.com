@@ -78,62 +78,68 @@ picture:
   presets:
     default:
       ppi: [1, 2]
+      source_800:
+        media: "(min-width: 800px)"
+        width: "800"
       source_640:
-        media: "(min-width: 580px)"
-        width: "640"
-      source_530:
-        media: "(min-width: 470px)"
-        width: "530"
-      source_430:
-        media: "(min-width: 350px)"
-        width: "430"
+        media: "(min-width: 640px)"
+        width: "720"
+      source_480:
+        media: "(min-width: 480px)"
+        width: "576"
+      source_320:
+        media: "(min-width: 320px)"
+        width: "432"
       source_default:
-        width: "320"
+        width: "288"
     onehalf:
       attr:
         class: "onehalf"
       ppi: [1, 2]
+      source_800:
+        media: "(min-width: 800px)"
+        width: "432"
       source_640:
-        media: "(min-width: 580px)"
-        width: "320"
-      source_530:
-        media: "(min-width: 470px)"
-        width: "265"
-      source_430:
-        media: "(min-width: 350px)"
-        width: "215"
+        media: "(min-width: 640px)"
+        width: "360"
+      source_480:
+        media: "(min-width: 480px)"
+        width: "288"
+      source_320:
+        media: "(min-width: 320px)"
+        width: "216"
       source_default:
-        width: "160"
+        width: "144"
     onethird:
       attr:
         class: "onethird"
       ppi: [1, 2]
       source_640:
-        media: "(min-width: 580px)"
-        width: "215"
-      source_530:
-        media: "(min-width: 470px)"
-        width: "180"
-      source_430:
-        media: "(min-width: 350px)"
-        width: "145"
+        media: "(min-width: 640px)"
+        width: "288"
+      source_480:
+        media: "(min-width: 480px)"
+        width: "216"
+      source_320:
+        media: "(min-width: 320px)"
+        width: "144"
       source_default:
-        width: "110"
+        width: "96"
     onefourth:
       attr:
         class: "onefourth"
       ppi: [1, 2]
       source_640:
-        media: "(min-width: 580px)"
-        width: "160"
-      source_530:
-        media: "(min-width: 470px)"
-        width: "135"
-      source_430:
-        media: "(min-width: 350px)"
-        width: "110"
+        media: "(min-width: 640px)"
+        width: "216"
+      source_480:
+        media: "(min-width: 480px)"
+        width: "144"
+      source_320:
+        media: "(min-width: 320px)"
+        width: "144"
       source_default:
-        width: "80"
+        width: "96"
 
 jekyll-archives:
   enabled:
