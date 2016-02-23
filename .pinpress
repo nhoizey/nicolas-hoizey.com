@@ -1,0 +1,33 @@
+---
+pinpress:
+  default_pin_template: pinpress_default
+  default_tag_template: pinpress_default
+  auto_link: false
+  log_level: WARN
+  version: 1.6.3
+  api_token: nhoizey:c09decf030ac73a2740f
+links: {}
+pin_templates:
+- pinpress_default:
+    opener: |+
+      ---
+      title: Quelques liens à visiter
+      lang:  fr
+      tags:  [liens]
+      ---
+
+      Assez régulièrement, je vais essayer de vous faire profiter des liens vers les sites, articles ou projets les plus intéressants que je trouve au cours de mes pérégrinations sur le Web.
+
+    item: |+
+      ## [<%= description %>](<%= href %>) (To read? <%= toread %>)
+
+      <%= extended %>
+
+    closer: ''
+    ignored_tags:
+    - clevermarks
+    - beclever
+    last_run: '2016-02-23T13:26:31Z'
+tag_templates:
+- pinpress_default:
+    item: "<%= tag %> (<%= count %>),"
