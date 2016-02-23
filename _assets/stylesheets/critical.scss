@@ -175,6 +175,7 @@ a, button, input, select, textarea, label, summary {
   a {
     color: $color-header-link;
     text-decoration: none;
+    margin-left: .5em;
     transition-duration: .1s;
     transition-property: color;
     transition-timing-function: ease-in-out;
@@ -201,7 +202,7 @@ a, button, input, select, textarea, label, summary {
   }
 
   svg {
-    height: 1.8em;
+    height: 2em;
     fill: currentColor;
     vertical-align: middle;
   }
