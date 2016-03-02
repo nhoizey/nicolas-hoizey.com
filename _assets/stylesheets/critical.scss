@@ -175,7 +175,7 @@ a, button, input, select, textarea, label, summary {
   a {
     color: $color-header-link;
     text-decoration: none;
-    margin-left: .5em;
+    margin-right: 1em;
     transition-duration: .1s;
     transition-property: color;
     transition-timing-function: ease-in-out;
@@ -195,6 +195,10 @@ a, button, input, select, textarea, label, summary {
     &.facebook:hover {
       color: #3b5998;
     }
+  }
+
+  a:last-child {
+    margin-right: 0;
   }
 
   p:first-of-type a:hover {
