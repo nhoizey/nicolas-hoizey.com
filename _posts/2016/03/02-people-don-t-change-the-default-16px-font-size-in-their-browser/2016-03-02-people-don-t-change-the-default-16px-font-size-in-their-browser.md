@@ -29,7 +29,7 @@ Here are a few counterexamples I've collected from actual devices / browsers:
 | NetFront NX                     |              23px |
 | Kindle 3[^kindle]               |              26px |
 
-[^kindle]: Yes, [people use Kindle and similar e-book readers to browser the Web](https://www.google.fr/search?q=kindle+web+font+size).
+[^kindle]: Yes, [people use Kindle and similar e-book readers to browse the Web](https://www.google.fr/search?q=kindle+web+font+size).
 
 These devices are fairly old because I made the study in 2013, but I'm sure there are still such devices nowadays. I admit I can't prove it with actual data.
 
