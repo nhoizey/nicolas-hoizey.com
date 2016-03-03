@@ -1,7 +1,7 @@
 ---
 title: People don't change the default 16px font size in their browser
 lang:  en
-tags:  [em, accessibilité]
+tags:  [em, accessibilité, qualité, Web]
 ---
 
 I am really happy to still read articles that advocate for the [use of proportional CSS units as `em` and `rem`](http://zellwk.com/blog/rem-vs-em/) in 2016. But there are often trolls[^troll] that come comment these articles to say that we, who are using proportional units, are dumb, because there is no need for this. Here is [an example](http://zellwk.com/blog/rem-vs-em/#comment-2547145640).
@@ -75,4 +75,4 @@ So, we might not be a lot to need — or even just want — to change the defa
 
 So, if you use `px` for font-size, I hope it's only because you didn't know what it means, and I also hope you will change.
 
-And please, please, don't tell me using `em`s or `rem`s is hard. It's not. At all. You just needs to think differently and use the appropriate tools. [Read this](http://zellwk.com/blog/rem-vs-em/) again, and practice.
+And please, please, don't tell me using `em`s or `rem`s is hard. It's not. At all. You just need to think differently and use the appropriate tools. [Read this](http://zellwk.com/blog/rem-vs-em/) again, and practice.
