@@ -77,9 +77,9 @@ class YouTube < Liquid::Tag
 
     puts " title #{@title}"
 
-    @style = "width:100%;height:100%;background:#000 url(http://i2.ytimg.com/vi/#{@id}/0.jpg) center center no-repeat;background-size:contain;position:absolute"
+    @style = "width:100%;height:100%;background:#000 url(https://i2.ytimg.com/vi/#{@id}/0.jpg) center center no-repeat;background-size:contain;position:absolute"
 
-    @emu = "http://www.youtube.com/embed/#{@id}?autoplay=1"
+    @emu = "https://www.youtube.com/embed/#{@id}?autoplay=1"
 
     @videoFrame =  CGI.escapeHTML("<iframe style=\"vertical-align:top;width:100%;height:100%;position:absolute;\" src=\"#{@emu}\" frameborder=\"0\" allowfullscreen></iframe>")
 
@@ -96,13 +96,13 @@ class YouTube < Liquid::Tag
    # note: so special care is required to produce html code that will not be massage by the
    #       markdown processor :
    #       extract from the markdown doc :
-   #           'The only restrictions are that block-level HTML elements ¿ e.g. <div>, <table>, <pre>, <p>, etc.
+   #           'The only restrictions are that block-level HTML elements ï¿½ e.g. <div>, <table>, <pre>, <p>, etc.
    #            must be separated from surrounding content by blank lines, and the start and end tags of the block
    #            should not be indented with tabs or spaces. '
    result = <<-EOF
 
 <div class="ratio-4-3 embed-video-container" onclick="#{@onclick}" title="click here to play">
-<a class="youtube-lazy-link" style="#{@style}" href="http://www.youtube.com/watch?v=#{@id}" id="#{@id}" onclick="return false;">
+<a class="youtube-lazy-link" style="#{@style}" href="https://www.youtube.com/watch?v=#{@id}" id="#{@id}" onclick="return false;">
 <div class="youtube-lazy-link-div"></div>
 <div class="youtube-lazy-link-info">#{@title}</div>
 </a>

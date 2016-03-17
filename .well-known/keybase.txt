@@ -4,7 +4,7 @@ https://keybase.io/nhoizey
 
 I hereby claim:
 
-  * I am an admin of http://nicolas-hoizey.com
+  * I am an admin of https://nicolas-hoizey.com
   * I am nhoizey (https://keybase.io/nhoizey) on keybase.
   * I have a public key with fingerprint C944 E2B5 8F97 6F74 A20B  B47B 8124 747F 1FA5 3AFE
 

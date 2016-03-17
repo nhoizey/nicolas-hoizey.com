@@ -52,7 +52,7 @@ tag_feed_dir: tags
 # tag_permalink_style: pretty
 
 # Setup
-url:                 http://nicolas-hoizey.com
+url:                 https://nicolas-hoizey.com
 baseurl:             /
 paginate:            5
 paginate_path:       "/page-:num/"
@@ -63,7 +63,7 @@ tagline:             "aka @nhoizey"
 description:         "Ce site est mon recueil de créations et réflexions sur des sujets très variés, de la photo au Web en passant par la société, les voyages, etc."
 author:
   name:              Nicolas Hoizey
-  url:               http://nicolas-hoizey.com
+  url:               https://nicolas-hoizey.com
   email:             nicolas@hoizey.com
   twitter_username:  nhoizey
   github_username:   nhoizey

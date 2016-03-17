@@ -1,6 +1,6 @@
 ---
-title:			Yahoo va fermer Pipes, et je suis bien malheureux
-lang:				fr
+title:      Yahoo va fermer Pipes, et je suis bien malheureux
+lang:        fr
 tags:       [Web, Yahoo, API, RSS]
 ---
 
@@ -10,7 +10,7 @@ Entendons-nous bien, Yahoo Pipes bosse pour moi au quotidien, mais je ne vais da
 
 ## Un exemple
 
-Voici [un exemple de *Pipe*](http://pipes.yahoo.com/pipes/pipe.edit?_id=bfe78fd60a9e342daa10715d03b51584), qui me permet de publier [de jolis tweets](https://twitter.com/nhoizey/status/605637245945675776) pour [mes bookmarks Pinboard](http://nicolas-hoizey.com/tags/Pinboard.html) destinés aux [CleverMarks](https://twitter.com/CleverMarks) :
+Voici [un exemple de *Pipe*](http://pipes.yahoo.com/pipes/pipe.edit?_id=bfe78fd60a9e342daa10715d03b51584), qui me permet de publier [de jolis tweets](https://twitter.com/nhoizey/status/605637245945675776) pour [mes bookmarks Pinboard](https://nicolas-hoizey.com/tags/pinboard.html) destinés aux [CleverMarks](https://twitter.com/CleverMarks) :
 
 <figure>
   {% picture yahoo-pipes-pinboard-twitter.png %}
