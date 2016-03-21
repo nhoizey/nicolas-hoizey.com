@@ -1,6 +1,6 @@
---- 
-title:      Don't fear the light! 
-lang:       fr 
+---
+title:      Don't fear the light!
+lang:       fr
 tags:       [photo, statue, silhouette, nuit, lumière]
 ---
 
@@ -9,7 +9,7 @@ Voilà une vision un peu surréelle d'une statue se protégeant de lumières qui
 <figure>
   {% picture don_t_fear_the_light.jpg %}
   <figcaption>
-    Don't fear the light!
+  Don't fear the light!
   </figcaption>
 </figure>
 

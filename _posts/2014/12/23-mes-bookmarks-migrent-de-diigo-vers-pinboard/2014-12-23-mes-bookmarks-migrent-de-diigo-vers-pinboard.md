@@ -11,7 +11,7 @@ Ce n'est en fait que la goutte qui fait déborder le vase[^1], je trouvais déj�
 <figure>
   {% picture diigo.png %}
   <figcaption>
-    L'interface de Diigo
+  L'interface de Diigo
   </figcaption>
 </figure>
 
@@ -28,7 +28,7 @@ Après avoir échangé un peu avec d'autres utilisateurs déçus de Diigo, j'ai 
 <figure>
   {% picture pinboard.png %}
   <figcaption>
-    L'interface de Pinboard
+  L'interface de Pinboard
   </figcaption>
 </figure>
 
@@ -37,7 +37,7 @@ Vous pouvez bien sûr continuer à lire aussi mes bookmarks [sur Seenthis](http:
 <figure>
   {% picture seenthis.png %}
   <figcaption>
-    L'interface de Seenthis
+  L'interface de Seenthis
   </figcaption>
 </figure>
 
@@ -58,7 +58,7 @@ Mon départ de Diigo m'empêche de fait de participer au [groupe de veille Web P
 <figure>
   {% picture diigo-web-performance.png %}
   <figcaption>
-    Le groupe Web Performance sur Diigo
+  Le groupe Web Performance sur Diigo
   </figcaption>
 </figure>
 

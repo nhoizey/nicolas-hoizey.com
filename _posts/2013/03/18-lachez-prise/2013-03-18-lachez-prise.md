@@ -13,7 +13,7 @@ J'ai donc passé cette taille par défaut à 18px dans les préférences de mon 
 <figure>
   {% picture firefox-preferences-contenu-texte-18px.png %}
   <figcaption>
-    Modifier la taille de texte par défaut dans Firefox
+  Modifier la taille de texte par défaut dans Firefox
   </figcaption>
 </figure>
 

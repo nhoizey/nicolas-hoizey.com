@@ -1,6 +1,6 @@
---- 
-title:      Flickr en passe de jeter Yahoo! Maps pour Google Maps ? 
-lang:       fr 
+---
+title:      Flickr en passe de jeter Yahoo! Maps pour Google Maps ?
+lang:       fr
 tags:       [Flickr, Google, géolocalisation, Yahoo, iPhone]
 ---
 
@@ -13,7 +13,7 @@ Dans une nouvelle version de [Flickr pour mobiles](http://m.flickr.com/)[^1], [F
 <figure>
   {% picture flickr-mobile-google-maps.png %}
   <figcaption>
-    Google Maps dans Flickr Mobile
+  Google Maps dans Flickr Mobile
   </figcaption>
 </figure>
 

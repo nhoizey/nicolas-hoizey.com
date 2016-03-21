@@ -1,6 +1,6 @@
---- 
-title:      TinEye progresse à grands pas 
-lang:       fr 
+---
+title:      TinEye progresse à grands pas
+lang:       fr
 tags:       [photo, image, recherche, TinEye]
 ---
 
@@ -14,7 +14,7 @@ Souvenez-vous, la recherche que j'avais tenté [à l'époque](/2008/06/tineye-un
 <figure>
   {% picture tineye-resultat.png %}
   <figcaption>
-    Premiers résultat de la recherche
+  Premiers résultat de la recherche
   </figcaption>
 </figure>
 
@@ -24,7 +24,7 @@ Cette même recherche en donne aujourd'hui 31, plus de deux fois plus :
 <figure>
   {% picture TinEye_-_2008-08-05_-_31_resultats.png %}
   <figcaption>
-    Nouvelle recherche dans TinEye
+  Nouvelle recherche dans TinEye
   </figcaption>
 </figure>
 

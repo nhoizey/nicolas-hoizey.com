@@ -1,6 +1,6 @@
---- 
-title:      Deux Gars en showcase au Com'Antes 
-lang:       fr 
+---
+title:      Deux Gars en showcase au Com'Antes
+lang:       fr
 tags:       [concert, vidéo, Deux Gars]
 ---
 
@@ -8,7 +8,7 @@ J'ai enfin pu assister hier soir à mon premier concert des [Deux Gars](http://w
 
 [^1]: Album excellent que vous pouvez écouter librement, télécharger gratuitement et légalement, ou acheter !
 
-Ils se présentent ainsi : 
+Ils se présentent ainsi :
 
 > Deux Gars, c’est Baptiste Charden et Rémi Cieplicki. Un duo musical qui se sert d’un instrument et de deux voix, celles d’un joueur de guitare mi-polonais mi-molette et d’un ex-chanteur star ratée des années 90. Et c’est bien (enfin il parait).
 

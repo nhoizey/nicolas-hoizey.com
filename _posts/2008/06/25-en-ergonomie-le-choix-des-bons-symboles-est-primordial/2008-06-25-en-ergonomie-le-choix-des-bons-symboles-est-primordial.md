@@ -1,6 +1,6 @@
---- 
-title:      En ergonomie, le choix des bons symboles est primordial 
-lang:       fr 
+---
+title:      En ergonomie, le choix des bons symboles est primordial
+lang:       fr
 tags:       [ergonomie, symbole]
 ---
 
@@ -11,7 +11,7 @@ Si vous devez opter pour des métaphores visuelles pour représenter des donnée
 <figure>
   {% picture villamil-fleche_tri.jpg %}
   <figcaption>
-    © Frédéric de Villamil
+  © Frédéric de Villamil
   </figcaption>
 </figure>
 

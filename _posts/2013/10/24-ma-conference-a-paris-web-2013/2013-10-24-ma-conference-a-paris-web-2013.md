@@ -14,11 +14,11 @@ Après y avoir assisté plusieurs années en tant qu'auditeur, j'ai eu la joie �
 Voici l'accroche que j'avais rédigée pour ma conférence, intitulée donc « Un petit pas pour l'em, un grand pas pour le Web », afin de la soumettre à l'équipe de Paris Web :
 
 > Aujourd'hui, je parcours le Web principalement sur mon ordinateur portable, très souvent sur mon smartphone, parfois sur ma tablette et ma TV, et plutôt exceptionnellement sur ma liseuse. Ces différents appareils ont bien entendu des formats — paysage ou portrait — et tailles très différents, ce que les adeptes du *Responsive Web Design* ont bien intégré dans leur conception du Web.
-> 
+>
 > Mais ils ont aussi des tailles de base de police de caractère très différents —une échelle de 16 à 24px dans mon cas—, ce que presque tous les intégrateurs Web ignorent, ou choisissent d'ignorer pour se faciliter la tâche. Cela fait pourtant déjà quelque temps que l'on sait qu'il faut utiliser une unité proportionnelle et non fixe pour définir les hauteurs de texte, mais ce n'est que trop peu appliqué, les intégrateurs refusant souvent de [lâcher prise](/2013/03/lachez-prise.html).
-> 
+>
 > L'étape suivante, qui devrait être un enchainement naturel —mais pose plus de contraintes—, est d'utiliser ces mêmes unités pour d'autres dimensions, notamment les largeurs de « boîtes » et les seuils de Media Queries.
-> 
+>
 > L'objectif de cette conférence est d'illustrer les avantages et inconvénients d'une telle intégration complètement élastique, en espérant convaincre que les uns l'emportent suffisamment sur les autres pour améliorer notre pratique de l'intégration Web.
 
 ## Bilan de ma prestation
@@ -38,7 +38,7 @@ Je vais rédiger dans les prochaines semaines une version détaillée de ma conf
 <figure>
   {% picture nicolas_hoizey_-_paris_web_2013_-_photo_par_fabrice_le_guernec_pour_paris_web.jpg %}
   <figcaption>
-    Nicolas Hoizey à Paris Web 2013. [Photo](http://www.flickr.com/photos/parisweb/10401233525/) de [Fabrice Le Guernec](http://twitter.com/Fab_incident) pour Paris-Web
+  Nicolas Hoizey à Paris Web 2013. [Photo](http://www.flickr.com/photos/parisweb/10401233525/) de [Fabrice Le Guernec](http://twitter.com/Fab_incident) pour Paris-Web
   </figcaption>
 </figure>
 
@@ -62,7 +62,7 @@ La vidéo de ma prestation a été publiée par Paris Web sur son compte Vimeo :
 
 Voici [la version de mes slides hébergée sur SlideShare](https://fr.slideshare.net/nhoizey/paris-web-2013-un-petit-pas-pour-lem-un-grand-pas-pour-le-web), donc sans les animations qui ne sont visibles qu'en vidéo :
 
-<iframe src="http://www.slideshare.net/slideshow/embed_code/27064224?rel=0" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px;max-width: 100%" allowfullscreen> </iframe>
+<iframe src="//fr.slideshare.net/slideshow/embed_code/key/v16thp4qiLTOXH" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 
 Vous pouvez préférer [la version de mes slides hébergée sur Speaker Deck](https://speakerdeck.com/nhoizey/un-petit-pas-pour-lem-un-grand-pas-pour-le-web-paris-web-2013) :
 

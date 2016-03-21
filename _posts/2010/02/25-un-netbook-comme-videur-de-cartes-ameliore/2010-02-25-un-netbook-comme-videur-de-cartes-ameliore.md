@@ -1,6 +1,6 @@
---- 
-title:      Un Netbook comme videur de cartes amélioré ? 
-lang:       fr 
+---
+title:      Un Netbook comme videur de cartes amélioré ?
+lang:       fr
 tags:       [photo, matériel]
 ---
 

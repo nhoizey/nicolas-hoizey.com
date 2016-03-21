@@ -1,6 +1,6 @@
---- 
-title:      Des jeux de bastion sur la PS3 ? 
-lang:       fr 
+---
+title:      Des jeux de bastion sur la PS3 ?
+lang:       fr
 tags:       [jeu vidéo, fail, Sony, PlayStation]
 ---
 

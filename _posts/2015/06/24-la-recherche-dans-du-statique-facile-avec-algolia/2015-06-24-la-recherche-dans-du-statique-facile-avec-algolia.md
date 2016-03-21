@@ -19,7 +19,7 @@ Avec un site statique, il existe trois possibilités :
 ## Un moteur de recherche côté serveur
 
 <figure class="onefourth right">
-    {% picture onefourth apache-solr-logo.png alt="Solr" %}
+  {% picture onefourth apache-solr-logo.png alt="Solr" %}
 </figure>
 Ce n'est pas parce que le site est statique qu'il est impossible de déployer une solution dynamique côté serveur, telle que [Solr](http://lucene.apache.org/solr/), « à côté » des pages.
 
@@ -50,7 +50,7 @@ De plus, l'indexation est plein texte, sans vraiment de paramétrage possible, c
 ### Algolia
 
 <figure class="onefourth right">
-    {% picture onefourth algolia-logo.png alt="Algolia" %}
+  {% picture onefourth algolia-logo.png alt="Algolia" %}
 </figure>
 C'est alors que j'ai entendu parler[^vvo] d'[Algolia](https://www.algolia.com/), un moteur de recherche en mode SaaS intégralement pilotable par une [API REST](https://www.algolia.com/doc/rest_api) extrêmement riche, et pour laquelle de [très nombreux clients](https://www.algolia.com/doc/apiclients) et [intégrations](https://www.algolia.com/doc/integrations) sont déjà proposés de base.
 
@@ -66,12 +66,16 @@ Algolia est bluffant à plus d'un titre :
 
 <figure>
   {% picture algolia-dashboard-overview.jpg alt="Le tableau de bord Algolia" %}
-  <figcaption>Un point de vue rapide sur l'état de l'indexation et des recherches.</figcaption>
+  <figcaption>
+  Un point de vue rapide sur l'état de l'indexation et des recherches.
+  </figcaption>
 </figure>
 
 <figure>
   {% picture algolia-dashboard-response-times.jpg alt="Le suivi des temps de réponse" %}
-  <figcaption>Le suivi des temps de réponse de l'API. Oui, l'échelle est en millisecondes !</figcaption>
+  <figcaption>
+  Le suivi des temps de réponse de l'API. Oui, l'échelle est en millisecondes !
+  </figcaption>
 </figure>
 
 [Ma mise en œuvre](https://github.com/nhoizey/nicolas-hoizey.com/blob/master/recherche.html) n'est sans doute pas parfaite techniquement, mais j'y suis arrivé assez simplement grâce aux tutoriels proposés et à l'aide rapide et efficace obtenue via Twitter en cas de blocage, donc c'est à la portée de tout le monde !

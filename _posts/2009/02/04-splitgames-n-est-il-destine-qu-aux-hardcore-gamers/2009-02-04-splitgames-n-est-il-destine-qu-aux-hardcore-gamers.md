@@ -1,6 +1,6 @@
---- 
-title:      SplitGames n'est-il destiné qu'aux hardcore gamers ? 
-lang:       fr 
+---
+title:      SplitGames n'est-il destiné qu'aux hardcore gamers ?
+lang:       fr
 tags:       [fail, e-commerce]
 ---
 

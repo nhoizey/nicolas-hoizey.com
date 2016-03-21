@@ -1,6 +1,6 @@
---- 
-title:      Les capteurs APS-C sont-ils toujours meilleurs que les full frame pour la photo animalière et de sport ? 
-lang:       fr 
+---
+title:      Les capteurs APS-C sont-ils toujours meilleurs que les full frame pour la photo animalière et de sport ?
+lang:       fr
 tags:       [photo, matériel, Canon, capteur]
 ---
 
@@ -36,14 +36,14 @@ La preuve en images. Voici les images proportionnelles des deux capteurs, avec i
 <figure>
   {% picture capteur-canon-eos-350d.png %}
   <figcaption>
-    Canon EOS 350D
+  Canon EOS 350D
   </figcaption>
 </figure>
 
 <figure>
   {% picture capteur-canon-eos-5d-mark-ii.png %}
   <figcaption>
-    Canon EOS 5D Mark II
+  Canon EOS 5D Mark II
   </figcaption>
 </figure>
 

@@ -4,7 +4,7 @@ date:       2015-01-27
 author:     Nicolas Hoizey
 lang:       fr
 tags:       [Mac, matériel]
-logo:       
+logo:
 url:     http://gasteroprod.dev/divers/quelle-version-du-dock-thunderbolt-belkin-choisir
 ---
 
@@ -13,8 +13,9 @@ J'ai acheté il y a déjà quelques mois un [Belkin Thunderbolt Express Dock](ht
 Voilà les périphériques que je branche ainsi à mon MacBook Air : écran, son, réseau, disques externes, lecteur de cartes mémoire, etc.
 
 <figure>
-  {% picture belkin-thunderbolt-express-dock.jpg %}<figcaption>
-    Un seul câble à brancher sur le Mac pour le lier à de nombreux périphériques
+  {% picture belkin-thunderbolt-express-dock.jpg %}
+  <figcaption>
+  Un seul câble à brancher sur le Mac pour le lier à de nombreux périphériques
   </figcaption>
 </figure>
 

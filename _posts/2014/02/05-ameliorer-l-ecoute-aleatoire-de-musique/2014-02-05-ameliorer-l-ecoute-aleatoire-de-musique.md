@@ -26,7 +26,7 @@ Voici les listes que j'ai créées :
 <figure>
   {% picture itunes-listes-intelligentes.png %}
   <figcaption>
-    Cinq listes intelligentes pour sélectionner la musique à écouter
+  Cinq listes intelligentes pour sélectionner la musique à écouter
   </figcaption>
 </figure>
 
@@ -35,8 +35,7 @@ Les intitulés sont à priori explicites, mais voici la configuration de l'une d
 <figure>
   {% picture itunes-liste-intelligente-4-etoiles.png %}
   <figcaption>
-    Une liste intelligente pour écouter les morceaux 4 étoiles une fois par semaine. Oui, je retire la musique pour enfants, j'ai d'autres occasions de l'écouter…
-
+  Une liste intelligente pour écouter les morceaux 4 étoiles une fois par semaine. Oui, je retire la musique pour enfants, j'ai d'autres occasions de l'écouter…
   </figcaption>
 </figure>
 
@@ -45,7 +44,7 @@ Rassembler ces listes dans un dossier permet de jouer l'ensemble dans iTunes en 
 <figure>
   {% picture itunes-dossier-listes-intelligentes.png %}
   <figcaption>
-    Un dossier pour obtenir une liste composée. C'est donc un « ou » logique.
+  Un dossier pour obtenir une liste composée. C'est donc un « ou » logique.
   </figcaption>
 </figure>
 
@@ -54,7 +53,7 @@ Mais ce n'est malheureusement pas le cas sur iPhone. J'ai donc créé une derni�
 <figure>
   {% picture itunes-liste-intelligente-dossier.png %}
   <figcaption>
-    Une liste intelligente pour rassembler les listes d'un dossier
+  Une liste intelligente pour rassembler les listes d'un dossier
   </figcaption>
 </figure>
 

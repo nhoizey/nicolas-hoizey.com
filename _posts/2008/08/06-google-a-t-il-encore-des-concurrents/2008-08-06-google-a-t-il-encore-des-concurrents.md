@@ -1,6 +1,6 @@
---- 
-title:      Google a-t-il encore des concurrents ? 
-lang:       fr 
+---
+title:      Google a-t-il encore des concurrents ?
+lang:       fr
 tags:       [Gastero Prod., Google, recherche, SEO]
 ---
 
@@ -12,7 +12,7 @@ Après en avoir ramassé un ersatz à la petite [cuil](/2008/07/y-a-une-cuil-dan
 <figure>
   {% picture Search_Engines_-_Google_Analytics.png %}
   <figcaption>
-    Classement des moteurs de recherche menant à ce site
+  Classement des moteurs de recherche menant à ce site
   </figcaption>
 </figure>
 

@@ -1,6 +1,6 @@
---- 
-title:      Méduses fluorescentes 
-lang:       fr 
+---
+title:      Méduses fluorescentes
+lang:       fr
 tags:       [photo, couleur, macro, animal]
 ---
 

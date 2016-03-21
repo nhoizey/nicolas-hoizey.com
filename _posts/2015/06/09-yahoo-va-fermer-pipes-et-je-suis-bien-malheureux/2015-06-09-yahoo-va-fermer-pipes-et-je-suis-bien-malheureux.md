@@ -14,7 +14,9 @@ Voici [un exemple de *Pipe*](http://pipes.yahoo.com/pipes/pipe.edit?_id=bfe78fd6
 
 <figure>
   {% picture yahoo-pipes-pinboard-twitter.png %}
-  <figcaption>Vue graphique d'un *Pipe* de transformation de flux RSS</figcaption>
+  <figcaption>
+  Vue graphique d'un *Pipe* de transformation de flux RSS
+  </figcaption>
 </figure>
 
 Plus exactement, ce *Pipe* transforme le flux RSS fourni par Pinboard en un autre branché dans [IFTTT](https://ifttt.com/) pour alimenter [Buffer](https://buffer.com/), qui va lui poster le tweet. Compliqué ? Un peu, mais si utile.
@@ -23,7 +25,9 @@ Par exemple, [ce bookmark](https://pinboard.in/u:nhoizey/b:602669af0bcf) :
 
 <figure>
   {% picture pinboard-bookmark.png %}
-  <figcaption>Un bookmark dans Pinboard</figcaption>
+  <figcaption>
+  Un bookmark dans Pinboard
+  </figcaption>
 </figure>
 
 …va devenir ce tweet, sans aucune action de ma part :

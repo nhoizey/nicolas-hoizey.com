@@ -1,6 +1,6 @@
---- 
-title:      Ziki aime les doublons... et plus si affinité 
-lang:       fr 
+---
+title:      Ziki aime les doublons... et plus si affinité
+lang:       fr
 tags:       [fail, Ziki]
 ---
 

@@ -12,7 +12,7 @@ Voilà une nouvelle preuve qu'il est possible de gérer de façon exemplaire un 
 <figure>
   {% picture gardena-t-1030-d.jpg %}
   <figcaption>
-    Minuteur d'arrosage Gardena T 1030 D
+  Minuteur d'arrosage Gardena T 1030 D
   </figcaption>
 </figure>
 

@@ -1,6 +1,6 @@
---- 
-title:      Along the shore 
-lang:       fr 
+---
+title:      Along the shore
+lang:       fr
 tags:       [photo, nuit, pose longue]
 ---
 
@@ -9,7 +9,7 @@ Voici une photo faite de nuit en bord de mer à Benodet, en Bretagne. C'est ma p
 <figure>
   {% picture along_the_shore.jpg %}
   <figcaption>
-    Along the shore
+  Along the shore
   </figcaption>
 </figure>
 

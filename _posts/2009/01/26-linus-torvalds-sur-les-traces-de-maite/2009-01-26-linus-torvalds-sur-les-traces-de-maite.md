@@ -1,6 +1,6 @@
---- 
-title:      Linus Torvalds sur les traces de Maïté 
-lang:       fr 
+---
+title:      Linus Torvalds sur les traces de Maïté
+lang:       fr
 tags:       [fail, Linux]
 ---
 

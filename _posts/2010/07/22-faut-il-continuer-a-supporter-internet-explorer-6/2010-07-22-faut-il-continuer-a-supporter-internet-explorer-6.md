@@ -1,6 +1,6 @@
---- 
-title:      Faut-il continuer à supporter Internet Explorer 6 ? 
-lang:       fr 
+---
+title:      Faut-il continuer à supporter Internet Explorer 6 ?
+lang:       fr
 tags:       [Clever Age, Internet Explorer, navigateur, Web]
 ---
 
@@ -21,7 +21,7 @@ Globalement, l'Europe est largement soulagée par des parts de marché de IE6 to
 <figure>
   {% picture navigateurs-2010-07-europe.png %}
   <figcaption>
-    Marché des navigateurs en juillet 2010 en Europe
+  Marché des navigateurs en juillet 2010 en Europe
   </figcaption>
 </figure>
 
@@ -37,7 +37,7 @@ L'autre aspect qui peut nous échapper si l'on ne regarde que les chiffres mondi
 <figure>
   {% picture navigateurs-2010-07-asie.png %}
   <figcaption>
-    Marché des navigateurs en juillet 2010 en Asie
+  Marché des navigateurs en juillet 2010 en Asie
   </figcaption>
 </figure>
 

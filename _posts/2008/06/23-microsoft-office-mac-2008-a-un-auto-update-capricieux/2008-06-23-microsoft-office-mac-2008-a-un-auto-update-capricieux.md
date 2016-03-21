@@ -1,6 +1,6 @@
---- 
-title:      Microsoft Office:mac 2008 a un auto update capricieux 
-lang:       fr 
+---
+title:      Microsoft Office:mac 2008 a un auto update capricieux
+lang:       fr
 tags:       [fail, Microsoft, Mac]
 ---
 

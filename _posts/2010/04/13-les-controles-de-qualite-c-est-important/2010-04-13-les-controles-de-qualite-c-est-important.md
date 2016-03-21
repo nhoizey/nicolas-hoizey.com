@@ -1,6 +1,6 @@
---- 
-title:      Les contrôles de qualité, c'est important ! 
-lang:       fr 
+---
+title:      Les contrôles de qualité, c'est important !
+lang:       fr
 tags:       [fail, qualité]
 ---
 
@@ -11,7 +11,7 @@ La preuve en image :
 <figure>
   {% picture controle-qualite.jpg %}
   <figcaption>
-    Contrôle qualité
+  Contrôle qualité
   </figcaption>
 </figure>
 

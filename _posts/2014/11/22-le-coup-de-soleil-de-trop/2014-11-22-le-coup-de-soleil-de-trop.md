@@ -11,7 +11,7 @@ Je m'interroge quand je vois [la galerie de Luis Valadares sur 500px](https://50
 <figure>
   {% picture luis-valadares-500px-jaune.jpg %}
   <figcaption>
-    Galerie de Luis Valadares sur 500px
+  Galerie de Luis Valadares sur 500px
   </figcaption>
 </figure>
 

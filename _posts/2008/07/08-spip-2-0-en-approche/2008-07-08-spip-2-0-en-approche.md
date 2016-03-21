@@ -1,6 +1,6 @@
---- 
-title:      SPIP 2.0 en approche 
-lang:       fr 
+---
+title:      SPIP 2.0 en approche
+lang:       fr
 tags:       [SPIP]
 ---
 
@@ -14,7 +14,7 @@ En témoigne le changement de nom de la version de développement, dont la signa
 <figure>
   {% picture SPIP_2.0.0_SVN.png %}
   <figcaption>
-    La signature de SPIP 2.0.0 SVN
+  La signature de SPIP 2.0.0 SVN
   </figcaption>
 </figure>
 

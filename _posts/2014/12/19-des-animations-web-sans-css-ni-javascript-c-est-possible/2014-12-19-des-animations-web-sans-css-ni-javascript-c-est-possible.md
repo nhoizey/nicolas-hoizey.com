@@ -13,7 +13,7 @@ Si vous ne l'avez pas encore vue, il s'agit d'une animation, en SVG complètemen
 <figure>
   {% picture jeremie-patonnier-svg-smil.png %}
   <figcaption>
-    « W3C Sentaï Team » par Jérémie Patonnier avec des illustrations de Corinne Massacry
+  « W3C Sentaï Team » par Jérémie Patonnier avec des illustrations de Corinne Massacry
   </figcaption>
 </figure>
 

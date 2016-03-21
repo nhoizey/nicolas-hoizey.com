@@ -9,7 +9,7 @@ tags:       [photo, Canon, Olympus, Panasonic, matériel]
 <figure>
   {% picture olympus-om-d-e-m1.jpg %}
   <figcaption>
-    Olympus OM-D E-M1
+  Olympus OM-D E-M1
   </figcaption>
 </figure>
 
@@ -37,7 +37,7 @@ La mise en évidence des [tailles relatives du Canon 5D Mark II et de l'Olympus 
 <figure>
   {% picture comparaison-canon-eos-5d-mark-ii-olympus-om-d-e-m1.png %}
   <figcaption>
-    Comparaison des tailles du Canon EOS 5D Mark II et de l'Olympus OM-D E-M1
+  Comparaison des tailles du Canon EOS 5D Mark II et de l'Olympus OM-D E-M1
   </figcaption>
 </figure>
 
@@ -79,8 +79,7 @@ Je ne tiens pas compte pour l'instant de mon bon vieux Canon EF 70-300mm, que j'
 <figure>
   {% picture olympus-40-150mm-f2.8.jpg %}
   <figcaption>
-    Olympus 40-150mm f/2.8
-
+  Olympus 40-150mm f/2.8
   </figcaption>
 </figure>
 
@@ -102,8 +101,7 @@ Je pourrais aller encore plus loin et m'intéresser de plus près au Panasonic L
 <figure>
   {% picture comparaison-canon-eos-5d-mark-ii-panasonic-lumix-gm1.png %}
   <figcaption>
-    Comparaison des tailles du Canon EOS 5D Mark II et du Panasonic Lumix GM1
-
+  Comparaison des tailles du Canon EOS 5D Mark II et du Panasonic Lumix GM1
   </figcaption>
 </figure>
 

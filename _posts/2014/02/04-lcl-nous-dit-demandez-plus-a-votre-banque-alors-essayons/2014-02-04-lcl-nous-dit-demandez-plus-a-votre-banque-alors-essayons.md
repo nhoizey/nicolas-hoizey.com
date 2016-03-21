@@ -20,7 +20,7 @@ En tout cas, ils imposent l'acceptation de nouvelles « Conditions générales d
 <figure>
   {% picture lcl-cgu-fail.png %}
   <figcaption>
-    Les nouvelles « conditions générales du service » sont proposées en… image !
+  Les nouvelles « conditions générales du service » sont proposées en… image !
   </figcaption>
 </figure>
 
@@ -29,7 +29,7 @@ Une fois connecté, ils ont quand même mis une page qui liste les nouveautés[^
 <figure>
   {% picture lcl-changelog-fail.png %}
   <figcaption>
-    Impossible de lire la fin des nouveautés annoncées avec ma taille de texte à 18px
+  Impossible de lire la fin des nouveautés annoncées avec ma taille de texte à 18px
   </figcaption>
 </figure>
 
@@ -38,7 +38,7 @@ Bien sûr, je me suis dit « suis-je bête, encore [un site qui se moque éperdu
 <figure>
   {% picture lcl-changelog-bas-16px.png %}
   <figcaption>
-    C'est mieux pour le texte en 16px, mais reste ce picto étrange à droite…
+  C'est mieux pour le texte en 16px, mais reste ce picto étrange à droite…
   </figcaption>
 </figure>
 
@@ -54,7 +54,7 @@ Voici donc l'image en question :
 <figure>
   {% picture lcl-changelog-bas-image.jpg %}
   <figcaption>
-    L'image qui illustre le bas des informations. Superbe, c'est vraiment dommage de la masquer… ou pas.
+  L'image qui illustre le bas des informations. Superbe, c'est vraiment dommage de la masquer… ou pas.
   </figcaption>
 </figure>
 
@@ -63,7 +63,7 @@ Bon, quand on va sur le site de sa banque, en général, c'est pour consulter se
 <figure>
   {% picture lcl-synthe_se-comptes-fail.png %}
   <figcaption>
-    Vous aussi vous avez des « Compte de d¿¿s » dans votre banque ?
+  Vous aussi vous avez des « Compte de d¿¿s » dans votre banque ?
   </figcaption>
 </figure>
 

@@ -1,6 +1,6 @@
---- 
-title:      La reconnaissance faciale se démocratise avec Picasa Web 
-lang:       fr 
+---
+title:      La reconnaissance faciale se démocratise avec Picasa Web
+lang:       fr
 tags:       [photo, Google, logiciel, visage, Picasa]
 ---
 

@@ -1,6 +1,6 @@
---- 
-title:      Split level photography 
-lang:       fr 
+---
+title:      Split level photography
+lang:       fr
 tags:       [Flickr, plongée, photo]
 ---
 
@@ -9,7 +9,7 @@ J'avais annoncé [il y a déjà 4 ans](/2005/12/groupe-flickr-a-remplir-halfway-
 <figure>
   {% picture split_level_photography.jpg %}
   <figcaption>
-    Split level photography
+  Split level photography
   </figcaption>
 </figure>
 

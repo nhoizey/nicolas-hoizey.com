@@ -1,6 +1,6 @@
---- 
-title:      Quel sac photo pour un reflex et ses accessoires ? 
-lang:       fr 
+---
+title:      Quel sac photo pour un reflex et ses accessoires ?
+lang:       fr
 tags:       [photo, matériel, Canon, sac]
 ---
 
@@ -40,16 +40,14 @@ Voilà ce que ça donne :
 <figure>
   {% picture lowepro-flipside-400-aw-1.jpg %}
   <figcaption>
-    Lowepro Flipside 400 AW de face
-. En vert, il a presque l'air d'un sac à dos classique
+  Lowepro Flipside 400 AW de face. En vert, il a presque l'air d'un sac à dos classique
   </figcaption>
 </figure>
 
 <figure>
   {% picture lowepro-flipside-400-aw-2.jpg %}
   <figcaption>
-    Lowepro Flipside 400 AW de dos
-. L'ouverture par le dos est une très bonne garantie de sécurité, et un bon moyen de ne pas se salir le dos après avoir posé le sac
+  Lowepro Flipside 400 AW de dos. L'ouverture par le dos est une très bonne garantie de sécurité, et un bon moyen de ne pas se salir le dos après avoir posé le sac
   </figcaption>
 </figure>
 

@@ -1,6 +1,6 @@
---- 
-title:      Splitscreen, A Love Story 
-lang:       fr 
+---
+title:      Splitscreen, A Love Story
+lang:       fr
 tags:       [vidéo, film]
 ---
 

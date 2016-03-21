@@ -1,6 +1,6 @@
---- 
-title:      Microsoft Project, c'est culte ! 
-lang:       fr 
+---
+title:      Microsoft Project, c'est culte !
+lang:       fr
 tags:       [Microsoft, logiciel]
 ---
 
@@ -14,7 +14,7 @@ On peut effectivement lire sur la [page de présentation de Microsoft Office Ent
 <figure>
   {% picture MS_Project_culte.png %}
   <figcaption>
-    MS Project, outil culte du chef de projet
+  MS Project, outil culte du chef de projet
   </figcaption>
 </figure>
 

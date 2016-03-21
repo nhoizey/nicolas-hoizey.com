@@ -1,6 +1,6 @@
---- 
-title:      Les 3 Suisses mutilent leurs mannequins ! 
-lang:       fr 
+---
+title:      Les 3 Suisses mutilent leurs mannequins !
+lang:       fr
 tags:       [photo, fail, e-commerce]
 ---
 
@@ -11,7 +11,7 @@ Voici en effet [la page](http://www.3suisses.fr/FrontOfficePortail/catalogue_fra
 <figure>
   {% picture 3Suisses_-_Jean_Levis_512.jpg %}
   <figcaption>
-    Un Jean Levi's 512 sur le site des 3 Suisses
+  Un Jean Levi's 512 sur le site des 3 Suisses
   </figcaption>
 </figure>
 

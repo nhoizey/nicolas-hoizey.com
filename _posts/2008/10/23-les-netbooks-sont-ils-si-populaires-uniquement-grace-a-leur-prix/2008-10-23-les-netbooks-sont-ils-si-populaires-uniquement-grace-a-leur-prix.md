@@ -1,6 +1,6 @@
---- 
-title:      Les NetBooks sont-ils si populaires uniquement grâce à leur prix ? 
-lang:       fr 
+---
+title:      Les NetBooks sont-ils si populaires uniquement grâce à leur prix ?
+lang:       fr
 tags:       [Apple, iPhone, NetBook]
 ---
 

@@ -1,6 +1,6 @@
---- 
-title:      Photo.fr n'est pas en form 
-lang:       fr 
+---
+title:      Photo.fr n'est pas en form
+lang:       fr
 tags:       [fail, HTML, formulaire, Web]
 ---
 

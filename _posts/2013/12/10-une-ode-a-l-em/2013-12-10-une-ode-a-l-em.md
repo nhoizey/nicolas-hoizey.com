@@ -9,7 +9,7 @@ Après avoir eu des retours plutôt nombreux et positifs suite à [ma conférenc
 <figure>
   {% picture 24-jours-de-web-debut.png %}
   <figcaption>
-    Un joli design pour ces 24 Jours de Web cuvée 2013
+  Un joli design pour ces 24 Jours de Web cuvée 2013
   </figcaption>
 </figure>
 

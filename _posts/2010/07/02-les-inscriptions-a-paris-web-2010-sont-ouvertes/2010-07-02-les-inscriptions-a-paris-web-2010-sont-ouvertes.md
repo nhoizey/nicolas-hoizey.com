@@ -1,6 +1,6 @@
---- 
-title:      Les inscriptions à Paris Web 2010 sont ouvertes ! 
-lang:       fr 
+---
+title:      Les inscriptions à Paris Web 2010 sont ouvertes !
+lang:       fr
 tags:       [Paris Web, conférence, Web]
 ---
 

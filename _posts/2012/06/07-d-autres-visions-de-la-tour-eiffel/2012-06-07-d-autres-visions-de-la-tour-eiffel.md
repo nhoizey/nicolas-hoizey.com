@@ -15,13 +15,13 @@ Voilà bien un sujet photographique qui a déjà largement été traité par tou
 <figure>
   {% picture vertige.jpg %}
   <figcaption>
-    Vertige
+  Vertige
   </figcaption>
 </figure>
 
 <figure>
   {% picture aie_ca_pique.jpg %}
   <figcaption>
-    Aïe, ça pique !
+  Aïe, ça pique !
   </figcaption>
 </figure>

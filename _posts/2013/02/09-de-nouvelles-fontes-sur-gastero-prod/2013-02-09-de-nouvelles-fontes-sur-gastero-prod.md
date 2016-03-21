@@ -54,7 +54,7 @@ Histoire de faire un peu original et éviter les classiques, j'ai cherché un pe
 <figure>
   {% picture hoefler-text.jpg %}
   <figcaption>
-    Un aperçu de la fonte Hoefler Text
+  Un aperçu de la fonte Hoefler Text
   </figcaption>
 </figure>
 
@@ -65,7 +65,7 @@ C'est en parcourant la [liste des fontes ajoutées à iOS 6](http://iosfonts.com
 <figure>
   {% picture fonte-avenir.jpg %}
   <figcaption>
-    Un aperçu de la fonte Avenir
+  Un aperçu de la fonte Avenir
   </figcaption>
 </figure>
 
@@ -81,19 +81,19 @@ Du coup, avec ces deux fontes de base qui sont essentiellement présentes sur Ma
 
 Pour la titraille :
 
-~~~ css
+``` css
 h1, h2, h3, h4, h5, h6 {
   font-family: "AvenirNextCondensed-Medium", "Avenir Next Condensed Medium", "Gill Sans MT Condensed", "Arial Narrow", "DejaVu Sans Condensed", Calibri, sans-serif;
 }
-~~~
+```
 
 Pour le corps de texte :
 
-~~~ css
+``` css
 body {
   font-family: "Hoefler Text", Constantia, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
 }
-~~~
+```
 
 Voilà ce que ça donne sur Mac :
 
@@ -116,8 +116,7 @@ Voilà ce que ça donne sur Windows 7 avec Chrome :
 <figure>
   {% picture gastero-prod-win7-chrome.png %}
   <figcaption>
-    Gastero Prod. sur Windows 7 avec Chrome
-
+  Gastero Prod. sur Windows 7 avec Chrome
   </figcaption>
 </figure>
 

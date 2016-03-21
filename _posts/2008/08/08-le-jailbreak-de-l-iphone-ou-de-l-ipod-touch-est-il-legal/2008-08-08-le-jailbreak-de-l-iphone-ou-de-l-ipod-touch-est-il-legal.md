@@ -1,6 +1,6 @@
---- 
-title:      Le Jailbreak de l'iPhone ou de l'iPod Touch est-il légal ? 
-lang:       fr 
+---
+title:      Le Jailbreak de l'iPhone ou de l'iPod Touch est-il légal ?
+lang:       fr
 tags:       [Apple, iPhone, iPod Touch, droit]
 ---
 
@@ -12,7 +12,7 @@ Comme vous avez pu vous en apercevoir quand j'ai parlé récemment de la [copie 
 <figure>
   {% picture PwnageTool.png %}
   <figcaption>
-    PwnageTool
+  PwnageTool
   </figcaption>
 </figure>
 

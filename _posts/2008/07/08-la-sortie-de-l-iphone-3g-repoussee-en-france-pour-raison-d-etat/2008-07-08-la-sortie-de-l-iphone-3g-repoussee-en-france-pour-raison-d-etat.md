@@ -1,6 +1,6 @@
---- 
-title:      La sortie de l'iPhone 3G repoussée en France pour raison d'État 
-lang:       fr 
+---
+title:      La sortie de l'iPhone 3G repoussée en France pour raison d'État
+lang:       fr
 tags:       [musique, Apple, iPhone]
 ---
 
@@ -12,7 +12,7 @@ Cela ne vous a sans doute pas échappé, Apple sort enfin un iPhone digne de ce 
 <figure>
   {% picture Apple_-_iPhone_3G_-_Pays-Bas.jpg %}
   <figcaption>
-    L'iPhone 3G aux Pays-Bas et presque partout ailleurs le 11 juillet
+  L'iPhone 3G aux Pays-Bas et presque partout ailleurs le 11 juillet
   </figcaption>
 </figure>
 
@@ -20,7 +20,7 @@ Cela ne vous a sans doute pas échappé, Apple sort enfin un iPhone digne de ce 
 <figure>
   {% picture Apple_-_iPhone_3G.jpg %}
   <figcaption>
-    L'iPhone 3G en France le 17 juillet
+  L'iPhone 3G en France le 17 juillet
   </figcaption>
 </figure>
 
@@ -30,7 +30,7 @@ Eh oui, c'est le 11 juillet que sort « Comme si de rien n'était »,[^1] le 3è
 <figure>
   {% picture Carla_Bruni_-_Comme_si_de_rien_n_etait.jpg %}
   <figcaption>
-    « Comme si de rien n'était », 3ème album de Carla Bruni
+  « Comme si de rien n'était », 3ème album de Carla Bruni
   </figcaption>
 </figure>
 

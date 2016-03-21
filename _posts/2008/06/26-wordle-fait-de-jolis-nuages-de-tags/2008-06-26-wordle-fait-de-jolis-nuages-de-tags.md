@@ -1,6 +1,6 @@
---- 
-title:      Wordle fait de jolis nuages de tags 
-lang:       fr 
+---
+title:      Wordle fait de jolis nuages de tags
+lang:       fr
 tags:       [tag, design]
 ---
 
@@ -13,7 +13,7 @@ Voyez par exemple celui produit par extraction automatique de [mes tags del.icio
 <figure>
   {% picture wordle-delicious.png %}
   <figcaption>
-    Nuage de tags extrait de del.icio.us
+  Nuage de tags extrait de del.icio.us
   </figcaption>
 </figure>
 
@@ -23,7 +23,7 @@ Et cet autre produit avec les tags de Gastero Prod[^2] :
 <figure>
   {% picture wordle-gasteroprod.png %}
   <figcaption>
-    Nuage de tags extrait de Gastero Prod
+  Nuage de tags extrait de Gastero Prod
   </figcaption>
 </figure>
 
@@ -35,7 +35,7 @@ Ce qui n'est bien entendu pas le cas du [nuage de tags de Gastero Prod](http://w
 <figure>
   {% picture nuage-de-tags-gastero-prod.png %}
   <figcaption>
-    Nuage de tags de Gastero Prod
+  Nuage de tags de Gastero Prod
   </figcaption>
 </figure>
 

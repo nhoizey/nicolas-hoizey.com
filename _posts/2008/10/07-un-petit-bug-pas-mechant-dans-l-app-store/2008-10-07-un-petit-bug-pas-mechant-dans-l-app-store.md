@@ -1,6 +1,6 @@
---- 
-title:      Un petit bug pas méchant dans l'App Store 
-lang:       fr 
+---
+title:      Un petit bug pas méchant dans l'App Store
+lang:       fr
 tags:       [fail, Apple, iPhone]
 ---
 

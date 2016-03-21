@@ -1,6 +1,6 @@
---- 
-title:      Textorizer met les mots en images et inversement 
-lang:       fr 
+---
+title:      Textorizer met les mots en images et inversement
+lang:       fr
 tags:       [fun, image]
 ---
 

@@ -1,6 +1,6 @@
---- 
-title:      Quelques petits ajustements... 
-lang:       fr 
+---
+title:      Quelques petits ajustements...
+lang:       fr
 tags:       [Gastero Prod., fonte]
 ---
 
@@ -30,7 +30,7 @@ Voilà comment c'était avant :
 <figure>
   {% picture gp-photo-accueil-avant.png %}
   <figcaption>
-    Avant
+  Avant
   </figcaption>
 </figure>
 
@@ -39,7 +39,7 @@ Et voilà comment c'est maintenant :
 <figure>
   {% picture gp-photo-accueil-apres.png %}
   <figcaption>
-    Après
+  Après
   </figcaption>
 </figure>
 

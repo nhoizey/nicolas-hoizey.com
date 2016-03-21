@@ -1,6 +1,6 @@
---- 
-title:      Bruxelles 
-lang:       fr 
+---
+title:      Bruxelles
+lang:       fr
 tags:       [photo]
 ---
 
@@ -9,7 +9,7 @@ Une photo prise sur la Grand-Place de Bruxelles.
 <figure>
   {% picture bruxelles.jpg %}
   <figcaption>
-    Bruxelles
+  Bruxelles
   </figcaption>
 </figure>
 

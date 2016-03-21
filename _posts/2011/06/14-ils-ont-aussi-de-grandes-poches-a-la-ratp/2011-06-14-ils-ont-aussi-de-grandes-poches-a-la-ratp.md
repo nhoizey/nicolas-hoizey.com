@@ -1,6 +1,6 @@
---- 
-title:      Ils ont (aussi) de grandes poches à la RATP 
-lang:       fr 
+---
+title:      Ils ont (aussi) de grandes poches à la RATP
+lang:       fr
 tags:       [fail, RATP, iPad]
 ---
 
@@ -16,7 +16,7 @@ L'[application RATP Pure pour iPad](http://itunes.apple.com/fr/app/ratp-pure-lap
 <figure>
   {% picture ipad-ratp-pure.png %}
   <figcaption>
-    Présentation de l'iApp « RATP Pure »
+  Présentation de l'iApp « RATP Pure »
   </figcaption>
 </figure>
 

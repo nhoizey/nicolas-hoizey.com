@@ -1,6 +1,6 @@
---- 
-title:      Backup d'un Mac sur un NAS facile et sans bidouille, c'est possible ? 
-lang:       fr 
+---
+title:      Backup d'un Mac sur un NAS facile et sans bidouille, c'est possible ?
+lang:       fr
 tags:       [Apple, Mac, NAS, sauvegarde]
 ---
 
@@ -15,7 +15,7 @@ Quand Apple a sorti Time Machine avec Leopard, tout le monde y a vu l'arrivée d
 <figure>
   {% picture Apple_Time_Machine.png %}
   <figcaption>
-    Recherche d'une sauvegarde dans Time Machine
+  Recherche d'une sauvegarde dans Time Machine
   </figcaption>
 </figure>
 

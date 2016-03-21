@@ -1,6 +1,6 @@
---- 
-title:      Il ne faut pas confondre quantité et qualité 
-lang:       fr 
+---
+title:      Il ne faut pas confondre quantité et qualité
+lang:       fr
 tags:       [Internet, Web 2.0, qualité]
 ---
 
@@ -14,7 +14,7 @@ Par exemple, quand [Ouriel Ohayon enterre le service de généalogie Geni](http:
 <figure>
   {% picture Google_Trends_-_like_joost_technorati_geni_et_secondlife.png %}
   <figcaption>
-    Like vs. Joost vs. Technorati vs. Geni vs. SecondLife
+  Like vs. Joost vs. Technorati vs. Geni vs. SecondLife
   </figcaption>
 </figure>
 
@@ -26,7 +26,7 @@ La preuve avec le [graphe Google Trends de Geni.com](http://trends.google.com/we
 <figure>
   {% picture Google_Trends_-_geni.png %}
   <figcaption>
-    Geni
+  Geni
   </figcaption>
 </figure>
 
@@ -40,7 +40,7 @@ Bon, pour revenir au sujet de ce billet, en imaginant qu'Ouriel ait raison et qu
 <figure>
   {% picture Google_Trends_-_techcrunch_et_facebook.png %}
   <figcaption>
-    Techcrunch vs Facebook
+  Techcrunch vs Facebook
   </figcaption>
 </figure>
 

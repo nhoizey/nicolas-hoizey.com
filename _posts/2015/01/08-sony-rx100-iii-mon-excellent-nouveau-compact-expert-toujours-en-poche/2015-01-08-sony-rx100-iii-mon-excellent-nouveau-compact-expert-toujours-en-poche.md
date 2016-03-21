@@ -13,7 +13,7 @@ Dès que j'ai lu l'annonce de sortie du Sony RX100 III[^1] et les premiers avis 
 <figure>
   {% picture sony-rx100-3.jpg %}
   <figcaption>
-    Le compact expert Sony RX100 III : le flash minuscule est presque anecdotique mais sert à déboucher un peu, notamment en cas de contre-jour, alors que le viseur est lui vraiment indispensable en cas de forte luminosité. Et tout ça tient dans une poche de jean !
+  Le compact expert Sony RX100 III : le flash minuscule est presque anecdotique mais sert à déboucher un peu, notamment en cas de contre-jour, alors que le viseur est lui vraiment indispensable en cas de forte luminosité. Et tout ça tient dans une poche de jean !
   </figcaption>
 </figure>
 
@@ -24,9 +24,9 @@ Après quelques mois d'utilisation, présent en permanence dans mon sac ou ma po
 > - que la qualité soit notable bien entendu,
 > - qu’il y ai un viseur pour permettre la prise de vue en toutes circonstances, ayant été très frustré sur ce point par mon test du GM1,
 > - mais aussi que ma nouvelle acquisition puisse tenir dans une poche. Et je parle d’une poche de jean, pas d’une grande poche de veste. L’idée étant de pouvoir l’avoir sur moi en permanence, même l’été.
-> 
+>
 > Je ne connais toujours pas d’autre appareil répondant à ces critères.
-> 
+>
 > Dans les autres points forts, on peut effectivement citer le grand angle à 24mm, trop rare, la bague qui permet les mises au point très précises (surtout en macro) avec son zoom et le focus peaking, et l’écran orientable pour les prises de vues en plongée ou contre plongée.
 
 Et surtout :

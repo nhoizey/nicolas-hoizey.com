@@ -1,6 +1,6 @@
---- 
-title:      Nouvelle tempête sur les flux RSS, réduisons les intermédiaires ! 
-lang:       fr 
+---
+title:      Nouvelle tempête sur les flux RSS, réduisons les intermédiaires !
+lang:       fr
 tags:       [Gastero Prod., Google, RSS, Yahoo, FeedBurner]
 ---
 

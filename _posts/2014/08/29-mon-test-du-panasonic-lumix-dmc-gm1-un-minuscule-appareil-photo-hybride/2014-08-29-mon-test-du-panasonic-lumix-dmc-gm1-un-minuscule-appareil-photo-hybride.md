@@ -11,7 +11,7 @@ Depuis, je n'avais presque plus suivi l'actualité de l'Olympus, mais les nombre
 <figure>
   {% picture comparaison-canon-eos-5d-mark-ii-panasonic-lumix-gm1.png %}
   <figcaption>
-    Comparaison des tailles du Canon EOS 5D Mark II et du Panasonic Lumix GM1
+  Comparaison des tailles du Canon EOS 5D Mark II et du Panasonic Lumix GM1
   </figcaption>
 </figure>
 

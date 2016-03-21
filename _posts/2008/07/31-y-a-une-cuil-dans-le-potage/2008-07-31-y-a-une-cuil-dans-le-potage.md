@@ -1,6 +1,6 @@
---- 
-title:      Y a une cuil dans le potage 
-lang:       fr 
+---
+title:      Y a une cuil dans le potage
+lang:       fr
 tags:       [fail, Google, recherche]
 ---
 
@@ -12,7 +12,7 @@ Alors oui, ils ont réussi à faire encore plus sobre que Google, en reprenant l
 <figure>
   {% picture Cuil_-_accueil.png %}
   <figcaption>
-    Page d'accueil de Cuil
+  Page d'accueil de Cuil
   </figcaption>
 </figure>
 
@@ -26,7 +26,7 @@ Bon, une recherche sur Clever Age donne des résultats à peu près potables, il
 <figure>
   {% picture Cuil_-_recherche_clever_age.png %}
   <figcaption>
-    Recherche de « clever age »
+  Recherche de « clever age »
   </figcaption>
 </figure>
 
@@ -40,8 +40,7 @@ Ils ont par contre des progrès à faire sur le choix de leurs catégories d'exp
 <figure>
   {% picture Cuil_-_Cuill.png %}
   <figcaption>
-    Cuil s'appelait Cuill
-. Premier résultat de la recherche sur « cuill » dans « cuil »
+  Cuil s'appelait Cuill. Premier résultat de la recherche sur « cuill » dans « cuil »
   </figcaption>
 </figure>
 
@@ -51,7 +50,7 @@ Mais pourquoi donc ont-ils des problèmes avec nos pauvres accents français enc
 <figure>
   {% picture Cuil_-_utf8.png %}
   <figcaption>
-    Cuil n'aime pas les accents ou l'UTF-8
+  Cuil n'aime pas les accents ou l'UTF-8
   </figcaption>
 </figure>
 

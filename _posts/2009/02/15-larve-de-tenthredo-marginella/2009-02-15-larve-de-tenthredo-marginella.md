@@ -1,6 +1,6 @@
---- 
-title:      Larve de Tenthredo Marginella 
-lang:       fr 
+---
+title:      Larve de Tenthredo Marginella
+lang:       fr
 tags:       [photo, macro]
 ---
 
@@ -9,7 +9,7 @@ Contrairement à ce que j'avais initialement indiqué[^1], ce n'est pas une chen
 <figure>
   {% picture larve_de_tenthredo_marginella.jpg %}
   <figcaption>
-    Larve de Tenthredo Marginella
+  Larve de Tenthredo Marginella
   </figcaption>
 </figure>
 
