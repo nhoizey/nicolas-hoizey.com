@@ -4,16 +4,18 @@ layout: default
 
 <article class="main">
   <header>
-    <dl>
-      <dt>Date</dt>
-      <dd class="date">
+    <ul>
+      <li class="date">
+        {% asset icon-date.svg %}
         {{ page.date | date: "%-d" }}
         <span id="month" itemscope itemtype="http://data-vocabulary.org/Breadcrumb" itemprop="child" itemref="post"><a href="/{{ page.date | date: "%Y/%m" }}/" itemprop="url">{% include mois.html page=page %}</a><meta itemprop="title" content="{{ page.date | date: "%m" }}" /></span>
         <span id="year" itemscope itemtype="http://data-vocabulary.org/Breadcrumb" itemprop="child" itemref="month"><a href="/{{ page.date | date: "%Y" }}/" itemprop="url"><span itemprop="title">{{ page.date | date: "%Y" }}</span></a></span>
-      </dd>
-      <dt>Tags</dt>
-      <dd class="tags">{{ page | tags }}</dd>
-    </dl>
+      </li>
+      <li class="tags">
+        {% asset icon-tags.svg %}
+        {{ page | tags }}
+      </li>
+    </ul>
   </header>
 
   <h1 id="post" itemscope itemtype="http://data-vocabulary.org/Breadcrumb" itemprop="child">

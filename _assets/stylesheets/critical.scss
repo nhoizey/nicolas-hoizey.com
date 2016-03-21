@@ -212,7 +212,8 @@ a, button, input, select, textarea, label, summary {
   }
 
   svg {
-    height: 2em;
+    width: 1.5em;
+    height: 1.5em;
     fill: currentColor;
     vertical-align: middle;
   }
@@ -273,24 +274,43 @@ article {
   header {
     color: $color-article-header;
 
-    dl {
+    ul {
+      list-style-type: none;
       margin: 1vh 0;
+      padding: 0;
       display: flex;
+
       flex-direction: column;
+      @media (min-width: 30em) {
+        flex-direction: row;
+      }
+
       justify-content: space-between;
     }
 
-    dt {
-      display: none;
-    }
+    svg {
+      width: 1.1em;
+      height: 1.1em;
+      @media (min-width: 30em) {
+        width: 1.3em;
+        height: 1.3em;
+      }
 
-    dd {
-      margin: 0;
+      fill: lighten($color-article-header, 20%);
+      vertical-align: middle;
+      margin-right: .5em;
     }
 
     .date {
       white-space: nowrap;
       flex-shrink: 0;
+    }
+
+    .tags {
+      text-align: left;
+      @media (min-width: 30em) {
+        text-align: right;
+      }
     }
 
     a {
@@ -307,16 +327,6 @@ article {
       &:hover {
         color: $color-article-header-hover;
         text-decoration: underline;
-      }
-    }
-
-    @media (min-width: 30em) {
-      dl {
-        flex-direction: row;
-      }
-
-      .tags {
-        text-align: right;
       }
     }
   }
