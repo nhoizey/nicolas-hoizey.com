@@ -6,9 +6,9 @@ tags:       [photo, matériel]
 
 Ayant du mal à trimbaler mon MacBook 13" dans mon sac [Lowepro Flipside 400 AW](/2008/12/quel-sac-photo-pour-un-reflex-et-ses-accessoires.html), je me dis de plus en plus qu'un NetBook ferait plus l'affaire comme videur de cartes amélioré quand je suis en vadrouille. Mais quel modèle choisir ?
 
-Je ne suis pas le seul à m'intéresser au sujet, comme le montre [cette vidéo](http://vimeo.com/7731894) de [Benjamin Brolet](http://www.photob.be/) découverte sur [Blogeee](http://www.blogeee.net/2009/12/un-netbook-au-service-dun-photographe-une-video-a-voir-absolument-si-vous-etes-amateur-de-photo/) :
+Je ne suis pas le seul à m'intéresser au sujet, comme le montre cette vidéo de [Benjamin Brolet](http://www.photob.be/) découverte sur [Blogeee](http://www.blogeee.net/2009/12/un-netbook-au-service-dun-photographe-une-video-a-voir-absolument-si-vous-etes-amateur-de-photo/) :
 
-<html><object width="400" height="267"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=7731894&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=7731894&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="400" height="267"></embed></object><p><a href="http://vimeo.com/7731894">Photob.be - Test du netbook Samsung N510</a> from <a href="http://vimeo.com/photob">benjamin brolet</a> on <a href="http://vimeo.com">Vimeo</a>.</p></html>
+{% vimeo 7731894 %}
 
 J'envisage donc de plus en plus cet achat pour très prochainement -- déçu qu'Apple sorte un iPad plutôt qu'un [MacBook Helium](/2008/09/a-quand-un-macbook-helium-pour-concurrencer-les-asus-eee-pc-msi-wind-et-autres-medion-akoya.html) -- et je m'intéresse pour l'instant à cette alternative :
 

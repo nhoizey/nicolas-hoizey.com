@@ -14,6 +14,6 @@ Ils se présentent ainsi :
 
 J'ai profité de ce concert pour tester un peu la vidéo en basse luminosité de mon 5D Mark II, et même si on sent bien que je débute, le résultat est sympathique :
 
-<object width="580" height="326"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=5515242&server=vimeo.com&show_title=1&show_byline=1&show_portrait=0&color=00ADEF&fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=5515242&server=vimeo.com&show_title=1&show_byline=1&show_portrait=0&color=00ADEF&fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="580" height="326"></embed></object><p><a href="http://vimeo.com/5515242">Deux Gars « Faut pas s'en faire » (Live au Com'Antes)</a> from <a href="http://vimeo.com/nhoizey">nhoizey</a> on <a href="http://vimeo.com">Vimeo</a>.
+{% vimeo 5515242 %}
 
 N'hésitez pas à passer en plein écran, c'est du Full HD ! ;-)

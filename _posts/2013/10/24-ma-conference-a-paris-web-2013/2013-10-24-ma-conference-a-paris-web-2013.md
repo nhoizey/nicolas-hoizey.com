@@ -58,7 +58,7 @@ J'ai la chance de travailler avec ces trois là, et d'autres tout aussi talentue
 
 La vidéo de ma prestation a été publiée par Paris Web sur son compte Vimeo :
 
-<iframe src="//player.vimeo.com/video/79204119?title=0&amp;byline=0&amp;portrait=0" width="672" height="378" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="max-width: 100%"></iframe> <p><a href="http://vimeo.com/79204119">Un petit pas pour l'em, un grand pas pour le Web, par Nicolas Hoizey</a></p>
+{% vimeo 79204119 %}
 
 Voici [la version de mes slides hébergée sur SlideShare](https://fr.slideshare.net/nhoizey/paris-web-2013-un-petit-pas-pour-lem-un-grand-pas-pour-le-web), donc sans les animations qui ne sont visibles qu'en vidéo :
 

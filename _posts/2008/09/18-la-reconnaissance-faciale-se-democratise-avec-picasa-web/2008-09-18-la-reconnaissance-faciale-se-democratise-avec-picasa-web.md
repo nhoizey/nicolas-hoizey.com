@@ -21,7 +21,7 @@ A noter que cette fonctionnalité n'est pas présente dans le client lourd Picas
 
 Si vous êtes sur Mac et donc plutôt utilisateur de iPhoto[^3] et que vous voulez faire la même chose hors ligne, il n'y a pas de solution à ma connaissance, mais [iLovePhotos](http://www.ilovephotos.com/) propose des fonctionnalités de reconnaissance de visages qui facilitent l'ajout de tags pertinents.
 
-<html><object width="400" height="251">	<param name="allowfullscreen" value="true" />	<param name="allowscriptaccess" value="always" />	<param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=1690486&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" />	<embed src="http://vimeo.com/moogaloop.swf?clip_id=1690486&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="400" height="251"></embed></object></html>
+{% vimeo 1690486 %}
 
 A quand une reconnaissance faciale complète et simple dans Adobe Photoshop Lightroom ? ;-)
 
