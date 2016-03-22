@@ -193,6 +193,14 @@ article {
       border-color: $color-blue;
       color: #fff;
     }
+
+    &.next, &.prev {
+      font-weight: bold;
+
+      &.disabled {
+        font-weight: normal;
+      }
+    }
   }
 }
 

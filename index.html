@@ -55,12 +55,12 @@ title: Accueil
       {% comment %} Left arrow for previous page {% endcomment %}
       {% if paginator.previous_page %}
         {% if paginator.previous_page == 1 %}
-          <li class="prev"><a href="/">&#9664;</a></li>
+          <li class="prev"><a href="/">&lt;</a></li>
         {% else %}
-          <li class="prev"><a href="/page-{{paginator.previous_page}}/">&#9664;</a></li>
+          <li class="prev"><a href="/page-{{paginator.previous_page}}/">&lt;</a></li>
         {% endif %}
       {% else %}
-        <li class="prev disabled">&#9665;</li>
+        <li class="prev disabled">&lt;</li>
       {% endif %}
 
       {% comment %} First page {% endcomment %}
@@ -124,9 +124,9 @@ title: Accueil
         Right arrow for next page
       {% endcomment %}
       {% if paginator.next_page %}
-        <li class="next"><a href="/page-{{paginator.next_page}}/">&#9654;</a></li>
+        <li class="next"><a href="/page-{{paginator.next_page}}/">&gt;</a></li>
       {% else %}
-        <li class="next disabled">&#9655;</li>
+        <li class="next disabled">&gt;</li>
       {% endif %}
     </ul>
   {% endif %}
