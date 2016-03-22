@@ -1,12 +1,12 @@
 ---
 title:      A Blind Legend
-lang:			fr
+lang:      fr
 tags:       [jeu, financement participatif, accessibilité]
 ---
 
 J’ai soutenu [le projet « A Blind Legend » sur Ulule](http://fr.ulule.com/a-blind-legend/) dès que je l’ai découvert ! C’est un projet de jeu d’aventure pour mobile qui a la particularité de n’utiliser que des sons, aucune interface visuelle.
 
-## Un jeu vidéo immersif dans le noir, c'est possible !
+# Un jeu vidéo immersif dans le noir, c'est possible !
 
 {% picture artwork-hd.jpg %}
 

@@ -14,7 +14,7 @@ Ma [participation depuis quelques mois à la belle aventure Phototrend](http://p
 
 Ce sac était très prometteur sur le papier, mais est vraiment décevant au final au niveau du confort de portage. Je vous laisse lire [le test complet](http://phototrend.fr/2015/07/test-sac-photo-case-logic-kontrast-pro/). J'espère que Case Logic prendra en compte mes remarques et sortira une nouvelle version améliorée, je pourrais faire partie de leurs clients potentiels.
 
-## Petit état des lieux…
+# Petit état des lieux…
 
 J'ai déjà 4 sacs photos à titre personnel, mais je n'en utilise vraiment que 2 :
 
@@ -25,7 +25,7 @@ Mon soucis principal aujourd'hui concerne les moments où je souhaiterais transp
 
 La [quête du meilleur sac photo](/2008/12/quel-sac-photo-pour-un-reflex-et-ses-accessoires.html) est donc permanente, et je n'ai toujours pas trouvé la perle rare…
 
-## Mais alors, vers quel sac me tourner ?
+# Mais alors, vers quel sac me tourner ?
 
 J'ai quelques modèles qui me font de l'œil, il faudra que je les regarde de plus près pour voir dans quelle mesure ils peuvent répondre à mes attentes :
 

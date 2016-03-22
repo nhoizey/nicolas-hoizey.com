@@ -13,11 +13,11 @@ Par exemple, cet extrait m'a particulièrement fait tiquer :
 
 Comme je l'ai [déjà dit via Twitter](https://twitter.com/nhoizey/status/294761706771582976), et puisque j'ai été invité à détailler mon point de vue :
 
-## Et alors ?!?!
+# Et alors ?!?!
 
 Le *viewport* du navigateur intégré à cette PlayStation 4 sera sans doute bien inférieur aux dimensions natives supportées, et les supports mis en place pour les écrans *Retina* actuels suffiront dans 99.99% des cas. Détecter les pixels sur un écran Retina nécessite déjà une bonne vue, voir ceux d'écrans 4K relèvera du miracle ou de la bionique. Ces résolutions seront sans doute réservées aux écrans de grande taille que l'on regarde à bonne distance.
 
-## Il faut arrêter le *FUD*. Arrêter de se faire peur.
+# Il faut arrêter le *FUD*. Arrêter de se faire peur.
 
 Les techniques actuelles sont certes perfectibles, mais le W3C y travaille — notamment au sein du [Responsive Images Community Group](http://www.w3.org/community/respimg/) — et il y a déjà largement de quoi faire aujourd'hui des sites qui se comporteront bien sur les écrans prévus pour se démocratiser dans 3 à 5 ans.
 

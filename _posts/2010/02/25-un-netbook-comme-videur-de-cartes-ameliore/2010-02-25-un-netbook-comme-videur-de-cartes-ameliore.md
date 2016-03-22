@@ -18,7 +18,7 @@ J'envisage donc de plus en plus cet achat pour très prochainement -- déçu qu'
 
 A vrai dire, le budget est loin d'être le critère principal, vous devez vous en doutez vu l'étendu du pannel ci-dessus. Je cherche vraiment quelle est la solution idéale pour un usage très ciblé de videur de cartes photo amélioré.
 
-## Mise à jour
+# Mise à jour
 
 Certains comme [@nsilberman](http://twitter.com/nsilberman/statuses/9618017745) et [@n1k0](http://twitter.com/n1k0/statuses/9618326420) m'ont suggéré de prendre plutôt un « vrai » videur de cartes comme l'[HyperDrive Album](http://www.hypershop.com/HyperDrive-Memory-Card-Backup-Device-s/119.htm), mais cela me pose plusieurs soucis :
 

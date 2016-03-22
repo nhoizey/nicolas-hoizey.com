@@ -8,7 +8,7 @@ On parle depuis quelque temps de « JavaScript isomorphe » pour décrire des 
 
 [^deja]: Déjà vieux ?!
 
-## Architecture isomorphe…
+# Architecture isomorphe…
 
 Ma compréhension de l'isomorphe est donc de promouvoir un fonctionnement identique d'un site Web, que la page soit générée par le serveur ou par le client, y compris au cours de la navigation, des interactions.
 
@@ -24,7 +24,7 @@ Autant dire que c'est nécessaire.
 
 Mais cela ne nécessite pas du tout JavaScript côté serveur, il est tout à fait possible de développer dans n'importe quel langage serveur et faire tout de même de l'isomorphe.
 
-## …et JavaScript universel
+# …et JavaScript universel
 
 Il est cependant assez évident que pouvoir partager du code entre les deux implémentations, client et serveur, qui doivent permettre les mêmes fonctionnalités, est séduisant.
 

@@ -1,6 +1,6 @@
---- 
-title:      Utiliser SPIP 3 chez AlwaysData 
-lang:       fr 
+---
+title:      Utiliser SPIP 3 chez AlwaysData
+lang:       fr
 tags:       [SPIP, AlwaysData]
 ---
 
@@ -10,7 +10,7 @@ Je suis passé il y a déjà quelque temps chez [AlwaysData](https://www.alwaysd
   {% picture alwaysdata-l2a3b.png %}
 </figure>
 
-## Faire fonctionner les sauvegardes SQLite
+# Faire fonctionner les sauvegardes SQLite
 
 Il faut ajouter le support de SQLite et le driver PDO associé, ce qui est simple en utilisant les [extensions PHP déjà installées](http://wiki.alwaysdata.com/wiki/Activer_une_extension_PHP_pr%C3%A9-install%C3%A9e).
 

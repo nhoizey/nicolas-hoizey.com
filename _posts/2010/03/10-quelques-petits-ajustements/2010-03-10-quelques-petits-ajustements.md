@@ -6,11 +6,11 @@ tags:       [Gastero Prod., fonte]
 
 Vous l'avez peut-être remarqué vous même si vous faites partie des rares à venir de temps en temps sur le site, mais certainement pas si vous me lisez via le flux RSS, j'ai fait quelques ajustements, notamment sur la page d'accueil.
 
-## Un peu de typographie
+# Un peu de typographie
 
 Pour commencer, j'ai augmenté la taille de base de la police de caractères, et j'ai mis en place la solution [Typekit](http://typekit.com/colophons/utv7ffj) pour que les navigateurs qui le permettent bénéficient d'une plus belle typographie, basée sur « Museo » pour les titres, et « Museo Sans » pour les contenus, deux polices fournies gratuitement par Jos Buivenga via son [exljbris Font Foundry](http://www.josbuivenga.demon.nl/).
 
-## Un peu de fidélisation
+# Un peu de fidélisation
 
 Ensuite, j'ai décidé de mettre plus en avant et de compléter les différents moyens que vous avez pour suivre l'activité de ce site.
 
@@ -21,7 +21,7 @@ J'ai donc ajouté un bloc « Gardez le contact ! » au début de la colonne de d
 </figure>
 
 
-## Et pour finir un peu plus de photographie !
+# Et pour finir un peu plus de photographie !
 
 J'ai aussi cherché à donner plus d'ampleur aux quelques photos que je publie, en augmentant leur largeur, sans remettre en cause la structure de base des trois colonnes. J'ai donc fait glissé la photo sous le petit calendrier, en espérant ne pas avoir un jour une photo où ce calendrier recouvrirait l'élément d'intérêt principal…
 

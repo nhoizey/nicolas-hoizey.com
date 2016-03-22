@@ -8,7 +8,7 @@ tags:       [Clever Age, Internet Explorer, navigateur, Web]
 
 On ne va pas ergoter sans fin, tout le monde doit maintenant savoir que [Internet Explorer](http://fr.wikipedia.org/wiki/Internet_Explorer) 6 — IE6 pour les intimes — est un navigateur obsolète et dangereux. Et pourtant, certains continuent à l'utiliser. Faut-il les en dissuader, refuser de leur fournir son support, aller même jusqu'à leur empêcher l'accès, ou faut-il continuer à supporter (les faiblesses de) ce navigateur ?
 
-## Petit aperçu du marché
+# Petit aperçu du marché
 
 On le sait, les parts de marché de IE6 — et même de IE toutes versions confondues — diminuent largement, notamment grâce à Mozilla Firefox depuis quelques années, et Google Chrome plus récemment.
 
@@ -44,7 +44,7 @@ L'autre aspect qui peut nous échapper si l'on ne regarde que les chiffres mondi
 
 Il faudra encore sans doute beaucoup de temps avant que IE6 soit complètement éradiqué du Web[^3].
 
-## IE6 est vieux et largement dépassé
+# IE6 est vieux et largement dépassé
 
 [IE6](http://en.wikipedia.org/wiki/Internet_Explorer_6) est sorti en août 2001, soit la préhistoire en chronologie Web, et a déjà vu deux versions majeures lui succéder, [IE7](http://fr.wikipedia.org/wiki/Internet_Explorer_7) en octobre 2006 et [IE8](http://fr.wikipedia.org/wiki/Internet_Explorer_8) en mars 2009.
 
@@ -52,13 +52,13 @@ Dans le même temps, les standards de développement Web ont largement évolué,
 
 Il n'est ainsi pas possible de profiter nativement et sans sueurs froides dans IE6 des CSS 2.1, de la transparence des PNG, et de tant d'autres [standards actuels de développement Web bien supportés par les navigateurs modernes](http://caniuse.com/), qui ne sont d'ailleurs pas non plus supportés par IE7 et IE8[^4].
 
-## IE6 n'est pas assez sécurisé pour le Web actuel
+# IE6 n'est pas assez sécurisé pour le Web actuel
 
 Il n'y a pas beaucoup de vraies [failles de sécurité dans IE6](http://secunia.com/advisories/product/11/?task=statistics), Microsoft continuant tant bien que mal à proposer des patchs lorsque des failles critiques sont identifiées, mais IE6 ne propose aucun moyen de protection contre les attaques plus subtiles apparues ces dernières années, dont le *phishing*.
 
 Microsoft essaie d'ailleurs de [sensibiliser ses utilisateurs sur ce sujet](http://arstechnica.com/microsoft/news/2009/12/microsoft-highlights-security-to-push-ie6-users-to-ie8.ars) pour les faire migrer vers IE8.
 
-## Mais pourquoi donc certains s'évertuent-ils à conserver IE6 ?
+# Mais pourquoi donc certains s'évertuent-ils à conserver IE6 ?
 
 Forts de ces constats, on peut légitimement se demander pourquoi tout le monde n'a pas naturellement jeté depuis longtemps IE6, au profit d'une version plus récente ou d'un navigateur résolument plus moderne[^5], tel que Mozilla Firefox, Google Chrome, Apple Safari ou Opera.
 
@@ -82,7 +82,7 @@ Certains continuent donc à assurer le support de IE6 dans leurs créations, de 
 
 Les intégrateurs continuent donc à développer en supportant IE6, afin de satisfaire leurs clients et ne pas les perdre.
 
-## IE6 must die!
+# IE6 must die!
 
 Malheureusement, c'est un cercle vicieux, certains ont toujours des IE6, donc nous faisons des développements qui leurs sont destinés, donc ils ne s'aperçoivent pas que leur navigateur aurait tout intérêt à être jeté.
 
@@ -92,13 +92,13 @@ Les intégrateurs Web en ont clairement assez de s'embêter régulièrement avec
 
 Même Microsoft est très embêté par cette persistance de IE6 sur le marché, qui lui impose de continuer à développer des patchs au moins pour les failles de sécurité, au point d'avoir [salué avec humour](http://blog.seattlepi.com/microsoft/archives/196608.asp) ses [obsèques](http://ie6funeral.com/) organisées récemment.
 
-## Le support de IE6 est abandonné par des figures de proue du Web
+# Le support de IE6 est abandonné par des figures de proue du Web
 
 Heureusement, certains ont le courage de prendre la décision de mettre fin au support de IE6, qu'il s'agisse de relativement petits comme [Digg](http://about.digg.com/blog/much-ado-about-ie6) ou [37signals](http://37signals.blogs.com/products/2008/07/basecamp-phasin.html), mais aussi d'immenses comme Facebook[^10] ou [Amazon](http://forabeautifulweb.com/blog/about/internet_explorer_6_no_longer_supported_by_amazon/), et bien sûr l'un des plus emblématiques, [Google ayant fait cette annonce en début d'année pour Google Apps](http://googleenterprise.blogspot.com/2010/01/modern-browsers-for-modern-applications.html), mais ayant déjà pris cette direction auparavant notamment pour [YouTube](http://www.google.com/support/youtube/bin/answer.py?hl=en&answer=175292).
 
 Mais cela n'a sans doute qu'un impact restreint sur les entreprises, dans la mesure où cela touche plus souvent les usages personnels.
 
-## IE6 peut-il rester utilisable sans qu'aucun travail spécifique soit fait pour lui ?
+# IE6 peut-il rester utilisable sans qu'aucun travail spécifique soit fait pour lui ?
 
 Si l'on accepte — à contre cœur — que certains ne puissent pas faire autrement que de rendre leurs sites et applications utilisables dans IE6, et de travailler pour eux, il est nécessaire de bien comprendre quelles sont les implications.
 

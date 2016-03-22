@@ -13,7 +13,7 @@ tags:       [photo, Canon, Olympus, Panasonic, matériel]
   </figcaption>
 </figure>
 
-## Le boitier
+# Le boitier
 
 Les premiers tests publiés sur des blogs spécialisés et dans la presse sont sans équivoque, ce boitier micro 4/3 est au niveau des meilleurs reflex, au point de titiller certains pros :
 
@@ -28,7 +28,7 @@ Les premiers tests publiés sur des blogs spécialisés et dans la presse sont s
 
 Le boitier est tropicalisé pour résister sans frayeur aux poussières et éclaboussures, ainsi qu'aux températures basses jusqu'à -10°C, ce qui m'a déjà servi plusieurs avec mon 5D Mark II.
 
-## La compacité
+# La compacité
 
 Mon objectif principal, si je change de boitier, c'est de gagner en encombrement et transportabilité, tant sur les dimensions que sur le poids.
 
@@ -43,7 +43,7 @@ La mise en évidence des [tailles relatives du Canon 5D Mark II et de l'Olympus 
 
 Le capteur étant plus petit, les objectifs peuvent aussi l'être, donc c'est tout gagnant sur ce point.
 
-## Le viseur
+# Le viseur
 
 C'est là que réside ma plus grosse crainte. Je n'ai pas eu l'occasion de beaucoup jouer avec un EFV, mais ceux que j'ai testé au salon de la photo 2012 — dont le Fuji X-E1, qui était annoncé comme étant le meilleur, et certains Sony — m'ont vraiment fait fuir, tant ils étaient mauvais par rapport à mon viseur optique actuel.
 
@@ -55,13 +55,13 @@ Presque toutes les critiques disent que l'EVF4 de l'OM-D E-M1 est génial, mais 
 
 > Je ne peux que confirmer..**ce VF-4 est une tuerie**....mais aussi une arme à double tranchant par son côté addictif. je m'étais habitué sans problème aucun au viseur de l'EM-5 et là quand je le reprend après avoir quitté l'EP-5 ça fait quand même un vieux choc, ce viseur ample ajouté au *focus peaking* et à la mise au point manuelle qui s'enclenchent automatiquement ensemble dés qu'on touche la bague de mise au point de n'importe quel objectif M4/3 ça change la vie d'un vieux photographe à lunettes. Je pense même que **je ne reviendrais pas facilement à un viseur optique**, chose impensable pour moi il y a peu…
 
-## La vidéo
+# La vidéo
 
 Je suis plus photographe que vidéaste, mais j'avoue m'être fait plaisir à filmer quelques scènes en Full HD depuis que j'ai le 5D Mark II. Sauf qu'il est plutôt mauvais en termes d'auto focus, et que de nombreux progrès ont été faits sur tous les appareils photo depuis.
 
 [La qualité vidéo semble au rendez-vous sur l'Olympus](http://www.flickr.com/photos/terakopian/9728785773/), même si certains concurrents font mieux pour les puristes.
 
-## Les objectifs
+# Les objectifs
 
 Bien entendu, les objectifs sont essentiels dans un équipement photo, sans doute même plus que le boitiers, ceux-ci étant bien plus pérennes s'ils sont de qualité.
 
@@ -83,7 +83,7 @@ Je ne tiens pas compte pour l'instant de mon bon vieux Canon EF 70-300mm, que j'
   </figcaption>
 </figure>
 
-## Les accessoires
+# Les accessoires
 
 Il va falloir également que je m'intéresse à ce qui est disponible pour toutes sortes d'accessoires pratiques voire indispensables :
 
@@ -94,7 +94,7 @@ Il va falloir également que je m'intéresse à ce qui est disponible pour toute
 - flash déporté;
 - etc.
 
-## Encore plus extrême ?
+# Encore plus extrême ?
 
 Je pourrais aller encore plus loin et m'intéresser de plus près au Panasonic Lumix GM1 [qui est paraît-il excellent](http://www.expertreviews.co.uk/digital-cameras/1303702/panasonic-lumix-dmc-gm1), et dont l'[écart de taille avec le Canon 5D Mark II](http://camerasize.com/compare/#192,491) est vraiment impressionnant :
 

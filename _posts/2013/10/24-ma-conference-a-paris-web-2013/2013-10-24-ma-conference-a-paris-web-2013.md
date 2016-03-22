@@ -9,7 +9,7 @@ Après y avoir assisté plusieurs années en tant qu'auditeur, j'ai eu la joie �
   {% picture paris-web-2013-j-y-etais.jpg %}
 </figure>
 
-## Le *pitch*
+# Le *pitch*
 
 Voici l'accroche que j'avais rédigée pour ma conférence, intitulée donc « Un petit pas pour l'em, un grand pas pour le Web », afin de la soumettre à l'équipe de Paris Web :
 
@@ -21,7 +21,7 @@ Voici l'accroche que j'avais rédigée pour ma conférence, intitulée donc « U
 >
 > L'objectif de cette conférence est d'illustrer les avantages et inconvénients d'une telle intégration complètement élastique, en espérant convaincre que les uns l'emportent suffisamment sur les autres pour améliorer notre pratique de l'intégration Web.
 
-## Bilan de ma prestation
+# Bilan de ma prestation
 
 Bien entendu stressé jusqu'à la dernière seconde avant de monter sur scène, avec des slides modifiés — pour améliorer la conclusion notamment — encore une heure avant, je suis très satisfait du résultat.
 
@@ -37,12 +37,12 @@ Je vais rédiger dans les prochaines semaines une version détaillée de ma conf
 
 <figure>
   {% picture nicolas_hoizey_-_paris_web_2013_-_photo_par_fabrice_le_guernec_pour_paris_web.jpg %}
-  <figcaption>
+  <figcaption markdown="1">
   Nicolas Hoizey à Paris Web 2013. [Photo](http://www.flickr.com/photos/parisweb/10401233525/) de [Fabrice Le Guernec](http://twitter.com/Fab_incident) pour Paris-Web
   </figcaption>
 </figure>
 
-## Je n'aurais pas pu faire ça tout seul
+# Je n'aurais pas pu faire ça tout seul
 
 Je tiens à remercier tous ceux qui m'ont aidé dans la préparation de cette conférence.
 
@@ -54,7 +54,7 @@ Je commence bien sûr par [Marie](http://marieguillaumet.com/), qui n'a pas flan
 
 J'ai la chance de travailler avec ces trois là, et d'autres tout aussi talentueux et curieux, un environnement très propice à l'amélioration constante de nos pratiques, à mi chemin entre l'expérimentation pointue sur les techniques les plus modernes et le respect pragmatique des contraintes du monde réel.
 
-## Voir ou revoir la conférence
+# Voir ou revoir la conférence
 
 La vidéo de ma prestation a été publiée par Paris Web sur son compte Vimeo :
 

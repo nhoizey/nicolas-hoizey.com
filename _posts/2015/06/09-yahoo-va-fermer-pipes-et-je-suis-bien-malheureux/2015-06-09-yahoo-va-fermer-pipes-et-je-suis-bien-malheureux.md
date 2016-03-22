@@ -8,7 +8,7 @@ tags:       [Web, Yahoo, API, RSS]
 
 Entendons-nous bien, Yahoo Pipes bosse pour moi au quotidien, mais je ne vais dans son interface que de temps à autre, pour modifier un *Pipe* existant ou en créer un nouveau.
 
-## Un exemple
+# Un exemple
 
 Voici [un exemple de *Pipe*](http://pipes.yahoo.com/pipes/pipe.edit?_id=bfe78fd60a9e342daa10715d03b51584), qui me permet de publier [de jolis tweets](https://twitter.com/nhoizey/status/605637245945675776) pour [mes bookmarks Pinboard](https://nicolas-hoizey.com/tags/pinboard.html) destinés aux [CleverMarks](https://twitter.com/CleverMarks) :
 
@@ -34,7 +34,7 @@ Par exemple, [ce bookmark](https://pinboard.in/u:nhoizey/b:602669af0bcf) :
 
 {% twitter oembed https://twitter.com/nhoizey/status/606834636120072192 %}
 
-## Et maintenant ?
+# Et maintenant ?
 
 Avec la disparition de Yahoo Pipes, j'ai plusieurs constructions de flux qui ne fonctionneront plus.
 

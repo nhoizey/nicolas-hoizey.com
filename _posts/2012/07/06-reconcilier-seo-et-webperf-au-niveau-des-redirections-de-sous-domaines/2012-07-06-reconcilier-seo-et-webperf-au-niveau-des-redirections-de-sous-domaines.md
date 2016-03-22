@@ -6,7 +6,7 @@ tags:       [Web, SEO, webperf]
 
 Le SEO et la performance Web sont deux disciplines très différentes liées à la mise en ligne de sites Web, avec des objectifs qui parfois peuvent être contradictoires. Mais des fois, ce qui paraît contradictoire ne l'est en fait pas si on y regarde de plus près, avec un peu de pragmatisme.
 
-## SEO : un seul (sous-)domaine tu présenteras
+# SEO : un seul (sous-)domaine tu présenteras
 
 Vous le savez sans doute si vous connaissez un peu le sujet du SEO — c'est certain si vous appliquez [la bonne pratique nº78 de la liste Opquast SEO](https://checklists.opquast.com/seo/criteria/16253/) — il est conseillé de toujours servir un contenu donné depuis un même (sous-)domaine afin d'éviter ce que l'on appelle le *duplicate content*. Le *duplicate content* est mal vu par les moteurs de recherche comme Google qui peuvent prendre cela pour du SPAM, et vous pénaliser dans les résultats de recherche.
 
@@ -21,7 +21,7 @@ RewriteCond %{HTTP_HOST} ^www\.gasteroprod\.com [NC]
 RewriteRule ^(.*) http://gasteroprod.com/$1 [QSA,R=301,L]
 ~~~
 
-## WebPerf : les redirections tu éviteras
+# WebPerf : les redirections tu éviteras
 
 Malheureusement, chaque redirection provoque une attente supplémentaire pour le visiteur, qui peut être néfaste pour sa perception de qualité de service du site.
 
@@ -39,7 +39,7 @@ La [page d'accueil de la FNAC](http://fnac.fr/) est par exemple finalisée aprè
 
 Mais alors comment faire, puisque le SEO me demande de faire des redirections ?
 
-## Tout le monde, tu contenteras
+# Tout le monde, tu contenteras
 
 C'est en fait assez simple techniquement, mais il faut surtout comprendre deux choses essentielles :
 

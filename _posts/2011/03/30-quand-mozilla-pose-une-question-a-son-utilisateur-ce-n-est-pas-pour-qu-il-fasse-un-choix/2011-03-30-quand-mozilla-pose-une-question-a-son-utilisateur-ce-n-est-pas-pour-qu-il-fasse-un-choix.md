@@ -1,6 +1,6 @@
---- 
-title:      Quand Mozilla pose une question à son utilisateur, ce n'est pas pour qu'il fasse un choix... 
-lang:       fr 
+---
+title:      Quand Mozilla pose une question à son utilisateur, ce n'est pas pour qu'il fasse un choix...
+lang:       fr
 tags:       [UX, Mozilla, formulaire]
 ---
 
@@ -33,7 +33,7 @@ Voici ce que je propose rapidement[^3] comme solution plus ergonomique :
 
 Qu'en dites-vous ?
 
-## Mise à jour du 31 mars
+# Mise à jour du 31 mars
 
 Je suis allé créer le ticket dans le Bugzilla de Mozilla[^4] : [When asking the user for confirmation when deleting a collection, there should be two choices, "yes" and "no"](https://bugzilla.mozilla.org/show_bug.cgi?id=646781)
 

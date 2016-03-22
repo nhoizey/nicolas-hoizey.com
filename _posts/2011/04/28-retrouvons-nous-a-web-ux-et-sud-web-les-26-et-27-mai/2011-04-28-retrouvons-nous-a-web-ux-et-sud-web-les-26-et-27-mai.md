@@ -1,12 +1,12 @@
---- 
-title:      Retrouvons nous à Web UX et Sud Web les 26 et 27 mai 
-lang:       fr 
+---
+title:      Retrouvons nous à Web UX et Sud Web les 26 et 27 mai
+lang:       fr
 tags:       [webperf, Web UX, Sud Web, conférence, Web, UX]
 ---
 
 Vous le savez sans doute si vous me lisez régulièrement, sur ce blog ou via [mes tweets](https://twitter.com/nhoizey), je suis dingue de Web, et toujours intéressé par ses moyens de mise en œuvre, usages et acteurs, et donc très intéressé par tout événement permettant de mixer tout cela. Cette année, en plus de l'incontournable rendez-vous annuel [Paris Web](/2010/07/les-inscriptions-a-paris-web-2010-sont-ouvertes.html) en octobre, vous pourrez me croiser fin mai à Nîmes pour [Web UX](http://www.web-ux.org/) et [Sud Web](http://sudweb.fr/).
 
-## Web UX le 26 mai 2011
+# Web UX le 26 mai 2011
 
 <figure class="one-fourth right">
   {% picture web-ux.png %}
@@ -22,16 +22,16 @@ Voilà comment Web UX se présente :
 
 J'aurais le privilège d'y animer une [conférence sur la performance des sites Web](http://www.web-ux.org/Performance-Web.html), dont voici la présentation :
 
-> L'utilisateur n'aime pas attendre. Sa perception de la vitesse d'un site Web a donc une influence sur son comportement. Cette perception peut être orientée positivement en travaillant intelligemment l'optimisation des performances côté client du site Web. 
-> 
+> L'utilisateur n'aime pas attendre. Sa perception de la vitesse d'un site Web a donc une influence sur son comportement. Cette perception peut être orientée positivement en travaillant intelligemment l'optimisation des performances côté client du site Web.
+>
 > Le premier réflexe quand on parle de performances Web est de se tourner vers des tests de montée en charge et des optimisations côté serveur, alors que l'optimisation des performances côté client peut être plus simple, plus efficace, et plus rentable.
-> 
+>
 > Nous aborderons dans cette conférence les différents aspects de l'optimisation côté client des performances Web, en attirant l'attention sur -– par exemple –- les téléchargements bloquants, les manières optimales d'inclure le code JavaScript et CSS, et leur impact sur les performances perçues par les internautes.
 
 Vous pouvez retrouver [cette conférence sur Lanyrd](http://lanyrd.com/2011/webux/sddff/), tout comme l'[événement Web UX dans son ensemble
 ](http://lanyrd.com/2011/webux/), ce qui vous permettra de retrouver mon support dès que je l'aurais partagé sur [SlideShare](http://www.slideshare.net/nhoizey/).
 
-## Sud Web le 27 mai 2011
+# Sud Web le 27 mai 2011
 
 <figure class="one-fourth right">
   {% picture sud-web.png %}
@@ -48,7 +48,7 @@ Ce n'est donc pas une redite de Paris Web, mais bel et bien un complément, une 
 
 Vous pouvez retrouver [Sud Web sur Lanyrd](http://lanyrd.com/2011/sudweb/) pour avoir quelques détails supplémentaires, notamment voir qui y va et indiquer que vous allez aussi y participer.
 
-## Vite, vite, inscrivez-vous !!!
+# Vite, vite, inscrivez-vous !!!
 
 J'aurais dû écrire ce billet il y a déjà bien longtemps, et du coup, si vous découvrez ces événements en me lisant, il ne vous reste malheureusement pas beaucoup de temps pour vous inscrire, la clôture des inscriptions ayant lieu le 2 mai.
 

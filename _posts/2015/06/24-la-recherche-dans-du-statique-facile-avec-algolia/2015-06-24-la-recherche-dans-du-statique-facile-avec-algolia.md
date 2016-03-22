@@ -16,7 +16,7 @@ Avec un site dynamique, il est possible d'indexer directement les contenus prés
 
 Avec un site statique, il existe trois possibilités :
 
-## Un moteur de recherche côté serveur
+# Un moteur de recherche côté serveur
 
 <figure class="onefourth right">
   {% picture onefourth apache-solr-logo.png alt="Solr" %}
@@ -25,17 +25,17 @@ Ce n'est pas parce que le site est statique qu'il est impossible de déployer un
 
 Sauf que cela réduit fortement la portabilité du site, gagnée grâce à la nature statique, et complexifie l'hébergement en nécessitant une plateforme plus technique.
 
-## Un moteur de recherche côté client en JavaScript intégré au site
+# Un moteur de recherche côté client en JavaScript intégré au site
 
 Il est sinon possible de mettre en place une recherche intégralement côté client, donc en JavaScript, comme avec [Lunr](http://lunrjs.com/) par exemple.
 
 Cela peut-être assez riche fonctionnement, mais le risque porte vite sur la performance quand le volume de contenus augmente. L'utilisateur doit télécharger tout les contenus avant de pouvoir y trouver des éléments correspondant à la recherche, et cette recherche est d'autant plus lente que le volume augmente.
 
-## Un moteur de recherche côté client en mode SaaS
+# Un moteur de recherche côté client en mode SaaS
 
 Il est enfin possible de s'appuyer sur une solution tierce disponible intégralement en ligne, en mode SaaS.
 
-### Google Custom Search
+## Google Custom Search
 
 Il existe bien entendu [Google Custom Search Engine](https://developers.google.com/custom-search/docs/overview), la solution gratuite de Google[^gss] permettant de profiter d'une recherche complète avec la puissance que l'on connaît :
 
@@ -47,7 +47,7 @@ Mais cette solution est plutôt pénible à configurer, à intégrer, et vraimen
 
 De plus, l'indexation est plein texte, sans vraiment de paramétrage possible, comme pour le Google Search général. La qualité du code *front end* du site a un impact déterminant sur la mise en œuvre.
 
-### Algolia
+## Algolia
 
 <figure class="onefourth right">
   {% picture onefourth algolia-logo.png alt="Algolia" %}
@@ -80,7 +80,7 @@ Algolia est bluffant à plus d'un titre :
 
 [Ma mise en œuvre](https://github.com/nhoizey/nicolas-hoizey.com/blob/master/recherche.html) n'est sans doute pas parfaite techniquement, mais j'y suis arrivé assez simplement grâce aux tutoriels proposés et à l'aide rapide et efficace obtenue via Twitter en cas de blocage, donc c'est à la portée de tout le monde !
 
-### Mais… et si mon site est dynamique, ou si je n'ai pas JS côté client ?
+## Mais… et si mon site est dynamique, ou si je n'ai pas JS côté client ?
 
 Bien entendu, rien ne vous empêche d'utiliser Algolia même si votre site n'est pas statique, il y a sans doute plein de belles choses à faire avec, comme le montrent [les nombreuses références de la solution](https://www.algolia.com/customers).
 
@@ -90,7 +90,7 @@ Pour ma part, j'ai mis un fallback vers Google, faute de pouvoir restreindre la 
 
 [^ddg]: Si quelqu'un sait comment faire, ça m'intéresse…
 
-### D'accord, mais tant de magie a forcément un coût !
+## D'accord, mais tant de magie a forcément un coût !
 
 Évidemment, « tout travail mérite salaire », comme on dit. Donc si vous commencez à utiliser sérieusement Algolia, [il faudra payer](https://www.algolia.com/pricing).
 

@@ -1,6 +1,6 @@
---- 
-title:      En travaux 
-lang:       fr 
+---
+title:      En travaux
+lang:       fr
 tags:       [Gastero Prod., SPIP, AlwaysData]
 ---
 
@@ -8,7 +8,7 @@ Cela ne vous a sans doute pas échappé si vous avez fait un tour sur le site ce
 
 [^1]: C'est de votre faute, vous ne m'avez pas prévenu !
 
-## La partie émergée de l'iceberg
+# La partie émergée de l'iceberg
 
 Ce que vous voyez à l'instant sur ce site, c'est donc un thème (presque) par défaut, fourni sous forme de plugin pour SPIP, j'ai nommé [Zpip-dist](http://plugins.spip.net/plugin600.html), créé par [Cerdic](https://twitter.com/GusLeLapin).
 
@@ -16,7 +16,7 @@ Il n'est pas splendide, mais a le mérite d'être plutôt épuré, donc bien moi
 
 Il a aussi l'avantage d'être basé sur [le framework HTML Z](http://www.yterium.net/Un-framework-HTML-est-il-possible) implémenté dans le plugin Z-core, que je compte continuer à utiliser pour le futur design. La transition pourra se faire sans douleur.
 
-## La partie immergée de l'iceberg
+# La partie immergée de l'iceberg
 
 Ce que vous n'avez sans doute pas perçu par vous-même si vous n'avez pas lu mes tweets récents, c'est que ce site à aussi connu deux évolutions techniques majeures.
 

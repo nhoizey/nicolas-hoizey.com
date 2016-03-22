@@ -1,6 +1,6 @@
---- 
-title:      La navigation ne se fige plus en haut de l'écran lors du scroll 
-lang:       fr 
+---
+title:      La navigation ne se fige plus en haut de l'écran lors du scroll
+lang:       fr
 tags:       [UX, JavaScript, webperf, Web]
 ---
 
@@ -8,7 +8,7 @@ Vous l'avez peut-être constaté par vous-même, le menu de navigation de ce sit
 
 [^ancien]: L'ancien site en fait, sur http://gasteroprod.com/
 
-## Un problème ergonomique
+# Un problème ergonomique
 
 Le premier problème — le plus important — est ergonomique.
 
@@ -18,7 +18,7 @@ Pour éviter cela, il faudrait redécaler le scroll dans le sens inverse de celu
 
 [^1]: Je n'ai même pas osé essayer...
 
-## Un problème de performance
+# Un problème de performance
 
 Le second problème — qui pourrait être très important mais sur lequel il est plus facile de corriger le tir — concerne la performance.
 
@@ -26,7 +26,7 @@ Dans le code que j'avais mis en ligne initialement, basé sur le tutoriel «[Fix
 
 Heureusement, [un billet de John Resig sur un problème similaire trouvé chez Twitter](http://ejohn.org/blog/learning-from-twitter/) m'avait permis de bien améliorer le système, en passant à un contrôle de la position de *scroll* toutes les 100 millisecondes plutôt qu'à chaque mouvement.
 
-## Un problème d'eXpérience Utilisateur
+# Un problème d'eXpérience Utilisateur
 
 Malheureusement, cette nouvelle version du code, si elle était bien plus performante et impactait beaucoup moins les navigateurs obsolètes, faisait qu'il y avait un effet désagréable de saut du menu quand l'utilisateur descendait dans la page.
 

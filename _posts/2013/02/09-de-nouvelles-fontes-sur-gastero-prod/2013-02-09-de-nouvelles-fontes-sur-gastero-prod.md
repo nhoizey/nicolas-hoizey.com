@@ -9,7 +9,7 @@ Navigant régulièrement avec une connexion de piètre qualité, j'en ai un peu 
   {% picture nouvelles-fontes.jpg %}
 </figure>
 
-## Pourquoi changer ?
+# Pourquoi changer ?
 
 Avant de parler des fontes retenues voici une illustration de ce problème que posent les fontes chargées via `@font-face` aux utilisateurs à faible bande passante.
 
@@ -45,7 +45,7 @@ Sauf que mon pauvre blog n'a rien d'un site professionnel dont le design[^1] né
 
 En quête donc…
 
-## Mes choix de fontes
+# Mes choix de fontes
 
 Ayant lu et entendu depuis quelque temps que les [fontes à empattements](http://fr.wikipedia.org/wiki/Empattement_%28typographie%29) ne posent plus de problèmes avec les écrans modernes, voire même améliorent la lisibilité des corps de textes, j'ai décidé de me jeter à l'eau.
 
@@ -75,7 +75,7 @@ Un extrait de la page Wikipedia présentant Adrian Frutiger présente ainsi la f
 
 Comment hésiter plus longtemps ?
 
-## Les nouvelles font stacks
+# Les nouvelles font stacks
 
 Du coup, avec ces deux fontes de base qui sont essentiellement présentes sur Mac, le choix des font stacks complètes n'a pas été très simple, mais voici la conclusion :
 
@@ -103,13 +103,13 @@ Voilà ce que ça donne sur Mac :
 
 Je suis preneur de retours d'utilisateurs de Windows et Linux, en espérant que la théorie des fallbacks s'applique pas trop mal…
 
-## Et maintenant ?
+# Et maintenant ?
 
 Je l'avoue bien volontiers, je suis complètement ignare en termes de typographie. J'ai par exemple beaucoup appris en terminologie avec [la conférence «La typographie comme outil de design» de David Rault à Paris Web en 2010](http://www.dailymotion.com/video/xfpaqk_la-typographie-comme-outil-de-design-david-rault_tech).
 
 Il est donc probable que la démarche que j'ai suivie, ainsi que le résultat, ont de quoi faire hurler d’horreur les spécialistes du domaine. Mais tant pis pour eux, je suis plutôt satisfait du résultat, jusqu'à ma prochaine remise en question…
 
-## MAJ du 10 juillet 2013
+# MAJ du 10 juillet 2013
 
 Voilà ce que ça donne sur Windows 7 avec Chrome :
 

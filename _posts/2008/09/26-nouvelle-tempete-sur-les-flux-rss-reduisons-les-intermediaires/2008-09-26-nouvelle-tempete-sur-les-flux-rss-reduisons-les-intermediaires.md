@@ -21,12 +21,12 @@ Vu que je suis aussi abonné au flux par mail auprès de FeedBurner[^2], je sais
 
 Il reste donc deux maillons potentiellement faibles dans l'histoire, [Yahoo! Pipes](http://pipes.yahoo.com/) que j'utilise pour [agréger trois flux en un](/2008/02/avis-de-turbulences-dans-les-flux-rss-de-gastero-prod.html), et [FeedBurner](http://www.feedburner.com/) qui digère (presque) tous mes flux pour vous les distribuer.
 
-## Yahoo! Pipes
+# Yahoo! Pipes
 
 
 Cela fait déjà pas mal de temps que je veux me passer de Yahoo! Pipes, mon vaillant petit [SPIP](http://www.spip.net/) pouvant faire la même chose en mieux. L'expérimentation a été amusante, mais présente au final plus de défauts que d'avantages. Yahoo! Pipes reste toujours très utile pour divers usages[^3], mais je vais m'en débarrasser pour mes flux RSS, c'est décidé.
 
-## FeedBurner
+# FeedBurner
 
 
 La position de FeedBurner est plus délicate. J'y vois toujours deux gros intérêts, et m'en passer sera plus difficile.

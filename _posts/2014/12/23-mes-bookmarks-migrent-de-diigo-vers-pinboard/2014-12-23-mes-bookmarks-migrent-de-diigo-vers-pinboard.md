@@ -43,7 +43,7 @@ Vous pouvez bien sûr continuer à lire aussi mes bookmarks [sur Seenthis](http:
 
 **Mise à jour du 24 décembre :**
 
-## Concernant le soucis avec Seenthis
+# Concernant le soucis avec Seenthis
 
 Il semble que cela vienne du flux RSS de Pinboard qui mélange tous les tags dans une unique balise ```dc:subject```, je suis donc repassé à Diigo pour le flux RSS qui alimente Seenthis, Diigo étant lui-même alimenté par Pinboard via [IFTTT](https://ifttt.com/).
 
@@ -51,7 +51,7 @@ Voici la *recipe* IFTTT, au cas où vous voudriez faire de même :
 
 <a href="https://ifttt.com/view_embed_recipe/232495-copy-every-new-pinboard-bookmark-to-diigo" target = "_blank" class="embed_recipe embed_recipe-l_41" id= "embed_recipe-232495"><img src= 'https://ifttt.com/recipe_embed_img/232495' alt="IFTTT Recipe: Copy every new Pinboard bookmark to Diigo connects pinboard to diigo" width="370px" style="max-width:100%"/></a><script async type="text/javascript" src= "//ifttt.com/assets/embed_recipe.js"></script>
 
-## Souci supplémentaire : plus de participation au groupe Web Performance sur Diigo
+# Souci supplémentaire : plus de participation au groupe Web Performance sur Diigo
 
 Mon départ de Diigo m'empêche de fait de participer au [groupe de veille Web Performance](https://groups.diigo.com/group/web-performance) créé par [Éric](https://www.diigo.com/profile/edaspet) et alimenté par une quinzaine de contributeurs.
 

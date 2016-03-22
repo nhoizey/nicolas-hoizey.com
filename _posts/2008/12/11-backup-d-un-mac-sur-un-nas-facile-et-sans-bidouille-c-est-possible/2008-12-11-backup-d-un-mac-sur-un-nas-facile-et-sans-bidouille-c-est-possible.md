@@ -8,7 +8,7 @@ D'un côté, Apple rend les sauvegardes plus accessible au grand public avec [Ti
 
 [^1]: *Network Area Storage*, soit Système de Stockage Réseau
 
-## Le meilleur des mondes
+# Le meilleur des mondes
 
 Quand Apple a sorti Time Machine avec Leopard, tout le monde y a vu l'arrivée d'une solution de sauvegarde enfin vraiment simple et accessible au grand public. Tout se fait de manière transparente, avec conservation de versions successives, et surtout une interface d'accès aux sauvegardes vraiment intuitive pour le commun des mortels, et en plus plutôt ludique.
 
@@ -21,17 +21,17 @@ Quand Apple a sorti Time Machine avec Leopard, tout le monde y a vu l'arrivée d
 
 En même temps, les NAS aussi sont devenus de plus en plus grand public, en facilitant la sauvegarde centralisée des ordinateurs qui pullulent de plus en plus même en usage domestique, et en devenant même de très complets serveurs multimédia grâce aux protocoles standards [UPnP (fr)](http://fr.wikipedia.org/wiki/Universal_Plug_and_Play) et [DLNA (fr)](http://fr.wikipedia.org/wiki/Digital_Living_Network_Alliance)[^1]. J'accède ainsi directement depuis ma PS3 aux contenus audio, vidéo et image qui sont sur mon portable sous Vista[^2] ou sur mon iMac[^3], et je pourrais faire de même avec des contenus stockés sur un NAS, la plupart intégrant aujourd'hui ce type de fonctionnalité.
 
-## Oui mais...
+# Oui mais...
 
 
 Arrivé à ces constats, on se dit qu'il serait merveilleux de pouvoir utiliser ce stockage centralisé pour effectuer les sauvegardes de nos différents Mac avec Time Machine. Sauf qu'Apple a décidé -- ce n'était apparemment pas le cas dans les versions *beta* de Leopard -- d'interdire les sauvegardes sur des périphériques réseau autres que sa chère [Time Capsule (fr)](http://www.apple.com/fr/timecapsule/), très limitée en capacité et sans sécurité pour les données[^4].
 
-## Ze dirty hack
+# Ze dirty hack
 
 
 Alors bien sûr, il existe [une solution simple pour utiliser quand même Time Machine avec un NAS (en)](http://www.macosxhints.com/article.php?story=20080420211034137), mais c'est un *[hack (en)](http://discussions.apple.com/message.jspa?messageID=8328327#8328327)* donc sans garantie que cela continuera à fonctionner dans le futur, et surtout cela suppose de faire les sauvegardes dans une image disque, ce qui pose de [gros problèmes de performance dès qu'un volume important est atteint (en)](http://8stars.org/a/2008/02/20/time-machine-to-nas-not-quite-there/).
 
-## L'alternative
+# L'alternative
 
 
 **Utiliser un autre logiciel de sauvegarde**
@@ -48,7 +48,7 @@ Il y a les grands classiques comme [SuperDuper (en)](http://www.shirt-pocket.com
 
 Une autre solution serait peut-être d'utiliser quand même Time Machine, mais en lui faisant croire que le NAS est en fait un disque USB, par exemple avec le [hub USB sans fil de Belkin (en)](http://catalog.belkin.com/IWCatProductPage.process?Product_Id=377793)[^7] ou avec un [partage USB via réseau (en)](http://www.eltima.com/products/usb-over-ethernet/)[^8], le NAS étant connecté à un PC de base ne faisant que ça. Mais ça devient compliqué à mettre en œuvre matériellement, et existe-t-il de toute façon des NAS sachant aussi fonctionner en mode disque externe USB ?
 
-## Que faire ?
+# Que faire ?
 
 
 Si vous vous êtes posé les mêmes questions, et avez trouvé une solution convenable, votre retour d'expérience m'intéresse, et intéressera sans doute énormément de monde !

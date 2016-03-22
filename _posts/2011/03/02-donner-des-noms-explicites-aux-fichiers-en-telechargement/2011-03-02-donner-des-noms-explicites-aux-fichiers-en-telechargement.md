@@ -1,12 +1,12 @@
---- 
-title:      Donner des noms explicites aux fichiers en téléchargement 
-lang:       fr 
+---
+title:      Donner des noms explicites aux fichiers en téléchargement
+lang:       fr
 tags:       [UX, Web, fichier, téléchargement]
 ---
 
 De nombreux sites proposent de télécharger des fichiers. Qu’il s’agisse de documents bureautiques, de programmes ou de tout autre format, le nom du fichier sur le serveur sera presque tout le temps conservé tel quel par l’utilisateur sur son ordinateur. L’utilisateur sera peut-être amené à conserver ce fichier parmi d’autres, pour utilisation ultérieure. Il est donc important que son nom soit explicite.
 
-## Reconnaissance du fichier une fois téléchargé
+# Reconnaissance du fichier une fois téléchargé
 
 Comme l’illustre [ce parfait exemple proposé par Canon](/2011/03/des-noms-de-fichiers-a-telecharger-denues-de-sens-sur-software-canon-europe-com.html), le nom des fichiers à télécharger doit être pensé pour l’utilisateur, qui va s’en servir pour identifier son contenu, et décider de son usage éventuel ultérieur :
 
@@ -18,7 +18,7 @@ Si le nom du fichier ne renseigne pas sur son contenu, il a de fortes chances de
 
 Alors qu’avec un nom tel que `Magic Stuff - Simple Hide - Devenez invisible.pdf`[^1], c’est tout de suite plus parlant, et potentiellement alléchant, non ? Au pire, pour ne pas poser trop de problèmes aux utilisateurs de certains systèmes chatouilleux qui ont du mal à disparaître, évitez les espaces et caractères accentués.
 
-## Référencement
+# Référencement
 
 Un autre intérêt — non négligeable — de donner à un fichier un nom explicite, c’est qu’il apparaît dans l’URL de téléchargement, qui est devenu un élément prépondérant dans le référencement naturel des sites.
 

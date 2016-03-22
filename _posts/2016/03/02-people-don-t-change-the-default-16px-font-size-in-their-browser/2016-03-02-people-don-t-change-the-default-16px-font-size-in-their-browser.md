@@ -9,8 +9,8 @@ I am really happy to still read articles that advocate for the [use of proportio
 [^troll]: I often call myself a troll, that's not that harsh when I'm the one saying it… ;-)
 
 There are unfortunately **two misleading urban legends** in most web developers minds:
- 
-## Default font size in browsers is always 16px
+
+# Default font size in browsers is always 16px
 
 No, it's not.
 
@@ -35,7 +35,7 @@ These devices are fairly old because I made the study in 2013, but I'm sure ther
 
 These default font sizes were set by the device or browser vendors because it was the best size for reading. When you set your font-size in `px` units, you throw their work to satisfy their users/clients into the bin.
 
-## People don't change the default font size in their browser
+# People don't change the default font size in their browser
 
 **I do** — and I have friends who do too — change the browser settings for default font size. I even made [a talk about `em` and this great feature](http://lanyrd.com/2013/parisweb/sckdfg/)[^french] in 2013 at [Paris Web, the french leading Web conference](http://www.paris-web.fr/)!
 
