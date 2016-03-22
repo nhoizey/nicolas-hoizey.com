@@ -5,43 +5,45 @@ layout: default
 {% assign this_year = page.date | date: "%Y" | plus: 0 %}
 {% assign max_year = site.time | date: "%Y" | plus: 0 %}
 <div class="annees">
-	<p class="avant">
-		{% if this_year > 2002 %}
-			<a href="/{{ this_year | minus: 1 }}/">«&nbsp;{{ this_year | minus: 1 }}</a>
-		{% else %}
-			<span title="Aucun contenu antérieur, désolé">«&nbsp;{{ this_year | minus: 1 }}</span>
-		{% endif %}
-	</p>
-	<p class="apres">
-		{% if this_year < max_year %}
-			<a href="/{{ this_year | plus: 1 }}/">{{ this_year | plus: 1 }}&nbsp;»</a>
-		{% else %}
-			<span title="Patience !">{{ this_year | plus: 1 }}&nbsp;»</span>
-		{% endif %}
-	</p>
-	<h1><span class="label">Billets de </span>{{ page.date | date: "%Y" }}</h1>
+  <p class="avant">
+    {% if this_year > 2002 %}
+      <a href="/{{ this_year | minus: 1 }}/">«&nbsp;{{ this_year | minus: 1 }}</a>
+    {% else %}
+      <span title="Aucun contenu antérieur, désolé">«&nbsp;{{ this_year | minus: 1 }}</span>
+    {% endif %}
+  </p>
+  <p class="apres">
+    {% if this_year < max_year %}
+      <a href="/{{ this_year | plus: 1 }}/">{{ this_year | plus: 1 }}&nbsp;»</a>
+    {% else %}
+      <span title="Patience !">{{ this_year | plus: 1 }}&nbsp;»</span>
+    {% endif %}
+  </p>
+  <h1><span class="label">Billets de </span>{{ page.date | date: "%Y" }}</h1>
 </div>
 
 <div class="list">
   {% assign month = "" %}
-	{% for post in page.posts reversed %}
+  {% for post in page.posts reversed %}
     {% assign post_month = post.date | date: "%m" %}
     {% if post_month != month %}
-			<h2><a href="/{{ page.date | date: "%Y" }}/{{ post.date | date: "%m" }}">{% include mois.html page=post %}</a></h2>
-			{% assign month = post_month %}
-		{% endif %}
+      <h2><a href="/{{ page.date | date: "%Y" }}/{{ post.date | date: "%m" }}">{% include mois.html page=post %}</a></h2>
+      {% assign month = post_month %}
+    {% endif %}
     <article>
-			<header>
-			  <dl>
-			    <dt>Date</dt>
-			    <dd class="date">
-			      {{ post.date | date: "%-d" }}
-			      {% include mois.html page=post %}
-			    </dd>
-			    <dt>Tags</dt>
-			    <dd class="tags">{{ post | tags }}</dd>
-			  </dl>
-			</header>
+      <header>
+        <ul>
+          <li class="date">
+            <svg class="icon"><use xlink:href="#symbol-date" /></svg>
+            {{ post.date | date: "%-d" }}
+            {% include mois.html page=post %}
+          </li>
+          <li class="tags">
+            <svg class="icon"><use xlink:href="#symbol-tags" /></svg>
+            {{ post | tags }}
+          </li>
+        </ul>
+      </header>
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       {{ post.excerpt | markdownify | strip_footnotes }}
     </article>
