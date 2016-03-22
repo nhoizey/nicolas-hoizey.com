@@ -312,7 +312,7 @@ img.tag {
 }
 
 #networks {
-  margin-top: 3em;
+  margin-top: 2em;
 
   ul {
     margin: 0;
@@ -321,10 +321,11 @@ img.tag {
 
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
   }
 
   li {
-    padding: 0 1em;
+    padding: 1em;
   }
 
   a {
