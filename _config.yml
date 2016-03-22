@@ -4,7 +4,7 @@ highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-  footnote_backlink: "⬅︎"
+  footnote_backlink: "⬆︎"
   header_offset: 1
 
 # Permalinks
