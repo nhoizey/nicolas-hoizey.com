@@ -61,7 +61,7 @@ paginate_path:       "/page-:num/"
 # About/contact
 title:               Nicolas Hoizey
 tagline:             "aka @nhoizey"
-description:         "Ce site est mon recueil de créations et réflexions sur des sujets très variés, de la photo au Web en passant par la société, les voyages, etc."
+description:         "Ce site est mon recueil de créations et réflexions sur des sujets très variés,notamment la photo et le Web."
 author:
   name:              Nicolas Hoizey
   url:               https://nicolas-hoizey.com
