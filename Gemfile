@@ -5,6 +5,7 @@ gem "redcarpet"
 gem "yt"
 gem "rouge"
 gem "twitter"
+gem "nokogiri"
 
 group :jekyll_plugins do
   gem "jekyll-picture-tag"
