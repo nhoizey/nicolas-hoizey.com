@@ -4,10 +4,16 @@
 
 h1, h2, h3, h4, h5, h6 {
   a.deeplink {
-    font-size: .9em;
+    font-size: .7em;
     font-weight: 400;
-    color: #ccc;
+    color: #999;
     text-decoration: none;
+
+    svg {
+      width: 1em;
+      height: 1em;
+      fill: currentColor;
+    }
 
     &:hover {
       color: #66f;
