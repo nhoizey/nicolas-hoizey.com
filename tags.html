@@ -1,0 +1,13 @@
+---
+layout: default
+title: Tags
+---
+
+{% if page.url == "/tags.html" %}
+  <h1>Tags</h1>
+{% endif %}
+
+<div class="tagscloud" id="tags">
+  <h2>Tags à explorer</h2>
+  {{ site | tag_cloud }}
+</div>
