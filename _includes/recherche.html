@@ -89,7 +89,7 @@ function searchCallback(err, content) {
     }
     post_tags = post_tags.replace(/^, /, "");
 
-    post = "<article><header><ul><li class=\"date\">" + post_date + "</li><li class=\"tags\">" + post_tags + "</li></ul></header><h2><a href=\"" + hit.url + "\">" + hit._highlightResult.title.value + "</a></h2>";
+    post = "<article><header><ul><li class=\"date\"><svg class=\"icon\"><use xlink:href=\"#symbol-date\" /></svg> " + post_date + "</li><li class=\"tags\"><svg class=\"icon\"><use xlink:href=\"#symbol-tags\" /></svg> " + post_tags + "</li></ul></header><h2><a href=\"" + hit.url + "\">" + hit._highlightResult.title.value + "</a></h2>";
 
     if (post_tags_match === "none" && hit._highlightResult.title.matchLevel === "none" && hit._snippetResult.content.matchLevel !== "none") {
       post += "<p>…&nbsp;" + hit._snippetResult.content.value + "&nbsp;…</p>";
