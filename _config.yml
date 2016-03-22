@@ -5,6 +5,7 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
   parse_block_html: true
+  footnote_backlink: "⬅︎"
   header_offset: 1
 
 # Permalinks
