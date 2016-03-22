@@ -4,6 +4,7 @@ gem "jekyll"
 gem "redcarpet"
 gem "yt"
 gem "rouge"
+gem "twitter"
 
 group :jekyll_plugins do
   gem "jekyll-picture-tag"
@@ -13,7 +14,6 @@ group :jekyll_plugins do
 	gem "autoprefixer-rails", "5.2.1.3" # https://github.com/ai/autoprefixer-rails/issues/81
 	gem "uglifier"
 	gem "jekyll-sitemap"
-	gem "jekyll-twitter-plugin"
 	gem "jekyll-archives"
 	gem "algoliasearch"
 end

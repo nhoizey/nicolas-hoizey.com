@@ -13,7 +13,6 @@ relative_permalinks: true
 
 gems:
   - jekyll-sitemap
-  - jekyll-twitter-plugin
   - jekyll-archives
 
 # Settings
