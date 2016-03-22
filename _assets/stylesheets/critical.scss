@@ -189,18 +189,6 @@ a, button, input, select, textarea, label, summary {
     &:hover {
       color: $color-header-hover;
     }
-
-    &.twitter:hover {
-      color: #55acee;
-    }
-
-    &.github:hover {
-      color: #666;
-    }
-
-    &.facebook:hover {
-      color: #3b5998;
-    }
   }
 
   a:last-child {

@@ -311,8 +311,72 @@ img.tag {
   }
 }
 
-#footer {
+#networks {
   margin-top: 3em;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  li {
+    padding: 0 1em;
+  }
+
+  a {
+    color: $color-networks-link;
+    text-decoration: none;
+    transition-duration: .1s;
+    transition-property: color;
+    transition-timing-function: ease-in-out;
+
+    &:hover {
+      color: $color-networks-hover;
+    }
+
+    &.twitter:hover {
+      color: #55acee;
+    }
+
+    &.px500:hover {
+      color: #000;
+    }
+
+    &.flickr:hover {
+      color: #ff0084;
+    }
+
+    &.github:hover {
+      color: #666;
+    }
+
+    &.facebook:hover {
+      color: #3b5998;
+    }
+
+    &.instagram:hover {
+      color: #3f729b;
+    }
+
+    &.feed:hover {
+      color: #ee9900;
+    }
+  }
+
+  svg {
+    width: 3em;
+    height: 3em;
+    vertical-align: middle;
+    fill: currentColor;
+  }
+}
+
+#footer {
+  margin-top: 1em;
 
   background-color: $color-footer-background;
   color: $color-footer-text;
