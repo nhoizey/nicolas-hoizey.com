@@ -14,6 +14,8 @@ class Vimeo < Liquid::Tag
 
   def render(context)
 
+    puts " Vimeo: video #{@id}"
+
     result =  "<iframe src=\"https://player.vimeo.com/video/#{@id}\" width=\"800\" height=\"450\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
 
     return result

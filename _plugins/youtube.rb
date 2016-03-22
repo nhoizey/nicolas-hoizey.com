@@ -75,7 +75,7 @@ class YouTube < Liquid::Tag
     @title = video.title
     @description = video.description
 
-    puts " title #{@title}"
+    puts " YouTube: #{@title}"
 
     @style = "width:100%;height:100%;background:#000 url(https://i2.ytimg.com/vi/#{@id}/0.jpg) center center no-repeat;background-size:contain;position:absolute"
 
