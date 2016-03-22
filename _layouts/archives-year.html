@@ -43,7 +43,7 @@ layout: default
 			  </dl>
 			</header>
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-			{{ post.excerpt | markdownify }}
+      {{ post.excerpt | markdownify | strip_footnotes }}
     </article>
   {% endfor %}
 </div>

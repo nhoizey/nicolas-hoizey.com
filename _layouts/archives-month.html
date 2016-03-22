@@ -23,7 +23,7 @@ layout: default
 			  </dl>
 			</header>
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-			{{ post.excerpt | markdownify }}
+      {{ post.excerpt | markdownify | strip_footnotes }}
     </article>
   {% endfor %}
 </div>
