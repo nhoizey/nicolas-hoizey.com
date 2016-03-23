@@ -1,7 +1,7 @@
---- 
-title:      Le retour du gastéropode perdu 
-lang:       fr 
-tags:       [Gastero Prod.]
+---
+title:      Le retour du gastéropode perdu
+lang:       fr
+tags:       [Gastero Prod]
 ---
 
 Incroyable, je viens de me rendre compte que mon site n'arborait plus son beau logo, sans doute depuis déjà de nombreux mois. Vous auriez pu me prévenir !

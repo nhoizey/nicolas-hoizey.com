@@ -1,7 +1,7 @@
 ---
 title:      En travaux
 lang:       fr
-tags:       [Gastero Prod., SPIP, AlwaysData]
+tags:       [Gastero Prod, SPIP, AlwaysData]
 ---
 
 Cela ne vous a sans doute pas échappé si vous avez fait un tour sur le site ces dernières heures, il n'a plus du tout la même tête. Bin oui, ce que j'avais fait à l'arrache après avoir [mis à la poubelle](/2011/01/le-design-de-gastero-prod-est-il-a-jeter-a-la-poubelle.html) ce que j'ai cru être un superbe design pendant 3 longues années[^1] ne me plaisait finalement vraiment pas, ergonomiquement et visuellement. Mais ce n'est pas le seul changement, loin de là…

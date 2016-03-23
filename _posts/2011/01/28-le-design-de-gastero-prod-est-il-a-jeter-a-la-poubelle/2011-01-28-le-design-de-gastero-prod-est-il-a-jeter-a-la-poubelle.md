@@ -1,7 +1,7 @@
---- 
-title:      Le design de Gastero Prod est-il à jeter à la poubelle ? 
+---
+title:      Le design de Gastero Prod est-il à jeter à la poubelle ?
 lang:       fr
-tags:       [Gastero Prod., accessibilité, UX, design]
+tags:       [Gastero Prod, accessibilité, UX, design]
 ---
 
 Alarmé par certains commentaires faits sur Twitter par des personnes dont l'avis m'intéresse particulièrement[^1], je me rends compte que ce que je considère comme un design original et plutôt réussi est peut-être en fait une horreur pour tous les visiteurs. Qu'en dites-vous ?
