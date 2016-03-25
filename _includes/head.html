@@ -9,7 +9,6 @@
   {% asset critical %}
   </style>
 
-  {% javascript vendors/picturefill-3.0.2 async defer %}
 
   <script id="loadcss">
   {% asset vendors/loadCSS-0.1.7 %}
@@ -19,6 +18,7 @@
     <link rel="stylesheet" href="{% asset_path styles %}" />
     <link rel="stylesheet" href="{% asset_path morefonts %}" />
   </noscript>
+  {% javascript vendors/picturefill-3.0.2 async defer %}
 
   <meta property="og:site_name" content="Nicolas Hoizey" />
   <meta name="twitter:card" content="summary" />
