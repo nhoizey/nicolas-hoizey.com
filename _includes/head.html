@@ -38,7 +38,7 @@
     <meta property="og:image" content="{{ site.url }}/favicon.jpg" />
   {% else %}
     {% if page.type == "year" %}
-      <title>Billets de {{ page.date | date: "%Y" }} sur le site de Nicolas Hoizey</title>
+      <title>Billets de {{ page.date | date: "%Y" }}</title>
       <meta name="description" content="Billets de Nicolas Hoizey publiés en {{ page.date | date: "%Y" }}" />
       <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
       <meta property="og:type" content="website" />
@@ -46,7 +46,7 @@
       <meta property="og:image" content="{{ site.url }}/favicon.jpg" />
     {% else %}
       {% if page.type == "month" %}
-        <title>Billets de {% include mois.html page=page %} {{ page.date | date: "%Y" }} sur le site de Nicolas Hoizey</title>
+        <title>Billets de {% include mois.html page=page %} {{ page.date | date: "%Y" }}</title>
         <meta name="description" content="Billets de Nicolas Hoizey publiés en {% include mois.html page=page %} {{ page.date | date: "%Y" }}" />
         <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
         <meta property="og:type" content="website" />
@@ -54,7 +54,7 @@
         <meta property="og:image" content="{{ site.url }}/favicon.jpg" />
       {% else %}
         {% if page.tag %}
-          <title>Billets tagués &ldquo;&nbsp;{{ page.tag }}&nbsp;&rdquo; sur le site de Nicolas Hoizey</title>
+          <title>{{ page.tag }}</title>
           <meta name="description" content="Billets de Nicolas Hoizey auxquels est associé le tag « {{ page.tag }} »" />
           <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
           <meta property="og:type" content="website" />
