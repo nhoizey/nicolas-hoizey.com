@@ -9,15 +9,16 @@
   {% asset critical %}
   </style>
 
-
-  <script id="loadcss">
-  {% asset vendors/loadCSS-0.1.7 %}
-  loadCSS("{% asset_path styles %}", document.getElementById("loadcss"));
-  </script>
+  <link rel="preload" href="{% asset_path styles %}" as="style" onload="this.rel='stylesheet'" />
   <noscript>
     <link rel="stylesheet" href="{% asset_path styles %}" />
     <link rel="stylesheet" href="{% asset_path morefonts %}" />
   </noscript>
+  <script>
+    {% asset vendors/loadCSS-1.2.0 %}
+    {% asset vendors/cssrelpreload-1.2.0 %}
+  </script>
+
   {% javascript vendors/picturefill-3.0.2 async defer %}
 
   {% comment %} opengraph and Twitter {% endcomment %}
