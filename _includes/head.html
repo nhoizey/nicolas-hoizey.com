@@ -70,7 +70,7 @@
           {% endif %}
         {% else %}
           <title>{{ page.title }}</title>
-          <meta name="description" content="{{ page.excerpt | strip_footnotes | strip_html | truncatewords: 150 | truncate: 290 | strip_newlines | escape_once }}" />
+          <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 150 | truncate: 290 | strip_newlines | escape_once }}" />
           <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
           <meta property="og:type" content="article" />
           <meta property="og:title" content="{{ page.title }}" />
