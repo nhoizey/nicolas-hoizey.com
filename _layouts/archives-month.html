@@ -10,7 +10,7 @@ layout: default
 
 <div class="list">
   {% for post in page.posts reversed %}
-    <article>
+    <article {% if post.lang %}lang="{{ post.lang }}"{% endif %}>
       <header>
         <ul>
           <li class="date">

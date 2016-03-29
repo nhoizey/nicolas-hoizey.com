@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article class="main">
+<article class="main" {% if page.lang %}lang="{{ page.lang }}"{% endif %}>
   <h1>{{ page.title }}</h1>
   {{ content }}
 </article>

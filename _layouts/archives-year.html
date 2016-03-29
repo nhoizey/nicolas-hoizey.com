@@ -30,7 +30,7 @@ layout: default
       <h2><a href="/{{ page.date | date: "%Y" }}/{{ post.date | date: "%m" }}">{% include mois.html page=post %}</a></h2>
       {% assign month = post_month %}
     {% endif %}
-    <article>
+    <article {% if post.lang %}lang="{{ post.lang }}"{% endif %}>
       <header>
         <ul>
           <li class="date">
