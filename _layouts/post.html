@@ -8,8 +8,8 @@ layout: default
       <li class="date">
         <svg class="icon"><use xlink:href="#symbol-date" /></svg>
         {{ page.date | date: "%-d" }}
-        <span id="month" itemscope itemtype="http://data-vocabulary.org/Breadcrumb" itemprop="child" itemref="post"><a href="/{{ page.date | date: "%Y/%m" }}/" itemprop="url">{% include mois.html page=page %}</a><meta itemprop="title" content="{{ page.date | date: "%m" }}" /></span>
-        <span id="year" itemscope itemtype="http://data-vocabulary.org/Breadcrumb" itemprop="child" itemref="month"><a href="/{{ page.date | date: "%Y" }}/" itemprop="url"><span itemprop="title">{{ page.date | date: "%Y" }}</span></a></span>
+        <span id="month" itemscope itemtype="https://schema.org/breadcrumb" itemprop="child" itemref="post"><a href="/{{ page.date | date: "%Y/%m" }}/" itemprop="url">{% include mois.html page=page %}</a><meta itemprop="title" content="{{ page.date | date: "%m" }}" /></span>
+        <span id="year" itemscope itemtype="https://schema.org/breadcrumb" itemprop="child" itemref="month"><a href="/{{ page.date | date: "%Y" }}/" itemprop="url"><span itemprop="title">{{ page.date | date: "%Y" }}</span></a></span>
       </li>
       <li class="tags">
         <svg class="icon"><use xlink:href="#symbol-tags" /></svg>
@@ -18,7 +18,7 @@ layout: default
     </ul>
   </header>
 
-  <h1 id="post" itemscope itemtype="http://data-vocabulary.org/Breadcrumb" itemprop="child">
+  <h1 id="post" itemscope itemtype="https://schema.org/breadcrumb" itemprop="child">
     <a href="{{ site.url }}{{ page.url }}" itemprop="url">
       <span itemprop="title">{{ page.title }}</span>
     </a>
@@ -35,7 +35,7 @@ layout: default
   };
   (function() {
       var d = document, s = d.createElement('script');
-      s.src = '//nicolas-hoizey.disqus.com/embed.js';
+      s.src = 'https://nicolas-hoizey.disqus.com/embed.js';
       s.setAttribute('data-timestamp', +new Date());
       (d.head || d.body).appendChild(s);
   })();
