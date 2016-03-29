@@ -41,8 +41,6 @@ These default font sizes were set by the device or browser vendors because it wa
 
 [^french]: In french, sorry if you don't understand it.
 
-<script async class="speakerdeck-embed" data-slide="10" data-id="e7c0142013ec01312783065ca157100a" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
-
 I agree we are not a lot[^everyone] to do that, maybe even less now than a few years ago.
 
 [^everyone]: Answering everyone's needs is at the heart of the Web's universal access principle, the first of [W3C's design principles](https://www.w3.org/Consortium/mission#principles)
