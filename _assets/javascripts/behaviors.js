@@ -1,35 +1,62 @@
-/* Load fonts */
-(function(w){
-  if(w.document.documentElement.className.indexOf("fonts-loaded" ) > -1) {
+// Load fonts
+;(function(doc) {
+  // IE9+
+  if(!('geolocation' in navigator)) {
     return;
   }
-  var observer = new w.FontFaceObserver("PT Serif", { weight: 400 });
-  observer.check(null, 5000).then(function() {
-    w.document.documentElement.className += " fonts-loaded";
-    w.loadCSS(moreFontsUrl);
 
-    // https://github.com/filamentgroup/font-loading/blob/master/data-uris.html
-    // var supportsWoff2 = (function( win ){
-    //   if( !( "FontFace" in win ) ) {
-    //     return false;
-    //   }
-    //   var f = new win.FontFace( "t", 'url( "data:application/font-woff2;charset=utf-8," ) format( "woff2" )', {} );
-    //   f.load().catch(function() {});
-    //   return f.status == 'loading';
-    // })( window );
-    // // load font (woff)
-    // var ua = navigator.userAgent,
-    //   fontFileUrl = "assets/fonts/morefonts-woff.css";
-    // if( supportsWoff2 ) {
-    //   fontFileUrl = "assets/fonts/morefonts-woff2.css";
-    // // sometimes you have to do the bad thing.  ¯\_(ツ)_/¯
-    // //  ttf if non-chrome android webkit browser
-    // } else if( ua.indexOf( "Android" ) > -1 && ua.indexOf( "like Gecko" ) > -1 && ua.indexOf( "Chrome" ) === -1 ){
-    //   fontFileUrl = "assets/fonts/morefonts-ttf.css";
-    // }
-    // loadCSS(fontFileUrl);
+  var docEl = doc.documentElement;
+  var firstStageCounter = 0;
+  var firstStageSuccess = function() {
+    firstStageCounter++;
+    if(firstStageCounter === 2) {
+      docEl.className += ' firstStageFonts-loaded';
+      secondStage();
+    }
+  };
+  var secondStageCounter = 0;
+  var secondStageSuccess = function() {
+    secondStageCounter++;
+    if( secondStageCounter === 4 ) {
+      docEl.className += ' secondStageFonts-loaded';
+    }
+  };
+
+  // Load first stage fonts
+  FontFaceOnload('PTSansBold', {
+    style: 'normal',
+    weight: 700,
+    success: firstStageSuccess
   });
-}(this));
+  FontFaceOnload('PTSerif', {
+    style: 'normal',
+    weight: 400,
+    success: firstStageSuccess
+  });
+
+  function secondStage() {
+    FontFaceOnload('PTSerifBold', {
+      style: 'normal',
+      weight: 700,
+      success: secondStageSuccess
+    });
+    FontFaceOnload('PTSerifItalic', {
+      style: 'italic',
+      weight: 400,
+      success: secondStageSuccess
+    });
+    FontFaceOnload('PTSerifBoldItalic', {
+      style: 'italic',
+      weight: 700,
+      success: secondStageSuccess
+    });
+    FontFaceOnload('PTSansBoldItalic', {
+      style: 'italic',
+      weight: 700,
+      success: secondStageSuccess
+    });
+  }
+})( document );
 
 /* Add anchor links to titles in the article */
 (function(w){

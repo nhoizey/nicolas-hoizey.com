@@ -1,41 +1,16 @@
 @import "settings";
 
-// Base font:
-// http://www.paratype.com/public/
-// + http://www.zachleat.com/web/foft/
-@font-face {
-  font-family: 'PT Serif';
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-  src: local('PT Serif'), local('PTSerif-Regular'),
-       url('/assets/fonts/pt_serif/pt_serif_regular.woff2') format('woff2'),
-       url('/assets/fonts/pt_serif/pt_serif_regular.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'PT Sans';
-  font-weight: 700;
-  font-style: normal;
-  font-stretch: normal;
-  src: local('PT Sans'), local('PTSans-Bold'),
-       url('/assets/fonts/pt_sans/pt_sans_bold.woff2') format('woff2'),
-       url('/assets/fonts/pt_sans/pt_sans_bold.woff') format('woff');
-}
-
 // Box sizing:
 // http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
 html {
   box-sizing: border-box;
+
+  // http://jaydenseric.com/blog/forget-normalize-or-resets-lay-your-own-css-foundation
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 *, *:before, *:after {
   box-sizing: inherit;
-}
-
-// http://jaydenseric.com/blog/forget-normalize-or-resets-lay-your-own-css-foundation
-html {
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -46,6 +21,7 @@ body {
   flex-direction: column;
 
   font-size: calc(.8em + .3vw + .3vh);
+  font-weight: 400;
   line-height: 1.5;
 
   color: #222;
@@ -60,20 +36,43 @@ body {
 
 body {
   font-family: Georgia, "DejaVu Serif", serif;
-  font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Tahoma, Geneva, "DejaVu Sans", sans-serif;
 }
 
-.fonts-loaded {
+.firstStageFonts-loaded {
   body {
-    font-family: "PT Serif", Georgia, "DejaVu Serif", serif;
+    font-family: "PTSerif", Georgia, "DejaVu Serif", serif;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: "PT Sans", Tahoma, Geneva, "DejaVu Sans", sans-serif;
+    font-family: "PTSansBold", Tahoma, Geneva, "DejaVu Sans", sans-serif;
+  }
+}
+
+.secondStageFonts-loaded {
+  body {
+    em {
+      font-family: "PTSerifItalic", Georgia, "DejaVu Serif", serif;
+    }
+
+    strong,
+    .tags .highlight, p .highlight,
+    .pagination li.next, .pagination li.prev {
+      font-family: "PTSerifBold", Georgia, "DejaVu Serif", serif;
+    }
+
+    em strong, strong em {
+      font-family: "PTSerifBoldItalic", Georgia, "DejaVu Serif", serif;
+    }
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    em {
+      font-family: "PTSansBoldItalic", Tahoma, Geneva, "DejaVu Sans", sans-serif;
+    }
   }
 }
 

@@ -6,7 +6,7 @@
 h1, h2, h3, h4, h5, h6 {
   a.deeplink {
     font-size: .7em;
-    font-weight: 400;
+    // font-weight: 400;
     color: #999;
     text-decoration: none;
 
@@ -195,17 +195,17 @@ article {
     }
 
     strong {
-      font-weight: 400;
+      // font-weight: 400;
       background-color: $color-blue;
       border-color: $color-blue;
       color: #fff;
     }
 
     &.next, &.prev {
-      font-weight: bold;
+      font-weight: 700;
 
       &.disabled {
-        font-weight: normal;
+        font-weight: 400;
       }
     }
   }
@@ -302,7 +302,7 @@ img.tag {
   }
 
   .tags .highlight, p .highlight {
-    font-weight: 600;
+    font-weight: 700;
   }
 }
 
