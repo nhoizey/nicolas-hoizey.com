@@ -4,8 +4,7 @@
     font-style: italic;
     font-stretch: normal;
     src: url('/assets/fonts/pt_serif/pt_serif_italic.woff2') format('woff2'),
-         url('/assets/fonts/pt_serif/pt_serif_italic.woff') format('woff'),
-         url('/assets/fonts/pt_serif/pt_serif_italic.ttf') format('truetype');
+         url('/assets/fonts/pt_serif/pt_serif_italic.woff') format('woff');
 }
 
 @font-face {
@@ -14,8 +13,7 @@
     font-style: normal;
     font-stretch: normal;
     src: url('/assets/fonts/pt_serif/pt_serif_bold.woff2') format('woff2'),
-         url('/assets/fonts/pt_serif/pt_serif_bold.woff') format('woff'),
-         url('/assets/fonts/pt_serif/pt_serif_bold.ttf') format('truetype');
+         url('/assets/fonts/pt_serif/pt_serif_bold.woff') format('woff');
 }
 
 @font-face {
@@ -24,8 +22,7 @@
     font-style: italic;
     font-stretch: normal;
     src: url('/assets/fonts/pt_serif/pt_serif_bold_italic.woff2') format('woff2'),
-         url('/assets/fonts/pt_serif/pt_serif_bold_italic.woff') format('woff'),
-         url('/assets/fonts/pt_serif/pt_serif_bold_italic.ttf') format('truetype');
+         url('/assets/fonts/pt_serif/pt_serif_bold_italic.woff') format('woff');
 }
 
 @font-face {
@@ -34,18 +31,7 @@
     font-style: italic;
     font-stretch: normal;
     src: url('/assets/fonts/pt_sans/pt_sans_italic.woff2') format('woff2'),
-         url('/assets/fonts/pt_sans/pt_sans_italic.woff') format('woff'),
-         url('/assets/fonts/pt_sans/pt_sans_italic.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'PT Sans';
-    font-weight: 700;
-    font-style: normal;
-    font-stretch: normal;
-    src: url('/assets/fonts/pt_sans/pt_sans_bold.woff2') format('woff2'),
-         url('/assets/fonts/pt_sans/pt_sans_bold.woff') format('woff'),
-         url('/assets/fonts/pt_sans/pt_sans_bold.ttf') format('truetype');
+         url('/assets/fonts/pt_sans/pt_sans_italic.woff') format('woff');
 }
 
 @font-face {
@@ -54,6 +40,5 @@
     font-style: italic;
     font-stretch: normal;
     src: url('/assets/fonts/pt_sans/pt_sans_bold_italic.woff2') format('woff2'),
-         url('/assets/fonts/pt_sans/pt_sans_bold_italic.woff') format('woff'),
-         url('/assets/fonts/pt_sans/pt_sans_bold_italic.ttf') format('truetype');
+         url('/assets/fonts/pt_sans/pt_sans_bold_italic.woff') format('woff');
 }

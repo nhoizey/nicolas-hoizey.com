@@ -10,8 +10,7 @@
   font-stretch: normal;
   src: local('PT Serif'), local('PTSerif-Regular'),
        url('/assets/fonts/pt_serif/pt_serif_regular.woff2') format('woff2'),
-       url('/assets/fonts/pt_serif/pt_serif_regular.woff') format('woff'),
-       url('/assets/fonts/pt_serif/pt_serif_regular.ttf') format('truetype');
+       url('/assets/fonts/pt_serif/pt_serif_regular.woff') format('woff');
 }
 
 @font-face {
@@ -21,8 +20,7 @@
   font-stretch: normal;
   src: local('PT Sans'), local('PTSans-Bold'),
        url('/assets/fonts/pt_sans/pt_sans_bold.woff2') format('woff2'),
-       url('/assets/fonts/pt_sans/pt_sans_bold.woff') format('woff'),
-       url('/assets/fonts/pt_sans/pt_sans_bold.ttf') format('truetype');
+       url('/assets/fonts/pt_sans/pt_sans_bold.woff') format('woff');
 }
 
 // Box sizing:
