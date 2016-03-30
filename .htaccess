@@ -748,7 +748,10 @@ RewriteCond %{REQUEST_URI} =/humans.txt
 RewriteRule ^([a-z0-9\-\._]+)$ /.well-known/$1 [L,NC]
 
 # ----------------------------------------------------------------------
-# Renamed articles
+# Renamed or moved articles and pages
 # ----------------------------------------------------------------------
 
 RewriteRule ^2015/06/un-moteur-de-recherche-sur-un-site-statique-facile-avec-algolia.html /2015/06/la-recherche-dans-du-statique-facile-avec-algolia.html [QSA,L,R=301]
+
+RewriteRule ^a-propos.html /a-propos/de-moi.html [QSA,L,R=301]
+RewriteRule ^a-propos/?$ /a-propos/de-moi.html [QSA,L,R=301]
