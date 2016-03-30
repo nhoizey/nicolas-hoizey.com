@@ -66,9 +66,9 @@
 
   for (i = 0; i < nb; ++i) {
     if (undefined !== list[i].id) {
-      list[i].innerHTML += '&nbsp;<a class="deeplink" href="#' + list[i].id + '"><svg class="icon"><use xlink:href="#symbol-link" /></svg>︎</a>';
+      list[i].innerHTML += '&nbsp;<a class="deeplink" href="#' + list[i].id + '"><svg class="icon" width=".7em" height=".7em"><use xlink:href="#symbol-link" /></svg></a>';
     } else {
-      list[i].innerHTML += '&nbsp;<a class="deeplink" href="#' + i + '"><svg class="icon"><use xlink:href="#symbol-link" /></svg></a>';
+      list[i].innerHTML += '&nbsp;<a class="deeplink" href="#' + i + '"><svg class="icon" width=".7em" height=".7em"><use xlink:href="#symbol-link" /></svg></a>';
     }
   }
 }(this));
