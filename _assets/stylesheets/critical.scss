@@ -323,7 +323,7 @@ article {
     }
   }
 
-  h1 + p:first-of-type {
+  h1 ~ p:first-of-type {
     font-size: 1.2em;
   }
 }
