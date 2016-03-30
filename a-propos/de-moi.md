@@ -3,7 +3,13 @@ title:  Je m'appelle Nicolas Hoizey
 layout: page
 ---
 
+<figure class="onefourth right">
+  <a href="/assets/photo-de-nicolas-hoizey.jpg"><img src="/assets/photo-de-nicolas-hoizey-400px.jpg" alt="Nicolas Hoizey" /></a>
+</figure>
+
 Je suis **passionné par le Web et la photographie**, entre nombreux autres centres d'intérêt.
+
+*Si la technique vous intéresse plus que ma personne, vous pouvez aussi [en apprendre plus sur ce site](/a-propos/du-site.html).*
 
 # J'aime le Web
 

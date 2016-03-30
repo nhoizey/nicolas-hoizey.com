@@ -3,11 +3,13 @@ layout: page
 title: À propos du site
 ---
 
-Si la technique ne vous intéresse pas, vous pouvez aussi [en apprendre plus sur moi](/a-propos/de-moi.html).
+**Ce site est statique**, c'est à dire que les pages et leurs contenus venant du même domaine sont envoyées tel quel par le serveur, sans aucune création à la volée[^perf].
+
+[^perf]: Difficile donc d'incriminer une quelconque application serveur en cas de lenteur… ;-)
+
+*Si la technique ne vous intéresse pas, vous pouvez aussi [en apprendre plus sur moi](/a-propos/de-moi.html).*
 
 # Le statique, c'est fantastique
-
-Ce site est statique, c'est à dire que les pages et leurs contenus venant du même domaine sont envoyées tel quel par le serveur, sans aucune création à la volée.  Difficile donc d'incriminer une quelconque application serveur en cas de lenteur… ;-)
 
 Tout le site est généré par [Jekyll](http://jekyllrb.com/) à partir de documents rédigés en syntaxe Kramdown[^kramdown]. Il a été généré pour la dernière fois le&nbsp;{{ site.time | date: "%d/%m/%Y"}}.
 
