@@ -7,8 +7,7 @@
   font-weight: 400;
   font-style: normal;
   font-stretch: normal;
-  src: local('PT Serif'), local('PTSerif-Regular'),
-       url('/assets/fonts/pt_serif/pt_serif_regular.woff2') format('woff2'),
+  src: url('/assets/fonts/pt_serif/pt_serif_regular.woff2') format('woff2'),
        url('/assets/fonts/pt_serif/pt_serif_regular.woff') format('woff');
 }
 
@@ -53,8 +52,7 @@
   font-weight: 700;
   font-style: normal;
   font-stretch: normal;
-  src: local('PT Sans'), local('PTSans-Bold'),
-       url('/assets/fonts/pt_sans/pt_sans_bold.woff2') format('woff2'),
+  src: url('/assets/fonts/pt_sans/pt_sans_bold.woff2') format('woff2'),
        url('/assets/fonts/pt_sans/pt_sans_bold.woff') format('woff');
 }
 
