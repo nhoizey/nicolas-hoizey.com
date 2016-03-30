@@ -32,15 +32,19 @@ body {
 }
 
 // ************************************************************
-// Font families
+// Fonts
 // ************************************************************
 
 body {
   font-family: Georgia, "DejaVu Serif", serif;
+  font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Tahoma, Geneva, "DejaVu Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+  color: $color-title;
 }
 
 .firstStageFonts-loaded {
@@ -49,30 +53,39 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: "PTSansBold", Tahoma, Geneva, "DejaVu Sans", sans-serif;
+    font-family: "PTSans", Tahoma, Geneva, "DejaVu Sans", sans-serif;
   }
 }
 
 .secondStageFonts-loaded {
-  body {
-    em {
-      font-family: "PTSerifItalic", Georgia, "DejaVu Serif", serif;
-    }
+  em {
+    font-family: "PTSerifItalic", Georgia, "DejaVu Serif", serif;
+  }
 
-    strong,
-    .tags .highlight, p .highlight,
-    .pagination li.next, .pagination li.prev {
-      font-family: "PTSerifBold", Georgia, "DejaVu Serif", serif;
-    }
+  strong,
+  .tags .highlight, p .highlight,
+  .pagination li.next, .pagination li.prev {
+    font-family: "PTSerifBold", Georgia, "DejaVu Serif", serif;
+    font-weight: 700;
+  }
 
-    em strong, strong em {
-      font-family: "PTSerifBoldItalic", Georgia, "DejaVu Serif", serif;
-    }
+  em strong, strong em {
+    font-family: "PTSerifBoldItalic", Georgia, "DejaVu Serif", serif;
   }
 
   h1, h2, h3, h4, h5, h6 {
     em {
+      font-family: "PTSansItalic", Tahoma, Geneva, "DejaVu Sans", sans-serif;
+    }
+
+    strong {
+      font-family: "PTSansBold", Tahoma, Geneva, "DejaVu Sans", sans-serif;
+      font-weight: 700;
+    }
+
+    em strong, strong em {
       font-family: "PTSansBoldItalic", Tahoma, Geneva, "DejaVu Sans", sans-serif;
+      font-weight: 700;
     }
   }
 }
@@ -105,12 +118,6 @@ a:active {
 
 strong {
   font-weight: 700;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  line-height: 1.4;
-  font-weight: 700;
-  color: $color-title;
 }
 
 h1, .list h2, .list h3 {

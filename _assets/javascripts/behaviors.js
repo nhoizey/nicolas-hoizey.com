@@ -17,15 +17,15 @@
   var secondStageCounter = 0;
   var secondStageSuccess = function() {
     secondStageCounter++;
-    if( secondStageCounter === 4 ) {
+    if( secondStageCounter === 6 ) {
       docEl.className += ' secondStageFonts-loaded';
     }
   };
 
   // Load first stage fonts
-  FontFaceOnload('PTSansBold', {
+  FontFaceOnload('PTSans', {
     style: 'normal',
-    weight: 700,
+    weight: 400,
     success: firstStageSuccess
   });
   FontFaceOnload('PTSerif', {
@@ -34,6 +34,7 @@
     success: firstStageSuccess
   });
 
+  // Load second stage fonts
   function secondStage() {
     FontFaceOnload('PTSerifBold', {
       style: 'normal',
@@ -48,6 +49,16 @@
     FontFaceOnload('PTSerifBoldItalic', {
       style: 'italic',
       weight: 700,
+      success: secondStageSuccess
+    });
+    FontFaceOnload('PTSansBold', {
+      style: 'normal',
+      weight: 700,
+      success: secondStageSuccess
+    });
+    FontFaceOnload('PTSansItalic', {
+      style: 'italic',
+      weight: 400,
       success: secondStageSuccess
     });
     FontFaceOnload('PTSansBoldItalic', {
