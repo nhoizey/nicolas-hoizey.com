@@ -1,16 +1,11 @@
 // Load fonts
 ;(function(doc) {
   // IE9+
-  if(!('geolocation' in navigator)) {
+  if(!('geolocation' in navigator) || (sessionStorage.firstStageFontsLoaded && sessionStorage.secondStageFontsLoaded)) {
     return;
   }
 
   var docEl = doc.documentElement;
-
-  if (sessionStorage.firstStageFontsLoaded && sessionStorage.secondStageFontsLoaded) {
-    docEl.className += ' firstStageFonts-loaded secondStageFonts-loaded';
-    return;
-  }
 
   var firstStageCounter = 0;
   var firstStageSuccess = function() {
