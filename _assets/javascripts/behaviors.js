@@ -6,11 +6,18 @@
   }
 
   var docEl = doc.documentElement;
+
+  if (sessionStorage.firstStageFontsLoaded && sessionStorage.secondStageFontsLoaded) {
+    docEl.className += ' firstStageFonts-loaded secondStageFonts-loaded';
+    return;
+  }
+
   var firstStageCounter = 0;
   var firstStageSuccess = function() {
     firstStageCounter++;
     if(firstStageCounter === 2) {
       docEl.className += ' firstStageFonts-loaded';
+      sessionStorage.firstStageFontsLoaded = true;
       secondStage();
     }
   };
@@ -19,6 +26,7 @@
     secondStageCounter++;
     if( secondStageCounter === 6 ) {
       docEl.className += ' secondStageFonts-loaded';
+      sessionStorage.secondStageFontsLoaded = true;
     }
   };
 
