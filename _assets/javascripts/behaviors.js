@@ -19,7 +19,7 @@
   var secondStageCounter = 0;
   var secondStageSuccess = function() {
     secondStageCounter++;
-    if( secondStageCounter === 6 ) {
+    if( secondStageCounter === 4 ) {
       docEl.className += ' secondStageFonts-loaded';
       sessionStorage.secondStageFontsLoaded = true;
     }
@@ -54,21 +54,21 @@
       weight: 700,
       success: secondStageSuccess
     });
-    FontFaceOnload('PTSansBold', {
-      style: 'normal',
-      weight: 700,
-      success: secondStageSuccess
-    });
+    // FontFaceOnload('PTSansBold', {
+    //   style: 'normal',
+    //   weight: 700,
+    //   success: secondStageSuccess
+    // });
     FontFaceOnload('PTSansItalic', {
       style: 'italic',
       weight: 400,
       success: secondStageSuccess
     });
-    FontFaceOnload('PTSansBoldItalic', {
-      style: 'italic',
-      weight: 700,
-      success: secondStageSuccess
-    });
+    // FontFaceOnload('PTSansBoldItalic', {
+    //   style: 'italic',
+    //   weight: 700,
+    //   success: secondStageSuccess
+    // });
   }
 })( document );
 
