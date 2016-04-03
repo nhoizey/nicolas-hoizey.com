@@ -4,7 +4,7 @@
     return;
   }
 
-  if (sessionStorage.firstStageFontsLoaded && sessionStorage.secondStageFontsLoaded) {
-    doc.documentElement.className += ' firstStageFonts-loaded secondStageFonts-loaded';
-  }
+  // if (sessionStorage.firstStageFontsLoaded && sessionStorage.secondStageFontsLoaded) {
+  //   doc.documentElement.className += ' firstStageFonts-loaded secondStageFonts-loaded';
+  // }
 })( document );

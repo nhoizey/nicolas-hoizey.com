@@ -1,7 +1,7 @@
 // Load fonts
 ;(function(doc) {
   // IE9+
-  if(!('geolocation' in navigator) || (sessionStorage.firstStageFontsLoaded && sessionStorage.secondStageFontsLoaded)) {
+  if(!('geolocation' in navigator)) {
     return;
   }
 
