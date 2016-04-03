@@ -37,7 +37,11 @@ body {
 
 body {
   font-family: Georgia, "DejaVu Serif", serif;
-  font-weight: 400;
+}
+
+article p {
+  font-size: 1.09em;
+  line-height: (1.5 / 1.09);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -45,6 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   line-height: 1.4;
   color: $color-title;
+  letter-spacing: .025em;
 }
 
 .firstStageFonts-loaded {
@@ -52,8 +57,14 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "PTSerif", Georgia, "DejaVu Serif", serif;
   }
 
+  article p {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+
   h1, h2, h3, h4, h5, h6 {
     font-family: "PTSans", Tahoma, Geneva, "DejaVu Sans", sans-serif;
+    letter-spacing: 0;
   }
 }
 
