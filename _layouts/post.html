@@ -25,9 +25,7 @@ layout: default
   </h1>
   {{ content }}
   {% if page.flickr or page.500px %}
-    <p>Vous pouvez aussi voir cette photo
-    {% if page.flickr %}<a href="{{ page.flickr }}">sur Flickr</a>{% if page.500px %} et {% endif %}{% endif %}
-    {% if page.500px %}<a href="{{ page.500px }}">sur 500px</a>{% endif %}.</p>
+    <p>Vous pouvez aussi voir cette photo {% if page.flickr %}<a href="{{ page.flickr }}">sur Flickr</a>{% if page.500px %} et {% endif %}{% endif %}{% if page.500px %}<a href="{{ page.500px }}">sur 500px</a>{% endif %}.</p>
   {% endif %}
   {% assign source = page.path | split: '/' %}
   <p class="edit">Si vous voulez signaler une erreur ou proposer une modification de ce texte, n'hésitez pas à l'éditer directement à <a href="https://github.com/nhoizey/nicolas-hoizey.com/tree/master/{{ page.path }}">la source sur Github</a>.</p>
