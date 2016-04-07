@@ -33,10 +33,28 @@ article {
   }
 
   figure {
+    text-align: center;
+
     img, iframe, .embed-video-container {
       display: block;
       margin: 0;
       padding: 0;
+    }
+
+    figcaption {
+      // http://nocode.in/aligning-text-smartly-in-css/
+      display: inline-block;
+      text-align: left;
+
+      font-size: .9em;
+      font-style: italic;
+      margin: .1em 1em;
+      padding: .3em 0;
+      color: #999;
+
+      p {
+        margin: 0;
+      }
     }
 
     &.onehalf {
@@ -59,18 +77,6 @@ article {
     &.right {
       float: right;
       margin: 0 0 1em 1em;
-    }
-
-    figcaption {
-      font-size: .9em;
-      font-style: italic;
-      margin: .1em 1em;
-      padding: .3em 0;
-      color: #999;
-
-      p {
-        margin: 0;
-      }
     }
   }
 
