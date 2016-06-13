@@ -1,8 +1,0 @@
-_drafts
-_site
-.jekyll-assets-cache
-.sass-cache
-.tweet-cache
-_build.sh
-_deploy.sh
-_config_credentials.yml
