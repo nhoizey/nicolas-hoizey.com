@@ -6,7 +6,7 @@ tags:       [sécurité, proxy, PALC]
 
 Quand les clients ne nous imposent pas de travailler sur leurs propres machines —heureusement pas trop souvent—, ils nous imposent souvent un proxy pour accéder à Internet, le grand méchant loup. S'il est bien connu que les règles de filtrage imposées sont souvent contre productives, l'auto configuration à l'aide d'un fichier `.pac` peut ajouter une contrainte supplémentaire pour les développeurs.
 
-En effet, le simple fait d'utiliser un fichier `.pac` pour configurer automatiquement le proxy fait ignorer complètement la liste d'adresses et domaines pour lesquels il faudrait ignorer cette configuration, comme l'indique l'article « [Mac OS X: Bypassing proxy settings for specific IP addresses*en*](http://support.apple.com/kb/ht4654) » de la base de connaissance Apple :
+En effet, le simple fait d'utiliser un fichier `.pac` pour configurer automatiquement le proxy fait ignorer complètement la liste d'adresses et domaines pour lesquels il faudrait ignorer cette configuration, comme l'indique l'article « [Mac OS X: Bypassing proxy settings for specific IP addresses](http://support.apple.com/kb/ht4654) » de la base de connaissance Apple :
 
 > When you use a .pac file, the hosts to bypass are specified in that file, and hosts listed in the Network preference pane are ignored.
 
