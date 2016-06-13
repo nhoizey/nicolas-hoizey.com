@@ -21,6 +21,8 @@ body {
   display: flex;
   flex-direction: column;
 
+  // Default font family before font face load
+  font-family: Georgia, "DejaVu Serif", serif;
   font-size: calc(.8em + .3vw + .3vh);
   font-weight: 400;
   line-height: 1.5;
@@ -35,16 +37,13 @@ body {
 // Fonts
 // ************************************************************
 
-body {
-  font-family: Georgia, "DejaVu Serif", serif;
-}
-
 article p {
   font-size: 1.09em;
   line-height: (1.5 / 1.09);
 }
 
 h1, h2, h3, h4, h5, h6 {
+  // Default font family before font face load
   font-family: Tahoma, Geneva, "DejaVu Sans", sans-serif;
   font-weight: 400;
   line-height: 1.4;
@@ -104,6 +103,7 @@ h1, h2, h3, h4, h5, h6 {
 pre {
   // font-family: "PT Mono", "Courier New", Courier, monospace;
   font-family: "Courier New", Courier, monospace;
+  overflow-x: auto;
 }
 
 // ************************************************************
@@ -159,10 +159,6 @@ h4 {
 h5 {
   font-size: 1em;
   font-style: italic;
-}
-
-pre {
-  overflow-x: auto;
 }
 
 // ************************************************************
