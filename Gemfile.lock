@@ -96,6 +96,7 @@ GEM
     mercenary (0.3.5)
     mini_magick (3.8.1)
       subexec (~> 0.2.1)
+    mini_portile2 (2.0.0)
     minitest (5.8.4)
     multi_json (1.11.2)
     multipart-post (2.0.0)
@@ -183,4 +184,4 @@ DEPENDENCIES
   yt
 
 BUNDLED WITH
-   1.10.6
+   1.12.1
