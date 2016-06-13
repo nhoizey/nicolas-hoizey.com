@@ -2,17 +2,19 @@
 title:      Une goutte de crayon(s)
 lang:       fr
 tags:       [photo, macro, matériel]
+500px:      https://500px.com/photo/95622389
 ---
 
 Nous avons eu droit hier au [Photo Club de Draveil](http://photoclubdraveil.fr/) à la visite de [Marjolaine Vuarnesson](https://500px.com/vuarnessonmarjolaine), une photographe talentueuse notamment connue pour sa série de macros colorées à base d'eau. L'occasion pour elle de nous montrer ses réalisations et surtout sa technique, et pour nous de l'appliquer.
 
 Voilà le résultat auquel je suis arrivé :
 
-<div class="pixels-photo">
-  <p><img src="https://drscdn.500px.org/photo/95622389/m=900/95ae2ae30dd1829a1c125a6472b3ab06" alt="Photograph Une goutte de crayon(s) by Nicolas Hoizey on 500px"></p>
-  <a href="https://500px.com/photo/95622389/une-goutte-de-crayon(s)-by-nicolas-hoizey">Une goutte de crayon(s) by Nicolas Hoizey on 500px</a>
-</div>
-<script type="text/javascript" src="https://500px.com/embed.js"></script>
+<figure>
+  {% picture Une-goutte-de-crayons.jpg alt="Une photo en macro d'un crayon de couleur blanc avec une goutte multicolore" %}
+  <figcaption>
+  Une goutte de crayon
+  </figcaption>
+</figure>
 
 La mise en place n'est finalement pas très compliquée, et le résultat très intéressant.
 

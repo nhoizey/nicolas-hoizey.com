@@ -2,13 +2,16 @@
 title:      Sony RX100 III, mon excellent nouveau compact expert toujours en poche
 lang:       fr
 tags:       [photo, sony, RX100, matériel]
+500px:      https://500px.com/photo/94804509
 ---
 
 [Marc Charbonnier](http://marc-charbonnier.com/) a publié mi décembre un « test terrain » du compact expert [Sony RX100 III](http://www.sony.fr/electronics/appareils-photo-cyber-shot-compacts/dsc-rx100m3), constitué de retours d'expérience et avis d'heureux possesseurs de ce boitier, dont je fais partie depuis juin 2014. Une prise de contact sur Twitter m'a conduit à faire parti des photographes interrogés par Marc.
 
 J'avais déjà eu l'occasion de faire un [test du Panasonic Lumix DMC-GM1](/2014/08/mon-test-du-panasonic-lumix-dmc-gm1-un-minuscule-appareil-photo-hybride.html), minuscule appareil photo hybride, grâce à [Phototrend](http://phototrend.fr/), mais je n'avais pas été convaincu, préférant attendre la sortie d'un appareil encore plus compact et possédant un viseur.
 
-Dès que j'ai lu l'annonce de sortie du Sony RX100 III[^1] et les premiers avis de spécialistes, j'ai su que la perle rare était enfin au rendez-vous et je me suis empressé de l'acheter.
+Dès que j'ai lu l'annonce de sortie du Sony RX100 III[^nom] et les premiers avis de spécialistes, j'ai su que la perle rare était enfin au rendez-vous et je me suis empressé de l'acheter.
+
+[^nom]: On lit aussi RX100 Mark 3, RX100 mk 3 ou RX100m3 selon les sources…
 
 <figure>
   {% picture sony-rx100-3.jpg %}
@@ -35,10 +38,10 @@ Et surtout :
 
 Voici par exemple une photo réalisée en boîte à Ibiza avec ce bijou de poche, vous imaginez bien que je n'aurais pas pu rentrer avec un reflex :
 
-<div class="pixels-photo">
-  <p><img src="https://ppcdn.500px.org/94804509/b39eccafb2acf605571fb74fc52be3a5bd7a4738/4.jpg" alt="Photograph Follow the rythm by Nicolas Hoizey on 500px"></p>
-  <a href="https://500px.com/photo/94804509/follow-the-rythm-by-nicolas-hoizey">Follow the rythm by Nicolas Hoizey on 500px</a>
-</div>
-<script type="text/javascript" src="https://500px.com/embed.js"></script>
+<figure>
+  {% picture Follow-the-rythm.jpg alt="Un DJ mixe dans une boîte de nuit" %}
+  <figcaption>
+  Follow the rythm
+  </figcaption>
+</figure>
 
-[^1]: On lit aussi RX100 Mark 3, RX100 mk 3 ou RX100m3 selon les sources…
