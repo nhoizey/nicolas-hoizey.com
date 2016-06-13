@@ -317,15 +317,21 @@ AddDefaultCharset utf-8
 
 # Remove www.
 RewriteCond %{HTTP_HOST} ^www\. [NC]
-RewriteRule ^(.*) http://nicolas-hoizey.com/$1 [QSA,R=301,L]
+RewriteRule ^(.*) https://nicolas-hoizey.com/$1 [QSA,R=301,L]
 
 # Redirect from .fr to .com
 RewriteCond %{HTTP_HOST} \.fr$ [NC]
-RewriteRule ^(.*) http://nicolas-hoizey.com/$1 [QSA,R=301,L]
+RewriteRule ^(.*) https://nicolas-hoizey.com/$1 [QSA,R=301,L]
 
 # Redirect from domain without dash
 RewriteCond %{HTTP_HOST} nicolashoizey\.com$ [NC]
-RewriteRule ^(.*) http://nicolas-hoizey.com/$1 [QSA,R=301,L]
+RewriteRule ^(.*) https://nicolas-hoizey.com/$1 [QSA,R=301,L]
+
+# Redirect from http to https
+# RewriteCond specific to AlwaysData proxy
+# https://help.alwaysdata.com/my-account/ssl/redirection-http-https
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*) https://nicolas-hoizey.com/$1 [QSA,R=301,L]
 
 # ##############################################################################
 # # SECURITY                                                                   #
