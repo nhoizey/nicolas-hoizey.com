@@ -1,4 +1,5 @@
 gems:
+  - jekyll-paginate
   - algoliasearch-jekyll
 
 # Site settings
@@ -15,3 +16,7 @@ github_username:  nhoizey
 
 # Build settings
 markdown: kramdown
+# Pagination
+paginate: 5
+paginate_path: '/page-:num/'
+
