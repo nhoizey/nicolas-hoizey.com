@@ -1,20 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr" class="{{ page.type }}{% if page.path contains "_posts" %} post{% endif %}">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+{% if page.path contains "a-propos.md" %}
+<body itemscope itemtype="http://schema.org/AboutPage">
+{% else %}
+<body itemscope itemtype="http://schema.org/WebPage">
+{% endif %}
 
-    {% include header.html %}
+<svg style="display: none;" aria-hidden="true">
+  {% asset symbol-date.svg %}
+  {% asset symbol-tags.svg %}
+  {% asset symbol-link.svg %}
+</svg>
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+<header id="header">
+  <div class="wrap">
+    <p>
+      {% if page.url != "/index.html" %}
+        {% if page.path contains "_posts" %}
+          {% comment %} https://developers.google.com/structured-data/breadcrumbs {% endcomment %}
+          <span id="root" itemscope itemtype="https://schema.org/breadcrumb" itemref="year"><a href="/" title="Home" itemprop="url"><span itemprop="title">{{ site.title }}</span></a></span>
+        {% else %}
+          <a href="/" title="Home">{{ site.title }}</a>
+        {% endif %}
+      {% endif %}
+    </p>
+    <p>
+      <a href="/recherche.html" class="search">{% asset icon-search.svg %}</a>
+    </p>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+    {{ content }}
+  </div>
+</main>
+<aside id="networks">
+  <div class="wrap">
+    <ul>
+      <li><a href="https://twitter.com/nhoizey" class="twitter" rel="me">{% asset icon-twitter.svg %}</a></li>
+      <li><a href="https://500px.com/nhoizey" class="px500" rel="me">{% asset icon-500px.svg %}</a></li>
+      <li><a href="https://www.flickr.com/photos/nicolas-hoizey/" class="flickr" rel="me">{% asset icon-flickr.svg %}</a></li>
+      <li><a href="https://www.facebook.com/photo.synthese.nicolas.hoizey/" class="facebook" rel="me">{% asset icon-facebook.svg %}</a></li>
+      <li><a href="https://instagram.com/nhoizey" class="instagram" rel="me">{% asset icon-instagram.svg %}</a></li>
+      <li><a href="https://github.com/nhoizey" class="github" rel="me">{% asset icon-github.svg %}</a></li>
+      <li><a href="/atom.xml" class="feed" rel="me">{% asset icon-feed.svg %}</a></li>
+    </ul>
+  </div>
+</aside>
+<footer id="footer">
+  <div class="wrap">
+    <p><small>©&nbsp;2016 <a href="https://nicolas-hoizey.com/a-propos.html">Nicolas&nbsp;Hoizey</a></small></p>
+    <p><small>Généré avec&nbsp;<a href="/a-propos.html#la-technique">Jekyll</a></small></p>
+  </div>
+</footer>
 
-    {% include footer.html %}
+{% include foot.html %}
 
-  </body>
+</body>
 
 </html>

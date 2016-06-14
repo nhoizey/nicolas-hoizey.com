@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+{% capture tag_image_path %}tags/{{ page.tag | slugify }}.png{% endcapture %}
+{% capture tag_image %}{% file_exists {{ tag_image_path }} %}{% endcapture %}
+{% if tag_image == "true" %}
+  <img src="/{{ tag_image_path }}" class="tag" />
+{% endif %}
+
+<h1>Billets tagués «&nbsp;{{ page.tag }}&nbsp;»</h1>
+
+{% capture tag_description_path %}tags/{{ page.tag | slugify }}.md{% endcapture %}
+{% capture tag_description %}{% file_exists {{ tag_description_path }} %}{% endcapture %}
+{% if tag_description == "true" %}
+  <div class="intro">{% markdown {{ tag_description_path }} %}</div>
+{% endif %}
+
+<div class="list">
+  {% for post in page.posts %}
+    <article {% if post.lang %}lang="{{ post.lang }}"{% endif %}>
+      {% include article-header.html page=post %}
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      {{ post.excerpt | mardownify | strip_footnotes }}
+    </article>
+  {% endfor %}
+</div>
+
+<div class="tagscloud">
+  <h2>Autres tags à explorer</h2>
+  {{ site | tag_cloud }}
+</div>

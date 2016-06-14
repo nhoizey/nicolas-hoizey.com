@@ -1,12 +1,117 @@
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<head{% if page.title == "Accueil" %} itemscope itemtype="http://schema.org/WebSite"{% endif %}>
+  {% comment %}
+  charset and viewport first: http://www.nateberkopec.com/2015/10/21/hacking-head-tags-for-speed-and-profit.html
+  {% endcomment %}
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <script>
+  {% asset early %}
+  </script>
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <style>
+  {% asset fonts %}
+  {% asset critical %}
+  </style>
+
+  <link rel="preload" href="{% asset_path styles %}" as="style" onload="this.rel='stylesheet'" />
+  <noscript>
+    <link rel="stylesheet" href="{% asset_path styles %}" />
+  </noscript>
+  <script>
+    {% asset vendors/loadCSS-1.2.0 %}
+    {% asset vendors/cssrelpreload-1.2.0 %}
+  </script>
+
+  {% javascript vendors/picturefill-3.0.2 async defer %}
+
+  {% comment %} opengraph and Twitter {% endcomment %}
+  <meta property="og:site_name" content="Nicolas Hoizey" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:creator" content="@nhoizey" />
+  <meta name="twitter:site" content="@nhoizey" />
+
+  {% comment %} https://dev.twitter.com/web/overview/widgets-webpage-properties#csp {% endcomment %}
+  <meta name="twitter:widgets:csp" content="on" />
+
+  {% if page.title == "Accueil" %}
+    <title itemprop="name">Nicolas Hoizey</title>
+    <link rel="canonical" href="{{ site.url }}" itemprop="url" />
+    <meta name="description" content="Le recueil de créations et réflexions de Nicolas Hoizey sur des sujets très variés, de la photo au Web en passant par la société, les voyages, etc." />
+    <meta property="og:url" content="{{ site.url }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ site.title }}" />
+    <meta property="og:image" content="{{ site.url }}/favicon.jpg" />
+  {% else %}
+    {% if page.type == "year" %}
+      <title>Billets de {{ page.date | date: "%Y" }}</title>
+      <meta name="description" content="Billets de Nicolas Hoizey publiés en {{ page.date | date: "%Y" }}" />
+      <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Billets de {{ page.date | date: "%Y" }}" />
+      <meta property="og:image" content="{{ site.url }}/favicon.jpg" />
+    {% else %}
+      {% if page.type == "month" %}
+        <title>Billets de {% include mois.html page=page %} {{ page.date | date: "%Y" }}</title>
+        <meta name="description" content="Billets de Nicolas Hoizey publiés en {% include mois.html page=page %} {{ page.date | date: "%Y" }}" />
+        <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Billets de {% include mois.html page=page %} {{ page.date | date: "%Y" }}" />
+        <meta property="og:image" content="{{ site.url }}/favicon.jpg" />
+      {% else %}
+        {% if page.tag %}
+          <title>{{ page.tag }}</title>
+          <meta name="description" content="Billets de Nicolas Hoizey auxquels est associé le tag « {{ page.tag }} »" />
+          <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+          <meta property="og:type" content="website" />
+          <meta property="og:title" content="{{ page.tag }}" />
+          {% capture tag_image_path %}assets/tags/{{ page.tag | slugify }}.png{% endcapture %}
+          {% capture tag_image %}{% file_exists {{ tag_image_path }} %}{% endcapture %}
+          {% if tag_image == "true" %}
+            <meta property="og:image" content="{{ site.url }}/{{ tag_image_path }}" />
+          {% else %}
+            <meta property="og:image" content="{{ site.url }}/favicon.jpg" />
+          {% endif %}
+        {% else %}
+          <title>{{ page.title }}</title>
+          <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 150 | truncate: 290 | strip_newlines | escape_once }}" />
+          <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+          <meta property="og:type" content="article" />
+          <meta property="og:title" content="{{ page.title }}" />
+          <meta property="article:author" content="https://www.facebook.com/nhoizey" />
+          {% for tag in page.tags %}
+            <meta property="article:tag" content="{{ tag }}" />
+          {% endfor %}
+          <meta property="og:image" content="{{ site.url }}/favicon.jpg" />
+        {% endif %}
+      {% endif %}
+    {% endif %}
+  {% endif %}
+
+  <link rel="alternate" type="application/rss+xml" title="Abonnez-vous au flux" href="/atom.xml" />
+  <link rel="icon" type="image/jpeg" href="/favicon.jpg" />
+
+  {% comment %} webmentions with webmention.io {% endcomment %}
+  <link rel="pingback" href="https://webmention.io/nicolas-hoizey.com/xmlrpc" />
+  <link rel="webmention" href="https://webmention.io/nicolas-hoizey.com/webmention" />
+
+  {% comment %} iOS features {% endcomment %}
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <link rel="apple-touch-icon" href="/favicon.jpg" />
+  <meta name="apple-mobile-web-app-title" content="NH.com" />
+
+  {% comment %} Theme color : https://developers.google.com/web/updates/2014/11/Support-for-theme-color-in-Chrome-39-for-Android {% endcomment %}
+  <meta name="theme-color" content="#55aaee">
+
+  {% comment %} Hacked isogram with http://isogrammer.com/ {% endcomment %}
+  <script>
+  (function(n,h,o,i,z,e,y){n['GoogleAnalyticsObject']=z;n[z]=n[z]||function(){
+  (n[z].q=n[z].q||[]).push(arguments)},n[z].l=1*new Date();e=h.createElement(o),
+  y=h.getElementsByTagName(o)[0];e.async=1;e.src=i;y.parentNode.insertBefore(e,y)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1655999-10', 'auto');
+  ga('send', 'pageview');
+  </script>
 </head>
