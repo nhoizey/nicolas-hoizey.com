@@ -21,6 +21,15 @@ markdown: kramdown
 paginate: 5
 paginate_path: '/page-:num/'
 
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
 # Jekyll Assets
 assets:
   compress:
