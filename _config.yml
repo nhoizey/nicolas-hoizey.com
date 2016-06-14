@@ -1,4 +1,5 @@
 gems:
+  - jekyll-assets
   - jekyll-paginate
   - algoliasearch-jekyll
 
@@ -19,4 +20,10 @@ markdown: kramdown
 # Pagination
 paginate: 5
 paginate_path: '/page-:num/'
+
+# Jekyll Assets
+assets:
+  compress:
+    css: true
+    js: true
 
