@@ -16,10 +16,10 @@ Par exemple, je préfère que mes pages soient accédées à l'URL [http://gaste
 
 J'avais donc mis dans ma configuration Apache les directives suivantes :
 
-~~~ apache
+```apache
 RewriteCond %{HTTP_HOST} ^www\.gasteroprod\.com [NC]
 RewriteRule ^(.*) http://gasteroprod.com/$1 [QSA,R=301,L]
-~~~
+```
 
 # WebPerf : les redirections tu éviteras
 
@@ -50,11 +50,11 @@ Du coup, c'est effectivement simple, il suffit de ne faire les redirections que 
 
 Voilà donc ce que cela donne en réduisant la cible à [Googlebot](http://www.useragentstring.com/pages/Googlebot/), la signature du robot d'indexation de Google :
 
-~~~ apache
+```apache
 RewriteCond %{HTTP_USER_AGENT} Googlebot
 RewriteCond %{HTTP_HOST} ^www\.gasteroprod\.com [NC]
 RewriteRule ^(.*) http://gasteroprod.com/$1 [QSA,R=301,L]
-~~~
+```
 
 Vous pouvez bien entendu ajouter d'autres robots si cela vous chante…
 
