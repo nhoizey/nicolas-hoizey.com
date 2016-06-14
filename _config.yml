@@ -17,6 +17,7 @@ github_username:  nhoizey
 
 # Build settings
 markdown: kramdown
+
 # Pagination
 paginate: 5
 paginate_path: '/page-:num/'
@@ -30,6 +31,12 @@ defaults:
     values:
       layout: "post"
 
+# Tags
+tag_page_layout: tag
+tag_page_dir: tags
+tag_feed_layout: atom-tag
+tag_feed_dir: tags
+
 exclude:
   - autoprefixer.yml
   - Gemfile*
@@ -40,6 +47,7 @@ include:
   - .htaccess
   - .well-known
   - tags
+
 # Jekyll Assets
 assets:
   compress:
