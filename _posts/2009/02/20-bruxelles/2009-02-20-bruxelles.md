@@ -7,7 +7,7 @@ tags:       [photo]
 Une photo prise sur la Grand-Place de Bruxelles.
 
 <figure>
-  {% picture bruxelles.jpg %}
+  ![](bruxelles.jpg)
   <figcaption>
   Bruxelles
   </figcaption>

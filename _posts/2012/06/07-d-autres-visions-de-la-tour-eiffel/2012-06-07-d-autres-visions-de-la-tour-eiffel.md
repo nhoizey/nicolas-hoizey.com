@@ -13,14 +13,14 @@ Voilà bien un sujet photographique qui a déjà largement été traité par tou
 <script type="text/javascript" src="https://500px.com/embed.js"></script>
 
 <figure>
-  {% picture vertige.jpg %}
+  ![](vertige.jpg)
   <figcaption>
   Vertige
   </figcaption>
 </figure>
 
 <figure>
-  {% picture aie_ca_pique.jpg %}
+  ![](aie_ca_pique.jpg)
   <figcaption>
   Aïe, ça pique !
   </figcaption>

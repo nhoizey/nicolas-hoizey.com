@@ -13,7 +13,7 @@ D'un côté, Apple rend les sauvegardes plus accessible au grand public avec [Ti
 Quand Apple a sorti Time Machine avec Leopard, tout le monde y a vu l'arrivée d'une solution de sauvegarde enfin vraiment simple et accessible au grand public. Tout se fait de manière transparente, avec conservation de versions successives, et surtout une interface d'accès aux sauvegardes vraiment intuitive pour le commun des mortels, et en plus plutôt ludique.
 
 <figure>
-  {% picture Apple_Time_Machine.png %}
+  ![](Apple_Time_Machine.png)
   <figcaption>
   Recherche d'une sauvegarde dans Time Machine
   </figcaption>
@@ -43,7 +43,7 @@ Il y a les grands classiques comme [SuperDuper (en)](http://www.shirt-pocket.com
 **Faire croire à Time Machine que le NAS est un disque USB**
 
 <figure>
-  {% picture Apple_Time_Machine_icon.png %}
+  ![](Apple_Time_Machine_icon.png)
 </figure>
 
 Une autre solution serait peut-être d'utiliser quand même Time Machine, mais en lui faisant croire que le NAS est en fait un disque USB, par exemple avec le [hub USB sans fil de Belkin (en)](http://catalog.belkin.com/IWCatProductPage.process?Product_Id=377793)[^7] ou avec un [partage USB via réseau (en)](http://www.eltima.com/products/usb-over-ethernet/)[^8], le NAS étant connecté à un PC de base ne faisant que ça. Mais ça devient compliqué à mettre en œuvre matériellement, et existe-t-il de toute façon des NAS sachant aussi fonctionner en mode disque externe USB ?

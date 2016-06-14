@@ -1,6 +1,6 @@
---- 
-title:      Faciliter la reprise de tweets (les retweets) à l'ancienne sur Twitter 
-lang:       fr 
+---
+title:      Faciliter la reprise de tweets (les retweets) à l'ancienne sur Twitter
+lang:       fr
 tags:       [Twitter]
 ---
 
@@ -9,7 +9,7 @@ Même si [Twitter](http://twitter.com/) a mis en place depuis maintenant un cert
 [^1]: Mécanisme [expliqué en profondeur par Evan Williams](http://evhead.com/2009/11/why-retweet-works-way-it-does.html)...
 
 <figure class="one-fourth right">
-  {% picture twitter-logo-trans-180.png %}
+  ![](twitter-logo-trans-180.png)
 </figure>
 
 Il faut bien entendu prendre en compte que le retweetteur va inclure dans son propre tweet le tweeteur d'origine, ce qui consommera de la place, au point qu'un retweet par défaut dépasse parfois la taille de 140 caractères. Cela impose une retouche manuelle, et l'Homme étant fainéant par nature, certains préféreront du coup ne pas retweeter plutôt qu'essayer une retouche. Si vous tweetez pour communiquer, vous vous couper un relai qui pourrait être intéressant, et qu'il est facile de conserver.

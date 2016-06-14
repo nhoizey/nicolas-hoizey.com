@@ -34,7 +34,7 @@ Si vous utilisez — et vous le devez — [WebPageTest](http://webpagetest.org/)
 La [page d'accueil de la FNAC](http://fnac.fr/) est par exemple finalisée après 11 redirections. L'une — qui impacte le plus l'utilisateur — pour rediriger de [http://fnac.fr/](http://fnac.fr/) vers [http://www.fnac.com/](http://www.fnac.com/) et les 10 autres à cause de services de publicité et statistiques :
 
 <figure>
-  {% picture waterfall-fnac-20120706.png %}
+  ![](waterfall-fnac-20120706.png)
 </figure>
 
 Mais alors comment faire, puisque le SEO me demande de faire des redirections ?

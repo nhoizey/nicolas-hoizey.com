@@ -7,7 +7,7 @@ tags:       [Sud Web, Web, qualité, conférence, Web]
 Dans moins d'un mois, les 25 et 26 mai, aura lieu la seconde édition de [Sud Web](http://sudweb.fr/2012/) à Toulouse, et l’excitation commence à monter à l'idée de bientôt retrouver toute cette communauté d’artisans du Web, d'échanger et de construire tous ensemble les bonnes pratiques de mise en œuvre et usage du Web.
 
 <figure class="one-third right">
-  {% picture banniere2012fa8a.png %}
+  ![](banniere2012fa8a.png)
   <figcaption>
     Sud Web 2012, j'y serai !
   </figcaption>

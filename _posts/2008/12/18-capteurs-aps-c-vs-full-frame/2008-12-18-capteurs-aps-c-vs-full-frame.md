@@ -34,14 +34,14 @@ Tout simplement parce que j'ai dans le capteur *full frame* du 5D Mark II presqu
 La preuve en images. Voici les images proportionnelles des deux capteurs, avec indication de leurs caractéristiques techniques :
 
 <figure>
-  {% picture capteur-canon-eos-350d.png %}
+  ![](capteur-canon-eos-350d.png)
   <figcaption>
   Canon EOS 350D
   </figcaption>
 </figure>
 
 <figure>
-  {% picture capteur-canon-eos-5d-mark-ii.png %}
+  ![](capteur-canon-eos-5d-mark-ii.png)
   <figcaption>
   Canon EOS 5D Mark II
   </figcaption>
@@ -51,35 +51,35 @@ La preuve en images. Voici les images proportionnelles des deux capteurs, avec i
 Histoire d'illustrer encore mieux mon propos, voilà une photo que je pourrais faire au 300mm avec le 5D Mark II :
 
 <figure>
-  {% picture photo-ecureuil-capteur-canon-eos-5d-mark-ii.png %}
+  ![](photo-ecureuil-capteur-canon-eos-5d-mark-ii.png)
 </figure>
 
 
 Montrons le capteur *full frame* couvrant tout le cadre :
 
 <figure>
-  {% picture photo-ecureuil-capteur-canon-eos-5d-mark-ii-2.png %}
+  ![](photo-ecureuil-capteur-canon-eos-5d-mark-ii-2.png)
 </figure>
 
 
 Avec le 350D, le 300mm deviendrais un 480mm et je pourrais ainsi avoir un cadrage plus serré comme tel :
 
 <figure>
-  {% picture photo-ecureuil-capteur-canon-eos-350d.png %}
+  ![](photo-ecureuil-capteur-canon-eos-350d.png)
 </figure>
 
 
 Mais rien ne m'empêche de partir de la photo faite au 5D Mark II et de choisir par la suite un recadrage correspondant à ce même grossissement :
 
 <figure>
-  {% picture photo-ecureuil-capteur-canon-eos-5d-mark-ii-recadre.png %}
+  ![](photo-ecureuil-capteur-canon-eos-5d-mark-ii-recadre.png)
 </figure>
 
 
 Au final, le résultat est le même, tant en cadrage qu'en nombre de pixels :
 
 <figure>
-  {% picture photo-ecureuil-final.png %}
+  ![](photo-ecureuil-final.png)
 </figure>
 
 

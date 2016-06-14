@@ -12,7 +12,7 @@ Elle avait été annoncée pour l'été, et il semble qu'avec la masse de travai
 En témoigne le changement de nom de la version de développement, dont la signature est visible en bas de toutes les pages de l'interface de contribution :
 
 <figure>
-  {% picture SPIP_2.0.0_SVN.png %}
+  ![](SPIP_2.0.0_SVN.png)
   <figcaption>
   La signature de SPIP 2.0.0 SVN
   </figcaption>

@@ -10,9 +10,9 @@ J'ai rapidement constaté que je suis loin d'être seul à avoir ce problème, d
 
 Mon entourage[^1] est aussi touché, c'est donc bien relativement fréquent[^2] :
 
-{% twitter oembed https://twitter.com/mauriz/status/270927112330952704 %}
+https://twitter.com/mauriz/status/270927112330952704
 
-{% twitter oembed https://twitter.com/vlemaire/status/270970098213322752 %}
+https://twitter.com/vlemaire/status/270970098213322752
 
 En fouillant un peu[^3], on peut trouver un billet de Kirk McElhearn intitulé «[What’s Going On With Truncated iTunes Downloads? (en)](http://www.mcelhearn.com/2012/07/30/whats-going-on-with-truncated-itunes-downloads/)» avec quelques explications, et surtout un lien vers un script iTunes développé par Doug Adams[^4] permettant d'identifier les morceaux tronqués : «[Find Truncated Tracks (en)](http://dougscripts.com/itunes/2012/10/find-truncated-tracks/)».
 

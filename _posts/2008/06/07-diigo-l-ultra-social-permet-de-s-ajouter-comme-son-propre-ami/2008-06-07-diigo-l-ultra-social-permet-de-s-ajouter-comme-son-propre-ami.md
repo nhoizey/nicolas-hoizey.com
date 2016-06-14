@@ -1,6 +1,6 @@
---- 
-title:      Diigo l'ultra social permet de s'ajouter comme son propre ami 
-lang:       fr 
+---
+title:      Diigo l'ultra social permet de s'ajouter comme son propre ami
+lang:       fr
 tags:       [fail, bookmarks, Diigo, réseaux sociaux]
 ---
 
@@ -12,7 +12,7 @@ Diigo est donc un système social, et comme tout bon système social Web 2.0, il
 Et là où Diigo innove vraiment par rapport à sa nombreuse concurrence, c'est qu'il permet de s'ajouter soi-même comme ami, sans doute histoire de satisfaire même ceux qui n'arrivent désespérément pas à se trouver des amis virtuels :
 
 <figure>
-  {% picture diigo-who-is-your-closest-friend.png %}
+  ![](diigo-who-is-your-closest-friend.png)
 </figure>
 
 

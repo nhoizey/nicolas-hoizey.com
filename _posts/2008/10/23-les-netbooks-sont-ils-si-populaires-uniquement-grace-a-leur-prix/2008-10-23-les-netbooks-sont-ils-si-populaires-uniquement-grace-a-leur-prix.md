@@ -8,7 +8,7 @@ Lors de sa [conférence téléphonique trimestrielle](http://gizmodo.com/5066543
 
 
 <figure>
-  {% picture macbook-touch.png %}
+  ![](macbook-touch.png)
 </figure>
 
 Bien qu'ayant déjà un iPhone et un MacBook, je persiste à dire qu'un [MacBook Helium](/2008/09/a-quand-un-macbook-helium-pour-concurrencer-les-asus-eee-pc-msi-wind-et-autres-medion-akoya.html) ou [MacBook Touch](http://gizmodo.com/341007/is-the-apple-macbook-touch-a-realistic-possibility) me comblerait beaucoup plus, avec un plus grand confort de navigation et saisie qu'un iPhone, et une compacité plus grande qu'un MacBook.

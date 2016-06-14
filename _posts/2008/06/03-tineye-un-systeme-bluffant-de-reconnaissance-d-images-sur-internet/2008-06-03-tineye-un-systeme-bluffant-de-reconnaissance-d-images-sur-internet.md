@@ -1,6 +1,6 @@
---- 
-title:      TinEye, un système bluffant de reconnaissance d'images sur Internet 
-lang:       fr 
+---
+title:      TinEye, un système bluffant de reconnaissance d'images sur Internet
+lang:       fr
 tags:       [photo, image, recherche, TinEye]
 ---
 
@@ -10,7 +10,7 @@ tags:       [photo, image, recherche, TinEye]
 J'ai pris comme exemple cette fameuse photo de l'actrice [Zhang Ziyi](http://fr.wikipedia.org/wiki/Zhang_Ziyi) que tant de gens [intègrent à leurs contenus directement depuis Gastero Prod](/2006/03/halte-au-vol-de-bande-passante.html) :
 
 <figure>
-  {% picture zhang_ziyi.jpg %}
+  ![](zhang_ziyi.jpg)
   <figcaption>
   Lune (Zhang Ziyi)
   </figcaption>
@@ -20,7 +20,7 @@ J'ai pris comme exemple cette fameuse photo de l'actrice [Zhang Ziyi](http://fr.
 En lançant TinEye directement sur la page de mon article avec l'[extension Firefox](http://tineye.com/plugin) :
 
 <figure>
-  {% picture tineye-firefox.png %}
+  ![](tineye-firefox.png)
   <figcaption>
   Lancement de la recherche
   </figcaption>
@@ -30,7 +30,7 @@ En lançant TinEye directement sur la page de mon article avec l'[extension Fire
 J'obtiens 13 résultats :
 
 <figure>
-  {% picture tineye-resultat.png %}
+  ![](tineye-resultat.png)
   <figcaption>
   Premiers résultat de la recherche
   </figcaption>
@@ -40,7 +40,7 @@ J'obtiens 13 résultats :
 Dont l'un n'est vraiment pas une simple copie ou redécoupage de la photo recherchée, mais une version légèrement altérée :
 
 <figure>
-  {% picture tineye-resultat-balaise.png %}
+  ![](tineye-resultat-balaise.png)
   <figcaption>
   Un résultat particulièrement intéressant
   </figcaption>

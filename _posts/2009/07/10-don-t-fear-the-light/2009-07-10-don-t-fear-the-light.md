@@ -7,7 +7,7 @@ tags:       [photo, statue, silhouette, nuit, lumière]
 Voilà une vision un peu surréelle d'une statue se protégeant de lumières qui percent dans le brouillard.
 
 <figure>
-  {% picture don_t_fear_the_light.jpg %}
+  ![](don_t_fear_the_light.jpg)
   <figcaption>
   Don't fear the light!
   </figcaption>

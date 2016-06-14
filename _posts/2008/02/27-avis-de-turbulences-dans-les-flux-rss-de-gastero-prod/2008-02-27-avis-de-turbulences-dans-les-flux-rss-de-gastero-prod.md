@@ -1,6 +1,6 @@
---- 
-title:      Avis de turbulences dans les flux RSS de Gastero Prod 
-lang:       fr 
+---
+title:      Avis de turbulences dans les flux RSS de Gastero Prod
+lang:       fr
 tags:       [Gastero Prod, RSS, Yahoo!, FeedBurner]
 ---
 
@@ -40,7 +40,7 @@ J'aurais pu utiliser SPIP, qui sait faire cela sans soucis, mais vu que j'utilis
 Voici donc mon [Yahoo! Pipe aggrégeant les trois flux RSS de Gastero Prod pour en constituer un complet, avec préfixe sur chaque *item* pour faciliter la lecture](http://pipes.yahoo.com/nicolashoizey/gasteroprod)[^4]. Je vous invite à regarder son « code source »[^5], qui montre notamment un exemple de factorisation de « code » par l'usage d'un autre [Yahoo! Pipe permettant de simplement préfixer tous les *items* d'un flux](http://pipes.yahoo.com/nicolashoizey/feeditemprefix).
 
 <figure>
-  {% picture yahoo-pipe-flux-rss-gastero-prod.png %}
+  ![](yahoo-pipe-flux-rss-gastero-prod.png)
 </figure>
 
 

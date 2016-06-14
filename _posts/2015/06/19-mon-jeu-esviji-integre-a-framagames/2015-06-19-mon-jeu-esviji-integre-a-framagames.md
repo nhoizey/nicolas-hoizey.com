@@ -9,7 +9,7 @@ Quelle heureuse surprise ce matin de découvrir[^grace] que mon jeu libre [esvij
 [^grace]: C'est [grâce à Thomas](https://twitter.com/iamtzi/status/611796760487399424) que je l'ai appris, merci !
 
 <figure>
-  {% picture framagames.jpg %}
+  ![](framagames.jpg)
   <figcaption>
   La page d'accueil de Framagames
   </figcaption>

@@ -9,7 +9,7 @@ Diigo a décidé de supprimer les listes, si pratiques pour rassembler des bookm
 Ce n'est en fait que la goutte qui fait déborder le vase[^1], je trouvais déjà Diigo de plus en plus pénible à utiliser, avec une interface pas du tout ergonomique.
 
 <figure>
-  {% picture diigo.png %}
+  ![](diigo.png)
   <figcaption>
   L'interface de Diigo
   </figcaption>
@@ -26,7 +26,7 @@ Après avoir échangé un peu avec d'autres utilisateurs déçus de Diigo, j'ai 
 - Karl m'en a dit beaucoup de bien plusieurs fois, et ça compte beaucoup
 
 <figure>
-  {% picture pinboard.png %}
+  ![](pinboard.png)
   <figcaption>
   L'interface de Pinboard
   </figcaption>
@@ -35,7 +35,7 @@ Après avoir échangé un peu avec d'autres utilisateurs déçus de Diigo, j'ai 
 Vous pouvez bien sûr continuer à lire aussi mes bookmarks [sur Seenthis](http://seenthis.net/people/nhoizey), même si pour l'instant [les tags présents dans le flux RSS de Pinboard ne sont pas bien reconnus](http://seenthis.net/messages/324311).
 
 <figure>
-  {% picture seenthis.png %}
+  ![](seenthis.png)
   <figcaption>
   L'interface de Seenthis
   </figcaption>
@@ -56,7 +56,7 @@ Voici la *recipe* IFTTT, au cas où vous voudriez faire de même :
 Mon départ de Diigo m'empêche de fait de participer au [groupe de veille Web Performance](https://groups.diigo.com/group/web-performance) créé par [Éric](https://www.diigo.com/profile/edaspet) et alimenté par une quinzaine de contributeurs.
 
 <figure>
-  {% picture diigo-web-performance.png %}
+  ![](diigo-web-performance.png)
   <figcaption>
   Le groupe Web Performance sur Diigo
   </figcaption>

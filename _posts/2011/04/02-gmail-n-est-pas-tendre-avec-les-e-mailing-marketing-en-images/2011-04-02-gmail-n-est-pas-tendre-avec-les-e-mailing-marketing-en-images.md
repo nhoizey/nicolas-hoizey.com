@@ -1,6 +1,6 @@
---- 
-title:      GMail n'est pas tendre avec les e-mailing marketing en images 
-lang:       fr 
+---
+title:      GMail n'est pas tendre avec les e-mailing marketing en images
+lang:       fr
 tags:       [e-mail, image]
 ---
 
@@ -9,13 +9,13 @@ Dans la liste des messages, GMail montre l'expéditeur, le sujet, et le début d
 Voici un exemple probant avec un message venant d'un spammeur tentant de se faire passer pour Orange :
 
 <figure>
-  {% picture orange-mailing-fail.png %}
+  ![](orange-mailing-fail.png)
 </figure>
 
 Et voilà ce que ça donne quand on l'ouvre :
 
 <figure>
-  {% picture orange-mailing-fail-2.png %}
+  ![](orange-mailing-fail-2.png)
 </figure>
 
 Dommage que GMail n'aille pas jusqu'à laisser actif le lien de désinscription directement dans la liste de messages...

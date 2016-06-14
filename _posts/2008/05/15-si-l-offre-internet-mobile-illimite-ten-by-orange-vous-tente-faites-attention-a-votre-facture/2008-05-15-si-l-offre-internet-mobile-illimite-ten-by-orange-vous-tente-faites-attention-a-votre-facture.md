@@ -1,6 +1,6 @@
---- 
-title:      Si l'offre Internet mobile illimité Ten by Orange vous tente, faites attention à votre facture ! 
-lang:       fr 
+---
+title:      Si l'offre Internet mobile illimité Ten by Orange vous tente, faites attention à votre facture !
+lang:       fr
 tags:       [Orange, telecom, commerce, arnaque]
 ---
 
@@ -12,7 +12,7 @@ L'offre « Ten by Orange » est en effet assez dangereuse pour sa facture si on 
 J'ai par exemple pu testé avec un [HTC Touch](http://www.ten.fr/telephone_details.php?id=12030918074022) :
 
 <figure>
-  {% picture HTC-Touch.png %}
+  ![](HTC-Touch.png)
   <figcaption>
   HTC Touch
   </figcaption>
@@ -22,7 +22,7 @@ J'ai par exemple pu testé avec un [HTC Touch](http://www.ten.fr/telephone_detai
 Et voici la promesse faite par cette offre Ten by Orange :
 
 <figure>
-  {% picture Ten-by-Orange.png %}
+  ![](Ten-by-Orange.png)
   <figcaption>
   Ten by Orange
   </figcaption>
@@ -42,7 +42,7 @@ En gros, on a un smart phone avec Windows Mobile 6 et tous ses logiciels, mais o
 Heureusement, même si je trouve honteux d'omettre de donner cette information au client, Orange est couvert puisqu'[on la trouve](http://www.ten.fr/services_ten.php) en cherchant un peu sur leur site :
 
 <figure>
-  {% picture Ten-Internet-Illimite.png %}
+  ![](Ten-Internet-Illimite.png)
   <figcaption>
   L'Internet illimité façon Ten
   </figcaption>

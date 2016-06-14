@@ -8,7 +8,7 @@ Un des soucis avec un site statique tel que celui-ci, c'est que par définition 
 
 Avant de découvrir les pistes envisagées et ce que j'aime dans Algolia, [allez donc tester par vous-même](http://nicolas-hoizey.com/recherche.html) et/ou regardez ce petit screencast fait pour l'occasion :
 
-{% youtube Ia9FFYwkU6c %}
+https://www.youtube.com/watch?v=Ia9FFYwkU6c
 
 Pour proposer des résultats à une recherche comme ceci, il faut nécessairement faire du dynamique, trouver des éléments répondant aux critères de recherche et les lister.
 
@@ -19,7 +19,7 @@ Avec un site statique, il existe trois possibilités :
 # Un moteur de recherche côté serveur
 
 <figure class="onefourth right">
-  {% picture onefourth apache-solr-logo.png alt="Solr" %}
+  ![Solr](apache-solr-logo.png){:.onefourth}
 </figure>
 Ce n'est pas parce que le site est statique qu'il est impossible de déployer une solution dynamique côté serveur, telle que [Solr](http://lucene.apache.org/solr/), « à côté » des pages.
 
@@ -39,7 +39,7 @@ Il est enfin possible de s'appuyer sur une solution tierce disponible intégrale
 
 Il existe bien entendu [Google Custom Search Engine](https://developers.google.com/custom-search/docs/overview), la solution gratuite de Google[^gss] permettant de profiter d'une recherche complète avec la puissance que l'on connaît :
 
-{% youtube Qd9z48Bo8ZA %}
+https://www.youtube.com/watch?v=Qd9z48Bo8ZA
 
 [^gss]: Il existe aussi la solution [Google Site Search](https://www.google.com/work/search/products/gss.html), qui elle est payante.
 
@@ -50,7 +50,7 @@ De plus, l'indexation est plein texte, sans vraiment de paramétrage possible, c
 ## Algolia
 
 <figure class="onefourth right">
-  {% picture onefourth algolia-logo.png alt="Algolia" %}
+  ![Algolia](algolia-logo.png){:.onefourth}
 </figure>
 C'est alors que j'ai entendu parler[^vvo] d'[Algolia](https://www.algolia.com/), un moteur de recherche en mode SaaS intégralement pilotable par une [API REST](https://www.algolia.com/doc/rest_api) extrêmement riche, et pour laquelle de [très nombreux clients](https://www.algolia.com/doc/apiclients) et [intégrations](https://www.algolia.com/doc/integrations) sont déjà proposés de base.
 
@@ -65,14 +65,14 @@ Algolia est bluffant à plus d'un titre :
 - et enfin, performance incroyable, avec des temps de réponse extrêmement faibles permettant une expérience utilisateur optimale, que ce soit en mode [suggestion de recherche](https://www.algolia.com/doc/tutorials/auto-complete) ou [résultats instantanés](https://www.algolia.com/doc/tutorials/instant-search)
 
 <figure>
-  {% picture algolia-dashboard-overview.jpg alt="Le tableau de bord Algolia" %}
+  ![Le tableau de bord Algolia](algolia-dashboard-overview.jpg)
   <figcaption>
   Un point de vue rapide sur l'état de l'indexation et des recherches.
   </figcaption>
 </figure>
 
 <figure>
-  {% picture algolia-dashboard-response-times.jpg alt="Le suivi des temps de réponse" %}
+  ![Le suivi des temps de réponse](algolia-dashboard-response-times.jpg)
   <figcaption>
   Le suivi des temps de réponse de l'API. Oui, l'échelle est en millisecondes !
   </figcaption>

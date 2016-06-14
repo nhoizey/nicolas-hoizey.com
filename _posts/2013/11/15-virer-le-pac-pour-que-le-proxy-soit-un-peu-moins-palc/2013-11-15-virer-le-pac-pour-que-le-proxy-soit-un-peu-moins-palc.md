@@ -28,7 +28,7 @@ else
 Et le paramétrage de proxy suivant dans Mac OS X :
 
 <figure>
-  {% picture configuration-de-proxy-automatique-sur-mac.png %}
+  ![](configuration-de-proxy-automatique-sur-mac.png)
 </figure>
 
 Alors le réglage « Ignorer les réglages proxy pour ces hôtes et domaines » sera bonnement et simplement ignoré[^1].
@@ -38,7 +38,7 @@ Pour conserver le proxy uniquement pour les IP souhaitées, tout en concervant l
 Voilà ce que cela donne :
 
 <figure>
-  {% picture configuration-de-proxy-manuelle-sur-mac.png %}
+  ![](configuration-de-proxy-manuelle-sur-mac.png)
 </figure>
 
 Mes connaissances réseau sont bien rouillées, donc je vous laisse expliquer en commentaires la signification exacte des `/16` et `/24`.

@@ -1,6 +1,6 @@
---- 
-title:      PicLens (renommé Cooliris) fonctionne maintenant sur Gastero Prod 
-lang:       fr 
+---
+title:      PicLens (renommé Cooliris) fonctionne maintenant sur Gastero Prod
+lang:       fr
 tags:       [photo, Gastero Prod, PicLens]
 ---
 
@@ -12,28 +12,28 @@ Je vous ai déjà parlé plusieurs fois de [PicLens](mot125), cet outil génial 
 **Mise à jour du 22 août 2008 :** PicLens se nomme maintenant Cooliris, du nom original de la société l'ayant développé.
 
 <figure>
-  {% picture piclens.jpg %}
+  ![](piclens.jpg)
 </figure>
 
 
 Si vous n'avez pas encore installé PicLens, vous verrez par exemple ceci sur la page d'accueil de Gastero Prod :
 
 <figure>
-  {% picture piclens-sans.png %}
+  ![](piclens-sans.png)
 </figure>
 
 
 Si par contre vous avez eu la bonne idée de l'installer, vous verrez ceci en survolant une des photos :
 
 <figure>
-  {% picture piclens-avec.png %}
+  ![](piclens-avec.png)
 </figure>
 
 
 Cliquez sur la flèche, et vous vous retrouverez dans l'interface splendide de PicLens pour naviguer dans mes photos :
 
 <figure>
-  {% picture piclens-inside1.png %}
+  ![](piclens-inside1.png)
   <figcaption>
   En cliquant sur la photo du site, on arrive sur la mozaïque mettant en avant la photo en question
   </figcaption>
@@ -41,7 +41,7 @@ Cliquez sur la flèche, et vous vous retrouverez dans l'interface splendide de P
 
 
 <figure>
-  {% picture piclens-inside2.png %}
+  ![](piclens-inside2.png)
   <figcaption>
   On peut ajuster le zoom à loisir et se déplacer dans la mozaïque avec un effet 3D du plus bel effet
   </figcaption>
@@ -49,7 +49,7 @@ Cliquez sur la flèche, et vous vous retrouverez dans l'interface splendide de P
 
 
 <figure>
-  {% picture piclens-inside3.png %}
+  ![](piclens-inside3.png)
   <figcaption>
   Et on peut mettre la photo en plein écran avec un petit carousel à la place de la mozaïque
   </figcaption>

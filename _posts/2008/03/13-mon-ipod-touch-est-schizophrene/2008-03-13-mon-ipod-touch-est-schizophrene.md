@@ -1,6 +1,6 @@
---- 
-title:      Mon iPod Touch est schizophrène ! 
-lang:       fr 
+---
+title:      Mon iPod Touch est schizophrène !
+lang:       fr
 tags:       [Apple, iPhone, iPod Touch]
 ---
 
@@ -8,7 +8,7 @@ J'ai branché comme d'habitude mon iPod Touch sur mon MacBook pour lancer une sy
 
 
 <figure>
-  {% picture ipod-touch-schizophrene.png %}
+  ![](ipod-touch-schizophrene.png)
 </figure>
 
 

@@ -6,7 +6,7 @@ tags:       [Web, Paris Web, conférence, Responsive Web Design, em]
 
 Après y avoir assisté plusieurs années en tant qu'auditeur, j'ai eu la joie — le privilège — d'être sélectionné parmi les orateurs de l'édition 2013. Sélectionné qui plus est avec un sujet plutôt pointu, sur une bonne pratique que tout le monde devrait appliquer depuis plus de 10 ans, mais qui est très largement sous estimée.
 <figure>
-  {% picture paris-web-2013-j-y-etais.jpg %}
+  ![](paris-web-2013-j-y-etais.jpg)
 </figure>
 
 # Le *pitch*
@@ -36,7 +36,7 @@ Il me reste à répondre plus complètement à une question que j'ai évoquée d
 Je vais rédiger dans les prochaines semaines une version détaillée de ma conférence, et j'ai prévu d'approfondir ce sujet pour donner mon point de vue[^2].
 
 <figure>
-  {% picture nicolas_hoizey_-_paris_web_2013_-_photo_par_fabrice_le_guernec_pour_paris_web.jpg %}
+  ![](nicolas_hoizey_-_paris_web_2013_-_photo_par_fabrice_le_guernec_pour_paris_web.jpg)
   <figcaption markdown="1">
   Nicolas Hoizey à Paris Web 2013. [Photo](http://www.flickr.com/photos/parisweb/10401233525/) de [Fabrice Le Guernec](http://twitter.com/Fab_incident) pour Paris-Web
   </figcaption>
@@ -58,7 +58,7 @@ J'ai la chance de travailler avec ces trois là, et d'autres tout aussi talentue
 
 La vidéo de ma prestation a été publiée par Paris Web sur son compte Vimeo :
 
-{% vimeo 79204119 %}
+https://vimeo.com/79204119
 
 Voici [la version de mes slides hébergée sur SlideShare](https://fr.slideshare.net/nhoizey/paris-web-2013-un-petit-pas-pour-lem-un-grand-pas-pour-le-web), donc sans les animations qui ne sont visibles qu'en vidéo :
 

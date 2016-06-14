@@ -1,6 +1,6 @@
---- 
+---
 title:      Surveillez vos erreurs 404, elles peuvent être très instructives
-lang:       fr 
+lang:       fr
 tags:       [erreur 404, SEO, sécurité, webperf]
 ---
 
@@ -13,7 +13,7 @@ Si vous ne vous en souciez pas, commencez tout de suite à le faire, il y a beau
 Le moyen le plus simple de connaître les URL en erreur 404 sur lesquelles arrivent les internautes, c’est d’abord de s’intéresser à celles qui sont référencées dans les moteurs de recherche, dont Google. On peut trouver justement un référencement des pages en erreur, dont celles en 404, au sein des [outils Google pour les webmasters](https://www.google.com/webmasters/tools/).
 
 <figure>
-  {% picture google-webmasters-404.png %}
+  ![](google-webmasters-404.png)
   <figcaption>Erreurs 404 de Gastero Prod référencées par Google</figcaption>
 </figure>
 

@@ -11,7 +11,7 @@ Dans une nouvelle version de [Flickr pour mobiles](http://m.flickr.com/)[^1], [F
 [^2]: Logique, [Flickr est la propriété de Yahoo!](/2005/03/flickr-dans-l-escarcelle-de-yahoo.html) depuis quelque temps...
 
 <figure>
-  {% picture flickr-mobile-google-maps.png %}
+  ![](flickr-mobile-google-maps.png)
   <figcaption>
   Google Maps dans Flickr Mobile
   </figcaption>

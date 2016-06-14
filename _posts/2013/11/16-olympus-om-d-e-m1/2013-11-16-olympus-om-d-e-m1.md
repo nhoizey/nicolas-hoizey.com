@@ -7,7 +7,7 @@ tags:       [photo, Canon, Olympus, Panasonic, matériel]
 [Passionné de photo](http://500px.com/nhoizey) depuis très longtemps, j'ai investi il y a quelques années dans [l'excellent boitier expert Canon EOS 5D Mark II](http://www.naturepixel.com/canon_5d_mk2_caracteristiques_essais_photos.htm) et quelques objectifs pro, dont le fabuleux 135mm f/2.0. Mais voilà, tout ça pèse lourd, très lourd, et se balader avec plusieurs objectifs est compliqué et pénible. Cet Olympus OM-D E-M1 pourrait bien être l'alternative légère que j'attends depuis des mois.
 
 <figure>
-  {% picture olympus-om-d-e-m1.jpg %}
+  ![](olympus-om-d-e-m1.jpg)
   <figcaption>
   Olympus OM-D E-M1
   </figcaption>
@@ -35,7 +35,7 @@ Mon objectif principal, si je change de boitier, c'est de gagner en encombrement
 La mise en évidence des [tailles relatives du Canon 5D Mark II et de l'Olympus OM-D E-M1 sur le site camerasize.com](http://camerasize.com/compare/#482,192) est éloquente :
 
 <figure>
-  {% picture comparaison-canon-eos-5d-mark-ii-olympus-om-d-e-m1.png %}
+  ![](comparaison-canon-eos-5d-mark-ii-olympus-om-d-e-m1.png)
   <figcaption>
   Comparaison des tailles du Canon EOS 5D Mark II et de l'Olympus OM-D E-M1
   </figcaption>
@@ -77,7 +77,7 @@ Je ne tiens pas compte pour l'instant de mon bon vieux Canon EF 70-300mm, que j'
 
 
 <figure>
-  {% picture olympus-40-150mm-f2.8.jpg %}
+  ![](olympus-40-150mm-f2.8.jpg)
   <figcaption>
   Olympus 40-150mm f/2.8
   </figcaption>
@@ -99,7 +99,7 @@ Il va falloir également que je m'intéresse à ce qui est disponible pour toute
 Je pourrais aller encore plus loin et m'intéresser de plus près au Panasonic Lumix GM1 [qui est paraît-il excellent](http://www.expertreviews.co.uk/digital-cameras/1303702/panasonic-lumix-dmc-gm1), et dont l'[écart de taille avec le Canon 5D Mark II](http://camerasize.com/compare/#192,491) est vraiment impressionnant :
 
 <figure>
-  {% picture comparaison-canon-eos-5d-mark-ii-panasonic-lumix-gm1.png %}
+  ![](comparaison-canon-eos-5d-mark-ii-panasonic-lumix-gm1.png)
   <figcaption>
   Comparaison des tailles du Canon EOS 5D Mark II et du Panasonic Lumix GM1
   </figcaption>

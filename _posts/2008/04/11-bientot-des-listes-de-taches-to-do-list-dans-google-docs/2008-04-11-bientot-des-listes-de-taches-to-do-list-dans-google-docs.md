@@ -1,6 +1,6 @@
---- 
-title:      Bientôt des listes de tâches (to do list) dans Google Docs ? 
-lang:       fr 
+---
+title:      Bientôt des listes de tâches (to do list) dans Google Docs ?
+lang:       fr
 tags:       [fail, Google]
 ---
 
@@ -10,7 +10,7 @@ J'ai vu apparaître ce matin dans mon aggrégateur de flux RSS/Atom un billet du
 Voilà ce que ça donnait dans NetNewsWire :
 
 <figure>
-  {% picture GoogleDocsToDoListsYes.png %}
+  ![](GoogleDocsToDoListsYes.png)
   <figcaption>
   Des listes de tâches dans Google Docs ?
   </figcaption>
@@ -20,7 +20,7 @@ Voilà ce que ça donnait dans NetNewsWire :
 Et voilà ce qu'il y a maintenant dans le flux :
 
 <figure>
-  {% picture GoogleDocsToDoListsNo.png %}
+  ![](GoogleDocsToDoListsNo.png)
   <figcaption>
   Ou pas...
   </figcaption>

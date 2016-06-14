@@ -11,7 +11,7 @@ Je ne vais pas pouvoir l'aider sur sa recherche de solution « sans y mettre des
 J'ai donc un Mac mini avec [CrashPlan](http://crashplan.com/) qui sert d'une part, comme je l'envisageais il y a 6 mois, de destination de backup pour tous mes autres ordinateurs, et est d'autre part lui-même[^1] backupé sur [CrashPlan+](http://www.crashplan.com/consumer/crashplan-plus.html).
 
 <figure>
-  {% picture drobo-s.png %}
+  ![](drobo-s.png)
 </figure>
 Le stockage sur le mini n'est pas suffisant pour recevoir les backups de tous mes ordinateurs, donc j'ai un [Drobo S de Data Robotics](http://www.amazon.fr/gp/product/B001CSZMRK/ref=as_li_ss_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=B001CSZMRK&linkCode=as2&tag=gasteroprod-21) connecté dessus en Firewire 800. Il contient 5 disques de 2 To et est configuré avec 2 disques de fail over pour être un peu plus sûr de ne pas avoir de problème.
 

@@ -10,7 +10,7 @@ Comme vous avez pu vous en apercevoir quand j'ai parlé récemment de la [copie 
 [^1]: Celles-ci le sont, apparemment
 
 <figure>
-  {% picture PwnageTool.png %}
+  ![](PwnageTool.png)
   <figcaption>
   PwnageTool
   </figcaption>

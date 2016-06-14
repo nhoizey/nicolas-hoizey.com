@@ -9,7 +9,7 @@ Les faire quand on les annonce, c'est mieux...
 La preuve en image :
 
 <figure>
-  {% picture controle-qualite.jpg %}
+  ![](controle-qualite.jpg)
   <figcaption>
   Contrôle qualité
   </figcaption>

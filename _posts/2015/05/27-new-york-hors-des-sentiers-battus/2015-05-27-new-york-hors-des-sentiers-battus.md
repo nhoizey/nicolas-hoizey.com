@@ -6,14 +6,14 @@ tags:         [New York, voyage, insolite]
 
 Ayant la chance de partir enfin à New York pour la première fois, j'avais bien entendu préparé le voyage avec quelques guides touristiques et ressources Web, mais j'avais aussi demandé autour de moi quelles sont les choses à voir/faire qui ne se trouvent pas dans ces guides.
 <figure>
-  {% picture new-york-city-map.jpg %}
+  ![](new-york-city-map.jpg)
 </figure>
 
 J'ai donc posé la question [sur Twitter](https://twitter.com/nhoizey/status/596616115607965696)[^fb] :
 
 [^fb]: et donc [sur Facebook](https://www.facebook.com/nhoizey/posts/10152678279331292), où mes tweets sont recopiés
 
-{% twitter oembed https://twitter.com/nhoizey/status/596616115607965696 %}
+https://twitter.com/nhoizey/status/596616115607965696
 
 On m'a alors conseillé différentes choses, que voici en vrac, si ça peut vous servir un jour :
 
@@ -45,7 +45,7 @@ On m'a alors conseillé différentes choses, que voici en vrac, si ça peut vous
 
 On m'a aussi suggéré de regarder l'étrange escale à New York d'[@axolotblog](https://twitter.com/axolotblog), qui contient effectivement quelques pépites, dont une statue de Lénine :
 
-{% youtube 6NIMEJUMXXw %}
+https://www.youtube.com/watch?v=6NIMEJUMXXw
 
 # Et hop, une belle carte !
 

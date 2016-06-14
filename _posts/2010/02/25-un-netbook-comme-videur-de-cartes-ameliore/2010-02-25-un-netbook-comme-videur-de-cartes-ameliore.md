@@ -8,7 +8,7 @@ Ayant du mal à trimbaler mon MacBook 13" dans mon sac [Lowepro Flipside 400 AW]
 
 Je ne suis pas le seul à m'intéresser au sujet, comme le montre cette vidéo de [Benjamin Brolet](http://www.photob.be/) découverte sur [Blogeee](http://www.blogeee.net/2009/12/un-netbook-au-service-dun-photographe-une-video-a-voir-absolument-si-vous-etes-amateur-de-photo/) :
 
-{% vimeo 7731894 %}
+https://vimeo.com/7731894
 
 J'envisage donc de plus en plus cet achat pour très prochainement -- déçu qu'Apple sorte un iPad plutôt qu'un [MacBook Helium](/2008/09/a-quand-un-macbook-helium-pour-concurrencer-les-asus-eee-pc-msi-wind-et-autres-medion-akoya.html) -- et je m'intéresse pour l'instant à cette alternative :
 

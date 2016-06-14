@@ -1,6 +1,6 @@
---- 
-title:      Tumblr aime mes méduses 
-lang:       fr 
+---
+title:      Tumblr aime mes méduses
+lang:       fr
 tags:       [photo, méduse]
 ---
 
@@ -9,7 +9,7 @@ Vous avez sans doute déjà vu ma belle photo de méduses fluorescentes -- une d
 Le premier à avoir publié la photo semble être celui-ci :
 
 <figure>
-  {% picture meduses-tumblr-2.png %}
+  ![](meduses-tumblr-2.png)
   <figcaption>
     birdhaus.tumblr.com
 . <http://birdhaus.tumblr.com/post/407643793/nicolas-hoizey>
@@ -19,7 +19,7 @@ Le premier à avoir publié la photo semble être celui-ci :
 Et il a été largement repris ensuite :
 
 <figure>
-  {% picture meduses-tumblr-2.png %}
+  ![](meduses-tumblr-2.png)
   <figcaption>
     frostybear.tumblr.com
 . <http://frostybear.tumblr.com/p ost/407748576/fuckyeahjel lyfish-birdhaus-nicolas-hoizey>
@@ -28,7 +28,7 @@ Et il a été largement repris ensuite :
 
 
 <figure>
-  {% picture meduses-tumblr-3.png %}
+  ![](meduses-tumblr-3.png)
   <figcaption>
     fuckyeahjellyfish.tumblr.com
 . <http://fuckyeahjellyfish.tumblr.com/post/407648432/birdhaus-nicolas-hoizey>
@@ -37,7 +37,7 @@ Et il a été largement repris ensuite :
 
 
 <figure>
-  {% picture meduses-tumblr-4.png %}
+  ![](meduses-tumblr-4.png)
   <figcaption>
     karencilla.tumblr.com
 . <http://karencilla.tumblr.com/post/407665077/isnt-gods-creation-amazing-birdhaus-nicolas>
@@ -46,7 +46,7 @@ Et il a été largement repris ensuite :
 
 
 <figure>
-  {% picture meduses-tumblr-5.png %}
+  ![](meduses-tumblr-5.png)
   <figcaption>
     moqueur.tumblr.com
 . <http://moqueur.tumblr.com/post/407674522/birdhaus-nicolas-hoizey>
@@ -55,7 +55,7 @@ Et il a été largement repris ensuite :
 
 
 <figure>
-  {% picture meduses-tumblr-6.png %}
+  ![](meduses-tumblr-6.png)
   <figcaption>
     acertainshadeofgreen.tumblr.com
 . <http://acertainshadeofgreen.tumblr.com/post/407687092/fuckyeahjellyfish-birdhaus-nicolas-hoizey>
@@ -64,7 +64,7 @@ Et il a été largement repris ensuite :
 
 
 <figure>
-  {% picture meduses-tumblr-7.png %}
+  ![](meduses-tumblr-7.png)
   <figcaption>
     seashelllz.tumblr.com
 . <http://seashelllz.tumblr.com/post/407754310/fuckyeahjellyfish-birdhaus-nicolas-hoizey>
@@ -73,7 +73,7 @@ Et il a été largement repris ensuite :
 
 
 <figure>
-  {% picture meduses-tumblr-8.png %}
+  ![](meduses-tumblr-8.png)
   <figcaption>
     meagannnn-reblog.tumblr.com
 . <http://meagannnn-reblog.tumblr.com/post/407784792>
@@ -82,7 +82,7 @@ Et il a été largement repris ensuite :
 
 
 <figure>
-  {% picture meduses-tumblr-9.png %}
+  ![](meduses-tumblr-9.png)
   <figcaption>
     thaiteaa.tumblr.com
 . <http://thaiteaa.tumblr.com/post/407819743/fuckyeahjellyfish-birdhaus-nicolas-hoizey>
@@ -91,7 +91,7 @@ Et il a été largement repris ensuite :
 
 
 <figure>
-  {% picture meduses-tumblr-10.png %}
+  ![](meduses-tumblr-10.png)
   <figcaption>
     strangestofinventions.tumblr.com
 . <http://strangestofinventions.tumblr.com/post/408117688/fuckyeahjellyfish-birdhaus-nicolas-hoizey>
@@ -100,7 +100,7 @@ Et il a été largement repris ensuite :
 
 
 <figure>
-  {% picture meduses-tumblr-11.png %}
+  ![](meduses-tumblr-11.png)
   <figcaption>
     vinitha.tumblr.com
 . <http://vinitha.tumblr.com/post/408123360/fuckyeahjellyfish-birdhaus-nicolas-hoizey>
@@ -109,7 +109,7 @@ Et il a été largement repris ensuite :
 
 
 <figure>
-  {% picture meduses-tumblr-12.png %}
+  ![](meduses-tumblr-12.png)
   <figcaption>
     blog.neonjelly.net
 . <http://blog.neonjelly.net/post/407851083/fuckyeahjellyfish-birdhaus-nicolas-hoizey>
@@ -119,5 +119,5 @@ Et il a été largement repris ensuite :
 Tout ça grâce sans aucun doute à la facilité offerte par Tumblr de faire un « Reblog », à la manière des « retweets » de Twitter :
 
 <figure>
-  {% picture tumblr-reblog.png %}
+  ![](tumblr-reblog.png)
 </figure>

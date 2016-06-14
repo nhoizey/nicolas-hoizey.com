@@ -10,7 +10,7 @@ Les raccourcisseurs d'URL sont devenus incontournables sur le Web depuis quelque
 
 Voici l'exemple d'un lien présent dans un tweet de TechCrunch :
 
-{% twitter oembed https://twitter.com/TechCrunch/status/700559714762018816 %}
+https://twitter.com/TechCrunch/status/700559714762018816
 
 L'URL où se trouve effectivement le contenu est [http://techcrunch.com/2016/02/18/google-opens-its-cloud-vision-api-to-all-developers/](http://techcrunch.com/2016/02/18/google-opens-its-cloud-vision-api-to-all-developers/).
 
@@ -18,7 +18,7 @@ Mais la première URL effectivement suivie est celle imposée par Twitter, c'est
 
 Et voilà l'enchainement de redirections provoqué par un clic sur ce lien :
 
-{% picture impact-redirection-webperf-fibre.png %}
+![](impact-redirection-webperf-fibre.png)
 
 Le cumul des temps passés pour chaque redirection avant d'arriver à la « vraie » requête pour la page voulue est de 1 300 millisecondes, **presque une seconde et demi de perdue** !
 
@@ -26,11 +26,11 @@ Et cela dans un environnement bien confortable avec une connexion fibre de très
 
 La simulation d'une bonne connexion 3G dans Chrome montre que la bande passante du réseau n'a aucune influence sur ce temps passé, puisqu'aucun contenu n'est en fait transféré :
 
-{% picture impact-redirection-webperf-3g.png %}
+![](impact-redirection-webperf-3g.png)
 
 La simulation d'une latence de 500 millisecondes sur cette connexion 3G — ce qui peut se produire très souvent en mobilité — montre par contre un impact énorme :
 
-{% picture impact-redirection-webperf-3g-latence.png %}
+![](impact-redirection-webperf-3g-latence.png)
 
 Le temps perdu est ici de 3 370 millisecondes, soit **presque 3 secondes et demi** !
 

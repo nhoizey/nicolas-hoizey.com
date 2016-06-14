@@ -11,7 +11,7 @@ Il existe différentes solutions d'élégance variable, à base d'[extension Tab
 Il faut modifier la valeur du paramètre `browser.tabs.tabClipWidth`[^1], qui défini la taille minimum à partir de laquelle le bouton apparaît.
 
 <figure>
-  {% picture firefox-tabclipwidth.png %}
+  ![](firefox-tabclipwidth.png)
 </figure>
 
 Sachant que la taille minimum d'un onglet est de 100 pixels par défaut — c'est modifiable dans `UserChrome.css` ou avec l'extension [Custom Tab Width](https://addons.mozilla.org/en-US/firefox/addon/custom-tab-width/) —, il suffit de mettre une valeur de 99 à `browser.tabs.tabClipWidth` pour toujours avoir le bouton de fermeture.

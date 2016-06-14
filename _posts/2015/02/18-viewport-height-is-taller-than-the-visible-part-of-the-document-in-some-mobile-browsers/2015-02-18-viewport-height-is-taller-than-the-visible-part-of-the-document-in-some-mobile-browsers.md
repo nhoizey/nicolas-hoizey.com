@@ -12,15 +12,15 @@ I first discovered this on my iPhone 5 and iPad 2.
 
 Here is what [this page](http://lab.gasteroprod.com/vub/index-ios-issue.html) looks like on an iPhone 5 :
 
-{% picture onehalf ios-safari-portrait-before-scroll.png %}
+![](ios-safari-portrait-before-scroll.png){: .onehalf}
 
-{% picture ios-safari-landscape-before-scroll.png %}
+![](ios-safari-landscape-before-scroll.png)
 
 `100vh` is computed for when the browser interface is hidden, after a scroll :
 
-{% picture onehalf ios-safari-portrait-after-scroll.png %}
+![](ios-safari-portrait-after-scroll.png){: .onehalf}
 
-{% picture ios-safari-landscape-after-scroll.png %}
+![](ios-safari-landscape-after-scroll.png)
 
 As suggested by Yoav Weiss [there](https://twitter.com/yoavweiss/status/568145414320492544) and [there](https://twitter.com/yoavweiss/status/568713697306267648), I opened a bug in [Apple Bug Reporter](https://bugreport.apple.com/)(#19879505) and [Webkit Bugzilla](https://bugs.webkit.org/show_bug.cgi?id=141832).
 
@@ -63,7 +63,7 @@ In fact I saw later that iOS Safari is not the only one doing this.
 
 I discovered later the same behavior on the browser of Firefox OS:
 
-{% picture onehalf firefox-os-before-scroll-r90.jpg %}
+![](firefox-os-before-scroll-r90.jpg){: .onehalf}
 
 ## So what?
 
@@ -93,7 +93,7 @@ Meh…
 
 The W3C CSS Working Group replied on Twitter with links to past discussions:
 
-{% twitter oembed https://twitter.com/csswg/status/571742414299246592 %}
+https://twitter.com/csswg/status/571742414299246592
 
 ## March 9th update
 
@@ -103,14 +103,14 @@ The W3C CSS Working Group suggestion doesn't fix anything, in iOS at least. Test
 
 Boris, a friend, told be he saw a disturbing behavior of my text content when scrolling on this site:
 
-{% twitter oembed https://twitter.com/borisschapira/status/615972778236182528 %}
+https://twitter.com/borisschapira/status/615972778236182528
 
 In fact, the viewport height changes when he scrolls and the browser chrome hides. Combine this with the fact that he `font-size` is partialy based on a `vh` value, and you understand that when scrolling and hiding the browser chrome, the text size was growing.
 
 Here is a visual demonstration, from [two](https://twitter.com/borisschapira/status/615981753002557440) [screenshots](https://twitter.com/borisschapira/status/615981790113714176) he gave me:
 
 <figure>
-  {% picture android-chrome-before-after-scroll.png %}
+  ![](android-chrome-before-after-scroll.png)
   <figcaption>
   The font-size increases when the user scrolls
   </figcaption>

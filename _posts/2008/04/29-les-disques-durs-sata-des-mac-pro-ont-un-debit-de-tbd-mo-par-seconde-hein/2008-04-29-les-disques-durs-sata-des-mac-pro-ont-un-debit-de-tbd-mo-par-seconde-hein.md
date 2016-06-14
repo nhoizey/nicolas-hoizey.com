@@ -1,6 +1,6 @@
---- 
-title:      Les disques durs SATA des Mac Pro ont un débit de TBD Mo par seconde... hein? 
-lang:       fr 
+---
+title:      Les disques durs SATA des Mac Pro ont un débit de TBD Mo par seconde... hein?
+lang:       fr
 tags:       [fail, Apple]
 ---
 
@@ -8,7 +8,7 @@ Tout comme [Dell a du mal à définir quelle quantité de RAM est nécessaire po
 
 
 <figure>
-  {% picture mac-pro-vitesse-disque-tbd.png %}
+  ![](mac-pro-vitesse-disque-tbd.png)
 </figure>
 
 

@@ -1,6 +1,6 @@
---- 
-title:      Prendre des éclairs (d'orage) en photo 
-lang:       fr 
+---
+title:      Prendre des éclairs (d'orage) en photo
+lang:       fr
 tags:       [photo, éclair, orage]
 ---
 
@@ -10,7 +10,7 @@ Toujours à la découverte de nouvelles pratiques photo -- après les [pauses lo
 
 240 clichés, à peine une dizaine où apparaissent des éclairs, et aucun de réellement exploitable. Je vous laisse juger :
 
-{% picture eclair-orage-photo.jpg %}
+![](eclair-orage-photo.jpg)
 
 Pour la prochaine fois, je me suis promis de trouver le temps de suivre les conseils de [@VincentMontibus](http://twitter.com/VincentMontibus/statuses/3532445120) ou [@davidbgk](http://twitter.com/davidbgk/statuses/3532680352), mais aussi surtout de lire les quelques tutoriels signalés par [@Brigitte_Ba](http://twitter.com/Brigitte_Ba/statuses/3532851763)[^2] et [@DirtyF](http://www.twitter.com/DirtyF) :
 

@@ -12,7 +12,7 @@ Apparemment, effectivement, ce n'est pas « que » du [marketing](http://www.mar
 Souvenez-vous, la recherche que j'avais tenté [à l'époque](/2008/06/tineye-un-systeme-bluffant-de-reconnaissance-d-images-sur-internet.html) donnait 13 résultats :
 
 <figure>
-  {% picture tineye-resultat.png %}
+  ![](tineye-resultat.png)
   <figcaption>
   Premiers résultat de la recherche
   </figcaption>
@@ -22,7 +22,7 @@ Souvenez-vous, la recherche que j'avais tenté [à l'époque](/2008/06/tineye-un
 Cette même recherche en donne aujourd'hui 31, plus de deux fois plus :
 
 <figure>
-  {% picture TinEye_-_2008-08-05_-_31_resultats.png %}
+  ![](TinEye_-_2008-08-05_-_31_resultats.png)
   <figcaption>
   Nouvelle recherche dans TinEye
   </figcaption>

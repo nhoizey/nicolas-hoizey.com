@@ -7,7 +7,7 @@ tags:       [citation, jeu, Montessori]
 > Montessori taught me the joy of discovery. It showed you can become interested in pretty complex theories, like Pythagorean theory, say, by playing with blocks. It’s all about learning on your terms, rather than a teacher explaining stuff to you. SimCity comes right out of Montessori — if you give people this model for building cities, they will abstract from it principles of urban design.
 
 <figure class="one-third right">
-  {% picture the-new-yorker-will-wright.jpg %}
+  ![](the-new-yorker-will-wright.jpg)
   <figcaption>
     The New Yorker, édition du 6 novembre 2006.
   </figcaption>

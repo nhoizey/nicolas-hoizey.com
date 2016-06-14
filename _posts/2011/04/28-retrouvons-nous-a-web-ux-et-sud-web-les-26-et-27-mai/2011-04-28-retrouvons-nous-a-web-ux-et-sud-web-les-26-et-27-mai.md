@@ -9,7 +9,7 @@ Vous le savez sans doute si vous me lisez régulièrement, sur ce blog ou via [m
 # Web UX le 26 mai 2011
 
 <figure class="one-fourth right">
-  {% picture web-ux.png %}
+  ![](web-ux.png)
 </figure>
 
 Voilà comment Web UX se présente :
@@ -34,7 +34,7 @@ Vous pouvez retrouver [cette conférence sur Lanyrd](http://lanyrd.com/2011/webu
 # Sud Web le 27 mai 2011
 
 <figure class="one-fourth right">
-  {% picture sud-web.png %}
+  ![](sud-web.png)
 </figure>
 
 Voilà comment [Sud Web](http://sudweb.fr/) se présente :

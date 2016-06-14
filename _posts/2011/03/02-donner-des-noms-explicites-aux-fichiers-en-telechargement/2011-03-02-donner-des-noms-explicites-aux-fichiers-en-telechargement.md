@@ -11,7 +11,7 @@ De nombreux sites proposent de télécharger des fichiers. Qu’il s’agisse de
 Comme l’illustre [ce parfait exemple proposé par Canon](/2011/03/des-noms-de-fichiers-a-telecharger-denues-de-sens-sur-software-canon-europe-com.html), le nom des fichiers à télécharger doit être pensé pour l’utilisateur, qui va s’en servir pour identifier son contenu, et décider de son usage éventuel ultérieur :
 
 <figure>
-  {% picture tumblr_l681t3ba6.png %}
+  ![](tumblr_l681t3ba6.png)
 </figure>
 
 Si le nom du fichier ne renseigne pas sur son contenu, il a de fortes chances de finir oublié dans un coin, ou pire, à la corbeille. Dommage pour cette belle plaquette commerciale présentant votre produit phare dans un fichier nommé `wz765trx.pdf`, c’est un client potentiel de perdu.

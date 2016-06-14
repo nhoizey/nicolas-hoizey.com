@@ -5,7 +5,7 @@ tags:  [Firefox OS, Mozilla, interview]
 ---
 
 Pour être plus précis, je devrais dire que j'ai été interviewé par [Mozinet](http://blogzinet.free.fr/blog/index.php?pages/a-propos), qui appartient au [groupe de communication francophone communautaire pour Firefox OS](http://wiki.mozfr.org/FirefoxOS/GroupeCommunication), au sujet de mon historique et ma relation avec Firefox OS.
-{% picture tristan-nitot-firefox-os-app-days.jpg %}
+![](tristan-nitot-firefox-os-app-days.jpg)
 
 J'ai pris beaucoup de plaisir à répondre à cette interview, l'occasion de faire le point sur ces dernières années d'évolution du Web mobile, l'arrivée importante de Firefox OS, le développement de mon jeu Web [esviji](http://esviji.com/) et ce que j'attends encore aujourd'hui de Firefox OS.
 

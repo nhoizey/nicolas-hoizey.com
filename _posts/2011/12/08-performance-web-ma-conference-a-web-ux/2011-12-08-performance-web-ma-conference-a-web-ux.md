@@ -1,6 +1,6 @@
---- 
-title:      Performance Web, ma conférence à Web UX 
-lang:       fr 
+---
+title:      Performance Web, ma conférence à Web UX
+lang:       fr
 tags:       [webperf, Web UX, Web, UX]
 ---
 
@@ -18,4 +18,4 @@ Vous trouverez aussi mes *slides* [« Web UX - Performance Web » sur SlideShare
 
 Et voici la [vidéo de ma conférence](https://www.youtube.com/watch?v=JY21zRDHO28), captée et montée par KProdz, qui permet notamment d'apprécier à leur plus juste valeur les quelques GIF animées :
 
-{% youtube JY21zRDHO28 %}
+https://www.youtube.com/watch?v=JY21zRDHO28

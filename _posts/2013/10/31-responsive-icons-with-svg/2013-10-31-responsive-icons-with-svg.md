@@ -7,7 +7,7 @@ tags:       [Web, design, CSS, Responsive Web Design]
 There have already been [some explorations on responsive SVG images](http://blog.cloudfour.com/media-queries-in-svg-images/) a while back, but when [Joe Harrison](http://www.joeharrison.co.uk/) posted [a responsive icon concept](http://dribbble.com/shots/1290195-New-Project-Responsive-Icons) on Dribbble and even a working version on [a dedicated website](http://responsiveicons.co.uk/), a few people thought this was [so wrong](http://xkcd.com/386/) they had to make their own version. I must admit I'm one of them… ;-)
 
 <figure>
-  {% picture responsive-icons.png %}
+  ![](responsive-icons.png)
 </figure>
 
 [Mariusz Ciesla](http://mariusz.cc/) made [a version](http://codepen.io/mariusz/pen/azBne) with one single div, using one single sprite image:
@@ -34,7 +34,7 @@ SVG is even inline in the HTML, so there is no additional request at all.
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 I made a little screencast for those who don't have SVG support in their browser:
-{% youtube y1d1dDWs4_4 %}
+https://www.youtube.com/watch?v=y1d1dDWs4_4
 
 There are still some parts missing:
 

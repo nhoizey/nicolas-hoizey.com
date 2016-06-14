@@ -17,7 +17,7 @@ Ensuite, j'ai décidé de mettre plus en avant et de compléter les différents 
 J'ai donc ajouté un bloc « Gardez le contact ! » au début de la colonne de droite, avec bien visibles le lien vers le flux RSS global[^1], une possibilité de s'abonner pour plutôt être informé des nouveautés par e-mail[^2], et enfin le lien vers mon compte Twitter qui reprend lui aussi les liens vers mes contenus[^3] :
 
 <figure>
-  {% picture gardez-contact.png %}
+  ![](gardez-contact.png)
 </figure>
 
 
@@ -28,7 +28,7 @@ J'ai aussi cherché à donner plus d'ampleur aux quelques photos que je publie, 
 Voilà comment c'était avant :
 
 <figure>
-  {% picture gp-photo-accueil-avant.png %}
+  ![](gp-photo-accueil-avant.png)
   <figcaption>
   Avant
   </figcaption>
@@ -37,7 +37,7 @@ Voilà comment c'était avant :
 Et voilà comment c'est maintenant :
 
 <figure>
-  {% picture gp-photo-accueil-apres.png %}
+  ![](gp-photo-accueil-apres.png)
   <figcaption>
   Après
   </figcaption>

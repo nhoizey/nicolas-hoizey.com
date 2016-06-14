@@ -13,14 +13,14 @@ Un menu de navigation toujours visible, même en défilant sur plusieurs hauteur
 J'ai vu ce type de fonctionnement pour la première sur le panier dans l'Apple Store :
 
 <figure>
-  {% picture apple-resume-haut.png %}
+  ![](apple-resume-haut.png)
   <figcaption>
   Résumé de la commande en haut sur l'Apple Store. Le résumé de la commande s'affiche normalement, aligné sur le haut du contenu.
   </figcaption>
 </figure>
 
 <figure>
-  {% picture apple-resume-bas.png %}
+  ![](apple-resume-bas.png)
   <figcaption>
   Résumé de la commande toujours visible sur l'Apple Store. Quand on descend dans la page, le résumé de la commande suit le mouvement pour rester toujours visible.
   </figcaption>
@@ -29,7 +29,7 @@ J'ai vu ce type de fonctionnement pour la première sur le panier dans l'Apple S
 Sur l'Apple Store, c'est d'ailleurs encore plus subtil, le bloc présentant les spécifications du produit commandé se réduit automatiquement si la place disponible en hauteur n'est pas assez grande, beau soucis du détail !
 
 <figure>
-  {% picture apple-resume-reduit.png %}
+  ![](apple-resume-reduit.png)
   <figcaption>
   Spécifications réduites sur l'Apple Store. Les spécifications du matériel commandé sont réduites en hauteur si on n'a pas assez de place.
   </figcaption>
@@ -38,14 +38,14 @@ Sur l'Apple Store, c'est d'ailleurs encore plus subtil, le bloc présentant les 
 Je l'ai vu plus récemment sur le bloc « View options » à droite des résultats de recherche sur MyFonts :
 
 <figure>
-  {% picture myfonts-flow.png %}
+  ![](myfonts-flow.png)
   <figcaption>
   Haut de la page de recherche de MyFonts. Le bloc de paramétrage de la recherche est à droite, sous celui présentant les tags. Dommage qu'il ne soit pas tout de suite visible.
   </figcaption>
 </figure>
 
 <figure>
-  {% picture myfonts-fixed.png %}
+  ![](myfonts-fixed.png)
   <figcaption>
   Plus bas dans la page de recherche de MyFonts. Le bloc « View options » s'ancre en haut de la fenêtre si on descend dans la page.
   </figcaption>

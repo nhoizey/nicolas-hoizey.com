@@ -29,7 +29,7 @@ Si vous utilisez Dropbox pour synchroniser vos fichiers entre plusieurs appareil
 Je conseille plutôt de s'y mettre tout de suite, cela étant devenu plutôt simple de nos jours, et les sauvegardes incrémentales étant transparentes, très rapides, une fois la sauvegarde initiale réalisée. Certes, le délai de réalisation de celle-ci dépendra évidemment du volume à sauvegarder et de votre bande passante montante, cela m'a pris plus d'un mois pour quelques centaines de Go, parce que j'ai une très mauvaise connexion ADSL. Mais il est très clair que je veux bien attendre quelques semaines pour cette initialisation si cela me permet une meilleure protection par la suite.
 
 <figure class="onefourth right">
-  {% picture onefourth crashplan-logo.png %}
+  ![](crashplan-logo.png){: .onefourth}
 </figure>
 
 J'avais choisi [Mozy](/2007/05/une-sauvegarde-de-fichiers-en-ligne-tres-simple-pour-pas-cher.html) il y a quelques années, mais leur politique tarifaire a complètement changé et est devenue bien moins intéressante pour les gros volumes, donc j'ai changé pour l'offre [CrashPlan+ Family Unlimited](http://www.crashplan.com/consumer/crashplan-plus.html) pour sauvegarder tous les ordinateurs de la famille.
@@ -37,7 +37,7 @@ J'avais choisi [Mozy](/2007/05/une-sauvegarde-de-fichiers-en-ligne-tres-simple-p
 Pour la seconde sauvegarde, je n'ai pas pour l'instant de stratégie bien déterminée, chaque ordinateur ayant un usage différent. Mon MacBook Air est sauvegardé avec Time Machine sur le merveilleux disque dur externe [LaCie Little Disk](http://www.lacie.com/support/support_manifest.htm?id=10252)[^4], mais heureusement que Time Machine m'alerte de temps en temps parce que je ne pense pas à le brancher suffisamment souvent.
 
 <figure class="onethird right">
-  {% picture onethird drobo-s.png %}
+  ![](drobo-s.png){: .onethird}
 </figure>
 
 Mon Mac mini qui me sert essentiellement de *media center* est sauvegardé avec Time Machine sur une [baie de 5 disques Drobo-S](http://www.drobo.com/products/professionals/drobo-s/index.php) reliée en Firewire 800. L'usage de Time Machine sur le réseau étant impossible de base[^5], je vais plutôt faire des sauvegardes des autres machines sur cette même baie grâce au logiciel CrashPlan qui sait gérer plusieurs destinations de sauvegarde simultanément.

@@ -14,14 +14,14 @@ Exemple avec le logo Gastero Prod et les mots « Gastero Prod » et « Nicolas H
 Voici l'original du logo :
 
 <figure>
-  {% picture logo-gastero-prod.png %}
+  ![](logo-gastero-prod.png)
 </figure>
 
 
 Et le résultat de Textorizer, normalement obtenu en SVG, mais ici transformé en PNG sans transparence[^1] :
 
 <figure>
-  {% picture Gastero_Prod_textorized.png %}
+  ![](Gastero_Prod_textorized.png)
 </figure>
 
 

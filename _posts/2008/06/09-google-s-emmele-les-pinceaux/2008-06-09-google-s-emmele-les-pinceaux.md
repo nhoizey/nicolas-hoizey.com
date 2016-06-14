@@ -1,6 +1,6 @@
---- 
-title:      Google s'emmêle les pinceaux 
-lang:       fr 
+---
+title:      Google s'emmêle les pinceaux
+lang:       fr
 tags:       [fail, SPIP, Google, DotClear]
 ---
 
@@ -10,7 +10,7 @@ En regardant les statistiques de consultation du site, et notamment les liens en
 [^1]: *referers* en anglais
 
 <figure>
-  {% picture google-contresens-dotclear-spip.png %}
+  ![](google-contresens-dotclear-spip.png)
   <figcaption>
   De dotClear vers SPIP, ou l'inverse ?
   </figcaption>

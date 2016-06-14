@@ -11,7 +11,7 @@ Pas mal de blogs ont déjà parlé ces derniers jours de [Wordle](http://wordle.
 Voyez par exemple celui produit par extraction automatique de [mes tags del.icio.us](http://del.icio.us/nhoizey) :
 
 <figure>
-  {% picture wordle-delicious.png %}
+  ![](wordle-delicious.png)
   <figcaption>
   Nuage de tags extrait de del.icio.us
   </figcaption>
@@ -21,7 +21,7 @@ Voyez par exemple celui produit par extraction automatique de [mes tags del.icio
 Et cet autre produit avec les tags de Gastero Prod[^2] :
 
 <figure>
-  {% picture wordle-gasteroprod.png %}
+  ![](wordle-gasteroprod.png)
   <figcaption>
   Nuage de tags extrait de Gastero Prod
   </figcaption>
@@ -33,7 +33,7 @@ Mais ce que je n'ai vu personne signaler, c'est qu'à part produire une image, p
 Ce qui n'est bien entendu pas le cas du [nuage de tags de Gastero Prod](http://www.gasteroprod.com/#tagscloud), qui n'est pourtant pas si moche non plus, par rapport à ce qu'on peut voir ailleurs :
 
 <figure>
-  {% picture nuage-de-tags-gastero-prod.png %}
+  ![](nuage-de-tags-gastero-prod.png)
   <figcaption>
   Nuage de tags de Gastero Prod
   </figcaption>

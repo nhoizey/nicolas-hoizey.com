@@ -10,7 +10,7 @@ Nous avons eu droit hier au [Photo Club de Draveil](http://photoclubdraveil.fr/)
 Voilà le résultat auquel je suis arrivé :
 
 <figure>
-  {% picture Une-goutte-de-crayons.jpg alt="Une photo en macro d'un crayon de couleur blanc avec une goutte multicolore" %}
+  ![Une photo en macro d'un crayon de couleur blanc avec une goutte multicolore](Une-goutte-de-crayons.jpg)
   <figcaption>
   Une goutte de crayon
   </figcaption>
