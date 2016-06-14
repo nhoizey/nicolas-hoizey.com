@@ -30,6 +30,9 @@ defaults:
     values:
       layout: "post"
 
+exclude:
+  - README.md
+  - LICENSE.md
 # Jekyll Assets
 assets:
   compress:
