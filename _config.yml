@@ -54,3 +54,11 @@ assets:
     css: true
     js: true
 
+# Algolia
+algolia:
+  application_id: '1YLVA0N7BR'
+  index_name: 'blog_posts'
+  read_only_api_key: '3b98a9f7c736ecc42aac5d52140beb41'
+  excluded_files:
+    - 404.html
+    - index.html
