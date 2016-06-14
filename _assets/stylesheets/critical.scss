@@ -1,0 +1,366 @@
+@import "normalize";
+@import "settings";
+
+// Box sizing:
+// http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+html {
+  box-sizing: border-box;
+
+  // http://jaydenseric.com/blog/forget-normalize-or-resets-lay-your-own-css-foundation
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  // Default font family before font face load
+  font-family: Georgia, "DejaVu Serif", serif;
+  font-size: calc(.8em + .3vw + .3vh);
+  font-weight: 400;
+  line-height: 1.5;
+
+  color: #222;
+  background-color: #fff;
+
+  scroll-behavior: smooth;
+}
+
+// ************************************************************
+// Fonts
+// ************************************************************
+
+article p {
+  font-size: 1.09em;
+  line-height: (1.5 / 1.09);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  // Default font family before font face load
+  font-family: Tahoma, Geneva, "DejaVu Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+  color: $color-title;
+  letter-spacing: .025em;
+}
+
+.firstStageFonts-loaded {
+  body {
+    font-family: "PTSerif", Georgia, "DejaVu Serif", serif;
+  }
+
+  article p {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "PTSans", Tahoma, Geneva, "DejaVu Sans", sans-serif;
+    letter-spacing: 0;
+  }
+}
+
+.secondStageFonts-loaded {
+  em {
+    font-family: "PTSerifItalic", Georgia, "DejaVu Serif", serif;
+  }
+
+  strong,
+  .tags .highlight, p .highlight,
+  .pagination li.next, .pagination li.prev {
+    font-family: "PTSerifBold", Georgia, "DejaVu Serif", serif;
+    font-weight: 700;
+  }
+
+  em strong, strong em {
+    font-family: "PTSerifBoldItalic", Georgia, "DejaVu Serif", serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    em {
+      font-family: "PTSansItalic", Tahoma, Geneva, "DejaVu Sans", sans-serif;
+    }
+
+    strong {
+      font-family: "PTSansBold", Tahoma, Geneva, "DejaVu Sans", sans-serif;
+      font-weight: 700;
+    }
+
+    em strong, strong em {
+      font-family: "PTSansBoldItalic", Tahoma, Geneva, "DejaVu Sans", sans-serif;
+      font-weight: 700;
+    }
+  }
+}
+
+pre {
+  font-family: "Courier New", Courier, monospace;
+  overflow-x: auto;
+}
+
+// ************************************************************
+// General styles
+// ************************************************************
+
+a {
+  color: $color-link;
+  text-decoration: underline solid $color-blue;
+}
+
+a:visited {
+  color: darken($color-link, 10%);
+}
+
+a:hover {
+  color: $color-link-hover;
+}
+
+a:active {
+  color: darken($color-hover, 10%);
+}
+
+strong {
+  font-weight: 700;
+}
+
+h1, .list h2, .list h3 {
+  margin: 0 0 1em;
+}
+
+h2, h3, h4, h5, h6 {
+  margin: 2em 0 1em;
+}
+
+h1 {
+  font-size: calc(1.3em + 0.6vw + 0.6vh);
+}
+
+h2 {
+  font-size: calc(1.2em + 0.3vw + 0.3vh);
+}
+
+h3 {
+  font-size: calc(1.1em + 0.1vw + 0.1vh);
+}
+
+h4 {
+  font-size: 1.1em;
+  font-style: italic;
+}
+
+h5 {
+  font-size: 1em;
+  font-style: italic;
+}
+
+// ************************************************************
+// no delay on focusable elements in (future) iOS:
+// https://adactio.com/journal/10019
+// ************************************************************
+
+a, button, input, select, textarea, label, summary {
+  touch-action: manipulation;
+}
+
+// ************************************************************
+// Global wrap
+// ************************************************************
+
+.wrap {
+  width: 90vw;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+// ************************************************************
+// Header and footer
+// ************************************************************
+
+#header {
+  font-size: 1.2em;
+  margin: .5em 0 3em;
+
+  color: $color-header-text;
+
+  a {
+    color: $color-header-link;
+    text-decoration: none;
+    margin-right: 1em;
+    transition-duration: .1s;
+    transition-property: color;
+    transition-timing-function: ease-in-out;
+
+    &:hover {
+      color: $color-header-hover;
+    }
+  }
+
+  a:last-child {
+    margin-right: 0;
+  }
+
+  p:first-of-type a:hover {
+    text-decoration: underline;
+  }
+
+  svg {
+    width: 1.5em;
+    height: 1.5em;
+    fill: currentColor;
+    vertical-align: middle;
+  }
+}
+
+#header, #footer {
+  .wrap {
+    p {
+      margin: 0;
+      line-height: 2;
+
+      &:last-of-type {
+        text-align: right;
+      }
+    }
+
+    @media (min-width: 20em){
+      display: flex;
+      flex-direction: row;
+
+      p {
+        flex: 1;
+      }
+    }
+  }
+}
+
+// ************************************************************
+// Main content
+// ************************************************************
+
+main {
+  flex: 1;
+}
+
+.intro {
+  margin: 0 0 calc(1em + 10vh);
+  font-size: 1.2em;
+  color: $color-article-intro;
+}
+
+.post h1,
+.year h2,
+.month h1 {
+  a {
+    color: $color-title;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline solid $color-title;
+    }
+  }
+}
+
+article {
+  margin: 0 0 calc(1em + 10vh);
+
+  header {
+    color: $color-article-header;
+
+    ul {
+      list-style-type: none;
+      margin: 1vh 0;
+      padding: 0;
+      display: flex;
+
+      flex-direction: column;
+      @media (min-width: 30em) {
+        flex-direction: row;
+      }
+
+      justify-content: space-between;
+    }
+
+    svg {
+      width: 1.1em;
+      height: 1.1em;
+      @media (min-width: 30em) {
+        width: 1.3em;
+        height: 1.3em;
+      }
+
+      fill: lighten($color-article-header, 20%);
+      vertical-align: middle;
+    }
+
+    .date {
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .tags {
+      text-align: left;
+      @media (min-width: 30em) {
+        text-align: right;
+      }
+    }
+
+    a {
+      color: $color-article-header-link;
+      text-decoration: none;
+      transition-property: color;
+      transition-duration: .1s;
+      transition-timing-function: ease-in-out;
+
+      &:visited {
+        color: $color-article-header-link;
+      }
+
+      &:hover {
+        color: $color-article-header-hover;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  h1 ~ p:first-of-type {
+    font-size: 1.2em;
+  }
+}
+
+#search {
+  p {
+    display: flex;
+    flex-direction: row;
+  }
+
+  input {
+    font-size: 16px;
+    margin: 0;
+    padding: 8px 12px;
+    border-radius: 2em;
+    outline: none;
+  }
+
+  [type=search] {
+    margin-right: 1em;
+    flex: 1;
+    border: 2px solid #ccc;
+
+    &:focus {
+      border: 2px solid $color-blue;
+    }
+  }
+
+  [type=submit] {
+    background-color: $color-blue;
+    color: #fff;
+    border: 2px solid darken($color-blue, 10%);
+  }
+}

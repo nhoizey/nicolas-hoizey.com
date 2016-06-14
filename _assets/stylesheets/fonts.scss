@@ -1,0 +1,87 @@
+// ************************************************************
+// Fonts: PT Sans and PT Serif
+// http://www.paratype.com/public/
+//
+// webperf optimizations
+// http://www.zachleat.com/web/foft/
+// ************************************************************
+
+// ************************************************************
+// First stage fonts
+// ************************************************************
+
+@font-face {
+  font-family: 'PTSerif';
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('/assets/fonts/pt_serif/pt_serif_regular.woff2') format('woff2'),
+       url('/assets/fonts/pt_serif/pt_serif_regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'PTSans';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('/assets/fonts/pt_sans/pt_sans_regular.woff2') format('woff2'),
+         url('/assets/fonts/pt_sans/pt_sans_regular.woff') format('woff');
+}
+
+// ************************************************************
+// Second stage fonts
+// ************************************************************
+
+@font-face {
+    font-family: 'PTSerifBold';
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('/assets/fonts/pt_serif/pt_serif_bold.woff2') format('woff2'),
+         url('/assets/fonts/pt_serif/pt_serif_bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'PTSerifItalic';
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('/assets/fonts/pt_serif/pt_serif_italic.woff2') format('woff2'),
+         url('/assets/fonts/pt_serif/pt_serif_italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'PTSerifBoldItalic';
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('/assets/fonts/pt_serif/pt_serif_bold_italic.woff2') format('woff2'),
+         url('/assets/fonts/pt_serif/pt_serif_bold_italic.woff') format('woff');
+}
+
+// @font-face {
+//   font-family: 'PTSansBold';
+//   font-weight: 700;
+//   font-style: normal;
+//   font-stretch: normal;
+//   src: url('/assets/fonts/pt_sans/pt_sans_bold.woff2') format('woff2'),
+//        url('/assets/fonts/pt_sans/pt_sans_bold.woff') format('woff');
+// }
+
+@font-face {
+    font-family: 'PTSansItalic';
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('/assets/fonts/pt_sans/pt_sans_italic.woff2') format('woff2'),
+         url('/assets/fonts/pt_sans/pt_sans_italic.woff') format('woff');
+}
+
+// @font-face {
+//     font-family: 'PTSansBoldItalic';
+//     font-weight: 700;
+//     font-style: italic;
+//     font-stretch: normal;
+//     src: url('/assets/fonts/pt_sans/pt_sans_bold_italic.woff2') format('woff2'),
+//          url('/assets/fonts/pt_sans/pt_sans_bold_italic.woff') format('woff');
+// }
