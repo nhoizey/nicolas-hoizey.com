@@ -31,8 +31,11 @@ defaults:
       layout: "post"
 
 exclude:
+  - autoprefixer.yml
+  - Gemfile*
   - README.md
   - LICENSE.md
+  - tags/*.md
 # Jekyll Assets
 assets:
   compress:
