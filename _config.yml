@@ -36,6 +36,10 @@ exclude:
   - README.md
   - LICENSE.md
   - tags/*.md
+include:
+  - .htaccess
+  - .well-known
+  - tags
 # Jekyll Assets
 assets:
   compress:
