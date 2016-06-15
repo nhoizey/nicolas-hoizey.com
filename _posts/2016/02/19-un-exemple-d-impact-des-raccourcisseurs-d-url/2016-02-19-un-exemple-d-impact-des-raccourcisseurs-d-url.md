@@ -18,7 +18,7 @@ Mais la première URL effectivement suivie est celle imposée par Twitter, c'est
 
 Et voilà l'enchainement de redirections provoqué par un clic sur ce lien :
 
-![](impact-redirection-webperf-fibre.png)
+![L'impact des redirections avec une connexion fibre](impact-redirection-webperf-fibre.png)
 
 Le cumul des temps passés pour chaque redirection avant d'arriver à la « vraie » requête pour la page voulue est de 1 300 millisecondes, **presque une seconde et demi de perdue** !
 

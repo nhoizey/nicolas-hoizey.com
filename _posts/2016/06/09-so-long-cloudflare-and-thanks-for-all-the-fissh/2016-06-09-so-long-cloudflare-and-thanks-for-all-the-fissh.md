@@ -8,7 +8,7 @@ Souhaitant me mettre aux [Service Workers](https://developer.mozilla.org/fr/docs
 
 CloudFlare est un service qui fonctionne comme un proxy pour le site, avec beaucoup de fonctionnalités destinées à améliorer la performance et la sécurité, dont notamment la mise en place de HTTPS. Rien à faire sur le site, qui peut rester en HTTP, il faut juste faire pointer les DNS chez CloudFlare plutôt que chez l'hébergeur du site. Et quand même bien parcourir les nombreuses options de configuration dans tous les sens, pour bien choisir exactement ce que l'on veut.
 
-![](cloudflare.png)
+![Cloudflare](cloudflare.png)
 
 J'ai oublié de préciser que l'[offre de base](https://www.cloudflare.com/plans/), qui inclue le HTTPS, est gratuite, difficile de faire plus compétitif !
 
