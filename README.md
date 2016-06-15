@@ -2,7 +2,7 @@
 
 ## My Jekyll blog
 
-See implementation details —in french— in [https://nicolas-hoizey.com/a-propos.html](https://nicolas-hoizey.com/a-propos.html).
+See implementation details —in french— in [https://nicolas-hoizey.com/a-propos/du-site.html](https://nicolas-hoizey.com/a-propos/du-site.html).
 
 ## License
 
