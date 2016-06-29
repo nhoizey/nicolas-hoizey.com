@@ -43,13 +43,13 @@ GEM
       pathutil (>= 0.8)
       sprockets (~> 3.3)
     jekyll-paginate (1.1.0)
-    jekyll-post-files (1.0.2)
     jekyll-sass-converter (1.4.0)
       sass (~> 3.4)
     jekyll-tagging (1.0.1)
       ruby-nuggets
     jekyll-watch (1.4.0)
       listen (~> 3.0, < 3.1)
+    jekyll_post_files (1.0.5)
     json (1.8.3)
     kramdown (1.11.1)
     liquid (3.0.6)
@@ -91,8 +91,8 @@ DEPENDENCIES
   jekyll
   jekyll-assets
   jekyll-paginate
-  jekyll-post-files
   jekyll-tagging
+  jekyll_post_files
   uglifier
 
 BUNDLED WITH

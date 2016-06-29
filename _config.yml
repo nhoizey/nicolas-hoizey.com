@@ -2,7 +2,7 @@ gems:
   - jekyll-assets
   - jekyll-paginate
   - algoliasearch-jekyll
-  - jekyll-post-files
+  - jekyll_post_files
 
 # Site settings
 title: Nicolas Hoizey
