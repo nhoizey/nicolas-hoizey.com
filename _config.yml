@@ -16,7 +16,10 @@ url: "https://nicolas-hoizey.com" # the base hostname & protocol for your site
 twitter_username: nhoizey
 github_username:  nhoizey
 
-# Build settings
+# Permalinks
+permalink: :year/:month/:title.html
+
+# Markdown parsing
 markdown: kramdown
 kramdown:
   input: GFM
