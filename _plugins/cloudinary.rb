@@ -1,11 +1,24 @@
 =begin
-  Jekyll tag to use Cloudinary for optimized posts images.
+  New Liquid tag to use Cloudinary for optimized responsive posts images.
   Usage:
     {% cloudinary [preset] path/to/img.jpg [attr="value"] %}
+  Examples:
     {% cloudinary image1.jpg alt="alternate" %}
     {% cloudinary onethird image2.jpg alt="other" title="yet another one" %}
-  Dependency:
-    - kramdown
+
+  Configuration
+    In _config.yml:
+
+    cloudinary:
+      api_id: …
+      auto: true
+      presets:
+        default:
+          min_size: 320
+          max_size: 1600
+          steps: 5
+          sizes: "(min-width: 50rem) 50rem, 90vw"
+
 =end
 module Jekyll
 
