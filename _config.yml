@@ -18,6 +18,11 @@ github_username:  nhoizey
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  footnote_backlink: "⬆︎"
+  header_offset: 1
 
 # Pagination
 paginate: 5
