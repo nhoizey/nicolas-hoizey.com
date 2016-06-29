@@ -2,6 +2,7 @@ gems:
   - jekyll-assets
   - jekyll-paginate
   - algoliasearch-jekyll
+  - jekyll-post-files
 
 # Site settings
 title: Nicolas Hoizey
@@ -43,9 +44,11 @@ exclude:
   - README.md
   - LICENSE.md
   - tags/*.md
+  - Rakefile
 include:
   - .htaccess
   - .well-known
+  - favicon.jpg
   - tags
 
 # Jekyll Assets

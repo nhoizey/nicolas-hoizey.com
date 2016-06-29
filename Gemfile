@@ -8,4 +8,5 @@ group :jekyll_plugins do
   gem 'jekyll-tagging'
   gem 'uglifier'
   gem 'algoliasearch-jekyll'
+  gem 'jekyll-post-files'
 end
