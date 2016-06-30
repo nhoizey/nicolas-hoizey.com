@@ -57,6 +57,10 @@ module Jekyll
                     {}
                   end
 
+      if instance['attr']
+        html_attr = instance.delete('attr').merge(html_attr)
+      end
+
       if html_attr['caption']
         caption = html_attr['caption']
         html_attr.delete('caption')
