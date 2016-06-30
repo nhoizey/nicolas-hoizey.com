@@ -75,7 +75,9 @@ module Jekyll
       srcset = []
       steps = preset['steps'].to_i
       min_width = preset['min_width'].to_i
-      step_width = (preset['max_width'].to_i - min_width) / steps
+      max_width = preset['max_width'].to_i
+      step_width = (max_width - min_width) / steps
+      sizes = preset['sizes']
       (0..steps).each do |factor|
         width = min_width + factor * step_width
         srcset << "http://res.cloudinary.com/#{api_id}/image/fetch/c_scale,w_#{width},q_auto,f_auto/#{image_url} #{width}w"
