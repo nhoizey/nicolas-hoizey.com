@@ -41,6 +41,7 @@ module Jekyll
       # Render any liquid variables in tag arguments and unescape template code
       rendered_markup = Liquid::Template.parse(@markup).render(context).gsub(/\\\{\\\{|\\\{\\%/, '\{\{' => '{{', '\{\%' => '{%')
 
+      # Extract tag segments
       markup = /^(?:(?<preset>[^\s.:\/]+)\s+)?(?<image_src>[^\s]+\.[a-zA-Z0-9]{3,4})\s*(?<html_attr>[\s\S]+)?$/.match(rendered_markup)
       raise "Cloudinary can't read this tag. Try {% cloudinary [preset] path/to/img.jpg [attr=\"value\"] %}." unless markup
 
@@ -49,7 +50,7 @@ module Jekyll
       # Deep copy preset for single instance manipulation
       instance = Marshal.load(Marshal.dump(preset))
 
-      # Process html
+      # Process attributes
       html_attr = if markup[:html_attr]
                     Hash[ *markup[:html_attr].scan(/(?<attr>[^\s="]+)(?:="(?<value>[^"]+)")?\s?/).flatten ]
                   else
