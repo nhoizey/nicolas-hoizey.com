@@ -84,9 +84,9 @@ module Jekyll
       end
 
       if caption
-        "<figure><img src=\"#{image_url}\" srcset=\"#{srcset.join(", ")}\" sizes=\"(min-width: 50rem) 50rem, 90vw\" #{attr_string} /><figcaption>#{caption}</figcaption></figure>"
+        "\n<figure>#{img}<figcaption>#{caption}</figcaption>\n</figure>\n"
       else
-        "<img src=\"#{image_url}\" srcset=\"#{srcset.join(", ")}\" sizes=\"(min-width: 50rem) 50rem, 90vw\" #{attr_string} />"
+        img
       end
     end
   end
