@@ -56,8 +56,10 @@ module Jekyll
                   else
                     {}
                   end
-      if instance['attr']
-        html_attr = instance.delete('attr').merge(html_attr)
+
+      if html_attr['caption']
+        caption = html_attr['caption']
+        html_attr.delete('caption')
       end
 
       is_image_path_absolute = /^\/.*$/.match(markup[:image_src])
@@ -77,8 +79,11 @@ module Jekyll
         srcset << "http://res.cloudinary.com/#{api_id}/image/fetch/c_scale,w_#{width},q_auto,f_auto/#{image_url} #{width}w"
       end
 
-      "<img src=\"#{image_url}\" srcset=\"#{srcset.join(", ")}\" sizes=\"(min-width: 50rem) 50rem, 90vw\" />"
-
+      if caption
+        "<figure><img src=\"#{image_url}\" srcset=\"#{srcset.join(", ")}\" sizes=\"(min-width: 50rem) 50rem, 90vw\" #{attr_string} /><figcaption>#{caption}</figcaption></figure>"
+      else
+        "<img src=\"#{image_url}\" srcset=\"#{srcset.join(", ")}\" sizes=\"(min-width: 50rem) 50rem, 90vw\" #{attr_string} />"
+      end
     end
   end
 
