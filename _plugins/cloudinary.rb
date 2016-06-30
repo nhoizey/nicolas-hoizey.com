@@ -62,6 +62,7 @@ module Jekyll
         html_attr.delete('caption')
       end
 
+      # Build source image URL
       is_image_path_absolute = /^\/.*$/.match(markup[:image_src])
       if is_image_path_absolute
         image_url = File.join(url, markup[:image_src])
