@@ -82,9 +82,12 @@ module Jekyll
         width = min_width + factor * step_width
         srcset << "http://res.cloudinary.com/#{api_id}/image/fetch/c_scale,w_#{width},q_auto,f_auto/#{image_url} #{width}w"
       end
+      srcset_string = srcset.join(",\n")
+
+      img = "<img src=\"#{image_url}\" srcset=\"#{srcset_string}\" sizes=\"#{sizes}\" #{attr_string} />"
 
       if caption
-        "\n<figure>#{img}<figcaption>#{caption}</figcaption>\n</figure>\n"
+        "\n<figure>\n#{img}\n<figcaption>#{caption}</figcaption>\n</figure>\n"
       else
         img
       end
