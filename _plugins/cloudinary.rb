@@ -64,7 +64,13 @@ module Jekyll
       markup = /^(?:(?<preset>[^\s.:\/]+)\s+)?(?<image_src>[^\s]+\.[a-zA-Z0-9]{3,4})\s*(?<html_attr>[\s\S]+)?$/.match(rendered_markup)
       raise "Cloudinary can't read this tag. Try {% cloudinary [preset] path/to/img.jpg [attr=\"value\"] %}." unless markup
 
-      preset = preset.merge(settings['presets'][markup[:preset]] || {})
+      if markup[:preset]
+        if settings['presets'][markup[:preset]]
+          preset = preset.merge(settings['presets'][markup[:preset]])
+        else
+          puts "\n[WARNING] '#{markup[:preset]}' preset for the Cloudinary plugin doesn't exist in _config.yml, using the default one"
+        end
+      end
 
       attributes = preset['attributes']
 
