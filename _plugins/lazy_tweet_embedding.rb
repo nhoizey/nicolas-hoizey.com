@@ -1,20 +1,22 @@
-# https://github.com/takuti/jekyll-lazy-tweet-embedding
-
 require "open-uri"
 require "json"
 
-# convert tweet url to embedding html
-def embedding_tweet(content)
-  embedded_content = content
-  content.scan(/(https?:\/\/twitter\.com\/[a-zA-Z0-9_]+\/status\/([0-9]+)\/?)/).each do |url, id|
-    tweet_json = open("https://api.twitter.com/1/statuses/oembed.json?id=#{id}").read
-    tweet_html = JSON.parse(tweet_json, { :symbolize_names => true })[:html]
-    embedded_content = embedded_content.gsub(/#{url}/, tweet_html)
-  end
-  embedded_content
-end
-
 module Jekyll
+
+  # convert tweet url to embedding html
+  class LazyTweetEmbedding
+    def convert(line)
+      if m = line.match(/^https?:\/\/twitter\.com\/[a-zA-Z0-9_]+\/status\/([0-9]+)\/?$/)
+        tweet_json = open("https://api.twitter.com/1/statuses/oembed.json?id=#{m[1]}").read
+        line = JSON.parse(tweet_json, { :symbolize_names => true })[:html]
+      end
+      line
+    end
+
+    def embed(content)
+      content.lines.collect {|line| convert(line) }.join
+    end
+  end
 
   # for markdown, extend oroginal parser's convert method
   module Converters
@@ -22,7 +24,7 @@ module Jekyll
       alias_method :parser_converter, :convert
 
       def convert(content)
-        parser_converter(embedding_tweet(content))
+        parser_converter(Jekyll::LazyTweetEmbedding.new.embed(content))
       end
     end
   end
@@ -41,7 +43,7 @@ module Jekyll
     end
 
     def convert(content)
-      embedding_tweet(content)
+      Jekyll::LazyTweetEmbedding.new.embed(content)
     end
   end
 
