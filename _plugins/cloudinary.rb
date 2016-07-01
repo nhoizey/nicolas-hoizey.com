@@ -12,12 +12,15 @@
     cloudinary:
       api_id: …
       auto: true
+      verbose: true
       presets:
         default:
           min_size: 320
           max_size: 1600
           steps: 5
           sizes: "(min-width: 50rem) 50rem, 90vw"
+          attributes:
+            class: onethird
 
 =end
 module Jekyll
