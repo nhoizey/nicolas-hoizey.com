@@ -188,8 +188,9 @@ module Jekyll
       auto = settings['auto']
 
       if auto
-        image = /\!\[(.*)\]\(([^ ]+)( "([^"]+)")?\)({:caption="([^"]+)"})?/
-        content.gsub(image, "{% cloudinary \\2 alt=\"\\1\" title=\"\\4\" caption=\"\\6\" %}")
+        image_regex = /\!\[(?<alt>[^\]]*)\]\((?<url>[^\ )]+)( "(?<title>[^"]+)")?\)(\{\:\.(?<class>[^\}]+)\}|\{\:caption="(?<caption>[^"]+)"\}|\{\:preset="(?<preset>[^"]+)"\})*/
+        liquid_tag = '{% cloudinary \k<preset> alt="\k<alt>" title="\k<title>" caption="\k<caption>" class="\k<class>" %}'
+        content.gsub(image_regex, liquid_tag)
       else
         content
       end
@@ -198,5 +199,6 @@ module Jekyll
 
 
 end
+
 Liquid::Template.register_tag('cloudinary', Jekyll::CloudinaryTag)
 
