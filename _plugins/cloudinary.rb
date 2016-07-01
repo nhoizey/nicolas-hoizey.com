@@ -44,14 +44,14 @@ module Jekyll
         "steps" => 5,
         "sizes" => "100vw",
         "caption" => "auto",
-        "attributes" => { }
+        "attributes" => { },
+        "verbose" => false
       }
 
       # Settings
       site = context.registers[:site]
       url = site.config['url']
       settings = site.config['cloudinary']
-      api_id = settings['api_id']
 
       preset_user_defaults = {}
       if settings['presets']
@@ -89,7 +89,9 @@ module Jekyll
         if settings['presets'][markup[:preset]]
           preset = preset.merge(settings['presets'][markup[:preset]])
         else
-          puts "\n[WARNING] '#{markup[:preset]}' preset for the Cloudinary plugin doesn't exist in _config.yml, using the default one"
+          if settings['verbose']
+            puts "\n[Cloudinary] '#{markup[:preset]}' preset for the Cloudinary plugin doesn't exist in _config.yml, using the default one"
+          end
         end
       end
 
@@ -134,14 +136,6 @@ module Jekyll
 
       attr_string = html_attr.map { |a,v| "#{a}=\"#{v}\"" }.join(' ')
 
-      # Build source image URL
-      is_image_path_absolute = /^\/.*$/.match(markup[:image_src])
-      if is_image_path_absolute
-        image_url = File.join(url, markup[:image_src])
-      else
-        image_url = File.join(url, File.dirname(context['page'].url), markup[:image_src])
-      end
-
       srcset = []
       steps = preset['steps'].to_i
       min_width = preset['min_width'].to_i
@@ -149,9 +143,22 @@ module Jekyll
       step_width = (max_width - min_width) / steps
       sizes = preset['sizes']
 
-      (0..steps).each do |factor|
-        width = min_width + factor * step_width
-        srcset << "http://res.cloudinary.com/#{api_id}/image/fetch/c_scale,w_#{width},q_auto,f_auto/#{image_url} #{width}w"
+      if natural_width < min_width
+        if settings['verbose']
+          puts "[Cloudinary] Natural width of source image '#{File.basename(image_src)}' (#{natural_width}px) in #{context['page'].path} not enough for creating any srcset version"
+        end
+        srcset << "http://res.cloudinary.com/#{settings['api_id']}/image/fetch/q_auto,f_auto/#{image_url} #{natural_width}w"
+      else
+        (0..steps).each do |factor|
+          width = min_width + factor * step_width
+          if width <= natural_width
+            srcset << "http://res.cloudinary.com/#{settings['api_id']}/image/fetch/c_scale,w_#{width},q_auto,f_auto/#{image_url} #{width}w"
+          else
+            if settings['verbose']
+              puts "[Cloudinary] Natural width of source image '#{File.basename(image_src)}' (#{natural_width}px) in #{context['page'].path} not enough for creating #{width}px version"
+            end
+          end
+        end
       end
       srcset_string = srcset.join(",\n")
 
