@@ -11,8 +11,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://nicolas-hoizey.com" # the base hostname & protocol for your site
+baseurl: ""
+url: "https://nicolas-hoizey.com"
 twitter_username: nhoizey
 github_username:  nhoizey
 
@@ -29,16 +29,16 @@ kramdown:
 
 # Pagination
 paginate: 5
-paginate_path: '/page-:num/'
+paginate_path: /page-:num/
 
 # Defaults
 defaults:
   -
     scope:
       path: ""
-      type: "posts"
+      type: posts
     values:
-      layout: "post"
+      layout: post
 
 # Tags
 tag_page_layout: tag
@@ -67,9 +67,9 @@ assets:
 
 # Algolia
 algolia:
-  application_id: '1YLVA0N7BR'
-  index_name: 'blog_posts'
-  read_only_api_key: '3b98a9f7c736ecc42aac5d52140beb41'
+  application_id: 1YLVA0N7BR
+  index_name: blog_posts
+  read_only_api_key: 3b98a9f7c736ecc42aac5d52140beb41
   excluded_files:
     - 404.html
     - index.html
@@ -83,4 +83,13 @@ cloudinary:
       min_width: 320
       max_width: 1600
       steps: 5
-      sizes: "(min-width: 50rem) 50rem, 90vw"
+      sizes: '(min-width: 50rem) 50rem, 90vw'
+      caption: always
+    onethird:
+      min_width: 110
+      max_width: 540
+      steps: 5
+      sizes: '(min-width: 50rem) 17rem, 30vw'
+      caption: always
+      attributes:
+        class: onethird
