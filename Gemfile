@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'jekyll'
+gem 'rmagick'
 
 group :jekyll_plugins do
   gem 'jekyll-paginate'

@@ -25,6 +25,8 @@ module Jekyll
   class CloudinaryTag < Liquid::Tag
     # priority :normal
 
+    require "RMagick"
+
     def initialize(tag_name, markup, tokens)
       @markup = markup
       super
@@ -75,6 +77,10 @@ module Jekyll
         image_path = File.join(site.config['destination'], File.dirname(context['page'].url), image_src)
         image_url = File.join(url, File.dirname(context['page'].url), image_src)
       end
+
+      # Get source image natural width
+      image = Magick::Image::read(image_path).first
+      natural_width = image.columns
 
       if markup[:preset]
         if settings['presets'][markup[:preset]]

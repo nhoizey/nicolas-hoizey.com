@@ -70,6 +70,7 @@ GEM
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
+    rmagick (2.15.4)
     rouge (1.11.1)
     ruby-nuggets (1.0.0)
       nuggets (= 1.0.0)
@@ -93,6 +94,7 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-tagging
   jekyll_post_files
+  rmagick
   uglifier
 
 BUNDLED WITH
