@@ -77,7 +77,7 @@ algolia:
 
 # Cloudinary
 cloudinary:
-  api_id: nho
+  cloud_name: nho
   verbose: true
   presets:
     default:
