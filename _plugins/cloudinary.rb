@@ -171,33 +171,6 @@ module Jekyll
     end
   end
 
-  class Cloudinarify < Converter
-    # priority :high
-
-    def matches(ext)
-      ext.downcase == ".md"
-    end
-
-    def output_ext(ext)
-      ".md"
-    end
-
-    def convert(content)
-      site = Jekyll::Site.new(@config)
-      settings = site.config['cloudinary']
-      auto = settings['auto']
-
-      if auto
-        image_regex = /\!\[(?<alt>[^\]]*)\]\((?<url>[^\ )]+)( "(?<title>[^"]+)")?\)(\{\:\.(?<class>[^\}]+)\}|\{\:caption="(?<caption>[^"]+)"\}|\{\:preset="(?<preset>[^"]+)"\})*/
-        liquid_tag = '{% cloudinary \k<preset> alt="\k<alt>" title="\k<title>" caption="\k<caption>" class="\k<class>" %}'
-        content.gsub(image_regex, liquid_tag)
-      else
-        content
-      end
-    end
-  end
-
-
 end
 
 Liquid::Template.register_tag('cloudinary', Jekyll::CloudinaryTag)
