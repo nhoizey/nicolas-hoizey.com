@@ -10,4 +10,5 @@ group :jekyll_plugins do
   gem 'uglifier'
   gem 'algoliasearch-jekyll'
   gem 'jekyll_post_files'
+  gem 'jekyll-cloudinary'
 end

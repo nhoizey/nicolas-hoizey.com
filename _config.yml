@@ -3,6 +3,7 @@ gems:
   - jekyll-paginate
   - algoliasearch-jekyll
   - jekyll_post_files
+  - jekyll-cloudinary
 
 # Site settings
 title: Nicolas Hoizey
@@ -77,19 +78,19 @@ algolia:
 # Cloudinary
 cloudinary:
   api_id: nho
-  auto: true
+  verbose: true
   presets:
     default:
       min_width: 320
       max_width: 1600
       steps: 5
       sizes: '(min-width: 50rem) 50rem, 90vw'
-      caption: always
+      figure: always
     onethird:
       min_width: 110
       max_width: 540
       steps: 5
       sizes: '(min-width: 50rem) 17rem, 30vw'
-      caption: always
+      figure: always
       attributes:
         class: onethird
