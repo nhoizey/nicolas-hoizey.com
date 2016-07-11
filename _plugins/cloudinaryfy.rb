@@ -23,7 +23,7 @@
 module Jekyll
 
   class Cloudinarify < Converter
-    # priority :high
+    priority :high
 
     def matches(ext)
       ext.downcase == ".md"
