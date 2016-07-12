@@ -9,7 +9,7 @@ J'ai vu apparaître ce matin dans mon aggrégateur de flux RSS/Atom un billet du
 
 Voilà ce que ça donnait dans NetNewsWire :
 
-<figure>
+<figure markdown="1">
   ![](GoogleDocsToDoListsYes.png)
   <figcaption>
   Des listes de tâches dans Google Docs ?
@@ -19,7 +19,7 @@ Voilà ce que ça donnait dans NetNewsWire :
 
 Et voilà ce qu'il y a maintenant dans le flux :
 
-<figure>
+<figure markdown="1">
   ![](GoogleDocsToDoListsNo.png)
   <figcaption>
   Ou pas...

@@ -64,14 +64,14 @@ Algolia est bluffant à plus d'un titre :
 - nombreux paramètres de configuration activables dans l'interface et surchargeables via l'API
 - et enfin, performance incroyable, avec des temps de réponse extrêmement faibles permettant une expérience utilisateur optimale, que ce soit en mode [suggestion de recherche](https://www.algolia.com/doc/tutorials/auto-complete) ou [résultats instantanés](https://www.algolia.com/doc/tutorials/instant-search)
 
-<figure>
+<figure markdown="1">
   ![Le tableau de bord Algolia](algolia-dashboard-overview.jpg)
   <figcaption>
   Un point de vue rapide sur l'état de l'indexation et des recherches.
   </figcaption>
 </figure>
 
-<figure>
+<figure markdown="1">
   ![Le suivi des temps de réponse](algolia-dashboard-response-times.jpg)
   <figcaption>
   Le suivi des temps de réponse de l'API. Oui, l'échelle est en millisecondes !

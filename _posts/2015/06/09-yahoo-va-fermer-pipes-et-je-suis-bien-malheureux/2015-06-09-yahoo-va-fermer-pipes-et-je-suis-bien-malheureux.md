@@ -12,7 +12,7 @@ Entendons-nous bien, Yahoo Pipes bosse pour moi au quotidien, mais je ne vais da
 
 Voici [un exemple de *Pipe*](http://pipes.yahoo.com/pipes/pipe.edit?_id=bfe78fd60a9e342daa10715d03b51584), qui me permet de publier [de jolis tweets](https://twitter.com/nhoizey/status/605637245945675776) pour [mes bookmarks Pinboard](https://nicolas-hoizey.com/tags/pinboard.html) destinés aux [CleverMarks](https://twitter.com/CleverMarks) :
 
-<figure>
+<figure markdown="1">
   ![](yahoo-pipes-pinboard-twitter.png)
   <figcaption>
   Vue graphique d'un *Pipe* de transformation de flux RSS
@@ -23,7 +23,7 @@ Plus exactement, ce *Pipe* transforme le flux RSS fourni par Pinboard en un autr
 
 Par exemple, [ce bookmark](https://pinboard.in/u:nhoizey/b:602669af0bcf) :
 
-<figure>
+<figure markdown="1">
   ![](pinboard-bookmark.png)
   <figcaption>
   Un bookmark dans Pinboard

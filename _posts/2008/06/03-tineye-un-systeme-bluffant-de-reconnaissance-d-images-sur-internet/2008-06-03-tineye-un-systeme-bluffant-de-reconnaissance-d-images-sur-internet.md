@@ -9,7 +9,7 @@ tags:       [photo, image, recherche, TinEye]
 
 J'ai pris comme exemple cette fameuse photo de l'actrice [Zhang Ziyi](http://fr.wikipedia.org/wiki/Zhang_Ziyi) que tant de gens [intègrent à leurs contenus directement depuis Gastero Prod](/2006/03/halte-au-vol-de-bande-passante.html) :
 
-<figure>
+<figure markdown="1">
   ![](zhang_ziyi.jpg)
   <figcaption>
   Lune (Zhang Ziyi)
@@ -19,7 +19,7 @@ J'ai pris comme exemple cette fameuse photo de l'actrice [Zhang Ziyi](http://fr.
 
 En lançant TinEye directement sur la page de mon article avec l'[extension Firefox](http://tineye.com/plugin) :
 
-<figure>
+<figure markdown="1">
   ![](tineye-firefox.png)
   <figcaption>
   Lancement de la recherche
@@ -29,7 +29,7 @@ En lançant TinEye directement sur la page de mon article avec l'[extension Fire
 
 J'obtiens 13 résultats :
 
-<figure>
+<figure markdown="1">
   ![](tineye-resultat.png)
   <figcaption>
   Premiers résultat de la recherche
@@ -39,7 +39,7 @@ J'obtiens 13 résultats :
 
 Dont l'un n'est vraiment pas une simple copie ou redécoupage de la photo recherchée, mais une version légèrement altérée :
 
-<figure>
+<figure markdown="1">
   ![](tineye-resultat-balaise.png)
   <figcaption>
   Un résultat particulièrement intéressant

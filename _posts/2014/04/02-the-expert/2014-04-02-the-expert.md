@@ -4,7 +4,7 @@ lang:       fr
 tags:       [humour, vidéo, court-métrage]
 ---
 
-<figure>
+<figure markdown="1">
   ![](the-expert-screencap.png)
 </figure>
 Bon sang, mais oui, c'est ça que je vis régulièrement depuis plus de 15 ans que je travaille dans le Web. Trop souvent, un client essaie de m'imposer sa vision des choses, alors que je tente par tous les moyens de lui faire comprendre qu'il a tort — ou en tout cas qu'il est possible de mieux faire —, et alors que justement il me paie pour cette expertise que je suis censé avoir.

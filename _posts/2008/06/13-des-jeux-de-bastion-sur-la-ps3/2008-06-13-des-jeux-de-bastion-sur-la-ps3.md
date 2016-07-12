@@ -6,7 +6,7 @@ tags:       [jeu vidéo, fail, Sony, PlayStation]
 
 Oui, oui, vous avez bien lu, c'est bien de jeux de « bastion » que je parle, le genre qui laisse imaginer des combats entre deux équipes pour conquérir le territoire de l'autre. En tout cas c'est ce que proposait le [PlayStation Store](http://store.playstation.com/) lors de sa récente mise à jour...
 
-<figure>
+<figure markdown="1">
   ![](playstation-store-bastion.jpg)
 </figure>
 

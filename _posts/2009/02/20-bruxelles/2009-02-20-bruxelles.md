@@ -6,7 +6,7 @@ tags:       [photo]
 
 Une photo prise sur la Grand-Place de Bruxelles.
 
-<figure>
+<figure markdown="1">
   ![](bruxelles.jpg)
   <figcaption>
   Bruxelles

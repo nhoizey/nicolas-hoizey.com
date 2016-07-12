@@ -18,7 +18,7 @@ Comme vous le savez déjà, [j'ai migré Gastero Prod vers Gandi](/2008/02/c-est
 
 Malheureusement, une des plateformes supportant l'architecture est [tombé en carafe **jeudi 15 mai** en début d'après-midi](http://www.lebardegandi.net/post/2008/05/16/Problemes-de-disques). Ma machine virtuelle ne se trouvait heureusement pas sur le « filer 13 », donc je n'ai perdu aucune donnée, mais [j'ai subit des effets de bord rendant le site indisponible](http://www.lebardegandi.net/post/2008/05/16/Problemes-de-disques#c165464).
 
-<figure>
+<figure markdown="1">
   ![](logo-gandi-hebergement.png)
 </figure>
 

@@ -4,7 +4,7 @@ lang:       fr
 tags:       [musique, iTunes, aléatoire]
 ---
 
-<figure>
+<figure markdown="1">
   ![](casque-iphone.png)
 </figure>
 Je suis d'habitude du genre à écouter des albums plutôt que des *singles*, mais le fait est qu'il est très compliqué d'écouter des albums quand on écoute de façon morcelée, notamment dans les transports en commun. J'écoute donc de plus en plus ma musique en mode aléatoire, en enchainant les singles. Sauf que l'aléatoire de base ne me convient pas.
@@ -23,7 +23,7 @@ Malheureusement, il est impossible de croiser des critères avec des « ou » et
 
 Voici les listes que j'ai créées :
 
-<figure>
+<figure markdown="1">
   ![](itunes-listes-intelligentes.png)
   <figcaption>
   Cinq listes intelligentes pour sélectionner la musique à écouter
@@ -32,7 +32,7 @@ Voici les listes que j'ai créées :
 
 Les intitulés sont à priori explicites, mais voici la configuration de l'une d'elles :
 
-<figure>
+<figure markdown="1">
   ![](itunes-liste-intelligente-4-etoiles.png)
   <figcaption>
   Une liste intelligente pour écouter les morceaux 4 étoiles une fois par semaine. Oui, je retire la musique pour enfants, j'ai d'autres occasions de l'écouter…
@@ -41,7 +41,7 @@ Les intitulés sont à priori explicites, mais voici la configuration de l'une d
 
 Rassembler ces listes dans un dossier permet de jouer l'ensemble dans iTunes en sélectionnant le dossier en question :
 
-<figure>
+<figure markdown="1">
   ![](itunes-dossier-listes-intelligentes.png)
   <figcaption>
   Un dossier pour obtenir une liste composée. C'est donc un « ou » logique.
@@ -50,7 +50,7 @@ Rassembler ces listes dans un dossier permet de jouer l'ensemble dans iTunes en 
 
 Mais ce n'est malheureusement pas le cas sur iPhone. J'ai donc créé une dernière liste pour rassembler les précédentes, c'est celle-ci qui est synchronisée sur mon iPhone :
 
-<figure>
+<figure markdown="1">
   ![](itunes-liste-intelligente-dossier.png)
   <figcaption>
   Une liste intelligente pour rassembler les listes d'un dossier

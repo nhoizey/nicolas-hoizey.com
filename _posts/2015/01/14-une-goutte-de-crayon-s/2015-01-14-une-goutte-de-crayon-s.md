@@ -9,7 +9,7 @@ Nous avons eu droit hier au [Photo Club de Draveil](http://photoclubdraveil.fr/)
 
 Voilà le résultat auquel je suis arrivé :
 
-<figure>
+<figure markdown="1">
   ![Une photo en macro d'un crayon de couleur blanc avec une goutte multicolore](Une-goutte-de-crayons.jpg)
   <figcaption>
   Une goutte de crayon

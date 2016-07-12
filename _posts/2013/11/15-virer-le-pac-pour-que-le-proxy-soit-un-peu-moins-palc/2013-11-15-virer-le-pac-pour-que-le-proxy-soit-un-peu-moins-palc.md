@@ -27,7 +27,7 @@ else
 
 Et le paramétrage de proxy suivant dans Mac OS X :
 
-<figure>
+<figure markdown="1">
   ![](configuration-de-proxy-automatique-sur-mac.png)
 </figure>
 
@@ -37,7 +37,7 @@ Pour conserver le proxy uniquement pour les IP souhaitées, tout en concervant l
 
 Voilà ce que cela donne :
 
-<figure>
+<figure markdown="1">
   ![](configuration-de-proxy-manuelle-sur-mac.png)
 </figure>
 

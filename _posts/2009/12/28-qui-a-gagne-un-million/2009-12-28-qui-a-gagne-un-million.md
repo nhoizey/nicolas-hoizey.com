@@ -8,13 +8,13 @@ Bon, c'est peu forcément par rapport à tant d'autres sites, mais petit à peti
 
 Les statistiques [SPIP](http://www.spip.net/) accumulées depuis le début, avec leur lot d'erreurs ou modifications d'algorithme[^1], montrent donc que j'ai dépassé le million de visites depuis le début :
 
-<figure>
+<figure markdown="1">
   ![](gastero-prod-stats-global.png)
 </figure>
 
 La tendance globale des visites quotidiennes montre bien l'évolution, et mes périodes d'inactivité, qui s'accompagnent forcément de creux de visites :
 
-<figure>
+<figure markdown="1">
   ![](gastero-prod-stats-quotidien.png)
 </figure>
 

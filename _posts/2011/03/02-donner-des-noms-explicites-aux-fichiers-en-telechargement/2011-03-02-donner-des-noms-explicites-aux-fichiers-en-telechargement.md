@@ -10,7 +10,7 @@ De nombreux sites proposent de télécharger des fichiers. Qu’il s’agisse de
 
 Comme l’illustre [ce parfait exemple proposé par Canon](/2011/03/des-noms-de-fichiers-a-telecharger-denues-de-sens-sur-software-canon-europe-com.html), le nom des fichiers à télécharger doit être pensé pour l’utilisateur, qui va s’en servir pour identifier son contenu, et décider de son usage éventuel ultérieur :
 
-<figure>
+<figure markdown="1">
   ![](tumblr_l681t3ba6.png)
 </figure>
 

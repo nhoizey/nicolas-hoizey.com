@@ -10,7 +10,7 @@ J'ai la chance d'avoir un superbe écran sur mon MacBook Pro, un ancien modèle 
 
 J'ai donc passé cette taille par défaut à 18px dans les préférences de mon Firefox :
 
-<figure>
+<figure markdown="1">
   ![](firefox-preferences-contenu-texte-18px.png)
   <figcaption>
   Modifier la taille de texte par défaut dans Firefox

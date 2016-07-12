@@ -10,7 +10,7 @@ J'avais déjà vu SMIL plusieurs fois avant, mais j'ai découvert sa puissance a
 
 Si vous ne l'avez pas encore vue, il s'agit d'une animation, en SVG complètement scriptée en SMIL, qui parle des Super Héros du Web, et elle est heureusement encore visible [sur son blog](http://jeremie.patonnier.net/post/2011/10/18/Paris-Web-2011-%3A-SVG-et-Typographie).
 
-<figure>
+<figure markdown="1">
   ![](jeremie-patonnier-svg-smil.png)
   <figcaption>
   « W3C Sentaï Team » par Jérémie Patonnier avec des illustrations de Corinne Massacry

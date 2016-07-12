@@ -8,13 +8,13 @@ Dans la liste des messages, GMail montre l'expéditeur, le sujet, et le début d
 
 Voici un exemple probant avec un message venant d'un spammeur tentant de se faire passer pour Orange :
 
-<figure>
+<figure markdown="1">
   ![](orange-mailing-fail.png)
 </figure>
 
 Et voilà ce que ça donne quand on l'ouvre :
 
-<figure>
+<figure markdown="1">
   ![](orange-mailing-fail-2.png)
 </figure>
 

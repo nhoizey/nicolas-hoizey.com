@@ -37,7 +37,7 @@ D'autre part, même si c'est une fonction à laquelle peu d'utilisateurs semblen
 
 Autre problème de FeedBurner, c'est que les URL des flux changent suite au rachat par Google, mais je n'ai pas encore regardé si les anciennes URL seront tout de même conservées pour ne pas dérouter les utilisateurs. Pour l'instant, c'est dommage, la redirection est indiquée comme temporaire (code 302) et non permanente (code 301), donc les clients ne vont pas se mettre à jour...
 
-<figure>
+<figure markdown="1">
   ![](feedburner-to-google-302.png)
 </figure>
 

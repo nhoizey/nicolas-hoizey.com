@@ -9,7 +9,7 @@ C'est au détour d'[un article de The Inquirer à propos de Windows 7](http://ww
 
 La preuve en image :
 
-<figure>
+<figure markdown="1">
   ![](Linus_Torvalds_open_sauce_guru.png)
 </figure>
 

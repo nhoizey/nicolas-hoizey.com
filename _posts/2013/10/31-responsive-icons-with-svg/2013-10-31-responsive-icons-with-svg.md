@@ -6,7 +6,7 @@ tags:       [Web, design, CSS, Responsive Web Design]
 
 There have already been [some explorations on responsive SVG images](http://blog.cloudfour.com/media-queries-in-svg-images/) a while back, but when [Joe Harrison](http://www.joeharrison.co.uk/) posted [a responsive icon concept](http://dribbble.com/shots/1290195-New-Project-Responsive-Icons) on Dribbble and even a working version on [a dedicated website](http://responsiveicons.co.uk/), a few people thought this was [so wrong](http://xkcd.com/386/) they had to make their own version. I must admit I'm one of them… ;-)
 
-<figure>
+<figure markdown="1">
   ![](responsive-icons.png)
 </figure>
 

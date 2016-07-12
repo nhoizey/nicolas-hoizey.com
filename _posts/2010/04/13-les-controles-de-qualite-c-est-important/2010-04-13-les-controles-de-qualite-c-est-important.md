@@ -8,7 +8,7 @@ Les faire quand on les annonce, c'est mieux...
 
 La preuve en image :
 
-<figure>
+<figure markdown="1">
   ![](controle-qualite.jpg)
   <figcaption>
   Contrôle qualité

@@ -9,7 +9,7 @@ En regardant les statistiques de consultation du site, et notamment les liens en
 
 [^1]: *referers* en anglais
 
-<figure>
+<figure markdown="1">
   ![](google-contresens-dotclear-spip.png)
   <figcaption>
   De dotClear vers SPIP, ou l'inverse ?

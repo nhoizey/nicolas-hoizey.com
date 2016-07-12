@@ -6,7 +6,7 @@ tags:       [photo, moi, JPG Magazine]
 
 Comme je tente de le montrer sur cette récente nouvelle version de Gastero Prod avec une rubrique dédiée, je m'essaie depuis quelque temps à la photographie, et je dois avouer que tous les petits signes d'intérêt pour mes « œuvres » me font rudement plaisir. J'ai eu ainsi le bonheur de découvrir aujourd'hui que ma photo [Lost in (white) space](http://www.jpgmag.com/photos/20192) fait partie de la sélection « *hot* » du thème [Color Theory](http://www.jpgmag.com/themes/40) de [JPG Magazine](http://www.jpgmag.com/).
 
-<figure>
+<figure markdown="1">
   ![](JPGMag-Lost_in_white_space-hot.png)
   <figcaption>
   Lost in (white) space
@@ -16,14 +16,14 @@ Comme je tente de le montrer sur cette récente nouvelle version de Gastero Prod
 
 Vous voyez, au milieu de la page, ce petit badge :
 
-<figure>
+<figure markdown="1">
   ![](JPGMag-this-photo-is-hot.gif)
 </figure>
 
 
 C'est un badge présent sur les pages de photos qui sont mises en avant comme faisant partie des plus intéressantes d'un thème donné, et effectivement, la mienne apparaît parfois[^1] dans la page d'accueil du thème :
 
-<figure>
+<figure markdown="1">
   ![](JPGMag-Color_Theory.png)
   <figcaption>
   Le thème « Color Theory »

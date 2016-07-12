@@ -8,13 +8,13 @@ tags:       [UX, Web, innovation, formulaire]
 
 L’idée sympa — déjà croisée ailleurs ces dernières années, il faut l’avouer, même si je ne saurais plus dire où exactement — c’est de présenter ce formulaire comme un dialogue entre l’application et l’utilisateur. Sauf que cela respecte tellement peu les [usages courants](/2011/02/respecter-les-usages-courants.html) que je n’ai pas trouvé le formulaire tout de suite, cherchant un classique lien « *register* » ou « *sign up* ».
 
-<figure>
+<figure markdown="1">
   ![](tumblr_l666d7fbd.png)
 </figure>
 
 Voici en gros plan l’objet du délit :
 
-<figure>
+<figure markdown="1">
   ![](tumblr_l666ec46a.png)
 </figure>
 
@@ -22,25 +22,25 @@ On pourra s’extasier sur l’apparence sympathique de ces formulaires — [tel
 
 Voici pour mémoire à quoi ressemble par défaut un formulaire présenté traditionnellement dans un format tabulaire :
 
-<figure>
+<figure markdown="1">
   ![](tumblr_l666ed61f.png)
 </figure>
 
 Avec un peu de styles, on peu le rendre un peu plus sexy :
 
-<figure>
+<figure markdown="1">
   ![](tumblr_l666f295b.png)
 </figure>
 
 Sinon, si le style de mise en scène du formulaire est plus important que sa présentation purement graphique, conserver l’aspect sympa du texte à trou est bien sûr possible :
 
-<figure>
+<figure markdown="1">
   ![](tumblr_l666g4103.png)
 </figure>
 
 En rajoutant un peu de styles à cela, on obtient presque le même effet que le formulaire de Moof, mais en laissant à l’utilisateur la possibilité de comprendre rapidement qu’il s’agit d’un formulaire :
 
-<figure>
+<figure markdown="1">
   ![](tumblr_l666ga861.png)
 </figure>
 

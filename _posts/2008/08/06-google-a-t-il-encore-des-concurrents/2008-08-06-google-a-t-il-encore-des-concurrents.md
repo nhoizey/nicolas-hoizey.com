@@ -9,7 +9,7 @@ Après en avoir ramassé un ersatz à la petite [cuil](/2008/07/y-a-une-cuil-dan
 
 [^1]: Entre début janvier et aujourd'hui, pour être précis
 
-<figure>
+<figure markdown="1">
   ![](Search_Engines_-_Google_Analytics.png)
   <figcaption>
   Classement des moteurs de recherche menant à ce site

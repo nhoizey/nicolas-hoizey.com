@@ -4,12 +4,12 @@ lang:       fr
 tags:       [commerce, Twitter, SAV]
 ---
 
-<figure>
+<figure markdown="1">
   ![](truffaut_sur_twitter.png)
 </figure>
 Voilà une nouvelle preuve qu'il est possible de gérer de façon exemplaire un service après vente via Twitter, un grand merci à [Truffaut](http://www.truffaut.com/) qui a été parfait sur ce coup !
 
-<figure>
+<figure markdown="1">
   ![](gardena-t-1030-d.jpg)
   <figcaption>
   Minuteur d'arrosage Gardena T 1030 D

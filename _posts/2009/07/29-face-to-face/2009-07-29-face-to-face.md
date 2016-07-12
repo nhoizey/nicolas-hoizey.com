@@ -6,7 +6,7 @@ tags:       [photo, macro, papillon]
 
 Photo prise à distance avec un 300mm, il ne m'aurait jamais laissé approcher avec mon 100mm macro.
 
-<figure>
+<figure markdown="1">
   ![](face_to_face.jpg)
   <figcaption>
   Face to face

@@ -7,7 +7,7 @@ tags:       [Apple, iPhone, NetBook]
 Lors de sa [conférence téléphonique trimestrielle](http://gizmodo.com/5066543/apple-quarterly-earnings-69-million-iphones-sold-more-phones-than-rim) qui s'est tenue il y a quelques jours, Steve Jobs a indiqué au sujet des NetBooks qu'il ne voyait pas l'intérêt pour Apple d'entrer sur ce marché de machines à prix bas et qualité à l'avenant, et que l'iPhone est déjà là pour couvrir les mêmes besoins.
 
 
-<figure>
+<figure markdown="1">
   ![](macbook-touch.png)
 </figure>
 

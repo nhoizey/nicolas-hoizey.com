@@ -11,7 +11,7 @@ Utilisant quasiment exclusivement Firefox 3[^1] depuis des semaines, je regarde 
 
 La sortie du [nouveau site des extensions Firefox](https://addons.mozilla.org/fr/firefox/)[^1] a amélioré un peu le système en ne proposant l'installation que sur les extensions compatibles avec le navigateur utilisé pour parcourir le site...
 
-<figure>
+<figure markdown="1">
   ![](extension-firefox-supportee.png)
   <figcaption>
   L'installation est possible pour une extension supportée par la version courante de Firefox
@@ -19,7 +19,7 @@ La sortie du [nouveau site des extensions Firefox](https://addons.mozilla.org/fr
 </figure>
 
 
-<figure>
+<figure markdown="1">
   ![](extension-firefox-non-supportee.png)
   <figcaption>
   Mais impossible pour une version non supportée

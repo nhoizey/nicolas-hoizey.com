@@ -11,7 +11,7 @@ J'espère que cela va paraître surprenant à pas mal de monde, mais certains co
 
 Par exemple, quand [Ouriel Ohayon enterre le service de généalogie Geni](http://fr.techcrunch.com/2008/07/05/fr-5-startups-qui-devaient-reussir/), c'est sous prétexte que son trafic n'a pas décollé. Et la démonstration -- flagrante il faut dire -- est faite sur un graphe réalisé avec [Google Trends](http://trends.google.com/websites), qui mélange allègrement des sites de nature très variée, et avec des écarts de trafic tels que celui de Geni est presque invisible :
 
-<figure>
+<figure markdown="1">
   ![](Google_Trends_-_like_joost_technorati_geni_et_secondlife.png)
   <figcaption>
   Like vs. Joost vs. Technorati vs. Geni vs. SecondLife
@@ -23,7 +23,7 @@ Mais il ne faut pas être très malin pour voir que, même s'il est plus faible 
 
 La preuve avec le [graphe Google Trends de Geni.com](http://trends.google.com/websites?q=geni.com&geo=all&date=all&sort=0), d'ailleurs, tant qu'à faire :
 
-<figure>
+<figure markdown="1">
   ![](Google_Trends_-_geni.png)
   <figcaption>
   Geni
@@ -37,7 +37,7 @@ Personnellement, j'adore Geni, j'y ai créé un début de branche de mon arbre g
 
 Bon, pour revenir au sujet de ce billet, en imaginant qu'Ouriel ait raison et que le trafic d'un site soit représentatif de sa qualité, que dire de cette comparaison entre TechCrunch[^4] et Facebook :
 
-<figure>
+<figure markdown="1">
   ![](Google_Trends_-_techcrunch_et_facebook.png)
   <figcaption>
   Techcrunch vs Facebook

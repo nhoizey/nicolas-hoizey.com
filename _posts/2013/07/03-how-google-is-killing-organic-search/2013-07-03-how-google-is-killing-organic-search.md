@@ -4,7 +4,7 @@ lang:       fr
 tags:       [Web, publicité, Google, recherche]
 ---
 
-<figure>
+<figure markdown="1">
   ![](google-organic-search-17p.png)
   <figcaption>
   13%, that’s the amount of real estate given to true organic results in a search for “auto mechanic" when I’m logged in at the Tutorspree office in TriBeCa.

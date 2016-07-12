@@ -13,7 +13,7 @@ Dès que j'ai lu l'annonce de sortie du Sony RX100 III[^nom] et les premiers avi
 
 [^nom]: On lit aussi RX100 Mark 3, RX100 mk 3 ou RX100m3 selon les sources…
 
-<figure>
+<figure markdown="1">
   ![](sony-rx100-3.jpg)
   <figcaption>
   Le compact expert Sony RX100 III : le flash minuscule est presque anecdotique mais sert à déboucher un peu, notamment en cas de contre-jour, alors que le viseur est lui vraiment indispensable en cas de forte luminosité. Et tout ça tient dans une poche de jean !
@@ -38,7 +38,7 @@ Et surtout :
 
 Voici par exemple une photo réalisée en boîte à Ibiza avec ce bijou de poche, vous imaginez bien que je n'aurais pas pu rentrer avec un reflex :
 
-<figure>
+<figure markdown="1">
   ![Un DJ mixe dans une boîte de nuit](Follow-the-rythm.jpg)
   <figcaption>
   Follow the rythm

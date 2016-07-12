@@ -6,7 +6,7 @@ tags:       [photo, couleur, macro, animal]
 
 Incroyables méduses fluorescentes photographiées dans un aquarium du zoo de Rhenen, aux Pays-Bas.
 
-<figure>
+<figure markdown="1">
   ![](fluorescent_jellyfishes.jpg)
 </figure>
 

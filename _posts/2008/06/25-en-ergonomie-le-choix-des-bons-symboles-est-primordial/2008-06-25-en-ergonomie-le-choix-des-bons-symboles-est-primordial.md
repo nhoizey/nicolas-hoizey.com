@@ -8,7 +8,7 @@ Si vous devez opter pour des métaphores visuelles pour représenter des donnée
 
 [Frédéric de Villamil](http://t37.net/pages/colophon) cite aujourd'hui dans [son blog](http://t37.net/) le [cas d'un triangle censé représenter le sens de tri d'une liste](http://t37.net/entre-logique-et-symbolique-ces-fleches-de-tri-qui-veulent-tout-dire), dont l'interprétation qu'il fait est différente de celle faite par d'autres personnes.
 
-<figure>
+<figure markdown="1">
   ![](villamil-fleche_tri.jpg)
   <figcaption>
   © Frédéric de Villamil

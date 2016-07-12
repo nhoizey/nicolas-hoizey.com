@@ -5,7 +5,7 @@ tags:       [Web, qualité, banque, LCL]
 ---
 
 Je suis client de la banque [LCL](http://particuliers.lcl.fr/) parce que c'est celle qui m'a fait la meilleure offre quand j'ai voulu acheter une maison, et qu'une condition à ce prêt était que je domicilie mes comptes courants chez eux. Je regrette ce choix chaque fois que je dois accéder à l'interface en ligne…
-<figure>
+<figure markdown="1">
   ![](lcl-demandez-plus.jpg)
 </figure>
 
@@ -17,7 +17,7 @@ Mais une nouvelle version a été déployée le 29 janvier, l'espoir était donc
 
 En tout cas, ils imposent l'acceptation de nouvelles « Conditions générales du service » pour accéder à l'interface, lesquelles conditions sont proposées sous forme… d'image !
 
-<figure>
+<figure markdown="1">
   ![](lcl-cgu-fail.png)
   <figcaption>
   Les nouvelles « conditions générales du service » sont proposées en… image !
@@ -26,7 +26,7 @@ En tout cas, ils imposent l'acceptation de nouvelles « Conditions générales d
 
 Une fois connecté, ils ont quand même mis une page qui liste les nouveautés[^1]. Sauf que cette page a une hauteur fixée, et un contenu qui en dépasse très nettement :
 
-<figure>
+<figure markdown="1">
   ![](lcl-changelog-fail.png)
   <figcaption>
   Impossible de lire la fin des nouveautés annoncées avec ma taille de texte à 18px
@@ -35,7 +35,7 @@ Une fois connecté, ils ont quand même mis une page qui liste les nouveautés[^
 
 Bien sûr, je me suis dit « suis-je bête, encore [un site qui se moque éperdument des préférences de ses utilisateurs](/2013/03/lachez-prise.html), c'est à cause de ma taille de texte définie à 18px ». Sauf que même en 16px, même si le contenu texte devient lisible intégralement, le picto en bas à droite reste indéchiffrable :
 
-<figure>
+<figure markdown="1">
   ![](lcl-changelog-bas-16px.png)
   <figcaption>
   C'est mieux pour le texte en 16px, mais reste ce picto étrange à droite…
@@ -51,7 +51,7 @@ Vu que je suis un peu dingue, j'ai tout de suite vu qu'il y a une répétition d
 
 Voici donc l'image en question :
 
-<figure>
+<figure markdown="1">
   ![](lcl-changelog-bas-image.jpg)
   <figcaption>
   L'image qui illustre le bas des informations. Superbe, c'est vraiment dommage de la masquer… ou pas.
@@ -60,7 +60,7 @@ Voici donc l'image en question :
 
 Bon, quand on va sur le site de sa banque, en général, c'est pour consulter ses comptes. Et là, nouvelle surprise[^2], les intitulés des comptes ont du plomb dans l'aile :
 
-<figure>
+<figure markdown="1">
   ![](lcl-synthe_se-comptes-fail.png)
   <figcaption>
   Vous aussi vous avez des « Compte de d¿¿s » dans votre banque ?

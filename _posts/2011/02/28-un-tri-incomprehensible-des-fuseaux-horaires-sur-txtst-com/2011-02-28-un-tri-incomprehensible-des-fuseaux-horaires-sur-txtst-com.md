@@ -8,13 +8,13 @@ La géolocalisation est un service de plus en plus tendance, notamment au sein d
 
 Voici par exemple ce que cela peut donner :
 
-<figure>
+<figure markdown="1">
   ![](tumblr_l67o9cdfa.png)
 </figure>
 
 Malheureusement, [le formulaire permettant de créer le code JavaScript à insérer sur son blog](http://www.txtst.com/fireeagle_badge/auth_new.php?f=start) comporte une erreur ergonomique assez pénible au niveau du [tri de la liste](/2011/02/utiliser-un-tri-significatif-dans-les-listes.html) de choix du fuseau horaire :
 
-<figure>
+<figure markdown="1">
   ![](tumblr_l67o9dc84.png)
 </figure>
 

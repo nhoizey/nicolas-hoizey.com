@@ -10,7 +10,7 @@ Il existe différentes solutions d'élégance variable, à base d'[extension Tab
 
 Il faut modifier la valeur du paramètre `browser.tabs.tabClipWidth`[^1], qui défini la taille minimum à partir de laquelle le bouton apparaît.
 
-<figure>
+<figure markdown="1">
   ![](firefox-tabclipwidth.png)
 </figure>
 

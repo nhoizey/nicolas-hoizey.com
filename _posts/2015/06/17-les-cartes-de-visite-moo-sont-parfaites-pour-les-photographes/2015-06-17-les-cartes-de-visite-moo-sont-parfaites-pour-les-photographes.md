@@ -16,7 +16,7 @@ Suivant Moo depuis quelques années, j'ai été tout de suite intéressé par le
 
 Un des gros intérêts de Moo est son interface de configuration des cartes, qui permet de gérer autant de déclinaison du verso que l'on souhaite, chacune étant alors imprimée à part égale dans le volume commandé. J'ai ainsi pu créer 5 versos différents, avec différentes thématiques photographiques : portrait, paysage, macro, etc.
 
-<figure>
+<figure markdown="1">
   ![L'interface d'édition du verso des cartes](cartes-de-visite-moo-00-interface-edition-verso.png)
   <figcaption>
   L'interface d'édition du verso des cartes
@@ -25,7 +25,7 @@ Un des gros intérêts de Moo est son interface de configuration des cartes, qui
 
 Pour le recto, j'ai choisi la sobriété, avec peu d'information. Cela laisse de la place pour ajouter manuellement un numéro de téléphone par exemple, que je ne souhaite pas forcément donner systématiquement.
 
-<figure>
+<figure markdown="1">
   ![L'interface d'édition des cartes](cartes-de-visite-moo-00-interface-overview.png)
   <figcaption>
   L'interface d'édition des cartes
@@ -34,42 +34,42 @@ Pour le recto, j'ai choisi la sobriété, avec peu d'information. Cela laisse de
 
 Voici un petit déballage en photo, pour bien montrer la qualité des cartes et l'attention portée par Moo au packaging :
 
-<figure>
+<figure markdown="1">
   ![La jolie boite entourée d'un ruban](cartes-de-visite-moo-01-boite.jpg)
   <figcaption>
   La jolie boite entourée d'un ruban
   </figcaption>
 </figure>
 
-<figure>
+<figure markdown="1">
   ![Un message de bienvenue](cartes-de-visite-moo-02-accueil.jpg)
   <figcaption>
   Un message de bienvenue
   </figcaption>
 </figure>
 
-<figure>
+<figure markdown="1">
   ![Le rappel des caractéristiques des cartes](cartes-de-visite-moo-03-caracteristiques.jpg)
   <figcaption>
   Le rappel des caractéristiques des cartes
   </figcaption>
 </figure>
 
-<figure>
+<figure markdown="1">
   ![Le verso des cartes, avec différentes thématiques de photos](cartes-de-visite-moo-04-verso-photos.jpg)
   <figcaption>
   Le verso des cartes, avec différentes thématiques de photos
   </figcaption>
 </figure>
 
-<figure>
+<figure markdown="1">
   ![Le recto, avec bien entendu mes coordonnées de photographe](cartes-de-visite-moo-05-recto-coordonnees.jpg)
   <figcaption>
   Le recto, avec bien entendu mes coordonnées de photographe
   </figcaption>
 </figure>
 
-<figure>
+<figure markdown="1">
   ![Les multiples couches de papier, avec une jolie tranche colorée](cartes-de-visite-moo-06-tranche-coloree.jpg)
   <figcaption>
   Les multiples couches de papier, avec une jolie tranche colorée

@@ -8,7 +8,7 @@ Un p'tit malin qui se fait appeler Sylvain a laissé un commentaire très sympat
 
 Voilà à quoi ressemblait le commentaire avant que je le retire :
 
-<figure>
+<figure markdown="1">
   ![](gp-spam.png)
 </figure>
 
@@ -16,7 +16,7 @@ C'est la flèche orange sous le texte —indiquant normalement un lien vers un a
 
 Ce petit malin de Sylvain a cru me duper, et ainsi gagner facilement du référencement avec un nouveau lien entrant, en masquant son lien avec un peu de CSS[^1] :
 
-<figure>
+<figure markdown="1">
   ![](gp-spam-code.png)
 </figure>
 

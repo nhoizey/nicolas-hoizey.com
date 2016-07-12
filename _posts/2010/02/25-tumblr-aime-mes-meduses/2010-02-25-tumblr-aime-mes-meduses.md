@@ -8,7 +8,7 @@ Vous avez sans doute déjà vu ma belle photo de méduses fluorescentes -- une d
 
 Le premier à avoir publié la photo semble être celui-ci :
 
-<figure>
+<figure markdown="1">
   ![](meduses-tumblr-2.png)
   <figcaption>
     birdhaus.tumblr.com
@@ -18,7 +18,7 @@ Le premier à avoir publié la photo semble être celui-ci :
 
 Et il a été largement repris ensuite :
 
-<figure>
+<figure markdown="1">
   ![](meduses-tumblr-2.png)
   <figcaption>
     frostybear.tumblr.com
@@ -27,7 +27,7 @@ Et il a été largement repris ensuite :
 </figure>
 
 
-<figure>
+<figure markdown="1">
   ![](meduses-tumblr-3.png)
   <figcaption>
     fuckyeahjellyfish.tumblr.com
@@ -36,7 +36,7 @@ Et il a été largement repris ensuite :
 </figure>
 
 
-<figure>
+<figure markdown="1">
   ![](meduses-tumblr-4.png)
   <figcaption>
     karencilla.tumblr.com
@@ -45,7 +45,7 @@ Et il a été largement repris ensuite :
 </figure>
 
 
-<figure>
+<figure markdown="1">
   ![](meduses-tumblr-5.png)
   <figcaption>
     moqueur.tumblr.com
@@ -54,7 +54,7 @@ Et il a été largement repris ensuite :
 </figure>
 
 
-<figure>
+<figure markdown="1">
   ![](meduses-tumblr-6.png)
   <figcaption>
     acertainshadeofgreen.tumblr.com
@@ -63,7 +63,7 @@ Et il a été largement repris ensuite :
 </figure>
 
 
-<figure>
+<figure markdown="1">
   ![](meduses-tumblr-7.png)
   <figcaption>
     seashelllz.tumblr.com
@@ -72,7 +72,7 @@ Et il a été largement repris ensuite :
 </figure>
 
 
-<figure>
+<figure markdown="1">
   ![](meduses-tumblr-8.png)
   <figcaption>
     meagannnn-reblog.tumblr.com
@@ -81,7 +81,7 @@ Et il a été largement repris ensuite :
 </figure>
 
 
-<figure>
+<figure markdown="1">
   ![](meduses-tumblr-9.png)
   <figcaption>
     thaiteaa.tumblr.com
@@ -90,7 +90,7 @@ Et il a été largement repris ensuite :
 </figure>
 
 
-<figure>
+<figure markdown="1">
   ![](meduses-tumblr-10.png)
   <figcaption>
     strangestofinventions.tumblr.com
@@ -99,7 +99,7 @@ Et il a été largement repris ensuite :
 </figure>
 
 
-<figure>
+<figure markdown="1">
   ![](meduses-tumblr-11.png)
   <figcaption>
     vinitha.tumblr.com
@@ -108,7 +108,7 @@ Et il a été largement repris ensuite :
 </figure>
 
 
-<figure>
+<figure markdown="1">
   ![](meduses-tumblr-12.png)
   <figcaption>
     blog.neonjelly.net
@@ -118,6 +118,6 @@ Et il a été largement repris ensuite :
 
 Tout ça grâce sans aucun doute à la facilité offerte par Tumblr de faire un « Reblog », à la manière des « retweets » de Twitter :
 
-<figure>
+<figure markdown="1">
   ![](tumblr-reblog.png)
 </figure>

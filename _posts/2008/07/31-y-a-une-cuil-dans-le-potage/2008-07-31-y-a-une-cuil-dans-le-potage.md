@@ -9,7 +9,7 @@ Vous avez sans doute entendu parler [ici](http://fr.techcrunch.com/2008/07/28/la
 
 Alors oui, ils ont réussi à faire encore plus sobre que Google, en reprenant le fond noir de [Blackle](http://www.blackle.com/)[^1] censé permettre de [réduire considérablement la consommation d'énergie](http://www.blackle.com/about/) -- mais [peut-être pas](http://googleblog.blogspot.com/2007/08/is-black-new-green.html), en fait -- et surtout presque uniquement le champ de saisie de recherche au centre de la page :
 
-<figure>
+<figure markdown="1">
   ![](Cuil_-_accueil.png)
   <figcaption>
   Page d'accueil de Cuil
@@ -23,7 +23,7 @@ Mais ce que les créateurs de Cuil ont oublié dans leur beau modèle, c'est qu'
 
 Bon, une recherche sur Clever Age donne des résultats à peu près potables, il n'y a même pas trop d'erreurs dans les images associées à ces résultats[^3] :
 
-<figure>
+<figure markdown="1">
   ![](Cuil_-_recherche_clever_age.png)
   <figcaption>
   Recherche de « clever age »
@@ -37,7 +37,7 @@ Depuis ce lancement, ils ont déjà corrigé une erreur basique, qui faisait que
 
 Ils ont par contre des progrès à faire sur le choix de leurs catégories d'exploration proposées automatiquement en regard des résultats de recherche. Par exemple, sur une recherche sur « Cuil »[^4], ils proposent d'étranges catégories comme « *French Cuisine* » et « *French Breads* ». Quand on sait qu'ils ont peut-être changé de nom en dernière minute, supprimant un second « l » [sous prétexte que nous autres allions prononcer leur nom comme « couille »](http://www.appscout.com/2008/07/cuil_and_the_rumor_of_the_fren_1.php)[^5], on se rend compte qu'ils ont une sensibilité particulière pour la France, ces Yankees !
 
-<figure>
+<figure markdown="1">
   ![](Cuil_-_Cuill.png)
   <figcaption>
   Cuil s'appelait Cuill. Premier résultat de la recherche sur « cuill » dans « cuil »
@@ -47,7 +47,7 @@ Ils ont par contre des progrès à faire sur le choix de leurs catégories d'exp
 
 Mais pourquoi donc ont-ils des problèmes avec nos pauvres accents français encodés en UTF-8 ? Allons, c'est un mal assez courant chez nos lointains voisins d'outre Atlantique, on va leur laisser le temps d'apprendre que le monde est vaste :
 
-<figure>
+<figure markdown="1">
   ![](Cuil_-_utf8.png)
   <figcaption>
   Cuil n'aime pas les accents ou l'UTF-8

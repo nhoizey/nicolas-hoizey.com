@@ -9,7 +9,7 @@ Comme vous avez pu vous en apercevoir quand j'ai parlé récemment de la [copie 
 
 [^1]: Celles-ci le sont, apparemment
 
-<figure>
+<figure markdown="1">
   ![](PwnageTool.png)
   <figcaption>
   PwnageTool

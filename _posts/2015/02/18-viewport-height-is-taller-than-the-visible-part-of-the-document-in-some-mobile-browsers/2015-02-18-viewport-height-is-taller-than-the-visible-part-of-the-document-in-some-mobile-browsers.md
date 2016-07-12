@@ -109,7 +109,7 @@ In fact, the viewport height changes when he scrolls and the browser chrome hide
 
 Here is a visual demonstration, from [two](https://twitter.com/borisschapira/status/615981753002557440) [screenshots](https://twitter.com/borisschapira/status/615981790113714176) he gave me:
 
-<figure>
+<figure markdown="1">
   ![](android-chrome-before-after-scroll.png)
   <figcaption>
   The font-size increases when the user scrolls

@@ -5,7 +5,7 @@ tags:       [livre, webperf, Web]
 ---
 
 La [collection «mémento» de chez Eyrolles](http://www.eyrolles.com/Informatique/Collection/4143/memento.php) vient de s'agrandir, avec l'ajout d'un petit nouveau dédié aux [performances web](http://www.eyrolles.com/Informatique/Livre/memento-performances-web-9782212136586), en termes de vitesse. Incontournable !
-<figure>
+<figure markdown="1">
   ![](memento-webperf-couverture.jpg)
 </figure>
 
@@ -13,7 +13,7 @@ Et je ne dis pas ça juste parce que j'ai eu l'honneur d'être invité à partic
 
 L'optimisation de la vitesse des sites web est en effet un des éléments clefs aujourd'hui de la satisfaction des Internautes, et de leur envie de continuer leur navigation sur le site, voire même d'acheter des produits et/ou services.
 
-<figure>
+<figure markdown="1">
   ![](memento-webperf-interieur.jpg)
 </figure>
 

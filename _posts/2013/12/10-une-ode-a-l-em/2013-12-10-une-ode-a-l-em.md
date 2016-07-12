@@ -6,7 +6,7 @@ tags:       [Web, qualité, Responsive Web Design, em]
 
 Après avoir eu des retours plutôt nombreux et positifs suite à [ma conférence à Paris Web 2013](/2013/10/ma-conference-a-paris-web-2013.html), j'ai retroussé mes manches pour proposer une version plus rédactionnelle, en essayant de retranscrire tout ce que j'ai dit mais pas mis dans mes slides, et même plus. Et j'ai la chance d'avoir vu ce très long article publié sur [24 Jours de Web](http://www.24joursdeweb.fr/), « le calendrier de l'avent des gens qui font le web d'après ».
 
-<figure>
+<figure markdown="1">
   ![](24-jours-de-web-debut.png)
   <figcaption>
   Un joli design pour ces 24 Jours de Web cuvée 2013

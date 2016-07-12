@@ -10,13 +10,13 @@ Je suis inscrit sur [SplitGames](http://www.splitgames.fr/) depuis son lancement
 
 Pour ceux qui ne le savent pas, la monnaie sur SplitGames est en points, c'est ce qui le différencie des [PriceMinister](http://www.priceminister.com/) et autres [2xMoinsCher](http://www.2xmoinscher.com/) auxquels je suis plus habitué. Voici le principe tels qu'ils le montrent simplement :
 
-<figure>
+<figure markdown="1">
   ![](splitgames-principe.jpg)
 </figure>
 
 J'ai donc par exemple envoyé Virtua Tennis 3 après quelque temps d'utilisation, et cela m'a fait gagner 16 points :
 
-<figure>
+<figure markdown="1">
   ![](splitgames-envoi.png)
 </figure>
 
@@ -24,7 +24,7 @@ Je ne suis pas un gros *gamer*, donc je n'ai pas beaucoup de jeux à envoyer, et
 
 Le pire, à la limite, c'est que je peux comprendre que le jeu, étant récent, n'est pas très disponible tout en étant très demandé. Mais le fait est que j'ai eu trois fois une fausse joie, avec un envoi signalé puis finalement annulé :
 
-<figure>
+<figure markdown="1">
   ![](splitgames-fail.png)
 </figure>
 

@@ -8,7 +8,7 @@ Diigo a décidé de supprimer les listes, si pratiques pour rassembler des bookm
 
 Ce n'est en fait que la goutte qui fait déborder le vase[^1], je trouvais déjà Diigo de plus en plus pénible à utiliser, avec une interface pas du tout ergonomique.
 
-<figure>
+<figure markdown="1">
   ![](diigo.png)
   <figcaption>
   L'interface de Diigo
@@ -25,7 +25,7 @@ Après avoir échangé un peu avec d'autres utilisateurs déçus de Diigo, j'ai 
 - Le support est intégré à [ReadKit](http://readkitapp.com/), mon client pour les flux RSS et Pocket sur Mac OS
 - Karl m'en a dit beaucoup de bien plusieurs fois, et ça compte beaucoup
 
-<figure>
+<figure markdown="1">
   ![](pinboard.png)
   <figcaption>
   L'interface de Pinboard
@@ -34,7 +34,7 @@ Après avoir échangé un peu avec d'autres utilisateurs déçus de Diigo, j'ai 
 
 Vous pouvez bien sûr continuer à lire aussi mes bookmarks [sur Seenthis](http://seenthis.net/people/nhoizey), même si pour l'instant [les tags présents dans le flux RSS de Pinboard ne sont pas bien reconnus](http://seenthis.net/messages/324311).
 
-<figure>
+<figure markdown="1">
   ![](seenthis.png)
   <figcaption>
   L'interface de Seenthis
@@ -55,7 +55,7 @@ Voici la *recipe* IFTTT, au cas où vous voudriez faire de même :
 
 Mon départ de Diigo m'empêche de fait de participer au [groupe de veille Web Performance](https://groups.diigo.com/group/web-performance) créé par [Éric](https://www.diigo.com/profile/edaspet) et alimenté par une quinzaine de contributeurs.
 
-<figure>
+<figure markdown="1">
   ![](diigo-web-performance.png)
   <figcaption>
   Le groupe Web Performance sur Diigo

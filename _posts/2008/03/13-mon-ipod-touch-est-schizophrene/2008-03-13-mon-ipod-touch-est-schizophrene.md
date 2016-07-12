@@ -7,7 +7,7 @@ tags:       [Apple, iPhone, iPod Touch]
 J'ai branché comme d'habitude mon iPod Touch sur mon MacBook pour lancer une synchronisation, et j'ai été bien surpris par le message affiché au bout de quelques secondes par iTunes...
 
 
-<figure>
+<figure markdown="1">
   ![](ipod-touch-schizophrene.png)
 </figure>
 

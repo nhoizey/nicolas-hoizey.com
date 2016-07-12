@@ -12,7 +12,7 @@ D'un côté, Apple rend les sauvegardes plus accessible au grand public avec [Ti
 
 Quand Apple a sorti Time Machine avec Leopard, tout le monde y a vu l'arrivée d'une solution de sauvegarde enfin vraiment simple et accessible au grand public. Tout se fait de manière transparente, avec conservation de versions successives, et surtout une interface d'accès aux sauvegardes vraiment intuitive pour le commun des mortels, et en plus plutôt ludique.
 
-<figure>
+<figure markdown="1">
   ![](Apple_Time_Machine.png)
   <figcaption>
   Recherche d'une sauvegarde dans Time Machine
@@ -42,7 +42,7 @@ Il y a les grands classiques comme [SuperDuper (en)](http://www.shirt-pocket.com
 
 **Faire croire à Time Machine que le NAS est un disque USB**
 
-<figure>
+<figure markdown="1">
   ![](Apple_Time_Machine_icon.png)
 </figure>
 

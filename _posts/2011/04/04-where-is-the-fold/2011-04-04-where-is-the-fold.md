@@ -6,7 +6,7 @@ tags:       [Web, design, CSS, Media Queries]
 
 OK, on le sait tous, « [there is no page fold](http://www.thereisnopagefold.com/) », mais savoir où est ce *non fold* peut être carrément utile, alors heureusement qu'il y a des outils qui permettent de visualiser simplement ce que donne un site sur les résolutions les plus courantes.
 
-<figure>
+<figure markdown="1">
   ![](where-is-the-fold.png)
 </figure>
 
