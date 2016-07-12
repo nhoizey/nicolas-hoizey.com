@@ -5,7 +5,7 @@ tags:       [Web, Paris Web, conférence, Responsive Web Design, em]
 ---
 
 Après y avoir assisté plusieurs années en tant qu'auditeur, j'ai eu la joie — le privilège — d'être sélectionné parmi les orateurs de l'édition 2013. Sélectionné qui plus est avec un sujet plutôt pointu, sur une bonne pratique que tout le monde devrait appliquer depuis plus de 10 ans, mais qui est très largement sous estimée.
-<figure>
+<figure markdown="1">
   ![](paris-web-2013-j-y-etais.jpg)
 </figure>
 
@@ -35,7 +35,7 @@ Il me reste à répondre plus complètement à une question que j'ai évoquée d
 
 Je vais rédiger dans les prochaines semaines une version détaillée de ma conférence, et j'ai prévu d'approfondir ce sujet pour donner mon point de vue[^2].
 
-<figure>
+<figure markdown="1">
   ![](nicolas_hoizey_-_paris_web_2013_-_photo_par_fabrice_le_guernec_pour_paris_web.jpg)
   <figcaption markdown="1">
   Nicolas Hoizey à Paris Web 2013. [Photo](http://www.flickr.com/photos/parisweb/10401233525/) de [Fabrice Le Guernec](http://twitter.com/Fab_incident) pour Paris-Web
