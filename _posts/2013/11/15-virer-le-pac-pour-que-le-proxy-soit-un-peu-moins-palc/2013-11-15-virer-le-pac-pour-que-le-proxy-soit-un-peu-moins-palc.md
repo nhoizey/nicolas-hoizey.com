@@ -16,12 +16,12 @@ Par exemple, si j'ai le fichier `proxy.pac` suivant :
 function FindProxyForURL(url, host)
 {
 if (
-	isInNet(host, "10.0.0.0", "255.0.0.0") ||
-	isInNet(host, "172.16.0.0", "255.240.0.0")
-		)
-	return "DIRECT";
+  isInNet(host, "10.0.0.0", "255.0.0.0") ||
+  isInNet(host, "172.16.0.0", "255.240.0.0")
+    )
+  return "DIRECT";
 else
-	return "PROXY 172.19.5.18:8080";
+  return "PROXY 172.19.5.18:8080";
 }
 ```
 
