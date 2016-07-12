@@ -21,28 +21,51 @@
     None.
 =end
 module Jekyll
+  module Cloudinarify
 
-  class Cloudinarify < Converter
-    priority :high
+    class Cloudinarify < Converter
+      IMAGE_REGEX = /\!\[(?<alt>[^\]]*)\]\((?<url>[^\ )]+)( "(?<title>[^"]+)")?\)(\{\:\.(?<class>[^\}]+)\}|\{\:caption="(?<caption>[^"]+)"\}|\{\:preset="(?<preset>[^"]+)"\})*/
+      LIQUID_TAG = '{% cloudinary \k<preset> \k<url> alt="\k<alt>" title="\k<title>" caption="\k<caption>" class="\k<class>" %}'
 
-    def matches(ext)
-      ext.downcase == ".md"
+      def matches(ext)
+        ext.downcase == ".md"
+      end
+
+      def output_ext(ext)
+        ".md"
+      end
+
+      def markdown2cloudinary(image)
+        tag = '{% cloudinary '
+        if (image['preset'])
+          tag += image['preset'] + ' '
+        end
+        tag += image['url'] + ' '
+        if (image['alt'])
+          tag += 'alt="' + image['alt'] + '" '
+        end
+        if (image['title'])
+          tag += 'title="' + image['title'] + '" '
+        end
+        if (image['caption'])
+          tag += 'caption="' + image['caption'] + '" '
+        end
+        if (image['class'])
+          tag += 'class="' + image['class'] + '" '
+        end
+        tag += '%}'
+
+        # html = Liquid::Template.parse(tag).render(context)
+        # html
+
+        tag
+      end
+
+      def convert(content)
+        content.gsub(IMAGE_REGEX) { markdown2cloudinary($~) }
+      end
     end
 
-    def output_ext(ext)
-      ".md"
-    end
-
-    def convert(content)
-      site = Jekyll::Site.new(@config)
-      settings = site.config['cloudinary']
-      auto = settings['auto']
-
-      image_regex = /\!\[(?<alt>[^\]]*)\]\((?<url>[^\ )]+)( "(?<title>[^"]+)")?\)(\{\:\.(?<class>[^\}]+)\}|\{\:caption="(?<caption>[^"]+)"\}|\{\:preset="(?<preset>[^"]+)"\})*/
-      liquid_tag = '{% cloudinary \k<preset> alt="\k<alt>" title="\k<title>" caption="\k<caption>" class="\k<class>" %}'
-      content.gsub(image_regex, liquid_tag)
-    end
   end
-
 end
 
