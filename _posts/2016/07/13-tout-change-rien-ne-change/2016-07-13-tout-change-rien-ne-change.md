@@ -98,6 +98,8 @@ Ce qui va générer, avec ma configuration :
 
 Magique !
 
+Mais cela ne me suffit pas, je travaille sur un plugin qui permettrait de profiter de ce même Cloudinary mais en n'utilisant que la syntaxe Markdown standard pour les images, pour retrouver cette facilité de publication — et prévisualisation en cours d'édition — que je vantais juste avant. Mais [ce n'est pas simple](https://github.com/jekyll/jekyll/issues/5099), je découvre en même temps Ruby, les subtilités des plugins Jekyll, etc.
+
 ## Le plugin Jekyll Algolia pour indexer les contenus
 
 J'utilisais jusqu'à présent un `Rakefile` bidouillé à partir d'un autre trouvé sur Github pour indexer mes contenus en appelant l'API Algolia.
