@@ -6,10 +6,7 @@ tags:       [Gastero Prod, RSS, Yahoo!, FeedBurner]
 
 Certains d'entre vous, chers abonnés, m'ont signalé des problèmes dans les flux RSS de Gastero Prod, avec notamment l'apparition de nouveaux éléments dans [le flux RSS principal](http://feeds.feedburner.com/GasteroProd). Pas de panique, ces turbulences sont passagères, et dues principalement à la mise à jour du bloc « Ambiance musicale » en bas de page, et à la création d'un réel flux complet, reprenant en plus des articles du blog les photos et les liens que vous trouvez aussi sur le site.
 
-
-
 ## Ambiance musicale
-
 
 J'avais mis dans le pied de page un [*widget* LastFM](http://www.lastfm.fr/widgets/) permettant d'indiquer en temps réel ce que j'écoute comme musique, mais cela rendait pénible la navigation sur le site en provoquant pour chaque page le rechargement du Widget depuis [LastFM](http://www.lastfm.fr/).
 
@@ -21,13 +18,10 @@ Au passage, vous noterez que j'ai aussi supprimé le [*widget* BoxedUp](http://w
 
 ## Un flux pour les alerter tous...
 
-
-<poesie>
-Trois Flux pour les Internautes qui le souhaitent
-Un Flux pour les aggréger tous, un Flux pour simplifier
-Un Flux pour les alerter tous et dans les méandre de Gastero Prod les lier
-Au pays de la blogosphère où s’étendent les ombres...
-</poesie>
+    Trois Flux pour les Internautes qui le souhaitent
+    Un Flux pour les aggréger tous, un Flux pour simplifier
+    Un Flux pour les alerter tous et dans les méandre de Gastero Prod les lier
+    Au pays de la blogosphère où s’étendent les ombres...
 
 Ca pète, hein... ;-)[^1]
 
@@ -39,9 +33,7 @@ J'aurais pu utiliser SPIP, qui sait faire cela sans soucis, mais vu que j'utilis
 
 Voici donc mon [Yahoo! Pipe aggrégeant les trois flux RSS de Gastero Prod pour en constituer un complet, avec préfixe sur chaque *item* pour faciliter la lecture](http://pipes.yahoo.com/nicolashoizey/gasteroprod)[^4]. Je vous invite à regarder son « code source »[^5], qui montre notamment un exemple de factorisation de « code » par l'usage d'un autre [Yahoo! Pipe permettant de simplement préfixer tous les *items* d'un flux](http://pipes.yahoo.com/nicolashoizey/feeditemprefix).
 
-<figure>
-  ![](yahoo-pipe-flux-rss-gastero-prod.png)
-</figure>
+{% cloudinary yahoo-pipe-flux-rss-gastero-prod.png %}
 
 
 Malheureusement, le flux ainsi obtenu, servi à nouveau par FeedBurner, ne dispose pas de mon icône habituelle, qui est remplacée par celle de Yahoo!, ce qui fait un peut tâche dans un aggrégateur. Ceci ne sera corrigé que quand Yahoo! ajoutera la [possibilité de manipuler dans un Yahoo! Pipe le flux lui-même, et non seulement ses *items*](http://suggestions.yahoo.com/detail/?prop=Pipes&fid=73084)[^6].
@@ -76,7 +68,7 @@ A vous de jouer !
 
 [^3]: C'est quoi, d'ailleurs, un internaute « moyen », de nos jours ?
 
-[^4]: Étonnament, il affiche les *enclosures* du flux des photos alors qu'il ne le fait pas en mode RSS
+[^4]: Étonnement, il affiche les *enclosures* du flux des photos alors qu'il ne le fait pas en mode RSS
 
 [^5]: Sont marrants chez Yahoo! de parler de code source alors que tout se fait graphiquement et par configuration.
 
