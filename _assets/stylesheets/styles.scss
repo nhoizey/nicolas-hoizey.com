@@ -32,6 +32,11 @@ article {
     display: block;
   }
 
+  img, iframe {
+    max-width: 100%;
+    height: auto;
+  }
+
   figure {
     text-align: center;
 
@@ -78,10 +83,6 @@ article {
       float: right;
       margin: 0 0 1em 1em;
     }
-  }
-
-  img, iframe {
-    max-width: 100%;
   }
 
   blockquote {
