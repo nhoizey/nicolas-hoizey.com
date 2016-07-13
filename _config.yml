@@ -68,9 +68,9 @@ assets:
 
 # Algolia
 algolia:
-  application_id: 1YLVA0N7BR
-  index_name: blog_posts
-  read_only_api_key: 3b98a9f7c736ecc42aac5d52140beb41
+  application_id: …
+  index_name: …
+  search_only_api_key: …
   excluded_files:
     - 404.html
     - index.html
@@ -78,7 +78,7 @@ algolia:
 # Cloudinary
 cloudinary:
   cloud_name: nho
-  verbose: true
+  verbose: false
   presets:
     default:
       min_width: 320
@@ -110,3 +110,14 @@ cloudinary:
       figure: always
       attributes:
         class: onefourth
+
+jekyll-archives:
+  enabled:
+    - year
+    - month
+  layouts:
+    year: archives-year
+    month: archives-month
+  permalinks:
+    year: /:year/
+    month: /:year/:month/
