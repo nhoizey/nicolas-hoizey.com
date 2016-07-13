@@ -62,7 +62,9 @@ module Jekyll
       end
 
       def convert(content)
-        content.gsub(IMAGE_REGEX) { markdown2cloudinary($~) }
+        cloudinary_content = content.gsub(IMAGE_REGEX) { markdown2cloudinary($~) }
+        # cloudinary_content
+        content
       end
     end
 
