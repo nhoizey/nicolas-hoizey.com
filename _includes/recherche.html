@@ -63,15 +63,17 @@ function searchCallback(err, content) {
     return;
   }
 
-  if (content.nbHits === 0) {
+  var resultsNumber = content.hits.length;
+
+  if (resultsNumber === 0) {
     $posts.append("<p>Aucun résultat, veuillez modifier votre recherche.</p>");
     return;
   }
 
-  $posts.append("<p class=\"nb\">" + content.nbHits + " résultat" + (content.nbHits > 1 ? "s" : ""));
+  $posts.append("<p class=\"nb\">" + resultsNumber + " résultat" + (resultsNumber > 1 ? "s" : ""));
 
   var hit, post, post_date, post_tags, post_tags_match;
-  for (var i = 0; i < content.hits.length; i++) {
+  for (var i = 0; i < resultsNumber; i++) {
     hit = content.hits[i];
 
     // Build the date to show
