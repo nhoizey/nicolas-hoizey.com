@@ -86,6 +86,14 @@ cloudinary:
       steps: 5
       sizes: '(min-width: 50rem) 50rem, 90vw'
       figure: always
+    onehalf:
+      min_width: 160
+      max_width: 800
+      steps: 5
+      sizes: '(min-width: 50rem) 25rem, 45vw'
+      figure: always
+      attributes:
+        class: onehalf
     onethird:
       min_width: 110
       max_width: 540
@@ -94,3 +102,11 @@ cloudinary:
       figure: always
       attributes:
         class: onethird
+    onefourth:
+      min_width: 80
+      max_width: 400
+      steps: 5
+      sizes: '(min-width: 50rem) 13rem, 23vw'
+      figure: always
+      attributes:
+        class: onefourth
