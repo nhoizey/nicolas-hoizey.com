@@ -3,4 +3,6 @@ _site
 .asset-cache
 .jekyll-metadata
 _config_credentials.yml
-
+_serve.sh
+_build.sh
+_deploy.sh
