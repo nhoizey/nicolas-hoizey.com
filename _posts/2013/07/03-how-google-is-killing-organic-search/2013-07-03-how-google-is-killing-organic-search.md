@@ -4,12 +4,7 @@ lang:       fr
 tags:       [Web, publicité, Google, recherche]
 ---
 
-<figure markdown="1">
-  ![](google-organic-search-17p.png)
-  <figcaption>
-  13%, that’s the amount of real estate given to true organic results in a search for “auto mechanic" when I’m logged in at the Tutorspree office in TriBeCa.
-  </figcaption>
-</figure>
+{% cloudinary google-organic-search-17p.png caption="13%, that’s the amount of real estate given to true organic results in a search for “auto mechanic" when I’m logged in at the Tutorspree office in TriBeCa." %}
 
 > Google is building a new version of the search engine that made it great. This time, however, it is a search engine exclusive to the garden of Google products. If you compete with Google in any way, you’re in its crosshairs. Your chances of ranking high enough to garner traffic are virtually nil and getting smaller.
 

@@ -18,9 +18,7 @@ Avec un site statique, il existe trois possibilités :
 
 # Un moteur de recherche côté serveur
 
-<figure class="onefourth right">
-  ![Solr](apache-solr-logo.png){:.onefourth}
-</figure>
+{% cloudinary onefourth apache-solr-logo.png alt="Solr" class="right" %}
 Ce n'est pas parce que le site est statique qu'il est impossible de déployer une solution dynamique côté serveur, telle que [Solr](http://lucene.apache.org/solr/), « à côté » des pages.
 
 Sauf que cela réduit fortement la portabilité du site, gagnée grâce à la nature statique, et complexifie l'hébergement en nécessitant une plateforme plus technique.
@@ -49,9 +47,7 @@ De plus, l'indexation est plein texte, sans vraiment de paramétrage possible, c
 
 ## Algolia
 
-<figure class="onefourth right">
-  ![Algolia](algolia-logo.png){:.onefourth}
-</figure>
+{% cloudinary onefourth algolia-logo.png alt="Algolia" class="right" %}
 C'est alors que j'ai entendu parler[^vvo] d'[Algolia](https://www.algolia.com/), un moteur de recherche en mode SaaS intégralement pilotable par une [API REST](https://www.algolia.com/doc/rest_api) extrêmement riche, et pour laquelle de [très nombreux clients](https://www.algolia.com/doc/apiclients) et [intégrations](https://www.algolia.com/doc/integrations) sont déjà proposés de base.
 
 [^vvo]: Merci [Vincent](https://twitter.com/zeroload), qui y travaille depuis quelque temps et a notamment participé à la [refonte de l'excellente bibliothèque cliente en JavaScript](https://blog.algolia.com/modern-javascript-libraries-the-isomorphic-way/).
@@ -64,19 +60,9 @@ Algolia est bluffant à plus d'un titre :
 - nombreux paramètres de configuration activables dans l'interface et surchargeables via l'API
 - et enfin, performance incroyable, avec des temps de réponse extrêmement faibles permettant une expérience utilisateur optimale, que ce soit en mode [suggestion de recherche](https://www.algolia.com/doc/tutorials/auto-complete) ou [résultats instantanés](https://www.algolia.com/doc/tutorials/instant-search)
 
-<figure markdown="1">
-  ![Le tableau de bord Algolia](algolia-dashboard-overview.jpg)
-  <figcaption>
-  Un point de vue rapide sur l'état de l'indexation et des recherches.
-  </figcaption>
-</figure>
+{% cloudinary algolia-dashboard-overview.jpg alt="Le tableau de bord Algolia" caption="Un point de vue rapide sur l'état de l'indexation et des recherches." %}
 
-<figure markdown="1">
-  ![Le suivi des temps de réponse](algolia-dashboard-response-times.jpg)
-  <figcaption>
-  Le suivi des temps de réponse de l'API. Oui, l'échelle est en millisecondes !
-  </figcaption>
-</figure>
+{% cloudinary algolia-dashboard-response-times.jpg alt="Le suivi des temps de réponse" caption="Le suivi des temps de réponse de l'API. Oui, l'échelle est en millisecondes !" %}
 
 [Ma mise en œuvre](https://github.com/nhoizey/nicolas-hoizey.com/blob/master/recherche.html) n'est sans doute pas parfaite techniquement, mais j'y suis arrivé assez simplement grâce aux tutoriels proposés et à l'aide rapide et efficace obtenue via Twitter en cas de blocage, donc c'est à la portée de tout le monde !
 

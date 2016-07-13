@@ -16,9 +16,7 @@ Mais je m'attends à un minimum d'intelligence de la part de ceux qui en mettent
 
 Voilà l'exemple parfait de mise en place débile de publicité sur [cette page de CMSWire](http://www.cmswire.com/cms/customer-experience/econsultancy-report-how-to-optimize-for-mobile-customer-experience-020960.php?mkt_tok=3RkMMJWWfF9wsRoku63NZKXonjHpfsX57uglWa63lMI%2F0ER3fOvrPUfGjI4ARcBiI%2BSLDwEYGJlv6SgFTbDDMblp27gPXRA%3D)[^3] :
 
-<figure markdown="1">
-  ![](mobile_news_articles_2013-05-20_09-42-02.png)
-</figure>
+{% cloudinary mobile_news_articles_2013-05-20_09-42-02.png %}
 
 5 —oui CINQ— fois la même publicité, sous différentes formes mais avec exactement le même message, le même visuel. Le contenu disparaît complètement sous cette avalanche, je suis écœuré, je ferme la page.
 

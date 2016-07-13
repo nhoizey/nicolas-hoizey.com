@@ -9,12 +9,7 @@ En regardant les statistiques de consultation du site, et notamment les liens en
 
 [^1]: *referers* en anglais
 
-<figure markdown="1">
-  ![](google-contresens-dotclear-spip.png)
-  <figcaption>
-  De dotClear vers SPIP, ou l'inverse ?
-  </figcaption>
-</figure>
+{% cloudinary google-contresens-dotclear-spip.png caption="De dotClear vers SPIP, ou l'inverse ?" %}
 
 
 Alors, à quand une véritable analyse des requêtes des utilisateurs, plutôt qu'une simple addition des recherches des différents mots clefs ?

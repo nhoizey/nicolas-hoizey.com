@@ -13,11 +13,6 @@ L'[application RATP Pure pour iPad](http://itunes.apple.com/fr/app/ratp-pure-lap
 > - Retrouvez toutes les informations voyageur de la RATP directement **sur votre iPad**.
 > - Profitez de Ma RATP **dans la poche** pour optimiser vos déplacements en Ile de France en toute simplicité : [...]
 
-<figure markdown="1">
-  ![](ipad-ratp-pure.png)
-  <figcaption>
-  Présentation de l'iApp « RATP Pure »
-  </figcaption>
-</figure>
+{% cloudinary ipad-ratp-pure.png caption="Présentation de l'iApp « RATP Pure »" %}
 
 Au passage, je ne sais pas ce qu'ils ont fumé pour appeler leur application « Pure »...

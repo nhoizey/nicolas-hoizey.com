@@ -12,15 +12,15 @@ I first discovered this on my iPhone 5 and iPad 2.
 
 Here is what [this page](http://lab.gasteroprod.com/vub/index-ios-issue.html) looks like on an iPhone 5 :
 
-![](ios-safari-portrait-before-scroll.png){: .onehalf}
+{% cloudinary onehalf ios-safari-portrait-before-scroll.png %}
 
-![](ios-safari-landscape-before-scroll.png)
+{% cloudinary ios-safari-landscape-before-scroll.png %}
 
 `100vh` is computed for when the browser interface is hidden, after a scroll :
 
-![](ios-safari-portrait-after-scroll.png){: .onehalf}
+{% cloudinary onehalf ios-safari-portrait-after-scroll.png %}
 
-![](ios-safari-landscape-after-scroll.png)
+{% cloudinary ios-safari-landscape-after-scroll.png %}
 
 As suggested by Yoav Weiss [there](https://twitter.com/yoavweiss/status/568145414320492544) and [there](https://twitter.com/yoavweiss/status/568713697306267648), I opened a bug in [Apple Bug Reporter](https://bugreport.apple.com/)(#19879505) and [Webkit Bugzilla](https://bugs.webkit.org/show_bug.cgi?id=141832).
 
@@ -63,7 +63,7 @@ In fact I saw later that iOS Safari is not the only one doing this.
 
 I discovered later the same behavior on the browser of Firefox OS:
 
-![](firefox-os-before-scroll-r90.jpg){: .onehalf}
+{% cloudinary onehalf firefox-os-before-scroll-r90.jpg %}
 
 ## So what?
 
@@ -109,12 +109,7 @@ In fact, the viewport height changes when he scrolls and the browser chrome hide
 
 Here is a visual demonstration, from [two](https://twitter.com/borisschapira/status/615981753002557440) [screenshots](https://twitter.com/borisschapira/status/615981790113714176) he gave me:
 
-<figure markdown="1">
-  ![](android-chrome-before-after-scroll.png)
-  <figcaption>
-  The font-size increases when the user scrolls
-  </figcaption>
-</figure>
+{% cloudinary android-chrome-before-after-scroll.png caption="The font-size increases when the user scrolls" %}
 
 Boris uses a [OnePlus One](https://oneplus.net/one) running Android 5.0.2 and Chrome 43.0.2357.93.
 

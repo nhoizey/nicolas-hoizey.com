@@ -33,54 +33,38 @@ Tout simplement parce que j'ai dans le capteur *full frame* du 5D Mark II presqu
 
 La preuve en images. Voici les images proportionnelles des deux capteurs, avec indication de leurs caractéristiques techniques :
 
-<figure markdown="1">
-  ![](capteur-canon-eos-350d.png)
-  <figcaption>
-  Canon EOS 350D
-  </figcaption>
-</figure>
 
-<figure markdown="1">
-  ![](capteur-canon-eos-5d-mark-ii.png)
-  <figcaption>
-  Canon EOS 5D Mark II
-  </figcaption>
-</figure>
+{% cloudinary capteur-canon-eos-350d.png caption="Canon EOS 350D" %}
+
+
+
+{% cloudinary capteur-canon-eos-5d-mark-ii.png caption="Canon EOS 5D Mark II" %}
+
 
 
 Histoire d'illustrer encore mieux mon propos, voilà une photo que je pourrais faire au 300mm avec le 5D Mark II :
 
-<figure markdown="1">
-  ![](photo-ecureuil-capteur-canon-eos-5d-mark-ii.png)
-</figure>
+{% cloudinary photo-ecureuil-capteur-canon-eos-5d-mark-ii.png %}
 
 
 Montrons le capteur *full frame* couvrant tout le cadre :
 
-<figure markdown="1">
-  ![](photo-ecureuil-capteur-canon-eos-5d-mark-ii-2.png)
-</figure>
+{% cloudinary photo-ecureuil-capteur-canon-eos-5d-mark-ii-2.png %}
 
 
 Avec le 350D, le 300mm deviendrais un 480mm et je pourrais ainsi avoir un cadrage plus serré comme tel :
 
-<figure markdown="1">
-  ![](photo-ecureuil-capteur-canon-eos-350d.png)
-</figure>
+{% cloudinary photo-ecureuil-capteur-canon-eos-350d.png %}
 
 
 Mais rien ne m'empêche de partir de la photo faite au 5D Mark II et de choisir par la suite un recadrage correspondant à ce même grossissement :
 
-<figure markdown="1">
-  ![](photo-ecureuil-capteur-canon-eos-5d-mark-ii-recadre.png)
-</figure>
+{% cloudinary photo-ecureuil-capteur-canon-eos-5d-mark-ii-recadre.png %}
 
 
 Au final, le résultat est le même, tant en cadrage qu'en nombre de pixels :
 
-<figure markdown="1">
-  ![](photo-ecureuil-final.png)
-</figure>
+{% cloudinary photo-ecureuil-final.png %}
 
 
 Alors certes, cela suppose de penser lors de la prise de vue au recadrage futur, mais cela évite tout de même de devoir se promener en permanence avec deux boitiers sous prétexte qu'ils ont chacun leur propres zones de confort[^3].

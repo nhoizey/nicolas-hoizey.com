@@ -16,65 +16,25 @@ Suivant Moo depuis quelques années, j'ai été tout de suite intéressé par le
 
 Un des gros intérêts de Moo est son interface de configuration des cartes, qui permet de gérer autant de déclinaison du verso que l'on souhaite, chacune étant alors imprimée à part égale dans le volume commandé. J'ai ainsi pu créer 5 versos différents, avec différentes thématiques photographiques : portrait, paysage, macro, etc.
 
-<figure markdown="1">
-  ![L'interface d'édition du verso des cartes](cartes-de-visite-moo-00-interface-edition-verso.png)
-  <figcaption>
-  L'interface d'édition du verso des cartes
-  </figcaption>
-</figure>
+{% cloudinary cartes-de-visite-moo-00-interface-edition-verso.png alt="L'interface d'édition du verso des cartes" caption="L'interface d'édition du verso des cartes" %}
 
 Pour le recto, j'ai choisi la sobriété, avec peu d'information. Cela laisse de la place pour ajouter manuellement un numéro de téléphone par exemple, que je ne souhaite pas forcément donner systématiquement.
 
-<figure markdown="1">
-  ![L'interface d'édition des cartes](cartes-de-visite-moo-00-interface-overview.png)
-  <figcaption>
-  L'interface d'édition des cartes
-  </figcaption>
-</figure>
+{% cloudinary cartes-de-visite-moo-00-interface-overview.png alt="L'interface d'édition des cartes" caption="L'interface d'édition des cartes" %}
 
 Voici un petit déballage en photo, pour bien montrer la qualité des cartes et l'attention portée par Moo au packaging :
 
-<figure markdown="1">
-  ![La jolie boite entourée d'un ruban](cartes-de-visite-moo-01-boite.jpg)
-  <figcaption>
-  La jolie boite entourée d'un ruban
-  </figcaption>
-</figure>
+{% cloudinary cartes-de-visite-moo-01-boite.jpg alt="La jolie boite entourée d'un ruban" caption="La jolie boite entourée d'un ruban" %}
 
-<figure markdown="1">
-  ![Un message de bienvenue](cartes-de-visite-moo-02-accueil.jpg)
-  <figcaption>
-  Un message de bienvenue
-  </figcaption>
-</figure>
+{% cloudinary cartes-de-visite-moo-02-accueil.jpg alt="Un message de bienvenue" caption="Un message de bienvenue" %}
 
-<figure markdown="1">
-  ![Le rappel des caractéristiques des cartes](cartes-de-visite-moo-03-caracteristiques.jpg)
-  <figcaption>
-  Le rappel des caractéristiques des cartes
-  </figcaption>
-</figure>
+{% cloudinary cartes-de-visite-moo-03-caracteristiques.jpg alt="Le rappel des caractéristiques des cartes" caption="Le rappel des caractéristiques des cartes" %}
 
-<figure markdown="1">
-  ![Le verso des cartes, avec différentes thématiques de photos](cartes-de-visite-moo-04-verso-photos.jpg)
-  <figcaption>
-  Le verso des cartes, avec différentes thématiques de photos
-  </figcaption>
-</figure>
+{% cloudinary cartes-de-visite-moo-04-verso-photos.jpg alt="Le verso des cartes, avec différentes thématiques de photos" caption="Le verso des cartes, avec différentes thématiques de photos" %}
 
-<figure markdown="1">
-  ![Le recto, avec bien entendu mes coordonnées de photographe](cartes-de-visite-moo-05-recto-coordonnees.jpg)
-  <figcaption>
-  Le recto, avec bien entendu mes coordonnées de photographe
-  </figcaption>
-</figure>
+{% cloudinary cartes-de-visite-moo-05-recto-coordonnees.jpg alt="Le recto, avec bien entendu mes coordonnées de photographe" caption="Le recto, avec bien entendu mes coordonnées de photographe" %}
 
-<figure markdown="1">
-  ![Les multiples couches de papier, avec une jolie tranche colorée](cartes-de-visite-moo-06-tranche-coloree.jpg)
-  <figcaption>
-  Les multiples couches de papier, avec une jolie tranche colorée
-  </figcaption>
-</figure>
+{% cloudinary cartes-de-visite-moo-06-tranche-coloree.jpg alt="Les multiples couches de papier, avec une jolie tranche colorée" caption="Les multiples couches de papier, avec une jolie tranche colorée" %}
 
 Avouez que ça a de la gueule !
 

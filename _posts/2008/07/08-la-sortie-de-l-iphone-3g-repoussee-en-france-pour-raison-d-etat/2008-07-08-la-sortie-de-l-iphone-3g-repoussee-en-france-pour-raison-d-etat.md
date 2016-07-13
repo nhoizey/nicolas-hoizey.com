@@ -9,30 +9,15 @@ Cela ne vous a sans doute pas échappé, Apple sort enfin un iPhone digne de ce 
 
 [^1]: Ils n'ont pas encore compris que c'est tendance d'être en *beta*, sinon ils l'auraient clairement indiqué et ils en auraient peut-être vendu plus... ;-)
 
-<figure markdown="1">
-  ![](Apple_-_iPhone_3G_-_Pays-Bas.jpg)
-  <figcaption>
-  L'iPhone 3G aux Pays-Bas et presque partout ailleurs le 11 juillet
-  </figcaption>
-</figure>
+{% cloudinary Apple_-_iPhone_3G_-_Pays-Bas.jpg caption="L'iPhone 3G aux Pays-Bas et presque partout ailleurs le 11 juillet" %}
 
 
-<figure markdown="1">
-  ![](Apple_-_iPhone_3G.jpg)
-  <figcaption>
-  L'iPhone 3G en France le 17 juillet
-  </figcaption>
-</figure>
+{% cloudinary Apple_-_iPhone_3G.jpg caption="L'iPhone 3G en France le 17 juillet" %}
 
 
 Eh oui, c'est le 11 juillet que sort « Comme si de rien n'était »,[^1] le 3ème album de Carla Bruni[^2], Première dame de France.
 
-<figure markdown="1">
-  ![](Carla_Bruni_-_Comme_si_de_rien_n_etait.jpg)
-  <figcaption>
-  « Comme si de rien n'était », 3ème album de Carla Bruni
-  </figcaption>
-</figure>
+{% cloudinary Carla_Bruni_-_Comme_si_de_rien_n_etait.jpg caption="« Comme si de rien n'était », 3ème album de Carla Bruni" %}
 
 
 On imagine bien l'ombre qu'aurait pu faire l'iPhone à ce futur hit, vous n'imaginiez quand même pas crédible que [Orange](http://iphone.orange.fr/) ai besoin de 6 jours de plus que tant d'autres pour préparer le lancement...

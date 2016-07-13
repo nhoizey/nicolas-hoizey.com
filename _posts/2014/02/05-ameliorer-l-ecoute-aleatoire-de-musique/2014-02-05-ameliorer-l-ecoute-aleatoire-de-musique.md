@@ -3,11 +3,7 @@ title:      Améliorer l'écoute aléatoire de musique
 lang:       fr
 tags:       [musique, iTunes, aléatoire]
 ---
-
-<figure markdown="1">
-  ![](casque-iphone.png)
-</figure>
-Je suis d'habitude du genre à écouter des albums plutôt que des *singles*, mais le fait est qu'il est très compliqué d'écouter des albums quand on écoute de façon morcelée, notamment dans les transports en commun. J'écoute donc de plus en plus ma musique en mode aléatoire, en enchainant les singles. Sauf que l'aléatoire de base ne me convient pas.
+{% cloudinary casque-iphone.png %}Je suis d'habitude du genre à écouter des albums plutôt que des *singles*, mais le fait est qu'il est très compliqué d'écouter des albums quand on écoute de façon morcelée, notamment dans les transports en commun. J'écoute donc de plus en plus ma musique en mode aléatoire, en enchainant les singles. Sauf que l'aléatoire de base ne me convient pas.
 
 J'ai plus de 15000 morceaux dans ma librairie iTunes — et encore, je n'ai pas fini de numériser mes centaines de CD —, donc une écoute aléatoire basique me fait passer allégrement d'un morceaux que j'adore à un autre que je déteste[^1].
 
@@ -23,39 +19,27 @@ Malheureusement, il est impossible de croiser des critères avec des « ou » et
 
 Voici les listes que j'ai créées :
 
-<figure markdown="1">
-  ![](itunes-listes-intelligentes.png)
-  <figcaption>
-  Cinq listes intelligentes pour sélectionner la musique à écouter
-  </figcaption>
-</figure>
+
+{% cloudinary itunes-listes-intelligentes.png caption="Cinq listes intelligentes pour sélectionner la musique à écouter" %}
+
 
 Les intitulés sont à priori explicites, mais voici la configuration de l'une d'elles :
 
-<figure markdown="1">
-  ![](itunes-liste-intelligente-4-etoiles.png)
-  <figcaption>
-  Une liste intelligente pour écouter les morceaux 4 étoiles une fois par semaine. Oui, je retire la musique pour enfants, j'ai d'autres occasions de l'écouter…
-  </figcaption>
-</figure>
+
+{% cloudinary itunes-liste-intelligente-4-etoiles.png caption="Une liste intelligente pour écouter les morceaux 4 étoiles une fois par semaine. Oui, je retire la musique pour enfants, j'ai d'autres occasions de l'écouter…" %}
+
 
 Rassembler ces listes dans un dossier permet de jouer l'ensemble dans iTunes en sélectionnant le dossier en question :
 
-<figure markdown="1">
-  ![](itunes-dossier-listes-intelligentes.png)
-  <figcaption>
-  Un dossier pour obtenir une liste composée. C'est donc un « ou » logique.
-  </figcaption>
-</figure>
+
+{% cloudinary itunes-dossier-listes-intelligentes.png caption="Un dossier pour obtenir une liste composée. C'est donc un « ou » logique." %}
+
 
 Mais ce n'est malheureusement pas le cas sur iPhone. J'ai donc créé une dernière liste pour rassembler les précédentes, c'est celle-ci qui est synchronisée sur mon iPhone :
 
-<figure markdown="1">
-  ![](itunes-liste-intelligente-dossier.png)
-  <figcaption>
-  Une liste intelligente pour rassembler les listes d'un dossier
-  </figcaption>
-</figure>
+
+{% cloudinary itunes-liste-intelligente-dossier.png caption="Une liste intelligente pour rassembler les listes d'un dossier" %}
+
 
 Vous pouvez bien entendu reproduire ce système avec n'importe quel autre logiciel que iTunes, peut-être même directement avec une unique liste.
 

@@ -8,11 +8,6 @@ Les faire quand on les annonce, c'est mieux...
 
 La preuve en image :
 
-<figure markdown="1">
-  ![](controle-qualite.jpg)
-  <figcaption>
-  Contrôle qualité
-  </figcaption>
-</figure>
+{% cloudinary controle-qualite.jpg caption="Contrôle qualité" %}
 
 Je ne sais malheureusement plus où j'ai pris cette photo…

@@ -8,15 +8,11 @@ Bon, c'est peu forcément par rapport à tant d'autres sites, mais petit à peti
 
 Les statistiques [SPIP](http://www.spip.net/) accumulées depuis le début, avec leur lot d'erreurs ou modifications d'algorithme[^1], montrent donc que j'ai dépassé le million de visites depuis le début :
 
-<figure markdown="1">
-  ![](gastero-prod-stats-global.png)
-</figure>
+{% cloudinary gastero-prod-stats-global.png %}
 
 La tendance globale des visites quotidiennes montre bien l'évolution, et mes périodes d'inactivité, qui s'accompagnent forcément de creux de visites :
 
-<figure markdown="1">
-  ![](gastero-prod-stats-quotidien.png)
-</figure>
+{% cloudinary gastero-prod-stats-quotidien.png %}
 
 Ce site a géométrie variable a connu de nombreuses évolutions, et si j'ai voulu le faire passer de simple blog à vitrine plus large de mes intérêts, notamment en ajoutant des photos et une collecte de liens glanés sur le Web, puis carrément une vision plus temps réel de mon activité en ligne, ce qu'on appelle un *lifestream*, je ne suis toujours pas très satisfait, les photos n'ayant finalement pas encore suffisamment de place, ni une présentation très optimale.
 

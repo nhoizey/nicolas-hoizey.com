@@ -22,7 +22,7 @@ Cela devrait rappeler à certains d'entre vous le jeu « [The Incredible Machine
 
 Ils sont allés jusqu'à mettre en ligne [le making of du clip](http://media.okgo.net/ttsp/FloorPlan_TV.html), très intéressant :
 
-![](ok-go-this-too-shall-pass-making-of.jpg)
+{% cloudinary ok-go-this-too-shall-pass-making-of.jpg %}
 
 # Needing/Getting {#ng}
 

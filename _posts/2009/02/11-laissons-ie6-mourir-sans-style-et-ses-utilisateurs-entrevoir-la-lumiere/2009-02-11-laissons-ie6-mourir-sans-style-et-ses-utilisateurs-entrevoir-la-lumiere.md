@@ -11,12 +11,7 @@ Bon, il faut dire que malgré mes nombreuses tentatives pour faire fonctionner c
 
 Alors [j'ai décidé de jeter le support de IE6](http://idroppedie6.com/sites/65-httpwwwgasteroprodcom) pour de bon, avec style... enfin, sans continuer à lui envoyer des styles justement, pour que ses utilisateurs profitent pleinement de la belle structure HTML un rien sémantique que j'ai conçue, sans être pénalisés par les énormes erreurs d'interprétation des CSS :
 
-<figure markdown="1">
-  ![](gp2008-ie6-windows-2000.png)
-  <figcaption>
-  Gastero Prod dans IE6
-  </figcaption>
-</figure>
+{% cloudinary gp2008-ie6-windows-2000.png caption="Gastero Prod dans IE6" %}
 
 Pour masquer mes feuilles de styles à IE6, j'ai logiquement utilisé les [commentaires conditionnels spécifiques à Internet Explorer](http://www.blog-and-blues.org/articles/Les_syntaxes_de_commentaires_conditionnels_pour_IE_Windows), et notamment l'astuce visant à rendre les styles visibles aussi par les autres navigateurs :
 
@@ -30,19 +25,9 @@ Cela marche parfaitement pour IE6 qui ne voit donc aucun style, et pour les vrai
 
 Malheureusement, IE7 et IE8 ne considèrent pas `<-->` comme une balise HTML inconnue à ignorer silencieusement, mais préfèrent l'afficher tel quel, c'eût été trop simple :
 
-<figure markdown="1">
-  ![](gp2008-ie7-windows-xp.png)
-  <figcaption>
-  Gastero Prod dans IE7
-  </figcaption>
-</figure>
+{% cloudinary gp2008-ie7-windows-xp.png caption="Gastero Prod dans IE7" %}
 
-<figure markdown="1">
-  ![](gp2008-ie8rc1-windows-xp.png)
-  <figcaption>
-  Gastero Prod dans IE8 RC1
-  </figcaption>
-</figure>
+{% cloudinary gp2008-ie8rc1-windows-xp.png caption="Gastero Prod dans IE8 RC1" %}
 
 
 Et je passe sur le fait que le design soit quand même légèrement explosé dans IE7, je ne sais pas si je vais faire beaucoup d'efforts sachant que [IE8](http://www.microsoft.com/windows/Internet-explorer/beta/default.aspx)[^1] pointe le bout de son nez et devrait -- même s'il semble que ce ne soit pas aussi bien qu'espéré -- mieux se comporter.

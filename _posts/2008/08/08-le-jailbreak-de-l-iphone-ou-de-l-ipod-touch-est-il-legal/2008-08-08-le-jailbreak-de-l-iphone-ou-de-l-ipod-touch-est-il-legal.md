@@ -9,12 +9,7 @@ Comme vous avez pu vous en apercevoir quand j'ai parlé récemment de la [copie 
 
 [^1]: Celles-ci le sont, apparemment
 
-<figure markdown="1">
-  ![](PwnageTool.png)
-  <figcaption>
-  PwnageTool
-  </figcaption>
-</figure>
+{% cloudinary PwnageTool.png caption="PwnageTool" %}
 
 
 Dans [un récent billet](http://www.veilleperso.com/non-vais-taider-pirater-logiciels-iphone-2344), [Olivier Ruffin](http://www.veilleperso.com/) répond à un message qu'il a reçu en indiquant que « Jailbreaker ne veut pas dire voler » mais plutôt « permettre l’installation d’applications quand Apple l’interdisait ».

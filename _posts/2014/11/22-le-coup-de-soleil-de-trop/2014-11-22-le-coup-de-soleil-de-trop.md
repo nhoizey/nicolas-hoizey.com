@@ -8,12 +8,7 @@ Moi aussi j'aime bien les photos faites durant la « [golden hour](http://photot
 
 Je m'interroge quand je vois [la galerie de Luis Valadares sur 500px](https://500px.com/LuisValadares) :
 
-<figure markdown="1">
-  ![](luis-valadares-500px-jaune.jpg)
-  <figcaption>
-  Galerie de Luis Valadares sur 500px
-  </figcaption>
-</figure>
+{% cloudinary luis-valadares-500px-jaune.jpg caption="Galerie de Luis Valadares sur 500px" %}
 
 Quelqu'un peut m'expliquer dans quel délire est parti ce photographe ?
 

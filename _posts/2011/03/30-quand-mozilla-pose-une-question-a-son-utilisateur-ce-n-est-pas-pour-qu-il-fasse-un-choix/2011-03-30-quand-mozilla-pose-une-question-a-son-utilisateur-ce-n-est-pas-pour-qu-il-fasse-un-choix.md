@@ -10,9 +10,7 @@ J'ai donc fait du ménage pour ne garder que deux collections complémentaires b
 
 Quand j'ai voulu supprimer une collection, voilà l'écran que Mozilla m'a montré pour demander confirmation de cette suppression :
 
-<figure markdown="1">
-  ![](mozilla-addons-suppression-ko.png)
-</figure>
+{% cloudinary mozilla-addons-suppression-ko.png %}
 
 Ces points me paraissent mauvais en termes d'ergonomie :
 
@@ -27,9 +25,7 @@ Voici ce que je propose rapidement[^3] comme solution plus ergonomique :
 
 [^3]: Merci Firebug !
 
-<figure markdown="1">
-  ![](mozilla-addons-suppression-ok.png)
-</figure>
+{% cloudinary mozilla-addons-suppression-ok.png %}
 
 Qu'en dites-vous ?
 

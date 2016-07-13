@@ -10,12 +10,7 @@ J'ai la chance d'avoir un superbe écran sur mon MacBook Pro, un ancien modèle 
 
 J'ai donc passé cette taille par défaut à 18px dans les préférences de mon Firefox :
 
-<figure markdown="1">
-  ![](firefox-preferences-contenu-texte-18px.png)
-  <figcaption>
-  Modifier la taille de texte par défaut dans Firefox
-  </figcaption>
-</figure>
+{% cloudinary firefox-preferences-contenu-texte-18px.png caption="Modifier la taille de texte par défaut dans Firefox" %}
 
 Sur le Mac mini relié à la TV Full HD de mon salon — soit 1920x1080 pixels dans 52 pouces de diagonale — se pose en plus le problème de la distance, puisque je suis à environ 3,5 mètres de l'écran. Bien entendu je l'utilise plus comme *media center* qu'écran de surf[^1] Web, mais pour que ce soit faisable, j'ai dû passer cette taille par défaut à 24px.
 

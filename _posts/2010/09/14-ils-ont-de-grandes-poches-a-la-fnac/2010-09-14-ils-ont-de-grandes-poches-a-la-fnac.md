@@ -6,6 +6,5 @@ tags:       [fail, FNAC]
 
 Soit la définition du [livre de poche](http://fr.wikipedia.org/wiki/Livre_de_poche) a changé, soit la FNAC de Rennes est gérée par un gars du sud-ouest adepte des [poches](http://fr.wikipedia.org/wiki/Poche_(sac_plastique))...
 
-<figure markdown="1">
-  ![](rimbaud-en-poche.jpg)
-</figure>
+{% cloudinary rimbaud-en-poche.jpg %}
+

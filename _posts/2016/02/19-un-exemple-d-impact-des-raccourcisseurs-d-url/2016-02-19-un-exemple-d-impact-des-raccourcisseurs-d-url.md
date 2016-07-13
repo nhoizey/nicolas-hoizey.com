@@ -18,7 +18,7 @@ Mais la première URL effectivement suivie est celle imposée par Twitter, c'est
 
 Et voilà l'enchainement de redirections provoqué par un clic sur ce lien :
 
-![L'impact des redirections avec une connexion fibre](impact-redirection-webperf-fibre.png)
+{% cloudinary impact-redirection-webperf-fibre.png alt="L'impact des redirections avec une connexion fibre" %}
 
 Le cumul des temps passés pour chaque redirection avant d'arriver à la « vraie » requête pour la page voulue est de 1 300 millisecondes, **presque une seconde et demi de perdue** !
 
@@ -26,11 +26,11 @@ Et cela dans un environnement bien confortable avec une connexion fibre de très
 
 La simulation d'une bonne connexion 3G dans Chrome montre que la bande passante du réseau n'a aucune influence sur ce temps passé, puisqu'aucun contenu n'est en fait transféré :
 
-![](impact-redirection-webperf-3g.png)
+{% cloudinary impact-redirection-webperf-3g.png %}
 
 La simulation d'une latence de 500 millisecondes sur cette connexion 3G — ce qui peut se produire très souvent en mobilité — montre par contre un impact énorme :
 
-![](impact-redirection-webperf-3g-latence.png)
+{% cloudinary impact-redirection-webperf-3g-latence.png %}
 
 Le temps perdu est ici de 3 370 millisecondes, soit **presque 3 secondes et demi** !
 

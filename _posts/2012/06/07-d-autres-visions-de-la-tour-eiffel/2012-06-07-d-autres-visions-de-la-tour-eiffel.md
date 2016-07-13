@@ -12,16 +12,6 @@ Voilà bien un sujet photographique qui a déjà largement été traité par tou
 </div>
 <script type="text/javascript" src="https://500px.com/embed.js"></script>
 
-<figure markdown="1">
-  ![](vertige.jpg)
-  <figcaption>
-  Vertige
-  </figcaption>
-</figure>
+{% cloudinary vertige.jpg caption="Vertige" %}
 
-<figure markdown="1">
-  ![](aie_ca_pique.jpg)
-  <figcaption>
-  Aïe, ça pique !
-  </figcaption>
-</figure>
+{% cloudinary aie_ca_pique.jpg caption="Aïe, ça pique !" %}

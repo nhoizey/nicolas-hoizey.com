@@ -1,12 +1,10 @@
 ---
 title:      À bicyclette…
 lang:       fr
-tags:		  [vidéo, vélo]
+tags:     [vidéo, vélo]
 ---
 
-[Danny MacAskill](http://fr.wikipedia.org/wiki/Danny_MacAskill) est un trialiste écossais hallucinant, qui s'est notamment fait connaître via différents court métrages le montrant faire des figures improbables en ville ou dans la campagne. Sponsorisé depuis quelques années par Red Bull, il n'a plus vraiment de limites à son imagination pour sortir des vidéos bien barrées…
-![Une photo du trialiste Danny MacAskill faisant un saut au dessus d'une cabine téléphonique](danny-macaskill.jpg)
-
+[Danny MacAskill](http://fr.wikipedia.org/wiki/Danny_MacAskill) est un trialiste écossais hallucinant, qui s'est notamment fait connaître via différents court métrages le montrant faire des figures improbables en ville ou dans la campagne. Sponsorisé depuis quelques années par Red Bull, il n'a plus vraiment de limites à son imagination pour sortir des vidéos bien barrées…{% cloudinary danny-macaskill.jpg alt="Une photo du trialiste Danny MacAskill faisant un saut au dessus d'une cabine téléphonique" %}
 Je pense l'avoir découvert en 2010 avec cette vidéo le montrant en différents lieux de sa belle Écosse, « Way Back Home » :
 
 https://www.youtube.com/watch?v=Cj6ho1-G6tw

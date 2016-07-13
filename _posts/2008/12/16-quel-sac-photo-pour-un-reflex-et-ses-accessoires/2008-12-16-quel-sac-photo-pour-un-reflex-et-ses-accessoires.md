@@ -37,19 +37,9 @@ Après recherche[^3] dans les gammes de différentes marques, notamment [Lowepro
 
 Voilà ce que ça donne :
 
-<figure markdown="1">
-  ![](lowepro-flipside-400-aw-1.jpg)
-  <figcaption>
-  Lowepro Flipside 400 AW de face. En vert, il a presque l'air d'un sac à dos classique
-  </figcaption>
-</figure>
+{% cloudinary lowepro-flipside-400-aw-1.jpg caption="Lowepro Flipside 400 AW de face. En vert, il a presque l'air d'un sac à dos classique" %}
 
-<figure markdown="1">
-  ![](lowepro-flipside-400-aw-2.jpg)
-  <figcaption>
-  Lowepro Flipside 400 AW de dos. L'ouverture par le dos est une très bonne garantie de sécurité, et un bon moyen de ne pas se salir le dos après avoir posé le sac
-  </figcaption>
-</figure>
+{% cloudinary lowepro-flipside-400-aw-2.jpg caption="Lowepro Flipside 400 AW de dos. L'ouverture par le dos est une très bonne garantie de sécurité, et un bon moyen de ne pas se salir le dos après avoir posé le sac" %}
 
 
 Et vous, qu'utilisez-vous pour trimbaler votre matériel photo ? Connaissez-vous ce Lowepro Flipside 400 AW et le recommanderiez-vous ?

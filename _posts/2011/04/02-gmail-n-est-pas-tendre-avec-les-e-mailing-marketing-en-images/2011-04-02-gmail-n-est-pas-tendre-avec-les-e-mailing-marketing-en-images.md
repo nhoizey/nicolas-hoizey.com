@@ -8,14 +8,10 @@ Dans la liste des messages, GMail montre l'expéditeur, le sujet, et le début d
 
 Voici un exemple probant avec un message venant d'un spammeur tentant de se faire passer pour Orange :
 
-<figure markdown="1">
-  ![](orange-mailing-fail.png)
-</figure>
+{% cloudinary orange-mailing-fail.png %}
 
 Et voilà ce que ça donne quand on l'ouvre :
 
-<figure markdown="1">
-  ![](orange-mailing-fail-2.png)
-</figure>
+{% cloudinary orange-mailing-fail-2.png %}
 
 Dommage que GMail n'aille pas jusqu'à laisser actif le lien de désinscription directement dans la liste de messages...

@@ -11,22 +11,12 @@ Apparemment, effectivement, ce n'est pas « que » du [marketing](http://www.mar
 
 Souvenez-vous, la recherche que j'avais tenté [à l'époque](/2008/06/tineye-un-systeme-bluffant-de-reconnaissance-d-images-sur-internet.html) donnait 13 résultats :
 
-<figure markdown="1">
-  ![](tineye-resultat.png)
-  <figcaption>
-  Premiers résultat de la recherche
-  </figcaption>
-</figure>
+{% cloudinary tineye-resultat.png caption="Premiers résultat de la recherche" %}
 
 
 Cette même recherche en donne aujourd'hui 31, plus de deux fois plus :
 
-<figure markdown="1">
-  ![](TinEye_-_2008-08-05_-_31_resultats.png)
-  <figcaption>
-  Nouvelle recherche dans TinEye
-  </figcaption>
-</figure>
+{% cloudinary TinEye_-_2008-08-05_-_31_resultats.png caption="Nouvelle recherche dans TinEye" %}
 
 
 C'est clair, TinEye a largement étendu son indexation, mais il leur reste encore pas mal de boulot à faire, puisque j'ai beau mettre certaines de [mes photos](rub61) sur des services aussi variés que [Flickr](http://www.flickr.com/photos/nicolas-hoizey/), [JPG Magazine](http://www.jpgmag.com/people/nhoizey), [deviantART](http://nhoizey.deviantart.com/) ou [Photo.net](http://photo.net/photos/nicolas-hoizey), il ne me les retrouve pas encore partout...

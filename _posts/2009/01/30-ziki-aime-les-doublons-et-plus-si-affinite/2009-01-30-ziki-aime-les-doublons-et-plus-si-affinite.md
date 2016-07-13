@@ -13,30 +13,22 @@ J'avoue que cela faisait un certain temps que je n'avais pas visité Ziki, et j'
 
 Par exemple, quand je veux modifier mes compétences, je me retrouve avec un onglet « Undefined » :
 
-<figure markdown="1">
-  ![](Ziki-competences-undefined.png)
-</figure>
+{% cloudinary Ziki-competences-undefined.png %}
 
 
 Et si je veux mettre à jour le [profil Ziki de Clever Age](http://www.ziki.com/fr/clever-age+1955), et indiquer les secteurs d'activité, je me retrouve avec des doublons dans les propositions, sur le « graphisme » :
 
-<figure markdown="1">
-  ![](Ziki_-_Doublon_1.png)
-</figure>
+{% cloudinary Ziki_-_Doublon_1.png %}
 
 
 Et quand je veux modifier les compétences, j'ai des doublons sur le « journalisme » :
 
-<figure markdown="1">
-  ![](Ziki_-_Doublon_2.png)
-</figure>
+{% cloudinary Ziki_-_Doublon_2.png %}
 
 
 Pire, si je ne remplie pas complètement le profil de ma société, on me relance, ce qui est compréhensible, mais une seule fois, non, trois ! Et en moins d'une heure :
 
-<figure markdown="1">
-  ![](Ziki-relance.png)
-</figure>
+{% cloudinary Ziki-relance.png %}
 
 
 Cela fait quand même beaucoup de bugs qui n'auraient pas dû passer au travers des mailles de l'équipe de recette...
