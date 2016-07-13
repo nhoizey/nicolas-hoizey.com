@@ -19,7 +19,7 @@ button.parentNode.removeChild(button);
 <script src="//cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
 
 <script type="text/javascript">
-var algolia = algoliasearch("{{ site.algolia.application_id }}", "{{ site.algolia.search_only_api_key }}");
+var algolia = algoliasearch("{{ site.algolia.application_id }}", "{{ site.algolia.read_only_api_key }}");
 var index = algolia.initIndex("{{ site.algolia.index_name }}");
 var $input = $("#search input[type=search]");
 var searchSettings = {
