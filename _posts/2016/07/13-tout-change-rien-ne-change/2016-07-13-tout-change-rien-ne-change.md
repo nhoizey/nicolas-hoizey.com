@@ -66,7 +66,7 @@ Le support de la syntaxe courante basée sur un dossier global permet aussi d'in
 
 Le plugin Jekyll Picture Tag, même dans sa version d'origine, avait été mon choix à l'époque faute de mieux, [`<picture>` n'étant en général pas la bonne solution](https://cloudfour.com/thinks/dont-use-picture-most-of-the-time/){: hreflang="en"}.
 
-Il existe maintenant un plugin [Jekyll Responsive Image](https://github.com/wildlyinaccurate/jekyll-responsive-image) qui permet d'utiliser la syntaxe `srcset-w`/`sizes` en général plus appropriée, avec même son propre template. 
+Il existe maintenant un plugin [Jekyll Responsive Image](https://github.com/wildlyinaccurate/jekyll-responsive-image) qui permet d'utiliser la syntaxe `srcset-w`/`sizes` en général plus appropriée, avec même son propre template.
 
 Mais je voulais cesser de générer, optimiser et héberger moi-même les variantes d'images nécessaires, et plutôt m'appuyer sur [Cloudinary](http://cloudinary.com/invites/lpov9zyyucivvxsnalc5/sgyyc0j14k6p0sbt51nw), un des leaders des nombreux services SaaS de gestion d'images optimisés pour le responsive.
 
@@ -97,6 +97,12 @@ Ce qui va générer, avec ma configuration :
 ```
 
 Magique !
+
+Mon temps de *build* du site a été largement réduit, même si les images générées étaient en cache, et le poids total du site chez mon hébergeur est passé de 325 Mo à 139 Mo.
+
+Bien sûr, il faut ajouter le service [Cloudinary](http://cloudinary.com/invites/lpov9zyyucivvxsnalc5/sgyyc0j14k6p0sbt51nw) à l'équation, mais l'offre gratuite suffit amplement pour un blog comme le mien :
+
+{% cloudinary cloudinary-pricing.png alt="Les tarifs de Cloudinary" caption="Les tarifs de Cloudinary, dont l'offre gratuite déjà généreuse" %}
 
 Mais cela ne me suffit pas, je travaille sur un plugin qui permettrait de profiter de ce même Cloudinary mais en n'utilisant que la syntaxe Markdown standard pour les images, pour retrouver cette facilité de publication — et prévisualisation en cours d'édition — que je vantais juste avant. Mais [ce n'est pas simple](https://github.com/jekyll/jekyll/issues/5099), je découvre en même temps Ruby, les subtilités des plugins Jekyll, etc.
 
