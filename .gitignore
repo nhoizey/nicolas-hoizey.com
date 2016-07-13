@@ -7,3 +7,5 @@ _config_credentials.yml
 _serve.sh
 _build.sh
 _deploy.sh
+
+_index.sh
