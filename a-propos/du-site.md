@@ -9,25 +9,23 @@ title: À propos du site
 
 *Si la technique ne vous intéresse pas, vous pouvez aussi [en apprendre plus sur moi](/a-propos/de-moi.html).*
 
-# Le statique, c'est fantastique
+# Avec Jekyll, le statique c'est fantastique
 
-Tout le site est généré par [Jekyll](http://jekyllrb.com/) à partir de documents rédigés en syntaxe Kramdown[^kramdown]. Il a été généré pour la dernière fois le&nbsp;{{ site.time | date: "%d/%m/%Y"}}.
+Tout le site est généré par [Jekyll](http://jekyllrb.com/) à partir de documents rédigés en syntaxe [Markdown](http://fr.wikipedia.org/wiki/Markdown)[^kramdown]. Il a été généré pour la dernière fois le&nbsp;{{ site.time | date: "%d/%m/%Y"}}.
 
-[^kramdown]: [Kramdown](http://kramdown.gettalong.org/) est une variante plus sympa de [Markdown](http://fr.wikipedia.org/wiki/Markdown), permettant notamment cette note de bas de page.
+[^kramdown]: En fait plutôt du [Kramdown](http://kramdown.gettalong.org/), une variante plus sympa de Markdown, permettant notamment cette note de bas de page.
 
 Pour migrer les centaines de contenus rédigés depuis 2001 en syntaxe spécifique [SPIP](http://spip.net)[^spip], j'ai développé un [plugin SPIP → Markdown](https://github.com/nhoizey/spip2markdown) qui transforme tant que possible cette syntaxe spécifique en syntaxe Kramdown, y compris avec le [YAML Front Matter](http://jekyllrb.com/docs/frontmatter/).
 
 [^spip]: SPIP est un excellent outil libre français de gestion de contenu, particulièrement pertinent pour les contenus éditoriaux.
 
-# Les plugins
+## Quelques plugins
 
-De [nombreux](http://jekyllrb.com/docs/plugins/#available-plugins) [plugins](http://www.jekyll-plugins.com/) existent dans l'écosystème Jekyll pour enrichir la solution de base, mais comme partout tous ne fonctionnent pas, certains imposent des modes de fonctionnement contradictoire, ou tout simplement ne sont pas suffisamment configurables. Attention, la plupart de ces plugins empêchent d'utiliser la génération automatique de pages des [Github Pages](https://help.github.com/articles/using-jekyll-with-pages/).
+De [nombreux](http://jekyllrb.com/docs/plugins/#available-plugins) [plugins](http://www.jekyll-plugins.com/) existent dans l'écosystème Jekyll pour enrichir la solution de base, mais comme partout, tous ne fonctionnent pas bien, certains imposent des modes de fonctionnement contradictoires, ou tout simplement ne sont pas suffisamment configurables. Attention, la plupart de ces plugins empêchent d'utiliser la génération automatique de pages des [Github Pages](https://help.github.com/articles/using-jekyll-with-pages/).
 
-Les images bénéficient du plugin [Jekyll Picture Tag](https://github.com/robwierzbowski/jekyll-picture-tag)[^fork] qui implémente le nouveau standard `<picture>` pour les images responsives[^srcset].
+Les images bénéficient de mon plugin [Jekyll Cloudinary](https://nhoizey.github.io/jekyll-cloudinary/) pour utiliser le service SaaS [Cloudinary](http://cloudinary.com/invites/lpov9zyyucivvxsnalc5/sgyyc0j14k6p0sbt51nw) afin de générer les différentes versions nécessaires au Responsive Web Design, tout en optimisant au mieux la performance.
 
-[^fork]: D'ailleurs, [mon fork de jekyll-picture-tag](https://github.com/nhoizey/jekyll-picture-tag/) facilite l'usage en permettant de stocker les images source au même endroit que les fichiers Markdown, mais la PR correspondante n'a pas été acceptée par le mainteneur.
-
-[^srcset]: Ce qui est déjà très bien, en attendant le support de `srcset/sizes`, qui serait suffisant et bien plus léger.
+Concernant toujours les images, mais aussi tout autre fichier que je voudrais associer à un billet (PDF ou autre), mon plugin [jekyll_post_files](https://nhoizey.github.io/jekyll_post_files/) permet de les déposer dans le même endroit que le fichier Markdown, ce qui facilite grandement la publication.
 
 Les tags sont supportés nativement par Jekyll, mais largement améliorés par le plugin [Jekyll Tagging](https://github.com/pattex/jekyll-tagging) qui génère les pages individuelles pour chaque tag, ainsi que le nuage de tags visible en page d'accueil.
 
@@ -37,9 +35,11 @@ Les pages d'archives par année et mois sont générées par le plugin [Jekyll A
 
 Dans la mesure du possible, les ressources externes sont chargées en asynchrone pour ne pas pénaliser votre navigation, voire même uniquement à la demande, comme c'est le cas des vidéos Youtube grâce au plugin [Jekyll Youtube Lazyloading](https://github.com/erossignon/jekyll-youtube-lazyloading) qui n'affiche qu'une image en attendant que le visiteur clique pour vraiment charger la vidéo.
 
-Les tweets sont chargés à l'aide du tag Liquid fourni par le [Jekyll Twitter Plugin](https://github.com/rob-murray/jekyll-twitter-plugin).
+Les tweets sont chargés à l'aide du plugin [Lazy Tweet Embeding](https://github.com/takuti/jekyll-lazy-tweet-embedding) qui permet de juste écrire l'URL du tweet sur une ligne, difficile de faire plus simple.
 
-Les images pour illustrer les pages de tags, ainsi que les meta opengraph, utilisent le plugin [Jekyll File Exists](https://github.com/michaelx/jekyll_file_exists).
+Ce plugin m'a inspiré la création d'un autre similaire pour les vidéos de Youtube ou Vimeo, en cours de développement.
+
+Les images pour illustrer les pages de tags et les meta *opengraph* utilisent le plugin [Jekyll File Exists](https://github.com/michaelx/jekyll_file_exists).
 
 # La webperf
 
@@ -53,7 +53,7 @@ Pour les opérations de base type concaténation et minification des CSS et JS, 
 
 Pour les fontes, j'ai adapté ce que Zach Leatherman —de Filament Group— présente dans son billet [Flash Of Faux Text (FOFT) approach](http://www.zachleat.com/web/foft/) : les fontes de base — PT Serif pour le texte et PT Sans Bold pour les titres — sont chargées en priorité, et les variantes (gras, italique, combinaison des deux) sont chargées ultérieurement, avec un impact visuel minimal. Un brin complexe à expliquer, mais le résultat est impressionnant par rapport aux pratiques les plus courantes.
 
-Pour les images, `<picture>` dans un premier temps, pour gérer au mieux l'aspect responsive du site, en attendant d'avoir la syntaxe `<img srcset sizes>` qui suffit dans 95% des cas, est plus légère dans le HTML, et plus optimisable par les navigateurs.
+Pour les images, la syntaxe standard `<img srcset sizes>` générée par mon plugin [Jekyll Cloudinary](https://nhoizey.github.io/jekyll-cloudinary/) est parfaite : [elle suffit dans 95% des cas](https://cloudfour.com/thinks/dont-use-picture-most-of-the-time/){: hreflang="en"}, est plus légère dans le HTML, et plus optimisable par les navigateurs.
 
 Les ressources externes, sources potentielles de troubles, sont principalement :
 
