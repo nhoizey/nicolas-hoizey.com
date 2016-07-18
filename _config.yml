@@ -111,6 +111,14 @@ cloudinary:
       figure: always
       attributes:
         class: onefourth
+    logo:
+      min_width: 80
+      max_width: 400
+      steps: 5
+      sizes: '(min-width: 50rem) 13rem, (min-width: 40rem) 25vw, 45vw'
+      figure: never
+      attributes:
+        class: logo
 
 jekyll-archives:
   enabled:

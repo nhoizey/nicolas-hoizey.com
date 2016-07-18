@@ -10,6 +10,7 @@ Ce site est [généré avec Jekyll](https://nicolas-hoizey.com/a-propos/du-site.
 
 ## Jekyll 3
 
+{% cloudinary logo /assets/logos/jekyll.png alt="Logo de Jekyll" %}
 J'ai donc enfin pu migrer vers Jekyll 3, avec d'une part l'assurance de pouvoir suivre les évolutions du logiciel et de ses plugins, et d'autre part de pouvoir bénéficier de nouvelles fonctionnalités.
 
 Mon bloquage principal pour cette migration était mon fork du plugin [Jekyll Picture Tag](https://github.com/nhoizey/jekyll-picture-tag/), qui me permettait :
@@ -68,6 +69,7 @@ Le plugin Jekyll Picture Tag, même dans sa version d'origine, avait été mon c
 
 Il existe maintenant un plugin [Jekyll Responsive Image](https://github.com/wildlyinaccurate/jekyll-responsive-image) qui permet d'utiliser la syntaxe `srcset-w`/`sizes` en général plus appropriée, avec même son propre template.
 
+{% cloudinary logo /assets/logos/cloudinary.png alt="Logo de Cloudinary" %}
 Mais je voulais cesser de générer, optimiser et héberger moi-même les variantes d'images nécessaires, et plutôt m'appuyer sur [Cloudinary](http://cloudinary.com/invites/lpov9zyyucivvxsnalc5/sgyyc0j14k6p0sbt51nw), un des leaders des nombreux services SaaS de gestion d'images optimisés pour le responsive.
 
 J'ai donc créé le nouveau plugin [Jekyll Cloudinary](https://nhoizey.github.io/jekyll-cloudinary/) qui ajoute un tag Liquid {% raw %}`{% cloudinary … %}`{% endraw %} pour publier les images et générer automatiquement le code HTML avec `srcset-w`/`sizes` et des URL Cloudinary, voire même un ensemble `<figure>`/`<figcaption>` si une légende est précisée.
