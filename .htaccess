@@ -327,6 +327,11 @@ RewriteRule ^(.*) https://nicolas-hoizey.com/$1 [QSA,R=301,L]
 RewriteCond %{HTTP_HOST} nicolashoizey\.com$ [NC]
 RewriteRule ^(.*) https://nicolas-hoizey.com/$1 [QSA,R=301,L]
 
+# Don't redirect Let's Encrypt ACME Challenge
+# https://github.com/oncletom/letsencrypt-alwaysdata#http-redirects
+RewriteCond %{REQUEST_URI} ^/.well-known/acme-challenge [NC]
+RewriteRule .* - [L]
+
 # Redirect from http to https
 # RewriteCond specific to AlwaysData proxy
 # https://help.alwaysdata.com/my-account/ssl/redirection-http-https
