@@ -76,6 +76,9 @@ algolia:
     - 404.html
     - index.html
 
+youtube:
+  api_key: …
+
 # Cloudinary
 cloudinary:
   cloud_name: nho

@@ -12,7 +12,7 @@ Les conditions particulières de prise de vue pouvaient poser de potentiels souc
 
 Voilà donc ce que donnent 251 photos prises à 30 secondes d’intervalle et assemblées dans une vidéo à 15 images par seconde :
 
-https://www.youtube.com/watch?v=eyaVk-ZRz08
+{% youtube eyaVk-ZRz08 %}
 
 J'ai fait l'erreur de laisser le boitier en RAW, et de le laisser sans surveillance, donc j'ai eu la mauvaise surprise de découvrir la carte pleine depuis un certain temps en revenant. J'avais prévu une séquence beaucoup plus longue, ce qui aurait pu être le cas si j'avais utilisé du JPEG uniquement.
 

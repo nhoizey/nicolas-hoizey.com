@@ -8,4 +8,4 @@ tags:       [vidéo, film]
 
 Cette vidéo a beau avoir été réalisée avec un smartphone, il est évident qu'il y a eu un énorme travail, tant en pré qu'en post-production, je vous laisse apprécier :
 
-https://vimeo.com/25451551
+{% vimeo 25451551 %}

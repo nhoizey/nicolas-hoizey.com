@@ -1,6 +1,6 @@
---- 
-title:      Sony renforce le marketing de son format DVD HD Blu-Ray 
-lang:       fr 
+---
+title:      Sony renforce le marketing de son format DVD HD Blu-Ray
+lang:       fr
 tags:       [publicité, vidéo, HD, Sony, Blu-Ray]
 ---
 
@@ -10,7 +10,7 @@ Alors que la [bataille entre les formats de DVD HD Blu-Ray et HD-DVD](http://www
 
 Voici cette fameuse pub[^1] :
 
-https://www.youtube.com/watch?v=MZRnPWzBK0E
+{% youtube MZRnPWzBK0E %}
 
 Cette pub est aussi l'occasion pour Sony de lancer son [Musée de la Base Résolution](http://www.blu-ray.sony-europe.com/)[^2] qui doit tout faire pour vous convaincre de passer à la HD, et plus particulièrement au Blu-Ray, bien sûr.
 

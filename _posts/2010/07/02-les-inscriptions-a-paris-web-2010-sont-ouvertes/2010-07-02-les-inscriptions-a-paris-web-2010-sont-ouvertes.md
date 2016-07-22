@@ -24,7 +24,7 @@ Le tarif pratiqué, extrêmement intéressant à 170 €[^4] en prévente jusqu'
 
 Si vous avez encore des doutes, vous pouvez consulter les archives des éditions [2006](http://www.paris-web.fr/2006/), [2007](http://www.paris-web.fr/2007/), [2008](http://www.paris-web.fr/2008/) et [2009](http://www.paris-web.fr/2009/), dont les [supports et vidéos des conférences et ateliers](http://www.paris-web.fr/2009/telechargements.php), ou des [vidéos d'ambiance dans le groupe Paris Web sur Viméo](http://vimeo.com/groups/parisweb), dont voici un exemple :
 
-https://vimeo.com/7022191
+{% vimeo 7022191 %}
 
 Alors vite, [inscrivez-vous à Paris Web 2010](http://inscriptions.paris-web.fr/), vous ne le regretterez certainement pas, et ceux qui utiliseront vos créations non plus !
 

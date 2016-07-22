@@ -6,7 +6,7 @@ tags:  [photo, time-lapse, Hong Kong, sony, RX100]
 
 Voici un nouveau time-lapse, réalisé cette fois intégralement avec mon appareil photo compact, [le Sony RX100mk3 dont je vous ai déjà parlé](/2015/01/sony-rx100-iii-mon-excellent-nouveau-compact-expert-toujours-en-poche.html).
 
-https://www.youtube.com/watch?v=RcWs79vmTT0
+{% youtube RcWs79vmTT0 %}
 
 Pour la réalisation de ce time-lapse, il faut bien sûr un intervalomètre pour prendre des photos à intervale régulier, puis un assemblage de ces photos en vidéo. C'est le rôle de l'application [Time-lapse](https://www.playmemoriescameraapps.com/portal/usbdetail.php?eid=IS9104-NPIA09014_00-000003) disponible pour plusieurs appareils photo Sony dans le magasin [Sony PlayMemories Camera Apps](https://www.playmemoriescameraapps.com/portal/)[^appareils].
 

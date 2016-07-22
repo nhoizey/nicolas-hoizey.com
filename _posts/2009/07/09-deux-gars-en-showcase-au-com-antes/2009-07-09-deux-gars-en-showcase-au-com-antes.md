@@ -14,6 +14,6 @@ Ils se présentent ainsi :
 
 J'ai profité de ce concert pour tester un peu la vidéo en basse luminosité de mon 5D Mark II, et même si on sent bien que je débute, le résultat est sympathique :
 
-https://vimeo.com/5515242
+{% vimeo 5515242 %}
 
 N'hésitez pas à passer en plein écran, c'est du Full HD ! ;-)
