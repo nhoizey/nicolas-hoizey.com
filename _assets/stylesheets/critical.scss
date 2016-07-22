@@ -132,6 +132,7 @@ pre {
 a {
   color: $color-link;
   text-decoration: underline solid $color-blue;
+  -webkit-text-decoration-skip: ink;
 }
 
 a:visited {
