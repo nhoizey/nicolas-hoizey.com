@@ -31,9 +31,7 @@ Il me reste à répondre plus complètement à une question que j'ai évoquée d
 
 Je vais rédiger dans les prochaines semaines une version détaillée de ma conférence, et j'ai prévu d'approfondir ce sujet pour donner mon point de vue[^2].
 
-
 {% cloudinary nicolas_hoizey_-_paris_web_2013_-_photo_par_fabrice_le_guernec_pour_paris_web.jpg caption="Nicolas Hoizey à Paris Web 2013. [Photo](http://www.flickr.com/photos/parisweb/10401233525/) de [Fabrice Le Guernec](http://twitter.com/Fab_incident) pour Paris-Web" %}
-
 
 # Je n'aurais pas pu faire ça tout seul
 
@@ -55,7 +53,9 @@ La vidéo de ma prestation a été publiée par Paris Web sur son compte Vimeo :
 
 Voici [la version de mes slides hébergée sur SlideShare](https://fr.slideshare.net/nhoizey/paris-web-2013-un-petit-pas-pour-lem-un-grand-pas-pour-le-web), donc sans les animations qui ne sont visibles qu'en vidéo :
 
+<div class="ratio-4-3 embed-video-container">
 <iframe src="//fr.slideshare.net/slideshow/embed_code/key/v16thp4qiLTOXH" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+</div>
 
 Vous pouvez préférer [la version de mes slides hébergée sur Speaker Deck](https://speakerdeck.com/nhoizey/un-petit-pas-pour-lem-un-grand-pas-pour-le-web-paris-web-2013) :
 

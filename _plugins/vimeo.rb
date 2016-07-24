@@ -16,7 +16,7 @@ class Vimeo < Liquid::Tag
 
     puts " Vimeo: video #{@id}"
 
-    result =  "<iframe src=\"https://player.vimeo.com/video/#{@id}\" width=\"800\" height=\"450\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+    result =  "<div class=\"ratio-16-9 embed-video-container\"><iframe src=\"https://player.vimeo.com/video/#{@id}\" width=\"800\" height=\"450\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>"
 
     return result
 
