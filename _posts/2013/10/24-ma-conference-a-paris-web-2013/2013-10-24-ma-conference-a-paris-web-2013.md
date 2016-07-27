@@ -4,7 +4,10 @@ lang:       fr
 tags:       [Web, Paris Web, conférence, Responsive Web Design, em]
 ---
 
-Après y avoir assisté plusieurs années en tant qu'auditeur, j'ai eu la joie — le privilège — d'être sélectionné parmi les orateurs de l'édition 2013. Sélectionné qui plus est avec un sujet plutôt pointu, sur une bonne pratique que tout le monde devrait appliquer depuis plus de 10 ans, mais qui est très largement sous estimée.{% cloudinary paris-web-2013-j-y-etais.jpg %}
+Après y avoir assisté plusieurs années en tant qu'auditeur, j'ai eu la joie — le privilège — d'être sélectionné parmi les orateurs de l'édition 2013. Sélectionné qui plus est avec un sujet plutôt pointu, sur une bonne pratique que tout le monde devrait appliquer depuis plus de 10 ans, mais qui est très largement sous estimée.
+
+{% cloudinary paris-web-2013-j-y-etais.jpg %}
+
 # Le *pitch*
 
 Voici l'accroche que j'avais rédigée pour ma conférence, intitulée donc « Un petit pas pour l'em, un grand pas pour le Web », afin de la soumettre à l'équipe de Paris Web :
