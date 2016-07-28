@@ -278,16 +278,16 @@ img.tag {
 
 // Search results
 
-.results {
+#results {
   .nb {
     text-align: center;
   }
 
-  .highlight {
+  .algolia__result-highlight {
     color: #000;
   }
 
-  .tags .highlight, p .highlight {
+  .tags .algolia__result-highlight, p .algolia__result-highlight {
     font-weight: 700;
   }
 }
