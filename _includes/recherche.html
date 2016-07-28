@@ -40,8 +40,10 @@ if (query.length > 0) {
 // A search query may come from the user typing in the search field
 $input.keyup(function() {
   if ($input.val().length > 1) {
+    history.pushState(null, null, 'recherche.html?q=' + $input.val());
     index.search($input.val(), searchSettings, searchCallback);
   } else {
+    history.pushState(null, null, 'recherche.html');
     $("#posts").empty();
   }
 }).focus();
