@@ -78,25 +78,25 @@ function searchCallback(err, content) {
     hit = content.hits[i];
 
     // Build the date to show
-    post_date = hit.date;
-    post_date = post_date.replace(/^[0-9]{4}-[0-9]{2}-([0-9]{2}).*$/g, "$1").replace(/^0/, "") + " " + months[parseInt(post_date.replace(/^[0-9]{4}-([0-9]{2}).*$/g, "$1"), 10) - 1] + " " + post_date.replace(/^([0-9]{4}).*$/g, "$1");
+    if (hit.date) {
+      post_date = hit.date;
+      post_date = post_date.replace(/^[0-9]{4}-[0-9]{2}-([0-9]{2}).*$/g, "$1").replace(/^0/, "") + " " + months[parseInt(post_date.replace(/^[0-9]{4}-([0-9]{2}).*$/g, "$1"), 10) - 1] + " " + post_date.replace(/^([0-9]{4}).*$/g, "$1");
+    }
 
     // Build the tags list
-    post_tags = "";
-    post_tags_match = "none";
-    for (var j = 0; j < hit._highlightResult.tags.length; j++) {
-      post_tags = post_tags + ", " + hit._highlightResult.tags[j].value;
-      if (hit._highlightResult.tags[j].matchLevel !== "none") {
-        post_tags_match = hit._highlightResult.tags[j].matchLevel;
+    if (hit._highlightResult.tags) {
+      post_tags = "";
+      post_tags_match = "none";
+      for (var j = 0; j < hit._highlightResult.tags.length; j++) {
+        post_tags = post_tags + ", " + hit._highlightResult.tags[j].value;
+        if (hit._highlightResult.tags[j].matchLevel !== "none") {
+          post_tags_match = hit._highlightResult.tags[j].matchLevel;
+        }
       }
+      post_tags = post_tags.replace(/^, /, "");
     }
-    post_tags = post_tags.replace(/^, /, "");
 
-    post = "<article><header><ul><li class=\"date\"><svg class=\"icon\"><use xlink:href=\"#symbol-date\" /></svg> " + post_date + "</li><li class=\"tags\"><svg class=\"icon\"><use xlink:href=\"#symbol-tags\" /></svg> " + post_tags + "</li></ul></header><h2><a href=\"" + hit.url + "\">" + hit._highlightResult.title.value + "</a></h2>";
-
-    // if (post_tags_match === "none" && hit._highlightResult.title.matchLevel === "none" && hit._snippetResult.content.matchLevel !== "none") {
-    //   post += "<p>…&nbsp;" + hit._snippetResult.content.value + "&nbsp;…</p>";
-    // }
+    post = "<article><header><ul><li class=\"date\">" + (post_date ? "<svg class=\"icon\"><use xlink:href=\"#symbol-date\" /></svg> " + post_date : "") + "</li><li class=\"tags\">" + (post_tags ? "<svg class=\"icon\"><use xlink:href=\"#symbol-tags\" /></svg> " + post_tags : "") + "</li></ul></header><h2><a href=\"" + hit.url + "\">" + hit._highlightResult.title.value + "</a></h2>";
 
     post += "</article>";
     $posts.append(post);
