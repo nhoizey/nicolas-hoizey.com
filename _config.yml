@@ -85,13 +85,13 @@ cloudinary:
   verbose: false
   presets:
     default:
-      min_width: 320
+      min_width: 360
       max_width: 1600
       steps: 5
       sizes: '(min-width: 50rem) 50rem, 90vw'
       figure: always
     onehalf:
-      min_width: 160
+      min_width: 180
       max_width: 800
       steps: 5
       sizes: '(min-width: 50rem) 25rem, 45vw'
@@ -99,15 +99,15 @@ cloudinary:
       attributes:
         class: onehalf
     onethird:
-      min_width: 110
-      max_width: 540
+      min_width: 120
+      max_width: 560
       steps: 5
       sizes: '(min-width: 50rem) 17rem, 30vw'
       figure: always
       attributes:
         class: onethird
     onefourth:
-      min_width: 80
+      min_width: 100
       max_width: 400
       steps: 5
       sizes: '(min-width: 50rem) 13rem, 23vw'
@@ -115,7 +115,7 @@ cloudinary:
       attributes:
         class: onefourth
     logo:
-      min_width: 80
+      min_width: 100
       max_width: 400
       steps: 3
       sizes: '(min-width: 50rem) 13rem, (min-width: 40rem) 25vw, 45vw'
