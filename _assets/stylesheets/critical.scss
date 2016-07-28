@@ -371,7 +371,6 @@ article {
   }
 
   [type=search] {
-    margin-right: 1em;
     flex: 1;
     border: 2px solid #ccc;
 
@@ -381,9 +380,21 @@ article {
   }
 
   [type=submit] {
+    margin-left: 1em;
     background-color: $color-blue;
     color: #fff;
     border: 2px solid darken($color-blue, 10%);
+  }
+}
+
+#powered-by-algolia {
+  text-align: right;
+  font-size: .8em;
+
+  svg {
+    height: 1.3em;
+    width: auto;
+    vertical-align: bottom;
   }
 }
 
