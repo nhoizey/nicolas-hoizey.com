@@ -4,22 +4,22 @@ lang:       fr
 tags:       [photo, matériel, Canon, capteur]
 ---
 
-La sortie ces derniers mois de [plusieurs appareils photo numériques équipés de capteurs *full frame*](http://www.macandphoto.com/2008/10/le-grand-match.html)[^1] à des prix devenus presque raisonnables, a séduit de nombreux photographes amateurs experts[^2]. Les avantages du *full frame* sont nombreux, mais certains photographes -- essentiellement animaliers et sportifs -- préfèrent conserver leurs appareils à capteurs APS-C[^3], leur petite taille augmentant « magiquement » la longueur focale des téléobjectifs[^4] et provoquant une zone de netteté plus grande, utile pour la macro. Sauf que mon Canon EOS 350D à capteur APS-C ne présente pas cet intérêt par rapport à mon nouveau Canon EOS 5D Mark II à capteur *full frame*. Je m'explique...
+La sortie ces derniers mois de [plusieurs appareils photo numériques équipés de capteurs *full frame*](http://www.macandphoto.com/2008/10/le-grand-match.html)[^fullframe] à des prix devenus presque raisonnables, a séduit de nombreux photographes amateurs experts[^experts]. Les avantages du *full frame* sont nombreux, mais certains photographes -- essentiellement animaliers et sportifs -- préfèrent conserver leurs appareils à capteurs APS-C[^apsc], leur petite taille augmentant « magiquement » la longueur focale des téléobjectifs[^tele] et provoquant une zone de netteté plus grande, utile pour la macro. Sauf que mon Canon EOS 350D à capteur APS-C ne présente pas cet intérêt par rapport à mon nouveau Canon EOS 5D Mark II à capteur *full frame*. Je m'explique...
 
 
-[^1]: C'est à dire de même taille que les traditionnelles pellicules argentiques de 24x36mm de côté
+[^fullframe]: C'est à dire de même taille que les traditionnelles pellicules argentiques de 24x36mm de côté
 
-[^2]: Qui sont souvent déraisonnables, sans pouvoir se payer du matériel pro à 8000 €... ;-)
+[^experts]: Qui sont souvent déraisonnables, sans pouvoir se payer du matériel pro à 8000 €... ;-)
 
-[^3]: Appellation faisant référence aux pellicules argentiques au format APS, plus petit que le 24x36mm, correspondant aux capteurs les plus courants des reflex numériques.
+[^apsc]: Appellation faisant référence aux pellicules argentiques au format APS, plus petit que le 24x36mm, correspondant aux capteurs les plus courants des reflex numériques.
 
-[^4]: En fait c'est l'angle de vision qui est réduit, d'où resserrement de l'espace photographié, et donc sensation de plus grande focale.
+[^tele]: En fait c'est l'angle de vision qui est réduit, d'où resserrement de l'espace photographié, et donc sensation de plus grande focale.
 
 Les avantages des capteurs *full frame* sont donc multiples :
 
-- retour aux « vraies » focales des objectifs, comme au bon vieux temps des reflex argentiques[^1]
+- retour aux « vraies » focales des objectifs, comme au bon vieux temps des reflex argentiques[^argentique]
 - disponibilité de vrais objectifs grand angulaires
-- à nombre de pixels équivalent, un capteur plus grand est constitué de cellules sensibles[^2] plus grandes et offrant donc une meilleure sensibilité et résistance à la diffraction
+- à nombre de pixels équivalent, un capteur plus grand est constitué de cellules sensibles[^cellules] plus grandes et offrant donc une meilleure sensibilité et résistance à la diffraction
 
 Mais dans l'absolu les capteurs APS-C ont aussi leurs avantages :
 
@@ -67,13 +67,13 @@ Au final, le résultat est le même, tant en cadrage qu'en nombre de pixels :
 {% cloudinary photo-ecureuil-final.png %}
 
 
-Alors certes, cela suppose de penser lors de la prise de vue au recadrage futur, mais cela évite tout de même de devoir se promener en permanence avec deux boitiers sous prétexte qu'ils ont chacun leur propres zones de confort[^3].
+Alors certes, cela suppose de penser lors de la prise de vue au recadrage futur, mais cela évite tout de même de devoir se promener en permanence avec deux boitiers sous prétexte qu'ils ont chacun leur propres zones de confort[^deux].
 
 Je tiens à préciser pour finir que cette illustration n'est pas valable pour toute comparaison entre un APS-C et un *full frame*, le nombre de pixels ayant une incidence forte sur les calculs réalisés.
 
 
-[^1]: Sauf que ceux qui ont déjà fait autre chose que du 24x36 savent qu'il n'y a pas de « vraie » focale, la taille de la pellicule entrant évidemment en compte.
+[^argentique]: Sauf que ceux qui ont déjà fait autre chose que du 24x36 savent qu'il n'y a pas de « vraie » focale, la taille de la pellicule entrant évidemment en compte.
 
-[^2]: Appelées aussi photosites.
+[^cellules]: Appelées aussi photosites.
 
-[^3]: Ce qui ne veut pas dire que je n'aurais pas parfois les deux sur moi, pour éviter de changer trop souvent d'objectif...
+[^deux]: Ce qui ne veut pas dire que je n'aurais pas parfois les deux sur moi, pour éviter de changer trop souvent d'objectif...
