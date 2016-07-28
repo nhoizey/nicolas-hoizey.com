@@ -1,6 +1,13 @@
 // Load fonts
-;(function(doc) {
-  // IE9+
+;(function(win, doc) {
+
+  doc.body.setAttribute('data-viewportwidth', win.viewportWidth);
+  doc.body.setAttribute('data-screendppx', win.screenDppx);
+
+  // ******************************************************************
+  // Only for IE9+ after this
+  // ******************************************************************
+
   if(!('geolocation' in navigator)) {
     return;
   }
@@ -70,7 +77,7 @@
     //   success: secondStageSuccess
     // });
   }
-})( document );
+})( window, document );
 
 /* Add anchor links to titles in the article */
 (function(w){
