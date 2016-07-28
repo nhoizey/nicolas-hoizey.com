@@ -14,12 +14,10 @@ var sites = window.document.querySelector("#search_sites"),
 sites.parentNode.action = "";
 sites.parentNode.removeChild(sites);
 button.parentNode.removeChild(button);
-</script>
 
-<script src="//cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
-<script src="//cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+{% asset vendors/jquery-3.1.0 %}
+{% asset vendors/algoliasearchLite-3.18.0 %}
 
-<script type="text/javascript">
 var algolia = algoliasearch("{{ site.algolia.application_id }}", "{{ site.algolia.read_only_api_key }}");
 var index = algolia.initIndex("{{ site.algolia.index_name }}");
 var $input = $("#search input[type=search]");
