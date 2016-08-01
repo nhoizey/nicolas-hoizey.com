@@ -6,6 +6,7 @@ gem 'yt'
 
 group :jekyll_plugins do
   gem 'jekyll-paginate'
+  gem 'sprockets', '3.6.3'
   gem 'jekyll-assets'
   gem 'jekyll-tagging'
   gem 'uglifier'
