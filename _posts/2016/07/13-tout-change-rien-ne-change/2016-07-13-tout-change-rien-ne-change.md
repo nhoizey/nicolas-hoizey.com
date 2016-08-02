@@ -87,12 +87,15 @@ Ce qui va générer, avec ma configuration :
 ```html
 <figure>
   <img
-    src="https://nicolas-hoizey.com/2016/06/cloudflare.png"
+    src="https://res.cloudinary.com/nho/image/fetch/c_limit,w_720,q_auto,f_auto/https://nicolas-hoizey.com/2016/06/cloudflare.png"
     srcset="
-      https://res.cloudinary.com/nho/image/fetch/c_scale,w_320,q_auto,f_auto/https://nicolas-hoizey.com/2016/06/cloudflare.png 320w,
-      https://res.cloudinary.com/nho/image/fetch/c_scale,w_640,q_auto,f_auto/https://nicolas-hoizey.com/2016/06/cloudflare.png 640w"
+      https://res.cloudinary.com/nho/image/fetch/c_limit,w_320,q_auto,f_auto/https://nicolas-hoizey.com/2016/06/cloudflare.png 320w,
+      https://res.cloudinary.com/nho/image/fetch/c_limit,w_670,q_auto,f_auto/https://nicolas-hoizey.com/2016/06/cloudflare.png 670w,
+      https://res.cloudinary.com/nho/image/fetch/c_limit,w_720,q_auto,f_auto/https://nicolas-hoizey.com/2016/06/cloudflare.png 720w"
     sizes="(min-width: 50rem) 50rem, 90vw"
     alt="Un schéma montrant l'apport de Cloudflare"
+    width="720"
+    height="327"
   />
   <figcaption>Un schéma montrant l'apport de Cloudflare</figcaption>
 </figure>
