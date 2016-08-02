@@ -1,8 +1,8 @@
 // Load fonts
 ;(function(win, doc) {
 
-  doc.body.setAttribute('data-viewportwidth', win.viewportWidth);
-  doc.body.setAttribute('data-screendppx', win.screenDppx);
+  doc.body.setAttribute('data-viewportwidth', win.viewport_width);
+  doc.body.setAttribute('data-screendensity', win.screen_density);
 
   // ******************************************************************
   // Only for IE9+ after this
