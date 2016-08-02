@@ -4,9 +4,9 @@ lang:       fr
 tags:       [Gastero Prod, SPIP, AlwaysData]
 ---
 
-Cela ne vous a sans doute pas échappé si vous avez fait un tour sur le site ces dernières heures, il n'a plus du tout la même tête. Bin oui, ce que j'avais fait à l'arrache après avoir [mis à la poubelle](/2011/01/le-design-de-gastero-prod-est-il-a-jeter-a-la-poubelle.html) ce que j'ai cru être un superbe design pendant 3 longues années[^1] ne me plaisait finalement vraiment pas, ergonomiquement et visuellement. Mais ce n'est pas le seul changement, loin de là…
+Cela ne vous a sans doute pas échappé si vous avez fait un tour sur le site ces dernières heures, il n'a plus du tout la même tête. Bin oui, ce que j'avais fait à l'arrache après avoir [mis à la poubelle](/2011/01/le-design-de-gastero-prod-est-il-a-jeter-a-la-poubelle.html) ce que j'ai cru être un superbe design pendant 3 longues années[^moche] ne me plaisait finalement vraiment pas, ergonomiquement et visuellement. Mais ce n'est pas le seul changement, loin de là…
 
-[^1]: C'est de votre faute, vous ne m'avez pas prévenu !
+[^moche]: C'est de votre faute, vous ne m'avez pas prévenu !
 
 # La partie émergée de l'iceberg
 
@@ -22,7 +22,7 @@ Ce que vous n'avez sans doute pas perçu par vous-même si vous n'avez pas lu me
 
 **SPIP 3**
 
-L'évolution technique la plus importante pour le site lui-même, c'est le passage à SPIP 3. Toujours en version *beta*, mais déjà plutôt stable[^1] et utilisé par de plus en plus de sites, SPIP 3 apporte une palanquée de nouveautés intéressantes par rapport aux versions précédentes, nous y reviendrons prochainement.
+L'évolution technique la plus importante pour le site lui-même, c'est le passage à SPIP 3. Toujours en version *beta*, mais déjà plutôt stable[^stable] et utilisé par de plus en plus de sites, SPIP 3 apporte une palanquée de nouveautés intéressantes par rapport aux versions précédentes, nous y reviendrons prochainement.
 
 **So long Gandi, and thanks for all the fish**
 
@@ -32,4 +32,4 @@ Un des arguments de AlwaysData face à une concurrence très large est la mise �
 
 Il me reste à voir comment gérer proprement les sources de SPIP et des plugins issus de la communauté, je ne maîtrise pas encore suffisamment les *submodules* de Git pour cela.
 
-[^1]: Sachant que ce site à longtemps tourné sur le *trunk* de SPIP 2, une *beta* ne peut pas lui faire peur…
+[^stable]: Sachant que ce site à longtemps tourné sur le *trunk* de SPIP 2, une *beta* ne peut pas lui faire peur…
