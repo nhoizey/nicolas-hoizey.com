@@ -12,7 +12,7 @@ group :jekyll_plugins do
   gem 'uglifier'
   gem 'jekyll-tagging'
   gem 'algoliasearch-jekyll'
-  gem 'jekyll_post_files'
+  gem 'jekyll-postfiles'
   gem 'jekyll-cloudinary'
   gem 'jekyll-archives'
 end

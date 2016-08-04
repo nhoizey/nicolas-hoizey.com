@@ -56,13 +56,13 @@ GEM
       jekyll (>= 3.0, < 4.0)
       rmagick (>= 2.0, < 3.0)
     jekyll-paginate (1.1.0)
+    jekyll-postfiles (2.0.0)
     jekyll-sass-converter (1.4.0)
       sass (~> 3.4)
     jekyll-tagging (1.0.1)
       ruby-nuggets
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
-    jekyll_post_files (1.0.6)
     json (1.8.3)
     kramdown (1.11.1)
     liquid (3.0.6)
@@ -114,8 +114,8 @@ DEPENDENCIES
   jekyll-assets
   jekyll-cloudinary
   jekyll-paginate
+  jekyll-postfiles
   jekyll-tagging
-  jekyll_post_files
   rmagick
   sprockets (= 3.6.3)
   uglifier
