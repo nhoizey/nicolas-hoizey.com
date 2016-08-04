@@ -2,7 +2,7 @@ gems:
   - jekyll-assets
   - jekyll-paginate
   - algoliasearch-jekyll
-  - jekyll_post_files
+  - jekyll-postfiles
   - jekyll-cloudinary
 
 # Site settings
