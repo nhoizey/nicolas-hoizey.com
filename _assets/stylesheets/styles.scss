@@ -2,6 +2,21 @@
 @import "rve";
 @import "monokai";
 
+// File link icons
+a[href$=".zip"], a[href$=".kml"] {
+  padding-left: 1.6em;
+  background-size: 1.4em 1.4em;
+}
+
+a[href$=".zip"] {
+  background: url(/assets/icons/zip.svg) 0 0 no-repeat;
+}
+
+a[href$=".kml"] {
+  background: url(/assets/icons/kml.svg) 0 0 no-repeat;
+}
+
+// Article
 article {
   p, blockquote, .intro, .footnotes {
     margin: 1em 0;
