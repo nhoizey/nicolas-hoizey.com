@@ -28,8 +28,8 @@ body {
   font-weight: 400;
   line-height: 1.5;
 
-  color: #222;
-  background-color: #fff;
+  color: $color-text;
+  background-color: $color-background;
 
   scroll-behavior: smooth;
 }
@@ -132,19 +132,22 @@ pre {
 
 a {
   color: $color-link;
-  text-decoration: underline solid $color-blue;
+  text-decoration: underline solid $color-link-underline;
 }
 
 a:visited {
-  color: darken($color-link, 10%);
+  color: $color-link-visited;
+  text-decoration: underline solid $color-link-underline;
 }
 
-a:hover {
+a:hover, a:focus {
   color: $color-link-hover;
+  text-decoration: underline solid $color-link-hover;
 }
 
 a:active {
-  color: darken($color-hover, 10%);
+  color: $color-link-active;
+  text-decoration: underline solid $color-link-active;
 }
 
 strong {
