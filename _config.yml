@@ -65,6 +65,10 @@ assets:
   compress:
     css: true
     js: true
+  autoprefixer:
+    browsers:
+      - "last 2 versions"
+      - "IE > 9"
 
 # Algolia
 algolia:
