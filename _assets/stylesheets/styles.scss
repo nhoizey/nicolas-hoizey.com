@@ -129,6 +129,24 @@ article {
     }
   }
 
+  .socialphoto {
+    background: #eef;
+    color: #333;
+    padding: 1em;
+
+    p {
+      margin: 0;
+    }
+
+    span {
+      white-space: nowrap;
+    }
+
+    a {
+      color: #777;
+    }
+  }
+
   .edit {
     border-top: 1px dotted #ccc;
     padding: .5em 0;
@@ -307,8 +325,61 @@ img.tag {
   }
 }
 
+a.icon {
+  font-size: 2em;
+  vertical-align: middle;
+  color: $color-networks-link;
+  text-decoration: none;
+  transition-duration: .1s;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+
+  svg {
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+  }
+
+  &:hover {
+    color: $color-networks-hover;
+  }
+
+  &.twitter:hover {
+    color: #55acee;
+  }
+
+  &.px500:hover {
+    color: #000;
+  }
+
+  &.flickr:hover {
+    color: #ff0084;
+  }
+
+  &.github:hover {
+    color: #666;
+  }
+
+  &.facebook:hover {
+    color: #3b5998;
+  }
+
+  &.instagram:hover {
+    color: #3f729b;
+  }
+
+  &.deviantart:hover {
+    color: #5fbb3b;
+  }
+
+  &.feed:hover {
+    color: #ee9900;
+  }
+}
+
 #networks {
   margin-top: 2em;
+  font-size: 1.5em;
 
   ul {
     margin: 0;
@@ -322,53 +393,6 @@ img.tag {
 
   li {
     padding: 1em;
-  }
-
-  a {
-    color: $color-networks-link;
-    text-decoration: none;
-    transition-duration: .1s;
-    transition-property: color;
-    transition-timing-function: ease-in-out;
-
-    &:hover {
-      color: $color-networks-hover;
-    }
-
-    &.twitter:hover {
-      color: #55acee;
-    }
-
-    &.px500:hover {
-      color: #000;
-    }
-
-    &.flickr:hover {
-      color: #ff0084;
-    }
-
-    &.github:hover {
-      color: #666;
-    }
-
-    &.facebook:hover {
-      color: #3b5998;
-    }
-
-    &.instagram:hover {
-      color: #3f729b;
-    }
-
-    &.feed:hover {
-      color: #ee9900;
-    }
-  }
-
-  svg {
-    width: 3em;
-    height: 3em;
-    vertical-align: middle;
-    fill: currentColor;
   }
 }
 

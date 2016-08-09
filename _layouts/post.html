@@ -25,8 +25,28 @@ layout: default
   </h1>
   {{ content }}
 
-  {% if page.flickr != nil or page.500px != nil %}
-    <p>Vous pouvez aussi voir cette photo {% if page.flickr != nil %}<a href="{{ page.flickr }}">sur Flickr</a>{% if page.500px != nil %} et {% endif %}{% endif %}{% if page.500px != nil %}<a href="{{ page.500px }}">sur 500px</a>{% endif %}.</p>
+  {% if page.500px or page.flickr or page.facebook or page.instagram or page.deviantart %}
+    <div class="socialphoto">
+      <p>Retrouvez cette photo sur vos réseaux sociaux préférés :
+        <span>
+        {% if page.500px %}
+          <a href="{{ page.500px }}" class="icon px500"><svg><use xlink:href="#symbol-500px" /></svg></a>
+        {% endif %}
+        {% if page.flickr %}
+          <a href="{{ page.flickr }}" class="icon flickr"><svg><use xlink:href="#symbol-flickr" /></svg></a>
+        {% endif %}
+        {% if page.facebook %}
+          <a href="{{ page.facebook }}" class="icon facebook"><svg><use xlink:href="#symbol-facebook" /></svg></a>
+        {% endif %}
+        {% if page.instagram %}
+          <a href="{{ page.instagram }}" class="icon instagram"><svg><use xlink:href="#symbol-instagram" /></svg></a>
+        {% endif %}
+        {% if page.deviantart %}
+          <a href="{{ page.deviantart }}" class="icon deviantart"><svg><use xlink:href="#symbol-deviantart" /></svg></a>
+        {% endif %}
+        </span>
+      </p>
+    </div>
   {% endif %}
 
   {% assign source = page.path | split: '/' %}
