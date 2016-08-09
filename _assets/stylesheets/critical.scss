@@ -184,6 +184,11 @@ h5 {
   font-style: italic;
 }
 
+img, iframe {
+  max-width: 100%;
+  height: auto;
+}
+
 // ************************************************************
 // no delay on focusable elements in (future) iOS:
 // https://adactio.com/journal/10019
