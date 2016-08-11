@@ -59,24 +59,20 @@ Note : Le mécanisme interne de gestion de l'entrepôt changera probablement dan
 
 Si vous n'avez jamais entendu parler de CVS, jetez un oeil à sa [documentation](http://www.cvshome.org/). Ce n'est pas une technologie difficile d'usage, mais s'y accoutumer prend du temps. 
 
-En supposant que vous avez le client CVS standard installé sur votre machine, vous devrez suivre ces étapes : 
+En supposant que vous avez le client CVS standard installé sur votre machine, vous devrez ouvrir une fenêtre de terminal (rxvt, xterm, ou autre) et suivre ces étapes :
 
-1. Ouvrez une fenêtre de terminal (rxvt, xterm, ou autre) 
-
-2. Tapez les commandes suivantes :
-
-    ```bash
-    cvs -z3 -d :pserver:cvsread@cvs.php.net:/repository login
-    Password: # Entrez 'phpfi' comme mot de passe ici
-    cvs -z3 -d :pserver:cvsread@cvs.php.net:/repository co php4
-    # Cela va créer un nouveau répertoire 'php4'
-    cd php4
-    cvs -z3 -d :pserver:cvsread@cvs.zend.com:/repository login
-    Password: # Entrez 'zend' comme mot de passe ici
-    cvs -z3 -d :pserver:cvsread@cvs.zend.com:/repository co Zend TSRM
-    # Cela va créer deux nouveaux répertoire dans 'php4', 'Zend' et 'TSRM'
-    ./buildconf
-    ```
+```bash
+cvs -z3 -d :pserver:cvsread@cvs.php.net:/repository login
+Password: # Entrez 'phpfi' comme mot de passe ici
+cvs -z3 -d :pserver:cvsread@cvs.php.net:/repository co php4
+# Cela va créer un nouveau répertoire 'php4'
+cd php4
+cvs -z3 -d :pserver:cvsread@cvs.zend.com:/repository login
+Password: # Entrez 'zend' comme mot de passe ici
+cvs -z3 -d :pserver:cvsread@cvs.zend.com:/repository co Zend TSRM
+# Cela va créer deux nouveaux répertoire dans 'php4', 'Zend' et 'TSRM'
+./buildconf
+```
 
 Voilà. Lancer buildconf devrait créer le script configure standard qui peut être utilisé pour définir vos paramètres pour PHP. Pour une installation normale, PEAR devrait être automatiquement installé dans /usr/local/lib/php, mais vous pouvez installer les fichiers manuellement en allant dans 'php4/pear' et en lançant make install-su en tant que superuser. 
 
