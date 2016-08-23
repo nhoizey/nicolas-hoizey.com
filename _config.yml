@@ -99,6 +99,7 @@ cloudinary:
     onehalf:
       min_width: 180
       max_width: 800
+      fallback_max_width: 400
       steps: 5
       sizes: '(min-width: 50rem) 25rem, 45vw'
       figure: always
@@ -107,6 +108,7 @@ cloudinary:
     onethird:
       min_width: 120
       max_width: 560
+      fallback_max_width: 300
       steps: 5
       sizes: '(min-width: 50rem) 17rem, 30vw'
       figure: always
@@ -115,6 +117,7 @@ cloudinary:
     onefourth:
       min_width: 100
       max_width: 400
+      fallback_max_width: 200
       steps: 5
       sizes: '(min-width: 50rem) 13rem, 23vw'
       figure: always
@@ -123,6 +126,7 @@ cloudinary:
     logo:
       min_width: 100
       max_width: 400
+      fallback_max_width: 200
       steps: 3
       sizes: '(min-width: 50rem) 13rem, (min-width: 40rem) 25vw, 45vw'
       figure: never
