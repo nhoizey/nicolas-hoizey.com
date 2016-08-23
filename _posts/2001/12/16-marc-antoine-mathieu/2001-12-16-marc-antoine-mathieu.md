@@ -1,10 +1,10 @@
---- 
-title:      "Marc-Antoine Mathieu" 
-lang:       fr 
+---
+title:      "Marc-Antoine Mathieu"
+lang:       fr
 tags:       [bande dessinée]
 ---
 
-{% cloudinary onethird art84-1.jpg class="right" %}
+{% cloudinary onethird art84-1.jpg %}
 Marc-Antoine Mathieu est né en 1959 à Anthony. Il a étudié à l'Ecole des Beaux Arts d'Angers avant de créer, toujours à Angers, l'agence de graphistes-scénographes [Lucie Lom](http://www.lucie-lom.fr/) spécialisée dans la création d'expositions.
 
 En 1987, il débute sa carrière BD avec *Paris-Mâcon*, avec son frère Jean-Luc, édité par Futuropolis.
@@ -32,7 +32,7 @@ Il publie ensuite fin 2001 son dernier titre à ce jour, *Le Dessin*, dont vous 
 
 {% cloudinary doc-76.png caption="Le Dessin" %}
 
-Parmis ses autres oeuvres, on trouve à l'Association : 
+Parmis ses autres oeuvres, on trouve à l'Association :
 
 - La Mutation
 - Le Coeur des ombres

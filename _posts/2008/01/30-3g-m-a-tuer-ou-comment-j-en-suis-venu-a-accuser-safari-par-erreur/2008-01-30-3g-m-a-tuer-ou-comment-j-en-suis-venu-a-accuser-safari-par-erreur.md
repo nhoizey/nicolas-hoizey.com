@@ -1,6 +1,6 @@
---- 
-title:      3G m'a tuer, ou comment j'en suis venu à accuser Safari par erreur 
-lang:       fr 
+---
+title:      3G m'a tuer, ou comment j'en suis venu à accuser Safari par erreur
+lang:       fr
 tags:       [Safari, couleur, image, SFR, 3G]
 ---
 

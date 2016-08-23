@@ -1,12 +1,12 @@
---- 
-title:      "Noos y voilà ..." 
+---
+title:      "Noos y voilà ..."
 lang:       fr
 tags:       [fail, marketing]
 ---
 
 Noos lâche enfin un peu de lest sur ses forfaits NoosNet permettant l'accès plus ou moins illimité à Internet par le câble.
 
-{% cloudinary onethird logo-noos.gif class="right" %}
+{% cloudinary onethird logo-noos.gif %}
 Au premier abord, c'est alléchant, avec l'offre NoosNet Rapido, qui remplace l'offre NoosNet actuelle, avec un traffic maintenant illimité et à 512 kbit/s.
 
 Mais bien entendu, seuls les nouveaux clients en profiteront, les 90000 anciens devant se contenter d'un passage progressif à ce nouveau mode de fonctionnement.

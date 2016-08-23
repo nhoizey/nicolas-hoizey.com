@@ -1,12 +1,12 @@
---- 
-title:      Les carrousels en 3D sont à la mode 
-lang:       fr 
+---
+title:      Les carrousels en 3D sont à la mode
+lang:       fr
 tags:       [ergonomie, jQuery, JavaScript]
 ---
 
 J'ai vu apparaître ces derniers jours des carrousels en 3D sur les pages des sites de vente en ligne [Amazon](http://www.amazon.fr/) et [Alapage](http://www.alapage.com/), drôle de coïncidence !
 
-{% cloudinary onethird manege-carrousel.png class="right" %}
+{% cloudinary onethird manege-carrousel.png %}
 
 D'après [Wikipedia](http://fr.wikipedia.org/), un carrousel est -- [notamment](http://fr.wikipedia.org/wiki/Carrousel) -- « [une attraction de type manège consistant en une plateforme tournante avec des sièges pour des passagers](http://fr.wikipedia.org/wiki/Carrousel_%28loisir%29) », c'est à dire ni plus ni moins qu'un manège.
 

@@ -1,13 +1,13 @@
---- 
-title:      "Ce que veulent les femmes (What Women Want)" 
-lang:       fr 
+---
+title:      "Ce que veulent les femmes (What Women Want)"
+lang:       fr
 tags:       [cinéma, film]
 ---
 
 
 Mais qu'est-ce qu'elle pensent vraiment, les femmes, justement ?
 
-{% cloudinary onethird what-women-want-affiche.png class="right" %}
+{% cloudinary onethird what-women-want-affiche.png %}
 
 C'est vrai quoi, le film [What Women Want](http://www.whatwomenwantmovie.com/) a beau avoir été réalisé par une femme et écrit par un homme et deux femmes, comment être sûr que c'est bien là ce que pensent les femmes, que ce n'est pas un n-ième [délire](http://www.whatwomenwant.com/) de macho qui veut se donner bonne conscience ?
 

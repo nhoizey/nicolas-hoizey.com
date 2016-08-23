@@ -8,7 +8,7 @@ Vous le savez sans doute si vous me lisez régulièrement, sur ce blog ou via [m
 
 # Web UX le 26 mai 2011
 
-{% cloudinary onefourth web-ux.png class="right" %}
+{% cloudinary onefourth web-ux.png %}
 
 Voilà comment Web UX se présente :
 
@@ -31,7 +31,7 @@ Vous pouvez retrouver [cette conférence sur Lanyrd](http://lanyrd.com/2011/webu
 
 # Sud Web le 27 mai 2011
 
-{% cloudinary onefourth sud-web.png class="right" %}
+{% cloudinary onefourth sud-web.png %}
 
 Voilà comment [Sud Web](http://sudweb.fr/) se présente :
 

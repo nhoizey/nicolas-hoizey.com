@@ -1,12 +1,12 @@
---- 
-title:      "Comme un petit manque d'Air" 
-lang:       fr 
+---
+title:      "Comme un petit manque d'Air"
+lang:       fr
 tags:       [musique, concert]
 ---
 
 Vendredi 27 avril 2001, l'Elysée Montmartre. Avec un certain retard, sans première partie, Air (Nicolas Godin, Jean-Benoit Dunckel et leurs musiciens) arrive sur scène sous les applaudissements et cris de la foule qui commençait à trépigner d'impatience.
 
-{% cloudinary onehalf air.png class="right" %}
+{% cloudinary onehalf air.png %}
 Tout de suite, sans un mot, les lumières commencent à s'agiter et le son à monter sur les mélodies lancinantes bien connues, un zest appuyé de Pink Floyd jonglant avec les voix vocodées et surtout une basse étincelante qui est au centre de la scène et de la musique. Une basse tenue par un Jason Falkner qui nous offrira même un délire de géniale saturation comme on n'en entend habituellement que provenant d'une guitare.
 
 En bref, la musique est géniale, correspond à ce que chacun devait attendre.

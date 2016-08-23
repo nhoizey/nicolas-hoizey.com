@@ -1,10 +1,10 @@
---- 
-title:      "Futur Freenaute en quête de conseils..." 
-lang:       fr 
+---
+title:      "Futur Freenaute en quête de conseils..."
+lang:       fr
 tags:       [moi, télévision, WiFi, Free]
 ---
 
-{% cloudinary onethird freebox.png class="right" %}
+{% cloudinary onethird freebox.png %}
 
 La [TV](http://adsl.free.fr/tv/) arrivant enfin à [Rueil Malmaison](http://adsl.free.fr/degroup/92.html) sur la [Freebox](http://adsl.free.fr/) de [Free](http://free.fr/), je pense que je vais me lancer prochainement et quitter [Tiscali](/2005/02/tiscali-auto-explose-ses-quotas-de-mail.html)...
 

@@ -1,12 +1,12 @@
---- 
-title:      "Ghosts of Mars" 
-lang:       fr 
+---
+title:      "Ghosts of Mars"
+lang:       fr
 tags:       [cinéma, film]
 ---
 
 Fidèle à lui-même, John Carpenter nous régale avec une bonne série B bien trash.
 
-{% cloudinary onethird art83-1.jpg class="right" %}
+{% cloudinary onethird art83-1.jpg %}
 
 L'action se déroule en 2176 sur Mars qui est terraformée et devenue une colonie minière, et plus particulièrement dans la ville de Shining Canyon. L'héroïne Melanie Ballard (Natasha "La Mutante" Henstridge, qui a remplacé en dernière minute Courtney Love blessée) fait partie d'une équipe de flics qui doit ramener à Chryse, la capitale, le célèbre et dangereux criminel James "Desolation" Williams (Ice Cube).
 
@@ -24,7 +24,7 @@ Vous l'aurez deviné, cela ressemble une fois de plus à un western, avec une vi
 
 Et comme toujours, c'est de la série B, un film de genre comme seul John Carpenter en fait encore, avec ses codes et principes, qui plaisent ou agacent.
 
-{% cloudinary onethird art83-4.jpg class="right" %}
+{% cloudinary onethird art83-4.jpg %}
 Je ne vois qu'une source possible d'inspiration pour le script de cette nouvelle série B (ou Z pour ceux qui n'aiment pas) servie par John Carpenter. Il a dû être trainé de force à un concert de [Marilyn Manson](http://www.marilynmanson.net/), et faire par la suite des cauchemards qu'il a voulu exorciser dans ce film.
 
 Décidemment très impliqué à tous les niveaux dans ses oeuvres, John Carpenter signe la musique du film, percutante et d'influence très métal.

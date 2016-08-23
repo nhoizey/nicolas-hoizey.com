@@ -1,24 +1,20 @@
---- 
-title:      "Open XML Translator : Clever Age réalise pour Microsoft Corp. un plugin permettant à Word 2007 d'utiliser le format OpenDocument (ODF) d'OpenOffice " 
-lang:       fr 
+---
+title:      "Open XML Translator : Clever Age réalise pour Microsoft Corp. un plugin permettant à Word 2007 d'utiliser le format OpenDocument (ODF) d'OpenOffice "
+lang:       fr
 tags:       [standards, développement, Clever Age, Microsoft, licence, logiciel libre, informatique]
 ---
 
-L'annonce est enfin officielle[^1], Microsoft Corp. sponsorise [Clever Age](http://www.clever-age.com/) qui conçoit et développe un plugin pour Word 2007 qui permettra d'exploiter dans celui-ci le format standard OpenDocument.
+L'annonce est enfin officielle[^c1], Microsoft Corp. sponsorise [Clever Age](http://www.clever-age.com/) qui conçoit et développe un plugin pour Word 2007 qui permettra d'exploiter dans celui-ci le format standard OpenDocument.
 
-
-[^1]:  [Microsoft Expands Document Interoperability](http://www.microsoft.com/presspass/press/2006/jul06/07-06OpenSourceProjectPR.mspx) 
+[^c1]:  [Microsoft Expands Document Interoperability](http://www.microsoft.com/presspass/press/2006/jul06/07-06OpenSourceProjectPR.mspx)
 
 Le projet est publié sous licence libre BSD et hébergé sur SourceForge sous le nom [ODF Add-in for Word 2007](http://sourceforge.net/projects/odf-converter). La première version vient d'être mise en ligne, où elle est téléchargeable gratuitement[^1].
 
 Voilà la citation de Frédéric Bon extraite du communiqué officiel de Microsoft :
 
-> 
 > “OpenXML represents a paradigm shift not only in its architecture but also in the customer needs it serves, opening organizations' existing documents to take advantage of new content management and collaboration scenarios that weren't possible even as recently as a few years ago ,” said Frédéric Bon, CEO of Clever Age. “Through the documentation Ecma International is creating and work such as the Open XML Translator project, customers will soon have the confidence that Open XML and ODF formats can coexist and new document scenarios will flourish. We are looking forward to working with the community of developers and businesses interested in XML documents.”
-> 
 
 Les réactions -- et leurs armées de trolls associées -- ne se sont pas fait attendre, ce qui est plutôt logique étant donné la sensibilité du sujet. Voilà quelques liens pour suivre les débats et nourrir les trolls[^2] :
-
 
 - En français :
     - [Clubic](http://www.clubic.com/actualite-36315-microsoft-etend-l-interoperabilite-entre-documents.html)
@@ -39,7 +35,7 @@ Les réactions -- et leurs armées de trolls associées -- ne se sont pas fait a
     - [The Register](http://www.theregister.co.uk/2006/07/06/microsoft_odf_interoperability/)
     - [Slashdot](http://it.slashdot.org/it/06/07/06/139243.shtml)
     - [Groklaw](http://www.groklaw.net/article.php?story=20060706064747376)
-    - [Jupiter Research's Microsoft Monitor](http://www.microsoftmonitor.com/archives/016375.html) : « Microsoft has previously made overtures to the open-source community, 
+    - [Jupiter Research's Microsoft Monitor](http://www.microsoftmonitor.com/archives/016375.html) : « Microsoft has previously made overtures to the open-source community,
 but this project goes further in many respects. »
     - [vnunet.com : Microsoft flip-flops on ODF support](http://www.vnunet.com/vnunet/news/2159846/microsoft-flip-flops-odf)
     - [United Press International : Microsoft backs cross-platform initiative](http://www.upi.com/Hi-Tech/view.php?StoryID=20060706-010521-9677r)

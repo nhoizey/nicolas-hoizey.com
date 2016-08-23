@@ -18,7 +18,7 @@ Avec un site statique, il existe trois possibilités :
 
 # Un moteur de recherche côté serveur
 
-{% cloudinary onefourth /assets/logos/apache-solr.png alt="Le logo de Apache Solr" class="right" %}
+{% cloudinary onefourth /assets/logos/apache-solr.png alt="Le logo de Apache Solr" %}
 Ce n'est pas parce que le site est statique qu'il est impossible de déployer une solution dynamique côté serveur, telle que [Solr](http://lucene.apache.org/solr/), « à côté » des pages.
 
 Sauf que cela réduit fortement la portabilité du site, gagnée grâce à la nature statique, et complexifie l'hébergement en nécessitant une plateforme plus technique.
@@ -47,7 +47,7 @@ De plus, l'indexation est plein texte, sans vraiment de paramétrage possible, c
 
 ## Algolia
 
-{% cloudinary onefourth /assets/logos/algolia.png alt="Le logo de Algolia" class="right" %}
+{% cloudinary onefourth /assets/logos/algolia.png alt="Le logo de Algolia" %}
 C'est alors que j'ai entendu parler[^vvo] d'[Algolia](https://www.algolia.com/), un moteur de recherche en mode SaaS intégralement pilotable par une [API REST](https://www.algolia.com/doc/rest_api) extrêmement riche, et pour laquelle de [très nombreux clients](https://www.algolia.com/doc/apiclients) et [intégrations](https://www.algolia.com/doc/integrations) sont déjà proposés de base.
 
 [^vvo]: Merci [Vincent](https://twitter.com/zeroload), qui y travaille depuis quelque temps et a notamment participé à la [refonte de l'excellente bibliothèque cliente en JavaScript](https://blog.algolia.com/modern-javascript-libraries-the-isomorphic-way/).
