@@ -1,6 +1,7 @@
 ---
 layout: page
 title: À propos du site
+lang: fr
 ---
 
 **Ce site est statique**, c'est à dire que les pages et leurs contenus venant du même domaine sont envoyées tel quel par le serveur, sans aucune création à la volée[^perf].

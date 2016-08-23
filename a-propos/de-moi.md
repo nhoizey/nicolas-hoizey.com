@@ -1,6 +1,7 @@
 ---
 title:  Je m'appelle Nicolas Hoizey
 layout: page
+lang: fr
 ---
 
 <figure class="onefourth right">

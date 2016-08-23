@@ -40,6 +40,7 @@ defaults:
       type: posts
     values:
       layout: post
+      lang: fr
 
 # Tags
 tag_page_layout: tag
