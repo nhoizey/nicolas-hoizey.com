@@ -1,0 +1,44 @@
+---
+layout: microtypo
+---
+{% capture source %}
+  {% comment %}https://github.com/borisschapira/borisschapira.com/blob/master/_layouts/microtypo.html{% endcomment %}
+  {% assign temp1 = content | split: '<pre' %}
+  {% for temp2 in temp1 %}
+    {% assign temp3 = temp2 | split: '</pre>' %}
+    {% if temp3.size == 2 %}
+      <pre{{ temp3.first | newline_to_br }}</pre>
+    {% endif %}
+    {% assign t = temp3.last %}
+    {% if page.lang == 'fr' %}
+      {% assign t = t | replace_regex: '(\d)(e|è)(r|me)?([\s.,])', '\1<sup>\2\3</sup>\4' %}
+
+      {% assign t = t | replace: '&ldquo;' , '«&#8239;' %}
+      {% assign t = t | replace: '&rdquo;' , '&#8239;»' %}
+      {% assign t = t | replace: '“' , '«&#8239;' %}
+      {% assign t = t | replace: '”' , '&#8239;»' %}
+
+      {% assign t = t | replace: ' ?!([^\w])' , '&#8239;&#8264;\1' %}
+      {% assign t = t | replace: ' !?([^\w])' , '&#8239;&#8265;\1' %}
+      {% assign t = t | replace: ' !!!([^\w])' , '&#8239;&#8252;\1' %}
+      {% assign t = t | replace: ' !!([^\w])' , '&#8239;&#8252;\1' %}
+
+      {% assign t = t | replace: ' :',       '&nbsp;:' %}
+      {% assign t = t | replace_regex: ' (%|;|\!|\?)([^\w!])', '&#8239;\1\2' %}
+      {% assign t = t | replace_regex: '(\s)+(\d+)(\s)?(px|%)(\s|.)', '\1\2&#8239;\4\5' %}
+
+    {% elsif page.lang == 'en' %}
+      {% assign t = t | replace: ' :', ':' %}
+      {% assign t = t | replace: ' %', '%' %}
+      {% assign t = t | replace: ' ;', ';' %}
+      {% assign t = t | replace: ' !', '!' %}
+      {% assign t = t | replace: ' ?', '?' %}
+    {% endif %}
+    {% assign t = t | replace_regex: '(—|&mdash;)(\s)', '\1&nbsp;' %}
+    {% assign t = t | replace: '...' , '&#8230;' %}
+    {% assign t = t | replace_regex: '(\s)+(\d+)(\s)?x(\s)?(?=\d)', '\1\2\3&times;\3' %}
+    {% assign t = t | replace_regex: '(\d+)\s*(€|$)', '\1&nbsp;\2' %}
+    {% assign t = t | replace_regex: '(€|$)\s*(\d+)', '\1&nbsp;\2' %}
+    {{ t }}
+  {% endfor %}
+{% endcapture %}{{ source | replace_regex: '\n\s*\n', '' }}
