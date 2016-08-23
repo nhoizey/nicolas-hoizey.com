@@ -109,7 +109,7 @@ cloudinary:
       sizes: '(min-width: 50rem) 17rem, 30vw'
       figure: always
       attributes:
-        class: onethird
+        class: onethird right
     onefourth:
       min_width: 100
       max_width: 400
@@ -117,7 +117,7 @@ cloudinary:
       sizes: '(min-width: 50rem) 13rem, 23vw'
       figure: always
       attributes:
-        class: onefourth
+        class: onefourth right
     logo:
       min_width: 100
       max_width: 400
