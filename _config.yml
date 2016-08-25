@@ -4,6 +4,7 @@ gems:
   - algoliasearch-jekyll
   - jekyll-postfiles
   - jekyll-cloudinary
+  - jekyll-microtypo
 
 # Site settings
 title: Nicolas Hoizey
