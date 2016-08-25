@@ -55,6 +55,8 @@ GEM
     jekyll-cloudinary (1.5.2)
       jekyll (>= 3.0, < 4.0)
       rmagick (>= 2.0, < 3.0)
+    jekyll-microtypo (0.0.4)
+      jekyll (>= 3.0, < 4.0)
     jekyll-paginate (1.1.0)
     jekyll-postfiles (2.0.0)
     jekyll-sass-converter (1.4.0)
@@ -113,6 +115,7 @@ DEPENDENCIES
   jekyll-archives
   jekyll-assets
   jekyll-cloudinary
+  jekyll-microtypo
   jekyll-paginate
   jekyll-postfiles
   jekyll-tagging

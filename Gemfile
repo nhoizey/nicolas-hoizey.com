@@ -15,4 +15,5 @@ group :jekyll_plugins do
   gem 'jekyll-postfiles'
   gem 'jekyll-cloudinary'
   gem 'jekyll-archives'
+  gem 'jekyll-microtypo'
 end
