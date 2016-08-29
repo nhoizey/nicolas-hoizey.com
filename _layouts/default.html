@@ -2,11 +2,11 @@
 layout: microtypo
 ---
 <!DOCTYPE html>
-<html lang="fr" class="{{ page.type }}{% if page.path contains "_posts" %} post{% endif %}">
+<html lang="fr" {% if page.path contains "_posts" %} class="post"{% endif %}>
 
 {% include head.html %}
 
-{% if page.path contains "a-propos.md" %}
+{% if page.path contains "a-propos/" %}
 <body itemscope itemtype="http://schema.org/AboutPage">
 {% else %}
 <body itemscope itemtype="http://schema.org/WebPage">
