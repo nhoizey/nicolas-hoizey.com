@@ -1,5 +1,9 @@
-{% if page.lang == 'en' %}
-  {{ content | microtypo: 'en_US' }}
+{% if page.microtypo != false %}
+  {% if page.lang == 'en' %}
+    {{ content | microtypo: 'en_US' }}
+  {% else %}
+    {{ content | microtypo: 'fr_FR' }}
+  {% endif %}
 {% else %}
-  {{ content | microtypo: 'fr_FR' }}
+  {{ content }}
 {% endif %}
