@@ -55,7 +55,7 @@ GEM
     jekyll-cloudinary (1.5.2)
       jekyll (>= 3.0, < 4.0)
       rmagick (>= 2.0, < 3.0)
-    jekyll-microtypo (0.0.4)
+    jekyll-microtypo (0.0.5)
       jekyll (>= 3.0, < 4.0)
     jekyll-paginate (1.1.0)
     jekyll-postfiles (2.0.0)
