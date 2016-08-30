@@ -1,11 +1,3 @@
-gems:
-  - jekyll-assets
-  - jekyll-paginate
-  - algoliasearch-jekyll
-  - jekyll-postfiles
-  - jekyll-cloudinary
-  - jekyll-microtypo
-
 # Site settings
 title: Nicolas Hoizey
 email: nicolas@hoizey.com
