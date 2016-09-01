@@ -218,6 +218,10 @@ a, button, input, select, textarea, label, summary {
 
   color: $color-header-text;
 
+  h1 {
+    margin-bottom: 0;
+  }
+
   a {
     color: $color-header-link;
     text-decoration: none;
