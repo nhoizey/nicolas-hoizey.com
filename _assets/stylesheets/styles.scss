@@ -375,20 +375,16 @@ a.icon {
 #networks {
   margin-top: 2em;
   font-size: 1.5em;
+  text-align: center;
 
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  span {
+    white-space: nowrap;
   }
 
-  li {
-    padding: .5em;
-    padding: 3vw;
+  a {
+    display: inline-block;
+    padding: .3em;
+    padding: 2vw;
   }
 }
 
