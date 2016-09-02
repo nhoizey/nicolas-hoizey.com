@@ -1,7 +1,7 @@
---- 
-title:      "Britney Spears en duo avec Daft Punk" 
-lang:       fr 
-tags:       [fail, musique, Daft Punk, Britney Spears]
+---
+title:      "Britney Spears en duo avec Daft Punk"
+lang:       fr
+tags:       [fail, musique, Daft Punk]
 ---
 
 En tout cas, c'est ce que permettait de découvrir Amazon.fr il y a quelque temps...

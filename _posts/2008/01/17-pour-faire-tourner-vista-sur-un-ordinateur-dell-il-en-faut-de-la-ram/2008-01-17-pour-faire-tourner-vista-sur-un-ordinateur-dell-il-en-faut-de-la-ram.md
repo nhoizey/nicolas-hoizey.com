@@ -1,7 +1,7 @@
---- 
-title:      Pour faire tourner Vista sur un ordinateur Dell, il en faut de la RAM ! 
-lang:       fr 
-tags:       [Microsoft, Windows, Dell, Vista, fail]
+---
+title:      Pour faire tourner Vista sur un ordinateur Dell, il en faut de la RAM !
+lang:       fr
+tags:       [Microsoft, Windows, fail]
 ---
 
 Vu sur la [boutique en ligne de Dell](http://www1.euro.dell.com/content/default.aspx?c=fr&cs=frdhs1&l=fr&s=dhs&~ck=bt), cette information vraiment pertinente à propos de la mémoire RAM nécessaire pour faire tourner le système d'exploitation Windows Vista de Microsoft.

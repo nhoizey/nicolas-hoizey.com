@@ -1,7 +1,7 @@
---- 
-title:      "Clever Age change de look et profite largement des nouveautés de SPIP" 
-lang:       fr 
-tags:       [SPIP, Clever Age, Ajax, Web 2.0]
+---
+title:      "Clever Age change de look et profite largement des nouveautés de SPIP"
+lang:       fr
+tags:       [SPIP, Clever Age]
 ---
 
 Pour fêter dignement ses 5 ans[^1], [Clever Age](http://www.clever-age.com/) change complètement le design de son site web...

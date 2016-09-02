@@ -1,7 +1,7 @@
---- 
-title:      Le combat entre Blu-Ray et HD-DVD se jouera sur les contenus 
-lang:       fr 
-tags:       [cinéma, HD, Blu-Ray, HD-DVD]
+---
+title:      Le combat entre Blu-Ray et HD-DVD se jouera sur les contenus
+lang:       fr
+tags:       [cinéma, HD]
 ---
 
 Alors que le prix du matériel commence à devenir raisonnable -- des lecteurs HD-DVD à 299 euros et des lecteurs Blu-Ray à 499 euros arrivent prochainement -- et que les éditeurs de disques semblent enfin maîtriser le développement en Java[^1] d'éléments interactifs sur les Blu-Ray, les annonces de ces derniers jours au niveau des contenus pourraient contrebalancer la [légère avance prise ces derniers mois par le Blu-Ray](/2007/07/sony-renforce-le-marketing-de-son-format-dvd-hd-blu-ray.html).

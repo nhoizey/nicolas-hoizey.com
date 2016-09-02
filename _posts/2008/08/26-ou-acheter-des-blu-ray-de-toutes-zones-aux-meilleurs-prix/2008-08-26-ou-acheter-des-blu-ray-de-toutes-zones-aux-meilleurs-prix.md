@@ -1,7 +1,7 @@
---- 
-title:      Où acheter des Blu-Ray de toutes zones aux meilleurs prix ? 
-lang:       fr 
-tags:       [Blu-Ray, e-commerce]
+---
+title:      Où acheter des Blu-Ray de toutes zones aux meilleurs prix ?
+lang:       fr
+tags:       [HD, e-commerce]
 ---
 
 Comme précédemment avec les DVD, [les Blu-Ray souffrent d'un zonage](http://dico.developpez.com/html/3063-Economie-Zone-Blu-ray.php) -- pas le même que [celui des DVD](http://fr.wikipedia.org/wiki/DVD#Protections_commerciales_par_zones), ce serait trop simple -- permettant de protéger les distributeurs commercialement en forçant le respect des dates officielles de sortie vidéo des films selon les pays[^1]. Sauf que c'est une mesure technique inefficace de plus[^2], le dézonage de platines se faisant à visage découvert depuis toujours, même dans les enseignes respectables. Du coup, il y a moyen de trouver à l'étranger des films récents pas encore sortis en France, ou d'anciens films pour moins cher, surtout avec les taux monétaires actuels.

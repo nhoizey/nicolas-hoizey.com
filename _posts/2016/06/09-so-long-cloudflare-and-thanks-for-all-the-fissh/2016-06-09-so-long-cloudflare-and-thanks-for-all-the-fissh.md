@@ -1,7 +1,7 @@
 ---
 title: So long CloudFlare, and thanks for all the fissh
 lang:  fr
-tags:  [HTTPS, AlwaysData, CloudFlare, Let's Encrypt]
+tags:  [HTTPS, AlwaysData]
 ---
 
 Souhaitant me mettre aux [Service Workers](https://developer.mozilla.org/fr/docs/Web/API/Service_Worker_API/Using_Service_Workers), notamment pour remplacer [appcache](https://developer.mozilla.org/fr/docs/Utiliser_Application_Cache) pour le support *offline* de mon jeu [esviji](https://esviji.com/), j'avais besoin de passer en HTTPS. [Let's Encrypt](https://letsencrypt.org/) étant à l'époque toujours en *beta*, et les tutoriels de mise en œuvre pas légion et peu compréhensibles, j'avais choisi la solution de facilité avec [CloudFlare](https://www.cloudflare.com/), que je quitte aujourd'hui pour mes propres certificats Let's Encrypt sur mon hébergement mutualisé [AlwaysData](https://www.alwaysdata.com/fr/).

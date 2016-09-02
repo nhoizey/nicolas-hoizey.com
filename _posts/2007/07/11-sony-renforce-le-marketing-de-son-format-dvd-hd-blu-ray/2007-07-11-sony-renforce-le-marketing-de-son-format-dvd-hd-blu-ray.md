@@ -1,7 +1,7 @@
 ---
 title:      Sony renforce le marketing de son format DVD HD Blu-Ray
 lang:       fr
-tags:       [publicité, vidéo, HD, Sony, Blu-Ray]
+tags:       [publicité, vidéo, HD]
 ---
 
 Alors que la [bataille entre les formats de DVD HD Blu-Ray et HD-DVD](http://www.marketing-planet.com/articles/dvd-marketing-war-sonyaeurotms-blu-ray-against-toshibaaeurotms-hd-dvd-91.html) est loin d'être terminée[^1], Sony lance une nouvelle campagne publicitaire en ligne, avec une pub de toute beauté, que j'ai hâte de voir en image et son HD.

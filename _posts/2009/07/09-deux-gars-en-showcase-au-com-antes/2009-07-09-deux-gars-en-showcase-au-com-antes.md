@@ -1,7 +1,7 @@
 ---
 title:      Deux Gars en showcase au Com'Antes
 lang:       fr
-tags:       [concert, vidéo, Deux Gars]
+tags:       [musique, vidéo]
 ---
 
 J'ai enfin pu assister hier soir à mon premier concert des [Deux Gars](http://www.deuxgars.fr/) -- le duo formé par [Rémi « Remouk » Cieplicki](http://shiii.org/) et [Baptiste « Bap* » Charden](http://anecdotik.tumblr.com/) -- à l'occasion du [*showcase*](http://www.deuxgars.fr/2009/06/19/8-juillet-2009-20h-la-soiree-evenement/) au [Com'Antes](http://www.comantes.com) pour la sortie tant attendue de leur premier album intitulé « [Je suis deux](http://www.deuxgars.fr/lalbum-je-suis-deux/)[^1] ».

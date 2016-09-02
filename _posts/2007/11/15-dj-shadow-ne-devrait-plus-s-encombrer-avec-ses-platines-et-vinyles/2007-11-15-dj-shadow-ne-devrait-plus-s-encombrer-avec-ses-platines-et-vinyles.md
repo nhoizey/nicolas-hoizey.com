@@ -1,7 +1,7 @@
 ---
 title:      DJ Shadow ne devrait plus s'encombrer avec ses platines et vinyles
 lang:       fr
-tags:       [musique, vidéo, DJ Shadow, abstract hip-hop, turntablism, YouTube]
+tags:       [musique, vidéo]
 ---
 
 Si vous ne connaissez pas [DJ Shadow](http://www.djshadow.com/), sans aucun doute l'un des meilleurs représentants de l'[abstract hip-hop](http://fr.wikipedia.org/wiki/Abstract_hip-hop) et du [*turntablism*](http://fr.wikipedia.org/wiki/Turntablism), allez vite voir [la page DJ Shadow de Wikipedia](http://fr.wikipedia.org/wiki/DJ_Shadow) et écoutez son génial premier album, [Endtroducing...](http://www.amazon.fr/dp/B0000247JJ/phpheaven-21)!

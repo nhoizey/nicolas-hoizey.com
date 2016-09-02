@@ -1,7 +1,7 @@
---- 
-title:      "Trop c'est trop !" 
-lang:       fr 
-tags:       [fail, publicité, presse, IBM]
+---
+title:      "Trop c'est trop !"
+lang:       fr
+tags:       [fail, publicité]
 ---
 
 Quand la pub empêche de voir le contenu, ça devient pénible, très pénible.

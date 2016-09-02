@@ -1,7 +1,7 @@
---- 
-title:      "En attendant Windows Vista, la version 3.0 du framework .NET donne plus de visibilité à WinFX" 
-lang:       fr 
-tags:       [Clever Age, Microsoft, Ajax, RSS, Windows, .NET]
+---
+title:      "En attendant Windows Vista, la version 3.0 du framework .NET donne plus de visibilité à WinFX"
+lang:       fr
+tags:       [Microsoft, Windows]
 ---
 
 *Article initialement publié dans [le weblog de Clever Age](http://www.clever-age.com/veille/weblog/attendant-windows-vista-version-3-dot-0-du-framework-dot-net-donne-plus-visibilite-winfx-512.html).*
@@ -38,7 +38,7 @@ En gros, si vous arrivez à suivre les vraies évolutions techniques de la plate
 Il reste que ces nouveaux composants sont réellement intéressants, et Microsoft a pris la bonne habitude de proposer au téléchargement des pré versions, donc il n'y a plus qu'à se lancer ![^7]
 
 
-[^1]: Voir le compte rendu de [Frédéric Marty](http://www.damienanfroy.net/index.php?2006/05/02/40-compte-rendu-du-mix06-paris) , et si vous avez le temps [les webcast mis à disposition par Microsoft](http://www.microsoft.com/france/msdn/mix/webcast.mspx) 
+[^1]: Voir le compte rendu de [Frédéric Marty](http://www.damienanfroy.net/index.php?2006/05/02/40-compte-rendu-du-mix06-paris) , et si vous avez le temps [les webcast mis à disposition par Microsoft](http://www.microsoft.com/france/msdn/mix/webcast.mspx)
 
 [^2]: Dédicace spéciale à Michel Meyer (fondateur de The (Virtual) Baguette et Multimania) et Pierre Chappaz (fondateur de Kelkoo) qui sont plus venus faire leur propre promo qu'autre chose
 
@@ -46,7 +46,7 @@ Il reste que ces nouveaux composants sont réellement intéressants, et Microsof
 
 [^4]: Tentative pas très réussie, mais il faut avouer qu'il est difficile de montrer ce genre de chose, surtout à un public constitué à 60% de non techniciens
 
-[^5]: Voir cette épatante présentation [Identity 2.0](http://www.identity20.com/media/OSCON2005/) 
+[^5]: Voir cette épatante présentation [Identity 2.0](http://www.identity20.com/media/OSCON2005/)
 
 [^6]: Qui intègre la gestion des flux Atom malgré son nom...
 

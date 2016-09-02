@@ -1,7 +1,7 @@
---- 
-title:      C'est officiel, le HD-DVD est mort, vive le Blu-Ray ! 
-lang:       fr 
-tags:       [HD, Sony, Blu-Ray, HD-DVD, Toshiba]
+---
+title:      C'est officiel, le HD-DVD est mort, vive le Blu-Ray !
+lang:       fr
+tags:       [HD]
 ---
 
 Alors que certains prédisaient que la [guerre entre les formats vidéo haute définition HD-DVD et Blu-Ray](http://www.marketing-planet.com/articles/dvd-marketing-war-sonyaeur-tm-s-blu-ray-against-toshibaaeur-tm-s-hd-dvd-91.html) allait encore durer des années, les annonces qui se sont succédées depuis celle en janvier du [retrait de Warner](http://www.engadgethd.com/2008/01/04/warner-goes-blu-ray-exclusive/) aboutissent logiquement aujourd'hui à celle indiquant que [Toshiba arrête toute production liée au format HD-DVD](http://www.engadgethd.com/2008/02/19/official-hd-dvd-dead-and-buried-format-war-is-over/).
