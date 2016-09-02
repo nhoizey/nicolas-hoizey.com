@@ -5,7 +5,6 @@ gem 'rmagick'
 gem 'yt'
 
 group :jekyll_plugins do
-  gem 'jekyll-paginate'
   gem 'sprockets', '3.6.3'
   gem 'jekyll-assets'
   gem 'autoprefixer-rails'

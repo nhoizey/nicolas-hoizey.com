@@ -21,10 +21,6 @@ kramdown:
   footnote_backlink: "⬆︎"
   header_offset: 1
 
-# Pagination
-paginate: 5
-paginate_path: /page-:num/
-
 # Defaults
 defaults:
   -
