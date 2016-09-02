@@ -282,7 +282,7 @@ main {
 }
 
 .intro {
-  margin: 0 0 calc(1em + 10vh);
+  margin: 0 0 2em;
   font-size: 1.2em;
   color: $color-article-intro;
 }
@@ -300,8 +300,36 @@ main {
   }
 }
 
+.recent {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -2em 0 0 -2em;
+
+  article {
+    h2 {
+      font-size: calc(1em + 0.3vw + 0.3vh);
+      margin: 0;
+    }
+
+    flex: 0 0 100%;
+    padding: 2em 0 0 2em;
+
+    @media (min-width: 25em) {
+      flex: 0 0 50%;
+    }
+
+    @media (min-width: 50em) {
+      flex: 0 0 33.3333%;
+    }
+  }
+}
+
 article {
   margin: 0 0 calc(1em + 10vh);
+
+  .recent & {
+    margin: 0 0 2em;
+  }
 
   header {
     color: $color-article-header;
@@ -315,6 +343,10 @@ article {
       flex-direction: column;
       @media (min-width: 30em) {
         flex-direction: row;
+      }
+
+      .recent & {
+        flex-direction: column;
       }
 
       justify-content: space-between;
@@ -342,6 +374,9 @@ article {
       text-align: left;
       @media (min-width: 30em) {
         text-align: right;
+      }
+      .recent & {
+        text-align: left;
       }
     }
 
@@ -428,13 +463,12 @@ article {
 
 .logo {
   display: block;
-  margin: 1em auto;
-  max-width: 50%;
+  float: right;
+  margin: 0 0 1em 1em;
+  max-width: 33%;
   height: auto;
 
-  @media (min-width: 40em) {
+  @media (min-width: 30em) {
     max-width: 25%;
-    float: right;
-    margin: 0 0 1em 1em;
   }
 }
