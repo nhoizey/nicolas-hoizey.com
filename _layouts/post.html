@@ -3,6 +3,12 @@ layout: default
 ---
 
 <article class="main" {% if page.lang %}lang="{{ page.lang }}"{% endif %}>
+  <h1 id="post" itemscope itemtype="https://schema.org/breadcrumb" itemprop="child">
+    <a href="{{ site.url }}{{ page.url }}" itemprop="url">
+      <span itemprop="title">{{ page.title }}</span>
+    </a>
+  </h1>
+
   <header>
     <ul>
       <li class="date">
@@ -18,11 +24,6 @@ layout: default
     </ul>
   </header>
 
-  <h1 id="post" itemscope itemtype="https://schema.org/breadcrumb" itemprop="child">
-    <a href="{{ site.url }}{{ page.url }}" itemprop="url">
-      <span itemprop="title">{{ page.title }}</span>
-    </a>
-  </h1>
   {{ content }}
 
   {% if page.500px or page.flickr or page.facebook or page.instagram or page.deviantart %}

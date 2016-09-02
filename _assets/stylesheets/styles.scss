@@ -263,37 +263,48 @@ article {
   clear: both;
 }
 
-.year {
-  .annees {
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
+.annees {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
 
-    .avant {
-      order: 1;
-    }
+  .avant {
+    order: 1;
+  }
 
-    h1 {
-      order: 2;
-      flex: 1;
-      text-align: center;
+  h1 {
+    order: 2;
+    flex: 1;
+    text-align: center;
 
-      span {
-        display: none;
+    span {
+      display: none;
 
-        @media (min-width: 25em) {
-          display: inline;
-        }
+      @media (min-width: 25em) {
+        display: inline;
       }
-    }
-
-    .apres {
-      order: 3;
-      text-align: right;
     }
   }
 
-  h2:first-letter {
+  .apres {
+    order: 3;
+    text-align: right;
+  }
+}
+
+.archive-month {
+  text-decoration: none;
+
+  &:link, &:visited {
+    color: #000;
+  }
+
+  &:hover, &:active {
+    color: $color-link-hover;
+    text-decoration: underline;
+  }
+
+  &:first-letter {
     text-transform: capitalize;
   }
 }

@@ -6,7 +6,7 @@ layout: default
 {% assign max_year = site.time | date: "%Y" | plus: 0 %}
 <div class="annees">
   <p class="avant">
-    {% if this_year > 2002 %}
+    {% if this_year > 2001 %}
       <a href="/{{ this_year | minus: 1 }}/">«&nbsp;{{ this_year | minus: 1 }}</a>
     {% else %}
       <span title="Aucun contenu antérieur, désolé">«&nbsp;{{ this_year | minus: 1 }}</span>
@@ -27,10 +27,12 @@ layout: default
   {% for post in page.posts reversed %}
     {% assign post_month = post.date | date: "%m" %}
     {% if post_month != month %}
-      <h2><a href="/{{ page.date | date: "%Y" }}/{{ post.date | date: "%m" }}">{% include mois.html page=post %}</a></h2>
+      {% capture month_name %}{% include mois.html page=post %}{% endcapture %}
+      <h2><a href="/{{ page.date | date: "%Y" }}/{{ post.date | date: "%m" }}" class="archive-month">{{ month_name | capitalize }}</a></h2>
       {% assign month = post_month %}
     {% endif %}
     <article {% if post.lang %}lang="{{ post.lang }}"{% endif %}>
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       <header>
         <ul>
           <li class="date">
@@ -44,7 +46,6 @@ layout: default
           </li>
         </ul>
       </header>
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       {{ post.excerpt | markdownify | strip_footnotes }}
     </article>
   {% endfor %}

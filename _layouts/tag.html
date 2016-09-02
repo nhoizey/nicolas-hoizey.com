@@ -19,8 +19,8 @@ layout: default
 <div class="list">
   {% for post in page.posts %}
     <article {% if post.lang %}lang="{{ post.lang }}"{% endif %}>
-      {% include article-header.html page=post %}
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      {% include article-header.html page=post %}
       {{ post.excerpt | mardownify | strip_footnotes }}
     </article>
   {% endfor %}

@@ -300,17 +300,18 @@ main {
   }
 }
 
+.latest, .recent article {
+  ul {
+    flex-direction: column;
+  }
+}
+
 .recent {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 
   article {
-    h2 {
-      font-size: calc(1em + 0.2vw + 0.1vh);
-      margin: 0;
-    }
-
     flex: 0 0 100%;
 
     @media (min-width: 25em) {
@@ -320,63 +321,49 @@ main {
     @media (min-width: 50em) {
       flex: 0 0 31%;
     }
+
+    h2 {
+      font-size: calc(1em + 0.2vw + 0.1vh);
+      margin: 0;
+    }
   }
 }
 
 article {
-  margin: 0 0 calc(1em + 10vh);
+  margin: 0 0 calc(3em + 3vh);
 
-  .recent & {
-    margin: 0 0 2em;
+  &::after {
+    // http://nicolasgallagher.com/micro-clearfix-hack/
+    content: " ";
+    display: table;
+    clear: both;
   }
 
   header {
     color: $color-article-header;
+    font-size: .9em;
 
     ul {
       list-style-type: none;
       margin: 1vh 0;
       padding: 0;
-      display: flex;
-
-      flex-direction: column;
-      @media (min-width: 30em) {
-        flex-direction: row;
-      }
-
-      .recent & {
-        flex-direction: column;
-      }
-
-      justify-content: space-between;
     }
-    font-size: .9em;
 
     svg {
+      fill: lighten($color-article-header, 20%);
+      vertical-align: middle;
+
       width: 1.1em;
       height: 1.1em;
       @media (min-width: 30em) {
         width: 1.3em;
         height: 1.3em;
       }
-
-      fill: lighten($color-article-header, 20%);
-      vertical-align: middle;
     }
 
     .date {
       white-space: nowrap;
       flex-shrink: 0;
-    }
-
-    .tags {
-      text-align: left;
-      @media (min-width: 30em) {
-        text-align: right;
-      }
-      .recent & {
-        text-align: left;
-      }
     }
 
     a {
@@ -469,5 +456,9 @@ article {
 
   @media (min-width: 30em) {
     max-width: 25%;
+  }
+
+  article p:first-of-type & {
+    margin-top: -3em;
   }
 }
