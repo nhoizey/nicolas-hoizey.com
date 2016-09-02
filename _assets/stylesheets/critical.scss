@@ -303,23 +303,22 @@ main {
 .recent {
   display: flex;
   flex-wrap: wrap;
-  margin: -2em 0 0 -2em;
+  justify-content: space-between;
 
   article {
     h2 {
-      font-size: calc(1em + 0.3vw + 0.3vh);
+      font-size: calc(1em + 0.2vw + 0.1vh);
       margin: 0;
     }
 
     flex: 0 0 100%;
-    padding: 2em 0 0 2em;
 
     @media (min-width: 25em) {
-      flex: 0 0 50%;
+      flex: 0 0 48%;
     }
 
     @media (min-width: 50em) {
-      flex: 0 0 33.3333%;
+      flex: 0 0 31%;
     }
   }
 }
