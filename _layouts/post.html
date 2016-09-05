@@ -54,19 +54,21 @@ layout: default
   <p class="edit">Si vous voulez signaler une erreur ou proposer une modification de ce texte, n'hésitez pas à l'éditer directement à <a href="https://github.com/nhoizey/nicolas-hoizey.com/tree/master/{{ page.path }}">la source sur Github</a>.</p>
 
   <div id="disqus_thread"></div>
-  <script>
-  var disqus_config = function () {
-      this.page.url = '{{ site.url }}{{ page.url }}';
-      this.page.identifier = '{{ site.url }}{{ page.url }}';
-  };
-  (function() {
-      var d = document, s = d.createElement('script');
-      s.src = 'https://nicolas-hoizey.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-  })();
-  </script>
-  <noscript>Veuillez activer JavaScript pour voir <a href="https://disqus.com/?ref_noscript" rel="nofollow">les commentaires Disqus.</a></noscript>
+  {% if jekyll.environment == "production" %}
+    <script>
+    var disqus_config = function () {
+        this.page.url = '{{ site.url }}{{ page.url }}';
+        this.page.identifier = '{{ site.url }}{{ page.url }}';
+    };
+    (function() {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://nicolas-hoizey.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Veuillez activer JavaScript pour voir <a href="https://disqus.com/?ref_noscript" rel="nofollow">les commentaires Disqus.</a></noscript>
+  {% endif %}
 </article>
 
 <aside>
