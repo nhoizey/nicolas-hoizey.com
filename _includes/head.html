@@ -105,21 +105,23 @@
   {% comment %} Theme color : https://developers.google.com/web/updates/2014/11/Support-for-theme-color-in-Chrome-39-for-Android {% endcomment %}
   <meta name="theme-color" content="#55aaee">
 
-  {% comment %} Hacked isogram with http://isogrammer.com/ {% endcomment %}
-  <script>
-  (function(n,h,o,i,z,e,y){n['GoogleAnalyticsObject']=z;n[z]=n[z]||function(){
-  (n[z].q=n[z].q||[]).push(arguments)},n[z].l=1*new Date();e=h.createElement(o),
-  y=h.getElementsByTagName(o)[0];e.async=1;e.src=i;y.parentNode.insertBefore(e,y)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  {% if jekyll.environment == "production" %}
+    {% comment %} Hacked isogram with http://isogrammer.com/ {% endcomment %}
+    <script>
+    (function(n,h,o,i,z,e,y){n['GoogleAnalyticsObject']=z;n[z]=n[z]||function(){
+    (n[z].q=n[z].q||[]).push(arguments)},n[z].l=1*new Date();e=h.createElement(o),
+    y=h.getElementsByTagName(o)[0];e.async=1;e.src=i;y.parentNode.insertBefore(e,y)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-1655999-10', 'auto');
+    ga('create', 'UA-1655999-10', 'auto');
 
-  ga('set', {
-    dimension1: screen_density,
-    dimension2: viewport_width
-  });
+    ga('set', {
+      dimension1: screen_density,
+      dimension2: viewport_width
+    });
 
-  ga('send', 'pageview');
-  </script>
+    ga('send', 'pageview');
+    </script>
+  {% endif %}
 </head>
 <!-- endnomicrotypo -->
