@@ -1,0 +1,19 @@
+{% assign foundImage = 0 %}
+{% assign images = page.content | split:'<img ' %}
+{% for image in images %}
+  {% if foundImage == 1 %}
+    {% break %}
+  {% elsif image contains 'src' %}
+    {% assign html = image | split:'>' | first %}
+    {% assign attributes = html | split:' ' %}
+    {% for attr in attributes %}
+      {% if attr contains 'src' %}
+        {% assign src = attr | split:'"' %}
+        {% assign src = src[1] | strip %}
+        {{ src }}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+    {% assign foundImage = 1 %}
+  {% endif %}
+{% endfor %}
