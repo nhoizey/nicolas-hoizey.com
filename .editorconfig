@@ -11,3 +11,6 @@ indent_size = 2
 
 [*.svg]
 insert_final_newline = false
+
+[*.html]
+insert_final_newline = false
