@@ -1,7 +1,7 @@
 ---
 title: Cloudinary fait la promotion de mon plugin Jekyll
 lang:  fr
-tags:  [Jekyll,Cloudinary,plugin,image,RWD]
+tags:  [Jekyll,Cloudinary,image,Responsive Web Design]
 ---
 
 {% cloudinary logo /assets/logos/cloudinary.png alt="Cloudinary" %}

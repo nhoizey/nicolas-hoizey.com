@@ -1,7 +1,7 @@
---- 
-title:      Une sauvegarde de fichiers en ligne très simple pour pas cher 
-lang:       fr 
-tags:       [informatique, sauvegarde, Mozy]
+---
+title:      Une sauvegarde de fichiers en ligne très simple pour pas cher
+lang:       fr
+tags:       [sauvegarde]
 ---
 
 {% cloudinary logo /assets/logos/jungledisk.jpg %}

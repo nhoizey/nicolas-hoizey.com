@@ -1,7 +1,7 @@
---- 
-title:      "La fin du HTML pour les applications accessibles via le Web n'est pas pour tout de suite" 
-lang:       fr 
-tags:       [standards, accessibilité, client riche, développement, XUL]
+---
+title:      "La fin du HTML pour les applications accessibles via le Web n'est pas pour tout de suite"
+lang:       fr
+tags:       [standards, accessibilité]
 ---
 
 [Laurent Jouanneau](http://ljouanneau.com/) part de [sa réaction](http://ljouanneau.com/blog/2005/09/15/469-de-la-bonne-utilisation-des-technologies) face à l'avènement de [SVG et Canvas](http://standblog.org/blog/2005/09/15/93114367-a-propos-de-svg-et-canvas), annoncés par [Tristan Nitot](http://standblog.org/), pour dénoncer l'usage abusif qui est fait de HTML pour développer des applications alors qu'il est normalement dédié aux documents, d'autant plus que de nouvelles technologies plus orientées applications sont déjà disponibles, comme [XUL / XPFE](http://www.clever-age.com/veille/clever-link/xul-partie-visible-du-framework-mozilla-xpfe-323.html).

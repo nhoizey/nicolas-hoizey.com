@@ -1,7 +1,7 @@
 ---
 title:      La reconnaissance faciale se démocratise avec Picasa Web
 lang:       fr
-tags:       [photo, Google, logiciel, visage, Picasa]
+tags:       [photo, Google, visage]
 ---
 
 Après avoir vu apparaître la reconnaissance des visages dans les appareils photos numériques pour améliorer la mise au point automatique[^1] une nouvelle étape du traitement d'images est franchi avec la reconnaissance faciale -- sous entendu avec reconnaissance de la personne et non uniquement d'une forme de visage -- qui arrive dans la solution de classement et partage de photos [Picasa Web](http://picasa.google.com/) de Google.

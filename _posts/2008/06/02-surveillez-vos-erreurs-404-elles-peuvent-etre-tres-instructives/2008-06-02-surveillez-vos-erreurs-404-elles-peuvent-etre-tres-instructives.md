@@ -1,12 +1,12 @@
 ---
 title:      Surveillez vos erreurs 404, elles peuvent être très instructives
 lang:       fr
-tags:       [erreur 404, SEO, sécurité, webperf]
+tags:       ["404", SEO, sécurité, webperf]
 ---
 
-A l’heure où tout le monde ne jure que par l’optimisation du référencement — on dit Search Engine Optimization, ou SEO, pour faire branché — afin d’augmenter son trafic, et ainsi ses clients potentiels et/ou son revenu publicitaire, qui se soucie de vérifier ce qui se passe pour les internautes qui arrivent bien sur le site, mais sur une page qui n’existe pas, indiquée comme il se doit par une erreur HTTP 404[^erreur404] ?
+A l’heure où tout le monde ne jure que par l’optimisation du référencement — on dit Search Engine Optimization, ou SEO, pour faire branché — afin d’augmenter son trafic, et ainsi ses clients potentiels et/ou son revenu publicitaire, qui se soucie de vérifier ce qui se passe pour les internautes qui arrivent bien sur le site, mais sur une page qui n’existe pas, indiquée comme il se doit par une erreur HTTP 404[^erreur] ?
 
-[^erreur404]: Oui, c’est la règle, mais certains ne la respectent pas, bien entendu...
+[^erreur]: Oui, c’est la règle, mais certains ne la respectent pas, bien entendu...
 
 Si vous ne vous en souciez pas, commencez tout de suite à le faire, il y a beaucoup à apprendre, et sans doute beaucoup d’améliorations à apporter à votre site.
 

@@ -1,7 +1,7 @@
 ---
 title: Time-lapse nocturne à Hong Kong
 lang:  fr
-tags:  [photo, time-lapse, Hong Kong, sony, RX100]
+tags:  [photo, time-lapse, Hong Kong, Sony, RX100]
 ---
 
 Voici un nouveau time-lapse, réalisé cette fois intégralement avec mon appareil photo compact, [le Sony RX100mk3 dont je vous ai déjà parlé](/2015/01/sony-rx100-iii-mon-excellent-nouveau-compact-expert-toujours-en-poche.html).

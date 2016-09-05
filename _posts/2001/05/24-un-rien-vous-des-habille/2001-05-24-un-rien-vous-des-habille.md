@@ -1,7 +1,7 @@
---- 
-title:      "Un rien vous (dés)habille ..." 
-lang:       fr 
-tags:       [photo, humour, art, Photoshop]
+---
+title:      "Un rien vous (dés)habille ..."
+lang:       fr
+tags:       [photo, art]
 ---
 
 

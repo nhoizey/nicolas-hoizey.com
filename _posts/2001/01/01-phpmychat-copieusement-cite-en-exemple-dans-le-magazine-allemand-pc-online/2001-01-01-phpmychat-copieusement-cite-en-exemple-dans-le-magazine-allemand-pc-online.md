@@ -1,7 +1,7 @@
---- 
-title:      "phpMyChat copieusement cité en exemple dans le magazine allemand PC Online" 
-lang:       fr 
-tags:       ["moi", "PHP", "phpHeaven", "chat", "phpMyChat"]
+---
+title:      "phpMyChat copieusement cité en exemple dans le magazine allemand PC Online"
+lang:       fr
+tags:       [PHP, phpMyChat]
 ---
 
 

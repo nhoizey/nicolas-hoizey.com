@@ -1,7 +1,7 @@
 ---
 title:      Ziki aime les doublons... et plus si affinité
 lang:       fr
-tags:       [fail, Ziki]
+tags:       [fail]
 ---
 
 J'avoue que cela faisait un certain temps que je n'avais pas visité Ziki, et j'ai découvert qu'ils sont passé d'un site de gestion de l'identité numérique[^1] -- voici [mon profil Ziki](http://www.ziki.com/fr/nhoizey+1005) -- à « une place de marché professionnelle qui met en relation des fournisseurs avec leurs acheteurs potentiels ». En plus du changement de *business model*[^2], Ziki s'est doté de quelques bugs.

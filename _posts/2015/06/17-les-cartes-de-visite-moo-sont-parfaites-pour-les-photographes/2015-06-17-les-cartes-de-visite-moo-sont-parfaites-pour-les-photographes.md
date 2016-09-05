@@ -1,7 +1,7 @@
 ---
 title: Les cartes de visite Moo sont parfaites pour les photographes
 lang:  fr
-tags:  [photo, carte de visite, Moo]
+tags:  [photo]
 ---
 
 Je dois en être à ma quatrième commande de cartes de visite sur [Moo](http://www.moo.com/share/txpyyf), et je suis de plus en plus épaté. Des cartes de visite format mini, offertes par Flickr il y a quelques années, très sympa parce que d'un format atypique, aux dernières cartes Luxe, il y a toute une gamme à (re)découvrir, notamment pour les photographes.
