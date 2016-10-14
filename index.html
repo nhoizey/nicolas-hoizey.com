@@ -17,7 +17,7 @@ title: Accueil
 <section class="list recent">
   {% for post in site.posts offset:1 limit:6 %}
     <article {% if post.lang %}lang="{{ post.lang }}"{% endif %}>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <h2><a href="{{ post.url }}" {% if post.lang %}hreflang="{{ post.lang }}"{% endif %}>{{ post.title }}</a></h2>
       {% include article-header.html page=post %}
     </article>
   {% endfor %}
