@@ -500,6 +500,16 @@ RewriteRule ^(.*) https://nicolas-hoizey.com/$1 [QSA,R=301,L]
   Header always set X-Content-Type-Options "nosniff"
 </IfModule>
 
+# ------------------------------------------------------------------------------
+# | HSTS                                                                       |
+# ------------------------------------------------------------------------------
+
+# https://hstspreload.appspot.com/
+
+<IfModule mod_headers.c>
+  Header set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+</IfModule>
+
 # ##############################################################################
 # # WEB PERFORMANCE                                                            #
 # ##############################################################################
