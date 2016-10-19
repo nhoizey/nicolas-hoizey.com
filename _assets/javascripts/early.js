@@ -7,14 +7,3 @@ screen_density = +(Math.round(screen_density + "e+3")  + "e-3");
 // get viewport width
 // http://stackoverflow.com/a/8876069/717195
 var viewport_width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-
-;(function( win, doc ) {
-
-  // ******************************************************************
-  // Only for IE9+ after this
-  // ******************************************************************
-
-  if( !( 'geolocation' in navigator ) ) {
-    return;
-  }
-})( window, document );

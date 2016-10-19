@@ -4,79 +4,6 @@
   doc.body.setAttribute('data-viewportwidth', win.viewport_width);
   doc.body.setAttribute('data-screendensity', win.screen_density);
 
-  // ******************************************************************
-  // Only for IE9+ after this
-  // ******************************************************************
-
-  if(!('geolocation' in navigator)) {
-    return;
-  }
-
-  var docEl = doc.documentElement;
-
-  var firstStageCounter = 0;
-  var firstStageSuccess = function() {
-    firstStageCounter++;
-    if(firstStageCounter === 2) {
-      docEl.className += ' firstStageFonts-loaded';
-      sessionStorage.firstStageFontsLoaded = true;
-      secondStage();
-    }
-  };
-  var secondStageCounter = 0;
-  var secondStageSuccess = function() {
-    secondStageCounter++;
-    if( secondStageCounter === 4 ) {
-      docEl.className += ' secondStageFonts-loaded';
-      sessionStorage.secondStageFontsLoaded = true;
-    }
-  };
-
-  // Load first stage fonts
-  FontFaceOnload('PTSans', {
-    style: 'normal',
-    weight: 400,
-    success: firstStageSuccess
-  });
-  FontFaceOnload('PTSerif', {
-    style: 'normal',
-    weight: 400,
-    success: firstStageSuccess
-  });
-
-  // Load second stage fonts
-  function secondStage() {
-    FontFaceOnload('PTSerifBold', {
-      style: 'normal',
-      weight: 700,
-      success: secondStageSuccess
-    });
-    FontFaceOnload('PTSerifItalic', {
-      style: 'italic',
-      weight: 400,
-      success: secondStageSuccess
-    });
-    FontFaceOnload('PTSerifBoldItalic', {
-      style: 'italic',
-      weight: 700,
-      success: secondStageSuccess
-    });
-    // FontFaceOnload('PTSansBold', {
-    //   style: 'normal',
-    //   weight: 700,
-    //   success: secondStageSuccess
-    // });
-    FontFaceOnload('PTSansItalic', {
-      style: 'italic',
-      weight: 400,
-      success: secondStageSuccess
-    });
-    // FontFaceOnload('PTSansBoldItalic', {
-    //   style: 'italic',
-    //   weight: 700,
-    //   success: secondStageSuccess
-    // });
-  }
 })( window, document );
 
 /* Add anchor links to titles in the article */
@@ -93,10 +20,3 @@
     }
   }
 }(this));
-
-/* Service Worker */
-// if ('serviceWorker' in navigator) {
-//   navigator.serviceWorker.register('/service-worker.js', {
-//     scope: '/'
-//   });
-// }

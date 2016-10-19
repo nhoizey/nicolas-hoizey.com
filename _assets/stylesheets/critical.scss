@@ -22,15 +22,8 @@ body {
   display: flex;
   flex-direction: column;
 
-  // Default font family before font face load
   font-family: Georgia, "DejaVu Serif", serif;
   font-size: calc(.9em + .3vw + .3vh);
-
-  .firstStageFonts-loaded & {
-    font-family: "PTSerif", Georgia, "DejaVu Serif", serif;
-    font-size: calc(.8em + .3vw + .3vh);
-  }
-
   font-weight: 400;
   line-height: 1.5;
 
@@ -44,57 +37,27 @@ body {
 // Fonts
 // ************************************************************
 
-#header h1 {
-  font-family: Georgia, "DejaVu Serif", serif;
-
-  .firstStageFonts-loaded & {
-    font-family: "PTSerif", Georgia, "DejaVu Serif", serif;
-  }
-}
-
-article p {
-  font-size: 1.09em;
-  line-height: (1.5 / 1.09);
-
-  .firstStageFonts-loaded & {
-    font-size: 1em;
-    line-height: 1.5;
-  }
-}
-
 h1, h2, h3, h4, h5, h6 {
-  // Default font family before font face load
-  font-family: Tahoma, Geneva, "DejaVu Sans", sans-serif;
   font-weight: 400;
   line-height: 1.3;
   color: $color-title;
-  letter-spacing: .025em;
-
-  .firstStageFonts-loaded & {
-    font-family: "PTSans", Tahoma, Geneva, "DejaVu Sans", sans-serif;
-    letter-spacing: 0;
-    line-height: 1.4;
-  }
+  letter-spacing: -.01em;
 }
 
 h1 {
-  font-size: calc(1.2em + 0.6vw + 0.6vh);
-
-  .firstStageFonts-loaded & {
-    font-size: calc(1.3em + 0.6vw + 0.6vh);
-  }
+  font-size: calc(1.3em + .5vw + .5vh);
 }
 
 h2 {
-  font-size: calc(1.2em + 0.3vw + 0.3vh);
+  font-size: calc(1.2em + .3vw + .3vh);
 }
 
 h3 {
-  font-size: calc(1.1em + 0.1vw + 0.1vh);
+  font-size: calc(1.1em + .1vw + .1vh);
 }
 
 h4 {
-  font-size: 1.1em;
+  font-size: calc(1em + .1vw + .1vh);
   font-style: italic;
 }
 
@@ -119,39 +82,6 @@ h1, h2, h3, h4, h5, h6 {
     &:hover {
       color: #66f;
       text-decoration: underline;
-    }
-  }
-}
-
-.secondStageFonts-loaded {
-  em {
-    font-family: "PTSerifItalic", Georgia, "DejaVu Serif", serif;
-  }
-
-  strong,
-  .tags .highlight, p .highlight,
-  .pagination li.next, .pagination li.prev {
-    font-family: "PTSerifBold", Georgia, "DejaVu Serif", serif;
-    font-weight: 700;
-  }
-
-  em strong, strong em {
-    font-family: "PTSerifBoldItalic", Georgia, "DejaVu Serif", serif;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    em {
-      font-family: "PTSansItalic", Tahoma, Geneva, "DejaVu Sans", sans-serif;
-    }
-
-    strong {
-      font-family: "PTSansBold", Tahoma, Geneva, "DejaVu Sans", sans-serif;
-      font-weight: 700;
-    }
-
-    em strong, strong em {
-      font-family: "PTSansBoldItalic", Tahoma, Geneva, "DejaVu Sans", sans-serif;
-      font-weight: 700;
     }
   }
 }
@@ -400,17 +330,6 @@ article {
   h1 ~ p:first-of-type {
     font-size: 1.2em;
   }
-
-  // &.main header {
-  //   float: right;
-  //   width: calc((100vw - 100%)/2 - 3em);
-  //   margin-right: calc((-100vw + 100%)/2 + 1em);
-
-  //   li {
-  //     margin-left: 2em;
-  //     text-indent: -2em;
-  //   }
-  // }
 }
 
 #search {
