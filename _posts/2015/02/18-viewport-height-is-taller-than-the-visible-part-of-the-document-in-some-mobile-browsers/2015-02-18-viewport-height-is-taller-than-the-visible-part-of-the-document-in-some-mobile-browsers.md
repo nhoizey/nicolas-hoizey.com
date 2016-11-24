@@ -122,3 +122,9 @@ People developing Chrome for Android [now plan to change its behavior to match i
 [I've tried to answer](https://groups.google.com/a/chromium.org/d/msg/blink-dev/BK0oHURgmJ4/WTFI3pifBAAJ)[^thanksyoav], but I don't believe it will change anything. At least, we will have the same "bug" everywhere…
 
 [^thanksyoav]: Thanks Yoav for the [notification](https://twitter.com/yoavweiss/status/689568512562577408) about this discussion!
+
+## November 8th, 2016 update
+
+Chrome will indeed [now work like Safari](https://www.chromestatus.com/features/6241601772847104).
+
+There is a lot of interesting informations in [this study](https://github.com/bokand/URLBarSizing#proposed-changes-to-chrome) about the differences between mobile browsers, and the proposed consensus.
