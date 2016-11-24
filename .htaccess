@@ -721,6 +721,16 @@ FileETag None
 
 </IfModule>
 
+# ------------------------------------------------------------------------------
+# | Preconnect                                                                 |
+# ------------------------------------------------------------------------------
+
+# https://www.igvita.com/2015/08/17/eliminating-roundtrips-with-preconnect/
+
+<IfModule mod_headers.c>
+  Header set Link "<https://res.cloudinary.com>; rel=preconnect; crossorigin,<https://www.google-analytics.com>; rel=preconnect; crossorigin, <https://disqus.com>; rel=preconnect; crossorigin, <https://nicolas-hoizey.disqus.com>; rel=preconnect; crossorigin, <https://a.disquscdn.com>; rel=preconnect; crossorigin"
+</IfModule>
+
 # ##############################################################################
 # # REDIRECTS                                                                  #
 # ##############################################################################
