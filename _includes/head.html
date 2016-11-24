@@ -7,16 +7,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <script>
-  {% asset early %}
+  {% asset early-js %}
   </script>
 
   <style>
-  {% asset critical %}
+  {% asset critical-styles %}
   </style>
 
-  <link rel="preload" href="{% asset_path styles %}" as="style" onload="this.rel='stylesheet'" />
+  <link rel="preload" href="{% asset_path non-critical-styles %}" as="style" onload="this.rel='stylesheet'" />
   <noscript>
-    <link rel="stylesheet" href="{% asset_path styles %}" />
+    <link rel="stylesheet" href="{% asset_path non-critical-styles %}" />
   </noscript>
   <script>
     {% asset vendors/loadCSS-1.2.0 %}
