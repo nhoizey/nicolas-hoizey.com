@@ -742,6 +742,9 @@ FileETag None
 # Redirect old paginations
 RewriteRule ^([0-9]{1,2})/?$ /page-$1/ [QSA,R=301,L]
 
+# No more pagination at all
+RewriteRule ^page-[0-9]+/?$ / [QSA,R=301,L]
+
 # ----------------------------------------------------------------------
 # Remove index.html
 # ----------------------------------------------------------------------
