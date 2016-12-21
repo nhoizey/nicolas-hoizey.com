@@ -5,12 +5,14 @@ module Jekyll
 
   # convert tweet url to embedding html
   class LazyTweetEmbedding
+    def get_html(id)
+        url = "https://api.twitter.com/1/statuses/oembed.json?id=#{id}"
+        JSON.parse(open(url).read, { :symbolize_names => true })[:html]
+    end
+
     def convert(line)
-      if m = line.match(/^https?:\/\/twitter\.com\/[a-zA-Z0-9_]+\/status\/([0-9]+)\/?$/)
-        tweet_json = open("https://api.twitter.com/1/statuses/oembed.json?id=#{m[1]}").read
-        line = JSON.parse(tweet_json, { :symbolize_names => true })[:html]
-      end
-      line
+      r = /^https?:\/\/twitter\.com\/[a-zA-Z0-9_]+\/status\/([0-9]+)\/?$/
+      r =~ line ? get_html($~[1]) : line
     end
 
     def embed(content)
