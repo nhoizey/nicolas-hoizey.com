@@ -88,18 +88,20 @@ h1, h2, h3, h4, h5, h6 {
   a.deeplink {
     font-size: .7em;
     // font-weight: 400;
-    color: #999;
+    color: #ccc;
     text-decoration: none;
 
-    svg {
-      width: 1em;
-      height: 1em;
-      fill: currentColor;
+    span {
+      color: #fff;
     }
+  }
 
-    &:hover {
+  &:hover a.deeplink {
+    color: #66f;
+    text-decoration: underline;
+
+    span {
       color: #66f;
-      text-decoration: underline;
     }
   }
 }
