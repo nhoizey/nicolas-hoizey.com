@@ -1,3 +1,6 @@
+---
+---
+
 // https://remysharp.com/2016/03/22/the-copy--paste-guide-to-your-first-service-worker
 // https://jakearchibald.com/2014/offline-cookbook/#network-falling-back-to-cache
 
@@ -8,6 +11,10 @@ self.addEventListener('install', event => {
     caches.open(cacheName).then(cache => {
       return cache.addAll([
         '/',
+        '/offline.html',
+        {% for post in site.posts limit:5 %}
+        '{{ post.url }}',
+        {% endfor %}
       ]).then(() => self.skipWaiting());
     })
   );
