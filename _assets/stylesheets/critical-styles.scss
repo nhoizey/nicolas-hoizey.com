@@ -48,6 +48,14 @@ h1, h2, h3, h4, h5, h6 {
   color: $color-title;
   letter-spacing: -.01em;
   margin-bottom: .5em;
+
+  &:target:before {
+    content: "";
+    display: block;
+    // #header line-height * font-size * body font-size + top margin
+    height: calc(2 * 1.2 * (.9rem + .3vw + .3vh) + 1em);
+    margin: calc(-2 * 1.2 * (.9rem + .3vw + .3vh) - 1em) 0 0;
+  }
 }
 
 h1 {
@@ -165,9 +173,16 @@ a, button, input, select, textarea, label, summary {
 
 #header {
   font-size: 1.2em;
-  margin: .5em 0 2em;
+  margin: 0 0 2em;
+  padding: 0;
 
   color: $color-header-text;
+  background-color: #eee;
+  box-shadow: 0 .3em .2em 0 rgba(255, 255, 255, 1);
+
+  position: sticky;
+  top: 0;
+  z-index: 2;
 
   h1 {
     margin-bottom: 0;
