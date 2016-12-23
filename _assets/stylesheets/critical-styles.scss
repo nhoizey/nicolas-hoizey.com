@@ -66,36 +66,35 @@ h1 {
 
 h2 {
   font-size: $h2;
-  margin-top: calc((#{$baseline} - #{$h2}) + #{$baseline});
+  margin-top: calc(2 * #{$baseline} - #{$h2});
 }
 
 h3 {
   font-size: $h3;
-  margin-top: calc((#{$baseline} - #{$h3}) + #{$baseline});
+  margin-top: calc(2 * #{$baseline} - #{$h3});
 }
 
 h4 {
   font-size: $h4;
-  margin-top: calc((#{$baseline} - #{$h4}) + #{$baseline});
+  margin-top: calc(2 * #{$baseline} - #{$h4});
   font-style: italic;
 }
 
 h5 {
   font-size: $h5;
-  margin-top: calc((#{$baseline} - #{$h5}) + #{$baseline});
+  margin-top: calc(2 * #{$baseline} - #{$h5});
   font-style: italic;
 }
 
 h6 {
   font-size: $h6;
-  margin-top: calc((#{$baseline} - #{$h6}) + #{$baseline});
+  margin-top: calc(2 * #{$baseline} - #{$h6});
   font-style: italic;
 }
 
 h1, h2, h3, h4, h5, h6 {
   a.deeplink {
     font-size: .7em;
-    // font-weight: 400;
     color: #ccc;
     text-decoration: none;
 
@@ -251,19 +250,6 @@ main {
   margin: 0 0 2em;
   font-size: 1.2em;
   color: $color-article-intro;
-}
-
-.post h1,
-.year h2,
-.month h1 {
-  a {
-    color: $color-title;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline solid $color-title;
-    }
-  }
 }
 
 .latest, .recent article {
