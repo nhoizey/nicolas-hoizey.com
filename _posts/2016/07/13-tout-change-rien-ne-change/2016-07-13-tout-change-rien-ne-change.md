@@ -133,6 +133,8 @@ Cela m'a fait perdre 4 points sur Dareboost, tout de même ! ;-)
 
 {% cloudinary dareboost-de-98-a-94.png alt="4 points perdus sur Dareboost" %}
 
+**MAJ :** Les vidéos sont de nouveau *lazy loadées*, comme vous pouvez le voir par exemple sur [ce billet à propos du moteur de recherche Algolia](/2015/06/la-recherche-dans-du-statique-facile-avec-algolia.html).
+
 ## La mise en évidence du terme recherché ne fonctionne plus
 
 L'indexation Algolia via le plugin ne fonctionne pas comme celle que j'utilisais auparavant, ce qui signifie que les résultats n'ont plus la même structure.
