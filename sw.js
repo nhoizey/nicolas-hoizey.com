@@ -6,17 +6,21 @@
 
 const CACHE = 'v1::static';
 
+var urlsToCache = [
+      '/',
+      '/a-propos/de-moi.html',
+      '/a-propos/du-site.html',
+      {% for post in site.posts limit:7 %}
+      '{{ post.url }}',
+      {% endfor %}
+      '{% asset_path "non-critical-styles" %}',
+      '/offline.html',
+    ];
 
 self.addEventListener('install', event => {
   event.waitUntil(
-      return cache.addAll([
-        '/',
-        '/offline.html',
-        {% for post in site.posts limit:5 %}
-        '{{ post.url }}',
-        {% endfor %}
-      ]).then(() => self.skipWaiting());
     caches.open(CACHE).then(cache => {
+      return cache.addAll(urlsToCache).then(() => self.skipWaiting());
     })
   );
 });
