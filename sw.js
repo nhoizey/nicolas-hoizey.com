@@ -4,11 +4,11 @@
 // https://remysharp.com/2016/03/22/the-copy--paste-guide-to-your-first-service-worker
 // https://jakearchibald.com/2014/offline-cookbook/#network-falling-back-to-cache
 
-const cacheName = 'v1::static';
+const CACHE = 'v1::static';
+
 
 self.addEventListener('install', event => {
   event.waitUntil(
-    caches.open(cacheName).then(cache => {
       return cache.addAll([
         '/',
         '/offline.html',
@@ -16,6 +16,7 @@ self.addEventListener('install', event => {
         '{{ post.url }}',
         {% endfor %}
       ]).then(() => self.skipWaiting());
+    caches.open(CACHE).then(cache => {
     })
   );
 });
