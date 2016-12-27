@@ -34,6 +34,24 @@ self.addEventListener('fetch', event => {
   var requestURL = new URL(event.request.url);
   // local URL
   if (requestURL.origin == location.origin) {
+
+    // post
+    if (/^\/([0-9]{4}\/|a-propos)/.test(requestURL.pathname)) {
+      event.respondWith(
+        caches.match(event.request).then(response => {
+          // if in cache, use it
+          // else, fetch and put in the cache
+          return response || fetch(event.request).then(response => {
+            cache.put(event.request, response.clone());
+            return response;
+          });
+        }).catch(function() {
+          // not in cache and offline fallback
+          return caches.match('/offline.html');
+        })
+      );
+      return;
+    }
   }
 
   // Cloudinary images
