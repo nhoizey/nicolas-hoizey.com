@@ -3,9 +3,11 @@ layout: default
 title: Pas de connexion
 ---
 
-<p class="intro">Désolé, <strong>vous ne semblez pas être connecté</strong>, et le billet auquel vous essayez d'accéder n'est pas dans votre cache.</p>
-
-<p>Voici les plus récents billets, disponibles dans votre cache :</p>
+<div class="error offline clearfix">
+  <p class="icon">{% asset icon-offline.svg %}</p>
+  <p class="info">Désolé, <strong>vous ne semblez pas être connecté</strong>, et le billet auquel vous essayez d'accéder n'est pas dans votre cache.</p>
+</div>
+<p>Voici les billets disponibles dans votre cache :</p>
 {% for post in site.posts limit:1 %}
   <article class="latest">
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
