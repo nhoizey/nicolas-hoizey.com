@@ -86,6 +86,11 @@ self.addEventListener('fetch', event => {
   let request = event.request;
   let url = new URL(request.url);
 
+  // Only cache local resources and images from Cloudinary
+  if (!(url.origin == location.origin || url.origin == 'res.cloudinary.com')) {
+    return;
+  }
+
   // Ignore requests to some directories
   // if (request.url.indexOf('/mint') !== -1 || request.url.indexOf('/cms') !== -1) {
   //     return;
