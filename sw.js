@@ -31,6 +31,11 @@ self.addEventListener('activate', event => {
 });
 
 self.addEventListener('fetch', event => {
+  var requestURL = new URL(event.request.url);
+  // local URL
+  if (requestURL.origin == location.origin) {
+  }
+
   // Cloudinary images
   if (requestURL.hostname == 'res.cloudinary.com') {
     event.respondWith(
