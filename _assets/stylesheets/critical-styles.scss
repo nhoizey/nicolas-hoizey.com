@@ -183,13 +183,22 @@ a, button, input, select, textarea, label, summary {
 }
 
 // ************************************************************
-// Global wrap
+// Utilities
 // ************************************************************
 
 .wrap {
   width: 90vw;
   max-width: 50rem;
   margin: 0 auto;
+}
+
+.clearfix {
+  &::after {
+    // http://nicolasgallagher.com/micro-clearfix-hack/
+    content: " ";
+    display: table;
+    clear: both;
+  }
 }
 
 // ************************************************************
@@ -309,13 +318,6 @@ main {
 
 article {
   margin: 0 0 calc(2em + 2vh);
-
-  &::after {
-    // http://nicolasgallagher.com/micro-clearfix-hack/
-    content: " ";
-    display: table;
-    clear: both;
-  }
 
   header {
     color: $color-article-header;

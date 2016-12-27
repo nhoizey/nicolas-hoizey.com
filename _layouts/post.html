@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<article class="main" {% if page.lang %}lang="{{ page.lang }}"{% endif %}>
+<article class="main clearfix" {% if page.lang %}lang="{{ page.lang }}"{% endif %}>
   <h1 id="post" itemscope itemtype="https://schema.org/breadcrumb" itemprop="child">
-    <span itemprop="title">{{ page.title }}</span>&nbsp;<a class="deeplink" href="{{ site.url }}{{ page.url }}" itemprop="url">#</a>  
+    <span itemprop="title">{{ page.title }}</span>&nbsp;<a class="deeplink" href="{{ site.url }}{{ page.url }}" itemprop="url">#</a>
   </h1>
 
   <header>
