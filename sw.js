@@ -6,7 +6,7 @@
 // - Jake Archibald's Offline Cookbook: https://jakearchibald.com/2014/offline-cookbook/
 // - Jeremy Keith's Service Worker: https://adactio.com/journal/9775
 
-const version = '0.1';
+const version = '0.3';
 const staticCacheName = `v${version}::static`;
 const pagesCacheName = `v${version}::pages`;
 const imagesCacheName = `v${version}::images`;
@@ -21,10 +21,13 @@ const offlinePages = [
 const offlineStatusPage = '/offline.html'
 
 function updateStaticCache() {
-  return caches.open(staticCacheName)
+  caches.open(pagesCacheName)
     .then(cache => {
       // These items won't block the installation of the Service Worker
       cache.addAll(offlinePages);
+    });
+  return caches.open(staticCacheName)
+    .then(cache => {
       // These items must be cached for the Service Worker to complete installation
       return cache.addAll([
         offlineStatusPage,
