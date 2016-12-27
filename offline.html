@@ -18,7 +18,7 @@ title: Pas de connexion
 
 <script>
 caches.open('v0.1::pages').then(cache => {
-  return cache.matchAll('/2016/').then(response => {
+  return cache.matchAll().then(response => {
     response.forEach(function(element, index, array) {
       console.log(element);
     });
