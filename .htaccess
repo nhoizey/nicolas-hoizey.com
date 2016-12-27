@@ -637,6 +637,14 @@ FileETag None
     ExpiresActive on
     ExpiresDefault                                      "access plus 1 month"
 
+  # Don't cache the Service Worker
+  # http://serverfault.com/a/414880
+
+    <FilesMatch "ws.js">
+      ExpiresDefault "now"
+    </FilesMatch>
+
+
   # CSS
 
     ExpiresByType text/css                              "access plus 1 year"
