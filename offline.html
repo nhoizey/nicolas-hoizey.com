@@ -16,11 +16,12 @@ title: Pas de connexion
   </article>
 {% endfor %}
 
-<section class="list recent">
-  {% for post in site.posts offset:1 limit:6 %}
-    <article {% if post.lang %}lang="{{ post.lang }}"{% endif %}>
-      <h2><a href="{{ post.url }}" {% if post.lang %}hreflang="{{ post.lang }}"{% endif %}>{{ post.title }}</a></h2>
-      {% include article-header.html page=post %}
-    </article>
-  {% endfor %}
-</section>
+<script>
+caches.open('v0.1::pages').then(cache => {
+  return cache.matchAll('/2016/').then(response => {
+    response.forEach(function(element, index, array) {
+      console.log(element);
+    });
+  })
+});
+</script>
