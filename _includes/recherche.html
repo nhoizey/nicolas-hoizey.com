@@ -77,7 +77,7 @@ function searchCallback(err, content) {
   var hit, post, post_date, post_tags, post_tags_match;
   for (var i = 0; i < resultsNumber; i++) {
     hit = content.hits[i];
-console.log(hit);
+
     if (hit.layout == "post") {
       // Build the date to show
       post_date = hit.date;
