@@ -676,9 +676,13 @@ FileETag None
 
   # JavaScript
 
-    ExpiresByType application/javascript                "access plus 1 year"
-    ExpiresByType application/x-javascript              "access plus 1 year"
-    ExpiresByType text/javascript                       "access plus 1 year"
+    #ExpiresByType application/javascript                "access plus 1 year"
+    #ExpiresByType application/x-javascript              "access plus 1 year"
+    #ExpiresByType text/javascript                       "access plus 1 year"
+
+    ExpiresByType application/javascript                "now"
+    ExpiresByType application/x-javascript              "now"
+    ExpiresByType text/javascript                       "now"
 
 
   # Manifest files
