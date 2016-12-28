@@ -43,14 +43,18 @@ window.caches.keys().then(cacheNames => {
 
 function addRequestToList(cacheName, request) {
   var url = request.url;
+  var shortUrl = url.replace(/https:\/\/nicolas-hoizey\.com/, '');
 
-  var linkElement = document.createElement('a');
-  linkElement.href = url;
-  linkElement.textContent = url.replace(/https:\/\/nicolas-hoizey\.com/, '');
 
-  var liElement = document.createElement('li');
-  liElement.appendChild(linkElement);
+  if (shortUrl !== lastPostUrl) {
+    var linkElement = document.createElement('a');
+    linkElement.href = url;
+    linkElement.textContent = shortUrl;
 
-  cacheEntriesUl.appendChild(liElement);
+    var liElement = document.createElement('li');
+    liElement.appendChild(linkElement);
+
+    cacheEntriesUl.appendChild(liElement);
+  }
 }
 </script>
