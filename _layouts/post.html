@@ -70,6 +70,8 @@ layout: default
 
 <aside>
   <h2>À découvrir aussi</h2>
+  <related-posts />
+  {% comment %}
   <div class="list related">
     {% assign nb = 0 %}
     {% for post in site.related_posts limit:7 %}
@@ -82,4 +84,5 @@ layout: default
       {% endif %}
     {% endfor %}
   </div>
+  {% endcomment %}
 </aside>

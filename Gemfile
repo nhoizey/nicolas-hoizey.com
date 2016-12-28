@@ -14,4 +14,5 @@ group :jekyll_plugins do
   gem 'jekyll-cloudinary'
   gem 'jekyll-archives'
   gem 'jekyll-microtypo'
+  gem 'jekyll-related-posts'
 end
