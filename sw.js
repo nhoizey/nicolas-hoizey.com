@@ -16,19 +16,29 @@ const offlinePages = [
   {% for post in site.posts limit:1 %}
   '{{ post.url }}',
   {% endfor %}
+  '/a-propos/de-moi.html',
+  '/a-propos/du-site.html',
 ];
 
-const offlineStatusPage = '/offline.html'
+const offlineImages = [
+  '/assets/photo-de-nicolas-hoizey-400px.jpg',
+];
+
+const offlineStatusPage = '/offline.html';
 
 function updateStaticCache() {
+  // These items won't block the installation of the Service Worker
   caches.open(pagesCacheName)
     .then(cache => {
-      // These items won't block the installation of the Service Worker
       cache.addAll(offlinePages);
     });
+  caches.open(imagesCacheName)
+    .then(cache => {
+      cache.addAll(offlineImages);
+    });
+  // These items must be cached for the Service Worker to complete installation
   return caches.open(staticCacheName)
     .then(cache => {
-      // These items must be cached for the Service Worker to complete installation
       return cache.addAll([
         offlineStatusPage,
         '{% asset_path "non-critical-styles" %}',
