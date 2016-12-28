@@ -641,7 +641,7 @@ FileETag None
   # http://serverfault.com/a/414880
 
     <FilesMatch "ws.js">
-      ExpiresDefault "now"
+      ExpiresDefault                                    "access plus 0 seconds"
     </FilesMatch>
 
 
