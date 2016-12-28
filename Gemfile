@@ -1,11 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '3.1.6'
+gem 'jekyll'
 gem 'rmagick'
 gem 'yt'
 
 group :jekyll_plugins do
-  gem 'sprockets', '3.6.3'
   gem 'jekyll-assets'
   gem 'autoprefixer-rails'
   gem 'uglifier'
