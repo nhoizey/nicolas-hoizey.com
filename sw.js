@@ -6,12 +6,15 @@
 // - Jake Archibald's Offline Cookbook: https://jakearchibald.com/2014/offline-cookbook/
 // - Jeremy Keith's Service Worker: https://adactio.com/journal/9775
 
-const version = '0.4';
+const version = '0.5';
 const staticCacheName = `v${version}::static`;
 const pagesCacheName = `v${version}::pages`;
 const imagesCacheName = `v${version}::images`;
 
+const offlineStatusPage = '/offline.html';
+
 const offlinePages = [
+  offlineStatusPage,
   '/',
   {% for post in site.posts limit:1 %}
   '{{ post.url }}',
@@ -23,8 +26,6 @@ const offlinePages = [
 const offlineImages = [
   '/assets/photo-de-nicolas-hoizey-400px.jpg',
 ];
-
-const offlineStatusPage = '/offline.html';
 
 function updateStaticCache() {
   // These items won't block the installation of the Service Worker
@@ -40,7 +41,6 @@ function updateStaticCache() {
   return caches.open(staticCacheName)
     .then(cache => {
       return cache.addAll([
-        offlineStatusPage,
         '{% asset_path "non-critical-styles" %}',
       ]);
   });
@@ -105,7 +105,7 @@ self.addEventListener('fetch', event => {
   }
 
   // Ignore requests to some directories
-  // if (request.url.indexOf('/mint') !== -1 || request.url.indexOf('/cms') !== -1) {
+  // if (url.indexOf('/mint') !== -1 || url.indexOf('/cms') !== -1) {
   //     return;
   // }
 
@@ -125,17 +125,13 @@ self.addEventListener('fetch', event => {
           // NETWORK
           // Stash a copy of this page in the pages cache
           let copy = response.clone();
-          if (offlinePages.includes(url.pathname) || offlinePages.includes(url.pathname + '/')) {
-            stashInCache(staticCacheName, request, copy);
-          } else {
-            stashInCache(pagesCacheName, request, copy);
-          }
+          stashInCache(pagesCacheName, request, copy);
           return response;
         })
         .catch(() => {
           // CACHE or FALLBACK
           return caches.match(request)
-            .then(response => response || caches.match(offlineStatusPage) );
+            .then(response => response || caches.match(offlineStatusPage));
         })
     );
     return;
