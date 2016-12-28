@@ -21,6 +21,7 @@ var lastPostUrl = '{{ post.url }}';
 <ul id="cache-entries"></ul>
 
 <script>
+// https://googlechrome.github.io/samples/service-worker/window-caches/
 var cacheEntriesUl = document.querySelector('#cache-entries');
 
 window.caches.keys().then(cacheNames => {
