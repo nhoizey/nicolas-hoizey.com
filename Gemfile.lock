@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/pattex/jekyll-tagging.git
+  revision: a981f786b161938a871195afc8d19e129f13fb49
+  specs:
+    jekyll-tagging (1.0.1)
+      ruby-nuggets
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -60,8 +67,6 @@ GEM
     jekyll-postfiles (2.0.0)
     jekyll-sass-converter (1.4.0)
       sass (~> 3.4)
-    jekyll-tagging (1.0.1)
-      ruby-nuggets
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     json (1.8.3)
@@ -116,7 +121,7 @@ DEPENDENCIES
   jekyll-cloudinary
   jekyll-microtypo
   jekyll-postfiles
-  jekyll-tagging
+  jekyll-tagging!
   rmagick
   sprockets (= 3.6.3)
   uglifier
