@@ -1,25 +1,22 @@
---- 
-title:      "Le même agenda que Gastero Prod avec SPIP" 
-lang:       fr 
+---
+title:      "Le même agenda que Gastero Prod avec SPIP"
+lang:       fr
 tags:       [SPIP, Gastero Prod, agenda]
 ---
 
 Il peut être tentant d'utiliser SPIP pour présenter un agenda d'événements sous forme de calendrier. Plutôt que devoir intégrer un logiciel externe spécialisé, et en attendant que SPIP intègre peut-être un jour un nouveau type de données dédié aux événements, voici un squelette mêlant boucles SPIP et code PHP.
 
-
-<span style="color: red;">ATTENTION, cette contrib ne semble plus fonctionner avec les versions de SPIP ultérieure à la 1.8.2, ce qui a mené à « [La fin de l'agenda Gastero Prod...](/2005/11/la-fin-de-l-agenda-gastero-prod.html) »</span>
+ATTENTION, cette contrib ne semble plus fonctionner avec les versions de SPIP ultérieure à la 1.8.2, ce qui a mené à « [La fin de l'agenda Gastero Prod...](/2005/11/la-fin-de-l-agenda-gastero-prod.html) »
 
 *Cet article présente une évolution de la méthode déjà présentée sur le site des contributions pour SPIP : [spip_contrib](http://www.uzine.net/spip_contrib/article.php3?id_article=113).*
 
 {% cloudinary gp_agenda.png caption="Exemple d'agenda. L'agenda de [Gastero Prod](http://www.gasteroprod.com/agenda/)" %}
-
 
 ## De quelles informations avons-nous besoin ?
 
 La première étape consiste à déterminer comment les informations seront stockées dans SPIP, et donc saisies par les rédacteurs.
 
 L'objectif principal étant qu'un rédacteur puisse définir une date à laquelle un événement donné doit avoir lieu, nous avons besoin des éléments suivants :
-
 
 - Au moins un champ de type texte ;
 - Un champ de type date.
@@ -30,7 +27,7 @@ Pour le champ texte, c'est simple, et nous allons même pouvoir nous régaler. S
 - le descriptif
 - et le texte.
 
-*{{La date de publication antérieure ou la {vraie* date de publication ?}}}
+## La date de publication antérieure ou la *vraie* date de publication ?
 
 La date de publication d'un article est déterminée automatiquement lors de sa validation, ce qui signifie que l'auteur ne peut pas la préciser à l'avance. Elle peut en revanche être modifiée par les administrateurs une fois que l'article est validé, mais l'auteur initial n'y a plus accès s'il n'est pas lui-même administrateur.
 
@@ -43,7 +40,6 @@ Heureusement, SPIP propose aussi une *date de publication antérieure*, normalem
 C'est cette date que nous allons utiliser pour définir les événements de l'agenda.
 
 {% cloudinary publi_anterieure.gif caption="Utilisation de la date de publication antérieure" %}
-
 
 ## Organiser les événements
 
@@ -134,23 +130,23 @@ Voici le code brut du tableau représentant l'agenda :
 <table cellpadding="5" cellspacing="0" align="center" border="1" class="agenda">
 <form name="navigation" method="get">
 <tr>
-	<th colspan="7" class="agendaNav">
-		<a href="#URL_SITE_SPIP/agenda.php3?id_rubrique=#ID_RUBRIQUE&date=-1-12-01"><b>&lt;&lt;</b></a>
-		&nbsp;&nbsp;&nbsp;
-		<select name="var_nav_month">
-		<option value="01"></option><option value="02"></option><option value="03"></option><option value="04"></option><option value="05"></option><option value="06"></option><option value="07"></option><option value="08"></option><option value="09"></option><option value="10"></option><option value="11"></option><option value="12"></option>		</select>
-		<select name="var_nav_year">
-		<option value="2000">2000</option><option value="2001">2001</option><option value="2002">2002</option><option value="2003">2003</option><option value="2004">2004</option><option value="2005">2005</option><option value="2006">2006</option><option value="2007">2007</option><option value="2008">2008</option><option value="2009">2009</option><option value="2010">2010</option>		</select>
-		<input type="button" value="go" onClick="document.location.href='#URL_SITE_SPIP/agenda.php3?id_rubrique=#ID_RUBRIQUE&date=' + window.document.navigation.var_nav_year.value + '-' + window.document.navigation.var_nav_month.value + '-01'; return false;" />
-		&nbsp;&nbsp;&nbsp;
-		<a href="#URL_SITE_SPIP/agenda.php3?id_rubrique=#ID_RUBRIQUE&date=-012-01"><b>&gt;&gt;</b></a>
-		&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-		<a href="#URL_SITE_SPIP/agenda.php3?id_rubrique=#ID_RUBRIQUE&date=2016-08-04"><b>Aujourd'hui</b></a>
-	</th>
+  <th colspan="7" class="agendaNav">
+    <a href="#URL_SITE_SPIP/agenda.php3?id_rubrique=#ID_RUBRIQUE&date=-1-12-01"><b>&lt;&lt;</b></a>
+    &nbsp;&nbsp;&nbsp;
+    <select name="var_nav_month">
+    <option value="01"></option><option value="02"></option><option value="03"></option><option value="04"></option><option value="05"></option><option value="06"></option><option value="07"></option><option value="08"></option><option value="09"></option><option value="10"></option><option value="11"></option><option value="12"></option>    </select>
+    <select name="var_nav_year">
+    <option value="2000">2000</option><option value="2001">2001</option><option value="2002">2002</option><option value="2003">2003</option><option value="2004">2004</option><option value="2005">2005</option><option value="2006">2006</option><option value="2007">2007</option><option value="2008">2008</option><option value="2009">2009</option><option value="2010">2010</option>    </select>
+    <input type="button" value="go" onClick="document.location.href='#URL_SITE_SPIP/agenda.php3?id_rubrique=#ID_RUBRIQUE&date=' + window.document.navigation.var_nav_year.value + '-' + window.document.navigation.var_nav_month.value + '-01'; return false;" />
+    &nbsp;&nbsp;&nbsp;
+    <a href="#URL_SITE_SPIP/agenda.php3?id_rubrique=#ID_RUBRIQUE&date=-012-01"><b>&gt;&gt;</b></a>
+    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#URL_SITE_SPIP/agenda.php3?id_rubrique=#ID_RUBRIQUE&date=2016-08-04"><b>Aujourd'hui</b></a>
+  </th>
 </tr>
 </form>
-<tr> 
-	<th width="14%" class="agendaHead"></th><th width="14%" class="agendaHead"></th><th width="14%" class="agendaHead"></th><th width="14%" class="agendaHead"></th><th width="14%" class="agendaHead"></th><th width="14%" class="agendaHead"></th><th width="14%" class="agendaHead"></th></tr><tr><td width="14%" height="50" valign="top" class="agendaNotThisMonth">29</td><td width="14%" height="50" valign="top" class="agendaNotThisMonth">30</td><td width="14%" height="50" valign="top" class="agendaNotThisMonth">1</td><td width="14%" height="50" valign="top" class="agendaNotThisMonth">2</td><td width="14%" height="50" valign="top" class="agendaNotThisMonth">3</td><td width="14%" height="50" valign="top" class="agendaNotThisMonth">4</td><td width="14%" height="50" valign="top" class="agendaNotThisMonth">5</td></tr>
+<tr>
+  <th width="14%" class="agendaHead"></th><th width="14%" class="agendaHead"></th><th width="14%" class="agendaHead"></th><th width="14%" class="agendaHead"></th><th width="14%" class="agendaHead"></th><th width="14%" class="agendaHead"></th><th width="14%" class="agendaHead"></th></tr><tr><td width="14%" height="50" valign="top" class="agendaNotThisMonth">29</td><td width="14%" height="50" valign="top" class="agendaNotThisMonth">30</td><td width="14%" height="50" valign="top" class="agendaNotThisMonth">1</td><td width="14%" height="50" valign="top" class="agendaNotThisMonth">2</td><td width="14%" height="50" valign="top" class="agendaNotThisMonth">3</td><td width="14%" height="50" valign="top" class="agendaNotThisMonth">4</td><td width="14%" height="50" valign="top" class="agendaNotThisMonth">5</td></tr>
 </table>
 ```
 
@@ -164,45 +160,45 @@ Il suffit en fait de placer dans une feuille de style les éléments suivants, d
 
 ```css
 table.agenda, table.agenda tr, table.agenda th, table.agenda td {
-	font-size: 10px;
+  font-size: 10px;
 }
 
 .agendaNav {
-	background-color: #f90;
-	text-align: center;
+  background-color: #f90;
+  text-align: center;
 }
 
 .agendaHead {
-	background-color: #fc3;
+  background-color: #fc3;
 }
 
 .agendaThisDay {
-	background-color: #fc3;
+  background-color: #fc3;
 }
 
 .agendaThisMonth {
-	background-color: #eee;
+  background-color: #eee;
 }
 
 .agendaNotThisMonth {
-	background: #ddd;
+  background: #ddd;
 }
 
 ul.agendaThemes {
-	list-style: none;	
-	margin: 0px 0px 0px 0px;
-	padding: 0px;
+  list-style: none;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
 }
 
 ul.agendaThemes ul.agendaThemes {
-	list-style: none;	
-	margin: 5px 0px 0px 15px;
-	padding: 0px;
+  list-style: none;
+  margin: 5px 0px 0px 15px;
+  padding: 0px;
 }
 
 table.agenda select {
-	font-size: 10px;
-	background-color: #f90;
+  font-size: 10px;
+  background-color: #f90;
 }
 ```
 
@@ -211,7 +207,7 @@ Les paramètres sont ceux de Gastero Prod, essayez de faire preuve d'initiative 
 
 [^t1]: Vérifiez que vous avez configuré votre site pour gérer ce type de date supplémentaire.
 
-[^t2]: Voir la documentation du critère [*branche*](http://www.spip.net/fr_article902.html) 
+[^t2]: Voir la documentation du critère [*branche*](http://www.spip.net/fr_article902.html)
 
 [^t3]: Le paramètre *date* est pris en charge automatiquement par SPIP depuis sa version 1.6 dans le contexte des boucles de premier niveau
 
