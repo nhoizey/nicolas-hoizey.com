@@ -2,7 +2,7 @@
 title:      D'autres visions de la Tour Eiffel
 lang:       fr
 tags:       [photo]
-500px:      https://500px.com/photo/8341135/between-her-legs-by-nicolas-hoizey
+px500:      https://500px.com/photo/8341135/between-her-legs-by-nicolas-hoizey
 flickr:     https://www.flickr.com/photos/nicolas-hoizey/39343039
 ---
 

@@ -2,7 +2,7 @@
 title:      Plongée en contre plongée
 lang:       fr
 tags:       [photo]
-500px:      http://500px.com/photo/4287644
+px500:      http://500px.com/photo/4287644
 flickr:     https://www.flickr.com/photos/nicolas-hoizey/31535666
 ---
 

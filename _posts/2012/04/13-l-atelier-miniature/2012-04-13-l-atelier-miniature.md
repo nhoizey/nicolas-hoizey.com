@@ -2,7 +2,7 @@
 title:      L'atelier (miniature)
 lang:       fr
 tags:       [photo]
-500px:      https://500px.com/photo/6567188/
+px500:      https://500px.com/photo/6567188/
 flickr:     https://www.flickr.com/photos/nicolas-hoizey/417278137
 ---
 

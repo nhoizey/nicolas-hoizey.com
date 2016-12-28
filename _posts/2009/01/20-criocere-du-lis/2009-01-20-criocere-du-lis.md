@@ -2,7 +2,7 @@
 title:      Criocère du Lis
 lang:       fr
 tags:       [photo]
-500px:      https://500px.com/photo/829279/crioc%C3%A8re-du-lis-by-nicolas-hoizey
+px500:      https://500px.com/photo/829279/crioc%C3%A8re-du-lis-by-nicolas-hoizey
 flickr:     https://www.flickr.com/photos/nicolas-hoizey/3211000164/
 ---
 

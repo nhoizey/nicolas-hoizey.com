@@ -2,7 +2,7 @@
 title:      Layered symmetry
 lang:       fr
 tags:       [photo]
-500px:      http://500px.com/photo/65788305
+px500:      http://500px.com/photo/65788305
 flickr:     https://www.flickr.com/photos/nicolas-hoizey/13601977205/
 ---
 
