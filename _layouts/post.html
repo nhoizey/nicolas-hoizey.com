@@ -69,20 +69,5 @@ layout: default
 </article>
 
 <aside>
-  <h2>À découvrir aussi</h2>
   <related-posts />
-  {% comment %}
-  <div class="list related">
-    {% assign nb = 0 %}
-    {% for post in site.related_posts limit:7 %}
-      {% if post.id != page.id and nb < 6 %}
-        {% assign nb = nb | plus: 1 %}
-        <article {% if post.lang %}lang="{{ post.lang }}"{% endif %}>
-          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-          {% include article-header.html page=post %}
-        </article>
-      {% endif %}
-    {% endfor %}
-  </div>
-  {% endcomment %}
 </aside>
