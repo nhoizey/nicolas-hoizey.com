@@ -67,4 +67,4 @@ Cela ne m'empêche pas de penser comme beaucoup que [css Zen Garden](http://www.
 
 Cette refonte ayant permis d'enfin séparer comme il faut le contenu et le contenant, mais ayant consommé pas mal de temps, il devient nécessaire de se reconcentrer sur les contenus pour accroître la fréquence de publication !
 
-Et si vous souhaitez être tenu au courant des publications, n'hésitez pas à exploiter le [flux RSS](/rss/), il est maintenant au format RSS 2.0.
+Et si vous souhaitez être tenu au courant des publications, n'hésitez pas à exploiter le [flux RSS](/atom.xml), il est maintenant au format RSS 2.0.
