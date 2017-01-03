@@ -6,7 +6,7 @@ tags:  [Web, statique, recherche, Algolia]
 
 Un des soucis avec un site statique tel que celui-ci, c'est que par définition il rend compliquée la mise en œuvre de fonctionnalités habituellement dynamiques. Les commentaires viennent immédiatement à l'esprit, et seront évoqués ultérieurement, mais la mise en place d'un moteur de recherche interne n'est pas plus simple. Heureusement, Algolia est là.
 
-Avant de découvrir les pistes envisagées et ce que j'aime dans Algolia, [allez donc tester par vous-même](http://nicolas-hoizey.com/recherche.html) et/ou regardez ce petit screencast fait pour l'occasion :
+Avant de découvrir les pistes envisagées et ce que j'aime dans Algolia, [allez donc tester par vous-même](/recherche.html) et/ou regardez ce petit screencast fait pour l'occasion :
 
 {% youtube Ia9FFYwkU6c %}
 
