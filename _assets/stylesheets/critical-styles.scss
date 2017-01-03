@@ -404,10 +404,15 @@ article {
 
 .logo {
   display: block;
-  float: right;
-  margin: 0 0 1em 1em;
-  max-width: 33%;
+  margin: 1em auto;
+  max-width: 50%;
   height: auto;
+
+  @media (min-width: 20em) {
+    float: right;
+    margin: 0 0 1em 1em;
+    max-width: 33%;
+  }
 
   @media (min-width: 30em) {
     max-width: 25%;
