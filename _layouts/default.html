@@ -28,9 +28,9 @@ layout: microtypo
 <header id="header">
   <div class="wrap">
     {% if page.url == "/" or page.url == "/index.html" %}
-      <h1>{{ site.title }}</h1>
+      <h1 class="site_title">{{ site.title }}</h1>
     {% else %}
-      <p>
+      <p class="site_title">
         {% if page.path contains "_posts" %}
           {% comment %} https://developers.google.com/structured-data/breadcrumbs {% endcomment %}
           <span id="root" itemscope itemtype="https://schema.org/breadcrumb" itemref="year"><a href="/" title="Home" itemprop="url"><span itemprop="title">{{ site.title }}</span></a></span>
@@ -39,7 +39,7 @@ layout: microtypo
         {% endif %}
       </p>
     {% endif %}
-    <p>
+    <p class="site_search">
       <a href="/recherche.html" class="search">{% asset icon-search.svg %}</a>
     </p>
   </div>

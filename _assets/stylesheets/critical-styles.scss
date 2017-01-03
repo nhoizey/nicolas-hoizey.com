@@ -236,7 +236,10 @@ a, button, input, select, textarea, label, summary {
   }
 
   a:last-child {
-    margin-right: 0;
+    display: inline-block;
+    line-height: 1;
+    margin-right: -.4em;
+    padding: .4em;
   }
 
   p:first-of-type a:hover {
@@ -265,8 +268,9 @@ a, button, input, select, textarea, label, summary {
     @media (min-width: 12em){
       display: flex;
       flex-direction: row;
+      align-items: center;
 
-      p:first-of-type {
+      .site_title {
         flex: 1;
       }
     }
