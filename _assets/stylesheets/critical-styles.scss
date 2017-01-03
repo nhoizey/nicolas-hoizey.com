@@ -119,32 +119,6 @@ pre {
 }
 
 // ************************************************************
-// Sticky article title
-// ************************************************************
-
-// @media (min-width: 20em) and (min-height: 30em) {
-//   h1 {
-//     article & {
-//       position: sticky;
-//       // #header line-height * font-size * body font-size + top margin
-//       top: calc(2 * 1.2 * (.9rem + .3vw + .3vh));
-//       background-color: #fff;
-//       box-shadow: 0 .3em .2em 0 rgba(255,255,255,1);
-//     }
-//   }
-
-//   h1, h2, h3, h4, h5, h6 {
-//     // http://nicolasgallagher.com/jump-links-and-viewport-positioning/
-//     &:target:before {
-//       content: "";
-//       display: block;
-//       height: calc(2 * 1.2 * (.9rem + .3vw + .3vh) + 3 * (#{$h1-string}));
-//       margin: calc(-2 * 1.2 * (.9rem + .3vw + .3vh) - 3 * (#{$h1-string})) 0 0;
-//     }
-//   }
-// }
-
-// ************************************************************
 // General styles
 // ************************************************************
 
