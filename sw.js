@@ -99,17 +99,12 @@ self.addEventListener('fetch', event => {
   let request = event.request;
   let url = new URL(request.url);
 
-  // Only cache local resources and images from Cloudinary
+  // Ignore non-GET requests
+  if (request.method !== 'GET') {
     return;
   }
 
-  // Ignore requests to some directories
-  // if (url.indexOf('/mint') !== -1 || url.indexOf('/cms') !== -1) {
-  //     return;
-  // }
-
-  // Ignore non-GET requests
-  if (request.method !== 'GET') {
+  // Only cache local resources and images from Cloudinary
   if (!(url.origin == location.origin || url.origin == 'https://res.cloudinary.com')) {
     return;
   }
