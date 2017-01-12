@@ -57,7 +57,7 @@ For my own website, I first thought I would only cache visited pages. But I now 
 
 *[WIP]: Work In Progress
 
-There is a user setting to "save data" in some browser, which activation adds a new HTTP header we can test in our Service Workers, as shown by Dean Hume in his post [Service Workers: Save your User's Data using the Save-Data Header](http://deanhume.com/home/blogpost/service-workers--save-your-users-data-using-the-save-data-header/10139), but I think most people that are not as tech savvy as us will never notice this setting, so it's obviously a nice to have, but it's not enough.
+There is a user setting to "save data" in some browser, which activation adds a new HTTP header we can test in our Service Workers, as shown by [Dean Hume](https://twitter.com/deanohume) in his post [Service Workers: Save your User's Data using the Save-Data Header](http://deanhume.com/home/blogpost/service-workers--save-your-users-data-using-the-save-data-header/10139), but I think most people that are not as tech savvy as us will never notice this setting, so it's obviously a nice to have, but it's not enough.
 
 So, it might be nicer to initially cache only the files needed to enhance the performance of the site and provide a clean offline fallback, then add the pages when they are visited, and provide the user with an option to cache the whole site, or part of it, for future offline browsing.
 
