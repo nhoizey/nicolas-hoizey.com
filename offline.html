@@ -32,7 +32,7 @@ window.caches.keys().then(cacheNames => {
       })
       .then(requests => {
         requests.forEach(request => {
-          if (request.url !== lastPostUrl) {
+          if (request.url !== lastPostUrl && !/\/offline.html$/.test(request.url)) {
             addRequestToList(cacheName, request);
           }
         });
@@ -44,7 +44,6 @@ window.caches.keys().then(cacheNames => {
 function addRequestToList(cacheName, request) {
   var url = request.url;
   var shortUrl = url.replace(/https:\/\/nicolas-hoizey\.com/, '');
-
 
   if (shortUrl !== lastPostUrl) {
     var linkElement = document.createElement('a');
