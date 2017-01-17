@@ -60,6 +60,10 @@ h1, h2, h3, h4, h5, h6, [id^="fn:"], [id^="fnref:"] {
   }
 }
 
+[id^="fnref:"]:target:before {
+  display: inline-block;
+}
+
 h1 {
   font-size: $h1;
   line-height: $h1;
