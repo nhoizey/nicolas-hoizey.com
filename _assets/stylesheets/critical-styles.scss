@@ -48,7 +48,9 @@ h1, h2, h3, h4, h5, h6 {
   color: $color-title;
   letter-spacing: -.01em;
   margin-bottom: .5em;
+}
 
+h1, h2, h3, h4, h5, h6, [id^="fn:"] {
   &:target:before {
     content: "";
     display: block;
