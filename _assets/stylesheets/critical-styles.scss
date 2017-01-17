@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5em;
 }
 
-h1, h2, h3, h4, h5, h6, [id^="fn:"] {
+h1, h2, h3, h4, h5, h6, [id^="fn:"], [id^="fnref:"] {
   &:target:before {
     content: "";
     display: block;
