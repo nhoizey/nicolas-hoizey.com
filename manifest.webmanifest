@@ -21,5 +21,10 @@
       "sizes": "400x400",
       "type": "image/jpeg"
     }
-  ]
+  ],
+  "serviceworker": {
+    "src": "sw.js",
+    "scope": "/",
+    "use_cache": false
+  }
 }
