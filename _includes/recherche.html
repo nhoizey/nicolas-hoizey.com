@@ -94,7 +94,7 @@ function searchCallback(err, content) {
       }
       post_tags = post_tags.replace(/^, /, "");
 
-      post = "<article><header><ul><li class=\"date\"><svg class=\"icon\"><use xlink:href=\"#symbol-date\" /></svg> " + post_date + "</li><li class=\"tags\"><svg class=\"icon\"><use xlink:href=\"#symbol-tags\" /></svg> " + post_tags + "</li></ul></header><h2><a href=\"" + hit.url + "\">" + hit._highlightResult.title.value + "</a></h2>" + (hit.text ? "<p>… " + hit.text + " …</p>" : "") + "</article>";
+      post = "<article><h2><a href=\"" + hit.url + "\">" + hit._highlightResult.title.value + "</a></h2><header><ul><li class=\"date\"><svg class=\"icon\"><use xlink:href=\"#symbol-date\" /></svg> " + post_date + "</li><li class=\"tags\"><svg class=\"icon\"><use xlink:href=\"#symbol-tags\" /></svg> " + post_tags + "</li></ul></header>" + (hit.text ? "<p>… " + hit.text + " …</p>" : "") + "</article>";
 
       $results.append(post);
     }
