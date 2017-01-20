@@ -312,6 +312,8 @@ article {
     svg {
       fill: lighten($color-article-header, 20%);
       vertical-align: middle;
+      margin: 0 .3em 0 0;
+      padding: 0;
 
       width: 1.1em;
       height: 1.1em;
