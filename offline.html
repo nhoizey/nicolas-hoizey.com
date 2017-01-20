@@ -7,7 +7,7 @@ title: Pas de connexion
   <p class="icon">{% asset icon-offline.svg %}</p>
   <p class="info">Désolé, <strong>vous ne semblez pas être connecté</strong>, et la page à laquelle vous essayez d'accéder n'est pas dans votre cache.</p>
 </div>
-<p>Voici les pages disponibles dans votre cache :</p>
+<p>En attendant de retrouver une connexion, vous pouvez en apprendre plus <a href="/a-propos/de-moi.html">à propos de moi</a> ou <a href="/a-propos/du-site.html">de ce site</a>, ou lire mon dernier billet ou une des autres pages disponibles dans votre cache :</p>
 {% for post in site.posts limit:1 %}
 <script>
 var lastPostUrl = '{{ post.url }}';
@@ -32,7 +32,10 @@ window.caches.keys().then(cacheNames => {
       })
       .then(requests => {
         requests.forEach(request => {
-          if (request.url !== lastPostUrl && !/\/offline.html$/.test(request.url)) {
+          if (request.url !== lastPostUrl
+              && !/\/offline\.html$/.test(request.url)
+              && !/\/a-propos\/(de-moi|du-site)\.html$/.test(request.url)
+          ) {
             addRequestToList(cacheName, request);
           }
         });
@@ -43,9 +46,9 @@ window.caches.keys().then(cacheNames => {
 
 function addRequestToList(cacheName, request) {
   var url = request.url;
-  var shortUrl = url.replace(/https:\/\/nicolas-hoizey\.com/, '');
+  var shortUrl = url.replace(/https:\/\/nicolas-hoizey\.com/, '').replace(/http:\/\/127\.0\.0\.1:4000/, '');
 
-  if (shortUrl !== lastPostUrl) {
+  // if (shortUrl !== lastPostUrl) {
     var linkElement = document.createElement('a');
     linkElement.href = url;
     linkElement.textContent = shortUrl;
@@ -54,6 +57,6 @@ function addRequestToList(cacheName, request) {
     liElement.appendChild(linkElement);
 
     cacheEntriesUl.appendChild(liElement);
-  }
+  // }
 }
 </script>
