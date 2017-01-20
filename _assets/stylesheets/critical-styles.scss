@@ -190,10 +190,11 @@ a, button, input, select, textarea, label, summary {
   padding: 0;
 
   color: $color-header-text;
-  background-color: #eee;
-  box-shadow: 0 .05em .1em 0 rgba(128,128,128,0.7);
+  background-color: $color-header-background;
+  border-bottom: solid 2px $color-header-border;
 
   h1 {
+    color: $color-header-text;
     margin-bottom: 0;
   }
 
