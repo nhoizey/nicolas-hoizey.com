@@ -32,6 +32,7 @@ SVG is even inline in the HTML, so there is no additional request at all.
 <script async src="https://assets.codepen.io/assets/embed/ei.js"></script>
 
 I made a little screencast for those who don't have SVG support in their browser:
+
 {% youtube y1d1dDWs4_4 %}
 
 There are still some parts missing:
