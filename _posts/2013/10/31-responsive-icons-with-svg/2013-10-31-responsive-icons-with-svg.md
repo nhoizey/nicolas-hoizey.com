@@ -8,17 +8,17 @@ There have already been [some explorations on responsive SVG images](http://blog
 
 {% cloudinary responsive-icons.png %}
 
-[Mariusz Ciesla](http://mariusz.cc/) made [a version](http://codepen.io/mariusz/pen/azBne) with one single div, using one single sprite image:
+[Mariusz Ciesla](http://mariusz.cc/) made [a version](https://codepen.io/mariusz/pen/azBne) with one single div, using one single sprite image:
 
-<p data-height="300" data-theme-id="2148" data-slug-hash="azBne" data-user="mariusz" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/mariusz/pen/azBne'>Responsive icons</a> by Mariusz Ciesla (<a href='http://codepen.io/mariusz'>@mariusz</a>) on <a href='http://codepen.io'>CodePen</a></p>
-<script async src="//codepen.io/assets/embed/ei.js"></script>
+<p data-height="300" data-theme-id="2148" data-slug-hash="azBne" data-user="mariusz" data-default-tab="result" class='codepen'>See the Pen <a href='https://codepen.io/mariusz/pen/azBne'>Responsive icons</a> by Mariusz Ciesla (<a href='https://codepen.io/mariusz'>@mariusz</a>) on <a href='https://codepen.io'>CodePen</a></p>
+<script async src="https://assets.codepen.io/assets/embed/ei.js"></script>
 
-(you need to open it on [CodePen](http://codepen.io/) or resize you window to see the effect, as for following examples.)
+(you need to open it on [CodePen](https://codepen.io/) or resize you window to see the effect, as for following examples.)
 
 [Justin Avery](http://justinavery.me/), famous for [the Responsive Design Weekly newsletter](http://responsivedesignweekly.com/) made [his own version](http://responsivedesign.is/articles/responsive-icons) also with a single SVG image, but with Media Queries inside the SVG itself:
 
-<p data-height="450" data-theme-id="2148" data-slug-hash="cgLHo" data-user="justincavery" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/justincavery/pen/cgLHo'>Responsive Icons</a> by Justin Avery (<a href='http://codepen.io/justincavery'>@justincavery</a>) on <a href='http://codepen.io'>CodePen</a></p>
-<script async src="//codepen.io/assets/embed/ei.js"></script>
+<p data-height="450" data-theme-id="2148" data-slug-hash="cgLHo" data-user="justincavery" data-default-tab="result" class='codepen'>See the Pen <a href='https://codepen.io/justincavery/pen/cgLHo'>Responsive Icons</a> by Justin Avery (<a href='https://codepen.io/justincavery'>@justincavery</a>) on <a href='http://codepen.io'>CodePen</a></p>
+<script async src="https://assets.codepen.io/assets/embed/ei.js"></script>
 
 My own attempt tries to really use SVG features, by using sub elements as progressively revealed building blocks, instead of full houses for every breakpoint. The purpose is to remove as much redundancy as possible, and add some semantic on the way.
 
@@ -26,10 +26,10 @@ There have been concerns in the Dribble comments that the original have too much
 
 SVG is even inline in the HTML, so there is no additional request at all.
 
-[Here it is](http://codepen.io/nhoizey/pen/ICJvA):
+[Here it is](https://codepen.io/nhoizey/pen/ICJvA):
 
-<p data-height="266" data-theme-id="2148" data-slug-hash="ICJvA" data-default-tab="result" data-user="nhoizey" class='codepen'>See the Pen <a href='http://codepen.io/nhoizey/pen/ICJvA/'>SVG Responsive Icons</a> by Nicolas Hoizey (<a href='http://codepen.io/nhoizey'>@nhoizey</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+<p data-height="266" data-theme-id="2148" data-slug-hash="ICJvA" data-default-tab="result" data-user="nhoizey" class='codepen'>See the Pen <a href='https://codepen.io/nhoizey/pen/ICJvA/'>SVG Responsive Icons</a> by Nicolas Hoizey (<a href='https://codepen.io/nhoizey'>@nhoizey</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="https://assets.codepen.io/assets/embed/ei.js"></script>
 
 I made a little screencast for those who don't have SVG support in their browser:
 {% youtube y1d1dDWs4_4 %}
