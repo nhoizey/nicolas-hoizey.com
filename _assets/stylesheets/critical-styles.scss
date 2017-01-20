@@ -54,9 +54,8 @@ h1, h2, h3, h4, h5, h6, [id^="fn:"], [id^="fnref:"] {
   &:target:before {
     content: "";
     display: block;
-    // #header line-height * font-size * body font-size + top margin
-    height: calc(2 * 1.2 * (.9rem + .3vw + .3vh) + 1em);
-    margin: calc(-2 * 1.2 * (.9rem + .3vw + .3vh) - 1em) 0 0;
+    height: 1em;
+    margin: -1em 0 0;
   }
 }
 
