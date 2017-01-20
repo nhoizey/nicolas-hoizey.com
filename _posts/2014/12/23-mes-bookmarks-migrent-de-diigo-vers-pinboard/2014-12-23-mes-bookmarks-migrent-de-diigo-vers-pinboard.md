@@ -34,7 +34,7 @@ Il semble que cela vienne du flux RSS de Pinboard qui mélange tous les tags dan
 
 Voici la *recipe* IFTTT, au cas où vous voudriez faire de même :
 
-<a href="https://ifttt.com/view_embed_recipe/232495-copy-every-new-pinboard-bookmark-to-diigo" target = "_blank" class="embed_recipe embed_recipe-l_41" id= "embed_recipe-232495"><img src= 'https://ifttt.com/recipe_embed_img/232495' alt="IFTTT Recipe: Copy every new Pinboard bookmark to Diigo connects pinboard to diigo" width="370px" style="max-width:100%"/></a><script async type="text/javascript" src= "//ifttt.com/assets/embed_recipe.js"></script>
+<a href="https://ifttt.com/view_embed_recipe/232495-copy-every-new-pinboard-bookmark-to-diigo" target = "_blank" class="embed_recipe embed_recipe-l_41" id= "embed_recipe-232495"><img src= 'https://ifttt.com/recipe_embed_img/232495' alt="IFTTT Recipe: Copy every new Pinboard bookmark to Diigo connects pinboard to diigo" width="370px" style="max-width:100%"/></a><script async type="text/javascript" src= "https://ifttt.com/assets/embed_recipe.js"></script>
 
 # Souci supplémentaire : plus de participation au groupe Web Performance sur Diigo
 

@@ -452,7 +452,7 @@ RewriteRule ^(.*)\)$ https://nicolas-hoizey.com/$1 [QSA,R=301,L]
 
 <IfModule mod_headers.c>
 
-    Header set Content-Security-Policy: "script-src 'self' data: 'unsafe-inline' 'unsafe-eval' speakerdeck.com nicolas-hoizey.disqus.com a.disquscdn.com www.google-analytics.com platform.twitter.com syndication.twitter.com cdn.syndication.twimg.com cdn.jsdelivr.net assets.codepen.io; object-src 'self' vimeo.com; connect-src https://links.services.disqus.com wss://realtime.services.disqus.com *.algolia.net *.algolianet.com; report-uri https://nhocom.report-uri.io/r/default/csp/enforce"
+    Header set Content-Security-Policy: "script-src 'self' data: 'unsafe-inline' 'unsafe-eval' speakerdeck.com nicolas-hoizey.disqus.com a.disquscdn.com www.google-analytics.com platform.twitter.com syndication.twitter.com cdn.syndication.twimg.com cdn.jsdelivr.net assets.codepen.io ifttt.com; object-src 'self' vimeo.com; connect-src https://links.services.disqus.com wss://realtime.services.disqus.com *.algolia.net *.algolianet.com; report-uri https://nhocom.report-uri.io/r/default/csp/enforce"
 
     # `mod_headers` cannot match based on the content-type, however,
     # the `Content-Security-Policy` response header should be send
