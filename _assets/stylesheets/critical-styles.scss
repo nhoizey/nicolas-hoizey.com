@@ -201,9 +201,6 @@ a, button, input, select, textarea, label, summary {
     color: $color-header-link;
     text-decoration: none;
     margin-right: 1em;
-    transition-duration: .1s;
-    transition-property: color;
-    transition-timing-function: ease-in-out;
 
     &:hover {
       color: $color-header-hover;
