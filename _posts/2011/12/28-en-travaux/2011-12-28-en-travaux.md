@@ -20,12 +20,13 @@ Il a aussi l'avantage d'être basé sur [le framework HTML Z](http://www.yterium
 
 Ce que vous n'avez sans doute pas perçu par vous-même si vous n'avez pas lu mes tweets récents, c'est que ce site à aussi connu deux évolutions techniques majeures.
 
-**SPIP 3**
+## SPIP 3
 
 L'évolution technique la plus importante pour le site lui-même, c'est le passage à SPIP 3. Toujours en version *beta*, mais déjà plutôt stable[^stable] et utilisé par de plus en plus de sites, SPIP 3 apporte une palanquée de nouveautés intéressantes par rapport aux versions précédentes, nous y reviendrons prochainement.
 
-**So long Gandi, and thanks for all the fish**
+## So long Gandi, and thanks for all the fish
 
+{% cloudinary logo /assets/logos/alwaysdata.png %}
 L'autre évolution technique importante, mais plus pour moi que le site lui-même, est le passage d'un hébergement [Gandi Serveur](https://www.gandi.net/hebergement/serveur) où je devais tout (mal) faire moi-même, y compris la configuration et les mises à jour système, à un hébergement [AlwaysData](https://www.alwaysdata.com/) infogéré où je n'ai plus à me préoccuper que des sources de mes sites.
 
 Un des arguments de AlwaysData face à une concurrence très large est la mise à disposition d'un accès *ssh* qui me permet de gérer les sources des sites dans un dépôt Git et faire des *pull*, plutôt que tout faire par FTP.
