@@ -5,14 +5,18 @@
 $color-blue: #39f;
 $color-red: #f33;
 $color-grey: #bbb;
+$color-minsk: #3d2e68;
+$color-jacarta: #43246a;
+$color-kingfisher-daisy: #522c82;
+$color-purple-heart: #6531a6;
 
 $color-background: #fff;
 $color-text: #222;
 
 $color-link: $color-blue;
-$color-link-underline: $color-grey;
+$color-link-underline: $color-kingfisher-daisy;
 $color-link-visited: darken($color-link, 10%);
-$color-link-hover: darken($color-link, 20%);
+$color-link-hover: $color-kingfisher-daisy;
 $color-link-active: $color-red;
 
 $color-title: #333;
@@ -22,10 +26,6 @@ $color-article-header: #555;
 $color-article-header-link: #666;
 $color-article-header-hover: $color-blue;
 $color-article-intro: #333;
-
-$color-header-text: #666;
-$color-header-link: #666;
-$color-header-hover: $color-blue;
 
 $color-networks-background: #fff;
 $color-networks-text: $color-title;
