@@ -23,7 +23,7 @@ body {
   flex-direction: column;
 
   font-family: Georgia, "DejaVu Serif", serif;
-  font-size: calc(.9em + .3vw + .3vh);
+  font-size: calc(.9em + .3vw);
   line-height: $baseline;
   font-weight: 400;
 
@@ -295,7 +295,7 @@ main {
 }
 
 article {
-  margin: 0 0 calc(2em + 2vh);
+  margin: 0 0 2em;
 
   header {
     color: $color-article-header;
@@ -303,7 +303,7 @@ article {
 
     ul {
       list-style-type: none;
-      margin: 1vh 0;
+      margin: .2em 0;
       padding: 0;
     }
 

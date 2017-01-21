@@ -44,10 +44,9 @@ $color-footer-border: #666;
 // ************************************************************
 
 $baseline: 1.5em;
-$h1-string: "1.3em + .5vw + .5vh";
-$h1: calc(#{$h1-string});
-$h2: calc(1.2em + .4vw + .4vh);
-$h3: calc(1.1em + .3vw + .3vh);
-$h4: calc(1em + .2vw + .2vh);
-$h5: calc(1em + .1vw + .1vh);
+$h1: calc(1.5em + 1vw);
+$h2: calc(1.3em + .8vw);
+$h3: calc(1.1em + .6vw);
+$h4: calc(1em + .4vw);
+$h5: calc(1em + .2vw);
 $h6: 1em;
