@@ -9,7 +9,7 @@
   "display": "standalone",
   "orientation": "any",
   "background_color": "#fff",
-  "theme_color": "#55aaee",
+  "theme_color": "#43246a",
   "icons": [
     {
       "src": "/assets/photo-de-nicolas-hoizey-192px.jpg",
