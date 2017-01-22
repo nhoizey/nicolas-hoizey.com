@@ -353,6 +353,14 @@ article {
   h1 ~ p:first-of-type {
     font-size: 1.2em;
   }
+
+  ul {
+    margin: 1em 0;
+  }
+
+  li {
+    margin: 0 0 .5em 0;
+  }
 }
 
 #search {
