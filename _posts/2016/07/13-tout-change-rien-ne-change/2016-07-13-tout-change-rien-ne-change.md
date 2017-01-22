@@ -121,7 +121,7 @@ J'utilise maintenant [le plugin officiel](https://github.com/algolia/algoliasear
 
 Malgré ces nombreuses évolutions en coulisses, rien ne change pour les visiteurs, le site généré étant quasiment identique, et même strictement identique côté visuel !
 
-## Mais si, un peu quand même, temporairement
+# Mais si, un peu quand même, temporairement
 
 Parmi les petits changements temporaires tout de même :
 
