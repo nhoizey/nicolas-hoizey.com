@@ -21,6 +21,9 @@ kramdown:
   footnote_backlink: "⬆︎"
   header_offset: 1
 
+# Indexing for related post using the classifier-reborn plugin
+lsi: true
+
 # Defaults
 defaults:
   -
