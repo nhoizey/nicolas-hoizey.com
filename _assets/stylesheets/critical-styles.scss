@@ -24,7 +24,7 @@ body {
 
   font-family: Georgia, "DejaVu Serif", serif;
   font-size: calc(.9em + .3vw);
-  line-height: $baseline;
+  line-height: 1.5;
   font-weight: 400;
 
   color: $color-text;
@@ -36,6 +36,8 @@ body {
 // ************************************************************
 // Fonts
 // ************************************************************
+
+$baseline: 1.5em;
 
 p {
   line-height: $baseline;
@@ -49,52 +51,46 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5em;
 }
 
-h1, h2, h3, h4, h5, h6, [id^="fn:"], [id^="fnref:"] {
-  &:target:before {
-    content: "";
-    display: block;
-    height: 1em;
-    margin: -1em 0 0;
-  }
-}
-
-[id^="fnref:"]:target:before {
-  display: inline-block;
-}
-
+$h1: calc(1.5em + 1vw);
 h1 {
   font-size: $h1;
-  line-height: $h1;
   margin-top: 0;
 }
 
+$h2: calc(1.3em + .7vw);
 h2 {
   font-size: $h2;
   margin-top: calc(2 * #{$baseline} - #{$h2});
 }
 
+$h3: calc(1.1em + .45vw);
 h3 {
   font-size: $h3;
   margin-top: calc(2 * #{$baseline} - #{$h3});
 }
 
+$h4: calc(1em + .25vw);
 h4 {
   font-size: $h4;
+  font-weight: bold;
   margin-top: calc(2 * #{$baseline} - #{$h4});
-  font-style: italic;
 }
 
+$h5: calc(1em + .1vw);
 h5 {
   font-size: $h5;
   margin-top: calc(2 * #{$baseline} - #{$h5});
   font-style: italic;
 }
 
+$h6: 1em;
 h6 {
   font-size: $h6;
   margin-top: calc(2 * #{$baseline} - #{$h6});
   font-style: italic;
 }
+
+// anchors
 
 h1, h2, h3, h4, h5, h6 {
   a.deeplink {
@@ -115,6 +111,19 @@ h1, h2, h3, h4, h5, h6 {
       color: #66f;
     }
   }
+}
+
+h1, h2, h3, h4, h5, h6, [id^="fn:"], [id^="fnref:"] {
+  &:target:before {
+    content: "";
+    display: block;
+    height: 1em;
+    margin: -1em 0 0;
+  }
+}
+
+[id^="fnref:"]:target:before {
+  display: inline-block;
 }
 
 pre {
