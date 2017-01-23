@@ -27,7 +27,7 @@ let cacheEntriesUl = document.querySelector('#cache-entries');
 
 window.caches.keys().then(cacheNames => {
   cacheNames.forEach(cacheName => {
-    if (/\:\:pages/.test(cacheName)) {
+    if (/\:\:pages$/.test(cacheName)) {
       window.caches.open(cacheName).then(cache => {
         return cache.keys();
       })
