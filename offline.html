@@ -34,12 +34,7 @@ window.caches.keys().then(cacheNames => {
       .then(requests => {
         requests.forEach(request => {
           let path = request.url.replace(/^https?:\/\/[^\/]+\//, '/');
-          console.log('testing ' + path);
-          if (
-            path !== lastPostUrl
-            && !/^\/(|index\.html|offline\.html|recherche\.html)$/.test(path)
-            && !/^\/a-propos\/(de-moi|du-site)\.html$/.test(path)
-          ) {
+          if (path !== lastPostUrl && /^\/(tags|[0-9]{4})\//.test(path)) {
             addRequestToList(cacheName, request);
           }
         });
