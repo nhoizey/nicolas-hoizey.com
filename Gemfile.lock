@@ -43,6 +43,7 @@ GEM
       addressable (~> 2)
     ffi (1.9.14)
     forwardable-extended (2.6.0)
+    gsl (2.1.0.1)
     httpclient (2.8.2.4)
     i18n (0.7.0)
     jekyll (3.3.1)
@@ -120,6 +121,7 @@ DEPENDENCIES
   algoliasearch-jekyll
   autoprefixer-rails
   classifier-reborn
+  gsl
   jekyll
   jekyll-archives
   jekyll-assets

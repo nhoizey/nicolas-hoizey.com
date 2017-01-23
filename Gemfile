@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'jekyll'
 gem 'rmagick'
 gem 'yt'
+gem 'gsl'
 
 group :jekyll_plugins do
   gem 'jekyll-assets'
