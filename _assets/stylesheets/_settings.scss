@@ -14,9 +14,9 @@ $color-background: #fff;
 $color-text: #222;
 
 $color-link: $color-blue;
-$color-link-underline: $color-kingfisher-daisy;
+$color-link-underline: $color-grey;
 $color-link-visited: darken($color-link, 10%);
-$color-link-hover: $color-kingfisher-daisy;
+$color-link-hover: $color-purple-heart;
 $color-link-active: $color-red;
 
 $color-title: #333;
@@ -32,10 +32,3 @@ $color-networks-text: $color-title;
 $color-networks-link: #aaa;
 $color-networks-hover: $color-link-hover;
 $color-networks-border: #fff;
-
-$color-footer-background: #333;
-$color-footer-text: #999;
-$color-footer-link: #999;
-$color-footer-hover: #fff;
-$color-footer-border: #666;
-
