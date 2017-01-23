@@ -102,15 +102,11 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
 <aside>
   <h2>À découvrir aussi</h2>
   <div class="list related">
-    {% assign nb = 0 %}
-    {% for post in site.related_posts limit:7 %}
-      {% if post.id != page.id and nb < 6 %}
-        {% assign nb = nb | plus: 1 %}
-        <article {% if post.lang %}lang="{{ post.lang }}"{% endif %}>
-          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-          {% include article-header.html page=post %}
-        </article>
-      {% endif %}
+    {% for post in site.related_posts limit:6 %}
+      <article {% if post.lang %}lang="{{ post.lang }}"{% endif %}>
+        <h3><a href="{{ post.url }}" {% if post.lang %}hreflang="{{ post.lang }}"{% endif %}>{{ post.title }}</a></h3>
+        {% include article-header.html page=post %}
+      </article>
     {% endfor %}
   </div>
 </aside>
