@@ -3,6 +3,36 @@ layout: default
 title: Accueil
 ---
 
+{% comment %}
+JSON-LD for:
+- Site name: https://developers.google.com/search/docs/data-types/sitename
+- Site links searchbox: https://developers.google.com/search/docs/data-types/sitelinks-searchbox
+- Social Profile Links: https://developers.google.com/search/docs/data-types/social-profile-links
+{% endcomment %}
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "name": "Nicolas Hoizey",
+  "url": "https://nicolas-hoizey.com/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://nicolas-hoizey.com/recherche.html?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "sameAs": [
+    "https://twitter.com/nhoizey",
+    "https://500px.com/nhoizey",
+    "https://www.flickr.com/photos/nicolas-hoizey/",
+    "https://www.facebook.com/nhoizey.photo/",
+    "https://instagram.com/nhoizey",
+    "https://github.com/nhoizey"
+  ]
+
+}
+</script>
+
 <p class="intro">Bienvenue sur mon recueil de créations et réflexions sur des sujets très variés, notamment la <a href="/tags/photo.html">photo</a> et le <a href="/tags/web.html">Web</a>. Vous pouvez en savoir plus <a href="/a-propos/de-moi.html">à propos de moi</a> ou <a href="/a-propos/du-site.html">de ce site</a>.</p>
 
 <p>Voici mes plus récents billets :</p>

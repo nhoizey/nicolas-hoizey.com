@@ -2,6 +2,39 @@
 layout: default
 ---
 
+{% comment %}
+Breadcrumb JSON-LD:
+https://developers.google.com/search/docs/data-types/breadcrumbs
+{% endcomment %}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "item": {
+      "@id": "https://nicolas-hoizey.com/{{ page.date | date: "%Y" }}/",
+      "name": "{{ page.date | date: "%Y" }}"
+    }
+  },{
+    "@type": "ListItem",
+    "position": 2,
+    "item": {
+      "@id": "https://nicolas-hoizey.com/{{ page.date | date: "%Y/%m" }}/",
+      "name": "{{ page.date | date: "%m" }}"
+    }
+  },{
+    "@type": "ListItem",
+    "position": 3,
+    "item": {
+      "@id": "{{ site.url }}{{ page.url }}",
+      "name": "{{ page.title }}"
+    }
+  }]
+}
+</script>
+
 <article class="main clearfix" {% if page.lang %}lang="{{ page.lang }}"{% endif %}>
   <h1 id="post">{{ page.title }}</h1>
 
