@@ -22,13 +22,7 @@
 
 // Install Service Worker
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js')
-    .then(function(reg) {
-      console.info('Service Worker registration succeded with scope: ', reg.scope);
-    })
-    .catch(function(error) {
-      console.error('Service Worker registration failed with ' + error);
-    });
+  navigator.serviceWorker.register('/sw.js');
 }
 
 // Clean Service Worker cache
