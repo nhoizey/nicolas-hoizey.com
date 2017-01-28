@@ -40,7 +40,7 @@
   {% comment %} Get the first image in the page {% endcomment %}
   {% capture first_image %}{% include first-image-src.html %}{% endcapture %}
   {% if first_image == "" %}
-    {% assign first_image = site.url | append:'/favicon.jpg' %}
+    {% assign first_image = site.url | append:'/assets/photo-de-nicolas-hoizey-400px.jpg' %}
   {% endif %}
   {% comment %} https://blog.bufferapp.com/ideal-image-sizes-social-media-posts {% endcomment %}
   <meta property="og:image" content="https://res.cloudinary.com/nho/image/fetch/w_1024,h_512,c_fit/u_fetch:{{ first_image | base64_encode }},ar_2:1,c_scale,e_blur:2000,o_70,w_0.7,c_crop/h_1.0,fl_relative.layer_apply/{{ first_image }}" />
