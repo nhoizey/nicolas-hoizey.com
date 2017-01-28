@@ -150,6 +150,63 @@ article {
   }
 }
 
+// ************************************************************
+// Webmentions
+// ************************************************************
+
+.webmentions__list {
+  list-style: none;
+  padding: 0;
+}
+
+.webmentions__item {
+  clear: left;
+  position: relative;
+  padding: .5em 0 0 4em;
+  min-height: 3em;
+
+  article {
+    margin: 0 0 2em;
+  }
+}
+
+.webmention__author {
+  font-size: .9em;
+  font-weight: normal;
+}
+
+.webmention--author-starts .webmention__author .p-name {
+  display: none;
+}
+
+.webmention__author__photo {
+  display: box;
+  position: absolute;
+  top: .8em;
+  left: 0;
+  width: 3em;
+  height: auto;
+  margin: 0;
+  border-radius: 5px;
+}
+
+.webmention__content {
+  margin: 0;
+
+  p {
+    margin: 0;
+  }
+}
+
+.webmention__meta {
+  color: $color-article-header;
+  font-size: .9em;
+}
+
+// ************************************************************
+// Tags cloud
+// ************************************************************
+
 .tagscloud {
   a {
     display: inline-block;

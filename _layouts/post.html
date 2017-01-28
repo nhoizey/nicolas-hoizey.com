@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% capture this_url %}{{ site.url }}{{ page.url }}{% endcapture %}
+
 {% comment %}
 Breadcrumb JSON-LD:
 https://developers.google.com/search/docs/data-types/breadcrumbs
@@ -28,7 +30,7 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
     "@type": "ListItem",
     "position": 3,
     "item": {
-      "@id": "{{ site.url }}{{ page.url }}",
+      "@id": "{{ this_url }}",
       "name": "{{ page.title }}"
     }
   }]
@@ -97,6 +99,14 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
     </script>
     <noscript>Veuillez activer JavaScript pour voir <a href="https://disqus.com/?ref_noscript" rel="nofollow">les commentaires Disqus.</a></noscript>
   {% endif %}
+
+  <div>
+    <h2 id="webmentions">Webmentions (<a href="https://indieweb.org/Webmention">?</a>)</h2>
+    {% if jekyll.environment == "production" %}
+      {% webmentions this_url %}
+    {% endif %}
+  </div>
+
 </article>
 
 <aside>
