@@ -270,27 +270,20 @@ main {
   color: $color-article-intro;
 }
 
-.latest, .recent article {
-  ul {
-    flex-direction: column;
-  }
+.list {
+  clear: both;
+}
+
+.thumbnail {
+  width: 20%;
+  max-width: 128px;
+  float: right;
+  margin: 0 1em 1em 0;
 }
 
 .recent, .related {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
   article {
-    flex: 0 0 100%;
-
-    @media (min-width: 32em) {
-      flex: 0 0 48%;
-    }
-
-    @media (min-width: 50em) {
-      flex: 0 0 31%;
-    }
+    clear: right;
 
     h2 {
       font-size: $h3;
