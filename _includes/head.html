@@ -38,7 +38,7 @@
   <meta name="twitter:widgets:csp" content="on" />
 
   {% comment %} Get the first image in the page {% endcomment %}
-  {% capture first_image %}{% include first-image-src.html %}{% endcapture %}
+  {% capture first_image %}{% include first-image-src.html page=page %}{% endcapture %}
   {% if first_image == "" %}
     {% assign first_image = site.url | append:'/assets/photo-de-nicolas-hoizey-400px.jpg' %}
   {% endif %}

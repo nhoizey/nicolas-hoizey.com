@@ -1,6 +1,6 @@
 {%
 assign foundImage = 0 %}{%
-assign images = page.content | split:'<img ' %}{%
+assign images = include.page.content | split:'<img ' %}{%
 for image in images %}{%
   if foundImage == 1 %}{%
     break %}{%
