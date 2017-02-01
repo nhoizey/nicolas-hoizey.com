@@ -274,11 +274,11 @@ main {
   clear: both;
 }
 
-.thumbnail {
+.poster {
   width: 20%;
-  max-width: 128px;
+  max-width: 256px;
   float: right;
-  margin: 0 1em 1em 0;
+  margin: 0 0 1em 1em;
 }
 
 .recent, .related {

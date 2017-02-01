@@ -1,0 +1,10 @@
+{% if include.page.poster %}
+  {% capture poster_image %}{{ site.url }}{{ include.page.url | url_path }}{{ include.page.poster }}{% endcapture %}
+{% else %}
+  {% capture poster_image %}{% include first-image-src.html page=include.page %}{% endcapture %}
+{% endif %}
+{% if poster_image != "" %}
+  <img src="http://res.cloudinary.com/demo/image/fetch/w_384,h_384,c_fit/u_fetch:{{ poster_image | base64_encode }},ar_1,c_scale,e_blur:2000,o_50,w_0.7,c_crop/h_1.0,fl_relative.layer_apply/{{ poster_image }}" width="384" height="384" class="poster" />
+{% else %}
+  <!-- no poster image -->
+{% endif %}

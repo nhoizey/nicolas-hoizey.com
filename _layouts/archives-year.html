@@ -32,6 +32,7 @@ layout: default
       {% assign month = post_month %}
     {% endif %}
     <article {% if post.lang %}lang="{{ post.lang }}"{% endif %}>
+      {% include poster.html page=post %}
       <h3><a href="{{ post.url }}" {% if post.lang %}hreflang="{{ post.lang }}"{% endif %}>{{ post.title }}</a></h3>
       <header>
         <ul>

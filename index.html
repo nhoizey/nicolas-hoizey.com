@@ -38,6 +38,7 @@ JSON-LD for:
 <p>Voici mes plus récents billets :</p>
 {% for post in site.posts limit:1 %}
   <article class="latest">
+    {% include poster.html page=post %}
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
     {% include article-header.html page=post %}
     {{ post.excerpt | strip_footnotes }}
@@ -47,6 +48,7 @@ JSON-LD for:
 <section class="list recent">
   {% for post in site.posts offset:1 limit:6 %}
     <article {% if post.lang %}lang="{{ post.lang }}"{% endif %}>
+      {% include poster.html page=post %}
       <h2><a href="{{ post.url }}" {% if post.lang %}hreflang="{{ post.lang }}"{% endif %}>{{ post.title }}</a></h2>
       {% include article-header.html page=post %}
     </article>
