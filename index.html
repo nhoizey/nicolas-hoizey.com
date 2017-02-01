@@ -36,21 +36,14 @@ JSON-LD for:
 <p class="intro">Bienvenue sur mon recueil de créations et réflexions sur des sujets très variés, notamment la <a href="/tags/photo.html">photo</a> et le <a href="/tags/web.html">Web</a>. Vous pouvez en savoir plus <a href="/a-propos/de-moi.html">à propos de moi</a> ou <a href="/a-propos/du-site.html">de ce site</a>.</p>
 
 <p>Voici mes plus récents billets :</p>
-{% for post in site.posts limit:1 %}
-  <article class="latest">
-    {% include poster.html page=post %}
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    {% include article-header.html page=post %}
-    {{ post.excerpt | strip_footnotes }}
-  </article>
-{% endfor %}
 
 <section class="list recent">
-  {% for post in site.posts offset:1 limit:6 %}
+  {% for post in site.posts limit:10 %}
     <article {% if post.lang %}lang="{{ post.lang }}"{% endif %}>
       {% include poster.html page=post %}
       <h2><a href="{{ post.url }}" {% if post.lang %}hreflang="{{ post.lang }}"{% endif %}>{{ post.title }}</a></h2>
       {% include article-header.html page=post %}
+      {{ post.excerpt | strip_footnotes }}
     </article>
   {% endfor %}
 </section>
