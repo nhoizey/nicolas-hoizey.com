@@ -341,6 +341,12 @@ a.icon {
       color: $color-red;
     }
   }
+
+  svg {
+    width: 1.2em;
+    height: 1.2em;
+    fill: #fff;
+  }
 }
 
 @media print {
