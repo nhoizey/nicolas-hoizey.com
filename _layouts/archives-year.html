@@ -51,3 +51,20 @@ layout: default
     </article>
   {% endfor %}
 </div>
+
+<div class="annees">
+  <p class="avant">
+    {% if this_year > 2001 %}
+      <a href="/{{ this_year | minus: 1 }}/">«&nbsp;{{ this_year | minus: 1 }}</a>
+    {% else %}
+      <span title="Aucun contenu antérieur, désolé">«&nbsp;{{ this_year | minus: 1 }}</span>
+    {% endif %}
+  </p>
+  <p class="apres">
+    {% if this_year < max_year %}
+      <a href="/{{ this_year | plus: 1 }}/">{{ this_year | plus: 1 }}&nbsp;»</a>
+    {% else %}
+      <span title="Patience !">{{ this_year | plus: 1 }}&nbsp;»</span>
+    {% endif %}
+  </p>
+</div>
