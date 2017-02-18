@@ -1,10 +1,13 @@
 ---
 title:      Les bonnes pratiques webperf toujours sous la main
 lang:       fr
-tags:       [livre, webperf, Web]
+tags:       [livre, webperf]
 ---
 
-La [collection «mémento» de chez Eyrolles](http://www.eyrolles.com/Informatique/Collection/4143/memento.php) vient de s'agrandir, avec l'ajout d'un petit nouveau dédié aux [performances web](http://www.eyrolles.com/Informatique/Livre/memento-performances-web-9782212136586), en termes de vitesse. Incontournable !{% cloudinary memento-webperf-couverture.jpg %}
+La [collection «mémento» de chez Eyrolles](http://www.eyrolles.com/Informatique/Collection/4143/memento.php) vient de s'agrandir, avec l'ajout d'un petit nouveau dédié aux [performances web](http://www.eyrolles.com/Informatique/Livre/memento-performances-web-9782212136586), en termes de vitesse. Incontournable !
+
+{% cloudinary memento-webperf-couverture.jpg %}
+
 Et je ne dis pas ça juste parce que j'ai eu l'honneur d'être invité à participer à sa relecture par ses auteurs [Armel Fauveau](https://twitter.com/fauveauarmel) et [Lionel Pointet](https://twitter.com/lpointet)[^1], c'est vraiment un condensé — très complet et didactique tout de même — des principales bonnes pratiques à respecter pour développer des sites performants, et donc plus agréables pour les visiteurs.
 
 L'optimisation de la vitesse des sites web est en effet un des éléments clefs aujourd'hui de la satisfaction des Internautes, et de leur envie de continuer leur navigation sur le site, voire même d'acheter des produits et/ou services.

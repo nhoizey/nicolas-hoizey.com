@@ -1,6 +1,6 @@
---- 
-title:      "Une recette infaillible pour attirer les adultes dans les parcs d'attraction ?" 
-lang:       fr 
+---
+title:      "Une recette infaillible pour attirer les adultes dans les parcs d'attraction ?"
+lang:       fr
 tags:       [loisirs, photo, fail, humour, Flickr]
 ---
 
@@ -10,7 +10,7 @@ L'Allemagne s'est aussi dotée d'un parc d'attraction de ce type, [Miniatur Wund
 
 ## Au départ, de fausses miniatures
 
-Une mode actuellement très en vogue sur [Flickr](mot39)[^1] consiste à réaliser[^2] de fausses photos de modèles réduits à partir de photos d'éléments de grandeur normale. Cette pratique est appelée *tilt-shift miniature fakes*, du nom des objectifs spéciaux qui permettent d'obtenir le même résultat sans manipulation informatique, et a donné lieu à la création d'un groupe [Tilt-shift miniature fakes](http://www.flickr.com/groups/59319377@N00/). Un second groupe est même né pour mettre en avant les meilleurs éléments, [Top 20 Fake Tilt-Shift](http://www.flickr.com/groups/top20faketiltshift/).
+Une mode actuellement très en vogue sur [Flickr](/tags/flickr.html)[^1] consiste à réaliser[^2] de fausses photos de modèles réduits à partir de photos d'éléments de grandeur normale. Cette pratique est appelée *tilt-shift miniature fakes*, du nom des objectifs spéciaux qui permettent d'obtenir le même résultat sans manipulation informatique, et a donné lieu à la création d'un groupe [Tilt-shift miniature fakes](http://www.flickr.com/groups/59319377@N00/). Un second groupe est même né pour mettre en avant les meilleurs éléments, [Top 20 Fake Tilt-Shift](http://www.flickr.com/groups/top20faketiltshift/).
 
 Si vous voulez vous lancer vous aussi, voici [un bon tutoriel pour Photoshop](http://recedinghairline.co.uk/tutorials/fakemodel/) proposé par Christopher Phin.
 
@@ -50,6 +50,6 @@ Etonnament, ou ne sachant pas comment bien chercher, je n'ai trouvé aucun artic
 **MAJ du 31 mars :** Fred Cavazza s'interroge justement ces jours-ci sur [les dérives du marketing viral](http://www.fredcavazza.net/index.php?2006/03/29/1111-les-derives-du-marketing-viral) vers toujours plus d'excès, allant même maintenant jusqu'à la pornographie pour vendre des vêtements. Jusqu'où sont prêt à aller les vendeurs ?
 
 
-[^1]: Et même [Boing Boing en a parlé](http://www.boingboing.net/2006/02/27/fake_tilt_shift_phot.html) !
+[^1]: Et [même Boing Boing en a parlé](http://www.boingboing.net/2006/02/27/fake_tilt_shift_phot.html) !
 
 [^2]: Avec Photoshop ou The Gimp

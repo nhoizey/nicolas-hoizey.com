@@ -128,3 +128,7 @@ People developing Chrome for Android [now plan to change its behavior to match i
 Chrome will indeed [now work like Safari](https://www.chromestatus.com/features/6241601772847104).
 
 There is a lot of interesting informations in [this study](https://github.com/bokand/URLBarSizing#proposed-changes-to-chrome) about the differences between mobile browsers, and the proposed consensus.
+
+## January 3rd, 2017 update
+
+[Jeremy Keith made the same observation](https://adactio.com/journal/11690), and concluded that "the result of this messiness is that the vh unit is practically useless for real-world situations with real-world devices".

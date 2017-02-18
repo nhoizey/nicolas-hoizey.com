@@ -1,6 +1,6 @@
---- 
-title:      Flickr lance son propre système d'URL courtes 
-lang:       fr 
+---
+title:      Flickr lance son propre système d'URL courtes
+lang:       fr
 tags:       [Flickr, URL, Web]
 ---
 
@@ -19,19 +19,19 @@ Dans le cas de Flickr, c'est un système maison, donc dédié à la réduction d
 
 Le premier point reste cependant valable, les URL raccourcies prenant cette forme : <http://flic.kr/p/5Z9uNn>. Bien malin celui qui pourra déduire directement que ce lien pointe vers [une de mes photos](http://www.flickr.com/photos/nicolas-hoizey/3272125121/), l'URL ne laissant pas apparaître l'identifiant du compte.
 
-<html><a href="http://www.flickr.com/photos/nicolas-hoizey/3272125121/" title="Givre by Nicolas Hoizey, on Flickr"><img src="http://farm4.static.flickr.com/3328/3272125121_de3d4d8130_m.jpg" width="240" height="240" alt="Givre" /></a></html>
+{% cloudinary 20090110-givre.jpg alt="Givre" %}
 
 Alors comment connaître cette URL raccourcie ? Elle est tout simplement utilisée comme adresse de référence sur la page d'une photo, avec le code suivant :
 
-~~~ html
+```html
 <link rev="canonical" type="text/html" href="http://flic.kr/p/5Z9uNn" />
-~~~
+```
 
 Vous aurez noté le `rev="canonical"` [choisi par Flickr](http://laughingmeme.org/2009/04/03/url-shortening-hinting/)  -- à ne pas confondre avec `rel="canonical"`[^4] --  alors qu'il n'y a pas encore de réel consensus sur la meilleure méthode pour indiquer dans une page Web quelle URL courte utiliser quand c'est nécessaire. La preuve avec les [discussions sur Twitter avec le tag #revcanonical](http://search.twitter.com/search?q=%23revcanonical). Personnellement, je suis plutôt de l'avis de [Anne van Kesteren](http://annevankesteren.nl/2009/04/rev-canonical) et [Ben Ramsey](http://benramsey.com/archives/a-revcanonical-rebuttal/), il faudrait plutôt utiliser ceci :
 
-~~~ html
+```html
 <link rel="alternate shorter" type="text/html" href="http://flic.kr/p/5Z9uNn" />
-~~~
+```
 
 Ce que j'ai découvert, c'est que tout utilisateur de Flickr dispose maintenant aussi d'une URL courte pour pointer -- explicitement cette fois -- vers sa page. Je peux ainsi mettre maintenant <http://flic.kr/nicolas-hoizey/> sur mes cartes de visites !
 
