@@ -20,7 +20,7 @@ layout: default
   {% for post in page.posts %}
     <article {% if post.lang %}lang="{{ post.lang }}"{% endif %}>
       {% include poster.html page=post %}
-      <h3><a href="{{ post.url }}" {% if post.lang %}hreflang="{{ post.lang }}"{% endif %}>{{ post.title }}</a></h3>
+      <h2><a href="{{ post.url }}" {% if post.lang %}hreflang="{{ post.lang }}"{% endif %}>{{ post.title }}</a></h2>
       {% include article-header.html page=post %}
       {{ post.excerpt | mardownify | strip_footnotes }}
     </article>
