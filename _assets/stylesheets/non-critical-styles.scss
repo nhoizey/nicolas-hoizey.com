@@ -180,7 +180,7 @@ article {
 }
 
 .webmention__author__photo {
-  display: box;
+  display: block;
   position: absolute;
   top: .8em;
   left: 0;
@@ -238,52 +238,6 @@ article {
 
   .set-5 {
     font-size: 1.9em;
-  }
-}
-
-.annees {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
-  .avant {
-    order: 1;
-  }
-
-  h1 {
-    order: 2;
-    flex: 1;
-    text-align: center;
-
-    span {
-      display: none;
-
-      @media (min-width: 25em) {
-        display: inline;
-      }
-    }
-  }
-
-  .apres {
-    order: 3;
-    text-align: right;
-  }
-}
-
-.archive-month {
-  text-decoration: none;
-
-  &:link, &:visited {
-    color: #000;
-  }
-
-  &:hover, &:active {
-    color: $color-link-hover;
-    text-decoration: underline;
-  }
-
-  &:first-letter {
-    text-transform: capitalize;
   }
 }
 
