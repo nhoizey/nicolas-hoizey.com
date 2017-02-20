@@ -36,22 +36,6 @@ article {
       padding: 0;
     }
 
-    figcaption {
-      // http://nocode.in/aligning-text-smartly-in-css/
-      display: inline-block;
-      text-align: left;
-
-      font-size: .9em;
-      font-style: italic;
-      margin: .1em 1em;
-      padding: .3em 0;
-      color: #999;
-
-      p {
-        margin: 0;
-      }
-    }
-
     &.onehalf {
       max-width: 50%;
     }
@@ -75,6 +59,22 @@ article {
     }
   }
 
+  figcaption {
+    // http://nocode.in/aligning-text-smartly-in-css/
+    display: inline-block;
+    text-align: left;
+
+    font-size: .9em;
+    font-style: italic;
+    margin: .1em 1em;
+    padding: .3em 0;
+    color: #999;
+
+    p {
+      margin: 0;
+    }
+  }
+
   blockquote {
     color: #666;
 
@@ -88,20 +88,20 @@ article {
 
   table {
     border-collapse: collapse;
+  }
 
-    thead {
-      background-color: #eee;
+  thead {
+    background-color: #eee;
 
-      th {
-        vertical-align: bottom;
-      }
+    th {
+      vertical-align: bottom;
     }
+  }
 
-    th, td {
-      padding: .3em .5em;
-      border: 1px solid #ccc;
-      vertical-align: top;
-    }
+  th, td {
+    padding: .3em .5em;
+    border: 1px solid #ccc;
+    vertical-align: top;
   }
 
   a.footnote, a.reversefootnote {
