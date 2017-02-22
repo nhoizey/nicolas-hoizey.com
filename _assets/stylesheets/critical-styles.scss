@@ -200,11 +200,6 @@ a, button, input, select, textarea, label, summary {
 
 #header, #footer {
   .wrap {
-    p, h1 {
-      margin: 0;
-      line-height: 2;
-    }
-
     @media (min-width: 12em){
       display: flex;
       flex-direction: row;
@@ -214,6 +209,11 @@ a, button, input, select, textarea, label, summary {
         flex: 1;
       }
     }
+  }
+
+  p, h1 {
+    margin: 0;
+    line-height: 2;
   }
 }
 
