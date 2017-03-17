@@ -66,3 +66,5 @@ So, it might be nicer to initially cache only the files needed to enhance the pe
 I don't know if Jeremy thought about this or not, but I hope there will be some discussions around this in the community, because Service Workers give us a lot of power, that could be abused by people not aware of the damages it can cause, or even on purpose, just because it helps making websites faster. When [the average page is already more than 2 Mb](https://www.soasta.com/blog/page-bloat-average-web-page-2-mb/), we really have to be careful.
 
 To conclude, it's kind of amusing to see that Jeremy also provides links to download other versions of the book, including PDF, epub and mobi, and most of these files weight less than 16 Mb.
+
+**February 25, 2017 update:** Lighthouse [will now give a lower score if total byte weight is too high](https://github.com/GoogleChrome/lighthouse/pull/1759).

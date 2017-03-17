@@ -129,6 +129,20 @@ Chrome will indeed [now work like Safari](https://www.chromestatus.com/features/
 
 There is a lot of interesting informations in [this study](https://github.com/bokand/URLBarSizing#proposed-changes-to-chrome) about the differences between mobile browsers, and the proposed consensus.
 
+## December, 2016 update
+
+David Bokan explains how Chrome will now behave starting with version 56: [URL Bar Resizing](https://developers.google.com/web/updates/2016/12/url-bar-resizing).
+
+Unfortunately:
+
+> The unintuitive choice of making vh units the largest possible viewport but the ICB the smallest possible is to match Safari's behavior.
+
+*[ICB]: Initial Containing Block
+
 ## January 3rd, 2017 update
 
 [Jeremy Keith made the same observation](https://adactio.com/journal/11690), and concluded that "the result of this messiness is that the vh unit is practically useless for real-world situations with real-world devices".
+
+## February 22nd, 2017 update
+
+Peter-Paul Koch makes the same observation that viewport size is a tricky topic, with many disparities among browsers, in his post [Toolbars, keyboards, and the viewports](https://medium.com/samsung-internet-dev/toolbars-keyboards-and-the-viewports-10abcc6c3769#.h7jmkzqin).
