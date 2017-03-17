@@ -94,9 +94,15 @@ h6 {
 
 h1, h2, h3, h4, h5, h6 {
   a.deeplink {
-    font-size: .7em;
+    font-size: 1rem;
     color: #bbb;
     text-decoration: none;
+
+    svg {
+      width: 1em;
+      height: 1em;
+      fill: #999;
+    }
 
     span {
       color: #fff;
@@ -105,10 +111,14 @@ h1, h2, h3, h4, h5, h6 {
 
   &:hover a.deeplink {
     color: #66f;
-    text-decoration: underline;
+
+    svg {
+      fill: #66f;
+    }
 
     span {
       color: #66f;
+      text-decoration: underline;
     }
   }
 }
