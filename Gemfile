@@ -9,7 +9,7 @@ group :jekyll_plugins do
   gem 'jekyll-assets'
   gem 'autoprefixer-rails'
   gem 'uglifier'
-  gem 'jekyll-tagging', :git => 'https://github.com/pattex/jekyll-tagging.git'
+  gem 'jekyll-tagging'
   gem 'algoliasearch-jekyll'
   gem 'jekyll-postfiles'
   gem 'jekyll-cloudinary'
