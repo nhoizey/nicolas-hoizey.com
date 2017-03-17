@@ -60,7 +60,7 @@ assets:
   autoprefixer:
     browsers:
       - "last 2 versions"
-      - "IE > 9"
+      - "IE > 10"
 
 # Algolia
 algolia:
