@@ -4,6 +4,7 @@ gem 'jekyll'
 gem 'rmagick'
 gem 'yt'
 gem 'gsl'
+gem 'json', github: 'flori/json', branch: 'v1.8'
 
 group :jekyll_plugins do
   gem 'jekyll-assets'
