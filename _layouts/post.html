@@ -108,15 +108,3 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
   </div>
 
 </article>
-
-<aside>
-  <h2>À découvrir aussi</h2>
-  <div class="list related">
-    {% for post in site.related_posts limit:6 %}
-      <article {% if post.lang %}lang="{{ post.lang }}"{% endif %}>
-        <h3><a href="{{ post.url }}" {% if post.lang %}hreflang="{{ post.lang }}"{% endif %}>{{ post.title }}</a></h3>
-        {% include article-header.html page=post %}
-      </article>
-    {% endfor %}
-  </div>
-</aside>

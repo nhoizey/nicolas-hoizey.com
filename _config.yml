@@ -21,7 +21,7 @@ kramdown:
   header_offset: 1
 
 # Indexing for related post using the classifier-reborn plugin
-lsi: true
+lsi: false
 
 # Defaults
 defaults:

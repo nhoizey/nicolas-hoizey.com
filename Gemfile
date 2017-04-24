@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 gem 'jekyll'
 gem 'rmagick'
 gem 'yt'
-gem 'gsl'
 gem 'json', github: 'flori/json', branch: 'v1.8'
 
 group :jekyll_plugins do
@@ -16,5 +15,4 @@ group :jekyll_plugins do
   gem 'jekyll-cloudinary'
   gem 'jekyll-archives'
   gem 'jekyll-microtypo'
-  gem 'classifier-reborn'
 end

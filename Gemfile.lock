@@ -32,18 +32,14 @@ GEM
     autoprefixer-rails (6.7.7.2)
       execjs
     awesome_print (1.7.0)
-    classifier-reborn (2.1.0)
-      fast-stemmer (~> 1.0)
     colorator (1.1.0)
     concurrent-ruby (1.0.5)
     execjs (2.7.0)
     extras (0.1.0)
       forwardable-extended (~> 2.5)
-    fast-stemmer (1.0.2)
     fastimage (2.1.0)
     ffi (1.9.18)
     forwardable-extended (2.6.0)
-    gsl (2.1.0.2)
     httpclient (2.8.3)
     i18n (0.8.1)
     jekyll (3.4.3)
@@ -122,8 +118,6 @@ PLATFORMS
 DEPENDENCIES
   algoliasearch-jekyll
   autoprefixer-rails
-  classifier-reborn
-  gsl
   jekyll
   jekyll-archives
   jekyll-assets
