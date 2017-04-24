@@ -4,11 +4,11 @@ lang:       fr
 tags:       [Twitter]
 ---
 
-Même si [Twitter](http://twitter.com/) a mis en place depuis maintenant un certain temps un mécanisme natif de retweets[^1], je préfère souvent continuer à utiliser les « RT » traditionnels, qui laissent la possibilité de commenter le tweet initial, ce que ne permet pas le retweet officiel. Une règle qui me paraît essentielle pour faciliter le retweet à l'ancienne, c'est de prévoir une taille de tweet suffisamment faible pour que le retweeteur voit son travail facilité, surtout si le tweet initial ne contient que très peu de mots inutiles.
+Même si [Twitter](https://twitter.com/) a mis en place depuis maintenant un certain temps un mécanisme natif de retweets[^1], je préfère souvent continuer à utiliser les « RT » traditionnels, qui laissent la possibilité de commenter le tweet initial, ce que ne permet pas le retweet officiel. Une règle qui me paraît essentielle pour faciliter le retweet à l'ancienne, c'est de prévoir une taille de tweet suffisamment faible pour que le retweeteur voit son travail facilité, surtout si le tweet initial ne contient que très peu de mots inutiles.
 
 [^1]: Mécanisme [expliqué en profondeur par Evan Williams](http://evhead.com/2009/11/why-retweet-works-way-it-does.html)...
 
-{% cloudinary onefourth twitter-logo-trans-180.png %}
+{% cloudinary logo /assets/logos/twitter.png %}
 
 Il faut bien entendu prendre en compte que le retweetteur va inclure dans son propre tweet le tweeteur d'origine, ce qui consommera de la place, au point qu'un retweet par défaut dépasse parfois la taille de 140 caractères. Cela impose une retouche manuelle, et l'Homme étant fainéant par nature, certains préféreront du coup ne pas retweeter plutôt qu'essayer une retouche. Si vous tweetez pour communiquer, vous vous couper un relai qui pourrait être intéressant, et qu'il est facile de conserver.
 

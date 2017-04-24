@@ -28,7 +28,7 @@ Si vous utilisez Dropbox pour synchroniser vos fichiers entre plusieurs appareil
 
 Je conseille plutôt de s'y mettre tout de suite, cela étant devenu plutôt simple de nos jours, et les sauvegardes incrémentales étant transparentes, très rapides, une fois la sauvegarde initiale réalisée. Certes, le délai de réalisation de celle-ci dépendra évidemment du volume à sauvegarder et de votre bande passante montante, cela m'a pris plus d'un mois pour quelques centaines de Go, parce que j'ai une très mauvaise connexion ADSL. Mais il est très clair que je veux bien attendre quelques semaines pour cette initialisation si cela me permet une meilleure protection par la suite.
 
-{% cloudinary onefourth /assets/logos/crashplan.png %}
+{% cloudinary logo /assets/logos/crashplan.png %}
 
 J'avais choisi [Mozy](/2007/05/une-sauvegarde-de-fichiers-en-ligne-tres-simple-pour-pas-cher.html) il y a quelques années, mais leur politique tarifaire a complètement changé et est devenue bien moins intéressante pour les gros volumes, donc j'ai changé pour l'offre [CrashPlan+ Family Unlimited](http://www.crashplan.com/consumer/crashplan-plus.html) pour sauvegarder tous les ordinateurs de la famille.
 

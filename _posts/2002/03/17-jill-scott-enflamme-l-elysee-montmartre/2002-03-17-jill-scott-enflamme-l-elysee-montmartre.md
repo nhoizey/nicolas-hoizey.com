@@ -4,16 +4,13 @@ lang:       fr
 tags:       [musique, concert]
 ---
 
-
-
-
 Lundi 25 février 2002, l'Elysée Montmartre.
 
 Je ne suis pas à priori grand fan de ce type de musique qu'on nomme R&B (prononcer *ar ène bi*), qui n'évoque pas grand chose pour moi si ce n'est une n-ième tentative d'enfermer des artistes dans un [cadre commercial](http://www.amazon.com/exec/obidos/tg/browse/-/39/phpheaven) souvent trop étriqué.
 
 Pourtant, je découvre depuis peu certains des artistes qui y sont catalogués. Je prend par exemple plaisir à écouter [Macy Gray](http://www.amazon.com/exec/obidos/tg/stores/artist/glance/-/183508/phpheaven), grâce à [Fatboy Slim](http://www.amazon.com/exec/obidos/tg/stores/artist/glance/-/90123/phpheaven)). Je ne vois par contre pas pourquoi Amazon m'indique que [Diana Krall](http://www.amazon.com/exec/obidos/tg/stores/artist/glance/-/87104/phpheaven), que j'apprécie particulièrement depuis pas mal de temps, est une artiste *similaire* ...
 
-{% cloudinary onethird art85-1.jpg caption="image 200 x 297" %}
+{% cloudinary onethird art85-1.jpg %}
 
 Enfin bref, c'est par un heureux hasard qu'une amie m'a parlé de [Jill Scott](http://www.amazon.com/exec/obidos/tg/stores/artist/glance/-/207808/phpheaven) et de son passage à Paris en février. Intéressé, je me suis empressé de chercher des infos et d'écouter l'album [Who Is Jill Scott?](http://www.amazon.com/exec/obidos/ASIN/B00004UARR/phpheaven). L'ayant bien apprécié, je me suis laissé tenté par l'idée de ce concert d'un nouveau genre pour moi, mais en terrain connu, le fameux [Elysée Montmartre](http://www.elyseemontmartre.com/).
 
@@ -23,7 +20,7 @@ Après cette petite intro strictement musicale, Jill Scott arrive sur scène. Je
 
 Entre chaque chanson, Jill explique quelles sont ses inspirations, comment elle est devenue chanteuse, pourquoi elle parle d'amour, de couple, de sexe, de tolérance et autres sujets qui lui sont chers. Rien qu'en racontant ses diverses expériences, elle fait monter la chaleur et l'émotion.
 
-{% cloudinary art85-2.jpg caption="image 300 x 220" %}
+{% cloudinary art85-2.jpg %}
 
 Durant les chansons, les corps se trémoussent dans la salle, le public ne fait qu'un, toutes origines confondues, la musique fait de nous des pantins, les sourires sont sur tous les visages.
 
