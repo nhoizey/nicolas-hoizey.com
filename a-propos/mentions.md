@@ -10,6 +10,8 @@ lang: fr
 
 ### [How much data should my Service Worker put upfront in the offline cache?](/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html)
 
+Le **7 avril 2017**, citation par [Bruce Lawson](https://twitter.com/brucel) dans sa *[Reading List](http://www.brucelawson.co.uk/2017/reading-list-164/)* sur son blog.
+
 Le **14 février 2017**, citation par [Jake Bresnehan](https://twitter.com/jake_bresnehan) dans les *headlines* de l'édition n°267 de la newsletter [Web Design Weekly](https://web-design-weekly.com/2017/02/14/web-design-weekly-267/) :
 
 > Nicolas Hoizey raises some really good points about how Service Workers give us a lot of power but with that power comes consequences. If you have implemented Services Workers or have it on your to do list this post is highly recommended.
@@ -36,7 +38,7 @@ Le **17 mars 2016**, citation dans le billet [PX, EM or REM Media Queries?](http
 > Many developers like to believe that users don’t change their browser’s font-size since it’s hidden deeeep inside the settings.
 >
 > […]
-> 
+>
 > Unfortunately, there’s no data to proof that users don’t change their browser’s font-sizes, so it’s still our duty as developers to bake the flexibility into our websites.
 
 Le **11 mars 2016**, citation par [Justin Avery](https://twitter.com/justinavery) dans l'édition n°199 de sa newsletter [RESPONSIVE DESIGN.is](http://us4.campaign-archive1.com/?u=559bc631fe5294fc66f5f7f89&id=186714df7c&e=3450e16ee1) :
@@ -71,7 +73,7 @@ Le **15 janvier 2016**, citation par [Andrzej Mazur](https://twitter.com/end3r) 
 
 Le **4 janvier 2016**, citation par [Rachel Nabors](https://twitter.com/rachelnabors) dans sa newsletter [Web Animation Weekly](http://us1.campaign-archive2.com/?u=0a8f219cf8284562f91a26ee9&id=d424ece21c) :
 
-> Nicolas Hoizey made esviji, a puzzle game made entirely with SVG and SMIL! Version 3 comes out next year and will use the Web Animation API. 
+> Nicolas Hoizey made esviji, a puzzle game made entirely with SVG and SMIL! Version 3 comes out next year and will use the Web Animation API.
 
 Le **15 avril 2014**, citation dans [un tweet d'Ethan Marcotte](https://twitter.com/RWD/status/456053704857497600), créateur du Responsive Web Design :
 
