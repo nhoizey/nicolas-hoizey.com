@@ -134,8 +134,3 @@ jekyll-archives:
   permalinks:
     year: /:year/
     month: /:year/:month/
-
-related:
-  max_count: 6
-  min_score: 0.1
-  accuracy: 0.75
