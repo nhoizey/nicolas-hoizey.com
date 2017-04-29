@@ -36,7 +36,7 @@ Jeremy had the great idea to make this book available offline thanks to [a Servi
 
 According to my browser network panel or [WebPagetest](https://www.webpagetest.org/result/170111_P9_D0V3/), it means **almost 16 Mb are downloaded** right away when you access one page of the site.
 
-{% cloudinary webpagetest-resilientwebdesign.png caption="The Resilient Web Design web book audited by WebPagetest" %}
+{% cloudinary webpagetest-resilient-web-design.png caption="The Resilient Web Design web book audited by WebPagetest" %}
 
 The site is very fast, and all checks are green, but that's because most of the downloads happen asynchronously, after the visited page has been rendered.
 
@@ -46,7 +46,7 @@ For a small site/app that takes 2 or 3 Mb, I can accept to download everything,
 
 Just to illustrate, it means that **one visit to this site will cost a Mauritanian at least 10 % of his daily income**, according to [Tim Kadlec](https://twitter.com/tkadlec)'s simulation on [What Does My Site Cost?](https://whatdoesmysitecost.com/test/170111_P9_D0V3#gniCost).
 
-{% cloudinary whatdoesmysitecost.png caption="Cost of visiting this website as a percentage of daily income" %}
+{% cloudinary what-does-my-site-cost.png caption="Cost of visiting this website as a percentage of daily income" %}
 
 Only 0.24 % for Jeremy in UK or 0.28 % for me in France, but we are here because we love the [World Wide Web, not Wealthy Westerners' Web](https://www.paris-web.fr/2016/conferences/www-world-wide-web-not-wealthy-westerners-web.php), as presented by [Bruce Lawson](https://twitter.com/brucel) during 2016 edition of the Paris Web conference.
 
