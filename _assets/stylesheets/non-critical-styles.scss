@@ -104,6 +104,25 @@ article {
     vertical-align: top;
   }
 
+  kbd {
+    display: inline-block;
+    padding: 3px 5px;
+    color: #444d56;
+    vertical-align: middle;
+    background-color: #f3f3f3;
+    border: solid 1px #c6cbd1;
+    border-bottom-color: #959da5;
+    border-radius: 3px;
+    box-shadow: inset 0 -1px 0 #959da5;
+    line-height: 1;
+  }
+
+  code.highlighter-rouge {
+    display: inline-block;
+    padding: 0 .2em;
+    background-color: #f3f3f3;
+  }
+
   a.footnote, a.reversefootnote {
     text-decoration: none;
     padding: 0 .2em;
