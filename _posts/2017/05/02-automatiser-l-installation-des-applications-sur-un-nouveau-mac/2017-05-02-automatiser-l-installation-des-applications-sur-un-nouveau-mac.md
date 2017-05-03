@@ -4,6 +4,7 @@ lang:  fr
 tags:  [Mac, logiciel, installation]
 ---
 
+{% cloudinary logo /assets/logos/homebrew.png alt="Homebrew" %}
 Voici [un script](https://github.com/nhoizey/macOS-init) qui automatise complètement l'installation de vos applications préférées sur un Mac avec un macOS vierge, et récupère la plupart de vos paramétrages issus d'une installation précédente ou d'un autre Mac.
 
 La migration d'un ancien à un nouveau Mac est extrêmement simple, presque magique, mais elle signifie que tout ce qui n'allait pas sur l'ancien se retrouve sur le nouveau. Je préfère donc depuis quelques années toujours repartir d'une base saine lorsque je commence à utiliser un nouveau Mac.
