@@ -62,7 +62,7 @@ GEM
       pathutil (>= 0.8)
       rack (> 1, < 2)
       sprockets (~> 3.3, < 3.7)
-    jekyll-cloudinary (1.8.1)
+    jekyll-cloudinary (1.9.1)
       fastimage (>= 2.0, < 3.0)
       jekyll (>= 3.0, < 4.0)
     jekyll-microtypo (0.0.6)
