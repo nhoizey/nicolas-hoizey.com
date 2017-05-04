@@ -10,6 +10,6 @@ Voilà bien un sujet photographique qui a déjà largement été traité par tou
 
 {% cloudinary vertige.jpg caption="Vertige" %}
 
-{% cloudinary 2012-07-04-Between-her-legs.jpg caption="Between her legs" %}
+{% cloudinary between-her-legs.jpg caption="Between her legs" %}
 
 {% cloudinary aie_ca_pique.jpg caption="Aïe, ça pique !" %}
