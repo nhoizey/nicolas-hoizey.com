@@ -1,6 +1,6 @@
---- 
-title:      "L'été à Paris sera ..." 
-lang:       fr 
+---
+title:      "L'été à Paris sera ..."
+lang:       fr
 tags:       [loisirs, musique, cinéma]
 ---
 
@@ -34,7 +34,7 @@ Retrouvez le [programme intégral en ligne](http://www.villette.com/manif/manif.
 
 Comme [je le disais l'an dernier](/2003/07/le-cinema-en-plein-air-a-la-villette-c-est-finalement-pas-reparti.html), la mise en regard du trop méconnu « Une balle dans la tête » de John Woo et du fabuleux « Retour vers l'enfer » de Michael Cimino est plus qu'intéressante.
 
-{% cloudinary villette.gif %}
+{% cloudinary villette.jpg %}
 
 
 Comme toujours, la projection commence à la tombée de la nuit, c'est à dire en général vers 22h, tous les jours sauf le lundi, mais il est plus que conseillé d'arriver plus tôt pour trouver une bonne place, siroter un ballon de rouge avec quelques crudités ou de la charcuterie, et surtout admirer le levé d'écran[^t3].

@@ -39,7 +39,7 @@ Heureusement, SPIP propose aussi une *date de publication antérieure*, normalem
 
 C'est cette date que nous allons utiliser pour définir les événements de l'agenda.
 
-{% cloudinary publi_anterieure.gif caption="Utilisation de la date de publication antérieure" %}
+{% cloudinary publi_anterieure.png caption="Utilisation de la date de publication antérieure" %}
 
 ## Organiser les événements
 

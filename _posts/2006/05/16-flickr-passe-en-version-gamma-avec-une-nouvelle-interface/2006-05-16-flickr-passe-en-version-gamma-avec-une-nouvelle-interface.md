@@ -1,10 +1,10 @@
---- 
-title:      "Flickr passe en version gamma avec une nouvelle interface" 
-lang:       fr 
+---
+title:      "Flickr passe en version gamma avec une nouvelle interface"
+lang:       fr
 tags:       [Flickr, Web 2.0, Greasemonkey]
 ---
 
-{% cloudinary logo flickr_logo_gamma.gif %}
+{% cloudinary logo flickr_logo_gamma.png %}
 
 Alors que les versions [*beta*](http://www.2803.com/2006/04/04/le-fameux-beta/) sont légion dans le monde bouillonnant du Web 2.0, [Flickr se jette à l'eau et passe en version *gamma*](http://blog.flickr.com/flickrblog/2006/05/alpha_beta_gamm.html).
 

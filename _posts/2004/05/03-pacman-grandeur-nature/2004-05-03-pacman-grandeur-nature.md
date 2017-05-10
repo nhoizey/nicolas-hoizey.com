@@ -1,6 +1,6 @@
---- 
-title:      "Pacman grandeur nature !" 
-lang:       fr 
+---
+title:      "Pacman grandeur nature !"
+lang:       fr
 tags:       [humour]
 ---
 
@@ -11,12 +11,12 @@ Ils sont membres de l'[Interactive Telecommunications Program](http://itp.nyu.ed
 
 Ceux-là n'ont pas trouvé mieux que de recréer en grandeur nature un des fleurons des débuts de l'informatique ludique, à savoir l'ancêtre Pacman !
 
-{% cloudinary pacman.png %}
+{% cloudinary pacman.jpg %}
 
 
 Ils ont pris un quartier de New York comme terrain de jeux, profitant ainsi de la structure en grille si représentative de nombreuses villes américaines.
 
-{% cloudinary pacmanhattan.gif %}
+{% cloudinary pacmanhattan.png %}
 
 
 Ils ont donc naturellement appelé leur expérience [Pac Manhattan](http://pacmanhattan.com/).
@@ -28,6 +28,6 @@ Tout cela peut être suivi par le monde entier sur Internet.
 A quand une version dans Paris ?
 
 
-[^t1]: Voir la [présentation complète de l'ITP](http://itp.nyu.edu/PROGRAM/overview.html) 
+[^t1]: Voir la [présentation complète de l'ITP](http://itp.nyu.edu/PROGRAM/overview.html)
 
 Merci à la [Ze Liste](http://www.zewoc.com/zeliste) de [Ze WoC](http://www.zewoc.com/), toujours à l'affut de sensations !

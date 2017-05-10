@@ -1,13 +1,13 @@
---- 
-title:      "Ergonomie à revoir : CashStore.fr" 
-lang:       fr 
+---
+title:      "Ergonomie à revoir : CashStore.fr"
+lang:       fr
 tags:       [fail, ergonomie]
 ---
 
 A priori, avant même de penser à ses contenus et à leur présentation, il n'est pas franchement difficile de suivre quelques règles simples d'[ergonomie](http://www.clever-age.com/metiers/formations/mise-en-oeuvre/usabilite-accessibilite-et-outils-de-gestion-de-contenus-web.html) pour assurer à l'internaute une navigation aisée et donc une satisfaction minimale. C'est pourtant trop souvent qu'un site propose une ergonomie bâclée, gênante, voire même parfois bloquante...
 
 
-{% cloudinary logo_cashstore.gif %}
+{% cloudinary logo_cashstore.png %}
 
 Même si j'ai [déjà évoqué](/2005/04/un-probleme-d-ergonomie-chez-les-petits-swiss.html) par le passé des erreurs d'ergonomie rencontrées sur le Web[^1], j'ai décidé de lancer avec cet article une nouvelle série à épisodes pour mettre en évidence de telles erreurs, en espérant que ceux qui me lisent puissent en profiter[^2].
 

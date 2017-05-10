@@ -1,13 +1,12 @@
---- 
-title:      "1 franc, c'est peu et c'est énorme" 
-lang:       fr 
+---
+title:      "1 franc, c'est peu et c'est énorme"
+lang:       fr
 tags:       [société, don]
 ---
 
-
 1 franc, pour vous, ce n'est rien, même pas de quoi vous acheter une baguette de pain.
 
-[{% cloudinary art24-2.gif caption="image 468 x 60" %}
+[{% cloudinary medecins-sans-frontieres-1-franc-par-jour.gif caption="1 franc par jour" %}
 ](http://www.1francparjour.net/)
 
 Pour eux, ce sont deux repas ou un vaccin contre la rougeole. Eux, ce sont les populations en situation critique auprès desquelles intervient [Médecins Sans Frontières](http://www.msf.org/), qui explique :
@@ -22,4 +21,4 @@ Au risque de faire un très mauvais jeu de mots, mais pour être sûr de bien ma
 
 Convaincu ? J'espère ...
 
-{% cloudinary art24-1.jpg caption="image 500 x 208" %}
+{% cloudinary medecins-sans-frontieres.jpg caption="Médecins Sans Frontières" %}

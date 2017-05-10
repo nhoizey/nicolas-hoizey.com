@@ -4,7 +4,7 @@ lang:       fr
 tags:       [humour]
 ---
 
-{% cloudinary onethird art86-1.gif %}
+{% cloudinary onethird pokemon.png %}
 pika Pika-chu-pi-i Pika-pika, Pi piépii pii pika-pi Pi-iéPipi ? ka pipi Kaaa pikachu pi-pi-kaaa-chu-pi Chuuuu-pii à Pikachu kachu chu piâKa à pi-piikachu-pi, ka pi-piikachu ka kachu Pi'ka pi-ka-chu pikaa.
 
 Vous avez compris ? Non ? Alors je recommence ...

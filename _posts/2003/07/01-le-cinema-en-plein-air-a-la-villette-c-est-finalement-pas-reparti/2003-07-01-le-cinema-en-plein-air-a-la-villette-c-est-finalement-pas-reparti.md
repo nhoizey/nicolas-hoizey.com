@@ -1,23 +1,18 @@
---- 
-title:      "Le cinéma en plein air à La Villette, c'est (finalement pas) reparti !" 
-lang:       fr 
+---
+title:      "Le cinéma en plein air à La Villette, c'est (finalement pas) reparti !"
+lang:       fr
 tags:       [cinéma]
 ---
 
-
-
-
-Voilà ce que je disais le 1er juillet, ce n'est plus valable, les intermittents sont passés par là : 
+Voilà ce que je disais le 1er juillet, ce n'est plus valable, les intermittents sont passés par là :
 
 *Comme chaque année, venez découvrir des films célèbres ou parfaitement inconnus, sur une couverture ou dans un transat, sur la prairie du triangle, dans le parc de La Villette.
 
-{% cloudinary villette.gif %}
-
+{% cloudinary villette.jpg %}
 
 Cette année, le thème est **un monde d'orages** et la programmation est une fois de plus motivante, du *Magicien d'Oz* à *L'empire des sens* en passant par *Une balle dans la tête* et *Retour vers l'enfer*, le parallèle entre ces deux derniers films étant plus qu'intéressant.
 
-{% cloudinary pleinair2003.jpg %}
-
+{% cloudinary la-villette-plein-air-2003.jpg %}
 
 Comme toujours, la projection commence à la tombée de la nuit, c'est à dire en général vers 22h, tous les jours sauf le lundi, du 8 juillet au 24 août.
 
