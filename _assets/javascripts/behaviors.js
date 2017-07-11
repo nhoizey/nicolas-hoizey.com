@@ -32,3 +32,19 @@ window.addEventListener('load', function() {
     navigator.serviceWorker.controller.postMessage({'command': 'trimCaches'});
   }
 });
+
+// Deal with offline/online events
+// https://www.youtube.com/watch?v=7fnpsF9tMXc
+window.addEventListener('offline', function (event) {
+  document.body.classList.add('offline');
+  // Array.from(document.querySelectorAll('a'))
+  //   .forEach(link => {
+  //     if (linkIsAvailableOffline(link)) {
+  //       link.classList.add('cached');
+  //     }
+  //   });
+});
+
+window.addEventListener('online', function (event) {
+  document.body.classList.remove('offline');
+});

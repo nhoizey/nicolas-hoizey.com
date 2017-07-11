@@ -530,6 +530,26 @@ article {
   }
 }
 
+#networks {
+  margin-top: 2em;
+  font-size: 1.5em;
+  text-align: center;
+
+  span {
+    white-space: nowrap;
+  }
+
+  a {
+    display: inline-block;
+    padding: .3em;
+    padding: 2vw;
+  }
+}
+
+// ************************************************************
+// Error
+// ************************************************************
+
 .error {
   background-color: lighten($color-red, 35%);
   color: $color-red;
@@ -552,19 +572,28 @@ article {
   }
 }
 
-#networks {
-  margin-top: 2em;
-  font-size: 1.5em;
-  text-align: center;
+// ************************************************************
+// Offline
+// ************************************************************
 
-  span {
-    white-space: nowrap;
-  }
+.offline_indicator {
+  opacity: 0;
+  transition: opacity .5s ease-in-out;
 
-  a {
-    display: inline-block;
-    padding: .3em;
-    padding: 2vw;
+  svg {
+    fill: $color-red;
   }
 }
 
+body.offline {
+  border-top: 5px dashed $color-red;
+
+  // a:not(.cached) {
+  //   opacity: .3;
+  //   pointer-events: none;
+  // }
+
+  .offline_indicator {
+    opacity: 1;
+  }
+}

@@ -6,21 +6,22 @@
 // - Jake Archibald's Offline Cookbook: https://jakearchibald.com/2014/offline-cookbook/
 // - Jeremy Keith's Service Worker: https://adactio.com/journal/9775
 
-const version = '0.7';
+const version = '0.8';
 const staticCacheName = `v${version}::static`;
 const pagesCacheName = `v${version}::pages`;
 const imagesCacheName = `v${version}::images`;
 
-const offlineStatusPage = '/offline.html';
+const unavailableContentPage = '/indisponible.html';
 
 const offlinePages = [
-  offlineStatusPage,
+  unavailableContentPage,
   '/',
   {% for post in site.posts limit:1 %}
   '{{ post.url }}',
   {% endfor %}
   '/a-propos/de-moi.html',
   '/a-propos/du-site.html',
+  '/offline.html'
 ];
 
 const offlineImages = [
@@ -126,7 +127,7 @@ self.addEventListener('fetch', event => {
         .catch(() => {
           // CACHE or FALLBACK
           return caches.match(request)
-            .then(response => response || caches.match(offlineStatusPage));
+            .then(response => response || caches.match(unavailableContentPage));
         })
     );
     return;
