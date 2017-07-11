@@ -208,7 +208,7 @@ a, button, input, select, textarea, label, summary {
 
 #header, #footer {
   .wrap {
-    @media (min-width: 12em){
+    @media (min-width: 15em) {
       display: flex;
       flex-direction: row;
       align-items: center;
