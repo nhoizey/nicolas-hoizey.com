@@ -348,6 +348,9 @@ a.icon {
 
   svg {
     vertical-align: middle;
+    width: 1.2em;
+    height: 1.2em;
+    fill: #fff;
   }
 
   a {
@@ -363,12 +366,6 @@ a.icon {
     &:active {
       color: $color-red;
     }
-  }
-
-  svg {
-    width: 1.2em;
-    height: 1.2em;
-    fill: #fff;
   }
 }
 
