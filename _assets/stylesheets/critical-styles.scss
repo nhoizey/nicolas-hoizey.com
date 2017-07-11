@@ -49,25 +49,25 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5em;
 }
 
-$h1: calc(1.5em + 1vw);
+$h1: calc(1.5em + .5vw);
 h1 {
   font-size: $h1;
   margin-top: 0;
 }
 
-$h2: calc(1.3em + .7vw);
+$h2: calc(1.3em + .35vw);
 h2 {
   font-size: $h2;
   margin-top: calc(2 * #{$baseline} - #{$h2});
 }
 
-$h3: calc(1.1em + .45vw);
+$h3: calc(1.1em + .25vw);
 h3 {
   font-size: $h3;
   margin-top: calc(2 * #{$baseline} - #{$h3});
 }
 
-$h4: calc(1em + .25vw);
+$h4: calc(1em + .15vw);
 h4 {
   font-size: $h4;
   font-weight: bold;
