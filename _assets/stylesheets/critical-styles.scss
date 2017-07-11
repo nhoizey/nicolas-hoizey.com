@@ -37,11 +37,9 @@ body {
 // Fonts
 // ************************************************************
 
-$baseline: 1.5em;
-
 p {
-  line-height: $baseline;
-  margin-bottom: $baseline;
+  line-height: 1.5;
+  margin: $baseline 0;
 }
 
 h1, h2, h3, h4, h5, h6 {

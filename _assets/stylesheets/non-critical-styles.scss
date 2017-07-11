@@ -19,11 +19,11 @@ a[href$=".kml"] {
 // Article
 article {
   p, blockquote, .intro, .footnotes {
-    margin: 1em 0;
+    margin: $baseline 0;
   }
 
   figure, img, iframe, .embed-video-container {
-    margin: 2em auto;
+    margin: $baseline auto;
     display: block;
   }
 
@@ -50,12 +50,12 @@ article {
 
     &.left {
       float: left;
-      margin: 0 1em 1em 0;
+      margin: 0 $baseline $baseline 0;
     }
 
     &.right {
       float: right;
-      margin: 0 0 1em 1em;
+      margin: 0 0 $baseline $baseline;
     }
   }
 
