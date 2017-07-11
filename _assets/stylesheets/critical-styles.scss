@@ -276,6 +276,30 @@ a, button, input, select, textarea, label, summary {
 }
 
 // ************************************************************
+// Intro
+// ************************************************************
+
+#intro {
+  color: #fff;
+  background-color: lighten($color-jacarta, 20%);
+  background: linear-gradient(155deg, lighten($color-jacarta, 15%) 0%, lighten($color-purple-heart, 15%) 100%);
+  border-bottom: solid 2px lighten($color-kingfisher-daisy, 15%);
+
+  p {
+    margin-bottom: 1em;
+  }
+
+  a {
+    color: lighten($color-purple-heart, 50%);
+
+    &:hover {
+      color: lighten($color-purple-heart, 40%);
+    }
+  }
+
+}
+
+// ************************************************************
 // Main content
 // ************************************************************
 
