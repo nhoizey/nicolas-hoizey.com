@@ -12,7 +12,7 @@ Au delà de cette installation initiale d'un nouveau Mac, il est aussi parfois u
 
 Mais cela peut prendre pas mal de temps et donner des migraines, si l'on a peur d'oublier certaines applications ou paramétrages, d'où l'automatisation nécessaire.
 
-## Comment ce script fonctionne-t-il ?
+# Comment ce script fonctionne-t-il ?
 
 {% cloudinary logo /assets/logos/homebrew.png alt="Homebrew" %}
 Ce script était initialement très largement inspiré de [celui de Nicolas Furno](https://github.com/nicolinuxfr/macOS-post-installation)[^furno], mais est ensuite passé à l'utilisation de [Homebrew Bundle](https://github.com/Homebrew/homebrew-bundle) grâce à la suggestion de [Thomas Parisot](https://twitter.com/oncletom). Il permet d'installer presque tous les logiciels que j'utilise, et de configurer quelques paramètres automatiquement après l'installation de macOS.
@@ -32,16 +32,16 @@ Le script utilise 4 applications pour automatiser cela :
 - [mas](https://github.com/mas-cli/mas) permet d'installer des applications du Mac App Store, à condition qu'elles aient déjà été achetées ou téléchargées au moins une fois si elles sont gratuites ;
 - [Mackup](https://github.com/lra/mackup) enfin permet de restaurer les préférences d'applications depuis une installation précédente ou un autre Mac.
 
-## Comment l'utiliser ?
+# Comment l'utiliser ?
 
 Voici comment utiliser les deux scripts :
 
-### Installation initiale de l'OS vierge
+## Installation initiale de l'OS vierge
 
 1. Installez macOS
 1. Lancez le Mac App Store et connectez-vous à votre compte
 
-### Première étape
+## Première étape
 
 1. Téléchargez la dernière version du projet ([lien direct](https://github.com/nhoizey/macOS-init/archive/master.zip)) ;
 1. Ouvrez les fichiers `post-install.sh` et `Brewfile`, et modifiez ce qui est installé par défaut ;
@@ -58,7 +58,7 @@ Le script fonctionnera largement sans votre intervention, sauf :
 
 Si tout va bien, il se terminera normalement sans erreur, mais en cas d'erreur, vous pourrez relancer le script et seul ce qui n'a pas déjà été installé, sera installé ;
 
-### Seconde étape
+## Seconde étape
 
 Quand le premier script est terminé, et quand vos données sont synchronisées depuis le cloud :
 
@@ -67,11 +67,11 @@ Quand le premier script est terminé, et quand vos données sont synchronisées 
 
 Voilà, c'est opérationnel.
 
-### Mises à jour ultérieures
+## Mises à jour ultérieures
 
 1. Lancez le script `update.sh` pour mettre à jour toutes les applications qui le nécessitent.
 
-## L'automatisation ultime
+# L'automatisation ultime
 
 Je me suis encore plus facilité la tâche avec une automatisation supplémentaire qui lance directement l'installation de **ma propre sélection** d'applications, sans avoir à passer par toutes les autres étapes ci-dessus :
 
