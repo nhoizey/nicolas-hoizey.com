@@ -6,6 +6,7 @@ tags:  [livre, liseuse, ebook, papier]
 
 Je réagi ici au [billet de Stéphane sur le livre numérique qu'il ne juge pas encore probant](http://nota-bene.org/Livre-numerique-pas-encore-probant-pour-moi) pour donner mon propre avis. J'allais répondre chez lui, mais j'ai voulu trop écrire, ça devenait inconfortable dans le petit champ de saisi, donc j'ai fini par plutôt écrire chez moi… ;-)
 
+{% cloudinary onethird Cybook-Odyssey-HD-FrontLight.jpg %}
 Je lis extrêmement peu en dehors du Web (trop peu, même), et surtout des ouvrages consacrés à [mes deux passions](/a-propos.html) que sont le Web (surtout ses techniques) et la photographie (tant les techniques que les œuvres).
 
 Je devrais lire plus de romans — je prends d'ailleurs plaisir à le faire de temps en temps, surtout en vacances —, mais je n'arrive pas à prendre le temps nécessaire, consacrant le peu que j'ai à mes lectures techniques associées à mes *pet projects* comme [mon jeu esviji](http://esviji.com/).
