@@ -78,17 +78,7 @@
   {% endif %}
   <meta property="og:title" content="{{ title }}" />
 
-  {% comment %} Get the first image in the page {% endcomment %}
-  {% capture first_image %}{% include first-image-src.html page=page %}{% endcapture %}
-  {% if first_image == "" %}
-    {% assign first_image = site.url | append:'/assets/photo-de-nicolas-hoizey-400px.jpg' %}
-  {% endif %}
-  {% comment %}
-  https://blog.bufferapp.com/ideal-image-sizes-social-media-posts
-  {% endcomment %}
-
-  {% assign post_title = title | url_escape | replace: ',', '%252C' | replace: '?', '%3F' %}
-  <meta property="og:image" content="https://res.cloudinary.com/nho/image/fetch/e_blur:2000,c_crop,ar_1200:628,b_white/e_grayscale/w_1200/l_fetch:{{ first_image | base64_encode }},h_1.0,w_1.0,fl_relative,c_limit,e_make_transparent:15/b_rgb:3d2e68,o_30/w_1140,c_fit,l_text:georgia_80:{{ post_title }},g_north_west,x_31,y_32,co_black,o_90/w_1140,c_fit,l_text:georgia_80:{{ post_title }},g_north_west,x_30,y_30,co_white/l_text:georgia_40:nicolas-hoizey.com,g_south_east,x_30,y_30,co_black/l_text:georgia_40:nicolas-hoizey.com,g_south_east,x_31,y_31,co_white/{{ first_image }}" />
+  {% include social-image.html page=post %}
 
   <link rel="alternate" type="application/rss+xml" title="Abonnez-vous au flux" href="/atom.xml" />
   <link rel="icon" type="image/jpeg" href="/favicon.jpg" />
