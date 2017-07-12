@@ -85,11 +85,10 @@
   {% endif %}
   {% comment %}
   https://blog.bufferapp.com/ideal-image-sizes-social-media-posts
-
-  https://res.cloudinary.com/nho/image/fetch/e_blur:2000,c_crop,ar_1200:628,b_rgb:ffffff/e_grayscale/w_1200/l_fetch:aHR0cHM6Ly9uaWNvbGFzLWhvaXpleS5jb20vYXNzZXRzL2xvZ29zL2Nsb3VkaW5hcnkucG5n,h_1.0,w_1.0,fl_relative,c_limit/w_1200,c_fit,l_text:georgia_80:Cloudinary%20fait%20la%20promotion%20de%20mon%20plugin%20Jekyll,g_north_west,x_31,y_32,co_white,o_90/w_1200,c_fit,l_text:georgia_80:Cloudinary%20fait%20la%20promotion%20de%20mon%20plugin%20Jekyll,g_north_west,x_30,y_30,co_black/w_1200,c_fit,l_text:courier_30:nicolas-hoizey.com,g_south_east,x_30,y_30,co_black/https://nicolas-hoizey.com/assets/logos/cloudinary.png
   {% endcomment %}
 
-  <meta property="og:image" content="https://res.cloudinary.com/nho/image/fetch/e_blur:2000,c_crop,ar_1200:628,b_rgb:ffffff/e_grayscale/w_1200/l_fetch:{{ first_image | base64_encode }},h_1.0,w_1.0,fl_relative,c_limit/w_1200,c_fit,l_text:georgia_80:{{ title | url_encode }},g_north_west,x_31,y_32,co_white,o_90/w_1200,c_fit,l_text:georgia_80:{{ title | url_encode }},g_north_west,x_30,y_30,co_black/w_1200,c_fit,l_text:courier_30:nicolas-hoizey.com,g_south_east,x_30,y_30,co_black/{{ first_image }}" />
+  {% assign post_title = title | url_escape | replace: ',', '%252C' | replace: '?', '%3F' %}
+  <meta property="og:image" content="https://res.cloudinary.com/nho/image/fetch/e_blur:2000,c_crop,ar_1200:628,b_white/e_grayscale/w_1200/l_fetch:{{ first_image | base64_encode }},h_1.0,w_1.0,fl_relative,c_limit,e_make_transparent:15/b_rgb:3d2e68,o_30/w_1140,c_fit,l_text:georgia_80:{{ post_title }},g_north_west,x_31,y_32,co_black,o_90/w_1140,c_fit,l_text:georgia_80:{{ post_title }},g_north_west,x_30,y_30,co_white/l_text:georgia_40:nicolas-hoizey.com,g_south_east,x_30,y_30,co_black/l_text:georgia_40:nicolas-hoizey.com,g_south_east,x_31,y_31,co_white/{{ first_image }}" />
 
   <link rel="alternate" type="application/rss+xml" title="Abonnez-vous au flux" href="/atom.xml" />
   <link rel="icon" type="image/jpeg" href="/favicon.jpg" />
