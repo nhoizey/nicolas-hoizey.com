@@ -45,7 +45,7 @@ Voici comment utiliser les deux scripts :
 
 1. Téléchargez la dernière version du projet ([lien direct](https://github.com/nhoizey/macOS-init/archive/master.zip)) ;
 1. Ouvrez les fichiers `post-install.sh` et `Brewfile`, et modifiez ce qui est installé par défaut ;
-1. Pensez à changer la ligne `open -a Dropbox` de [`post-install.sh`](https://github.com/nhoizey/macOS-init/blob/master/post-install.sh) en fonction du service Cloud utilisé, ou alors à la supprimer si vous ne voulez pas en utilisez ;
+1. Pensez à changer les lignes `brew cask install dropbox` et `open -a Dropbox` de [`post-install.sh`](https://github.com/nhoizey/macOS-init/blob/master/post-install.sh) en fonction du service Cloud utilisé, ou alors à la supprimer si vous ne voulez pas en utilisez ;
 1. À partir de la ligne `## *** CONFIGURATION ***`, le script configure quelques réglages par défaut, à modifier selon vos besoins ;
 1. [Ouvrez ensuite le Terminal de macOS](http://fr.wikihow.com/ouvrir-le-Terminal-sur-un-Mac), glissez le fichier `post-install.sh` depuis le Finder vers le Terminal, et appuyez sur la touche <kbd>Entrée</kbd> et accrochez votre ceinture ;
 
