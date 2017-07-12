@@ -37,48 +37,36 @@
   {% comment %} https://dev.twitter.com/web/overview/widgets-webpage-properties#csp {% endcomment %}
   <meta name="twitter:widgets:csp" content="on" />
 
-  {% comment %} Get the first image in the page {% endcomment %}
-  {% capture first_image %}{% include first-image-src.html page=page %}{% endcapture %}
-  {% if first_image == "" %}
-    {% assign first_image = site.url | append:'/assets/photo-de-nicolas-hoizey-400px.jpg' %}
-  {% endif %}
-  {% comment %} https://blog.bufferapp.com/ideal-image-sizes-social-media-posts {% endcomment %}
-  <meta property="og:image" content="https://res.cloudinary.com/nho/image/fetch/w_1024,h_512,c_fit/u_fetch:{{ first_image | base64_encode }},ar_2:1,c_scale,e_blur:2000,o_70,w_0.7,c_crop/h_1.0,fl_relative.layer_apply/{{ first_image }}" />
-
   {% if page.title == "Accueil" %}
+    {% capture title %}Nicolas Hoizey{% endcapture %}
     <title itemprop="name">Nicolas Hoizey</title>
     <link rel="canonical" href="{{ site.url }}" itemprop="url" />
     <meta name="description" content="{{ site.description }}" />
     <meta property="og:url" content="{{ site.url }}" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="{{ site.title }}" />
   {% else %}
     {% if page.type == "year" %}
-      <title>Billets de {{ page.date | date: "%Y" }}</title>
+      {% capture title %}Billets de {{ page.date | date: "%Y" }}{% endcapture %}
       <meta name="description" content="Billets de Nicolas Hoizey publiés en {{ page.date | date: "%Y" }}" />
       <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
       <meta property="og:type" content="website" />
-      <meta property="og:title" content="Billets de {{ page.date | date: "%Y" }}" />
     {% else %}
       {% if page.type == "month" %}
-        <title>Billets de {% include mois.html page=page %} {{ page.date | date: "%Y" }}</title>
+        {% capture title %}Billets de {% include mois.html page=page %} {{ page.date | date: "%Y" }}{% endcapture %}
         <meta name="description" content="Billets de Nicolas Hoizey publiés en {% include mois.html page=page %} {{ page.date | date: "%Y" }}" />
         <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Billets de {% include mois.html page=page %} {{ page.date | date: "%Y" }}" />
       {% else %}
         {% if page.tag %}
-          <title>{{ page.tag }}</title>
+          {% capture title %}{{ page.tag }}{% endcapture %}
           <meta name="description" content="Billets de Nicolas Hoizey auxquels est associé le tag « {{ page.tag }} »" />
           <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
           <meta property="og:type" content="website" />
-          <meta property="og:title" content="{{ page.tag }}" />
         {% else %}
-          <title>{{ page.title }}</title>
+          {% capture title %}{{ page.title }}{% endcapture %}
           <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 150 | truncate: 290 | strip_newlines | escape_once }}" />
           <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
           <meta property="og:type" content="article" />
-          <meta property="og:title" content="{{ page.title }}" />
           <meta property="article:author" content="https://www.facebook.com/nhoizey" />
           {% for tag in page.tags %}
             <meta property="article:tag" content="{{ tag }}" />
@@ -86,7 +74,22 @@
         {% endif %}
       {% endif %}
     {% endif %}
+    <title>{{ title }}</title>
   {% endif %}
+  <meta property="og:title" content="{{ title }}" />
+
+  {% comment %} Get the first image in the page {% endcomment %}
+  {% capture first_image %}{% include first-image-src.html page=page %}{% endcapture %}
+  {% if first_image == "" %}
+    {% assign first_image = site.url | append:'/assets/photo-de-nicolas-hoizey-400px.jpg' %}
+  {% endif %}
+  {% comment %}
+  https://blog.bufferapp.com/ideal-image-sizes-social-media-posts
+
+  https://res.cloudinary.com/nho/image/fetch/e_blur:2000,c_crop,ar_1200:628,b_rgb:ffffff/e_grayscale/w_1200/l_fetch:aHR0cHM6Ly9uaWNvbGFzLWhvaXpleS5jb20vYXNzZXRzL2xvZ29zL2Nsb3VkaW5hcnkucG5n,h_1.0,w_1.0,fl_relative,c_limit/w_1200,c_fit,l_text:georgia_80:Cloudinary%20fait%20la%20promotion%20de%20mon%20plugin%20Jekyll,g_north_west,x_31,y_32,co_white,o_90/w_1200,c_fit,l_text:georgia_80:Cloudinary%20fait%20la%20promotion%20de%20mon%20plugin%20Jekyll,g_north_west,x_30,y_30,co_black/w_1200,c_fit,l_text:courier_30:nicolas-hoizey.com,g_south_east,x_30,y_30,co_black/https://nicolas-hoizey.com/assets/logos/cloudinary.png
+  {% endcomment %}
+
+  <meta property="og:image" content="https://res.cloudinary.com/nho/image/fetch/e_blur:2000,c_crop,ar_1200:628,b_rgb:ffffff/e_grayscale/w_1200/l_fetch:{{ first_image | base64_encode }},h_1.0,w_1.0,fl_relative,c_limit/w_1200,c_fit,l_text:georgia_80:{{ title | url_encode }},g_north_west,x_31,y_32,co_white,o_90/w_1200,c_fit,l_text:georgia_80:{{ title | url_encode }},g_north_west,x_30,y_30,co_black/w_1200,c_fit,l_text:courier_30:nicolas-hoizey.com,g_south_east,x_30,y_30,co_black/{{ first_image }}" />
 
   <link rel="alternate" type="application/rss+xml" title="Abonnez-vous au flux" href="/atom.xml" />
   <link rel="icon" type="image/jpeg" href="/favicon.jpg" />
