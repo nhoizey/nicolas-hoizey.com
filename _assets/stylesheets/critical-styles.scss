@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 $h1: calc(1.5em + .5vw);
 h1 {
   font-size: $h1;
-  margin-top: 0;
+  margin-top: calc(2 * #{$baseline} - #{$h1});
 }
 
 $h2: calc(1.3em + .35vw);
