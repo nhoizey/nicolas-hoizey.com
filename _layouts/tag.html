@@ -18,12 +18,7 @@ layout: default
 
 <div class="list">
   {% for post in page.posts %}
-    <article {% if post.lang %}lang="{{ post.lang }}"{% endif %}>
-      {% include poster.html page=post %}
-      <h2><a href="{{ post.url }}" {% if post.lang %}hreflang="{{ post.lang }}"{% endif %}>{{ post.title }}</a></h2>
-      {% include article-header.html page=post %}
-      {{ post.excerpt | mardownify | strip_footnotes }}
-    </article>
+    {% include post-abstract.html page=post level=2 %}
   {% endfor %}
 </div>
 

@@ -35,11 +35,6 @@ JSON-LD for:
 
 <section class="list recent">
   {% for post in site.posts limit:10 %}
-    <article {% if post.lang %}lang="{{ post.lang }}"{% endif %}>
-      {% include poster.html page=post %}
-      <h2><a href="{{ post.url }}" {% if post.lang %}hreflang="{{ post.lang }}"{% endif %}>{{ post.title }}</a></h2>
-      {% include article-header.html page=post %}
-      {{ post.excerpt | strip_footnotes }}
-    </article>
+    {% include post-abstract.html page=post level=2 %}
   {% endfor %}
 </section>

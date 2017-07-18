@@ -31,24 +31,11 @@ layout: default
       <h2><a href="/{{ page.date | date: "%Y" }}/{{ post.date | date: "%m" }}" class="archive-month">{{ month_name | capitalize }}</a></h2>
       {% assign month = post_month %}
     {% endif %}
-    <article {% if post.lang %}lang="{{ post.lang }}"{% endif %}>
-      {% include poster.html page=post %}
-      <h3><a href="{{ post.url }}" {% if post.lang %}hreflang="{{ post.lang }}"{% endif %}>{{ post.title }}</a></h3>
-      <header>
-        <ul>
-          <li class="date">
-            <svg class="icon"><use xlink:href="#symbol-date" /></svg>
-            {{ post.date | date: "%-d" }}
-            {% include mois.html page=post %}
-          </li>
-          <li class="tags">
-            <svg class="icon"><use xlink:href="#symbol-tags" /></svg>
-            {{ post | tags }}
-          </li>
-        </ul>
-      </header>
-      {{ post.excerpt | markdownify | strip_footnotes }}
-    </article>
+    {% include post-abstract.html page=post level=3 %}
+
+    {% comment %}
+    {{ post.excerpt | markdownify | strip_footnotes }}
+    {% endcomment %}
   {% endfor %}
 </div>
 
