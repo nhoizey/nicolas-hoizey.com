@@ -12,7 +12,7 @@ title: Accueil
       {% comment %} Get the first image in the page {% endcomment %}
       {% capture image %}{% include first-image-src.html page=post %}{% endcapture %}
       {% if image == "" %}
-        {% assign image = site.url | append:'/assets/vide.png' %}
+        {% assign image = site.url | append:'/assets/degrade.png' %}
       {% endif %}
 
       {% assign title = post.title | url_escape | replace: ' ', '%20' | replace: ',', '%252C' | replace: '?', '%3F' %}
