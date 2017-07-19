@@ -49,43 +49,63 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5em;
 }
 
-$h1: calc(1.5em + .5vw);
+$fontBreakpoint: 40em;
+
+$h1: calc(.9em + 3vw);
 h1 {
-  font-size: $h1;
   margin-top: calc(2 * #{$baseline} - #{$h1});
+  font-size: $h1;
+
+  @media (min-width: $fontBreakpoint) {
+    font-size: calc(.9em + #{$fontBreakpoint} * .03);
+  }
 }
 
-$h2: calc(1.3em + .35vw);
+$h2: calc(.9em + 2vw);
 h2 {
-  font-size: $h2;
   margin-top: calc(2 * #{$baseline} - #{$h2});
+  font-size: $h2;
+
+  @media (min-width: $fontBreakpoint) {
+    font-size: calc(.9em + #{$fontBreakpoint} * .02);
+  }
 }
 
-$h3: calc(1.1em + .25vw);
+$h3: calc(.9em + 1.5vw);
 h3 {
-  font-size: $h3;
   margin-top: calc(2 * #{$baseline} - #{$h3});
+  font-size: $h3;
+
+  @media (min-width: $fontBreakpoint) {
+    font-size: calc(.9em + #{$fontBreakpoint} * .015);
+  }
 }
 
-$h4: calc(1em + .15vw);
+$h4: calc(.9em + 1vw);
 h4 {
-  font-size: $h4;
-  font-weight: bold;
   margin-top: calc(2 * #{$baseline} - #{$h4});
+  font-size: $h4;
+
+  @media (min-width: $fontBreakpoint) {
+    font-size: calc(.9em + #{$fontBreakpoint} * .01);
+  }
 }
 
-$h5: calc(1em + .1vw);
+$h5: calc(.9em + .5vw);
 h5 {
-  font-size: $h5;
   margin-top: calc(2 * #{$baseline} - #{$h5});
-  font-style: italic;
+  font-size: $h5;
+
+  @media (min-width: $fontBreakpoint) {
+    font-size: calc(.9em + #{$fontBreakpoint} * .005);
+  }
 }
 
 $h6: 1em;
 h6 {
-  font-size: $h6;
   margin-top: calc(2 * #{$baseline} - #{$h6});
   font-style: italic;
+  font-size: $h6;
 }
 
 // anchors
