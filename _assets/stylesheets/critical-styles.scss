@@ -256,7 +256,6 @@ a, button, input, select, textarea, label, summary {
   padding: .2em 0;
 
   color: #fff;
-  background-color: $color-jacarta;
   background: linear-gradient(155deg, $color-jacarta 0%, $color-purple-heart 100%);
   border-bottom: solid 2px $color-kingfisher-daisy;
 
@@ -302,7 +301,6 @@ a, button, input, select, textarea, label, summary {
 
 #intro {
   color: #fff;
-  background-color: lighten($color-jacarta, 20%);
   background: linear-gradient(155deg, lighten($color-jacarta, 15%) 0%, lighten($color-purple-heart, 15%) 100%);
   border-bottom: solid 2px lighten($color-kingfisher-daisy, 15%);
 
