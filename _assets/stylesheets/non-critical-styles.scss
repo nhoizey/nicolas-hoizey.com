@@ -395,6 +395,62 @@ a.icon {
   }
 }
 
+// ************************************************************
+// Error
+// ************************************************************
+
+.error {
+  margin: 1em 0;
+  padding: .2em .5em;
+  background-color: lighten($color-red, 35%);
+  color: $color-red;
+  border: 1px solid $color-red;
+  border-radius: .3em;
+
+  p {
+    margin: .5em;
+  }
+
+  .icon {
+    font-size: 2.5em;
+    line-height: 1;
+    float: left;
+    margin: .2em .3em .3em 0;
+
+    svg {
+      fill: $color-red;
+    }
+  }
+}
+
+// ************************************************************
+// Offline
+// ************************************************************
+
+.offline_indicator {
+  opacity: 0;
+  transition: opacity .5s ease-in-out;
+
+  svg {
+    fill: $color-red;
+  }
+}
+
+body.offline {
+  // a:not(.cached) {
+  //   opacity: .3;
+  //   pointer-events: none;
+  // }
+
+  .offline_indicator {
+    opacity: 1;
+  }
+}
+
+// ************************************************************
+// Print
+// ************************************************************
+
 @media print {
   @page { margin: 2cm }
 
@@ -416,3 +472,4 @@ a.icon {
     content:" &lt; " attr(href) "&gt; ";
   }
 }
+
