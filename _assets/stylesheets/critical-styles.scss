@@ -583,10 +583,12 @@ article {
 // ************************************************************
 
 .error {
+  margin: 1em 0;
+  padding: .2em .5em;
   background-color: lighten($color-red, 35%);
   color: $color-red;
   border: 1px solid $color-red;
-  padding: .2em .5em;
+  border-radius: .3em;
 
   p {
     margin: .5em;
