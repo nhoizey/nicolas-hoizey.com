@@ -327,36 +327,10 @@ a.icon {
     color: $color-networks-hover;
   }
 
-  &.twitter:hover {
-    color: #55acee;
-  }
-
-  &.px500:hover {
-    color: #000;
-  }
-
-  &.flickr:hover {
-    color: #ff0084;
-  }
-
-  &.github:hover {
-    color: #666;
-  }
-
-  &.facebook:hover {
-    color: #3b5998;
-  }
-
-  &.instagram:hover {
-    color: #3f729b;
-  }
-
-  &.deviantart:hover {
-    color: #5fbb3b;
-  }
-
-  &.feed:hover {
-    color: #ee9900;
+  @each $network in $color-networks-specific-hover {
+    &.#{nth($network, 1)}:hover {
+      color: nth($network, 2);
+    }
   }
 }
 
