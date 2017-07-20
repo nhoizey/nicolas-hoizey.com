@@ -6,7 +6,7 @@
 // - Jake Archibald's Offline Cookbook: https://jakearchibald.com/2014/offline-cookbook/
 // - Jeremy Keith's Service Worker: https://adactio.com/journal/9775
 
-const version = '0.8';
+const version = '0.9';
 const staticCacheName = `v${version}::static`;
 const pagesCacheName = `v${version}::pages`;
 const imagesCacheName = `v${version}::images`;
@@ -152,7 +152,7 @@ self.addEventListener('fetch', event => {
             // OFFLINE
             // If the request is for an image, show an offline placeholder
             if (request.headers.get('Accept').indexOf('image') !== -1) {
-              return new Response('<svg role="img" aria-labelledby="offline-title" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg"><title id="offline-title">Offline</title><g fill="none" fill-rule="evenodd"><path fill="#D8D8D8" d="M0 0h400v300H0z"/><text fill="#43246a" font-family="Helvetica Neue,Arial,Helvetica,sans-serif" font-size="72" font-weight="bold"><tspan x="93" y="172">offline</tspan></text></g></svg>', {headers: {'Content-Type': 'image/svg+xml'}});
+              return new Response('<svg role="img" aria-labelledby="offline-title" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg"><title id="offline-title">Offline</title><g fill="none" fill-rule="evenodd"><path fill="#D8D8D8" d="M0 0h400v300H0z"/><text fill="#43246a" font-family="Georgia,serif" font-size="72"><tspan x="93" y="172">offline</tspan></text></g></svg>', {headers: {'Content-Type': 'image/svg+xml'}});
             }
           });
       })
