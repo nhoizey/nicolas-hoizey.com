@@ -401,24 +401,23 @@ a.icon {
 // ************************************************************
 
 .offline_indicator {
-  opacity: 0;
   transition: opacity .5s ease-in-out;
 
   svg {
     fill: $color-red;
   }
-}
 
-body.offline {
-  // a:not(.cached) {
-  //   opacity: .3;
-  //   pointer-events: none;
-  // }
-
-  .offline_indicator {
+  body.offline & {
     opacity: 1;
   }
 }
+
+// body.offline {
+//   a:not(.cached) {
+//     opacity: .3;
+//     pointer-events: none;
+//   }
+// }
 
 // ************************************************************
 // Print
