@@ -1,0 +1,27 @@
+---
+id: comment-2867805845
+date: '2008-09-29 13:47:31 +0000'
+updated: '2008-09-29 13:47:31 +0000'
+post_id: "/2008/07/faut-il-que-je-revienne-a-un-unique-flux-rss"
+author:
+  url: http://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<blockquote> <p>Perso j'aime bien les pages du type de celle de Simon Willison,
+  ça donne tout de même un peu de choix.</p> </blockquote><p>A part sa <i>watchlist</i>,
+  c'est aussi en gros ce que j'ai pour l'instant.</p><blockquote> <p>J'aime
+  bien aussi quand le flux d'un tag particulier est dispo</p> </blockquote><p>C'est
+  le cas ici, mais pas gérés par FeedBurner.</p><blockquote> <p>le must étant
+  les flux multi-tags</p> </blockquote><p>Clair, mais pas forcément hyper
+  simple à mettre en œuvre, même si je saurais le faire avec SPIP. Et surtout si on
+  veut les mettre dans FeedBurner, sauf si l'API — que je ne connais pas du tout —
+  permet pas trop difficilement de créer de nouveaux flux à la volée.</p><blockquote>
+  <p>Par contre j'aime pas les gars qui foutent tout leur bazar dans leur unique flux,
+  genre mes articles, mes photos flickr, ma timeline facebook et mes morceaux <a href='http://last.fm'>last.fm</a>… C'est beaucoup de bruit pour peu d'intérêt,
+  souvent.</p> </blockquote><p>En l'occurrence, je ne prévoie de mettre que
+  les contenus publiés sur le site, donc par ordre de quantité décroissante des liens
+  (une dizaine par semaine max), des billets (3 à 5 par semaine), quelques photos
+  (2 ou 3 par mois pour l'instant). Je ne prévoie certainement par de mettre FriendsFeed
+  dans mon flux RSS… ;-)</p>
+"

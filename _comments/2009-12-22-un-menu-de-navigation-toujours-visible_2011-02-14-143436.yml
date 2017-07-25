@@ -1,0 +1,13 @@
+---
+id: comment-2867805787
+date: '2011-02-14 14:34:36 +0000'
+updated: '2011-02-14 14:34:36 +0000'
+post_id: "/2009/12/un-menu-de-navigation-toujours-visible"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p>Il faut sans doute retoucher ton thème pour définir quel élément doit
+  passer en position fixe, et utiliser son nom dans mon code JavaScript qui peut être
+  chargé en fin de page.</p>"

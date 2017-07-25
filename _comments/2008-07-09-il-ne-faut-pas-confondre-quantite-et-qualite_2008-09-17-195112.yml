@@ -1,0 +1,13 @@
+---
+id: comment-2867806237
+date: '2008-09-17 19:51:12 +0000'
+updated: '2008-09-17 19:51:12 +0000'
+post_id: "/2008/07/il-ne-faut-pas-confondre-quantite-et-qualite"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: dreamz
+content: "<p>Salut,</p><p>pour éviter les parasites de google image, il suffit
+  d'ajouter une balise<br /> meta robots avec la valeur NOARCHIVE<br /> autre solution,
+  marquer ses images, pour peu qu'on en soit l'auteur</p>"

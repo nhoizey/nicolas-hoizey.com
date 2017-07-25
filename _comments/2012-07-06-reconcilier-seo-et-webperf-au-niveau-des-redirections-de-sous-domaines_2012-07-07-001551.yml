@@ -1,0 +1,15 @@
+---
+id: comment-2867805122
+date: '2012-07-07 00:15:51 +0000'
+updated: '2012-07-07 00:15:51 +0000'
+post_id: "/2012/07/reconcilier-seo-et-webperf-au-niveau-des-redirections-de-sous-domaines"
+author:
+  url:
+  email:
+  image: no-avatar.png
+  name: Anthony Ricaud
+content: "<p>Le fait que tu dises « je dois vérifier » est l'illustration de ma dernière
+  phrase. Ça complique la QA (et le code) pour le bénéfice de peu d'utilisateurs.
+  Sans oublier les risques de cloaking que l'on a évoqués. Donc ce n'est pas une optimisation
+  que je considère viable. Mais ce n'est que mon avis :)</p>
+"

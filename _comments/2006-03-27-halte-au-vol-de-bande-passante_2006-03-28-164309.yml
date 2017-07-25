@@ -1,0 +1,14 @@
+---
+id: comment-2867807059
+date: '2006-03-28 16:43:09 +0000'
+updated: '2006-03-28 16:43:09 +0000'
+post_id: "/2006/03/halte-au-vol-de-bande-passante"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p>J'ai ajouté le paramètre qui doit éviter
+  ce désagrément :</p><br />&lt;div style=&#034;text-align:
+  left;&#034; class=&#034;spip_code&#034; dir=&#034;ltr&#034;&gt;&lt;code&gt;var
+  cocomment_force = false;</code>&lt;/div&gt;<br /><p>Vous confirmez ?</p>"

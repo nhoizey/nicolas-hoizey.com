@@ -1,0 +1,15 @@
+---
+id: comment-2867805374
+date: '2008-10-09 21:20:54 +0000'
+updated: '2008-10-09 21:20:54 +0000'
+post_id: "/2008/01/amusons-nous-avec-des-boucles-spip-et-les-petits-nouveaux-get-set-et-array"
+author:
+  url:
+  email:
+  image: no-avatar.png
+  name: Mortimer
+content: "<p>Pour éviter que ça plante quand il n'y a pas de résultat dans la boucle de sélection _sites, il vaut mieux ajouter :</p>
+  <p><code><pre>[(#SET{sites,[(#GET{sites}|push{0})]})]</pre></code></p>
+  <p>juste après</p>
+  <p><code><pre>#SET{sites,#ARRAY}</pre></code></p>
+  <p>sinon spip génère une requête erronée (un bug peut être).</p>"

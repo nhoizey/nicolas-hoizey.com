@@ -1,0 +1,16 @@
+---
+id: comment-2867805519
+date: '2006-04-25 13:52:08 +0000'
+updated: '2006-04-25 13:52:08 +0000'
+post_id: "/2006/04/gastero-prod-est-maintenant-severement-feed-burne"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: NiCoS
+content: "<p>Euh tu aurais comme pas oublié de rafraichir le cache
+  ou c'est un &#034;bug&#034; lié à la propapagation des DNS
+  ? ;-)</p> <p>Et coté serveur, ça fait quoi, ça
+  limite les charges comme RSSCache ou bien c'est juste un intermédiaire qui
+  fournit des stats et gère des requêtes comme si on attaquait le
+  site directement ?</p>"

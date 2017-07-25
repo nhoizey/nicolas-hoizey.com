@@ -1,0 +1,15 @@
+---
+id: comment-2867804954
+date: '2013-09-12 19:25:14 +0000'
+updated: '2013-09-12 19:25:14 +0000'
+post_id: "/2013/09/gerer-des-commentaires-sur-un-blog-statique"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: remouk
+content: "<p>Je ne vois pas en quoi le contenu statique améliore la disponibilité
+  ? Et pour les performances, avec un cache configuré au poil, ça peut revenir au
+  même, sauf que les commentaires seraient intégrés au blog, ce qui est tout de même
+  bien mieux…</p><p>Je ne vois toujours pas l'intérêt d'un système statique.
+  :D Après, WordPress était un exemple, il existe bien d'autres CMS dédiés aux blogs.</p>"

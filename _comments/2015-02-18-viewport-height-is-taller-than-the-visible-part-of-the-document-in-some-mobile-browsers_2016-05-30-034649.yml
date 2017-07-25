@@ -1,0 +1,15 @@
+---
+id: comment-2702368175
+date: '2016-05-30 03:46:49 +0000'
+updated: '2016-05-30 03:46:49 +0000'
+post_id: "/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers"
+author:
+  url:
+  email:
+  image: joelduckworth.jpg
+  name: Joel Duckworth
+content: "<p>oh actually, even better… use the following, it might even solve your problems. Don't use vh measures. Take away min-height if you don't want it to expand over 100%.</p>
+  <p><code>html, body { height: 100%; min-height: 100%; }</code></p>
+  <p><code>.full-screen { height: 100%; min-height: 100%; }</code></p>
+  <p><code>&lt;html&gt;&lt;body&gt;&lt;div class=\"full-screen\"&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;</code></p>
+  <p>… and then try the same positioning.</p>"

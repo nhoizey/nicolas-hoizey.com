@@ -1,0 +1,16 @@
+---
+id: comment-2867805366
+date: '2008-01-26 03:52:59 +0000'
+updated: '2008-01-26 03:52:59 +0000'
+post_id: "/2008/01/gastero-prod-08-beaucoup-plus-de-changements-que-les-simples-realignements-progressifs-precedents"
+author:
+  url:
+  email:
+  image: no-avatar.png
+  name: NiCoS
+content: "<p>Ouch, le formulaire de commentaire est explosé :-(</p><p>Sinon
+  c'est pas mal du tout - marrant, avec Atome (un jour mon —prince— projet viendra…),
+  j'avais une idée de présentation un peu similaire pour la « home ».</p><p>Par
+  contre tu aurais pu prévoir une redirection apache de l'ancienne url du flux RSS
+  vers le nouveau…</p>
+"

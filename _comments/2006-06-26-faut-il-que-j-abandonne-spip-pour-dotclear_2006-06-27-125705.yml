@@ -1,0 +1,18 @@
+---
+id: comment-2867805948
+date: '2006-06-27 12:57:05 +0000'
+updated: '2006-06-27 12:57:05 +0000'
+post_id: "/2006/06/faut-il-que-j-abandonne-spip-pour-dotclear"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: izo
+content: "<p>Les tracksbacks dans spip fonctionne avec le squelette spipclear.
+  Il suffit juste de verifier si cela tourne avec spip 1.9 et de le transformer en
+  plugin.<br />Pour les pingbacks, si j'ai
+  bien compris , on doit utiliser XML-RPC, il a un debut de code sur spip-lab pour
+  les courageux .<br />Je suis en train
+  de me preparer un blog et je vais le faire sous spip car il faut passer un temps
+  fou à tester des plugins sous WP et Dotclear pour avoir un truc potable.
+  Ce qu'il manque à Spip, c'est une saisie rapide des tags comme chez Flickr.</p>"

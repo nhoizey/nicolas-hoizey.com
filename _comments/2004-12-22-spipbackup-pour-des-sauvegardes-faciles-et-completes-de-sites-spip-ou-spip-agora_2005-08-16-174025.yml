@@ -1,0 +1,16 @@
+---
+id: comment-2867806322
+date: '2005-08-16 17:40:25 +0000'
+updated: '2005-08-16 17:40:25 +0000'
+post_id: "/2004/12/spipbackup-pour-des-sauvegardes-faciles-et-completes-de-sites-spip-ou-spip-agora"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: Alexandre GRAPIN
+content: "<p>Ok, alors si ce doit être fait manuellement, garder
+  à l'esprit que phpMyAdmin subit les limitations PHP de taille max de fichier
+  uploadé !</p> <p>On m'a récemment indiqué un
+  moyen très simple en ligne de commande :<br /><i>C :\\leRepDeMySQL&gt;mysql -d spip -u spip &lt; leFichierDeCommandesSQL.sql</i></p>
+  <p>Si ça peut servir…</p> <p>Et pis pour les ; manquants,
+  c'est pas grave, on va s'arranger ;-)</p>"

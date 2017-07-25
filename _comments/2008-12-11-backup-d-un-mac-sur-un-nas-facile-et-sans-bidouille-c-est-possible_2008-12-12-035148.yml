@@ -1,0 +1,15 @@
+---
+id: comment-2867806203
+date: '2008-12-12 03:51:48 +0000'
+updated: '2008-12-12 03:51:48 +0000'
+post_id: "/2008/12/backup-d-un-mac-sur-un-nas-facile-et-sans-bidouille-c-est-possible"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p>Sauf que le NAS a l'avantage d'être potentiellement à quelque distance
+  de l'ordi, et donc potentiellement les deux ne subissent pas en même temps des dégâts
+  dûs au feu, à l'eau, ou autre…</p><p>Et je ne me sens pas encore de mettre
+  1 To de données sur S3 avec JungleDisk, même si une solution de sauvegarde distante
+  serait certes un plus.</p>"

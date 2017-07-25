@@ -1,0 +1,21 @@
+---
+id: comment-2867804950
+date: '2013-09-12 18:48:35 +0000'
+updated: '2013-09-12 18:48:35 +0000'
+post_id: "/2013/09/gerer-des-commentaires-sur-un-blog-statique"
+author:
+  url: http://www.kloh.ch/
+  email:
+  image: no-avatar.png
+  name: Luc
+content: "<p>Ça ne répond pas à la problématique des commentaires mais tu as jeté un
+  œil à <a href='http://www.pluxml.org/'>PluXml</a> ?<br /> Dans l'optique d'avoir une gestion plus
+  simple pour un blog ça me paraît pas mal. Et il y a le système de commentaire avec.
+  :o)<br /> Ça fait un moment que je me dis qu'il faut que je teste mais j'ai jamais
+  pris le temps…</p><p>Sinon la problématique des commentaires pour du contenu
+  statique m'intéresse pas mal aussi.<br /> Je n'en ai nullement besoin mais la problématique
+  de gérer les commentaires indépendamment du système derrière les pages (statique
+  ou dynamique) à la Disqus vaut le mérite de s'y attarder. Ne serait-ce que pour
+  avoir une solution qui ne dépende pas d'un tiers et qui permet de garder le « contrôle »
+  (la conservation surtout) de ces contenus.<br /> Je vais suivre ça de près. ^^</p>
+"

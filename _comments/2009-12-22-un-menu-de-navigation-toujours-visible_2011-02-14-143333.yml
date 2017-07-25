@@ -1,0 +1,13 @@
+---
+id: comment-2867805781
+date: '2011-02-14 14:33:33 +0000'
+updated: '2011-02-14 14:33:33 +0000'
+post_id: "/2009/12/un-menu-de-navigation-toujours-visible"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p>I don't understand why you used my code, because your menu is always
+  on top, you can put it in <code>position: fixed;</code> directly in the CSS, without
+  any JavaScript.</p>"

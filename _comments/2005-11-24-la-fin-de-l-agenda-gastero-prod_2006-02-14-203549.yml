@@ -1,0 +1,55 @@
+---
+id: comment-2867805641
+date: '2006-02-14 20:35:49 +0000'
+updated: '2006-02-14 20:35:49 +0000'
+post_id: "/2005/11/la-fin-de-l-agenda-gastero-prod"
+author:
+  url: http://catice.ac-besancon.fr/lycee_lumiere/index.html
+  email:
+  image: no-avatar.png
+  name: masben
+content: "<p>Ce qui ne va plus avec Spip 1.8.2 :</p>
+  <p>les attributs des balises img (pour les logos) sont maintenant entre \" alors qu'ils étaient entre '</p>
+  <p>Il faut corriger la ligne 26 :</p>
+  <p><strong>-</strong> $events[$date][] = array('link' => '#URL_ARTICLE', 'title' => '<abbr title=\"texte_script)\">(#TITRE</abbr>', 'logo' => \"#LOGO_ARTICLE_RUBRIQUE\") ;</p>
+  <p> <strong>+</strong> $events[$date][] = array('link' => '#URL_ARTICLE', 'title' => '<abbr title=\"texte_script)\">(#TITRE</abbr>', 'logo' => '#LOGO_ARTICLE_RUBRIQUE') ;</p>
+  <p>et il reste un mélange de ' et \" dans le fichier inc-calcul-outils.php3 de Spip 1.8.2g qu'il faut patcher ligne58 :</p>
+  <p> <strong>-</strong> . \" style='border-width : 0px ;' class='spip_logos' />\" ;</p>
+  <p> <strong>+</strong> . \" style=\"border-width : 0px ;\" class=\"spip_logos\" />\" ;</p>
+  <p>(j'ai déposé un ticket sur <a href='http://trac.rezo.net'>trac.rezo.net</a></
+
+
+
+
+
+p>"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

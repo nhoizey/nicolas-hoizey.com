@@ -1,0 +1,15 @@
+---
+id: comment-2867805330
+date: '2008-11-21 23:16:55 +0000'
+updated: '2008-11-21 23:16:55 +0000'
+post_id: "/2008/06/surveillez-vos-erreurs-404-elles-peuvent-etre-tres-instructives"
+author:
+  url:
+  email:
+  image: no-avatar.png
+  name: Jacques
+content: "<p>Avec SPIP 2, il est aisé de faire un log spécifique.</p><p>Exemple
+  à mettre en début de 404.html :</p>
+  <p>
+  <code> spip_log(\"404 REQUEST_URI:\".$_SERVER[\"REQUEST_URI\"],\"404\");<br /> </code>
+  </p>"

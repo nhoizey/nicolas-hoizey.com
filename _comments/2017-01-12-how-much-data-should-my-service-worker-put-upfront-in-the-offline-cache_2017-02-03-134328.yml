@@ -1,0 +1,14 @@
+---
+id: comment-3135686670
+date: '2017-02-03 13:43:28 +0000'
+updated: '2017-02-03 13:43:28 +0000'
+post_id: "/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache"
+author:
+  url:
+  email:
+  image: michael_gunner.jpg
+  name: Michael Gunner
+content: "<p>Perhaps there should be a browser drop down - a bit like others you get - where it says something like</p>
+  <p>\"This website wants to store information on your computer, so you can access offline. Allow?\"</p>
+  <p>With the available options to allow or deny.</p>
+"

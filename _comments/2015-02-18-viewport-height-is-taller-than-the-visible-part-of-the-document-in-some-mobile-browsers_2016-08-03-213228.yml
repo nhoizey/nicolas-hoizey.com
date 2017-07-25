@@ -1,0 +1,14 @@
+---
+id: comment-2819492805
+date: '2016-08-03 21:32:28 +0000'
+updated: '2016-08-03 21:32:28 +0000'
+post_id: "/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers"
+author:
+  url:
+  email: 
+  image: jackdinker.jpg
+  name: Jack Dinker
+content: "<p>Googled around to find an answer why this was happening, because I was
+  tearing my hair out.  Glad I'm not the only one that sees an issue with it.</p><p>Viewport
+  means its in view.  When you throw a navigation bar on top of it, that kind of defeats
+  the hole purpose of the standard.</p>"

@@ -1,0 +1,17 @@
+---
+id: comment-2721541399
+date: '2016-06-09 15:14:01 +0000'
+updated: '2016-06-09 15:14:01 +0000'
+post_id: "/2016/06/so-long-cloudflare-and-thanks-for-all-the-fissh"
+author:
+  url: https://oncletom.io/
+  email: 
+  image: oncletom.jpg
+  name: Thomas
+content: "<p>Tu peux aussi te passer de l'IP dédiée en demandant à basculer vers SNI
+  (partage d'une même IP pour plusieurs certificats) — <a href='https://forum.alwaysdata.com/viewtopic.php?id=4580'>https://forum.alwaysdata.co…</a></p><p>Certains vieux
+  navigateurs ne sont a priori pas compatibles.</p><p>Également, le RewriteCond ne
+  fonctionne pas car Alwaysdata t'héberge en proxy et reroute vers ton application
+  un trafic non chiffré. D'où l'ajout de l'entête HTTP `X-Forwarded-Proto` et sa vérification
+  pour savoir si le trafic d'origine est chiffré ou non.</p>
+"

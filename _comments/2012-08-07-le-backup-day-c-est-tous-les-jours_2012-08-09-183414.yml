@@ -1,0 +1,19 @@
+---
+id: comment-2867805092
+date: '2012-08-09 18:34:14 +0000'
+updated: '2012-08-09 18:34:14 +0000'
+post_id: "/2012/08/le-backup-day-c-est-tous-les-jours"
+author:
+  url:
+  email:
+  image: no-avatar.png
+  name: Eric
+content: "<p>OK PioupiouM et Nicolas, mais ce n'est pas si simple et j'ai pris un cas réel.</p>
+  <p>J'ai téléchargé la maj Mountain Lion. Avant de l'appliquer j'ai copie l'app correspondante dans mon home quelque part pour plus tard pouvoir me faire un DVD bootable de restauration (si on applique la mise à jour, l'app se supprime, donc il faut le faire avant).</p>
+  <p>Le résultat c'est que :</p>
+  <ul>
+    <li>J'ai l'app dans mon home depuis plusieurs jours. Je ne parle effectivement pas de sauvegarder le système mais sauf à avoir un outil de backup très très intelligent, cette app de 4Go elle va bien être backupée</li>
+    <li> Si mon Mac casse avant que j'ai pu graver le DVD en question, j'attends justement de mon backup qu'il puisse me restaurer l'app que j'avais mis de côté pour faire ce DVD bootable.</li>
+  </ul>
+  <p>C'est bien d'un backup de données que je parle. J'ai pris un cas réel mais ça pourrait être un DVD de vidéo de mariage en cours de création (cas réel aussi), une archive de mp3 en train d'être travaillée en termes de métadonnées, une série de maquettes PSD hautes résolutions ou plein d'autres choses.</p>
+"

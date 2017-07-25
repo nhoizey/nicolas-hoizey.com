@@ -1,0 +1,74 @@
+---
+id: comment-2867805701
+date: '2005-06-09 16:56:46 +0000'
+updated: '2005-06-09 16:56:46 +0000'
+post_id: "/2004/06/la-galerie-spip-pour-reutiliser-facilement-les-images-et-documents"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: Bou1024
+content: "<p>Bonjour,</p> <p>J'ai un problème pour faire
+  fonctionner votre galerie… Lorsque je clique sur Galerie quand je rédige
+  un article, un pop-up s'affiche avec ca :</p> <p>Galerie de documents<br />showOne(' ', '') ; showOne('
+  ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '')
+  ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne('
+  ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '')
+  ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne('
+  ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '')
+  ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne('
+  ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '')
+  ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne('
+  ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '')
+  ; showOne(' ', '') ; showOne(' ', '') ; showDocs() ; function hideAll() <i>
+  hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne('
+  ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '')
+  ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne('
+  ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '')
+  ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne('
+  ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '')
+  ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne('
+  ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '')
+  ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne('
+  ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '')
+  ; hideDocs() ; </i> function showNice() <i> hideAll() ; showOne(' ',
+'') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '')
+  ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne('
+  ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '')
+  ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne('
+  ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '')
+  ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne('
+  ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '')
+  ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne('
+  ', '') ; showOne(' ', '') ; showDocs() ; </i> function showDocs() <i>
+  showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne('
+  ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '')
+  ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne('
+  ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '')
+  ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne('
+  ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '')
+  ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne('
+  ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '')
+  ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne('
+  ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '')
+  ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne('
+  ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '')
+  ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne('
+  ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '') ; showOne(' ', '')
+  ; showOne(' ', '') ; </i> function hideDocs() <i> hideOne(' ', '') ;
+  hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne('
+  ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '')
+  ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne('
+  ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '')
+  ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne('
+  ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '')
+  ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne('
+  ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '')
+  ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne('
+  ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '')
+  ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne('
+  ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '')
+  ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne('
+  ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '') ; hideOne(' ', '')
+  ; </i> &#8212&gt;</p> <p>Puis il affiche la liste des rubriques.
+  Et quand je clique sur droite, centré ou gauche rien ne se passe….</p>"

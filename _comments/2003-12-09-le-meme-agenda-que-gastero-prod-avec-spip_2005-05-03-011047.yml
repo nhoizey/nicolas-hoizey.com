@@ -1,0 +1,17 @@
+---
+id: comment-2867806343
+date: '2005-05-03 01:10:47 +0000'
+updated: '2005-05-03 01:10:47 +0000'
+post_id: "/2003/12/le-meme-agenda-que-gastero-prod-avec-spip"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: tof
+content: "<p>Oui, bien vu pour cette coquille, je risquais pas de la trouver
+  celle-là et je te remercie de me l'avoir donnée sur la liste spip.</p>
+  <p>J'aiaussi modifié les liens pour garder le reste de ma page :<br /><br />&#034;#URL_SITE_SPIP/agenda.php3 ?id_rubrique=#ID_RUBRIQUE….<br /><br />est devenu<br />&#034;#URL_SITE_SPIP/rubrique.php3 ?id_rubrique=2…</p> <p>MAIS,
+  car il y a a un &#034;mais&#034;, je n'arrive toujours pas à faire
+  apparaître les évènements dans l'agenda alors que les rubriques
+  apparaissent dans les thèmes.</p> <p>Monsieur le concepteur,
+  si vous me lisez … ;-)</p>"

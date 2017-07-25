@@ -1,0 +1,17 @@
+---
+id: comment-2867805420
+date: '2007-11-21 00:34:58 +0000'
+updated: '2007-11-21 00:34:58 +0000'
+post_id: "/2007/11/au-secours-safari-3-ne-marche-pas-sur-mon-mac"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p>Je n'ai jamais eu de soucis de ce type avec Firefox et je suis pourtant
+  gros utilisateur de nombreuses extensions.</p><p>Bien sûr qu'ils ne peuvent
+  pas tester tout, mais il doit bien y avoir un moyen de limiter l'intrusion des extensions
+  dans l'application hôte pour éviter les plantages.</p><p>Pour le cas spécifique
+  de Safari, il y a largement moins d'extensions que pour Firefox, donc quelques tests
+  sont sans doute plus simples à mettre en oeuvre. Dommage que la phase de beta n'ai
+  rien donné à ce sujet, d'ailleurs.</p>"

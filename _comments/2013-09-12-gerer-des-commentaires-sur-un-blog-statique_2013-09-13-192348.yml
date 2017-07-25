@@ -1,0 +1,21 @@
+---
+id: comment-2867804961
+date: '2013-09-13 19:23:48 +0000'
+updated: '2013-09-13 19:23:48 +0000'
+post_id: "/2013/09/gerer-des-commentaires-sur-un-blog-statique"
+author:
+  url: http://it-wars.com/
+  email: 
+  image: no-avatar.png
+  name: Vincent RABAH
+content: "<p>Hello,</p><p>Pour ma part j'auto-héberge 2 sites sur mon ADSL
+  avec des équipements ARM Dockstar et RaspberryPI :</p><ul><li>
+  <a href='http://it-wars.com/'>http://it-wars.com</a> qui tourne depuis l'origine en 2007
+  avec Pluxml, avec de très bonnes performances ! Et qui intègre de base un système
+  de commentaires.</li><li> <a href='http://nodejs-news.com/'>http://nodejs-news.com</a> qui est un site statique/markdown
+  généré par Jekyll avec Disqus qui a été sité à plusieurs reprises dans les commentaires.</li></ul><p>Pour ma part je ne souhaitais pas prendre en charge la partie commentaire
+  et me prendre la tête avec du scripting et gérer les aspects sécurité ! Mon second
+  site est statique, très rapide, et les seules faiblesses de sécurité potentiel sont
+  au niveau du serveur web nginx, donc peu de problème :)</p><p>Voilà, très
+  cordialement.<br /> Vincent.</p>
+"

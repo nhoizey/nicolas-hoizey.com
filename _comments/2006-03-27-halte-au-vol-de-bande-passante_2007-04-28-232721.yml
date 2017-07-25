@@ -1,0 +1,21 @@
+---
+id: comment-2867807056
+date: '2007-04-28 23:27:21 +0000'
+updated: '2007-04-28 23:27:21 +0000'
+post_id: "/2006/03/halte-au-vol-de-bande-passante"
+author:
+  url: http://www.franceserv.fr/
+  email:
+  image: no-avatar.png
+  name: Pitchoune
+content: "<p>Bonsoir,</p>
+  <p>Je suis hébergeur et j'aimerai pouvoir proposer une telle option pour mes hébergés. Cependant, au lieu d'interdire chaque site voleur, site par site, j'aimerai autoriser seulement le site légitime à afficher ses images, en sachant que les sites de mes hébergés peuvent être accessible par plusieurs adresses URL.</p>
+  <p>J'aimerai pouvoir m'inspirer de cet exemple :</p>
+  <p>
+  RewriteEngine On<br />
+  RewriteCond %<i>HTTP_REFERER</i> ^.*<a href='http://myspace.com'>myspace.com</a>.*$ [NC]<br />
+  RewriteRule .*\\.(gif|jpg|jpeg|swf|png)$
+  <a href='http://www.prendreuncafe.com/images/antileech.jpg'>http://www.prendreuncafe.com/images/antileech.jpg</a> [NC]
+  </p>
+  <p>Merci d'avance, car le post qui parlai de ceci justement pointe sur un .htaccess introuvable.</p>
+  <p>Merci d'avance, je garde en bookmark ce topic.</p>"

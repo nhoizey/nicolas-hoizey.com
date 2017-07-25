@@ -1,0 +1,18 @@
+---
+id: comment-2867805123
+date: '2012-07-07 07:18:53 +0000'
+updated: '2012-07-07 07:18:53 +0000'
+post_id: "/2012/07/reconcilier-seo-et-webperf-au-niveau-des-redirections-de-sous-domaines"
+author:
+  url:
+  email:
+  image: no-avatar.png
+  name: euskadi31
+content: "<p>Pour éviter le duplicate content tu peux aussi utiliser canonical ?</p>
+  <p><code>&lt;link rel=\"canonical\" href=\"http://gasteroprod.com/blog/\"/&gt;</code></p>
+  <p> du coup tu ne fait plus de redirection.</p>
+  <blockquote> <p>Une page canonique
+  correspond à la version préférée d'un ensemble de pages au contenu similaire.</p>
+  </blockquote>
+  <p><a href='http://support.google.com/webmasters/bin/answer.py?hl=fr%26answer=139394'>http://support.google.com/webmasters/bin/answer.py?hl=fr&answer=139394</a></p>
+"

@@ -1,0 +1,15 @@
+---
+id: comment-2867806258
+date: '2008-02-12 18:23:35 +0000'
+updated: '2008-02-12 18:23:35 +0000'
+post_id: "/2008/01/amusons-nous-avec-des-boucles-spip-et-les-petits-nouveaux-get-set-et-array"
+author:
+  url:
+  email:
+  image: no-avatar.png
+  name: Anonymous
+content: "<p>J'utilise un tableau pour utiliser le critère « IN » dans une boucle et
+  pour ma part il m'indique :</p><blockquote> <p>Erreur : filtre « push »
+  non défini</p> </blockquote><p><br /> :/<br /> J'ai l'impression d'avoir
+  le même problème… je sais qu'il n'y a pas d'erreur de saisie et ma version
+  SPIP est la 1.9.2d sur un serveur local MAMP.</p>"

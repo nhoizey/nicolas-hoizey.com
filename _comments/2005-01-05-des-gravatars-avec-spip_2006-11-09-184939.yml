@@ -1,0 +1,14 @@
+---
+id: comment-2867806323
+date: '2006-11-09 18:49:39 +0000'
+updated: '2006-11-09 18:49:39 +0000'
+post_id: "/2005/01/des-gravatars-avec-spip"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: tetue
+content: "<p>C'est finalement tout bête, il suffit d'utiliser ceci
+  (en plus de ton filtre) :</p> <textarea>&lt;img[ src=&#034;(#LOGO_AUTEUR||?{ [#URL_SITE_SPIP/IMG/(#LOGO_AUTEUR|fichier)]
+  , [(#EMAIL|gravatar_url)] })&#034;] alt=&#034;gravatar&#034; /&gt;</textarea><br
+  /><p>Pour afficher prioritairemment le logo de l'auteur, sinon son gravatar.</p>"

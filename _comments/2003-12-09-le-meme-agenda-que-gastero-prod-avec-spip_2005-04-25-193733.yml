@@ -1,0 +1,20 @@
+---
+id: comment-2867805708
+date: '2005-04-25 19:37:33 +0000'
+updated: '2005-04-25 19:37:33 +0000'
+post_id: "/2003/12/le-meme-agenda-que-gastero-prod-avec-spip"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: tof
+content: "<p>Super et beau boulot, j'adore !</p> <p>Juste une
+  question, j'ai donc créé sous spip 1.8 les fichiers agenda.html
+  et php3<br />puis les 2 fichiers agenda-thèmes<br /><br />et dans ma rubrique pour l'agenda, j'appelle
+  le fichier agenda par un <br />INCLURE
+  (agenda.php3) <i>id_rubrique</i></p> <p>Juque là,
+  tout va bien. Votre bel agenda apparaît.<br />Mais quand je clique sur &#034;&gt;&gt;&#034; pour passer au mois
+  suivant, tout mon habillage disparaît et je n'ai plus que l'agenda.<br /><br />J'ai essayé de remplacer les appels
+  &#034;agenda.php3&#034; dans votre fichier par &#034;rubrique.php3&#034;
+  mais là c'est l'inverse.</p> <p>N'y connaissant strictement
+  rien en php, pourriez-vous me dire ce que je dois faire, merci ?</p>"

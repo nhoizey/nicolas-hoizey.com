@@ -1,0 +1,13 @@
+---
+id: comment-2867805560
+date: '2007-12-10 21:49:30 +0000'
+updated: '2007-12-10 21:49:30 +0000'
+post_id: "/2006/03/comment-faire-un-tag-cloud-nuage-de-tags-ou-d-etiquettes-accessible"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: Guizmow
+content: "<p>Il suffit pour cela d'utiliser les balises H1 H2 etc de jouer sur la
+  taille de la typo car google prends en compte ces infos de mailleure façon que les
+  balises li ou em imbriquées.</p>"

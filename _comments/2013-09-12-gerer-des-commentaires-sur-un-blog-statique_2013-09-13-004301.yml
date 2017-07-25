@@ -1,0 +1,21 @@
+---
+id: comment-2867804962
+date: '2013-09-13 00:43:01 +0000'
+updated: '2013-09-13 00:43:01 +0000'
+post_id: "/2013/09/gerer-des-commentaires-sur-un-blog-statique"
+author:
+  url: http://bobmaerten.fr/
+  email: 
+  image: no-avatar.png
+  name: Bob
+content: "<p>La problématique avec les sites statiques (le mien tourne sous Octopress,
+  et je travaille à sa migration sous Middleman) c'est que la mise à jour s'effectue
+  via une regénération complète.</p><p>Si on envisage dy' adjoindre des commentaires,
+  il faut regénérer le site à chaque commentaire, et se pose le souci du déclenchement
+  de cette regénération. Théoriquement elle devrait être manuelle mais on imagine
+  vite les soucis de réactivité, ou alors scripter (mais ce n'est plus statique alors
+  !), ou alors passer par un crontab ou un système lié à un MTA…</p><p>Pour
+  ma part (et pour le moment), je fais tourner Juvia sur un vhost à part, et ce soft
+  fournit un système équivalent à disqus via du javascript/iframe-style.</p><p>Ceci
+  dit, la réflexion m'intéresse et si quelque chose se dégage, je suis preneur d'idée
+  et/ou d'expérimentations.</p>"

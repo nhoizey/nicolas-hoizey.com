@@ -1,0 +1,14 @@
+---
+id: comment-2867806333
+date: '2006-10-18 23:18:13 +0000'
+updated: '2006-10-18 23:18:13 +0000'
+post_id: "/2004/06/la-galerie-spip-pour-reutiliser-facilement-les-images-et-documents"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: gg33bdx
+content: "<p>J'ai voulu installer la galerie sur un spip 1.8.3<br />avec sarka spip</p> <p>j'ai ce message d'erreur</p>
+  <p>Galerie de documents</p> <p>Fatal error : Call to undefined
+  function : texte_vignette_document() in /home.1/g/i/r/girondin/www/ecrire/galerie.php3
+  on line 179</p> <p>Merci pour votre aide</p>"

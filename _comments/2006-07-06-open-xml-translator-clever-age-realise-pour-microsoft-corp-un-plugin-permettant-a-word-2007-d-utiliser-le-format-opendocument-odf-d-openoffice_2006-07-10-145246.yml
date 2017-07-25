@@ -1,0 +1,14 @@
+---
+id: comment-2867805944
+date: '2006-07-10 14:52:46 +0000'
+updated: '2006-07-10 14:52:46 +0000'
+post_id: "/2006/07/open-xml-translator-clever-age-realise-pour-microsoft-corp-un-plugin-permettant-a-word-2007-d-utiliser-le-format-opendocument-odf-d-openoffice"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: Jean Goffinet
+content: "<p>Il n'y a pas de question bête :-)<br />En fait le projet se concentre sur les versions Windows de Word, avec
+  des dépendances vis-à-vis de DLL notamment. Mais cela n'interdit
+  pas d'avoir un projet parallèle pour intégrer la transformation
+  XSLT (qui est le moteur de la conversion) dans Office Mac !</p>"

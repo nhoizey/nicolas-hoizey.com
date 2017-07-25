@@ -1,0 +1,14 @@
+---
+id: comment-2867805846
+date: '2008-07-21 17:36:49 +0000'
+updated: '2008-07-21 17:36:49 +0000'
+post_id: "/2008/07/spip-2-0-en-approche"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p>J'avoue qu'à force d'utiliser presque exclusivement la version de développement,
+  je ne me souviens plus trop des « limites » de la 1.9.2d.</p><p>Il y a en
+  tout cas pas mal de changements en profondeur, pour simplifier de plus en plus l'extension
+  par des <i>plugins</i> notamment.</p>"

@@ -1,0 +1,26 @@
+---
+id: comment-2867805496
+date: '2006-06-29 14:23:17 +0000'
+updated: '2006-06-29 14:23:17 +0000'
+post_id: "/2006/06/attention-quand-vient-le-succes"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p><blockquote><p>il est
+  toujours possible de demander la mise en place des deux versions de PHP sur l'espace
+  d'hébergement, afin que chacun y trouve son compte</p><br /></blockquote><br
+  /><p>Je ne suis pas sûr que beaucoup d'hébergeurs mutualisés
+  soient prêts à gérer plusieurs versions simultanées,
+  d'autant plus que les différentes techniques sont à peu près
+  toutes des bidouilles, non ? Si ce n'était pas le cas, il n'y aurait sans
+  doute qu'une solution officielle mise en oeuvre par tout le monde… ;-)</p><br
+  /><blockquote><br /><p>Quand à
+  la stabilité de php5, il me semble tout de même que nombre de sites
+  importants et à fortes charges s'en sortent très bien, non ?</p><br
+  /></blockquote><br /><p>Oui, bien entendu, mais comme je le signale,
+  attention surtout à tous les softs déjà en place qui ne
+  tournent pas avec PHP5.</p> <p>Quand on voit les problèmes avec
+  les composant PEAR, pourtant censés être proches des évolutions
+  de PHP, ça laisse rêveur…</p>"

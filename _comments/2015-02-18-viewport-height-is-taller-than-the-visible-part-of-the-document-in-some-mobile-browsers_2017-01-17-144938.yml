@@ -1,0 +1,13 @@
+---
+id: comment-3104053411
+date: '2017-01-17 14:49:38 +0000'
+updated: '2017-01-17 14:49:38 +0000'
+post_id: "/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers"
+author:
+  url: http://www.andymercer.net
+  email: 
+  image: Kelderic.jpg
+  name: Kelderic
+content: "<p>This almost makes vh useless. I only ever use it to keep things full
+  screen, which then implies no scrolling. Now, vh has scrolling automatically. To
+  have 100% without scrolling we HAVE to use %. We are back to 2005.</p>"

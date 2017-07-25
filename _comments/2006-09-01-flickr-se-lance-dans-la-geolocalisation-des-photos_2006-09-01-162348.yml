@@ -1,0 +1,14 @@
+---
+id: comment-2867805480
+date: '2006-09-01 16:23:48 +0000'
+updated: '2006-09-01 16:23:48 +0000'
+post_id: "/2006/09/flickr-se-lance-dans-la-geolocalisation-des-photos"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: NiCoS
+content: "<p>Tu as des soucis d'encodage sur les &#034;voyez par vous-mêmes&#034;.</p>
+  <p>Conflit ISO-8859-1 vs UTF8 (SPIP est full UTF8 je crois mais pas tes squelettes
+  apparemment) ou peut être un &#034;AddDefaultCharset UTF-8&#034; à
+  rajouter dans ton .htaccess ;)</p>"

@@ -1,0 +1,16 @@
+---
+id: comment-2867806060
+date: '2005-04-30 19:27:35 +0000'
+updated: '2005-04-30 19:27:35 +0000'
+post_id: "/2003/12/le-meme-agenda-que-gastero-prod-avec-spip"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: Cécile
+content: "<p>Je pense que j'ai trouvé la &#034;coquille&#034;
+  : <br />dans la ligne où il y
+  a <br />le lien sur le &gt;&gt; (je n'arrive
+  pas à mettre le code html) <br
+  />il faut remplacer le &#034;php echo printf&#034; par &#034;php printf&#034;</p>
+  <p>Dis-moi si ça fonctionne</p> <p>Cécile</p>"

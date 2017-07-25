@@ -1,0 +1,22 @@
+---
+id: comment-2867805532
+date: '2006-04-25 18:06:58 +0000'
+updated: '2006-04-25 18:06:58 +0000'
+post_id: "/2006/04/gastero-prod-est-maintenant-severement-feed-burne"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: NiCoS
+content: "<p><blockquote><br /><p> C'est
+  NicoS qui va être content… ;-)</p><br /></blockquote><br /><p>Tsss
+  : Ni<strong>C</strong>oS</p> <p>Sinon tes photos de fleurs
+  sont chouettes, je voulais faire la même chose avec les orchydées
+  de ma femme mais les fleurs sont tombées trop vite (ou je m'y suis pris
+  trop tard) ; va falloir attendre les prochaines :'(</p> <p>Donc en gros
+  feedburner serait un RSSCache + stats + notification email ?</p> <p>Bon
+  ben je vais attendre ton retour.</p> <p>Par contre, pour ceux qui sont
+  abonnés à l'ancien flux, ça changera rien pour le serveur
+  vu qu'ils feront une requête sur le serveur avant d'être renvoyé
+  chez Feedburner… :-S ; on échappe juste au temps de génération
+  du flux mais bon avec le cache spip, on était relativement préservé…</p>"

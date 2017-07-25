@@ -1,0 +1,16 @@
+---
+id: comment-2655667271
+date: '2016-05-03 15:04:21 +0000'
+updated: '2016-05-03 15:04:21 +0000'
+post_id: "/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers"
+author:
+  url:
+  email: 
+  image: disqus_wVm1Rq5U8p.jpg
+  name: Matt Fletcher
+content: "<p>I am having the Chrome for iOS issue listed here. I have full size photos
+  that use 100vh and 100vw, but when I scroll up and down, the address bar appearing
+  and disappearing causes some horrible scrolly jank on the page. It seems fine on
+  mobile Safari, I guess I have the opposite problem to you! Or at least more like
+  the font size issue. I have no idea what to do to stop it screwing up on Chrome
+  for iOS…</p>"

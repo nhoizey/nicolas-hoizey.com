@@ -1,0 +1,20 @@
+---
+id: comment-2867804990
+date: '2013-05-02 21:55:31 +0000'
+updated: '2013-05-02 21:55:31 +0000'
+post_id: "/2013/05/faut-il-generaliser-le-https"
+author:
+  url:
+  email:
+  image: no-avatar.png
+  name: Eric
+content: "<ul>
+    <li>Performance : Il y a des options pour corriger le problème de performance. Voir par exemple <a href='http://nginx.org/en/docs/http/ngx_http_ssl_module.html%23ssl_stapling'>http://nginx.org/en/docs/http/ngx_http_ssl_module.html#ssl_stapling</a> pour Nginx. En pratique ça ne semble pas si important que ça.</li>
+    <li>Lien certificat - IP : Pour moi c'est la vraie question. Pour des pro qui utilisent quelques domaines par machine, le SAN est tout à fait fonctionnel. La limitation d'avoir le même CA ne me semble pas importante (ça n'empêche pas d'acheter un autre certificat par ailleurs sur un autre CA pour le même domaine mais pour une autre machine si on le souhaite). Même le wildcard n'est pas si utilisé que ça. Reste les petits sites. Le SNI est la solution mais on se coltine les IE et Chrome sous Windows XP. Chez moi c'est 5%, je suppose que ça peut monter à 10% sur des sites plus génériques.</li>
+    <li>Complexité d'archi : Mettre un relai SSL me semble une bonne solution, je n'ai pas l'impression que ça soit vraiment une étape significative.</li>
+    <li>Même chose pour les CDN. OK, le domaine va changer, et alors ? À vrai dire c'est même plutôt logique : Si c'est le CDN qui gère les serveurs et le service, c'est plutôt à eux d'assurer la chaîne de confiance. Je suis convaincu qu'il doit y avoir des cas où c'est gênant, mais dans l'ensemble je n'en ai pas l'impression.</li>
+  </ul>
+  <p>Ce n'est pas magique, mais je reviens sur ton début : « sur tous les sites nécessitant un minimum de confidentialité ». L'enjeu c'est justement de réaliser que l'auteur du site ne peut pas faire d'affirmation sur son propre contenu. La notion de confidentialité est propre à chaque individu et à son contexte.</p>
+  <p>Il y a des entreprises où les salariés auraient plutôt envie de garder leur visite chez toi semi confidentielle. Un site perso qui parle politique est-il confidentiel ? dans quel mesure ? Et un site qui propose de tout passer en SSL ne risque-t-il pas de poser problème dans certains contextes d'oppression ? Et même un blog anodin, ne souhaite-t-on pas éviter que quelqu'un voit passer les commentaires ?</p>
+  <p>Pire, si on ne chiffre que les sites sensibles, ça revient à dire à attirer l'attention.</p>
+  <p>Trop complexes : le résultat c'est qu'il faut tout chiffrer, et que seul windows XP (pour ceux qui ne sont pas sous Firefox) nous retient encore.</p>"

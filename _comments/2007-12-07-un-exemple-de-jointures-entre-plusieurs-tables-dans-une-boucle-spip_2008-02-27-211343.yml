@@ -1,0 +1,33 @@
+---
+id: comment-2867805395
+date: '2008-02-27 21:13:43 +0000'
+updated: '2008-02-27 21:13:43 +0000'
+post_id: "/2007/12/un-exemple-de-jointures-entre-plusieurs-tables-dans-une-boucle-spip"
+author:
+  url:
+  email:
+  image: no-avatar.png
+  name: Sylvain
+content: "<p>Ouh là ! mais c'est super ça !</p><p>ça va me simplifier les
+  choses … voir peut-être ouvrir des possibilités (faudra que je vois à l'usage
+  ;-) )</p><blockquote> <p>(…) Malheureusement, cela ne permet pas un classement
+  <i>par date</i> de l'ensemble des (EVENEMENTS), mais seulement article par article.</p>
+  </blockquote><p>En fait si on peut. Je fais déjà la même chose depuis un
+  bout de temps avec, certes plusieurs boucles, mais surtout <code>{doublons XXX}</code></p><p>
+  </p><p>je vais tenter de traduire ton exemple, si j'ai bien compris … car ça
+  devrait donner :</p><p> <textarea>&lt;boucle_select_article(articles){id_mot=3}{id_rubrique}&gt; &lt;boucle_select_evenements(evenements){id_article}{doublons
+  evenements_rentenus}&gt; &lt;/boucle_select_evenements&gt; &lt;/boucle_select_article&gt;
+  &lt;boucle_evenements(evenements){!doublons evenements_rentenus}{age&gt;0}{!par
+  date}&gt; #TITRE … &lt;/boucle_evenements&gt;</textarea> </p><p>tout est
+  dans l'inversion du doublons :</p>
+  <ul><li> le premier
+  lot de boucles, ne sert en fait qu'a fait la sélection (sans trie par …) ;</li><li>
+  puis on utilise l'inversion de <code>{!doublons XXX}</code> pour ne prendre en
+  fait que ce qui « a été retenu » par <code>{doublons XXX}</code> ;</li><li>
+  enfin on trie <code>{par date}</code>, <code>{0,10}</code>, etc ..</li></ul>
+  <p>c'est dingue ce que l'on peut faire, depuis qu'ils ont
+  refondu le compilo :-o <br />en plus ils l'améliorent régulièrement … je fais
+  des empilements de boucles et balises de plus en plus complexes et suis toujours
+  surpris que ça fonctionne ;-)</p>
+  <p>Avec les jointures ça va devenir encore pire :-D</p>
+  <p>merci pour l'astuce Nicolas.</p>"

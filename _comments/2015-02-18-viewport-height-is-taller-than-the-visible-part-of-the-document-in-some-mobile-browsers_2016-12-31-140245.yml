@@ -1,0 +1,15 @@
+---
+id: comment-3076803622
+date: '2016-12-31 14:02:45 +0000'
+updated: '2016-12-31 14:02:45 +0000'
+post_id: "/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers"
+author:
+  url:
+  email: 
+  image: disqus_5Q8OEPIegL.jpg
+  name: BenM
+content: "<p>Brandon solution doesn't work for me.So I use JS to fix height to initial
+  vh or this below in CSS to make vh transition smoother:<br />.full-height {<br />
+  \ height: 100vh;<br />  min-height: 100vh;</p><p>     transition-property: height,
+  min-height;<br />     transition-duration: .6s;<br />     transition-delay: .1s;<br
+  />     transition-timing-function: ease-in;<br />}</p>"

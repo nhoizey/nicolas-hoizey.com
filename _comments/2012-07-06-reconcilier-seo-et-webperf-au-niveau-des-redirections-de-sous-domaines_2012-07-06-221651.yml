@@ -1,0 +1,18 @@
+---
+id: comment-2867805113
+date: '2012-07-06 22:16:51 +0000'
+updated: '2012-07-06 22:16:51 +0000'
+post_id: "/2012/07/reconcilier-seo-et-webperf-au-niveau-des-redirections-de-sous-domaines"
+author:
+  url:
+  email:
+  image: no-avatar.png
+  name: rs459
+content: "<p>Cette technique pourrait bien être prise en compte comme étant du cloacking comme le laisse penser, un lien tiré du site d'olivier andrieu « Réussir son référencement web » éd. 2011<br /> <a href='http://support.google.com/webmasters/bin/answer.py?hl=fr%26answer=66355'>http://support.google.com/webmasters/bin/answer.py?hl=fr&answer=66355</a></p>
+  <p>Je ne serais pas étonné que les moteur de recherche se présente avec un User-Agent standard, pour procéder à une analyse par comparaison, dans le but de se protéger du cloacking.</p>
+  <p>La problèmatique est similaire, pour ceux qui sont contraints et forcés d'utiliser deux noms de domaines type « m.site.tld » en parallèle avec un
+  « site.tld ».</p>
+  <p>Le livre sus-cité propose d'ailleurs comme solution au problème, de choisir dans Google Webmaster Tools un domaine favoris à indexer, pour
+  éviter le phénomène de Duplicate content.</p>
+  <p>Enfin je pense que seul un expert SEO aillant mener des tests sur ce sujet, pourrait être à même de nous éclairer.</p>
+"

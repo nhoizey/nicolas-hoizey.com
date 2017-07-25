@@ -1,0 +1,21 @@
+---
+id: comment-2867806641
+date: '2005-02-10 16:03:22 +0000'
+updated: '2005-02-10 16:03:22 +0000'
+post_id: "/2003/12/le-meme-agenda-que-gastero-prod-avec-spip"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p>OK, je vois effectivement le souci.</p> <p>Pour
+  un événement qui couvre juste deux mois, ça peut se faire,
+  il suffit de ramener les événements commençants le mois
+  précédent pour voir s'ils continuent ce moi-ci.</p> <p>Par
+  contre, pour des événements plus longs, ce n'est pas franchement
+  pratique, on rique de devoir tout ramener, ce qui sera très négatif
+  pour les performances.</p> <p>Pour ce qui est d'utiliser la date de
+  publication, je ne pense pas que ce soit une bonne idée, on peut en avoir
+  besoin pour mettre en évidence les nouveautés. C'est prévu
+  de longue date sur Gastero Prod, mais je n'ai pas encore trouvé le temps
+  …</p>"

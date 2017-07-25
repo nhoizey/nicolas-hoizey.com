@@ -1,0 +1,18 @@
+---
+id: comment-2867804958
+date: '2013-09-12 22:20:21 +0000'
+updated: '2013-09-12 22:20:21 +0000'
+post_id: "/2013/09/gerer-des-commentaires-sur-un-blog-statique"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: remouk
+content: "<p>C'est vrai, pas besoin de BDD dans l'absolu mais c'est quand même génial
+  de pouvoir séparer contenu et contenant, surtout pour la pérennité. Et puis niveau
+  disponibilité il y a bien un truc qui va tomber à un moment, si c'est le DD tu perds
+  tout d'un coup ? La véritable solution c'est les sauvegardes régulières, le fait
+  d'enlever un maillon (qui a ses avantages) de la chaîne ne changera pas grand-chose.</p><p>
+  </p><p>Pour le Markdown, il existe des plugins pour toute plate-forme de blog sérieuse.</p><p>
+  </p><p>Non vraiment, je ne comprends pas l'intérêt. Ça me semble plus contraignant
+  qu'autre chose. Mais tu fais bien ce que tu veux ! :D</p>"

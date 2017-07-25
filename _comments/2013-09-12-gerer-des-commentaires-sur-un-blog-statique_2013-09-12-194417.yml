@@ -1,0 +1,18 @@
+---
+id: comment-2867804957
+date: '2013-09-12 19:44:17 +0000'
+updated: '2013-09-12 19:44:17 +0000'
+post_id: "/2013/09/gerer-des-commentaires-sur-un-blog-statique"
+author:
+  url: http://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p>@remouk : avec du statique, pas besoin de la base de données. D'expérience,
+  c'est ce qui tombe le plus souvent sur mon blog, pourtant passé par 4 ou 5 hébergements
+  différents.</p><p>Pour ce qui est de l'intégration des commentaires au blog,
+  c'est bien mon but, je ne veux pas d'un système externe. Je vais creuser ce que
+  Vincent a développé pour Kirby.</p><p>Après, peut-être que je reviendrais
+  à SPIP dans 2 ans, ou passerais à WordPress ou autre, on ne sait jamais… ;-)</p><p>
+  </p><p>Je me dis juste qu'avoir tous mes contenus en fichiers Markdown est sans
+  doute ce qu'il y a de plus pérenne et facile à manipuler.</p>"

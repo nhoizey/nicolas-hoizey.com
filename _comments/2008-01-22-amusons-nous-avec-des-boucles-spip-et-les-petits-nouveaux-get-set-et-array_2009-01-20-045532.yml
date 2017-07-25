@@ -1,0 +1,15 @@
+---
+id: comment-2867805372
+date: '2009-01-20 04:55:32 +0000'
+updated: '2009-01-20 04:55:32 +0000'
+post_id: "/2008/01/amusons-nous-avec-des-boucles-spip-et-les-petits-nouveaux-get-set-et-array"
+author:
+  url:
+  email:
+  image: no-avatar.png
+  name: Jean-no
+content: "<p>Un peu hard la lisibilité de la page ! Pensez aux vieux, bande de sales
+  jeunes :-) <br /> Je cherche à comprendre comment utiliser les données de spip sans
+  passer trop par ces boucles infernales et limitées. Je pressens que #get, #set et
+  #array ont un rapport avec mes problèmes. Mais tout bêtement, existe-t-il un « if »
+  ?</p>"

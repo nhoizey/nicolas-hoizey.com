@@ -1,0 +1,20 @@
+---
+id: comment-2867807023
+date: '2009-01-25 19:14:31 +0000'
+updated: '2009-01-25 19:14:31 +0000'
+post_id: "/2008/01/afficher-les-favicon-dans-la-barre-personnelle-de-firefox-sous-mac-os"
+author:
+  url:
+  email:
+  image: no-avatar.png
+  name: Jeg
+content: "<p>Bonjour. <br /> Ayant installé Firefox 3 pour Mac, j'avais perdu toutes
+  mes favicons de la barre personnelle, ce qui est très pénible. En effet, une des
+  fonctions très pratique de Firefox était justement de pouvoir n'afficher _que_
+  les favicons si on le souhaite dans cette barre personnelle. On fait cela très facilement
+  en glissant le lien vers la barre personnelle, puis en faisant clic droit propriétés
+  et en effaçant le nom. On peut en voir un exemple d'application ici : <br /> <a
+  href='http://www.geckozone.org/forum/viewtopic.php?t=65834%26sid=6e8eaca5c90206522e3f24f0b4bbf350%3A7cFEHV7gJphU_A06U2KCuFu0X24'>http://www.geckozone.org/forum/viewtopic.php?t=65834&sid=6e8eaca5c90206522e3f24f0b4bbf350</a></p><p>
+  </p><p>Question : pourriez-vous nous remettre dans un nouveau message le contenu
+  exact et complet du fichier userChrome.css tel qu'il faut l'insérer (en incluant
+  les dernières modifications ? Merci par avance)</p>"

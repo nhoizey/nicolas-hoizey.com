@@ -1,0 +1,25 @@
+---
+id: comment-2867807018
+date: '2008-02-12 20:52:50 +0000'
+updated: '2008-02-12 20:52:50 +0000'
+post_id: "/2008/01/amusons-nous-avec-des-boucles-spip-et-les-petits-nouveaux-get-set-et-array"
+author:
+  url:
+  email:
+  image: no-avatar.png
+  name: Anonymous
+content: "<p>Un dernier commentaire pour donc indiquer que cela a déverrouillé mon
+  travail sur 2 sites internet… Sur chacun d'eux, le but pour moi était de lister
+  un certain type de rubriques (avec différents médias « texte », « photo », « vidéo » représentés
+  par des articles) dans un tableau, un tableau de type #ARRAY essentiel pour filtrer
+  ces rubriques avec le critère IN et la fonction #GET dans des zones précises d'affichage
+  du site.</p><p>Cela m'évite de devoir affecter un mot clé par article (que
+  l'utilisateur du site aurait dû systématiquement renseigner)… du coup j'utilise
+  astucieusement le #DESCRIPTIF des rubriques pour créer les listes « texte », « photo »,
+  « vidéo » à l'aide de boucles RUBRIQUES en faisant du « push » dans des variables #ARRAY…
+  ensuite je récupère la variable désirée pour créer des boucles qui filtrent le type
+  de média voulu.</p><p>Depuis que la fonction « push » a rejoint mon petit
+  fichier <code>mes_fonctions.php</code> dans le dossier squelette… tout roule à merveille
+  !</p><p>Un grand merci encore et encore… :)</p><p>PS : je suis
+  bavard, mais c'est pour en aider d'autres comme moi lorsque Google aura mis les
+  pieds ici… ;)</p>"

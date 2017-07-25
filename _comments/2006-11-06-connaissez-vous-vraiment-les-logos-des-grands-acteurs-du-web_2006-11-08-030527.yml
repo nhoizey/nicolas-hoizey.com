@@ -1,0 +1,14 @@
+---
+id: comment-2867815915
+date: '2006-11-08 03:05:27 +0000'
+updated: '2006-11-08 03:05:27 +0000'
+post_id: "/2006/11/connaissez-vous-vraiment-les-logos-des-grands-acteurs-du-web"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: NiCoS
+content: "<p>Pour les adresses mac, vu qu'apparemment on les récupère
+  très facilement en analysant les trames réseaux, on peut vite faire
+  du spoofing :-(</p> <p>Vaut clairement mieux mettre une sécurité
+  en place (WPA car Wep, c'est pas la peine) que le filtrage sur adresse mac… ;-)</p>"

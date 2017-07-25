@@ -1,0 +1,14 @@
+---
+id: comment-3382339606
+date: '2017-06-23 16:37:24 +0000'
+updated: '2017-06-23 16:37:24 +0000'
+post_id: "/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers"
+author:
+  url: http://vahehovhannisyan.com
+  email: 
+  image: vhpoet.jpg
+  name: Vahe Hovhannisyan
+content: "<p>Unfortunately I couldn't find a way to do this with css, so I did it
+  with the below js.</p><p>const height = Math.max(document.documentElement.clientHeight,
+  window.innerHeight || 0)<br />document.getElementsByClassName('yourelement')[0].style['min-height']
+  = height + 'px'</p>"

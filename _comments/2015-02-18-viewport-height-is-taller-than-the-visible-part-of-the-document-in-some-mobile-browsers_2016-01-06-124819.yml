@@ -1,0 +1,11 @@
+---
+id: comment-2442458462
+date: '2016-01-06 12:48:19 +0000'
+updated: '2016-01-06 12:48:19 +0000'
+post_id: "/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers"
+author:
+  url: https://nicolas-hoizey.com/
+  email:
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p>I'm still struggling with this too, really a pain for fullscreen interfaces without the \"real\" fullscreen API.</p><p>I'm still using <a href='https://github.com/rodneyrehm/'>viewport-units-buggyfill</a> but not very happy with it: <a href='https://github.com/nhoizey/esviji/blob/947fe223b21bb15fb9b8a73185089086c09e76b0/src/js/esviji.js%23L235-L238'>https://github.com/nhoizey/…</a></p>"

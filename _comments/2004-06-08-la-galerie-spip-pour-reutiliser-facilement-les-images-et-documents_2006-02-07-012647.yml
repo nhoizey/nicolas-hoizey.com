@@ -1,0 +1,17 @@
+---
+id: comment-2867806339
+date: '2006-02-07 01:26:47 +0000'
+updated: '2006-02-07 01:26:47 +0000'
+post_id: "/2004/06/la-galerie-spip-pour-reutiliser-facilement-les-images-et-documents"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: ju
+content: "<p>L'erreur était dans a déclaration du js.. bizarre
+  bizarre.<br />Sinon, moi j'en ai eu une
+  autre (d'erreur) avec le source &#034;corrigé&#034;. que j'ai &#034;résolu&#034;
+  en remplaçant :<br /><code>$v = str_replace('&lt;script
+  type=&#034;text/javascript&#034;&gt;&lt;!--', ', $v);</code><br /><br />par <code>$v = str_replace('&lt;script type=&#034;text/javascript&#034;
+  &gt;&lt;!--', ', $v);</code><br
+  />un simple espace m'a enlevé beaucoup de bruit….</p>"

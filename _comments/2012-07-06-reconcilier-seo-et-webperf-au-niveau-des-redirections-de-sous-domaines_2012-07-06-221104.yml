@@ -1,0 +1,35 @@
+---
+id: comment-2867805114
+date: '2012-07-06 22:11:04 +0000'
+updated: '2012-07-06 22:11:04 +0000'
+post_id: "/2012/07/reconcilier-seo-et-webperf-au-niveau-des-redirections-de-sous-domaines"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<blockquote> <p>T'assurer que les liens chez toi sont corrects.</p> </blockquote><p>
+  </p><p>Facile.</p><blockquote> <p>T'assurer que les moteurs prennent bien
+  en compte le domaine sans www.</p> </blockquote><p>C'est dans les buts
+  de ce billet, facile aussi.</p><blockquote> <p>Éventuellement faire corriger
+  quelques backlinks majeurs qui pointeraient sur du www, si tu le peux.</p> </blockquote><p>
+  </p><p>Plus compliqué, mais faisable avec de la patience.</p><p>Tu oublies
+  — au moins, je ne suis peut-être pas exhaustif — les gens qui tapent systématiquement
+  le préfixe <code>www.</code>, ceux qui comme moi font <code>gasteroprod</code> puis
+  &lt;kbd&gt;Cmd&lt;/kbd&gt;+&lt;kbd&gt;Entrée&lt;/kbd&gt; et ceux qui ne tapent que
+  <code>gasteroprod</code>, laissant le navigateur ajouter <code>www.</code> et <code>.com</code>
+  (il me semble que la plupart des navigateurs le font).</p><blockquote> <p>S'embêter
+  pour un très léger impact de perf dans ce cas de figure rare, je vois pas l'intérêt.</p>
+  </blockquote><p>Je ne m'embête pas vraiment, au contraire, c'est de l'exploration
+  qui m'intéresse !</p><p>Sérieusement, je sais bien que cela n'aura aucun
+  impact sur les visites sur mon pauvre petit blog très peu visité, je cherche plutôt
+  à expérimenter des techniques à utiliser ensuite sur des sites de clients où chaque
+  petit gain — surtout aussi facilement gagné — peut avoir une importance.</p><p>
+  </p><blockquote> <p>Par ailleurs si tu ne rediriges pas les utilisateurs mais uniquement
+  les moteurs, tu vas te retrouver avec des backlinks pointant tantôt sur no-www et
+  tantôt sur www</p> </blockquote><p>Là tu as clairement raison, il faudrait
+  que mes liens internes soient générés en absolu en no-www et non en relatif reprenant
+  le (sous-)domaine courant. Hop, dans la to-do ! ;-)</p><blockquote> <p>En
+  passant : google.tld fait une redirection 301 vers <a href='http://www.google.tld/'>www.google.tld</a>, <a href='http://www.twitter.com/'>www.twitter.com</a> une 301 vers <a href='http://twitter.com'>twitter.com</a>, <a href='http://facebook.com'>facebook.com</a> une 302 vers <a href='http://www.facebook.com/'>www.facebook.com</a>, <a href='http://yahoo.com'>yahoo.com</a> une 301 vers <a href='http://www.yahoo.com/'>www.yahoo.com</a>.</p> </blockquote><p>Toujours
+  le bon vieux combat de chapelles entre les no-www et les yes-www, rien de nouveau,
+  à chacun de faire son choix.</p>"

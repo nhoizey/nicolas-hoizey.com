@@ -1,0 +1,13 @@
+---
+id: comment-2683524800
+date: '2016-05-19 07:22:06 +0000'
+updated: '2016-05-19 07:22:06 +0000'
+post_id: "/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p>Bottom nav is even more difficult because if the interface is hidden,
+  a tap on a button at the bottom will reveal the interface instead of actually hitting
+  the button…</p>"

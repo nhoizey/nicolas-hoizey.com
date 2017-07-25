@@ -1,0 +1,19 @@
+---
+id: comment-2867805376
+date: '2009-12-05 13:00:54 +0000'
+updated: '2009-12-05 13:00:54 +0000'
+post_id: "/2008/01/amusons-nous-avec-des-boucles-spip-et-les-petits-nouveaux-get-set-et-array"
+author:
+  url:
+  email:
+  image: no-avatar.png
+  name: Stéphane Santon
+content: "<p>Il faudrait préciser que dans le cas où il y a une partie conditionnelle sur la boucle, il ne faut pas mettre l'initialisation du tableau dedans :</p>
+  <p>Ne fonctionne pas :</p>
+  <p><code>&lt;b_sites&gt;<br /> #PAGINATION<br /> #SET{sites,#ARRAY}<br
+  /> &lt;boucle_sites(sites){id_mot}&gt;<br /> [(#SET{sites,[(#GET{sites}|push{#ID_SYNDIC})]})]<br
+  /> …</code></p>
+  <p>Correct :</p>
+  <p><code> #SET{sites,#ARRAY}<br /> &lt;b_sites&gt;<br
+  /> #PAGINATION<br /> &lt;boucle_sites(sites){id_mot}&gt;<br /> [(#SET{sites,[(#GET{sites}|push{#ID_SYNDIC})]})]<br
+  /> …</code></p>"

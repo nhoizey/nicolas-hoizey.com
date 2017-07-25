@@ -1,0 +1,19 @@
+---
+id: comment-2867806047
+date: '2005-06-15 19:53:17 +0000'
+updated: '2005-06-15 19:53:17 +0000'
+post_id: "/2004/06/la-galerie-spip-pour-reutiliser-facilement-les-images-et-documents"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: defro
+content: "<p>J'ai eu le <strong>meme probleme</strong> que ci-dessus
+  apres l'installation de la &#034;gallerie SPIP&#034;.</p> <p>J'ai
+  trifouille dans le code PHP du fichier « gallerie.php3 » pour chercher
+  cette erreur.<br />J'ai pu facilement
+  identifier <i>l'erreur</i> ! Tout fonctionne parfaitement sur un site
+  SPIP (qui est en construction).<br />Pour
+  obtenir ce <strong>fichier corrigé</strong> merci de m'ecrire
+  un mail en citant : &#8220 fichier gallerie.php3 pour la Gallerie SPIP &#8221.</p>
+  <p>J'espere vous etre utile. :)</p>"

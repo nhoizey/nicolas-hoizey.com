@@ -1,0 +1,13 @@
+---
+id: comment-2867805373
+date: '2008-01-28 22:32:54 +0000'
+updated: '2008-01-28 22:32:54 +0000'
+post_id: "/2008/01/amusons-nous-avec-des-boucles-spip-et-les-petits-nouveaux-get-set-et-array"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: Thomas
+content: "<p>J'ai bien peur que le filtre push ne soit compatible qu'en 1.9.2 SVN
+  car je n'ai pas l'impression que cela fonctionne en 1.9.2c ou 1.9.2d :(<br /> J'ai
+  même essayé array_push en vain…</p>"

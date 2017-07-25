@@ -1,0 +1,20 @@
+---
+id: comment-2867805364
+date: '2008-11-28 01:16:00 +0000'
+updated: '2008-11-28 01:16:00 +0000'
+post_id: "/2008/01/session_start-et-exec-ne-font-pas-toujours-bon-menage-en-php"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: Yannick
+content: "<p>Bonjour,<br /> Après bien des recherches et des semaines de galère, je
+  suis tombé sur votre article. Et là miracle ! Cela m'a permis de résoudre le problème
+  suivant.<br /> Dans un contexte de mutualisation du noyau SPIP, les rédacteurs et
+  administrateurs étaient régulièrement déconnectés du back-office (obligation de
+  resaisir le mot de passe à chaque opération de mise à jour ou d'administration).
+  Chose bizarre, cela ne se produisait pas sur les sites non mutualisés, pas sur tous
+  les sites utilisant le noyau SPIP mutualisé, pas pour tous les utilisateurs et surtout
+  lors d'une augmentation de la charge du serveur. Bref, en supprimant le session_start
+  dans les différents fichiers mes_options.php des sites cela est allé beaucoup mieux.
+  MERCI !<br /> Très cordialement.<br /> Yannick</p>"

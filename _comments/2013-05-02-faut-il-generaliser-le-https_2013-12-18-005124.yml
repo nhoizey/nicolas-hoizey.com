@@ -1,0 +1,14 @@
+---
+id: comment-2867804992
+date: '2013-12-18 00:51:24 +0000'
+updated: '2013-12-18 00:51:24 +0000'
+post_id: "/2013/05/faut-il-generaliser-le-https"
+author:
+  url: http://borisschapira.com/
+  email: 
+  image: no-avatar.png
+  name: Boris
+content: "<p>Concernant les performances, le problème que je croise souvent, c'est
+  le mauvais paramétrage des connexions qui ne sont du coup pas en Keep Alive.<br
+  /> Du coup, la bascule en HTTPS entraîne un surcoût lié à la renégociation SSL pour
+  chaque nouvelle connexion TCP. L'effet peut être dramatique.</p>"

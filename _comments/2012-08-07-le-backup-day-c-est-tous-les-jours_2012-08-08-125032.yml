@@ -1,0 +1,21 @@
+---
+id: comment-2867805068
+date: '2012-08-08 12:50:32 +0000'
+updated: '2012-08-08 12:50:32 +0000'
+post_id: "/2012/08/le-backup-day-c-est-tous-les-jours"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: piouPiouM
+content: "<blockquote> <p>Si tu mets un mois pour 100 Go, tu vas mettre plusieurs
+  jours rien que pour sauvegarder l'application de mise à jour vers Mountain Lion.</p>
+  </blockquote><p>Amha, le backup doit se limiter aux données personnelles
+  et non au système, ce dernier pouvant être réinstallé sans mal contrairement aux
+  données que tu perds irrémédiablement.</p><p>Tu vas me dire que, dans ton
+  cas, il y a tout l'environnement du développeur. Ce à quoi je réponds, l'étant moi-même,
+  que je versionne mes configurations et les héberge sur des dépôts distants, quand
+  aux softs, et bien tant pis si je viens à les perdre, je les réinstallerai. Le backup
+  ne permettra jamais une reprise en quelques heures donc autant utiliser ce temps
+  pour réinstaller le système et déjà commencer a récupérer les données personnelles
+  depuis la sauvegarde hors site.</p><p>Le backup n'est pas un clone.</p>"

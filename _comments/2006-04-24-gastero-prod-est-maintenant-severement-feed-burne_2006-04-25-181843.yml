@@ -1,0 +1,31 @@
+---
+id: comment-2867805968
+date: '2006-04-25 18:18:43 +0000'
+updated: '2006-04-25 18:18:43 +0000'
+post_id: "/2006/04/gastero-prod-est-maintenant-severement-feed-burne"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p><blockquote><br /><p>Tsss :
+  NiCoS</p><br /></blockquote><br /><p>Oups, désolé…
+  ;-)</p><br /><blockquote><br /><p>Sinon
+  tes photos de fleurs sont chouettes</p><br /></blockquote><br /><p>Merci
+  !!! N'hésites pas à les mettre en favoris dans Flickr… ;-)</p><br
+  /><blockquote><br /><p>je voulais faire
+  la même chose avec les orchydées de ma femme mais les fleurs sont
+  tombées trop vite (ou je m'y suis pris trop tard) ; va falloir attendre
+  les prochaines :'(</p><br /></blockquote><br /><p>Pourtant, les
+  orchydées ça tient pas mal de temps, normalement. Va falloir que
+  j'essaie de photographier les 3 que j'ai, tiens…</p><br /><blockquote><br /><p>Donc en gros feedburner serait un
+  RSSCache + stats + notification email ?</p><br /></blockquote><br /><p>A
+  priori, oui !</p><br /><blockquote><br
+  /><p>Par contre, pour ceux qui sont abonnés à l'ancien flux,
+  ça changera rien pour le serveur vu qu'ils feront une requête sur
+  le serveur avant d'être renvoyé chez Feedburner… :-S ; on échappe
+  juste au temps de génération du flux mais bon avec le cache spip,
+  on était relativement préservé…</p><br /></blockquote><br
+  /><p>Vu que c'est une redirection « moved permanently », le
+  client est censé changer l'URL pour les fois suivantes. Après, il
+  faudrait vérifier si les clients les plus courants le font bien, c'est sûr…</p>"

@@ -1,0 +1,14 @@
+---
+id: comment-3029939411
+date: '2016-12-01 19:03:56 +0000'
+updated: '2016-12-01 19:03:56 +0000'
+post_id: "/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers"
+author:
+  url:
+  email: 
+  image: disqus_LjLK0Z8psR.jpg
+  name: Brandon_Arnold
+content: "<p>After years of this being a huge pain i recently discovered a pretty
+  good fix for this thats pure CSS.</p><p>min-height: calc(100% - 0);</p><p>Seems
+  to prevent iOS from scrolling at all and prevents the minimal-ui from kicking in.</p><p>Hope
+  this helps if people come across this issue :)</p>"

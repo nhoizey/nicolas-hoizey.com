@@ -1,0 +1,13 @@
+---
+id: comment-3102151084
+date: '2017-01-16 13:11:40 +0000'
+updated: '2017-01-16 13:11:40 +0000'
+post_id: "/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: Emmanuel
+content: "<p>Idée de bonne pratique : l'utilisateur est informé du poids qui sera
+  téléchargé-stocké sur son cache :-) (à l'instar du poids des fichiers-joints, PDF
+  etc.), et peu le refuser pour consultation sans stockage.</p>"

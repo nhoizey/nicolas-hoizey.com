@@ -1,0 +1,12 @@
+---
+id: comment-2867806261
+date: '2008-01-31 03:41:24 +0000'
+updated: '2008-01-31 03:41:24 +0000'
+post_id: "/2008/01/afficher-les-favicon-dans-la-barre-personnelle-de-firefox-sous-mac-os"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: http://julienfortin.fr
+content: "<p>petite erreur de post :<br /> il faut insérer un</p><blockquote>
+  <p> padding : 0px 2px 0px 0px ;</p> </blockquote>"

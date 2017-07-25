@@ -1,0 +1,13 @@
+---
+id: comment-2867805805
+date: '2008-12-11 22:54:26 +0000'
+updated: '2008-12-11 22:54:26 +0000'
+post_id: "/2008/12/backup-d-un-mac-sur-un-nas-facile-et-sans-bidouille-c-est-possible"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p>Non, franchement, rsync ne convient pas, il ne permet pas si je ne m'abuse
+  de conserver plusieurs versions d'un fichier.</p><p>Et surtout, je cherche
+  quelque chose d'ergonomique… ;-)</p>"

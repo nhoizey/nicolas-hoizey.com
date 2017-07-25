@@ -1,0 +1,15 @@
+---
+id: comment-2867805774
+date: '2010-03-04 21:56:56 +0000'
+updated: '2010-03-04 21:56:56 +0000'
+post_id: "/2010/03/les-spammeurs-s-y-connaissent-en-css"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p>safeHtml n'est-il pas inclu dans SPIP ???</p><p>Pour ce qui est
+  du plugin « forum » du core, je l'utilise, forcément puisque je suis en version
+  SVN, mais je n'avais pas vu qu'il liste les URL. D'ailleurs, je ne reçois plus de
+  mail quand il y a un message, et la page de l'article n'a plus de lien permettant
+  de voir tous les messages de son forum associé…</p>"

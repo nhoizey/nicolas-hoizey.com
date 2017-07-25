@@ -1,0 +1,14 @@
+---
+id: comment-2867806115
+date: '2011-01-29 18:51:29 +0000'
+updated: '2011-01-29 18:51:29 +0000'
+post_id: "/2011/01/le-design-de-gastero-prod-est-il-a-jeter-a-la-poubelle"
+author:
+  url:
+  email:
+  image: no-avatar.png
+  name: Guillaume Saint-Raymond
+content: "<p>Ce que je voulais te montrer, c'est de supprimer ton image de fond sur
+  le body (/themes/gp2010/images/background-bleu.jpg) et le remplacer par un couleur
+  de fond (#333) :</p>
+  <p><code>body { background: #333; }</code></p>"

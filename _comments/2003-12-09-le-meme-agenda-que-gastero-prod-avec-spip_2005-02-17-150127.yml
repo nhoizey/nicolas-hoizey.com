@@ -1,0 +1,22 @@
+---
+id: comment-2867805732
+date: '2005-02-17 15:01:27 +0000'
+updated: '2005-02-17 15:01:27 +0000'
+post_id: "/2003/12/le-meme-agenda-que-gastero-prod-avec-spip"
+author:
+  url:
+  email:
+  image: no-avatar.png
+  name: sklibur
+content: "<p>Bonjour,<br />Très
+  bel agenda, que j'ai un peu de mal à faire fonctionner ! <br />Il ne me manque pas grand chose (j'ai réussi à l'afficher
+  pour la date du jour). Etant débutant et malgré avoir fait moult
+  recherches sur <a href='http://spip.net'>spip.net</a> et spip contrib, je ne comprend pas comment
+  inclure la feuille agenda.html comme page d'affichage de la rubrique spécifique
+  N°10. En effet, l'agenda sur mon site a ce N° de rubrique. Bref,
+  comment comprendre la phrase :</p> <p>&#034;Pour insérer
+  l'agenda dans votre site, le plus simple est de créer un squelette particulier
+  pour la rubrique de votre agenda.<br
+  />J'ai par exemple créé le squelette agenda.html sur Gastero Prod,
+  et je l'utilise selon le principe classique de SPIP dans le script agenda.php3.&#034;</p>
+  <p>Merci d'éclairer ma lanterne…</p>"

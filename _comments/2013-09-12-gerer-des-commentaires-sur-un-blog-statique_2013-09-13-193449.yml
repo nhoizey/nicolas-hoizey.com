@@ -1,0 +1,15 @@
+---
+id: comment-2867804967
+date: '2013-09-13 19:34:49 +0000'
+updated: '2013-09-13 19:34:49 +0000'
+post_id: "/2013/09/gerer-des-commentaires-sur-un-blog-statique"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p>@Johan : Juvia semble effectivement intéressant. Il faut voir ce que
+  ça donne sur mobile et s'il y a un moyen de faire un fallback si pas de JS…</p><p>
+  </p><p>@Vincent : merci pour ce retour d'expérience ! Disqus me gène par plusieurs
+  aspects, dont surtout le fait de ne pas héberger moi-même les commentaires. Juvia
+  semble une alternative intéressante.</p>"

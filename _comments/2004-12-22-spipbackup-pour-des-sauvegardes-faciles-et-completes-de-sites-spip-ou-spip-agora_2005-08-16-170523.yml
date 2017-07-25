@@ -1,0 +1,15 @@
+---
+id: comment-2867806037
+date: '2005-08-16 17:05:23 +0000'
+updated: '2005-08-16 17:05:23 +0000'
+post_id: "/2004/12/spipbackup-pour-des-sauvegardes-faciles-et-completes-de-sites-spip-ou-spip-agora"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p>Pour la restauration, ce n'est malheureusement pas encore automatique,
+  il faut passer par un chargement SQL technique, via phpMyAdmin par exemple.</p>
+  <p>Mais attention, j'ai découvert hier que les scripts SQL générés
+  ne contiennent pas de &#034; ;&#034; à la fin de l'instruction de
+  création de table, il faut l'ajouter.</p>"

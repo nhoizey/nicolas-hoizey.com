@@ -1,0 +1,16 @@
+---
+id: comment-2867805684
+date: '2005-02-23 15:01:11 +0000'
+updated: '2005-02-23 15:01:11 +0000'
+post_id: "/2004/12/spipbackup-pour-des-sauvegardes-faciles-et-completes-de-sites-spip-ou-spip-agora"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p><a href='http://www.laurent-laville.org/'>Laurent Laville</a> vient de sortir une version
+  largement modifiée de HTML_Progress, <a href='http://pear.laurent-laville.org/HTML_Progress2/'>HTML_Progress2</a>, qui contient notamment une
+  classe HTML_Progress2_Lite qui ne nécessite pas d'avoir PEAR.</p>
+  <p>Sans doute un bon moyen de rendre se script moins contraignant pour la
+  majorité des utilisateurs de SPIP.</p>
+"

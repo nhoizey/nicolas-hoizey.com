@@ -1,0 +1,17 @@
+---
+id: comment-2867805327
+date: '2008-06-04 00:43:26 +0000'
+updated: '2008-06-04 00:43:26 +0000'
+post_id: "/2008/06/surveillez-vos-erreurs-404-elles-peuvent-etre-tres-instructives"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: NiKo
+content: "<p>Attention cependant, logguer les 404 dans une base de données (ou dans
+  un fichier de logs d'ailleurs) peu très vite s'avérer une mauvaise idée sur des
+  sites populaires et/ou à très fort traffic : en effet, nombre d'apprentis hackers
+  tentents des urls en lui passant des arguments <i>arbitraires</i>, ce qui a pour
+  conséquence de créer une nouvelle entrée systématiquement, et donc de grossir la
+  base de façon linéaire.</p><p>Pour info, <a href='http://symfony-project.com'>symfony-project.com</a>, c'était 1Go de logs à purger toute
+  les semaines, donc a fini par arrêter.</p>"

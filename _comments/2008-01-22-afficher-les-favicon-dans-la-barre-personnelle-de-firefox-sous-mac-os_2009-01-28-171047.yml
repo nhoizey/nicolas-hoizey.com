@@ -1,0 +1,14 @@
+---
+id: comment-2867807610
+date: '2009-01-28 17:10:47 +0000'
+updated: '2009-01-28 17:10:47 +0000'
+post_id: "/2008/01/afficher-les-favicon-dans-la-barre-personnelle-de-firefox-sous-mac-os"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p>J'ai beaucoup de favoris avec uniquement la favicon, effectivement.</p><p>
+  </p><p>Par contre, je ne comprends pas la question finale, le code présent dans
+  cet article a déjà été corrigé selon les commentaires, il n'y a rien à ajouter.</p><p>
+  </p><p>Mais vous pouvez avoir d'autres règles pour d'autres usages dans votre <code>userChrome.css</code>…</p>"

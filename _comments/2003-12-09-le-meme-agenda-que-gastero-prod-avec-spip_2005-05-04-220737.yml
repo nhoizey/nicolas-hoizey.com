@@ -1,0 +1,16 @@
+---
+id: comment-2867806647
+date: '2005-05-04 22:07:37 +0000'
+updated: '2005-05-04 22:07:37 +0000'
+post_id: "/2003/12/le-meme-agenda-que-gastero-prod-avec-spip"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: tof
+content: "<p>je progresse</p> <p>Après avoir testé
+  d'autres choses, j'ai essayé de mettre le contenu du fichier agenda.html
+  directement dans le squelette et là Ô miracle, tout fonctionne !</p>
+  <p>Reste que je ne comprends pas comment appeler ce fichier avec un inclure.</p>
+  <p>J'ai essayé </p> <p>Rien n'y fait, j'ai bien l'agenda mais vide !</p>
+  <p>Voilà si quelqu'un a une idée, merci !</p>"

@@ -1,0 +1,17 @@
+---
+id: comment-2867805269
+date: '2008-10-27 15:39:50 +0000'
+updated: '2008-10-27 15:39:50 +0000'
+post_id: "/2008/09/nouvelle-tempete-sur-les-flux-rss-reduisons-les-intermediaires"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p>Voilà, les flux sont maintenant accessibles à des URL sur mon domaine,
+  par exemple :</p><p><a href='http://feeds.gasteroprod.com/GasteroProd'>http://feeds.gasteroprod.com/GasteroProd</a></p><p>Et
+  je n'utilise plus de Yahoo ! Pipe pour fusionner les trois flux de base dans le
+  complet, SPIP s'en charge tout seul.</p><p>J'espère que tout cela va règler
+  les derniers problèmes constatés, en attendant la probable migration forcée vers
+  Google…</p>
+"

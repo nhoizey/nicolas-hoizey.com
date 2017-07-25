@@ -1,0 +1,15 @@
+---
+id: comment-2867805698
+date: '2007-03-28 20:16:11 +0000'
+updated: '2007-03-28 20:16:11 +0000'
+post_id: "/2004/06/la-galerie-spip-pour-reutiliser-facilement-les-images-et-documents"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: Anonymous
+content: "<p>Je pense qu'il y a un bug dans galerie.php3 - function sous_arborescence($id_rubrique)<br
+  /> ligne 270</p><blockquote> <p>while (list(, $article) = each($listeArticles))
+  <i></i></p> </blockquote><p><br /> que devrait-il y avoir avant la virgule
+  de 'list(, ' ?</p>
+"

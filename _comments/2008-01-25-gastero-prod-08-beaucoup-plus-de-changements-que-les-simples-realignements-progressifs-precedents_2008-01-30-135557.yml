@@ -1,0 +1,12 @@
+---
+id: comment-2867806255
+date: '2008-01-30 13:55:57 +0000'
+updated: '2008-01-30 13:55:57 +0000'
+post_id: "/2008/01/gastero-prod-08-beaucoup-plus-de-changements-que-les-simples-realignements-progressifs-precedents"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p>C'est un bug de la balise #SELF qui ne prend pas en compte le fait qu'un
+  site puisse avoir de belles URL arborescentes… :-(</p><p>Je suis dessus.</p>"

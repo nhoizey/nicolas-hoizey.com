@@ -1,0 +1,18 @@
+---
+id: comment-2867805124
+date: '2012-07-06 22:37:50 +0000'
+updated: '2012-07-06 22:37:50 +0000'
+post_id: "/2012/07/reconcilier-seo-et-webperf-au-niveau-des-redirections-de-sous-domaines"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p>@Anthony<br /> J'ai répondu à Florent avec d'autres méthodes conduisant
+  à des <code>www.</code> là où je n'en voudrais pas.<br /> Pour identifier les bot,
+  Fil propose carrément de <i>matcher</i> <code>bot</code> dans le User Agent, c'est
+  sans doute un peu risqué, mais ça ne provoque après tout qu'une redirection.</p><p>
+  </p><p>Pour ce qui est des ressources, la plupart sont servies depuis <code>http://static.gasteroprod.com/</code>
+  donc ça devrait être bon. Il faut que je fasse une passe de vérification tout de
+  même, bonne remarque.</p><p>Le same-origin, je peux faire de même, attaquer
+  le même domaine que celui sur lequel je suis, pas trop compliqué.</p>"

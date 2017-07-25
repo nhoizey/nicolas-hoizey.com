@@ -1,0 +1,12 @@
+---
+id: comment-2867806579
+date: '2008-02-12 18:37:56 +0000'
+updated: '2008-02-12 18:37:56 +0000'
+post_id: "/2008/01/amusons-nous-avec-des-boucles-spip-et-les-petits-nouveaux-get-set-et-array"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p>Je viens de comprendre, le filtre « push » que j'utilise est en fait
+  celui présent dans le plugin « nuage » ! ;-)</p><p>J'ajoute son code à l'article.</p>"

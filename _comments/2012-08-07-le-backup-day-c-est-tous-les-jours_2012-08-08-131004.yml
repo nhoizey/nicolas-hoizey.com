@@ -1,0 +1,23 @@
+---
+id: comment-2867805069
+date: '2012-08-08 13:10:04 +0000'
+updated: '2012-08-08 13:10:04 +0000'
+post_id: "/2012/08/le-backup-day-c-est-tous-les-jours"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p>@Eric je suis d'accord avec @piouPiouM, aucun besoin de sauvegarder le
+  système, sauf sur un éventuel clone de disque comme je compte le faire avec Carbon
+  Copy Cloner que j'évoque à la fin. Pour l'instant, j'ai déjà une clef USB bootable
+  avec Mountain Lion, utile en cas de crash.</p><p>De manière générale, je
+  n'inclus pas dans mes sauvegardes tout ce que je sais pouvoir retrouver ailleurs.
+  Par exemple, l'OS et de plus en plus d'applications sont dans le Mac Store, et toute
+  ma musique numérisée est dans iTunes Match.</p><p>Ce que je tiens le plus
+  à sauvegarder, ce sont mes documents administratifs, et mes photos et vidéos personnelles.
+  Quand je vide mes cartes d'appareils photos sur un ordinateur, le backup local avec
+  CrashPlan doit être rapide, et le backup en ligne prendra le temps qu'il faudra,
+  ce n'est pas si important si j'ai déjà deux copies.</p><p>Quand au délai
+  de backup initial, il est forcément plus important pour un portable, que je ne laisse
+  effectivement pas allumé en permanence comme peut l'être mon Mac mini.</p>"

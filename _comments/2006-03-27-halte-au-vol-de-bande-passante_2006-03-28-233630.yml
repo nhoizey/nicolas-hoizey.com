@@ -1,0 +1,17 @@
+---
+id: comment-2867805982
+date: '2006-03-28 23:36:30 +0000'
+updated: '2006-03-28 23:36:30 +0000'
+post_id: "/2006/03/halte-au-vol-de-bande-passante"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p><blockquote><br /><p>Pour Niko,
+  pour le code il suffit d'utiliser les balises code ou cadre (sur le même
+  formatage qu'une balise html standard…</p><br /></blockquote><br /><p>Sauf
+  que la balise <code>&lt;cadre&gt;</code>
+  donne en général quelque chose de pas très lisible. Son
+  seul intérêt est pour les lignes de code trop longues, qui donnent
+  un ascenceur horizontal au lieu d'exploser la mise en page…</p>"

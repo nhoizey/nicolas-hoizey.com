@@ -1,0 +1,15 @@
+---
+id: comment-3116774472
+date: '2017-01-24 09:21:11 +0000'
+updated: '2017-01-24 09:21:11 +0000'
+post_id: "/2017/01/lister-des-contenus-similaires-avec-jekyll"
+author:
+  url: http://www.j0k3r.net/
+  email: 
+  image: j0k.jpg
+  name: Jeremy
+content: "<p>Google est ton ami :-)<br />J'avais eu le même soucis en activant les
+  related_post y'a plusieurs mois. Une recherche m'avait amené rapidement sur ce
+  post: <a href='http://tonyarnold.com/2014/03/27/speeding-up-jekylls-latent-semantic-mapping.html'>http://tonyarnold.com/2014/…</a></p><p>Depuis j'ai locké
+  la version de gsl sur mon mac à 1.16 (les plus récentes étant 2.2 & 2.3) parce
+  que ça ne fonctionnait plus correctement (et j'ai pas voulu chercher plus loin).</p>"

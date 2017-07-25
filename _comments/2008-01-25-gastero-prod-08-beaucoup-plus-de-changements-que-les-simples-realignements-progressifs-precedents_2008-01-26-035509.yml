@@ -1,0 +1,14 @@
+---
+id: comment-2867805884
+date: '2008-01-26 03:55:09 +0000'
+updated: '2008-01-26 03:55:09 +0000'
+post_id: "/2008/01/gastero-prod-08-beaucoup-plus-de-changements-que-les-simples-realignements-progressifs-precedents"
+author:
+  url:
+  email:
+  image: no-avatar.png
+  name: NiCoS
+content: "<p>Quand on soumet un commentaire, dans l'url le /blog/ est perdu donc on arrive sur :</p>
+  <p>http://www.gasteroprod.com/gastero-prod-08-beaucoup-plus-de-changements-que-les-simples-realignements-progressifs-precedents.html%23commentaires%23forum1406</p><p>au lieu de</p>
+  <p>http://www.gasteroprod.com/blog/gastero-prod-08-beaucoup-plus-de-changements-que-les-simples-realignements-progressifs-precedents.html%23commentaires%23forum1406</p>
+"

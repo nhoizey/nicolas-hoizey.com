@@ -1,0 +1,32 @@
+---
+id: comment-2867805065
+date: '2012-08-08 09:48:46 +0000'
+updated: '2012-08-08 09:48:46 +0000'
+post_id: "/2012/08/le-backup-day-c-est-tous-les-jours"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: Eric
+content: "<p>Les CD et DVD ont une mauvaise durée de vie, mais je ne leur demande
+  de tenir que jusqu'à la prochaine sauvegarde (sur les disques optiques je fais des
+  sauvegardes complètes, pas des incrémentales). Ensuite les anciens ne sont qu'un
+  bonus, ils pourraient être jetés.</p><p>Ce n'est pas parfait, mais disons
+  que c'est déjà le backup secondaire. S'il y a un risque que le jour où j'ai un problème
+  sur mes données *et* que mon backup primaire ait un problème *et* que mes disques
+  optiques soient devenus illisibles en 6 mois, il devient relativement faible (il
+  y aura toujours un risque, c'est juste une question de le réduire à quelque chose
+  d'improbable).</p><p>Pour la sauvegarde en ligne tu as mis un mois ? Tes
+  nouvelles données sont en ligne en combien de temps quand tu fais une mise à jour
+  de l'OS ou que tu fides une carte mémoire de quelques Go ? Si tu mets un mois pour
+  100 Go, tu vas mettre plusieurs jours rien que pour sauvegarder l'application de
+  mise à jour vers Mountain Lion. Pour peu que tu descendes des photos dans ces eaux
+  là…</p><p>Je suis d'accord que ça reste une bonne solution et que le délai
+  n'est pas dramatique, mais au niveau ressenti je bloque encore (outre le fait que
+  moi j'ai plus de 100 Go et qu'initialiser sur 3 mois en laissant l'ordi portable
+  allumé sur le canapé toutes les nuits me semble franchement exagéré).</p><p>Sinon,
+  tu mets combien de temps si tu dois restaurer ton système ? Si la bande passante
+  est meilleure dans l'autre sens, avec une connexion ADSL de mauvaise qualité la
+  question se pose aussi. Le backup en ligne n'a de sens que s'il peut être redescendu
+  dans des temps raisonnables en cas de besoin.</p><p>Pour le titre tu as
+  raison :) n'y vois rien de plus qu'une façon de communiquer</p>"

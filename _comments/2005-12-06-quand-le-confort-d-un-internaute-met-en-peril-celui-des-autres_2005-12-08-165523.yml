@@ -1,0 +1,16 @@
+---
+id: comment-2867805617
+date: '2005-12-08 16:55:23 +0000'
+updated: '2005-12-08 16:55:23 +0000'
+post_id: "/2005/12/quand-le-confort-d-un-internaute-met-en-peril-celui-des-autres"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: Xavier
+content: "<p>Juste pour préciser que le préchargement (prefetching)
+  n'est pas du tout une nouveauté de Firefox 1.5.</p> <p>L'extension
+  fonctionnait déjà sur les version 1.0.x et il me semble que la fonctionnalité
+  était déjà dans le moteur Gecko (utilisé par Firefox)
+  depuis un bon moment.</p> <p>La seule nouveauté c'est son utilisation
+  ;-)</p>"

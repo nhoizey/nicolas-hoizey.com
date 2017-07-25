@@ -1,0 +1,21 @@
+---
+id: comment-2867805696
+date: '2008-03-30 00:45:41 +0000'
+updated: '2008-03-30 00:45:41 +0000'
+post_id: "/2004/06/la-galerie-spip-pour-reutiliser-facilement-les-images-et-documents"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: se7en
+content: "<p>Bonsoir,<br /> Bravo pour avoir eu l'initiative de lancer ce plug-in qui
+  mériterait d'être soutenu et peaufiné davantage.<br /> Nous l'avons fait tourner
+  correctement sur la 1.9.2, mais intégré au plug-in 'Barre Typo V2 pour 1.9.2 et
+  suivantes' Version 2.4.1, il reste un problème de javascript dans certains environnements.
+  Ce bug est bien frustrant tant la fonction peut être attendue par certains, je dis
+  ça pour encourager les développeurs à poursuivre leur effort, pas pour râler ! ;-)<br
+  /> Une piste d'amélioration :<br /> Il faudrait afficher le numéro identifiant de
+  l'article quelque-part en regard de chaque image ou document disponible dans le
+  repository. <br /> Ainsi on aurait pas forcément à cliquer sur le lien pour exploiter
+  le fichier (à la mano via un raccourci customisé par ex).</p>
+"

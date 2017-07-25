@@ -1,0 +1,17 @@
+---
+id: comment-2867804963
+date: '2013-09-13 15:02:14 +0000'
+updated: '2013-09-13 15:02:14 +0000'
+post_id: "/2013/09/gerer-des-commentaires-sur-un-blog-statique"
+author:
+  url: http://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p>@remouk : Mais bien sûr que « c'est quand même génial de pouvoir séparer
+  contenu et contenant, surtout pour la pérennité », il n'a jamais été question du
+  contraire. Mes contenus seront isolés dans une arborescence de fichiers Markdown,
+  et les templates seront ailleurs. Et cette arbo de fichiers sera versionnée en remote,
+  donc pas de soucis de backup.</p><p>@Bob : Les commentaires peuvent ne provoquer
+  que la mise à jour de la page concernée. Je vais quand même creuser Juvia pour voir
+  ce que ça donne.</p>"

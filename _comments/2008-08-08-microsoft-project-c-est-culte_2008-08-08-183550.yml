@@ -1,0 +1,35 @@
+---
+id: comment-2867805277
+date: '2008-08-08 18:35:50 +0000'
+updated: '2008-08-08 18:35:50 +0000'
+post_id: "/2008/08/microsoft-project-c-est-culte"
+author:
+  url:
+  email:
+  image: no-avatar.png
+  name: philippe tissandier
+content: "<p>Justement en parlant d'outils d'EPM, je cherche actuellement à trouver
+  une solution qui permette de gérer des plannings, des ressources et les coûts associés
+  et surtout une vue multi-projets.</p><p>Je suis en train de graver les 3
+  installes nécessaires à MS EPM.</p><p>Pour le moment je travaille avec <a
+  href='http://www.basecamphq.com/'>BaseCamp</a> de 37 signals. C'est bon outil de gestion
+  de projet au quotidien, mais il ne permet pas de vue multi-projet performante et
+  ne permet pas non plus d'avoir une visibilité très clair sur les semaines à venir
+  et les couts des projets. Il y a bien l'applicatif AIR, <a href='http://www.agileagenda.com/'>Agile Agenda</a> qui permet de rentrer des TODO-List plus
+  simplement, mais ce n'est encore une fois pas très poussé sur les attentes de nos
+  gentils dirigeants…</p><p>Bref J'ai aussi creusé du côté de Artologik
+  et plus spécialement : <a href='http://www.artologik.com/fr/ProjectManager.aspx'>Project Manager</a>.<br /> Apparemment cette solution a
+  plusieurs points positifs, notamment la gestion de diagramme de GANT, le calcul
+  du coûts des projets, la génération de « templates » de projets (décomposé en phases
+  et taches), un suivi de temps passé et encore pas mal de petites choses assez pratiques.<br
+  /> Pourtant l'aspect de l'interface n'est pas super « user-friendly » (enfin je
+  trouve…) ; la gestion des vues multi-projets n'est pas très aisée (à priori cela
+  passe par des rapports => donc une vue remplie de chiffres et de tableaux…).
+  Enfin, dans les références d'utilisation, je ne m'y retrouve pas vraiment ; c'est
+  sans doute du fait de l'origine de la boîte : la Suède.</p><p>Je me suis
+  donc mi en tête d'installer la version MS EPM, qui semble vraiment prometteuse…<br
+  /> Accès mutli-utilisateur (client, fournisseur, ressource, dirigeant,..), différentes
+  vues multi-projets, utilisation des ressources,…</p><p>Ma grande question
+  est l'utilisabilité d'une telle machine de guerre ? En effet je me doute qu'il
+  y a une phase de Setup énorme, mais au quotidien comment se gère un tel « bouzin »
+  =)</p>"

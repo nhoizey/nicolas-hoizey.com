@@ -1,0 +1,15 @@
+---
+id: comment-2867805863
+date: '2008-06-04 12:25:26 +0000'
+updated: '2008-06-04 12:25:26 +0000'
+post_id: "/2008/06/surveillez-vos-erreurs-404-elles-peuvent-etre-tres-instructives"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p>Oui, bien sûr, et c'est notamment pour cela que ça part par mail plutôt
+  que rester sur mon serveur, GMail encaisse très bien… ;-)</p><p>Et je
+  filtre de toute façon au niveau apache la plus grande partie de ces attaques, avec
+  des pattern génériques (cf extrait de RewriteRules) et non les paramètres précis
+  de chaque attaque, donc c'est autant de moins dans les logs de 404.</p>"

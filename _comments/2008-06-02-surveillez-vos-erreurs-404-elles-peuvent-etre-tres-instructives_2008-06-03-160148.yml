@@ -1,0 +1,12 @@
+---
+id: comment-2867805860
+date: '2008-06-03 16:01:48 +0000'
+updated: '2008-06-03 16:01:48 +0000'
+post_id: "/2008/06/surveillez-vos-erreurs-404-elles-peuvent-etre-tres-instructives"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p>En fait je l'ai, puisque je m'envoie tout <code>$GLOBALS</code>, qui
+  contient notamment <code>$_SERVER</code>…</p>"

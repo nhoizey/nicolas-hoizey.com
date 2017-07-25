@@ -1,0 +1,32 @@
+---
+id: comment-2699976625
+date: '2016-05-28 13:28:42 +0000'
+updated: '2016-05-28 13:28:42 +0000'
+post_id: "/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers"
+author:
+  url:
+  email:
+  image: thomas_dm.jpg
+  name: Thomas DM
+content: "<p>Good article indeed.<br />Truth be told, I don't think there could be
+  any ideal solution to this problem. One could say it was all better in the old days
+  when mobile browsers did not resize the viewport upon scrolling, but for now we
+  have to deal with it.</p><p>As it stands today, I actually find iOS's behavior makes
+  a lot more sense than Android's. We could argue that 100vh should be equal to the
+  viewport height *with* the chrome being displayed as websites first appear this
+  way upon landing. But changing the actual value of the vh unit multiple times as
+  the user scrolls is a complete nonsense and a nightmare to deal with when developing
+  regular websites. How many times a day do Android users stumble upon a site whose
+  content \"jumps\" a few dozens pixels when they scroll up and down?</p><p>Many web
+  designs nowadays feature an introductory section with a background image and a height
+  that is relative to the viewport's, which makes using any relative values a no-go
+  on Android.  What's even worse, most Android browsers trigger the resize JS event
+  when the chrome shows up or hides, so you can't rely on it to set your layout in
+  JS. I usually end up storing the initial viewport height on Android and use that
+  instead. Oh, and to make everything so much more messed up, scrolling up and down
+  on Android triggers height-related CSS media queries. So if you happen to have one
+  right between the with-chrome and without-chrome values, you're out of luck.</p><p>I
+  understand iOS's behavior could be an issue in certain cases (like developing a
+  game), but I find it a lot less frustrating and a lot easier to deal with on a daily
+  basis than Android's.</p>
+"

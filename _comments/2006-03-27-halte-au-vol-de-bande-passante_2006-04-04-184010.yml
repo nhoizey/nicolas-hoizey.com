@@ -1,0 +1,23 @@
+---
+id: comment-2867806296
+date: '2006-04-04 18:40:10 +0000'
+updated: '2006-04-04 18:40:10 +0000'
+post_id: "/2006/03/halte-au-vol-de-bande-passante"
+author:
+  url:
+  email:
+  image: no-avatar.png
+  name: Anonymous
+content: "<p><blockquote><br /><p>Malheureusement,
+  il est impossible de généraliser la règle à tout
+  site externe, car les images deviendraient alors invisibles dans les aggrégateurs
+  de flux de syndication en ligne tels que Bloglines ou FeedLounge.</p><br
+  /></blockquote><br /><p>Pour ma part, je ne fonctionne pas en \"liste
+  noire\" (en bloquant des sites indélicats), mais en \"liste
+  blanche\" (en débloquant les sites souhaités). L'option liste
+  noire oblige à pouchasser les hotlinkers dans les logs, ce qui rpend un
+  temps certain.</p> <p>Je redirige aussi les images hotlinkées
+  vers une image modifiée, rétrécie, et un brin provoquante.</p>
+  <p><a href='http://www.azurs.net/photos/htaccess.txt'>Le htaccess</a></p> <p><a href='http://www.azurs.net/watermark2.php?pic=chevre.jpg'>Exemple d'image modifiée</a></p>
+"
+

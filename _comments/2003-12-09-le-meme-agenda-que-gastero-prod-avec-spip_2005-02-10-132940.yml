@@ -1,0 +1,25 @@
+---
+id: comment-2867806338
+date: '2005-02-10 13:29:40 +0000'
+updated: '2005-02-10 13:29:40 +0000'
+post_id: "/2003/12/le-meme-agenda-que-gastero-prod-avec-spip"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: flipflip
+content: "<p>Pour les événement sur plusieurs jours c'est
+  bon j'ai réussi à intégrer une modification donnée
+  dans les commentaires sur spip-contrib.</p> <p>En ce qui concerce ceux
+  qui s'étalent sur plusieurs mois, non ce n'est pas une répétition
+  mais imagine un festival qui dure du 28 février au 3 mars… comment le
+  gérer pour qu'il apparaisse sur février et sur mars ? En fait ce
+  n'est pas tellement la gestion sur plusieurs mois qui pose problème puisque,
+  par exemple, pour février 2005 il apparait le 28 février, le 1,
+  2, 3, 4, 5, 6 mars sur la même page. C'est plutôt le changement
+  de page qui est problématique.<br
+  />Il serait peut-être interressant d'utiliser la date de publication comme
+  date de début de l'événement et la date de publication antérieur
+  comme date de fin de l'événement. Certe on perd l'intéret
+  de savoir quand à été écrit l'article mais pour
+  un agenda est-ce nécessaire ?</p>"

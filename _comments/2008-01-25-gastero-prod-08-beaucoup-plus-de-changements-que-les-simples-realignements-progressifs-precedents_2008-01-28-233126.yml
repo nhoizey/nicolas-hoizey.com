@@ -1,0 +1,14 @@
+---
+id: comment-2867805890
+date: '2008-01-28 23:31:26 +0000'
+updated: '2008-01-28 23:31:26 +0000'
+post_id: "/2008/01/gastero-prod-08-beaucoup-plus-de-changements-que-les-simples-realignements-progressifs-precedents"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<blockquote> <p>Par contre tu aurais pu prévoir une redirection apache de
+  l'ancienne url du flux RSS vers le nouveau…</p> </blockquote><p>Euh…
+  l'URL du flux n'a pas changé pourtant, c'est toujours <a href='http://feeds.feedburner.com/GasteroProd'>http://feeds.feedburner.com/GasteroProd</a></p>
+"

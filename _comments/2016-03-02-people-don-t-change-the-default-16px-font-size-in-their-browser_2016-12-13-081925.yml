@@ -1,0 +1,14 @@
+---
+id: comment-3049650027
+date: '2016-12-13 08:19:25 +0000'
+updated: '2016-12-13 08:19:25 +0000'
+post_id: "/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p>Oh, right, Disqus is not perfect for big font sizes, indeed. I have planned
+  to remove it, but it's not so easy on a static website.</p><p>I know Google often
+  do and say different things, that's annoying. Where did you read they recommend
+  pixels for font sizes?</p>"

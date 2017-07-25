@@ -1,0 +1,19 @@
+---
+id: comment-2867805694
+date: '2005-01-30 23:14:37 +0000'
+updated: '2005-01-30 23:14:37 +0000'
+post_id: "/2004/06/la-galerie-spip-pour-reutiliser-facilement-les-images-et-documents"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: gerard
+content: "<p>Bonsoir<br />je trouve
+  cette fonction tres intéressante effectivement. Bravo pour ce travail.</p>
+  <p>J'ai implementé cette fonction sur notre Site mais je rencontre
+  un petit problème.Apres le lancement de la fonction par un clic sur l'icone
+  voilà ce que j'obtiens :</p> <p>Fatal error : Call to unsupported
+  or undefined function sous_arborescence() in <br />……./ecrire/galerie.php3 on line 15</p> <p>je dois faire
+  une erreur, mais ….<br />Peut être
+  une aide !</p> <p>@+<br /><a href='034mailto%3Agerard%40xn--ptanque-breisach-bqb.de'>&#034; class=&#034;spip_mail&#034;
+  rel='nofollow'&gt;gerard</a></p>"

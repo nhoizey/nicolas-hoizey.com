@@ -1,0 +1,13 @@
+---
+id: comment-2867806598
+date: '2006-05-02 16:48:06 +0000'
+updated: '2006-05-02 16:48:06 +0000'
+post_id: "/2006/04/gastero-prod-est-maintenant-severement-feed-burne"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p>J'aime bien les marmottes… ;-)</p> <p>Normalement,
+  les clients HTTP sont censés prendre en compte les messages qu'on leur envoi,
+  dont les redirections permanentes.</p>"

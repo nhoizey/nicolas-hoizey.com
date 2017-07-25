@@ -1,0 +1,14 @@
+---
+id: comment-2867806619
+date: '2005-11-01 21:18:04 +0000'
+updated: '2005-11-01 21:18:04 +0000'
+post_id: "/2005/09/faut-il-utiliser-des-tags-composes-de-plusieurs-mots"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p>Dans certains cas je fais la même chose, oui, mais ça
+  ne me semble pas optimal, il faudrait plutôt ne mettre que &#034;Ile
+  d'Oléron&#034; et avoir un moyen de définir des relations entre
+  tags, en disant que c'est un cas particulier du tag &#034;île&#034;…</p>"

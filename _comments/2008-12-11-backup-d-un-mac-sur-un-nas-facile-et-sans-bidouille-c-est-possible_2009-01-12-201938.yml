@@ -1,0 +1,16 @@
+---
+id: comment-2867806571
+date: '2009-01-12 20:19:38 +0000'
+updated: '2009-01-12 20:19:38 +0000'
+post_id: "/2008/12/backup-d-un-mac-sur-un-nas-facile-et-sans-bidouille-c-est-possible"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p>Donc tes sauvegardes CarbonCopyCloner et SuperDuper sont faites directement
+  sur ton NAS ? Et ton Mac Mini fait du rsync aussi avec le NAS, je suppose ?</p><p>
+  </p><p>Moi il me faut à la fois des sauvegardes, et tant que possible du partage,
+  ça complexifie forcément.</p><p>Mais aussi, ton système a été mis en place
+  avant l'arrivée de Time Machine, je suppose, tu ne partirais pas forcément sur la
+  même solution aujourd'hui, non ?</p>"

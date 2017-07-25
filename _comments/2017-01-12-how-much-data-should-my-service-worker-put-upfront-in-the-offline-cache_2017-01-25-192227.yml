@@ -1,0 +1,12 @@
+---
+id: comment-3119746549
+date: '2017-01-25 19:22:27 +0000'
+updated: '2017-01-25 19:22:27 +0000'
+post_id: "/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache"
+author:
+  url: https://webplatformdaily.org
+  email: 
+  image: simevidas.jpg
+  name: Šime Vidas
+content: "<p>If a web app wants to pre-cache itself for offline use and the app’s
+  total size is say 5 MB or more, it should absolutely ask the user first.</p>"

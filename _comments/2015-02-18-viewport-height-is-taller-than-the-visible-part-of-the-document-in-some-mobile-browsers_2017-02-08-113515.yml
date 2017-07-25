@@ -1,0 +1,17 @@
+---
+id: comment-3143911025
+date: '2017-02-08 11:35:15 +0000'
+updated: '2017-02-08 11:35:15 +0000'
+post_id: "/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers"
+author:
+  url: http://ultramarkus.com
+  email: 
+  image: disqus_VHWaLrfuF5.jpg
+  name: Markus Kylberg
+content: "<p>I get really annoyed with mobile browsers in general, the viewport size
+  changing on scroll is so ugly, when I use something that has vh it makes the whole
+  page jump up and down when I scroll and the address bar shows up for instance. The
+  viewport in mobile browsers should always be at a fixed height in my opinion. If
+  that means always showing the address bar and other bars and sacrificing some screen
+  real estate, so be it. Phones are becoming so huge anyway that 40px less height
+  in a browser really isn't a big deal.</p>"

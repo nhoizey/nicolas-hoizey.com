@@ -1,0 +1,20 @@
+---
+id: comment-2867805130
+date: '2012-10-21 16:26:06 +0000'
+updated: '2012-10-21 16:26:06 +0000'
+post_id: "/2012/07/reconcilier-seo-et-webperf-au-niveau-des-redirections-de-sous-domaines"
+author:
+  url:
+  email: 
+  image: no-avatar.png
+  name: djnos
+content: "<p>la 301 n'est presente que pour la migration definitive du pr, pourquoi
+  chercher a detecter le bot… l'ancienne url n'existe plus dans la page de base
+  alors pourquoi l'internaute prendrait-il une 301 ? le bot en revanche a associe
+  le contenu a une url obsolete, s'il decide a un instant de crawler l'url alors la
+  il est important qu'on lui dise de mettre a jour son index (url) et de transmettre
+  le seo acquis, non ? Lorsque l'on a verifie que tt le monde a mis a jour ses index
+  alors on a plus lieu de conserver cette redirection devenue inutile, donc fini le
+  cout supplementaire, d'ailleurs pourquoi chercher a detecter le bot et risquer d'etre
+  pris pour un cloaker en utilisant d'ailleurs une tout autant couteuse detection
+  de user-agent ?</p>"
