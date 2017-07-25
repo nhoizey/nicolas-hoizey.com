@@ -72,6 +72,7 @@ algolia:
     - 404.html
     - index.html
 
+# YouTube
 youtube:
   api_key: …
 
