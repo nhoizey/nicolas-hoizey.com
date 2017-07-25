@@ -44,7 +44,6 @@ module StaticComments
 
     Dir["#{source}/**/_comments/**/*"].sort.each do |comment|
       next unless File.file?(comment) and File.readable?(comment)
-# puts comment
       yaml_data = YAML::load_file(comment)
       post_id = yaml_data.delete('post_id')
       comments[post_id] << yaml_data
