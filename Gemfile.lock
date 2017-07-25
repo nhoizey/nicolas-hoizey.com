@@ -34,6 +34,8 @@ GEM
     awesome_print (1.7.0)
     colorator (1.1.0)
     concurrent-ruby (1.0.5)
+    domainatrix (0.0.11)
+      addressable
     execjs (2.7.0)
     extras (0.3.0)
       forwardable-extended (~> 2.5)
@@ -123,6 +125,7 @@ PLATFORMS
 DEPENDENCIES
   algoliasearch-jekyll
   autoprefixer-rails
+  domainatrix
   jekyll
   jekyll-archives
   jekyll-assets

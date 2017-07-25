@@ -16,3 +16,5 @@ group :jekyll_plugins do
   gem 'jekyll-archives'
   gem 'jekyll-microtypo'
 end
+
+gem 'domainatrix'
