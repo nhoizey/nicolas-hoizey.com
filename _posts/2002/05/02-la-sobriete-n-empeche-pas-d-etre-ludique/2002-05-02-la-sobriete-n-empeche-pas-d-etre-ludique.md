@@ -16,7 +16,7 @@ Google a ainsi par exemple célébré :
 | Sujet                                    | Doodle                                                       |
 |------------------------------------------|--------------------------------------------------------------|
 | Monet, le 14 novembre 2001               | {% cloudinary google-doodle-monet.png alt="Monet" %}             |
-| Mondrian, le 7 mars 2002                 | {% cloudinary google-doodle-mondrian94.png alt="Mondrian" %}      |
+| Mondrian, le 7 mars 2002                 | {% cloudinary google-doodle-mondrian.png alt="Mondrian" %}      |
 | La Saint-Patrick, le 17 mars 2002        | {% cloudinary google-doodle-saint-patrick.png alt="Saint-Patrick" %} |
 | La journée de la Terre, le 22 avril 2002 | {% cloudinary google-doodle-journee-de-la-terre.png alt="La journée de la Terre" %}      |
 
