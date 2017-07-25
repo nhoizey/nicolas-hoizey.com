@@ -85,8 +85,8 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
 
   {% include comments.html %}
 
-  <div>
-    <h2 id="webmentions">Webmentions (<a href="https://indieweb.org/Webmention">?</a>)</h2>
+  <div id="webmentions">
+    <h2>Webmentions (<a href="https://indieweb.org/Webmention">?</a>)</h2>
     {% if jekyll.environment == "production" %}
       {% webmentions this_url %}
     {% endif %}

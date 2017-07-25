@@ -1,6 +1,6 @@
 {% if page.comments.size %}
-  <div>
-    <h2 id="commentaires">Commentaires</h2>
+  <div id="commentaires">
+    <h2>Commentaires</h2>
     <ul class="comments__list">
       {% for comment in page.comments %}
         {% assign avatar = comment.author.image | prepend: '/assets/avatars/' | prepend: site.url %}
