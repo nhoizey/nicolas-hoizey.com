@@ -1,0 +1,32 @@
+{% if page.comments.size %}
+  <div>
+    <h2 id="commentaires">Commentaires</h2>
+    <ul class="comments__list">
+      {% for comment in page.comments %}
+        {% assign avatar = comment.author.image | prepend: '/assets/avatars/' | prepend site.url %}
+        <li id="comment-{{ comment.id }}" class="comments__item{% if comment.author.name == 'Nicolas Hoizey' %} me{% endif %}">
+          <article>
+            <div class="comment__author p-author h-card">
+              <a href="{{ comment.author.url }}" class="u-url">
+                <img
+                    src="https://res.cloudinary.com/nho/image/fetch/c_limit,f_auto,q_auto,w_48/{{ avatar }}"
+                    srcset="
+                      https://res.cloudinary.com/nho/image/fetch/c_limit,f_auto,q_auto,w_48/{{ avatar }} 1x,
+                      https://res.cloudinary.com/nho/image/fetch/c_limit,f_auto,q_auto,w_96/{{ avatar }} 2x"
+                    alt="{{ comment.author.name }}"
+                    class="comment__author__photo u-photo" />
+                <b class="p-name">{{ comment.author.name }}</b>
+              </a>
+            </div>
+            <div class="comment__content p-content">
+              {{ comment.content }}
+            </div>
+            <div class="comment__meta">
+              <a href="#{{ comment.id }}"><time class="comment__pubdate dt-published" datetime="{{ comment.date | date_to_xmlschema }}">{{ comment.date | date: '%b %d %Y' }}</time></a>
+            </div>
+          </article>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}
