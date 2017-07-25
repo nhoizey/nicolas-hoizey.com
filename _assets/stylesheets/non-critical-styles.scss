@@ -196,15 +196,20 @@ article {
 }
 
 // ************************************************************
+// Comments
+// ************************************************************
+
+
+// ************************************************************
 // Webmentions
 // ************************************************************
 
-.webmentions__list {
+.comments__list, .webmentions__list {
   list-style: none;
   padding: 0;
 }
 
-.webmentions__item {
+.comments__item, .webmentions__item {
   clear: left;
   position: relative;
   padding: .5em 0 0 4em;
@@ -215,27 +220,27 @@ article {
   }
 }
 
-.webmention__author {
+.comment__author, .webmention__author {
   font-size: .9em;
   font-weight: normal;
 }
 
-.webmention--author-starts .webmention__author .p-name {
+.comment--author-starts .comment__author .p-name, .webmention--author-starts .webmention__author .p-name {
   display: none;
 }
 
-.webmention__author__photo {
+.comment__author__photo, .webmention__author__photo {
   display: block;
   position: absolute;
   top: .8em;
   left: 0;
   width: 3em;
-  height: auto;
+  height: 3em;
   margin: 0;
   border-radius: 5px;
 }
 
-.webmention__content {
+.comment__content, .webmention__content {
   margin: 0;
 
   p {
@@ -243,7 +248,7 @@ article {
   }
 }
 
-.webmention__meta {
+.comment__meta, .webmention__meta {
   color: $color-article-header;
   font-size: .9em;
 }
