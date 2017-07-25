@@ -1,4 +1,4 @@
-{% if page.comments.size %}
+{% if page.comments.size and page.comments.size > 0 %}
   <div id="commentaires">
     <h2>{{ page.comments.size }} commentaire{% if page.comments.size > 1 %}s{% endif %}</h2>
     <ul class="comments__list">
