@@ -3,6 +3,6 @@
 <article class="post{% if poster != "" %} post--with-poster{% endif %}"{% if include.page.lang %} lang="{{ include.page.lang }}"{% endif %}>
   {{ poster }}
   <h{{ include.level | default: "2" }}><a href="{{ include.page.url }}" {% if include.page.lang %}hreflang="{{ include.page.lang }}"{% endif %}>{{ include.page.title }}</a></h{{ include.level | default: "2" }}>
-  {% include article-header.html page=include.page %}
+  {% include post-header.html page=include.page %}
   {{ include.page.excerpt | strip_footnotes }}
 </article>

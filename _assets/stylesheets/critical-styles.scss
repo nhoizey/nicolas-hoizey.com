@@ -376,7 +376,7 @@ article {
   margin: 1em 0 5em;
 
   header {
-    color: $color-article-header;
+    color: $color-post-header;
     font-size: .8em;
 
     ul {
@@ -390,7 +390,7 @@ article {
     }
 
     svg {
-      fill: lighten($color-article-header, 20%);
+      fill: lighten($color-post-header, 20%);
       vertical-align: middle;
       margin: 0 .2em 0 0;
       padding: 0;
@@ -406,12 +406,12 @@ article {
 
     a {
       &:link, &:visited {
-        color: $color-article-header-link;
+        color: $color-post-header-link;
         text-decoration: none;
       }
 
       &:hover, &:focus {
-        color: $color-article-header-hover;
+        color: $color-post-header-hover;
         text-decoration: underline;
       }
     }

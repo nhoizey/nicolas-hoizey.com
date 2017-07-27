@@ -4,7 +4,7 @@
     <li class="date">
       <svg class="icon"><use xlink:href="#symbol-date" /></svg>
       {% if include.page.lang == 'en' %}
-        <a href="/{{ include.page.date | date: "%Y/%m" }}/">{{ include.page.date | date: "%B" }}</a>
+        <a href="/{{ include.page.date | date: "%Y/%m" }}/">{{ include.page.date | date: "%B" }}</a>&nbsp;
         {{ include.page.date | date: "%-d" }},
         <a href="/{{ year }}/">{{ year }}</a>
       {% else %}
