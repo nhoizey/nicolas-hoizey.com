@@ -358,7 +358,7 @@ main {
   }
 
   article:not(:first-child) {
-    border-top: solid 2 lighten($color-purple-heart, 20%);
+    border-top: solid 2px lighten($color-purple-heart, 20%);
   }
 
   h2 + article {
