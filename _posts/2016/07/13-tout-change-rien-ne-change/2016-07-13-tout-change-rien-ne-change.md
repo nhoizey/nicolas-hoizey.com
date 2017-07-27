@@ -4,7 +4,7 @@ lang:  fr
 tags:  [Jekyll,Cloudinary,Algolia]
 ---
 
-Ce site est [généré avec Jekyll](https://nicolas-hoizey.com/a-propos/du-site.html#le-statique-cest-fantastique) depuis plus d'un an maintenant, mais je n'avais pas encore réussi à migrer vers [Jekyll 3, sorti en octobre](https://jekyllrb.com/news/2015/10/26/jekyll-3-0-released/), à cause de multiples blocages liés à des plugins non compatibles. La migration est maintenant faite !
+Ce site est [généré avec Jekyll](https://nicolas-hoizey.com/a-propos/du-site.html#avec-jekyll-le-statique-cest-fantastique) depuis plus d'un an maintenant, mais je n'avais pas encore réussi à migrer vers [Jekyll 3, sorti en octobre](https://jekyllrb.com/news/2015/10/26/jekyll-3-0-released/), à cause de multiples blocages liés à des plugins non compatibles. La migration est maintenant faite !
 
 # Tout change
 
