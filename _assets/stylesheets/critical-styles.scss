@@ -392,15 +392,11 @@ article {
     svg {
       fill: lighten($color-article-header, 20%);
       vertical-align: middle;
-      margin: 0;
+      margin: 0 .2em 0 0;
       padding: 0;
 
       width: 1.1em;
       height: 1.1em;
-      @media (min-width: 30em) {
-        width: 1.3em;
-        height: 1.3em;
-      }
     }
 
     .date {
