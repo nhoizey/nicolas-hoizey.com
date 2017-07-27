@@ -1,10 +1,17 @@
+{% assign year = include.page.date | date: "%Y" %}
 <header>
   <ul>
     <li class="date">
       <svg class="icon"><use xlink:href="#symbol-date" /></svg>
-      {{ include.page.date | date: "%-d" }}
-      {% include mois.html page=include.page %}
-      <a href="/{{ include.page.date | date: "%Y" }}/">{{ include.page.date | date: "%Y" }}</a>
+      {% if include.page.lang == 'en' %}
+        <a href="/{{ include.page.date | date: "%Y/%m" }}/">{{ include.page.date | date: "%B" }}</a>
+        {{ include.page.date | date: "%-d" }},
+        <a href="/{{ year }}/">{{ year }}</a>
+      {% else %}
+        {{ include.page.date | date: "%-d" }}
+        <a href="/{{ include.page.date | date: "%Y/%m" }}/">{% include mois.html page=include.page %}</a>
+        <a href="/{{ year }}/">{{ year }}</a>
+      {% endif %}
     </li>
     <li class="tags">
       <svg class="icon"><use xlink:href="#symbol-tags" /></svg>
