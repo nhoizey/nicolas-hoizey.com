@@ -40,20 +40,7 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
 <article class="main clearfix" {% if page.lang %}lang="{{ page.lang }}"{% endif %}>
   <h1 id="post">{{ page.title }}</h1>
 
-  <header>
-    <ul>
-      <li class="date">
-        <svg class="icon"><use xlink:href="#symbol-date" /></svg>
-        {{ page.date | date: "%-d" }}
-        <a href="/{{ page.date | date: "%Y/%m" }}/">{% include mois.html page=page %}</a>
-        <a href="/{{ page.date | date: "%Y" }}/">{{ page.date | date: "%Y" }}</a>
-      </li>
-      <li class="tags">
-        <svg class="icon"><use xlink:href="#symbol-tags" /></svg>
-        {{ page | tags }}
-      </li>
-    </ul>
-  </header>
+  {% include article-header.html page=page %}
 
   {{ content }}
 
