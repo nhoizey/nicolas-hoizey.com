@@ -41,6 +41,8 @@ Voici comment utiliser les deux scripts :
 1. Installez macOS
 1. Lancez le Mac App Store et connectez-vous à votre compte
 
+**Attention**, si vous migrez depuis une autre machine ou faites une réinstallation complète, utilisez tant que possible le même *username*, sinon Mackup ne fera pas les bonnes actions pour récupérer les paramètres des applications.
+
 ## Première étape
 
 1. Téléchargez la dernière version du projet ([lien direct](https://github.com/nhoizey/macOS-init/archive/master.zip)) ;
