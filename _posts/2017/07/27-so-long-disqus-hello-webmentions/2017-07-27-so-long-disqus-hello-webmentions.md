@@ -38,7 +38,7 @@ Disqus also requires [a few rules in your Content Security Policy](https://githu
 
 Disqus being a third party service, we don't know what our comments become and how Disqus tracks us accross blogs, how [we are becoming the product](http://geek-and-poke.com/geekandpoke/2010/12/21/the-free-model.html).
 
-{% cloudinary geek-and-poke-fremium-model.jpg %}
+{% cloudinary geek-and-poke-fremium-model.jpg caption="The famous Geek&Poke cartoon with pigs talking about the “free” model." %}
 
 I can of course export all comments to keep my own local copy, but it's not as convenient as a true local storage.
 
@@ -46,7 +46,7 @@ Some people also [don't like being forced to create an account on Disqus to be a
 
 If you use Disqus on your blog, please active the "Allow guests to comment" option in the settings!
 
-{% cloudinary disqus-guests.png %}
+{% cloudinary disqus-guests.png caption="If you use Disqus, please allow guests to comment without an account" %}
 
 # Comments history is not lost!
 
@@ -58,7 +58,7 @@ I had to clean them a lot, mostly manually, because they were an HTML mess. Mayb
 
 The comments are shown below posts has before[^comments], but they are now static, using [a Jekyll template](https://github.com/nhoizey/nicolas-hoizey.com/blob/master/_includes/comments.html), without Disqus being involved anymore.
 
-[^comments]: Here is [an example of comments preserved for a popular post](https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html#commentaires). 
+[^comments]: Here is [an example of comments preserved for a popular post](https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html#commentaires).
 
 # Hello Webmention
 
@@ -107,6 +107,6 @@ First, there are some Webmentions that should not be shown, either because they 
 
 Also, I should group mentions by type. Likes, for example, can be take much less space in the page. Aaron Gustafson grouped mentions by type [on his blog](https://www.aaron-gustafson.com/notebook/your-site-should-be-a-pwa/#webmentions), but I'ld like to show them as [facepiles](https://indieweb.org/facepile), [like Drew McLellan](https://allinthehead.com/retro/378/implementing-webmentions#comments):
 
-{% cloudinary onehalf webmention-facepiles.png %}
+{% cloudinary onehalf webmention-facepiles.png caption="Nice facepiles for likes and reposts on Drew McLellan's site." %}
 
 I also have issues with some avatars that come directly from Twitter, and are [really heavy](https://github.com/aarongustafson/jekyll-webmention_io/issues/24). The new version of Aaron's Jekyll plugin will allow me to define my own template, and use Cloudinary to resize and optimize these images. I have yet to try it, because I'm still using the old single file version, while the new one is now a gem.
