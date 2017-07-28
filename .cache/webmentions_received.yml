@@ -1497,15 +1497,6 @@ https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html:
       class="webmention__title p-name"><a href="https://twitter.com/nhoizey/status/890635589170585600#favorited-by-528720846">Eric
       Portis favorited this.</a></div><div class="webmention__meta"><time class="webmention__pubdate
       dt-published" datetime="2017-07-27T19:08:55+00:00">27 July 2017</time></div></article></li>
-  '1501183059':
-    '890652422653095936': |-
-      <li id="webmention-890652422653095936" class="webmentions__item"><article class="h-cite webmention webmention--content-only"><div class="webmention__author p-author h-card"><a class="u-url" href="https://nicolas-hoizey.com/"><img class="webmention__author__photo u-photo" src="https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg" alt="" title="Nicolas Hoizey"><b class="p-name">Nicolas Hoizey</b></a></div><div class="webmention__content p-content"><p>Nice, thanks!
-      There’s a typo:</p>
-      <p>
-      <a href="https://twitter.com/nhoizey/status/890652422653095936">
-      <img src="http://pbs.twimg.com/media/DFw7pK1WsAAvL95.jpg" alt="" /></a>
-      </p>
-      </div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2017-07-27T21:17:39+02:00">27 July 2017</time> | <a class="webmention__source u-url" href="https://twitter.com/nhoizey/status/890652422653095936">Permalink</a></div></article></li>
   '1501184465':
     447353: <li id="webmention-447353" class="webmentions__item"><article class="h-cite
       webmention webmention--author-starts webmention--title-only"><div class="webmention__author
@@ -1618,44 +1609,49 @@ https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html:
       dt-published" datetime="2017-07-28T00:41:11+02:00">28 July 2017</time></div></article></li>
   '1501200881':
     447413: <li id="webmention-447413" class="webmentions__item"><article class="h-cite
-      webmention webmention--no-photo webmention--author-starts webmention--title-only"><div
-      class="webmention__author p-author h-card"><a class="u-url" href="https://twitter.com/_hmig"><b
-      class="p-name">Heather</b></a></div> <div class="webmention__title p-name"><a
-      href="https://twitter.com/nhoizey/status/890635589170585600#favorited-by-292958173">Heather
+      webmention webmention--author-starts webmention--title-only"><div class="webmention__author
+      p-author h-card"><a class="u-url" href="https://twitter.com/_hmig"><img class="webmention__author__photo
+      u-photo" src="https://webmention.io/avatar/pbs.twimg.com/99f7fb8e8829c6bff24a26ff2553101d30e501b20603fcc4ca18d8073d77413f.png"
+      alt="" title="Heather"><b class="p-name">Heather</b></a></div> <div class="webmention__title
+      p-name"><a href="https://twitter.com/nhoizey/status/890635589170585600#favorited-by-292958173">Heather
       favorited this.</a></div><div class="webmention__meta"><time class="webmention__pubdate
       dt-published" datetime="2017-07-28T00:14:41+00:00">28 July 2017</time></div></article></li>
   '1501203221':
     447417: |-
-      <li id="webmention-447417" class="webmentions__item"><article class="h-cite webmention webmention--no-photo webmention--author-starts webmention--content-only"><div class="webmention__author p-author h-card"><a class="u-url" href="https://eli.li/"><b class="p-name">eli</b></a></div><div class="webmention__content p-content"><p></p>
+      <li id="webmention-447417" class="webmentions__item"><article class="h-cite webmention webmention--author-starts webmention--content-only"><div class="webmention__author p-author h-card"><a class="u-url" href="https://eli.li/"><img class="webmention__author__photo u-photo" src="https://webmention.io/avatar/eli.li/dc55f08a8eebc95520d45181c92a36da04f593863fe55bce7ff265b600a7ad7e.jpg" alt="" title="eli"><b class="p-name">eli</b></a></div><div class="webmention__content p-content"><p></p>
       </div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2017-07-28T02:53:41+02:00">28 July 2017</time> | <a class="webmention__source u-url" href="https://eli.li/entry.php?id=20170728005341">Permalink</a></div></article></li>
   '1501215398':
     '890788061856051200': <li id="webmention-890788061856051200" class="webmentions__item"><article
-      class="h-cite webmention webmention--no-photo webmention--author-starts webmention--title-only"><div
-      class="webmention__author p-author h-card"><a class="u-url" href="https://borisschapira.com/"><b
-      class="p-name">Boris</b></a></div> <div class="webmention__title p-name"><a
-      href="https://twitter.com/borisschapira/status/890788061856051200">Boris retweeted
-      this.</a></div><div class="webmention__meta"><time class="webmention__pubdate
+      class="h-cite webmention webmention--author-starts webmention--title-only"><div
+      class="webmention__author p-author h-card"><a class="u-url" href="https://borisschapira.com/"><img
+      class="webmention__author__photo u-photo" src="https://webmention.io/avatar/pbs.twimg.com/111727920342a748bf7ef4514a5f5be642342eb00eb2be1e1c44c98f20892f47.jpg"
+      alt="" title="Boris"><b class="p-name">Boris</b></a></div> <div class="webmention__title
+      p-name"><a href="https://twitter.com/borisschapira/status/890788061856051200">Boris
+      retweeted this.</a></div><div class="webmention__meta"><time class="webmention__pubdate
       dt-published" datetime="2017-07-28T06:16:38+02:00">28 July 2017</time></div></article></li>
   '1501221558':
     447461: <li id="webmention-447461" class="webmentions__item"><article class="h-cite
-      webmention webmention--no-photo webmention--author-starts webmention--title-only"><div
-      class="webmention__author p-author h-card"><a class="u-url" href="https://twitter.com/damienalexandre"><b
-      class="p-name">Damien Alexandre</b></a></div> <div class="webmention__title
-      p-name"><a href="https://twitter.com/nhoizey/status/890635589170585600#favorited-by-14192532">Damien
+      webmention webmention--author-starts webmention--title-only"><div class="webmention__author
+      p-author h-card"><a class="u-url" href="https://twitter.com/damienalexandre"><img
+      class="webmention__author__photo u-photo" src="https://webmention.io/avatar/pbs.twimg.com/542158651473dbab4d143bfa2f07328d22bc6bb15b2ee8e370f22db5acaafd83.png"
+      alt="" title="Damien Alexandre"><b class="p-name">Damien Alexandre</b></a></div>
+      <div class="webmention__title p-name"><a href="https://twitter.com/nhoizey/status/890635589170585600#favorited-by-14192532">Damien
       Alexandre favorited this.</a></div><div class="webmention__meta"><time class="webmention__pubdate
       dt-published" datetime="2017-07-28T05:59:18+00:00">28 July 2017</time></div></article></li>
   '1501229188':
     447467: "<li id=\"webmention-447467\" class=\"webmentions__item\"><article class=\"h-cite
-      webmention webmention--no-photo webmention--author-starts webmention--title-only\"><div
-      class=\"webmention__author p-author h-card\"><a class=\"u-url\" href=\"https://twitter.com/hsablonniere\"><b
-      class=\"p-name\">Hubert \U0001F60E SABLONNIÈRE</b></a></div> <div class=\"webmention__title
-      p-name\"><a href=\"https://twitter.com/nhoizey/status/890635589170585600#favorited-by-131838592\">Hubert
+      webmention webmention--author-starts webmention--title-only\"><div class=\"webmention__author
+      p-author h-card\"><a class=\"u-url\" href=\"https://twitter.com/hsablonniere\"><img
+      class=\"webmention__author__photo u-photo\" src=\"https://webmention.io/avatar/pbs.twimg.com/b98be22654fa0b522890000c8e7ce8a6a4385d79a7f280ddacc56b7c2915d8d6.jpg\"
+      alt=\"\" title=\"Hubert \U0001F60E SABLONNIÈRE\"><b class=\"p-name\">Hubert
+      \U0001F60E SABLONNIÈRE</b></a></div> <div class=\"webmention__title p-name\"><a
+      href=\"https://twitter.com/nhoizey/status/890635589170585600#favorited-by-131838592\">Hubert
       \U0001F60E SABLONNIÈRE favorited this.</a></div><div class=\"webmention__meta\"><time
       class=\"webmention__pubdate dt-published\" datetime=\"2017-07-28T08:06:28+00:00\">28
       July 2017</time></div></article></li>"
   '1501233136':
     '890862461741608960': |-
-      <li id="webmention-890862461741608960" class="webmentions__item"><article class="h-cite webmention webmention--no-photo webmention--content-only"><div class="webmention__author p-author h-card"><a class="u-url" href="https://ciudadanob.com/"><b class="p-name">Juan Hernando</b></a></div><div class="webmention__content p-content"><p>Ojalá cada vez hablemos más de Webmention → So long Disqus, hello Webmention <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">nicolas-hoizey.com/2017/07/so-lon…</a> vía <a href="https://twitter.com/nhoizey">@nhoizey</a></p>
+      <li id="webmention-890862461741608960" class="webmentions__item"><article class="h-cite webmention webmention--content-only"><div class="webmention__author p-author h-card"><a class="u-url" href="https://ciudadanob.com/"><img class="webmention__author__photo u-photo" src="https://webmention.io/avatar/pbs.twimg.com/1755724eb7a5a7d47d40385d280d8548d0c3d4bbb3600e87d5da93d373135629.jpg" alt="" title="Juan Hernando"><b class="p-name">Juan Hernando</b></a></div><div class="webmention__content p-content"><p>Ojalá cada vez hablemos más de Webmention → So long Disqus, hello Webmention <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">nicolas-hoizey.com/2017/07/so-lon…</a> vía <a href="https://twitter.com/nhoizey">@nhoizey</a></p>
       </div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2017-07-28T11:12:16+02:00">28 July 2017</time> | <a class="webmention__source u-url" href="https://twitter.com/ciudadanoB/status/890862461741608960">Permalink</a></div></article></li>
   '1501245632':
     '890914870564093952': <li id="webmention-890914870564093952" class="webmentions__item"><article
@@ -1675,30 +1671,30 @@ https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html:
       p-name"><a href="https://twitter.com/m4d_z/status/890913797061345280">M4D'z
       retweeted this.</a></div><div class="webmention__meta"><time class="webmention__pubdate
       dt-published" datetime="2017-07-28T14:36:16+02:00">28 July 2017</time></div></article></li>
-  '1501245267':
-    '890913342273056768': |-
-      <li id="webmention-890913342273056768" class="webmentions__item"><article class="h-cite webmention webmention--content-only"><div class="webmention__author p-author h-card"><a class="u-url" href="http://ricaud.me/"><img class="webmention__author__photo u-photo" src="https://webmention.io/avatar/pbs.twimg.com/e80edb77f394e47700bbb6f7ce5ded4c4c76cf6ea8108058646b7a5485a7576f.jpg" alt="" title="Anthony Ricaud"><b class="p-name">Anthony Ricaud</b></a></div><div class="webmention__content p-content"><p>Je me disais bien que c’était pas dans mon aggrégateur : <a href="http://feeds.gasteroprod.com/GasteroProd">feeds.gasteroprod.com/GasteroProd</a> est une 404 :(
-      <a class="u-mention" href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html"></a></p>
-      </div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2017-07-28T14:34:27+02:00">28 July 2017</time> | <a class="webmention__source u-url" href="https://twitter.com/rik24d/status/890913342273056768">Permalink</a></div></article></li>
-  '1501246112':
-    '890916883695886336': "<li id=\"webmention-890916883695886336\" class=\"webmentions__item\"><article
-      class=\"h-cite webmention webmention--content-only\"><div class=\"webmention__author
-      p-author h-card\"><a class=\"u-url\" href=\"https://nicolas-hoizey.com/\"><img
-      class=\"webmention__author__photo u-photo\" src=\"https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg\"
-      alt=\"\" title=\"Nicolas Hoizey\"><b class=\"p-name\">Nicolas Hoizey</b></a></div><div
-      class=\"webmention__content p-content\"><p>Zut, depuis le temps qu’il y avait
-      une redirection 301 vers le nouveau flux, je me suis dit que tous les abonnés
-      étaient à jour… \U0001F615\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html\"></a></p>\n</div><div
-      class=\"webmention__meta\"><time class=\"webmention__pubdate dt-published\"
-      datetime=\"2017-07-28T14:48:32+02:00\">28 July 2017</time> | <a class=\"webmention__source
-      u-url\" href=\"https://twitter.com/nhoizey/status/890916883695886336\">Permalink</a></div></article></li>"
-  '1501246296':
-    '890917657133940736': |-
-      <li id="webmention-890917657133940736" class="webmentions__item"><article class="h-cite webmention webmention--content-only"><div class="webmention__author p-author h-card"><a class="u-url" href="https://nicolas-hoizey.com/"><img class="webmention__author__photo u-photo" src="https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg" alt="" title="Nicolas Hoizey"><b class="p-name">Nicolas Hoizey</b></a></div><div class="webmention__content p-content"><p>J’ai quand même remis la redirection, merci !
-      <a class="u-mention" href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html"></a></p>
-      </div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2017-07-28T14:51:36+02:00">28 July 2017</time> | <a class="webmention__source u-url" href="https://twitter.com/nhoizey/status/890917657133940736">Permalink</a></div></article></li>
-  '1501246127':
-    '890916947214430209': |-
-      <li id="webmention-890916947214430209" class="webmentions__item"><article class="h-cite webmention webmention--content-only"><div class="webmention__author p-author h-card"><a class="u-url" href="https://nicolas-hoizey.com/"><img class="webmention__author__photo u-photo" src="https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg" alt="" title="Nicolas Hoizey"><b class="p-name">Nicolas Hoizey</b></a></div><div class="webmention__content p-content"><p><a href="https://nicolas-hoizey.com/atom.xml">nicolas-hoizey.com/atom.xml</a>
-      <a class="u-mention" href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html"></a></p>
-      </div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2017-07-28T14:48:47+02:00">28 July 2017</time> | <a class="webmention__source u-url" href="https://twitter.com/nhoizey/status/890916947214430209">Permalink</a></div></article></li>
+  '1501262222':
+    '890984454398906368': <li id="webmention-890984454398906368" class="webmentions__item"><article
+      class="h-cite webmention webmention--author-starts webmention--title-only"><div
+      class="webmention__author p-author h-card"><a class="u-url" href="https://christopheducamp.com/"><img
+      class="webmention__author__photo u-photo" src="https://webmention.io/avatar/pbs.twimg.com/1fadf46075c7552dd5552ba5e6185d47f8947ab1fe8da688fc4aa359e0401158.png"
+      alt="" title="Christophe Ducamp"><b class="p-name">Christophe Ducamp</b></a></div>
+      <div class="webmention__title p-name"><a href="https://twitter.com/xtof_party/status/890984454398906368">Christophe
+      Ducamp retweeted this.</a></div><div class="webmention__meta"><time class="webmention__pubdate
+      dt-published" datetime="2017-07-28T19:17:02+02:00">28 July 2017</time></div></article></li>
+  '1501263871':
+    447616: <li id="webmention-447616" class="webmentions__item"><article class="h-cite
+      webmention webmention--author-starts webmention--title-only"><div class="webmention__author
+      p-author h-card"><a class="u-url" href="https://twitter.com/xtof_party"><img
+      class="webmention__author__photo u-photo" src="https://webmention.io/avatar/pbs.twimg.com/1fadf46075c7552dd5552ba5e6185d47f8947ab1fe8da688fc4aa359e0401158.png"
+      alt="" title="Christophe Ducamp"><b class="p-name">Christophe Ducamp</b></a></div>
+      <div class="webmention__title p-name"><a href="https://twitter.com/nhoizey/status/890635589170585600#favorited-by-415643">Christophe
+      Ducamp favorited this.</a></div><div class="webmention__meta"><time class="webmention__pubdate
+      dt-published" datetime="2017-07-28T17:44:31+00:00">28 July 2017</time></div></article></li>
+  '1501271147':
+    447643: <li id="webmention-447643" class="webmentions__item"><article class="h-cite
+      webmention webmention--author-starts webmention--title-only"><div class="webmention__author
+      p-author h-card"><a class="u-url" href="https://twitter.com/ScopPeniche"><img
+      class="webmention__author__photo u-photo" src="https://webmention.io/avatar/pbs.twimg.com/7de7a994810e8c384d1f1fab2c9ad3483c4589a1dc45a32c16818e5c14af0e08.png"
+      alt="" title="Scop La Péniche"><b class="p-name">Scop La Péniche</b></a></div>
+      <div class="webmention__title p-name"><a href="https://twitter.com/nhoizey/status/890635589170585600#favorited-by-83116880">Scop
+      La Péniche favorited this.</a></div><div class="webmention__meta"><time class="webmention__pubdate
+      dt-published" datetime="2017-07-28T19:45:47+00:00">28 July 2017</time></div></article></li>
