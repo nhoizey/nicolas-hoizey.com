@@ -11,8 +11,8 @@ module Jekyll
     end
 
     def convert(line)
-      r = /^https?:\/\/twitter\.com\/[a-zA-Z0-9_]+\/status\/([0-9]+)\/?$/
-      r =~ line ? get_html($~[1]) : line
+      r = /^https?:\/\/twitter\.com\/[a-zA-Z0-9_]+\/status(es)?\/([0-9]+)\/?$/
+      r =~ line ? get_html($~[2]) : line
     end
 
     def embed(content)
