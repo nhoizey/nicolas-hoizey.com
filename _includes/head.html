@@ -30,7 +30,7 @@
 
   {% comment %} opengraph and Twitter {% endcomment %}
   <meta property="og:site_name" content="Nicolas Hoizey" />
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:creator" content="@nhoizey" />
   <meta name="twitter:site" content="@nhoizey" />
 
@@ -39,32 +39,33 @@
 
   {% if page.title == "Accueil" %}
     {% capture title %}Nicolas Hoizey{% endcapture %}
+    {% capture description %}{{ site.description }}{% endcapture %}
     <title itemprop="name">Nicolas Hoizey</title>
+    <meta property="og:title" content="Nicolas Hoizey" />
     <link rel="canonical" href="{{ site.url }}" itemprop="url" />
-    <meta name="description" content="{{ site.description }}" />
     <meta property="og:url" content="{{ site.url }}" />
     <meta property="og:type" content="website" />
   {% else %}
     {% if page.type == "year" %}
       {% capture title %}Billets de {{ page.date | date: "%Y" }}{% endcapture %}
-      <meta name="description" content="Billets de Nicolas Hoizey publiés en {{ page.date | date: "%Y" }}" />
+      {% capture description %}Billets de Nicolas Hoizey publiés en {{ page.date | date: "%Y" }}{% endcapture %}
       <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
       <meta property="og:type" content="website" />
     {% else %}
       {% if page.type == "month" %}
         {% capture title %}Billets de {% include mois.html page=page %} {{ page.date | date: "%Y" }}{% endcapture %}
-        <meta name="description" content="Billets de Nicolas Hoizey publiés en {% include mois.html page=page %} {{ page.date | date: "%Y" }}" />
+        {% capture description %}Billets de Nicolas Hoizey publiés en {% include mois.html page=page %} {{ page.date | date: "%Y" }}{% endcapture %}
         <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
         <meta property="og:type" content="website" />
       {% else %}
         {% if page.tag %}
           {% capture title %}{{ page.tag }}{% endcapture %}
-          <meta name="description" content="Billets de Nicolas Hoizey auxquels est associé le tag « {{ page.tag }} »" />
+        {% capture description %}Billets de Nicolas Hoizey auxquels est associé le tag « {{ page.tag }} »{% endcapture %}
           <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
           <meta property="og:type" content="website" />
         {% else %}
           {% capture title %}{{ page.title }}{% endcapture %}
-          <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 150 | truncate: 290 | strip_newlines | escape_once }}" />
+          {% capture description %}{{ page.excerpt | strip_html | truncatewords: 150 | truncate: 290 | strip_newlines | escape_once }}{% endcapture %}
           <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
           <meta property="og:type" content="article" />
           <meta property="article:author" content="https://www.facebook.com/nhoizey" />
@@ -75,8 +76,10 @@
       {% endif %}
     {% endif %}
     <title>{{ title }}</title>
+    <meta property="og:title" content="{{ title }}" />
   {% endif %}
-  <meta property="og:title" content="{{ title }}" />
+  <meta name="description" content="{{ description }}" />
+  <meta property="og:description" content="{{ description }}" />
 
   {% include social-image.html page=post %}
 
