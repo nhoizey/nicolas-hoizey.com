@@ -2,6 +2,7 @@
 title: So long Disqus, hello Webmention
 lang:  en
 tags:  [Disqus,webperf,Webmention]
+tweet: https://twitter.com/nhoizey/status/890635589170585600
 ---
 
 Enough. I'm fed up with Disqus. It's been useful, easy to plug on this blog, but it's a mess for web performance, and I don't own my data, so… bye bye. Webmention is now a great alternative, with more people implementing it, so let's try to keep only that.
