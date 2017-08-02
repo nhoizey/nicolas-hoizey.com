@@ -24,6 +24,13 @@ GEM
     algoliasearch (1.14.0)
       httpclient (~> 2.8.3)
       json (>= 1.5.1)
+    algoliasearch-jekyll (0.8.1)
+      algoliasearch (~> 1.4)
+      appraisal (~> 2.1.0)
+      awesome_print (~> 1.6)
+      json (~> 1.8)
+      nokogiri (~> 1.7, >= 1.7.2)
+      verbal_expressions (~> 0.1.5)
     appraisal (2.1.0)
       bundler
       rake
@@ -87,7 +94,7 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
     mini_portile2 (2.2.0)
-    minitest (5.10.3)
+    minitest (5.10.2)
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
     nuggets (1.5.0)

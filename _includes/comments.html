@@ -1,6 +1,6 @@
 {% if page.comments.size and page.comments.size > 0 %}
-  <aside id="commentaires">
-    <h2>{{ page.comments.size }} commentaire{% if page.comments.size > 1 %}s{% endif %}</h2>
+  <div>
+    <h2 id="commentaires">{{ page.comments.size }} commentaire{% if page.comments.size > 1 %}s{% endif %}</h2>
     <ul class="comments__list">
       {% for comment in page.comments %}
         {% assign avatar = comment.author.image | prepend: '/assets/avatars/' | prepend: site.url %}

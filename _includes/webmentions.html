@@ -1,9 +1,9 @@
 {% if jekyll.environment == "production" %}
   {% capture this_url %}{{ site.url }}{{ page.url }}{% endcapture %}
 
-  <aside id="webmentions">
+  <aside>
     {% capture webmentions_count %}{% webmention_count this_url %}{% endcapture %}
-    <h2>{{ webmentions_count }} Webmention{% if webmentions_count > 1  %}s{% endif %} (<a href="/2017/07/so-long-disqus-hello-webmentions.html">?</a>)</h2>
+    <h2 id="webmentions">{{ webmentions_count }} Webmention{% if webmentions_count > 1  %}s{% endif %} (<a href="/2017/07/so-long-disqus-hello-webmentions.html">?</a>)</h2>
       {% webmentions this_url %}
   </aside>
   {% webmentions_js %}
