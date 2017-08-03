@@ -1,16 +1,3 @@
-GIT
-  remote: https://github.com/nhoizey/algoliasearch-jekyll.git
-  revision: 70c56152c31f12f0ade88e263194c11b03c16265
-  branch: develop
-  specs:
-    algoliasearch-jekyll (0.8.0)
-      algoliasearch (~> 1.4)
-      appraisal (~> 2.1.0)
-      awesome_print (~> 1.6)
-      json (~> 1.8)
-      nokogiri (~> 1.6)
-      verbal_expressions (~> 0.1.5)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -24,11 +11,11 @@ GEM
     algoliasearch (1.14.0)
       httpclient (~> 2.8.3)
       json (>= 1.5.1)
-    algoliasearch-jekyll (0.8.1)
+    algoliasearch-jekyll (0.8.2)
       algoliasearch (~> 1.4)
       appraisal (~> 2.1.0)
       awesome_print (~> 1.6)
-      json (~> 1.8)
+      json (>= 1.8.6)
       nokogiri (~> 1.7, >= 1.7.2)
       verbal_expressions (~> 0.1.5)
     appraisal (2.1.0)
@@ -40,6 +27,8 @@ GEM
     awesome_print (1.8.0)
     colorator (1.1.0)
     concurrent-ruby (1.0.5)
+    domain_name (0.5.20170404)
+      unf (>= 0.0.5, < 1.0.0)
     execjs (2.7.0)
     extras (0.3.0)
       forwardable-extended (~> 2.5)
@@ -47,6 +36,17 @@ GEM
     ffi (1.9.18)
     forwardable-extended (2.6.0)
     htmlbeautifier (1.3.1)
+    http (2.2.2)
+      addressable (~> 2.3)
+      http-cookie (~> 1.0)
+      http-form_data (~> 1.0.1)
+      http_parser.rb (~> 0.6.0)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    http-form_data (1.0.3)
+    http_parser.rb (0.6.0)
+    httparty (0.15.6)
+      multi_xml (>= 0.5.2)
     httpclient (2.8.3)
     i18n (0.8.6)
     jekyll (3.5.1)
@@ -82,22 +82,30 @@ GEM
       nuggets
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
-    jekyll-webmention_io (2.0.1)
+    jekyll-webmention_io (2.6.2)
       htmlbeautifier (~> 1.1)
-      jekyll (>= 3.0, < 4.0)
+      http (~> 2.0)
+      jekyll (>= 2.0, < 4.0)
+      json (~> 2.0)
+      openssl (~> 2.0)
       string_inflection (~> 0.1)
-    json (1.8.6)
+      uglifier (~> 3.2)
+      webmention (~> 0.1.6)
+    json (2.1.0)
     kramdown (1.14.0)
+    link_header (0.0.8)
     liquid (4.0.0)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
     mini_portile2 (2.2.0)
-    minitest (5.10.2)
+    minitest (5.10.3)
+    multi_xml (0.6.0)
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
     nuggets (1.5.0)
+    openssl (2.0.4)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
@@ -124,7 +132,15 @@ GEM
       thread_safe (~> 0.1)
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.4)
     verbal_expressions (0.1.5)
+    webmention (0.1.6)
+      httparty (~> 0.15.5)
+      json
+      link_header (~> 0.0.8)
+      nokogiri
     yt (0.32.0)
       activesupport
       yt-support (>= 0.1)
@@ -134,7 +150,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  algoliasearch-jekyll!
+  algoliasearch-jekyll
   autoprefixer-rails
   jekyll
   jekyll-archives
@@ -143,7 +159,7 @@ DEPENDENCIES
   jekyll-microtypo
   jekyll-postfiles
   jekyll-tagging
-  jekyll-webmention_io
+  jekyll-webmention_io (~> 2.6.1)
   json
   rmagick
   uglifier
