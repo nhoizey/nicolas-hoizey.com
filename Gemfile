@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'jekyll'
 gem 'rmagick'
 gem 'yt'
-gem 'json', github: 'flori/json', branch: 'v1.8'
+gem 'json'
 
 group :jekyll_plugins do
   gem 'jekyll-assets'
