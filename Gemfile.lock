@@ -159,7 +159,7 @@ DEPENDENCIES
   jekyll-microtypo
   jekyll-postfiles
   jekyll-tagging
-  jekyll-webmention_io (~> 2.6.1)
+  jekyll-webmention_io
   json
   rmagick
   uglifier
