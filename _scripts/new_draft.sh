@@ -1,10 +1,10 @@
 #!/bin/sh
 
 if [ -z "$1" ]; then
-	echo "Usage: provide a title argument."
-	exit -1
+  echo "Usage: provide a title argument."
+  exit -1
 else
-	title="$@"
+  title="$@"
 fi
 
 # Slugify, inspired by https://github.com/benlinton/bash-slugify/blob/master/slugify
