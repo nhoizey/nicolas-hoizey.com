@@ -1,14 +1,14 @@
 #!/bin/sh
 
 if [ -z "$1" ]; then
-	echo "Usage: name a draft."
-	exit -1
+  echo "Usage: name a draft."
+  exit -1
 else
-	src="$@"
-	if [ ! -d $src ]; then
-		echo "Usage: there is no such draft."
-		exit -1
-	fi
+  src="$@"
+  if [ ! -d $src ]; then
+    echo "Usage: there is no such draft."
+    exit -1
+  fi
 fi
 
 # http://stackoverflow.com/a/2664746/717195
