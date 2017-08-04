@@ -5,7 +5,7 @@
   "short_name": "N. Hoizey",
   "description": "Recueil de créations et réflexions de Nicolas Hoizey sur la photo, le Web, etc.",
   "scope": "/",
-  "start_url": "/",
+  "start_url": "/?utm_source=manifest",
   "display": "standalone",
   "orientation": "any",
   "background_color": "#fff",
