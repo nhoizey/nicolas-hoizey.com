@@ -1,12 +1,20 @@
-;(function(win, doc) {
 ---
 ---
 
+/* ****************************************************************
+ * Statistics
+ * ****************************************************************/
+
+ ;(function(win, doc) {
 
   doc.body.setAttribute('data-viewportwidth', win.viewport_width);
   doc.body.setAttribute('data-screendensity', win.screen_density);
 
 })( window, document );
+
+/* ****************************************************************
+ * UX
+ * ****************************************************************/
 
 // Add anchor links to titles in the article
 (function(w){
@@ -22,6 +30,10 @@
     }
   }
 }(this));
+
+/* ****************************************************************
+ * PWA
+ * ****************************************************************/
 
 // Install Service Worker
 if ('serviceWorker' in navigator) {
