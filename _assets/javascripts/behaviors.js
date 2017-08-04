@@ -19,7 +19,7 @@
 // Add anchor links to titles in the article
 (function(w){
   var i,
-      list = w.document.querySelectorAll("article.main h2, article.main h3, article.main h4, article.main h5, article.main h6"),
+      list = w.document.querySelectorAll('article.main h2, article.main h3, article.main h4, article.main h5, article.main h6'),
       nb = list.length;
 
   for (i = 0; i < nb; ++i) {
