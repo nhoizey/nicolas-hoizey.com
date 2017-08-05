@@ -1,7 +1,3 @@
----
----
-
-<!-- nomicrotypo -->
 /* ****************************************************************
  * Statistics
  * ****************************************************************/
@@ -78,16 +74,42 @@ function getParameterByName(name) {
     return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
 }
 
+var algoliaLinked = false;
+var algoliaLoaded = false;
+var algoliaClient;
+var algoliaIndex;
+
+function onAlgoliaAvailable(callback) {
+  if (typeof(algoliasearch) === 'function') {
+    algoliaLoaded = true;
+    algoliaClient = algoliasearch(algoliaApplicationId, algoliaApiKey);
+    algoliaIndex = algoliaClient.initIndex(algoliaIndexName);
+    callback();
+  } else {
+    if (!algoliaLinked) {
+      var algoliaScript = window.document.createElement('script');
+      algoliaScript.setAttribute('src', '/assets/javascript/vendors/algoliasearchLite-3.24.3.min.js');
+      window.document.getElementsByTagName('head')[0].appendChild(algoliaScript);
+      algoliaLinked = true;
+    }
+    setTimeout(function () {
+      onAlgoliaAvailable(callback);
+    }, 50);
+  }
+}
+
 var sites = window.document.getElementById('search_sites'),
     button = window.document.getElementById('search_button');
+
+// Make the search form dynamic
 sites.parentNode.action = '';
+
+// This hidden field is only for Google fallback when there's no JavaScript
 sites.parentNode.removeChild(sites);
+
+// No need to submit when there's JavaScript
 button.parentNode.removeChild(button);
 
-{% asset vendors/algoliasearchLite-3.24.3 %}
-
-var algoliaClient = algoliasearch('{{ site.algolia.application_id }}', '{{ site.algolia.read_only_api_key }}');
-var algoliaIndex = algoliaClient.initIndex('{{ site.algolia.index_name }}');
 var $input = window.document.getElementById('search_input');
 var $results = window.document.getElementById('search_results');
 var searchSettings = {
@@ -102,7 +124,9 @@ var queryString = getParameterByName('q');
 if (queryString.length > 0) {
   $input.value = queryString;
   if (queryString.length > 1) {
-    algoliaIndex.search(queryString, searchSettings, searchCallback);
+    onAlgoliaAvailable(function() {
+      algoliaIndex.search(queryString, searchSettings, searchCallback);
+    })
   }
 }
 
@@ -110,7 +134,9 @@ if (queryString.length > 0) {
 $input.addEventListener('keyup', function() {
   if ($input.value.length > 1) {
     history.pushState(null, null, '/recherche.html?q=' + $input.value);
-    algoliaIndex.search($input.value, searchSettings, searchCallback);
+    onAlgoliaAvailable(function() {
+      algoliaIndex.search($input.value, searchSettings, searchCallback);
+    })
   } else {
     history.pushState(null, null, '/recherche.html');
     $results.innerHTML = '';
@@ -119,13 +145,12 @@ $input.addEventListener('keyup', function() {
 
 // Search callback function that shows the results
 function searchCallback(err, content) {
-  if (content.query !== window.document.getElementById('search_input').value {
+  if (content.query !== $input.value) {
     // If we receive a result for an old query, abort
     return;
   }
 
   var months = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
-  var $results = window.document.getElementById('search_results');
   $results.innerHTML = '';
 
   if (err) {
@@ -136,11 +161,11 @@ function searchCallback(err, content) {
   var resultsNumber = content.hits.length;
 
   if (resultsNumber === 0) {
-    $results.innerHTML('<p>Aucun résultat, veuillez modifier votre recherche.</p>');
+    $results.innerHTML = '<p>Aucun résultat, veuillez modifier votre recherche.</p>';
     return;
   }
 
-  $results.innerHTML('<p class="nb">' + resultsNumber + ' résultat' + (resultsNumber > 1 ? 's' : ''));
+  $results.innerHTML = '<p class="nb">' + resultsNumber + ' résultat' + (resultsNumber > 1 ? 's' : '');
 
   var hit, post, post_date, post_tags, post_tags_match;
   for (var i = 0; i < resultsNumber; i++) {
@@ -162,16 +187,15 @@ function searchCallback(err, content) {
       }
       post_tags = post_tags.replace(/^, /, "");
 
-      post = "<article class=\"post\"><h2><a href=\"" + hit.url + "\">" + hit._highlightResult.title.value + "</a></h2><header><ul><li class=\"date\"><svg class=\"icon\"><use xlink:href=\"#symbol-date\" /></svg> " + post_date + "</li><li class=\"tags\"><svg class=\"icon\"><use xlink:href=\"#symbol-tags\" /></svg> " + post_tags + "</li></ul></header>" + (hit.text ? "<p>… " + hit.text + " …</p>" : "") + "</article>";
+      post = "<article class=\"post\"><h2><a href=\"" + hit.url + "\">" + hit._highlightResult.title.value + "</a></h2><header><ul><li class=\"date\"><svg class=\"icon\"><use xlink:href=\"#symbol-date\" /></svg> " + post_date + "</li><li class=\"tags\"><svg class=\"icon\"><use xlink:href=\"#symbol-tags\" /></svg> " + post_tags + "</li></ul></header>" + (hit.text.trim() ? "<p>… " + hit.text + " …</p>" : "") + "</article>";
 
-      $results.append(post);
+      $results.innerHTML += post;
     }
 
     if (hit.layout == "page") {
-      page = "<article class=\"post\"><h2><a href=\"" + hit.url + "\">" + hit._highlightResult.title.value + "</a></h2>" + (hit.text ? "<p>… " + hit.text + " …</p>" : "") + "</article>";
+      page = "<article class=\"post\"><h2><a href=\"" + hit.url + "\">" + hit._highlightResult.title.value + "</a></h2>" + (hit.text.trim() ? "<p>… " + hit.text + " …</p>" : "") + "</article>";
 
-      $results.append(page);
+      $results.innerHTML += page;
     }
   }
 }
-<!-- endnomicrotypo -->
