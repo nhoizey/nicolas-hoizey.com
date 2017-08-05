@@ -96,5 +96,12 @@
 
   {% comment %} web app manifest {% endcomment %}
   <link rel="manifest" href="/manifest.webmanifest" />
+
+  {% comment %} Algolia settings {% endcomment %}
+  <script>
+  var algoliaApplicationId = '{{ site.algolia.application_id }}';
+  var algoliaApiKey = '{{ site.algolia.read_only_api_key }}';
+  var algoliaIndexName = '{{ site.algolia.index_name }}';
+  </script>
 </head>
 <!-- endnomicrotypo -->
