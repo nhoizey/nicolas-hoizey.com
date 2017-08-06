@@ -23,11 +23,6 @@
     {% asset vendors/cssrelpreload-1.2.0 %}
   </script>
 
-  {% comment %}
-  98% browsers visiting this site support responsive images natively
-  {% javascript vendors/picturefill-3.0.2 async defer %}
-  {% endcomment %}
-
   {% comment %} opengraph and Twitter {% endcomment %}
   <meta property="og:site_name" content="Nicolas Hoizey" />
   <meta name="twitter:card" content="summary_large_image" />
@@ -101,5 +96,12 @@
 
   {% comment %} web app manifest {% endcomment %}
   <link rel="manifest" href="/manifest.webmanifest" />
+
+  {% comment %} Algolia settings {% endcomment %}
+  <script>
+  var algoliaApplicationId = '{{ site.algolia.application_id }}';
+  var algoliaApiKey = '{{ site.algolia.read_only_api_key }}';
+  var algoliaIndexName = '{{ site.algolia.index_name }}';
+  </script>
 </head>
 <!-- endnomicrotypo -->
