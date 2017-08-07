@@ -1,0 +1,7 @@
+<aside>
+  {% capture webmention_count_value %}{% webmention_count page.url %}{% endcapture %}
+  {% assign webmention_count_int = webmention_count_value | plus: 0 %}
+  <h2 id="webmentions">{{ webmention_count_value }} Webmention{% if webmention_count_int > 1 %}s{% endif %} (<a href="/2017/07/so-long-disqus-hello-webmentions.html">?</a>)</h2>
+    {% webmentions page.url %}
+</aside>
+{% webmentions_js %}

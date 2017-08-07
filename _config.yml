@@ -72,6 +72,15 @@ algolia:
     - 404.html
     - index.html
 
+# Webmention
+webmention:
+  username: nicolas-hoizey.com
+  cache_bad_uris_for: 5
+  pause_lookups: true
+  legacy_domains:
+    - http://nicolas-hoizey.com
+    - http://www.nicolas-hoizey.com
+
 # YouTube
 youtube:
   api_key: …
