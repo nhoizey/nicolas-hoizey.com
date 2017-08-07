@@ -1,3 +1,17 @@
+GIT
+  remote: https://github.com/aarongustafson/jekyll-webmention_io.git
+  revision: aeeeb815bdf6d4bfb1efda24a6d96195ac9d5074
+  specs:
+    jekyll-webmention_io (2.6.2)
+      htmlbeautifier (~> 1.1)
+      http (~> 2.0)
+      jekyll (>= 2.0, < 4.0)
+      json (~> 2.0)
+      openssl (~> 2.0)
+      string_inflection (~> 0.1)
+      uglifier (~> 3.2)
+      webmention (~> 0.1.6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -82,15 +96,6 @@ GEM
       nuggets
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
-    jekyll-webmention_io (2.6.2)
-      htmlbeautifier (~> 1.1)
-      http (~> 2.0)
-      jekyll (>= 2.0, < 4.0)
-      json (~> 2.0)
-      openssl (~> 2.0)
-      string_inflection (~> 0.1)
-      uglifier (~> 3.2)
-      webmention (~> 0.1.6)
     json (2.1.0)
     kramdown (1.14.0)
     link_header (0.0.8)
@@ -159,7 +164,7 @@ DEPENDENCIES
   jekyll-microtypo
   jekyll-postfiles
   jekyll-tagging
-  jekyll-webmention_io
+  jekyll-webmention_io!
   json
   rmagick
   uglifier
