@@ -79,7 +79,6 @@ webmention:
   pause_lookups: true
   legacy_domains:
     - http://nicolas-hoizey.com
-    - http://www.nicolas-hoizey.com
 
 # YouTube
 youtube:
