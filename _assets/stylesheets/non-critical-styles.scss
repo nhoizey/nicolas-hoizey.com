@@ -215,6 +215,12 @@ article {
   }
 }
 
+.webmentions--likes, .webmentions--reposts {
+  li {
+    display: inline-block;
+  }
+}
+
 .comment__author, .webmention__author {
   font-size: .9em;
   font-weight: normal;
