@@ -77,6 +77,8 @@ webmention:
   username: nicolas-hoizey.com
   cache_bad_uris_for: 5
   pause_lookups: true
+  templates:
+    likes: _includes/webmentions/likes.html
   legacy_domains:
     - http://nicolas-hoizey.com
 
