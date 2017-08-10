@@ -196,15 +196,15 @@ article {
 }
 
 // ************************************************************
-// Comments and Webmentions
+// Comments
 // ************************************************************
 
-.comments__list, .webmentions__list {
+.comments__list {
   list-style: none;
   padding: 0;
 }
 
-.comments__item, .webmentions__item {
+.comments__item {
   clear: left;
   position: relative;
   padding: .5em 0 0 4em;
@@ -215,22 +215,16 @@ article {
   }
 }
 
-.webmentions--likes, .webmentions--reposts {
-  li {
-    display: inline-block;
-  }
-}
-
-.comment__author, .webmention__author {
+.comment__author {
   font-size: .9em;
   font-weight: normal;
 }
 
-.comment--author-starts .comment__author .p-name, .webmention--author-starts .webmention__author .p-name {
+.comment--author-starts .comment__author .p-name {
   display: none;
 }
 
-.comment__author__photo, .webmention__author__photo {
+.comment__author__photo {
   display: block;
   position: absolute;
   top: .8em;
@@ -241,7 +235,7 @@ article {
   border-radius: 5px;
 }
 
-.comment__content, .webmention__content {
+.comment__content {
   margin: 0;
 
   p {
@@ -249,9 +243,78 @@ article {
   }
 }
 
-.comment__meta, .webmention__meta {
+.comment__meta {
   color: $color-post-header;
   font-size: .9em;
+}
+
+// ************************************************************
+// Webmentions
+// ************************************************************
+
+.webmentions__list {
+  list-style: none;
+  padding: 0;
+}
+
+.webmentions--likes, .webmentions--reposts {
+  li {
+    display: inline-block;
+  }
+
+  .webmention__author__photo {
+    width: 3em;
+    height: 3em;
+    margin: .5em;
+    padding: 0;
+    border-radius: 5px;
+  }
+}
+
+.webmention__author {
+  font-size: .9em;
+  font-weight: normal;
+}
+
+.webmention--author-starts .webmention__author .p-name {
+  display: none;
+}
+
+[data-webmention-types*=replies] {
+  .webmentions__item {
+    clear: left;
+    position: relative;
+    padding: .5em 0 0 4em;
+    min-height: 3em;
+
+    article {
+      margin: 0 0 2em;
+    }
+  }
+
+  .webmention__author__photo {
+    display: block;
+    position: absolute;
+    top: .8em;
+    left: 0;
+    width: 3em;
+    height: 3em;
+    margin: 0;
+    border-radius: 5px;
+  }
+
+  .webmention__content {
+    margin: 0;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .webmention__meta {
+    color: $color-post-header;
+    font-size: .9em;
+  }
 }
 
 // ************************************************************
