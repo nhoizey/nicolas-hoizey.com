@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/aarongustafson/jekyll-webmention_io.git
-  revision: aeeeb815bdf6d4bfb1efda24a6d96195ac9d5074
+  revision: a58aadff781e9ec894f96a254b75466408aa9975
   specs:
-    jekyll-webmention_io (2.6.2)
+    jekyll-webmention_io (2.6.3)
       htmlbeautifier (~> 1.1)
       http (~> 2.0)
       jekyll (>= 2.0, < 4.0)
@@ -110,7 +110,7 @@ GEM
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
     nuggets (1.5.0)
-    openssl (2.0.4)
+    openssl (2.0.5)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
