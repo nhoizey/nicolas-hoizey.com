@@ -1,12 +1,9 @@
+_drafts
+_scripts
 _site
 _site_serve
-_drafts
 .sass-cache
 .asset-cache
 .cache
 .jekyll-metadata
 _config_credentials.yml
-_serve.sh
-_build.sh
-_deploy.sh
-_index.sh
