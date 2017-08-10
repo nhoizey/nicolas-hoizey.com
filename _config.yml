@@ -79,6 +79,7 @@ webmention:
   pause_lookups: true
   templates:
     likes: _includes/webmentions/likes.html
+  js: false
   legacy_domains:
     - http://nicolas-hoizey.com
 
