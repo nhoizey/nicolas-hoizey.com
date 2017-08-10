@@ -260,12 +260,14 @@ article {
 .webmentions--likes, .webmentions--reposts {
   li {
     display: inline-block;
+    padding: 0;
+    margin: 0;
   }
 
   .webmention__author__photo {
     width: 3em;
     height: 3em;
-    margin: .5em;
+    margin: .2em;
     padding: 0;
     border-radius: 5px;
   }
