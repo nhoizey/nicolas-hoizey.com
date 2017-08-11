@@ -78,6 +78,7 @@ webmentions:
   cache_bad_uris_for: 5
   pause_lookups: true
   templates:
+    count: _includes/webmentions/count.html
     likes: _includes/webmentions/likes.html
     reposts: _includes/webmentions/reposts.html
     webmentions: _includes/webmentions/webmentions.html
