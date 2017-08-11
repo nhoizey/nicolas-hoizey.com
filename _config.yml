@@ -73,7 +73,7 @@ algolia:
     - index.html
 
 # Webmention
-webmention:
+webmentions:
   username: nicolas-hoizey.com
   cache_bad_uris_for: 5
   pause_lookups: true
