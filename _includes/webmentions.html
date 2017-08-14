@@ -1,28 +1,27 @@
 <aside>
-  {% capture webmention_count_value %}{% webmention_count page.url %}{% endcapture %}
-  {% assign webmention_count_int = webmention_count_value | plus: 0 %}
-  <h2 id="webmentions">{{ webmention_count_value }} Webmention{% if webmention_count_int > 1 %}s{% endif %} (<a href="/2017/07/so-long-disqus-hello-webmentions.html">?</a>)</h2>
+  {% capture webmentions_value %}{% webmention_count page.url %}{% endcapture %}
+  {% assign webmentions_int = webmentions_value | plus: 0 %}
+  <h2 id="webmentions">{{ webmentions_int }} Webmention{% if webmentions_int > 1 %}s{% endif %} (<a href="/2017/07/so-long-disqus-hello-webmentions.html">?</a>)</h2>
 
-    {% capture webmention_likes_count_value %}{% webmention_count page.url likes %}{% endcapture %}
-    {% assign webmention_likes_count_int = webmention_likes_count_value | plus: 0 %}
-    {% if webmention_likes_count_int > 0 %}
+    {% capture likes %}{% webmention_count page.url likes %}{% endcapture %}
+    {% assign likes_int = likes | plus: 0 %}
+    {% if likes_int > 0 %}
       <section>
-        <h3 id="webmentions_likes">{{ webmention_likes_count_value }} like{% if webmention_likes_count_int > 1 %}s{% endif %}</h3>
-        {% webmention_likes page.url %}
+        <h3 id="webmentions_likes">{{ likes }} like{% if likes_int > 1 %}s{% endif %}</h3>
+        {% likes page.url %}
       </section>
     {% endif %}
 
-    {% capture webmention_reposts_count_value %}{% webmention_count page.url reposts %}{% endcapture %}
-    {% assign webmention_reposts_count_int = webmention_reposts_count_value | plus: 0 %}
-    {% if webmention_reposts_count_int > 0 %}
+    {% capture reposts %}{% webmention_count page.url reposts %}{% endcapture %}
+    {% assign reposts_int = reposts | plus: 0 %}
+    {% if reposts_int > 0 %}
       <section>
-        <h3 id="webmentions_reposts">{{ webmention_reposts_count_value }} repost{% if webmention_reposts_count_int > 1 %}s{% endif %}</h3>
+        <h3 id="webmentions_reposts">{{ reposts }} repost{% if reposts_int > 1 %}s{% endif %}</h3>
         {% webmention_reposts page.url %}
       </section>
     {% endif %}
 
-    <!-- {{ page.lang }} -->
-    {% if webmention_likes_count_int > 0 or webmention_reposts_count_int > 0 %}
+    {% if likes_int > 0 or reposts_int > 0 %}
       <h3 id="webmentions_other">{% if page.lang == 'en' %}Other{% else %}Autres{% endif %} Webmentions</h3>
     {% endif %}
     {% webmentions page.url posts replies links %}
