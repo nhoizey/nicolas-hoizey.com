@@ -8,7 +8,7 @@
     {% if likes_int > 0 %}
       <section>
         <h3 id="webmentions_likes">{{ likes }} like{% if likes_int > 1 %}s{% endif %}</h3>
-        {% likes page.url %}
+        {% webmention_likes page.url %}
       </section>
     {% endif %}
 
