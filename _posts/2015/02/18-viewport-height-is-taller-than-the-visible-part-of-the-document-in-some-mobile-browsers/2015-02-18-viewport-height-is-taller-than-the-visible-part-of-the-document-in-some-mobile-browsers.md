@@ -103,7 +103,13 @@ The W3C CSS Working Group suggestion doesn't fix anything, in iOS at least. Test
 
 Boris, a friend, told be he saw a disturbing behavior of my text content when scrolling on this site:
 
-https://twitter.com/borisschapira/status/615972778236182528
+> @nhoizey j'ai un changement de taille de police au scroll… Bizarre!
+>
+> — Boris 🚀 (@borisschapira) June 30, 2015
+
+{% comment %}
+Boris deleted his tweet: https://twitter.com/borisschapira/status/615972778236182528
+{% endcomment %}
 
 In fact, the viewport height changes when he scrolls and the browser chrome hides. Combine this with the fact that he `font-size` is partialy based on a `vh` value, and you understand that when scrolling and hiding the browser chrome, the text size was growing.
 
