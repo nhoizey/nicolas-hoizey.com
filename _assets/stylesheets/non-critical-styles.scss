@@ -207,8 +207,8 @@ article {
 .comments__item {
   clear: left;
   position: relative;
-  padding: .5em 0 0 4em;
-  min-height: 3em;
+  padding: .5em 0 0 calc(48px + 1em);
+  min-height: 48px;
 
   article {
     margin: 0 0 2em;
@@ -229,8 +229,8 @@ article {
   position: absolute;
   top: .8em;
   left: 0;
-  width: 3em;
-  height: 3em;
+  width: 48px;
+  height: 48px;
   margin: 0;
   border-radius: 5px;
 }
@@ -265,8 +265,8 @@ article {
   .webmentions__item {
     clear: left;
     position: relative;
-    padding: .5em 0 0 4em;
-    min-height: 3em;
+    padding: .5em 0 0 calc(48px + 1em);
+    min-height: 48px;
 
     article {
       margin: 0 0 2em;
@@ -278,8 +278,8 @@ article {
     position: absolute;
     top: .8em;
     left: 0;
-    width: 3em;
-    height: 3em;
+    width: 48px;
+    height: 48px;
     margin: 0;
     border-radius: 5px;
   }

@@ -13,7 +13,11 @@
               <div class="webmention__author p-author h-card">
                 <a class="u-url" href="{{ webmention.author.url }}">
                   {% if webmention.author.photo %}
-                    <img class="webmention__author__photo u-photo" src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_128,h_128/{{ webmention.author.photo }}" alt="" title="{{ webmention.author.name }}">
+                    <img
+                      class="webmention__author__photo u-photo"
+                      src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_48,h_48/{{ webmention.author.photo }}"
+                      srcset="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_48,h_48/{{ webmention.author.photo }} 1x, https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_96,h_96/{{ webmention.author.photo }} 2x"
+                      alt="{{ webmention.author.name }} avatar" />
                   {% endif %}
                   <b class="p-name">{{ webmention.author.name }}</b>
                 </a>
