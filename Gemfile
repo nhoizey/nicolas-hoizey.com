@@ -15,5 +15,5 @@ group :jekyll_plugins do
   gem 'jekyll-cloudinary'
   gem 'jekyll-archives'
   gem 'jekyll-microtypo'
-  gem 'jekyll-webmention_io', :git => 'https://github.com/aarongustafson/jekyll-webmention_io.git'
+  gem 'jekyll-webmention_io', :git => 'https://github.com/aarongustafson/jekyll-webmention_io.git', :branch => 'bugfixes-2017-09-05'
 end

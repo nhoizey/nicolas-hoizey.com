@@ -1,6 +1,7 @@
 GIT
   remote: https://github.com/aarongustafson/jekyll-webmention_io.git
-  revision: ecdc71e7d530b0f8ec968c3b2138a91927c965d0
+  revision: e55481b22b7ef9262a2d414b062ce8e149ae3a19
+  branch: bugfixes-2017-09-05
   specs:
     jekyll-webmention_io (2.8.0)
       htmlbeautifier (~> 1.1)
@@ -171,4 +172,4 @@ DEPENDENCIES
   yt
 
 BUNDLED WITH
-   1.14.6
+   1.15.4
