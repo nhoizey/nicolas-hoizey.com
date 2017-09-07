@@ -665,7 +665,7 @@
     id: '455273'
     url: https://twitter.com/nhoizey/status/903366466841567233#favorited-by-16088762
     source: twitter
-    pubdate: 2017-09-01 12:56:13.000000000 +00:00
+    pubdate: 2017-09-01 14:56:13.000000000 +02:00
     raw:
       source: https://brid-gy.appspot.com/like/twitter/nhoizey/903366466841567233/16088762
       verified: true
@@ -937,7 +937,7 @@
     id: '393405'
     url: http://bootleygues.net/2016/11/08/gerer-sa-veille/
     source: false
-    pubdate: 2016-11-08 13:43:35.000000000 +00:00
+    pubdate: 2016-11-08 14:43:35.000000000 +01:00
     raw:
       source: http://bootleygues.net/2016/11/08/gerer-sa-veille/
       verified: true
@@ -2116,6 +2116,42 @@
     type: link
     content: <p><a href="https://twitter.com/nhoizey">@nhoizey</a> Il semble que nous
       passions par les mêmes galères :D (<a href="https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html">nicolas-hoizey.com/2015/02/viewpo…</a>)</p>
+  '905440711264411649':
+    id: '905440711264411649'
+    url: https://twitter.com/jonas__jensen/status/905440711264411649
+    source: twitter
+    pubdate: 2017-09-06 16:41:02.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/post/twitter/nhoizey/905440711264411649
+      verified: true
+      verified_date: '2017-09-06T14:48:00+00:00'
+      id: 456447
+      private: false
+      data:
+        author: &48
+          name: Jonas Jensen
+          url: http://jonas-jensen.com
+          photo: https://webmention.io/avatar/pbs.twimg.com/7cee48914647a3ddc34d3a126c8a214c4dec1ec1e527a17285ab5c6a7dfd169c.jpg
+        url: https://twitter.com/jonas__jensen/status/905440711264411649
+        name: 
+        content: 'Turns out the "vh" <a href="https://twitter.com/search?q=%23css">#css</a>
+          unit is unfit for mobile use, despite good global browser support: <a href="https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html">nicolas-hoizey.com/2015/02/viewpo…</a>
+          / <a href="https://adactio.com/journal/11690">adactio.com/journal/11690</a>'
+        published: '2017-09-06T14:41:02+00:00'
+        published_ts: 1504708862
+      activity:
+        type: link
+        sentence: 'Jonas Jensen posted ''Turns out the "vh" #css unit is unfit for
+          mobile use, despite good global browse...'' linking to https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html'
+        sentence_html: '<a href="http://jonas-jensen.com">Jonas Jensen</a> posted
+          ''Turns out the "vh" #css unit is unfit for mobile use, despite good global
+          browse...'' linking to <a href="https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html">https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html</a>'
+      target: https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html
+    author: *48
+    type: link
+    content: '<p>Turns out the “vh” <a href="https://twitter.com/search?q=%23css">#css</a>
+      unit is unfit for mobile use, despite good global browser support: <a href="https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html">nicolas-hoizey.com/2015/02/viewpo…</a>
+      / <a href="https://adactio.com/journal/11690">adactio.com/journal/11690</a></p>'
 "/2015/03/esviji-v2-sera-completement-responsive.html": {}
 "/2015/05/new-york-hors-des-sentiers-battus.html":
   '436311':
@@ -2130,7 +2166,7 @@
       id: 436311
       private: false
       data:
-        author: &48
+        author: &49
           name: Axolot
           url: https://twitter.com/axolotblog
           photo: https://webmention.io/avatar/pbs.twimg.com/b16044f6630d374b734cd29ee3365d5134f2599a81099bceead3f68a2e66d0e1.jpg
@@ -2146,7 +2182,7 @@
         sentence_html: <a href="https://twitter.com/axolotblog">Axolot</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2015/05/new-york-hors-des-sentiers-battus.html">https://nicolas-hoizey.com/2015/05/new-york-hors-des-sentiers-battus.html</a>
       target: https://nicolas-hoizey.com/2015/05/new-york-hors-des-sentiers-battus.html
-    author: *48
+    author: *49
     type: like
     content: <p><a href="https://twitter.com/axolotblog">Axolot</a> favorited a tweet
       <a href="https://nicolas-hoizey.com/2015/05/new-york-hors-des-sentiers-battus.html">https://nicolas-hoizey.com/2015/05/new-york-hors-des-sentiers-battus.html</a></p>
@@ -2156,7 +2192,7 @@
     id: '393406'
     url: http://bootleygues.net/2016/11/08/gerer-sa-veille/
     source: false
-    pubdate: 2016-11-08 13:43:40.000000000 +00:00
+    pubdate: 2016-11-08 14:43:40.000000000 +01:00
     raw:
       source: http://bootleygues.net/2016/11/08/gerer-sa-veille/
       verified: true
@@ -2188,7 +2224,7 @@
     id: '450535'
     url: https://twitter.com/nhoizey/status/895996470867800065#favorited-by-1551567476
     source: twitter
-    pubdate: 2017-08-11 13:47:58.000000000 +00:00
+    pubdate: 2017-08-11 15:47:58.000000000 +02:00
     raw:
       source: https://brid-gy.appspot.com/like/twitter/nhoizey/895996470867800065/1551567476
       verified: true
@@ -2196,7 +2232,7 @@
       id: 450535
       private: false
       data:
-        author: &49
+        author: &50
           name: Dareboost
           url: https://twitter.com/DareBoost
           photo: https://webmention.io/avatar/pbs.twimg.com/20441c1b44e39f82c51ece7ea2cdedc9b844062fc8a9dfbd2aeafec697b6a955.png
@@ -2212,7 +2248,7 @@
         sentence_html: <a href="https://twitter.com/DareBoost">Dareboost</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2015/06/la-recherche-dans-du-statique-facile-avec-algolia.html">https://nicolas-hoizey.com/2015/06/la-recherche-dans-du-statique-facile-avec-algolia.html</a>
       target: https://nicolas-hoizey.com/2015/06/la-recherche-dans-du-statique-facile-avec-algolia.html
-    author: *49
+    author: *50
     type: like
     content: <p><a href="https://twitter.com/DareBoost">Dareboost</a> favorited a
       tweet <a href="https://nicolas-hoizey.com/2015/06/la-recherche-dans-du-statique-facile-avec-algolia.html">https://nicolas-hoizey.com/2015/06/la-recherche-dans-du-statique-facile-avec-algolia.html</a></p>
@@ -2220,7 +2256,7 @@
     id: '450536'
     url: https://twitter.com/nhoizey/status/895996470867800065#favorited-by-76719275
     source: twitter
-    pubdate: 2017-08-11 13:48:00.000000000 +00:00
+    pubdate: 2017-08-11 15:48:00.000000000 +02:00
     raw:
       source: https://brid-gy.appspot.com/like/twitter/nhoizey/895996470867800065/76719275
       verified: true
@@ -2228,7 +2264,7 @@
       id: 450536
       private: false
       data:
-        author: &50
+        author: &51
           name: Vincent
           url: https://twitter.com/Sleipne
           photo: https://webmention.io/avatar/pbs.twimg.com/60436912b6b41058375931d9f378e29d471f8c74686356aaa206688a30c26023.png
@@ -2244,7 +2280,7 @@
         sentence_html: <a href="https://twitter.com/Sleipne">Vincent</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2015/06/la-recherche-dans-du-statique-facile-avec-algolia.html">https://nicolas-hoizey.com/2015/06/la-recherche-dans-du-statique-facile-avec-algolia.html</a>
       target: https://nicolas-hoizey.com/2015/06/la-recherche-dans-du-statique-facile-avec-algolia.html
-    author: *50
+    author: *51
     type: like
     content: <p><a href="https://twitter.com/Sleipne">Vincent</a> favorited a tweet
       <a href="https://nicolas-hoizey.com/2015/06/la-recherche-dans-du-statique-facile-avec-algolia.html">https://nicolas-hoizey.com/2015/06/la-recherche-dans-du-statique-facile-avec-algolia.html</a></p>
@@ -2254,7 +2290,7 @@
     id: '378355'
     url: https://phototrend.fr/2015/09/test-appareil-photo-compact-panasonic-lumix-lx100/
     source: false
-    pubdate: 2016-09-14 12:50:13.000000000 +00:00
+    pubdate: 2016-09-14 14:50:13.000000000 +02:00
     raw:
       source: https://phototrend.fr/2015/09/test-appareil-photo-compact-panasonic-lumix-lx100/
       verified: true
@@ -2725,7 +2761,7 @@
       id: 316103
       private: false
       data:
-        author: &51
+        author: &52
           name: keith•j•grant
           url: http://keithjgrant.com/
           photo: https://webmention.io/avatar/twitter.com/0d69e82ef0e7bdb70af8058d11d18a8b749cf3ece38bb0d444b617338a6d3f30.jpeg
@@ -2744,7 +2780,7 @@
           use px for font size. It may not matter as much as before, but it does sti...'
           linking to <a href="https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html">https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html</a>
       target: https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html
-    author: *51
+    author: *52
     type: link
     content: |-
       <p>Don’t use px for font size. It may not matter as much as before, but it does still matter. (by <a href="https://twitter.com/nhoizey">@nhoizey</a>)<a href="http://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html">nicolas-hoizey.com/2016/03/people…</a>
@@ -2761,7 +2797,7 @@
       id: 319395
       private: false
       data:
-        author: &52
+        author: &53
           name: Zach Leatherman
           url: http://zachleat.com/
           photo: https://webmention.io/avatar/twitter.com/454d06406b5081ce12f8b47256f7773352723b44570aaadc9ccb8dd028aff96f.png
@@ -2780,7 +2816,7 @@
           I still see a small FOUT there. You can inline the first stage as data ...'
           to a tweet <a href="https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html">https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html</a>
       target: https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html
-    author: *52
+    author: *53
     type: reply
     content: '<p><a href="https://twitter.com/nhoizey">@nhoizey</a> I still see a
       small FOUT there. You can inline the first stage as data URIs, more here: <a
@@ -2797,7 +2833,7 @@
       id: 319396
       private: false
       data:
-        author: &53
+        author: &54
           name: Xavier Zalawa
           url: https://twitter.com/7studio
           photo: https://webmention.io/avatar/twitter.com/21c09b769484b5def63d5006e4ca7ce539fb7e039a50c7ba2d00fd0a85bba0fc.jpeg
@@ -2813,7 +2849,7 @@
         sentence_html: <a href="https://twitter.com/7studio">Xavier Zalawa</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html">https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html</a>
       target: https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html
-    author: *53
+    author: *54
     type: like
     content: <p><a href="https://twitter.com/7studio">Xavier Zalawa</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html">https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html</a></p>
@@ -2829,7 +2865,7 @@
       id: 319397
       private: false
       data:
-        author: &54
+        author: &55
           name: Nicolas Hoizey
           url: http://nicolas-hoizey.com/
           photo: https://webmention.io/avatar/twitter.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -2847,7 +2883,7 @@
           '@zachleat I’ve read your last post, I have indeed to try!' to a tweet <a
           href="https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html">https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html</a>
       target: https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html
-    author: *54
+    author: *55
     type: reply
     content: <p><a href="https://twitter.com/zachleat">@zachleat</a> I’ve read your
       last post, I have indeed to try!</p>
@@ -2863,7 +2899,7 @@
       id: 319398
       private: false
       data:
-        author: &55
+        author: &56
           name: Zach Leatherman
           url: https://twitter.com/zachleat
           photo: https://webmention.io/avatar/twitter.com/454d06406b5081ce12f8b47256f7773352723b44570aaadc9ccb8dd028aff96f.png
@@ -2879,7 +2915,7 @@
         sentence_html: <a href="https://twitter.com/zachleat">Zach Leatherman</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html">https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html</a>
       target: https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html
-    author: *55
+    author: *56
     type: like
     content: <p><a href="https://twitter.com/zachleat">Zach Leatherman</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html">https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html</a></p>
@@ -2895,7 +2931,7 @@
       id: 319399
       private: false
       data:
-        author: &56
+        author: &57
           name: Zach Leatherman
           url: http://zachleat.com/
           photo: https://webmention.io/avatar/twitter.com/454d06406b5081ce12f8b47256f7773352723b44570aaadc9ccb8dd028aff96f.png
@@ -2910,7 +2946,7 @@
         sentence_html: "<a href=\"http://zachleat.com\">Zach Leatherman</a> replied
           '@nhoizey \U0001F4AF' to a tweet <a href=\"https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html\">https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html</a>"
       target: https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html
-    author: *56
+    author: *57
     type: reply
     content: "<p><a href=\"https://twitter.com/nhoizey\">@nhoizey</a> \U0001F4AF</p>"
   '319405':
@@ -2925,7 +2961,7 @@
       id: 319405
       private: false
       data:
-        author: &57
+        author: &58
           name: Gaël Poupard
           url: https://twitter.com/ffoodd_fr
           photo: https://webmention.io/avatar/twitter.com/4e47b12eaf3fbb830bd5cb6b7c1ec5631c170c2df41206b333a1cc6c837415ff.png
@@ -2941,7 +2977,7 @@
         sentence_html: <a href="https://twitter.com/ffoodd_fr">Gaël Poupard</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html">https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html</a>
       target: https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html
-    author: *57
+    author: *58
     type: like
     content: <p><a href="https://twitter.com/ffoodd_fr">Gaël Poupard</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html">https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html</a></p>
@@ -3009,7 +3045,7 @@
       id: 431911
       private: false
       data:
-        author: &58
+        author: &59
           name: Гонзо
           url: http://greatgonzo.net/
           photo: https://webmention.io/avatar/pbs.twimg.com/bc9e8b7483b5df3f34aff13a8f302cdb56a7e70db2d5ff5711f8399c42acf47c.jpg
@@ -3024,14 +3060,14 @@
         sentence_html: <a href="http://greatgonzo.net">Гонзо</a> posted 'nicolas-hoizey.com/2016/03/people…'
           linking to <a href="https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html">https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html</a>
       target: https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html
-    author: *58
+    author: *59
     type: link
     content: <p><a href="https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html">nicolas-hoizey.com/2016/03/people…</a></p>
   '432334':
     id: '432334'
     url: https://10clouds.com/blog/css-backend-developers/
     source: false
-    pubdate: 2017-04-20 10:56:17.000000000 +00:00
+    pubdate: 2017-04-20 12:56:17.000000000 +02:00
     raw:
       source: https://10clouds.com/blog/css-backend-developers/
       verified: true
@@ -3071,7 +3107,7 @@
       id: 409019
       private: false
       data:
-        author: &59
+        author: &60
           name: Éric
           url: https://n.survol.fr/n/author/edaspet
           photo: https://webmention.io/avatar/secure.gravatar.com/33f160f6849d08e58a8402bffe210ac9d03b57a87f911e417cc0778e832e4958.jpeg
@@ -3113,7 +3149,7 @@
           'En fait, les sources varient de 50 à 75 caractères par ligne   — Nicolas
           Hoizey ...' linking to <a href="https://nicolas-hoizey.com/2016/08/soignez-votre-lisibilite-avec-des-textes-de-largeur-matrisee.html">https://nicolas-hoizey.com/2016/08/soignez-votre-lisibilite-avec-des-textes-de-largeur-matrisee.html</a>
       target: https://nicolas-hoizey.com/2016/08/soignez-votre-lisibilite-avec-des-textes-de-largeur-matrisee.html
-    author: *59
+    author: *60
     type: link
     content: |-
       <p><p>En fait, les sources varient de 50 à 75 caractères par ligne</p>
@@ -3157,7 +3193,7 @@
       id: 412829
       private: false
       data:
-        author: &60
+        author: &61
           name: Nicolas Hoizey
           url: https://twitter.com/nhoizey
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -3173,7 +3209,7 @@
         sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *60
+    author: *61
     type: like
     content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a></p>
@@ -3189,7 +3225,7 @@
       id: 412882
       private: false
       data:
-        author: &61
+        author: &62
           name: Bob Volte
           url: https://twitter.com/Uxlco0
           photo: https://webmention.io/avatar/pbs.twimg.com/4df3c5b7d56c2e332e972354c57e0ace330784caefa9896039c4850c454cf9b4.jpg
@@ -3205,7 +3241,7 @@
         sentence_html: <a href="https://twitter.com/Uxlco0">Bob Volte</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *61
+    author: *62
     type: like
     content: <p><a href="https://twitter.com/Uxlco0">Bob Volte</a> favorited a tweet
       <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a></p>
@@ -3221,7 +3257,7 @@
       id: 412883
       private: false
       data:
-        author: &62
+        author: &63
           name: Bob Volte
           url: https://twitter.com/Uxlco0
           photo: https://webmention.io/avatar/pbs.twimg.com/4df3c5b7d56c2e332e972354c57e0ace330784caefa9896039c4850c454cf9b4.jpg
@@ -3238,7 +3274,7 @@
         sentence_html: <a href="https://twitter.com/Uxlco0">Bob Volte</a> retweeted
           a tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *62
+    author: *63
     type: repost
     content: <p><a href="https://twitter.com/Uxlco0">Bob Volte</a> retweeted a tweet
       <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a></p>
@@ -3254,7 +3290,7 @@
       id: 412892
       private: false
       data:
-        author: &63
+        author: &64
           name: jbcordina
           url: https://twitter.com/jbcordina
           photo: https://webmention.io/avatar/pbs.twimg.com/76bd4ecb28c363b80f49addc246a624928774f59f8ce02e8e2e002105385b5c2.jpg
@@ -3270,7 +3306,7 @@
         sentence_html: <a href="https://twitter.com/jbcordina">jbcordina</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *63
+    author: *64
     type: like
     content: <p><a href="https://twitter.com/jbcordina">jbcordina</a> favorited a
       tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a></p>
@@ -3286,7 +3322,7 @@
       id: 412893
       private: false
       data:
-        author: &64
+        author: &65
           name: Boris
           url: https://borisschapira.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/14c251bf27a426adfbbaf0db67ff146801ca5971f9ee476a694e5cf3f4cf2ef6.jpg
@@ -3301,7 +3337,7 @@
         sentence_html: <a href="https://borisschapira.com">Boris</a> replied '' to
           a tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *64
+    author: *65
     type: reply
     content: "<p>save the visited pages only. Add a CTA to propose full download.</p>"
   '819423298199191552':
@@ -3316,7 +3352,7 @@
       id: 412894
       private: false
       data:
-        author: &65
+        author: &66
           name: Boris
           url: https://borisschapira.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/14c251bf27a426adfbbaf0db67ff146801ca5971f9ee476a694e5cf3f4cf2ef6.jpg
@@ -3336,7 +3372,7 @@
           is a book so it's different. But I'd rather advice to offer this feature
           in...' to a tweet that linked to <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *65
+    author: *66
     type: reply
     content: |-
       <p>this is a book so it’s different. But I’d rather advice to offer this feature instead of forcing it w/o the user consent.
@@ -3354,7 +3390,7 @@
       id: 412910
       private: false
       data:
-        author: &66
+        author: &67
           name: Gaël Poupard
           url: https://twitter.com/ffoodd_fr
           photo: https://webmention.io/avatar/pbs.twimg.com/bebb7c8bbc4d5d316c64a4e8278e4fb1a662dd836590aa669864c8f7d7ca013d.jpeg
@@ -3370,7 +3406,7 @@
         sentence_html: <a href="https://twitter.com/ffoodd_fr">Gaël Poupard</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *66
+    author: *67
     type: like
     content: <p><a href="https://twitter.com/ffoodd_fr">Gaël Poupard</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a></p>
@@ -3386,7 +3422,7 @@
       id: 412912
       private: false
       data:
-        author: &67
+        author: &68
           name: Nicolas Hoffmann
           url: https://twitter.com/Nico3333fr
           photo: https://webmention.io/avatar/pbs.twimg.com/b6ccd529f1a26a908dddff90d90bef7b5eb6ca359e6d71d3bcca49c0e30b2688.jpg
@@ -3402,7 +3438,7 @@
         sentence_html: <a href="https://twitter.com/Nico3333fr">Nicolas Hoffmann</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *67
+    author: *68
     type: like
     content: <p><a href="https://twitter.com/Nico3333fr">Nicolas Hoffmann</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a></p>
@@ -3418,7 +3454,7 @@
       id: 412925
       private: false
       data:
-        author: &68
+        author: &69
           name: "˗ˏˋ tzi ˊˎ˗"
           url: https://twitter.com/iamtzi
           photo: https://webmention.io/avatar/pbs.twimg.com/119db3d83628f9cf5464f7371bb0769aa9c447cb96ab47ce214c685370bebbf5.jpg
@@ -3434,7 +3470,7 @@
         sentence_html: <a href="https://twitter.com/iamtzi">˗ˏˋ tzi ˊˎ˗</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *68
+    author: *69
     type: like
     content: <p><a href="https://twitter.com/iamtzi">˗ˏˋ tzi ˊˎ˗</a> favorited a tweet
       <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a></p>
@@ -3450,7 +3486,7 @@
       id: 412926
       private: false
       data:
-        author: &69
+        author: &70
           name: Florian Bouvot
           url: https://twitter.com/florianbouvot
           photo: https://webmention.io/avatar/pbs.twimg.com/38c3623fd0e6792dde79d244b57c34917892b48ee08136d219ccfc19dbcd97e9.jpg
@@ -3466,7 +3502,7 @@
         sentence_html: <a href="https://twitter.com/florianbouvot">Florian Bouvot</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *69
+    author: *70
     type: like
     content: <p><a href="https://twitter.com/florianbouvot">Florian Bouvot</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a></p>
@@ -3482,7 +3518,7 @@
       id: 412947
       private: false
       data:
-        author: &70
+        author: &71
           name: NoFuiInvitado
           url: https://twitter.com/NoFuiInvitado
           photo: https://webmention.io/avatar/abs.twimg.com/ef3e3b7e1fb12075aa77f10c3fe19f06dfdc7a26d44653f05ae6876463499260.png
@@ -3498,7 +3534,7 @@
         sentence_html: <a href="https://twitter.com/NoFuiInvitado">NoFuiInvitado</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *70
+    author: *71
     type: like
     content: <p><a href="https://twitter.com/NoFuiInvitado">NoFuiInvitado</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a></p>
@@ -3514,7 +3550,7 @@
       id: 412948
       private: false
       data:
-        author: &71
+        author: &72
           name: Marco Hengstenberg
           url: https://twitter.com/nice2meatu
           photo: https://webmention.io/avatar/pbs.twimg.com/0bb42067d123157202a2c272e97e7080290055c5682d0aad7135dad7f0ac9004.jpeg
@@ -3530,7 +3566,7 @@
         sentence_html: <a href="https://twitter.com/nice2meatu">Marco Hengstenberg</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *71
+    author: *72
     type: like
     content: <p><a href="https://twitter.com/nice2meatu">Marco Hengstenberg</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a></p>
@@ -3546,7 +3582,7 @@
       id: 412962
       private: false
       data:
-        author: &72
+        author: &73
           name: Bruce Lawson
           url: http://www.brucelawson.co.uk/
           photo: https://webmention.io/avatar/pbs.twimg.com/33893b1a6a64ed6c0171735249f36aa71712fb1c284e073f255c429becba2863.jpg
@@ -3565,7 +3601,7 @@
           'How much data should my Service Worker put upfront in the offline cache?
           nicolas...' linking to <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *72
+    author: *73
     type: link
     content: <p>How much data should my Service Worker put upfront in the offline
       cache? <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">nicolas-hoizey.com/2017/01/how-mu…</a>
@@ -3582,7 +3618,7 @@
       id: 412968
       private: false
       data:
-        author: &73
+        author: &74
           name: Smashing Magazine
           url: http://www.smashingmagazine.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/ada5ba04a1f7a9b5e5df0b971fa5fc1db5597c98d6f425a111729e16348b3727.png
@@ -3601,7 +3637,7 @@
           replied 'smashingmagazine.com/serviceWorker.…' to a tweet that linked to
           <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *73
+    author: *74
     type: reply
     content: |-
       <p><a href="http://smashingmagazine.com/serviceWorker.js">smashingmagazine.com/serviceWorker.…</a>
@@ -3618,7 +3654,7 @@
       id: 412969
       private: false
       data:
-        author: &74
+        author: &75
           name: Smashing Magazine
           url: http://www.smashingmagazine.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/ada5ba04a1f7a9b5e5df0b971fa5fc1db5597c98d6f425a111729e16348b3727.png
@@ -3637,7 +3673,7 @@
           replied 'Instead, we are serving offline placeholders. CSS/JS/fonts are
           stored though + a...' to a tweet that linked to <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *74
+    author: *75
     type: reply
     content: |-
       <p>Instead, we are serving offline placeholders. CSS/JS/fonts are stored though + a couple of HTML pages.
@@ -3654,7 +3690,7 @@
       id: 412970
       private: false
       data:
-        author: &75
+        author: &76
           name: Smashing Magazine
           url: http://www.smashingmagazine.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/ada5ba04a1f7a9b5e5df0b971fa5fc1db5597c98d6f425a111729e16348b3727.png
@@ -3673,7 +3709,7 @@
           replied 'Good point! Well, basically we are using Service Workers Cache
           to store all asse...' to a tweet that linked to <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *75
+    author: *76
     type: reply
     content: |-
       <p>Good point! Well, basically we are using Service Workers Cache to store all assets and a couple of pages, but not images.
@@ -3690,7 +3726,7 @@
       id: 412971
       private: false
       data:
-        author: &76
+        author: &77
           name: Philippe Vayssière
           url: http://www.alsacreations.fr/
           photo: https://webmention.io/avatar/pbs.twimg.com/1588f8aced27f4b0ad30875e148e35be065a0e71101f8295fbc18e8af7dc6a46.jpg
@@ -3706,7 +3742,7 @@
         sentence_html: <a href="http://www.alsacreations.fr">Philippe Vayssière</a>
           replied '' to a tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *76
+    author: *77
     type: reply
     content: "<p>I was very pleased being able to read half of it on my two ~8H journeys
       in TGV. But that’s only acceptable for THIS website, sure</p>"
@@ -3722,7 +3758,7 @@
       id: 412979
       private: false
       data:
-        author: &77
+        author: &78
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -3740,7 +3776,7 @@
           replied 'I see that indeed, I didn’t take time yet to read your huge SW…
           \U0001F609' to a tweet that linked to <a href=\"https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html\">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>"
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *77
+    author: *78
     type: reply
     content: "<p>I see that indeed, I didn’t take time yet to read your huge SW… \U0001F609\n<a
       class=\"u-mention\" href=\"https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html\"></a></p>"
@@ -3756,7 +3792,7 @@
       id: 412980
       private: false
       data:
-        author: &78
+        author: &79
           name: Smashing Magazine
           url: http://www.smashingmagazine.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/ada5ba04a1f7a9b5e5df0b971fa5fc1db5597c98d6f425a111729e16348b3727.png
@@ -3774,7 +3810,7 @@
         sentence_html: <a href="http://www.smashingmagazine.com">Smashing Magazine</a>
           replied 'No worries! :-)' to a tweet that linked to <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *78
+    author: *79
     type: reply
     content: |-
       <p>No worries! :-)
@@ -3791,7 +3827,7 @@
       id: 412981
       private: false
       data:
-        author: &79
+        author: &80
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -3810,7 +3846,7 @@
           'exactly, yes. +@jaffathecake @tkadlec @brucel @paul_irish @adactio' to
           a tweet that linked to <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *79
+    author: *80
     type: reply
     content: |-
       <p>exactly, yes. +<a href="https://twitter.com/jaffathecake">@jaffathecake</a> <a href="https://twitter.com/tkadlec">@tkadlec</a> <a href="https://twitter.com/brucel">@brucel</a> <a href="https://twitter.com/paul_irish">@paul_irish</a> <a href="https://twitter.com/adactio">@adactio</a>
@@ -3827,7 +3863,7 @@
       id: 412982
       private: false
       data:
-        author: &80
+        author: &81
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -3842,7 +3878,7 @@
         sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
           '' to a tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *80
+    author: *81
     type: reply
     content: "<p>true</p>"
   '819543637939916801':
@@ -3857,7 +3893,7 @@
       id: 412994
       private: false
       data:
-        author: &81
+        author: &82
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -3872,7 +3908,7 @@
         sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
           '' to a tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *81
+    author: *82
     type: reply
     content: "<p>I agree</p>"
   '819542529267892225':
@@ -3887,7 +3923,7 @@
       id: 412995
       private: false
       data:
-        author: &82
+        author: &83
           name: Doron Sherman
           url: http://www.cloudinary.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/7c4a3f2156496456b525784885e111fd9956eeb8002fded39aa6e963fa94b24b.jpg
@@ -3905,7 +3941,7 @@
           'since UX and cost are prime considerations, the SW can act as a smart agent
           repr...' to a tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *82
+    author: *83
     type: reply
     content: "<p>since UX and cost are prime considerations, the SW can act as a smart
       agent representing the user’s best interests, adapt &amp; obey.</p>"
@@ -3921,7 +3957,7 @@
       id: 413026
       private: false
       data:
-        author: &83
+        author: &84
           name: Tim Kadlec
           url: http://www.timkadlec.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/ef82f596d044f637c43ebb38059d99447745f5a9a7ad637b4da1f079c1afa9ec.jpeg
@@ -3940,7 +3976,7 @@
           solution would be to provide a "Save Offline" button so user determines.
           BU...' to a tweet that linked to <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *83
+    author: *84
     type: reply
     content: |-
       <p>Easy solution would be to provide a “Save Offline” button so user determines. BUT..
@@ -3957,7 +3993,7 @@
       id: 413033
       private: false
       data:
-        author: &84
+        author: &85
           name: "Tobias Baldauf \U0001F981"
           url: https://twitter.com/tbaldauf
           photo: https://webmention.io/avatar/pbs.twimg.com/19a5e335f6d943d7b17776e4ac159672b9600830406a7b0213eca57322e22f56.jpg
@@ -3973,7 +4009,7 @@
         sentence_html: "<a href=\"https://twitter.com/tbaldauf\">Tobias Baldauf \U0001F981</a>
           favorited a tweet <a href=\"https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html\">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>"
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *84
+    author: *85
     type: like
     content: "<p><a href=\"https://twitter.com/tbaldauf\">Tobias Baldauf \U0001F981</a>
       favorited a tweet <a href=\"https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html\">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a></p>"
@@ -3989,7 +4025,7 @@
       id: 413034
       private: false
       data:
-        author: &85
+        author: &86
           name: blinch
           url: https://twitter.com/blinch
           photo: https://webmention.io/avatar/pbs.twimg.com/1abe3844450887b0d714bb9355413606dd3d4f7afa4f857cca4ca94d5e935fba.jpg
@@ -4005,7 +4041,7 @@
         sentence_html: <a href="https://twitter.com/blinch">blinch</a> favorited a
           tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *85
+    author: *86
     type: like
     content: <p><a href="https://twitter.com/blinch">blinch</a> favorited a tweet
       <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a></p>
@@ -4021,7 +4057,7 @@
       id: 413185
       private: false
       data:
-        author: &86
+        author: &87
           name: antoinefauchié
           url: https://www.quaternum.net/
           photo: https://webmention.io/avatar/pbs.twimg.com/6d76f4edc760e9357524263c6c4c483de9272f3f3aa0b549e7f1d9caef3721f2.jpeg
@@ -4039,7 +4075,7 @@
           'super article de @nhoizey sur la quantité de données stockées par les Service
           Wo...' linking to <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *86
+    author: *87
     type: link
     content: <p>super article de <a href="https://twitter.com/nhoizey">@nhoizey</a>
       sur la quantité de données stockées par les Service Workers <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">nicolas-hoizey.com/2017/01/how-mu…</a></p>
@@ -4055,7 +4091,7 @@
       id: 413256
       private: false
       data:
-        author: &87
+        author: &88
           name: GreenIT.fr
           url: http://www.greenit.fr/
           photo: https://webmention.io/avatar/pbs.twimg.com/24b28ace1efc70b89d90e105de5119ad6caabb01217f431549b3abb8c7fefab7.png
@@ -4079,7 +4115,7 @@
           article de @nhoizey sur téléchargements abusifs à cause de mise en cac...'
           linking to <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *87
+    author: *88
     type: link
     content: |-
       <p>Excellent article de <a href="https://twitter.com/nhoizey">@nhoizey</a> sur téléchargements abusifs à cause de mise en cache par des Service Workers <a href="https://twitter.com/search?q=%23software">#software</a> <a href="https://twitter.com/search?q=%23ecodesign">#ecodesign</a> <a href="https://twitter.com/search?q=%23greenIT">#greenIT</a></p>
@@ -4101,7 +4137,7 @@
       id: 413313
       private: false
       data:
-        author: &88
+        author: &89
           name: Веб-стандарты
           url: http://web-standards.ru/
           photo: https://webmention.io/avatar/pbs.twimg.com/23b7a29e84860bb2b76dd1baee76f5e45928b3519ff6818c2d8b88e9f8cfa13f.jpg
@@ -4123,7 +4159,7 @@
           'Сколько офлайнового кэша стоит хранить в сервис-воркерах, Николас Хойзи
           о стоимо...' linking to <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *88
+    author: *89
     type: link
     content: |-
       <p>Сколько офлайнового кэша стоит хранить в сервис-воркерах, Николас Хойзи о стоимости трафика и ответственности — <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">nicolas-hoizey.com/2017/01/how-mu…</a></p>
@@ -4143,7 +4179,7 @@
       id: 413381
       private: false
       data:
-        author: &89
+        author: &90
           name: Fresh Frontend Links
           url: https://habrahabr.ru/company/zfort/
           photo: https://webmention.io/avatar/pbs.twimg.com/c5048a0ddd46ec12573f95b7ce1fcb65fb8518b24d6bc010e8c8ab72596fc96d.png
@@ -4161,7 +4197,7 @@
           Links</a> posted 'How much data should my Service Worker put upfront in
           the offline cache? nicolas...' linking to <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *89
+    author: *90
     type: link
     content: <p>How much data should my Service Worker put upfront in the offline
       cache? <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">nicolas-hoizey.com/2017/01/how-mu…</a></p>
@@ -4177,7 +4213,7 @@
       id: 418711
       private: false
       data:
-        author: &90
+        author: &91
           name: Radimir Bitsov
           url: http://radibit.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/f01eab1a78256fc28c11c765a19f52b4814ca593677e5f756d4c46f2f3a38d10.jpg
@@ -4197,7 +4233,7 @@
           much data we should put upfront in the offline cache using #serviceworker?ni...''
           linking to <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>'
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *90
+    author: *91
     type: link
     content: <p>How much data we should put upfront in the offline cache using <a
       href="https://twitter.com/search?q=%23serviceworker">#serviceworker</a>?<a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">nicolas-hoizey.com/2017/01/how-mu…</a><a
@@ -4214,7 +4250,7 @@
       id: 418729
       private: false
       data:
-        author: &91
+        author: &92
           name: Gokul
           url: https://gokulkrishh.github.io/
           photo: https://webmention.io/avatar/pbs.twimg.com/d0c25176e93668bcf2ef821ddd8921ba00754bdac6eb972a77754d4531263b29.jpg
@@ -4235,7 +4271,7 @@
           much data should my Service Worker put upfront in the offline cache? nicolas...'
           linking to <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *91
+    author: *92
     type: link
     content: <p>How much data should my Service Worker put upfront in the offline
       cache? <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">nicolas-hoizey.com/2017/01/how-mu…</a>
@@ -4254,7 +4290,7 @@
       id: 418730
       private: false
       data:
-        author: &92
+        author: &93
           name: stefan judis
           url: https://www.stefanjudis.de/
           photo: https://webmention.io/avatar/pbs.twimg.com/ef7bf01051744a3b1dba9b96a0bdb9dae228ce09f043daa00c00359f7b5d6329.jpeg
@@ -4273,7 +4309,7 @@
           ''How much data should a #serviceworker cache upfront? Good article on the
           "offlin...'' linking to <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>'
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *92
+    author: *93
     type: link
     content: "<p>How much data should a <a href=\"https://twitter.com/search?q=%23serviceworker\">#serviceworker</a>
       cache upfront? Good article on the “offline all the things” topic. \U0001F449
@@ -4451,7 +4487,7 @@
       id: 418962
       private: false
       data:
-        author: &93
+        author: &94
           name: Brian Daley
           url: http://www.briandaley.me/
           photo: https://webmention.io/avatar/pbs.twimg.com/2365104028559f92078f050980bf554b11ad2f8aa287fc0567f43e80eecc0d39.jpg
@@ -4469,7 +4505,7 @@
           'How much data should my Service Worker put upfront in the offline cache?
           nicolas...' linking to <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *93
+    author: *94
     type: link
     content: <p>How much data should my Service Worker put upfront in the offline
       cache? <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">nicolas-hoizey.com/2017/01/how-mu…</a></p>
@@ -4485,7 +4521,7 @@
       id: 418990
       private: false
       data:
-        author: &94
+        author: &95
           name: "\U0001F984 bredele"
           url: http://github.com/bredele
           photo: https://webmention.io/avatar/pbs.twimg.com/17933b68d677d8ca61a2240ef1f5917a67665693bea47b2d08ebca707d3b19c7.jpg
@@ -4504,7 +4540,7 @@
           posted '@hsablonniere This morning I randomly read this article (nicolas-hoizey.com/2017...'
           linking to <a href=\"https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html\">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>"
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *94
+    author: *95
     type: link
     content: <p><a href="https://twitter.com/hsablonniere">@hsablonniere</a> This
       morning I randomly read this article (<a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">nicolas-hoizey.com/2017/01/how-mu…</a>)
@@ -4551,7 +4587,7 @@
       id: 420624
       private: false
       data:
-        author: &95
+        author: &96
           name: pierre choffe
           url: https://la-cascade.io/
           photo: https://webmention.io/avatar/pbs.twimg.com/776faacdb063b19b894d2e13be0eaee09b72b0d1d4eb35f8091b5c8d8b784f47.jpg
@@ -4570,7 +4606,7 @@
           Much Data Should My Service Worker Put Ufront In The Offline Cache par @nhoi...'
           linking to <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *95
+    author: *96
     type: link
     content: <p>How Much Data Should My Service Worker Put Ufront In The Offline Cache
       par <a href="https://twitter.com/nhoizey">@nhoizey</a> (FR translation coming
@@ -4587,7 +4623,7 @@
       id: 420779
       private: false
       data:
-        author: &96
+        author: &97
           name: Jacky
           url: http://jacky.seezone.net/
           photo: https://webmention.io/avatar/pbs.twimg.com/17f9f0308b22132de78d065aa0332849727c8a21e4e36bf8ff680a91652d0b2f.jpg
@@ -4605,7 +4641,7 @@
           data should my Service Worker put upfront in the offline cache? nicolas...'
           linking to <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *96
+    author: *97
     type: link
     content: <p>How much data should my Service Worker put upfront in the offline
       cache? <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">nicolas-hoizey.com/2017/01/how-mu…</a></p>
@@ -4621,7 +4657,7 @@
       id: 421214
       private: false
       data:
-        author: &97
+        author: &98
           name: Andrew Solomon
           url: http://andysolomon.github.io/
           photo: https://webmention.io/avatar/pbs.twimg.com/869f93dcf5ea26fd618af591a7613892f9eb5c7f33db6cdbbcbeb891ca1a23f1.jpg
@@ -4639,7 +4675,7 @@
           'How much data should my Service Worker put upfront in the offline cache?
           nicolas...' linking to <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *97
+    author: *98
     type: link
     content: <p>How much data should my Service Worker put upfront in the offline
       cache? <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">nicolas-hoizey.com/2017/01/how-mu…</a></p>
@@ -4655,7 +4691,7 @@
       id: 421442
       private: false
       data:
-        author: &98
+        author: &99
           name: Eric Bidelman
           url: https://twitter.com/ebidel
           photo: https://webmention.io/avatar/pbs.twimg.com/77839f315d125db8683cede9fa9e4b51be28b6dc54050a29e11aa01c92627418.jpg
@@ -4671,7 +4707,7 @@
         sentence_html: <a href="https://twitter.com/ebidel">Eric Bidelman</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *98
+    author: *99
     type: like
     content: <p><a href="https://twitter.com/ebidel">Eric Bidelman</a> favorited a
       tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a></p>
@@ -4687,7 +4723,7 @@
       id: 421519
       private: false
       data:
-        author: &99
+        author: &100
           name: Bastien Jaillot
           url: https://twitter.com/bastnic
           photo: https://webmention.io/avatar/pbs.twimg.com/0dbb6910fed96ef1e3fdf19d6b27ac2dd24a7d5fbdcc7d71e693325a349d8280.jpg
@@ -4703,7 +4739,7 @@
         sentence_html: <a href="https://twitter.com/bastnic">Bastien Jaillot</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *99
+    author: *100
     type: like
     content: <p><a href="https://twitter.com/bastnic">Bastien Jaillot</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a></p>
@@ -4719,7 +4755,7 @@
       id: 421574
       private: false
       data:
-        author: &100
+        author: &101
           name: CiTA
           url: https://silvestarbistrovic.from.hr/
           photo: https://webmention.io/avatar/pbs.twimg.com/18770dadcefd7e7aafab8af54f359e86d4bb23429626cd45a936108c0ec2d67a.jpg
@@ -4742,7 +4778,7 @@
           'How much data should my Service Worker put upfront in the offline cache?buff.ly/...'
           linking to <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *100
+    author: *101
     type: link
     content: |-
       <p>How much data should my Service Worker put upfront in the offline cache?<a href="http://buff.ly/2lbO80t">buff.ly/2lbO80t</a> via <a href="https://twitter.com/nhoizey">@nhoizey</a><a href="https://twitter.com/search?q=%23offlice">#offlice</a> <a href="https://twitter.com/search?q=%23web">#web</a> <a href="https://twitter.com/search?q=%23workers">#workers</a></p>
@@ -4763,7 +4799,7 @@
       id: 422019
       private: false
       data:
-        author: &101
+        author: &102
           name: Owen Campbell-Moore
           url: http://www.owencampbellmoore.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/6177175a9b467a02cfe904cdb090a0017fa04ba8cfc4fda22e4ee25b9c9672d1.jpg
@@ -4779,7 +4815,7 @@
         sentence_html: <a href="http://www.owencampbellmoore.com">Owen Campbell-Moore</a>
           replied '' to a tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *101
+    author: *102
     type: reply
     content: "<p>I don’t think users are best placed to understand costs vs benefit
       to storage / bandwidth. System way better informed.</p>"
@@ -4795,7 +4831,7 @@
       id: 422020
       private: false
       data:
-        author: &102
+        author: &103
           name: Owen Campbell-Moore
           url: http://www.owencampbellmoore.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/6177175a9b467a02cfe904cdb090a0017fa04ba8cfc4fda22e4ee25b9c9672d1.jpg
@@ -4811,7 +4847,7 @@
         sentence_html: <a href="http://www.owencampbellmoore.com">Owen Campbell-Moore</a>
           replied '' to a tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *102
+    author: *103
     type: reply
     content: "<p>totally agree with problem. My take is that the system is best placed
       to make these decisions for our ~1B users.</p>"
@@ -4827,7 +4863,7 @@
       id: 422021
       private: false
       data:
-        author: &103
+        author: &104
           name: Owen Campbell-Moore
           url: http://www.owencampbellmoore.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/6177175a9b467a02cfe904cdb090a0017fa04ba8cfc4fda22e4ee25b9c9672d1.jpg
@@ -4843,7 +4879,7 @@
         sentence_html: <a href="http://www.owencampbellmoore.com">Owen Campbell-Moore</a>
           replied '' to a tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *103
+    author: *104
     type: reply
     content: "<p>(users like you or me may be well placed and understand, but we’re
       not the 99% that just want to read the news etc)</p>"
@@ -4859,7 +4895,7 @@
       id: 422022
       private: false
       data:
-        author: &104
+        author: &105
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -4877,7 +4913,7 @@
           'you could also ask the user if she wants to cache anything at all, juste
           like yo...' to a tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *104
+    author: *105
     type: reply
     content: <p>you could also ask the user if she wants to cache anything at all,
       juste like you ask for geolocation or other APIs. +<a href="https://twitter.com/ChromiumDev">@ChromiumDev</a></p>
@@ -4893,7 +4929,7 @@
       id: 422023
       private: false
       data:
-        author: &105
+        author: &106
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -4910,7 +4946,7 @@
           'I agree most users wouldn’t know, unfortunately. +@ChromiumDev' to a tweet
           <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *105
+    author: *106
     type: reply
     content: <p>I agree most users wouldn’t know, unfortunately. +<a href="https://twitter.com/ChromiumDev">@ChromiumDev</a></p>
   '831970175020773376':
@@ -4925,7 +4961,7 @@
       id: 422024
       private: false
       data:
-        author: &106
+        author: &107
           name: Owen Campbell-Moore
           url: http://www.owencampbellmoore.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/6177175a9b467a02cfe904cdb090a0017fa04ba8cfc4fda22e4ee25b9c9672d1.jpg
@@ -4941,7 +4977,7 @@
         sentence_html: <a href="http://www.owencampbellmoore.com">Owen Campbell-Moore</a>
           replied '' to a tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *106
+    author: *107
     type: reply
     content: "<p>Now we need to do that! I often get asked “how much should I pre-cache,
       and keep in cache?” No good answer today.</p>"
@@ -4957,7 +4993,7 @@
       id: 422114
       private: false
       data:
-        author: &107
+        author: &108
           name: Tony-S
           url: https://twitter.com/RevoX90
           photo: https://webmention.io/avatar/pbs.twimg.com/22ae04569dcd72f7f71312c5464615f0efa3065e768f4bed598eda0b28899f84.jpg
@@ -4973,7 +5009,7 @@
         sentence_html: <a href="https://twitter.com/RevoX90">Tony-S</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *107
+    author: *108
     type: like
     content: <p><a href="https://twitter.com/RevoX90">Tony-S</a> favorited a tweet
       <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a></p>
@@ -4989,7 +5025,7 @@
       id: 429897
       private: false
       data:
-        author: &108
+        author: &109
           name: "Stéphanie Walter \U0001F98A"
           url: https://twitter.com/None
           photo: https://webmention.io/avatar/pbs.twimg.com/42a3dd5a95b5bc28010de2ebb20870721a30dd052dfddd88f2777b699e2ea8a4.jpg
@@ -5005,7 +5041,7 @@
         sentence_html: "<a href=\"https://twitter.com/None\">Stéphanie Walter \U0001F98A</a>
           favorited a tweet <a href=\"https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html\">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>"
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *108
+    author: *109
     type: like
     content: "<p><a href=\"https://twitter.com/None\">Stéphanie Walter \U0001F98A</a>
       favorited a tweet <a href=\"https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html\">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a></p>"
@@ -5047,7 +5083,7 @@
       id: 431736
       private: false
       data:
-        author: &109
+        author: &110
           name: Thomas Steiner
           url: https://blog.tomayac.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/05796e7c6ce8b47a935fae4489812faf9813783f9c99b9b9dbb54d2de4bb9770.jpg
@@ -5066,7 +5102,7 @@
           'How much data should you (pre-) load via a Service Worker? nicolas-hoizey.com/20...'
           linking to <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *109
+    author: *110
     type: link
     content: <p>How much data should you (pre-) load via a Service Worker? <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">nicolas-hoizey.com/2017/01/how-mu…</a>.
       Great questions raised in <a href="https://twitter.com/nhoizey">@nhoizey</a>’s
@@ -5083,7 +5119,7 @@
       id: 437318
       private: false
       data:
-        author: &110
+        author: &111
           name: antoinefauchié
           url: https://www.quaternum.net/
           photo: https://webmention.io/avatar/pbs.twimg.com/6d76f4edc760e9357524263c6c4c483de9272f3f3aa0b549e7f1d9caef3721f2.jpeg
@@ -5101,7 +5137,7 @@
           replied 'd'où mon ticket → github.com/adactio/resili… \U0001F914' to a tweet
           <a href=\"https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html\">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>"
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *110
+    author: *111
     type: reply
     content: "<p>d’où mon ticket → <a href=\"https://github.com/adactio/resilientwebdesign/issues/12\">github.com/adactio/resili…</a>
       \U0001F914</p>"
@@ -5117,7 +5153,7 @@
       id: 437319
       private: false
       data:
-        author: &111
+        author: &112
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -5135,7 +5171,7 @@
           replied 'Je me souviens, oui… \U0001F609 Il n’a malheureusement jamais réagit,
           ni à mes interpella...' to a tweet <a href=\"https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html\">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>"
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *111
+    author: *112
     type: reply
     content: "<p>Je me souviens, oui… \U0001F609\nIl n’a malheureusement jamais réagit,
       ni à mes interpellations sur Twitter à ce sujet…</p>"
@@ -5151,7 +5187,7 @@
       id: 447387
       private: false
       data:
-        author: &112
+        author: &113
           name: Max Böck
           url: https://mxb.at/
           photo: https://webmention.io/avatar/pbs.twimg.com/59fd2e44e41d79057dccd699173af08a7cb6e6579ff273345b5827ab207d355d.jpg
@@ -5169,7 +5205,7 @@
           in your default SW offline cache? @nhoizey has some good thoughts...' linking
           to <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html</a>
       target: https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html
-    author: *112
+    author: *113
     type: link
     content: '<p>what should go in your default SW offline cache? <a href="https://twitter.com/nhoizey">@nhoizey</a>
       has some good thoughts on this: <a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html">nicolas-hoizey.com/2017/01/how-mu…</a></p>'
@@ -5186,7 +5222,7 @@
       id: 415903
       private: false
       data:
-        author: &113
+        author: &114
           name: Jamstatic-fr
           url: https://jamstatic.fr/
           photo: https://webmention.io/avatar/pbs.twimg.com/d5c559970399d7c468b1293157f1e1efbe2e7d62d2769dfbdc5b52669fe14fd3.png
@@ -5205,7 +5241,7 @@
           des contenus similaires avec @jekyllrb nicolas-hoizey.com/2017/01/lister…...'
           linking to <a href="https://nicolas-hoizey.com/2017/01/lister-des-contenus-similaires-avec-jekyll.html">https://nicolas-hoizey.com/2017/01/lister-des-contenus-similaires-avec-jekyll.html</a>
       target: https://nicolas-hoizey.com/2017/01/lister-des-contenus-similaires-avec-jekyll.html
-    author: *113
+    author: *114
     type: link
     content: <p>Lister des contenus similaires avec <a href="https://twitter.com/jekyllrb">@jekyllrb</a>
       <a href="https://nicolas-hoizey.com/2017/01/lister-des-contenus-similaires-avec-jekyll.html">nicolas-hoizey.com/2017/01/lister…</a>
@@ -5222,7 +5258,7 @@
       id: 416016
       private: false
       data:
-        author: &114
+        author: &115
           name: Loïc Gerbaud
           url: https://twitter.com/chibani
           photo: https://webmention.io/avatar/pbs.twimg.com/aa76137de5bdbe83d24ea8ab031d474d703e2781e11e1e2f0ed68fe4844da6aa.jpg
@@ -5238,7 +5274,7 @@
         sentence_html: <a href="https://twitter.com/chibani">Loïc Gerbaud</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2017/01/lister-des-contenus-similaires-avec-jekyll.html">https://nicolas-hoizey.com/2017/01/lister-des-contenus-similaires-avec-jekyll.html</a>
       target: https://nicolas-hoizey.com/2017/01/lister-des-contenus-similaires-avec-jekyll.html
-    author: *114
+    author: *115
     type: like
     content: <p><a href="https://twitter.com/chibani">Loïc Gerbaud</a> favorited a
       tweet <a href="https://nicolas-hoizey.com/2017/01/lister-des-contenus-similaires-avec-jekyll.html">https://nicolas-hoizey.com/2017/01/lister-des-contenus-similaires-avec-jekyll.html</a></p>
@@ -5255,7 +5291,7 @@
       id: 418639
       private: false
       data:
-        author: &115
+        author: &116
           name: Loïc Gerbaud
           url: https://twitter.com/chibani
           photo: https://webmention.io/avatar/pbs.twimg.com/aa76137de5bdbe83d24ea8ab031d474d703e2781e11e1e2f0ed68fe4844da6aa.jpg
@@ -5271,7 +5307,7 @@
         sentence_html: <a href="https://twitter.com/chibani">Loïc Gerbaud</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2017/02/mettre-a-jour-les-plugins-jekyll-sans-danger.html">https://nicolas-hoizey.com/2017/02/mettre-a-jour-les-plugins-jekyll-sans-danger.html</a>
       target: https://nicolas-hoizey.com/2017/02/mettre-a-jour-les-plugins-jekyll-sans-danger.html
-    author: *115
+    author: *116
     type: like
     content: <p><a href="https://twitter.com/chibani">Loïc Gerbaud</a> favorited a
       tweet <a href="https://nicolas-hoizey.com/2017/02/mettre-a-jour-les-plugins-jekyll-sans-danger.html">https://nicolas-hoizey.com/2017/02/mettre-a-jour-les-plugins-jekyll-sans-danger.html</a></p>
@@ -5287,7 +5323,7 @@
       id: 448348
       private: false
       data:
-        author: &116
+        author: &117
           name: "Aaron Gustafson \U0001F680\U0001F578"
           url: https://www.aaron-gustafson.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/982af438a313e42cdc47ab686f752c0af983e70c87d4e6b505bf77741957c6f5.jpg
@@ -5302,7 +5338,7 @@
         sentence_html: "<a href=\"https://www.aaron-gustafson.com\">Aaron Gustafson
           \U0001F680\U0001F578</a> replied '' to a tweet <a href=\"https://nicolas-hoizey.com/2017/02/mettre-a-jour-les-plugins-jekyll-sans-danger.html\">https://nicolas-hoizey.com/2017/02/mettre-a-jour-les-plugins-jekyll-sans-danger.html</a>"
       target: https://nicolas-hoizey.com/2017/02/mettre-a-jour-les-plugins-jekyll-sans-danger.html
-    author: *116
+    author: *117
     type: reply
     content: "<p>Nice write-up!</p>"
   '892158343086825472':
@@ -5317,7 +5353,7 @@
       id: 448349
       private: false
       data:
-        author: &117
+        author: &118
           name: "Aaron Gustafson \U0001F680\U0001F578"
           url: https://www.aaron-gustafson.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/982af438a313e42cdc47ab686f752c0af983e70c87d4e6b505bf77741957c6f5.jpg
@@ -5334,7 +5370,7 @@
           \U0001F680\U0001F578</a> replied 'Here are some options too: stackoverflow.com/q/11159282/147…'
           to a tweet <a href=\"https://nicolas-hoizey.com/2017/02/mettre-a-jour-les-plugins-jekyll-sans-danger.html\">https://nicolas-hoizey.com/2017/02/mettre-a-jour-les-plugins-jekyll-sans-danger.html</a>"
       target: https://nicolas-hoizey.com/2017/02/mettre-a-jour-les-plugins-jekyll-sans-danger.html
-    author: *117
+    author: *118
     type: reply
     content: '<p>Here are some options too: <a href="https://stackoverflow.com/q/11159282/1475148">stackoverflow.com/q/11159282/147…</a></p>'
   '448350':
@@ -5349,7 +5385,7 @@
       id: 448350
       private: false
       data:
-        author: &118
+        author: &119
           name: "Aaron Gustafson \U0001F680 \U0001F578"
           url: https://twitter.com/AaronGustafson
           photo: https://webmention.io/avatar/pbs.twimg.com/982af438a313e42cdc47ab686f752c0af983e70c87d4e6b505bf77741957c6f5.jpg
@@ -5366,7 +5402,7 @@
         sentence_html: "<a href=\"https://twitter.com/AaronGustafson\">Aaron Gustafson
           \U0001F680 \U0001F578</a> favorited a tweet <a href=\"https://nicolas-hoizey.com/2017/02/mettre-a-jour-les-plugins-jekyll-sans-danger.html\">https://nicolas-hoizey.com/2017/02/mettre-a-jour-les-plugins-jekyll-sans-danger.html</a>"
       target: https://nicolas-hoizey.com/2017/02/mettre-a-jour-les-plugins-jekyll-sans-danger.html
-    author: *118
+    author: *119
     type: like
     content: "<p><a href=\"https://twitter.com/AaronGustafson\">Aaron Gustafson \U0001F680
       \U0001F578</a> favorited a tweet <a href=\"https://nicolas-hoizey.com/2017/02/mettre-a-jour-les-plugins-jekyll-sans-danger.html\">https://nicolas-hoizey.com/2017/02/mettre-a-jour-les-plugins-jekyll-sans-danger.html</a></p>"
@@ -5382,7 +5418,7 @@
       id: 448351
       private: false
       data:
-        author: &119
+        author: &120
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -5397,7 +5433,7 @@
         sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
           '' to a tweet <a href="https://nicolas-hoizey.com/2017/02/mettre-a-jour-les-plugins-jekyll-sans-danger.html">https://nicolas-hoizey.com/2017/02/mettre-a-jour-les-plugins-jekyll-sans-danger.html</a>
       target: https://nicolas-hoizey.com/2017/02/mettre-a-jour-les-plugins-jekyll-sans-danger.html
-    author: *119
+    author: *120
     type: reply
     content: "<p>Thanks!</p>"
 "/2017/02/99-red-balloons-played-with-red-balloons.html":
@@ -5413,7 +5449,7 @@
       id: 418969
       private: false
       data:
-        author: &120
+        author: &121
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -5430,7 +5466,7 @@
         sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
           '@hsablonniere merci pour la découverte… ;-)' to a tweet <a href="https://nicolas-hoizey.com/2017/02/99-red-balloons-played-with-red-balloons.html">https://nicolas-hoizey.com/2017/02/99-red-balloons-played-with-red-balloons.html</a>
       target: https://nicolas-hoizey.com/2017/02/99-red-balloons-played-with-red-balloons.html
-    author: *120
+    author: *121
     type: reply
     content: <p><a href="https://twitter.com/hsablonniere">@hsablonniere</a> merci
       pour la découverte… ;-)</p>
@@ -5446,7 +5482,7 @@
       id: 418968
       private: false
       data:
-        author: &121
+        author: &122
           name: Nicolas Hoffmann
           url: http://www.nicolas-hoffmann.net/
           photo: https://webmention.io/avatar/pbs.twimg.com/b6ccd529f1a26a908dddff90d90bef7b5eb6ca359e6d71d3bcca49c0e30b2688.jpg
@@ -5464,7 +5500,7 @@
           replied 'tu as la version revitaminée façon geek youtu.be/6wMeOSED5W8 (découvert
           sur Arte...' to a tweet <a href="https://nicolas-hoizey.com/2017/02/99-red-balloons-played-with-red-balloons.html">https://nicolas-hoizey.com/2017/02/99-red-balloons-played-with-red-balloons.html</a>
       target: https://nicolas-hoizey.com/2017/02/99-red-balloons-played-with-red-balloons.html
-    author: *121
+    author: *122
     type: reply
     content: <p>tu as la version revitaminée façon geek <a href="https://youtu.be/6wMeOSED5W8">youtu.be/6wMeOSED5W8</a>
       (découvert sur Arte, ça s’improvise pas)</p>
@@ -5480,7 +5516,7 @@
       id: 418971
       private: false
       data:
-        author: &122
+        author: &123
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -5495,7 +5531,7 @@
         sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
           '' to a tweet <a href="https://nicolas-hoizey.com/2017/02/99-red-balloons-played-with-red-balloons.html">https://nicolas-hoizey.com/2017/02/99-red-balloons-played-with-red-balloons.html</a>
       target: https://nicolas-hoizey.com/2017/02/99-red-balloons-played-with-red-balloons.html
-    author: *122
+    author: *123
     type: reply
     content: "<p>:-D</p>"
   '827539936702251009':
@@ -5510,7 +5546,7 @@
       id: 418973
       private: false
       data:
-        author: &123
+        author: &124
           name: "Hubert \U0001F60E SABLONNIÈRE"
           url: http://hsablonniere.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/3552fa3cd12e20e3430f8e0be3acf8c27ef93bbc315d9d8c284e6566b37014f7.png
@@ -5525,7 +5561,7 @@
         sentence_html: "<a href=\"http://hsablonniere.com/\">Hubert \U0001F60E SABLONNIÈRE</a>
           replied '' to a tweet <a href=\"https://nicolas-hoizey.com/2017/02/99-red-balloons-played-with-red-balloons.html\">https://nicolas-hoizey.com/2017/02/99-red-balloons-played-with-red-balloons.html</a>"
       target: https://nicolas-hoizey.com/2017/02/99-red-balloons-played-with-red-balloons.html
-    author: *123
+    author: *124
     type: reply
     content: "<p>You just killed my productivity!</p>"
   '827539889411469313':
@@ -5540,7 +5576,7 @@
       id: 418974
       private: false
       data:
-        author: &124
+        author: &125
           name: "Hubert \U0001F60E SABLONNIÈRE"
           url: http://hsablonniere.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/3552fa3cd12e20e3430f8e0be3acf8c27ef93bbc315d9d8c284e6566b37014f7.png
@@ -5556,7 +5592,7 @@
         sentence_html: "<a href=\"http://hsablonniere.com/\">Hubert \U0001F60E SABLONNIÈRE</a>
           retweeted a tweet <a href=\"https://nicolas-hoizey.com/2017/02/99-red-balloons-played-with-red-balloons.html\">https://nicolas-hoizey.com/2017/02/99-red-balloons-played-with-red-balloons.html</a>"
       target: https://nicolas-hoizey.com/2017/02/99-red-balloons-played-with-red-balloons.html
-    author: *124
+    author: *125
     type: repost
     content: "<p><a href=\"http://hsablonniere.com/\">Hubert \U0001F60E SABLONNIÈRE</a>
       retweeted a tweet <a href=\"https://nicolas-hoizey.com/2017/02/99-red-balloons-played-with-red-balloons.html\">https://nicolas-hoizey.com/2017/02/99-red-balloons-played-with-red-balloons.html</a></p>"
@@ -5573,7 +5609,7 @@
       id: 433137
       private: false
       data:
-        author: &125
+        author: &126
           name: "Joachim ᕙ \U0001F468\U0001F3FB ᕗ"
           url: https://twitter.com/joachimesque
           photo: https://webmention.io/avatar/pbs.twimg.com/02eb109c56d5f67b3d95c94ee45499c4750b5a19172c85f40872c63b25d2de7d.jpg
@@ -5589,7 +5625,7 @@
         sentence_html: "<a href=\"https://twitter.com/joachimesque\">Joachim ᕙ \U0001F468\U0001F3FB
           ᕗ</a> favorited a tweet <a href=\"https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html\">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a>"
       target: https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html
-    author: *125
+    author: *126
     type: like
     content: "<p><a href=\"https://twitter.com/joachimesque\">Joachim ᕙ \U0001F468\U0001F3FB
       ᕗ</a> favorited a tweet <a href=\"https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html\">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a></p>"
@@ -5605,7 +5641,7 @@
       id: 433138
       private: false
       data:
-        author: &126
+        author: &127
           name: Loïc Gerbaud
           url: https://twitter.com/chibani
           photo: https://webmention.io/avatar/pbs.twimg.com/aa76137de5bdbe83d24ea8ab031d474d703e2781e11e1e2f0ed68fe4844da6aa.jpg
@@ -5621,7 +5657,7 @@
         sentence_html: <a href="https://twitter.com/chibani">Loïc Gerbaud</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a>
       target: https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html
-    author: *126
+    author: *127
     type: like
     content: <p><a href="https://twitter.com/chibani">Loïc Gerbaud</a> favorited a
       tweet <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a></p>
@@ -5637,7 +5673,7 @@
       id: 433143
       private: false
       data:
-        author: &127
+        author: &128
           name: Axel Etcheverry
           url: https://github.com/euskadi31
           photo: https://webmention.io/avatar/pbs.twimg.com/8efe7bdffddea1910bc1dc266bc13cf1c759633aad993390bfd6a32ea2bc809b.jpg
@@ -5653,7 +5689,7 @@
         sentence_html: <a href="https://github.com/euskadi31">Axel Etcheverry</a>
           retweeted a tweet <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a>
       target: https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html
-    author: *127
+    author: *128
     type: repost
     content: <p><a href="https://github.com/euskadi31">Axel Etcheverry</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a></p>
@@ -5669,7 +5705,7 @@
       id: 433144
       private: false
       data:
-        author: &128
+        author: &129
           name: Axel Etcheverry
           url: https://twitter.com/euskadi31
           photo: https://webmention.io/avatar/pbs.twimg.com/8efe7bdffddea1910bc1dc266bc13cf1c759633aad993390bfd6a32ea2bc809b.jpg
@@ -5685,7 +5721,7 @@
         sentence_html: <a href="https://twitter.com/euskadi31">Axel Etcheverry</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a>
       target: https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html
-    author: *128
+    author: *129
     type: like
     content: <p><a href="https://twitter.com/euskadi31">Axel Etcheverry</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a></p>
@@ -5701,7 +5737,7 @@
       id: 433181
       private: false
       data:
-        author: &129
+        author: &130
           name: Damien List
           url: https://twitter.com/dali_dalum
           photo: https://webmention.io/avatar/pbs.twimg.com/68de3b6472e98e603a8f49557b2b1021dfa2ab7ea90d506411292b987091afb7.jpg
@@ -5717,7 +5753,7 @@
         sentence_html: <a href="https://twitter.com/dali_dalum">Damien List</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a>
       target: https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html
-    author: *129
+    author: *130
     type: like
     content: <p><a href="https://twitter.com/dali_dalum">Damien List</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a></p>
@@ -5733,7 +5769,7 @@
       id: 433197
       private: false
       data:
-        author: &130
+        author: &131
           name: Olivier Portier
           url: https://twitter.com/ouliber
           photo: https://webmention.io/avatar/pbs.twimg.com/23cd437b0b5a837e21c7d3ac344c2d878f207113e93b03f65be3ae90ac9382f0.jpg
@@ -5749,7 +5785,7 @@
         sentence_html: <a href="https://twitter.com/ouliber">Olivier Portier</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a>
       target: https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html
-    author: *130
+    author: *131
     type: like
     content: <p><a href="https://twitter.com/ouliber">Olivier Portier</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a></p>
@@ -5765,7 +5801,7 @@
       id: 444763
       private: false
       data:
-        author: &131
+        author: &132
           name: Damien Roué
           url: http://phototrend.fr/
           photo: https://webmention.io/avatar/pbs.twimg.com/508be2ba70dc7c6b11ead2fda710ca356e7574a6bfbf5ebb9808da2330cd75d4.jpg
@@ -5784,7 +5820,7 @@
           l'installation des applications sur un nouveau Mac, merci @nhoizey b...'
           linking to <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a>
       target: https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html
-    author: *131
+    author: *132
     type: link
     content: |-
       <p>Automatiser l’installation des applications sur un nouveau Mac, merci <a href="https://twitter.com/nhoizey">@nhoizey</a> <a href="http://buff.ly/2tdewb8">buff.ly/2tdewb8</a>
@@ -5801,7 +5837,7 @@
       id: 445002
       private: false
       data:
-        author: &132
+        author: &133
           name: Hervé Le Dantec
           url: https://www.facebook.com/10209334389585654
           photo: https://webmention.io/avatar/graph.facebook.com/cde3f26bb32f6c4e66f0821ff8bd4fbd1b09ca2c20b1b128d2271d435057f4de.jpg
@@ -5817,7 +5853,7 @@
         sentence_html: <a href="https://www.facebook.com/10209334389585654">Hervé
           Le Dantec</a> liked a post <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a>
       target: https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html
-    author: *132
+    author: *133
     type: like
     content: <p><a href="https://www.facebook.com/10209334389585654">Hervé Le Dantec</a>
       liked a post <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a></p>
@@ -5833,7 +5869,7 @@
       id: 445003
       private: false
       data:
-        author: &133
+        author: &134
           name: Alexis Poncet
           url: https://www.facebook.com/10154797553532305
           photo: https://webmention.io/avatar/graph.facebook.com/33a4174494a8066654c63f96661b89178f73147a7e989803292f1fec2343073b.jpg
@@ -5849,7 +5885,7 @@
         sentence_html: <a href="https://www.facebook.com/10154797553532305">Alexis
           Poncet</a> liked a post <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a>
       target: https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html
-    author: *133
+    author: *134
     type: like
     content: <p><a href="https://www.facebook.com/10154797553532305">Alexis Poncet</a>
       liked a post <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a></p>
@@ -5865,7 +5901,7 @@
       id: 445005
       private: false
       data:
-        author: &134
+        author: &135
           name: Nicolas Dory
           url: https://www.facebook.com/10155091198334570
           photo: https://webmention.io/avatar/graph.facebook.com/8eb05bf04ee78cf87b56789f5f70e36c7d217794a16b55fa5a485fef93aec66f.jpg
@@ -5881,7 +5917,7 @@
         sentence_html: <a href="https://www.facebook.com/10155091198334570">Nicolas
           Dory</a> liked a post <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a>
       target: https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html
-    author: *134
+    author: *135
     type: like
     content: <p><a href="https://www.facebook.com/10155091198334570">Nicolas Dory</a>
       liked a post <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a></p>
@@ -5897,7 +5933,7 @@
       id: 445004
       private: false
       data:
-        author: &135
+        author: &136
           name: Minh Vidart
           url: https://www.facebook.com/583272178529245
           photo: https://webmention.io/avatar/graph.facebook.com/5f5ccac9cdeb2042a2c2c329509260b5cebe6d917b8d55d0db617bfe34717e1f.jpg
@@ -5913,7 +5949,7 @@
         sentence_html: <a href="https://www.facebook.com/583272178529245">Minh Vidart</a>
           liked a post <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a>
       target: https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html
-    author: *135
+    author: *136
     type: like
     content: <p><a href="https://www.facebook.com/583272178529245">Minh Vidart</a>
       liked a post <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a></p>
@@ -5929,7 +5965,7 @@
       id: 445006
       private: false
       data:
-        author: &136
+        author: &137
           name: Frédéric Hiard
           url: https://www.facebook.com/10155682956729729
           photo: https://webmention.io/avatar/graph.facebook.com/48a413bdfc5f368a1a403872fd4c967bc86eb433a62d99db30e31e711bb337ac.jpg
@@ -5945,7 +5981,7 @@
         sentence_html: <a href="https://www.facebook.com/10155682956729729">Frédéric
           Hiard</a> liked a post <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a>
       target: https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html
-    author: *136
+    author: *137
     type: like
     content: <p><a href="https://www.facebook.com/10155682956729729">Frédéric Hiard</a>
       liked a post <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a></p>
@@ -5961,7 +5997,7 @@
       id: 445007
       private: false
       data:
-        author: &137
+        author: &138
           name: Jacques Pyrat
           url: https://www.facebook.com/1453612884679114
           photo: https://webmention.io/avatar/graph.facebook.com/91b2b5eb7457c29d596e442cb8433828edce0b92b9b92541ced28a98f88824b5.jpg
@@ -5977,7 +6013,7 @@
         sentence_html: <a href="https://www.facebook.com/1453612884679114">Jacques
           Pyrat</a> liked a post <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a>
       target: https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html
-    author: *137
+    author: *138
     type: like
     content: <p><a href="https://www.facebook.com/1453612884679114">Jacques Pyrat</a>
       liked a post <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a></p>
@@ -5993,7 +6029,7 @@
       id: 446870
       private: false
       data:
-        author: &138
+        author: &139
           name: Clément Delmas
           url: http://www.clementdelmas.fr/
           photo: https://webmention.io/avatar/pbs.twimg.com/f16fcb423b6904637b59a684bee472348767137eb0c24ba0df779d0c88da5cb5.jpg
@@ -6008,7 +6044,7 @@
         sentence_html: <a href="http://www.clementdelmas.fr/">Clément Delmas</a> retweeted
           a tweet <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a>
       target: https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html
-    author: *138
+    author: *139
     type: repost
     content: <p><a href="http://www.clementdelmas.fr/">Clément Delmas</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a></p>
@@ -6024,7 +6060,7 @@
       id: 446871
       private: false
       data:
-        author: &139
+        author: &140
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -6039,7 +6075,7 @@
         sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
           '' to a tweet <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a>
       target: https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html
-    author: *139
+    author: *140
     type: reply
     content: "<p>De rien !</p>"
   '889953885112201216':
@@ -6054,7 +6090,7 @@
       id: 446872
       private: false
       data:
-        author: &140
+        author: &141
           name: Clément Delmas
           url: http://www.clementdelmas.fr/
           photo: https://webmention.io/avatar/pbs.twimg.com/f16fcb423b6904637b59a684bee472348767137eb0c24ba0df779d0c88da5cb5.jpg
@@ -6069,7 +6105,7 @@
         sentence_html: <a href="http://www.clementdelmas.fr/">Clément Delmas</a> replied
           '' to a tweet <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a>
       target: https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html
-    author: *140
+    author: *141
     type: reply
     content: "<p>Oh yeah. Ca déchire ! Merci beaucoup ;)</p>"
   '446873':
@@ -6084,7 +6120,7 @@
       id: 446873
       private: false
       data:
-        author: &141
+        author: &142
           name: Clément Delmas
           url: https://twitter.com/clem
           photo: https://webmention.io/avatar/pbs.twimg.com/f16fcb423b6904637b59a684bee472348767137eb0c24ba0df779d0c88da5cb5.jpg
@@ -6100,7 +6136,7 @@
         sentence_html: <a href="https://twitter.com/clem">Clément Delmas</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a>
       target: https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html
-    author: *141
+    author: *142
     type: like
     content: <p><a href="https://twitter.com/clem">Clément Delmas</a> favorited a
       tweet <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a></p>
@@ -6116,7 +6152,7 @@
       id: 446931
       private: false
       data:
-        author: &142
+        author: &143
           name: Christophe Vergne
           url: https://twitter.com/cvergne
           photo: https://webmention.io/avatar/pbs.twimg.com/da8e3038e8eefa9dd6dd7617bd75ed0d4b1818e03956721c003248c9c2f8cb71.jpg
@@ -6132,7 +6168,7 @@
         sentence_html: <a href="https://twitter.com/cvergne">Christophe Vergne</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a>
       target: https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html
-    author: *142
+    author: *143
     type: like
     content: <p><a href="https://twitter.com/cvergne">Christophe Vergne</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html">https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html</a></p>
@@ -6149,7 +6185,7 @@
       id: 447337
       private: false
       data:
-        author: &143
+        author: &144
           name: Aaron Parecki
           url: https://aaronparecki.com/
           photo: https://webmention.io/avatar/aaronparecki.com/2b8e1668dcd9cfa6a170b3724df740695f73a15c2a825962fd0a0967ec11ecdc.jpeg
@@ -6164,7 +6200,7 @@
         sentence_html: <a href="https://aaronparecki.com/">Aaron Parecki</a> bookmarked
           a post <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *143
+    author: *144
     type: bookmark
     content: <p><a href="https://aaronparecki.com/">Aaron Parecki</a> bookmarked a
       post <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
@@ -6180,7 +6216,7 @@
       id: 447341
       private: false
       data:
-        author: &144
+        author: &145
           name: Marty McGuire
           url: https://martymcgui.re/
           photo: https://webmention.io/avatar/martymcgui.re/4f9fac2b9e3ae62998c557418143efe288bca8170a119921a9c6bfeb0a1263a2.jpeg
@@ -6195,7 +6231,7 @@
         sentence_html: <a href="https://martymcgui.re/">Marty McGuire</a> liked a
           post <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *144
+    author: *145
     type: like
     content: <p><a href="https://martymcgui.re/">Marty McGuire</a> liked a post <a
       href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
@@ -6211,7 +6247,7 @@
       id: 447342
       private: false
       data:
-        author: &145
+        author: &146
           name: Bob Volte
           url: https://twitter.com/Uxlco0
           photo: https://webmention.io/avatar/pbs.twimg.com/4df3c5b7d56c2e332e972354c57e0ace330784caefa9896039c4850c454cf9b4.jpg
@@ -6227,7 +6263,7 @@
         sentence_html: <a href="https://twitter.com/Uxlco0">Bob Volte</a> retweeted
           a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *145
+    author: *146
     type: repost
     content: <p><a href="https://twitter.com/Uxlco0">Bob Volte</a> retweeted a tweet
       <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
@@ -6243,7 +6279,7 @@
       id: 447343
       private: false
       data:
-        author: &146
+        author: &147
           name: Tony
           url: https://twitter.com/TonyTrancard
           photo: https://webmention.io/avatar/pbs.twimg.com/5ae515f75d0c6dc53e461390d7c6688f865aa728ec150e19f03b770165be537b.jpg
@@ -6259,7 +6295,7 @@
         sentence_html: <a href="https://twitter.com/TonyTrancard">Tony</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *146
+    author: *147
     type: like
     content: <p><a href="https://twitter.com/TonyTrancard">Tony</a> favorited a tweet
       <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
@@ -6275,7 +6311,7 @@
       id: 447344
       private: false
       data:
-        author: &147
+        author: &148
           name: Nicolas Hoffmann
           url: https://twitter.com/Nico3333fr
           photo: https://webmention.io/avatar/pbs.twimg.com/b6ccd529f1a26a908dddff90d90bef7b5eb6ca359e6d71d3bcca49c0e30b2688.jpg
@@ -6291,7 +6327,7 @@
         sentence_html: <a href="https://twitter.com/Nico3333fr">Nicolas Hoffmann</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *147
+    author: *148
     type: like
     content: <p><a href="https://twitter.com/Nico3333fr">Nicolas Hoffmann</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
@@ -6307,7 +6343,7 @@
       id: 447345
       private: false
       data:
-        author: &148
+        author: &149
           name: Nicolas Hoffmann
           url: https://www.nicolas-hoffmann.net/
           photo: https://webmention.io/avatar/pbs.twimg.com/b6ccd529f1a26a908dddff90d90bef7b5eb6ca359e6d71d3bcca49c0e30b2688.jpg
@@ -6323,7 +6359,7 @@
         sentence_html: <a href="https://www.nicolas-hoffmann.net/">Nicolas Hoffmann</a>
           retweeted a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *148
+    author: *149
     type: repost
     content: <p><a href="https://www.nicolas-hoffmann.net/">Nicolas Hoffmann</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
@@ -6339,7 +6375,7 @@
       id: 447348
       private: false
       data:
-        author: &149
+        author: &150
           name: Eric Portis
           url: http://ericportis.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/558b4c45b7bd5a1107c170e4bb77e2f8cd7f59bf7eda42756b5a7b93c24753a2.png
@@ -6357,7 +6393,7 @@
           useful, when you figure out what you want to do with avatars: cloudinar...''
           to a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>'
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *149
+    author: *150
     type: reply
     content: '<p>Possibly useful, when you figure out what you want to do with avatars:
       <a href="http://cloudinary.com/documentation/twitter_profile_pictures">cloudinary.com/documentation/…</a></p>'
@@ -6373,7 +6409,7 @@
       id: 447349
       private: false
       data:
-        author: &150
+        author: &151
           name: Eric Portis
           url: https://twitter.com/etportis
           photo: https://webmention.io/avatar/pbs.twimg.com/558b4c45b7bd5a1107c170e4bb77e2f8cd7f59bf7eda42756b5a7b93c24753a2.png
@@ -6389,7 +6425,7 @@
         sentence_html: <a href="https://twitter.com/etportis">Eric Portis</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *150
+    author: *151
     type: like
     content: <p><a href="https://twitter.com/etportis">Eric Portis</a> favorited a
       tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
@@ -6405,7 +6441,7 @@
       id: 447353
       private: false
       data:
-        author: &151
+        author: &152
           name: jalbertbowdenii
           url: https://twitter.com/jalbertbowdenii
           photo: https://webmention.io/avatar/pbs.twimg.com/d132c799f33338f6422f72693302b049d1bae09fa70ab2f484e13d38a71c4065.jpg
@@ -6421,7 +6457,7 @@
         sentence_html: <a href="https://twitter.com/jalbertbowdenii">jalbertbowdenii</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *151
+    author: *152
     type: like
     content: <p><a href="https://twitter.com/jalbertbowdenii">jalbertbowdenii</a>
       favorited a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
@@ -6437,7 +6473,7 @@
       id: 447354
       private: false
       data:
-        author: &152
+        author: &153
           name: Joschi Kuphal 吉
           url: https://twitter.com/jkphl
           photo: https://webmention.io/avatar/pbs.twimg.com/4eccf43cd9087cfd9b4aaa39eec22079d5c9ae1667c72156790fb83e8e824c54.jpg
@@ -6453,7 +6489,7 @@
         sentence_html: <a href="https://twitter.com/jkphl">Joschi Kuphal 吉</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *152
+    author: *153
     type: like
     content: <p><a href="https://twitter.com/jkphl">Joschi Kuphal 吉</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
@@ -6469,7 +6505,7 @@
       id: 447355
       private: false
       data:
-        author: &153
+        author: &154
           name: "Aaron Gustafson \U0001F680\U0001F578"
           url: https://www.aaron-gustafson.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/982af438a313e42cdc47ab686f752c0af983e70c87d4e6b505bf77741957c6f5.jpg
@@ -6485,7 +6521,7 @@
         sentence_html: "<a href=\"https://www.aaron-gustafson.com\">Aaron Gustafson
           \U0001F680\U0001F578</a> retweeted a tweet <a href=\"https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html\">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>"
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *153
+    author: *154
     type: repost
     content: "<p><a href=\"https://www.aaron-gustafson.com\">Aaron Gustafson \U0001F680\U0001F578</a>
       retweeted a tweet <a href=\"https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html\">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>"
@@ -6501,7 +6537,7 @@
       id: 447356
       private: false
       data:
-        author: &154
+        author: &155
           name: "Aaron Gustafson \U0001F680\U0001F578"
           url: https://www.aaron-gustafson.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/982af438a313e42cdc47ab686f752c0af983e70c87d4e6b505bf77741957c6f5.jpg
@@ -6520,7 +6556,7 @@
           \U0001F680\U0001F578</a> replied 'I'm heading there too. Thanks for having
           the way!' to a tweet that linked to <a href=\"https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html\">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>"
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *154
+    author: *155
     type: reply
     content: |-
       <p>I’m heading there too. Thanks for having the way!
@@ -6537,7 +6573,7 @@
       id: 447357
       private: false
       data:
-        author: &155
+        author: &156
           name: Corey Megown
           url: https://twitter.com/cmegown
           photo: https://webmention.io/avatar/pbs.twimg.com/fc7185a88c6f5b701224c2947a86a1fb5dc789cb137f05520b02cbcc33750b72.jpg
@@ -6553,7 +6589,7 @@
         sentence_html: <a href="https://twitter.com/cmegown">Corey Megown</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *155
+    author: *156
     type: like
     content: <p><a href="https://twitter.com/cmegown">Corey Megown</a> favorited a
       tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
@@ -6569,7 +6605,7 @@
       id: 447358
       private: false
       data:
-        author: &156
+        author: &157
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -6587,7 +6623,7 @@
         sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
           'Thanks a lot to you!' to a tweet that linked to <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *156
+    author: *157
     type: reply
     content: |-
       <p>Thanks a lot to you!
@@ -6604,7 +6640,7 @@
       id: 447359
       private: false
       data:
-        author: &157
+        author: &158
           name: Johan Bleuzen
           url: https://www.johanbleuzen.fr/
           photo: https://webmention.io/avatar/pbs.twimg.com/8100c3f9eebd15ef927d0cd2a26c22495e387c74691de4431ab1b59d792ef937.jpg
@@ -6620,7 +6656,7 @@
         sentence_html: <a href="https://www.johanbleuzen.fr">Johan Bleuzen</a> retweeted
           a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *157
+    author: *158
     type: repost
     content: <p><a href="https://www.johanbleuzen.fr">Johan Bleuzen</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
@@ -6636,7 +6672,7 @@
       id: 447360
       private: false
       data:
-        author: &158
+        author: &159
           name: "Aaron Gustafson \U0001F680 \U0001F578"
           url: https://twitter.com/AaronGustafson
           photo: https://webmention.io/avatar/pbs.twimg.com/982af438a313e42cdc47ab686f752c0af983e70c87d4e6b505bf77741957c6f5.jpg
@@ -6653,7 +6689,7 @@
         sentence_html: "<a href=\"https://twitter.com/AaronGustafson\">Aaron Gustafson
           \U0001F680 \U0001F578</a> favorited a tweet <a href=\"https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html\">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>"
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *158
+    author: *159
     type: like
     content: "<p><a href=\"https://twitter.com/AaronGustafson\">Aaron Gustafson \U0001F680
       \U0001F578</a> favorited a tweet <a href=\"https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html\">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>"
@@ -6669,7 +6705,7 @@
       id: 447371
       private: false
       data:
-        author: &159
+        author: &160
           name: Florian Brinkmann
           url: https://twitter.com/FloBrinkmann
           photo: https://webmention.io/avatar/pbs.twimg.com/71e01cc87f5c0e91c861c6bac307666d480aaf5dc02049055892c454ef73cb0c.jpg
@@ -6685,7 +6721,7 @@
         sentence_html: <a href="https://twitter.com/FloBrinkmann">Florian Brinkmann</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *159
+    author: *160
     type: like
     content: <p><a href="https://twitter.com/FloBrinkmann">Florian Brinkmann</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
@@ -6701,7 +6737,7 @@
       id: 447372
       private: false
       data:
-        author: &160
+        author: &161
           name: Eric Newport
           url: http://kethinov.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/906f705bd7f72b69d43e93c76f5cc189e90e7779ecbb631a0d5bb5711b338c5b.jpg
@@ -6719,7 +6755,7 @@
           would you say this compares to portier (portier.github.io)? i've been thinki...'
           to a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *160
+    author: *161
     type: reply
     content: <p>how would you say this compares to portier (<a href="https://portier.github.io">portier.github.io</a>)?
       i’ve been thinking of building a comments system using that</p>
@@ -6735,7 +6771,7 @@
       id: 447373
       private: false
       data:
-        author: &161
+        author: &162
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -6752,7 +6788,7 @@
           ''Portier would more be an equivalent of IndieAuth: indieweb.org/IndieAuth''
           to a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>'
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *161
+    author: *162
     type: reply
     content: '<p>Portier would more be an equivalent of IndieAuth: <a href="https://indieweb.org/IndieAuth">indieweb.org/IndieAuth</a></p>'
   '447382':
@@ -6767,7 +6803,7 @@
       id: 447382
       private: false
       data:
-        author: &162
+        author: &163
           name: Loïc Gerbaud
           url: https://twitter.com/chibani
           photo: https://webmention.io/avatar/pbs.twimg.com/aa76137de5bdbe83d24ea8ab031d474d703e2781e11e1e2f0ed68fe4844da6aa.jpg
@@ -6783,7 +6819,7 @@
         sentence_html: <a href="https://twitter.com/chibani">Loïc Gerbaud</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *162
+    author: *163
     type: like
     content: <p><a href="https://twitter.com/chibani">Loïc Gerbaud</a> favorited a
       tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
@@ -6799,7 +6835,7 @@
       id: 447397
       private: false
       data:
-        author: &163
+        author: &164
           name: Cyrille Jesmo Drazik
           url: http://jesmodrazik.fr/
           photo: https://webmention.io/avatar/pbs.twimg.com/c4306961027142eb61980df80968359b6c58ca20ec0c6cb1a721a8aef370a07b.jpg
@@ -6815,7 +6851,7 @@
         sentence_html: <a href="http://jesmodrazik.fr">Cyrille Jesmo Drazik</a> retweeted
           a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *163
+    author: *164
     type: repost
     content: <p><a href="http://jesmodrazik.fr">Cyrille Jesmo Drazik</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
@@ -6831,7 +6867,7 @@
       id: 447413
       private: false
       data:
-        author: &164
+        author: &165
           name: Heather
           url: https://twitter.com/_hmig
           photo: https://webmention.io/avatar/pbs.twimg.com/99f7fb8e8829c6bff24a26ff2553101d30e501b20603fcc4ca18d8073d77413f.png
@@ -6847,7 +6883,7 @@
         sentence_html: <a href="https://twitter.com/_hmig">Heather</a> favorited a
           tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *164
+    author: *165
     type: like
     content: <p><a href="https://twitter.com/_hmig">Heather</a> favorited a tweet
       <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
@@ -6863,7 +6899,7 @@
       id: 447417
       private: false
       data:
-        author: &165
+        author: &166
           name: eli
           url: https://eli.li/
           photo: https://webmention.io/avatar/eli.li/dc55f08a8eebc95520d45181c92a36da04f593863fe55bce7ff265b600a7ad7e.jpg
@@ -6877,7 +6913,7 @@
         sentence: eli liked a post https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
         sentence_html: <a href="https://eli.li">eli</a> liked a post <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *165
+    author: *166
     type: like
     content: <p><a href="https://eli.li">eli</a> liked a post <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
   '890788061856051200':
@@ -6892,7 +6928,7 @@
       id: 447447
       private: false
       data:
-        author: &166
+        author: &167
           name: Boris
           url: https://borisschapira.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/111727920342a748bf7ef4514a5f5be642342eb00eb2be1e1c44c98f20892f47.jpg
@@ -6908,7 +6944,7 @@
         sentence_html: <a href="https://borisschapira.com">Boris</a> retweeted a tweet
           <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *166
+    author: *167
     type: repost
     content: <p><a href="https://borisschapira.com">Boris</a> retweeted a tweet <a
       href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
@@ -6924,7 +6960,7 @@
       id: 447461
       private: false
       data:
-        author: &167
+        author: &168
           name: Damien Alexandre
           url: https://twitter.com/damienalexandre
           photo: https://webmention.io/avatar/pbs.twimg.com/542158651473dbab4d143bfa2f07328d22bc6bb15b2ee8e370f22db5acaafd83.png
@@ -6940,7 +6976,7 @@
         sentence_html: <a href="https://twitter.com/damienalexandre">Damien Alexandre</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *167
+    author: *168
     type: like
     content: <p><a href="https://twitter.com/damienalexandre">Damien Alexandre</a>
       favorited a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
@@ -6956,7 +6992,7 @@
       id: 447467
       private: false
       data:
-        author: &168
+        author: &169
           name: "Hubert \U0001F60E SABLONNIÈRE"
           url: https://twitter.com/hsablonniere
           photo: https://webmention.io/avatar/pbs.twimg.com/b98be22654fa0b522890000c8e7ce8a6a4385d79a7f280ddacc56b7c2915d8d6.jpg
@@ -6973,7 +7009,7 @@
         sentence_html: "<a href=\"https://twitter.com/hsablonniere\">Hubert \U0001F60E
           SABLONNIÈRE</a> favorited a tweet <a href=\"https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html\">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>"
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *168
+    author: *169
     type: like
     content: "<p><a href=\"https://twitter.com/hsablonniere\">Hubert \U0001F60E SABLONNIÈRE</a>
       favorited a tweet <a href=\"https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html\">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>"
@@ -6989,7 +7025,7 @@
       id: 447481
       private: false
       data:
-        author: &169
+        author: &170
           name: Juan Hernando
           url: https://ciudadanob.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/1755724eb7a5a7d47d40385d280d8548d0c3d4bbb3600e87d5da93d373135629.jpg
@@ -7008,7 +7044,7 @@
           cada vez hablemos más de Webmention → So long Disqus, hello Webmention nic...'
           linking to <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *169
+    author: *170
     type: link
     content: <p>Ojalá cada vez hablemos más de Webmention → So long Disqus, hello
       Webmention <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">nicolas-hoizey.com/2017/07/so-lon…</a>
@@ -7025,7 +7061,7 @@
       id: 447496
       private: false
       data:
-        author: &170
+        author: &171
           name: Brendan Abolivier
           url: https://keybase.io/brenabolivier
           photo: https://webmention.io/avatar/pbs.twimg.com/f3bac9e35fbd9e149e92c41a934b8d7a19281dec6219d409c11cbbfb3c82360f.jpg
@@ -7041,7 +7077,7 @@
         sentence_html: <a href="https://keybase.io/brenabolivier">Brendan Abolivier</a>
           retweeted a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *170
+    author: *171
     type: repost
     content: <p><a href="https://keybase.io/brenabolivier">Brendan Abolivier</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
@@ -7057,7 +7093,7 @@
       id: 447497
       private: false
       data:
-        author: &171
+        author: &172
           name: M4D'z
           url: http://m4dz.net/
           photo: https://webmention.io/avatar/pbs.twimg.com/14098b7296800ed56686af4e26d3a94ab6cae8d7152106d8776d281b6033d0bb.jpg
@@ -7072,7 +7108,7 @@
         sentence: M4D'z retweeted a tweet https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
         sentence_html: <a href="http://m4dz.net">M4D'z</a> retweeted a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *171
+    author: *172
     type: repost
     content: <p><a href="http://m4dz.net">M4D’z</a> retweeted a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
   '890984454398906368':
@@ -7087,7 +7123,7 @@
       id: 447614
       private: false
       data:
-        author: &172
+        author: &173
           name: Christophe Ducamp
           url: https://christopheducamp.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/1fadf46075c7552dd5552ba5e6185d47f8947ab1fe8da688fc4aa359e0401158.png
@@ -7103,7 +7139,7 @@
         sentence_html: <a href="https://christopheducamp.com">Christophe Ducamp</a>
           retweeted a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *172
+    author: *173
     type: repost
     content: <p><a href="https://christopheducamp.com">Christophe Ducamp</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
@@ -7119,7 +7155,7 @@
       id: 447616
       private: false
       data:
-        author: &173
+        author: &174
           name: Christophe Ducamp
           url: https://twitter.com/xtof_party
           photo: https://webmention.io/avatar/pbs.twimg.com/1fadf46075c7552dd5552ba5e6185d47f8947ab1fe8da688fc4aa359e0401158.png
@@ -7135,7 +7171,7 @@
         sentence_html: <a href="https://twitter.com/xtof_party">Christophe Ducamp</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *173
+    author: *174
     type: like
     content: <p><a href="https://twitter.com/xtof_party">Christophe Ducamp</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
@@ -7151,7 +7187,7 @@
       id: 447643
       private: false
       data:
-        author: &174
+        author: &175
           name: Scop La Péniche
           url: https://twitter.com/ScopPeniche
           photo: https://webmention.io/avatar/pbs.twimg.com/7de7a994810e8c384d1f1fab2c9ad3483c4589a1dc45a32c16818e5c14af0e08.png
@@ -7167,7 +7203,7 @@
         sentence_html: <a href="https://twitter.com/ScopPeniche">Scop La Péniche</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *174
+    author: *175
     type: like
     content: <p><a href="https://twitter.com/ScopPeniche">Scop La Péniche</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
@@ -7183,7 +7219,7 @@
       id: 447695
       private: false
       data:
-        author: &175
+        author: &176
           name: "David Leuliette \U0001F680"
           url: https://twitter.com/_flexbox
           photo: https://webmention.io/avatar/pbs.twimg.com/360c6ccc34af455012f78024b6cc69af9dd8c9fba64c3be71e1f4d6317e6b85a.jpg
@@ -7199,7 +7235,7 @@
         sentence_html: "<a href=\"https://twitter.com/_flexbox\">David Leuliette \U0001F680</a>
           favorited a tweet <a href=\"https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html\">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>"
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *175
+    author: *176
     type: like
     content: "<p><a href=\"https://twitter.com/_flexbox\">David Leuliette \U0001F680</a>
       favorited a tweet <a href=\"https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html\">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>"
@@ -7215,7 +7251,7 @@
       id: 447785
       private: false
       data:
-        author: &176
+        author: &177
           name: Michael Rose
           url: https://twitter.com/mmistakes
           photo: https://webmention.io/avatar/pbs.twimg.com/13a19ead86e0507988a7a37cd62711edce833b37f25bf55cf5f7f5a60d612df0.jpg
@@ -7231,7 +7267,7 @@
         sentence_html: <a href="https://twitter.com/mmistakes">Michael Rose</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *176
+    author: *177
     type: like
     content: <p><a href="https://twitter.com/mmistakes">Michael Rose</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
@@ -7273,7 +7309,7 @@
       id: 447873
       private: false
       data:
-        author: &177
+        author: &178
           name: Thomas Parisot
           url: https://twitter.com/oncletom
           photo: https://webmention.io/avatar/pbs.twimg.com/bcf947581c5499550ccb82f9de699372da894e668e534be668ba0d180e941287.jpg
@@ -7289,7 +7325,7 @@
         sentence_html: <a href="https://twitter.com/oncletom">Thomas Parisot</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *177
+    author: *178
     type: like
     content: <p><a href="https://twitter.com/oncletom">Thomas Parisot</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
@@ -7305,7 +7341,7 @@
       id: 447874
       private: false
       data:
-        author: &178
+        author: &179
           name: Thomas Parisot
           url: https://oncletom.io/
           photo: https://webmention.io/avatar/pbs.twimg.com/bcf947581c5499550ccb82f9de699372da894e668e534be668ba0d180e941287.jpg
@@ -7320,7 +7356,7 @@
         sentence_html: <a href="https://oncletom.io">Thomas Parisot</a> replied ''
           to a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *178
+    author: *179
     type: reply
     content: "<p>Inspiring thanks. Will have a go at it too \U0001F642</p>"
   '891501646705860608':
@@ -7335,7 +7371,7 @@
       id: 447987
       private: false
       data:
-        author: &179
+        author: &180
           name: Bill Bennett
           url: https://billbennett.co.nz/
           photo: https://webmention.io/avatar/pbs.twimg.com/fe0c4b18639de9fe3c720bc7ba39430a58a3ef03c27998975988f75f6c10bb54.jpg
@@ -7354,7 +7390,7 @@
           'So long Disqus, hello Webmention Along with a reminder to look at updating
           web m...' linking to <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *179
+    author: *180
     type: link
     content: |-
       <p>So long Disqus, hello Webmention
@@ -7371,7 +7407,7 @@
       id: 453279
       private: false
       data:
-        author: &180
+        author: &181
           name: Anthonny Quérouil
           url: http://anthonnyquerouil.fr
           photo: https://webmention.io/avatar/pbs.twimg.com/4f65fa7ee54ee3d63a61c28498eed90e3cfb08f11edcbe27c2ad623eb594b33b.jpg
@@ -7390,7 +7426,7 @@
           replied 'Thank you \U0001F44D maybe i could try it for @HubPressIO to offer
           an alternative to Disq...' to a tweet that linked to <a href=\"https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html\">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>"
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *180
+    author: *181
     type: reply
     content: "<p>Thank you \U0001F44D maybe i could try it for <a href=\"https://twitter.com/HubPressIO\">@HubPressIO</a>
       to offer an alternative to Disqus\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html\"></a></p>"
@@ -7406,7 +7442,7 @@
       id: 454297
       private: false
       data:
-        author: &181
+        author: &182
           name: Barry Frost
           url: https://barryfrost.com/
           photo: https://webmention.io/avatar/barryf.s3.amazonaws.com/a3216644fe765c08d8913f3aabcf3cabd95908c8646c03fa6fecfa5dd7cad1f7.jpeg
@@ -7421,7 +7457,71 @@
         sentence_html: <a href="https://barryfrost.com/">Barry Frost</a> liked a post
           <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
       target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
-    author: *181
+    author: *182
     type: like
     content: <p><a href="https://barryfrost.com/">Barry Frost</a> liked a post <a
       href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
+  '456593':
+    id: '456593'
+    url: https://twitter.com/nhoizey/status/905674299431940096#favorited-by-11973362
+    source: twitter
+    pubdate: 2017-09-07 06:37:06.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nhoizey/905674299431940096/11973362
+      verified: true
+      verified_date: '2017-09-07T06:37:06+00:00'
+      id: 456593
+      private: false
+      data:
+        author: &183
+          name: Benjamin Borowski
+          url: https://twitter.com/typeoneerror
+          photo: https://webmention.io/avatar/pbs.twimg.com/8bbe5959d52c7c0246805315601dfd3f624468b5f183a3cba9c0b7081065a89c.jpg
+        url: https://twitter.com/nhoizey/status/905674299431940096#favorited-by-11973362
+        name: "tag:twitter.com,2013:905674299431940096_favorited_by_11973362\n  \n
+          \ \n  \n  \n      Benjamin Borowski\n    typeoneerror\n    \n\n  https://twitter.com/nhoizey/status/905674299431940096#favorited-by-11973362"
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Benjamin Borowski favorited a tweet https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
+        sentence_html: <a href="https://twitter.com/typeoneerror">Benjamin Borowski</a>
+          favorited a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
+      target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
+    author: *183
+    type: like
+    content: <p><a href="https://twitter.com/typeoneerror">Benjamin Borowski</a> favorited
+      a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
+  '456609':
+    id: '456609'
+    url: https://twitter.com/nhoizey/status/905674299431940096#favorited-by-842880246508601346
+    source: twitter
+    pubdate: 2017-09-07 09:27:52.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nhoizey/905674299431940096/842880246508601346
+      verified: true
+      verified_date: '2017-09-07T09:27:52+00:00'
+      id: 456609
+      private: false
+      data:
+        author: &184
+          name: Inclusive Components
+          url: https://twitter.com/inclusicomps
+          photo: https://webmention.io/avatar/pbs.twimg.com/3f32db1ac5860ba00e5788e9c404e7d26dbdabe0a921043f7e2ca1cc56e99029.jpg
+        url: https://twitter.com/nhoizey/status/905674299431940096#favorited-by-842880246508601346
+        name: "tag:twitter.com,2013:905674299431940096_favorited_by_842880246508601346\n
+          \ \n  \n  \n  \n      Inclusive Components\n    inclusicomps\n    \n\n  https://twitter.com/nhoizey/status/905674299431940096#favorited-by-842880246508601346"
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Inclusive Components favorited a tweet https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
+        sentence_html: <a href="https://twitter.com/inclusicomps">Inclusive Components</a>
+          favorited a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
+      target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
+    author: *184
+    type: like
+    content: <p><a href="https://twitter.com/inclusicomps">Inclusive Components</a>
+      favorited a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
