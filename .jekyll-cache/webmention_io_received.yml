@@ -7465,7 +7465,7 @@
     id: '456593'
     url: https://twitter.com/nhoizey/status/905674299431940096#favorited-by-11973362
     source: twitter
-    pubdate: 2017-09-07 06:37:06.000000000 +00:00
+    pubdate: 2017-09-07 08:37:06.000000000 +02:00
     raw:
       source: https://brid-gy.appspot.com/like/twitter/nhoizey/905674299431940096/11973362
       verified: true
@@ -7497,7 +7497,7 @@
     id: '456609'
     url: https://twitter.com/nhoizey/status/905674299431940096#favorited-by-842880246508601346
     source: twitter
-    pubdate: 2017-09-07 09:27:52.000000000 +00:00
+    pubdate: 2017-09-07 11:27:52.000000000 +02:00
     raw:
       source: https://brid-gy.appspot.com/like/twitter/nhoizey/905674299431940096/842880246508601346
       verified: true
@@ -7525,3 +7525,99 @@
     type: like
     content: <p><a href="https://twitter.com/inclusicomps">Inclusive Components</a>
       favorited a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
+  '456624':
+    id: '456624'
+    url: https://twitter.com/nhoizey/status/905674299431940096#favorited-by-15004179
+    source: twitter
+    pubdate: 2017-09-07 11:50:01.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nhoizey/905674299431940096/15004179
+      verified: true
+      verified_date: '2017-09-07T11:50:01+00:00'
+      id: 456624
+      private: false
+      data:
+        author: &185
+          name: Paul Grenier ᕕ( ᐛ )ᕗ
+          url: https://twitter.com/AutoSponge
+          photo: https://webmention.io/avatar/pbs.twimg.com/607a7ad38aea802ba669ac70898f0136c365ddd2934eb0e35e8f3342d489412f.jpg
+        url: https://twitter.com/nhoizey/status/905674299431940096#favorited-by-15004179
+        name: "tag:twitter.com,2013:905674299431940096_favorited_by_15004179\n  \n
+          \ \n  \n  \n      Paul Grenier ᕕ( ᐛ )ᕗ\n    AutoSponge\n    \n\n  https://twitter.com/nhoizey/status/905674299431940096#favorited-by-15004179"
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Paul Grenier ᕕ( ᐛ )ᕗ favorited a tweet https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
+        sentence_html: <a href="https://twitter.com/AutoSponge">Paul Grenier ᕕ( ᐛ
+          )ᕗ</a> favorited a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
+      target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
+    author: *185
+    type: like
+    content: <p><a href="https://twitter.com/AutoSponge">Paul Grenier ᕕ( ᐛ )ᕗ</a>
+      favorited a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
+  '456628':
+    id: '456628'
+    url: https://twitter.com/nhoizey/status/905674299431940096#favorited-by-380057805
+    source: twitter
+    pubdate: 2017-09-07 12:21:30.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nhoizey/905674299431940096/380057805
+      verified: true
+      verified_date: '2017-09-07T12:21:30+00:00'
+      id: 456628
+      private: false
+      data:
+        author: &186
+          name: Brian Muenzenmeyer
+          url: https://twitter.com/bmuenzenmeyer
+          photo: https://webmention.io/avatar/pbs.twimg.com/eb10a9673a531de2f672b723d4fb64c4218111b8742ae097683a5ea1a2e15a4e.jpeg
+        url: https://twitter.com/nhoizey/status/905674299431940096#favorited-by-380057805
+        name: "tag:twitter.com,2013:905674299431940096_favorited_by_380057805\n  \n
+          \ \n  \n  \n      Brian Muenzenmeyer\n    bmuenzenmeyer\n    \n\n  https://twitter.com/nhoizey/status/905674299431940096#favorited-by-380057805"
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Brian Muenzenmeyer favorited a tweet https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
+        sentence_html: <a href="https://twitter.com/bmuenzenmeyer">Brian Muenzenmeyer</a>
+          favorited a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
+      target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
+    author: *186
+    type: like
+    content: <p><a href="https://twitter.com/bmuenzenmeyer">Brian Muenzenmeyer</a>
+      favorited a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
+  '456650':
+    id: '456650'
+    url: https://twitter.com/nhoizey/status/905674299431940096#favorited-by-7168842
+    source: twitter
+    pubdate: 2017-09-07 14:49:57.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nhoizey/905674299431940096/7168842
+      verified: true
+      verified_date: '2017-09-07T14:49:57+00:00'
+      id: 456650
+      private: false
+      data:
+        author: &187
+          name: Yacine Rezgui
+          url: https://twitter.com/yrezgui
+          photo: https://webmention.io/avatar/pbs.twimg.com/b83df609736c01e2636b3eeb4371d397f482d4d5e49aebd7f30c0eee5a35e8c7.jpg
+        url: https://twitter.com/nhoizey/status/905674299431940096#favorited-by-7168842
+        name: "tag:twitter.com,2013:905674299431940096_favorited_by_7168842\n  \n
+          \ \n  \n  \n      Yacine Rezgui\n    yrezgui\n    \n\n  https://twitter.com/nhoizey/status/905674299431940096#favorited-by-7168842"
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Yacine Rezgui favorited a tweet https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
+        sentence_html: <a href="https://twitter.com/yrezgui">Yacine Rezgui</a> favorited
+          a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
+      target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
+    author: *187
+    type: like
+    content: <p><a href="https://twitter.com/yrezgui">Yacine Rezgui</a> favorited
+      a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
