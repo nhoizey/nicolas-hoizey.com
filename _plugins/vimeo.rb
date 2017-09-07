@@ -14,7 +14,7 @@ class Vimeo < Liquid::Tag
 
   def render(context)
 
-    puts " Vimeo: video #{@id}"
+    Jekyll.logger.info("[Vimeo]", "#{@id}")
 
     result =  "<div class=\"ratio-16-9 embed-video-container\"><iframe src=\"https://player.vimeo.com/video/#{@id}\" width=\"800\" height=\"450\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>"
 
