@@ -32,6 +32,7 @@
 require 'json'
 require 'erb'
 require 'yt'
+require 'digest'
 
 class YouTube < Liquid::Tag
   Syntax = /^\s*([^\s]+)(\s+(\d+)\s+(\d+)\s*)?/
@@ -39,6 +40,9 @@ class YouTube < Liquid::Tag
 
   def initialize(tagName, markup, tokens)
     super
+
+    @cache_folder = '.jekyll-cache/youtube'
+    Dir.mkdir(@cache_folder) unless File.exists?(@cache_folder)
 
     if markup =~ Syntax then
       @id = $1
@@ -57,25 +61,38 @@ class YouTube < Liquid::Tag
 
   def render(context)
 
-    if ( Cache.has_key?(@id)) then
+    if (Cache.has_key?(@id)) then
         return Cache[@id]
     end
 
-    site = context.registers[:site]
-    settings = site.config['youtube']
-    api_key = settings['api_key']
+    @cache_file = File.join(@cache_folder, Digest::MD5.hexdigest("#{@id}"))
 
-    Yt.configure do |config|
-      config.api_key = api_key
+    if (File.exists?(@cache_file))
+      @video_data = JSON.parse(File.read(@cache_file))
+      Jekyll.logger.info("[Youtube]", "#{@video_data['title']} (cached)")
+    else
+      site = context.registers[:site]
+      settings = site.config['youtube']
+      api_key = settings['api_key']
+
+      Yt.configure do |config|
+        config.api_key = api_key
+      end
+
+      video = Yt::Video.new id: @id
+
+      # extract the title and description
+      @video_data = {
+        'title' => video.title,
+        'description' => video.description
+      }
+      Jekyll.logger.info("[Youtube]", "#{@video_data['title']}")
+
+      # Cache the result in a file
+      File.open(@cache_file, "w") do |f|
+        f.write(@video_data.to_json)
+      end
     end
-
-    video = Yt::Video.new id: @id
-
-    # extract the title and description
-    @title = video.title
-    @description = video.description
-
-    puts " YouTube: #{@title}"
 
     @style = "width:100%;height:100%;background:#000 url(https://i2.ytimg.com/vi/#{@id}/0.jpg) center center no-repeat;background-size:contain;position:absolute"
 
@@ -104,13 +121,16 @@ class YouTube < Liquid::Tag
 <div class="ratio-4-3 embed-video-container" onclick="#{@onclick}" title="click here to play">
 <a class="youtube-lazy-link" style="#{@style}" href="https://www.youtube.com/watch?v=#{@id}" id="#{@id}" onclick="return false;">
 <div class="youtube-lazy-link-div"></div>
-<div class="youtube-lazy-link-info">#{@title}</div>
+<div class="youtube-lazy-link-info">#{@video_data['title']}</div>
 </a>
+<div class="video-info" >#{@video_data['description']}</div>
 </div>
 
 EOF
-  Cache[@id] = result
-  return result
+
+    Cache[@id] = result
+
+    return result
 
   end
 
