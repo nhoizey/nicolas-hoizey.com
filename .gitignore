@@ -3,8 +3,6 @@ _logs
 _scripts
 _site
 _site_serve
-.sass-cache
-.asset-cache
-.cache
-.jekyll-metadata
 _config_credentials.yml
+.asset-cache
+.jekyll-cache
