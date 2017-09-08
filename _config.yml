@@ -75,6 +75,7 @@ algolia:
 # Webmention
 webmentions:
   username: nicolas-hoizey.com
+  cache_folder: _data/webmentions
   cache_bad_uris_for: 5
   pause_lookups: false
   templates:
