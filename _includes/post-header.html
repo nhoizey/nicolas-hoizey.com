@@ -22,7 +22,7 @@
     {% if webmention_count_int > 0 %}
       <li class="webmentions">
         <svg class="icon"><use xlink:href="#symbol-webmentions" /></svg>
-        <a href="#webmentions">{{ webmention_count_int }} webmention{% if webmention_count_int > 1 %}s{% endif %}</a>
+        <a href="{{ include.page.url }}#webmentions">{{ webmention_count_int }} webmention{% if webmention_count_int > 1 %}s{% endif %}</a>
       </li>
     {% endif %}
   </ul>
