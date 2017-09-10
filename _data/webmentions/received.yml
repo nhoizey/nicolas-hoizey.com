@@ -2152,6 +2152,357 @@
     content: '<p>Turns out the “vh” <a href="https://twitter.com/search?q=%23css">#css</a>
       unit is unfit for mobile use, despite good global browser support: <a href="https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html">nicolas-hoizey.com/2015/02/viewpo…</a>
       / <a href="https://adactio.com/journal/11690">adactio.com/journal/11690</a></p>'
+  '457021':
+    id: '457021'
+    url: http://webandapp.fr/blog/2017/09/fullscreen-height-issue-reopened/
+    source: false
+    pubdate: 2017-09-08 22:38:34.000000000 +00:00
+    raw:
+      source: http://webandapp.fr/blog/2017/09/fullscreen-height-issue-reopened/
+      verified: true
+      verified_date: '2017-09-08T22:38:34+00:00'
+      id: 457021
+      private: false
+      data:
+        url: http://webandapp.fr/blog/2017/09/fullscreen-height-issue-reopened/
+        name: 
+        content: "<p>There are quite a few layout components which use full-screen
+          elements, not only overlays. Another use-case are intro- or landing pages
+          with different sections, where each section has the minimum height of the
+          browser window, often in combination with parallax scrolling effects. Making
+          an element fill the visible screen height via CSS sounds simple, but there
+          are more pitfalls than you might think, especially when you deal with mobile
+          browsers.</p>\n<p>But before digging deeper, if there are pitfalls within
+          the CSS solution, why not using JavaScript to calculate and manipulate the
+          dimensions of these full-screen elements? In most of the cases you require
+          JavaScript anyway, so why bother?</p>\n<blockquote>\n<p>\nIf you’ve ever
+          attached an event handler to the window’s resize event, you have probably
+          noticed that while Firefox fires the event slow and sensibly, IE and Webkit
+          go totally spastic.<a href=\"https://www.paulirish.com/2009/throttled-smartresize-jquery-event-handler/\">Paul
+          Irish – Debounced Resize</a></p>\n</blockquote>\n<p>.</p>\n<p>The resize
+          event is notorious for being triggered at a high rate per second, the complete
+          page might start to lag. On top on this, since some devices/ browsers do
+          not trigger the resize event when you turn it, you also need to listen to
+          orientation changes. You might argue that calculating a dimension isn’t
+          really performance-intensive and there is also the option of debouncing
+          / throttling the event. You are right, but here is another one: Not every
+          device fires the two mentioned events in the same order, nor at the same
+          time. For further details, have a look at the article of <a href=\"http://pioul.fr/cross-device-cross-browser-portrait-landscape-detection\">Philippe
+          Masset</a>. With this in mind, and a focus on slower mobile devices, it
+          might be helpful to look for a simple solution to solve this task. Therefore
+          this review of CSS based solutions targeting the fullscreen element.</p>\n<h3>The
+          100% approach</h3>\n<p>This is a classic: If you try to set the height of
+          an element by using <code>height:100%;</code> to fit the window height it
+          doesn’t work out of the box. Why? – Because the percentage (%) is a relative
+          unit, therefore the element height depends on the height of its parent element(s).
+          Depending on your HTML structure there might be more, but the very first
+          two parents are always <code>html</code> and <code>body</code>. Using percentage
+          values, both elements need a height declaration.</p>\n<pre>\n<code>\nhtml,
+          body {\n  /* reset default inner and outer space to avoid oversizing */\n
+          \ margin: 0;\n  padding: 0;\n  height: 100%;\n}\n\n.fullscreen {\n  height:
+          100%;\n}\n</code>\n</pre>\n<h4>The pitfalls for percentage</h4>\n<p>Adapting
+          <code>height:100%</code> to the <code>html</code> and <code>body</code>
+          element, prevents the <code>body</code> from expanding with its contents
+          once they start to grow beyond the viewport height. Technically this doesn’t
+          prevent the content from scrolling, but it does cause the <code>body</code>
+          element to leave a gap beneath the fold, which is usually undesirable. For
+          example if you define a background color (or image) for <code>body</code>
+          and <code>html</code>, the background for <code>body</code> will stop at
+          the initial viewport height.</p>\n<p>Switching to <code>min-height</code>
+          on the <code>body</code> is not an option, because as soon as you remove
+          the 100% height, the child (fullscreen) element won’t stretch to the window
+          height. Even if the specifications might be interpreted differently as Roger
+          Johansson pointed out in <a href=\"http://www.456bereastreet.com/archive/201306/height_in_percent_when_parent_has_min-height_and_no_height/\">his
+          article</a>, no major browser stretches the child element.</p>\n<p>Not to
+          forget, using <code>height:100%;</code> for elements create another issue
+          on various mobile devices. While scrolling the page, the one hundred percent
+          height does not cover the full screen. There is a gap (about 60 pixel) at
+          the bottom (or on top as you see in the following screen-shots).</p>\n<h4>Screenshots
+          from the 100% approach</h4>\n\n\n <img src=\"http://webandapp.fr/blog/wp-content/uploads/2017/09/screen_01_100p-147x300.jpg\"
+          alt=\"100% start\" width=\"147\" height=\"300\" /><p style=\"text-align:left;font-size:13px;\">Opening
+          up the test page, everything looks fine, the fullscreen element with a top
+          and bottom area fits the viewport</p>\n\n\n <img src=\"http://webandapp.fr/blog/wp-content/uploads/2017/09/screen_02_100p-147x300.jpg\"
+          alt=\"100% second\" width=\"147\" height=\"300\" /><p style=\"text-align:left;font-size:13px;\">Scrolling
+          to the next fullscreen section, you see the 60 pixel gap (red border) at
+          the bottom, the elements do not fit the actual view-port height</p>\n\n\n
+          <img src=\"http://webandapp.fr/blog/wp-content/uploads/2017/09/screen_03_100p-147x300.jpg\"
+          alt=\"100% last\" width=\"147\" height=\"300\" /><p style=\"text-align:left;font-size:13px;\">Scrolling
+          to the last fullscreen section, you see the 60 pixel gap (red border) at
+          the top, just in case you continue scrolling even if you reached the end,
+          this gap disappears.</p>\n\n\n<h3>The 100vh approach</h3>\n<p>In my post
+          <a href=\"http://webandapp.fr/blog/2016/02/fullscreen-please/\">Fullscreen
+          overlay, please!</a>, I proposed the usage of the <code>vh</code> unit to
+          get rid of the gap. At first glance the <code>vh</code> unit is a lot easier
+          to use than the percentage unit. No matter how nested the element is, it
+          is still able to be sized relative to the viewport dimensions. No parent
+          dependencies, less CSS code, no gap. By using the <code>vh</code> unit,
+          the CSS might look as clean and lean as this:</p>\n<pre>\n<code>\n.fullscreen
+          {\n  height: 100vh;\n}\n</code>\n</pre>\n<h4>The pitfalls for vh</h4>\n<p>On
+          any recent desktop or laptop this works like charm, but when it comes down
+          to mobile browsers, you will face a new problem. On the initial state (before
+          scrolling) the fullscreen element is taller than the visible screen. Imagine
+          you want to put your navigation on the bottom of a fullsize container with
+          a hero element above, all you would see is the hero – no visible interaction
+          – bad user experience.</p>\n<p>The worst part of it is yet to come. <a href=\"https://bugs.webkit.org/show_bug.cgi?id=141832\">Benjamin
+          Poulain</a> replied to a related webkit bug which has been set to <strong>resolved
+          wontfix</strong>:</p>\n<blockquote>\n<p>This is completely intentional.
+          It took quite a bit of work on our part to achieve this effect. :)</p>\n<p>The
+          base problem is this: the visible area changes dynamically as you scroll.
+          If we update the CSS viewport height accordingly, we need to update the
+          layout during the scroll. Not only that looks like shit, but doing that
+          at 60 FPS is practically impossible in most pages (60 FPS is the baseline
+          framerate on iOS).</p>\n<p>It is hard to show you the “looks like shit”
+          part, but imagine as you scroll, the contents moves and what you want on
+          screen is continuously shifting.</p>\n<p>Dynamically updating the height
+          was not working, we had a few choices: drop viewport units on iOS, match
+          the document size like before iOS 8, use the small view size, use the large
+          view size.</p>\n<p>From the data we had, using the larger view size was
+          the best compromise. Most website using viewport units were looking great
+          most of the time</p>\n</blockquote>\n<p>Nicolas Hoizey has researched the
+          inconstancy of the vh unit <a href=\"https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html\">in
+          detail</a>. In short, this behavior will not change, will not get fixed,
+          it might even be, that <a href=\"https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/BK0oHURgmJ4\">chrome</a>
+          will follow the safari way.</p>\n<h4>Screenshots from the 100vh approach</h4>\n\n\n
+          <img src=\"http://webandapp.fr/blog/wp-content/uploads/2017/09/screen_01_100vh-147x300.jpg\"
+          alt=\"100vh start\" width=\"147\" height=\"300\" /><p style=\"text-align:left;font-size:13px;\">Opening
+          up the test page, the bottom area of the first section is missing completely,
+          in the moment you scroll, the bottom area is visible.</p>\n\n\n <img src=\"http://webandapp.fr/blog/wp-content/uploads/2017/09/screen_02_100vh-147x300.jpg\"
+          alt=\"100vh second\" width=\"147\" height=\"300\" /><p style=\"text-align:left;font-size:13px;\">Scrolling
+          to the next fullscreen section, everything as aspected, no gap, but as soon
+          as you scroll up again, the viewport is to tall.</p>\n\n\n <img src=\"http://webandapp.fr/blog/wp-content/uploads/2017/09/screen_03_100vh-147x300.jpg\"
+          alt=\"100vh last\" width=\"147\" height=\"300\" /><p style=\"text-align:left;font-size:13px;\">Same
+          for the last element, no visible gap, everything in place, but as soon as
+          you scroll up, the bottom section disappears.</p>\n\n\n<p>Both approaches
+          solve the task in the desktop world. The percentage variant supports a wider
+          set of browsers (for example IE 10), but requires a simple DOM structure
+          and could have side effects on the rendering of other elements. So the decision
+          is mostly a question of the project requirements.</p>\n<p>But as soon as
+          it comes to mobile browsers neither the percentage nor the viewport unit
+          works properly. And I do not talk about an old android phone or a rare tablet
+          device. This is the current status for all recent iOS and android devices,
+          phones or tablets. It is true, that many sites, themes and layouts avoid
+          fullscreen elements on small devices (foremost phones) but lately I stumbled
+          across quite a few of these on tablets. For example the <a href=\"https://wordpress.com/theme/twentyseventeen\">current
+          default wordpress theme (twentyseventeen)</a>, and all of them lost the
+          struggle with a proper implementation.</p>\n<h3>A possible workaround</h3>\n<p>If
+          it all comes down to the dynamic change of the viewport height, what if
+          there is a way to get around this? The drawback of this solution is, that
+          you’ll see the address- and toolbar permanently. For this you freeze <code>html</code>
+          and <code>body</code>, disable scrolling, and wrap the complete content
+          into a scrollable container.</p>\n<pre>\n<code>\nhtml, body {\n  margin:
+          0;\n  padding: 0;\n  height: 100%;\n  overflow: hidden;\n}\n\n.wrapper {\n
+          \ height: 100%;\n  overflow: auto;\n  /* enable smooth scrolling on iOS
+          */\n  -webkit-overflow-scrolling: touch;\n}\n\n.fullscreen {\n  height:
+          100%;\n}\n</code>\n</pre>\n<p>Moving the scrolling from the <code>body</code>
+          to a child element, suppresses the dynamic resize of the viewport, which
+          caused the visible gap. All three sections behave as aspected.\nSince the
+          100vh is per definition equal to the larger view size, you can’t use in
+          this case. So back to the old school percentage and with a violation of
+          the system UI/UX, because the workaround modifies the default browser behavior.</p>\n<h4>Screenshots
+          from the workaround</h4>\n\n\n <img src=\"http://webandapp.fr/blog/wp-content/uploads/2017/09/screen_01_100f-147x300.jpg\"
+          alt=\"100% start\" width=\"147\" height=\"300\" />\n\n <img src=\"http://webandapp.fr/blog/wp-content/uploads/2017/09/screen_02_100f-147x300.jpg\"
+          alt=\"100% second\" width=\"147\" height=\"300\" />\n\n <img src=\"http://webandapp.fr/blog/wp-content/uploads/2017/09/screen_03_100f-147x300.jpg\"
+          alt=\"100% last\" width=\"147\" height=\"300\" />\n\n<p style=\"font-size:13px;\">Everything
+          looks fine, except the fact, that the address- and button bar are always
+          visible.</p>\n<h3>Last exit: Media-queries?</h3>\n<p>There are media-queries
+          for all major mobile devices and media-queries do support orientation, so
+          you could define a set of media-queries which contain a fixed pixel value
+          for the fullscreen element. For sure, this is anything but an elegant solution.
+          Thinking about all the different devices out there, it can be quite a list,
+          you won’t get all of them and you will never finish the list either.</p>\n<p>On
+          the other hand queries for the ten most used devices might cover up to 80%
+          percent of all page requests from mobile devices. Not perfect, but definitely
+          better than ignoring the topic. You can find a long list of device specific
+          media-queries at <a href=\"https://css-tricks.com/snippets/css/media-queries-for-standard-devices/\">css-tricks</a>.
+          Here is an example how to set it up.</p>\n<pre>\n<code>\n.fullscreen {\n
+          \ height: 100vh;\n}\n\n/* ----------- iPad 1 and 2 ----------- */\n/* Portrait
+          */\n@media only screen \n  and (min-device-width: 768px) \n  and (max-device-width:
+          1024px) \n  and (orientation: portrait) \n  and (-webkit-min-device-pixel-ratio:
+          1) {\n     .fullscreen {\n        height: 1024px;\n     }\n}\n\n/* Landscape
+          */\n@media only screen \n  and (min-device-width: 768px) \n  and (max-device-width:
+          1024px) \n  and (orientation: landscape) \n  and (-webkit-min-device-pixel-ratio:
+          1) {\n     .fullscreen {\n        height: 728px;\n     }\n}\n</code>\n</pre>\n<p>Sometimes
+          frontend development can be really frustrating. A task that sounds so simple,
+          and yet we are not even close to a proper straight forward solution. Some
+          might go for the viewport variant, because the “missing” pixels do not contain
+          any important information. Some might use the media-queries to fix this
+          behavior for the majority and simply forget about the rest of the users.
+          Some might use the scrolling box workaround, because this approach can also
+          be helpful for other tricky tasks on mobile, even if this is a violation
+          of the basic browser ui/ux. And some might use JavaScript, but mo matter
+          what version you prefer, I think you are with me, when I say: Setting the
+          fullscreen height for an element is still not solved, it is an open issue.</p>"
+        published: 
+        published_ts: 
+      activity:
+        type: link
+        sentence: http://webandapp.fr/blog/2017/09/fullscreen-height-issue-reopened/
+          posted 'There are quite a few layout components which use full-screen elements,
+          not only...' linking to https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html
+        sentence_html: <a href="http://webandapp.fr/blog/2017/09/fullscreen-height-issue-reopened/">someone</a>
+          posted 'There are quite a few layout components which use full-screen elements,
+          not only...' linking to <a href="https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html">https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html</a>
+      target: https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html
+    type: link
+    content: "<p>There are quite a few layout components which use full-screen elements,
+      not only overlays. Another use-case are intro- or landing pages with different
+      sections, where each section has the minimum height of the browser window, often
+      in combination with parallax scrolling effects. Making an element fill the visible
+      screen height via CSS sounds simple, but there are more pitfalls than you might
+      think, especially when you deal with mobile browsers.</p>\n<p>But before digging
+      deeper, if there are pitfalls within the CSS solution, why not using JavaScript
+      to calculate and manipulate the dimensions of these full-screen elements? In
+      most of the cases you require JavaScript anyway, so why bother?</p>\n<blockquote>\n<p>\nIf
+      you’ve ever attached an event handler to the window’s resize event, you have
+      probably noticed that while Firefox fires the event slow and sensibly, IE and
+      Webkit go totally spastic.<a href=\"https://www.paulirish.com/2009/throttled-smartresize-jquery-event-handler/\">Paul
+      Irish – Debounced Resize</a></p>\n</blockquote>\n<p>.</p>\n<p>The resize event
+      is notorious for being triggered at a high rate per second, the complete page
+      might start to lag. On top on this, since some devices/ browsers do not trigger
+      the resize event when you turn it, you also need to listen to orientation changes.
+      You might argue that calculating a dimension isn’t really performance-intensive
+      and there is also the option of debouncing / throttling the event. You are right,
+      but here is another one: Not every device fires the two mentioned events in
+      the same order, nor at the same time. For further details, have a look at the
+      article of <a href=\"http://pioul.fr/cross-device-cross-browser-portrait-landscape-detection\">Philippe
+      Masset</a>. With this in mind, and a focus on slower mobile devices, it might
+      be helpful to look for a simple solution to solve this task. Therefore this
+      review of CSS based solutions targeting the fullscreen element.</p>\n<h3>The
+      100% approach</h3>\n<p>This is a classic: If you try to set the height of an
+      element by using <code>height:100%;</code> to fit the window height it doesn’t
+      work out of the box. Why? – Because the percentage (%) is a relative unit, therefore
+      the element height depends on the height of its parent element(s). Depending
+      on your HTML structure there might be more, but the very first two parents are
+      always <code>html</code> and <code>body</code>. Using percentage values, both
+      elements need a height declaration.</p>\n<pre>\n<code>\nhtml, body {\n  /* reset
+      default inner and outer space to avoid oversizing */\n  margin: 0;\n  padding:
+      0;\n  height: 100%;\n}\n\n.fullscreen {\n  height: 100%;\n}\n</code>\n</pre>\n<h4>The
+      pitfalls for percentage</h4>\n<p>Adapting <code>height:100%</code> to the <code>html</code>
+      and <code>body</code> element, prevents the <code>body</code> from expanding
+      with its contents once they start to grow beyond the viewport height. Technically
+      this doesn’t prevent the content from scrolling, but it does cause the <code>body</code>
+      element to leave a gap beneath the fold, which is usually undesirable. For example
+      if you define a background color (or image) for <code>body</code> and <code>html</code>,
+      the background for <code>body</code> will stop at the initial viewport height.</p>\n<p>Switching
+      to <code>min-height</code> on the <code>body</code> is not an option, because
+      as soon as you remove the 100% height, the child (fullscreen) element won’t
+      stretch to the window height. Even if the specifications might be interpreted
+      differently as Roger Johansson pointed out in <a href=\"http://www.456bereastreet.com/archive/201306/height_in_percent_when_parent_has_min-height_and_no_height/\">his
+      article</a>, no major browser stretches the child element.</p>\n<p>Not to forget,
+      using <code>height:100%;</code> for elements create another issue on various
+      mobile devices. While scrolling the page, the one hundred percent height does
+      not cover the full screen. There is a gap (about 60 pixel) at the bottom (or
+      on top as you see in the following screen-shots).</p>\n<h4>Screenshots from
+      the 100% approach</h4>\n\n<p><img src=\"http://webandapp.fr/blog/wp-content/uploads/2017/09/screen_01_100p-147x300.jpg\"
+      alt=\"100% start\" width=\"147\" height=\"300\" />&lt;p style=\"text-align:left;font-size:13px;\"&gt;Opening
+      up the test page, everything looks fine, the fullscreen element with a top and
+      bottom area fits the viewport&lt;/p&gt;</p>\n\n<p><img src=\"http://webandapp.fr/blog/wp-content/uploads/2017/09/screen_02_100p-147x300.jpg\"
+      alt=\"100% second\" width=\"147\" height=\"300\" />&lt;p style=\"text-align:left;font-size:13px;\"&gt;Scrolling
+      to the next fullscreen section, you see the 60 pixel gap (red border) at the
+      bottom, the elements do not fit the actual view-port height&lt;/p&gt;</p>\n\n<p><img
+      src=\"http://webandapp.fr/blog/wp-content/uploads/2017/09/screen_03_100p-147x300.jpg\"
+      alt=\"100% last\" width=\"147\" height=\"300\" />&lt;p style=\"text-align:left;font-size:13px;\"&gt;Scrolling
+      to the last fullscreen section, you see the 60 pixel gap (red border) at the
+      top, just in case you continue scrolling even if you reached the end, this gap
+      disappears.&lt;/p&gt;</p>\n\n<h3>The 100vh approach</h3>\n<p>In my post <a href=\"http://webandapp.fr/blog/2016/02/fullscreen-please/\">Fullscreen
+      overlay, please!</a>, I proposed the usage of the <code>vh</code> unit to get
+      rid of the gap. At first glance the <code>vh</code> unit is a lot easier to
+      use than the percentage unit. No matter how nested the element is, it is still
+      able to be sized relative to the viewport dimensions. No parent dependencies,
+      less CSS code, no gap. By using the <code>vh</code> unit, the CSS might look
+      as clean and lean as this:</p>\n<pre>\n<code>\n.fullscreen {\n  height: 100vh;\n}\n</code>\n</pre>\n<h4>The
+      pitfalls for vh</h4>\n<p>On any recent desktop or laptop this works like charm,
+      but when it comes down to mobile browsers, you will face a new problem. On the
+      initial state (before scrolling) the fullscreen element is taller than the visible
+      screen. Imagine you want to put your navigation on the bottom of a fullsize
+      container with a hero element above, all you would see is the hero – no visible
+      interaction – bad user experience.</p>\n<p>The worst part of it is yet to come.
+      <a href=\"https://bugs.webkit.org/show_bug.cgi?id=141832\">Benjamin Poulain</a>
+      replied to a related webkit bug which has been set to <strong>resolved wontfix</strong>:</p>\n<blockquote>\n<p>This
+      is completely intentional. It took quite a bit of work on our part to achieve
+      this effect. :)</p>\n<p>The base problem is this: the visible area changes dynamically
+      as you scroll. If we update the CSS viewport height accordingly, we need to
+      update the layout during the scroll. Not only that looks like shit, but doing
+      that at 60 FPS is practically impossible in most pages (60 FPS is the baseline
+      framerate on iOS).</p>\n<p>It is hard to show you the “looks like shit” part,
+      but imagine as you scroll, the contents moves and what you want on screen is
+      continuously shifting.</p>\n<p>Dynamically updating the height was not working,
+      we had a few choices: drop viewport units on iOS, match the document size like
+      before iOS 8, use the small view size, use the large view size.</p>\n<p>From
+      the data we had, using the larger view size was the best compromise. Most website
+      using viewport units were looking great most of the time</p>\n</blockquote>\n<p>Nicolas
+      Hoizey has researched the inconstancy of the vh unit <a href=\"https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html\">in
+      detail</a>. In short, this behavior will not change, will not get fixed, it
+      might even be, that <a href=\"https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/BK0oHURgmJ4\">chrome</a>
+      will follow the safari way.</p>\n<h4>Screenshots from the 100vh approach</h4>\n\n<p><img
+      src=\"http://webandapp.fr/blog/wp-content/uploads/2017/09/screen_01_100vh-147x300.jpg\"
+      alt=\"100vh start\" width=\"147\" height=\"300\" />&lt;p style=\"text-align:left;font-size:13px;\"&gt;Opening
+      up the test page, the bottom area of the first section is missing completely,
+      in the moment you scroll, the bottom area is visible.&lt;/p&gt;</p>\n\n<p><img
+      src=\"http://webandapp.fr/blog/wp-content/uploads/2017/09/screen_02_100vh-147x300.jpg\"
+      alt=\"100vh second\" width=\"147\" height=\"300\" />&lt;p style=\"text-align:left;font-size:13px;\"&gt;Scrolling
+      to the next fullscreen section, everything as aspected, no gap, but as soon
+      as you scroll up again, the viewport is to tall.&lt;/p&gt;</p>\n\n<p><img src=\"http://webandapp.fr/blog/wp-content/uploads/2017/09/screen_03_100vh-147x300.jpg\"
+      alt=\"100vh last\" width=\"147\" height=\"300\" />&lt;p style=\"text-align:left;font-size:13px;\"&gt;Same
+      for the last element, no visible gap, everything in place, but as soon as you
+      scroll up, the bottom section disappears.&lt;/p&gt;</p>\n\n<p>Both approaches
+      solve the task in the desktop world. The percentage variant supports a wider
+      set of browsers (for example IE 10), but requires a simple DOM structure and
+      could have side effects on the rendering of other elements. So the decision
+      is mostly a question of the project requirements.</p>\n<p>But as soon as it
+      comes to mobile browsers neither the percentage nor the viewport unit works
+      properly. And I do not talk about an old android phone or a rare tablet device.
+      This is the current status for all recent iOS and android devices, phones or
+      tablets. It is true, that many sites, themes and layouts avoid fullscreen elements
+      on small devices (foremost phones) but lately I stumbled across quite a few
+      of these on tablets. For example the <a href=\"https://wordpress.com/theme/twentyseventeen\">current
+      default wordpress theme (twentyseventeen)</a>, and all of them lost the struggle
+      with a proper implementation.</p>\n<h3>A possible workaround</h3>\n<p>If it
+      all comes down to the dynamic change of the viewport height, what if there is
+      a way to get around this? The drawback of this solution is, that you’ll see
+      the address- and toolbar permanently. For this you freeze <code>html</code>
+      and <code>body</code>, disable scrolling, and wrap the complete content into
+      a scrollable container.</p>\n<pre>\n<code>\nhtml, body {\n  margin: 0;\n  padding:
+      0;\n  height: 100%;\n  overflow: hidden;\n}\n\n.wrapper {\n  height: 100%;\n
+      \ overflow: auto;\n  /* enable smooth scrolling on iOS */\n  -webkit-overflow-scrolling:
+      touch;\n}\n\n.fullscreen {\n  height: 100%;\n}\n</code>\n</pre>\n<p>Moving the
+      scrolling from the <code>body</code> to a child element, suppresses the dynamic
+      resize of the viewport, which caused the visible gap. All three sections behave
+      as aspected.\nSince the 100vh is per definition equal to the larger view size,
+      you can’t use in this case. So back to the old school percentage and with a
+      violation of the system UI/UX, because the workaround modifies the default browser
+      behavior.</p>\n<h4>Screenshots from the workaround</h4>\n\n<p><img src=\"http://webandapp.fr/blog/wp-content/uploads/2017/09/screen_01_100f-147x300.jpg\"
+      alt=\"100% start\" width=\"147\" height=\"300\" /></p>\n\n<p><img src=\"http://webandapp.fr/blog/wp-content/uploads/2017/09/screen_02_100f-147x300.jpg\"
+      alt=\"100% second\" width=\"147\" height=\"300\" /></p>\n\n<p><img src=\"http://webandapp.fr/blog/wp-content/uploads/2017/09/screen_03_100f-147x300.jpg\"
+      alt=\"100% last\" width=\"147\" height=\"300\" /></p>\n\n<p style=\"font-size:13px;\">Everything
+      looks fine, except the fact, that the address- and button bar are always visible.</p>\n<h3>Last
+      exit: Media-queries?</h3>\n<p>There are media-queries for all major mobile devices
+      and media-queries do support orientation, so you could define a set of media-queries
+      which contain a fixed pixel value for the fullscreen element. For sure, this
+      is anything but an elegant solution. Thinking about all the different devices
+      out there, it can be quite a list, you won’t get all of them and you will never
+      finish the list either.</p>\n<p>On the other hand queries for the ten most used
+      devices might cover up to 80% percent of all page requests from mobile devices.
+      Not perfect, but definitely better than ignoring the topic. You can find a long
+      list of device specific media-queries at <a href=\"https://css-tricks.com/snippets/css/media-queries-for-standard-devices/\">css-tricks</a>.
+      Here is an example how to set it up.</p>\n<pre>\n<code>\n.fullscreen {\n  height:
+      100vh;\n}\n\n/* ----------- iPad 1 and 2 ----------- */\n/* Portrait */\n@media
+      only screen \n  and (min-device-width: 768px) \n  and (max-device-width: 1024px)
+      \n  and (orientation: portrait) \n  and (-webkit-min-device-pixel-ratio: 1)
+      {\n     .fullscreen {\n        height: 1024px;\n     }\n}\n\n/* Landscape */\n@media
+      only screen \n  and (min-device-width: 768px) \n  and (max-device-width: 1024px)
+      \n  and (orientation: landscape) \n  and (-webkit-min-device-pixel-ratio: 1)
+      {\n     .fullscreen {\n        height: 728px;\n     }\n}\n</code>\n</pre>\n<p>Sometimes
+      frontend development can be really frustrating. A task that sounds so simple,
+      and yet we are not even close to a proper straight forward solution. Some might
+      go for the viewport variant, because the “missing” pixels do not contain any
+      important information. Some might use the media-queries to fix this behavior
+      for the majority and simply forget about the rest of the users. Some might use
+      the scrolling box workaround, because this approach can also be helpful for
+      other tricky tasks on mobile, even if this is a violation of the basic browser
+      ui/ux. And some might use JavaScript, but mo matter what version you prefer,
+      I think you are with me, when I say: Setting the fullscreen height for an element
+      is still not solved, it is an open issue.</p>"
 "/2015/03/esviji-v2-sera-completement-responsive.html": {}
 "/2015/05/new-york-hors-des-sentiers-battus.html":
   '436311':
