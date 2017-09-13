@@ -26,7 +26,13 @@
 
             <div class="webmention__content p-content">
               {% if webmention.content %}
-                {{ webmention.content }}
+                {% capture content_size %}{{ webmention.content | strip_html | size }}{% endcapture %}
+                {% assign content_size = content_size | plus: 0 %}
+                {% if content_size > 400 %}
+                  {{ webmention.content | strip_html | truncate: 400 }}
+                {% else %}
+                  {{ webmention.content }}
+                {% endif %}
               {% else %}
                 {{ webmention.title }}
               {% endif %}
