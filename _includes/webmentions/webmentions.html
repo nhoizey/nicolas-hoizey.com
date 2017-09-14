@@ -18,10 +18,31 @@
                       src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_48,h_48/{{ webmention.author.photo }}"
                       srcset="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_48,h_48/{{ webmention.author.photo }} 1x, https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_96,h_96/{{ webmention.author.photo }} 2x"
                       alt="{{ webmention.author.name }} avatar" />
+                  {% else %}
+                    {% if webmention.url %}
+                      <img
+                        class="webmention__author__photo u-photo"
+                        src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_48,h_48/http://image.thum.io/get/{{ webmention.url }}"
+                        srcset="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_48,h_48/http://image.thum.io/get/{{ webmention.url }} 1x, https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_96,h_96/http://image.thum.io/get/{{ webmention.url }} 2x"
+                        alt="{{ webmention.author.name }} avatar" />
+                    {% endif %}
                   {% endif %}
                   <b class="p-name">{{ webmention.author.name }}</b>
                 </a>
               </div>
+            {% else %}
+              {% if webmention.url %}
+                <div class="webmention__author p-author h-card">
+                  <a class="u-url" href="{{ webmention.url }}">
+                    <img
+                      class="webmention__author__photo u-photo"
+                      src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_48,h_48/http://image.thum.io/get/{{ webmention.url }}"
+                      srcset="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_48,h_48/http://image.thum.io/get/{{ webmention.url }} 1x, https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_96,h_96/http://image.thum.io/get/{{ webmention.url }} 2x"
+                      alt="Page screenshot" />
+                    <b class="p-name">{{ webmention.url | truncate: 70 }}</b>
+                  </a>
+                </div>
+              {% endif %}
             {% endif %}
 
             <div class="webmention__content p-content">
@@ -37,7 +58,6 @@
                 {{ webmention.title }}
               {% endif %}
             </div>
-
             <div class="webmention__meta">
               {% if webmention.pubdate %}
                 <time class="webmention__pubdate dt-published"
@@ -45,7 +65,7 @@
               {% endif %}
               {% if webmention.pubdate and webmention.url %}|{% endif %}
               {% if webmention.url %}
-                <a class="webmention__source u-url" href="{{ webmention.url }}">Permalink</a>
+                <a class="webmention__source u-url" href="{{ webmention.url }}">Source</a>
               {% endif %}
             </div>
           </article>
