@@ -252,7 +252,7 @@ article {
 // Webmentions
 // ************************************************************
 
-.webmention__author {
+.webmention__author, .webmention__source {
   font-size: .9em;
   font-weight: normal;
 }
@@ -263,13 +263,13 @@ article {
 
 [data-webmention-types*=replies] {
   .webmentions__item {
-    clear: left;
+    clear: both;
     position: relative;
-    padding: .5em 0 0 calc(48px + 1em);
     min-height: 48px;
 
     article {
       margin: 0 0 2em;
+      padding: .5em 0 0 calc(48px + 1em);
     }
   }
 
@@ -282,6 +282,17 @@ article {
     height: 48px;
     margin: 0;
     border-radius: 5px;
+  }
+
+  .webmention__source__screenshot {
+    float: right;
+    position: relative;
+    top: .8em;
+    left: 0;
+    width: 144px;
+    height: 144px;
+    margin: 0 0 1em 1em;
+    border: solid 1px #ccc;
   }
 
   .webmention__content {
