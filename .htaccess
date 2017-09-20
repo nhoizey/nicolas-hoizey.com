@@ -516,6 +516,16 @@ RewriteRule ^(.*)\)$ https://nicolas-hoizey.com/$1 [QSA,R=301,L]
   Header set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
 </IfModule>
 
+# ------------------------------------------------------------------------------
+# | Referrer Policy                                                            |
+# ------------------------------------------------------------------------------
+
+# https://scotthelme.co.uk/a-new-security-header-referrer-policy/
+
+<IfModule mod_headers.c>
+  Header set Referrer-Policy "unsafe-url"
+</IfModule>
+
 # ##############################################################################
 # # WEB PERFORMANCE                                                            #
 # ##############################################################################
