@@ -271,6 +271,13 @@ article {
       margin: 0 0 2em;
       padding: .5em 0 0 calc(48px + 1em);
     }
+
+    .webmention--no-photo {
+      padding: .5em 0 0 0;
+      @media (min-width: 40em) {
+        padding: .5em 0 0 calc(48px + 1em);
+      }
+    }
   }
 
   .webmention__author__photo {
@@ -285,14 +292,16 @@ article {
   }
 
   .webmention__source__screenshot {
-    float: right;
-    position: relative;
-    top: .8em;
-    left: 0;
-    width: 144px;
-    height: 144px;
-    margin: 0 0 1em 1em;
+    margin: 0;
+    max-width: 300px;
+    width: 50vw;
+    height: auto;
     border: solid 1px #ccc;
+
+    @media (min-width: 40em) {
+      float: right;
+      margin: 0 0 2em 1em;
+    }
   }
 
   .webmention__content {
