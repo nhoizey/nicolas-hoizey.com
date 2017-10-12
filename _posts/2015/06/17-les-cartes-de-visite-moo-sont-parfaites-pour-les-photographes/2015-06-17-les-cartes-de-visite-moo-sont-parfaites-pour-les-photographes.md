@@ -4,11 +4,11 @@ lang:  fr
 tags:  [photo]
 ---
 
-Je dois en être à ma quatrième commande de cartes de visite sur [Moo](http://www.moo.com/share/txpyyf), et je suis de plus en plus épaté. Des cartes de visite format mini, offertes par Flickr il y a quelques années, très sympa parce que d'un format atypique, aux dernières cartes Luxe, il y a toute une gamme à (re)découvrir, notamment pour les photographes.
+Je dois en être à ma quatrième commande de cartes de visite sur [Moo](https://refer.moo.com/s/mkzfn), et je suis de plus en plus épaté. Des cartes de visite format mini, offertes par Flickr il y a quelques années, très sympa parce que d'un format atypique, aux dernières cartes Luxe, il y a toute une gamme à (re)découvrir, notamment pour les photographes.
 
 Pour accompagner la mise en place —enfin— d'un site[^site] dédié à ma pratique photographique, [http://photosynthese.net/](http://photosynthese.net/), je voulais me refaire des cartes de visite, pour les donner aux photographes que je rencontre, aux éventuels modèles que je souhaiterais photographier, etc.
 
-[^site]: Ce site est pour l'instant géré via [500px](http://500px.com) parce que c'est très simple et plutôt efficace, mais je passerais à une solution maison dès que possible.
+[^site]: Ce site est pour l'instant géré via Adobe Portfolio parce que c'est très simple et plutôt efficace, mais je passerais à une solution maison dès que possible.
 
 Suivant Moo depuis quelques années, j'ai été tout de suite intéressé par les récentes cartes de visite « Luxe », promesse d'une qualité au top et d'une originalité certaine. Après tout, rien ne sert de donner des cartes de visite si c'est pour qu'elles partent directement à la poubelle, ou se retrouvent noyées dans un amas de cartes similaires. Cette qualité supérieure a un coût, c'est sûr, mais je donne peu de cartes[^mais], donc ce n'est pas un problème.
 
@@ -38,4 +38,4 @@ Voici un petit déballage en photo, pour bien montrer la qualité des cartes et 
 
 Avouez que ça a de la gueule !
 
-Si vous voulez aussi commander vos carte de visite chez Moo, quel que soit le type que vous voulez, vous pouvez avoir [une réduction de 10% avec ce lien](http://www.moo.com/share/txpyyf).
+Si vous voulez aussi commander vos carte de visite chez Moo, quel que soit le type que vous voulez, vous pouvez avoir [une réduction avec ce lien](https://refer.moo.com/s/mkzfn).
