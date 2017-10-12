@@ -11,11 +11,11 @@ Vous connaissez certainement la chanson « [99 Luftballons](https://fr.wikipedi
 
 Ce titre de chanson ne vous dit rien ? Rappel :
 
-https://www.youtube.com/watch?v=La4Dcd1aUcE
+{% youtube La4Dcd1aUcE %}
 
 Il en existe une version en anglais, intitulée « 99 Red Balloons » :
 
-https://www.youtube.com/watch?v=HZ1TQYjCwYc
+{% youtube HZ1TQYjCwYc %}
 
 J'ai découvert l'existence de [Andrew Huang](http://andrewhuang.com/) grâce à ce tweet de Hubert Sablonnière :
 
@@ -23,6 +23,6 @@ https://twitter.com/hsablonniere/status/827444273427644416
 
 C'est ainsi que j'ai découvert cette version de « 99 Red Balloons » jouée par Andrew avec des ballons de baudruche rouge :
 
-https://www.youtube.com/watch?v=aZND9dApFKU
+{% youtube aZND9dApFKU %}
 
 Bon vendredi ! ;-)
