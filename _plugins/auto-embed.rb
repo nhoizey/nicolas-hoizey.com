@@ -8,7 +8,7 @@ module Jekyll
       end
 
       def output_ext(ext)
-        ".md"
+        ".html"
       end
 
       def convert(content)
