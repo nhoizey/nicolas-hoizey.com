@@ -3223,3 +3223,8 @@ http://localhost:4000/2017/07/so-long-disqus-hello-webmentions.html:
   https://www.aaron-gustafson.com/notebook/your-site-should-be-a-pwa/: false
   https://indieweb.org/facepile: false
   https://github.com/aarongustafson/jekyll-webmention_io/issues/24: false
+https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html:
+  https://bugs.chromium.org/p/chromium/issues/detail?id=719648: false
+  https://twitter.com/TobiReif: false
+  https://tobireif.com/posts/maximum_font_size_for_emoji/: false
+  https://mydevice.io/devices/: false
