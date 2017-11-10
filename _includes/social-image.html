@@ -11,7 +11,12 @@ https://developers.facebook.com/tools/debug/sharing/
 {% if image == "" %}
   {% assign image = site.url | append:'/assets/degrade.png' %}
 {% endif %}
-{% assign title = page.title | url_escape | replace: ' ', '%20' | replace: ',', '%252C' | replace: '?', '%3F' %}
+{% if page.title == "Accueil" %}
+  {% assign title = site.description %}
+{% else %}
+  {% assign title = page.title %}
+{% endif %}
+{% assign title = title | url_escape | replace: ' ', '%20' | replace: ',', '%252C' | replace: '?', '%3F' %}
 {% capture background_image %}e_blur:2000,c_crop,ar_{{ image_width }}:{{ image_height }},b_white/e_grayscale/w_{{ image_width }}/l_fetch:{{ image | base64_encode }},h_1.0,w_1.0,fl_relative,c_limit{% endcapture %}
 {% capture color_overlay %}b_rgb:3d2e68,o_40{% endcapture %}
 {% capture title_with_shadow %}w_{{ image_width | minus: 80 }},c_fit,l_text:georgia_80:{{ title }},g_north_west,x_42,y_43,co_black,o_50/w_{{ image_width | minus: 80 }},c_fit,l_text:georgia_80:{{ title }},g_north_west,x_41,y_42,co_black,o_75/w_{{ image_width | minus: 80 }},c_fit,l_text:georgia_80:{{ title }},g_north_west,x_40,y_40,co_white{% endcapture %}
