@@ -9406,6 +9406,136 @@
       <a href="https://twitter.com/severo_bo/status/906882158618464261">
       <img src="http://pbs.twimg.com/media/DJXkgdQX0AA51AC.jpg" alt="" /></a>
       </p>
+  '928202940023795712':
+    id: '928202940023795712'
+    url: https://twitter.com/nsteinmetz/status/928202940023795712
+    source: twitter
+    pubdate: 2017-11-08 11:10:00.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/nhoizey/928190636024565766/928202940023795712
+      verified: true
+      verified_date: '2017-11-08T10:12:38+00:00'
+      id: 471822
+      private: false
+      data:
+        author: &214
+          name: Nicolas Steinmetz
+          url: https://nicolas.steinmetz.fr/
+          photo: https://webmention.io/avatar/pbs.twimg.com/bebe3da8075d9083c901625cf2b977caad289bef5f986cacaffcbae4bd48122a.jpg
+        url: https://twitter.com/nsteinmetz/status/928202940023795712
+        name: 
+        content: 'Note: cet échange là, on ne l''aurait plus sur des blogs classiques
+          au travers des commentaires - la centralisation et les notifications le
+          permettent :-/'
+        published: '2017-11-08T10:10:00+00:00'
+        published_ts: 1510135800
+      activity:
+        type: reply
+        sentence: Nicolas Steinmetz replied '' to a tweet https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
+        sentence_html: <a href="https://nicolas.steinmetz.fr/">Nicolas Steinmetz</a>
+          replied '' to a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
+      target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
+    author: *214
+    type: reply
+    content: "<p>Note: cet échange là, on ne l’aurait plus sur des blogs classiques
+      au travers des commentaires - la centralisation et les notifications le permettent
+      :-/</p>"
+  '928206694286594049':
+    id: '928206694286594049'
+    url: https://twitter.com/remouk/status/928206694286594049
+    source: twitter
+    pubdate: 2017-11-08 11:24:55.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/nhoizey/928190636024565766/928206694286594049
+      verified: true
+      verified_date: '2017-11-08T10:41:44+00:00'
+      id: 471827
+      private: false
+      data:
+        author: &215
+          name: remouk
+          url: http://danstonchat.com
+          photo: https://webmention.io/avatar/pbs.twimg.com/098c7769189b3025d523c317a46d0e5b1d4fc725472f559d0f7f06e1cf204afa.jpg
+        url: https://twitter.com/remouk/status/928206694286594049
+        name: 
+        content: On l'aurait eu à l'époque mais clairement les usages ont changé...
+          :(
+        published: '2017-11-08T10:24:55+00:00'
+        published_ts: 1510136695
+      activity:
+        type: reply
+        sentence: remouk replied '' to a tweet https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
+        sentence_html: <a href="http://danstonchat.com">remouk</a> replied '' to a
+          tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
+      target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
+    author: *215
+    type: reply
+    content: "<p>On l’aurait eu à l’époque mais clairement les usages ont changé…
+      :(</p>"
+  '928211440544178176':
+    id: '928211440544178176'
+    url: https://twitter.com/borisschapira/status/928211440544178176
+    source: twitter
+    pubdate: 2017-11-08 11:43:47.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/nhoizey/928190636024565766/928211440544178176
+      verified: true
+      verified_date: '2017-11-08T11:11:52+00:00'
+      id: 471831
+      private: false
+      data:
+        author: &216
+          name: "Boris \U0001F680"
+          url: https://borisschapira.com
+          photo: https://webmention.io/avatar/pbs.twimg.com/3d8105333110098f48010fa00794be2f29597715cc34fef041a051ed8d0d3ae3.jpg
+        url: https://twitter.com/borisschapira/status/928211440544178176
+        name: 
+        content: Ce qui n'est pas un problème puisque l'échange n'a ni pérennité,
+          ni lien avec une publication plus fournie. De plus, je soupçonne qu'il n'ait
+          pas de conclusion non plus.
+        published: '2017-11-08T10:43:47+00:00'
+        published_ts: 1510137827
+      activity:
+        type: reply
+        sentence: "Boris \U0001F680 replied '' to a tweet https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html"
+        sentence_html: "<a href=\"https://borisschapira.com\">Boris \U0001F680</a>
+          replied '' to a tweet <a href=\"https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html\">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>"
+      target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
+    author: *216
+    type: reply
+    content: "<p>Ce qui n’est pas un problème puisque l’échange n’a ni pérennité,
+      ni lien avec une publication plus fournie. De plus, je soupçonne qu’il n’ait
+      pas de conclusion non plus.</p>"
+  '928214017809797121':
+    id: '928214017809797121'
+    url: https://twitter.com/nhoizey/status/928214017809797121
+    source: twitter
+    pubdate: 2017-11-08 11:54:01.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/nhoizey/928190636024565766/928214017809797121
+      verified: true
+      verified_date: '2017-11-08T11:12:37+00:00'
+      id: 471832
+      private: false
+      data:
+        author: &217
+          name: Nicolas Hoizey
+          url: https://nicolas-hoizey.com
+          photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
+        url: https://twitter.com/nhoizey/status/928214017809797121
+        name: 
+        content: On l’aurait sans doute eu, mais moins rapide/informel. C’est complémentaire.
+        published: '2017-11-08T10:54:01+00:00'
+        published_ts: 1510138441
+      activity:
+        type: reply
+        sentence: Nicolas Hoizey replied '' to a tweet https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
+        sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
+          '' to a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
+      target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
+    author: *217
+    type: reply
+    content: "<p>On l’aurait sans doute eu, mais moins rapide/informel. C’est complémentaire.</p>"
 "/2017/10/chrome-fails-showing-big-emojis.html":
   '923854064244482049':
     id: '923854064244482049'
@@ -9419,7 +9549,7 @@
       id: 468370
       private: false
       data:
-        author: &214
+        author: &218
           name: Tobi Reif
           url: https://tobireif.com
           photo: https://webmention.io/avatar/pbs.twimg.com/5e29c96ebd275f26f7d3e38c320a8e2f9d1f89fc8c44dfb3d77a6404c70e53f1.jpg
@@ -9434,7 +9564,7 @@
         sentence_html: <a href="https://tobireif.com">Tobi Reif</a> retweeted a tweet
           <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *214
+    author: *218
     type: repost
     content: <p><a href="https://tobireif.com">Tobi Reif</a> retweeted a tweet <a
       href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a></p>
@@ -9450,7 +9580,7 @@
       id: 468371
       private: false
       data:
-        author: &215
+        author: &219
           name: Tobi Reif
           url: https://twitter.com/TobiReif
           photo: https://webmention.io/avatar/pbs.twimg.com/5e29c96ebd275f26f7d3e38c320a8e2f9d1f89fc8c44dfb3d77a6404c70e53f1.jpg
@@ -9466,7 +9596,7 @@
         sentence_html: <a href="https://twitter.com/TobiReif">Tobi Reif</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *215
+    author: *219
     type: like
     content: <p><a href="https://twitter.com/TobiReif">Tobi Reif</a> favorited a tweet
       <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a></p>
@@ -9482,7 +9612,7 @@
       id: 468396
       private: false
       data:
-        author: &216
+        author: &220
           name: "Boris \U0001F680"
           url: https://borisschapira.com
           photo: https://webmention.io/avatar/pbs.twimg.com/d3ed75cdd1d0d82555937738c4ee8988786f99b45590f5bb048beb7793ba1e6b.jpg
@@ -9498,7 +9628,7 @@
         sentence_html: "<a href=\"https://borisschapira.com\">Boris \U0001F680</a>
           retweeted a tweet <a href=\"https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html\">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>"
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *216
+    author: *220
     type: repost
     content: "<p><a href=\"https://borisschapira.com\">Boris \U0001F680</a> retweeted
       a tweet <a href=\"https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html\">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a></p>"
@@ -9514,7 +9644,7 @@
       id: 468397
       private: false
       data:
-        author: &217
+        author: &221
           name: "Hubert \U0001F60E SABLONNIÈRE"
           url: https://twitter.com/hsablonniere
           photo: https://webmention.io/avatar/pbs.twimg.com/b98be22654fa0b522890000c8e7ce8a6a4385d79a7f280ddacc56b7c2915d8d6.jpg
@@ -9531,7 +9661,7 @@
         sentence_html: "<a href=\"https://twitter.com/hsablonniere\">Hubert \U0001F60E
           SABLONNIÈRE</a> favorited a tweet <a href=\"https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html\">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>"
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *217
+    author: *221
     type: like
     content: "<p><a href=\"https://twitter.com/hsablonniere\">Hubert \U0001F60E SABLONNIÈRE</a>
       favorited a tweet <a href=\"https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html\">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a></p>"
@@ -9547,7 +9677,7 @@
       id: 468403
       private: false
       data:
-        author: &218
+        author: &222
           name: Julien Wajsberg
           url: http://everlong.org
           photo: https://webmention.io/avatar/pbs.twimg.com/079e8b6d4d606c25447891e40542e9d4f62b9e045b7f19f88e00262468d79454.jpeg
@@ -9563,7 +9693,7 @@
         sentence_html: <a href="http://everlong.org">Julien Wajsberg</a> replied ''
           to a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *218
+    author: *222
     type: reply
     content: "<p>“Firefox on macOS doesn’t have a real fullscreen option appart from
       the one you can start with JavaScript” mmm then why don’t you use JS ?</p>"
@@ -9579,7 +9709,7 @@
       id: 468404
       private: false
       data:
-        author: &219
+        author: &223
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -9595,7 +9725,7 @@
         sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
           '' to a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *219
+    author: *223
     type: reply
     content: "<p>Because I don’t want to develop something that should be native.
       And the development would have to be copy/pasted everywhere I need it.</p>"
@@ -9611,7 +9741,7 @@
       id: 468406
       private: false
       data:
-        author: &220
+        author: &224
           name: Xavier Mouton-Dubosc
           url: http://dascritch.net
           photo: https://webmention.io/avatar/pbs.twimg.com/bad9dca3e13bf73aa4df7f69d59a019b91e275538299adacd01b56693c24ba53.png
@@ -9627,7 +9757,7 @@
         sentence_html: <a href="http://dascritch.net">Xavier Mouton-Dubosc</a> retweeted
           a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *220
+    author: *224
     type: repost
     content: <p><a href="http://dascritch.net">Xavier Mouton-Dubosc</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a></p>
@@ -9643,7 +9773,7 @@
       id: 468405
       private: false
       data:
-        author: &221
+        author: &225
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -9659,7 +9789,7 @@
         sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
           'bugzilla.mozilla.org/show_bug.cgi?i…' to a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *221
+    author: *225
     type: reply
     content: <p><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1403085">bugzilla.mozilla.org/show_bug.cgi?i…</a></p>
   '923888643542016001':
@@ -9674,7 +9804,7 @@
       id: 468408
       private: false
       data:
-        author: &222
+        author: &226
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -9690,7 +9820,7 @@
         sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
           '' to a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *222
+    author: *226
     type: reply
     content: "<p>I already lost too much time, I chose to use Powerpoint after all…
       \U0001F625</p>"
@@ -9706,7 +9836,7 @@
       id: 468407
       private: false
       data:
-        author: &223
+        author: &227
           name: Julien Wajsberg
           url: http://everlong.org
           photo: https://webmention.io/avatar/pbs.twimg.com/079e8b6d4d606c25447891e40542e9d4f62b9e045b7f19f88e00262468d79454.jpeg
@@ -9722,7 +9852,7 @@
         sentence_html: <a href="http://everlong.org">Julien Wajsberg</a> replied ''
           to a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *223
+    author: *227
     type: reply
     content: "<p>You do cross-browser development, right ? IMO this can be part of
       it. Although I understand it’s inconvenient.</p>"
@@ -9738,7 +9868,7 @@
       id: 468409
       private: false
       data:
-        author: &224
+        author: &228
           name: Julien Wajsberg
           url: http://everlong.org
           photo: https://webmention.io/avatar/pbs.twimg.com/079e8b6d4d606c25447891e40542e9d4f62b9e045b7f19f88e00262468d79454.jpeg
@@ -9753,7 +9883,7 @@
         sentence_html: <a href="http://everlong.org">Julien Wajsberg</a> replied ''
           to a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *224
+    author: *228
     type: reply
     content: "<p>ouch :(</p>"
   '923918752470749185':
@@ -9768,7 +9898,7 @@
       id: 468433
       private: false
       data:
-        author: &225
+        author: &229
           name: Xavier Zalawa
           url: http://www.7studio.fr
           photo: https://webmention.io/avatar/pbs.twimg.com/d8ef47ca310cf0775f7c27550c6d3c23bca5e0f6b6bec30f1cfa5262afce56a9.jpg
@@ -9784,7 +9914,7 @@
         sentence_html: <a href="http://www.7studio.fr">Xavier Zalawa</a> retweeted
           a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *225
+    author: *229
     type: repost
     content: <p><a href="http://www.7studio.fr">Xavier Zalawa</a> retweeted a tweet
       <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a></p>
@@ -9800,7 +9930,7 @@
       id: 468434
       private: false
       data:
-        author: &226
+        author: &230
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -9815,7 +9945,7 @@
         sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
           '' to a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *226
+    author: *230
     type: reply
     content: "<p>\U0001F632</p>"
   '923917557106606080':
@@ -9830,7 +9960,7 @@
       id: 468436
       private: false
       data:
-        author: &227
+        author: &231
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -9845,7 +9975,7 @@
         sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
           '' to a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *227
+    author: *231
     type: reply
     content: "<p>Mais que de temps perdu… \U0001F604</p>"
   '923919600298885121':
@@ -9860,7 +9990,7 @@
       id: 468435
       private: false
       data:
-        author: &228
+        author: &232
           name: florens
           url: http://fvsch.com
           photo: https://webmention.io/avatar/pbs.twimg.com/dcb2d84e544835659f3002614ef679b273f8bebfbe1066cbd44951a37580ba53.jpg
@@ -9876,7 +10006,7 @@
         sentence_html: <a href="http://fvsch.com">florens</a> retweeted a tweet <a
           href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *228
+    author: *232
     type: repost
     content: <p><a href="http://fvsch.com">florens</a> retweeted a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a></p>
   '923918938144231426':
@@ -9891,7 +10021,7 @@
       id: 468438
       private: false
       data:
-        author: &229
+        author: &233
           name: Jean-Pierre Vincent
           url: http://braincracking.org
           photo: https://webmention.io/avatar/pbs.twimg.com/28a5d3be9d9f0961f8c383b1350241f225f845a5a3e502e9cea86ea5fc7c6448.jpg
@@ -9909,7 +10039,7 @@
           replied 'paroles-musique.com/paroles-Sabrin… (oui je suis parti chercher
           loin)' to a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *229
+    author: *233
     type: reply
     content: <p><a href="http://www.paroles-musique.com/paroles-Sabrina-Boys_Boys_Boys-lyrics,p47717">paroles-musique.com/paroles-Sabrin…</a>
       (oui je suis parti chercher loin)</p>
@@ -9925,7 +10055,7 @@
       id: 468437
       private: false
       data:
-        author: &230
+        author: &234
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -9940,7 +10070,7 @@
         sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
           '' to a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *230
+    author: *234
     type: reply
     content: "<p>Je ne connais pas !</p>"
   '923916664730800129':
@@ -9955,7 +10085,7 @@
       id: 468439
       private: false
       data:
-        author: &231
+        author: &235
           name: Jean-Pierre Vincent
           url: http://braincracking.org
           photo: https://webmention.io/avatar/pbs.twimg.com/28a5d3be9d9f0961f8c383b1350241f225f845a5a3e502e9cea86ea5fc7c6448.jpg
@@ -9970,7 +10100,7 @@
         sentence_html: <a href="http://braincracking.org">Jean-Pierre Vincent</a>
           replied '' to a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *231
+    author: *235
     type: reply
     content: "<p>bien trouvé :)</p>"
   '923918555363594240':
@@ -9985,7 +10115,7 @@
       id: 468440
       private: false
       data:
-        author: &232
+        author: &236
           name: Jean-Pierre Vincent
           url: http://braincracking.org
           photo: https://webmention.io/avatar/pbs.twimg.com/28a5d3be9d9f0961f8c383b1350241f225f845a5a3e502e9cea86ea5fc7c6448.jpg
@@ -10004,7 +10134,7 @@
         sentence_html: <a href="http://braincracking.org">Jean-Pierre Vincent</a>
           replied 'bugs bugs bugs ! Sunshine down So come to town' to a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *232
+    author: *236
     type: reply
     content: |-
       <p>bugs bugs bugs !
@@ -10022,7 +10152,7 @@
       id: 468501
       private: false
       data:
-        author: &233
+        author: &237
           name: Eric Portis
           url: https://twitter.com/etportis
           photo: https://webmention.io/avatar/pbs.twimg.com/558b4c45b7bd5a1107c170e4bb77e2f8cd7f59bf7eda42756b5a7b93c24753a2.png
@@ -10038,7 +10168,7 @@
         sentence_html: <a href="https://twitter.com/etportis">Eric Portis</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *233
+    author: *237
     type: like
     content: <p><a href="https://twitter.com/etportis">Eric Portis</a> favorited a
       tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a></p>
@@ -10054,7 +10184,7 @@
       id: 468507
       private: false
       data:
-        author: &234
+        author: &238
           name: Matthieu Rébillard
           url: https://twitter.com/matrebillard
           photo: https://webmention.io/avatar/pbs.twimg.com/e6013d1fe66b5582f07e3bad0803c102e078a640dab2517711d0a0a702680bf8.jpg
@@ -10071,7 +10201,7 @@
         sentence_html: <a href="https://twitter.com/matrebillard">Matthieu Rébillard</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *234
+    author: *238
     type: like
     content: <p><a href="https://twitter.com/matrebillard">Matthieu Rébillard</a>
       favorited a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a></p>
@@ -10087,7 +10217,7 @@
       id: 468704
       private: false
       data:
-        author: &235
+        author: &239
           name: Nicolas Hoizey
           url: https://twitter.com/nhoizey
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -10103,7 +10233,7 @@
         sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *235
+    author: *239
     type: like
     content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a></p>
@@ -10119,7 +10249,7 @@
       id: 468710
       private: false
       data:
-        author: &236
+        author: &240
           name: Jacques Pyrat
           url: https://twitter.com/jpyrat
           photo: https://webmention.io/avatar/pbs.twimg.com/309d56d684421118ad8e38aa879a4f9ae0242b7275915212757324d20c940027.jpg
@@ -10135,7 +10265,483 @@
         sentence_html: <a href="https://twitter.com/jpyrat">Jacques Pyrat</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *236
+    author: *240
     type: like
     content: <p><a href="https://twitter.com/jpyrat">Jacques Pyrat</a> favorited a
       tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a></p>
+"/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html":
+  '472193':
+    id: '472193'
+    url: https://twitter.com/nhoizey/status/928529341620936705#favorited-by-10339172
+    source: twitter
+    pubdate: 2017-11-09 09:01:26.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nhoizey/928529341620936705/10339172
+      verified: true
+      verified_date: '2017-11-09T08:01:26+00:00'
+      id: 472193
+      private: false
+      data:
+        author: &241
+          name: "Boris \U0001F680"
+          url: https://twitter.com/borisschapira
+          photo: https://webmention.io/avatar/pbs.twimg.com/3d8105333110098f48010fa00794be2f29597715cc34fef041a051ed8d0d3ae3.jpg
+        url: https://twitter.com/nhoizey/status/928529341620936705#favorited-by-10339172
+        name: "tag:twitter.com,2013:928529341620936705_favorited_by_10339172\n  \n
+          \ \n  \n  \n     \n \n    Boris \U0001F680\n    borisschapira\n    \n  \n\n
+          \ https://twitter.com/nhoizey/status/928529341620936705#favorited-by-10339172"
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: "Boris \U0001F680 favorited a tweet https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html"
+        sentence_html: "<a href=\"https://twitter.com/borisschapira\">Boris \U0001F680</a>
+          favorited a tweet <a href=\"https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html\">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>"
+      target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
+    author: *241
+    type: like
+    content: "<p><a href=\"https://twitter.com/borisschapira\">Boris \U0001F680</a>
+      favorited a tweet <a href=\"https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html\">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a></p>"
+  '928530593251504128':
+    id: '928530593251504128'
+    url: https://twitter.com/nicosomb/status/928530593251504128
+    source: twitter
+    pubdate: 2017-11-09 08:51:59.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nhoizey/928529341620936705/928530593251504128
+      verified: true
+      verified_date: '2017-11-09T08:01:26+00:00'
+      id: 472192
+      private: false
+      data:
+        author: &242
+          name: nicosomb
+          url: https://nicolas.loeuillet.org
+          photo: https://webmention.io/avatar/pbs.twimg.com/2aa70fc786eba977955617e335a0a560312150f6b7791de1cd1652e1705699b9.jpg
+        url: https://twitter.com/nicosomb/status/928530593251504128
+        name: 
+        content: 'Medium is only an edge server of your POSSE CDN, your own blog is
+          the origin nicolas-hoizey.com/2017/11/medium… #blog'
+        published: '2017-11-09T07:51:59+00:00'
+        published_ts: 1510213919
+      activity:
+        type: repost
+        sentence: nicosomb retweeted a tweet https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
+        sentence_html: <a href="https://nicolas.loeuillet.org">nicosomb</a> retweeted
+          a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
+      target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
+    author: *242
+    type: repost
+    content: <p><a href="https://nicolas.loeuillet.org">nicosomb</a> retweeted a tweet
+      <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a></p>
+  '472194':
+    id: '472194'
+    url: https://twitter.com/nhoizey/status/928529341620936705#favorited-by-67565749
+    source: twitter
+    pubdate: 2017-11-09 09:01:27.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nhoizey/928529341620936705/67565749
+      verified: true
+      verified_date: '2017-11-09T08:01:27+00:00'
+      id: 472194
+      private: false
+      data:
+        author: &243
+          name: Christophe Vergne
+          url: https://twitter.com/cvergne
+          photo: https://webmention.io/avatar/pbs.twimg.com/de4de54c819f1801de8a33593c557d64a2fe4daaf0c99373945329670d32762a.jpg
+        url: https://twitter.com/nhoizey/status/928529341620936705#favorited-by-67565749
+        name: "tag:twitter.com,2013:928529341620936705_favorited_by_67565749\n  \n
+          \ \n  \n  \n     \n \n    Christophe Vergne\n    cvergne\n    \n  \n\n  https://twitter.com/nhoizey/status/928529341620936705#favorited-by-67565749"
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Christophe Vergne favorited a tweet https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
+        sentence_html: <a href="https://twitter.com/cvergne">Christophe Vergne</a>
+          favorited a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
+      target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
+    author: *243
+    type: like
+    content: <p><a href="https://twitter.com/cvergne">Christophe Vergne</a> favorited
+      a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a></p>
+  '928532498140852226':
+    id: '928532498140852226'
+    url: https://twitter.com/nsteinmetz/status/928532498140852226
+    source: twitter
+    pubdate: 2017-11-09 08:59:33.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nhoizey/928529341620936705/928532498140852226
+      verified: true
+      verified_date: '2017-11-09T08:02:00+00:00'
+      id: 472195
+      private: false
+      data:
+        author: &244
+          name: Nicolas Steinmetz
+          url: https://nicolas.steinmetz.fr/
+          photo: https://webmention.io/avatar/pbs.twimg.com/bebe3da8075d9083c901625cf2b977caad289bef5f986cacaffcbae4bd48122a.jpg
+        url: https://twitter.com/nsteinmetz/status/928532498140852226
+        name: 
+        content: 'Medium is only an edge server of your POSSE CDN, your own blog is
+          the origin nicolas-hoizey.com/2017/11/medium… #blog'
+        published: '2017-11-09T07:59:33+00:00'
+        published_ts: 1510214373
+      activity:
+        type: repost
+        sentence: Nicolas Steinmetz retweeted a tweet https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
+        sentence_html: <a href="https://nicolas.steinmetz.fr/">Nicolas Steinmetz</a>
+          retweeted a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
+      target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
+    author: *244
+    type: repost
+    content: <p><a href="https://nicolas.steinmetz.fr/">Nicolas Steinmetz</a> retweeted
+      a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a></p>
+  '472196':
+    id: '472196'
+    url: https://twitter.com/nhoizey/status/928529341620936705#favorited-by-18814705
+    source: twitter
+    pubdate: 2017-11-09 09:02:30.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nhoizey/928529341620936705/18814705
+      verified: true
+      verified_date: '2017-11-09T08:02:30+00:00'
+      id: 472196
+      private: false
+      data:
+        author: &245
+          name: Nicolas Steinmetz
+          url: https://twitter.com/nsteinmetz
+          photo: https://webmention.io/avatar/pbs.twimg.com/bebe3da8075d9083c901625cf2b977caad289bef5f986cacaffcbae4bd48122a.jpg
+        url: https://twitter.com/nhoizey/status/928529341620936705#favorited-by-18814705
+        name: "tag:twitter.com,2013:928529341620936705_favorited_by_18814705\n  \n
+          \ \n  \n  \n     \n \n    Nicolas Steinmetz\n    nsteinmetz\n    \n  \n\n
+          \ https://twitter.com/nhoizey/status/928529341620936705#favorited-by-18814705"
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Nicolas Steinmetz favorited a tweet https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
+        sentence_html: <a href="https://twitter.com/nsteinmetz">Nicolas Steinmetz</a>
+          favorited a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
+      target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
+    author: *245
+    type: like
+    content: <p><a href="https://twitter.com/nsteinmetz">Nicolas Steinmetz</a> favorited
+      a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a></p>
+  '928532728961814528':
+    id: '928532728961814528'
+    url: https://twitter.com/borisschapira/status/928532728961814528
+    source: twitter
+    pubdate: 2017-11-09 09:00:28.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nhoizey/928529341620936705/928532728961814528
+      verified: true
+      verified_date: '2017-11-09T08:02:57+00:00'
+      id: 472197
+      private: false
+      data:
+        author: &246
+          name: "Boris \U0001F680"
+          url: https://borisschapira.com
+          photo: https://webmention.io/avatar/pbs.twimg.com/3d8105333110098f48010fa00794be2f29597715cc34fef041a051ed8d0d3ae3.jpg
+        url: https://twitter.com/borisschapira/status/928532728961814528
+        name: 
+        content: 'Medium is only an edge server of your POSSE CDN, your own blog is
+          the origin nicolas-hoizey.com/2017/11/medium… #blog'
+        published: '2017-11-09T08:00:28+00:00'
+        published_ts: 1510214428
+      activity:
+        type: repost
+        sentence: "Boris \U0001F680 retweeted a tweet https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html"
+        sentence_html: "<a href=\"https://borisschapira.com\">Boris \U0001F680</a>
+          retweeted a tweet <a href=\"https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html\">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>"
+      target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
+    author: *246
+    type: repost
+    content: "<p><a href=\"https://borisschapira.com\">Boris \U0001F680</a> retweeted
+      a tweet <a href=\"https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html\">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a></p>"
+  '928547984060633088':
+    id: '928547984060633088'
+    url: https://twitter.com/remouk/status/928547984060633088
+    source: twitter
+    pubdate: 2017-11-09 10:01:05.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/nhoizey/928529341620936705/928547984060633088
+      verified: true
+      verified_date: '2017-11-09T09:02:48+00:00'
+      id: 472202
+      private: false
+      data:
+        author: &247
+          name: remouk
+          url: http://danstonchat.com
+          photo: https://webmention.io/avatar/pbs.twimg.com/098c7769189b3025d523c317a46d0e5b1d4fc725472f559d0f7f06e1cf204afa.jpg
+        url: https://twitter.com/remouk/status/928547984060633088
+        name: 
+        content: Je suis en tout point d'accord avec ton article. :) Je me renseigne
+          doucement sur <a href="https://twitter.com/search?q=%23webmention">#webmention</a>
+          dont je n'avais jamais entendu parler... Il existe un plugin <a href="https://twitter.com/search?q=%23WordPress">#WordPress</a>
+          et avec <a href="https://twitter.com/search?q=%23Bridgy">#Bridgy</a> pour
+          récupérer les "réponses" ça devrait pas être trop compliqué à mettre en
+          place.
+        published: '2017-11-09T09:01:05+00:00'
+        published_ts: 1510218065
+      activity:
+        type: reply
+        sentence: remouk replied 'Je suis en tout point d'accord avec ton article.
+          :) Je me renseigne doucement su...' to a tweet https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
+        sentence_html: <a href="http://danstonchat.com">remouk</a> replied 'Je suis
+          en tout point d'accord avec ton article. :) Je me renseigne doucement su...'
+          to a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
+      target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
+    author: *247
+    type: reply
+    content: <p>Je suis en tout point d’accord avec ton article. :) Je me renseigne
+      doucement sur <a href="https://twitter.com/search?q=%23webmention">#webmention</a>
+      dont je n’avais jamais entendu parler… Il existe un plugin <a href="https://twitter.com/search?q=%23WordPress">#WordPress</a>
+      et avec <a href="https://twitter.com/search?q=%23Bridgy">#Bridgy</a> pour récupérer
+      les “réponses” ça devrait pas être trop compliqué à mettre en place.</p>
+  '472209':
+    id: '472209'
+    url: https://twitter.com/nhoizey/status/928529341620936705#favorited-by-2190137936
+    source: twitter
+    pubdate: 2017-11-09 09:31:18.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nhoizey/928529341620936705/2190137936
+      verified: true
+      verified_date: '2017-11-09T09:31:18+00:00'
+      id: 472209
+      private: false
+      data:
+        author: &248
+          name: Bruno Del Sol
+          url: https://twitter.com/BDelSolParis
+          photo: https://webmention.io/avatar/pbs.twimg.com/ecace765e15ad5e31329aaf770ea61999d3518dbdcbf95b8c3e31d80a3ed7f82.jpg
+        url: https://twitter.com/nhoizey/status/928529341620936705#favorited-by-2190137936
+        name: "tag:twitter.com,2013:928529341620936705_favorited_by_2190137936\n  \n
+          \ \n  \n  \n     \n \n    Bruno Del Sol\n    BDelSolParis\n    \n  \n\n
+          \ https://twitter.com/nhoizey/status/928529341620936705#favorited-by-2190137936"
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Bruno Del Sol favorited a tweet https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
+        sentence_html: <a href="https://twitter.com/BDelSolParis">Bruno Del Sol</a>
+          favorited a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
+      target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
+    author: *248
+    type: like
+    content: <p><a href="https://twitter.com/BDelSolParis">Bruno Del Sol</a> favorited
+      a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a></p>
+  '928551519015841792':
+    id: '928551519015841792'
+    url: https://twitter.com/nhoizey/status/928551519015841792
+    source: twitter
+    pubdate: 2017-11-09 10:15:08.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/nhoizey/928529341620936705/928551519015841792
+      verified: true
+      verified_date: '2017-11-09T09:31:32+00:00'
+      id: 472210
+      private: false
+      data:
+        author: &249
+          name: Nicolas Hoizey
+          url: https://nicolas-hoizey.com
+          photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
+        url: https://twitter.com/nhoizey/status/928551519015841792
+        name: 
+        content: "Cool ! Heureux de t’avoir fait découvrir cette merveille. \U0001F609"
+        published: '2017-11-09T09:15:08+00:00'
+        published_ts: 1510218908
+      activity:
+        type: reply
+        sentence: Nicolas Hoizey replied '' to a tweet https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
+        sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
+          '' to a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
+      target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
+    author: *249
+    type: reply
+    content: "<p>Cool ! Heureux de t’avoir fait découvrir cette merveille. \U0001F609</p>"
+  '928555548471103489':
+    id: '928555548471103489'
+    url: https://twitter.com/borisschapira/status/928555548471103489
+    source: twitter
+    pubdate: 2017-11-09 10:31:09.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/post/twitter/nhoizey/928555548471103489
+      verified: true
+      verified_date: '2017-11-09T10:05:30+00:00'
+      id: 472215
+      private: false
+      data:
+        author: &250
+          name: "Boris \U0001F680"
+          url: https://borisschapira.com
+          photo: https://webmention.io/avatar/pbs.twimg.com/3d8105333110098f48010fa00794be2f29597715cc34fef041a051ed8d0d3ae3.jpg
+        url: https://twitter.com/borisschapira/status/928555548471103489
+        name: 
+        content: '[Veille] "Medium is only an edge server of your POSSE CDN, your
+          own blog is the origin", Nicolas Hoizey (<a href="https://twitter.com/nhoizey">@nhoizey</a>)…
+          <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">nicolas-hoizey.com/2017/11/medium…</a>'
+        published: '2017-11-09T09:31:09+00:00'
+        published_ts: 1510219869
+      activity:
+        type: link
+        sentence: "Boris \U0001F680 posted '[Veille] \"Medium is only an edge server
+          of your POSSE CDN, your own blog is the ...' linking to https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html"
+        sentence_html: "<a href=\"https://borisschapira.com\">Boris \U0001F680</a>
+          posted '[Veille] \"Medium is only an edge server of your POSSE CDN, your
+          own blog is the ...' linking to <a href=\"https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html\">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>"
+      target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
+    author: *250
+    type: link
+    content: <p>[Veille] “Medium is only an edge server of your POSSE CDN, your own
+      blog is the origin”, Nicolas Hoizey (<a href="https://twitter.com/nhoizey">@nhoizey</a>)…
+      <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">nicolas-hoizey.com/2017/11/medium…</a></p>
+  '928563890467811329':
+    id: '928563890467811329'
+    url: https://twitter.com/nsteinmetz/status/928563890467811329
+    source: twitter
+    pubdate: 2017-11-09 11:04:18.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/post/twitter/nhoizey/928563890467811329
+      verified: true
+      verified_date: '2017-11-09T10:05:33+00:00'
+      id: 472217
+      private: false
+      data:
+        author: &251
+          name: Nicolas Steinmetz
+          url: https://nicolas.steinmetz.fr/
+          photo: https://webmention.io/avatar/pbs.twimg.com/bebe3da8075d9083c901625cf2b977caad289bef5f986cacaffcbae4bd48122a.jpg
+        url: https://twitter.com/nsteinmetz/status/928563890467811329
+        name: 
+        content: Medium is only an edge server of your POSSE CDN, your own blog is
+          the origin - <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">nicolas-hoizey.com/2017/11/medium…</a>
+          <a href="https://twitter.com/search?q=%23rss">#rss</a>
+        published: '2017-11-09T10:04:18+00:00'
+        published_ts: 1510221858
+      activity:
+        type: link
+        sentence: Nicolas Steinmetz posted 'Medium is only an edge server of your
+          POSSE CDN, your own blog is the origin - n...' linking to https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
+        sentence_html: <a href="https://nicolas.steinmetz.fr/">Nicolas Steinmetz</a>
+          posted 'Medium is only an edge server of your POSSE CDN, your own blog is
+          the origin - n...' linking to <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
+      target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
+    author: *251
+    type: link
+    content: <p>Medium is only an edge server of your POSSE CDN, your own blog is
+      the origin - <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">nicolas-hoizey.com/2017/11/medium…</a>
+      <a href="https://twitter.com/search?q=%23rss">#rss</a></p>
+  '472224':
+    id: '472224'
+    url: https://twitter.com/nhoizey/status/928529341620936705#favorited-by-138414868
+    source: twitter
+    pubdate: 2017-11-09 10:30:03.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nhoizey/928529341620936705/138414868
+      verified: true
+      verified_date: '2017-11-09T10:30:03+00:00'
+      id: 472224
+      private: false
+      data:
+        author: &252
+          name: Mickaël Isaert
+          url: https://twitter.com/micmeister59
+          photo: https://webmention.io/avatar/pbs.twimg.com/271cb1fac87c682b5b643bc42aab4e9fc8d5d0ac061300adfd4f695d1bab4deb.png
+        url: https://twitter.com/nhoizey/status/928529341620936705#favorited-by-138414868
+        name: "tag:twitter.com,2013:928529341620936705_favorited_by_138414868\n  \n
+          \ \n  \n  \n     \n \n    Mickaël Isaert\n    micmeister59\n    \n  \n\n
+          \ https://twitter.com/nhoizey/status/928529341620936705#favorited-by-138414868"
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Mickaël Isaert favorited a tweet https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
+        sentence_html: <a href="https://twitter.com/micmeister59">Mickaël Isaert</a>
+          favorited a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
+      target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
+    author: *252
+    type: like
+    content: <p><a href="https://twitter.com/micmeister59">Mickaël Isaert</a> favorited
+      a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a></p>
+  '928604005131005954':
+    id: '928604005131005954'
+    url: https://twitter.com/nhoizey/status/928604005131005954
+    source: twitter
+    pubdate: 2017-11-09 13:43:42.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/post/twitter/nhoizey/928604005131005954
+      verified: true
+      verified_date: '2017-11-09T13:15:21+00:00'
+      id: 472273
+      private: false
+      data:
+        author: &253
+          name: Nicolas Hoizey
+          url: https://nicolas-hoizey.com
+          photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
+        url: https://twitter.com/nhoizey/status/928604005131005954
+        name: 
+        content: |-
+          <a href="https://twitter.com/indiewebcamp">@indiewebcamp</a> thanks a lot for leading the way!
+          https://t.co/nMC5cpXuM7
+          <a class="u-mention" href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html"></a>
+        published: '2017-11-09T12:43:42+00:00'
+        published_ts: 1510231422
+      activity:
+        type: link
+        sentence: Nicolas Hoizey posted '@indiewebcamp thanks a lot for leading the
+          way! https://t.co/nMC5cpXuM7' linking to https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
+        sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> posted
+          '@indiewebcamp thanks a lot for leading the way! https://t.co/nMC5cpXuM7'
+          linking to <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
+      target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
+    author: *253
+    type: link
+    content: |-
+      <p><a href="https://twitter.com/indiewebcamp">@indiewebcamp</a> thanks a lot for leading the way!
+      https://t.co/nMC5cpXuM7
+      <a class="u-mention" href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html"></a></p>
+  '928718188258496513':
+    id: '928718188258496513'
+    url: https://twitter.com/ArnaudLigny/status/928718188258496513
+    source: twitter
+    pubdate: 2017-11-09 21:17:25.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/post/twitter/nhoizey/928718188258496513
+      verified: true
+      verified_date: '2017-11-09T20:44:12+00:00'
+      id: 472395
+      private: false
+      data:
+        author: &254
+          name: Arnaud Ligny
+          url: http://arnaudligny.fr
+          photo: https://pbs.twimg.com/profile_images/481482401835909121/n062y_rs.png
+        url: https://twitter.com/ArnaudLigny/status/928718188258496513
+        name: 
+        content: Medium is only an edge server of your POSSE CDN, your own blog is
+          the origin <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">nicolas-hoizey.com/2017/11/medium…</a>
+        published: '2017-11-09T20:17:25+00:00'
+        published_ts: 1510258645
+      activity:
+        type: link
+        sentence: Arnaud Ligny posted 'Medium is only an edge server of your POSSE
+          CDN, your own blog is the origin nic...' linking to https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
+        sentence_html: <a href="http://arnaudligny.fr">Arnaud Ligny</a> posted 'Medium
+          is only an edge server of your POSSE CDN, your own blog is the origin nic...'
+          linking to <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
+      target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
+    author: *254
+    type: link
+    content: <p>Medium is only an edge server of your POSSE CDN, your own blog is
+      the origin <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">nicolas-hoizey.com/2017/11/medium…</a></p>
