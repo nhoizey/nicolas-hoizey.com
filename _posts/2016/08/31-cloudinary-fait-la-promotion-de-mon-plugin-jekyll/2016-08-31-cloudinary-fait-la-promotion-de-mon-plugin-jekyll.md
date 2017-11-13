@@ -9,7 +9,7 @@ Je vous en avais parlé [lors de ma migration vers Jekyll 3](https://nicolas-hoi
 {% cloudinary logo /assets/logos/cloudinary.png alt="Cloudinary" %}
 [Cloudinary](https://nho.io/cloudinary-signup) a semble-t-il bien aimé cette initiative, puisque [Eric Portis](https://ericportis.com/) ([@etportis](https://twitter.com/etportis)), qui les a rejoint il y a quelque temps, m'a invité à écrire un billet pour leur blog à propos de ce développement : « [How I used Cloudinary to solve responsive image needs in my Jekyll website, and shared the magic in a plugin](http://cloudinary.com/blog/how_i_used_cloudinary_to_solve_responsive_image_needs_in_my_jekyll_website_and_shared_the_magic_in_a_plugin) ».
 
-Le billet a aussi été traduit en français par [Frank Taillandier](http://frank.taillandier.me/) pour le site Jekyll FR : « [Gérer les images responsive dans Jekyll avec le plugin Cloudinary](http://jekyll-fr.org/2016/08/31/gestion-images-responsive-avec-jekyll-cloudinary/) ».
+Le billet a aussi été traduit en français par [Frank Taillandier](http://frank.taillandier.me/) pour le site Jekyll FR : « [Gérer les images responsive dans Jekyll avec le plugin Cloudinary](https://jamstatic.fr/2016/08/31/gestion-images-responsive-avec-jekyll-cloudinary/) ».
 
 N'hésitez-pas à partager l'info, retweeter, etc. !
 
