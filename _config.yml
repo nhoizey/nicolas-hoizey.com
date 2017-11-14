@@ -86,6 +86,11 @@ webmentions:
   js: false
   legacy_domains:
     - http://nicolas-hoizey.com
+  throttle_lookups:
+    last_week: daily
+    last_month: weekly
+    last_year: every 2 weeks
+    older: monthly
 
 # YouTube
 youtube:
