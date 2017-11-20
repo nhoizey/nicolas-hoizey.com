@@ -3261,6 +3261,7 @@ https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-c
   https://en.wordpress.com/: false
   https://indieweb.org/IndieMark: false
   https://medium.com/@ev/writing-in-medium-df8eac9f4a5e: false
+  https://twitter.com/nhoizey/status/932291964434898944: false
 http://localhost:4000/2017/10/chrome-fails-showing-big-emojis.html:
   https://bugs.chromium.org/p/chromium/issues/detail?id=719648: false
   https://twitter.com/TobiReif: false
