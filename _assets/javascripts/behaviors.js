@@ -88,7 +88,7 @@ function onAlgoliaAvailable(callback) {
   } else {
     if (!algoliaLinked) {
       var algoliaScript = window.document.createElement('script');
-      algoliaScript.setAttribute('src', '/assets/javascript/vendors/algoliasearchLite-3.24.3.min.js');
+      algoliaScript.setAttribute('src', '/assets/javascript/vendors/algoliasearchLite-3.24.6.min.js');
       window.document.getElementsByTagName('head')[0].appendChild(algoliaScript);
       algoliaLinked = true;
     }
