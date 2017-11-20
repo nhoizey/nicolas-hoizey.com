@@ -24,7 +24,7 @@ Of course, Medium is an obvious black sheep, but the same can be said about most
 
 # Bad things can happen
 
-Additionnaly, Medium is a service that can disappear like many others before, and your content might be lost. I will never accept to take such a risk for my content. 
+Additionally, Medium is a service that can disappear like many others before, and your content might be lost. I will never accept to take such a risk for my content. 
 
 Also, there are sometimes issues with content moderation, like [Peter O'Shaughnessy](https://twitter.com/poshaughnessy/) experienced a few days ago:
 
@@ -45,7 +45,7 @@ Like [Webmentions](/2017/07/so-long-disqus-hello-webmentions.html), POSSE is a c
 
 You really own your content, on your own (cool) URLs, and it's up to you to [make it last](https://remysharp.com/2016/12/22/cool-uris-dont-change).
 
-But you also syndicate it on other platform (most being centralized and closed) that might have greater reach. Idealy, copies of your content on these platforms should link to your canonical URLs. Even [Medium allows it](https://help.medium.com/hc/en-us/articles/217991468-SEO-and-duplicate-content).
+But you also syndicate it on other platform (most being centralized and closed) that might have greater reach. Ideally, copies of your content on these platforms should link to your canonical URLs. Even [Medium allows it](https://help.medium.com/hc/en-us/articles/217991468-SEO-and-duplicate-content).
 
 IndieWeb listed [a few ways to POSSE to popular services and social networks](https://indieweb.org/POSSE#How_To_Implement).
 
@@ -63,7 +63,7 @@ The goal is to "distribute service spatially relative to end-users to provide hi
 
 # Let's make copies of our own content to Medium
 
-You can [manualy import any post onto Medium](https://help.medium.com/hc/en-us/articles/214550207-Import-post), just [like I did](https://medium.com/@nhoizey/chrome-fails-showing-big-emojis-8b274d98f17b) for my recent post about [big emojis not rendered by Chrome](/2017/10/chrome-fails-showing-big-emojis.html). But there are [very few formating options](https://help.medium.com/hc/en-us/sections/115001484747-Editing-formatting), it's really not made for such technical writings with code blocks.
+You can [manually import any post onto Medium](https://help.medium.com/hc/en-us/articles/214550207-Import-post), just [like I did](https://medium.com/@nhoizey/chrome-fails-showing-big-emojis-8b274d98f17b) for my recent post about [big emojis not rendered by Chrome](/2017/10/chrome-fails-showing-big-emojis.html). But there are [very few formating options](https://help.medium.com/hc/en-us/sections/115001484747-Editing-formatting), it's really not made for such technical writings with code blocks.
 
 There is also [an API](https://github.com/Medium/medium-api-docs) that allows you to `POST` you content to Medium. Jeremy Keith [blogged about this](https://adactio.com/journal/9694), and shared [his PHP code](https://gist.github.com/adactio/c174a4a68498e30babfd).
 
@@ -87,7 +87,7 @@ So, yes, it's obvious not everyone who wants to publish content is able to build
 
 If you can't do it right now, let's say hosting your own platform is your long term target.
 
-You can start by chosing a better platform that Medium to create your content, the origin that will serve all edge platforms you want to have for their greater reach.
+You can start by choosing a better platform that Medium to create your content, the origin that will serve all edge platforms you want to have for their greater reach.
 
 Such a platform can be Github with [Github Pages](https://pages.github.com/), where your content will more be yours than on Medium. You can also use the hosted [Wordpress.com](https://en.wordpress.com/). Or whatever where you will be confident enough you won't lose your content, and ownership of it.
 
@@ -98,3 +98,7 @@ It's free on Github, and only costs 4€ a month on Wordpress.com.
 It is one of the first items in [the IndieMark set of metrics](https://indieweb.org/IndieMark) for "measuring the indieweb-ness of a site, and a step-by-step approach to incrementally adopting indieweb features on your site".
 
 It is really worth it.
+
+I'm not alone recommending this:
+
+https://twitter.com/nhoizey/status/932291964434898944
