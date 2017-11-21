@@ -67,10 +67,12 @@ algolia:
   application_id: …
   index_name: …
   read_only_api_key: …
-  record_css_selector: 'p,li,figure,tr,div'
-  excluded_files:
+  nodes_to_index: 'p,li,figure,figcaption,picture,blockquote,td,th,div'
+  files_to_exclude:
     - 404.html
     - index.html
+    - recherche.html
+    - tags/index.html
 
 # Webmention
 webmentions:
