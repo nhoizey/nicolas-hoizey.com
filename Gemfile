@@ -10,7 +10,6 @@ group :jekyll_plugins do
   gem 'autoprefixer-rails'
   gem 'uglifier'
   gem 'jekyll-tagging'
-  # gem 'algoliasearch-jekyll'
   gem 'jekyll-algolia', :github => 'algolia/jekyll-algolia', :branch => 'develop'
   gem 'jekyll-postfiles'
   gem 'jekyll-cloudinary'

@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/algolia/jekyll-algolia.git
-  revision: 231c17148a7ac9dba942a1eb753f2f0cc628d61d
+  revision: b91a2cb345697ca61e408a1dbc549269c45f9366
   branch: develop
   specs:
     jekyll-algolia (1.0.0)
