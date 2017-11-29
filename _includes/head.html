@@ -6,21 +6,23 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  {% comment %} Inline critical JS {% endcomment %}
   <script>
   {% asset early-js %}
   </script>
 
+  {% comment %} Inline critical CSS {% endcomment %}
   <style>
   {% asset critical-styles %}
   </style>
 
-  <link rel="preload" href="{% asset_path non-critical-styles %}" as="style" onload="this.rel='stylesheet'" />
+  {% comment %} Async load of non critical CSS {% endcomment %}
+  <link rel="preload" href="{% asset_path non-critical-styles %}" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <noscript>
     <link rel="stylesheet" href="{% asset_path non-critical-styles %}" />
   </noscript>
   <script>
-    {% asset vendors/loadCSS-1.2.0 %}
-    {% asset vendors/cssrelpreload-1.2.0 %}
+    {% asset vendors/cssrelpreload-2.0.0-4 %}
   </script>
 
   {% comment %} opengraph and Twitter {% endcomment %}
