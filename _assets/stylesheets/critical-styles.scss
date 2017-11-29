@@ -1,4 +1,4 @@
-@import "settings";
+@import 'settings';
 
 // Box sizing:
 // http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
@@ -9,7 +9,9 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -20,8 +22,8 @@ body {
   display: flex;
   flex-direction: column;
 
-  font-family: Georgia, "DejaVu Serif", serif;
-  font-size: calc(.9em + .5vw);
+  font-family: Georgia, 'DejaVu Serif', serif;
+  font-size: calc(0.9em + 0.5vw);
   line-height: 1.5;
   font-weight: 400;
 
@@ -42,62 +44,67 @@ p {
   margin: $baseline 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 400;
   line-height: 1.3;
   color: $color-title;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
 
 $fontBreakpoint: 40em;
 
-$h1: calc(.9em + 3vw);
+$h1: calc(0.9em + 3vw);
 h1 {
   margin-top: calc(2 * #{$baseline} - #{$h1});
   font-size: $h1;
 
   @media (min-width: $fontBreakpoint) {
-    font-size: calc(.9em + #{$fontBreakpoint} * .03);
+    font-size: calc(0.9em + #{$fontBreakpoint} * 0.03);
   }
 }
 
-$h2: calc(.9em + 2vw);
+$h2: calc(0.9em + 2vw);
 h2 {
   margin-top: calc(2 * #{$baseline} - #{$h2});
   font-size: $h2;
 
   @media (min-width: $fontBreakpoint) {
-    font-size: calc(.9em + #{$fontBreakpoint} * .02);
+    font-size: calc(0.9em + #{$fontBreakpoint} * 0.02);
   }
 }
 
-$h3: calc(.9em + 1.5vw);
+$h3: calc(0.9em + 1.5vw);
 h3 {
   margin-top: calc(2 * #{$baseline} - #{$h3});
   font-size: $h3;
 
   @media (min-width: $fontBreakpoint) {
-    font-size: calc(.9em + #{$fontBreakpoint} * .015);
+    font-size: calc(0.9em + #{$fontBreakpoint} * 0.015);
   }
 }
 
-$h4: calc(.9em + 1vw);
+$h4: calc(0.9em + 1vw);
 h4 {
   margin-top: calc(2 * #{$baseline} - #{$h4});
   font-size: $h4;
 
   @media (min-width: $fontBreakpoint) {
-    font-size: calc(.9em + #{$fontBreakpoint} * .01);
+    font-size: calc(0.9em + #{$fontBreakpoint} * 0.01);
   }
 }
 
-$h5: calc(.9em + .5vw);
+$h5: calc(0.9em + 0.5vw);
 h5 {
   margin-top: calc(2 * #{$baseline} - #{$h5});
   font-size: $h5;
 
   @media (min-width: $fontBreakpoint) {
-    font-size: calc(.9em + #{$fontBreakpoint} * .005);
+    font-size: calc(0.9em + #{$fontBreakpoint} * 0.005);
   }
 }
 
@@ -110,7 +117,12 @@ h6 {
 
 // anchors
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   a.deeplink {
     font-size: 1rem;
     color: #bbb;
@@ -141,21 +153,28 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-h1, h2, h3, h4, h5, h6, [id^="fn:"], [id^="fnref:"] {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+[id^='fn:'],
+[id^='fnref:'] {
   &:target:before {
-    content: "";
+    content: '';
     display: block;
     height: 1em;
     margin: -1em 0 0;
   }
 }
 
-[id^="fnref:"]:target:before {
+[id^='fnref:']:target:before {
   display: inline-block;
 }
 
 pre {
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   overflow-x: auto;
 }
 
@@ -174,7 +193,8 @@ a {
     text-decoration: underline solid $color-link-underline;
   }
 
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     color: $color-link-hover;
     text-decoration: underline solid $color-link-hover;
   }
@@ -200,7 +220,13 @@ iframe {
 // https://webkit.org/blog/5610/more-responsive-tapping-on-ios/
 // ************************************************************
 
-a, button, input, select, textarea, label, summary {
+a,
+button,
+input,
+select,
+textarea,
+label,
+summary {
   touch-action: manipulation;
 }
 
@@ -217,7 +243,7 @@ a, button, input, select, textarea, label, summary {
 .clearfix {
   &::after {
     // http://nicolasgallagher.com/micro-clearfix-hack/
-    content: " ";
+    content: ' ';
     display: table;
     clear: both;
   }
@@ -227,7 +253,8 @@ a, button, input, select, textarea, label, summary {
 // Header and footer
 // ************************************************************
 
-#header, #footer {
+#header,
+#footer {
   .wrap {
     @media (min-width: 15em) {
       display: flex;
@@ -240,7 +267,8 @@ a, button, input, select, textarea, label, summary {
     }
   }
 
-  p, h1 {
+  p,
+  h1 {
     margin: 0;
     line-height: 2;
 
@@ -253,10 +281,14 @@ a, button, input, select, textarea, label, summary {
 #header {
   font-size: 1.2em;
   margin: 0;
-  padding: .2em 0;
+  padding: 0.2em 0;
 
   color: #fff;
-  background: linear-gradient(155deg, $color-jacarta 0%, $color-purple-heart 100%);
+  background: linear-gradient(
+    155deg,
+    $color-jacarta 0%,
+    $color-purple-heart 100%
+  );
   border-bottom: solid 2px $color-kingfisher-daisy;
 
   h1 {
@@ -277,21 +309,71 @@ a, button, input, select, textarea, label, summary {
     text-decoration: underline;
   }
 
-  .offline_indicator a, .site_search a {
+  .offline_indicator a {
     display: inline-block;
     line-height: 1;
-    padding: .4em;
+    padding: 0.4em;
+  }
+}
+
+#search {
+  position: relative;
+  flex: 1;
+
+  .tools {
+    display: flex;
+    flex-direction: row;
+    line-height: 1;
   }
 
-  .site_search a {
-    margin-right: -.4em;
+  input {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0.3em 1.7em 0.3em 0.7em;
+    border-radius: 2em;
+    outline: none;
+  }
+
+  [type='search'] {
+    flex: 1;
+    background-color: lighten($color-purple-heart, 40%);
+    border: 2px solid lighten($color-purple-heart, 20%);
+    color: #111;
+    -webkit-appearance: none;
+
+    &:focus {
+      border: 2px solid lighten($color-purple-heart, 10%);
+      background-color: #fff;
+    }
+  }
+
+  [type='submit'] {
+    background-color: lighten($color-purple-heart, 40%);
+    border: 2px solid lighten($color-purple-heart, 10%);
+    color: #fff;
+  }
+
+  label {
+    position: absolute;
+    right: 0.4em;
   }
 
   svg {
-    width: 1.5em;
-    height: 1.5em;
-    fill: currentColor;
     vertical-align: middle;
+    width: 0.8em;
+    height: 0.8em;
+    fill: $color-purple-heart;
+  }
+}
+
+#powered-by-algolia {
+  text-align: right;
+  font-size: 0.8em;
+
+  svg {
+    height: 1.7em;
+    width: auto;
+    vertical-align: bottom;
   }
 }
 
@@ -301,7 +383,11 @@ a, button, input, select, textarea, label, summary {
 
 #intro {
   color: #fff;
-  background: linear-gradient(155deg, lighten($color-jacarta, 15%) 0%, lighten($color-purple-heart, 15%) 100%);
+  background: linear-gradient(
+    155deg,
+    lighten($color-jacarta, 15%) 0%,
+    lighten($color-purple-heart, 15%) 100%
+  );
   border-bottom: solid 2px lighten($color-kingfisher-daisy, 15%);
 
   p {
@@ -315,7 +401,6 @@ a, button, input, select, textarea, label, summary {
       color: lighten($color-purple-heart, 40%);
     }
   }
-
 }
 
 // ************************************************************
@@ -338,7 +423,8 @@ main {
   h2 {
     margin-bottom: 0;
 
-    a:link, a:visited {
+    a:link,
+    a:visited {
       text-decoration: none;
     }
   }
@@ -348,18 +434,20 @@ main {
     margin: 0 0 3rem;
     padding: 3rem 0 0;
 
-    h2, h3 {
+    h2,
+    h3 {
       margin-top: 0;
     }
   }
 
   .post--with-poster {
-    h2, h3 {
+    h2,
+    h3 {
       margin-right: calc(25% + 1em);
     }
   }
 
-  article:not(:first-child) {
+  article:not(:first-of-type) {
     border-top: solid 2px lighten($color-purple-heart, 20%);
   }
 
@@ -379,11 +467,11 @@ article {
 
   header {
     color: $color-post-header;
-    font-size: .8em;
+    font-size: 0.8em;
 
     ul {
       list-style-type: none;
-      margin: .2em 0;
+      margin: 0.2em 0;
       padding: 0;
     }
 
@@ -394,7 +482,7 @@ article {
     svg {
       fill: lighten($color-post-header, 20%);
       vertical-align: middle;
-      margin: 0 .2em 0 0;
+      margin: 0 0.2em 0 0;
       padding: 0;
 
       width: 1.1em;
@@ -407,12 +495,14 @@ article {
     }
 
     a {
-      &:link, &:visited {
+      &:link,
+      &:visited {
         color: $color-post-header-link;
         text-decoration: none;
       }
 
-      &:hover, &:focus {
+      &:hover,
+      &:focus {
         color: $color-post-header-hover;
         text-decoration: underline;
       }
@@ -429,7 +519,7 @@ article {
   }
 
   li {
-    margin: 0 0 .5em 0;
+    margin: 0 0 0.5em 0;
   }
 }
 
@@ -467,60 +557,19 @@ article {
 .archive-month {
   text-decoration: none;
 
-  &:link, &:visited {
+  &:link,
+  &:visited {
     color: #000;
   }
 
-  &:hover, &:active {
+  &:hover,
+  &:active {
     color: $color-link-hover;
     text-decoration: underline;
   }
 
   &:first-letter {
     text-transform: capitalize;
-  }
-}
-
-#search {
-  p {
-    display: flex;
-    flex-direction: row;
-  }
-
-  input {
-    font-size: 16px;
-    margin: 0;
-    padding: 8px 12px;
-    border-radius: 2em;
-    outline: none;
-  }
-
-  [type=search] {
-    flex: 1;
-    border: 2px solid #ccc;
-    -webkit-appearance: none;
-
-    &:focus {
-      border: 2px solid $color-purple-heart;
-    }
-  }
-
-  [type=submit] {
-    margin-left: 1em;
-    background-color: $color-blue;
-    color: #fff;
-    border: 2px solid darken($color-blue, 10%);
-  }
-}
-
-#powered-by-algolia {
-  text-align: right;
-  font-size: .8em;
-
-  svg {
-    height: 1.7em;
-    width: auto;
-    vertical-align: bottom;
   }
 }
 
@@ -582,7 +631,8 @@ article {
   padding: 0;
 }
 
-.webmentions--likes, .webmentions--reposts {
+.webmentions--likes,
+.webmentions--reposts {
   li {
     display: inline-block;
     padding: 0;
@@ -592,7 +642,7 @@ article {
   .webmention__author__photo {
     width: 48px;
     height: 48px;
-    margin: .2em;
+    margin: 0.2em;
     padding: 0;
     border-radius: 5px;
   }

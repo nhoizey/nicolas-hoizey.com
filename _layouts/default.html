@@ -17,6 +17,7 @@ layout: microtypo
   {% asset symbol-tags.svg %}
   {% asset symbol-webmentions.svg %}
   {% asset symbol-link.svg %}
+  {% asset symbol-algolia.svg %}
 </svg>
 
 <header id="header">
@@ -28,10 +29,28 @@ layout: microtypo
         <a href="/" title="Accueil">{{ site.title }}</a>
       </p>
     {% endif %}
-    <p class="tools">
-      <a class="offline_indicator" href="/offline.html" title="Vous n'êtes pas connecté, la plupart des contenus ne sont pas accessibles.">{% asset icon-offline.svg %}</a>
-      <a class="site_search" href="/recherche.html">{% asset icon-search.svg %}</a>
-    </p>
+    <form id="search" method="get" action="https://www.google.com/search">
+      <p class="tools">
+        <a class="offline_indicator" href="/offline.html" title="Vous n'êtes pas connecté, la plupart des contenus ne sont pas accessibles.">{% asset icon-offline.svg %}</a>
+        <input id="search_sites" type="hidden" name="as_sitesearch" value="nicolas-hoizey.com" />
+        <input id="search_input" name="q" type="search" size="5" placeholder="" spellcheck="false" autocorrect="off" autocomplete="off" />
+        <label for="search_button">
+          {% asset icon-search.svg %}
+        </label>
+        <input id="search_button" type="submit" value="" />
+      </p>
+    </form>
+    <script>
+    // Make the search form dynamic
+    window.document.getElementById('search').action = '/recherche.html'
+
+    // This hidden field is only for Google fallback when there's no JavaScript
+    var sites = window.document.getElementById('search_sites')
+    sites.parentNode.removeChild(sites)
+
+    // Hide the button when there's JavaScript
+    window.document.getElementById('search_button').style.display = 'none'
+    </script>
   </div>
 </header>
 {% if page.url == "/" or page.url == "/index.html" %}
@@ -44,8 +63,11 @@ layout: microtypo
   </div>
 {% endif %}
 <main>
-  <div class="wrap">
+  <div class="wrap content">
     {{ content }}
+  </div>
+  <div class="wrap search">
+    <div id="search_results" class="list results"></div>
   </div>
 </main>
 <div id="networks" aria-label="Vous pouvez me retrouver sur ces réseaux sociaux">

@@ -1,4 +1,4 @@
-/* ****************************************************************
+/*****************************************************************
  * Statistics
  * ****************************************************************/
 
@@ -7,7 +7,7 @@
   doc.body.setAttribute('data-screendensity', win.screen_density)
 })(window, document)
 
-/* ****************************************************************
+/*****************************************************************
  * UX
  * ****************************************************************/
 
@@ -34,7 +34,7 @@
   }
 })(this)
 
-/* ****************************************************************
+/*****************************************************************
  * PWA
  * ****************************************************************/
 
@@ -67,7 +67,7 @@ window.addEventListener('online', function(event) {
   document.body.classList.remove('offline')
 })
 
-/* ****************************************************************
+/*****************************************************************
  * Search
  * ****************************************************************/
 
@@ -109,20 +109,11 @@ function onAlgoliaAvailable(callback) {
   }
 }
 
-var sites = window.document.getElementById('search_sites'),
-  button = window.document.getElementById('search_button')
-
-// Make the search form dynamic
-sites.parentNode.action = ''
-
-// This hidden field is only for Google fallback when there's no JavaScript
-sites.parentNode.removeChild(sites)
-
-// No need to submit when there's JavaScript
-button.parentNode.removeChild(button)
-
 var $input = window.document.getElementById('search_input')
 var $results = window.document.getElementById('search_results')
+var $currentUrl = window.location.toString()
+var $currentContent = window.document.querySelector('main .content')
+var $searchContent = window.document.querySelector('main .search')
 var searchSettings = {
   hitsPerPage: 50,
   facets: '*',
@@ -134,22 +125,25 @@ var searchSettings = {
 var queryString = getParameterByName('q')
 if (queryString.length > 0) {
   $input.value = queryString
-  if (queryString.length > 1) {
-    onAlgoliaAvailable(function() {
-      algoliaIndex.search(queryString, searchSettings, searchCallback)
-    })
-  }
+  onAlgoliaAvailable(function() {
+    algoliaIndex.search(queryString, searchSettings, searchCallback)
+  })
 }
 
 // A search query may come from the user typing in the search field
 $input.addEventListener('keyup', function() {
-  if ($input.value.length > 1) {
+  if ($input.value.length > 0) {
     history.pushState(null, null, '/recherche.html?q=' + $input.value)
+    $currentContent.style.display = 'none'
+    $searchContent.style.display = 'block'
     onAlgoliaAvailable(function() {
       algoliaIndex.search($input.value, searchSettings, searchCallback)
     })
   } else {
-    history.pushState(null, null, '/recherche.html')
+    console.log($currentUrl)
+    history.pushState(null, null, $currentUrl)
+    $currentContent.style.display = 'block'
+    $searchContent.style.display = 'none'
     $results.innerHTML = ''
   }
 })
@@ -194,7 +188,8 @@ function searchCallback(err, content) {
     '<p class="nb">' +
     resultsNumber +
     ' résultat' +
-    (resultsNumber > 1 ? 's' : '')
+    (resultsNumber > 1 ? 's' : '') +
+    ' :'
 
   var hit, post, post_date, post_tags, post_tags_match
   for (var i = 0; i < resultsNumber; i++) {
@@ -253,4 +248,6 @@ function searchCallback(err, content) {
         console.log(hit)
     }
   }
+  $results.innerHTML +=
+    '<p id="powered-by-algolia"><a href="/2015/06/la-recherche-dans-du-statique-facile-avec-algolia.html">Propulsé par l\'excellent <svg><use xlink:href="#symbol-algolia" /></svg></a></p>'
 }

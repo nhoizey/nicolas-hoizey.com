@@ -5,9 +5,7 @@ title: "Page non trouvée"
 
 <h1>Page non trouvée</h1>
 <p>Désolé, cette URL est erronée, ou la page correspondante a été supprimée.</p>
-<p>Vous pouvez <a href="/">aller à l'accueil du site</a> ou utiliser la recherche ci-dessous :</p>
-
-{% include recherche.html %}
+<p>Vous pouvez <a href="/">aller à l'accueil du site</a> ou utiliser la recherche ci-dessus.</p>
 
 <script>
 var urlWords = window.document.location.pathname;
@@ -17,5 +15,6 @@ urlWords = urlWords.replace(/(%20|\+)/g, ' ');                 // decode spaces
 urlWords = urlWords.replace(/[^a-z0-9]/gi, ' ');               // only keep alpha numerical
 urlWords = urlWords.replace(/ +/g, ' ');                       // "compress" spaces
 urlWords = urlWords.replace(/(^ | $)/g, '');                   // trim
-$("#search input[type=search]").val(urlWords).trigger('keyup');
+// $("#search input[type=search]").val(urlWords).trigger('keyup');
+$("#search input[type=search]").val(urlWords).focus();
 </script>
