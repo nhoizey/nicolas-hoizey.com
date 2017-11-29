@@ -72,6 +72,8 @@ algolia:
     - 404.html
     - index.html
     - recherche.html
+    - offline.html
+    - indisponible.html
     - tags/index.html
 
 # Webmention
