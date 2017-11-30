@@ -255,13 +255,15 @@ summary {
 
 #header,
 #footer {
+  white-space: nowrap;
+
   .wrap {
     @media (min-width: 15em) {
       display: flex;
       flex-direction: row;
       align-items: center;
 
-      *:first-child {
+      & > *:first-child {
         flex: 1;
       }
     }
@@ -340,10 +342,15 @@ summary {
     border: 2px solid lighten($color-purple-heart, 20%);
     color: #111;
     -webkit-appearance: none;
+    transition: background-color 0.25s, border-color 0.25s, color 0.25s,
+      width 0.5s;
+    max-width: 10em;
+    margin-left: auto;
 
     &:focus {
       border: 2px solid lighten($color-purple-heart, 10%);
       background-color: #fff;
+      max-width: initial;
     }
   }
 
@@ -356,6 +363,8 @@ summary {
   label {
     position: absolute;
     right: 0.4em;
+    top: 50%;
+    margin-top: -0.6em;
   }
 
   svg {
@@ -366,13 +375,17 @@ summary {
   }
 }
 
+.search {
+  flex: 1;
+}
+
 #powered-by-algolia {
   text-align: right;
   font-size: 0.8em;
 
   svg {
-    height: 1.7em;
-    width: auto;
+    width: 6.3em;
+    height: 2em;
     vertical-align: bottom;
   }
 }
@@ -389,9 +402,11 @@ summary {
     lighten($color-purple-heart, 15%) 100%
   );
   border-bottom: solid 2px lighten($color-kingfisher-daisy, 15%);
+  margin: 0;
 
   p {
-    margin: 1em 0;
+    margin: 0;
+    padding: 1em 0;
   }
 
   a {

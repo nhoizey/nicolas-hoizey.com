@@ -112,8 +112,8 @@ function onAlgoliaAvailable(callback) {
 var $input = window.document.getElementById('search_input')
 var $results = window.document.getElementById('search_results')
 var $currentUrl = window.location.toString()
-var $currentContent = window.document.querySelector('main .content')
-var $searchContent = window.document.querySelector('main .search')
+var $currentContent = window.document.querySelector('main')
+var $searchContent = window.document.querySelector('.search')
 var searchSettings = {
   hitsPerPage: 50,
   facets: '*',
