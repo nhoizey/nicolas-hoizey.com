@@ -262,6 +262,7 @@ summary {
       display: flex;
       flex-direction: row;
       align-items: center;
+      justify-content: space-between;
 
       & > *:first-child {
         flex: 1;
@@ -322,7 +323,7 @@ summary {
   position: relative;
   flex: 1;
 
-  .tools {
+  p {
     display: flex;
     flex-direction: row;
     line-height: 1;
@@ -342,15 +343,16 @@ summary {
     border: 2px solid lighten($color-purple-heart, 20%);
     color: #111;
     -webkit-appearance: none;
-    transition: background-color 0.25s, border-color 0.25s, color 0.25s,
-      width 0.5s;
-    max-width: 10em;
+    transition: background-color 0.25s ease-in-out,
+      border-color 0.25s ease-in-out, color 0.25s ease-in-out,
+      width 0.5s ease-in-out;
+    width: 40%;
     margin-left: auto;
 
     &:focus {
       border: 2px solid lighten($color-purple-heart, 10%);
       background-color: #fff;
-      max-width: initial;
+      width: 100%;
     }
   }
 

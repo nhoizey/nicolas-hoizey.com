@@ -29,9 +29,9 @@ layout: microtypo
         <a href="/" title="Accueil">{{ site.title }}</a>
       </p>
     {% endif %}
+    <p class="connection"><a class="offline_indicator" href="/offline.html" title="Vous n'êtes pas connecté, la plupart des contenus ne sont pas accessibles.">{% asset icon-offline.svg %}</a></p>
     <form id="search" method="get" action="https://www.google.com/search">
-      <p class="tools">
-        <a class="offline_indicator" href="/offline.html" title="Vous n'êtes pas connecté, la plupart des contenus ne sont pas accessibles.">{% asset icon-offline.svg %}</a>
+      <p>
         <input id="search_sites" type="hidden" name="as_sitesearch" value="nicolas-hoizey.com" />
         <input id="search_input" name="q" type="search" size="5" placeholder="" spellcheck="false" autocorrect="off" autocomplete="off" />
         <label for="search_button">
