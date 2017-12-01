@@ -338,7 +338,6 @@ summary {
   }
 
   [type='search'] {
-    flex: 1;
     background-color: lighten($color-purple-heart, 40%);
     border: 2px solid lighten($color-purple-heart, 20%);
     color: #111;
@@ -346,7 +345,7 @@ summary {
     transition: background-color 0.25s ease-in-out,
       border-color 0.25s ease-in-out, color 0.25s ease-in-out,
       width 0.5s ease-in-out;
-    width: 40%;
+    width: 50%;
     margin-left: auto;
 
     &:focus {
