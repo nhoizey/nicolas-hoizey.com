@@ -21,6 +21,9 @@
                   {% endif %}
                   <b class="p-name">{{ webmention.author.name }}</b>
                 </a>
+                {% if webmention.pubdate %}
+                  | <time class="webmention__pubdate dt-published" datetime="{{ webmention.pubdate | date: '%FT%T%:z' }}">{{ webmention.pubdate | date: '%d %B %Y' }}</time>
+                {% endif %}
               </div>
             {% else %}
               {% if webmention.url %}
@@ -33,7 +36,16 @@
                       alt="Page screenshot" />
                     <b class="p-name">{{ webmention.url | truncate: 70 }}</b>
                   </a>
+                  {% if webmention.pubdate %}
+                    | <time class="webmention__pubdate dt-published" datetime="{{ webmention.pubdate | date: '%FT%T%:z' }}">{{ webmention.pubdate | date: '%d %B %Y' }}</time>
+                  {% endif %}
                 </div>
+              {% else %}
+                {% if webmention.pubdate %}
+                  <div class="webmention__source">
+                    <time class="webmention__pubdate dt-published" datetime="{{ webmention.pubdate | date: '%FT%T%:z' }}">{{ webmention.pubdate | date: '%d %B %Y' }}</time>
+                  </div>
+                {% endif %}
               {% endif %}
             {% endif %}
 
@@ -50,16 +62,14 @@
                 {{ webmention.title }}
               {% endif %}
             </div>
-            <div class="webmention__meta">
-              {% if webmention.pubdate %}
-                <time class="webmention__pubdate dt-published"
-                      datetime="{{ webmention.pubdate | date: '%FT%T%:z' }}">{{ webmention.pubdate | date: '%d %B %Y' }}</time>
-              {% endif %}
-              {% if webmention.pubdate and webmention.url %}|{% endif %}
-              {% if webmention.url %}
+            {% if webmention.url %}
+              <div class="webmention__meta">
+                {% if webmention.url contains "https://twitter.com/" %}
+                  <svg><use xlink:href="#symbol-twitter" /></svg>
+                {% endif %}
                 <a class="webmention__source u-url" href="{{ webmention.url }}">Source</a>
-              {% endif %}
-            </div>
+              </div>
+            {% endif %}
           </article>
         </li>
       {% endfor %}
