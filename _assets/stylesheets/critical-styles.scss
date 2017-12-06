@@ -117,39 +117,43 @@ h6 {
 
 // anchors
 
+@mixin deeplink {
+  font-size: 1rem;
+  color: #bbb;
+  text-decoration: none;
+
+  svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: #999;
+  }
+}
+
+@mixin deeplinkHover {
+  color: #66f;
+
+  svg {
+    fill: #66f;
+  }
+}
+
+a.deeplink:link {
+  @include deeplink;
+}
+
+a.deeplink:hover {
+  @include deeplinkHover;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  a.deeplink {
-    font-size: 1rem;
-    color: #bbb;
-    text-decoration: none;
-
-    svg {
-      width: 1em;
-      height: 1em;
-      fill: #999;
-    }
-
-    span {
-      color: #fff;
-    }
-  }
-
-  &:hover a.deeplink {
-    color: #66f;
-
-    svg {
-      fill: #66f;
-    }
-
-    span {
-      color: #66f;
-      text-decoration: underline;
-    }
+  &:hover a.deeplink:link {
+    @include deeplinkHover;
   }
 }
 
@@ -646,6 +650,11 @@ article {
     padding: 0;
     border-radius: 5px;
   }
+}
+
+.webmention__meta svg {
+  width: 1em;
+  height: 1em;
 }
 
 // ************************************************************

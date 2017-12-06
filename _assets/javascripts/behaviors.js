@@ -24,12 +24,12 @@
       list[i].innerHTML +=
         '&nbsp;<a class="deeplink" href="#' +
         list[i].id +
-        '"><svg><use xlink:href="#symbol-link" /></svg>&nbsp;<span>lien&nbsp;direct</span></a>'
+        '"><svg><use xlink:href="#symbol-link" /></svg></a>'
     } else {
       list[i].innerHTML +=
         '&nbsp;<a class="deeplink" href="#' +
         i +
-        '"><svg><use xlink:href="#symbol-link" /></svg>&nbsp;<span>lien&nbsp;direct</span></a>'
+        '"><svg><use xlink:href="#symbol-link" /></svg></a>'
     }
   }
 })(this)
