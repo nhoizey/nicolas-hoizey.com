@@ -121,11 +121,11 @@ h6 {
   font-size: 1rem;
   color: #bbb;
   text-decoration: none;
+  vertical-align: middle;
 
   svg {
     width: 1em;
     height: 1em;
-    vertical-align: middle;
     fill: #999;
   }
 }
@@ -655,6 +655,7 @@ article {
 .webmention__meta svg {
   width: 1em;
   height: 1em;
+  vertical-align: middle;
 }
 
 // ************************************************************
