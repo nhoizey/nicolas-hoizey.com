@@ -18,6 +18,6 @@
 %}{% capture background_image %}e_blur:2000,c_crop,ar_{{ image_width }}:{{ image_height }},b_white/e_grayscale/w_{{ image_width }}/l_fetch:{{ image | base64_encode }},h_1.0,w_1.0,fl_relative,c_limit{% endcapture
 %}{% capture color_overlay %}b_rgb:3d2e68,o_40{% endcapture
 %}{% capture title_with_shadow %}w_{{ image_width | minus: 80 }},c_fit,l_text:georgia_80:{{ title }},g_north_west,x_42,y_42,co_black,o_50/w_{{ image_width | minus: 80 }},c_fit,l_text:georgia_80:{{ title }},g_north_west,x_40,y_40,co_white{% endcapture
-%}{% capture website %}l_fetch:{{ avatar | base64_encode }},g_south_west,x_40,y_40,c_fill,w_60,r_max/l_text:georgia_50:nicolas-hoizey.com,g_south_west,x_112,y_40,co_black/l_text:georgia_50:nicolas-hoizey.com,g_south_west,x_111,y_41,co_white{% endcapture
+%}{% capture website %}l_text:georgia_50:nicolas-hoizey.com,g_south_west,x_41,y_40,co_black/l_text:georgia_50:nicolas-hoizey.com,g_south_west,x_40,y_41,co_white{% endcapture
 %}{% capture twitter %}l_fetch:{{ twitter_logo | base64_encode }},g_south_east,x_220,y_40,c_fill,w_50,r_max/l_text:georgia_50:nhoizey,g_south_east,x_40,y_40,co_black/l_text:georgia_50:nhoizey,g_south_east,x_41,y_41,co_white{% endcapture
 %}https://res.cloudinary.com/nho/image/fetch/{{ background_image }}/{{ color_overlay }}/{{ title_with_shadow }}/{{ website }}/{{ twitter }}/{{ image }}
