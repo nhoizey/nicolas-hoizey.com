@@ -11596,3 +11596,40 @@
     type: link
     content: <p>Medium is only an edge server of your POSSE CDN, your own blog is
       the origin <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">nicolas-hoizey.com/2017/11/medium…</a></p>
+  '940849774730899456':
+    id: '940849774730899456'
+    url: https://twitter.com/ticabri/status/940849774730899456
+    source: twitter
+    pubdate: 2017-12-13 08:44:01.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/post/twitter/nhoizey/940849774730899456
+      verified: true
+      verified_date: '2017-12-13T07:59:56+00:00'
+      id: 479927
+      private: false
+      data:
+        author: &278
+          name: "enguerran \U0001F410\U0001F4A8"
+          url: http://blog.ticabri.com
+          photo: https://webmention.io/avatar/pbs.twimg.com/9a425114a7288f69248def92e5b4f811ae3e1aee5e843a64c111ab9bc0b885cb.jpg
+        url: https://twitter.com/ticabri/status/940849774730899456
+        name: 
+        content: |-
+          Medium is only an edge server of your POSSE CDN, your own blog is the origin
+          "POSSE is a creation of IndieWeb" (<a href="https://indieweb.org/">indieweb.org</a>) <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">nicolas-hoizey.com/2017/11/medium…</a>
+        published: '2017-12-13T07:44:01+00:00'
+        published_ts: 1513151041
+      activity:
+        type: link
+        sentence: "enguerran \U0001F410\U0001F4A8 posted 'Medium is only an edge server
+          of your POSSE CDN, your own blog is the origin \"PO...' linking to https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html"
+        sentence_html: "<a href=\"http://blog.ticabri.com\">enguerran \U0001F410\U0001F4A8</a>
+          posted 'Medium is only an edge server of your POSSE CDN, your own blog is
+          the origin \"PO...' linking to <a href=\"https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html\">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>"
+      target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
+    author: *278
+    type: link
+    content: |-
+      <p>Medium is only an edge server of your POSSE CDN, your own blog is the origin
+      “POSSE is a creation of IndieWeb” (<a href="https://indieweb.org/">indieweb.org</a>) <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">nicolas-hoizey.com/2017/11/medium…</a></p>
+"/2017/12/biocoop-recycle-aussi-les-tweets.html": {}
