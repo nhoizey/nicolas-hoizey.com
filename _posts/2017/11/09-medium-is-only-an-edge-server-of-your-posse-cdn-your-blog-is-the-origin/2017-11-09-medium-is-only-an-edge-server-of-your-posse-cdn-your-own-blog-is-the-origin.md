@@ -6,12 +6,13 @@ tags:  [blog, POSSE, IndieWeb]
 
 People tend to be lazy (I am often) and chose the easiest tool to do the job, even if it's not the best one. [Medium](https://medium.com/) is the new [Blogger](https://www.blogger.com/)[^ev-williams], but with a [much nicer content editing UI](https://medium.com/@ev/writing-in-medium-df8eac9f4a5e), and a cleaner presentation of content to readers[^blur]. People can create and account and start publish in a few minutes, it's really easy. But how can all this be free?
 
-[^ev-williams]: Ev Williams, the CEO of Medium, is one of Twitter's co-founders, but was previously headding Blogger. 
+[^ev-williams]: Ev Williams, the CEO of Medium, is one of Twitter's co-founders, but was previously headding Blogger.
 
 [^blur]: I must say I really don't like the way they deal with images through, with this ugly blur.
 
 # Medium can do anything with your content
 
+{% cloudinary logo /assets/logos/medium.png %}
 Andrea Phillips already said it a few years ago in her post [The Problem With Medium](https://medium.com/@andrhia/the-problem-with-medium-336300490cbb):
 
 > you’re giving your writing to a corporation for free, and they can do anything they want with it. Forever. Without paying you. Ever.
@@ -24,7 +25,7 @@ Of course, Medium is an obvious black sheep, but the same can be said about most
 
 # Bad things can happen
 
-Additionally, Medium is a service that can disappear like many others before, and your content might be lost. I will never accept to take such a risk for my content. 
+Additionally, Medium is a service that can disappear like many others before, and your content might be lost. I will never accept to take such a risk for my content.
 
 Also, there are sometimes issues with content moderation, like [Peter O'Shaughnessy](https://twitter.com/poshaughnessy/) experienced a few days ago:
 
@@ -40,8 +41,8 @@ POSSE means **P**ublish (on your) **O**wn **S**ite, **S**yndicate **E**lsewhere.
 Like [Webmentions](/2017/07/so-long-disqus-hello-webmentions.html), POSSE is a creation of [IndieWeb](https://indieweb.org/), which gives this description:
 
 > POSSE lets your friends keep using whatever they use to read your stuff (e.g. silo aggregators like Facebook, Tumblr, Twitter, etc.).
-> 
-> It's a key part of why and how the IndieWeb movement is different from just "everyone blog on their own site", and also different from "everyone just install and run (YourFavoriteSocialSoftware)" etc. monoculture solutions. 
+>
+> It's a key part of why and how the IndieWeb movement is different from just "everyone blog on their own site", and also different from "everyone just install and run (YourFavoriteSocialSoftware)" etc. monoculture solutions.
 
 You really own your content, on your own (cool) URLs, and it's up to you to [make it last](https://remysharp.com/2016/12/22/cool-uris-dont-change).
 
