@@ -6,7 +6,7 @@
 // - Jake Archibald's Offline Cookbook: https://jakearchibald.com/2014/offline-cookbook/
 // - Jeremy Keith's Service Worker: https://adactio.com/journal/9775
 
-const version = '0.9';
+const version = '0.10';
 const staticCacheName = `v${version}::static`;
 const pagesCacheName = `v${version}::pages`;
 const imagesCacheName = `v${version}::images`;
@@ -78,12 +78,20 @@ function clearOldCaches() {
 }
 
 self.addEventListener('install', event => {
+  // `skipWaiting()` forces the waiting ServiceWorker to become the
+  // active ServiceWorker, triggering the `onactivate` event.
+  // Together with `Clients.claim()` this allows a worker to take effect
+  // immediately in the client(s).
+  // https://davidwalsh.name/service-worker-claim
   event.waitUntil(updateStaticCache()
     .then(() => self.skipWaiting())
   );
 });
 
 self.addEventListener('activate', event => {
+  // `claim()` sets this worker as the active worker for all clients that
+  // match the workers scope and triggers an `oncontrollerchange` event for
+  // the clients.
   event.waitUntil(clearOldCaches()
     .then(() => self.clients.claim())
   );
@@ -105,6 +113,11 @@ self.addEventListener('fetch', event => {
     return;
   }
 
+  // Don't try to handle non-secure assets because fetch will fail
+  if (/http:/.test(request.url)) {
+    return;
+  }
+
   // Only cache local resources and images from Cloudinary
   if (!(url.origin == location.origin || url.origin == 'https://res.cloudinary.com')) {
     return;
@@ -114,22 +127,48 @@ self.addEventListener('fetch', event => {
   // - try the network first,
   // - fall back to the cache,
   // - finally the offline page
+  // if (request.headers.get('Accept').indexOf('text/html') !== -1) {
+  //   event.respondWith(
+  //     fetch(request)
+  //       .then(response => {
+  //         // NETWORK
+  //         // Stash a copy of this page in the pages cache
+  //         let copy = response.clone();
+  //         stashInCache(pagesCacheName, request, copy);
+  //         return response;
+  //       })
+  //       .catch(() => {
+  //         // CACHE or FALLBACK
+  //         return caches.match(request)
+  //           .then(response => response || caches.match(unavailableContentPage));
+  //       })
+  //   );
+  //   return;
+  // }
+
+  // For HTML requests:
+  // - look in the cache first,
+  // - fetch from network and cache for later use,
+  // - fallback to offline page
   if (request.headers.get('Accept').indexOf('text/html') !== -1) {
     event.respondWith(
-      fetch(request)
+      caches.match(request)
         .then(response => {
-          // NETWORK
-          // Stash a copy of this page in the pages cache
-          let copy = response.clone();
-          stashInCache(pagesCacheName, request, copy);
-          return response;
-        })
-        .catch(() => {
-          // CACHE or FALLBACK
-          return caches.match(request)
-            .then(response => response || caches.match(unavailableContentPage));
+          // CACHE
+          return response || fetch(request)
+            .then(response => {
+              // NETWORK
+              let copy = response.clone();
+              stashInCache(pagesCacheName, request, copy);
+              return response;
+            })
+            .catch(() => {
+              // OFFLINE WITHOUT CACHE
+              return caches.match(unavailableContentPage);
+            });
         })
     );
+
     return;
   }
 
@@ -142,7 +181,8 @@ self.addEventListener('fetch', event => {
           .then(response => {
             // NETWORK
             // If the request is for an image, stash a copy of this image in the images cache
-            if (request.headers.get('Accept').indexOf('image') !== -1) {
+            // https://hackernoon.com/service-worker-one-fallback-offline-image-for-any-aspect-ratio-b427c0f897fb#aaab
+            if (request.url.match(/\.(jpe?g|png|gif|webp|svg)$/)) {
               let copy = response.clone();
               stashInCache(imagesCacheName, request, copy);
             }
@@ -151,8 +191,9 @@ self.addEventListener('fetch', event => {
           .catch(() => {
             // OFFLINE
             // If the request is for an image, show an offline placeholder
-            if (request.headers.get('Accept').indexOf('image') !== -1) {
-              return new Response('<svg role="img" aria-labelledby="offline-title" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg"><title id="offline-title">Offline</title><g fill="none" fill-rule="evenodd"><path fill="#D8D8D8" d="M0 0h400v300H0z"/><text fill="#43246a" font-family="Georgia,serif" font-size="72"><tspan x="93" y="172">offline</tspan></text></g></svg>', {headers: {'Content-Type': 'image/svg+xml'}});
+            // https://hackernoon.com/service-worker-one-fallback-offline-image-for-any-aspect-ratio-b427c0f897fb#aaab
+            if (request.url.match(/\.(jpe?g|png|gif|webp|svg)$/)) {
+              return new Response('<svg role="img" aria-labelledby="offline-title" viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"><title id="offline-title">Offline</title><path fill="rgba(145,145,145,0.5)" d="M0 0h400v225H0z" /><text fill="rgba(0,0,0,0.33)" font-family="Georgia,serif" font-size="27" text-anchor="middle" x="200" y="113" dominant-baseline="central">offline</text></svg>', {headers: {'Content-Type': 'image/svg+xml'}});
             }
           });
       })
