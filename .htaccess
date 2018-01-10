@@ -666,12 +666,12 @@ FileETag None
     ExpiresByType application/rdf+xml                   "access plus 1 hour"
     ExpiresByType application/rss+xml                   "access plus 1 hour"
 
-    ExpiresByType application/json                      "access plus 0 seconds"
-    ExpiresByType application/ld+json                   "access plus 0 seconds"
-    ExpiresByType application/schema+json               "access plus 0 seconds"
-    ExpiresByType application/vnd.geo+json              "access plus 0 seconds"
-    ExpiresByType application/xml                       "access plus 0 seconds"
-    ExpiresByType text/xml                              "access plus 0 seconds"
+    ExpiresByType application/json                      "access plus 1 hour"
+    ExpiresByType application/ld+json                   "access plus 1 hour"
+    ExpiresByType application/schema+json               "access plus 1 hour"
+    ExpiresByType application/vnd.geo+json              "access plus 1 hour"
+    ExpiresByType application/xml                       "access plus 1 hour"
+    ExpiresByType text/xml                              "access plus 1 hour"
 
 
   # Favicon (cannot be renamed!) and cursor images
@@ -681,25 +681,21 @@ FileETag None
 
   # HTML
 
-    ExpiresByType text/html                             "access plus 0 seconds"
+    ExpiresByType text/html                             "access plus 1 hour"
 
 
   # JavaScript
 
-    #ExpiresByType application/javascript                "access plus 1 year"
-    #ExpiresByType application/x-javascript              "access plus 1 year"
-    #ExpiresByType text/javascript                       "access plus 1 year"
-
-    ExpiresByType application/javascript                "now"
-    ExpiresByType application/x-javascript              "now"
-    ExpiresByType text/javascript                       "now"
+    ExpiresByType application/javascript                "access plus 1 year"
+    ExpiresByType application/x-javascript              "access plus 1 year"
+    ExpiresByType text/javascript                       "access plus 1 year"
 
 
   # Manifest files
 
-    ExpiresByType application/manifest+json             "access plus 1 week"
-    ExpiresByType application/x-web-app-manifest+json   "access plus 0 seconds"
-    ExpiresByType text/cache-manifest                   "access plus 0 seconds"
+    ExpiresByType application/manifest+json             "access plus 1 hour"
+    ExpiresByType application/x-web-app-manifest+json   "access plus 1 hour"
+    ExpiresByType text/cache-manifest                   "access plus 1 hour"
 
 
   # Media files
