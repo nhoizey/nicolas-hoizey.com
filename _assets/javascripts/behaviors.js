@@ -51,21 +51,34 @@ window.addEventListener('load', function() {
   }
 })
 
-// Deal with offline/online events
-// https://www.youtube.com/watch?v=7fnpsF9tMXc
-window.addEventListener('offline', function(event) {
-  document.body.classList.add('offline')
-  // Array.from(document.querySelectorAll('a'))
-  //   .forEach(link => {
-  //     if (linkIsAvailableOffline(link)) {
-  //       link.classList.add('cached');
-  //     }
-  //   });
-})
+/*****************************************************************
+ * Deal with offline/online events
+ * ****************************************************************/
 
-window.addEventListener('online', function(event) {
-  document.body.classList.remove('offline')
-})
+// https://mxb.at/blog/youre-offline/
+// https://www.youtube.com/watch?v=7fnpsF9tMXc
+
+let isOffline = false
+window.addEventListener('load', checkConnectivity)
+
+// when the page has finished loading,
+// listen for future changes in connection
+function checkConnectivity() {
+  updateConnectivityStatus()
+  window.addEventListener('online', updateConnectivityStatus)
+  window.addEventListener('offline', updateConnectivityStatus)
+}
+
+// check if we're online, set a class on <body> if offline
+function updateConnectivityStatus() {
+  if (typeof navigator.onLine !== 'undefined') {
+    if (!navigator.onLine) {
+      document.body.classList.add('offline')
+    } else {
+      document.body.classList.remove('offline')
+    }
+  }
+}
 
 /*****************************************************************
  * Search

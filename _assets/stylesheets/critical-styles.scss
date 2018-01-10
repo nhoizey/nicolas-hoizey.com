@@ -663,6 +663,10 @@ article {
 // Offline
 // ************************************************************
 
-.offline_indicator {
-  opacity: 0;
+#offline_notification {
+  display: none;
+
+  body.offline & {
+    display: block;
+  }
 }
