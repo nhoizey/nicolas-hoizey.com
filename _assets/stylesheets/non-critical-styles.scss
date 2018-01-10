@@ -1,28 +1,35 @@
-@import "settings";
-@import "rve";
-@import "monokai";
+@import 'settings';
+@import 'rve';
+@import 'monokai';
 
 // File link icons
-a[href$=".zip"], a[href$=".kml"] {
+a[href$='.zip'],
+a[href$='.kml'] {
   padding-left: 1.6em;
   background-size: 1.4em 1.4em;
 }
 
-a[href$=".zip"] {
+a[href$='.zip'] {
   background: url(/assets/icons/zip.svg) 0 0 no-repeat;
 }
 
-a[href$=".kml"] {
+a[href$='.kml'] {
   background: url(/assets/icons/kml.svg) 0 0 no-repeat;
 }
 
 // Article
 article {
-  p, blockquote, .intro, .footnotes {
+  p,
+  blockquote,
+  .intro,
+  .footnotes {
     margin: $baseline 0;
   }
 
-  figure, img, iframe, .embed-video-container {
+  figure,
+  img,
+  iframe,
+  .embed-video-container {
     margin: $baseline auto;
     display: block;
   }
@@ -30,7 +37,9 @@ article {
   figure {
     text-align: center;
 
-    img, iframe, .embed-video-container {
+    img,
+    iframe,
+    .embed-video-container {
       display: block;
       margin: 0 auto;
       padding: 0;
@@ -64,10 +73,10 @@ article {
     display: inline-block;
     text-align: left;
 
-    font-size: .9em;
+    font-size: 0.9em;
     font-style: italic;
-    margin: .1em 1em;
-    padding: .3em 0;
+    margin: 0.1em 1em;
+    padding: 0.3em 0;
     color: #999;
 
     p {
@@ -98,18 +107,20 @@ article {
     }
   }
 
-  th, td {
-    padding: .3em .5em;
+  th,
+  td {
+    padding: 0.3em 0.5em;
     border: 1px solid #ccc;
     vertical-align: top;
   }
 
-  kbd, code {
-    font-family: "Courier New", Courier, monospace;
-    font-size: .9em;
+  kbd,
+  code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
     display: inline-block;
-    padding: 0 .3em;
-    border-radius: .3em;
+    padding: 0 0.3em;
+    border-radius: 0.3em;
   }
 
   kbd {
@@ -124,13 +135,15 @@ article {
     background-color: #e0e0e0;
   }
 
-  a.footnote, a.reversefootnote {
+  a.footnote,
+  a.reversefootnote {
     text-decoration: none;
-    padding: 0 .2em;
+    padding: 0 0.2em;
   }
 
   // https://gist.github.com/unruthless/413930
-  sub, sup {
+  sub,
+  sup {
     // Specified in % so that the sup/sup is the right size relative to the surrounding text
     font-size: 75%;
 
@@ -159,8 +172,8 @@ article {
     background-color: #eee;
     color: #333;
     border: 1px solid #ccc;
-    border-radius: .3em;
-    font-size: .9em;
+    border-radius: 0.3em;
+    font-size: 0.9em;
 
     ol {
       margin: 0;
@@ -189,8 +202,8 @@ article {
 
   .edit {
     border-top: 1px dotted #ccc;
-    padding: .5em 0;
-    font-size: .9em;
+    padding: 0.5em 0;
+    font-size: 0.9em;
     color: #999;
   }
 }
@@ -207,7 +220,7 @@ article {
 .comments__item {
   clear: left;
   position: relative;
-  padding: .5em 0 0 calc(48px + 1em);
+  padding: 0.5em 0 0 calc(48px + 1em);
   min-height: 48px;
 
   article {
@@ -216,7 +229,7 @@ article {
 }
 
 .comment__author {
-  font-size: .9em;
+  font-size: 0.9em;
   font-weight: normal;
 }
 
@@ -227,7 +240,7 @@ article {
 .comment__author__photo {
   display: block;
   position: absolute;
-  top: .8em;
+  top: 0.8em;
   left: 0;
   width: 48px;
   height: 48px;
@@ -245,15 +258,16 @@ article {
 
 .comment__meta {
   color: $color-post-header;
-  font-size: .9em;
+  font-size: 0.9em;
 }
 
 // ************************************************************
 // Webmentions
 // ************************************************************
 
-.webmention__author, .webmention__source {
-  font-size: .9em;
+.webmention__author,
+.webmention__source {
+  font-size: 0.9em;
   font-weight: normal;
 }
 
@@ -261,7 +275,7 @@ article {
   display: none;
 }
 
-[data-webmention-types*=replies] {
+[data-webmention-types*='replies'] {
   .webmentions__item {
     clear: both;
     position: relative;
@@ -269,13 +283,13 @@ article {
 
     article {
       margin: 0 0 2em;
-      padding: .5em 0 0 calc(48px + 1em);
+      padding: 0.5em 0 0 calc(48px + 1em);
     }
 
     .webmention--no-photo {
-      padding: .5em 0 0 0;
+      padding: 0.5em 0 0 0;
       @media (min-width: 40em) {
-        padding: .5em 0 0 calc(48px + 1em);
+        padding: 0.5em 0 0 calc(48px + 1em);
       }
     }
   }
@@ -283,7 +297,7 @@ article {
   .webmention__author__photo {
     display: block;
     position: absolute;
-    top: .8em;
+    top: 0.8em;
     left: 0;
     width: 48px;
     height: 48px;
@@ -314,7 +328,7 @@ article {
 
   .webmention__meta {
     color: $color-post-header;
-    font-size: .9em;
+    font-size: 0.9em;
   }
 }
 
@@ -327,7 +341,7 @@ article {
     display: inline-block;
     text-decoration: none;
     margin: 0;
-    padding: .5vw;
+    padding: 0.5vw;
     white-space: nowrap;
 
     &:hover {
@@ -336,7 +350,7 @@ article {
   }
 
   .set-1 {
-    font-size: .9em;
+    font-size: 0.9em;
   }
 
   .set-2 {
@@ -373,7 +387,8 @@ img.tag {
     color: #000;
   }
 
-  .tags .algolia__result-highlight, p .algolia__result-highlight {
+  .tags .algolia__result-highlight,
+  p .algolia__result-highlight {
     font-weight: 700;
   }
 }
@@ -383,7 +398,7 @@ a.icon {
   vertical-align: middle;
   color: $color-networks-link;
   text-decoration: none;
-  transition-duration: .1s;
+  transition-duration: 0.1s;
   transition-property: color;
   transition-timing-function: ease-in-out;
 
@@ -408,7 +423,11 @@ a.icon {
   margin-top: 1em;
 
   color: #fff;
-  background: linear-gradient(155deg, $color-minsk 0%, $color-kingfisher-daisy 100%);
+  background: linear-gradient(
+    155deg,
+    $color-minsk 0%,
+    $color-kingfisher-daisy 100%
+  );
   border-top: 2px solid $color-kingfisher-daisy;
 
   p {
@@ -423,12 +442,14 @@ a.icon {
   }
 
   a {
-    &:link, &:visited {
+    &:link,
+    &:visited {
       color: #fff;
       text-decoration: underline solid lighten($color-purple-heart, 40%);
     }
 
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
       color: lighten($color-purple-heart, 40%);
     }
 
@@ -443,22 +464,21 @@ a.icon {
 // ************************************************************
 
 .error {
-  margin: 1em 0;
-  padding: .2em .5em;
-  background-color: lighten($color-red, 35%);
   color: $color-red;
-  border: 1px solid $color-red;
-  border-radius: .3em;
 
   p {
-    margin: .5em;
+    margin: 0.5em;
+  }
+
+  a:link {
+    color: $color-red;
   }
 
   .icon {
     font-size: 2.5em;
     line-height: 1;
     float: left;
-    margin: .2em .3em .3em 0;
+    margin: 0.2em 0.3em 0.3em 0;
 
     svg {
       fill: $color-red;
@@ -471,24 +491,41 @@ a.icon {
 // ************************************************************
 
 @media print {
-  @page { margin: 2cm }
+  @page {
+    margin: 2cm;
+  }
 
-  a, blockquote, table, pre, img,
-  h1, h2, h3, h4, h5, h6 {
+  a,
+  blockquote,
+  table,
+  pre,
+  img,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     page-break-inside: avoid;
   }
 
   img,
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     page-break-after: avoid;
   }
 
-  ul, ol, dl {
+  ul,
+  ol,
+  dl {
     page-break-before: avoid;
   }
 
-  a[href^=http]:after {
-    content:" &lt; " attr(href) "&gt; ";
+  a[href^='http']:after {
+    content: ' &lt; ' attr(href) '&gt; ';
   }
 }
-
