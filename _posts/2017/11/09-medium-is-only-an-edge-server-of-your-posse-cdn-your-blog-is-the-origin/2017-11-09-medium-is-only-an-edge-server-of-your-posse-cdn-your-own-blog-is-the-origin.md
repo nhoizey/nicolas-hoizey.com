@@ -103,3 +103,11 @@ It is really worth it.
 I'm not alone recommending this:
 
 https://twitter.com/nhoizey/status/932291964434898944
+
+# January 15th, 2018 update
+
+It looks like more people plan to POSSE everyday, great start for 2018!
+
+Here is [Tim Kadlec](https://twitter.com/tkadlec/status/949340118489460739) planning to [own his own content](https://timkadlec.com/2018/01/owning-my-own-content/):
+
+> it does mean writing more frequently here as well. It means treating my own site as the hub for the content I post elsewhere instead of letting it accumulate cobwebs.

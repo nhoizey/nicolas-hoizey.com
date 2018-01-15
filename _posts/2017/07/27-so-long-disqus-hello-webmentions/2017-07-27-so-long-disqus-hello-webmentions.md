@@ -117,3 +117,7 @@ I also have issues with some avatars that come directly from Twitter, and are [r
 Simple —yet really valuable— Webmentions as likes and reposts are now simple facepiles. They are the most abundant Webmentions, so it helps reduce the length of the page, and make the actual mentions more visible, most being replies on Twitter.
 
 Also, I'm now using my own templates for all these Webmentions, and I use Cloudinary to optimize all avatars (size, format and weight), and reduce the number of domains from where ressources for the page come. Also, default links to avatars that came from [webmention.io](https://webmention.io/) where in fact soft redirects (302) to the actual URL on Twitter's servers, so there was an additional latency to get them. Looks like I've killed two birds with one stone!
+
+# January 15th, 2018 update
+
+It looks like Webmentions is getting more traction every day (here [Tim Kadlec planning to replace Disqus with Webmentions](https://timkadlec.com/2018/01/owning-my-own-content/)), I hope 2018 will be a great year for them.
