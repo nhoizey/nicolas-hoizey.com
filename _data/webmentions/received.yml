@@ -11700,4 +11700,43 @@
     author: *280
     type: link
     content: <p><a href="https://twitter.com/CedricSoulas">@CedricSoulas</a> <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">nicolas-hoizey.com/2017/11/medium…</a></p>
+  '952860291636912128':
+    id: '952860291636912128'
+    url: https://twitter.com/Uxlco0/status/952860291636912128
+    source: twitter
+    pubdate: 2018-01-15 12:09:31.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/post/twitter/nhoizey/952860291636912128
+      verified: true
+      verified_date: '2018-01-15T11:30:53+00:00'
+      id: 487851
+      private: false
+      data:
+        author: &281
+          name: Bob Volte, agent du chaos, chaotic good alignement
+          url: https://twitter.com/Uxlco0
+          photo: https://webmention.io/avatar/pbs.twimg.com/1ca6e3d954b892bb900f2c02203dc210321ac40376429050f356129a18471620.jpg
+        url: https://twitter.com/Uxlco0/status/952860291636912128
+        name: 
+        content: <a href="https://twitter.com/cyceron">@cyceron</a> l'article sur
+          le POSSE de <a href="https://twitter.com/nhoizey">@nhoizey</a> devrait vous
+          intéresser <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">nicolas-hoizey.com/2017/11/medium…</a>
+          en gros ce que j'appelle la «souveraineté des contenus» :p
+        published: '2018-01-15T11:09:31+00:00'
+        published_ts: 1516014571
+      activity:
+        type: link
+        sentence: Bob Volte, agent du chaos, chaotic good alignement posted '@cyceron
+          l'article sur le POSSE de @nhoizey devrait vous intéresser nicolas-hoiz...'
+          linking to https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
+        sentence_html: <a href="https://twitter.com/Uxlco0">Bob Volte, agent du chaos,
+          chaotic good alignement</a> posted '@cyceron l'article sur le POSSE de @nhoizey
+          devrait vous intéresser nicolas-hoiz...' linking to <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
+      target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
+    author: *281
+    type: link
+    content: <p><a href="https://twitter.com/cyceron">@cyceron</a> l’article sur le
+      POSSE de <a href="https://twitter.com/nhoizey">@nhoizey</a> devrait vous intéresser
+      <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">nicolas-hoizey.com/2017/11/medium…</a>
+      en gros ce que j’appelle la «souveraineté des contenus» :p</p>
 "/2017/12/biocoop-recycle-aussi-les-tweets.html": {}
