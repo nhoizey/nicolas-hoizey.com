@@ -7,7 +7,7 @@ title: Ces contenus sont disponibles même sans connexion
   <p class="icon">{% asset icon-offline.svg %}</p>
   <p class="info">Désolé, <strong>vous ne semblez pas être connecté</strong>.</p>
 </div>
-<p>En attendant de retrouver une connexion, vous pouvez en apprendre plus <a href="/a-propos/de-moi.html">à propos de moi</a> ou <a href="/a-propos/du-site.html">de ce site</a>, ou lire une des autres pages disponibles dans votre cache, dont mon tout dernier billet :</p>
+<p>En attendant de retrouver une connexion, vous pouvez en apprendre plus <a href="/a-propos/de-moi.html">sur moi</a> ou <a href="/a-propos/du-site.html">ce site</a>, ou lire un des autres contenus disponibles dans votre cache :</p>
 {% for post in site.posts limit:1 %}
 <script>
 let lastPostUrl = '{{ post.url }}';
