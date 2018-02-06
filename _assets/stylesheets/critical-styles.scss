@@ -682,6 +682,8 @@ article {
   margin: 1em 0;
   border: 1px solid transparent;
   border-radius: 0.5em;
+  transition: background-color 0.25s ease-in-out, border-color 0.25s ease-in-out,
+    color 0.25s ease-in-out;
 }
 
 .alert-success {
