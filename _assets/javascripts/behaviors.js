@@ -41,17 +41,6 @@
 // Install Service Worker
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js')
-
-  // If the browser supports Service Workers and the Cache API,
-  // getting offline should be less stressful. Change the "error" message
-  // to a "warning" message, and provide a link to content available in cache.
-  let offlineNotification = window.document.querySelector(
-    '#offline-notification',
-  )
-  offlineNotification.classList.add('alert-warning')
-  offlineNotification.classList.remove('alert-error')
-  offlineNotification.querySelector('.alert__message').innerHTML =
-    'Désolé, <strong>vous ne semblez plus être connecté</strong>. Vous pouvez continuer à lire cette page, ou <a href="/offline.html">voir ce qui est dans votre cache</a>.'
 }
 
 // Clean Service Worker cache
@@ -82,14 +71,70 @@ function checkConnectivity() {
 
 // check if we're online, set a class on <body> if offline
 function updateConnectivityStatus() {
+  let offlineNotificationToShow = false
+  let offlineNotificationIcon = ''
+  let offlineNotificationType = ''
+  let offlineNotificationMessage = ''
+  let offlineNotificationElement = window.document.getElementById(
+    'offline-notification',
+  )
+
   if (typeof navigator.onLine !== 'undefined') {
     if (
       !navigator.onLine &&
       !window.document.getElementById('offline-notification-static')
     ) {
+      // add 'offline' class to the body, for any CSS adjustment
       document.body.classList.add('offline')
+
+      offlineNotificationToShow = true
+      offlineNotificationIcon = 'offline'
+      if ('serviceWorker' in navigator) {
+        // If the browser supports Service Workers and the Cache API,
+        // getting offline should be less stressful. Use a "warning"
+        // message instead of an "error and provide a link to content
+        // available in cache.
+        offlineNotificationType = 'warning'
+        offlineNotificationMessage =
+          'Désolé, <strong>vous ne semblez plus être connecté</strong>. Vous pouvez continuer à lire cette page, ou <a href="/offline.html">voir ce qui est dans votre cache</a>.'
+      } else {
+        offlineNotificationType = 'error'
+        offlineNotificationMessage =
+          'Désolé, <strong>vous ne semblez plus être connecté</strong>. Vous pouvez continuer à lire cette page en attendant le retour de la connexion.'
+      }
     } else {
+      // remove 'offline' class from the body
       document.body.classList.remove('offline')
+
+      offlineNotificationIcon = 'online'
+      if (offlineNotificationElement) {
+        offlineNotificationToShow = true
+        offlineNotificationType = 'success'
+        offlineNotificationMessage =
+          '<strong>Vous être de nouveau connecté</strong> ! Vous pouvez reprendre une navigation normale sur le site.'
+      }
+    }
+
+    if (offlineNotificationToShow) {
+      // https://stackoverflow.com/a/25214113/717195
+      let newOfflineNotificationElement = document.createRange()
+        .createContextualFragment(`<div class="wrap" id="offline-notification">
+        <div class="alert alert-${offlineNotificationType}">
+          <p class="alert__icon"><svg class="icon"><use xlink:href="#symbol-${offlineNotificationIcon}" /></svg></p>
+          <p class="alert__message">${offlineNotificationMessage}</p>
+        </div>
+      </div>`)
+
+      if (offlineNotificationElement) {
+        offlineNotificationElement.parentNode.replaceChild(
+          offlineNotificationElement,
+          newOfflineNotificationElement,
+        )
+      } else {
+        document
+          .querySelector('main')
+          .insertAdjacentHTML('beforebegin', newOfflineNotificationElement)
+      }
     }
   }
 }
