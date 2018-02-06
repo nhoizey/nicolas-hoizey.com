@@ -55,23 +55,16 @@ layout: microtypo
     </script>
   </div>
 </header>
-<div class="wrap" id="offline-notification">
-  <div class="alert alert-error">
-    <p class="alert__icon">{% asset icon-offline.svg %}</p>
-    <p class="alert__message">Désolé, <strong>vous ne semblez plus être connecté</strong>. Vous pouvez continuer à lire cette page en attendant le retour de la connexion.</p>
+{% if page.url == "/" or page.url == "/index.html" %}
+<div id="intro">
+  <div class="wrap">
+    <p>
+      Bienvenue sur mon recueil de créations et réflexions sur des sujets très variés, notamment la <a href="/tags/photo.html">photo</a> et le <a href="/tags/web.html">Web</a>. Vous pouvez en savoir plus <a href="/a-propos/de-moi.html">à propos de moi</a> ou <a href="/a-propos/du-site.html">de ce site</a>.
+    </p>
   </div>
 </div>
+{% endif %}
 <main>
-  {% if page.url == "/" or page.url == "/index.html" %}
-    <div id="intro">
-      <div class="wrap">
-        <p>
-          Bienvenue sur mon recueil de créations et réflexions sur des sujets très variés, notamment la <a href="/tags/photo.html">photo</a> et le <a href="/tags/web.html">Web</a>. Vous pouvez en savoir plus <a href="/a-propos/de-moi.html">à propos de moi</a> ou <a href="/a-propos/du-site.html">de ce site</a>.
-        </p>
-      </div>
-    </div>
-  {% endif %}
-
   <div class="wrap">
     {{ content }}
   </div>
