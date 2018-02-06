@@ -663,10 +663,69 @@ article {
 // Offline
 // ************************************************************
 
-#offline_notification {
+#offline-notification {
   display: none;
 
   body.offline & {
     display: block;
   }
+}
+
+// ************************************************************
+// Alerts and error messages
+// ************************************************************
+
+.alert {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  margin: 1em 0;
+  border: 1px solid transparent;
+  border-radius: 0.5em;
+}
+
+.alert-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+
+  .alert__link {
+    color: #2b542c;
+  }
+}
+
+.alert-warning {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+
+  .alert__link {
+    color: #66512c;
+  }
+}
+
+.alert-error {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+
+  .alert__link {
+    color: #843534;
+  }
+}
+
+.alert__icon {
+  margin: 0;
+  font-size: 2.5em;
+  line-height: 1;
+
+  svg {
+    fill: currentColor;
+  }
+}
+
+.alert__message {
+  margin: 0;
+  flex: 1;
+  padding-left: 1em;
 }

@@ -3,9 +3,9 @@ layout: default
 title: Ces contenus sont disponibles même sans connexion
 ---
 
-<div class="error clearfix">
-  <p class="icon">{% asset icon-offline.svg %}</p>
-  <p class="info">Désolé, <strong>vous ne semblez pas être connecté</strong>.</p>
+<div id="offline-notification-static" class="alert alert-warning">
+  <p class="alert__icon">{% asset icon-offline.svg %}</p>
+  <p class="alert__message">Désolé, <strong>vous ne semblez pas être connecté</strong>.</p>
 </div>
 <p>En attendant de retrouver une connexion, vous pouvez en apprendre plus <a href="/a-propos/de-moi.html">sur moi</a> ou <a href="/a-propos/du-site.html">ce site</a>, ou lire un des autres contenus disponibles dans votre cache :</p>
 {% for post in site.posts limit:1 %}

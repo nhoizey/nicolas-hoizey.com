@@ -53,7 +53,12 @@ layout: microtypo
     </script>
   </div>
 </header>
-
+<div class="wrap" id="offline-notification">
+  <div class="alert alert-error">
+    <p class="alert__icon">{% asset icon-offline.svg %}</p>
+    <p class="alert__message">Désolé, <strong>vous ne semblez plus être connecté</strong>. Vous pouvez continuer à lire cette page en attendant le retour de la connexion.</p>
+  </div>
+</div>
 <main>
   {% if page.url == "/" or page.url == "/index.html" %}
     <div id="intro">
@@ -64,11 +69,6 @@ layout: microtypo
       </div>
     </div>
   {% endif %}
-
-  <div id="offline_notification" class="wrap error clearfix">
-      <p class="icon">{% asset icon-offline.svg %}</p>
-      <p class="info">Désolé, <a href="/offline.html">vous ne semblez pas être connecté</a>.</p>
-  </div>
 
   <div class="wrap">
     {{ content }}

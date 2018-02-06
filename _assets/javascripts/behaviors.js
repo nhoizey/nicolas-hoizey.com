@@ -41,6 +41,17 @@
 // Install Service Worker
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js')
+
+  // If the browser supports Service Workers and the Cache API,
+  // getting offline should be less stressful. Change the "error" message
+  // to a "warning" message, and provide a link to content available in cache.
+  let offlineNotification = window.document.querySelector(
+    '#offline-notification',
+  )
+  offlineNotification.classList.add('alert-warning')
+  offlineNotification.classList.remove('alert-error')
+  offlineNotification.querySelector('.alert__message').innerHTML =
+    'Désolé, <strong>vous ne semblez plus être connecté</strong>. Vous pouvez continuer à lire cette page, ou <a href="/offline.html">voir ce qui est dans votre cache</a>.'
 }
 
 // Clean Service Worker cache
@@ -72,7 +83,10 @@ function checkConnectivity() {
 // check if we're online, set a class on <body> if offline
 function updateConnectivityStatus() {
   if (typeof navigator.onLine !== 'undefined') {
-    if (!navigator.onLine) {
+    if (
+      !navigator.onLine &&
+      !window.document.getElementById('offline-notification-static')
+    ) {
       document.body.classList.add('offline')
     } else {
       document.body.classList.remove('offline')
