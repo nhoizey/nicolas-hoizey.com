@@ -6,12 +6,12 @@
 // - Jake Archibald's Offline Cookbook: https://jakearchibald.com/2014/offline-cookbook/
 // - Jeremy Keith's Service Worker: https://adactio.com/journal/9775
 
-const version = '0.10';
+const version = '0.12';
 const staticCacheName = `v${version}::static`;
 const pagesCacheName = `v${version}::pages`;
 const imagesCacheName = `v${version}::images`;
 
-const unavailableContentPage = '/indisponible.html';
+const unavailableContentPage = '/offline-fallback.html';
 
 const offlinePages = [
   unavailableContentPage,
