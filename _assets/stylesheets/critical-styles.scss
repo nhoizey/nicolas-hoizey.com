@@ -678,7 +678,7 @@ article {
 .alert {
   display: flex;
   align-items: center;
-  padding: 1em;
+  padding: 0.5em;
   margin: 1em 0;
   border: 1px solid transparent;
   border-radius: 0.5em;
@@ -718,16 +718,20 @@ article {
 
 .alert__icon {
   margin: 0;
-  font-size: 2.5em;
   line-height: 1;
 
   svg {
     fill: currentColor;
+    width: 7vw;
+    max-width: 2.5em;
+    height: 7vw;
+    padding: 0;
+    margin: 0;
   }
 }
 
 .alert__message {
   margin: 0;
   flex: 1;
-  padding-left: 1em;
+  padding-left: 0.5em;
 }
