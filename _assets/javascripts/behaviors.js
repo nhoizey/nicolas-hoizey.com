@@ -131,9 +131,11 @@ function updateConnectivityStatus() {
           newOfflineNotificationElement,
         )
       } else {
-        document
-          .querySelector('main')
-          .insertAdjacentHTML('beforebegin', newOfflineNotificationElement)
+        let mainElement = document.querySelector('main')
+        mainElement.parentNode.insertBefore(
+          newOfflineNotificationElement,
+          mainElement,
+        )
       }
     }
   }
