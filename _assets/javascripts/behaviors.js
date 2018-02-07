@@ -80,10 +80,7 @@ function updateConnectivityStatus() {
   )
 
   if (typeof navigator.onLine !== 'undefined') {
-    if (
-      !navigator.onLine &&
-      !window.document.getElementById('offline-notification-static')
-    ) {
+    if (!navigator.onLine) {
       // add 'offline' class to the body, for any CSS adjustment
       document.body.classList.add('offline')
 
@@ -115,7 +112,10 @@ function updateConnectivityStatus() {
       }
     }
 
-    if (offlineNotificationToShow) {
+    if (
+      offlineNotificationToShow &&
+      !window.document.getElementById('offline-notification-static')
+    ) {
       // https://stackoverflow.com/a/25214113/717195
       let newOfflineNotificationElement = document.createRange()
         .createContextualFragment(`<div class="wrap" id="offline-notification">
