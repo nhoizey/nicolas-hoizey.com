@@ -1,7 +1,7 @@
 ---
 title:      Sony RX100 III, mon excellent nouveau compact expert toujours en poche
 lang:       fr
-tags:       [photo, sony, RX100, matériel]
+tags:       [photo, Sony, RX100, matériel]
 px500:      https://500px.com/photo/94804509
 flickr:     https://www.flickr.com/photos/nicolas-hoizey/16213387835/
 ---
@@ -20,9 +20,9 @@ Après quelques mois d'utilisation, présent en permanence dans mon sac ou ma po
 
 > Mes 3 critères de choix principaux pour le choix de cet appareil étaient :
 >
-> - que la qualité soit notable bien entendu,
-> - qu’il y ai un viseur pour permettre la prise de vue en toutes circonstances, ayant été très frustré sur ce point par mon test du GM1,
-> - mais aussi que ma nouvelle acquisition puisse tenir dans une poche. Et je parle d’une poche de jean, pas d’une grande poche de veste. L’idée étant de pouvoir l’avoir sur moi en permanence, même l’été.
+> * que la qualité soit notable bien entendu,
+> * qu’il y ai un viseur pour permettre la prise de vue en toutes circonstances, ayant été très frustré sur ce point par mon test du GM1,
+> * mais aussi que ma nouvelle acquisition puisse tenir dans une poche. Et je parle d’une poche de jean, pas d’une grande poche de veste. L’idée étant de pouvoir l’avoir sur moi en permanence, même l’été.
 >
 > Je ne connais toujours pas d’autre appareil répondant à ces critères.
 >
@@ -35,4 +35,3 @@ Et surtout :
 Voici par exemple une photo réalisée en boîte à Ibiza avec ce bijou de poche, vous imaginez bien que je n'aurais pas pu rentrer avec un reflex :
 
 {% cloudinary Follow-the-rythm.jpg alt="Un DJ mixe dans une boîte de nuit" caption="Follow the rythm" %}
-

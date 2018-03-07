@@ -1,7 +1,7 @@
 ---
 title: J'ai été interviewé au sujet de Firefox OS
 lang:  fr
-tags:  [Firefox OS, Mozilla, interview]
+tags:  [Firefox OS, Mozilla, interview, Web]
 ---
 
 Pour être plus précis, je devrais dire que j'ai été interviewé par [Mozinet](http://blogzinet.free.fr/blog/index.php?pages/a-propos), qui appartient au [groupe de communication francophone communautaire pour Firefox OS](http://wiki.mozfr.org/FirefoxOS/GroupeCommunication), au sujet de mon historique et ma relation avec Firefox OS.

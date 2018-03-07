@@ -1,7 +1,7 @@
 ---
 title: So long Disqus, hello Webmention
 lang:  en
-tags:  [Disqus, webperf, Webmention, IndieWeb]
+tags:  [Disqus, webperf, Webmention, IndieWeb, Web]
 tweet: https://twitter.com/nhoizey/status/890635589170585600
 ---
 
@@ -93,8 +93,8 @@ Trackbacks and pingbacks failed mostly because of SPAM, and IndieWeb is taking t
 
 Webmentions for this site are collected by two services:
 
-- [webmention.io](https://webmention.io/) "is a hosted service created to easily handle webmentions (and legacy pingbacks) on any web page". I use it as my Webmention endpoint. This is [an open source project](https://github.com/aaronpk/webmention.io) built by [Aaron Parecki](https://twitter.com/aaronpk), co-founder of [IndieWebCamp](https://indieweb.org/) and editor of the W3C Webmention and Micropub specifications[^shareaholic].
-- [Bridgy](https://brid.gy/) "pulls comments, likes, and reshares on social networks" (Facebook, Twitter, Google+, Instagram, Flickr, etc.) and push them to my Webmention endpoint. This is [an open source project](https://github.com/snarfed/bridgy) built by IndieWeb people, and is free to use.
+* [webmention.io](https://webmention.io/) "is a hosted service created to easily handle webmentions (and legacy pingbacks) on any web page". I use it as my Webmention endpoint. This is [an open source project](https://github.com/aaronpk/webmention.io) built by [Aaron Parecki](https://twitter.com/aaronpk), co-founder of [IndieWebCamp](https://indieweb.org/) and editor of the W3C Webmention and Micropub specifications[^shareaholic].
+* [Bridgy](https://brid.gy/) "pulls comments, likes, and reshares on social networks" (Facebook, Twitter, Google+, Instagram, Flickr, etc.) and push them to my Webmention endpoint. This is [an open source project](https://github.com/snarfed/bridgy) built by IndieWeb people, and is free to use.
 
 [^shareaholic]: Aaron is also a [shareaholic](http://www.urbandictionary.com/define.php?term=shareaholic), traking on his website [where he moves](https://aaronparecki.com/gps/), [what he eats](https://aaronparecki.com/ate), etc.
 

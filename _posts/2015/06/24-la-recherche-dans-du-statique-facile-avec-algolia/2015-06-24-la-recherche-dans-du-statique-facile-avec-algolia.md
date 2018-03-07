@@ -1,7 +1,7 @@
 ---
 title: La recherche dans du statique ? Facile avec Algolia !
 lang:  fr
-tags:  [statique, recherche, Algolia]
+tags:  [statique, recherche, Algolia, Web]
 ---
 
 Un des soucis avec un site statique tel que celui-ci, c'est que par définition il rend compliquée la mise en œuvre de fonctionnalités habituellement dynamiques. Les commentaires viennent immédiatement à l'esprit, et seront évoqués ultérieurement, mais la mise en place d'un moteur de recherche interne n'est pas plus simple. Heureusement, Algolia est là.
@@ -44,7 +44,7 @@ Il existe bien entendu [Google Custom Search Engine](https://developers.google.c
 
 Mais cette solution est plutôt pénible à configurer, à intégrer, et vraiment pas satisfaisant en termes de design et UX. [J'ai essayé](https://cse.google.com/cse/publicurl?cx=013671593275354155634:byyvkk_5xf0), et y ai perdu pas mal d'heures avant d'abandonner.
 
-De plus, l'indexation est plein texte, sans vraiment de paramétrage possible, comme pour le Google Search général. La qualité du code *front end* du site a un impact déterminant sur la mise en œuvre.
+De plus, l'indexation est plein texte, sans vraiment de paramétrage possible, comme pour le Google Search général. La qualité du code _front end_ du site a un impact déterminant sur la mise en œuvre.
 
 ## Algolia
 
@@ -55,11 +55,11 @@ C'est alors que j'ai entendu parler[^vvo] d'[Algolia](https://www.algolia.com/),
 
 Algolia est bluffant à plus d'un titre :
 
-- API REST riche et simple à exploiter grâce aux clients clefs en main, que ce soit pour l'indexation ou la recherche
-- [documentation](https://www.algolia.com/doc/getting-started) super complète et assistant la mise en œuvre pas à pas
-- qualité fonctionnelle et ergonomique de l'interface d'administration
-- nombreux paramètres de configuration activables dans l'interface et surchargeables via l'API
-- et enfin, performance incroyable, avec des temps de réponse extrêmement faibles permettant une expérience utilisateur optimale, que ce soit en mode [suggestion de recherche](https://www.algolia.com/doc/tutorials/auto-complete) ou [résultats instantanés](https://www.algolia.com/doc/tutorials/instant-search)
+* API REST riche et simple à exploiter grâce aux clients clefs en main, que ce soit pour l'indexation ou la recherche
+* [documentation](https://www.algolia.com/doc/getting-started) super complète et assistant la mise en œuvre pas à pas
+* qualité fonctionnelle et ergonomique de l'interface d'administration
+* nombreux paramètres de configuration activables dans l'interface et surchargeables via l'API
+* et enfin, performance incroyable, avec des temps de réponse extrêmement faibles permettant une expérience utilisateur optimale, que ce soit en mode [suggestion de recherche](https://www.algolia.com/doc/tutorials/auto-complete) ou [résultats instantanés](https://www.algolia.com/doc/tutorials/instant-search)
 
 {% cloudinary algolia-dashboard-overview.jpg alt="Le tableau de bord Algolia" caption="Un point de vue rapide sur l'état de l'indexation et des recherches." %}
 

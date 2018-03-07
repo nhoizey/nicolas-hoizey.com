@@ -1,7 +1,7 @@
 ---
 title: How much data should my Service Worker put upfront in the offline cache?
 lang:  en
-tags:  [offline, webperf, Service Worker, PWA]
+tags:  [offline, webperf, Service Worker, PWA, Web]
 ---
 
 I love when Web site/apps work even when I'm offline. I've made my SVG game [esviji](http://play.esviji.com) work offline thanks to [appcache](https://developer.mozilla.org/en-US/docs/Web/HTML/Using_the_application_cache) just after attending [Jake Archibald](https://twitter.com/jaffathecake) conference about why [Application Cache is a Douchebag](http://www.paris-web.fr/2012/conferences/application-cache.php) during the 2012 edition of the [Paris Web](http://www.paris-web.fr/) conference. Fortunately, we have now Service Workers (in some browsers), which gives us more control over this kind of cache for offline browsing. But as Uncle Ben says, "With Great Power Comes Great Responsibility".
@@ -55,7 +55,7 @@ Because I use it quite a lot these days to check my own Progressive Web Apps, I 
 
 For my own website, I first thought I would only cache visited pages. But I now cache the homepage, the two about pages, and the last post, regardless of the page on which the user arrives, for a really light total weight of 87 KB additional resources. The offline fallback page lists the pages that are in the cache, so that the user can discover some unknown content even when she's offline. This is a WIP, so it might break, and it will change over the coming weeks, because I might adjust my strategy.
 
-*[WIP]: Work In Progress
+\*[WIP]: Work In Progress
 
 There is a user setting to "save data" in some browser, which activation adds a new HTTP header we can test in our Service Workers, as shown by [Dean Hume](https://twitter.com/deanohume) in his post [Service Workers: Save your User's Data using the Save-Data Header](http://deanhume.com/home/blogpost/service-workers--save-your-users-data-using-the-save-data-header/10139), but I think most people that are not as tech savvy as us will never notice this setting, so it's obviously a nice to have, but it's not enough.
 

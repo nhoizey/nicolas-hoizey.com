@@ -1,7 +1,7 @@
 ---
 title:      Test du Panasonic LX100 pour Phototrend
 lang:       fr
-tags:       [Phototrend, test, Panasonic, appareil photo]
+tags:       [Phototrend, test, Panasonic, appareil photo, photo]
 flickr:     https://www.flickr.com/photos/nicolas-hoizey/18907163221
 px500:      https://500px.com/photo/112307515/pigments-by-nicolas-hoizey
 ---
@@ -11,4 +11,3 @@ Voici un nouveau test réalisé pour Phototrend, celui de l'excellent [compact e
 Je vous invite à aller lire le [test détaillé du Panasonic LX100 sur Phototrend](http://phototrend.fr/2015/09/test-appareil-photo-compact-panasonic-lumix-lx100/) et surtout n'hésitez pas à commenter et me dire ce que vous en pensez, tant de l'appareil que du test.
 
 {% cloudinary 20150427-Pigments.jpg %}
-
