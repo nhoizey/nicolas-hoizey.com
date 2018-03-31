@@ -17,9 +17,9 @@
   </style>
 
   {% comment %} Async load of non critical CSS {% endcomment %}
-  <link rel="preload" href="{% asset_path non-critical-styles %}" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="{% asset non-critical-styles %}" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <noscript>
-    <link rel="stylesheet" href="{% asset_path non-critical-styles %}" />
+    <link rel="stylesheet" href="{% asset non-critical-styles %}" />
   </noscript>
   <script>
     {% asset vendors/cssrelpreload-2.0.1 %}

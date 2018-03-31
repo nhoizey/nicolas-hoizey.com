@@ -42,7 +42,7 @@ function updateStaticCache() {
   return caches.open(staticCacheName)
     .then(cache => {
       return cache.addAll([
-        '{% asset_path "non-critical-styles" %}',
+        '{% asset "non-critical-styles" %}',
       ]);
   });
 }
