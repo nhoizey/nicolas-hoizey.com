@@ -13,14 +13,14 @@ layout: microtypo
 {% endif %}
 
 <svg style="display: none;" aria-hidden="true">
-  {% asset symbol-date.svg %}
-  {% asset symbol-tags.svg %}
-  {% asset symbol-webmentions.svg %}
-  {% asset symbol-link.svg %}
-  {% asset symbol-twitter.svg %}
-  {% asset symbol-algolia.svg %}
-  {% asset symbol-online.svg %}
-  {% asset symbol-offline.svg %}
+  {% asset symbol-date.svg @inline %}
+  {% asset symbol-tags.svg @inline %}
+  {% asset symbol-webmentions.svg @inline %}
+  {% asset symbol-link.svg @inline %}
+  {% asset symbol-twitter.svg @inline %}
+  {% asset symbol-algolia.svg @inline %}
+  {% asset symbol-online.svg @inline %}
+  {% asset symbol-offline.svg @inline %}
 </svg>
 
 <header id="header">
@@ -37,7 +37,7 @@ layout: microtypo
         <input id="search_sites" type="hidden" name="as_sitesearch" value="nicolas-hoizey.com" />
         <input id="search_input" name="q" type="search" size="5" spellcheck="false" autocorrect="off" autocomplete="off" aria-label="Search articles on the site" />
         <label for="search_button">
-          {% asset icon-search.svg %}
+          {% asset icon-search.svg @inline %}
         </label>
         <input id="search_button" type="submit" value="" />
       </p>

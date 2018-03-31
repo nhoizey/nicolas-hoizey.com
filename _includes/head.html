@@ -7,23 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   {% comment %} Inline critical JS {% endcomment %}
-  <script>
-  {% asset early-js %}
-  </script>
+  {% asset early-js @inline %}
 
   {% comment %} Inline critical CSS {% endcomment %}
-  <style>
-  {% asset critical-styles %}
-  </style>
+  {% asset critical-styles @inline %}
 
   {% comment %} Async load of non critical CSS {% endcomment %}
-  <link rel="preload" href="{% asset non-critical-styles %}" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="{% asset non-critical-styles @path %}" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <noscript>
-    <link rel="stylesheet" href="{% asset non-critical-styles %}" />
+    <link rel="stylesheet" href="{% asset non-critical-styles @path %}" />
   </noscript>
-  <script>
-    {% asset vendors/cssrelpreload-2.0.1 %}
-  </script>
+  {% asset vendors/cssrelpreload-2.0.1 @inline %}
 
   {% comment %} opengraph and Twitter {% endcomment %}
   <meta property="og:site_name" content="Nicolas Hoizey" />
