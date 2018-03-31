@@ -1,18 +1,3 @@
-GIT
-  remote: git://github.com/algolia/jekyll-algolia.git
-  revision: 0513b15ae1b8c153ab441da775aa454809ca5606
-  branch: develop
-  specs:
-    jekyll-algolia (1.0.0)
-      algolia_html_extractor (~> 2.1)
-      algoliasearch (~> 1.18)
-      filesize (~> 0.1)
-      jekyll (~> 3.6)
-      jekyll-paginate (~> 1.1)
-      json (~> 2.0)
-      nokogiri (~> 1.6)
-      verbal_expressions (~> 0.1.5)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -23,14 +8,14 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    algolia_html_extractor (2.1.0)
+    algolia_html_extractor (2.2.1)
       awesome_print (~> 1.6)
       json (~> 2.0)
       nokogiri (~> 1.8)
-    algoliasearch (1.18.2)
+    algoliasearch (1.19.1)
       httpclient (~> 2.8.3)
       json (>= 1.5.1)
-    autoprefixer-rails (7.1.6)
+    autoprefixer-rails (8.2.0)
       execjs
     awesome_print (1.8.0)
     colorator (1.1.0)
@@ -58,7 +43,7 @@ GEM
       domain_name (~> 0.5)
     http-form_data (1.0.3)
     http_parser.rb (0.6.0)
-    httparty (0.15.6)
+    httparty (0.15.7)
       multi_xml (>= 0.5.2)
     httpclient (2.8.3)
     i18n (0.9.1)
@@ -76,6 +61,14 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
+    jekyll-algolia (1.1.5)
+      algolia_html_extractor (~> 2.2)
+      algoliasearch (~> 1.18)
+      filesize (~> 0.1)
+      jekyll (~> 3.0)
+      json (~> 2.0)
+      nokogiri (~> 1.6)
+      verbal_expressions (~> 0.1.5)
     jekyll-archives (2.1.1)
       jekyll (>= 2.4)
     jekyll-assets (3.0.8)
@@ -94,7 +87,6 @@ GEM
       jekyll (>= 3.0, < 4.0)
     jekyll-microtypo (0.0.6)
       jekyll (>= 3.0, < 4.0)
-    jekyll-paginate (1.1.0)
     jekyll-postfiles (2.1.1)
     jekyll-sanity (1.2.0)
       jekyll (~> 3.1)
@@ -104,7 +96,7 @@ GEM
       nuggets
     jekyll-watch (2.0.0)
       listen (~> 3.0)
-    jekyll-webmention_io (2.8.5)
+    jekyll-webmention_io (2.9.1)
       htmlbeautifier (~> 1.1)
       http (~> 2.0)
       jekyll (>= 2.0, < 4.0)
@@ -159,7 +151,7 @@ GEM
       execjs (>= 0.3.0, < 3)
     unf (0.1.4)
       unf_ext
-    unf_ext (0.0.7.4)
+    unf_ext (0.0.7.5)
     verbal_expressions (0.1.5)
     webmention (0.1.6)
       httparty (~> 0.15.5)
@@ -177,7 +169,7 @@ PLATFORMS
 DEPENDENCIES
   autoprefixer-rails
   jekyll
-  jekyll-algolia!
+  jekyll-algolia
   jekyll-archives
   jekyll-assets
   jekyll-cloudinary
