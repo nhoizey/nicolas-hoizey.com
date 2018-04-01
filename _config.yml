@@ -54,9 +54,7 @@ include:
 
 # Jekyll Assets
 assets:
-  compress:
-    css: true
-    js: false
+  compression: false
   autoprefixer:
     browsers:
       - "last 2 versions"
