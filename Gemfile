@@ -16,9 +16,9 @@ gem 'jekyll'
 # done in 1093.613 seconds.
 # done in 662.816 seconds. (without webmentions)
 
-gem 'rmagick'
+#gem 'rmagick'
 gem 'yt'
-gem 'json'
+#gem 'json'
 
 group :jekyll_plugins do
   gem 'jekyll-assets'
@@ -30,5 +30,5 @@ group :jekyll_plugins do
   gem 'jekyll-cloudinary'
   gem 'jekyll-archives'
   gem 'jekyll-microtypo'
-  gem 'jekyll-webmention_io'
+  gem 'jekyll-webmention_io',  '~>2.9'
 end
