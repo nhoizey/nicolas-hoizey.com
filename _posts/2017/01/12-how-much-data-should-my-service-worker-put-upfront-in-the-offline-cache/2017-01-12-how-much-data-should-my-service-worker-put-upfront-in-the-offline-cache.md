@@ -1,7 +1,7 @@
 ---
 title: How much data should my Service Worker put upfront in the offline cache?
 lang:  en
-tags:  [offline, webperf, Service Worker, PWA, Web]
+tags:  [offline, webperf, Service Worker, PWA]
 ---
 
 I love when Web site/apps work even when I'm offline. I've made my SVG game [esviji](http://play.esviji.com) work offline thanks to [appcache](https://developer.mozilla.org/en-US/docs/Web/HTML/Using_the_application_cache) just after attending [Jake Archibald](https://twitter.com/jaffathecake) conference about why [Application Cache is a Douchebag](http://www.paris-web.fr/2012/conferences/application-cache.php) during the 2012 edition of the [Paris Web](http://www.paris-web.fr/) conference. Fortunately, we have now Service Workers (in some browsers), which gives us more control over this kind of cache for offline browsing. But as Uncle Ben says, "With Great Power Comes Great Responsibility".

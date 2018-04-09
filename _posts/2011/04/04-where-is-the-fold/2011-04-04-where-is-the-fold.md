@@ -1,7 +1,7 @@
 ---
 title:      Where is the Fold?
 lang:       fr
-tags:       [Web, design, CSS, Media Queries]
+tags:       [design, CSS, RWD]
 ---
 
 OK, on le sait tous, « [there is no page fold](http://www.thereisnopagefold.com/) », mais savoir où est ce *non fold* peut être carrément utile, alors heureusement qu'il y a des outils qui permettent de visualiser simplement ce que donne un site sur les résolutions les plus courantes.

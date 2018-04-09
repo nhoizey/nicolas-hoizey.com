@@ -1,7 +1,7 @@
 ---
 title:      Matraquage publicitaire
 lang:       fr
-tags:       [Web, publicité]
+tags:       [publicité]
 ---
 
 Je fais parti des dingues qui n'utilisent pas de solution de blocage de pub type [Adblock Plus](http://adblockplus.org/)[^1], notamment parce que parfois une pub peut réellement m'intéresser[^2], mais surtout parce que je veux voir ce que le créateur du site a réellement voulu me montrer. Et parfois j'ai envie de pleurer…

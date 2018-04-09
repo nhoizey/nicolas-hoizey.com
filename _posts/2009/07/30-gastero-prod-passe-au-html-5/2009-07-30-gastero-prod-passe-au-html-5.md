@@ -1,7 +1,7 @@
 ---
 title:      Gastero Prod passe au HTML 5
 lang:       fr
-tags:       [HTML, Web, Gastero Prod]
+tags:       [HTML, Gastero Prod]
 ---
 
 [HTML 5](http://dev.w3.org/html5/spec/), même si c'est [pas finalisé](http://www.w3.org/QA/2009/05/_watching_the_google_io.html), c'est l'avenir, et pour une fois on peut y aller progressivement, alors allons-y !

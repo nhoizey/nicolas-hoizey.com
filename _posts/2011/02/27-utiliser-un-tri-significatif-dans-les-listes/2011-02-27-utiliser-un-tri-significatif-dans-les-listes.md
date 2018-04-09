@@ -1,7 +1,7 @@
 ---
 title:      Utiliser un tri significatif dans les listes
 lang:       fr
-tags:       [UX, Web, liste]
+tags:       [UX, liste]
 ---
 
 On nous propose parfois dans des formulaires de faire un choix dans une liste pour sélectionner une option. Selon la nature de l’information listée, le mode de tri devra être adapté.

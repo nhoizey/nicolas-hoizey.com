@@ -1,7 +1,7 @@
 ---
 title: Mon jeu esviji intégré à Framagames
 lang:  fr
-tags:  [esviji, jeu, Web, logiciel libre]
+tags:  [esviji, jeu, logiciel libre]
 ---
 
 Quelle heureuse surprise ce matin de découvrir[^grace] que mon jeu libre [esviji](http://esviji.com/) développé en technologies Web a été retenu par Framasoft pour le [lancement](http://framablog.org/2015/06/18/framagames-des-jeux-pour-changer-les-idees-aux-lyceens/) de sa plateforme [Framagames](http://framagames.org/) !

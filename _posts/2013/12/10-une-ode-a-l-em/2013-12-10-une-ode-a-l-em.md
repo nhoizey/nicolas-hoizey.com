@@ -1,7 +1,7 @@
 ---
 title:      Une ode à l'em
 lang:       fr
-tags:       [Web, qualité, RWD, em]
+tags:       [qualité, RWD, em]
 ---
 
 Après avoir eu des retours plutôt nombreux et positifs suite à [ma conférence à Paris Web 2013](/2013/10/ma-conference-a-paris-web-2013.html), j'ai retroussé mes manches pour proposer une version plus rédactionnelle, en essayant de retranscrire tout ce que j'ai dit mais pas mis dans mes slides, et même plus. Et j'ai la chance d'avoir vu ce très long article publié sur [24 Jours de Web](http://www.24joursdeweb.fr/), « le calendrier de l'avent des gens qui font le web d'après ».

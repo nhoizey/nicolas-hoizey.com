@@ -1,7 +1,7 @@
 ---
 title:      Flickr lance son propre système d'URL courtes
 lang:       fr
-tags:       [Flickr, URL, Web]
+tags:       [Flickr, URL]
 ---
 
 Les services de raccourci d'URL[^1] sont de plus en plus [nombreux](http://www.logiste.be/blog/155-raccourcisseurs-durl-tinyurl-like/) et [riches en fonctionnalités](http://searchengineland.com/analysis-which-url-shortening-service-should-you-use-17204), notamment parce qu'ils sont rendus nécessaires par les [Twitter](http://twitter.com/) et consorts qui ne permettent d'échanger que des messages de 140 caractères. C'est maintenant [Flickr](http://www.flickr.com/) qui dispose de son propre système d'URL courtes, comme je l'ai découvert via [ce tweet de Rasmus Lerdorf](http://twitter.com/rasmus/statuses/1601650008)[^2]

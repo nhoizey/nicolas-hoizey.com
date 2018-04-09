@@ -1,7 +1,7 @@
 ---
 title:      Les inscriptions à Paris Web 2010 sont ouvertes !
 lang:       fr
-tags:       [Paris Web, conférence, Web]
+tags:       [Paris Web, conférence]
 ---
 
 [Paris Web 2010](http://www.paris-web.fr/2010/), c'est la cinquième édition de ce rendez-vous français annuel, devenu incontournable, pour se tenir informé des bonnes pratiques de développement Web. Go go go !

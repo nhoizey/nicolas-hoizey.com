@@ -1,7 +1,7 @@
 ---
 title:      Viewport height is taller than the visible part of the document in some mobile browsers
 lang:       en
-tags:       [Web, Safari, iPhone, iPad, bug]
+tags:       [Safari, iPhone, iPad, bug]
 ---
 
 When trying to use [a `100vh` CSS value](http://caniuse.com/viewport-units) to build a new interface for [a game](http://esviji.com/) that would use the full viewport, I discovered that this full height value meant the bottom of the game interface was partialy hidden behind the browser buttons bar or below the "fold" of some mobile browsers.

@@ -1,7 +1,7 @@
 ---
 title:      Donner des noms explicites aux fichiers en téléchargement
 lang:       fr
-tags:       [UX, Web, fichier, téléchargement]
+tags:       [UX, fichier, téléchargement]
 ---
 
 De nombreux sites proposent de télécharger des fichiers. Qu’il s’agisse de documents bureautiques, de programmes ou de tout autre format, le nom du fichier sur le serveur sera presque tout le temps conservé tel quel par l’utilisateur sur son ordinateur. L’utilisateur sera peut-être amené à conserver ce fichier parmi d’autres, pour utilisation ultérieure. Il est donc important que son nom soit explicite.

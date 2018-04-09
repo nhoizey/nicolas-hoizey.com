@@ -1,7 +1,7 @@
 ---
 title:      Lâchez-moi avec le débat digital contre numérique !
 lang:       fr
-tags:       [Web, digital, numérique]
+tags:       [digital, numérique]
 ---
 
 Je travaille dans le digital. J'ai même co-fondé un « [assembleur de cocktails digitaux 100% indépendant](http://clever-age.com) », c'est dire. Et vous ne me ferez pas dire de sitôt que je travaille dans le numérique.

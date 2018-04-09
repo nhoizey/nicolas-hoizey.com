@@ -1,7 +1,7 @@
 ---
 title:      Mes bookmarks migrent de Diigo vers Pinboard
 lang:       fr
-tags:       [Web, bookmarks, Diigo, Pinboard]
+tags:       [bookmarks, Diigo, Pinboard]
 ---
 
 Diigo a décidé de supprimer les listes, si pratiques pour rassembler des bookmarks par thématiques ou destinations de redistribution — j'en utilise une pour les [CleverMarks](http://twitter.com/CleverMarks) par exemple — sans « polluer » les tags, au profit d'une nouvelle fonctionnalité [Outliner](http://blog.diigo.com/2014/12/04/meet-diigo-outliner-the-best-way-to-structurally-organize-your-information-and-thoughts/), bien plus proche d'un outil de prise de notes comme Evernote que d'un outil de bookmarking social. Du coup je m'en vais voir ailleurs si l'herbe est plus verte.
