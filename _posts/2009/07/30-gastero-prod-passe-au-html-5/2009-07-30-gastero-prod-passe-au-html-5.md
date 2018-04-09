@@ -10,15 +10,15 @@ Suite à ma participation au dernier [W3Café](http://france.w3cafe.org/-W3cafe-
 
 Pour commencer doucement, j'ai remplacé ceci :
 
-~~~ html
+```html
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-~~~
+```
 
 Par ceci :
 
-~~~ html
+```html
 <!DOCTYPE html>
-~~~
+```
 
 Tout simplement. ;-)
 
