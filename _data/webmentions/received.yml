@@ -10598,6 +10598,166 @@
     author: *247
     type: reply
     content: "<p>J’allais justement Google si ça existait :)</p>"
+  '509572':
+    id: '509572'
+    uri: https://twitter.com/nhoizey/status/980120827764072449#favorited-by-566643339
+    source: twitter
+    pubdate: 2018-03-31 22:21:57.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nhoizey/980120827764072449/566643339
+      verified: true
+      verified_date: '2018-03-31T22:21:57+00:00'
+      id: 509572
+      private: false
+      data:
+        author: &248
+          name: Simon Prévidente
+          url: https://twitter.com/sim_previdente
+          photo: https://webmention.io/avatar/pbs.twimg.com/89058cb9410e94ab0a29cfabfc323722c31a780806cb7c8f561035603b3769f9.jpg
+        url: https://twitter.com/nhoizey/status/980120827764072449#favorited-by-566643339
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Simon Prévidente favorited a tweet https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
+        sentence_html: <a href="https://twitter.com/sim_previdente">Simon Prévidente</a>
+          favorited a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
+      target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
+    author: *248
+    type: like
+    content: <p><a href="https://twitter.com/sim_previdente">Simon Prévidente</a>
+      favorited a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
+  '509658':
+    id: '509658'
+    uri: https://twitter.com/nhoizey/status/980120827764072449#favorited-by-50655724
+    source: twitter
+    pubdate: 2018-04-01 08:58:06.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nhoizey/980120827764072449/50655724
+      verified: true
+      verified_date: '2018-04-01T08:58:06+00:00'
+      id: 509658
+      private: false
+      data:
+        author: &249
+          name: Samuel Bouchet
+          url: https://twitter.com/Lythom
+          photo: https://webmention.io/avatar/pbs.twimg.com/ed40e9fa00c0bde9dbefd9198e184c3aa3dcac1b97e92f24b38cad9b3fb4ddb8.png
+        url: https://twitter.com/nhoizey/status/980120827764072449#favorited-by-50655724
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Samuel Bouchet favorited a tweet https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
+        sentence_html: <a href="https://twitter.com/Lythom">Samuel Bouchet</a> favorited
+          a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
+      target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
+    author: *249
+    type: like
+    content: <p><a href="https://twitter.com/Lythom">Samuel Bouchet</a> favorited
+      a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
+  '509730':
+    id: '509730'
+    uri: https://twitter.com/nhoizey/status/980120827764072449#favorited-by-155551263
+    source: twitter
+    pubdate: 2018-04-01 19:15:29.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nhoizey/980120827764072449/155551263
+      verified: true
+      verified_date: '2018-04-01T19:15:29+00:00'
+      id: 509730
+      private: false
+      data:
+        author: &250
+          name: "Arnaud Ligny \U0001F4A1"
+          url: https://twitter.com/ArnaudLigny
+          photo: https://webmention.io/avatar/pbs.twimg.com/e04f4c499a25b481abec1f871357702901e0b65b0fa987fc6b71504d698059fd.png
+        url: https://twitter.com/nhoizey/status/980120827764072449#favorited-by-155551263
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: "Arnaud Ligny \U0001F4A1 favorited a tweet https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html"
+        sentence_html: "<a href=\"https://twitter.com/ArnaudLigny\">Arnaud Ligny \U0001F4A1</a>
+          favorited a tweet <a href=\"https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html\">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>"
+      target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
+    author: *250
+    type: like
+    content: "<p><a href=\"https://twitter.com/ArnaudLigny\">Arnaud Ligny \U0001F4A1</a>
+      favorited a tweet <a href=\"https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html\">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>"
+  '980137223621369857':
+    id: '980137223621369857'
+    uri: https://twitter.com/nhoizey/status/980137223621369857
+    source: twitter
+    pubdate: 2018-03-31 19:38:18.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/nhoizey/980120827764072449/980137223621369857
+      verified: true
+      verified_date: '2018-03-31T18:09:11+00:00'
+      id: 509532
+      private: false
+      data:
+        author: &251
+          name: Nicolas Hoizey
+          url: https://nicolas-hoizey.com
+          photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
+        url: https://twitter.com/nhoizey/status/980137223621369857
+        name: 
+        content: Ah cool !
+        published: '2018-03-31T17:38:18+00:00'
+        published_ts: 1522517898
+      activity:
+        type: reply
+        sentence: Nicolas Hoizey replied 'Ah cool !' to a tweet https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
+        sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
+          'Ah cool !' to a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
+      target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
+    author: *251
+    type: reply
+    content: "<p>Ah cool !</p>"
+  '980200634564694016':
+    id: '980200634564694016'
+    uri: https://twitter.com/sim_previdente/status/980200634564694016
+    source: twitter
+    pubdate: 2018-03-31 23:50:17.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nhoizey/980120827764072449/980200634564694016
+      verified: true
+      verified_date: '2018-03-31T22:21:54+00:00'
+      id: 509571
+      private: false
+      data:
+        author: &252
+          name: Simon Prévidente
+          url: https://www.simon-previdente.fr/
+          photo: https://webmention.io/avatar/pbs.twimg.com/89058cb9410e94ab0a29cfabfc323722c31a780806cb7c8f561035603b3769f9.jpg
+        url: https://twitter.com/sim_previdente/status/980200634564694016
+        name: 
+        content: |-
+          J’adore vraiment les Webmentions !<br />
+          <br />
+          Celles-ci viennent de réponses à mon tweet qui annonçait le billet de blog :<br />
+          nicolas-hoizey.com/2018/03/optimi…<br />
+          <br />
+          Ra
+        published: '2018-03-31T21:50:17+00:00'
+        published_ts: 1522533017
+      activity:
+        type: repost
+        sentence: Simon Prévidente retweeted a tweet https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
+        sentence_html: <a href="https://www.simon-previdente.fr/">Simon Prévidente</a>
+          retweeted a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a>
+      target: https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html
+    author: *252
+    type: repost
+    content: <p><a href="https://www.simon-previdente.fr/">Simon Prévidente</a> retweeted
+      a tweet <a href="https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html">https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html</a></p>
 "/2017/10/chrome-fails-showing-big-emojis.html":
   '923854064244482049':
     id: '923854064244482049'
@@ -10611,7 +10771,7 @@
       id: 468370
       private: false
       data:
-        author: &248
+        author: &253
           name: Tobi Reif
           url: https://tobireif.com
           photo: https://webmention.io/avatar/pbs.twimg.com/5e29c96ebd275f26f7d3e38c320a8e2f9d1f89fc8c44dfb3d77a6404c70e53f1.jpg
@@ -10626,7 +10786,7 @@
         sentence_html: <a href="https://tobireif.com">Tobi Reif</a> retweeted a tweet
           <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *248
+    author: *253
     type: repost
     content: <p><a href="https://tobireif.com">Tobi Reif</a> retweeted a tweet <a
       href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a></p>
@@ -10642,7 +10802,7 @@
       id: 468371
       private: false
       data:
-        author: &249
+        author: &254
           name: Tobi Reif
           url: https://twitter.com/TobiReif
           photo: https://webmention.io/avatar/pbs.twimg.com/5e29c96ebd275f26f7d3e38c320a8e2f9d1f89fc8c44dfb3d77a6404c70e53f1.jpg
@@ -10658,7 +10818,7 @@
         sentence_html: <a href="https://twitter.com/TobiReif">Tobi Reif</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *249
+    author: *254
     type: like
     content: <p><a href="https://twitter.com/TobiReif">Tobi Reif</a> favorited a tweet
       <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a></p>
@@ -10674,7 +10834,7 @@
       id: 468396
       private: false
       data:
-        author: &250
+        author: &255
           name: "Boris \U0001F680"
           url: https://borisschapira.com
           photo: https://webmention.io/avatar/pbs.twimg.com/d3ed75cdd1d0d82555937738c4ee8988786f99b45590f5bb048beb7793ba1e6b.jpg
@@ -10690,7 +10850,7 @@
         sentence_html: "<a href=\"https://borisschapira.com\">Boris \U0001F680</a>
           retweeted a tweet <a href=\"https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html\">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>"
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *250
+    author: *255
     type: repost
     content: "<p><a href=\"https://borisschapira.com\">Boris \U0001F680</a> retweeted
       a tweet <a href=\"https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html\">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a></p>"
@@ -10706,7 +10866,7 @@
       id: 468397
       private: false
       data:
-        author: &251
+        author: &256
           name: "Hubert \U0001F60E SABLONNIÈRE"
           url: https://twitter.com/hsablonniere
           photo: https://webmention.io/avatar/pbs.twimg.com/b98be22654fa0b522890000c8e7ce8a6a4385d79a7f280ddacc56b7c2915d8d6.jpg
@@ -10723,7 +10883,7 @@
         sentence_html: "<a href=\"https://twitter.com/hsablonniere\">Hubert \U0001F60E
           SABLONNIÈRE</a> favorited a tweet <a href=\"https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html\">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>"
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *251
+    author: *256
     type: like
     content: "<p><a href=\"https://twitter.com/hsablonniere\">Hubert \U0001F60E SABLONNIÈRE</a>
       favorited a tweet <a href=\"https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html\">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a></p>"
@@ -10739,7 +10899,7 @@
       id: 468403
       private: false
       data:
-        author: &252
+        author: &257
           name: Julien Wajsberg
           url: http://everlong.org
           photo: https://webmention.io/avatar/pbs.twimg.com/079e8b6d4d606c25447891e40542e9d4f62b9e045b7f19f88e00262468d79454.jpeg
@@ -10755,7 +10915,7 @@
         sentence_html: <a href="http://everlong.org">Julien Wajsberg</a> replied ''
           to a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *252
+    author: *257
     type: reply
     content: "<p>“Firefox on macOS doesn’t have a real fullscreen option appart from
       the one you can start with JavaScript” mmm then why don’t you use JS ?</p>"
@@ -10771,7 +10931,7 @@
       id: 468404
       private: false
       data:
-        author: &253
+        author: &258
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -10787,7 +10947,7 @@
         sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
           '' to a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *253
+    author: *258
     type: reply
     content: "<p>Because I don’t want to develop something that should be native.
       And the development would have to be copy/pasted everywhere I need it.</p>"
@@ -10803,7 +10963,7 @@
       id: 468406
       private: false
       data:
-        author: &254
+        author: &259
           name: Xavier Mouton-Dubosc
           url: http://dascritch.net
           photo: https://webmention.io/avatar/pbs.twimg.com/bad9dca3e13bf73aa4df7f69d59a019b91e275538299adacd01b56693c24ba53.png
@@ -10819,7 +10979,7 @@
         sentence_html: <a href="http://dascritch.net">Xavier Mouton-Dubosc</a> retweeted
           a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *254
+    author: *259
     type: repost
     content: <p><a href="http://dascritch.net">Xavier Mouton-Dubosc</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a></p>
@@ -10835,7 +10995,7 @@
       id: 468405
       private: false
       data:
-        author: &255
+        author: &260
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -10851,7 +11011,7 @@
         sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
           'bugzilla.mozilla.org/show_bug.cgi?i…' to a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *255
+    author: *260
     type: reply
     content: <p><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1403085">bugzilla.mozilla.org/show_bug.cgi?i…</a></p>
   '923888643542016001':
@@ -10866,7 +11026,7 @@
       id: 468408
       private: false
       data:
-        author: &256
+        author: &261
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -10882,7 +11042,7 @@
         sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
           '' to a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *256
+    author: *261
     type: reply
     content: "<p>I already lost too much time, I chose to use Powerpoint after all…
       \U0001F625</p>"
@@ -10898,7 +11058,7 @@
       id: 468407
       private: false
       data:
-        author: &257
+        author: &262
           name: Julien Wajsberg
           url: http://everlong.org
           photo: https://webmention.io/avatar/pbs.twimg.com/079e8b6d4d606c25447891e40542e9d4f62b9e045b7f19f88e00262468d79454.jpeg
@@ -10914,7 +11074,7 @@
         sentence_html: <a href="http://everlong.org">Julien Wajsberg</a> replied ''
           to a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *257
+    author: *262
     type: reply
     content: "<p>You do cross-browser development, right ? IMO this can be part of
       it. Although I understand it’s inconvenient.</p>"
@@ -10930,7 +11090,7 @@
       id: 468409
       private: false
       data:
-        author: &258
+        author: &263
           name: Julien Wajsberg
           url: http://everlong.org
           photo: https://webmention.io/avatar/pbs.twimg.com/079e8b6d4d606c25447891e40542e9d4f62b9e045b7f19f88e00262468d79454.jpeg
@@ -10945,7 +11105,7 @@
         sentence_html: <a href="http://everlong.org">Julien Wajsberg</a> replied ''
           to a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *258
+    author: *263
     type: reply
     content: "<p>ouch :(</p>"
   '923918752470749185':
@@ -10960,7 +11120,7 @@
       id: 468433
       private: false
       data:
-        author: &259
+        author: &264
           name: Xavier Zalawa
           url: http://www.7studio.fr
           photo: https://webmention.io/avatar/pbs.twimg.com/d8ef47ca310cf0775f7c27550c6d3c23bca5e0f6b6bec30f1cfa5262afce56a9.jpg
@@ -10976,7 +11136,7 @@
         sentence_html: <a href="http://www.7studio.fr">Xavier Zalawa</a> retweeted
           a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *259
+    author: *264
     type: repost
     content: <p><a href="http://www.7studio.fr">Xavier Zalawa</a> retweeted a tweet
       <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a></p>
@@ -10992,7 +11152,7 @@
       id: 468434
       private: false
       data:
-        author: &260
+        author: &265
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -11007,7 +11167,7 @@
         sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
           '' to a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *260
+    author: *265
     type: reply
     content: "<p>\U0001F632</p>"
   '923917557106606080':
@@ -11022,7 +11182,7 @@
       id: 468436
       private: false
       data:
-        author: &261
+        author: &266
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -11037,7 +11197,7 @@
         sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
           '' to a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *261
+    author: *266
     type: reply
     content: "<p>Mais que de temps perdu… \U0001F604</p>"
   '923919600298885121':
@@ -11052,7 +11212,7 @@
       id: 468435
       private: false
       data:
-        author: &262
+        author: &267
           name: florens
           url: http://fvsch.com
           photo: https://webmention.io/avatar/pbs.twimg.com/dcb2d84e544835659f3002614ef679b273f8bebfbe1066cbd44951a37580ba53.jpg
@@ -11068,7 +11228,7 @@
         sentence_html: <a href="http://fvsch.com">florens</a> retweeted a tweet <a
           href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *262
+    author: *267
     type: repost
     content: <p><a href="http://fvsch.com">florens</a> retweeted a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a></p>
   '923918938144231426':
@@ -11083,7 +11243,7 @@
       id: 468438
       private: false
       data:
-        author: &263
+        author: &268
           name: Jean-Pierre Vincent
           url: http://braincracking.org
           photo: https://webmention.io/avatar/pbs.twimg.com/28a5d3be9d9f0961f8c383b1350241f225f845a5a3e502e9cea86ea5fc7c6448.jpg
@@ -11101,7 +11261,7 @@
           replied 'paroles-musique.com/paroles-Sabrin… (oui je suis parti chercher
           loin)' to a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *263
+    author: *268
     type: reply
     content: <p><a href="http://www.paroles-musique.com/paroles-Sabrina-Boys_Boys_Boys-lyrics,p47717">paroles-musique.com/paroles-Sabrin…</a>
       (oui je suis parti chercher loin)</p>
@@ -11117,7 +11277,7 @@
       id: 468437
       private: false
       data:
-        author: &264
+        author: &269
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -11132,7 +11292,7 @@
         sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
           '' to a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *264
+    author: *269
     type: reply
     content: "<p>Je ne connais pas !</p>"
   '923916664730800129':
@@ -11147,7 +11307,7 @@
       id: 468439
       private: false
       data:
-        author: &265
+        author: &270
           name: Jean-Pierre Vincent
           url: http://braincracking.org
           photo: https://webmention.io/avatar/pbs.twimg.com/28a5d3be9d9f0961f8c383b1350241f225f845a5a3e502e9cea86ea5fc7c6448.jpg
@@ -11162,7 +11322,7 @@
         sentence_html: <a href="http://braincracking.org">Jean-Pierre Vincent</a>
           replied '' to a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *265
+    author: *270
     type: reply
     content: "<p>bien trouvé :)</p>"
   '923918555363594240':
@@ -11177,7 +11337,7 @@
       id: 468440
       private: false
       data:
-        author: &266
+        author: &271
           name: Jean-Pierre Vincent
           url: http://braincracking.org
           photo: https://webmention.io/avatar/pbs.twimg.com/28a5d3be9d9f0961f8c383b1350241f225f845a5a3e502e9cea86ea5fc7c6448.jpg
@@ -11196,7 +11356,7 @@
         sentence_html: <a href="http://braincracking.org">Jean-Pierre Vincent</a>
           replied 'bugs bugs bugs ! Sunshine down So come to town' to a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *266
+    author: *271
     type: reply
     content: |-
       <p>bugs bugs bugs !
@@ -11214,7 +11374,7 @@
       id: 468501
       private: false
       data:
-        author: &267
+        author: &272
           name: Eric Portis
           url: https://twitter.com/etportis
           photo: https://webmention.io/avatar/pbs.twimg.com/558b4c45b7bd5a1107c170e4bb77e2f8cd7f59bf7eda42756b5a7b93c24753a2.png
@@ -11230,7 +11390,7 @@
         sentence_html: <a href="https://twitter.com/etportis">Eric Portis</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *267
+    author: *272
     type: like
     content: <p><a href="https://twitter.com/etportis">Eric Portis</a> favorited a
       tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a></p>
@@ -11246,7 +11406,7 @@
       id: 468507
       private: false
       data:
-        author: &268
+        author: &273
           name: Matthieu Rébillard
           url: https://twitter.com/matrebillard
           photo: https://webmention.io/avatar/pbs.twimg.com/e6013d1fe66b5582f07e3bad0803c102e078a640dab2517711d0a0a702680bf8.jpg
@@ -11263,7 +11423,7 @@
         sentence_html: <a href="https://twitter.com/matrebillard">Matthieu Rébillard</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *268
+    author: *273
     type: like
     content: <p><a href="https://twitter.com/matrebillard">Matthieu Rébillard</a>
       favorited a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a></p>
@@ -11279,7 +11439,7 @@
       id: 468704
       private: false
       data:
-        author: &269
+        author: &274
           name: Nicolas Hoizey
           url: https://twitter.com/nhoizey
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -11295,7 +11455,7 @@
         sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *269
+    author: *274
     type: like
     content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a></p>
@@ -11311,7 +11471,7 @@
       id: 468710
       private: false
       data:
-        author: &270
+        author: &275
           name: Jacques Pyrat
           url: https://twitter.com/jpyrat
           photo: https://webmention.io/avatar/pbs.twimg.com/309d56d684421118ad8e38aa879a4f9ae0242b7275915212757324d20c940027.jpg
@@ -11327,7 +11487,7 @@
         sentence_html: <a href="https://twitter.com/jpyrat">Jacques Pyrat</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *270
+    author: *275
     type: like
     content: <p><a href="https://twitter.com/jpyrat">Jacques Pyrat</a> favorited a
       tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a></p>
@@ -11343,7 +11503,7 @@
       id: 474557
       private: false
       data:
-        author: &271
+        author: &276
           name: Peter O'Shaughnessy
           url: https://peteroshaughnessy.com
           photo: https://webmention.io/avatar/pbs.twimg.com/730d694b675e228d7aa8a847da128de4c2029929c3b31d5e837ce9a2b4381d06.jpg
@@ -11360,7 +11520,7 @@
         sentence_html: <a href="https://peteroshaughnessy.com">Peter O'Shaughnessy</a>
           replied '' to a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *271
+    author: *276
     type: reply
     content: "<p>Probably you have considered already and I know it’s more work, but
       you can get nice free emoji SVG sets like emojione, which you could make as
@@ -11377,7 +11537,7 @@
       id: 474558
       private: false
       data:
-        author: &272
+        author: &277
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -11397,7 +11557,7 @@
           ''I could have used SVG indeed (I love it! Hint: @esviji), but I didn’t
           have much ...'' to a tweet <a href="https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html">https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html</a>'
       target: https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html
-    author: *272
+    author: *277
     type: reply
     content: |-
       <p>I could have used SVG indeed (I love it! Hint: <a href="https://twitter.com/esviji">@esviji</a>), but I didn’t have much time left to work on my talk, so I chose to fallback to the tool I know the best…</p>
@@ -11416,7 +11576,7 @@
       id: 472193
       private: false
       data:
-        author: &273
+        author: &278
           name: "Boris \U0001F680"
           url: https://twitter.com/borisschapira
           photo: https://webmention.io/avatar/pbs.twimg.com/3d8105333110098f48010fa00794be2f29597715cc34fef041a051ed8d0d3ae3.jpg
@@ -11433,7 +11593,7 @@
         sentence_html: "<a href=\"https://twitter.com/borisschapira\">Boris \U0001F680</a>
           favorited a tweet <a href=\"https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html\">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>"
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *273
+    author: *278
     type: like
     content: "<p><a href=\"https://twitter.com/borisschapira\">Boris \U0001F680</a>
       favorited a tweet <a href=\"https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html\">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a></p>"
@@ -11449,7 +11609,7 @@
       id: 472192
       private: false
       data:
-        author: &274
+        author: &279
           name: nicosomb
           url: https://nicolas.loeuillet.org
           photo: https://webmention.io/avatar/pbs.twimg.com/2aa70fc786eba977955617e335a0a560312150f6b7791de1cd1652e1705699b9.jpg
@@ -11465,7 +11625,7 @@
         sentence_html: <a href="https://nicolas.loeuillet.org">nicosomb</a> retweeted
           a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *274
+    author: *279
     type: repost
     content: <p><a href="https://nicolas.loeuillet.org">nicosomb</a> retweeted a tweet
       <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a></p>
@@ -11481,7 +11641,7 @@
       id: 472194
       private: false
       data:
-        author: &275
+        author: &280
           name: Christophe Vergne
           url: https://twitter.com/cvergne
           photo: https://webmention.io/avatar/pbs.twimg.com/de4de54c819f1801de8a33593c557d64a2fe4daaf0c99373945329670d32762a.jpg
@@ -11497,7 +11657,7 @@
         sentence_html: <a href="https://twitter.com/cvergne">Christophe Vergne</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *275
+    author: *280
     type: like
     content: <p><a href="https://twitter.com/cvergne">Christophe Vergne</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a></p>
@@ -11513,7 +11673,7 @@
       id: 472195
       private: false
       data:
-        author: &276
+        author: &281
           name: Nicolas Steinmetz
           url: https://nicolas.steinmetz.fr/
           photo: https://webmention.io/avatar/pbs.twimg.com/bebe3da8075d9083c901625cf2b977caad289bef5f986cacaffcbae4bd48122a.jpg
@@ -11529,7 +11689,7 @@
         sentence_html: <a href="https://nicolas.steinmetz.fr/">Nicolas Steinmetz</a>
           retweeted a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *276
+    author: *281
     type: repost
     content: <p><a href="https://nicolas.steinmetz.fr/">Nicolas Steinmetz</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a></p>
@@ -11545,7 +11705,7 @@
       id: 472196
       private: false
       data:
-        author: &277
+        author: &282
           name: Nicolas Steinmetz
           url: https://twitter.com/nsteinmetz
           photo: https://webmention.io/avatar/pbs.twimg.com/bebe3da8075d9083c901625cf2b977caad289bef5f986cacaffcbae4bd48122a.jpg
@@ -11562,7 +11722,7 @@
         sentence_html: <a href="https://twitter.com/nsteinmetz">Nicolas Steinmetz</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *277
+    author: *282
     type: like
     content: <p><a href="https://twitter.com/nsteinmetz">Nicolas Steinmetz</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a></p>
@@ -11578,7 +11738,7 @@
       id: 472197
       private: false
       data:
-        author: &278
+        author: &283
           name: "Boris \U0001F680"
           url: https://borisschapira.com
           photo: https://webmention.io/avatar/pbs.twimg.com/3d8105333110098f48010fa00794be2f29597715cc34fef041a051ed8d0d3ae3.jpg
@@ -11594,7 +11754,7 @@
         sentence_html: "<a href=\"https://borisschapira.com\">Boris \U0001F680</a>
           retweeted a tweet <a href=\"https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html\">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>"
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *278
+    author: *283
     type: repost
     content: "<p><a href=\"https://borisschapira.com\">Boris \U0001F680</a> retweeted
       a tweet <a href=\"https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html\">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a></p>"
@@ -11610,7 +11770,7 @@
       id: 472202
       private: false
       data:
-        author: &279
+        author: &284
           name: remouk
           url: http://danstonchat.com
           photo: https://webmention.io/avatar/pbs.twimg.com/098c7769189b3025d523c317a46d0e5b1d4fc725472f559d0f7f06e1cf204afa.jpg
@@ -11632,7 +11792,7 @@
           en tout point d'accord avec ton article. :) Je me renseigne doucement su...'
           to a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *279
+    author: *284
     type: reply
     content: <p>Je suis en tout point d’accord avec ton article. :) Je me renseigne
       doucement sur <a href="https://twitter.com/search?q=%23webmention">#webmention</a>
@@ -11651,7 +11811,7 @@
       id: 472209
       private: false
       data:
-        author: &280
+        author: &285
           name: Bruno Del Sol
           url: https://twitter.com/BDelSolParis
           photo: https://webmention.io/avatar/pbs.twimg.com/ecace765e15ad5e31329aaf770ea61999d3518dbdcbf95b8c3e31d80a3ed7f82.jpg
@@ -11668,7 +11828,7 @@
         sentence_html: <a href="https://twitter.com/BDelSolParis">Bruno Del Sol</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *280
+    author: *285
     type: like
     content: <p><a href="https://twitter.com/BDelSolParis">Bruno Del Sol</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a></p>
@@ -11684,7 +11844,7 @@
       id: 472210
       private: false
       data:
-        author: &281
+        author: &286
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -11699,7 +11859,7 @@
         sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
           '' to a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *281
+    author: *286
     type: reply
     content: "<p>Cool ! Heureux de t’avoir fait découvrir cette merveille. \U0001F609</p>"
   '928555548471103489':
@@ -11714,7 +11874,7 @@
       id: 472215
       private: false
       data:
-        author: &282
+        author: &287
           name: "Boris \U0001F680"
           url: https://borisschapira.com
           photo: https://webmention.io/avatar/pbs.twimg.com/3d8105333110098f48010fa00794be2f29597715cc34fef041a051ed8d0d3ae3.jpg
@@ -11733,7 +11893,7 @@
           posted '[Veille] \"Medium is only an edge server of your POSSE CDN, your
           own blog is the ...' linking to <a href=\"https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html\">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>"
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *282
+    author: *287
     type: link
     content: <p>[Veille] “Medium is only an edge server of your POSSE CDN, your own
       blog is the origin”, Nicolas Hoizey (<a href="https://twitter.com/nhoizey">@nhoizey</a>)…
@@ -11750,7 +11910,7 @@
       id: 472217
       private: false
       data:
-        author: &283
+        author: &288
           name: Nicolas Steinmetz
           url: https://nicolas.steinmetz.fr/
           photo: https://webmention.io/avatar/pbs.twimg.com/bebe3da8075d9083c901625cf2b977caad289bef5f986cacaffcbae4bd48122a.jpg
@@ -11769,7 +11929,7 @@
           posted 'Medium is only an edge server of your POSSE CDN, your own blog is
           the origin - n...' linking to <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *283
+    author: *288
     type: link
     content: <p>Medium is only an edge server of your POSSE CDN, your own blog is
       the origin - <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">nicolas-hoizey.com/2017/11/medium…</a>
@@ -11786,7 +11946,7 @@
       id: 472224
       private: false
       data:
-        author: &284
+        author: &289
           name: Mickaël Isaert
           url: https://twitter.com/micmeister59
           photo: https://webmention.io/avatar/pbs.twimg.com/271cb1fac87c682b5b643bc42aab4e9fc8d5d0ac061300adfd4f695d1bab4deb.png
@@ -11803,7 +11963,7 @@
         sentence_html: <a href="https://twitter.com/micmeister59">Mickaël Isaert</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *284
+    author: *289
     type: like
     content: <p><a href="https://twitter.com/micmeister59">Mickaël Isaert</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a></p>
@@ -11819,7 +11979,7 @@
       id: 472273
       private: false
       data:
-        author: &285
+        author: &290
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -11839,7 +11999,7 @@
           '@indiewebcamp thanks a lot for leading the way! https://t.co/nMC5cpXuM7'
           linking to <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *285
+    author: *290
     type: link
     content: |-
       <p><a href="https://twitter.com/indiewebcamp">@indiewebcamp</a> thanks a lot for leading the way!
@@ -11857,7 +12017,7 @@
       id: 472395
       private: false
       data:
-        author: &286
+        author: &291
           name: Arnaud Ligny
           url: http://arnaudligny.fr
           photo: https://pbs.twimg.com/profile_images/481482401835909121/n062y_rs.png
@@ -11875,7 +12035,7 @@
           is only an edge server of your POSSE CDN, your own blog is the origin nic...'
           linking to <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *286
+    author: *291
     type: link
     content: <p>Medium is only an edge server of your POSSE CDN, your own blog is
       the origin <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">nicolas-hoizey.com/2017/11/medium…</a></p>
@@ -11891,7 +12051,7 @@
       id: 477258
       private: false
       data:
-        author: &287
+        author: &292
           name: Jeremy Keith
           url: https://adactio.com/
           photo: 
@@ -11920,7 +12080,7 @@
         sentence_html: <a href="https://adactio.com/">Jeremy Keith</a> bookmarked
           a post <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *287
+    author: *292
     type: bookmark
     content: <p><a href="https://adactio.com/">Jeremy Keith</a> bookmarked a post
       <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a></p>
@@ -11936,7 +12096,7 @@
       id: 477259
       private: false
       data:
-        author: &288
+        author: &293
           name: Adactio Links
           url: http://adactio.com/links
           photo: https://webmention.io/avatar/pbs.twimg.com/8e0a805eae6791b05c23541931a123a5446393bb9929fcdd274f7e5c33d7792f.jpeg
@@ -11954,7 +12114,7 @@
           'Medium is only an edge server of your POSSE CDN, your own blog is the origin
           nic...' linking to <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *288
+    author: *293
     type: link
     content: <p>Medium is only an edge server of your POSSE CDN, your own blog is
       the origin <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">nicolas-hoizey.com/2017/11/medium…</a></p>
@@ -11970,7 +12130,7 @@
       id: 477307
       private: false
       data:
-        author: &289
+        author: &294
           name: Baldur Bjarnason
           url: https://www.baldurbjarnason.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/f2791c22ce91d5d90c1443c20b71720c6616f50207f8156207bc83c1332544ab.png
@@ -11989,7 +12149,7 @@
           posted '“Medium is only an edge server of your POSSE CDN, your own blog
           is the origin” n...' linking to <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *289
+    author: *294
     type: link
     content: |-
       <p>“Medium is only an edge server of your POSSE CDN, your own blog is the origin”
@@ -12040,7 +12200,7 @@
       id: 477979
       private: false
       data:
-        author: &290
+        author: &295
           name: Lauren Hutchison
           url: http://laurenhutchison.com
           photo: https://webmention.io/avatar/pbs.twimg.com/dbc98e7d9839d01ffba66fbd6742e92db6be9a651e1acfd287cdadd92d4c7e64.jpg
@@ -12058,7 +12218,7 @@
           posted ''Real_CSS_Tricks: POSSE means   Publish (on your)  Own  Site,  Syndicate
           Elsewher...'' linking to <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>'
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *290
+    author: *295
     type: link
     content: "<p>Real_CSS_Tricks: POSSE means</p>\n\n<p>Publish (on your) \nOwn \nSite,
       \nSyndicate\nElsewhere.</p>\n\n<p><a href=\"https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html\">nicolas-hoizey.com/2017/11/medium…</a></p>"
@@ -12074,7 +12234,7 @@
       id: 477980
       private: false
       data:
-        author: &291
+        author: &296
           name: CSS-Tricks
           url: http://css-tricks.com
           photo: https://webmention.io/avatar/pbs.twimg.com/2a413e147dae5b7588764ac87bba7e7e45845130a42b1c6a5381e2225f818db7.jpg
@@ -12092,7 +12252,7 @@
           means   Publish (on your)  Own  Site,  Syndicate Elsewhere.  nicolas-hoize...'
           linking to <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *291
+    author: *296
     type: link
     content: "<p>POSSE means</p>\n\n<p>Publish (on your) \nOwn \nSite, \nSyndicate\nElsewhere.</p>\n\n<p><a
       href=\"https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html\">nicolas-hoizey.com/2017/11/medium…</a></p>"
@@ -12108,7 +12268,7 @@
       id: 477987
       private: false
       data:
-        author: &292
+        author: &297
           name: Talotics - Digital Marketing
           url: http://digitalonlinetactics.com
           photo: https://webmention.io/avatar/pbs.twimg.com/10f5ea3452f7e4f43837e240034e247255e6f1a562e8060fcb57805fbaa6d5f8.jpg
@@ -12127,7 +12287,7 @@
           Marketing</a> posted 'POSSE - Publish (on your) Own Site, Syndicate Elsewhere
           nicolas-hoizey.com/2017/...' linking to <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *292
+    author: *297
     type: link
     content: <p>POSSE - Publish (on your) Own Site, Syndicate Elsewhere <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">nicolas-hoizey.com/2017/11/medium…</a>
       <a href="https://twitter.com/search?q=%23contentMarketing">#contentMarketing</a>
@@ -12144,7 +12304,7 @@
       id: 478178
       private: false
       data:
-        author: &293
+        author: &298
           name: Jacky
           url: https://jacky.seezone.net
           photo: https://webmention.io/avatar/pbs.twimg.com/17f9f0308b22132de78d065aa0332849727c8a21e4e36bf8ff680a91652d0b2f.jpg
@@ -12162,7 +12322,7 @@
           is only an edge server of your POSSE CDN, your own blog is the origin nic...'
           linking to <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *293
+    author: *298
     type: link
     content: <p>Medium is only an edge server of your POSSE CDN, your own blog is
       the origin <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">nicolas-hoizey.com/2017/11/medium…</a></p>
@@ -12178,7 +12338,7 @@
       id: 479927
       private: false
       data:
-        author: &294
+        author: &299
           name: "enguerran \U0001F410\U0001F4A8"
           url: http://blog.ticabri.com
           photo: https://webmention.io/avatar/pbs.twimg.com/9a425114a7288f69248def92e5b4f811ae3e1aee5e843a64c111ab9bc0b885cb.jpg
@@ -12197,7 +12357,7 @@
           posted 'Medium is only an edge server of your POSSE CDN, your own blog is
           the origin \"PO...' linking to <a href=\"https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html\">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>"
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *294
+    author: *299
     type: link
     content: |-
       <p>Medium is only an edge server of your POSSE CDN, your own blog is the origin
@@ -12214,7 +12374,7 @@
       id: 486606
       private: false
       data:
-        author: &295
+        author: &300
           name: "Hubert \U0001F60E SABLONNIÈRE"
           url: https://www.hsablonniere.com
           photo: https://webmention.io/avatar/pbs.twimg.com/b98be22654fa0b522890000c8e7ce8a6a4385d79a7f280ddacc56b7c2915d8d6.jpg
@@ -12231,7 +12391,7 @@
           SABLONNIÈRE</a> posted '@CedricSoulas nicolas-hoizey.com/2017/11/medium…'
           linking to <a href=\"https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html\">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>"
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *295
+    author: *300
     type: link
     content: <p><a href="https://twitter.com/CedricSoulas">@CedricSoulas</a> <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">nicolas-hoizey.com/2017/11/medium…</a></p>
   '952860291636912128':
@@ -12246,7 +12406,7 @@
       id: 487851
       private: false
       data:
-        author: &296
+        author: &301
           name: Bob Volte, agent du chaos, chaotic good alignement
           url: https://twitter.com/Uxlco0
           photo: https://webmention.io/avatar/pbs.twimg.com/1ca6e3d954b892bb900f2c02203dc210321ac40376429050f356129a18471620.jpg
@@ -12267,7 +12427,7 @@
           chaotic good alignement</a> posted '@cyceron l'article sur le POSSE de @nhoizey
           devrait vous intéresser nicolas-hoiz...' linking to <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *296
+    author: *301
     type: link
     content: <p><a href="https://twitter.com/cyceron">@cyceron</a> l’article sur le
       POSSE de <a href="https://twitter.com/nhoizey">@nhoizey</a> devrait vous intéresser
@@ -12285,7 +12445,7 @@
       id: 492200
       private: false
       data:
-        author: &297
+        author: &302
           name: Aurélia Courtot
           url: https://twitter.com/_Aurelia
           photo: https://webmention.io/avatar/pbs.twimg.com/67b4ff8249bd93d775969ee4c8ca1f42e1906fb5f4d0d7971398551e9886104c.jpg
@@ -12301,7 +12461,7 @@
         sentence_html: <a href="https://twitter.com/_Aurelia">Aurélia Courtot</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *297
+    author: *302
     type: like
     content: <p><a href="https://twitter.com/_Aurelia">Aurélia Courtot</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a></p>
@@ -12317,7 +12477,7 @@
       id: 495093
       private: false
       data:
-        author: &298
+        author: &303
           name: Aaron Davis
           url: https://readwriterespond.com/
           photo: https://webmention.io/avatar/secure.gravatar.com/1e1294896537ac907480484617bd7d318bbed25e872e771427fcc6f97984af02.jpg
@@ -12332,7 +12492,7 @@
         sentence_html: <a href="https://readwriterespond.com/">Aaron Davis</a> liked
           a post <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *298
+    author: *303
     type: like
     content: <p><a href="https://readwriterespond.com/">Aaron Davis</a> liked a post
       <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a></p>
@@ -12348,7 +12508,7 @@
       id: 508108
       private: false
       data:
-        author: &299
+        author: &304
           name: Clochix
           url: https://twitter.com/clochix
           photo: https://webmention.io/avatar/pbs.twimg.com/b9707a0b5955f07cf87c17d9d2c6b5978225a3cd6bd079a658c8f9581267eb73.jpeg
@@ -12363,7 +12523,7 @@
         sentence_html: <a href="https://twitter.com/clochix">Clochix</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *299
+    author: *304
     type: like
     content: <p><a href="https://twitter.com/clochix">Clochix</a> favorited a tweet
       <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a></p>
@@ -12379,7 +12539,7 @@
       id: 508128
       private: false
       data:
-        author: &300
+        author: &305
           name: David de Bruant de dtc de l'innovation
           url: https://twitter.com/DavidBruant
           photo: https://webmention.io/avatar/pbs.twimg.com/ac0f99d6acbf822b2a06478b63fe80f70270140cb47cbe606c31df1eb9907d71.jpg
@@ -12394,7 +12554,7 @@
         sentence_html: <a href="https://twitter.com/DavidBruant">David de Bruant de
           dtc de l'innovation</a> favorited a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *300
+    author: *305
     type: like
     content: <p><a href="https://twitter.com/DavidBruant">David de Bruant de dtc de
       l’innovation</a> favorited a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a></p>
@@ -12410,7 +12570,7 @@
       id: 508156
       private: false
       data:
-        author: &301
+        author: &306
           name: "Boris \U0001F680"
           url: https://twitter.com/borisschapira
           photo: https://webmention.io/avatar/pbs.twimg.com/d35d51553aeed11681aa2146223330f8674a76c7ddffc8efd0a9af397cec36ef.jpg
@@ -12425,7 +12585,7 @@
         sentence_html: "<a href=\"https://twitter.com/borisschapira\">Boris \U0001F680</a>
           favorited a tweet <a href=\"https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html\">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>"
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *301
+    author: *306
     type: like
     content: "<p><a href=\"https://twitter.com/borisschapira\">Boris \U0001F680</a>
       favorited a tweet <a href=\"https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html\">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a></p>"
@@ -12441,7 +12601,7 @@
       id: 508227
       private: false
       data:
-        author: &302
+        author: &307
           name: Olivier Jaquemet
           url: https://twitter.com/OlivierJaquemet
           photo: https://webmention.io/avatar/pbs.twimg.com/c2c66e7cee1527cb52dbf25c7104b821c9c2fedfbce5c6e42ec0b066c5e5168f.jpg
@@ -12456,7 +12616,7 @@
         sentence_html: <a href="https://twitter.com/OlivierJaquemet">Olivier Jaquemet</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *302
+    author: *307
     type: like
     content: <p><a href="https://twitter.com/OlivierJaquemet">Olivier Jaquemet</a>
       favorited a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a></p>
@@ -12472,7 +12632,7 @@
       id: 508248
       private: false
       data:
-        author: &303
+        author: &308
           name: Claire Zed
           url: https://twitter.com/ZooletteDesBois
           photo: https://webmention.io/avatar/pbs.twimg.com/0b22c67f5bc2f026680a5aae3d9674e99e8d7e5a967dc4ec7f4d1164014ad9db.jpg
@@ -12487,7 +12647,7 @@
         sentence_html: <a href="https://twitter.com/ZooletteDesBois">Claire Zed</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *303
+    author: *308
     type: like
     content: <p><a href="https://twitter.com/ZooletteDesBois">Claire Zed</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a></p>
@@ -12503,7 +12663,7 @@
       id: 510125
       private: false
       data:
-        author: &304
+        author: &309
           name: m4dz
           url: https://m4dz.net
           photo: https://webmention.io/avatar/pbs.twimg.com/14098b7296800ed56686af4e26d3a94ab6cae8d7152106d8776d281b6033d0bb.jpg
@@ -12518,7 +12678,7 @@
         sentence_html: <a href="https://m4dz.net">m4dz</a> replied 'Celui-là même,
           merci :)' to a tweet <a href="https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html">https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html</a>
       target: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
-    author: *304
+    author: *309
     type: reply
     content: "<p>Celui-là même, merci :)</p>"
 "/2017/12/biocoop-recycle-aussi-les-tweets.html": {}
@@ -12535,7 +12695,7 @@
       id: 509385
       private: false
       data:
-        author: &305
+        author: &310
           name: Bastien Jaillot
           url: https://twitter.com/bastnic
           photo: https://webmention.io/avatar/pbs.twimg.com/0dbb6910fed96ef1e3fdf19d6b27ac2dd24a7d5fbdcc7d71e693325a349d8280.jpg
@@ -12550,7 +12710,7 @@
         sentence_html: <a href="https://twitter.com/bastnic">Bastien Jaillot</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *305
+    author: *310
     type: like
     content: <p><a href="https://twitter.com/bastnic">Bastien Jaillot</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -12566,7 +12726,7 @@
       id: 509386
       private: false
       data:
-        author: &306
+        author: &311
           name: Eric Martin
           url: https://twitter.com/_ericmartin_
           photo: https://webmention.io/avatar/pbs.twimg.com/00dec093ff97bf5a2010c9dea622b9fcdc871112e0c9d9006bfcfa0469b0b6c9.jpg
@@ -12581,7 +12741,7 @@
         sentence_html: <a href="https://twitter.com/_ericmartin_">Eric Martin</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *306
+    author: *311
     type: like
     content: <p><a href="https://twitter.com/_ericmartin_">Eric Martin</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -12597,7 +12757,7 @@
       id: 509391
       private: false
       data:
-        author: &307
+        author: &312
           name: "Mathieu \U0001F680"
           url: https://twitter.com/welcoMattic
           photo: https://webmention.io/avatar/pbs.twimg.com/a973139e9bb48e09a2423bb526d28cd905a303515c5610af08007f87dc109408.jpg
@@ -12612,7 +12772,7 @@
         sentence_html: "<a href=\"https://twitter.com/welcoMattic\">Mathieu \U0001F680</a>
           favorited a tweet <a href=\"https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html\">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>"
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *307
+    author: *312
     type: like
     content: "<p><a href=\"https://twitter.com/welcoMattic\">Mathieu \U0001F680</a>
       favorited a tweet <a href=\"https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html\">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>"
@@ -12628,7 +12788,7 @@
       id: 509400
       private: false
       data:
-        author: &308
+        author: &313
           name: Christophe P.
           url: https://twitter.com/LDZintegratore
           photo: https://webmention.io/avatar/pbs.twimg.com/cfa830efdbc6914c4b8fb134f51ef6481aee348d8e4c63512cbaab07686def47.jpg
@@ -12643,7 +12803,7 @@
         sentence_html: <a href="https://twitter.com/LDZintegratore">Christophe P.</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *308
+    author: *313
     type: like
     content: <p><a href="https://twitter.com/LDZintegratore">Christophe P.</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -12659,7 +12819,7 @@
       id: 509401
       private: false
       data:
-        author: &309
+        author: &314
           name: Stéphane
           url: https://twitter.com/Stef68Michel
           photo: https://webmention.io/avatar/pbs.twimg.com/61941fc933fa775788419b95a6f559e812b99a13677e8073cfa905a3ce489ec8.jpg
@@ -12674,7 +12834,7 @@
         sentence_html: <a href="https://twitter.com/Stef68Michel">Stéphane</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *309
+    author: *314
     type: like
     content: <p><a href="https://twitter.com/Stef68Michel">Stéphane</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -12690,7 +12850,7 @@
       id: 509405
       private: false
       data:
-        author: &310
+        author: &315
           name: Jacques Pyrat
           url: https://twitter.com/jpyrat
           photo: https://webmention.io/avatar/pbs.twimg.com/309d56d684421118ad8e38aa879a4f9ae0242b7275915212757324d20c940027.jpg
@@ -12705,7 +12865,7 @@
         sentence_html: <a href="https://twitter.com/jpyrat">Jacques Pyrat</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *310
+    author: *315
     type: like
     content: <p><a href="https://twitter.com/jpyrat">Jacques Pyrat</a> favorited a
       tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -12721,7 +12881,7 @@
       id: 509407
       private: false
       data:
-        author: &311
+        author: &316
           name: Catherine Denos
           url: https://twitter.com/cath2nos
           photo: https://webmention.io/avatar/pbs.twimg.com/03bcb643e6b6a394a9d63884a3cf85fa7d63bd375215fd41733a0d51beeefa9c.jpg
@@ -12736,7 +12896,7 @@
         sentence_html: <a href="https://twitter.com/cath2nos">Catherine Denos</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *311
+    author: *316
     type: like
     content: <p><a href="https://twitter.com/cath2nos">Catherine Denos</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -12752,7 +12912,7 @@
       id: 509411
       private: false
       data:
-        author: &312
+        author: &317
           name: Florian Bouvot
           url: https://twitter.com/florianbouvot
           photo: https://webmention.io/avatar/pbs.twimg.com/38c3623fd0e6792dde79d244b57c34917892b48ee08136d219ccfc19dbcd97e9.jpg
@@ -12767,7 +12927,7 @@
         sentence_html: <a href="https://twitter.com/florianbouvot">Florian Bouvot</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *312
+    author: *317
     type: like
     content: <p><a href="https://twitter.com/florianbouvot">Florian Bouvot</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -12783,7 +12943,7 @@
       id: 509417
       private: false
       data:
-        author: &313
+        author: &318
           name: Véronique Lapierre
           url: https://twitter.com/webetcaetera
           photo: https://webmention.io/avatar/pbs.twimg.com/283535fb39f47761a3d09e3b17923cea8cb4044ac657ddbd3f4654331fe6518a.jpg
@@ -12798,7 +12958,7 @@
         sentence_html: <a href="https://twitter.com/webetcaetera">Véronique Lapierre</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *313
+    author: *318
     type: like
     content: <p><a href="https://twitter.com/webetcaetera">Véronique Lapierre</a>
       favorited a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -12814,7 +12974,7 @@
       id: 509426
       private: false
       data:
-        author: &314
+        author: &319
           name: Dareboost
           url: https://twitter.com/Dareboost
           photo: https://webmention.io/avatar/pbs.twimg.com/20441c1b44e39f82c51ece7ea2cdedc9b844062fc8a9dfbd2aeafec697b6a955.png
@@ -12829,7 +12989,7 @@
         sentence_html: <a href="https://twitter.com/Dareboost">Dareboost</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *314
+    author: *319
     type: like
     content: <p><a href="https://twitter.com/Dareboost">Dareboost</a> favorited a
       tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -12845,7 +13005,7 @@
       id: 509427
       private: false
       data:
-        author: &315
+        author: &320
           name: jbcordina
           url: https://twitter.com/jbcordina
           photo: https://webmention.io/avatar/pbs.twimg.com/76bd4ecb28c363b80f49addc246a624928774f59f8ce02e8e2e002105385b5c2.jpg
@@ -12860,7 +13020,7 @@
         sentence_html: <a href="https://twitter.com/jbcordina">jbcordina</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *315
+    author: *320
     type: like
     content: <p><a href="https://twitter.com/jbcordina">jbcordina</a> favorited a
       tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -12876,7 +13036,7 @@
       id: 509433
       private: false
       data:
-        author: &316
+        author: &321
           name: Valérie Galassi
           url: https://twitter.com/ChapitreOnze
           photo: https://webmention.io/avatar/pbs.twimg.com/010548c4f08fc94c2c3b76e236bb5502aa00d6c1e195c7038aab8fee93ee2c26.png
@@ -12891,7 +13051,7 @@
         sentence_html: <a href="https://twitter.com/ChapitreOnze">Valérie Galassi</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *316
+    author: *321
     type: like
     content: <p><a href="https://twitter.com/ChapitreOnze">Valérie Galassi</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -12907,7 +13067,7 @@
       id: 509434
       private: false
       data:
-        author: &317
+        author: &322
           name: MaRRion
           url: https://twitter.com/maRRion_
           photo: https://webmention.io/avatar/pbs.twimg.com/8f612a34049db315b1ab4f99950538c78bd931177baeacff39294c7e4512211c.jpg
@@ -12922,7 +13082,7 @@
         sentence_html: <a href="https://twitter.com/maRRion_">MaRRion</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *317
+    author: *322
     type: like
     content: <p><a href="https://twitter.com/maRRion_">MaRRion</a> favorited a tweet
       <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -12938,7 +13098,7 @@
       id: 509436
       private: false
       data:
-        author: &318
+        author: &323
           name: Yoan Malié
           url: https://twitter.com/yoanmalie
           photo: https://webmention.io/avatar/pbs.twimg.com/5b905b03082632e80f3044f29eb86a2a86999f84778daff740cd13197afa2d91.jpg
@@ -12953,7 +13113,7 @@
         sentence_html: <a href="https://twitter.com/yoanmalie">Yoan Malié</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *318
+    author: *323
     type: like
     content: <p><a href="https://twitter.com/yoanmalie">Yoan Malié</a> favorited a
       tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -12969,7 +13129,7 @@
       id: 509384
       private: false
       data:
-        author: &319
+        author: &324
           name: Eric Martin
           url: https://eric-martin-graphiste.info
           photo: https://webmention.io/avatar/pbs.twimg.com/00dec093ff97bf5a2010c9dea622b9fcdc871112e0c9d9006bfcfa0469b0b6c9.jpg
@@ -12985,7 +13145,7 @@
         sentence_html: <a href="https://eric-martin-graphiste.info">Eric Martin</a>
           retweeted a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *319
+    author: *324
     type: repost
     content: <p><a href="https://eric-martin-graphiste.info">Eric Martin</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -13001,7 +13161,7 @@
       id: 509387
       private: false
       data:
-        author: &320
+        author: &325
           name: goetsu
           url: http://www.temesis.com
           photo: https://webmention.io/avatar/pbs.twimg.com/5733572a098771fb04e778189c344e20389f1d3dcbc683eef081bd1c14446ee9.jpg
@@ -13017,7 +13177,7 @@
         sentence_html: <a href="http://www.temesis.com">goetsu</a> retweeted a tweet
           <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *320
+    author: *325
     type: repost
     content: <p><a href="http://www.temesis.com">goetsu</a> retweeted a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
   '979987714685759488':
@@ -13032,7 +13192,7 @@
       id: 509389
       private: false
       data:
-        author: &321
+        author: &326
           name: Vincent Valentin
           url: http://vincent-valentin.name/
           photo: https://webmention.io/avatar/pbs.twimg.com/aa95d8a5960a2665bbc7f01b38fe648911df0aed28f2dc1810ab4948345f2107.jpg
@@ -13051,7 +13211,7 @@
           replied 'Toujours clairement présenté ! Je fini juste la partie sur les
           stats là.   Limit...' to a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *321
+    author: *326
     type: reply
     content: |-
       <p>Toujours clairement présenté ! Je fini juste la partie sur les stats là. <br />
@@ -13068,7 +13228,7 @@
       id: 509395
       private: false
       data:
-        author: &322
+        author: &327
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -13086,7 +13246,7 @@
           replied 'Merci ! \U0001F618    Pourquoi une première étape en aveugle ?'
           to a tweet <a href=\"https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html\">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>"
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *322
+    author: *327
     type: reply
     content: "<p>Merci ! \U0001F618<br />\n<br />\nPourquoi une première étape en
       aveugle ?</p>"
@@ -13102,7 +13262,7 @@
       id: 509390
       private: false
       data:
-        author: &323
+        author: &328
           name: Christophe Le Bot
           url: https://www.christophelebot.fr/
           photo: https://webmention.io/avatar/pbs.twimg.com/26def26eb0987c691e5b5aa78ae0a6ea80bce845df66a5dd301e0a51255b167a.jpg
@@ -13118,7 +13278,7 @@
         sentence_html: <a href="https://www.christophelebot.fr/">Christophe Le Bot</a>
           retweeted a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *323
+    author: *328
     type: repost
     content: <p><a href="https://www.christophelebot.fr/">Christophe Le Bot</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -13134,7 +13294,7 @@
       id: 509393
       private: false
       data:
-        author: &324
+        author: &329
           name: Vincent Valentin
           url: http://vincent-valentin.name/
           photo: https://webmention.io/avatar/pbs.twimg.com/aa95d8a5960a2665bbc7f01b38fe648911df0aed28f2dc1810ab4948345f2107.jpg
@@ -13153,7 +13313,7 @@
           replied 'Avant d’avoir des stats adaptées au nouveau design, il faut implémenter
           une prem...' to a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *324
+    author: *329
     type: reply
     content: "<p>Avant d’avoir des stats adaptées au nouveau design, il faut implémenter
       une première version de ton srcset. C’est forcément un peu empirique à ce moment
@@ -13170,7 +13330,7 @@
       id: 509392
       private: false
       data:
-        author: &325
+        author: &330
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -13190,7 +13350,7 @@
           'Les stats viewport + densité des utilisateurs ne vont pas changer avec
           le nouvea...' to a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *325
+    author: *330
     type: reply
     content: |-
       <p>Les stats viewport + densité des utilisateurs ne vont pas changer avec le nouveau design.<br />
@@ -13208,7 +13368,7 @@
       id: 509394
       private: false
       data:
-        author: &326
+        author: &331
           name: Vincent Valentin
           url: http://vincent-valentin.name/
           photo: https://webmention.io/avatar/pbs.twimg.com/aa95d8a5960a2665bbc7f01b38fe648911df0aed28f2dc1810ab4948345f2107.jpg
@@ -13230,7 +13390,7 @@
           replied 'Mais tu parles aussi d’un site ayant déjà des stats là. Ce n’est
           pas toujours le...' to a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *326
+    author: *331
     type: reply
     content: |-
       <p>Mais tu parles aussi d’un site ayant déjà des stats là. Ce n’est pas toujours le cas. <br />
@@ -13250,7 +13410,7 @@
       id: 509403
       private: false
       data:
-        author: &327
+        author: &332
           name: Vincent Valentin
           url: http://vincent-valentin.name/
           photo: https://webmention.io/avatar/pbs.twimg.com/aa95d8a5960a2665bbc7f01b38fe648911df0aed28f2dc1810ab4948345f2107.jpg
@@ -13268,7 +13428,7 @@
           replied ''Autre question : personne n’a jamais tenté d’utiliser la vignette
           pouvant être e...'' to a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>'
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *327
+    author: *332
     type: reply
     content: "<p>Autre question : personne n’a jamais tenté d’utiliser la vignette
       pouvant être embarquée dans le format jpeg pour un usage web ?</p>"
@@ -13284,7 +13444,7 @@
       id: 509399
       private: false
       data:
-        author: &328
+        author: &333
           name: Christophe P.
           url: https://twitter.com/LDZintegratore
           photo: https://webmention.io/avatar/pbs.twimg.com/cfa830efdbc6914c4b8fb134f51ef6481aee348d8e4c63512cbaab07686def47.jpg
@@ -13300,7 +13460,7 @@
         sentence_html: <a href="https://twitter.com/LDZintegratore">Christophe P.</a>
           retweeted a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *328
+    author: *333
     type: repost
     content: <p><a href="https://twitter.com/LDZintegratore">Christophe P.</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -13316,7 +13476,7 @@
       id: 509402
       private: false
       data:
-        author: &329
+        author: &334
           name: David Beck
           url: http://davidbeck.fr
           photo: https://webmention.io/avatar/pbs.twimg.com/10307474db7a98c8b47ac1e8abf74804d3a24a4c52921f76812279d2e9818693.jpg
@@ -13332,7 +13492,7 @@
         sentence_html: <a href="http://davidbeck.fr">David Beck</a> retweeted a tweet
           <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *329
+    author: *334
     type: repost
     content: <p><a href="http://davidbeck.fr">David Beck</a> retweeted a tweet <a
       href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -13348,7 +13508,7 @@
       id: 509398
       private: false
       data:
-        author: &330
+        author: &335
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -13368,7 +13528,7 @@
           'Pas pertinent parce qu’on ne peut pas se limiter à la vignette en l’état
           actuel....' to a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *330
+    author: *335
     type: reply
     content: |-
       <p>Pas pertinent parce qu’on ne peut pas se limiter à la vignette en l’état actuel.<br />
@@ -13386,7 +13546,7 @@
       id: 509416
       private: false
       data:
-        author: &331
+        author: &336
           name: Nicolas Hoffmann
           url: https://www.nicolas-hoffmann.net/
           photo: https://webmention.io/avatar/pbs.twimg.com/b6ccd529f1a26a908dddff90d90bef7b5eb6ca359e6d71d3bcca49c0e30b2688.jpg
@@ -13405,7 +13565,7 @@
           posted 'Excellente présentation, et très complète. Merci ! ;)' linking to
           <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *331
+    author: *336
     type: link
     content: |-
       <p>Excellente présentation, et très complète. Merci ! ;)
@@ -13422,7 +13582,7 @@
       id: 509408
       private: false
       data:
-        author: &332
+        author: &337
           name: Vincent Valentin
           url: http://vincent-valentin.name/
           photo: https://webmention.io/avatar/pbs.twimg.com/aa95d8a5960a2665bbc7f01b38fe648911df0aed28f2dc1810ab4948345f2107.jpg
@@ -13439,7 +13599,7 @@
           replied 'Fini ! Plein de bonnes ressources aussi à la fin. Cool résumé,
           merci.' to a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *332
+    author: *337
     type: reply
     content: "<p>Fini ! Plein de bonnes ressources aussi à la fin. Cool résumé, merci.</p>"
   '980002631472082944':
@@ -13454,7 +13614,7 @@
       id: 509406
       private: false
       data:
-        author: &333
+        author: &338
           name: Vincent Valentin
           url: http://vincent-valentin.name/
           photo: https://webmention.io/avatar/pbs.twimg.com/aa95d8a5960a2665bbc7f01b38fe648911df0aed28f2dc1810ab4948345f2107.jpg
@@ -13470,7 +13630,7 @@
         sentence_html: <a href="http://vincent-valentin.name/">Vincent Valentin</a>
           retweeted a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *333
+    author: *338
     type: repost
     content: <p><a href="http://vincent-valentin.name/">Vincent Valentin</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -13486,7 +13646,7 @@
       id: 509414
       private: false
       data:
-        author: &334
+        author: &339
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -13504,7 +13664,7 @@
           'De rien, un grand plaisir à partager !    On pourra en discuter en interne
           pour ...' to a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *334
+    author: *339
     type: reply
     content: "<p>De rien, un grand plaisir à partager !<br />\n<br />\nOn pourra en
       discuter en interne pour voir comment bien mettre en œuvre partout… \U0001F609</p>"
@@ -13520,7 +13680,7 @@
       id: 509412
       private: false
       data:
-        author: &335
+        author: &340
           name: Florian Bouvot
           url: http://www.twee-b.fr/
           photo: https://webmention.io/avatar/pbs.twimg.com/38c3623fd0e6792dde79d244b57c34917892b48ee08136d219ccfc19dbcd97e9.jpg
@@ -13536,7 +13696,7 @@
         sentence_html: <a href="http://www.twee-b.fr/">Florian Bouvot</a> retweeted
           a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *335
+    author: *340
     type: repost
     content: <p><a href="http://www.twee-b.fr/">Florian Bouvot</a> retweeted a tweet
       <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -13552,7 +13712,7 @@
       id: 509415
       private: false
       data:
-        author: &336
+        author: &341
           name: Jacques Pyrat
           url: http://www.pyrat.net/
           photo: https://webmention.io/avatar/pbs.twimg.com/309d56d684421118ad8e38aa879a4f9ae0242b7275915212757324d20c940027.jpg
@@ -13568,7 +13728,7 @@
         sentence_html: <a href="http://www.pyrat.net/">Jacques Pyrat</a> retweeted
           a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *336
+    author: *341
     type: repost
     content: <p><a href="http://www.pyrat.net/">Jacques Pyrat</a> retweeted a tweet
       <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -13584,7 +13744,7 @@
       id: 509410
       private: false
       data:
-        author: &337
+        author: &342
           name: Catherine Denos
           url: http://www.cath2nos.com
           photo: https://webmention.io/avatar/pbs.twimg.com/03bcb643e6b6a394a9d63884a3cf85fa7d63bd375215fd41733a0d51beeefa9c.jpg
@@ -13603,7 +13763,7 @@
           'Tout savoir sur l'optimisation des images en responsive (avec vidéo de
           la présen...' linking to <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *337
+    author: *342
     type: link
     content: |-
       <p>Tout savoir sur l’optimisation des images en responsive (avec vidéo de la présentation et slides) par <a href="https://twitter.com/nhoizey">@nhoizey</a> <a href="https://twitter.com/search?q=%23performance">#performance</a> <a href="https://twitter.com/search?q=%23responsive">#responsive</a>
@@ -13620,7 +13780,7 @@
       id: 509425
       private: false
       data:
-        author: &338
+        author: &343
           name: Damien Jubeau
           url: https://www.dareboost.com
           photo: https://webmention.io/avatar/pbs.twimg.com/4d81b74670ea4944f0f1800d24b3545c59e05c28bd4ece1cd46acca66ec24f04.jpg
@@ -13636,7 +13796,7 @@
         sentence_html: <a href="https://www.dareboost.com">Damien Jubeau</a> retweeted
           a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *338
+    author: *343
     type: repost
     content: <p><a href="https://www.dareboost.com">Damien Jubeau</a> retweeted a
       tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -13652,7 +13812,7 @@
       id: 509432
       private: false
       data:
-        author: &339
+        author: &344
           name: Valérie Galassi
           url: http://www.valerie-galassi.com
           photo: https://webmention.io/avatar/pbs.twimg.com/010548c4f08fc94c2c3b76e236bb5502aa00d6c1e195c7038aab8fee93ee2c26.png
@@ -13668,7 +13828,7 @@
         sentence_html: <a href="http://www.valerie-galassi.com">Valérie Galassi</a>
           replied 'Bienvenu au club pour les euh ^^' to a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *339
+    author: *344
     type: reply
     content: "<p>Bienvenu au club pour les euh ^^</p>"
   '980028460478488577':
@@ -13683,7 +13843,7 @@
       id: 509435
       private: false
       data:
-        author: &340
+        author: &345
           name: Valérie Galassi
           url: http://www.valerie-galassi.com
           photo: https://webmention.io/avatar/pbs.twimg.com/010548c4f08fc94c2c3b76e236bb5502aa00d6c1e195c7038aab8fee93ee2c26.png
@@ -13699,7 +13859,7 @@
         sentence_html: <a href="http://www.valerie-galassi.com">Valérie Galassi</a>
           retweeted a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *340
+    author: *345
     type: repost
     content: <p><a href="http://www.valerie-galassi.com">Valérie Galassi</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -13715,7 +13875,7 @@
       id: 509438
       private: false
       data:
-        author: &341
+        author: &346
           name: "Fabrice Gangler \U0001F517"
           url: http://fabrice.gangler.fr/
           photo: https://webmention.io/avatar/pbs.twimg.com/2360edafb6af00bd9552976d9b4f0312bcef1ab8517ee1cc70cd6e6960e00db2.jpg
@@ -13731,7 +13891,7 @@
         sentence_html: "<a href=\"http://fabrice.gangler.fr/\">Fabrice Gangler \U0001F517</a>
           retweeted a tweet <a href=\"https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html\">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>"
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *341
+    author: *346
     type: repost
     content: "<p><a href=\"http://fabrice.gangler.fr/\">Fabrice Gangler \U0001F517</a>
       retweeted a tweet <a href=\"https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html\">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>"
@@ -13747,7 +13907,7 @@
       id: 509437
       private: false
       data:
-        author: &342
+        author: &347
           name: SCHWEICH
           url: https://twitter.com/DamienSchweich
           photo: https://webmention.io/avatar/abs.twimg.com/0e6b2cd70aa5b35dec24ca4e1e63f8963f0118736d9ec3bba77e3a8c99a27bc2.png
@@ -13763,7 +13923,7 @@
         sentence_html: <a href="https://twitter.com/DamienSchweich">SCHWEICH</a> retweeted
           a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *342
+    author: *347
     type: repost
     content: <p><a href="https://twitter.com/DamienSchweich">SCHWEICH</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -13779,7 +13939,7 @@
       id: 509439
       private: false
       data:
-        author: &343
+        author: &348
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -13794,7 +13954,7 @@
         sentence_html: "<a href=\"https://nicolas-hoizey.com\">Nicolas Hoizey</a>
           replied '\U0001F601' to a tweet <a href=\"https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html\">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>"
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *343
+    author: *348
     type: reply
     content: "<p>\U0001F601</p>"
   '509441':
@@ -13809,7 +13969,7 @@
       id: 509441
       private: false
       data:
-        author: &344
+        author: &349
           name: "♻ Simon ♻"
           url: https://twitter.com/lemmm
           photo: https://webmention.io/avatar/pbs.twimg.com/cefe6657dd326ad9b4bd99aa9ee4ed1f26f15cb00cfdb4d6136af4dc9f17569f.jpg
@@ -13824,7 +13984,7 @@
         sentence_html: <a href="https://twitter.com/lemmm">♻ Simon ♻</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *344
+    author: *349
     type: like
     content: <p><a href="https://twitter.com/lemmm">♻ Simon ♻</a> favorited a tweet
       <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -13840,7 +14000,7 @@
       id: 509442
       private: false
       data:
-        author: &345
+        author: &350
           name: Julien Deniau
           url: https://twitter.com/j_deniau
           photo: https://webmention.io/avatar/pbs.twimg.com/a562973bad280fdd3372ee57727483e442bd3dc41c3c093181f794b27108331a.jpg
@@ -13855,7 +14015,7 @@
         sentence_html: <a href="https://twitter.com/j_deniau">Julien Deniau</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *345
+    author: *350
     type: like
     content: <p><a href="https://twitter.com/j_deniau">Julien Deniau</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -13871,7 +14031,7 @@
       id: 509450
       private: false
       data:
-        author: &346
+        author: &351
           name: 'NO'
           url: https://twitter.com/dragibus
           photo: https://webmention.io/avatar/pbs.twimg.com/5ed4ae5b944829287418809be19cb687a86db570a9ccc860ba44deb0a24fcd1b.png
@@ -13886,7 +14046,7 @@
         sentence_html: <a href="https://twitter.com/dragibus">NO</a> favorited a tweet
           <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *346
+    author: *351
     type: like
     content: <p><a href="https://twitter.com/dragibus">NO</a> favorited a tweet <a
       href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -13902,7 +14062,7 @@
       id: 509451
       private: false
       data:
-        author: &347
+        author: &352
           name: sebbane alexandre
           url: https://twitter.com/alexsebbane
           photo: https://webmention.io/avatar/pbs.twimg.com/891063d439521d8e8fae65c49dad7eeffb67942afafe4dd8f0d20dfabd2254f7.png
@@ -13917,7 +14077,7 @@
         sentence_html: <a href="https://twitter.com/alexsebbane">sebbane alexandre</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *347
+    author: *352
     type: like
     content: <p><a href="https://twitter.com/alexsebbane">sebbane alexandre</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -13933,7 +14093,7 @@
       id: 509452
       private: false
       data:
-        author: &348
+        author: &353
           name: GHUT
           url: https://twitter.com/ghut
           photo: https://webmention.io/avatar/abs.twimg.com/0e6b2cd70aa5b35dec24ca4e1e63f8963f0118736d9ec3bba77e3a8c99a27bc2.png
@@ -13948,7 +14108,7 @@
         sentence_html: <a href="https://twitter.com/ghut">GHUT</a> favorited a tweet
           <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *348
+    author: *353
     type: like
     content: <p><a href="https://twitter.com/ghut">GHUT</a> favorited a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
   '509468':
@@ -13963,7 +14123,7 @@
       id: 509468
       private: false
       data:
-        author: &349
+        author: &354
           name: Jonathan Levaillant
           url: https://twitter.com/jlwebart
           photo: https://webmention.io/avatar/pbs.twimg.com/6898aa5607bd09b4952c2b6c934fc389238cf84533e0c38262c23d95b8800f6e.jpg
@@ -13978,7 +14138,7 @@
         sentence_html: <a href="https://twitter.com/jlwebart">Jonathan Levaillant</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *349
+    author: *354
     type: like
     content: <p><a href="https://twitter.com/jlwebart">Jonathan Levaillant</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -13994,7 +14154,7 @@
       id: 509484
       private: false
       data:
-        author: &350
+        author: &355
           name: Xavier Zalawa
           url: https://twitter.com/7studio
           photo: https://webmention.io/avatar/pbs.twimg.com/77e826a263cabc3e81663ac5e508de10361793373ea1652b6af58cd278821fd0.jpg
@@ -14009,7 +14169,7 @@
         sentence_html: <a href="https://twitter.com/7studio">Xavier Zalawa</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *350
+    author: *355
     type: like
     content: <p><a href="https://twitter.com/7studio">Xavier Zalawa</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -14025,7 +14185,7 @@
       id: 509531
       private: false
       data:
-        author: &351
+        author: &356
           name: Staudenmann Michaël
           url: https://twitter.com/StaudenmannM
           photo: https://webmention.io/avatar/pbs.twimg.com/87ab8005b8b5e9deef3d194bb897e1c5a0b097dac1c9203d562a46a5948a9cbd.jpg
@@ -14040,7 +14200,7 @@
         sentence_html: <a href="https://twitter.com/StaudenmannM">Staudenmann Michaël</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *351
+    author: *356
     type: like
     content: <p><a href="https://twitter.com/StaudenmannM">Staudenmann Michaël</a>
       favorited a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -14056,7 +14216,7 @@
       id: 509539
       private: false
       data:
-        author: &352
+        author: &357
           name: MoKaDev
           url: https://twitter.com/MoKaDev
           photo: https://webmention.io/avatar/pbs.twimg.com/6f1c67a602431fdd4fd86bc20c265d56da8f01b50bc1cc898c3749a8627cdadc.png
@@ -14071,7 +14231,7 @@
         sentence_html: <a href="https://twitter.com/MoKaDev">MoKaDev</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *352
+    author: *357
     type: like
     content: <p><a href="https://twitter.com/MoKaDev">MoKaDev</a> favorited a tweet
       <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -14087,7 +14247,7 @@
       id: 509647
       private: false
       data:
-        author: &353
+        author: &358
           name: Frank Taillandier
           url: https://twitter.com/DirtyF
           photo: https://webmention.io/avatar/pbs.twimg.com/79f03a56a0d7e9cb8ad0b700678d4d5a27542eef85ba7572a2b995bcea15642e.jpg
@@ -14102,7 +14262,7 @@
         sentence_html: <a href="https://twitter.com/DirtyF">Frank Taillandier</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *353
+    author: *358
     type: like
     content: <p><a href="https://twitter.com/DirtyF">Frank Taillandier</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -14118,7 +14278,7 @@
       id: 509721
       private: false
       data:
-        author: &354
+        author: &359
           name: "Arnaud Ligny \U0001F4A1"
           url: https://twitter.com/ArnaudLigny
           photo: https://webmention.io/avatar/pbs.twimg.com/e04f4c499a25b481abec1f871357702901e0b65b0fa987fc6b71504d698059fd.png
@@ -14133,7 +14293,7 @@
         sentence_html: "<a href=\"https://twitter.com/ArnaudLigny\">Arnaud Ligny \U0001F4A1</a>
           favorited a tweet <a href=\"https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html\">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>"
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *354
+    author: *359
     type: like
     content: "<p><a href=\"https://twitter.com/ArnaudLigny\">Arnaud Ligny \U0001F4A1</a>
       favorited a tweet <a href=\"https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html\">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>"
@@ -14149,7 +14309,7 @@
       id: 509830
       private: false
       data:
-        author: &355
+        author: &360
           name: Gaëtan B.
           url: https://twitter.com/GaetanBt
           photo: https://webmention.io/avatar/pbs.twimg.com/41f1bfadd5e477afb6d30de65d41468b9dd73927a498e2bc2ba1e2844b0ea73b.jpg
@@ -14164,7 +14324,7 @@
         sentence_html: <a href="https://twitter.com/GaetanBt">Gaëtan B.</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *355
+    author: *360
     type: like
     content: <p><a href="https://twitter.com/GaetanBt">Gaëtan B.</a> favorited a tweet
       <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -14180,7 +14340,7 @@
       id: 509831
       private: false
       data:
-        author: &356
+        author: &361
           name: Thierry LAU
           url: https://twitter.com/laut3rry
           photo: https://webmention.io/avatar/pbs.twimg.com/3ce7247df33a60949ccf74a1226bc31d31288f382ef129723c9ff1342a9146e6.jpg
@@ -14195,7 +14355,7 @@
         sentence_html: <a href="https://twitter.com/laut3rry">Thierry LAU</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *356
+    author: *361
     type: like
     content: <p><a href="https://twitter.com/laut3rry">Thierry LAU</a> favorited a
       tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -14211,7 +14371,7 @@
       id: 509832
       private: false
       data:
-        author: &357
+        author: &362
           name: Nicolas Eeckeloo
           url: https://twitter.com/nicoz86
           photo: https://webmention.io/avatar/pbs.twimg.com/be68570460bdc5416a688509cf5e538df7a7fe78f0e86b74db760b57df353c72.png
@@ -14226,7 +14386,7 @@
         sentence_html: <a href="https://twitter.com/nicoz86">Nicolas Eeckeloo</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *357
+    author: *362
     type: like
     content: <p><a href="https://twitter.com/nicoz86">Nicolas Eeckeloo</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -14242,7 +14402,7 @@
       id: 509835
       private: false
       data:
-        author: &358
+        author: &363
           name: Vincent Cassé
           url: https://twitter.com/vcasse
           photo: https://webmention.io/avatar/pbs.twimg.com/f898ccdfca564fdd6bb59a1aac842b8031e542a674d00067ec71fd8da13d9581.jpg
@@ -14257,7 +14417,7 @@
         sentence_html: <a href="https://twitter.com/vcasse">Vincent Cassé</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *358
+    author: *363
     type: like
     content: <p><a href="https://twitter.com/vcasse">Vincent Cassé</a> favorited a
       tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -14273,7 +14433,7 @@
       id: 509840
       private: false
       data:
-        author: &359
+        author: &364
           name: Alexandre Touchard
           url: https://twitter.com/alextouchard
           photo: https://webmention.io/avatar/pbs.twimg.com/1d84aaf70aebe1f8bdd8ea8a49d31eaf3b6206e20be37ff5b9a5491799250170.jpg
@@ -14288,7 +14448,7 @@
         sentence_html: <a href="https://twitter.com/alextouchard">Alexandre Touchard</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *359
+    author: *364
     type: like
     content: <p><a href="https://twitter.com/alextouchard">Alexandre Touchard</a>
       favorited a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -14304,7 +14464,7 @@
       id: 509846
       private: false
       data:
-        author: &360
+        author: &365
           name: Sébastien Ollivier
           url: https://twitter.com/SebastienOll
           photo: https://webmention.io/avatar/pbs.twimg.com/9c1fe1187453c95c5081356fd51e8c8563b9605e739e6009a8fe3ba14cdc9040.png
@@ -14319,7 +14479,7 @@
         sentence_html: <a href="https://twitter.com/SebastienOll">Sébastien Ollivier</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *360
+    author: *365
     type: like
     content: <p><a href="https://twitter.com/SebastienOll">Sébastien Ollivier</a>
       favorited a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -14335,7 +14495,7 @@
       id: 509847
       private: false
       data:
-        author: &361
+        author: &366
           name: Jeremy DESVAUX
           url: https://twitter.com/jdmweb
           photo: https://webmention.io/avatar/pbs.twimg.com/fa1e4ebd70176fd8c54544166455be8afe2eaaa5039b271cbfb05c14dc5a0ba0.jpg
@@ -14350,7 +14510,7 @@
         sentence_html: <a href="https://twitter.com/jdmweb">Jeremy DESVAUX</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *361
+    author: *366
     type: like
     content: <p><a href="https://twitter.com/jdmweb">Jeremy DESVAUX</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -14366,7 +14526,7 @@
       id: 509848
       private: false
       data:
-        author: &362
+        author: &367
           name: Benoît Emile
           url: https://twitter.com/bemile
           photo: https://webmention.io/avatar/pbs.twimg.com/3f094e76975e155a7be938a45f852013eb73191ddd4f6540cba1eec818ccf426.jpg
@@ -14381,7 +14541,7 @@
         sentence_html: <a href="https://twitter.com/bemile">Benoît Emile</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *362
+    author: *367
     type: like
     content: <p><a href="https://twitter.com/bemile">Benoît Emile</a> favorited a
       tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -14397,7 +14557,7 @@
       id: 509858
       private: false
       data:
-        author: &363
+        author: &368
           name: Freddy Harris
           url: https://twitter.com/HarrisFreddy
           photo: https://webmention.io/avatar/pbs.twimg.com/d01e1af2fac4e889de826c2a91339d4f771007b27cd4cc95a1e9fb219a2f0e18.jpg
@@ -14412,7 +14572,7 @@
         sentence_html: <a href="https://twitter.com/HarrisFreddy">Freddy Harris</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *363
+    author: *368
     type: like
     content: <p><a href="https://twitter.com/HarrisFreddy">Freddy Harris</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -14428,7 +14588,7 @@
       id: 509904
       private: false
       data:
-        author: &364
+        author: &369
           name: ndesaleux
           url: https://twitter.com/ndesaleux
           photo: https://webmention.io/avatar/abs.twimg.com/0e6b2cd70aa5b35dec24ca4e1e63f8963f0118736d9ec3bba77e3a8c99a27bc2.png
@@ -14443,7 +14603,7 @@
         sentence_html: <a href="https://twitter.com/ndesaleux">ndesaleux</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *364
+    author: *369
     type: like
     content: <p><a href="https://twitter.com/ndesaleux">ndesaleux</a> favorited a
       tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -14459,7 +14619,7 @@
       id: 509973
       private: false
       data:
-        author: &365
+        author: &370
           name: Vincent De Oliveira
           url: https://twitter.com/iamvdo
           photo: https://webmention.io/avatar/pbs.twimg.com/3b859570e9cf199f97cc46b34542394696001f628193a57c6a6e694bde0ac1c4.png
@@ -14474,7 +14634,7 @@
         sentence_html: <a href="https://twitter.com/iamvdo">Vincent De Oliveira</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *365
+    author: *370
     type: like
     content: <p><a href="https://twitter.com/iamvdo">Vincent De Oliveira</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -14490,7 +14650,7 @@
       id: 510048
       private: false
       data:
-        author: &366
+        author: &371
           name: halna frédéric
           url: https://twitter.com/halnaf
           photo: https://webmention.io/avatar/pbs.twimg.com/cc272dbffe1a35c97ff6306044496803b6992043d235eeb63fb3c7ec0df52cc5.jpg
@@ -14505,7 +14665,7 @@
         sentence_html: <a href="https://twitter.com/halnaf">halna frédéric</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *366
+    author: *371
     type: like
     content: <p><a href="https://twitter.com/halnaf">halna frédéric</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -14521,7 +14681,7 @@
       id: 509443
       private: false
       data:
-        author: &367
+        author: &372
           name: Mathieu B
           url: http://www.matteobz.fr/
           photo: https://webmention.io/avatar/pbs.twimg.com/2bdb999cb9b7c0bc7896004a51969b65247f06468e1f843954ffcda94189a5d1.jpg
@@ -14537,7 +14697,7 @@
         sentence_html: <a href="http://www.matteobz.fr/">Mathieu B</a> retweeted a
           tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *367
+    author: *372
     type: repost
     content: <p><a href="http://www.matteobz.fr/">Mathieu B</a> retweeted a tweet
       <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -14553,7 +14713,7 @@
       id: 509453
       private: false
       data:
-        author: &368
+        author: &373
           name: sebbane alexandre
           url: http://www.sebbane.org/blog/
           photo: https://webmention.io/avatar/pbs.twimg.com/891063d439521d8e8fae65c49dad7eeffb67942afafe4dd8f0d20dfabd2254f7.png
@@ -14569,7 +14729,7 @@
         sentence_html: <a href="http://www.sebbane.org/blog/">sebbane alexandre</a>
           retweeted a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *368
+    author: *373
     type: repost
     content: <p><a href="http://www.sebbane.org/blog/">sebbane alexandre</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -14585,7 +14745,7 @@
       id: 509467
       private: false
       data:
-        author: &369
+        author: &374
           name: Jonathan Levaillant
           url: http://jonathanlevaillant.fr
           photo: https://webmention.io/avatar/pbs.twimg.com/6898aa5607bd09b4952c2b6c934fc389238cf84533e0c38262c23d95b8800f6e.jpg
@@ -14601,7 +14761,7 @@
         sentence_html: <a href="http://jonathanlevaillant.fr">Jonathan Levaillant</a>
           retweeted a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *369
+    author: *374
     type: repost
     content: <p><a href="http://jonathanlevaillant.fr">Jonathan Levaillant</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -14617,7 +14777,7 @@
       id: 509483
       private: false
       data:
-        author: &370
+        author: &375
           name: Xavier Zalawa
           url: http://www.7studio.fr
           photo: https://webmention.io/avatar/pbs.twimg.com/77e826a263cabc3e81663ac5e508de10361793373ea1652b6af58cd278821fd0.jpg
@@ -14633,7 +14793,7 @@
         sentence_html: <a href="http://www.7studio.fr">Xavier Zalawa</a> retweeted
           a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *370
+    author: *375
     type: repost
     content: <p><a href="http://www.7studio.fr">Xavier Zalawa</a> retweeted a tweet
       <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -14649,7 +14809,7 @@
       id: 509519
       private: false
       data:
-        author: &371
+        author: &376
           name: Bob Volte, agent du chaos, chaotic good alignement
           url: https://twitter.com/Uxlco0
           photo: https://webmention.io/avatar/pbs.twimg.com/1ca6e3d954b892bb900f2c02203dc210321ac40376429050f356129a18471620.jpg
@@ -14669,7 +14829,7 @@
           chaotic good alignement</a> replied 'Par contre le responsive image breakpoint
           generator de Cloudinary ne permet pas ...' to a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *371
+    author: *376
     type: reply
     content: "<p>Par contre le responsive image breakpoint generator de Cloudinary
       ne permet pas de passer d’un mode paysage à un mode portrait ? Ou alors j’ai
@@ -14686,7 +14846,7 @@
       id: 509530
       private: false
       data:
-        author: &372
+        author: &377
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -14702,7 +14862,7 @@
         sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
           'Si, dans le bloc Art Direction' to a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *372
+    author: *377
     type: reply
     content: "<p>Si, dans le bloc Art Direction</p>"
   '980328429206888448':
@@ -14717,7 +14877,7 @@
       id: 509648
       private: false
       data:
-        author: &373
+        author: &378
           name: Frank Taillandier
           url: http://frank.taillandier.me
           photo: https://webmention.io/avatar/pbs.twimg.com/79f03a56a0d7e9cb8ad0b700678d4d5a27542eef85ba7572a2b995bcea15642e.jpg
@@ -14735,7 +14895,7 @@
           replied ''TL,DW: les images responsives c''est compliqué, checkez vos stats
           et utilisez un ...'' to a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>'
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *373
+    author: *378
     type: reply
     content: "<p>TL,DW: les images responsives c’est compliqué, checkez vos stats
       et utilisez un SaaS comme Cloudinary pour automatiser les optimisations.</p>"
@@ -14751,7 +14911,7 @@
       id: 509720
       private: false
       data:
-        author: &374
+        author: &379
           name: "Arnaud Ligny \U0001F4A1"
           url: http://arnaudligny.fr
           photo: https://webmention.io/avatar/pbs.twimg.com/e04f4c499a25b481abec1f871357702901e0b65b0fa987fc6b71504d698059fd.png
@@ -14767,7 +14927,7 @@
         sentence_html: "<a href=\"http://arnaudligny.fr\">Arnaud Ligny \U0001F4A1</a>
           retweeted a tweet <a href=\"https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html\">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>"
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *374
+    author: *379
     type: repost
     content: "<p><a href=\"http://arnaudligny.fr\">Arnaud Ligny \U0001F4A1</a> retweeted
       a tweet <a href=\"https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html\">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>"
@@ -14783,7 +14943,7 @@
       id: 509822
       private: false
       data:
-        author: &375
+        author: &380
           name: Martin Supiot
           url: http://www.webaaz.com
           photo: https://webmention.io/avatar/pbs.twimg.com/7d6274ac4891cddd3f9fe6d60dfa051b316f4b7edf9e36529e478e36ff342af2.jpeg
@@ -14799,7 +14959,7 @@
         sentence_html: <a href="http://www.webaaz.com">Martin Supiot</a> retweeted
           a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *375
+    author: *380
     type: repost
     content: <p><a href="http://www.webaaz.com">Martin Supiot</a> retweeted a tweet
       <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
@@ -14815,7 +14975,7 @@
       id: 509833
       private: false
       data:
-        author: &376
+        author: &381
           name: Jean-Pierre Vincent
           url: http://braincracking.org
           photo: https://webmention.io/avatar/pbs.twimg.com/28a5d3be9d9f0961f8c383b1350241f225f845a5a3e502e9cea86ea5fc7c6448.jpg
@@ -14831,7 +14991,7 @@
         sentence_html: <a href="http://braincracking.org">Jean-Pierre Vincent</a>
           retweeted a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a>
       target: https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html
-    author: *376
+    author: *381
     type: repost
     content: <p><a href="http://braincracking.org">Jean-Pierre Vincent</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html">https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html</a></p>
