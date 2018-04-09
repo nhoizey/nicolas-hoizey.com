@@ -1,7 +1,7 @@
 ---
 title:      "Le Web 3.0 verra-t-il la fin des blogs ?"
 lang:       fr
-tags:       [Web]
+tags:       [Web 2.0, Web 3.0]
 ---
 
 Jeremy Chone a proposé fin novembre [une vue simplifiée de l'évolution du Web entre sa version 0 et sa version 2](http://www.bitsandbuzz.com/2005/11/29/web-0x-to-web-20-simplified/), celle du (trop ?) fameux [Web 2.0](http://blogmarks.net/tag/web2.0?order_by=popularity). Ce qui n'a pas -- me semble t'il -- été donné comme conclusion, c'est que le Web 3.0 pourrait voir la fin des blogs !
