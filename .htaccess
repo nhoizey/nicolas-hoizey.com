@@ -806,6 +806,12 @@ RewriteCond %{REQUEST_URI} =/humans.txt
 RewriteRule ^([a-z0-9\-\._]+)$ /.well-known/$1 [L,NC]
 
 # ----------------------------------------------------------------------
+# WebSub (ex PubSubHubbub) with https://fed.brid.gy/#setup
+# ----------------------------------------------------------------------
+
+RewriteRule ^.well-known/(host-meta|webfinger).* https://fed.brid.gy/$0  [redirect=302,last]
+
+# ----------------------------------------------------------------------
 # Renamed or moved articles and pages
 # ----------------------------------------------------------------------
 
