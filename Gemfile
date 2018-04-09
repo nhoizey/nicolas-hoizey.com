@@ -16,9 +16,7 @@ gem 'jekyll'
 # done in 1093.613 seconds.
 # done in 662.816 seconds. (without webmentions)
 
-#gem 'rmagick'
 gem 'yt'
-#gem 'json'
 
 group :jekyll_plugins do
   gem 'jekyll-assets'
