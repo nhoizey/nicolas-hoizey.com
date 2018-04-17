@@ -1,0 +1,4 @@
+<article class="note"{% if include.page.lang %} lang="{{ include.page.lang }}"{% endif %}>
+  {% include note-header.html page=include.page %}
+  {{ include.page.content }}
+</article>

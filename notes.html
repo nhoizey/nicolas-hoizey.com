@@ -1,0 +1,13 @@
+---
+layout: default
+title:  Notes
+permalink: /notes/index.html
+---
+
+<h1>Notes</h1>
+
+<div class="list">
+  {% for note in site.notes %}
+    {% include note-content.html page=note %}
+  {% endfor %}
+</div>

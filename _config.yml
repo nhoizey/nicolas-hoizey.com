@@ -23,6 +23,12 @@ kramdown:
 # Indexing for related post using the classifier-reborn plugin
 lsi: false
 
+# Collections
+collections:
+  notes:
+    output: true
+    permalink: notes/:year/:month/:slug.html
+
 # Defaults
 defaults:
   -
@@ -31,6 +37,13 @@ defaults:
       type: posts
     values:
       layout: post
+      lang: fr
+  -
+    scope:
+      path: ""
+      type: notes
+    values:
+      layout: note
       lang: fr
 
 # Tags
