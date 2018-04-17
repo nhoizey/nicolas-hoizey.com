@@ -3185,47 +3185,6 @@ http://localhost:4000/2017/05/automatiser-l-installation-des-applications-sur-un
   http://fr.wikihow.com/ouvrir-le-Terminal-sur-un-Mac: false
   https://github.com/nhoizey/macOS-init/blob/master/post-cloud.sh: false
   https://nhoizey.github.io/macOS-init/run.sh: false
-http://localhost:4000/2017/07/so-long-disqus-hello-webmentions.html:
-  https://nicolas-hoizey.com/2013/09/gerer-des-commentaires-sur-un-blog-statique.html: false
-  https://www.spip.net/en_rubrique25.html: false
-  https://gastero-prod.disqus.com/admin/universalcode/: false
-  https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index: false
-  https://jmperezperez.com/medium-image-progressive-loading-placeholder/: false
-  https://www.dareboost.com/: false
-  https://github.com/nico3333fr/CSP-useful/tree/master/csp-for-third-party-services: false
-  http://geek-and-poke.com/geekandpoke/2010/12/21/the-free-model.html: false
-  https://twitter.com/ChapitreOnze/status/890507297780367360: false
-  https://twitter.com/pathawks: false
-  https://github.com/pathawks/jekyll-disqus-comments: false
-  https://github.com/nhoizey/nicolas-hoizey.com/tree/master/_comments: false
-  https://github.com/nhoizey/nicolas-hoizey.com/blob/master/_includes/comments.html: false
-  https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html: false
-  https://twitter.com/rachelandrew: false
-  https://twitter.com/rachelandrew/status/882224351688482816: false
-  https://twitter.com/adactio: false
-  https://adactio.com/journal/6469: false
-  https://www.w3.org/TR/webmention/: false
-  https://indieweb.org/: false
-  https://twitter.com/drewm: false
-  https://allinthehead.com/retro/378/implementing-webmentions: false
-  https://indieweb.org/Vouch: false
-  https://twitter.com/jamesrichmanx: false
-  https://wptavern.com/is-w3c-replicating-the-wordpress-pingback-system: false
-  https://webmention.io/: false
-  https://github.com/aaronpk/webmention.io: false
-  https://twitter.com/aaronpk: false
-  https://brid.gy/: false
-  https://github.com/snarfed/bridgy: false
-  http://www.urbandictionary.com/define.php?term=shareaholic: false
-  https://aaronparecki.com/gps/: false
-  https://aaronparecki.com/ate: false
-  https://twitter.com/aarongustafson: false
-  https://github.com/aarongustafson/jekyll-webmention_io/: false
-  https://aaronparecki.com/2017/07/19/24/webmention-io: false
-  https://indieweb.org/block: false
-  https://www.aaron-gustafson.com/notebook/your-site-should-be-a-pwa/: false
-  https://indieweb.org/facepile: false
-  https://github.com/aarongustafson/jekyll-webmention_io/issues/24: false
 https://nicolas-hoizey.com/2017/10/chrome-fails-showing-big-emojis.html:
   https://bugs.chromium.org/p/chromium/issues/detail?id=719648: false
   https://twitter.com/TobiReif: false
@@ -3270,38 +3229,6 @@ http://localhost:4000/2017/10/chrome-fails-showing-big-emojis.html:
   https://twitter.com/TobiReif: false
   https://tobireif.com/posts/maximum_font_size_for_emoji/: false
   https://mydevice.io/devices/: false
-http://localhost:4000/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html:
-  https://medium.com/: false
-  https://www.blogger.com/: false
-  https://medium.com/@ev/writing-in-medium-df8eac9f4a5e: false
-  https://medium.com/@andrhia/the-problem-with-medium-336300490cbb: false
-  https://medium.com/policy/medium-terms-of-service-9db0094a1e0f: false
-  https://twitter.com/poshaughnessy/: false
-  https://twitter.com/poshaughnessy/status/927836002915356672: false
-  https://gizmodo.com/search-for-bisexual-on-twitter-right-now-and-no-news-1820161061: false
-  https://indieweb.org/: false
-  https://remysharp.com/2016/12/22/cool-uris-dont-change: false
-  https://help.medium.com/hc/en-us/articles/217991468-SEO-and-duplicate-content: false
-  https://indieweb.org/POSSE: false
-  https://twitter.com/nhoizey: false
-  https://www.facebook.com/nhoizey: false
-  https://nicolas-hoizey.com/atom.xml: false
-  https://ifttt.com/: false
-  https://buffer.com/: false
-  https://en.wikipedia.org/wiki/Content_delivery_network: false
-  https://help.medium.com/hc/en-us/articles/214550207-Import-post: false
-  https://medium.com/@nhoizey/chrome-fails-showing-big-emojis-8b274d98f17b: false
-  https://help.medium.com/hc/en-us/sections/115001484747-Editing-formatting: false
-  https://github.com/Medium/medium-api-docs: false
-  https://adactio.com/journal/9694: false
-  https://gist.github.com/adactio/c174a4a68498e30babfd: false
-  https://www.aaron-gustafson.com/notebook/crossposting-to-medium-from-jekyll/: false
-  https://twitter.com/nsteinmetz/status/928183482882428928: false
-  https://twitter.com/remouk/status/928189534264754177: false
-  https://pages.github.com/: false
-  https://en.wordpress.com/: false
-  https://indieweb.org/IndieMark: false
-  https://twitter.com/nhoizey/status/932291964434898944: false
 https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsives.html:
   https://www.clever-age.com/fr/news/soiree-performances-web-paris-mars-2018/: false
   https://www.youtube.com/watch?v=wj84C3VNAmI: false
