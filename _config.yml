@@ -27,7 +27,7 @@ lsi: false
 collections:
   notes:
     output: true
-    permalink: notes/:year/:month/:slug.html
+    permalink: notes/:year/:month:day:hour:minute:second.html
 
 # Defaults
 defaults:
