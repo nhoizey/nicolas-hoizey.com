@@ -37,33 +37,45 @@
     <meta property="og:url" content="{{ site.url }}" />
     <meta property="og:type" content="website" />
   {% else %}
-    {% if page.type == "year" %}
-      {% capture title %}Billets de {{ page.date | date: "%Y" }}{% endcapture %}
-      {% capture description %}Billets de Nicolas Hoizey publiés en {{ page.date | date: "%Y" }}{% endcapture %}
+    {% if page.layout == "note" %}
+      {% capture title %}Note {{ page.date | date: "%d/%m/%Y %H:%M:%S" }}{% endcapture %}
+      {% capture description %}{{ page.content | strip_html | truncatewords: 150 | truncate: 290 | strip_newlines | escape_once }}{% endcapture %}
       <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-      <meta property="og:type" content="website" />
+      <meta property="og:type" content="article" />
+      <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />
+      <meta property="article:author" content="https://www.facebook.com/nhoizey" />
+      {% for tag in page.tags %}
+        <meta property="article:tag" content="{{ tag }}" />
+      {% endfor %}
     {% else %}
-      {% if page.type == "month" %}
-        {% capture title %}Billets de {% include mois.html page=page %} {{ page.date | date: "%Y" }}{% endcapture %}
-        {% capture description %}Billets de Nicolas Hoizey publiés en {% include mois.html page=page %} {{ page.date | date: "%Y" }}{% endcapture %}
+      {% if page.type == "year" %}
+        {% capture title %}Billets de {{ page.date | date: "%Y" }}{% endcapture %}
+        {% capture description %}Billets de Nicolas Hoizey publiés en {{ page.date | date: "%Y" }}{% endcapture %}
         <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
         <meta property="og:type" content="website" />
       {% else %}
-        {% if page.tag %}
-          {% capture title %}{{ page.tag }}{% endcapture %}
-        {% capture description %}Billets de Nicolas Hoizey auxquels est associé le tag « {{ page.tag }} »{% endcapture %}
+        {% if page.type == "month" %}
+          {% capture title %}Billets de {% include mois.html page=page %} {{ page.date | date: "%Y" }}{% endcapture %}
+          {% capture description %}Billets de Nicolas Hoizey publiés en {% include mois.html page=page %} {{ page.date | date: "%Y" }}{% endcapture %}
           <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
           <meta property="og:type" content="website" />
         {% else %}
-          {% capture title %}{{ page.title }}{% endcapture %}
-          {% capture description %}{{ page.excerpt | strip_html | truncatewords: 150 | truncate: 290 | strip_newlines | escape_once }}{% endcapture %}
-          <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-          <meta property="og:type" content="article" />
-          <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />
-          <meta property="article:author" content="https://www.facebook.com/nhoizey" />
-          {% for tag in page.tags %}
-            <meta property="article:tag" content="{{ tag }}" />
-          {% endfor %}
+          {% if page.tag %}
+            {% capture title %}{{ page.tag }}{% endcapture %}
+            {% capture description %}Billets de Nicolas Hoizey auxquels est associé le tag « {{ page.tag }} »{% endcapture %}
+            <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+            <meta property="og:type" content="website" />
+          {% else %}
+            {% capture title %}{{ page.title }}{% endcapture %}
+            {% capture description %}{{ page.excerpt | strip_html | truncatewords: 150 | truncate: 290 | strip_newlines | escape_once }}{% endcapture %}
+            <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+            <meta property="og:type" content="article" />
+            <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />
+            <meta property="article:author" content="https://www.facebook.com/nhoizey" />
+            {% for tag in page.tags %}
+              <meta property="article:tag" content="{{ tag }}" />
+            {% endfor %}
+          {% endif %}
         {% endif %}
       {% endif %}
     {% endif %}
