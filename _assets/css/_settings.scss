@@ -23,8 +23,9 @@ $color-title: #333;
 $color-hover: $color-blue;
 
 $color-post-meta: #555;
-$color-post-meta-link: #666;
+$color-post-meta-link: #555;
 $color-post-meta-hover: $color-blue;
+
 $color-article-intro: #333;
 
 $color-networks-background: #fff;
@@ -32,7 +33,8 @@ $color-networks-text: $color-title;
 $color-networks-link: #aaa;
 $color-networks-border: #fff;
 $color-networks-hover: $color-link-hover;
-$color-networks-specific-hover: 'twitter' #55acee, 'px500' #000, 'flickr' #ff0084, 'github' #666, 'facebook' #3b5998, 'instagram' #3f729b, 'deviantart' #5fbb3b, 'feed' #ee9900;
+$color-networks-specific-hover: 'twitter' #55acee, 'px500' #000,
+  'flickr' #ff0084, 'github' #666, 'facebook' #3b5998, 'instagram' #3f729b,
+  'deviantart' #5fbb3b, 'feed' #ee9900;
 
 $baseline: 1.5em;
-
