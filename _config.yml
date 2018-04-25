@@ -9,9 +9,6 @@ url: "https://nicolas-hoizey.com"
 twitter_username: nhoizey
 github_username:  nhoizey
 
-# Permalinks
-permalink: :year/:month/:title.html
-
 # Markdown parsing
 markdown: kramdown
 kramdown:
@@ -25,6 +22,9 @@ lsi: false
 
 # Collections
 collections:
+  posts:
+    output: true
+    permalink: articles/:year/:month/:title.html
   notes:
     output: true
     permalink: notes/:year/:month:day:hour:minute:second.html
@@ -162,6 +162,7 @@ cloudinary:
       attributes:
         class: logo
 
+# Archives
 jekyll-archives:
   enabled:
     - year
@@ -170,5 +171,5 @@ jekyll-archives:
     year: archives-year
     month: archives-month
   permalinks:
-    year: /:year/
-    month: /:year/:month/
+    year: /articles/:year/
+    month: /articles/:year/:month/
