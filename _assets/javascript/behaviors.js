@@ -183,6 +183,7 @@ function onAlgoliaAvailable(callback) {
   }
 }
 
+var $intro = window.document.getElementById('intro')
 var $input = window.document.getElementById('search_input')
 var $results = window.document.getElementById('search_results')
 var $currentUrl = window.location.toString()
@@ -208,14 +209,15 @@ if (queryString.length > 0) {
 $input.addEventListener('keyup', function() {
   if ($input.value.length > 0) {
     history.pushState(null, null, '/recherche.html?q=' + $input.value)
+    $intro.style.display = 'none'
     $currentContent.style.display = 'none'
     $searchContent.style.display = 'block'
     onAlgoliaAvailable(function() {
       algoliaIndex.search($input.value, searchSettings, searchCallback)
     })
   } else {
-    console.log($currentUrl)
     history.pushState(null, null, $currentUrl)
+    $intro.style.display = 'block'
     $currentContent.style.display = 'block'
     $searchContent.style.display = 'none'
     $results.innerHTML = ''
@@ -292,16 +294,17 @@ function searchCallback(err, content) {
         post_tags = post_tags.replace(/^, /, '')
 
         post =
-          '<article class="post"><h2><a href="' +
+          '<article class="post"><a href="' +
           hit.url +
-          '">' +
+          '"><h2>' +
           hit._highlightResult.title.value +
-          '</a></h2><header><ul><li class="date"><svg class="icon"><use xlink:href="#symbol-date" /></svg> ' +
+          '</h2>' +
+          (hit.text.trim() ? '<p>… ' + hit.text + ' …</p>' : '') +
+          '</a><footer><ul><li class="date"><svg class="icon"><use xlink:href="#symbol-date" /></svg> ' +
           post_date +
           '</li><li class="tags"><svg class="icon"><use xlink:href="#symbol-tags" /></svg> ' +
           post_tags +
-          '</li></ul></header>' +
-          (hit.text.trim() ? '<p>… ' + hit.text + ' …</p>' : '') +
+          '</li></ul></footer>' +
           '</article>'
 
         $results.innerHTML += post

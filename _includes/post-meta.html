@@ -1,9 +1,21 @@
 {% assign year = include.page.date | date: "%Y" %}
-<header>
+<footer>
   <ul>
     <li class="date">
       <svg class="icon"><use xlink:href="#symbol-date" /></svg>
-      <a href="{{ include.page.url }}">{{ include.page.date | date: "%-d" }}{% include mois.html page=include.page %} {{ include.page.date | date: "%Y" }}</a>
+      {% if include.page.lang == 'en' %}
+        <a href="/{{ include.page.date | date: "%Y/%m" }}/">{{ include.page.date | date: "%B" }}</a>&nbsp;
+        {{ include.page.date | date: "%-d" }},
+        <a href="/{{ year }}/">{{ year }}</a>
+      {% else %}
+        {{ include.page.date | date: "%-d" }}
+        <a href="/{{ include.page.date | date: "%Y/%m" }}/">{% include mois.html page=include.page %}</a>
+        <a href="/{{ year }}/">{{ year }}</a>
+      {% endif %}
+    </li>
+    <li class="tags">
+      <svg class="icon"><use xlink:href="#symbol-tags" /></svg>
+      {{ include.page | tags }}
     </li>
     {% capture webmention_count_value %}{% webmention_count include.page.url %}{% endcapture %}
     {% assign webmention_count_int = webmention_count_value | strip_html | plus: 0 %}
@@ -14,4 +26,4 @@
       </li>
     {% endif %}
   </ul>
-</header>
+</footer>

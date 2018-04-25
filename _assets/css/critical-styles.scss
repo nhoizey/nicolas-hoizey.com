@@ -443,21 +443,21 @@ main {
 
   h2 {
     margin-bottom: 0;
-
-    a:link,
-    a:visited {
-      text-decoration: none;
-    }
   }
 
-  .post {
+  .post,
+  .note {
     clear: right;
-    margin: 0 0 3rem;
-    padding: 3rem 0 0;
+    margin: 0 0 2rem;
+    padding: 2rem 0 0;
 
     h2,
     h3 {
       margin-top: 0;
+    }
+
+    p {
+      margin: 0.5em 0 0.5em;
     }
   }
 
@@ -468,10 +468,28 @@ main {
     }
   }
 
-  article:not(:first-of-type) {
-    border-top: solid 2px lighten($color-purple-heart, 20%);
+  .post {
+    a:link,
+    a:visited {
+      color: $color-text;
+      text-decoration: none;
+    }
   }
 
+  .post,
+  .note {
+    a:hover {
+      color: $color-link;
+      text-decoration: underline solid $color-link-underline;
+    }
+  }
+
+  // // trait entre articles dans les listes
+  // article:not(:first-of-type) {
+  //   border-top: solid 2px lighten($color-purple-heart, 20%);
+  // }
+
+  // trait sous le titre de mois dans les archives
   h2 + article {
     border-top: solid 3px lighten($color-purple-heart, 20%);
   }
@@ -486,8 +504,8 @@ main {
 article {
   margin: 1em 0 5em;
 
-  header {
-    color: $color-post-header;
+  footer {
+    color: $color-post-meta;
     font-size: 0.8em;
 
     ul {
@@ -498,10 +516,15 @@ article {
 
     li {
       margin: 0;
+      display: inline-block;
+
+      &:not(:last-of-type) {
+        margin-right: 1em;
+      }
     }
 
     svg {
-      fill: lighten($color-post-header, 20%);
+      fill: lighten($color-post-meta, 20%);
       vertical-align: middle;
       margin: 0 0.2em 0 0;
       padding: 0;
@@ -518,13 +541,13 @@ article {
     a {
       &:link,
       &:visited {
-        color: $color-post-header-link;
+        color: $color-post-meta-link;
         text-decoration: none;
       }
 
       &:hover,
       &:focus {
-        color: $color-post-header-hover;
+        color: $color-post-meta-hover;
         text-decoration: underline;
       }
     }

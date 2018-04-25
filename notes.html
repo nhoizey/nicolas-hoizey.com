@@ -6,8 +6,8 @@ permalink: /notes/index.html
 
 <h1>Notes</h1>
 
-<div class="list">
+<main class="list">
   {% for note in site.notes reversed %}
     {% include note-content.html page=note %}
   {% endfor %}
-</div>
+</main>
