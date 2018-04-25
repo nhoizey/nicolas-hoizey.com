@@ -820,5 +820,5 @@ RewriteRule ^2015/06/un-moteur-de-recherche-sur-un-site-statique-facile-avec-alg
 RewriteRule ^a-propos.html /a-propos/de-moi.html [QSA,L,R=301]
 RewriteRule ^a-propos/?$ /a-propos/de-moi.html [QSA,L,R=301]
 
-# Move the blog articles and blog archive pages in a dedicated folder
-RewriteRule ^([0-9]{4}/.*)$ /articles/$1 [QSA,L,R=301]
+# Remove the temporary `/articles/` folder because it lost Webmentions
+RewriteRule ^/articles/([0-9]{4}/.*)$ /$1 [QSA,L,R=301]

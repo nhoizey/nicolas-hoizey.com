@@ -24,7 +24,7 @@ lsi: false
 collections:
   posts:
     output: true
-    permalink: articles/:year/:month/:title.html
+    permalink: :year/:month/:title.html
   notes:
     output: true
     permalink: notes/:year/:month:day:hour:minute:second.html
@@ -171,5 +171,5 @@ jekyll-archives:
     year: archives-year
     month: archives-month
   permalinks:
-    year: /articles/:year/
-    month: /articles/:year/:month/
+    year: /:year/
+    month: /:year/:month/
