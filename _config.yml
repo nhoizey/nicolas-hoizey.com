@@ -93,6 +93,8 @@ webmentions:
   cache_folder: _data/webmentions
   cache_bad_uris_for: 5
   pause_lookups: false
+  collections:
+    - notes
   templates:
     count: _includes/webmentions/count.html
     likes: _includes/webmentions/likes.html
