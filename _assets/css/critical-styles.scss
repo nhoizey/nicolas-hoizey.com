@@ -212,6 +212,13 @@ a {
 img {
   max-width: 100%;
   height: auto;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+// For lazyloading
+img[data-src] {
+  opacity: 0;
 }
 
 iframe {
