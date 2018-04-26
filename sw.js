@@ -6,7 +6,7 @@
 // - Jake Archibald's Offline Cookbook: https://jakearchibald.com/2014/offline-cookbook/
 // - Jeremy Keith's Service Worker: https://adactio.com/journal/9775
 
-const version = '0.13';
+const version = '0.14';
 const staticCacheName = `v${version}::static`;
 const pagesCacheName = `v${version}::pages`;
 const imagesCacheName = `v${version}::images`;
@@ -18,6 +18,9 @@ const offlinePages = [
   '/',
   {% for post in site.posts limit:1 %}
   '{{ post.url }}',
+  {% endfor %}
+  {% for note in site.notes limit:1 %}
+  '{{ note.url }}',
   {% endfor %}
   '/a-propos/de-moi.html',
   '/a-propos/du-site.html',
