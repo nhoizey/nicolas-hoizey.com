@@ -821,4 +821,4 @@ RewriteRule ^a-propos.html /a-propos/de-moi.html [QSA,L,R=301]
 RewriteRule ^a-propos/?$ /a-propos/de-moi.html [QSA,L,R=301]
 
 # Remove the temporary `/articles/` folder because it lost Webmentions
-RewriteRule ^/articles/([0-9]{4}/.*)$ /$1 [QSA,L,R=301]
+RewriteRule ^articles/(.*)$ /$1 [QSA,L,R=301]
