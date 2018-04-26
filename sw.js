@@ -127,50 +127,50 @@ self.addEventListener('fetch', event => {
   // - try the network first,
   // - fall back to the cache,
   // - finally the offline page
-  if (request.headers.get('Accept').indexOf('text/html') !== -1) {
-    event.respondWith(
-      fetch(request)
-        .then(response => {
-          // NETWORK
-          // Stash a copy of this page in the pages cache
-          let copy = response.clone();
-          stashInCache(pagesCacheName, request, copy);
-          return response;
-        })
-        .catch(() => {
-          // CACHE or FALLBACK
-          return caches.match(request)
-            .then(response => response || caches.match(unavailableContentPage));
-        })
-    );
-    return;
-  }
+  // if (request.headers.get('Accept').indexOf('text/html') !== -1) {
+  //   event.respondWith(
+  //     fetch(request)
+  //       .then(response => {
+  //         // NETWORK
+  //         // Stash a copy of this page in the pages cache
+  //         let copy = response.clone();
+  //         stashInCache(pagesCacheName, request, copy);
+  //         return response;
+  //       })
+  //       .catch(() => {
+  //         // CACHE or FALLBACK
+  //         return caches.match(request)
+  //           .then(response => response || caches.match(unavailableContentPage));
+  //       })
+  //   );
+  //   return;
+  // }
 
   // For HTML requests:
   // - look in the cache first,
   // - fetch from network and cache for later use,
   // - fallback to offline page
-  // if (request.headers.get('Accept').indexOf('text/html') !== -1) {
-  //   event.respondWith(
-  //     caches.match(request)
-  //       .then(response => {
-  //         // CACHE
-  //         return response || fetch(request)
-  //           .then(response => {
-  //             // NETWORK
-  //             let copy = response.clone();
-  //             stashInCache(pagesCacheName, request, copy);
-  //             return response;
-  //           })
-  //           .catch(() => {
-  //             // OFFLINE WITHOUT CACHE
-  //             return caches.match(unavailableContentPage);
-  //           });
-  //       })
-  //   );
+  if (request.headers.get('Accept').indexOf('text/html') !== -1) {
+    event.respondWith(
+      caches.match(request)
+        .then(response => {
+          // CACHE
+          return response || fetch(request)
+            .then(response => {
+              // NETWORK
+              let copy = response.clone();
+              stashInCache(pagesCacheName, request, copy);
+              return response;
+            })
+            .catch(() => {
+              // OFFLINE WITHOUT CACHE
+              return caches.match(unavailableContentPage);
+            });
+        })
+    );
 
-  //   return;
-  // }
+    return;
+  }
 
   // For non-HTML requests, look in the cache first, fall back to the network
   event.respondWith(
