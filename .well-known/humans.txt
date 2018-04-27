@@ -1,23 +1,36 @@
-# humans.txt
+d8b   db d888888b  .o88b.  .d88b.  db       .d8b.  .d8888.
+888o  88   `88'   d8P  Y8 .8P  Y8. 88      d8' `8b 88'  YP
+88V8o 88    88    8P      88    88 88      88ooo88 `8bo.
+88 V8o88    88    8b      88    88 88      88~~~88   `Y8b.
+88  V888   .88.   Y8b  d8 `8b  d8' 88booo. 88   88 db   8D
+VP   V8P Y888888P  `Y88P'  `Y88P'  Y88888P YP   YP `8888Y'
+
+
+db   db  .d88b.  d888888b d88888D d88888b db    db
+88   88 .8P  Y8.   `88'   YP  d8' 88'     `8b  d8'
+88ooo88 88    88    88       d8'  88ooooo  `8bd8'
+88~~~88 88    88    88      d8'   88~~~~~    88
+88   88 `8b  d8'   .88.    d8' db 88.        88
+YP   YP  `Y88P'  Y888888P d88888P Y88888P    YP
+
+/* TEAM */
+
+Nicolas Hoizey
+- Site    : nicolas-hoizey.com
+- Twitter : @nhoizey
+- Location: France
+
+/* SITE */
+
+Languages:
+- French
+- English
+
+Technologies:
+- Standards: HTML, CSS, JavaScript
+- Software : Jekyll, Cloudinary, Algolia
+- Tools    : VS Code
+- Hosting  : AlwaysData
+- Code     : http://github.com/nhoizey/nicolas-hoizey.com
 
 [The humans responsible & technology colophon](http://humanstxt.org/)
-
-*This file is valid markdown.*
-
-## TEAM
-
-Nicolas Hoizey -- @nhoizey
-
-## TECHNOLOGY COLOPHON
-
-### Workflow
-
- * Jekyll
- * SASS
- * Uglify
-
-### Runtime
-
- * Source Sans Pro WebFont from Adobe
- * FitVids ?
- * Pygments Syntax Highlighter
