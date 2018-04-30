@@ -18,7 +18,7 @@ GEM
       execjs
     colorator (1.1.0)
     concurrent-ruby (1.0.5)
-    domain_name (0.5.20170404)
+    domain_name (0.5.20180417)
       unf (>= 0.0.5, < 1.0.0)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
@@ -127,7 +127,7 @@ GEM
       forwardable-extended (~> 2.6)
     progressbar (1.9.0)
     public_suffix (3.0.2)
-    rack (2.0.4)
+    rack (2.0.5)
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
