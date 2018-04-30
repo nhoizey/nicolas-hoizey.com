@@ -16456,4 +16456,35 @@
     type: like
     content: <p><a href="https://twitter.com/vcasse">Vincent Cassé</a> favorited a
       tweet <a href="https://nicolas-hoizey.com/notes/2018/0427014112.html">https://nicolas-hoizey.com/notes/2018/0427014112.html</a></p>
-"/notes/2018/0430155541.html": {}
+"/notes/2018/0430155541.html":
+  '516770':
+    id: '516770'
+    uri: https://twitter.com/nhoizey/status/990952441096081408#favorited-by-14234943
+    source: twitter
+    pubdate: 2018-04-30 17:29:22.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nhoizey/990952441096081408/14234943
+      verified: true
+      verified_date: '2018-04-30T15:29:22+00:00'
+      id: 516770
+      private: false
+      data:
+        author: &427
+          name: "Thomas Dufranne \U0001F576"
+          url: https://twitter.com/mrsize
+          photo: https://webmention.io/avatar/pbs.twimg.com/3fa190f4ba01dbde287b26900c32a8140a1640689a34d106afa6d3153a4682f7.jpg
+        url: https://twitter.com/nhoizey/status/990952441096081408#favorited-by-14234943
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: "Thomas Dufranne \U0001F576 favorited a tweet https://nicolas-hoizey.com/notes/2018/0430155541.html"
+        sentence_html: "<a href=\"https://twitter.com/mrsize\">Thomas Dufranne \U0001F576</a>
+          favorited a tweet <a href=\"https://nicolas-hoizey.com/notes/2018/0430155541.html\">https://nicolas-hoizey.com/notes/2018/0430155541.html</a>"
+      target: https://nicolas-hoizey.com/notes/2018/0430155541.html
+    author: *427
+    type: like
+    content: "<p><a href=\"https://twitter.com/mrsize\">Thomas Dufranne \U0001F576</a>
+      favorited a tweet <a href=\"https://nicolas-hoizey.com/notes/2018/0430155541.html\">https://nicolas-hoizey.com/notes/2018/0430155541.html</a></p>"
