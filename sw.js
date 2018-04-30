@@ -6,7 +6,7 @@
 // - Jake Archibald's Offline Cookbook: https://jakearchibald.com/2014/offline-cookbook/
 // - Jeremy Keith's Service Worker: https://adactio.com/journal/9775
 
-const version = '0.14';
+const version = '0.15';
 const staticCacheName = `v${version}::static`;
 const pagesCacheName = `v${version}::pages`;
 const imagesCacheName = `v${version}::images`;
@@ -127,29 +127,6 @@ self.addEventListener('fetch', event => {
   }
 
   // For HTML requests:
-  // - try the network first,
-  // - fall back to the cache,
-  // - finally the offline page
-  // if (request.headers.get('Accept').indexOf('text/html') !== -1) {
-  //   event.respondWith(
-  //     fetch(request)
-  //       .then(response => {
-  //         // NETWORK
-  //         // Stash a copy of this page in the pages cache
-  //         let copy = response.clone();
-  //         stashInCache(pagesCacheName, request, copy);
-  //         return response;
-  //       })
-  //       .catch(() => {
-  //         // CACHE or FALLBACK
-  //         return caches.match(request)
-  //           .then(response => response || caches.match(unavailableContentPage));
-  //       })
-  //   );
-  //   return;
-  // }
-
-  // For HTML requests:
   // - look in the cache first,
   // - fetch from network and cache for later use,
   // - fallback to offline page
@@ -161,8 +138,13 @@ self.addEventListener('fetch', event => {
           return response || fetch(request)
             .then(response => {
               // NETWORK
-              let copy = response.clone();
-              stashInCache(pagesCacheName, request, copy);
+              if (response.status === 200) {
+                // Stash a copy of this page in the pages cache
+                // Only cache valid responses
+                // (for example, prevent caching of 404 errors)
+                let copy = response.clone();
+                stashInCache(pagesCacheName, request, copy);
+              }
               return response;
             })
             .catch(() => {
