@@ -388,6 +388,42 @@ summary {
   }
 }
 
+#navigation {
+  color: #fff;
+  background: linear-gradient(
+    155deg,
+    lighten($color-jacarta, 15%) 0%,
+    lighten($color-purple-heart, 15%) 100%
+  );
+  border-bottom: solid 2px lighten($color-kingfisher-daisy, 15%);
+  margin: 0;
+
+  a {
+    color: lighten($color-purple-heart, 50%);
+
+    &:hover {
+      color: lighten($color-purple-heart, 40%);
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0 -4vw;
+    padding: 0;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    flex-wrap: wrap;
+  }
+
+  a {
+    display: block;
+    padding: 0.2em 4vw;
+    white-space: nowrap;
+  }
+}
+
 .search {
   flex: 1;
 }
@@ -408,26 +444,11 @@ summary {
 // ************************************************************
 
 #intro {
-  color: #fff;
-  background: linear-gradient(
-    155deg,
-    lighten($color-jacarta, 15%) 0%,
-    lighten($color-purple-heart, 15%) 100%
-  );
-  border-bottom: solid 2px lighten($color-kingfisher-daisy, 15%);
-  margin: 0;
+  font-size: 1.4em;
 
   p {
     margin: 0;
     padding: 1em 0;
-  }
-
-  a {
-    color: lighten($color-purple-heart, 50%);
-
-    &:hover {
-      color: lighten($color-purple-heart, 40%);
-    }
   }
 }
 
