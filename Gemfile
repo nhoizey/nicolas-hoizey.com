@@ -29,4 +29,5 @@ group :jekyll_plugins do
   gem 'jekyll-archives'
   gem 'jekyll-microtypo'
   gem 'jekyll-webmention_io',  '~>2.9'
+  gem 'jekyll-include-cache'
 end

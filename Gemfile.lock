@@ -84,6 +84,8 @@ GEM
     jekyll-cloudinary (1.9.1)
       fastimage (>= 2.0, < 3.0)
       jekyll (>= 3.0, < 4.0)
+    jekyll-include-cache (0.1.0)
+      jekyll (~> 3.3)
     jekyll-microtypo (0.1.2)
       jekyll (>= 3.0, < 4.0)
     jekyll-postfiles (2.1.1)
@@ -172,6 +174,7 @@ DEPENDENCIES
   jekyll-archives
   jekyll-assets
   jekyll-cloudinary
+  jekyll-include-cache
   jekyll-microtypo
   jekyll-postfiles
   jekyll-tagging

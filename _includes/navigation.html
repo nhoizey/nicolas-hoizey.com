@@ -1,0 +1,12 @@
+<nav id="navigation">
+  <div class="wrap">
+    <ul role="navigation">
+      <li><a href="/">Accueil</a></li>
+      {% for post in site.posts limit:1 %}
+        {% assign year = post.date | date: "%Y" %}
+        <li><a href="/{{ year }}/">Articles</a></li>
+      {% endfor %}
+      <li><a href="/notes/">Notes</a></li>
+      <li><a href="/a-propos/de-moi.html">À propos</a></li>
+  </div>
+</nav>
