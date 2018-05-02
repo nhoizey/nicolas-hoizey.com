@@ -6,10 +6,10 @@
 // - Jake Archibald's Offline Cookbook: https://jakearchibald.com/2014/offline-cookbook/
 // - Jeremy Keith's Service Worker: https://adactio.com/journal/9775
 
-const version = '0.15';
-const staticCacheName = `v${version}::static`;
-const pagesCacheName = `v${version}::pages`;
-const imagesCacheName = `v${version}::images`;
+const version = '0.16';
+const staticCacheName = `static-v1`;
+const pagesCacheName = `pages-v1`;
+const imagesCacheName = `images-v1`;
 
 const unavailableContentPage = '/offline-fallback.html';
 
@@ -74,7 +74,7 @@ function clearOldCaches() {
   return caches.keys()
     .then(keys => {
       return Promise.all(keys
-        .filter(key => key.indexOf(`v${version}::`) !== 0)
+        .filter(key => `:${staticCacheName}:${pagesCacheName}:${imagesCacheName}:`.indexOf(key) !== 0)
         .map(key => caches.delete(key))
       );
     });
