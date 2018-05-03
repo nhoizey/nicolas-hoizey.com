@@ -408,7 +408,7 @@ summary {
 
   ul {
     list-style-type: none;
-    margin: 0 -1em;
+    margin: 0 -.5em;
     padding: 0;
     display: flex;
     flex-grow: 1;
@@ -419,7 +419,7 @@ summary {
 
   a {
     display: block;
-    padding: 0.2em 1em;
+    padding: 0.2em .5em;
     white-space: nowrap;
   }
 }
