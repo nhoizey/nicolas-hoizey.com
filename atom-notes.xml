@@ -21,7 +21,7 @@ layout: null
    <title></title>
    <updated>{{ note.date | date_to_xmlschema }}</updated>
    <id>{{ site.url }}{{ note.id }}</id>
-   <content type="html">{{ note.content | xml_escape }}</content>
+   <content type="html">{{ note.content | strikethrough | xml_escape }}</content>
  </entry>
  {% endfor %}
 
