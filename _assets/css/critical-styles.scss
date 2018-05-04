@@ -356,8 +356,8 @@ summary {
     transition: background-color 0.25s ease-in-out,
       border-color 0.25s ease-in-out, color 0.25s ease-in-out,
       width 0.5s ease-in-out;
-    width: 50%;
-    min-width: 8.5em;
+    width: 40%;
+    min-width: 7em;
     margin-left: auto;
 
     &:focus {
@@ -388,6 +388,21 @@ summary {
   }
 }
 
+.search {
+  flex: 1;
+}
+
+#powered-by-algolia {
+  text-align: right;
+  font-size: 0.8em;
+
+  svg {
+    width: 6.3em;
+    height: 2em;
+    vertical-align: bottom;
+  }
+}
+
 #navigation {
   color: #fff;
   background: linear-gradient(
@@ -408,34 +423,23 @@ summary {
 
   ul {
     list-style-type: none;
-    margin: 0 -.5em;
+    margin: 0 -0.5em;
     padding: 0;
     display: flex;
-    flex-grow: 1;
+    justify-content: flex-start;
+    overflow-x: auto;
+  }
+
+  li {
+    flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
-    flex-wrap: wrap;
   }
 
   a {
     display: block;
-    padding: 0.2em .5em;
+    padding: 0.2em 1em 0.2em 0.5em;
     white-space: nowrap;
-  }
-}
-
-.search {
-  flex: 1;
-}
-
-#powered-by-algolia {
-  text-align: right;
-  font-size: 0.8em;
-
-  svg {
-    width: 6.3em;
-    height: 2em;
-    vertical-align: bottom;
   }
 }
 
@@ -444,7 +448,7 @@ summary {
 // ************************************************************
 
 #intro {
-  font-size: 1.4em;
+  font-size: 1.2em;
 
   p {
     margin: 0;
