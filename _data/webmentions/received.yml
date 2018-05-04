@@ -16577,6 +16577,103 @@
     author: *429
     type: reply
     content: ''
+  '991946510022729728':
+    id: '991946510022729728'
+    uri: https://twitter.com/nhoizey/status/991946510022729728
+    source: twitter
+    pubdate: 2018-05-03 09:44:12.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/nhoizey/991940715683958785/991946510022729728
+      verified: true
+      verified_date: '2018-05-03T08:17:26+00:00'
+      id: 517342
+      private: false
+      data:
+        author: &430
+          name: Nicolas Hoizey
+          url: https://nicolas-hoizey.com
+          photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
+        url: https://twitter.com/nhoizey/status/991946510022729728
+        name: 
+        content: Ah, tu peux me faire une copie d’écran ? Merci
+        published: '2018-05-03T07:44:12+00:00'
+        published_ts: 1525333452
+      activity:
+        type: reply
+        sentence: Nicolas Hoizey replied 'Ah, tu peux me faire une copie d’écran ?
+          Merci' to a tweet https://nicolas-hoizey.com/notes/2018/0503014915.html
+        sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
+          'Ah, tu peux me faire une copie d’écran ? Merci' to a tweet <a href="https://nicolas-hoizey.com/notes/2018/0503014915.html">https://nicolas-hoizey.com/notes/2018/0503014915.html</a>
+      target: https://nicolas-hoizey.com/notes/2018/0503014915.html
+    author: *430
+    type: reply
+    content: "<p>Ah, tu peux me faire une copie d’écran ? Merci</p>"
+  '992077114412359682':
+    id: '992077114412359682'
+    uri: https://twitter.com/zemax/status/992077114412359682
+    source: twitter
+    pubdate: 2018-05-03 18:23:10.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/nhoizey/991940715683958785/992077114412359682
+      verified: true
+      verified_date: '2018-05-03T16:49:02+00:00'
+      id: 517403
+      private: false
+      data:
+        author: &431
+          name: Maxime Cousinou
+          url: http://les-mains-dans-le-code.fr
+          photo: https://webmention.io/avatar/pbs.twimg.com/8debd0cdca2d6032e301578ba9cf955d904e25975c65258ea7055417c6024537.jpg
+        url: https://twitter.com/zemax/status/992077114412359682
+        name: 
+        content: Hello, il y a un "&gt;" qui traîne en dessous du footer (à moins
+          que ça soit voulu ?)
+        published: '2018-05-03T16:23:10+00:00'
+        published_ts: 1525364590
+      activity:
+        type: reply
+        sentence: Maxime Cousinou replied 'Hello, il y a un "&gt;" qui traîne en dessous
+          du footer (à moins que ça soit vou...' to a tweet https://nicolas-hoizey.com/notes/2018/0503014915.html
+        sentence_html: <a href="http://les-mains-dans-le-code.fr">Maxime Cousinou</a>
+          replied 'Hello, il y a un "&gt;" qui traîne en dessous du footer (à moins
+          que ça soit vou...' to a tweet <a href="https://nicolas-hoizey.com/notes/2018/0503014915.html">https://nicolas-hoizey.com/notes/2018/0503014915.html</a>
+      target: https://nicolas-hoizey.com/notes/2018/0503014915.html
+    author: *431
+    type: reply
+    content: "<p>Hello, il y a un “&gt;” qui traîne en dessous du footer (à moins
+      que ça soit voulu ?)</p>"
+  '992077513127006209':
+    id: '992077513127006209'
+    uri: https://twitter.com/nhoizey/status/992077513127006209
+    source: twitter
+    pubdate: 2018-05-03 18:24:45.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/nhoizey/991940715683958785/992077513127006209
+      verified: true
+      verified_date: '2018-05-03T16:49:00+00:00'
+      id: 517402
+      private: false
+      data:
+        author: &432
+          name: Nicolas Hoizey
+          url: https://nicolas-hoizey.com
+          photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
+        url: https://twitter.com/nhoizey/status/992077513127006209
+        name: 
+        content: "Ce n’est pas voulu, un bug pas encore dépisté… \U0001F615"
+        published: '2018-05-03T16:24:45+00:00'
+        published_ts: 1525364685
+      activity:
+        type: reply
+        sentence: "Nicolas Hoizey replied 'Ce n’est pas voulu, un bug pas encore dépisté…
+          \U0001F615' to a tweet https://nicolas-hoizey.com/notes/2018/0503014915.html"
+        sentence_html: "<a href=\"https://nicolas-hoizey.com\">Nicolas Hoizey</a>
+          replied 'Ce n’est pas voulu, un bug pas encore dépisté… \U0001F615' to a
+          tweet <a href=\"https://nicolas-hoizey.com/notes/2018/0503014915.html\">https://nicolas-hoizey.com/notes/2018/0503014915.html</a>"
+      target: https://nicolas-hoizey.com/notes/2018/0503014915.html
+    author: *432
+    type: reply
+    content: "<p>Ce n’est pas voulu, un bug pas encore dépisté… \U0001F615</p>"
 "/notes/2018/0417231200.html": {}
 "/notes/2018/0423174625.html": {}
 "/notes/2018/0426234112.html": {}
