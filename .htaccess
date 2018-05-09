@@ -1,7 +1,6 @@
 # Inpired by
 # https://github.com/mmistakes/made-mistakes-jekyll/blob/master/.htaccess
 # https://github.com/fvsch/scripts-and-snippets/blob/master/apache/rewrite-well-known.conf
-
 # Apache Server Configs v2.14.0 | MIT License
 # https://github.com/h5bp/server-configs-apache
 
@@ -265,13 +264,18 @@ AddDefaultCharset utf-8
                      .bbaw \
                      .css \
                      .geojson \
+                     .htm \
+                     .html \
                      .js \
                      .json \
                      .jsonld \
                      .manifest \
                      .rdf \
                      .rss \
+                     .scss \
+                     .svg \
                      .topojson \
+                     .txt \
                      .vtt \
                      .webapp \
                      .webmanifest \
