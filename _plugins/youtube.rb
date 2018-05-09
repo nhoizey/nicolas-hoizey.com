@@ -69,7 +69,7 @@ class YouTube < Liquid::Tag
 
     if (File.exists?(@cache_file))
       @video_data = JSON.parse(File.read(@cache_file))
-      Jekyll.logger.info("[Youtube]", "#{@video_data['title']} (cached)")
+      # Jekyll.logger.info("[Youtube]", "#{@video_data['title']} (cached)")
     else
       site = context.registers[:site]
       settings = site.config['youtube']
@@ -86,7 +86,7 @@ class YouTube < Liquid::Tag
         'title' => video.title,
         'description' => video.description
       }
-      Jekyll.logger.info("[Youtube]", "#{@video_data['title']}")
+      # Jekyll.logger.info("[Youtube]", "#{@video_data['title']}")
 
       # Cache the result in a file
       File.open(@cache_file, "w") do |f|
@@ -100,10 +100,6 @@ class YouTube < Liquid::Tag
 
     @videoFrame =  CGI.escapeHTML("<iframe style=\"vertical-align:top;width:100%;height:100%;position:absolute;\" src=\"#{@emu}\" frameborder=\"0\" allowfullscreen></iframe>")
 
-    # with jQuery
-    #@onclick    = "$('##{@id}').replaceWith('#{@videoFrame}');return false;"
-
-    # without JQuery
     @onclick    = "var myAnchor = document.getElementById('#{@id}');" +
                   "var tmpDiv = document.createElement('div');" +
                   "tmpDiv.innerHTML = '#{@videoFrame}';" +
@@ -129,9 +125,7 @@ class YouTube < Liquid::Tag
 EOF
 
     Cache[@id] = result
-
     return result
-
   end
 
   Liquid::Template.register_tag "youtube", self
