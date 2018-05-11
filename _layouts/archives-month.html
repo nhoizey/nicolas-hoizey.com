@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h1>Billets de {% include mois.html page=page %} <a href="/{{ page.date | date: "%Y" }}/">{{ page.date | date: "%Y" }}</a></h1>
+<h1>Billets de {% include mois.html date=page.date %} <a href="/{{ page.date | date: "%Y" }}/">{{ page.date | date: "%Y" }}</a></h1>
 
 <div class="list">
   {% for post in page.posts reversed %}
