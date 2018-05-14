@@ -4,10 +4,7 @@
 // http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
 html {
   box-sizing: border-box;
-
-  // http://jaydenseric.com/blog/forget-normalize-or-resets-lay-your-own-css-foundation
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 *,
 *:before,
