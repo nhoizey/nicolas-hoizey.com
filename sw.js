@@ -102,8 +102,8 @@ self.addEventListener('activate', event => {
 
 self.addEventListener('message', event => {
   if (event.data.command == 'trimCaches') {
-    trimCache(pagesCacheName, 35);
-    trimCache(imagesCacheName, 20);
+    trimCache(pagesCacheName, 50);
+    trimCache(imagesCacheName, 50);
   }
 });
 
