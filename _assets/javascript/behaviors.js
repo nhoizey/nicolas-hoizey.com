@@ -50,7 +50,10 @@
 
 // Install Service Worker
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js')
+  // https://slides.com/webmax/serviceworker-thebest/#/23
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js')
+  }
 }
 
 // Clean Service Worker cache
