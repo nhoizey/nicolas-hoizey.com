@@ -56,6 +56,14 @@ if ('serviceWorker' in navigator) {
   }
 }
 
+// Log storage quota usage
+// https://slides.com/webmax/serviceworker-thebest/#/35
+if ('storage' in navigator && 'estimate' in navigator.storage) {
+  navigator.storage.estimate().then(({usage, quota}) => {
+    console.log(`Using ${usage} out of ${quota} bytes.`);
+  });
+}
+
 // Clean Service Worker cache
 // https://adactio.com/journal/9888
 window.addEventListener('load', function() {
