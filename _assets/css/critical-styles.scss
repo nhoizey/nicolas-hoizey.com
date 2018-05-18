@@ -590,7 +590,7 @@ article {
 .annees {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: baseline;
 
   .avant {
     order: 1;
