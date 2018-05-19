@@ -68,8 +68,9 @@ include:
 # Pagination (used to mix posts and notes, at least)
 pagination:
   enabled: true
-  collection: 'posts'
-  per_page: 10
+  collection: posts, notes
+  sort_reverse: true
+  per_page: 20
   permalink: '/page-:num.html'
   title: ':title - page :num / :max'
   trail:
