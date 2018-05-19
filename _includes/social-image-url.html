@@ -11,10 +11,11 @@
 %}{% assign title = site.description
 %}{% elsif include.page.title == 'Recherche'
 %}{% assign title = 'Moteur de recherche propulsé par Algolia'
-%}{% else
+%}{% elsif include.page.layout == 'note'
+%}{% capture title %}{{ page.content | strip_html | truncatewords: 20 | truncate: 130 | strip_newlines | escape_once }}{% endcapture %}{% else
 %}{% assign title = include.page.title
 %}{% endif
-%}{% assign title = title | url_escape | replace: ' ', '%20' | replace: '.', '%2e' | replace: ',', '%252C' | replace: "'", '%E2%80%99' | replace: '?', '%3F'
+%}{% assign title = title | url_escape | replace: ' ', '%20' | replace: '.', '%2e' | replace: ',', '%252C' | replace: ':', '%253A' | replace: '/', '%252F' | replace: "'", '%E2%80%99' | replace: '?', '%3F'
 %}{% capture background_image %}e_blur:2000,c_crop,ar_{{ image_width }}:{{ image_height }},b_white/e_grayscale/w_{{ image_width }}/l_fetch:{{ image | base64_encode }},h_1.0,w_1.0,fl_relative,c_limit{% endcapture
 %}{% capture color_overlay %}b_rgb:3d2e68,o_40{% endcapture
 %}{% capture title_with_shadow %}w_{{ image_width | minus: 80 }},c_fit,l_text:georgia_80:{{ title }},g_north_west,x_42,y_42,co_black,o_50/w_{{ image_width | minus: 80 }},c_fit,l_text:georgia_80:{{ title }},g_north_west,x_40,y_40,co_white{% endcapture
