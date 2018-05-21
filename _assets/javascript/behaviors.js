@@ -246,7 +246,7 @@ if (queryString.length > 0) {
 $input.addEventListener('keyup', function() {
   if ($input.value.length > 0) {
     history.pushState(null, null, '/recherche.html?q=' + $input.value)
-    $intro.style.display = 'none'
+    if ($intro) $intro.style.display = 'none'
     $currentContent.style.display = 'none'
     $searchContent.style.display = 'block'
     onAlgoliaAvailable(function() {
@@ -254,7 +254,7 @@ $input.addEventListener('keyup', function() {
     })
   } else {
     history.pushState(null, null, $currentUrl)
-    $intro.style.display = 'block'
+    if ($intro) $intro.style.display = 'block'
     $currentContent.style.display = 'block'
     $searchContent.style.display = 'none'
     $results.innerHTML = ''
