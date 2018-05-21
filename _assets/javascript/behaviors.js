@@ -304,106 +304,89 @@ function searchCallback(err, content) {
     (resultsNumber > 1 ? 's' : '') +
     ' :'
 
-  var hit, post, post_date, post_tags, post_tags_match
+  var hit, hit_type, hit_date, hit_tags
   for (var i = 0; i < resultsNumber; i++) {
     hit = content.hits[i]
 
+    hit_type = ''
     switch (hit.type) {
       case 'post':
-        // Build the date to show
-        js_post_date = new Date(hit.date * 1000)
-        post_date =
-          js_post_date.getDate() +
-          ' ' +
-          months[js_post_date.getMonth()] +
-          ' ' +
-          js_post_date.getFullYear()
-
-        // Build the tags list
-        post_tags = ''
-        post_tags_match = 'none'
-        for (var j = 0; j < hit._highlightResult.tags.length; j++) {
-          post_tags = post_tags + ', ' + hit._highlightResult.tags[j].value
-          if (hit._highlightResult.tags[j].matchLevel !== 'none') {
-            post_tags_match = hit._highlightResult.tags[j].matchLevel
-          }
-        }
-        post_tags = post_tags.replace(/^, /, '')
-
-        post =
-          '<article class="post"><a href="' +
-          hit.url +
-          '"><h2>' +
-          hit._highlightResult.title.value +
-          '</h2>' +
-          (hit.text.trim() ? '<p>… ' + hit.text + ' …</p>' : '') +
-          '</a><footer><ul><li class="date"><svg class="icon"><use xlink:href="#symbol-date" /></svg> ' +
-          post_date +
-          '</li><li class="tags"><svg class="icon"><use xlink:href="#symbol-tags" /></svg> ' +
-          post_tags +
-          '</li></ul></footer>' +
-          '</article>'
-
-        $results.innerHTML += post
-        break
       case 'page':
-        page =
-          '<article class="post"><h2><a href="' +
-          hit.url +
-          '">' +
-          hit._highlightResult.title.value +
-          '</a></h2>' +
-          (hit.text.trim() ? '<p>… ' + hit.text + ' …</p>' : '') +
-          '</article>'
-
-        $results.innerHTML += page
-        break
+        hit_type = hit.type
       case 'document':
-        switch (hit.collection) {
-          case 'notes':
-            // Build the date to show
-            js_note_date = new Date(hit.date * 1000)
-            note_date =
-              js_note_date.getDate() +
-              ' ' +
-              months[js_note_date.getMonth()] +
-              ' ' +
-              js_note_date.getFullYear()
-
-            // Build the tags list
-            note_tags = ''
-            note_tags_match = 'none'
-            for (var j = 0; j < hit._highlightResult.tags.length; j++) {
-              note_tags = note_tags + ', ' + hit._highlightResult.tags[j].value
-              if (hit._highlightResult.tags[j].matchLevel !== 'none') {
-                note_tags_match = hit._highlightResult.tags[j].matchLevel
-              }
-            }
-            note_tags = note_tags.replace(/^, /, '')
-
-            note =
-              '<article class="note"><a href="' +
-              hit.url +
-              '"><h2>' +
-              hit._highlightResult.title.value +
-              '</h2>' +
-              (hit.text.trim() ? '<p>… ' + hit.text + ' …</p>' : '') +
-              '</a><footer><ul><li class="date"><svg class="icon"><use xlink:href="#symbol-date" /></svg> ' +
-              note_date +
-              '</li><li class="tags"><svg class="icon"><use xlink:href="#symbol-tags" /></svg> ' +
-              note_tags +
-              '</li></ul></footer>' +
-              '</article>'
-
-            $results.innerHTML += note
-            break
-          default:
-            console.log(hit)
+        if (hit.collection === 'notes') {
+          hit_type = 'note'
         }
-      default:
-        console.log(hit)
     }
+
+    hit_date = ''
+    if (hit.date) {
+      js_hit_date = new Date(hit.date * 1000)
+      date_options = { year: 'numeric', month: 'long', day: 'numeric' }
+
+      if (hit.lang === 'en') {
+        hit_date = js_hit_date.toLocaleDateString('en-US', date_options)
+      } else {
+        hit_date = js_hit_date.toLocaleDateString('fr-FR', date_options)
+      }
+    }
+
+    hit_title = hit._highlightResult.title.value
+
+    hit_excerpt = hit._highlightResult.html
+      ? hit._highlightResult.html.value
+      : hit.excerpt_html
+
+    if (hit_type === 'note') {
+      if (hit.lang === 'en') {
+        hit_title = 'Note from ' + hit_date
+      } else {
+        hit_title = 'Note du ' + hit_date
+      }
+    }
+
+    hit_tags = ''
+    if (hit._highlightResult.tags) {
+      // Build the tags list
+      hit_tags = ''
+      hit_tags_number = hit._highlightResult.tags.length
+      for (var j = 0; j < hit_tags_number; j++) {
+        hit_tags = hit_tags + ', ' + hit._highlightResult.tags[j].value
+      }
+      hit_tags = hit_tags.replace(/^, /, '')
+    }
+
+    result =
+      '<article class="' +
+      hit_type +
+      '"><a href="' +
+      hit.url +
+      '"><h2>' +
+      hit_title +
+      '</h2>' +
+      hit_excerpt +
+      '</a>'
+    if (hit_date || hit_tags) {
+      result += '<footer><ul>'
+      if (hit_date) {
+        result +=
+          '<li class="date"><svg class="icon"><use xlink:href="#symbol-date" /></svg> ' +
+          hit_date +
+          '</li>'
+      }
+      if (hit_tags) {
+        result +=
+          '<li class="tags"><svg class="icon"><use xlink:href="#symbol-tags" /></svg> ' +
+          hit_tags +
+          '</li>'
+      }
+      result += '</ul></footer>'
+    }
+    result += '</article>'
+
+    $results.innerHTML += result
   }
+
   $results.innerHTML +=
     '<p id="powered-by-algolia"><a href="/2015/06/la-recherche-dans-du-statique-facile-avec-algolia.html">Propulsé par l\'excellent <svg><use xlink:href="#symbol-algolia" /></svg></a></p>'
 }
