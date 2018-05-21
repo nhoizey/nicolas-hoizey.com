@@ -3,7 +3,8 @@
   "lang": "fr",
   "name": "Nicolas Hoizey",
   "short_name": "N. Hoizey",
-  "description": "Recueil de créations et réflexions de Nicolas Hoizey sur la photo, le Web, etc.",
+  "description":
+    "Recueil de créations et réflexions de Nicolas Hoizey sur la photo, le Web, etc.",
   "scope": "/",
   "start_url": "/?utm_source=manifest",
   "display": "standalone",
@@ -12,14 +13,14 @@
   "theme_color": "#43246a",
   "icons": [
     {
-      "src": "/assets/photo-de-nicolas-hoizey-192px.jpg",
+      "src": "/assets/photo-de-nicolas-hoizey-192px.png",
       "sizes": "192x192",
-      "type": "image/jpeg"
+      "type": "image/png"
     },
     {
-      "src": "/assets/photo-de-nicolas-hoizey-400px.jpg",
-      "sizes": "400x400",
-      "type": "image/jpeg"
+      "src": "/assets/photo-de-nicolas-hoizey-512px.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ],
   "serviceworker": {

@@ -5,7 +5,7 @@ lang: fr
 ---
 
 <figure class="onefourth right">
-  <a href="/assets/photo-de-nicolas-hoizey.jpg"><img src="/assets/photo-de-nicolas-hoizey-400px.jpg" alt="Nicolas Hoizey" /></a>
+  <a href="/assets/photo-de-nicolas-hoizey.jpg"><img src="/assets/photo-de-nicolas-hoizey-512px.png" alt="Nicolas Hoizey" /></a>
 </figure>
 
 Je suis **passionné par le Web et la photographie**, entre nombreux autres centres d'intérêt.

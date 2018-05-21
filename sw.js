@@ -8,7 +8,7 @@
 
 const staticCacheName = `static-v1`;
 const pagesCacheName = `pages-v201805141409`;
-const imagesCacheName = `images-v1`;
+const imagesCacheName = `images-v201805212352`;
 
 const unavailableContentPage = '/offline-fallback.html';
 
@@ -27,7 +27,7 @@ const offlinePages = [
 ];
 
 const offlineImages = [
-  '/assets/photo-de-nicolas-hoizey-400px.jpg',
+  '/assets/photo-de-nicolas-hoizey-512px.png',
 ];
 
 function updateStaticCache() {
