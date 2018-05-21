@@ -70,18 +70,6 @@ include:
   - favicon.jpg
   - tags
 
-# Pagination (used to mix posts and notes, at least)
-pagination:
-  enabled: true
-  collection: posts, notes
-  sort_reverse: true
-  per_page: 20
-  permalink: '/page-:num.html'
-  title: ':title - page :num / :max'
-  trail:
-    before: 2
-    after: 2
-
 # Jekyll Assets
 assets:
   compression: false

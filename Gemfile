@@ -13,7 +13,6 @@ group :jekyll_plugins do
   gem 'jekyll-cloudinary'
   gem 'jekyll-include-cache'
   gem 'jekyll-microtypo'
-  gem 'jekyll-paginate-v2'
   gem 'jekyll-postfiles'
   gem 'jekyll-tagging'
   gem 'jekyll-webmention_io',  '~>2.9'
