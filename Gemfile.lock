@@ -11,7 +11,7 @@ GEM
     algolia_html_extractor (2.6.1)
       json (~> 2.0)
       nokogiri (~> 1.8.2)
-    algoliasearch (1.20.0)
+    algoliasearch (1.20.1)
       httpclient (~> 2.8, >= 2.8.3)
       json (>= 1.5.1)
     autoprefixer-rails (8.2.0)
@@ -23,7 +23,7 @@ GEM
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
-    eventmachine (1.2.6)
+    eventmachine (1.2.7)
     execjs (2.7.0)
     extras (0.3.0)
       forwardable-extended (~> 2.5)
@@ -46,7 +46,7 @@ GEM
     httpclient (2.8.3)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
-    jekyll (3.8.1)
+    jekyll (3.8.2)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -59,7 +59,7 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
-    jekyll-algolia (1.4.1)
+    jekyll-algolia (1.4.2)
       algolia_html_extractor (~> 2.6)
       algoliasearch (~> 1.18)
       filesize (~> 0.1)
@@ -81,15 +81,13 @@ GEM
       nokogiri (~> 1.8)
       pathutil (~> 0.16)
       sprockets (>= 3.3, < 4.1.beta)
-    jekyll-cloudinary (1.10.0)
+    jekyll-cloudinary (1.11.0)
       fastimage (>= 2.0, < 3.0)
       jekyll (>= 3.0, < 4.0)
     jekyll-include-cache (0.1.0)
       jekyll (~> 3.3)
     jekyll-microtypo (0.1.2)
       jekyll (>= 3.0, < 4.0)
-    jekyll-paginate-v2 (1.9.4)
-      jekyll (~> 3.0)
     jekyll-postfiles (2.1.1)
     jekyll-sanity (1.2.0)
       jekyll (~> 3.1)
@@ -178,7 +176,6 @@ DEPENDENCIES
   jekyll-cloudinary
   jekyll-include-cache
   jekyll-microtypo
-  jekyll-paginate-v2
   jekyll-postfiles
   jekyll-tagging
   jekyll-webmention_io (~> 2.9)
