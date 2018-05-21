@@ -56,11 +56,27 @@ if ('serviceWorker' in navigator) {
   })
 }
 
+// https://stackoverflow.com/a/18650828/717195
+function formatBytes(a, b) {
+  if (0 == a) return '0 Bytes'
+  var c = 1024,
+    d = b || 2,
+    e = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'],
+    f = Math.floor(Math.log(a) / Math.log(c))
+  return parseFloat((a / Math.pow(c, f)).toFixed(d)) + ' ' + e[f]
+}
+
 // Log storage quota usage
 // https://slides.com/webmax/serviceworker-thebest/#/35
 if ('storage' in navigator && 'estimate' in navigator.storage) {
   navigator.storage.estimate().then(({ usage, quota }) => {
-    console.log(`Using ${usage} out of ${quota} bytes.`)
+    console.log(
+      'Using ' +
+        formatBytes(usage) +
+        ' out of ' +
+        formatBytes(quota) +
+        ' bytes.',
+    )
   })
 }
 
