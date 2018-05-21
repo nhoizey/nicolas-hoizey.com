@@ -26,64 +26,6 @@ article {
     margin: $baseline 0;
   }
 
-  figure,
-  img,
-  iframe,
-  .embed-video-container {
-    margin: $baseline auto;
-    display: block;
-  }
-
-  figure {
-    text-align: center;
-
-    img,
-    iframe,
-    .embed-video-container {
-      display: block;
-      margin: 0 auto;
-      padding: 0;
-    }
-
-    &.onehalf {
-      max-width: 50%;
-    }
-
-    &.onethird {
-      max-width: 33%;
-    }
-
-    &.onefourth {
-      max-width: 25%;
-    }
-
-    &.left {
-      float: left;
-      margin: 0 $baseline $baseline 0;
-    }
-
-    &.right {
-      float: right;
-      margin: 0 0 $baseline $baseline;
-    }
-  }
-
-  figcaption {
-    // http://nocode.in/aligning-text-smartly-in-css/
-    display: inline-block;
-    text-align: left;
-
-    font-size: 0.9em;
-    font-style: italic;
-    margin: 0.1em 1em;
-    padding: 0.3em 0;
-    color: #999;
-
-    p {
-      margin: 0;
-    }
-  }
-
   blockquote {
     color: #666;
 
