@@ -122,7 +122,7 @@ youtube:
 cloudinary:
   cloud_name: nho
   only_prod: true
-  verbose: true
+  verbose: false
   presets:
     default:
       min_width: 360
