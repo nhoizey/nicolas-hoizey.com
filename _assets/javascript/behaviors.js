@@ -292,7 +292,7 @@ function searchCallback(err, content) {
   for (var i = 0; i < resultsNumber; i++) {
     hit = content.hits[i]
 
-    switch (hit.layout) {
+    switch (hit.type) {
       case 'post':
         // Build the date to show
         js_post_date = new Date(hit.date * 1000)
@@ -342,6 +342,48 @@ function searchCallback(err, content) {
 
         $results.innerHTML += page
         break
+      case 'document':
+        switch (hit.collection) {
+          case 'notes':
+            // Build the date to show
+            js_note_date = new Date(hit.date * 1000)
+            note_date =
+              js_note_date.getDate() +
+              ' ' +
+              months[js_note_date.getMonth()] +
+              ' ' +
+              js_note_date.getFullYear()
+
+            // Build the tags list
+            note_tags = ''
+            note_tags_match = 'none'
+            for (var j = 0; j < hit._highlightResult.tags.length; j++) {
+              note_tags = note_tags + ', ' + hit._highlightResult.tags[j].value
+              if (hit._highlightResult.tags[j].matchLevel !== 'none') {
+                note_tags_match = hit._highlightResult.tags[j].matchLevel
+              }
+            }
+            note_tags = note_tags.replace(/^, /, '')
+
+            note =
+              '<article class="note"><a href="' +
+              hit.url +
+              '"><h2>' +
+              hit._highlightResult.title.value +
+              '</h2>' +
+              (hit.text.trim() ? '<p>… ' + hit.text + ' …</p>' : '') +
+              '</a><footer><ul><li class="date"><svg class="icon"><use xlink:href="#symbol-date" /></svg> ' +
+              note_date +
+              '</li><li class="tags"><svg class="icon"><use xlink:href="#symbol-tags" /></svg> ' +
+              note_tags +
+              '</li></ul></footer>' +
+              '</article>'
+
+            $results.innerHTML += note
+            break
+          default:
+            console.log(hit)
+        }
       default:
         console.log(hit)
     }
