@@ -11,7 +11,10 @@ for image in images %}{%
       if attr contains 'src' %}{%
         assign src = attr | split:'"' %}{%
         assign src = src[1] | strip %}{%
-        assign src = src | split:'https://' | last %}https://{{ src }}{%
+        assign src = src | split:'://' | last %}{%
+        if src contains 'localhost' %}http://{%
+        else %}https://{%
+        endif %}{{ src }}{%
         break %}{%
       endif %}{%
     endfor %}{%
