@@ -12,7 +12,7 @@
 %}{% elsif include.page.title == 'Recherche'
 %}{% assign title = 'Moteur de recherche propulsé par Algolia'
 %}{% elsif include.page.layout == 'note'
-%}{% capture title %}{{ page.content | strip_html | truncatewords: 20 | truncate: 130 | strip_newlines | escape_once }}{% endcapture %}{% else
+%}{% capture title %}{{ include.page.content | strip_html | truncatewords: 20 | truncate: 130 | strip_newlines | escape_once }}{% endcapture %}{% else
 %}{% assign title = include.page.title
 %}{% endif
 %}{% assign title = title | url_escape | replace: ' ', '%20' | replace: '.', '%2e' | replace: ',', '%252C' | replace: ':', '%253A' | replace: '/', '%252F' | replace: "'", '%E2%80%99' | replace: '?', '%3F'
