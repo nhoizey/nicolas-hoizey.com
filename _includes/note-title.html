@@ -1,1 +1,1 @@
-{% if include.page.lang == "en" %}Note from {{ include.page.date | date: "%d/%m/%Y at %H:%M" }}{% else %}Note du {{ include.page.date | date: "%d/%m/%Y à %Hh%M" }}{% endif %}
+Note {% if include.page.lang == "en" %}from{% else %}du{% endif %}  {{ include.page.date | date: "%d/%m/%Y" }}
