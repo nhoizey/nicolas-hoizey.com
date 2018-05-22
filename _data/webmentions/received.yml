@@ -15,7 +15,7 @@
     id: '521945'
     uri: https://twitter.com/nhoizey/status/998591114784509958#favorited-by-17537168
     source: twitter
-    pubdate: 2018-05-21 17:03:54.000000000 +00:00
+    pubdate: 2018-05-21 19:03:54.000000000 +02:00
     raw:
       source: https://brid-gy.appspot.com/like/twitter/nhoizey/998591114784509958/17537168
       verified: true
@@ -301,7 +301,7 @@
     id: '521946'
     uri: https://twitter.com/nhoizey/status/998591114784509958#favorited-by-17537168
     source: twitter
-    pubdate: 2018-05-21 17:03:55.000000000 +00:00
+    pubdate: 2018-05-21 19:03:55.000000000 +02:00
     raw:
       source: https://brid-gy.appspot.com/like/twitter/nhoizey/998591114784509958/17537168
       verified: true
@@ -16172,7 +16172,7 @@
     id: '521932'
     uri: https://twitter.com/nhoizey/status/998586568142217219#favorited-by-49285959
     source: twitter
-    pubdate: 2018-05-21 16:03:16.000000000 +00:00
+    pubdate: 2018-05-21 18:03:16.000000000 +02:00
     raw:
       source: https://brid-gy.appspot.com/like/twitter/nhoizey/998586568142217219/49285959
       verified: true
@@ -17067,3 +17067,4 @@
     content: <p><a href="https://www.nicolas-hoffmann.net/">Nicolas Hoffmann</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/notes/2018/0515100611.html">https://nicolas-hoizey.com/notes/2018/0515100611.html</a></p>
 "/notes/2018/0517102213.html": {}
+"/notes/2018/0522111855.html": {}
