@@ -51,6 +51,7 @@ h6 {
   line-height: 1.3;
   color: $color-title;
   margin-bottom: 0.5em;
+  position: relative;
 }
 
 $fontBreakpoint: 40em;
@@ -115,10 +116,17 @@ h6 {
 // anchors
 
 @mixin deeplink {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #bbb;
   text-decoration: none;
   vertical-align: middle;
+
+  @media (min-width: 30em) {
+    display: block;
+    position: absolute;
+    top: 0.65rem;
+    left: -2rem;
+  }
 
   svg {
     width: 1em;
@@ -162,11 +170,19 @@ h5,
 h6,
 [id^='fn:'],
 [id^='fnref:'] {
-  &:target:before {
-    content: '';
-    display: block;
-    height: 1em;
-    margin: -1em 0 0;
+  &:target {
+    &:before {
+      content: '';
+      display: block;
+      height: 1rem;
+      margin: -1rem 0 0;
+    }
+
+    & a.deeplink {
+      @media (min-width: 30em) {
+        top: 1.65rem;
+      }
+    }
   }
 }
 
