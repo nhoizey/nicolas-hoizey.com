@@ -4,9 +4,15 @@
   {% capture poster_image %}{% include first-image-src.html page=include.page %}{% endcapture %}
 {% endif %}
 {% if poster_image != "" %}
-  <img
-    src="https://res.cloudinary.com/nho/image/fetch/w_250,h_250,c_limit,q_auto,f_auto/{{ poster_image }}"
-    srcset="https://res.cloudinary.com/nho/image/fetch/w_250,h_250,c_limit,q_auto,f_auto/{{ poster_image }} 250w, https://res.cloudinary.com/nho/image/fetch/w_500,h_500,c_limit,q_auto,f_auto/{{ poster_image }} 500w"
-    sizes="(min-width: 50rem) 13rem, 23vw"
-    class="poster" />
+  {% if site.environment == 'production' %}
+    <img
+      src="https://res.cloudinary.com/nho/image/fetch/w_250,h_250,c_limit,q_auto,f_auto/{{ poster_image }}"
+      srcset="https://res.cloudinary.com/nho/image/fetch/w_250,h_250,c_limit,q_auto,f_auto/{{ poster_image }} 250w, https://res.cloudinary.com/nho/image/fetch/w_500,h_500,c_limit,q_auto,f_auto/{{ poster_image }} 500w"
+      sizes="(min-width: 50rem) 13rem, 23vw"
+      class="poster" />
+  {% else %}
+    <img
+      src="{{ poster_image }}"
+      class="poster" />
+  {% endif %}
 {% endif %}
