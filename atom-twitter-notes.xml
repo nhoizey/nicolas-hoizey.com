@@ -17,7 +17,7 @@ layout: null
       {% endcomment %}
 
       {% assign tweet_icon = '📌 ' %}
-      {% assign tweet_title = note.content | strikethrough | truncatewords: 30 | truncate: 200 %}
+      {% assign tweet_title = note.content | twitterify | truncatewords: 30 | truncate: 200 %}
       {% assign tweet_url = note.url | prepend: site.url %}
 
       {% assign tweet_without_meta_size = site.tweet_template | replace: '@icon', tweet_icon | replace: '@title', tweet_title | replace: '@tags', '' | replace: '@url', '' | size %}

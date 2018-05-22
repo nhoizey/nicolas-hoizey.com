@@ -1,9 +1,9 @@
 require 'nokogiri'
 
 module Jekyll
-  module StrikethroughFilter
+  module TwitterifyFilter
 
-    def strikethrough(raw)
+    def twitterify(raw)
       document = Nokogiri::HTML.fragment(raw.encode('UTF-8', :invalid => :replace, :undef => :replace, :replace => ''))
 
       for block in ['del'] do
@@ -18,4 +18,4 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_filter(Jekyll::StrikethroughFilter)
+Liquid::Template.register_filter(Jekyll::TwitterifyFilter)
