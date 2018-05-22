@@ -297,16 +297,18 @@ function searchCallback(err, content) {
     return
   }
 
-  $results.innerHTML =
+  var result, results, hit, hit_type, hit_title, hit_excerpt, hit_date, hit_tags
+
+  results =
     '<p class="nb">' +
     resultsNumber +
     ' résultat' +
     (resultsNumber > 1 ? 's' : '') +
     ' :'
 
-  var hit, hit_type, hit_date, hit_tags
   for (var i = 0; i < resultsNumber; i++) {
     hit = content.hits[i]
+    result = ''
 
     hit_type = ''
     switch (hit.type) {
@@ -331,19 +333,21 @@ function searchCallback(err, content) {
       }
     }
 
-    hit_title = hit._highlightResult.title.value
-
-    hit_excerpt = hit._highlightResult.html
-      ? hit._highlightResult.html.value
-      : hit.excerpt_html
-
     if (hit_type === 'note') {
       if (hit.lang === 'en') {
         hit_title = 'Note from ' + hit_date
       } else {
         hit_title = 'Note du ' + hit_date
       }
+    } else {
+      hit_title = hit._highlightResult.title.value
     }
+
+    hit_excerpt = hit._highlightResult.html
+      ? hit._highlightResult.html.value
+      : hit._snippetResult.content
+        ? hit._snippetResult.content.value
+        : hit.excerpt_html
 
     hit_tags = ''
     if (hit._highlightResult.tags) {
@@ -384,9 +388,10 @@ function searchCallback(err, content) {
     }
     result += '</article>'
 
-    $results.innerHTML += result
+    results += result
   }
 
-  $results.innerHTML +=
+  $results.innerHTML =
+    results +
     '<p id="powered-by-algolia"><a href="/2015/06/la-recherche-dans-du-statique-facile-avec-algolia.html">Propulsé par l\'excellent <svg><use xlink:href="#symbol-algolia" /></svg></a></p>'
 }
