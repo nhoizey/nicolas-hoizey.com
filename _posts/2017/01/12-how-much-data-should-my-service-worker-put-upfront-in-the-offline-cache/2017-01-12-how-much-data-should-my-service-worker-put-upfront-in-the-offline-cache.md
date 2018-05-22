@@ -55,7 +55,7 @@ Because I use it quite a lot these days to check my own Progressive Web Apps, I 
 
 For my own website, I first thought I would only cache visited pages. But I now cache the homepage, the two about pages, and the last post, regardless of the page on which the user arrives, for a really light total weight of 87 KB additional resources. The offline fallback page lists the pages that are in the cache, so that the user can discover some unknown content even when she's offline. This is a WIP, so it might break, and it will change over the coming weeks, because I might adjust my strategy.
 
-\*[WIP]: Work In Progress
+*[WIP]: Work In Progress
 
 There is a user setting to "save data" in some browser, which activation adds a new HTTP header we can test in our Service Workers, as shown by [Dean Hume](https://twitter.com/deanohume) in his post [Service Workers: Save your User's Data using the Save-Data Header](http://deanhume.com/home/blogpost/service-workers--save-your-users-data-using-the-save-data-header/10139), but I think most people that are not as tech savvy as us will never notice this setting, so it's obviously a nice to have, but it's not enough.
 
