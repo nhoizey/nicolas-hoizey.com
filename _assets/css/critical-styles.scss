@@ -121,7 +121,7 @@ h6 {
   text-decoration: none;
   vertical-align: middle;
 
-  @media (min-width: 30em) {
+  @media (min-width: 55em) {
     display: block;
     position: absolute;
     top: 0.65rem;
@@ -179,7 +179,7 @@ h6,
     }
 
     & a.deeplink {
-      @media (min-width: 30em) {
+      @media (min-width: 55em) {
         top: 1.65rem;
       }
     }
