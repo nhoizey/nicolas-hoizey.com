@@ -3,7 +3,8 @@ layout: default
 ---
 
 <article class="main clearfix" {% if page.lang %}lang="{{ page.lang }}"{% endif %}>
-  <h1>{{ page.date | date: "%-d" }}{% include mois.html date=page.date %} {{ page.date | date: "%Y" }}</h1>
-  {% include note-content.html page=page %}
+  <h1>{% include note-title.html page=page %}</h1>
+  {{ page.content }}
+  {% include note-meta.html page=page %}
   {% include webmentions.html %}
 </article>

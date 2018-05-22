@@ -38,11 +38,7 @@
     <meta property="og:type" content="website" />
   {% else %}
     {% if page.layout == "note" %}
-      {% if page.lang == "en" %}
-        {% capture title %}Note from {{ page.date | date: "%d/%m/%Y at %H:%M" }}{% endcapture %}
-      {% else %}
-        {% capture title %}Note du {{ page.date | date: "%d/%m/%Y à %Hh%M" }}{% endcapture %}
-      {% endif %}
+      {% capture title %}{% include note-title.html page=page %}{% endcapture %}
       {% capture description %}{{ page.content | strip_html | truncatewords: 150 | truncate: 290 | strip_newlines | escape_once }}{% endcapture %}
       <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
       <meta property="og:type" content="article" />
