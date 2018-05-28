@@ -5,7 +5,7 @@ title: Social images
 
 <!-- nomicrotypo -->
 <section class="list recent">
-  {% for note in site.notes limit:10 %}
+  {% for note in site.notes %}
     <a href="{{ note.url }}"><img src="{% include_cached social-image-url.html page=note width=1200 height=630 %}" style="max-width: 100%;" /></a>
   {% endfor %}
 </section>
