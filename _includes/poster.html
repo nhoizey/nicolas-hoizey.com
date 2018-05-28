@@ -1,7 +1,7 @@
 {% if include.page.poster %}
   {% capture poster_image %}{{ site.url }}{{ include.page.url | url_path }}{{ include.page.poster }}{% endcapture %}
 {% else %}
-  {% capture poster_image %}{% include first-image-src.html page=include.page %}{% endcapture %}
+  {% capture poster_image %}{% include_cached first-image-src.html page=include.page %}{% endcapture %}
 {% endif %}
 {% if poster_image != "" %}
   {% if site.environment == 'production' %}
