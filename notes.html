@@ -8,6 +8,6 @@ permalink: /notes/index.html
 
 <main class="list">
   {% for note in site.notes reversed %}
-    {% include note-content.html page=note %}
+    {% include_cached note-content.html page=note %}
   {% endfor %}
 </main>
