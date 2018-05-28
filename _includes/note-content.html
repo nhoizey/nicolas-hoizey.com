@@ -1,5 +1,5 @@
 <article class="note"{% if include.page.lang %} lang="{{ include.page.lang }}"{% endif %}>
   <h2><a href="{{ include.page.url }}">{% include note-title.html page=include.page %}</a></h2>
   {{ include.page.content }}
-  {% include note-meta.html page=include.page %}
+  {% include_cached note-meta.html page=include.page %}
 </article>

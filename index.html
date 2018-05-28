@@ -34,6 +34,6 @@ JSON-LD for:
 
 <section class="list recent">
   {% for post in site.posts limit:10 %}
-    {% include post-abstract.html page=post level=2 %}
+    {% include_cached post-abstract.html page=post level=2 %}
   {% endfor %}
 </section>

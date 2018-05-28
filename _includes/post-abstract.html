@@ -6,5 +6,5 @@
     <h{{ include.level | default: "2" }}>{{ include.page.title }}</h{{ include.level | default: "2" }}>
     <p>{{ include.page.excerpt | strip_footnotes | strip_html }}</p>
   </a>
-  {% include post-meta.html page=include.page %}
+  {% include_cached post-meta.html page=include.page %}
 </article>

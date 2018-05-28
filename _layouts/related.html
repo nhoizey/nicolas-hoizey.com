@@ -8,7 +8,7 @@
         {{ post | inspect }}
         // -->
         {% comment %}
-        {% include post-meta.html page=post %}
+        {% include_cached post-meta.html page=post %}
         {% endcomment %}
       </article>
     {% endfor %}
