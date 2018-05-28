@@ -6,12 +6,12 @@ title: Social images
 <!-- nomicrotypo -->
 <section class="list recent">
   {% for note in site.notes limit:10 %}
-    <a href="{{ note.url }}"><img src="{% include social-image-url.html page=note width=1200 height=630 %}" style="max-width: 100%;" /></a>
+    <a href="{{ note.url }}"><img src="{% include_cached social-image-url.html page=note width=1200 height=630 %}" style="max-width: 100%;" /></a>
   {% endfor %}
 </section>
 <section class="list recent">
   {% for post in site.posts limit:10 %}
-    <a href="{{ post.url }}"><img src="{% include social-image-url.html page=post width=1200 height=630 %}" style="max-width: 100%;" /></a>
+    <a href="{{ post.url }}"><img src="{% include_cached social-image-url.html page=post width=1200 height=630 %}" style="max-width: 100%;" /></a>
   {% endfor %}
 </section>
 <!-- endnomicrotypo -->
