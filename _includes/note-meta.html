@@ -3,7 +3,7 @@
   <ul>
     <li class="date">
       <svg class="icon"><use xlink:href="#symbol-date" /></svg>
-      <a href="{{ include.page.url }}">{{ include.page.date | date: "%-d" }}{% include mois.html date=include.page.date %} {{ include.page.date | date: "%Y" }}</a>
+      <a href="{{ include.page.url }}">{{ include.page.date | date: "%-d" }}{% include_cached mois.html date=include.page.date %} {{ include.page.date | date: "%Y" }}</a>
     </li>
     <li class="tags">
       <svg class="icon"><use xlink:href="#symbol-tags" /></svg>

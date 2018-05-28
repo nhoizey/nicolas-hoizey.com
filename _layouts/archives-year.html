@@ -27,7 +27,7 @@ layout: default
   {% for post in page.posts reversed %}
     {% assign post_month = post.date | date: "%m" %}
     {% if post_month != month %}
-      {% capture month_name %}{% include mois.html date=post.date %}{% endcapture %}
+      {% capture month_name %}{% include_cached mois.html date=post.date %}{% endcapture %}
       <h2><a href="/{{ page.date | date: "%Y" }}/{{ post.date | date: "%m" }}" class="archive-month">{{ month_name | capitalize }}</a></h2>
       {% assign month = post_month %}
     {% endif %}
