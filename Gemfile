@@ -10,7 +10,7 @@ group :jekyll_plugins do
   gem 'jekyll-algolia'
   gem 'jekyll-archives'
   gem 'jekyll-assets'
-  #gem 'jekyll-cloudinary', :path => '/Users/nhoizey/Dropbox/Personnel/Devs/jekyll-cloudinary/'
+  # gem 'jekyll-cloudinary', :path => '/Users/nhoizey/Dropbox/Personnel/Devs/jekyll-cloudinary/'
   gem 'jekyll-cloudinary'
   gem 'jekyll-include-cache'
   gem 'jekyll-microtypo'
