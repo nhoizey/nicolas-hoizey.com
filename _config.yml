@@ -19,8 +19,8 @@ kramdown:
 
 # Twitter Atom feed settings
 tweet_max_size: 280
-tweet_template: '@icon@title\n\n@tags\n\n@url'
 tweet_url_length: 23
+tweet_template: '@title\n\n@tags\n\n@url'
 
 # Indexing for related post using the classifier-reborn plugin
 lsi: false
