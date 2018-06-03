@@ -7,7 +7,7 @@ layout: null
     <title>Articles - Nicolas Hoizey</title>
     <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url }}</link>
-    <atom:link href="{{ "/atom-twitter-posts.xml" | prepend: site.url }}" rel="self" type="application/rss+xml" />
+    <atom:link href="{{ "/feeds/posts-twitter.xml" | prepend: site.url }}" rel="self" type="application/rss+xml" />
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
@@ -16,11 +16,10 @@ layout: null
       https://developer.twitter.com/en/docs/basics/counting-characters.html
       {% endcomment %}
 
-      {% assign tweet_icon = '📝 ' %}
       {% assign tweet_title = post.title %}
       {% assign tweet_url = post.url | prepend: site.url %}
 
-      {% assign tweet_without_meta_size = site.tweet_template | replace: '@icon', tweet_icon | replace: '@title', tweet_title | replace: '@tags', '' | replace: '@url', '' | size %}
+      {% assign tweet_without_meta_size = site.tweet_template | replace: '@title', tweet_title | replace: '@tags', '' | replace: '@url', '' | size %}
 
       {% comment %}
       https://help.twitter.com/en/using-twitter/how-to-tweet-a-link
@@ -37,7 +36,7 @@ layout: null
         {% endif %}
       {% endfor %}
 
-      {% assign tweet = site.tweet_template | replace: '@icon', tweet_icon | replace: '@title', tweet_title | replace: '@tags', tweet_tags | replace: '@url', tweet_url %}
+      {% assign tweet = site.tweet_template | replace: '@title', tweet_title | replace: '@tags', tweet_tags | replace: '@url', tweet_url %}
 
       <item>
         <title>{{ tweet | xml_escape }}</title>
