@@ -17,10 +17,11 @@ kramdown:
   footnote_backlink: "⬆︎"
   header_offset: 1
 
-# Twitter Atom feed settings
-tweet_max_size: 280
-tweet_url_length: 23
 tweet_template: '@title\n\n@tags\n\n@url'
+tweet_max_size: 280
+twitter_url_length: 23
+tweet_templates:
+  note: '@content\n\n@tags\n\n@url'
 
 # Indexing for related post using the classifier-reborn plugin
 lsi: false
