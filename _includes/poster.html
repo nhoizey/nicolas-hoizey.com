@@ -4,7 +4,7 @@
   {% capture poster_image %}{% include_cached first-image-src.html page=include.page %}{% endcapture %}
 {% endif %}
 {% if poster_image != "" %}
-  {% if site.environment == 'production' %}
+  {% if jekyll.environment == 'production' %}
     <img
       src="https://res.cloudinary.com/nho/image/fetch/w_250,h_250,c_limit,q_auto,f_auto/{{ poster_image }}"
       srcset="https://res.cloudinary.com/nho/image/fetch/w_250,h_250,c_limit,q_auto,f_auto/{{ poster_image }} 250w, https://res.cloudinary.com/nho/image/fetch/w_500,h_500,c_limit,q_auto,f_auto/{{ poster_image }} 500w"
