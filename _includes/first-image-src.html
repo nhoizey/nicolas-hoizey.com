@@ -4,6 +4,22 @@ assign images = include.page.content | split:'<img ' %}{%
 for image in images %}{%
   if foundImage == 1 %}{%
     break %}{%
+  elsif image contains 'srcset' %}{%
+    assign html = image | split:'>' | first %}{%
+    assign attributes = html | split:' ' %}{%
+    for attr in attributes %}{%
+      if attr contains 'srcset' %}{%
+        assign srcset = attr | split:'"' %}{%
+        assign srcset = srcset[1] | strip %}{%
+        assign srcset = srcset | split:'://' | last %}{%
+        assign srcset = srcset | split:' ' | first %}{%
+        if srcset contains 'localhost' %}http://{%
+        else %}https://{%
+        endif %}{{ srcset }}{%
+        break %}{%
+      endif %}{%
+    endfor %}{%
+    assign foundImage = 1 %}{%
   elsif image contains 'src' %}{%
     assign html = image | split:'>' | first %}{%
     assign attributes = html | split:' ' %}{%
