@@ -2,6 +2,7 @@
 title:      Ma conférence à Paris Web 2013
 lang:       fr
 tags:       [Paris Web, conférence, RWD, em]
+poster:     nicolas_hoizey_-_paris_web_2013_-_photo_par_fabrice_le_guernec_pour_paris_web.jpg
 ---
 
 Après y avoir assisté plusieurs années en tant qu'auditeur, j'ai eu la joie — le privilège — d'être sélectionné parmi les orateurs de l'édition 2013. Sélectionné qui plus est avec un sujet plutôt pointu, sur une bonne pratique que tout le monde devrait appliquer depuis plus de 10 ans, mais qui est très largement sous estimée.

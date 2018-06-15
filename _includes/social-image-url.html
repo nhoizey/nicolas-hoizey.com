@@ -3,7 +3,12 @@
 %}{% assign avatar = "https://nicolas-hoizey.com/assets/photo-de-nicolas-hoizey.jpg"
 %}{% assign twitter_logo = "https://nicolas-hoizey.com/assets/logos/twitter.png"
 %}{% comment %} Get the first image in the page {% endcomment
+%}{% if include.page.poster
+%}{% capture image %}{{ site.url }}{{ include.page.url | url_path }}{{ include.page.poster }}{% endcapture
+%}{% else
+%}{% comment %} Get the first image in the page {% endcomment
 %}{% capture image %}{% include first-image-src.html page=include.page %}{% endcapture
+%}{% endif
 %}{% if image == ""
 %}{% assign image = site.url | append:'/assets/degrade.png'
 %}{% endif
