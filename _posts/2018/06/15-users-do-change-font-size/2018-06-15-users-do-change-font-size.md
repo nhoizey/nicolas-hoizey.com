@@ -8,7 +8,7 @@ tags:  [a11y, font, em]
 
 > we found that the answer is 3.08% of our users. That’s a pretty big number, higher than most counts of the market share of browsers like Internet Explorer, Edge, or Opera Mini.
 
-{% cloudinary firefox-preferences-root-font-size.jpg %}
+{% cloudinary firefox-preferences-root-font-size.jpg alt="It's easy to change the root font size in browsers, here in Firefox" %}
 
 I've said it before, several times:
 
