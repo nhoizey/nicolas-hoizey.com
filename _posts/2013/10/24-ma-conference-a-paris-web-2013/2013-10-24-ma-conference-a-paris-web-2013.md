@@ -54,15 +54,17 @@ La vidéo de ma prestation a été publiée par Paris Web sur son compte Vimeo :
 
 {% vimeo 79204119 %}
 
-Voici [la version de mes slides hébergée sur SlideShare](https://fr.slideshare.net/nhoizey/paris-web-2013-un-petit-pas-pour-lem-un-grand-pas-pour-le-web), donc sans les animations qui ne sont visibles qu'en vidéo :
+Voici [la version de mes slides hébergée sur SlideShare](https://fr.slideshare.net/nhoizey/paris-web-2013-un-petit-pas-pour-lem-un-grand-pas-pour-le-web), donc sans les animations qui ne sont visibles qu'en vidéo :
 
 <div class="ratio-4-3 embed-video-container">
 <iframe src="//fr.slideshare.net/slideshow/embed_code/key/v16thp4qiLTOXH" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 </div>
 
-Vous pouvez préférer [la version de mes slides hébergée sur Speaker Deck](https://speakerdeck.com/nhoizey/un-petit-pas-pour-lem-un-grand-pas-pour-le-web-paris-web-2013) :
+Vous pouvez préférer [la version de mes slides hébergée sur Speaker Deck](https://speakerdeck.com/nhoizey/un-petit-pas-pour-lem-un-grand-pas-pour-le-web-paris-web-2013) :
 
 <script async class="speakerdeck-embed" data-id="e7c0142013ec01312783065ca157100a" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+Voici également [la version de mes slides hébergée sur Notist](https://noti.st/nhoizey/HDbr1q/un-petit-pas-pour-l-em-un-grand-pas-pour-le-web).
 
 Vous pouvez aussi bien sûr retrouver toutes les vidéos, notes et compte-rendus de Paris Web 2013 et ma conférence sur [la page que Lanyrd lui consacre](http://lanyrd.com/2013/parisweb/sckdfg/).
 
