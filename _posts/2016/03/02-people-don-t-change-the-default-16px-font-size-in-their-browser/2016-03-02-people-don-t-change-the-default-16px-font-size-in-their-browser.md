@@ -77,10 +77,4 @@ And please, please, don't tell me using `em`s or `rem`s is hard. It's not. At al
 
 # June 15th, 2018 update
 
-People at the [Internet Archive](https://archive.org) have tested the actual root font-size set by their visitors, and the result shows [a lot of people still change the default one](https://medium.com/@vamptvo/pixels-vs-ems-users-do-change-font-size-5cfb20831773):
-
-> we found that the answer is 3.08% of our users. That’s a pretty big number, higher than most counts of the market share of browsers like Internet Explorer, Edge, or Opera Mini.
-
-I really like the conclusion of this article:
-
-> If 2 to 3% (or more!) of your users are relying on a custom font size, you should know that so you can either support that user preference or make a conscious decision to not support it. Doing anything less is frankly irresponsible, especially considering that users with larger font sizes may be using those sizes to compensate for visual disabilities.
+[Users DO change font size]({% post_url /2018/06/15-users-do-change-font-size/2018-06-15-users-do-change-font-size %}).

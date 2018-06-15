@@ -1,0 +1,24 @@
+---
+title: "Users DO change font size"
+lang:  en
+tags:  [a11y, font, em]
+---
+
+[Evan Minto](https://twitter.com/VamptVo) wrote a great article showing the [Internet Archive](https://twitter.com/internetarchive) has tested the actual root font-size set by their visitors, and the result shows a lot of people still change the default one: [Pixels vs. Ems: Users DO Change Font Size](https://medium.com/@vamptvo/pixels-vs-ems-users-do-change-font-size-5cfb20831773).
+
+> we found that the answer is 3.08% of our users. That’s a pretty big number, higher than most counts of the market share of browsers like Internet Explorer, Edge, or Opera Mini.
+
+{% cloudinary firefox-preferences-root-font-size.jpg %}
+
+I've said it before, several times:
+
+- in my talk at Paris Web 2013 (in french): [Un petit pas pour l’em, un grand pas pour le Web]({% post_url /2013/10/10-un-petit-pas-pour-l-em-un-grand-pas-pour-le-web/2013-10-10-un-petit-pas-pour-l-em-un-grand-pas-pour-le-web %})
+- in a post in 2016: [People don't change the default 16px font size in their browser]({% post_url /2016/03/02-people-don-t-change-the-default-16px-font-size-in-their-browser/2016-03-02-people-don-t-change-the-default-16px-font-size-in-their-browser)
+
+But people still often tell me I'm wrong, it's an edge case not worth taking into account, and using `px` units everywhere is fine.
+
+It's nice to see a renowned organization like Internet Archive work on this topic and come to the same conclusions.
+
+Speaking of conclusions, I very much like the one of Evan Minto's article:
+
+> If 2 to 3% (or more!) of your users are relying on a custom font size, you should know that so you can either support that user preference or make a conscious decision to not support it. Doing anything less is frankly irresponsible, especially considering that users with larger font sizes may be using those sizes to compensate for visual disabilities.
