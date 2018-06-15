@@ -1,7 +1,7 @@
---- 
-title:      "L'accessibilité, c'est aussi pour les handicapés" 
-lang:       fr 
-tags:       [standards, accessibilité]
+---
+title:      "L'accessibilité, c'est aussi pour les handicapés"
+lang:       fr
+tags:       [standards, a11y]
 ---
 
 Quand on parle d'accessibilité, on a tendance à parler essentiellement des handicapés. Heureusement, Eric Daspect nous avait remis sur la bonne voie avec son article « [oublions les handicapés](http://www.cybercodeur.net/weblog/articles/art_20040313.php) » sur [CYBERcodeur.net](http://www.cybercodeur.net/). Mais après tout, c'est quand même aussi pour eux qu'on parle d'accessibilité, ils ont des besoins particuliers, donc ne les oublions pas trop ...

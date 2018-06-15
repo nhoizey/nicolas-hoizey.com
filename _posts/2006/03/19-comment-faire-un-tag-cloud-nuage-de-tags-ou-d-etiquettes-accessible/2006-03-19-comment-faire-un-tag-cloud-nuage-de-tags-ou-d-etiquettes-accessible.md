@@ -1,7 +1,7 @@
---- 
-title:      "Comment faire un tag cloud (nuage de tags, ou d'étiquettes) accessible ?" 
-lang:       fr 
-tags:       [Gastero Prod, accessibilité, blog, tag]
+---
+title:      "Comment faire un tag cloud (nuage de tags, ou d'étiquettes) accessible ?"
+lang:       fr
+tags:       [Gastero Prod, a11y, blog, tag]
 ---
 
 Vous avez déjà sans doute vu sur un site un «nuage d'étiquettes» -- *[tag cloud](http://en.wikipedia.org/wiki/Tag_cloud)* en anglais -- représentant la liste des sujets abordés, en mettant en avant les sujets les plus courants par un effet de grossissement.
@@ -63,7 +63,7 @@ C'est sûr, c'est moins joli que les solutions qui utilisent beaucoup plus de va
 
 Maintenant que le contenu est relativement accessible, rien n'empêche de rajouter de l'information en plus pour les heureux utilisateurs de navigateurs graphiques, en ajoutant par exemple des informations de taille aux éléments.
 
-Cette information a bien un sens pour ceux qui peuvent l'exploiter, donc je ne pense pas que l'on puisse m'accuser de poluer le contenu avec de la présentation. Parfois, la présentation donne un sens. 
+Cette information a bien un sens pour ceux qui peuvent l'exploiter, donc je ne pense pas que l'on puisse m'accuser de poluer le contenu avec de la présentation. Parfois, la présentation donne un sens.
 
 ## Restent tout de même quelques questions
 

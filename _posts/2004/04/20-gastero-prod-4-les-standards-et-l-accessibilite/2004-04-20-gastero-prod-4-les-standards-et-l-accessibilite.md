@@ -1,7 +1,7 @@
---- 
-title:      "Gastero Prod 4, les standards et l'accessibilité" 
-lang:       fr 
-tags:       [SPIP, Gastero Prod, standards, accessibilité, CSS]
+---
+title:      "Gastero Prod 4, les standards et l'accessibilité"
+lang:       fr
+tags:       [SPIP, Gastero Prod, standards, a11y, CSS]
 ---
 
 
@@ -17,7 +17,7 @@ Il faut aussi surtout [ne pas croire que l'accessibilité ne soit dédiée qu'au
 
 ## Quelques principes appliqués sur Gastero Prod
 
-Le nouveau code du site est constitué de contenus structurés en [XHTML 1.0](http://www.w3.org/TR/2000/REC-xhtml1-20000126/) Transitional [valide](http://validator.w3.org/check/referer) et mis en forme à l'aide de feuilles de styles [CSS 2.0](http://www.w3.org/TR/CSS2). 
+Le nouveau code du site est constitué de contenus structurés en [XHTML 1.0](http://www.w3.org/TR/2000/REC-xhtml1-20000126/) Transitional [valide](http://validator.w3.org/check/referer) et mis en forme à l'aide de feuilles de styles [CSS 2.0](http://www.w3.org/TR/CSS2).
 
 Cela permet notamment d'être sûr que ceux qui ne peuvent pas  (ou ne veulent pas) exploiter les feuilles de style, peuvent tout de même consulter le site sans problème :
 

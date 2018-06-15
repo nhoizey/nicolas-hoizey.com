@@ -1,13 +1,13 @@
---- 
-title:      "L'accessibilité, effet de mode ou réelle compréhension ?" 
-lang:       fr 
-tags:       [standards, accessibilité]
+---
+title:      "L'accessibilité, effet de mode ou réelle compréhension ?"
+lang:       fr
+tags:       [standards, a11y]
 ---
 
 
 
 
-L'[interview de Lhorens Marie](http://solutions.journaldunet.com/itws/040603_it_marie.shtml), Directeur Web et Technologies de [Cosmosbay-Vectis](http://www.cosmosbay-vectis.com/) par le [Journal du Net](http://solutions.journaldunet.com/) est intéressante, puisqu'elle montre que l'accessibilité est enfin un sujet dont il est possible de parler dans les parutions « grand public ». 
+L'[interview de Lhorens Marie](http://solutions.journaldunet.com/itws/040603_it_marie.shtml), Directeur Web et Technologies de [Cosmosbay-Vectis](http://www.cosmosbay-vectis.com/) par le [Journal du Net](http://solutions.journaldunet.com/) est intéressante, puisqu'elle montre que l'accessibilité est enfin un sujet dont il est possible de parler dans les parutions « grand public ».
 
 Elle permet de donner aux lecteurs des indications sur l'état du marché, tout comme la chronique que nous avons publiée très récemment sur ce même sujet : [Usabilité, Accessibilité et ... réalité](http://www.clever-age.com/article.php3?id_article=193).
 
