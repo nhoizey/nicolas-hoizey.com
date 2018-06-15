@@ -12,8 +12,8 @@ tags:  [a11y, font, em]
 
 I've said it before, several times:
 
-- in my talk at Paris Web 2013 (in french): [Un petit pas pour l’em, un grand pas pour le Web]({% post_url /2013/10/10-un-petit-pas-pour-l-em-un-grand-pas-pour-le-web/2013-10-10-un-petit-pas-pour-l-em-un-grand-pas-pour-le-web %})
-- in a post in 2016: [People don't change the default 16px font size in their browser]({% post_url /2016/03/02-people-don-t-change-the-default-16px-font-size-in-their-browser/2016-03-02-people-don-t-change-the-default-16px-font-size-in-their-browser %})
+- in my talk at Paris Web 2013 (in french): [Un petit pas pour l’em, un grand pas pour le Web](/2013/10/ma-conference-a-paris-web-2013.html)
+- in a post in 2016: [People don't change the default 16px font size in their browser](/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html)
 
 But people still often tell me I'm wrong, it's an edge case not worth taking into account, and using `px` units everywhere is fine.
 
