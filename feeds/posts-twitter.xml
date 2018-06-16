@@ -39,7 +39,9 @@ layout: null
       {% assign tweet = site.tweet_template | replace: '@title', tweet_title | replace: '@tags', tweet_tags | replace: '@url', tweet_url %}
 
       <item>
-        <title>{{ tweet | xml_escape }}</title>
+        <title>{{ tweet_title | xml_escape }}</title>
+        <content type="text">{{ tweet | replace:'\n', '
+' | xml_escape }}</content>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ tweet_url }}</link>
         <guid isPermaLink="true">{{ tweet_url }}</guid>
