@@ -551,9 +551,19 @@ main {
   .post,
   .note {
     clear: right;
-    margin: 5rem 0;
-    padding: 0;
+    margin: 5rem -0.5rem;
+    padding: 0.5rem;
 
+    border-color: #fff;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 0.5rem;
+
+    transition: border-color 0.5s;
+
+    &:hover {
+      border-color: #ddd;
+    }
     h2,
     h3 {
       margin-top: 0;
