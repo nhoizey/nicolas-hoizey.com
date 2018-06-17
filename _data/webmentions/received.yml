@@ -4203,7 +4203,7 @@
     id: '526916'
     uri: https://www.qqwenda.com/wenda/19382.html
     source: false
-    pubdate: 2018-06-12 11:29:06.000000000 +00:00
+    pubdate: 2018-06-12 13:29:06.000000000 +02:00
     raw:
       source: https://www.qqwenda.com/wenda/19382.html
       verified: true
@@ -6266,7 +6266,7 @@
     id: '527044'
     uri: https://medium.com/@vamptvo/pixels-vs-ems-users-do-change-font-size-5cfb20831773?source=rss-------1
     source: false
-    pubdate: 2018-06-12 22:20:12.000000000 +00:00
+    pubdate: 2018-06-13 00:20:12.000000000 +02:00
     raw:
       source: https://medium.com/@vamptvo/pixels-vs-ems-users-do-change-font-size-5cfb20831773?source=rss-------1
       verified: true
@@ -17360,3 +17360,98 @@
       a tweet <a href="https://nicolas-hoizey.com/notes/2018/0515100611.html">https://nicolas-hoizey.com/notes/2018/0515100611.html</a></p>
 "/notes/2018/0517102213.html": {}
 "/notes/2018/0522111855.html": {}
+"/2018/06/users-do-change-font-size.html":
+  '527800':
+    id: '527800'
+    uri: https://twitter.com/nhoizey/status/1007752423048384514#favorited-by-14451873
+    source: twitter
+    pubdate: 2018-06-16 07:21:55.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nhoizey/1007752423048384514/14451873
+      verified: true
+      verified_date: '2018-06-16T07:21:55+00:00'
+      id: 527800
+      private: false
+      data:
+        author: &451
+          name: Marie Guillaumet
+          url: https://twitter.com/kReEsTaL
+          photo: https://webmention.io/avatar/pbs.twimg.com/36c71c830880471ca6ca90fec8819278481557d4b394aa043e691e6164832c6d.jpg
+        url: https://twitter.com/nhoizey/status/1007752423048384514#favorited-by-14451873
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Marie Guillaumet favorited a tweet https://nicolas-hoizey.com/2018/06/users-do-change-font-size.html
+        sentence_html: <a href="https://twitter.com/kReEsTaL">Marie Guillaumet</a>
+          favorited a tweet <a href="https://nicolas-hoizey.com/2018/06/users-do-change-font-size.html">https://nicolas-hoizey.com/2018/06/users-do-change-font-size.html</a>
+      target: https://nicolas-hoizey.com/2018/06/users-do-change-font-size.html
+    author: *451
+    type: like
+    content: <p><a href="https://twitter.com/kReEsTaL">Marie Guillaumet</a> favorited
+      a tweet <a href="https://nicolas-hoizey.com/2018/06/users-do-change-font-size.html">https://nicolas-hoizey.com/2018/06/users-do-change-font-size.html</a></p>
+  '527811':
+    id: '527811'
+    uri: https://twitter.com/nhoizey/status/1007752423048384514#favorited-by-63290634
+    source: twitter
+    pubdate: 2018-06-16 08:53:38.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nhoizey/1007752423048384514/63290634
+      verified: true
+      verified_date: '2018-06-16T08:53:38+00:00'
+      id: 527811
+      private: false
+      data:
+        author: &452
+          name: Nicolas Ramz
+          url: https://twitter.com/warpdesign_
+          photo: https://webmention.io/avatar/pbs.twimg.com/d83f386385b65740d9c57e62d55c218bb86312afb3ef2335b7318a92952f9540.jpg
+        url: https://twitter.com/nhoizey/status/1007752423048384514#favorited-by-63290634
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Nicolas Ramz favorited a tweet https://nicolas-hoizey.com/2018/06/users-do-change-font-size.html
+        sentence_html: <a href="https://twitter.com/warpdesign_">Nicolas Ramz</a>
+          favorited a tweet <a href="https://nicolas-hoizey.com/2018/06/users-do-change-font-size.html">https://nicolas-hoizey.com/2018/06/users-do-change-font-size.html</a>
+      target: https://nicolas-hoizey.com/2018/06/users-do-change-font-size.html
+    author: *452
+    type: like
+    content: <p><a href="https://twitter.com/warpdesign_">Nicolas Ramz</a> favorited
+      a tweet <a href="https://nicolas-hoizey.com/2018/06/users-do-change-font-size.html">https://nicolas-hoizey.com/2018/06/users-do-change-font-size.html</a></p>
+  '527833':
+    id: '527833'
+    uri: https://twitter.com/nhoizey/status/1007752423048384514#favorited-by-34234023
+    source: twitter
+    pubdate: 2018-06-16 13:37:14.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nhoizey/1007752423048384514/34234023
+      verified: true
+      verified_date: '2018-06-16T13:37:14+00:00'
+      id: 527833
+      private: false
+      data:
+        author: &453
+          name: Bob Volte, agent du chaos, chaotic good agitateur
+          url: https://twitter.com/Uxlco0
+          photo: https://webmention.io/avatar/pbs.twimg.com/1ca6e3d954b892bb900f2c02203dc210321ac40376429050f356129a18471620.jpg
+        url: https://twitter.com/nhoizey/status/1007752423048384514#favorited-by-34234023
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Bob Volte, agent du chaos, chaotic good agitateur favorited a tweet
+          https://nicolas-hoizey.com/2018/06/users-do-change-font-size.html
+        sentence_html: <a href="https://twitter.com/Uxlco0">Bob Volte, agent du chaos,
+          chaotic good agitateur</a> favorited a tweet <a href="https://nicolas-hoizey.com/2018/06/users-do-change-font-size.html">https://nicolas-hoizey.com/2018/06/users-do-change-font-size.html</a>
+      target: https://nicolas-hoizey.com/2018/06/users-do-change-font-size.html
+    author: *453
+    type: like
+    content: <p><a href="https://twitter.com/Uxlco0">Bob Volte, agent du chaos, chaotic
+      good agitateur</a> favorited a tweet <a href="https://nicolas-hoizey.com/2018/06/users-do-change-font-size.html">https://nicolas-hoizey.com/2018/06/users-do-change-font-size.html</a></p>
