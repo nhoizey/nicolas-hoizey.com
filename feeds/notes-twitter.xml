@@ -13,30 +13,27 @@ layout: null
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% for note in site.notes reversed limit:20 %}
       {% comment %} https://developer.twitter.com/en/docs/basics/counting-characters.html {% endcomment %}
-      {%- assign tweet_content = note.raw_content | markdown_to_tweet | better_truncatewords: 35 | truncate: 200, "…" -%}
-      {%- assign tweet_url = note.url | prepend: site.url -%}
-      {%- assign tweet_without_meta_size = site.tweet_templates.note | replace: '@content', tweet_content | replace: '@tags', '' | replace: '@url', '' | size -%}
+      {%- assign posse_content = note.raw_content | markdown_to_tweet | better_truncatewords: 35 | truncate: 200, "…" -%}
+      {%- assign posse_url = note.url | prepend: site.url -%}
+      {%- assign tweet_without_meta_size = site.posseify.twitter.templates.note | replace: '@posse_content', posse_content | replace: '@posse_tags', '' | replace: '@posse_url', '' | size -%}
       {% comment %} https://help.twitter.com/en/using-twitter/how-to-tweet-a-link {% endcomment %}
-      {%- assign space_left = site.tweet_max_size | minus: tweet_without_meta_size | minus: site.twitter_url_length -%}
-      {%- assign tweet_tags = '' -%}
+      {%- assign space_left = site.posseify.twitter.max_length | minus: tweet_without_meta_size | minus: site.posseify.twitter.url_length -%}
+      {%- assign posse_tags = '' -%}
       {%- for tag in note.tags -%}
         {%- capture new_tag -%}#{{ tag | slugify: 'latin' | camelcase | append: ' ' }}{%- endcapture -%}
         {%- assign new_space_left = space_left | minus: new_tag.size -%}
         {%- if new_space_left > 0 -%}
-          {%- assign tweet_tags = tweet_tags | append: new_tag -%}
+          {%- assign posse_tags = posse_tags | append: new_tag -%}
           {%- assign space_left = space_left | minus: new_tag.size -%}
         {%- endif -%}
       {%- endfor -%}
-      {%- assign tweet = site.tweet_templates.note | replace: '@content', tweet_content | replace: '@tags', tweet_tags | replace: '@url', tweet_url -%}
+      {%- assign tweet = site.posseify.twitter.templates.note | replace: '@posse_content', posse_content | replace: '@posse_tags', posse_tags | replace: '@posse_url', posse_url -%}
       <item>
-        <title>{{ tweet_content | truncate: 80, "…" }}</title>
-        <content type="text">{{ tweet }}</content>
+        <title>{{ posse_content | truncate: 80, "…" }}</title>
+        <content type="text">{{ tweet | xml_escape }}</content>
         <pubDate>{{ note.date | date_to_rfc822 }}</pubDate>
-        <link>{{ tweet_url }}</link>
-        <guid isPermaLink="true">{{ tweet_url }}</guid>
-        {%- for tag in note.tags -%}
-          <category>{{ tag | xml_escape }}</category>
-        {%- endfor -%}
+        <link>{{ posse_url }}</link>
+        <guid isPermaLink="true">{{ posse_url }}</guid>
       </item>
     {% endfor %}
   </channel>
