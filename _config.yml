@@ -17,20 +17,19 @@ kramdown:
   footnote_backlink: "⬆︎"
   header_offset: 1
 
-tweet_template: "@title\n\n@tags\n\n@url"
-tweet_max_size: 280
-twitter_url_length: 23
-
 # POSSEify plugin settings
 posseify:
   twitter:
     max_length: 280
     url_length: 23
-    min_hashtags: 3
-    max_hashtags: 5
-    templates:
-      note: "@posse_content\n\n@posse_tags\n\n@posse_url"
-      post: "@posse_title\n@posse_content\n@posse_tags\n@posse_url"
+    note:
+      min_hashtags: 1
+      max_hashtags: 5
+      template: "@posse_content\n\n@posse_tags\n\n@posse_url"
+    post:
+      min_hashtags: 3
+      max_hashtags: 5
+      template: "@posse_title\n\n@posse_tags\n\n@posse_url"
 
 # Indexing for related post using the classifier-reborn plugin
 lsi: false

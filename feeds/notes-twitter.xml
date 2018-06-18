@@ -15,19 +15,22 @@ layout: null
       {% comment %} https://developer.twitter.com/en/docs/basics/counting-characters.html {% endcomment %}
       {%- assign posse_content = note.raw_content | markdown_to_tweet | better_truncatewords: 35 | truncate: 200, "…" -%}
       {%- assign posse_url = note.url | prepend: site.url -%}
-      {%- assign tweet_without_meta_size = site.posseify.twitter.templates.note | replace: '@posse_content', posse_content | replace: '@posse_tags', '' | replace: '@posse_url', '' | size -%}
+      {%- assign tweet_without_meta_size = site.posseify.twitter.note.template | replace: '@posse_content', posse_content | replace: '@posse_tags', '' | replace: '@posse_url', '' | size -%}
       {% comment %} https://help.twitter.com/en/using-twitter/how-to-tweet-a-link {% endcomment %}
       {%- assign space_left = site.posseify.twitter.max_length | minus: tweet_without_meta_size | minus: site.posseify.twitter.url_length -%}
       {%- assign posse_tags = '' -%}
+      {%- assign posse_tags_nb = 0 -%}
       {%- for tag in note.tags -%}
-        {%- capture new_tag -%}#{{ tag | slugify: 'latin' | camelcase | append: ' ' }}{%- endcapture -%}
-        {%- assign new_space_left = space_left | minus: new_tag.size -%}
-        {%- if new_space_left > 0 -%}
-          {%- assign posse_tags = posse_tags | append: new_tag -%}
-          {%- assign space_left = space_left | minus: new_tag.size -%}
+        {%- if posse_tags_nb < site.posseify.twitter.note.max_hashtags %}
+          {%- capture new_tag -%}#{{ tag | slugify: 'latin' | camelcase | append: ' ' }}{%- endcapture -%}
+          {%- assign new_space_left = space_left | minus: new_tag.size -%}
+          {%- if new_space_left > 0 -%}
+            {%- assign posse_tags = posse_tags | append: new_tag -%}
+            {%- assign space_left = space_left | minus: new_tag.size -%}
+          {%- endif -%}
         {%- endif -%}
       {%- endfor -%}
-      {%- assign tweet = site.posseify.twitter.templates.note | replace: '@posse_content', posse_content | replace: '@posse_tags', posse_tags | replace: '@posse_url', posse_url -%}
+      {%- assign tweet = site.posseify.twitter.note.template | replace: '@posse_content', posse_content | replace: '@posse_tags', posse_tags | replace: '@posse_url', posse_url -%}
       <item>
         <title>{{ posse_content | truncate: 80, "…" }}</title>
         <content type="text">{{ tweet | xml_escape }}</content>
