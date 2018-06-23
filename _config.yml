@@ -17,6 +17,11 @@ kramdown:
   footnote_backlink: "⬆︎"
   header_offset: 1
 
+# Get data from Notist
+jekyll_get:
+  data: talks
+  json: 'https://noti.st/nhoizey.json'
+
 # POSSEify plugin settings
 posseify:
   twitter:
