@@ -7,7 +7,8 @@ layout: null
     <title>Notes - Nicolas Hoizey</title>
     <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url }}</link>
-    <atom:link href="{{ "/feeds/notes-twitter.xml" | prepend: site.url }}" rel="self" type="application/rss+xml" />
+    <link href="{{ site.url }}/feeds/notes-twitter.xml" rel="self" type="application/rss+xml" />
+    <link href="{{ site.url }}/notes/?utm_medium=social&amp;utm_source=Twitter&amp;utm_campaign=feed" />
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
@@ -32,10 +33,10 @@ layout: null
       {%- endfor -%}
       {%- assign tweet = site.posseify.twitter.note.template | replace: '@posse_content', posse_content | replace: '@posse_tags', posse_tags | replace: '@posse_url', posse_url -%}
       <item>
-        <title>{{ posse_content | truncate: 80, "…" }}</title>
-        <content type="text">{{ tweet | xml_escape }}</content>
+        <title>{{ note.title | xml_escape }}</title>
+        <content>{{ tweet | xml_escape }}</content>
         <pubDate>{{ note.date | date_to_rfc822 }}</pubDate>
-        <link>{{ posse_url }}</link>
+        <link>{{ posse_url }}?utm_medium=social&amp;utm_source=Twitter&amp;utm_campaign=feed</link>
         <guid isPermaLink="true">{{ posse_url }}</guid>
       </item>
     {% endfor %}

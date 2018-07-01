@@ -6,8 +6,8 @@ layout: null
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Nicolas Hoizey's notes</title>
- <link href="{{ site.url }}/atom-notes.xml" rel="self"/>
- <link href="{{ site.url }}/notes/?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
+ <link href="{{ site.url }}/feeds/notes-facebook.xml" rel="self"  type="application/rss+xml" />
+ <link href="{{ site.url }}/notes/?utm_medium=social&amp;utm_source=Facebook&amp;utm_campaign=feed" />
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>{{ site.url }}/notes/</id>
  <author>
@@ -17,11 +17,11 @@ layout: null
 
  {% for note in site.notes reversed limit:50 %}
  <entry>
-   <link href="{{ site.url }}{{ note.url }}?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
-   <title></title>
+   <link href="{{ site.url }}{{ note.url }}?utm_medium=social&amp;utm_source=Facebook&amp;utm_campaign=feed"/>
+   <title>{{ note.title | xml_escape }}</title>
    <updated>{{ note.date | date_to_xmlschema }}</updated>
    <id>{{ site.url }}{{ note.id }}</id>
-   <content type="html">{{ note.content | strikethrough | xml_escape }}</content>
+   <content>{{ note.content | strikethrough | xml_escape }}</content>
  </entry>
  {% endfor %}
 

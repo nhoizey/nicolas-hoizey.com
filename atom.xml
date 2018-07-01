@@ -7,7 +7,7 @@ layout: null
 
  <title>{{ site.title }}</title>
  <link href="{{ site.url }}/atom.xml" rel="self"/>
- <link href="{{ site.url }}/?utm_source=Atom%20feed"/>
+ <link href="{{ site.url }}/?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
  <link rel="hub" href="http://pubsubhubbub.superfeedr.com/" />
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>{{ site.url }}/</id>
@@ -19,7 +19,7 @@ layout: null
  {% for post in site.posts limit:20 %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="{{ site.url }}{{ post.url }}"/>
+   <link href="{{ site.url }}{{ post.url }}?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>{{ site.url }}{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
