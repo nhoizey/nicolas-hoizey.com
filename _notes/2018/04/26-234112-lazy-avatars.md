@@ -1,5 +1,6 @@
 ---
 date: 2018-04-26 23:41:12 +0200
+title: "Lazy avatars"
 lang: fr
 tags: [webperf]
 ---

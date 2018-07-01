@@ -1,5 +1,6 @@
 ---
 date: 2018-05-02 23:49:15
+title: "Navigation"
 lang: fr
 tags: [UX]
 ---
