@@ -124,8 +124,8 @@ webmentions:
     - http://nicolas-hoizey.com
   throttle_lookups:
     last_week: daily
-    last_month: daily
-    last_year: weekly
+    last_month: weekly
+    last_year: every 2 weeks
     older: every 2 weeks
 
 # YouTube
