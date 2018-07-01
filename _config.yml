@@ -17,25 +17,6 @@ kramdown:
   footnote_backlink: "⬆︎"
   header_offset: 1
 
-# Get data from Notist
-jekyll_get:
-  data: talks
-  json: 'https://noti.st/nhoizey.json'
-
-# POSSEify plugin settings
-posseify:
-  twitter:
-    max_length: 280
-    url_length: 23
-    note:
-      min_hashtags: 1
-      max_hashtags: 5
-      template: "@posse_content\n\n@posse_tags\n\n@posse_url"
-    post:
-      min_hashtags: 3
-      max_hashtags: 5
-      template: "@posse_title\n\n@posse_tags\n\n@posse_url"
-
 # Indexing for related post using the classifier-reborn plugin
 lsi: false
 
@@ -91,6 +72,25 @@ assets:
     browsers:
       - "last 2 versions"
       - "IE > 10"
+
+# Get data from Notist
+jekyll_get:
+  data: talks
+  json: 'https://noti.st/nhoizey.json'
+
+# POSSEify plugin settings
+posseify:
+  twitter:
+    max_length: 280
+    url_length: 23
+    note:
+      min_hashtags: 1
+      max_hashtags: 5
+      template: "@posse_content\n\n@posse_tags\n\n@posse_url"
+    post:
+      min_hashtags: 3
+      max_hashtags: 5
+      template: "@posse_title\n\n@posse_tags\n\n@posse_url"
 
 # Algolia
 algolia:
