@@ -11,6 +11,9 @@ module Jekyll
       # replace \n
       tweet.gsub!(/(\n)/, "\u000a")
 
+      # remove bold and italics
+      tweet.gsub!(/\*+([^\*\n]+)\*+/, "\\1")
+
       # replace <del>blah blah</del> by b̶̶l̶a̶h̶ ̶b̶l̶a̶h̶
       tweet.gsub!(/<del>([^<]+)<\/del>/) { |del| del.gsub(/<\/?del>/, '').chars.map{|c| "#{c}\u0336"}.join }
 
