@@ -10,8 +10,9 @@ module Jekyll
 
       image = doc.at_css('img').to_h
 
+      src = ''
+
       if image['srcset'] then
-        src = ''
         src_width = 0
         image['srcset'].split(',').each do |src_fragment|
           src_fragment.gsub!(/\s*([^\s]+)\s+([0-9]+)(w|x)/) { |url, size|
