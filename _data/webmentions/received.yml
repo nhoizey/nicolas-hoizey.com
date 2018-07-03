@@ -17823,4 +17823,38 @@
       <a href="https://nicolas-hoizey.com/2018/06/users-do-change-font-size.html">https://nicolas-hoizey.com/2018/06/users-do-change-font-size.html</a></p>
 "/notes/2018/0622140722.html": {}
 "/notes/2018/0629101345.html": {}
-"/2018/07/leaving-500px.html": {}
+"/2018/07/leaving-500px.html":
+  '1013777557257445377':
+    id: '1013777557257445377'
+    uri: https://twitter.com/cyberbaloo_/status/1013777557257445377
+    source: twitter
+    pubdate: 2018-07-02 15:32:59.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/nhoizey/1013777454467600384/1013777557257445377
+      verified: true
+      verified_date: '2018-07-02T13:48:15+00:00'
+      id: 531118
+      private: false
+      data:
+        author: &463
+          name: Sophie Drouvroy
+          url: http://www.sophie-drouvroy.com
+          photo: https://webmention.io/avatar/pbs.twimg.com/0de988435a4df947908a7a234fc21c164e9ffd29ecb836631e364ffe37c282f5.jpg
+        url: https://twitter.com/cyberbaloo_/status/1013777557257445377
+        name: 
+        content: c’est ce que je voulais faire, mais vu que j’avais un peu la flemme
+          de chercher dans mon DD avant de supprimer mon compte…
+        published: '2018-07-02T13:32:59+00:00'
+        published_ts: 1530538379
+      activity:
+        type: reply
+        sentence: Sophie Drouvroy replied 'c’est ce que je voulais faire, mais vu
+          que j’avais un peu la flemme de chercher ...' to a tweet https://nicolas-hoizey.com/2018/07/leaving-500px.html
+        sentence_html: <a href="http://www.sophie-drouvroy.com">Sophie Drouvroy</a>
+          replied 'c’est ce que je voulais faire, mais vu que j’avais un peu la flemme
+          de chercher ...' to a tweet <a href="https://nicolas-hoizey.com/2018/07/leaving-500px.html">https://nicolas-hoizey.com/2018/07/leaving-500px.html</a>
+      target: https://nicolas-hoizey.com/2018/07/leaving-500px.html
+    author: *463
+    type: reply
+    content: "<p>c’est ce que je voulais faire, mais vu que j’avais un peu la flemme
+      de chercher dans mon DD avant de supprimer mon compte…</p>"
