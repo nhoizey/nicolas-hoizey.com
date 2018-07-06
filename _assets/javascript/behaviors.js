@@ -5,6 +5,7 @@
 ;(function(win, doc) {
   doc.body.setAttribute('data-viewportwidth', win.viewport_width)
   doc.body.setAttribute('data-screendensity', win.screen_density)
+  doc.body.setAttribute('data-rootfontsize', win.root_font_size)
 })(window, document)
 
 /*****************************************************************

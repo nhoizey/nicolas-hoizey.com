@@ -19,3 +19,5 @@ var viewport_width = Math.max(
   document.documentElement.clientWidth,
   window.innerWidth || 0,
 )
+
+var root_font_size = parseFloat(window.getComputedStyle(document.documentElement).fontSize, 10);
