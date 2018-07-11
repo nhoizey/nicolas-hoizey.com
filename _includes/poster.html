@@ -1,8 +1,7 @@
 {% if include.page.poster %}
   {% capture poster_image %}{{ site.url }}{{ include.page.url | url_path }}{{ include.page.poster }}{% endcapture %}
 {% else %}
-  {% capture poster_image %}{% include_cached first-image-src.html page=include.page %}{% endcapture %}
-  {% comment %}{% assign poster_image = include.page.content | first_image_url %}{% endcomment %}
+  {% assign poster_image = include.page.content | first_image_url %}
 {% endif %}
 {% if poster_image != "" %}
   {% if jekyll.environment == 'production' %}
