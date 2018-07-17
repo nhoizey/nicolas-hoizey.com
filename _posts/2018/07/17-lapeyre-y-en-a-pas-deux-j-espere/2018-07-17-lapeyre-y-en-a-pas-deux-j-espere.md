@@ -4,7 +4,7 @@ lang:  fr
 tags:  [SAV, fail]
 ---
 
-Je ne sais pas si vous avez déjà été confronté au SAV de Lapeyre, mais je peux vous dire qu'il vaut son pesant de cacahouètes.
+Je ne sais pas si vous avez déjà été confronté au SAV de Lapeyre, mais je peux vous dire qu'il vaut son pesant de cacahuètes.
 
 {% cloudinary onethird /assets/logos/lapeyre.png %}
 
