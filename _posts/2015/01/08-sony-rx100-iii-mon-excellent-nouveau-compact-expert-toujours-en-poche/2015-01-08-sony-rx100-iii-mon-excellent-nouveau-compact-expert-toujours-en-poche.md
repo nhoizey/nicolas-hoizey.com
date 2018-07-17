@@ -2,7 +2,6 @@
 title:      Sony RX100 III, mon excellent nouveau compact expert toujours en poche
 lang:       fr
 tags:       [photo, Sony, RX100, matériel]
-px500:      https://500px.com/photo/94804509
 flickr:     https://www.flickr.com/photos/nicolas-hoizey/16213387835/
 ---
 

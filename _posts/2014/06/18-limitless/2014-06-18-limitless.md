@@ -2,7 +2,6 @@
 title:      Limitless
 lang:       fr
 tags:       [photo]
-px500:      https://500px.com/photo/74016195/limitless-by-nicolas-hoizey
 flickr:     https://www.flickr.com/photos/nicolas-hoizey/14453427844/
 ---
 

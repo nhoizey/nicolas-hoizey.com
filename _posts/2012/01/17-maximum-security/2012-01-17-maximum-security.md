@@ -2,7 +2,6 @@
 title:      Maximum security
 lang:       fr
 tags:       [photo]
-px500:      https://500px.com/photo/697376/maximum-security-by-nicolas-hoizey
 flickr:     https://www.flickr.com/photos/nicolas-hoizey/2704877/
 ---
 

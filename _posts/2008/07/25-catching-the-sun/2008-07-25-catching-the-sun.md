@@ -2,7 +2,6 @@
 title:      Catching the sun
 lang:       fr
 tags:       [fun, photo]
-px500:      https://500px.com/photo/32889279/catching-the-sun-by-nicolas-hoizey
 flickr:     https://www.flickr.com/photos/nicolas-hoizey/2693162677
 ---
 

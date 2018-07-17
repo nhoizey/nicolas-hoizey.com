@@ -2,7 +2,6 @@
 title:      Récolte sur une campanule
 lang:       fr
 tags:       [photo]
-px500:      https://500px.com/photo/460421/r%C3%A9colte-sur-une-campanule-by-nicolas-hoizey
 flickr:     https://www.flickr.com/photos/nicolas-hoizey/3101454144/lightbox/
 ---
 

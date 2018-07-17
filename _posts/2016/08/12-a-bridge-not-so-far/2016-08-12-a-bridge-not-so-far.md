@@ -2,7 +2,6 @@
 title: A bridge not so far
 lang:  fr
 tags:  [photo, New York]
-px500: https://500px.com/photo/167392803/a-bridge-not-so-far-by-nicolas-hoizey
 flickr: https://www.flickr.com/photos/nicolas-hoizey/28304272563/
 facebook: https://www.facebook.com/photo.synthese.nicolas.hoizey/photos/a.310523142454600.1073741828.310495275790720/570513543122224/?type=1&amp;theater
 deviantart: http://nhoizey.deviantart.com/art/A-bridge-not-so-far-627601257

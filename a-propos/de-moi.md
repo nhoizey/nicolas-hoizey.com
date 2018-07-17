@@ -30,7 +30,7 @@ En dehors du Web, je suis aussi passionné de photographie. Jeune, j'ai beaucoup
 
 Je n'ai pas de thème ou sujet qui se démarque vraiment des autres dans ma production photographique, mais j'ai **une forte préférence pour le naturel**, qu'il s'agisse de paysages de nature ou urbains, ou de portraits.
 
-Mon portfolio s'intitule [Photo Synthèse](http://photosynthese.net), et vous pouvez aussi retrouver mes photos sur les sites communautaires [500px](https://500px.com/nhoizey/) et [Flickr](https://www.flickr.com/photos/nicolas-hoizey/), ou sur [ma page Facebook](https://www.facebook.com/nhoizey.photo).
+Mon portfolio s'intitule [Photo Synthèse](http://photosynthese.net), et vous pouvez aussi retrouver mes photos sur le site communautaire [Flickr](https://www.flickr.com/photos/nicolas-hoizey/), ou sur [ma page Facebook](https://www.facebook.com/nhoizey.photo).
 
 J'ai rejoint fin 2014 le [Photo Club de Draveil](http://photoclubdraveil.fr/) qui était en train de se créer, et participé depuis à plusieurs expositions collectives, l'occasion de **confronter son travail aux yeux de parfaits inconnus** (qui le sont bien moins maintenant), ce qui me paraît nécessaire pour progresser.
 

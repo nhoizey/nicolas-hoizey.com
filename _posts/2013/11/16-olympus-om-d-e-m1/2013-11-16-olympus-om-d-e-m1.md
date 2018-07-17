@@ -4,7 +4,7 @@ lang:       fr
 tags:       [photo, matériel]
 ---
 
-[Passionné de photo](http://500px.com/nhoizey) depuis très longtemps, j'ai investi il y a quelques années dans [l'excellent boitier expert Canon EOS 5D Mark II](http://www.naturepixel.com/canon_5d_mk2_caracteristiques_essais_photos.htm) et quelques objectifs pro, dont le fabuleux 135mm f/2.0. Mais voilà, tout ça pèse lourd, très lourd, et se balader avec plusieurs objectifs est compliqué et pénible. Cet Olympus OM-D E-M1 pourrait bien être l'alternative légère que j'attends depuis des mois.
+Passionné de photo depuis très longtemps, j'ai investi il y a quelques années dans [l'excellent boitier expert Canon EOS 5D Mark II](http://www.naturepixel.com/canon_5d_mk2_caracteristiques_essais_photos.htm) et quelques objectifs pro, dont le fabuleux 135mm f/2.0. Mais voilà, tout ça pèse lourd, très lourd, et se balader avec plusieurs objectifs est compliqué et pénible. Cet Olympus OM-D E-M1 pourrait bien être l'alternative légère que j'attends depuis des mois.
 
 {% cloudinary olympus-om-d-e-m1.jpg caption="Olympus OM-D E-M1" %}
 

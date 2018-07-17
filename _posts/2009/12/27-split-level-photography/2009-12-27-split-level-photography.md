@@ -9,5 +9,3 @@ J'avais annoncé [il y a déjà 4 ans](/2005/12/groupe-flickr-a-remplir-halfway-
 {% cloudinary split_level_photography.jpg caption="Split level photography" %}
 
 J'ai pris cette photo avec un appareil photo argentique «jetable», en pleine Mer Rouge.
-
-Vous pouvez voir et aimer [« Split level photography » sur 500px](http://500px.com/photo/1116038).
