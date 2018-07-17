@@ -1,7 +1,7 @@
---- 
-title:      "Creative Zen Micro, l'offensive contre le iPod Mini de Apple est lancée !" 
-lang:       fr 
-tags:       [publicité, ergonomie, musique, hype]
+---
+title:      "Creative Zen Micro, l'offensive contre le iPod Mini de Apple est lancée !"
+lang:       fr
+tags:       [music]
 ---
 
 Après une sortie presque en catimini en fin d'année 2004, le Zen Micro est enfin résolument mis en avant par Creative.

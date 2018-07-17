@@ -1,7 +1,7 @@
 ---
 title:      Vooza parodie délicieusement les startups web
 lang:       fr
-tags:       [hype, buzz, parodie]
+tags:       [fun]
 ---
 
 On voit tous les jours de nouvelles startups tenter le buzz pour lancer une nouvelle idée, une nouvelle pratique, une nouvelle techno, mais une chose a tendance à se ressembler beaucoup quelle que soit la startup, c'est la méthode de communication choisie pour le lancement.

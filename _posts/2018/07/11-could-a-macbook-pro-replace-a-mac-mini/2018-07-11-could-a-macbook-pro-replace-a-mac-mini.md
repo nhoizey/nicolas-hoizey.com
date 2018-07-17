@@ -1,7 +1,7 @@
 ---
 title: "Could a MacBook Pro replace a Mac mini?"
 lang: en
-tags: [Apple,Mac mini,MacBook Pro,computer]
+tags: [Apple,Mac]
 ---
 
 I'm fed up with waiting for an updated Mac mini, but I need to replace one that is 10 years old (yes, 10 years!), so I'm considering other options.

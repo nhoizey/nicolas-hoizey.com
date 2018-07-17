@@ -1,7 +1,7 @@
 ---
 title:      Flickr en passe de jeter Yahoo! Maps pour Google Maps ?
 lang:       fr
-tags:       [Flickr, Google, géolocalisation, Yahoo, iPhone]
+tags:       [Flickr, Google, geolocation, Yahoo, iOS]
 ---
 
 Dans une nouvelle version de [Flickr pour mobiles](http://m.flickr.com/)[^1], [Flickr](http://www.flickr.com/) propose une fonctionnalité permettant de voir les photos géolocalisées prises près de là où vous êtes. Surprise, ce sont des cartes [Google Maps](http://maps.google.com/) qui sont utilisées, alors que le site Flickr utilise plutôt d'habitude des [cartes Yahoo! Maps](http://www.flickr.com/map/)[^2].

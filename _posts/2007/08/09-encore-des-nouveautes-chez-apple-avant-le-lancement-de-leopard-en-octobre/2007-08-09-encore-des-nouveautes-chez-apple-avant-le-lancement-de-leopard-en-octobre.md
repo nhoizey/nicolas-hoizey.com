@@ -1,7 +1,7 @@
---- 
-title:      Encore des nouveautés chez Apple avant le lancement de Leopard en octobre 
-lang:       fr 
-tags:       [ergonomie, informatique, Apple, design, logiciel, ordinateur, Steve Jobs]
+---
+title:      Encore des nouveautés chez Apple avant le lancement de Leopard en octobre
+lang:       fr
+tags:       [Apple, Mac]
 ---
 
 Si vous avez plus d'une heure à y consacrer, je vous conseille de regarder [la dernière *keynote* de Steve Jobs](http://www.apple.com/quicktime/qtv/keynote/)[^1], où il a présenté les nouveautés Apple. Au programme, un nouvel iMac encore plus beau et puissant, la nouvelle version de iLife avec de vraies belles évolutions, un nouveau tableur dans iWork, etc.
@@ -93,6 +93,6 @@ Le plus intéressant est sans doute que le [Mac mini](http://www.apple.com/macmi
 
 Il ne reste plus qu'à attendre octobre pour la sortie de Leopard, et il sera possible d'acquérir une nouvelle machine avec bien sûr Leopard mais aussi iLife '08 inclus...
 
-[^1]: Transparences, *slideshows* Ajax, etc. à base de [Prototype and Script.aculo.us](http://ajaxian.com/archives/mac-web-gallery-on-prototype) 
+[^1]: Transparences, *slideshows* Ajax, etc. à base de [Prototype and Script.aculo.us](http://ajaxian.com/archives/mac-web-gallery-on-prototype)
 
 [^2]: Après la mise à disposition des contenus YouTube sur l'AppleTv et de Google Maps sur l'iPhone, notamment. Voir cette [analyse du rapprochement entre Apple et Google](http://www.google-stories.com/2007/06/14/que-nous-reserve-l%E2%80%99alliance-google-apple/)

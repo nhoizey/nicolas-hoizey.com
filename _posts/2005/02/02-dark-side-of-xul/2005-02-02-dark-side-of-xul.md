@@ -1,7 +1,7 @@
---- 
-title:      "Dark side of XUL" 
-lang:       fr 
-tags:       [client riche, développement, Mozilla, Clever Age]
+---
+title:      "Dark side of XUL"
+lang:       fr
+tags:       [Mozilla]
 ---
 
 Non, ceci n'est pas le nom d'une secte ou d'un nouvel album hardcore trash metal, mais juste un titre accrocheur pour annoncer une nouvelle [Clever Link](http://www.clever-age.com/veille/clever-link/15.html)[^c1], où [Clever Age](http://www.clever-age.com/) vous parle de [XUL](http://www.mozilla.org/projects/xul/)[^c2], la face la plus visible et médiatisée de [XPFE](http://www.mozilla.org/xpfe/)[^c3], la plateforme client riche de [Mozilla](http://www.mozilla.org/).

@@ -1,7 +1,7 @@
---- 
-title:      Si vous regrettez Aibo et trouvez Nabaztag trop statique, voilà Pleo ! 
-lang:       fr 
-tags:       [gadget, geek]
+---
+title:      Si vous regrettez Aibo et trouvez Nabaztag trop statique, voilà Pleo !
+lang:       fr
+tags:       [geek]
 ---
 
 Suite à l'annonce de Sony d'arrêter la production de son célèbre chien [Aibo](http://support.sony-europe.com/aibo/index.asp?language=fr), la place restait libre pour un androïde animal doté d'une intelligence artificielle le rendant non seulement réaliste, mais aussi sympathique et intéressant. Le lapin [Nabaztag](http://www.nabaztag.com/) a beau être sympathique avec ses fonctionnalités liées à la connexion à Internet en WiFi, il reste relativement statique[^1] et ne simule pas vraiment une vie à part entière.
@@ -18,6 +18,6 @@ Caleb Chung[^1], de la société UGOBE, avait eu beaucoup de succès avec son [F
 Vous pouvez déjà réserver le votre dans la [boutique UGOBE](http://store.ugobe.com/)[^2].
 
 
-[^1]: Cité par le magazine Fortune parmi ses [24 Top innovators](http://money.cnn.com/galleries/2007/fortune/0704/gallery.fortune_innovators.fortune/8.html) 
+[^1]: Cité par le magazine Fortune parmi ses [24 Top innovators](http://money.cnn.com/galleries/2007/fortune/0704/gallery.fortune_innovators.fortune/8.html)
 
 [^2]: Seulement pour des envois aux États-Unis, pour l'instant, même si la distribution en France par [Jeux Goliath](http://www.jeux-goliath.com/) est annoncée.

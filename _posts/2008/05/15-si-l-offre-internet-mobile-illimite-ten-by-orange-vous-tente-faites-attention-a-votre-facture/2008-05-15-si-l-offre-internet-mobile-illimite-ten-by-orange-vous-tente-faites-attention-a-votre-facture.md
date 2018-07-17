@@ -1,7 +1,7 @@
 ---
 title:      Si l'offre Internet mobile illimité Ten by Orange vous tente, faites attention à votre facture !
 lang:       fr
-tags:       [Orange, telecom, commerce, arnaque]
+tags:       [Orange]
 ---
 
 En réponse aux offres de surf illimité proposées par d'autres opérateurs, et sans doute aussi pour ne pas avoir l'air de favoriser l'iPhone par rapport à d'autres terminaux, [Orange](http://www.orange.com/fr_FR/) a lancé récemment l'offre [Ten](http://www.ten.fr/) qui promet l'illimité sur le surf, le mail et même la messagerie instantanée... attention danger !

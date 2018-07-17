@@ -1,7 +1,7 @@
 ---
 title:      Améliorer l'écoute aléatoire de musique
 lang:       fr
-tags:       [musique, iTunes, aléatoire]
+tags:       [musique, iTunes]
 ---
 Je suis d'habitude du genre à écouter des albums plutôt que des *singles*, mais le fait est qu'il est très compliqué d'écouter des albums quand on écoute de façon morcelée, notamment dans les transports en commun. J'écoute donc de plus en plus ma musique en mode aléatoire, en enchainant les singles. Sauf que l'aléatoire de base ne me convient pas.
 

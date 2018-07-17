@@ -1,7 +1,7 @@
---- 
-title:      Un encouragement vu du ciel... 
-lang:       fr 
-tags:       [Google, géolocalisation]
+---
+title:      Un encouragement vu du ciel...
+lang:       fr
+tags:       [Google, geolocation]
 ---
 
 En se baladant dans le ciel à l'aide du fabuleux [Google Earth](http://earth.google.com/), il arrive que l'on fasse des découvertes étonnantes, telle celle-ci faite sur un toit de Paris :

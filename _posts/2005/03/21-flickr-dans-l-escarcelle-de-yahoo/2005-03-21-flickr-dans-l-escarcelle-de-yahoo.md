@@ -1,7 +1,7 @@
---- 
-title:      "Flickr dans l'escarcelle de Yahoo" 
-lang:       fr 
-tags:       [photo, Flickr, hype]
+---
+title:      "Flickr dans l'escarcelle de Yahoo"
+lang:       fr
+tags:       [photo, Flickr]
 ---
 
 Ca y est, c'est officiel, [Yahoo s'est offert Flickr](http://blog.flickr.com/flickrblog/2005/03/yahoo_actually_.html)[^c1].
