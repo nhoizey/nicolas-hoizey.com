@@ -716,7 +716,7 @@
     id: '534620'
     uri: http://bao.spielwarenabteilung.net/wbb/index.php?page=User&userID=144652
     source: false
-    pubdate: 2018-07-17 02:56:07.000000000 +00:00
+    pubdate: 2018-07-17 04:56:07.000000000 +02:00
     raw:
       source: http://bao.spielwarenabteilung.net/wbb/index.php?page=User&userID=144652
       verified: true
@@ -12830,7 +12830,7 @@
     id: '533908'
     uri: https://twitter.com/nhoizey/status/1017828818441134087#favorited-by-101025176
     source: twitter
-    pubdate: 2018-07-13 18:03:47.000000000 +00:00
+    pubdate: 2018-07-13 20:03:47.000000000 +02:00
     raw:
       source: https://brid-gy.appspot.com/like/twitter/nhoizey/1017828818441134087/101025176
       verified: true
@@ -12861,7 +12861,7 @@
     id: '533940'
     uri: https://twitter.com/nhoizey/status/1017828818441134087#favorited-by-3630411
     source: twitter
-    pubdate: 2018-07-13 19:49:23.000000000 +00:00
+    pubdate: 2018-07-13 21:49:23.000000000 +02:00
     raw:
       source: https://brid-gy.appspot.com/like/twitter/nhoizey/1017828818441134087/3630411
       verified: true
@@ -12892,7 +12892,7 @@
     id: '533971'
     uri: https://twitter.com/nhoizey/status/1017828818441134087#favorited-by-24348846
     source: twitter
-    pubdate: 2018-07-13 22:31:04.000000000 +00:00
+    pubdate: 2018-07-14 00:31:04.000000000 +02:00
     raw:
       source: https://brid-gy.appspot.com/like/twitter/nhoizey/1017828818441134087/24348846
       verified: true
@@ -12923,7 +12923,7 @@
     id: '534091'
     uri: https://twitter.com/nhoizey/status/1017828818441134087#favorited-by-155551263
     source: twitter
-    pubdate: 2018-07-14 12:11:04.000000000 +00:00
+    pubdate: 2018-07-14 14:11:04.000000000 +02:00
     raw:
       source: https://brid-gy.appspot.com/like/twitter/nhoizey/1017828818441134087/155551263
       verified: true
@@ -12954,7 +12954,7 @@
     id: '534170'
     uri: https://twitter.com/nhoizey/status/1017828818441134087#favorited-by-20648766
     source: twitter
-    pubdate: 2018-07-14 20:44:05.000000000 +00:00
+    pubdate: 2018-07-14 22:44:05.000000000 +02:00
     raw:
       source: https://brid-gy.appspot.com/like/twitter/nhoizey/1017828818441134087/20648766
       verified: true
@@ -12985,7 +12985,7 @@
     id: '534512'
     uri: https://evertpot.com/bye-disqus-hello-webmention/
     source: false
-    pubdate: 2018-07-16 17:23:31.000000000 +00:00
+    pubdate: 2018-07-16 19:23:31.000000000 +02:00
     raw:
       source: https://evertpot.com/bye-disqus-hello-webmention/
       verified: true
@@ -18702,7 +18702,7 @@
     id: '533550'
     uri: https://twitter.com/nhoizey/status/1017200533558448128#favorited-by-307810043
     source: twitter
-    pubdate: 2018-07-12 02:11:39.000000000 +00:00
+    pubdate: 2018-07-12 04:11:39.000000000 +02:00
     raw:
       source: https://brid-gy.appspot.com/like/twitter/nhoizey/1017200533558448128/307810043
       verified: true
@@ -18837,3 +18837,4 @@
     author: *482
     type: reply
     content: "<p>C’est justement le sujet, j’en ai marre d’attendre ! \U0001F62B</p>"
+"/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html": {}
