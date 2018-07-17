@@ -5,6 +5,7 @@ gem 'jekyll'
 gem 'yt'
 gem 'autoprefixer-rails'
 gem 'uglifier'
+gem 'hash-joiner'
 
 group :jekyll_plugins do
   gem 'jekyll-algolia'
