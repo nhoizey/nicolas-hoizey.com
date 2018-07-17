@@ -8,7 +8,7 @@
 %}{% else
 %}{% comment %} Get the first image in the page {% endcomment
 %}{% capture image %}{% include first-image-src.html page=include.page %}{% endcapture
-%}{% comment %}{% assign image = include.page.content | first_image_url
+%}{% comment %}{% assign image = include.page.content | first_image
 %}{% endcomment
 %}{% endif
 %}{% if image == ""

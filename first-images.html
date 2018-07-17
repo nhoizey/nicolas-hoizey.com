@@ -1,0 +1,27 @@
+---
+layout: default
+title: First images
+---
+
+<!-- nomicrotypo -->
+<h1 id="notes">Notes</h1>
+<section class="list recent">
+  <dl>
+    {% for note in site.notes %}
+      <dt><a href="{{ note.url }}">{{ note.title }}</a></dt>
+      <dd>Filter -> {{ note.content | first_image }}</dd>
+      <dd>Plugin -> {{ note.image }}</dd>
+    {% endfor %}
+  </dl>
+</section>
+<h1 id="articles">Articles</h1>
+<section class="list recent">
+  <dl>
+    {% for post in site.posts limit:10 %}
+      <dt><a href="{{ post.url }}">{{ post.title }}</a></dt>
+      <dd>Filter -> {{ post.content | first_image }}</dd>
+      <dd>Plugin -> {{ post.image }}</dd>
+    {% endfor %}
+  </dl>
+</section>
+<!-- endnomicrotypo -->
