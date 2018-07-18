@@ -65,7 +65,7 @@ The comments are shown below posts has before[^comments], but they are now stati
 
 I added Webmention to this blog a while ago, with some success on popular posts like [How much data should my Service Worker put upfront in the offline cache?](https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html#webmentions).
 
-I also see that Webmention use is growing elsewhere. For example, [Rachel Andrew](https://twitter.com/rachelandrew) chose to adopt Webmention because she add to much SPAM:
+I also see that Webmention use is growing elsewhere. For example, [Rachel Andrew](https://twitter.com/rachelandrew) chose to adopt Webmention because she had too much SPAM:
 
 https://twitter.com/rachelandrew/status/882224351688482816
 
