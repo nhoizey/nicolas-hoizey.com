@@ -6,28 +6,32 @@
 // - Jake Archibald's Offline Cookbook: https://jakearchibald.com/2014/offline-cookbook/
 // - Jeremy Keith's Service Worker: https://adactio.com/journal/9775
 
-const staticCacheName = `static-v20180522-0757`;
+const mandatoryCacheName = `mandatory-v20180718-0907`;
 const pagesCacheName = `pages-v20180522-0746`;
 const imagesCacheName = `images-v20180521-2352`;
 
 const unavailableContentPage = '/offline-fallback.html';
 
-const offlinePages = [
+const offlineMandatory = [
   unavailableContentPage,
   '/',
+  '/offline.html',
+  '/a-propos/de-moi.html',
+  '/a-propos/du-site.html',
+  '/assets/photo-de-nicolas-hoizey-512px.png',
+  '{% asset "non-critical-styles" @path %}',
+]
+
+const offlinePages = [
   {% for post in site.posts limit:1 %}
   '{{ post.url }}',
   {% endfor %}
   {% for note in site.notes limit:1 %}
   '{{ note.url }}',
   {% endfor %}
-  '/a-propos/de-moi.html',
-  '/a-propos/du-site.html',
-  '/offline.html'
 ];
 
 const offlineImages = [
-  '/assets/photo-de-nicolas-hoizey-512px.png',
 ];
 
 function updateStaticCache() {
@@ -41,11 +45,9 @@ function updateStaticCache() {
       cache.addAll(offlineImages);
     });
   // These items must be cached for the Service Worker to complete installation
-  return caches.open(staticCacheName)
+  return caches.open(mandatoryCacheName)
     .then(cache => {
-      return cache.addAll([
-        '{% asset "non-critical-styles" @path %}',
-      ]);
+      return cache.addAll(offlineMandatory);
   });
 }
 
@@ -73,7 +75,7 @@ function clearOldCaches() {
   return caches.keys()
     .then(keys => {
       return Promise.all(keys
-        .filter(key => `:${staticCacheName}:${pagesCacheName}:${imagesCacheName}:`.indexOf(key) !== 0)
+        .filter(key => `:${mandatoryCacheName}:${pagesCacheName}:${imagesCacheName}:`.indexOf(key) !== 0)
         .map(key => caches.delete(key))
       );
     });
