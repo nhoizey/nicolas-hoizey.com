@@ -1,7 +1,7 @@
 ---
 title:      "12ème Festival de Cinéma en Plein Air"
 lang:       fr
-tags:       [loisirs, cinéma]
+tags:       [cinéma]
 ---
 
 Comme chaque année, [La Villette](http://www.la-villette.com/) propose son [Festival de Cinéma en Plein Air](http://www.la-villette.com/manif/html/302.htm) sur la Prairie du Triangle.
@@ -60,4 +60,5 @@ Cette année, le Festival illustre le thème des "Familles, clans et tribus" par
 | **ven. 24**  | SLAM                            | Marc Levin           | 1998      |
 | **sam. 25**  | LES SEPT SAMOURAIS              | Akira Kurosawa       | 1954      |
 | **dim. 26**  | THE SNAPPER                     | Stephen Frears       | 1992      |
+
 Vous remarquerez au passage qu'il y a relache tous les lundi.
