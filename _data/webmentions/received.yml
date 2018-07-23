@@ -18936,6 +18936,213 @@
     author: *485
     type: reply
     content: "<p>C’est justement le sujet, j’en ai marre d’attendre ! \U0001F62B</p>"
+  '1020241488628932608':
+    id: '1020241488628932608'
+    uri: https://twitter.com/cahnory/status/1020241488628932608
+    source: twitter
+    pubdate: 2018-07-20 11:38:20.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/nhoizey/1020241115633672192/1020241488628932608
+      verified: true
+      verified_date: '2018-07-20T09:51:22+00:00'
+      id: 535459
+      private: false
+      data:
+        author: &486
+          name: Cahnory ツ
+          url: http://cahnory.tumblr.com
+          photo: https://webmention.io/avatar/pbs.twimg.com/1839fc8f14b46ac8f48f776937d6e49d69761bf2271ae321e017067343168300.png
+        url: https://twitter.com/cahnory/status/1020241488628932608
+        name: 
+        content: Hmm si les premiers retours sur les macbook pro sont vrais il va
+          d'abord falloir qu'ils maîtrise un peu la température de ces "nouveaux"
+          processeurs
+        published: '2018-07-20T09:38:20+00:00'
+        published_ts: 1532079500
+      activity:
+        type: reply
+        sentence: Cahnory ツ replied 'Hmm si les premiers retours sur les macbook pro
+          sont vrais il va d'abord falloir...' to a tweet https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html
+        sentence_html: <a href="http://cahnory.tumblr.com">Cahnory ツ</a> replied 'Hmm
+          si les premiers retours sur les macbook pro sont vrais il va d'abord falloir...'
+          to a tweet <a href="https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html">https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html</a>
+      target: https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html
+    author: *486
+    type: reply
+    content: "<p>Hmm si les premiers retours sur les macbook pro sont vrais il va
+      d’abord falloir qu’ils maîtrise un peu la température de ces “nouveaux” processeurs</p>"
+  '1020241881542914048':
+    id: '1020241881542914048'
+    uri: https://twitter.com/nhoizey/status/1020241881542914048
+    source: twitter
+    pubdate: 2018-07-20 11:39:54.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/nhoizey/1020241115633672192/1020241881542914048
+      verified: true
+      verified_date: '2018-07-20T09:51:24+00:00'
+      id: 535460
+      private: false
+      data:
+        author: &487
+          name: Nicolas Hoizey
+          url: https://nicolas-hoizey.com
+          photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
+        url: https://twitter.com/nhoizey/status/1020241881542914048
+        name: 
+        content: Oh bin je veux pas forcément un i9, c’est le seul qui surchauffe,
+          non ?
+        published: '2018-07-20T09:39:54+00:00'
+        published_ts: 1532079594
+      activity:
+        type: reply
+        sentence: Nicolas Hoizey replied 'Oh bin je veux pas forcément un i9, c’est
+          le seul qui surchauffe, non ?' to a tweet https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html
+        sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
+          'Oh bin je veux pas forcément un i9, c’est le seul qui surchauffe, non ?'
+          to a tweet <a href="https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html">https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html</a>
+      target: https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html
+    author: *487
+    type: reply
+    content: "<p>Oh bin je veux pas forcément un i9, c’est le seul qui surchauffe,
+      non ?</p>"
+  '1020243189226180609':
+    id: '1020243189226180609'
+    uri: https://twitter.com/cahnory/status/1020243189226180609
+    source: twitter
+    pubdate: 2018-07-20 11:45:06.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/nhoizey/1020241115633672192/1020243189226180609
+      verified: true
+      verified_date: '2018-07-20T09:51:26+00:00'
+      id: 535461
+      private: false
+      data:
+        author: &488
+          name: Cahnory ツ
+          url: http://cahnory.tumblr.com
+          photo: https://webmention.io/avatar/pbs.twimg.com/1839fc8f14b46ac8f48f776937d6e49d69761bf2271ae321e017067343168300.png
+        url: https://twitter.com/cahnory/status/1020243189226180609
+        name: 
+        content: |-
+          Au point d'être moins bon que le vieux i7 si ce qui est dit est avéré. Et le nouveau i7 est pas top non plus à ce que j'ai pu lire.<br />
+          C'est pas demain que je repasse sur du Apple en ce qui me concerne ^^
+        published: '2018-07-20T09:45:06+00:00'
+        published_ts: 1532079906
+      activity:
+        type: reply
+        sentence: Cahnory ツ replied 'Au point d'être moins bon que le vieux i7 si
+          ce qui est dit est avéré. Et le nou...' to a tweet https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html
+        sentence_html: <a href="http://cahnory.tumblr.com">Cahnory ツ</a> replied 'Au
+          point d'être moins bon que le vieux i7 si ce qui est dit est avéré. Et le
+          nou...' to a tweet <a href="https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html">https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html</a>
+      target: https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html
+    author: *488
+    type: reply
+    content: |-
+      <p>Au point d’être moins bon que le vieux i7 si ce qui est dit est avéré. Et le nouveau i7 est pas top non plus à ce que j’ai pu lire.<br />
+      C’est pas demain que je repasse sur du Apple en ce qui me concerne ^^</p>
+  '1020243650834501632':
+    id: '1020243650834501632'
+    uri: https://twitter.com/nhoizey/status/1020243650834501632
+    source: twitter
+    pubdate: 2018-07-20 11:46:56.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/nhoizey/1020241115633672192/1020243650834501632
+      verified: true
+      verified_date: '2018-07-20T09:51:21+00:00'
+      id: 535458
+      private: false
+      data:
+        author: &489
+          name: Nicolas Hoizey
+          url: https://nicolas-hoizey.com
+          photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
+        url: https://twitter.com/nhoizey/status/1020243650834501632
+        name: 
+        content: "Il est moins bon s’il chauffe, auquel cas il baisse sa fréquence.
+          Pas sûr qu’il y ai le même pb dans un Mac mini qui a peut-être plus de refroidissement
+          possible. Mais j’attendrais qu’il sorte, déjà, et qu’il y ait des tests
+          complets… \U0001F601<br />\n<br />\nJ’aurais du mal à quitter macOS…"
+        published: '2018-07-20T09:46:56+00:00'
+        published_ts: 1532080016
+      activity:
+        type: reply
+        sentence: Nicolas Hoizey replied 'Il est moins bon s’il chauffe, auquel cas
+          il baisse sa fréquence. Pas sûr qu’il ...' to a tweet https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html
+        sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
+          'Il est moins bon s’il chauffe, auquel cas il baisse sa fréquence. Pas sûr
+          qu’il ...' to a tweet <a href="https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html">https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html</a>
+      target: https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html
+    author: *489
+    type: reply
+    content: "<p>Il est moins bon s’il chauffe, auquel cas il baisse sa fréquence.
+      Pas sûr qu’il y ai le même pb dans un Mac mini qui a peut-être plus de refroidissement
+      possible. Mais j’attendrais qu’il sorte, déjà, et qu’il y ait des tests complets…
+      \U0001F601<br />\n<br />\nJ’aurais du mal à quitter macOS…</p>"
+  '1020244231615664129':
+    id: '1020244231615664129'
+    uri: https://twitter.com/cahnory/status/1020244231615664129
+    source: twitter
+    pubdate: 2018-07-20 11:49:14.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/nhoizey/1020241115633672192/1020244231615664129
+      verified: true
+      verified_date: '2018-07-20T09:51:18+00:00'
+      id: 535456
+      private: false
+      data:
+        author: &490
+          name: Cahnory ツ
+          url: http://cahnory.tumblr.com
+          photo: https://webmention.io/avatar/pbs.twimg.com/1839fc8f14b46ac8f48f776937d6e49d69761bf2271ae321e017067343168300.png
+        url: https://twitter.com/cahnory/status/1020244231615664129
+        name: 
+        content: "Il est moins bon très vite. On en est presque à dire qu'il ne montre
+          ses défaut que quand on cherche ses qualités \U0001F605"
+        published: '2018-07-20T09:49:14+00:00'
+        published_ts: 1532080154
+      activity:
+        type: reply
+        sentence: Cahnory ツ replied 'Il est moins bon très vite. On en est presque
+          à dire qu'il ne montre ses défaut ...' to a tweet https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html
+        sentence_html: <a href="http://cahnory.tumblr.com">Cahnory ツ</a> replied 'Il
+          est moins bon très vite. On en est presque à dire qu'il ne montre ses défaut
+          ...' to a tweet <a href="https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html">https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html</a>
+      target: https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html
+    author: *490
+    type: reply
+    content: "<p>Il est moins bon très vite. On en est presque à dire qu’il ne montre
+      ses défaut que quand on cherche ses qualités \U0001F605</p>"
+  '1020244617072082944':
+    id: '1020244617072082944'
+    uri: https://twitter.com/nhoizey/status/1020244617072082944
+    source: twitter
+    pubdate: 2018-07-20 11:50:46.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/nhoizey/1020241115633672192/1020244617072082944
+      verified: true
+      verified_date: '2018-07-20T09:51:20+00:00'
+      id: 535457
+      private: false
+      data:
+        author: &491
+          name: Nicolas Hoizey
+          url: https://nicolas-hoizey.com
+          photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
+        url: https://twitter.com/nhoizey/status/1020244617072082944
+        name: 
+        content: "\U0001F601"
+        published: '2018-07-20T09:50:46+00:00'
+        published_ts: 1532080246
+      activity:
+        type: reply
+        sentence: "Nicolas Hoizey replied '\U0001F601' to a tweet https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html"
+        sentence_html: "<a href=\"https://nicolas-hoizey.com\">Nicolas Hoizey</a>
+          replied '\U0001F601' to a tweet <a href=\"https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html\">https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html</a>"
+      target: https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html
+    author: *491
+    type: reply
+    content: "<p>\U0001F601</p>"
 "/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html":
   '1019346466886897669':
     id: '1019346466886897669'
@@ -18949,7 +19156,7 @@
       id: 534771
       private: false
       data:
-        author: &486
+        author: &492
           name: NiKo`
           url: https://nicolas.perriault.net
           photo: https://webmention.io/avatar/pbs.twimg.com/244e6d0919a8f165f5e7b50dac442e70dfce5b34d7c649e8ec01670be7c89504.jpg
@@ -18967,7 +19174,7 @@
           absolument rien à voir, mais en suivant un lien vers l'article sur webmenti...'
           to a tweet <a href="https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html">https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html</a>
       target: https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html
-    author: *486
+    author: *492
     type: reply
     content: "<p>dis, absolument rien à voir, mais en suivant un lien vers l’article
       sur webmention je tombe sur ce chef d’oeuvre de typo \U0001F44C</p>"
@@ -18983,7 +19190,7 @@
       id: 534779
       private: false
       data:
-        author: &487
+        author: &493
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -18998,7 +19205,7 @@
         sentence_html: "<a href=\"https://nicolas-hoizey.com\">Nicolas Hoizey</a>
           replied 'Oh, merci ! \U0001F9D0' to a tweet <a href=\"https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html\">https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html</a>"
       target: https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html
-    author: *487
+    author: *493
     type: reply
     content: "<p>Oh, merci ! \U0001F9D0</p>"
   '1019347989159141376':
@@ -19013,7 +19220,7 @@
       id: 534780
       private: false
       data:
-        author: &488
+        author: &494
           name: Pep
           url: https://nrkn.fr/
           photo: https://webmention.io/avatar/pbs.twimg.com/2490b6cd586a8b20c473b305bceb72f1c182aedc788312ab29497ed3098c9ff1.jpg
@@ -19028,7 +19235,7 @@
         sentence_html: <a href="https://nrkn.fr/">Pep</a> replied 'Let’s block Rachel!'
           to a tweet <a href="https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html">https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html</a>
       target: https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html
-    author: *488
+    author: *494
     type: reply
     content: "<p>Let’s block Rachel!</p>"
   '1019463530351878144':
@@ -19043,7 +19250,7 @@
       id: 534823
       private: false
       data:
-        author: &489
+        author: &495
           name: Benjamin Lévêque
           url: http://benjamin.leveque.me
           photo: https://webmention.io/avatar/pbs.twimg.com/09d5b0d0a7461e4f8c30307a83a770e64d5cd6e7aa65cfde435ecb5352bd2449.jpg
@@ -19061,7 +19268,7 @@
         sentence_html: <a href="http://benjamin.leveque.me">Benjamin Lévêque</a> retweeted
           a tweet <a href="https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html">https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html</a>
       target: https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html
-    author: *489
+    author: *495
     type: repost
     content: <p><a href="http://benjamin.leveque.me">Benjamin Lévêque</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html">https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html</a></p>
@@ -19077,7 +19284,7 @@
       id: 534835
       private: false
       data:
-        author: &490
+        author: &496
           name: Lapeyre
           url: http://www.lapeyre.fr
           photo: https://webmention.io/avatar/pbs.twimg.com/2f372e200c00d4b235e88022db1f1e9324980eeac821630939990db964294ba6.jpg
@@ -19093,7 +19300,7 @@
         sentence_html: <a href="http://www.lapeyre.fr">Lapeyre</a> replied 'bonjour,
           pourriez vous nous donner plus d'explications en MP ?' to a tweet <a href="https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html">https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html</a>
       target: https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html
-    author: *490
+    author: *496
     type: reply
     content: "<p>bonjour, pourriez vous nous donner plus d’explications en MP ?</p>"
   '1019489580393947136':
@@ -19108,7 +19315,7 @@
       id: 534834
       private: false
       data:
-        author: &491
+        author: &497
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -19126,8 +19333,139 @@
           'Bonjour, mon article contient déjà pas mal d’informations. Le magasin concerné
           e...' to a tweet <a href="https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html">https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html</a>
       target: https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html
-    author: *491
+    author: *497
     type: reply
     content: "<p>Bonjour, mon article contient déjà pas mal d’informations. Le magasin
       concerné est celui de Grigny.</p>"
+  '534980':
+    id: '534980'
+    uri: https://twitter.com/nhoizey/status/1019326650314567686#favorited-by-49285959
+    source: twitter
+    pubdate: 2018-07-18 19:59:42.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nhoizey/1019326650314567686/49285959
+      verified: true
+      verified_date: '2018-07-18T19:59:42+00:00'
+      id: 534980
+      private: false
+      data:
+        author: &498
+          name: Maël Brunet
+          url: https://twitter.com/MaelB
+          photo: https://webmention.io/avatar/pbs.twimg.com/24da9ec96b032ecfc5d1bed7bfd320ebcb91170c69991cbb1fbd05f42b7abf27.jpg
+        url: https://twitter.com/nhoizey/status/1019326650314567686#favorited-by-49285959
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Maël Brunet favorited a tweet https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html
+        sentence_html: <a href="https://twitter.com/MaelB">Maël Brunet</a> favorited
+          a tweet <a href="https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html">https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html</a>
+      target: https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html
+    author: *498
+    type: like
+    content: <p><a href="https://twitter.com/MaelB">Maël Brunet</a> favorited a tweet
+      <a href="https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html">https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html</a></p>
+  '1019619128263561217':
+    id: '1019619128263561217'
+    uri: https://twitter.com/webaaz/status/1019619128263561217
+    source: twitter
+    pubdate: 2018-07-18 18:25:18.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nhoizey/1019326650314567686/1019619128263561217
+      verified: true
+      verified_date: '2018-07-18T16:45:45+00:00'
+      id: 534946
+      private: false
+      data:
+        author: &499
+          name: Martin Supiot
+          url: http://www.webaaz.com
+          photo: https://webmention.io/avatar/pbs.twimg.com/7d6274ac4891cddd3f9fe6d60dfa051b316f4b7edf9e36529e478e36ff342af2.jpeg
+        url: https://twitter.com/webaaz/status/1019619128263561217
+        name: 
+        content: |-
+          Je suis un peu énervé contre @LapeyreOfficiel là, mais je sais pas si ça se voit…<br />
+          <br />
+          nicolas-hoizey.com/2018/07/lapeyr…
+        published: '2018-07-18T16:25:18+00:00'
+        published_ts: 1531931118
+      activity:
+        type: repost
+        sentence: Martin Supiot retweeted a tweet https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html
+        sentence_html: <a href="http://www.webaaz.com">Martin Supiot</a> retweeted
+          a tweet <a href="https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html">https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html</a>
+      target: https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html
+    author: *499
+    type: repost
+    content: <p><a href="http://www.webaaz.com">Martin Supiot</a> retweeted a tweet
+      <a href="https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html">https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html</a></p>
+  '1019621920378060800':
+    id: '1019621920378060800'
+    uri: https://twitter.com/LapeyreOfficiel/status/1019621920378060800
+    source: twitter
+    pubdate: 2018-07-18 18:36:24.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/nhoizey/1019326650314567686/1019621920378060800
+      verified: true
+      verified_date: '2018-07-18T16:45:46+00:00'
+      id: 534947
+      private: false
+      data:
+        author: &500
+          name: Lapeyre
+          url: http://www.lapeyre.fr
+          photo: https://webmention.io/avatar/pbs.twimg.com/2f372e200c00d4b235e88022db1f1e9324980eeac821630939990db964294ba6.jpg
+        url: https://twitter.com/LapeyreOfficiel/status/1019621920378060800
+        name: 
+        content: Monsieur, nous avons bien pris connaissance de votre article, nous
+          recherchons votre dossier auprès du Service Client, traitons votre demande
+          dans les meilleurs délais et revenons vers vous au plus tôt.
+        published: '2018-07-18T16:36:24+00:00'
+        published_ts: 1531931784
+      activity:
+        type: reply
+        sentence: Lapeyre replied 'Monsieur, nous avons bien pris connaissance de
+          votre article, nous recherchons v...' to a tweet https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html
+        sentence_html: <a href="http://www.lapeyre.fr">Lapeyre</a> replied 'Monsieur,
+          nous avons bien pris connaissance de votre article, nous recherchons v...'
+          to a tweet <a href="https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html">https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html</a>
+      target: https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html
+    author: *500
+    type: reply
+    content: "<p>Monsieur, nous avons bien pris connaissance de votre article, nous
+      recherchons votre dossier auprès du Service Client, traitons votre demande dans
+      les meilleurs délais et revenons vers vous au plus tôt.</p>"
+  '1019625000440156164':
+    id: '1019625000440156164'
+    uri: https://twitter.com/nhoizey/status/1019625000440156164
+    source: twitter
+    pubdate: 2018-07-18 18:48:38.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/nhoizey/1019326650314567686/1019625000440156164
+      verified: true
+      verified_date: '2018-07-18T17:13:39+00:00'
+      id: 534949
+      private: false
+      data:
+        author: &501
+          name: Nicolas Hoizey
+          url: https://nicolas-hoizey.com
+          photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
+        url: https://twitter.com/nhoizey/status/1019625000440156164
+        name: 
+        content: Merci.
+        published: '2018-07-18T16:48:38+00:00'
+        published_ts: 1531932518
+      activity:
+        type: reply
+        sentence: Nicolas Hoizey replied 'Merci.' to a tweet https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html
+        sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
+          'Merci.' to a tweet <a href="https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html">https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html</a>
+      target: https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html
+    author: *501
+    type: reply
+    content: "<p>Merci.</p>"
 "/2004/06/if-the-automobile-had-followed-the-same-development-as-the-computer.html": {}
