@@ -7,7 +7,6 @@ tags:  [SAV, fail]
 Je ne sais pas si vous avez déjà été confronté au SAV de Lapeyre, mais je peux vous dire qu'il vaut son pesant de cacahuètes.
 
 {% cloudinary onethird /assets/logos/lapeyre.png %}
-
 Le **4 octobre 2017**, un technicien Lapeyre venait prendre des mesures chez moi pour avoir les dimensions sur mesure d'une porte de garage.
 
 Le **11 janvier 2018**, voilà enfin le jour de l’installation ! Forcément, ça a pris un peu de temps, puisqu'il fallait fabriquer la porte sur mesure (merci le promoteur, il y a 35 ans…) et qu'il y a eu les fêtes de fin d'année.
@@ -49,4 +48,3 @@ C'est pas un peu compliqué, déjà, depuis **10 mois que ça dure** ?
 Vous imaginez bien que je vais dire beaucoup de bien de Lapeyre autour de moi.
 
 Allez, je prends les paris pour la date de finalisation de mon installation…
-

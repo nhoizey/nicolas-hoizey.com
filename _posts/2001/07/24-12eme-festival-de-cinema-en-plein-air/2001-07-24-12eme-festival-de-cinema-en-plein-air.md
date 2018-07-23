@@ -7,16 +7,16 @@ tags:       [cinéma]
 Comme chaque année, [La Villette](http://www.la-villette.com/) propose son [Festival de Cinéma en Plein Air](http://www.la-villette.com/manif/html/302.htm) sur la Prairie du Triangle.
 
 {% cloudinary onethird festival-de-cinema-en-plein-air.jpg %}
-Au programme, un écran gonflable, des transats et couvertures, de quoi pique-niquer, une ambiance de feu (s'il ne pleut pas), et de grands films ...
+Au programme, un écran gonflable, des transats et couvertures, de quoi pique-niquer, une ambiance de feu (s'il ne pleut pas), et de grands films.
 
 Les scéances sont annoncées à 22h, mais le film commence en fait une fois qu'il fait suffisamment sombre. Mis à part les transats et couvertures qu'il est possible de louer sur place, l'accès est totalement libre et gratuit.
 
-Cette année, le Festival illustre le thème des "Familles, clans et tribus" par la programmation suivante ...
+Cette année, le Festival illustre le thème des "Familles, clans et tribus" par la programmation suivante :
 
-## En juillet :
+## En juillet
 
 | **jour**    | **film**                    | **réalisateur**      | **année** |
-|-------------|-----------------------------|----------------------|-----------|
+| ----------- | --------------------------- | -------------------- | --------- |
 | **mar. 17** | A BRIGHTER SUMMER DAY       | Edward Yang          | 1991      |
 | **mer. 18** | FANNY ET ALEXANDRE          | Ingmar Bergman       | 1983      |
 | **jeu. 19** | LE PARRAIN III              | Francis Ford Coppola | 1990      |
@@ -31,14 +31,14 @@ Cette année, le Festival illustre le thème des "Familles, clans et tribus" par
 | **dim. 29** | KIKUJIRO                    | Takeshi Kitano       | 1999      |
 | **mar. 31** | KADOSH                      | Amos Gitaï           | 1999      |
 
-## En août :
+## En août
 
 | **jour**     | **film**                        | **réalisateur**      | **année** |
-|--------------|---------------------------------|----------------------|-----------|
+| ------------ | ------------------------------- | -------------------- | --------- |
 | **mer. 1er** | LE FESTIN DE BABETTE            | Gabriel Axel         | 1987      |
 | **jeu. 2**   | GHOST DOG : LA VOIE DU SAMOURAI | Jim Jarmusch         | 1999      |
 | **ven. 3**   | TOUT SUR MA MERE                | Pedro Almodovar      | 1998      |
-| **sam. 4**   | *Soirée cirque*                 |                      |           |
+| **sam. 4**   | _Soirée cirque_                 |                      |           |
 |              | UN JOUR AU CIRQUE               | Edward Buzzell       | 1939      |
 |              | TRAPEZE                         | Carol Reed           | 1956      |
 | **dim. 5**   | GLORIA                          | John Cassavetes      | 1980      |
