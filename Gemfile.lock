@@ -127,7 +127,7 @@ GEM
     mini_portile2 (2.3.0)
     minitest (5.11.3)
     multi_xml (0.6.0)
-    nokogiri (1.8.2)
+    nokogiri (1.8.4)
       mini_portile2 (~> 2.3.0)
     nuggets (1.5.0)
     openssl (2.1.1)
