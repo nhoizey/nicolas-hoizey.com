@@ -14,11 +14,8 @@ class Giphy < Liquid::Tag
 
   def render(context)
 
-    Jekyll.logger.info("[Giphy]", "#{@id}")
-
     # Embed:  https://giphy.com/embed/TseBjMu53JgWc
     # Source: https://media.giphy.com/media/TseBjMu53JgWc/giphy.gif
-    # MP4:    https://media.giphy.com/media/TseBjMu53JgWc/giphy.mp4
 
     # .giphy {
     #   margin: 2em 0;
