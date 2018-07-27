@@ -48,3 +48,13 @@ C'est pas un peu compliqué, déjà, depuis **10 mois que ça dure** ?
 Vous imaginez bien que je vais dire beaucoup de bien de Lapeyre autour de moi.
 
 Allez, je prends les paris pour la date de finalisation de mon installation…
+
+# Update du 24/07/2018
+
+Incroyable (ou pas), j'ai été contacté rapidement par le (les ?) CM de Lapeyre, tant sur Twitter que Facebook, pour dire qu'ils s'occupaient de contacter tant le SAV que le magasin.
+
+Et 24h plus tard, l'installateur me disait qu'il avait la pièce, et me proposait de passer sous 2 jours.
+
+Bref, l'installation est enfin terminée.
+
+Incroyable comme il est possible d'être efficace, quand on commence à subire un peu de pression avec du bad buzz…
