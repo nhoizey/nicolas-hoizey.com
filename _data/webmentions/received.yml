@@ -19341,7 +19341,7 @@
     id: '534980'
     uri: https://twitter.com/nhoizey/status/1019326650314567686#favorited-by-49285959
     source: twitter
-    pubdate: 2018-07-18 19:59:42.000000000 +00:00
+    pubdate: 2018-07-18 21:59:42.000000000 +02:00
     raw:
       source: https://brid-gy.appspot.com/like/twitter/nhoizey/1019326650314567686/49285959
       verified: true
@@ -19469,3 +19469,4 @@
     type: reply
     content: "<p>Merci.</p>"
 "/2004/06/if-the-automobile-had-followed-the-same-development-as-the-computer.html": {}
+"/notes/2018/0726183216.html": {}
