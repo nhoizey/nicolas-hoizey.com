@@ -737,6 +737,18 @@ article {
   }
 }
 
+.giphy {
+  margin: 2em 0;
+  padding: 0;
+
+  video {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+
 .logo {
   display: block;
   margin: 1em auto;

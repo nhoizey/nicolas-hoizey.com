@@ -1,5 +1,5 @@
 class Giphy < Liquid::Tag
-  Syntax = /^\s*(\d+)\s*$/
+  Syntax = /^\s*(\w+)\s*$/
 
   def initialize(tagName, markup, tokens)
     super
@@ -14,15 +14,31 @@ class Giphy < Liquid::Tag
 
   def render(context)
 
-    # Jekyll.logger.info("[Giphy]", "#{@id}")
+    Jekyll.logger.info("[Giphy]", "#{@id}")
 
     # Embed:  https://giphy.com/embed/TseBjMu53JgWc
     # Source: https://media.giphy.com/media/TseBjMu53JgWc/giphy.gif
     # MP4:    https://media.giphy.com/media/TseBjMu53JgWc/giphy.mp4
 
-    result =  "<div class=\"ratio-16-9 embed-video-container\"><iframe src=\"https://player.vimeo.com/video/#{@id}\" width=\"800\" height=\"450\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>"
+    # .giphy {
+    #   margin: 2em 0;
+    #   padding: 0;
+    # }
+    # .giphy video {
+    #   display: block;
+    #   width: 100%;
+    #   max-width: 500px;
+    #   margin: 0 auto;
+    # }
 
-    return result
+    cloudinaryPrefix = "https://res.cloudinary.com/nho/image/fetch"
+    giphyImage = "https://media.giphy.com/media/#{@id}/giphy.gif"
+    poster = "#{cloudinaryPrefix}/f_jpg/#{giphyImage}"
+    mp4Source = "<source src=\"#{cloudinaryPrefix}/f_mp4/#{giphyImage}\" type=\"video/mp4\">"
+    webmSource = "<source src=\"#{cloudinaryPrefix}/f_webm/#{giphyImage}\" type=\"video/mp4\">"
+    videoTag = "<video autoplay loop muted playsinline poster=\"#{poster}\">#{mp4Source}#{webmSource}<img src=\"#{giphyImage}\" alt=\"\" /></video>"
+
+    return "<div class=\"giphy\">#{videoTag}</div>"
 
   end
 

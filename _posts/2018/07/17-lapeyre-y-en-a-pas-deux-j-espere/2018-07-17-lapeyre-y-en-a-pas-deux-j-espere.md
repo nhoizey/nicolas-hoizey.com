@@ -13,13 +13,13 @@ Le **11 janvier 2018**, voilà enfin le jour de l’installation ! Forcément, �
 
 Ah… mais en fait, **une des pièces livrées n’est pas aux bonnes dimensions** !
 
-<div style="width:100%;height:0;padding-bottom:42%;position:relative;margin:1.5em 0;"><iframe src="https://giphy.com/embed/3oEjHWzZQaCrZW2aWs" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+{% giphy 3oEjHWzZQaCrZW2aWs %}
 
 Sympa, du coup la porte est certes installée, mais l'étanchéité en haut et l'isolation ne sont pas opérantes. En plein hiver, c'est cool.
 
 Multiples échanges avec le SAV (quand il est joignable, et avec un changement de numéro de téléphone en cours de route, c'est plus simple), pour découvrir **au bout de plusieurs semaines** (on est en **mars**) que **la nouvelle pièce n'a en fait pas encore été commandée** !
 
-<div style="width:100%;height:0;padding-bottom:75%;position:relative;margin:1.5em 0;"><iframe src="https://giphy.com/embed/XsUtdIeJ0MWMo" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+{% giphy XsUtdIeJ0MWMo %}
 
 Une fois enfin commandée, le SAV ne peut (ou veut ?) plus trop rien faire, il faut voir avec le magasin (ils ne se parlent pas, ce serait trop simple), notamment le service installations. Sauf qu'ils ne sont jamais joignables, et surtout n'auraient pas idée de me prévenir si la pièce arrive enfin.
 
@@ -31,7 +31,7 @@ Le **22 juin 2018**, l'installateur vient enfin poser la pièce manquante, c'est
 
 **Ah non, la pièce est incomplète**, il manque le joint, on ne peut pas la poser comme ça mon bon monsieur, vous comprenez…
 
-<div style="width:100%;height:0;padding-bottom:101%;position:relative;margin:1.5em 0;"><iframe src="https://giphy.com/embed/TseBjMu53JgWc" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+{% giphy TseBjMu53JgWc %}
 
 En ce **17 juillet 2018, la pose de ma porte de garage n’est toujours pas finalisée**.
 
@@ -43,7 +43,7 @@ La nouvelle pièce, aux bonnes dimensions et avec un joint est commandée (c'est
 
 C'est pas un peu compliqué, déjà, depuis **10 mois que ça dure** ?
 
-<div style="width:100%;height:0;padding-bottom:75%;position:relative;margin:1.5em 0;"><iframe src="https://giphy.com/embed/10UHehEC098kAE" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+{% giphy 10UHehEC098kAE %}
 
 Vous imaginez bien que je vais dire beaucoup de bien de Lapeyre autour de moi.
 
