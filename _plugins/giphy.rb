@@ -30,10 +30,10 @@ class Giphy < Liquid::Tag
 
     cloudinaryPrefix = "https://res.cloudinary.com/nho/image/fetch"
     giphyImage = "https://media.giphy.com/media/#{@id}/giphy.gif"
-    poster = "#{cloudinaryPrefix}/f_jpg/#{giphyImage}"
     mp4Source = "<source src=\"#{cloudinaryPrefix}/f_mp4/#{giphyImage}\" type=\"video/mp4\">"
     webmSource = "<source src=\"#{cloudinaryPrefix}/f_webm/#{giphyImage}\" type=\"video/mp4\">"
-    videoTag = "<video autoplay loop muted playsinline poster=\"#{poster}\">#{mp4Source}#{webmSource}<img src=\"#{giphyImage}\" alt=\"\" /></video>"
+    fallback = "<p>Your browser doesn't support video. See <a href=\"#{giphyImage}\">the animated GIF</a>.</p>"
+    videoTag = "<video autoplay loop muted playsinline>#{mp4Source}#{webmSource}#{fallback}</video>"
 
     return "<div class=\"giphy\">#{videoTag}</div>"
 
