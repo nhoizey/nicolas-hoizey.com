@@ -28,7 +28,17 @@ class Giphy < Liquid::Tag
     #   margin: 0 auto;
     # }
 
-    cloudinaryPrefix = "https://res.cloudinary.com/nho/image/fetch"
+    site = context.registers[:site]
+    if site.config["cloudinary"].nil?
+      Jekyll.logger.abort_with("[Giphy]", "You must set your Cloudinary cloud_name in _config.yml")
+    end
+    settings = site.config["cloudinary"]
+    if settings["cloud_name"] == ""
+      Jekyll.logger.abort_with("[Giphy]", "You must set your Cloudinary cloud_name in _config.yml")
+    end
+    cloudname = settings["cloud_name"]
+
+    cloudinaryPrefix = "https://res.cloudinary.com/#{cloudname}/image/fetch"
     giphyImage = "https://media.giphy.com/media/#{@id}/giphy.gif"
     mp4Source = "<source src=\"#{cloudinaryPrefix}/f_mp4/#{giphyImage}\" type=\"video/mp4\">"
     webmSource = "<source src=\"#{cloudinaryPrefix}/f_webm/#{giphyImage}\" type=\"video/mp4\">"
