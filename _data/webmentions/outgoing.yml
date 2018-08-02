@@ -3430,3 +3430,27 @@ http://localhost:4000/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html:
 https://nicolas-hoizey.com/notes/2018/0726183216.html:
   https://w3c.github.io/mediacapture-image/: false
   https://blog.clever-age.com/en/2017/08/28/introduction-to-progressive-web-applications/: false
+http://localhost:4000/notes/2018/0726183216.html:
+  https://w3c.github.io/mediacapture-image/: false
+  https://blog.clever-age.com/en/2017/08/28/introduction-to-progressive-web-applications/: false
+https://nicolas-hoizey.com/notes/2018/0801102404.html:
+  https://twitter.com/brad_frost: false
+  http://bradfrost.com/blog/post/just/: false
+https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html:
+  https://nho.io/cloudinary-signup: false
+  https://cloudinary.com/blog/reduce_size_of_animated_gifs_automatically_convert_to_webm_and_mp4: false
+  https://res.cloudinary.com/demo/image/upload/kitten_fighting.gif: false
+  https://res.cloudinary.com/demo/image/upload/kitten_fighting.mp4: false
+  https://res.cloudinary.com/demo/image/upload/kitten_fighting.webm: false
+  https://cloudinary.com/documentation/fetch_remote_images: false
+  https://nhoizey.github.io/jekyll-cloudinary/: false
+  https://example.com/anim.gif`.: false
+  https://res.cloudinary.com/<cloud_name>/image/fetch/https://example.com/anim.gif: false
+  https://cloudinary.com/documentation/solution_overview: false
+  https://example.com/anim.mp4`,: false
+  https://cloudinary.com/documentation/image_transformations: false
+  https://res.cloudinary.com/<cloud_name>/image/fetch/f_mp4/https://example.com/anim.gif: false
+  https://example.com/anim.gif: false
+  https://res.cloudinary.com/<cloud_name>/image/fetch/f_webm/https://example.com/anim.gif: false
+  https://twitter.com/colinbendell: false
+  https://calendar.perfplanet.com/2017/animated-gif-without-the-gif/: false
