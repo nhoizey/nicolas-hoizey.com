@@ -1,5 +1,5 @@
 ---
-title: "Using Cloudinary's fetch API to convert an animated GIF to a video"
+title: "Using Cloudinary's Fetch API to convert an animated GIF to a video"
 lang:  en
 tags:  [video, GIF, Cloudinary]
 ---
