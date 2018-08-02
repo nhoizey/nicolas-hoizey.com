@@ -340,7 +340,7 @@ a.icon {
   vertical-align: middle;
   color: $color-networks-link;
   text-decoration: none;
-  transition-duration: 0.1s;
+  transition-duration: var(--base-duration);
   transition-property: color;
   transition-timing-function: ease-in-out;
 

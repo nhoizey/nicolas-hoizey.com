@@ -38,3 +38,13 @@ $color-networks-specific-hover: 'twitter' #55acee, 'px500' #000,
   'deviantart' #5fbb3b, 'feed' #ee9900;
 
 $baseline: 1.5em;
+
+:root {
+  --base-duration: 0.25s;
+}
+
+@media screen and (prefers-reduced-motion) {
+  :root {
+    --base-duration: 0s;
+  }
+}

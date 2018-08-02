@@ -424,12 +424,15 @@ summary {
     border: 2px solid lighten($color-purple-heart, 20%);
     color: #111;
     -webkit-appearance: none;
-    transition: background-color 0.25s ease-in-out,
-      border-color 0.25s ease-in-out, color 0.25s ease-in-out,
-      width 0.5s ease-in-out;
+
     width: 40%;
     min-width: 5em;
     margin-left: auto;
+
+    transition-property: background-color, border-color, color, width;
+    transition-duration: var(--base-duration), var(--base-duration),
+      var(--base-duration), calc(2 * var(--base-duration));
+    transition-timing-function: ease-in-out;
 
     &:focus {
       border: 2px solid lighten($color-purple-heart, 10%);
@@ -559,7 +562,7 @@ main {
     border-style: solid;
     border-radius: 0.5rem;
 
-    transition: border-color 0.5s;
+    transition: border-color calc(2 * var(--base-duration));
 
     &:hover {
       border-color: #ddd;
@@ -826,8 +829,10 @@ article {
   margin: 1em 0;
   border: 1px solid transparent;
   border-radius: 0.5em;
-  transition: background-color 0.25s ease-in-out, border-color 0.25s ease-in-out,
-    color 0.25s ease-in-out;
+
+  transition-property: background-color, border-color, color;
+  transition-duration: var(--base-duration);
+  transition-timing-function: ease-in-out;
 }
 
 .alert-success {
