@@ -34,7 +34,7 @@ Easy! Magical!
 
 But **I want my publication process to be even easier**, not requiring any upload (manual or automated) of my digital assets.
 
-{% giphy EGPedF9rwWrkI %}
+{% giphy C41yP1w3Pe0la %}
 
 That's why I find [Cloudinary's Fetch API](https://cloudinary.com/documentation/fetch_remote_images#remote_image_fetch_url) awesome!
 
@@ -77,6 +77,8 @@ With this:
   <p>Your browser doesn't support HTML5 video, <a href="https://example.com/anim.gif">download the animated GIF</a>.</p>
 </video>
 ```
+
+{% giphy uKpWZU3VXLprW %}
 
 Don't put an `<img>` tag with the animated GIF as the fallback, it would be downloaded anyway, even if the browser supports and shows the video.
 
