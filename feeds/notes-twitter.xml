@@ -2,43 +2,47 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Notes - Nicolas Hoizey</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}</link>
-    <link href="{{ site.url }}/feeds/notes-twitter.xml" rel="self" type="application/rss+xml" />
-    <link href="{{ site.url }}/notes/?utm_medium=social&amp;utm_source=Twitter&amp;utm_campaign=feed" />
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for note in site.notes reversed limit:20 %}
-      {% comment %} https://developer.twitter.com/en/docs/basics/counting-characters.html {% endcomment %}
-      {%- assign posse_content = note.raw_content | markdown_to_tweet | better_truncatewords: 35 | truncate: 200, "…" -%}
-      {%- assign posse_url = note.url | prepend: site.url -%}
-      {%- assign tweet_without_meta_size = site.posseify.twitter.note.template | replace: '@posse_content', posse_content | replace: '@posse_tags', '' | replace: '@posse_url', '' | size -%}
-      {% comment %} https://help.twitter.com/en/using-twitter/how-to-tweet-a-link {% endcomment %}
-      {%- assign space_left = site.posseify.twitter.max_length | minus: tweet_without_meta_size | minus: site.posseify.twitter.url_length -%}
-      {%- assign posse_tags = '' -%}
-      {%- assign posse_tags_nb = 0 -%}
-      {%- for tag in note.tags -%}
-        {%- if posse_tags_nb < site.posseify.twitter.note.max_hashtags %}
-          {%- capture new_tag -%}#{{ tag | slugify: 'latin' | camelcase | append: ' ' }}{%- endcapture -%}
-          {%- assign new_space_left = space_left | minus: new_tag.size -%}
-          {%- if new_space_left > 0 -%}
-            {%- assign posse_tags = posse_tags | append: new_tag -%}
-            {%- assign space_left = space_left | minus: new_tag.size -%}
-          {%- endif -%}
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Nicolas Hoizey's notes</title>
+  <link href="{{ site.url }}/feeds/notes-twitter.xml" rel="self" type="application/rss+xml" />
+  <link href="{{ site.url }}/?utm_medium=social&amp;utm_source=Twitter&amp;utm_campaign=feed" />
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.url }}/notes/</id>
+  <author>
+    <name>{{ site.author }}</name>
+    <email>{{ site.email }}</email>
+  </author>
+  {% for note in site.notes reversed limit:20 %}
+    {%- assign posse_title = note.title | markdown_to_tweet -%}
+    {%- assign posse_content = note.raw_content | markdown_to_tweet | better_truncatewords: 35 | truncate: 200, "…" -%}
+    {%- assign posse_url = note.url | prepend: site.url | append: '?utm_medium=social&amp;utm_source=Twitter&amp;utm_campaign=feed' -%}
+
+    {% comment %} https://developer.twitter.com/en/docs/basics/counting-characters.html {% endcomment %}
+    {%- assign tweet_without_meta_size = site.posseify.twitter.note.template | replace: '@posse_content', posse_content | replace: '@posse_tags', '' | replace: '@posse_url', '' | size -%}
+
+    {% comment %} https://help.twitter.com/en/using-twitter/how-to-tweet-a-link {% endcomment %}
+    {%- assign space_left = site.posseify.twitter.max_length | minus: tweet_without_meta_size | minus: site.posseify.twitter.url_length -%}
+
+    {%- assign posse_tags = '' -%}
+    {%- assign posse_tags_nb = 0 -%}
+    {%- for tag in note.tags -%}
+      {%- if posse_tags_nb < site.posseify.twitter.note.max_hashtags %}
+        {%- capture new_tag -%}#{{ tag | slugify: 'latin' | camelcase | append: ' ' }}{%- endcapture -%}
+        {%- assign new_space_left = space_left | minus: new_tag.size -%}
+        {%- if new_space_left > 0 -%}
+          {%- assign posse_tags = posse_tags | append: new_tag -%}
+          {%- assign space_left = space_left | minus: new_tag.size -%}
         {%- endif -%}
-      {%- endfor -%}
-      {%- assign tweet = site.posseify.twitter.note.template | replace: '@posse_content', posse_content | replace: '@posse_tags', posse_tags | replace: '@posse_url', posse_url -%}
-      <item>
-        <title>{{ note.title | xml_escape }}</title>
-        <content>{{ tweet | xml_escape }}</content>
-        <pubDate>{{ note.date | date_to_rfc822 }}</pubDate>
-        <link>{{ posse_url }}?utm_medium=social&amp;utm_source=Twitter&amp;utm_campaign=feed</link>
-        <guid isPermaLink="true">{{ posse_url }}</guid>
-      </item>
-    {% endfor %}
-  </channel>
-</rss>
+      {%- endif -%}
+    {%- endfor -%}
+
+    {%- assign tweet = site.posseify.twitter.note.template | replace: '@posse_content', posse_content | replace: '@posse_tags', posse_tags | replace: '@posse_url', posse_url -%}
+  <entry>
+    <title>{{ posse_title | xml_escape }}</title>
+    <content type="html">{{ tweet | xml_escape }}</content>
+    <id>{{ site.url }}{{ post.id }}</id>
+    <link href="{{ posse_url }}"/>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+  </entry>
+  {% endfor %}
+</feed>
