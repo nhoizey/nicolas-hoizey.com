@@ -40,9 +40,9 @@ layout: null
   <entry>
     <title>{{ posse_title | xml_escape }}</title>
     <content type="html">{{ tweet | xml_escape }}</content>
-    <id>{{ site.url }}{{ post.id }}</id>
+    <id>{{ site.url }}{{ note.id }}</id>
     <link href="{{ posse_url }}"/>
-    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <updated>{{ note.date | date_to_xmlschema }}</updated>
   </entry>
   {% endfor %}
 </feed>
