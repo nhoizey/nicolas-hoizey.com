@@ -19511,4 +19511,224 @@
 "/2004/06/if-the-automobile-had-followed-the-same-development-as-the-computer.html": {}
 "/notes/2018/0726183216.html": {}
 "/notes/2018/0801102404.html": {}
-"/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html": {}
+"/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html":
+  '538974':
+    id: '538974'
+    uri: https://twitter.com/nhoizey/status/1024909425432293376#favorited-by-14348674
+    source: twitter
+    pubdate: 2018-08-02 09:11:48.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nhoizey/1024909425432293376/14348674
+      verified: true
+      verified_date: '2018-08-02T07:11:48+00:00'
+      id: 538974
+      private: false
+      data:
+        author: &503
+          name: Vincent Composieux
+          url: https://twitter.com/vcomposieux
+          photo: https://webmention.io/avatar/pbs.twimg.com/2ed5370190aa21038fe017114b39d1188ecb1487148477b9e4d08740237ef3ac.jpg
+        url: https://twitter.com/nhoizey/status/1024909425432293376#favorited-by-14348674
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Vincent Composieux favorited a tweet https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
+        sentence_html: <a href="https://twitter.com/vcomposieux">Vincent Composieux</a>
+          favorited a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a>
+      target: https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
+    author: *503
+    type: like
+    content: <p><a href="https://twitter.com/vcomposieux">Vincent Composieux</a> favorited
+      a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a></p>
+  '538977':
+    id: '538977'
+    uri: https://twitter.com/nhoizey/status/1024909425432293376#favorited-by-307810043
+    source: twitter
+    pubdate: 2018-08-02 09:11:50.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nhoizey/1024909425432293376/307810043
+      verified: true
+      verified_date: '2018-08-02T07:11:50+00:00'
+      id: 538977
+      private: false
+      data:
+        author: &504
+          name: Cloudinary
+          url: https://twitter.com/cloudinary
+          photo: https://webmention.io/avatar/pbs.twimg.com/4f6003ea4d4feeee7bb37ef997dacf382b5610f3fc29e40424c544884ed87145.jpg
+        url: https://twitter.com/nhoizey/status/1024909425432293376#favorited-by-307810043
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Cloudinary favorited a tweet https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
+        sentence_html: <a href="https://twitter.com/cloudinary">Cloudinary</a> favorited
+          a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a>
+      target: https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
+    author: *504
+    type: like
+    content: <p><a href="https://twitter.com/cloudinary">Cloudinary</a> favorited
+      a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a></p>
+  '538978':
+    id: '538978'
+    uri: https://twitter.com/nhoizey/status/1024909425432293376#favorited-by-40312405
+    source: twitter
+    pubdate: 2018-08-02 09:11:52.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nhoizey/1024909425432293376/40312405
+      verified: true
+      verified_date: '2018-08-02T07:11:52+00:00'
+      id: 538978
+      private: false
+      data:
+        author: &505
+          name: Yann
+          url: https://twitter.com/firewalkwizme
+          photo: https://webmention.io/avatar/pbs.twimg.com/0d23b8b9f86d76a6945ea9832828c55248d76e8fd9fd4aceab9fefe2e83e4eb5.jpg
+        url: https://twitter.com/nhoizey/status/1024909425432293376#favorited-by-40312405
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Yann favorited a tweet https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
+        sentence_html: <a href="https://twitter.com/firewalkwizme">Yann</a> favorited
+          a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a>
+      target: https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
+    author: *505
+    type: like
+    content: <p><a href="https://twitter.com/firewalkwizme">Yann</a> favorited a tweet
+      <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a></p>
+  '539001':
+    id: '539001'
+    uri: https://twitter.com/nhoizey/status/1024909425432293376#favorited-by-1513091822
+    source: twitter
+    pubdate: 2018-08-02 11:20:58.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nhoizey/1024909425432293376/1513091822
+      verified: true
+      verified_date: '2018-08-02T09:20:58+00:00'
+      id: 539001
+      private: false
+      data:
+        author: &506
+          name: "Sasivarnan R \U0001F468\U0001F3FE‍\U0001F4BB"
+          url: https://twitter.com/iamsasivarnan
+          photo: https://webmention.io/avatar/pbs.twimg.com/4be79f4400b82fbcc4ecb21f3b01266aba7a6c45c0e1a5f3a0f94cd925ef6774.png
+        url: https://twitter.com/nhoizey/status/1024909425432293376#favorited-by-1513091822
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: "Sasivarnan R \U0001F468\U0001F3FE‍\U0001F4BB favorited a tweet
+          https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html"
+        sentence_html: "<a href=\"https://twitter.com/iamsasivarnan\">Sasivarnan R
+          \U0001F468\U0001F3FE‍\U0001F4BB</a> favorited a tweet <a href=\"https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html\">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a>"
+      target: https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
+    author: *506
+    type: like
+    content: "<p><a href=\"https://twitter.com/iamsasivarnan\">Sasivarnan R \U0001F468\U0001F3FE‍\U0001F4BB</a>
+      favorited a tweet <a href=\"https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html\">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a></p>"
+  '539009':
+    id: '539009'
+    uri: https://twitter.com/nhoizey/status/1024909425432293376#favorited-by-558848988
+    source: twitter
+    pubdate: 2018-08-02 12:44:49.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nhoizey/1024909425432293376/558848988
+      verified: true
+      verified_date: '2018-08-02T10:44:49+00:00'
+      id: 539009
+      private: false
+      data:
+        author: &507
+          name: Nightcrawler#MEANStack
+          url: https://twitter.com/AdebayoMuyiwa
+          photo: https://webmention.io/avatar/pbs.twimg.com/d279606ecbca3be83d385d8cc5d47f657358e824190d113f6d373be45dcd49b9.jpg
+        url: https://twitter.com/nhoizey/status/1024909425432293376#favorited-by-558848988
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Nightcrawler#MEANStack favorited a tweet https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
+        sentence_html: <a href="https://twitter.com/AdebayoMuyiwa">Nightcrawler#MEANStack</a>
+          favorited a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a>
+      target: https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
+    author: *507
+    type: like
+    content: <p><a href="https://twitter.com/AdebayoMuyiwa">Nightcrawler#MEANStack</a>
+      favorited a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a></p>
+  '1024909624003182593':
+    id: '1024909624003182593'
+    uri: https://twitter.com/CarineReignault/status/1024909624003182593
+    source: twitter
+    pubdate: 2018-08-02 08:47:50.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nhoizey/1024909425432293376/1024909624003182593
+      verified: true
+      verified_date: '2018-08-02T07:11:49+00:00'
+      id: 538975
+      private: false
+      data:
+        author: &508
+          name: Carine
+          url: https://twitter.com/CarineReignault
+          photo: https://webmention.io/avatar/pbs.twimg.com/0b03d105ecb3e11cee98022a115226483841b439c4b05eb1f05282cd9e467888.jpg
+        url: https://twitter.com/CarineReignault/status/1024909624003182593
+        name: 
+        content: I like animated GIFs, but they are heavy, hurting the performance
+          of web pages, and consuming data plans faster. We need to convert them to
+        published: '2018-08-02T06:47:50+00:00'
+        published_ts: 1533192470
+      activity:
+        type: repost
+        sentence: Carine retweeted a tweet https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
+        sentence_html: <a href="https://twitter.com/CarineReignault">Carine</a> retweeted
+          a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a>
+      target: https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
+    author: *508
+    type: repost
+    content: <p><a href="https://twitter.com/CarineReignault">Carine</a> retweeted
+      a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a></p>
+  '1024914880854286336':
+    id: '1024914880854286336'
+    uri: https://twitter.com/cloudinary/status/1024914880854286336
+    source: twitter
+    pubdate: 2018-08-02 09:08:44.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nhoizey/1024909425432293376/1024914880854286336
+      verified: true
+      verified_date: '2018-08-02T07:11:49+00:00'
+      id: 538976
+      private: false
+      data:
+        author: &509
+          name: Cloudinary
+          url: https://cloudinary.com/
+          photo: https://webmention.io/avatar/pbs.twimg.com/4f6003ea4d4feeee7bb37ef997dacf382b5610f3fc29e40424c544884ed87145.jpg
+        url: https://twitter.com/cloudinary/status/1024914880854286336
+        name: 
+        content: I like animated GIFs, but they are heavy, hurting the performance
+          of web pages, and consuming data plans faster. We need to convert them to
+        published: '2018-08-02T07:08:44+00:00'
+        published_ts: 1533193724
+      activity:
+        type: repost
+        sentence: Cloudinary retweeted a tweet https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
+        sentence_html: <a href="https://cloudinary.com/">Cloudinary</a> retweeted
+          a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a>
+      target: https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
+    author: *509
+    type: repost
+    content: <p><a href="https://cloudinary.com/">Cloudinary</a> retweeted a tweet
+      <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a></p>
