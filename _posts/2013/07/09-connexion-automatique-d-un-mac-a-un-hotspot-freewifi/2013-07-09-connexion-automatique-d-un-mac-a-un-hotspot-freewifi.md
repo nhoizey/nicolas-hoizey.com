@@ -1,7 +1,7 @@
 ---
 title:      Connexion automatique d'un Mac à un HotSpot FreeWifi
 lang:       fr
-tags:       [Mac, Wifi, Free]
+tags:       [mac, WiFi, free]
 ---
 
 Si vous êtes freenaute —c'est à dire abonné à l'offre ADSL Free— [vous pouvez vous connecter aux Freebox des autres freenautes](http://www.free.fr/adsl/pages/internet/connexion/acces-hotspot-wifiFree.html) quand vous voyagez.
