@@ -19897,3 +19897,164 @@
     content: <p>How <a href="https://twitter.com/nhoizey">@nhoizey</a> turns GIFs
       into WebMs and MP4s, using static templates and <a href="https://twitter.com/cloudinary">@cloudinary</a>
       URLs <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">nicolas-hoizey.com/2018/08/using-…</a></p>
+  '540056':
+    id: '540056'
+    uri: https://twitter.com/nhoizey/status/1026365595867119617#favorited-by-7333832
+    source: twitter
+    pubdate: 2018-08-06 10:08:05.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nhoizey/1026365595867119617/7333832
+      verified: true
+      verified_date: '2018-08-06T08:08:05+00:00'
+      id: 540056
+      private: false
+      data:
+        author: &515
+          name: Julien LEROY
+          url: https://twitter.com/leroyj
+          photo: https://webmention.io/avatar/pbs.twimg.com/8c45f080c735721c8f4eaf6f4772fac8e76c0ad821184c7477b1cc81221a93f1.jpg
+        url: https://twitter.com/nhoizey/status/1026365595867119617#favorited-by-7333832
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Julien LEROY favorited a tweet https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
+        sentence_html: <a href="https://twitter.com/leroyj">Julien LEROY</a> favorited
+          a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a>
+      target: https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
+    author: *515
+    type: like
+    content: <p><a href="https://twitter.com/leroyj">Julien LEROY</a> favorited a
+      tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a></p>
+  '1026366752152866816':
+    id: '1026366752152866816'
+    uri: https://twitter.com/tpillard/status/1026366752152866816
+    source: twitter
+    pubdate: 2018-08-06 09:17:57.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/nhoizey/1026365595867119617/1026366752152866816
+      verified: true
+      verified_date: '2018-08-06T07:41:28+00:00'
+      id: 540052
+      private: false
+      data:
+        author: &516
+          name: Tim
+          url: https://twitter.com/tpillard
+          photo: https://webmention.io/avatar/pbs.twimg.com/3d82e647cafbe47c61ba49aaad3fd48a796ef82db1f894898e24bdfc88660bd8.jpg
+        url: https://twitter.com/tpillard/status/1026366752152866816
+        name: 
+        content: |-
+          Chez moi ça marche (tm)<br />
+          Tu veux mon UA ?
+        published: '2018-08-06T07:17:57+00:00'
+        published_ts: 1533539877
+      activity:
+        type: reply
+        sentence: Tim replied 'Chez moi ça marche (tm)  Tu veux mon UA ?' to a tweet
+          https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
+        sentence_html: <a href="https://twitter.com/tpillard">Tim</a> replied 'Chez
+          moi ça marche (tm)  Tu veux mon UA ?' to a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a>
+      target: https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
+    author: *516
+    type: reply
+    content: |-
+      <p>Chez moi ça marche (tm)<br />
+      Tu veux mon UA ?</p>
+  '1026367030965022721':
+    id: '1026367030965022721'
+    uri: https://twitter.com/firewalkwizme/status/1026367030965022721
+    source: twitter
+    pubdate: 2018-08-06 09:19:03.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/nhoizey/1026365595867119617/1026367030965022721
+      verified: true
+      verified_date: '2018-08-06T07:41:23+00:00'
+      id: 540049
+      private: false
+      data:
+        author: &517
+          name: Yann
+          url: http://standardetaccessible.com
+          photo: https://webmention.io/avatar/pbs.twimg.com/0d23b8b9f86d76a6945ea9832828c55248d76e8fd9fd4aceab9fefe2e83e4eb5.jpg
+        url: https://twitter.com/firewalkwizme/status/1026367030965022721
+        name: 
+        content: sur mon iPhone (iOS 10.3) ca s’affiche bien
+        published: '2018-08-06T07:19:03+00:00'
+        published_ts: 1533539943
+      activity:
+        type: reply
+        sentence: Yann replied 'sur mon iPhone (iOS 10.3) ca s’affiche bien' to a
+          tweet https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
+        sentence_html: <a href="http://standardetaccessible.com">Yann</a> replied
+          'sur mon iPhone (iOS 10.3) ca s’affiche bien' to a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a>
+      target: https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
+    author: *517
+    type: reply
+    content: "<p>sur mon iPhone (iOS 10.3) ca s’affiche bien</p>"
+  '1026367093414023170':
+    id: '1026367093414023170'
+    uri: https://twitter.com/nhoizey/status/1026367093414023170
+    source: twitter
+    pubdate: 2018-08-06 09:19:18.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/nhoizey/1026365595867119617/1026367093414023170
+      verified: true
+      verified_date: '2018-08-06T07:41:25+00:00'
+      id: 540050
+      private: false
+      data:
+        author: &518
+          name: Nicolas Hoizey
+          url: https://nicolas-hoizey.com
+          photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
+        url: https://twitter.com/nhoizey/status/1026367093414023170
+        name: 
+        content: Je veux bien.
+        published: '2018-08-06T07:19:18+00:00'
+        published_ts: 1533539958
+      activity:
+        type: reply
+        sentence: Nicolas Hoizey replied 'Je veux bien.' to a tweet https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
+        sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
+          'Je veux bien.' to a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a>
+      target: https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
+    author: *518
+    type: reply
+    content: "<p>Je veux bien.</p>"
+  '1026367225521950720':
+    id: '1026367225521950720'
+    uri: https://twitter.com/nhoizey/status/1026367225521950720
+    source: twitter
+    pubdate: 2018-08-06 09:19:50.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/nhoizey/1026365595867119617/1026367225521950720
+      verified: true
+      verified_date: '2018-08-06T07:41:27+00:00'
+      id: 540051
+      private: false
+      data:
+        author: &519
+          name: Nicolas Hoizey
+          url: https://nicolas-hoizey.com
+          photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
+        url: https://twitter.com/nhoizey/status/1026367225521950720
+        name: 
+        content: J’ai une version plus récente, j’espère que ce n’est pas un nouveau
+          bug…
+        published: '2018-08-06T07:19:50+00:00'
+        published_ts: 1533539990
+      activity:
+        type: reply
+        sentence: Nicolas Hoizey replied 'J’ai une version plus récente, j’espère
+          que ce n’est pas un nouveau bug…' to a tweet https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
+        sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
+          'J’ai une version plus récente, j’espère que ce n’est pas un nouveau bug…'
+          to a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a>
+      target: https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
+    author: *519
+    type: reply
+    content: "<p>J’ai une version plus récente, j’espère que ce n’est pas un nouveau
+      bug…</p>"
