@@ -89,3 +89,8 @@ I didn't find any of this explained in Cloudinary documentation, maybe because i
 # One more thing…
 
 If you want to dive deeper in this topic, you can discover how — in the near future — animated GIFs converted to videos could be better loaded in `<img>` tags, with [Colin Bendell](https://twitter.com/colinbendell)'s post in the 2017 edition of Performance (Advent) Calendar: [Evolution of &lt;img&gt;: Gif without the GIF](https://calendar.perfplanet.com/2017/animated-gif-without-the-gif/).
+
+# Additional resources
+
+- [Gifhancement – convert GIF to video and embed responsible](https://justmarkup.com/log/2018/02/gifhancement/) by [Michael Scharnagl](https://justmarkup.com/log/servus-hello-and-welcome/)
+- [Evolution of `<img>`: Gif without the GIF](https://calendar.perfplanet.com/2017/animated-gif-without-the-gif/) by [Colin Bendell](https://twitter.com/colinbendell)
