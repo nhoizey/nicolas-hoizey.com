@@ -29,7 +29,7 @@ module Jekyll
       tweet.gsub!(/\[([^\]]+)\]\(https:\/\/twitter\.com\/([^)\/]+)\/?\)/, "@\\2")
 
       # links
-      tweet.gsub!(/\[([^\]]+)\]\(([^)]+)\)/, "\\1 (\\2)")
+      tweet.gsub!(/\[([^\]]+)\]\(([^)]+)\)/, "\\1 (\\2 )")
 
       tweet
     end
