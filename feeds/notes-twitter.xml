@@ -14,7 +14,7 @@ layout: null
   </author>
   {% for note in site.notes reversed limit:20 %}
     {%- assign posse_title = note.title | markdown_to_tweet -%}
-    {%- assign posse_content = note.raw_content | markdown_to_tweet | better_truncatewords: 35 | truncate: 200, "…" -%}
+    {%- assign posse_content = note.raw_content | markdown_to_tweet | truncatewords: 35, "…" | truncate: 200, "…" -%}
     {%- assign posse_url = note.url | prepend: site.url | append: '?utm_medium=social&amp;utm_source=Twitter&amp;utm_campaign=feed' -%}
 
     {% comment %} https://developer.twitter.com/en/docs/basics/counting-characters.html {% endcomment %}
