@@ -19214,6 +19214,37 @@
     author: *493
     type: reply
     content: "<p>\U0001F601</p>"
+  '540645':
+    id: '540645'
+    uri: https://twitter.com/nhoizey/status/1027228794925588480#favorited-by-16088762
+    source: twitter
+    pubdate: 2018-08-09 03:02:23.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nhoizey/1027228794925588480/16088762
+      verified: true
+      verified_date: '2018-08-09T03:02:23+00:00'
+      id: 540645
+      private: false
+      data:
+        author: &494
+          name: Bastien Jaillot
+          url: https://twitter.com/bastnic
+          photo: https://webmention.io/avatar/pbs.twimg.com/0dbb6910fed96ef1e3fdf19d6b27ac2dd24a7d5fbdcc7d71e693325a349d8280.jpg
+        url: https://twitter.com/nhoizey/status/1027228794925588480#favorited-by-16088762
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Bastien Jaillot favorited a tweet https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html
+        sentence_html: <a href="https://twitter.com/bastnic">Bastien Jaillot</a> favorited
+          a tweet <a href="https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html">https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html</a>
+      target: https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html
+    author: *494
+    type: like
+    content: <p><a href="https://twitter.com/bastnic">Bastien Jaillot</a> favorited
+      a tweet <a href="https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html">https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html</a></p>
 "/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html":
   '1019346466886897669':
     id: '1019346466886897669'
@@ -19227,7 +19258,7 @@
       id: 534771
       private: false
       data:
-        author: &494
+        author: &495
           name: NiKo`
           url: https://nicolas.perriault.net
           photo: https://webmention.io/avatar/pbs.twimg.com/244e6d0919a8f165f5e7b50dac442e70dfce5b34d7c649e8ec01670be7c89504.jpg
@@ -19245,7 +19276,7 @@
           absolument rien à voir, mais en suivant un lien vers l'article sur webmenti...'
           to a tweet <a href="https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html">https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html</a>
       target: https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html
-    author: *494
+    author: *495
     type: reply
     content: "<p>dis, absolument rien à voir, mais en suivant un lien vers l’article
       sur webmention je tombe sur ce chef d’oeuvre de typo \U0001F44C</p>"
@@ -19261,7 +19292,7 @@
       id: 534779
       private: false
       data:
-        author: &495
+        author: &496
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -19276,7 +19307,7 @@
         sentence_html: "<a href=\"https://nicolas-hoizey.com\">Nicolas Hoizey</a>
           replied 'Oh, merci ! \U0001F9D0' to a tweet <a href=\"https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html\">https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html</a>"
       target: https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html
-    author: *495
+    author: *496
     type: reply
     content: "<p>Oh, merci ! \U0001F9D0</p>"
   '1019347989159141376':
@@ -19291,7 +19322,7 @@
       id: 534780
       private: false
       data:
-        author: &496
+        author: &497
           name: Pep
           url: https://nrkn.fr/
           photo: https://webmention.io/avatar/pbs.twimg.com/2490b6cd586a8b20c473b305bceb72f1c182aedc788312ab29497ed3098c9ff1.jpg
@@ -19306,7 +19337,7 @@
         sentence_html: <a href="https://nrkn.fr/">Pep</a> replied 'Let’s block Rachel!'
           to a tweet <a href="https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html">https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html</a>
       target: https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html
-    author: *496
+    author: *497
     type: reply
     content: "<p>Let’s block Rachel!</p>"
   '1019463530351878144':
@@ -19321,7 +19352,7 @@
       id: 534823
       private: false
       data:
-        author: &497
+        author: &498
           name: Benjamin Lévêque
           url: http://benjamin.leveque.me
           photo: https://webmention.io/avatar/pbs.twimg.com/09d5b0d0a7461e4f8c30307a83a770e64d5cd6e7aa65cfde435ecb5352bd2449.jpg
@@ -19339,7 +19370,7 @@
         sentence_html: <a href="http://benjamin.leveque.me">Benjamin Lévêque</a> retweeted
           a tweet <a href="https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html">https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html</a>
       target: https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html
-    author: *497
+    author: *498
     type: repost
     content: <p><a href="http://benjamin.leveque.me">Benjamin Lévêque</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html">https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html</a></p>
@@ -19355,7 +19386,7 @@
       id: 534835
       private: false
       data:
-        author: &498
+        author: &499
           name: Lapeyre
           url: http://www.lapeyre.fr
           photo: https://webmention.io/avatar/pbs.twimg.com/2f372e200c00d4b235e88022db1f1e9324980eeac821630939990db964294ba6.jpg
@@ -19371,7 +19402,7 @@
         sentence_html: <a href="http://www.lapeyre.fr">Lapeyre</a> replied 'bonjour,
           pourriez vous nous donner plus d'explications en MP ?' to a tweet <a href="https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html">https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html</a>
       target: https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html
-    author: *498
+    author: *499
     type: reply
     content: "<p>bonjour, pourriez vous nous donner plus d’explications en MP ?</p>"
   '1019489580393947136':
@@ -19386,7 +19417,7 @@
       id: 534834
       private: false
       data:
-        author: &499
+        author: &500
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -19404,7 +19435,7 @@
           'Bonjour, mon article contient déjà pas mal d’informations. Le magasin concerné
           e...' to a tweet <a href="https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html">https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html</a>
       target: https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html
-    author: *499
+    author: *500
     type: reply
     content: "<p>Bonjour, mon article contient déjà pas mal d’informations. Le magasin
       concerné est celui de Grigny.</p>"
@@ -19420,7 +19451,7 @@
       id: 534980
       private: false
       data:
-        author: &500
+        author: &501
           name: Maël Brunet
           url: https://twitter.com/MaelB
           photo: https://webmention.io/avatar/pbs.twimg.com/24da9ec96b032ecfc5d1bed7bfd320ebcb91170c69991cbb1fbd05f42b7abf27.jpg
@@ -19435,7 +19466,7 @@
         sentence_html: <a href="https://twitter.com/MaelB">Maël Brunet</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html">https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html</a>
       target: https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html
-    author: *500
+    author: *501
     type: like
     content: <p><a href="https://twitter.com/MaelB">Maël Brunet</a> favorited a tweet
       <a href="https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html">https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html</a></p>
@@ -19451,7 +19482,7 @@
       id: 534946
       private: false
       data:
-        author: &501
+        author: &502
           name: Martin Supiot
           url: http://www.webaaz.com
           photo: https://webmention.io/avatar/pbs.twimg.com/7d6274ac4891cddd3f9fe6d60dfa051b316f4b7edf9e36529e478e36ff342af2.jpeg
@@ -19469,7 +19500,7 @@
         sentence_html: <a href="http://www.webaaz.com">Martin Supiot</a> retweeted
           a tweet <a href="https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html">https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html</a>
       target: https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html
-    author: *501
+    author: *502
     type: repost
     content: <p><a href="http://www.webaaz.com">Martin Supiot</a> retweeted a tweet
       <a href="https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html">https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html</a></p>
@@ -19485,7 +19516,7 @@
       id: 534947
       private: false
       data:
-        author: &502
+        author: &503
           name: Lapeyre
           url: http://www.lapeyre.fr
           photo: https://webmention.io/avatar/pbs.twimg.com/2f372e200c00d4b235e88022db1f1e9324980eeac821630939990db964294ba6.jpg
@@ -19504,7 +19535,7 @@
           nous avons bien pris connaissance de votre article, nous recherchons v...'
           to a tweet <a href="https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html">https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html</a>
       target: https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html
-    author: *502
+    author: *503
     type: reply
     content: "<p>Monsieur, nous avons bien pris connaissance de votre article, nous
       recherchons votre dossier auprès du Service Client, traitons votre demande dans
@@ -19521,7 +19552,7 @@
       id: 534949
       private: false
       data:
-        author: &503
+        author: &504
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -19536,7 +19567,7 @@
         sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
           'Merci.' to a tweet <a href="https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html">https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html</a>
       target: https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html
-    author: *503
+    author: *504
     type: reply
     content: "<p>Merci.</p>"
 "/2004/06/if-the-automobile-had-followed-the-same-development-as-the-computer.html": {}
@@ -19554,7 +19585,7 @@
       id: 539243
       private: false
       data:
-        author: &504
+        author: &505
           name: "˗ˏˋ tzi ˊˎ˗"
           url: https://twitter.com/iamtzi
           photo: https://webmention.io/avatar/pbs.twimg.com/119db3d83628f9cf5464f7371bb0769aa9c447cb96ab47ce214c685370bebbf5.jpg
@@ -19569,7 +19600,7 @@
         sentence_html: <a href="https://twitter.com/iamtzi">˗ˏˋ tzi ˊˎ˗</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/notes/2018/0801102404.html">https://nicolas-hoizey.com/notes/2018/0801102404.html</a>
       target: https://nicolas-hoizey.com/notes/2018/0801102404.html
-    author: *504
+    author: *505
     type: like
     content: <p><a href="https://twitter.com/iamtzi">˗ˏˋ tzi ˊˎ˗</a> favorited a tweet
       <a href="https://nicolas-hoizey.com/notes/2018/0801102404.html">https://nicolas-hoizey.com/notes/2018/0801102404.html</a></p>
@@ -19585,7 +19616,7 @@
       id: 539246
       private: false
       data:
-        author: &505
+        author: &506
           name: Bastien Jaillot
           url: https://twitter.com/bastnic
           photo: https://webmention.io/avatar/pbs.twimg.com/0dbb6910fed96ef1e3fdf19d6b27ac2dd24a7d5fbdcc7d71e693325a349d8280.jpg
@@ -19600,7 +19631,7 @@
         sentence_html: <a href="https://twitter.com/bastnic">Bastien Jaillot</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/notes/2018/0801102404.html">https://nicolas-hoizey.com/notes/2018/0801102404.html</a>
       target: https://nicolas-hoizey.com/notes/2018/0801102404.html
-    author: *505
+    author: *506
     type: like
     content: <p><a href="https://twitter.com/bastnic">Bastien Jaillot</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/notes/2018/0801102404.html">https://nicolas-hoizey.com/notes/2018/0801102404.html</a></p>
@@ -19617,7 +19648,7 @@
       id: 538974
       private: false
       data:
-        author: &506
+        author: &507
           name: Vincent Composieux
           url: https://twitter.com/vcomposieux
           photo: https://webmention.io/avatar/pbs.twimg.com/2ed5370190aa21038fe017114b39d1188ecb1487148477b9e4d08740237ef3ac.jpg
@@ -19632,7 +19663,7 @@
         sentence_html: <a href="https://twitter.com/vcomposieux">Vincent Composieux</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a>
       target: https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
-    author: *506
+    author: *507
     type: like
     content: <p><a href="https://twitter.com/vcomposieux">Vincent Composieux</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a></p>
@@ -19648,7 +19679,7 @@
       id: 538977
       private: false
       data:
-        author: &507
+        author: &508
           name: Cloudinary
           url: https://twitter.com/cloudinary
           photo: https://webmention.io/avatar/pbs.twimg.com/4f6003ea4d4feeee7bb37ef997dacf382b5610f3fc29e40424c544884ed87145.jpg
@@ -19663,7 +19694,7 @@
         sentence_html: <a href="https://twitter.com/cloudinary">Cloudinary</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a>
       target: https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
-    author: *507
+    author: *508
     type: like
     content: <p><a href="https://twitter.com/cloudinary">Cloudinary</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a></p>
@@ -19679,7 +19710,7 @@
       id: 538978
       private: false
       data:
-        author: &508
+        author: &509
           name: Yann
           url: https://twitter.com/firewalkwizme
           photo: https://webmention.io/avatar/pbs.twimg.com/0d23b8b9f86d76a6945ea9832828c55248d76e8fd9fd4aceab9fefe2e83e4eb5.jpg
@@ -19694,7 +19725,7 @@
         sentence_html: <a href="https://twitter.com/firewalkwizme">Yann</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a>
       target: https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
-    author: *508
+    author: *509
     type: like
     content: <p><a href="https://twitter.com/firewalkwizme">Yann</a> favorited a tweet
       <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a></p>
@@ -19710,7 +19741,7 @@
       id: 539001
       private: false
       data:
-        author: &509
+        author: &510
           name: "Sasivarnan R \U0001F468\U0001F3FE‍\U0001F4BB"
           url: https://twitter.com/iamsasivarnan
           photo: https://webmention.io/avatar/pbs.twimg.com/4be79f4400b82fbcc4ecb21f3b01266aba7a6c45c0e1a5f3a0f94cd925ef6774.png
@@ -19726,7 +19757,7 @@
         sentence_html: "<a href=\"https://twitter.com/iamsasivarnan\">Sasivarnan R
           \U0001F468\U0001F3FE‍\U0001F4BB</a> favorited a tweet <a href=\"https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html\">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a>"
       target: https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
-    author: *509
+    author: *510
     type: like
     content: "<p><a href=\"https://twitter.com/iamsasivarnan\">Sasivarnan R \U0001F468\U0001F3FE‍\U0001F4BB</a>
       favorited a tweet <a href=\"https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html\">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a></p>"
@@ -19742,7 +19773,7 @@
       id: 539009
       private: false
       data:
-        author: &510
+        author: &511
           name: Nightcrawler#MEANStack
           url: https://twitter.com/AdebayoMuyiwa
           photo: https://webmention.io/avatar/pbs.twimg.com/d279606ecbca3be83d385d8cc5d47f657358e824190d113f6d373be45dcd49b9.jpg
@@ -19757,7 +19788,7 @@
         sentence_html: <a href="https://twitter.com/AdebayoMuyiwa">Nightcrawler#MEANStack</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a>
       target: https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
-    author: *510
+    author: *511
     type: like
     content: <p><a href="https://twitter.com/AdebayoMuyiwa">Nightcrawler#MEANStack</a>
       favorited a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a></p>
@@ -19773,7 +19804,7 @@
       id: 538975
       private: false
       data:
-        author: &511
+        author: &512
           name: Carine
           url: https://twitter.com/CarineReignault
           photo: https://webmention.io/avatar/pbs.twimg.com/0b03d105ecb3e11cee98022a115226483841b439c4b05eb1f05282cd9e467888.jpg
@@ -19789,7 +19820,7 @@
         sentence_html: <a href="https://twitter.com/CarineReignault">Carine</a> retweeted
           a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a>
       target: https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
-    author: *511
+    author: *512
     type: repost
     content: <p><a href="https://twitter.com/CarineReignault">Carine</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a></p>
@@ -19805,7 +19836,7 @@
       id: 538976
       private: false
       data:
-        author: &512
+        author: &513
           name: Cloudinary
           url: https://cloudinary.com/
           photo: https://webmention.io/avatar/pbs.twimg.com/4f6003ea4d4feeee7bb37ef997dacf382b5610f3fc29e40424c544884ed87145.jpg
@@ -19821,7 +19852,7 @@
         sentence_html: <a href="https://cloudinary.com/">Cloudinary</a> retweeted
           a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a>
       target: https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
-    author: *512
+    author: *513
     type: repost
     content: <p><a href="https://cloudinary.com/">Cloudinary</a> retweeted a tweet
       <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a></p>
@@ -19837,7 +19868,7 @@
       id: 539040
       private: false
       data:
-        author: &513
+        author: &514
           name: Šime Vidas
           url: https://webplatform.news
           photo: https://webmention.io/avatar/pbs.twimg.com/09bb4880190585b5e89c617e2b0fc0af42f2bd0b1eefa64fa76f35eb307555a6.jpeg
@@ -19856,7 +19887,7 @@
           checked the source code of the first video in the article. I think this
           is a t...' to a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a>
       target: https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
-    author: *513
+    author: *514
     type: reply
     content: "<p>I checked the source code of the first video in the article. I think
       this is a typo: the type attribute value is the same for both &lt;source&gt;
@@ -19873,7 +19904,7 @@
       id: 539164
       private: false
       data:
-        author: &514
+        author: &515
           name: Eric Portis
           url: http://ericportis.com
           photo: https://webmention.io/avatar/pbs.twimg.com/558b4c45b7bd5a1107c170e4bb77e2f8cd7f59bf7eda42756b5a7b93c24753a2.png
@@ -19892,7 +19923,7 @@
           @nhoizey turns GIFs into WebMs and MP4s, using static templates and @cloudin...'
           linking to <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a>
       target: https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
-    author: *514
+    author: *515
     type: link
     content: <p>How <a href="https://twitter.com/nhoizey">@nhoizey</a> turns GIFs
       into WebMs and MP4s, using static templates and <a href="https://twitter.com/cloudinary">@cloudinary</a>
@@ -19909,7 +19940,7 @@
       id: 540056
       private: false
       data:
-        author: &515
+        author: &516
           name: Julien LEROY
           url: https://twitter.com/leroyj
           photo: https://webmention.io/avatar/pbs.twimg.com/8c45f080c735721c8f4eaf6f4772fac8e76c0ad821184c7477b1cc81221a93f1.jpg
@@ -19924,7 +19955,7 @@
         sentence_html: <a href="https://twitter.com/leroyj">Julien LEROY</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a>
       target: https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
-    author: *515
+    author: *516
     type: like
     content: <p><a href="https://twitter.com/leroyj">Julien LEROY</a> favorited a
       tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a></p>
@@ -19940,7 +19971,7 @@
       id: 540052
       private: false
       data:
-        author: &516
+        author: &517
           name: Tim
           url: https://twitter.com/tpillard
           photo: https://webmention.io/avatar/pbs.twimg.com/3d82e647cafbe47c61ba49aaad3fd48a796ef82db1f894898e24bdfc88660bd8.jpg
@@ -19958,7 +19989,7 @@
         sentence_html: <a href="https://twitter.com/tpillard">Tim</a> replied 'Chez
           moi ça marche (tm)  Tu veux mon UA ?' to a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a>
       target: https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
-    author: *516
+    author: *517
     type: reply
     content: |-
       <p>Chez moi ça marche (tm)<br />
@@ -19975,7 +20006,7 @@
       id: 540049
       private: false
       data:
-        author: &517
+        author: &518
           name: Yann
           url: http://standardetaccessible.com
           photo: https://webmention.io/avatar/pbs.twimg.com/0d23b8b9f86d76a6945ea9832828c55248d76e8fd9fd4aceab9fefe2e83e4eb5.jpg
@@ -19991,7 +20022,7 @@
         sentence_html: <a href="http://standardetaccessible.com">Yann</a> replied
           'sur mon iPhone (iOS 10.3) ca s’affiche bien' to a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a>
       target: https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
-    author: *517
+    author: *518
     type: reply
     content: "<p>sur mon iPhone (iOS 10.3) ca s’affiche bien</p>"
   '1026367093414023170':
@@ -20006,7 +20037,7 @@
       id: 540050
       private: false
       data:
-        author: &518
+        author: &519
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -20021,7 +20052,7 @@
         sentence_html: <a href="https://nicolas-hoizey.com">Nicolas Hoizey</a> replied
           'Je veux bien.' to a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a>
       target: https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
-    author: *518
+    author: *519
     type: reply
     content: "<p>Je veux bien.</p>"
   '1026367225521950720':
@@ -20036,7 +20067,7 @@
       id: 540051
       private: false
       data:
-        author: &519
+        author: &520
           name: Nicolas Hoizey
           url: https://nicolas-hoizey.com
           photo: https://webmention.io/avatar/pbs.twimg.com/157a8e9c1212a9506cc12c2cc7013889236e35667ba1444b7343ce6f69928ad9.jpeg
@@ -20054,7 +20085,7 @@
           'J’ai une version plus récente, j’espère que ce n’est pas un nouveau bug…'
           to a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a>
       target: https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
-    author: *519
+    author: *520
     type: reply
     content: "<p>J’ai une version plus récente, j’espère que ce n’est pas un nouveau
       bug…</p>"
