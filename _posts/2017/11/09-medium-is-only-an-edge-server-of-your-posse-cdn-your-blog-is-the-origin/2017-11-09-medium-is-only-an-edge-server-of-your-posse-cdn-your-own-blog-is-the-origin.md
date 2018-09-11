@@ -76,9 +76,7 @@ I know it is not easy for most people to create and host their own platform, lik
 
 https://twitter.com/nsteinmetz/status/928183482882428928
 
-Remouk also added that the reach of our own platform is almost nonexistent, and that he has more comments on social shares than on the actual contents themselves:
-
-https://twitter.com/remouk/status/928189534264754177
+Remouk also added (in a since deleted Tweet) that the reach of our own platform is almost nonexistent, and that he has more comments on social shares than on the actual contents themselves.
 
 I experience the same, that's why I'm really happy that [Webmentions, webmention.io and Bridgy](/2017/07/so-long-disqus-hello-webmentions.html) allow me to get Twitter comments back to my posts.
 
