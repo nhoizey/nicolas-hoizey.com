@@ -1,7 +1,7 @@
---- 
-title:      Flickr ajoute de nouveaux flux RSS pour suivre l'activité du site 
-lang:       fr 
-tags:       [Flickr, RSS]
+---
+title:      Flickr ajoute de nouveaux flux RSS pour suivre l'activité du site
+lang:       fr
+tags:       [Flickr, feed]
 ---
 
 Sans que j'ai vu la moindre annonce officielle où que ce soit, j'ai découvert que [Flickr](http://flickr.com/) a ajouté au moins deux nouveaux types de flux RSS pour suivre l'activité du site.

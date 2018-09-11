@@ -1,7 +1,7 @@
 ---
 title:      "L'affichage a les chevilles qui enflent"
 lang:       fr
-tags:       [publicité]
+tags:       [advertisement]
 ---
 
 

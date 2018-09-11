@@ -1,7 +1,7 @@
---- 
-title:      "L'impact des nouveaux formats de pub" 
-lang:       fr 
-tags:       [publicité]
+---
+title:      "L'impact des nouveaux formats de pub"
+lang:       fr
+tags:       [advertisement]
 ---
 
 

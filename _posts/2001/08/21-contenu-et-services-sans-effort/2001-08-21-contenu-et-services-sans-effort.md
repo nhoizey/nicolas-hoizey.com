@@ -1,7 +1,7 @@
 ---
 title:      "Contenu et services sans effort"
 lang:       fr
-tags:       [syndication, Web Services]
+tags:       [feed, Web Services]
 ---
 
 A l'heure où le contenu et les services sont (enfin) redevenus rois, pouvoir en proposer de très riches et nombreux est souvent un facteur déterminant de réussite pour un site communautaire. C'est ce qu'ont bien compris les fournisseurs de contenu et services par syndication, la nouvelle fureur du web.

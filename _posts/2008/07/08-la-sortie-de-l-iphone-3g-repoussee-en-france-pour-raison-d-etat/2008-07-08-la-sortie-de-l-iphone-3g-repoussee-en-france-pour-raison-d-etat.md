@@ -1,7 +1,7 @@
 ---
 title:      La sortie de l'iPhone 3G repoussée en France pour raison d'État
 lang:       fr
-tags:       [musique, Apple, iPhone]
+tags:       [music, Apple, iPhone]
 ---
 
 Cela ne vous a sans doute pas échappé, Apple sort enfin un iPhone digne de ce nom, au point de compléter son nom avec ce qui manquait le plus à sa version *beta*[^1], la 3G. Voici donc l'iPhone 3G qui débarque dans le monde entier le 11 juillet... ah, non, attendez, [nous ne l'aurons que le 17 juillet en France](http://www.iphon.fr/post/2008/06/09/Le-11-Non-le-17-juillet), le 11 était déjà réservé par plus important.

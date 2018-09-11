@@ -1,7 +1,7 @@
---- 
-title:      OPML, le CV du Web 2.0 
-lang:       fr 
-tags:       [Web 2.0, OPML]
+---
+title:      OPML, le CV du Web 2.0
+lang:       fr
+tags:       [Web 2.0, feed]
 ---
 
 C'est au détour d'un billet du blog de Soocial que j'ai découvert que la liste OPML est maintenant envisagé par certains comme bon indicateur des centres d'intérêts d'un potentiel candidat à l'embauche, plus intéressant que son classique CV. Pas si idiot qu'on pourrait le croire au premier abord.

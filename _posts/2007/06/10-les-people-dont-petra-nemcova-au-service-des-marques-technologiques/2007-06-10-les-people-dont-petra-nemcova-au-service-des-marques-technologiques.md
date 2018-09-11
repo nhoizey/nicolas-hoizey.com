@@ -1,7 +1,7 @@
---- 
-title:      Les people - dont Petra Nemcova - au service des marques technologiques 
-lang:       fr 
-tags:       [informatique, Apple, people, marketing, ordinateur]
+---
+title:      Les people - dont Petra Nemcova - au service des marques technologiques
+lang:       fr
+tags:       [informatique, Apple, marketing, computer]
 ---
 
 On a maintenant l'habitude de voir les films servir de support publicitaire à de grandes marques, à l'instar de [Seul au monde](/2001/02/seul-au-monde-cast-away.html) pour FedEx, ou de films plus technologiques -- James Bond, Mission:Impossible, etc. -- pour des montres, téléphones ou voitures. On avait là des mises en situation de ces objets, destinées bien sûr à montrer leurs qualités.

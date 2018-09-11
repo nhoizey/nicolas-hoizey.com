@@ -1,7 +1,7 @@
 ---
 title:      Renault, des voitures à vivre… des sensations fortes !
 lang:       fr
-tags:       [publicité, vidéo, voiture]
+tags:       [advertisement, video]
 ---
 
 Incroyable, je pensais ne jamais revoir une belle Alpine, et voilà que Renault relance enfin cette marque légendaire, avec un hommage à l'Alpine A110 dont on fête les 50 ans.

@@ -1,7 +1,7 @@
 ---
 title:      Des jeux de bastion sur la PS3 ?
 lang:       fr
-tags:       [game, fail, Sony, PlayStation]
+tags:       [game, fail, Sony]
 ---
 
 Oui, oui, vous avez bien lu, c'est bien de jeux de « bastion » que je parle, le genre qui laisse imaginer des combats entre deux équipes pour conquérir le territoire de l'autre. En tout cas c'est ce que proposait le [PlayStation Store](http://store.playstation.com/) lors de sa récente mise à jour...

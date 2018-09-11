@@ -1,7 +1,7 @@
 ---
 title:      "Comme quoi on peut s'amuser aussi sur un site Corpo"
 lang:       fr
-tags:       [game, interface]
+tags:       [game]
 ---
 
 

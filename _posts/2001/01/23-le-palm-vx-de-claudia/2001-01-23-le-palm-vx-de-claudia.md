@@ -1,7 +1,7 @@
 ---
 title:      "Le Palm Vx de Claudia"
 lang:       fr
-tags:       ["humour", "mannequin"]
+tags:       [fun]
 ---
 
 

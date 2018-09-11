@@ -1,7 +1,7 @@
---- 
-title:      "En pâte Sicilian ou Cheezy Crust ton serveur ?" 
-lang:       fr 
-tags:       ["humour", "informatique"]
+---
+title:      "En pâte Sicilian ou Cheezy Crust ton serveur ?"
+lang:       fr
+tags:       [fun, "informatique"]
 ---
 
 

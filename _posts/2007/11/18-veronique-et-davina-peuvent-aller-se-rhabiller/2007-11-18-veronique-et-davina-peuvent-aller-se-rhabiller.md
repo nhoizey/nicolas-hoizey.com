@@ -1,7 +1,7 @@
---- 
-title:      Véronique et Davina peuvent aller se rhabiller ! 
-lang:       fr 
-tags:       [musique, sport, Daft Punk]
+---
+title:      Véronique et Davina peuvent aller se rhabiller !
+lang:       fr
+tags:       [music, sport, Daft Punk]
 ---
 
 [Véronique et Davina](http://www.veronique-et-davina.com/) ont beau être revenues à la mode avec la tendance rétro disco actuelle, ça c'est de l'aérobic moderne !

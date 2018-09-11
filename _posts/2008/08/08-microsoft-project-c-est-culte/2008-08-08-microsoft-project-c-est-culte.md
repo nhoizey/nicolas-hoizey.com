@@ -1,7 +1,7 @@
 ---
 title:      Microsoft Project, c'est culte !
 lang:       fr
-tags:       [Microsoft, logiciel]
+tags:       [Microsoft, software]
 ---
 
 Certes, je n'ai pas encore vraiment trouvé mieux comme outil de planification[^1], mais de là à donner le qualificatif de « culte » à ce logiciel, je n'aurais pas osé. Microsoft, si.

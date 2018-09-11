@@ -1,7 +1,7 @@
---- 
-title:      Avec l'iPhone d'Apple bientôt disponible, la fièvre monte 
-lang:       fr 
-tags:       [publicité, Apple]
+---
+title:      Avec l'iPhone d'Apple bientôt disponible, la fièvre monte
+lang:       fr
+tags:       [advertisement, Apple]
 ---
 
 L'[iPhone](http://www.apple.com/iphone/), nouveau petit bijou de [Apple](http://www.apple.com/), sera disponible aux Etats-Unis à partir du 29 juin.

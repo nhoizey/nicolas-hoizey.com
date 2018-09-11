@@ -1,7 +1,7 @@
 ---
 title:      Faut-il que je revienne à un unique flux RSS ?
 lang:       fr
-tags:       [Gastero Prod, RSS, FeedBurner]
+tags:       [Gastero Prod, feed, FeedBurner]
 ---
 
 J'avais annoncé en février l'[arrivée de plusieurs flux RSS](/2008/02/avis-de-turbulences-dans-les-flux-rss-de-gastero-prod.html) pour suivre les différents éléments publiés sur Gastero Prod, mais je constate après quelques mois que plus de 95% des abonnés le sont au flux complet. Cela laisse supposer que les autres flux ne sont que peu intéressant, et que je peux envisager de les supprimer sans douleur, afin de simplifier l'accès à l'information.

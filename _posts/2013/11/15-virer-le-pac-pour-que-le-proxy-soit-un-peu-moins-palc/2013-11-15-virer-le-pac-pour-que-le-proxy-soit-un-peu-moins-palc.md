@@ -1,7 +1,7 @@
 ---
 title:      Virer le .pac pour que le proxy soit un peu moins PALC
 lang:       fr
-tags:       [sécurité]
+tags:       [security]
 ---
 
 Quand les clients ne nous imposent pas de travailler sur leurs propres machines —heureusement pas trop souvent—, ils nous imposent souvent un proxy pour accéder à Internet, le grand méchant loup. S'il est bien connu que les règles de filtrage imposées sont souvent contre productives, l'auto configuration à l'aide d'un fichier `.pac` peut ajouter une contrainte supplémentaire pour les développeurs.

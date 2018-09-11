@@ -1,7 +1,7 @@
 ---
 title:      Splitscreen, A Love Story
 lang:       fr
-tags:       [vidéo, film]
+tags:       [video, film]
 ---
 
 Ça commence à dater un peu en temps Web — 7 mois, vous imaginez ? — mais j'ai découvert ce petit bijou grâce aux [favoris Vimeo de Christophe Lauer](http://vimeo.com/clauer/likes), et je n'ai pas pu m'empêcher de le partager.

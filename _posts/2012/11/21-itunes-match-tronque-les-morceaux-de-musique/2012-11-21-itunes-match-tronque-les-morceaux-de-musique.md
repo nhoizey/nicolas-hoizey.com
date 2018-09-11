@@ -1,7 +1,7 @@
 ---
 title:      iTunes Match tronque les morceaux de musique
 lang:       fr
-tags:       [musique, iTunes, Apple]
+tags:       [music, iTunes, Apple]
 ---
 
 N'écoutant que rarement de la musique sur mon Mac, j'ai constaté sur mon vieil iPhone 3Gs que la lecture de certains morceaux de musique s'arrêtait soudainement, en plein milieu, pour passer au morceaux suivant. Sans avoir creusé plus que ça, j'étais alors convaincu que ce n'était qu'un symptôme supplémentaire de la vétusté de mon iPhone. Mais le changement d'iPhone n'a rien changé, et j'ai constaté hier le même problème sur le Mac. J'ai donc creusé un peu le sujet.

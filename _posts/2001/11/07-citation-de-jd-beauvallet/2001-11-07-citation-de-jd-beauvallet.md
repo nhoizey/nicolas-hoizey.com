@@ -1,7 +1,7 @@
 ---
 title:      "Citation de JD Beauvallet"
 lang:       fr
-tags:       [presse, musique, quote]
+tags:       [presse, music, quote]
 ---
 
 

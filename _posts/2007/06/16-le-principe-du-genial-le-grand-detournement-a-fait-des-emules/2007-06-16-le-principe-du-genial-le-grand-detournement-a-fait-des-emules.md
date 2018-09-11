@@ -1,7 +1,7 @@
---- 
-title:      Le principe du génial « Le Grand Détournement » a fait des émules 
-lang:       fr 
-tags:       [cinéma, vidéo]
+---
+title:      Le principe du génial « Le Grand Détournement » a fait des émules
+lang:       fr
+tags:       [cinéma, video]
 ---
 
 Vous connaissez sans doute le chef d'œuvre « Le Grand Détournement », film réalisé par une équipe de Canal+ fin 1993, qui créait une histoire certes farfelue -- mais logique -- en assemblant des extraits de multiples films et en les doublant pour assurer un lien cohérent.

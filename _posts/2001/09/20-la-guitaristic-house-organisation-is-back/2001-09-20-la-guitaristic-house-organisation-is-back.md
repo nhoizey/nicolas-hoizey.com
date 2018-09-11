@@ -1,7 +1,7 @@
---- 
-title:      "La Guitaristic House Organisation is back" 
-lang:       fr 
-tags:       [musique]
+---
+title:      "La Guitaristic House Organisation is back"
+lang:       fr
+tags:       [music]
 ---
 
 ## Rinôçérôse enfin de retour pour confirmer le succès de leur premier opus

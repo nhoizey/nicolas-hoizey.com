@@ -1,7 +1,7 @@
 ---
 title:      Un Netbook comme videur de cartes amélioré ?
 lang:       fr
-tags:       [photo, matériel]
+tags:       [photo, gear]
 ---
 
 Ayant du mal à trimbaler mon MacBook 13" dans mon sac [Lowepro Flipside 400 AW](/2008/12/quel-sac-photo-pour-un-reflex-et-ses-accessoires.html), je me dis de plus en plus qu'un NetBook ferait plus l'affaire comme videur de cartes amélioré quand je suis en vadrouille. Mais quel modèle choisir ?

@@ -1,7 +1,7 @@
 ---
 title:      De la dance hip hop lumineuse
 lang:       fr
-tags:       [musique, vidéo]
+tags:       [music, video]
 ---
 
 Une fois de plus, c'est au détour d'[un tweet](https://twitter.com/codepo8/status/180626257938100224) que j'ai découvert cette vidéo d'une fabuleuse performance live du groupe japonais de danse hip hop [Wrecking Crew Orchestra](http://wizarts.jp/).

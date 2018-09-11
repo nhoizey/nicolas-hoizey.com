@@ -1,7 +1,7 @@
 ---
 title:      Citation de Björk
 lang:       fr
-tags:       [musique, quote]
+tags:       [music, quote]
 ---
 
 > C'est toujours très bizarre [...] de voir les classifications des musiques : « rock », « jazz », « world ». Mais comment faites-vous pour mettre toutes ces musiques dans une même boîte ? Et pourquoi le rock n'est-il pas de la musique « world » ? Je ne comprends pas. Et je trouve que cela relève vraiment de l'impérialisme.

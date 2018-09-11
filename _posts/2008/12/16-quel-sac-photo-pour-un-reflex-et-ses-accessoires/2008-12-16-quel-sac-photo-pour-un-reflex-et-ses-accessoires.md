@@ -1,7 +1,7 @@
 ---
 title:      Quel sac photo pour un reflex et ses accessoires ?
 lang:       fr
-tags:       [photo, matériel, Canon, sac]
+tags:       [photo, gear, Canon, sac]
 ---
 
 Je trimballe pour l'instant mon Canon EOS 350D[^1] et ses accessoires dans un sac à dos photo [Lowepro Mini Trekker Classic](http://www.google.fr/images?hl=fr&q=lowepro+Mini+Trekker+Classic). Je l'avais obtenu quasiment gratuitement avec un abonnement à [Réponses Photo (fr)](http://fr.wikipedia.org/wiki/R%C3%A9ponses_Photo), donc je n'ai pas trop réfléchi à l'époque à ses avantages/inconvénients par rapport à la concurrence. Mais maintenant que je vais monter en gamme au niveau matériel, et du coup aussi en poids total, je cherche un sac en conséquence, notamment pour ce qui est de l'espace de rangement, de l'ergonomie, et du confort de portage.

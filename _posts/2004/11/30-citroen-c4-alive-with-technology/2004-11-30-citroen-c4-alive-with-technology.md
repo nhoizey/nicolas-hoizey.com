@@ -1,7 +1,7 @@
---- 
-title:      "Citroën C4 : Alive with technology" 
-lang:       fr 
-tags:       [humour, création, publicité]
+---
+title:      "Citroën C4 : Alive with technology"
+lang:       fr
+tags:       [humour, création, advertisement]
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title:      A quand un MacBook Helium pour concurrencer les ASUS Eee PC, MSI Wind et autres Medion Akoya ?
 lang:       fr
-tags:       [Apple, ordinateur, NetBook]
+tags:       [Apple, computer, NetBook]
 ---
 
 Alors que (presque) tous les constructeurs d'ordinateurs portables clonent l'imprévu [ASUS Eee PC](http://eeepc.asus.com/fr/index.htm) et se lancent à corps perdu dans la mêlée pour grappiller des parts de marché sur ce qu'on appelle désormais les « NetBooks », que fait Apple ? Une version 9 ou 10 pouces du [MacBook Air](http://www.apple.com/fr/macbookair/) -- appelons-le MacBook Helium -- trouverait sans doute de très nombreux acquéreurs !

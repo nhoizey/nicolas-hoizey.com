@@ -1,7 +1,7 @@
 ---
 title:      How Google is Killing Organic Search
 lang:       fr
-tags:       [publicité, Google, recherche]
+tags:       [advertisement, Google, recherche]
 ---
 
 > Google is building a new version of the search engine that made it great. This time, however, it is a search engine exclusive to the garden of Google products. If you compete with Google in any way, you’re in its crosshairs. Your chances of ranking high enough to garner traffic are virtually nil and getting smaller.

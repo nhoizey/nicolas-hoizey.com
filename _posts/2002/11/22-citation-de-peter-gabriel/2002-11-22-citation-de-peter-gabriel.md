@@ -1,7 +1,7 @@
 ---
 title:      "Citation de Peter Gabriel"
 lang:       fr
-tags:       [loisirs, société, musique, quote]
+tags:       [loisirs, société, music, quote]
 ---
 
 

@@ -1,7 +1,7 @@
---- 
-title:      "Pourquoi faire simple quand on peut faire compliqué ?" 
-lang:       fr 
-tags:       [publicité]
+---
+title:      "Pourquoi faire simple quand on peut faire compliqué ?"
+lang:       fr
+tags:       [advertisement]
 ---
 
 

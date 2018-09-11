@@ -1,7 +1,7 @@
---- 
-title:      "La vérité est ailleurs..." 
-lang:       fr 
-tags:       [fail, musique]
+---
+title:      "La vérité est ailleurs..."
+lang:       fr
+tags:       [fail, music]
 ---
 
 Hasard du calendrier pas forcément bienvenue pour leurs campagnes marketing respectives, les nouveaux albums de Stephen Malkmus et Oasis nous parleront tous les deux en [mai 2005](http://www.gasteroprod.com/agenda/2005/05/43.html) de vérité.

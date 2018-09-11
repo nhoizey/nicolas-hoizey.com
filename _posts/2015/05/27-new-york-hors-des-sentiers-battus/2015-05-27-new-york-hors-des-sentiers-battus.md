@@ -1,7 +1,7 @@
 ---
 title:      New York hors des sentiers battus
 lang:      fr
-tags:         [New York, voyage, insolite]
+tags:         [New York, travel]
 ---
 
 Ayant la chance de partir enfin à New York pour la première fois, j'avais bien entendu préparé le voyage avec quelques guides touristiques et ressources Web, mais j'avais aussi demandé autour de moi quelles sont les choses à voir/faire qui ne se trouvent pas dans ces guides.

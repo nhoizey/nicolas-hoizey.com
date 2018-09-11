@@ -1,7 +1,7 @@
 ---
 title:      Si vous regrettez Aibo et trouvez Nabaztag trop statique, voilà Pleo !
 lang:       fr
-tags:       [geek]
+tags:       [game]
 ---
 
 Suite à l'annonce de Sony d'arrêter la production de son célèbre chien [Aibo](http://support.sony-europe.com/aibo/index.asp?language=fr), la place restait libre pour un androïde animal doté d'une intelligence artificielle le rendant non seulement réaliste, mais aussi sympathique et intéressant. Le lapin [Nabaztag](http://www.nabaztag.com/) a beau être sympathique avec ses fonctionnalités liées à la connexion à Internet en WiFi, il reste relativement statique[^1] et ne simule pas vraiment une vie à part entière.

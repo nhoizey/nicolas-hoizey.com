@@ -1,7 +1,7 @@
---- 
-title:      "FeedLounge s'ouvre enfin au public impatient et enterre directement ses concurrents" 
-lang:       fr 
-tags:       [standards, Blogmarks, Greasemonkey, RSS]
+---
+title:      "FeedLounge s'ouvre enfin au public impatient et enterre directement ses concurrents"
+lang:       fr
+tags:       [standards, Blogmarks, Greasemonkey, feed]
 ---
 
 Si vous n'en avez pas encore entendu parler, [FeedLounge](http://feedlounge.com/) est un aggrégateur de flux de syndication en ligne, à la manière de [Bloglines](http://www.bloglines.com/), [Google Reader](http://reader.google.com/) et autres. La différence, c'est qu'il est beau et facile à utiliser !

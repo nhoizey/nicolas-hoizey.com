@@ -1,7 +1,7 @@
 ---
 title:      Ne sous estimez pas l'importance du câble HDMI
 lang:       fr
-tags:       [HD, vidéo]
+tags:       [HD, video]
 ---
 
 J'ai constaté avec horreur depuis quelque temps l'apparition sporadique de petits points blancs sur mon écran LCD Full HD Sony Bravia 52X3500. Puis j'ai constaté avec bonheur que cela ne se produisait que dans un cas bien particulier, l'affichage du menu XMB de la PlayStation 3. Mon écran est sauf, mais qu'en est-il de la PS3 ?

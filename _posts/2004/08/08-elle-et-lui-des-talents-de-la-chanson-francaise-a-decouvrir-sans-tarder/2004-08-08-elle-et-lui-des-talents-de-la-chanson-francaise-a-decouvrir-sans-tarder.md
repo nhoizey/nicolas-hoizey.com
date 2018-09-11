@@ -1,7 +1,7 @@
---- 
-title:      "Elle et Lui, des talents de la chanson française à découvrir sans tarder !" 
-lang:       fr 
-tags:       [musique]
+---
+title:      "Elle et Lui, des talents de la chanson française à découvrir sans tarder !"
+lang:       fr
+tags:       [music]
 ---
 
 

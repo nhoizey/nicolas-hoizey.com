@@ -1,13 +1,13 @@
---- 
-title:      "FHM blah blah blah ..." 
-lang:       fr 
-tags:       [humour, publicité]
+---
+title:      "FHM blah blah blah ..."
+lang:       fr
+tags:       [humour, advertisement]
 ---
 
 Histoire de se démarquer des multiples autres revues destinées aux hommes, l'édition philipine de FHM[^c1] annonce la couleur avec humour au travers d'une nouvelle publicité bien imag(in)ée.
 
 
-[^c1]: For Him Magazine : [](http://www.fhm.com/) 
+[^c1]: For Him Magazine : [](http://www.fhm.com/)
 
 Voilà qu'un magazine *masculin* avoue enfin ce qui fait son principal attrait pour son public : les photos !
 

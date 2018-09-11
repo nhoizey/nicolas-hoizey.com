@@ -1,7 +1,7 @@
 ---
 title:      "Jill Scott enflamme L'Elysée Montmartre"
 lang:       fr
-tags:       [musique, concert]
+tags:       [music, concert]
 ---
 
 Lundi 25 février 2002, l'Elysée Montmartre.

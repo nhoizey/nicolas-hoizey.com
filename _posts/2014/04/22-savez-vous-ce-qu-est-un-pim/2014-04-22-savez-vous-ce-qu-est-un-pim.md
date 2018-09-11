@@ -1,7 +1,7 @@
 ---
 title:      Savez-vous ce qu'est un PIM ?
 lang:       fr
-tags:       [e-commerce, logiciel]
+tags:       [e-commerce, software]
 ---
 
 Non, je ne parle pas des [Pim's de LU](http://fr.wikipedia.org/wiki/Jaffa_Cakes), mais des outils de Product Information Management, extrêmement utiles aux activités de e-commerce, surtout avec la croissance rapide des besoins de présence et vente multi-canal.

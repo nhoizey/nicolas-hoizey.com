@@ -1,7 +1,7 @@
 ---
 title:      Citation de Albert Einstein
 lang:       fr
-tags:       [quote, théorie, pratique]
+tags:       [quote, théorie]
 ---
 
 > La théorie, c'est quand on sait tout et que rien ne fonctionne.

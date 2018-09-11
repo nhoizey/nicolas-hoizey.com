@@ -1,7 +1,7 @@
---- 
-title:      "La vérité sort de la bouche des ..." 
-lang:       fr 
-tags:       ["humour", "SEO"]
+---
+title:      "La vérité sort de la bouche des ..."
+lang:       fr
+tags:       [fun, "SEO"]
 ---
 
 

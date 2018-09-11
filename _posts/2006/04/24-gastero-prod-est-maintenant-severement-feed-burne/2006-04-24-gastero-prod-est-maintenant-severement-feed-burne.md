@@ -1,7 +1,7 @@
---- 
-title:      "Gastero Prod est maintenant sévèrement (Feed)Burné" 
-lang:       fr 
-tags:       [Gastero Prod, RSS, FeedBurner]
+---
+title:      "Gastero Prod est maintenant sévèrement (Feed)Burné"
+lang:       fr
+tags:       [Gastero Prod, feed, FeedBurner]
 ---
 
 C'est bien beau de mettre à disposition des flux RSS, mais comment savoir si quelqu'un les utilise ? Et puis certains ont beau dire le contraire, certains[^1] préfèrent encore recevoir l'annonce de nouveaux articles par mail plutôt que par flux de syndication.

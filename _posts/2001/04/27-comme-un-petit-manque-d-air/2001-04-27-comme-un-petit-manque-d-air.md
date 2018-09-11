@@ -1,7 +1,7 @@
 ---
 title:      "Comme un petit manque d'Air"
 lang:       fr
-tags:       [musique, concert]
+tags:       [music, concert]
 ---
 
 Vendredi 27 avril 2001, l'Élysée Montmartre. Avec un certain retard, sans première partie, Air (Nicolas Godin, Jean-Benoit Dunckel et leurs musiciens) arrive sur scène sous les applaudissements et cris de la foule qui commençait à trépigner d'impatience.

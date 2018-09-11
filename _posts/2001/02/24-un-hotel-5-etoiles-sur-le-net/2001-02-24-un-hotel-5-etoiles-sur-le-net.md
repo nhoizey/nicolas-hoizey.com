@@ -1,7 +1,7 @@
---- 
-title:      "Un hôtel 5 étoiles sur le Net" 
-lang:       fr 
-tags:       [réseaux sociaux, virtuel, pixel art]
+---
+title:      "Un hôtel 5 étoiles sur le Net"
+lang:       fr
+tags:       [réseaux sociaux, virtuel]
 ---
 
 
