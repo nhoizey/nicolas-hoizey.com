@@ -1,7 +1,7 @@
 <nav id="navigation">
   <div class="wrap">
     <ul role="navigation">
-      <li><a href="/">Accueil</a></li>
+      <li><a href="/">Home</a></li>
       {% for post in site.posts limit:1 %}
         {% assign year = post.date | date: "%Y" %}
         <li><a href="/{{ year }}/">Articles</a></li>
