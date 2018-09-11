@@ -1,7 +1,7 @@
---- 
-title:      "Citation de Terry Pratchett" 
-lang:       fr 
-tags:       [humour, citation, littérature]
+---
+title:      "Citation de Terry Pratchett"
+lang:       fr
+tags:       [humour, quote, littérature]
 ---
 
 

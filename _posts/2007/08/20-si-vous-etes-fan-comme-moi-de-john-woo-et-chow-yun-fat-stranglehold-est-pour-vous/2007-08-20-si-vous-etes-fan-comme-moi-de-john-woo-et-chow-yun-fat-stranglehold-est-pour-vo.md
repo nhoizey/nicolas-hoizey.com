@@ -1,7 +1,7 @@
 ---
 title:      Si vous êtes fan comme moi de John Woo et Chow Yun-Fat, Stranglehold est pour vous !
 lang:       fr
-tags:       [jeu vidéo]
+tags:       [game]
 ---
 
 Contrairement à d'autres personnalité qui prêtent leur noms aux éditeurs de jeux vidéos juste pour arrondir leur fin de mois et que ceux-ci se vendent mieux, John Woo s'est apparemment très fortement impliqué dans la conception de ce jeu « *Next Gen* »[^1] qui nous permettra d'incarner le fameux Tequila.

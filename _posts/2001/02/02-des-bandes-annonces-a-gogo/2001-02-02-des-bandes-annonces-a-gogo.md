@@ -1,7 +1,7 @@
---- 
-title:      "Des bandes annonces à gogo" 
-lang:       fr 
-tags:       [cinéma, bande annonce]
+---
+title:      "Des bandes annonces à gogo"
+lang:       fr
+tags:       [cinéma]
 ---
 
 

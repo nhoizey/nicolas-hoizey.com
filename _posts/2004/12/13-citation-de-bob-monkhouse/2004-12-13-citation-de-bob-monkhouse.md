@@ -1,7 +1,7 @@
---- 
-title:      "Citation de Bob Monkhouse" 
-lang:       en 
-tags:       [fail, humour, citation]
+---
+title:      "Citation de Bob Monkhouse"
+lang:       en
+tags:       [fail, humour, quote]
 ---
 
 > I'd rather die peacefully in my sleep like my Grandfather, than screaming in terror like his passengers.

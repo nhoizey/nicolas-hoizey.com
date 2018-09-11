@@ -1,7 +1,7 @@
---- 
-title:      Citation de ARNO* (aka Arnaud Martin) 
-lang:       fr 
-tags:       [SPIP, citation]
+---
+title:      Citation de ARNO* (aka Arnaud Martin)
+lang:       fr
+tags:       [SPIP, quote]
 ---
 
 > La logique de SPIP n'est pas «compliquée» : elle est contraignante, en ce qu'elle tente d'orienter l'utilisateur. Ce qui est très différent.

@@ -1,7 +1,7 @@
---- 
-title:      "Citation de Groucho Marx" 
-lang:       en 
-tags:       [loisirs, humour, cinéma, citation]
+---
+title:      "Citation de Groucho Marx"
+lang:       en
+tags:       [loisirs, humour, cinéma, quote]
 ---
 
 

@@ -1,7 +1,7 @@
---- 
-title:      "Faut-il que j'abandonne SPIP pour DotClear ?" 
-lang:       fr 
-tags:       [SPIP, Gastero Prod, blog, tag, logiciel libre, DotClear]
+---
+title:      "Faut-il que j'abandonne SPIP pour DotClear ?"
+lang:       fr
+tags:       [SPIP, Gastero Prod, blog, tag, opensource, DotClear]
 ---
 
 Frustré de ne toujours pas avoir de trackbacks sur Gastero Prod, mais aussi surtout de pingbacks automatiques[^1], je me suis lancé dans une petite étude rapide de [DotClear](http://www.dotclear.net/), afin de voir si un changement d'outil pourrait réduire ma frustration. Je n'arrêtais pas de repousser cette étude en me disant qu'il fallait mieux que j'attende ce fabuleux DotClear 2.0 que tout le monde attend, mais j'en ai marre d'attendre cette arlésienne...

@@ -1,7 +1,7 @@
---- 
-title:      "Alexadex : Gérez un portefeuille d'actions en vous amusant et sans risquer de perdre le moindre argent" 
-lang:       fr 
-tags:       [jeu]
+---
+title:      "Alexadex : Gérez un portefeuille d'actions en vous amusant et sans risquer de perdre le moindre argent"
+lang:       fr
+tags:       [game]
 ---
 
 [Alexa](http://www.alexa.com/) est le moteur de recherche relativement méconnu proposé par [Amazon](http://www.amazon.com/). Tout comme [Google](http://www.google.com/tools/firefox/toolbar/), [Yahoo!](http://toolbar.yahoo.com/firefox) et autres, Alexa propose une [*toolbar*](http://download.alexa.com/index.cgi?p=) à ses utilisateurs pour simplifier leur recherche directement depuis le navigateur.

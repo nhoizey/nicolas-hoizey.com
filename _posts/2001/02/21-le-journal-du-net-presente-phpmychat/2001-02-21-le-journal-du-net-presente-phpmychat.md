@@ -1,7 +1,7 @@
 ---
 title:      "Le Journal du Net présente phpMyChat !"
 lang:       fr
-tags:       [moi, développement, PHP, phpHeaven, logiciel libre, phpMyChat]
+tags:       [moi, développement, PHP, phpHeaven, opensource, phpMyChat]
 ---
 
 

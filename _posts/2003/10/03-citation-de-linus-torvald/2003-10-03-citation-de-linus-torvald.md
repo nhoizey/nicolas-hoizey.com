@@ -1,7 +1,7 @@
---- 
-title:      "Citation de Linus Torvald" 
-lang:       fr 
-tags:       [fail, humour, Microsoft, logiciel libre, citation, informatique]
+---
+title:      "Citation de Linus Torvald"
+lang:       fr
+tags:       [fail, humour, Microsoft, opensource, quote, informatique]
 ---
 
 

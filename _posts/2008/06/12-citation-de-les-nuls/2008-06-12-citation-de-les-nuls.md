@@ -1,11 +1,11 @@
---- 
-title:      Citation de Les Nuls 
-lang:       fr 
-tags:       [humour, citation, Les Nuls]
+---
+title:      Citation de Les Nuls
+lang:       fr
+tags:       [humour, quote, Les Nuls]
 ---
 
 > Chômage
-> 
+>
 > Chiffres catastrophiques pour le mois de septembre. Pour la seule fédération de football, on compte plus d'un million de licenciés.
 
 

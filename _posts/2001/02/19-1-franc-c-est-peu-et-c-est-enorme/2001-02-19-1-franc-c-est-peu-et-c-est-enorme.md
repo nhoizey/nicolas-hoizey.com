@@ -1,7 +1,7 @@
 ---
 title:      "1 franc, c'est peu et c'est énorme"
 lang:       fr
-tags:       [société, don]
+tags:       [life]
 ---
 
 1 franc, pour vous, ce n'est rien, même pas de quoi vous acheter une baguette de pain.

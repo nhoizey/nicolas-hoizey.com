@@ -1,7 +1,7 @@
---- 
-title:      "Citation de Pedro Almodovar" 
-lang:       fr 
-tags:       [cinéma, citation]
+---
+title:      "Citation de Pedro Almodovar"
+lang:       fr
+tags:       [cinéma, quote]
 ---
 
 

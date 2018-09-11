@@ -1,7 +1,7 @@
---- 
-title:      "Citation d'Alphonse Allais" 
-lang:       fr 
-tags:       [humour, citation]
+---
+title:      "Citation d'Alphonse Allais"
+lang:       fr
+tags:       [humour, quote]
 ---
 
 

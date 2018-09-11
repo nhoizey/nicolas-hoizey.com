@@ -1,7 +1,7 @@
---- 
-title:      Commentaires désactivés temporairement 
-lang:       fr 
-tags:       [fail, SPIP, Gastero Prod, commentaires]
+---
+title:      Commentaires désactivés temporairement
+lang:       fr
+tags:       [fail, SPIP, Gastero Prod, comments]
 ---
 
 J'aime vive dangereusement. Enfin... pour ce qui est des versions de SPIP que j'utilise sur mes sites en tout cas. Et du coup, parfois ça plante.

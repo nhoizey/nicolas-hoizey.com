@@ -1,7 +1,7 @@
---- 
-title:      "Citation de Sally Struthers" 
-lang:       en 
-tags:       [société, fail, humour, citation]
+---
+title:      "Citation de Sally Struthers"
+lang:       en
+tags:       [société, fail, humour, quote]
 ---
 
 

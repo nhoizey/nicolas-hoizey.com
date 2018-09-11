@@ -1,7 +1,7 @@
 ---
 title:      Citation d'une citation de Steve Jobs
 lang:       fr
-tags:       [citation]
+tags:       [quote]
 ---
 
 > Talking about Apple, Steve [Jobs] said, “The system is that there is no system.” Then he added, “That doesn't mean we don't have a process.” Making the distinction between process and system allows for a certain amount of fluidity, spontaneity, and risk, while at the same time it acknowledges the importance of defined roles and discipline.

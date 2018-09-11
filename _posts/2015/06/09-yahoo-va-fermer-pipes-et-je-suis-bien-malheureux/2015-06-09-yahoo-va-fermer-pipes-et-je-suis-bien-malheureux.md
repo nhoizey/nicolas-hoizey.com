@@ -1,7 +1,7 @@
 ---
 title:      Yahoo va fermer Pipes, et je suis bien malheureux
 lang:        fr
-tags:       [Yahoo, API, RSS]
+tags:       [Yahoo, RSS]
 ---
 
 [Yahoo a annoncé](http://pipes.yqlblog.net/post/120705592639/pipes-end-of-life-announcement) la fermeture prochaine de son service [Yahoo Pipes](http://pipes.yahoo.com/), que j'utilise au quotidien depuis 2007. Comment vais-je faire ?

@@ -1,7 +1,7 @@
 ---
 title:      Citation de Maria Montessori
 lang:       fr
-tags:       [citation, Montessori, éducation]
+tags:       [quote, Montessori, éducation]
 ---
 
 > N’élevons pas nos enfants pour le monde d’aujourd’hui. Ce monde n’existera plus lorsqu’ils seront grands. Et rien ne nous permet de savoir quel monde sera le leur : alors, apprenons-leur à s’adapter.

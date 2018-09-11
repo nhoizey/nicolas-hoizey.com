@@ -1,26 +1,26 @@
---- 
-title:      "Attention quand vient le succès..." 
-lang:       fr 
-tags:       [PHP, logiciel libre, DotClear]
+---
+title:      "Attention quand vient le succès..."
+lang:       fr
+tags:       [PHP, opensource, DotClear]
 ---
 
 Alors que je m'interroge sur un éventuel [abandon de SPIP au profit de DotClear](/2006/06/faut-il-que-j-abandonne-spip-pour-dotclear.html), surtout avec [la première beta de DotClear 2.0 enfin disponible](http://www.dotclear.net/forum/viewtopic.php?id=19175), je dois avouer que le [modèle de mail à envoyer aux hébergeurs ne disposant pas de PHP5](http://www.dotclear.net/forum/viewtopic.php?id=19176)[^1] proposé à ceux qui veulent adopter DotClear 2.0 me laisse rêveur...
 
 
 [^1]: Reproduit ici au cas où :
-> 
+>
 > Bonjour,
-> 
+>
 > Je constate avec surprise et regret que votre hébergement n'offre qu'une version ancienne de PHP et ne me permettra donc pas d'installer l'outil de blog que j'ai choisi.
-> 
+>
 > En effet, DotClear nécessite PHP5 ainsi que les extensions iconv mbstring, simplexml et le support des fonctions OB [à adapter aux carences révélées par le test]. Ces prérequis sont loin de pouvoir être considérés comme extravagants si l'on tient compte du fait que PHP5 est disponible depuis près de deux ans et que cette version est stable.
-> 
+>
 > Il me semble donc d'évidence que mettre à jour votre version de PHP fait partie de vos projets immédiats et j'aimerais connaître le délai dans lequel vous pensez le faire.
-> 
+>
 > Vous remerciant par avance de l'attention que vous portez aux demandes de vos clients, je vous salue cordialement.
-> 
+>
 > Amélie Poulain.
-> 
+>
 
 
 Malheureusement, le forum dans lequel est proposé ce modèle n'est pas ouvert aux commentaires, donc je réagis ici, au risque de faire gonfler l'affaire plus que nécessaire...
@@ -55,6 +55,6 @@ Apparemment, [Free est maintenant compatible avec DotClear 2.0](http://callmepep
 
 [^3]: PHP6 pointera le bout de son nez avant que tous les PHP4 soient éradiqués, à n'en pas douter
 
-[^4]: Et il semblerait qu'il ne soit [pas le seul](http://www.dotclear.net/forum/viewtopic.php?id=19282) 
+[^4]: Et il semblerait qu'il ne soit [pas le seul](http://www.dotclear.net/forum/viewtopic.php?id=19282)
 
 Je ne m'attaque pas à [Olivier Meunier](http://www.neokraft.net/) en personne, puisque cette proposition de lettre ne semble de toute façon pas être de lui, et DotClear ne fait finalement que l'exemple opportuniste d'un sujet qui me traine en tête depuis bien longtemps...

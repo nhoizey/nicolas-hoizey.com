@@ -1,7 +1,7 @@
---- 
-title:      "Citation d'un auteur malheureusement inconnu" 
-lang:       en 
-tags:       [humour, citation, Windows]
+---
+title:      "Citation d'un auteur malheureusement inconnu"
+lang:       en
+tags:       [humour, quote, Windows]
 ---
 
 > Some people says that if you play a Windows XP install CD backwards you will hear demon voices commanding you to worship Satan. But that's nothing. If you play it forward it will install Windows XP.

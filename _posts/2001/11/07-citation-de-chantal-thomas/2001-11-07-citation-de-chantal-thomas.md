@@ -1,7 +1,7 @@
---- 
-title:      "Citation de Chantal Thomas" 
-lang:       fr 
-tags:       [loisirs, société, citation]
+---
+title:      "Citation de Chantal Thomas"
+lang:       fr
+tags:       [loisirs, société, quote]
 ---
 
 

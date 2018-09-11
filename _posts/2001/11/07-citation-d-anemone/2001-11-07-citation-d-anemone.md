@@ -1,7 +1,7 @@
---- 
-title:      "Citation d'Anémone" 
-lang:       fr 
-tags:       [société, cinéma, citation]
+---
+title:      "Citation d'Anémone"
+lang:       fr
+tags:       [société, cinéma, quote]
 ---
 
 

@@ -1,7 +1,7 @@
---- 
-title:      "Citation de Stephen King" 
-lang:       fr 
-tags:       [humour, citation, littérature]
+---
+title:      "Citation de Stephen King"
+lang:       fr
+tags:       [humour, quote, littérature]
 ---
 
 

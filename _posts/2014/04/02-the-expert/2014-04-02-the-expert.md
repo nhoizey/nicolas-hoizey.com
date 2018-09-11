@@ -1,7 +1,7 @@
 ---
 title:      The Expert
 lang:       fr
-tags:       [humour, vidéo, court-métrage]
+tags:       [fun, video, movie]
 poster:     the-expert-screencap.png
 ---
 

@@ -1,7 +1,7 @@
 ---
 title:      cHTeMeLe, un jeu de cartes basé sur HTML à financer !
 lang:       fr
-tags:       [jeu, HTML, financement participatif]
+tags:       [game, HTML, financement participatif]
 ---
 
 Je ne sais pas vous, mais moi j'aime bien les jeux de cartes, et je suis dingue de technos Web, alors quand babozor nous propose de l'aider à financer la réalisation d'[un jeu qui mélange ces deux univers](http://www.lagrottedubarbu.com/2012/09/11/chtemele-le-jeu-de-plateau-certifie-html5/), je fonce !

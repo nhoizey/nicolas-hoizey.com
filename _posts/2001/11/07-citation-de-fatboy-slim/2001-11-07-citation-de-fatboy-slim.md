@@ -1,7 +1,7 @@
---- 
-title:      "Citation de Fatboy Slim" 
-lang:       fr 
-tags:       [musique, citation]
+---
+title:      "Citation de Fatboy Slim"
+lang:       fr
+tags:       [musique, quote]
 ---
 
 

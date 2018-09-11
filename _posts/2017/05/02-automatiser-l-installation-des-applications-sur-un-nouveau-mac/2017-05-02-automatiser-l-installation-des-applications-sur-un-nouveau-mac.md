@@ -1,7 +1,7 @@
 ---
 title: Automatiser l'installation des applications sur un nouveau Mac
 lang:  fr
-tags:  [Mac, logiciel, installation]
+tags:  [macOS, logiciel, installation]
 ---
 
 Voici [un script](https://github.com/nhoizey/macOS-init) qui automatise complètement l'installation de vos applications préférées sur un Mac avec un macOS vierge, et récupère la plupart de vos paramétrages issus d'une installation précédente ou d'un autre Mac.

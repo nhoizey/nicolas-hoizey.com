@@ -1,7 +1,7 @@
 ---
 title:      Le Backup Day, c'est tous les jours !
 lang:       fr
-tags:       [sauvegarde, CrashPlan, Drobo]
+tags:       [backup, CrashPlan, Drobo]
 ---
 
 Éric a encore écrit un billet très intéressant, consacré cette fois à la problématique trop souvent ignorée des sauvegardes informatiques, mais je ne suis pas d'accord sur tout, alors je propose mon propre point de vue pour compléter.

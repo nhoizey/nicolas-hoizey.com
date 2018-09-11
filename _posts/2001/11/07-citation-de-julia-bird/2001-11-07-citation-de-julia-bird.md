@@ -1,7 +1,7 @@
---- 
-title:      "Citation de Julia Bird" 
-lang:       en 
-tags:       [société, humour, citation, littérature]
+---
+title:      "Citation de Julia Bird"
+lang:       en
+tags:       [société, humour, quote, littérature]
 ---
 
 ```

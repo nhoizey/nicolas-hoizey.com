@@ -1,7 +1,7 @@
---- 
-title:      "Citation anonyme" 
-lang:       en 
-tags:       [humour, citation]
+---
+title:      "Citation anonyme"
+lang:       en
+tags:       [humour, quote]
 ---
 
 

@@ -1,7 +1,7 @@
---- 
-title:      Citation de Daniel Glazman 
-lang:       fr 
-tags:       [développement, citation, Mozilla]
+---
+title:      Citation de Daniel Glazman
+lang:       fr
+tags:       [développement, quote, Mozilla]
 ---
 
 > Labs are here to make experiments, things that don't seem ordinary or even reasonable, labs are here to pave the future, not do what all others are doing too.

@@ -1,7 +1,7 @@
 ---
 title: Faciliteur ou facilitateur ?
 lang:  fr
-tags:  [langue, français, anglicisme]
+tags:  [vocabulary]
 ---
 
 Comme je l'indique dans la page [à propos](/a-propos/de-moi.html) de ce site, « je me qualifie moi-même aujourd'hui de **faciliteur de Web**, ayant à cœur de faire profiter les autres de mes connaissances ». Mais ne devrais-je pas plutôt dire « facili**ta**teur » ?

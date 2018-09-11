@@ -1,7 +1,7 @@
---- 
-title:      "Citation de Jean-Marie Le Pen" 
-lang:       fr 
-tags:       [loisirs, société, musique, citation]
+---
+title:      "Citation de Jean-Marie Le Pen"
+lang:       fr
+tags:       [loisirs, société, musique, quote]
 ---
 
 

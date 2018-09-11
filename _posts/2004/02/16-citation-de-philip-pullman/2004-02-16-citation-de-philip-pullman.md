@@ -1,7 +1,7 @@
---- 
-title:      "Citation de Philip Pullman" 
-lang:       fr 
-tags:       [société, citation]
+---
+title:      "Citation de Philip Pullman"
+lang:       fr
+tags:       [société, quote]
 ---
 
 > Tel est le devoir des gens âgés, dit le Bibliothécaire. Se faire du soucis pour les jeunes. Et le devoir des jeunes est de railler l'inquiétude des vieux.

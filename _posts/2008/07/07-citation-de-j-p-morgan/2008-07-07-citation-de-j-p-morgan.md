@@ -1,7 +1,7 @@
---- 
-title:      Citation de J. P. Morgan 
-lang:       en 
-tags:       [citation, commerce]
+---
+title:      Citation de J. P. Morgan
+lang:       en
+tags:       [quote, commerce]
 ---
 
 > A man always buys something for two reasons: a good reason, and the real reason.

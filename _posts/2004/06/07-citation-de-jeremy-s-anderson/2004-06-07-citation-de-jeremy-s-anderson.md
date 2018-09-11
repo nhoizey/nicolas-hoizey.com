@@ -1,7 +1,7 @@
---- 
-title:      "Citation de Jeremy S. Anderson" 
-lang:       fr 
-tags:       [société, humour, citation]
+---
+title:      "Citation de Jeremy S. Anderson"
+lang:       fr
+tags:       [société, humour, quote]
 ---
 
 > Les deux principaux produits issus de l'université de Berkeley sont LSD et UNIX. Il ne peut s'agir d'une coïncidence.

@@ -1,7 +1,7 @@
 ---
 title:      A Blind Legend
 lang:      fr
-tags:       [jeu, financement participatif, a11y]
+tags:       [game, financement participatif, a11y]
 ---
 
 J’ai soutenu [le projet « A Blind Legend » sur Ulule](http://fr.ulule.com/a-blind-legend/) dès que je l’ai découvert ! C’est un projet de jeu d’aventure pour mobile qui a la particularité de n’utiliser que des sons, aucune interface visuelle.

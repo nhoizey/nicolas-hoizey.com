@@ -1,7 +1,7 @@
 ---
 title:      Mise à jour de ma politique de sauvegarde
 lang:       fr
-tags:       [sauvegarde, CrashPlan, Drobo]
+tags:       [backup, CrashPlan, Drobo]
 ---
 
 Je profite d'[un nouveau billet d'Éric sur le sujet](http://n.survol.fr/n/aujourdhui-cest-encore-backup-day) pour mettre un peu à jour ce que je disais il y a 6 mois dans mon billet «[Le Backup Day, c'est tous les jours !](/2012/08/le-backup-day-c-est-tous-les-jours.html)».

@@ -1,7 +1,7 @@
---- 
-title:      Afficher les favicon dans la barre personnelle de Firefox sous Mac OS 
-lang:       fr 
-tags:       [Firefox, Mac, astuce, CSS]
+---
+title:      Afficher les favicon dans la barre personnelle de Firefox sous Mac OS
+lang:       fr
+tags:       [Firefox, macOS, astuce, CSS]
 ---
 
 Dans sa version Mac OS, [Mozilla Firefox](http://www.mozilla-europe.org/fr/products/firefox/) est configuré pour ne pas afficher l'icône personnalisée d'un site à côté d'un favori placé dans la barre personnelle.
@@ -30,7 +30,7 @@ Voici donc le bout de code à ajouter à votre feuille de style personnalisée `
 
 .bookmark-item:hover:active > .toolbarbutton-icon {
   background: url("chrome://browser/skin/bookmark-open-mid.png") repeat-x !important;
-} 
+}
 ```
 
 J'ai testé avec succès cette technique tant sur [Firefox 2](http://www.mozilla.com/en-US/firefox/all.html) que sur la toute dernière [Firefox 3 beta 2](http://www.mozilla.com/en-US/firefox/all-beta.html).

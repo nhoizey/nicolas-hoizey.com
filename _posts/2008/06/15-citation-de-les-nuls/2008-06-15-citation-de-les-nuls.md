@@ -1,11 +1,11 @@
---- 
-title:      Citation de Les Nuls 
-lang:       fr 
-tags:       [humour, citation, Les Nuls]
+---
+title:      Citation de Les Nuls
+lang:       fr
+tags:       [humour, quote, Les Nuls]
 ---
 
 > Fait divers
-> 
+>
 > Un jeune garçon de 12 ans décroche du mur du salon l'arme de son père. Un faux geste : 123 morts. L'arme, un tank, était chargée.
 
 

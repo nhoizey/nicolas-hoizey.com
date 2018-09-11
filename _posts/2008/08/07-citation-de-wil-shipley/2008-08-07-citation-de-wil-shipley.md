@@ -1,7 +1,7 @@
---- 
-title:      Citation de Wil Shipley 
-lang:       fr 
-tags:       [citation, erreur]
+---
+title:      Citation de Wil Shipley
+lang:       fr
+tags:       [quote, fail]
 ---
 
 > The measure of a man cannot be whether he ever makes mistakes, because he will make mistakes. It's what he does in response to his mistakes.

@@ -1,7 +1,7 @@
 ---
 title: So long Disqus, hello Webmention
 lang:  en
-tags:  [Disqus, webperf, Webmention, IndieWeb]
+tags:  [webperf, Webmention]
 tweet: https://twitter.com/nhoizey/status/890635589170585600
 ---
 

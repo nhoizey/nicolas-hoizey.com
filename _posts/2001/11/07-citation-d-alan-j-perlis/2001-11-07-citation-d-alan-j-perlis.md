@@ -1,7 +1,7 @@
---- 
-title:      "Citation d'Alan J. Perlis" 
-lang:       en 
-tags:       [fail, humour, citation]
+---
+title:      "Citation d'Alan J. Perlis"
+lang:       en
+tags:       [fail, humour, quote]
 ---
 
 

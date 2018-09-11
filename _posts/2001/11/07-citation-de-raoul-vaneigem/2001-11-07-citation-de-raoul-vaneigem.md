@@ -1,7 +1,7 @@
---- 
-title:      "Citation de Raoul Vaneigem" 
-lang:       fr 
-tags:       [société, citation, littérature]
+---
+title:      "Citation de Raoul Vaneigem"
+lang:       fr
+tags:       [société, quote, littérature]
 ---
 
 
