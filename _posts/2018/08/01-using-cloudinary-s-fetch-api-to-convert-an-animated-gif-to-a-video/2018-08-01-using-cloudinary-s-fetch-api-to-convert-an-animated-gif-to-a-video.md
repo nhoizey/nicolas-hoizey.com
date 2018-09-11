@@ -72,8 +72,8 @@ With this:
 
 ```html
 <video autoplay loop muted playsinline>
-  <source src="https://res.cloudinary.com/<cloud_name>/image/fetch/f_mp4/https://example.com/anim.gif" type="video/mp4">
   <source src="https://res.cloudinary.com/<cloud_name>/image/fetch/f_webm/https://example.com/anim.gif" type="video/webm">
+  <source src="https://res.cloudinary.com/<cloud_name>/image/fetch/f_mp4/https://example.com/anim.gif" type="video/mp4">
   <p>Your browser doesn't support HTML5 video, <a href="https://example.com/anim.gif">download the animated GIF</a>.</p>
 </video>
 ```
