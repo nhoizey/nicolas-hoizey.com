@@ -162,6 +162,9 @@ self.addEventListener('fetch', event => {
   event.respondWith(
     caches.match(request)
       .then(response => {
+        // console.log('User agent = ' + navigator.userAgent);
+        // console.log('Request.url = ' + request.url);
+        // console.log('Request.destination = ' + request.destination);
         // CACHE
         return response || fetch(request)
           .then(response => {
@@ -171,9 +174,6 @@ self.addEventListener('fetch', event => {
             if (request.url.match(/\.(jpe?g|png|gif|webp|svg)$/)) {
               if (request.url.match(/\/(f_mp4|f_webm)\//)) {
                 // this is a video (animated GIF converted to video)
-                console.log('User agent = ' + navigator.userAgent);
-                console.log('Request.url = ' + request.url);
-                console.log('Request.destination = ' + request.destination);
               } else {
                 // this is an image
                 let copy = response.clone();
