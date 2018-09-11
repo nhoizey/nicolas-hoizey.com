@@ -103,7 +103,7 @@ GEM
       nuggets
     jekyll-watch (2.0.0)
       listen (~> 3.0)
-    jekyll-webmention_io (2.9.7)
+    jekyll-webmention_io (3.0.0)
       htmlbeautifier (~> 1.1)
       http (~> 2.0)
       jekyll (>= 2.0, < 4.0)
@@ -154,7 +154,7 @@ GEM
     thread_safe (0.3.6)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
-    uglifier (4.1.18)
+    uglifier (4.1.19)
       execjs (>= 0.3.0, < 3)
     unf (0.1.4)
       unf_ext
