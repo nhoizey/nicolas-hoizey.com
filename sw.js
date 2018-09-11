@@ -6,9 +6,9 @@
 // - Jake Archibald's Offline Cookbook: https://jakearchibald.com/2014/offline-cookbook/
 // - Jeremy Keith's Service Worker: https://adactio.com/journal/9775
 
-const mandatoryCacheName = `mandatory-v20180718-0907`;
-const pagesCacheName = `pages-v20180522-0746`;
-const imagesCacheName = `images-v20180521-2352`;
+const mandatoryCacheName = 'mandatory-v20180718-0907';
+const pagesCacheName = 'pages-v20180522-0746';
+const imagesCacheName = 'images-v20180911-1421';
 
 const unavailableContentPage = '/offline-fallback.html';
 
