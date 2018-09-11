@@ -170,15 +170,9 @@ self.addEventListener('fetch', event => {
           .then(response => {
             // NETWORK
             // If the request is for an image, stash a copy of this image in the images cache
-            // https://hackernoon.com/service-worker-one-fallback-offline-image-for-any-aspect-ratio-b427c0f897fb#aaab
-            if (request.url.match(/\.(jpe?g|png|gif|webp|svg)$/)) {
-              if (request.url.match(/\/(f_mp4|f_webm)\//)) {
-                // this is a video (animated GIF converted to video)
-              } else {
-                // this is an image
-                let copy = response.clone();
-                stashInCache(imagesCacheName, request, copy);
-              }
+            if (request.destination === 'image') {
+              let copy = response.clone();
+              stashInCache(imagesCacheName, request, copy);
             }
             return response;
           })
