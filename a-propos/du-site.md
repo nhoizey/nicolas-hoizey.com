@@ -78,7 +78,7 @@ La mise en place d'un moteur de recherche interne sur un site statique n'est pas
 
 Avec un site dynamique, il est possible d'indexer directement les contenus présents dans le dépôt de contenus, en général une base de données. Certains CMS intègrent même directement cette fonctionnalité, plus ou moins clef en main.
 
-[Algolia](https://www.algolia.com/) est un moteur de recherche en mode SaaS intégralement pilotable par une API REST extrêmement riche. C'est [le choix que j'ai fait](/2015/06/un-moteur-de-recherche-sur-un-site-statique-facile-avec-algolia.html) pour proposer [un moteur de recherche sur ce site](/recherche.html).
+[Algolia](https://www.algolia.com/) est un moteur de recherche en mode SaaS intégralement pilotable par une API REST extrêmement riche. C'est [le choix que j'ai fait](/2015/06/un-moteur-de-recherche-sur-un-site-statique-facile-avec-algolia.html) pour proposer [un moteur de recherche sur ce site](/search.html).
 
 # Mais…
 

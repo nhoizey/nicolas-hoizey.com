@@ -102,7 +102,7 @@ algolia:
   files_to_exclude:
     - 404.html
     - index.html
-    - recherche.html
+    - search.html
     - offline.html
     - indisponible.html
     - tags/index.html

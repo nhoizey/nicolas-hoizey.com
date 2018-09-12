@@ -246,7 +246,7 @@ if (queryString.length > 0) {
 // A search query may come from the user typing in the search field
 $input.addEventListener('keyup', function() {
   if ($input.value.length > 0) {
-    history.pushState(null, null, '/recherche.html?q=' + $input.value)
+    history.pushState(null, null, '/search.html?q=' + $input.value)
     if ($intro) $intro.style.display = 'none'
     $currentContent.style.display = 'none'
     $searchContent.style.display = 'block'
@@ -293,8 +293,7 @@ function searchCallback(err, content) {
   var resultsNumber = content.hits.length
 
   if (resultsNumber === 0) {
-    $results.innerHTML =
-      '<p>Aucun résultat, veuillez modifier votre recherche.</p>'
+    $results.innerHTML = '<p>No result, please change your search.</p>'
     return
   }
 
@@ -394,5 +393,5 @@ function searchCallback(err, content) {
 
   $results.innerHTML =
     results +
-    '<p id="powered-by-algolia"><a href="/2015/06/la-recherche-dans-du-statique-facile-avec-algolia.html">Propulsé par l\'excellent <svg><use xlink:href="#symbol-algolia" /></svg></a></p>'
+    '<p id="powered-by-algolia"><a href="/2015/06/la-recherche-dans-du-statique-facile-avec-algolia.html">Powered by <svg><use xlink:href="#symbol-algolia" /></svg></a></p>'
 }
