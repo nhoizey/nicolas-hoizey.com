@@ -5,17 +5,17 @@ email: nicolas@hoizey.com
 description: > # this means to ignore newlines until "baseurl:"
   Le recueil de créations et réflexions de Nicolas Hoizey
   sur la photo, le Web, etc.
-baseurl: ""
-url: "https://nicolas-hoizey.com"
+baseurl: ''
+url: 'https://nicolas-hoizey.com'
 twitter_username: nhoizey
-github_username:  nhoizey
+github_username: nhoizey
 
 # Markdown parsing
 markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-  footnote_backlink: "⬆︎"
+  footnote_backlink: '⬆︎'
   header_offset: 1
 
 # Indexing for related post using the classifier-reborn plugin
@@ -32,16 +32,14 @@ collections:
 
 # Defaults
 defaults:
-  -
-    scope:
-      path: ""
+  - scope:
+      path: ''
       type: posts
     values:
       layout: post
       lang: fr
-  -
-    scope:
-      path: ""
+  - scope:
+      path: ''
       type: notes
     values:
       layout: note
@@ -71,8 +69,8 @@ assets:
   compression: false
   autoprefixer:
     browsers:
-      - "last 2 versions"
-      - "IE > 10"
+      - 'last 2 versions'
+      - 'IE > 10'
 
 # Get data from Notist
 jekyll_get:
