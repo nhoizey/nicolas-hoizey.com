@@ -1,7 +1,7 @@
---- 
-title:      "Bush Nobel de la paix ?" 
-lang:       fr 
-tags:       [société, humour]
+---
+title:      "Bush Nobel de la paix ?"
+lang:       fr
+tags:       [society, humour]
 ---
 
 

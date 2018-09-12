@@ -1,7 +1,7 @@
 ---
 title:      3G m'a tuer, ou comment j'en suis venu à accuser Safari par erreur
 lang:       fr
-tags:       [Safari, image, SFR, mobile]
+tags:       [Safari, image, mobile]
 ---
 
 Utilisateur habituellement de Mozilla Firefox, j'ai lancé Safari pour tester GreaseKit[^1], et en allant sur Gastero Prod, j'ai découvert avec horreur que le fond dégradé est complètement dénaturé, avec un rendu beaucoup moins fin que sur Firefox.

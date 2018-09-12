@@ -1,7 +1,7 @@
 ---
 title:      "Konika Minolta arrête la photographie !"
 lang:       fr
-tags:       [société, photo, gear]
+tags:       [society, photo, gear]
 ---
 
 A l'heure où l'argentique est en grosse perte de vitesse, notamment au niveau de la production de pellicules, papiers et chimies, voilà qu'un des acteurs majeurs de la photographie abandonne tout, y compris son activité numérique !

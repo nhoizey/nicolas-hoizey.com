@@ -1,7 +1,7 @@
---- 
+---
 title:      "Ergonomie à revoir : Clio Renault Sport"
-lang:       fr 
-tags:       [fail, ergonomie]
+lang:       fr
+tags:       [fail, UX]
 ---
 
 Bon, là je sais, on va me dire que je suis trop perfectionniste, que ça frise le harcèlement, mais que voulez-vous, il y a des choses qu'il serait tellement simple de faire comme il faut, et qui sont pourtant baclées...

@@ -1,7 +1,7 @@
---- 
-title:      "Blogmarks.net est ouvert !" 
-lang:       fr 
-tags:       [sémantique, bookmarks, Blogmarks]
+---
+title:      "Blogmarks.net est ouvert !"
+lang:       fr
+tags:       [bookmarks, Blogmarks]
 ---
 
 Heureux béta testeur depuis quelque temps de ce nouveau concurrent de [del.icio.us](http://del.icio.us/) développé par des français, je suis ravi de pouvoir enfin vous en parler.

@@ -1,7 +1,7 @@
---- 
-title:      "What is the Meatrix ?" 
-lang:       fr 
-tags:       [société, humour]
+---
+title:      "What is the Meatrix ?"
+lang:       fr
+tags:       [society, humour]
 ---
 
 Qu'on aime ou pas, [Matrix](http://whatisthematrix.warnerbros.com/) est devenu une mode, et la désillusion des opus 2 et 3 ne changera rien à l'affaire. On ne compte plus les détournements de l'univers de Matrix, que ce soit à des fins de parodie ou d'hommage.

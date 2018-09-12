@@ -1,7 +1,7 @@
 ---
 title:      "Citation de Voltaire"
 lang:       fr
-tags:       [société, quote]
+tags:       [society, quote]
 ---
 
 

@@ -1,7 +1,7 @@
---- 
-title:      Créateurs de sites Web 2.0, ne sous estimez pas la force de votre communauté 
-lang:       fr 
-tags:       [société, Flickr]
+---
+title:      Créateurs de sites Web 2.0, ne sous estimez pas la force de votre communauté
+lang:       fr
+tags:       [society, Flickr]
 ---
 
 Flickr appliquerait un filtrage particulier sur certaines photos si le compte Yahoo! avec lequel on accède au service est lié à certains pays. Cette censure ne plait pas trop à la communauté des flickronautes, c'est le moins qu'on puisse dire...

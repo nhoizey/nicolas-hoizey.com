@@ -1,7 +1,7 @@
---- 
-title:      "Internet face aux attentats" 
-lang:       fr 
-tags:       [société]
+---
+title:      "Internet face aux attentats"
+lang:       fr
+tags:       [society]
 ---
 
 ## Plus de téléphone ? Vive le mail !
@@ -25,5 +25,5 @@ Mais tout le monde s'est finalement rabattu sur la bonne vieille télévision, p
 Autres articles sur le même sujet :
 
 - ["Jour de terreur en Amérique"](http://www.le-monde.fr/article/0,5987,3222--221481-,00.html) ([Le Monde interactif](http://www.le-monde.fr/))
-- [Attaques terroristes contre les Etats-Unis : 
+- [Attaques terroristes contre les Etats-Unis :
 le Web en première ligne](http://www.journaldunet.com/0109/010912usa.shtml) ([Le Journal du Net](http://www.journaldunet.com/))

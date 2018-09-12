@@ -1,7 +1,7 @@
---- 
-title:      "Du bon usage du boycotte" 
-lang:       fr 
-tags:       [société]
+---
+title:      "Du bon usage du boycotte"
+lang:       fr
+tags:       [society]
 ---
 
 

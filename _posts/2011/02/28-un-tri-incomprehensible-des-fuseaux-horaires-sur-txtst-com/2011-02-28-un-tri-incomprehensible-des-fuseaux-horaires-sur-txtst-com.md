@@ -1,7 +1,7 @@
 ---
 title:      Un tri incompréhensible des fuseaux horaires sur txtst.com
 lang:       fr
-tags:       [UX, liste, tri]
+tags:       [UX]
 ---
 
 La géolocalisation est un service de plus en plus tendance, notamment au sein des applications Web sociales. La solution [Fire Eagle](http://fireeagle.yahoo.net/) de [Yahoo!](http://www.yahoo.com/) permet par exemple de centraliser la localisation d’une personne, et de rendre cette information disponible à toutes sortes de services. [Mike Bukhin](http://www.txtst.com/) a ainsi créé [Fire Eagle Badge](http://www.txtst.com/fireeagle_badge/) qui permet par exemple à un blogueur d’afficher une petite carte Yahoo! Maps sur son blog pour montrer en temps réel où il se trouve.

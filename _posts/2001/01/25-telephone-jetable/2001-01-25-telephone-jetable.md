@@ -1,7 +1,7 @@
 ---
 title:      "Téléphone jetable"
 lang:       fr
-tags:       ["technologie", phone]
+tags:       [phone]
 ---
 
 

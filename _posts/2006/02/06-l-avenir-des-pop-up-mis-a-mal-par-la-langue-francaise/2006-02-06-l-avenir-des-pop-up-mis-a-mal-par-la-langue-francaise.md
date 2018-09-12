@@ -1,7 +1,7 @@
---- 
-title:      "L'avenir des pop-up mis à mal par la langue française" 
-lang:       fr 
-tags:       [société, fail]
+---
+title:      "L'avenir des pop-up mis à mal par la langue française"
+lang:       fr
+tags:       [society, fail]
 ---
 
 Qu'on se le dise, je n'aime pas les *pop-up*[^1], qui sont la plupart du temps utilisées à tort et à travers pour montrer de la pub. Mais voilà que la [commission générale de terminologie et de néologie](http://fr.wikipedia.org/wiki/Commission_g%C3%A9n%C3%A9rale_de_terminologie_et_de_n%C3%A9ologie) nous dote d'une traduction franchouillarde de ce terme, la « [fenêtre intruse](http://www.journaldunet.com/breve/france/990/le-mot-pop-up-quot-doit-etre-traduit-par-quot-fenetre-intruse-quot.shtml) ».

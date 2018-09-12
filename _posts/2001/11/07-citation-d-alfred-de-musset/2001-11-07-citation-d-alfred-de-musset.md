@@ -1,7 +1,7 @@
 ---
 title:      "Citation d'Alfred de Musset"
 lang:       fr
-tags:       [loisirs, société, quote, littérature]
+tags:       [loisirs, society, quote, littérature]
 ---
 
 

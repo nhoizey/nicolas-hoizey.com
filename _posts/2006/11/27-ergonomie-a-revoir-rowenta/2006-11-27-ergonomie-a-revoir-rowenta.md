@@ -1,7 +1,7 @@
---- 
-title:      "Ergonomie à revoir : Rowenta" 
-lang:       fr 
-tags:       [fail, ergonomie]
+---
+title:      "Ergonomie à revoir : Rowenta"
+lang:       fr
+tags:       [fail, UX]
 ---
 
 Je suis tombé dernièrement sur un four imaginé par Rowenta qui m'a un peu surpris. Je dis bien «imaginé», parce que je n'ai jamais rien vu de semblable.
@@ -14,7 +14,7 @@ Au premier abord, bien sûr, rien d'inhabituel, mais si vous regardez attentivem
 
 On voit bien au début que l'échelle va de 20° en 20°[^1] puis passe à un écart de 25°[^2] avant de passer à un écart de 30°[^3]...
 
-Même si elle n'est pas systématique, cette progression de l'écart est assez classique, elle permet de limiter l'étendue globale du curseur en augmentant progressivement sa «vitesse» d'évolution. C'est par contre plus courant pour des curseurs de durée, avec les premières minutes réglables finement, par pas de quelques secondes, et les minutes suivantes moins finement réglables. 
+Même si elle n'est pas systématique, cette progression de l'écart est assez classique, elle permet de limiter l'étendue globale du curseur en augmentant progressivement sa «vitesse» d'évolution. C'est par contre plus courant pour des curseurs de durée, avec les premières minutes réglables finement, par pas de quelques secondes, et les minutes suivantes moins finement réglables.
 
 Après tout, dans le cas de la température, alors que la différence absolue est plus grande, la différence relative entre 175° et 205°[^4] est beaucoup moins importante que celle entre 80° et 60°[^5].
 

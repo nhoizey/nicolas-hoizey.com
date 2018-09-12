@@ -1,7 +1,7 @@
---- 
-title:      "Créez vos 6nergies !" 
-lang:       fr 
-tags:       [société, Clever Age]
+---
+title:      "Créez vos 6nergies !"
+lang:       fr
+tags:       [society, Clever Age]
 ---
 
 Après son lancement le 21 janvier dernier, à [12h28 exactement](http://www.6nergies.net/blog/index.php?2005/01/20/37-le-compte-a-rebour-comme-si-vous-y-etiez), [6nergies](http://www.6nergies.net/) organisait hier une [soirée *open bar*](http://www.6nergies.net/blog/index.php?2005/02/22/58-la-soiree-open-bar-de-jeudi) pour ses *beta* testeurs, dont j'ai l'honneur de faire partie.
@@ -29,7 +29,7 @@ Allez, n'hésitez plus, [inscrivez-vous](http://www.6nergies.net/application/pub
 
 [^t1]: En [distribuant ses cartes de visite](http://stephane.etsoncar.net/news/58.shtml) notamment
 
-[^t2]: En utilisant notamment [SPIP-Agora](http://spip-agora.clever-age.org/) et [le framework Horde](http://www.horde.org/) 
+[^t2]: En utilisant notamment [SPIP-Agora](http://spip-agora.clever-age.org/) et [le framework Horde](http://www.horde.org/)
 
 [^t3]: Notamment ancien créateur et directeur technique de SQLI
 

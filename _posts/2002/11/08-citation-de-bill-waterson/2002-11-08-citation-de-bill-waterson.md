@@ -1,7 +1,7 @@
 ---
 title:      "Citation de Bill Waterson"
 lang:       en
-tags:       [société, humour, quote, bande dessinée]
+tags:       [society, humour, quote, bande dessinée]
 ---
 
 

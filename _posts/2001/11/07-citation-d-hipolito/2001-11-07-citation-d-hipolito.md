@@ -1,7 +1,7 @@
 ---
 title:      "Citation d'Hipolito"
 lang:       fr
-tags:       [société, cinéma, quote]
+tags:       [society, cinéma, quote]
 ---
 
 

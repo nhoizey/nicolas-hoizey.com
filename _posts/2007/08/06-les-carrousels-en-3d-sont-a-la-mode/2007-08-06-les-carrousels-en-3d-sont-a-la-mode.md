@@ -1,7 +1,7 @@
 ---
 title:      Les carrousels en 3D sont à la mode
 lang:       fr
-tags:       [ergonomie, jQuery, JavaScript]
+tags:       [UX, jQuery, JavaScript]
 ---
 
 J'ai vu apparaître ces derniers jours des carrousels en 3D sur les pages des sites de vente en ligne [Amazon](http://www.amazon.fr/) et [Alapage](http://www.alapage.com/), drôle de coïncidence !

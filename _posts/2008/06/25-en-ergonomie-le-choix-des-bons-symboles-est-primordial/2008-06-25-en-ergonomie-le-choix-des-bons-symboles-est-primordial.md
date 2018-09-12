@@ -1,7 +1,7 @@
 ---
 title:      En ergonomie, le choix des bons symboles est primordial
 lang:       fr
-tags:       [ergonomie, symbole]
+tags:       [UX]
 ---
 
 Si vous devez opter pour des métaphores visuelles pour représenter des données ou des actions réalisables, faites bien attention à ne pas laisser d'ambiguïté possible, qui pourrait conduire à une mauvaise interprétation ou utilisation, et donc une perte de confiance de l'utilisateur.

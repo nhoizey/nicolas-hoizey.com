@@ -1,7 +1,7 @@
 ---
 title:      Gérer des commentaires sur un blog statique
 lang:       fr
-tags:       [blog, static, comments]
+tags:       [blog, JAMstack, comments]
 ---
 
 Ce blog tourne depuis plus de 10 ans sur [SPIP](http://www.spip.net/), mais cela fait des mois que je suis tenté de passer à un mode plus statique, avec publication par fichiers Markdown. Sauf que je suis plutôt attaché à la possibilité de commenter mes billets[^1], et que je ne souhaite pas externaliser ces données. Pas simple…

@@ -1,7 +1,7 @@
 ---
 title:      Citation de Douglas Adams
 lang:       fr
-tags:       [quote, écologie]
+tags:       [quote, life]
 ---
 
 > Imagine a puddle waking up one morning and thinking, "This is an interesting world I find myself in, an interesting hole I find myself in, fits me rather neatly, doesn't it? In fact it fits me staggeringly well, must have been made to have me in it!"

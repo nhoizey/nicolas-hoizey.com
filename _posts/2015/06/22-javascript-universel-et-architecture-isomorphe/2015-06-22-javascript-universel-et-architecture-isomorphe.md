@@ -1,7 +1,7 @@
 ---
 title: JavaScript universel et architecture isomorphe
 lang:  fr
-tags:  [JavaScript, isomorphe, universel]
+tags:  [JavaScript]
 ---
 
 On parle depuis quelque temps de « JavaScript isomorphe » pour décrire des architectures Web dans lesquelles on abandonne les principes historiques des Single Page Applications composées de coquilles HTML vides et moult JavaScript pour les remplir. Le JavaScript isomorphe a plutôt comme principe de produire des pages HTML pleinement fonctionnelles dès la sortie du serveur, mais chargeant elles aussi moult JavaScript pour prendre le relai —si possible— afin d'améliorer l'expérience utilisateur. Je propose que l'on parle d'« architecture isomorphe », une implémentation possible étant en « JavaScript universel ».

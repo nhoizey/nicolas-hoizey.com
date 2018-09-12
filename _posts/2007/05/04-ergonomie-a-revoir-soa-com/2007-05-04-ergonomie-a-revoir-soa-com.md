@@ -1,7 +1,7 @@
---- 
+---
 title:      "Ergonomie à revoir : SOA.com"
-lang:       fr 
-tags:       [fail, ergonomie]
+lang:       fr
+tags:       [fail, UX]
 ---
 
 La société [SOA Software](http://www.soa.com/), comme son nom l'indique, est un éditeur de logiciel appartenant à la grande tendance [SOA](http://www.clever-age.com/veille/blog/tags/soa/)[^1] actuelle. Mais peut importe, les défauts d'ergonomie que l'on peut relever sur leur site ne sont pas liés à leur activité.

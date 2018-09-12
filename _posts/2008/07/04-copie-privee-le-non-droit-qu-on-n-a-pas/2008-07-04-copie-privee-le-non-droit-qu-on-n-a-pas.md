@@ -1,7 +1,7 @@
---- 
-title:      Copie privée, le non droit qu'on n'a pas 
-lang:       fr 
-tags:       [société, droit]
+---
+title:      Copie privée, le non droit qu'on n'a pas
+lang:       fr
+tags:       [society, droit]
 ---
 
 Le toujours excellent [^1] et cryptique [^2] Maître Eolas nous apprend que [le droit à la copie privée n'est pas un droit, et que de toute façon on ne l'a pas](http://maitre-eolas.fr/2008/06/25/1016-affaire-mulholland-drive-clap-de-fin), on a l'air malins !

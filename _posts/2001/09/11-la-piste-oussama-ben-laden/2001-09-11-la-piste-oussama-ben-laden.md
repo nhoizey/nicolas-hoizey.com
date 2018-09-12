@@ -1,7 +1,7 @@
 ---
 title:      "La piste Oussama Ben Laden"
 lang:       fr
-tags:       [société, presse, télévision]
+tags:       [society, presse, TV]
 ---
 
 ## Vrai responsable ou bouc émissaire facile ?

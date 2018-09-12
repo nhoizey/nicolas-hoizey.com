@@ -1,7 +1,7 @@
---- 
-title:      "Les kids écrivent à Michael Moore" 
-lang:       fr 
-tags:       [société]
+---
+title:      "Les kids écrivent à Michael Moore"
+lang:       fr
+tags:       [society]
 ---
 
 Ce que les lettres envoyées par des soldats américains (les *kids*) en poste en Iraq racontent globalement, c'est que le but de cette guerre n'est clairement pas la protection de la sécurité des Etats Unis.

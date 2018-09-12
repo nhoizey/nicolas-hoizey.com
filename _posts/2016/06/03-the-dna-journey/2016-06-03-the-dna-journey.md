@@ -1,7 +1,7 @@
 ---
 title: The DNA Journey
 lang:  fr
-tags:  [société]
+tags:  [society]
 ---
 
 Une vidéo que tout le monde devrait voir[^soustitres], une expérience que tout le monde devrait pouvoir faire.

@@ -1,7 +1,7 @@
---- 
-title:      "Un problème d'ergonomie chez les petits Swiss" 
-lang:       fr 
-tags:       [fail, ergonomie]
+---
+title:      "Un problème d'ergonomie chez les petits Swiss"
+lang:       fr
+tags:       [fail, UX]
 ---
 
 Le site de la compagnie aérienne suisse [Swiss International Airlines](http://www.swiss.com/) présente un défaut d'ergonomie bien incompréhensible au niveau de la sélection des langues de navigation. Surtout s'agissant du site d'une compagnie d'un pays multilingue.

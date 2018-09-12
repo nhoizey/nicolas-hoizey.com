@@ -1,7 +1,7 @@
 ---
 title:      Diigo l'ultra social permet de s'ajouter comme son propre ami
 lang:       fr
-tags:       [fail, bookmarks, Diigo, réseaux sociaux]
+tags:       [fail, bookmarks, Diigo, social network]
 ---
 
 [Diigo](http://www.diigo.com/) est le système de *bookmarking* social du type [Blogmarks](mot68) ou [Del.icio.us](http://del.icio.us/) que j'utilise maintenant, après avoir utilisé un temps chacun de ces deux derniers. Diigo leur est en effet bien supérieur sur différents aspects, mais ce n'est pas l'aspect social ici illustré qui m'a le plus convaincu de l'utiliser.

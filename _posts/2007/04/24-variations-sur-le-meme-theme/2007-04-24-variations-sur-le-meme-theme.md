@@ -1,7 +1,7 @@
---- 
-title:      Variations sur le même thème 
-lang:       fr 
-tags:       [société, presse]
+---
+title:      Variations sur le même thème
+lang:       fr
+tags:       [society, presse]
 ---
 
 Il semblerait que la presse manque un peu d'imagination entre ces deux tours des élections présidentielles :

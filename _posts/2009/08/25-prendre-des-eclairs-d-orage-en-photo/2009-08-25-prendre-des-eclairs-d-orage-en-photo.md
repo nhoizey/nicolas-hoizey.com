@@ -1,7 +1,7 @@
 ---
 title:      Prendre des éclairs (d'orage) en photo
 lang:       fr
-tags:       [photo, éclair]
+tags:       [photo]
 ---
 
 Toujours à la découverte de nouvelles pratiques photo -- après les [pauses longues en bord de mer](/2009/06/along-the-shore.html) -- je me suis essayé hier à la prise d'éclairs, profitant d'un orage particulièrement vigoureux. Eh bien ce n'est pas simple.

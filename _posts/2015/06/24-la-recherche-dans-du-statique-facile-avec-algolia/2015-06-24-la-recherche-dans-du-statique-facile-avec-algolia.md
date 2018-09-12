@@ -1,7 +1,7 @@
 ---
 title: La recherche dans du statique ? Facile avec Algolia !
 lang:  fr
-tags:  [statique, recherche, Algolia]
+tags:  [JAMstack, search, Algolia]
 ---
 
 Un des soucis avec un site statique tel que celui-ci, c'est que par définition il rend compliquée la mise en œuvre de fonctionnalités habituellement dynamiques. Les commentaires viennent immédiatement à l'esprit, et seront évoqués ultérieurement, mais la mise en place d'un moteur de recherche interne n'est pas plus simple. Heureusement, Algolia est là.

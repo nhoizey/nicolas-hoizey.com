@@ -1,7 +1,7 @@
---- 
-title:      "Kelkoo de prétentieux !!!" 
-lang:       fr 
-tags:       [société, fail]
+---
+title:      "Kelkoo de prétentieux !!!"
+lang:       fr
+tags:       [society, fail]
 ---
 
 

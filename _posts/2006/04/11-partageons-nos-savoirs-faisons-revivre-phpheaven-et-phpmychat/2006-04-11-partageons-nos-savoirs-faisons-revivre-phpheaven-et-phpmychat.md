@@ -1,7 +1,7 @@
---- 
-title:      "Partageons nos savoirs, faisons revivre phpHeaven et phpMyChat" 
-lang:       fr 
-tags:       [société, SPIP, wiki, phpHeaven, phpMyChat]
+---
+title:      "Partageons nos savoirs, faisons revivre phpHeaven et phpMyChat"
+lang:       fr
+tags:       [society, SPIP, wiki, phpHeaven, phpMyChat]
 ---
 
 
@@ -31,6 +31,6 @@ J'espère que l'utilisation d'un outil par nature plus ouvert à la contribution
 Si des francophones qui lisent ceci sont prêts à contribuer -- en anglais -- ne serait-ce qu'à l'effort de documentation, qu'ils se fassent connaître !
 
 
-[^1]: Choisi notamment par la [Communauté francophone des utilisateurs d'Ubuntu](http://wiki.ubuntu-fr.org/) 
+[^1]: Choisi notamment par la [Communauté francophone des utilisateurs d'Ubuntu](http://wiki.ubuntu-fr.org/)
 
 [^2]: Fourni gracieusement par [SourceForge](http://sf.net/)

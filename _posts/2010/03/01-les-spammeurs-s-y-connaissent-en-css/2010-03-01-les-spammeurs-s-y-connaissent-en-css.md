@@ -1,7 +1,7 @@
 ---
 title:      Les spammeurs s'y connaissent en CSS
 lang:       fr
-tags:       [SPAM, CSS]
+tags:       [spam, CSS]
 ---
 
 Un p'tit malin qui se fait appeler Sylvain a laissé un commentaire très sympathique sur [mon billet précédent](/2010/02/tumblr-aime-mes-meduses.html). Mais il a aussi glissé subrepticement un lien vers un site de *poker fashion*...

@@ -1,7 +1,7 @@
 ---
 title:      TinEye progresse à grands pas
 lang:       fr
-tags:       [photo, image, recherche, TinEye]
+tags:       [photo, image, search, TinEye]
 ---
 
 Vous vous souvenez peut-être que je vous ai parlé de [TinEye](/2008/06/tineye-un-systeme-bluffant-de-reconnaissance-d-images-sur-internet.html), un système bluffant de reconnaissance d’images sur Internet, il y a quelque temps. Et bien le service a largement complété sa base d'images indexée, annonçant 701 millions d'images contre 487 millions il y a deux mois. La preuve en images.

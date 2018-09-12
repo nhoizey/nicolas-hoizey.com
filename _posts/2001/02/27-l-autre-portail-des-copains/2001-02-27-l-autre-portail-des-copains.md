@@ -1,7 +1,7 @@
---- 
-title:      "L'Autre Portail (des Copains)" 
-lang:       fr 
-tags:       [société]
+---
+title:      "L'Autre Portail (des Copains)"
+lang:       fr
+tags:       [society]
 ---
 
 

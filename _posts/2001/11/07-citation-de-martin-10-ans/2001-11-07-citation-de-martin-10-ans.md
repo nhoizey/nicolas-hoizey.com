@@ -1,7 +1,7 @@
 ---
 title:      "Citation de Martin, 10 ans"
 lang:       fr
-tags:       [société, humour, quote]
+tags:       [society, humour, quote]
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title:      À bicyclette…
 lang:       fr
-tags:     [video, vélo]
+tags:     [video]
 ---
 
 [Danny MacAskill](http://fr.wikipedia.org/wiki/Danny_MacAskill) est un trialiste écossais hallucinant, qui s'est notamment fait connaître via différents court métrages le montrant faire des figures improbables en ville ou dans la campagne. Sponsorisé depuis quelques années par Red Bull, il n'a plus vraiment de limites à son imagination pour sortir des vidéos bien barrées…

@@ -1,7 +1,7 @@
---- 
+---
 title:      "Ergonomie à revoir : Inscription pour Apple Expo 2007"
-lang:       fr 
-tags:       [fail, ergonomie, Apple]
+lang:       fr
+tags:       [fail, UX, Apple]
 ---
 
 Décidément j'ai du mal avec les formulaires d'inscription, avec cette fois-ci [celui pour obtenir un badge](http://www.gldatasystems.fr/apple2007/form/gp.aspx?culture=US&l=1F86174NB2) pour la prochaine [Apple Expo](http://www.apple-expo.com/) à Paris.

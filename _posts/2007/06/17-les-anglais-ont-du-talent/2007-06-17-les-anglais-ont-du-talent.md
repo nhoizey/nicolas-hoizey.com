@@ -1,7 +1,7 @@
 ---
 title:      Les anglais ont du talent
 lang:       fr
-tags:       [music, télévision, talent]
+tags:       [music, TV]
 ---
 
 « [*Britains Got Talent*](http://talent.itv.com/) »[^1], c'est le nom d'une émission anglaise de la chaine ITV, et apparemment ils n'ont pas tort...
