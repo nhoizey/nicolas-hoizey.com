@@ -1,7 +1,7 @@
 ---
 title:      "Ghosts of Mars"
 lang:       fr
-tags:       [cinéma, film]
+tags:       [cinema, movie]
 ---
 
 Fidèle à lui-même, John Carpenter nous régale avec une bonne série B bien trash.

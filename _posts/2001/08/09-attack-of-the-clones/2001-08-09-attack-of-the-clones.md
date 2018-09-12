@@ -1,7 +1,7 @@
---- 
-title:      "Attack of the Clones" 
-lang:       fr 
-tags:       [cinéma]
+---
+title:      "Attack of the Clones"
+lang:       fr
+tags:       [cinema]
 ---
 
 Le second épisode de la Guerre des Étoiles se nommera « L'attaque des clones ».

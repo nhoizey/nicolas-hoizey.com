@@ -1,7 +1,7 @@
 ---
 title:      "L'été à Paris sera ..."
 lang:       fr
-tags:       [loisirs, music, cinéma]
+tags:       [loisirs, music, cinema]
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title:      Une sauvegarde de fichiers en ligne très simple pour pas cher
 lang:       fr
-tags:       [sauvegarde]
+tags:       [backup]
 ---
 
 {% cloudinary logo /assets/logos/jungledisk.jpg %}

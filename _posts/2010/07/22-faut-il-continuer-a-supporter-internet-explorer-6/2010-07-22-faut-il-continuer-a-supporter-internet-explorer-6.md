@@ -1,7 +1,7 @@
 ---
 title:      Faut-il continuer à supporter Internet Explorer 6 ?
 lang:       fr
-tags:       [Clever Age, Internet Explorer, navigateur]
+tags:       [Clever Age, Internet Explorer, browser]
 ---
 
 *Article initialement publié dans [le blog de Clever Age](http://www.clever-age.com/veille/blog/faut-il-continuer-a-supporter-internet-explorer-6-.html).*

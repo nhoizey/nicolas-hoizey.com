@@ -1,7 +1,7 @@
---- 
-title:      "Vous connaissez Arnold ?" 
-lang:       fr 
-tags:       ["création", "3D", "animation"]
+---
+title:      "Vous connaissez Arnold ?"
+lang:       fr
+tags:       [creation, "3D", animation]
 ---
 
 

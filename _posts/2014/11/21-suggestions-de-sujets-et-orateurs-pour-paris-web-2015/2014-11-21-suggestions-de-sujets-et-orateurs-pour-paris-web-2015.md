@@ -1,7 +1,7 @@
 ---
 title:      Suggestions de sujets et orateurs pour Paris Web 2015
 lang:       fr
-tags:       [Paris Web, conférence, RWD]
+tags:       [Paris Web, conference, RWD]
 ---
 
 Si vous étiez à [Paris Web](http://www.paris-web.fr/) cette année, vous avez dû remplir l'« enquête de satisfaction » comme tout le monde… Quoi ? Pas encore ? Alors [allez-y maintenant](http://www.paris-web.fr/avis/) ! On vous y invitera notamment à suggérer des sujets et orateurs pour la prochaine édition, celle des 10 ans. Voilà ce que j'ai proposé.

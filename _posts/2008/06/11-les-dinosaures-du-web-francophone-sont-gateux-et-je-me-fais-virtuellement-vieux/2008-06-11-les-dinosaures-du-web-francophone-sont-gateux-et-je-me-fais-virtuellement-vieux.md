@@ -1,7 +1,7 @@
 ---
 title:      Les dinosaures du Web francophone sont gâteux... et je me fais (virtuellement) vieux
 lang:       fr
-tags:       [Gastero Prod, moi, blogosphère]
+tags:       [Gastero Prod, moi, blog]
 ---
 
 Avec l'âge, pas d'échappatoire, on devient gâteux, et les dinosaures du Web francophone semblent déjà l'être, à ruminer collectivement sur le passé, le classique « c'était mieux avant » sur le bout de la langue. Et en plus ça sent la redite cette histoire de [labellisation « dinoblogueur »](http://embruns.net/logbook/2008/06/08.html#006563) !

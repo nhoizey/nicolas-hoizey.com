@@ -1,7 +1,7 @@
---- 
-title:      "Les Citées d'Or moins Mystérieuses" 
-lang:       fr 
-tags:       ["télévision", "dessin animé", "série"]
+---
+title:      "Les Citées d'Or moins Mystérieuses"
+lang:       fr
+tags:       [TV, animation, series]
 ---
 
 

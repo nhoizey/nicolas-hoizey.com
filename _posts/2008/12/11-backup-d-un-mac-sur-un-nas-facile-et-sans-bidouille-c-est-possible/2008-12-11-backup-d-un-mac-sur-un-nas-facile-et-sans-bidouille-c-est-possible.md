@@ -1,7 +1,7 @@
 ---
 title:      Backup d'un Mac sur un NAS facile et sans bidouille, c'est possible ?
 lang:       fr
-tags:       [macOS, sauvegarde]
+tags:       [macOS, backup]
 ---
 
 D'un côté, Apple rend les sauvegardes plus accessible au grand public avec [Time Machine (fr)](http://www.apple.com/fr/macosx/features/timemachine.html) fourni en standard dans Mac OS X 10.5 Leopard. D'un autre côté, les fabriquants de solutions NAS[^1] rivalisent d'ingéniosité pour conquérir ce même grand public. Au milieu, une incompatibilité de conception totale, merci Apple.

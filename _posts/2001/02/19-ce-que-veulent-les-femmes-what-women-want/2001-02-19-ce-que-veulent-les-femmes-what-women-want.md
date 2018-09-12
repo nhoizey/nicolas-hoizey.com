@@ -1,7 +1,7 @@
 ---
 title:      "Ce que veulent les femmes (What Women Want)"
 lang:       fr
-tags:       [cinéma, film]
+tags:       [cinema, movie]
 ---
 
 

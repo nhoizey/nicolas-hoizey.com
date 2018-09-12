@@ -1,7 +1,7 @@
---- 
-title:      "Plus on est de fous, moins il y a de riz" 
-lang:       fr 
-tags:       ["création", "film", "3D", "animation"]
+---
+title:      "Plus on est de fous, moins il y a de riz"
+lang:       fr
+tags:       [creation, movie, "3D", animation]
 ---
 
 

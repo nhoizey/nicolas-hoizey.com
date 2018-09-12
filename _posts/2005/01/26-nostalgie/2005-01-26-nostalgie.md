@@ -1,7 +1,7 @@
---- 
-title:      "Nostalgie ..." 
-lang:       fr 
-tags:       [moi, cinéma, Google, Internet, JavaScript]
+---
+title:      "Nostalgie ..."
+lang:       fr
+tags:       [moi, cinema, Google, Internet, JavaScript]
 ---
 
 Grâce à [Google Groups](http://groups.google.com/), sorti récemment en version *beta*[^c1], j'ai retrouvé la trace de mes premiers pas sur les newsgroups, le 12 décembre 1996 !

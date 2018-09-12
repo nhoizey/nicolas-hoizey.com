@@ -1,7 +1,7 @@
---- 
-title:      "Albator en chair et en os !" 
-lang:       fr 
-tags:       [cinéma, Daft Punk, dessin animé]
+---
+title:      "Albator en chair et en os !"
+lang:       fr
+tags:       [cinema, Daft Punk, dessin animé]
 ---
 
 

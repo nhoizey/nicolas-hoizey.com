@@ -1,7 +1,7 @@
 ---
 title:      "Citation de Gérard Lefort"
 lang:       fr
-tags:       [cinéma, quote]
+tags:       [cinema, quote]
 ---
 
 

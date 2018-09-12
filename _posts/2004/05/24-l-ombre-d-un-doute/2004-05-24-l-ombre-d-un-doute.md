@@ -1,7 +1,7 @@
---- 
-title:      "L'ombre d'un doute ..." 
-lang:       fr 
-tags:       [création, standards, CSS]
+---
+title:      "L'ombre d'un doute ..."
+lang:       fr
+tags:       [creation, standards, CSS]
 ---
 
 Un effet graphique assez répandu, au point d'envahir notamment les interfaces graphiques des différents OS, est celui des ombrages. Les ombres permettent de donner du relief aux interfaces, principalement pour mettre en évidence la supperposition de différentes « couches » graphiques.

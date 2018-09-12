@@ -1,7 +1,7 @@
 ---
 title:      "Gruik gruik !!!"
 lang:       fr
-tags:       [fun, "dessin animé"]
+tags:       [fun, animation]
 ---
 
 

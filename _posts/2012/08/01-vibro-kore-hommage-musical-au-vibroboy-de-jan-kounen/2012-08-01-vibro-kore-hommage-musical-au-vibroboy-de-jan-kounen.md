@@ -1,7 +1,7 @@
 ---
 title:      Vibro-kore, hommage musical au Vibroboy de Jan Kounen
 lang:       fr
-tags:       [music, film, Jan Kounen]
+tags:       [music, movie, Jan Kounen]
 ---
 
 J'ai retrouvé ce morceau complètement par hasard sur des vieux CD de backup qui trainaient chez moi, mais je n'arrive plus du tout à me souvenir où j'ai récupéré cet hommage d'un certain « Derf » au génial — mais pas pour tous publics — court-métrage « [Vibroboy](http://fr.wikipedia.org/wiki/Vibroboy) »[^1] de [Jan Kounen](http://fr.wikipedia.org/wiki/Jan_Kounen).

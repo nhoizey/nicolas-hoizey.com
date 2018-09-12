@@ -1,7 +1,7 @@
 ---
 title:      "Des bandes annonces à gogo"
 lang:       fr
-tags:       [cinéma]
+tags:       [cinema]
 ---
 
 

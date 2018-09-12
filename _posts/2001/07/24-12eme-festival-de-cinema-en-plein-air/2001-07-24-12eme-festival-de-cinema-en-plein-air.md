@@ -1,7 +1,7 @@
 ---
 title:      "12ème Festival de Cinéma en Plein Air"
 lang:       fr
-tags:       [cinéma]
+tags:       [cinema]
 ---
 
 Comme chaque année, [La Villette](http://www.la-villette.com/) propose son [Festival de Cinéma en Plein Air](http://www.la-villette.com/manif/html/302.htm) sur la Prairie du Triangle.

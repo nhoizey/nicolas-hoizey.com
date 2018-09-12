@@ -1,7 +1,7 @@
 ---
 title:      "Le dernier Star Wars en DVD en octobre 2001"
 lang:       fr
-tags:       [cinéma]
+tags:       [cinema]
 ---
 
 {% cloudinary onethird star-wars-1.png %}

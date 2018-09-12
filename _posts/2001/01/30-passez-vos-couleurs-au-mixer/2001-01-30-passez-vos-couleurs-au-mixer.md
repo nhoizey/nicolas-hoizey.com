@@ -1,7 +1,7 @@
---- 
-title:      "Passez vos couleurs au mixer !!!" 
-lang:       fr 
-tags:       ["création", "design", "couleur"]
+---
+title:      "Passez vos couleurs au mixer !!!"
+lang:       fr
+tags:       [creation, "design", "couleur"]
 ---
 
 

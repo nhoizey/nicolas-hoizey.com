@@ -1,7 +1,7 @@
---- 
-title:      "Jeanine Salla, ambassadrice virtuelle" 
-lang:       fr 
-tags:       [humour, cinéma]
+---
+title:      "Jeanine Salla, ambassadrice virtuelle"
+lang:       fr
+tags:       [humour, cinema]
 ---
 
 

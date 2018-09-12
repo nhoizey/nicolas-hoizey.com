@@ -1,7 +1,7 @@
---- 
-title:      "Tarte Tatin terriblement tentante " 
-lang:       fr 
-tags:       [cuisine]
+---
+title:      "Tarte Tatin terriblement tentante "
+lang:       fr
+tags:       [misc]
 ---
 
 Vous aimez la Tarte Tatin, cette bonne vieille recette de tarte au pommes "renversée" ? Alors son site officiel (eh oui !) devrait vous plaire !

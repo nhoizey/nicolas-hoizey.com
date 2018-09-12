@@ -1,7 +1,7 @@
---- 
-title:      "Groupe Flickr à remplir : « Halfway between air and water »" 
-lang:       fr 
-tags:       [photo, moi, Flickr, plongée]
+---
+title:      "Groupe Flickr à remplir : « Halfway between air and water »"
+lang:       fr
+tags:       [photo, moi, Flickr, diving]
 ---
 
 Il y a de cela déjà quelque temps, après avoir créé le groupe « [Catching the sun (or the moon)](/2005/06/attrapez-le-soleil.html) », j'ai créé sur [Flickr](http://www.flickr.com/) le groupe « [Halfway between air and water](http://www.flickr.com/groups/halfway_air_water/) »[^1], dont le but est de rassembler des photos prises avec l'objectif placé à moitié seulement sous l'eau, ce qui donne un effet souvent très particulier.

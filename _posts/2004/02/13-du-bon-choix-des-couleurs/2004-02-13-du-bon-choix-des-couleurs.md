@@ -1,7 +1,7 @@
---- 
-title:      "Du bon choix des couleurs ..." 
-lang:       fr 
-tags:       [création]
+---
+title:      "Du bon choix des couleurs ..."
+lang:       fr
+tags:       [creation]
 ---
 
 Un bon design est bien entendu affaire de formes harmonieuses, mais ces formes doivent être surtout habillées de couleurs qui s'accordent bien entre elles.

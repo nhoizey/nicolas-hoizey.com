@@ -1,7 +1,7 @@
 ---
 title:      Ma conférence à Paris Web 2013
 lang:       fr
-tags:       [Paris Web, conférence, RWD, em]
+tags:       [Paris Web, conference, RWD, em]
 poster:     nicolas_hoizey_-_paris_web_2013_-_photo_par_fabrice_le_guernec_pour_paris_web.jpg
 ---
 

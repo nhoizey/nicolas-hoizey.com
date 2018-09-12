@@ -1,7 +1,7 @@
---- 
-title:      "Journal d'un pickpocket" 
-lang:       fr 
-tags:       ["cinéma", "film"]
+---
+title:      "Journal d'un pickpocket"
+lang:       fr
+tags:       [cinema, movie]
 ---
 
 

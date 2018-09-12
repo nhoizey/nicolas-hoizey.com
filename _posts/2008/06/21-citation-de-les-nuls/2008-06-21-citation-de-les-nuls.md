@@ -1,7 +1,7 @@
 ---
 title:      Citation de Les Nuls
 lang:       fr
-tags:       [humour, cinéma, quote, Les Nuls]
+tags:       [humour, cinema, quote, Les Nuls]
 ---
 
 > Festival de Cannes

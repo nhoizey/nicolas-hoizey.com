@@ -1,7 +1,7 @@
 ---
 title:      "Citation de René Goscinny"
 lang:       fr
-tags:       [quote, bande dessinée]
+tags:       [quote, comic]
 ---
 
 > A vaincre sans péril, on évite des ennuis !

@@ -1,7 +1,7 @@
 ---
 title:      "Le cinéma en plein air à La Villette, c'est (finalement pas) reparti !"
 lang:       fr
-tags:       [cinéma]
+tags:       [cinema]
 ---
 
 Voilà ce que je disais le 1er juillet, ce n'est plus valable, les intermittents sont passés par là :

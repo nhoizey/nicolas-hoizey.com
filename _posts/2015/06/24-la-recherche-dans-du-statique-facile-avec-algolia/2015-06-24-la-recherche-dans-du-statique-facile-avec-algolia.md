@@ -7,7 +7,7 @@ tags:  [JAMstack, search, Algolia]
 Un des soucis avec un site statique tel que celui-ci, c'est que par définition il rend compliquée la mise en œuvre de fonctionnalités habituellement dynamiques. Les commentaires viennent immédiatement à l'esprit, et seront évoqués ultérieurement, mais la mise en place d'un moteur de recherche interne n'est pas plus simple. Heureusement, Algolia est là.
 
 {% cloudinary logo /assets/logos/algolia.png alt="Le logo de Algolia" %}
-Avant de découvrir les pistes envisagées et ce que j'aime dans Algolia, [allez donc tester par vous-même](/recherche.html) et/ou regardez ce petit screencast fait pour l'occasion :
+Avant de découvrir les pistes envisagées et ce que j'aime dans Algolia, [allez donc tester par vous-même](/search.html) et/ou regardez ce petit screencast fait pour l'occasion :
 
 {% youtube Ia9FFYwkU6c %}
 
@@ -65,7 +65,7 @@ Algolia est bluffant à plus d'un titre :
 
 {% cloudinary algolia-dashboard-response-times.jpg alt="Le suivi des temps de réponse" caption="Le suivi des temps de réponse de l'API. Oui, l'échelle est en millisecondes !" %}
 
-[Ma mise en œuvre](https://github.com/nhoizey/nicolas-hoizey.com/blob/master/recherche.html) n'est sans doute pas parfaite techniquement, mais j'y suis arrivé assez simplement grâce aux tutoriels proposés et à l'aide rapide et efficace obtenue via Twitter en cas de blocage, donc c'est à la portée de tout le monde !
+[Ma mise en œuvre](https://github.com/nhoizey/nicolas-hoizey.com/blob/master/search.html) n'est sans doute pas parfaite techniquement, mais j'y suis arrivé assez simplement grâce aux tutoriels proposés et à l'aide rapide et efficace obtenue via Twitter en cas de blocage, donc c'est à la portée de tout le monde !
 
 ## Mais… et si mon site est dynamique, ou si je n'ai pas JS côté client ?
 

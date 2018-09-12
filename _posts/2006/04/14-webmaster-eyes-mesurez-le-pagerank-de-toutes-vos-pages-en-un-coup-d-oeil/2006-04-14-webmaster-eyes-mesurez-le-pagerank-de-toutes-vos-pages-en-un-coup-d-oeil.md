@@ -1,7 +1,7 @@
---- 
-title:      "Webmaster Eyes : Mesurez le PageRank de toutes vos pages en un coup d'oeil" 
-lang:       fr 
-tags:       [Google, statistiques]
+---
+title:      "Webmaster Eyes : Mesurez le PageRank de toutes vos pages en un coup d'oeil"
+lang:       fr
+tags:       [Google, statistics]
 ---
 
 Pour ceux qui ne le savent pas encore[^1], le *PageRank* est une notion qui permet à Google de mesurer l'indice de popularité d'une page Web pour assurer le classement de ses résultats de recherche[^2].

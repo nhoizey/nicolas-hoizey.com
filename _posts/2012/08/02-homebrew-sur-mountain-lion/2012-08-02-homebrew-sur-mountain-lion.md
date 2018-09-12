@@ -1,7 +1,7 @@
 ---
 title:      Homebrew sur Mountain Lion
 lang:       fr
-tags:       [logiciel, Mac]
+tags:       [software, Mac]
 ---
 
 Passé un peu forcé à Mountain Lion la semaine dernière à cause d'un plantage de mon MBP pro, je réinstalle tout ce dont j'ai besoin[^1]. Si désactiver [Gatekeeper](http://www.apple.com/fr/osx/whats-new/features.html#gatekeeper) permet d'installer toutes les applications Mac sans soucis, certains changements système peuvent compliquer l'installation de Homebrew et ses packages.

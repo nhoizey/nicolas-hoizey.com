@@ -1,7 +1,7 @@
---- 
-title:      "Gastero Prod écarté de la « blog story » !" 
-lang:       fr 
-tags:       [Gastero Prod, moi, blogosphère]
+---
+title:      "Gastero Prod écarté de la « blog story » !"
+lang:       fr
+tags:       [Gastero Prod, moi, blog]
 ---
 
 Dans un de ses récents [embruns](http://embruns.net/), Laurent Gloaguen s'est proposé de compiler une [chronologie des blogs](http://embruns.net/blogosphere/001306.html)[^c1] depuis leur apparition probable en 1995, et Gastero Prod n'y est pas !!!

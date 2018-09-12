@@ -1,7 +1,7 @@
 ---
 title:      "Citation de Pedro Almodovar"
 lang:       fr
-tags:       [cinéma, quote]
+tags:       [cinema, quote]
 ---
 
 

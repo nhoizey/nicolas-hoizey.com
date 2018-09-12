@@ -1,7 +1,7 @@
 ---
 title:      "Seul au monde (Cast Away)"
 lang:       fr
-tags:       [cinéma, film]
+tags:       [cinema, movie]
 ---
 
 {% cloudinary onethird cast-away-affiche.png %}

@@ -1,7 +1,7 @@
 ---
 title:      Google Chrome sur Mac, bilan mitigé
 lang:       fr
-tags:       [Chrome, navigateur, Mac]
+tags:       [Chrome, browser, Mac]
 ---
 
 J'ai attendu la sortie de la première version stable de Chrome pour Mac supportant les extensions pour enfin tester, et je dois dire qu'après quelques jours d'utilisation, j'en fait pour l'instant un bilan plutôt mitigé.

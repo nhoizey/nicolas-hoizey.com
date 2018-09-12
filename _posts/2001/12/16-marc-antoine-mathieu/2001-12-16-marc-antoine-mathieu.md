@@ -1,7 +1,7 @@
 ---
 title:      "Marc-Antoine Mathieu"
 lang:       fr
-tags:       [bande dessinée]
+tags:       [comic]
 ---
 
 {% cloudinary onethird art84-1.jpg %}

@@ -1,7 +1,7 @@
 ---
 title: Soignez votre lisibilité avec des textes de largeur maîtrisée
 lang:  fr
-tags:  [accessibilité, UX, em]
+tags:  [accessibility, UX, em]
 ---
 
 Afin d'assurer une présentation optimale du texte pour la lisibilité, il est nécessaire de définir un nombre optimal de caractères par ligne quelle que soit la taille du texte.

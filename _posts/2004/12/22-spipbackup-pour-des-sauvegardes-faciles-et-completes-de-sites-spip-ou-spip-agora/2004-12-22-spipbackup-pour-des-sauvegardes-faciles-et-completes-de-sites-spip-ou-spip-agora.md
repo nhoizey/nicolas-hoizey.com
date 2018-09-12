@@ -1,7 +1,7 @@
 ---
 title:      "spipBackup, pour des sauvegardes faciles et complètes de sites SPIP ou SPIP-Agora"
 lang:       fr
-tags:       [SPIP, sauvegarde]
+tags:       [SPIP, backup]
 ---
 
 Quel webmestre n'a jamais eu de sueurs froides en s'appercevant que le serveur ne fonctionnait plus, ou que la base de données était corrompue ? Faire des sauvegardes régulières des contenus d'un site est plus que nécessaire, surtout si ces contenus sont gérés directement en ligne[^c1] et que la plateforme d'hébergement ne prend pas en charge ces sauvegardes.

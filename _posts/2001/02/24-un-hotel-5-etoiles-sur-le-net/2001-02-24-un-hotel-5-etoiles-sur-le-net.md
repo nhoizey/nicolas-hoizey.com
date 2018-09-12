@@ -1,7 +1,7 @@
 ---
 title:      "Un hôtel 5 étoiles sur le Net"
 lang:       fr
-tags:       [réseaux sociaux]
+tags:       [game]
 ---
 
 

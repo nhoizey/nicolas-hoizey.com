@@ -1,7 +1,7 @@
---- 
-title:      "Lanfeust des Etoiles" 
-lang:       fr 
-tags:       [humour, bande dessinée]
+---
+title:      "Lanfeust des Etoiles"
+lang:       fr
+tags:       [humour, comic]
 ---
 
 A l'occasion de la sortie du premier tome de la nouvelle série Lanfeust des Etoiles, Lycos propose un mini-site événementiel assez complet.
