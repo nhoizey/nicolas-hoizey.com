@@ -6,13 +6,6 @@ module Jekyll
         record[:raw_content] = nil
         record
       end
-
-      # https://community.algolia.com/jekyll-algolia/hooks.html#should-be-excluded
-      def self.should_be_excluded?(filepath)
-        # Do not index notes index page
-        return true if filepath =~ %r{notes\.html}
-        false
-      end
     end
   end
 end
