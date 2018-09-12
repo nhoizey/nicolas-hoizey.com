@@ -15,7 +15,7 @@ De quoi commencer à se dire que c'est le modèle qui est mauvais, que son étan
 
 De quoi surtout me pousser à faire vite fait une vidéo « preuve » pour publier un tweet bien rageur :
 
-<iframe width="640" height="360" src="//www.youtube.com/embed/Kl-q-Ao7pgg" frameborder="0" allowfullscreen></iframe>
+{% youtube Kl-q-Ao7pgg %}
 
 <blockquote class="twitter-tweet" data-cards="hidden" lang="fr"><p>2nde fois qu&#39;un système d&#39;arrosage <a href="https://twitter.com/GardenaGlobal">@GardenaGlobal</a> acheté chez <a href="https://twitter.com/Truffaut">@Truffaut</a> meurt au bout de quelques mois… innondé <a href="https://twitter.com/search?q=%23fail&amp;src=hash">#fail</a>&#10;<a href="http://t.co/auySzsEfSB">http://t.co/auySzsEfSB</a></p>&mdash; Nicolas Hoizey (@nhoizey) <a href="https://twitter.com/nhoizey/statuses/457608407974170624">19 Avril 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
