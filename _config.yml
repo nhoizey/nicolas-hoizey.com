@@ -106,6 +106,8 @@ algolia:
     - offline.html
     - indisponible.html
     - tags/index.html
+    - tools/*
+    - notes.html
 
 # Webmention
 webmentions:
