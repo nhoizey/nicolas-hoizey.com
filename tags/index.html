@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Tags
 ---
 
 <h1>Tags</h1>
