@@ -19,6 +19,7 @@ const offlineMandatory = [
   '/a-propos/de-moi.html',
   '/a-propos/du-site.html',
   '/assets/photo-de-nicolas-hoizey-512px.png',
+  '/manifest.webmanifest',
   '{% asset "non-critical-styles" @path %}',
 ]
 
