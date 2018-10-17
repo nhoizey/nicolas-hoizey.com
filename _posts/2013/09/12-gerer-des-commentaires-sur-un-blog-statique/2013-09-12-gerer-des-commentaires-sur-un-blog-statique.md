@@ -30,8 +30,6 @@ https://twitter.com/nhoizey/statuses/378119810967937024
 
 Les réponses suivantes sont donc plus intéressantes :
 
-https://twitter.com/elpep/statuses/378122556991373312
-
 https://twitter.com/jygastaud/statuses/378123457093206016
 
 https://twitter.com/j0k/statuses/378120112550584321
