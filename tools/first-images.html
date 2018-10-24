@@ -6,18 +6,38 @@ title: First images
 <!-- nomicrotypo -->
 <h1 id="articles">Articles</h1>
 <section class="list recent">
-  <dl>
-    {% for post in site.posts limit:10 %}
-      <dt><a href="{{ post.url }}">{{ post.title }}</a></dt>
+  {% for post in site.posts limit:100 %}
+    {% capture firstImageLiquid %}{% include first-image-src.html page=post %}{% endcapture %}
+    {% capture firstImageFilter %}{{ post.content | first_image }}{% endcapture %}
+    {% if firstImageFilter contains "/http" %}
+      {% assign firstImageFilter = firstImageFilter | split: "/http" | last | prepend: "http" %}
+    {% endif %}
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <dl>
+      <dt>Liquid include</dt>
       <dd>
-        Filter -> {{ post.content | first_image }}<br />
-        <img src="{{ post.content | first_image }}" style="max-width: 50%" />
+        {{ firstImageLiquid }}
       </dd>
       <dd>
-        Plugin -> {{ post.image }}<br />
-        <img src="{{ post.image }}" style="max-width: 50%" />
+        <img src="{{ firstImageLiquid }}" style="max-width: 50%" />
       </dd>
-    {% endfor %}
-  </dl>
+      <dt>Filter plugin</dt>
+      <dd>
+        {{ firstImageFilter }}<br />
+      <dd>
+        <img src="{{ firstImageFilter }}" style="max-width: 50%" />
+      </dd>
+      <!--
+      <dt>Data plugin</dt>
+      <dd>
+        {% capture firstImagePlugin %}{{ post.image }}{% endcapture %}
+        {{ firstImagePlugin }}
+      </dd>
+      <dd><img src="{{ firstImagePlugin }}" style="max-width: 50%" /></dd>
+      -->
+    </dl>
+  {% endfor %}
 </section>
 <!-- endnomicrotypo -->
+
+
