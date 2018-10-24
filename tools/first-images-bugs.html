@@ -18,16 +18,19 @@ title: First images with bugs
       <dl>
         <dt>Liquid include</dt>
         <dd>
-          1: {{ firstImageLiquid }}
-          2: {{ firstImageLiquid2 }}
+          <ol>
+            <li>#1#{{ firstImageLiquid }}#</li>
+            <li>#2#{{ firstImageLiquid2 }}#</li>
+          </ol>
         </dd>
         <dd>
-          1: <img src="{{ firstImageLiquid }}" style="max-width: 50%" /><br />
-          2: <img src="{{ firstImageLiquid2 }}" style="max-width: 50%" />
+          <ol>
+            <li><img src="{{ firstImageLiquid }}" style="max-width: 50%" /></li>
+            <li><img src="{{ firstImageLiquid2 }}" style="max-width: 50%" /></li>
+          </ol>
         </dd>
         <dt>Filter plugin</dt>
-        <dd>
-          {{ firstImageFilter }}
+        <dd>#{{ firstImageFilter }}#</dd>
         <dd>
           <img src="{{ firstImageFilter }}" style="max-width: 50%" />
         </dd>
