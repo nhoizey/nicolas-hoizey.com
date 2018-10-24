@@ -18,8 +18,8 @@ Une barre de menu horizontale avec des sous menus déroulants fait son apparitio
 
 Côté présentation du contenu, la première page d'un compte présente maintenant les photos sur deux colonnes, et les pages suivantes sur trois colonnes, ce qui est un changement bienvenu puisqu'il apporte une meilleure ergonomie.
 
-L'[Organizr](http://www.flickr.com/help/organizr/) -- que je n'utilise que très rarement -- a largement été revu, et semble maintenant être intégralement en Ajax, sans plus aucun flash.
+L'[Organizr](https://www.flickr.com/help/organizr/) -- que je n'utilise que très rarement -- a largement été revu, et semble maintenant être intégralement en Ajax, sans plus aucun flash.
 
-Au passage, par contre, le code HTML étant quelque peu malmené, [les scripts Greasemonkey l'exploitant à outrance sont nombreux à ne plus fonctionner](http://www.flickr.com/groups/flickrhacks/discuss/72057594136733019/), dont un que je venais de faire pour fournir [un lien vers les plus intéressantes photos d'un utilisateur](http://www.userscript.com/scripts/show/4104).
+Au passage, par contre, le code HTML étant quelque peu malmené, [les scripts Greasemonkey l'exploitant à outrance sont nombreux à ne plus fonctionner](https://www.flickr.com/groups/flickrhacks/discuss/72057594136733019/), dont un que je venais de faire pour fournir [un lien vers les plus intéressantes photos d'un utilisateur](http://www.userscript.com/scripts/show/4104).
 
 Je suppose que Flickr va présenter un peu plus précisément toutes les nouvelles fonctionnalités dans les jours qui viennent, mais en tout cas je trouve cela globalement réussi !

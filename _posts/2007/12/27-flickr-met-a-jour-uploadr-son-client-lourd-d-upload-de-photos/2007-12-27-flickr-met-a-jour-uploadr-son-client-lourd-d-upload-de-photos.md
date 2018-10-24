@@ -10,7 +10,7 @@ Auparavant, il fallait *uploader* tel quel, et passer ensuite en interface web p
 
 {% cloudinary Flickr_Uploadr_3.png caption="Flickr Uploadr 3" %}
 
-Flickr en profite pour passer le logiciel sous licence libre GNU/GPL 2, ce qui devrait permettre aux développeurs de l'étendre, par exemple à d'autres services comme [23hq](/2005/09/23-un-remplacant-potentiel-de-flickr.html), [Zooomr](http://www.zooomr.com/) ou [ipernity](http://www.ipernity.com/), qui ont des [API](http://www.flickr.com/services/) très proches si ce n'est identiques.
+Flickr en profite pour passer le logiciel sous licence libre GNU/GPL 2, ce qui devrait permettre aux développeurs de l'étendre, par exemple à d'autres services comme [23hq](/2005/09/23-un-remplacant-potentiel-de-flickr.html), [Zooomr](http://www.zooomr.com/) ou [ipernity](http://www.ipernity.com/), qui ont des [API](https://www.flickr.com/services/) très proches si ce n'est identiques.
 
 Cet Uploadr 3 exploite la plateforme [Gecko](http://fr.wikipedia.org/wiki/Gecko_%28moteur_de_rendu%29)/[XUL](http://fr.wikipedia.org/wiki/XUL) de Mozilla, ce qui simplifie son développement et assure son déploiement sur tout système.
 

@@ -1,13 +1,13 @@
---- 
-title:      "Gastero Prod maintenant sur SPIP 1.8.2 pr2... en attendant plus" 
-lang:       fr 
+---
+title:      "Gastero Prod maintenant sur SPIP 1.8.2 pr2... en attendant plus"
+lang:       fr
 tags:       [photo, SPIP, Gastero Prod, standards, développement]
 ---
 
 Gastero Prod tournait depuis déjà quelque temps sur la robuste version 1.7.2 de SPIP, mais vient de faire un grand pas vers la 1.8.2 pr2 du CVS. Bilan et perspectives...
 
 
-Le bilan va être très court, puisque la migration s'est effectuée en 10 minutes montre en main[^1], sans aucun effet de bord détecté pour l'instant. 
+Le bilan va être très court, puisque la migration s'est effectuée en 10 minutes montre en main[^1], sans aucun effet de bord détecté pour l'instant.
 
 SPIP continue donc à fournir une belle compatibilité ascendante, même sur les versions issues du CVS. Bravo !
 
@@ -21,7 +21,7 @@ J'espère aussi pouvoir remplacer un jour ma [vieille contrib](http://www.spip-c
 
 Il faudra au passage que je purifie un peu le code pour rendre le site plus accessible et encore plus respectueux des standards, j'ai encore beaucoup appris ces derniers temps sur ces deux sujets.
 
-Enfin, je compte intégrer au mieux mes meilleures photos, noyées pour l'instant parmi toutes celles publiées sur [Flickr](http://www.flickr.com/photos/nicolas-hoizey/), sans réel lien avec ce site, si ce n'est le petit flash en page d'accueil. Et pourquoi pas, puisqu'on parle de Flickr, aussi intégrer plus étroitement [flickRate](http://flickrate.gasteroprod.com/), qui commence à prendre de l'ampleur.
+Enfin, je compte intégrer au mieux mes meilleures photos, noyées pour l'instant parmi toutes celles publiées sur [Flickr](https://www.flickr.com/photos/nicolas-hoizey/), sans réel lien avec ce site, si ce n'est le petit flash en page d'accueil. Et pourquoi pas, puisqu'on parle de Flickr, aussi intégrer plus étroitement [flickRate](http://flickrate.gasteroprod.com/), qui commence à prendre de l'ampleur.
 
 Quel beau programme, n'est-ce pas !
 

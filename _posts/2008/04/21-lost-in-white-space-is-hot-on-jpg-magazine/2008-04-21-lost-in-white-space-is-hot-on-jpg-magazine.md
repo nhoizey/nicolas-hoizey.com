@@ -16,6 +16,6 @@ C'est un badge présent sur les pages de photos qui sont mises en avant comme fa
 
 {% cloudinary JPGMag-Color_Theory.png caption="Le thème « Color Theory »" %}
 
-L'intérêt principal de JPG Magazine -- par rapport à des sites purement communautaires comme [Flickr](http://www.flickr.com/) -- c'est que chacun ne peut poster qu'une unique photo dans chacun des thèmes proposés, ce qui pousse à la qualité et évite les spams photographiques si présents dans les groupes de Flickr.
+L'intérêt principal de JPG Magazine -- par rapport à des sites purement communautaires comme [Flickr](https://www.flickr.com/) -- c'est que chacun ne peut poster qu'une unique photo dans chacun des thèmes proposés, ce qui pousse à la qualité et évite les spams photographiques si présents dans les groupes de Flickr.
 
 [^1]: C'est un choix aléatoire au sein de la sélection

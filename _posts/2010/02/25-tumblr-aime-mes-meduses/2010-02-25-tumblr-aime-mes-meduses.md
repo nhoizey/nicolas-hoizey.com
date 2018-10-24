@@ -4,7 +4,7 @@ lang:       fr
 tags:       [photo]
 ---
 
-Vous avez sans doute déjà vu ma belle photo de méduses fluorescentes -- une de mes préférées -- que ce soit [ici](/2008/07/meduses-fluorescentes.html), sur [Flickr](http://www.flickr.com/photos/nicolas-hoizey/2632478734/), [JPG Magazine](http://www.jpgmag.com/photos/809995), [deviantArt](http://nhoizey.deviantart.com/art/Fluorescent-Jellyfish-90477061) ou plus récemment sur [RedBubble](http://www.redbubble.com/people/nhoizey/art/4542942-3-fluorescent-jellyfishes). Et bien elle vient d'être publiée en série sur de nombreux micro blogs [Tumblr](http://www.tumblr.com/), lui apportant une énorme visibilité.
+Vous avez sans doute déjà vu ma belle photo de méduses fluorescentes -- une de mes préférées -- que ce soit [ici](/2008/07/meduses-fluorescentes.html), sur [Flickr](https://www.flickr.com/photos/nicolas-hoizey/2632478734/), [JPG Magazine](http://www.jpgmag.com/photos/809995), [deviantArt](http://nhoizey.deviantart.com/art/Fluorescent-Jellyfish-90477061) ou plus récemment sur [RedBubble](http://www.redbubble.com/people/nhoizey/art/4542942-3-fluorescent-jellyfishes). Et bien elle vient d'être publiée en série sur de nombreux micro blogs [Tumblr](http://www.tumblr.com/), lui apportant une énorme visibilité.
 
 Le premier à avoir publié la photo semble être celui-ci :
 

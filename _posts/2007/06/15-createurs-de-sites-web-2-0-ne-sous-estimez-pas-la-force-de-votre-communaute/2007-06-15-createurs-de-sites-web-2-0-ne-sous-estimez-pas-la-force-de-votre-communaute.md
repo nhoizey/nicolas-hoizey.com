@@ -13,7 +13,7 @@ Voici ce qui a tout déclenché :
 
 «*Note: If your Yahoo! ID is based in Singapore, Germany, Hong Kong or Korea you will only be able to view safe content based on your local Terms of Service so won’t be able to turn SafeSearch off.*»
 
-Et voilà [la réaction de la communauté](http://www.flickr.com/photos/tags/againstflickrcensorship/clusters/) :
+Et voilà [la réaction de la communauté](https://www.flickr.com/photos/tags/againstflickrcensorship/clusters/) :
 
 {% cloudinary Flickr_Photos_tagged_with_againstflickrcensorship.png caption="Cluster de photos sur Flickr tagguées avec « againstflickrcensoship »" %}
 

@@ -1,6 +1,6 @@
---- 
-title:      Au secours, Safari 3 ne marche pas sur mon Mac ! 
-lang:       fr 
+---
+title:      Au secours, Safari 3 ne marche pas sur mon Mac !
+lang:       fr
 tags:       [photo, Flickr, Apple, Safari, PicLens]
 ---
 
@@ -12,7 +12,7 @@ En fait, quelques recherches frénétiques sur [Google](http://www.google.com/) 
 
 ## J'ai finalement trouvé cette solution.
 
-J'avais tout simplement installé il y a quelque temps -- dans Safari 2, donc -- le fabuleux [PicLens](http://www.piclens.com/), permettant de naviguer très agréablement dans diverses galeries d'images en ligne, dont [Flickr](http://www.flickr.com/).
+J'avais tout simplement installé il y a quelque temps -- dans Safari 2, donc -- le fabuleux [PicLens](http://www.piclens.com/), permettant de naviguer très agréablement dans diverses galeries d'images en ligne, dont [Flickr](https://www.flickr.com/).
 
 {% cloudinary piclens-safari-flickr.png caption="Mes photos préférées sur Flickr visualisées avec PicLens. PicLens propose une interface dédiée sobre et très efficace pour la navigation dans une galerie d'images" %}
 

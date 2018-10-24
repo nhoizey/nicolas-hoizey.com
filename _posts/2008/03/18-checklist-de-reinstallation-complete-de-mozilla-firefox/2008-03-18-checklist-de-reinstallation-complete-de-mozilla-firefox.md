@@ -1,6 +1,6 @@
---- 
-title:      Checklist de réinstallation complète de Mozilla Firefox 
-lang:       fr 
+---
+title:      Checklist de réinstallation complète de Mozilla Firefox
+lang:       fr
 tags:       [Flickr, Firefox, PicLens]
 ---
 
@@ -45,15 +45,15 @@ Certaines de cet extensions ne sont malheureusement pas encore compatibles avec 
 - [FlickPM](http://userscripts.org/scripts/show/1378) pour avoir des liens rapides à côté des icônes des membres pour accéder à différents services
 - [Flickr Buddy Interestingness](http://6v8.gamboni.org/Flickr-Buddy-Interestingness.html?lang=fr) pour avoir rapidement les photos les plus « intéressantes »[^1] d'un utilisateur ou d'un groupe
 - [Flickr Fav and Sets Magnifier](http://www.goston.net/2007/05/07/835/) pour afficher les photos complètes lors de leur survol dans les listes où ne se trouvent que des recadrages carrés
-- [Flickr Contacts Organiser](http://flickr.com/groups/flickrhacks/discuss/72157594223205825/) pour mettre des tags sur les contacts et mes retrouver plus facilement
-- [Flickr Groups Organiser](http://flickr.com/groups/flickrhacks/discuss/72057594139485596/) pour faire la même chose avec les groupes
+- [Flickr Contacts Organiser](https://flickr.com/groups/flickrhacks/discuss/72157594223205825/) pour mettre des tags sur les contacts et mes retrouver plus facilement
+- [Flickr Groups Organiser](https://flickr.com/groups/flickrhacks/discuss/72057594139485596/) pour faire la même chose avec les groupes
 - [Flickr Multi Group Sender](http://userscripts.org/scripts/show/1543) pour envoyer une photo dans plusieurs groupes en une seule fois
-- [Flickr Group Pool Admin: Warn+Delete](http://www.flickr.com/groups/flickrhacks/discuss/72157594144963684/) pour modérer facilement les groupes dont on est administrateur ou modérateur
+- [Flickr Group Pool Admin: Warn+Delete](https://www.flickr.com/groups/flickrhacks/discuss/72157594144963684/) pour modérer facilement les groupes dont on est administrateur ou modérateur
 - [Flickr Favorite Users](http://userscripts.org/scripts/show/5346) pour avoir un rappel dans la page de contact des personnes dont vous avez mis au moins une photo dans vos favoris
 - [More info in new contact mail](http://6v8.gamboni.org/Flickr-More-info-in-mails.html) pour en savoir plus sur ceux qui vous ajoutent dans leurs contacts et sur les groupes dans lesquels on vous invite
 - [Add referrer into comments](http://6v8.gamboni.org/Flickr-Add-referer-into-comments.html) pour indiquer dans vos commentaires d'où vous venez
 - [Pool Date](http://6v8.gamboni.org/Flickr-Pool-Date.html) pour savoir quand une photo a été ajoutée à un groupe
-- [Sort Tags and Groups/Sets in photo page](http://www.flickr.com/groups/flickrhacks/discuss/72157594255139330/) pour trier alphabétiquement les groupes et les tags dans la page d'une photo
+- [Sort Tags and Groups/Sets in photo page](https://www.flickr.com/groups/flickrhacks/discuss/72157594255139330/) pour trier alphabétiquement les groupes et les tags dans la page d'une photo
 - [Flickr Commented On](http://userscripts.org/scripts/show/10382) pour savoir si vous avez déjà commenté une photo
 - [Flickr 2→ Ipernity](http://www.ipernity.com/apps/gm) pour importer des photos Flickr dans son concurrent français [ipernity](http://www.ipernity.com/)
 

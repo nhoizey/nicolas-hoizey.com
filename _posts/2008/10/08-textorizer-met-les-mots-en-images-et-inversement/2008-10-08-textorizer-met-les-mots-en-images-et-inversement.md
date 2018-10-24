@@ -25,7 +25,7 @@ J'ai obtenu ce résultat à l'aide de la [version en ligne de Textorizer](http:/
 
 Il existe aussi un [Textorizer 2](http://lapin-bleu.net/software/textorizer/textorizer2.php), mais je le trouve moins intéressant, à vous de juger.
 
-Il existe même un [groupe Flickr textorized](http://www.flickr.com/groups/textorized/) pour ceux qui veulent montrer leurs oeuvres.
+Il existe même un [groupe Flickr textorized](https://www.flickr.com/groups/textorized/) pour ceux qui veulent montrer leurs oeuvres.
 
 Amusez-vous bien !
 

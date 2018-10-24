@@ -26,11 +26,11 @@ Toute l'activité photo de KM devrait être reprise par Sony, qui annonce tout s
 
 {% cloudinary minolta_x700.png %}
 
-Voilà déjà longtemps que j'hésitais à faire réparer mon bon vieux [Minolta X-700](http://www.mir.com.my/rb/photography/hardwares/classics/minoltax700/)[^1], il va falloir que je me dépêche, sinon je n'aurais plus le choix. J'ai récupéré ce boitier argentique de référence -- ainsi que plusieurs optiques -- il y a quelques années après que mes parents se sont acheté un reflex argentique un peu plus moderne, mais je n'ai malheureusement pas pris assez le temps de l'utiliser, je le regrette de plus en plus, même si j'ai largement de quoi m'amuser maintenant avec mon [Canon EOS 350D](http://www.flickr.com/photos/nicolas-hoizey/76046485/in/set-165968/) ...
+Voilà déjà longtemps que j'hésitais à faire réparer mon bon vieux [Minolta X-700](http://www.mir.com.my/rb/photography/hardwares/classics/minoltax700/)[^1], il va falloir que je me dépêche, sinon je n'aurais plus le choix. J'ai récupéré ce boitier argentique de référence -- ainsi que plusieurs optiques -- il y a quelques années après que mes parents se sont acheté un reflex argentique un peu plus moderne, mais je n'ai malheureusement pas pris assez le temps de l'utiliser, je le regrette de plus en plus, même si j'ai largement de quoi m'amuser maintenant avec mon [Canon EOS 350D](https://www.flickr.com/photos/nicolas-hoizey/76046485/in/set-165968/) ...
 
 {% cloudinary konica_kd400z.png %}
 
-Pour ce qui est de mon premier boitier numérique, un excellent [Konica KD-400 Z](http://www.nomatica.fr/photo/kd400zFR.htm), il a déjà subit pas mal d'outrages depuis 2002[^2], et il continue pourtant fièrement à fonctionner. J'espère que ça va durer, d'autant qu'[il n'a clairement pas à rougir de n'être qu'un petit automatique, vu les résultats](http://www.flickr.com/photos/nicolas-hoizey/2704862/in/set-685912/) !
+Pour ce qui est de mon premier boitier numérique, un excellent [Konica KD-400 Z](http://www.nomatica.fr/photo/kd400zFR.htm), il a déjà subit pas mal d'outrages depuis 2002[^2], et il continue pourtant fièrement à fonctionner. J'espère que ça va durer, d'autant qu'[il n'a clairement pas à rougir de n'être qu'un petit automatique, vu les résultats](https://www.flickr.com/photos/nicolas-hoizey/2704862/in/set-685912/) !
 
 <html><br style="clear: both;" /></html>
 **MAJ du 24/01 :** Ce que je n'avais pas vu, il y a quelques jours, c'est que [Nikon a décidé de se concentrer sur le numérique](http://www.nikon.co.uk/press_room/releases/show.aspx?rid=201), et seul l'argentique pro de référence F6 sera toujours commercialisé en Europe.

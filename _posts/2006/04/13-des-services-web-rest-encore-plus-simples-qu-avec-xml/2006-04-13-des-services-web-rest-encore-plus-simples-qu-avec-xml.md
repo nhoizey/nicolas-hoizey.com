@@ -14,17 +14,17 @@ Si vous avez déjà manipulé les flux de syndication de Flickr, vous avez appel
 Eh bien il est possible d'utiliser d'autres valeurs du paramètre « format » de l'URL pour obtenir les données non pas en RSS ou Atom, mais dans un format plus simple à manipuler sur votre plateforme.
 
 Le premier exemple intéressant va dans le sens de la nouvelle [version « serialized php »](http://developer.yahoo.com/common/phpserial.html) de l'[API de Yahoo](http://www.clever-age.com/veille/weblog/yahoo-ouvre-via-une-api-web-services-350.html) :
-[php_serial](http://flickr.com/services/feeds/photos_public.gne?id=38608514@N00&format=php_serial)
+[php_serial](https://flickr.com/services/feeds/photos_public.gne?id=38608514@N00&format=php_serial)
 
 Mais vous pouvez tenter toute sorte de formats :
 
-- [php](http://flickr.com/services/feeds/photos_public.gne?id=38608514@N00&format=php)
-- [yaml](http://flickr.com/services/feeds/photos_public.gne?id=38608514@N00&format=yaml)
-- [sql](http://flickr.com/services/feeds/photos_public.gne?id=38608514@N00&format=sql)
-- [json](http://flickr.com/services/feeds/photos_public.gne?id=38608514@N00&format=json)
-- [rdf](http://flickr.com/services/feeds/photos_public.gne?id=38608514@N00&format=rdf)
+- [php](https://flickr.com/services/feeds/photos_public.gne?id=38608514@N00&format=php)
+- [yaml](https://flickr.com/services/feeds/photos_public.gne?id=38608514@N00&format=yaml)
+- [sql](https://flickr.com/services/feeds/photos_public.gne?id=38608514@N00&format=sql)
+- [json](https://flickr.com/services/feeds/photos_public.gne?id=38608514@N00&format=json)
+- [rdf](https://flickr.com/services/feeds/photos_public.gne?id=38608514@N00&format=rdf)
 
-Malheureusement, ce n'est valable que pour les flux de syndication, et pas encore pour l'[API de Flickr](http://www.flickr.com/services/), mais cela ne saurait tarder, ils travaillent dessus.
+Malheureusement, ce n'est valable que pour les flux de syndication, et pas encore pour l'[API de Flickr](https://www.flickr.com/services/), mais cela ne saurait tarder, ils travaillent dessus.
 
 Cela devrait à n'en pas douter *booster* la [création d'applications exploitant l'API Flickr](http://developer.yahoo.com/flickr/index.html).
 

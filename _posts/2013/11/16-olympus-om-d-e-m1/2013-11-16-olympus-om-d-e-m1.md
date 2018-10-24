@@ -49,7 +49,7 @@ Presque toutes les critiques disent que l'EVF4 de l'OM-D E-M1 est génial, mais 
 
 Je suis plus photographe que vidéaste, mais j'avoue m'être fait plaisir à filmer quelques scènes en Full HD depuis que j'ai le 5D Mark II. Sauf qu'il est plutôt mauvais en termes d'auto focus, et que de nombreux progrès ont été faits sur tous les appareils photo depuis.
 
-[La qualité vidéo semble au rendez-vous sur l'Olympus](http://www.flickr.com/photos/terakopian/9728785773/), même si certains concurrents font mieux pour les puristes.
+[La qualité vidéo semble au rendez-vous sur l'Olympus](https://www.flickr.com/photos/terakopian/9728785773/), même si certains concurrents font mieux pour les puristes.
 
 # Les objectifs
 

@@ -19,7 +19,7 @@ L'[ancien flux](/atom.xml) donne donc maintenant une redirection[^1] vers le nou
 
 Normalement, s'il est raisonnablement bien développé, votre client de syndication devrait mettre à jour tout seul l'URL. Sinon, à vous de jouer !
 
-Comme vous vous en rendrez sans doute compte, FeedBurner a le bon goût[^2] d'insérer dans le flux [mes photos les plus récentes sur Flickr](http://www.flickr.com/photos/nicolas-hoizey/).
+Comme vous vous en rendrez sans doute compte, FeedBurner a le bon goût[^2] d'insérer dans le flux [mes photos les plus récentes sur Flickr](https://www.flickr.com/photos/nicolas-hoizey/).
 
 Au passage, FeedBurner met à disposition un formulaire d'inscription à l'envoi par e-mail des nouveautés du site, donc j'ai créé un nouveau bloc en haut à droite de la page d'accueil[^3] :
 

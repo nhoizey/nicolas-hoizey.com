@@ -4,7 +4,7 @@ lang:       fr
 tags:       [Flickr, URL]
 ---
 
-Les services de raccourci d'URL[^1] sont de plus en plus [nombreux](http://www.logiste.be/blog/155-raccourcisseurs-durl-tinyurl-like/) et [riches en fonctionnalités](http://searchengineland.com/analysis-which-url-shortening-service-should-you-use-17204), notamment parce qu'ils sont rendus nécessaires par les [Twitter](http://twitter.com/) et consorts qui ne permettent d'échanger que des messages de 140 caractères. C'est maintenant [Flickr](http://www.flickr.com/) qui dispose de son propre système d'URL courtes, comme je l'ai découvert via [ce tweet de Rasmus Lerdorf](http://twitter.com/rasmus/statuses/1601650008)[^2]
+Les services de raccourci d'URL[^1] sont de plus en plus [nombreux](http://www.logiste.be/blog/155-raccourcisseurs-durl-tinyurl-like/) et [riches en fonctionnalités](http://searchengineland.com/analysis-which-url-shortening-service-should-you-use-17204), notamment parce qu'ils sont rendus nécessaires par les [Twitter](http://twitter.com/) et consorts qui ne permettent d'échanger que des messages de 140 caractères. C'est maintenant [Flickr](https://www.flickr.com/) qui dispose de son propre système d'URL courtes, comme je l'ai découvert via [ce tweet de Rasmus Lerdorf](http://twitter.com/rasmus/statuses/1601650008)[^2]
 
 [^1]: Dont le précurseur est à priori [tinyurl.com](http://fr.wikipedia.org/wiki/TinyURL).
 
@@ -17,7 +17,7 @@ Les systèmes d'URL courtes, bien qu'indispensables pour les *Twitter-like*, ne 
 
 Dans le cas de Flickr, c'est un système maison, donc dédié à la réduction de taille d'URL pointant de toute façon vers le service lui-même. Le second point n'est donc pas valable.
 
-Le premier point reste cependant valable, les URL raccourcies prenant cette forme : <http://flic.kr/p/5Z9uNn>. Bien malin celui qui pourra déduire directement que ce lien pointe vers [une de mes photos](http://www.flickr.com/photos/nicolas-hoizey/3272125121/), l'URL ne laissant pas apparaître l'identifiant du compte.
+Le premier point reste cependant valable, les URL raccourcies prenant cette forme : <http://flic.kr/p/5Z9uNn>. Bien malin celui qui pourra déduire directement que ce lien pointe vers [une de mes photos](https://www.flickr.com/photos/nicolas-hoizey/3272125121/), l'URL ne laissant pas apparaître l'identifiant du compte.
 
 {% cloudinary 20090110-givre.jpg alt="Givre" %}
 

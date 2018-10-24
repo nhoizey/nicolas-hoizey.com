@@ -1,6 +1,6 @@
---- 
-title:      "Google Maps s'emmêle les pédales" 
-lang:       fr 
+---
+title:      "Google Maps s'emmêle les pédales"
+lang:       fr
 tags:       [fail, Google]
 ---
 
@@ -14,7 +14,7 @@ Une petite coquille s'est glissé dans la carte d'Europe proposée par Google, l
 
 Il est vrai que vu depuis l'autre côté de l'Atlantique, la différence est négligeable...
 
-Enfin bon, je dois au moins remercier Google et les gens de [Geobloggers](http://www.geobloggers.com/), qui me permettent de montrer progressivement - et [très facilement](http://www.flickr.com/groups/topic/47132/) - des cartes du monde avec les lieux où je prends [mes photos postées sur Flickr](http://www.flickr.com/photos/nicolas-hoizey/) :
+Enfin bon, je dois au moins remercier Google et les gens de [Geobloggers](http://www.geobloggers.com/), qui me permettent de montrer progressivement - et [très facilement](https://www.flickr.com/groups/topic/47132/) - des cartes du monde avec les lieux où je prends [mes photos postées sur Flickr](https://www.flickr.com/photos/nicolas-hoizey/) :
 
 
 - En [Europe et Egypte](http://www.geobloggers.com/index.cfm?lat=40&lon=10&username=Nicolas+Hoizey&range=180&t=k)

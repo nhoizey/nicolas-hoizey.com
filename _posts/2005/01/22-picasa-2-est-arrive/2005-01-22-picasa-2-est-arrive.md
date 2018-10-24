@@ -1,6 +1,6 @@
---- 
-title:      "Picasa 2 est arrivé !" 
-lang:       fr 
+---
+title:      "Picasa 2 est arrivé !"
+lang:       fr
 tags:       [photo, Google]
 ---
 
@@ -27,4 +27,4 @@ Pour découvrir toutes les fonctionnalités offertes, je vous invite à aller vo
 
 Il y a plein d'autres fonctionnalités toutes plus épatantes les unes que les autres, je vous laisse les découvrir !
 
-Malheureusement, l'upload direct dans [Flickr](http://flickr.com/) n'est pas encore au programme ...
+Malheureusement, l'upload direct dans [Flickr](https://flickr.com/) n'est pas encore au programme ...
