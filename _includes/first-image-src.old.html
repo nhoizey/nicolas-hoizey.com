@@ -2,11 +2,11 @@
 assign foundImage = 0 %}{%
 assign images = include.page.content | split:'<img ' %}{%
 for image in images %}{%
-  assign imageTag = image | split: '>' | first %}{%
   if foundImage == 1 %}{%
     break %}{%
-  elsif imageTag contains 'srcset="' %}#srcset#{{imageTag}}##{%
-    assign attributes = imageTag | split:' ' %}{%
+  elsif image contains 'srcset' %}{%
+    assign html = image | split:'>' | first %}{%
+    assign attributes = html | split:' ' %}{%
     for attr in attributes %}{%
       if attr contains 'srcset' %}{%
         assign srcset = attr | split:'"' %}{%
@@ -20,8 +20,9 @@ for image in images %}{%
       endif %}{%
     endfor %}{%
     assign foundImage = 1 %}{%
-  elsif imageTag contains 'src="' %}#src#{{imageTag}}##{%
-    assign attributes = imageTag | split:' ' %}{%
+  elsif image contains 'src' %}{%
+    assign html = image | split:'>' | first %}{%
+    assign attributes = html | split:' ' %}{%
     for attr in attributes %}{%
       if attr contains 'src' %}{%
         assign src = attr | split:'"' %}{%
