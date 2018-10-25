@@ -11,17 +11,17 @@ Le groupe en question, intitulé [Camera halfway between air and water](https://
 
 Voici quelques exemples particulièrement éloquants :
 
-<a href="https://www.flickr.com/photos/nicolas-hoizey/3057318/"><img src="http://static.flickr.com/1/3057318_00e187c2fd.jpg" title="Entre ciel et mer (by Nicolas Hoizey)" alt="Entre ciel et mer (by Nicolas Hoizey)" width="335" height="500" /></a>
+<a href="https://www.flickr.com/photos/nicolas-hoizey/3057318/"><img src="https://static.flickr.com/1/3057318_00e187c2fd.jpg" title="Entre ciel et mer (by Nicolas Hoizey)" alt="Entre ciel et mer (by Nicolas Hoizey)" width="335" height="500" /></a>
 
-<a href="https://www.flickr.com/photos/90307091@N00/269651405/"><img src="http://static.flickr.com/94/269651405_a045026067.jpg" title="beachbreak (by da_freerider)" alt="beachbreak (by da_freerider)" width="500" height="500" /></a>
+<a href="https://www.flickr.com/photos/90307091@N00/269651405/"><img src="https://static.flickr.com/94/269651405_a045026067.jpg" title="beachbreak (by da_freerider)" alt="beachbreak (by da_freerider)" width="500" height="500" /></a>
 
-<a href="https://www.flickr.com/photos/creativedirector/101357154/"><img src="http://static.flickr.com/43/101357154_be2d816bd4.jpg" title="Key West 03 (by janriggert.com)" alt="Key West 03 (by janriggert.com)" width="375" height="500" /></a>
+<a href="https://www.flickr.com/photos/creativedirector/101357154/"><img src="https://static.flickr.com/43/101357154_be2d816bd4.jpg" title="Key West 03 (by janriggert.com)" alt="Key West 03 (by janriggert.com)" width="375" height="500" /></a>
 
-<a href="https://www.flickr.com/photos/cristine/6883191/"><img src="http://static.flickr.com/4/6883191_f78466590d.jpg" title="Air and water (by c(h)ristine)" alt="Air and water (by c(h)ristine)" width="375" height="500" /></a>
+<a href="https://www.flickr.com/photos/cristine/6883191/"><img src="https://static.flickr.com/4/6883191_f78466590d.jpg" title="Air and water (by c(h)ristine)" alt="Air and water (by c(h)ristine)" width="375" height="500" /></a>
 
-<a href="https://www.flickr.com/photos/jeansw/10371643/"><img src="http://static.flickr.com/5/10371643_2e9cb58ffd.jpg" title="hungry hippo? (by jean)" alt="hungry hippo? (by jean)" width="500" height="375" /></a>
+<a href="https://www.flickr.com/photos/jeansw/10371643/"><img src="https://static.flickr.com/5/10371643_2e9cb58ffd.jpg" title="hungry hippo? (by jean)" alt="hungry hippo? (by jean)" width="500" height="375" /></a>
 
-<a href="https://www.flickr.com/photos/kelsana/42243619/"><img src="http://static.flickr.com/28/42243619_a6952b17f5.jpg" title="On the outside looking in! (by kelsana)" alt="On the outside looking in! (by kelsana)" width="500" height="326" /></a>
+<a href="https://www.flickr.com/photos/kelsana/42243619/"><img src="https://static.flickr.com/28/42243619_a6952b17f5.jpg" title="On the outside looking in! (by kelsana)" alt="On the outside looking in! (by kelsana)" width="500" height="326" /></a>
 
 Ce genre d'effet est particulièrement difficile à obtenir, particulièrement en mer avec le mouvement permanent de la surface.
 
