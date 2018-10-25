@@ -5,7 +5,7 @@ for image in images %}{%
   assign imageTag = image | split: '>' | first %}{%
   if foundImage == 1 %}{%
     break %}{%
-  elsif imageTag contains 'srcset="' %}#srcset#{{imageTag}}##{%
+  elsif imageTag contains 'srcset="' %}{%
     assign attributes = imageTag | split:' ' %}{%
     for attr in attributes %}{%
       if attr contains 'srcset' %}{%
@@ -20,7 +20,7 @@ for image in images %}{%
       endif %}{%
     endfor %}{%
     assign foundImage = 1 %}{%
-  elsif imageTag contains 'src="' %}#src#{{imageTag}}##{%
+  elsif imageTag contains 'src="' %}{%
     assign attributes = imageTag | split:' ' %}{%
     for attr in attributes %}{%
       if attr contains 'src' %}{%

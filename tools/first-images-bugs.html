@@ -8,7 +8,6 @@ title: First images with bugs
 <section class="list recent">
   {% for post in site.posts %}
     {% capture firstImageLiquid %}{% include first-image-src.html page=post %}{% endcapture %}
-    {% capture firstImageLiquid2 %}{% include first-image-src2.html page=post %}{% endcapture %}
     {% capture firstImageFilter %}{{ post.content | first_image }}{% endcapture %}
     {% if firstImageFilter contains "/http" %}
       {% assign firstImageFilter = firstImageFilter | split: "/http" | last | prepend: "http" %}
@@ -17,23 +16,11 @@ title: First images with bugs
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
       <dl>
         <dt>Liquid include</dt>
-        <dd>
-          <ol>
-            <li>#1#{{ firstImageLiquid }}#</li>
-            <li>#2#{{ firstImageLiquid2 }}#</li>
-          </ol>
-        </dd>
-        <dd>
-          <ol>
-            <li><img src="{{ firstImageLiquid }}" style="max-width: 50%" /></li>
-            <li><img src="{{ firstImageLiquid2 }}" style="max-width: 50%" /></li>
-          </ol>
-        </dd>
+          <dd>{{ firstImageLiquid }}</dd>
+          <dd><img src="{{ firstImageLiquid }}" style="max-width: 50%" /></dd>
         <dt>Filter plugin</dt>
-        <dd>#{{ firstImageFilter }}#</dd>
-        <dd>
-          <img src="{{ firstImageFilter }}" style="max-width: 50%" />
-        </dd>
+          <dd>{{ firstImageFilter }}</dd>
+          <dd><img src="{{ firstImageFilter }}" style="max-width: 50%" /></dd>
       </dl>
     {% endif %}
   {% endfor %}
