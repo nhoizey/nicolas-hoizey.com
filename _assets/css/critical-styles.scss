@@ -266,21 +266,58 @@ figure {
   }
 
   &.onethird {
-    max-width: 33%;
+    max-width: 50%;
+
+    @media (min-width: 20em) {
+      max-width: 33%;
+    }
   }
 
   &.onefourth {
-    max-width: 25%;
+    max-width: 50%;
+
+    @media (min-width: 20em) {
+      max-width: 33%;
+    }
+
+    @media (min-width: 30em) {
+      max-width: 25%;
+    }
   }
 
   &.left {
-    float: left;
-    margin: 0 $baseline $baseline 0;
+    margin: $baseline auto;
+
+    @media (min-width: 20em) {
+      float: left;
+      margin: 0 $baseline $baseline 0;
+    }
   }
 
   &.right {
+    margin: $baseline auto;
+
+    @media (min-width: 20em) {
+      float: right;
+      margin: 0 0 $baseline $baseline;
+    }
+  }
+}
+
+.logo,
+.poster {
+  display: block;
+  margin: $baseline auto;
+  max-width: 50%;
+
+  @media (min-width: 20em) {
     float: right;
     margin: 0 0 $baseline $baseline;
+    max-width: 33%;
+  }
+
+  @media (min-width: 30em) {
+    max-width: 25%;
   }
 }
 
