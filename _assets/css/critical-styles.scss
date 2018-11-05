@@ -591,16 +591,8 @@ main {
     margin: 5rem -0.5rem;
     padding: 0.5rem;
 
-    border-color: #fff;
-    border-width: 3px;
-    border-style: solid;
-    border-radius: 0.5rem;
-
     transition: border-color calc(2 * var(--base-duration));
 
-    &:hover {
-      border-color: #ddd;
-    }
     h2,
     h3 {
       margin-top: 0;
