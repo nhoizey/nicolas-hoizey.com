@@ -588,10 +588,8 @@ main {
   .post,
   .note {
     clear: right;
-    margin: 5rem -0.5rem;
-    padding: 0.5rem;
-
-    transition: border-color calc(2 * var(--base-duration));
+    margin: 3rem 0;
+    padding: 0;
 
     h2,
     h3 {
