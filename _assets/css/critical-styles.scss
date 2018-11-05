@@ -238,6 +238,7 @@ figure,
 img,
 iframe,
 .embed-video-container {
+  clear: both;
   margin: $baseline auto;
   display: block;
 }
@@ -610,14 +611,6 @@ main {
     }
   }
 
-  // ???
-  // .post--with-poster {
-  //   h2,
-  //   h3 {
-  //     margin-right: calc(25% + 1em);
-  //   }
-  // }
-
   .post {
     a:link,
     a:visited {
@@ -633,12 +626,6 @@ main {
       text-decoration: underline solid $color-link-underline;
     }
   }
-}
-
-.poster {
-  max-width: 25%;
-  float: right;
-  margin: 0 0 1em 1em;
 }
 
 article {
@@ -776,29 +763,13 @@ article {
 .giphy {
   margin: 2em 0;
   padding: 0;
+  clear: both;
 
   video {
     display: block;
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
-  }
-}
-
-.logo {
-  display: block;
-  margin: 1em auto;
-  max-width: 50%;
-  height: auto;
-
-  @media (min-width: 20em) {
-    float: right;
-    margin: 0 0 1em 1em;
-    max-width: 33%;
-  }
-
-  @media (min-width: 30em) {
-    max-width: 25%;
   }
 }
 
