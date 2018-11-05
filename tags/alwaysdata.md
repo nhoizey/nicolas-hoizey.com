@@ -1,1 +1,1 @@
-AlwaysData est un hébergeur français particulièrement intéressant par ses offres — dont même une gratuite — et sa grande disponibilité. Client heureux chez eux depuis fin 2011, [je vous recommande vivement de tester](http://nho.io/alwaysdata) !
+AlwaysData est un hébergeur français particulièrement intéressant par ses offres — dont même une gratuite — et sa grande disponibilité. Client heureux chez eux depuis fin 2011, [je vous recommande vivement de tester](https://nho.io/alwaysdata) !
