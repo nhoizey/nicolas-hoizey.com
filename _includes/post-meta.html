@@ -13,10 +13,6 @@
         <a href="/{{ year }}/">{{ year }}</a>
       {% endif %}
     </li>
-    <li class="tags">
-      <svg class="icon"><use xlink:href="#symbol-tags" /></svg>
-      {{ include.page | tags }}
-    </li>
     {% capture webmention_count_value %}{% webmention_count include.page.url %}{% endcapture %}
     {% assign webmention_count_int = webmention_count_value | strip_html | plus: 0 %}
     {% if webmention_count_int > 0 %}
@@ -24,6 +20,15 @@
         <svg class="icon"><use xlink:href="#symbol-webmentions" /></svg>
         <a href="{{ include.page.url }}#webmentions">{{ webmention_count_int }} webmention{% if webmention_count_int > 1 %}s{% endif %}</a>
       </li>
+    {% else %}
+      <li class="webmentions">
+        <svg class="icon"><use xlink:href="#symbol-webmentions" /></svg>
+        0 webmention
+      </li>
     {% endif %}
+    <li class="tags">
+      <svg class="icon"><use xlink:href="#symbol-tags" /></svg>
+      {{ include.page | tags }}
+    </li>
   </ul>
 </footer>
