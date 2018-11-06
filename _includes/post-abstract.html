@@ -1,10 +1,10 @@
 {% capture poster %}{% include poster.html page=include.page %}{% endcapture %}
 {% assign poster = poster | strip %}
 <article class="post{% if poster != "" %} post--with-poster{% endif %}"{% if include.page.lang %} lang="{{ include.page.lang }}"{% endif %}>
+  {{ poster }}
   <a href="{{ include.page.url }}" {% if include.page.lang %}hreflang="{{ include.page.lang }}"{% endif %} aria-label="{{ include.page.title }}">
-    {{ poster }}
     <h{{ include.level | default: "2" }}>{{ include.page.title }}</h{{ include.level | default: "2" }}>
-    <p>{{ include.page.excerpt | strip_footnotes | strip_html }}</p>
   </a>
+  <p>{{ include.page.excerpt | strip_footnotes | strip_html }}</p>
   {% include_cached post-meta.html page=include.page %}
 </article>
