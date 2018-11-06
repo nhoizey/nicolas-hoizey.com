@@ -31,6 +31,8 @@ layout: default
       <h2><a href="/{{ page.date | date: "%Y" }}/{{ post.date | date: "%m" }}" class="archive-month">{{ month_name | capitalize }}</a></h2>
       {% assign month = post_month %}
     {% endif %}
+
+    {% include_cached post-abstract.html page=post level=3 %}
   {% endfor %}
 </div>
 
