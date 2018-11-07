@@ -5,37 +5,44 @@
 $color-blue: #39f;
 $color-red: #f33;
 $color-grey: #bbb;
-$color-minsk: #3d2e68;
-$color-jacarta: #43246a;
-$color-kingfisher-daisy: #522c82;
-$color-purple-heart: #6531a6;
+$color-lightgrey: #eee;
+$color-darkgrey: #555;
+
+// Colors palette
+// Main color: #1d0e30 #41206b #6531a6 #8b56cd #b491df
+
+$color-main: #6633aa; // was #6531a6
+$color-main-darkest: darken($color-main, 30%); // was #1d0e30
+$color-main-even-darker: darken($color-main, 20%); //
+$color-main-darker: darken($color-main, 10%); // was #41206b
+$color-main-lighter: lighten($color-main, 10%); // was #8b56cd
+$color-main-even-lighter: lighten($color-main, 20%); //
+$color-main-lightest: lighten($color-main, 30%); // was #b491df
+
+// Secondary color: #cc6600 #ff8c1a
+
+$color-secondary: #cc6600;
+$color-secondary-darkest: darken($color-secondary, 30%); //
+$color-secondary-even-darker: darken($color-secondary, 20%); //
+$color-secondary-darker: darken($color-secondary, 10%); // was #ff8c1a
+$color-secondary-lighter: lighten($color-secondary, 10%); //
+$color-secondary-even-lighter: lighten($color-secondary, 20%); //
+$color-secondary-lightest: lighten($color-secondary, 30%); //
 
 $color-background: #fff;
 $color-text: #222;
 
-$color-link: $color-blue;
-$color-link-underline: $color-grey;
-$color-link-visited: darken($color-link, 10%);
-$color-link-hover: $color-purple-heart;
-$color-link-active: $color-red;
-
-$color-title: #333;
-$color-hover: $color-blue;
-
-$color-post-meta: #555;
-$color-post-meta-link: #555;
+$color-post-meta: $color-darkgrey;
+$color-post-meta-link: $color-darkgrey;
 $color-post-meta-hover: $color-blue;
 
 $color-article-intro: #333;
 
-$color-networks-background: #fff;
-$color-networks-text: $color-title;
-$color-networks-link: #aaa;
-$color-networks-border: #fff;
-$color-networks-hover: $color-link-hover;
-$color-networks-specific-hover: 'twitter' #55acee, 'px500' #000,
-  'flickr' #ff0084, 'github' #666, 'facebook' #3b5998, 'instagram' #3f729b,
-  'deviantart' #5fbb3b, 'feed' #ee9900;
+$color-icon-background: #fff;
+$color-icon-text: $color-darkgrey;
+$color-icon-link: #aaa;
+$color-icon-border: #fff;
+$color-icon-hover: $color-secondary;
 
 $baseline: 1.5em;
 

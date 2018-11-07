@@ -338,7 +338,7 @@ img.tag {
 a.icon {
   font-size: 2em;
   vertical-align: middle;
-  color: $color-networks-link;
+  color: $color-icon-link;
   text-decoration: none;
   transition-duration: var(--base-duration);
   transition-property: color;
@@ -351,13 +351,7 @@ a.icon {
   }
 
   &:hover {
-    color: $color-networks-hover;
-  }
-
-  @each $network in $color-networks-specific-hover {
-    &.#{nth($network, 1)}:hover {
-      color: nth($network, 2);
-    }
+    color: $color-icon-hover;
   }
 }
 
@@ -365,12 +359,8 @@ a.icon {
   margin-top: 1em;
 
   color: #fff;
-  background: linear-gradient(
-    155deg,
-    $color-minsk 0%,
-    $color-kingfisher-daisy 100%
-  );
-  border-top: 2px solid $color-kingfisher-daisy;
+  background: linear-gradient(155deg, $color-main-darkest 0%, $color-main 100%);
+  border-top: 2px solid $color-main-darker;
 
   p {
     color: #fff;
@@ -387,12 +377,12 @@ a.icon {
     &:link,
     &:visited {
       color: #fff;
-      text-decoration: underline solid lighten($color-purple-heart, 40%);
+      text-decoration: underline solid $color-main-lighter;
     }
 
     &:hover,
     &:focus {
-      color: lighten($color-purple-heart, 40%);
+      color: $color-main-lighter;
     }
 
     &:active {

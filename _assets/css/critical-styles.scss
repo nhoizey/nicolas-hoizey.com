@@ -196,25 +196,21 @@ pre {
 // ************************************************************
 
 a {
-  &:link {
-    color: $color-link;
-    text-decoration: underline solid $color-link-underline;
-  }
-
+  &:link,
   &:visited {
-    color: $color-link-visited;
-    text-decoration: underline solid $color-link-underline;
+    color: $color-main-lighter;
+    text-decoration: underline solid $color-main-lightest;
   }
 
   &:hover,
   &:focus {
-    color: $color-link-hover;
-    text-decoration: underline solid $color-link-hover;
+    color: $color-secondary;
+    text-decoration: underline solid $color-secondary-lighter;
   }
 
   &:active {
-    color: $color-link-active;
-    text-decoration: underline solid $color-link-active;
+    color: $color-secondary;
+    text-decoration: underline solid $color-main;
   }
 }
 
@@ -403,30 +399,28 @@ summary {
   padding: 0.2em 0;
 
   color: #fff;
-  background: linear-gradient(
-    155deg,
-    $color-jacarta 0%,
-    $color-purple-heart 100%
-  );
-  border-bottom: solid 2px $color-kingfisher-daisy;
+  background: linear-gradient(155deg, $color-main-darkest 0%, $color-main 100%);
+  border-bottom: solid 2px $color-main-darker;
 
   h1 {
     font-size: 1em;
-    color: #fff;
+    // color: #fff;
   }
 
-  a {
+  a:link,
+  a:visited {
     color: #fff;
     text-decoration: none;
-
-    &:hover {
-      color: lighten($color-purple-heart, 40%);
-    }
   }
 
-  .site_title a:hover {
+  a:hover,
+  a:focus {
     text-decoration: underline;
   }
+
+  // .site_title a:hover {
+  //   text-decoration: underline;
+  // }
 
   .offline_indicator a {
     display: inline-block;
@@ -454,8 +448,8 @@ summary {
   }
 
   [type='search'] {
-    background-color: lighten($color-purple-heart, 40%);
-    border: 2px solid lighten($color-purple-heart, 20%);
+    background-color: $color-main-lightest;
+    border: 2px solid $color-main-lighter;
     color: #111;
     -webkit-appearance: none;
 
@@ -469,15 +463,15 @@ summary {
     transition-timing-function: ease-in-out;
 
     &:focus {
-      border: 2px solid lighten($color-purple-heart, 10%);
+      border: 2px solid $color-main-lighter;
       background-color: #fff;
       width: 100%;
     }
   }
 
   [type='submit'] {
-    background-color: lighten($color-purple-heart, 40%);
-    border: 2px solid lighten($color-purple-heart, 10%);
+    background-color: $color-main-lightest;
+    border: 2px solid $color-main-lighter;
     color: #fff;
   }
 
@@ -492,7 +486,7 @@ summary {
     vertical-align: middle;
     width: 0.8em;
     height: 0.8em;
-    fill: $color-purple-heart;
+    fill: $color-main;
   }
 }
 
@@ -512,20 +506,21 @@ summary {
 }
 
 #navigation {
-  color: lighten($color-purple-heart, 60%);
+  color: #fff;
   background: linear-gradient(
     155deg,
-    lighten($color-jacarta, 15%) 0%,
-    lighten($color-purple-heart, 15%) 100%
+    $color-main 0%,
+    $color-main-lightest 100%
   );
-  border-bottom: solid 2px lighten($color-kingfisher-daisy, 15%);
+  border-bottom: solid 2px $color-main;
   margin: 0;
 
   a {
     color: currentColor;
+    text-decoration: none;
 
     &:hover {
-      color: lighten($color-purple-heart, 40%);
+      text-decoration: underline;
     }
   }
 
@@ -594,6 +589,7 @@ main {
     h2,
     h3 {
       margin-top: 0;
+      color: $color-main-lighter;
     }
 
     p {
@@ -612,8 +608,8 @@ main {
   .post,
   .note {
     a:hover {
-      color: $color-link;
-      text-decoration: underline solid $color-link-underline;
+      color: $color-main-lighter;
+      text-decoration: underline solid $color-main-lightest;
     }
   }
 }
@@ -725,7 +721,7 @@ article {
 
   &:hover,
   &:active {
-    color: $color-link-hover;
+    color: $color-secondary;
     text-decoration: underline;
   }
 
