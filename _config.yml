@@ -144,14 +144,14 @@ cloudinary:
       max_width: 1600
       fallback_max_width: 800
       steps: 5
-      sizes: '(max-width: 55rem) 90vw, 50rem'
+      sizes: '(max-width: 67rem) 90vw, 60rem'
       figure: always
     onehalf:
       min_width: 180
       max_width: 800
       fallback_max_width: 400
       steps: 5
-      sizes: '(max-width: 55rem) 45vw, 25rem'
+      sizes: '(max-width: 67rem) 45vw, 30rem'
       figure: always
       attributes:
         class: onehalf
@@ -160,7 +160,7 @@ cloudinary:
       max_width: 560
       fallback_max_width: 300
       steps: 5
-      sizes: '(max-width: 20rem) 45vw, (max-width: 30rem) 30vw, 16.7rem'
+      sizes: '(max-width: 20rem) 45vw, (max-width: 30rem) 30vw, 20rem'
       figure: always
       attributes:
         class: onethird right
@@ -169,7 +169,7 @@ cloudinary:
       max_width: 400
       fallback_max_width: 200
       steps: 5
-      sizes: '(max-width: 20rem) 45vw, (max-width: 30rem) 30vw, (max-width: 55rem) 22.5vw, 12.5rem'
+      sizes: '(max-width: 20rem) 45vw, (max-width: 30rem) 30vw, (max-width: 67rem) 22.5vw, 15rem'
       figure: always
       attributes:
         class: onefourth right
@@ -178,7 +178,7 @@ cloudinary:
       max_width: 400
       fallback_max_width: 200
       steps: 5
-      sizes: '(max-width: 20rem) 45vw, (max-width: 30rem) 30vw, (max-width: 55rem) 22.5vw, 12.5rem'
+      sizes: '(max-width: 20rem) 45vw, (max-width: 30rem) 30vw, (max-width: 67rem) 22.5vw, 15rem'
       figure: never
       attributes:
         class: logo

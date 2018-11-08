@@ -348,7 +348,7 @@ summary {
 
 .wrap {
   width: 90vw;
-  max-width: 50rem;
+  max-width: $maxLayoutWidth;
   margin: 0 auto;
 }
 
