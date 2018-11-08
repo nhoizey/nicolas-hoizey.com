@@ -1,5 +1,4 @@
 ---
-date: 2018-05-15 10:06:11 +0200
 title: "Technical credit"
 lang: en
 tags: [progressive enhancement]

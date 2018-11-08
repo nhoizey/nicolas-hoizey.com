@@ -779,8 +779,9 @@ RewriteRule ^a-propos/?$ /a-propos/de-moi.html [QSA,L,R=301]
 # Remove the temporary `/articles/` folder because it lost Webmentions
 RewriteRule ^articles/(.*)$ /$1 [QSA,L,R=301]
 
-# First notes were missing a timezone
-RewriteRule ^notes/2018/0430155541\.html$ /notes/2018/0430135541.html [QSA,L,R=301]
-RewriteRule ^notes/2018/0427014112\.html$ /notes/2018/0426234112.html [QSA,L,R=301]
-RewriteRule ^notes/2018/0423194625\.html$ /notes/2018/0423174625.html [QSA,L,R=301]
-RewriteRule ^notes/2018/0418011200\.html$ /notes/2018/0417231200.html [QSA,L,R=301]
+# Migrating some notes to articles
+RewriteRule ^notes/2018/0515100611.html /2018/05/technical-credit.html [QSA,L,R=301]
+RewriteRule ^notes/2018/0517102213.html /2018/05/twitter-search.html [QSA,L,R=301]
+RewriteRule ^notes/2018/0522111855.html /2018/05/contextes-opquast.html [QSA,L,R=301]
+RewriteRule ^notes/2018/0801102404.html /2018/08/just.html [QSA,L,R=301]
+RewriteRule ^notes/.* / [QSA,L,R=301]

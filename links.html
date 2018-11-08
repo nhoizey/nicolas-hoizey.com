@@ -1,0 +1,13 @@
+---
+layout: default
+title:  Links
+permalink: /links/index.html
+---
+
+<h1>Links</h1>
+
+<main class="list">
+  {% for link in site.links reversed %}
+    {% include_cached link-content.html page=link link="yes" %}
+  {% endfor %}
+</main>

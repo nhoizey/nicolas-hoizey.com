@@ -1,0 +1,24 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Nicolas Hoizey's links</title>
+  <link href="{{ site.url }}/feeds/links-facebook.xml" rel="self"  type="application/rss+xml" />
+  <link href="{{ site.url }}/links/?utm_medium=social&amp;utm_source=Facebook&amp;utm_campaign=feed" />
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.url }}/links/</id>
+  <author>
+    <name>{{ site.author }}</name>
+    <email>{{ site.email }}</email>
+  </author>
+  {% for link in site.links reversed limit:50 %}
+  <entry>
+    <title>{{ link.title | xml_escape }}</title>
+    <content type="html">{{ link.content | strikethrough | xml_escape }}</content>
+    <id>{{ site.url }}{{ link.id }}</id>
+    <link href="{{ site.url }}{{ link.url }}?utm_medium=social&amp;utm_source=Facebook&amp;utm_campaign=feed"/>
+    <updated>{{ link.date | date_to_xmlschema }}</updated>
+  </entry>
+  {% endfor %}
+</feed>

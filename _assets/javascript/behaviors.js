@@ -333,15 +333,11 @@ function searchCallback(err, content) {
       }
     }
 
-    if (hit_type === 'note') {
-      if (hit.lang === 'en') {
-        hit_title = 'Note from ' + hit_date
-      } else {
-        hit_title = 'Note du ' + hit_date
-      }
-    } else {
-      hit_title = hit._highlightResult.title.value
-    }
+    // if (hit_type === 'link') {
+    //   hit_title = 'Link from ' + hit_date;
+    // } else {
+    hit_title = hit._highlightResult.title.value;
+    // }
 
     hit_excerpt = hit._highlightResult.html
       ? hit._highlightResult.html.value

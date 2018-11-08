@@ -1,5 +1,0 @@
-<article class="note"{% if include.page.lang %} lang="{{ include.page.lang }}"{% endif %}>
-  <h{{ include.level | default: "2" }}>{% if include.link == "yes" %}<a href="{{ include.page.url }}">{% endif %}{% include_cached note-title.html page=include.page %}{% if include.link == "yes" %}</a>{% endif %}</h{{ include.level | default: "2" }}>
-  {{ include.page.content }}
-  {% include_cached note-meta.html page=include.page %}
-</article>

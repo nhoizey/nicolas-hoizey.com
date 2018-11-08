@@ -27,8 +27,8 @@ const offlinePages = [
   {% for post in site.posts limit:1 %}
   '{{ post.url }}',
   {% endfor %}
-  {% for note in site.notes limit:1 %}
-  '{{ note.url }}',
+  {% for link in site.links limit:1 %}
+  '{{ link.url }}',
   {% endfor %}
 ];
 

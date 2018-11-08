@@ -26,9 +26,9 @@ collections:
   posts:
     output: true
     permalink: :year/:month/:title.html
-  notes:
+  links:
     output: true
-    permalink: notes/:year/:month:day:hour:minute:second.html
+    permalink: links/:year/:month/:title.html
 
 # Defaults
 defaults:
@@ -40,10 +40,10 @@ defaults:
       lang: fr
   - scope:
       path: ''
-      type: notes
+      type: links
     values:
-      layout: note
-      lang: fr
+      layout: link
+      lang: en
 
 # Tags
 tag_page_layout: tag
@@ -82,7 +82,7 @@ posseify:
   twitter:
     max_length: 280
     url_length: 23
-    note:
+    link:
       min_hashtags: 1
       max_hashtags: 5
       template: "@posse_content\n\n@posse_tags\n\n@posse_url"
@@ -105,7 +105,7 @@ algolia:
     - indisponible.html
     - tags/index.html
     - tools/*
-    - notes.html
+    - links.html
 
 # Webmention
 webmentions:
@@ -114,7 +114,7 @@ webmentions:
   cache_bad_uris_for: 5
   pause_lookups: false
   collections:
-    - notes
+    - links
   templates:
     count: _includes/webmentions/count.html
     likes: _includes/webmentions/likes.html

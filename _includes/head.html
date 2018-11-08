@@ -26,8 +26,8 @@
     <meta property="og:url" content="{{ site.url }}" />
     <meta property="og:type" content="website" />
   {% else %}
-    {% if page.layout == "note" %}
-      {% capture title %}{% include_cached note-title.html page=page %}{% endcapture %}
+    {% if page.layout == "link" %}
+      {% capture title %}{% include_cached link-title.html page=page %}{% endcapture %}
       {% capture description %}{{ page.content | strip_html | truncatewords: 150 | truncate: 290 | strip_newlines | escape_once }}{% endcapture %}
       <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
       <meta property="og:type" content="article" />
@@ -84,8 +84,8 @@
   <meta property="og:image:width" content="{{ og_image_width }}" />
   <meta property="og:image:height" content="{{ og_image_height }}" />
 
-  <link rel="alternate" type="application/rss+xml" title="Flux des articles" href="/atom.xml" />
-  <link rel="alternate" type="application/rss+xml" title="Flux des notes" href="/atom-notes.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Feed for articles" href="/atom.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Feed for links" href="/atom-links.xml" />
   <link rel="icon" type="image/jpeg" href="/favicon.jpg" />
 
   {% comment %} webmentions with webmention.io {% endcomment %}

@@ -17,8 +17,8 @@
 %}{% if include.page.title == 'Accueil'
 %}{% assign title = site.description
 %}{% elsif include.page.title == 'Recherche'
-%}{% assign title = 'Moteur de recherche propulsé par Algolia'
-%}{% elsif include.page.layout == 'note'
+%}{% assign title = 'Search powered by Algolia'
+%}{% elsif include.page.layout == 'link'
 %}{% capture title %}{{ include.page.content | strip_html | truncatewords: 30 | truncate: 160 | strip_newlines | escape_once }}{% endcapture %}{% else
 %}{% assign title = include.page.title
 %}{% endif
