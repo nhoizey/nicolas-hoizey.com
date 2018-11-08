@@ -23,11 +23,11 @@ First upload the animated GIF to Cloudinary, so that it is available at this URL
 https://res.cloudinary.com/demo/image/upload/kitten_fighting.gif
 ```
 
-Then, change the file extension at the end of the URL to ask Cloudinary to convert it into MP4 or Webm video:
+Then, change the file extension at the end of the URL to ask Cloudinary to convert it into WebM or MP4 video:
 
 ```
-https://res.cloudinary.com/demo/image/upload/kitten_fighting.mp4
 https://res.cloudinary.com/demo/image/upload/kitten_fighting.webm
+https://res.cloudinary.com/demo/image/upload/kitten_fighting.mp4
 ```
 
 Easy! Magical!
@@ -93,4 +93,4 @@ If you want to dive deeper in this topic, you can discover how — in the near 
 # Additional resources
 
 - [Gifhancement – convert GIF to video and embed responsible](https://justmarkup.com/log/2018/02/gifhancement/) by [Michael Scharnagl](https://justmarkup.com/log/servus-hello-and-welcome/)
-- [Evolution of `<img>`: Gif without the GIF](https://calendar.perfplanet.com/2017/animated-gif-without-the-gif/) by [Colin Bendell](https://twitter.com/colinbendell)
+- [Improve Animated GIF Performance With HTML5 Video](https://www.smashingmagazine.com/2018/11/gif-to-video/) on Smashing Magazine
