@@ -198,19 +198,19 @@ pre {
 a {
   &:link,
   &:visited {
-    color: $color-main-lighter;
-    text-decoration: underline solid $color-main-lightest;
+    color: $color-primary-4;
+    text-decoration: underline solid $color-primary-3;
   }
 
   &:hover,
   &:focus {
-    color: $color-secondary;
-    text-decoration: underline solid $color-secondary-lighter;
+    color: $color-secondary-5;
+    text-decoration: underline solid $color-secondary-4;
   }
 
   &:active {
-    color: $color-secondary;
-    text-decoration: underline solid $color-main;
+    color: $color-secondary-4;
+    text-decoration: underline solid $color-primary-3;
   }
 }
 
@@ -399,8 +399,14 @@ summary {
   padding: 0.2em 0;
 
   color: #fff;
-  background: linear-gradient(155deg, $color-main-darkest 0%, $color-main 100%);
-  border-bottom: solid 2px $color-main-darker;
+  background: linear-gradient(
+    155deg,
+    $color-primary-5 0%,
+    $color-primary-5 30%,
+    $color-primary-3 70%,
+    $color-primary-3 100%
+  );
+  border-bottom: solid 2px $color-primary-4;
 
   h1 {
     font-size: 1em;
@@ -448,8 +454,8 @@ summary {
   }
 
   [type='search'] {
-    background-color: $color-main-lightest;
-    border: 2px solid $color-main-lighter;
+    background-color: $color-primary-2;
+    border: 2px solid $color-primary-3;
     color: #111;
     -webkit-appearance: none;
 
@@ -463,15 +469,15 @@ summary {
     transition-timing-function: ease-in-out;
 
     &:focus {
-      border: 2px solid $color-main-lighter;
+      border: 2px solid $color-primary-3;
       background-color: #fff;
       width: 100%;
     }
   }
 
   [type='submit'] {
-    background-color: $color-main-lightest;
-    border: 2px solid $color-main-lighter;
+    background-color: $color-primary-1;
+    border: 2px solid $color-primary-3;
     color: #fff;
   }
 
@@ -486,7 +492,7 @@ summary {
     vertical-align: middle;
     width: 0.8em;
     height: 0.8em;
-    fill: $color-main;
+    fill: $color-primary-4;
   }
 }
 
@@ -509,10 +515,12 @@ summary {
   color: #fff;
   background: linear-gradient(
     155deg,
-    $color-main 0%,
-    $color-main-lightest 100%
+    $color-primary-4 0%,
+    $color-primary-4 30%,
+    $color-primary-2 70%,
+    $color-primary-2 100%
   );
-  border-bottom: solid 2px $color-main;
+  border-bottom: solid 2px $color-primary-3;
   margin: 0;
 
   a {
@@ -588,7 +596,7 @@ main {
     h2,
     h3 {
       margin-top: 0;
-      color: $color-main-lighter;
+      color: $color-primary-4;
     }
 
     p {
@@ -606,8 +614,8 @@ main {
 
   .post {
     a:hover {
-      color: $color-main-lighter;
-      text-decoration: underline solid $color-main-lightest;
+      color: $color-primary-3;
+      text-decoration: underline solid $color-primary-1;
     }
   }
 }
@@ -719,7 +727,7 @@ article {
 
   &:hover,
   &:active {
-    color: $color-secondary;
+    color: $color-secondary-5;
     text-decoration: underline;
   }
 

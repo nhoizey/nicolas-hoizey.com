@@ -359,8 +359,8 @@ a.icon {
   margin-top: 1em;
 
   color: #fff;
-  background: linear-gradient(155deg, $color-main-darkest 0%, $color-main 100%);
-  border-top: 2px solid $color-main-darker;
+  background: linear-gradient(155deg, $color-primary-5 0%, $color-primary-4 100%);
+  border-top: 2px solid $color-primary-3;
 
   p {
     color: #fff;
@@ -377,12 +377,12 @@ a.icon {
     &:link,
     &:visited {
       color: #fff;
-      text-decoration: underline solid $color-main-lighter;
+      text-decoration: underline solid $color-primary-3;
     }
 
     &:hover,
     &:focus {
-      color: $color-main-lighter;
+      color: $color-primary-3;
     }
 
     &:active {
