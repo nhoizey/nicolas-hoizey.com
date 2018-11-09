@@ -132,10 +132,10 @@ h6 {
 }
 
 @mixin deeplinkHover {
-  color: #66f;
+  color: $color-secondary-5;
 
   svg {
-    fill: #66f;
+    fill: $color-secondary-5;
   }
 }
 
@@ -402,9 +402,7 @@ summary {
   background: linear-gradient(
     155deg,
     $color-primary-5 0%,
-    $color-primary-5 30%,
-    $color-primary-3 70%,
-    $color-primary-3 100%
+    $color-primary-4 100%
   );
   border-bottom: solid 2px $color-primary-4;
 
@@ -516,11 +514,9 @@ summary {
   background: linear-gradient(
     155deg,
     $color-primary-4 0%,
-    $color-primary-4 30%,
-    $color-primary-2 70%,
-    $color-primary-2 100%
+    $color-primary-3 100%
   );
-  border-bottom: solid 2px $color-primary-3;
+  border-bottom: solid 2px $color-primary-5;
   margin: 0;
 
   a {
