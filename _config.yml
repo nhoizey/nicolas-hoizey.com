@@ -160,7 +160,7 @@ cloudinary:
       max_width: 560
       fallback_max_width: 300
       steps: 5
-      sizes: '(max-width: 20rem) 45vw, (max-width: 30rem) 30vw, 20rem'
+      sizes: '(max-width: 20rem) 45vw, (max-width: 67rem) 30vw, 20rem'
       figure: always
       attributes:
         class: onethird right
@@ -174,11 +174,11 @@ cloudinary:
       attributes:
         class: onefourth right
     logo:
-      min_width: 100
-      max_width: 400
-      fallback_max_width: 200
+      min_width: 120
+      max_width: 560
+      fallback_max_width: 300
       steps: 5
-      sizes: '(max-width: 20rem) 45vw, (max-width: 30rem) 30vw, (max-width: 67rem) 22.5vw, 15rem'
+      sizes: '(max-width: 20rem) 45vw, (max-width: 67rem) 30vw, 20rem'
       figure: never
       attributes:
         class: logo

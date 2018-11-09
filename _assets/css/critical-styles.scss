@@ -301,12 +301,12 @@ figure {
 
   @media (min-width: 20em) {
     float: right;
-    margin: 0 0 $baseline $baseline;
+    margin: 0 0 5vw 5vw;
     max-width: 33%;
   }
 
-  @media (min-width: 30em) {
-    max-width: 25%;
+  @media (min-width: 67em) {
+    margin: 0 0 3.35em 3.35em;
   }
 }
 
@@ -404,7 +404,7 @@ summary {
     $color-primary-5 0%,
     $color-primary-4 100%
   );
-  border-bottom: solid 2px $color-primary-4;
+  border-bottom: solid 1px $color-primary-4;
 
   h1 {
     font-size: 1em;
@@ -516,7 +516,7 @@ summary {
     $color-primary-4 0%,
     $color-primary-3 100%
   );
-  border-bottom: solid 2px $color-primary-5;
+  border-bottom: solid 1px $color-primary-5;
   margin: 0;
 
   a {
@@ -586,32 +586,16 @@ main {
 
   .post {
     clear: right;
-    margin: 3rem 0;
+    margin: calc(3rem + 5vw) 0;
     padding: 0;
 
     h2,
     h3 {
       margin-top: 0;
-      color: $color-primary-4;
     }
 
     p {
-      margin: 0.5em 0 0.5em;
-    }
-  }
-
-  .post {
-    a:link,
-    a:visited {
-      color: $color-text;
-      text-decoration: none;
-    }
-  }
-
-  .post {
-    a:hover {
-      color: $color-primary-3;
-      text-decoration: underline solid $color-primary-1;
+      margin: 0.5em 0;
     }
   }
 }
