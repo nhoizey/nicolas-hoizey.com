@@ -586,7 +586,7 @@ main {
 
   .post {
     clear: right;
-    margin: calc(3rem + 5vw) 0;
+    margin: calc(2rem + 5vw) 0;
     padding: 0;
 
     h2,
@@ -597,6 +597,10 @@ main {
     p {
       margin: 0.5em 0;
     }
+  }
+
+  .post::first-child {
+    margin-top: 2rem;
   }
 }
 

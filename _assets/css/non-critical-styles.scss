@@ -359,34 +359,33 @@ a.icon {
   margin-top: 1em;
 
   color: #fff;
-  background: linear-gradient(155deg, $color-primary-5 0%, $color-primary-4 100%);
-  border-top: 2px solid $color-primary-3;
+  background: linear-gradient(
+    155deg,
+    $color-primary-5 0%,
+    $color-primary-3 100%
+  );
+  border-top: 1px solid $color-primary-4;
 
   p {
     color: #fff;
   }
 
-  svg {
-    vertical-align: middle;
-    width: 1.2em;
-    height: 1.2em;
-    fill: #fff;
-  }
-
   a {
     &:link,
     &:visited {
-      color: #fff;
-      text-decoration: underline solid $color-primary-3;
+      color: $color-primary-1;
+      text-decoration: underline solid $color-primary-2;
     }
 
     &:hover,
     &:focus {
-      color: $color-primary-3;
+      color: $color-primary-2;
+      text-decoration: underline solid $color-primary-3;
     }
 
     &:active {
-      color: $color-red;
+      color: $color-white;
+      text-decoration: underline solid $color-primary-1;
     }
   }
 }
