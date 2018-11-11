@@ -1,5 +1,5 @@
-{% asset behaviors @inline %}
 {% asset vendors/sticky-pagination-fixer @inline %}
+
 {% if jekyll.environment == "production" %}
   {% comment %} Hacked isogram with http://isogrammer.com/ {% endcomment %}
   <script>
@@ -21,3 +21,5 @@
   ga('send', 'pageview');
   </script>
 {% endif %}
+
+{% asset behaviors %}
