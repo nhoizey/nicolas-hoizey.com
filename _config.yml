@@ -66,7 +66,9 @@ include:
 
 # Jekyll Assets
 assets:
-  compression: false
+  compression: true
+  plugins:
+    css: { autoprefixer: {} }
   autoprefixer:
     browsers:
       - 'last 2 versions'
