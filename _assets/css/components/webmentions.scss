@@ -1,0 +1,72 @@
+@import 'settings';
+
+// ************************************************************
+// Webmentions
+// ************************************************************
+
+.webmention__author,
+.webmention__source {
+  font-size: 0.9em;
+  font-weight: normal;
+}
+
+.webmention--author-starts .webmention__author .p-name {
+  display: none;
+}
+
+[data-webmention-types*='replies'] {
+  .webmentions__item {
+    clear: both;
+    position: relative;
+    min-height: 48px;
+
+    article {
+      margin: 0 0 2em;
+      padding: 0.5em 0 0 calc(48px + 1em);
+    }
+
+    .webmention--no-photo {
+      padding: 0.5em 0 0 0;
+      @media (min-width: 40em) {
+        padding: 0.5em 0 0 calc(48px + 1em);
+      }
+    }
+  }
+
+  .webmention__author__photo {
+    display: block;
+    position: absolute;
+    top: 0.8em;
+    left: 0;
+    width: 48px;
+    height: 48px;
+    margin: 0;
+    border-radius: 5px;
+  }
+
+  .webmention__source__screenshot {
+    margin: 0;
+    max-width: 300px;
+    width: 50vw;
+    height: auto;
+    border: solid 1px #ccc;
+
+    @media (min-width: 40em) {
+      float: right;
+      margin: 0 0 2em 1em;
+    }
+  }
+
+  .webmention__content {
+    margin: 0;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .webmention__meta {
+    color: $color-post-meta;
+    font-size: 0.9em;
+  }
+}

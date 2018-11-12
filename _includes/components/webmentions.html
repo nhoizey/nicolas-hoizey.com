@@ -1,3 +1,4 @@
+{% asset components/webmentions %}
 <aside>
   {% capture webmentions_value %}{% webmention_count page.url %}{% endcapture %}
   {% assign webmentions_int = webmentions_value | plus: 0 %}
