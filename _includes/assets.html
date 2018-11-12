@@ -1,6 +1,10 @@
 {% comment %} Inline critical JS {% endcomment %}
 {% asset early-js @inline %}
 
+{% if jekyll.environment == "production" %}
+  {% asset analytics @inline %}
+{% endif %}
+
 {% comment %} Inline critical CSS {% endcomment %}
 {% asset critical-styles @inline %}
 
@@ -10,4 +14,3 @@
   <link rel="stylesheet" href="{% asset non-critical-styles @path %}" />
 </noscript>
 {% asset vendors/cssrelpreload-2.0.1 @inline %}
-
