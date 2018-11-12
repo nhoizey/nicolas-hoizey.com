@@ -1,0 +1,45 @@
+@import 'settings';
+
+// ************************************************************
+// Tags cloud
+// ************************************************************
+
+.tagscloud {
+  a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0;
+    padding: 0.5vw;
+    white-space: nowrap;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .set-1 {
+    font-size: 0.9em;
+  }
+
+  .set-2 {
+    font-size: 1em;
+  }
+
+  .set-3 {
+    font-size: 1.2em;
+  }
+
+  .set-4 {
+    font-size: 1.5em;
+  }
+
+  .set-5 {
+    font-size: 1.9em;
+  }
+}
+
+img.tag {
+  max-width: 25%;
+  float: right;
+  margin: 0 0 2em 1em;
+}
