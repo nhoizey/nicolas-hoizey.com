@@ -12,8 +12,6 @@ layout: microtypo
 <body itemscope itemtype="http://schema.org/WebPage">
 {% endif %}
 
-{% include_cached svg-sprite.html %}
-
 <header id="header" role="banner">
   <div class="wrap">
     {% if page.url == "/" or page.url == "/index.html" %}
@@ -27,6 +25,7 @@ layout: microtypo
   </div>
 </header>
 
+{% include_cached components/svg-sprite.html %}
 {% include_cached components/navigation.html %}
 
 {% if page.url == "/" or page.url == "/index.html" %}
