@@ -31,6 +31,7 @@ layout: microtypo
 {% if page.url == "/" or page.url == "/index.html" %}
   {% include_cached components/intro.html %}
 {% endif %}
+
 <main>
   <div class="wrap">
     {{ content }}
@@ -41,9 +42,11 @@ layout: microtypo
     <div id="search_results" class="list results"></div>
   </div>
 </div>
-{% include_cached foot.html %}
+
 {% include_cached components/footer.html %}
 
+{% asset vendors/sticky-pagination-fixer @inline %}
+{% asset behaviors %}
 
 </body>
 
