@@ -1,4 +1,5 @@
 {% if page.comments.size and page.comments.size > 0 %}
+  {% asset components/comments @path %}
   <div>
     <h2 id="commentaires">{{ page.comments.size }} commentaire{% if page.comments.size > 1 %}s{% endif %}</h2>
     <ul class="comments__list">
