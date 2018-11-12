@@ -1,0 +1,56 @@
+@import 'settings';
+
+#footer {
+  white-space: nowrap;
+  margin-top: 1em;
+
+  color: #fff;
+  background: linear-gradient(
+    155deg,
+    $color-primary-5 0%,
+    $color-primary-3 100%
+  );
+  border-top: 1px solid $color-primary-4;
+
+  .wrap {
+    @media (min-width: 15em) {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+      & > *:first-child {
+        flex: 1;
+      }
+    }
+  }
+
+  p {
+    margin: 0;
+    line-height: 2;
+    color: #fff;
+
+    &:last-child {
+      text-align: right;
+    }
+  }
+
+  a {
+    &:link,
+    &:visited {
+      color: $color-primary-1;
+      text-decoration: underline solid $color-primary-2;
+    }
+
+    &:hover,
+    &:focus {
+      color: $color-primary-2;
+      text-decoration: underline solid $color-primary-3;
+    }
+
+    &:active {
+      color: $color-white;
+      text-decoration: underline solid $color-primary-1;
+    }
+  }
+}

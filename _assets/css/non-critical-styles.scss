@@ -354,41 +354,6 @@ a.icon {
   }
 }
 
-#footer {
-  margin-top: 1em;
-
-  color: #fff;
-  background: linear-gradient(
-    155deg,
-    $color-primary-5 0%,
-    $color-primary-3 100%
-  );
-  border-top: 1px solid $color-primary-4;
-
-  p {
-    color: #fff;
-  }
-
-  a {
-    &:link,
-    &:visited {
-      color: $color-primary-1;
-      text-decoration: underline solid $color-primary-2;
-    }
-
-    &:hover,
-    &:focus {
-      color: $color-primary-2;
-      text-decoration: underline solid $color-primary-3;
-    }
-
-    &:active {
-      color: $color-white;
-      text-decoration: underline solid $color-primary-1;
-    }
-  }
-}
-
 // ************************************************************
 // Print
 // ************************************************************
