@@ -773,8 +773,8 @@ RewriteRule ^.well-known/(host-meta|webfinger).* https://fed.brid.gy/$0  [redire
 
 RewriteRule ^2015/06/un-moteur-de-recherche-sur-un-site-statique-facile-avec-algolia.html /2015/06/la-recherche-dans-du-statique-facile-avec-algolia.html [QSA,L,R=301]
 
-RewriteRule ^a-propos.html /a-propos/de-moi.html [QSA,L,R=301]
-RewriteRule ^a-propos/?$ /a-propos/de-moi.html [QSA,L,R=301]
+RewriteRule ^a-propos.html /a-propos/ [QSA,L,R=301]
+RewriteRule ^a-propos/de-moi.html$ /a-propos/ [QSA,L,R=301]
 
 # Remove the temporary `/articles/` folder because it lost Webmentions
 RewriteRule ^articles/(.*)$ /$1 [QSA,L,R=301]
@@ -785,3 +785,4 @@ RewriteRule ^notes/2018/0517102213.html /2018/05/twitter-search.html [QSA,L,R=30
 RewriteRule ^notes/2018/0522111855.html /2018/05/contextes-opquast.html [QSA,L,R=301]
 RewriteRule ^notes/2018/0801102404.html /2018/08/just.html [QSA,L,R=301]
 RewriteRule ^notes/.* / [QSA,L,R=301]
+
