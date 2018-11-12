@@ -437,60 +437,6 @@ summary {
   }
 }
 
-#navigation {
-  color: #fff;
-  background: linear-gradient(
-    155deg,
-    $color-primary-4 0%,
-    $color-primary-3 100%
-  );
-  border-bottom: solid 1px $color-primary-5;
-  margin: 0;
-
-  a {
-    color: currentColor;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    overflow-x: auto;
-  }
-
-  li {
-    margin: 0 0.2em;
-    flex-grow: 0.1;
-    text-align: center;
-  }
-
-  a {
-    display: block;
-    padding: 0.2em;
-    white-space: nowrap;
-  }
-}
-
-// ************************************************************
-// Intro
-// ************************************************************
-
-#intro {
-  font-size: 1.2em;
-
-  p {
-    margin: 0;
-    padding: 1em 0;
-  }
-}
-
 // ************************************************************
 // Main content
 // ************************************************************
