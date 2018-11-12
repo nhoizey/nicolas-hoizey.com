@@ -1,10 +1,9 @@
 # Site settings
-title: Nicolas Hoizey
+title: Nicolas Hoizey, passionate about the Web and photography
 author: Nicolas Hoizey
 email: nicolas@hoizey.com
 description: > # this means to ignore newlines until "baseurl:"
-  Le recueil de créations et réflexions de Nicolas Hoizey
-  sur la photo, le Web, etc.
+  Nicolas Hoizey, passionate about the Web and photography, among many other interests.
 baseurl: ''
 url: 'https://nicolas-hoizey.com'
 twitter_username: nhoizey
