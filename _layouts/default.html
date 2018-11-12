@@ -12,20 +12,8 @@ layout: microtypo
 <body itemscope itemtype="http://schema.org/WebPage">
 {% endif %}
 
-<header id="header" role="banner">
-  <div class="wrap">
-    {% if page.url == "/" or page.url == "/index.html" %}
-      <h1 class="site_title">{{ site.title }}</h1>
-    {% else %}
-      <p class="site_title">
-        <a href="/" title="Homepage">{{ site.title }}</a>
-      </p>
-    {% endif %}
-    {% include_cached search-form.html %}
-  </div>
-</header>
-
 {% include_cached components/svg-sprite.html %}
+{% include_cached components/header.html %}
 {% include_cached components/navigation.html %}
 
 {% if page.url == "/" or page.url == "/index.html" %}
