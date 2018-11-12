@@ -1,0 +1,24 @@
+@import 'settings';
+
+// ************************************************************
+// Intro
+// ************************************************************
+
+#intro {
+  margin: 1em 0;
+  font-size: 1.2em;
+
+  img {
+    float: right;
+    margin: 0 0 5vw 5vw;
+    width: 180px;
+    max-width: 33%;
+    min-width: 70px;
+  }
+
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}

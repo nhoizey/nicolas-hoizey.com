@@ -1,0 +1,21 @@
+{% asset components/intro @inline %}
+{% assign portrait = site.url | append: '/assets/photo-de-nicolas-hoizey.jpg' %}
+<div id="intro">
+  <div class="wrap">
+    <a href="/a-propos/">
+      {% if jekyll.environment == 'production' %}
+        <img
+          src="https://res.cloudinary.com/nho/image/fetch/w_250,h_250,c_limit,q_auto,f_auto/{{ portrait }}"
+          srcset="https://res.cloudinary.com/nho/image/fetch/w_100,h_100,c_limit,q_auto,f_auto/{{ portrait }} 100w, https://res.cloudinary.com/nho/image/fetch/w_250,h_250,c_limit,q_auto,f_auto/{{ portrait }} 250w, https://res.cloudinary.com/nho/image/fetch/w_500,h_500,c_limit,q_auto,f_auto/{{ portrait }} 500w"
+          sizes="(max-width: 20rem) 45vw, (max-width: 67rem) 30vw, 20rem"
+          alt="Portrait de Nicolas Hoizey" />
+      {% else %}
+        <img src="{{ portrait }}" alt="Portrait de Nicolas Hoizey" />
+      {% endif %}
+    </a>
+    <p>
+      My name is <a href="/a-propos/de-moi.html">Nicolas&nbsp;Hoizey</a>.<br />
+      I am passionate about <strong>the Web</strong> and <strong>photography</strong>, among many other interests.
+    </p>
+  </div>
+</div>
