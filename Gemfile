@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 # gem 'jekyll', git: 'https://github.com/jekyll/jekyll.git', ref: 'refs/pull/7136/head'
+# gem 'jekyll', git: 'https://github.com/jekyll/jekyll.git'
 gem 'jekyll'
 
 gem 'yt'
