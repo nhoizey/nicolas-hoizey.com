@@ -378,13 +378,14 @@ main {
 .list {
   clear: both;
 
-  h2 {
+  h2,
+  h3 {
     margin-bottom: 0;
   }
 
   .post {
     clear: right;
-    margin: calc(2rem + 5vw) 0;
+    margin: 0;
     padding: 0;
 
     h2,
@@ -399,6 +400,21 @@ main {
 
   .post::first-child {
     margin-top: 2rem;
+  }
+}
+
+@supports (display: grid) {
+  .list {
+    display: grid;
+    grid-gap: 3rem;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-auto-flow: dense;
+  }
+
+  .post:first-child {
+    grid-column: span 2;
+    grid-row: span 2;
   }
 }
 

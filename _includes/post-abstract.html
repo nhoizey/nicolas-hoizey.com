@@ -1,6 +1,8 @@
-<article class="post"{% if include.page.lang %} lang="{{ include.page.lang }}"{% endif %}>
+{% assign articleExcerpt = include.page.excerpt | strip_footnotes | strip_html %}
+{% assign articleExcerptSize = articleExcerpt | size %}
+<article class="post{% if articleExcerptSize > 150 %} double{% endif %}"{% if include.page.lang %} lang="{{ include.page.lang }}"{% endif %}>
   <h{{ include.level | default: "2" }}></h><a href="{{ include.page.url }}" {% if include.page.lang %}hreflang="{{ include.page.lang }}"{% endif %} aria-label="{{ include.page.title }}">{{ include.page.title }}</a></h{{ include.level | default: "2" }}>
-  <p>{{ include.page.excerpt | strip_footnotes | strip_html }}</p>
+  <p>{{ articleExcerpt }}</p>
   {% include_cached post-meta.html page=include.page %}
 </article>
 
