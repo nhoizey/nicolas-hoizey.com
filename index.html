@@ -33,7 +33,11 @@ JSON-LD for:
 
 <h2>Recent articles</h2>
 <section class="list recent">
-  {% for post in site.posts limit:15 %}
+  {% for post in site.posts limit:5 %}
     {% include_cached post-abstract.html page=post level=3 %}
   {% endfor %}
 </section>
+{% for post in site.posts limit:1 %}
+  {% assign year = post.date | date: "%Y" %}
+  <p>Read more articles in <a href="/{{ year }}/">the archives</a>.</p>
+{% endfor %}
