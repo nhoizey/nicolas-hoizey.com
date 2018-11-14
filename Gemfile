@@ -16,6 +16,7 @@ group :jekyll_plugins do
   gem 'jekyll-cloudinary'
   gem 'jekyll-firstimage'
   gem 'jekyll-include-cache'
+  gem 'liquid-c'
   gem 'jekyll-microtypo'
   # gem 'jekyll-posseify', :path => '/Users/nhoizey/Dropbox/Personnel/Devs/Jekyll plugins/jekyll-posseify/'
   gem 'jekyll-postfiles'

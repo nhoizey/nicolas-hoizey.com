@@ -105,6 +105,8 @@ GEM
     kramdown (1.17.0)
     link_header (0.0.8)
     liquid (4.0.1)
+    liquid-c (4.0.0)
+      liquid (>= 3.0.0)
     liquid-tag-parser (1.9.0)
       extras (~> 0.3)
       liquid (>= 3.0, < 5.0)
@@ -173,6 +175,7 @@ DEPENDENCIES
   jekyll-postfiles
   jekyll-tagging
   jekyll-webmention_io
+  liquid-c
   uglifier
   yt
 
