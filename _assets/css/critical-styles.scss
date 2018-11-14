@@ -384,8 +384,7 @@ main {
   }
 
   .post {
-    clear: right;
-    margin: 0;
+    margin: 3em 0;
     padding: 0;
 
     h2,
@@ -403,20 +402,23 @@ main {
   }
 }
 
-@supports (display: grid) {
-  .list {
-    display: grid;
-    grid-gap: 3rem;
-    overflow: hidden;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    grid-auto-flow: dense;
-  }
+// @supports (display: grid) {
+//   .list {
+//     display: grid;
+//     grid-gap: 3rem;
+//     overflow: hidden;
+//     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+//     grid-auto-flow: dense;
+//   }
 
-  .post:first-child {
-    grid-column: span 2;
-    grid-row: span 2;
-  }
-}
+//   .double {
+//     grid-column: span 2;
+//   }
+
+//   .double:nth-of-type(3n) {
+//     grid-column: span 3;
+//   }
+// }
 
 article {
   margin: 1em 0 5em;
