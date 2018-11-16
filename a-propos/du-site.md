@@ -8,7 +8,7 @@ lang: fr
 
 [^perf]: Difficile donc d'incriminer une quelconque application serveur en cas de lenteur… ;-)
 
-*Si la technique ne vous intéresse pas, vous pouvez aussi [en apprendre plus sur moi](/a-propos/de-moi.html).*
+*Si la technique ne vous intéresse pas, vous pouvez aussi [en apprendre plus sur moi](/a-propos/).*
 
 # Avec Jekyll, le statique c'est fantastique
 
