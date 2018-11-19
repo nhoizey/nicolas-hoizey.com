@@ -13,7 +13,7 @@ self.addEventListener('install', () => {
 });
 
 self.addEventListener('activate', () => {
-  event
+  self
     .waitUntil(
       // Get the list of caches
       caches.keys().then(cacheNames => {
