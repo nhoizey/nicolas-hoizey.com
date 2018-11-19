@@ -5,12 +5,8 @@
   {% asset analytics @inline %}
 {% endif %}
 
-{% comment %} Inline critical CSS {% endcomment %}
+{% comment %}
+Inline critical CSS
+See _layouts/default.html for non critical styles
+{% endcomment %}
 {% asset critical-styles @inline %}
-
-{% comment %} Async load of non critical CSS {% endcomment %}
-<link rel="preload" href="{% asset non-critical-styles @path %}" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-<noscript>
-  <link rel="stylesheet" href="{% asset non-critical-styles @path %}" />
-</noscript>
-{% asset vendors/cssrelpreload-2.0.1 @inline %}
