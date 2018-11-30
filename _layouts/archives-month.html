@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h1>Articles de {% include_cached mois.html date=page.date %} <a href="/{{ page.date | date: "%Y" }}/">{{ page.date | date: "%Y" }}</a></h1>
+<h1>Articles from {{ page.date | date: "%B" }} <a href="/{{ page.date | date: "%Y" }}/">{{ page.date | date: "%Y" }}</a></h1>
 
 <div class="list">
   {% for post in page.posts reversed %}

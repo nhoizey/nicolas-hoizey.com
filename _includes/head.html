@@ -44,8 +44,8 @@
         <meta property="og:type" content="website" />
       {% else %}
         {% if page.type == "month" %}
-          {% capture title %}Articles from {% include_cached mois.html date=page.date %} {{ page.date | date: "%Y" }}{% endcapture %}
-          {% capture description %}Articles published by Nicolas Hoizey in {% include_cached mois.html date=page.date %} {{ page.date | date: "%Y" }}{% endcapture %}
+          {% capture title %}Articles from {{ page.date | date: "%B %Y" }}{% endcapture %}
+          {% capture description %}Articles published by Nicolas Hoizey in {{ page.date | date: "%B %Y" }}{% endcapture %}
           <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
           <meta property="og:type" content="website" />
         {% else %}

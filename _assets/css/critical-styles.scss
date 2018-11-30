@@ -486,12 +486,12 @@ article {
   }
 }
 
-.annees {
+.years {
   display: flex;
   flex-direction: row;
   align-items: baseline;
 
-  .avant {
+  .previous {
     order: 1;
     flex: 1;
   }
@@ -510,7 +510,7 @@ article {
     }
   }
 
-  .apres {
+  .following {
     order: 3;
     flex: 1;
     text-align: right;
