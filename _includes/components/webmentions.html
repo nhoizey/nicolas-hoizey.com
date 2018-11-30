@@ -2,7 +2,7 @@
 <aside>
   {% capture webmentions_value %}{% webmention_count page.url %}{% endcapture %}
   {% assign webmentions_int = webmentions_value | plus: 0 %}
-  <h2 id="webmentions">{{ webmentions_int }} Webmention{% if webmentions_int > 1 %}s{% endif %} (<a href="/2017/07/so-long-disqus-hello-webmentions.html">?</a>)</h2>
+  <h2 id="webmentions">{{ webmentions_int }} Webmention{% if webmentions_int > 1 %}s{% endif %}</h2>
 
     {% capture likes %}{% webmention_count page.url likes %}{% endcapture %}
     {% assign likes_int = likes | plus: 0 %}
