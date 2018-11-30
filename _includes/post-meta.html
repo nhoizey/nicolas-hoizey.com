@@ -3,15 +3,9 @@
   <ul>
     <li class="date">
       <svg class="icon"><use xlink:href="#symbol-date" /></svg>
-      {% if include.page.lang == 'en' %}
-        <a href="/{{ include.page.date | date: "%Y/%m" }}/">{{ include.page.date | date: "%B" }}</a>&nbsp;
+      <a href="/{{ include.page.date | date: "%Y/%m" }}/">{{ include.page.date | date: "%B" }}</a>&nbsp;
         {{ include.page.date | date: "%-d" }},
         <a href="/{{ year }}/">{{ year }}</a>
-      {% else %}
-        {{ include.page.date | date: "%-d" }}
-        <a href="/{{ include.page.date | date: "%Y/%m" }}/">{% include_cached mois.html date=include.page.date %}</a>
-        <a href="/{{ year }}/">{{ year }}</a>
-      {% endif %}
     </li>
     {% capture webmention_count_value %}{% webmention_count include.page.url %}{% endcapture %}
     {% assign webmention_count_int = webmention_count_value | strip_html | plus: 0 %}

@@ -2,7 +2,7 @@
   <h2>À découvrir aussi</h2>
   <div class="list related">
     {% for post in related_posts %}
-      <article {% if post.lang %}lang="{{ post.lang }}"{% endif %} data-score="{{ post.score }}">
+      <article lang="{{ post.lang }}" data-score="{{ post.score }}">
         <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
         <!--
         {{ post | inspect }}

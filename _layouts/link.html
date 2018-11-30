@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article class="main clearfix" {% if page.lang %}lang="{{ page.lang }}"{% endif %}>
+<article class="main clearfix" lang="{{ page.lang }}">
   {% include_cached note-content.html page=page level=1 %}
   {% include webmentions.html %}
 </article>
