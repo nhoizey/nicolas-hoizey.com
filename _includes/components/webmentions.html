@@ -8,7 +8,7 @@
     {% assign likes_int = likes | plus: 0 %}
     {% if likes_int > 0 %}
       <section>
-        <h3 id="webmentions_likes">{{ likes }} like{% if likes_int > 1 %}s{% endif %}</h3>
+        <h3>{{ likes }} like{% if likes_int > 1 %}s{% endif %}</h3>
         {% webmention_likes page.url %}
       </section>
     {% endif %}
@@ -17,13 +17,13 @@
     {% assign reposts_int = reposts | plus: 0 %}
     {% if reposts_int > 0 %}
       <section>
-        <h3 id="webmentions_reposts">{{ reposts }} repost{% if reposts_int > 1 %}s{% endif %}</h3>
+        <h3>{{ reposts }} repost{% if reposts_int > 1 %}s{% endif %}</h3>
         {% webmention_reposts page.url %}
       </section>
     {% endif %}
 
     {% if likes_int > 0 or reposts_int > 0 %}
-      <h3 id="webmentions_other">{% if page.lang == 'en' %}Other{% else %}Autres{% endif %} Webmentions</h3>
+      <h3>Other Webmentions</h3>
     {% endif %}
     {% webmentions page.url posts replies links %}
 </aside>
