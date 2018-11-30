@@ -8,7 +8,7 @@ layout: default
   <img src="/{{ tag_image_path }}" class="tag" />
 {% endif %}
 
-<h1>Billets tagués «&nbsp;{{ page.tag }}&nbsp;»</h1>
+<h1>Articles with tag “{{ page.tag }}”</h1>
 
 {% capture tag_description_path %}tags/{{ page.tag | slugify }}.md{% endcapture %}
 {% capture tag_description %}{% file_exists {{ tag_description_path }} %}{% endcapture %}
@@ -23,6 +23,6 @@ layout: default
 </div>
 
 <div class="tagscloud">
-  <h2 id="tags">Autres tags à explorer</h2>
+  <h2 id="tags">Other tags to explore</h2>
   {% include_cached components/tags-cloud.html %}
 </div>
