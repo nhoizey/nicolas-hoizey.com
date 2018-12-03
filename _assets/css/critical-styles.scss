@@ -196,7 +196,11 @@ pre {
 // ************************************************************
 
 a {
-  &:link,
+  &:link {
+    color: $color-primary-5;
+    text-decoration: underline solid $color-primary-4;
+  }
+
   &:visited {
     color: $color-primary-4;
     text-decoration: underline solid $color-primary-3;
@@ -204,13 +208,15 @@ a {
 
   &:hover,
   &:focus {
-    color: $color-secondary-5;
-    text-decoration: underline solid $color-secondary-4;
+    color: $color-primary-1;
+    background-color: $color-primary-5;
+    text-decoration: none;
   }
 
   &:active {
-    color: $color-secondary-4;
-    text-decoration: underline solid $color-primary-3;
+    color: $color-secondary-1;
+    background-color: $color-secondary-5;
+    text-decoration: none;
   }
 }
 
@@ -402,24 +408,6 @@ main {
   }
 }
 
-// @supports (display: grid) {
-//   .list {
-//     display: grid;
-//     grid-gap: 3rem;
-//     overflow: hidden;
-//     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-//     grid-auto-flow: dense;
-//   }
-
-//   .double {
-//     grid-column: span 2;
-//   }
-
-//   .double:nth-of-type(3n) {
-//     grid-column: span 3;
-//   }
-// }
-
 article {
   margin: 1em 0 5em;
 
@@ -444,14 +432,15 @@ article {
       a {
         &:link,
         &:visited {
-          color: $color-post-meta-link;
-          text-decoration: none;
+          color: $color-darkgrey;
+          text-decoration: underline solid $color-grey;
         }
 
         &:hover,
         &:focus {
-          color: $color-post-meta-hover;
-          text-decoration: underline;
+          color: $color-primary-1;
+          background-color: $color-primary-5;
+          text-decoration: none;
         }
       }
     }

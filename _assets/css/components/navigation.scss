@@ -10,14 +10,18 @@
   border-bottom: solid 1px $color-primary-5;
   margin: 0;
 
-  a {
-    color: currentColor;
-    text-decoration: none;
+  // a:link,
+  // a:visited {
+  //   color: #fff;
+  //   text-decoration: none;
+  // }
 
-    &:hover {
-      text-decoration: underline;
-    }
-  }
+  // a:hover,
+  // a:focus {
+  //   color: #fff;
+  //   background-color: transparent;
+  //   text-decoration: underline;
+  // }
 
   ul {
     list-style-type: none;
