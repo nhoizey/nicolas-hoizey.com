@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% asset components/archives %}
+
 {% assign this_year = page.date | date: "%Y" | plus: 0 %}
 {% assign max_year = site.time | date: "%Y" | plus: 0 %}
 <div class="years">
