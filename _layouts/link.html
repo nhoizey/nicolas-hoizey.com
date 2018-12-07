@@ -2,20 +2,27 @@
 layout: default
 ---
 
+{% asset components/link %}
+
 <article class="main link clearfix" lang="{{ page.lang }}">
-  <img
-    class="screenshot"
-    src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_300,h_200/http://image.thum.io/get/width/1200/crop/800/noanimate/{{ page.link }}"
-    srcset="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_300,h_200/http://image.thum.io/get/width/1200/crop/800/noanimate/{{ page.link }} 1x, https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_600,h_400/http://image.thum.io/get/width/1200/crop/800/noanimate/{{ page.link }} 2x"
-    width="300"
-    height="200"
-    alt="{% if page.site %}{{ page.site }} {% endif %} screenshot" />
-  <h1>{{ page.title }}</h1>
-  {% include_cached link-meta.html page=page %}
-  <p>
-    By {{ page.author }}{% if page.site %} on {{ page.site }}{% endif %}:<br />
-    <a href="{{ page.link }}">{{ page.link }}</a>
-  </p>
+  <div class="link__header">
+    <div class="link__info">
+      <h1>{{ page.title }}</h1>
+      {% include_cached link-meta.html page=page %}
+      <p>
+        By {{ page.author }}{% if page.site %} on {{ page.site }}{% endif %}:<br />
+        <a href="{{ page.link }}">{{ page.link }}</a>
+      </p>
+    </div>
+    <figure class="link__screenshot">
+      <img
+        src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_300,h_200/http://image.thum.io/get/width/1200/crop/800/noanimate/{{ page.link }}"
+        srcset="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_300,h_200/http://image.thum.io/get/width/1200/crop/800/noanimate/{{ page.link }} 1x, https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_600,h_400/http://image.thum.io/get/width/1200/crop/800/noanimate/{{ page.link }} 2x"
+        width="300"
+        height="200"
+        alt="{% if page.site %}{{ page.site }} {% endif %} screenshot" />
+    </figure>
+  </div>
   {{ page.content }}
 
   {% include components/webmentions.html %}
