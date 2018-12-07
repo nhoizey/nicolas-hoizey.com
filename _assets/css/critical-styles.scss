@@ -61,6 +61,7 @@ $fontBreakpoint: 40em;
 
 $h1Increase: 3;
 h1 {
+  margin-top: 0;
   font-size: calc(0.9rem + #{$h1Increase}vw);
 
   @media (min-width: $fontBreakpoint) {
@@ -416,6 +417,7 @@ summary {
 // ************************************************************
 
 main {
+  margin: 4rem 0;
   flex: 1;
 }
 
@@ -453,7 +455,7 @@ main {
 }
 
 article {
-  margin: 1em 0 5em;
+  margin: 0;
 
   footer {
     color: $color-post-meta;
@@ -534,7 +536,7 @@ article {
       90deg,
       $color-primary 0%,
       $color-primary 1vw,
-      $color-primary-lighter-4 1vw,
+      $color-primary-lighter-3 1vw,
       $color-primary-lighter-5 100%
     );
 
@@ -542,13 +544,18 @@ article {
       content: '\201C';
       color: $color-primary;
       font-size: 10vw;
+      line-height: 1;
       position: absolute;
       left: 2vw;
       top: 0;
     }
 
-    p {
-      margin: 3vw 0;
+    p:first-child {
+      margin-top: 1vw;
+    }
+
+    p:last-child {
+      margin-bottom: 1vw;
     }
   }
 
