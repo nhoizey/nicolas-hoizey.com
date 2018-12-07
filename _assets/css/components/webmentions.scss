@@ -4,6 +4,41 @@
 // Webmentions
 // ************************************************************
 
+.webmentions__list {
+  list-style: none;
+  padding: 0;
+}
+
+.webmentions--likes,
+.webmentions--reposts {
+  ol {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  }
+
+  li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+  }
+
+  .webmention__author__photo {
+    width: 48px;
+    height: 48px;
+    margin: 0.2em;
+    padding: 0;
+    border-radius: 5px;
+  }
+}
+
+.webmention__meta svg {
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+}
+
+
+
 .webmention__author,
 .webmention__source {
   font-size: 0.9em;
