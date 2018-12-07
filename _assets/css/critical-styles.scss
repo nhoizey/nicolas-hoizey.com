@@ -519,6 +519,12 @@ article {
   }
 }
 
+.link .screenshot {
+  @media (min-width: 40em) {
+    float: right;
+  }
+}
+
 .giphy {
   margin: 2em 0;
   padding: 0;
