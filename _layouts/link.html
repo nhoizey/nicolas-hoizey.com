@@ -3,8 +3,6 @@ layout: default
 ---
 
 <article class="main link clearfix" lang="{{ page.lang }}">
-  <h1>{{ page.title }}</h1>
-  {% include_cached link-meta.html page=page %}
   <img
     class="screenshot"
     src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_300,h_200/http://image.thum.io/get/width/1200/crop/800/noanimate/{{ page.link }}"
@@ -12,6 +10,8 @@ layout: default
     width="300"
     height="200"
     alt="{% if page.site %}{{ page.site }} {% endif %} screenshot" />
+  <h1>{{ page.title }}</h1>
+  {% include_cached link-meta.html page=page %}
   <p>
     By {{ page.author }}{% if page.site %} on {{ page.site }}{% endif %}:<br />
     <a href="{{ page.link }}">{{ page.link }}</a>

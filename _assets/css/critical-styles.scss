@@ -519,12 +519,6 @@ article {
   }
 }
 
-.link .screenshot {
-  @media (min-width: 40em) {
-    float: right;
-  }
-}
-
 .giphy {
   margin: 2em 0;
   padding: 0;
@@ -535,6 +529,20 @@ article {
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
+  }
+}
+
+// ************************************************************
+// Links
+// ************************************************************
+
+.link {
+  .screenshot {
+    @media (min-width: 40em) {
+      float: right;
+      max-width: 40%;
+      margin: 0 0 1em 1em;
+    }
   }
 }
 
