@@ -39,8 +39,8 @@ layout: null
     {%- assign tweet = site.posseify.twitter.link.template | replace: '@posse_content', posse_content | replace: '@posse_tags', posse_tags | replace: '@posse_url', posse_url -%}
   <entry>
     <title>{{ posse_title | xml_escape }}</title>
-    <content type="html">{{ tweet | xml_escape }}</content>
-    <id>{{ site.url }}{{ link.id }}</id>
+    <content>{{ tweet | xml_escape }}</content>
+    <id>{{ posse_url }}</id>
     <link href="{{ posse_url }}"/>
     <updated>{{ link.date | date_to_xmlschema }}</updated>
   </entry>
