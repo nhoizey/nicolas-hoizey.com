@@ -517,6 +517,152 @@ article {
   li {
     margin: 0 0 0.5em 0;
   }
+
+  blockquote,
+  .intro,
+  .footnotes {
+    margin: $baseline 0;
+  }
+
+  blockquote {
+    position: relative;
+
+    padding: 1vw 7vw;
+
+    color: #333;
+    background: linear-gradient(
+      90deg,
+      $color-primary 0%,
+      $color-primary 1vw,
+      $color-primary-lighter-4 1vw,
+      $color-primary-lighter-5 100%
+    );
+
+    &::before {
+      content: '\201C';
+      color: $color-primary;
+      font-size: 10vw;
+      position: absolute;
+      left: 2vw;
+      top: 0;
+    }
+
+    p {
+      margin: 3vw 0;
+    }
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+  thead {
+    background-color: #eee;
+
+    th {
+      vertical-align: bottom;
+    }
+  }
+
+  th,
+  td {
+    padding: 0.3em 0.5em;
+    border: 1px solid #ccc;
+    vertical-align: top;
+  }
+
+  kbd,
+  code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+    display: inline-block;
+    padding: 0 0.3em;
+    border-radius: 0.3em;
+  }
+
+  kbd {
+    color: #444d56;
+    background-color: #f3f3f3;
+    border: solid 1px #c6cbd1;
+    border-bottom-color: #959da5;
+    box-shadow: inset 0 -1px 0 #959da5;
+  }
+
+  code.highlighter-rouge {
+    background-color: #e0e0e0;
+  }
+
+  a.footnote,
+  a.reversefootnote {
+    text-decoration: none;
+    padding: 0 0.2em;
+  }
+
+  // https://gist.github.com/unruthless/413930
+  sub,
+  sup {
+    // Specified in % so that the sup/sup is the right size relative to the surrounding text
+    font-size: 75%;
+
+    // Zero out the line-height so that it doesn't interfere with the positioning that follows
+    line-height: 0;
+
+    // Where the magic happens: makes all browsers position the sup/sup properly, relative to the surrounding text
+    position: relative;
+
+    // Note that if you're using Eric Meyer's reset.css, this is already set and you can remove this rule
+    vertical-align: baseline;
+  }
+
+  sup {
+    // Move the superscripted text up
+    top: -0.5em;
+  }
+
+  sub {
+    // Move the subscripted text down, but only half as far down as the superscript moved up
+    bottom: -0.25em;
+  }
+
+  .footnotes {
+    margin: 2em 0;
+    background-color: #eee;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    font-size: 0.9em;
+
+    ol {
+      margin: 0;
+      padding: 0 1em 0 2em;
+      list-style-position: outside;
+    }
+  }
+
+  .socialphoto {
+    background-color: #eef;
+    color: #333;
+    padding: 1em;
+
+    p {
+      margin: 0;
+    }
+
+    span {
+      white-space: nowrap;
+    }
+
+    a {
+      color: #777;
+    }
+  }
+
+  .edit {
+    border-top: 1px dotted #ccc;
+    padding: 0.5em 0;
+    font-size: 0.9em;
+    color: #999;
+  }
 }
 
 .giphy {
@@ -536,11 +682,20 @@ article {
 // Links
 // ************************************************************
 
-.link {
-  .screenshot {
-    @media (min-width: 40em) {
-      float: right;
-      max-width: 40%;
+@media (min-width: 40em) {
+  .link__header {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .link__info {
+    flex-grow: 1;
+  }
+
+  .link__screenshot {
+    max-width: 40%;
+
+    img {
       margin: 0 0 1em 1em;
     }
   }
