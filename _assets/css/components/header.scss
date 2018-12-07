@@ -13,10 +13,10 @@
   color: #fff;
   background: linear-gradient(
     155deg,
-    $color-primary-5 0%,
-    $color-primary-4 100%
+    $color-primary 0%,
+    $color-primary-lighter-1 100%
   );
-  border-bottom: solid 1px $color-primary-4;
+  border-bottom: solid 1px $color-primary-lighter-1;
 
   .wrap {
     @media (min-width: 15em) {

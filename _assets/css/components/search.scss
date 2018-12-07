@@ -19,8 +19,8 @@
   }
 
   [type='search'] {
-    background-color: $color-primary-2;
-    border: 2px solid $color-primary-3;
+    background-color: $color-primary-lighter-3;
+    border: 2px solid $color-primary-lighter-2;
     color: #111;
     -webkit-appearance: none;
 
@@ -34,15 +34,15 @@
     transition-timing-function: ease-in-out;
 
     &:focus {
-      border: 2px solid $color-primary-3;
+      border: 2px solid $color-primary-lighter-2;
       background-color: #fff;
       width: 100%;
     }
   }
 
   [type='submit'] {
-    background-color: $color-primary-1;
-    border: 2px solid $color-primary-3;
+    background-color: $color-primary-lighter-4;
+    border: 2px solid $color-primary-lighter-2;
     color: #fff;
   }
 
@@ -57,7 +57,7 @@
     vertical-align: middle;
     width: 0.8em;
     height: 0.8em;
-    fill: $color-primary-4;
+    fill: $color-primary-lighter-1;
   }
 }
 

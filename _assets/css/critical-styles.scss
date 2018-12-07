@@ -132,10 +132,10 @@ h6 {
 }
 
 @mixin deeplinkHover {
-  color: $color-secondary-5;
+  color: $color-secondary;
 
   svg {
-    fill: $color-secondary-5;
+    fill: $color-secondary;
   }
 }
 
@@ -197,25 +197,25 @@ pre {
 
 a {
   &:link {
-    color: $color-primary-5;
-    text-decoration: underline solid $color-primary-4;
+    color: $color-primary;
+    text-decoration: underline solid $color-primary-lighter-1;
   }
 
   &:visited {
-    color: $color-primary-4;
-    text-decoration: underline solid $color-primary-3;
+    color: $color-primary-lighter-1;
+    text-decoration: underline solid $color-primary-lighter-2;
   }
 
   &:hover,
   &:focus {
-    color: $color-primary-1;
-    background-color: $color-primary-5;
+    color: $color-primary-lighter-4;
+    background-color: $color-primary;
     text-decoration: none;
   }
 
   &:active {
-    color: $color-secondary-1;
-    background-color: $color-secondary-5;
+    color: $color-secondary-lighter-4;
+    background-color: $color-secondary;
     text-decoration: none;
   }
 }
@@ -482,8 +482,8 @@ article {
 
         &:hover,
         &:focus {
-          color: $color-primary-1;
-          background-color: $color-primary-5;
+          color: $color-primary-lighter-4;
+          background-color: $color-primary;
           text-decoration: none;
         }
       }
