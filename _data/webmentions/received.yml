@@ -20464,7 +20464,7 @@
     id: '561452'
     uri: https://twitter.com/nhoizey/status/1059493975663562753#favorited-by-15736190
     source: twitter
-    pubdate: 2018-11-05 17:34:49.000000000 +00:00
+    pubdate: 2018-11-05 18:34:49.000000000 +01:00
     raw:
       source: https://brid-gy.appspot.com/like/twitter/nhoizey/1059493975663562753/15736190
       verified: true
@@ -20499,3 +20499,6 @@
 "/2018/05/twitter-search.html": {}
 "/2018/05/contextes-opquast.html": {}
 "/2018/08/just.html": {}
+"/links/2018/12/metrics-from-1m-sites.html": {}
+"/links/2018/12/should-i-use-javascript-to-load-my-web-fonts.html": {}
+"/links/2018/11/it-s-not-about-the-device.html": {}
