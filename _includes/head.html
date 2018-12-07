@@ -27,7 +27,7 @@
     <meta property="og:type" content="website" />
   {% else %}
     {% if page.layout == "link" %}
-      {% capture title %}{% include_cached link-title.html page=page %}{% endcapture %}
+      {% capture title %}{{ page.title }}{% endcapture %}
       {% capture description %}{{ page.content | strip_html | truncatewords: 150 | truncate: 290 | strip_newlines | escape_once }}{% endcapture %}
       <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
       <meta property="og:type" content="article" />
