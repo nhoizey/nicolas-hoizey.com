@@ -18,5 +18,9 @@
     flex-shrink: 0;
     margin: 0 0 1em 1em;
     max-width: 40%;
+
+    img {
+      border: 1px solid #ddd;
+    }
   }
 }
