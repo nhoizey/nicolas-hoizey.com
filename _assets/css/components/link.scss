@@ -1,0 +1,21 @@
+@import 'settings';
+
+// ************************************************************
+// Link
+// ************************************************************
+
+@media (min-width: 40em) {
+  .link__header {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .link__info {
+    flex-grow: 1;
+  }
+
+  .link__screenshot {
+    margin: 0 0 1em 1em;
+    max-width: 40%;
+  }
+}
