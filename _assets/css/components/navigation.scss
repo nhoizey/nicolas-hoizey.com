@@ -12,8 +12,10 @@
 
   a:link,
   a:visited {
+    display: block;
     color: #fff;
     text-decoration: none;
+    white-space: nowrap;
   }
 
   a:hover,
@@ -36,11 +38,5 @@
     margin: 0 0.2em;
     flex-grow: 0.1;
     text-align: center;
-  }
-
-  a {
-    display: block;
-    padding: 0.2em;
-    white-space: nowrap;
   }
 }

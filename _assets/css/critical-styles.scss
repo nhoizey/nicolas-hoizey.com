@@ -198,6 +198,8 @@ pre {
 
 a {
   &:link {
+    margin: 0 -0.2em;
+    padding: 0.2em;
     color: $color-primary;
     text-decoration: underline solid $color-primary-lighter-1;
   }
@@ -470,6 +472,7 @@ article {
     li {
       margin: 0;
       display: inline-block;
+      white-space: nowrap;
 
       &:not(:last-of-type) {
         margin-right: 1em;
@@ -499,11 +502,6 @@ article {
 
       width: 1.1em;
       height: 1.1em;
-    }
-
-    .date {
-      white-space: nowrap;
-      flex-shrink: 0;
     }
   }
 
