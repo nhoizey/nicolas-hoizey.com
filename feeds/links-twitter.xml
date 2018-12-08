@@ -15,7 +15,7 @@ layout: null
   {% for link in site.links reversed limit:20 %}
     {%- assign posse_title = link.title | markdown_to_tweet -%}
     {%- assign posse_content = link.raw_content | markdown_to_tweet | truncatewords: 35, "…" | truncate: 200, "…" -%}
-    {%- assign posse_url = link.url | prepend: site.url -%}
+    {%- assign posse_url = link.url | prepend: site.url | append: '?utm_medium=social&amp;utm_source=Twitter&amp;utm_campaign=feed' -%}
 
     {% comment %} https://developer.twitter.com/en/docs/basics/counting-characters.html {% endcomment %}
     {%- assign tweet_without_meta_size = site.posseify.twitter.link.template | replace: '@posse_content', posse_content | replace: '@posse_tags', '' | replace: '@posse_url', '' | size -%}
