@@ -6,14 +6,14 @@ layout: null
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>{{ site.title }}</title>
- <link href="{{ site.url }}/atom.xml" rel="self"/>
+ <link href="{{ site.url }}/feeds/articles.xml" rel="self"/>
  <link href="{{ site.url }}/?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
  <link rel="hub" href="http://pubsubhubbub.superfeedr.com/" />
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>{{ site.url }}/</id>
  <author>
-   <name>{{ site.author.name }}</name>
-   <email>{{ site.author.email }}</email>
+   <name>{{ site.author }}</name>
+   <email>{{ site.email }}</email>
  </author>
 
  {% for post in site.posts limit:20 %}

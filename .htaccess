@@ -785,3 +785,6 @@ RewriteRule ^notes/2018/0522111855.html /2018/05/contextes-opquast.html [QSA,L,R
 RewriteRule ^notes/2018/0801102404.html /2018/08/just.html [QSA,L,R=301]
 RewriteRule ^notes/.* / [QSA,L,R=301]
 
+# Mooving feeds
+RewriteRule ^atom.xml /feeds/articles.xml [QSA,L,R=301]
+
