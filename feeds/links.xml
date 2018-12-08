@@ -20,7 +20,13 @@ layout: null
     <title>{{ link.title }}</title>
     <updated>{{ link.date | date_to_xmlschema }}</updated>
     <id>{{ site.url }}{{ link.id }}</id>
-    <content type="html">{{ link.content | xml_escape }}</content>
+    <content type="html">
+      &lt;p&gt;
+        By {{ page.author }}{% if page.site %} on {{ page.site }}{% endif %}:&lt;br /&gt;
+        &lt;a href="{{ page.link }}"&gt;{{ page.link }}&lt;/a&gt;
+      &lt;/p&gt;
+      {{ link.content | xml_escape }}
+    </content>
   </entry>
   {% endfor %}
 
