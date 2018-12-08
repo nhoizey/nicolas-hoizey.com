@@ -15,10 +15,14 @@ layout: null
   {% for link in site.links reversed limit:20 %}
   <entry>
     <title>{{ link.title | xml_escape }}</title>
+    <author>{{ link.author | xml_escape }}</author>
     <content>{{ link.content | xml_escape }}</content>
     <id>{{ link.url }}</id>
-    <link href="{{ link.link }}"/>
+    <link rel="aternate" href="{{ link.link }}"/>
     <updated>{{ link.date | date_to_xmlschema }}</updated>
+    {%- for tag in link.tags -%}
+      <category term="{{ tag | slugify: 'latin' | camelcase }}" label=""/>
+    {%- endfor -%}
   </entry>
   {% endfor %}
 </feed>
