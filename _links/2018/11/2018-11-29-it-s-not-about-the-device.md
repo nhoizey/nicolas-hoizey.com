@@ -3,7 +3,7 @@ date: 2018-11-29 18:08:29 +0200
 title: "It’s not about the device."
 lang: en
 link: https://ethanmarcotte.com/wrote/not-the-device/
-author: Ethan Marcotte
+author: "Ethan Marcotte"
 tags: [RWD]
 ---
 

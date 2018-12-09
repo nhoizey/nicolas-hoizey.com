@@ -3,8 +3,8 @@ date: 2018-12-06 09:40:11 +0200
 title: "Metrics from 1M Sites"
 lang: en
 link: https://speedcurve.com/blog/metrics-from-1m-sites/
-author: Steve Souders
-site: SpeedCurve blog
+author: "Steve Souders"
+site: "SpeedCurve blog"
 tags: [WebPerf, JavaScript]
 ---
 
