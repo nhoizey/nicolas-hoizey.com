@@ -21,7 +21,7 @@ layout: null
     <updated>{{ link.date | date_to_xmlschema }}</updated>
     <id>{{ site.url }}{{ link.id }}</id>
     <content type="html">
-      &lt;p&gt;By {{ link.author }}{% if link.site %} on {{ link.site }}{% endif %}:&lt;br /&gt;
+      &lt;p&gt;{% if link.author %}{{ link.author }}&lt;br /&gt;{% endif %}
         &lt;a href="{{ link.link }}"&gt;{{ link.link }}&lt;/a&gt;
       &lt;/p&gt;
       {{ link.content | xml_escape }}

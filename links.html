@@ -9,9 +9,8 @@ permalink: /links/index.html
 <main class="list">
   {% for link in site.links reversed %}
     <article class="link" lang="{{ link.lang }}">
-      <h2><a href="{{ link.url }}">{{ link.title }}</a></h2>
+      <h2>{% if link.author %}{{ link.author }}:<br />{% endif %}<a href="{{ link.url }}">{{ link.title }}</a></h2>
       {% include_cached link-meta.html page=link %}
-      <p>By {{ link.author }}{% if link.site %} on {{ link.site }}{% endif %}</p>
     </article>
   {% endfor %}
 </main>

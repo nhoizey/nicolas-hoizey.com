@@ -9,10 +9,7 @@ layout: default
     <div class="link__info">
       <h1>{{ page.title }}</h1>
       {% include_cached link-meta.html page=page %}
-      <p>
-        By {{ page.author }}{% if page.site %} on {{ page.site }}{% endif %}:<br />
-        <a href="{{ page.link }}">{{ page.link }}</a>
-      </p>
+      <p>{% if page.author %}{{ page.author }}:<br />{% endif %}<a href="{{ page.link }}">{{ page.link }}</a></p>
     </div>
     <figure class="link__screenshot">
       <img
@@ -21,7 +18,7 @@ layout: default
         sizes="(min-width:60em) 21.6em, (min-width: 40em) 36vw, 100vw"
         width="300"
         height="200"
-        alt="{% if page.site %}{{ page.site }} {% endif %} screenshot" />
+        alt="screenshot" />
     </figure>
   </div>
   {{ page.content }}

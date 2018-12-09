@@ -4,7 +4,6 @@ title: "Should I Use JavaScript to Load My Web Fonts?"
 lang: en
 link: https://www.filamentgroup.com/lab/js-web-fonts.html
 author: "Zach Leatherman"
-site: "Filament Group"
 tags: [font, WebPerf]
 ---
 

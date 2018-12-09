@@ -4,7 +4,6 @@ title: "Metrics from 1M Sites"
 lang: en
 link: https://speedcurve.com/blog/metrics-from-1m-sites/
 author: "Steve Souders"
-site: "SpeedCurve blog"
 tags: [WebPerf, JavaScript]
 ---
 

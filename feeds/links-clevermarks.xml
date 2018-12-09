@@ -13,9 +13,14 @@ layout: null
     <email>{{ site.email }}</email>
   </author>
   {% for link in site.links reversed limit:20 %}
+    {% if link.author %}
+      {%- assign title = link.author | append: ': ' -%}
+    {% else %}
+      {%- assign title = '' -%}
+    {% endif %}
+    {%- assign title = title | append: link.title -%}
   <entry>
-    <title>{{ link.title | xml_escape }}</title>
-    <author>{{ link.author | xml_escape }}</author>
+    <title>{{ title | xml_escape }}</title>
     <content>{{ link.content | xml_escape }}</content>
     <id>{{ link.url }}</id>
     <link rel="aternate" href="{{ link.link }}"/>
