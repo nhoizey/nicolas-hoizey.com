@@ -80,11 +80,11 @@ posseify:
     link:
       min_hashtags: 1
       max_hashtags: 5
-      template: "@posse_content\n\n@posse_tags\n\n@posse_url"
+      template: "@posse_content\n@posse_url\n\n@posse_tags"
     post:
       min_hashtags: 3
       max_hashtags: 5
-      template: "@posse_title\n\n@posse_tags\n\n@posse_url"
+      template: "@posse_title\n\n@posse_url\n\n@posse_tags"
 
 # Algolia
 algolia:
