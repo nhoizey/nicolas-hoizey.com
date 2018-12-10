@@ -2,14 +2,17 @@
 layout: default
 ---
 
-{% asset components/link %}
+{% asset components/link @inline %}
 
 <article class="main link clearfix" lang="{{ page.lang }}">
   <div class="link__header">
     <div class="link__info">
+      {% if page.author %}
+        <p class="author">{{ page.author }}:</p>
+      {% endif %}
       <h1>{{ page.title }}</h1>
       {% include_cached link-meta.html page=page %}
-      <p>{% if page.author %}{{ page.author }}:<br />{% endif %}<a href="{{ page.link }}">{{ page.link }}</a></p>
+      <p><a href="{{ page.link }}">{{ page.link }}</a></p>
     </div>
     <figure class="link__screenshot">
       <img

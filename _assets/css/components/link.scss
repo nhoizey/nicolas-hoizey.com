@@ -4,6 +4,15 @@
 // Link
 // ************************************************************
 
+.link .author {
+  margin-bottom: 0;
+}
+
+.link .author + h1,
+.link .author + h2 {
+  margin-top: 0;
+}
+
 @media (min-width: 40em) {
   .link__header {
     display: flex;
