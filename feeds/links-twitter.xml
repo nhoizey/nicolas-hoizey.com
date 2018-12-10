@@ -14,12 +14,7 @@ layout: null
   </author>
   {% for link in site.links reversed limit:20 %}
     {%- assign posse_title = link.title | markdown_to_tweet -%}
-    {% if link.author %}
-      {%- assign posse_content = link.author | append: ': ' -%}
-    {% else %}
-      {%- assign posse_content = '' -%}
-    {% endif %}
-    {%- assign posse_content = posse_content | append: posse_title | truncatewords: 35, "…" | truncate: 200, "…" -%}
+    {%- assign posse_content = posse_title | truncatewords: 35, "…" | truncate: 200, "…" -%}
     {%- assign posse_url = link.link -%}
 
     {% comment %} https://developer.twitter.com/en/docs/basics/counting-characters.html {% endcomment %}
