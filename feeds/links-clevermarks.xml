@@ -22,6 +22,8 @@ layout: null
   <entry>
     <title>{{ title | xml_escape }}</title>
     <content>{{ link.content | xml_escape }}</content>
+    <link rel="enclosure" type="image/png"
+     href="https://res.cloudinary.com/nho/image/fetch/c_fill,f_png,q_auto,w_600,h_400/http://image.thum.io/get/width/1200/crop/800/noanimate/{{ link.link }}"/>
     <id>{{ link.url }}</id>
     <link rel="aternate" href="{{ link.link }}"/>
     <updated>{{ link.date | date_to_xmlschema }}</updated>
