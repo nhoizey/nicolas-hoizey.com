@@ -202,6 +202,11 @@ a {
     padding: 0.2em;
     color: $color-primary;
     text-decoration: underline solid $color-primary-lighter-1;
+
+    // Mostly for the hover effect
+    // https://css-tricks.com/multi-line-padded-text/
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
   }
 
   &:visited {
