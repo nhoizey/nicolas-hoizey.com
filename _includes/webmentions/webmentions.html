@@ -11,7 +11,6 @@
             ">
             {% if webmention.author %}
               <div class="webmention__author p-author h-card">
-                <!-- nomicrotypo -->
                 <a class="u-url" href="{{ webmention.author.url }}">
                   {% if webmention.author.photo %}
                     <img
@@ -24,14 +23,12 @@
                       alt="{{ webmention.author.name }} avatar" />
                   {% endif %}
                   <b class="p-name">{{ webmention.author.name }}</b></a>
-                  <!-- endnomicrotypo -->
                 <a class="deeplink" href="#webmention-{{ webmention.id }}"><svg><use xlink:href="#symbol-link" /></svg></a>
               </div>
             {% else %}
               {% if webmention.url %}
                 <div class="webmention__source">
                   <a class="deeplink" href="#webmention-{{ webmention.id }}"><svg><use xlink:href="#symbol-link" /></svg></a>
-                  <!-- nomicrotypo -->
                   <a class="u-url" href="{{ webmention.url }}">
                     <img
                       class="webmention__source__screenshot u-photo"
@@ -43,7 +40,6 @@
                       alt="Page screenshot" />
                     <b class="p-name">{{ webmention.url | truncate: 70 }}</b>
                   </a>
-                  <!-- endnomicrotypo -->
                 </div>
               {% endif %}
             {% endif %}

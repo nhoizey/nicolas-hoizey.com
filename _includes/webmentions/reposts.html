@@ -4,7 +4,6 @@
       {% for webmention in webmentions %}
         <li id="webmention-{{ webmention.id }}" class="webmentions__item webmention webmention--{{ webmention.type }}">
           <div class="webmention__author p-author h-card">
-            <!-- nomicrotypo -->
             {% if webmention.source == "twitter" %}
               {% assign url_parts = webmention.uri | split: "/" %}
               <a class="u-url" href="{{ url_parts[0] }}/{{ url_parts[1] }}/{{ url_parts[2] }}/{{ url_parts[3] }}">
@@ -20,7 +19,6 @@
                 height="48"
                 alt="{{ webmention.author.name }} avatar" />
             </a>
-            <!-- endnomicrotypo -->
           </div>
         </li>
       {% endfor %}
