@@ -2,6 +2,13 @@
 
 :root {
   font: -apple-system-body;
+  --base-duration: 0.25s;
+}
+
+@media screen and (prefers-reduced-motion) {
+  :root {
+    --base-duration: 0s;
+  }
 }
 
 // Box sizing:

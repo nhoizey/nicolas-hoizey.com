@@ -52,13 +52,3 @@ $color-icon-hover: $color-secondary;
 $baseline: 1.5em;
 
 $maxLayoutWidth: 60rem;
-
-:root {
-  --base-duration: 0.25s;
-}
-
-@media screen and (prefers-reduced-motion) {
-  :root {
-    --base-duration: 0s;
-  }
-}
