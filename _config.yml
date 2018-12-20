@@ -80,7 +80,7 @@ posseify:
     link:
       min_hashtags: 1
       max_hashtags: 5
-      template: "@posse_content<br>\n@posse_url<br>\n<br>\n@posse_tags"
+      template: "&#128279; @posse_content<br>\n@posse_url<br>\n<br>\n@posse_tags"
     post:
       min_hashtags: 3
       max_hashtags: 5
