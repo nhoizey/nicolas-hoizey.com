@@ -4,6 +4,7 @@ title: "Your Site—Any Site—Should be a PWA"
 lang: en
 link: https://www.aaron-gustafson.com/notebook/your-site-should-be-a-pwa/
 author: "Aaron Gustafson"
+author_twitter: "@AaronGustafson"
 tags: [PWA]
 ---
 

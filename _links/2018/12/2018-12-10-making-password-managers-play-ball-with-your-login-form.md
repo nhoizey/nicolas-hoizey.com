@@ -4,6 +4,7 @@ title: "Making password managers play ball with your login form"
 lang: en
 link: https://hiddedevries.nl/en/blog/2018-01-13-making-password-managers-play-ball-with-your-login-form
 author: "Hidde de Vries"
+author_twitter: "@hdv"
 tags: [security, UX, password]
 ---
 
