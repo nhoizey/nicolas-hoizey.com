@@ -15,11 +15,7 @@ layout: null
   {% for link in site.links reversed limit:20 %}
     {%- assign posse_title = link.title | markdown_to_tweet -%}
     {%- if link.author -%}
-      {%- assign posse_content = link.author -%}
-      {%- if link.author_twitter -%}
-        {%- assign posse_content = posse_content | append: ' (\@' | append: link.author_twitter | append: ')' -%}
-      {%- endif %}
-      {%- assign posse_content = posse_content | append: ': ' -%}
+      {%- assign posse_content = link.author | append: ': ' -%}
     {%- else -%}
       {%- assign posse_content = '' -%}
     {%- endif %}
