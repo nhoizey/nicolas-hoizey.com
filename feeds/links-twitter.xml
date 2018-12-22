@@ -17,14 +17,15 @@ layout: null
     {%- if link.author -%}
       {%- assign posse_content = link.author -%}
       {%- if link.author_twitter -%}
-        {%- assign posse_content = posse_content | append: ' (' | append: link.author_twitter | append: ')' -%}
+        {%- assign posse_content = posse_content | append: ' (\@' | append: link.author_twitter | append: ')' -%}
       {%- endif %}
       {%- assign posse_content = posse_content | append: ': ' -%}
     {%- else -%}
       {%- assign posse_content = '' -%}
     {%- endif %}
     {%- assign posse_content = posse_content | append: posse_title | truncatewords: 35, "…" | truncate: 200, "…" -%}
-    {%- assign posse_url = link.link -%}
+    {%- comment -%}{%- assign posse_url = link.link -%}{%- endcomment -%}
+    {%- assign posse_url = site.url | append: link.url -%}
 
     {% comment %} https://developer.twitter.com/en/docs/basics/counting-characters.html {% endcomment %}
     {%- assign tweet_without_meta_size = site.posseify.twitter.link.template | replace: '@posse_content', posse_content | replace: '@posse_tags', '' | replace: '@posse_url', '' | size -%}
@@ -50,7 +51,7 @@ layout: null
     <title>{{ link.title | xml_escape }}</title>
     <content>{{ tweet | xml_escape }}</content>
     <id>{{ posse_url }}</id>
-    <link href="https://res.cloudinary.com/nho/image/fetch/c_fill,f_png,q_auto,w_600,h_400/http://image.thum.io/get/width/1200/crop/800/noanimate/{{ link.link }}"/>
+    <link href="https://res.cloudinary.com/nho/image/fetch/c_fill,f_png,q_auto,w_1200,h_630/http://image.thum.io/get/width/1200/crop/630/noanimate/{{ link.link }}"/>
     <updated>{{ link.date | date_to_xmlschema }}</updated>
   </entry>
   {% endfor %}
