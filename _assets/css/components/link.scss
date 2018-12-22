@@ -6,6 +6,12 @@
 
 .link .author {
   margin-bottom: 0;
+
+  svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+  }
 }
 
 .link .author + h1,
