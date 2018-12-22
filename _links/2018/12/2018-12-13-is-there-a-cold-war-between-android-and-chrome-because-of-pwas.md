@@ -4,7 +4,7 @@ title: "Is there a cold war between Android and Chrome because of PWAs?"
 lang: en
 link: https://medium.com/@firt/is-there-a-cold-war-between-android-and-chrome-because-of-pwas-e50a7471056c
 author: "Maximiliano Firtman"
-author_twitter: "@firt"
+author_twitter: "firt"
 tags: [PWA, Android, Chrome]
 ---
 

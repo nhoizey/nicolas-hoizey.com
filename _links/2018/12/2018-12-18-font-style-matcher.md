@@ -4,7 +4,7 @@ title: "Font style matcher"
 lang: en
 link: https://meowni.ca/font-style-matcher/
 author: "Monica Dinculescu"
-author_twitter: "@notwaldorf"
+author_twitter: "notwaldorf"
 tags: [WebPerf, font]
 ---
 
