@@ -13,12 +13,16 @@ layout: null
     <email>{{ site.email }}</email>
   </author>
   {% for link in site.links reversed limit:20 %}
-    {% if link.author %}
-      {%- assign title = link.author | append: ': ' -%}
-    {% else %}
-      {%- assign title = '' -%}
-    {% endif %}
-    {%- assign title = title | append: link.title -%}
+    {% assign link_date_in_seconds = link.date | date: "%s" | plus: 0 %}
+    {% assign now_in_seconds = "now" | date: "%s" | plus: 0 %}
+
+    {% if link_date_in_seconds < now_in_seconds %}
+      {% if link.author %}
+        {%- assign title = link.author | append: ': ' -%}
+      {% else %}
+        {%- assign title = '' -%}
+      {% endif %}
+      {%- assign title = title | append: link.title -%}
   <entry>
     <title>{{ title | xml_escape }}</title>
     <content>{{ link.content | xml_escape }}</content>
@@ -31,5 +35,6 @@ layout: null
       <category term="{{ tag | slugify: 'latin' | camelcase }}" label=""/>
     {%- endfor -%}
   </entry>
+    {% endif %}
   {% endfor %}
 </feed>
