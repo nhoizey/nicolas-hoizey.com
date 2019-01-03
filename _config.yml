@@ -9,6 +9,9 @@ url: 'https://nicolas-hoizey.com'
 twitter_username: nhoizey
 github_username: nhoizey
 
+# Handling content with date in the future
+future: false
+
 # Markdown parsing
 markdown: kramdown
 kramdown:
