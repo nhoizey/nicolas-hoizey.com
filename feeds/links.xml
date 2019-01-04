@@ -14,7 +14,8 @@ layout: null
     <email>{{ site.email }}</email>
   </author>
 
-  {% for link in site.links reversed limit:50 %}
+  {% assign links = site.links | sort: 'date' | reverse %}
+  {% for link in links limit:20 %}
     {% assign link_date_in_seconds = link.date | date: "%s" | plus: 0 %}
     {% assign now_in_seconds = "now" | date: "%s" | plus: 0 %}
 
