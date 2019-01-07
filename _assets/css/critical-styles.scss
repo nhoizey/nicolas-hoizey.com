@@ -590,8 +590,8 @@ article {
     padding: 1vw 7vw;
 
     color: #333;
-    background-color: $color-primary-lighter-5;
-    border-left: 1vw solid $color-primary;
+    background-color: $color-primary-lighter-4;
+    border-left: 1vw solid $color-primary-lighter-1;
 
     font-style: italic;
 
@@ -602,7 +602,7 @@ article {
 
       content: '\201C';
 
-      color: $color-primary;
+      color: $color-primary-lighter-1;
 
       font-size: 10vw;
       line-height: 1;
@@ -624,12 +624,12 @@ article {
 
     blockquote {
       color: #333;
-      background-color: $color-primary-lighter-4;
-      border-left: 1vw solid $color-primary-lighter-1;
+      background-color: $color-primary-lighter-3;
+      border-left: 1vw solid $color-primary;
       font-style: normal;
 
       &::before {
-        color: $color-primary-lighter-1;
+        color: $color-primary;
       }
     }
   }
