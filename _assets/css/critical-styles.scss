@@ -621,6 +621,17 @@ article {
       color: #000;
       font-style: normal;
     }
+
+    blockquote {
+      color: #333;
+      background-color: $color-primary-lighter-4;
+      border-left: 1vw solid $color-primary-lighter-1;
+      font-style: normal;
+
+      &::before {
+        color: $color-primary-lighter-1;
+      }
+    }
   }
 
   table {
