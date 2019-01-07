@@ -1,0 +1,43 @@
+@import 'settings';
+
+// ************************************************************
+// List
+// ************************************************************
+
+.list {
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+
+.list__title {
+}
+
+.list__items {
+  list-style-type: none;
+  margin: 3rem 0;
+  padding: 0;
+}
+
+.list__item {
+  margin: 3rem 0;
+  padding: 0;
+}
+
+.list__items--small {
+  display: grid;
+  grid-gap: 3rem;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+
+  .list__item {
+    margin: 0;
+  }
+}
+
+.list__more {
+  align-self: end;
+
+  p {
+    margin: 0;
+  }
+}
