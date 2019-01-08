@@ -162,9 +162,15 @@ h6 {
 
 // anchors
 
-@mixin deeplink {
+a.deeplink:link,
+a.deeplink:visited {
+  display: inline-block;
   font-size: 1.2rem;
-  color: #bbb;
+  width: 1.9rem;
+  height: 1.9rem;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
   text-decoration: none;
   vertical-align: middle;
 
@@ -178,24 +184,18 @@ h6 {
   svg {
     width: 1em;
     height: 1em;
-    fill: #999;
+    fill: $color-primary;
   }
 }
 
-@mixin deeplinkHover {
-  color: $color-secondary;
+a.deeplink:hover,
+a.deeplink:active {
+  background-color: $color-primary;
+  color: $color-white;
 
   svg {
-    fill: $color-secondary;
+    fill: $color-white;
   }
-}
-
-a.deeplink:link {
-  @include deeplink;
-}
-
-a.deeplink:hover {
-  @include deeplinkHover;
 }
 
 h1,
@@ -204,37 +204,18 @@ h3,
 h4,
 h5,
 h6 {
-  &:hover a.deeplink:link {
-    @include deeplinkHover;
-  }
-}
+  &:hover,
+  &:active {
+    a.deeplink:link,
+    a.deeplink:visited {
+      background-color: $color-primary;
+      color: $color-white;
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-[id^='fn:'],
-[id^='fnref:'] {
-  &:target {
-    &:before {
-      content: '';
-      display: block;
-      height: 1rem;
-      margin: -1rem 0 0;
-    }
-
-    & a.deeplink {
-      @media (min-width: 55em) {
-        top: 1.65rem;
+      svg {
+        fill: $color-white;
       }
     }
   }
-}
-
-[id^='fnref:']:target:before {
-  display: inline-block;
 }
 
 pre {
