@@ -20,11 +20,7 @@
     padding: 0;
     margin: 0;
 
-    // https://unfetteredthoughts.net/2017/09/26/voiceover-and-list-style-type-none/
     list-style-type: none;
-    &:before {
-      content: '\200B';
-    }
   }
 
   .webmention__author__photo {

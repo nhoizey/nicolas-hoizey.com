@@ -34,14 +34,9 @@
 
 .card__meta__item {
   margin: 0;
+  list-style-type: none;
   display: inline-block;
   white-space: nowrap;
-
-  // https://unfetteredthoughts.net/2017/09/26/voiceover-and-list-style-type-none/
-  list-style-type: none;
-  &:before {
-    content: '\200B';
-  }
 
   &:not(:last-of-type) {
     margin-right: 1em;
