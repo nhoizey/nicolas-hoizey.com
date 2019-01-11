@@ -504,7 +504,6 @@ article {
     font-size: 0.8em;
 
     ul {
-      list-style-type: none;
       margin: 0.2em 0;
       padding: 0;
     }
@@ -513,6 +512,12 @@ article {
       margin: 0;
       display: inline-block;
       white-space: nowrap;
+
+      // https://unfetteredthoughts.net/2017/09/26/voiceover-and-list-style-type-none/
+      list-style-type: none;
+      &:before {
+        content: '\200B';
+      }
 
       &:not(:last-of-type) {
         margin-right: 1em;

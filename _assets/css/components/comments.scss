@@ -5,11 +5,16 @@
 // ************************************************************
 
 .comments__list {
-  list-style: none;
   padding: 0;
 }
 
 .comments__item {
+  // https://unfetteredthoughts.net/2017/09/26/voiceover-and-list-style-type-none/
+  list-style-type: none;
+  &:before {
+    content: '\200B';
+  }
+
   clear: left;
   position: relative;
   padding: 0.5em 0 0 calc(48px + 1em);

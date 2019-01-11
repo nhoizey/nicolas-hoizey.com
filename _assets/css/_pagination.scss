@@ -2,7 +2,6 @@
   font-size: 1.2em;
   margin: 3em auto;
   padding: 0;
-  list-style-type: none;
   display: flex;
   justify-content: center;
   align-items: baseline;
@@ -11,7 +10,16 @@
     flex-grow: 1;
     text-align: center;
 
-    &.dist1, &.dist2, &.dist3, &.extreme {
+    // https://unfetteredthoughts.net/2017/09/26/voiceover-and-list-style-type-none/
+    list-style-type: none;
+    &:before {
+      content: '\200B';
+    }
+
+    &.dist1,
+    &.dist2,
+    &.dist3,
+    &.extreme {
       display: none;
     }
 
@@ -45,9 +53,11 @@
       }
     }
 
-    a, strong, &.disabled {
-      padding: .1em .3em;
-      border-radius: .3em;
+    a,
+    strong,
+    &.disabled {
+      padding: 0.1em 0.3em;
+      border-radius: 0.3em;
       border: 2px solid #fff;
       text-decoration: none;
     }
@@ -63,7 +73,8 @@
       color: #fff;
     }
 
-    &.next, &.prev {
+    &.next,
+    &.prev {
       font-weight: 700;
 
       &.disabled {
