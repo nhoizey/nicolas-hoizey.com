@@ -443,7 +443,7 @@
     id: '574456'
     uri: https://www.instagram.com/cletile/?hl=en
     source: false
-    pubdate: 2019-01-05 02:55:12.000000000 +00:00
+    pubdate: 2019-01-05 03:55:12.000000000 +01:00
     raw:
       source: https://www.instagram.com/cletile/?hl=en
       verified: true
@@ -823,7 +823,7 @@
     id: '574879'
     uri: http://www.Feedbooks.com/user/4558974/profile
     source: false
-    pubdate: 2019-01-06 12:06:07.000000000 +00:00
+    pubdate: 2019-01-06 13:06:07.000000000 +01:00
     raw:
       source: http://www.Feedbooks.com/user/4558974/profile
       verified: true
@@ -20788,7 +20788,7 @@
     id: '574882'
     uri: https://twitter.com/nhoizey/status/1081885826668208129#favorited-by-259814870
     source: twitter
-    pubdate: 2019-01-06 12:22:58.000000000 +00:00
+    pubdate: 2019-01-06 13:22:58.000000000 +01:00
     raw:
       source: https://brid-gy.appspot.com/like/twitter/nhoizey/1081885826668208129/259814870
       verified: true
@@ -20862,7 +20862,7 @@
     id: '574720'
     uri: https://twitter.com/nice_links/status/1081260844804120577#favorited-by-924074658906984450
     source: twitter
-    pubdate: 2019-01-05 22:56:29.000000000 +00:00
+    pubdate: 2019-01-05 23:56:29.000000000 +01:00
     raw:
       source: https://brid-gy.appspot.com/like/twitter/nice_links/1081260844804120577/924074658906984450
       verified: true
@@ -21001,3 +21001,4 @@
     type: repost
     content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/links/2019/01/on-the-importance-of-testing-with-content-blockers.html">https://nicolas-hoizey.com/links/2019/01/on-the-importance-of-testing-with-content-blockers.html</a></p>
+"/links/2019/01/bridgy-stats-update.html": {}
