@@ -20756,6 +20756,42 @@
     type: like
     content: <p><a href="https://twitter.com/smashingmag">Smashing Magazine</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a></p>
+  '1084895524996726784':
+    id: '1084895524996726784'
+    uri: https://twitter.com/cloudinary/status/1084895524996726784
+    source: twitter
+    pubdate: 2019-01-14 20:30:24.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/post/twitter/nhoizey/1084895524996726784
+      verified: true
+      verified_date: '2019-01-14T19:42:42+00:00'
+      id: 577286
+      private: false
+      data:
+        author: &535
+          name: Cloudinary
+          url: https://twitter.com/cloudinary
+          photo: https://webmention.io/avatar/pbs.twimg.com/4f6003ea4d4feeee7bb37ef997dacf382b5610f3fc29e40424c544884ed87145.jpg
+        url: https://twitter.com/cloudinary/status/1084895524996726784
+        name: 
+        content: |-
+          Using <a href="https://twitter.com/search?q=%23Cloudinary">#Cloudinary</a>’s fetch API to convert an animated <a href="https://twitter.com/search?q=%23GIF">#GIF</a> to a video via <a href="https://twitter.com/nhoizey">@nhoizey</a> <a href="http://ow.ly/VqPb30lCKLd">ow.ly/VqPb30lCKLd</a>
+          <a class="u-mention" href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html"></a>
+        published: '2019-01-14T19:30:24+00:00'
+        published_ts: 1547494224
+      activity:
+        type: link
+        sentence: 'Cloudinary posted ''Using #Cloudinary’s fetch API to convert an
+          animated #GIF to a video via @nhoize...'' linking to https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html'
+        sentence_html: '<a href="https://twitter.com/cloudinary">Cloudinary</a> posted
+          ''Using #Cloudinary’s fetch API to convert an animated #GIF to a video via
+          @nhoize...'' linking to <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a>'
+      target: https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
+    author: *535
+    type: link
+    content: |-
+      <p>Using <a href="https://twitter.com/search?q=%23Cloudinary">#Cloudinary</a>’s fetch API to convert an animated <a href="https://twitter.com/search?q=%23GIF">#GIF</a> to a video via <a href="https://twitter.com/nhoizey">@nhoizey</a> <a href="http://ow.ly/VqPb30lCKLd">ow.ly/VqPb30lCKLd</a>
+      <a class="u-mention" href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html"></a></p>
 ? "/2018/09/2006-07-06-open-xml-translator-clever-age-realise-pour-microsoft-corp-un-plugin-permettant-a-word-2007-d-utiliser-le-format-opendocument-odf-d-openoffice.html"
 : {}
 "/2018/10/the-treasure-behind-the-castle-walls.html": {}
@@ -20796,7 +20832,7 @@
       id: 574882
       private: false
       data:
-        author: &535
+        author: &536
           name: Gaël Poupard
           url: https://twitter.com/ffoodd_fr
           photo: https://webmention.io/avatar/pbs.twimg.com/bebb7c8bbc4d5d316c64a4e8278e4fb1a662dd836590aa669864c8f7d7ca013d.jpeg
@@ -20811,7 +20847,7 @@
         sentence_html: <a href="https://twitter.com/ffoodd_fr">Gaël Poupard</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/links/2019/01/passwords-evolved-authentication-guidance-for-the-modern-era.html">https://nicolas-hoizey.com/links/2019/01/passwords-evolved-authentication-guidance-for-the-modern-era.html</a>
       target: https://nicolas-hoizey.com/links/2019/01/passwords-evolved-authentication-guidance-for-the-modern-era.html
-    author: *535
+    author: *536
     type: like
     content: <p><a href="https://twitter.com/ffoodd_fr">Gaël Poupard</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/links/2019/01/passwords-evolved-authentication-guidance-for-the-modern-era.html">https://nicolas-hoizey.com/links/2019/01/passwords-evolved-authentication-guidance-for-the-modern-era.html</a></p>
@@ -20827,7 +20863,7 @@
       id: 574033
       private: false
       data:
-        author: &536
+        author: &537
           name: Nicolas Hoizey
           url: https://twitter.com/nhoizey
           photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
@@ -20849,7 +20885,7 @@
           'Une excellente synthèse des bonnes pratiques liées à la connexion (surtout
           par m...' linking to <a href="https://nicolas-hoizey.com/links/2019/01/passwords-evolved-authentication-guidance-for-the-modern-era.html">https://nicolas-hoizey.com/links/2019/01/passwords-evolved-authentication-guidance-for-the-modern-era.html</a>
       target: https://nicolas-hoizey.com/links/2019/01/passwords-evolved-authentication-guidance-for-the-modern-era.html
-    author: *536
+    author: *537
     type: link
     content: |-
       <p>Une excellente synthèse des bonnes pratiques liées à la connexion (surtout par mot de passe) qu’on a vu naître au cours des 10 dernières années, mais que trop de services/entreprises n’appliquent toujours pas.<br />
@@ -20870,7 +20906,7 @@
       id: 574720
       private: false
       data:
-        author: &537
+        author: &538
           name: Khadija Wardi خديجة وردي
           url: https://twitter.com/AdijahWardi
           photo: https://webmention.io/avatar/pbs.twimg.com/94cce1631b7ec874f75b0f01860da13cbe868bd09f516ee03f910e27f747af83.jpg
@@ -20885,7 +20921,7 @@
         sentence_html: <a href="https://twitter.com/AdijahWardi">Khadija Wardi خديجة
           وردي</a> favorited a tweet <a href="https://nicolas-hoizey.com/links/2019/01/the-rule-of-least-power.html">https://nicolas-hoizey.com/links/2019/01/the-rule-of-least-power.html</a>
       target: https://nicolas-hoizey.com/links/2019/01/the-rule-of-least-power.html
-    author: *537
+    author: *538
     type: like
     content: <p><a href="https://twitter.com/AdijahWardi">Khadija Wardi خديجة وردي</a>
       favorited a tweet <a href="https://nicolas-hoizey.com/links/2019/01/the-rule-of-least-power.html">https://nicolas-hoizey.com/links/2019/01/the-rule-of-least-power.html</a></p>
@@ -20902,7 +20938,7 @@
       id: 574862
       private: false
       data:
-        author: &538
+        author: &539
           name: Nicolas Hoizey
           url: https://twitter.com/nhoizey
           photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
@@ -20922,7 +20958,7 @@
           ''How do you develop your native mobile apps nowadays, when #PWA are not
           enough?'' linking to <a href="https://nicolas-hoizey.com/links/2019/01/flutter-the-good-the-bad-and-the-ugly.html">https://nicolas-hoizey.com/links/2019/01/flutter-the-good-the-bad-and-the-ugly.html</a>'
       target: https://nicolas-hoizey.com/links/2019/01/flutter-the-good-the-bad-and-the-ugly.html
-    author: *538
+    author: *539
     type: link
     content: |-
       <p>How do you develop your native mobile apps nowadays, when <a href="https://twitter.com/search?q=%23PWA">#PWA</a> are not enough?
@@ -20941,7 +20977,7 @@
       id: 575224
       private: false
       data:
-        author: &539
+        author: &540
           name: Nicolas Hoizey
           url: https://twitter.com/nhoizey
           photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
@@ -20961,12 +20997,43 @@
           'Discovered this talk by @ericwbailey just after changing my own focus styles,
           ha...' linking to <a href="https://nicolas-hoizey.com/links/2019/01/if-it-s-interactive-it-needs-a-focus-style.html">https://nicolas-hoizey.com/links/2019/01/if-it-s-interactive-it-needs-a-focus-style.html</a>
       target: https://nicolas-hoizey.com/links/2019/01/if-it-s-interactive-it-needs-a-focus-style.html
-    author: *539
+    author: *540
     type: link
     content: |-
       <p>Discovered this talk by <a href="https://twitter.com/ericwbailey">@ericwbailey</a> just after changing my own focus styles, happy to read they look much better than previously!
       <a class="u-mention" href="https://nho.io/2H03QrT"></a>
       <a class="u-mention" href="https://nicolas-hoizey.com/links/2019/01/if-it-s-interactive-it-needs-a-focus-style.html"></a></p>
+  '575337':
+    id: '575337'
+    uri: https://twitter.com/nice_links/status/1082219356216614912#favorited-by-49285959
+    source: twitter
+    pubdate: 2019-01-07 17:19:21.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nice_links/1082219356216614912/49285959
+      verified: true
+      verified_date: '2019-01-07T17:19:21+00:00'
+      id: 575337
+      private: false
+      data:
+        author: &541
+          name: "@maelig@mastodon.social"
+          url: https://twitter.com/MaelB
+          photo: https://webmention.io/avatar/pbs.twimg.com/8ab6add44746a82931bfdd883eac6cf842f2a0261f1258a93e5e6422eb957184.jpg
+        url: https://twitter.com/nice_links/status/1082219356216614912#favorited-by-49285959
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: "@maelig@mastodon.social favorited a tweet https://nicolas-hoizey.com/links/2019/01/if-it-s-interactive-it-needs-a-focus-style.html"
+        sentence_html: <a href="https://twitter.com/MaelB">@maelig@mastodon.social</a>
+          favorited a tweet <a href="https://nicolas-hoizey.com/links/2019/01/if-it-s-interactive-it-needs-a-focus-style.html">https://nicolas-hoizey.com/links/2019/01/if-it-s-interactive-it-needs-a-focus-style.html</a>
+      target: https://nicolas-hoizey.com/links/2019/01/if-it-s-interactive-it-needs-a-focus-style.html
+    author: *541
+    type: like
+    content: <p><a href="https://twitter.com/MaelB">@maelig@mastodon.social</a> favorited
+      a tweet <a href="https://nicolas-hoizey.com/links/2019/01/if-it-s-interactive-it-needs-a-focus-style.html">https://nicolas-hoizey.com/links/2019/01/if-it-s-interactive-it-needs-a-focus-style.html</a></p>
 "/links/2019/01/on-the-importance-of-testing-with-content-blockers.html":
   '1082264457936547841':
     id: '1082264457936547841'
@@ -20980,7 +21047,7 @@
       id: 575250
       private: false
       data:
-        author: &540
+        author: &542
           name: Nicolas Hoizey
           url: https://twitter.com/nhoizey
           photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
@@ -20997,8 +21064,211 @@
         sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
           a tweet <a href="https://nicolas-hoizey.com/links/2019/01/on-the-importance-of-testing-with-content-blockers.html">https://nicolas-hoizey.com/links/2019/01/on-the-importance-of-testing-with-content-blockers.html</a>
       target: https://nicolas-hoizey.com/links/2019/01/on-the-importance-of-testing-with-content-blockers.html
-    author: *540
+    author: *542
     type: repost
     content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/links/2019/01/on-the-importance-of-testing-with-content-blockers.html">https://nicolas-hoizey.com/links/2019/01/on-the-importance-of-testing-with-content-blockers.html</a></p>
-"/links/2019/01/bridgy-stats-update.html": {}
+"/links/2019/01/bridgy-stats-update.html":
+  '576058':
+    id: '576058'
+    uri: https://twitter.com/nice_links/status/1082611920786591745#favorited-by-1343505890
+    source: twitter
+    pubdate: 2019-01-10 03:58:24.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nice_links/1082611920786591745/1343505890
+      verified: true
+      verified_date: '2019-01-10T03:58:24+00:00'
+      id: 576058
+      private: false
+      data:
+        author: &543
+          name: Amanda J. Rush
+          url: https://twitter.com/cswordpress
+          photo: https://webmention.io/avatar/pbs.twimg.com/f857ae597fa2ca438c5d8450fd707a8a8f9f2d48ea6295797a96a9c8d453e68b.jpg
+        url: https://twitter.com/nice_links/status/1082611920786591745#favorited-by-1343505890
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Amanda J. Rush favorited a tweet https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html
+        sentence_html: <a href="https://twitter.com/cswordpress">Amanda J. Rush</a>
+          favorited a tweet <a href="https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html">https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html</a>
+      target: https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html
+    author: *543
+    type: like
+    content: <p><a href="https://twitter.com/cswordpress">Amanda J. Rush</a> favorited
+      a tweet <a href="https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html">https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html</a></p>
+  '1082620669823717378':
+    id: '1082620669823717378'
+    uri: https://twitter.com/nhoizey/status/1082620669823717378
+    source: twitter
+    pubdate: 2019-01-08 13:50:56.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/post/twitter/nice_links/1082620669823717378
+      verified: true
+      verified_date: '2019-01-08T13:10:24+00:00'
+      id: 575584
+      private: false
+      data:
+        author: &544
+          name: Nicolas Hoizey
+          url: https://twitter.com/nhoizey
+          photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
+        url: https://twitter.com/nhoizey/status/1082620669823717378
+        name: 
+        content: |-
+          Thanks a lot <a href="https://twitter.com/schnarfed">@schnarfed</a> for Bridgy!
+          <a class="u-mention" href="https://nho.io/2AzlTiK"></a>
+          <a class="u-mention" href="https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html"></a>
+        published: '2019-01-08T12:50:56+00:00'
+        published_ts: 1546951856
+      activity:
+        type: link
+        sentence: Nicolas Hoizey posted 'Thanks a lot @schnarfed for Bridgy!' linking
+          to https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html
+        sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> posted
+          'Thanks a lot @schnarfed for Bridgy!' linking to <a href="https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html">https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html</a>
+      target: https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html
+    author: *544
+    type: link
+    content: |-
+      <p>Thanks a lot <a href="https://twitter.com/schnarfed">@schnarfed</a> for Bridgy!
+      <a class="u-mention" href="https://nho.io/2AzlTiK"></a>
+      <a class="u-mention" href="https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html"></a></p>
+  '575592':
+    id: '575592'
+    uri: https://snarfed.org/2019-01-08_bridgy-stats-update-nicolas-hoizey
+    source: false
+    pubdate: 2019-01-08 15:06:58.000000000 +01:00
+    raw:
+      source: https://snarfed.org/2019-01-08_bridgy-stats-update-nicolas-hoizey
+      verified: true
+      verified_date: '2019-01-08T14:07:04+00:00'
+      id: 575592
+      private: false
+      data:
+        author: &545
+          name: Ryan Barrett
+          url: https://snarfed.org/
+          photo: https://webmention.io/avatar/secure.gravatar.com/c0b31d7bbe47a775d32d364bde66f5ad59d507f03ae164635611401c06394fc4.png
+        url: https://snarfed.org/2019-01-08_bridgy-stats-update-nicolas-hoizey
+        name: 
+        content: likes <a class="u-like u-like-of" href="https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html">Bridgy
+          stats update – Nicolas Hoizey</a>
+        published: '2019-01-08T06:06:58-08:00'
+        published_ts: 1546956418
+      activity:
+        type: like
+        sentence: Ryan Barrett liked a post https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html
+        sentence_html: <a href="https://snarfed.org/">Ryan Barrett</a> liked a post
+          <a href="https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html">https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html</a>
+      target: https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html
+    author: *545
+    type: like
+    content: <p><a href="https://snarfed.org/">Ryan Barrett</a> liked a post <a href="https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html">https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html</a></p>
+"/links/2019/01/the-flexbox-holy-albatross-reincarnated.html":
+  '1084836057873563649':
+    id: '1084836057873563649'
+    uri: https://twitter.com/nhoizey/status/1084836057873563649
+    source: twitter
+    pubdate: 2019-01-14 16:34:06.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/post/twitter/nice_links/1084836057873563649
+      verified: true
+      verified_date: '2019-01-14T15:48:37+00:00'
+      id: 577224
+      private: false
+      data:
+        author: &546
+          name: Nicolas Hoizey
+          url: https://twitter.com/nhoizey
+          photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
+        url: https://twitter.com/nhoizey/status/1084836057873563649
+        name: 
+        content: "Now you can chose between <a href=\"https://twitter.com/HTeuMeuLeu\">@HTeuMeuLeu</a>’s
+          Fab Four with `width` and <a href=\"https://twitter.com/heydonworks\">@heydonworks</a>’s
+          Holy Albatros with `flex-basis`… \U0001F609\n<a class=\"u-mention\" href=\"https://nho.io/2Hluc7w\"></a>\n<a
+          class=\"u-mention\" href=\"https://nicolas-hoizey.com/links/2019/01/the-flexbox-holy-albatross-reincarnated.html\"></a>"
+        published: '2019-01-14T15:34:06+00:00'
+        published_ts: 1547480046
+      activity:
+        type: link
+        sentence: Nicolas Hoizey posted 'Now you can chose between @HTeuMeuLeu’s Fab
+          Four with `width` and @heydonworks’s...' linking to https://nicolas-hoizey.com/links/2019/01/the-flexbox-holy-albatross-reincarnated.html
+        sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> posted
+          'Now you can chose between @HTeuMeuLeu’s Fab Four with `width` and @heydonworks’s...'
+          linking to <a href="https://nicolas-hoizey.com/links/2019/01/the-flexbox-holy-albatross-reincarnated.html">https://nicolas-hoizey.com/links/2019/01/the-flexbox-holy-albatross-reincarnated.html</a>
+      target: https://nicolas-hoizey.com/links/2019/01/the-flexbox-holy-albatross-reincarnated.html
+    author: *546
+    type: link
+    content: "<p>Now you can chose between <a href=\"https://twitter.com/HTeuMeuLeu\">@HTeuMeuLeu</a>’s
+      Fab Four with <code class=\"highlighter-rouge\">width</code> and <a href=\"https://twitter.com/heydonworks\">@heydonworks</a>’s
+      Holy Albatros with <code class=\"highlighter-rouge\">flex-basis</code>… \U0001F609\n<a
+      class=\"u-mention\" href=\"https://nho.io/2Hluc7w\"></a>\n<a class=\"u-mention\"
+      href=\"https://nicolas-hoizey.com/links/2019/01/the-flexbox-holy-albatross-reincarnated.html\"></a></p>"
+"/links/2019/01/signal-v-noise-exits-medium.html":
+  '577887':
+    id: '577887'
+    uri: https://twitter.com/nice_links/status/1085521592384393216#favorited-by-46127393
+    source: twitter
+    pubdate: 2019-01-16 13:43:23.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nice_links/1085521592384393216/46127393
+      verified: true
+      verified_date: '2019-01-16T13:43:23+00:00'
+      id: 577887
+      private: false
+      data:
+        author: &547
+          name: Stéphanie Laporte
+          url: https://twitter.com/steashaz
+          photo: https://webmention.io/avatar/pbs.twimg.com/72830bf925ad985f41233f2c086d9fe3ebb8822e1e99173582be6aa9529f6462.png
+        url: https://twitter.com/nice_links/status/1085521592384393216#favorited-by-46127393
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Stéphanie Laporte favorited a tweet https://nicolas-hoizey.com/links/2019/01/signal-v-noise-exits-medium.html
+        sentence_html: <a href="https://twitter.com/steashaz">Stéphanie Laporte</a>
+          favorited a tweet <a href="https://nicolas-hoizey.com/links/2019/01/signal-v-noise-exits-medium.html">https://nicolas-hoizey.com/links/2019/01/signal-v-noise-exits-medium.html</a>
+      target: https://nicolas-hoizey.com/links/2019/01/signal-v-noise-exits-medium.html
+    author: *547
+    type: like
+    content: <p><a href="https://twitter.com/steashaz">Stéphanie Laporte</a> favorited
+      a tweet <a href="https://nicolas-hoizey.com/links/2019/01/signal-v-noise-exits-medium.html">https://nicolas-hoizey.com/links/2019/01/signal-v-noise-exits-medium.html</a></p>
+  '1085529215901011968':
+    id: '1085529215901011968'
+    uri: https://twitter.com/nhoizey/status/1085529215901011968
+    source: twitter
+    pubdate: 2019-01-16 14:28:27.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nice_links/1085521592384393216/1085529215901011968
+      verified: true
+      verified_date: '2019-01-16T13:43:36+00:00'
+      id: 577888
+      private: false
+      data:
+        author: &548
+          name: Nicolas Hoizey
+          url: https://twitter.com/nhoizey
+          photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
+        url: https://twitter.com/nhoizey/status/1085529215901011968
+        name: 
+        content: "\U0001F517 David Heinemeier Hansson: Signal v Noise exits Medium<br
+          />\nnho.io/2Coz9H3<br />\n<br />\n#medium #indieweb"
+        published: '2019-01-16T13:28:27+00:00'
+        published_ts: 1547645307
+      activity:
+        type: repost
+        sentence: Nicolas Hoizey retweeted a tweet https://nicolas-hoizey.com/links/2019/01/signal-v-noise-exits-medium.html
+        sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
+          a tweet <a href="https://nicolas-hoizey.com/links/2019/01/signal-v-noise-exits-medium.html">https://nicolas-hoizey.com/links/2019/01/signal-v-noise-exits-medium.html</a>
+      target: https://nicolas-hoizey.com/links/2019/01/signal-v-noise-exits-medium.html
+    author: *548
+    type: repost
+    content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
+      a tweet <a href="https://nicolas-hoizey.com/links/2019/01/signal-v-noise-exits-medium.html">https://nicolas-hoizey.com/links/2019/01/signal-v-noise-exits-medium.html</a></p>
