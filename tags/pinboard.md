@@ -1,1 +1,1 @@
-[Pinboard](https://pinboard.in/) est mon outil de *bookmarking social*, c'est à dire que j'y place tous mes favoris Web, afin que d'autres puissent en profiter, notamment en diffusant certains parmi les [CleverMarks](https://twitter.com/CleverMarks).
+[Pinboard](https://pinboard.in/) is my social bookmarking tool. I use it to collect every interesting link, so that people can find them too, and some are shared in Clever Age's [CleverMarks](https://twitter.com/CleverMarks).

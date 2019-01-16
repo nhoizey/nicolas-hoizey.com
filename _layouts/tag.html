@@ -8,7 +8,7 @@ layout: default
   <img src="/{{ tag_image_path }}" class="tag" />
 {% endif %}
 
-<h1>Articles with tag {{ page.tag }}</h1>
+<h1>{{ page.tag }}</h1>
 
 {% capture tag_description_path %}tags/{{ page.tag | slugify }}.md{% endcapture %}
 {% capture tag_description %}{% file_exists {{ tag_description_path }} %}{% endcapture %}
