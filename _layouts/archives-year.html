@@ -27,13 +27,15 @@ layout: default
 <div class="list">
   {% assign month = "" %}
   {% for post in page.posts %}
-    {% assign post_month = post.date | date: "%m" %}
-    {% if post_month != month %}
-      <h2><a href="/{{ page.date | date: "%Y" }}/{{ post.date | date: "%m" }}/" class="archive-month">{{ post.date | date: "%B" | capitalize }}</a></h2>
-      {% assign month = post_month %}
-    {% endif %}
+    {% unless post.categories contains 'links' %}
+      {% assign post_month = post.date | date: "%m" %}
+      {% if post_month != month %}
+        <h2><a href="/{{ page.date | date: "%Y" }}/{{ post.date | date: "%m" }}/" class="archive-month">{{ post.date | date: "%B" | capitalize }}</a></h2>
+        {% assign month = post_month %}
+      {% endif %}
 
-    {% include_cached post-abstract.html page=post level=3 %}
+      {% include_cached post-abstract.html page=post level=3 %}
+    {% endunless %}
   {% endfor %}
 </div>
 

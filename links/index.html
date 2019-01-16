@@ -1,0 +1,20 @@
+---
+layout: default
+title:  Links
+---
+
+{% asset components/link @inline %}
+
+<h1>Links</h1>
+
+<main class="list">
+  {% for link in site.categories['links'] %}
+    <article class="link" lang="{{ link.lang }}">
+      {% if link.author %}
+        <p class="author">{{ link.author }}{% if link.author_twitter %} (<svg><use xlink:href="#symbol-twitter" /></svg>&nbsp;<a href="https://twitter.com/{{ link.author_twitter }}">@{{ link.author_twitter }}</a>){% endif %}:</p>
+      {% endif %}
+      <h2><a href="{{ link.url }}">{{ link.title }}</a></h2>
+      {% include_cached link-meta.html page=link %}
+    </article>
+  {% endfor %}
+</main>

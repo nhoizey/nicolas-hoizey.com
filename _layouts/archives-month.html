@@ -8,6 +8,8 @@ layout: default
 
 <div class="list">
   {% for post in page.posts reversed %}
-    {% include_cached post-abstract.html page=post level=2 %}
+    {% unless post.categories contains 'links' %}
+      {% include_cached post-abstract.html page=post level=2 %}
+    {% endunless %}
   {% endfor %}
 </div>

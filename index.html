@@ -37,7 +37,7 @@ JSON-LD for:
 <section id="links" class="list">
   <h2 class="list__title">Latest links</h2>
   <ul class="list__items list__items--small">
-    {% assign links = site.links | sort: 'date' | reverse %}
+    {% assign links = site.categories['links'] %}
     {% assign links_number = 0 %}
     {% for link in links %}
       {% if links_number < 5 %}
@@ -65,8 +65,14 @@ JSON-LD for:
 <section id="articles" class="list">
   <h2>Latest articles</h2>
   <section class="list articles recent">
-    {% for post in site.posts limit:5 %}
-      {% include_cached post-abstract.html page=post level=3 %}
+    {% assign articles_number = 0 %}
+    {% for post in site.posts %}
+      {% if articles_number < 5 %}
+        {% unless post.categories contains 'links' %}
+          {% include_cached post-abstract.html page=post level=3 %}
+          {% assign articles_number = articles_number | plus: 1 %}
+        {% endunless %}
+      {% endif %}
     {% endfor %}
   </section>
   {% for post in site.posts limit:1 %}

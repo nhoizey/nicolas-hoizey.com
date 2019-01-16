@@ -27,10 +27,7 @@ lsi: false
 collections:
   posts:
     output: true
-    permalink: :year/:month/:title.html
-  links:
-    output: true
-    permalink: links/:year/:month/:title.html
+    permalink: :categories/:year/:month/:title.html
 
 # Defaults
 defaults:
@@ -41,8 +38,8 @@ defaults:
       layout: post
       lang: fr
   - scope:
-      path: ''
-      type: links
+      path: 'links'
+      type: posts
     values:
       layout: link
       lang: en
