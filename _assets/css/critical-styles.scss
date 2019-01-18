@@ -277,6 +277,10 @@ figure {
     padding: 0;
   }
 
+  &.twothirds {
+    max-width: 66%;
+  }
+
   &.onehalf {
     max-width: 50%;
   }

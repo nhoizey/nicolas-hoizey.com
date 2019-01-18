@@ -142,6 +142,15 @@ cloudinary:
       steps: 5
       sizes: '(max-width: 67rem) 90vw, 60rem'
       figure: always
+    twothirds:
+      min_width: 240
+      max_width: 1120
+      fallback_max_width: 600
+      steps: 5
+      sizes: '(max-width: 20rem) 45vw, (max-width: 67rem) 60vw, 40rem'
+      figure: always
+      attributes:
+        class: twothirds
     onehalf:
       min_width: 180
       max_width: 800
