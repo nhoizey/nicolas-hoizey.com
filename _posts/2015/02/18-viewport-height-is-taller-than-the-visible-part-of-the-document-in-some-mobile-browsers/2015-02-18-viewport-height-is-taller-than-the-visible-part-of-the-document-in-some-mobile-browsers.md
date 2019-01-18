@@ -6,7 +6,7 @@ tags:       [Safari, iPhone, iPad, bug]
 
 When trying to use [a `100vh` CSS value](http://caniuse.com/viewport-units) to build a new interface for [a game](http://esviji.com/) that would use the full viewport, I discovered that this full height value meant the bottom of the game interface was partialy hidden behind the browser buttons bar or below the "fold" of some mobile browsers.
 
-## An issue with Apple iOS Safari
+# An issue with Apple iOS Safari
 
 I first discovered this on my iPhone 5 and iPad 2.
 
@@ -24,52 +24,52 @@ Here is what [this page](http://lab.gasteroprod.com/vub/index-ios-issue.html) lo
 
 As suggested by Yoav Weiss [there](https://twitter.com/yoavweiss/status/568145414320492544) and [there](https://twitter.com/yoavweiss/status/568713697306267648), I opened a bug in [Apple Bug Reporter](https://bugreport.apple.com/)(#19879505) and [Webkit Bugzilla](https://bugs.webkit.org/show_bug.cgi?id=141832).
 
-### Description
+## Description
 
 When trying to use [a `100vh` CSS value](http://caniuse.com/viewport-units) to build an interface for [a game](http://esviji.com/) that would use the full viewport, I discovered that this full height value meant the bottom of the game interface was partialy hidden behind the browser buttons bar of Safari iOS on iPhone, or below the "fold" on iPad.
 
-### Steps to Reproduce
+## Steps to Reproduce
 
 1. Open http://lab.gasteroprod.com/vub/index-ios-issue.html on iOS Safari with an iPhone in portrait mode, or an iPad in portrait or landscape mode
 2. The bottom part of the "bottom right" box is not visible, the 100vh height container being taller than the visible part
 
-### Expected Results
+## Expected Results
 
 I would have expected the viewport size (and the `100vh` dimension) to be equal to the visible part of the page in the browser. It's called **VIEW**port after all.
 
 I understand it means the viewport changes when the browser interface hides, but I find it better, and necessary for "full viewport" interfaces. Fullscreen API is not available either, so there is no simple way to fix this behavior.
 
-### Actual Results
+## Actual Results
 
 The bottom part of the "bottom right" box is not visible, the `100vh` height container being taller than the visible part
 
-### Configuration
+## Configuration
 
 iPhone 5 and iPad 2
 
-### Version & Build
+## Version & Build
 
 iOS 8.1.3 (12B466), and other versions in the iOS simulator
 
-### Additional Notes
+## Additional Notes
 
 There is a JavaScript library that tries to fix some issues with viewport units in iOS, but it has issues too: [https://github.com/rodneyrehm/viewport-units-buggyfill/issues/13](https://github.com/rodneyrehm/viewport-units-buggyfill/issues/13)
 
-## But not the only one…
+# But not the only one…
 
 In fact I saw later that iOS Safari is not the only one doing this.
 
-### Firefox on Firefox OS
+## Firefox on Firefox OS
 
 I discovered later the same behavior on the browser of Firefox OS:
 
 {% cloudinary onehalf firefox-os-before-scroll-r90.jpg %}
 
-## So what?
+# So what?
 
 Are these behaviors browsers bugs, or the correct implementation of the standard, or is it open to interpretation?
 
-## February 23rd update
+# February 23rd update
 
 [Webkit bug](https://bugs.webkit.org/show_bug.cgi?id=141832) has been set to **RESOLVED WONTFIX**, with this explanation:
 
@@ -83,7 +83,7 @@ Are these behaviors browsers bugs, or the correct implementation of the standard
 >
 > From the data we had, using the larger view size was the best compromise. Most website using viewport units were looking great most of the time.
 
-## March 4th update
+# March 4th update
 
 The issue on Apple Bug Reporter has been closed with this comment:
 
@@ -95,11 +95,11 @@ The W3C CSS Working Group replied on Twitter with links to past discussions:
 
 https://twitter.com/csswg/status/571742414299246592
 
-## March 9th update
+# March 9th update
 
 The W3C CSS Working Group suggestion doesn't fix anything, in iOS at least. Test it [live here](http://lab.gasteroprod.com/vub/index-ios-overflow.html).
 
-## June 30th update
+# June 30th update
 
 Boris, a friend, told be he saw a disturbing behavior of my text content when scrolling on this site:
 
@@ -121,7 +121,7 @@ Boris uses a [OnePlus One](https://oneplus.net/one) running Android 5.0.2 and Ch
 
 So there is at least one browser that behaves as I want for my full height game screen… but it makes users wonder if there is an issue…
 
-## January 19th, 2016 update
+# January 19th, 2016 update
 
 People developing Chrome for Android [now plan to change its behavior to match iOS Safari's one](https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/BK0oHURgmJ4), claiming that “Safari’s been doing this for years without user/developer complaint”.
 
@@ -129,13 +129,13 @@ People developing Chrome for Android [now plan to change its behavior to match i
 
 [^thanksyoav]: Thanks Yoav for the [notification](https://twitter.com/yoavweiss/status/689568512562577408) about this discussion!
 
-## November 8th, 2016 update
+# November 8th, 2016 update
 
 Chrome will indeed [now work like Safari](https://www.chromestatus.com/features/6241601772847104).
 
 There is a lot of interesting informations in [this study](https://github.com/bokand/URLBarSizing#proposed-changes-to-chrome) about the differences between mobile browsers, and the proposed consensus.
 
-## December, 2016 update
+# December, 2016 update
 
 David Bokan explains how Chrome will now behave starting with version 56: [URL Bar Resizing](https://developers.google.com/web/updates/2016/12/url-bar-resizing).
 
@@ -145,10 +145,10 @@ Unfortunately:
 
 *[ICB]: Initial Containing Block
 
-## January 3rd, 2017 update
+# January 3rd, 2017 update
 
 [Jeremy Keith made the same observation](https://adactio.com/journal/11690), and concluded that "the result of this messiness is that the vh unit is practically useless for real-world situations with real-world devices".
 
-## February 22nd, 2017 update
+# February 22nd, 2017 update
 
 Peter-Paul Koch makes the same observation that viewport size is a tricky topic, with many disparities among browsers, in his post [Toolbars, keyboards, and the viewports](https://medium.com/samsung-internet-dev/toolbars-keyboards-and-the-viewports-10abcc6c3769#.h7jmkzqin).
