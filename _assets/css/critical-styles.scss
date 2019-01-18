@@ -89,6 +89,7 @@ $h1Increase: 3;
 h1 {
   margin-top: 0;
   font-size: calc(0.9rem + #{$h1Increase}vw);
+  color: $color-primary;
 
   @media (min-width: $fontBreakpoint) {
     font-size: calc(0.9em + #{$fontBreakpoint} * #{$h1Increase} / 100);
@@ -98,6 +99,7 @@ h1 {
 $h2Increase: 2;
 h2 {
   font-size: calc(0.9rem + #{$h2Increase}vw);
+  color: $color-primary-lighter-1;
 
   @media (min-width: $fontBreakpoint) {
     font-size: calc(0.9em + #{$fontBreakpoint} * #{$h2Increase} / 100);
@@ -107,6 +109,7 @@ h2 {
 $h3Increase: 1.5;
 h3 {
   font-size: calc(0.9rem + #{$h3Increase}vw);
+  color: $color-primary-lighter-2;
 
   @media (min-width: $fontBreakpoint) {
     font-size: calc(0.9em + #{$fontBreakpoint} * #{$h3Increase} / 100);
@@ -116,6 +119,7 @@ h3 {
 $h4Increase: 1;
 h4 {
   font-size: calc(0.9rem + #{$h4Increase}vw);
+  color: $color-primary-lighter-2;
 
   @media (min-width: $fontBreakpoint) {
     font-size: calc(0.9em + #{$fontBreakpoint} * #{$h4Increase} / 100);
@@ -125,6 +129,7 @@ h4 {
 $h5Increase: 0.5;
 h5 {
   font-size: calc(0.9rem + #{$h5Increase}vw);
+  color: $color-primary-lighter-2;
 
   @media (min-width: $fontBreakpoint) {
     font-size: calc(0.9em + #{$fontBreakpoint} * #{$h5Increase} / 100);
@@ -134,6 +139,7 @@ h5 {
 h6 {
   font-style: italic;
   font-size: 1rem;
+  color: $color-primary-lighter-2;
 }
 
 // anchors
