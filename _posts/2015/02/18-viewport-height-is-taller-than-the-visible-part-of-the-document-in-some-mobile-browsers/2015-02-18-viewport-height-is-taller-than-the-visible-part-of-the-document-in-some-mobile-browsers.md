@@ -12,15 +12,15 @@ I first discovered this on my iPhone 5 and iPad 2.
 
 Here is what [this page](http://lab.gasteroprod.com/vub/index-ios-issue.html) looks like on an iPhone 5 :
 
-{% cloudinary onehalf ios-safari-portrait-before-scroll.png %}
+{% cloudinary onehalf ios-safari-portrait-before-scroll.png caption="The page rendering in portrait mode with visible browser chrome" %}
 
-{% cloudinary ios-safari-landscape-before-scroll.png %}
+{% cloudinary twothirds ios-safari-landscape-before-scroll.png caption="The page rendering in landscape mode with visible browser chrome" %}
 
 `100vh` is computed for when the browser interface is hidden, after a scroll :
 
-{% cloudinary onehalf ios-safari-portrait-after-scroll.png %}
+{% cloudinary onehalf ios-safari-portrait-after-scroll.png caption="The page rendering in portrait mode with reduced browser chrome" %}
 
-{% cloudinary ios-safari-landscape-after-scroll.png %}
+{% cloudinary twothirds ios-safari-landscape-after-scroll.png caption="The page rendering in landscape mode with reduced browser chrome" %}
 
 As suggested by Yoav Weiss [there](https://twitter.com/yoavweiss/status/568145414320492544) and [there](https://twitter.com/yoavweiss/status/568713697306267648), I opened a bug in [Apple Bug Reporter](https://bugreport.apple.com/)(#19879505) and [Webkit Bugzilla](https://bugs.webkit.org/show_bug.cgi?id=141832).
 
