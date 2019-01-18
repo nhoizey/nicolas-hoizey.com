@@ -41,9 +41,6 @@ a.icon {
   vertical-align: middle;
   color: $color-icon-link;
   text-decoration: none;
-  transition-duration: var(--base-duration);
-  transition-property: color;
-  transition-timing-function: ease-in-out;
 
   svg {
     width: 1em;
