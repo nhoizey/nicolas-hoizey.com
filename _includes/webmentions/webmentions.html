@@ -4,6 +4,7 @@
     <ol class="webmentions__list">
       {% for webmention in webmentions %}
         <li id="webmention-{{ webmention.id }}" class="webmentions__item">
+          <!-- {{ webmention | inspect }} -->
           <article class="h-cite webmention webmention--{{ webmention.type }}
             {% unless webmention.author %}webmention--no-author{% endunless %}
             {% unless webmention.author.photo %}webmention--no-photo{% endunless %}
@@ -26,19 +27,19 @@
                 <a class="deeplink" href="#webmention-{{ webmention.id }}"><svg><use xlink:href="#symbol-link" /></svg></a>
               </div>
             {% else %}
-              {% if webmention.url %}
+              {% if webmention.uri %}
                 <div class="webmention__source">
                   <a class="deeplink" href="#webmention-{{ webmention.id }}"><svg><use xlink:href="#symbol-link" /></svg></a>
-                  <a class="u-url" href="{{ webmention.url }}">
+                  <a class="u-url" href="{{ webmention.uri }}">
                     <img
                       class="webmention__source__screenshot u-photo"
                       src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E"
-                      data-src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_300,h_200/http://image.thum.io/get/width/1200/crop/800/noanimate/{{ webmention.url }}"
-                      data-srcset="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_300,h_200/http://image.thum.io/get/width/1200/crop/800/noanimate/{{ webmention.url }} 1x, https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_600,h_400/http://image.thum.io/get/width/1200/crop/800/noanimate/{{ webmention.url }} 2x"
+                      data-src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_300,h_200/http://image.thum.io/get/width/1200/crop/800/noanimate/{{ webmention.uri }}"
+                      data-srcset="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_300,h_200/http://image.thum.io/get/width/1200/crop/800/noanimate/{{ webmention.uri }} 1x, https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_600,h_400/http://image.thum.io/get/width/1200/crop/800/noanimate/{{ webmention.uri }} 2x"
                       width="300"
                       height="200"
                       alt="Page screenshot" />
-                    <b class="p-name">{{ webmention.url | truncate: 70 }}</b>
+                    <b class="p-name">{{ webmention.uri | truncate: 70 }}</b>
                   </a>
                 </div>
               {% endif %}
@@ -57,16 +58,16 @@
                 {{ webmention.title }}
               {% endif %}
             </div>
-            {% if webmention.url %}
+            {% if webmention.uri %}
               <div class="webmention__meta">
                 {% if webmention.pubdate %}
                   <time class="webmention__pubdate dt-published" datetime="{{ webmention.pubdate | date: '%FT%T%:z' }}">{{ webmention.pubdate | date: '%d %B %Y' }}</time>
                   |
                 {% endif %}
-                {% if webmention.url contains "https://twitter.com/" %}
+                {% if webmention.uri contains "https://twitter.com/" %}
                   <svg><use xlink:href="#symbol-twitter" /></svg>
                 {% endif %}
-                <a class="webmention__source u-url" href="{{ webmention.url }}">Source</a>
+                <a class="webmention__source u-url" href="{{ webmention.uri }}">Source</a>
               </div>
             {% endif %}
           </article>
