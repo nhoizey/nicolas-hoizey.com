@@ -1,5 +1,5 @@
 ---
-title:      "Noos y voilà ..."
+title:      "Noos y voilà…"
 lang:       fr
 tags:       [fail, marketing]
 ---

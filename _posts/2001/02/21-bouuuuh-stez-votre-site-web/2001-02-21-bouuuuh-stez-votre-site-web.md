@@ -1,7 +1,7 @@
---- 
-title:      "Bouuuuh-stez votre site web !!!" 
-lang:       fr 
-tags:       [fail, webperf]
+---
+title:      "Bouuuuh-stez votre site web !!!"
+lang:       fr
+tags:       [fail, WebPerf]
 ---
 
 

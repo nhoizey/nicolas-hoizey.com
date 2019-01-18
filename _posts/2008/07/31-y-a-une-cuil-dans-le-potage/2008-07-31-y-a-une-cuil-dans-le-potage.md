@@ -1,7 +1,7 @@
 ---
 title:      Y a une cuil dans le potage
 lang:       fr
-tags:       [fail, Google, recherche]
+tags:       [fail, Google, search]
 ---
 
 Vous avez sans doute entendu parler [ici](http://fr.techcrunch.com/2008/07/28/lancement-officiel-de-cuil-avec-120-milliards-de-pages-indexees-google-a-t-il-de-quoi-trembler/) ou [là](http://www.accessoweb.com/Cuil-le-moteur-de-recherche-qui-veut-concurrencer-Google_a3817.html) du lancement du nouveau moteur de recherche Web de la mort qui tue, censé devenir calife à la place du calife -- ce dernier étant actuellement Google, pour ceux qui ne suivent pas -- j'ai nommé [Cuil](http://www.cuil.com/). Et bien c'est un échec, complet, un [ratage total](http://fr.techcrunch.com/2008/07/30/cuil-pas-encore-sicool-que-cela-ou-comment-rater-son-lancement/).
