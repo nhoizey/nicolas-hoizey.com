@@ -22,7 +22,6 @@
   p {
     margin: 0;
     line-height: 2;
-    color: #fff;
 
     &:last-child {
       text-align: right;
@@ -40,7 +39,6 @@
     &:focus {
       color: $color-primary-lighter-3;
       text-decoration: underline solid $color-primary-lighter-2;
-      mix-blend-mode: normal;
     }
 
     &:active {
