@@ -72,7 +72,6 @@ https://nicolas-hoizey.com/2001/02/le-journal-du-net-presente-phpmychat.html:
   http://www.gasteroprod.com/: false
   http://www.free.fr/: false
   http://solutions.journaldunet.com/contact/redaction.shtml: false
-  http://solutions.journaldunet.com/0102/010221phpmychat.shtml>: false
   http://solutions.journaldunet.com/0102/010221phpmychat.shtml: false
 https://nicolas-hoizey.com/2001/02/inspirations.html:
   http://www.zewoc.com/: false
@@ -184,9 +183,8 @@ https://nicolas-hoizey.com/2001/07/l-impact-des-nouveaux-formats-de-pub.html:
   http://www.msn.com/: false
   http://www.iab.net/news/content/brand_research.html: false
 https://nicolas-hoizey.com/2001/07/le-maillon-faible-n-est-pas-celui-qu-on-croit.html:
-  http://www.tf1.fr/>: false
-  http://lemaillonfaible.tf1.fr/: false
   http://www.tf1.fr/: false
+  http://lemaillonfaible.tf1.fr/: false
 https://nicolas-hoizey.com/2001/08/google-image-search.html:
   http://images.google.com/images?q=gasteropode: false
 https://nicolas-hoizey.com/2001/08/recommendations-de-l-iab.html:
@@ -282,7 +280,7 @@ https://nicolas-hoizey.com/2001/09/la-guitaristic-house-organisation-is-back.htm
 https://nicolas-hoizey.com/2001/09/bush-nobel-de-la-paix.html:
   http://www.lemonde.fr/article/0,5987,3266--226215-,00.html: false
 https://nicolas-hoizey.com/2001/10/guide-du-debutant-pour-pear-db.html:
-  http://vulcanonet.com/soft/?pack=pear_tut>: false
+  http://vulcanonet.com/soft/?pack=pear_tut: false
   http://cvs.php.net/: false
   "//$user:$pass@$host/$db_name": false
   "//username:password@protocol+hostspec/database": false
@@ -306,7 +304,9 @@ https://nicolas-hoizey.com/2001/10/guide-du-debutant-pour-pear-db.html:
   "//postgres@localhost/my_database'": false
   "//postgres@localhost/site_db'": false
   http://www.php.net/manual/en/pear.reference.php: false
-  http://vulcanonet.com/soft/?pack=pear_tut: false
+https://nicolas-hoizey.com/2001/10/noos-y-voila.html:
+  http://www.grenouille.com/: false
+  http://www.luccas.org/: false
 https://nicolas-hoizey.com/2001/11/citation-anonyme.html: {}
 https://nicolas-hoizey.com/2001/11/citation-d-alain-resnais.html: {}
 https://nicolas-hoizey.com/2001/11/citation-d-alan-j-perlis.html: {}
@@ -372,9 +372,8 @@ https://nicolas-hoizey.com/2002/05/la-sobriete-n-empeche-pas-d-etre-ludique.html
   http://www.news24.com/News24/Technology/Infotech/0,1113,2-13-45_1152390,00.html: false
   http://www.google.com/holidaylogos.html: false
 https://nicolas-hoizey.com/2002/05/renault-des-sites-dur-a-vivre.html:
-  http://www.renault.fr/>: false
-  http://www.interleaf.com/: false
   http://www.renault.fr/: false
+  http://www.interleaf.com/: false
 https://nicolas-hoizey.com/2002/10/celio-aime-bien-les-vacances.html:
   http://www.celio.com/: false
 https://nicolas-hoizey.com/2002/10/yahoo-fait-du-zele.html: {}
@@ -408,9 +407,8 @@ https://nicolas-hoizey.com/2003/04/une-arborescence-dynamique-et-contextuelle.ht
   http://www.spip-contrib.net/article103.html: false
   http://www.clever-age.com/: false
   http://particuliers.edf.fr/: false
-  http://particuliers.edf.fr/rubrique25.html>: false
-  http://www.spip-contrib.net/article90.html: false
   http://particuliers.edf.fr/rubrique25.html: false
+  http://www.spip-contrib.net/article90.html: false
 https://nicolas-hoizey.com/2003/06/citation-de-ciceron.html: {}
 https://nicolas-hoizey.com/2003/07/le-cinema-en-plein-air-a-la-villette-c-est-finalement-pas-reparti.html:
   http://www.la-villette.com/vp/html/mainqvd.asp?URL=../../../manif/html/389.htm&MID=-qm-1: false
@@ -425,9 +423,8 @@ https://nicolas-hoizey.com/2003/10/gastero-prod-3-le-retour-de-la-vengeance.html
   http://www.01net.com/article/187342.html: false
   http://www.loi1901.com/intranet/a_news/result_news.php?Id=300: false
   http://revelp.free.fr/old/textes/texte1.html: false
-  http://www.google.com/search?q=%22qu%27est-ce+qu%27un+blog%22&sourceid=mozilla-search&start=0&start=0&ie=utf-8&oe=utf-8: false
-  http://www.spip.net/fr_article1971.html: false
   http://www.google.com/search?q=: false
+  http://www.spip.net/fr_article1971.html: false
 https://nicolas-hoizey.com/2003/10/citation-de-linus-torvald.html:
   http://standblog.com/blog/2003/09/28/93113063-CitationDuJourLinusTorvalds: false
 https://nicolas-hoizey.com/2003/10/ze-article-definitif.html:
@@ -438,14 +435,12 @@ https://nicolas-hoizey.com/2003/10/ze-article-definitif.html:
   http://www.langue-fr.net/faq/fllf.htm: false
 https://nicolas-hoizey.com/2003/10/la-verite-sort-de-la-bouche-des.html:
   http://www.houra.fr/: false
-  http://www.houra.fr/>: false
 https://nicolas-hoizey.com/2003/10/citation-de-jacques-brel.html: {}
 https://nicolas-hoizey.com/2003/10/hero.html: {}
 https://nicolas-hoizey.com/2003/11/citation-d-alphonse-allais.html: {}
 https://nicolas-hoizey.com/2003/12/what-is-the-meatrix.html:
   http://whatisthematrix.warnerbros.com/: false
   http://www.bancruelfarms.org/: false
-  http://www.themeatrix.com/>.: false
   http://www.themeatrix.com/: false
 https://nicolas-hoizey.com/2003/12/le-meme-agenda-que-gastero-prod-avec-spip.html:
   http://www.uzine.net/spip_contrib/article.php3?id_article=113: false
@@ -548,8 +543,7 @@ https://nicolas-hoizey.com/2004/06/les-standards-pour-aller-de-l-avant.html:
   http://www.cybercodeur.net/w3qc/docs/maccaws/glossaire.php: false
 https://nicolas-hoizey.com/2004/06/citation-de-jeremy-s-anderson.html:
   http://en.thinkexist.com/quotes/jeremy_s._anderson/: false
-https://nicolas-hoizey.com/2004/06/citation-de-robert-x-cringely.html:
-  http://www.pbs.org/cringely/: false
+https://nicolas-hoizey.com/2004/06/if-the-automobile-had-followed-the-same-development-as-the-computer.html: {}
 https://nicolas-hoizey.com/2004/06/l-accessibilite-effet-de-mode-ou-reelle-comprehension.html:
   http://solutions.journaldunet.com/itws/040603_it_marie.shtml: false
   http://www.cosmosbay-vectis.com/: false
@@ -558,13 +552,10 @@ https://nicolas-hoizey.com/2004/06/l-accessibilite-effet-de-mode-ou-reelle-compr
   http://www.braillenet.org/: false
   http://spip-agora.clever-age.org/: false
   http://www.clever-age.com/: false
-  http://www.retraite.gouv.fr/>: false
-  http://www.europe.gouv.fr/>: false
-  http://www.forums.gouv.fr/>: false
-  http://www.anpe.fr/: false
   http://www.retraite.gouv.fr/: false
   http://www.europe.gouv.fr/: false
   http://www.forums.gouv.fr/: false
+  http://www.anpe.fr/: false
 https://nicolas-hoizey.com/2004/06/la-galerie-spip-pour-reutiliser-facilement-les-images-et-documents.html: {}
 https://nicolas-hoizey.com/2004/06/un-site-valide-et-accessible-avec-spip-c-est-de-plus-en-plus-possible.html:
   http://www.clever-age.org/php/spip-agora/: false
@@ -587,10 +578,9 @@ https://nicolas-hoizey.com/2004/08/gastero-prod-ecarte-de-la-blog-story.html:
   http://embruns.net/: false
   http://embruns.net/blogosphere/001306.html: false
   http://www.free.fr/: false
-  http://gasteroprod.free.fr/>,: false
+  http://gasteroprod.free.fr/: false
   http://archive.org/: false
   http://embruns.net/carnet/blogosphere/petite-histoire-blogosphere.html: false
-  http://gasteroprod.free.fr/: false
 https://nicolas-hoizey.com/2004/08/les-transferts-de-gros-fichiers-simplifies.html:
   http://outilsfroids.joueb.com/: false
   http://www.dropload.com/: false
@@ -599,8 +589,6 @@ https://nicolas-hoizey.com/2004/08/elle-et-lui-des-talents-de-la-chanson-francai
   http://www.lo-w.net/: false
   http://www.cedrichoizey.com/: false
   http://artistes.autoproduction.net/lo_et_cedric_hoizey: false
-  http://www.lo-w.net/>: false
-  http://www.cedrichoizey.com/>: false
 https://nicolas-hoizey.com/2004/08/une-bonne-synthese-pour-le-developpement-avec-les-standards-du-web.html:
   http://www.fastclemmy.com/: false
   http://www.456bereastreet.com/lab/developing_with_web_standards/: false
@@ -628,7 +616,6 @@ https://nicolas-hoizey.com/2004/11/mozilla-firefox-1-0-enfin-dans-toutes-les-bon
   http://www.mozilla-europe.org/fr/products/firefox/: false
   http://www.gasteroprod.com/: false
   http://frenchmozilla.org/firefox/pourquoi/: false
-  "//ftp.eu.mozilla.org/pub/mozilla.org/firefox/releases/1.0/win32/fr-FR/Firefox%20Setup%201.0.exe": false
   "//ftp.eu.mozilla.org/pub/mozilla.org/firefox/releases/1.0/win32/fr-FR/Firefox": false
 https://nicolas-hoizey.com/2004/11/citroen-c4-alive-with-technology.html:
   "//www.dailymotion.com/embed/video/x9k93": false
@@ -642,8 +629,6 @@ https://nicolas-hoizey.com/2004/12/spipbackup-pour-des-sauvegardes-faciles-et-co
   http://pear.php.net/package/Archive_Tar: false
   http://pear.php.net/package/HTML_Progress: false
 https://nicolas-hoizey.com/2004/12/noel-2004-aux-pays-bas.html:
-  http://flickr.com/: false
-  http://www.flickr.com/photos/nicolas-hoizey/sets/68177/: false
   https://flickr.com/: false
   https://www.flickr.com/photos/nicolas-hoizey/sets/68177/: false
 https://nicolas-hoizey.com/2005/01/pompez.html:
@@ -663,10 +648,6 @@ https://nicolas-hoizey.com/2005/01/des-gravatars-avec-spip.html:
   http://www.gravatar.com/avatar.php?gravatar_id='.md5($email: false
   http://www.gasteroprod.com/design/article-forum.html: false
 https://nicolas-hoizey.com/2005/01/plus-de-flux-rss.html:
-  http://www.gasteroprod.com/rss/themes/spip/29.rss>: false
-  http://www.gasteroprod.com/design/backend_theme.html>: false
-  http://www.gasteroprod.com/rss/commentaires/pompez-428.rss>: false
-  http://www.gasteroprod.com/design/backend_commentaires.html>: false
   http://www.gasteroprod.com/rss/themes/spip/29.rss: false
   http://www.gasteroprod.com/design/backend_theme.html: false
   http://www.gasteroprod.com/rss/commentaires/pompez-428.rss: false
@@ -679,14 +660,11 @@ https://nicolas-hoizey.com/2005/01/blogaid.html:
   http://www.msf.fr/site/actu.nsf/actus/donstsunami040105: false
   http://www.croix-rouge.fr/: false
 https://nicolas-hoizey.com/2005/01/plongee-en-egypte.html:
-  http://flickr.com/: false
-  http://flickr.com/photos/nicolas-hoizey/sets/76514/: false
   https://flickr.com/: false
   https://flickr.com/photos/nicolas-hoizey/sets/76514/: false
 https://nicolas-hoizey.com/2005/01/picasa-2-est-arrive.html:
   http://www.picasa.com/: false
   http://www.google.com/googleblog/2005/01/smile-and-say-cheese.html: false
-  http://flickr.com/: false
   https://flickr.com/: false
 https://nicolas-hoizey.com/2005/01/2005-la-fin-des-blogs.html:
   http://www.pierrecarion.com/: false
@@ -699,8 +677,6 @@ https://nicolas-hoizey.com/2005/01/ego-trip.html:
 https://nicolas-hoizey.com/2005/01/nostalgie.html:
   http://groups.google.com/: false
   http://groups-beta.google.com/group/comp.lang.javascript/browse_thread/thread/b8f71a00dcba8c29?tvc=2&q=hoizey: false
-  ? http://groups-beta.google.com/group/fr.rec.cinema.discussion/browse_thread/thread/a69946e3d6aae816/18028491a8454983?q=hoizey+woo&_done=%2Fgroups%3Fq%3Dhoizey+woo%26Submit3%3DSearch+Groups%26&_doneTitle=Back+to+Search&&d
-  : false
   ? http://groups-beta.google.com/group/fr.rec.cinema.discussion/browse_thread/thread/a69946e3d6aae816/18028491a8454983?q=hoizey+woo&_done=
   : false
 https://nicolas-hoizey.com/2005/02/dark-side-of-xul.html:
@@ -712,12 +688,9 @@ https://nicolas-hoizey.com/2005/02/dark-side-of-xul.html:
   http://www.clever-age.com/veille/clever-link/xul-partie-visible-du-framework-mozilla-xpfe_323.html: false
 https://nicolas-hoizey.com/2005/02/citation-de-mel-brooks.html: {}
 https://nicolas-hoizey.com/2005/02/flickrgraph-une-nouvelle-exploitation-fantastique-de-l-api-de-flickr.html:
-  http://www.flickr.com/: false
-  http://www.flickr.com/services/api/: false
-  http://www.marumushi.com/apps/flickrgraph/: false
-  http://www.marumushi.com/apps/flickrgraph/flickrgraph.cfm?q=nicolas%40hoizey.com: false
   https://www.flickr.com/: false
   https://www.flickr.com/services/api/: false
+  http://www.marumushi.com/apps/flickrgraph/: false
   http://www.marumushi.com/apps/flickrgraph/flickrgraph.cfm?q=nicolas: false
 https://nicolas-hoizey.com/2005/02/citation-de-patrick-le-lay-pdg-de-tf1.html: {}
 https://nicolas-hoizey.com/2005/02/tiscali-auto-explose-ses-quotas-de-mail.html:
@@ -769,9 +742,8 @@ https://nicolas-hoizey.com/2005/03/happy-st-patrick-s-day.html:
   http://www.jacqueline-oud.com/2004/03/15/saint-patrick-s-day-origins-behind-irish-holiday-a58.html: false
 https://nicolas-hoizey.com/2005/03/flickr-dans-l-escarcelle-de-yahoo.html:
   http://blog.flickr.com/flickrblog/2005/03/yahoo_actually_.html: false
-  http://www.flickr.com/groups/topic/20864/: false
-  http://www.ludicorp.com/: false
   https://www.flickr.com/groups/topic/20864/: false
+  http://www.ludicorp.com/: false
 https://nicolas-hoizey.com/2005/04/un-probleme-d-ergonomie-chez-les-petits-swiss.html:
   http://www.swiss.com/: false
   http://en.wikipedia.org/wiki/ISO_639: false
@@ -782,11 +754,11 @@ https://nicolas-hoizey.com/2005/06/citation-de-sterling-hughes.html:
   http://www.edwardbear.org/serendipity/archives/1178_NET_vs_PHP_again_and_again.html: false
 https://nicolas-hoizey.com/2005/06/flickrate-pour-ameliorer-les-favoris-de-flickr.html:
   http://flickrate.gasteroprod.com/: false
-  http://flickr.com/: false
-  http://www.flickr.com/photos/nicolas-hoizey/favorites/: false
+  https://flickr.com/: false
+  https://www.flickr.com/photos/nicolas-hoizey/favorites/: false
   http://flickrate.gasteroprod.com/browse.php?nb=32&who=all&when=all&criteria=aesthetics: false
   http://flickrate.gasteroprod.com/register.php: false
-  http://flickr.com/services/api/auth.spec.html: false
+  https://flickr.com/services/api/auth.spec.html: false
   http://flickrate.gasteroprod.com/tools.php: false
   http://greasemonkey.mozdev.org/: false
   http://blogmarks.net/tag/greasemonkey: false
@@ -794,116 +766,68 @@ https://nicolas-hoizey.com/2005/06/flickrate-pour-ameliorer-les-favoris-de-flick
   http://www.letitblog.com/greasemonkey-compiler/: false
   http://flickrate.gasteroprod.com/browse.php?nb=32&who=you&when=all&criteria=aesthetics: false
   http://flickrate.gasteroprod.com/browse.php?nb=32&who=others&when=all&criteria=aesthetics: false
-  http://www.flickr.com/groups/flickrate/: false
-  http://www.flickr.com/photos/84796723@N00/1558605/: false
-  http://photos2.flickr.com/1558605_af64edfa42_s.jpg: false
-  http://www.flickr.com/photos/47689490@N00/11757131/: false
-  http://photos6.flickr.com/11757131_c7e7c32baf_s.jpg: false
-  http://www.flickr.com/photos/64235932@N00/13512288/: false
-  http://photos10.flickr.com/13512288_f9a2dd2e78_s.jpg: false
-  http://www.flickr.com/photos/38608514@N00/13466833/: false
-  http://photos11.flickr.com/13466833_cf31714fa7_s.jpg: false
-  http://www.flickr.com/photos/59171457@N00/13251523/: false
-  http://photos11.flickr.com/13251523_75cfb52b06_s.jpg: false
-  http://www.flickr.com/photos/43671131372@N01/4271300/: false
-  http://photos4.flickr.com/4271300_9fc9235f4e_s.jpg: false
-  http://www.flickr.com/photos/49503111054@N01/9887123/: false
-  http://photos5.flickr.com/9887123_8005cb4929_s.jpg: false
-  http://www.flickr.com/photos/11823401@N00/11668682/: false
-  http://photos10.flickr.com/11668682_f9af877357_s.jpg: false
-  http://www.flickr.com/photos/15297893@N00/5762084/: false
-  http://photos6.flickr.com/5762084_496b9624bf_s.jpg: false
-  http://www.flickr.com/photos/80866212@N00/9185047/: false
-  http://photos4.flickr.com/9185047_be635d551a_s.jpg: false
-  http://www.flickr.com/photos/66812927@N00/8109304/: false
-  http://photos6.flickr.com/8109304_d03036bac0_s.jpg: false
-  http://www.flickr.com/photos/35277602@N00/1290277/: false
-  http://photos2.flickr.com/1290277_172122f428_s.jpg: false
-  http://www.flickr.com/photos/15264742@N00/4594639/: false
-  http://photos3.flickr.com/4594639_7d92a87b69_s.jpg: false
-  http://www.flickr.com/photos/89826592@N00/14295396/: false
-  http://photos14.flickr.com/14295396_b1982fbf29_s.jpg: false
-  http://www.flickr.com/photos/38608514@N00/3057330/: false
-  http://photos1.flickr.com/3057330_e284624052_s.jpg: false
-  http://www.flickr.com/photos/74813207@N00/20717912/: false
-  http://photos16.flickr.com/20717912_0eda5882a1_s.jpg: false
-  http://www.flickr.com/photos/43671131372@N01/19602128/: false
-  http://photos14.flickr.com/19602128_ce8843acbd_s.jpg: false
-  http://www.flickr.com/photos/43671131372@N01/20275216/: false
-  http://photos17.flickr.com/20275216_e9a6dc096c_s.jpg: false
-  http://www.flickr.com/photos/92362770@N00/20233031/: false
-  http://photos17.flickr.com/20233031_41fa2f9a79_s.jpg: false
-  http://www.flickr.com/photos/92362770@N00/20039694/: false
-  http://photos15.flickr.com/20039694_81b5500cb5_s.jpg: false
-  https://flickr.com/: false
-  https://www.flickr.com/photos/nicolas-hoizey/favorites/: false
-  https://flickr.com/services/api/auth.spec.html: false
   https://www.flickr.com/groups/flickrate/: false
   https://www.flickr.com/photos/84796723@N00/1558605/: false
+  http://photos2.flickr.com/1558605_af64edfa42_s.jpg: false
   https://www.flickr.com/photos/47689490@N00/11757131/: false
+  http://photos6.flickr.com/11757131_c7e7c32baf_s.jpg: false
   https://www.flickr.com/photos/64235932@N00/13512288/: false
-  https://www.flickr.com/photos/38608514@N00/13466833/: false
-  https://www.flickr.com/photos/59171457@N00/13251523/: false
-  https://www.flickr.com/photos/43671131372@N01/4271300/: false
-  https://www.flickr.com/photos/49503111054@N01/9887123/: false
-  https://www.flickr.com/photos/11823401@N00/11668682/: false
-  https://www.flickr.com/photos/15297893@N00/5762084/: false
-  https://www.flickr.com/photos/80866212@N00/9185047/: false
-  https://www.flickr.com/photos/66812927@N00/8109304/: false
-  https://www.flickr.com/photos/35277602@N00/1290277/: false
-  https://www.flickr.com/photos/15264742@N00/4594639/: false
-  https://www.flickr.com/photos/89826592@N00/14295396/: false
-  https://www.flickr.com/photos/38608514@N00/3057330/: false
-  https://www.flickr.com/photos/74813207@N00/20717912/: false
-  https://www.flickr.com/photos/43671131372@N01/19602128/: false
-  https://www.flickr.com/photos/43671131372@N01/20275216/: false
-  https://www.flickr.com/photos/92362770@N00/20233031/: false
-  https://www.flickr.com/photos/92362770@N00/20039694/: false
   https://photos10.flickr.com/13512288_f9a2dd2e78_s.jpg: false
+  https://www.flickr.com/photos/38608514@N00/13466833/: false
   https://photos11.flickr.com/13466833_cf31714fa7_s.jpg: false
+  https://www.flickr.com/photos/59171457@N00/13251523/: false
   https://photos11.flickr.com/13251523_75cfb52b06_s.jpg: false
+  https://www.flickr.com/photos/43671131372@N01/4271300/: false
+  http://photos4.flickr.com/4271300_9fc9235f4e_s.jpg: false
+  https://www.flickr.com/photos/49503111054@N01/9887123/: false
+  http://photos5.flickr.com/9887123_8005cb4929_s.jpg: false
+  https://www.flickr.com/photos/11823401@N00/11668682/: false
   https://photos10.flickr.com/11668682_f9af877357_s.jpg: false
+  https://www.flickr.com/photos/15297893@N00/5762084/: false
+  http://photos6.flickr.com/5762084_496b9624bf_s.jpg: false
+  https://www.flickr.com/photos/80866212@N00/9185047/: false
+  http://photos4.flickr.com/9185047_be635d551a_s.jpg: false
+  https://www.flickr.com/photos/66812927@N00/8109304/: false
+  http://photos6.flickr.com/8109304_d03036bac0_s.jpg: false
+  https://www.flickr.com/photos/35277602@N00/1290277/: false
+  http://photos2.flickr.com/1290277_172122f428_s.jpg: false
+  https://www.flickr.com/photos/15264742@N00/4594639/: false
+  http://photos3.flickr.com/4594639_7d92a87b69_s.jpg: false
+  https://www.flickr.com/photos/89826592@N00/14295396/: false
   https://photos14.flickr.com/14295396_b1982fbf29_s.jpg: false
+  https://www.flickr.com/photos/38608514@N00/3057330/: false
   https://photos1.flickr.com/3057330_e284624052_s.jpg: false
+  https://www.flickr.com/photos/74813207@N00/20717912/: false
   https://photos16.flickr.com/20717912_0eda5882a1_s.jpg: false
+  https://www.flickr.com/photos/43671131372@N01/19602128/: false
   https://photos14.flickr.com/19602128_ce8843acbd_s.jpg: false
+  https://www.flickr.com/photos/43671131372@N01/20275216/: false
   https://photos17.flickr.com/20275216_e9a6dc096c_s.jpg: false
+  https://www.flickr.com/photos/92362770@N00/20233031/: false
   https://photos17.flickr.com/20233031_41fa2f9a79_s.jpg: false
+  https://www.flickr.com/photos/92362770@N00/20039694/: false
   https://photos15.flickr.com/20039694_81b5500cb5_s.jpg: false
 https://nicolas-hoizey.com/2005/06/attrapez-le-soleil.html:
-  http://www.flickr.com/photos/rebba/19583092/: false
-  http://photos16.flickr.com/19583092_d0e0076101_m.jpg: false
-  http://www.flickr.com/photos/erikland/14611352/in/pool-favourites/: false
-  http://photos13.flickr.com/14611352_b4177f8318_m.jpg: false
-  http://www.flickr.com/photos/hamedical/19939048/: false
-  http://photos13.flickr.com/19939048_095ce35915_m.jpg: false
-  http://www.flickr.com/photos/hamedical/7336364/in/set-119800/: false
-  http://photos6.flickr.com/7336364_ee6bced044_m.jpg: false
-  http://www.flickr.com/photos/81541643@N00/2067621/: false
-  http://photos2.flickr.com/2067621_69feb61d0a_m.jpg: false
-  http://www.flickr.com/photos/49753917@N00/19160328/: false
-  http://photos15.flickr.com/19160328_3c65336698_m.jpg: false
-  http://www.flickr.com/groups/catching_sun/: false
   https://www.flickr.com/photos/rebba/19583092/: false
-  https://www.flickr.com/photos/erikland/14611352/in/pool-favourites/: false
-  https://www.flickr.com/photos/hamedical/19939048/: false
-  https://www.flickr.com/photos/hamedical/7336364/in/set-119800/: false
-  https://www.flickr.com/photos/81541643@N00/2067621/: false
-  https://www.flickr.com/photos/49753917@N00/19160328/: false
-  https://www.flickr.com/groups/catching_sun/: false
   https://photos16.flickr.com/19583092_d0e0076101_m.jpg: false
+  https://www.flickr.com/photos/erikland/14611352/in/pool-favourites/: false
   https://photos13.flickr.com/14611352_b4177f8318_m.jpg: false
+  https://www.flickr.com/photos/hamedical/19939048/: false
   https://photos13.flickr.com/19939048_095ce35915_m.jpg: false
+  https://www.flickr.com/photos/hamedical/7336364/in/set-119800/: false
+  http://photos6.flickr.com/7336364_ee6bced044_m.jpg: false
+  https://www.flickr.com/photos/81541643@N00/2067621/: false
+  http://photos2.flickr.com/2067621_69feb61d0a_m.jpg: false
+  https://www.flickr.com/photos/49753917@N00/19160328/: false
   https://photos15.flickr.com/19160328_3c65336698_m.jpg: false
+  https://www.flickr.com/groups/catching_sun/: false
 https://nicolas-hoizey.com/2005/06/google-maps-s-emmele-les-pedales.html:
   http://maps.google.com/: false
   http://www.geobloggers.com/: false
-  http://www.flickr.com/groups/topic/47132/: false
-  http://www.flickr.com/photos/nicolas-hoizey/: false
-  http://www.geobloggers.com/index.cfm?lat=40&lon=10&username=Nicolas+Hoizey&range=180&t=k: false
-  http://www.geobloggers.com/index.cfm?lat=40&lon=-85&username=Nicolas+Hoizey&range=180&t=k: false
   https://www.flickr.com/groups/topic/47132/: false
   https://www.flickr.com/photos/nicolas-hoizey/: false
+  http://www.geobloggers.com/index.cfm?lat=40&lon=10&username=Nicolas+Hoizey&range=180&t=k: false
+  http://www.geobloggers.com/index.cfm?lat=40&lon=-85&username=Nicolas+Hoizey&range=180&t=k: false
 https://nicolas-hoizey.com/2005/07/microsoft-se-re-lance-a-fond-dans-les-standards-du-web.html:
   http://www.microsoft.com/: false
   http://openweb.eu.org/: false
@@ -923,7 +847,7 @@ https://nicolas-hoizey.com/2005/08/gastero-prod-maintenant-sur-spip-1-8-2-pr2-en
   http://zone.spip.org/trac/spip-zone/browser/_contribs_/_email_/spip-listes/: false
   http://www.spip-contrib.net/Realiser-un-agenda-avec-SPIP: false
   http://www.spip-contrib.net/spikini/FiltreAgendaMemo: false
-  http://www.flickr.com/photos/nicolas-hoizey/: false
+  https://www.flickr.com/photos/nicolas-hoizey/: false
   http://flickrate.gasteroprod.com/: false
   http://ouvaton.coop/: false
   http://perline.org/: false
@@ -931,37 +855,32 @@ https://nicolas-hoizey.com/2005/08/gastero-prod-maintenant-sur-spip-1-8-2-pr2-en
   http://www.eyrolles.com/: false
   http://www.eyrolles.com/Informatique/Livre/9782212114287/livre-spip-1-8.php: false
   http://www.eyrolles.com/Informatique/Collection/1291/les-cahiers-du-programmeur.php: false
-  https://www.flickr.com/photos/nicolas-hoizey/: false
 https://nicolas-hoizey.com/2005/08/gastero-prod-cite-dans-ze-woc.html:
   http://www.zewoc.com/: false
   http://www.zewoc.com/wordpress/?p=1088: false
   http://www.technorati.com/search/http://www.gasteroprod.com: false
   http://www.zewoc.com/wordpress/?page_id=12: false
 https://nicolas-hoizey.com/2005/09/23-un-remplacant-potentiel-de-flickr.html:
-  http://flickr.com/: false
+  https://flickr.com/: false
   http://blog.flickr.com/flickrblog/2005/08/flickr_and_yaho.html: false
   http://www.wired.com/news/ebiz/0,1272,68654,00.html?tw=rss.TOP: false
-  http://www.flickr.com/groups/flick_off/: false
+  https://www.flickr.com/groups/flick_off/: false
   http://www.23hq.com/: false
   http://www.23hq.com/nhoizey: false
   http://www.google.com/: false
   http://picasa.google.com/: false
   http://blog.flickr.com/flickrblog/2005/03/yahoo_actually_.html: false
-  https://flickr.com/: false
-  https://www.flickr.com/groups/flick_off/: false
 https://nicolas-hoizey.com/2005/09/microsoft-courtise-eric-s-raymond-et-se-prend-un-rateau.html:
   http://www.catb.org/~esr/: false
   http://www.clever-age.com/actualites/petits-dejeuners/jusqu-aller-avec-logiciel-libre-retours-experiences-perspectives-416.html: false
   http://esr.ibiblio.org/index.php?p=208: false
   http://www.mitternachts-lied.net/blog/index.php/2005/09/09/206-eric-s-raymond-met-un-rateau-a-microsoft: false
 https://nicolas-hoizey.com/2005/09/faut-il-utiliser-des-tags-composes-de-plusieurs-mots.html:
-  http://www.flickr.com/photos/nicolas-hoizey/tags/: false
+  https://www.flickr.com/photos/nicolas-hoizey/tags/: false
   http://blogmarks.net/user/nhoizey: false
   http://www.gasteroprod.com/: false
   http://www.writely.com/: false
   http://www.blogmarks.net/: false
-  http://blogmarks.net/search/open%20source: false
-  https://www.flickr.com/photos/nicolas-hoizey/tags/: false
   http://blogmarks.net/search/open: false
 https://nicolas-hoizey.com/2005/09/la-fin-du-html-pour-les-applications-accessibles-via-le-web-n-est-pas-pour-tout-de-suite.html:
   http://ljouanneau.com/: false
@@ -979,7 +898,6 @@ https://nicolas-hoizey.com/2005/10/des-cousins-en-visite.html:
   http://www.netdisaster.com/go.php?mode=snail&url=http://www.gasteroprod.com/: false
 https://nicolas-hoizey.com/2005/10/gastero-prod-demenage.html:
   http://ouvaton.coop/: false
-  http://www.gasteroprod.com/>,: false
   http://www.gasteroprod.com/: false
 https://nicolas-hoizey.com/2005/11/trop-c-est-trop.html:
   http://solutions.journaldunet.com/: false
@@ -1011,51 +929,28 @@ https://nicolas-hoizey.com/2005/12/un-wiki-en-ligne-gratuit-en-10-secondes-avec-
   http://www.framasoft.net/article3441.html: false
   http://www.phpheaven.net/: false
 https://nicolas-hoizey.com/2005/12/groupe-flickr-a-remplir-halfway-between-air-and-water.html:
-  http://www.flickr.com/: false
-  http://www.flickr.com/groups/halfway_air_water/: false
-  http://www.flickr.com/photos/nicolas-hoizey/3057318/in/set-165968/: false
-  http://static.flickr.com/1/3057318_00e187c2fd.jpg: false
-  http://www.flickr.com/photos/tags/underwater/interesting/: false
-  http://www.flickr.com/photos/edfladung/33942211/in/pool-halfway_air_water/: false
-  http://static.flickr.com/22/33942211_65440f27ef_t.jpg: false
-  http://www.flickr.com/photos/gliderking/73011500/in/pool-halfway_air_water/: false
-  http://static.flickr.com/20/73011500_de52c572f3_t.jpg: false
-  http://www.flickr.com/photos/14684343@N00/66884193/in/pool-halfway_air_water/: false
-  http://static.flickr.com/26/66884193_7e8e37ccf2_t.jpg: false
-  http://www.flickr.com/photos/23139253@N00/31273805/in/pool-halfway_air_water/: false
-  http://static.flickr.com/21/31273805_284b421896_t.jpg: false
-  http://www.flickr.com/photos/kelsana/42243619/in/pool-halfway_air_water/: false
-  http://static.flickr.com/28/42243619_a6952b17f5_t.jpg: false
-  http://www.flickr.com/photos/collingrady/3373184/in/pool-halfway_air_water/: false
-  http://static.flickr.com/3/3373184_f01bf60689_t.jpg: false
-  http://www.flickr.com/photos/jjay/35959562/in/pool-halfway_air_water/: false
-  http://static.flickr.com/26/35959562_1634ba8528_t.jpg: false
-  http://www.flickr.com/photos/gehrke/38604445/in/pool-halfway_air_water/: false
-  http://static.flickr.com/30/38604445_22c907d487_t.jpg: false
-  http://www.flickr.com/photos/gehrke/5377597/in/pool-halfway_air_water/: false
-  http://static.flickr.com/5/5377597_a88c1e97e2_t.jpg: false
   https://www.flickr.com/: false
   https://www.flickr.com/groups/halfway_air_water/: false
   https://www.flickr.com/photos/nicolas-hoizey/3057318/in/set-165968/: false
+  https://static.flickr.com/1/3057318_00e187c2fd.jpg: false
   https://www.flickr.com/photos/tags/underwater/interesting/: false
   https://www.flickr.com/photos/edfladung/33942211/in/pool-halfway_air_water/: false
-  https://www.flickr.com/photos/gliderking/73011500/in/pool-halfway_air_water/: false
-  https://www.flickr.com/photos/14684343@N00/66884193/in/pool-halfway_air_water/: false
-  https://www.flickr.com/photos/23139253@N00/31273805/in/pool-halfway_air_water/: false
-  https://www.flickr.com/photos/kelsana/42243619/in/pool-halfway_air_water/: false
-  https://www.flickr.com/photos/collingrady/3373184/in/pool-halfway_air_water/: false
-  https://www.flickr.com/photos/jjay/35959562/in/pool-halfway_air_water/: false
-  https://www.flickr.com/photos/gehrke/38604445/in/pool-halfway_air_water/: false
-  https://www.flickr.com/photos/gehrke/5377597/in/pool-halfway_air_water/: false
-  https://static.flickr.com/1/3057318_00e187c2fd.jpg: false
   https://static.flickr.com/22/33942211_65440f27ef_t.jpg: false
+  https://www.flickr.com/photos/gliderking/73011500/in/pool-halfway_air_water/: false
   https://static.flickr.com/20/73011500_de52c572f3_t.jpg: false
+  https://www.flickr.com/photos/14684343@N00/66884193/in/pool-halfway_air_water/: false
   https://static.flickr.com/26/66884193_7e8e37ccf2_t.jpg: false
+  https://www.flickr.com/photos/23139253@N00/31273805/in/pool-halfway_air_water/: false
   https://static.flickr.com/21/31273805_284b421896_t.jpg: false
+  https://www.flickr.com/photos/kelsana/42243619/in/pool-halfway_air_water/: false
   https://static.flickr.com/28/42243619_a6952b17f5_t.jpg: false
+  https://www.flickr.com/photos/collingrady/3373184/in/pool-halfway_air_water/: false
   https://static.flickr.com/3/3373184_f01bf60689_t.jpg: false
+  https://www.flickr.com/photos/jjay/35959562/in/pool-halfway_air_water/: false
   https://static.flickr.com/26/35959562_1634ba8528_t.jpg: false
+  https://www.flickr.com/photos/gehrke/38604445/in/pool-halfway_air_water/: false
   https://static.flickr.com/30/38604445_22c907d487_t.jpg: false
+  https://www.flickr.com/photos/gehrke/5377597/in/pool-halfway_air_water/: false
   https://static.flickr.com/5/5377597_a88c1e97e2_t.jpg: false
 https://nicolas-hoizey.com/2005/12/citation-de-pierre-desproges.html: {}
 https://nicolas-hoizey.com/2005/12/blogmarks-integre-a-google.html:
@@ -1080,29 +975,22 @@ https://nicolas-hoizey.com/2005/12/cette-annee-fetez-le-nouvel-an-a-00h00-00-mai
 https://nicolas-hoizey.com/2006/01/etes-vous-blonde.html:
   http://www.prendreuncafe.com/blog/2006/01/05/368-muhahahaha: false
 https://nicolas-hoizey.com/2006/01/retrievr-un-nouveau-moyen-de-s-amusr-a-trouvr-des-photos-sur-flickr.html:
-  http://www.flickr.com/: false
-  http://www.flickr.com/photos/tags/: false
-  http://www.flickr.com/photos/search/: false
-  http://www.flickr.com/explore/: false
-  http://flickrate.gasteroprod.com/: false
-  http://flickrate.gasteroprod.com/most_favored.php: false
-  http://www.flickr.com/groups/flickrate/discuss/63649/: false
-  http://www.langreiter.com/: false
-  http://labs.systemone.at/retrievr/about: false
-  http://www.techcrunch.com/2006/01/03/the-retrievr-flickr-tool/: false
   https://www.flickr.com/: false
   https://www.flickr.com/photos/tags/: false
   https://www.flickr.com/photos/search/: false
   https://www.flickr.com/explore/: false
+  http://flickrate.gasteroprod.com/: false
+  http://flickrate.gasteroprod.com/most_favored.php: false
   https://www.flickr.com/groups/flickrate/discuss/63649/: false
+  http://www.langreiter.com/: false
+  http://labs.systemone.at/retrievr/about: false
+  http://www.techcrunch.com/2006/01/03/the-retrievr-flickr-tool/: false
 https://nicolas-hoizey.com/2006/01/le-web-3-0-verra-t-il-la-fin-des-blogs.html:
   http://www.bitsandbuzz.com/2005/11/29/web-0x-to-web-20-simplified/: false
   http://blogmarks.net/tag/web2.0?order_by=popularity: false
   http://www.fredcavazza.net/index.php?2006/01/10/1017-les-facteurs-limitant-du-web-20: false
 https://nicolas-hoizey.com/2006/01/et-si-les-services-de-galeries-de-photos-en-ligne-payaient-leu.html:
   http://www.imagegravy.com/ref.php?ref=214: false
-  http://flickr.com/: false
-  http://www.imagegravy.com/gallery/viewGallery.php?gallery_id=225&account_id=214>: false
   https://flickr.com/: false
   http://www.imagegravy.com/gallery/viewGallery.php?gallery_id=225&account_id=214: false
 https://nicolas-hoizey.com/2006/01/css-on-reprend-tout-a-zero.html:
@@ -1150,23 +1038,20 @@ https://nicolas-hoizey.com/2006/01/konika-minolta-arrete-la-photographie.html:
   ? http://today.reuters.fr/news/newsArticle.aspx?type=technologyNews&storyID=2006-01-20T112219Z_01_MAL040916_RTRIDST_0_OFRIN-SONY-PHOTO-20060120.XML
   : false
   http://www.mir.com.my/rb/photography/hardwares/classics/minoltax700/: false
-  http://www.flickr.com/photos/nicolas-hoizey/76046485/in/set-165968/: false
+  https://www.flickr.com/photos/nicolas-hoizey/76046485/in/set-165968/: false
   http://www.nomatica.fr/photo/kd400zFR.htm: false
-  http://www.flickr.com/photos/nicolas-hoizey/2704862/in/set-685912/: false
+  https://www.flickr.com/photos/nicolas-hoizey/2704862/in/set-685912/: false
   http://www.nikon.co.uk/press_room/releases/show.aspx?rid=201: false
   http://www.kenrockwell.com/: false
   http://www.kenrockwell.com/minolta/700.htm: false
-  https://www.flickr.com/photos/nicolas-hoizey/76046485/in/set-165968/: false
-  https://www.flickr.com/photos/nicolas-hoizey/2704862/in/set-685912/: false
 https://nicolas-hoizey.com/2006/02/l-avenir-des-pop-up-mis-a-mal-par-la-langue-francaise.html:
-  http://fr.wikipedia.org/wiki/Commission_g%C3%A9n%C3%A9rale_de_terminologie_et_de_n%C3%A9ologie: false
+  http://fr.wikipedia.org/wiki/Commission_g: false
   http://www.journaldunet.com/breve/france/990/le-mot-pop-up-quot-doit-etre-traduit-par-quot-fenetre-intruse-quot.shtml: false
   http://www.dynarch.com/projects/calendar/: false
-  http://fr.wikipedia.org/wiki/Commission_g: false
 https://nicolas-hoizey.com/2006/02/le-monde-est-petit-ou-pas.html:
   http://www.nota-bene.org/Transports: false
-  http://fr.wikipedia.org/wiki/Ligne_13_du_m%C3%A9tro_de_Paris: false
-  http://fr.wikipedia.org/wiki/Ch%C3%A2tillon_-_Montrouge_(m%C3%A9tro_parisien: false
+  http://fr.wikipedia.org/wiki/Ligne_13_du_m: false
+  http://fr.wikipedia.org/wiki/Ch: false
   http://64.124.231.223/avatar.php?gravatar_id=9aa2aa68144b2781ac025a29c83bbdd4&size=42&rating=PG: false
   http://www.integration.fr/: false
   ? http://www.clever-age.com/actualites/agenda/forum-integration-criteres-choix-positionnement-principaux-outils-eai-esb-etl-eip-autres-solutions-integration-439.html
@@ -1176,11 +1061,8 @@ https://nicolas-hoizey.com/2006/02/le-monde-est-petit-ou-pas.html:
   http://www.pompage.net/liste/: false
   http://www.gasteroprod.com/des-gravatars-avec-spip.html: false
   http://www.clever-age.com/veille/clever-link/xul-partie-visible-du-framework-mozilla-xpfe-323.html: false
-  http://fr.wikipedia.org/wiki/Ligne_13_du_m: false
-  http://fr.wikipedia.org/wiki/Ch: false
 https://nicolas-hoizey.com/2006/03/comment-faire-un-tag-cloud-nuage-de-tags-ou-d-etiquettes-accessible.html:
   http://en.wikipedia.org/wiki/Tag_cloud: false
-  http://www.flickr.com/photos/tags/: false
   https://www.flickr.com/photos/tags/: false
 https://nicolas-hoizey.com/2006/03/halte-au-vol-de-bande-passante.html:
   http://www.fract.org/: false
@@ -1198,34 +1080,22 @@ https://nicolas-hoizey.com/2006/03/citation-de-rene-goscinny.html:
 https://nicolas-hoizey.com/2006/03/une-recette-infaillible-pour-attirer-les-adultes-dans-les-parcs-d-attraction.html:
   http://www.franceminiature.com/: false
   http://www.miniatur-wunderland.de/: false
-  http://www.flickr.com/groups/59319377@N00/: false
-  http://www.flickr.com/groups/top20faketiltshift/: false
-  http://recedinghairline.co.uk/tutorials/fakemodel/: false
-  http://www.flickr.com/photos/wvs/107108594/: false
-  http://www.flickr.com/photos/tags/miniaturwunderland/interesting/: false
-  http://www.flickr.com/photos/barttc/51132903/: false
-  http://www.flickr.com/photos/barttc/51133175/: false
-  http://www.freakydog.de/galerie/bild/166/: false
-  http://www.flickr.com/photos/effpunkt/88967949/: false
-  http://www.flickr.com/photos/gullideckel/48541516/: false
-  http://www.flickr.com/photos/gullideckel/48541518/: false
-  http://www.flickr.com/photos/gullideckel/48541517/: false
-  http://www.flickr.com/photos/barttc/51132448/: false
-  http://www.flickr.com/photos/oandreas/1145708/: false
-  http://www.fredcavazza.net/index.php?2006/03/29/1111-les-derives-du-marketing-viral: false
-  http://www.boingboing.net/2006/02/27/fake_tilt_shift_phot.html: false
   https://www.flickr.com/groups/59319377@N00/: false
   https://www.flickr.com/groups/top20faketiltshift/: false
+  http://recedinghairline.co.uk/tutorials/fakemodel/: false
   https://www.flickr.com/photos/wvs/107108594/: false
   https://www.flickr.com/photos/tags/miniaturwunderland/interesting/: false
   https://www.flickr.com/photos/barttc/51132903/: false
   https://www.flickr.com/photos/barttc/51133175/: false
+  http://www.freakydog.de/galerie/bild/166/: false
   https://www.flickr.com/photos/effpunkt/88967949/: false
   https://www.flickr.com/photos/gullideckel/48541516/: false
   https://www.flickr.com/photos/gullideckel/48541518/: false
   https://www.flickr.com/photos/gullideckel/48541517/: false
   https://www.flickr.com/photos/barttc/51132448/: false
   https://www.flickr.com/photos/oandreas/1145708/: false
+  http://www.fredcavazza.net/index.php?2006/03/29/1111-les-derives-du-marketing-viral: false
+  http://www.boingboing.net/2006/02/27/fake_tilt_shift_phot.html: false
 https://nicolas-hoizey.com/2006/03/tentative-d-ouverture-des-commentaires.html:
   http://www.zeubeubeu.net/blog/plugins-dotclear: false
 https://nicolas-hoizey.com/2006/04/citation-de-albert-einstein.html: {}
@@ -1234,14 +1104,13 @@ https://nicolas-hoizey.com/2006/04/partageons-nos-savoirs-faisons-revivre-phphea
   http://cotte.joueb.com/news/312.shtml: false
   http://www.clever-age.com/actualites/petits-dejeuners/paris-etat-art-outils-collaboratif-422.html: false
   http://fr.wikipedia.org/: false
-  http://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Citation_et_r%C3%A9utilisation_du_contenu_de_Wikip%C3%A9dia: false
+  http://fr.wikipedia.org/wiki/Wikip: false
   http://spip.net/: false
   http://www.wikimatrix.org/show/DokuWiki: false
   http://www.phpheaven.net/: false
   http://phpheaven.net/phpmychat:home: false
   http://wiki.ubuntu-fr.org/: false
   http://sf.net/: false
-  http://fr.wikipedia.org/wiki/Wikip: false
 https://nicolas-hoizey.com/2006/04/alexadex-gerez-un-portefeuille-d-actions-en-vous-amusant-et.html:
   http://www.alexa.com/: false
   http://www.amazon.com/: false
@@ -1257,16 +1126,6 @@ https://nicolas-hoizey.com/2006/04/des-services-web-rest-encore-plus-simples-qu-
   http://www.clever-age.com/veille/weblog/services-web-rest-encore-plus-simples-avec-xml-493.html: false
   http://developer.yahoo.com/common/phpserial.html: false
   http://www.clever-age.com/veille/weblog/yahoo-ouvre-via-une-api-web-services-350.html: false
-  http://flickr.com/services/feeds/photos_public.gne?id=38608514@N00&format=php_serial: false
-  http://flickr.com/services/feeds/photos_public.gne?id=38608514@N00&format=php: false
-  http://flickr.com/services/feeds/photos_public.gne?id=38608514@N00&format=yaml: false
-  http://flickr.com/services/feeds/photos_public.gne?id=38608514@N00&format=sql: false
-  http://flickr.com/services/feeds/photos_public.gne?id=38608514@N00&format=json: false
-  http://flickr.com/services/feeds/photos_public.gne?id=38608514@N00&format=rdf: false
-  http://www.flickr.com/services/: false
-  http://developer.yahoo.com/flickr/index.html: false
-  http://www.clever-age.com/veille/etudes-payantes/portails-gestion-contenu-etat-art-solutions-7.html: false
-  http://www.clever-age.com/veille/etudes-payantes/les-web-services-avenir-architectures-web-8.html: false
   https://flickr.com/services/feeds/photos_public.gne?id=38608514@N00&format=php_serial: false
   https://flickr.com/services/feeds/photos_public.gne?id=38608514@N00&format=php: false
   https://flickr.com/services/feeds/photos_public.gne?id=38608514@N00&format=yaml: false
@@ -1274,8 +1133,9 @@ https://nicolas-hoizey.com/2006/04/des-services-web-rest-encore-plus-simples-qu-
   https://flickr.com/services/feeds/photos_public.gne?id=38608514@N00&format=json: false
   https://flickr.com/services/feeds/photos_public.gne?id=38608514@N00&format=rdf: false
   https://www.flickr.com/services/: false
-https://nicolas-hoizey.com/2006/04/retrouvez-votre-souplesse-pour-etre-en-pleine-forme-cet-ete.html:
-  http://www.youtube.com/v/HSoVKUVOnfQ: false
+  http://developer.yahoo.com/flickr/index.html: false
+  http://www.clever-age.com/veille/etudes-payantes/portails-gestion-contenu-etat-art-solutions-7.html: false
+  http://www.clever-age.com/veille/etudes-payantes/les-web-services-avenir-architectures-web-8.html: false
 https://nicolas-hoizey.com/2006/04/webmaster-eyes-mesurez-le-pagerank-de-toutes-vos-pages-en-un-coup-d-oeil.html:
   http://fr.wikipedia.org/wiki/Pagerank: false
   http://www.webmastereyes.com/: false
@@ -1283,21 +1143,17 @@ https://nicolas-hoizey.com/2006/04/webmaster-eyes-mesurez-le-pagerank-de-toutes-
   http://www.2803.com/2006/04/13/le-pagerank-de-tous-les-liens-dune-page/: false
 https://nicolas-hoizey.com/2006/04/gastero-prod-est-maintenant-severement-feed-burne.html:
   http://www.feedburner.com/: false
-  http://feeds.feedburner.com/GasteroProd>: false
-  http://www.flickr.com/photos/nicolas-hoizey/: false
+  http://feeds.feedburner.com/GasteroProd: false
+  https://www.flickr.com/photos/nicolas-hoizey/: false
   http://www.prendreuncafe.com/blog/2006/04/24/442-amenagement-des-flux-de-syndication: false
   http://www.unelectronlibre.info/: false
   http://www.callmepep.org/blog/2006/04/24/291-utilisation-de-feedburner-pour-les-fils-de-syndication-principaux: false
-  https://www.flickr.com/photos/nicolas-hoizey/: false
-  http://feeds.feedburner.com/GasteroProd: false
 https://nicolas-hoizey.com/2006/05/flickr-passe-en-version-gamma-avec-une-nouvelle-interface.html:
   http://www.2803.com/2006/04/04/le-fameux-beta/: false
   http://blog.flickr.com/flickrblog/2006/05/alpha_beta_gamm.html: false
-  http://www.flickr.com/help/organizr/: false
-  http://www.flickr.com/groups/flickrhacks/discuss/72057594136733019/: false
-  http://www.userscript.com/scripts/show/4104: false
   https://www.flickr.com/help/organizr/: false
   https://www.flickr.com/groups/flickrhacks/discuss/72057594136733019/: false
+  http://www.userscript.com/scripts/show/4104: false
 https://nicolas-hoizey.com/2006/06/citation-de-nelson-mandela.html: {}
 https://nicolas-hoizey.com/2006/06/en-attendant-windows-vista-la-version-3-0-du-framework-net-donne-plus.html:
   ? http://www.clever-age.com/veille/weblog/attendant-windows-vista-version-3-dot-0-du-framework-dot-net-donne-plus-visibilite-winfx-512.html
@@ -1367,26 +1223,17 @@ https://nicolas-hoizey.com/2006/06/citation-d-un-auteur-malheureusement-inconnu.
 https://nicolas-hoizey.com/2006/07/la-fievre-du-photographe.html: {}
 https://nicolas-hoizey.com/2006/08/les-voies-de-l-interestingness-de-flickr-sont-impenetrables.html:
   http://flagrantdisregard.com/flickr/scout.php?mode=history&id=91810159: false
-  http://flickr.com/explore/interesting/2006/1/27/: false
-  http://www.flickr.com/photos/nicolas-hoizey/2704862/: false
   https://flickr.com/explore/interesting/2006/1/27/: false
   https://www.flickr.com/photos/nicolas-hoizey/2704862/: false
 https://nicolas-hoizey.com/2006/09/flickr-se-lance-dans-la-geolocalisation-des-photos.html:
-  http://www.flickr.com/: false
+  https://www.flickr.com/: false
   http://blog.flickr.com/flickrblog/2006/08/great_shot_wher.html: false
   http://maps.yahoo.com/: false
   http://www.zooomr.com/: false
-  ? http://www.flickr.com/map/?&user_id=38608514@N00&order_by=interestingness&fLat=36.232538&fLon=14.326171&zl=14&min_upload_date=946713600&min_taken_date=1970-01-01%2000:00:00&map_type=hyb
-  : false
-  http://flickr.com/map/: false
-  http://www.flickr.com/about/: false
-  https://www.flickr.com/: false
-  ? https://www.flickr.com/map/?&user_id=38608514@N00&order_by=interestingness&fLat=36.232538&fLon=14.326171&zl=14&min_upload_date=946713600&min_taken_date=1970-01-01%2000:00:00&map_type=hyb
+  ? https://www.flickr.com/map/?&user_id=38608514@N00&order_by=interestingness&fLat=36.232538&fLon=14.326171&zl=14&min_upload_date=946713600&min_taken_date=1970-01-01
   : false
   https://flickr.com/map/: false
   https://www.flickr.com/about/: false
-  ? https://www.flickr.com/map/?&user_id=38608514@N00&order_by=interestingness&fLat=36.232538&fLon=14.326171&zl=14&min_upload_date=946713600&min_taken_date=1970-01-01
-  : false
 https://nicolas-hoizey.com/2006/09/clever-age-change-de-look-et-profite-largement-des-nouveautes-de-spip.html:
   http://www.clever-age.com/: false
   http://spip-agora.clever-age.org/: false
@@ -1409,31 +1256,18 @@ https://nicolas-hoizey.com/2006/11/ergonomie-a-revoir-cashstore-fr.html:
 ? https://nicolas-hoizey.com/2006/11/le-blog-de-flickr-met-en-avant-mon-groupe-dedie-aux-photos-prises-avec-l-appareil-place-tout-juste-a-la-surface-de-l-eau.html
 : http://blog.flickr.com/flickrblog/: false
   http://blog.flickr.com/flickrblog/2006/11/camera_halfway_.html: false
-  http://www.flickr.com/groups/halfway_air_water/: false
-  http://www.flickr.com/photos/nicolas-hoizey/3057318/: false
-  http://static.flickr.com/1/3057318_00e187c2fd.jpg: false
-  http://www.flickr.com/photos/90307091@N00/269651405/: false
-  http://static.flickr.com/94/269651405_a045026067.jpg: false
-  http://www.flickr.com/photos/creativedirector/101357154/: false
-  http://static.flickr.com/43/101357154_be2d816bd4.jpg: false
-  http://www.flickr.com/photos/cristine/6883191/: false
-  http://static.flickr.com/4/6883191_f78466590d.jpg: false
-  http://www.flickr.com/photos/jeansw/10371643/: false
-  http://static.flickr.com/5/10371643_2e9cb58ffd.jpg: false
-  http://www.flickr.com/photos/kelsana/42243619/: false
-  http://static.flickr.com/28/42243619_a6952b17f5.jpg: false
   https://www.flickr.com/groups/halfway_air_water/: false
   https://www.flickr.com/photos/nicolas-hoizey/3057318/: false
-  https://www.flickr.com/photos/90307091@N00/269651405/: false
-  https://www.flickr.com/photos/creativedirector/101357154/: false
-  https://www.flickr.com/photos/cristine/6883191/: false
-  https://www.flickr.com/photos/jeansw/10371643/: false
-  https://www.flickr.com/photos/kelsana/42243619/: false
   https://static.flickr.com/1/3057318_00e187c2fd.jpg: false
+  https://www.flickr.com/photos/90307091@N00/269651405/: false
   https://static.flickr.com/94/269651405_a045026067.jpg: false
+  https://www.flickr.com/photos/creativedirector/101357154/: false
   https://static.flickr.com/43/101357154_be2d816bd4.jpg: false
+  https://www.flickr.com/photos/cristine/6883191/: false
   https://static.flickr.com/4/6883191_f78466590d.jpg: false
+  https://www.flickr.com/photos/jeansw/10371643/: false
   https://static.flickr.com/5/10371643_2e9cb58ffd.jpg: false
+  https://www.flickr.com/photos/kelsana/42243619/: false
   https://static.flickr.com/28/42243619_a6952b17f5.jpg: false
 https://nicolas-hoizey.com/2006/11/ergonomie-a-revoir-rowenta.html: {}
 https://nicolas-hoizey.com/2006/11/un-p-tit-coup-de-pouce.html:
@@ -1441,11 +1275,10 @@ https://nicolas-hoizey.com/2006/11/un-p-tit-coup-de-pouce.html:
   http://www.jpgmag.com/themes/1: false
   http://www.jpgmag.com/photos/20192: false
   http://www.jpgmag.com/themes/23: false
-  http://www.jpgmag.com/photos/21364: false
-  http://www.flickr.com/photos/nicolas-hoizey/2704877/in/set-685912/: false
-  http://www.flickr.com/photos/nicolas-hoizey/10566776/in/set-165968/: false
   https://www.flickr: false
   https://www.flickrtp://www.jpgmag.com/photos/21364: false
+  http://www.flickr.com/photos/nicolas-hoizey/2704877/in/set-685912/: false
+  http://www.flickr.com/photos/nicolas-hoizey/10566776/in/set-165968/: false
 https://nicolas-hoizey.com/2007/01/citation-d-oscar-wilde.html: {}
 https://nicolas-hoizey.com/2007/03/un-encouragement-vu-du-ciel.html:
   http://earth.google.com/: false
@@ -1471,7 +1304,7 @@ https://nicolas-hoizey.com/2007/05/ergonomie-a-revoir-inscription-pour-apple-exp
   http://www.apple-expo.com/: false
 https://nicolas-hoizey.com/2007/05/les-createurs-de-jpg-magazine-pousses-dehors-par-leurs-recents-partenaires.html:
   http://jpgmag.com/: false
-  http://www.flickr.com/: false
+  https://www.flickr.com/: false
   http://jpgmag.com/people/nhoizey: false
   http://www.lulu.com/jpgmag: false
   http://powazek.com/: false
@@ -1480,11 +1313,9 @@ https://nicolas-hoizey.com/2007/05/les-createurs-de-jpg-magazine-pousses-dehors-
   http://www.8020publishing.com/: false
   http://jpgmag.com/about/: false
   http://web.archive.org/web/20060410203205/jpgmag.com/about/: false
-  http://www.flickr.com/groups/ideletedmyjpgaccount/: false
+  https://www.flickr.com/groups/ideletedmyjpgaccount/: false
   http://blog.flickr.com/: false
   http://www.jpgmag.com/people/theorem/: false
-  https://www.flickr.com/: false
-  https://www.flickr.com/groups/ideletedmyjpgaccount/: false
 https://nicolas-hoizey.com/2007/05/ergonomie-a-revoir-clio-renault-sport.html:
   http://www.clio.renault-sport.com/: false
 https://nicolas-hoizey.com/2007/06/avec-l-iphone-d-apple-bientot-disponible-la-fievre-monte.html:
@@ -1497,22 +1328,16 @@ https://nicolas-hoizey.com/2007/06/les-people-dont-petra-nemcova-au-service-des-
   http://www.tabletpccorner.net/content/view/2811/27/: false
 https://nicolas-hoizey.com/2007/06/citation-de-bjork.html: {}
 https://nicolas-hoizey.com/2007/06/createurs-de-sites-web-2-0-ne-sous-estimez-pas-la-force-de-votre-communaute.html:
-  http://www.flickr.com/photos/tags/againstflickrcensorship/clusters/: false
   https://www.flickr.com/photos/tags/againstflickrcensorship/clusters/: false
 https://nicolas-hoizey.com/2007/06/le-principe-du-genial-le-grand-detournement-a-fait-des-emules.html:
   http://www.chez.com/cycyr/: false
-  http://www.dailymotion.com/groups/relevance/search/d%C3%A9tournement/1: false
+  http://www.dailymotion.com/groups/relevance/search/d: false
   ? http://www.youtube.com/results?search_type=search_groups&search_query=recut&search_sort=relevance&search_category=0&search=Search&v=
   : false
   http://spiritsnodeal.canalblog.com/: false
   "//www.dailymotion.com/embed/video/xgzrg": false
   "//www.dailymotion.com/embed/video/x1aqwz": false
   http://thebestmashup.canalblog.com/: false
-  http://www.dailymotion.com/groups/relevance/search/d: false
-https://nicolas-hoizey.com/2007/06/les-anglais-ont-du-talent.html:
-  http://talent.itv.com/: false
-  http://en.wikipedia.org/wiki/Britain's_Got_Talent: false
-  http://www.youtube.com/v/i0dzZTPWrSM: false
 https://nicolas-hoizey.com/2007/07/comment-definir-dans-jquery-ses-propres-filtres-de-selection.html:
   http://www.clever-age.com/veille/blog/comment-definir-dans-jquery-ses-propres-filtres-de-selection.html: false
   http://jquery.com/: false
@@ -1547,13 +1372,12 @@ https://nicolas-hoizey.com/2007/08/les-carrousels-en-3d-sont-a-la-mode.html:
   http://www.alapage.com/: false
   http://fr.wikipedia.org/: false
   http://fr.wikipedia.org/wiki/Carrousel: false
-  http://fr.wikipedia.org/wiki/Carrousel_%28loisir%29: false
+  http://fr.wikipedia.org/wiki/Carrousel_: false
   http://www.apple.com/itunes/jukebox/coverflow.html: false
   http://www.popfly.com/: false
   http://interface.eyecon.ro/docs/carousel: false
   http://interface.eyecon.ro/: false
   http://www.jquery.com/: false
-  http://fr.wikipedia.org/wiki/Carrousel_: false
 https://nicolas-hoizey.com/2007/08/encore-des-nouveautes-chez-apple-avant-le-lancement-de-leopard-en-octobre.html:
   http://www.apple.com/quicktime/qtv/keynote/: false
   http://www.apple.com/imac/: false
@@ -1569,7 +1393,6 @@ https://nicolas-hoizey.com/2007/08/encore-des-nouveautes-chez-apple-avant-le-lan
   http://www.apple.com/iwork/: false
   http://www.apple.com/macmini/: false
   http://ajaxian.com/archives/mac-web-gallery-on-prototype: false
-  http://www.google-stories.com/2007/06/14/que-nous-reserve-l%E2%80%99alliance-google-apple/: false
   http://www.google-stories.com/2007/06/14/que-nous-reserve-l: false
 https://nicolas-hoizey.com/2007/08/si-vous-etes-fan-comme-moi-de-john-woo-et-chow-yun-fat-stranglehold-est-pour-vo.html:
   http://www.jeuxvideo.com/jeux/0001/00014692.htm: false
@@ -1583,8 +1406,6 @@ https://nicolas-hoizey.com/2007/10/i-control-the-web.html: {}
 https://nicolas-hoizey.com/2007/11/savez-vous-ce-qu-est-une-promo.html:
   http://www.vdirectce.com/ecommerce.php?pg=catalogue&cid=16: false
 https://nicolas-hoizey.com/2007/11/citation-d-une-citation-de-steve-jobs.html:
-  ? http://www.amazon.fr/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.fr%2Fdp%2F0471787841&tag=phpheaven-21&linkCode=ur2&camp=1642&creative=6746
-  : false
   http://www.amazon.fr/gp/redirect.html?ie=UTF8&location=http: false
 https://nicolas-hoizey.com/2007/11/dj-shadow-ne-devrait-plus-s-encombrer-avec-ses-platines-et-vinyles.html:
   http://www.djshadow.com/: false
@@ -1600,10 +1421,9 @@ https://nicolas-hoizey.com/2007/11/au-secours-safari-3-ne-marche-pas-sur-mon-mac
   http://www.apple.com/macosx/features/safari.html: false
   http://www.google.com/: false
   http://www.piclens.com/: false
-  http://www.flickr.com/: false
+  https://www.flickr.com/: false
   http://www.piclens.com/site/safari/support_pl_sf.php: false
   http://www.piclens.com/site/download.php?p=piclens: false
-  https://www.flickr.com/: false
 https://nicolas-hoizey.com/2007/12/un-exemple-de-jointures-entre-plusieurs-tables-dans-une-boucle-spip.html:
   http://www.spip.net/fr_article3368.html: false
   http://www.spip-contrib.net/Plugin-Agenda: false
@@ -1615,12 +1435,10 @@ https://nicolas-hoizey.com/2007/12/flickr-met-a-jour-uploadr-son-client-lourd-d-
   http://blog.flickr.com/en/2007/12/13/introducing-the-all-new-flickr-uploadr-30/: false
   http://www.zooomr.com/: false
   http://www.ipernity.com/: false
-  http://www.flickr.com/services/: false
-  http://fr.wikipedia.org/wiki/Gecko_%28moteur_de_rendu%29: false
-  http://fr.wikipedia.org/wiki/XUL: false
-  http://chucker.mystfans.com/2007/12/14/xul-boo-flickr.entry: false
   https://www.flickr.com/services/: false
   http://fr.wikipedia.org/wiki/Gecko_: false
+  http://fr.wikipedia.org/wiki/XUL: false
+  http://chucker.mystfans.com/2007/12/14/xul-boo-flickr.entry: false
 https://nicolas-hoizey.com/2008/01/pour-faire-tourner-vista-sur-un-ordinateur-dell-il-en-faut-de-la-ram.html:
   http://www1.euro.dell.com/content/default.aspx?c=fr&cs=frdhs1&l=fr&s=dhs&~ck=bt: false
 https://nicolas-hoizey.com/2008/01/sur-mac-comment-passer-dans-tous-les-champs-d-un-formulaire-avec-la-touc.html: {}
@@ -1632,9 +1450,8 @@ https://nicolas-hoizey.com/2008/01/afficher-les-favicon-dans-la-barre-personnell
   http://www.mozilla.com/en-US/firefox/all.html: false
   http://www.mozilla.com/en-US/firefox/all-beta.html: false
 https://nicolas-hoizey.com/2008/01/amusons-nous-avec-des-boucles-spip-et-les-petits-nouveaux-get-set-et-array.html:
-  "//B_sites>": false
-  http://trac.rezo.net/trac/spip/changeset/11019: false
   "//B_sites": false
+  http://trac.rezo.net/trac/spip/changeset/11019: false
 ? https://nicolas-hoizey.com/2008/01/gastero-prod-08-beaucoup-plus-de-changements-que-les-simples-realignements-progressifs-precedents.html
 : {}
 https://nicolas-hoizey.com/2008/01/3g-m-a-tuer-ou-comment-j-en-suis-venu-a-accuser-safari-par-erreur.html:
@@ -1649,29 +1466,23 @@ https://nicolas-hoizey.com/2008/01/session_start-et-exec-ne-font-pas-toujours-bo
   http://www.issociate.de/board/post/15903/PHP/Win,_exec(: false
   http://fr.php.net/manual/fr/ref.outcontrol.php: false
 https://nicolas-hoizey.com/2008/01/flickr-ajoute-de-nouveaux-flux-rss-pour-suivre-l-activite-du-site.html:
-  http://flickr.com/: false
+  https://flickr.com/: false
   http://digg.com/software/Flickr_should_provide_RSS_feeds_for_favorites: false
   http://jyte.com/cl/flickr-should-provide-rss-feeds-for-favorites: false
-  http://www.flickr.com/photos/nicolas-hoizey/405755351/: false
-  http://api.flickr.com/services/feeds/photos_faves.gne?nsid=38608514@N00&lang=en-us&format=rss_200: false
-  http://flickr.com/photos/nicolas-hoizey/favorites/: false
-  http://www.flickr.com/photos/nicolas-hoizey/sets/72157603551083073/: false
-  http://www.flickr.com/groups/flickrhacks/discuss/72157600063281311/: false
-  http://pipes.yahoo.com/: false
-  https://flickr.com/: false
   https://www.flickr.com/photos/nicolas-hoizey/405755351/: false
+  http://api.flickr.com/services/feeds/photos_faves.gne?nsid=38608514@N00&lang=en-us&format=rss_200: false
   https://flickr.com/photos/nicolas-hoizey/favorites/: false
   https://www.flickr.com/photos/nicolas-hoizey/sets/72157603551083073/: false
   https://www.flickr.com/groups/flickrhacks/discuss/72157600063281311/: false
+  http://pipes.yahoo.com/: false
 https://nicolas-hoizey.com/2008/02/web-marchands-abuser-de-la-longue-traine-peut-nuire-a-votre-image.html:
-  http://fr.wikipedia.org/wiki/Longue_tra%C3%AEne: false
+  http://fr.wikipedia.org/wiki/Longue_tra: false
   http://www.wired.com/wired/archive/12.10/tail.html: false
   http://www.amazon.fr/: false
   http://www.internetactu.net/2005/04/12/la-longue-traine/: false
   http://www.alapage.com/: false
   http://www.lesnumeriques.com/article-313-1667-165.html: false
   http://www.alapage.com/-/Editorial/?ref=5-356857: false
-  http://fr.wikipedia.org/wiki/Longue_tra: false
 https://nicolas-hoizey.com/2008/02/ne-sous-estimez-pas-l-importance-du-cable-hdmi.html:
   http://community.eu.playstation.com/showpost.php?p=3433307&postcount=20: false
   http://community.eu.playstation.com/showpost.php?p=3153082&postcount=4: false
@@ -1702,10 +1513,6 @@ https://nicolas-hoizey.com/2008/02/avis-de-turbulences-dans-les-flux-rss-de-gast
   http://pipes.yahoo.com/nicolashoizey/gasteroprod: false
   http://pipes.yahoo.com/nicolashoizey/feeditemprefix: false
   http://suggestions.yahoo.com/detail/?prop=Pipes&fid=73084: false
-  http://feeds.feedburner.com/GasteroProd>: false
-  http://feeds.feedburner.com/GasteroProd/Blog>: false
-  http://feeds.feedburner.com/GasteroProd/Photos>: false
-  http://feeds.feedburner.com/GasteroProd/Liens>: false
   http://feeds.feedburner.com/GasteroProd/Photos: false
   http://feeds.feedburner.com/GasteroProd/Liens: false
 https://nicolas-hoizey.com/2008/02/stop-this.html: {}
@@ -1728,22 +1535,18 @@ https://nicolas-hoizey.com/2008/03/checklist-de-reinstallation-complete-de-mozil
   http://userscripts.org/scripts/show/1378: false
   http://6v8.gamboni.org/Flickr-Buddy-Interestingness.html?lang=fr: false
   http://www.goston.net/2007/05/07/835/: false
-  http://flickr.com/groups/flickrhacks/discuss/72157594223205825/: false
-  http://flickr.com/groups/flickrhacks/discuss/72057594139485596/: false
+  https://flickr.com/groups/flickrhacks/discuss/72157594223205825/: false
+  https://flickr.com/groups/flickrhacks/discuss/72057594139485596/: false
   http://userscripts.org/scripts/show/1543: false
-  http://www.flickr.com/groups/flickrhacks/discuss/72157594144963684/: false
+  https://www.flickr.com/groups/flickrhacks/discuss/72157594144963684/: false
   http://userscripts.org/scripts/show/5346: false
   http://6v8.gamboni.org/Flickr-More-info-in-mails.html: false
   http://6v8.gamboni.org/Flickr-Add-referer-into-comments.html: false
   http://6v8.gamboni.org/Flickr-Pool-Date.html: false
-  http://www.flickr.com/groups/flickrhacks/discuss/72157594255139330/: false
+  https://www.flickr.com/groups/flickrhacks/discuss/72157594255139330/: false
   http://userscripts.org/scripts/show/10382: false
   http://www.ipernity.com/apps/gm: false
   http://www.ipernity.com/: false
-  https://flickr.com/groups/flickrhacks/discuss/72157594223205825/: false
-  https://flickr.com/groups/flickrhacks/discuss/72057594139485596/: false
-  https://www.flickr.com/groups/flickrhacks/discuss/72157594144963684/: false
-  https://www.flickr.com/groups/flickrhacks/discuss/72157594255139330/: false
 https://nicolas-hoizey.com/2008/03/savez-vous-comment-trouver-les-extensions-compatibles-avec-une-version-donnee-de-firefox.html:
   https://addons.mozilla.org/fr/firefox/: false
 https://nicolas-hoizey.com/2008/04/yeeeh-haaaaah-target-locked.html: {}
@@ -1761,7 +1564,6 @@ https://nicolas-hoizey.com/2008/04/lost-in-white-space-is-hot-on-jpg-magazine.ht
   http://www.jpgmag.com/photos/20192: false
   http://www.jpgmag.com/themes/40: false
   http://www.jpgmag.com/: false
-  http://www.flickr.com/: false
   https://www.flickr.com/: false
 https://nicolas-hoizey.com/2008/04/les-disques-durs-sata-des-mac-pro-ont-un-debit-de-tbd-mo-par-seconde-hein.html:
   http://en.wikipedia.org/wiki/To_be_determined: false
@@ -1785,12 +1587,11 @@ https://nicolas-hoizey.com/2008/04/peaceful-greeeeen.html: {}
 https://nicolas-hoizey.com/2008/05/une-fenetre-de-burano.html:
   http://fr.wikipedia.org/wiki/Burano: false
 https://nicolas-hoizey.com/2008/05/gandi-m-a-presque-tuer-mais-je-n-ai-pas-deserte.html:
-  http://iwi.lebardegandi.net/post/2008/05/21/Le-filer-13-%3A-Epilogue: false
+  http://iwi.lebardegandi.net/post/2008/05/21/Le-filer-13-: false
   http://www.lebardegandi.net/post/2008/05/16/Problemes-de-disques: false
   http://www.lebardegandi.net/post/2008/05/18/Problemes-de-disques-en-cours-de-resolution: false
   http://www.spip-blog.net/Premiers-tests-de-Gandi-Hosting.html: false
   http://groups.gandi.net/fr/topic/gandi.fr.hebergement.expert/15410: false
-  http://iwi.lebardegandi.net/post/2008/05/21/Le-filer-13-: false
 https://nicolas-hoizey.com/2008/05/citation-de-jean-anouihl.html: {}
 https://nicolas-hoizey.com/2008/06/surveillez-vos-erreurs-404-elles-peuvent-etre-tres-instructives.html:
   https://www.google.com/webmasters/tools/: false
@@ -1860,8 +1661,7 @@ https://nicolas-hoizey.com/2008/06/wordle-fait-de-jolis-nuages-de-tags.html:
   http://www.fluffykittens.com/wordle/: false
   http://wordle.net/faq: false
 https://nicolas-hoizey.com/2008/07/citation-de-robert-hoekman-jr.html: {}
-https://nicolas-hoizey.com/2008/07/meduses-fluorescentes.html:
-  http://500px.com/photo/338761: false
+https://nicolas-hoizey.com/2008/07/meduses-fluorescentes.html: {}
 https://nicolas-hoizey.com/2008/07/copie-privee-le-non-droit-qu-on-n-a-pas.html:
   http://maitre-eolas.fr/2008/06/25/1016-affaire-mulholland-drive-clap-de-fin: false
 https://nicolas-hoizey.com/2008/07/citation-de-j-p-morgan.html: {}
@@ -1882,7 +1682,6 @@ https://nicolas-hoizey.com/2008/07/faut-il-que-je-revienne-a-un-unique-flux-rss.
 https://nicolas-hoizey.com/2008/07/le-retour-de-l-agenda-gastero-prod.html:
   http://www.spip-contrib.net/Plugin-Agenda: false
 https://nicolas-hoizey.com/2008/07/catching-the-sun.html:
-  http://www.flickr.com/groups/catching_sun/: false
   https://www.flickr.com/groups/catching_sun/: false
 https://nicolas-hoizey.com/2008/07/mes-conventions-de-codage.html:
   http://case.oncle-tom.net/: false
@@ -1913,11 +1712,10 @@ https://nicolas-hoizey.com/2008/07/y-a-une-cuil-dans-le-potage.html:
   http://twitter.com/: false
 https://nicolas-hoizey.com/2008/08/tineye-progresse-a-grands-pas.html:
   http://www.marketing-planet.com/: false
-  http://www.flickr.com/photos/nicolas-hoizey/: false
+  https://www.flickr.com/photos/nicolas-hoizey/: false
   http://www.jpgmag.com/people/nhoizey: false
   http://nhoizey.deviantart.com/: false
   http://photo.net/photos/nicolas-hoizey: false
-  https://www.flickr.com/photos/nicolas-hoizey/: false
 https://nicolas-hoizey.com/2008/08/google-a-t-il-encore-des-concurrents.html:
   http://www.voila.fr/: false
 https://nicolas-hoizey.com/2008/08/citation-de-wil-shipley.html:
@@ -1935,7 +1733,6 @@ https://nicolas-hoizey.com/2008/08/ou-acheter-des-blu-ray-de-toutes-zones-aux-me
   http://fr.wikipedia.org/wiki/DVD: false
   http://www.dvdcca.org/css/: false
   http://www.blurayregioncodes.com/: false
-  http://spreadsheets.google.com/pub?key=py54QlMHKkB4aIJbYR8gKBQ&output=html&gid=0&single=true&widget=true'></iframe>: false
   http://spreadsheets.google.com/pub?key=py54QlMHKkB4aIJbYR8gKBQ&output=html&gid=0&single=true&widget=true': false
 https://nicolas-hoizey.com/2008/09/la-reconnaissance-faciale-se-democratise-avec-picasa-web.html:
   http://picasa.google.com/: false
@@ -1972,13 +1769,10 @@ https://nicolas-hoizey.com/2008/10/un-petit-bug-pas-mechant-dans-l-app-store.htm
 https://nicolas-hoizey.com/2008/10/textorizer-met-les-mots-en-images-et-inversement.html:
   http://lapin-bleu.net/software/textorizer/: false
   http://textorizer.whatfettle.com/: false
-  ? http://textorizer.whatfettle.com/?image=http%3A%2F%2Fwww.gasteroprod.com%2Fdesign%2Fimages%2Fgp-titre-trans.png&text=Gastero%0D%0AProd%0D%0ANicolas%0D%0AHoizey&nstrokes=1000&threshold=10&width=800&height=200
-  : false
+  http://textorizer.whatfettle.com/?image=http: false
   http://lapin-bleu.net/software/textorizer/textorizer1_2/: false
   http://lapin-bleu.net/software/textorizer/textorizer2.php: false
-  http://www.flickr.com/groups/textorized/: false
   https://www.flickr.com/groups/textorized/: false
-  http://textorizer.whatfettle.com/?image=http: false
 https://nicolas-hoizey.com/2008/10/citation-de-albert-einstein.html: {}
 https://nicolas-hoizey.com/2008/10/les-netbooks-sont-ils-si-populaires-uniquement-grace-a-leur-prix.html:
   http://gizmodo.com/5066543/apple-quarterly-earnings-69-million-iphones-sold-more-phones-than-rim: false
@@ -2009,7 +1803,7 @@ https://nicolas-hoizey.com/2008/12/backup-d-un-mac-sur-un-nas-facile-et-sans-bid
 https://nicolas-hoizey.com/2008/12/recolte-sur-une-campanule.html: {}
 https://nicolas-hoizey.com/2008/12/quel-sac-photo-pour-un-reflex-et-ses-accessoires.html:
   http://www.google.fr/images?hl=fr&q=lowepro+Mini+Trekker+Classic: false
-  http://fr.wikipedia.org/wiki/R%C3%A9ponses_Photo: false
+  http://fr.wikipedia.org/wiki/R: false
   http://www.amazon.fr/dp/B0002XNRG4/gasteroprod-21: false
   http://www.amazon.fr/dp/B000B84KB6/gasteroprod-21: false
   http://www.amazon.fr/dp/B00005KHRX/gasteroprod-21: false
@@ -2022,13 +1816,11 @@ https://nicolas-hoizey.com/2008/12/quel-sac-photo-pour-un-reflex-et-ses-accessoi
   http://www.amazon.fr/dp/B00007EE8M: false
   http://www.lowepro.com/: false
   http://www.crumpler.fr/?categroy=Photo_Bags&page=products&category=3: false
-  http://products.lowepro.com/product/Flipside-400%20AW,2116.htm: false
+  http://products.lowepro.com/product/Flipside-400: false
   http://www.eos-numerique.com/forums/f35/sacs-photo-les-marques-et-modeles-vos-avis-et-commentaires-50504/: false
   http://www.cambags.com/camera_bag_mainpage.htm: false
   http://taschenfreak.de/indexliste.htm: false
   http://bloguedegeek.net/2008/10/28/lowepro-flipside-400-aw-sac-a-dos-pour-photographe-evaluation/: false
-  http://fr.wikipedia.org/wiki/R: false
-  http://products.lowepro.com/product/Flipside-400: false
 https://nicolas-hoizey.com/2008/12/capteurs-aps-c-vs-full-frame.html:
   http://www.macandphoto.com/2008/10/le-grand-match.html: false
 https://nicolas-hoizey.com/2008/12/rusty.html: {}
@@ -2041,16 +1833,6 @@ https://nicolas-hoizey.com/2009/01/ziki-aime-les-doublons-et-plus-si-affinite.ht
   http://www.ziki.com/fr/clever-age+1955: false
 https://nicolas-hoizey.com/2009/02/stairz.html:
   http://twitter.com/Thanh/status/1155295533: false
-  http://www.flickr.com/photos/nicolas-hoizey/3241823277/in/pool-geekscanshoot: false
-  http://www.flickr.com/photos/nicolas-hoizey/sets/72157613165190029/: false
-  http://www.flickr.com/photos/n1k0/sets/72157613146333767/: false
-  http://www.flickr.com/photos/clear-cls-key-off/: false
-  http://www.flickr.com/photos/sutekidane/sets/72157613190700002/: false
-  http://www.flickr.com/photos/mauriz/sets/72157613182006890/: false
-  http://www.flickr.com/people/biniki/: false
-  http://www.flickr.com/photos/salmita/: false
-  http://www.flickr.com/photos/celk19/: false
-  http://pierre.equoy.free.fr/blog/index.php?post/2009/01/31/Paris-by-night-photo-session: false
   https://www.flickr.com/photos/nicolas-hoizey/3241823277/in/pool-geekscanshoot: false
   https://www.flickr.com/photos/nicolas-hoizey/sets/72157613165190029/: false
   https://www.flickr.com/photos/n1k0/sets/72157613146333767/: false
@@ -2060,17 +1842,16 @@ https://nicolas-hoizey.com/2009/02/stairz.html:
   https://www.flickr.com/people/biniki/: false
   https://www.flickr.com/photos/salmita/: false
   https://www.flickr.com/photos/celk19/: false
+  http://pierre.equoy.free.fr/blog/index.php?post/2009/01/31/Paris-by-night-photo-session: false
 https://nicolas-hoizey.com/2009/02/splitgames-n-est-il-destine-qu-aux-hardcore-gamers.html:
   http://www.splitgames.fr/: false
   http://www.clever-age.com/references/spligames/refonte-de-splitgames.fr-avec-symfony.html: false
   http://www.priceminister.com/: false
   http://www.2xmoinscher.com/: false
-  ? http://www.amazon.fr/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.fr%2Fgp%2Foffer-listing%2FB001C5Q4MU%3Fie%3DUTF8%26ref%255F%3Ddp%255Folp%255F2&tag=gasteroprod-21&linkCode=ur2&camp=1642&creative=19458
-  : false
+  http://www.amazon.fr/gp/redirect.html?ie=UTF8&location=http: false
   http://vincentmorin.canalblog.com/archives/2008/10/28/11140900.html: false
   http://blog.splitgames.fr/: false
   http://fr.wikipedia.org/wiki/Hardcore_gamer: false
-  http://www.amazon.fr/gp/redirect.html?ie=UTF8&location=http: false
 https://nicolas-hoizey.com/2009/02/commentaires-desactives-temporairement.html:
   http://zone.spip.org/trac/spip-zone/browser/_plugins_/_core_/forum: false
   http://trac.rezo.net/trac/spip-zone/ticket/673: false
@@ -2085,9 +1866,7 @@ https://nicolas-hoizey.com/2009/02/laissons-ie6-mourir-sans-style-et-ses-utilisa
   http://www.microsoft.com/windows/Internet-explorer/beta/default.aspx: false
 https://nicolas-hoizey.com/2009/02/larve-de-tenthredo-marginella.html:
   http://aramel.free.fr/INSECTES14-1.shtml: false
-  http://500px.com/photo/9465667: false
-https://nicolas-hoizey.com/2009/02/bruxelles.html:
-  http://500px.com/photo/1159934: false
+https://nicolas-hoizey.com/2009/02/bruxelles.html: {}
 https://nicolas-hoizey.com/2009/02/citation-de-daniel-glazman.html:
   http://www.glazman.org/weblog/dotclear/index.php?post/2009/02/19/Bespin-canvas-SVG-DOM-and-other-thoughts: false
   http://labs.mozilla.com/projects/bespin/: false
@@ -2097,23 +1876,18 @@ https://nicolas-hoizey.com/2009/04/flickr-lance-son-propre-systeme-d-url-courtes
   http://www.logiste.be/blog/155-raccourcisseurs-durl-tinyurl-like/: false
   http://searchengineland.com/analysis-which-url-shortening-service-should-you-use-17204: false
   http://twitter.com/: false
-  http://www.flickr.com/: false
+  https://www.flickr.com/: false
   http://twitter.com/rasmus/statuses/1601650008: false
   http://fr.wikipedia.org/wiki/TinyURL: false
-  http://flic.kr/p/5Z9uNn>.: false
-  http://www.flickr.com/photos/nicolas-hoizey/3272125121/: false
   http://flic.kr/p/5Z9uNn: false
+  https://www.flickr.com/photos/nicolas-hoizey/3272125121/: false
   http://laughingmeme.org/2009/04/03/url-shortening-hinting/: false
-  http://search.twitter.com/search?q=%23revcanonical: false
+  http://search.twitter.com/search?q=: false
   http://annevankesteren.nl/2009/04/rev-canonical: false
   http://benramsey.com/archives/a-revcanonical-rebuttal/: false
-  http://flic.kr/nicolas-hoizey/>: false
+  http://flic.kr/nicolas-hoizey/: false
   http://userscripts.org/scripts/show/40582: false
   http://googlewebmastercentral.blogspot.com/2009/02/specify-your-canonical.html: false
-  https://www.flickr.com/: false
-  https://www.flickr.com/photos/nicolas-hoizey/3272125121/: false
-  http://search.twitter.com/search?q=: false
-  http://flic.kr/nicolas-hoizey/: false
 https://nicolas-hoizey.com/2009/05/dtc.html:
   http://bash.org/: false
   http://bashfr.org/: false
@@ -2132,19 +1906,14 @@ https://nicolas-hoizey.com/2009/05/dtc.html:
   : false
 https://nicolas-hoizey.com/2009/06/shameless-self-promotion.html:
   http://www.jpgmag.com/themes/40: false
-  http://www.jpgmag.com/photos/809995>.: false
-  http://digg.com/arts_culture/Fluorescent_Jellyfishes>: false
   http://www.jpgmag.com/photos/809995: false
   http://digg.com/arts_culture/Fluorescent_Jellyfishes: false
 https://nicolas-hoizey.com/2009/06/flickr-en-passe-de-jeter-yahoo-maps-pour-google-maps.html:
   http://m.flickr.com/: false
-  http://www.flickr.com/: false
-  http://maps.google.com/: false
-  http://www.flickr.com/map/: false
   https://www.flickr.com/: false
+  http://maps.google.com/: false
   https://www.flickr.com/map/: false
-https://nicolas-hoizey.com/2009/06/along-the-shore.html:
-  http://500px.com/photo/407078: false
+https://nicolas-hoizey.com/2009/06/along-the-shore.html: {}
 https://nicolas-hoizey.com/2009/07/deux-gars-en-showcase-au-com-antes.html:
   http://www.deuxgars.fr/: false
   http://shiii.org/: false
@@ -2159,10 +1928,8 @@ https://nicolas-hoizey.com/2009/07/catch-me-if-you-can.html:
   http://www.transilien.com/: false
   http://visibletweets.com/: false
   http://twitter.com/ratp: false
-https://nicolas-hoizey.com/2009/07/don-t-fear-the-light.html:
-  http://500px.com/photo/342780: false
-https://nicolas-hoizey.com/2009/07/face-to-face.html:
-  http://500px.com/photo/494747: false
+https://nicolas-hoizey.com/2009/07/don-t-fear-the-light.html: {}
+https://nicolas-hoizey.com/2009/07/face-to-face.html: {}
 https://nicolas-hoizey.com/2009/07/gastero-prod-passe-au-html-5.html:
   http://dev.w3.org/html5/spec/: false
   http://www.w3.org/QA/2009/05/_watching_the_google_io.html: false
@@ -2192,20 +1959,20 @@ https://nicolas-hoizey.com/2009/08/prendre-des-eclairs-d-orage-en-photo.html:
 https://nicolas-hoizey.com/2009/08/bleu.html:
   http://www.sutekidane.net/: false
   http://www.sutekidane.net/blog/la-vie-en-bleu.html: false
-  http://www.flickr.com/photos/nicolas-hoizey/10566776/: false
-  http://farm1.static.flickr.com/6/10566776_0b040a74ed.jpg: false
-  http://www.flickr.com/photos/nicolas-hoizey/2459060966/: false
+  https://www.flickr.com/photos/nicolas-hoizey/10566776/: false
+  https://farm1.static.flickr.com/6/10566776_0b040a74ed.jpg: false
+  https://www.flickr.com/photos/nicolas-hoizey/2459060966/: false
   http://farm3.static.flickr.com/2075/2459060966_e3ec366f62.jpg: false
-  http://www.flickr.com/photos/nicolas-hoizey/3921511/: false
+  https://www.flickr.com/photos/nicolas-hoizey/3921511/: false
   http://farm1.static.flickr.com/3/3921511_a3f73ac5a7.jpg: false
-  http://www.flickr.com/photos/nicolas-hoizey/31535666/: false
+  https://www.flickr.com/photos/nicolas-hoizey/31535666/: false
   http://farm1.static.flickr.com/22/31535666_30c6196e75.jpg: false
-  http://www.flickr.com/photos/nicolas-hoizey/3057318/: false
+  https://www.flickr.com/photos/nicolas-hoizey/3057318/: false
   http://farm1.static.flickr.com/1/3057318_00e187c2fd.jpg: false
-  http://www.flickr.com/groups/halfway_air_water/: false
-  http://www.flickr.com/photos/nicolas-hoizey/3657771061/: false
+  https://www.flickr.com/groups/halfway_air_water/: false
+  https://www.flickr.com/photos/nicolas-hoizey/3657771061/: false
   http://farm4.static.flickr.com/3356/3657771061_21d98c2efa.jpg: false
-  http://www.flickr.com/photos/nicolas-hoizey/2632478734/: false
+  https://www.flickr.com/photos/nicolas-hoizey/2632478734/: false
   http://farm4.static.flickr.com/3064/2632478734_14dc1e4911.jpg: false
   http://www.jpgmag.com/photos/809995: false
   http://www.prendreuncafe.com/: false
@@ -2215,23 +1982,11 @@ https://nicolas-hoizey.com/2009/08/bleu.html:
   http://nota-bene.org/: false
   http://case.oncle-tom.net/: false
   http://lacot.org/: false
-  http://www.flickr.com/photos/nicolas-hoizey/2057344747/: false
-  https://www.flickr.com/photos/nicolas-hoizey/10566776/: false
-  https://farm1.static.flickr.com/6/10566776_0b040a74ed.jpg: false
-  https://www.flickr.com/photos/nicolas-hoizey/2459060966/: false
-  https://www.flickr.com/photos/nicolas-hoizey/3921511/: false
-  https://www.flickr.com/photos/nicolas-hoizey/31535666/: false
-  https://www.flickr.com/photos/nicolas-hoizey/3057318/: false
-  https://www.flickr.com/groups/halfway_air_water/: false
-  https://www.flickr.com/photos/nicolas-hoizey/3657771061/: false
-  https://www.flickr.com/photos/nicolas-hoizey/2632478734/: false
   https://www.flickr.com/photos/nicolas-hoizey/2057344747/: false
 https://nicolas-hoizey.com/2009/12/un-menu-de-navigation-toujours-visible.html:
   http://jqueryfordesigners.com/fixed-floating-elements/: false
   http://jqueryfordesigners.com/: false
 https://nicolas-hoizey.com/2009/12/split-level-photography.html:
-  http://www.flickr.com/groups/halfway_air_water/: false
-  http://500px.com/photo/1116038: false
   https://www.flickr.com/groups/halfway_air_water/: false
 https://nicolas-hoizey.com/2009/12/qui-a-gagne-un-million.html:
   http://www.spip.net/: false
@@ -2249,7 +2004,7 @@ https://nicolas-hoizey.com/2010/02/google-chrome-sur-mac-bilan-mitige.html:
   http://prendreuncafe.com/: false
   http://github.com/n1k0/chromium-updater: false
 https://nicolas-hoizey.com/2010/02/tumblr-aime-mes-meduses.html:
-  http://www.flickr.com/photos/nicolas-hoizey/2632478734/: false
+  https://www.flickr.com/photos/nicolas-hoizey/2632478734/: false
   http://www.jpgmag.com/photos/809995: false
   http://nhoizey.deviantart.com/art/Fluorescent-Jellyfish-90477061: false
   http://www.redbubble.com/people/nhoizey/art/4542942-3-fluorescent-jellyfishes: false
@@ -2266,7 +2021,6 @@ https://nicolas-hoizey.com/2010/02/tumblr-aime-mes-meduses.html:
   http://strangestofinventions.tumblr.com/post/408117688/fuckyeahjellyfish-birdhaus-nicolas-hoizey: false
   http://vinitha.tumblr.com/post/408123360/fuckyeahjellyfish-birdhaus-nicolas-hoizey: false
   http://blog.neonjelly.net/post/407851083/fuckyeahjellyfish-birdhaus-nicolas-hoizey: false
-  https://www.flickr.com/photos/nicolas-hoizey/2632478734/: false
 https://nicolas-hoizey.com/2010/02/un-netbook-comme-videur-de-cartes-ameliore.html:
   http://www.photob.be/: false
   http://www.blogeee.net/2009/12/un-netbook-au-service-dun-photographe-une-video-a-voir-absolument-si-vous-etes-amateur-de-photo/: false
@@ -2292,8 +2046,7 @@ https://nicolas-hoizey.com/2010/04/citation-de-douglas-adams.html:
   http://www.douglasadams.com/: false
   http://www.biota.org/people/douglasadams/index.html: false
   http://fr.wikipedia.org/wiki/H2G2: false
-https://nicolas-hoizey.com/2010/05/la-belle.html:
-  http://500px.com/photo/341000: false
+https://nicolas-hoizey.com/2010/05/la-belle.html: {}
 https://nicolas-hoizey.com/2010/06/faciliter-la-reprise-de-tweets-les-retweets-a-l-ancienne-sur-twitter.html:
   https://twitter.com/: false
   http://evhead.com/2009/11/why-retweet-works-way-it-does.html: false
@@ -2356,12 +2109,10 @@ https://nicolas-hoizey.com/2011/01/le-design-de-gastero-prod-est-il-a-jeter-a-la
   http://twitter.com/n1k0/statuses/30943803951030272: false
   http://twitter.com/notabene: false
   http://twitter.com/notabene/statuses/30938821579247616: false
-  http://twtpoll.com/xvt5wp>: false
-  https://addons.mozilla.org/fr/firefox/addon/readability/: false
   http://twtpoll.com/xvt5wp: false
+  https://addons.mozilla.org/fr/firefox/addon/readability/: false
 https://nicolas-hoizey.com/2011/02/citation-d-antoine-de-saint-exupery.html: {}
 https://nicolas-hoizey.com/2011/02/respecter-les-usages-courants.html:
-  http://fr.wikisource.org/wiki/La_B%C3%A9gueule: false
   http://fr.wikisource.org/wiki/La_B: false
 https://nicolas-hoizey.com/2011/02/des-formulaires-qui-n-en-ont-pas-l-air-sur-moof-com.html:
   http://moof.com/: false
@@ -2374,16 +2125,14 @@ https://nicolas-hoizey.com/2011/02/un-tri-incomprehensible-des-fuseaux-horaires-
   http://www.txtst.com/fireeagle_badge/: false
   http://www.txtst.com/fireeagle_badge/auth_new.php?f=start: false
   http://fr.wikipedia.org/wiki/Fuseau_horaire: false
-  http://fr.wikipedia.org/wiki/Temps_universel_coordonn%C3%A9: false
   http://fr.wikipedia.org/wiki/Temps_universel_coordonn: false
 https://nicolas-hoizey.com/2011/03/des-noms-de-fichiers-a-telecharger-denues-de-sens-sur-software-canon-europe-com.html:
   http://software.canon-europe.com/: false
   http://software.canon-europe.com/software/0033258.asp: false
 https://nicolas-hoizey.com/2011/03/donner-des-noms-explicites-aux-fichiers-en-telechargement.html: {}
 https://nicolas-hoizey.com/2011/03/des-facettes-de-recherches-inexploitables-sur-01net-com.html:
-  http://t37.net/ergonomie-d-un-formulaire-de-recherche-3-5-la-recherche-par-facettes-mode-de%20recherche-et-de-navigation.html: false
-  http://www.01net.com/liste-produits/32/0/0/0-0/0-0/0-0/0/pc-portables/: false
   http://t37.net/ergonomie-d-un-formulaire-de-recherche-3-5-la-recherche-par-facettes-mode-de: false
+  http://www.01net.com/liste-produits/32/0/0/0-0/0-0/0-0/0/pc-portables/: false
 https://nicolas-hoizey.com/2011/03/quand-mozilla-pose-une-question-a-son-utilisateur-ce-n-est-pas-pour-qu-il-fasse-un-choix.html:
   https://addons.mozilla.org/fr/firefox/collections/nhoizey/: false
   https://addons.mozilla.org/fr/firefox/collections/nhoizey/navigation/: false
@@ -2444,19 +2193,15 @@ https://nicolas-hoizey.com/2012/01/mud-lover.html: {}
 https://nicolas-hoizey.com/2012/01/plongee-en-contre-plongee.html: {}
 https://nicolas-hoizey.com/2012/01/attention-au-detournement-seo-de-vos-url.html:
   http://www.cdiscount.com/: false
-  http://www.cdiscount.com/electromenager/machines-a-coudre/singer/f-107092205-qa988ea.html>: false
+  http://www.cdiscount.com/electromenager/machines-a-coudre/singer/f-107092205-qa988ea.html: false
   http://www.liberation.fr/: false
-  http://www.liberation.fr/societe/01012383917-les-francais-inquiet-de-l-augmentation-du-prix-des-fraises>: false
-  http://www.tourmag.com/perte-du-tripple-a-naufrage-de-la-france_a49271.html>: false
+  http://www.liberation.fr/societe/01012383917-les-francais-inquiet-de-l-augmentation-du-prix-des-fraises: false
+  http://www.tourmag.com/perte-du-tripple-a-naufrage-de-la-france_a49271.html: false
   http://fr.wikipedia.org/wiki/Bombardement_Google: false
-  http://www.liberation.fr/societe/01012383917-les-francais-inquiet-de-l-augmentation-des-frais-de-sante>: false
+  http://www.liberation.fr/societe/01012383917-les-francais-inquiet-de-l-augmentation-des-frais-de-sante: false
   http://support.google.com/webmasters/bin/answer.py?hl=fr&answer=93633: false
   http://searchenginewatch.com/article/2064793/Googles-and-Inktomis-Miserable-Failure: false
   http://www.presidentielle-2007.net/actualite/index.php/2005/10/06/22-google-bombing-sarkozy-iznogoud: false
-  http://www.cdiscount.com/electromenager/machines-a-coudre/singer/f-107092205-qa988ea.html: false
-  http://www.liberation.fr/societe/01012383917-les-francais-inquiet-de-l-augmentation-du-prix-des-fraises: false
-  http://www.tourmag.com/perte-du-tripple-a-naufrage-de-la-france_a49271.html: false
-  http://www.liberation.fr/societe/01012383917-les-francais-inquiet-de-l-augmentation-des-frais-de-sante: false
 https://nicolas-hoizey.com/2012/01/maximum-security.html: {}
 https://nicolas-hoizey.com/2012/01/splitscreen-a-love-story.html:
   http://vimeo.com/clauer/likes: false
@@ -2464,7 +2209,6 @@ https://nicolas-hoizey.com/2012/02/warm.html: {}
 https://nicolas-hoizey.com/2012/02/un-avant-gout-des-possibilites-de-l-ipad-3.html: {}
 https://nicolas-hoizey.com/2012/03/utiliser-spip-3-chez-alwaysdata.html:
   https://www.alwaysdata.com/: false
-  http://wiki.alwaysdata.com/wiki/Activer_une_extension_PHP_pr%C3%A9-install%C3%A9e: false
   http://wiki.alwaysdata.com/wiki/Activer_une_extension_PHP_pr: false
 https://nicolas-hoizey.com/2012/03/de-la-dance-hip-hop-lumineuse.html:
   https://twitter.com/codepo8/status/180626257938100224: false
@@ -2472,10 +2216,9 @@ https://nicolas-hoizey.com/2012/03/de-la-dance-hip-hop-lumineuse.html:
 https://nicolas-hoizey.com/2012/03/mon-premier-time-lapse.html:
   http://en.wikipedia.org/wiki/Time-lapse_photography: false
   http://fr.wikipedia.org/wiki/Villerville: false
-  http://fr.wikipedia.org/wiki/Acc%C3%A9l%C3%A9r%C3%A9: false
+  http://fr.wikipedia.org/wiki/Acc: false
   https://twitter.com/didardou: false
   http://www.lightroom-pas-a-pas.com/time-lapse-avec-lightroom-et-quicktime/: false
-  http://fr.wikipedia.org/wiki/Acc: false
 https://nicolas-hoizey.com/2012/04/my-best-profile.html: {}
 https://nicolas-hoizey.com/2012/04/l-atelier-miniature.html:
   http://www.mimlyon.com/: false
@@ -2487,30 +2230,21 @@ https://nicolas-hoizey.com/2012/05/sud-web-c-est-bientot-et-vous-devez-y-etre.ht
   http://sudweb.fr/2012/inscription/: false
 https://nicolas-hoizey.com/2012/05/la-plaza-de-toros-a-ronda-en-andalousie.html: {}
 https://nicolas-hoizey.com/2012/06/d-autres-visions-de-la-tour-eiffel.html: {}
-https://nicolas-hoizey.com/2012/07/vooza-parodie-delicieusement-les-startups-web.html:
-  http://www.vooza.com/: false
-  http://content.bitsontherun.com/players/ykEIdbyX-DnUnfcRt.html: false
-  http://content.bitsontherun.com/players/BU56dxOZ-DnUnfcRt.html: false
 https://nicolas-hoizey.com/2012/07/renault-des-voitures-a-vivre-des-sensations-fortes.html: {}
 https://nicolas-hoizey.com/2012/07/reconcilier-seo-et-webperf-au-niveau-des-redirections-de-sous-domaines.html:
   https://checklists.opquast.com/seo/criteria/16253/: false
-  http://gasteroprod.com/](http://gasteroprod.com/: false
-  http://www.gasteroprod.com/](http://www.gasteroprod.com/: false
+  http://gasteroprod.com/: false
+  http://www.gasteroprod.com/: false
   http://no-www.org/: false
   http://gasteroprod.com/$1: false
   http://developer.yahoo.com/performance/rules.html/: false
   https://developers.google.com/speed/docs/best-practices/rtt: false
   http://webpagetest.org/: false
   http://fnac.fr/: false
-  http://fnac.fr/](http://fnac.fr/: false
-  http://www.fnac.com/](http://www.fnac.com/: false
-  http://my.opera.com/karlcow/blog/index.dml/tag/user%20agent%20sniffing: false
-  http://www.useragentstring.com/pages/Googlebot/: false
-  https://checklists.opquast.com/webperf/workshops/criterion/19918: false
-  http://gasteroprod.com/: false
-  http://www.gasteroprod.com/: false
   http://www.fnac.com/: false
   http://my.opera.com/karlcow/blog/index.dml/tag/user: false
+  http://www.useragentstring.com/pages/Googlebot/: false
+  https://checklists.opquast.com/webperf/workshops/criterion/19918: false
 https://nicolas-hoizey.com/2012/07/montessori-c-est-fou.html:
   http://www.321fastdraw.com/: false
   http://ateliergrainedecurieux.blogspot.fr/: false
@@ -2521,8 +2255,6 @@ https://nicolas-hoizey.com/2012/07/forcer-la-visibilite-du-bouton-de-fermeture-d
 https://nicolas-hoizey.com/2012/08/vibro-kore-hommage-musical-au-vibroboy-de-jan-kounen.html:
   http://fr.wikipedia.org/wiki/Vibroboy: false
   http://fr.wikipedia.org/wiki/Jan_Kounen: false
-  ? http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F54835396&auto_play=false&show_artwork=true&color=ff7700
-  : false
   http://w.soundcloud.com/player/?url=http: false
 https://nicolas-hoizey.com/2012/08/homebrew-sur-mountain-lion.html:
   http://www.apple.com/fr/osx/whats-new/features.html: false
@@ -2561,7 +2293,6 @@ https://nicolas-hoizey.com/2012/11/itunes-match-tronque-les-morceaux-de-musique.
   https://www.google.fr/search?q=itunes+match+truncated: false
 https://nicolas-hoizey.com/2013/01/dans-une-vie-anterieure-j-ai-ete-animateur-radio.html:
   http://eisti.fr/: false
-  https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F3287800: false
   https://w.soundcloud.com/player/?url=http: false
 https://nicolas-hoizey.com/2013/01/l-avenir-du-web-se-prepare-aujourd-hui.html:
   http://twikito.com/: false
@@ -2584,13 +2315,13 @@ https://nicolas-hoizey.com/2013/02/de-nouvelles-fontes-sur-gastero-prod.html:
   http://fontdeck.com/: false
   https://typekit.com/: false
   http://www.google.com/webfonts: false
-  http://fr.wikipedia.org/wiki/Empattement_%28typographie%29: false
+  http://fr.wikipedia.org/wiki/Empattement_: false
   http://www.codestyle.org/css/font-family/sampler-CombinedResultsFull.shtml: false
   https://www.google.fr/search?q=web+safe+font+stack: false
   http://www.awayback.com/revised-font-stack/: false
   http://sushiandrobots.com/: false
   http://fr.wikipedia.org/wiki/Hoefler_Text: false
-  http://fr.wikipedia.org/wiki/Lin%C3%A9ale: false
+  http://fr.wikipedia.org/wiki/Lin: false
   http://iosfonts.com/: false
   http://www.linotype.com/1116/aboutthefont.html: false
   http://fr.wikipedia.org/wiki/Adrian_Frutiger: false
@@ -2599,8 +2330,6 @@ https://nicolas-hoizey.com/2013/02/de-nouvelles-fontes-sur-gastero-prod.html:
   http://www.dailymotion.com/video/xfpaqk_la-typographie-comme-outil-de-design-david-rault_tech: false
   https://twitter.com/mariejulien: false
   https://twitter.com/mariejulien/statuses/354870574595584000: false
-  http://fr.wikipedia.org/wiki/Empattement_: false
-  http://fr.wikipedia.org/wiki/Lin: false
 https://nicolas-hoizey.com/2013/02/glitches.html:
   https://twitter.com/omansour/status/300524236202721280: false
   https://www.youtube.com/user/CorridorDigital: false
@@ -2612,9 +2341,8 @@ https://nicolas-hoizey.com/2013/02/les-bonnes-pratiques-webperf-toujours-sous-la
   http://www.clever-age.com/veille/reactions/pagespeed-et-yslow-ne-sont-pas-des-indices-de-performance.html: false
   http://twitter.com/kjoly: false
 https://nicolas-hoizey.com/2013/02/le-ver-est-dans-la-pomme.html:
-  http://leverestdanslapomme.tumblr.com/](http://leverestdanslapomme.tumblr.com/: false
-  http://leverestdanslapomme.tumblr.com/submit: false
   http://leverestdanslapomme.tumblr.com/: false
+  http://leverestdanslapomme.tumblr.com/submit: false
 https://nicolas-hoizey.com/2013/03/lachez-prise.html:
   http://romy.tetue.net/stop-arial-11px: false
   https://twitter.com/tetue: false
@@ -2633,8 +2361,6 @@ https://nicolas-hoizey.com/2013/05/faut-il-generaliser-le-https.html:
   http://christianheilmann.com/2011/12/06/that-javascript-not-available-case/: false
 https://nicolas-hoizey.com/2013/05/matraquage-publicitaire.html:
   http://adblockplus.org/: false
-  ? http://www.cmswire.com/cms/customer-experience/econsultancy-report-how-to-optimize-for-mobile-customer-experience-020960.php?mkt_tok=3RkMMJWWfF9wsRoku63NZKXonjHpfsX57uglWa63lMI%2F0ER3fOvrPUfGjI4ARcBiI%2BSLDwEYGJlv6SgFTbDDMblp27gPXRA%3D
-  : false
   ? http://www.cmswire.com/cms/customer-experience/econsultancy-report-how-to-optimize-for-mobile-customer-experience-020960.php?mkt_tok=3RkMMJWWfF9wsRoku63NZKXonjHpfsX57uglWa63lMI
   : false
 https://nicolas-hoizey.com/2013/07/how-google-is-killing-organic-search.html:
@@ -2665,7 +2391,6 @@ https://nicolas-hoizey.com/2013/09/gerer-des-commentaires-sur-un-blog-statique.h
   https://twitter.com/bobmaerten/statuses/378119926089011200: false
   https://twitter.com/bobmaerten/statuses/378120095614386176: false
   https://twitter.com/nhoizey/statuses/378119810967937024: false
-  https://twitter.com/elpep/statuses/378122556991373312: false
   https://twitter.com/jygastaud/statuses/378123457093206016: false
   https://twitter.com/j0k/statuses/378120112550584321: false
   https://twitter.com/j0k/statuses/378123699594870784: false
@@ -2677,7 +2402,7 @@ https://nicolas-hoizey.com/2013/09/gerer-des-commentaires-sur-un-blog-statique.h
 https://nicolas-hoizey.com/2013/10/un-petit-pas-pour-l-em-un-grand-pas-pour-le-web.html: {}
 https://nicolas-hoizey.com/2013/10/ma-conference-a-paris-web-2013.html:
   http://marieguillaumet.com/refonte-mon-portfolio-du-responsive-en-em-seconde-partie/: false
-  http://www.flickr.com/photos/parisweb/10401233525/: false
+  https://www.flickr.com/photos/parisweb/10401233525/: false
   http://twitter.com/Fab_incident: false
   http://marieguillaumet.com/: false
   http://marieguillaumet.com/tag/portfolioofdoom/: false
@@ -2690,9 +2415,8 @@ https://nicolas-hoizey.com/2013/10/ma-conference-a-paris-web-2013.html:
   "//fr.slideshare.net/slideshow/embed_code/key/v16thp4qiLTOXH": false
   https://speakerdeck.com/nhoizey/un-petit-pas-pour-lem-un-grand-pas-pour-le-web-paris-web-2013: false
   "//speakerdeck.com/assets/embed.js": false
-  http://lanyrd.com/2013/parisweb/sckdfg/: false
   https://noti.st/nhoizey/HDbr1q/un-petit-pas-pour-l-em-un-grand-pas-pour-le-web: false
-  https://www.flickr.com/photos/parisweb/10401233525/: false
+  http://lanyrd.com/2013/parisweb/sckdfg/: false
 https://nicolas-hoizey.com/2013/10/responsive-icons-with-svg.html:
   http://blog.cloudfour.com/media-queries-in-svg-images/: false
   http://www.joeharrison.co.uk/: false
@@ -2719,7 +2443,6 @@ https://nicolas-hoizey.com/2013/10/responsive-icons-with-svg.html:
 https://nicolas-hoizey.com/2013/11/virer-le-pac-pour-que-le-proxy-soit-un-peu-moins-palc.html:
   http://support.apple.com/kb/ht4654: false
 https://nicolas-hoizey.com/2013/11/olympus-om-d-e-m1.html:
-  http://500px.com/nhoizey: false
   http://www.naturepixel.com/canon_5d_mk2_caracteristiques_essais_photos.htm: false
   http://blog.mingthein.com/2013/09/10/olympus-om-d-e-m1-review-1/: false
   http://blog.mingthein.com/2013/09/11/the-2013-olympus-om-d-e-m1-review-2/: false
@@ -2732,7 +2455,7 @@ https://nicolas-hoizey.com/2013/11/olympus-om-d-e-m1.html:
   http://camerasize.com/compare/: false
   http://www.chassimages.com/forum/index.php/topic,192711.msg4164695.html: false
   http://www.chassimages.com/forum/index.php/topic,192711.msg4175016.html: false
-  http://www.flickr.com/photos/terakopian/9728785773/: false
+  https://www.flickr.com/photos/terakopian/9728785773/: false
   http://www.luminous-landscape.com/reviews/lenses/one_upon_a_time.shtml: false
   http://blog.mingthein.com/2013/09/13/lens-review-the-olympus-12-40/: false
   http://blog.mingthein.com/2012/09/21/olympus-60-2-8-macro/: false
@@ -2740,7 +2463,6 @@ https://nicolas-hoizey.com/2013/11/olympus-om-d-e-m1.html:
   http://blog.mingthein.com/2012/07/22/review-the-olympus-zd-751-8-for-micro-four-thirds/: false
   http://www.expertreviews.co.uk/digital-cameras/1303702/panasonic-lumix-dmc-gm1: false
   http://www.nikon-school.fr/: false
-  https://www.flickr.com/photos/terakopian/9728785773/: false
 https://nicolas-hoizey.com/2013/12/une-ode-a-l-em.html:
   http://www.24joursdeweb.fr/: false
   http://www.24joursdeweb.fr/2013/lachez-prise-sans-perdre-le-controle-grace-a-l-unite-css-em/: false
@@ -2779,12 +2501,10 @@ https://nicolas-hoizey.com/2014/04/savez-vous-ce-qu-est-un-pim.html:
 https://nicolas-hoizey.com/2014/04/l-excellent-sav-de-truffaut-via-twitter.html:
   http://www.truffaut.com/: false
   http://www.gardena.com/fr/gestion-eau/arrosage-automatique/t-1030-d/: false
-  "//www.youtube.com/embed/Kl-q-Ao7pgg": false
   https://twitter.com/GardenaGlobal: false
   https://twitter.com/Truffaut: false
-  https://twitter.com/search?q=%23fail&amp;src=hash: false
+  https://twitter.com/search?q=: false
   http://t.co/auySzsEfSB: false
-  http://t.co/auySzsEfSB</a></p>&mdash;: false
   https://twitter.com/nhoizey/statuses/457608407974170624: false
   "//platform.twitter.com/widgets.js": false
   https://twitter.com/nhoizey: false
@@ -2794,14 +2514,11 @@ https://nicolas-hoizey.com/2014/04/l-excellent-sav-de-truffaut-via-twitter.html:
   https://twitter.com/nhoizey/statuses/458946567463256064: false
   https://twitter.com/Truffaut/statuses/458948224137854976: false
   https://t.co/evL9he9fw1: false
-  https://t.co/evL9he9fw1</a>: false
   https://t.co/V5XiS7991g: false
-  https://t.co/V5XiS7991g</a>: false
   https://twitter.com/nhoizey/statuses/458959909166780416: false
   http://www.truffaut.com/services/Pages/service-apres-vente.aspx: false
   https://twitter.com/Truffaut/statuses/458960891816706048: false
   https://twitter.com/Truffaut/statuses/459069341854859265: false
-  https://twitter.com/search?q=: false
 https://nicolas-hoizey.com/2014/06/limitless.html:
   http://www.flou-sentimental.com/a-propos/: false
   http://workshops.flou-sentimental.com/: false
@@ -2810,12 +2527,11 @@ https://nicolas-hoizey.com/2014/06/les-super-delires-des-clips-d-ok-go.html:
   https://www.youtube.com/watch?v=dTAAsCNK7RA: false
   https://www.youtube.com/watch?v=qybUFnY7Y8w: false
   http://fr.wikipedia.org/wiki/Machine_de_Rube_Goldberg: false
-  https://www.youtube.com/watch?v=UJKythlXAIY],: false
+  https://www.youtube.com/watch?v=UJKythlXAIY: false
   http://fr.wikipedia.org/wiki/The_Incredible_Machine: false
   http://www.amazingalex.com/: false
   http://media.okgo.net/ttsp/FloorPlan_TV.html: false
   https://www.youtube.com/user/OkGo/videos: false
-  https://www.youtube.com/watch?v=UJKythlXAIY: false
 https://nicolas-hoizey.com/2014/06/a-blind-legend.html:
   http://fr.ulule.com/a-blind-legend/: false
   http://www.ablindlegend.com/le-son-binaural-quest-ce-que-cest/: false
@@ -2865,21 +2581,17 @@ https://nicolas-hoizey.com/2014/11/le-coup-de-soleil-de-trop.html:
 https://nicolas-hoizey.com/2014/12/un-nouveau-rubriquage-de-nouvelles-url.html: {}
 https://nicolas-hoizey.com/2014/12/des-animations-web-sans-css-ni-javascript-c-est-possible.html:
   http://www.paris-web.fr/2011/conferences/lightning-talks.php: false
-  http://jeremie.patonnier.net/post/2011/10/18/Paris-Web-2011-%3A-SVG-et-Typographie: false
+  http://jeremie.patonnier.net/post/2011/10/18/Paris-Web-2011-: false
   http://fr.wikipedia.org/wiki/RPL: false
   http://esviji.com/: false
   http://play.esviji.com/: false
-  http://codepen.io/nhoizey/pen/ogLweQ/'>Animating: false
-  http://codepen.io/nhoizey'>@nhoizey</a>: false
-  http://codepen.io'>CodePen</a>.</p>: false
+  http://codepen.io/nhoizey/pen/ogLweQ/': false
+  http://codepen.io/nhoizey': false
+  http://codepen.io': false
   "//assets.codepen.io/assets/embed/ei.js": false
   http://www.w3.org/TR/web-animations/: false
   http://snapsvg.io/: false
   https://marketplace.firefox.com/app/esviji/: false
-  http://jeremie.patonnier.net/post/2011/10/18/Paris-Web-2011-: false
-  http://codepen.io/nhoizey/pen/ogLweQ/': false
-  http://codepen.io/nhoizey': false
-  http://codepen.io': false
 https://nicolas-hoizey.com/2014/12/mes-bookmarks-migrent-de-diigo-vers-pinboard.html:
   http://twitter.com/CleverMarks: false
   http://blog.diigo.com/2014/12/04/meet-diigo-outliner-the-best-way-to-structurally-organize-your-information-and-thoughts/: false
@@ -2923,7 +2635,6 @@ https://nicolas-hoizey.com/2015/02/a-bicyclette.html:
   https://www.youtube.com/watch?v=WizGTZtjgvo: false
 https://nicolas-hoizey.com/2015/02/tgif-en-musique.html:
   https://www.youtube.com/watch?v=smTm7ESzc4k: false
-  http://fr.wikipedia.org/wiki/Dieu_merci,_c%27est_vendredi: false
   http://fr.wikipedia.org/wiki/Dieu_merci,_c: false
 https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html:
   http://caniuse.com/viewport-units: false
@@ -2933,8 +2644,7 @@ https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-pa
   https://twitter.com/yoavweiss/status/568713697306267648: false
   https://bugreport.apple.com/: false
   https://bugs.webkit.org/show_bug.cgi?id=141832: false
-  ? https://github.com/rodneyrehm/viewport-units-buggyfill/issues/13](https://github.com/rodneyrehm/viewport-units-buggyfill/issues/13
-  : false
+  https://github.com/rodneyrehm/viewport-units-buggyfill/issues/13: false
   https://twitter.com/csswg/status/571742414299246592: false
   http://lab.gasteroprod.com/vub/index-ios-overflow.html: false
   https://twitter.com/borisschapira/status/615972778236182528: false
@@ -2949,7 +2659,6 @@ https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-pa
   https://developers.google.com/web/updates/2016/12/url-bar-resizing: false
   https://adactio.com/journal/11690: false
   https://medium.com/samsung-internet-dev/toolbars-keyboards-and-the-viewports-10abcc6c3769: false
-  https://github.com/rodneyrehm/viewport-units-buggyfill/issues/13: false
 https://nicolas-hoizey.com/2015/03/esviji-v2-sera-completement-responsive.html:
   http://fr.wikipedia.org/wiki/4K: false
   http://play.esviji.com/: false
@@ -2959,8 +2668,8 @@ https://nicolas-hoizey.com/2015/05/new-york-hors-des-sentiers-battus.html:
   https://www.facebook.com/nhoizey/posts/10152678279331292: false
   http://fr.wikipedia.org/wiki/South_Street_Seaport: false
   http://www.thehighline.org/: false
-  http://fr.wikipedia.org/wiki/Coul%C3%A9e_verte_Ren%C3%A9-Dumont: false
-  http://fr.wikipedia.org/wiki/Williamsburg_%28Brooklyn%29: false
+  http://fr.wikipedia.org/wiki/Coul: false
+  http://fr.wikipedia.org/wiki/Williamsburg_: false
   http://fr.wikipedia.org/wiki/East_River_(New_York: false
   http://www.frick.org/: false
   http://fr.wikipedia.org/wiki/The_Frick_Collection: false
@@ -2972,8 +2681,6 @@ https://nicolas-hoizey.com/2015/05/new-york-hors-des-sentiers-battus.html:
   http://brooklyngrangefarm.com/: false
   https://twitter.com/axolotblog: false
   https://www.google.com/maps/d/u/0/embed?mid=zFlMnfIEzBkg.kLT5i0T7K17U: false
-  http://fr.wikipedia.org/wiki/Coul: false
-  http://fr.wikipedia.org/wiki/Williamsburg_: false
 https://nicolas-hoizey.com/2015/06/mettez-a-jour-votre-picturefill.html:
   http://responsiveimages.org/: false
   https://scottjehl.github.io/picturefill/: false
@@ -2984,9 +2691,8 @@ https://nicolas-hoizey.com/2015/06/mettez-a-jour-votre-picturefill.html:
   http://clever-institut.com/formation/formation-responsive-web-design: false
 https://nicolas-hoizey.com/2015/06/lachez-moi-avec-le-debat-digital-contre-numerique.html:
   http://clever-age.com: false
-  http://fr.wikipedia.org/wiki/Num%C3%A9rique: false
-  https://twitter.com/ElieSl/status/606040859751120896: false
   http://fr.wikipedia.org/wiki/Num: false
+  https://twitter.com/ElieSl/status/606040859751120896: false
 https://nicolas-hoizey.com/2015/06/yahoo-va-fermer-pipes-et-je-suis-bien-malheureux.html:
   http://pipes.yqlblog.net/post/120705592639/pipes-end-of-life-announcement: false
   http://pipes.yahoo.com/: false
@@ -3001,18 +2707,15 @@ https://nicolas-hoizey.com/2015/06/yahoo-va-fermer-pipes-et-je-suis-bien-malheur
   https://twitter.com/nsteinmetz/status/607081632827351040: false
 https://nicolas-hoizey.com/2015/06/les-cartes-de-visite-moo-sont-parfaites-pour-les-photographes.html:
   https://refer.moo.com/s/mkzfn: false
-  http://photosynthese.net/](http://photosynthese.net/: false
-  http://marieguillaumet.com/ma-papeterie-moo/: false
   http://photosynthese.net/: false
+  http://marieguillaumet.com/ma-papeterie-moo/: false
 https://nicolas-hoizey.com/2015/06/mon-jeu-esviji-integre-a-framagames.html:
   http://esviji.com/: false
   http://framablog.org/2015/06/18/framagames-des-jeux-pour-changer-les-idees-aux-lyceens/: false
   http://framagames.org/: false
   https://twitter.com/iamtzi/status/611796760487399424: false
-  https://fr.wikipedia.org/wiki/2048_%28jeu_vid%C3%A9o%29: false
-  http://esviji.com/](http://esviji.com/: false
-  https://marketplace.firefox.com/app/esviji: false
   https://fr.wikipedia.org/wiki/2048_: false
+  https://marketplace.firefox.com/app/esviji: false
 https://nicolas-hoizey.com/2015/06/javascript-universel-et-architecture-isomorphe.html:
   http://christianheilmann.com/2011/12/06/that-javascript-not-available-case/: false
   http://googlewebmastercentral.blogspot.com.es/2014/05/understanding-web-pages-better.html: false
@@ -3088,10 +2791,6 @@ https://nicolas-hoizey.com/2016/02/un-exemple-d-impact-des-raccourcisseurs-d-url
   http://www.lemonde.fr/technologies/article/2009/12/15/la-bataille-des-raccourcisseurs-d-adresses-web_1281072_651865.html: false
   https://indiewebcamp.com/permashortlinks: false
   https://twitter.com/TechCrunch/status/700559714762018816: false
-  ? http://techcrunch.com/2016/02/18/google-opens-its-cloud-vision-api-to-all-developers/](http://techcrunch.com/2016/02/18/google-opens-its-cloud-vision-api-to-all-developers/
-  : false
-  https://t.co/9EJqYiRxGA](https://t.co/9EJqYiRxGA: false
-  http://tcrn.ch/1UaOheF](http://tcrn.ch/1UaOheF: false
   http://techcrunch.com/2016/02/18/google-opens-its-cloud-vision-api-to-all-developers/: false
   https://t.co/9EJqYiRxGA: false
   http://tcrn.ch/1UaOheF: false
@@ -3113,12 +2812,9 @@ https://nicolas-hoizey.com/2016/06/so-long-cloudflare-and-thanks-for-all-the-fis
   https://www.cloudflare.com/plans/: false
   http://forum.alwaysdata.com/viewtopic.php?id=4631: false
   https://github.com/kuba/simp_le: false
-  https://nicolas-hoizey.com/](https://nicolas-hoizey.com/: false
-  https://esviji.com/](https://esviji.com/: false
-  https://play.esviji.com/](https://play.esviji.com/: false
-  https://nicolas-hoizey.com/$1: false
   https://nicolas-hoizey.com/: false
   https://play.esviji.com/: false
+  https://nicolas-hoizey.com/$1: false
 https://nicolas-hoizey.com/2016/07/tout-change-rien-ne-change.html:
   https://nicolas-hoizey.com/a-propos/du-site.html: false
   https://jekyllrb.com/news/2015/10/26/jekyll-3-0-released/: false
@@ -3149,7 +2845,6 @@ https://nicolas-hoizey.com/2016/08/soignez-votre-lisibilite-avec-des-textes-de-l
   http://baymard.com/blog/line-length-readability: false
   http://webtypography.net/2.1.2: false
   http://webtypography.net/: false
-  http://nerd.vasilis.nl/code/measure-help/>: false
   http://nerd.vasilis.nl/code/measure-help/: false
 https://nicolas-hoizey.com/2016/08/a-bridge-not-so-far.html: {}
 https://nicolas-hoizey.com/2016/08/faciliteur-ou-facilitateur.html:
@@ -3318,7 +3013,6 @@ https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-c
   https://gist.github.com/adactio/c174a4a68498e30babfd: false
   https://www.aaron-gustafson.com/notebook/crossposting-to-medium-from-jekyll/: false
   https://twitter.com/nsteinmetz/status/928183482882428928: false
-  https://twitter.com/remouk/status/928189534264754177: false
   https://pages.github.com/: false
   https://en.wordpress.com/: false
   https://indieweb.org/IndieMark: false
@@ -3330,235 +3024,17 @@ https://nicolas-hoizey.com/2018/03/optimiser-la-performance-des-images-responsiv
   ? https://speakerdeck.com/nhoizey/quelques-solutions-facilitant-la-bonne-mise-en-oeuvre-des-images-responsives-paris-webperf-meetup
   : false
   https://www.slideshare.net/nhoizey/solutions-pour-images-responsives-paris-webperf-meetup: false
-http://localhost:4000/2016/06/so-long-cloudflare-and-thanks-for-all-the-fissh.html:
-  https://developer.mozilla.org/fr/docs/Web/API/Service_Worker_API/Using_Service_Workers: false
-  https://developer.mozilla.org/fr/docs/Utiliser_Application_Cache: false
-  https://esviji.com/: false
-  https://letsencrypt.org/: false
-  https://www.cloudflare.com/: false
-  https://www.alwaysdata.com/fr/: false
-  https://www.cloudflare.com/plans/: false
-  http://forum.alwaysdata.com/viewtopic.php?id=4631: false
-  https://github.com/kuba/simp_le: false
-  https://nicolas-hoizey.com/](https://nicolas-hoizey.com/: false
-  https://esviji.com/](https://esviji.com/: false
-  https://play.esviji.com/](https://play.esviji.com/: false
-  https://nicolas-hoizey.com/$1: false
-http://localhost:4000/2016/07/tout-change-rien-ne-change.html:
-  https://nicolas-hoizey.com/a-propos/du-site.html: false
-  https://jekyllrb.com/news/2015/10/26/jekyll-3-0-released/: false
-  https://github.com/nhoizey/jekyll-picture-tag/: false
-  https://nhoizey.github.io/jekyll_post_files/: false
-  http://ben.balter.com/jekyll-style-guide/plugins/: false
-  http://guides.rubygems.org/name-your-gem/: false
-  http://macdown.uranusjr.com/: false
-  https://cloudfour.com/thinks/dont-use-picture-most-of-the-time/: false
-  https://github.com/wildlyinaccurate/jekyll-responsive-image: false
-  http://cloudinary.com/invites/lpov9zyyucivvxsnalc5/sgyyc0j14k6p0sbt51nw: false
-  https://nhoizey.github.io/jekyll-cloudinary/: false
-  https://res.cloudinary.com/nho/image/fetch/c_limit,w_720,q_auto,f_auto/https://nicolas-hoizey.com/2016/06/cloudflare.png: false
-  https://res.cloudinary.com/nho/image/fetch/c_limit,w_320,q_auto,f_auto/https://nicolas-hoizey.com/2016/06/cloudflare.png: false
-  https://res.cloudinary.com/nho/image/fetch/c_limit,w_670,q_auto,f_auto/https://nicolas-hoizey.com/2016/06/cloudflare.png: false
-  https://github.com/jekyll/jekyll/issues/5099: false
-  https://github.com/algolia/algoliasearch-jekyll: false
-  https://github.com/erossignon/jekyll-youtube-lazyloading: false
-  https://github.com/nhoizey/nicolas-hoizey.com/blob/jekyll3/_plugins/auto-embed.rb: false
-  https://github.com/algolia/algoliasearch-jekyll-hyde: false
-http://localhost:4000/2016/08/ripe.html:
-  http://www.domaine-chaumont.fr/festival_festivals: false
-http://localhost:4000/2016/08/soignez-votre-lisibilite-avec-des-textes-de-largeur-matrisee.html:
-  http://www.24joursdeweb.fr/2013/lachez-prise-sans-perdre-le-controle-grace-a-l-unite-css-em: false
-  http://www.dailymotion.com/video/xfpf08_la-macrotypographie-de-la-page-web-anne-sophie-fradier_tech: false
-  http://fr.slideshare.net/Mitternacht/la-macrotypographie-de-la-page-web-5499736: false
-  https://www.paris-web.fr/2010/conferences/macrotypographie-page-web.php: false
-  http://baymard.com/blog/line-length-readability: false
-  http://webtypography.net/2.1.2: false
-  http://webtypography.net/: false
-  http://nerd.vasilis.nl/code/measure-help/>: false
-http://localhost:4000/2016/08/a-bridge-not-so-far.html: {}
-http://localhost:4000/2016/08/faciliteur-ou-facilitateur.html:
-  http://www.larousse.fr/dictionnaires/francais/facilitateur/186370: false
-  https://fr.wiktionary.org/wiki/facilitateur: false
-  https://fr.wiktionary.org/wiki/faciliteur: false
-  https://fr.wikipedia.org/wiki/Facilitateur: false
-  https://fr.wikipedia.org/wiki/Faciliteur: false
-  https://fr.wikipedia.org/wiki/Utilisateur:Grondin: false
-  http://www.tv5monde.com/cms/chaine-francophone/lf/Merci-Professeur/p-17081-Facilitateur.htm?episode=3: false
-http://localhost:4000/2016/08/cloudinary-fait-la-promotion-de-mon-plugin-jekyll.html:
-  https://nicolas-hoizey.com/2016/07/tout-change-rien-ne-change.html: false
-  https://nhoizey.github.io/jekyll-cloudinary/: false
-  http://images-responsives.com/: false
-  https://nho.io/cloudinary-signup: false
-  https://ericportis.com/: false
-  https://twitter.com/etportis: false
-  ? http://cloudinary.com/blog/how_i_used_cloudinary_to_solve_responsive_image_needs_in_my_jekyll_website_and_shared_the_magic_in_a_plugin
-  : false
-  http://frank.taillandier.me/: false
-  https://jamstatic.fr/2016/08/31/gestion-images-responsive-avec-jekyll-cloudinary/: false
-  https://twitter.com/cloudinary/status/770970109594726401: false
-  https://twitter.com/jekyll_fr/status/771216942434705409: false
-  https://news.ycombinator.com/item?id=12398006: false
-http://localhost:4000/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html:
-  http://play.esviji.com: false
-  https://developer.mozilla.org/en-US/docs/Web/HTML/Using_the_application_cache: false
-  https://twitter.com/jaffathecake: false
-  http://www.paris-web.fr/2012/conferences/application-cache.php: false
-  http://www.paris-web.fr/: false
-  https://blog.yoav.ws/tale-of-four-caches/: false
-  https://twitter.com/adactio: false
-  https://adactio.com/journal/11730: false
-  https://resilientwebdesign.com/: false
-  https://resilientwebdesign.com/serviceworker.js: false
-  https://twitter.com/scottjehl: false
-  https://twitter.com/scottjehl/status/819263184750202884: false
-  https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-apps/: false
-  http://blog.clever-age.com/fr/2016/12/29/les-progressive-web-apps-pour-booster-ux/: false
-  http://caniuse.com/: false
-  https://www.webpagetest.org/result/170111_P9_D0V3/: false
-  https://twitter.com/tkadlec: false
-  https://whatdoesmysitecost.com/test/170111_P9_D0V3: false
-  https://www.paris-web.fr/2016/conferences/www-world-wide-web-not-wealthy-westerners-web.php: false
-  https://twitter.com/brucel: false
-  https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk: false
-  https://developers.google.com/web/updates/2016/12/lighthouse-dbw: false
-  https://twitter.com/hsablonniere: false
-  https://github.com/GoogleChrome/lighthouse/issues/584: false
-  https://twitter.com/paul_irish: false
-  https://twitter.com/deanohume: false
-  http://deanhume.com/home/blogpost/service-workers--save-your-users-data-using-the-save-data-header/10139: false
-  https://www.soasta.com/blog/page-bloat-average-web-page-2-mb/: false
-  https://github.com/GoogleChrome/lighthouse/pull/1759: false
-http://localhost:4000/2017/01/lister-des-contenus-similaires-avec-jekyll.html:
-  https://jekyllrb.com/docs/configuration/: false
-  https://en.wikipedia.org/wiki/Latent_semantic_analysis: false
-  https://jekyllrb.com/docs/variables/: false
-  https://jekyllrb.com/docs/history/: false
-  https://jekyllrb.com/docs/upgrading/2-to-3/: false
-  https://github.com/jekyll/classifier-reborn: false
-  http://stackoverflow.com/questions/30038899/jekyll-build-stuck-in-rebuilding-index-stage: false
-  https://github.com/alfanick/jekyll-related-posts: false
-  https://github.com/alfanick/jekyll-related-posts/issues/3: false
-  http://stackoverflow.com/a/35495234/717195: false
-  http://footle.org/2014/11/06/speeding-up-jekylls-lsi/: false
-  http://www.gnu.org/software/gsl/: false
-  https://rubygems.org/gems/gsl: false
-  https://github.com/nhoizey/nicolas-hoizey.com/blob/master/Gemfile: false
-http://localhost:4000/2017/02/mettre-a-jour-les-plugins-jekyll-sans-danger.html:
-  https://bundler.io/: false
-  https://jekyllrb.com/docs/plugins/: false
-  https://github.com/pattex/jekyll-tagging.git: false
-  https://rubygems.org/: false
-  https://rubygems.org/..........: false
-  https://rubygems.org/..: false
-  https://rubygems.org/.: false
-  https://github.com/jekyll/jekyll-assets/blob/81a2c709938d53333dfe2898e842b4d9a2d72f9a/Gem.gemspec: false
-  https://github.com/bundler/bundler/pull/4980: false
-http://localhost:4000/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html:
-  https://github.com/nhoizey/macOS-init: false
-  https://github.com/nicolinuxfr/macOS-post-installation: false
-  https://github.com/Homebrew/homebrew-bundle: false
-  https://twitter.com/oncletom: false
-  https://www.macg.co/logiciels/2017/01/un-script-pour-configurer-automatiquement-un-nouveau-mac-96652: false
-  http://brew.sh: false
-  https://caskroom.github.io: false
-  https://github.com/mas-cli/mas: false
-  https://github.com/lra/mackup: false
-  https://github.com/nhoizey/macOS-init/archive/master.zip: false
-  https://github.com/nhoizey/macOS-init/blob/master/post-install.sh: false
-  http://fr.wikihow.com/ouvrir-le-Terminal-sur-un-Mac: false
-  https://github.com/nhoizey/macOS-init/blob/master/post-cloud.sh: false
-  https://nhoizey.github.io/macOS-init/run.sh: false
-http://localhost:4000/2017/07/so-long-disqus-hello-webmentions.html:
-  https://nicolas-hoizey.com/2013/09/gerer-des-commentaires-sur-un-blog-statique.html: false
-  https://www.spip.net/en_rubrique25.html: false
-  https://gastero-prod.disqus.com/admin/universalcode/: false
-  https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index: false
-  https://jmperezperez.com/medium-image-progressive-loading-placeholder/: false
-  https://www.dareboost.com/: false
-  https://github.com/nico3333fr/CSP-useful/tree/master/csp-for-third-party-services: false
-  http://geek-and-poke.com/geekandpoke/2010/12/21/the-free-model.html: false
-  https://twitter.com/ChapitreOnze/status/890507297780367360: false
-  https://twitter.com/pathawks: false
-  https://github.com/pathawks/jekyll-disqus-comments: false
-  https://github.com/nhoizey/nicolas-hoizey.com/tree/master/_comments: false
-  https://github.com/nhoizey/nicolas-hoizey.com/blob/master/_includes/comments.html: false
-  https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html: false
-  https://twitter.com/rachelandrew: false
-  https://twitter.com/rachelandrew/status/882224351688482816: false
-  https://twitter.com/adactio: false
-  https://adactio.com/journal/6469: false
-  https://www.w3.org/TR/webmention/: false
-  https://indieweb.org/: false
-  https://twitter.com/drewm: false
-  https://allinthehead.com/retro/378/implementing-webmentions: false
-  https://indieweb.org/Vouch: false
-  https://twitter.com/jamesrichmanx: false
-  https://wptavern.com/is-w3c-replicating-the-wordpress-pingback-system: false
-  https://webmention.io/: false
-  https://github.com/aaronpk/webmention.io: false
-  https://twitter.com/aaronpk: false
-  https://brid.gy/: false
-  https://github.com/snarfed/bridgy: false
-  http://www.urbandictionary.com/define.php?term=shareaholic: false
-  https://aaronparecki.com/gps/: false
-  https://aaronparecki.com/ate: false
-  https://twitter.com/aarongustafson: false
-  https://github.com/aarongustafson/jekyll-webmention_io/: false
-  https://aaronparecki.com/2017/07/19/24/webmention-io: false
-  https://indieweb.org/block: false
-  https://www.aaron-gustafson.com/notebook/your-site-should-be-a-pwa/: false
-  https://indieweb.org/facepile: false
-  https://github.com/aarongustafson/jekyll-webmention_io/issues/24: false
-  https://timkadlec.com/2018/01/owning-my-own-content/: false
-http://localhost:4000/2017/10/chrome-fails-showing-big-emojis.html:
-  https://bugs.chromium.org/p/chromium/issues/detail?id=719648: false
-  https://twitter.com/TobiReif: false
-  https://tobireif.com/posts/maximum_font_size_for_emoji/: false
-  https://mydevice.io/devices/: false
-http://localhost:4000/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html:
-  https://medium.com/: false
-  https://www.blogger.com/: false
-  https://medium.com/@ev/writing-in-medium-df8eac9f4a5e: false
-  https://medium.com/@andrhia/the-problem-with-medium-336300490cbb: false
-  https://medium.com/policy/medium-terms-of-service-9db0094a1e0f: false
-  https://twitter.com/poshaughnessy/: false
-  https://twitter.com/poshaughnessy/status/927836002915356672: false
-  https://gizmodo.com/search-for-bisexual-on-twitter-right-now-and-no-news-1820161061: false
-  https://indieweb.org/: false
-  https://remysharp.com/2016/12/22/cool-uris-dont-change: false
-  https://help.medium.com/hc/en-us/articles/217991468-SEO-and-duplicate-content: false
-  https://indieweb.org/POSSE: false
-  https://twitter.com/nhoizey: false
-  https://www.facebook.com/nhoizey: false
-  https://nicolas-hoizey.com/atom.xml: false
-  https://ifttt.com/: false
-  https://buffer.com/: false
-  https://en.wikipedia.org/wiki/Content_delivery_network: false
-  https://help.medium.com/hc/en-us/articles/214550207-Import-post: false
-  https://medium.com/@nhoizey/chrome-fails-showing-big-emojis-8b274d98f17b: false
-  https://help.medium.com/hc/en-us/sections/115001484747-Editing-formatting: false
-  https://github.com/Medium/medium-api-docs: false
-  https://adactio.com/journal/9694: false
-  https://gist.github.com/adactio/c174a4a68498e30babfd: false
-  https://www.aaron-gustafson.com/notebook/crossposting-to-medium-from-jekyll/: false
-  https://twitter.com/nsteinmetz/status/928183482882428928: false
-  https://twitter.com/remouk/status/928189534264754177: false
-  https://pages.github.com/: false
-  https://en.wordpress.com/: false
-  https://indieweb.org/IndieMark: false
-  https://twitter.com/nhoizey/status/932291964434898944: false
-  https://twitter.com/tkadlec/status/949340118489460739: false
-  https://timkadlec.com/2018/01/owning-my-own-content/: false
-http://localhost:4000/2018/03/optimiser-la-performance-des-images-responsives.html:
-  https://www.clever-age.com/fr/news/soiree-performances-web-paris-mars-2018/: false
-  ? https://speakerdeck.com/nhoizey/quelques-solutions-facilitant-la-bonne-mise-en-oeuvre-des-images-responsives-paris-webperf-meetup
-  : false
-  https://www.slideshare.net/nhoizey/solutions-pour-images-responsives-paris-webperf-meetup: false
+https://nicolas-hoizey.com/2018/05/technical-credit.html:
+  https://www.stillbreathing.co.uk/about: false
+  https://www.stillbreathing.co.uk/2016/10/13/technical-credit: false
+  https://www.opquast.com/20120531web-quality-ux-best-practices/: false
+https://nicolas-hoizey.com/2018/05/twitter-search.html:
+  https://twitter.com/nhoizey/status/996708858734235648: false
+https://nicolas-hoizey.com/2018/05/contextes-opquast.html:
+  https://twitter.com/ElieSl/: false
+  https://twitter.com/opquast/: false
+  https://www.opquast.com/decider-connaissance-de-cause/: false
 https://nicolas-hoizey.com/2018/06/users-do-change-font-size.html:
-  https://twitter.com/VamptVo: false
-  https://twitter.com/internetarchive: false
-  https://medium.com/@vamptvo/pixels-vs-ems-users-do-change-font-size-5cfb20831773: false
-http://localhost:4000/2018/06/users-do-change-font-size.html:
   https://twitter.com/VamptVo: false
   https://twitter.com/internetarchive: false
   https://medium.com/@vamptvo/pixels-vs-ems-users-do-change-font-size-5cfb20831773: false
@@ -3585,181 +3061,74 @@ https://nicolas-hoizey.com/2018/07/leaving-500px.html:
   ? https://www.theverge.com/2018/7/1/17521456/500px-marketplace-creative-commons-getty-images-visual-china-group-photography-open-access
   : false
   https://www.smugmug.com/together/: false
-  http://flickr.com/photos/nicolas-hoizey/: false
   https://flickr.com/photos/nicolas-hoizey/: false
-http://localhost:4000/2018/07/leaving-500px.html:
-  https://phototrend.fr/2015/02/attrait-flickr-face-a-500px/: false
-  https://500px.com/groups: false
-  https://twitter.com/nhoizey/status/639690058107355137: false
-  https://iso.500px.com/galleries-release/: false
-  https://twitter.com/nhoizey/status/629179061621932032: false
-  https://twitter.com/nhoizey/status/672193180251660288: false
-  https://twitter.com/nhoizey/status/608303851809161217: false
-  https://iso.500px.com/introducing-the-new-500px-experience/: false
-  https://twitter.com/nhoizey/status/727254218223026176: false
-  https://iso.500px.com/the-new-500px-for-ios-the-best-way-to-experience-500px-on-a-mobile-device/: false
-  https://twitter.com/nhoizey/status/580067068894150656: false
-  https://www.dpreview.com/articles/8278377858/500px-launches-a-licensing-marketplace-with-30-cut-for-photographers: false
-  https://bugzilla.mozilla.org/show_bug.cgi?id=1204440: false
-  https://twitter.com/nhoizey/status/651443318098907136: false
-  https://twitter.com/nhoizey/status/414541544549801984: false
-  https://thenextweb.com/entrepreneur/2015/05/23/co-founder-ex-ceo-500px-trial-errors-lessons-learned/: false
-  https://twitter.com/tchebotarev/status/1012537794894237696: false
-  https://iso.500px.com/vcg-acquisition-announcement/: false
-  https://creativecommons.org/licenses/by-nc-sa/4.0/: false
-  ? https://www.theverge.com/2018/7/1/17521456/500px-marketplace-creative-commons-getty-images-visual-china-group-photography-open-access
-  : false
-  https://www.smugmug.com/together/: false
-  http://flickr.com/photos/nicolas-hoizey/: false
 https://nicolas-hoizey.com/2018/07/could-a-macbook-pro-replace-a-mac-mini.html:
   https://www.techradar.com/news/mac-mini-still-important-to-apple-says-tim-cook: false
   https://www.macworld.co.uk/feature/mac/5-reasons-shouldnt-buy-mac-mini-3535701/: false
   https://hengedocks.com/pages/vertical-macbook-pro-2016: false
-https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html:
-  https://media.giphy.com/media/3oEjHWzZQaCrZW2aWs/giphy.gif: false
-  https://media.giphy.com/media/XsUtdIeJ0MWMo/source.gif: false
-  https://media.giphy.com/media/TseBjMu53JgWc/giphy.gif: false
-  https://media.giphy.com/media/10UHehEC098kAE/giphy.gif: false
-  https://giphy.com/embed/3oEjHWzZQaCrZW2aWs: false
-  https://giphy.com/embed/XsUtdIeJ0MWMo: false
-  https://giphy.com/embed/TseBjMu53JgWc: false
-  https://giphy.com/embed/10UHehEC098kAE: false
-https://nicolas-hoizey.com/2004/06/if-the-automobile-had-followed-the-same-development-as-the-computer.html: {}
-http://localhost:4000/2018/07/could-a-macbook-pro-replace-a-mac-mini.html:
-  https://www.techradar.com/news/mac-mini-still-important-to-apple-says-tim-cook: false
-  https://www.macworld.co.uk/feature/mac/5-reasons-shouldnt-buy-mac-mini-3535701/: false
-  https://hengedocks.com/pages/vertical-macbook-pro-2016: false
-http://localhost:4000/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html:
-  https://giphy.com/embed/3oEjHWzZQaCrZW2aWs: false
-  https://giphy.com/embed/XsUtdIeJ0MWMo: false
-  https://giphy.com/embed/TseBjMu53JgWc: false
-  https://giphy.com/embed/10UHehEC098kAE: false
+https://nicolas-hoizey.com/2018/07/lapeyre-y-en-a-pas-deux-j-espere.html: {}
+https://nicolas-hoizey.com/2018/08/just.html:
+  https://twitter.com/brad_frost: false
+  http://bradfrost.com/blog/post/just/: false
 https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html:
   https://nho.io/cloudinary-signup: false
   https://cloudinary.com/blog/reduce_size_of_animated_gifs_automatically_convert_to_webm_and_mp4: false
   https://res.cloudinary.com/demo/image/upload/kitten_fighting.gif: false
-  https://res.cloudinary.com/demo/image/upload/kitten_fighting.mp4: false
   https://res.cloudinary.com/demo/image/upload/kitten_fighting.webm: false
+  https://res.cloudinary.com/demo/image/upload/kitten_fighting.mp4: false
   https://cloudinary.com/documentation/fetch_remote_images: false
   https://nhoizey.github.io/jekyll-cloudinary/: false
   https://example.com/anim.gif`.: false
-  https://res.cloudinary.com/<cloud_name>/image/fetch/https://example.com/anim.gif: false
+  https://res.cloudinary.com/: false
+  https://example.com/anim.gif: false
   https://cloudinary.com/documentation/solution_overview: false
   https://example.com/anim.mp4`,: false
   https://cloudinary.com/documentation/image_transformations: false
-  https://res.cloudinary.com/<cloud_name>/image/fetch/f_mp4/https://example.com/anim.gif: false
-  https://example.com/anim.gif: false
-  https://res.cloudinary.com/<cloud_name>/image/fetch/f_webm/https://example.com/anim.gif: false
   https://twitter.com/colinbendell: false
   https://calendar.perfplanet.com/2017/animated-gif-without-the-gif/: false
   https://justmarkup.com/log/2018/02/gifhancement/: false
   https://justmarkup.com/log/servus-hello-and-welcome/: false
   https://www.smashingmagazine.com/2018/11/gif-to-video/: false
-  https://res.cloudinary.com/: false
-? https://nicolas-hoizey.com/2018/09/2006-07-06-open-xml-translator-clever-age-realise-pour-microsoft-corp-un-plugin-permettant-a-word-2007-d-utiliser-le-format-opendocument-odf-d-openoffice.html
-: http://www.clever-age.com/: false
-  http://www.microsoft.com/presspass/press/2006/jul06/07-06OpenSourceProjectPR.mspx: false
-  http://sourceforge.net/projects/odf-converter: false
-  http://www.clubic.com/actualite-36315-microsoft-etend-l-interoperabilite-entre-documents.html: false
-  http://www.pcinpact.com/actu/news/29915-Interoperabilite-Microsoft-souvre-enfin-a-Op.htm: false
-  http://linuxfr.org/2006/07/06/21067.html: false
-  http://linuxfr.org/~snt/22110.html: false
-  http://www.generation-nt.com/actualites/16595/microsoft-open-document-office-openoffice-sun-microsystems/: false
-  http://www.lemondeinformatique.fr/actualites/lire-microsoft-annonce-l-interoperabilite-odf-openxml-20010.html: false
-  http://www.vnunet.fr/actualite/tpepme_-_business/strategies_et_marches/20060706006: false
-  http://www.01net.com/article/321860.html: false
-  http://www.zdnet.fr/actualites/informatique/0,39040745,39362035,00.htm?xtor=1: false
-  http://standblog.org/blog/2006/07/10/93114850-actu-des-standards-et-des-formats-ouverts: false
-  http://blogs.msdn.com/brian_jones/archive/2006/07/05/657510.aspx: false
-  http://digg.com/software/Microsoft_to_Support_OpenDocument!: false
-  http://arstechnica.com/journals/microsoft.ars/2006/7/6/4538: false
-  http://www.theregister.co.uk/2006/07/06/microsoft_odf_interoperability/: false
-  http://it.slashdot.org/it/06/07/06/139243.shtml: false
-  http://www.groklaw.net/article.php?story=20060706064747376: false
-  http://www.microsoftmonitor.com/archives/016375.html: false
-  http://www.vnunet.com/vnunet/news/2159846/microsoft-flip-flops-odf: false
-  http://www.upi.com/Hi-Tech/view.php?StoryID=20060706-010521-9677r: false
-  http://www.pcworld.idg.com.au/index.php/id;1131017534;fp;16;fpid;0: false
-  http://www.consortiuminfo.org/standardsblog/article.php?story=20060706092209358: false
-  http://blogs.guardian.co.uk/technology/archives/2006/07/07/microsoft_announces_open_document_support_for_office_2007.html: false
-  http://sourceforge.net/projects/ooo-word-filter/: false
-  http://www.cio.com/blog_view.html?CID=22737: false
-  http://www.idg.pl/news/95698.html: false
-  http://itbiznes.pl/art20876.html: false
-  http://7thguard.net/news.php?id=5179: false
-  http://sourceforge.net/project/stats/detail.php?group_id=169337&ugn=odf-converter&type=prdownload&mode=week&package_id=0: false
-  http://www.clever-age.com.pl/: false
+https://nicolas-hoizey.com/links/2018/09/software-disenchantment.html: {}
 https://nicolas-hoizey.com/2018/10/the-treasure-behind-the-castle-walls.html:
-  https://en.wikipedia.org/wiki/Maciej_Ceg%C5%82owski: false
+  https://en.wikipedia.org/wiki/Maciej_Ceg: false
   https://re-publica.com/en: false
   http://idlewords.com/talks/notes_from_an_emergency.htm: false
   https://www.youtube.com/watch?v=rSrLjb3k1II: false
-  https://en.wikipedia.org/wiki/Maciej_Ceg: false
 https://nicolas-hoizey.com/2018/10/100000-tweets.html:
+  https://twitter.com/nhoizey/status/1055058216298651650: false
   https://twitter.com/nhoizey/status/77754112: false
   https://twitter.com/nhoizey/status/782656417: false
-  https://twitter.com/search?q=from%3Anhoizey%20since%3A2007-05-01%20until%3A2008-04-10&src=typed_query&f=live: false
-  https://nicolas-hoizey.com/atom.xml: false
-  https://twitter.com/search?q=from%3Anhoizey%20%23keepItTo200&src=typed_query&f=live: false
-  https://twitter.com/nhoizey/status/793955633733189632: false
-  https://www.vox.com/culture/2018/9/20/17876098/twitter-chronological-timeline-back-finally: false
-  http://apps-of-a-feather.com/: false
-  https://www.fastcompany.com/40547818/did-we-create-this-monster-how-twitter-turned-toxic: false
-  https://en.wikipedia.org/wiki/Mastodon_(software: false
-  https://cafe.des-blogueurs.org/@nhoizey: false
-  https://twitter.com/nhoizey/following: false
-  https://twitter.com/nhoizey/status/1055049153615724545: false
-  https://twitter.com/nhoizey/status/1055058216298651650: false
   https://twitter.com/search?q=from: false
-https://nicolas-hoizey.com/2018/05/technical-credit.html:
-  https://www.stillbreathing.co.uk/about: false
-  https://www.stillbreathing.co.uk/2016/10/13/technical-credit: false
-  https://www.opquast.com/20120531web-quality-ux-best-practices/: false
-https://nicolas-hoizey.com/2018/05/twitter-search.html:
-  https://twitter.com/nhoizey/status/996708858734235648: false
-https://nicolas-hoizey.com/2018/05/contextes-opquast.html:
-  https://twitter.com/ElieSl/: false
-  https://twitter.com/opquast/: false
-  https://www.opquast.com/decider-connaissance-de-cause/: false
-https://nicolas-hoizey.com/2018/08/just.html:
-  https://twitter.com/brad_frost: false
-  http://bradfrost.com/blog/post/just/: false
-https://nicolas-hoizey.com/2018/11/2018-10-24-100000-tweets.html:
-  https://twitter.com/nhoizey/status/1055058216298651650: false
-  https://twitter.com/nhoizey/status/77754112: false
-  https://twitter.com/nhoizey/status/782656417: false
-  https://twitter.com/search?q=from%3Anhoizey%20since%3A2007-05-01%20until%3A2008-04-10&src=typed_query&f=live: false
   https://nicolas-hoizey.com/atom.xml: false
   https://twitter.com/nhoizey/following: false
-  https://twitter.com/search?q=from%3Anhoizey%20%23keepItTo200&src=typed_query&f=live: false
   https://twitter.com/nhoizey/status/793955633733189632: false
   https://www.vox.com/culture/2018/9/20/17876098/twitter-chronological-timeline-back-finally: false
   http://apps-of-a-feather.com/: false
   https://www.fastcompany.com/40547818/did-we-create-this-monster-how-twitter-turned-toxic: false
   https://en.wikipedia.org/wiki/Mastodon_(software: false
   https://cafe.des-blogueurs.org/@nhoizey: false
-https://nicolas-hoizey.com/links/2018/12/metrics-from-1m-sites.html: {}
-https://nicolas-hoizey.com/links/2018/12/should-i-use-javascript-to-load-my-web-fonts.html: {}
-https://nicolas-hoizey.com/links/2018/11/it-s-not-about-the-device.html: {}
-https://nicolas-hoizey.com/links/2018/11/why-mastodon-is-defying-the-critical-mass.html: {}
 https://nicolas-hoizey.com/links/2018/11/mercure-server-sent-live-updates-protocol-and-reference-implementation.html: {}
+https://nicolas-hoizey.com/links/2018/11/why-mastodon-is-defying-the-critical-mass.html: {}
+https://nicolas-hoizey.com/links/2018/11/it-s-not-about-the-device.html: {}
+https://nicolas-hoizey.com/links/2018/12/should-i-use-javascript-to-load-my-web-fonts.html: {}
+https://nicolas-hoizey.com/links/2018/12/metrics-from-1m-sites.html: {}
 https://nicolas-hoizey.com/links/2018/12/language-icon.html: {}
-https://nicolas-hoizey.com/links/2018/09/software-disenchantment.html: {}
-https://nicolas-hoizey.com/links/2018/12/what-if.html: {}
-https://nicolas-hoizey.com/links/2018/12/your-apps-know-where-you-were-last-night-and-they-re-not-keeping-it-secret.html: {}
 https://nicolas-hoizey.com/links/2018/12/design-with-difficult-data.html: {}
 https://nicolas-hoizey.com/links/2018/12/making-password-managers-play-ball-with-your-login-form.html: {}
+https://nicolas-hoizey.com/links/2018/12/what-if.html: {}
+https://nicolas-hoizey.com/links/2018/12/your-apps-know-where-you-were-last-night-and-they-re-not-keeping-it-secret.html: {}
 https://nicolas-hoizey.com/links/2018/12/css-indexes-a-listing-of-every-term-defined-by-css-specs.html: {}
 https://nicolas-hoizey.com/links/2018/12/the-average-web-page-is-3mb-how-much-should-we-care.html: {}
-https://nicolas-hoizey.com/links/2018/12/your-site-any-site-should-be-a-pwa.html: {}
 https://nicolas-hoizey.com/links/2018/12/is-there-a-cold-war-between-android-and-chrome-because-of-pwas.html: {}
+https://nicolas-hoizey.com/links/2018/12/your-site-any-site-should-be-a-pwa.html: {}
 https://nicolas-hoizey.com/links/2018/12/font-style-matcher.html: {}
 https://nicolas-hoizey.com/links/2018/12/jank-free-image-loads.html: {}
 https://nicolas-hoizey.com/links/2018/12/the-practical-value-of-semantic-html.html: {}
 https://nicolas-hoizey.com/links/2018/12/creating-distraction-free-reading-experiences.html: {}
 https://nicolas-hoizey.com/links/2019/01/passwords-evolved-authentication-guidance-for-the-modern-era.html: {}
-https://nicolas-hoizey.com/links/2019/01/the-rule-of-least-power.html: {}
 https://nicolas-hoizey.com/links/2019/01/flutter-the-good-the-bad-and-the-ugly.html: {}
+https://nicolas-hoizey.com/links/2019/01/the-rule-of-least-power.html: {}
 https://nicolas-hoizey.com/links/2019/01/if-it-s-interactive-it-needs-a-focus-style.html:
   https://noti.st/: false
 https://nicolas-hoizey.com/links/2019/01/on-the-importance-of-testing-with-content-blockers.html: {}
@@ -3776,6 +3145,3 @@ https://nicolas-hoizey.com/links/2019/01/signal-v-noise-exits-medium.html:
   https://indieweb.org/IndieMark: false
   https://indiewebify.me/: false
   https://signalvnoise.com/all: false
-https://nicolas-hoizey.com/2001/10/noos-y-voila.html:
-  http://www.grenouille.com/: false
-  http://www.luccas.org/: false
