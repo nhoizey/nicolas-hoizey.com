@@ -6,6 +6,7 @@
 
 .webmentions__list {
   padding: 0;
+  list-style-type: none;
 }
 
 .webmentions--likes,
@@ -19,8 +20,18 @@
     display: inline-block;
     padding: 0;
     margin: 0;
+  }
 
-    list-style-type: none;
+  a:link,
+  a:visited {
+    margin: 0;
+    display: inline-block;
+    padding: 0.1em;
+    border-radius: 0.3em;
+
+    &:hover {
+      background-color: $color-primary-lighter-1;
+    }
   }
 
   .webmention__author__photo {
