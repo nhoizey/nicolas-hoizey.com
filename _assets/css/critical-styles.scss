@@ -9,6 +9,10 @@
   :root {
     --base-duration: 0s;
   }
+
+  body {
+    scroll-behavior: auto !important;
+  }
 }
 
 // Box sizing:
