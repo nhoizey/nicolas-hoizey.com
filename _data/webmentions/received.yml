@@ -24197,3 +24197,36 @@
     type: repost
     content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/links/2019/01/signal-v-noise-exits-medium.html">https://nicolas-hoizey.com/links/2019/01/signal-v-noise-exits-medium.html</a></p>
+"/links/2019/01/the-legacy-of-firefox-os.html":
+  '1090736401027686405':
+    id: '1090736401027686405'
+    uri: https://twitter.com/nhoizey/status/1090736401027686405
+    source: twitter
+    pubdate: 2019-01-30 23:19:57.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nice_links/1090690321401417733/1090736401027686405
+      verified: true
+      verified_date: '2019-01-30T23:49:36+00:00'
+      id: 584248
+      private: false
+      data:
+        author: &614
+          name: Nicolas Hoizey
+          url: https://twitter.com/nhoizey
+          photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
+        url: https://twitter.com/nhoizey/status/1090736401027686405
+        name: 
+        content: "\U0001F517 Ben Francis: The Legacy of Firefox OS<br />\nnho.io/2GbS4Z9<br
+          />\n<br />\n#firefox-os #mozilla"
+        published: '2019-01-30T22:19:57+00:00'
+        published_ts: 1548886797
+      activity:
+        type: repost
+        sentence: Nicolas Hoizey retweeted a tweet https://nicolas-hoizey.com/links/2019/01/the-legacy-of-firefox-os.html
+        sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
+          a tweet <a href="https://nicolas-hoizey.com/links/2019/01/the-legacy-of-firefox-os.html">https://nicolas-hoizey.com/links/2019/01/the-legacy-of-firefox-os.html</a>
+      target: https://nicolas-hoizey.com/links/2019/01/the-legacy-of-firefox-os.html
+    author: *614
+    type: repost
+    content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
+      a tweet <a href="https://nicolas-hoizey.com/links/2019/01/the-legacy-of-firefox-os.html">https://nicolas-hoizey.com/links/2019/01/the-legacy-of-firefox-os.html</a></p>
