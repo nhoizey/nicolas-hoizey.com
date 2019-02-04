@@ -2835,6 +2835,7 @@ https://nicolas-hoizey.com/2016/07/tout-change-rien-ne-change.html:
   https://github.com/erossignon/jekyll-youtube-lazyloading: false
   https://github.com/nhoizey/nicolas-hoizey.com/blob/jekyll3/_plugins/auto-embed.rb: false
   https://github.com/algolia/algoliasearch-jekyll-hyde: false
+  https://nicolas-hoizey.com/about/the-website.html: false
 https://nicolas-hoizey.com/2016/08/ripe.html:
   http://www.domaine-chaumont.fr/festival_festivals: false
 https://nicolas-hoizey.com/2016/08/soignez-votre-lisibilite-avec-des-textes-de-largeur-matrisee.html:
