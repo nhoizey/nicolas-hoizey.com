@@ -1,14 +1,14 @@
 ---
+title: About this website
 layout: page
-title: À propos du site
-lang: fr
+lang: en
 ---
 
 **Ce site est statique**, c'est à dire que les pages et leurs contenus venant du même domaine sont envoyées tel quel par le serveur, sans aucune création à la volée[^perf].
 
 [^perf]: Difficile donc d'incriminer une quelconque application serveur en cas de lenteur… ;-)
 
-*Si la technique ne vous intéresse pas, vous pouvez aussi [en apprendre plus sur moi](/a-propos/).*
+*Si la technique ne vous intéresse pas, vous pouvez aussi [en apprendre plus sur moi](/about/).*
 
 # Avec Jekyll, le statique c'est fantastique
 
@@ -22,9 +22,9 @@ Pour migrer les centaines de contenus rédigés depuis 2001 en syntaxe spécifiq
 
 ## Quelques plugins
 
-De [nombreux](http://jekyllrb.com/docs/plugins/#available-plugins) [plugins](http://www.jekyll-plugins.com/) existent dans l'écosystème Jekyll pour enrichir la solution de base, mais comme partout, tous ne fonctionnent pas bien, certains imposent des modes de fonctionnement contradictoires, ou tout simplement ne sont pas suffisamment configurables. Attention, la plupart de ces plugins empêchent d'utiliser la génération automatique de pages des [Github Pages](https://help.github.com/articles/using-jekyll-with-pages/).
+De [nombreux](https://jekyllrb.com/docs/plugins/#available-plugins) [plugins](https://www.jekyll-plugins.com/) existent dans l'écosystème Jekyll pour enrichir la solution de base, mais comme partout, tous ne fonctionnent pas bien, certains imposent des modes de fonctionnement contradictoires, ou tout simplement ne sont pas suffisamment configurables. Attention, la plupart de ces plugins empêchent d'utiliser la génération automatique de pages des [Github Pages](https://help.github.com/articles/using-jekyll-with-pages/).
 
-Les images bénéficient de mon plugin [Jekyll Cloudinary](https://nhoizey.github.io/jekyll-cloudinary/) pour utiliser le service SaaS [Cloudinary](http://cloudinary.com/invites/lpov9zyyucivvxsnalc5/sgyyc0j14k6p0sbt51nw) afin de générer les différentes versions nécessaires au Responsive Web Design, tout en optimisant au mieux la performance.
+Les images bénéficient de mon plugin [Jekyll Cloudinary](https://nhoizey.github.io/jekyll-cloudinary/) pour utiliser le service SaaS [Cloudinary](https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/sgyyc0j14k6p0sbt51nw) afin de générer les différentes versions nécessaires au Responsive Web Design, tout en optimisant au mieux la performance.
 
 Concernant toujours les images, mais aussi tout autre fichier que je voudrais associer à un billet (PDF ou autre), mon plugin [jekyll-postfiles](https://nhoizey.github.io/jekyll-postfiles/) permet de les déposer dans le même endroit que le fichier Markdown, ce qui facilite grandement la publication.
 
@@ -54,7 +54,7 @@ Pour cela, plusieurs recettes ont été combinées :
 
 Pour les opérations de base type concaténation et minification des CSS et JS, plus ajout d'un hash pour forcer un cache long au navigateur, le [plugin Jekyll Assets](https://github.com/jekyll-assets/jekyll-assets), basé sur [Sprockets](https://github.com/sstephenson/sprockets#readme), est incontournable. Il permet même de facilement insérer dans le HTML généré des bouts de CSS, JS et même SVG.
 
-Pour les fontes, après avoir testé la technique [Flash Of Faux Text](http://www.zachleat.com/web/foft/) de [Zach Leatherman](https://twitter.com/zachleat), j'ai finalement abandonné les fontes chargées pour revenir à des fontes *web safe*.
+Pour les fontes, après avoir testé la technique [Flash Of Faux Text](https://www.zachleat.com/web/foft/) de [Zach Leatherman](https://twitter.com/zachleat), j'ai finalement abandonné les fontes chargées pour revenir à des fontes *web safe*.
 
 Pour les images, la syntaxe standard `<img srcset="…" sizes="…" />` générée par mon plugin [Jekyll Cloudinary](https://nhoizey.github.io/jekyll-cloudinary/) est parfaite : [elle suffit dans 95% des cas](https://cloudfour.com/thinks/dont-use-picture-most-of-the-time/){: hreflang="en"}, est plus légère dans le HTML, et plus optimisable par les navigateurs.
 

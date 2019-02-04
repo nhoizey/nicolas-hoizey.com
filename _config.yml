@@ -97,10 +97,11 @@ algolia:
     - index.html
     - search.html
     - offline.html
-    - indisponible.html
+    - offline-fallback.html
+    - about/mentions.html
     - tags/index.html
+    - links/index.html
     - tools/*
-    - links.html
 
 # Webmention
 webmentions:

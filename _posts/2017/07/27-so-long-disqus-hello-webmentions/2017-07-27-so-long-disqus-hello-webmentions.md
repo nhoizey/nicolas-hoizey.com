@@ -55,7 +55,7 @@ Of course, removing Disqus could have meant losing the comments made so far. But
 
 So, I used [Pat Hawks](https://twitter.com/pathawks)'s [jekyll-disqus-comments](https://github.com/pathawks/jekyll-disqus-comments) plugin to get a copy of all comments into [YAML data files](https://github.com/nhoizey/nicolas-hoizey.com/tree/master/_comments).
 
-I had to clean them a lot, mostly manually, because they were an HTML mess. Maybe not only because of Disqus, but also because they had already been [migrated from SPIP](/a-propos/du-site.html#avec-jekyll-le-statique-cest-fantastique){: hreflang="fr"} before.
+I had to clean them a lot, mostly manually, because they were an HTML mess. Maybe not only because of Disqus, but also because they had already been [migrated from SPIP](/about/the-website.html#avec-jekyll-le-statique-cest-fantastique){: hreflang="fr"} before.
 
 The comments are shown below posts has before[^comments], but they are now static, using [a Jekyll template](https://github.com/nhoizey/nicolas-hoizey.com/blob/master/_includes/comments.html), without Disqus being involved anymore.
 
