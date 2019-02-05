@@ -7,7 +7,7 @@ Je suis d'habitude du genre à écouter des albums plutôt que des *singles*, ma
 
 {% cloudinary casque-iphone.png %}
 
-J'ai plus de 15000 morceaux dans ma librairie iTunes — et encore, je n'ai pas fini de numériser mes centaines de CD —, donc une écoute aléatoire basique me fait passer allégrement d'un morceaux que j'adore à un autre que je déteste[^1].
+J'ai plus de 20000 morceaux dans ma librairie iTunes — et encore, je n'ai pas fini de numériser mes centaines de CD —, donc une écoute aléatoire basique me fait passer allégrement d'un morceaux que j'adore à un autre que je déteste[^1].
 
 Elle me fait aussi passer d'un genre à l'autre, du classique à la trance en passant par le jazz, le funk, le rock, les musiques ethniques du fin fond de contrées oubliées, etc. J'aime cela, peut-être influencé par [FIP](http://www.fipradio.fr/)[^2], la seule radio que je supporte, en plus de petites doses de [France Info](http://www.franceinfo.fr/) pour me tenir informé 5 minutes par jour. Mais là n'est donc pas le sujet.
 
