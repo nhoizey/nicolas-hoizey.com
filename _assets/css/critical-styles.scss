@@ -623,11 +623,11 @@ article {
 
   kbd,
   code {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Fira Code', 'Courier New', Courier, monospace;
     font-size: 0.9em;
     display: inline-block;
-    padding: 0 0.3em;
-    border-radius: 0.3em;
+    padding: 0 0.2em;
+    border-radius: 0.2em;
   }
 
   kbd {
@@ -639,7 +639,15 @@ article {
   }
 
   code.highlighter-rouge {
-    background-color: #e0e0e0;
+    background-color: $color-primary-lighter-5;
+  }
+
+  a:hover,
+  a:focus,
+  a:active {
+    code.highlighter-rouge {
+      background-color: transparent;
+    }
   }
 
   a.footnote,
