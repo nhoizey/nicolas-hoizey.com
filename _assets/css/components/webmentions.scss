@@ -71,7 +71,7 @@
     }
 
     .webmention--no-photo {
-      padding: 0.5em 0 0 0;
+      padding: 0.5em 1em 0 1em;
       @media (min-width: 40em) {
         padding: 0.5em 0 0 calc(48px + 1em);
       }
@@ -90,15 +90,19 @@
   }
 
   .webmention__source__screenshot {
-    margin: 0;
-    max-width: 300px;
-    width: 50vw;
+    margin: 0 auto 1em;
+    width: calc(90vw - 2em);
     height: auto;
     border: solid 1px #ccc;
 
     @media (min-width: 40em) {
+      width: 30vw;
       float: right;
       margin: 0 0 2em 1em;
+    }
+
+    @media (min-width: 66.666em) {
+      width: 20rem;
     }
   }
 

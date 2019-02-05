@@ -1,3 +1,4 @@
+{% assign cloudinaryPrefix = 'https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,' %}
 <div class="webmentions webmentions--likes">
   {% if webmentions.size > 0 %}
     <ol class="webmentions__list">
@@ -8,8 +9,8 @@
               <img
                 class="webmention__author__photo u-photo"
                 src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E"
-                data-src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_48,h_48/{{ webmention.author.photo }}"
-                data-srcset="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_48,h_48/{{ webmention.author.photo }} 1x, https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_96,h_96/{{ webmention.author.photo }} 2x"
+                data-src="{{ cloudinaryPrefix }}w_48,h_48/{{ webmention.author.photo }}"
+                data-srcset="{{ cloudinaryPrefix }}w_48,h_48/{{ webmention.author.photo }} 1x, {{ cloudinaryPrefix }}w_96,h_96/{{ webmention.author.photo }} 2x"
                 width= "48"
                 height="48"
                 alt="{{ webmention.author.name }} avatar" />
