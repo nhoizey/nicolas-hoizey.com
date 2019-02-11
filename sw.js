@@ -15,10 +15,7 @@ const cachedFiles = [
   '/about/the-website.html',
   '/manifest.webmanifest',
   '{% asset "non-critical-styles" @path %}',
-  {% for post in site.posts limit:1 %}
-  '{{ post.url }}',
-  {% endfor %}
-  {% for link in site.categories['links'] limit:1 %}
+  {% for link in site.categories['links'] limit:3 %}
   '{{ link.url }}',
   {% endfor %}
 ];
