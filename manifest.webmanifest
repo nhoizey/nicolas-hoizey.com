@@ -1,9 +1,9 @@
 {
   "dir": "ltr",
-  "lang": "fr",
+  "lang": "en",
   "name": "Nicolas Hoizey",
   "short_name": "N. Hoizey",
-  "description": "Recueil de créations et réflexions de Nicolas Hoizey sur la photo, le Web, etc.",
+  "description": "Passionate about the Web and photography, among many other interests.",
   "scope": "/",
   "start_url": "/?utm_source=manifest",
   "display": "standalone",
