@@ -10,19 +10,15 @@
   clear: both;
 }
 
-.list__title {
-}
-
 .list__items {
   margin: 3rem 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .list__item {
   margin: 0;
   padding: 0;
-
-  list-style-type: none;
 }
 
 .list__items--small {
