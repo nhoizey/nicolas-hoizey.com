@@ -31,18 +31,18 @@
     }
   }
 
-  p,
-  h1 {
+  .site_title {
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 1.3;
+
     margin: 0;
-    line-height: 2;
+    color: #fff;
 
     &:last-child {
       text-align: right;
     }
-  }
-
-  h1 {
-    font-size: 1em;
   }
 
   a:link,
