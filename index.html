@@ -66,17 +66,18 @@ JSON-LD for:
   <h2>Latest articles</h2>
   <section class="list articles recent">
     {% assign articles_number = 0 %}
+    {% assign year = '' %}
     {% for post in site.posts %}
       {% if articles_number < 5 %}
         {% unless post.categories contains 'links' %}
           {% include_cached post-abstract.html page=post level=3 %}
           {% assign articles_number = articles_number | plus: 1 %}
+          {% if year == '' %}
+            {% assign year = post.date | date: "%Y" %}
+          {% endif %}
         {% endunless %}
       {% endif %}
     {% endfor %}
   </section>
-  {% for post in site.posts limit:1 %}
-    {% assign year = post.date | date: "%Y" %}
-    <p>Read more articles in <a href="/{{ year }}/">the archives</a>.</p>
-  {% endfor %}
+  <p>Read more articles in <a href="/{{ year }}/">the archives</a>.</p>
 </section>
