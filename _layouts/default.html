@@ -13,7 +13,22 @@ layout: microtypo
 {% endif %}
 
 {% include_cached components/svg-sprite.html %}
-{% include_cached components/header.html %}
+
+{% asset components/header @inline %}
+<header id="header" role="banner">
+  <div class="wrap">
+    <!-- {{ page.url }} -->
+    {% if page.url == "/" or page.url == "/index.html" %}
+      <h1 class="site_title h-card" rel="me">Nicolas Hoizey</h1>
+    {% else %}
+      <p class="site_title">
+        <a href="/" title="Homepage" class="h-card" rel="me">Nicolas Hoizey</a>
+      </p>
+    {% endif %}
+    {% include_cached components/search-form.html %}
+  </div>
+</header>
+
 {% include_cached components/navigation.html %}
 
 {% if page.url == "/" or page.url == "/index.html" %}
