@@ -34,7 +34,7 @@ body {
   display: flex;
   flex-direction: column;
 
-  font-family: Georgia, 'DejaVu Serif', serif;
+  font-family: $font-serif;
   font-size: calc(0.9em + 0.5vw);
   line-height: 1.5;
   font-weight: 400;
@@ -80,7 +80,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Futura, Trebuchet MS, Arial, sans-serif;
+  font-family: $font-sans-serif;
   font-weight: bold;
   line-height: 1.3;
   margin: $baseline 0 0.5em 0;

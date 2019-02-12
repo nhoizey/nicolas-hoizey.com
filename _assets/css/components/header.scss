@@ -6,6 +6,7 @@
 
 #header {
   white-space: nowrap;
+  font-family: $font-sans-serif;
   font-size: 1.2em;
   margin: 0;
   padding: 0.2em 0;
@@ -32,7 +33,6 @@
   }
 
   .site_title {
-    font-family: Futura, Trebuchet MS, Arial, sans-serif;
     font-weight: bold;
     font-size: 1em;
     line-height: 1.3;
