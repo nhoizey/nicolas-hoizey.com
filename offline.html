@@ -5,57 +5,85 @@ title: Ces contenus sont disponibles même sans connexion
 
 <div id="offline-notification-static" class="alert alert-success">
   <p class="alert__icon"><svg class="icon"><use xlink:href="#symbol-offline" /></svg></p>
-  <p class="alert__message">Cette page liste les contenus que vous pouvez consulter <strong>même lorsque vous n'êtes pas connecté</strong>.</p>
+  <p class="alert__message">This page shows contents you can read <strong>even when you're not connected!</strong></p>
 </div>
-<p>En attendant de retrouver une connexion, vous pouvez en apprendre plus <a href="/about/">sur moi</a> ou <a href="/about/the-website.html">ce site</a>, ou lire les contenus tout de même disponibles hors connexion :</p>
-{% for post in site.posts limit:1 %}
-<script>
-let lastPostUrl = '{{ post.url }}';
-</script>
-  <article class="latest">
-    <a href="{{ post.url }}">
-      <h2>{{ post.title }}</h2>
-      {{ post.excerpt | strip_footnotes | strip_html }}
-    </a>
-    {% include_cached post-meta.html page=post %}
-  </article>
-{% endfor %}
+<p>You can for example learn more <a href="/about/">about me</a> or <a href="/about/the-website.html">this website</a>, or read contents available offline:</p>
 
-<ul id="cache-entries"></ul>
+{% asset components/list @inline %}
+{% asset components/card @inline %}
+<section class="list hidden" id="cachedLinks">
+  <h2>Links</h2>
+  <ul class="list__items"></ul>
+</section>
+<section class="list hidden" id="cachedArticles">
+  <h2>Articles</h2>
+  <ul class="list__items"></ul>
+</section>
+<section class="list hidden" id="cachedTags">
+  <h2>Tags</h2>
+  <ul class="list__items"></ul>
+</section>
+<section class="list hidden" id="cachedPages">
+  <h2>Pages</h2>
+  <ul class="list__items"></ul>
+</section>
 
 <script>
 // https://googlechrome.github.io/samples/service-worker/window-caches/
-let cacheEntriesUl = document.querySelector('#cache-entries');
 
 window.caches.keys().then(cacheNames => {
   cacheNames.forEach(cacheName => {
-    if (/\:\:pages$/.test(cacheName)) {
-      window.caches.open(cacheName).then(cache => {
-        return cache.keys();
-      })
-      .then(requests => {
-        requests.forEach(request => {
-          let path = request.url.replace(/^https?:\/\/[^\/]+\//, '/');
-          if (path !== lastPostUrl && /^\/(tags|[0-9]{4})\//.test(path)) {
-            addRequestToList(cacheName, request);
+    window.caches.open(cacheName).then(cache => {
+      return cache.keys();
+    })
+    .then(requests => {
+      requests.forEach(request => {
+        let path = request.url.replace(/^https?:\/\/[^\/]+\//, '/');
+        if (/^\/[0-9]{4}\/[0-9]{2}\/./.test(path)) {
+          addRequestToList(cacheName, request, 'cachedArticles');
+        } else {
+          if (/^\/links\/[0-9]{4}\/[0-9]{2}\/./.test(path)) {
+            addRequestToList(cacheName, request, 'cachedLinks');
+          } else {
+            if (/^\/tags\/./.test(path)) {
+              addRequestToList(cacheName, request, 'cachedTags');
+            // } else {
+            //   addRequestToList(cacheName, request, 'cachedPages');
+            }
           }
-        });
+        }
       });
-    }
+    });
   });
 });
 
-function addRequestToList(cacheName, request) {
+function addRequestToList(cacheName, request, group) {
   let url = request.url;
   let shortUrl = url.replace(/https?:\/\/[^\/]+\//, '');
 
-  let linkElement = document.createElement('a');
-  linkElement.href = url;
-  linkElement.textContent = shortUrl;
+  window.caches.open(cacheName).then(cache => {
+    cache.match(url).then(item => {
+      item.text().then(pageHtml => {
+        let pageDom = document.createElement('html');
+        pageDom.innerHTML = pageHtml;
 
-  let liElement = document.createElement('li');
-  liElement.appendChild(linkElement);
+        let pageTitle = pageDom.querySelector('title').innerText.replace(/ – Nicolas Hoizey/, '');
 
-  cacheEntriesUl.appendChild(liElement);
+        let linkElement = document.createElement('a');
+        linkElement.href = url;
+        linkElement.textContent = pageTitle;
+
+        let h3Element = document.createElement('h3');
+        h3Element.appendChild(linkElement);
+
+        let liElement = document.createElement('li');
+        liElement.className = 'list__item';
+        liElement.appendChild(h3Element);
+
+        document.querySelector('#' + group + ' ul').appendChild(liElement);
+        document.getElementById(group).classList.remove('hidden');
+      })
+    })
+  });
 }
 </script>
