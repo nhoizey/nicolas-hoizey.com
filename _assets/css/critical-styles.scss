@@ -89,7 +89,7 @@ h6 {
 
 $fontBreakpoint: 40em;
 
-$h1Increase: 3;
+$h1Increase: 2;
 h1 {
   margin-top: 0;
   font-size: calc(0.9rem + #{$h1Increase}vw);
@@ -100,7 +100,7 @@ h1 {
   }
 }
 
-$h2Increase: 2;
+$h2Increase: 1.5;
 h2 {
   font-size: calc(0.9rem + #{$h2Increase}vw);
   color: $color-primary-lighter-1;
@@ -110,7 +110,7 @@ h2 {
   }
 }
 
-$h3Increase: 1.5;
+$h3Increase: 1.2;
 h3 {
   font-size: calc(0.9rem + #{$h3Increase}vw);
   color: $color-primary-lighter-2;
