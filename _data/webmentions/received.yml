@@ -25684,7 +25684,7 @@
     id: '591181'
     uri: https://twitter.com/nice_links/status/1097841623214510081#favorited-by-33046163
     source: twitter
-    pubdate: 2019-02-19 17:21:26.000000000 +00:00
+    pubdate: 2019-02-19 18:21:26.000000000 +01:00
     raw:
       source: https://brid-gy.appspot.com/like/twitter/nice_links/1097841623214510081/33046163
       verified: true
@@ -25743,3 +25743,42 @@
     type: repost
     content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/links/2019/02/file-web-share-target.html">https://nicolas-hoizey.com/links/2019/02/file-web-share-target.html</a></p>
+"/links/2019/02/how-browsers-work-behind-the-scenes-of-modern-web-browsers.html":
+  '1098230589877092352':
+    id: '1098230589877092352'
+    uri: https://twitter.com/nhoizey/status/1098230589877092352
+    source: twitter
+    pubdate: 2019-02-20 15:39:11.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/post/twitter/nice_links/1098230589877092352
+      verified: true
+      verified_date: '2019-02-20T15:12:12+00:00'
+      id: 591554
+      private: false
+      data:
+        author: &659
+          name: Nicolas Hoizey
+          url: https://twitter.com/nhoizey
+          photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
+        url: https://twitter.com/nhoizey/status/1098230589877092352
+        name: 
+        content: |-
+          Old, but amazing, presentation of browsers internals.
+          <a class="u-mention" href="https://nho.io/2SLg39c"></a>
+          <a class="u-mention" href="https://nicolas-hoizey.com/links/2019/02/how-browsers-work-behind-the-scenes-of-modern-web-browsers.html"></a>
+        published: '2019-02-20T14:39:11+00:00'
+        published_ts: 1550673551
+      activity:
+        type: link
+        sentence: Nicolas Hoizey posted 'Old, but amazing, presentation of browsers
+          internals.' linking to https://nicolas-hoizey.com/links/2019/02/how-browsers-work-behind-the-scenes-of-modern-web-browsers.html
+        sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> posted
+          'Old, but amazing, presentation of browsers internals.' linking to <a href="https://nicolas-hoizey.com/links/2019/02/how-browsers-work-behind-the-scenes-of-modern-web-browsers.html">https://nicolas-hoizey.com/links/2019/02/how-browsers-work-behind-the-scenes-of-modern-web-browsers.html</a>
+      target: https://nicolas-hoizey.com/links/2019/02/how-browsers-work-behind-the-scenes-of-modern-web-browsers.html
+    author: *659
+    type: link
+    content: |-
+      <p>Old, but amazing, presentation of browsers internals.
+      <a class="u-mention" href="https://nho.io/2SLg39c"></a>
+      <a class="u-mention" href="https://nicolas-hoizey.com/links/2019/02/how-browsers-work-behind-the-scenes-of-modern-web-browsers.html"></a></p>
+"/links/2019/02/font-sizing-with-rem-could-be-avoided.html": {}
