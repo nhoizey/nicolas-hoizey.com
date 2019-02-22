@@ -3150,3 +3150,5 @@ https://nicolas-hoizey.com/links/2019/01/the-legacy-of-firefox-os.html: {}
 https://nicolas-hoizey.com/links/2019/02/file-web-share-target.html: {}
 https://nicolas-hoizey.com/links/2019/02/how-browsers-work-behind-the-scenes-of-modern-web-browsers.html: {}
 https://nicolas-hoizey.com/links/2019/02/font-sizing-with-rem-could-be-avoided.html: {}
+https://nicolas-hoizey.com/links/2019/02/timelines-of-the-web.html:
+  https://worldwideweb.cern.ch/timeline/: false
