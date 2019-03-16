@@ -9,7 +9,7 @@ lang: en
 </figure>
 I am passionate about **the Web and photography**, among many other interests.
 
-*If you're more intersted in technical stuff, you can learn more [about this website](/about/the-website.html).*
+*If you're more interested in technical stuff, you can learn more [about this website](/about/the-website.html).*
 
 # I love the Web
 
