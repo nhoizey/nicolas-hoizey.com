@@ -23599,7 +23599,7 @@
     id: '598795'
     uri: https://twitter.com/nhoizey/status/1106681891233640450#favorited-by-23244190
     source: twitter
-    pubdate: 2019-03-17 02:54:33.000000000 +00:00
+    pubdate: 2019-03-17 03:54:33.000000000 +01:00
     raw:
       source: https://brid-gy.appspot.com/like/twitter/nhoizey/1106681891233640450/23244190
       verified: true
@@ -26145,4 +26145,47 @@
       <a class="u-mention" href="https://nicolas-hoizey.com/links/2019/02/how-browsers-work-behind-the-scenes-of-modern-web-browsers.html"></a></p>
 "/links/2019/02/font-sizing-with-rem-could-be-avoided.html": {}
 "/links/2019/02/timelines-of-the-web.html": {}
-"/links/2019/03/sophisticated-partitioning-with-css-grid.html": {}
+"/links/2019/03/sophisticated-partitioning-with-css-grid.html":
+  '1108660664372002817':
+    id: '1108660664372002817'
+    uri: https://twitter.com/nhoizey/status/1108660664372002817
+    source: twitter
+    pubdate: 2019-03-21 10:24:34.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/post/twitter/nice_links/1108660664372002817
+      verified: true
+      verified_date: '2019-03-21T11:25:27+00:00'
+      id: 600234
+      private: false
+      data:
+        author: &671
+          name: Nicolas Hoizey
+          url: https://twitter.com/nhoizey
+          photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
+        url: https://twitter.com/nhoizey/status/1108660664372002817
+        name: 
+        content: |-
+          Amazing post by <a href="https://twitter.com/robweychert">@robweychert</a> about using Grid Layout and Quantity Queries to build a beautiful seemingly random grid!<br />
+          <br />
+          /via <a href="https://twitter.com/WalterStephanie">@WalterStephanie</a>
+          <a class="u-mention" href="https://nho.io/2TNgwIt"></a>
+          <a class="u-mention" href="https://nicolas-hoizey.com/links/2019/03/sophisticated-partitioning-with-css-grid.html"></a>
+        published: '2019-03-21T09:24:34+00:00'
+        published_ts: 1553160274
+      activity:
+        type: link
+        sentence: Nicolas Hoizey posted 'Amazing post by @robweychert about using
+          Grid Layout and Quantity Queries to bui...' linking to https://nicolas-hoizey.com/links/2019/03/sophisticated-partitioning-with-css-grid.html
+        sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> posted
+          'Amazing post by @robweychert about using Grid Layout and Quantity Queries
+          to bui...' linking to <a href="https://nicolas-hoizey.com/links/2019/03/sophisticated-partitioning-with-css-grid.html">https://nicolas-hoizey.com/links/2019/03/sophisticated-partitioning-with-css-grid.html</a>
+      target: https://nicolas-hoizey.com/links/2019/03/sophisticated-partitioning-with-css-grid.html
+    author: *671
+    type: link
+    content: |-
+      <p>Amazing post by <a href="https://twitter.com/robweychert">@robweychert</a> about using Grid Layout and Quantity Queries to build a beautiful seemingly random grid!<br />
+      <br />
+      /via <a href="https://twitter.com/WalterStephanie">@WalterStephanie</a>
+      <a class="u-mention" href="https://nho.io/2TNgwIt"></a>
+      <a class="u-mention" href="https://nicolas-hoizey.com/links/2019/03/sophisticated-partitioning-with-css-grid.html"></a></p>
+"/links/2019/03/death-to-bullshit.html": {}
