@@ -4,7 +4,12 @@
 // Link
 // ************************************************************
 
-.link .author {
+.link {
+  margin: 2rem 0;
+  padding: 0;
+}
+
+.link__author {
   margin: 0;
 
   svg {
@@ -14,12 +19,12 @@
   }
 }
 
-.link .author + h1,
-.link .author + h2 {
+.link__author + h1,
+.link__author + h2 {
   margin-top: 0;
 }
 
-.link_link {
+.link__link {
   font-size: 1.4em;
 }
 
