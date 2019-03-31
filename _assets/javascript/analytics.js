@@ -14,6 +14,7 @@
 })(window, document, "script", "//www.google-analytics.com/analytics.js", "ga");
 
 ga("create", "UA-1655999-10", "auto");
+ga("set", "transport", "beacon");
 
 if (viewport_width > 0) {
   ga("set", {
