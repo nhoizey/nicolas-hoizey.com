@@ -8,6 +8,23 @@
 
   {% include_cached assets.html %}
 
+  {% comment %} Google Analytics {% endcomment %}
+  {% if jekyll.environment == "production" %}
+    <script>
+      window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+      ga('create', 'UA-1655999-10', 'auto');
+      ga('set','transport','beacon');
+      ga('set', 'anonymizeIp', true);
+      if (viewport_width > 0) {
+        ga('set', { dimension1: screen_density, dimension2: viewport_width, dimension3: root_font_size });
+      } else {
+        ga('set', { dimension1: screen_density, dimension2: 0, dimension3: root_font_size });
+      }
+      ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  {% endif %}
+
   {% comment %} opengraph and Twitter {% endcomment %}
   <meta property="og:site_name" content="Nicolas Hoizey" />
   <meta name="twitter:card" content="summary_large_image" />
