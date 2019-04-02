@@ -1,4 +1,4 @@
-@import 'settings';
+@import "settings";
 
 // ************************************************************
 // Card
@@ -28,7 +28,7 @@
   margin: 0.2em 0;
   padding: 0;
 
-  color: $color-meta;
+  color: $color-darkgrey;
   font-size: 0.8em;
 }
 
@@ -47,18 +47,19 @@
     &:visited {
       color: $color-darkgrey;
       text-decoration: underline solid $color-grey;
+      box-shadow: none;
     }
 
     &:hover,
     &:focus {
-      color: $color-primary-lighter-4;
-      background-color: $color-primary;
+      color: $color-white;
+      background-color: $color-darkgrey;
       text-decoration: none;
     }
   }
 
   svg {
-    fill: lighten($color-meta, 20%);
+    fill: $color-grey;
     vertical-align: middle;
     margin: 0 0.2em 0 0;
     padding: 0;
