@@ -1,4 +1,4 @@
-@import 'settings';
+@import "settings";
 
 #navigation {
   font-family: $font-sans-serif;
@@ -14,8 +14,12 @@
   a:link,
   a:visited {
     display: block;
+    margin: 0;
+    padding: 0.1em;
     color: #fff;
     text-decoration: none;
+    box-shadow: none;
+    text-shadow: none;
     white-space: nowrap;
   }
 
@@ -24,7 +28,6 @@
     color: #fff;
     background-color: transparent;
     text-decoration: underline;
-    mix-blend-mode: normal;
   }
 
   ul {

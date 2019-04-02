@@ -1,4 +1,4 @@
-@import 'settings';
+@import "settings";
 
 // ************************************************************
 // Header
@@ -49,6 +49,8 @@
   a:visited {
     color: #fff;
     text-decoration: none;
+    box-shadow: none;
+    text-shadow: none;
   }
 
   a:hover,
