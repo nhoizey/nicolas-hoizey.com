@@ -26435,4 +26435,101 @@
       2019…<br />\n<br />\n…wait, not a good idea, I guess it’s even worse now, we
       would all fall into depression. \U0001F62D\n<a class=\"u-mention\" href=\"https://nho.io/2UOsdLp\"></a>\n<a
       class=\"u-mention\" href=\"https://nicolas-hoizey.com/links/2019/03/death-to-bullshit.html\"></a></p>"
-"/links/2019/04/generative-art-with-css.html": {}
+"/links/2019/04/generative-art-with-css.html":
+  '603869':
+    id: '603869'
+    uri: https://twitter.com/nhoizey/status/1113085250723348482#favorited-by-1086717654
+    source: twitter
+    pubdate: 2019-04-02 16:51:16.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nhoizey/1113085250723348482/1086717654
+      verified: true
+      verified_date: '2019-04-02T14:51:16+00:00'
+      id: 603869
+      private: false
+      data:
+        author: &674
+          name: yuanchuan
+          url: https://twitter.com/yuanchuan23
+          photo: https://webmention.io/avatar/pbs.twimg.com/cd84e04d5a4b1c4624e70e3537471b34bceb1f7855af674b47c8fe61dc2013bd.jpg
+        url: https://twitter.com/nhoizey/status/1113085250723348482#favorited-by-1086717654
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: yuanchuan favorited a tweet https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html
+        sentence_html: <a href="https://twitter.com/yuanchuan23">yuanchuan</a> favorited
+          a tweet <a href="https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html">https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html</a>
+      target: https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html
+    author: *674
+    type: like
+    content: <p><a href="https://twitter.com/yuanchuan23">yuanchuan</a> favorited
+      a tweet <a href="https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html">https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html</a></p>
+  '1113085849590251522':
+    id: '1113085849590251522'
+    uri: https://twitter.com/yuanchuan23/status/1113085849590251522
+    source: twitter
+    pubdate: 2019-04-02 16:28:41.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/nhoizey/1113085250723348482/1113085849590251522
+      verified: true
+      verified_date: '2019-04-02T14:51:17+00:00'
+      id: 603870
+      private: false
+      data:
+        author: &675
+          name: yuanchuan
+          url: https://twitter.com/yuanchuan23
+          photo: https://webmention.io/avatar/pbs.twimg.com/cd84e04d5a4b1c4624e70e3537471b34bceb1f7855af674b47c8fe61dc2013bd.jpg
+        url: https://twitter.com/yuanchuan23/status/1113085849590251522
+        name: 
+        content: Oh, thanks for this :)
+        published: '2019-04-02T14:28:41+00:00'
+        published_ts: 1554215321
+      activity:
+        type: reply
+        sentence: yuanchuan replied 'Oh, thanks for this :)' to a tweet https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html
+        sentence_html: <a href="https://twitter.com/yuanchuan23">yuanchuan</a> replied
+          'Oh, thanks for this :)' to a tweet <a href="https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html">https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html</a>
+      target: https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html
+    author: *675
+    type: reply
+    content: "<p>Oh, thanks for this :)</p>"
+  '1113123715213078528':
+    id: '1113123715213078528'
+    uri: https://twitter.com/codepo8/status/1113123715213078528
+    source: twitter
+    pubdate: 2019-04-02 18:59:09.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/post/twitter/nhoizey/1113123715213078528
+      verified: true
+      verified_date: '2019-04-02T17:18:55+00:00'
+      id: 603896
+      private: false
+      data:
+        author: &676
+          name: Chris Heilmann
+          url: https://twitter.com/codepo8
+          photo: https://webmention.io/avatar/pbs.twimg.com/2cb539703b09adb2ef4818c0fa52e2d97c6b8365befe25ba741bbc98ca12fde9.png
+        url: https://twitter.com/codepo8/status/1113123715213078528
+        name: 
+        content: |-
+          Generative Art With CSS <a href="https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed">nicolas-hoizey.com/links/2019/04/…</a>
+          <a class="u-mention" href="https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html"></a>
+        published: '2019-04-02T16:59:09+00:00'
+        published_ts: 1554224349
+      activity:
+        type: link
+        sentence: Chris Heilmann posted 'Generative Art With CSS nicolas-hoizey.com/links/2019/04/…'
+          linking to https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html
+        sentence_html: <a href="https://twitter.com/codepo8">Chris Heilmann</a> posted
+          'Generative Art With CSS nicolas-hoizey.com/links/2019/04/…' linking to
+          <a href="https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html">https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html</a>
+      target: https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html
+    author: *676
+    type: link
+    content: |-
+      <p>Generative Art With CSS <a href="https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed">nicolas-hoizey.com/links/2019/04/…</a>
+      <a class="u-mention" href="https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html"></a></p>
