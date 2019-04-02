@@ -4,9 +4,6 @@
 // Card
 // ************************************************************
 
-.card {
-}
-
 .card__author {
   margin: 0;
   padding: 0;
@@ -22,6 +19,10 @@
 .card__title {
   margin: 0;
   padding: 0;
+}
+
+.card__excerpt {
+  margin: 0.5em 0;
 }
 
 .card__meta {

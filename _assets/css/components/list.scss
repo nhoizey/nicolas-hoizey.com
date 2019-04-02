@@ -1,4 +1,4 @@
-@import 'settings';
+@import "settings";
 
 // ************************************************************
 // List
@@ -14,6 +14,9 @@
   margin: 3rem 0;
   padding: 0;
   list-style-type: none;
+  display: grid;
+  grid-gap: 3rem;
+  grid-template-columns: 1fr;
 }
 
 .list__item {
@@ -22,13 +25,7 @@
 }
 
 .list__items--small {
-  display: grid;
-  grid-gap: 3rem;
   grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-
-  .list__item {
-    margin: 0;
-  }
 }
 
 .list__more {

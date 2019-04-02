@@ -3,13 +3,19 @@ layout: default
 ---
 
 {% asset components/archives %}
+{% asset components/list %}
+{% asset components/card %}
 
 <h1>Articles from {{ page.date | date: "%B" }} <a href="/{{ page.date | date: "%Y" }}/">{{ page.date | date: "%Y" }}</a></h1>
 
 <div class="list">
-  {% for post in page.posts reversed %}
-    {% unless post.categories contains 'links' %}
-      {% include_cached post-abstract.html page=post level=2 %}
-    {% endunless %}
-  {% endfor %}
+  <ul class="list__items">
+    {% for post in page.posts reversed %}
+      {% unless post.categories contains 'links' %}
+        <li class="card list__item">
+          {% include_cached post-abstract.html page=post level=2 %}
+        </li>
+      {% endunless %}
+    {% endfor %}
+  </ul>
 </div>

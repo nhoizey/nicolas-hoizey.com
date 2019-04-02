@@ -3,6 +3,8 @@ layout: default
 ---
 
 {% asset components/archives %}
+{% asset components/list %}
+{% asset components/card %}
 
 {% assign this_year = page.date | date: "%Y" | plus: 0 %}
 {% assign max_year = site.time | date: "%Y" | plus: 0 %}
@@ -30,13 +32,19 @@ layout: default
     {% unless post.categories contains 'links' %}
       {% assign post_month = post.date | date: "%m" %}
       {% if post_month != month %}
-        <h2><a href="/{{ page.date | date: "%Y" }}/{{ post.date | date: "%m" }}/" class="archive-month">{{ post.date | date: "%B" | capitalize }}</a></h2>
+        {% if month != "" %}
+          </ul>
+        {% endif %}
+        <h2 class="list__title">{{ post.date | date: "%B" | capitalize }}</h2>
+        <ul class="list__items">
         {% assign month = post_month %}
       {% endif %}
-
-      {% include_cached post-abstract.html page=post level=3 %}
+      <li class="card list__item">
+        {% include_cached post-abstract.html page=post level=3 %}
+      </li>
     {% endunless %}
   {% endfor %}
+  </ul>
 </div>
 
 <div class="years">

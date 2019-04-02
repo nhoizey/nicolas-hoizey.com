@@ -1,28 +1,23 @@
 {% assign year = include.page.date | date: "%Y" %}
 <footer>
-  <ul>
-    <li class="date">
+  <ul class="card__meta">
+    <li class="date card__meta__item card__date">
       <svg class="icon"><use xlink:href="#symbol-date" /></svg>
       <a href="/{{ include.page.date | date: "%Y/%m" }}/">{{ include.page.date | date: "%B" }}</a>&nbsp;
         {{ include.page.date | date: "%-d" }},
         <a href="/{{ year }}/">{{ year }}</a>
     </li>
-    {% capture webmention_count_value %}{% webmention_count include.page.url %}{% endcapture %}
-    {% assign webmention_count_int = webmention_count_value | strip_html | plus: 0 %}
-    {% if webmention_count_int > 0 %}
-      <li class="webmentions">
-        <svg class="icon"><use xlink:href="#symbol-webmentions" /></svg>
-        <a href="{{ include.page.url }}#webmentions">{{ webmention_count_int }} webmention{% if webmention_count_int > 1 %}s{% endif %}</a>
-      </li>
-    {% else %}
-      <li class="webmentions">
-        <svg class="icon"><use xlink:href="#symbol-webmentions" /></svg>
-        0 webmention
-      </li>
-    {% endif %}
-    <li class="tags">
+    <li class="tags card__meta__item card__tags">
       <svg class="icon"><use xlink:href="#symbol-tags" /></svg>
       {{ include.page | tags }}
     </li>
+    {% capture webmention_count_value %}{% webmention_count include.page.url %}{% endcapture %}
+    {% assign webmention_count_int = webmention_count_value | strip_html | plus: 0 %}
+    {% if webmention_count_int > 0 %}
+      <li class="webmentions card__meta__item card__webmentionscount">
+        <svg class="icon"><use xlink:href="#symbol-webmentions" /></svg>
+        <a href="{{ include.page.url }}#webmentions">{{ webmention_count_int }} webmention{% if webmention_count_int > 1 %}s{% endif %}</a>
+      </li>
+    {% endif %}
   </ul>
 </footer>
