@@ -2,7 +2,7 @@
 // Colors
 // ************************************************************
 
-$color-white: #ffffff;
+$color-white: #fff;
 $color-blue: #39f;
 $color-red: #f33;
 $color-lightgrey: #eee;
@@ -37,6 +37,8 @@ $color-secondary-lighter-5: #ffeadf;
 $color-background: #fff;
 $color-text: #222;
 
+$color-link: $color-blue;
+
 $color-meta: $color-darkgrey;
 $color-meta-link: $color-darkgrey;
 $color-meta-hover: $color-blue;
@@ -53,7 +55,7 @@ $baseline: 1.5em;
 
 $maxLayoutWidth: 60rem;
 
-$font-serif: Georgia, 'DejaVu Serif', serif;
+$font-serif: Georgia, "DejaVu Serif", serif;
 $font-sans-serif: Futura, Trebuchet MS, Arial, sans-serif;
 
-$cloudinary-prefix: 'https://res.cloudinary.com/nho/image/fetch/c_limit,f_auto,q_auto,w_';
+$cloudinary-prefix: "https://res.cloudinary.com/nho/image/fetch/c_limit,f_auto,q_auto,w_";
