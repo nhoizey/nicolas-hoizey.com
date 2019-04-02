@@ -1,19 +1,19 @@
-@import 'settings';
-@import 'rve';
-@import 'monokai';
+@import "settings";
+@import "rve";
+@import "monokai";
 
 // File link icons
-a[href$='.zip'],
-a[href$='.kml'] {
+a[href$=".zip"],
+a[href$=".kml"] {
   padding-left: 1.6em;
   background-size: 1.4em 1.4em;
 }
 
-a[href$='.zip'] {
+a[href$=".zip"] {
   background: url(/assets/icons/zip.svg) 0 0 no-repeat;
 }
 
-a[href$='.kml'] {
+a[href$=".kml"] {
   background: url(/assets/icons/kml.svg) 0 0 no-repeat;
 }
 
@@ -50,5 +50,27 @@ a.icon {
 
   &:hover {
     color: $color-icon-hover;
+  }
+}
+
+// background photo in the page bottom
+
+body {
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  background-image: url("#{$cloudinary-prefix}640/https://nicolas-hoizey.com/assets/limbes.jpg");
+
+  @media (min-width: 640px), (min-resolution: 2dppx) {
+    background-image: url("#{$cloudinary-prefix}1024/https://nicolas-hoizey.com/assets/limbes.jpg");
+  }
+
+  @media (min-width: 1024px), (min-width: 512px) and (min-resolution: 2dppx) {
+    background-image: url("#{$cloudinary-prefix}1280/https://nicolas-hoizey.com/assets/limbes.jpg");
+  }
+
+  @media (min-width: 1280px), (min-width: 640px) and (min-resolution: 2dppx) {
+    background-image: url("#{$cloudinary-prefix}1534/https://nicolas-hoizey.com/assets/limbes.jpg");
   }
 }

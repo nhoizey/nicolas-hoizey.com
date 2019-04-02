@@ -1,4 +1,4 @@
-@import 'settings';
+@import "settings";
 
 :root {
   font: -apple-system-body;
@@ -42,24 +42,6 @@ body {
   color: $color-text;
   background-color: $color-background;
 
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  background-size: contain;
-
-  background-image: url('#{$cloudinary-prefix}640/https://nicolas-hoizey.com/assets/limbes.jpg');
-
-  @media (min-width: 640px), (min-resolution: 2dppx) {
-    background-image: url('#{$cloudinary-prefix}1024/https://nicolas-hoizey.com/assets/limbes.jpg');
-  }
-
-  @media (min-width: 1024px), (min-width: 512px) and (min-resolution: 2dppx) {
-    background-image: url('#{$cloudinary-prefix}1280/https://nicolas-hoizey.com/assets/limbes.jpg');
-  }
-
-  @media (min-width: 1280px), (min-width: 640px) and (min-resolution: 2dppx) {
-    background-image: url('#{$cloudinary-prefix}1534/https://nicolas-hoizey.com/assets/limbes.jpg');
-  }
-
   scroll-behavior: smooth;
 
   word-break: break-word;
@@ -82,7 +64,7 @@ h5,
 h6 {
   font-family: $font-sans-serif;
   font-weight: bold;
-  line-height: 1.3;
+  line-height: 1.4;
   margin: $baseline 0 0.5em 0;
   position: relative;
 }
@@ -146,6 +128,47 @@ h6 {
   color: $color-primary-lighter-2;
 }
 
+// ************************************************************
+// General styles
+// ************************************************************
+
+a {
+  &:link {
+    margin: 0 -0.2em;
+    padding: 0.1em 0.3em;
+    color: $color-primary-lighter-1;
+
+    text-decoration: underline;
+    text-decoration-color: $color-primary;
+    text-decoration-width: 0.2em;
+    text-decoration-skip: ink;
+    text-decoration-skip-ink: auto;
+
+    transition: color calc(var(--base-duration) / 4) ease-out;
+
+    // Mostly for the hover effect
+    // https://css-tricks.com/multi-line-padded-text/
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+
+  &:visited {
+    color: $color-primary-lighter-1;
+    text-decoration-color: $color-primary-lighter-2;
+  }
+
+  &:hover,
+  &:focus {
+    color: $color-primary-lighter-5;
+    background-color: $color-primary;
+  }
+
+  &:active {
+    color: $color-secondary-lighter-5;
+    background-color: $color-secondary;
+  }
+}
+
 // anchors
 
 a.deeplink:link,
@@ -205,44 +228,8 @@ h6 {
 }
 
 pre {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   overflow-x: auto;
-}
-
-// ************************************************************
-// General styles
-// ************************************************************
-
-a {
-  &:link {
-    margin: 0 -0.2em;
-    padding: 0.2em;
-    color: $color-primary;
-    text-decoration: underline solid $color-primary-lighter-1;
-
-    // Mostly for the hover effect
-    // https://css-tricks.com/multi-line-padded-text/
-    box-decoration-break: clone;
-    -webkit-box-decoration-break: clone;
-  }
-
-  &:visited {
-    color: $color-primary-lighter-1;
-    text-decoration: underline solid $color-primary-lighter-2;
-  }
-
-  &:hover,
-  &:focus {
-    color: $color-primary-lighter-4;
-    background-color: $color-primary;
-    text-decoration: none;
-  }
-
-  &:active {
-    color: $color-secondary-lighter-4;
-    background-color: $color-secondary;
-    text-decoration: none;
-  }
 }
 
 img {
@@ -390,7 +377,7 @@ summary {
 .clearfix {
   &::after {
     // http://nicolasgallagher.com/micro-clearfix-hack/
-    content: ' ';
+    content: " ";
     display: table;
     clear: both;
   }
@@ -417,22 +404,22 @@ summary {
 // https://css-tricks.com/aspect-ratio-boxes/#article-header-id-7
 // ************************************************************
 
-[style*='--aspect-ratio'] > :first-child {
+[style*="--aspect-ratio"] > :first-child {
   width: 100%;
 }
-[style*='--aspect-ratio'] > img {
+[style*="--aspect-ratio"] > img {
   height: auto;
 }
 @supports (--custom: property) {
-  [style*='--aspect-ratio'] {
+  [style*="--aspect-ratio"] {
     position: relative;
   }
-  [style*='--aspect-ratio']::before {
-    content: '';
+  [style*="--aspect-ratio"]::before {
+    content: "";
     display: block;
     padding-bottom: calc(100% / (var(--aspect-ratio)));
   }
-  [style*='--aspect-ratio'] > :first-child {
+  [style*="--aspect-ratio"] > :first-child {
     position: absolute;
     top: 0;
     left: 0;
@@ -568,7 +555,7 @@ article {
       left: 2vw;
       top: 0;
 
-      content: '\201C';
+      content: "\201C";
 
       color: $color-primary-lighter-1;
 
@@ -604,6 +591,7 @@ article {
 
   table {
     border-collapse: collapse;
+    font-variant-numeric: tabular-nums;
   }
 
   thead {
@@ -623,7 +611,7 @@ article {
 
   kbd,
   code {
-    font-family: 'Fira Code', 'Courier New', Courier, monospace;
+    font-family: "Fira Code", "Courier New", Courier, monospace;
     font-size: 0.9em;
     display: inline-block;
     padding: 0 0.2em;
