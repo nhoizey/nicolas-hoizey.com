@@ -1,4 +1,4 @@
-@import 'settings';
+@import "settings";
 
 // ************************************************************
 // Webmentions
@@ -28,9 +28,10 @@
     display: inline-block;
     padding: 0.1em;
     border-radius: 0.3em;
+    box-shadow: none;
 
     &:hover {
-      background-color: $color-primary-lighter-1;
+      background-color: $color-link;
     }
   }
 
@@ -59,7 +60,7 @@
   display: none;
 }
 
-[data-webmention-types*='replies'] {
+[data-webmention-types*="replies"] {
   .webmentions__item {
     clear: both;
     position: relative;

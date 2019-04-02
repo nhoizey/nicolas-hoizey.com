@@ -134,17 +134,16 @@ h6 {
 
 a {
   &:link {
-    margin: 0 -0.2em;
-    padding: 0.1em 0.3em;
-    color: $color-primary-lighter-1;
+    margin: -0.1em;
+    padding: 0 0.1em;
+    color: $color-text;
 
-    text-decoration: underline;
-    text-decoration-color: $color-primary;
-    text-decoration-width: 0.2em;
-    text-decoration-skip: ink;
-    text-decoration-skip-ink: auto;
+    text-decoration: none;
+    box-shadow: inset 0 -0.1em 0 $color-link;
+    text-shadow: 1px 1px $color-white, -1px 1px $color-white,
+      -1px -1px $color-white, 1px -1px $color-white;
 
-    transition: color calc(var(--base-duration) / 4) ease-out;
+    // transition: color calc(var(--base-duration) / 4) ease-out;
 
     // Mostly for the hover effect
     // https://css-tricks.com/multi-line-padded-text/
@@ -153,18 +152,18 @@ a {
   }
 
   &:visited {
-    color: $color-primary-lighter-1;
-    text-decoration-color: $color-primary-lighter-2;
+    color: $color-text;
   }
 
   &:hover,
   &:focus {
-    color: $color-primary-lighter-5;
-    background-color: $color-primary;
+    color: $color-white;
+    background-color: $color-link;
+    text-shadow: none;
   }
 
   &:active {
-    color: $color-secondary-lighter-5;
+    color: $color-white;
     background-color: $color-secondary;
   }
 }
@@ -181,25 +180,29 @@ a.deeplink:visited {
   vertical-align: middle;
   border-radius: 50%;
   text-decoration: none;
-  vertical-align: middle;
+  box-shadow: none;
+  text-shadow: none;
 
   @media (min-width: 55em) {
-    display: block;
     position: absolute;
     top: 0.65rem;
     left: -2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   svg {
     width: 1em;
     height: 1em;
-    fill: $color-primary;
+    fill: $color-link;
   }
 }
 
 a.deeplink:hover,
 a.deeplink:active {
-  background-color: $color-primary;
+  background-color: $color-link;
   color: $color-white;
 
   svg {
@@ -217,7 +220,7 @@ h6 {
   &:active {
     a.deeplink:link,
     a.deeplink:visited {
-      background-color: $color-primary;
+      background-color: $color-link;
       color: $color-white;
 
       svg {
@@ -474,7 +477,6 @@ article {
 
   footer {
     color: $color-meta;
-    font-size: 0.8em;
 
     ul {
       margin: 0.2em 0;
@@ -496,14 +498,13 @@ article {
         &:link,
         &:visited {
           color: $color-darkgrey;
-          text-decoration: underline solid $color-grey;
         }
 
         &:hover,
         &:focus {
-          color: $color-primary-lighter-4;
-          background-color: $color-primary;
-          text-decoration: none;
+          color: $color-white;
+          background-color: $color-darkgrey;
+          box-shadow: none;
         }
       }
     }
@@ -641,6 +642,7 @@ article {
   a.footnote,
   a.reversefootnote {
     text-decoration: none;
+    box-shadow: none;
     padding: 0 0.2em;
   }
 

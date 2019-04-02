@@ -1,4 +1,4 @@
-@import 'settings';
+@import "settings";
 
 #footer {
   white-space: nowrap;
@@ -31,19 +31,9 @@
   a {
     &:link,
     &:visited {
-      color: $color-primary-lighter-4;
-      text-decoration: underline solid $color-primary-lighter-3;
-    }
-
-    &:hover,
-    &:focus {
-      color: $color-primary-lighter-3;
-      text-decoration: underline solid $color-primary-lighter-2;
-    }
-
-    &:active {
       color: $color-white;
-      text-decoration: underline solid $color-primary-lighter-4;
+      text-decoration: none;
+      text-shadow: none;
     }
   }
 }
