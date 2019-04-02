@@ -3,18 +3,20 @@ layout: default
 title:  Links
 ---
 
-{% asset components/link @inline %}
+{% asset components/list @inline %}
+{% asset components/card @inline %}
 
-<h1>Links</h1>
-
-<main class="list">
-  {% for link in site.categories['links'] %}
-    <article class="link" lang="{{ link.lang }}">
-      {% if link.author %}
-        <p class="link__author">{{ link.author }}{% if link.author_twitter %} (<svg><use xlink:href="#symbol-twitter" /></svg>&nbsp;<a href="https://twitter.com/{{ link.author_twitter }}">@{{ link.author_twitter }}</a>){% endif %}:</p>
-      {% endif %}
-      <h2><a href="{{ link.url }}">{{ link.title }}</a></h2>
-      {% include_cached link-meta.html page=link %}
-    </article>
-  {% endfor %}
-</main>
+<h1 class="list__title">Links</h1>
+<section class="list">
+  <ul class="list__items list__items--small">
+    {% for link in site.categories['links'] %}
+      <li class="card list__item">
+        {% if link.author %}
+          <p class="card__author">{{ link.author }}:</p>
+        {% endif %}
+        <h3 class="card__title"><a href="{{ link.url }}">{{ link.title }}</a></h3>
+        {% include_cached link-meta.html page=link %}
+      </li>
+    {% endfor %}
+  </ul>
+</section>
