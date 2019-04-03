@@ -366,6 +366,7 @@ https://nicolas-hoizey.com/2001/11/citation-de-raoul-vaneigem.html:
 https://nicolas-hoizey.com/2001/11/citation-de-stephen-king.html: {}
 https://nicolas-hoizey.com/2001/11/citation-de-terry-pratchett.html:
   http://www.amazon.fr/exec/obidos/ASIN/2290315095/phpheaven-21: false
+  https://amzn.to/2D2tRT1: false
 https://nicolas-hoizey.com/2001/11/citation-de-voltaire.html: {}
 https://nicolas-hoizey.com/2001/11/quel-visage-aura-blueberry.html:
   http://wwwusers.imaginet.fr/~jkounen/fr/longs/blueberry/main.htm: false
@@ -457,6 +458,8 @@ https://nicolas-hoizey.com/2003/10/gastero-prod-3-le-retour-de-la-vengeance.html
   http://revelp.free.fr/old/textes/texte1.html: false
   http://www.google.com/search?q=: false
   http://www.spip.net/fr_article1971.html: false
+  http://…/rubrique.php3?id_rubrique=43&var_nav_year=2003&var_nav_month=12`: false
+  http://…/agenda/2003/12/`: false
 https://nicolas-hoizey.com/2003/10/citation-de-linus-torvald.html:
   http://standblog.com/blog/2003/09/28/93113063-CitationDuJourLinusTorvalds: false
 https://nicolas-hoizey.com/2003/10/ze-article-definitif.html:
@@ -1311,6 +1314,9 @@ https://nicolas-hoizey.com/2006/11/un-p-tit-coup-de-pouce.html:
   https://www.flickrtp://www.jpgmag.com/photos/21364: false
   http://www.flickr.com/photos/nicolas-hoizey/2704877/in/set-685912/: false
   http://www.flickr.com/photos/nicolas-hoizey/10566776/in/set-165968/: false
+  https://www.jpgmag.com/photos/21364: false
+  http://www.flickr.com/photos/nicolas-hoizey/2704877/: false
+  http://www.flickr.com/photos/nicolas-hoizey/10566776/: false
 https://nicolas-hoizey.com/2007/01/citation-d-oscar-wilde.html: {}
 https://nicolas-hoizey.com/2007/03/un-encouragement-vu-du-ciel.html:
   http://earth.google.com/: false
@@ -2957,6 +2963,7 @@ https://nicolas-hoizey.com/2017/02/mettre-a-jour-les-plugins-jekyll-sans-danger.
   https://rubygems.org/.: false
   https://github.com/jekyll/jekyll-assets/blob/81a2c709938d53333dfe2898e842b4d9a2d72f9a/Gem.gemspec: false
   https://github.com/bundler/bundler/pull/4980: false
+  https://rubygems.org/……….: false
 https://nicolas-hoizey.com/2017/05/automatiser-l-installation-des-applications-sur-un-nouveau-mac.html:
   https://github.com/nhoizey/macOS-init: false
   https://github.com/nicolinuxfr/macOS-post-installation: false
