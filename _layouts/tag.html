@@ -2,6 +2,9 @@
 layout: default
 ---
 
+{% asset components/list @inline %}
+{% asset components/card @inline %}
+
 {% capture tag_image_path %}tags/{{ page.tag | slugify }}.png{% endcapture %}
 {% capture tag_image %}{% file_exists {{ tag_image_path }} %}{% endcapture %}
 {% if tag_image == "true" %}
@@ -16,11 +19,13 @@ layout: default
   <div class="intro">{% markdown {{ tag_description_path }} %}</div>
 {% endif %}
 
-<div class="list">
+<ul class="list__items">
   {% for post in page.posts %}
-    {% include_cached post-abstract.html page=post level=2 %}
+    <li class="card list__item">
+      {% include_cached post-abstract.html page=post level=2 %}
+    </li>
   {% endfor %}
-</div>
+</ul>
 
 <div class="tagscloud">
   <h2 id="tags">Other tags to explore</h2>

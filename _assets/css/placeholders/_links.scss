@@ -1,0 +1,51 @@
+%link {
+  &:link {
+    margin: -0.1em;
+    padding: 0 0.1em;
+    color: $color-text;
+
+    text-decoration: none;
+    box-shadow: inset 0 -0.1em 0 $color-link;
+    text-shadow: 1px 1px $color-white, -1px 1px $color-white,
+      -1px -1px $color-white, 1px -1px $color-white;
+
+    // transition: color calc(var(--base-duration) / 4) ease-out;
+
+    // Mostly for the hover effect
+    // https://css-tricks.com/multi-line-padded-text/
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+
+  &:visited {
+    color: $color-text;
+  }
+
+  &:hover,
+  &:focus {
+    color: $color-white;
+    background-color: $color-link;
+    text-shadow: none;
+  }
+
+  &:active {
+    color: $color-white;
+    background-color: $color-secondary;
+  }
+}
+
+%link-grey {
+  &:link,
+  &:visited {
+    color: $color-darkgrey;
+    text-decoration: underline solid $color-grey;
+    box-shadow: none;
+  }
+
+  &:hover,
+  &:focus {
+    color: $color-white;
+    background-color: $color-darkgrey;
+    text-decoration: none;
+  }
+}

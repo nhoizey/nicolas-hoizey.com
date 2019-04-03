@@ -1,4 +1,4 @@
-@import 'settings';
+@import "settings";
 
 // ************************************************************
 // Tags cloud
@@ -8,13 +8,10 @@
   a {
     display: inline-block;
     text-decoration: none;
+    box-shadow: none;
     margin: 0;
     padding: 0.5vw;
     white-space: nowrap;
-
-    &:hover {
-      text-decoration: underline;
-    }
   }
 
   .set-1 {

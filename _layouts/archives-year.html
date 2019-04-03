@@ -2,9 +2,9 @@
 layout: default
 ---
 
-{% asset components/archives %}
-{% asset components/list %}
-{% asset components/card %}
+{% asset components/archives @inline %}
+{% asset components/list @inline %}
+{% asset components/card @inline %}
 
 {% assign this_year = page.date | date: "%Y" | plus: 0 %}
 {% assign max_year = site.time | date: "%Y" | plus: 0 %}

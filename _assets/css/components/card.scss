@@ -1,4 +1,5 @@
 @import "settings";
+@import "placeholders/links";
 
 // ************************************************************
 // Card
@@ -30,7 +31,7 @@
   padding: 0;
 
   color: $color-darkgrey;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 .card__meta__item {
@@ -44,19 +45,7 @@
   }
 
   a {
-    &:link,
-    &:visited {
-      color: $color-darkgrey;
-      text-decoration: underline solid $color-grey;
-      box-shadow: none;
-    }
-
-    &:hover,
-    &:focus {
-      color: $color-white;
-      background-color: $color-darkgrey;
-      text-decoration: none;
-    }
+    @extend %link-grey;
   }
 
   svg {

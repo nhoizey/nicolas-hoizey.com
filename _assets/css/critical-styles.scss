@@ -1,4 +1,5 @@
 @import "settings";
+@import "placeholders/links";
 
 :root {
   font: -apple-system-body;
@@ -133,39 +134,7 @@ h6 {
 // ************************************************************
 
 a {
-  &:link {
-    margin: -0.1em;
-    padding: 0 0.1em;
-    color: $color-text;
-
-    text-decoration: none;
-    box-shadow: inset 0 -0.1em 0 $color-link;
-    text-shadow: 1px 1px $color-white, -1px 1px $color-white,
-      -1px -1px $color-white, 1px -1px $color-white;
-
-    // transition: color calc(var(--base-duration) / 4) ease-out;
-
-    // Mostly for the hover effect
-    // https://css-tricks.com/multi-line-padded-text/
-    box-decoration-break: clone;
-    -webkit-box-decoration-break: clone;
-  }
-
-  &:visited {
-    color: $color-text;
-  }
-
-  &:hover,
-  &:focus {
-    color: $color-white;
-    background-color: $color-link;
-    text-shadow: none;
-  }
-
-  &:active {
-    color: $color-white;
-    background-color: $color-secondary;
-  }
+  @extend %link;
 }
 
 // anchors
@@ -726,6 +695,10 @@ article {
     padding: 0.5em 0;
     font-size: 0.9em;
     color: #999;
+
+    a {
+      @extend %link-grey;
+    }
   }
 }
 
