@@ -201,6 +201,7 @@ a.deeplink:visited {
 }
 
 a.deeplink:hover,
+a.deeplink:focus,
 a.deeplink:active {
   background-color: $color-link;
   color: $color-white;
@@ -217,6 +218,7 @@ h4,
 h5,
 h6 {
   &:hover,
+  &:focus,
   &:active {
     a.deeplink:link,
     a.deeplink:visited {
@@ -625,6 +627,25 @@ article {
     border: solid 1px #c6cbd1;
     border-bottom-color: #959da5;
     box-shadow: inset 0 -1px 0 #959da5;
+  }
+
+  a:link,
+  a:visited {
+    kbd,
+    code {
+      box-shadow: inset 0 -0.1em 0 $color-link;
+    }
+  }
+
+  a:hover,
+  a:focus {
+    kbd,
+    code {
+      color: inherit;
+      background-color: inherit;
+      border: solid 1px transparent;
+      box-shadow: none;
+    }
   }
 
   code.highlighter-rouge {
