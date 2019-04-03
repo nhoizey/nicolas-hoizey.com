@@ -621,6 +621,11 @@ article {
     border-radius: 0.2em;
   }
 
+  code {
+    background-color: $color-primary-lighter-5;
+    border: solid 1px $color-primary-lighter-3;
+  }
+
   kbd {
     color: #444d56;
     background-color: #f3f3f3;
@@ -638,25 +643,15 @@ article {
   }
 
   a:hover,
-  a:focus {
+  a:focus,
+  a:active {
     kbd,
     code {
       color: inherit;
-      background-color: inherit;
-      border: solid 1px transparent;
-      box-shadow: none;
-    }
-  }
-
-  code.highlighter-rouge {
-    background-color: $color-primary-lighter-5;
-  }
-
-  a:hover,
-  a:focus,
-  a:active {
-    code.highlighter-rouge {
       background-color: transparent;
+      border: solid 1px transparent;
+      border-radius: 0;
+      box-shadow: none;
     }
   }
 
