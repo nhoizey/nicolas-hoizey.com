@@ -26533,3 +26533,66 @@
     content: |-
       <p>Generative Art With CSS <a href="https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed">nicolas-hoizey.com/links/2019/04/…</a>
       <a class="u-mention" href="https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html"></a></p>
+  '603981':
+    id: '603981'
+    uri: https://twitter.com/nhoizey/status/1113085250723348482#favorited-by-6375762
+    source: twitter
+    pubdate: 2019-04-03 03:42:19.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nhoizey/1113085250723348482/6375762
+      verified: true
+      verified_date: '2019-04-03T03:42:19+00:00'
+      id: 603981
+      private: false
+      data:
+        author: &677
+          name: tracy apps
+          url: https://twitter.com/tapps
+          photo: https://webmention.io/avatar/pbs.twimg.com/53f41109741f3fde79ec2ece6db13c6448108088e51df70bdd5372b6754c7ade.jpg
+        url: https://twitter.com/nhoizey/status/1113085250723348482#favorited-by-6375762
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: tracy apps favorited a tweet https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html
+        sentence_html: <a href="https://twitter.com/tapps">tracy apps</a> favorited
+          a tweet <a href="https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html">https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html</a>
+      target: https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html
+    author: *677
+    type: like
+    content: <p><a href="https://twitter.com/tapps">tracy apps</a> favorited a tweet
+      <a href="https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html">https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html</a></p>
+  '1113212370778767361':
+    id: '1113212370778767361'
+    uri: https://twitter.com/nhoizey/status/1113212370778767361
+    source: twitter
+    pubdate: 2019-04-03 00:51:26.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nice_links/1113080611504377856/1113212370778767361
+      verified: true
+      verified_date: '2019-04-03T02:34:43+00:00'
+      id: 603967
+      private: false
+      data:
+        author: &678
+          name: Nicolas Hoizey
+          url: https://twitter.com/nhoizey
+          photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
+        url: https://twitter.com/nhoizey/status/1113212370778767361
+        name: 
+        content: "\U0001F517 Yuan Chuan: Generative Art With CSS<br />\nnho.io/2HQSiqp<br
+          />\n<br />\n#css #art"
+        published: '2019-04-02T22:51:26+00:00'
+        published_ts: 1554245486
+      activity:
+        type: repost
+        sentence: Nicolas Hoizey retweeted a tweet https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html
+        sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
+          a tweet <a href="https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html">https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html</a>
+      target: https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html
+    author: *678
+    type: repost
+    content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
+      a tweet <a href="https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html">https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html</a></p>
