@@ -16,7 +16,7 @@ Je vous invite évidemment à la lire, mais si vous hésitez, voici deux extrait
 
 > sur Internet, ce vendeur-là, ça fait des années qu’il est mort. Il a cru s’adapter au numérique en ouvrant une boutique en ligne en plus de ses magasins physiques, mais il a oublié d’adapter ses pratiques commerciales. Il ne sait pas qu’il est mort : à ce stade il bouge encore, et s’il perd des parts de marché il croit qu’en mettant des robots au téléphone à la place des humains trop chers il pourra continuer à survivre. Mais en vrai ? Il est mort.
 > 
-> La presse papier, Virgin, bientôt Darty, et probablement la Fnac avec : s’ils crèvent d’Internet, ce n’est de la faute de personne d’autre que de leur incapacité flagrante à s’adapter non pas à la concurrence des prix (parce que beaucoup de gens, comme moi, sont prêts à payer plus cher pour avoir la garantie d’une information complète et vérifiée, d’un SAV digne de ce nom, de conseils de libraires avisés...) mais à la concurrence du service rendu.
+> La presse papier, Virgin, bientôt Darty, et probablement la Fnac avec : s’ils crèvent d’Internet, ce n’est de la faute de personne d’autre que de leur incapacité flagrante à s’adapter non pas à la concurrence des prix (parce que beaucoup de gens, comme moi, sont prêts à payer plus cher pour avoir la garantie d’une information complète et vérifiée, d’un SAV digne de ce nom, de conseils de libraires avisés…) mais à la concurrence du service rendu.
 
 Je suis aussi de cet avis, je ne cherche pas systématiquement les meilleurs prix, je suis prêt à payer plus cher pour une meilleure qualité de service, notamment sur la partie conseil.
 

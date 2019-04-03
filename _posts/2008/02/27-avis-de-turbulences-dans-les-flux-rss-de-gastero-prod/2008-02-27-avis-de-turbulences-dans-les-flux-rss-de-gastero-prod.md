@@ -16,14 +16,14 @@ Malheureusement, j'avais oublié de filtrer les rubriques présentées dans [le 
 
 Au passage, vous noterez que j'ai aussi supprimé le [*widget* BoxedUp](http://www.boxedup.com/get/widgetstart), qui était encore pire que celui de LastFM, malgré l'utilisation de Amazon S3 pour le stockage des images.
 
-## Un flux pour les alerter tous...
+## Un flux pour les alerter tous…
 
     Trois Flux pour les Internautes qui le souhaitent
     Un Flux pour les aggréger tous, un Flux pour simplifier
     Un Flux pour les alerter tous et dans les méandre de Gastero Prod les lier
-    Au pays de la blogosphère où s’étendent les ombres...
+    Au pays de la blogosphère où s’étendent les ombres…
 
-Ca pète, hein... ;-)[^1]
+Ca pète, hein… ;-)[^1]
 
 Bon, sérieusement, avec trois flux RSS principaux disponibles sur Gastero Prod -- l'un pour les articles, le second pour les photos et le troisième pour les liens[^2] -- il devenait compliqué pour un Internaute « moyen »[^3] de s'abonner pour être au courant de tous les nouveaux contenus du site.
 
@@ -62,7 +62,7 @@ En synthèse, voici la liste des flux disponibles :
 A vous de jouer !
 
 
-[^1]: Si vous ne reconnaissez pas la référence, désolé pour vous...
+[^1]: Si vous ne reconnaissez pas la référence, désolé pour vous…
 
 [^2]: Sans même parler des liens disponibles pour chaque *tag* et pour chaque discussion associée à un article !
 
@@ -72,4 +72,4 @@ A vous de jouer !
 
 [^5]: Sont marrants chez Yahoo! de parler de code source alors que tout se fait graphiquement et par configuration.
 
-[^6]: Oui, vous pouvez voter... ;-)
+[^6]: Oui, vous pouvez voter… ;-)

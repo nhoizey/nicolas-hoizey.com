@@ -73,9 +73,9 @@ Voici un apperçu de l'interface de l'outil :
 {% cloudinary spip_backup.png caption="L'interface de l'outil" %}
 
 
-Son utilisation est normalement intuitive ...
+Son utilisation est normalement intuitive…
 
 
-[^t1]: Une version purement SPIP sans nécessité de ces composants externes est à l'étude ... ;)
+[^t1]: Une version purement SPIP sans nécessité de ces composants externes est à l'étude… ;)
 
 [^t2]: Pour éviter de surcharger le disque dur, il est vivement recommandé de ne pas conserver trop de fichiers d'archives.

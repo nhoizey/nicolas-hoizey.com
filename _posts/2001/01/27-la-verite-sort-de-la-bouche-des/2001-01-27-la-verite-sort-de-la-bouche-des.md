@@ -1,11 +1,10 @@
 ---
-title:      "La vérité sort de la bouche des ..."
+title:      "La vérité sort de la bouche des…"
 lang:       fr
-tags:       [fun, "SEO"]
+tags:       [fun, SEO]
 ---
 
-
-... moteurs de recherche !
+…moteurs de recherche !
 
 En effet, en cette fin janvier 2001, si vous allez chercher "[dumb motherfucker](http://www.google.com/search?q=dumb+motherfucker)" sur le célèbre Google, le [premier résultat](http://www.georgewbushstore.com/) vous parraîtra évident.
 

@@ -10,11 +10,11 @@ A l'heure où l'argentique est en grosse perte de vitesse, notamment au niveau d
 
 C'est dans un [long communiqué](http://kmpi.konicaminolta.us/eprise/main/kmpi/content/cam/cam_News/cam_NewsDetail/Camera_Business_Withdraw?header=aboutus), publié ce 19 janvier, que [Konica Minolta a annoncé son retrait de l'activité liée aux appareils photographiques](http://www.zone-numerique.com/news-photo-numerique-442.htm).
 
-[Et](http://audioblog.fr/archives/2006/01/19/konica-minolta-arrete/) [tout](http://www.zdnet.fr/actualites/informatique/0,39040745,39304325,00.htm) [le monde](http://www.lemonde.fr/web/article/0,1-0@2-3234,36-732916@51-732051,0.html) [en](http://standblog.org/blog/2006/01/24/93114618-en-vrac) [parle](http://www.liberation.fr/page.php?Article=352465)...
+[Et](http://audioblog.fr/archives/2006/01/19/konica-minolta-arrete/) [tout](http://www.zdnet.fr/actualites/informatique/0,39040745,39304325,00.htm) [le monde](http://www.lemonde.fr/web/article/0,1-0@2-3234,36-732916@51-732051,0.html) [en](http://standblog.org/blog/2006/01/24/93114618-en-vrac) [parle](http://www.liberation.fr/page.php?Article=352465)…
 
 C'est donc un des gros acteurs du domaine qui jette l'éponge, principalement parce que la rentabilité est très faible, surtout comparée à celle d'activités moins grand public et plus spécialisées comme les optiques, les capteurs, les afficheurs, l'imagerie médicale, etc.
 
-Konica Minolta travaillait depuis quelque temps avec Sony sur l'élaboration d'un appareil Reflex censé concurrencer les Canon EOS 350D, Nikon D70s et autres Olympus E-500 ...
+Konica Minolta travaillait depuis quelque temps avec Sony sur l'élaboration d'un appareil Reflex censé concurrencer les Canon EOS 350D, Nikon D70s et autres Olympus E-500…
 
 ## Quel avenir ?
 
@@ -26,7 +26,7 @@ Toute l'activité photo de KM devrait être reprise par Sony, qui annonce tout s
 
 {% cloudinary minolta_x700.png %}
 
-Voilà déjà longtemps que j'hésitais à faire réparer mon bon vieux [Minolta X-700](http://www.mir.com.my/rb/photography/hardwares/classics/minoltax700/)[^1], il va falloir que je me dépêche, sinon je n'aurais plus le choix. J'ai récupéré ce boitier argentique de référence -- ainsi que plusieurs optiques -- il y a quelques années après que mes parents se sont acheté un reflex argentique un peu plus moderne, mais je n'ai malheureusement pas pris assez le temps de l'utiliser, je le regrette de plus en plus, même si j'ai largement de quoi m'amuser maintenant avec mon [Canon EOS 350D](https://www.flickr.com/photos/nicolas-hoizey/76046485/in/set-165968/) ...
+Voilà déjà longtemps que j'hésitais à faire réparer mon bon vieux [Minolta X-700](http://www.mir.com.my/rb/photography/hardwares/classics/minoltax700/)[^1], il va falloir que je me dépêche, sinon je n'aurais plus le choix. J'ai récupéré ce boitier argentique de référence -- ainsi que plusieurs optiques -- il y a quelques années après que mes parents se sont acheté un reflex argentique un peu plus moderne, mais je n'ai malheureusement pas pris assez le temps de l'utiliser, je le regrette de plus en plus, même si j'ai largement de quoi m'amuser maintenant avec mon [Canon EOS 350D](https://www.flickr.com/photos/nicolas-hoizey/76046485/in/set-165968/)…
 
 {% cloudinary konica_kd400z.png %}
 

@@ -8,7 +8,7 @@ Contrairement à d'autres personnalité qui prêtent leur noms aux éditeurs de 
 
 [^1]: C'est à dire pour consoles de jeux actuelles, XBOX 360 ou PlayStation 3 en tête
 
-Si vous ne faites pas directement le lien entre « John Woo » et « Tequila », c'est que vous n'êtes pas fan... ;-)
+Si vous ne faites pas directement le lien entre « John Woo » et « Tequila », c'est que vous n'êtes pas fan… ;-)
 
 Tequila est le héros de l'un des meilleurs films de John Woo -- le dernier tourné chez lui à Hong Kong -- intitulé « *Hard Boiled* » en anglais et « A toute épreuve » en français. Tequila est interprété par l'acteur fétiche de John Woo, j'ai nommé Chow Yun-Fat.
 

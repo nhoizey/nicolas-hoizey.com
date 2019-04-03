@@ -1,5 +1,5 @@
 ---
-title:      Lost in (white) space... is hot on JPG Magazine !
+title:      Lost in (white) space… is hot on JPG Magazine !
 lang:       fr
 tags:       [photo, moi, JPG Magazine]
 ---

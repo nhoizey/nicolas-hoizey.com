@@ -6,7 +6,7 @@ tags:       [fail, e-commerce]
 
 Je suis inscrit sur [SplitGames](http://www.splitgames.fr/) depuis son lancement[^1], et j'ai déjà envoyé un de mes jeux à quelqu'un qui voulait l'avoir. Malheureusement, je n'ai toujours pas eu de succès pour l'opération inverse.
 
-[^1]: Forcément, Clever Age ayant participé à [son développement](http://www.clever-age.com/references/spligames/refonte-de-splitgames.fr-avec-symfony.html), ça motive... au début.
+[^1]: Forcément, Clever Age ayant participé à [son développement](http://www.clever-age.com/references/spligames/refonte-de-splitgames.fr-avec-symfony.html), ça motive… au début.
 
 Pour ceux qui ne le savent pas, la monnaie sur SplitGames est en points, c'est ce qui le différencie des [PriceMinister](http://www.priceminister.com/) et autres [2xMoinsCher](http://www.2xmoinscher.com/) auxquels je suis plus habitué. Voici le principe tels qu'ils le montrent simplement :
 
@@ -25,6 +25,6 @@ Le pire, à la limite, c'est que je peux comprendre que le jeu, étant récent, 
 
 Que faudrait-il donc que je fasse pour enfin recevoir ce jeux que j'aimerais bien avoir ? Le [rachat de SplitGames par la FNAC](http://vincentmorin.canalblog.com/archives/2008/10/28/11140900.html) il y a quelque mois est-il en cause dans ce manque d'empressement à faire de moi un *micro gamer*[^2] heureux ? Et que penser du silence du [blog de SplitGames](http://blog.splitgames.fr/) depuis octobre ?
 
-[^1]: A 7,99 € les 4 points, la note est vite assez salée...
+[^1]: A 7,99 € les 4 points, la note est vite assez salée…
 
-[^2]: En opposition aux *[hardcore gamers](http://fr.wikipedia.org/wiki/Hardcore_gamer)*...
+[^2]: En opposition aux *[hardcore gamers](http://fr.wikipedia.org/wiki/Hardcore_gamer)*…

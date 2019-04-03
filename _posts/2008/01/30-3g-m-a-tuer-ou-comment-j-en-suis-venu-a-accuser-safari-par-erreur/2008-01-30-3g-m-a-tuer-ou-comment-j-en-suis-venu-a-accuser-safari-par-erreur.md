@@ -6,7 +6,7 @@ tags:       [Safari, image, mobile]
 
 Utilisateur habituellement de Mozilla Firefox, j'ai lancé Safari pour tester GreaseKit[^1], et en allant sur Gastero Prod, j'ai découvert avec horreur que le fond dégradé est complètement dénaturé, avec un rendu beaucoup moins fin que sur Firefox.
 
-[^1]: Un équivalent pour Safari de l'excellente extension [Greasemonkey](http://www.greasespot.net/)...
+[^1]: Un équivalent pour Safari de l'excellente extension [Greasemonkey](http://www.greasespot.net/)…
 
 Voici par exemple le rendu sous Firefox :
 
@@ -41,4 +41,4 @@ C'est le proxy Vodafone/SFR, par lequel on passe obligatoirement lorsqu'on se co
 
 Du coup je me rend compte que je n'ai tout simplement pas fait les copies d'écran Firefox et Safari au même moment, ni dans les mêmes conditions de connexion.
 
-Tout est bien qui fini bien, nous aurons au moins appris des choses intéressantes sur la gestion colorimétrique des navigateurs... ;-)
+Tout est bien qui fini bien, nous aurons au moins appris des choses intéressantes sur la gestion colorimétrique des navigateurs… ;-)

@@ -14,6 +14,6 @@ A priori, un test d'identification de navigateur mal conçu empêche d'accéder 
 {% cloudinary doc-93.png caption="renault" %}
 
 
-Peut-être le fait que le site est développé avec la grosse usine à gaz qu'est [BroadVision](http://www.interleaf.com/) n'est-il pas étranger à l'affaire ...
+Peut-être le fait que le site est développé avec la grosse usine à gaz qu'est [BroadVision](http://www.interleaf.com/) n'est-il pas étranger à l'affaire…
 
-Notez en outre la subtile erreur de frappe : "Certaines fonctionnalités ne sont supportées pas par la version [...]".
+Notez en outre la subtile erreur de frappe : "Certaines fonctionnalités ne sont supportées pas par la version […]".

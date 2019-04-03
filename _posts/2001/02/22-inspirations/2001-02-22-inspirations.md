@@ -1,5 +1,5 @@
 --- 
-title:      "Inspirations ..." 
+title:      "Inspirations…" 
 lang:       fr 
 tags:       [Gastero Prod, moi]
 ---
@@ -22,4 +22,4 @@ Ne vous étonnez donc pas de retrouver sur ce site des références déjà cité
 - les multiples listes de diffusion du [Kiosque FTPress](http://www.ftpress.com/)
 - [@rt Flash](http://www.tregouet.org/lettre/index.html), la cyber-revue de presse du Sénateur Trégouët
 - [Les Inrockuptibles](http://www.lesinrocks.com/)
-- ...
+-…

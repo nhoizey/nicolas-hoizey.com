@@ -29,12 +29,12 @@ Bête comme je suis, j'ai justement cliqué sur ce premier bouton, et j'ai eu la
 {% cloudinary SOA_-_Message_confirmation.png caption="Une confirmation alors que je n'ai rien donné comme information" %}
 
 
-Il n'y a donc aucun contrôle des champs saisis, ce qui finalement est assez logique puisque aucun n'est indiqué comme obligatoire...
+Il n'y a donc aucun contrôle des champs saisis, ce qui finalement est assez logique puisque aucun n'est indiqué comme obligatoire…
 
 ## Et de trois !
 
 
-Bon, je suis raisonnable, donc je rempli vraiment le formulaire. Là, je tombe au bout d'un moment sur un champ qui me demande depuis où je m'inscrit (*registration source*)... ah mais non, on me demande en fait de ne pas le remplir :
+Bon, je suis raisonnable, donc je rempli vraiment le formulaire. Là, je tombe au bout d'un moment sur un champ qui me demande depuis où je m'inscrit (*registration source*)… ah mais non, on me demande en fait de ne pas le remplir :
 
 {% cloudinary SOA_-_Champ_a_ne_pas_saisir.png caption="Un champ à ne pas saisir" %}
 
@@ -46,6 +46,6 @@ En fait, vu que bien souvent je passe d'un champ à l'autre pour les remplir san
 {% cloudinary SOA_-_Un_seul_choix.png caption="Une liste avec un seul choix !" %}
 
 
-En fait, ils ont visiblement préféré indiquer de ne pas faire de choix plutôt que masquer le champ, drôle de façon de simplifier la vie de l'Internaute...
+En fait, ils ont visiblement préféré indiquer de ne pas faire de choix plutôt que masquer le champ, drôle de façon de simplifier la vie de l'Internaute…
 
 Au final, voilà un formulaire qui pourrait vraiment être très simplement amélioré, on se demande comment ils ont pu arriver à un résultat si dénué de bon sens.

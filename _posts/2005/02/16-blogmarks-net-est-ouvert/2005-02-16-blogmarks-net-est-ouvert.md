@@ -19,7 +19,7 @@ Blogmarks.net propose en plus, en vrac, la gestion de tags publics et privés, u
 {% cloudinary blogmarks2.png caption="Mes derniers favoris avec le tag « CSS »" %}
 
 
-Il ne lui manque plus, comme pour tous les systèmes de tags, qu'une bonne dose de [sémantique](/2005/02/le-web-semantique-a-nos-portes.html)...
+Il ne lui manque plus, comme pour tous les systèmes de tags, qu'une bonne dose de [sémantique](/2005/02/le-web-semantique-a-nos-portes.html)…
 
 
 [^t1]: A la manière de l'extension [BetterSearch](http://bettersearch.g-blog.net/) pour Firefox

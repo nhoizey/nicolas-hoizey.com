@@ -16,7 +16,7 @@ Si la tendance montrée par le graphe continue, le Web 3.0 devrait finir par avo
 
 Au final, un probable retour des blogs aux bons vieux journaux intimes dont ils sont en partie issus, c'est à dire des contenus lus[^2] uniquement par leurs créateurs !
 
-La boucle est bouclée... ;-)
+La boucle est bouclée… ;-)
 
 
 [^1]: Et non augmenter comme dit dans un commentaire

@@ -6,7 +6,7 @@ tags:       [Gastero Prod, UX]
 
 Depuis quelques jours, le menu de navigation principal de Gastero Prod reste visible en permanence[^1] même si vous descendez dans la page. Cela peut vous sembler un caprice de g33k qui tente des trucs un peu sexy, mais à l'usage, je suis extrêmement content de ce rapide ajout ergonomique !
 
-[^1]: Sur les navigateurs graphiques où les CSS et le JavaScript sont activés...
+[^1]: Sur les navigateurs graphiques où les CSS et le JavaScript sont activés…
 
 Un menu de navigation toujours visible, même en défilant sur plusieurs hauteurs d'écran, cela signifie que l'on a moins besoin des liens de type « retour en haut de page » que je ne sais jamais où placer, et que certains du coup se mettent à placer presque à chaque paragraphe pour être sûr[^2]. Cela signifie aussi que l'internaute pourra accéder plus vite à d'autres rubriques du site, en un seul clic.
 

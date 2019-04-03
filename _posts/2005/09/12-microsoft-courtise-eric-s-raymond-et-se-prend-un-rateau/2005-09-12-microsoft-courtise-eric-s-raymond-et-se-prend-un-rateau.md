@@ -1,5 +1,5 @@
 --- 
-title:      "Microsoft courtise Eric S. Raymond... et se prend un rateau" 
+title:      "Microsoft courtise Eric S. Raymond… et se prend un rateau" 
 lang:       fr 
 tags:       [fail, Microsoft]
 ---
@@ -9,7 +9,7 @@ tags:       [fail, Microsoft]
 
 [^1]: Pire cauchemar
 
-[^2]: Pour ceux qui sont du même « côté » que lui en tout cas...
+[^2]: Pour ceux qui sont du même « côté » que lui en tout cas…
 
 Voici un extrait de la [traduction proposée par Mitternacht](http://www.mitternachts-lied.net/blog/index.php/2005/09/09/206-eric-s-raymond-met-un-rateau-a-microsoft) :
 

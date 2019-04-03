@@ -6,7 +6,7 @@ tags:       [WebPerf, Web UX, UX]
 
 Pour ceux qui n'étaient pas présents à Web UX en mai 2011, et avec pas mal de retard[^1], voici mes slides, ainsi que la vidéo captée par l'équipe organisatrice.
 
-[^1]: Oui, je sais, ce site est mort, je ne sais pas encore ce que je vais en faire...
+[^1]: Oui, je sais, ce site est mort, je ne sais pas encore ce que je vais en faire…
 
 Voici donc mes *slides* [« Web UX - Performance Web » sur Speaker Deck](http://speakerdeck.com/u/nhoizey/p/web-ux-performance-web) :
 

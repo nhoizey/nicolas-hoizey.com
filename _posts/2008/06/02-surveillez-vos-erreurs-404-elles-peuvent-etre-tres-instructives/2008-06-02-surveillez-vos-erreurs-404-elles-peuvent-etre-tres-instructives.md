@@ -6,7 +6,7 @@ tags:       ["404", SEO, security, WebPerf]
 
 A l’heure où tout le monde ne jure que par l’optimisation du référencement — on dit Search Engine Optimization, ou SEO, pour faire branché — afin d’augmenter son trafic, et ainsi ses clients potentiels et/ou son revenu publicitaire, qui se soucie de vérifier ce qui se passe pour les internautes qui arrivent bien sur le site, mais sur une page qui n’existe pas, indiquée comme il se doit par une erreur HTTP 404[^erreur] ?
 
-[^erreur]: Oui, c’est la règle, mais certains ne la respectent pas, bien entendu...
+[^erreur]: Oui, c’est la règle, mais certains ne la respectent pas, bien entendu…
 
 Si vous ne vous en souciez pas, commencez tout de suite à le faire, il y a beaucoup à apprendre, et sans doute beaucoup d’améliorations à apporter à votre site.
 
@@ -40,7 +40,7 @@ En observant les erreurs 404 relevées par Google, j’ai pu corriger de nombreu
 
 [^url]: Oui, je sais, c’est mal, mais j’ai mis des redirections permanentes au moins, moi ! ;-)
 
-Il n’y a bien entendu pas que le nettoyage des erreurs 404 qui permet d’améliorer la qualité du référencement, mais c’est un autre sujet...
+Il n’y a bien entendu pas que le nettoyage des erreurs 404 qui permet d’améliorer la qualité du référencement, mais c’est un autre sujet…
 
 # Les performances, la consommation de bande passante, et donc potentiellement le coût de l’hébergement
 
@@ -80,7 +80,7 @@ Requête qui correspond à [une faille de sécurité de phpMyChat](http://osvdb.
 
 [^pmc]: Oups oups oups ! :-(
 
-Je tiens à signaler aux hackers qui me liraient que je n’utilise aucune de ces applications, ni aucune des nombreuses autres auxquelles s’adressent les autres attaques que je subi...
+Je tiens à signaler aux hackers qui me liraient que je n’utilise aucune de ces applications, ni aucune des nombreuses autres auxquelles s’adressent les autres attaques que je subi…
 
 Faudrait-il donc refuser systématiquement toute requête signée par `libwww-perl` ?
 

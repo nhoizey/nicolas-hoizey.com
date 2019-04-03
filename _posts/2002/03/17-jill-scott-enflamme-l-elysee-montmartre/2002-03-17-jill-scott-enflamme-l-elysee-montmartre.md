@@ -8,7 +8,7 @@ Lundi 25 février 2002, l'Elysée Montmartre.
 
 Je ne suis pas à priori grand fan de ce type de musique qu'on nomme R&B (prononcer *ar ène bi*), qui n'évoque pas grand chose pour moi si ce n'est une n-ième tentative d'enfermer des artistes dans un [cadre commercial](http://www.amazon.com/exec/obidos/tg/browse/-/39/phpheaven) souvent trop étriqué.
 
-Pourtant, je découvre depuis peu certains des artistes qui y sont catalogués. Je prend par exemple plaisir à écouter [Macy Gray](http://www.amazon.com/exec/obidos/tg/stores/artist/glance/-/183508/phpheaven), grâce à [Fatboy Slim](http://www.amazon.com/exec/obidos/tg/stores/artist/glance/-/90123/phpheaven)). Je ne vois par contre pas pourquoi Amazon m'indique que [Diana Krall](http://www.amazon.com/exec/obidos/tg/stores/artist/glance/-/87104/phpheaven), que j'apprécie particulièrement depuis pas mal de temps, est une artiste *similaire* ...
+Pourtant, je découvre depuis peu certains des artistes qui y sont catalogués. Je prend par exemple plaisir à écouter [Macy Gray](http://www.amazon.com/exec/obidos/tg/stores/artist/glance/-/183508/phpheaven), grâce à [Fatboy Slim](http://www.amazon.com/exec/obidos/tg/stores/artist/glance/-/90123/phpheaven)). Je ne vois par contre pas pourquoi Amazon m'indique que [Diana Krall](http://www.amazon.com/exec/obidos/tg/stores/artist/glance/-/87104/phpheaven), que j'apprécie particulièrement depuis pas mal de temps, est une artiste *similaire*…
 
 {% cloudinary onethird art85-1.jpg %}
 

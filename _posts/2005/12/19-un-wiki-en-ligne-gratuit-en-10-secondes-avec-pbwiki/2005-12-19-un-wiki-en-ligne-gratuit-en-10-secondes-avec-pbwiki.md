@@ -12,7 +12,7 @@ A l'heure où le Web 2.0 promet notamment la prise en main des contenus d'intern
 {% cloudinary pbwiki.png caption="PBwiki. Un wiki gratuit en ligne en 10 secondes !" %}
 
 
-Pour ceux qui ne le sauraient pas, un wiki est, selon la [définition fournie par Wikipedia](http://fr.wikipedia.org/wiki/Wiki), «  un site Web dynamique permettant à tout individu d'en modifier les pages à volonté. Il permet non seulement de communiquer et diffuser des informations rapidement [...], mais de structurer cette information pour permettre d'y naviguer commodément. »
+Pour ceux qui ne le sauraient pas, un wiki est, selon la [définition fournie par Wikipedia](http://fr.wikipedia.org/wiki/Wiki), «  un site Web dynamique permettant à tout individu d'en modifier les pages à volonté. Il permet non seulement de communiquer et diffuser des informations rapidement […], mais de structurer cette information pour permettre d'y naviguer commodément. »
 
 Voilà donc de quoi remplacer les post-it qui trainent sur les bureaux, et même de les partager avec d'autres !
 

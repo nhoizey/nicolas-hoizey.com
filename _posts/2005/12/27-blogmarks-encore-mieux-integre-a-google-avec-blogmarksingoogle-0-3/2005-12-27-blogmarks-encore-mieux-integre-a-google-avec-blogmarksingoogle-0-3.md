@@ -20,6 +20,6 @@ Pour ce qui est des évolutions, jugez vous-même :
 - Suppression des nombreux styles CSS *inline* au profit d'une section globale de styles
 - Alternance de couleurs entre les résultats pour améliorer la lisibilité
 
-Il reste juste un bug un peu pénible à corriger : si vous utilisez l'extension BetterSearch pour Firefox, vous risquez d'avoir les résultats Google relégués après ceux de Blogmarks, l'extension semblant ajouter un `clear: right;` sauvage...
+Il reste juste un bug un peu pénible à corriger : si vous utilisez l'extension BetterSearch pour Firefox, vous risquez d'avoir les résultats Google relégués après ceux de Blogmarks, l'extension semblant ajouter un `clear: right;` sauvage…
 
 **MAJ :** Effectivement, il manquait un [lien vers le script](http://userscripts.org/scripts/show/2243), merci NiCoS !

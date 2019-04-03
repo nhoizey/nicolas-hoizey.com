@@ -18,7 +18,7 @@ Quand Apple a sorti Time Machine avec Leopard, tout le monde y a vu l'arrivée d
 
 En même temps, les NAS aussi sont devenus de plus en plus grand public, en facilitant la sauvegarde centralisée des ordinateurs qui pullulent de plus en plus même en usage domestique, et en devenant même de très complets serveurs multimédia grâce aux protocoles standards [UPnP (fr)](http://fr.wikipedia.org/wiki/Universal_Plug_and_Play) et [DLNA (fr)](http://fr.wikipedia.org/wiki/Digital_Living_Network_Alliance)[^1]. J'accède ainsi directement depuis ma PS3 aux contenus audio, vidéo et image qui sont sur mon portable sous Vista[^2] ou sur mon iMac[^3], et je pourrais faire de même avec des contenus stockés sur un NAS, la plupart intégrant aujourd'hui ce type de fonctionnalité.
 
-# Oui mais...
+# Oui mais…
 
 
 Arrivé à ces constats, on se dit qu'il serait merveilleux de pouvoir utiliser ce stockage centralisé pour effectuer les sauvegardes de nos différents Mac avec Time Machine. Sauf qu'Apple a décidé -- ce n'était apparemment pas le cas dans les versions *beta* de Leopard -- d'interdire les sauvegardes sur des périphériques réseau autres que sa chère [Time Capsule (fr)](http://www.apple.com/fr/timecapsule/), très limitée en capacité et sans sécurité pour les données[^4].
@@ -51,9 +51,9 @@ Si vous vous êtes posé les mêmes questions, et avez trouvé une solution conv
 
 [^1]: OK, ce n'est pas vraiment un protocole, plutôt un standard basé notamment sur UPnP
 
-[^2]: Merci à Microsoft pour [Windows Media Player 11 (en)](http://www.microsoft.com/windows/windowsmedia/devices/athome/default.aspx)...
+[^2]: Merci à Microsoft pour [Windows Media Player 11 (en)](http://www.microsoft.com/windows/windowsmedia/devices/athome/default.aspx)…
 
-[^3]: Merci à Nullriver pour [MediaLink (en)](http://www.nullriver.com/products/medialink), et pas merci du tout à Apple pour l'absence de support natif dans Leopard et iLife...
+[^3]: Merci à Nullriver pour [MediaLink (en)](http://www.nullriver.com/products/medialink), et pas merci du tout à Apple pour l'absence de support natif dans Leopard et iLife…
 
 [^4]: 500 Go ou 1 To, là où les NAS vont sans problème maintenant jusqu'à 4 To et plus en RAID 5
 
@@ -61,6 +61,6 @@ Si vous vous êtes posé les mêmes questions, et avez trouvé une solution conv
 
 [^6]: Chez [Synology (fr)](http://www.synology.com/fre/index.php), ils [recommandent (en)](http://www.synology.com/enu/support/help-page.php?q_id=352) d'utiliser le logiciel [SilverKeeper (en)](http://www.lacie.com/silverkeeper/) de LaCie, qui n'est pas compatible Leopard !
 
-[^7]: Mais [ça n'a pas l'air de bien fonctionner (fr)](http://www.01net.com/fiche-produit/prise-main-5142/divers-belkin-wireless-usb-hub/), et ne semble de toute façon disponible que pour Windows...
+[^7]: Mais [ça n'a pas l'air de bien fonctionner (fr)](http://www.01net.com/fiche-produit/prise-main-5142/divers-belkin-wireless-usb-hub/), et ne semble de toute façon disponible que pour Windows…
 
 [^8]: Sauf que ça ne fonctionne que sous Windows.

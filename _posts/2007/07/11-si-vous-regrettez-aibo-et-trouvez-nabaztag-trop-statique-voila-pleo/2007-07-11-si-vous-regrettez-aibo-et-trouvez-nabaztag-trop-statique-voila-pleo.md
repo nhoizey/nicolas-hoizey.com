@@ -9,7 +9,7 @@ Suite à l'annonce de Sony d'arrêter la production de son célèbre chien [Aibo
 Si vous cherchez un bon gadget de *geek* pour épater vos ami(e)s, jetez-vous sur le dinosaure [Pleo](http://www.pleoworld.com/) de [UGOBE](http://www.ugobe.com/) !
 
 
-[^1]: Oui, je sais, ses oreilles bougent...
+[^1]: Oui, je sais, ses oreilles bougent…
 
 {% cloudinary pleo-ugobe.png %}
 

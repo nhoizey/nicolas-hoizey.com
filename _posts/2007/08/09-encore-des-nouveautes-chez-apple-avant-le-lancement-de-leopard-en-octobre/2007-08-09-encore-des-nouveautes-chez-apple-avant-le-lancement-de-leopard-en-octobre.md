@@ -58,7 +58,7 @@ Apple améliore enfin le partage de photos en ligne en ajoutant des galeries tr�
 
 **iMovie**
 
-C'est [iMovie](http://www.apple.com/ilife/imovie/) qui fait l'objet de la plus importante mise à jour, a tel point que cette nouvelle version ne reprend rien de l'ancienne. Un ingénieur Apple aurait tellement luté avec l'ancienne version pour monter un film qu'il aurait développé pour son propre usage cette nouvelle version, avant qu'elle soit retenue comme nouvelle solution iMovie d'Apple. J'en ai presque la larme à l'oeil...
+C'est [iMovie](http://www.apple.com/ilife/imovie/) qui fait l'objet de la plus importante mise à jour, a tel point que cette nouvelle version ne reprend rien de l'ancienne. Un ingénieur Apple aurait tellement luté avec l'ancienne version pour monter un film qu'il aurait développé pour son propre usage cette nouvelle version, avant qu'elle soit retenue comme nouvelle solution iMovie d'Apple. J'en ai presque la larme à l'oeil…
 
 Toujours est-il que cette nouvelle version remet enfin à plat la visualisation et le montage vidéo en proposant une interface simplifiant grandement le choix de sections de vidéos existantes, que l'on parcours à la manière des photos dans iPhoto, avec la dimension temporelle supplémentaire permettant de « zoomer » plus ou moins sur la vidéo, c'est à dire d'en voir plus ou moins d'extrait côte à côte.
 
@@ -91,7 +91,7 @@ Apple a aussi mis à jour d'autres éléments de ses gammes logicielles et maté
 
 Le plus intéressant est sans doute que le [Mac mini](http://www.apple.com/macmini/) est enfin mis à jour avec les derniers processeurs Intel, il était temps !
 
-Il ne reste plus qu'à attendre octobre pour la sortie de Leopard, et il sera possible d'acquérir une nouvelle machine avec bien sûr Leopard mais aussi iLife '08 inclus...
+Il ne reste plus qu'à attendre octobre pour la sortie de Leopard, et il sera possible d'acquérir une nouvelle machine avec bien sûr Leopard mais aussi iLife '08 inclus…
 
 [^1]: Transparences, *slideshows* Ajax, etc. à base de [Prototype and Script.aculo.us](http://ajaxian.com/archives/mac-web-gallery-on-prototype)
 

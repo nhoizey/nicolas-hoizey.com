@@ -1,5 +1,5 @@
 ---
-title:      "Du bon choix des couleurs ..."
+title:      "Du bon choix des couleurs…"
 lang:       fr
 tags:       [creation]
 ---
@@ -28,6 +28,6 @@ Mais que tout cela ne vous empêche pas d'être créatif et de continuer à [mix
 
 Enfin, si vous êtes perfectionniste, allez faire un tour chez [Chroma](http://pourpre.com/chroma/) pour apprendre quels noms portent les couleurs que vous avez choisies.
 
-Quoi qu'il en soit, pour avoir une bonne vue des couleurs principales toujours sous les yeux, pourquoi ne pas adopter le [tapis de souris de ThinkGeek](http://www.thinkgeek.com/computing/accessories/5b15/) ...
+Quoi qu'il en soit, pour avoir une bonne vue des couleurs principales toujours sous les yeux, pourquoi ne pas adopter le [tapis de souris de ThinkGeek](http://www.thinkgeek.com/computing/accessories/5b15/)…
 
 {% cloudinary thinkgeek_colors.jpg %}

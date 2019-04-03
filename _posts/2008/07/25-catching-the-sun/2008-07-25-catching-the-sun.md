@@ -9,4 +9,4 @@ Presque au sommet de la Sierra Nevada, près de Grenade en Andalousie, tentant d
 
 {% cloudinary catching-the-sun.jpg %}
 
-Une bonne occasion de rendre visite à mon vieux groupe Flickr dédié à ce type de photos : « [Forced perspective: catching sun, kissing sphinx, holding pisa...](https://www.flickr.com/groups/catching_sun/) »
+Une bonne occasion de rendre visite à mon vieux groupe Flickr dédié à ce type de photos : « [Forced perspective: catching sun, kissing sphinx, holding pisa…](https://www.flickr.com/groups/catching_sun/) »

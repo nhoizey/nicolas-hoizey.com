@@ -4,7 +4,7 @@ lang:       fr
 tags:       [spam, CSS]
 ---
 
-Un p'tit malin qui se fait appeler Sylvain a laissé un commentaire très sympathique sur [mon billet précédent](/2010/02/tumblr-aime-mes-meduses.html). Mais il a aussi glissé subrepticement un lien vers un site de *poker fashion*...
+Un p'tit malin qui se fait appeler Sylvain a laissé un commentaire très sympathique sur [mon billet précédent](/2010/02/tumblr-aime-mes-meduses.html). Mais il a aussi glissé subrepticement un lien vers un site de *poker fashion*…
 
 Voilà à quoi ressemblait le commentaire avant que je le retire :
 

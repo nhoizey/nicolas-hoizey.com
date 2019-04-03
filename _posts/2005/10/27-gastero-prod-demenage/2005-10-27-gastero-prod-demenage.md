@@ -1,5 +1,5 @@
 --- 
-title:      "Gastero Prod déménage..." 
+title:      "Gastero Prod déménage…" 
 lang:       fr 
 tags:       [Gastero Prod]
 ---
@@ -9,4 +9,4 @@ Après pas mal de temps passé chez [Ouvaton](http://ouvaton.coop/), Gastero Pro
 
 Le nom de domaine n'est pas encore propagé, mais la transition devrait se faire en douceur durant ce week-end prolongé. Vous pouvez continuer à utiliser l'adresse <http://www.gasteroprod.com/>, j'ai mis une redirection automatique chez Ouvaton.
 
-Je vous parlerais sans doute un peu plus prochainement de mon nouvel hébergeur... mais j'ai auparavant d'autres sites à migrer.
+Je vous parlerais sans doute un peu plus prochainement de mon nouvel hébergeur… mais j'ai auparavant d'autres sites à migrer.

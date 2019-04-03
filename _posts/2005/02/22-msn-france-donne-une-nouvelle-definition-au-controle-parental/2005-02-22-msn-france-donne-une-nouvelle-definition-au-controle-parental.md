@@ -4,7 +4,7 @@ lang:       fr
 tags:       [fail, Microsoft]
 ---
 
-Ou plutôt, *à donné* une nouvelle définition au contrôle parental, devrais-je dire pour être juste, puisque je fais référence au site de MSN France daté d'il y a plus d'un an, le 1<sup>er</sup> décembre 2003. Espérons que ça a changé depuis...
+Ou plutôt, *à donné* une nouvelle définition au contrôle parental, devrais-je dire pour être juste, puisque je fais référence au site de MSN France daté d'il y a plus d'un an, le 1<sup>er</sup> décembre 2003. Espérons que ça a changé depuis…
 
 
 Le 1<sup>er</sup> décembre 2003, donc, la [page d'accueil de MSN France](http://www.msn.fr/) était la suivante :
@@ -24,7 +24,7 @@ Mais si vous regardez le début de la partie contenu de la page, vous voyez ceci
 {% cloudinary MSN_controle_parental_zoom2.png %}
 
 
-Etrange manière de mettre en avant le contrôle parental ...
+Etrange manière de mettre en avant le contrôle parental…
 
 Vérification faite aujourd'hui même, MSN France aime semble-t'il toujours autant [FHM](/2003/12/fhm-blah-blah-blah.html), mais au moins ne parle plus de contrôle parental en même temps :
 

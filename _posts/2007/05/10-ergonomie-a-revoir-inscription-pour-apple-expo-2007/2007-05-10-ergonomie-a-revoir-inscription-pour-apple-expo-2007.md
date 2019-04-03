@@ -14,11 +14,11 @@ Par contre, il semble que Apple ou Reed -- l'organisateur -- a des difficultés 
 {% cloudinary Apple_Expo_-_yes_or_no.png caption="Un choix difficile" %}
 
 
-Choix difficile s'il en est...
+Choix difficile s'il en est…
 
 Mais ce n'est pas la seule erreur de ce formulaire, puisqu'on nous pose aussi deux fois la même question à propos du budget moyen annuel pour les dépenses informatiques !
 
 {% cloudinary Apple_Expo_-_How_much.png caption="Combien ? OK, mais combien ?" %}
 
 
-Ca a l'air bien difficile de faire des formulaires Web de nos jours...
+Ca a l'air bien difficile de faire des formulaires Web de nos jours…

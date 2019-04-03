@@ -1,5 +1,5 @@
 --- 
-title:      "La fin de l'agenda Gastero Prod..." 
+title:      "La fin de l'agenda Gastero Prod…" 
 lang:       fr 
 tags:       [SPIP, Gastero Prod, agenda]
 ---
@@ -13,7 +13,7 @@ Maintenant que Gastero Prod est passé sur une version récente de SPIP, à savo
 
 Le service rendu a été important, et de nombreux spipeurs ont utilisé ma contribution, mais il est temps de passer à une nouvelle version, maintenant que le [calendrier public de SPIP](http://www.spip.net/fr_article3182.html) est une fonctionnalité native depuis la version 1.8.2. Sauf que je ne l'ai vu pour l'instant fonctionner que sur [un seul site](http://6v8.gamboni.org/test-aig/agenda.php), mais sans être réellement convaincu.
 
-L'avenir dira si Gastero Prod sera à nouveau doté d'un agenda...
+L'avenir dira si Gastero Prod sera à nouveau doté d'un agenda…
 
 
 

@@ -7,7 +7,7 @@ tags:       [photo, gear, Canon, bag]
 Je trimballe pour l'instant mon Canon EOS 350D[^1] et ses accessoires dans un sac à dos photo [Lowepro Mini Trekker Classic](http://www.google.fr/images?hl=fr&q=lowepro+Mini+Trekker+Classic). Je l'avais obtenu quasiment gratuitement avec un abonnement à [Réponses Photo (fr)](http://fr.wikipedia.org/wiki/R%C3%A9ponses_Photo), donc je n'ai pas trop réfléchi à l'époque à ses avantages/inconvénients par rapport à la concurrence. Mais maintenant que je vais monter en gamme au niveau matériel, et du coup aussi en poids total, je cherche un sac en conséquence, notamment pour ce qui est de l'espace de rangement, de l'ergonomie, et du confort de portage.
 
 
-[^1]: Les ricains l'appellent *Digital Rebel*, bien plus poétique...
+[^1]: Les ricains l'appellent *Digital Rebel*, bien plus poétique…
 
 Voilà ce que je trimbale donc pour l'instant dans mon Lowepro Mini Trekker Classic :
 
@@ -46,11 +46,11 @@ Et vous, qu'utilisez-vous pour trimbaler votre matériel photo ? Connaissez-vous
 
 
 
-[^1]: Canon a du mal à livrer ses distributeurs, mais le Père Noël l'a peut-être aidé à améliorer sa logistique...
+[^1]: Canon a du mal à livrer ses distributeurs, mais le Père Noël l'a peut-être aidé à améliorer sa logistique…
 
 [^2]: Je dois toujours faire une comparaison précise, les possibilités de *crop* du gros capteur du 5D Mark II permettant sans doute d'obtenir en fait le même résultat sans besoin de trainer deux boitiers.
 
-[^3]: Notamment dans différents forums dont celui d'[EOS Numérique (fr)](http://www.eos-numerique.com/forums/f35/sacs-photo-les-marques-et-modeles-vos-avis-et-commentaires-50504/) ou sur des sites ultra spécialisés comme [CamBags (en)](http://www.cambags.com/camera_bag_mainpage.htm) ou [taschenfreak.de (de)](http://taschenfreak.de/indexliste.htm) ...
+[^3]: Notamment dans différents forums dont celui d'[EOS Numérique (fr)](http://www.eos-numerique.com/forums/f35/sacs-photo-les-marques-et-modeles-vos-avis-et-commentaires-50504/) ou sur des sites ultra spécialisés comme [CamBags (en)](http://www.cambags.com/camera_bag_mainpage.htm) ou [taschenfreak.de (de)](http://taschenfreak.de/indexliste.htm)…
 
 [^4]: Et donc moins attirants pour les éventuels brigands
 

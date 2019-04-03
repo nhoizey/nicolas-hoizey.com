@@ -35,14 +35,14 @@ Mais pourquoi donc ont-ils des problèmes avec nos pauvres accents français enc
 {% cloudinary Cuil_-_utf8.png caption="Cuil n'aime pas les accents ou l'UTF-8" %}
 
 
-Bon, maintenant qu'ils ont foiré le lancement, qu'ils sont complètement grillés, ils ne peuvent que progresser. C'est finalement peut-être un choix stratégique, là où [certains](http://twitter.com/) réussissent leur lancement mais peinent à tenir la route ensuite...
+Bon, maintenant qu'ils ont foiré le lancement, qu'ils sont complètement grillés, ils ne peuvent que progresser. C'est finalement peut-être un choix stratégique, là où [certains](http://twitter.com/) réussissent leur lancement mais peinent à tenir la route ensuite…
 
 
 [^1]: Qui utilise le moteur de Google, d'ailleurs
 
 [^2]: Oui, sa pertinence est semble-t-il remise en cause de plus en plus, notamment face au malmené Yahoo!
 
-[^3]: Bon, il y a bien un invité mystère, mais c'est une question d'habitude... *private joke inside*
+[^3]: Bon, il y a bien un invité mystère, mais c'est une question d'habitude… *private joke inside*
 
 [^4]: Oui, j'ai vérifié qu'ils avaient bien corrigé
 

@@ -11,12 +11,12 @@ Je partage tout à fait les soucis de Laurent de différencier les documents et 
 
 Mais comme l'indique bien cette liste -- pourtant non exhaustive -- de solutions disponibles, le principal problème est une fois de plus de trouver laquelle de ces technologies répond le mieux et le plus durablement à un besoin et des contraintes donnés.
 
-Si l'on parle d'[accessibilité](http://www.clever-age.com/veille/clever-link/usabilite-accessibilite-realite-274.html),  la possibilité d'accéder à une application via le Web depuis n'importe quel navigateur est un critère important, et là XUL / XPFE[^3] et XAML / Avalon[^4] sont écartés d'office[^5], alors que MXML / Flex a l'avantage de s'appuyer sur la très largement répendue plateforme cliente Flash. Mais c'est une solution propriétaire... Reste alors son challenger logiciel libre OpenLaszlo, qui semble bien prometteur.
+Si l'on parle d'[accessibilité](http://www.clever-age.com/veille/clever-link/usabilite-accessibilite-realite-274.html),  la possibilité d'accéder à une application via le Web depuis n'importe quel navigateur est un critère important, et là XUL / XPFE[^3] et XAML / Avalon[^4] sont écartés d'office[^5], alors que MXML / Flex a l'avantage de s'appuyer sur la très largement répendue plateforme cliente Flash. Mais c'est une solution propriétaire… Reste alors son challenger logiciel libre OpenLaszlo, qui semble bien prometteur.
 
-Dans un même temps, l'usage des technologies standards du Web évolue très rapidement[^6], et la déferlante [AJAX](http://blogmarks.net/tag/ajax) qui redonne des couleurs vives au HTML vieillissant n'est pas près de s'essoufler. On en reparle prochainement...
+Dans un même temps, l'usage des technologies standards du Web évolue très rapidement[^6], et la déferlante [AJAX](http://blogmarks.net/tag/ajax) qui redonne des couleurs vives au HTML vieillissant n'est pas près de s'essoufler. On en reparle prochainement…
 
 
-[^1]: Vous noterez au passage que MOBIFORM Software Ltd., qui se sert de ce site au nom de domaine opportuniste pour promouvoir son logiciel « Aurora », offre une comparaison de XAML avec d'autres technologies, mais oublie incidieusement d'y placer XUL...
+[^1]: Vous noterez au passage que MOBIFORM Software Ltd., qui se sert de ce site au nom de domaine opportuniste pour promouvoir son logiciel « Aurora », offre une comparaison de XAML avec d'autres technologies, mais oublie incidieusement d'y placer XUL…
 
 [^2]: Racheté cette année par Adobe, donc l'avenir dira si les produits persistent en l'état
 

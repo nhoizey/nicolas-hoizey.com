@@ -8,7 +8,7 @@ Dans une nouvelle version de [Flickr pour mobiles](http://m.flickr.com/)[^1], [F
 
 [^1]: En tout cas tel que visible sur iPhone
 
-[^2]: Logique, [Flickr est la propriété de Yahoo!](/2005/03/flickr-dans-l-escarcelle-de-yahoo.html) depuis quelque temps...
+[^2]: Logique, [Flickr est la propriété de Yahoo!](/2005/03/flickr-dans-l-escarcelle-de-yahoo.html) depuis quelque temps…
 
 {% cloudinary flickr-mobile-google-maps.png caption="Google Maps dans Flickr Mobile" %}
 

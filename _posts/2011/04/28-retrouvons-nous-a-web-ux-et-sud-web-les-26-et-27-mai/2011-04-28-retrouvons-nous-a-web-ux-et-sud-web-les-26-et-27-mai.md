@@ -54,7 +54,7 @@ Si vous hésitez encore, j'espère que ce n'est pas à cause du prix, qui est vr
 
 J'espère que ce n'est pas non plus à cause des coûts de transport ou de logement. Vous pouvez profiter d'une [remise de 20% sur les billets de train](http://sudweb.fr/post/20-de-reduction-sur-le-train) ou [venir en covoiturage](http://agenda.covoiturage.fr/conference/2287-web-ux-et-sud-web), et les campings sont nombreux dans la région[^1].
 
-[^1]: Il paraît même que certains organisateurs ont de grands jardins...
+[^1]: Il paraît même que certains organisateurs ont de grands jardins…
 
 J'espère que ce n'est pas non plus parce que cela vous imposerait de prendre des congés, puisque vous pouvez [bénéficier d'une convention de formation](http://tickets.web-ux.org/cms.php?id_cms=10), et ainsi facilement demander à votre employeur de vous y envoyer. Vous utiliserez votre DIF intelligemment, et vous reviendrez des conférences plein de bonnes idées et bonnes pratiques à appliquer.
 

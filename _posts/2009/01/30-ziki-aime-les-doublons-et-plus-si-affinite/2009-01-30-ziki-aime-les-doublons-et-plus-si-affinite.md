@@ -1,5 +1,5 @@
 ---
-title:      Ziki aime les doublons... et plus si affinité
+title:      Ziki aime les doublons… et plus si affinité
 lang:       fr
 tags:       [fail]
 ---
@@ -31,4 +31,4 @@ Pire, si je ne remplie pas complètement le profil de ma société, on me relanc
 {% cloudinary Ziki-relance.png %}
 
 
-Cela fait quand même beaucoup de bugs qui n'auraient pas dû passer au travers des mailles de l'équipe de recette...
+Cela fait quand même beaucoup de bugs qui n'auraient pas dû passer au travers des mailles de l'équipe de recette…

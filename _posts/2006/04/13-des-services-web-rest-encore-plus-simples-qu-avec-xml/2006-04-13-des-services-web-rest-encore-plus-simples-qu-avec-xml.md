@@ -8,8 +8,8 @@ tags:       [Flickr, PHP, Clever Age, feed, Web Services]
 
 Si vous avez déjà manipulé les flux de syndication de Flickr, vous avez appelé des URL de la forme suivante :
 
-- Flux RSS 2.0 : `flickr.com/.../photos_public.gne?id=...&format=rss_200`
-- Flux Atom 0.3 : `flickr.com/.../photos_public.gne?id=...&format=atom_03`
+- Flux RSS 2.0 : `flickr.com/…/photos_public.gne?id=…&format=rss_200`
+- Flux Atom 0.3 : `flickr.com/…/photos_public.gne?id=…&format=atom_03`
 
 Eh bien il est possible d'utiliser d'autres valeurs du paramètre « format » de l'URL pour obtenir les données non pas en RSS ou Atom, mais dans un format plus simple à manipuler sur votre plateforme.
 
@@ -36,8 +36,8 @@ Par contre, il manque deux choses pour que le modèle d'architecture REST soit r
 1. le type de contenu devrait être correctement indiqué dans l'en-tête HTTP de la réponse du service web (Content-Type: xxx)
 1. et de même, le client devrait indiquer le format qu'il désire dans l'en-tête HTTP de sa requête et non dans une variable GET.
 
-L'identificateur du format désiré (json, xml, rdf, ...) est une méta-donnée de représentation et non pas une identification de la ressource (dans l'URL). Pour faire une analogie, on retrouve un peu ici le problème de séparation entre contenu et présentation des [outils de gestion de contenu Web](http://www.clever-age.com/veille/etudes-payantes/portails-gestion-contenu-etat-art-solutions-7.html), la spécification HTTP prévoit une en-tête pour ça (Accept)[^2].
+L'identificateur du format désiré (json, xml, rdf,…) est une méta-donnée de représentation et non pas une identification de la ressource (dans l'URL). Pour faire une analogie, on retrouve un peu ici le problème de séparation entre contenu et présentation des [outils de gestion de contenu Web](http://www.clever-age.com/veille/etudes-payantes/portails-gestion-contenu-etat-art-solutions-7.html), la spécification HTTP prévoit une en-tête pour ça (Accept)[^2].
 
 [^1]: Voir [notre étude sur les Web Services](http://www.clever-age.com/veille/etudes-payantes/les-web-services-avenir-architectures-web-8.html), dont nous allons prochainement publier une mise à jour
 
-[^2]: Enfin, mais c'est assez subjectif, cela fait des URLs plutôt moches...
+[^2]: Enfin, mais c'est assez subjectif, cela fait des URLs plutôt moches…

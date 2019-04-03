@@ -9,7 +9,7 @@ tags:       [standards, a11y]
 
 L'[interview de Lhorens Marie](http://solutions.journaldunet.com/itws/040603_it_marie.shtml), Directeur Web et Technologies de [Cosmosbay-Vectis](http://www.cosmosbay-vectis.com/) par le [Journal du Net](http://solutions.journaldunet.com/) est intéressante, puisqu'elle montre que l'accessibilité est enfin un sujet dont il est possible de parler dans les parutions « grand public ».
 
-Elle permet de donner aux lecteurs des indications sur l'état du marché, tout comme la chronique que nous avons publiée très récemment sur ce même sujet : [Usabilité, Accessibilité et ... réalité](http://www.clever-age.com/article.php3?id_article=193).
+Elle permet de donner aux lecteurs des indications sur l'état du marché, tout comme la chronique que nous avons publiée très récemment sur ce même sujet : [Usabilité, Accessibilité et… réalité](http://www.clever-age.com/article.php3?id_article=193).
 
 Par contre, ses réponses aux questions concernant d'éventuels projets pilotes et la disponibilité d'outils de gestion de contenu respectant les standards montrent qu'il n'a peut-être pas encore collecté toutes les informations nécessaires à ce sujet. A moins qu'il ne profite tout simplement de cette tribune pour le terrain pour sa société qui va « commercialiser une offre dans le courant de l'été pour pâlier à ce manque ».
 

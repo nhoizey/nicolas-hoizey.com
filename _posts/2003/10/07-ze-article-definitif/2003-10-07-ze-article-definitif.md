@@ -17,7 +17,7 @@ Que ce soit pour feu [ZeBank](http://www.zebank.com/) ou le toujours aussi vivac
 
 *« Ze » pourrait être appelé un « article définitif », puisqu'il désigne tout ce qu'on appelle en anglais (veuillez m'excuser de vous imposer ces anglicismes) ce qui est par excellence ou la crème de la crème*, nous dit ainsi [OuGraPo](http://www.langue-fr.net/ougrapo/ze-article.htm).
 
-A méditer ...
+A méditer…
 
 
 [^t1]: voir sa [FAQ](http://www.langue-fr.net/faq/fllf.htm)

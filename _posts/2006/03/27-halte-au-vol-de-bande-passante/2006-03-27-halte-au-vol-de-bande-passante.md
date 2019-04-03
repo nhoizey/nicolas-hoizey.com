@@ -24,12 +24,12 @@ Dans les forums de [El Otro Lado](http://www.elotrolado.net/), dans [la signatur
 {% cloudinary vol_elotrado.png %}
 
 
-Bien sûr, le [furoncle](http://www.myspace.com/) MySpace n'échappe pas à la liste, avec notamment [le profil d'un certain « Nick »](http://profile.myspace.com/index.cfm?fuseaction=user.viewprofile&friendID=3871726)...
+Bien sûr, le [furoncle](http://www.myspace.com/) MySpace n'échappe pas à la liste, avec notamment [le profil d'un certain « Nick »](http://profile.myspace.com/index.cfm?fuseaction=user.viewprofile&friendID=3871726)…
 
 {% cloudinary vol_myspace1.png %}
 
 
-... ou encore [celui d'un certain « Sgnl>06 (Paul Fills The Void) »](http://www.myspace.com/newyorkslave) :
+… ou encore [celui d'un certain « Sgnl>06 (Paul Fills The Void) »](http://www.myspace.com/newyorkslave) :
 
 {% cloudinary vol_myspace2.png %}
 
@@ -38,7 +38,7 @@ J'arrête là la démonstration, mais j'ai déjà relevé plus de dix autres sit
 
 Cette photo n'est pas de moi, bien sûr, et je ne suis même sans doute pas totalement dans mon droit en l'affichant ainsi sur mon site, mais ce que je déplore surtout, c'est la quantité de bande passante ainsi détournée !
 
-D'après les *logs* Apache, l'image a été téléchargée 321 fois vendredi 17 mars pour illustrer une page non hébergée par Gastero Prod[^1]. L'image faisant une taille de 14748 octets, on arrive à **un vol de bande passante quotidien d'environ 4,5 Mo**. Et cela pour une seule des images qui sont « volées », je n'ose tenter un calcul global...
+D'après les *logs* Apache, l'image a été téléchargée 321 fois vendredi 17 mars pour illustrer une page non hébergée par Gastero Prod[^1]. L'image faisant une taille de 14748 octets, on arrive à **un vol de bande passante quotidien d'environ 4,5 Mo**. Et cela pour une seule des images qui sont « volées », je n'ose tenter un calcul global…
 
 Heureusement, une solution existe ! [Comme l'explique simplement NiKo](http://www.prendreuncafe.com/blog/2006/03/19/417-note-en-passant), il « suffit » d'empêcher les méchants de voler la bande passante, en interdisant l'usage d'images du site à partir d'autres sites. Via les [*Rewrite Rules* d'Apache](http://httpd.apache.org/docs/1.3/mod/mod_rewrite.html), en l'occurance.
 

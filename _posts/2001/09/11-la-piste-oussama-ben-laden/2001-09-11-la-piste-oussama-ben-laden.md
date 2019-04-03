@@ -22,13 +22,13 @@ Cependant, le gouvernement afghan mené par les talibans, qui condamne ces atten
 
 Pourtant, on apprend que les terroristes kamikaze n'auraient été armés que de simples couteaux et cutters, donc la détermination totale d'une poignée de partisans semble être le seul prix qu'il y ait eu à payer pour le commanditaire.
 
-Donc Oussama Ben Laden peut très bien être le responsable, mais tout autre groupe ayant quelques envies d'attentats contre les Etats-Unis aussi ...
+Donc Oussama Ben Laden peut très bien être le responsable, mais tout autre groupe ayant quelques envies d'attentats contre les Etats-Unis aussi…
 
 Reste qu'il est plus pratique médiatiquement d'avoir une cible pour focaliser la colère des victimes que de rester dans l'expectative.
 
 Finalement, quelles que soient les horreurs déjà réalisées par qui que ce soit, l'urgence est dans la mesure plutôt que dans la colère destructrice irréfléchie.
 
-Espérons que George W. Bush et ses conseillés sauront attendre les résultats de la nécessaire enquête avant de punir pour ce crime un relatif innocent. Cela n'est pas sûr puisque CNN annonce déjà des bombardement sur Kaboul, capitale de l'Afghanistan, mais le gouvernement américain nie en être responsable ...
+Espérons que George W. Bush et ses conseillés sauront attendre les résultats de la nécessaire enquête avant de punir pour ce crime un relatif innocent. Cela n'est pas sûr puisque CNN annonce déjà des bombardement sur Kaboul, capitale de l'Afghanistan, mais le gouvernement américain nie en être responsable…
 
 Espérons alors que les "frappes chirurgicales" ont été améliorées, s'il faut malheureusement en arriver là.
 
@@ -42,4 +42,4 @@ Sources :
 - [Les chefs d'accusation retenus contre Oussama Ben Laden](http://usinfo.state.gov/regional/af/security/french/f0120605.htm) ([Département d'Etat américain](http://usinfo.state.gov/francais/homepage.htm))
 - [Oussama ben Laden, ennemi juré de l'Amérique, héros de certains musulmans](http://fr.news.yahoo.com/010912/1/1qhq5.html) (AFP)
 - [Un point peu connu de la règlementation de la FAA autorise les passagers à porter des couteaux](http://fr.news.yahoo.com/010912/5/1qhm9.html) ([Associated Press](http://www.ap.org/))
-- les média traditionnels : [LCI](http://www.lci.fr/), [CNN](http://www.cnn.com/), ...
+- les média traditionnels : [LCI](http://www.lci.fr/), [CNN](http://www.cnn.com/),…

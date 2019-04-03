@@ -7,7 +7,7 @@ tags:       [photo, Flickr]
 [Flickr](https://www.flickr.com/) vient de [lancer son système de géolocalisation](http://blog.flickr.com/flickrblog/2006/08/great_shot_wher.html) des photos, basé évidemment sur [Yahoo! Maps](http://maps.yahoo.com/)[^1], et le moins qu'on puisse dire est qu'ils ont créé une interface vraiment très aboutie !
 
 
-[^1]: Souvenez-vous, [Flickr appartient depuis quelque temps à Yahoo!](/2005/03/flickr-dans-l-escarcelle-de-yahoo.html)...
+[^1]: Souvenez-vous, [Flickr appartient depuis quelque temps à Yahoo!](/2005/03/flickr-dans-l-escarcelle-de-yahoo.html)…
 
 Titillé par [Zooomr](http://www.zooomr.com/) depuis quelque temps, Flickr se devait de réagir et de démontrer qu'il s'agit bien toujours du meilleur service au monde de ce type[^1].
 

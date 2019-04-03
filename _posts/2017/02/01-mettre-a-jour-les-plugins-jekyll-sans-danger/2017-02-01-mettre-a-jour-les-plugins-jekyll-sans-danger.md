@@ -25,7 +25,7 @@ Fetching https://github.com/pattex/jekyll-tagging.git
 Fetching gem metadata from https://rubygems.org/
 Fetching version metadata from https://rubygems.org/
 Fetching dependency metadata from https://rubygems.org/
-Resolving dependencies.....
+Resolving dependencies…..
 
 Outdated gems included in the bundle:
   * addressable (newest 2.5.0, installed 2.4.0)
@@ -77,7 +77,7 @@ Voici un extrait du résultat :
 Fetching gem metadata from https://rubygems.org/
 Fetching version metadata from https://rubygems.org/
 Fetching dependency metadata from https://rubygems.org/
-Resolving dependencies...
+Resolving dependencies…
 […]
 Using nokogiri 1.7.0.1 (was 1.7.0)
 […]
@@ -103,10 +103,10 @@ Si par exemple je tente de mettre à jour `sprockets` avec `bundle update --sour
 
 ```shell
 *[master]
-Fetching gem metadata from https://rubygems.org/..........
+Fetching gem metadata from https://rubygems.org/……….
 Fetching version metadata from https://rubygems.org/..
 Fetching dependency metadata from https://rubygems.org/.
-Resolving dependencies...
+Resolving dependencies…
 […]
 Using sprockets 3.6.3
 […]

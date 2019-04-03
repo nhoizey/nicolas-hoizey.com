@@ -1,5 +1,5 @@
 ---
-title:      "Le monde est petit... ou pas"
+title:      "Le monde est petit… ou pas"
 lang:       fr
 tags:       [society, photo, fail, humour, moi, blog]
 ---
@@ -29,4 +29,4 @@ Ai-je eu raison, l'aurais-je importuné en étalant ainsi dans la vraie vie une 
 
 [^2]: Stéphane et moi avons déjà échangé plusieurs fois par mail ou commentaires de blogs interposés
 
-[^3]: Je n'ai pas encore eu le temps de tripatouiller [XUL](http://www.clever-age.com/veille/clever-link/xul-partie-visible-du-framework-mozilla-xpfe-323.html) malheureusement...
+[^3]: Je n'ai pas encore eu le temps de tripatouiller [XUL](http://www.clever-age.com/veille/clever-link/xul-partie-visible-du-framework-mozilla-xpfe-323.html) malheureusement…

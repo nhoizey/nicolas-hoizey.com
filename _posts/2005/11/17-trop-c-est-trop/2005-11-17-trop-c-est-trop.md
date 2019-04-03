@@ -13,6 +13,6 @@ Voilà un cas très concret, avec de la pub qui envahi toute la page du [JdNet S
 
 Un comble pour un site «journalistique», où le contenu devrait primer !
 
-Ce qui est quand même drôle, c'est le début du slogan qu'on aperçoit sur la pub d'IBM : «Stoppez l'invasion...»
+Ce qui est quand même drôle, c'est le début du slogan qu'on aperçoit sur la pub d'IBM : «Stoppez l'invasion…»
 
-Va vraiment falloir que je tente d'utiliser l'extension [AdBlock](http://adblock.mozdev.org/) dans mon navigateur [Firefox](http://www.mozilla.org/products/firefox/)...
+Va vraiment falloir que je tente d'utiliser l'extension [AdBlock](http://adblock.mozdev.org/) dans mon navigateur [Firefox](http://www.mozilla.org/products/firefox/)…

@@ -4,7 +4,7 @@ lang:       fr
 tags:       [fail, SPIP, PHP]
 ---
 
-SPIP utilise toujours son propre système de gestion de sessions applicatives alors que PHP les supporte depuis maintenant longtemps de façon satisfaisante. Ou pas...
+SPIP utilise toujours son propre système de gestion de sessions applicatives alors que PHP les supporte depuis maintenant longtemps de façon satisfaisante. Ou pas…
 
 
 Avec un SPIP 1.9.2c installé sur Windows Server 2003 SP2, avec Apache 2.2.6 et PHP 5.2.4, j'avais des plantages étranges sur la page de configuration avancée de SPIP et l'indexation ne marchait plus bien, certains articles passant au travers. Je n'avais pas ce soucis sur le même site déployé sur Linux ou Mac OS X.
@@ -18,14 +18,14 @@ De [proche](http://bugs.typo3.org/view.php?id=3731) en [proche](http://www.issoc
 Il suffit de remplacer toutes les instructions telles que la suivante :
 
 ```php
-exec(...);
+exec(…);
 ```
 
 Par ceci :
 
 ```php
 session_write_close();
-exec(...);
+exec(…);
 session_start();
 ```
 
@@ -33,7 +33,7 @@ Bien sûr, si le `exec()` en question se trouve après du code écrivant sur la 
 
 Bien que les sources qui relatent ce problème et sa solution datent un peu, je peux vous confirmer que modifier de cette façon le source des fichiers présents dans `ecrire/extract/*.php` résout bien le problème.
 
-Finalement, les sessions de SPIP sont meilleures que celles de PHP, au moins sur ce point... ;-)
+Finalement, les sessions de SPIP sont meilleures que celles de PHP, au moins sur ce point… ;-)
 
 
 [^1]: *output buffering* en anglais

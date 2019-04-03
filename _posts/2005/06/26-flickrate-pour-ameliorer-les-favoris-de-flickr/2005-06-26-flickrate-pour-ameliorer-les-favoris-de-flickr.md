@@ -9,7 +9,7 @@ Voilà trop longtemps que je n'ai rien écrit ici. Ce n'est pas la seule raison,
 
 flickRate est né d'une frustration que j'avais vis à vis des favoris de [Flickr](https://flickr.com/).
 
-Vous pouvez voir par exemple dans [mes favoris](https://www.flickr.com/photos/nicolas-hoizey/favorites/) qu'il n'y a pas de ligne directrice, que certaines photos sélectionnées le sont pour leur esthétisme, et d'autres pour leur humour...
+Vous pouvez voir par exemple dans [mes favoris](https://www.flickr.com/photos/nicolas-hoizey/favorites/) qu'il n'y a pas de ligne directrice, que certaines photos sélectionnées le sont pour leur esthétisme, et d'autres pour leur humour…
 
 Afin de gérer mieux mes propres favoris, et tant qu'à faire offrir cette même possibilité à d'autres, j'ai créé l'application flickRate, qui permet de **donner des notes à des photos** postées publiquement sur Flickr. Les trois critères proposés pour l'instant sont l'**esthétisme**, l'**originalité**, et le «**fun**». Cela pourrait évoluer, ce n'est pas réellement satisfaisant. Il sera aussi sans doute possible un jour de ne voter que pour un ou deux de ces critères.
 
@@ -86,6 +86,6 @@ Pour finir en beauté[^t1], voici à ce jour les 20 photos les plus appréciées
 <a href="https://www.flickr.com/photos/92362770@N00/20039694/" title="2000-032A, by aquanerds"><img src="https://photos15.flickr.com/20039694_81b5500cb5_s.jpg" width="75" height="75" /></a>
 
 
-[^t1]: Oui, je sais, elle était facile celle-là...
+[^t1]: Oui, je sais, elle était facile celle-là…
 
 [^t2]: Au moins deux d'entre eux ont voté pour ces photos

@@ -1,5 +1,5 @@
 ---
-title:      Quand Mozilla pose une question à son utilisateur, ce n'est pas pour qu'il fasse un choix...
+title:      Quand Mozilla pose une question à son utilisateur, ce n'est pas pour qu'il fasse un choix…
 lang:       fr
 tags:       [UX, Mozilla, formulaire]
 ---
@@ -37,5 +37,5 @@ Je suis allé créer le ticket dans le Bugzilla de Mozilla[^4] : [When asking th
 
 N'hésitez pas à aller commenter et *plussoiner*[^5] si vous êtes d'accord avec moi !
 
-[^5]: Mettre un +1, quoi, rooh...
+[^5]: Mettre un +1, quoi, rooh…
 

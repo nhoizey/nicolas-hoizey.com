@@ -5,7 +5,7 @@ tags:       [photo, Flickr]
 flickr:     https://flickr.com/photos/38608514@N00/91810159/
 ---
 
-Une de mes photos vient de [passer de la 69<sup>ème</sup> à la 19<sup>ème</sup> position](http://flagrantdisregard.com/flickr/scout.php?mode=history&id=91810159) des [photos les plus intéressantes postées sur Flickr le 27 janvier 2006](https://flickr.com/explore/interesting/2006/1/27/), sans que j'ai fait quoi que ce soit pour cela, allez comprendre...
+Une de mes photos vient de [passer de la 69<sup>ème</sup> à la 19<sup>ème</sup> position](http://flagrantdisregard.com/flickr/scout.php?mode=history&id=91810159) des [photos les plus intéressantes postées sur Flickr le 27 janvier 2006](https://flickr.com/explore/interesting/2006/1/27/), sans que j'ai fait quoi que ce soit pour cela, allez comprendre…
 
 Profitez quand même de cette photo, c'est vrai que j'en suis fier :
 

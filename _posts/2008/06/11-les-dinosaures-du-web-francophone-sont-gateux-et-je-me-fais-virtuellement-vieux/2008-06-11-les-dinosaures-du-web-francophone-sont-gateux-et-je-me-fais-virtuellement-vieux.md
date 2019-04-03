@@ -1,5 +1,5 @@
 ---
-title:      Les dinosaures du Web francophone sont gâteux... et je me fais (virtuellement) vieux
+title:      Les dinosaures du Web francophone sont gâteux… et je me fais (virtuellement) vieux
 lang:       fr
 tags:       [Gastero Prod, moi, blog]
 ---
@@ -30,7 +30,7 @@ Sur la dernière version du site, j'ai ajouté des photos et des liens, et j'env
 {% cloudinary gastero-prod-2008.png caption="Gastero Prod en 2008" %}
 
 
-Bon, de toute façon on voit bien que des dinoblogueurs bien moins anciens que moi sont plus consultés, et à raison, donc à quoi bon lutter... ;-)
+Bon, de toute façon on voit bien que des dinoblogueurs bien moins anciens que moi sont plus consultés, et à raison, donc à quoi bon lutter… ;-)
 
 
 [^1]: Ca pète grave, d'avoir une page sur soi dans Wikipedia !
@@ -39,12 +39,12 @@ Bon, de toute façon on voit bien que des dinoblogueurs bien moins anciens que m
 
 [^3]: Rayez les mentions inutiles
 
-[^4]: Bin oui, [furoncle](http://www.myspace.com/) était déjà pris [ici](/2006/03/halte-au-vol-de-bande-passante.html)...
+[^4]: Bin oui, [furoncle](http://www.myspace.com/) était déjà pris [ici](/2006/03/halte-au-vol-de-bande-passante.html)…
 
 [^5]: Qui ne doit rien avoir à envier à celle d'autres cultures
 
-[^6]: Ce qui m'aurait clairement fait membre des dinoblogueurs, puisque [j'aurais commencé au moins 6 ans, 4 mois et 22 jours avant LLM (soit LLM-2336)](http://www.timeanddate.com/date/durationresult.html?d1=7&m1=05&y1=1997&d2=29&m2=9&y2=2003)...
+[^6]: Ce qui m'aurait clairement fait membre des dinoblogueurs, puisque [j'aurais commencé au moins 6 ans, 4 mois et 22 jours avant LLM (soit LLM-2336)](http://www.timeanddate.com/date/durationresult.html?d1=7&m1=05&y1=1997&d2=29&m2=9&y2=2003)…
 
-[^7]: Mais plein de choses délicieuses, tant niveau contenu dont ma [7ème mare aux grenouilles](http://web.archive.org/web/19970730195323/www.eisti.fr/~brush/CINEMA/7emeMareAuxGrenouilles/index.shtml) dédiée aux réalisateurs de cinéma français que j'aimais et aime toujours, que niveau technique comme des *frames*, dont certaines avec un fond dont la couleur changeait cycliquement via du JavaScript, et surtout un vrai [forum](http://web.archive.org/web/19970730152523/www.eisti.fr/~brush/cgi-bin/forum), alors développé en CGI avec des scripts *shell*, avant l'adoption rapide de PHP et le lancement du projet libre [phpMyChat](http://sf.net/projects/phpmychat/)...
+[^7]: Mais plein de choses délicieuses, tant niveau contenu dont ma [7ème mare aux grenouilles](http://web.archive.org/web/19970730195323/www.eisti.fr/~brush/CINEMA/7emeMareAuxGrenouilles/index.shtml) dédiée aux réalisateurs de cinéma français que j'aimais et aime toujours, que niveau technique comme des *frames*, dont certaines avec un fond dont la couleur changeait cycliquement via du JavaScript, et surtout un vrai [forum](http://web.archive.org/web/19970730152523/www.eisti.fr/~brush/cgi-bin/forum), alors développé en CGI avec des scripts *shell*, avant l'adoption rapide de PHP et le lancement du projet libre [phpMyChat](http://sf.net/projects/phpmychat/)…
 
-[^8]: Ce qui me fait bien membre des dinoblogueurs, du coup, puisque [j'ai commencé au moins 3 ans, 9 mois et 28 jours avant LLM (soit LLM-1398)](http://www.timeanddate.com/date/durationresult.html?d1=1&m1=12&y1=1999&d2=29&m2=9&y2=2003)...
+[^8]: Ce qui me fait bien membre des dinoblogueurs, du coup, puisque [j'ai commencé au moins 3 ans, 9 mois et 28 jours avant LLM (soit LLM-1398)](http://www.timeanddate.com/date/durationresult.html?d1=1&m1=12&y1=1999&d2=29&m2=9&y2=2003)…

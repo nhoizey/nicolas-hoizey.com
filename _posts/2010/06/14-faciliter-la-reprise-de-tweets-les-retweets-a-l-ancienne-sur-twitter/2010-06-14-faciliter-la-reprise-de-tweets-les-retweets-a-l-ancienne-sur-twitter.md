@@ -6,7 +6,7 @@ tags:       [Twitter]
 
 Même si [Twitter](https://twitter.com/) a mis en place depuis maintenant un certain temps un mécanisme natif de retweets[^1], je préfère souvent continuer à utiliser les « RT » traditionnels, qui laissent la possibilité de commenter le tweet initial, ce que ne permet pas le retweet officiel. Une règle qui me paraît essentielle pour faciliter le retweet à l'ancienne, c'est de prévoir une taille de tweet suffisamment faible pour que le retweeteur voit son travail facilité, surtout si le tweet initial ne contient que très peu de mots inutiles.
 
-[^1]: Mécanisme [expliqué en profondeur par Evan Williams](http://evhead.com/2009/11/why-retweet-works-way-it-does.html)...
+[^1]: Mécanisme [expliqué en profondeur par Evan Williams](http://evhead.com/2009/11/why-retweet-works-way-it-does.html)…
 
 {% cloudinary logo /assets/logos/twitter.png %}
 

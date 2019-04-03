@@ -13,7 +13,7 @@ Suite au succès de [l'équivalent aux Etats-Unis](http://www.microsoft.com/even
 
 Orientée principalement vers les décideurs plutôt que vers les développeurs, cette manifestation a été l'occasion de s'ennuyer pas mal lors de présentations plus pénibles qu'intéressantes[^2], mais aussi de découvrir certains composants majeurs de la future plateforme Microsoft.
 
-## Le futur de la plateforme Microsoft se nommait alors WinFX...
+## Le futur de la plateforme Microsoft se nommait alors WinFX…
 
 
 On a notamment pu voir au cours de l'intervention de Steve Balmer une [présentation épatante d'un prototype](http://microsoft.brainsonic.com/customers/microsoft/20060427/Steve_Ballmer_VO/files/demo.htm?Media=5) réalisé conjointement par EMAP France[^3] et Microsoft France pour démontrer la richesse de la partie Windows Presentation Foundation (WPF pour les intimes, ex « Avalon »). La richesse des interfaces obtenues permet d'envisager des ergonomies très novatrices et intuitives.
@@ -26,12 +26,12 @@ On a par contre pu voir une démo -- peu convaincante elle aussi -- de la nouvel
 
 Finalement, l'une des interventions les plus intéressantes aura été la présentation de la [syndication RSS/Atom](http://blogs.microsoft.fr/clauer/archive/2006/05/18/29178.aspx) par Christophe Lauer, sur un mode très singulier inspiré de Dick Hardt[^5]. Cette syndication sera elle aussi prise en charge nativement par la plateforme [Windows RSS Platform](http://sessions.mix06.com/view.asp?sessionChoice=2000&disc=&pid=BTB033&yearChoice=2005)[^6], et intégrée notamment à Internet Explorer 7.
 
-D'autres présentations et démonstrations ont eu lieu sur le nouveau MSN, les différents services « Microsoft Live », le framework Ajax ATLAS et la dernière version de Messenger...
+D'autres présentations et démonstrations ont eu lieu sur le nouveau MSN, les différents services « Microsoft Live », le framework Ajax ATLAS et la dernière version de Messenger…
 
-## ...et s'appelle maintenant .NET 3.0 !
+##…et s'appelle maintenant .NET 3.0 !
 
 
-Jusqu'à présent, tous ces éléments de WinFX étaient présentés comme des composants supplémentaires à déployer sur le framework .NET 2.0, mais cet ensemble framework .NET 2.0 + WinFX est maintenant appelé framework [.NET 3.0](http://blogs.microsoft.fr/clauer/archive/2006/06/10/33203.aspx). On garde tout ce qu'il y a dans le 2.0, y compris le moteur d'exécution -- la *Common Language Runtime* --, on saupoudre de quelques gros composants supplémentaires, et on dit que c'est une évolution majeure du framework. Un peu exagéré, il me semble, mais que ne ferait-on pas pour faire parler de soi...
+Jusqu'à présent, tous ces éléments de WinFX étaient présentés comme des composants supplémentaires à déployer sur le framework .NET 2.0, mais cet ensemble framework .NET 2.0 + WinFX est maintenant appelé framework [.NET 3.0](http://blogs.microsoft.fr/clauer/archive/2006/06/10/33203.aspx). On garde tout ce qu'il y a dans le 2.0, y compris le moteur d'exécution -- la *Common Language Runtime* --, on saupoudre de quelques gros composants supplémentaires, et on dit que c'est une évolution majeure du framework. Un peu exagéré, il me semble, mais que ne ferait-on pas pour faire parler de soi…
 
 En gros, si vous arrivez à suivre les vraies évolutions techniques de la plateforme Microsoft sans succomber aux attaques de son marketing, bravo !
 
@@ -48,6 +48,6 @@ Il reste que ces nouveaux composants sont réellement intéressants, et Microsof
 
 [^5]: Voir cette épatante présentation [Identity 2.0](http://www.identity20.com/media/OSCON2005/)
 
-[^6]: Qui intègre la gestion des flux Atom malgré son nom...
+[^6]: Qui intègre la gestion des flux Atom malgré son nom…
 
 [^7]: Nous allons notamment vous reparler ultérieurement de Windows Workflow Foundation, que nous allons comparer à d'autres solutions de Workflow

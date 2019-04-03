@@ -12,7 +12,7 @@ Vous connaissez les RFC, ce truc vachement technique sur lequel repose Internet 
 > 
 > Il existe une tradition de "RFC bidons", qui paraissent au moins une fois par an, habituellement le 1er avril. Parmi les RFC bidons les plus célèbres ont peut citer : le 527 ("ARPAWOCKY", par R. Merryman, de l'Ucsd, le 22 juin 1973), le 748 ("TELNET RANDOMLY-LOSE Option", par Mark R. Crispin, le 1er avril 1978), et le 1149 ("A Standard for the Transmission of IP Datagrams on Avian Carriers" par D. Waitzman, STC BBN, le 1er avril 1990). Le premier est une satire de Lewis Carroll, le second une parodie du modèle de documentation TCP/IP, et le troisième une critique pince sans rire dirigée contre le jargon des juristes qui rédigent les documents normatifs, décrivant un protocole pour la transmission de paquets de données Internet par pigeon voyageur.
 
-OK, c'est de l'humour d'informaticiens, alors ça ne plait sans doute pas à tout le monde, mais l'effort est notable, et puis je suis moi-même informaticien, alors ...
+OK, c'est de l'humour d'informaticiens, alors ça ne plait sans doute pas à tout le monde, mais l'effort est notable, et puis je suis moi-même informaticien, alors…
 
 Voici donc une liste (presque exhaustive) des fameuses RFC bidon :
 
@@ -110,4 +110,4 @@ Voici donc une liste (presque exhaustive) des fameuses RFC bidon :
 
 C'est en anglais, car pas encore disponible en français sur le [portail des RFC traduites en français](http://abcdrfc.free.fr/).
 
-Bonne lecture ...
+Bonne lecture…

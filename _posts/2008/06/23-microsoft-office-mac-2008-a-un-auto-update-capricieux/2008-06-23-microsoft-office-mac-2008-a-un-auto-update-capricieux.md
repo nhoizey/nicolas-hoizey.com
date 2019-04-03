@@ -10,7 +10,7 @@ J'ai en effet eu l'amusante surprise de découvrir que la première chose que te
 
 {% cloudinary microsoft-office-mac-2008-sp1-install.png %}
 
-Sauf que comme souvent, il faut fermer certaines applications pour assurer une installation sans soucis, et ici pour installer l'AutoUpdate en question, il faut arrêter... AutoUpdate !
+Sauf que comme souvent, il faut fermer certaines applications pour assurer une installation sans soucis, et ici pour installer l'AutoUpdate en question, il faut arrêter… AutoUpdate !
 
 {% cloudinary microsoft-autoupdate.png %}
 

@@ -15,13 +15,13 @@ Mais voilà que j'apprends par [StandBlog](http://standblog.org/blog/2004/04/30/
 
 Côté services, rien de bien exotique, puisqu'il s'agit ni plus ni moins de [GForge](http://gforge.org/), le fork du projet SourceForge créé par Tim Perdue, projet qu'il avait lui-même créé pour le site du même nom, [SourceForge](http://sourceforge.net/)[^t4] donc, qui a depuis été racheté par VA Linux, qui est ensuite devenu [VA Software](http://www.vasoftware.com/). Je sais, c'est compliqué.
 
-Le seul soucis de DevLibre, c'est qu'il faut déjà être membre de l'APINC pour en profiter. Mais qu'à cela ne tienne, j'ai justement un nouveau site à héberger, je m'en vais tester tout ça ...
+Le seul soucis de DevLibre, c'est qu'il faut déjà être membre de l'APINC pour en profiter. Mais qu'à cela ne tienne, j'ai justement un nouveau site à héberger, je m'en vais tester tout ça…
 
 Ce qu'il est intéressant de noter, c'est qu'il y a déjà un autre GForge qui commence à prendre de l'ampleur en France, [celui](http://www.adullact.net/) de l'[ADULLACT](http://www.adullact.org/)[^t5]. Or c'est cet ADULLACT qui héberge notamment le projet [SPIP-Agora](http://www.clever-age.org/php/spip-agora/). La personne qui maintient le GForge de l'ADULLACT est justement Roland Mas, un des  deux accolytes de Tim Perdue dans l'équipe d'administration du projet GForge, le monde est petit.
 
 Il y a donc de plus en plus de place en France pour héberger des sites non commerciaux et développer des logiciels libres, ça fait plaisir.
 
-A moins que des procès stupides comme celui de [Metrobus contre Ouvaton](http://metrobus.ouvaton.coop/) ou la [Loi sur l'Economie Numérique](http://len.ouvaton.coop/) (LEN pour les intimes) ne mette définitivement à genoux toutes ses belles initiatives ...
+A moins que des procès stupides comme celui de [Metrobus contre Ouvaton](http://metrobus.ouvaton.coop/) ou la [Loi sur l'Economie Numérique](http://len.ouvaton.coop/) (LEN pour les intimes) ne mette définitivement à genoux toutes ses belles initiatives…
 
 
 [^t1]: Pour faire court

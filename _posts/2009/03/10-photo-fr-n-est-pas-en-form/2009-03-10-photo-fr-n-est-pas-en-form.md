@@ -18,7 +18,7 @@ En regardant le code source[^1], j'ai découvert qu'il n'y a tout simplement pas
 
 {% cloudinary photo-fr-form-mail-code.png %}
 
-Vous noterez au passage la délicieuse intrusion de code Javascript en ligne directement dans l'`input`, pas accessible du tout...
+Vous noterez au passage la délicieuse intrusion de code Javascript en ligne directement dans l'`input`, pas accessible du tout…
 
 **Mise à jour du 11/03** : Photo.fr a réagit très vite au mail que je leur ai envoyé, ce soucis est maintenant corrigé, vous pouvez vous inscrire. Bravo pour cette belle réactivité !
 

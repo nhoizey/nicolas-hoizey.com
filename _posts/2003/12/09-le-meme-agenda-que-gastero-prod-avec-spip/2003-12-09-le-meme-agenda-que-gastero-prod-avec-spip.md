@@ -6,7 +6,7 @@ tags:       [SPIP, Gastero Prod, agenda]
 
 Il peut être tentant d'utiliser SPIP pour présenter un agenda d'événements sous forme de calendrier. Plutôt que devoir intégrer un logiciel externe spécialisé, et en attendant que SPIP intègre peut-être un jour un nouveau type de données dédié aux événements, voici un squelette mêlant boucles SPIP et code PHP.
 
-ATTENTION, cette contrib ne semble plus fonctionner avec les versions de SPIP ultérieure à la 1.8.2, ce qui a mené à « [La fin de l'agenda Gastero Prod...](/2005/11/la-fin-de-l-agenda-gastero-prod.html) »
+ATTENTION, cette contrib ne semble plus fonctionner avec les versions de SPIP ultérieure à la 1.8.2, ce qui a mené à « [La fin de l'agenda Gastero Prod…](/2005/11/la-fin-de-l-agenda-gastero-prod.html) »
 
 *Cet article présente une évolution de la méthode déjà présentée sur le site des contributions pour SPIP : [spip_contrib](http://www.uzine.net/spip_contrib/article.php3?id_article=113).*
 
@@ -70,7 +70,7 @@ Pour insérer l'agenda dans votre site, le plus simple est de créer un squelett
 
 J'ai par exemple créé le squelette [`agenda.html`](http://www.gasteroprod.com/design/agenda.html) sur Gastero Prod, et je l'utilise selon le principe classique de SPIP dans le script `agenda.php3`.
 
-Revenons calmement sur les parties importantes de ce squelette ...
+Revenons calmement sur les parties importantes de ce squelette…
 
 Les paramètres de navigation d'un mois à l'autre sont passés dans l'URL au travers de la variable `date`[^t3].
 
@@ -202,7 +202,7 @@ table.agenda select {
 }
 ```
 
-Les paramètres sont ceux de Gastero Prod, essayez de faire preuve d'initiative et de créer vos propres jeux de couleurs ...
+Les paramètres sont ceux de Gastero Prod, essayez de faire preuve d'initiative et de créer vos propres jeux de couleurs…
 
 
 [^t1]: Vérifiez que vous avez configuré votre site pour gérer ce type de date supplémentaire.
@@ -211,4 +211,4 @@ Les paramètres sont ceux de Gastero Prod, essayez de faire preuve d'initiative 
 
 [^t3]: Le paramètre *date* est pris en charge automatiquement par SPIP depuis sa version 1.6 dans le contexte des boucles de premier niveau
 
-[^t4]: Et des jours *proches* des mois précédent et suivant, puisqu'on les affiche ...
+[^t4]: Et des jours *proches* des mois précédent et suivant, puisqu'on les affiche…

@@ -1,13 +1,12 @@
 --- 
-title:      "La vérité sort de la bouche des ..." 
+title:      "La vérité sort de la bouche des…" 
 lang:       fr 
 tags:       [fail]
 ---
 
-... moteurs de recherche !
+…moteurs de recherche !
 
 En tout cas celui de [Houra.fr](http://www.houra.fr/), le célèbre supermarché en ligne, donne parfois des réponses étonnantes.
-
 
 C'est très simple, suivez ces quelques instructions :
 
@@ -18,7 +17,7 @@ C'est très simple, suivez ces quelques instructions :
 
 Si vous me faites confiance, regardez juste ci-après :
 
-{% cloudinary houra_vibro.png caption="Recherche d'un vibromasseur chez Houra.fr .... Cliquez pour voir la copie d'écran complète" %}
+{% cloudinary houra_vibro.png caption="Recherche d'un vibromasseur chez Houra.fr…. Cliquez pour voir la copie d'écran complète" %}
 
 
 Et le meilleur dans tout ça, c'est qu'on nous apprend que «les possibilités d'utilisation de la carotte sont presque illimitées».

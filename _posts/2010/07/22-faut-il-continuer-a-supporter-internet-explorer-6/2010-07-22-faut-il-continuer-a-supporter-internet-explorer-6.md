@@ -64,7 +64,7 @@ Aujourd'hui, beaucoup de ces clients utilisent toujours des progiciels qui leur 
 
 Compte-tenu des soucis de sécurité posés par IE6, et de l'impossibilité de faire tourner simultanément plusieurs versions d'IE sur un même Windows, certains commencent tout de même à mettre à disposition de leurs utilisateurs un second navigateur pour l'accès au Web, IE6 étant restreint à l'usage spécifique de certains progiciels internes. Mais l'utilisateur doit alors savoir quel navigateur utiliser à quel moment, et les responsables des postes utilisateurs doivent gérer une configuration plus complexe qu'elle ne devrait l'être.
 
-Une alternative intéressante — et semble-t-il peu connue — est de migrer de Windows XP vers Windows Seven et de profiter du « [XP Mode](http://windows.microsoft.com/fr-FR/windows7/products/features/windows-xp-mode) » permettant de faire fonctionner sans licence supplémentaire[^8] un Windows XP dans une machine virtuelle [Virtual PC](http://www.microsoft.com/france/windows/virtual-pc/default.aspx)[^9]. Mais les postes utilisateurs ne sont pas toujours suffisamment puissants, et une migration Seven risque de poser d'autres problèmes...
+Une alternative intéressante — et semble-t-il peu connue — est de migrer de Windows XP vers Windows Seven et de profiter du « [XP Mode](http://windows.microsoft.com/fr-FR/windows7/products/features/windows-xp-mode) » permettant de faire fonctionner sans licence supplémentaire[^8] un Windows XP dans une machine virtuelle [Virtual PC](http://www.microsoft.com/france/windows/virtual-pc/default.aspx)[^9]. Mais les postes utilisateurs ne sont pas toujours suffisamment puissants, et une migration Seven risque de poser d'autres problèmes…
 
 Certains restent donc cantonnés à IE6 uniquement.
 
@@ -97,9 +97,9 @@ Il faut notamment cesser de masquer cette contrainte dans la masse de travaux d'
 
 [^1]: L'Europe et l'Amérique du Nord pesant beaucoup dans la moyenne mondiale.
 
-[^3]: On croise bien encore parfois des Netscape 4 ou Internet Explorer 5.2 pour Mac...
+[^3]: On croise bien encore parfois des Netscape 4 ou Internet Explorer 5.2 pour Mac…
 
-[^4]: Le futur [IE9 fera un bon en avant en terme de support des standards](http://forabeautifulweb.com/blog/about/internet_explorer_9_in_on_the_boil/), mais il n'est pas encore là...
+[^4]: Le futur [IE9 fera un bon en avant en terme de support des standards](http://forabeautifulweb.com/blog/about/internet_explorer_9_in_on_the_boil/), mais il n'est pas encore là…
 
 [^5]: En attendant un IE9 qui s'annonce bien meilleur ?
 
@@ -111,4 +111,4 @@ Il faut notamment cesser de masquer cette contrainte dans la masse de travaux d'
 
 [^9]: Voir les explications détaillées dans [ce test de Présence PC](http://www.presence-pc.com/tests/mode-Windows-XP-Windows-7-23175/).
 
-[^10]: Sauf que là, ça pourrait inciter les entreprises à conserver IE6 justement pour que les employés n'y passent pas leur temps de travail...
+[^10]: Sauf que là, ça pourrait inciter les entreprises à conserver IE6 justement pour que les employés n'y passent pas leur temps de travail…

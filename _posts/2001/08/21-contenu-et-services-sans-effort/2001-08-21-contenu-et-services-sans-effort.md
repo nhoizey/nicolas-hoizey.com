@@ -14,6 +14,6 @@ Vous pouvez ainsi acheter exactement la même PlayStation 2 (de [Sony](http://fr
 
 Notez au passage que si les boutiques UnionDream et Clust ont bien une URL sur le site principal, M6 et Surf'N Buy se contentent du look et laissent une URL sur DealPartners, ce qui pourrait dérouter l'utilisateur.
 
-Pour vendre son service, DealPartners dit que *"si vous ne voulez pas perdre vos consommateurs lorsqu'ils partent acheter des produits sur d'autres sites... c'est maintenant qu'il faut agir !"* Mais justement, puisque tous ces sites disposent du même contenu, comment les différencier ?
+Pour vendre son service, DealPartners dit que *"si vous ne voulez pas perdre vos consommateurs lorsqu'ils partent acheter des produits sur d'autres sites… c'est maintenant qu'il faut agir !"* Mais justement, puisque tous ces sites disposent du même contenu, comment les différencier ?
 
-La vraie réponse arrive avec les [Services Web](http://www.webservices.org/), qui devraient permettre d'intégrer les services au sein de sa propre architecture, sans dépendre d'un design pré-défini ...
+La vraie réponse arrive avec les [Services Web](http://www.webservices.org/), qui devraient permettre d'intégrer les services au sein de sa propre architecture, sans dépendre d'un design pré-défini…

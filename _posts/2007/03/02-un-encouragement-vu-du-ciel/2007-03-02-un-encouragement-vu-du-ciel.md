@@ -1,5 +1,5 @@
 ---
-title:      Un encouragement vu du ciel...
+title:      Un encouragement vu du ciel…
 lang:       fr
 tags:       [Google, geolocation]
 ---

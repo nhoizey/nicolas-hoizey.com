@@ -12,7 +12,7 @@ Une petite coquille s'est glissé dans la carte d'Europe proposée par Google, l
 {% cloudinary google_maps_netherlands_belgium_full.png caption="La Belgique et les Pays-Bas inversés" %}
 
 
-Il est vrai que vu depuis l'autre côté de l'Atlantique, la différence est négligeable...
+Il est vrai que vu depuis l'autre côté de l'Atlantique, la différence est négligeable…
 
 Enfin bon, je dois au moins remercier Google et les gens de [Geobloggers](http://www.geobloggers.com/), qui me permettent de montrer progressivement - et [très facilement](https://www.flickr.com/groups/topic/47132/) - des cartes du monde avec les lieux où je prends [mes photos postées sur Flickr](https://www.flickr.com/photos/nicolas-hoizey/) :
 

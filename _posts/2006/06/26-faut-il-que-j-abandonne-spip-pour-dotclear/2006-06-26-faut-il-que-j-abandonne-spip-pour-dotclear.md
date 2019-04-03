@@ -4,10 +4,10 @@ lang:       fr
 tags:       [SPIP, Gastero Prod, blog, tag, opensource, DotClear]
 ---
 
-Frustré de ne toujours pas avoir de trackbacks sur Gastero Prod, mais aussi surtout de pingbacks automatiques[^1], je me suis lancé dans une petite étude rapide de [DotClear](http://www.dotclear.net/), afin de voir si un changement d'outil pourrait réduire ma frustration. Je n'arrêtais pas de repousser cette étude en me disant qu'il fallait mieux que j'attende ce fabuleux DotClear 2.0 que tout le monde attend, mais j'en ai marre d'attendre cette arlésienne...
+Frustré de ne toujours pas avoir de trackbacks sur Gastero Prod, mais aussi surtout de pingbacks automatiques[^1], je me suis lancé dans une petite étude rapide de [DotClear](http://www.dotclear.net/), afin de voir si un changement d'outil pourrait réduire ma frustration. Je n'arrêtais pas de repousser cette étude en me disant qu'il fallait mieux que j'attende ce fabuleux DotClear 2.0 que tout le monde attend, mais j'en ai marre d'attendre cette arlésienne…
 
 
-[^1]: Puisque je parle certainement beaucoup plus des autres que l'inverse...
+[^1]: Puisque je parle certainement beaucoup plus des autres que l'inverse…
 
 Je ne me suis attaché ici à comparer que les fonctionnalités natives de SPIP et DotClear, n'ayant plus trop le temps de chercher[^1] pour chacun des plugins ou contributions pouvant apporter les fonctionnalités qui me manquent. Je me suis aussi surtout limité aux fonctionnalités de SPIP que j'utilise[^2], et à celles de DotClear qui viennent en plus et m'apporteraient réellement un confort ou des fonctionnalités supplémentaires.
 
@@ -22,12 +22,12 @@ De même, une interface publique par défaut est fournie en standard. Elle n'est
 
 Je n'ai pas regardé comment sont développés les *templates*[^4], ce n'est pas un critère décisif pour moi, je suis prêt à m'investir si les fonctionnalités répondent à mes attentes.
 
-Il faudrait aussi voir si les mises à jour sont aussi simples, mais je n'ai pas le temps pour l'instant...
+Il faudrait aussi voir si les mises à jour sont aussi simples, mais je n'ai pas le temps pour l'instant…
 
 ## Catégorisation des contenus
 
 
-La possibilité dans SPIP d'affecter un article à une rubrique et à de multiples mots clefs ne trouve pas d'équivalent dans DotClear, ou un article ne peut malheureusement être rattaché qu'à une unique catégorie. C'est bien dommage, je ne vais pas pouvoir faire de *[tag cloud](art)*...
+La possibilité dans SPIP d'affecter un article à une rubrique et à de multiples mots clefs ne trouve pas d'équivalent dans DotClear, ou un article ne peut malheureusement être rattaché qu'à une unique catégorie. C'est bien dommage, je ne vais pas pouvoir faire de *[tag cloud](art)*…
 
 ## Rédaction d'articles
 
@@ -38,9 +38,9 @@ SPIP garde un sérieux avantage à ce niveau, intégrant notamment grâce à sa 
 
 Par contre, DotClear pêche côté notes de bas de page, qu'il a le mauvais goût de placer avant le contenu si elles sont dans le chapô, étrange comportement. Du coup, s'il y a des notes de bas de page tant dans le chapô que dans le contenu, les ancres ne sont pas bonnes !
 
-DotClear a la bonne idée de gérer une galerie d'images partagée entre tous les contenus, mais ne permet pas de gérer des images spécifiques à un article donné, donc la galerie doit vite devenir difficile à gérer. Cette galerie ne permet en plus pas de gérer tous types de documents, ce qui est bien trop limitatif. Finalement, ma [galerie de documents pour SPIP](???) est beaucoup mieux, il faudrait que je la finalise...
+DotClear a la bonne idée de gérer une galerie d'images partagée entre tous les contenus, mais ne permet pas de gérer des images spécifiques à un article donné, donc la galerie doit vite devenir difficile à gérer. Cette galerie ne permet en plus pas de gérer tous types de documents, ce qui est bien trop limitatif. Finalement, ma [galerie de documents pour SPIP](???) est beaucoup mieux, il faudrait que je la finalise…
 
-DotClear n'intègre pas de correction orthographique, alors que celle de SPIP m'a permi déjà plusieurs fois d'éviter des petites horreurs. Le serveur d'orthographe de SPIP est générique, il faudrait voir comment le rendre exploitable par DotClear...
+DotClear n'intègre pas de correction orthographique, alors que celle de SPIP m'a permi déjà plusieurs fois d'éviter des petites horreurs. Le serveur d'orthographe de SPIP est générique, il faudrait voir comment le rendre exploitable par DotClear…
 
 ## Interactivité
 
@@ -56,14 +56,14 @@ Je laisse là cette étude commencée il y a plus d'un mois, faute de temps pour
 
 Quoi qu'il en soit, je n'aurais pas jeté SPIP pour DotClear 1.
 
-L'avenir dira si DotClear 2 me séduit plus...
+L'avenir dira si DotClear 2 me séduit plus…
 
 
 [^1]: Et surtout de tester et tenir à jour
 
 [^2]: Une seule rubrique, un seul contributeur, pas de pétitions, pas de sites référencés ni de syndication, etc.
 
-[^3]: Même si de gros progrès ont été faits tout dernièrement grâce notamment à [Romy](http://romy.tetue.net/)...
+[^3]: Même si de gros progrès ont été faits tout dernièrement grâce notamment à [Romy](http://romy.tetue.net/)…
 
 [^4]: « squelettes » dans le langage SPIP
 

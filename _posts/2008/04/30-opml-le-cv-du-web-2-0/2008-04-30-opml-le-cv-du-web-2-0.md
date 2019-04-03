@@ -17,7 +17,7 @@ Savoir à quels flux une personne est abonnée permet effectivement de découvri
 
 Mais la sémantisation du Web n'étant pas très avancée, rien ou presque ne permet de dire que deux blogs sont similaires dans les sujets traités, donc un rapprochement automatisé de listes OPML a des limites. Toujours est-il que parcourir manuellement un OPML permet de cerner quelque peu l'identité d'un interlocuteur.
 
-Bien entendu, cela ne pourrait pas marcher en France, le recrutement se basant essentiellement sur les diplômes listés dans le CV plutôt que sur les compétences réelles éprouvées sur le terrain...
+Bien entendu, cela ne pourrait pas marcher en France, le recrutement se basant essentiellement sur les diplômes listés dans le CV plutôt que sur les compétences réelles éprouvées sur le terrain…
 
 
 [^1]: Mais la nationalité des fondateurs d'une société offrant uniquement des services non géolocalisés sur Internet a-t-elle encore une importance ?

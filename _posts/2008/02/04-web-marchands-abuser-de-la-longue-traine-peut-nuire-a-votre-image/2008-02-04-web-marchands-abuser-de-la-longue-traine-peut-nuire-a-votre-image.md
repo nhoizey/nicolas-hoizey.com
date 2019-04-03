@@ -4,7 +4,7 @@ lang:       fr
 tags:       [fail, marketing, e-commerce]
 ---
 
-La [longue traine](http://fr.wikipedia.org/wiki/Longue_tra%C3%AEne), ce fameux principe statistique repris par [Chris Anderson](http://www.wired.com/wired/archive/12.10/tail.html)[^1] -- rédacteur en chef de Wired -- pour expliquer le succès de commerçants en ligne[^2] comme [Amazon](http://www.amazon.fr/), suppose la mise à disposition d'une multitude de produits de niche pour que la somme de leurs ventes dépasse celle des quelques produits phares habituellement proposés. Bien sûr, il faut les avoir, ces produits de niche...
+La [longue traine](http://fr.wikipedia.org/wiki/Longue_tra%C3%AEne), ce fameux principe statistique repris par [Chris Anderson](http://www.wired.com/wired/archive/12.10/tail.html)[^1] -- rédacteur en chef de Wired -- pour expliquer le succès de commerçants en ligne[^2] comme [Amazon](http://www.amazon.fr/), suppose la mise à disposition d'une multitude de produits de niche pour que la somme de leurs ventes dépasse celle des quelques produits phares habituellement proposés. Bien sûr, il faut les avoir, ces produits de niche…
 
 [^1]: Voir aussi une [traduction française par InternetActu](http://www.internetactu.net/2005/04/12/la-longue-traine/).
 

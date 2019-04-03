@@ -30,7 +30,7 @@ Le **4 septembre 2002**, sans doute pour l'exemple, Rasmus Lerdorf [interpèle](
 
 Le **6 septembre 2002**, Rasmus, toujours lui, [annonce](http://marc.theaimsgroup.com/?l=pear-dev&m=103134676127239&w=2) dans la mailing-list [pear-dev](http://marc.theaimsgroup.com/?l=pear-dev&r=1&w=2) que suite à une discussion avec Richard M. Stallman, la [liste des licences logiciel libre non compatibles avec la GNU/GPL](http://www.gnu.org/licenses/license-list.html#GPLIncompatibleLicenses) a été mise à jour pour prendre en compte la nouvelle version de la licence PHP et ôter les réserves importantes qui étaient faites sur la pertinence de la version précédente.
 
-## A bin oui, mais alors ...
+## A bin oui, mais alors…
 
 Cette habitude de mettre *PHP* dans le nom des logiciels, très particulière en effet, a sans doute trouvé sa source dans phpMyAdmin, assurément le plus fameux des projets PHP.
 

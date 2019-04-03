@@ -16,7 +16,7 @@ Comme le met en évidence Stéphane dans son billet «[Le problème de position:
 
 Pour éviter cela, il faudrait redécaler le scroll dans le sens inverse de celui provoqué par l'utilisateur, avec un effet visuel sans doute déplaisant[^1].
 
-[^1]: Je n'ai même pas osé essayer...
+[^1]: Je n'ai même pas osé essayer…
 
 # Un problème de performance
 

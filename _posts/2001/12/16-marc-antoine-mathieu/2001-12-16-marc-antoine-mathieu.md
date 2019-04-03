@@ -13,14 +13,14 @@ Retrouvez sa [biographie complète](http://www.editions-delcourt.fr/catalogueaut
 
 Il débute sa célèbre série *Julius Corentin Acquefacques, prisonnier des rêves* en 1989 avec l'album *L'Origine*. Ce premier titre le propulse au devant de la scène avec de nombreux prix, et les suivants confirmeront son talent. Dans la série *Julius Corentin Acquefacques, prisonnier des rêves* éditée par [les éditions Delcourt](http://www.editions-delcourt.fr/) se trouvent donc les 4 titres suivants :
 
-|Titre|Couverture|
-|----|----|
-|L'Origine|{% cloudinary art84-2.jpg %}|
-|La Qu...|{% cloudinary art84-3.jpg %}|
-|Le Processus|{% cloudinary art84-4.jpg %}|
-|Le Début de la fin|{% cloudinary art84-5.jpg %}|
+| Titre              | Couverture                   |
+|--------------------|------------------------------|
+| L'Origine          | {% cloudinary art84-2.jpg %} |
+| La Qu…             | {% cloudinary art84-3.jpg %} |
+| Le Processus       | {% cloudinary art84-4.jpg %} |
+| Le Début de la fin | {% cloudinary art84-5.jpg %} |
 
-On note très rapidement dans l'oeuvre de Marc-Antoine Mathieu des influences en provenance de Kafka pour les petites absurdités, de Peeters et Schuiten pour le dessin noir & blanc et les ambiances étranges, ...
+On note très rapidement dans l'oeuvre de Marc-Antoine Mathieu des influences en provenance de Kafka pour les petites absurdités, de Peeters et Schuiten pour le dessin noir & blanc et les ambiances étranges,…
 
 Après 5 ans d'absence, Marc-Antoine Mathieu revient à la BD en mars 2000, toujours chez Delcourt, avec *Mémoire morte*, une oeuvre plus noire, moins ludique, mais tout aussi passionnante.
 

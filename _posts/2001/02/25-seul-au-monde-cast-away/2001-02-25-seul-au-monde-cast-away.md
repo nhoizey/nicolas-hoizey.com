@@ -5,7 +5,7 @@ tags:       [cinema, movie]
 ---
 
 {% cloudinary onethird cast-away-affiche.png %}
-Chefaillon stressé (par nature et obligation professionnelle) chez Federal Express, Chuck Noland (Tom Hanks) est le seul rescapé (avec quelques paquets FedEx) du crash d'un avion en plein Pacifique. Echoué sur une île déserte, il va alors devoir apprendre à vivre sans tous les gadgets qui simplifient la vie moderne, du briquet au couteau en passant par la gourde, et surtout garder l'espoir de revoir un jour sa fiancée (Helen Hunt) dont il a réussi à sauver une photo ...
+Chefaillon stressé (par nature et obligation professionnelle) chez Federal Express, Chuck Noland (Tom Hanks) est le seul rescapé (avec quelques paquets FedEx) du crash d'un avion en plein Pacifique. Echoué sur une île déserte, il va alors devoir apprendre à vivre sans tous les gadgets qui simplifient la vie moderne, du briquet au couteau en passant par la gourde, et surtout garder l'espoir de revoir un jour sa fiancée (Helen Hunt) dont il a réussi à sauver une photo…
 
 Voilà pour le script de [Cast Away](http://www.castawaymovie.com/), il est vrai assez conventionnel.
 
@@ -17,7 +17,7 @@ La simplicité formelle de l'apprentissage de la vie est ainsi mise en oppositio
 
 {% cloudinary cast-away-tournage.jpg caption="Sur le tournage de Cast Away" %}
 
-La dernière partie du film, qui montre le retour de Noland à la civilisation après 4 années d'isolement, achève en fait de l'en éloigner en le montrant plus comme un fantôme que comme un rescapé. Elle montre aussi cruellement que, même si l'amour ne meurt pas avec l'être aimé, "la nature n'aime pas le vide" et trouve toujours un remplacement ...
+La dernière partie du film, qui montre le retour de Noland à la civilisation après 4 années d'isolement, achève en fait de l'en éloigner en le montrant plus comme un fantôme que comme un rescapé. Elle montre aussi cruellement que, même si l'amour ne meurt pas avec l'être aimé, "la nature n'aime pas le vide" et trouve toujours un remplacement…
 
 Petite anecdote, la phrase suivante est lue par le héros sur une carte d'anniversaire rescapée du naufrage : "The most beautiful thing in the world is, of course, the world itself." Voilà, tout est dit.
 

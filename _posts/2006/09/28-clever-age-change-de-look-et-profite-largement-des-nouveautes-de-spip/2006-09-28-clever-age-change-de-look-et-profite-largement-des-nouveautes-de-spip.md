@@ -4,12 +4,12 @@ lang:       fr
 tags:       [SPIP, Clever Age]
 ---
 
-Pour fêter dignement ses 5 ans[^1], [Clever Age](http://www.clever-age.com/) change complètement le design de son site web...
+Pour fêter dignement ses 5 ans[^1], [Clever Age](http://www.clever-age.com/) change complètement le design de son site web…
 
 
 [^1]: Et oui, déjà !
 
-... et en profite pour abandonner [SPIP-Agora](http://spip-agora.clever-age.org/) au profit du récent et de plus en plus génial[^1] [SPIP](http://www.spip.net/) !
+… et en profite pour abandonner [SPIP-Agora](http://spip-agora.clever-age.org/) au profit du récent et de plus en plus génial[^1] [SPIP](http://www.spip.net/) !
 
 {% cloudinary clever-age.com-v3.png %}
 
@@ -18,7 +18,7 @@ Merci à [Julien De Luca](http://www.jide.fr/) pour ce splendide design et à Th
 
 Vous noterez au passage les belles URL toutes propres, nous allons faire un article sur notre [blog](http://www.clever-age.com/veille/blog/) pour expliquer comment nous avons fait.
 
-Et bien entendu, une petite dose d'Ajax pour être tendance[^2], et ce n'est qu'un début, nous allons tenter d'améliorer progressivement l'ergonomie du site pour en rendre la consultation encore plus agréable...
+Et bien entendu, une petite dose d'Ajax pour être tendance[^2], et ce n'est qu'un début, nous allons tenter d'améliorer progressivement l'ergonomie du site pour en rendre la consultation encore plus agréable…
 
 ## Je veux le même, combien ça coûte ?
 

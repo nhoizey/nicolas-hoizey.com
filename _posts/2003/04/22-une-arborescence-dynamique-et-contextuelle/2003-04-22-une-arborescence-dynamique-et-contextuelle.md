@@ -38,7 +38,7 @@ Ensuite, ajoutez par exemple dans le `rubrique.html`, à l'endroit où vous voul
 
 ## Personnalisation
 
-**Personnalisation des textes : couleurs, polices, tailles ...**
+**Personnalisation des textes : couleurs, polices, tailles…**
 
 La personnalisation s'effectue via la feuille de style présente dans le squelette `menu.html` :
 

@@ -17,8 +17,8 @@ Alors que sont [1, 2 ou même 3 francs par jour](http://www.1francparjour.net/) 
 
 Au risque de faire un très mauvais jeu de mots, mais pour être sûr de bien marquer les esprits, voici un petit adage de mon cru qui arrivera peut-être à convaincre quelques-uns d'entre vous :
 
-"Quelques cigarettes ou un café de moins par jour, c'est pas la mort ... mais cela peut sauver une vie !!!"
+"Quelques cigarettes ou un café de moins par jour, c'est pas la mort… mais cela peut sauver une vie !!!"
 
-Convaincu ? J'espère ...
+Convaincu ? J'espère !
 
 {% cloudinary medecins-sans-frontieres.jpg caption="Médecins Sans Frontières" %}

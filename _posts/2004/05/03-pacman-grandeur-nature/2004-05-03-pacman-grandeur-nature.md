@@ -4,8 +4,7 @@ lang:       fr
 tags:       [humour]
 ---
 
-Quand de grands enfants sont nostalgiques et prennent leur ville comme espace de jeux, tout peut arriver...
-
+Quand de grands enfants sont nostalgiques et prennent leur ville comme espace de jeux, tout peut arriver…
 
 Ils sont membres de l'[Interactive Telecommunications Program](http://itp.nyu.edu/), un programme de la [New York University](http://www.nyu.edu/) qui a pour vocation d'encourager ses étudiants à « créer de nouvelles formes de communication par l'exploration d'applications sociales (???), de l'informatique physique, de jeux interactifs, d'art multimédia, de sons, de vidéos et bien plus tout en mettant l'accent sur les interactions avec l'utilisateur. »[^t1]
 

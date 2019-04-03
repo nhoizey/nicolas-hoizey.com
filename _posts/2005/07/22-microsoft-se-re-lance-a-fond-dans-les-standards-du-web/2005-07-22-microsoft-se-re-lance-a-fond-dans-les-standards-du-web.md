@@ -18,7 +18,7 @@ Histoire de combler son important retard sur les [navigateurs alternatifs](http:
 > «Not only has Microsoft offered an open door to WaSP's criticism and ultimate assistance, but individual developers there are expressing a lot of enthusiasm about our relationship.»
 > 
 
-Manoeuvre pour redorer un blason bien terni ou vrai intérêt pour les standards, l'avenir le dira peut-être...
+Manoeuvre pour redorer un blason bien terni ou vrai intérêt pour les standards, l'avenir le dira peut-être…
 
 **Mise à jour :** [Tristan Nitot en parle aussi](http://standblog.org/blog/2005/07/22/93114263-rions-en-parlant-des-standards)
 
@@ -26,4 +26,4 @@ Manoeuvre pour redorer un blason bien terni ou vrai intérêt pour les standards
 
 [^texte1]: A part quelques correctifs de sécurité, bien entendu
 
-[^texte2]: Le remplaçant de Windows XP, prévu pour 2005... euh, non, 2006... ah, non, 2007 !
+[^texte2]: Le remplaçant de Windows XP, prévu pour 2005… euh, non, 2006… ah, non, 2007 !

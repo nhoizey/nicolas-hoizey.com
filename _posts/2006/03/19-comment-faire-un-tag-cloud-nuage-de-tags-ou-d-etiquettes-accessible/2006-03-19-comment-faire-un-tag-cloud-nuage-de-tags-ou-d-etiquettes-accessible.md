@@ -23,7 +23,7 @@ C'est que je m'interroge justement sur la façon optimale de rendre accessible c
 
 La plupart des solutions implémentées ne sont à mon avis pas satisfaisantes de ce point de vue, pour différentes raisons :
 
-## Une liste, déjà, ce serait pas mal...
+## Une liste, déjà, ce serait pas mal…
 
 
 Certains n'utilisent tout simplement pas des éléments de type listes -- `<ul>` ou `<ol>`[^1] -- pour lister les tags, mais se contentent de mettre les tags les uns après les autres.
@@ -43,7 +43,7 @@ Est-ce qu'une synthèse vocale fera la différence entre les deux éléments sui
 - `<em><em>tag1</em></em>`
 - `<em><em><em>tag2</em></em></em>`
 
-Je n'en suis pas sûr...
+Je n'en suis pas sûr…
 
 ## L'unique solution ?
 

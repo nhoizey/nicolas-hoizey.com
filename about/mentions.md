@@ -63,7 +63,7 @@ Le **17 mars 2016**, citation par [Zell Liew](https://twitter.com/zellwk), inté
 
 Le **11 mars 2016**, citation par [Justin Avery](https://twitter.com/justinavery) dans l'édition n°199 de sa newsletter [RESPONSIVE DESIGN.is](http://us4.campaign-archive1.com/?u=559bc631fe5294fc66f5f7f89&id=186714df7c&e=3450e16ee1) :
 
-> Use ems.... even if you think it's okay to use px.
+> Use ems…. even if you think it's okay to use px.
 
 Le **4 mars 2016**, citation par [Šime Vidas](https://twitter.com/simevidas) dans l'édition du jour de sa newsletter [Web Platform Daily](https://webplatformdaily.org/releases/2016-03-04) :
 

@@ -1,5 +1,5 @@
 --- 
-title:      6 ans, 6 mois et 6 jours... 
+title:      6 ans, 6 mois et 6 jours… 
 lang:       fr 
 tags:       [Gastero Prod, moi]
 ---

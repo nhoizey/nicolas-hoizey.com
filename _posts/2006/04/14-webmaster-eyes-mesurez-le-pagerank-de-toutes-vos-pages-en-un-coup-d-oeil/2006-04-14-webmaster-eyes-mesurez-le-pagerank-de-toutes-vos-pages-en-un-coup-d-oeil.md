@@ -20,7 +20,7 @@ Exemple de rendu sur la [page d'accueil de Gastero Prod](http://www.webmastereye
 
 Il n'est sans doute pas très intéressant de savoir que Google et Amazon ont un bon *PageRank*, mais voir que les pages des différents [*tags*](/tags/) ont des *PageRank* différents est assez intéressant.
 
-Une idée pour compléter serait de faire une page reprenant tous les contenus du site afin de voir en un coup d'oeil quel est le *PageRank* de tous les contenus. Une idée complémentaire pour vraiment rendre la chose utile serait de pouvoir lister les liens par ordre de *PageRank* décroissant...
+Une idée pour compléter serait de faire une page reprenant tous les contenus du site afin de voir en un coup d'oeil quel est le *PageRank* de tous les contenus. Une idée complémentaire pour vraiment rendre la chose utile serait de pouvoir lister les liens par ordre de *PageRank* décroissant…
 
 
 Via [Henri Labarre](http://www.2803.com/2006/04/13/le-pagerank-de-tous-les-liens-dune-page/).

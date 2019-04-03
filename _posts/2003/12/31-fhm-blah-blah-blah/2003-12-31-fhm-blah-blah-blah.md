@@ -1,5 +1,5 @@
 ---
-title:      "FHM blah blah blah ..."
+title:      "FHM blah blah blah…"
 lang:       fr
 tags:       [humour, advertisement]
 ---
@@ -16,7 +16,7 @@ Voilà qu'un magazine *masculin* avoue enfin ce qui fait son principal attrait p
 
 C'est une astucieuse publicité imaginée par [BBDO / Guerrero Ortega](http://www.adforum.com/preview/wwd/simple_detail.asp?ID=8427&TDI=AGBTltRh).
 
-Après ça, plus personne ne pourra dire qu'il est un *lecteur* de FHM ...
+Après ça, plus personne ne pourra dire qu'il est un *lecteur* de FHM…
 
 Pour découvrir un peu plus le talent des agences asiatiques de BBDO, profitez de [ces galeries](http://www.bbdoclick.com/~work/gallery/) qu'ils mettent à disposition, ce qui est pour l'instant rare dans le monde de la publicité.
 

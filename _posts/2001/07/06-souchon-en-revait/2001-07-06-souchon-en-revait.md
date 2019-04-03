@@ -1,5 +1,5 @@
 --- 
-title:      "Souchon en rêvait ..." 
+title:      "Souchon en rêvait…" 
 lang:       fr 
 tags:       [humour]
 ---
@@ -12,4 +12,4 @@ Et bien la société japonaise [Kaya Special Optics](http://www.kaya-optics.com/
 
 {% cloudinary kaya.png %}
 
-Bien sûr, ils découragent l'utilisation de leur produit à des fins de voyeurisme, mais il en font tout de même la démonstration, ils auraient tort de se priver de leur principale cible ...
+Bien sûr, ils découragent l'utilisation de leur produit à des fins de voyeurisme, mais il en font tout de même la démonstration, ils auraient tort de se priver de leur principale cible…

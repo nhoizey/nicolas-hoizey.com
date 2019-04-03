@@ -1,10 +1,10 @@
 --- 
-title:      "Gastero Prod 3, le retour de la vengeance..." 
+title:      "Gastero Prod 3, le retour de la vengeance…" 
 lang:       fr 
 tags:       [Gastero Prod, standards]
 ---
 
-Voilà qu'une troisième version de Gastero Prod est en ligne. Et en plus d'une refonte graphique, il y a aussi une profonde refonte fonctionnelle ...
+Voilà qu'une troisième version de Gastero Prod est en ligne. Et en plus d'une refonte graphique, il y a aussi une profonde refonte fonctionnelle…
 
 
 
@@ -12,17 +12,15 @@ Voilà qu'une troisième version de Gastero Prod est en ligne. Et en plus d'une 
 
 Le changement graphique, bien évidemment, vous l'aurez remarqué.
 
-L'ancienne version était certe belle et originale ...
+L'ancienne version était certe belle et originale…
 
 {% cloudinary gasteroprod_v2.png caption="Gastero Prod 2" %}
 
-
-... mais elle était à force assez fatigante avec sa débauche de bleu.
+…mais elle était à force assez fatigante avec sa débauche de bleu.
 
 Du coup, la nouvelle version s'allège avec principalement une couleur de fond des contenus beaucoup plus agréable.
 
 {% cloudinary gasteroprod_v3.png caption="Gastero Prod 3" %}
-
 
 Monsieur [Jakob «Use It» Nielsen](http://www.useit.com/) lui-même le dit : *Les internautes visitent un site pour son contenu. Tout le reste n'est que toile de fond. Le design doit faciliter l'accès au contenu.*
 
@@ -35,7 +33,7 @@ Notez que [archive.org](http://web.archive.org/web/*/http://www.gasteroprod.com)
 
 Une autre évolution de cette nouvelle version est l'adoption d'URL simplifiées qui permettent de se souvenir plus facilement de certaines pages auxquelles on veut accéder rapidement.
 
-Par exemple, *exit* la disgracieuse URL de l'agenda du mois de décembre 2003, qui de `http://.../rubrique.php3?id_rubrique=43&var_nav_year=2003&var_nav_month=12` passe à `http://.../agenda/2003/12/` !
+Par exemple, *exit* la disgracieuse URL de l'agenda du mois de décembre 2003, qui de `http://…/rubrique.php3?id_rubrique=43&var_nav_year=2003&var_nav_month=12` passe à `http://…/agenda/2003/12/` !
 
 Plus simple, non ?
 
@@ -69,7 +67,7 @@ L'objectif principal est donc maintenant d'assurer une mise à jour plus réguli
 
 [^t2]: Réponses prises au hasard parmi les réponses de Google à la question ["qu'est-ce qu'un blog"](http://www.google.com/search?q=%22qu%27est-ce+qu%27un+blog%22&sourceid=mozilla-search&start=0&start=0&ie=utf-8&oe=utf-8) 
 
-[^t3]: Oui, ok, je sais, c'était déjà le cas avant...
+[^t3]: Oui, ok, je sais, c'était déjà le cas avant…
 
 [^t4]: Grâce aux nouvelles [fonctionnalités de gestion des dates](http://www.spip.net/fr_article1971.html) de SPIP 1.6
 

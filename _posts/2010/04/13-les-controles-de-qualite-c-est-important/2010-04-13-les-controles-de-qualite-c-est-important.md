@@ -4,7 +4,7 @@ lang:       fr
 tags:       [fail, qualité]
 ---
 
-Les faire quand on les annonce, c'est mieux...
+Les faire quand on les annonce, c'est mieux…
 
 La preuve en image :
 

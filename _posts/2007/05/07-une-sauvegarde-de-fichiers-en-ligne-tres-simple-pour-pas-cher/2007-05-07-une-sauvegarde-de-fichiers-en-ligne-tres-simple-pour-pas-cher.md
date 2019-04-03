@@ -17,12 +17,12 @@ Il y aura certainement prochainement des alternatives tout aussi simple à utili
 
 Je commence par exemple à tester [Mozy](https://mozy.com/?ref=VH5M5G)[^mozy], qui est d'une simplicité enfantine, et qui s'intègre encore mieux au Mac[^windows] que JungleDisk, en proposant non seulement de synchroniser des dossiers, mais aussi des données plus typées comme les mails, les contacts ou les préférences des applications.
 
-[Je laisse Olivier vous présenter complètement Mozy](http://www.glagla.org/blog/index.php/2007/05/05/178-mozy-j-ai-teste-pour-vous) à grand renfort de copies d'écran, il a l'air d'en être devenu fan lui aussi...
+[Je laisse Olivier vous présenter complètement Mozy](http://www.glagla.org/blog/index.php/2007/05/05/178-mozy-j-ai-teste-pour-vous) à grand renfort de copies d'écran, il a l'air d'en être devenu fan lui aussi…
 
 Pour l'instant, je suis en version gratuite limitée à 2 Go de donnée[^bonus], mais si j'en suis réellement satisfait, je passerais sans doute en version payante en attendant un équivalent gratuit -- et tant que possible libre.
 
 
-[^mozy]: Si vous utilisez ce lien pour vous inscrire, vous gagnerez 250 Mo de stockage en plus, tout comme moi... ;)
+[^mozy]: Si vous utilisez ce lien pour vous inscrire, vous gagnerez 250 Mo de stockage en plus, tout comme moi… ;)
 
 [^windows]: Il fonctionne aussi sous (sur ?) Windows
 

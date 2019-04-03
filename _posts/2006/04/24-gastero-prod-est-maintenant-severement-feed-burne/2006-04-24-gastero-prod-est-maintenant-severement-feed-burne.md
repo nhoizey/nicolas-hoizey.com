@@ -32,7 +32,7 @@ C'est-y pas beau tout ça ?
 
 **MAJ dix minutes après :** Ah bin tiens, [NiKo est aussi passé chez FeedBurner](http://www.prendreuncafe.com/blog/2006/04/24/442-amenagement-des-flux-de-syndication), belle coïncidence !
 
-**MAJ du 25/04 :** Un point intéressant que j'avais oublié de signaler est que maintenant seul FeedBurner vient chercher le flux RSS chez Gastero Prod, donc ça devrait alléger de manière conséquente la charge serveur et la bande passante consommée. C'est [NiCoS](http://www.unelectronlibre.info/) qui va être content... ;-)
+**MAJ du 25/04 :** Un point intéressant que j'avais oublié de signaler est que maintenant seul FeedBurner vient chercher le flux RSS chez Gastero Prod, donc ça devrait alléger de manière conséquente la charge serveur et la bande passante consommée. C'est [NiCoS](http://www.unelectronlibre.info/) qui va être content… ;-)
 
 **Seconde MAJ du 25/04 :** Comme signalé par NiKo, pep propose une explication plus complète des [intérêts et limites de FeedBurner](http://www.callmepep.org/blog/2006/04/24/291-utilisation-de-feedburner-pour-les-fils-de-syndication-principaux).
 
@@ -43,4 +43,4 @@ C'est-y pas beau tout ça ?
 
 [^3]: titre de niveau 3 « Abonnements » pour ceux qui naviguent par le plan de la page
 
-Désolé pour le jeu de mots laid du titre, c'était plus fort que moi...
+Désolé pour le jeu de mots laid du titre, c'était plus fort que moi…

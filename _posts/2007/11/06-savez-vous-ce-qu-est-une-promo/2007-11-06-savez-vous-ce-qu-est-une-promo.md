@@ -4,7 +4,7 @@ lang:       fr
 tags:       [fail]
 ---
 
-Voilà en tout cas un site qui n'a pas dû bien comprendre qu'une promo est censé faire baisser le prix pour attirer le client...
+Voilà en tout cas un site qui n'a pas dû bien comprendre qu'une promo est censé faire baisser le prix pour attirer le client…
 
 {% cloudinary promo-inversee.png %}
 

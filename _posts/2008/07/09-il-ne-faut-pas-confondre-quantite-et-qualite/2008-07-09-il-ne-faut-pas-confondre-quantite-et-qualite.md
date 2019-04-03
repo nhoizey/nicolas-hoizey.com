@@ -30,12 +30,12 @@ Bon, pour revenir au sujet de ce billet, en imaginant qu'Ouriel ait raison et qu
 {% cloudinary Google_Trends_-_techcrunch_et_facebook.png caption="Techcrunch vs Facebook" %}
 
 
-Ah, tiens, TechCrunch n'a même pas assez de trafic pour que sa courbe apparaisse... ;-)
+Ah, tiens, TechCrunch n'a même pas assez de trafic pour que sa courbe apparaisse… ;-)
 
 
 
 [^2]: Un bien grand mot vu la profondeur de l'analyse
 
-[^3]: Je confirme, celui-là n'a pas d'adresse e-mail...
+[^3]: Je confirme, celui-là n'a pas d'adresse e-mail…
 
 [^4]: Google Trends ne gère pas pour l'instant les sous domaines

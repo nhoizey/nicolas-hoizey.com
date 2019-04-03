@@ -21,9 +21,9 @@ Malheureusement, une des plateformes supportant l'architecture est [tombé en ca
 {% cloudinary logo-gandi-hebergement.png %}
 
 
-Après 3 jours de petite angoisse, [Gastero Prod est finalement revenu en ligne **dimanche**](http://www.lebardegandi.net/post/2008/05/16/Problemes-de-disques#c165741)...
+Après 3 jours de petite angoisse, [Gastero Prod est finalement revenu en ligne **dimanche**](http://www.lebardegandi.net/post/2008/05/16/Problemes-de-disques#c165741)…
 
-...pour [retomber à nouveau entre dimanche après-midi et lundi matin](http://www.lebardegandi.net/post/2008/05/18/Problemes-de-disques-en-cours-de-resolution#c165913) ! :-(
+…pour [retomber à nouveau entre dimanche après-midi et lundi matin](http://www.lebardegandi.net/post/2008/05/18/Problemes-de-disques-en-cours-de-resolution#c165913) ! :-(
 
 Nicolas de Gandi a heureusement réagit **lundi** pour me signaler qu'il travaillait dessus, et que [ma machine était visiblement en Kernel Panic](http://www.lebardegandi.net/post/2008/05/18/Problemes-de-disques-en-cours-de-resolution#c165926). Je partageais de plus en plus cet état, désespérant de revoir Gastero Prod en ligne sous peu.
 
@@ -48,7 +48,7 @@ Je tiens aussi à saluer l'équipe de Gandi -- dont au moins Nicolas, Laura, Gre
 
 Je vais donc rester encore un peu, avec maintenant deux parts -- et peut-être un peu plus bientôt puisque d'autres sites vont rejoindre Gastero Prod -- et surtout la mise en place très rapidement de sauvegardes automatiques distantes.
 
-L'avenir dira si j'ai fait le bon choix...
+L'avenir dira si j'ai fait le bon choix…
 
 
 [^1]: Je pourrais la résilier dès que je voudrais et ne paierait rien de plus, ça mérite une tentative

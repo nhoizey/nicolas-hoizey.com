@@ -4,12 +4,12 @@ lang:       fr
 tags:       [photo, gear, Canon]
 ---
 
-La sortie ces derniers mois de [plusieurs appareils photo numériques équipés de capteurs *full frame*](http://www.macandphoto.com/2008/10/le-grand-match.html)[^fullframe] à des prix devenus presque raisonnables, a séduit de nombreux photographes amateurs experts[^experts]. Les avantages du *full frame* sont nombreux, mais certains photographes -- essentiellement animaliers et sportifs -- préfèrent conserver leurs appareils à capteurs APS-C[^apsc], leur petite taille augmentant « magiquement » la longueur focale des téléobjectifs[^tele] et provoquant une zone de netteté plus grande, utile pour la macro. Sauf que mon Canon EOS 350D à capteur APS-C ne présente pas cet intérêt par rapport à mon nouveau Canon EOS 5D Mark II à capteur *full frame*. Je m'explique...
+La sortie ces derniers mois de [plusieurs appareils photo numériques équipés de capteurs *full frame*](http://www.macandphoto.com/2008/10/le-grand-match.html)[^fullframe] à des prix devenus presque raisonnables, a séduit de nombreux photographes amateurs experts[^experts]. Les avantages du *full frame* sont nombreux, mais certains photographes -- essentiellement animaliers et sportifs -- préfèrent conserver leurs appareils à capteurs APS-C[^apsc], leur petite taille augmentant « magiquement » la longueur focale des téléobjectifs[^tele] et provoquant une zone de netteté plus grande, utile pour la macro. Sauf que mon Canon EOS 350D à capteur APS-C ne présente pas cet intérêt par rapport à mon nouveau Canon EOS 5D Mark II à capteur *full frame*. Je m'explique…
 
 
 [^fullframe]: C'est à dire de même taille que les traditionnelles pellicules argentiques de 24x36mm de côté
 
-[^experts]: Qui sont souvent déraisonnables, sans pouvoir se payer du matériel pro à 8000 €... ;-)
+[^experts]: Qui sont souvent déraisonnables, sans pouvoir se payer du matériel pro à 8000 €… ;-)
 
 [^apsc]: Appellation faisant référence aux pellicules argentiques au format APS, plus petit que le 24x36mm, correspondant aux capteurs les plus courants des reflex numériques.
 
@@ -76,4 +76,4 @@ Je tiens à préciser pour finir que cette illustration n'est pas valable pour t
 
 [^cellules]: Appelées aussi photosites.
 
-[^deux]: Ce qui ne veut pas dire que je n'aurais pas parfois les deux sur moi, pour éviter de changer trop souvent d'objectif...
+[^deux]: Ce qui ne veut pas dire que je n'aurais pas parfois les deux sur moi, pour éviter de changer trop souvent d'objectif…

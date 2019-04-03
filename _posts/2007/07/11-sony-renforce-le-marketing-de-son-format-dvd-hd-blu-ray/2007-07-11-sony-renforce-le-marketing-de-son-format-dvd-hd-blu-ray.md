@@ -18,6 +18,6 @@ Cette pub est aussi l'occasion pour Sony de lancer son [Musée de la Base Résol
 
 {% cloudinary sony-bluray-mold2.png caption="Le Musée de la Base Résolution" %}
 
-[^1]: Désolé pour la faible qualité, la [version fournie par Sony](http://www.blu-ray.sony-europe.com/player/player.php?lang=fr) se lance automatiquement et le code HTML proposé est pourri...
+[^1]: Désolé pour la faible qualité, la [version fournie par Sony](http://www.blu-ray.sony-europe.com/player/player.php?lang=fr) se lance automatiquement et le code HTML proposé est pourri…
 
 [^2]: *Museum of Low Resolution (MoLR)* en anglais

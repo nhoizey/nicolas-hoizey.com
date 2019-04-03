@@ -1,5 +1,5 @@
 ---
-title:      "La vérité est ailleurs..."
+title:      "La vérité est ailleurs…"
 lang:       fr
 tags:       [fail, music]
 ---

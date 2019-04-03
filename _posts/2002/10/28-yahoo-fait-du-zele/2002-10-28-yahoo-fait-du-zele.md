@@ -1,5 +1,5 @@
 --- 
-title:      "Yahoo! fait du zèle ..." 
+title:      "Yahoo! fait du zèle…" 
 lang:       fr 
 tags:       [fail]
 ---

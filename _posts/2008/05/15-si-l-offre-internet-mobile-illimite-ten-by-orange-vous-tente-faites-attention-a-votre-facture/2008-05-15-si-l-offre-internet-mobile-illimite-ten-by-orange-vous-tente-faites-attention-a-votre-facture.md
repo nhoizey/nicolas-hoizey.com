@@ -4,7 +4,7 @@ lang:       fr
 tags:       [fail]
 ---
 
-En réponse aux offres de surf illimité proposées par d'autres opérateurs, et sans doute aussi pour ne pas avoir l'air de favoriser l'iPhone par rapport à d'autres terminaux, [Orange](http://www.orange.com/fr_FR/) a lancé récemment l'offre [Ten](http://www.ten.fr/) qui promet l'illimité sur le surf, le mail et même la messagerie instantanée... attention danger !
+En réponse aux offres de surf illimité proposées par d'autres opérateurs, et sans doute aussi pour ne pas avoir l'air de favoriser l'iPhone par rapport à d'autres terminaux, [Orange](http://www.orange.com/fr_FR/) a lancé récemment l'offre [Ten](http://www.ten.fr/) qui promet l'illimité sur le surf, le mail et même la messagerie instantanée… attention danger !
 
 L'offre « Ten by Orange » est en effet assez dangereuse pour sa facture si on ne fait pas attention.
 

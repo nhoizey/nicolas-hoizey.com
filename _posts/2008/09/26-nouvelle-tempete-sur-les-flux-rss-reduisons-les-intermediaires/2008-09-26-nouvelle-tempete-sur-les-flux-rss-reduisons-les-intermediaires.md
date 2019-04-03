@@ -9,7 +9,7 @@ Alors que je me -- et vous -- demandais il y a quelque temps si je devais [faire
 
 [^1]: Suite au [rachat](http://googleblog.blogspot.com/2007/06/adding-more-flare.html) il y a plus d'un an déjà.
 
-[^2]: C'est par exemple le cas de [Benoit Descary](http://descary.com/feedburner-integre-a-google-rien-ne-va-plus/), mais [les problèmes sont récurrents](http://groups.google.com/group/feedburner/web/known-issues-workarounds)...
+[^2]: C'est par exemple le cas de [Benoit Descary](http://descary.com/feedburner-integre-a-google-rien-ne-va-plus/), mais [les problèmes sont récurrents](http://groups.google.com/group/feedburner/web/known-issues-workarounds)…
 
 Il y a quelques jours, c'est l'ensemble des items de mon flux complet qui reprenaient un statut « non lu » dans mon [NetNewsWire](http://www.newsgator.com/Individuals/NetNewsWire/)[^1]. Hier, deux anciens articles seulement redevenaient non lus.
 
@@ -35,7 +35,7 @@ D'une part, bien entendu, FeedBurner me fourni des statistiques d'abonnement aux
 
 D'autre part, même si c'est une fonction à laquelle peu d'utilisateurs semblent penser, FeedBurner assure une fonction de proxy qui soulage énormément mon serveur[^5]. Certes, le nombre réduit d'abonnés ne doit pas générer un trafic délirant, mais je pari sans frémir qu'au moins les trois quarts des abonnés[^6] -- volontairement ou en utilisant un mauvais client -- ne respectent pas le TTL (*Time To Live*) que j'ai fixé dans mes flux à 60 minutes, et mettent ainsi en évidence la principale faiblesse de la syndication par *pull* qui sature tant les serveurs fournissant les contenus que les bandes passantes. Ce qui me rappelle au passage que je voulais mettre en place une syndication en *push* par XMPP[[[Jabber, Inc. a été racheté ces derniers jours par Cisco](http://newsroom.cisco.com/dlls/2008/corp_091908.html), tiens.☜.
 
-Autre problème de FeedBurner, c'est que les URL des flux changent suite au rachat par Google, mais je n'ai pas encore regardé si les anciennes URL seront tout de même conservées pour ne pas dérouter les utilisateurs. Pour l'instant, c'est dommage, la redirection est indiquée comme temporaire (code 302) et non permanente (code 301), donc les clients ne vont pas se mettre à jour...
+Autre problème de FeedBurner, c'est que les URL des flux changent suite au rachat par Google, mais je n'ai pas encore regardé si les anciennes URL seront tout de même conservées pour ne pas dérouter les utilisateurs. Pour l'instant, c'est dommage, la redirection est indiquée comme temporaire (code 302) et non permanente (code 301), donc les clients ne vont pas se mettre à jour…
 
 {% cloudinary feedburner-to-google-302.png %}
 
@@ -47,9 +47,9 @@ Je vais aussi sans doute réduire le nombre de flux pour encore plus simplifier 
 Enfin bref, si vous avez une solution plus pertinente à me proposer pour remplacer les statistiques et la partie proxy fournies par FeedBurner, je suis preneur !
 
 
-[^1]: Oui, je suis abonné à mes propres flux pour contrôler qu'ils fonctionnent bien, et j'en connais qui devraient faire de même...
+[^1]: Oui, je suis abonné à mes propres flux pour contrôler qu'ils fonctionnent bien, et j'en connais qui devraient faire de même…
 
-[^2]: Deux précautions valent mieux qu'une...
+[^2]: Deux précautions valent mieux qu'une…
 
 [^3]: Allez donc voir [mes Yahoo! Pipes](http://pipes.yahoo.com/nicolashoizey).
 

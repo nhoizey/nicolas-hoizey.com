@@ -1,10 +1,10 @@
 ---
-title:      "Attention quand vient le succès..."
+title:      "Attention quand vient le succès…"
 lang:       fr
 tags:       [PHP, opensource, DotClear]
 ---
 
-Alors que je m'interroge sur un éventuel [abandon de SPIP au profit de DotClear](/2006/06/faut-il-que-j-abandonne-spip-pour-dotclear.html), surtout avec [la première beta de DotClear 2.0 enfin disponible](http://www.dotclear.net/forum/viewtopic.php?id=19175), je dois avouer que le [modèle de mail à envoyer aux hébergeurs ne disposant pas de PHP5](http://www.dotclear.net/forum/viewtopic.php?id=19176)[^1] proposé à ceux qui veulent adopter DotClear 2.0 me laisse rêveur...
+Alors que je m'interroge sur un éventuel [abandon de SPIP au profit de DotClear](/2006/06/faut-il-que-j-abandonne-spip-pour-dotclear.html), surtout avec [la première beta de DotClear 2.0 enfin disponible](http://www.dotclear.net/forum/viewtopic.php?id=19175), je dois avouer que le [modèle de mail à envoyer aux hébergeurs ne disposant pas de PHP5](http://www.dotclear.net/forum/viewtopic.php?id=19176)[^1] proposé à ceux qui veulent adopter DotClear 2.0 me laisse rêveur…
 
 
 [^1]: Reproduit ici au cas où :
@@ -23,7 +23,7 @@ Alors que je m'interroge sur un éventuel [abandon de SPIP au profit de DotClear
 >
 
 
-Malheureusement, le forum dans lequel est proposé ce modèle n'est pas ouvert aux commentaires, donc je réagis ici, au risque de faire gonfler l'affaire plus que nécessaire...
+Malheureusement, le forum dans lequel est proposé ce modèle n'est pas ouvert aux commentaires, donc je réagis ici, au risque de faire gonfler l'affaire plus que nécessaire…
 
 Je comprends qu'il soit très confortable, quand on développe un logiciel, de s'appuyer uniquement sur le dernier cri des fonctionnalités d'une technologie.
 
@@ -49,12 +49,12 @@ Je pense donc qu'il faut absolument :
 Apparemment, [Free est maintenant compatible avec DotClear 2.0](http://callmepep.org/blog/2006/07/05/364-je-t-aime-moi-non-plus)[^4], ce qui est un élément à mon avis essentiel pour la propagation de cette nouvelle version.
 
 
-[^1]:  [Supporté par Gandi](http://www.gandi.net/soutient/dotclear/) notamment, qui y voit sans doute un bon moyen de [se diversifier à moindre frais](http://www.lebardegandi.net/post/2006/06/23/GandiBlog-Beta)... tant mieux pour DotClear tant que ce n'est qu'un soutient
+[^1]:  [Supporté par Gandi](http://www.gandi.net/soutient/dotclear/) notamment, qui y voit sans doute un bon moyen de [se diversifier à moindre frais](http://www.lebardegandi.net/post/2006/06/23/GandiBlog-Beta)… tant mieux pour DotClear tant que ce n'est qu'un soutient
 
-[^2]: Grâce à la présence encore aujourd'hui d'énormément de plateformes qui l'utilisent, soit dit au passage. Et là je me tire dans le pied, puisque s'il y avait moins de gens sur PHP4, il y en aurait sans doute plus sur PHP5, et sa stabilité serait encore meilleure... mais bon.
+[^2]: Grâce à la présence encore aujourd'hui d'énormément de plateformes qui l'utilisent, soit dit au passage. Et là je me tire dans le pied, puisque s'il y avait moins de gens sur PHP4, il y en aurait sans doute plus sur PHP5, et sa stabilité serait encore meilleure… mais bon.
 
 [^3]: PHP6 pointera le bout de son nez avant que tous les PHP4 soient éradiqués, à n'en pas douter
 
 [^4]: Et il semblerait qu'il ne soit [pas le seul](http://www.dotclear.net/forum/viewtopic.php?id=19282)
 
-Je ne m'attaque pas à [Olivier Meunier](http://www.neokraft.net/) en personne, puisque cette proposition de lettre ne semble de toute façon pas être de lui, et DotClear ne fait finalement que l'exemple opportuniste d'un sujet qui me traine en tête depuis bien longtemps...
+Je ne m'attaque pas à [Olivier Meunier](http://www.neokraft.net/) en personne, puisque cette proposition de lettre ne semble de toute façon pas être de lui, et DotClear ne fait finalement que l'exemple opportuniste d'un sujet qui me traine en tête depuis bien longtemps…

@@ -15,6 +15,6 @@ Si vous voulez voir avant ce que ça donne[^3], voyez ma première galerie : <ht
 
 [^1]: C'est sans douleur, je vous assure
 
-[^2]: Notez qu'en suivant ce lien, vous ferez de moi votre parrain, et je serais ainsi encore plus payé grâce à vous... ;-)
+[^2]: Notez qu'en suivant ce lien, vous ferez de moi votre parrain, et je serais ainsi encore plus payé grâce à vous… ;-)
 
 [^3]: Pas terrible en fait

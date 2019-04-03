@@ -16,7 +16,7 @@ En arrivant sur les lieux, ils découvrent que presque toute la population a ét
 
 Ils devront s'associer pour combattre les fameux fantômes (ghosts) menés par un leader bien peu charismatique.
 
-Je vous laisse découvrir la suite ...
+Je vous laisse découvrir la suite…
 
 {% cloudinary art83-3.jpg %}
 

@@ -4,7 +4,7 @@ lang:       fr
 tags:       [fail, UX]
 ---
 
-A priori, avant même de penser à ses contenus et à leur présentation, il n'est pas franchement difficile de suivre quelques règles simples d'[ergonomie](http://www.clever-age.com/metiers/formations/mise-en-oeuvre/usabilite-accessibilite-et-outils-de-gestion-de-contenus-web.html) pour assurer à l'internaute une navigation aisée et donc une satisfaction minimale. C'est pourtant trop souvent qu'un site propose une ergonomie bâclée, gênante, voire même parfois bloquante...
+A priori, avant même de penser à ses contenus et à leur présentation, il n'est pas franchement difficile de suivre quelques règles simples d'[ergonomie](http://www.clever-age.com/metiers/formations/mise-en-oeuvre/usabilite-accessibilite-et-outils-de-gestion-de-contenus-web.html) pour assurer à l'internaute une navigation aisée et donc une satisfaction minimale. C'est pourtant trop souvent qu'un site propose une ergonomie bâclée, gênante, voire même parfois bloquante…
 
 
 {% cloudinary logo_cashstore.png %}
@@ -27,6 +27,6 @@ C'est d'autant plus dommage que l'ergonomie générale de ce site semble tout à
 
 [^1]: Et il y aurait aussi beaucoup à dire sur l'ergonomie en général, hors du Web !
 
-[^2]: Je suis bien entendu ouvert à toute critique constructive sur l'ergonomie de Gastero Prod... ;-)
+[^2]: Je suis bien entendu ouvert à toute critique constructive sur l'ergonomie de Gastero Prod… ;-)
 
 [^3]: Ils annoncent jusqu'à 20%

@@ -38,7 +38,7 @@ Par contre, j'ai déjà plusieurs fois eu le bonheur de pouvoir changer de batte
 
 Pour finir, juste un mot sur la gestion de la bibliothèque de musiques. Comme avec tous les baladeurs qui utilisent les méta données[^t2] embarquées dans les fichiers, il est nécessaire de bien prendre garde à ceux-ci, afin que la navigation ne devienne pas vite un cauchemard. Les MP3 obtenus par copies depuis un CD Audio ne sont pas toujours bien renseignés, et il est nécessaire de passer par un outil spécialisé pour le faire manuellement. Utiliser l'organiseur Creative MediaSource ne m'a pas semblé suffisamment pratique pour l'instant, donc je me suis tourné vers une combinaison entre [MusicBrainz Tagger](http://musicbrainz.org/tagger/) et [Mp3tag](http://www.mp3tag.de/en/).
 
-## Séquence gore...
+## Séquence gore…
 
 
 Si vous voulez savoir à quoi ressemblent les entrailles d'un Zen Micro, allez voir ce qu'a découvert l'équipe de [HardwareZone](http://www.hardwarezone.com/articles/view.php?cid=9&id=1331). Âmes sensibles, s'abstenir.

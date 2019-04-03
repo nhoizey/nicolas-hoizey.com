@@ -14,4 +14,4 @@ Et là où Diigo innove vraiment par rapport à sa nombreuse concurrence, c'est 
 {% cloudinary diigo-who-is-your-closest-friend.png %}
 
 
-Et on dira après ça que les Internautes sont refermés sur eux-mêmes, asociaux... ;-)
+Et on dira après ça que les Internautes sont refermés sur eux-mêmes, asociaux… ;-)

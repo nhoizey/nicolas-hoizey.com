@@ -6,7 +6,7 @@ tags:       [loisirs, photo, fail, humour, Flickr]
 
 Vous connaissez peut-être [France Miniature](http://www.franceminiature.com/), un sympatique parc d'attraction qui présente en modèles réduits réalistes les plus célèbres monuments de France.
 
-L'Allemagne s'est aussi dotée d'un parc d'attraction de ce type, [Miniatur Wunderland](http://www.miniatur-wunderland.de/), qui s'intéresse lui au monde entier... et à un public plus large.
+L'Allemagne s'est aussi dotée d'un parc d'attraction de ce type, [Miniatur Wunderland](http://www.miniatur-wunderland.de/), qui s'intéresse lui au monde entier… et à un public plus large.
 
 # Au départ, de fausses miniatures
 
@@ -42,7 +42,7 @@ Si de tels éléments peuvent faire sourire les adultes, et surtout les faire ve
 
 Est-ce que ceux-ci se rendent compte, au moins partiellement, de ce qu'ils voient ? Comment réagissent leurs parents ?
 
-Etonnament, ou ne sachant pas comment bien chercher, je n'ai trouvé aucun article en ligne qui parle de ce sujet, il faudrait que je révise mes lointains cours d'allemand peut-être...
+Etonnament, ou ne sachant pas comment bien chercher, je n'ai trouvé aucun article en ligne qui parle de ce sujet, il faudrait que je révise mes lointains cours d'allemand peut-être…
 
 **MAJ du 31 mars :** Fred Cavazza s'interroge justement ces jours-ci sur [les dérives du marketing viral](http://www.fredcavazza.net/index.php?2006/03/29/1111-les-derives-du-marketing-viral) vers toujours plus d'excès, allant même maintenant jusqu'à la pornographie pour vendre des vêtements. Jusqu'où sont prêt à aller les vendeurs ?
 

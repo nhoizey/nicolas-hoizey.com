@@ -4,7 +4,7 @@ lang:       fr
 tags:       [fail, humour, Google]
 ---
 
-Google fait appel à ses utilisateurs pour obtenir plus facilement la traduction de toutes ses interfaces. Il semble qu'il y ait eu des excès de zèle ...
+Google fait appel à ses utilisateurs pour obtenir plus facilement la traduction de toutes ses interfaces. Il semble qu'il y ait eu des excès de zèle…
 
 
 En effet, il suffit d'aller sur la page de [consultation de l'état d'avancement des traductions](https://services.google.com/tcbin/tc.py?cmd=status) pour voir que pas mal de langues sont traduites à plus de 100%[^t1] !!!

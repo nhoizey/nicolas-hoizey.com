@@ -14,8 +14,8 @@ Le besoin particulier qui m'a conduit à trouver la solution que je vais exposer
 jQuery propose le filtre [`contains()`](http://docs.jquery.com/DOM/Traversing#contains.28_str_.29) qui permet d'identifier des éléments qui contiennent la chaine de caractères 'text', de l'une des manières suivantes :
 
 ```javascript
-$('element').contains('text')...
-$('element:contains(text)')...
+$('element').contains('text')…
+$('element:contains(text)')…
 ```
 
 Malheureusement, ce filtre ne permet pas d'identifier des éléments qui contiennent exactement la chaine `'text'`, donc il faut le faire soit-même.
@@ -43,7 +43,7 @@ jQuery.extend(jQuery.expr[':'], {
 Une fois ceci fait, il est possible de filtrer les éléments de la manière suivante :
 
 ```javascript
-$('element:containsExactly(text)')...
+$('element:containsExactly(text)')…
 ```
 
 Simple, n'est-ce pas ?
