@@ -251,7 +251,7 @@ function searchCallback(err, content) {
   var result, results, hit, hit_title, hit_excerpt, hit_date, hit_tags;
 
   results =
-    `<h1>${resultsNumber} content` +
+    `<h1>${resultsNumber} ` +
     (resultsNumber > 1 ? "contents contain" : "content contains") +
     ` <em>${$input.value}</em></h1><div class="list"><ul class="list__items">`;
 
