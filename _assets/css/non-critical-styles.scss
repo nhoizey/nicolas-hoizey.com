@@ -21,18 +21,10 @@ a[href$=".kml"] {
 // Search results
 // ************************************************************
 
-#results {
-  .nb {
-    text-align: center;
-  }
-
-  .algolia__result-highlight {
-    color: #000;
-  }
-
-  .tags .algolia__result-highlight,
-  p .algolia__result-highlight {
-    font-weight: 700;
+#search_results {
+  .ais-Highlight {
+    color: $color-blue;
+    font-weight: bold;
   }
 }
 
