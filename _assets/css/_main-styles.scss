@@ -1,0 +1,798 @@
+@import "placeholders/links";
+
+:root {
+  font: -apple-system-body;
+  --base-duration: 0.25s;
+}
+
+@media screen and (prefers-reduced-motion) {
+  :root {
+    --base-duration: 0s;
+  }
+
+  body {
+    scroll-behavior: auto !important;
+  }
+}
+
+// Box sizing:
+// http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+html {
+  box-sizing: border-box;
+  text-size-adjust: 100%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  font-family: $font-serif;
+  font-size: calc(0.9em + 0.5vw);
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: $color-text;
+  background-color: $color-background;
+
+  scroll-behavior: smooth;
+
+  word-break: break-word;
+}
+
+// ************************************************************
+// Fonts
+// ************************************************************
+
+p {
+  line-height: 1.5;
+  margin: $baseline 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-sans-serif;
+  font-weight: bold;
+  line-height: 1.3;
+  margin: $baseline 0 0.5em 0;
+  position: relative;
+}
+
+$fontBreakpoint: 40em;
+
+$h1Increase: 2;
+h1 {
+  margin-top: 0;
+  font-size: calc(0.9rem + #{$h1Increase}vw);
+  color: $color-primary;
+
+  @media (min-width: $fontBreakpoint) {
+    font-size: calc(0.9em + #{$fontBreakpoint} * #{$h1Increase} / 100);
+  }
+}
+
+$h2Increase: 1.5;
+h2 {
+  font-size: calc(0.9rem + #{$h2Increase}vw);
+  color: $color-primary-lighter-1;
+
+  @media (min-width: $fontBreakpoint) {
+    font-size: calc(0.9em + #{$fontBreakpoint} * #{$h2Increase} / 100);
+  }
+}
+
+$h3Increase: 1.2;
+h3 {
+  font-size: calc(0.9rem + #{$h3Increase}vw);
+  color: $color-primary-lighter-2;
+
+  @media (min-width: $fontBreakpoint) {
+    font-size: calc(0.9em + #{$fontBreakpoint} * #{$h3Increase} / 100);
+  }
+}
+
+$h4Increase: 1;
+h4 {
+  font-size: calc(0.9rem + #{$h4Increase}vw);
+  color: $color-primary-lighter-2;
+
+  @media (min-width: $fontBreakpoint) {
+    font-size: calc(0.9em + #{$fontBreakpoint} * #{$h4Increase} / 100);
+  }
+}
+
+$h5Increase: 0.5;
+h5 {
+  font-size: calc(0.9rem + #{$h5Increase}vw);
+  color: $color-primary-lighter-2;
+
+  @media (min-width: $fontBreakpoint) {
+    font-size: calc(0.9em + #{$fontBreakpoint} * #{$h5Increase} / 100);
+  }
+}
+
+h6 {
+  font-style: italic;
+  font-size: 1rem;
+  color: $color-primary-lighter-2;
+}
+
+// ************************************************************
+// General styles
+// ************************************************************
+
+a {
+  @extend %link;
+}
+
+// anchors
+
+a.deeplink:link,
+a.deeplink:visited {
+  display: inline-block;
+  font-size: 1.2rem;
+  width: 1.9rem;
+  height: 1.9rem;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: none;
+  text-shadow: none;
+
+  @media (min-width: 55em) {
+    position: absolute;
+    top: 0.65rem;
+    left: -2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  svg {
+    width: 1em;
+    height: 1em;
+    fill: $color-link;
+  }
+}
+
+a.deeplink:hover,
+a.deeplink:focus,
+a.deeplink:active {
+  background-color: $color-link;
+  color: $color-white;
+
+  svg {
+    fill: $color-white;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  &:hover,
+  &:focus,
+  &:active {
+    a.deeplink:link,
+    a.deeplink:visited {
+      background-color: $color-link;
+      color: $color-white;
+
+      svg {
+        fill: $color-white;
+      }
+    }
+  }
+}
+
+pre {
+  font-family: "Courier New", Courier, monospace;
+  overflow-x: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+// For lazyloading
+img[data-src] {
+  opacity: 0;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+figure,
+img,
+iframe,
+.embed-video-container {
+  clear: both;
+  margin: $baseline auto;
+  display: block;
+}
+
+figure {
+  text-align: center;
+
+  img,
+  iframe,
+  .embed-video-container {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  &.twothirds {
+    max-width: 66%;
+  }
+
+  &.onehalf {
+    max-width: 50%;
+  }
+
+  &.onethird {
+    max-width: 50%;
+
+    @media (min-width: 20em) {
+      max-width: 33%;
+    }
+  }
+
+  &.onefourth {
+    max-width: 50%;
+
+    @media (min-width: 20em) {
+      max-width: 33%;
+    }
+
+    @media (min-width: 30em) {
+      max-width: 25%;
+    }
+  }
+
+  &.left {
+    margin: $baseline auto;
+
+    @media (min-width: 20em) {
+      float: left;
+      margin: 0 $baseline $baseline 0;
+    }
+  }
+
+  &.right {
+    margin: $baseline auto;
+
+    @media (min-width: 20em) {
+      float: right;
+      margin: 0 0 $baseline $baseline;
+    }
+  }
+}
+
+.logo,
+.poster {
+  display: block;
+  margin: $baseline auto;
+  max-width: 50%;
+
+  @media (min-width: 20em) {
+    float: right;
+    margin: 0 0 5vw 5vw;
+    max-width: 33%;
+  }
+
+  @media (min-width: 67em) {
+    margin: 0 0 3.35em 3.35em;
+  }
+}
+
+figcaption {
+  // http://nocode.in/aligning-text-smartly-in-css/
+  display: inline-block;
+  text-align: left;
+
+  font-size: 0.9em;
+  font-style: italic;
+  margin: 0.1em 1em;
+  padding: 0.3em 0;
+  color: #999;
+
+  p {
+    margin: 0;
+  }
+}
+
+// ************************************************************
+// no delay on focusable elements in iOS:
+// https://adactio.com/journal/10019
+// https://webkit.org/blog/5610/more-responsive-tapping-on-ios/
+// ************************************************************
+
+a,
+button,
+input,
+select,
+textarea,
+label,
+summary {
+  touch-action: manipulation;
+}
+
+// ************************************************************
+// Utilities
+// ************************************************************
+
+.wrap {
+  width: 90vw;
+  max-width: $maxLayoutWidth;
+  margin: 0 auto;
+}
+
+.clearfix {
+  &::after {
+    // http://nicolasgallagher.com/micro-clearfix-hack/
+    content: " ";
+    display: table;
+    clear: both;
+  }
+}
+
+.responsive-wrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+
+  iframe {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+// ************************************************************
+// Preserve aspect ratio
+// https://css-tricks.com/aspect-ratio-boxes/#article-header-id-7
+// ************************************************************
+
+[style*="--aspect-ratio"] > :first-child {
+  width: 100%;
+}
+[style*="--aspect-ratio"] > img {
+  height: auto;
+}
+@supports (--custom: property) {
+  [style*="--aspect-ratio"] {
+    position: relative;
+  }
+  [style*="--aspect-ratio"]::before {
+    content: "";
+    display: block;
+    padding-bottom: calc(100% / (var(--aspect-ratio)));
+  }
+  [style*="--aspect-ratio"] > :first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+}
+
+// ************************************************************
+// Main content
+// ************************************************************
+
+main {
+  margin: 0;
+  flex: 1;
+}
+
+.intro {
+  margin: 0 0 2em;
+  font-size: 1.2em;
+  color: $color-article-intro;
+}
+
+.list {
+  clear: both;
+
+  h2,
+  h3 {
+    margin-bottom: 0;
+  }
+
+  .post {
+    margin: 3em 0;
+    padding: 0;
+
+    h2,
+    h3 {
+      margin-top: 0;
+    }
+
+    p {
+      margin: 0.5em 0;
+    }
+  }
+
+  .post:first-child {
+    margin-top: 2rem;
+  }
+}
+
+article {
+  margin: 0;
+
+  footer {
+    color: $color-meta;
+
+    ul {
+      margin: 0.2em 0;
+      padding: 0;
+    }
+
+    li {
+      margin: 0;
+      display: inline-block;
+      white-space: nowrap;
+
+      list-style-type: none;
+
+      &:not(:last-of-type) {
+        margin-right: 1em;
+      }
+
+      a {
+        &:link,
+        &:visited {
+          color: $color-darkgrey;
+        }
+
+        &:hover,
+        &:focus {
+          color: $color-white;
+          background-color: $color-darkgrey;
+          box-shadow: none;
+        }
+      }
+    }
+
+    svg {
+      fill: lighten($color-meta, 20%);
+      vertical-align: middle;
+      margin: 0 0.2em 0 0;
+      padding: 0;
+
+      width: 1.1em;
+      height: 1.1em;
+    }
+  }
+
+  h1 ~ p:first-of-type {
+    font-size: 1.2em;
+  }
+
+  ul {
+    margin: 1em 0;
+    padding: 0 1em;
+  }
+
+  li {
+    margin: 0 0 0.5em 0;
+  }
+
+  blockquote,
+  .intro,
+  .footnotes {
+    margin: $baseline 0;
+  }
+
+  blockquote {
+    position: relative;
+    overflow: hidden;
+
+    padding: 1vw 7vw;
+
+    color: #333;
+    background-color: $color-primary-lighter-4;
+    border-left: 1vw solid $color-primary-lighter-1;
+
+    font-style: italic;
+
+    &::before {
+      position: absolute;
+      left: 2vw;
+      top: 0;
+
+      content: "\201C";
+
+      color: $color-primary-lighter-1;
+
+      font-size: 10vw;
+      line-height: 1;
+    }
+
+    p:first-child {
+      margin-top: 1vw;
+    }
+
+    p:last-child {
+      margin-bottom: 1vw;
+    }
+
+    code.highlighter-rouge {
+      background-color: $color-primary-lighter-3;
+      color: #000;
+      font-style: normal;
+    }
+
+    blockquote {
+      color: #333;
+      background-color: $color-primary-lighter-3;
+      border-left: 1vw solid $color-primary;
+      font-style: normal;
+
+      &::before {
+        color: $color-primary;
+      }
+    }
+  }
+
+  table {
+    border-collapse: collapse;
+    font-variant-numeric: tabular-nums;
+  }
+
+  thead {
+    background-color: #eee;
+
+    th {
+      vertical-align: bottom;
+    }
+  }
+
+  th,
+  td {
+    padding: 0.3em 0.5em;
+    border: 1px solid #ccc;
+    vertical-align: top;
+  }
+
+  kbd,
+  code {
+    font-family: "Fira Code", "Courier New", Courier, monospace;
+    font-size: 0.9em;
+    display: inline-block;
+    padding: 0 0.2em;
+    border-radius: 0.2em;
+  }
+
+  code {
+    background-color: $color-primary-lighter-5;
+    border: solid 1px $color-primary-lighter-3;
+  }
+
+  kbd {
+    color: #444d56;
+    background-color: #f3f3f3;
+    border: solid 1px #c6cbd1;
+    border-bottom-color: #959da5;
+    box-shadow: inset 0 -1px 0 #959da5;
+  }
+
+  a:link,
+  a:visited {
+    kbd,
+    code {
+      box-shadow: inset 0 -0.1em 0 $color-link;
+    }
+  }
+
+  a:hover,
+  a:focus,
+  a:active {
+    kbd,
+    code {
+      color: inherit;
+      background-color: transparent;
+      border: solid 1px transparent;
+      border-radius: 0;
+      box-shadow: none;
+    }
+  }
+
+  a.footnote,
+  a.reversefootnote {
+    text-decoration: none;
+    box-shadow: none;
+    padding: 0 0.2em;
+  }
+
+  // https://gist.github.com/unruthless/413930
+  sub,
+  sup {
+    // Specified in % so that the sup/sup is the right size relative to the surrounding text
+    font-size: 75%;
+
+    // Zero out the line-height so that it doesn't interfere with the positioning that follows
+    line-height: 0;
+
+    // Where the magic happens: makes all browsers position the sup/sup properly, relative to the surrounding text
+    position: relative;
+
+    // Note that if you're using Eric Meyer's reset.css, this is already set and you can remove this rule
+    vertical-align: baseline;
+  }
+
+  sup {
+    // Move the superscripted text up
+    top: -0.5em;
+  }
+
+  sub {
+    // Move the subscripted text down, but only half as far down as the superscript moved up
+    bottom: -0.25em;
+  }
+
+  .footnotes {
+    margin: 2em 0;
+    background-color: #eee;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    font-size: 0.9em;
+
+    ol {
+      margin: 0;
+      padding: 0 1em 0 2em;
+      list-style-position: outside;
+    }
+  }
+
+  .socialphoto {
+    background-color: #eef;
+    color: #333;
+    padding: 1em;
+
+    p {
+      margin: 0;
+    }
+
+    span {
+      white-space: nowrap;
+    }
+
+    a {
+      color: #777;
+    }
+  }
+
+  .edit {
+    border-top: 1px dotted #ccc;
+    padding: 0.5em 0;
+    font-size: 0.9em;
+    color: #999;
+
+    a {
+      @extend %link-grey;
+    }
+  }
+}
+
+.giphy {
+  margin: 2em 0;
+  padding: 0;
+  clear: both;
+
+  video {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+
+// ************************************************************
+// Offline
+// ************************************************************
+
+#offline-notification {
+  display: none;
+
+  body.offline & {
+    display: block;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+// ************************************************************
+// Alerts and error messages
+// ************************************************************
+
+.alert {
+  display: flex;
+  align-items: center;
+  padding: 0.5em;
+  margin: 1em 0;
+  border: 1px solid transparent;
+  border-radius: 0.5em;
+
+  transition-property: background-color, border-color, color;
+  transition-duration: var(--base-duration);
+  transition-timing-function: ease-in-out;
+}
+
+.alert-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+
+  .alert__link {
+    color: #2b542c;
+  }
+}
+
+.alert-warning {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+
+  .alert__link {
+    color: #66512c;
+  }
+}
+
+.alert-error {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+
+  .alert__link {
+    color: #843534;
+  }
+}
+
+.alert__icon {
+  margin: 0;
+  line-height: 1;
+  font-size: 2.5em;
+
+  svg {
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.alert__message {
+  margin: 0;
+  flex: 1;
+  padding-left: 0.5em;
+}

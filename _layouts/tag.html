@@ -2,9 +2,6 @@
 layout: default
 ---
 
-{% asset components/list @inline %}
-{% asset components/card @inline %}
-
 {% capture tag_image_path %}tags/{{ page.tag | slugify }}.png{% endcapture %}
 {% capture tag_image %}{% file_exists {{ tag_image_path }} %}{% endcapture %}
 {% if tag_image == "true" %}
