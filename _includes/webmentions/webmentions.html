@@ -16,7 +16,7 @@
                   {% if webmention.author.photo %}
                     <img
                       class="webmention__author__photo u-photo"
-                      src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E"
+                      src="data:image/svg+xml,%3Csvg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E"
                       data-src="{{ cloudinaryPrefix }}w_48,h_48/{{ webmention.author.photo }}"
                       data-srcset="{{ cloudinaryPrefix }}w_48,h_48/{{ webmention.author.photo }} 1x, {{ cloudinaryPrefix }}w_96,h_96/{{ webmention.author.photo }} 2x"
                       width= "48"
@@ -28,12 +28,12 @@
               </div>
             {% else %}
               {% if webmention.uri %}
-                {% assign screenshot = 'http://image.thum.io/get/width/1200/crop/800/noanimate/' | append: webmention.uri %}
+                {% assign screenshot = 'https://image.thum.io/get/width/1200/crop/800/noanimate/' | append: webmention.uri %}
                 <div class="webmention__source">
                   <a class="deeplink" href="#webmention-{{ webmention.id }}"><svg><use xlink:href="#symbol-link" /></svg></a>
                   <img
                     class="webmention__source__screenshot u-photo"
-                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E"
+                    src="data:image/svg+xml,%3Csvg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E"
                     data-src="{{ cloudinaryPrefix }}w_300,h_200/{{ screenshot }}"
                     data-srcset="
                       {{ cloudinaryPrefix }}w_300,h_200/{{ screenshot }} 300w,

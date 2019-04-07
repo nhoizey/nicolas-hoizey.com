@@ -147,7 +147,7 @@ function updateConnectivityStatus() {
  * ****************************************************************/
 
 // Utility function to get the search query from the URL query string
-// http://stackoverflow.com/a/901144/717195
+// https://stackoverflow.com/a/901144/717195
 function getParameterByName(name) {
   name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
   var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
