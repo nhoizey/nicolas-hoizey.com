@@ -21,7 +21,8 @@
                       width= "48"
                       height="48"
                       alt="{{ webmention.author.name }} avatar"
-                      loading="lazy" />
+                      loading="lazy"
+                      crossorigin="anonymous" />
                   {% endif %}
                   <b class="p-name">{{ webmention.author.name }}</b></a>
                 <a class="deeplink" href="#webmention-{{ webmention.id }}"><svg><use xlink:href="#symbol-link" /></svg></a>
@@ -44,7 +45,8 @@
                     width="300"
                     height="200"
                     alt="Page screenshot"
-                    loading="lazy" />
+                    loading="lazy"
+                    crossorigin="anonymous" />
                   <a class="u-url" href="{{ webmention.uri }}"><b class="p-name">{{ webmention.uri | truncate: 70 }}</b></a>
                 </div>
               {% endif %}
