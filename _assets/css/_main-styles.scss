@@ -2,16 +2,16 @@
 
 :root {
   font: -apple-system-body;
-  --base-duration: 0.25s;
+  --base-duration: 0s;
 }
 
-@media screen and (prefers-reduced-motion) {
+@media screen and (prefers-reduced-motion: no-preference) {
   :root {
-    --base-duration: 0s;
+    --base-duration: 0.25s;
   }
 
   body {
-    scroll-behavior: auto !important;
+    scroll-behavior: smooth;
   }
 }
 
@@ -41,8 +41,6 @@ body {
 
   color: $color-text;
   background-color: $color-background;
-
-  scroll-behavior: smooth;
 
   word-break: break-word;
 }
