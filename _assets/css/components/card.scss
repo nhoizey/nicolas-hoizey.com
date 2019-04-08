@@ -29,23 +29,21 @@
 .card__meta {
   margin: 0.2em 0;
   padding: 0;
-
   color: $color-darkgrey;
   font-size: 0.9em;
+
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .card__meta__item {
-  margin: 0;
+  margin: 0 1em 0 0;
+  flex-grow: 1;
   list-style-type: none;
-  display: inline-block;
-  white-space: nowrap;
-
-  &:not(:last-of-type) {
-    margin-right: 1em;
-  }
 
   a {
     @extend %link-grey;
+    white-space: nowrap;
   }
 
   svg {
@@ -57,4 +55,9 @@
     width: 1.1em;
     height: 1.1em;
   }
+}
+
+.card__date,
+.card__webmentionscount {
+  white-space: nowrap;
 }

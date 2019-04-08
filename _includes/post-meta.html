@@ -4,12 +4,11 @@
     <li class="date card__meta__item card__date">
       <svg class="icon"><use xlink:href="#symbol-date" /></svg>
       <a href="/{{ include.page.date | date: "%Y/%m" }}/">{{ include.page.date | date: "%B" }}</a>&nbsp;
-        {{ include.page.date | date: "%-d" }},
-        <a href="/{{ year }}/">{{ year }}</a>
+      {% include_cached ordinal-day.html page=include.page %},
+      <a href="/{{ year }}/">{{ year }}</a>
     </li>
     <li class="tags card__meta__item card__tags">
-      <svg class="icon"><use xlink:href="#symbol-tags" /></svg>
-      {{ include.page | tags }}
+      <svg class="icon"><use xlink:href="#symbol-tags" /></svg>&nbsp;{{ include.page | tags }}
     </li>
     {% capture webmention_count_value %}{% webmention_count include.page.url %}{% endcapture %}
     {% assign webmention_count_int = webmention_count_value | strip_html | plus: 0 %}
