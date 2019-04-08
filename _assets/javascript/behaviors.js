@@ -29,18 +29,6 @@
 })(this);
 
 /*****************************************************************
- * PWA
- * ****************************************************************/
-
-// Install Service Worker
-if ("serviceWorker" in navigator) {
-  // https://slides.com/webmax/serviceworker-thebest/#/23
-  window.addEventListener("load", () => {
-    navigator.serviceWorker.register("/sw.js", { scope: "/" });
-  });
-}
-
-/*****************************************************************
  * Deal with offline/online events
  * ****************************************************************/
 
