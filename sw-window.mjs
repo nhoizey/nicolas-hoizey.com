@@ -22,10 +22,13 @@ if ("serviceWorker" in navigator) {
   });
 
   wb.addEventListener("message", event => {
+    console.log("--- message ---");
+    console.dir(event.data);
     if (event.data.type === "CACHE_UPDATE") {
-      const { updatedURL } = event.data.payload;
-
-      console.log(`A newer version of ${updatedURL} is available!`);
+      const { cacheName, updatedURL } = event.data.payload;
+      console.log(
+        `A newer version of ${updatedURL} is available in ${cacheName}!`
+      );
     }
   });
 

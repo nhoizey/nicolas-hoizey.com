@@ -66,17 +66,22 @@ function addRequestToList(cacheName, request, group) {
         pageDom.innerHTML = pageHtml;
 
         let pageTitle = pageDom.querySelector('title').innerText.replace(/ – Nicolas Hoizey/, '');
+        let pageTitle = pageDom.querySelector('h1').innerText;
+        let pageMeta = pageDom.querySelector('.main footer').clone();
 
         let linkElement = document.createElement('a');
         linkElement.href = url;
         linkElement.textContent = pageTitle;
 
         let h3Element = document.createElement('h3');
+        h3Element.className = 'card__title';
         h3Element.appendChild(linkElement);
 
         let liElement = document.createElement('li');
         liElement.className = 'list__item';
         liElement.appendChild(h3Element);
+
+        liElement.appendChild(pageMeta);
 
         document.querySelector('#' + group + ' ul').appendChild(liElement);
         document.getElementById(group).classList.remove('hidden');

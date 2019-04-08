@@ -6,15 +6,28 @@ importScripts(
 
 const cacheName = "NHO";
 const offlineFallback = "/offline-fallback.html";
-const cachedFiles = [
-  // "/index.html",
-  "/",
+const preCachedFiles = [
   '{% asset "non-critical-styles" @path %}',
-  "/about/",
-  "/about/the-website.html",
-  "/manifest.webmanifest",
-  "/offline.html",
-  offlineFallback
+  {
+    url: '/about/',
+    revision: '1',
+  },
+  {
+    url: '/about/the-website.html',
+    revision: '1',
+  },
+  {
+    url: '/manifest.webmanifest',
+    revision: '1',
+  },
+  {
+    url: '/offline.html',
+    revision: '1',
+  },
+  {
+    url: offlineFallback,
+    revision: '1',
+  }
 ];
 
 if (workbox) {
@@ -33,10 +46,14 @@ if (workbox) {
   workbox.core.clientsClaim();
 
   // https://developers.google.com/web/tools/workbox/guides/precache-files/
-  workbox.precaching.precacheAndRoute(cachedFiles);
+  workbox.precaching.precacheAndRoute(preCachedFiles);
 
   workbox.routing.setDefaultHandler(
-    new workbox.strategies.StaleWhileRevalidate()
+    new workbox.strategies.StaleWhileRevalidate({
+      plugins: [
+        new workbox.broadcastUpdate.Plugin('cache-updates')
+      ]
+    })
   );
 
   workbox.routing.registerRoute(
@@ -65,5 +82,9 @@ if (workbox) {
           contentType: "text/plain"
         });
     }
+  });
+
+  addEventListener('message', (event) => {
+    console.log(`[SW] Receiving a message: ${event.data.type}`);
   });
 }
