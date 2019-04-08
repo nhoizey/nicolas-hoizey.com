@@ -28,18 +28,6 @@
   }
 })(this);
 
-// Lazyload Webmentions avatars
-window.addEventListener("load", () => {
-  [].forEach.call(document.querySelectorAll("img[data-src]"), function(img) {
-    img.setAttribute("srcset", img.getAttribute("data-srcset"));
-    img.setAttribute("src", img.getAttribute("data-src"));
-    img.onload = function() {
-      img.removeAttribute("data-srcset");
-      img.removeAttribute("data-src");
-    };
-  });
-});
-
 /*****************************************************************
  * PWA
  * ****************************************************************/
