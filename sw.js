@@ -9,24 +9,24 @@ const offlineFallback = "/offline-fallback.html";
 const preCachedFiles = [
   '{% asset "non-critical-styles" @path %}',
   {
-    url: '/about/',
-    revision: '1',
+    url: "/about/",
+    revision: "1"
   },
   {
-    url: '/about/the-website.html',
-    revision: '1',
+    url: "/about/the-website.html",
+    revision: "1"
   },
   {
-    url: '/manifest.webmanifest',
-    revision: '1',
+    url: "/manifest.webmanifest",
+    revision: "1"
   },
   {
-    url: '/offline.html',
-    revision: '1',
+    url: "/offline.html",
+    revision: "1"
   },
   {
     url: offlineFallback,
-    revision: '1',
+    revision: "1"
   }
 ];
 
@@ -48,26 +48,35 @@ if (workbox) {
   // https://developers.google.com/web/tools/workbox/guides/precache-files/
   workbox.precaching.precacheAndRoute(preCachedFiles);
 
-  workbox.routing.setDefaultHandler(
-    new workbox.strategies.StaleWhileRevalidate({
-      plugins: [
-        new workbox.broadcastUpdate.Plugin('cache-updates')
-      ]
-    })
+  workbox.routing.registerRoute(
+    // Custom `matchCallback` function
+    ({ event }) => event.request.destination === "video",
+    new workbox.strategies.NetworkOnly()
   );
 
   workbox.routing.registerRoute(
     /(\.html|\/)$/,
-    new workbox.strategies.NetworkFirst()
+    new workbox.strategies.NetworkFirst({
+      networkTimeoutSeconds: 3
+    })
+  );
+
+  workbox.routing.setDefaultHandler(
+    new workbox.strategies.StaleWhileRevalidate({
+      plugins: [new workbox.broadcastUpdate.Plugin("cache-updates")]
+    })
   );
 
   workbox.routing.setCatchHandler(({ event }) => {
     switch (event.request.destination) {
       case "document":
-        return caches.match(offlineFallback);
+        return caches.match(
+          workbox.precaching.getCacheKeyForURL(offlineFallback)
+        );
         break;
 
       case "image":
+      case "video":
         return new Response(
           '<svg role="img" aria-labelledby="offline-title" viewBox="0 0 400 225" xmlns="https://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"><title id="offline-title">Offline</title><path fill="rgba(145,145,145,0.5)" d="M0 0h400v225H0z" /><text fill="rgba(0,0,0,0.33)" font-family="Georgia,serif" font-size="27" text-anchor="middle" x="200" y="113" dominant-baseline="central">offline</text></svg>',
           { headers: { "Content-Type": "image/svg+xml" } }
@@ -84,7 +93,7 @@ if (workbox) {
     }
   });
 
-  addEventListener('message', (event) => {
+  addEventListener("message", event => {
     console.log(`[SW] Receiving a message: ${event.data.type}`);
   });
 }
