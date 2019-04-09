@@ -73,7 +73,7 @@ GEM
       nokogiri (~> 1.8)
       pathutil (~> 0.16)
       sprockets (>= 3.3, < 4.1.beta)
-    jekyll-cloudinary (1.13.0)
+    jekyll-cloudinary (1.14.0)
       fastimage (~> 2.0)
       jekyll (~> 3.6)
     jekyll-firstimage (1.0.0)
