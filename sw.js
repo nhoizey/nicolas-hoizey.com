@@ -35,17 +35,14 @@ if (workbox) {
     debug: true
   });
 
-  workbox.googleAnalytics.initialize();
-
-  workbox.core.skipWaiting();
-  workbox.core.clientsClaim();
-
   // https://developers.google.com/web/tools/workbox/guides/precache-files/
   workbox.precaching.precacheAndRoute(preCachedFiles, {
     // Ignore all URL parameters:
     // https://developers.google.com/web/tools/workbox/modules/workbox-precaching#ignore_url_parameters
     ignoreURLParametersMatching: [/.*/]
   });
+
+  workbox.precaching.cleanupOutdatedCaches();
 
   // Never cache videos
   workbox.routing.registerRoute(
@@ -93,6 +90,11 @@ if (workbox) {
         });
     }
   });
+
+  workbox.googleAnalytics.initialize();
+
+  workbox.core.skipWaiting();
+  workbox.core.clientsClaim();
 
   addEventListener("message", event => {
     console.log(`[SW] Receiving a message: ${event.data.type}`);
