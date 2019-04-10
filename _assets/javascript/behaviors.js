@@ -36,7 +36,7 @@ let gifs = document.querySelectorAll(".giphy video");
 let gifsNumber = gifs.length;
 
 if (gifsNumber > 0) {
-  let motionQuery = window.matchMedia("(prefers-reduced-motion)");
+  var prefersReducedMotion = window.matchMedia("(prefers-reduced-motion)");
   var prefersReducedMotionNoPreference = window.matchMedia(
     "(prefers-reduced-motion: no-preference)"
   );
@@ -45,12 +45,12 @@ if (gifsNumber > 0) {
       if (prefersReducedMotionNoPreference.matches) {
         gifs[i].play();
       } else {
-        gifs[i].stop();
+        gifs[i].pause();
       }
     }
   }
   handleReducedMotionChanged(); // trigger this once on load to set up the initial value
-  motionQuery.addListener(handleReducedMotionChanged); // Note: https://webkit.org/b/168491
+  prefersReducedMotion.addListener(handleReducedMotionChanged); // Note: https://webkit.org/b/168491
 }
 
 /*****************************************************************
