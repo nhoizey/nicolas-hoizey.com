@@ -29,6 +29,29 @@
 })(this);
 
 /*****************************************************************
+ * Autoplay Giphy videos when possible
+ * ****************************************************************/
+
+let gifs = document.querySelectorAll(".giphy video");
+let gifsNumber = gifs.length;
+
+if (gifsNumber > 0) {
+  let motionQuery = window.matchMedia("(prefers-reduced-motion)");
+  var prefersReducedMotionNoPreference = window.matchMedia(
+    "(prefers-reduced-motion: no-preference)"
+  );
+  function handleReducedMotionChanged() {
+    if (prefersReducedMotionNoPreference.matches) {
+      for (i = 0; i < gifsNumber; ++i) {
+        gifs[i].play();
+      }
+    }
+  }
+  handleReducedMotionChanged(); // trigger this once on load to set up the initial value
+  motionQuery.addListener(handleReducedMotionChanged); // Note: https://webkit.org/b/168491
+}
+
+/*****************************************************************
  * Deal with offline/online events
  * ****************************************************************/
 
