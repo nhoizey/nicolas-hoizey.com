@@ -46,14 +46,21 @@ if (workbox) {
   workbox.core.clientsClaim();
 
   // https://developers.google.com/web/tools/workbox/guides/precache-files/
-  workbox.precaching.precacheAndRoute(preCachedFiles);
+  workbox.precaching.precacheAndRoute(preCachedFiles, {
+    // Ignore all URL parameters:
+    // https://developers.google.com/web/tools/workbox/modules/workbox-precaching#ignore_url_parameters
+    ignoreURLParametersMatching: [/.*/]
+  });
 
+  // Never cache videos
   workbox.routing.registerRoute(
-    // Custom `matchCallback` function
     ({ event }) => event.request.destination === "video",
-    new workbox.strategies.NetworkOnly()
+    new workbox.strategies.NetworkOnly({
+      plugins: [new workbox.rangeRequests.Plugin()]
+    })
   );
 
+  // Try to get fresh HTML from network, but don't wait for more than 3 seconds
   workbox.routing.registerRoute(
     /(\.html|\/)$/,
     new workbox.strategies.NetworkFirst({
@@ -63,7 +70,7 @@ if (workbox) {
 
   workbox.routing.setDefaultHandler(
     new workbox.strategies.StaleWhileRevalidate({
-      plugins: [new workbox.broadcastUpdate.Plugin("cache-updates")]
+      plugins: [new workbox.broadcastUpdate.Plugin()]
     })
   );
 
