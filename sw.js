@@ -37,11 +37,6 @@ if (workbox) {
 
   workbox.googleAnalytics.initialize();
 
-  // https://developers.google.com/web/tools/workbox/guides/configure-workbox
-  workbox.core.setCacheNameDetails({
-    prefix: cacheName
-  });
-
   workbox.core.skipWaiting();
   workbox.core.clientsClaim();
 

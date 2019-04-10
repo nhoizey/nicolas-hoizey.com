@@ -41,9 +41,11 @@ if (gifsNumber > 0) {
     "(prefers-reduced-motion: no-preference)"
   );
   function handleReducedMotionChanged() {
-    if (prefersReducedMotionNoPreference.matches) {
-      for (i = 0; i < gifsNumber; ++i) {
+    for (i = 0; i < gifsNumber; ++i) {
+      if (prefersReducedMotionNoPreference.matches) {
         gifs[i].play();
+      } else {
+        gifs[i].stop();
       }
     }
   }
