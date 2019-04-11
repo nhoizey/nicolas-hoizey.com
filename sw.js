@@ -4,29 +4,35 @@ importScripts(
   "https://storage.googleapis.com/workbox-cdn/releases/4.2.0/workbox-sw.js"
 );
 
+{% capture aboutPage %}{% include_relative about/index.md %}{% endcapture %}
+{% capture aboutSitePage %}{% include_relative about/the-website.md %}{% endcapture %}
+{% capture manifestFile %}{% include_relative manifest.webmanifest %}{% endcapture %}
+{% capture offlineFile %}{% include_relative offline.html %}{% endcapture %}
+{% capture offlineFallbackFile %}{% include_relative offline-fallback.html %}{% endcapture %}
+
 const cacheName = "NHO";
 const offlineFallback = "/offline-fallback.html";
 const preCachedFiles = [
   '{% asset "non-critical-styles" @path %}',
   {
     url: "/about/",
-    revision: "1"
+    revision: "{{ aboutPage | md5 }}"
   },
   {
     url: "/about/the-website.html",
-    revision: "1"
+    revision: "{{ aboutSitePage | md5 }}"
   },
   {
     url: "/manifest.webmanifest",
-    revision: "1"
+    revision: "{{ manifestFile | md5 }}"
   },
   {
     url: "/offline.html",
-    revision: "1"
+    revision: "{{ offlineFile | md5 }}"
   },
   {
     url: offlineFallback,
-    revision: "1"
+    revision: "{{ offlineFallbackFile | md5 }}"
   }
 ];
 
