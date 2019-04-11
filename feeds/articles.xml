@@ -4,26 +4,31 @@ layout: null
 
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="https://www.w3.org/2005/Atom">
+  <title>Nicolas Hoizey - Articles</title>
+  <link href="{{ site.url }}/feeds/articles.xml" rel="self"/>
+  <link href="{{ site.url }}/?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
+  <link rel="hub" href="http://pubsubhubbub.superfeedr.com/" />
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.url }}/</id>
+  <author>
+    <name>{{ site.author }}</name>
+    <email>{{ site.email }}</email>
+  </author>
 
- <title>{{ site.title }}</title>
- <link href="{{ site.url }}/feeds/articles.xml" rel="self"/>
- <link href="{{ site.url }}/?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
- <link rel="hub" href="http://pubsubhubbub.superfeedr.com/" />
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.url }}/</id>
- <author>
-   <name>{{ site.author }}</name>
-   <email>{{ site.email }}</email>
- </author>
-
- {% for post in site.posts limit:20 %}
- <entry>
-   <title>{{ post.title }}</title>
-   <link href="{{ site.url }}{{ post.url }}?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
- </entry>
- {% endfor %}
+  {% assign articles_number = 0 %}
+  {% for post in site.posts %}
+    {% if articles_number < 20 %}
+      {% unless post.categories contains 'links' %}
+        <entry>
+          <title>{{ post.title }}</title>
+          <link href="{{ site.url }}{{ post.url }}?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
+          <updated>{{ post.date | date_to_xmlschema }}</updated>
+          <id>{{ site.url }}{{ post.id }}</id>
+          <content type="html">{{ post.content | xml_escape }}</content>
+        </entry>
+        {% assign articles_number = articles_number | plus: 1 %}
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
 
 </feed>

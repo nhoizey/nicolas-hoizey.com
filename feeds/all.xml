@@ -1,0 +1,42 @@
+---
+layout: null
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="https://www.w3.org/2005/Atom">
+  <title>Nicolas Hoizey - All content</title>
+  <link href="{{ site.url }}/feeds/all.xml" rel="self"/>
+  <link href="{{ site.url }}/?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
+  <link rel="hub" href="http://pubsubhubbub.superfeedr.com/" />
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.url }}/</id>
+  <author>
+    <name>{{ site.author }}</name>
+    <email>{{ site.email }}</email>
+  </author>
+
+  {% for post in site.posts limit:20 %}
+    <entry>
+      <title>{{ post.title }}</title>
+      <link href="{{ site.url }}{{ post.url }}?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
+      <updated>{{ post.date | date_to_xmlschema }}</updated>
+      <id>{{ site.url }}{{ post.id }}</id>
+      {% if post.categories contains 'links' %}
+        <content type="html">
+          &lt;p&gt;{% if post.author %}{{ post.author }}&lt;br /&gt;{% endif %}
+            &lt;a href="{{ post.link }}"&gt;{{ post.link }}&lt;/a&gt;
+          &lt;/p&gt;
+          &lt;figure&gt;&lt;img src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_600,h_400/http://image.thum.io/get/width/1200/crop/800/noanimate/{{ post.link }}" /&gt;&lt;/figure&gt;
+          {{ post.content | xml_escape }}
+        </content>
+        <link
+          rel="enclosure"
+          type="image/png"
+          href="https://res.cloudinary.com/nho/image/fetch/c_fill,f_png,q_auto,w_600,h_400/http://image.thum.io/get/width/1200/crop/800/noanimate/{{ post.link }}"/>
+      {% else %}
+        <content type="html">{{ post.content | xml_escape }}</content>
+      {% endif %}
+    </entry>
+  {% endfor %}
+
+</feed>
