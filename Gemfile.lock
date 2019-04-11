@@ -107,6 +107,8 @@ GEM
     liquid (4.0.3)
     liquid-c (4.0.0)
       liquid (>= 3.0.0)
+    liquid-md5 (0.0.3)
+      liquid (>= 2.5, < 5.0)
     liquid-tag-parser (1.9.0)
       extras (~> 0.3)
       liquid (>= 3.0, < 5.0)
@@ -176,6 +178,7 @@ DEPENDENCIES
   jekyll-tagging
   jekyll-webmention_io
   liquid-c
+  liquid-md5
   uglifier
   yt
 
