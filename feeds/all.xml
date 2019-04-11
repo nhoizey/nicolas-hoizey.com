@@ -3,7 +3,7 @@ layout: null
 ---
 
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="https://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom">
   <title>Nicolas Hoizey - All content</title>
   <link href="{{ site.url }}/feeds/all.xml" rel="self"/>
   <link href="{{ site.url }}/?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>

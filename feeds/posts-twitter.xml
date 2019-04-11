@@ -2,7 +2,7 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="https://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom">
   <title>Nicolas Hoizey's articles</title>
   <link href="{{ site.url }}/feeds/posts-twitter.xml" rel="self" type="application/rss+xml" />
   <link href="{{ site.url }}/?utm_medium=social&amp;utm_source=Twitter&amp;utm_campaign=feed" />
