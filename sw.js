@@ -53,9 +53,7 @@ if (workbox) {
   // Never cache videos
   workbox.routing.registerRoute(
     ({ event }) => event.request.destination === "video",
-    new workbox.strategies.NetworkOnly({
-      plugins: [new workbox.rangeRequests.Plugin()]
-    })
+    new workbox.strategies.NetworkOnly()
   );
 
   // Try to get fresh HTML from network, but don't wait for more than 3 seconds
