@@ -11,19 +11,19 @@ title: Contents available while offline
 </div>
 <section class="list hidden" id="cachedPages">
   <h2>Pages</h2>
-  <ul class="list__items"></ul>
+  <ul class="list__items list__items--small"></ul>
 </section>
 <section class="list hidden" id="cachedArticles">
   <h2>Articles</h2>
-  <ul class="list__items"></ul>
+  <ul class="list__items list__items--small"></ul>
 </section>
 <section class="list hidden" id="cachedLinks">
   <h2>Links</h2>
-  <ul class="list__items"></ul>
+  <ul class="list__items list__items--small"></ul>
 </section>
 <section class="list hidden" id="cachedTags">
   <h2>Tags</h2>
-  <ul class="list__items"></ul>
+  <ul class="list__items list__items--small"></ul>
 </section>
 
 <script>
@@ -62,7 +62,11 @@ function addRequestToList(request, group) {
         let pageDom = document.createElement('html');
         pageDom.innerHTML = pageHtml;
 
-        let pageTitle = pageDom.querySelector('h1').innerText;
+        if (requestPath === '/') {
+          let pageTitle = 'Homepage';
+        } else {
+          let pageTitle = pageDom.querySelector('h1').innerText;
+        }
 
         let linkElement = document.createElement('a');
         linkElement.href = request.url;
