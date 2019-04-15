@@ -1,7 +1,7 @@
 ---
 ---
 importScripts(
-  "https://storage.googleapis.com/workbox-cdn/releases/4.2.0/workbox-sw.js"
+  "https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js"
 );
 
 {% capture aboutPage %}{% include_relative about/index.md %}{% endcapture %}
@@ -38,7 +38,7 @@ const preCachedFiles = [
 
 if (workbox) {
   workbox.setConfig({
-    debug: true
+    // debug: true
   });
 
   // https://developers.google.com/web/tools/workbox/guides/precache-files/
