@@ -26,21 +26,18 @@ const preCachedFiles = [
     revision: "{{ offlineFallbackFile | md5 }}"
   }
 ];
-const preCachedPages = [
-  {
-    url: "/about/",
-    revision: "{{ aboutPage | md5 }}"
-  },
-  {
-    url: "/about/the-website.html",
-    revision: "{{ aboutSitePage | md5 }}"
-  }
-];
+const preCachedPages = ["/about/", "/about/the-website.html"];
 const pagesCacheName = "pages";
 
 if (workbox) {
   workbox.setConfig({
     // debug: true
+  });
+
+  self.addEventListener("install", event => {
+    event.waitUntil(
+      caches.open(pagesCacheName).then(cache => cache.addAll(preCachedPages))
+    );
   });
 
   // https://developers.google.com/web/tools/workbox/guides/precache-files/
@@ -69,7 +66,7 @@ if (workbox) {
     /(\.html|\/)$/,
     new workbox.strategies.NetworkFirst({
       networkTimeoutSeconds: 3,
-      cacheName: "pages"
+      cacheName: pagesCacheName
     })
   );
 
@@ -106,16 +103,10 @@ if (workbox) {
 
   workbox.googleAnalytics.initialize();
 
-  workbox.core.skipWaiting();
-  workbox.core.clientsClaim();
-
-  self.addEventListener("install", event => {
-    event.waitUntil(
-      caches.open(pagesCacheName).then(cache => cache.addAll(preCachedPages))
-    );
-  });
-
   self.addEventListener("message", event => {
     console.log(`[SW] Receiving a message: ${event.data.type}`);
   });
+
+  workbox.core.skipWaiting();
+  workbox.core.clientsClaim();
 }
