@@ -60,88 +60,116 @@ if (gifsNumber > 0) {
 // https://mxb.at/blog/youre-offline/
 // https://www.youtube.com/watch?v=7fnpsF9tMXc
 
-let isOffline = false;
-window.addEventListener("load", checkConnectivity);
-
-// when the page has finished loading,
-// listen for future changes in connection
-function checkConnectivity() {
-  updateConnectivityStatus();
-  window.addEventListener("online", updateConnectivityStatus);
-  window.addEventListener("offline", updateConnectivityStatus);
-}
+var isOffline = false;
+var offlineNotifToShow;
+var offlineNotifIcon;
+var offlineNotifType;
+var offlineNotifMessage;
+var offlineNotifElt;
+var offlineNotifEltGhost;
 
 // check if we're online, set a class on <body> if offline
 function updateConnectivityStatus() {
-  let offlineNotificationToShow = false;
-  let offlineNotificationIcon = "";
-  let offlineNotificationType = "";
-  let offlineNotificationMessage = "";
-  let offlineNotificationElement = window.document.getElementById(
-    "offline-notification"
+  offlineNotifToShow = false;
+  offlineNotifIcon = "";
+  offlineNotifType = "";
+  offlineNotifMessage = "";
+  offlineNotifElt = window.document.getElementById("offline-notification");
+  offlineNotifEltGhost = window.document.getElementById(
+    "offline-notification-ghost"
   );
 
   if (typeof navigator.onLine !== "undefined") {
     if (!navigator.onLine) {
-      // add 'offline' class to the body, for any CSS adjustment
-      document.body.classList.add("offline");
-
-      offlineNotificationToShow = true;
-      offlineNotificationIcon = "offline";
+      offlineNotifToShow = true;
+      offlineNotifIcon = "offline";
       if ("serviceWorker" in navigator) {
         // If the browser supports Service Workers and the Cache API,
         // getting offline should be less stressful. Use a "warning"
         // message instead of an "error and provide a link to content
         // available in cache.
-        offlineNotificationType = "warning";
-        offlineNotificationMessage =
-          'Désolé, <strong>vous ne semblez plus être connecté</strong>. Vous pouvez continuer à lire cette page, ou <a href="/offline.html">voir ce qui est dans votre cache</a>.';
+        offlineNotifType = "warning";
+        offlineNotifMessage =
+          'Sorry, <strong>it looks like the connection is lost</strong>. You can continue reading this page, or <a href="/offline.html">look at what\'s in your offline cache</a>.';
       } else {
-        offlineNotificationType = "error";
-        offlineNotificationMessage =
-          "Désolé, <strong>vous ne semblez plus être connecté</strong>. Vous pouvez continuer à lire cette page en attendant le retour de la connexion.";
+        offlineNotifType = "error";
+        offlineNotifMessage =
+          "Sorry, <strong>it looks like the connection is lost</strong>. You can continue reading this page, until the connection is back.";
       }
+      isOffline = true;
     } else {
-      // remove 'offline' class from the body
-      document.body.classList.remove("offline");
-
-      offlineNotificationIcon = "online";
-      if (offlineNotificationElement) {
-        offlineNotificationToShow = true;
-        offlineNotificationType = "success";
-        offlineNotificationMessage =
-          "<strong>Vous être de nouveau connecté</strong> ! Vous pouvez reprendre une navigation normale sur le site.";
+      offlineNotifIcon = "online";
+      if (offlineNotifElt) {
+        offlineNotifToShow = true;
+        offlineNotifType = "success";
+        offlineNotifMessage =
+          "<strong>You are back online!</strong> You can resume your navigation on the website.";
       }
     }
 
     if (
-      offlineNotificationToShow &&
+      offlineNotifToShow &&
       !window.document.getElementById("offline-notification-static")
     ) {
+      let newOfflineNotifHtml = `<div class="wrap">
+        <p class="alert__icon"><svg class="icon"><use xlink:href="#symbol-${offlineNotifIcon}" /></svg></p>
+        <p class="alert__message">${offlineNotifMessage}</p>
+      </div>`;
       // https://stackoverflow.com/a/25214113/717195
-      let newOfflineNotificationElement = document.createRange()
-        .createContextualFragment(`<div class="wrap" id="offline-notification">
-        <div class="alert alert-${offlineNotificationType}">
-          <p class="alert__icon"><svg class="icon"><use xlink:href="#symbol-${offlineNotificationIcon}" /></svg></p>
-          <p class="alert__message">${offlineNotificationMessage}</p>
-        </div>
-      </div>`);
+      let newOfflineNotifElt = document
+        .createRange()
+        .createContextualFragment(
+          `<div id="offline-notification" class="alert alert-${offlineNotifType}">${newOfflineNotifHtml}</div>`
+        );
+      let newOfflineNotifEltGhost = document
+        .createRange()
+        .createContextualFragment(
+          `<div id="offline-notification-ghost" class="alert alert-${offlineNotifType}" aria-hidden="true">${newOfflineNotifHtml}</div>`
+        );
 
-      if (offlineNotificationElement) {
-        offlineNotificationElement.parentNode.replaceChild(
-          offlineNotificationElement,
-          newOfflineNotificationElement
+      if (offlineNotifElt) {
+        offlineNotifElt.parentNode.replaceChild(
+          offlineNotifElt,
+          newOfflineNotifElt
+        );
+        offlineNotifEltGhost.parentNode.replaceChild(
+          offlineNotifEltGhost,
+          newOfflineNotifEltGhost
         );
       } else {
-        let mainElement = document.querySelector("main");
-        mainElement.parentNode.insertBefore(
-          newOfflineNotificationElement,
-          mainElement
-        );
+        let headerElt = document.getElementById("header");
+        headerElt.parentNode.insertBefore(newOfflineNotifElt, headerElt);
+        headerElt.parentNode.insertBefore(newOfflineNotifEltGhost, headerElt);
+      }
+      offlineNotifElt = window.document.getElementById("offline-notification");
+      offlineNotifEltGhost = window.document.getElementById(
+        "offline-notification-ghost"
+      );
+
+      if (!navigator.onLine) {
+        // add 'offline' class to the body, for any CSS adjustment
+        document.body.classList.add("offline");
+        document
+          .querySelector("#search input")
+          .setAttribute("disabled", "disabled");
+      } else {
+        // remove 'offline' class from the body
+        document.body.classList.remove("offline");
+        document.querySelector("#search input").removeAttribute("disabled");
       }
     }
   }
 }
+
+// listen for future changes in connection
+function checkConnectivity() {
+  window.addEventListener("online", updateConnectivityStatus);
+  window.addEventListener("offline", updateConnectivityStatus);
+  updateConnectivityStatus();
+}
+
+// when the page has finished loading,
+window.addEventListener("load", checkConnectivity);
 
 /*****************************************************************
  * Search

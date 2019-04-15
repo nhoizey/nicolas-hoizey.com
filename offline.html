@@ -36,14 +36,15 @@ window.caches.keys().then(cacheNames => {
     })
     .then(requests => {
       requests.forEach(request => {
-        let path = request.url.replace(/^https?:\/\/[^\/]+\//, '/');
-        if (/^\/[0-9]{4}\/[0-9]{2}\/./.test(path)) {
+        const requestUrl = new URL(request.url);
+        const requestPath = requestUrl.pathname;
+        if (/^\/[0-9]{4}\/[0-9]{2}\/./.test(requestPath)) {
           addRequestToList(cacheName, request, 'cachedArticles');
         } else {
-          if (/^\/links\/[0-9]{4}\/[0-9]{2}\/./.test(path)) {
+          if (/^\/links\/[0-9]{4}\/[0-9]{2}\/./.test(requestPath)) {
             addRequestToList(cacheName, request, 'cachedLinks');
           } else {
-            if (/^\/tags\/./.test(path)) {
+            if (/^\/tags\/./.test(requestPath)) {
               addRequestToList(cacheName, request, 'cachedTags');
             // } else {
             //   addRequestToList(cacheName, request, 'cachedPages');
@@ -56,21 +57,23 @@ window.caches.keys().then(cacheNames => {
 });
 
 function addRequestToList(cacheName, request, group) {
-  let url = request.url;
-  let shortUrl = url.replace(/https?:\/\/[^\/]+\//, '');
+  const requestUrl = new URL(request.url);
+  const requestPath = requestUrl.pathname;
+  console.log(`[Offline] Add ${requestPath} to ${group}`);
 
   window.caches.open(cacheName).then(cache => {
-    cache.match(url).then(item => {
+    cache.match(request).then(item => {
       item.text().then(pageHtml => {
+        console.log(pageHtml);
         let pageDom = document.createElement('html');
         pageDom.innerHTML = pageHtml;
 
-        let pageTitle = pageDom.querySelector('title').innerText.replace(/ – Nicolas Hoizey/, '');
+        //let pageTitle = pageDom.querySelector('title').innerText.replace(/ – Nicolas Hoizey/, '');
         let pageTitle = pageDom.querySelector('h1').innerText;
         let pageMeta = pageDom.querySelector('.main footer').clone();
 
         let linkElement = document.createElement('a');
-        linkElement.href = url;
+        linkElement.href = request.url;
         linkElement.textContent = pageTitle;
 
         let h3Element = document.createElement('h3');

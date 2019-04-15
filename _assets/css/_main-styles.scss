@@ -669,37 +669,53 @@ article {
   }
 }
 
-// ************************************************************
-// Offline
-// ************************************************************
-
-#offline-notification {
-  display: none;
-
-  body.offline & {
-    display: block;
-  }
-}
-
+// ????
 .hidden {
   display: none;
 }
 
 // ************************************************************
-// Alerts and error messages
+// Offline
 // ************************************************************
 
+#offline-notification,
+#offline-notification-ghost {
+  font-size: 0.9em;
+  transform: scaleY(0);
+  transition: transform ease-in-out calc(8 * var(--base-duration));
+
+  body.offline & {
+    transform: scaleY(1);
+  }
+}
+
+#offline-notification {
+  z-index: 20;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+#offline-notification-ghost {
+  visibility: hidden;
+  z-index: 10;
+}
+
 .alert {
-  display: flex;
-  align-items: center;
   padding: 0.5em;
-  margin: 1em 0;
-  border: 1px solid transparent;
-  border-radius: 0.5em;
+  margin: 0;
+  border-bottom: 2px solid transparent;
 
   transition-property: background-color, border-color, color;
   transition-duration: var(--base-duration);
   transition-timing-function: ease-in-out;
+
+  div {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .alert-success {
