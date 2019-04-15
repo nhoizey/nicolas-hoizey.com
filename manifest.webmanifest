@@ -8,8 +8,8 @@
   "start_url": "/?utm_source=manifest",
   "display": "standalone",
   "orientation": "any",
-  "background_color": "#fff",
   "theme_color": "#663399",
+  "background_color": "#865aad",
   "icons": [
     {
       "src": "/assets/photo-de-nicolas-hoizey-192px.png",
