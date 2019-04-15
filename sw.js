@@ -10,18 +10,9 @@ importScripts(
 {% capture offlineFile %}{% include_relative offline.html %}{% endcapture %}
 {% capture offlineFallbackFile %}{% include_relative offline-fallback.html %}{% endcapture %}
 
-const cacheName = "NHO";
 const offlineFallback = "/offline-fallback.html";
 const preCachedFiles = [
   '{% asset "non-critical-styles" @path %}',
-  {
-    url: "/about/",
-    revision: "{{ aboutPage | md5 }}"
-  },
-  {
-    url: "/about/the-website.html",
-    revision: "{{ aboutSitePage | md5 }}"
-  },
   {
     url: "/manifest.webmanifest",
     revision: "{{ manifestFile | md5 }}"
@@ -35,6 +26,17 @@ const preCachedFiles = [
     revision: "{{ offlineFallbackFile | md5 }}"
   }
 ];
+const preCachedPages = [
+  {
+    url: "/about/",
+    revision: "{{ aboutPage | md5 }}"
+  },
+  {
+    url: "/about/the-website.html",
+    revision: "{{ aboutSitePage | md5 }}"
+  }
+];
+const pagesCacheName = "pages";
 
 if (workbox) {
   workbox.setConfig({
@@ -55,10 +57,10 @@ if (workbox) {
     ({ event }) => event.request.method !== "GET",
     new workbox.strategies.NetworkOnly()
   );
-  
+
   // Never cache ranged requests (videos)
   workbox.routing.registerRoute(
-    ({ event }) => event.request.headers.has('range'),
+    ({ event }) => event.request.headers.has("range"),
     new workbox.strategies.NetworkOnly()
   );
 
@@ -67,7 +69,7 @@ if (workbox) {
     /(\.html|\/)$/,
     new workbox.strategies.NetworkFirst({
       networkTimeoutSeconds: 3,
-      cacheName: 'pages'
+      cacheName: "pages"
     })
   );
 
@@ -107,7 +109,13 @@ if (workbox) {
   workbox.core.skipWaiting();
   workbox.core.clientsClaim();
 
-  addEventListener("message", event => {
+  self.addEventListener("install", event => {
+    event.waitUntil(
+      caches.open(pagesCacheName).then(cache => cache.addAll(preCachedPages))
+    );
+  });
+
+  self.addEventListener("message", event => {
     console.log(`[SW] Receiving a message: ${event.data.type}`);
   });
 }
