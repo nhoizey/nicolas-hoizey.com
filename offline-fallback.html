@@ -1,10 +1,12 @@
 ---
 layout: default
-title: Ce contenu n'est pas disponible sans connexion
+title: Page not available while offline
 ---
 
-<div id="offline-notification-static" class="alert alert-warning">
-  <p class="alert__icon"><svg class="icon"><use xlink:href="#symbol-offline" /></svg></p>
-  <p class="alert__message"><strong>Vous ne semblez pas connecté</strong>, et la page à laquelle vous essayez d'accéder n'est pas dans votre cache.</p>
+<div class="alert alert-warning">
+  <div class="wrap">
+    <p class="alert__icon"><svg class="icon"><use xlink:href="#symbol-offline" /></svg></p>
+    <p class="alert__message"><strong>It looks like the connection is lost</strong>, and the page you're trying to get in not in your cache.</p>
+  </div>
 </div>
-<p>En attendant de retrouver une connexion, découvrez <a href="/offline.html">quels contenus sont tout de même disponibles hors connexion</a>.</p>
+<p>While waiting for connexion, you can see <a href="/offline.html">which pages are still available while offline</a>.</p>
