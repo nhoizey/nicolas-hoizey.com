@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ces contenus sont disponibles même sans connexion
+title: Contents available while offline
 ---
 
 <div id="offline-notification-static" class="alert alert-success">
@@ -29,48 +29,43 @@ title: Ces contenus sont disponibles même sans connexion
 <script>
 // https://googlechrome.github.io/samples/service-worker/window-caches/
 
-window.caches.keys().then(cacheNames => {
-  cacheNames.forEach(cacheName => {
-    window.caches.open(cacheName).then(cache => {
-      return cache.keys();
-    })
-    .then(requests => {
-      requests.forEach(request => {
-        const requestUrl = new URL(request.url);
-        const requestPath = requestUrl.pathname;
-        if (/^\/[0-9]{4}\/[0-9]{2}\/./.test(requestPath)) {
-          addRequestToList(cacheName, request, 'cachedArticles');
-        } else {
-          if (/^\/links\/[0-9]{4}\/[0-9]{2}\/./.test(requestPath)) {
-            addRequestToList(cacheName, request, 'cachedLinks');
-          } else {
-            if (/^\/tags\/./.test(requestPath)) {
-              addRequestToList(cacheName, request, 'cachedTags');
-            // } else {
-            //   addRequestToList(cacheName, request, 'cachedPages');
-            }
-          }
+window.caches.open('pages').then(cache => {
+  return cache.keys();
+})
+.then(requests => {
+  requests.forEach(request => {
+    const requestUrl = new URL(request.url);
+    const requestPath = requestUrl.pathname;
+    if (/^\/[0-9]{4}\/[0-9]{2}\/./.test(requestPath)) {
+      addRequestToList(request, 'cachedArticles');
+    } else {
+      if (/^\/links\/[0-9]{4}\/[0-9]{2}\/./.test(requestPath)) {
+        addRequestToList(request, 'cachedLinks');
+      } else {
+        if (/^\/tags\/./.test(requestPath)) {
+          addRequestToList(request, 'cachedTags');
+        // } else {
+        //   addRequestToList(request, 'cachedPages');
         }
-      });
-    });
+      }
+    }
   });
 });
 
-function addRequestToList(cacheName, request, group) {
+function addRequestToList(request, group) {
   const requestUrl = new URL(request.url);
   const requestPath = requestUrl.pathname;
-  console.log(`[Offline] Add ${requestPath} to ${group}`);
 
-  window.caches.open(cacheName).then(cache => {
+  window.caches.open('pages').then(cache => {
     cache.match(request).then(item => {
       item.text().then(pageHtml => {
-        console.log(pageHtml);
         let pageDom = document.createElement('html');
         pageDom.innerHTML = pageHtml;
 
         //let pageTitle = pageDom.querySelector('title').innerText.replace(/ – Nicolas Hoizey/, '');
         let pageTitle = pageDom.querySelector('h1').innerText;
-        let pageMeta = pageDom.querySelector('.main footer').clone();
+        let pageMeta = document.createElement('footer');
+        pageMeta.innerHTML = pageDom.querySelector('.main footer').innerHTML;
 
         let linkElement = document.createElement('a');
         linkElement.href = request.url;
@@ -83,7 +78,6 @@ function addRequestToList(cacheName, request, group) {
         let liElement = document.createElement('li');
         liElement.className = 'list__item';
         liElement.appendChild(h3Element);
-
         liElement.appendChild(pageMeta);
 
         document.querySelector('#' + group + ' ul').appendChild(liElement);

@@ -66,7 +66,8 @@ if (workbox) {
   workbox.routing.registerRoute(
     /(\.html|\/)$/,
     new workbox.strategies.NetworkFirst({
-      networkTimeoutSeconds: 3
+      networkTimeoutSeconds: 3,
+      cacheName: 'pages'
     })
   );
 

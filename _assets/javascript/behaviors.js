@@ -107,10 +107,7 @@ function updateConnectivityStatus() {
       }
     }
 
-    if (
-      offlineNotifToShow &&
-      !window.document.getElementById("offline-notification-static")
-    ) {
+    if (offlineNotifToShow) {
       let newOfflineNotifHtml = `<div class="wrap">
         <p class="alert__icon"><svg class="icon"><use xlink:href="#symbol-${offlineNotifIcon}" /></svg></p>
         <p class="alert__message">${offlineNotifMessage}</p>
