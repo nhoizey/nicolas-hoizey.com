@@ -50,9 +50,15 @@ if (workbox) {
 
   workbox.precaching.cleanupOutdatedCaches();
 
-  // Never cache videos
+  // Cache only GET requests
   workbox.routing.registerRoute(
-    ({ event }) => event.request.destination === "video",
+    ({ event }) => event.request.method !== "GET",
+    new workbox.strategies.NetworkOnly()
+  );
+  
+  // Never cache ranged requests (videos)
+  workbox.routing.registerRoute(
+    ({ event }) => event.request.headers.has('range'),
     new workbox.strategies.NetworkOnly()
   );
 
