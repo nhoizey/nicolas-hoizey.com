@@ -54,106 +54,95 @@ if (gifsNumber > 0) {
 }
 
 /*****************************************************************
+ * Notifications
+ * ****************************************************************/
+
+function showNotification(id, type, icon, text) {
+  let notifications = window.document.getElementById("notifications");
+
+  // https://stackoverflow.com/a/25214113/717195
+  let notification = document.createRange().createContextualFragment(
+    `<div id="notification-${id}" class="notification notification-${type}">
+      <div class="wrap">
+        <p class="notification__icon"><svg class="icon"><use xlink:href="#symbol-${icon}" /></svg></p>
+        <p class="notification__message">${text}</p>
+      </div>
+    </div>`
+  );
+
+  let existingNotification = window.document.getElementById(
+    `notification-${id}`
+  );
+  if (existingNotification) {
+    existingNotification.parentNode.removeChild(existingNotification);
+  }
+
+  notifications.appendChild(notification);
+}
+
+/*****************************************************************
  * Deal with offline/online events
  * ****************************************************************/
 
 // https://mxb.at/blog/youre-offline/
 // https://www.youtube.com/watch?v=7fnpsF9tMXc
 
+var notifications = window.document.getElementById("notifications");
 var isOffline = false;
-var offlineNotifToShow;
-var offlineNotifIcon;
-var offlineNotifType;
-var offlineNotifMessage;
-var offlineNotifElt;
-var offlineNotifEltGhost;
 
 // check if we're online, set a class on <body> if offline
 function updateConnectivityStatus() {
-  offlineNotifToShow = false;
-  offlineNotifIcon = "";
-  offlineNotifType = "";
-  offlineNotifMessage = "";
-  offlineNotifElt = window.document.getElementById("offline-notification");
-  offlineNotifEltGhost = window.document.getElementById(
-    "offline-notification-ghost"
-  );
+  var notificationToShow = false;
+  var notificationIcon = "";
+  var notificationType = "";
+  var notificationText = "";
 
   if (typeof navigator.onLine !== "undefined") {
     if (!navigator.onLine) {
-      offlineNotifToShow = true;
-      offlineNotifIcon = "offline";
+      document
+        .querySelector("#search input")
+        .setAttribute("disabled", "disabled");
+
+      notificationToShow = true;
+      notificationId = "offline";
+      notificationIcon = "offline";
       if ("serviceWorker" in navigator) {
         // If the browser supports Service Workers and the Cache API,
         // getting offline should be less stressful. Use a "warning"
         // message instead of an "error and provide a link to content
         // available in cache.
-        offlineNotifType = "warning";
-        offlineNotifMessage =
+
+        // TODO: check if SW active and some content in cache
+        notificationType = "warning";
+        notificationText =
           'Sorry, <strong>it looks like the connection is lost</strong>. You can continue reading this page, or <a href="/offline.html">look at what\'s in your offline cache</a>.';
       } else {
-        offlineNotifType = "error";
-        offlineNotifMessage =
+        notificationType = "error";
+        notificationText =
           "Sorry, <strong>it looks like the connection is lost</strong>. You can continue reading this page, until the connection is back.";
       }
       isOffline = true;
     } else {
-      offlineNotifIcon = "online";
-      if (offlineNotifElt) {
-        offlineNotifToShow = true;
-        offlineNotifType = "success";
-        offlineNotifMessage =
+      document.querySelector("#search input").removeAttribute("disabled");
+
+      if (isOffline) {
+        isOffline = false;
+        notificationId = "online";
+        notificationIcon = "online";
+        notificationToShow = true;
+        notificationType = "success";
+        notificationText =
           "<strong>You are back online!</strong> You can resume your navigation on the website.";
       }
     }
 
-    if (offlineNotifToShow) {
-      let newOfflineNotifHtml = `<div class="wrap">
-        <p class="alert__icon"><svg class="icon"><use xlink:href="#symbol-${offlineNotifIcon}" /></svg></p>
-        <p class="alert__message">${offlineNotifMessage}</p>
-      </div>`;
-      // https://stackoverflow.com/a/25214113/717195
-      let newOfflineNotifElt = document
-        .createRange()
-        .createContextualFragment(
-          `<div id="offline-notification" class="alert alert-${offlineNotifType}">${newOfflineNotifHtml}</div>`
-        );
-      let newOfflineNotifEltGhost = document
-        .createRange()
-        .createContextualFragment(
-          `<div id="offline-notification-ghost" class="alert alert-${offlineNotifType}" aria-hidden="true">${newOfflineNotifHtml}</div>`
-        );
-
-      if (offlineNotifElt) {
-        offlineNotifElt.parentNode.replaceChild(
-          offlineNotifElt,
-          newOfflineNotifElt
-        );
-        offlineNotifEltGhost.parentNode.replaceChild(
-          offlineNotifEltGhost,
-          newOfflineNotifEltGhost
-        );
-      } else {
-        let headerElt = document.getElementById("header");
-        headerElt.parentNode.insertBefore(newOfflineNotifElt, headerElt);
-        headerElt.parentNode.insertBefore(newOfflineNotifEltGhost, headerElt);
-      }
-      offlineNotifElt = window.document.getElementById("offline-notification");
-      offlineNotifEltGhost = window.document.getElementById(
-        "offline-notification-ghost"
+    if (notificationToShow) {
+      showNotification(
+        "connection",
+        notificationType,
+        notificationIcon,
+        notificationText
       );
-
-      if (!navigator.onLine) {
-        // add 'offline' class to the body, for any CSS adjustment
-        document.body.classList.add("offline");
-        document
-          .querySelector("#search input")
-          .setAttribute("disabled", "disabled");
-      } else {
-        // remove 'offline' class from the body
-        document.body.classList.remove("offline");
-        document.querySelector("#search input").removeAttribute("disabled");
-      }
     }
   }
 }
