@@ -6,13 +6,9 @@ title: Contents available while offline
 <div class="notification notification-success">
   <div class="wrap">
     <p class="notification__icon"><svg class="icon"><use xlink:href="#symbol-offline" /></svg></p>
-    <p class="notification__message">Here is a list of pages you can read <strong>even when you're not connected!</strong></p>
+    <p class="notification__message">Even if you're not connected, you can read some pages, including the ones <a href="/about/">about me</a> and <a href="/about/the-website.html">about the website</a>.</p>
   </div>
 </div>
-<section class="list hidden" id="cachedPages">
-  <h2>Pages</h2>
-  <ul class="list__items list__items--small"></ul>
-</section>
 <section class="list hidden" id="cachedArticles">
   <h2>Articles</h2>
   <ul class="list__items list__items--small"></ul>
@@ -44,8 +40,6 @@ window.caches.open('pages').then(cache => {
       } else {
         if (/^\/tags\/./.test(requestPath)) {
           addRequestToList(request, 'cachedTags');
-        } else {
-          addRequestToList(request, 'cachedPages');
         }
       }
     }
@@ -62,11 +56,7 @@ function addRequestToList(request, group) {
         let pageDom = document.createElement('html');
         pageDom.innerHTML = pageHtml;
 
-        if (requestPath === '/') {
-          let pageTitle = 'Homepage';
-        } else {
-          let pageTitle = pageDom.querySelector('h1').innerText;
-        }
+        let pageTitle = pageDom.querySelector('h1').innerText;
 
         let linkElement = document.createElement('a');
         linkElement.href = request.url;
