@@ -501,6 +501,18 @@ article {
       font-style: normal;
     }
 
+    a:link,
+    a:visited {
+      text-shadow: 1px 1px $color-primary-lighter-4,
+        -1px 1px $color-primary-lighter-4, -1px -1px $color-primary-lighter-4,
+        1px -1px $color-primary-lighter-4;
+    }
+
+    a:hover,
+    a:active {
+      text-shadow: none;
+    }
+
     blockquote {
       color: #333;
       background-color: $color-primary-lighter-3;
@@ -623,6 +635,16 @@ article {
       margin: 0;
       padding: 0 1em 0 2em;
       list-style-position: outside;
+    }
+
+    a:link,
+    a:visited {
+      text-shadow: 1px 1px #eee, -1px 1px #eee, -1px -1px #eee, 1px -1px #eee;
+    }
+
+    a:hover,
+    a:active {
+      text-shadow: none;
     }
   }
 
