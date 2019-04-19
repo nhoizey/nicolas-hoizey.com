@@ -24,11 +24,11 @@ I don't know much about planes, but this article explains everything very well. 
 
 > The airframe, the hardware, should **get it right the first time and not need a lot of added bells and whistles to fly predictably**. This has been [an aviation canon](https://en.wikipedia.org/wiki/KISS_principle) from the day the Wright brothers first flew at Kitty Hawk.
 
-{% cloudinary onefourth HAL9000.png alt="“2001, A Space Odyssey”'s HAL9000 rogue computer" %}
-
 > the flight management computer can put a *lot* of force into that [pilot’s control] column—indeed, so much force that a human pilot can quickly become exhausted trying to pull the column back, **trying to tell the computer that this really, really should not be happening**.
 
 > Those lines of code were no doubt created by people at the direction of managers. **Neither such coders nor their managers are as in touch with the particular culture and mores of the aviation world as much as the people who are down on the factory floor**, riveting wings on, designing control yokes, and fitting landing gears.
+
+{% cloudinary onefourth HAL9000.png alt="“2001, A Space Odyssey”'s HAL9000 rogue computer" %}
 
 > Like someone with narcissistic personality disorder, MCAS (Maneuvering Characteristics Augmentation System) gaslights the pilots. And **it turns out badly for everyone**. “Raise the nose, HAL.” “I’m sorry, Dave, I’m afraid I can’t do that.”
 
