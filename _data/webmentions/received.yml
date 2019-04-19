@@ -27556,4 +27556,104 @@
     content: <p><a href="https://twitter.com/PhoenixGyaan">PhoenixCodes</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html">https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html</a></p>
 "/links/2019/04/how-the-boeing-737-max-disaster-looks-to-a-software-developer.html": {}
-"/2019/04/how-the-boeing-737-max-disaster-looks-to-a-software-developer.html": {}
+"/2019/04/how-the-boeing-737-max-disaster-looks-to-a-software-developer.html":
+  '607719':
+    id: '607719'
+    uri: https://twitter.com/nhoizey/status/1119179439336841217#favorited-by-6641902
+    source: twitter
+    pubdate: 2019-04-19 13:21:43.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nhoizey/1119179439336841217/6641902
+      verified: true
+      verified_date: '2019-04-19T11:21:43+00:00'
+      id: 607719
+      private: false
+      data:
+        author: &707
+          name: Witasène
+          url: https://twitter.com/witamine
+          photo: https://webmention.io/avatar/pbs.twimg.com/8718043ea09080fcf31665b46546aaff8a3d1efdf3f1dc3362a516fad029ab24.jpg
+        url: https://twitter.com/nhoizey/status/1119179439336841217#favorited-by-6641902
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Witasène favorited a tweet https://nicolas-hoizey.com/2019/04/how-the-boeing-737-max-disaster-looks-to-a-software-developer.html
+        sentence_html: <a href="https://twitter.com/witamine">Witasène</a> favorited
+          a tweet <a href="https://nicolas-hoizey.com/2019/04/how-the-boeing-737-max-disaster-looks-to-a-software-developer.html">https://nicolas-hoizey.com/2019/04/how-the-boeing-737-max-disaster-looks-to-a-software-developer.html</a>
+      target: https://nicolas-hoizey.com/2019/04/how-the-boeing-737-max-disaster-looks-to-a-software-developer.html
+    author: *707
+    type: like
+    content: <p><a href="https://twitter.com/witamine">Witasène</a> favorited a tweet
+      <a href="https://nicolas-hoizey.com/2019/04/how-the-boeing-737-max-disaster-looks-to-a-software-developer.html">https://nicolas-hoizey.com/2019/04/how-the-boeing-737-max-disaster-looks-to-a-software-developer.html</a></p>
+  '1119280059855011842':
+    id: '1119280059855011842'
+    uri: https://twitter.com/greg_travis/status/1119280059855011842
+    source: twitter
+    pubdate: 2019-04-19 18:42:16.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/nhoizey/1119277826400751617/1119280059855011842
+      verified: true
+      verified_date: '2019-04-19T17:03:13+00:00'
+      id: 607779
+      private: false
+      data:
+        author: &708
+          name: Gregory Travis
+          url: https://twitter.com/greg_travis
+          photo: https://webmention.io/avatar/pbs.twimg.com/0d88bf3095b9d446cdd2672b6b0741b82d7fca32cb398b6794619f9decc3e7fb.jpg
+        url: https://twitter.com/greg_travis/status/1119280059855011842
+        name: 
+        content: Merci beaucoup et bien sir!
+        published: '2019-04-19T16:42:16+00:00'
+        published_ts: 1555692136
+      activity:
+        type: reply
+        sentence: Gregory Travis replied 'Merci beaucoup et bien sir!' to a tweet
+          https://nicolas-hoizey.com/2019/04/how-the-boeing-737-max-disaster-looks-to-a-software-developer.html
+        sentence_html: <a href="https://twitter.com/greg_travis">Gregory Travis</a>
+          replied 'Merci beaucoup et bien sir!' to a tweet <a href="https://nicolas-hoizey.com/2019/04/how-the-boeing-737-max-disaster-looks-to-a-software-developer.html">https://nicolas-hoizey.com/2019/04/how-the-boeing-737-max-disaster-looks-to-a-software-developer.html</a>
+      target: https://nicolas-hoizey.com/2019/04/how-the-boeing-737-max-disaster-looks-to-a-software-developer.html
+    author: *708
+    type: reply
+    content: "<p>Merci beaucoup et bien sir!</p>"
+  '1119281735622111234':
+    id: '1119281735622111234'
+    uri: https://twitter.com/nhoizey/status/1119281735622111234
+    source: twitter
+    pubdate: 2019-04-19 18:48:55.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/nhoizey/1119277826400751617/1119281735622111234
+      verified: true
+      verified_date: '2019-04-19T17:03:10+00:00'
+      id: 607778
+      private: false
+      data:
+        author: &709
+          name: Nicolas Hoizey
+          url: https://twitter.com/nhoizey
+          photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
+        url: https://twitter.com/nhoizey/status/1119281735622111234
+        name: 
+        content: |-
+          Thank you so much for your article!<br />
+          <br />
+          It helped me articulate something that has been in my mind for a long time, and better understand how my life (and the one of so many others, including my family) has been neglected by Boeing and others.
+        published: '2019-04-19T16:48:55+00:00'
+        published_ts: 1555692535
+      activity:
+        type: reply
+        sentence: Nicolas Hoizey replied 'Thank you so much for your article!    It
+          helped me articulate something that ha...' to a tweet https://nicolas-hoizey.com/2019/04/how-the-boeing-737-max-disaster-looks-to-a-software-developer.html
+        sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> replied
+          'Thank you so much for your article!    It helped me articulate something
+          that ha...' to a tweet <a href="https://nicolas-hoizey.com/2019/04/how-the-boeing-737-max-disaster-looks-to-a-software-developer.html">https://nicolas-hoizey.com/2019/04/how-the-boeing-737-max-disaster-looks-to-a-software-developer.html</a>
+      target: https://nicolas-hoizey.com/2019/04/how-the-boeing-737-max-disaster-looks-to-a-software-developer.html
+    author: *709
+    type: reply
+    content: |-
+      <p>Thank you so much for your article!<br />
+      <br />
+      It helped me articulate something that has been in my mind for a long time, and better understand how my life (and the one of so many others, including my family) has been neglected by Boeing and others.</p>
