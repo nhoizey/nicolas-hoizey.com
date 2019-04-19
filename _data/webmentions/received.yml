@@ -27397,4 +27397,163 @@
     type: repost
     content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/links/2019/04/why-should-i-care-what-color-the-bikeshed-is.html">https://nicolas-hoizey.com/links/2019/04/why-should-i-care-what-color-the-bikeshed-is.html</a></p>
-"/links/2019/04/fading-out-siblings-on-hover-in-css.html": {}
+"/links/2019/04/fading-out-siblings-on-hover-in-css.html":
+  '607644':
+    id: '607644'
+    uri: https://twitter.com/nice_links/status/1118994553858658309#favorited-by-5655222
+    source: twitter
+    pubdate: 2019-04-19 03:30:39.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nice_links/1118994553858658309/5655222
+      verified: true
+      verified_date: '2019-04-19T01:30:39+00:00'
+      id: 607644
+      private: false
+      data:
+        author: &702
+          name: Vincent Valentin
+          url: https://twitter.com/htmlvv
+          photo: https://webmention.io/avatar/pbs.twimg.com/aa95d8a5960a2665bbc7f01b38fe648911df0aed28f2dc1810ab4948345f2107.jpg
+        url: https://twitter.com/nice_links/status/1118994553858658309#favorited-by-5655222
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Vincent Valentin favorited a tweet https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html
+        sentence_html: <a href="https://twitter.com/htmlvv">Vincent Valentin</a> favorited
+          a tweet <a href="https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html">https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html</a>
+      target: https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html
+    author: *702
+    type: like
+    content: <p><a href="https://twitter.com/htmlvv">Vincent Valentin</a> favorited
+      a tweet <a href="https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html">https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html</a></p>
+  '607646':
+    id: '607646'
+    uri: https://twitter.com/nice_links/status/1118994553858658309#favorited-by-177490906
+    source: twitter
+    pubdate: 2019-04-19 03:30:40.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nice_links/1118994553858658309/177490906
+      verified: true
+      verified_date: '2019-04-19T01:30:40+00:00'
+      id: 607646
+      private: false
+      data:
+        author: &703
+          name: Nicolas Hoffmann
+          url: https://twitter.com/Nico3333fr
+          photo: https://webmention.io/avatar/pbs.twimg.com/b6ccd529f1a26a908dddff90d90bef7b5eb6ca359e6d71d3bcca49c0e30b2688.jpg
+        url: https://twitter.com/nice_links/status/1118994553858658309#favorited-by-177490906
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Nicolas Hoffmann favorited a tweet https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html
+        sentence_html: <a href="https://twitter.com/Nico3333fr">Nicolas Hoffmann</a>
+          favorited a tweet <a href="https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html">https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html</a>
+      target: https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html
+    author: *703
+    type: like
+    content: <p><a href="https://twitter.com/Nico3333fr">Nicolas Hoffmann</a> favorited
+      a tweet <a href="https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html">https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html</a></p>
+  '607682':
+    id: '607682'
+    uri: https://twitter.com/nice_links/status/1118994553858658309#favorited-by-20092443
+    source: twitter
+    pubdate: 2019-04-19 07:46:25.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nice_links/1118994553858658309/20092443
+      verified: true
+      verified_date: '2019-04-19T05:46:25+00:00'
+      id: 607682
+      private: false
+      data:
+        author: &704
+          name: Xavier Zaława
+          url: https://twitter.com/7studio
+          photo: https://webmention.io/avatar/pbs.twimg.com/77e826a263cabc3e81663ac5e508de10361793373ea1652b6af58cd278821fd0.jpg
+        url: https://twitter.com/nice_links/status/1118994553858658309#favorited-by-20092443
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Xavier Zaława favorited a tweet https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html
+        sentence_html: <a href="https://twitter.com/7studio">Xavier Zaława</a> favorited
+          a tweet <a href="https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html">https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html</a>
+      target: https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html
+    author: *704
+    type: like
+    content: <p><a href="https://twitter.com/7studio">Xavier Zaława</a> favorited
+      a tweet <a href="https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html">https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html</a></p>
+  '1118994819832061952':
+    id: '1118994819832061952'
+    uri: https://twitter.com/nhoizey/status/1118994819832061952
+    source: twitter
+    pubdate: 2019-04-18 23:48:49.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nice_links/1118994553858658309/1118994819832061952
+      verified: true
+      verified_date: '2019-04-19T01:30:39+00:00'
+      id: 607643
+      private: false
+      data:
+        author: &705
+          name: Nicolas Hoizey
+          url: https://twitter.com/nhoizey
+          photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
+        url: https://twitter.com/nhoizey/status/1118994819832061952
+        name: 
+        content: "\U0001F517 Trys Mudford: Fading out siblings on hover in CSS<br
+          />\nnho.io/2IrwAJN<br />\n<br />\n#css"
+        published: '2019-04-18T21:48:49+00:00'
+        published_ts: 1555624129
+      activity:
+        type: repost
+        sentence: Nicolas Hoizey retweeted a tweet https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html
+        sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
+          a tweet <a href="https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html">https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html</a>
+      target: https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html
+    author: *705
+    type: repost
+    content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
+      a tweet <a href="https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html">https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html</a></p>
+  '1119003162260705280':
+    id: '1119003162260705280'
+    uri: https://twitter.com/PhoenixGyaan/status/1119003162260705280
+    source: twitter
+    pubdate: 2019-04-19 00:21:58.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nice_links/1118994553858658309/1119003162260705280
+      verified: true
+      verified_date: '2019-04-19T01:30:40+00:00'
+      id: 607645
+      private: false
+      data:
+        author: &706
+          name: PhoenixCodes
+          url: https://twitter.com/PhoenixGyaan
+          photo: https://webmention.io/avatar/pbs.twimg.com/4f062ed21a75b20dce79a9d90c2e9e9349f40091b50bd345262a265ff765d881.jpg
+        url: https://twitter.com/PhoenixGyaan/status/1119003162260705280
+        name: 
+        content: "\U0001F517 Trys Mudford: Fading out siblings on hover in CSS<br
+          />\nnho.io/2IrwAJN<br />\n<br />\n#css"
+        published: '2019-04-18T22:21:58+00:00'
+        published_ts: 1555626118
+      activity:
+        type: repost
+        sentence: PhoenixCodes retweeted a tweet https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html
+        sentence_html: <a href="https://twitter.com/PhoenixGyaan">PhoenixCodes</a>
+          retweeted a tweet <a href="https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html">https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html</a>
+      target: https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html
+    author: *706
+    type: repost
+    content: <p><a href="https://twitter.com/PhoenixGyaan">PhoenixCodes</a> retweeted
+      a tweet <a href="https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html">https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html</a></p>
+"/links/2019/04/how-the-boeing-737-max-disaster-looks-to-a-software-developer.html": {}
+"/2019/04/how-the-boeing-737-max-disaster-looks-to-a-software-developer.html": {}
