@@ -1,7 +1,7 @@
 ---
 title:      "Le monde est petit… ou pas"
 lang:       fr
-tags:       [society, photo, fail, humour, moi, blog]
+tags:       [society, photography, fail, humour, me, blog]
 ---
 
 Il y a quelques jours, [Stéphane m'a aperçu dans le métro](http://www.nota-bene.org/Transports), sur la [ligne 13](http://fr.wikipedia.org/wiki/Ligne_13_du_m%C3%A9tro_de_Paris)[^1], en allant vers [Châtillon - Montrouge](http://fr.wikipedia.org/wiki/Ch%C3%A2tillon_-_Montrouge_(m%C3%A9tro_parisien)).

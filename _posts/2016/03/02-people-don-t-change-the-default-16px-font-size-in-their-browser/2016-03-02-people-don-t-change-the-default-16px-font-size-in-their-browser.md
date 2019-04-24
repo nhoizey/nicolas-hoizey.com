@@ -1,7 +1,7 @@
 ---
 title: People don't change the default 16px font size in their browser
 lang: en
-tags: [em, a11y, font]
+tags: [em, accessibility, font]
 ---
 
 I am really happy to still read articles that advocate for the [use of proportional CSS units as `em` and `rem`](http://zellwk.com/blog/rem-vs-em/) in 2016. But there are often trolls[^troll] that come comment these articles to say that we, who are using proportional units, are dumb, because there is no need for this. Here is [an example](http://zellwk.com/blog/rem-vs-em/#comment-2547145640).

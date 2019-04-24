@@ -1,7 +1,7 @@
 ---
 title:      My best profile
 lang:       fr
-tags:       [photo]
+tags:       [photography]
 ---
 
 Une petite macro dans le jardin…

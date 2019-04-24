@@ -1,7 +1,7 @@
 ---
 title:      De nouvelles fontes sur Gastero Prod
 lang:       fr
-tags:       [Gastero Prod, font]
+tags:       [font, design]
 ---
 
 Navigant régulièrement avec une connexion de piètre qualité, j'en ai un peu marre de voir de nombreux sites me présenter juste des éléments d'interface en attendant le chargement des fichiers de fontes utilisées par ```@font-face```. Du coup, vu que ce site n'a pas spécialement d'enjeu graphique particulier, j'ai décidé de me passer des deux fontes que j'imposais depuis la refonte récente. L'occasion de me replonger dans l'enfer des *font stacks web safe*…

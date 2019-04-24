@@ -1,7 +1,7 @@
 ---
 title:      Shameless self promotion
 lang:       fr
-tags:       [photo, media]
+tags:       [photography, media]
 ---
 
 Je rêve de voir un jour une de mes photo sélectionnée pour être publiée dans un magazine, et là je sens que j'ai la candidate idéale… *please, heeeeeeelp!*

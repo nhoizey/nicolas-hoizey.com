@@ -1,7 +1,7 @@
 ---
 title:      "Les voies de l'interestingness de Flickr sont impénétrables"
 lang:       fr
-tags:       [photo, Flickr]
+tags:       [photography, Flickr]
 flickr:     https://flickr.com/photos/38608514@N00/91810159/
 ---
 

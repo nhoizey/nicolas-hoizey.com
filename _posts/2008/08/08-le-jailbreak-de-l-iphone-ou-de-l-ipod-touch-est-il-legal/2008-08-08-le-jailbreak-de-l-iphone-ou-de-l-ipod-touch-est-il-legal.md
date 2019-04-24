@@ -1,7 +1,7 @@
 ---
 title:      Le Jailbreak de l'iPhone ou de l'iPod Touch est-il légal ?
 lang:       fr
-tags:       [Apple, iPhone, iPod Touch, droit]
+tags:       [Apple, iPhone, iPod Touch, law]
 ---
 
 Comme vous avez pu vous en apercevoir quand j'ai parlé récemment de la [copie privée](/2008/07/copie-privee-le-non-droit-qu-on-n-a-pas.html), je n'y connais pas grand chose en droit, comme sans doute la plupart de mes concitoyens. J'ai du coup aujourd'hui une interrogation sur la légalité de PnwageTool, WinPwn, Cydia, Installer, et autres mesures techniques efficaces[^1] de contournement du passage obligé par l'AppStore d'Apple pour l'installation d'application sur l'iPhone ou l'iPod Touch.

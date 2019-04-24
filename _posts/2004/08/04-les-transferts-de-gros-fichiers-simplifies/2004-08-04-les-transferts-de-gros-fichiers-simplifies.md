@@ -1,7 +1,7 @@
 ---
 title:      "Les transferts de gros fichiers simplifiés"
 lang:       fr
-tags:       [informatique]
+tags:       [computer]
 ---
 
 Qui n'a pas régulièrement des problèmes pour transférer des fichiers, que ce soit pour lui-même ou pour quelqu'un d'autre, que ce soit à cause d'une limite de taille ou de type de fichier ?

@@ -1,7 +1,7 @@
 ---
 title:      Mon test du Panasonic Lumix DMC-GM1, un minuscule appareil photo hybride
 lang:       fr
-tags:       [photo, gear]
+tags:       [photography, gear]
 ---
 
 Il y a quelques mois, je me demandais si l'hybride [Olympus OM-D E-M1](/2013/11/olympus-om-d-e-m1.html) n'était pas le boitier que j'attendais tant pour remplacer mon vaillant et excellent Canon EOS 5D Mark II par une alternative très qualitative mais bien plus légère et moins encombrante. En fin de billet, j'ouvrais une perspective encore plus ambitieuse avec le microscopique  Panasonic Lumix DMC-GM1, pour lequel les échos très positifs commençaient tout juste à apparaître.

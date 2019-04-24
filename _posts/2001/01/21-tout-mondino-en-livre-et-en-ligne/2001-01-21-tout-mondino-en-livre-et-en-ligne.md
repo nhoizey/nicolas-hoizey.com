@@ -1,7 +1,7 @@
 --- 
 title:      "Tout Mondino en livre et en ligne" 
 lang:       fr 
-tags:       ["photo", "livre"]
+tags:       [photography, book]
 ---
 
 ## Enfin, presque…

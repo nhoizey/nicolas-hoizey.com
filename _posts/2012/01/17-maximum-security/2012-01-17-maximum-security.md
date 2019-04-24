@@ -1,7 +1,7 @@
 ---
 title:      Maximum security
 lang:       fr
-tags:       [photo]
+tags:       [photography]
 flickr:     https://www.flickr.com/photos/nicolas-hoizey/2704877/
 ---
 

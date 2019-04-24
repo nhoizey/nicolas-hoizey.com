@@ -1,7 +1,7 @@
 ---
 title:      Yeeeh Haaaaah! Target locked
 lang:       fr
-tags:       [animal, photo]
+tags:       [animal, photography]
 flickr:     https://www.flickr.com/photos/nicolas-hoizey/518583271
 ---
 

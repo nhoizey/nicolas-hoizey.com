@@ -1,7 +1,7 @@
 ---
 title:      Les capteurs APS-C sont-ils toujours meilleurs que les full frame pour la photo animalière et de sport ?
 lang:       fr
-tags:       [photo, gear, Canon]
+tags:       [photography, gear, Canon]
 ---
 
 La sortie ces derniers mois de [plusieurs appareils photo numériques équipés de capteurs *full frame*](http://www.macandphoto.com/2008/10/le-grand-match.html)[^fullframe] à des prix devenus presque raisonnables, a séduit de nombreux photographes amateurs experts[^experts]. Les avantages du *full frame* sont nombreux, mais certains photographes -- essentiellement animaliers et sportifs -- préfèrent conserver leurs appareils à capteurs APS-C[^apsc], leur petite taille augmentant « magiquement » la longueur focale des téléobjectifs[^tele] et provoquant une zone de netteté plus grande, utile pour la macro. Sauf que mon Canon EOS 350D à capteur APS-C ne présente pas cet intérêt par rapport à mon nouveau Canon EOS 5D Mark II à capteur *full frame*. Je m'explique…

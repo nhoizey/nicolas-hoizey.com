@@ -1,16 +1,14 @@
 --- 
 title:      "Inspirations…" 
 lang:       fr 
-tags:       [Gastero Prod, moi]
+tags:       [blog, me]
 ---
-
 
 ## Mais où va-t-il chercher tout ça ?
 
 Bien évidemment, les liens et nouvelles que je vous propose ne sont pas tous issus de mes découvertes purement personnelles. Beaucoup viennent de mes sources favorites de veille qui sont de tous types.
 
 Ne vous étonnez donc pas de retrouver sur ce site des références déjà citées sur tous les sites qui suivent :
-
 
 - [Ze WoC](http://www.zewoc.com/)
 - [Ze Liste](http://www.zewoc.com/zeliste/), la mailing-list des accros à Ze WoC

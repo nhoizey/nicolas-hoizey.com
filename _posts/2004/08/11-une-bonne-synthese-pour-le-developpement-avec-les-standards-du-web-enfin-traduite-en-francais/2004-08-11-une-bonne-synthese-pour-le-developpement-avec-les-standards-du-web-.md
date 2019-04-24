@@ -1,7 +1,7 @@
 --- 
 title:      "Une bonne synthèse pour le développement avec les standards du web enfin traduite en français" 
 lang:       fr 
-tags:       [standards, livre]
+tags:       [standards, book]
 ---
 
 Clément Hardouïn, maître des lieux du nouvellement relooké [fastclemmy.com](http://www.fastclemmy.com/), a pris l'heureuse initiative de traduire en français l'excellente synthèse de Roger Johansson intitulée « [Developing With Web Standards, Recommendations and best practices](http://www.456bereastreet.com/lab/developing_with_web_standards/) ».

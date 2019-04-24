@@ -1,7 +1,7 @@
 ---
 title:      "Faut-il utiliser des tags composés de plusieurs mots ?"
 lang:       fr
-tags:       [Gastero Prod, Flickr, bookmarks, tag, Blogmarks]
+tags:       [Flickr, bookmarks, tag, Blogmarks]
 ---
 
 Depuis que j'utilise des tags, sur des sites ou services de plus en plus nombreux[^1], je ne m'étais jamais posé cette question, mais elle ne me semble pas anodine.

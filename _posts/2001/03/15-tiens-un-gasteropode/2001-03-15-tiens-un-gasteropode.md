@@ -1,16 +1,14 @@
 --- 
 title:      "Tiens, un gasteropode…" 
 lang:       fr 
-tags:       [Gastero Prod]
+tags:       [design, logo]
 ---
-
 
 Histoire d'illustrer le jeu de mots qui donne son nom à ce site, il fallait un logo accrocheur.
 
 C'est chose faite grâce à ce cyber-escargot dessiné par Cyril Rousselet, un ami graphiste indépendant.
 
 {% cloudinary escargot.png %}
-
 
 Vous pourrez notamment retrouver ses oeuvres sur [Funktrip](http://www.funktrip.com/), le "cellular e-zine" à la vie duquel il participe.
 

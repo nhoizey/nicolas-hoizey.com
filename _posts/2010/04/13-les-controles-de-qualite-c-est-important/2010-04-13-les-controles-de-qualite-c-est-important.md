@@ -1,7 +1,7 @@
 ---
 title:      Les contrôles de qualité, c'est important !
 lang:       fr
-tags:       [fail, qualité]
+tags:       [fail, quality]
 ---
 
 Les faire quand on les annonce, c'est mieux…

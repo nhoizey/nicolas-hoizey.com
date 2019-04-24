@@ -1,7 +1,7 @@
 ---
 title:      "Plongée en Egypte"
 lang:       fr
-tags:       [photo, moi, Flickr]
+tags:       [photography, me, Flickr]
 ---
 
 

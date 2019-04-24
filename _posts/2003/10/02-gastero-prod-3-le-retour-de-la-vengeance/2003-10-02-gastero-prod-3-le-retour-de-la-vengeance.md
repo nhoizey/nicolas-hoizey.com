@@ -1,12 +1,10 @@
 --- 
 title:      "Gastero Prod 3, le retour de la vengeance…" 
 lang:       fr 
-tags:       [Gastero Prod, standards]
+tags:       [blog, standards, design]
 ---
 
 Voilà qu'une troisième version de Gastero Prod est en ligne. Et en plus d'une refonte graphique, il y a aussi une profonde refonte fonctionnelle…
-
-
 
 ## Un nouveau design
 
@@ -27,7 +25,6 @@ Monsieur [Jakob «Use It» Nielsen](http://www.useit.com/) lui-même le dit : *L
 Notez que [archive.org](http://web.archive.org/web/*/http://www.gasteroprod.com)[^t1] conserve encore une trace de la première version de Gastero Prod, mais légèrement altérée :
 
 {% cloudinary gasteroprod_v1.png %}
-
 
 ## Des URL simplifiées
 

@@ -1,7 +1,7 @@
 ---
 title:      PicLens (renommé Cooliris) fonctionne maintenant sur Gastero Prod
 lang:       fr
-tags:       [photo, Gastero Prod, PicLens]
+tags:       [photography, PicLens]
 ---
 
 Je vous ai déjà parlé plusieurs fois de PicLens, cet outil génial de navigation dans des galeries d'images, disponible comme [extension/plugin de différents navigateurs](http://www.cooliris.com/site/support/download-all-products.php), y compris la toute dernière version 3 RC 1 de Firefox[^1]. Cet outil est supporté par un certains nombre de services en ligne de partage de photos, et il est très simple de l'[intégrer à son propre site](http://piclens.com/lite/webmasterguide.php), ce que j'ai fait.

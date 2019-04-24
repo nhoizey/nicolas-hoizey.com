@@ -1,7 +1,7 @@
 ---
 title:      Des noms de fichiers à télécharger dénués de sens sur software.canon-europe.com
 lang:       fr
-tags:       [UX, Canon, fichier, download, fail]
+tags:       [UX, Canon, file, download, fail]
 ---
 
 Je défie quiconque normalement constitué de s’y retrouver après avoir téléchargé plusieurs fichiers sur [le site de support logiciel de Canon Europe](http://software.canon-europe.com/).

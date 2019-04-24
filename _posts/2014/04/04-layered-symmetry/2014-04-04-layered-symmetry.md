@@ -1,7 +1,7 @@
 ---
 title:      Layered symmetry
 lang:       fr
-tags:       [photo]
+tags:       [photography]
 flickr:     https://www.flickr.com/photos/nicolas-hoizey/13601977205/
 ---
 

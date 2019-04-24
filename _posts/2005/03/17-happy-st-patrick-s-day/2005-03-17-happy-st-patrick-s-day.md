@@ -1,7 +1,7 @@
 --- 
 title:      "Happy St. Patrick's Day" 
 lang:       fr 
-tags:       [loisirs]
+tags:       [leisure]
 ---
 
 Le 17 mars, comme chaque année, c'est la St. Patrick, la fameuse fête des irlandais !

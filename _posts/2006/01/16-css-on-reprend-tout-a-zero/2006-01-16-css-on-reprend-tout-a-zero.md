@@ -1,7 +1,7 @@
 --- 
 title:      "CSS : on reprend tout à zéro !" 
 lang:       fr 
-tags:       [standards, développement, CSS]
+tags:       [standards, development, CSS]
 ---
 
 [Pompage](http://pompage.net/) vient de publier les dernières traductions des excellents tutoriaux « *[CSS from the Ground Up](http://www.wpdfd.com/editorial/basics/index.html)* » de [Joe Gillespie](http://www.wpdfd.com/), ce qui clôt la série. Un must à lire et relire absolument !

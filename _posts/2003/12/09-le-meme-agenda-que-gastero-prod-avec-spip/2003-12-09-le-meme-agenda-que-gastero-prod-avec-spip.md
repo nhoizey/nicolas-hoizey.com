@@ -1,7 +1,7 @@
 ---
 title:      "Le même agenda que Gastero Prod avec SPIP"
 lang:       fr
-tags:       [SPIP, Gastero Prod, agenda]
+tags:       [SPIP, agenda]
 ---
 
 Il peut être tentant d'utiliser SPIP pour présenter un agenda d'événements sous forme de calendrier. Plutôt que devoir intégrer un logiciel externe spécialisé, et en attendant que SPIP intègre peut-être un jour un nouveau type de données dédié aux événements, voici un squelette mêlant boucles SPIP et code PHP.

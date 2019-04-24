@@ -1,7 +1,7 @@
 --- 
 title:      Biche québécoise, légèrement surprise de me trouver là 
 lang:       fr 
-tags:       [animal, photo]
+tags:       [animal, photography]
 ---
 
 Rien de tel qu'un bon brouillard matinal au bord d'un lac québécois pour surprendre des biches venues se désaltérer.

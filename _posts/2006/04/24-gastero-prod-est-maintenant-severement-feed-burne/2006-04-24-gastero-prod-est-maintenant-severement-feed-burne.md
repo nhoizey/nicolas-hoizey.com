@@ -1,11 +1,10 @@
 ---
 title:      "Gastero Prod est maintenant sévèrement (Feed)Burné"
 lang:       fr
-tags:       [Gastero Prod, feed, FeedBurner]
+tags:       [feed, RSS, FeedBurner]
 ---
 
 C'est bien beau de mettre à disposition des flux RSS, mais comment savoir si quelqu'un les utilise ? Et puis certains ont beau dire le contraire, certains[^1] préfèrent encore recevoir l'annonce de nouveaux articles par mail plutôt que par flux de syndication.
-
 
 [^1]: autres, donc, si vous ne suivez pas
 
@@ -25,13 +24,11 @@ Au passage, FeedBurner met à disposition un formulaire d'inscription à l'envoi
 
 {% cloudinary gp_feedburner.png %}
 
-
 Donc si vous êtes allergique au RSS, voilà un nouveau moyen de ne plus manquer les mises à jour du site.
 
 C'est-y pas beau tout ça ?
 
 **MAJ dix minutes après :** Ah bin tiens, [NiKo est aussi passé chez FeedBurner](http://www.prendreuncafe.com/blog/2006/04/24/442-amenagement-des-flux-de-syndication), belle coïncidence !
-
 **MAJ du 25/04 :** Un point intéressant que j'avais oublié de signaler est que maintenant seul FeedBurner vient chercher le flux RSS chez Gastero Prod, donc ça devrait alléger de manière conséquente la charge serveur et la bande passante consommée. C'est [NiCoS](http://www.unelectronlibre.info/) qui va être content… ;-)
 
 **Seconde MAJ du 25/04 :** Comme signalé par NiKo, pep propose une explication plus complète des [intérêts et limites de FeedBurner](http://www.callmepep.org/blog/2006/04/24/291-utilisation-de-feedburner-pour-les-fils-de-syndication-principaux).

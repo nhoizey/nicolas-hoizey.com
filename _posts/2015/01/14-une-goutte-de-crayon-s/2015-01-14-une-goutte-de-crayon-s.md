@@ -1,7 +1,7 @@
 ---
 title:      Une goutte de crayon(s)
 lang:       fr
-tags:       [photo]
+tags:       [photography]
 ---
 
 Nous avons eu droit hier au [Photo Club de Draveil](http://photoclubdraveil.fr/) à la visite de [Marjolaine Vuarnesson](https://500px.com/vuarnessonmarjolaine), une photographe talentueuse notamment connue pour sa série de macros colorées à base d'eau. L'occasion pour elle de nous montrer ses réalisations et surtout sa technique, et pour nous de l'appliquer.

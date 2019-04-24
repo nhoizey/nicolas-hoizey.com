@@ -1,7 +1,7 @@
 ---
 title:      La « Plaza de Toros » à Ronda, en Andalousie
 lang:       fr
-tags:       [photo]
+tags:       [photography]
 flickr:     https://www.flickr.com/photos/nicolas-hoizey/3478629/
 ---
 

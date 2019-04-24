@@ -1,7 +1,7 @@
 --- 
 title:      "Une introduction à PEAR" 
 lang:       fr 
-tags:       [développement, PHP, PEAR]
+tags:       [development, PHP, PEAR]
 ---
 
 Traduction de l'article de [Joao Prado Maia](http://www.onlamp.com/pub/au/98) publié initialement le 24 mai 2001 sur [ONLamp.com](http://www.onlamp.com/pub/a/php/2001/05/24/pear.html), de O'Reilly.

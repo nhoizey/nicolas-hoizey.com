@@ -1,7 +1,7 @@
 ---
 title:      "Le blog de Flickr met en avant mon groupe dédié aux photos prises avec l'appareil placé tout juste à la surface de l'eau"
 lang:       fr
-tags:       [photo, Flickr, fun]
+tags:       [photography, Flickr, fun]
 ---
 
 Chaque jour, [le blog de Flickr](http://blog.flickr.com/flickrblog/) présente les nouveautés du service en ligne ou met en avant des photos ou groupes particulièrement intéressants. Et bien c'est au tour de l'un des groupes que j'ai créé d'être [à l'honneur](http://blog.flickr.com/flickrblog/2006/11/camera_halfway_.html), ce qui me fait particulièrement plaisir !

@@ -1,7 +1,7 @@
 --- 
 title:      "Web marchands : abuser de la longue traine peut nuire à votre image "
 lang:       fr 
-tags:       [fail, marketing, e-commerce]
+tags:       [fail, marketing, ecommerce]
 ---
 
 La [longue traine](http://fr.wikipedia.org/wiki/Longue_tra%C3%AEne), ce fameux principe statistique repris par [Chris Anderson](http://www.wired.com/wired/archive/12.10/tail.html)[^1] -- rédacteur en chef de Wired -- pour expliquer le succès de commerçants en ligne[^2] comme [Amazon](http://www.amazon.fr/), suppose la mise à disposition d'une multitude de produits de niche pour que la somme de leurs ventes dépasse celle des quelques produits phares habituellement proposés. Bien sûr, il faut les avoir, ces produits de niche…

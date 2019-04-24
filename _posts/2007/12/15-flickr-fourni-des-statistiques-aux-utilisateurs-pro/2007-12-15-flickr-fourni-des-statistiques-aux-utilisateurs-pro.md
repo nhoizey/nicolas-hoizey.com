@@ -1,7 +1,7 @@
 ---
 title:      Flickr fourni des statistiques aux utilisateurs pro
 lang:       fr
-tags:       [photo, Flickr, statistics]
+tags:       [photography, Flickr, statistics]
 ---
 
 Même si diverses applications tierces fournissaient déjà quelques statistiques de consultation des pages et photos sur Flickr, il n'existait jusqu'à présent pas de tableau de bord global permettant de connaitre facilement l'état des lieux de son compte en termes de trafic. [C'est maintenant chose faite](http://blog.flickr.com/en/2007/12/13/stats-stats-baby/), Flickr propose un nouveau service de statistiques.

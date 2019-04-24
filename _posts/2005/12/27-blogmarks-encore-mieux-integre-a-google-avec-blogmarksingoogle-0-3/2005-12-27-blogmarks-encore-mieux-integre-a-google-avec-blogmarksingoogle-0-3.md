@@ -1,7 +1,7 @@
 --- 
 title:      "Blogmarks encore mieux intégré à Google avec BlogmarksInGoogle 0.3" 
 lang:       fr 
-tags:       [développement, Mozilla, bookmarks, Google, Firefox, Blogmarks]
+tags:       [development, Mozilla, bookmarks, Google, Firefox, Blogmarks]
 ---
 
 Suite à la sortie de BlogmarksInGoogle 0.2 [il y a deux jours](/2005/12/blogmarks-integre-a-google.html), [NiKo](http://www.prendreuncafe.com/blog/) avait suggéré [d'une part](http://www.gasteroprod.com/blogmarks-integre-a-google.html#commentaire1095) que j'améliore le design, et [d'autre part](http://www.gasteroprod.com/blogmarks-integre-a-google.html#commentaire1097) que j'utilise le flux Atom plutôt que le flux RSS. Voilà qui est fait, avec d'autres améliorations au passage, et le résultat est clairement encore mieux !

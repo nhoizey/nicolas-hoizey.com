@@ -1,7 +1,7 @@
 ---
 title:      Quelques petits ajustements…
 lang:       fr
-tags:       [Gastero Prod, font]
+tags:       [font]
 ---
 
 Vous l'avez peut-être remarqué vous même si vous faites partie des rares à venir de temps en temps sur le site, mais certainement pas si vous me lisez via le flux RSS, j'ai fait quelques ajustements, notamment sur la page d'accueil.

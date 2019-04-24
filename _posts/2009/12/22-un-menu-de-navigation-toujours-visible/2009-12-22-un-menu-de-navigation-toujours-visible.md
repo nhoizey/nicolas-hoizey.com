@@ -1,7 +1,7 @@
 ---
 title:      Un menu de navigation toujours visible
 lang:       fr
-tags:       [Gastero Prod, UX]
+tags:       [UX]
 ---
 
 Depuis quelques jours, le menu de navigation principal de Gastero Prod reste visible en permanence[^1] même si vous descendez dans la page. Cela peut vous sembler un caprice de g33k qui tente des trucs un peu sexy, mais à l'usage, je suis extrêmement content de ce rapide ajout ergonomique !

@@ -1,7 +1,7 @@
 ---
 title:      Peaceful greeeeen
 lang:       fr
-tags:       [photo]
+tags:       [photography]
 flickr:     https://www.flickr.com/photos/nicolas-hoizey/2524146491/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title:      "flickRate, pour améliorer les favoris de Flickr"
 lang:       fr
-tags:       [photo, Flickr, développement, Greasemonkey]
+tags:       [photography, Flickr, development, Greasemonkey]
 ---
 
 Voilà trop longtemps que je n'ai rien écrit ici. Ce n'est pas la seule raison, mais [flickRate](http://flickrate.gasteroprod.com/) occupe pas mal mon esprit ces derniers temps, il est temps d'en parler.

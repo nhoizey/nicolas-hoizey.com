@@ -1,7 +1,7 @@
 ---
 title:      D'autres visions de la Tour Eiffel
 lang:       fr
-tags:       [photo]
+tags:       [photography]
 flickr:     https://www.flickr.com/photos/nicolas-hoizey/39343039
 ---
 

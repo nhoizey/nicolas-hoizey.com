@@ -1,7 +1,7 @@
 --- 
 title:      Mes conventions de codage 
 lang:       fr 
-tags:       [développement, JavaScript, CSS]
+tags:       [development, JavaScript, CSS]
 ---
 
 [Oncle Tom](http://case.oncle-tom.net/) m'a envoyé en douce il y a quelques jours une [patate chaude](http://case.oncle-tom.net/2008/07/23/conventions-de-programmation-necessaire-maturite/) en m'invitant à vous parler de mes conventions de codage. Vaste sujet, et surtout très vite trollesque, de quoi se régaler.

@@ -1,7 +1,7 @@
 ---
 title:      Stairway to… surface, basically
 lang:       fr
-tags:       [photo]
+tags:       [photography]
 ---
 
 Désolé, non, pas un « *stairway to heaven* », c'est juste l'escalier en spirale qu'il faut prendre pour sortir des caves du célèbre producteur de Champagne [Taittinger](http://www.taittinger.fr/), à Reims.

@@ -1,7 +1,7 @@
 ---
 title:      "Une recette infaillible pour attirer les adultes dans les parcs d'attraction ?"
 lang:       fr
-tags:       [loisirs, photo, fail, humour, Flickr]
+tags:       [leisure, photography, fail, humour, Flickr]
 ---
 
 Vous connaissez peut-être [France Miniature](http://www.franceminiature.com/), un sympatique parc d'attraction qui présente en modèles réduits réalistes les plus célèbres monuments de France.

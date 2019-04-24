@@ -1,7 +1,7 @@
 --- 
 title:      C'est la saison migratoire… 
 lang:       fr 
-tags:       [Gastero Prod, hébergement, Linux, Gandi]
+tags:       [hosting, Linux, Gandi]
 ---
 
 [NiCoS](http://www.unelectronlibre.info/) -- mon très efficace et accommodant hébergeur actuel -- souhaitant refondre son infrastructure[^1], une migration des quelques sites dont je m'occupe est nécessaire.

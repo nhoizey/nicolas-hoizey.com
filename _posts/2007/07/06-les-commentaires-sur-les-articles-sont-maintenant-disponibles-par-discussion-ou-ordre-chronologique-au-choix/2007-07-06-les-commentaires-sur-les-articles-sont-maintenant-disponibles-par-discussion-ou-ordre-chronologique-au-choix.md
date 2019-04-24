@@ -1,7 +1,7 @@
 --- 
 title:      Les commentaires sur les articles sont maintenant disponibles par discussion ou ordre chronologique, au choix ! 
 lang:       fr 
-tags:       [SPIP, Gastero Prod, jQuery, JavaScript]
+tags:       [SPIP, jQuery, JavaScript, UX, comments]
 ---
 
 Certain(e)s d'entre vous préfèrent lire les commentaires sur les articles par ordre chronologique, comme c'est obligatoirement le cas avec certains outils de gestion de contenus Web, et d'autres, habitués aux forums, préfèrent suivre les enchainements de discussions[^1].

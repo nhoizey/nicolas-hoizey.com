@@ -1,7 +1,7 @@
 ---
 title:      "Noël 2004 aux Pays-Bas"
 lang:       fr
-tags:       [photo, moi, Flickr]
+tags:       [photography, me, Flickr]
 ---
 
 

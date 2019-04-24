@@ -1,7 +1,7 @@
 ---
 title:      Afficher les favicon dans la barre personnelle de Firefox sous Mac OS
 lang:       fr
-tags:       [Firefox, macOS, astuce, CSS]
+tags:       [Firefox, macOS, trick, CSS]
 ---
 
 Dans sa version Mac OS, [Mozilla Firefox](http://www.mozilla-europe.org/fr/products/firefox/) est configuré pour ne pas afficher l'icône personnalisée d'un site à côté d'un favori placé dans la barre personnelle.

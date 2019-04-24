@@ -43,7 +43,7 @@ C'est que j'avais malheureusement raté [une réponse très pertinente](http://s
 
 Sur macOS, installer GSL est simple avec Homebrew :
 
-```
+```shell
 brew install gsl
 ```
 

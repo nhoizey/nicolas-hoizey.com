@@ -1,7 +1,7 @@
 ---
 title:      Lost in (white) space… is hot on JPG Magazine !
 lang:       fr
-tags:       [photo, moi, JPG Magazine]
+tags:       [photography, me, JPG Magazine]
 ---
 
 Comme je tente de le montrer sur cette récente nouvelle version de Gastero Prod avec une rubrique dédiée, je m'essaie depuis quelque temps à la photographie, et je dois avouer que tous les petits signes d'intérêt pour mes « œuvres » me font rudement plaisir. J'ai eu ainsi le bonheur de découvrir aujourd'hui que ma photo [Lost in (white) space](http://www.jpgmag.com/photos/20192) fait partie de la sélection « *hot* » du thème [Color Theory](http://www.jpgmag.com/themes/40) de [JPG Magazine](http://www.jpgmag.com/).

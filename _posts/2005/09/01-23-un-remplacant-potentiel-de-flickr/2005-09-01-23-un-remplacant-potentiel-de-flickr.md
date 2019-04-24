@@ -1,7 +1,7 @@
 ---
 title:      "23, un remplaçant potentiel de Flickr ?"
 lang:       fr
-tags:       [photo, Flickr, Google]
+tags:       [photography, Flickr, Google]
 ---
 
 Voilà qu'un nouveau service, intitulé tout simplement «23», tente de prendre une place qui sera sans doute prochainement perdue par Flickr dans le coeur de certains de ses utilisateurs historiques.

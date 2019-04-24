@@ -1,7 +1,7 @@
 ---
 title:      Limitless
 lang:       fr
-tags:       [photo]
+tags:       [photography]
 flickr:     https://www.flickr.com/photos/nicolas-hoizey/14453427844/
 ---
 

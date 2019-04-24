@@ -1,7 +1,7 @@
 ---
 title:      Un p'tit coup de pouce ?
 lang:       fr
-tags:       [photo]
+tags:       [photography]
 ---
 
 J'ai décidé de me prendre par la main et de proposer certaines de mes photos dans des publications plus ou moins connues et répandues. La première étape passe par [JPG Magazine](http://www.jpgmag.com/), qui publie bientôt son huitième volume, avec différents thèmes proposés.

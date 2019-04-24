@@ -1,7 +1,7 @@
 ---
 title:      Laissons IE6 mourir sans style, et ses utilisateurs entrevoir la lumière
 lang:       fr
-tags:       [fail, standards, Microsoft, CSS, Internet Explorer, Gastero Prod]
+tags:       [fail, standards, Microsoft, CSS, Internet Explorer]
 ---
 
 Bon, allez, ça va un peu les enfantillages, mais il est temps de montrer aux utilisateurs de IE6 que non, ils n'utilisent pas un bon navigateur, mais que ce sont plutôt des hordes de développeurs Web qui s'arrachent les cheveux pour qu'ils en aient l'illusion. Alors voilà, j'ai décidé d'aider ses pauvres égarés à revenir dans le droit chemin…

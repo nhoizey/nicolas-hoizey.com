@@ -1,7 +1,7 @@
 ---
 title:      Test du Panasonic LX100 pour Phototrend
 lang:       fr
-tags:       [Phototrend, test, photo]
+tags:       [Phototrend, test, photography]
 flickr:     https://www.flickr.com/photos/nicolas-hoizey/18907163221
 ---
 

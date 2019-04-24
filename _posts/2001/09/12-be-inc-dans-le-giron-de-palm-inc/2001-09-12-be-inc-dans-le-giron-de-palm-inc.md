@@ -1,7 +1,7 @@
 --- 
 title:      "Be Inc dans le giron de Palm Inc" 
 lang:       fr 
-tags:       [informatique]
+tags:       [computer]
 ---
 
 Faute de réussir à s'imposer comme Amiga des années 90, la société de Jean-Louis Gassée est rachetée pour la modique somme de 11 milions de dollars par Palm Inc.

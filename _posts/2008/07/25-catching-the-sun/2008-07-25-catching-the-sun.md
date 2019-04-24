@@ -1,7 +1,7 @@
 ---
 title:      Catching the sun
 lang:       fr
-tags:       [fun, photo]
+tags:       [fun, photography]
 flickr:     https://www.flickr.com/photos/nicolas-hoizey/2693162677
 ---
 

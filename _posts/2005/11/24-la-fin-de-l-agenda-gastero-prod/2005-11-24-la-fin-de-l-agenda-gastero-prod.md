@@ -1,7 +1,7 @@
 --- 
 title:      "La fin de l'agenda Gastero Prod…" 
 lang:       fr 
-tags:       [SPIP, Gastero Prod, agenda]
+tags:       [SPIP, agenda]
 ---
 
 Après plus de deux ans de bons et loyaux services, l'agenda de Gastero Prod tire sa révérence, en attendant peut-être une solution technique plus satisfaisante et un peu plus de temps pour le remplir.

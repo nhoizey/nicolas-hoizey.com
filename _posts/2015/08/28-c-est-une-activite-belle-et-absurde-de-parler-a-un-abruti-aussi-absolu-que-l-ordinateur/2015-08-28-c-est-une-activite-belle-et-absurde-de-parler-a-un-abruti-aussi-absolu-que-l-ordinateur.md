@@ -1,7 +1,7 @@
 ---
 title: C’est une activité belle et absurde de parler à un abruti aussi absolu que l’ordinateur
 lang:  fr
-tags:  [informatique, computer, bug, security]
+tags:  [computer, bug, security]
 ---
 
 Le titre de ce billet est tiré de la toute dernière réplique d'[une interview absolument fabuleuse de Gérard Berry par Rue 89](http://rue89.nouvelobs.com/2015/02/01/gerard-berry-lordinateur-est-completement-con-257428). Je vous invite à la lire en intégralité, plusieurs fois.

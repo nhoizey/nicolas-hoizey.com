@@ -1,7 +1,7 @@
 ---
 title:      TinEye, un système bluffant de reconnaissance d'images sur Internet
 lang:       fr
-tags:       [photo, image, search, TinEye]
+tags:       [photography, image, search, TinEye]
 ---
 
 [Idée Inc.](http://www.ideeinc.com/) vient de lancer [TinEye](http://tineye.com/), un nouveau service en ligne de recherche d'images sur Internet, et là où les moteurs de recherche d'images traditionnels se basaient sur le nom du fichier ou le contenu des pages intégrant les images, c'est une vraie recherche par le contenu de l'image qui est proposée. j'étais légèrement dubitatif lorsque j'en ai entendu parlé pour la première fois, mais j'ai eu accès à la *beta* privée, et c'est réellement bluffant !

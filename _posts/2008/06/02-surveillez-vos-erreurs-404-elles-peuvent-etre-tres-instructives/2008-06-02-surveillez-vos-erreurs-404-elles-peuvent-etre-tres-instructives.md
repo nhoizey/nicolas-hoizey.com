@@ -19,9 +19,9 @@ Une autre méthode plus basique et source potentielle d’explosion de compte ma
 ```php
 <?php
 mail('adresse@example.com',
-        '[GP404] '.$_SERVER['REQUEST_URI'],
-        '#URL_SITE_SPIP'.$_SERVER['REQUEST_URI']."\r\n".'User agent: '.$_SERVER['HTTP_USER_AGENT']."\r\n".'Referer: '.$_SERVER['HTTP_REFERER']."\r\n".print_r($GLOBALS, true),
-        'From: adresse@example.com');
+  '[GP404] '.$_SERVER['REQUEST_URI'],
+  '#URL_SITE_SPIP'.$_SERVER['REQUEST_URI']."\r\n".'User agent: '.$_SERVER['HTTP_USER_AGENT']."\r\n".'Referer: '.$_SERVER['HTTP_REFERER']."\r\n".print_r($GLOBALS, true),
+  'From: adresse@example.com');
 }
 ?>
 ```
@@ -86,7 +86,7 @@ Faudrait-il donc refuser systématiquement toute requête signée par `libwww-pe
 
 En tout cas, vous pouvez déjà refuser les requêtes clairement identifiables comme des attaques brutales, par exemple comme ceci si vous avez le module `mod_rewrite` pour Apache :
 
-```
+```apache
 # Bloquer certaines attaques brutales pas fines
 # http://www.securityfocus.com/bid/19464
 RewriteCond %{QUERY_STRING} &?BBCodeFile=([^&]+)

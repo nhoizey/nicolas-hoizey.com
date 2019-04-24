@@ -1,7 +1,7 @@
 ---
 title:      Le coup de soleil de trop
 lang:       fr
-tags:       [photo, 500px]
+tags:       [photography, 500px]
 ---
 
 Moi aussi j'aime bien les photos faites durant la « [golden hour](http://phototrend.fr/2009/06/mp-36-the-golden-hours-les-meilleurs-moments-de-la-journee-pour-la-photo/) », notamment des portraits champêtres, mais c'est (potentiellement) beau tant que ça reste naturel.

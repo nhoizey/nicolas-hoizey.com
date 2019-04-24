@@ -1,7 +1,7 @@
 ---
 title:      Plongée en contre plongée
 lang:       fr
-tags:       [photo]
+tags:       [photography]
 flickr:     https://www.flickr.com/photos/nicolas-hoizey/31535666
 ---
 

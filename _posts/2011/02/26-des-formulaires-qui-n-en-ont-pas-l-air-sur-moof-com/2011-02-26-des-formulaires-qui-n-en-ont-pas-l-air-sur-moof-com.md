@@ -1,7 +1,7 @@
 ---
 title:      Des formulaires qui n’en ont pas l’air sur moof.com
 lang:       fr
-tags:       [UX, innovation, formulaire]
+tags:       [UX, innovation, form]
 ---
 
 [Moof](http://moof.com/) est une n-ième application Web d’écoute de musique, mais je ne m’étendrais pas sur les fonctionnalités, là n’est pas le sujet. Une originalité de Moof, c’est qu’ils proposent directement sur la page d’accueil le formulaire de création de compte, alors que c’est en général déporté sur une page dédiée.

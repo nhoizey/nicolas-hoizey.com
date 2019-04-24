@@ -1,7 +1,7 @@
 ---
 title:      SplitGames n'est-il destiné qu'aux hardcore gamers ?
 lang:       fr
-tags:       [fail, e-commerce]
+tags:       [fail, ecommerce]
 ---
 
 Je suis inscrit sur [SplitGames](http://www.splitgames.fr/) depuis son lancement[^1], et j'ai déjà envoyé un de mes jeux à quelqu'un qui voulait l'avoir. Malheureusement, je n'ai toujours pas eu de succès pour l'opération inverse.

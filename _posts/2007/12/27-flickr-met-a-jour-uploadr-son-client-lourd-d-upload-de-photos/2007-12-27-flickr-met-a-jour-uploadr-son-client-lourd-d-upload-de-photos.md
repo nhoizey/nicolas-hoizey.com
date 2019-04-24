@@ -1,7 +1,7 @@
 ---
 title:      Flickr met à jour Uploadr, son client lourd d'upload de photos
 lang:       fr
-tags:       [photo, Flickr, opensource, software]
+tags:       [photography, Flickr, opensource, software]
 ---
 
 Après plusieurs années passées à utiliser un Uploadr 2 très spartiate, voici enfin [un vrai client lourd d'upload de photos pour Flickr](http://blog.flickr.com/en/2007/12/13/introducing-the-all-new-flickr-uploadr-30/), avec notamment la possibilité d'enrichir les métadonnées et de trier manuellement les photos avant l'upload.

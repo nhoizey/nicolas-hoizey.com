@@ -1,14 +1,12 @@
 --- 
 title:      "Tentative d'ouverture des commentaires" 
 lang:       fr 
-tags:       [SPIP, Gastero Prod, moi]
+tags:       [SPIP, comments, me]
 ---
 
 Jusqu'à présent, faire un commentaire sur un article nécessitait une inscription avec une adresse e-mail valable. Ce n'est plus le cas, au moins temporairement.
 
-
 L'avantage de demander une inscription était double :
-
 
 - empêcher le SPAM, et là pas de soucis, je n'ai pas à me plaindre du moindre écart depuis le tout début
 - mettre en oeuvre simplement les [gravatars](/2005/01/des-gravatars-avec-spip.html)

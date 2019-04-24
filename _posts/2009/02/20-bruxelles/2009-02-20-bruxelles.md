@@ -1,7 +1,7 @@
 ---
 title:      Bruxelles
 lang:       fr
-tags:       [photo]
+tags:       [photography]
 ---
 
 Une photo prise sur la Grand-Place de Bruxelles.

@@ -1,7 +1,7 @@
 ---
 title:      "Retrievr : un nouveau moyen de s'amusr à trouvr des photos sur Flickr"
 lang:       fr
-tags:       [photo, Flickr]
+tags:       [photography, Flickr]
 ---
 
 Jusqu'ici, pour trouver des photos sur [Flickr](https://www.flickr.com/), il était possible de passer par les [tags](https://www.flickr.com/photos/tags/), des [recherches](https://www.flickr.com/photos/search/) plus ou moins avancées, les différentes fonctionnalités plus intéressantes de la section [Explore](https://www.flickr.com/explore/), ou alors [flickRate](http://flickrate.gasteroprod.com/), bien sûr, et notamment son [top des photos les plus appréciées des utilisateurs de Flickr](http://flickrate.gasteroprod.com/most_favored.php)[^1].

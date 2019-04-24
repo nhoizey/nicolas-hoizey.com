@@ -1,21 +1,18 @@
 ---
 title:      "Comment faire un tag cloud (nuage de tags, ou d'étiquettes) accessible ?"
 lang:       fr
-tags:       [Gastero Prod, a11y, blog, tag]
+tags:       [accessibility, blog, tag]
 ---
 
 Vous avez déjà sans doute vu sur un site un «nuage d'étiquettes» -- *[tag cloud](http://en.wikipedia.org/wiki/Tag_cloud)* en anglais -- représentant la liste des sujets abordés, en mettant en avant les sujets les plus courants par un effet de grossissement.
-
 
 Si ce n'est pas le cas, voici [un exemple de *tag cloud* sur Flickr](https://www.flickr.com/photos/tags/), qui représente les tags les plus utilisés depuis le lancement du service :
 
 {% cloudinary flickr_tags.png %}
 
-
 Sur Gastero Prod, j'ai mis en place ce mécanisme assez astucieux de listage des thèmes abordés, à la fois dans la colonne de navigation, et sur une page dédiée aux [tags](/tags/) :
 
 {% cloudinary gp_tags.png %}
-
 
 Sur cette page, je peux lister les tags par ordre alphabétique, ce qui est l'usage classique, mais aussi par ordre d'importance, c'est à dire selon le nombre d'articles auxquels ils sont associés, ce qui est plus pratique sans doute pour les utilisateurs de synthèses vocales ou autres outils non graphiques de navigation.
 

@@ -1,7 +1,7 @@
 ---
 title:      Sony RX100 III, mon excellent nouveau compact expert toujours en poche
 lang:       fr
-tags:       [photo, Sony, gear]
+tags:       [photography, Sony, gear]
 flickr:     https://www.flickr.com/photos/nicolas-hoizey/16213387835/
 ---
 

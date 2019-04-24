@@ -1,11 +1,8 @@
 ---
 title:      "Gastero Prod 4, les standards et l'accessibilité"
 lang:       fr
-tags:       [SPIP, Gastero Prod, standards, a11y, CSS]
+tags:       [SPIP, standards, accessibility, CSS]
 ---
-
-
-
 
 L'[accessibilité](http://www.la-grange.net/accessibilite/) devient petit à petit incontournable.
 
@@ -23,19 +20,15 @@ Cela permet notamment d'être sûr que ceux qui ne peuvent pas  (ou ne veulent p
 
 {% cloudinary gp4_aucun_style.png caption="Sans feuille de style. Affichage dans Mozilla Firebird avec la feuille de styles désactivée" %}
 
-
 {% cloudinary gp4_lynx.png caption="En mode texte. Affichage dans Lynx, navigateur en mode texte" %}
-
 
 Mais cela n'empêche pas pour autant ceux qui en ont la capacité de profiter d'un site avec une identité graphique qui lui est propre et qui n'est pas forcément la plus minimale qui soit :
 
 {% cloudinary gp4_normal.png caption="Normal. Affichage dans Mozilla Firebird avec la feuille de style" %}
 
-
 Enfin, qui dit graphisme ne signifie pas forcément contrainte sur les tailles de tous les éléments, il est tout à fait possible de laisser le choix à l'utilisateur de sa taille de police par défaut.
 
 {% cloudinary gp4_big.png caption="En caractères agrandis. Affichage dans Mozilla Firebird avec une taille de police supérieure et des colonnes ajustées en conséquence" %}
-
 
 ## Un peu d'usabilité
 
@@ -46,7 +39,6 @@ Des « raccourcis » clavier vous permettent d'accéder rapidement, sans utilise
 |Moteur de recherche|r|
 
 Voici la procédure à employer pour utiliser par exemple la touche `a`  :
-
 
 - sous Windows, avec la combinaison `alt + a`
 - sous Macintosh, avec la combinaison `ctrl + a` ou `pomme + a`

@@ -1,21 +1,18 @@
 --- 
 title:      "Plus de flux RSS" 
 lang:       fr 
-tags:       [SPIP, Gastero Prod]
+tags:       [SPIP, RSS]
 ---
 
 Vous pouvez désormais suivre avec des flux RSS dédiés les publications par thème, et les commentaires article par article.
 
-
-
 ## Les publications par thème
-
 
 Vous vous dites régulièrement que vous appréciez les articles que je publie sur mes expérimentations avec SPIP, mais que vous n'avez rien à faire des autres thèmes ?
 
 Alors profitez maintenant de flux RSS dédiés à chaque thème, avec un lien présent sur la page de chacun d'entre eux.
 
-Voici l'exemple pour le thème «<mot29>» :
+Voici l'exemple pour le thème «[SPIP](/tags/spip.html)» :
  
 {% cloudinary plus_de_feed_themes.png caption="Un flux RSS sur un thème" %}
 
@@ -26,7 +23,6 @@ Et le squelette est tout simple, vous pouvez le voir là : <http://www.gasteropr
 
 ## Les commentaires
 
-
 SPIP m'envoi automatiquement un mail dès qu'un commentaire est associé à un article, ce qui me permet de bien suivre la vie du site.
 
 Vous avez par contre sans doute du mal à suivre les discussions qui vous intéressent si vous devez pour cela revenir régulièrement vérifier par vous-même s'il y a eu des changements.
@@ -36,7 +32,6 @@ J'ai donc mis en place des flux RSS dédiés à ces discussions, accessible via 
 Voici l'exemple pour les commentaires de l'article «[Pompez !](/2005/01/pompez.html)» :
 
 {% cloudinary plus_de_feed_commentaires.png caption="Un flux RSS sur les commentaires d'un articles" %}
-
 
 Le flux RSS de cette discussion possède l'URL suivante : <http://www.gasteroprod.com/rss/commentaires/pompez-428.rss>
 

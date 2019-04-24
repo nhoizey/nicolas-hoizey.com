@@ -1,7 +1,7 @@
 --- 
 title:      "Lovely day for a Guinness" 
 lang:       fr 
-tags:       [loisirs]
+tags:       [leisure]
 ---
 
 

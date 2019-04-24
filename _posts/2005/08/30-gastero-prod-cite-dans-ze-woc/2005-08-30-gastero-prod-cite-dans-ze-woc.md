@@ -1,7 +1,7 @@
 --- 
 title:      "Gastero Prod cité dans Ze WoC !" 
 lang:       fr 
-tags:       [Gastero Prod, moi]
+tags:       [me]
 ---
 
 Moi qui suis un fan de [Ze WoC](http://www.zewoc.com/) depuis des années, voilà que mon site [Gastero Prod fait l'objet d'un post dans la section « Vu de dessus »](http://www.zewoc.com/wordpress/?p=1088), je suis extrêmement flatté !

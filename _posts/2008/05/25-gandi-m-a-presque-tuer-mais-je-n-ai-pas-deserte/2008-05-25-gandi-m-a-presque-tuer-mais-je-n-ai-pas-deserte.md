@@ -1,11 +1,10 @@
 ---
 title:      Gandi m'a (presque) tuer, mais je n'ai pas déserté !
 lang:       fr
-tags:       [Gastero Prod, moi, hébergement, Linux, Gandi]
+tags:       [me, hosting, Linux, Gandi, fail]
 ---
 
 Si vous venez de temps en temps vous balader sur ce site[^1], vous avez peut-être eu la déception de découvrir qu'il ne répondait plus pendant une semaine. Non, je n'ai pas succombé à l'incroyable faille de sécurité SSH présente dans Debian Linux[^2] depuis deux ans, c'est tout simplement que [mon hébergeur Gandi a eu des soucis matériels](http://iwi.lebardegandi.net/post/2008/05/21/Le-filer-13-%3A-Epilogue) dont j'ai subit des effets de bord.
-
 
 [^1]: Levez la main que je vous compte ! ;-)
 
@@ -14,7 +13,6 @@ Si vous venez de temps en temps vous balader sur ce site[^1], vous avez peut-êt
 Comme vous le savez déjà, [j'ai migré Gastero Prod vers Gandi](/2008/02/c-est-la-saison-migratoire.html) il y a déjà 3 mois, et j'étais jusqu'à présent totalement satisfait du rapport coût/qualité de service.
 
 ## Chronique d'une semaine sans site
-
 
 Malheureusement, une des plateformes supportant l'architecture est [tombé en carafe **jeudi 15 mai** en début d'après-midi](http://www.lebardegandi.net/post/2008/05/16/Problemes-de-disques). Ma machine virtuelle ne se trouvait heureusement pas sur le « filer 13 », donc je n'ai perdu aucune donnée, mais [j'ai subit des effets de bord rendant le site indisponible](http://www.lebardegandi.net/post/2008/05/16/Problemes-de-disques#c165464).
 

@@ -1,7 +1,7 @@
 ---
 title:      Il ne faut pas confondre quantité et qualité
 lang:       fr
-tags:       [Internet, Web 2.0, qualité]
+tags:       [Internet, Web 2.0, quality]
 ---
 
 J'espère que cela va paraître surprenant à pas mal de monde, mais certains continuent apparemment de penser que le fort trafic d'un site Web -- et on confond déjà quantité de visiteurs et quantité de pages vues[^1] -- est une bonne mesure de sa qualité. L'éternel coup de celui qui a la plus grosse, en somme.

@@ -1,7 +1,7 @@
 ---
 title:      "L'accessibilité, effet de mode ou réelle compréhension ?"
 lang:       fr
-tags:       [standards, a11y]
+tags:       [standards, accessibility]
 ---
 
 

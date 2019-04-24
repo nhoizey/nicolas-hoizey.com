@@ -1,7 +1,7 @@
 ---
 title:      Mon premier time-lapse
 lang:       fr
-tags:       [photo, time-lapse]
+tags:       [photography, time-lapse]
 ---
 
 Le *[time-lapse (en)](http://en.wikipedia.org/wiki/Time-lapse_photography)*[^1] est un film fait à partir d'une série de photos prises à intervalle régulier afin de simuler une accélération du temps. Pour ma première expérience de *time-lapse*, je n'ai pas choisi la facilité, avec une transition du jour vers la nuit en bord de mer, à [Villerville](http://fr.wikipedia.org/wiki/Villerville), en Normandie.

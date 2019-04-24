@@ -1,7 +1,7 @@
 ---
 title:      "Picasa 2 est arrivé !"
 lang:       fr
-tags:       [photo, Google]
+tags:       [photography, Google]
 ---
 
 Après son rachat l'an dernier par Google, et la mise à disposition gratuite de sa version 1.6, [Picasa](http://www.picasa.com/) avait connu un succès phénoménal, malgré quelques défauts bien pénibles…

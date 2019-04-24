@@ -1,11 +1,10 @@
 --- 
 title:      "Gastero Prod '08 : beaucoup plus de changements que les simples réalignements progressifs précédents"
 lang:       fr 
-tags:       [SPIP, Gastero Prod]
+tags:       [SPIP, blog]
 ---
 
 Cela aurait dû s'appeler « Gastero Prod '06 », car voilà plus d'un an que je travaille à cette réorganisation tant des contenus que de la présentation de ce site. Malheureusement, je suis loin d'être graphiste, donc je suis passé par pas mal de designs différents avant d'être un minimum satisfait avec celui-ci.
-
 
 Souvenez-vous, il y a encore quelques heures, voilà à quoi ressemblait Gastero Prod :
 

@@ -1,7 +1,7 @@
 ---
 title:      "Citation de Ciceron"
 lang:       fr
-tags:       [livre, quote, littérature]
+tags:       [book, quote, literature]
 ---
 
 

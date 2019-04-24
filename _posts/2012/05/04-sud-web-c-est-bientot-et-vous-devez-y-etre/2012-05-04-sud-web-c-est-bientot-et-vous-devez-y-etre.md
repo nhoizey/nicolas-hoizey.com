@@ -1,7 +1,7 @@
 ---
 title:      Sud Web, c'est bientôt, et vous devez y être !
 lang:       fr
-tags:       [Sud Web, qualité, conference]
+tags:       [Sud Web, quality, conference]
 ---
 
 Dans moins d'un mois, les 25 et 26 mai, aura lieu la seconde édition de [Sud Web](http://sudweb.fr/2012/) à Toulouse, et l’excitation commence à monter à l'idée de bientôt retrouver toute cette communauté d’artisans du Web, d'échanger et de construire tous ensemble les bonnes pratiques de mise en œuvre et usage du Web.

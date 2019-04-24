@@ -1,7 +1,7 @@
 ---
 title:      "Attrapez le soleil !"
 lang:       fr
-tags:       [photo, Flickr]
+tags:       [photography, Flickr]
 ---
 
 Un effet de style semble assez courant dans la photo est la mise en perspective d'éléments éloignés de sorte à faire croire qu'ils sont en fait proches. On peut voir ainsi certaines personnes attraper le soleil.

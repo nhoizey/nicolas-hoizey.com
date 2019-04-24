@@ -1,7 +1,7 @@
 --- 
 title:      Comment définir dans jQuery ses propres filtres de sélection 
 lang:       fr 
-tags:       [développement, Clever Age, jQuery, JavaScript]
+tags:       [development, Clever Age, jQuery, JavaScript]
 ---
 
 *Article initialement publié dans [le weblog de Clever Age](http://www.clever-age.com/veille/blog/comment-definir-dans-jquery-ses-propres-filtres-de-selection.html).*

@@ -1,7 +1,7 @@
 ---
 title:      Photo.fr n'est pas en form
 lang:       fr
-tags:       [fail, HTML, formulaire]
+tags:       [fail, HTML, form]
 ---
 
 Sur son site déjà récemment revu, le célèbre magazine [Photo](http://www.photo.fr/) a prévu la possibilité pour les internaute de saisir leur adresse e-mail afin d'être prévenus de la sortie du futur nouveau site. Sauf que le champ n'est pas dans un formulaire, et est donc inopérant.

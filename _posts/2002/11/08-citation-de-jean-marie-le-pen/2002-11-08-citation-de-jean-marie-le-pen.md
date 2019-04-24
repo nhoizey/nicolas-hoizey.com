@@ -1,7 +1,7 @@
 ---
 title:      "Citation de Jean-Marie Le Pen"
 lang:       fr
-tags:       [loisirs, society, music, quote]
+tags:       [leisure, society, music, quote]
 ---
 
 

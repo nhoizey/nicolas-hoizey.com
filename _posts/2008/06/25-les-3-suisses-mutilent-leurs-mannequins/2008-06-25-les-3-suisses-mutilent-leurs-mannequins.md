@@ -1,7 +1,7 @@
 ---
 title:      Les 3 Suisses mutilent leurs mannequins !
 lang:       fr
-tags:       [photo, fail, e-commerce]
+tags:       [photography, fail, ecommerce]
 ---
 
 C'est aujourd'hui qu'ont débuté les soldes, et j'ai décidé pour une fois d'en profiter en complétant ma garde robe, notamment avec des jeans, que je trouve incroyablement chers en temps « normal ». Je suis donc allé faire une recherche dans Google pour un Levi's 512, et je suis tombé sur différents sites, dont celui des 3 Suisses où j'ai découvert avec horreur qu'ils ont mutilé leur mannequin.

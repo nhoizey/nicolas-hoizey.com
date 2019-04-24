@@ -1,7 +1,7 @@
 ---
 title:      Les créateurs de JPG Magazine poussés dehors par leurs récents partenaires
 lang:       fr
-tags:       [photo, Flickr, media, JPG Magazine]
+tags:       [photography, Flickr, media, JPG Magazine]
 ---
 
 J'ai découvert [JPG Magazine](http://jpgmag.com/) au détours de discussions sur [Flickr](https://www.flickr.com/) il y a déjà près de deux ans[^1], et j'ai applaudi l'orientation communautaire prise pour la version 2.0, à laquelle je me suis inscrit pour proposer [mes propres photos](http://jpgmag.com/people/nhoizey)[^2].

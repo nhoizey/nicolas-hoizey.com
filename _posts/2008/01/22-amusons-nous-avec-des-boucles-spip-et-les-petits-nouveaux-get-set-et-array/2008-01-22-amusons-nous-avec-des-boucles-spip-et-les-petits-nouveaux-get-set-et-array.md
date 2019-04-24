@@ -1,7 +1,7 @@
 --- 
 title:      "Amusons nous avec des boucles SPIP et les petits nouveaux #GET, #SET et #ARRAY"
 lang:       fr 
-tags:       [SPIP, astuce]
+tags:       [SPIP, trick]
 ---
 
 Je suis tombé il y a quelque temps sur une problématique que je n'avais jamais rencontrée au cours de mes nombreuses expériences avec SPIP, et il s'avère qu'une solution très élégante est possible en n'utilisant que la syntaxe de SPIP, là où il aurait fallu, il n'y a pas si longtemps que cela, utiliser du code PHP dans le squelette. Suivez le guide…

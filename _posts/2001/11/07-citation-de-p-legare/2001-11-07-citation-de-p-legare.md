@@ -1,7 +1,7 @@
 ---
 title:      "Citation de P. Légaré"
 lang:       fr
-tags:       [society, humour, quote, littérature]
+tags:       [society, humour, quote, literature]
 ---
 
 

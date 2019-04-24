@@ -1,7 +1,7 @@
 ---
 title:      Avis de turbulences dans les flux RSS de Gastero Prod
 lang:       fr
-tags:       [Gastero Prod, feed, Yahoo, FeedBurner]
+tags:       [feed, RSS, Yahoo, FeedBurner]
 ---
 
 Certains d'entre vous, chers abonnés, m'ont signalé des problèmes dans les flux RSS de Gastero Prod, avec notamment l'apparition de nouveaux éléments dans [le flux RSS principal](http://feeds.feedburner.com/GasteroProd). Pas de panique, ces turbulences sont passagères, et dues principalement à la mise à jour du bloc « Ambiance musicale » en bas de page, et à la création d'un réel flux complet, reprenant en plus des articles du blog les photos et les liens que vous trouvez aussi sur le site.
@@ -34,7 +34,6 @@ J'aurais pu utiliser SPIP, qui sait faire cela sans soucis, mais vu que j'utilis
 Voici donc mon [Yahoo! Pipe aggrégeant les trois flux RSS de Gastero Prod pour en constituer un complet, avec préfixe sur chaque *item* pour faciliter la lecture](http://pipes.yahoo.com/nicolashoizey/gasteroprod)[^4]. Je vous invite à regarder son « code source »[^5], qui montre notamment un exemple de factorisation de « code » par l'usage d'un autre [Yahoo! Pipe permettant de simplement préfixer tous les *items* d'un flux](http://pipes.yahoo.com/nicolashoizey/feeditemprefix).
 
 {% cloudinary yahoo-pipe-flux-rss-gastero-prod.png %}
-
 
 Malheureusement, le flux ainsi obtenu, servi à nouveau par FeedBurner, ne dispose pas de mon icône habituelle, qui est remplacée par celle de Yahoo!, ce qui fait un peut tâche dans un aggrégateur. Ceci ne sera corrigé que quand Yahoo! ajoutera la [possibilité de manipuler dans un Yahoo! Pipe le flux lui-même, et non seulement ses *items*](http://suggestions.yahoo.com/detail/?prop=Pipes&fid=73084)[^6].
 

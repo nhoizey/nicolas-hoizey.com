@@ -1,7 +1,7 @@
 ---
 title:      "Citation de Marcus Brigstocke (et non Kristian Wilson)"
 lang:       en
-tags:       [loisirs, humour, quote, game]
+tags:       [leisure, humour, quote, game]
 ---
 
 > Computer games don't affect kids; I mean, if Pac-Man had affected us as kids, we'd all be running around in darkened rooms, munching magic pills and listening to repetitive electronic music.

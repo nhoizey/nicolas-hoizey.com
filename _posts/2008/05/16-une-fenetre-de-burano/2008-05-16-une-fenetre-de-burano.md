@@ -1,7 +1,7 @@
 ---
 title:      Une fenêtre de Burano
 lang:       fr
-tags:       [couleur, Venise, photo]
+tags:       [colour, Venice, photography]
 flickr:     https://www.flickr.com/photos/nicolas-hoizey/2459061166/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title:      Récolte sur une campanule
 lang:       fr
-tags:       [photo]
+tags:       [photography]
 flickr:     https://www.flickr.com/photos/nicolas-hoizey/3101454144/lightbox/
 ---
 

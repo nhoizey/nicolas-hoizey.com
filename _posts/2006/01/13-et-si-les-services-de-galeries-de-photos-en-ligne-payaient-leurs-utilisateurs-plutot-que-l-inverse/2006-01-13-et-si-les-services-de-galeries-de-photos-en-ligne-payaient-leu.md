@@ -1,7 +1,7 @@
 ---
 title:      "Et si les services de galeries de photos en ligne payaient leurs utilisateurs plutôt que l'inverse ?"
 lang:       fr
-tags:       [photo, advertisement, Flickr]
+tags:       [photography, advertisement, Flickr]
 ---
 
 C'est le pari original de [ImageGravy](http://www.imagegravy.com/ref.php?ref=214), qui propose de reverser à ses utilisateurs une part de ses revenus publicitaires. Un moyen original d'attirer les utilisateurs en tout cas, parce que ce n'est pas la qualité du service qui va le faire pour l'instant, puisqu'il fait pâle figure à côté d'un [Flickr](https://flickr.com/) ou [23](/2005/09/23-un-remplacant-potentiel-de-flickr.html).

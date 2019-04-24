@@ -1,7 +1,7 @@
 ---
 title:      Au secours, Safari 3 ne marche pas sur mon Mac !
 lang:       fr
-tags:       [photo, Flickr, Apple, Safari, PicLens]
+tags:       [photography, Flickr, Apple, Safari, PicLens]
 ---
 
 Si vous avez fait la dernière mise à jour proposée automatiquement par Apple pour votre bon vieil OS X *Tiger* -- la 10.4.11 -- et que [Safari](http://www.apple.com/macosx/features/safari.html) 3 ne veut rien faire, vous avez le même problème bien pénible que je viens d'avoir.

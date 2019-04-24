@@ -1,7 +1,7 @@
 --- 
 title:      "Guide du débutant pour PEAR DB" 
 lang:       fr 
-tags:       [développement, PHP, PEAR]
+tags:       [development, PHP, PEAR]
 ---
 
 Traduction du tutoriel de [Tomas V. V. Cox](mailto:cox@idecnet.com) publié en anglais à l'adresse suivante : <http://vulcanonet.com/soft/?pack=pear_tut>
