@@ -7,31 +7,41 @@
 .tagscloud {
   a {
     display: inline-block;
-    text-decoration: none;
+    margin: 0.2em;
+    padding: 0.1em 0.3em;
     box-shadow: none;
-    margin: 0;
-    padding: 0.5vw;
+
+    text-decoration: none;
+    text-shadow: none;
     white-space: nowrap;
+
+    background-color: $color-primary-lighter-2;
+    color: $color-white;
+    border-radius: 0.2em;
   }
 
   .set-1 {
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
 
   .set-2 {
     font-size: 1em;
+    background-color: $color-primary-lighter-1;
   }
 
   .set-3 {
     font-size: 1.2em;
+    background-color: $color-primary-lighter-1;
   }
 
   .set-4 {
     font-size: 1.5em;
+    background-color: $color-primary;
   }
 
   .set-5 {
     font-size: 1.9em;
+    background-color: $color-primary;
   }
 }
 
