@@ -34,7 +34,7 @@ JSON-LD for:
 <section id="links" class="list">
   <h2 class="list__title">Latest links</h2>
   <ul class="list__items list__items--small">
-    {% for link in site.categories['links'] limit:5 %}
+    {% for link in site.categories['links'] limit:3 %}
       <li class="card list__item">
         {% if link.author %}
           <p class="card__author">{{ link.author }}:</p>
@@ -43,9 +43,6 @@ JSON-LD for:
         {% include_cached link-meta.html page=link %}
       </li>
     {% endfor %}
-    <li class="list__more">
-      <p>Discover <a href="/links/">more links.</a></p>
-    </li>
   </ul>
 </section>
 
@@ -54,7 +51,7 @@ JSON-LD for:
   <ul class="list__items">
     {% assign articles_number = 0 %}
     {% for post in site.posts %}
-      {% if articles_number < 5 %}
+      {% if articles_number < 3 %}
         {% unless post.categories contains 'links' %}
           <li class="card list__item">
             {% include_cached post-abstract.html page=post level=3 %}
@@ -63,9 +60,10 @@ JSON-LD for:
         {% endunless %}
       {% endif %}
     {% endfor %}
-    
-    <li class="list__more">
-      <p>Read more articles in <a href="/{% include_cached last-article-year.html %}/">the archives</a>.</p>
-    </li>
   </ul>
+</section>
+
+<section id="tags" class="tagscloud">
+  <h2>Find other contents by tags</h2>
+  {% include_cached components/tags-cloud.html %}
 </section>
