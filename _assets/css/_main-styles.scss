@@ -461,8 +461,8 @@ article {
     }
 
     code.highlighter-rouge {
-      background-color: $color-primary-lighter-3;
-      color: #000;
+      background-color: $color-inline-code-background;
+      color: $color-inline-code-text;
       font-style: normal;
     }
 
@@ -520,9 +520,8 @@ article {
   }
 
   code.highlighter-rouge {
-    background-color: $color-darkgrey;
-    border: solid 1px $color-grey;
-    color: white;
+    background-color: $color-inline-code-background;
+    color: $color-inline-code-text;
     text-shadow: none;
   }
 
@@ -549,10 +548,13 @@ article {
     code.highlighter-rouge {
       color: inherit;
       background-color: transparent;
-      border: solid 1px transparent;
       border-radius: 0;
       box-shadow: none;
     }
+  }
+
+  div.highlighter-rouge pre.highlight {
+    padding: 0.5em;
   }
 
   a.footnote,
