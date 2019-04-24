@@ -18,7 +18,7 @@ layout: default
     {% if this_year < max_year %}
       <a href="/{{ this_year | plus: 1 }}/">{{ this_year | plus: 1 }}&nbsp;»</a>
     {% else %}
-      <span title="Patience!">{{ this_year | plus: 1 }}&nbsp;»</span>
+      <span title="Not yet!">{{ this_year | plus: 1 }}&nbsp;»</span>
     {% endif %}
   </p>
   <h1><span class="label">Articles from </span>{{ page.date | date: "%Y" }}</h1>
@@ -57,7 +57,7 @@ layout: default
     {% if this_year < max_year %}
       <a href="/{{ this_year | plus: 1 }}/">{{ this_year | plus: 1 }}&nbsp;»</a>
     {% else %}
-      <span title="Patience!">{{ this_year | plus: 1 }}&nbsp;»</span>
+      <span title="Not yet!">{{ this_year | plus: 1 }}&nbsp;»</span>
     {% endif %}
   </p>
 </div>
