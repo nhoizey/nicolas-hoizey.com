@@ -1952,6 +1952,10 @@ https://nicolas-hoizey.com/2009/05/dtc.html:
   http://3slips.fr/: false
   ? http://rcm-fr.amazon.fr/e/cm?t=gasteroprod-21&o=8&p=8&l=as1&asins=2350760995&md=0V7HTNAW9BB7KPZWWWG2&fc1=000000&IS2=1&lt1=_top&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr
   : false
+  https://www.amazon.fr/Dans-Ton-Chat-S: false
+  ? "//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=2350760995&Format=_SL250_&ID=AsinImage&MarketPlace=FR&ServiceVersion=20070822&WS=1&tag=gasteroprod-21&language=fr_FR"
+  : false
+  https://ir-fr.amazon-adsystem.com/e/ir?t=gasteroprod-21&language=fr_FR&l=li3&o=8&a=2350760995: false
 https://nicolas-hoizey.com/2009/06/shameless-self-promotion.html:
   http://www.jpgmag.com/themes/40: false
   http://www.jpgmag.com/photos/809995: false
@@ -3398,3 +3402,38 @@ https://nicolas-hoizey.com/2019/04/how-the-boeing-737-max-disaster-looks-to-a-so
   https://en.wikiquote.org/wiki/C._A._R._Hoare: false
   https://en.wikipedia.org/wiki/Ray_Ozzie: false
   https://www.azquotes.com/quote/585933: false
+https://nicolas-hoizey.com/2019/04/2001-02-22-inspirations.html:
+  http://www.zewoc.com/: false
+  http://www.zewoc.com/zeliste/: false
+  http://www.chronicart.com/: false
+  http://rezo.net/: false
+  http://uzine.net/: false
+  http://www.menteur.com/: false
+  http://www.ornitho.org/: false
+  http://www.ftpress.com/: false
+  http://www.tregouet.org/lettre/index.html: false
+  http://www.lesinrocks.com/: false
+https://nicolas-hoizey.com/2019/04/2004-05-04-page-23.html:
+  http://www.amazon.fr/exec/obidos/ASIN/2266128566/phpheaven-21: false
+  http://hownow.brownpau.com/misc/?file=page23: false
+  http://www.shauninman.com/mentary/past/page_23.php: false
+  http://www.stopdesign.com/log/2004/04/15/page23.html: false
+  http://www.stopdesign.com/: false
+  http://www.hicksdesign.co.uk/journal/2004/04/page_23/index.php: false
+  http://www.7nights.com/asterisk/archives/page_23.php: false
+  http://www.7nights.com/asterisk/: false
+  http://www.airbag.ca/archives/002900.php: false
+  http://www.airbag.ca/: false
+  http://binarybonsai.com/index.php?p=847: false
+  http://binarybonsai.com/: false
+https://nicolas-hoizey.com/2019/04/2005-08-30-gastero-prod-cite-dans-ze-woc.html:
+  http://www.zewoc.com/: false
+  http://www.zewoc.com/wordpress/?p=1088: false
+  http://www.technorati.com/search/http://www.gasteroprod.com: false
+  http://www.zewoc.com/wordpress/?page_id=12: false
+https://nicolas-hoizey.com/2019/04/2006-03-31-tentative-d-ouverture-des-commentaires.html:
+  http://www.zeubeubeu.net/blog/plugins-dotclear: false
+https://nicolas-hoizey.com/2019/04/2007-07-16-6-ans-6-mois-et-6-jours.html:
+  http://www.gasteroprod.com/: false
+  http://reports.internic.net/cgi/whois?whois_nic=gasteroprod.com&type=domain: false
+  http://www.gasteroprod.com/archives.html: false
