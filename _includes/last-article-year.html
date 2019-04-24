@@ -1,0 +1,9 @@
+{%- assign lastArticleYear = 0 -%}
+{%- for post in site.posts -%}
+  {%- if lastArticleYear == 0 -%}
+    {%- unless post.categories contains 'links' -%}
+      {%- assign lastArticleYear = post.date | date: "%Y" -%}
+    {%- endunless -%}
+  {%- endif -%}
+{%- endfor -%}
+{{ lastArticleYear }}
