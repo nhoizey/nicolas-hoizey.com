@@ -26,6 +26,7 @@
     color: $color-white;
     background-color: $color-link;
     text-shadow: none;
+    outline: none;
   }
 
   &:active {
@@ -47,5 +48,6 @@
     color: $color-white;
     background-color: $color-darkgrey;
     text-decoration: none;
+    outline: none;
   }
 }

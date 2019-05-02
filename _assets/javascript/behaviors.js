@@ -268,7 +268,7 @@ function searchCallback(err, content) {
   results =
     `<h1>${resultsNumber} ` +
     (resultsNumber > 1 ? "contents contain" : "content contains") +
-    ` <em>${$input.value}</em></h1><div class="list"><ul class="list__items">`;
+    ` <em>${$input.value}</em></h1><ul class="list">`;
 
   for (var i = 0; i < resultsNumber; i++) {
     hit = content.hits[i];
@@ -278,12 +278,7 @@ function searchCallback(err, content) {
     if (hit.date) {
       js_hit_date = new Date(hit.date * 1000);
       date_options = { year: "numeric", month: "long", day: "numeric" };
-
-      if (hit.lang === "en") {
-        hit_date = js_hit_date.toLocaleDateString("en-US", date_options);
-      } else {
-        hit_date = js_hit_date.toLocaleDateString("fr-FR", date_options);
-      }
+      hit_date = js_hit_date.toLocaleDateString("en-US", date_options);
     }
 
     hit_title = hit._highlightResult.title.value;
@@ -304,7 +299,7 @@ function searchCallback(err, content) {
       hit_tags = hit_tags.replace(/^, /, "");
     }
 
-    result = `<li class="card list__item"><h2 class="card__title"><a href="${
+    result = `<li class="list__item"><div class="card"><h2 class="card__title"><a href="${
       hit.url
     }">${hit_title}</a></h2><p class="card__excerpt">${hit_excerpt}</p>`;
     if (hit_date || hit_tags) {
@@ -317,12 +312,12 @@ function searchCallback(err, content) {
       }
       result += "</ul></footer>";
     }
-    result += "</li>";
+    result += "</div></li>";
 
     results += result;
   }
 
   $results.innerHTML =
     results +
-    '<p id="powered-by-algolia"><a href="/2015/06/la-recherche-dans-du-statique-facile-avec-algolia.html">Powered by <svg><use xlink:href="#symbol-algolia" /></svg></a></p>';
+    '</ul><p id="powered-by-algolia"><a href="/2015/06/la-recherche-dans-du-statique-facile-avec-algolia.html">Powered by Algolia</a></p>';
 }

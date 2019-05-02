@@ -4,16 +4,16 @@ title:  Links
 ---
 
 <h1 class="list__title">Links</h1>
-<section class="list">
-  <ul class="list__items list__items--small">
-    {% for link in site.categories['links'] %}
-      <li class="card list__item">
+<ul class="list">
+  {% for link in site.categories['links'] %}
+    <li class="list__item">
+      <div class="card card--link">
         {% if link.author %}
           <p class="card__author">{{ link.author }}:</p>
         {% endif %}
         <h3 class="card__title"><a href="{{ link.url }}">{{ link.title }}</a></h3>
         {% include_cached link-meta.html page=link %}
-      </li>
-    {% endfor %}
-  </ul>
-</section>
+      </div>
+    </li>
+  {% endfor %}
+</ul>

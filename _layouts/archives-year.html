@@ -6,58 +6,49 @@ layout: default
 
 {% assign this_year = page.date | date: "%Y" | plus: 0 %}
 {% assign max_year = site.time | date: "%Y" | plus: 0 %}
+{% capture yearsNavigation %}
+<p class="previous">
+  {% if this_year > 2001 %}
+    <a href="/{{ this_year | minus: 1 }}/">«&nbsp;{{ this_year | minus: 1 }}</a>
+  {% else %}
+    <span title="No previous content, sorry">«&nbsp;{{ this_year | minus: 1 }}</span>
+  {% endif %}
+</p>
+<p class="following">
+  {% if this_year < max_year %}
+    <a href="/{{ this_year | plus: 1 }}/">{{ this_year | plus: 1 }}&nbsp;»</a>
+  {% else %}
+    <span title="Not yet!">{{ this_year | plus: 1 }}&nbsp;»</span>
+  {% endif %}
+</p>
+{% endcapture %}
+
 <div class="years">
-  <p class="previous">
-    {% if this_year > 2001 %}
-      <a href="/{{ this_year | minus: 1 }}/">«&nbsp;{{ this_year | minus: 1 }}</a>
-    {% else %}
-      <span title="No previous content, sorry">«&nbsp;{{ this_year | minus: 1 }}</span>
-    {% endif %}
-  </p>
-  <p class="following">
-    {% if this_year < max_year %}
-      <a href="/{{ this_year | plus: 1 }}/">{{ this_year | plus: 1 }}&nbsp;»</a>
-    {% else %}
-      <span title="Not yet!">{{ this_year | plus: 1 }}&nbsp;»</span>
-    {% endif %}
-  </p>
+  {{ yearsNavigation }}
   <h1><span class="label">Articles from </span>{{ page.date | date: "%Y" }}</h1>
 </div>
 
-<div class="list">
-  {% assign month = "" %}
-  {% for post in page.posts %}
-    {% unless post.categories contains 'links' %}
-      {% assign post_month = post.date | date: "%m" %}
-      {% if post_month != month %}
-        {% if month != "" %}
-          </ul>
-        {% endif %}
-        <h2 class="list__title">{{ post.date | date: "%B" | capitalize }}</h2>
-        <ul class="list__items">
-        {% assign month = post_month %}
+{% assign month = "" %}
+{% for post in page.posts %}
+  {% unless post.categories contains 'links' %}
+    {% assign post_month = post.date | date: "%m" %}
+    {% if post_month != month %}
+      {% if month != "" %}
+        </ul>
       {% endif %}
-      <li class="card list__item">
+      <h2 class="list__title">{{ post.date | date: "%B" | capitalize }}</h2>
+      <ul class="list">
+      {% assign month = post_month %}
+    {% endif %}
+    <li class="list__item list__item--large">
+      <div class="card card--article">
         {% include_cached post-abstract.html page=post level=3 %}
-      </li>
-    {% endunless %}
-  {% endfor %}
-  </ul>
-</div>
+      </div>
+    </li>
+  {% endunless %}
+{% endfor %}
+</ul>
 
 <div class="years">
-  <p class="previous">
-    {% if this_year > 2001 %}
-      <a href="/{{ this_year | minus: 1 }}/">«&nbsp;{{ this_year | minus: 1 }}</a>
-    {% else %}
-      <span title="No previous content, sorry">«&nbsp;{{ this_year | minus: 1 }}</span>
-    {% endif %}
-  </p>
-  <p class="following">
-    {% if this_year < max_year %}
-      <a href="/{{ this_year | plus: 1 }}/">{{ this_year | plus: 1 }}&nbsp;»</a>
-    {% else %}
-      <span title="Not yet!">{{ this_year | plus: 1 }}&nbsp;»</span>
-    {% endif %}
-  </p>
+  {{ yearsNavigation }}
 </div>

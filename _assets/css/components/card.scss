@@ -5,6 +5,15 @@
 // Card
 // ************************************************************
 
+.card {
+  margin: 0;
+  padding: 0;
+}
+
+.card--article {
+  font-size: 1.1em;
+}
+
 .card__author {
   margin: 0;
   padding: 0;

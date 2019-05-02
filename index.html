@@ -31,39 +31,26 @@ JSON-LD for:
 }
 </script>
 
-<section id="links" class="list">
-  <h2 class="list__title">Latest links</h2>
-  <ul class="list__items list__items--small">
-    {% for link in site.categories['links'] limit:3 %}
-      <li class="card list__item">
-        {% if link.author %}
-          <p class="card__author">{{ link.author }}:</p>
-        {% endif %}
-        <h3 class="card__title"><a href="{{ link.url }}">{{ link.title }}</a></h3>
-        {% include_cached link-meta.html page=link %}
+<ul class="list">
+  {% for post in site.posts limit:10 %}
+    {% if post.categories contains 'links' %}
+      <li class="list__item">
+        <div class="card card--link">
+          <h3 class="card__title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          {% include_cached link-meta.html page=post %}
+        </div>
       </li>
-    {% endfor %}
-  </ul>
-</section>
+    {% else %}
+      <li class="list__item list__item--large">
+        <div class="card card--article">
+          {% include_cached post-abstract.html page=post level=3 %}
+        </div>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
 
-<section id="articles" class="list">
-  <h2 class="list__title">Latest articles</h2>
-  <ul class="list__items">
-    {% assign articles_number = 0 %}
-    {% for post in site.posts %}
-      {% if articles_number < 3 %}
-        {% unless post.categories contains 'links' %}
-          <li class="card list__item">
-            {% include_cached post-abstract.html page=post level=3 %}
-          </li>
-          {% assign articles_number = articles_number | plus: 1 %}
-        {% endunless %}
-      {% endif %}
-    {% endfor %}
-  </ul>
-</section>
-
-<section id="tags" class="tagscloud">
-  <h2>Find other contents by tags</h2>
+<section class="tagscloud">
+  <p>Find other contents by tags:</p>
   {% include_cached components/tags-cloud.html %}
 </section>

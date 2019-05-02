@@ -73,7 +73,7 @@ $fontBreakpoint: 40em;
 $h1Increase: 2;
 h1 {
   margin-top: 0;
-  font-size: calc(0.9rem + #{$h1Increase}vw);
+  font-size: calc(0.9em + #{$h1Increase}vw);
   color: $color-primary;
 
   @media (min-width: $fontBreakpoint) {
@@ -83,7 +83,7 @@ h1 {
 
 $h2Increase: 1.5;
 h2 {
-  font-size: calc(0.9rem + #{$h2Increase}vw);
+  font-size: calc(0.9em + #{$h2Increase}vw);
   color: $color-primary-lighter-1;
 
   @media (min-width: $fontBreakpoint) {
@@ -93,7 +93,7 @@ h2 {
 
 $h3Increase: 1.2;
 h3 {
-  font-size: calc(0.9rem + #{$h3Increase}vw);
+  font-size: calc(0.9em + #{$h3Increase}vw);
   color: $color-primary-lighter-2;
 
   @media (min-width: $fontBreakpoint) {
@@ -103,7 +103,7 @@ h3 {
 
 $h4Increase: 1;
 h4 {
-  font-size: calc(0.9rem + #{$h4Increase}vw);
+  font-size: calc(0.9em + #{$h4Increase}vw);
   color: $color-primary-lighter-2;
 
   @media (min-width: $fontBreakpoint) {
@@ -113,7 +113,7 @@ h4 {
 
 $h5Increase: 0.5;
 h5 {
-  font-size: calc(0.9rem + #{$h5Increase}vw);
+  font-size: calc(0.9em + #{$h5Increase}vw);
   color: $color-primary-lighter-2;
 
   @media (min-width: $fontBreakpoint) {
