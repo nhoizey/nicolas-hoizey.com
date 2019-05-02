@@ -11,9 +11,9 @@ Certain(e)s d'entre vous préfèrent lire les commentaires sur les articles par 
 
 Je suis plutôt de la seconde catégorie, et ça tombe bien parce que SPIP le permet, donc c'est ce que j'avais toujours proposé sur Gastero Prod.
 
-Maintenant, si vous avez Javascript activé, vous allez pouvoir choisir vous-même comment vous souhaitez lire les commentaires !
+Maintenant, si vous avez JavaScript activé, vous allez pouvoir choisir vous-même comment vous souhaitez lire les commentaires !
 
 {% cloudinary Image_1.png %}
 
 
-Tout cela est rendu possible par la librairie Javascript magique [jQuery](http://www.jquery.com/), qui me permet d'ajouter ce fonctionnement de manière non intrusive en Ajax.
+Tout cela est rendu possible par la librairie JavaScript magique [jQuery](http://www.jquery.com/), qui me permet d'ajouter ce fonctionnement de manière non intrusive en Ajax.

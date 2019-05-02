@@ -6,7 +6,7 @@ tags:       [development, Clever Age, jQuery, JavaScript]
 
 *Article initialement publié dans [le weblog de Clever Age](http://www.clever-age.com/veille/blog/comment-definir-dans-jquery-ses-propres-filtres-de-selection.html).*
 
-La librairie Javascript [jQuery](http://jquery.com/) est en train de se répandre à grande vitesse, mais malgré une [documentation](http://docs.jquery.com/Main_Page) assez complète, certains points restent obscurs. Voici par exemple comment créer votre propre filtre de sélection.
+La librairie JavaScript [jQuery](http://jquery.com/) est en train de se répandre à grande vitesse, mais malgré une [documentation](http://docs.jquery.com/Main_Page) assez complète, certains points restent obscurs. Voici par exemple comment créer votre propre filtre de sélection.
 
 
 Le besoin particulier qui m'a conduit à trouver la solution que je vais exposer ici est de sélectionner des éléments dont le contenu texte est exactement égal à une chaine de caractères donnée.

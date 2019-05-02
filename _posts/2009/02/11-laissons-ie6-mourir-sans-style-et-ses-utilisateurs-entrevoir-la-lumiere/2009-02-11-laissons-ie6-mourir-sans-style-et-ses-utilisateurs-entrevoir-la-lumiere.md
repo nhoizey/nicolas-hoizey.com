@@ -6,8 +6,7 @@ tags:       [fail, standards, Microsoft, CSS, Internet Explorer]
 
 Bon, allez, ça va un peu les enfantillages, mais il est temps de montrer aux utilisateurs de IE6 que non, ils n'utilisent pas un bon navigateur, mais que ce sont plutôt des hordes de développeurs Web qui s'arrachent les cheveux pour qu'ils en aient l'illusion. Alors voilà, j'ai décidé d'aider ses pauvres égarés à revenir dans le droit chemin…
 
-
-Bon, il faut dire que malgré mes nombreuses tentatives pour faire fonctionner convenablement ce site dans IE6, au prix de quelques poignées de touffes de cheveux, ce n'était toujours pas ça, avec des éléments de contenu qui se baladaient n'importe où dans la page, voir même qui se déplaçaient lors de leur survol par le curseur de la souris, et ce sans aucun code Javascript !
+Bon, il faut dire que malgré mes nombreuses tentatives pour faire fonctionner convenablement ce site dans IE6, au prix de quelques poignées de touffes de cheveux, ce n'était toujours pas ça, avec des éléments de contenu qui se baladaient n'importe où dans la page, voir même qui se déplaçaient lors de leur survol par le curseur de la souris, et ce sans aucun code JavaScript !
 
 Alors [j'ai décidé de jeter le support de IE6](http://idroppedie6.com/sites/65-httpwwwgasteroprodcom) pour de bon, avec style… enfin, sans continuer à lui envoyer des styles justement, pour que ses utilisateurs profitent pleinement de la belle structure HTML un rien sémantique que j'ai conçue, sans être pénalisés par les énormes erreurs d'interprétation des CSS :
 

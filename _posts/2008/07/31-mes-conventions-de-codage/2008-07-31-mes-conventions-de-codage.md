@@ -21,7 +21,7 @@ Quoi qu'il en soit, il ne faut pas oublier non plus que ces conventions de codag
 
 Côté PHP, donc, j'étais plutôt utilisateur des conventions de PEAR, mais comme je l'ai indiqué plus tôt, j'adopte systématiquement les conventions déjà en place sur les projets auxquels je participe, donc je m'intéresse maintenant à celles de [symfony](http://www.clever-age.com/veille/blog/tags/symfony/).
 
-Pour le Javascript, rien de bien original, j'utilise *grosso modo* les mêmes qu'Oncle Tom, mais pour les CSS, je reste basique, pas d'indentation selon la cascade, et un ordre logique plutôt qu'alphabétique.
+Pour le JavaScript, rien de bien original, j'utilise *grosso modo* les mêmes qu'Oncle Tom, mais pour les CSS, je reste basique, pas d'indentation selon la cascade, et un ordre logique plutôt qu'alphabétique.
 
 Bon, la patate est encore chaude bien que passée entre de nombreuses mains, je la refile vite fait à [Oliv](http://www.glagla.org/weblog/) même s'il a fait un rapide commentaire chez Oncle Tom, [NiCoS](http://www.unelectronlibre.info/) histoire d'avoir l'avis d'un fan de Django et [Clochix](http://www.clochix.net/) !
 

@@ -30,7 +30,7 @@ Cela devrait à n'en pas douter *booster* la [création d'applications exploitan
 
 Alors que REST semble recevoir de plus en plus de suffrages face à la lourdeur et complexité de la constellation WS-* qui gravite autour de SOAP[^1], voilà qui pourrait bien favoriser l'éclosion d'une nouvelle race de Web Services.
 
-Il est en effet bien plus simple de générer un tableau Javascript à partir de contenu au format json que de parser du XML. Sans compter l'économie en bande passante et en temps de traitement, tant côté client que serveur.
+Il est en effet bien plus simple de générer un tableau JavaScript à partir de contenu au format json que de parser du XML. Sans compter l'économie en bande passante et en temps de traitement, tant côté client que serveur.
 
 Par contre, il manque deux choses pour que le modèle d'architecture REST soit respecté :
 1. le type de contenu devrait être correctement indiqué dans l'en-tête HTTP de la réponse du service web (Content-Type: xxx)
