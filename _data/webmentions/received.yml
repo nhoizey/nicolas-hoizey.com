@@ -26762,7 +26762,7 @@
     id: '608870'
     uri: https://twitter.com/nhoizey/status/1120960934174973952#favorited-by-16500887
     source: twitter
-    pubdate: 2019-04-24 08:55:12.000000000 +00:00
+    pubdate: 2019-04-24 10:55:12.000000000 +02:00
     raw:
       source: https://brid-gy.appspot.com/like/twitter/nhoizey/1120960934174973952/16500887
       verified: true
@@ -26793,7 +26793,7 @@
     id: '609108'
     uri: https://twitter.com/nhoizey/status/1121177636594692096#favorited-by-16088762
     source: twitter
-    pubdate: 2019-04-25 06:21:00.000000000 +00:00
+    pubdate: 2019-04-25 08:21:00.000000000 +02:00
     raw:
       source: https://brid-gy.appspot.com/like/twitter/nhoizey/1121177636594692096/16088762
       verified: true
@@ -28046,7 +28046,7 @@
     id: '610389'
     uri: http://catless.ncl.ac.uk/Risks/31/21/#subj21.1
     source: false
-    pubdate: 2019-04-30 09:16:21.000000000 +00:00
+    pubdate: 2019-04-30 11:16:21.000000000 +02:00
     raw:
       source: http://catless.ncl.ac.uk/Risks/31/21/#subj21.1
       verified: true
@@ -28138,3 +28138,4 @@
     type: link
     content: "<p>\U0001F60D\n<a class=\"u-mention\" href=\"https://nho.io/2GHVmDk\"></a>\n<a
       class=\"u-mention\" href=\"https://nicolas-hoizey.com/links/2019/04/progressive-font-enrichment-reinventing-web-font-performance.html\"></a></p>"
+"/links/2019/05/implementing-a-mockup-css-layout-step-by-step.html": {}
