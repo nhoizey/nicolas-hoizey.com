@@ -65,6 +65,10 @@
   }
 }
 
+.card__author {
+  display: none;
+}
+
 .card__date,
 .card__webmentionscount {
   white-space: nowrap;
