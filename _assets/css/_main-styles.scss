@@ -557,11 +557,15 @@ article {
     padding: 0.5em;
   }
 
-  a.footnote,
+  a.footnote {
+    text-decoration: none;
+    padding: 0 0.2em;
+    margin: 0 0.2em;
+  }
+
   a.reversefootnote {
     text-decoration: none;
     box-shadow: none;
-    padding: 0 0.2em;
   }
 
   // https://gist.github.com/unruthless/413930
