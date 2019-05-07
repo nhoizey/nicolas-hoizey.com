@@ -408,7 +408,7 @@ main {
 article {
   margin: 0;
 
-  .e-content p:first-of-type {
+  .e-content > p:first-of-type {
     font-size: 1.2em;
   }
 

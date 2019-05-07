@@ -1,3 +1,3 @@
-<h{{ include.level | default: "2" }} class="card__title"><a href="{{ include.page.url }}" hreflang="{{ include.page.lang }}">{{ include.page.title }}</a></h{{ include.level | default: "2" }}>
-<p class="card__excerpt">{{ include.page.excerpt | strip_footnotes | strip_html }}</p>
+<h{{ include.level | default: "2" }} class="card__title p-name"><a href="{{ include.page.url }}" hreflang="{{ include.page.lang }}" class="u-url">{{ include.page.title }}</a></h{{ include.level | default: "2" }}>
+<p class="card__excerpt p-summary">{{ include.page.excerpt | strip_footnotes | strip_html }}</p>
 {% include_cached post-meta.html page=include.page %}

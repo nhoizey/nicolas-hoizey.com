@@ -1,6 +1,6 @@
 {% asset components/intro @inline %}
 {% assign portrait = site.url | append: '/assets/photo-de-nicolas-hoizey.jpg' %}
-<div id="intro">
+<div id="intro" class="h-card">
   <div class="wrap">
     {% if jekyll.environment == 'production' %}
       <img
@@ -9,13 +9,14 @@
         sizes="(max-width: 20rem) 45vw, (max-width: 67rem) 30vw, 20rem"
         width="180" height="180"
         alt="Portrait de Nicolas Hoizey"
+        class="u-photo"
         style="--aspect-ratio:1;" />
     {% else %}
-      <img src="{{ portrait }}" alt="Portrait de Nicolas Hoizey" />
+      <img src="{{ portrait }}" class="u-photo" alt="Portrait de Nicolas Hoizey" />
     {% endif %}
-    <p>
-      My name is <a href="/about/">Nicolas&nbsp;Hoizey</a>.<br />
-      I am passionate about <strong>the Web</strong> and <strong><a href="/tags/photography.html">photography</a></strong>, among many other interests.
-    </p>
+    <div>
+      <p>My name is <a href="{{ site.url }}" class="p-name u-url u-uid" rel="me">Nicolas Hoizey</a>.</p>
+      <p><span class="p-note">I am passionate about <strong>the Web</strong> and <strong><a href="/tags/photography.html">photography</a></strong>, among <a href="/tags/">many other interests</a>.</span> Learn <a href="/about/">more about me</a>.</p>
+    </div>
   </div>
 </div>

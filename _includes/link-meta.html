@@ -1,13 +1,18 @@
 <footer>
   <ul class="card__meta">
+    <li class="card__meta__item card__author">
+      Published by <a class="p-author h-card" rel="me" href="https://nicolas-hoizey.com">Nicolas Hoizey</a>
+    </li>
     <li class="date card__meta__item card__date">
       <svg class="icon"><use xlink:href="#symbol-date" /></svg>
-      {{ include.page.date | date: "%B" }}&nbsp;
-      {% include_cached ordinal-day.html page=include.page %},
-      {{ include.page.date | date: "%Y" }}
+      <time class="dt-published" datetime="{{ include.page.date | date: "%Y-%m-%d %H:%M:%S" }}">
+        {{ include.page.date | date: "%B" }}&nbsp;
+        {% include_cached ordinal-day.html page=include.page %},
+        {{ include.page.date | date: "%Y" }}
+      </time>
     </li>
     <li class="tags card__meta__item card__tags">
-      <svg class="icon"><use xlink:href="#symbol-tags" /></svg>&nbsp;{{ include.page | tags }}
+      <svg class="icon"><use xlink:href="#symbol-tags" /></svg>&nbsp;{{ include.page | tags | tags_microformat }}
     </li>
     {% capture webmention_count_value %}{% webmention_count include.page.url %}{% endcapture %}
     {% assign webmention_count_int = webmention_count_value | strip_html | plus: 0 %}
