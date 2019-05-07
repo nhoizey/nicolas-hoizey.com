@@ -8,7 +8,7 @@ layout: default
   <div class="link__header">
     <div class="link__info">
       {% if page.author %}
-        <p class="link__author">{{ page.author }}{% if page.author_twitter %} (<svg><use xlink:href="#symbol-twitter" /></svg>&nbsp;<a href="https://twitter.com/{{ page.author_twitter }}">@{{ page.author_twitter }}</a>){% endif %}:</p>
+        <p class="link__source">{{ page.author }}{% if page.author_twitter %} (<svg><use xlink:href="#symbol-twitter" /></svg>&nbsp;<a href="https://twitter.com/{{ page.author_twitter }}">@{{ page.author_twitter }}</a>){% endif %}:</p>
       {% endif %}
       <h1>{{ page.title }}</h1>
       {% include_cached link-meta.html page=page %}

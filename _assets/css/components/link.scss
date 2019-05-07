@@ -1,4 +1,4 @@
-@import 'settings';
+@import "settings";
 
 // ************************************************************
 // Link
@@ -9,7 +9,7 @@
   padding: 0;
 }
 
-.link__author {
+.link__source {
   margin: 0;
 
   svg {
@@ -19,8 +19,8 @@
   }
 }
 
-.link__author + h1,
-.link__author + h2 {
+.link__source + h1,
+.link__source + h2 {
   margin-top: 0;
 }
 

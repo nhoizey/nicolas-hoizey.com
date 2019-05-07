@@ -9,7 +9,7 @@ title:  Links
     <li class="list__item">
       <div class="card card--link">
         {% if link.author %}
-          <p class="card__author">{{ link.author }}:</p>
+          <p class="card__source">{{ link.author }}:</p>
         {% endif %}
         <h3 class="card__title"><a href="{{ link.url }}">{{ link.title }}</a></h3>
         {% include_cached link-meta.html page=link %}
