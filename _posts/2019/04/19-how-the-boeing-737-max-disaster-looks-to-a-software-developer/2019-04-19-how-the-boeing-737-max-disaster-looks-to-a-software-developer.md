@@ -8,7 +8,7 @@ Experienced plane pilot and software developer [Gregory Travis](https://twitter.
 
 # Why do I even care?
 
-**My family and I were in one of these Ethiopian Airlines' Boeing 737 Max** just two weeks before [the crash of flight 302](https://en.wikipedia.org/wiki/Ethiopian_Airlines_Flight_302), on the same flight from Addis Ababa to Nairobi!
+**My family and I were in one of these** Ethiopian Airlines' Boeing 737 Max just two weeks before [the crash of flight 302](https://en.wikipedia.org/wiki/Ethiopian_Airlines_Flight_302), on the same flight from Addis Ababa to Nairobi!
 
 The one that crashed was registered [ET-AVJ](https://aviation-safety.net/database/record.php?id=20190310-0). The one we took was registered ET-AVI[^flightradar]. Very close. I guess both <del>have</del> had the very same hardware and software.
 
