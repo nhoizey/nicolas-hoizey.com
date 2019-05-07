@@ -70,7 +70,7 @@ h6 {
 
 $fontBreakpoint: 40em;
 
-$h1Increase: 2;
+$h1Increase: 1.5;
 h1 {
   margin-top: 0;
   font-size: calc(0.9em + #{$h1Increase}vw);
@@ -81,7 +81,7 @@ h1 {
   }
 }
 
-$h2Increase: 1.5;
+$h2Increase: 1.2;
 h2 {
   font-size: calc(0.9em + #{$h2Increase}vw);
   color: $color-primary-lighter-1;
@@ -91,7 +91,7 @@ h2 {
   }
 }
 
-$h3Increase: 1.2;
+$h3Increase: 1;
 h3 {
   font-size: calc(0.9em + #{$h3Increase}vw);
   color: $color-primary-lighter-2;
@@ -101,7 +101,7 @@ h3 {
   }
 }
 
-$h4Increase: 1;
+$h4Increase: 0.8;
 h4 {
   font-size: calc(0.9em + #{$h4Increase}vw);
   color: $color-primary-lighter-2;
@@ -123,7 +123,7 @@ h5 {
 
 h6 {
   font-style: italic;
-  font-size: 1rem;
+  font-size: 1em;
   color: $color-primary-lighter-2;
 }
 
