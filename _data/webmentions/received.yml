@@ -28138,4 +28138,73 @@
     type: link
     content: "<p>\U0001F60D\n<a class=\"u-mention\" href=\"https://nho.io/2GHVmDk\"></a>\n<a
       class=\"u-mention\" href=\"https://nicolas-hoizey.com/links/2019/04/progressive-font-enrichment-reinventing-web-font-performance.html\"></a></p>"
-"/links/2019/05/implementing-a-mockup-css-layout-step-by-step.html": {}
+"/links/2019/05/implementing-a-mockup-css-layout-step-by-step.html":
+  '612764':
+    id: '612764'
+    uri: https://twitter.com/nice_links/status/1125726770014171136#favorited-by-49285959
+    source: twitter
+    pubdate: 2019-05-08 22:48:01.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nice_links/1125726770014171136/49285959
+      verified: true
+      verified_date: '2019-05-08T22:48:01+00:00'
+      id: 612764
+      private: false
+      data:
+        author: &724
+          name: "@maelig@mastodon.social"
+          url: https://twitter.com/MaelB
+          photo: https://webmention.io/avatar/pbs.twimg.com/8ab6add44746a82931bfdd883eac6cf842f2a0261f1258a93e5e6422eb957184.jpg
+        url: https://twitter.com/nice_links/status/1125726770014171136#favorited-by-49285959
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: "@maelig@mastodon.social favorited a tweet https://nicolas-hoizey.com/links/2019/05/implementing-a-mockup-css-layout-step-by-step.html"
+        sentence_html: <a href="https://twitter.com/MaelB">@maelig@mastodon.social</a>
+          favorited a tweet <a href="https://nicolas-hoizey.com/links/2019/05/implementing-a-mockup-css-layout-step-by-step.html">https://nicolas-hoizey.com/links/2019/05/implementing-a-mockup-css-layout-step-by-step.html</a>
+      target: https://nicolas-hoizey.com/links/2019/05/implementing-a-mockup-css-layout-step-by-step.html
+    author: *724
+    type: like
+    content: <p><a href="https://twitter.com/MaelB">@maelig@mastodon.social</a> favorited
+      a tweet <a href="https://nicolas-hoizey.com/links/2019/05/implementing-a-mockup-css-layout-step-by-step.html">https://nicolas-hoizey.com/links/2019/05/implementing-a-mockup-css-layout-step-by-step.html</a></p>
+  '1125818361093468162':
+    id: '1125818361093468162'
+    uri: https://twitter.com/nhoizey/status/1125818361093468162
+    source: twitter
+    pubdate: 2019-05-07 19:43:08.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/post/twitter/nice_links/1125818361093468162
+      verified: true
+      verified_date: '2019-05-07T19:53:38+00:00'
+      id: 612514
+      private: false
+      data:
+        author: &725
+          name: Nicolas Hoizey
+          url: https://twitter.com/nhoizey
+          photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
+        url: https://twitter.com/nhoizey/status/1125818361093468162
+        name: 
+        content: |-
+          Very nice step by step tutorial for people who don’t know yet how to appropriately use CSS to design a simple component.
+          <a class="u-mention" href="https://nho.io/2J7do4g"></a>
+          <a class="u-mention" href="https://nicolas-hoizey.com/links/2019/05/implementing-a-mockup-css-layout-step-by-step.html"></a>
+        published: '2019-05-07T17:43:08+00:00'
+        published_ts: 1557250988
+      activity:
+        type: link
+        sentence: Nicolas Hoizey posted 'Very nice step by step tutorial for people
+          who don’t know yet how to appropriate...' linking to https://nicolas-hoizey.com/links/2019/05/implementing-a-mockup-css-layout-step-by-step.html
+        sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> posted
+          'Very nice step by step tutorial for people who don’t know yet how to appropriate...'
+          linking to <a href="https://nicolas-hoizey.com/links/2019/05/implementing-a-mockup-css-layout-step-by-step.html">https://nicolas-hoizey.com/links/2019/05/implementing-a-mockup-css-layout-step-by-step.html</a>
+      target: https://nicolas-hoizey.com/links/2019/05/implementing-a-mockup-css-layout-step-by-step.html
+    author: *725
+    type: link
+    content: |-
+      <p>Very nice step by step tutorial for people who don’t know yet how to appropriately use CSS to design a simple component.
+      <a class="u-mention" href="https://nho.io/2J7do4g"></a>
+      <a class="u-mention" href="https://nicolas-hoizey.com/links/2019/05/implementing-a-mockup-css-layout-step-by-step.html"></a></p>
