@@ -7232,6 +7232,32 @@
       href=\"https://medium.com/@susiekim9/how-to-compensate-for-the-ios-viewport-unit-bug-46e78d54af0d\">https://medium.com/@susiekim9/how-to-compensate-for-the-ios-viewport-unit-bug-46e78d54af0d</a></li>\n<li><a
       href=\"https://css-tricks.com/the-trick-to-viewport-units-on-mobile/\">https://css-tricks.com/the-trick-to-viewport-units-on-mobile/</a></li>\n<p>&lt;/ul&gt;&lt;p&gt;ちなみに<strong>clientHeight</strong>に計算対象とするブロックの<span>heightとpaddingは含まれます</span>が、<span>marginは含まれない</span>ことに注意です。&lt;/p&gt;&lt;p&gt;確かbox-sizing:
       border-boxと似たような感じ。&lt;/p&gt;</p>"
+  '614308':
+    id: '614308'
+    uri: http://www.ix1.shop/archives/56987
+    source: false
+    pubdate: 2019-05-14 22:25:55.000000000 +00:00
+    raw:
+      source: http://www.ix1.shop/archives/56987
+      verified: true
+      verified_date: '2019-05-14T22:25:55+00:00'
+      id: 614308
+      private: false
+      data:
+        url: http://www.ix1.shop/archives/56987
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: link
+        sentence: http://www.ix1.shop/archives/56987 posted '' linking to https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html
+        sentence_html: <a href="http://www.ix1.shop/archives/56987">someone</a> posted
+          '' linking to <a href="https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html">https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html</a>
+      target: https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html
+    author: 
+    type: link
+    content: ''
 "/2015/03/esviji-v2-sera-completement-responsive.html": {}
 "/2015/05/new-york-hors-des-sentiers-battus.html":
   '436311':
@@ -26862,6 +26888,42 @@
       Example in <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">nicolas-hoizey.com/2018/08/using-…</a><br />
       <br />
       Thanks <a href="https://twitter.com/mgyongyosi">@mgyongyosi</a> for <a href="http://mgyongyosi.com/2016/atom-one-dark-syntax-with-jekyll/">mgyongyosi.com/2016/atom-one-…</a></p>
+  '1128729364290514950':
+    id: '1128729364290514950'
+    uri: https://twitter.com/cloudinary/status/1128729364290514950
+    source: twitter
+    pubdate: 2019-05-15 20:30:25.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/post/twitter/nhoizey/1128729364290514950
+      verified: true
+      verified_date: '2019-05-15T18:51:17+00:00'
+      id: 614481
+      private: false
+      data:
+        author: &688
+          name: Cloudinary
+          url: https://twitter.com/cloudinary
+          photo: https://webmention.io/avatar/pbs.twimg.com/4f6003ea4d4feeee7bb37ef997dacf382b5610f3fc29e40424c544884ed87145.jpg
+        url: https://twitter.com/cloudinary/status/1128729364290514950
+        name: 
+        content: |-
+          Using <a href="https://twitter.com/search?q=%23Cloudinary">#Cloudinary</a>’s fetch API to convert an animated <a href="https://twitter.com/search?q=%23GIF">#GIF</a> to a video via <a href="https://twitter.com/nhoizey">@nhoizey</a> <a href="http://ow.ly/VqPb30lCKLd">ow.ly/VqPb30lCKLd</a>
+          <a class="u-mention" href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html"></a>
+        published: '2019-05-15T18:30:25+00:00'
+        published_ts: 1557945025
+      activity:
+        type: link
+        sentence: 'Cloudinary posted ''Using #Cloudinary’s fetch API to convert an
+          animated #GIF to a video via @nhoize...'' linking to https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html'
+        sentence_html: '<a href="https://twitter.com/cloudinary">Cloudinary</a> posted
+          ''Using #Cloudinary’s fetch API to convert an animated #GIF to a video via
+          @nhoize...'' linking to <a href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html">https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html</a>'
+      target: https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
+    author: *688
+    type: link
+    content: |-
+      <p>Using <a href="https://twitter.com/search?q=%23Cloudinary">#Cloudinary</a>’s fetch API to convert an animated <a href="https://twitter.com/search?q=%23GIF">#GIF</a> to a video via <a href="https://twitter.com/nhoizey">@nhoizey</a> <a href="http://ow.ly/VqPb30lCKLd">ow.ly/VqPb30lCKLd</a>
+      <a class="u-mention" href="https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html"></a></p>
 "/links/2018/09/software-disenchantment.html": {}
 "/2018/10/the-treasure-behind-the-castle-walls.html": {}
 "/2018/10/100000-tweets.html":
@@ -26877,7 +26939,7 @@
       id: 591202
       private: false
       data:
-        author: &688
+        author: &689
           name: "Hubert SABLONNIÈRE \U0001F60E"
           url: https://twitter.com/hsablonniere
           photo: https://webmention.io/avatar/pbs.twimg.com/b98be22654fa0b522890000c8e7ce8a6a4385d79a7f280ddacc56b7c2915d8d6.jpg
@@ -26892,7 +26954,7 @@
         sentence_html: "<a href=\"https://twitter.com/hsablonniere\">Hubert SABLONNIÈRE
           \U0001F60E</a> favorited a tweet <a href=\"https://nicolas-hoizey.com/2018/10/100000-tweets.html\">https://nicolas-hoizey.com/2018/10/100000-tweets.html</a>"
       target: https://nicolas-hoizey.com/2018/10/100000-tweets.html
-    author: *688
+    author: *689
     type: like
     content: "<p><a href=\"https://twitter.com/hsablonniere\">Hubert SABLONNIÈRE \U0001F60E</a>
       favorited a tweet <a href=\"https://nicolas-hoizey.com/2018/10/100000-tweets.html\">https://nicolas-hoizey.com/2018/10/100000-tweets.html</a></p>"
@@ -26927,7 +26989,7 @@
       id: 574882
       private: false
       data:
-        author: &689
+        author: &690
           name: Gaël Poupard
           url: https://twitter.com/ffoodd_fr
           photo: https://webmention.io/avatar/pbs.twimg.com/bebb7c8bbc4d5d316c64a4e8278e4fb1a662dd836590aa669864c8f7d7ca013d.jpeg
@@ -26942,7 +27004,7 @@
         sentence_html: <a href="https://twitter.com/ffoodd_fr">Gaël Poupard</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/links/2019/01/passwords-evolved-authentication-guidance-for-the-modern-era.html">https://nicolas-hoizey.com/links/2019/01/passwords-evolved-authentication-guidance-for-the-modern-era.html</a>
       target: https://nicolas-hoizey.com/links/2019/01/passwords-evolved-authentication-guidance-for-the-modern-era.html
-    author: *689
+    author: *690
     type: like
     content: <p><a href="https://twitter.com/ffoodd_fr">Gaël Poupard</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/links/2019/01/passwords-evolved-authentication-guidance-for-the-modern-era.html">https://nicolas-hoizey.com/links/2019/01/passwords-evolved-authentication-guidance-for-the-modern-era.html</a></p>
@@ -26958,7 +27020,7 @@
       id: 574033
       private: false
       data:
-        author: &690
+        author: &691
           name: Nicolas Hoizey
           url: https://twitter.com/nhoizey
           photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
@@ -26980,7 +27042,7 @@
           'Une excellente synthèse des bonnes pratiques liées à la connexion (surtout
           par m...' linking to <a href="https://nicolas-hoizey.com/links/2019/01/passwords-evolved-authentication-guidance-for-the-modern-era.html">https://nicolas-hoizey.com/links/2019/01/passwords-evolved-authentication-guidance-for-the-modern-era.html</a>
       target: https://nicolas-hoizey.com/links/2019/01/passwords-evolved-authentication-guidance-for-the-modern-era.html
-    author: *690
+    author: *691
     type: link
     content: |-
       <p>Une excellente synthèse des bonnes pratiques liées à la connexion (surtout par mot de passe) qu’on a vu naître au cours des 10 dernières années, mais que trop de services/entreprises n’appliquent toujours pas.<br />
@@ -27001,7 +27063,7 @@
       id: 574862
       private: false
       data:
-        author: &691
+        author: &692
           name: Nicolas Hoizey
           url: https://twitter.com/nhoizey
           photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
@@ -27021,7 +27083,7 @@
           ''How do you develop your native mobile apps nowadays, when #PWA are not
           enough?'' linking to <a href="https://nicolas-hoizey.com/links/2019/01/flutter-the-good-the-bad-and-the-ugly.html">https://nicolas-hoizey.com/links/2019/01/flutter-the-good-the-bad-and-the-ugly.html</a>'
       target: https://nicolas-hoizey.com/links/2019/01/flutter-the-good-the-bad-and-the-ugly.html
-    author: *691
+    author: *692
     type: link
     content: |-
       <p>How do you develop your native mobile apps nowadays, when <a href="https://twitter.com/search?q=%23PWA">#PWA</a> are not enough?
@@ -27040,7 +27102,7 @@
       id: 574720
       private: false
       data:
-        author: &692
+        author: &693
           name: Khadija Wardi خديجة وردي
           url: https://twitter.com/AdijahWardi
           photo: https://webmention.io/avatar/pbs.twimg.com/94cce1631b7ec874f75b0f01860da13cbe868bd09f516ee03f910e27f747af83.jpg
@@ -27055,7 +27117,7 @@
         sentence_html: <a href="https://twitter.com/AdijahWardi">Khadija Wardi خديجة
           وردي</a> favorited a tweet <a href="https://nicolas-hoizey.com/links/2019/01/the-rule-of-least-power.html">https://nicolas-hoizey.com/links/2019/01/the-rule-of-least-power.html</a>
       target: https://nicolas-hoizey.com/links/2019/01/the-rule-of-least-power.html
-    author: *692
+    author: *693
     type: like
     content: <p><a href="https://twitter.com/AdijahWardi">Khadija Wardi خديجة وردي</a>
       favorited a tweet <a href="https://nicolas-hoizey.com/links/2019/01/the-rule-of-least-power.html">https://nicolas-hoizey.com/links/2019/01/the-rule-of-least-power.html</a></p>
@@ -27072,7 +27134,7 @@
       id: 575337
       private: false
       data:
-        author: &693
+        author: &694
           name: "@maelig@mastodon.social"
           url: https://twitter.com/MaelB
           photo: https://webmention.io/avatar/pbs.twimg.com/8ab6add44746a82931bfdd883eac6cf842f2a0261f1258a93e5e6422eb957184.jpg
@@ -27087,7 +27149,7 @@
         sentence_html: <a href="https://twitter.com/MaelB">@maelig@mastodon.social</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/links/2019/01/if-it-s-interactive-it-needs-a-focus-style.html">https://nicolas-hoizey.com/links/2019/01/if-it-s-interactive-it-needs-a-focus-style.html</a>
       target: https://nicolas-hoizey.com/links/2019/01/if-it-s-interactive-it-needs-a-focus-style.html
-    author: *693
+    author: *694
     type: like
     content: <p><a href="https://twitter.com/MaelB">@maelig@mastodon.social</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/links/2019/01/if-it-s-interactive-it-needs-a-focus-style.html">https://nicolas-hoizey.com/links/2019/01/if-it-s-interactive-it-needs-a-focus-style.html</a></p>
@@ -27103,7 +27165,7 @@
       id: 575224
       private: false
       data:
-        author: &694
+        author: &695
           name: Nicolas Hoizey
           url: https://twitter.com/nhoizey
           photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
@@ -27123,7 +27185,7 @@
           'Discovered this talk by @ericwbailey just after changing my own focus styles,
           ha...' linking to <a href="https://nicolas-hoizey.com/links/2019/01/if-it-s-interactive-it-needs-a-focus-style.html">https://nicolas-hoizey.com/links/2019/01/if-it-s-interactive-it-needs-a-focus-style.html</a>
       target: https://nicolas-hoizey.com/links/2019/01/if-it-s-interactive-it-needs-a-focus-style.html
-    author: *694
+    author: *695
     type: link
     content: |-
       <p>Discovered this talk by <a href="https://twitter.com/ericwbailey">@ericwbailey</a> just after changing my own focus styles, happy to read they look much better than previously!
@@ -27142,7 +27204,7 @@
       id: 575250
       private: false
       data:
-        author: &695
+        author: &696
           name: Nicolas Hoizey
           url: https://twitter.com/nhoizey
           photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
@@ -27159,7 +27221,7 @@
         sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
           a tweet <a href="https://nicolas-hoizey.com/links/2019/01/on-the-importance-of-testing-with-content-blockers.html">https://nicolas-hoizey.com/links/2019/01/on-the-importance-of-testing-with-content-blockers.html</a>
       target: https://nicolas-hoizey.com/links/2019/01/on-the-importance-of-testing-with-content-blockers.html
-    author: *695
+    author: *696
     type: repost
     content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/links/2019/01/on-the-importance-of-testing-with-content-blockers.html">https://nicolas-hoizey.com/links/2019/01/on-the-importance-of-testing-with-content-blockers.html</a></p>
@@ -27176,7 +27238,7 @@
       id: 576058
       private: false
       data:
-        author: &696
+        author: &697
           name: Amanda J. Rush
           url: https://twitter.com/cswordpress
           photo: https://webmention.io/avatar/pbs.twimg.com/f857ae597fa2ca438c5d8450fd707a8a8f9f2d48ea6295797a96a9c8d453e68b.jpg
@@ -27191,7 +27253,7 @@
         sentence_html: <a href="https://twitter.com/cswordpress">Amanda J. Rush</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html">https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html</a>
       target: https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html
-    author: *696
+    author: *697
     type: like
     content: <p><a href="https://twitter.com/cswordpress">Amanda J. Rush</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html">https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html</a></p>
@@ -27207,7 +27269,7 @@
       id: 575584
       private: false
       data:
-        author: &697
+        author: &698
           name: Nicolas Hoizey
           url: https://twitter.com/nhoizey
           photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
@@ -27226,7 +27288,7 @@
         sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> posted
           'Thanks a lot @schnarfed for Bridgy!' linking to <a href="https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html">https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html</a>
       target: https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html
-    author: *697
+    author: *698
     type: link
     content: |-
       <p>Thanks a lot <a href="https://twitter.com/schnarfed">@schnarfed</a> for Bridgy!
@@ -27244,7 +27306,7 @@
       id: 575592
       private: false
       data:
-        author: &698
+        author: &699
           name: Ryan Barrett
           url: https://snarfed.org/
           photo: https://webmention.io/avatar/secure.gravatar.com/c0b31d7bbe47a775d32d364bde66f5ad59d507f03ae164635611401c06394fc4.png
@@ -27260,7 +27322,7 @@
         sentence_html: <a href="https://snarfed.org/">Ryan Barrett</a> liked a post
           <a href="https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html">https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html</a>
       target: https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html
-    author: *698
+    author: *699
     type: like
     content: <p><a href="https://snarfed.org/">Ryan Barrett</a> liked a post <a href="https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html">https://nicolas-hoizey.com/links/2019/01/bridgy-stats-update.html</a></p>
 "/links/2019/01/the-flexbox-holy-albatross-reincarnated.html":
@@ -27276,7 +27338,7 @@
       id: 577224
       private: false
       data:
-        author: &699
+        author: &700
           name: Nicolas Hoizey
           url: https://twitter.com/nhoizey
           photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
@@ -27296,7 +27358,7 @@
           'Now you can chose between @HTeuMeuLeu’s Fab Four with `width` and @heydonworks’s...'
           linking to <a href="https://nicolas-hoizey.com/links/2019/01/the-flexbox-holy-albatross-reincarnated.html">https://nicolas-hoizey.com/links/2019/01/the-flexbox-holy-albatross-reincarnated.html</a>
       target: https://nicolas-hoizey.com/links/2019/01/the-flexbox-holy-albatross-reincarnated.html
-    author: *699
+    author: *700
     type: link
     content: "<p>Now you can chose between <a href=\"https://twitter.com/HTeuMeuLeu\">@HTeuMeuLeu</a>’s
       Fab Four with <code class=\"highlighter-rouge\">width</code> and <a href=\"https://twitter.com/heydonworks\">@heydonworks</a>’s
@@ -27316,7 +27378,7 @@
       id: 577887
       private: false
       data:
-        author: &700
+        author: &701
           name: Stéphanie Laporte
           url: https://twitter.com/steashaz
           photo: https://webmention.io/avatar/pbs.twimg.com/72830bf925ad985f41233f2c086d9fe3ebb8822e1e99173582be6aa9529f6462.png
@@ -27331,7 +27393,7 @@
         sentence_html: <a href="https://twitter.com/steashaz">Stéphanie Laporte</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/links/2019/01/signal-v-noise-exits-medium.html">https://nicolas-hoizey.com/links/2019/01/signal-v-noise-exits-medium.html</a>
       target: https://nicolas-hoizey.com/links/2019/01/signal-v-noise-exits-medium.html
-    author: *700
+    author: *701
     type: like
     content: <p><a href="https://twitter.com/steashaz">Stéphanie Laporte</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/links/2019/01/signal-v-noise-exits-medium.html">https://nicolas-hoizey.com/links/2019/01/signal-v-noise-exits-medium.html</a></p>
@@ -27347,7 +27409,7 @@
       id: 577888
       private: false
       data:
-        author: &701
+        author: &702
           name: Nicolas Hoizey
           url: https://twitter.com/nhoizey
           photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
@@ -27363,7 +27425,7 @@
         sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
           a tweet <a href="https://nicolas-hoizey.com/links/2019/01/signal-v-noise-exits-medium.html">https://nicolas-hoizey.com/links/2019/01/signal-v-noise-exits-medium.html</a>
       target: https://nicolas-hoizey.com/links/2019/01/signal-v-noise-exits-medium.html
-    author: *701
+    author: *702
     type: repost
     content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/links/2019/01/signal-v-noise-exits-medium.html">https://nicolas-hoizey.com/links/2019/01/signal-v-noise-exits-medium.html</a></p>
@@ -27380,7 +27442,7 @@
       id: 584248
       private: false
       data:
-        author: &702
+        author: &703
           name: Nicolas Hoizey
           url: https://twitter.com/nhoizey
           photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
@@ -27396,7 +27458,7 @@
         sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
           a tweet <a href="https://nicolas-hoizey.com/links/2019/01/the-legacy-of-firefox-os.html">https://nicolas-hoizey.com/links/2019/01/the-legacy-of-firefox-os.html</a>
       target: https://nicolas-hoizey.com/links/2019/01/the-legacy-of-firefox-os.html
-    author: *702
+    author: *703
     type: repost
     content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/links/2019/01/the-legacy-of-firefox-os.html">https://nicolas-hoizey.com/links/2019/01/the-legacy-of-firefox-os.html</a></p>
@@ -27413,7 +27475,7 @@
       id: 591181
       private: false
       data:
-        author: &703
+        author: &704
           name: "@thomas@social.tzi.fr"
           url: https://twitter.com/iamtzi
           photo: https://webmention.io/avatar/pbs.twimg.com/771c10bdccf2f1097190137165e552207370fc500b4e8edf30f141ef858cede1.jpg
@@ -27428,7 +27490,7 @@
         sentence_html: <a href="https://twitter.com/iamtzi">@thomas@social.tzi.fr</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/links/2019/02/file-web-share-target.html">https://nicolas-hoizey.com/links/2019/02/file-web-share-target.html</a>
       target: https://nicolas-hoizey.com/links/2019/02/file-web-share-target.html
-    author: *703
+    author: *704
     type: like
     content: <p><a href="https://twitter.com/iamtzi">@thomas@social.tzi.fr</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/links/2019/02/file-web-share-target.html">https://nicolas-hoizey.com/links/2019/02/file-web-share-target.html</a></p>
@@ -27444,7 +27506,7 @@
       id: 591182
       private: false
       data:
-        author: &704
+        author: &705
           name: Nicolas Hoizey
           url: https://twitter.com/nhoizey
           photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
@@ -27460,7 +27522,7 @@
         sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
           a tweet <a href="https://nicolas-hoizey.com/links/2019/02/file-web-share-target.html">https://nicolas-hoizey.com/links/2019/02/file-web-share-target.html</a>
       target: https://nicolas-hoizey.com/links/2019/02/file-web-share-target.html
-    author: *704
+    author: *705
     type: repost
     content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/links/2019/02/file-web-share-target.html">https://nicolas-hoizey.com/links/2019/02/file-web-share-target.html</a></p>
@@ -27477,7 +27539,7 @@
       id: 591554
       private: false
       data:
-        author: &705
+        author: &706
           name: Nicolas Hoizey
           url: https://twitter.com/nhoizey
           photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
@@ -27496,7 +27558,7 @@
         sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> posted
           'Old, but amazing, presentation of browsers internals.' linking to <a href="https://nicolas-hoizey.com/links/2019/02/how-browsers-work-behind-the-scenes-of-modern-web-browsers.html">https://nicolas-hoizey.com/links/2019/02/how-browsers-work-behind-the-scenes-of-modern-web-browsers.html</a>
       target: https://nicolas-hoizey.com/links/2019/02/how-browsers-work-behind-the-scenes-of-modern-web-browsers.html
-    author: *705
+    author: *706
     type: link
     content: |-
       <p>Old, but amazing, presentation of browsers internals.
@@ -27517,7 +27579,7 @@
       id: 600234
       private: false
       data:
-        author: &706
+        author: &707
           name: Nicolas Hoizey
           url: https://twitter.com/nhoizey
           photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
@@ -27539,7 +27601,7 @@
           'Amazing post by @robweychert about using Grid Layout and Quantity Queries
           to bui...' linking to <a href="https://nicolas-hoizey.com/links/2019/03/sophisticated-partitioning-with-css-grid.html">https://nicolas-hoizey.com/links/2019/03/sophisticated-partitioning-with-css-grid.html</a>
       target: https://nicolas-hoizey.com/links/2019/03/sophisticated-partitioning-with-css-grid.html
-    author: *706
+    author: *707
     type: link
     content: |-
       <p>Amazing post by <a href="https://twitter.com/robweychert">@robweychert</a> about using Grid Layout and Quantity Queries to build a beautiful seemingly random grid!<br />
@@ -27560,7 +27622,7 @@
       id: 600361
       private: false
       data:
-        author: &707
+        author: &708
           name: Nicolas Hoizey
           url: https://twitter.com/nhoizey
           photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
@@ -27581,7 +27643,7 @@
           'I wish @brad_frost updated this talk for @ParisWeb 2019…    …wait, not
           a good id...' linking to <a href="https://nicolas-hoizey.com/links/2019/03/death-to-bullshit.html">https://nicolas-hoizey.com/links/2019/03/death-to-bullshit.html</a>
       target: https://nicolas-hoizey.com/links/2019/03/death-to-bullshit.html
-    author: *707
+    author: *708
     type: link
     content: "<p>I wish <a href=\"https://twitter.com/brad_frost\">@brad_frost</a>
       updated this talk for <a href=\"https://twitter.com/ParisWeb\">@ParisWeb</a>
@@ -27601,7 +27663,7 @@
       id: 603869
       private: false
       data:
-        author: &708
+        author: &709
           name: yuanchuan
           url: https://twitter.com/yuanchuan23
           photo: https://webmention.io/avatar/pbs.twimg.com/cd84e04d5a4b1c4624e70e3537471b34bceb1f7855af674b47c8fe61dc2013bd.jpg
@@ -27616,7 +27678,7 @@
         sentence_html: <a href="https://twitter.com/yuanchuan23">yuanchuan</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html">https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html</a>
       target: https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html
-    author: *708
+    author: *709
     type: like
     content: <p><a href="https://twitter.com/yuanchuan23">yuanchuan</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html">https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html</a></p>
@@ -27632,7 +27694,7 @@
       id: 603870
       private: false
       data:
-        author: &709
+        author: &710
           name: yuanchuan
           url: https://twitter.com/yuanchuan23
           photo: https://webmention.io/avatar/pbs.twimg.com/cd84e04d5a4b1c4624e70e3537471b34bceb1f7855af674b47c8fe61dc2013bd.jpg
@@ -27647,7 +27709,7 @@
         sentence_html: <a href="https://twitter.com/yuanchuan23">yuanchuan</a> replied
           'Oh, thanks for this :)' to a tweet <a href="https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html">https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html</a>
       target: https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html
-    author: *709
+    author: *710
     type: reply
     content: "<p>Oh, thanks for this :)</p>"
   '1113123715213078528':
@@ -27662,7 +27724,7 @@
       id: 603896
       private: false
       data:
-        author: &710
+        author: &711
           name: Chris Heilmann
           url: https://twitter.com/codepo8
           photo: https://webmention.io/avatar/pbs.twimg.com/2cb539703b09adb2ef4818c0fa52e2d97c6b8365befe25ba741bbc98ca12fde9.png
@@ -27681,7 +27743,7 @@
           'Generative Art With CSS nicolas-hoizey.com/links/2019/04/…' linking to
           <a href="https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html">https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html</a>
       target: https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html
-    author: *710
+    author: *711
     type: link
     content: |-
       <p>Generative Art With CSS <a href="https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed">nicolas-hoizey.com/links/2019/04/…</a>
@@ -27698,7 +27760,7 @@
       id: 603981
       private: false
       data:
-        author: &711
+        author: &712
           name: tracy apps
           url: https://twitter.com/tapps
           photo: https://webmention.io/avatar/pbs.twimg.com/53f41109741f3fde79ec2ece6db13c6448108088e51df70bdd5372b6754c7ade.jpg
@@ -27713,7 +27775,7 @@
         sentence_html: <a href="https://twitter.com/tapps">tracy apps</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html">https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html</a>
       target: https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html
-    author: *711
+    author: *712
     type: like
     content: <p><a href="https://twitter.com/tapps">tracy apps</a> favorited a tweet
       <a href="https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html">https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html</a></p>
@@ -27729,7 +27791,7 @@
       id: 603967
       private: false
       data:
-        author: &712
+        author: &713
           name: Nicolas Hoizey
           url: https://twitter.com/nhoizey
           photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
@@ -27745,7 +27807,7 @@
         sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
           a tweet <a href="https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html">https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html</a>
       target: https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html
-    author: *712
+    author: *713
     type: repost
     content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html">https://nicolas-hoizey.com/links/2019/04/generative-art-with-css.html</a></p>
@@ -27762,7 +27824,7 @@
       id: 604672
       private: false
       data:
-        author: &713
+        author: &714
           name: Nicolas Hoizey
           url: https://twitter.com/nhoizey
           photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
@@ -27778,7 +27840,7 @@
         sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
           a tweet <a href="https://nicolas-hoizey.com/links/2019/04/why-should-i-care-what-color-the-bikeshed-is.html">https://nicolas-hoizey.com/links/2019/04/why-should-i-care-what-color-the-bikeshed-is.html</a>
       target: https://nicolas-hoizey.com/links/2019/04/why-should-i-care-what-color-the-bikeshed-is.html
-    author: *713
+    author: *714
     type: repost
     content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/links/2019/04/why-should-i-care-what-color-the-bikeshed-is.html">https://nicolas-hoizey.com/links/2019/04/why-should-i-care-what-color-the-bikeshed-is.html</a></p>
@@ -27795,7 +27857,7 @@
       id: 607644
       private: false
       data:
-        author: &714
+        author: &715
           name: Vincent Valentin
           url: https://twitter.com/htmlvv
           photo: https://webmention.io/avatar/pbs.twimg.com/aa95d8a5960a2665bbc7f01b38fe648911df0aed28f2dc1810ab4948345f2107.jpg
@@ -27810,7 +27872,7 @@
         sentence_html: <a href="https://twitter.com/htmlvv">Vincent Valentin</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html">https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html</a>
       target: https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html
-    author: *714
+    author: *715
     type: like
     content: <p><a href="https://twitter.com/htmlvv">Vincent Valentin</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html">https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html</a></p>
@@ -27826,7 +27888,7 @@
       id: 607646
       private: false
       data:
-        author: &715
+        author: &716
           name: Nicolas Hoffmann
           url: https://twitter.com/Nico3333fr
           photo: https://webmention.io/avatar/pbs.twimg.com/b6ccd529f1a26a908dddff90d90bef7b5eb6ca359e6d71d3bcca49c0e30b2688.jpg
@@ -27841,7 +27903,7 @@
         sentence_html: <a href="https://twitter.com/Nico3333fr">Nicolas Hoffmann</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html">https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html</a>
       target: https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html
-    author: *715
+    author: *716
     type: like
     content: <p><a href="https://twitter.com/Nico3333fr">Nicolas Hoffmann</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html">https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html</a></p>
@@ -27857,7 +27919,7 @@
       id: 607682
       private: false
       data:
-        author: &716
+        author: &717
           name: Xavier Zaława
           url: https://twitter.com/7studio
           photo: https://webmention.io/avatar/pbs.twimg.com/77e826a263cabc3e81663ac5e508de10361793373ea1652b6af58cd278821fd0.jpg
@@ -27872,7 +27934,7 @@
         sentence_html: <a href="https://twitter.com/7studio">Xavier Zaława</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html">https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html</a>
       target: https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html
-    author: *716
+    author: *717
     type: like
     content: <p><a href="https://twitter.com/7studio">Xavier Zaława</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html">https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html</a></p>
@@ -27888,7 +27950,7 @@
       id: 607643
       private: false
       data:
-        author: &717
+        author: &718
           name: Nicolas Hoizey
           url: https://twitter.com/nhoizey
           photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
@@ -27904,7 +27966,7 @@
         sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
           a tweet <a href="https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html">https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html</a>
       target: https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html
-    author: *717
+    author: *718
     type: repost
     content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html">https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html</a></p>
@@ -27920,7 +27982,7 @@
       id: 607645
       private: false
       data:
-        author: &718
+        author: &719
           name: PhoenixCodes
           url: https://twitter.com/PhoenixGyaan
           photo: https://webmention.io/avatar/pbs.twimg.com/4f062ed21a75b20dce79a9d90c2e9e9349f40091b50bd345262a265ff765d881.jpg
@@ -27936,7 +27998,7 @@
         sentence_html: <a href="https://twitter.com/PhoenixGyaan">PhoenixCodes</a>
           retweeted a tweet <a href="https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html">https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html</a>
       target: https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html
-    author: *718
+    author: *719
     type: repost
     content: <p><a href="https://twitter.com/PhoenixGyaan">PhoenixCodes</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html">https://nicolas-hoizey.com/links/2019/04/fading-out-siblings-on-hover-in-css.html</a></p>
@@ -27954,7 +28016,7 @@
       id: 607719
       private: false
       data:
-        author: &719
+        author: &720
           name: Witasène
           url: https://twitter.com/witamine
           photo: https://webmention.io/avatar/pbs.twimg.com/8718043ea09080fcf31665b46546aaff8a3d1efdf3f1dc3362a516fad029ab24.jpg
@@ -27969,7 +28031,7 @@
         sentence_html: <a href="https://twitter.com/witamine">Witasène</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/2019/04/how-the-boeing-737-max-disaster-looks-to-a-software-developer.html">https://nicolas-hoizey.com/2019/04/how-the-boeing-737-max-disaster-looks-to-a-software-developer.html</a>
       target: https://nicolas-hoizey.com/2019/04/how-the-boeing-737-max-disaster-looks-to-a-software-developer.html
-    author: *719
+    author: *720
     type: like
     content: <p><a href="https://twitter.com/witamine">Witasène</a> favorited a tweet
       <a href="https://nicolas-hoizey.com/2019/04/how-the-boeing-737-max-disaster-looks-to-a-software-developer.html">https://nicolas-hoizey.com/2019/04/how-the-boeing-737-max-disaster-looks-to-a-software-developer.html</a></p>
@@ -27985,7 +28047,7 @@
       id: 607779
       private: false
       data:
-        author: &720
+        author: &721
           name: Gregory Travis
           url: https://twitter.com/greg_travis
           photo: https://webmention.io/avatar/pbs.twimg.com/0d88bf3095b9d446cdd2672b6b0741b82d7fca32cb398b6794619f9decc3e7fb.jpg
@@ -28001,7 +28063,7 @@
         sentence_html: <a href="https://twitter.com/greg_travis">Gregory Travis</a>
           replied 'Merci beaucoup et bien sir!' to a tweet <a href="https://nicolas-hoizey.com/2019/04/how-the-boeing-737-max-disaster-looks-to-a-software-developer.html">https://nicolas-hoizey.com/2019/04/how-the-boeing-737-max-disaster-looks-to-a-software-developer.html</a>
       target: https://nicolas-hoizey.com/2019/04/how-the-boeing-737-max-disaster-looks-to-a-software-developer.html
-    author: *720
+    author: *721
     type: reply
     content: "<p>Merci beaucoup et bien sir!</p>"
   '1119281735622111234':
@@ -28016,7 +28078,7 @@
       id: 607778
       private: false
       data:
-        author: &721
+        author: &722
           name: Nicolas Hoizey
           url: https://twitter.com/nhoizey
           photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
@@ -28036,7 +28098,7 @@
           'Thank you so much for your article!    It helped me articulate something
           that ha...' to a tweet <a href="https://nicolas-hoizey.com/2019/04/how-the-boeing-737-max-disaster-looks-to-a-software-developer.html">https://nicolas-hoizey.com/2019/04/how-the-boeing-737-max-disaster-looks-to-a-software-developer.html</a>
       target: https://nicolas-hoizey.com/2019/04/how-the-boeing-737-max-disaster-looks-to-a-software-developer.html
-    author: *721
+    author: *722
     type: reply
     content: |-
       <p>Thank you so much for your article!<br />
@@ -28087,7 +28149,7 @@
       id: 609527
       private: false
       data:
-        author: &722
+        author: &723
           name: Gaël Poupard
           url: https://twitter.com/ffoodd_fr
           photo: https://webmention.io/avatar/pbs.twimg.com/bebb7c8bbc4d5d316c64a4e8278e4fb1a662dd836590aa669864c8f7d7ca013d.jpeg
@@ -28102,7 +28164,7 @@
         sentence_html: <a href="https://twitter.com/ffoodd_fr">Gaël Poupard</a> favorited
           a tweet <a href="https://nicolas-hoizey.com/links/2019/04/progressive-font-enrichment-reinventing-web-font-performance.html">https://nicolas-hoizey.com/links/2019/04/progressive-font-enrichment-reinventing-web-font-performance.html</a>
       target: https://nicolas-hoizey.com/links/2019/04/progressive-font-enrichment-reinventing-web-font-performance.html
-    author: *722
+    author: *723
     type: like
     content: <p><a href="https://twitter.com/ffoodd_fr">Gaël Poupard</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/links/2019/04/progressive-font-enrichment-reinventing-web-font-performance.html">https://nicolas-hoizey.com/links/2019/04/progressive-font-enrichment-reinventing-web-font-performance.html</a></p>
@@ -28118,7 +28180,7 @@
       id: 609508
       private: false
       data:
-        author: &723
+        author: &724
           name: Nicolas Hoizey
           url: https://twitter.com/nhoizey
           photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
@@ -28134,7 +28196,7 @@
         sentence_html: "<a href=\"https://twitter.com/nhoizey\">Nicolas Hoizey</a>
           posted '\U0001F60D' linking to <a href=\"https://nicolas-hoizey.com/links/2019/04/progressive-font-enrichment-reinventing-web-font-performance.html\">https://nicolas-hoizey.com/links/2019/04/progressive-font-enrichment-reinventing-web-font-performance.html</a>"
       target: https://nicolas-hoizey.com/links/2019/04/progressive-font-enrichment-reinventing-web-font-performance.html
-    author: *723
+    author: *724
     type: link
     content: "<p>\U0001F60D\n<a class=\"u-mention\" href=\"https://nho.io/2GHVmDk\"></a>\n<a
       class=\"u-mention\" href=\"https://nicolas-hoizey.com/links/2019/04/progressive-font-enrichment-reinventing-web-font-performance.html\"></a></p>"
@@ -28143,7 +28205,7 @@
     id: '612764'
     uri: https://twitter.com/nice_links/status/1125726770014171136#favorited-by-49285959
     source: twitter
-    pubdate: 2019-05-08 22:48:01.000000000 +00:00
+    pubdate: 2019-05-09 00:48:01.000000000 +02:00
     raw:
       source: https://brid-gy.appspot.com/like/twitter/nice_links/1125726770014171136/49285959
       verified: true
@@ -28151,7 +28213,7 @@
       id: 612764
       private: false
       data:
-        author: &724
+        author: &725
           name: "@maelig@mastodon.social"
           url: https://twitter.com/MaelB
           photo: https://webmention.io/avatar/pbs.twimg.com/8ab6add44746a82931bfdd883eac6cf842f2a0261f1258a93e5e6422eb957184.jpg
@@ -28166,7 +28228,7 @@
         sentence_html: <a href="https://twitter.com/MaelB">@maelig@mastodon.social</a>
           favorited a tweet <a href="https://nicolas-hoizey.com/links/2019/05/implementing-a-mockup-css-layout-step-by-step.html">https://nicolas-hoizey.com/links/2019/05/implementing-a-mockup-css-layout-step-by-step.html</a>
       target: https://nicolas-hoizey.com/links/2019/05/implementing-a-mockup-css-layout-step-by-step.html
-    author: *724
+    author: *725
     type: like
     content: <p><a href="https://twitter.com/MaelB">@maelig@mastodon.social</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/links/2019/05/implementing-a-mockup-css-layout-step-by-step.html">https://nicolas-hoizey.com/links/2019/05/implementing-a-mockup-css-layout-step-by-step.html</a></p>
@@ -28182,7 +28244,7 @@
       id: 612514
       private: false
       data:
-        author: &725
+        author: &726
           name: Nicolas Hoizey
           url: https://twitter.com/nhoizey
           photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
@@ -28202,7 +28264,7 @@
           'Very nice step by step tutorial for people who don’t know yet how to appropriate...'
           linking to <a href="https://nicolas-hoizey.com/links/2019/05/implementing-a-mockup-css-layout-step-by-step.html">https://nicolas-hoizey.com/links/2019/05/implementing-a-mockup-css-layout-step-by-step.html</a>
       target: https://nicolas-hoizey.com/links/2019/05/implementing-a-mockup-css-layout-step-by-step.html
-    author: *725
+    author: *726
     type: link
     content: |-
       <p>Very nice step by step tutorial for people who don’t know yet how to appropriately use CSS to design a simple component.
