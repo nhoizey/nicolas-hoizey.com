@@ -61,6 +61,12 @@ if (workbox) {
     new workbox.strategies.NetworkOnly()
   );
 
+  // Don't cache SpeedCurve
+  workbox.routing.registerRoute(
+    /^https:\/\/cdn.speedcurve.com\//,
+    new workbox.strategies.NetworkOnly()
+  );
+      
   // Try to get fresh HTML from network, but don't wait for more than 3 seconds
   workbox.routing.registerRoute(
     /(\.html|\/)$/,
