@@ -28270,4 +28270,36 @@
       <p>Very nice step by step tutorial for people who don’t know yet how to appropriately use CSS to design a simple component.
       <a class="u-mention" href="https://nho.io/2J7do4g"></a>
       <a class="u-mention" href="https://nicolas-hoizey.com/links/2019/05/implementing-a-mockup-css-layout-step-by-step.html"></a></p>
-"/links/2019/05/the-secret-energy-impact-of-your-phone.html": {}
+"/links/2019/05/the-secret-energy-impact-of-your-phone.html":
+  '1129331308717641729':
+    id: '1129331308717641729'
+    uri: https://twitter.com/nhoizey/status/1129331308717641729
+    source: twitter
+    pubdate: 2019-05-17 12:22:20.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nice_links/1129329688579629057/1129331308717641729
+      verified: true
+      verified_date: '2019-05-17T11:41:55+00:00'
+      id: 614991
+      private: false
+      data:
+        author: &727
+          name: Nicolas Hoizey
+          url: https://twitter.com/nhoizey
+          photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
+        url: https://twitter.com/nhoizey/status/1129331308717641729
+        name: 
+        content: "\U0001F517 Owen Williams: The secret energy impact of your phone<br
+          />\nnho.io/2Ed31rS<br />\n<br />\n#technology #mobile #environment"
+        published: '2019-05-17T10:22:20+00:00'
+        published_ts: 1558088540
+      activity:
+        type: repost
+        sentence: Nicolas Hoizey retweeted a tweet https://nicolas-hoizey.com/links/2019/05/the-secret-energy-impact-of-your-phone.html
+        sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
+          a tweet <a href="https://nicolas-hoizey.com/links/2019/05/the-secret-energy-impact-of-your-phone.html">https://nicolas-hoizey.com/links/2019/05/the-secret-energy-impact-of-your-phone.html</a>
+      target: https://nicolas-hoizey.com/links/2019/05/the-secret-energy-impact-of-your-phone.html
+    author: *727
+    type: repost
+    content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
+      a tweet <a href="https://nicolas-hoizey.com/links/2019/05/the-secret-energy-impact-of-your-phone.html">https://nicolas-hoizey.com/links/2019/05/the-secret-energy-impact-of-your-phone.html</a></p>
