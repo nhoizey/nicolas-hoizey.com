@@ -1,10 +1,10 @@
 {% comment %} Inline critical JS {% endcomment %}
-{% asset early-js @inline %}
+{% asset "early-js" @inline %}
 
 {% comment %}
 Inline critical CSS
 See _layouts/default.html for non critical styles
 {% endcomment %}
-{% asset critical-styles @inline %}
+{% asset "critical-styles" @inline %}
 
-{% asset print media="print" %}
+{% asset "print" media="print" %}

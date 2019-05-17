@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% asset components/archives @inline %}
+{% asset "components/archives" @inline %}
 
 <h1>Articles from {{ page.date | date: "%B" }} <a href="/{{ page.date | date: "%Y" }}/">{{ page.date | date: "%Y" }}</a></h1>
 

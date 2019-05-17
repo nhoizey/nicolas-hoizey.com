@@ -18,7 +18,7 @@ layout: microtypo
 
 <div id="notifications"></div>
 
-{% asset components/header @inline %}
+{% asset "components/header" @inline %}
 <header id="header" role="banner">
   <div class="wrap">
     <!-- {{ page.url }} -->
@@ -52,7 +52,7 @@ layout: microtypo
 
 {% include_cached components/footer.html %}
 
-{% asset behaviors defer %}
+{% asset "behaviors" defer %}
 
 <script type="module" src="/sw-window.mjs"></script>
 
@@ -60,7 +60,7 @@ layout: microtypo
 https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery#example
 {% endcomment %}
 <noscript id="deferred-styles">
-  {% asset non-critical-styles %}
+  {% asset "non-critical-styles" %}
 </noscript>
 <script>
   var loadDeferredStyles = function() {
