@@ -2,10 +2,11 @@
 {% if page.comments.size and page.comments.size > 0 %}
   {% asset "components/comments" %}
   <div>
-    <h2 id="commentaires">{{ page.comments.size }} commentaire{% if page.comments.size > 1 %}s{% endif %}</h2>
+    <h2 id="commentaires">{{ page.comments.size }} commentaire{% if page.comments.size > 1 %}s{% endif %}
+    </h2>
     <ul class="comments__list">
       {% for comment in page.comments %}
-        {% assign avatar = comment.author.image | prepend: '/assets/avatars/' | prepend: site.url %}
+        {% assign avatar = comment.author.image | prepend : '/assets/avatars/' | prepend: site.url %}
         <li id="comment-{{ comment.id }}" class="comments__item{% if comment.author.name == 'Nicolas Hoizey' %} me{% endif %}">
           <article>
             <div class="comment__author p-author h-card">
@@ -24,7 +25,9 @@
               {{ comment.content }}
             </div>
             <div class="comment__meta">
-              <a href="#{{ comment.id }}"><time class="comment__pubdate dt-published" datetime="{{ comment.date | date_to_xmlschema }}">{{ comment.date | date: '%b %d %Y' }}</time></a>
+              <a href="#{{ comment.id }}">
+                <time class="comment__pubdate dt-published" datetime="{{ comment.date | date_to_xmlschema }}">{{ comment.date | date: '%b %d %Y' }}</time>
+              </a>
             </div>
           </article>
         </li>
@@ -32,4 +35,5 @@
     </ul>
   </aside>
 {% endif %}
+
 <!-- endnomicrotypo -->

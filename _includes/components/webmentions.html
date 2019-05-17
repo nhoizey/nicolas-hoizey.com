@@ -1,29 +1,35 @@
 {% asset "components/webmentions" %}
 <aside>
-  {% capture webmentions_value %}{% webmention_count page.url %}{% endcapture %}
-  {% assign webmentions_int = webmentions_value | plus: 0 %}
-  <h2 id="webmentions">{{ webmentions_int }} Webmention{% if webmentions_int > 1 %}s{% endif %}</h2>
+  {% capture webmentions_value %}{% webmention_count page.url %}
+  {% endcapture %}
+  {% assign webmentions_int = webmentions_value | plus : 0 %}
+  <h2 id="webmentions">{{ webmentions_int }} Webmention{% if webmentions_int > 1 %}s{% endif %}
+  </h2>
 
-    {% capture likes %}{% webmention_count page.url likes %}{% endcapture %}
-    {% assign likes_int = likes | plus: 0 %}
-    {% if likes_int > 0 %}
-      <section>
-        <h3>{{ likes }} like{% if likes_int > 1 %}s{% endif %}</h3>
-        {% webmention_likes page.url %}
-      </section>
-    {% endif %}
+  {% capture likes %}{% webmention_count page.url likes %}
+  {% endcapture %}
+  {% assign likes_int = likes | plus : 0 %}
+  {% if likes_int > 0 %}
+    <section>
+      <h3>{{ likes }} like{% if likes_int > 1 %}s{% endif %}
+      </h3>
+      {% webmention_likes page.url %}
+    </section>
+  {% endif %}
 
-    {% capture reposts %}{% webmention_count page.url reposts %}{% endcapture %}
-    {% assign reposts_int = reposts | plus: 0 %}
-    {% if reposts_int > 0 %}
-      <section>
-        <h3>{{ reposts }} repost{% if reposts_int > 1 %}s{% endif %}</h3>
-        {% webmention_reposts page.url %}
-      </section>
-    {% endif %}
+  {% capture reposts %}{% webmention_count page.url reposts %}
+  {% endcapture %}
+  {% assign reposts_int = reposts | plus : 0 %}
+  {% if reposts_int > 0 %}
+    <section>
+      <h3>{{ reposts }} repost{% if reposts_int > 1 %}s{% endif %}
+      </h3>
+      {% webmention_reposts page.url %}
+    </section>
+  {% endif %}
 
-    {% if likes_int > 0 or reposts_int > 0 %}
-      <h3>Other Webmentions</h3>
-    {% endif %}
-    {% webmentions page.url posts replies links %}
+  {% if likes_int > 0 or reposts_int > 0 %}
+    <h3>Other Webmentions</h3>
+  {% endif %}
+  {% webmentions page.url posts replies links %}
 </aside>
