@@ -11,6 +11,21 @@
 
 .link__source {
   margin: 0;
+  padding: 0.5em 0 0 calc(48px + 1em);
+  position: relative;
+  min-height: calc(48px + .5em);
+
+  .u-photo {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 48px;
+    height: 48px;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+  }
 
   svg {
     width: 1em;

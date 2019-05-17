@@ -4,11 +4,17 @@ layout: default
 
 {% asset "components/link" @inline %}
 
-<article class="main link clearfix" lang="{{ page.lang }}">
+<article class="main link clearfix h-cite" lang="{{ page.lang }}">
   <div class="link__header">
     <div class="link__info">
       {% if page.author %}
-        <p class="link__source">{{ page.author }}{% if page.author_twitter %} (<svg><use xlink:href="#symbol-twitter" /></svg>&nbsp;<a href="https://twitter.com/{{ page.author_twitter }}">@{{ page.author_twitter }}</a>){% endif %}:</p>
+        {% if page.author_twitter %}
+          <p class="link__source p-author h-card">
+            <img class="u-photo" src="https://avatars.io/twitter/{{ page.author_twitter }}/medium" alt="{{ page.author }} avatar" loading="lazy" width="48" height="48" />
+            <b class="p-name">{{ page.author }}</b> (<svg><use xlink:href="#symbol-twitter" /></svg>&nbsp;<a href="https://twitter.com/{{ page.author_twitter }}">@{{ page.author_twitter }}</a>)</p>
+        {% else %}
+          <p class="link__source p-author h-card"><b class="p-name">{{ page.author }}</b></p>
+        {% endif %}
       {% endif %}
       <h1>{{ page.title }}</h1>
       {% include_cached link-meta.html page=page %}
@@ -23,7 +29,9 @@ layout: default
         alt="screenshot" />
     </figure>
   </div>
-  <p class="link__link"><a href="{{ page.link }}">{{ page.link }}</a></p>
+  <p class="link__link">
+    <a href="{{ page.link }}">{{ page.link }}</a>
+  </p>
   {{ page.content }}
 
   {% include components/webmentions.html %}
