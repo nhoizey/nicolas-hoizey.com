@@ -24,6 +24,8 @@
     list[i].innerHTML +=
       '&nbsp;<a class="deeplink" href="#' +
       list[i].id +
+      '" title="Direct link to ' +
+      list[i].textContent +
       '"><svg><use xlink:href="#symbol-link" /></svg></a>';
   }
 })(this);
