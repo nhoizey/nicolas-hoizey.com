@@ -7,7 +7,7 @@
 
 #intro {
   margin: 0;
-  font-size: calc(1em + 0.7vw);
+  font-size: calc(#{$largeTextSize});
 
   p {
     margin: 0;

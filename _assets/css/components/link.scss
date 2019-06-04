@@ -13,7 +13,7 @@
   margin: 0;
   padding: 0.5em 0 0 calc(48px + 1em);
   position: relative;
-  min-height: calc(48px + .5em);
+  min-height: calc(48px + 0.5em);
 
   .u-photo {
     display: block;
@@ -40,7 +40,7 @@
 }
 
 .link__link {
-  font-size: 1.4em;
+  font-size: calc(#{$largeTextSize});
 }
 
 @media (min-width: 40em) {

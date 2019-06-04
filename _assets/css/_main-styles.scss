@@ -30,7 +30,7 @@ html {
 
 body {
   font-family: $font-serif;
-  font-size: calc(0.9rem + 0.5vw);
+  font-size: calc(#{$bodyFontSize});
   line-height: 1.5;
   font-weight: 400;
 
@@ -74,40 +74,46 @@ h6 {
   font-family: $font-sans-serif;
   font-weight: bold;
   line-height: 1.3;
-  margin: $baseline 0 0.5em 0;
+  margin: calc(#{$baseline} * 2) 0 0.5em 0;
   position: relative;
 }
 
-h1 {
-  margin-top: 0;
-  font-size: calc(1em + 1.6vw);
-  color: $color-primary;
+$h6Size: "#{$bodyFontSize} * #{$headingsScale}";
+h6 {
+  font-style: italic;
+  font-size: calc(#{$h6Size});
+  color: $color-primary-lighter-2;
 }
 
+$h5Size: "#{$h6Size} * #{$headingsScale}";
+h5 {
+  font-size: calc(#{$h5Size});
+  color: $color-primary-lighter-2;
+}
+
+$h4Size: "#{$h5Size} * #{$headingsScale}";
+h4 {
+  font-size: calc(#{$h4Size});
+  color: $color-primary-lighter-2;
+}
+
+$h3Size: "#{$h4Size} * #{$headingsScale}";
+h3 {
+  font-size: calc(#{$h3Size});
+  color: $color-primary-lighter-2;
+}
+
+$h2Size: "#{$h3Size} * #{$headingsScale}";
 h2 {
-  font-size: calc(1em + 1.1vw);
+  font-size: calc(#{$h2Size});
   color: $color-primary-lighter-1;
 }
 
-h3 {
-  font-size: calc(1em + 0.7vw);
-  color: $color-primary-lighter-2;
-}
-
-h4 {
-  font-size: calc(1em + 0.4vw);
-  color: $color-primary-lighter-2;
-}
-
-h5 {
-  font-size: calc(1em + 0.2vw);
-  color: $color-primary-lighter-2;
-}
-
-h6 {
-  font-style: italic;
-  font-size: calc(1em + 0.1vw);
-  color: $color-primary-lighter-2;
+$h1Size: "#{$h2Size} * #{$headingsScale}";
+h1 {
+  margin-top: 0;
+  font-size: calc(#{$h1Size});
+  color: $color-primary;
 }
 
 // ************************************************************
@@ -391,7 +397,7 @@ article {
   margin: 0;
 
   .e-content > p:first-of-type {
-    font-size: 1.2em;
+    font-size: calc(#{$largeTextSize});
   }
 
   ul {

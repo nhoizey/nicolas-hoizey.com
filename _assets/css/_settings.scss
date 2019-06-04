@@ -55,6 +55,10 @@ $color-icon-border: #fff;
 $color-icon-hover: $color-secondary;
 
 $baseline: 1.5rem;
+$bodyFontSize: "(0.9rem + 0.5vw)";
+$headingsScale: 1.07;
+$largeTextSize: "#{$bodyFontSize} * #{$headingsScale} * #{$headingsScale} * #{$headingsScale}";
+
 $maxLayoutWidth: 60rem;
 
 $font-serif: Georgia, "DejaVu Serif", serif;
