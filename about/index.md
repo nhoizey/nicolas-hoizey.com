@@ -1,5 +1,5 @@
 ---
-title: About Nicolas Hoizey
+title: About me
 layout: page
 lang: en
 ---
