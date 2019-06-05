@@ -546,10 +546,19 @@ article {
     padding: 0.5em;
   }
 
-  a.footnote {
+  a.footnote.footnote {
     text-decoration: none;
-    padding: 0 0.2em;
+    padding: 0.1em 0.4em;
     margin: 0 0.2em;
+    background-color: #39f;
+    color: #fff;
+    text-shadow: none;
+    border-radius: 30%;
+
+    // https://css-tricks.com/touch-devices-not-judged-size/
+    @media (pointer: coarse) {
+      padding: 0.3em 0.6em;
+    }
   }
 
   a.reversefootnote {
