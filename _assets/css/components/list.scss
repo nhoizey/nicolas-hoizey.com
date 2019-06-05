@@ -12,7 +12,7 @@
   grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
   grid-auto-flow: dense;
 
-  margin: 3rem 0;
+  margin: calc(#{$baseline} * 2) 0;
   padding: 0;
 
   list-style-type: none;
