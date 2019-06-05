@@ -1,4 +1,4 @@
-@import 'settings';
+@import "settings";
 @import "placeholders/links";
 
 #search {
@@ -20,7 +20,7 @@
     outline: none;
   }
 
-  [type='search'] {
+  [type="search"] {
     background-color: $color-primary-lighter-3;
     border: 2px solid $color-primary-lighter-2;
     color: #111;
@@ -42,7 +42,7 @@
     }
   }
 
-  [type='submit'] {
+  [type="submit"] {
     background-color: $color-primary-lighter-4;
     border: 2px solid $color-primary-lighter-2;
     color: #fff;
