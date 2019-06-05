@@ -1,6 +1,9 @@
 {% assign year = include.page.date | date: "%Y" %}
 <footer>
   <ul class="card__meta">
+    <li class="card__meta__item card__permalink">
+      <a class="u-url" href="{{ include.page.url }}">Permalink</a>
+    </li>
     <li class="card__meta__item card__author">
       Published by <a class="p-author h-card" rel="me" href="https://nicolas-hoizey.com">Nicolas Hoizey</a>
     </li>
