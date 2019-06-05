@@ -77,4 +77,4 @@ And please, please, don't tell me using `em`s or `rem`s is hard. It's not. At al
 
 # June 15th, 2018 update
 
-[Users DO change font size]({% post_url /2018/06/15-users-do-change-font-size/2018-06-15-users-do-change-font-size %}).
+[Users DO change font size]({% link articles/_posts/2018/06/15-users-do-change-font-size/2018-06-15-users-do-change-font-size.md %}).

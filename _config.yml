@@ -23,26 +23,31 @@ kramdown:
 # Indexing for related post using the classifier-reborn plugin
 lsi: false
 
-# Collections
-collections:
-  posts:
-    output: true
-    permalink: :categories/:year/:month/:title.html
-
 # Defaults
 defaults:
   - scope:
-      path: ''
-      type: posts
+      path: ""
+      type: "posts"
     values:
-      layout: post
-      lang: fr
+      layout: "default"
   - scope:
-      path: 'links'
-      type: posts
+      path: "articles"
+      type: "posts"
     values:
-      layout: link
+      layout: "post"
       lang: en
+      categories:
+        - articles
+      permalink: :year/:month/:title.html
+  - scope:
+      path: "links"
+      type: "posts"
+    values:
+      layout: "link"
+      lang: en
+      categories:
+        - links
+      permalink: :categories/:year/:month/:title.html
 
 # Tags
 tag_page_layout: tag
