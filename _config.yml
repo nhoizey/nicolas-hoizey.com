@@ -4,8 +4,8 @@ author: Nicolas Hoizey
 email: nicolas@hoizey.com
 description: > # this means to ignore newlines until "baseurl:"
   Nicolas Hoizey, passionate about the Web and photography, among many other interests.
-baseurl: ''
-url: 'https://nicolas-hoizey.com'
+baseurl: ""
+url: "https://nicolas-hoizey.com"
 twitter_username: nhoizey
 github_username: nhoizey
 
@@ -17,7 +17,7 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-  footnote_backlink: '⬆︎'
+  footnote_backlink: "⬆︎"
   header_offset: 1
 
 # Indexing for related post using the classifier-reborn plugin
@@ -70,7 +70,7 @@ assets:
 # Get data from Notist
 jekyll_get:
   data: talks
-  json: 'https://noti.st/nhoizey.json'
+  json: "https://noti.st/nhoizey.json"
 
 # POSSEify plugin settings
 posseify:
@@ -91,7 +91,7 @@ algolia:
   application_id: …
   index_name: …
   read_only_api_key: …
-  nodes_to_index: 'p,li,figcaption,blockquote'
+  nodes_to_index: "p,li,figcaption,blockquote"
   files_to_exclude:
     - 404.html
     - index.html
@@ -141,14 +141,14 @@ cloudinary:
       max_width: 1600
       fallback_max_width: 800
       steps: 5
-      sizes: '(max-width: 67rem) 90vw, 60rem'
+      sizes: "(max-width: 67rem) 90vw, 60rem"
       figure: always
     twothirds:
       min_width: 240
       max_width: 1120
       fallback_max_width: 600
       steps: 5
-      sizes: '(max-width: 20rem) 45vw, (max-width: 67rem) 60vw, 40rem'
+      sizes: "(max-width: 20rem) 45vw, (max-width: 67rem) 60vw, 40rem"
       figure: always
       attributes:
         class: twothirds
@@ -157,7 +157,7 @@ cloudinary:
       max_width: 800
       fallback_max_width: 400
       steps: 5
-      sizes: '(max-width: 67rem) 45vw, 30rem'
+      sizes: "(max-width: 67rem) 45vw, 30rem"
       figure: always
       attributes:
         class: onehalf
@@ -166,7 +166,7 @@ cloudinary:
       max_width: 560
       fallback_max_width: 300
       steps: 5
-      sizes: '(max-width: 20rem) 45vw, (max-width: 67rem) 30vw, 20rem'
+      sizes: "(max-width: 20rem) 45vw, (max-width: 67rem) 30vw, 20rem"
       figure: always
       attributes:
         class: onethird right
@@ -175,7 +175,7 @@ cloudinary:
       max_width: 400
       fallback_max_width: 200
       steps: 5
-      sizes: '(max-width: 20rem) 45vw, (max-width: 30rem) 30vw, (max-width: 67rem) 22.5vw, 15rem'
+      sizes: "(max-width: 20rem) 45vw, (max-width: 30rem) 30vw, (max-width: 67rem) 22.5vw, 15rem"
       figure: always
       attributes:
         class: onefourth right
@@ -184,7 +184,7 @@ cloudinary:
       max_width: 560
       fallback_max_width: 300
       steps: 5
-      sizes: '(max-width: 20rem) 45vw, (max-width: 67rem) 30vw, 20rem'
+      sizes: "(max-width: 20rem) 45vw, (max-width: 67rem) 30vw, 20rem"
       figure: never
       attributes:
         class: logo
