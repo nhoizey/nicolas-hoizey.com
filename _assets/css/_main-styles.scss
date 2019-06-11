@@ -133,11 +133,6 @@ img {
   transition: opacity 0.3s;
 }
 
-// For lazyloading
-img[data-src] {
-  opacity: 0;
-}
-
 iframe {
   max-width: 100%;
 }

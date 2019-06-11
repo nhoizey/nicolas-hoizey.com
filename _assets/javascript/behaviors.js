@@ -31,6 +31,44 @@
 })(this);
 
 /*****************************************************************
+ * Lazyload webmentions avatars
+ * ****************************************************************/
+
+// https://www.zachleat.com/web/facepile/
+if (!("connection" in navigator) || navigator.connection.saveData !== true) {
+  // Load avatars only if not in save data mode
+  if (
+    typeof IntersectionObserver !== "undefined" &&
+    "forEach" in NodeList.prototype
+  ) {
+    var observer = new IntersectionObserver(changes => {
+      changes.forEach(change => {
+        if (change.isIntersecting) {
+          change.target.setAttribute(
+            "srcset",
+            change.target.getAttribute("data-srcset")
+          );
+          change.target.setAttribute(
+            "src",
+            change.target.getAttribute("data-src")
+          );
+          observer.unobserve(change.target);
+        }
+      });
+    });
+    document.querySelectorAll("img[data-src]").forEach(img => {
+      observer.observe(img);
+    });
+  } else {
+    // No IntersectionObserver support => no lazyloading
+    document.querySelectorAll("img[data-src]").forEach(img => {
+      img.setAttribute("srcset", img.getAttribute("data-srcset"));
+      img.setAttribute("src", img.getAttribute("data-src"));
+    });
+  }
+}
+
+/*****************************************************************
  * Autoplay Giphy videos when possible
  * ****************************************************************/
 
