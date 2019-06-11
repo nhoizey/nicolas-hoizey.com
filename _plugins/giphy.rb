@@ -44,7 +44,8 @@ class Giphy < Liquid::Tag
     mp4Source = "<source src=\"#{cloudinaryPrefix}/f_mp4/#{giphyImage}\" type=\"video/mp4\">"
     posterUrl = "#{cloudinaryPrefix}/f_jpg/#{giphyImage}"
     fallback = "<p>Your browser doesn't support video. See <a href=\"#{giphyImage}\">the animated GIF</a>.</p>"
-    videoTag = "<video controls loop muted playsinline preload=\"auto\" crossorigin=\"anonymous\" poster=\"#{posterUrl}\">#{webmSource}#{mp4Source}#{fallback}</video>"
+    # videoTag = "<video controls loop muted playsinline preload=\"auto\" crossorigin=\"anonymous\" poster=\"#{posterUrl}\">#{webmSource}#{mp4Source}#{fallback}</video>"
+    videoTag = "<video controls loop muted playsinline preload=\"auto\" crossorigin=\"anonymous\">#{webmSource}#{mp4Source}#{fallback}</video>"
 
     return "<div class=\"giphy\">#{videoTag}</div>"
 
