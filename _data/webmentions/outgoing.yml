@@ -3180,7 +3180,12 @@ https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-c
     location: https://webmention.io/indiewebcamp/webmention/IFD2f9CIj4ZUamPuSx_0
     source: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
     target: https://indieweb.org/
-  https://remysharp.com/2016/12/22/cool-uris-dont-change: false
+  https://remysharp.com/2016/12/22/cool-uris-dont-change:
+    status: queued
+    summary: Webmention was queued for processing
+    location: https://webmention.io/remysharp.com/webmention/v5OncJYK4dl57hdbtAuO
+    source: https://nicolas-hoizey.com/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin.html
+    target: https://remysharp.com/2016/12/22/cool-uris-dont-change
   https://help.medium.com/hc/en-us/articles/217991468-SEO-and-duplicate-content: false
   https://indieweb.org/POSSE:
     status: queued
@@ -3290,7 +3295,12 @@ https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-an
   https://cloudinary.com/documentation/image_transformations: false
   https://twitter.com/colinbendell: false
   https://calendar.perfplanet.com/2017/animated-gif-without-the-gif/: false
-  https://justmarkup.com/log/2018/02/gifhancement/: false
+  https://justmarkup.com/log/2018/02/gifhancement/:
+    status: queued
+    summary: Webmention was queued for processing
+    location: https://webmention.io/justmarkup.com/webmention/OSD_Mw56xPgC7sh1Bg81
+    source: https://nicolas-hoizey.com/2018/08/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video.html
+    target: https://justmarkup.com/log/2018/02/gifhancement/
   https://justmarkup.com/log/servus-hello-and-welcome/: false
   https://www.smashingmagazine.com/2018/11/gif-to-video/: false
 https://nicolas-hoizey.com/links/2018/09/software-disenchantment.html: {}
