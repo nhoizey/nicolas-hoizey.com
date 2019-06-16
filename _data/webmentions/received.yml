@@ -28792,3 +28792,132 @@
     type: repost
     content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/links/2019/05/front-end-developer-handbook-2019.html">https://nicolas-hoizey.com/links/2019/05/front-end-developer-handbook-2019.html</a></p>
+"/links/2019/06/when-should-you-be-using-web-workers.html":
+  '1139583593481691137':
+    id: '1139583593481691137'
+    uri: https://twitter.com/js_bot_code/status/1139583593481691137
+    source: twitter
+    pubdate: 2019-06-14 19:21:15.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nice_links/1139583345397043200/1139583593481691137
+      verified: true
+      verified_date: '2019-06-14T21:16:45+00:00'
+      id: 626099
+      private: false
+      data:
+        author: &743
+          name: JAVASCRIPT - BOT
+          url: https://twitter.com/js_bot_code
+          photo: https://webmention.io/avatar/pbs.twimg.com/1127cc4e8fb5f490993b49da4372adc22ccfcdbec3c77a616500a5dbdc80d686.png
+        url: https://twitter.com/js_bot_code/status/1139583593481691137
+        name: 
+        content: "\U0001F517 Surma: When should you be using Web Workers?<br />\nnho.io/2Zo558l<br
+          />\n<br />\n#webperf #javascript"
+        published: '2019-06-14T17:21:15+00:00'
+        published_ts: 1560532875
+      activity:
+        type: repost
+        sentence: JAVASCRIPT - BOT retweeted a tweet https://nicolas-hoizey.com/links/2019/06/when-should-you-be-using-web-workers.html
+        sentence_html: <a href="https://twitter.com/js_bot_code">JAVASCRIPT - BOT</a>
+          retweeted a tweet <a href="https://nicolas-hoizey.com/links/2019/06/when-should-you-be-using-web-workers.html">https://nicolas-hoizey.com/links/2019/06/when-should-you-be-using-web-workers.html</a>
+      target: https://nicolas-hoizey.com/links/2019/06/when-should-you-be-using-web-workers.html
+    author: *743
+    type: repost
+    content: <p><a href="https://twitter.com/js_bot_code">JAVASCRIPT - BOT</a> retweeted
+      a tweet <a href="https://nicolas-hoizey.com/links/2019/06/when-should-you-be-using-web-workers.html">https://nicolas-hoizey.com/links/2019/06/when-should-you-be-using-web-workers.html</a></p>
+  '1139593798168829956':
+    id: '1139593798168829956'
+    uri: https://twitter.com/nhoizey/status/1139593798168829956
+    source: twitter
+    pubdate: 2019-06-14 20:01:48.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nice_links/1139583345397043200/1139593798168829956
+      verified: true
+      verified_date: '2019-06-14T21:16:43+00:00'
+      id: 626096
+      private: false
+      data:
+        author: &744
+          name: Nicolas Hoizey
+          url: https://twitter.com/nhoizey
+          photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
+        url: https://twitter.com/nhoizey/status/1139593798168829956
+        name: 
+        content: "\U0001F517 Surma: When should you be using Web Workers?<br />\nnho.io/2Zo558l<br
+          />\n<br />\n#webperf #javascript"
+        published: '2019-06-14T18:01:48+00:00'
+        published_ts: 1560535308
+      activity:
+        type: repost
+        sentence: Nicolas Hoizey retweeted a tweet https://nicolas-hoizey.com/links/2019/06/when-should-you-be-using-web-workers.html
+        sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
+          a tweet <a href="https://nicolas-hoizey.com/links/2019/06/when-should-you-be-using-web-workers.html">https://nicolas-hoizey.com/links/2019/06/when-should-you-be-using-web-workers.html</a>
+      target: https://nicolas-hoizey.com/links/2019/06/when-should-you-be-using-web-workers.html
+    author: *744
+    type: repost
+    content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
+      a tweet <a href="https://nicolas-hoizey.com/links/2019/06/when-should-you-be-using-web-workers.html">https://nicolas-hoizey.com/links/2019/06/when-should-you-be-using-web-workers.html</a></p>
+  '1139593829856792577':
+    id: '1139593829856792577'
+    uri: https://twitter.com/esviji/status/1139593829856792577
+    source: twitter
+    pubdate: 2019-06-14 20:01:56.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nice_links/1139583345397043200/1139593829856792577
+      verified: true
+      verified_date: '2019-06-14T21:16:45+00:00'
+      id: 626098
+      private: false
+      data:
+        author: &745
+          name: esviji
+          url: https://twitter.com/esviji
+          photo: https://webmention.io/avatar/pbs.twimg.com/5d1486011edd6ed35301e056c64e278ed7d1595a1eb645e757ff1cd345bfd74a.png
+        url: https://twitter.com/esviji/status/1139593829856792577
+        name: 
+        content: "\U0001F517 Surma: When should you be using Web Workers?<br />\nnho.io/2Zo558l<br
+          />\n<br />\n#webperf #javascript"
+        published: '2019-06-14T18:01:56+00:00'
+        published_ts: 1560535316
+      activity:
+        type: repost
+        sentence: esviji retweeted a tweet https://nicolas-hoizey.com/links/2019/06/when-should-you-be-using-web-workers.html
+        sentence_html: <a href="https://twitter.com/esviji">esviji</a> retweeted a
+          tweet <a href="https://nicolas-hoizey.com/links/2019/06/when-should-you-be-using-web-workers.html">https://nicolas-hoizey.com/links/2019/06/when-should-you-be-using-web-workers.html</a>
+      target: https://nicolas-hoizey.com/links/2019/06/when-should-you-be-using-web-workers.html
+    author: *745
+    type: repost
+    content: <p><a href="https://twitter.com/esviji">esviji</a> retweeted a tweet
+      <a href="https://nicolas-hoizey.com/links/2019/06/when-should-you-be-using-web-workers.html">https://nicolas-hoizey.com/links/2019/06/when-should-you-be-using-web-workers.html</a></p>
+  '1139601478795124737':
+    id: '1139601478795124737'
+    uri: https://twitter.com/Dev_Topics/status/1139601478795124737
+    source: twitter
+    pubdate: 2019-06-14 20:32:19.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nice_links/1139583345397043200/1139601478795124737
+      verified: true
+      verified_date: '2019-06-14T21:16:43+00:00'
+      id: 626097
+      private: false
+      data:
+        author: &746
+          name: Dev News
+          url: https://twitter.com/Dev_Topics
+          photo: https://webmention.io/avatar/pbs.twimg.com/b7ea241c6594fbc4a0d1a1106c372050f8bd3602d5aeffa31e0868ae4bb48b68.png
+        url: https://twitter.com/Dev_Topics/status/1139601478795124737
+        name: 
+        content: "\U0001F517 Surma: When should you be using Web Workers?<br />\nnho.io/2Zo558l<br
+          />\n<br />\n#webperf #javascript"
+        published: '2019-06-14T18:32:19+00:00'
+        published_ts: 1560537139
+      activity:
+        type: repost
+        sentence: Dev News retweeted a tweet https://nicolas-hoizey.com/links/2019/06/when-should-you-be-using-web-workers.html
+        sentence_html: <a href="https://twitter.com/Dev_Topics">Dev News</a> retweeted
+          a tweet <a href="https://nicolas-hoizey.com/links/2019/06/when-should-you-be-using-web-workers.html">https://nicolas-hoizey.com/links/2019/06/when-should-you-be-using-web-workers.html</a>
+      target: https://nicolas-hoizey.com/links/2019/06/when-should-you-be-using-web-workers.html
+    author: *746
+    type: repost
+    content: <p><a href="https://twitter.com/Dev_Topics">Dev News</a> retweeted a
+      tweet <a href="https://nicolas-hoizey.com/links/2019/06/when-should-you-be-using-web-workers.html">https://nicolas-hoizey.com/links/2019/06/when-should-you-be-using-web-workers.html</a></p>
