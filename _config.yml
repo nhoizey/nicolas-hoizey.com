@@ -71,6 +71,12 @@ include:
 # Jekyll Assets
 assets:
   compression: true
+  plugins:
+    css: { autoprefixer: {} }
+  autoprefixer:
+    browsers:
+      - "last 2 versions"
+      - "IE > 10"
 
 # Get data from Notist
 jekyll_get:
