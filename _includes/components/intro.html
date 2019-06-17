@@ -1,25 +1,10 @@
 {% asset "components/intro" @inline %}
-{% assign portrait = site.url | append: '/assets/photo-de-nicolas-hoizey.jpg' %}
 <div id="intro" class="h-card">
   <div class="wrap">
-    {% if jekyll.environment == 'production' %}
-      <img
-        src="https://res.cloudinary.com/nho/image/fetch/w_180,h_180,c_limit,q_auto,f_auto/{{ portrait }}"
-        srcset="https://res.cloudinary.com/nho/image/fetch/w_144,h_144,c_limit,q_auto,f_auto/{{ portrait }} 144w, https://res.cloudinary.com/nho/image/fetch/w_180,h_180,c_limit,q_auto,f_auto/{{ portrait }} 180w, https://res.cloudinary.com/nho/image/fetch/w_360,h_360,c_limit,q_auto,f_auto/{{ portrait }} 360w, https://res.cloudinary.com/nho/image/fetch/w_500,h_500,c_limit,q_auto,f_auto/{{ portrait }} 500w"
-        sizes="(max-width: 20rem) 45vw, (max-width: 67rem) 30vw, 20rem"
-        width="180" height="180"
-        alt="Portrait de Nicolas Hoizey"
-        class="u-photo"
-        style="--aspect-ratio:1;" />
-    {% else %}
-      <img src="{{ portrait }}" class="u-photo" alt="Portrait de Nicolas Hoizey" />
-    {% endif %}
-    <div>
-      <p>My name is <a href="{{ site.url }}" class="p-name u-url u-uid" rel="me">Nicolas Hoizey</a>.</p>
-      <p>
-        <span class="p-note">I am passionate about <strong>the Web</strong> and <strong>
-            <a href="/tags/photography.html">photography</a>
-          </strong>, among <a href="/tags/">many other interests</a>.</span> Learn <a href="/about/">more about&nbsp;me</a>.</p>
-    </div>
+    <p>My name is <a href="{{ site.url }}" class="p-name u-url u-uid" rel="me">Nicolas Hoizey</a>.</p>
+    <p>
+      <span class="p-note">I am passionate about <strong>the Web</strong> and <strong>
+          <a href="/tags/photography.html">photography</a>
+        </strong>, among <a href="/tags/">many other interests</a>.</span> Learn <a href="/about/">more about&nbsp;me</a>.</p>
   </div>
 </div>
