@@ -8,8 +8,8 @@
   clear: both;
 
   display: grid;
-  grid-gap: calc(#{$baseline} * 2) 2vw;
   grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  grid-gap: calc(#{$baseline} * 2);
   grid-auto-flow: dense;
 
   margin: calc(#{$baseline} * 2) 0;
