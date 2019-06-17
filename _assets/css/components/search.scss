@@ -1,5 +1,4 @@
 @import "settings";
-@import "placeholders/links";
 
 #search {
   position: relative;
@@ -60,12 +59,6 @@
     width: 0.8em;
     height: 0.8em;
     fill: $color-primary-lighter-1;
-  }
-}
-
-#search_results {
-  a {
-    @extend %link-fancy;
   }
 }
 

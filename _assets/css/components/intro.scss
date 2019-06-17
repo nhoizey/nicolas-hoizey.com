@@ -1,5 +1,4 @@
 @import "settings";
-@import "placeholders/links";
 
 // ************************************************************
 // Intro
@@ -11,10 +10,6 @@
 
   p {
     margin: 0;
-  }
-
-  a {
-    @extend %link-fancy;
   }
 
   img {
