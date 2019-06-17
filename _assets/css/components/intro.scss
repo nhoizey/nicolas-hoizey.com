@@ -5,24 +5,5 @@
 // ************************************************************
 
 #intro {
-  margin: 0;
   font-size: calc(#{$largeTextSize});
-
-  p {
-    margin: 0;
-  }
-
-  img {
-    float: right;
-    margin: 0 0 1em 5vw;
-    width: 180px;
-    max-width: 33%;
-    min-width: 70px;
-  }
-
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 }
