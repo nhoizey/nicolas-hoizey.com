@@ -9,10 +9,6 @@
   padding: 0;
 }
 
-.card--article {
-  font-size: 1.1em;
-}
-
 .card__source {
   margin: 0;
   padding: 0;
@@ -28,6 +24,10 @@
 .card__title {
   margin: 0;
   padding: 0;
+
+  .card--article & {
+    font-size: 1.2em;
+  }
 }
 
 .card__excerpt {
