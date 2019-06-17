@@ -339,9 +339,9 @@ function searchCallback(err, content) {
       hit_tags = hit_tags.replace(/^, /, "");
     }
 
-    result = `<li class="list__item"><div class="card"><h2 class="card__title"><a href="${
+    result = `<li class="list__item"><div class="card"><p class="card__title"><a href="${
       hit.url
-    }">${hit_title}</a></h2><p class="card__excerpt">${hit_excerpt}</p>`;
+    }">${hit_title}</a></p><p class="card__excerpt">${hit_excerpt}</p>`;
     if (hit_date || hit_tags) {
       result += '<footer><ul class="card__meta">';
       if (hit_date) {

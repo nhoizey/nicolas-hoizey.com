@@ -36,7 +36,7 @@ JSON-LD for:
     {% if post.categories contains 'links' %}
       <li class="list__item">
         <div class="card card--link h-entry">
-          <h3 class="card__title p-name"><a href="{{ post.url }}" class="u-url">{{ post.title }}</a></h3>
+          <p class="card__title p-name"><a href="{{ post.url }}" class="u-url">{{ post.title }}</a></p>
           {% include_cached link-meta.html page=post %}
         </div>
       </li>
