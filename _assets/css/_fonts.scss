@@ -4,26 +4,23 @@
 
 @font-face {
   font-family: NotoSerif;
-  src: url("/assets/fonts/notoserif-regular.woff2") format("woff2"),
-    url("/assets/fonts/notoserif-regular.woff") format("woff"),
-    url("/assets/fonts/notoserif-regular.ttf") format("ttf");
+  src: url("/assets/fonts/notoserif-regular-subset.woff2") format("woff2"),
+    url("/assets/fonts/notoserif-regular-subset.woff") format("woff");
   font-weight: 400;
   font-display: swap;
 }
 @font-face {
   font-family: NotoSerif;
-  src: url("/assets/fonts/notoserif-bold.woff2") format("woff2"),
-    url("/assets/fonts/notoserif-bold.woff") format("woff"),
-    url("/assets/fonts/notoserif-bold.ttf") format("ttf");
+  src: url("/assets/fonts/notoserif-bold-subset.woff2") format("woff2"),
+    url("/assets/fonts/notoserif-bold-subset.woff") format("woff");
   font-weight: 700;
   font-display: swap;
 }
 
 @font-face {
   font-family: NotoSerif;
-  src: url("/assets/fonts/notoserif-italic.woff2") format("woff2"),
-    url("/assets/fonts/notoserif-italic.woff") format("woff"),
-    url("/assets/fonts/notoserif-italic.ttf") format("ttf");
+  src: url("/assets/fonts/notoserif-italic-subset.woff2") format("woff2"),
+    url("/assets/fonts/notoserif-italic-subset.woff") format("woff");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -31,9 +28,8 @@
 
 @font-face {
   font-family: NotoSerif;
-  src: url("/assets/fonts/notoserif-bolditalic.woff2") format("woff2"),
-    url("/assets/fonts/notoserif-bolditalic.woff") format("woff"),
-    url("/assets/fonts/notoserif-bolditalic.ttf") format("ttf");
+  src: url("/assets/fonts/notoserif-bolditalic-subset.woff2") format("woff2"),
+    url("/assets/fonts/notoserif-bolditalic-subset.woff") format("woff");
   font-weight: 700;
   font-style: italic;
   font-display: swap;
