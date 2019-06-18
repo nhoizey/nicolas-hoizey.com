@@ -58,23 +58,23 @@
   }
 
   .set-1 {
-    font-size: 0.9em;
+    font-size: calc(#{$font-size-s});
   }
 
   .set-2 {
-    font-size: 1em;
+    font-size: calc(#{$font-size-m});
   }
 
   .set-3 {
-    font-size: 1.1em;
+    font-size: calc(#{$font-size-l});
   }
 
   .set-4 {
-    font-size: 1.2em;
+    font-size: calc(#{$font-size-xl});
   }
 
   .set-5 {
-    font-size: 1.3em;
+    font-size: calc(#{$font-size-xxl});
   }
 }
 

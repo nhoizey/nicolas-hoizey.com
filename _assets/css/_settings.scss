@@ -54,10 +54,37 @@ $color-icon-link: #aaa;
 $color-icon-border: #fff;
 $color-icon-hover: $color-secondary;
 
+$font-size-base: "(0.9rem + 0.5vw)";
 $baseline: 1.5rem;
-$bodyFontSize: "(0.9rem + 0.5vw)";
-$headingsScale: 1.07;
-$largeTextSize: "#{$bodyFontSize} * #{$headingsScale} * #{$headingsScale} * #{$headingsScale}";
+
+$font-size-scale: 1.1;
+$font-size-m: $font-size-base;
+$font-size-s: "#{$font-size-base} / #{$font-size-scale}";
+$font-size-xs: "#{$font-size-base} / #{$font-size-scale * $font-size-scale}";
+$font-size-xxs: "#{$font-size-base} / #{$font-size-scale * $font-size-scale * $font-size-scale}";
+$font-size-l: "#{$font-size-base} * #{$font-size-scale}";
+$font-size-xl: "#{$font-size-base} * #{$font-size-scale * $font-size-scale}";
+$font-size-xxl: "#{$font-size-base} * #{$font-size-scale * $font-size-scale * $font-size-scale}";
+$font-size-xxxl: "#{$font-size-base} * #{$font-size-scale * $font-size-scale * $font-size-scale * $font-size-scale}";
+$font-size-xxxxl: "#{$font-size-base} * #{$font-size-scale * $font-size-scale * $font-size-scale * $font-size-scale * $font-size-scale}";
+
+// :root {
+//   --fontScale: 1.1;
+// }
+// $font-size-scale: "var(--fontScale)";
+// $font-size-m: $font-size-base;
+// $font-size-s: "#{$font-size-base} / #{$font-size-scale}";
+// $font-size-xs: "#{$font-size-base} / #{$font-size-scale} / #{$font-size-scale}";
+// $font-size-xxs: "#{$font-size-base} / #{$font-size-scale} / #{$font-size-scale} / #{$font-size-scale}";
+// $font-size-l: "#{$font-size-base} * #{$font-size-scale}";
+// $font-size-xl: "#{$font-size-base} * #{$font-size-scale} * #{$font-size-scale}";
+// $font-size-xxl: "#{$font-size-base} * #{$font-size-scale} * #{$font-size-scale} * #{$font-size-scale}";
+// $font-size-xxxl: "#{$font-size-base} * #{$font-size-scale} * #{$font-size-scale} * #{$font-size-scale} * #{$font-size-scale}";
+// $font-size-xxxxl: "#{$font-size-base} * #{$font-size-scale} * #{$font-size-scale} * #{$font-size-scale} * #{$font-size-scale} * #{$font-size-scale}";
+
+$bodyFontSize: $font-size-base;
+
+$largeTextSize: $font-size-xxl;
 
 $maxLayoutWidth: 60rem;
 

@@ -32,6 +32,10 @@ html {
 }
 
 body {
+  font-size: calc(#{$font-size-base});
+  line-height: 1.5;
+  font-weight: 400;
+
   color: $color-text;
   background-color: $color-background;
 
@@ -99,42 +103,36 @@ h6 {
   position: relative;
 }
 
-$h6Size: "#{$bodyFontSize} * #{$headingsScale}";
-h6 {
-  font-style: italic;
-  font-size: calc(#{$h6Size});
-  color: $color-primary-lighter-2;
+h1 {
+  margin-top: 0;
+  font-size: calc(#{$font-size-xxxxl});
+  color: $color-primary;
 }
 
-$h5Size: "#{$h6Size} * #{$headingsScale}";
-h5 {
-  font-size: calc(#{$h5Size});
-  color: $color-primary-lighter-2;
-}
-
-$h4Size: "#{$h5Size} * #{$headingsScale}";
-h4 {
-  font-size: calc(#{$h4Size});
-  color: $color-primary-lighter-2;
-}
-
-$h3Size: "#{$h4Size} * #{$headingsScale}";
-h3 {
-  font-size: calc(#{$h3Size});
-  color: $color-primary-lighter-2;
-}
-
-$h2Size: "#{$h3Size} * #{$headingsScale}";
 h2 {
-  font-size: calc(#{$h2Size});
+  font-size: calc(#{$font-size-xxxl});
   color: $color-primary-lighter-1;
 }
 
-$h1Size: "#{$h2Size} * #{$headingsScale}";
-h1 {
-  margin-top: 0;
-  font-size: calc(#{$h1Size});
-  color: $color-primary;
+h3 {
+  font-size: calc(#{$font-size-xxl});
+  color: $color-primary-lighter-2;
+}
+
+h4 {
+  font-size: calc(#{$font-size-xl});
+  color: $color-primary-lighter-2;
+}
+
+h5 {
+  font-size: calc(#{$font-size-l});
+  color: $color-primary-lighter-2;
+}
+
+h6 {
+  font-style: italic;
+  font-size: calc(#{$font-size-m});
+  color: $color-primary-lighter-2;
 }
 
 // ************************************************************
@@ -283,7 +281,7 @@ summary {
 a.deeplink:link,
 a.deeplink:visited {
   display: inline-block;
-  font-size: 1.2rem;
+  font-size: calc(#{$font-size-xs});
   width: 1.9rem;
   height: 1.9rem;
   text-align: center;
@@ -293,7 +291,7 @@ a.deeplink:visited {
 
   @media (min-width: 55em) {
     position: absolute;
-    top: 0.65rem;
+    top: 0.35em;
     left: -2rem;
 
     display: flex;
@@ -346,7 +344,7 @@ h6 {
 
 .intro {
   margin: 0 0 2em;
-  font-size: 1.2em;
+  font-size: calc(#{$font-size-l});
   color: $color-article-intro;
 }
 
@@ -354,7 +352,7 @@ article {
   margin: 0;
 
   .e-content > p:first-of-type {
-    font-size: calc(#{$largeTextSize});
+    font-size: calc(#{$font-size-l});
   }
 
   ul {
@@ -703,7 +701,7 @@ article {
 .notification__icon {
   margin: 0;
   line-height: 1;
-  font-size: 2.5em;
+  font-size: calc(#{$font-size-xxxxl});
 
   svg {
     fill: currentColor;
