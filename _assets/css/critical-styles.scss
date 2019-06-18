@@ -5,7 +5,6 @@
 @import "components/card";
 
 :root {
-  font: -apple-system-body;
   --base-duration: 0s;
   --link-color: #39f;
 }
@@ -33,11 +32,6 @@ html {
 }
 
 body {
-  font-family: NotoSerif, Georgia, "Times New Roman", Times, serif;
-  font-size: calc(#{$bodyFontSize});
-  line-height: 1.5;
-  font-weight: 400;
-
   color: $color-text;
   background-color: $color-background;
 
@@ -508,7 +502,6 @@ article {
 
   kbd,
   code {
-    font-family: "Fira Code", "Courier New", Courier, monospace;
     font-size: 0.9em;
     display: inline-block;
     padding: 0 0.2em;
