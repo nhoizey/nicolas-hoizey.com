@@ -1,7 +1,7 @@
 ---
 title:      "Citation de Julia Bird"
 lang:       en
-tags:       [society, humour, quote, literature]
+tags:       [humour, quote, literature]
 ---
 
 Extrait d'un concours de poésie « moderne » de la Poetry Book Society:

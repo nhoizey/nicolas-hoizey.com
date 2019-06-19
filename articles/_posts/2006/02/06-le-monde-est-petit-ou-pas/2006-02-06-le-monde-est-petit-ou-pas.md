@@ -1,11 +1,10 @@
 ---
 title:      "Le monde est petit… ou pas"
 lang:       fr
-tags:       [society, photography, fail, humour, me, blog]
+tags:       [photography, fail, humour, me, blog]
 ---
 
 Il y a quelques jours, [Stéphane m'a aperçu dans le métro](http://www.nota-bene.org/Transports), sur la [ligne 13](http://fr.wikipedia.org/wiki/Ligne_13_du_m%C3%A9tro_de_Paris)[^1], en allant vers [Châtillon - Montrouge](http://fr.wikipedia.org/wiki/Ch%C3%A2tillon_-_Montrouge_(m%C3%A9tro_parisien)).
-
 
 [^1]: Y'a vraiment tout sur Wikipedia !
 
@@ -23,9 +22,7 @@ Il n'y avait là aucun doute sur son identité, les forums ont l'avantage sur le
 
 Ai-je eu raison, l'aurais-je importuné en étalant ainsi dans la vraie vie une partie de sa vie virtuelle ?
 
-
-
-[^1]: Il est d'ailleurs facile d'avoir [des gravatars avec SPIP](http://www.gasteroprod.com/des-gravatars-avec-spip.html) comme vous pouvez le voir sur Gastero Prod
+[^1]: Il est d'ailleurs facile d'avoir [des gravatars avec SPIP](/2005/01/des-gravatars-avec-spip.html) comme vous pouvez le voir sur Gastero Prod
 
 [^2]: Stéphane et moi avons déjà échangé plusieurs fois par mail ou commentaires de blogs interposés
 

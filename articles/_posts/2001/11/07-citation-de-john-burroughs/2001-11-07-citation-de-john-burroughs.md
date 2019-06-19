@@ -1,7 +1,7 @@
 ---
 title:      "Citation de John Burroughs"
 lang:       en
-tags:       [society, quote]
+tags:       [quote, literature]
 ---
 
 

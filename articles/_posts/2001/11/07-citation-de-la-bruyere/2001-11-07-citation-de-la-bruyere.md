@@ -1,7 +1,7 @@
 ---
 title:      "Citation de La Bruyère"
 lang:       fr
-tags:       [society, quote, literature]
+tags:       [quote, literature]
 ---
 
 
