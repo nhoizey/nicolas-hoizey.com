@@ -6,13 +6,13 @@ tags:       [SPIP, wiki, phpHeaven, phpMyChat]
 
 Voilà un proverbe chinois lu chez [Mario Asselin](http://carnets.opossum.ca/mario/archives/2006/01/mes_experiences_1.html), qui l'avait lu chez [Corinne Bourgnon](http://cotte.joueb.com/news/312.shtml) :
 
-    Si nous avons chacun un objet
-    et que nous l'échangeons,
-    nous aurons chacun un objet.
-    
-    Si nous avons chacun une idée
-    et que nous l'échangeons,
-    nous aurons chacun deux idées.
+Si nous avons chacun un objet  
+et que nous l'échangeons,  
+nous aurons chacun un objet.  
+  
+Si nous avons chacun une idée  
+et que nous l'échangeons,  
+nous aurons chacun deux idées.  
 
 Il illustre à merveille l'importance du partage des savoirs, notamment via des [outils collaboratifs](http://www.clever-age.com/actualites/petits-dejeuners/paris-etat-art-outils-collaboratif-422.html) de type Wiki, comme le montre le succès de [Wikipedia](http://fr.wikipedia.org/), le projet d'encyclopédie [libre](http://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Citation_et_r%C3%A9utilisation_du_contenu_de_Wikip%C3%A9dia), gratuite et multilingue que chacun peut améliorer.
 
