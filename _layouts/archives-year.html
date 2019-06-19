@@ -40,7 +40,8 @@ layout: default
       {% if month != "" %}
     </ul>
   {% endif %}
-  <h2 class="list__title">{{ post.date | date: "%B" | capitalize }}</h2>
+  <h2 class="list__title">{{ post.date | date: "%B" | capitalize }}
+    {{ page.date | date: "%Y" }}</h2>
   <ul class="list">
     {% assign month = post_month %}
   {% endif %}

@@ -13,13 +13,24 @@
   </p>
 </form>
 <script>
-// Make the search form dynamic
-window.document.getElementById('search').action = '/search.html'
+  // Make the search form dynamic
+  window
+    .document
+    .getElementById('search')
+    .action = '/search.html'
 
-// This hidden field is only for Google fallback when there's no JavaScript
-var sites = window.document.getElementById('search_sites')
-sites.parentNode.removeChild(sites)
+  // This hidden field is only for Google fallback when there's no JavaScript
+  var sites = window
+    .document
+    .getElementById('search_sites')
+  sites
+    .parentNode
+    .removeChild(sites)
 
-// Hide the button when there's JavaScript
-window.document.getElementById('search_button').style.display = 'none'
+  // Hide the button when there's JavaScript
+  window
+    .document
+    .getElementById('search_button')
+    .style
+    .display = 'none'
 </script>

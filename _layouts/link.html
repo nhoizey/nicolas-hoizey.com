@@ -16,7 +16,9 @@ layout: default
             <img class="u-photo" src="https://avatars.io/twitter/{{ page.author_twitter }}/medium" alt="{{ page.author }} avatar" loading="lazy" width="48" height="48" />
             <b class="p-name">{{ page.author }}</b> (<svg><use xlink:href="#symbol-twitter" /></svg>&nbsp;<a href="https://twitter.com/{{ page.author_twitter }}">@{{ page.author_twitter }}</a>)</p>
         {% else %}
-          <p class="link__source p-author h-card"><b class="p-name">{{ page.author }}</b></p>
+          <p class="link__source p-author h-card">
+            <b class="p-name">{{ page.author }}</b>
+          </p>
         {% endif %}
       {% endif %}
       <h1>{{ page.title }}</h1>
