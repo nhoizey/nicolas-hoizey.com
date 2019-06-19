@@ -29123,3 +29123,34 @@
     type: repost
     content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/links/2019/06/send-outgoing-webmentions.html">https://nicolas-hoizey.com/links/2019/06/send-outgoing-webmentions.html</a></p>
+  '628660':
+    id: '628660'
+    uri: https://twitter.com/nice_links/status/1141126159725449218#favorited-by-81091261
+    source: twitter
+    pubdate: 2019-06-19 09:48:18.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nice_links/1141126159725449218/81091261
+      verified: true
+      verified_date: '2019-06-19T07:48:18+00:00'
+      id: 628660
+      private: false
+      data:
+        author: &752
+          name: m4dz
+          url: https://twitter.com/m4d_z
+          photo: https://webmention.io/avatar/pbs.twimg.com/77cffe02fd7dc6e59f33129df7d8cd1e701d0dfb11e187ee7328ef17b268a26b.jpg
+        url: https://twitter.com/nice_links/status/1141126159725449218#favorited-by-81091261
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: m4dz favorited a tweet https://nicolas-hoizey.com/links/2019/06/send-outgoing-webmentions.html
+        sentence_html: <a href="https://twitter.com/m4d_z">m4dz</a> favorited a tweet
+          <a href="https://nicolas-hoizey.com/links/2019/06/send-outgoing-webmentions.html">https://nicolas-hoizey.com/links/2019/06/send-outgoing-webmentions.html</a>
+      target: https://nicolas-hoizey.com/links/2019/06/send-outgoing-webmentions.html
+    author: *752
+    type: like
+    content: <p><a href="https://twitter.com/m4d_z">m4dz</a> favorited a tweet <a
+      href="https://nicolas-hoizey.com/links/2019/06/send-outgoing-webmentions.html">https://nicolas-hoizey.com/links/2019/06/send-outgoing-webmentions.html</a></p>
