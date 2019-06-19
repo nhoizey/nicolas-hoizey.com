@@ -1,4 +1,3 @@
-<!-- nomicrotypo -->
 <head{% if page.title == "Accueil" %} itemscope itemtype="https://schema.org/WebSite"{% endif %}>
   {% comment %}
   charset and viewport first: https://www.nateberkopec.com/2015/10/21/hacking-head-tags-for-speed-and-profit.html
@@ -13,6 +12,7 @@
 
   {% comment %} Google Analytics {% endcomment %}
   {% if jekyll.environment == "production" %}
+    <!-- nomicrotypo -->
     <script>
       window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
       ga('create', 'UA-1655999-10', 'auto');
@@ -26,6 +26,7 @@
       ga('send', 'pageview')
     </script>
     <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    <!-- endnomicrotypo -->
   {% endif %}
 
   {% comment %} opengraph and Twitter {% endcomment %}
@@ -139,4 +140,3 @@
   var algoliaIndexName = '{{ site.algolia.index_name }}';
   </script>
 </head>
-<!-- endnomicrotypo -->
