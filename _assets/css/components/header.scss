@@ -6,7 +6,7 @@
 
 #header {
   white-space: nowrap;
-  font-size: 1.2em;
+  font-size: calc(#{$font-size-l});
   margin: 0;
   padding: 0;
 

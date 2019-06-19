@@ -64,7 +64,7 @@
 
 #powered-by-algolia {
   text-align: right;
-  font-size: 0.8em;
+  font-size: calc(#{$font-size-s});
 
   svg {
     width: 6.3em;

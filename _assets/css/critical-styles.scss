@@ -247,7 +247,7 @@ figcaption {
   display: inline-block;
   text-align: left;
 
-  font-size: 0.9em;
+  font-size: calc(#{$font-size-s});
   font-style: italic;
   margin: 0.1em 1em;
   padding: 0.3em 0;
@@ -455,7 +455,7 @@ article {
 
   kbd,
   code {
-    font-size: 0.9em;
+    font-size: calc(#{$font-size-s});
     display: inline-block;
     padding: 0 0.2em;
     border-radius: 0.2em;
@@ -551,7 +551,7 @@ article {
     color: #333;
     border: 1px solid #ccc;
     border-radius: 0.3em;
-    font-size: 0.9em;
+    font-size: calc(#{$font-size-s});
 
     ol {
       margin: 0;
@@ -591,7 +591,7 @@ article {
   .edit {
     border-top: 1px dotted #ccc;
     padding: 0.5em 0;
-    font-size: 0.9em;
+    font-size: calc(#{$font-size-s});
     color: #999;
 
     --link-color: $color-grey;
@@ -658,7 +658,7 @@ article {
 }
 
 .notification {
-  font-size: 0.9em;
+  font-size: calc(#{$font-size-s});
   padding: 0.5em;
   border-bottom: 2px solid transparent;
 

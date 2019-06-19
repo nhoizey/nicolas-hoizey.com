@@ -22,7 +22,7 @@
 }
 
 .comment__author {
-  font-size: 0.9em;
+  font-size: calc(#{$font-size-s});
   font-weight: normal;
 }
 
@@ -51,5 +51,5 @@
 
 .comment__meta {
   color: $color-meta;
-  font-size: 0.9em;
+  font-size: calc(#{$font-size-s});
 }
