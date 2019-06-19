@@ -12,7 +12,6 @@
 
   {% comment %} Google Analytics {% endcomment %}
   {% if jekyll.environment == "production" %}
-    <!-- nomicrotypo -->
     <script>
       window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
       ga('create', 'UA-1655999-10', 'auto');
@@ -26,7 +25,6 @@
       ga('send', 'pageview')
     </script>
     <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-    <!-- endnomicrotypo -->
   {% endif %}
 
   {% comment %} opengraph and Twitter {% endcomment %}
