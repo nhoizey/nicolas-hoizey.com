@@ -1,25 +1,28 @@
 <!-- nomicrotypo -->
 {% asset "components/navigation" @inline %}
-<nav id="navigation" role="navigation">
+
 <!-- endnomicrotypo -->
+<nav role="navigation" class="navigation">
   <div class="wrap">
-    <ul>
-      <li>
+    <ul class="navigation__section">
+      <li class="navigation__item">
         <a href="/">home</a>
       </li>
-      <li>
+      <li class="navigation__item">
         <a href="/{% include_cached last-article-year.html %}/">articles</a>
       </li>
-      <li>
+      <li class="navigation__item">
         <a href="/links/">links</a>
       </li>
-      <li>
+      <li class="navigation__item">
         <a href="https://talks.nicolas-hoizey.com/">talks</a>
       </li>
-      <li>
+    </ul>
+    <ul class="navigation__section">
+      <li class="navigation__item">
         <a href="/feeds/">feeds</a>
       </li>
-      <li>
+      <li class="navigation__item">
         <a href="/about/">about</a>
       </li>
     </ul>
