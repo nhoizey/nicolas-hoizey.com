@@ -51,6 +51,10 @@ JSON-LD for:
 </ul>
 
 <section class="tagscloud">
-  <p>Find other contents by tags:</p>
+  <p>Find other contents by frequent tags:</p>
+  {% capture cloud %}
   {% include_cached components/tags-cloud.html %}
+  {% endcapture %}
+  {{ cloud | frequent_tags }}
+  <p>See <a href="/tags/">the full tags cloud</a> for even more content.</p>
 </section>
