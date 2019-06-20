@@ -3,8 +3,9 @@ date: 2019-02-20 12:46:17 +0200
 title: "Font sizing with rem could be avoided"
 lang: en
 link: https://csswizardry.com/2011/05/font-sizing-with-rem-could-be-avoided/
-author: "Harry Roberts"
-author_twitter: "csswizardry"
+authors:
+  - name: "Harry Roberts"
+    twitter: "csswizardry"
 tags: [em, rem, "62.5%"]
 ---
 

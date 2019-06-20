@@ -2,8 +2,9 @@
 title: "Passwords Evolved: Authentication Guidance for the Modern Era"
 lang: en
 link: https://www.troyhunt.com/passwords-evolved-authentication-guidance-for-the-modern-era/
-author: "Troy Hunt"
-author_twitter: "troyhunt"
+authors:
+  - name: "Troy Hunt"
+    twitter: "troyhunt"
 tags: [security, password]
 ---
 

@@ -2,8 +2,9 @@
 title: "Signal v Noise exits Medium"
 lang:  en
 link: https://m.signalvnoise.com/signal-v-noise-exits-medium/
-author: "David Heinemeier Hansson"
-author_twitter: "dhh"
+authors:
+  - name: "David Heinemeier Hansson"
+    twitter: "dhh"
 tags: [Medium, IndieWeb]
 ---
 

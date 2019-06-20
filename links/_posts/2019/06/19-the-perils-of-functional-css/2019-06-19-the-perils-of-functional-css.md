@@ -3,8 +3,9 @@ date: 2019-06-19 16:16:59 +0200
 title: "The perils of functional CSS"
 lang: en
 link: https://www.browserlondon.com/blog/2019/06/10/functional-css-perils/
-author: "Jay Freestone"
-author_twitter: "jayfreestone"
+authors:
+  - name: "Jay Freestone"
+    twitter: "jayfreestone"
 tags: [CSS]
 ---
 

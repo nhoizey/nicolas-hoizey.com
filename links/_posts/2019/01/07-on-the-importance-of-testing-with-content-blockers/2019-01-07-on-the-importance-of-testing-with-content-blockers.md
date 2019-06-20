@@ -2,8 +2,9 @@
 title: "On the importance of testing with content blockers"
 lang: en
 link: https://hiddedevries.nl/en/blog/2019-01-07-on-the-importance-of-testing-with-content-blockers
-author: "Hidde de Vries"
-author_twitter: "hdv"
+authors:
+  - name: "Hidde de Vries"
+    twitter: "hdv"
 tags: [quality, progressive enhancement]
 ---
 

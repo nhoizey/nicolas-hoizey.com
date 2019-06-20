@@ -2,8 +2,9 @@
 title: "If it's interactive, it needs a focus style"
 lang: en
 link: https://noti.st/ericwbailey/TcMJFP/if-it-s-interactive-it-needs-a-focus-style
-author: "Eric Bailey"
-author_twitter: "ericwbailey"
+authors:
+  - name: "Eric Bailey"
+    twitter: "ericwbailey"
 tags: [accessibility, talk]
 ---
 

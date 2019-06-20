@@ -3,8 +3,9 @@ date: 2019-04-18 23:07:10 +0200
 title: "Fading out siblings on hover in CSS"
 lang: en
 link: https://www.trysmudford.com/blog/fade-out-siblings-css-trick/
-author: "Trys Mudford"
-author_twitter: "trysmudford"
+authors:
+  - name: "Trys Mudford"
+    twitter: "trysmudford"
 tags: [CSS]
 ---
 

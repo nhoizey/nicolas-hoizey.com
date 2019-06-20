@@ -2,8 +2,9 @@
 title: "The average web page is 3MB. How much should we care?"
 lang: en
 link: https://speedcurve.com/blog/web-performance-page-bloat/
-author: "Tammy Everts"
-author_twitter: "tameverts"
+authors:
+  - name: "Tammy Everts"
+    twitter: "tameverts"
 tags: [WebPerf]
 ---
 

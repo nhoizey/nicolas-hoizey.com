@@ -3,8 +3,9 @@ date: 2019-02-21 17:07:37 +0200
 title: "Timelines of the web"
 lang: en
 link: https://adactio.com/journal/14827
-author: "Jeremy Keith"
-author_twitter: "adactio"
+authors:
+  - name: "Jeremy Keith"
+    twitter: "adactio"
 tags: [Web, history]
 ---
 

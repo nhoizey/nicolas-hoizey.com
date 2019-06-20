@@ -2,7 +2,8 @@
 title: "Design with Difficult Data"
 lang: en
 link: https://alistapart.com/article/design-with-difficult-data
-author: "Steven Garrity"
+authors:
+  - name: "Steven Garrity"
 tags: [quality]
 ---
 

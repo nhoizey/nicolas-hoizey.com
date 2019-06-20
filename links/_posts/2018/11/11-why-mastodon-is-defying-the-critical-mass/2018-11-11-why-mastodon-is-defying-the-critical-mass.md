@@ -2,7 +2,8 @@
 title: "Why Mastodon is defying the “critical mass”"
 lang: en
 link: https://peteroshaughnessy.com/posts/why-mastodon-is-defying-the-critical-mass/
-author: "Peter O’Shaughnessy"
+authors:
+  - name: "Peter O’Shaughnessy"
 tags: [Mastodon]
 ---
 

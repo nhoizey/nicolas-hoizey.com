@@ -2,8 +2,9 @@
 title: "Bridgy stats update"
 lang: en
 link: https://snarfed.org/2019-01-02_bridgy-stats-update-4
-author: "Ryan Barrett"
-author_twitter: "schnarfed"
+authors:
+  - name: "Ryan Barrett"
+    twitter: "schnarfed"
 tags: [IndieWeb, Webmention]
 ---
 

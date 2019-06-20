@@ -2,8 +2,9 @@
 title: "The practical value of semantic HTML"
 lang: en
 link: https://www.brucelawson.co.uk/2018/the-practical-value-of-semantic-html/
-author: "Bruce Lawson"
-author_twitter: "brucel"
+authors:
+  - name: "Bruce Lawson"
+    twitter: "brucel"
 tags: [HTML, semantic, Web, quality]
 ---
 

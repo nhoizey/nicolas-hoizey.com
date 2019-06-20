@@ -3,8 +3,9 @@ date: 2019-05-07 12:47:53 +0200
 title: "Implementing a Mockup: CSS Layout Step by Step"
 lang: en
 link: https://daveceddia.com/implement-a-design-with-css/
-author: "Dave Ceddia"
-author_twitter: "dceddia"
+authors:
+  - name: "Dave Ceddia"
+    twitter: "dceddia"
 tags: [CSS, layout, Flexbox]
 ---
 

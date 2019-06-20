@@ -3,8 +3,9 @@ date: 2019-06-14 17:29:08 +0200
 title: "When should you be using Web Workers?"
 lang: en
 link: https://dassur.ma/things/when-workers/
-author: "Surma"
-author_twitter: "dassurma"
+authors:
+  - name: "Surma"
+    twitter: "dassurma"
 tags: [webperf, JavaScript]
 ---
 

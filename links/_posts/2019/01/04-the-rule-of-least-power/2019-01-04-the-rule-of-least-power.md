@@ -2,8 +2,9 @@
 title: "The Rule of Least Power"
 lang: en
 link: https://www.w3.org/2001/tag/doc/leastPower.html
-author: "Tim Berners-Lee"
-author_twitter: "timberners_lee"
+authors:
+  - name: "Tim Berners-Lee"
+    twitter: "timberners_lee"
 tags: [KISS, W3C]
 ---
 

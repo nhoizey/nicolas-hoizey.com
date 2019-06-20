@@ -2,7 +2,8 @@
 title: "Software disenchantment"
 lang: en
 link: http://tonsky.me/blog/disenchantment/
-author: "Nikita Prokopov"
+authors:
+  - name: "Nikita Prokopov"
 tags: [innovation, WebPerf]
 ---
 

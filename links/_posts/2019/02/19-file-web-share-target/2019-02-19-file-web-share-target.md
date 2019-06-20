@@ -3,8 +3,9 @@ date: 2019-02-19 12:14:16 +0200
 title: "File Web Share Target"
 lang: en
 link: https://paul.kinlan.me/file-web-share-target/
-author: "Paul Kinlan"
-author_twitter: "Paul_Kinlan"
+authors:
+  - name: "Paul Kinlan"
+    twitter: "Paul_Kinlan"
 tags: [PWA, API]
 ---
 

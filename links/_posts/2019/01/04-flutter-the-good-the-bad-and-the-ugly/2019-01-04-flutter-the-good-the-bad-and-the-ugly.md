@@ -2,8 +2,9 @@
 title: "Flutter: the good, the bad and the ugly"
 lang: en
 link: https://medium.com/asos-techblog/flutter-vs-react-native-for-ios-android-app-development-c41b4e038db9
-author: "Marco Bellinaso"
-author_twitter: "mbellinaso"
+authors:
+  - name: "Marco Bellinaso"
+    twitter: "mbellinaso"
 tags: [iOS, Android, mobile]
 ---
 

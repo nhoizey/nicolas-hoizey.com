@@ -2,7 +2,8 @@
 title: "It’s not about the device."
 lang: en
 link: https://ethanmarcotte.com/wrote/not-the-device/
-author: "Ethan Marcotte"
+authors:
+  - name: "Ethan Marcotte"
 tags: [RWD]
 ---
 

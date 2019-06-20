@@ -2,7 +2,8 @@
 title: "Mercure: server-sent live updates, protocol and reference implementation"
 lang: en
 link: https://mercure.rocks
-author: "Kévin Dunglas"
+authors:
+  - name: "Kévin Dunglas"
 tags: [push, API]
 ---
 

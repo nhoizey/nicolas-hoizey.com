@@ -3,8 +3,9 @@ date: 2019-04-26 15:46:58 +0200
 title: "Progressive Font Enrichment: reinventing web font performance"
 lang: en
 link: https://mailchi.mp/fe0fa657733a/web-typography-news-11-progressive-font-enrichment-naming-things-is-hard-edition?e=6d09bc30d0
-author: "Jason Pamental"
-author_twitter: "jpamental"
+authors:
+  - name: "Jason Pamental"
+    twitter: "jpamental"
 tags: [font, webperf]
 ---
 

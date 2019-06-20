@@ -2,8 +2,9 @@
 title: "Creating distraction-free reading experiences"
 lang: en
 link: http://azumbrunnen.me/blog/creating-distraction-free-reading-experiences/
-author: "Adrian Zumbrunnen"
-author_twitter: "azumbrunnen_"
+authors:
+  - name: "Adrian Zumbrunnen"
+    twitter: "azumbrunnen_"
 tags: [UX, blog]
 ---
 

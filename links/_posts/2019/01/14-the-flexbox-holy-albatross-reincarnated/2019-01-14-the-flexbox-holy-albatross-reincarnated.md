@@ -2,8 +2,9 @@
 title: "The Flexbox Holy Albatross Reincarnated"
 lang: en
 link: http://www.heydonworks.com/article/the-flexbox-holy-albatross-reincarnated
-author: "Heydon Pickering"
-author_twitter: "heydonworks"
+authors:
+  - name: "Heydon Pickering"
+    twitter: "heydonworks"
 tags: [RWD, flexbox, CSS, layout]
 ---
 

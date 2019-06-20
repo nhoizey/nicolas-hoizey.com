@@ -8,8 +8,13 @@ title:  Links
   {% for link in site.categories['links'] %}
     <li class="list__item">
       <div class="card card--link">
-        {% if link.author %}
-          <p class="card__source">{{ link.author }}:</p>
+        {% if link.authors %}
+          <p class="card__source">
+            {% for author in link.authors %}
+              {{ author.name }}
+              {% if forloop.last == false %},{% endif %}
+            {% endfor %}:
+          </p>
         {% endif %}
         <p class="card__title">
           <a href="{{ link.url }}">{{ link.title }}</a>

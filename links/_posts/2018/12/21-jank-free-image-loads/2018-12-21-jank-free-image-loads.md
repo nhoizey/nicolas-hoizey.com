@@ -2,8 +2,9 @@
 title: "Jank-Free Image Loads"
 lang: en
 link: https://24ways.org/2018/jank-free-image-loads/
-author: "Eric Portis"
-author_twitter: "etportis"
+authors:
+  - name: "Eric Portis"
+    twitter: "etportis"
 tags: [image, RWD, WebPerf]
 ---
 

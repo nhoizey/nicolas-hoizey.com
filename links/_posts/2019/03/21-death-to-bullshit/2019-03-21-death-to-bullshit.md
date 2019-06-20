@@ -3,8 +3,9 @@ date: 2019-03-21 16:25:03 +0200
 title: "Death to bullshit"
 lang: en
 link: http://bradfrost.com/blog/post/death-to-bullshit/
-author: "Brad Frost"
-author_twitter: "brad_frost"
+authors:
+  - name: "Brad Frost"
+    twitter: "brad_frost"
 tags: [bullshit, Web, design, UX]
 ---
 
