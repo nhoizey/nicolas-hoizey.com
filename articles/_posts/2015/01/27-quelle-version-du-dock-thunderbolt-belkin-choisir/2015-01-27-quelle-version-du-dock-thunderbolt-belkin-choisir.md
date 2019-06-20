@@ -1,7 +1,6 @@
 ---
 title:      Quelle version du dock thunderbolt Belkin choisir ?
 date:       2015-01-27
-author:     Nicolas Hoizey
 lang:       fr
 tags:       [Apple, gear]
 logo:
