@@ -10,9 +10,7 @@
     <li class="date card__meta__item card__date">
       <svg class="icon"><use xlink:href="#symbol-date" /></svg>
       <time class="dt-published" datetime="{{ include.page.date | date: "%Y-%m-%d %H:%M:%S" }}">
-        <a href="/{{ include.page.date | date: "%Y/%m" }}/">{{ include.page.date | date: "%B" }}</a>&nbsp;
-        {% include_cached ordinal-day.html page=include.page %},
-        <a href="/{{ year }}/">{{ year }}</a>
+        <a href="/{{ include.page.date | date: "%Y/%m" }}/">{{ include.page.date | date: "%B" }}</a> {% include_cached ordinal-day.html page=include.page %}, <a href="/{{ year }}/">{{ year }}</a>
       </time>
     </li>
     <li class="tags card__meta__item card__tags">
