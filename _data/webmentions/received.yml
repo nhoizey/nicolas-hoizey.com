@@ -29154,4 +29154,129 @@
     type: like
     content: <p><a href="https://twitter.com/m4d_z">m4dz</a> favorited a tweet <a
       href="https://nicolas-hoizey.com/links/2019/06/send-outgoing-webmentions.html">https://nicolas-hoizey.com/links/2019/06/send-outgoing-webmentions.html</a></p>
-"/links/2019/06/the-perils-of-functional-css.html": {}
+"/links/2019/06/the-perils-of-functional-css.html":
+  '629029':
+    id: '629029'
+    uri: https://twitter.com/nice_links/status/1141366459643437057#favorited-by-259814870
+    source: twitter
+    pubdate: 2019-06-19 17:39:42.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nice_links/1141366459643437057/259814870
+      verified: true
+      verified_date: '2019-06-19T15:39:42+00:00'
+      id: 629029
+      private: false
+      data:
+        author: &753
+          name: Gaël Poupard
+          url: https://twitter.com/ffoodd_fr
+          photo: https://webmention.io/avatar/pbs.twimg.com/bebb7c8bbc4d5d316c64a4e8278e4fb1a662dd836590aa669864c8f7d7ca013d.jpeg
+        url: https://twitter.com/nice_links/status/1141366459643437057#favorited-by-259814870
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Gaël Poupard favorited a tweet https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html
+        sentence_html: <a href="https://twitter.com/ffoodd_fr">Gaël Poupard</a> favorited
+          a tweet <a href="https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html">https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html</a>
+      target: https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html
+    author: *753
+    type: like
+    content: <p><a href="https://twitter.com/ffoodd_fr">Gaël Poupard</a> favorited
+      a tweet <a href="https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html">https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html</a></p>
+  '1141366799486922752':
+    id: '1141366799486922752'
+    uri: https://twitter.com/PhoenixGyaan/status/1141366799486922752
+    source: twitter
+    pubdate: 2019-06-19 17:27:05.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nice_links/1141366459643437057/1141366799486922752
+      verified: true
+      verified_date: '2019-06-19T15:39:41+00:00'
+      id: 629027
+      private: false
+      data:
+        author: &754
+          name: PhoenixCodes
+          url: https://twitter.com/PhoenixGyaan
+          photo: https://webmention.io/avatar/pbs.twimg.com/4f062ed21a75b20dce79a9d90c2e9e9349f40091b50bd345262a265ff765d881.jpg
+        url: https://twitter.com/PhoenixGyaan/status/1141366799486922752
+        name: 
+        content: "\U0001F517 Jay Freestone: The perils of functional CSS\nnho.io/2IqV2de\n\n#css"
+        published: '2019-06-19T15:27:05+00:00'
+        published_ts: 1560958025
+      activity:
+        type: repost
+        sentence: PhoenixCodes retweeted a tweet https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html
+        sentence_html: <a href="https://twitter.com/PhoenixGyaan">PhoenixCodes</a>
+          retweeted a tweet <a href="https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html">https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html</a>
+      target: https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html
+    author: *754
+    type: repost
+    content: <p><a href="https://twitter.com/PhoenixGyaan">PhoenixCodes</a> retweeted
+      a tweet <a href="https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html">https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html</a></p>
+  '1141368789508005889':
+    id: '1141368789508005889'
+    uri: https://twitter.com/nhoizey/status/1141368789508005889
+    source: twitter
+    pubdate: 2019-06-19 17:34:59.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nice_links/1141366459643437057/1141368789508005889
+      verified: true
+      verified_date: '2019-06-19T15:39:41+00:00'
+      id: 629028
+      private: false
+      data:
+        author: &755
+          name: Nicolas Hoizey
+          url: https://twitter.com/nhoizey
+          photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
+        url: https://twitter.com/nhoizey/status/1141368789508005889
+        name: 
+        content: "\U0001F517 Jay Freestone: The perils of functional CSS\nnho.io/2IqV2de\n\n#css"
+        published: '2019-06-19T15:34:59+00:00'
+        published_ts: 1560958499
+      activity:
+        type: repost
+        sentence: Nicolas Hoizey retweeted a tweet https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html
+        sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
+          a tweet <a href="https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html">https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html</a>
+      target: https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html
+    author: *755
+    type: repost
+    content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
+      a tweet <a href="https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html">https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html</a></p>
+  '629443':
+    id: '629443'
+    uri: https://twitter.com/nice_links/status/1141366459643437057#favorited-by-11157072
+    source: twitter
+    pubdate: 2019-06-20 09:20:18.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nice_links/1141366459643437057/11157072
+      verified: true
+      verified_date: '2019-06-20T07:20:18+00:00'
+      id: 629443
+      private: false
+      data:
+        author: &756
+          name: "@inseo@mamot.fr"
+          url: https://twitter.com/schillinger
+          photo: https://webmention.io/avatar/pbs.twimg.com/252351b6930d7b490fc6a5755e94494b373a7831bc401f4d4d441019eba7c9ad.jpg
+        url: https://twitter.com/nice_links/status/1141366459643437057#favorited-by-11157072
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: "@inseo@mamot.fr favorited a tweet https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html"
+        sentence_html: <a href="https://twitter.com/schillinger">@inseo@mamot.fr</a>
+          favorited a tweet <a href="https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html">https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html</a>
+      target: https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html
+    author: *756
+    type: like
+    content: <p><a href="https://twitter.com/schillinger">@inseo@mamot.fr</a> favorited
+      a tweet <a href="https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html">https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html</a></p>
+"/links/2019/06/every-layout-relearn-css-layout.html": {}
