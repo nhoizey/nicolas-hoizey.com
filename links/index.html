@@ -1,26 +1,25 @@
 ---
 layout: default
-title:  Links
+title: Links
 ---
 
 <h1 class="list__title">Links</h1>
 <ul class="list">
   {% for link in site.categories['links'] %}
-    <li class="list__item">
-      <div class="card card--link">
-        {% if link.authors %}
-          <p class="card__source">
-            {% for author in link.authors %}
-              {{ author.name }}
-              {% if forloop.last == false %},{% endif %}
-            {% endfor %}:
-          </p>
-        {% endif %}
-        <p class="card__title">
-          <a href="{{ link.url }}">{{ link.title }}</a>
-        </p>
-        {% include_cached link-meta.html page=link %}
-      </div>
-    </li>
+  <li class="list__item">
+    <div class="card card--link">
+      {% if link.authors %}
+      <p class="card__source">
+        {%- for author in link.authors -%}
+        {{ author.name }}
+        {%- if forloop.last == false -%}, {% endif -%} {%- endfor -%}:
+      </p>
+      {% endif %}
+      <p class="card__title">
+        <a href="{{ link.url }}">{{ link.title }}</a>
+      </p>
+      {% include_cached link-meta.html page=link %}
+    </div>
+  </li>
   {% endfor %}
 </ul>
