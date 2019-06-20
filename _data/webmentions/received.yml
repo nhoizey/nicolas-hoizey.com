@@ -29279,4 +29279,174 @@
     type: like
     content: <p><a href="https://twitter.com/schillinger">@inseo@mamot.fr</a> favorited
       a tweet <a href="https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html">https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html</a></p>
-"/links/2019/06/every-layout-relearn-css-layout.html": {}
+  '1141662839024881665':
+    id: '1141662839024881665'
+    uri: https://twitter.com/ffoodd_fr/status/1141662839024881665
+    source: twitter
+    pubdate: 2019-06-20 13:03:26.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/nice_links/1141366459643437057/1141662839024881665
+      verified: true
+      verified_date: '2019-06-20T11:10:52+00:00'
+      id: 629540
+      private: false
+      data:
+        author: &757
+          name: Gaël Poupard
+          url: https://twitter.com/ffoodd_fr
+          photo: https://webmention.io/avatar/pbs.twimg.com/bebb7c8bbc4d5d316c64a4e8278e4fb1a662dd836590aa669864c8f7d7ca013d.jpeg
+        url: https://twitter.com/ffoodd_fr/status/1141662839024881665
+        name: 
+        content: "Y’a aucun bon argument dans cet article \U0001F615\n\nOn peut résoudre
+          tous les problèmes évoqués en CSS fonctionnels proprement, et les conclusions
+          à l’emporte-pièce sont totalement biaisées par les a priori de l’auteur…\n\nMais
+          très joli titre. \U0001F605"
+        published: '2019-06-20T11:03:26+00:00'
+        published_ts: 1561028606
+      activity:
+        type: reply
+        sentence: "Gaël Poupard replied 'Y’a aucun bon argument dans cet article \U0001F615
+          \ On peut résoudre tous les problèmes é...' to a tweet https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html"
+        sentence_html: "<a href=\"https://twitter.com/ffoodd_fr\">Gaël Poupard</a>
+          replied 'Y’a aucun bon argument dans cet article \U0001F615  On peut résoudre
+          tous les problèmes é...' to a tweet <a href=\"https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html\">https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html</a>"
+      target: https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html
+    author: *757
+    type: reply
+    content: "<p>Y’a aucun bon argument dans cet article \U0001F615</p>\n\n<p>On peut
+      résoudre tous les problèmes évoqués en CSS fonctionnels proprement, et les conclusions
+      à l’emporte-pièce sont totalement biaisées par les a priori de l’auteur…</p>\n\n<p>Mais
+      très joli titre. \U0001F605</p>"
+  '1141669095470968832':
+    id: '1141669095470968832'
+    uri: https://twitter.com/nhoizey/status/1141669095470968832
+    source: twitter
+    pubdate: 2019-06-20 13:28:18.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/nice_links/1141366459643437057/1141669095470968832
+      verified: true
+      verified_date: '2019-06-20T11:43:31+00:00'
+      id: 629554
+      private: false
+      data:
+        author: &758
+          name: Nicolas Hoizey
+          url: https://twitter.com/nhoizey
+          photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
+        url: https://twitter.com/nhoizey/status/1141669095470968832
+        name: 
+        content: |-
+          J’ai plutôt adhéré aux problèmes identifiés, pour ma part, mais j’ai sans doute un à priori déjà peu favorable à Atomic CSS…
+
+          Tu devrais écrire un article de réponse, si tu as des avis contraires argumentés !
+        published: '2019-06-20T11:28:18+00:00'
+        published_ts: 1561030098
+      activity:
+        type: reply
+        sentence: Nicolas Hoizey replied 'J’ai plutôt adhéré aux problèmes identifiés,
+          pour ma part, mais j’ai sans doute ...' to a tweet https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html
+        sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> replied
+          'J’ai plutôt adhéré aux problèmes identifiés, pour ma part, mais j’ai sans
+          doute ...' to a tweet <a href="https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html">https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html</a>
+      target: https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html
+    author: *758
+    type: reply
+    content: |-
+      <p>J’ai plutôt adhéré aux problèmes identifiés, pour ma part, mais j’ai sans doute un à priori déjà peu favorable à Atomic CSS…</p>
+
+      <p>Tu devrais écrire un article de réponse, si tu as des avis contraires argumentés !</p>
+  '629565':
+    id: '629565'
+    uri: https://twitter.com/nice_links/status/1141366459643437057#favorited-by-33046163
+    source: twitter
+    pubdate: 2019-06-20 12:15:17.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nice_links/1141366459643437057/33046163
+      verified: true
+      verified_date: '2019-06-20T12:15:17+00:00'
+      id: 629565
+      private: false
+      data:
+        author: &759
+          name: "@thomas@social.tzi.fr"
+          url: https://twitter.com/iamtzi
+          photo: https://webmention.io/avatar/pbs.twimg.com/771c10bdccf2f1097190137165e552207370fc500b4e8edf30f141ef858cede1.jpg
+        url: https://twitter.com/nice_links/status/1141366459643437057#favorited-by-33046163
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: "@thomas@social.tzi.fr favorited a tweet https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html"
+        sentence_html: <a href="https://twitter.com/iamtzi">@thomas@social.tzi.fr</a>
+          favorited a tweet <a href="https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html">https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html</a>
+      target: https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html
+    author: *759
+    type: like
+    content: <p><a href="https://twitter.com/iamtzi">@thomas@social.tzi.fr</a> favorited
+      a tweet <a href="https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html">https://nicolas-hoizey.com/links/2019/06/the-perils-of-functional-css.html</a></p>
+"/links/2019/06/every-layout-relearn-css-layout.html":
+  '1141671060452061186':
+    id: '1141671060452061186'
+    uri: https://twitter.com/nhoizey/status/1141671060452061186
+    source: twitter
+    pubdate: 2019-06-20 13:36:06.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nice_links/1141668424453672961/1141671060452061186
+      verified: true
+      verified_date: '2019-06-20T11:43:29+00:00'
+      id: 629553
+      private: false
+      data:
+        author: &760
+          name: Nicolas Hoizey
+          url: https://twitter.com/nhoizey
+          photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
+        url: https://twitter.com/nhoizey/status/1141671060452061186
+        name: 
+        content: "\U0001F517 Every Layout: Relearn CSS layout\nnho.io/2WRKBIq\n\n#css
+          #layout"
+        published: '2019-06-20T11:36:06+00:00'
+        published_ts: 1561030566
+      activity:
+        type: repost
+        sentence: Nicolas Hoizey retweeted a tweet https://nicolas-hoizey.com/links/2019/06/every-layout-relearn-css-layout.html
+        sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
+          a tweet <a href="https://nicolas-hoizey.com/links/2019/06/every-layout-relearn-css-layout.html">https://nicolas-hoizey.com/links/2019/06/every-layout-relearn-css-layout.html</a>
+      target: https://nicolas-hoizey.com/links/2019/06/every-layout-relearn-css-layout.html
+    author: *760
+    type: repost
+    content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
+      a tweet <a href="https://nicolas-hoizey.com/links/2019/06/every-layout-relearn-css-layout.html">https://nicolas-hoizey.com/links/2019/06/every-layout-relearn-css-layout.html</a></p>
+  '629566':
+    id: '629566'
+    uri: https://twitter.com/nice_links/status/1141668424453672961#favorited-by-33046163
+    source: twitter
+    pubdate: 2019-06-20 12:15:17.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nice_links/1141668424453672961/33046163
+      verified: true
+      verified_date: '2019-06-20T12:15:17+00:00'
+      id: 629566
+      private: false
+      data:
+        author: &761
+          name: "@thomas@social.tzi.fr"
+          url: https://twitter.com/iamtzi
+          photo: https://webmention.io/avatar/pbs.twimg.com/771c10bdccf2f1097190137165e552207370fc500b4e8edf30f141ef858cede1.jpg
+        url: https://twitter.com/nice_links/status/1141668424453672961#favorited-by-33046163
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: "@thomas@social.tzi.fr favorited a tweet https://nicolas-hoizey.com/links/2019/06/every-layout-relearn-css-layout.html"
+        sentence_html: <a href="https://twitter.com/iamtzi">@thomas@social.tzi.fr</a>
+          favorited a tweet <a href="https://nicolas-hoizey.com/links/2019/06/every-layout-relearn-css-layout.html">https://nicolas-hoizey.com/links/2019/06/every-layout-relearn-css-layout.html</a>
+      target: https://nicolas-hoizey.com/links/2019/06/every-layout-relearn-css-layout.html
+    author: *761
+    type: like
+    content: <p><a href="https://twitter.com/iamtzi">@thomas@social.tzi.fr</a> favorited
+      a tweet <a href="https://nicolas-hoizey.com/links/2019/06/every-layout-relearn-css-layout.html">https://nicolas-hoizey.com/links/2019/06/every-layout-relearn-css-layout.html</a></p>
