@@ -40,7 +40,7 @@
 }
 
 .link__link {
-  font-size: calc(#{$largeTextSize});
+  font-size: var(--font-size-xxl);
 }
 
 @media (min-width: 40em) {

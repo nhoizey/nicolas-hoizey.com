@@ -5,5 +5,5 @@
 // ************************************************************
 
 #intro {
-  font-size: calc(#{$largeTextSize});
+  font-size: var(--font-size-xxl);
 }

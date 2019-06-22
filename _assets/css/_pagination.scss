@@ -1,5 +1,5 @@
 .pagination {
-  font-size: calc(#{$font-size-l});
+  font-size: var(--font-size-l);
   margin: 3em auto;
   padding: 0;
   display: flex;
