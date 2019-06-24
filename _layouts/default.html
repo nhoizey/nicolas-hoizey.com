@@ -6,11 +6,7 @@ layout: microtypo
 
 {% include head.html %}
 
-{% if page.path contains "about/" %}
-<body itemscope itemtype="https://schema.org/AboutPage">
-{% else %}
-<body itemscope itemtype="https://schema.org/WebPage">
-{% endif %}
+  <body itemscope itemtype="https://schema.org/{% if page.path contains " about/" %}aboutpage{% else %}webpage{% endif %}" class="{%- include current-type.html -%}">
 
 {% include_cached components/svg-sprite.html %}
 

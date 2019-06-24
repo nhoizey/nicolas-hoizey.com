@@ -42,7 +42,6 @@
     transition-duration: calc(var(--base-duration) / 2);
     transition-timing-function: ease-in-out;
   }
-
   a:hover,
   a:focus {
     color: #fff;
@@ -51,5 +50,22 @@
     border-bottom-color: $color-primary-lighter-2;
     border-left-color: $color-primary-lighter-2;
     transform: translateY(1px);
+  }
+
+  .homepage &.homepage,
+  .articles &.articles,
+  .links &.links,
+  .talks &.talks,
+  .feeds &.feeds,
+  .about &.about {
+    a:link,
+    a:visited {
+      color: #fff;
+      background-color: $color-primary-lighter-1;
+      border: solid 1px $color-primary;
+      border-bottom-color: $color-primary-lighter-2;
+      border-left-color: $color-primary-lighter-2;
+      transform: translateY(1px);
+    }
   }
 }

@@ -1,25 +1,27 @@
 {% asset "components/navigation" @inline %}
-<nav role="navigation" class="navigation">
+<nav
+  class="navigation" role="navigation">
+  <!-- {{ page.type }} -->
   <div class="wrap">
     <ul class="navigation__section">
-      <li class="navigation__item">
+      <li class="navigation__item homepage">
         <a href="/">home</a>
       </li>
-      <li class="navigation__item">
+      <li class="navigation__item articles">
         <a href="/{% include_cached last-article-year.html %}/">articles</a>
       </li>
-      <li class="navigation__item">
+      <li class="navigation__item links">
         <a href="/links/">links</a>
       </li>
-      <li class="navigation__item">
+      <li class="navigation__item talks">
         <a href="https://talks.nicolas-hoizey.com/">talks</a>
       </li>
     </ul>
     <ul class="navigation__section">
-      <li class="navigation__item">
+      <li class="navigation__item feeds">
         <a href="/feeds/">feeds</a>
       </li>
-      <li class="navigation__item">
+      <li class="navigation__item about">
         <a href="/about/">about</a>
       </li>
     </ul>

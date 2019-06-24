@@ -1,0 +1,12 @@
+{%- assign current = page.url | replace:'/',' ' | truncatewords: 1,"" -%}
+{%- assign firstChar = current | truncate: 1, "" -%}
+{%- if page.title == "Homepage" -%}
+  {%- assign current = "homepage" -%}
+{%- endif -%}
+{%- if page.type == "year" or page.type == "month" or firstChar == "2" -%}
+  {%- assign current = "articles" -%}
+{%- endif -%}
+{%- if current == "" -%}
+  {%- assign current = "page" -%}
+{%- endif -%}
+{{ current }}
