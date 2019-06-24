@@ -4,61 +4,62 @@ layout: microtypo
 <!DOCTYPE html>
 <html lang="en">
 
-{% include head.html %}
+  {% include head.html %}
 
   <body itemscope itemtype="https://schema.org/{% if page.path contains " about/" %}aboutpage{% else %}webpage{% endif %}" class="{%- include current-type.html -%}">
 
-{% include_cached components/svg-sprite.html %}
+    {% include_cached components/svg-sprite.html %}
 
-<a href="#main" class="sr-only">Jump to main content</a>
+    <a class="sr-only" href="#main">Jump to main content</a>
 
-<div id="notifications"></div>
+    <div id="notifications"></div>
 
-{% asset "components/header" @inline %}
-<header id="header" role="banner">
-  <div class="wrap">
-    <!-- {{ page.url }} -->
+    {% asset "components/header" @inline %}
+    <header id="header" role="banner">
+      <div
+        class="wrap">
+        <!-- {{ page.url }} -->
+        {% if page.url == "/" or page.url == "/index.html" %}
+          <h1 class="site_title h-card" rel="me">Nicolas Hoizey</h1>
+        {% else %}
+          <p class="site_title">
+            <a class="h-card" href="/" rel="me" title="Homepage">Nicolas Hoizey</a>
+          </p>
+        {% endif %}
+        {% include_cached components/search-form.html %}
+      </div>
+    </header>
+
+    {% include components/navigation.html %}
+
     {% if page.url == "/" or page.url == "/index.html" %}
-      <h1 class="site_title h-card" rel="me">Nicolas Hoizey</h1>
-    {% else %}
-      <p class="site_title">
-        <a href="/" title="Homepage" class="h-card" rel="me">Nicolas Hoizey</a>
-      </p>
+      {% include_cached components/intro.html %}
     {% endif %}
-    {% include_cached components/search-form.html %}
-  </div>
-</header>
 
-{% include_cached components/navigation.html %}
+    <main id="main" role="main">
+      <div class="wrap">
+        {{ content }}
+      </div>
+    </main>
+    <div class="search">
+      <div class="wrap">
+        <div class="results" id="search_results"></div>
+      </div>
+    </div>
 
-{% if page.url == "/" or page.url == "/index.html" %}
-  {% include_cached components/intro.html %}
-{% endif %}
+    {% include_cached components/footer.html %}
 
-<main id="main" role="main">
-  <div class="wrap">
-    {{ content }}
-  </div>
-</main>
-<div class="search">
-  <div class="wrap">
-    <div id="search_results" class="results"></div>
-  </div>
-</div>
+    {% asset "behaviors" defer %}
 
-{% include_cached components/footer.html %}
+    <script type="module" src="/sw-window.mjs"></script>
 
-{% asset "behaviors" defer %}
-
-<script type="module" src="/sw-window.mjs"></script>
-
-{% comment %}
+    {% comment %}
 https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery#example
 {% endcomment %}
-<noscript id="deferred-styles">
-  {% asset "non-critical-styles" %}
-</noscript>
-<script>
+    <noscript id="deferred-styles">
+      {% asset "non-critical-styles" %}
+    </noscript>
+    <script>
   var loadDeferredStyles = function() {
     var addStylesNode = document.getElementById("deferred-styles");
     var replacement = document.createElement("div");
@@ -72,6 +73,6 @@ https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery#example
   else window.addEventListener('load', loadDeferredStyles);
 </script>
 
-</body>
+  </body>
 
-</html>
+</html></html>
