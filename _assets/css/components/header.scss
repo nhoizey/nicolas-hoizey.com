@@ -11,12 +11,8 @@
   padding: 0;
 
   color: #fff;
-  background: linear-gradient(
-    155deg,
-    $color-primary 0%,
-    $color-primary-lighter-1 100%
-  );
-  border-bottom: solid 1px $color-primary-lighter-1;
+  background: $color-primary;
+  border-bottom: solid 1px $color-primary-lighter-2;
 
   .wrap {
     @media (min-width: 15em) {
