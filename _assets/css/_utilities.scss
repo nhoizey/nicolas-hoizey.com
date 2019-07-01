@@ -53,6 +53,8 @@
     content: "";
     display: block;
     padding-bottom: calc(100% / (var(--aspect-ratio)));
+    height: 0;
+    overflow: hidden;
   }
   [style*="--aspect-ratio"] > :first-child {
     position: absolute;
