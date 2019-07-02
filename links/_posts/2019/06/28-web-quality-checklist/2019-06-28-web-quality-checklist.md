@@ -3,8 +3,10 @@ date: 2019-06-28 15:41:47 +0200
 title: "Web Quality Checklist"
 lang: en
 link: https://devchecklists.com/web-quality-checklist/en/
-author: "Opquast"
-author_twitter: "opquast"
+authors:
+  - name: "Opquast"
+    twitter: "opquast"
+    site: "https://www.opquast.com/"
 tags: [quality]
 ---
 
