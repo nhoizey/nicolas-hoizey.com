@@ -2,18 +2,23 @@
 layout: default
 ---
 
-{% capture tag_image_path %}tags/{{ page.tag | slugify }}.png{% endcapture %}
-{% capture tag_image %}{% file_exists {{ tag_image_path }} %}
-{% endcapture %}
+{%- capture tag_image_path -%}tags/{{ page.tag | slugify }}.png
+{%- endcapture -%}
+{%- capture tag_image -%}
+  {% file_exists {{ tag_image_path }} %}
+{%- endcapture -%}
 {% if tag_image == "true" %}
-  <img src="/{{ tag_image_path }}" class="tag" />
+  <img class="tag" src="/{{ tag_image_path }}"/>
 {% endif %}
 
-<h1>Contents with tag <em>{{ page.tag }}</em>
+<h1>Contents with tag
+  <em>{{ page.tag }}</em>
 </h1>
 
-{% capture tag_description_path %}tags/{{ page.tag | slugify }}.md{% endcapture %}
-{% capture tag_description %}{% file_exists {{ tag_description_path }} %}
+{% capture tag_description_path %}tags/{{ page.tag | slugify }}.md
+{% endcapture %}
+{% capture tag_description %}
+  {% file_exists {{ tag_description_path }} %}
 {% endcapture %}
 {% if tag_description == "true" %}
   <div class="intro">{% markdown {{ tag_description_path }} %}</div>
