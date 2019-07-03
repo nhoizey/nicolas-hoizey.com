@@ -29612,7 +29612,7 @@
     id: '635656'
     uri: https://twitter.com/nhoizey/status/1144726375212957696#favorited-by-366164161
     source: twitter
-    pubdate: 2019-06-28 22:44:37.000000000 +00:00
+    pubdate: 2019-06-29 00:44:37.000000000 +02:00
     raw:
       source: https://brid-gy.appspot.com/like/twitter/nhoizey/1144726375212957696/366164161
       verified: true
@@ -29643,7 +29643,7 @@
     id: '635991'
     uri: https://twitter.com/nhoizey/status/1144726375212957696#favorited-by-24700241
     source: twitter
-    pubdate: 2019-06-29 09:37:30.000000000 +00:00
+    pubdate: 2019-06-29 11:37:30.000000000 +02:00
     raw:
       source: https://brid-gy.appspot.com/like/twitter/nhoizey/1144726375212957696/24700241
       verified: true
@@ -29732,3 +29732,133 @@
     type: repost
     content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/links/2019/06/web-quality-checklist.html">https://nicolas-hoizey.com/links/2019/06/web-quality-checklist.html</a></p>
+"/links/2019/07/the-importance-of-elegance.html":
+  '638752':
+    id: '638752'
+    uri: https://twitter.com/nice_links/status/1146013558288916480#favorited-by-153837307
+    source: twitter
+    pubdate: 2019-07-03 14:09:47.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nice_links/1146013558288916480/153837307
+      verified: true
+      verified_date: '2019-07-03T14:09:47+00:00'
+      id: 638752
+      private: false
+      data:
+        author: &771
+          name: Thomas Moyse
+          url: https://twitter.com/t8g
+          photo: https://webmention.io/avatar/pbs.twimg.com/8f1c30dc789114ca2e89b1dcfba7f14d955b71ac480c104a0e993f07db420e32.png
+        url: https://twitter.com/nice_links/status/1146013558288916480#favorited-by-153837307
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Thomas Moyse favorited a tweet https://nicolas-hoizey.com/links/2019/07/the-importance-of-elegance.html
+        sentence_html: <a href="https://twitter.com/t8g">Thomas Moyse</a> favorited
+          a tweet <a href="https://nicolas-hoizey.com/links/2019/07/the-importance-of-elegance.html">https://nicolas-hoizey.com/links/2019/07/the-importance-of-elegance.html</a>
+      target: https://nicolas-hoizey.com/links/2019/07/the-importance-of-elegance.html
+    author: *771
+    type: like
+    content: <p><a href="https://twitter.com/t8g">Thomas Moyse</a> favorited a tweet
+      <a href="https://nicolas-hoizey.com/links/2019/07/the-importance-of-elegance.html">https://nicolas-hoizey.com/links/2019/07/the-importance-of-elegance.html</a></p>
+  '1146077001360580608':
+    id: '1146077001360580608'
+    uri: https://twitter.com/nhoizey/status/1146077001360580608
+    source: twitter
+    pubdate: 2019-07-02 17:23:44.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nice_links/1146013558288916480/1146077001360580608
+      verified: true
+      verified_date: '2019-07-02T15:29:11+00:00'
+      id: 638219
+      private: false
+      data:
+        author: &772
+          name: Nicolas Hoizey
+          url: https://twitter.com/nhoizey
+          photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
+        url: https://twitter.com/nhoizey/status/1146077001360580608
+        name: 
+        content: "\U0001F517 The importance of elegance\nnho.io/2NqBTwv\n\n#svelte
+          #javascript"
+        published: '2019-07-02T15:23:44+00:00'
+        published_ts: 1562081024
+      activity:
+        type: repost
+        sentence: Nicolas Hoizey retweeted a tweet https://nicolas-hoizey.com/links/2019/07/the-importance-of-elegance.html
+        sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
+          a tweet <a href="https://nicolas-hoizey.com/links/2019/07/the-importance-of-elegance.html">https://nicolas-hoizey.com/links/2019/07/the-importance-of-elegance.html</a>
+      target: https://nicolas-hoizey.com/links/2019/07/the-importance-of-elegance.html
+    author: *772
+    type: repost
+    content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
+      a tweet <a href="https://nicolas-hoizey.com/links/2019/07/the-importance-of-elegance.html">https://nicolas-hoizey.com/links/2019/07/the-importance-of-elegance.html</a></p>
+  '1146079674075942912':
+    id: '1146079674075942912'
+    uri: https://twitter.com/js_bot_code/status/1146079674075942912
+    source: twitter
+    pubdate: 2019-07-02 17:34:22.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nice_links/1146013558288916480/1146079674075942912
+      verified: true
+      verified_date: '2019-07-02T15:58:54+00:00'
+      id: 638267
+      private: false
+      data:
+        author: &773
+          name: JAVASCRIPT - BOT
+          url: https://twitter.com/js_bot_code
+          photo: https://webmention.io/avatar/pbs.twimg.com/1127cc4e8fb5f490993b49da4372adc22ccfcdbec3c77a616500a5dbdc80d686.png
+        url: https://twitter.com/js_bot_code/status/1146079674075942912
+        name: 
+        content: "\U0001F517 The importance of elegance\nnho.io/2NqBTwv\n\n#svelte
+          #javascript"
+        published: '2019-07-02T15:34:22+00:00'
+        published_ts: 1562081662
+      activity:
+        type: repost
+        sentence: JAVASCRIPT - BOT retweeted a tweet https://nicolas-hoizey.com/links/2019/07/the-importance-of-elegance.html
+        sentence_html: <a href="https://twitter.com/js_bot_code">JAVASCRIPT - BOT</a>
+          retweeted a tweet <a href="https://nicolas-hoizey.com/links/2019/07/the-importance-of-elegance.html">https://nicolas-hoizey.com/links/2019/07/the-importance-of-elegance.html</a>
+      target: https://nicolas-hoizey.com/links/2019/07/the-importance-of-elegance.html
+    author: *773
+    type: repost
+    content: <p><a href="https://twitter.com/js_bot_code">JAVASCRIPT - BOT</a> retweeted
+      a tweet <a href="https://nicolas-hoizey.com/links/2019/07/the-importance-of-elegance.html">https://nicolas-hoizey.com/links/2019/07/the-importance-of-elegance.html</a></p>
+  '1146425416963547136':
+    id: '1146425416963547136'
+    uri: https://twitter.com/nhoizey/status/1146425416963547136
+    source: twitter
+    pubdate: 2019-07-03 16:28:13.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/nice_links/1146013558288916480/1146425416963547136
+      verified: true
+      verified_date: '2019-07-03T14:35:33+00:00'
+      id: 638765
+      private: false
+      data:
+        author: &774
+          name: Nicolas Hoizey
+          url: https://twitter.com/nhoizey
+          photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
+        url: https://twitter.com/nhoizey/status/1146425416963547136
+        name: 
+        content: 'It looks like reviews about <a href="https://twitter.com/sveltejs">@sveltejs</a>
+          are often very positive, like this one: https://t.co/yG0O8Xbyx4'
+        published: '2019-07-03T14:28:13+00:00'
+        published_ts: 1562164093
+      activity:
+        type: reply
+        sentence: 'Nicolas Hoizey replied ''It looks like reviews about @sveltejs
+          are often very positive, like this one: ht...'' to a tweet https://nicolas-hoizey.com/links/2019/07/the-importance-of-elegance.html'
+        sentence_html: '<a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> replied
+          ''It looks like reviews about @sveltejs are often very positive, like this
+          one: ht...'' to a tweet <a href="https://nicolas-hoizey.com/links/2019/07/the-importance-of-elegance.html">https://nicolas-hoizey.com/links/2019/07/the-importance-of-elegance.html</a>'
+      target: https://nicolas-hoizey.com/links/2019/07/the-importance-of-elegance.html
+    author: *774
+    type: reply
+    content: '<p>It looks like reviews about <a href="https://twitter.com/sveltejs">@sveltejs</a>
+      are often very positive, like this one: https://t.co/yG0O8Xbyx4</p>'
