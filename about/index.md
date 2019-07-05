@@ -4,14 +4,7 @@ layout: page
 lang: en
 ---
 
-<figure class="onefourth right">
-<img src="https://nicolas-hoizey.com/assets/photo-de-nicolas-hoizey.jpg" srcset="https://res.cloudinary.com/nho/image/fetch/c_limit,f_auto,q_auto,w_100/https://nicolas-hoizey.com/assets/photo-de-nicolas-hoizey.jpg 100w,
-https://res.cloudinary.com/nho/image/fetch/c_limit,f_auto,q_auto,w_175/https://nicolas-hoizey.com/assets/photo-de-nicolas-hoizey.jpg 175w,
-https://res.cloudinary.com/nho/image/fetch/c_limit,f_auto,q_auto,w_250/https://nicolas-hoizey.com/assets/photo-de-nicolas-hoizey.jpg 250w,
-https://res.cloudinary.com/nho/image/fetch/c_limit,f_auto,q_auto,w_325/https://nicolas-hoizey.com/assets/photo-de-nicolas-hoizey.jpg 325w,
-https://res.cloudinary.com/nho/image/fetch/c_limit,f_auto,q_auto,w_400/https://nicolas-hoizey.com/assets/photo-de-nicolas-hoizey.jpg 400w" sizes="(max-width: 20rem) 45vw, (max-width: 30rem) 30vw, (max-width: 67rem) 22.5vw, 15rem" alt="Photo de Nicolas Hoizey" style="--aspect-ratio: 1" />
-</figure>
-
+{% cloudinary onefourth /assets/photo-de-nicolas-hoizey.jpg alt="Portrait of Nicolas Hoizey" %}
 I am passionate about **the Web and photography**, among many other interests.
 
 *If you're more interested in technical stuff, you can learn more [about this website](/about/the-website.html).*
