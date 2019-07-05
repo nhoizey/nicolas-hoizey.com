@@ -752,3 +752,10 @@ RewriteRule ^notes/.* / [QSA,L,R=301]
 # Mooving feeds
 RewriteRule ^atom.xml /feeds/articles.xml [QSA,L,R=301]
 
+# ##############################################################################
+# # HOMAGE TO Terry Pratchett: http://www.gnuterrypratchett.com/               #
+# ##############################################################################
+
+<IfModule headers_module>
+  header set X-Clacks-Overhead "GNU Terry Pratchett"
+</IfModule>
