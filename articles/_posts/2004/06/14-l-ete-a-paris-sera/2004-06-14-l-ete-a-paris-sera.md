@@ -4,15 +4,11 @@ lang:       fr
 tags:       [leisure, music, cinema]
 ---
 
-
-
-
-
-##… cinématographique !
+# …cinématographique !
 
 Le meilleur moyen de se rafraîchir en plein été quand on est resté à Paris, c'est dans la journée d'aller passer 2 heures ou plus dans une salle de cinéma climatisé, et le soir de rester dehors pour profiter des premiers regains de fraîcheur…
 
-**Paris Cinéma**
+## Paris Cinéma
 
 La seconde édition du festival [Paris Cinéma](http://www.pariscinema.org/), du 30 juin au 13 juillet 2004, s'ouvrira par la projection en plein air le 28 juin[^t1], sur le parvis de l'Hôtel de Ville, du fameux « [Peur sur la Ville](http://french.imdb.com/title/tt0073535/) » d'Henri Verneuil avec Jean-Paul Belmondo, qui sera présent à la projection.
 
@@ -20,12 +16,11 @@ La seconde édition du festival [Paris Cinéma](http://www.pariscinema.org/), du
 
 Ce festival sera bien sûr l'occasion de revoir d'anciens films, mais aussi de découvrir pas mal d'[avant premières](http://www.pariscinema.org/fr/programmes/avant_premieres.html)[^t2].
 
-**Le Festival du Cinéma en plein air**
+## Le Festival du Cinéma en plein air
 
 Comme chaque année, la prairie du triangle du [Parc de la Villette](http://www.villette.com/) accueille le Festival du Cinéma en plein air, du 16 juillet au 29 août. Oui, enfin, comme chaque année ou presque, puisque [l'édition 2003 avait été annulée](/2003/07/le-cinema-en-plein-air-a-la-villette-c-est-finalement-pas-reparti.html) faute d'intermittents…
 
 {% cloudinary cinemapleinair2004.png %}
-
 
 Quoi qu'il en soit, le programme de l'an dernier n'a pas été perdu, il est resservi cette année, sur le thème « un monde d'orage ».
 
@@ -35,21 +30,19 @@ Comme [je le disais l'an dernier](/2003/07/le-cinema-en-plein-air-a-la-villette-
 
 {% cloudinary villette.jpg %}
 
-
 Comme toujours, la projection commence à la tombée de la nuit, c'est à dire en général vers 22h, tous les jours sauf le lundi, mais il est plus que conseillé d'arriver plus tôt pour trouver une bonne place, siroter un ballon de rouge avec quelques crudités ou de la charcuterie, et surtout admirer le levé d'écran[^t3].
 
-##… musical !
+# …musical !
 
-**Fête de la Musique**
+## Fête de la Musique
 
 La [fête de la musique](http://www.fetedelamusique.culture.fr/) sera bien entendu au rendez-vous encore cette année le 21 juin.
 
 {% cloudinary fete_musique_2004.jpg %}
 
-
 Là, impossible de donner le programme, il y a bien entendu trop de bonnes choses à découvrir, même juste en se baladant sans but précis !
 
-**Paris Jazz Festival**
+## Paris Jazz Festival
 
 Le [Paris Jazz Festival](http://www.paris.fr/fr/environnement/jardins/animations_jardins/paris_jazz_festival2004/default.asp), avec ses nombreux concerts gratuits[^t4] au [Parc Floral de Paris](http://www.paris.fr/fr/environnement/jardins/liste_jardins/parc_floral/default_parc_floral.ASP)[^t5], accueillera notamment cette année :
 
@@ -63,14 +56,13 @@ Le [programme](http://www.paris.fr/fr/environnement/jardins/animations_jardins/p
 
 [Jacqueline](http://www.jacqueline-oud.com/) peut aussi vous donner plus encore envie d'aller au [Paris Jazz Festival](http://www.jacqueline-oud.com/article.php3?id_article=98) !
 
-##… et bien sûr chaud chaud chaud !!!
+# …et bien sûr chaud chaud chaud !!!
 
 Tous à vos climatiseurs et bières fraîches !
 
-
 [^t1]: Pourquoi ne pas dire que le festival commence le 28, alors ???
 
-[^t2]: Dont « Le Temps des gitans », un film d'Emir Kusturica datant de 1988, allez comprendre…
+[^t2]: Dont « Le Temps des gitans », un film d'Emir Kusturica datant de 1988, allez comprendre…
 
 [^t3]: Bin oui, ici on lève l'écran, pas le rideau, ou plutôt on le gonfle…
 
