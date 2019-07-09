@@ -4,9 +4,13 @@ title: Social images
 ---
 
 <!-- nomicrotypo -->
+<p>Background:</p>
+<img src="{% include_cached social-image-background.html %}" style="max-width: 100%;" />
+
 <section class="list recent">
   {% for post in site.posts limit:100 %}
     <a href="{{ post.url }}"><img src="{% include_cached social-image-url.html page=post width=1200 height=630 %}" style="max-width: 100%;" /></a>
   {% endfor %}
 </section>
+
 <!-- endnomicrotypo -->
