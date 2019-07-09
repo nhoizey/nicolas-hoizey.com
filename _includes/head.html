@@ -97,11 +97,9 @@
   https://developers.facebook.com/docs/sharing/best-practices?locale=fr_FR#images
   https://developers.facebook.com/tools/debug/sharing/
   {% endcomment %}
-  {% assign og_image_width = 1200 %}
-  {% assign og_image_height = 630 %}
-  <meta property="og:image" content="{% include social-image-url.html page=page width=og_image_width height=og_image_height %}?{{ site.time | date: '%Y%m%d%H%M%S' }}" />
-  <meta property="og:image:width" content="{{ og_image_width }}" />
-  <meta property="og:image:height" content="{{ og_image_height }}" />
+  <meta property="og:image" content="{% include social-image-url.html page=page %}?{{ site.time | date: '%Y%m%d%H%M%S' }}" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
 
   <link rel="alternate" type="application/rss+xml" title="Feed for articles only" href="/feeds/articles.xml" />
   <link rel="alternate" type="application/rss+xml" title="Feed for links only" href="/feeds/links.xml" />
