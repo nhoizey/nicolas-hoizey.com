@@ -2,8 +2,7 @@
 layout: default
 ---
 
-{%- capture tag_image_path -%}tags/{{ page.tag | slugify }}.png
-{%- endcapture -%}
+{%- capture tag_image_path -%}assets/logos/{{ page.tag | slugify }}.png{%- endcapture -%}
 {%- capture tag_image -%}
   {% file_exists {{ tag_image_path }} %}
 {%- endcapture -%}
