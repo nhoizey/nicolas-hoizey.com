@@ -251,12 +251,12 @@ figure {
 
   @media (min-width: 20em) {
     float: right;
-    margin: 0 0 5vw 5vw;
+    margin: 0 0 3vw 3vw;
     max-width: 33%;
   }
 
   @media (min-width: 67em) {
-    margin: 0 0 3.35em 3.35em;
+    margin: 0 0 2rem 2rem;
   }
 }
 
@@ -395,7 +395,7 @@ article {
 
     color: $color-primary-lighter-5;
     background-color: $color-primary-lighter-1;
-    border-radius: 5px;
+    border-radius: 10px;
 
     font-style: italic;
 
