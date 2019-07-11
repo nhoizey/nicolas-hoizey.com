@@ -4,6 +4,7 @@ lang: en
 link: https://mercure.rocks
 authors:
   - name: "Kévin Dunglas"
+    twitter: "dunglas"
 tags: [push, API]
 ---
 
