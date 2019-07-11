@@ -12,7 +12,9 @@ title: Talks
   {% for presentation in data.relationships.data %}
     <li class="list__item">
       <div class="card">
-        <img src="{{ presentation.attributes.image.src }}" alt="Slides from the talk “{{ presentation.attributes.title }}”" />
+        <figure class="card__image">
+          <img src="{{ presentation.attributes.image.src }}" alt="Slides from the talk “{{ presentation.attributes.title }}”" />
+        </figure>
         <p class="card__title">
           <a href="{{ presentation.links.self }}">{{ presentation.attributes.title }}</a>
         </p>
