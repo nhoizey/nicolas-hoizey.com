@@ -3,20 +3,31 @@ layout: default
 title: Talks
 ---
 
-<h1>Talks</h1>
+<h1 class="list__title">Talks</h1>
 
-<p class="intro">Here are a few talks I gave along the years:</p>
+<p>Here are a few talks I gave along the years:</p>
 
-<section class="list recent">
+<ul class="list">
   {% assign data = site.data.talks.data | first %}
   {% for presentation in data.relationships.data %}
-    <article class="talk">
-      <a href="{{ presentation.links.self }}">
-        <h2>{{ presentation.attributes.title }}</h2>
-      </a>
-    </article>
-    <pre>
-    {{ presentation | inspect }}
-    </pre>
+    <li class="list__item">
+      <div class="card">
+        <img src="{{ presentation.attributes.image.src }}" alt="Slides from the talk “{{ presentation.attributes.title }}”" />
+        <p class="card__title">
+          <a href="{{ presentation.links.self }}">{{ presentation.attributes.title }}</a>
+        </p>
+        <footer>
+          <ul class="card__meta">
+            <li class="date card__meta__item card__date">
+              <svg class="icon"><use xlink:href="#symbol-date" /></svg>
+              <time class="dt-published" datetime="{{ presentation.attributes.presented_on | date: "%Y-%m-%d %H:%M:%S" }}">
+                {{ presentation.attributes.presented_on | date: "%B" }}
+                {% include_cached ordinal-day.html date=presentation.attributes.presented_on %}, {{ presentation.attributes.presented_on | date: "%Y" }}
+              </time>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </li>
   {% endfor %}
-</section>
+</ul>
