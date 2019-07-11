@@ -28,16 +28,13 @@ layout: default
     {% if post.categories contains 'links' %}
       <li class="list__item">
         <div class="card card--link">
-          <p class="card__title">
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </p>
-          {% include_cached link-meta.html page=post %}
+          {% include_cached components/link-card.html link=post %}
         </div>
       </li>
     {% else %}
       <li class="list__item list__item--large">
         <div class="card card--article">
-          {% include_cached post-abstract.html page=post %}
+          {% include_cached components/post-card.html page=post %}
         </div>
       </li>
     {% endif %}

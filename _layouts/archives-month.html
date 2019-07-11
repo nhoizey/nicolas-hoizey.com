@@ -13,7 +13,7 @@ layout: default
     {% unless post.categories contains 'links' %}
       <li class="list__item list__item--large">
         <div class="card card--article">
-          {% include_cached post-abstract.html page=post %}
+          {% include_cached components/post-card.html page=post %}
         </div>
       </li>
     {% endunless %}
