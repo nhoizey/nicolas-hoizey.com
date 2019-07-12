@@ -1,13 +1,15 @@
 <figure class="card__image">
-  <img alt="screenshot of {{ include.link.title }}" src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_300,h_200/https://image.thum.io/get/width/1200/crop/800/noanimate/{{
-                                                                                                                                                            include.link.link
-                                                                                                                                                          }}" style="--aspect-ratio: 1.5" />
+  <img
+    alt="screenshot of {{ include.link.title }}"
+    src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_300,h_200/https://image.thum.io/get/width/1200/crop/800/noanimate/{{ include.link.link }}"
+    style="--aspect-ratio: 1.5" />
 </figure>
 {% if include.link.authors %}
-<p class="card__source">
-  {%- for author in include.link.authors -%}
-  {{ author.name }}
-  {%- if forloop.last == false -%}, {% endif -%} {%- endfor -%}:
+  <p class="card__source">
+    {%- for author in include.link.authors -%}
+      {{ author.name }}
+      {%- if forloop.last == false -%}, {% endif -%}
+    {%- endfor -%}:
 </p>
 {% endif %}
 <p class="card__title">
