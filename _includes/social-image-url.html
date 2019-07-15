@@ -15,6 +15,10 @@
     {%- assign icon = 'article' -%}
   {%- elsif include.page.layout == 'link' -%}
     {%- assign icon = 'link' -%}
+  {%- elsif include.page.title == 'Links' -%}
+    {%- assign icon = 'link' -%}
+  {%- elsif include.page.title == 'Talks' -%}
+    {%- assign icon = 'talk' -%}
   {%- endif -%}
 {%- endif -%}
 {%- assign title = title | url_escape | replace: ' ', '%20' | replace: '.', '%2e' | replace: ',', '%252C' | replace: ':', '%253A' | replace: '/', '%252F' | replace: "'", '%E2%80%99' | replace: '?', '%3F' | replace: '#', '%23' -%}
