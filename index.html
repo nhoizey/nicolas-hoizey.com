@@ -54,7 +54,7 @@ JSON-LD for:
   {% for link in links limit:6 %}
     <li class="list__item">
       <div class="card card--link h-entry">
-        {% include_cached components/link-card.html link=link %}
+        {% include_cached components/link-card.html link=link lazy="on" %}
       </div>
     </li>
   {% endfor %}
