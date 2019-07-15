@@ -27,6 +27,22 @@
         "data": [
           {
             "type": "presentations",
+            "id": "pr_AXGNM8",
+            "attributes": {
+              "title": "Ne vous laissez plus déPOSSEder de vos contenus !",
+              "presented_on": "2019-10-10 15:30:00",
+              "published_on": "2019-07-15 08:00:00",
+              "timezone": "Europe/Paris",
+              "image": null
+            },
+            "links": {
+              "self": "https://noti.st/nhoizey/AXGNM8/ne-vous-laissez-plus-deposseder-de-vos-contenus",
+              "related": "https://noti.st/nhoizey/AXGNM8.json",
+              "event": "https://noti.st/events/9Jjxub.json"
+            }
+          },
+          {
+            "type": "presentations",
             "id": "pr_U7c3zE",
             "attributes": {
               "title": "Optimiser la performance par un choix optimal des dimensions des images responsives",
