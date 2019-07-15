@@ -32,19 +32,15 @@ JSON-LD for:
 </script>
 
 <h2>Latest articles</h2>
+
 <ul class="list">
-  {% assign articles_number = 0 %}
-  {% for post in site.posts %}
-    {% if articles_number < 3 %}
-      {% unless post.categories contains 'links' %}
-        <li class="list__item list__item--large">
-          <div class="card card--article h-entry">
-            {% include_cached components/post-card.html page=post %}
-          </div>
-        </li>
-        {% assign articles_number = articles_number | plus: 1 %}
-      {% endunless %}
-    {% endif %}
+  {% assign articles = site.categories['articles'] %}
+  {% for article in articles limit:3 %}
+    <li class="list__item list__item--large">
+      <div class="card card--article h-entry">
+        {% include_cached components/post-card.html page=article %}
+      </div>
+    </li>
   {% endfor %}
 </ul>
 
