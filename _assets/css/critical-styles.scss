@@ -37,6 +37,10 @@
   }
 }
 
+@media screen and (prefers-reduced-motion: reduce) {
+  animation-play-state: paused !important;
+}
+
 // Box sizing:
 // http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
 html {
