@@ -53,26 +53,6 @@ layout: microtypo
 
     <script type="module" src="/sw-window.mjs"></script>
 
-    {% comment %}
-https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery#example
-{% endcomment %}
-    <noscript id="deferred-styles">
-      {% asset "non-critical-styles" %}
-    </noscript>
-    <script>
-  var loadDeferredStyles = function() {
-    var addStylesNode = document.getElementById("deferred-styles");
-    var replacement = document.createElement("div");
-    replacement.innerHTML = addStylesNode.textContent;
-    document.body.appendChild(replacement)
-    addStylesNode.parentElement.removeChild(addStylesNode);
-  };
-  var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
-      window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
-  if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
-  else window.addEventListener('load', loadDeferredStyles);
-</script>
-
   </body>
 
 </html></html>
