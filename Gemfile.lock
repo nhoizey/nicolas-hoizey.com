@@ -14,7 +14,7 @@ GEM
     algoliasearch (1.26.0)
       httpclient (~> 2.8, >= 2.8.3)
       json (>= 1.5.1)
-    autoprefixer-rails (9.6.0)
+    autoprefixer-rails (9.6.1)
       execjs
     colorator (1.1.0)
     concurrent-ruby (1.1.5)
