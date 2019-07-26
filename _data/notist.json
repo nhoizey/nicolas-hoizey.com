@@ -43,6 +43,27 @@
           },
           {
             "type": "presentations",
+            "id": "pr_OfSEN7",
+            "attributes": {
+              "title": "Performance Web",
+              "presented_on": "2019-07-25 14:00:00",
+              "published_on": "2019-07-25 14:00:00",
+              "timezone": "Europe/Paris",
+              "image": {
+                "src": "https://on.notist.cloud/slides/deck3297/thumb-0.jpg",
+                "width": "640",
+                "height": "480",
+                "mime": "image/jpeg"
+              }
+            },
+            "links": {
+              "self": "https://noti.st/nhoizey/OfSEN7/performance-web",
+              "related": "https://noti.st/nhoizey/OfSEN7.json",
+              "event": "https://noti.st/events/XoaVru.json"
+            }
+          },
+          {
+            "type": "presentations",
             "id": "pr_y2DE0Z",
             "attributes": {
               "title": "Les Progressive Web Apps (PWA)",
