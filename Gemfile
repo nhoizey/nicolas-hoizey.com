@@ -11,7 +11,8 @@ gem 'uglifier'
 gem 'hash-joiner'
 
 group :jekyll_plugins do
-  gem 'jekyll-algolia'
+  # gem 'jekyll-algolia'
+  gem 'jekyll-algolia', github: 'algolia/jekyll-algolia', ref: 'refs/pull/126/head'
   gem 'jekyll-archives'
   gem 'jekyll-assets'
   gem 'jekyll-cloudinary'

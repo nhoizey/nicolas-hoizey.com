@@ -1,3 +1,18 @@
+GIT
+  remote: git://github.com/algolia/jekyll-algolia.git
+  revision: ff6440d2bd55f2028f18de379ed149960cd89721
+  ref: refs/pull/126/head
+  specs:
+    jekyll-algolia (1.4.9)
+      algolia_html_extractor (~> 2.6)
+      algoliasearch (= 1.24)
+      filesize (~> 0.1)
+      jekyll (~> 3.0)
+      json (~> 2.0)
+      nokogiri (~> 1.6)
+      progressbar (~> 1.9)
+      verbal_expressions (~> 0.1.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -11,7 +26,7 @@ GEM
     algolia_html_extractor (2.6.1)
       json (~> 2.0)
       nokogiri (~> 1.8.2)
-    algoliasearch (1.26.0)
+    algoliasearch (1.24.0)
       httpclient (~> 2.8, >= 2.8.3)
       json (>= 1.5.1)
     autoprefixer-rails (9.6.1)
@@ -51,15 +66,6 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
-    jekyll-algolia (1.4.11)
-      algolia_html_extractor (~> 2.6)
-      algoliasearch (~> 1.25)
-      filesize (~> 0.1)
-      jekyll (~> 3.0)
-      json (~> 2.0)
-      nokogiri (~> 1.6)
-      progressbar (~> 1.9)
-      verbal_expressions (~> 0.1.5)
     jekyll-archives (2.2.1)
       jekyll (>= 3.6, < 5.0)
     jekyll-assets (3.0.12)
@@ -165,7 +171,7 @@ DEPENDENCIES
   autoprefixer-rails
   hash-joiner
   jekyll
-  jekyll-algolia
+  jekyll-algolia!
   jekyll-archives
   jekyll-assets
   jekyll-cloudinary
