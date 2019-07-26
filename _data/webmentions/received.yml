@@ -30253,3 +30253,98 @@
     type: repost
     content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/links/2019/07/can-i-buy-a-phone-that-doesn-t-use-anything-from-google-or-apple.html">https://nicolas-hoizey.com/links/2019/07/can-i-buy-a-phone-that-doesn-t-use-anything-from-google-or-apple.html</a></p>
+"/links/2019/07/progressive-enhancement.html":
+  '1154324091396120576':
+    id: '1154324091396120576'
+    uri: https://twitter.com/nhoizey/status/1154324091396120576
+    source: twitter
+    pubdate: 2019-07-25 11:34:44.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nice_links/1154314890443665408/1154324091396120576
+      verified: true
+      verified_date: '2019-07-25T12:42:46+00:00'
+      id: 654216
+      private: false
+      data:
+        author: &786
+          name: Nicolas Hoizey
+          url: https://twitter.com/nhoizey
+          photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
+        url: https://twitter.com/nhoizey/status/1154324091396120576
+        name: 
+        content: "\U0001F517 Progressive Enhancement\nnho.io/2MhVPQ5\n\n#progressive-enhancement"
+        published: '2019-07-25T09:34:44+00:00'
+        published_ts: 1564047284
+      activity:
+        type: repost
+        sentence: Nicolas Hoizey retweeted a tweet https://nicolas-hoizey.com/links/2019/07/progressive-enhancement.html
+        sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
+          a tweet <a href="https://nicolas-hoizey.com/links/2019/07/progressive-enhancement.html">https://nicolas-hoizey.com/links/2019/07/progressive-enhancement.html</a>
+      target: https://nicolas-hoizey.com/links/2019/07/progressive-enhancement.html
+    author: *786
+    type: repost
+    content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
+      a tweet <a href="https://nicolas-hoizey.com/links/2019/07/progressive-enhancement.html">https://nicolas-hoizey.com/links/2019/07/progressive-enhancement.html</a></p>
+"/links/2019/07/the-power-of-progressive-enhancement.html":
+  '654809':
+    id: '654809'
+    uri: https://twitter.com/nice_links/status/1154435743877668865#favorited-by-16088762
+    source: twitter
+    pubdate: 2019-07-26 03:40:46.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nice_links/1154435743877668865/16088762
+      verified: true
+      verified_date: '2019-07-26T03:40:46+00:00'
+      id: 654809
+      private: false
+      data:
+        author: &787
+          name: Bastien Jaillot
+          url: https://twitter.com/bastnic
+          photo: https://webmention.io/avatar/pbs.twimg.com/0dbb6910fed96ef1e3fdf19d6b27ac2dd24a7d5fbdcc7d71e693325a349d8280.jpg
+        url: https://twitter.com/nice_links/status/1154435743877668865#favorited-by-16088762
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Bastien Jaillot favorited a tweet https://nicolas-hoizey.com/links/2019/07/the-power-of-progressive-enhancement.html
+        sentence_html: <a href="https://twitter.com/bastnic">Bastien Jaillot</a> favorited
+          a tweet <a href="https://nicolas-hoizey.com/links/2019/07/the-power-of-progressive-enhancement.html">https://nicolas-hoizey.com/links/2019/07/the-power-of-progressive-enhancement.html</a>
+      target: https://nicolas-hoizey.com/links/2019/07/the-power-of-progressive-enhancement.html
+    author: *787
+    type: like
+    content: <p><a href="https://twitter.com/bastnic">Bastien Jaillot</a> favorited
+      a tweet <a href="https://nicolas-hoizey.com/links/2019/07/the-power-of-progressive-enhancement.html">https://nicolas-hoizey.com/links/2019/07/the-power-of-progressive-enhancement.html</a></p>
+  '1154486366828412928':
+    id: '1154486366828412928'
+    uri: https://twitter.com/nhoizey/status/1154486366828412928
+    source: twitter
+    pubdate: 2019-07-25 22:19:33.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nice_links/1154435743877668865/1154486366828412928
+      verified: true
+      verified_date: '2019-07-25T20:53:38+00:00'
+      id: 654621
+      private: false
+      data:
+        author: &788
+          name: Nicolas Hoizey
+          url: https://twitter.com/nhoizey
+          photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
+        url: https://twitter.com/nhoizey/status/1154486366828412928
+        name: 
+        content: "\U0001F517 The power of progressive enhancement\nnho.io/2MbBQ5r\n\n#progressive-enhancement"
+        published: '2019-07-25T20:19:33+00:00'
+        published_ts: 1564085973
+      activity:
+        type: repost
+        sentence: Nicolas Hoizey retweeted a tweet https://nicolas-hoizey.com/links/2019/07/the-power-of-progressive-enhancement.html
+        sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
+          a tweet <a href="https://nicolas-hoizey.com/links/2019/07/the-power-of-progressive-enhancement.html">https://nicolas-hoizey.com/links/2019/07/the-power-of-progressive-enhancement.html</a>
+      target: https://nicolas-hoizey.com/links/2019/07/the-power-of-progressive-enhancement.html
+    author: *788
+    type: repost
+    content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
+      a tweet <a href="https://nicolas-hoizey.com/links/2019/07/the-power-of-progressive-enhancement.html">https://nicolas-hoizey.com/links/2019/07/the-power-of-progressive-enhancement.html</a></p>
