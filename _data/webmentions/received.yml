@@ -30413,3 +30413,35 @@
     type: repost
     content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/links/2019/07/flexbox-and-padding.html">https://nicolas-hoizey.com/links/2019/07/flexbox-and-padding.html</a></p>
+  '658035':
+    id: '658035'
+    uri: https://twitter.com/nice_links/status/1156218420783976448#favorited-by-33046163
+    source: twitter
+    pubdate: 2019-07-30 16:04:07.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nice_links/1156218420783976448/33046163
+      verified: true
+      verified_date: '2019-07-30T16:04:07+00:00'
+      id: 658035
+      private: false
+      data:
+        author: &791
+          name: "@thomas@social.tzi.fr"
+          url: https://twitter.com/iamtzi
+          photo: https://webmention.io/avatar/pbs.twimg.com/771c10bdccf2f1097190137165e552207370fc500b4e8edf30f141ef858cede1.jpg
+        url: https://twitter.com/nice_links/status/1156218420783976448#favorited-by-33046163
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: "@thomas@social.tzi.fr favorited a tweet https://nicolas-hoizey.com/links/2019/07/flexbox-and-padding.html"
+        sentence_html: <a href="https://twitter.com/iamtzi">@thomas@social.tzi.fr</a>
+          favorited a tweet <a href="https://nicolas-hoizey.com/links/2019/07/flexbox-and-padding.html">https://nicolas-hoizey.com/links/2019/07/flexbox-and-padding.html</a>
+      target: https://nicolas-hoizey.com/links/2019/07/flexbox-and-padding.html
+    author: *791
+    type: like
+    content: <p><a href="https://twitter.com/iamtzi">@thomas@social.tzi.fr</a> favorited
+      a tweet <a href="https://nicolas-hoizey.com/links/2019/07/flexbox-and-padding.html">https://nicolas-hoizey.com/links/2019/07/flexbox-and-padding.html</a></p>
+"/links/2019/07/creating-my-logo-animation.html": {}
