@@ -30381,3 +30381,35 @@
     type: repost
     content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
       a tweet <a href="https://nicolas-hoizey.com/links/2019/07/improving-the-speed-and-accuracy-of-the-item-page-with-light-service.html">https://nicolas-hoizey.com/links/2019/07/improving-the-speed-and-accuracy-of-the-item-page-with-light-service.html</a></p>
+"/links/2019/07/flexbox-and-padding.html":
+  '1156223216978993154':
+    id: '1156223216978993154'
+    uri: https://twitter.com/nhoizey/status/1156223216978993154
+    source: twitter
+    pubdate: 2019-07-30 17:21:11.000000000 +02:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nice_links/1156218420783976448/1156223216978993154
+      verified: true
+      verified_date: '2019-07-30T15:38:19+00:00'
+      id: 658015
+      private: false
+      data:
+        author: &790
+          name: Nicolas Hoizey
+          url: https://twitter.com/nhoizey
+          photo: https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg
+        url: https://twitter.com/nhoizey/status/1156223216978993154
+        name: 
+        content: "\U0001F517 Flexbox and padding\nnho.io/2MoJ1Y0\n\n#css #flexbox"
+        published: '2019-07-30T15:21:11+00:00'
+        published_ts: 1564500071
+      activity:
+        type: repost
+        sentence: Nicolas Hoizey retweeted a tweet https://nicolas-hoizey.com/links/2019/07/flexbox-and-padding.html
+        sentence_html: <a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
+          a tweet <a href="https://nicolas-hoizey.com/links/2019/07/flexbox-and-padding.html">https://nicolas-hoizey.com/links/2019/07/flexbox-and-padding.html</a>
+      target: https://nicolas-hoizey.com/links/2019/07/flexbox-and-padding.html
+    author: *790
+    type: repost
+    content: <p><a href="https://twitter.com/nhoizey">Nicolas Hoizey</a> retweeted
+      a tweet <a href="https://nicolas-hoizey.com/links/2019/07/flexbox-and-padding.html">https://nicolas-hoizey.com/links/2019/07/flexbox-and-padding.html</a></p>
