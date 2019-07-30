@@ -442,7 +442,12 @@ article {
 
   table {
     border-collapse: collapse;
-    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum" 1;
+
+    @supports (font-variant-numeric: tabular-nums) {
+      font-feature-settings: normal;
+      font-variant-numeric: tabular-nums;
+    }
   }
 
   thead {
