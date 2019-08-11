@@ -36,53 +36,35 @@
   {% comment %} https://dev.twitter.com/web/overview/widgets-webpage-properties#csp {% endcomment %}
   <meta name="twitter:widgets:csp" content="on" />
 
+  {% assign type = "website" %}
   {% if page.title == "Homepage" %}
-    {% assign title=site.title %}
-    {% assign description=site.description %}
+    {% assign title = site.title %}
+    {% assign description = site.description %}
+    {% assign canonical = site.url %}
     <title itemprop="name">{{ title }}</title>
     <meta property="og:title" content="{{ title }}" />
-    <link rel="canonical" href="{{ site.url }}" itemprop="url" />
-    <meta property="og:url" content="{{ site.url }}" />
-    <meta property="og:type" content="website" />
   {% else %}
+    {% assign canonical = site.url | append: page.url %}
     {% if page.layout == "link" %}
       {% capture title %}{{ page.title }}{% endcapture %}
       {% capture description %}{{ page.content | strip_html | truncatewords: 150 | truncate: 290 | strip_newlines | escape_once }}{% endcapture %}
-      <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-      <meta property="og:type" content="article" />
-      <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />
-      <meta property="article:author" content="https://www.facebook.com/nhoizey" />
-      {% for tag in page.tags %}
-        <meta property="article:tag" content="{{ tag }}" />
-      {% endfor %}
+      {% assign type = "article" %}
     {% else %}
       {% if page.type == "year" %}
         {% capture title %}Articles from year {{ page.date | date: "%Y" }}{% endcapture %}
         {% capture description %}Articles published by Nicolas Hoizey in {{ page.date | date: "%Y" }}{% endcapture %}
-        <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-        <meta property="og:type" content="website" />
       {% else %}
         {% if page.type == "month" %}
           {% capture title %}Articles from {{ page.date | date: "%B %Y" }}{% endcapture %}
           {% capture description %}Articles published by Nicolas Hoizey in {{ page.date | date: "%B %Y" }}{% endcapture %}
-          <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-          <meta property="og:type" content="website" />
         {% else %}
           {% if page.tag %}
             {% capture title %}{{ page.tag }}{% endcapture %}
             {% capture description %}Articles published by Nicolas Hoizey with the tag ”{{ page.tag }}”{% endcapture %}
-            <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-            <meta property="og:type" content="website" />
           {% else %}
             {% capture title %}{{ page.title }}{% endcapture %}
             {% capture description %}{{ page.excerpt | strip_html | truncatewords: 150 | truncate: 290 | strip_newlines | escape_once }}{% endcapture %}
-            <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-            <meta property="og:type" content="article" />
-            <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />
-            <meta property="article:author" content="https://www.facebook.com/nhoizey" />
-            {% for tag in page.tags %}
-              <meta property="article:tag" content="{{ tag }}" />
-            {% endfor %}
+            {% assign type = "article" %}
           {% endif %}
         {% endif %}
       {% endif %}
@@ -90,8 +72,21 @@
     <title>{{ title }} &ndash; Nicolas Hoizey</title>
     <meta property="og:title" content="{{ title }}" />
   {% endif %}
+
   <meta name="description" content="{{ description }}" />
   <meta property="og:description" content="{{ description }}" />
+
+  <link rel="canonical" href="{{ canonical }}" itemprop="url" />
+  <meta property="og:url" content="{{ canonical }}" />
+
+  <meta property="og:type" content="{{ type }}" />
+  {% if type == "article" %}
+    <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />
+    <meta property="article:author" content="https://www.facebook.com/nhoizey" />
+    {% for tag in page.tags %}
+      <meta property="article:tag" content="{{ tag }}" />
+    {% endfor %}
+  {% endif %}
 
   {% comment %}
   https://developers.facebook.com/docs/sharing/best-practices?locale=fr_FR#images
@@ -130,7 +125,7 @@
   <link rel="me" href="https://github.com/nhoizey" />
 
   {% comment %} http://microformats.org/wiki/source-brainstorming {% endcomment %}
-   <link href="https://github.com/nhoizey/nicolas-hoizey.com" rel="source" />
+  <link href="https://github.com/nhoizey/nicolas-hoizey.com" rel="source" />
 
   {% comment %} Algolia settings {% endcomment %}
   <script>
