@@ -755,6 +755,9 @@ RewriteRule ^2018/08/just.html /links/2018/08/just.html [QSA,L,R=301]
 # Moving feeds
 RewriteRule ^atom.xml /feeds/articles.xml [QSA,L,R=301]
 
+# This is not powered by Wordpress
+RewriteRule ^wp-login.php /about/the-website.html [QSA,L,R=302]
+
 # ##############################################################################
 # # HOMAGE TO Terry Pratchett: http://www.gnuterrypratchett.com/               #
 # ##############################################################################
