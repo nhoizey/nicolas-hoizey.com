@@ -154,6 +154,8 @@ cloudinary:
       steps: 5
       sizes: "(max-width: 67rem) 90vw, 60rem"
       figure: always
+      attributes:
+        loading: lazy
     twothirds:
       min_width: 240
       max_width: 1120
