@@ -20,6 +20,17 @@
   font-size: var(--font-size-xs);
   color: $color-darkgrey;
 
+  .u-photo {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    width: 1.2em;
+    height: auto;
+    border-radius: .3em;
+    vertical-align: middle;
+    overflow: hidden;
+  }
+
   svg {
     width: 1em;
     height: 1em;
