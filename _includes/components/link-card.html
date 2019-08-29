@@ -3,10 +3,10 @@
     alt="screenshot of {{ include.link.title }}"
     {% if include.lazy == 'on' %}
       data-src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_300,h_200/https://image.thum.io/get/width/1200/crop/800/noanimate/{{ include.link.link }}"
-      loading="lazy"
     {% else %}
       src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_300,h_200/https://image.thum.io/get/width/1200/crop/800/noanimate/{{ include.link.link }}"
     {% endif %}
+    loading="lazy"
     crossorigin="anonymous" />
 </figure>
 {% if include.link.authors %}
