@@ -22,7 +22,7 @@
   {%- endif -%}
 {%- endif -%}
 {%- assign title = title | url_escape | replace: ' ', '%20' | replace: '.', '%2e' | replace: ',', '%252C' | replace: ':', '%253A' | replace: '/', '%252F' | replace: "'", '%E2%80%99' | replace: '?', '%3F' | replace: '#', '%23' -%}
-{%- assign background_image = site.url | append: '/assets/opengraph-background.png' -%}
+{%- assign background_image = site.url | append: '/assets/opengraph/background.png' -%}
 {%- assign padding = 50 -%}
 {%- assign padding_right = 50 -%}
 {%- if icon != '' -%}
