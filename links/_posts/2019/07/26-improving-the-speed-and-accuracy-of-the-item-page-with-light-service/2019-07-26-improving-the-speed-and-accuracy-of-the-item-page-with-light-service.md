@@ -5,7 +5,7 @@ lang: en
 link: https://www.ebayinc.com/stories/blogs/tech/item-fast-light-service/
 authors:
   - name: "Ramesh Periyathambi"
-    twitter: "ebaytechblog"
+    twitter: "ebaytech"
     site: "https://www.ebayinc.com/stories/blogs/tech/"
 tags: [WebPerf]
 ---
