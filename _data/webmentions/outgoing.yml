@@ -3497,3 +3497,6 @@ https://nicolas-hoizey.com/links/2019/08/how-https-works-in-a-comic.html: {}
 https://nicolas-hoizey.com/links/2019/09/the-real-dark-web.html: {}
 https://nicolas-hoizey.com/links/2019/09/can-i-email.html:
   https://caniuse.com/: false
+https://nicolas-hoizey.com/links/2019/09/caching-best-practices-max-age-gotchas.html: {}
+https://nicolas-hoizey.com/links/2019/09/paint-the-picture-not-the-frame-how-browsers-provide-everything-users-need.html:
+  https://alistapart.com/article/paint-the-picture-not-the-frame/: false
