@@ -6,7 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 
   {% comment %} preload main font {% endcomment %}
+  {% comment %}
+  Not a good idea after all:
+  https://twitter.com/csswizardry/status/1180810824862064646
   <link rel="preload" href="/assets/fonts/notoserif-regular-subset.woff2" as="font" type="font/woff2" crossorigin />
+  {% endcomment %}
 
   {% include_cached assets.html %}
 
