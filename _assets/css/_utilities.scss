@@ -1,3 +1,8 @@
+// Hidden for everyone
+.hidden {
+  display: none;
+}
+
 // Visually hidden (but screen reader friendly) content
 .sr-only:not(:focus):not(:active) {
   clip: rect(0 0 0 0);
