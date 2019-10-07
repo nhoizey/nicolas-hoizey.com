@@ -476,7 +476,6 @@ article {
   code.highlighter-rouge {
     background-color: $color-inline-code-background;
     color: $color-inline-code-text;
-    text-shadow: none;
   }
 
   kbd {
@@ -516,7 +515,6 @@ article {
     margin: 0 0.2em;
     background-color: #39f;
     color: #fff;
-    text-shadow: none;
     border-radius: 30%;
 
     // https://css-tricks.com/touch-devices-not-judged-size/
@@ -567,16 +565,6 @@ article {
       margin: 0;
       padding: 0 1em 0 2em;
       list-style-position: outside;
-    }
-
-    a:link,
-    a:visited {
-      text-shadow: 1px 1px #eee, -1px 1px #eee, -1px -1px #eee, 1px -1px #eee;
-    }
-
-    a:hover,
-    a:active {
-      text-shadow: none;
     }
   }
 
