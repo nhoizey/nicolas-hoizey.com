@@ -5,81 +5,98 @@ title: Contents available while offline
 
 <div class="notification notification-success">
   <div class="wrap">
-    <p class="notification__icon"><svg class="icon"><use xlink:href="#symbol-offline" /></svg></p>
-    <p class="notification__message">Even if you're not connected, you can read some pages, including the ones <a href="/about/">about me</a> and <a href="/about/the-website.html">about the website</a>.</p>
+    <p class="notification__icon">
+      <svg class="icon"><use xlink:href="#symbol-offline" /></svg>
+    </p>
+    <p class="notification__message">
+      Even if you're not connected, you can read some pages, including the ones
+      <a href="/about/">about me</a> and
+      <a href="/about/the-website.html">about the website</a>.
+    </p>
   </div>
 </div>
-<section class="list hidden" id="cachedArticles">
+<section class="hidden" id="cachedArticles">
   <h2>Articles</h2>
-  <ul class="list__items list__items--small"></ul>
+  <ul class="list"></ul>
 </section>
-<section class="list hidden" id="cachedLinks">
+<section class="hidden" id="cachedLinks">
   <h2>Links</h2>
-  <ul class="list__items list__items--small"></ul>
+  <ul class="list"></ul>
 </section>
-<section class="list hidden" id="cachedTags">
+<section class="hidden" id="cachedTags">
   <h2>Tags</h2>
-  <ul class="list__items list__items--small"></ul>
+  <ul class="list"></ul>
 </section>
 
 <script>
-// https://googlechrome.github.io/samples/service-worker/window-caches/
+  // https://googlechrome.github.io/samples/service-worker/window-caches/
 
-window.caches.open('pages').then(cache => {
-  return cache.keys();
-})
-.then(requests => {
-  requests.forEach(request => {
+  const cachedContent = {
+    articles: [],
+    links: [],
+    tags: []
+  };
+
+  window.caches
+    .open("pages")
+    .then(cache => {
+      return cache.keys();
+    })
+    .then(requests => {
+      requests.forEach(request => {
+        const requestUrl = new URL(request.url);
+        const requestPath = requestUrl.pathname;
+        if (/^\/[0-9]{4}\/[0-9]{2}\/./.test(requestPath)) {
+          addRequestToList(request, "cachedArticles");
+        } else {
+          if (/^\/links\/[0-9]{4}\/[0-9]{2}\/./.test(requestPath)) {
+            addRequestToList(request, "cachedLinks");
+          } else {
+            if (/^\/tags\/./.test(requestPath)) {
+              addRequestToList(request, "cachedTags");
+            }
+          }
+        }
+      });
+    });
+
+  function addRequestToList(request, group) {
     const requestUrl = new URL(request.url);
     const requestPath = requestUrl.pathname;
-    if (/^\/[0-9]{4}\/[0-9]{2}\/./.test(requestPath)) {
-      addRequestToList(request, 'cachedArticles');
-    } else {
-      if (/^\/links\/[0-9]{4}\/[0-9]{2}\/./.test(requestPath)) {
-        addRequestToList(request, 'cachedLinks');
-      } else {
-        if (/^\/tags\/./.test(requestPath)) {
-          addRequestToList(request, 'cachedTags');
-        }
-      }
-    }
-  });
-});
 
-function addRequestToList(request, group) {
-  const requestUrl = new URL(request.url);
-  const requestPath = requestUrl.pathname;
+    window.caches.open("pages").then(cache => {
+      cache.match(request).then(item => {
+        item.text().then(pageHtml => {
+          let pageDom = document.createElement("html");
+          pageDom.innerHTML = pageHtml;
 
-  window.caches.open('pages').then(cache => {
-    cache.match(request).then(item => {
-      item.text().then(pageHtml => {
-        let pageDom = document.createElement('html');
-        pageDom.innerHTML = pageHtml;
+          let pageTitle = pageDom.querySelector("h1").innerText;
 
-        let pageTitle = pageDom.querySelector('h1').innerText;
+          let linkElement = document.createElement("a");
+          linkElement.href = request.url;
+          linkElement.className = "u-url";
+          linkElement.textContent = pageTitle;
 
-        let linkElement = document.createElement('a');
-        linkElement.href = request.url;
-        linkElement.textContent = pageTitle;
+          let pElement = document.createElement("p");
+          pElement.className = "card__title p-name";
+          pElement.appendChild(linkElement);
 
-        let h3Element = document.createElement('h3');
-        h3Element.className = 'card__title';
-        h3Element.appendChild(linkElement);
+          let liElement = document.createElement("li");
+          liElement.className = "list__item list__item--large";
+          liElement.appendChild(pElement);
 
-        let liElement = document.createElement('li');
-        liElement.className = 'list__item';
-        liElement.appendChild(h3Element);
+          if (pageDom.querySelector(".main footer")) {
+            let pageMeta = document.createElement("footer");
+            pageMeta.innerHTML = pageDom.querySelector(
+              ".main footer"
+            ).innerHTML;
+            liElement.appendChild(pageMeta);
+          }
 
-        if (pageDom.querySelector('.main footer')) {
-          let pageMeta = document.createElement('footer');
-          pageMeta.innerHTML = pageDom.querySelector('.main footer').innerHTML;
-          liElement.appendChild(pageMeta);
-        }
-
-        document.querySelector('#' + group + ' ul').appendChild(liElement);
-        document.getElementById(group).classList.remove('hidden');
-      })
-    })
-  });
-}
+          document.querySelector("#" + group + " ul").appendChild(liElement);
+          document.getElementById(group).classList.remove("hidden");
+        });
+      });
+    });
+  }
 </script>
