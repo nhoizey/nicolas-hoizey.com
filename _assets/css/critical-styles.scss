@@ -22,7 +22,7 @@
   --font-size-xxxl: calc(var(--font-size-xxl) * var(--font-size-scale));
   --font-size-xxxxl: calc(var(--font-size-xxxl) * var(--font-size-scale));
 
-  --link-color: #39f;
+  --link-decoration-color: #39f;
 
   --base-duration: 0s;
 }
@@ -69,13 +69,14 @@ a {
   &:visited {
     color: currentColor;
     text-decoration-line: underline;
-    text-decoration-color: var(--link-color, #{$color-blue});
+    text-decoration-color: var(--link-decoration-color, #{$color-blue});
+    text-decoration-thickness: 0.1em;
   }
 
   &:hover,
   &:focus {
     color: #fff;
-    background-color: var(--link-color, #{$color-blue});
+    background-color: var(--link-decoration-color, #{$color-blue});
     text-decoration: none;
     outline: none;
   }
@@ -273,7 +274,7 @@ figcaption {
   font-style: italic;
   margin: 0.1em 1em;
   padding: 0.3em 0;
-  color: #999;
+  color: #666;
 
   p {
     margin: 0;
@@ -324,14 +325,14 @@ a.deeplink:visited {
   svg {
     width: 1em;
     height: 1em;
-    fill: $color-link;
+    fill: $color-link-decoration;
   }
 }
 
 a.deeplink:hover,
 a.deeplink:focus,
 a.deeplink:active {
-  background-color: $color-link;
+  background-color: $color-link-decoration;
   color: $color-white;
 
   svg {
@@ -350,7 +351,7 @@ h6 {
   &:active {
     a.deeplink:link,
     a.deeplink:visited {
-      background-color: $color-link;
+      background-color: $color-link-decoration;
       color: $color-white;
 
       svg {
@@ -401,22 +402,18 @@ article {
     overflow: hidden;
     padding: 0 1em 0 2.5em;
 
-    color: $color-primary-lighter-5;
-    background-color: $color-primary-lighter-1;
+    color: $color-text;
+    background-color: $color-primary-lighter-5;
     border-radius: 10px;
 
     font-style: italic;
-
-    strong {
-      color: #fff;
-    }
 
     &::before {
       position: absolute;
       left: 0.1em;
       top: 0.1em;
       content: "\201C";
-      color: #fff;
+      color: $color-primary;
       font-size: 3em;
       line-height: 1;
     }
@@ -491,7 +488,7 @@ article {
     kbd,
     code.highlighter-rouge {
       text-decoration-line: underline;
-      text-decoration-color: var(--link-color, #{$color-blue});
+      text-decoration-color: var(--link-decoration-color, #{$color-blue});
     }
   }
 
@@ -590,9 +587,10 @@ article {
     border-top: 1px dotted #ccc;
     padding: 0.5em 0;
     font-size: var(--font-size-s);
-    color: #999;
+    color: $color-darkgrey;
 
-    --link-color: $color-grey;
+    // https://sass-lang.com/documentation/style-rules/declarations#custom-properties
+    --link-decoration-color: #{$color-grey};
   }
 }
 

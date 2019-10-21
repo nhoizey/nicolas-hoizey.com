@@ -32,14 +32,14 @@
 
     &:hover,
     &:focus {
-      background-color: $color-link;
+      background-color: $color-link-decoration;
       outline: none;
 
       &.set-2,
       &.set-3,
       &.set-4,
       &.set-5 {
-        background-color: $color-link;
+        background-color: $color-link-decoration;
       }
     }
 

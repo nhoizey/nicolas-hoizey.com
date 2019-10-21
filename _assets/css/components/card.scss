@@ -26,7 +26,7 @@
     padding: 0;
     width: 1.2em;
     height: auto;
-    border-radius: .3em;
+    border-radius: 0.3em;
     vertical-align: middle;
     overflow: hidden;
   }
@@ -54,7 +54,7 @@
 .card__meta {
   margin: 0.5em 0;
   padding: 0;
-  color: $color-darkgrey;
+  color: $color-meta;
   font-size: var(--font-size-xs);
 
   display: flex;
@@ -65,10 +65,10 @@
   margin: 0 1em 0 1.5em;
   list-style-type: none;
 
-  --link-color: #{$color-grey};
+  --link-decoration-color: #{$color-meta-link-decoration};
 
   svg {
-    fill: $color-grey;
+    fill: $color-meta-icon;
     vertical-align: middle;
     margin: 0 0.2em 0 -1.5em;
     padding: 0;
