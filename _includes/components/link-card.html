@@ -3,6 +3,8 @@
 <figure class="card__image">
   <img
     alt="screenshot of {{ include.link.title }}"
+    width="300"
+    height="200"
     {% if include.lazy == 'on' %}
       data-src="{{ cloudinaryPrefix }}w_300,h_200/{{ thumbUrl }}{{ include.link.link }}"
     {% else %}
@@ -14,14 +16,16 @@
 {% if include.link.authors %}
   <p class="card__source">
     {%- for author in include.link.authors -%}
-      {% if author.twitter %}
-        <img class="u-photo" src="{{ cloudinaryPrefix }}w_48,h_48/https://avatars.io/twitter/{{ author.twitter }}/large" alt="{{ author.name }} avatar" loading="lazy" width="24" height="24"/>
-      {% endif %}
-      {{ author.name }}
-      {%- if forloop.last == false -%} and {% endif -%}
-    {% endfor %}
-    wrote
-</p>
+      {%- if forloop.first == false -%}
+        {%- if forloop.last == false -%},&ensp;{%- else -%}&ensp;and&ensp;{%- endif -%}
+      {%- endif -%}
+      {%- if author.twitter -%}
+        <img class="u-photo" src="{{ cloudinaryPrefix }}w_48,h_48/https://avatars.io/twitter/{{ author.twitter }}/large" alt="{{ author.name }} avatar" loading="lazy" width="24" height="24"/>&ensp;
+      {%- endif -%}
+      {{- author.name -}}
+    {%- endfor -%}
+    &ensp;wrote
+  </p>
 {% endif %}
 <p class="card__title">
   <a href="{{ include.link.url }}">{{ include.link.title }}</a>

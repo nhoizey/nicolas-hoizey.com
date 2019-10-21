@@ -11,19 +11,15 @@ layout: default
     <div class="link__info">
       {% if page.authors %}
         {% for author in page.authors %}
-          {% if author.twitter %}
-            <p class="link__source p-author h-card">
+          <p class="link__source p-author h-card">
+            {% if author.twitter %}
               <img class="u-photo" src="{{ cloudinaryPrefix }}w_72,h_72/https://avatars.io/twitter/{{ author.twitter }}/large" alt="{{ author.name }} avatar" loading="lazy" width="48" height="48"/>
               <b class="p-name">{{ author.name }}</b>
               (<svg><use xlink:href="#symbol-twitter"/></svg>&nbsp;<a href="https://twitter.com/{{ author.twitter }}">@{{ author.twitter }}</a>)
-              wrote
-            </p>
-          {% else %}
-            <p class="link__source p-author h-card">
+            {% else %}
               <b class="p-name">{{ author.name }}</b>
-              wrote
-            </p>
-          {% endif %}
+            {% endif %}
+          </p>
         {% endfor %}
       {% endif %}
       <h1>{{ page.title }}</h1>
