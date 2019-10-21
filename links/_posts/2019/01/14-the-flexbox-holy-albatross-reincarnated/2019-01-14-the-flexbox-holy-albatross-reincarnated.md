@@ -5,7 +5,7 @@ link: http://www.heydonworks.com/article/the-flexbox-holy-albatross-reincarnated
 authors:
   - name: "Heydon Pickering"
     twitter: "heydonworks"
-tags: [RWD, flexbox, CSS, layout]
+tags: [RWD, Flexbox, CSS, layout]
 ---
 
 > when you have three items, you’ll be happy with the three-abreast layout and accepting of the single-column configuration. But you might like to avoid the intermediary part where you get a pair of elements on one line followed by a longer element underneath.

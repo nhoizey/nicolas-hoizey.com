@@ -32,17 +32,13 @@ Vous pouvez bien sûr continuer à lire aussi mes bookmarks [sur Seenthis](http:
 
 Il semble que cela vienne du flux RSS de Pinboard qui mélange tous les tags dans une unique balise ```dc:subject```, je suis donc repassé à Diigo pour le flux RSS qui alimente Seenthis, Diigo étant lui-même alimenté par Pinboard via [IFTTT](https://ifttt.com/).
 
-Voici la *recipe* IFTTT, au cas où vous voudriez faire de même :
-
-<a href="https://ifttt.com/view_embed_recipe/232495-copy-every-new-pinboard-bookmark-to-diigo" target = "_blank" class="embed_recipe embed_recipe-l_41" id= "embed_recipe-232495"><img src= 'https://ifttt.com/recipe_embed_img/232495' alt="IFTTT Recipe: Copy every new Pinboard bookmark to Diigo connects pinboard to diigo" width="370px" style="max-width:100%"/></a><script async type="text/javascript" src= "https://ifttt.com/assets/embed_recipe.js"></script>
-
 # Souci supplémentaire : plus de participation au groupe Web Performance sur Diigo
 
 Mon départ de Diigo m'empêche de fait de participer au [groupe de veille Web Performance](https://groups.diigo.com/group/web-performance) créé par [Éric](https://www.diigo.com/profile/edaspet) et alimenté par une quinzaine de contributeurs.
 
 {% cloudinary diigo-web-performance.png caption="Le groupe Web Performance sur Diigo" %}
 
-Même en étant utilisateur de Diigo, j'ai toujours trouvé dommage de lier cet espace de veille et partage à un outil particulier, mon départ me confirme l'intérêt qu'il y aurait à avoir un espace indépendant qui agrège les flux de chacun, comme nous le faisons chez [Clever Age](http://clever-age.com/) avec les [Clever Marks](http://fr.clever-age.com/veille/clever-marks/).
+Même en étant utilisateur de Diigo, j'ai toujours trouvé dommage de lier cet espace de veille et partage à un outil particulier, mon départ me confirme l'intérêt qu'il y aurait à avoir un espace indépendant qui agrège les flux de chacun, comme nous le faisons chez [Clever Age](https://clever-age.com/) avec les [Clever Marks](https://blog.clever-age.com/fr/clever-marks/).
 
 [^1]: J'avais été invité à tester une beta privée il y a quelques mois, j'avais dit tout le mal que je pensais de ce changement, mais bon…
 
