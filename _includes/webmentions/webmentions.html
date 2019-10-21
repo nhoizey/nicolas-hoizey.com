@@ -79,7 +79,7 @@
             {% if webmention.uri %}
               <div class="webmention__meta">
                 {% if webmention.pubdate %}
-                  <time class="webmention__pubdate dt-published" datetime="{{ webmention.pubdate | date: '%FT%T%:z' }}">{{ webmention.pubdate | date: '%d %B %Y' }}</time>
+                  <time class="webmention__pubdate dt-published" datetime="{{ webmention.pubdate | date: '%FT%T%:z' }}">{{ webmention.pubdate | date: '%e %B %Y' }}</time>
                   |
                 {% endif %}
                 {% if webmention.uri contains "https://twitter.com/" %}
