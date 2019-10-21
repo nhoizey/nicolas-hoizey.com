@@ -12,17 +12,21 @@
 .link__source {
   margin: 0;
   padding: 0;
-  min-height: calc(48px + 0.5em);
+  min-height: 2.1em;
 
   .u-photo {
-    display: inline;
+    float: left;
     width: 2em;
     height: 2em;
-    margin: 0;
+    margin: 0 0.3em 0 0;
     padding: 0;
     border-radius: .3em;
     vertical-align: middle;
     overflow: hidden;
+
+    @media (min-width: 64em) {
+      margin-left: -2.3em;
+    }
   }
 
   svg {
