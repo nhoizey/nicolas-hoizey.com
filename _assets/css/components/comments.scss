@@ -51,6 +51,6 @@
 
 .comment__meta {
   color: $color-meta;
-  --link-decoration-color: #{$color-meta};
+  --link-decoration-color: #{$color-meta-link-decoration};
   font-size: var(--font-size-s);
 }
