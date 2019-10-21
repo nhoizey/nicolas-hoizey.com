@@ -42,7 +42,7 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
   {% include_cached post-meta.html page=page %}
   <div class="e-content">{{ content }}</div>
 
-  {% if page.flickr or page.facebook or page.instagram or page.deviantart %}
+  {% if page.flickr or page.facebook or page.instagram %}
     <div class="socialphoto">
       <p>You'll also find this photo on your favorite service&nbsp;:
         <span>
@@ -54,9 +54,6 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
         {% endif %}
         {% if page.instagram %}
           <a href="{{ page.instagram }}" class="icon instagram"><svg><use xlink:href="#symbol-instagram" /></svg></a>
-        {% endif %}
-        {% if page.deviantart %}
-          <a href="{{ page.deviantart }}" class="icon deviantart"><svg><use xlink:href="#symbol-deviantart" /></svg></a>
         {% endif %}
         </span>
       </p>
