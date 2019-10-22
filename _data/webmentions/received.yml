@@ -12456,6 +12456,33 @@
     author: *264
     type: link
     content: <p><a href="https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html">nicolas-hoizey.com/2016/03/people…</a></p>
+  '715225':
+    id: '715225'
+    uri: https://codeburst.io/css-units-a-brief-digress-d06e511d7303?source=rss-fe93ff323db6------2
+    source: false
+    pubdate: 2019-10-20 12:46:36.000000000 +02:00
+    raw:
+      source: https://codeburst.io/css-units-a-brief-digress-d06e511d7303?source=rss-fe93ff323db6------2
+      verified: true
+      verified_date: '2019-10-20T10:46:36+00:00'
+      id: 715225
+      private: false
+      data:
+        url: https://codeburst.io/css-units-a-brief-digress-d06e511d7303?source=rss-fe93ff323db6------2
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: link
+        sentence: https://codeburst.io/css-units-a-brief-digress-d06e511d7303?source=rss-fe93ff323db6------2
+          posted '' linking to https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html
+        sentence_html: <a href="https://codeburst.io/css-units-a-brief-digress-d06e511d7303?source=rss-fe93ff323db6------2">someone</a>
+          posted '' linking to <a href="https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html">https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html</a>
+      target: https://nicolas-hoizey.com/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html
+    author: 
+    type: link
+    content: ''
 "/2016/06/the-dna-journey.html": {}
 "/2016/06/so-long-cloudflare-and-thanks-for-all-the-fissh.html": {}
 "/2016/07/tout-change-rien-ne-change.html": {}
@@ -31100,3 +31127,4 @@
 "/links/2019/10/the-ultimate-guide-to-not-fucking-up-push-notifications.html": {}
 "/links/2019/10/why-is-css-so-weird.html": {}
 "/links/2019/10/aspire-ideals-to-aspire-to-when-building-websites.html": {}
+"/links/2019/10/local-first-software.html": {}

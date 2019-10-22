@@ -2693,6 +2693,8 @@ https://nicolas-hoizey.com/2014/12/mes-bookmarks-migrent-de-diigo-vers-pinboard.
   http://clever-age.com/: false
   http://fr.clever-age.com/veille/clever-marks/: false
   https://delicious.com/settings/manage: false
+  https://clever-age.com/: false
+  https://blog.clever-age.com/fr/clever-marks/: false
 https://nicolas-hoizey.com/2015/01/sony-rx100-iii-mon-excellent-nouveau-compact-expert-toujours-en-poche.html:
   http://marc-charbonnier.com/: false
   http://www.sony.fr/electronics/appareils-photo-cyber-shot-compacts/dsc-rx100m3: false
@@ -3507,3 +3509,5 @@ https://nicolas-hoizey.com/links/2019/10/aspire-ideals-to-aspire-to-when-buildin
   https://web.archive.org/web/20050223021343/http://adaptivepath.com:80/publications/essays/archives/000385.php: false
   https://alistapart.com/article/responsive-web-design/: false
   https://infrequently.org/2015/06/progressive-apps-escaping-tabs-without-losing-our-soul/: false
+https://nicolas-hoizey.com/links/2019/10/local-first-software.html:
+  https://www.inkandswitch.com/: false
