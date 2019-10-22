@@ -26,7 +26,8 @@
       } else {
         ga('set', { dimension1: screen_density, dimension2: 0, dimension3: root_font_size });
       }
-      ga('send', 'pageview')
+      ga('set', 'dimension4', 'online');
+      ga('send', 'pageview');
     </script>
     <script src="https://www.google-analytics.com/analytics.js" async defer></script>
   {% endif %}

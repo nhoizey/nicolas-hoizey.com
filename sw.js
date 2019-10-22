@@ -101,7 +101,15 @@ if (workbox) {
     }
   });
 
-  workbox.googleAnalytics.initialize();
+  workbox.googleAnalytics.initialize({
+    hitFilter: (params) => {
+      const queueTimeInSeconds = Math.round(params.get('qt') / 1000);
+      params.set('cm1', queueTimeInSeconds);
+    },
+    parameterOverrides: {
+      cd4: 'offline',
+    },
+  });
 
   self.addEventListener("message", event => {
     console.log(`[SW] Receiving a message: ${event.data.type}`);
