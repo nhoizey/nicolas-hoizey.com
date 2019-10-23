@@ -7,15 +7,17 @@ if ("serviceWorker" in navigator) {
     // `event.isUpdate` will be true if another version of the service
     // worker was controlling the page when this version was registered.
     if (!event.isUpdate) {
-      console.log("Service worker activated for the first time!");
+      console.info("Service worker activated for the first time!");
 
       // If your service worker is configured to precache assets, those
       // assets should all be available now.
+    } else {
+      console.info("New Service Worker activated");
     }
   });
 
   wb.addEventListener("waiting", event => {
-    console.log(
+    console.info(
       `A new service worker has installed, but it can't activate` +
         `until all tabs running the current version have fully unloaded.`
     );
@@ -24,7 +26,7 @@ if ("serviceWorker" in navigator) {
   wb.addEventListener("message", event => {
     if (event.data.type === "CACHE_UPDATED") {
       const { cacheName, updatedURL } = event.data.payload;
-      console.log(
+      console.info(
         `A newer version of ${updatedURL} is available in ${cacheName}!`
       );
     }
