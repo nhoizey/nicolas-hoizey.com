@@ -98,33 +98,6 @@ if (gifsNumber > 0) {
 }
 
 /*****************************************************************
- * Notifications
- * ****************************************************************/
-
-function showNotification(id, type, icon, text) {
-  let notifications = window.document.getElementById("notifications");
-
-  // https://stackoverflow.com/a/25214113/717195
-  let notification = document.createRange().createContextualFragment(
-    `<div id="notification-${id}" class="notification notification-${type}">
-      <div class="wrap">
-        <p class="notification__icon"><svg class="icon"><use xlink:href="#symbol-${icon}" /></svg></p>
-        <p class="notification__message">${text}</p>
-      </div>
-    </div>`
-  );
-
-  let existingNotification = window.document.getElementById(
-    `notification-${id}`
-  );
-  if (existingNotification) {
-    existingNotification.parentNode.removeChild(existingNotification);
-  }
-
-  notifications.appendChild(notification);
-}
-
-/*****************************************************************
  * Deal with offline/online events
  * ****************************************************************/
 
@@ -148,7 +121,6 @@ function updateConnectivityStatus() {
         .setAttribute("disabled", "disabled");
 
       notificationToShow = true;
-      notificationId = "offline";
       notificationIcon = "offline";
       if ("serviceWorker" in navigator) {
         // If the browser supports Service Workers and the Cache API,
@@ -159,11 +131,11 @@ function updateConnectivityStatus() {
         // TODO: check if SW active and some content in cache
         notificationType = "warning";
         notificationText =
-          'Sorry, <strong>it looks like the connection is lost</strong>. You can continue reading this page, or <a href="/offline.html">look at what\'s in your offline cache</a>.';
+          'It looks like <strong>the connection is lost</strong>. Continue reading this page, or look at <a href="/offline.html">other contents you can read while offline</a>.';
       } else {
         notificationType = "error";
         notificationText =
-          "Sorry, <strong>it looks like the connection is lost</strong>. You can continue reading this page, until the connection is back.";
+          "It looks like <strong>the connection is lost</strong>. Continue reading this page, until the connection is back.";
       }
       isOffline = true;
     } else {
@@ -171,7 +143,6 @@ function updateConnectivityStatus() {
 
       if (isOffline) {
         isOffline = false;
-        notificationId = "online";
         notificationIcon = "online";
         notificationToShow = true;
         notificationType = "success";
@@ -181,12 +152,12 @@ function updateConnectivityStatus() {
     }
 
     if (notificationToShow) {
-      showNotification(
-        "connection",
-        notificationType,
-        notificationIcon,
-        notificationText
-      );
+      Toast({
+        text: notificationText,
+        type: notificationType,
+        icon: notificationIcon,
+        duration: 5000
+      }).showToast();
     }
   }
 }
