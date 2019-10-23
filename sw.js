@@ -73,8 +73,9 @@ if (workbox) {
   workbox.routing.registerRoute(
     ({ event }) => event.request.destination === "document",
     new workbox.strategies.NetworkFirst({
-      cacheName: pagesCacheName
       networkTimeoutSeconds: 2,
+      cacheName: pagesCacheName,
+      plugins: [new workbox.broadcastUpdate.Plugin()]
     })
   );
 
