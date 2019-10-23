@@ -71,7 +71,7 @@ if (workbox) {
 
   // Try to get fresh HTML from network, but don't wait for more than 3 seconds
   workbox.routing.registerRoute(
-    /(\.html|\/)$/,
+    ({ event }) => event.request.destination === "document",
     new workbox.strategies.NetworkFirst({
       networkTimeoutSeconds: 3,
       cacheName: pagesCacheName
