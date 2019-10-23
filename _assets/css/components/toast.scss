@@ -5,13 +5,13 @@
 .toast {
   display: inline-block;
   font-size: 1.2rem;
-  padding: 0.5em;
+  padding: 0.4em 0.7em;
   position: fixed;
 
   background-color: #ccc;
   color: #222;
   border: 1px solid #999;
-  border-radius: 0.2em;
+  border-radius: 0.5em;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
 
   opacity: 0;
@@ -28,7 +28,10 @@
   right: 0;
   bottom: 15px;
   z-index: 10;
+}
 
+// Augment specificity
+.toast.toast {
   a:hover,
   a:active {
     color: #fff;
@@ -44,10 +47,6 @@
 .toast-close {
   opacity: 0.4;
   padding: 0 0.3em;
-}
-
-.toast-rounded {
-  border-radius: 1em;
 }
 
 .toast-icon {

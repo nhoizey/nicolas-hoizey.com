@@ -38,13 +38,10 @@
       // Validating the options
       this.options.text = options.text || "Hi there!"; // Display message
       this.options.duration = options.duration || 3000; // Display duration
-      this.options.selector = options.selector; // Parent selector
       this.options.callback = options.callback || function() {}; // Callback after display
       this.options.close = options.close || false; // Show toast close icon
       this.options.icon = options.icon || "info"; // svg icon id
       this.options.type = options.type || "info"; // additional class names for the toast
-      this.options.stopOnFocus =
-        options.stopOnFocus === undefined ? true : options.stopOnFocus; // stop timeout on focus
       this.options.onClick = options.onClick; // Callback after click
 
       // Returning the current object for chaining functions
@@ -91,20 +88,18 @@
         );
 
         // Clear timeout while toast is focused
-        if (this.options.stopOnFocus && this.options.duration > 0) {
-          const self = this;
-          // stop countdown
-          divElement.addEventListener("mouseover", function(event) {
-            window.clearTimeout(divElement.timeOutValue);
-          });
-          // add back the timeout
-          divElement.addEventListener("mouseleave", function() {
-            divElement.timeOutValue = window.setTimeout(function() {
-              // Remove the toast from DOM
-              self.removeElement(divElement);
-            }, self.options.duration);
-          });
-        }
+        const self = this;
+        // stop countdown
+        divElement.addEventListener("mouseover", function(event) {
+          window.clearTimeout(divElement.timeOutValue);
+        });
+        // add back the timeout
+        divElement.addEventListener("mouseleave", function() {
+          divElement.timeOutValue = window.setTimeout(function() {
+            // Remove the toast from DOM
+            self.removeElement(divElement);
+          }, self.options.duration);
+        });
 
         // Adding the close icon to the toast element
         divElement.appendChild(closeElement);
@@ -148,12 +143,7 @@
       this.toastElement = this.buildToast();
 
       // Getting the root element to with the toast needs to be added
-      var rootElement;
-      if (typeof this.options.selector === "undefined") {
-        rootElement = document.body;
-      } else {
-        rootElement = document.getElementById(this.options.selector);
-      }
+      var rootElement = document.body;
 
       // Validating if root element is present in DOM
       if (!rootElement) {
