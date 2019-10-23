@@ -9,10 +9,18 @@ importScripts(
 {% capture manifestFile %}{% include_relative manifest.webmanifest %}{% endcapture %}
 {% capture offlineFile %}{% include_relative offline.html %}{% endcapture %}
 {% capture offlineFallbackFile %}{% include_relative offline-fallback.html %}{% endcapture %}
+{% capture defaultScreenshot %}{% include_relative assets/default-screenshot.svg %}{% endcapture %}
 
 const offlineFallback = "/offline-fallback.html";
 const preCachedFiles = [
   '{% asset "non-critical-styles" @path %}',
+  '{% asset "toast" @path %}',
+  '{% asset "behaviors" @path %}',
+  '/assets/fonts/notoserif-regular-subset.woff2',
+  {
+    url: "/assets/default-screenshot.svg",
+    revision: "{{ defaultScreenshot | md5 }}"
+  },
   {
     url: "/manifest.webmanifest",
     revision: "{{ manifestFile | md5 }}"
