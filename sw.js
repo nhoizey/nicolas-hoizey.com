@@ -39,7 +39,7 @@ const pagesCacheName = "pages";
 
 if (workbox) {
   workbox.setConfig({
-    // debug: true
+    debug: true
   });
 
   self.addEventListener("install", event => {
