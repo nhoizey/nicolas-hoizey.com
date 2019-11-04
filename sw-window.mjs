@@ -29,6 +29,15 @@ if ("serviceWorker" in navigator) {
       console.info(
         `A newer version of ${updatedURL} is available in ${cacheName}!`
       );
+      // if (updatedURL === window.location.href) {
+      //   Toast({
+      //     type: "info",
+      //     icon: "info",
+      //     text:
+      //       "A new version of this page is available, please reload if you want to see it.",
+      //     duration: 3000
+      //   }).showToast();
+      // }
     }
   });
 
