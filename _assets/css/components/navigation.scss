@@ -45,6 +45,8 @@
   a:hover,
   a:focus {
     color: #fff;
+    text-decoration-line: underline;
+    text-decoration-color: $color-white;
     background-color: $color-primary-lighter-1;
     border: solid 1px $color-primary;
     border-bottom-color: $color-primary-lighter-2;
@@ -60,12 +62,16 @@
   .about &.about {
     a:link,
     a:visited {
-      color: #fff;
-      background-color: $color-primary-lighter-1;
+      color: $color-primary;
+      background-color: $color-primary-lighter-5;
       border: solid 1px $color-primary;
       border-bottom-color: $color-primary-lighter-2;
       border-left-color: $color-primary-lighter-2;
       transform: translateY(1px);
+    }
+
+    a:hover, a:focus {
+      text-decoration-color: $color-primary-lighter-1;
     }
   }
 }
