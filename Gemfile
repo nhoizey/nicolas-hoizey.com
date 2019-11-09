@@ -25,7 +25,8 @@ group :jekyll_plugins do
   # For Jekyll 4
   # https://github.com/envygeeks/jekyll-assets/issues/613#issuecomment-541246808
   # gem 'jekyll-assets'
-  gem 'jekyll-assets', :git => 'https://github.com/kou/jekyll-assets.git', :branch => 'add-support-for-sprockets-4.0'
+  # gem 'jekyll-assets', :git => 'https://github.com/kou/jekyll-assets.git', :branch => 'add-support-for-sprockets-4.0'
+  gem 'jekyll-assets', :git => 'https://github.com/nhoizey/jekyll-assets.git', :branch => 'patch-1'
   gem 'jekyll-sanity', :git => 'https://github.com/envygeeks/jekyll-sanity.git'
   gem 'sass'
   # gem 'jekyll-webmention_io'

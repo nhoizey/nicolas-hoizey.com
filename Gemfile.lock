@@ -6,9 +6,9 @@ GIT
       jekyll (>= 3.1, < 5.0)
 
 GIT
-  remote: https://github.com/kou/jekyll-assets.git
-  revision: 63f8aa3165742b74a14892b42027f47ac6a785fd
-  branch: add-support-for-sprockets-4.0
+  remote: https://github.com/nhoizey/jekyll-assets.git
+  revision: 13df48f501b6862c6189035299d955be95a9933b
+  branch: patch-1
   specs:
     jekyll-assets (4.0.0.alpha)
       activesupport (~> 5.0)
@@ -21,7 +21,7 @@ GIT
       nokogiri (~> 1.10)
       pathutil (~> 0.16)
       sassc (>= 1.11, < 3.0)
-      sprockets (~> 4.0.beta7)
+      sprockets (~> 4.0)
 
 GIT
   remote: https://github.com/nhoizey/jekyll-webmention_io.git
