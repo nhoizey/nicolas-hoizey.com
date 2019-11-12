@@ -1,15 +1,13 @@
----
----
 importScripts(
   "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js"
 );
 
-{% capture aboutPage %}{% include_relative about/index.md %}{% endcapture %}
-{% capture aboutSitePage %}{% include_relative about/the-website.md %}{% endcapture %}
-{% capture manifestFile %}{% include_relative manifest.webmanifest %}{% endcapture %}
-{% capture offlineFile %}{% include_relative offline.html %}{% endcapture %}
-{% capture offlineFallbackFile %}{% include_relative offline-fallback.html %}{% endcapture %}
-{% capture defaultScreenshot %}{% include_relative assets/default-screenshot.svg %}{% endcapture %}
+{% capture aboutPage %} {% include_relative about / index.md %} {% endcapture %}
+{% capture aboutSitePage %} {% include_relative about / the - website.md %} {% endcapture %}
+{% capture manifestFile %} {% include_relative manifest.webmanifest %} {% endcapture %}
+{% capture offlineFile %} {% include_relative offline.html %} {% endcapture %}
+{% capture offlineFallbackFile %} {% include_relative offline - fallback.html %} {% endcapture %}
+{% capture defaultScreenshot %} {% include_relative assets /default -screenshot.svg %} {% endcapture %}
 
 const offlineFallback = "/offline-fallback.html";
 const preCachedFiles = [
