@@ -14,8 +14,8 @@ layout: null
   </author>
   {% assign links = site.categories['links'] %}
   {% for link in links limit:20 %}
-    {% assign link_date_in_seconds = link.date | date: "%s" | plus: 0 %}
-    {% assign now_in_seconds = "now" | date: "%s" | plus: 0 %}
+    {% assign link_date_in_seconds = link.date | date: "%s" | int %}
+    {% assign now_in_seconds = "now" | date: "%s" | int %}
     {% if link_date_in_seconds < now_in_seconds %}
 
       {%- assign posse_title = link.title | markdown_to_tweet -%}
