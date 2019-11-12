@@ -3,12 +3,12 @@ layout: default
 title: Homepage
 ---
 
-{% comment %}
+{#
 JSON-LD for:
 - Site name: https://developers.google.com/search/docs/data-types/sitename
 - Site links searchbox: https://developers.google.com/search/docs/data-types/sitelinks-searchbox
 - Social Profile Links: https://developers.google.com/search/docs/data-types/social-profile-links
-{% endcomment %}
+#}
 
 <script type="application/ld+json">
 {
@@ -31,36 +31,37 @@ JSON-LD for:
 }
 </script>
 
+{#
 <h2>Latest articles</h2>
-
 <ul class="list">
-  {% assign articles = site.categories['articles'] %}
-  {% for article in articles limit:3 %}
+  {% for page in collections.articles | limit(3) %}
     <li class="list__item list__item--large">
       <div class="card card--article h-entry">
-        {% include components/post-card.njk page=article %}
+        {% include "components/post-card.njk" %}
       </div>
     </li>
   {% endfor %}
 </ul>
+#}
 
 <h2>Latest links</h2>
 <ul class="list">
-  {% assign links = site.categories['links'] %}
-  {% for link in links limit:6 %}
+  {% for link in collections.links | limit(6) %}
     <li class="list__item">
       <div class="card card--link h-entry">
-        {% include components/link-card.njk link=link lazy="on" %}
+        {% include "components/link-card.njk" %}
       </div>
     </li>
   {% endfor %}
 </ul>
 
+{#
 <section class="tagscloud">
   <p>Find other contents by frequent tags:</p>
-  {% capture cloud %}
-  {% include components/tags-cloud.njk %}
-  {% endcapture %}
+  {% set cloud %}
+  {% include "components/tags-cloud.njk" %}
+  {% endset %}
   {{ cloud | frequent_tags }}
   <p>See <a href="/tags/">the full tags cloud</a> for even more content.</p>
 </section>
+#}
