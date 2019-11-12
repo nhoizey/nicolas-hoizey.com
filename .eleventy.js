@@ -25,6 +25,11 @@ module.exports = function (eleventyConfig) {
     return string.split(separator);
   });
 
+  // TODO: remove?
+  eleventyConfig.addFilter("tags_microformat", function (tags) {
+    return tags.replace(/(rel="tag")/, 'rel="tag" class="p-category"');
+  });
+
   // ------------------------------------------------------------------------
   // Shortcodes
   // ------------------------------------------------------------------------
