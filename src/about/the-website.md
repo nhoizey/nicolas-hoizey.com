@@ -12,7 +12,7 @@ lang: en
 
 # Avec Jekyll, le statique c'est fantastique
 
-Tout le site est généré par [Jekyll](http://jekyllrb.com/) à partir de documents rédigés en syntaxe [Markdown](http://fr.wikipedia.org/wiki/Markdown)[^kramdown]. Il a été généré pour la dernière fois le&nbsp;{{ site.time | date: "%d/%m/%Y"}}.
+Tout le site est généré par [Jekyll](http://jekyllrb.com/) à partir de documents rédigés en syntaxe [Markdown](http://fr.wikipedia.org/wiki/Markdown)[^kramdown]. Il a été généré pour la dernière fois le&nbsp;{{ build.timestamp }}.
 
 [^kramdown]: En fait plutôt du [Kramdown](http://kramdown.gettalong.org/), une variante plus sympa de Markdown, permettant notamment cette note de bas de page.
 
