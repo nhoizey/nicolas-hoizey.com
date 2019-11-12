@@ -12,8 +12,8 @@
 {% if link.data.authors %}
   <p class="card__source">
     {%- for author in link.data.authors -%}
-      {%- if forloop.first == false -%}
-        {%- if forloop.last == false -%},&ensp;{%- else -%}&ensp;and&ensp;{%- endif -%}
+      {%- if not loop.first -%}
+        {%- if not loop.last -%},&ensp;{%- else -%}&ensp;and&ensp;{%- endif -%}
       {%- endif -%}
       {%- if author.twitter -%}
         <img class="u-photo" src="{{ cloudinaryPrefix }}w_48,h_48/https://avatars.io/twitter/{{ author.twitter }}/large" alt="{{ author.name }} avatar" loading="lazy" width="24" height="24"/>&ensp;
