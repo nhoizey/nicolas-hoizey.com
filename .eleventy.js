@@ -144,6 +144,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig
     .addPassthroughCopy("src/assets")
+    .addPassthroughCopy("src/js")
     .addPassthroughCopy("src/.well-known")
     .addPassthroughCopy("src/.htaccess")
     .addPassthroughCopy("src/manifest.webmanifest");
