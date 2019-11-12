@@ -6,7 +6,7 @@
     </h2>
     <ul class="comments__list">
       {% for comment in page.comments %}
-        {% assign avatar = comment.author.image | prepend : '/assets/avatars/' | prepend: site.url %}
+        {% set avatar = comment.author.image | prepend : '/assets/avatars/' | prepend: site.url %}
         <li id="{{ comment.id }}" class="comments__item{% if comment.author.name == 'Nicolas Hoizey' %} me{% endif %}">
           <article>
             <div class="comment__author p-author h-card">

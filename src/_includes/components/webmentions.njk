@@ -1,14 +1,14 @@
 {% asset "components/webmentions" @inline %}
 <aside>
-  {% capture webmentions_value %}{% webmention_count page.url %}
-  {% endcapture %}
-  {% assign webmentions_int = webmentions_value | plus : 0 %}
   <h2 id="webmentions">{{ webmentions_int }} Webmention{% if webmentions_int > 1 %}s{% endif %}
   </h2>
+  {% set webmentions_value %}{% webmention_count page.url %}{% endset %}
+  {% set webmentions_value = 0 %}
 
-  {% capture likes %}{% webmention_count page.url likes %}
-  {% endcapture %}
-  {% assign likes_int = likes | plus : 0 %}
+  {% set webmentions_int = webmentions_value | int %}
+  {% set likes %}{% webmention_count page.url likes %}{% endset %}
+  {% set likes = 0 %}
+  {% set likes_int = likes | int %}
   {% if likes_int > 0 %}
     <section>
       <h3>{{ likes }} like{% if likes_int > 1 %}s{% endif %}
@@ -17,9 +17,9 @@
     </section>
   {% endif %}
 
-  {% capture reposts %}{% webmention_count page.url reposts %}
-  {% endcapture %}
-  {% assign reposts_int = reposts | plus : 0 %}
+  {% set reposts %}{% webmention_count page.url reposts %}{% endset %}
+  {% set reposts = 0 %}
+  {% set reposts_int = reposts | int %}
   {% if reposts_int > 0 %}
     <section>
       <h3>{{ reposts }} repost{% if reposts_int > 1 %}s{% endif %}

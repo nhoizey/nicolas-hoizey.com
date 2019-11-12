@@ -4,9 +4,9 @@ layout: default
 
 {% asset "components/archives" @inline %}
 
-{% assign this_year = page.date | date : "%Y" | plus : 0 %}
-{% assign max_year = site.time | date : "%Y" | plus : 0 %}
-{% capture yearsNavigation %}
+{% set this_year = page.date | date : "%Y" | plus : 0 %}
+{% set max_year = site.time | date : "%Y" | plus : 0 %}
+{% set yearsNavigation %}
   <p class="previous">
     {% if this_year > 2001 %}
       <a href="/{{ this_year | minus: 1 }}/">«&nbsp;{{ this_year | minus: 1 }}</a>
@@ -21,7 +21,7 @@ layout: default
       <span title="Not yet!">{{ this_year | plus: 1 }}&nbsp;»</span>
     {% endif %}
   </p>
-{% endcapture %}
+{% endset %}
 
 <div class="years">
   {{ yearsNavigation }}
@@ -29,10 +29,10 @@ layout: default
     <span class="label">Articles from </span>{{ page.date | date: "%Y" }}</h1>
 </div>
 
-{% assign month = "" %}
+{% set month = "" %}
 {% for post in page.posts %}
-  {% unless post.categories contains 'links' %}
-    {% assign post_month = post.date | date : "%m" %}
+  {% unless 'links' in post.categories %}
+    {% set post_month = post.date | date : "%m" %}
     {% if post_month != month %}
       {% if month != "" %}
     </ul>
@@ -40,7 +40,7 @@ layout: default
   <h2 class="list__title">{{ post.date | date: "%B" | capitalize }}
     {{ page.date | date: "%Y" }}</h2>
   <ul class="list">
-    {% assign month = post_month %}
+    {% set month = post_month %}
   {% endif %}
   <li class="list__item list__item--large">
     <div class="card card--article">

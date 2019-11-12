@@ -12,8 +12,8 @@ title: Every character
     {% include post-meta.njk page=post %}
     {{ post.content }}
   {% endcapture %}
-  {% capture new_every_char %}{{ every_char }}{{ post_chars | strip_html | split: "" | uniq | join: "" }}
+  {% capture new_every_char %}{{ every_char }}{{ post_chars | striptags | split: "" | uniq | join: "" }}
   {% endcapture %}
   {% assign every_char = new_every_char %}
 {% endfor %}
-{{ every_char | strip_html | split: "" | uniq | sort | join: "" }}
+{{ every_char | striptags | split: "" | uniq | sort | join: "" }}

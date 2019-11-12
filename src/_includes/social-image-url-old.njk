@@ -1,27 +1,27 @@
-{%- assign image_width = include.width -%}
-{%- assign image_height = include.height -%}
-{%- assign avatar = "https://nicolas-hoizey.com/assets/photo-de-nicolas-hoizey.jpg" -%}
-{%- assign twitter_logo = "https://nicolas-hoizey.com/assets/logos/twitter.png" -%}
+{%- set image_width = include.width -%}
+{%- set image_height = include.height -%}
+{%- set avatar = "https://nicolas-hoizey.com/assets/photo-de-nicolas-hoizey.jpg" -%}
+{%- set twitter_logo = "https://nicolas-hoizey.com/assets/logos/twitter.png" -%}
 {%- comment -%} Get the first image in the page {%- endcomment -%}
 {%- if include.page.poster -%}
   {%- capture image -%}{{ site.url }}{{ include.page.url | url_path }}{{ include.page.poster }}{%- endcapture -%}
 {%- else -%}
   {%- comment -%} Get the first image in the page {%- endcomment -%}
-  {%- capture image -%}{%- include first-image-src.html page=include.page -%}{%- endcapture -%}
-  {%- comment -%}{%- assign image = include.page.content | first_image -%}{%- endcomment -%}
+  {%- capture image -%}{% include first-image-src.njk page=include.page -%}{%- endcapture %}
+  {%- comment -%}{%- set image = include.page.content | first_image -%}{%- endcomment -%}
 {%- endif -%}
 {%- if image == "" -%}
-  {%- assign image = site.url | append:'/assets/degrade.png' -%}
+  {%- set image = site.url + '/assets/degrade.png' -%}
 {%- endif -%}
 {%- if include.page.title == 'Accueil' -%}
-  {%- assign title = site.description -%}
-{%- elsif include.page.title == 'Recherche' -%}
-  {%- assign title = 'Search powered by Algolia' -%}
-{%- elsif include.page.layout == 'link' -%}
-  {%- capture title -%}{{ include.page.content | strip_html | truncatewords: 30 | truncate: 160 | strip_newlines | escape_once }}{%- endcapture -%}{%- else -%}
-  {%- assign title = include.page.title -%}
+  {%- set title = site.description -%}
+{%- elif include.page.title == 'Recherche' -%}
+  {%- set title = 'Search powered by Algolia' -%}
+{%- elif include.page.layout == 'link' -%}
+  {%- capture title -%}{{ include.page.content | striptags | truncate(160) | escape }}{%- endcapture -%}{%- else -%}
+  {%- set title = include.page.title -%}
 {%- endif -%}
-{%- assign title = title | url_escape | replace: ' ', '%20' | replace: '.', '%2e' | replace: ',', '%252C' | replace: ':', '%253A' | replace: '/', '%252F' | replace: "'", '%E2%80%99' | replace: '?', '%3F' | replace: '#', '%23' -%}
+{%- set title = title | urlencode | replace(' ', '%20') | replace('.', '%2e') | replace(',', '%252C') | replace(':', '%253A') | replace('/', '%252F') | replace("'", '%E2%80%99') | replace('?', '%3F') | replace('#', '%23') -%}
 {%- capture background_image -%}e_blur:2000,c_crop,ar_{{ image_width }}:{{ image_height }},b_white/e_grayscale/e_tint:75:41206b:0p:b491df:100p/w_{{ image_width }}/l_fetch:{{ image | base64_encode }},h_1.0,w_1.0,fl_relative,c_limit/e_grayscale/e_tint:75:41206b:0p:b491df:100p{%- endcapture -%}
 {%- capture color_overlay -%}b_rgb:3d2e68,o_80{%- endcapture -%}
 {%- capture title_with_shadow -%}w_{{ image_width | minus: 80 }},c_fit,l_text:georgia_60:{{ title }},g_north_west,x_42,y_42,co_black,o_50/w_{{ image_width | minus: 80 }},c_fit,l_text:georgia_60:{{ title }},g_north_west,x_40,y_40,co_white{%- endcapture -%}

@@ -14,11 +14,11 @@ layout: default
   <em>{{ page.tag }}</em>
 </h1>
 
-{% capture tag_description_path %}tags/{{ page.tag | slugify }}.md
-{% endcapture %}
-{% capture tag_description %}
+{% set tag_description_path %}tags/{{ page.tag | slugify }}.md
+{% endset %}
+{% set tag_description %}
   {% file_exists {{ tag_description_path }} %}
-{% endcapture %}
+{% endset %}
 {% if tag_description == "true" %}
   <div class="intro">{% markdown {{ tag_description_path }} %}</div>
 {% endif %}

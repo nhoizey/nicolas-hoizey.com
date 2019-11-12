@@ -12,9 +12,10 @@
     <li class="tags card__meta__item card__tags">
       <svg class="icon"><use xlink:href="#symbol-tags" /></svg>&nbsp;{{ include.page | tags | tags_microformat }}
     </li>
-    {% capture webmention_count_value %}{% webmention_count include.page.url %}
-    {% endcapture %}
-    {% assign webmention_count_int = webmention_count_value | strip_html | plus: 0 %}
+    {#
+    {% set webmention_count_value %}{% webmention_count include.page.url %}
+    {% endset %}
+    {% set webmention_count_int = webmention_count_value | striptags | int %}
     {% if webmention_count_int > 0 %}
       <li class="webmentions card__meta__item card__webmentionscount">
         <svg class="icon"><use xlink:href="#symbol-webmentions" /></svg>

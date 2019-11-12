@@ -47,22 +47,22 @@ Responsive pagination
     {% endif %}
 
     {% comment %} Ellipsis for when some link are hidden, on small screens {% endcomment %}
-    {% assign ellipsis = paginator.page | minus: 1 %}
+    {% set ellipsis = paginator.page | minus: 1 %}
     {% if ellipsis > 0 and ellipsis < 4 %}
       <li class="ellipsis{{ ellipsis }}">…</li>
     {% endif %}
 
-    {% assign page_start = 2 %}
+    {% set page_start = 2 %}
     {% if paginator.page > 4 %}
-      {% assign page_start = paginator.page | minus: 2 %}
       {% comment %} Ellipsis for missing links {% endcomment %}
+      {% set page_start = paginator.page | minus: 2 %}
       <li class="disabled">…</li>
     {% endif %}
 
-    {% assign page_end = paginator.total_pages | minus: 1 %}
-    {% assign pages_to_end = paginator.total_pages | minus: paginator.page %}
+    {% set page_end = paginator.total_pages | minus: 1 %}
+    {% set pages_to_end = paginator.total_pages | minus: paginator.page %}
     {% if pages_to_end > 4 %}
-      {% assign page_end = paginator.page | plus: 2 %}
+      {% set page_end = paginator.page | plus: 2 %}
     {% endif %}
 
     {% for index in (page_start..page_end) %}
@@ -70,10 +70,10 @@ Responsive pagination
         <li><strong>{{index}}</strong></li>
       {% else %}
         {% comment %} "Distance" from current page and this link {% endcomment %}
-        {% assign dist = paginator.page | minus: index %}
+        {% set dist = paginator.page | minus: index %}
         {% if dist < 0 %}
           {% comment %} "Distance" must be a positive value {% endcomment %}
-          {% assign dist = 0 | minus: dist %}
+          {% set dist = 0 | minus: dist %}
         {% endif %}
         <li class="dist{{dist}}"><a href="/page-{{index}}/">{{index}}</a></li>
       {% endif %}
@@ -85,7 +85,7 @@ Responsive pagination
     {% endif %}
 
     {% comment %} Ellipsis for when some link are hidden, on small screens {% endcomment %}
-    {% assign ellipsis = paginator.total_pages | minus: paginator.page %}
+    {% set ellipsis = paginator.total_pages | minus: paginator.page %}
     {% if ellipsis > 0 and ellipsis < 4 %}
       <li class="ellipsis{{ ellipsis }}">…</li>
     {% endif %}

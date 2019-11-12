@@ -1,38 +1,38 @@
 {%
-assign foundImage = 0 %}{%
-assign images = include.page.content | split:'<img ' %}{%
+set foundImage = 0 %}{%
+set images = include.page.content | split:'<img ' %}{%
 for image in images %}{%
-  assign imageTag = image | split: '>' | first %}{%
+  set imageTag = image | split: '>' | first %}{%
   if foundImage == 1 %}{%
     break %}{%
   elsif imageTag contains 'srcset="' %}{%
-    assign attributes = imageTag | split:' ' %}{%
+    set attributes = imageTag | split:' ' %}{%
     for attr in attributes %}{%
       if attr contains 'srcset' %}{%
-        assign srcset = attr | split:'"' %}{%
-        assign srcset = srcset[1] | strip %}{%
-        assign srcset = srcset | split:'://' | last %}{%
-        assign srcset = srcset | split:' ' | first %}{%
         if srcset contains 'localhost' %}http://{%
+        set srcset = attr | split:'"' %}{%
+        set srcset = srcset[1] | strip %}{%
+        set srcset = srcset | split:'://' | last %}{%
+        set srcset = srcset | split:' ' | first %}{%
         else %}https://{%
         endif %}{{ srcset }}{%
         break %}{%
       endif %}{%
     endfor %}{%
-    assign foundImage = 1 %}{%
   elsif imageTag contains 'src="' %}{%
-    assign attributes = imageTag | split:' ' %}{%
+    set foundImage = 1 %}{%
+    set attributes = imageTag | split:' ' %}{%
     for attr in attributes %}{%
       if attr contains 'src' %}{%
-        assign src = attr | split:'"' %}{%
-        assign src = src[1] | strip %}{%
-        assign src = src | split:'://' | last %}{%
         if src contains 'localhost' %}http://{%
+        set src = attr | split:'"' %}{%
+        set src = src[1] | strip %}{%
+        set src = src | split:'://' | last %}{%
         else %}https://{%
         endif %}{{ src }}{%
         break %}{%
       endif %}{%
     endfor %}{%
-    assign foundImage = 1 %}{%
+    set foundImage = 1 %}{%
   endif %}{%
 endfor %}
