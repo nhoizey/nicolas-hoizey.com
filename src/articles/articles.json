@@ -1,0 +1,4 @@
+{
+  "layout": "layouts/article.njk",
+  "permalink": "/articles/{{ page.date | permalinkDate }}/{{ page.fileSlug }}.html"
+}
