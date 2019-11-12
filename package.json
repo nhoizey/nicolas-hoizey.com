@@ -1,0 +1,42 @@
+{
+  "name": "nicolas-hoizey.com",
+  "version": "0.0.1",
+  "description": "nicolas-hoizey.com with Eleventy, based on https://github.com/vseventer/eleventy-parcel-boilerplate",
+  "author": {
+    "name": "Nicolas Hoizey",
+    "email": "nicolas@hoizey.com",
+    "url": "https://nicolas-hoizey.com/"
+  },
+  "license": "MIT",
+  "browserslist": "defaults",
+  "homepage": "http://localhost:8080",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nhoizey/nicolas-hoizey.com"
+  },
+  "config": {
+    "input": "src/",
+    "intermediate": "tmp/",
+    "output": "dist/"
+  },
+  "scripts": {
+    "build": "npx eleventy",
+    "watch": "npx eleventy --watch",
+    "debug": "DEBUG=* npx eleventy"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^0.9.0",
+    "@11ty/eleventy-plugin-rss": "^1.0.7",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3",
+    "luxon": "^1.12.0",
+    "@sindresorhus/slugify": "~0.9",
+    "markdown-it": "~10.0",
+    "markdown-it-anchor": "~5.2",
+    "markdown-it-container": "~2.0"
+  },
+  "engines": {
+    "node": ">=8.16"
+  },
+  "private": true
+}
