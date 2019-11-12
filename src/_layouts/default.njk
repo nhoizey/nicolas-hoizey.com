@@ -1,14 +1,11 @@
----
-layout: microtypo.njk
----
 <!DOCTYPE html>
 <html lang="en">
 
-  {% include head.html %}
+  {% include head.njk %}
 
   <body itemscope itemtype="https://schema.org/{% if page.path contains " about/" %}aboutpage{% else %}webpage{% endif %}" class="{%- include current-type.html -%}">
 
-    {% include_cached components/svg-sprite.html %}
+    {% include components/svg-sprite.njk %}
 
     <a class="sr-only" href="#main">Jump to main content</a>
 
@@ -26,14 +23,14 @@ layout: microtypo.njk
             <a class="h-card" href="/" rel="me" title="Homepage">Nicolas Hoizey</a>
           </p>
         {% endif %}
-        {% include_cached components/search-form.html %}
+        {% include components/search-form.njk %}
       </div>
     </header>
 
-    {% include components/navigation.html %}
+    {% include components/navigation.njk %}
 
     {% if page.url == "/" or page.url == "/index.html" %}
-      {% include_cached components/intro.html %}
+      {% include components/intro.njk %}
     {% endif %}
 
     <main id="main" role="main">
@@ -47,7 +44,7 @@ layout: microtypo.njk
       </div>
     </div>
 
-    {% include_cached components/footer.html %}
+    {% include components/footer.njk %}
 
     {% asset "toast" %}
     {% asset "behaviors" defer %}
