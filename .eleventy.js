@@ -16,6 +16,10 @@ module.exports = function (eleventyConfig) {
   const ordinal = require("./src/_filters/ordinal.js");
   eleventyConfig.addFilter("ordinal", ordinal);
 
+  eleventyConfig.addFilter("split", function (string, separator) {
+    return string.split(separator);
+  });
+
   // ------------------------------------------------------------------------
   // Shortcodes
   // ------------------------------------------------------------------------

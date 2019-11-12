@@ -1,5 +1,5 @@
-{%- assign current = page.url | replace:'/',' ' | truncatewords: 1,"" -%}
-{%- assign firstChar = current | truncate: 1, "" -%}
+{%- set current = page.url | split('/') | first -%}
+{%- set firstChar = current | truncate(1, true, "") -%}
 {%- if page.title == "Homepage" -%}
   {%- assign current = "homepage" -%}
 {%- endif -%}
