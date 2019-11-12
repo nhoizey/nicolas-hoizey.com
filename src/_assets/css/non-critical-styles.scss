@@ -2,6 +2,11 @@
 @import "rve";
 @import "highlight/one-dark-vivid";
 @import "components/toast";
+@import "components/header";
+@import "components/search";
+@import "components/navigation";
+@import "components/link";
+@import "components/webmentions";
 
 // File link icons
 a[href$=".zip"],
