@@ -5,8 +5,8 @@
     </li>
     <li class="date card__meta__item card__date">
       <svg class="icon"><use xlink:href="#symbol-date" /></svg>
-      <time class="dt-published" datetime="{{ link.date | date("%Y-%m-%d %H:%M:%S") }}">
-        {{ link.date | date("%B") }} {{ link.date | ordinal }}, {{ link.date | date("%Y") }}
+      <time class="dt-published" datetime="{{ link.date | attributeDate }}">
+        {{ link.date | date("Do MMMM YYYY") }}
       </time>
     </li>
     <li class="tags card__meta__item card__tags">
