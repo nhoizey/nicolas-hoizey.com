@@ -1,4 +1,4 @@
-{% comment %}
+{#
 Responsive pagination
 
   1 2 3 … 38 ▶
@@ -24,11 +24,11 @@ Responsive pagination
              ^
 ◀ 1 … 36 37 38
              ^
-{% endcomment %}
+#}
 
 {% if paginator.total_pages > 1 %}
   <ul class="pagination">
-    {% comment %} Left arrow for previous page {% endcomment %}
+    {# Left arrow for previous page #}
     {% if paginator.previous_page %}
       {% if paginator.previous_page == 1 %}
         <li class="prev"><a href="/">&lt;</a></li>
@@ -39,14 +39,14 @@ Responsive pagination
       <li class="prev disabled">&lt;</li>
     {% endif %}
 
-    {% comment %} First page {% endcomment %}
+    {# First page #}
     {% if paginator.page == 1 %}
       <li><strong>1</strong></li>
     {% else %}
       <li class="extreme"><a href="/">1</a></li>
     {% endif %}
 
-    {% comment %} Ellipsis for when some link are hidden, on small screens {% endcomment %}
+    {# Ellipsis for when some link are hidden, on small screens #}
     {% set ellipsis = paginator.page | minus: 1 %}
     {% if ellipsis > 0 and ellipsis < 4 %}
       <li class="ellipsis{{ ellipsis }}">…</li>
@@ -54,8 +54,8 @@ Responsive pagination
 
     {% set page_start = 2 %}
     {% if paginator.page > 4 %}
-      {% comment %} Ellipsis for missing links {% endcomment %}
       {% set page_start = paginator.page | minus: 2 %}
+      {# Ellipsis for missing links #}
       <li class="disabled">…</li>
     {% endif %}
 
@@ -69,22 +69,22 @@ Responsive pagination
       {% if index == paginator.page %}
         <li><strong>{{index}}</strong></li>
       {% else %}
-        {% comment %} "Distance" from current page and this link {% endcomment %}
+        {# "Distance" from current page and this link #}
         {% set dist = paginator.page | minus: index %}
         {% if dist < 0 %}
-          {% comment %} "Distance" must be a positive value {% endcomment %}
+          {# "Distance" must be a positive value #}
           {% set dist = 0 | minus: dist %}
         {% endif %}
         <li class="dist{{dist}}"><a href="/page-{{index}}/">{{index}}</a></li>
       {% endif %}
     {% endfor %}
 
-    {% comment %} Ellipsis for missing links {% endcomment %}
+    {# Ellipsis for missing links #}
     {% if pages_to_end > 3 %}
       <li class="disabled">…</li>
     {% endif %}
 
-    {% comment %} Ellipsis for when some link are hidden, on small screens {% endcomment %}
+    {# Ellipsis for when some link are hidden, on small screens #}
     {% set ellipsis = paginator.total_pages | minus: paginator.page %}
     {% if ellipsis > 0 and ellipsis < 4 %}
       <li class="ellipsis{{ ellipsis }}">…</li>
@@ -96,9 +96,9 @@ Responsive pagination
       <li class="extreme"><a href="/page-{{paginator.total_pages}}/">{{paginator.total_pages}}</a></li>
     {% endif %}
 
-    {% comment %}
+    {#
       Right arrow for next page
-    {% endcomment %}
+    #}
     {% if paginator.next_page %}
       <li class="next"><a href="/page-{{paginator.next_page}}/">&gt;</a></li>
     {% else %}

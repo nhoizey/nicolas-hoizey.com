@@ -1,20 +1,20 @@
 <head{% if page.title == "Accueil" %} itemscope itemtype="https://schema.org/WebSite"{% endif %}>
-  {% comment %}
+  {#
   charset and viewport first: https://www.nateberkopec.com/2015/10/21/hacking-head-tags-for-speed-and-profit.html
-  {% endcomment %}
+  #}
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 
-  {% comment %} preload main font {% endcomment %}
-  {% comment %}
+  {# preload main font #}
+  {#
   Not a good idea after all:
   https://twitter.com/csswizardry/status/1180810824862064646
   <link rel="preload" href="/assets/fonts/notoserif-regular-subset.woff2" as="font" type="font/woff2" crossorigin />
-  {% endcomment %}
+  #}
 
   {% include assets.njk %}
 
-  {% comment %} Google Analytics {% endcomment %}
+  {# Google Analytics #}
   {% if jekyll.environment == "production" %}
     <script>
       window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
@@ -32,13 +32,13 @@
     <script src="https://www.google-analytics.com/analytics.js" async defer></script>
   {% endif %}
 
-  {% comment %} opengraph and Twitter {% endcomment %}
+  {# opengraph and Twitter #}
   <meta property="og:site_name" content="Nicolas Hoizey" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:creator" content="@nhoizey" />
   <meta name="twitter:site" content="@nhoizey" />
 
-  {% comment %} https://dev.twitter.com/web/overview/widgets-webpage-properties#csp {% endcomment %}
+  {# https://dev.twitter.com/web/overview/widgets-webpage-properties#csp #}
   <meta name="twitter:widgets:csp" content="on" />
 
   {% set type = "website" %}
@@ -93,11 +93,11 @@
     {% endfor %}
   {% endif %}
 
-  {% comment %}
+  {#
   https://developers.facebook.com/docs/sharing/best-practices?locale=fr_FR#images
   https://developers.facebook.com/tools/debug/sharing/
-  {% endcomment %}
   <meta property="og:image" content="{% include social-image-url.njk page=page %}?{{ site.time | date: '%Y%m%d%H%M%S' }}" />
+  #}
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
 
@@ -106,36 +106,36 @@
   <link rel="alternate" type="application/rss+xml" title="Feed for all content" href="/feeds/all.xml" />
   <link rel="icon" type="image/jpeg" href="/favicon.jpg" />
 
-  {% comment %} webmentions with webmention.io {% endcomment %}
+  {# webmentions with webmention.io #}
   <link rel="pingback" href="https://webmention.io/nicolas-hoizey.com/xmlrpc" />
   <link rel="webmention" href="https://webmention.io/nicolas-hoizey.com/webmention" />
 
-  {% comment %} iOS features {% endcomment %}
+  {# iOS features #}
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   <link rel="apple-touch-icon" href="/favicon.jpg" />
   <meta name="apple-mobile-web-app-title" content="N. Hoizey" />
-  {% comment %} https://timkadlec.com/remembers/2018-06-06-web-watch/ {% endcomment %}
+  {# https://timkadlec.com/remembers/2018-06-06-web-watch/ #}
   <meta name="disabled-adaptations" content="watch" />
 
-  {% comment %} Theme color: https://developers.google.com/web/updates/2014/11/Support-for-theme-color-in-Chrome-39-for-Android {% endcomment %}
+  {# Theme color: https://developers.google.com/web/updates/2014/11/Support-for-theme-color-in-Chrome-39-for-Android #}
   <meta name="theme-color" content="#663399">
 
-  {% comment %} web app manifest {% endcomment %}
+  {# web app manifest #}
   <link rel="manifest" href="/manifest.webmanifest" />
 
-  {% comment %} web monetization {% endcomment %}
+  {# web monetization #}
   <meta name="monetization" content="$pay.stronghold.co/1a11f116e6212d447579ba86556c8570ee4" />
 
-  {% comment %} rel-me (should be in visible links) {% endcomment %}
+  {# rel-me (should be in visible links) #}
   <link rel="me" href="https://twitter.com/nhoizey" />
   <link rel="me" href="https://twitter.com/nice_links" />
   <link rel="me" href="https://github.com/nhoizey" />
 
-  {% comment %} http://microformats.org/wiki/source-brainstorming {% endcomment %}
+  {# http://microformats.org/wiki/source-brainstorming #}
   <link href="https://github.com/nhoizey/nicolas-hoizey.com" rel="source" />
 
-  {% comment %} Algolia settings {% endcomment %}
+  {# Algolia settings #}
   <script>
   var algoliaApplicationId = '{{ site.algolia.application_id }}';
   var algoliaApiKey = '{{ site.algolia.read_only_api_key }}';
