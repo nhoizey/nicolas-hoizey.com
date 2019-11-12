@@ -10,6 +10,8 @@ module.exports = function (eleventyConfig) {
   const permalinkDate = require("./src/_filters/permalinkDate.js");
   eleventyConfig.addFilter("permalinkDate", permalinkDate);
 
+  const markdownItFootnote = require("markdown-it-footnote");
+      .use(markdownItFootnote)
   eleventyConfig
     .addPassthroughCopy("src/assets")
     .addPassthroughCopy("src/.well-known")
