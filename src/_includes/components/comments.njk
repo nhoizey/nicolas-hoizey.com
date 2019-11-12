@@ -27,7 +27,7 @@
             </div>
             <div class="comment__meta">
               <a href="#{{ comment.id }}">
-                <time class="comment__pubdate dt-published" datetime="{{ comment.date | date_to_xmlschema }}">{{ comment.date | date: '%e %B %Y' }}</time>
+                <time class="comment__pubdate dt-published" datetime="{{ comment.date | attributeDate }}">{{ comment.date | date: '%e %B %Y' }}</time>
               </a>
             </div>
           </article>

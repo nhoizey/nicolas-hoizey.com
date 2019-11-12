@@ -8,7 +8,7 @@ layout: null
   <link href="{{ site.url }}/feeds/articles.xml" rel="self"/>
   <link href="{{ site.url }}/?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
   <link rel="hub" href="http://pubsubhubbub.superfeedr.com/" />
-  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <updated>{{ site.time | attributeDate }}</updated>
   <id>{{ site.url }}/articles/</id>
   <author>
     <name>{{ site.author }}</name>
@@ -22,7 +22,7 @@ layout: null
         <entry>
           <title>{{ post.title }}</title>
           <link href="{{ site.url }}{{ post.url }}?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
-          <updated>{{ post.date | date_to_xmlschema }}</updated>
+          <updated>{{ post.date | attributeDate }}</updated>
           <id>{{ site.url }}{{ post.id }}</id>
           <content type="html">{{ post.content | xml_escape }}</content>
         </entry>

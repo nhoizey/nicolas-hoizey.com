@@ -10,6 +10,9 @@ module.exports = function (eleventyConfig) {
   const permalinkDate = require("./src/_filters/permalinkDate.js");
   eleventyConfig.addFilter("permalinkDate", permalinkDate);
 
+  const attributeDate = require("./src/_filters/attributeDate.js");
+  eleventyConfig.addFilter("attributeDate", attributeDate);
+
   // ------------------------------------------------------------------------
   // Shortcodes
   // ------------------------------------------------------------------------

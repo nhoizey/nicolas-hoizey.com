@@ -6,7 +6,7 @@ layout: null
   <title>Nicolas Hoizey's articles</title>
   <link href="{{ site.url }}/feeds/posts-facebook.xml" rel="self"  type="application/rss+xml" />
   <link href="{{ site.url }}/?utm_medium=social&amp;utm_source=Facebook&amp;utm_campaign=feed" />
-  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <updated>{{ site.time | attributeDate }}</updated>
   <id>{{ site.url }}/</id>
   <author>
     <name>{{ site.author }}</name>
@@ -23,7 +23,7 @@ layout: null
     </content>
     <id>{{ site.url }}{{ post.id }}</id>
     <link href="{{ site.url }}{{ post.url }}?utm_medium=social&amp;utm_source=Facebook&amp;utm_campaign=feed"/>
-    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <updated>{{ post.date | attributeDate }}</updated>
   </entry>
   {% endfor %}
 </feed>

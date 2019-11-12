@@ -7,7 +7,7 @@ layout: null
   <title>Nicolas Hoizey - Links</title>
   <link href="{{ site.url }}/feeds/links.xml" rel="self"/>
   <link href="{{ site.url }}/links/?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
-  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <updated>{{ site.time | attributeDate }}</updated>
   <id>{{ site.url }}/links/</id>
   <author>
     <name>{{ site.author }}</name>
@@ -23,7 +23,7 @@ layout: null
   <entry>
     <link href="{{ site.url }}{{ link.url }}?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
     <title>{{ link.title }}</title>
-    <updated>{{ link.date | date_to_xmlschema }}</updated>
+    <updated>{{ link.date | attributeDate }}</updated>
     <id>{{ site.url }}{{ link.id }}</id>
     <content type="html">
       &lt;p&gt;{% if link.author %}{{ link.author }}&lt;br /&gt;{% endif %}

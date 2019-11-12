@@ -6,7 +6,7 @@ layout: null
   <title>Nicolas Hoizey's links</title>
   <link href="{{ site.url }}/feeds/links-twitter.xml" rel="self" type="application/rss+xml" />
   <link href="{{ site.url }}/?utm_medium=social&amp;utm_source=Twitter&amp;utm_campaign=feed" />
-  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <updated>{{ site.time | attributeDate }}</updated>
   <id>{{ site.url }}/links/</id>
   <author>
     <name>{{ site.author }}</name>
@@ -47,7 +47,7 @@ layout: null
     <content>{{ tweet | xml_escape }}</content>
     <id>{{ posse_url }}</id>
     <link href="https://res.cloudinary.com/nho/image/fetch/c_fill,f_png,q_auto,w_600,h_400/http://image.thum.io/get/width/1200/crop/800/noanimate/{{ link.link }}"/>
-    <updated>{{ link.date | date_to_xmlschema }}</updated>
+    <updated>{{ link.date | attributeDate }}</updated>
   </entry>
     {% endif %}
   {% endfor %}

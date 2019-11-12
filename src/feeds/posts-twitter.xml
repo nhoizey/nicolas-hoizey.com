@@ -6,7 +6,7 @@ layout: null
   <title>Nicolas Hoizey's articles</title>
   <link href="{{ site.url }}/feeds/posts-twitter.xml" rel="self" type="application/rss+xml" />
   <link href="{{ site.url }}/?utm_medium=social&amp;utm_source=Twitter&amp;utm_campaign=feed" />
-  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <updated>{{ site.time | attributeDate }}</updated>
   <id>{{ site.url }}/</id>
   <author>
     <name>{{ site.author }}</name>
@@ -46,7 +46,7 @@ layout: null
     <content type="html">{{ tweet | xml_escape }}</content>
     <id>{{ site.url }}{{ post.id }}</id>
     <link href="{{ posse_url }}"/>
-    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <updated>{{ post.date | attributeDate }}</updated>
   </entry>
   {% endfor %}
 </feed>

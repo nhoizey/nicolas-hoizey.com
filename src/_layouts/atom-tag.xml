@@ -6,7 +6,7 @@ layout: null
  <title>{{ site.title }} - {{ page.tag }}</title>
  <link href="{{ site.url }}{{ page.url }}" rel="self"/>
  <link href="{{ site.url }}/tag/{{ page.tag }}.html"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <updated>{{ site.time | attributeDate }}</updated>
  <id>{{ site.url }}/tag/{{ page.tag }}.html</id>
  <author>
    <name>{{ site.author.name }}</name>
@@ -16,7 +16,7 @@ layout: null
  <entry>
    <title>{{ post.title }}</title>
    <link href="{{ site.url }}{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <updated>{{ post.date | attributeDate }}</updated>
    <id>{{ site.url }}{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
