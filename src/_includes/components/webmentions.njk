@@ -1,16 +1,17 @@
 <aside>
-  <h2 id="webmentions">{{ webmentions_int }} Webmention{% if webmentions_int > 1 %}s{% endif %}
-  </h2>
   {#
   {% set webmentions_value %}{% webmention_count page.url %}{% endset %}
   #}
   {% set webmentions_value = 0 %}
 
   {% set webmentions_int = webmentions_value | int %}
+  <h2 id="webmentions">{{ webmentions_int }} Webmention{% if webmentions_int > 1 %}s{% endif %}</h2>
+
   {#
   {% set likes %}{% webmention_count page.url likes %}{% endset %}
   #}
   {% set likes = 0 %}
+
   {% set likes_int = likes | int %}
   {% if likes_int > 0 %}
     <section>
@@ -26,6 +27,7 @@
   {% set reposts %}{% webmention_count page.url reposts %}{% endset %}
   #}
   {% set reposts = 0 %}
+
   {% set reposts_int = reposts | int %}
   {% if reposts_int > 0 %}
     <section>
