@@ -46,7 +46,7 @@ JSON-LD for:
 
 <h2>Latest links</h2>
 <ul class="list">
-  {% for link in collections.links | limit(6) %}
+  {% for link in collections.links | reverse | limit(6) %}
     <li class="list__item">
       <div class="card card--link h-entry">
         {% include "components/link-card.njk" %}
