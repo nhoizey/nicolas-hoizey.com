@@ -5,26 +5,26 @@
     </li>
     <li class="date card__meta__item card__date">
       <svg class="icon"><use xlink:href="#symbol-date" /></svg>
-      <time class="dt-published" datetime="{{ include.page.date | date("%Y-%m-%d %H:%M:%S") }}">
-        {{ include.page.date | date("%B") }} {{ include.page.date | ordinal }}, {{ include.page.date | date("%Y") }}
+      <time class="dt-published" datetime="{{ link.date | date("%Y-%m-%d %H:%M:%S") }}">
+        {{ link.date | date("%B") }} {{ link.date | ordinal }}, {{ link.date | date("%Y") }}
       </time>
     </li>
     <li class="tags card__meta__item card__tags">
       <svg class="icon"><use xlink:href="#symbol-tags" /></svg>&nbsp;
       {% set comma = joiner(", ") %}
-      {% for tag in page.tags %}
+      {% for tag in link.tags %}
         {{ comma() }}
         <a rel="tag" class="p-category">{{ tag }}</a>
       {% endfor %}
     </li>
     {#
-    {% set webmention_count_value %}{% webmention_count include.page.url %}
+    {% set webmention_count_value %}{% webmention_count link.url %}
     {% endset %}
     {% set webmention_count_int = webmention_count_value | striptags | int %}
     {% if webmention_count_int > 0 %}
       <li class="webmentions card__meta__item card__webmentionscount">
         <svg class="icon"><use xlink:href="#symbol-webmentions" /></svg>
-        <a href="{{ include.page.url }}#webmentions">{{ webmention_count_int }} webmention{% if webmention_count_int > 1 %}s{% endif %}
+        <a href="{{ link.url }}#webmentions">{{ webmention_count_int }} webmention{% if webmention_count_int > 1 %}s{% endif %}
         </a>
       </li>
     {% endif %}
