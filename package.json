@@ -30,6 +30,7 @@
     "@11ty/eleventy": "^0.9.0",
     "@11ty/eleventy-plugin-rss": "^1.0.7",
     "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3",
+    "eleventy-plugin-respimg": "file:../_eleventy_plugins/eleventy-respimg",
     "luxon": "^1.12.0",
     "@sindresorhus/slugify": "~0.9",
     "markdown-it": "~10.0",

@@ -13,4 +13,4 @@ Tinnitus Tracker is [the live music diary of Rob Weychert](https://v6.robweycher
 
 Here's the result for every punk shows Rob attended:
 
-{% cloudinary tinnitus-tracker.png alt="Punk shows on Tinnitus Tracker" %}
+{% respimg "tinnitus-tracker.png", "Punk shows on Tinnitus Tracker" %}

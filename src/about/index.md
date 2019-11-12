@@ -4,7 +4,11 @@ layout: page
 lang: en
 ---
 
-{% cloudinary onefourth /assets/photo-de-nicolas-hoizey.jpg alt="Portrait of Nicolas Hoizey" %}
+{% respimg
+  "/assets/photo-de-nicolas-hoizey.jpg",
+  "Portrait of Nicolas Hoizey",
+  respimg_presets.logo.sizes
+  %}
 I am passionate about **the Web and photography**, among many other interests.
 
 *If you're more interested in technical stuff, you can learn more [about this website](/about/the-website.html).*
