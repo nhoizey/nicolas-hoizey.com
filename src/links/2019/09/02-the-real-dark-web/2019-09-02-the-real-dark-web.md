@@ -1,5 +1,5 @@
 ---
-date: 2019-09-02 09:52:23 +0200
+date: 2019-09-02 09:52:23 +02:00
 title: "The Real Dark Web"
 lang: en
 link: https://www.sonniesedge.net/posts/real-dark-web/

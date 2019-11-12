@@ -1,5 +1,5 @@
 ---
-date: 2019-07-02 12:54:59 +0200
+date: 2019-07-02 12:54:59 +02:00
 title: "The importance of elegance"
 lang: en
 link: https://www.varvet.com/blog/the-importance-of-elegance/

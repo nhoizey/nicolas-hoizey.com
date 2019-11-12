@@ -1,5 +1,5 @@
 ---
-date: 2019-03-21 09:24:03 +0200
+date: 2019-03-21 09:24:03 +02:00
 title: "Sophisticated Partitioning with CSS Grid"
 lang: en
 link: https://v6.robweychert.com/blog/2019/03/css-grid-sophisticated-partitioning/

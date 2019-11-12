@@ -1,5 +1,5 @@
 ---
-date: 2019-02-20 12:46:17 +0200
+date: 2019-02-20 12:46:17 +02:00
 title: "Font sizing with rem could be avoided"
 lang: en
 link: https://csswizardry.com/2011/05/font-sizing-with-rem-could-be-avoided/

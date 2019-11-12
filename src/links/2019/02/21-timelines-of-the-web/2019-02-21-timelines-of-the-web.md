@@ -1,5 +1,5 @@
 ---
-date: 2019-02-21 17:07:37 +0200
+date: 2019-02-21 17:07:37 +02:00
 title: "Timelines of the web"
 lang: en
 link: https://adactio.com/journal/14827

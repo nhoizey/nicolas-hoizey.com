@@ -1,5 +1,5 @@
 ---
-date: 2019-02-20 12:41:41 +0200
+date: 2019-02-20 12:41:41 +02:00
 title: "How Browsers Work: Behind the scenes of modern web browsers"
 lang: en
 link: https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/

@@ -1,5 +1,5 @@
 ---
-date: 2019-03-21 16:25:03 +0200
+date: 2019-03-21 16:25:03 +02:00
 title: "Death to bullshit"
 lang: en
 link: http://bradfrost.com/blog/post/death-to-bullshit/

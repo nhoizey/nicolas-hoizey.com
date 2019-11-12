@@ -1,5 +1,5 @@
 ---
-date: 2019-07-12 16:49:21 +0200
+date: 2019-07-12 16:49:21 +02:00
 title: "Can I buy a phone that doesn’t use anything from Google or Apple?"
 lang: en
 link: https://www.theguardian.com/technology/askjack/2019/jul/04/can-i-buy-a-phone-that-does-not-use-anything-from-google-or-apple

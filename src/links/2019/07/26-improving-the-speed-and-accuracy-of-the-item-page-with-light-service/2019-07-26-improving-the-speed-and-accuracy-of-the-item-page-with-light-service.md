@@ -1,5 +1,5 @@
 ---
-date: 2019-07-26 08:50:48 +0200
+date: 2019-07-26 08:50:48 +02:00
 title: "Improving the Speed and Accuracy of the Item Page with Light Service"
 lang: en
 link: https://www.ebayinc.com/stories/blogs/tech/item-fast-light-service/

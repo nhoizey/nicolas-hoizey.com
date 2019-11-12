@@ -1,5 +1,5 @@
 ---
-date: 2019-08-29 14:24:42 +0200
+date: 2019-08-29 14:24:42 +02:00
 title: "I Visited 47 Sites. Hundreds of Trackers Followed Me."
 lang: en
 link: https://www.nytimes.com/interactive/2019/08/23/opinion/data-internet-privacy-tracking.html

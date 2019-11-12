@@ -1,5 +1,5 @@
 ---
-date: 2019-10-01 17:10:13 +0200
+date: 2019-10-01 17:10:13 +02:00
 title: "The Ultimate Guide to Not Fucking Up Push Notifications"
 lang: en
 link: https://stephaniewalter.design/blog/the-ultimate-guide-to-not-fck-up-push-notifications/

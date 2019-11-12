@@ -1,5 +1,5 @@
 ---
-date: 2019-07-30 14:46:05 +0200
+date: 2019-07-30 14:46:05 +02:00
 title: "Flexbox and padding"
 lang: en
 link: https://www.chenhuijing.com/blog/flexbox-and-padding/

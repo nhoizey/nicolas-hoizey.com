@@ -1,5 +1,5 @@
 ---
-date: 2019-10-07 09:57:58 +0200
+date: 2019-10-07 09:57:58 +02:00
 title: "ASPIRE: Ideals to Aspire to When Building Websites"
 lang: en
 link: https://www.filamentgroup.com/lab/aspire/

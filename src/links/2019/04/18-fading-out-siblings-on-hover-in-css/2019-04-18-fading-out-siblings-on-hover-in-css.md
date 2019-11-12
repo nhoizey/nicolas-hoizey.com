@@ -1,5 +1,5 @@
 ---
-date: 2019-04-18 23:07:10 +0200
+date: 2019-04-18 23:07:10 +02:00
 title: "Fading out siblings on hover in CSS"
 lang: en
 link: https://www.trysmudford.com/blog/fade-out-siblings-css-trick/

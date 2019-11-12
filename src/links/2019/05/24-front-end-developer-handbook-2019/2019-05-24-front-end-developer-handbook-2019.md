@@ -1,5 +1,5 @@
 ---
-date: 2019-05-24 14:52:05 +0200
+date: 2019-05-24 14:52:05 +02:00
 title: "Front-end Developer Handbook 2019"
 lang: en
 link: https://frontendmasters.com/books/front-end-handbook/2019/

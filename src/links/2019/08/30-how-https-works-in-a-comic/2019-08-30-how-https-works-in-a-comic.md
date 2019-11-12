@@ -1,5 +1,5 @@
 ---
-date: 2019-08-30 14:28:35 +0200
+date: 2019-08-30 14:28:35 +02:00
 title: "How HTTPS works… in a comic!"
 lang: en
 link: https://howhttps.works/

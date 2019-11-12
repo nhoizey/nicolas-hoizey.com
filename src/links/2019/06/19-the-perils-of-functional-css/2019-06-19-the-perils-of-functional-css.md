@@ -1,5 +1,5 @@
 ---
-date: 2019-06-19 16:16:59 +0200
+date: 2019-06-19 16:16:59 +02:00
 title: "The perils of functional CSS"
 lang: en
 link: https://www.browserlondon.com/blog/2019/06/10/functional-css-perils/

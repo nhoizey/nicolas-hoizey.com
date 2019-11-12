@@ -1,5 +1,5 @@
 ---
-date: 2019-08-30 10:40:45 +0200
+date: 2019-08-30 10:40:45 +02:00
 title: "Save-Data Usage"
 lang: en
 link: https://timkadlec.com/remembers/2019-08-29-save-data-usage/

@@ -1,5 +1,5 @@
 ---
-date: 2019-01-30 18:00:55 +0200
+date: 2019-01-30 18:00:55 +02:00
 title: "The Legacy of Firefox OS"
 lang: en
 link: https://medium.com/@bfrancis/the-legacy-of-firefox-os-c58ec32d94f0

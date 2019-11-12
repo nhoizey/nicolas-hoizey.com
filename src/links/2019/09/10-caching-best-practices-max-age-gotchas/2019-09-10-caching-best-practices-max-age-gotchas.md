@@ -1,5 +1,5 @@
 ---
-date: 2019-09-10 11:42:49 +0200
+date: 2019-09-10 11:42:49 +02:00
 title: "Caching best practices & max-age gotchas"
 lang: en
 link: https://jakearchibald.com/2016/caching-best-practices/

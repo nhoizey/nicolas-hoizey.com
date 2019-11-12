@@ -1,5 +1,5 @@
 ---
-date: 2019-09-09 18:53:56 +0200
+date: 2019-09-09 18:53:56 +02:00
 title: "Can I email ___ ?"
 lang: en
 link: https://www.caniemail.com/

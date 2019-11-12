@@ -1,5 +1,5 @@
 ---
-date: 2019-07-25 18:08:33 +0200
+date: 2019-07-25 18:08:33 +02:00
 title: "The power of progressive enhancement"
 lang: en
 link: https://andy-bell.design/wrote/the-power-of-progressive-enhancement/

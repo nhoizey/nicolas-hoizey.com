@@ -1,5 +1,5 @@
 ---
-date: 2019-04-02 13:39:35 +0200
+date: 2019-04-02 13:39:35 +02:00
 title: "Generative Art With CSS"
 lang: en
 link: https://yuanchuan.name/talk/generative-art-with-css/

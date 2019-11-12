@@ -1,5 +1,5 @@
 ---
-date: 2019-06-28 15:41:47 +0200
+date: 2019-06-28 15:41:47 +02:00
 title: "Web Quality Checklist"
 lang: en
 link: https://devchecklists.com/web-quality-checklist/en/

@@ -1,5 +1,5 @@
 ---
-date: 2019-06-14 17:29:08 +0200
+date: 2019-06-14 17:29:08 +02:00
 title: "When should you be using Web Workers?"
 lang: en
 link: https://dassur.ma/things/when-workers/

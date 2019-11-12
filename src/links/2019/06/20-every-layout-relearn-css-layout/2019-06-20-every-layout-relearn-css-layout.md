@@ -1,5 +1,5 @@
 ---
-date: 2019-06-20 09:56:11 +0200
+date: 2019-06-20 09:56:11 +02:00
 title: "Every Layout: Relearn CSS layout"
 lang: en
 link: https://every-layout.dev/

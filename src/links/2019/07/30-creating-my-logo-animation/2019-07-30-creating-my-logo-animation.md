@@ -1,5 +1,5 @@
 ---
-date: 2019-07-30 18:24:43 +0200
+date: 2019-07-30 18:24:43 +02:00
 title: "Creating my logo animation"
 lang: en
 link: https://www.cassie.codes/posts/creating-my-logo-animation/

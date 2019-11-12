@@ -1,5 +1,5 @@
 ---
-date: 2019-04-05 15:46:48 +0200
+date: 2019-04-05 15:46:48 +02:00
 title: "Why Should I Care What Color the Bikeshed Is?"
 lang: en
 link: http://bikeshed.com/

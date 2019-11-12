@@ -1,5 +1,5 @@
 ---
-date: 2019-10-02 22:06:05 +0200
+date: 2019-10-02 22:06:05 +02:00
 title: "Why Is CSS So Weird?"
 lang: en
 link: https://www.youtube.com/watch?v=aHUtMbJw8iA

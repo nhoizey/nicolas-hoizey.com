@@ -1,5 +1,5 @@
 ---
-date: 2019-07-24 23:04:46 +0200
+date: 2019-07-24 23:04:46 +02:00
 title: "Progressive Enhancement"
 lang: en
 link: https://remysharp.com/2019/07/24/progressive-enhancement

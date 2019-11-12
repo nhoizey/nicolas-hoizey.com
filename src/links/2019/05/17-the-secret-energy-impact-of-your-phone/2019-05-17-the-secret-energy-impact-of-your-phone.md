@@ -1,5 +1,5 @@
 ---
-date: 2019-05-17 10:05:14 +0200
+date: 2019-05-17 10:05:14 +02:00
 title: "The secret energy impact of your phone"
 lang: en
 link: https://increment.com/energy-environment/the-secret-energy-impact-of-your-phone/

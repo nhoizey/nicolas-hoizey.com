@@ -1,5 +1,5 @@
 ---
-date: 2019-10-21 15:34:49 +0200
+date: 2019-10-21 15:34:49 +02:00
 title: "Local-first software"
 lang: en
 link: https://www.inkandswitch.com/local-first.html

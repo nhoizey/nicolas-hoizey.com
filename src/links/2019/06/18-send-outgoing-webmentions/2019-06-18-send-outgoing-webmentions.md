@@ -1,5 +1,5 @@
 ---
-date: 2019-06-18 23:06:47 +0200
+date: 2019-06-18 23:06:47 +02:00
 title: "Send Outgoing Webmentions"
 lang: en
 link: https://remysharp.com/2019/06/18/send-outgoing-webmentions

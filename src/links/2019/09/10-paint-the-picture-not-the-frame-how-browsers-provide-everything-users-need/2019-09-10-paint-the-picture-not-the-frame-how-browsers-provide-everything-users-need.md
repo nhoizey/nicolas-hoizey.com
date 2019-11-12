@@ -1,5 +1,5 @@
 ---
-date: 2019-09-10 12:07:39 +0200
+date: 2019-09-10 12:07:39 +02:00
 title: "Paint the Picture, Not the Frame: How Browsers Provide Everything Users Need"
 lang: en
 link: https://alistapart.com/article/paint-the-picture-not-the-frame/

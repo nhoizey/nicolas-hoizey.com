@@ -1,5 +1,5 @@
 ---
-date: 2019-02-19 12:14:16 +0200
+date: 2019-02-19 12:14:16 +02:00
 title: "File Web Share Target"
 lang: en
 link: https://paul.kinlan.me/file-web-share-target/
