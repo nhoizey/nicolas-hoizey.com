@@ -22,6 +22,7 @@
   "scripts": {
     "build": "npx eleventy",
     "watch": "npx eleventy --watch",
+    "serve": "npx eleventy --serve",
     "debug": "DEBUG=* npx eleventy",
     "debuglog": "DEBUG=* npx eleventy 2>&1 | gnomon --medium=1.0 --high=5.0  --type=elapsed-total | tee ./logs/last_build.log"
   },
