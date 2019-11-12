@@ -30,6 +30,16 @@ module.exports = function (eleventyConfig) {
     return tags.replace(/(rel="tag")/, 'rel="tag" class="p-category"');
   });
 
+  // limit filter
+  eleventyConfig.addFilter("limit", function (array, limit) {
+    return array.slice(0, limit);
+  });
+
+  // offset filter
+  eleventyConfig.addFilter("offset", function (array, offset) {
+    return array.slice(offset);
+  });
+
   // ------------------------------------------------------------------------
   // Shortcodes
   // ------------------------------------------------------------------------
