@@ -4,14 +4,15 @@
 
 {#
 Inline critical CSS
-{% asset "critical-styles" @inline %}
 #}
+{# TODO: make inline #}
+<link rel="stylesheet" href="/css/critical-styles.css" />
 
 {#
 Async non critical CSS
 https://www.filamentgroup.com/lab/load-css-simpler/
-<link rel="stylesheet" href="{% asset "non-critical-styles" @path %}" media="print" onload="this.media='all'" />
 #}
+<link rel="stylesheet" href="/css/non-critical-styles.css" media="print" onload="this.media='all'" />
 <noscript>
-{% asset "non-critical-styles" %}
+<link rel="stylesheet" href="/css/non-critical-styles.css" media="all" />
 </noscript>
