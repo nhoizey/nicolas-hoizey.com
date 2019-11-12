@@ -56,7 +56,7 @@
                     loading="lazy"
                     crossorigin="anonymous" />
                   <a class="u-url" href="{{ webmention.uri }}">
-                    <b class="p-name">{{ webmention.uri | truncate: 70 }}</b>
+                    <b class="p-name">{{ webmention.uri | truncate(70) }}</b>
                   </a>
                 </div>
               {% endif %}
