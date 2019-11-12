@@ -1,4 +1,4 @@
 {
-  "layout": "layouts/link.njk",
+  "layout": "link",
   "permalink": "/links/{{ page.date | permalinkDate }}/{{ page.fileSlug }}.html"
 }
