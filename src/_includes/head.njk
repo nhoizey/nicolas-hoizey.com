@@ -1,21 +1,20 @@
 <head{% if page.title == "Accueil" %} itemscope itemtype="https://schema.org/WebSite"{% endif %}>
   {#
-  charset and viewport first: https://www.nateberkopec.com/2015/10/21/hacking-head-tags-for-speed-and-profit.html
+  charset and viewport first:
+  https://www.nateberkopec.com/2015/10/21/hacking-head-tags-for-speed-and-profit.html
   #}
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 
-  {# preload main font #}
-  {#
-  Not a good idea after all:
-  https://twitter.com/csswizardry/status/1180810824862064646
-  <link rel="preload" href="/assets/fonts/notoserif-regular-subset.woff2" as="font" type="font/woff2" crossorigin />
-  #}
-
-  {% include "assets.njk" %}
+  {% if build.env !== 'production' %}
+    <link rel="stylesheet" href="{{ '/css/main.css' | url }}">
+  {% else %}
+    {# TODO: make critical inline #}
+    <link rel="stylesheet" href="{{ '/css/main.min.css' | url }}">
+  {% endif %}
 
   {# Google Analytics #}
-  {% if jekyll.environment == "production" %}
+  {% if build.env == "production" %}
     <script>
       window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
       ga('create', 'UA-1655999-10', 'auto');
