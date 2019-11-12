@@ -6,7 +6,7 @@
     <li class="date card__meta__item card__date">
       <svg class="icon"><use xlink:href="#symbol-date" /></svg>
       <time class="dt-published" datetime="{{ include.page.date | date: "%Y-%m-%d %H:%M:%S" }}">
-        {{ include.page.date | date: "%B" }} {% include ordinal-day.njk date=include.page.date %}, {{ include.page.date | date: "%Y" }}
+        {{ include.page.date | date("%B") }} {{ include.page.date | ordinal }}, {{ include.page.date | date("%Y") }}
       </time>
     </li>
     <li class="tags card__meta__item card__tags">

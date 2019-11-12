@@ -13,6 +13,9 @@ module.exports = function (eleventyConfig) {
   const attributeDate = require("./src/_filters/attributeDate.js");
   eleventyConfig.addFilter("attributeDate", attributeDate);
 
+  const ordinal = require("./src/_filters/ordinal.js");
+  eleventyConfig.addFilter("ordinal", ordinal);
+
   // ------------------------------------------------------------------------
   // Shortcodes
   // ------------------------------------------------------------------------
