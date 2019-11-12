@@ -28,6 +28,13 @@ module.exports = function (eleventyConfig) {
     return `<img src="${image}" />`;
   });
 
+  // ------------------------------------------------------------------------
+  // Plugins
+  // ------------------------------------------------------------------------
+
+  const svgContents = require("eleventy-plugin-svg-contents");
+  eleventyConfig.addPlugin(svgContents);
+
   const respimg = require("eleventy-plugin-respimg");
   eleventyConfig.cloudinaryCloudName = 'nho';
   eleventyConfig.srcsetWidths = [320, 640, 960, 1280, 1600, 1920, 2240, 2560];
@@ -104,7 +111,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(respimg);
 
   // ------------------------------------------------------------------------
-  // Markdown
+  // Markdown plugins
   // ------------------------------------------------------------------------
 
   const markdownIt = require("markdown-it");
