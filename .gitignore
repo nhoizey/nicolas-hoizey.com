@@ -1,9 +1,5 @@
-_drafts
-_logs
+node_modules
+dist
+logs
 _scripts
-_site
-_site_j4
-_site_serve
 _config_credentials.yml
-.asset-cache
-.jekyll-cache
