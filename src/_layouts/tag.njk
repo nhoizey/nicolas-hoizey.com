@@ -25,7 +25,7 @@ layout: default
 
 <ul class="list">
   {% for post in page.posts %}
-    {% if post.categories contains 'links' %}
+    {% if 'links' in post.categories %}
       <li class="list__item">
         <div class="card card--link">
           {% include components/link-card.njk link=post %}

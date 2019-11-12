@@ -82,7 +82,7 @@
                   <time class="webmention__pubdate dt-published" datetime="{{ webmention.pubdate | date: '%FT%T%:z' }}">{{ webmention.pubdate | date: '%e %B %Y' }}</time>
                   |
                 {% endif %}
-                {% if webmention.uri contains "https://twitter.com/" %}
+                {% if "https://twitter.com/" in webmention.uri %}
                   <svg><use xlink:href="#symbol-twitter" /></svg>
                 {% endif %}
                 <a class="webmention__source u-url" href="{{ webmention.uri }}">Source</a>

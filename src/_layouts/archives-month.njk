@@ -10,7 +10,7 @@ layout: default
 
 <ul class="list">
   {% for post in page.posts reversed %}
-    {% unless post.categories contains 'links' %}
+    {% unless 'links' in post.categories %}
       <li class="list__item list__item--large">
         <div class="card card--article">
           {% include components/post-card.njk page=post %}

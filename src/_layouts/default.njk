@@ -3,7 +3,7 @@
 
   {% include "head.njk" %}
 
-  <body itemscope itemtype="https://schema.org/{% if page.path contains " about/" %}aboutpage{% else %}webpage{% endif %}" class="{%- include current-type.html -%}">
+  <body itemscope itemtype="https://schema.org/{% if "about/" in page.inputPath %}aboutpage{% else %}webpage{% endif %}" class="{%- include "current-type.njk" -%}">
 
     {% include "components/svg-sprite.njk" %}
 
