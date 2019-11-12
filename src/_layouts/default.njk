@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  {% include head.njk %}
+  {% include "head.njk" %}
 
   <body itemscope itemtype="https://schema.org/{% if page.path contains " about/" %}aboutpage{% else %}webpage{% endif %}" class="{%- include current-type.html -%}">
 
-    {% include components/svg-sprite.njk %}
+    {% include "components/svg-sprite.njk" %}
 
     <a class="sr-only" href="#main">Jump to main content</a>
 
@@ -22,14 +22,14 @@
             <a class="h-card" href="/" rel="me" title="Homepage">Nicolas Hoizey</a>
           </p>
         {% endif %}
-        {% include components/search-form.njk %}
+        {% include "components/search-form.njk" %}
       </div>
     </header>
 
-    {% include components/navigation.njk %}
+    {% include "components/navigation.njk" %}
 
     {% if page.url == "/" or page.url == "/index.html" %}
-      {% include components/intro.njk %}
+      {% include "components/intro.njk" %}
     {% endif %}
 
     <main id="main" role="main">
@@ -43,7 +43,7 @@
       </div>
     </div>
 
-    {% include components/footer.njk %}
+    {% include "components/footer.njk" %}
 
     <script src="/js/toast.js"></script>
     <script src="/js/behaviors.js" defer></script>
