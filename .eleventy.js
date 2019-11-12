@@ -1,5 +1,15 @@
 module.exports = function (eleventyConfig) {
 
+  // ------------------------------------------------------------------------
+  // Filters
+  // ------------------------------------------------------------------------
+
+  const excerpt = require("./src/_filters/excerpt.js");
+  eleventyConfig.addFilter("excerpt", excerpt);
+
+  const permalinkDate = require("./src/_filters/permalinkDate.js");
+  eleventyConfig.addFilter("permalinkDate", permalinkDate);
+
   eleventyConfig
     .addPassthroughCopy("src/assets")
     .addPassthroughCopy("src/.well-known")
