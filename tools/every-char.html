@@ -9,7 +9,7 @@ title: Every character
 {% for post in site.posts %}
   {% capture post_chars %}
     {{ post.title }}
-    {% include_cached post-meta.html page=post %}
+    {% include post-meta.njk page=post %}
     {{ post.content }}
   {% endcapture %}
   {% capture new_every_char %}{{ every_char }}{{ post_chars | strip_html | split: "" | uniq | join: "" }}

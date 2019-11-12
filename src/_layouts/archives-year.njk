@@ -44,7 +44,7 @@ layout: default.njk
   {% endif %}
   <li class="list__item list__item--large">
     <div class="card card--article">
-      {% include_cached components/post-card.html page=post %}
+      {% include components/post-card.njk page=post %}
     </div>
   </li>
 {% endunless %}

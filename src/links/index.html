@@ -8,14 +8,14 @@ title: Links
   {% for link in site.categories['links'] limit:6 %}
     <li class="list__item">
       <div class="card card--link">
-        {% include_cached components/link-card.html link=link lazy="off" %}
+        {% include components/link-card.njk link=link lazy="off" %}
       </div>
     </li>
   {% endfor %}
   {% for link in site.categories['links'] offset:6 %}
     <li class="list__item">
       <div class="card card--link">
-        {% include_cached components/link-card.html link=link lazy="on" %}
+        {% include components/link-card.njk link=link lazy="on" %}
       </div>
     </li>
   {% endfor %}

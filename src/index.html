@@ -38,7 +38,7 @@ JSON-LD for:
   {% for article in articles limit:3 %}
     <li class="list__item list__item--large">
       <div class="card card--article h-entry">
-        {% include_cached components/post-card.html page=article %}
+        {% include components/post-card.njk page=article %}
       </div>
     </li>
   {% endfor %}
@@ -50,7 +50,7 @@ JSON-LD for:
   {% for link in links limit:6 %}
     <li class="list__item">
       <div class="card card--link h-entry">
-        {% include_cached components/link-card.html link=link lazy="on" %}
+        {% include components/link-card.njk link=link lazy="on" %}
       </div>
     </li>
   {% endfor %}
@@ -59,7 +59,7 @@ JSON-LD for:
 <section class="tagscloud">
   <p>Find other contents by frequent tags:</p>
   {% capture cloud %}
-  {% include_cached components/tags-cloud.html %}
+  {% include components/tags-cloud.njk %}
   {% endcapture %}
   {{ cloud | frequent_tags }}
   <p>See <a href="/tags/">the full tags cloud</a> for even more content.</p>

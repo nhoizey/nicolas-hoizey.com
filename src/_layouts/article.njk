@@ -39,7 +39,7 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
 
 <article class="main clearfix h-entry" lang="{{ page.lang }}">
   <h1 id="post" class="card__title p-name">{{ page.title }}</h1>
-  {% include_cached post-meta.html page=page %}
+  {% include post-meta.njk page=page %}
   <div class="e-content">{{ content }}</div>
 
   {% if page.flickr or page.facebook or page.instagram %}
@@ -62,6 +62,6 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
 
   <p class="edit">If you want to share an error or suggest an enhancement of this content, please edit <a href="https://github.com/nhoizey/nicolas-hoizey.com/tree/master/{{ page.path }}">the source on Github</a>.</p>
 
-  {% include components/comments.html %}
-  {% include components/webmentions.html %}
+  {% include components/comments.njk %}
+  {% include components/webmentions.njk %}
 </article>

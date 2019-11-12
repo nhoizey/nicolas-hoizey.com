@@ -12,7 +12,7 @@
   <link rel="preload" href="/assets/fonts/notoserif-regular-subset.woff2" as="font" type="font/woff2" crossorigin />
   {% endcomment %}
 
-  {% include_cached assets.html %}
+  {% include assets.njk %}
 
   {% comment %} Google Analytics {% endcomment %}
   {% if jekyll.environment == "production" %}
@@ -97,7 +97,7 @@
   https://developers.facebook.com/docs/sharing/best-practices?locale=fr_FR#images
   https://developers.facebook.com/tools/debug/sharing/
   {% endcomment %}
-  <meta property="og:image" content="{% include social-image-url.html page=page %}?{{ site.time | date: '%Y%m%d%H%M%S' }}" />
+  <meta property="og:image" content="{% include social-image-url.njk page=page %}?{{ site.time | date: '%Y%m%d%H%M%S' }}" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
 

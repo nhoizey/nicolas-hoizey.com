@@ -27,7 +27,7 @@ title: Talks
                 <svg class="icon"><use xlink:href="#symbol-date" /></svg>
                 <time class="dt-published" datetime="{{ presentation.attributes.presented_on | date: "%Y-%m-%d %H:%M:%S" }}">
                   {{ presentation.attributes.presented_on | date: "%B" }}
-                  {% include_cached ordinal-day.html date=presentation.attributes.presented_on %}, {{ presentation.attributes.presented_on | date: "%Y" }}
+                  {% include ordinal-day.njk date=presentation.attributes.presented_on %}, {{ presentation.attributes.presented_on | date: "%Y" }}
                 </time>
               </li>
             </ul>

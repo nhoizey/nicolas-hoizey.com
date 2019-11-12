@@ -23,7 +23,7 @@ layout: default.njk
         {% endfor %}
       {% endif %}
       <h1>{{ page.title }}</h1>
-      {% include_cached link-meta.html page=page %}
+      {% include link-meta.njk page=page %}
     </div>
     <figure class="link__screenshot">
       <img
@@ -44,5 +44,5 @@ layout: default.njk
   </p>
   {{ page.content }}
 
-  {% include components/webmentions.html %}
+  {% include components/webmentions.njk %}
 </article>

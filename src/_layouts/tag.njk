@@ -28,13 +28,13 @@ layout: default.njk
     {% if post.categories contains 'links' %}
       <li class="list__item">
         <div class="card card--link">
-          {% include_cached components/link-card.html link=post %}
+          {% include components/link-card.njk link=post %}
         </div>
       </li>
     {% else %}
       <li class="list__item list__item--large">
         <div class="card card--article">
-          {% include_cached components/post-card.html page=post %}
+          {% include components/post-card.njk page=post %}
         </div>
       </li>
     {% endif %}
@@ -43,5 +43,5 @@ layout: default.njk
 
 <div class="tagscloud">
   <p>Other tags to explore:</p>
-  {% include_cached components/tags-cloud.html %}
+  {% include components/tags-cloud.njk %}
 </div>

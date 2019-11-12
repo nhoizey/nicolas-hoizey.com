@@ -7,7 +7,7 @@ title: First images with bugs
 <h1 id="articles">First images with bugs</h1>
 <section class="list recent">
   {% for post in site.posts %}
-    {% capture firstImageLiquid %}{% include first-image-src.html page=post %}{% endcapture %}
+    {% capture firstImageLiquid %}{% include first-image-src.njk page=post %}{% endcapture %}
     {% capture firstImageFilter %}{{ post.content | first_image }}{% endcapture %}
     {% if firstImageFilter contains "/http" %}
       {% assign firstImageFilter = firstImageFilter | split: "/http" | last | prepend: "http" %}
