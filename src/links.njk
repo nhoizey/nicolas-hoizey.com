@@ -1,0 +1,15 @@
+---
+layout: default
+title: Links
+---
+
+<h1 class="list__title">Links</h1>
+<ul class="list">
+  {% for link in collections.links %}
+    <li class="list__item">
+      <div class="card card--link">
+        {% include "components/link-card.njk" %}
+      </div>
+    </li>
+  {% endfor %}
+</ul>
