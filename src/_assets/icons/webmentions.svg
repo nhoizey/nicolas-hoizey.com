@@ -1,4 +1,4 @@
-<svg id="symbol-webmentions" viewBox="0 0 32 32" width="1em" height="1em">
+<svg viewBox="0 0 32 32" width="1em" height="1em">
   <title>Webmention</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
     <path d="M16 7c-5.96 0-11 3.2-11 7 0 .28.22.5.5.5s.5-.22.5-.5c0-3.2 4.67-6 10-6 .28 0 .5-.22.5-.5S16.28 7 16 7z"/>
