@@ -11,6 +11,14 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("permalinkDate", permalinkDate);
 
   // ------------------------------------------------------------------------
+  // Shortcodes
+  // ------------------------------------------------------------------------
+
+  eleventyConfig.addNunjucksShortcode("cloudinary", function (preset, image) {
+    return `<img src="${image}" />`;
+  });
+
+  // ------------------------------------------------------------------------
   // Markdown
   // ------------------------------------------------------------------------
 
