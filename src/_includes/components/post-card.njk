@@ -1,5 +1,0 @@
-<p class="card__title p-name">
-  <a href="{{ include.page.url }}" hreflang="{{ include.page.lang }}" class="u-url">{{ include.page.title }}</a>
-</p>
-<p class="card__excerpt p-summary">{{ include.page.excerpt | strip_footnotes | striptags }}</p>
-{% include post-meta.njk page=include.page %}
