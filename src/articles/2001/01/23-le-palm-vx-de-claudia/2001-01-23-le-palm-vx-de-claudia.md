@@ -7,7 +7,7 @@ tags:       [fun]
 
 ## Parce qu'elle le vend bien
 
-{% cloudinary onethird claudia-schiffer.jpg %}
+{% respimg "claudia-schiffer.jpg", "", "onethird" %}
 Vous avez un [Palm Pilot](http://www.palm.com/products/) ?
 
 Oui, mais avez vous un Palm Pilot qui soit un tant soit peu original, différent de celui que tout le monde à déjà ?

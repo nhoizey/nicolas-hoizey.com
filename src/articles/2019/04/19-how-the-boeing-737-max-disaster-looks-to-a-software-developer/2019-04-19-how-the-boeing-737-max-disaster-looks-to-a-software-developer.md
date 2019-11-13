@@ -28,7 +28,7 @@ I don't know much about planes, but this article explains everything very well. 
 
 > Those lines of code were no doubt created by people at the direction of managers. **Neither such coders nor their managers are as in touch with the particular culture and mores of the aviation world as much as the people who are down on the factory floor**, riveting wings on, designing control yokes, and fitting landing gears.
 
-{% cloudinary onefourth HAL9000.png alt="“2001, A Space Odyssey”'s HAL9000 rogue computer" caption="“2001, A Space Odyssey”'s HAL9000 rogue computer" %}
+{% respimg "HAL9000.png", "“2001, A Space Odyssey”'s HAL9000 rogue computer", "onefourth" %}
 
 > Like someone with narcissistic personality disorder, MCAS (Maneuvering Characteristics Augmentation System) gaslights the pilots. And **it turns out badly for everyone**. “Raise the nose, HAL.” “I’m sorry, Dave, I’m afraid I can’t do that.”
 
