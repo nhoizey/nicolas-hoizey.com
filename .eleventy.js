@@ -44,6 +44,14 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("safeDump", stringify);
 
   // ------------------------------------------------------------------------
+  // Collections
+  // ------------------------------------------------------------------------
+
+  eleventyConfig.addCollection("links", function (collection) {
+    return collection.getFilteredByGlob("src/links/**/*.md");
+  });
+
+  // ------------------------------------------------------------------------
   // Shortcodes
   // ------------------------------------------------------------------------
 
