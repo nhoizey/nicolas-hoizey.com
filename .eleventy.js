@@ -40,6 +40,9 @@ module.exports = function (eleventyConfig) {
     return array.slice(offset);
   });
 
+  const { parse, stringify } = require("flatted/cjs");
+  eleventyConfig.addFilter("safeDump", stringify);
+
   // ------------------------------------------------------------------------
   // Shortcodes
   // ------------------------------------------------------------------------
