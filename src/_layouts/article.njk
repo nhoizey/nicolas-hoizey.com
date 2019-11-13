@@ -40,11 +40,12 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
 
 <article class="main clearfix h-entry" lang="{{ page.lang }}">
   <h1 id="post" class="card__title p-name">{{ page.title }}</h1>
-  <div class="e-content">{{ content }}</div>
 
   {% if page.flickr or page.facebook or page.instagram %}
   {% from "macros/meta.njk" import meta %}
   {{ meta(page.url, page.date, tags) }}
+
+  <div class="e-content">{{ content | safe }}</div>
     <div class="socialphoto">
       <p>You'll also find this photo on your favorite service&nbsp;:
         <span>
