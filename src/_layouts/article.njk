@@ -17,15 +17,15 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
     "@type": "ListItem",
     "position": 1,
     "item": {
-      "@id": "https://nicolas-hoizey.com/{{ page.date | date: "%Y" }}/",
-      "name": "{{ page.date | date: "%Y" }}"
+      "@id": "https://nicolas-hoizey.com/{{ page.date | date("YYYY") }}/",
+      "name": "{{ page.date | date("YYYY") }}"
     }
   },{
     "@type": "ListItem",
     "position": 2,
     "item": {
-      "@id": "https://nicolas-hoizey.com/{{ page.date | date: "%Y/%m" }}/",
-      "name": "{{ page.date | date: "%m" }}"
+      "@id": "https://nicolas-hoizey.com/{{ page.date | date("YYYY/MM") }}/",
+      "name": "{{ page.date | date("MM") }}"
     }
   },{
     "@type": "ListItem",
