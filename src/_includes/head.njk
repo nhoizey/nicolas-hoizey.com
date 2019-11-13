@@ -47,9 +47,9 @@
     <title itemprop="name">{{ title }}</title>
     <meta property="og:title" content="{{ title }}" />
   {% else %}
-      {% set title %}{{ page.title }}{% endset %}
-      {% set description %}{{ page.content | striptags | truncate(290) | escape }}{% endset %}
     {% if page.url == "/links/" %}
+      {% set title = page.title %}
+      {% set description = page.data.excerpt | striptags | truncate(290) | escape %}
       {% set ogType = "article" %}
     {% else %}
       {% if page.type == "year" %}
@@ -64,8 +64,8 @@
             {% set title %}{{ page.tag }}{% endset %}
             {% set description %}Articles published by Nicolas Hoizey with the tag ”{{ page.tag }}”{% endset %}
           {% else %}
-            {% set title %}{{ page.title }}{% endset %}
-            {% set description %}{{ page.excerpt | striptags | truncate(290) | escape }}{% endset %}
+            {% set title = page.title %}
+            {% set description = page.data.excerpt | striptags | truncate(290) | escape %}
             {% set ogType = "article" %}
           {% endif %}
         {% endif %}
