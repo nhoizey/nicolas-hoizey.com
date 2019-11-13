@@ -22,7 +22,7 @@ Voilà le pitch du jeu :
 
 Le jeu exploite le technique du son binaural pour donner une immersion totale 3D. L’équipe a expliqué sur son blog [ce qu’est le son binaural](http://www.ablindlegend.com/le-son-binaural-quest-ce-que-cest/). Ils citent notamment l’exemple [The Virtual Barbershop](https://www.youtube.com/watch?v=IUDTlvagjJA) qui est vraiment bluffant :
 
-{% youtube IUDTlvagjJA %}
+{% youtube "IUDTlvagjJA" %}
 
 Je vous invite vraiment à [aider ce beau projet en participant à son financement](http://fr.ulule.com/a-blind-legend/), et à faire tourner l’info au plus vite pour que le budget soit réuni en temps et en heure !
 

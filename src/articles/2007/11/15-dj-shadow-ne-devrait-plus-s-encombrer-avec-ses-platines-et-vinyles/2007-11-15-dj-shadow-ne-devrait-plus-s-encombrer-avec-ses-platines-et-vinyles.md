@@ -8,6 +8,6 @@ Si vous ne connaissez pas [DJ Shadow](http://www.djshadow.com/), sans aucun dout
 
 Si je disais, donc, que DJ Shadow ne devrait plus s'encombrer avec ses platines et vinyles, c'est tout simplement qu'il pourrait se faire un nouvel ami à emmener partout avec lui :
 
-{% youtube jLN63bRcY5I %}
+{% youtube "jLN63bRcY5I" %}
 
 L'avantage, c'est qu'il se transporte de lui-même, et apporte même une compagnie sans doute bienvenue quand on parcours le monde pour aller de scène en scène… 😁

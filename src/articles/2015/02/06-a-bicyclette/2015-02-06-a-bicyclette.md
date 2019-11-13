@@ -10,17 +10,17 @@ tags:     [video]
 
 Je pense l'avoir découvert en 2010 avec cette vidéo le montrant en différents lieux de sa belle Écosse, « Way Back Home » :
 
-{% youtube Cj6ho1-G6tw %}
+{% youtube "Cj6ho1-G6tw" %}
 
 Je l'ai revu plus récemment dans cette vidéo produite par Red Bull[^1], je la trouve vraiment excellente tant dans l'idée que la mise en œuvre :
 
-{% youtube Sv3xVOs7_No %}
+{% youtube "Sv3xVOs7_No" %}
 
 Ne ratez pas le générique de fin, bien sûr, et le [making of](http://imaginate.redbull.com/behind-the-scenes). Il y a d'autres vidéos aussi dans [la série « Imaginate »](http://imaginate.redbull.com/).
 
 Sa dernière vidéo, « The Ridge », est un retour à la nature dans la belle et célèbre île écossaise de Skye, mettez-vous ça en Full HD plein écran :
 
-{% youtube xQ_IQS3VKjA %}
+{% youtube "xQ_IQS3VKjA" %}
 
 Il faut préciser que tout cela est surtout possible [grâce à Cortana](https://www.youtube.com/watch?v=WC1KwpRPm7s), n'est-ce pas ? OMG, le marketing Microsoft a encore frappé !
 

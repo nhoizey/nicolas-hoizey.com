@@ -44,7 +44,7 @@ On m'a alors conseillé différentes choses, que voici en vrac, si ça peut vous
 
 On m'a aussi suggéré de regarder l'étrange escale à New York d'[@axolotblog](https://twitter.com/axolotblog), qui contient effectivement quelques pépites, dont une statue de Lénine :
 
-{% youtube 6NIMEJUMXXw %}
+{% youtube "6NIMEJUMXXw" %}
 
 # Et hop, une belle carte !
 

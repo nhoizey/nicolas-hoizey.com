@@ -10,7 +10,7 @@ Voilà plus d'un an que je travaille sur une nouvelle version de mon jeu *esviji
 
 Cette v2 a été l'occasion de revoir complètement l'interface pour passer d'un mode purement fluide homothétique[^fluide] à un mode réellement responsive, permettant de profiter du maximum de surface de votre écran, quelle qu'en soit la taille —du *feature phone* de 240×240 pixels à la dernière TV [4K](http://fr.wikipedia.org/wiki/4K) de 3 840×2 160 pixels, en paysage comme en portrait[^tv], et quelle que soit la densité de l'écran[^iphone6p].
 
-{% youtube R2rxU9cVSqw %}
+{% youtube "R2rxU9cVSqw" %}
 
 L'occasion du coup de tester différentes nouveautés CSS —flexbox, les viewport units— et d'améliorer l'usage de SVG.
 

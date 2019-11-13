@@ -8,6 +8,6 @@ Une fois de plus, c'est au détour d'[un tweet](https://twitter.com/codepo8/stat
 
 Ils sont impressionnants par leur usage de combinaisons lumineuse pour créer des scènes très manga :
 
-{% youtube 6ydeY0tTtF4 %}
+{% youtube "6ydeY0tTtF4" %}
 
 Ils sont en tournée, mais malheureusement uniquement au Japon…

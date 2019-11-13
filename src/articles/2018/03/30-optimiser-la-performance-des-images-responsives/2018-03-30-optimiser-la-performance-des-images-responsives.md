@@ -9,7 +9,7 @@ J'ai eu l'honneur de présenter une petite conférence lors du [meetup WebPerf d
 {% cloudinary logo /assets/logos/web-performance-paris.png %}
 Vous pouvez directement regarder la vidéo, captée par Mozilla, qui nous accueillait dans ses somptueux locaux parisiens :
 
-{% youtube wj84C3VNAmI %}
+{% youtube "wj84C3VNAmI" %}
 
 En me regardant, je me rends compte de la quantité incroyable de « euuuh » qui ponctuent ma présentation, il va falloir que je fasse des progrès…
 

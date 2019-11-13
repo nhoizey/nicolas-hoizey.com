@@ -8,7 +8,7 @@ Vous connaissez sans doute le chef d'œuvre « Le Grand Détournement », film r
 
 Non, vous ne connaissez pas ??? Corrigeons tout de suite cette énorme erreur :
 
-{% youtube W8sop56DBUs %}
+{% youtube "W8sop56DBUs" %}
 
 Malheureusement, à cause de classiques problèmes de droits[^1], ce film n'est pas disponible dans le commerce. Pour en savoir plus sur ce film et d'autres méfaits de la même équipe, je vous invite à rendre visite à ce [grand fan du Grand Détournement](http://www.chez.com/cycyr/).
 
@@ -30,7 +30,7 @@ Les services de partage de vidéo regorgent de ce type de montages, heureusement
 
 On peut ainsi trouver la bande annonce de « Titanic 2 » :
 
-{% youtube vD4OnHCRd_4 %}
+{% youtube "vD4OnHCRd_4" %}
 
 Ou encore une bande annonce pas très respectueuse de l'intrigue réelle de « The Shinning » :
 

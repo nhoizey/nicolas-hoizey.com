@@ -8,6 +8,6 @@ tags:       [music, TV]
 
 [^1]: Voir aussi sur [Wikipedia](http://en.wikipedia.org/wiki/Britain's_Got_Talent)
 
-{% youtube i0dzZTPWrSM %}
+{% youtube "i0dzZTPWrSM" %}
 
 On chercherait presque à voir si c'est du playback !
