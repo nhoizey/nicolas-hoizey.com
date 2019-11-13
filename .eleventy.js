@@ -43,6 +43,12 @@ module.exports = function (eleventyConfig) {
   const { parse, stringify } = require("flatted/cjs");
   eleventyConfig.addFilter("safeDump", stringify);
 
+  const cheerio = require('cheerio');
+  eleventyConfig.addFilter("stripFootnotes", function (content) {
+    console.error(content);
+    const $ = cheerio.load(content);
+    $('a.footnote, a.footnotes, div.footnote, div.footnotes, sup.footnote, sup.footnotes').remove();
+    return $.html();
   });
 
   // ------------------------------------------------------------------------

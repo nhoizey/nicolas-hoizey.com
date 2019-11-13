@@ -69,6 +69,7 @@
     "webpack-stream": "^4.0.3",
     "workbox-build": "^3.6.3",
     "flatted": "~2.0.1",
+    "cheerio": "~1.0.0-rc.3",
     "npm-check-updates": "^3.2.1"
   },
   "resolutions": {
