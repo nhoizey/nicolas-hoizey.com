@@ -44,11 +44,9 @@
   {% set ogType = "website" %}
     {% set title = site.title %}
     {% set description = site.description %}
-    {% set canonical = site.url %}
     <title itemprop="name">{{ title }}</title>
     <meta property="og:title" content="{{ title }}" />
   {% else %}
-    {% set canonical = site.url + page.url %}
     {% if page.layout == "link" %}
       {% set title %}{{ page.title }}{% endset %}
       {% set description %}{{ page.content | striptags | truncate(290) | escape }}{% endset %}
@@ -80,8 +78,8 @@
   <meta name="description" content="{{ description }}" />
   <meta property="og:description" content="{{ description }}" />
 
-  <link rel="canonical" href="{{ canonical }}" itemprop="url" />
-  <meta property="og:url" content="{{ canonical }}" />
+  <link rel="canonical" href="{{ site.url + page.url }}" itemprop="url" />
+  <meta property="og:url" content="{{ site.url + page.url }}" />
 
   <meta property="og:type" content="{{ ogType }}" />
   {% if ogType == "article" %}
