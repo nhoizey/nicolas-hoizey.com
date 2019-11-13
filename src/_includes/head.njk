@@ -40,16 +40,16 @@
   {# https://dev.twitter.com/web/overview/widgets-webpage-properties#csp #}
   <meta name="twitter:widgets:csp" content="on" />
 
-  {% if page.title == "Homepage" %}
   {% set ogType = "website" %}
+  {% if page.url == "/" %}
     {% set title = site.title %}
     {% set description = site.description %}
     <title itemprop="name">{{ title }}</title>
     <meta property="og:title" content="{{ title }}" />
   {% else %}
-    {% if page.layout == "link" %}
       {% set title %}{{ page.title }}{% endset %}
       {% set description %}{{ page.content | striptags | truncate(290) | escape }}{% endset %}
+    {% if page.url == "/links/" %}
       {% set ogType = "article" %}
     {% else %}
       {% if page.type == "year" %}
