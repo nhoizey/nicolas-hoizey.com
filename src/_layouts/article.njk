@@ -38,25 +38,26 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
 }
 </script>
 
-<article class="main clearfix h-entry" lang="{{ page.lang }}">
-  <h1 id="post" class="card__title p-name">{{ page.title }}</h1>
+<article class="main clearfix h-entry" lang="{{ lang }}">
+  <h1 id="post" class="card__title p-name">{{ title }}</h1>
 
-  {% if page.flickr or page.facebook or page.instagram %}
   {% from "macros/meta.njk" import meta %}
   {{ meta(page.url, page.date, tags) }}
 
   <div class="e-content">{{ content | safe }}</div>
+
+  {% if page.data.flickr or page.data.facebook or page.data.instagram %}
     <div class="socialphoto">
       <p>You'll also find this photo on your favorite service&nbsp;:
         <span>
-        {% if page.flickr %}
-          <a href="{{ page.flickr }}" class="icon flickr"><svg><use xlink:href="#symbol-flickr" /></svg></a>
+        {% if page.data.flickr %}
+          <a href="{{ page.data.flickr }}" class="icon flickr"><svg><use xlink:href="#symbol-flickr" /></svg></a>
         {% endif %}
-        {% if page.facebook %}
-          <a href="{{ page.facebook }}" class="icon facebook"><svg><use xlink:href="#symbol-facebook" /></svg></a>
+        {% if page.data.facebook %}
+          <a href="{{ page.data.facebook }}" class="icon facebook"><svg><use xlink:href="#symbol-facebook" /></svg></a>
         {% endif %}
-        {% if page.instagram %}
-          <a href="{{ page.instagram }}" class="icon instagram"><svg><use xlink:href="#symbol-instagram" /></svg></a>
+        {% if page.data.instagram %}
+          <a href="{{ page.data.instagram }}" class="icon instagram"><svg><use xlink:href="#symbol-instagram" /></svg></a>
         {% endif %}
         </span>
       </p>
