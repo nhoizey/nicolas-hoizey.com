@@ -3,12 +3,14 @@ layout: default
 title: Links
 ---
 
+{% from "macros/linkCard.njk" import linkCard %}
+
 <h1 class="list__title">Links</h1>
 <ul class="list">
   {% for link in collections.links | reverse %}
     <li class="list__item">
       <div class="card card--link">
-        {% include "components/link-card.njk" %}
+        {{ linkCard(link.data.title, link.url, link.data.link, link.data.authors, link.date, link.data.tags) }}
       </div>
     </li>
   {% endfor %}

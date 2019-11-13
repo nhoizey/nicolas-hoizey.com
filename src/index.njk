@@ -43,13 +43,14 @@ JSON-LD for:
   {% endfor %}
 </ul>
 #}
+{% from "macros/linkCard.njk" import linkCard %}
 
 <h2>Latest links</h2>
 <ul class="list">
   {% for link in collections.links | reverse | limit(6) %}
     <li class="list__item">
       <div class="card card--link h-entry">
-        {% include "components/link-card.njk" %}
+        {{ linkCard(link.data.title, link.url, link.data.link, link.data.authors, link.date, link.data.tags) }}
       </div>
     </li>
   {% endfor %}
