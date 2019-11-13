@@ -47,6 +47,10 @@ module.exports = function (eleventyConfig) {
   // Collections
   // ------------------------------------------------------------------------
 
+  eleventyConfig.addCollection("articles", function (collection) {
+    return collection.getFilteredByGlob("src/articles/**/*.md");
+  });
+
   eleventyConfig.addCollection("links", function (collection) {
     return collection.getFilteredByGlob("src/links/**/*.md");
   });
