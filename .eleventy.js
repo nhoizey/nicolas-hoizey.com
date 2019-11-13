@@ -43,16 +43,6 @@ module.exports = function (eleventyConfig) {
   const { parse, stringify } = require("flatted/cjs");
   eleventyConfig.addFilter("safeDump", stringify);
 
-  // ------------------------------------------------------------------------
-  // Collections
-  // ------------------------------------------------------------------------
-
-  eleventyConfig.addCollection("articles", function (collection) {
-    return collection.getFilteredByGlob("src/articles/**/*.md");
-  });
-
-  eleventyConfig.addCollection("links", function (collection) {
-    return collection.getFilteredByGlob("src/links/**/*.md");
   });
 
   // ------------------------------------------------------------------------
@@ -197,6 +187,8 @@ module.exports = function (eleventyConfig) {
     .addPassthroughCopy("src/.well-known")
     .addPassthroughCopy("src/.htaccess")
     .addPassthroughCopy("src/manifest.webmanifest");
+
+  eleventyConfig.setDataDeepMerge(true);
 
   return {
     templateFormats: [
