@@ -4,7 +4,7 @@ lang:       fr
 tags:       [cinema, movie]
 ---
 
-{% cloudinary onethird cast-away-affiche.png %}
+{% respimg "cast-away-affiche.png", "", "onethird" %}
 
 Chefaillon stressé (par nature et obligation professionnelle) chez Federal Express, Chuck Noland (Tom Hanks) est le seul rescapé (avec quelques paquets FedEx) du crash d'un avion en plein Pacifique. Echoué sur une île déserte, il va alors devoir apprendre à vivre sans tous les gadgets qui simplifient la vie moderne, du briquet au couteau en passant par la gourde, et surtout garder l'espoir de revoir un jour sa fiancée (Helen Hunt) dont il a réussi à sauver une photo…
 
@@ -16,7 +16,7 @@ La solitude du héros est renforcée par la présence d'un compagnon imaginaire 
 
 La simplicité formelle de l'apprentissage de la vie est ainsi mise en opposition avec la fureur du naufrage, le plus époustouflant jamais vu, et c'est finalement la nature elle-même qui apportera son secours au héros et lui permettra de retrouver la civilisation après ce qui est finalement l'unique gros morceau de bravoure du film, l'évasion de l'île-prison.
 
-{% cloudinary cast-away-tournage.jpg caption="Sur le tournage de Cast Away" %}
+{% respimg "cast-away-tournage.jpg", "Sur le tournage de Cast Away" %}
 
 La dernière partie du film, qui montre le retour de Noland à la civilisation après 4 années d'isolement, achève en fait de l'en éloigner en le montrant plus comme un fantôme que comme un rescapé. Elle montre aussi cruellement que, même si l'amour ne meurt pas avec l'être aimé, "la nature n'aime pas le vide" et trouve toujours un remplacement…
 
