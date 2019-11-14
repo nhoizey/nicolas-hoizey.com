@@ -1,6 +1,10 @@
 ---
 title: About me
 layout: page
+eleventyNavigation:
+  key: About
+  parent: secondary
+  order: 2
 lang: en
 ---
 
