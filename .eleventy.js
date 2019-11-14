@@ -85,6 +85,9 @@ module.exports = function (eleventyConfig) {
   // Plugins
   // ------------------------------------------------------------------------
 
+  const navigation = require("@11ty/eleventy-navigation");
+  eleventyConfig.addPlugin(navigation);
+
   const svgContents = require("eleventy-plugin-svg-contents");
   eleventyConfig.addPlugin(svgContents);
 
