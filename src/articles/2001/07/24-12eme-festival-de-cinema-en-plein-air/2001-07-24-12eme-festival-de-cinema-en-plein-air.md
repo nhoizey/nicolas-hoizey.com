@@ -17,7 +17,7 @@ Cette année, le Festival illustre le thème des "Familles, clans et tribus" par
 ## En juillet
 
 | **jour**    | **film**                    | **réalisateur**      | **année** |
-| ----------- | --------------------------- | -------------------- | --------- |
+|-------------|-----------------------------|----------------------|-----------|
 | **mar. 17** | A BRIGHTER SUMMER DAY       | Edward Yang          | 1991      |
 | **mer. 18** | FANNY ET ALEXANDRE          | Ingmar Bergman       | 1983      |
 | **jeu. 19** | LE PARRAIN III              | Francis Ford Coppola | 1990      |
@@ -35,7 +35,7 @@ Cette année, le Festival illustre le thème des "Familles, clans et tribus" par
 ## En août
 
 | **jour**     | **film**                        | **réalisateur**      | **année** |
-| ------------ | ------------------------------- | -------------------- | --------- |
+|--------------|---------------------------------|----------------------|-----------|
 | **mer. 1er** | LE FESTIN DE BABETTE            | Gabriel Axel         | 1987      |
 | **jeu. 2**   | GHOST DOG : LA VOIE DU SAMOURAI | Jim Jarmusch         | 1999      |
 | **ven. 3**   | TOUT SUR MA MERE                | Pedro Almodovar      | 1998      |
