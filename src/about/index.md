@@ -5,6 +5,7 @@ eleventyNavigation:
   key: About
   parent: secondary
   order: 2
+eleventyExcludeFromCollections: true
 lang: en
 ---
 

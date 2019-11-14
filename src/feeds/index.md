@@ -1,6 +1,11 @@
 ---
 title: Feeds
 layout: page
+eleventyNavigation:
+  key: Feeds
+  parent: secondary
+  order: 1
+eleventyExcludeFromCollections: true
 lang: en
 ---
 
