@@ -20,13 +20,13 @@ layout: null
 
       {%- assign posse_title = link.title | markdown_to_tweet -%}
       {%- if link.author -%}
-        {%- assign posse_content = link.author | append: ': ' -%}
+        {%- assign posse_content = link.author + ': ' -%}
       {%- else -%}
         {%- assign posse_content = '' -%}
       {%- endif %}
-      {%- assign posse_content = posse_content | append: posse_title | truncatewords: 35, "…" | truncate: 200, "…" -%}
+      {%- assign posse_content = posse_content + posse_title | truncate(200) -%}
       {%- comment -%}{%- assign posse_url = link.link -%}{%- endcomment -%}
-      {%- assign posse_url = site.url | append: link.url -%}
+      {%- assign posse_url = site.url + link.url -%}
 
       {% comment %} https://developer.twitter.com/en/docs/basics/counting-characters.html {% endcomment %}
       {%- assign tweet_without_meta_size = site.posseify.twitter.link.template | replace: '@posse_content', posse_content | replace: '@posse_tags', '' | replace: '@posse_url', '' | size -%}
@@ -38,10 +38,10 @@ layout: null
       {%- assign posse_tags_nb = 0 -%}
       {%- for tag in link.tags -%}
         {%- if posse_tags_nb < site.posseify.twitter.link.max_hashtags %}
-          {%- capture new_tag -%}#{{ tag | slugify: 'latin' | camelcase | append: ' ' }}{%- endcapture -%}
+          {%- capture new_tag -%}#{{ tag | slugify: 'latin' | camelcase + ' ' }}{%- endcapture -%}
           {%- assign new_space_left = space_left - new_tag.size -%}
           {%- if new_space_left > 0 -%}
-            {%- assign posse_tags = posse_tags | append: new_tag -%}
+            {%- assign posse_tags = posse_tags + new_tag -%}
             {%- assign space_left = space_left - new_tag.size -%}
           {%- endif -%}
         {%- endif -%}
