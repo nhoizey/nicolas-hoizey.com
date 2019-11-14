@@ -1,15 +1,20 @@
 ---
 layout: default
 title: Talks
+eleventyNavigation:
+  key: Talks
+  parent: primary
+  order: 3
+eleventyExcludeFromCollections: true
 ---
 
-{% assign nowTimestamp = 'now' | date: '%s' %}
+{% set nowTimestamp = build.timestamp %}
 <h1 class="list__title">Talks</h1>
 
 <p>Here are a few talks I gave along the years:</p>
 
 <ul class="list">
-  {% assign data = site.data.talks.data | first %}
+  {# {% assign data = site.data.talks.data | first %}
   {% for presentation in data.relationships.data %}
     {% assign talkTimestamp = presentation.attributes.presented_on | date: '%s' %}
     {% if talkTimestamp < nowTimestamp %}
@@ -35,5 +40,5 @@ title: Talks
         </div>
       </li>
     {% endif %}
-  {% endfor %}
+  {% endfor %} #}
 </ul>
