@@ -15,6 +15,7 @@ Mais cela peut prendre pas mal de temps et donner des migraines, si l'on a peur 
 # Comment ce script fonctionne-t-il ?
 
 {% cloudinary logo /assets/logos/homebrew.png alt="Homebrew" %}
+
 Ce script était initialement très largement inspiré de [celui de Nicolas Furno](https://github.com/nicolinuxfr/macOS-post-installation)[^furno], mais est ensuite passé à l'utilisation de [Homebrew Bundle](https://github.com/Homebrew/homebrew-bundle) grâce à la suggestion de [Thomas Parisot](https://twitter.com/oncletom). Il permet d'installer presque tous les logiciels que j'utilise, et de configurer quelques paramètres automatiquement après l'installation de macOS.
 
 [^furno]: Script qu'il a [décrit dans un article MacGénération](https://www.macg.co/logiciels/2017/01/un-script-pour-configurer-automatiquement-un-nouveau-mac-96652).

@@ -108,6 +108,7 @@ Boris, a friend, told be he saw a disturbing behavior of my text content when sc
 > — Boris 🚀 (@borisschapira) June 30, 2015
 
 {% comment %}
+
 Boris deleted his tweet: https://twitter.com/borisschapira/status/615972778236182528
 {% endcomment %}
 

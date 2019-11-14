@@ -8,6 +8,7 @@ tags:       [humour, cinema]
 ## Steven au service d'un rêve de Stanley
 
 {% cloudinary artificial-intelligence.png class="right" %}
+
 Si vous avez déjà vu la bande annonce de [A.I.](http://aimovie.warnerbros.com/) (Artificial Intelligence), le prochain film de Steven Spielberg, vous n'avez sans doute rien remarqué de particulier, si ce n'est que Stanley Kubrick est crédité comme co-producteur avec Amblin, la société de Steven Spielberg.
 
 Vous allez dire que ce n'est pas possible, que Stanley Kubrick est décédé il y a déjà un certain temps, mais le fait est que c'est lui qui a écrit ce scénario, qu'il a travaillé dessus pendant 20 ans en attendant d'avoir les outils nécessaires à sa réalisation, et que la grande faucheuse a oeuvré alors qu'il allait justement s'atteler à la tâche. Son ami Spielberg a alors relevé le défit de faire sien le plus grand rêve du génie.

@@ -19,6 +19,7 @@ Et celui sous Safari :
 Plus en détail, voilà ce que ça donne :
 
 {% cloudinary onehalf firefox-couleurs-zoom.png caption="Détail dans Firefox" %}
+
 {% cloudinary onehalf safari-couleurs-zoom.png caption="Détail dans Safari" %}
 
 ## L'enquête

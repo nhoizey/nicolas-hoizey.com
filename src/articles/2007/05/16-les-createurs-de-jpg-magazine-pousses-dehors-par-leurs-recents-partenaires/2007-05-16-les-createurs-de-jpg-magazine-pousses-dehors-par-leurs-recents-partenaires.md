@@ -11,6 +11,7 @@ J'ai découvert [JPG Magazine](http://jpgmag.com/) au détours de discussions su
 [^2]: N'hésitez surtout pas à voter pour mes photos !!! ;-)
 
 {% cloudinary logo /assets/logos/jpg-magazine.png %}
+
 Aujourd'hui, j'apprends avec désolation que [Derek Powazek](http://powazek.com/) et [Heather Powazek Champ](http://www.hchamp.com/)[^1], [ses fondateurs, sont poussés dehors](http://powazek.com/posts/534) par ceux[^2] avec lesquels ils pensaient pouvoir améliorer encore le principe de publication communautaire, au travers de la société [8020 Publishing](http://www.8020publishing.com/).
 
 Malheureusement, ces nouveaux arrivants ont pris le pouvoir, et décidé de [réécrire](http://jpgmag.com/about/) [l'histoire de JPG Magazine](http://web.archive.org/web/20060410203205/jpgmag.com/about/), en ne citant l'original que comme une inspiration pour leur propre version. Ce qui est vraiment dingue, c'est qu'ils n'ont à priori pas prévu de changer le mode de fonctionnement du magazine et de sa communauté, mais juste décidé de réécrire l'histoire, et donc de mentir aux nouveaux membres de la communauté et abonnés.

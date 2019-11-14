@@ -5,6 +5,7 @@ tags:  [offline, WebPerf, Service Worker, PWA]
 ---
 
 {% cloudinary logo /assets/logos/pwa.png alt="PWA" %}
+
 I love when Web site/apps work even when I'm offline. I've made my SVG game [esviji](http://play.esviji.com) work offline thanks to [appcache](https://developer.mozilla.org/en-US/docs/Web/HTML/Using_the_application_cache) just after attending [Jake Archibald](https://twitter.com/jaffathecake) conference about why [Application Cache is a Douchebag](http://www.paris-web.fr/2012/conferences/application-cache.php) during the 2012 edition of the [Paris Web](http://www.paris-web.fr/) conference. Fortunately, we have now Service Workers (in some browsers), which gives us more control over this kind of cache for offline browsing. But as Uncle Ben says, "With Great Power Comes Great Responsibility".
 
 Just like with appcache, it is possible with Service Workers to put a full website in the cache when loading the first visited page.
@@ -52,6 +53,7 @@ Just to illustrate, it means that **one visit to this site will cost a Mauritani
 Only 0.24 % for Jeremy in UK or 0.28 % for me in France, but we are here because we love the [World Wide Web, not Wealthy Westerners' Web](https://www.paris-web.fr/2016/conferences/www-world-wide-web-not-wealthy-westerners-web.php), as presented by [Bruce Lawson](https://twitter.com/brucel) during 2016 edition of the Paris Web conference.
 
 {% cloudinary logo /assets/logos/lighthouse.png %}
+
 Because I use it quite a lot these days to check my own Progressive Web Apps, I thought it would be nice if [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk), the Chrome extension that check web pages against [a growing list of best practices](https://developers.google.com/web/updates/2016/12/lighthouse-dbw), included a check on total page weight. It looks like [Hubert Sablonnière](https://twitter.com/hsablonniere) already [had this idea and created an issue](https://github.com/GoogleChrome/lighthouse/issues/584), which got support from [Paul Irish](https://twitter.com/paul_irish), so it will come sooner or later.
 
 For my own website, I first thought I would only cache visited pages. But I now cache the homepage, the two about pages, and the last post, regardless of the page on which the user arrives, for a really light total weight of 87 KB additional resources. The offline fallback page lists the pages that are in the cache, so that the user can discover some unknown content even when she's offline. This is a WIP, so it might break, and it will change over the coming weeks, because I might adjust my strategy.

@@ -5,6 +5,7 @@ lang: en
 ---
 
 {% cloudinary preset="logo", src="/assets/logos/feed.png" %}
+
 You can follow my publications with following Atom feeds:
 - [articles](/feeds/articles.xml)
 - [links](/feeds/links.xml)

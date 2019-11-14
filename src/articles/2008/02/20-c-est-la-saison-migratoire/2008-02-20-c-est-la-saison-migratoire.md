@@ -9,6 +9,7 @@ tags:       [hosting, Linux, Gandi]
 [^1]: Ce n'est pas complètement lié, mais c'est aussi un [futur ex-collègue](http://www.unelectronlibre.info/index.php/post/2008/02/16/A-la-recherche-dun-nouvel-emploi), ce qui va réduire de fait nos interactions non virtuelles tellement plus efficace que des mails…
 
 {% cloudinary logo /assets/logos/gandi.png %}
+
 Si vous voyez cet article, c'est que la migration des DNS est réussie, et vous accédez maintenant à Gastero Prod sur un serveur virtuel de la nouvelle [offre d'hébergement de Gandi](http://www.gandi.net/hebergement/)[^1].
 
 Je dois avouer que malgré une pratique régulière du Terminal sur Mac OS X, c'est la première fois depuis plus de 5 ans que je remets les mains dans le cambouis Linux -- une Debian en l'occurrence -- et je ne m'en sors pas trop mal. J'ai bien sûr été aidé par des tutoriels présents chez Gandi ou sur [le Wiki de Un Electron Libre](http://wiki.unelectronlibre.info/#tutoriels) et par des discussions avec NiCoS, mais certains automatismes reviennent vite, c'est comme le vélo… ;-)

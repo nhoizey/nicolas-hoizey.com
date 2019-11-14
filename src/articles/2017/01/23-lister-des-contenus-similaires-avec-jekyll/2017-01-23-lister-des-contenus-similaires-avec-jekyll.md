@@ -7,6 +7,7 @@ tags:  [Jekyll, plugin]
 Arrivé à la fin d'un billet, il est toujours intéressant de pouvoir facilement continuer la lecture avec un autre billet, sans changer de site. C'est l'objet des liens « billet précédent » / « billet suivant » que l'on trouve sur de nombreux blogs. Mais les sujets traités sur ce site étant très variés, il y a peu de chance qu'un lecteur puisse être intéressé par un autre billet qui ne serait proche que chronologiquement de celui qu'il vient de lire. Les propositions de rebond doivent être plus intelligentes que cela.
 
 {% cloudinary logo /assets/logos/jekyll.png alt="Jekyll" %}
+
 Jekyll disposait nativement dans sa version 2 d'un système de calcul de contenus similaires, sous la forme d'[une option LSI pour la génération du site](https://jekyllrb.com/docs/configuration/#build-command-options)[^lsi], qui permettait de remplir un tableau `site.related_posts`[^post_site]. LSI signifie [Latent Semantic Analysis](https://en.wikipedia.org/wiki/Latent_semantic_analysis#Latent_semantic_indexing). Je sais, ça ne vous avance pas à grand chose.
 
 [^lsi]: Cette option est à activer avec le paramètre `--lsi` pour les commandes `build` ou `serve` de Jekyll, ou directement — ce que je préfère — dans le paramétrage du `_config.yml` avec une entrée `lsi: true`.
@@ -20,11 +21,14 @@ De manière générale, c'est une très bonne idée de réduire l'étendue du c�
 Une fois le plugin installé, il suffit d'ajouter un bout de code tel que celui-ci au gabarit `_layouts/post.html` pour lister les billets similaires :
 
 {% raw %}
+
 ```liquid
 <ul>
   {% for post in site.related_posts limit:6 %}
+
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
+
 </div>
 ```
 {% endraw %}

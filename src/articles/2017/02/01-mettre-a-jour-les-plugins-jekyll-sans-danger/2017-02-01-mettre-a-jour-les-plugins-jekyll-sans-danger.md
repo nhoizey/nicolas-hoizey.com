@@ -9,6 +9,7 @@ Si vous n'utilisez pas [Bundler](https://bundler.io/) pour installer vos plugins
 [^doc]: Je préférerai d'ailleurs voir cette option en premier, tellement elle simplifie les choses.
 
 {% cloudinary logo /assets/logos/jekyll.png alt="Jekyll" %}
+
 # Connaître la liste des mises à jour disponibles
 
 D'abord, lancez la commande suivante :

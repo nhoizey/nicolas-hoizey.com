@@ -5,6 +5,7 @@ tags:       [cinema, movie]
 ---
 
 {% cloudinary onethird cast-away-affiche.png %}
+
 Chefaillon stressé (par nature et obligation professionnelle) chez Federal Express, Chuck Noland (Tom Hanks) est le seul rescapé (avec quelques paquets FedEx) du crash d'un avion en plein Pacifique. Echoué sur une île déserte, il va alors devoir apprendre à vivre sans tous les gadgets qui simplifient la vie moderne, du briquet au couteau en passant par la gourde, et surtout garder l'espoir de revoir un jour sa fiancée (Helen Hunt) dont il a réussi à sauver une photo…
 
 Voilà pour le script de [Cast Away](http://www.castawaymovie.com/), il est vrai assez conventionnel.

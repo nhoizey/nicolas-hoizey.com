@@ -5,6 +5,7 @@ tags:       [comic]
 ---
 
 {% cloudinary onethird art84-1.jpg %}
+
 Marc-Antoine Mathieu est né en 1959 à Anthony. Il a étudié à l'Ecole des Beaux Arts d'Angers avant de créer, toujours à Angers, l'agence de graphistes-scénographes [Lucie Lom](http://www.lucie-lom.fr/) spécialisée dans la création d'expositions.
 
 En 1987, il débute sa carrière BD avec *Paris-Mâcon*, avec son frère Jean-Luc, édité par Futuropolis.
