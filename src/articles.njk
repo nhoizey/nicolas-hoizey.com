@@ -7,10 +7,10 @@ title: Articles
 
 <h1 class="list__title">Articles</h1>
 <ul class="list">
-  {% for article in collections.articles | reverse | limit(3) %}
+  {% for article in collections.articles | reverse %}
     <li class="list__item list__item--large">
       <div class="card card--article h-entry">
-        {{ articleCard(article.data.title, article.url, article.data.lang, article.date, article.data.tags, article.data.excerpt) }}
+        {{ articleCard(article.data.title, article.url, article.data.lang, article.date, article.data.tags, article.templateContent ) }}
       </div>
     </li>
   {% endfor %}
