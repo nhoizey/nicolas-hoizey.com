@@ -7,7 +7,7 @@ tags:       [me, development, PHP, phpHeaven, opensource, phpMyChat]
 
 ## phpMyChat : le chat en open source
 
-{% cloudinary onethird jdnet_phpmychat.png caption="L'article dans le JdNet" %}
+{% respimg "jdnet_phpmychat.png", "L'article dans le JdNet", "onethird" %}
 
 Il est possible de confier la mise en place d'un service de chat à un prestataire, mais il est aussi possible de le faire soi même, de nombreuses applications disponibles sur le net le permettant. C'est par exemple le cas de [phpMyChat](http://www.phpheaven.net/phpmychat:home), une application [PHP](http://www.php.net/) développée en open source par Nicolas Hoizey (qui travaille par ailleurs pour la web agency [SQLI](http://www.sqli.fr/)), et Loïc Chapeaux, ainsi que de nombreux contributeurs disséminés de par le monde. Ainsi, l'application est disponible en 32 langues. Elle est actuellement utilisée par de nombreux sites, comme par exemple [Gastero Prod](http://www.gasteroprod.com/). Des prestataires de services l'utilisent aussi pour mettre en place des solutions de chat pour leurs clients. En effet, cette application étant open source, il est possible de l'adapter à des besoins particuliers.
 

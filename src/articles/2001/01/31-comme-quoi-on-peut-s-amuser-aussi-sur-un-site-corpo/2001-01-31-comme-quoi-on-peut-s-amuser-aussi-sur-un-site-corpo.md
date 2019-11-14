@@ -8,4 +8,4 @@ La société allemande [C.O.M.](http://com-ebusiness.de/) a fait appel aux desig
 
 Le résultat, faisant un usage intensif de Flash, est un site très beau et très ludique, mais où l'information n'est pas forcément très simple à trouver, surtout si l'on n'est pas germanophone…
 
-{% cloudinary art29-1.jpg %}
+{% respimg "art29-1.jpg" %}

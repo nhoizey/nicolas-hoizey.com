@@ -6,7 +6,7 @@ tags:       [cinema]
 
 Comme chaque année, [La Villette](http://www.la-villette.com/) propose son [Festival de Cinéma en Plein Air](http://www.la-villette.com/manif/html/302.htm) sur la Prairie du Triangle.
 
-{% cloudinary onethird festival-de-cinema-en-plein-air.jpg %}
+{% respimg "festival-de-cinema-en-plein-air.jpg", "", "onethird" %}
 
 Au programme, un écran gonflable, des transats et couvertures, de quoi pique-niquer, une ambiance de feu (s'il ne pleut pas), et de grands films.
 

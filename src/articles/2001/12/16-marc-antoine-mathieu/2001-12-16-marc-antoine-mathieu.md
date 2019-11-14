@@ -4,7 +4,7 @@ lang:       fr
 tags:       [comic]
 ---
 
-{% cloudinary onethird art84-1.jpg %}
+{% respimg "art84-1.jpg", "", "onethird" %}
 
 Marc-Antoine Mathieu est né en 1959 à Anthony. Il a étudié à l'Ecole des Beaux Arts d'Angers avant de créer, toujours à Angers, l'agence de graphistes-scénographes [Lucie Lom](http://www.lucie-lom.fr/) spécialisée dans la création d'expositions.
 
@@ -14,24 +14,24 @@ Retrouvez sa [biographie complète](http://www.editions-delcourt.fr/catalogueaut
 
 Il débute sa célèbre série *Julius Corentin Acquefacques, prisonnier des rêves* en 1989 avec l'album *L'Origine*. Ce premier titre le propulse au devant de la scène avec de nombreux prix, et les suivants confirmeront son talent. Dans la série *Julius Corentin Acquefacques, prisonnier des rêves* éditée par [les éditions Delcourt](http://www.editions-delcourt.fr/) se trouvent donc les 4 titres suivants :
 
-| Titre              | Couverture                   |
-|--------------------|------------------------------|
-| L'Origine          | {% cloudinary art84-2.jpg %} |
-| La Qu…             | {% cloudinary art84-3.jpg %} |
-| Le Processus       | {% cloudinary art84-4.jpg %} |
-| Le Début de la fin | {% cloudinary art84-5.jpg %} |
+| Titre              | Couverture                  |
+|--------------------|-----------------------------|
+| L'Origine          | {% respimg "art84-2.jpg" %} |
+| La Qu…             | {% respimg "art84-3.jpg" %} |
+| Le Processus       | {% respimg "art84-4.jpg" %} |
+| Le Début de la fin | {% respimg "art84-5.jpg" %} |
 
 On note très rapidement dans l'oeuvre de Marc-Antoine Mathieu des influences en provenance de Kafka pour les petites absurdités, de Peeters et Schuiten pour le dessin noir & blanc et les ambiances étranges,…
 
 Après 5 ans d'absence, Marc-Antoine Mathieu revient à la BD en mars 2000, toujours chez Delcourt, avec *Mémoire morte*, une oeuvre plus noire, moins ludique, mais tout aussi passionnante.
 
-{% cloudinary art84-6.jpg %}
+{% respimg "art84-6.jpg" %}
 
 Il publie ensuite fin 2001 son dernier titre à ce jour, *Le Dessin*, dont vous pouvez lire une critique dans [Chronic'art](http://www.chronicart.com/livres/livres_bd.php3?id=7149).
 
-{% cloudinary art84-7.jpg %}
+{% respimg "art84-7.jpg" %}
 
-{% cloudinary doc-76.png caption="Le Dessin" %}
+{% respimg "doc-76.png", "Le Dessin" %}
 
 Parmis ses autres oeuvres, on trouve à l'Association :
 
