@@ -10,7 +10,6 @@ eleventyExcludeFromCollections: true
 
 {% from "macros/articleCard.njk" import articleCard %}
 
-<h1 class="list__title">Articles</h1>
 <ul class="list">
   {% for article in collections.articles | reverse %}
     <li class="list__item list__item--large">

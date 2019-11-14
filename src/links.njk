@@ -10,7 +10,6 @@ eleventyExcludeFromCollections: true
 
 {% from "macros/linkCard.njk" import linkCard %}
 
-<h1 class="list__title">Links</h1>
 <ul class="list">
   {% for link in collections.links | reverse %}
     <li class="list__item">
