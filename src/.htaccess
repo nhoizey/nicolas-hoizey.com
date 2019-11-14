@@ -740,14 +740,7 @@ RewriteRule ^a-propos\.html /about/ [QSA,L,R=301]
 RewriteRule ^a-propos/du-site\.html$ /about/the-website.html [QSA,L,R=301]
 
 # Remove the temporary `/articles/` folder because it lost Webmentions
-RewriteRule ^articles/(.*)$ /$1 [QSA,L,R=301]
-
-# Migrating some notes to articles
-RewriteRule ^notes/2018/0515100611.html /2018/05/technical-credit.html [QSA,L,R=301]
-RewriteRule ^notes/2018/0517102213.html /2018/05/twitter-search.html [QSA,L,R=301]
-RewriteRule ^notes/2018/0522111855.html /2018/05/contextes-opquast.html [QSA,L,R=301]
-RewriteRule ^notes/2018/0801102404.html /2018/08/just.html [QSA,L,R=301]
-RewriteRule ^notes/.* / [QSA,L,R=301]
+# RewriteRule ^articles/(.*)$ /$1 [QSA,L,R=301]
 
 # Migrating some articles to links
 RewriteRule ^2018/08/just.html /links/2018/08/just.html [QSA,L,R=301]
