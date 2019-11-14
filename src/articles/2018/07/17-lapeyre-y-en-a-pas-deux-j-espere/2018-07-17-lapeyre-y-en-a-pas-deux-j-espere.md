@@ -6,20 +6,21 @@ tags:  [SAV, fail]
 
 Je ne sais pas si vous avez déjà été confronté au SAV de Lapeyre, mais je peux vous dire qu'il vaut son pesant de cacahuètes.
 
-{% cloudinary onethird /assets/logos/lapeyre.png %}
+{% respimg "/assets/logos/lapeyre.png", "", "onethird" %}
+
 Le **4 octobre 2017**, un technicien Lapeyre venait prendre des mesures chez moi pour avoir les dimensions sur mesure d'une porte de garage.
 
 Le **11 janvier 2018**, voilà enfin le jour de l’installation ! Forcément, ça a pris un peu de temps, puisqu'il fallait fabriquer la porte sur mesure (merci le promoteur, il y a 35 ans…) et qu'il y a eu les fêtes de fin d'année.
 
 Ah… mais en fait, **une des pièces livrées n’est pas aux bonnes dimensions** !
 
-{% giphy 3oEjHWzZQaCrZW2aWs %}
+{% giphy "3oEjHWzZQaCrZW2aWs" %}
 
 Sympa, du coup la porte est certes installée, mais l'étanchéité en haut et l'isolation ne sont pas opérantes. En plein hiver, c'est cool.
 
 Multiples échanges avec le SAV (quand il est joignable, et avec un changement de numéro de téléphone en cours de route, c'est plus simple), pour découvrir **au bout de plusieurs semaines** (on est en **mars**) que **la nouvelle pièce n'a en fait pas encore été commandée** !
 
-{% giphy XsUtdIeJ0MWMo %}
+{% giphy "XsUtdIeJ0MWMo" %}
 
 Une fois enfin commandée, le SAV ne peut (ou veut ?) plus trop rien faire, il faut voir avec le magasin (ils ne se parlent pas, ce serait trop simple), notamment le service installations. Sauf qu'ils ne sont jamais joignables, et surtout n'auraient pas idée de me prévenir si la pièce arrive enfin.
 
@@ -31,7 +32,7 @@ Le **22 juin 2018**, l'installateur vient enfin poser la pièce manquante, c'est
 
 **Ah non, la pièce est incomplète**, il manque le joint, on ne peut pas la poser comme ça mon bon monsieur, vous comprenez…
 
-{% giphy TseBjMu53JgWc %}
+{% giphy "TseBjMu53JgWc" %}
 
 En ce **17 juillet 2018, la pose de ma porte de garage n’est toujours pas finalisée**.
 
@@ -43,7 +44,7 @@ La nouvelle pièce, aux bonnes dimensions et avec un joint est commandée (c'est
 
 C'est pas un peu compliqué, déjà, depuis **10 mois que ça dure** ?
 
-{% giphy 10UHehEC098kAE %}
+{% giphy "10UHehEC098kAE" %}
 
 Vous imaginez bien que je vais dire beaucoup de bien de Lapeyre autour de moi.
 

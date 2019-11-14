@@ -6,12 +6,13 @@ tags:  [video, GIF, Cloudinary]
 
 I like animated GIFs, like most people these days I think, but they are really heavy, hurting the performance of web pages, and consuming data plans faster than should be needed. So we need to convert them to videos, which are much lighter, for the same visual result. Let's use Cloudinary.
 
-{% cloudinary logo /assets/logos/cloudinary.png alt="The Cloudinary logo" %}
+{% respimg "/assets/logos/cloudinary.png", "The Cloudinary logo", "logo" %}
+
 *You need a Cloudinary account to try all of this, but no fear, its **free plan** is really confortable for personnal use or just testing: [signup for Cloudinary](https://nho.io/cloudinary-signup).*
 
 The animations in this post are animated GIFs provided by Giphy and obviously converted by Cloudinary.
 
-{% giphy 12NUbkX6p4xOO4 %}
+{% giphy "12NUbkX6p4xOO4" %}
 
 Cloudinary has been providing animated GIFs to video conversion for a while, as this 4 years old blog post shows: [Reduce size of animated GIFs, automatically convert to WebM and MP4](https://cloudinary.com/blog/reduce_size_of_animated_gifs_automatically_convert_to_webm_and_mp4).
 
@@ -34,7 +35,7 @@ Easy! Magical!
 
 But **I want my publication process to be even easier**, not requiring any upload (manual or automated) of my digital assets.
 
-{% giphy C41yP1w3Pe0la %}
+{% giphy "C41yP1w3Pe0la" %}
 
 That's why I find [Cloudinary's Fetch API](https://cloudinary.com/documentation/fetch_remote_images#remote_image_fetch_url) awesome!
 
@@ -54,7 +55,7 @@ https://res.cloudinary.com/<cloud_name>/image/fetch/https://example.com/anim.gif
 
 If we try to replace `.gif` with `.mp4` at the end of this URL, like in the 4 years old Cloudinary post, it won't work, because Cloudinary will try to fetch a video located at `https://example.com/anim.mp4`, which doesn't exist.
 
-{% giphy 5yeHSK4yNQAy4 %}
+{% giphy "5yeHSK4yNQAy4" %}
 
 **The solution** is to use the [explicit format conversion parameter (`f_`)](https://cloudinary.com/documentation/image_transformations#image_format_support) you can set in your Fetch URL, before the pristine image URL:
 
@@ -78,7 +79,7 @@ With this:
 </video>
 ```
 
-{% giphy uKpWZU3VXLprW %}
+{% giphy "uKpWZU3VXLprW" %}
 
 Don't put an `<img>` tag with the animated GIF as the fallback, it would be downloaded anyway, even if the browser supports and shows the video.
 

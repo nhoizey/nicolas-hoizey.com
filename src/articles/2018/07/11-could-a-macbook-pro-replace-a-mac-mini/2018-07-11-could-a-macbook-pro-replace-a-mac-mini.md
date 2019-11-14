@@ -12,7 +12,7 @@ I know [Tim Cook said back in October 2017 that Apple plans to keep the Mac mini
 
 But nobody knows if/when this hypothetical new Mac mini will actually be available.
 
-{% cloudinary onethird mac-mini.jpg %}
+{% respimg "mac-mini.jpg", "", "onethird" %}
 
 And [I don't want to buy current Mac minis](https://www.macworld.co.uk/feature/mac/5-reasons-shouldnt-buy-mac-mini-3535701/).
 
