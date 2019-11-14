@@ -1,4 +1,4 @@
 {
   "layout": "article",
-  "permalink": "/{{ page.date | permalinkDate }}/{{ page.fileSlug }}.html"
+  "permalink": "/articles/{{ page.date | permalinkDate }}/{{ page.fileSlug }}.html"
 }
