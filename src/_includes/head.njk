@@ -85,7 +85,7 @@
   {% if ogType == "article" %}
     <meta property="article:published_time" content="{{ page.date | attributeDate }}" />
     <meta property="article:author" content="https://www.facebook.com/nhoizey" />
-    {% for tag in page.tags %}
+    {% for tag in tags %}
       <meta property="article:tag" content="{{ tag }}" />
     {% endfor %}
   {% endif %}
