@@ -1,3 +1,8 @@
+const slugify = require("@sindresorhus/slugify");
+const moment = require("moment");
+const { parse, stringify } = require("flatted/cjs");
+const cheerio = require('cheerio');
+
 module.exports = function (eleventyConfig) {
 
   // ------------------------------------------------------------------------
@@ -16,7 +21,6 @@ module.exports = function (eleventyConfig) {
   const ordinal = require("./src/_filters/ordinal.js");
   eleventyConfig.addFilter("ordinal", ordinal);
 
-  const moment = require("moment");
   eleventyConfig.addFilter("date", function (date, format) {
     return moment(date).format(format);
   });
@@ -40,10 +44,8 @@ module.exports = function (eleventyConfig) {
     return array.slice(offset);
   });
 
-  const { parse, stringify } = require("flatted/cjs");
   eleventyConfig.addFilter("safeDump", stringify);
 
-  const cheerio = require('cheerio');
   eleventyConfig.addFilter("stripFootnotes", function (content) {
     console.error(content);
     const $ = cheerio.load(content);
@@ -180,7 +182,6 @@ module.exports = function (eleventyConfig) {
   const markdownItFootnote = require("markdown-it-footnote");
 
   const markdownItAnchor = require("markdown-it-anchor");
-  const slugify = require("@sindresorhus/slugify");
   const markdownItAnchorOptions = {
     permalink: true,
     permalinkClass: "direct-link",
