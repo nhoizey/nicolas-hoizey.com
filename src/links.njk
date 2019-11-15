@@ -2,12 +2,30 @@
 layout: page
 title: Links
 eleventyExcludeFromCollections: true
+pagination:
+  data: collections.links
+  size: 10
+  alias: links
+permalink: "links/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}{% else %}index{% endif %}.html"
 ---
 
 {% from "macros/linkCard.njk" import linkCard %}
 
+<p class="pagination">
+  Pages:
+  {% set separator = joiner(", ") %}
+  {%- for pageEntry in pagination.pages %}
+    {{ separator() }}
+    {% if page.url == pagination.hrefs[ loop.index0 ] %}
+      <strong>{{ loop.index }}</strong>
+    {% else %}  
+      <a href="{{ pagination.hrefs[ loop.index0 ] }}">{{ loop.index }}</a>
+    {% endif %}
+  {%- endfor %}
+</p>
+
 <ul class="list">
-  {% for link in collections.links %}
+  {% for link in pagination.items %}
     <li class="list__item">
       <div class="card card--link">
         {{ linkCard(link.data.title, link.url, link.data.link, link.data.authors, link.date, link.data.tags) }}
@@ -15,3 +33,16 @@ eleventyExcludeFromCollections: true
     </li>
   {% endfor %}
 </ul>
+
+<p class="pagination">
+  Pages:
+  {% set separator = joiner(", ") %}
+  {%- for pageEntry in pagination.pages %}
+    {{ separator() }}
+    {% if page.url == pagination.hrefs[ loop.index0 ] %}
+      <strong>{{ loop.index }}</strong>
+    {% else %}  
+      <a href="{{ pagination.hrefs[ loop.index0 ] }}">{{ loop.index }}</a>
+    {% endif %}
+  {%- endfor %}
+</p>

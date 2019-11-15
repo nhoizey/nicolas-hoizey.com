@@ -1,9 +1,27 @@
 ---
 layout: page
 title: Articles
+pagination:
+  data: collections.articles
+  size: 5
+  alias: articles
+permalink: "articles/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}{% else %}index{% endif %}.html"
 ---
 
 {% from "macros/articleCard.njk" import articleCard %}
+
+<p class="pagination">
+  Pages:
+  {% set separator = joiner(", ") %}
+  {%- for pageEntry in pagination.pages %}
+    {{ separator() }}
+    {% if page.url == pagination.hrefs[ loop.index0 ] %}
+      <strong>{{ loop.index }}</strong>
+    {% else %}  
+      <a href="{{ pagination.hrefs[ loop.index0 ] }}">{{ loop.index }}</a>
+    {% endif %}
+  {%- endfor %}
+</p>
 
 <ul class="list">
   {% for article in pagination.items %}
@@ -14,3 +32,16 @@ title: Articles
     </li>
   {% endfor %}
 </ul>
+
+<p class="pagination">
+  Pages:
+  {% set separator = joiner(", ") %}
+  {%- for pageEntry in pagination.pages %}
+    {{ separator() }}
+    {% if page.url == pagination.hrefs[ loop.index0 ] %}
+      <strong>{{ loop.index }}</strong>
+    {% else %}  
+      <a href="{{ pagination.hrefs[ loop.index0 ] }}">{{ loop.index }}</a>
+    {% endif %}
+  {%- endfor %}
+</p>
