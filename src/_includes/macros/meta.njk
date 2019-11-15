@@ -15,7 +15,7 @@
         {% set comma = joiner(", ") %}
         {% for tag in tags %}
           {{ comma() }}
-          <a href="tags/{{ tag | slug }}.html" rel="tag" class="p-category">{{ tag }}</a>
+          <a href="/tags/{{ tag | slugify }}.html" rel="tag" class="p-category">{{ tag }}</a>
         {% endfor %}
       </li>
       {#

@@ -21,6 +21,10 @@ module.exports = function (eleventyConfig) {
   const ordinal = require("./src/_filters/ordinal.js");
   eleventyConfig.addFilter("ordinal", ordinal);
 
+  eleventyConfig.addFilter("slugify", function (string) {
+    return slugify(string);
+  })
+
   eleventyConfig.addFilter("date", function (date, format) {
     return moment(date).format(format);
   });
