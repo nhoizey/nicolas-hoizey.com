@@ -6,6 +6,12 @@ const cheerio = require('cheerio');
 module.exports = function (eleventyConfig) {
 
   // ------------------------------------------------------------------------
+  // Collections
+  // ------------------------------------------------------------------------
+
+  eleventyConfig.addCollection("tagList", require("./_11ty/getTagList"));
+
+  // ------------------------------------------------------------------------
   // Filters
   // ------------------------------------------------------------------------
 
@@ -62,6 +68,7 @@ module.exports = function (eleventyConfig) {
   // ------------------------------------------------------------------------
 
   eleventyConfig.addNunjucksShortcode("cloudinary", function (preset, image) {
+    console.error("Still using a 'cloudinary' shortcode!");
     return `<img src="${image}" />`;
   });
 
