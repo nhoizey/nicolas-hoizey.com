@@ -10,8 +10,7 @@ author:
   name: Nicolas Hoizey
 content: "<p>Parce que :</p><br /><ul><li>
   d'une part, le nuage est en général présent dans une page
-  où se trouvent déjà ces éléments hiérarchiques</li></ul>&lt;ul
-  class=&#034;spip&#034;&gt;<li> et surtout, d'autre part, parce qu'ils
+  où se trouvent déjà ces éléments hiérarchiques</li><li> et surtout, d'autre part, parce qu'ils
   permettent d'exprimer une hiérarchie, et non une importance relative. Un
   h2 doit être dans un h1, alors qu'un tag est plus ou moins important qu'un
   autre, mais pas forcément &#034;inclus&#034; sémantiquement</li></ul>"
