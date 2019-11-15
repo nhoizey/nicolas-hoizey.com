@@ -4,7 +4,7 @@ layout: page
 
 <h1>Tags</h1>
 
-{% for tag in collections.tagList %}
-  {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+{% for tag in collections.tags %}
+  {% set tagUrl %}/tags/{{ tag | slugify }}.html{% endset %}
   <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
 {% endfor %}

@@ -4,17 +4,7 @@ module.exports = function (collection) {
     if ("tags" in item.data) {
       let tags = item.data.tags;
 
-      tags = tags.filter(function (item) {
-        switch (item) {
-          // this list should match the `filter` list in tags.njk
-          case "all":
-          case "articles":
-          case "links":
-            return false;
-        }
-
-        return true;
-      });
+      tags = tags.filter(item => item !== "all");
 
       for (const tag of tags) {
         tagSet.add(tag);

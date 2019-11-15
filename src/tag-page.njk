@@ -9,7 +9,7 @@ pagination:
 layout: page
 renderData:
   title: Content tagged “{{ tag }}”
-permalink: /tags/{{ tag }}.html
+permalink: /tags/{{ tag | slugify }}.html
 ---
 <h1>Content tagged “{{ tag }}”</h1>
 

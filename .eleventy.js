@@ -17,7 +17,7 @@ module.exports = function (eleventyConfig) {
     return collection.getFilteredByGlob("src/links/**/*.md");
   });
 
-  eleventyConfig.addCollection("tagList", require("./_11ty/getTagList"));
+  eleventyConfig.addCollection("tags", require("./_11ty/getTags"));
 
   // ------------------------------------------------------------------------
   // Filters
@@ -36,8 +36,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("ordinal", ordinal);
 
   eleventyConfig.addFilter("slugify", function (string) {
-    return slugify(string);
+    return slugify(string, {
       decamelize: false,
+      customReplacements: [
+        ['%', ' ']
+      ]
+    });
   })
 
   eleventyConfig.addFilter("date", function (date, format) {
