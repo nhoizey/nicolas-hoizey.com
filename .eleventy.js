@@ -86,6 +86,11 @@ module.exports = function (eleventyConfig) {
     return `<div class="giphy">${videoTag}</div>`;
   });
 
+  eleventyConfig.addPairedShortcode("markdown", (content, inline = null) => {
+    return inline
+      ? markdownIt.renderInline(content)
+      : markdownIt.render(content);
+  });
 
   // ------------------------------------------------------------------------
   // Plugins
