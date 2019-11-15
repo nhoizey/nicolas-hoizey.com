@@ -37,6 +37,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("slugify", function (string) {
     return slugify(string);
+      decamelize: false,
   })
 
   eleventyConfig.addFilter("date", function (date, format) {
