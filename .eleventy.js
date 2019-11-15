@@ -10,11 +10,15 @@ module.exports = function (eleventyConfig) {
   // ------------------------------------------------------------------------
 
   eleventyConfig.addCollection("articles", function (collection) {
-    return collection.getFilteredByGlob("src/articles/**/*.md");
+    return collection.getFilteredByGlob("src/articles/**/*.md").sort(function (a, b) {
+      return b.date - a.date;
+    });
   });
 
   eleventyConfig.addCollection("links", function (collection) {
-    return collection.getFilteredByGlob("src/links/**/*.md");
+    return collection.getFilteredByGlob("src/links/**/*.md").sort(function (a, b) {
+      return b.date - a.date;
+    });;
   });
 
   eleventyConfig.addCollection("tags", require("./_11ty/getTags"));

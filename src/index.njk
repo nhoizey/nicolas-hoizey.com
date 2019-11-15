@@ -36,7 +36,7 @@ JSON-LD for:
 
 <h2>Latest articles</h2>
 <ul class="list">
-  {% for article in collections.articles | reverse | limit(3) %}
+  {% for article in collections.articles | limit(3) %}
     <li class="list__item list__item--large">
       <div class="card card--article h-entry">
         {{ articleCard(article.data.title, article.url, article.data.lang, article.date, article.data.tags, article.templateContent ) }}
@@ -49,7 +49,7 @@ JSON-LD for:
 
 <h2>Latest links</h2>
 <ul class="list">
-  {% for link in collections.links | reverse | limit(6) %}
+  {% for link in collections.links | limit(6) %}
     <li class="list__item">
       <div class="card card--link h-entry">
         {{ linkCard(link.data.title, link.url, link.data.link, link.data.authors, link.date, link.data.tags) }}
