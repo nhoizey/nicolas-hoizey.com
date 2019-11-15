@@ -1,17 +1,29 @@
 module.exports = function (collection) {
-  let tagSet = new Set();
+  let tagsCollection = new Map();
+  let max = 0;
+
   collection.getAll().forEach(function (item) {
     if ("tags" in item.data) {
-      let tags = item.data.tags;
+      let itemTags = item.data.tags;
 
-      tags = tags.filter(item => item !== "all");
+      // itemTags = itemTags.filter(tag => tag !== "all");
 
-      for (const tag of tags) {
-        tagSet.add(tag);
+      for (const tag of itemTags) {
+        let number = (tagsCollection.get(tag) || 0) + 1;
+        max = Math.max(max, number);
+        tagsCollection.set(tag, number);
       }
     }
   });
 
-  // TODO: sort
-  return [...tagSet];
+  const tags = [];
+  tagsCollection.forEach((number, tag) => {
+    tags.push({ 'tag': tag, 'number': number, 'log': (number / max * 1.5 + 1) });
+  });
+
+  tags.sort((a, b) => {
+    return a.tag.localeCompare(b.tag, 'en', { ignorePunctuation: true });
+  })
+
+  return tags;
 };

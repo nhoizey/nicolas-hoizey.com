@@ -5,6 +5,12 @@
 // ************************************************************
 
 .tagscloud__tags {
+  list-style: none;
+
+  li {
+    display: inline-block;
+  }
+
   a {
     &:link,
     &:visited {

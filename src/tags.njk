@@ -4,7 +4,9 @@ layout: page
 
 <h1>Tags</h1>
 
+<ol class="tagscloud__tags">
 {% for tag in collections.tags %}
-  {% set tagUrl %}/tags/{{ tag | slugify }}.html{% endset %}
-  <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
-{% endfor %}
+  {% set tagUrl %}/tags/{{ tag.tag | slugify }}.html{% endset %}
+    <li><a href="{{ tagUrl | url }}" class="tag" style="font-size: {{ tag.log }}em">{{ tag.tag }}</a></li>
+  {% endfor %}
+</ol>
