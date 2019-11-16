@@ -8,7 +8,7 @@
     "url": "https://nicolas-hoizey.com/"
   },
   "license": "MIT",
-  "homepage": "http://localhost:8080",
+  "homepage": "https://nicolas-hoizey.com",
   "repository": {
     "type": "git",
     "url": "https://github.com/nhoizey/nicolas-hoizey.com"
@@ -53,6 +53,7 @@
     "gulp-sourcemaps": "^2.6.4",
     "gulp-svg-sprite": "^1.4.0",
     "gulp-uglify": "^3.0.1",
+    "merge-stream": "~2.0.0",
     "html-entities": "^1.2.1",
     "html-minifier": "^3.5.20",
     "luxon": "^1.12.0",
