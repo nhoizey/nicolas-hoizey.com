@@ -15,7 +15,7 @@
       <div
         class="wrap">
         <!-- {{ page.url }} -->
-        {% if page.url == "/" or page.url == "/index.html" %}
+        {% if page.url == "/" %}
           <h1 class="site_title h-card" rel="me">Nicolas Hoizey</h1>
         {% else %}
           <p class="site_title">
@@ -28,7 +28,7 @@
 
     {% include "components/navigation.njk" %}
 
-    {% if page.url == "/" or page.url == "/index.html" %}
+    {% if page.url == "/" %}
       {% include "components/intro.njk" %}
     {% endif %}
 
