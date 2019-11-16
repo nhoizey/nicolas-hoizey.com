@@ -6,16 +6,18 @@
 
 .tagscloud__tags {
   list-style: none;
+  padding: 0;
 
   li {
     display: inline-block;
+    margin: 0;
   }
 
   a {
     &:link,
     &:visited {
       display: inline-block;
-      margin: 0.2em;
+      margin: 0.2em 0.3em;
       padding: 0.1em 0.3em;
 
       text-decoration: none;
@@ -24,14 +26,18 @@
       background-color: $color-primary-lighter-2;
       color: $color-white;
       border-radius: 0.2em;
+    }
 
-      &.set-2,
-      &.set-3 {
+    &.tag2 {
+      &:link,
+      &:visited {
         background-color: $color-primary-lighter-1;
       }
+    }
 
-      &.set-4,
-      &.set-5 {
+    &.tag3 {
+      &:link,
+      &:visited {
         background-color: $color-primary;
       }
     }
@@ -40,45 +46,16 @@
     &:focus {
       background-color: $color-link-decoration;
       outline: none;
-
-      &.set-2,
-      &.set-3,
-      &.set-4,
-      &.set-5 {
-        background-color: $color-link-decoration;
-      }
     }
 
     &:active {
       background-color: $color-secondary;
 
-      &.set-2,
-      &.set-3,
-      &.set-4,
-      &.set-5 {
+      &.tag2,
+      &.tag3 {
         background-color: $color-secondary;
       }
     }
-  }
-
-  .set-1 {
-    font-size: var(--font-size-s);
-  }
-
-  .set-2 {
-    font-size: var(--font-size-m);
-  }
-
-  .set-3 {
-    font-size: var(--font-size-l);
-  }
-
-  .set-4 {
-    font-size: var(--font-size-xl);
-  }
-
-  .set-5 {
-    font-size: var(--font-size-xxl);
   }
 }
 

@@ -1,0 +1,26 @@
+---
+title: Tags
+layout: page
+permalink: "/tags/index.html"
+---
+
+{% set minSize = 0.9 %}
+{% set maxSize = 1.8 %}
+{% set minWeight = 300 %}
+{% set maxWeight = 900 %}
+
+<p class="intro">These are all tags used in contents from this site:</p>
+
+<ol class="tagscloud__tags">
+{% for tag in collections.tags %}
+  {% set tagUrl %}/tags/{{ tag.tag | slugify }}.html{% endset %}
+    <li>
+      <a href="{{ tagUrl | url }}"
+        class="tag{{ tag.step }}"
+        style="
+          font-size: {{ (maxSize - minSize) * tag.factor  + minSize }}em;
+          font-weight: {{ (maxWeight - minWeight) * tag.factor  + minWeight }}"
+        rel="tag">{{ tag.tag }}</a>
+    </li>
+  {% endfor %}
+</ol>

@@ -16,9 +16,14 @@ module.exports = function (collection) {
     }
   });
 
+  // We assume there is at least one tag with only one content
+  const minLog = Math.log(1);
+  const maxLog = Math.log(max);
+
   const tags = [];
   tagsCollection.forEach((number, tag) => {
-    tags.push({ 'tag': tag, 'number': number, 'log': (number / max * 1.5 + 1) });
+    let factor = (Math.log(number) - minLog) / (maxLog - minLog);
+    tags.push({ 'tag': tag, 'number': number, 'factor': factor, 'step': Math.ceil(factor * 2) + 1 });
   });
 
   tags.sort((a, b) => {
