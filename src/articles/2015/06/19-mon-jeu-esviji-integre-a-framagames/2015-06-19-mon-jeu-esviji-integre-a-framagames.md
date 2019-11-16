@@ -8,7 +8,7 @@ Quelle heureuse surprise ce matin de découvrir[^grace] que mon jeu libre [esvij
 
 [^grace]: C'est [grâce à Thomas](https://twitter.com/iamtzi/status/611796760487399424) que je l'ai appris, merci !
 
-{% cloudinary framagames.jpg caption="La page d'accueil de Framagames" %}
+{% respimg "framagames.jpg", "La page d'accueil de Framagames" %}
 
 > L’objectif [de Framagames] est de présenter des jeux libres qui se jouent en ligne, se téléchargent sur son PC, sa tablette… et ne nécessitent aucune installation supplémentaire.
 

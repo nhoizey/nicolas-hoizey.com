@@ -14,9 +14,9 @@ Voici cette fameuse pub[^1] :
 
 Cette pub est aussi l'occasion pour Sony de lancer son [Musée de la Base Résolution](http://www.blu-ray.sony-europe.com/)[^2] qui doit tout faire pour vous convaincre de passer à la HD, et plus particulièrement au Blu-Ray, bien sûr.
 
-{% cloudinary sony-bluray-mold1.png caption="Le Musée de la Base Résolution" %}
+{% respimg "sony-bluray-mold1.png", "Le Musée de la Base Résolution" %}
 
-{% cloudinary sony-bluray-mold2.png caption="Le Musée de la Base Résolution" %}
+{% respimg "sony-bluray-mold2.png", "Le Musée de la Base Résolution" %}
 
 [^1]: Désolé pour la faible qualité, la [version fournie par Sony](http://www.blu-ray.sony-europe.com/player/player.php?lang=fr) se lance automatiquement et le code HTML proposé est pourri…
 

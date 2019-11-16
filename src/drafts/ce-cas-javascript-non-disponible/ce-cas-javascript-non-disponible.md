@@ -6,7 +6,7 @@ tags:  [JavaScript,enrichissement progressif]
 
 Cela fait déjà longtemps que je suis ébahi par ces soi-disant intégrateurs Web qui ne prennent pas la peine de s'assurer que leur production fonctionne bien[^chapo1] même si JavaScript n'est pas disponible.
 
-{% cloudinary codepo8.png %}
+{% respimg "codepo8.png" %}
 
 C'est donc avec grand plaisir que j'ai lu le billet «[That “JavaScript not available” case](http://christianheilmann.com/2011/12/06/that-javascript-not-available-case/)» de Christian Heilmann, a.k.a. [codepo8](http://twitter.com/codepo8), orateur hors pair, ancien évangéliste Yahoo! et aujourd'hui Principal Developer Evangelist de [MDN|Mozilla Developer Network](https://developer.mozilla.org/fr/)[^chapo2].
 

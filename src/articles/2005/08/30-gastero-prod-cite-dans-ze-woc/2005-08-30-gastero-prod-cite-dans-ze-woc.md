@@ -7,7 +7,7 @@ tags:       [me]
 Moi qui suis un fan de [Ze WoC](http://www.zewoc.com/) depuis des années, voilà que mon site [Gastero Prod fait l'objet d'un post dans la section « Vu de dessus »](http://www.zewoc.com/wordpress/?p=1088), je suis extrêmement flatté !
 
 
-{% cloudinary gp_in_zewoc.png caption="Gastero Prod cité dans Ze WoC" %}
+{% respimg "gp_in_zewoc.png", "Gastero Prod cité dans Ze WoC" %}
 
 
 Ce qui est dingue, c'est que j'ai trouvé ce post grâce au service de recherche de Technorati en cherchant [les sites pointant vers Gastero Prod](http://www.technorati.com/search/http://www.gasteroprod.com), ce que je n'avais pas fait depuis des mois.

@@ -10,7 +10,7 @@ tags: [RWD, Flexbox, CSS, layout]
 
 > when you have three items, you’ll be happy with the three-abreast layout and accepting of the single-column configuration. But you might like to avoid the intermediary part where you get a pair of elements on one line followed by a longer element underneath.
 
-{% cloudinary flexbox-albatros.png %}
+{% respimg "flexbox-albatros.png" %}
 
 A great responsive layout trick, without any Media Query, so also usable inside a component of any width, awesome!
 

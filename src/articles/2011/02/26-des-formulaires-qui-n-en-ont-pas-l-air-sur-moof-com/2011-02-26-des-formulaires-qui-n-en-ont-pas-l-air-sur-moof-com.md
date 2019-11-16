@@ -8,29 +8,29 @@ tags:       [UX, innovation, form]
 
 L’idée sympa — déjà croisée ailleurs ces dernières années, il faut l’avouer, même si je ne saurais plus dire où exactement — c’est de présenter ce formulaire comme un dialogue entre l’application et l’utilisateur. Sauf que cela respecte tellement peu les [usages courants](/2011/02/respecter-les-usages-courants.html) que je n’ai pas trouvé le formulaire tout de suite, cherchant un classique lien « *register* » ou « *sign up* ».
 
-{% cloudinary tumblr_l666d7fbd.png %}
+{% respimg "tumblr_l666d7fbd.png" %}
 
 Voici en gros plan l’objet du délit :
 
-{% cloudinary tumblr_l666ec46a.png %}
+{% respimg "tumblr_l666ec46a.png" %}
 
 On pourra s’extasier sur l’apparence sympathique de ces formulaires — [tel Karl Dubost](http://twitter.com/karlpro/statuses/2909027575) — mais il ne faudrait pas oublier que certains ne verront pas là le moindre appel à saisir quelque info que ce soit, tout ceci ne ressemblant pas du tout à un formulaire.
 
 Voici pour mémoire à quoi ressemble par défaut un formulaire présenté traditionnellement dans un format tabulaire :
 
-{% cloudinary tumblr_l666ed61f.png %}
+{% respimg "tumblr_l666ed61f.png" %}
 
 Avec un peu de styles, on peu le rendre un peu plus sexy :
 
-{% cloudinary tumblr_l666f295b.png %}
+{% respimg "tumblr_l666f295b.png" %}
 
 Sinon, si le style de mise en scène du formulaire est plus important que sa présentation purement graphique, conserver l’aspect sympa du texte à trou est bien sûr possible :
 
-{% cloudinary tumblr_l666g4103.png %}
+{% respimg "tumblr_l666g4103.png" %}
 
 En rajoutant un peu de styles à cela, on obtient presque le même effet que le formulaire de Moof, mais en laissant à l’utilisateur la possibilité de comprendre rapidement qu’il s’agit d’un formulaire :
 
-{% cloudinary tumblr_l666ga861.png %}
+{% respimg "tumblr_l666ga861.png" %}
 
 Comme souvent en ergonomie, la difficulté est de savoir où s’arrêter dans l’innovation, de se démarquer des autres sans pour autant perdre les utilisateurs en leur imposant un effort de réflexion qu’ils ne sont que rarement prêts à faire.
 

@@ -13,13 +13,13 @@ Titillé par [Zooomr](http://www.zooomr.com/) depuis quelque temps, Flickr se de
 
 Que ce soit donc en consultation ou en édition, l'interface proposée par Flickr est très intuitive :
 
-{% cloudinary Flickr_Explore_your_geotagged_photos_on_a_Map.png caption="Mes photos sur la carte de Flickr. Voyez [par vous même](https://www.flickr.com/map/?&user_id=38608514@N00&order_by=interestingness&fLat=36.232538&fLon=14.326171&zl=14&min_upload_date=946713600&min_taken_date=1970-01-01%2000:00:00&map_type=hyb)" %}
+{% respimg "Flickr_Explore_your_geotagged_photos_on_a_Map.png", "Mes photos sur la carte de Flickr. Voyez [par vous même](https://www.flickr.com/map/?&user_id=38608514@N00&order_by=interestingness&fLat=36.232538&fLon=14.326171&zl=14&min_upload_date=946713600&min_taken_date=1970-01-01%2000:00:00&map_type=hyb)" %}
 
 
-{% cloudinary Flickr_Explore_everyone_s_geotagged_photos_on_a_Map.png caption="Toutes les photos sur la carte de Flickr. Voyez [par vous même](https://flickr.com/map/)" %}
+{% respimg "Flickr_Explore_everyone_s_geotagged_photos_on_a_Map.png", "Toutes les photos sur la carte de Flickr. Voyez [par vous même](https://flickr.com/map/)" %}
 
 
-{% cloudinary Flickr_Organize_your_photos.png caption="Une gestion de la géolocalisation plus qu'intuitive. Tout se fait par glisser / déposer, tout simplement" %}
+{% respimg "Flickr_Organize_your_photos.png", "Une gestion de la géolocalisation plus qu'intuitive. Tout se fait par glisser / déposer, tout simplement" %}
 
 
 Malheureusement, et c'est jusqu'à présent le seul point noir que j'ai relevé, les photos satellites et la précision des cartes de Yahoo! -- notamment dans la région parisienne -- sont très largement inférieurs aux équivalents de Google, que Zooomr utilise.

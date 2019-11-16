@@ -8,7 +8,7 @@ Je rêve de voir un jour une de mes photo sélectionnée pour être publiée dan
 
 Donc, si vous avez un compte JPG Magazine, aidez-moi à être sélectionné pour le prochain numéro en votant pour [cette photo](/2008/07/meduses-fluorescentes.html) dans le thème « *[Color Theory](http://www.jpgmag.com/themes/40)* » : <http://www.jpgmag.com/photos/809995>.
 
-{% cloudinary 20080511-fluorescent-jellyfishes.jpg alt="Fluorescent Jellyfishes" %}
+{% respimg "20080511-fluorescent-jellyfishes.jpg", "Fluorescent Jellyfishes" %}
 
 Si vous n'avez pas encore de compte JPG Magazine et êtes photographe, inscrivez-vous vite ! ;-)
 

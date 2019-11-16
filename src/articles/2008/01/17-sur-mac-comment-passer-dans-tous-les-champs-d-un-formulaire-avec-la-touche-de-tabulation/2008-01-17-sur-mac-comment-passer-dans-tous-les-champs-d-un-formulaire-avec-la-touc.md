@@ -10,4 +10,4 @@ Par défaut, avec Mac OS X, la touche de tabulation ne permet de passer dans un 
 
 Il suffit d'aller dans le panneau « Clavier et souris » des « Préférences Système », et d'y sélectionner tout en bas le bouton radio « tous les réglages » :
 
-{% cloudinary mac-preferences-souris-et-clavier.png %}
+{% respimg "mac-preferences-souris-et-clavier.png" %}

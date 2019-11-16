@@ -18,7 +18,7 @@ Il illustre à merveille l'importance du partage des savoirs, notamment via des 
 
 C'est sur ce constat que j'ai décidé d'abandonner l'outil de gestion de contenus web [SPIP](http://spip.net/) au profit du logiciel de Wiki [DokuWiki](http://www.wikimatrix.org/show/DokuWiki)[^1] pour faire « tourner » la nouvelle version de [phpHeaven](http://www.phpheaven.net/), le site hébergeant notamment mon vieux projet logiciel libre [phpMyChat](http://phpheaven.net/phpmychat:home).
 
-{% cloudinary dokuwiki_phpheaven.png caption="La nouvelle page d'accueil de phpHeaven" %}
+{% respimg "dokuwiki_phpheaven.png", "La nouvelle page d'accueil de phpHeaven" %}
 
 J'espère que l'utilisation d'un outil par nature plus ouvert à la contribution collaborative permettra de faire revivre le projet, qui vivote depuis des années faute de contributeurs à même d'exploiter les outils de développement dont CVS[^2], ou capable d'utiliser SPIP pour participer à l'effort de documentation.
 

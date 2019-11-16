@@ -9,7 +9,7 @@ Ca y est enfin, [Google Maps](http://maps.google.com/) commence progressivement 
 
 Une petite coquille s'est glissé dans la carte d'Europe proposée par Google, la Belgique et les Pays-Bas sont inversés !!!
 
-{% cloudinary google_maps_netherlands_belgium_full.png caption="La Belgique et les Pays-Bas inversés" %}
+{% respimg "google_maps_netherlands_belgium_full.png", "La Belgique et les Pays-Bas inversés" %}
 
 
 Il est vrai que vu depuis l'autre côté de l'Atlantique, la différence est négligeable…

@@ -11,7 +11,7 @@ J'ai acheté il y a déjà quelques mois un [Belkin Thunderbolt Express Dock](ht
 
 Voilà les périphériques que je branche ainsi à mon MacBook Air : écran, son, réseau, disques externes, lecteur de cartes mémoire, etc.
 
-{% cloudinary belkin-thunderbolt-express-dock.jpg caption="Un seul câble à brancher sur le Mac pour le lier à de nombreux périphériques" %}
+{% respimg "belkin-thunderbolt-express-dock.jpg", "Un seul câble à brancher sur le Mac pour le lier à de nombreux périphériques" %}
 
 La [seconde version du dock thunderbolt Belkin](http://www.macg.co/tests/2015/01/test-de-la-station-daccueil-thunderbolt-2-express-dock-hd-de-belkin-86699) semble très intéressante sur le papier, mais serait pour moi une grosse régression :
 

@@ -9,7 +9,7 @@ Quand l'un des plus célèbres anti virus / firewall / anti SPAM, [Norton](http:
 
 Je ne suis pas sûr qu'un utilisateur « de base » serait allé, comme moi, voir dans le dossier des messages en quarantaine si un message y était par erreur…
 
-{% cloudinary NortonAntiSPAM.png %}
+{% respimg "NortonAntiSPAM.png" %}
 
 
 Manque de chance, c'est justement un message de Symantec qui s'y trouvait !

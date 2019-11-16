@@ -6,7 +6,7 @@ tags:       [font, design]
 
 Navigant régulièrement avec une connexion de piètre qualité, j'en ai un peu marre de voir de nombreux sites me présenter juste des éléments d'interface en attendant le chargement des fichiers de fontes utilisées par `@font-face`. Du coup, vu que ce site n'a pas spécialement d'enjeu graphique particulier, j'ai décidé de me passer des deux fontes que j'imposais depuis la refonte récente. L'occasion de me replonger dans l'enfer des *font stacks web safe*…
 
-{% cloudinary nouvelles-fontes.jpg %}
+{% respimg "nouvelles-fontes.jpg" %}
 
 # Pourquoi changer ?
 
@@ -14,15 +14,15 @@ Avant de parler des fontes retenues voici une illustration de ce problème que p
 
 [Le site de Smashing Magazine](http://www.smashingmagazine.com/) utilise deux fontes différentes pour la titraille et le corps de texte, chacune étant définie avec une instruction `@font-face` et nécessitant donc le téléchargement des ressources correspondantes. Ces fontes font partie des éléments importants du récent redesign du site, et participent à sa qualité visuelle, ce serait dommage de s'en priver :
 
-{% cloudinary smashing-magazine.jpg %}
+{% respimg "smashing-magazine.jpg" %}
 
 Mais si on va sur le site avec une connexion pas géniale, on obtient très rapidement certains éléments graphiques, et beaucoup moins vite les fichiers des fontes, d'où un affichage assez étonnant :
 
-{% cloudinary smashing-magazine-sans-fonte.jpg %}
+{% respimg "smashing-magazine-sans-fonte.jpg" %}
 
 On constate assez simplement d'où vient le problème :
 
-{% cloudinary smashing-magazine-sans-fonte-2.jpg %}
+{% respimg "smashing-magazine-sans-fonte-2.jpg" %}
 
 Nous sommes donc en attente des fichiers des deux fontes, et pendant ce temps là le navigateur ne peut pas afficher le texte.
 
@@ -44,13 +44,13 @@ Ayant lu et entendu depuis quelque temps que les [fontes à empattements](http:/
 
 Histoire de faire un peu original et éviter les classiques, j'ai cherché un peu ce qui pourrait être disponible suffisamment largement, mais essayer de trouver un ensemble cohérent dans une liste telle que ces [most common fonts on all systems to 5 April 2012](http://www.codestyle.org/css/font-family/sampler-CombinedResultsFull.shtml) n'est clairement pas à ma portée de béotien de la typo. Heureusement, un peu aidé par [une recherche sur Google](https://www.google.fr/search?q=web+safe+font+stack), je suis retombé sur ce billet [Revised Font Stack](http://www.awayback.com/revised-font-stack/) de Amrinder Sandhu qui avait pas mal circulé il y a 3 ans, et je suis immédiatement tombé sous le charme de la font stack issue de [Sushi & Robots](http://sushiandrobots.com/), battis sur une base de fonte «[Hoefler Text](http://fr.wikipedia.org/wiki/Hoefler_Text)»
 
-{% cloudinary hoefler-text.jpg caption="Un aperçu de la fonte Hoefler Text" %}
+{% respimg "hoefler-text.jpg", "Un aperçu de la fonte Hoefler Text" %}
 
 Côté titraille, je voulais du coup une fonte [linéale](http://fr.wikipedia.org/wiki/Lin%C3%A9ale) pour contraster avec la sérif du corps de texte.
 
 C'est en parcourant la [liste des fontes ajoutées à iOS 6](http://iosfonts.com/) que j'ai découvert la famille de fontes [Avenir](http://www.linotype.com/1116/aboutthefont.html) conçue par [Adrian Frutiger](http://fr.wikipedia.org/wiki/Adrian_Frutiger) pour Linotype, et déclinée en 2003 en [Avenir Next](http://www.linotype.com/fr/90672/AvenirNext-family.html). Cette fonte est arrivée ensuite [sur Mac OS X avec Moutain Lion](http://gizmodo.com/5930274/this-is-apples-new-favorite-typeface) puis sur iOS avec la version 6.0.
 
-{% cloudinary fonte-avenir.jpg caption="Un aperçu de la fonte Avenir" %}
+{% respimg "fonte-avenir.jpg", "Un aperçu de la fonte Avenir" %}
 
 Un extrait de la page Wikipedia présentant Adrian Frutiger présente ainsi la famille Avenir (l'emphase est de moi) :
 
@@ -80,7 +80,7 @@ body {
 
 Voilà ce que ça donne sur Mac :
 
-{% cloudinary nouvelles-fontes.png %}
+{% respimg "nouvelles-fontes.png" %}
 
 Je suis preneur de retours d'utilisateurs de Windows et Linux, en espérant que la théorie des fallbacks s'applique pas trop mal…
 
@@ -94,7 +94,7 @@ Il est donc probable que la démarche que j'ai suivie, ainsi que le résultat, o
 
 Voilà ce que ça donne sur Windows 7 avec Chrome :
 
-{% cloudinary gastero-prod-win7-chrome.png caption="Gastero Prod sur Windows 7 avec Chrome" %}
+{% respimg "gastero-prod-win7-chrome.png", "Gastero Prod sur Windows 7 avec Chrome" %}
 
 Merci [@mariejulien](https://twitter.com/mariejulien) :
 

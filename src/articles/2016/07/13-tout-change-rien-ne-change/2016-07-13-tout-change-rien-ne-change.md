@@ -10,7 +10,7 @@ Ce site est [généré avec Jekyll](https://nicolas-hoizey.com/about/the-website
 
 ## Jekyll 3
 
-{% cloudinary logo /assets/logos/jekyll.png alt="Logo de Jekyll" %}
+{% respimg "/assets/logos/jekyll.png", "Logo de Jekyll", "logo" %}
 
 J'ai donc enfin pu migrer vers Jekyll 3, avec d'une part l'assurance de pouvoir suivre les évolutions du logiciel et de ses plugins, et d'autre part de pouvoir bénéficier de nouvelles fonctionnalités.
 
@@ -70,18 +70,18 @@ Le plugin Jekyll Picture Tag, même dans sa version d'origine, avait été mon c
 
 Il existe maintenant un plugin [Jekyll Responsive Image](https://github.com/wildlyinaccurate/jekyll-responsive-image) qui permet d'utiliser la syntaxe `srcset-w`/`sizes` en général plus appropriée, avec même son propre template.
 
-{% cloudinary logo /assets/logos/cloudinary.png alt="Logo de Cloudinary" %}
+{% respimg "/assets/logos/cloudinary.png", "Logo de Cloudinary", "logo" %}
 
 Mais je voulais cesser de générer, optimiser et héberger moi-même les variantes d'images nécessaires, et plutôt m'appuyer sur [Cloudinary](http://cloudinary.com/invites/lpov9zyyucivvxsnalc5/sgyyc0j14k6p0sbt51nw), un des leaders des nombreux services SaaS de gestion d'images optimisés pour le responsive.
 
-J'ai donc créé le nouveau plugin [Jekyll Cloudinary](https://nhoizey.github.io/jekyll-cloudinary/) qui ajoute un tag Liquid {% raw %}`{% cloudinary … %}`{% endraw %} pour publier les images et générer automatiquement le code HTML avec `srcset-w`/`sizes` et des URL Cloudinary, voire même un ensemble `<figure>`/`<figcaption>` si une légende est précisée.
+J'ai donc créé le nouveau plugin [Jekyll Cloudinary](https://nhoizey.github.io/jekyll-cloudinary/) qui ajoute un tag Liquid {% raw %}`{% respimg "…" %}`{% endraw %} pour publier les images et générer automatiquement le code HTML avec `srcset-w`/`sizes` et des URL Cloudinary, voire même un ensemble `<figure>`/`<figcaption>` si une légende est précisée.
 
 Je peux ainsi écrire ceci :
 
 {% raw %}
 
 ```markdown
-{% cloudinary cloudflare.png alt="Un schéma montrant l'apport de Cloudflare" caption="Un schéma montrant l'apport de Cloudflare" %}
+{% respimg "cloudflare.png", "Un schéma montrant l'apport de Cloudflare" %}
 
 ```
 {% endraw %}
@@ -111,7 +111,7 @@ Mon temps de *build* du site a été largement réduit, même si les images gén
 
 Bien sûr, il faut ajouter le service [Cloudinary](http://cloudinary.com/invites/lpov9zyyucivvxsnalc5/sgyyc0j14k6p0sbt51nw) à l'équation, mais l'offre gratuite suffit amplement pour un blog comme le mien :
 
-{% cloudinary cloudinary-pricing.png alt="Les tarifs de Cloudinary" caption="Les tarifs de Cloudinary, dont l'offre gratuite déjà généreuse" %}
+{% respimg "cloudinary-pricing.png", "Les tarifs de Cloudinary, dont l'offre gratuite déjà généreuse" %}
 
 Mais cela ne me suffit pas, je travaille sur un plugin qui permettrait de profiter de ce même Cloudinary mais en n'utilisant que la syntaxe Markdown standard pour les images, pour retrouver cette facilité de publication — et prévisualisation en cours d'édition — que je vantais juste avant. Mais [ce n'est pas simple](https://github.com/jekyll/jekyll/issues/5099), je découvre en même temps Ruby, les subtilités des plugins Jekyll, etc.
 
@@ -135,7 +135,7 @@ Les vidéos Youtube sont pour l'instant intégrées avec le *player* standard, d
 
 Cela m'a fait perdre 4 points sur Dareboost, tout de même ! ;-)
 
-{% cloudinary dareboost-de-98-a-94.png alt="4 points perdus sur Dareboost" %}
+{% respimg "dareboost-de-98-a-94.png", "4 points perdus sur Dareboost" %}
 
 **MAJ :** Les vidéos sont de nouveau *lazy loadées*, comme vous pouvez le voir par exemple sur [ce billet à propos du moteur de recherche Algolia](/2015/06/la-recherche-dans-du-statique-facile-avec-algolia.html).
 

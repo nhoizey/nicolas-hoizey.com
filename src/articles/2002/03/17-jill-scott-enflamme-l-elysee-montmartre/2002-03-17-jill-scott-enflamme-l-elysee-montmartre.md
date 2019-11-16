@@ -10,7 +10,7 @@ Je ne suis pas à priori grand fan de ce type de musique qu'on nomme R&B (pronon
 
 Pourtant, je découvre depuis peu certains des artistes qui y sont catalogués. Je prend par exemple plaisir à écouter [Macy Gray](http://www.amazon.com/exec/obidos/tg/stores/artist/glance/-/183508/phpheaven), grâce à [Fatboy Slim](http://www.amazon.com/exec/obidos/tg/stores/artist/glance/-/90123/phpheaven)). Je ne vois par contre pas pourquoi Amazon m'indique que [Diana Krall](http://www.amazon.com/exec/obidos/tg/stores/artist/glance/-/87104/phpheaven), que j'apprécie particulièrement depuis pas mal de temps, est une artiste *similaire*…
 
-{% cloudinary onethird art85-1.jpg %}
+{% respimg "art85-1.jpg", "onethird" %}
 
 Enfin bref, c'est par un heureux hasard qu'une amie m'a parlé de [Jill Scott](http://www.amazon.com/exec/obidos/tg/stores/artist/glance/-/207808/phpheaven) et de son passage à Paris en février. Intéressé, je me suis empressé de chercher des infos et d'écouter l'album [Who Is Jill Scott?](http://www.amazon.com/exec/obidos/ASIN/B00004UARR/phpheaven). L'ayant bien apprécié, je me suis laissé tenté par l'idée de ce concert d'un nouveau genre pour moi, mais en terrain connu, le fameux [Elysée Montmartre](http://www.elyseemontmartre.com/).
 
@@ -20,7 +20,7 @@ Après cette petite intro strictement musicale, Jill Scott arrive sur scène. Je
 
 Entre chaque chanson, Jill explique quelles sont ses inspirations, comment elle est devenue chanteuse, pourquoi elle parle d'amour, de couple, de sexe, de tolérance et autres sujets qui lui sont chers. Rien qu'en racontant ses diverses expériences, elle fait monter la chaleur et l'émotion.
 
-{% cloudinary art85-2.jpg %}
+{% respimg "art85-2.jpg" %}
 
 Durant les chansons, les corps se trémoussent dans la salle, le public ne fait qu'un, toutes origines confondues, la musique fait de nous des pantins, les sourires sont sur tous les visages.
 

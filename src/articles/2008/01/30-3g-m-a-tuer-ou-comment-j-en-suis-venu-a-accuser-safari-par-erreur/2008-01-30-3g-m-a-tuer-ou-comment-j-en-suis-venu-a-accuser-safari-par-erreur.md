@@ -10,17 +10,17 @@ Utilisateur habituellement de Mozilla Firefox, j'ai lancé Safari pour tester Gr
 
 Voici par exemple le rendu sous Firefox :
 
-{% cloudinary firefox-couleurs.png caption="Un joli dégradé dans Firefox" %}
+{% respimg "firefox-couleurs.png", "Un joli dégradé dans Firefox" %}
 
 Et celui sous Safari :
 
-{% cloudinary safari-couleurs.png caption="Un dégradé horrible dans Safari" %}
+{% respimg "safari-couleurs.png", "Un dégradé horrible dans Safari" %}
 
 Plus en détail, voilà ce que ça donne :
 
-{% cloudinary onehalf firefox-couleurs-zoom.png caption="Détail dans Firefox" %}
+{% respimg "firefox-couleurs-zoom.png", "Détail dans Firefox", "onehalf" %}
 
-{% cloudinary onehalf safari-couleurs-zoom.png caption="Détail dans Safari" %}
+{% respimg "safari-couleurs-zoom.png", "Détail dans Safari", "onehalf" %}
 
 ## L'enquête
 

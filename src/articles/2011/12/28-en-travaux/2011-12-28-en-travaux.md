@@ -26,7 +26,7 @@ L'évolution technique la plus importante pour le site lui-même, c'est le passa
 
 ## So long Gandi, and thanks for all the fish
 
-{% cloudinary logo /assets/logos/alwaysdata.png %}
+{% respimg "/assets/logos/alwaysdata.png", "logo" %}
 
 L'autre évolution technique importante, mais plus pour moi que le site lui-même, est le passage d'un hébergement [Gandi Serveur](https://www.gandi.net/hebergement/serveur) où je devais tout (mal) faire moi-même, y compris la configuration et les mises à jour système, à un hébergement [AlwaysData](http://nho.io/alwaysdata) infogéré où je n'ai plus à me préoccuper que des sources de mes sites.
 

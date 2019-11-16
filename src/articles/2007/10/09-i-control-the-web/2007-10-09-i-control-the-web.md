@@ -6,4 +6,4 @@ tags:       [macro]
 
 On se fait une toile ?
 
-{% cloudinary I-control-the-web.jpg %}
+{% respimg "I-control-the-web.jpg" %}

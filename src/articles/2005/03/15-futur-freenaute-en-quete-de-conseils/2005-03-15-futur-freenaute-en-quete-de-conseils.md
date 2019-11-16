@@ -6,7 +6,7 @@ tags:       [me, TV, WiFi, Free]
 
 La [TV](http://adsl.free.fr/tv/) arrivant enfin à [Rueil Malmaison](http://adsl.free.fr/degroup/92.html) sur la [Freebox](http://adsl.free.fr/) de [Free](http://free.fr/), je pense que je vais me lancer prochainement et quitter [Tiscali](/2005/02/tiscali-auto-explose-ses-quotas-de-mail.html)…
 
-{% cloudinary onethird freebox.png %}
+{% respimg "freebox.png", "onethird" %}
 
 Malheureusement, comme la plupart de ceux qui ne vivent pas en studio, j'ai un bureau avec les ordinateurs, et un salon avec la TV, donc que dois-je faire ?
 

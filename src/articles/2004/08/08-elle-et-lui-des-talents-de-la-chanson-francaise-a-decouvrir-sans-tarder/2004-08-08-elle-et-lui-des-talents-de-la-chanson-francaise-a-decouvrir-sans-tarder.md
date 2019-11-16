@@ -21,7 +21,7 @@ C'est comme ça qu'ils se décrivent eux-mêmes, et ça leur va très bien ! Ils
 
 En plus d'être musiciens, ils ont d'autres cordes d'artistes à leurs arcs, comme en témoignent leurs très jolis sites web :
 
-{% cloudinary lo.png caption="Le site de Lo. <http://www.lo-w.net/>" %}
+{% respimg "lo.png", "Le site de Lo. <http://www.lo-w.net/>" %}
 
 
-{% cloudinary cedric.png caption="Le site de Cédric Hoizey. <http://www.cedrichoizey.com/>" %}
+{% respimg "cedric.png", "Le site de Cédric Hoizey. <http://www.cedrichoizey.com/>" %}

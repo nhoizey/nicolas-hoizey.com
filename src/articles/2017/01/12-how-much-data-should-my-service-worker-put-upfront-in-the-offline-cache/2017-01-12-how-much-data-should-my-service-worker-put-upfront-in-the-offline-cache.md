@@ -4,7 +4,7 @@ lang:  en
 tags:  [offline, WebPerf, Service Worker, PWA]
 ---
 
-{% cloudinary logo /assets/logos/pwa.png alt="PWA" %}
+{% respimg "/assets/logos/pwa.png", "PWA", "logo" %}
 
 I love when Web site/apps work even when I'm offline. I've made my SVG game [esviji](http://play.esviji.com) work offline thanks to [appcache](https://developer.mozilla.org/en-US/docs/Web/HTML/Using_the_application_cache) just after attending [Jake Archibald](https://twitter.com/jaffathecake) conference about why [Application Cache is a Douchebag](http://www.paris-web.fr/2012/conferences/application-cache.php) during the 2012 edition of the [Paris Web](http://www.paris-web.fr/) conference. Fortunately, we have now Service Workers (in some browsers), which gives us more control over this kind of cache for offline browsing. But as Uncle Ben says, "With Great Power Comes Great Responsibility".
 
@@ -38,7 +38,7 @@ Jeremy had the great idea to make this book available offline thanks to [a Servi
 
 According to my browser network panel or [WebPagetest](https://www.webpagetest.org/result/170111_P9_D0V3/), it means **almost 16 Mb are downloaded** right away when you access one page of the site.
 
-{% cloudinary webpagetest-resilient-web-design.png caption="The Resilient Web Design web book audited by WebPagetest" %}
+{% respimg "webpagetest-resilient-web-design.png", "The Resilient Web Design web book audited by WebPagetest" %}
 
 The site is very fast, and all checks are green, but that's because most of the downloads happen asynchronously, after the visited page has been rendered.
 
@@ -48,11 +48,11 @@ For a small site/app that takes 2 or 3 Mb, I can accept to download everything,
 
 Just to illustrate, it means that **one visit to this site will cost a Mauritanian at least 10 % of his daily income**, according to [Tim Kadlec](https://twitter.com/tkadlec)'s simulation on [What Does My Site Cost?](https://whatdoesmysitecost.com/test/170111_P9_D0V3#gniCost).
 
-{% cloudinary what-does-my-site-cost.png caption="Cost of visiting this website as a percentage of daily income" %}
+{% respimg "what-does-my-site-cost.png", "Cost of visiting this website as a percentage of daily income" %}
 
 Only 0.24 % for Jeremy in UK or 0.28 % for me in France, but we are here because we love the [World Wide Web, not Wealthy Westerners' Web](https://www.paris-web.fr/2016/conferences/www-world-wide-web-not-wealthy-westerners-web.php), as presented by [Bruce Lawson](https://twitter.com/brucel) during 2016 edition of the Paris Web conference.
 
-{% cloudinary logo /assets/logos/lighthouse.png %}
+{% respimg "/assets/logos/lighthouse.png", "logo" %}
 
 Because I use it quite a lot these days to check my own Progressive Web Apps, I thought it would be nice if [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk), the Chrome extension that check web pages against [a growing list of best practices](https://developers.google.com/web/updates/2016/12/lighthouse-dbw), included a check on total page weight. It looks like [Hubert Sablonnière](https://twitter.com/hsablonniere) already [had this idea and created an issue](https://github.com/GoogleChrome/lighthouse/issues/584), which got support from [Paul Irish](https://twitter.com/paul_irish), so it will come sooner or later.
 

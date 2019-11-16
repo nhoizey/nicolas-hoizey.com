@@ -5,7 +5,7 @@ eleventyExcludeFromCollections: true
 lang: en
 ---
 
-{% cloudinary preset="logo", src="/assets/logos/feed.png" %}
+{% respimg "/assets/logos/feed.png", "", "logo" %}
 
 You can follow my publications with following Atom feeds:
 - [articles](/feeds/articles.xml)

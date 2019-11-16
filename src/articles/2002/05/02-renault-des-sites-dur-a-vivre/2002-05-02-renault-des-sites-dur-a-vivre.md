@@ -11,7 +11,7 @@ Renault fait sans doute des *voitures à vivre*, et c'est un *inventeur d'automo
 
 A priori, un test d'identification de navigateur mal conçu empêche d'accéder au site <http://www.renault.fr/> avec Mozilla, tout du moins dans sa version 1.0 RC1.
 
-{% cloudinary doc-93.png caption="renault" %}
+{% respimg "doc-93.png", "renault" %}
 
 
 Peut-être le fait que le site est développé avec la grosse usine à gaz qu'est [BroadVision](http://www.interleaf.com/) n'est-il pas étranger à l'affaire…

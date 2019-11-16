@@ -8,7 +8,7 @@ Diigo a décidé de supprimer les listes, si pratiques pour rassembler des bookm
 
 Ce n'est en fait que la goutte qui fait déborder le vase[^1], je trouvais déjà Diigo de plus en plus pénible à utiliser, avec une interface pas du tout ergonomique.
 
-{% cloudinary diigo.png caption="L'interface de Diigo" %}
+{% respimg "diigo.png", "L'interface de Diigo" %}
 
 Après avoir échangé un peu avec d'autres utilisateurs déçus de Diigo, j'ai décidé de tenter cette nouvelle aventure avec le service Pinboard :
 
@@ -20,11 +20,11 @@ Après avoir échangé un peu avec d'autres utilisateurs déçus de Diigo, j'ai 
 - Le support est intégré à [ReadKit](http://readkitapp.com/), mon client pour les flux RSS et Pocket sur Mac OS
 - Karl m'en a dit beaucoup de bien plusieurs fois, et ça compte beaucoup
 
-{% cloudinary pinboard.png caption="L'interface de Pinboard" %}
+{% respimg "pinboard.png", "L'interface de Pinboard" %}
 
 Vous pouvez bien sûr continuer à lire aussi mes bookmarks [sur Seenthis](http://seenthis.net/people/nhoizey), même si pour l'instant [les tags présents dans le flux RSS de Pinboard ne sont pas bien reconnus](http://seenthis.net/messages/324311).
 
-{% cloudinary seenthis.png caption="L'interface de Seenthis" %}
+{% respimg "seenthis.png", "L'interface de Seenthis" %}
 
 **Mise à jour du 24 décembre :**
 
@@ -36,7 +36,7 @@ Il semble que cela vienne du flux RSS de Pinboard qui mélange tous les tags dan
 
 Mon départ de Diigo m'empêche de fait de participer au [groupe de veille Web Performance](https://groups.diigo.com/group/web-performance) créé par [Éric](https://www.diigo.com/profile/edaspet) et alimenté par une quinzaine de contributeurs.
 
-{% cloudinary diigo-web-performance.png caption="Le groupe Web Performance sur Diigo" %}
+{% respimg "diigo-web-performance.png", "Le groupe Web Performance sur Diigo" %}
 
 Même en étant utilisateur de Diigo, j'ai toujours trouvé dommage de lier cet espace de veille et partage à un outil particulier, mon départ me confirme l'intérêt qu'il y aurait à avoir un espace indépendant qui agrège les flux de chacun, comme nous le faisons chez [Clever Age](https://clever-age.com/) avec les [Clever Marks](https://blog.clever-age.com/fr/clever-marks/).
 

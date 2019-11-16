@@ -11,7 +11,7 @@ Après plus d'un an d'attente, [FeedLounge est ouvert au public](http://feedloun
 
 Le moins qu'on puisse dire, c'est que l'interface est de toute beauté !
 
-{% cloudinary feedlounge.png caption="FeedLounge" %}
+{% respimg "feedlounge.png", "FeedLounge" %}
 
 
 Et heureusement, ce n'est pas que de l'habillage graphique, les fonctionnalités sont vraiment intéressantes :
@@ -38,4 +38,4 @@ Courrez vite vous [inscrire](http://feedlounge.com/register/) !
 
 Et si vous êtes l'heureux utilisateur d'un [navigateur moderne](http://www.mozilla.org/), vous pouvez utiliser des scripts [Greasemonkey](mot71), dont celui que j'ai créé spécialement pour [poster directement dans Blogmarks depuis FeedLounge](http://userscripts.org/scripts/show/2662) !
 
-{% cloudinary FeedLounge2Blogmarks_screenshot.png %}
+{% respimg "FeedLounge2Blogmarks_screenshot.png" %}

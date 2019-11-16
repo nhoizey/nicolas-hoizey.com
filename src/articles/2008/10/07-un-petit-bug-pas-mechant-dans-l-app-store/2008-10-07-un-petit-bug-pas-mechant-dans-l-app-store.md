@@ -11,12 +11,12 @@ Là, le micro bug est dans la liste des applications que les clients qui ont té
 
 Exemple avec la fiche de l'excellent [Remote](http://www.happy-iphone.com/applications/musique/remote-pour-piloter-itunes-et-apple-tv-depuis-un-iphone), dont voici le bloc « LES CLIENTS ONT ÉGALEMENT TÉLÉCHA… »[^1] :
 
-{% cloudinary appstore-remote-cross1.png %}
+{% respimg "appstore-remote-cross1.png" %}
 
 
 Alors certes, toutes ces applications sont bien des divertissements, comme la plupart des applications de l'App Store, mais quand on clique sur le lien « Tout afficher », on arrive sur une liste complète[^2] présentant les « vraies » catégories :
 
-{% cloudinary appstore-remote-cross2.png %}
+{% respimg "appstore-remote-cross2.png" %}
 
 
 La première liste est donc erronée, j'ai débusqué un bug !

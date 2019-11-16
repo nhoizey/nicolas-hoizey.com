@@ -6,4 +6,4 @@ tags:       [photography]
 
 Une petite macro dans le jardin…
 
-{% cloudinary 20120406-My-best-profile.jpg %}
+{% respimg "20120406-My-best-profile.jpg" %}

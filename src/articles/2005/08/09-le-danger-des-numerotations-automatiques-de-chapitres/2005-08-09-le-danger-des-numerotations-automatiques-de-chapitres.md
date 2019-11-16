@@ -9,7 +9,7 @@ Quand on s'en remet aux outils bureautiques d'édition de documents, et qu'on le
 
 Dans cet exemple pas du tout prémédité, j'avais choisi d'utiliser des lettres plutôt que des chiffres pour numéroter les chapitres, et un fin observateur m'a signalé l'amusante numérotation d'un titre en particulier :
 
-{% cloudinary vs2005ts.png caption="Oups…" %}
+{% respimg "vs2005ts.png", "Oups…" %}
 
 
 Je n'ai rien de particulier à reprocher à la plateforme citée, c'est juste un hasard…

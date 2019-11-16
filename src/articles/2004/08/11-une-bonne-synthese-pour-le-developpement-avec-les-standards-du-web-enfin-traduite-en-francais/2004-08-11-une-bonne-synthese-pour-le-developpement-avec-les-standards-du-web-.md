@@ -13,4 +13,4 @@ Il s'agit d'une synthèse des arguments en faveur de l'usage des standards Web, 
 
 Attention néanmoins à ne pas confondre ce « Developing With Web Standards » avec le « [Designing With Web Standards](http://www.amazon.com/exec/obidos/ASIN/0735712018/phpheaven) » de [Jeffrey Zeldman](http://www.zeldman.com/), une de mes lectures actuelles dont je ferais sans doute un compte rendu prochainement, qui est beaucoup plus complet sur ce même sujet et fait figure de référence.
 
-{% cloudinary zeldman_dwws.png %}
+{% respimg "zeldman_dwws.png" %}

@@ -8,7 +8,7 @@ Alors que (presque) tous les constructeurs d'ordinateurs portables clonent l'imp
 
 D'un côté, certains en veulent encore à Apple d'avoir abandonné le format 12 pouces qui était disponible sur le [PowerBook G4](http://fr.wikipedia.org/wiki/PowerBook#Les_PowerBook_G4) en plus des formats 15 et 17 pouces toujours disponibles sur les [MacBook Pro](http://fr.wikipedia.org/wiki/MacBook_Pro).
 
-{% cloudinary onethird macbook-air.png caption="" %}
+{% respimg "macbook-air.png", "", "onethird" %}
 
 D'un autre côté, il y a certes un joli et léger [MacBook Air](http://fr.wikipedia.org/wiki/MacBook_Air) disponible depuis le début de l'année, et son prix a récemment bien chuté dans la version SSD, mais il reste d'une taille comparable à celle des [MacBook](http://fr.wikipedia.org/wiki/MacBook), écran de 13,3 pouces oblige, donc pas vraiment encore comparable à l'encombrement réduit des 9 ou 10 pouces[^1] des derniers NetBooks.
 

@@ -11,7 +11,7 @@ Après la fameuse campagne "Jean-Patrick" (James-Christopher Kendi de son vrai n
 
 En témoignent [Giraudy](http://www.giraudy.fr/), avec les affiches qu'on ne peut pas zapper, et [Dauphin](http://www.dauphin-affichage.com/), avec une pub télévisée mettant en scène des autostoppeurs.
 
-{% cloudinary giraudy.png %}
+{% respimg "giraudy.png" %}
 
 Le problème de la campagne Giraudy, même si elle est novatrice pour cet univers, c'est qu'elle est forcément destinée aux annonceurs, c'est à dire un public restreint, et non aux consommateurs, car le slogan "essayez donc de zapper une affiche" montre bien la dictature imposée par ce type de support qui nous envahit de plus en plus…
 

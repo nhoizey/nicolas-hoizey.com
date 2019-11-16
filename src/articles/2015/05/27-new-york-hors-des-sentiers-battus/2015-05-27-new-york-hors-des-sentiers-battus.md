@@ -6,7 +6,7 @@ tags:         [New York, travel]
 
 Ayant la chance de partir enfin à New York pour la première fois, j'avais bien entendu préparé le voyage avec quelques guides touristiques et ressources Web, mais j'avais aussi demandé autour de moi quelles sont les choses à voir/faire qui ne se trouvent pas dans ces guides.
 
-{% cloudinary new-york-city-map.jpg %}
+{% respimg "new-york-city-map.jpg" %}
 
 J'ai donc posé la question [sur Twitter](https://twitter.com/nhoizey/status/596616115607965696)[^fb] :
 

@@ -9,7 +9,7 @@ C'est au détour d'[un article de The Inquirer à propos de Windows 7](http://ww
 
 La preuve en image :
 
-{% cloudinary Linus_Torvalds_open_sauce_guru.png %}
+{% respimg "Linus_Torvalds_open_sauce_guru.png" %}
 
 
 Il faudra que je me renseigne sur cette notion d'Open Sauce, des délices en perspective !

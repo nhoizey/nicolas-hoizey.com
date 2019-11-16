@@ -15,7 +15,7 @@ Voici ce qui a tout déclenché :
 
 Et voilà [la réaction de la communauté](https://www.flickr.com/photos/tags/againstflickrcensorship/clusters/) :
 
-{% cloudinary Flickr_Photos_tagged_with_againstflickrcensorship.png caption="Cluster de photos sur Flickr tagguées avec « againstflickrcensoship »" %}
+{% respimg "Flickr_Photos_tagged_with_againstflickrcensorship.png", "Cluster de photos sur Flickr tagguées avec « againstflickrcensoship »" %}
 
 
 Même si Flickr ne fait qu'appliquer les conditions de sa maison mère Yahoo!, et on voit mal comment ils pourraient ne pas le faire, il est clair que les internautes n'aiment pas être traités différemment selon leur pays d'origine.

@@ -13,7 +13,7 @@ D'un côté, Apple rend les sauvegardes plus accessible au grand public avec [Ti
 Quand Apple a sorti Time Machine avec Leopard, tout le monde y a vu l'arrivée d'une solution de sauvegarde enfin vraiment simple et accessible au grand public. Tout se fait de manière transparente, avec conservation de versions successives, et surtout une interface d'accès aux sauvegardes vraiment intuitive pour le commun des mortels, et en plus plutôt ludique.
 
 
-{% cloudinary Apple_Time_Machine.png caption="Recherche d'une sauvegarde dans Time Machine" %}
+{% respimg "Apple_Time_Machine.png", "Recherche d'une sauvegarde dans Time Machine" %}
 
 
 En même temps, les NAS aussi sont devenus de plus en plus grand public, en facilitant la sauvegarde centralisée des ordinateurs qui pullulent de plus en plus même en usage domestique, et en devenant même de très complets serveurs multimédia grâce aux protocoles standards [UPnP (fr)](http://fr.wikipedia.org/wiki/Universal_Plug_and_Play) et [DLNA (fr)](http://fr.wikipedia.org/wiki/Digital_Living_Network_Alliance)[^1]. J'accède ainsi directement depuis ma PS3 aux contenus audio, vidéo et image qui sont sur mon portable sous Vista[^2] ou sur mon iMac[^3], et je pourrais faire de même avec des contenus stockés sur un NAS, la plupart intégrant aujourd'hui ce type de fonctionnalité.
@@ -39,7 +39,7 @@ Il y a les grands classiques comme [SuperDuper (en)](http://www.shirt-pocket.com
 
 **Faire croire à Time Machine que le NAS est un disque USB**
 
-{% cloudinary Apple_Time_Machine_icon.png %}
+{% respimg "Apple_Time_Machine_icon.png" %}
 
 Une autre solution serait peut-être d'utiliser quand même Time Machine, mais en lui faisant croire que le NAS est en fait un disque USB, par exemple avec le [hub USB sans fil de Belkin (en)](http://catalog.belkin.com/IWCatProductPage.process?Product_Id=377793)[^7] ou avec un [partage USB via réseau (en)](http://www.eltima.com/products/usb-over-ethernet/)[^8], le NAS étant connecté à un PC de base ne faisant que ça. Mais ça devient compliqué à mettre en œuvre matériellement, et existe-t-il de toute façon des NAS sachant aussi fonctionner en mode disque externe USB ?
 

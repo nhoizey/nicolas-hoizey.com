@@ -11,12 +11,12 @@ Heureux béta testeur depuis quelque temps de ce nouveau concurrent de [del.icio
 
 Le but principal de ce type d'outil, c'est de pouvoir utiliser tous ses favoris depuis n'importe quel ordinateur ou navigateur. Mais ce que les nouveaux sites du genre apportent, c'est la possible ouverture de ces favoris au public.
 
-{% cloudinary blogmarks.png caption="La page d'accueil publique de Blogmarks.net" %}
+{% respimg "blogmarks.png", "La page d'accueil publique de Blogmarks.net" %}
 
 
 Blogmarks.net propose en plus, en vrac, la gestion de tags publics et privés, une copie d'écran pour chaque site mis en favoris[^t1], un filtrage dynamique de la liste de tags quand on fait une recherche[^t2], etc.
 
-{% cloudinary blogmarks2.png caption="Mes derniers favoris avec le tag « CSS »" %}
+{% respimg "blogmarks2.png", "Mes derniers favoris avec le tag « CSS »" %}
 
 
 Il ne lui manque plus, comme pour tous les systèmes de tags, qu'une bonne dose de [sémantique](/2005/02/le-web-semantique-a-nos-portes.html)…

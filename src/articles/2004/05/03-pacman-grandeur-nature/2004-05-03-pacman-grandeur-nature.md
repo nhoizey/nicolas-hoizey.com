@@ -10,12 +10,12 @@ Ils sont membres de l'[Interactive Telecommunications Program](http://itp.nyu.ed
 
 Ceux-là n'ont pas trouvé mieux que de recréer en grandeur nature un des fleurons des débuts de l'informatique ludique, à savoir l'ancêtre Pacman !
 
-{% cloudinary pacman.jpg %}
+{% respimg "pacman.jpg" %}
 
 
 Ils ont pris un quartier de New York comme terrain de jeux, profitant ainsi de la structure en grille si représentative de nombreuses villes américaines.
 
-{% cloudinary pacmanhattan.png %}
+{% respimg "pacmanhattan.png" %}
 
 
 Ils ont donc naturellement appelé leur expérience [Pac Manhattan](http://pacmanhattan.com/).

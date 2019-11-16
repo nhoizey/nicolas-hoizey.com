@@ -9,7 +9,7 @@ instagram: https://www.instagram.com/p/BI--OktgVUa/
 
 Voilà le Manhattan Bridge, impressionnante vue depuis la rue Washington du quartier DUMBO de Brooklyn.
 
-{% cloudinary a-bridge-not-so-far.jpg caption="A bridge not so far" %}
+{% respimg "a-bridge-not-so-far.jpg", "A bridge not so far" %}
 
 En me décalant un peu, j'aurais même pu apercevoir l'Empire State Building entre les pieds, mais je préfère ce cadrage décalé, pas trop symétrique.
 

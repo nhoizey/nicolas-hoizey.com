@@ -10,7 +10,7 @@ ATTENTION, cette contrib ne semble plus fonctionner avec les versions de SPIP ul
 
 *Cet article présente une évolution de la méthode déjà présentée sur le site des contributions pour SPIP : [spip_contrib](http://www.uzine.net/spip_contrib/article.php3?id_article=113).*
 
-{% cloudinary gp_agenda.png caption="Exemple d'agenda. L'agenda de [Gastero Prod](http://www.gasteroprod.com/agenda/)" %}
+{% respimg "gp_agenda.png", "Exemple d'agenda. L'agenda de [Gastero Prod](http://www.gasteroprod.com/agenda/)" %}
 
 ## De quelles informations avons-nous besoin ?
 
@@ -39,7 +39,7 @@ Heureusement, SPIP propose aussi une *date de publication antérieure*, normalem
 
 C'est cette date que nous allons utiliser pour définir les événements de l'agenda.
 
-{% cloudinary publi_anterieure.png caption="Utilisation de la date de publication antérieure" %}
+{% respimg "publi_anterieure.png", "Utilisation de la date de publication antérieure" %}
 
 ## Organiser les événements
 
@@ -52,14 +52,14 @@ Dans SPIP deux méthodes de classement viennent immédiatement à l'esprit :
 
 Pour l'agenda, nous allons utiliser les rubriques, ce qui nous permettra de constituer toute une arborescence pour stocker les articles événements. Cela va nous permettre de filtrer les types d'événements avec une notion de granularité progressive grâce au critère `{branche}`[^t2].
 
-{% cloudinary hierarchie.png caption="Une hiérarchie de rubriques pour les thèmes" %}
+{% respimg "hierarchie.png", "Une hiérarchie de rubriques pour les thèmes" %}
 
 
 Dans l'[agenda de Gastero Prod](http://www.gasteroprod.com/agenda/), le rubriquage n'est pas très développé, mais il est déjà possible de sélectionner uniquement les [événements musicaux](http://www.gasteroprod.com/agenda/46.html), et éventuellement de filtrer encore plus en ne considérant que les [concerts](http://www.gasteroprod.com/agenda/44.html).
 
 Notez au passage que les logos des rubriques sont utilisés pour illustrer les événements.
 
-{% cloudinary gp_agenda_themes.png caption="Le rendu de la sélection thématique" %}
+{% respimg "gp_agenda_themes.png", "Le rendu de la sélection thématique" %}
 
 
 ## Intégrer l'agenda dans la partie publique

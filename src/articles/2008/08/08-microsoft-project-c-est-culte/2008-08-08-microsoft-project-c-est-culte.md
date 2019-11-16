@@ -11,7 +11,7 @@ Certes, je n'ai pas encore vraiment trouvé mieux comme outil de planification[^
 
 On peut effectivement lire sur la [page de présentation de Microsoft Office Enterprise Project Management](http://www.microsoft.com/france/office/2007/solutions/epm/overview.mspx) que MS Project est un « outil-culte du chef de projet » :
 
-{% cloudinary MS_Project_culte.png caption="MS Project, outil culte du chef de projet" %}
+{% respimg "MS_Project_culte.png", "MS Project, outil culte du chef de projet" %}
 
 
 Et vous, qu'en dites-vous ?

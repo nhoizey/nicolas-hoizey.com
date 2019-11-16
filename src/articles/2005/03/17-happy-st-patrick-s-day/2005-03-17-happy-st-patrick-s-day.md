@@ -9,7 +9,7 @@ Le 17 mars, comme chaque année, c'est la St. Patrick, la fameuse fête des irla
 
 Comme pour chaque occasion particulière, [Google s'adapte en concéquence](/2002/05/la-sobriete-n-empeche-pas-d-etre-ludique.html). Ici c'est la version britannique [Google.co.uk](http://www.google.co.uk/) :
 
-{% cloudinary google_stpatrick.png %}
+{% respimg "google_stpatrick.png" %}
 
 
 C'est bien sûr une occasion rêvée pour déguster une bonne [Guinness](/2001/06/lovely-day-for-a-guinness.html), mais attention aux abus !

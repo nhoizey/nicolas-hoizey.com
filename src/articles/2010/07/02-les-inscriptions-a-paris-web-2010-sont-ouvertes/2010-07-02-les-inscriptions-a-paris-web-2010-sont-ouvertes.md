@@ -6,7 +6,7 @@ tags:       [Paris Web, conference]
 
 [Paris Web 2010](http://www.paris-web.fr/2010/), c'est la cinquième édition de ce rendez-vous français annuel, devenu incontournable, pour se tenir informé des bonnes pratiques de développement Web. Go go go !
 
-{% cloudinary onethird banniere-par0155.jpg caption="Paris Web 2010, j'y vais !" %}
+{% respimg "banniere-par0155.jpg", "Paris Web 2010, j'y vais !", "onethird" %}
 
 Tout développeur Web un minimum curieux de son métier devrait se rendre chaque année à Paris Web pour découvrir ou confirmer sa connaissance de ces bonnes pratiques de développement Web, et échanger avec ses pairs.
 

@@ -7,7 +7,7 @@ tags:       [music]
 Après une sortie presque en catimini en fin d'année 2004, le Zen Micro est enfin résolument mis en avant par Creative.
 
 
-{% cloudinary creative_logo.png %}
+{% respimg "creative_logo.png" %}
 
 [Creative Labs](http://fr.europe.creative.com/) est surtout connu historiquement pour ses fameuses cartes son [Sound Blaster](http://fr.europe.creative.com/products/welcome.asp?category=1&), qui ont fait la célébrité du contructeur.
 
@@ -15,12 +15,12 @@ Depuis quelque temps, Creative a bien suivi la tendance avec [une gamme complèt
 
 Le tout nouveau de la gamme, un «iPod Mini killer» tout désigné, est le [Creative Zen Micro](http://fr.europe.creative.com/products/product.asp?category=213&subcategory=214&product=10795).
 
-{% cloudinary creative_zen_couleurs.png %}
+{% respimg "creative_zen_couleurs.png" %}
 
 
 Personnellement, j'ai choisi le violet, une de mes couleurs préférées.
 
-{% cloudinary creative_zen_violet.png %}
+{% respimg "creative_zen_violet.png" %}
 
 Je dois avouer que je suis plus que satisfait du choix de ce baladeur, qui répond pour l'instant à toutes les attentes que j'avais.
 
@@ -43,7 +43,7 @@ Pour finir, juste un mot sur la gestion de la bibliothèque de musiques. Comme a
 
 Si vous voulez savoir à quoi ressemblent les entrailles d'un Zen Micro, allez voir ce qu'a découvert l'équipe de [HardwareZone](http://www.hardwarezone.com/articles/view.php?cid=9&id=1331). Âmes sensibles, s'abstenir.
 
-{% cloudinary zenmicro_ouvert.jpg caption="Le Zen Micro éclaté par HardwareZone" %}
+{% respimg "zenmicro_ouvert.jpg", "Le Zen Micro éclaté par HardwareZone" %}
 
 
 

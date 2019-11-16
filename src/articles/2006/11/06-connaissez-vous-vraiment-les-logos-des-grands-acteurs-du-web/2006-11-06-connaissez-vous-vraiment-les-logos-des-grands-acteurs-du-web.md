@@ -9,7 +9,7 @@ C'est ce que je vous invite à découvrir à l'aide du site [GuessTheLogo.com](h
 
 Vous allez devoir déterminer, 10 fois de suite, quel est le vrai logo parmi les 6 que l'on vous propose.
 
-{% cloudinary Which_is_the_real_logo.png caption="Saurez-vous indiquer quel est le vrai logo de YouTube ?" %}
+{% respimg "Which_is_the_real_logo.png", "Saurez-vous indiquer quel est le vrai logo de YouTube ?" %}
 
 
 C'est bien sûr chronométré pour que vous n'ayez pas le temps d'aller voir les sites en question, et chaque mauvaise réponse fait perdre du temps supplémentaire, autant dire qu'on est en situation de stress !

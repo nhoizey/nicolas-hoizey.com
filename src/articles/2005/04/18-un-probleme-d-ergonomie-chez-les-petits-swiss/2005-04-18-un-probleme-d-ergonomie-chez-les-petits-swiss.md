@@ -9,12 +9,12 @@ Le site de la compagnie aérienne suisse [Swiss International Airlines](http://w
 
 Si je vous dis d'aller faire un tour sur [le site de Swiss](http://www.swiss.com/), vous allez sans doute trouver comment changer de langue, puisque c'est ce dont je parle ici.
 
-{% cloudinary swiss_fr_full.png caption="Le site de Swiss en français" %}
+{% respimg "swiss_fr_full.png", "Le site de Swiss en français" %}
 
 
 Je peux vous assurer pourtant que la première fois que je suis allé sur leur site, ces petits liens m'ont bien intrigué, mais il a fallu que je clique dessus pour comprendre de quoi il s'agit.
 
-{% cloudinary swiss_fr_detail.png caption="Les liens de changement de langue" %}
+{% respimg "swiss_fr_detail.png", "Les liens de changement de langue" %}
 
 
 Suis-je anormal, ou est-ce réellement un défaut d'ergonomie ? Pourquoi ne mettre que l'initiale de la langue, et non au moins le code à deux lettres de la [norme ISO 639](http://en.wikipedia.org/wiki/ISO_639) ? Le gain de place n'est sans doute pas la bonne raison.

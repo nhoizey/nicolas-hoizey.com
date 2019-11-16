@@ -8,8 +8,8 @@ Qu'on aime ou pas, [Matrix](http://whatisthematrix.warnerbros.com/) est devenu u
 
 Voilà une utilisation assez amusante du thème, par des [détracteurs de l'élevage intensif](http://www.bancruelfarms.org/).
 
-{% cloudinary meatrix_titre.png %}
+{% respimg "meatrix_titre.png" %}
 
 Je vous laisse découvrir par vous-même, j'aurais du mal à décrire simplement de quoi il s'agit : <http://www.themeatrix.com/>.
 
-{% cloudinary meatrix.png %}
+{% respimg "meatrix.png" %}

@@ -12,19 +12,19 @@ Le changement graphique, bien évidemment, vous l'aurez remarqué.
 
 L'ancienne version était certe belle et originale…
 
-{% cloudinary gasteroprod_v2.png caption="Gastero Prod 2" %}
+{% respimg "gasteroprod_v2.png", "Gastero Prod 2" %}
 
 …mais elle était à force assez fatigante avec sa débauche de bleu.
 
 Du coup, la nouvelle version s'allège avec principalement une couleur de fond des contenus beaucoup plus agréable.
 
-{% cloudinary gasteroprod_v3.png caption="Gastero Prod 3" %}
+{% respimg "gasteroprod_v3.png", "Gastero Prod 3" %}
 
 Monsieur [Jakob «Use It» Nielsen](http://www.useit.com/) lui-même le dit : *Les internautes visitent un site pour son contenu. Tout le reste n'est que toile de fond. Le design doit faciliter l'accès au contenu.*
 
 Notez que [archive.org](http://web.archive.org/web/*/http://www.gasteroprod.com)[^t1] conserve encore une trace de la première version de Gastero Prod, mais légèrement altérée :
 
-{% cloudinary gasteroprod_v1.png %}
+{% respimg "gasteroprod_v1.png" %}
 
 ## Des URL simplifiées
 

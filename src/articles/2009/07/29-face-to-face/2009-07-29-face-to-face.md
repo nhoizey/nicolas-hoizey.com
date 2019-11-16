@@ -6,4 +6,4 @@ tags:       [photography, macro]
 
 Photo prise à distance avec un 300mm, il ne m'aurait jamais laissé approcher avec mon 100mm macro.
 
-{% cloudinary face_to_face.jpg caption="Face to face" %}
+{% respimg "face_to_face.jpg", "Face to face" %}

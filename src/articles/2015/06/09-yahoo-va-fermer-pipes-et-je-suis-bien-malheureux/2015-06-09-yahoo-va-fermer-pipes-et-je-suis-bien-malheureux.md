@@ -12,13 +12,13 @@ Entendons-nous bien, Yahoo Pipes bosse pour moi au quotidien, mais je ne vais da
 
 Voici [un exemple de *Pipe*](http://pipes.yahoo.com/pipes/pipe.edit?_id=bfe78fd60a9e342daa10715d03b51584), qui me permet de publier [de jolis tweets](https://twitter.com/nhoizey/status/605637245945675776) pour [mes bookmarks Pinboard](https://nicolas-hoizey.com/tags/pinboard.html) destinés aux [CleverMarks](https://twitter.com/CleverMarks) :
 
-{% cloudinary yahoo-pipes-pinboard-twitter.png caption="Vue graphique d'un *Pipe* de transformation de flux RSS" %}
+{% respimg "yahoo-pipes-pinboard-twitter.png", "Vue graphique d'un *Pipe* de transformation de flux RSS" %}
 
 Plus exactement, ce *Pipe* transforme le flux RSS fourni par Pinboard en un autre branché dans [IFTTT](https://ifttt.com/) pour alimenter [Buffer](https://buffer.com/), qui va lui poster le tweet. Compliqué ? Un peu, mais si utile.
 
 Par exemple, [ce bookmark](https://pinboard.in/u:nhoizey/b:602669af0bcf) :
 
-{% cloudinary pinboard-bookmark.png caption="Un bookmark dans Pinboard" %}
+{% respimg "pinboard-bookmark.png", "Un bookmark dans Pinboard" %}
 
 …va devenir ce tweet, sans aucune action de ma part :
 

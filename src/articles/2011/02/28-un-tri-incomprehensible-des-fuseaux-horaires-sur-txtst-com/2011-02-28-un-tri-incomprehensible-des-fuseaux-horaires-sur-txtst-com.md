@@ -8,11 +8,11 @@ La géolocalisation est un service de plus en plus tendance, notamment au sein d
 
 Voici par exemple ce que cela peut donner :
 
-{% cloudinary tumblr_l67o9cdfa.png %}
+{% respimg "tumblr_l67o9cdfa.png" %}
 
 Malheureusement, [le formulaire permettant de créer le code JavaScript à insérer sur son blog](http://www.txtst.com/fireeagle_badge/auth_new.php?f=start) comporte une erreur ergonomique assez pénible au niveau du [tri de la liste](/2011/02/utiliser-un-tri-significatif-dans-les-listes.html) de choix du fuseau horaire :
 
-{% cloudinary tumblr_l67o9dc84.png %}
+{% respimg "tumblr_l67o9dc84.png" %}
 
 Au début de la liste, il y a des noms de pays bien classés alphabétiquement, donc je me suis dit que j’allais trouver facilement la France, mais non. Il y a un choix « **F**rench Guiana Time » — qui apparaît après un « **G**eorgia Time » — mais aucun choix « France Time ». Après pas mal de prise de tête, j’ai fini par trouver un « Western European Time » qui doit être le meilleur choix pour la France.
 
