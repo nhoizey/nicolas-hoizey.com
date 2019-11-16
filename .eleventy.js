@@ -56,11 +56,6 @@ module.exports = function (eleventyConfig) {
     return string.split(separator);
   });
 
-  // TODO: remove?
-  eleventyConfig.addFilter("tags_microformat", function (tags) {
-    return tags.replace(/(rel="tag")/, 'rel="tag" class="p-category"');
-  });
-
   // limit filter
   eleventyConfig.addFilter("limit", function (array, limit) {
     return array.slice(0, limit);
@@ -83,11 +78,6 @@ module.exports = function (eleventyConfig) {
   // ------------------------------------------------------------------------
   // Shortcodes
   // ------------------------------------------------------------------------
-
-  eleventyConfig.addNunjucksShortcode("cloudinary", function (preset, image) {
-    console.error("Still using a 'cloudinary' shortcode!");
-    return `<img src="${image}" />`;
-  });
 
   eleventyConfig.addNunjucksShortcode("youtube", function (id) {
     return `<figure class="video"><iframe width="784" height="441" src="https://www.youtube.com/embed/${id}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure>`;
