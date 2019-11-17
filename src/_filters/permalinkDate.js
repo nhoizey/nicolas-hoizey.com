@@ -1,9 +1,5 @@
-module.exports = function permalinkDate(value) {
-  let dateObject = new Date(value);
-  dateObject.setHours(dateObject.getHours() + 2);
+const { DateTime } = require("luxon");
 
-  // yyyy/mm/dd
-  return dateObject
-    .toISOString()
-    .replace(/^([0-9]{4})-([0-9]{2})-([0-9]{2}).*$/, "$1/$2/$3");
+module.exports = function permalinkDate(dateObj) {
+  return DateTime.fromJSDate(dateObj).toFormat('yyyy/LL');
 };
