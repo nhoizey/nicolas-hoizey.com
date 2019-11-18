@@ -115,6 +115,7 @@ module.exports = function (eleventyConfig) {
 
   const respimg = require("eleventy-plugin-respimg");
   eleventyConfig.cloudinaryCloudName = 'nho';
+  eleventyConfig.siteUrl = 'https://eleventy.nicolas-hoizey.com';
   eleventyConfig.srcsetWidths = [320, 640, 960, 1280, 1600, 1920, 2240, 2560];
   eleventyConfig.fallbackWidth = 640;
   eleventyConfig.presets = {
@@ -185,7 +186,6 @@ module.exports = function (eleventyConfig) {
       }
     }
   }
-
   eleventyConfig.addPlugin(respimg);
 
   // ------------------------------------------------------------------------
