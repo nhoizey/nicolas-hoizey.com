@@ -1,10 +1,3 @@
-{%- set lastArticleYear = 0 -%}
-{%- for post in site.posts -%}
-  {%- if lastArticleYear == 0 -%}
-    {%- if 'links' in post.categories -%}
-    {%- else -%}
-      {%- set lastArticleYear = post.date | date("%Y") -%}
-    {%- endif -%}
-  {%- endif -%}
+{%- for article in collections.articles | limit(1) -%}
+  {{- article.date | date("YYYY") -}}
 {%- endfor -%}
-{{ lastArticleYear }}
