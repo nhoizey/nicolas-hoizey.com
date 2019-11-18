@@ -1,11 +1,15 @@
 {
   "name": "nicolas-hoizey.com",
   "version": "0.0.1",
-  "description": "nicolas-hoizey.com with Eleventy, based on https://github.com/vseventer/eleventy-parcel-boilerplate",
+  "short_title": "Nicolas Hoizey",
+  "title": "Nicolas Hoizey, passionate about the Web and photography",
+  "description": "Nicolas Hoizey, passionate about the Web and photography, among many other interests.",
   "author": {
     "name": "Nicolas Hoizey",
     "email": "nicolas@hoizey.com",
-    "url": "https://nicolas-hoizey.com/"
+    "url": "https://nicolas-hoizey.com/",
+    "twitter": "nhoizey",
+    "github": "nhoizey"
   },
   "license": "MIT",
   "homepage": "https://nicolas-hoizey.com",

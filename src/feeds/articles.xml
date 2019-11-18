@@ -5,14 +5,14 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Nicolas Hoizey - Articles</title>
-  <link href="{{ site.url }}/feeds/articles.xml" rel="self"/>
-  <link href="{{ site.url }}/?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
+  <link href="{{ pkg.homepage }}/feeds/articles.xml" rel="self"/>
+  <link href="{{ pkg.homepage }}/?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
   <link rel="hub" href="http://pubsubhubbub.superfeedr.com/" />
-  <updated>{{ site.time | attributeDate }}</updated>
-  <id>{{ site.url }}/articles/</id>
+  <updated>{{ build.timestamp | attributeDate }}</updated>
+  <id>{{ pkg.homepage }}/articles/</id>
   <author>
-    <name>{{ site.author }}</name>
-    <email>{{ site.email }}</email>
+    <name>{{ pkg.author.name }}</name>
+    <email>{{ pkg.author.email }}</email>
   </author>
 
   {% assign articles_number = 0 %}
@@ -21,9 +21,9 @@ layout: null
       {% unless post.categories contains 'links' %}
         <entry>
           <title>{{ post.title }}</title>
-          <link href="{{ site.url }}{{ post.url }}?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
+          <link href="{{ pkg.homepage }}{{ post.url }}?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
           <updated>{{ post.date | attributeDate }}</updated>
-          <id>{{ site.url }}{{ post.id }}</id>
+          <id>{{ pkg.homepage }}{{ post.id }}</id>
           <content type="html">{{ post.content | xml_escape }}</content>
         </entry>
         {% assign articles_number = articles_number | plus: 1 %}

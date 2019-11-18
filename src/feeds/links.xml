@@ -5,13 +5,13 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Nicolas Hoizey - Links</title>
-  <link href="{{ site.url }}/feeds/links.xml" rel="self"/>
-  <link href="{{ site.url }}/links/?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
-  <updated>{{ site.time | attributeDate }}</updated>
-  <id>{{ site.url }}/links/</id>
+  <link href="{{ pkg.homepage }}/feeds/links.xml" rel="self"/>
+  <link href="{{ pkg.homepage }}/links/?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
+  <updated>{{ build.timestamp | attributeDate }}</updated>
+  <id>{{ pkg.homepage }}/links/</id>
   <author>
-    <name>{{ site.author }}</name>
-    <email>{{ site.email }}</email>
+    <name>{{ pkg.author.name }}</name>
+    <email>{{ pkg.author.email }}</email>
   </author>
 
   {% assign links = site.categories['links'] %}
@@ -21,10 +21,10 @@ layout: null
 
     {% if link_date_in_seconds < now_in_seconds %}
   <entry>
-    <link href="{{ site.url }}{{ link.url }}?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
+    <link href="{{ pkg.homepage }}{{ link.url }}?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
     <title>{{ link.title }}</title>
     <updated>{{ link.date | attributeDate }}</updated>
-    <id>{{ site.url }}{{ link.id }}</id>
+    <id>{{ pkg.homepage }}{{ link.id }}</id>
     <content type="html">
       &lt;p&gt;{% if link.author %}{{ link.author }}&lt;br /&gt;{% endif %}
         &lt;a href="{{ link.link }}"&gt;{{ link.link }}&lt;/a&gt;
