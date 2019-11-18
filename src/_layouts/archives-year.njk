@@ -5,7 +5,7 @@ layout: default
 {% asset "components/archives" @inline %}
 
 {% set this_year = page.date | date : "%Y" | plus : 0 %}
-{% set max_year = site.time | date : "%Y" | plus : 0 %}
+{% set max_year = build.timestamp | date : "%Y" | plus : 0 %}
 {% set yearsNavigation %}
   <p class="previous">
     {% if this_year > 2001 %}
