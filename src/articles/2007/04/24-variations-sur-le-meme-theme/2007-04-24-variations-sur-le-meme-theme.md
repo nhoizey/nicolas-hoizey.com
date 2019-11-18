@@ -6,4 +6,4 @@ tags:       [society, media]
 
 Il semblerait que la presse manque un peu d'imagination entre ces deux tours des élections présidentielles :
 
-{% respimg "DSC00073.jpg", "Le même titre, ou presque. Les couvertures des magazines  Le Point, L'Express et Le Nouvel Observation au lendemain du premier tour" %}
+{% respimg "DSC00073.jpg", "Le même titre, ou presque. Les couvertures des magazines  Le Point, L'Express et Le Nouvel Observation au lendemain du premier tour", page %}

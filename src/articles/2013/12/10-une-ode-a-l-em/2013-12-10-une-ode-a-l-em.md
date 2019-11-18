@@ -6,7 +6,7 @@ tags:       [quality, RWD, em]
 
 Après avoir eu des retours plutôt nombreux et positifs suite à [ma conférence à Paris Web 2013](/2013/10/ma-conference-a-paris-web-2013.html), j'ai retroussé mes manches pour proposer une version plus rédactionnelle, en essayant de retranscrire tout ce que j'ai dit mais pas mis dans mes slides, et même plus. Et j'ai la chance d'avoir vu ce très long article publié sur [24 Jours de Web](http://www.24joursdeweb.fr/), « le calendrier de l'avent des gens qui font le web d'après ».
 
-{% respimg "24-jours-de-web-debut.png", "Un joli design pour ces 24 Jours de Web cuvée 2013" %}
+{% respimg "24-jours-de-web-debut.png", "Un joli design pour ces 24 Jours de Web cuvée 2013", page %}
 
 L'article s'intitule « [Lâchez prise sans perdre le contrôle grâce à l’unité CSS em](http://www.24joursdeweb.fr/2013/lachez-prise-sans-perdre-le-controle-grace-a-l-unite-css-em/) » et fait plus de 5000 mots, alors prévoyez un peu de temps pour tout lire, et surtout bien comprendre.
 

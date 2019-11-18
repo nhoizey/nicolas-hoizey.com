@@ -9,7 +9,7 @@ authors:
 tags: [CSS, art]
 ---
 
-{% respimg "yuan-chuan-at-css-conference-shenzhen.jpg", "", "onethird", loading="eager" %}
+{% respimg "yuan-chuan-at-css-conference-shenzhen.jpg", "", "onethird", loading="eager", page %}
 
 Yuan Chuan creates art from everything available in CSS, created [`< css-doodle />`](https://css-doodle.com/) (a web component for drawing patterns with CSS), and gave a talk at the [5th CSS Conference in Shenzhen](https://css.w3ctech.com/5) on March 30, 2019.
 

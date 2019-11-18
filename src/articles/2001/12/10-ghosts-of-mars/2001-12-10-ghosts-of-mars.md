@@ -6,25 +6,25 @@ tags:       [cinema, movie]
 
 Fidèle à lui-même, John Carpenter nous régale avec une bonne série B bien trash.
 
-{% respimg "art83-1.jpg", "", "onethird" %}
+{% respimg "art83-1.jpg", "", "onethird", page %}
 
 L'action se déroule en 2176 sur Mars qui est terraformée et devenue une colonie minière, et plus particulièrement dans la ville de Shining Canyon. L'héroïne Melanie Ballard (Natasha "La Mutante" Henstridge, qui a remplacé en dernière minute Courtney Love blessée) fait partie d'une équipe de flics qui doit ramener à Chryse, la capitale, le célèbre et dangereux criminel James "Desolation" Williams (Ice Cube).
 
 En arrivant sur les lieux, ils découvrent que presque toute la population a été massacrée, des cadavres mutilés se trouvant dans tous les batiments. Seuls quelques prisonniers, dont Williams, sont encore vivants dans la prison.
 
-{% respimg "art83-2.jpg" %}
+{% respimg "art83-2.jpg", page %}
 
 Ils devront s'associer pour combattre les fameux fantômes (ghosts) menés par un leader bien peu charismatique.
 
 Je vous laisse découvrir la suite…
 
-{% respimg "art83-3.jpg" %}
+{% respimg "art83-3.jpg", page %}
 
 Vous l'aurez deviné, cela ressemble une fois de plus à un western, avec une ville fantôme, des gentils et des méchants qui s'associent contre des encore plus méchants, et un vent rasant qui fait voler le sable. Rien d'étonnant de la part de John Carpenter, qui adapte le western à toutes les sauces, comme précédemment avec le fameux Vampires.
 
 Et comme toujours, c'est de la série B, un film de genre comme seul John Carpenter en fait encore, avec ses codes et principes, qui plaisent ou agacent.
 
-{% respimg "art83-4.jpg", "", "onethird" %}
+{% respimg "art83-4.jpg", "", "onethird", page %}
 
 Je ne vois qu'une source possible d'inspiration pour le script de cette nouvelle série B (ou Z pour ceux qui n'aiment pas) servie par John Carpenter. Il a dû être trainé de force à un concert de [Marilyn Manson](http://www.marilynmanson.net/), et faire par la suite des cauchemards qu'il a voulu exorciser dans ce film.
 

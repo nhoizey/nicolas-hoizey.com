@@ -17,7 +17,7 @@ If you don't know yet how to do Web layout with CSS, or feel like struggling wit
 > 
 > In this post I want to show you a way to approach layouts wholistically, as **a cohesive problem to be solved**.
 
-{% respimg "tweet-layout-arrows.jpg", "an example of Dave Ceddia's rough but efficient illustrations" %}
+{% respimg "tweet-layout-arrows.jpg", "an example of Dave Ceddia's rough but efficient illustrations", page %}
 
 > We’ll go through a small example, start to finish, and **I’ll explain all the CSS along the way** […]
 

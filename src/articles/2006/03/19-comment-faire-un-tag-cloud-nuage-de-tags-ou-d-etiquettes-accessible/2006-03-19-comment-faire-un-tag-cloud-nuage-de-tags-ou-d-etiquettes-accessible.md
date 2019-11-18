@@ -8,11 +8,11 @@ Vous avez déjà sans doute vu sur un site un «nuage d'étiquettes» -- *[tag c
 
 Si ce n'est pas le cas, voici [un exemple de *tag cloud* sur Flickr](https://www.flickr.com/photos/tags/), qui représente les tags les plus utilisés depuis le lancement du service :
 
-{% respimg "flickr_tags.png" %}
+{% respimg "flickr_tags.png", page %}
 
 Sur Gastero Prod, j'ai mis en place ce mécanisme assez astucieux de listage des thèmes abordés, à la fois dans la colonne de navigation, et sur une page dédiée aux [tags](/tags/) :
 
-{% respimg "gp_tags.png" %}
+{% respimg "gp_tags.png", page %}
 
 Sur cette page, je peux lister les tags par ordre alphabétique, ce qui est l'usage classique, mais aussi par ordre d'importance, c'est à dire selon le nombre d'articles auxquels ils sont associés, ce qui est plus pratique sans doute pour les utilisateurs de synthèses vocales ou autres outils non graphiques de navigation.
 

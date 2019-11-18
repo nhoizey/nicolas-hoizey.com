@@ -8,4 +8,4 @@ Vous rêvez de graphismes en milliards de couleurs sur le site web que vous réa
 
 Alors ne soyez plus frustré, mixez vos couleurs, comme vous le montrera très bien le site [ColorMix](http://www.colormix.com/)…
 
-{% respimg "colormix.jpg" %}
+{% respimg "colormix.jpg", page %}

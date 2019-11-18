@@ -8,7 +8,7 @@ tags:       [photography, book]
 
 Reconnaissable au premier coup d'oeil sur une couverture de magazine, dans une publicité ou un clip, le style Mondino a marqué la fin du siècle, et une rétrospective allait de soit. C'est chose faite avec [un livre](http://www.amazon.fr/exec/obidos/ASIN/3823899635) et [un site](http://www.mondinodejavu.com/) nommés "Mondino (Déjà Vu)".
 
-{% respimg "mondino.jpg" %}
+{% respimg "mondino.jpg", page %}
 
 Le site présente beaucoup d'images, mais de petite taille, histoire que vous achetiez le livre qui coûte quand même plus de 900 Frs !!!
 

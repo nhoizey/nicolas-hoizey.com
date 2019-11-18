@@ -11,7 +11,7 @@ Histoire de se démarquer des multiples autres revues destinées aux hommes, l'�
 
 Voilà qu'un magazine *masculin* avoue enfin ce qui fait son principal attrait pour son public : les photos !
 
-{% respimg "fhm_blah_blah.jpg", "La pub FHM Philippines" %}
+{% respimg "fhm_blah_blah.jpg", "La pub FHM Philippines", page %}
 
 
 C'est une astucieuse publicité imaginée par [BBDO / Guerrero Ortega](http://www.adforum.com/preview/wwd/simple_detail.asp?ID=8427&TDI=AGBTltRh).

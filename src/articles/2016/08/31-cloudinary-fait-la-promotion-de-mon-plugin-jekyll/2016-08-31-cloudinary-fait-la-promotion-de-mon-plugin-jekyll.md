@@ -6,7 +6,7 @@ tags:  [Jekyll, Cloudinary, image, RWD]
 
 Je vous en avais parlé [lors de ma migration vers Jekyll 3](https://nicolas-hoizey.com/2016/07/tout-change-rien-ne-change.html#un-nouveau-plugin-pour-grer-les-images-responsives-avec-cloudinary), je me suis lancé dans le développement d'[un plugin Jekyll pour utiliser le service Cloudinary](https://nhoizey.github.io/jekyll-cloudinary/) pour mes [images responsives](http://images-responsives.com/).
 
-{% respimg "/assets/logos/cloudinary.png", "Cloudinary", "logo" %}
+{% respimg "/assets/logos/cloudinary.png", "Cloudinary", "logo", page %}
 
 [Cloudinary](https://nho.io/cloudinary-signup) a semble-t-il bien aimé cette initiative, puisque [Eric Portis](https://ericportis.com/) ([@etportis](https://twitter.com/etportis)), qui les a rejoint il y a quelque temps, m'a invité à écrire un billet pour leur blog à propos de ce développement : « [How I used Cloudinary to solve responsive image needs in my Jekyll website, and shared the magic in a plugin](http://cloudinary.com/blog/how_i_used_cloudinary_to_solve_responsive_image_needs_in_my_jekyll_website_and_shared_the_magic_in_a_plugin) ».
 

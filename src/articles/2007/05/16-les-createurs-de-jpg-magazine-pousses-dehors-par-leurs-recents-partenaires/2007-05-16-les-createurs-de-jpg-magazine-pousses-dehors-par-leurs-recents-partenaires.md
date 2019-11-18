@@ -10,7 +10,7 @@ J'ai découvert [JPG Magazine](http://jpgmag.com/) au détours de discussions su
 
 [^2]: N'hésitez surtout pas à voter pour mes photos !!! ;-)
 
-{% respimg "/assets/logos/jpg-magazine.png", "logo" %}
+{% respimg "/assets/logos/jpg-magazine.png", "logo", page %}
 
 Aujourd'hui, j'apprends avec désolation que [Derek Powazek](http://powazek.com/) et [Heather Powazek Champ](http://www.hchamp.com/)[^1], [ses fondateurs, sont poussés dehors](http://powazek.com/posts/534) par ceux[^2] avec lesquels ils pensaient pouvoir améliorer encore le principe de publication communautaire, au travers de la société [8020 Publishing](http://www.8020publishing.com/).
 

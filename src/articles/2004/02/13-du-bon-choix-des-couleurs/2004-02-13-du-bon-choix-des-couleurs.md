@@ -11,17 +11,17 @@ Il existe de nombreuses ressources sur Internet qui présentent les couleurs de 
 
 Si vous faites confiance à votre bon goût, vous pouvez vous-même choisir parmi les 4096 couleurs proposées par la [« color wheel»](http://www.ficml.org/jemimap/style/color/wheel.html) de Jemima Pereira.
 
-{% respimg "4096_couleurs.png" %}
+{% respimg "4096_couleurs.png", page %}
 
 
 Sinon, vous pouvez vous appuyer sur les règles de mélange de couleurs de [Chromoweb](http://www.smartpixel.net/chromoweb/fr/index.htm).
 
-{% respimg "chromoweb.png" %}
+{% respimg "chromoweb.png", page %}
 
 
 Pour aller encore plus loin, je vous conseille le [color scheme](http://www.pixy.cz/apps/barvy/index-en.html), qui vous permettra en plus de visualiser simplement ce que des personnes ayant des problèmes de vision verront.
 
-{% respimg "color_scheme.png" %}
+{% respimg "color_scheme.png", page %}
 
 
 Mais que tout cela ne vous empêche pas d'être créatif et de continuer à [mixer les couleurs](/2001/01/passez-vos-couleurs-au-mixer.html) !
@@ -30,4 +30,4 @@ Enfin, si vous êtes perfectionniste, allez faire un tour chez [Chroma](http://p
 
 Quoi qu'il en soit, pour avoir une bonne vue des couleurs principales toujours sous les yeux, pourquoi ne pas adopter le [tapis de souris de ThinkGeek](http://www.thinkgeek.com/computing/accessories/5b15/)…
 
-{% respimg "thinkgeek_colors.jpg" %}
+{% respimg "thinkgeek_colors.jpg", page %}

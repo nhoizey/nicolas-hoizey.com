@@ -33,7 +33,7 @@ J'aurais pu utiliser SPIP, qui sait faire cela sans soucis, mais vu que j'utilis
 
 Voici donc mon [Yahoo! Pipe aggrégeant les trois flux RSS de Gastero Prod pour en constituer un complet, avec préfixe sur chaque *item* pour faciliter la lecture](http://pipes.yahoo.com/nicolashoizey/gasteroprod)[^4]. Je vous invite à regarder son « code source »[^5], qui montre notamment un exemple de factorisation de « code » par l'usage d'un autre [Yahoo! Pipe permettant de simplement préfixer tous les *items* d'un flux](http://pipes.yahoo.com/nicolashoizey/feeditemprefix).
 
-{% respimg "yahoo-pipe-flux-rss-gastero-prod.png" %}
+{% respimg "yahoo-pipe-flux-rss-gastero-prod.png", page %}
 
 Malheureusement, le flux ainsi obtenu, servi à nouveau par FeedBurner, ne dispose pas de mon icône habituelle, qui est remplacée par celle de Yahoo!, ce qui fait un peut tâche dans un aggrégateur. Ceci ne sera corrigé que quand Yahoo! ajoutera la [possibilité de manipuler dans un Yahoo! Pipe le flux lui-même, et non seulement ses *items*](http://suggestions.yahoo.com/detail/?prop=Pipes&fid=73084)[^6].
 

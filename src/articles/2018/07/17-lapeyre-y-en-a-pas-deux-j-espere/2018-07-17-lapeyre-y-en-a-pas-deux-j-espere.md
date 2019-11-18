@@ -6,7 +6,7 @@ tags:  [SAV, fail]
 
 Je ne sais pas si vous avez déjà été confronté au SAV de Lapeyre, mais je peux vous dire qu'il vaut son pesant de cacahuètes.
 
-{% respimg "/assets/logos/lapeyre.png", "", "onethird" %}
+{% respimg "/assets/logos/lapeyre.png", "", "onethird", page %}
 
 Le **4 octobre 2017**, un technicien Lapeyre venait prendre des mesures chez moi pour avoir les dimensions sur mesure d'une porte de garage.
 

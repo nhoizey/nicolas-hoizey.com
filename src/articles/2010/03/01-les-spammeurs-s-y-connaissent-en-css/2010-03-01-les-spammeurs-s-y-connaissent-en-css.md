@@ -8,13 +8,13 @@ Un p'tit malin qui se fait appeler Sylvain a laissé un commentaire très sympat
 
 Voilà à quoi ressemblait le commentaire avant que je le retire :
 
-{% respimg "gp-spam.png" %}
+{% respimg "gp-spam.png", page %}
 
 C'est la flèche orange sous le texte —indiquant normalement un lien vers un autre site— qui m'a mis la puce à l'oreille, et après vérification, il y a bien un tel lien, vers un site marchand.
 
 Ce petit malin de Sylvain a cru me duper, et ainsi gagner facilement du référencement avec un nouveau lien entrant, en masquant son lien avec un peu de CSS[^1] :
 
-{% respimg "gp-spam-code.png" %}
+{% respimg "gp-spam-code.png", page %}
 
 Dommage pour lui, pris sur le fait !
 

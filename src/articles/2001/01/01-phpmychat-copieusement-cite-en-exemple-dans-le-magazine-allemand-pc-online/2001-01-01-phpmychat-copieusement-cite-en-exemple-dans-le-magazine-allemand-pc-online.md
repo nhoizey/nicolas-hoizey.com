@@ -8,10 +8,10 @@ Dans ce numéro de PC Online[^pconline], journal allemand, Michael Loy propose u
 
 [^pconline]: Qui contrairement à ce que semble indiquer son nom est un magazine papier « traditionnel »
 
-{% respimg "pconline_cover.jpg", "La couverture du magazine" %}
+{% respimg "pconline_cover.jpg", "La couverture du magazine", page %}
 
-{% respimg "pconline_page1.jpg", "Première page de l'article" %}
+{% respimg "pconline_page1.jpg", "Première page de l'article", page %}
 
-{% respimg "pconline_page2.jpg", "Seconde page de l'article" %}
+{% respimg "pconline_page2.jpg", "Seconde page de l'article", page %}
 
-{% respimg "pconline_page3.jpg", "Troisième page de l'article" %}
+{% respimg "pconline_page3.jpg", "Troisième page de l'article", page %}

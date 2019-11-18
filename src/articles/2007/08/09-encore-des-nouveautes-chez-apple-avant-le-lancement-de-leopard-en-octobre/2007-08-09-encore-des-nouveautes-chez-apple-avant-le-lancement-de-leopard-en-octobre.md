@@ -12,7 +12,7 @@ Si vous avez plus d'une heure à y consacrer, je vous conseille de regarder [la 
 
 Sans doute attiré par la grande mode actuelle des écrans télé LCD et Plasma, le [nouvel iMac](http://www.apple.com/imac/) quitte le design sobre blanc pour [un look plus voyant](http://www.apple.com/imac/design.html) avec un [écran *glossy* cerclé de noir](http://www.apple.com/imac/technology/display.html).
 
-{% respimg "Apple-iMac-profil.png", "Apple iMac" %}
+{% respimg "Apple-iMac-profil.png", "Apple iMac", page %}
 
 La coque passe en aluminium, ce qui donne à Steve l'occasion de dire qu'Apple favorise ainsi le [recyclage](http://www.apple.com/environment/). A quand des MacBook non pro bien classe en alu, alors ? ;-)
 
@@ -20,7 +20,7 @@ Cet iMac s'accompagne évidemment d'un nouveau clavier assorti, en aluminium lui
 
 Un clavier sans fil bluetooth est lui aussi disponible afin de réduire encore le nombre de cables -- plus qu'un seul pour le courant, finalement, si vous avez aussi une souris sans fil.
 
-{% respimg "Apple-iMac-clavier-bluetooth.png", "Le nouveau clavier Bluetooth d'Apple" %}
+{% respimg "Apple-iMac-clavier-bluetooth.png", "Le nouveau clavier Bluetooth d'Apple", page %}
 
 Comme vous pouvez le voir, ce clavier est fortement inspiré de celui des MacBook.
 
@@ -28,17 +28,17 @@ Par contre, de manière totalement incompréhensible pour moi, le positionnement
 
 Par exemple, les touches de fonction permettant de lancer Exposé ou le Dashboard -- qui gagnent au passage des illustrations significatives -- sont situées à gauche, alors qu'elles sont à droite sur le MacBook :
 
-{% respimg "Apple-iMac-clavier-bluetooth-expose.png", "Touches pour lancer Exposé et le Dashboard" %}
+{% respimg "Apple-iMac-clavier-bluetooth-expose.png", "Touches pour lancer Exposé et le Dashboard", page %}
 
 Par conséquent, les touches de réglage du son prennent la place laissée vacante à droite, alors qu'il aurait été sans doute plus simple et cohérent de garder le même positionnement :
 
-{% respimg "Apple-iMac-clavier-bluetooth-son.png", "Touches pour le son" %}
+{% respimg "Apple-iMac-clavier-bluetooth-son.png", "Touches pour le son", page %}
 
 Il y a ainsi plusieurs autres touches qui ont changé de position, j'aimerai bien connaître les motivations qui ont conduit à ce que j'estime être une erreur d'ergonomie bien étrange de la part d'Apple.
 
 Un autre changement non négligeable sur ce nouveau clavier, c'est ni plus ni moins que ma **disparition de la célèbrissime pomme** ! Oui, vous avez bien lu, la pomme n'est plus là, elle est remplacé par un bien plus pragmatique mais moins sympathique label « Command » :
 
-{% respimg "Apple-iMac-clavier-bluetooth-pomme.png", "Où est passée la pomme ???" %}
+{% respimg "Apple-iMac-clavier-bluetooth-pomme.png", "Où est passée la pomme ???", page %}
 
 ## iLife '08
 
@@ -50,7 +50,7 @@ La nouvelle version de [iPhoto](http://www.apple.com/ilife/iphoto/) sait enfin g
 
 Là où Apple innove, c'est dans la notion d'album lié à une date, ou plutôt à un événement. Il est ainsi possible de rassembler les photos d'un même événement dans un album particulier. La création est automatique pour toutes les photos prises à une même date, et il est ensuite possible de diviser ou ressembler simplement les albums.
 
-{% respimg "Apple_iPhoto_08.png", "Apple iPhoto '08" %}
+{% respimg "Apple_iPhoto_08.png", "Apple iPhoto '08", page %}
 
 Une autre nouveauté très intéressante est la navigation dans les photos d'un album tout simplement en déplaçant la souris le long de sa vignette, sans avoir à l'ouvrir complètement ! Apple parle ici de « *skimming* ».
 
@@ -64,7 +64,7 @@ Toujours est-il que cette nouvelle version remet enfin à plat la visualisation 
 
 Comme on parcours un album dans iPhoto en déplaçant la souris sur sa vignette, on peut ici [naviguer dans la vidéo](http://www.apple.com/ilife/imovie/#playing) de façon extrêmement simple.
 
-{% respimg "Apple-iMovie-08.png", "Apple iMovie '08. Une toute nouvelle application qui révolutionne l'édition vidéo" %}
+{% respimg "Apple-iMovie-08.png", "Apple iMovie '08. Une toute nouvelle application qui révolutionne l'édition vidéo", page %}
 
 La [démo de iMovie '08](http://movies.apple.com/movies/us/apple/mac/ilife/2007/tour/apple_ilife08_imovie_20070807_iref.mov) est bluffante de simplicité, j'ai hâte d'y toucher !
 
@@ -79,7 +79,7 @@ Côté [iWork](http://www.apple.com/iwork/), la suite bureautique d'Apple, on vo
 
 Ce tableur prend le nom tout simple de Numbers, et met particulièrement l'accent sur la présentation tout comme Pages et Keynote.
 
-{% respimg "Apple-Numbers-08.png", "Apple Numbers '08. Le nouveau tableur de Apple" %}
+{% respimg "Apple-Numbers-08.png", "Apple Numbers '08. Le nouveau tableur de Apple", page %}
 
 Certaines fonctionnalités sont de plus simplifiées par rapport à ce qui se fait chez la concurrence, notamment au niveau des formules.
 

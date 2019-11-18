@@ -19,7 +19,7 @@ Dans le cas de Flickr, c'est un système maison, donc dédié à la réduction d
 
 Le premier point reste cependant valable, les URL raccourcies prenant cette forme : <http://flic.kr/p/5Z9uNn>. Bien malin celui qui pourra déduire directement que ce lien pointe vers [une de mes photos](https://www.flickr.com/photos/nicolas-hoizey/3272125121/), l'URL ne laissant pas apparaître l'identifiant du compte.
 
-{% respimg "20090110-givre.jpg", "Givre" %}
+{% respimg "20090110-givre.jpg", "Givre", page %}
 
 Alors comment connaître cette URL raccourcie ? Elle est tout simplement utilisée comme adresse de référence sur la page d'une photo, avec le code suivant :
 

@@ -6,7 +6,7 @@ tags:       [fail, blog, Apple]
 
 Avec quelques amis — essentiellement utilisateurs de MacBook, iPhone et iPad mais pas *fanboys* aveuglés tout de même — nous avons constaté une lente mais de plus en plus visible dégradation de la légendaire qualité de finition des logiciels fournis par Apple. Nous avons lancé un Tumblr pour partager simplement ces constats.
 
-{% respimg "food-apple-worm.png", "onefourth" %}
+{% respimg "food-apple-worm.png", "onefourth", page %}
 
 Voilà le texte de présentation de ce Tumblr :
 

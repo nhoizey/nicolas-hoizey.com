@@ -23,28 +23,28 @@ Une fois le bon document retrouvé, des liens permettent d'ajouter simplement le
 
 Tout d'abord, cliquez sur le nouveau bouton de la barre d'aide à la saisie des raccourcis typographiques :
 
-{% respimg "galerie_spip_1.png" %}
+{% respimg "galerie_spip_1.png", page %}
 
 
 **2 - Naviguez dans l'arborescence**
 
 Déplacez-vous dans l'arborescence du site pour y retrouver le document ou l'image qui vous intéresse :
 
-{% respimg "galerie_spip_2.png" %}
+{% respimg "galerie_spip_2.png", page %}
 
 
 **3 - Visualisez l'élément et ses liens d'ajout**
 
 Une fois le bon élément retrouvé, cliquez sur le lien correspondant à l'affichahe souhaité :
 
-{% respimg "galerie_spip_3.png" %}
+{% respimg "galerie_spip_3.png", page %}
 
 
 **4 - Continuez à travailler normalement**
 
 Après avoir cliqué sur l'un des liens, le code correspondant est ajouté à la zone de saisie et la galerie est refermée :
 
-{% respimg "galerie_spip_4.png" %}
+{% respimg "galerie_spip_4.png", page %}
 
 
 ## Installation

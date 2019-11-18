@@ -17,7 +17,7 @@ Saurez-vous détecter les bonnes tendances et ainsi acheter des parts des sites 
 
 Oserez-vous par exemple parier sur ce site Gastero Prod et [en acheter des parts](http://alexadex.com/ad/url/gasteroprod.com) ? ;-)
 
-{% respimg "alexadex_gasteroprod.png", "La page Alexadex sur Gastero Prod" %}
+{% respimg "alexadex_gasteroprod.png", "La page Alexadex sur Gastero Prod", page %}
 
 
 

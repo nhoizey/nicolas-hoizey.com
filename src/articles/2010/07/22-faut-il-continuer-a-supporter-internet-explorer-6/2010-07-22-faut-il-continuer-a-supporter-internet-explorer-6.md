@@ -18,7 +18,7 @@ Globalement, l'Europe est largement soulagée par des parts de marché de IE6 to
 
 [^europe]: Statistiques fournies par [StatCounter](http://gs.statcounter.com/#browser_version-eu-monthly-201007-201007-bar)
 
-{% respimg "navigateurs-2010-07-europe.png", "Marché des navigateurs en juillet 2010 en Europe" %}
+{% respimg "navigateurs-2010-07-europe.png", "Marché des navigateurs en juillet 2010 en Europe", page %}
 
 
 Mais ce n'est qu'une moyenne globale, qui masque notamment une forte différence entre marché des professionnels et marché des particuliers, les seconds ayant tendance à être bien plus à jour.
@@ -29,7 +29,7 @@ L'autre aspect qui peut nous échapper si l'on ne regarde que les chiffres mondi
 
 [^afrique]: Les autres continents sont plus avancés, et préfèrent en général IE8 à Firefox.
 
-{% respimg "navigateurs-2010-07-asie.png", "Marché des navigateurs en juillet 2010 en Asie" %}
+{% respimg "navigateurs-2010-07-asie.png", "Marché des navigateurs en juillet 2010 en Asie", page %}
 
 
 Il faudra encore sans doute beaucoup de temps avant que IE6 soit complètement éradiqué du Web[^3].

@@ -11,7 +11,7 @@ Si vous cherchez un bon gadget de *geek* pour épater vos ami(e)s, jetez-vous su
 
 [^1]: Oui, je sais, ses oreilles bougent…
 
-{% respimg "pleo-ugobe.png" %}
+{% respimg "pleo-ugobe.png", page %}
 
 Caleb Chung[^1], de la société UGOBE, avait eu beaucoup de succès avec son [Furby](http://fr.wikipedia.org/wiki/Furby), et il va maintenant tenter de prendre la place que tenait l'Aibo de Sony, avec le lancement en octobre de son Pleo.
 

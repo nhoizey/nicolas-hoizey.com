@@ -35,5 +35,5 @@ Je dois donc prendre en compte ces deux versions dans mes tests pour savoir si e
 
 En parlant de statistiques, je serais **énormément heureux** si quelqu'un peut m'expliquer d'où vient cet énorme sursaut dans les installations de esviji durant trois jours à partir du 11 mai 2015 :
 
-{% respimg "esviji-installation-stats.png" %}
+{% respimg "esviji-installation-stats.png", page %}
 

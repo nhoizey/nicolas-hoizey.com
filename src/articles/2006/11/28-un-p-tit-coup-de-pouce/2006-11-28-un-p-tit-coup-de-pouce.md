@@ -8,7 +8,7 @@ J'ai décidé de me prendre par la main et de proposer certaines de mes photos d
 
 Ma proposition pour le thème «[tourist](http://www.jpgmag.com/themes/1)» est la suivante :
 
-{% respimg "lost-in-white-space.jpg", "Lost in (white) space" %}
+{% respimg "lost-in-white-space.jpg", "Lost in (white) space", page %}
 
 Vous pouvez voter sur [sa page dédiée](http://www.jpgmag.com/photos/20192)[^1].
 
@@ -16,7 +16,7 @@ Evidemment, si vous votez pour sa publication, vous aurez toute ma gratitude !!!
 
 **MAJ du 04/12 :** Les votes pour le huitième volume sont terminés[^2], mais vous pouvez maintenant voter pour cette soumission au thème «[street](http://www.jpgmag.com/themes/23)» :
 
-{% respimg "maximum-security.jpg", "Maximum security" %}
+{% respimg "maximum-security.jpg", "Maximum security", page %}
 
 Comme pour la précédente, vous pouvez voter sur [JPG Magazine](https://www.jpgmag.com/photos/21364), et vous pouvez aussi [la retrouver sur Flickr](http://www.flickr.com/photos/nicolas-hoizey/2704877/) si vous voulez la mettre dans vos favoris… ;-)
 

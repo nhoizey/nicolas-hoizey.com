@@ -5,11 +5,11 @@ tags:       [commerce, Twitter, SAV]
 ---
 Voilà une nouvelle preuve qu'il est possible de gérer de façon exemplaire un service après vente via Twitter, un grand merci à [Truffaut](http://www.truffaut.com/) qui a été parfait sur ce coup !
 
-{% respimg "truffaut_sur_twitter.png" %}
+{% respimg "truffaut_sur_twitter.png", page %}
 
 Il y a quelques jours, je découvre que mon minuteur d'arrosage automatique — un [Gardena T 1030 D](http://www.gardena.com/fr/gestion-eau/arrosage-automatique/t-1030-d/) s'est rempli d'eau au niveau des composants électroniques, le rendant forcément inutilisable. Bien entendu, je n'ai plus de facture d'achat, celui-ci datant de l'été dernier, mais pire, c'est la seconde fois que cette mésaventure m'arrive, avec le même modèle.
 
-{% respimg "gardena-t-1030-d.jpg", "Minuteur d'arrosage Gardena T 1030 D" %}
+{% respimg "gardena-t-1030-d.jpg", "Minuteur d'arrosage Gardena T 1030 D", page %}
 
 De quoi commencer à se dire que c'est le modèle qui est mauvais, que son étanchéité n'a pas été vérifiée à la conception ou que j'ai eu des modèles avec vices de fabrication.
 

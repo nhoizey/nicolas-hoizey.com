@@ -8,7 +8,7 @@ Il y a quelques mois, je me demandais si l'hybride [Olympus OM-D E-M1](/2013/11/
 
 Depuis, je n'avais presque plus suivi l'actualité de l'Olympus, mais les nombreux tests très positifs n'ont pas arrêté de me faire penser au Panasonic, que j'ai eu la chance incroyable de pouvoir tester pendant une semaine grâce à Panasonic et [Phototrend](http://phototrend.fr/).
 
-{% respimg "comparaison-canon-eos-5d-mark-ii-panasonic-lumix-gm1.png", "Comparaison des tailles du Canon EOS 5D Mark II et du Panasonic Lumix GM1" %}
+{% respimg "comparaison-canon-eos-5d-mark-ii-panasonic-lumix-gm1.png", "Comparaison des tailles du Canon EOS 5D Mark II et du Panasonic Lumix GM1", page %}
 
 Voilà donc mon test publié par Phototrend début août[^1] :
 

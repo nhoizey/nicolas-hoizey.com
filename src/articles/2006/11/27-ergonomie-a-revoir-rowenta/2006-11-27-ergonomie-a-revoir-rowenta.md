@@ -7,7 +7,7 @@ tags:       [fail, UX]
 Je suis tombé dernièrement sur un four imaginé par Rowenta qui m'a un peu surpris. Je dis bien «imaginé», parce que je n'ai jamais rien vu de semblable.
 
 
-{% respimg "rowenta-ergonomie.jpg" %}
+{% respimg "rowenta-ergonomie.jpg", page %}
 
 
 Au premier abord, bien sûr, rien d'inhabituel, mais si vous regardez attentivement la séquence de températures possibles, vous avouerez qu'il y a de quoi perdre son latin.

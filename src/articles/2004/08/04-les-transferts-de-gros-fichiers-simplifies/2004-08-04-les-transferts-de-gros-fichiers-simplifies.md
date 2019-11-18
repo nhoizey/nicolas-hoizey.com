@@ -15,7 +15,7 @@ Les éléments sur lesquels les deux services se différencient sont la nécessi
 
 # [Dropload](http://www.dropload.com/)
 
-{% respimg "dropload.png" %}
+{% respimg "dropload.png", page %}
 
 - Création de compte nécessaire : oui
 - Taille limite des fichiers : 100 Mo
@@ -23,7 +23,7 @@ Les éléments sur lesquels les deux services se différencient sont la nécessi
 
 # [YouSendIt](http://www.yousendit.com/)
 
-{% respimg "yousendit.png" %}
+{% respimg "yousendit.png", page %}
 
 - Création de compte nécessaire : non
 - Taille limite des fichiers : 1 Go

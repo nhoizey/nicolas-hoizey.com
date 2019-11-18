@@ -11,33 +11,33 @@ Je vous ai déjà parlé plusieurs fois de PicLens, cet outil génial de navigat
 
 **Mise à jour du 22 août 2008 :** PicLens se nomme maintenant Cooliris, du nom original de la société l'ayant développé.
 
-{% respimg "piclens.jpg" %}
+{% respimg "piclens.jpg", page %}
 
 
 Si vous n'avez pas encore installé PicLens, vous verrez par exemple ceci sur la page d'accueil de Gastero Prod :
 
-{% respimg "piclens-sans.png" %}
+{% respimg "piclens-sans.png", page %}
 
 
 Si par contre vous avez eu la bonne idée de l'installer, vous verrez ceci en survolant une des photos :
 
-{% respimg "piclens-avec.png" %}
+{% respimg "piclens-avec.png", page %}
 
 
 Cliquez sur la flèche, et vous vous retrouverez dans l'interface splendide de PicLens pour naviguer dans mes photos :
 
 
-{% respimg "piclens-inside1.png", "En cliquant sur la photo du site, on arrive sur la mozaïque mettant en avant la photo en question" %}
+{% respimg "piclens-inside1.png", "En cliquant sur la photo du site, on arrive sur la mozaïque mettant en avant la photo en question", page %}
 
 
 
 
-{% respimg "piclens-inside2.png", "On peut ajuster le zoom à loisir et se déplacer dans la mozaïque avec un effet 3D du plus bel effet" %}
+{% respimg "piclens-inside2.png", "On peut ajuster le zoom à loisir et se déplacer dans la mozaïque avec un effet 3D du plus bel effet", page %}
 
 
 
 
-{% respimg "piclens-inside3.png", "Et on peut mettre la photo en plein écran avec un petit carousel à la place de la mozaïque" %}
+{% respimg "piclens-inside3.png", "Et on peut mettre la photo en plein écran avec un petit carousel à la place de la mozaïque", page %}
 
 
 

@@ -9,22 +9,22 @@ N'utilisant jamais le compte e-mail fourni avec mon accès ADSL [Tiscali](http:/
 
 Manifestement, j'ai bien une explosion de quota, avec **900&nbsp;% de l'espace de stockage utilisé** :
 
-{% respimg "tiscali1.png", "Explosion du quota" %}
+{% respimg "tiscali1.png", "Explosion du quota", page %}
 
 
 J'ai même reçu un message de Tiscali m'alertant sur ce point :
 
-{% respimg "tiscali2.png", "Alerte de dépassement" %}
+{% respimg "tiscali2.png", "Alerte de dépassement", page %}
 
 
 Mais justement, quand j'essaie de supprimer ce message, j'ai une erreur :
 
-{% respimg "tiscali3.png", "Tentative de suppression" %}
+{% respimg "tiscali3.png", "Tentative de suppression", page %}
 
 
 Bon, apparemment il est quand même supprimé, et j'ai gagné 100&nbsp;Mo ! Ils font des messages bien lourd chez Tiscali :
 
-{% respimg "tiscali4.png", "Ouf, 100 Mo de gagnés" %}
+{% respimg "tiscali4.png", "Ouf, 100 Mo de gagnés", page %}
 
 
 Sauf que je n'avais que ce message dans ma boîte, donc je ne vois pas trop comment gagner ces 800&nbsp;% qui restent !!!

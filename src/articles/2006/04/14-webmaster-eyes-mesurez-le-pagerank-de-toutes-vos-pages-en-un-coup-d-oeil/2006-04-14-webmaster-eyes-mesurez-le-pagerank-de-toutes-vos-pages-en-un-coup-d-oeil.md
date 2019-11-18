@@ -15,7 +15,7 @@ Différents outils permettent de mesurer facilement le *PageRank* d'une page, ma
 
 Exemple de rendu sur la [page d'accueil de Gastero Prod](http://www.webmastereyes.com/index.php?url=http://www.gasteroprod.com/) :
 
-{% respimg "webmastereyes.png", "Webmaster Eyes sur Gastero Prod" %}
+{% respimg "webmastereyes.png", "Webmaster Eyes sur Gastero Prod", page %}
 
 
 Il n'est sans doute pas très intéressant de savoir que Google et Amazon ont un bon *PageRank*, mais voir que les pages des différents [*tags*](/tags/) ont des *PageRank* différents est assez intéressant.

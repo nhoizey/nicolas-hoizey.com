@@ -9,7 +9,7 @@ Google fait appel à ses utilisateurs pour obtenir plus facilement la traduction
 
 En effet, il suffit d'aller sur la page de [consultation de l'état d'avancement des traductions](https://services.google.com/tcbin/tc.py?cmd=status) pour voir que pas mal de langues sont traduites à plus de 100%[^t1] !!!
 
-{% respimg "google_tr_bestof.png" %}
+{% respimg "google_tr_bestof.png", page %}
 
 
 Notons que les français sont plutôt bien placés, en deuxième place avec les espagnols et les italiens, juste derrière les allemands.
@@ -18,7 +18,7 @@ Je comprends donc que certains texte ont été traduits mais ne sont plus utilis
 
 Et pourtant, il suffit de se connecter pour voir que ce n'est pas le cas du français :
 
-{% respimg "google_tr_fr.png" %}
+{% respimg "google_tr_fr.png", page %}
 
 
 Certes l'interface du site principal est intégralement traduite, ainsi que d'autres éléments, mais que signifient donc au final ces 112% ???

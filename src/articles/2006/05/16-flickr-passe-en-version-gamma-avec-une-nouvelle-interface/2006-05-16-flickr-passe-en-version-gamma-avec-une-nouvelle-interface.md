@@ -4,14 +4,14 @@ lang:       fr
 tags:       [Flickr, Web 2.0, Greasemonkey]
 ---
 
-{% respimg "flickr_logo_gamma.png", "logo" %}
+{% respimg "flickr_logo_gamma.png", "logo", page %}
 
 Alors que les versions [*beta*](http://www.2803.com/2006/04/04/le-fameux-beta/) sont légion dans le monde bouillonnant du Web 2.0, [Flickr se jette à l'eau et passe en version *gamma*](http://blog.flickr.com/flickrblog/2006/05/alpha_beta_gamm.html).
 
 
 Ce changement, que l'on pourrait qualifier de mineur si l'on s'en tenait à la notion de version évoquée, s'accompagne en fait d'un changement d'interface non négligeable :
 
-{% respimg "flickr-gamma.png", "La nouvelle interface de Flickr" %}
+{% respimg "flickr-gamma.png", "La nouvelle interface de Flickr", page %}
 
 
 Une barre de menu horizontale avec des sous menus déroulants fait son apparition, ce qui devrait permettre d'arriver plus vite sur certaines pages.

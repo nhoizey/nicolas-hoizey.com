@@ -6,7 +6,7 @@ tags:       [quality, conference]
 
 Dans moins d'un mois, les 25 et 26 mai, aura lieu la seconde édition de [Sud Web](http://sudweb.fr/2012/) à Toulouse, et l’excitation commence à monter à l'idée de bientôt retrouver toute cette communauté d’artisans du Web, d'échanger et de construire tous ensemble les bonnes pratiques de mise en œuvre et usage du Web.
 
-{% respimg "banniere2012fa8a.png", "Sud Web 2012, j'y serai !", "onethird" %}
+{% respimg "banniere2012fa8a.png", "Sud Web 2012, j'y serai !", "onethird", page %}
 
 J'ai eu la chance de participer à l'[édition précédente](/2011/04/retrouvons-nous-a-web-ux-et-sud-web-les-26-et-27-mai.html), réussie en tout point, et le [programme](http://sudweb.fr/2012/programme/) concocté cette année par l'équipe est une fois de plus alléchant. N'allez pas croire que si vous allez déjà à Paris Web vous n'avez pas besoin d'aller à Sud Web. Ces deux conférences sont effectivement très liées, Sud Web étant né de l'imagination fertile de participant à Paris Web, mais leurs approches du Web sont différentes, très complémentaires.
 

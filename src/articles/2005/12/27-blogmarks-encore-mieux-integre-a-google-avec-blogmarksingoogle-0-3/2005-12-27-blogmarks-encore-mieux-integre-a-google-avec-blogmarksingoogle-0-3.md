@@ -9,7 +9,7 @@ Suite à la sortie de BlogmarksInGoogle 0.2 [il y a deux jours](/2005/12/blogmar
 
 Voilà donc ce que ça donne pour le design :
 
-{% respimg "BlogmarksInGoogle-screenshot.png", "BlogmarksInGoogle 0.3 en action" %}
+{% respimg "BlogmarksInGoogle-screenshot.png", "BlogmarksInGoogle 0.3 en action", page %}
 
 
 Pour ce qui est des évolutions, jugez vous-même :

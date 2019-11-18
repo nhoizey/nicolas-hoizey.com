@@ -5,7 +5,7 @@ eleventyExcludeFromCollections: true
 lang: en
 ---
 
-{% respimg "/assets/logos/feed.png", "", "logo" %}
+{% respimg "/assets/logos/feed.png", "", "logo", page %}
 
 You can follow my publications with following Atom feeds:
 - [articles](/feeds/articles.xml)

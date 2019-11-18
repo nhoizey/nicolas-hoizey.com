@@ -10,4 +10,4 @@ Sur ce nouveau site web, vous trouverez de très nombreuses bandes annonces (de 
 
 Enfin une bonne source de bandes annonces sur le Web pour les passionnés de mon genre… :-)
 
-{% respimg "allocine-vision.jpg" %}
+{% respimg "allocine-vision.jpg", page %}

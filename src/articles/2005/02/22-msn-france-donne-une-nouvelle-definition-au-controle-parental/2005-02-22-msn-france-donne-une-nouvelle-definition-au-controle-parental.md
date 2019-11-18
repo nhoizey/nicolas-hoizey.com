@@ -9,23 +9,23 @@ Ou plutôt, *à donné* une nouvelle définition au contrôle parental, devrais-
 
 Le 1<sup>er</sup> décembre 2003, donc, la [page d'accueil de MSN France](http://www.msn.fr/) était la suivante :
 
-{% respimg "MSN_controle_parental.png" %}
+{% respimg "MSN_controle_parental.png", page %}
 
 
 Si vous ouvrez la page complète en grand format ci-dessus, vous verrez notamment la partie suivante en haut à droite :
 
-{% respimg "MSN_controle_parental_zoom1.png" %}
+{% respimg "MSN_controle_parental_zoom1.png", page %}
 
 
 MSN a donc amélioré le contrôle parental dans sa version 8, super.
 
 Mais si vous regardez le début de la partie contenu de la page, vous voyez ceci :
 
-{% respimg "MSN_controle_parental_zoom2.png" %}
+{% respimg "MSN_controle_parental_zoom2.png", page %}
 
 
 Etrange manière de mettre en avant le contrôle parental…
 
 Vérification faite aujourd'hui même, MSN France aime semble-t'il toujours autant [FHM](/2003/12/fhm-blah-blah-blah.html), mais au moins ne parle plus de contrôle parental en même temps :
 
-{% respimg "MSN_20050223.png" %}
+{% respimg "MSN_20050223.png", page %}

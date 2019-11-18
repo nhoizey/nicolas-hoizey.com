@@ -6,7 +6,7 @@ tags:       [game, HTML, crowdfunding]
 
 Je ne sais pas vous, mais moi j'aime bien les jeux de cartes, et je suis dingue de technos Web, alors quand babozor nous propose de l'aider à financer la réalisation d'[un jeu qui mélange ces deux univers](http://www.lagrottedubarbu.com/2012/09/11/chtemele-le-jeu-de-plateau-certifie-html5/), je fonce !
 
-{% respimg "chtemele-le-jeu-de-plateau-certifie-html5-6.jpg" %}{% respimg "chtemele-le-jeu-de-plateau-certifie-html5-7.jpg" %}
+{% respimg "chtemele-le-jeu-de-plateau-certifie-html5-6.jpg", page %}{% respimg "chtemele-le-jeu-de-plateau-certifie-html5-7.jpg", page %}
 
 A vous de jouer si ce projet vous intéresse aussi :
 

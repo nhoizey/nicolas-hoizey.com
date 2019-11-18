@@ -14,7 +14,7 @@ En fait, quelques recherches frénétiques sur [Google](http://www.google.com/) 
 
 J'avais tout simplement installé il y a quelque temps -- dans Safari 2, donc -- le fabuleux [PicLens](http://www.piclens.com/), permettant de naviguer très agréablement dans diverses galeries d'images en ligne, dont [Flickr](https://www.flickr.com/).
 
-{% respimg "piclens-safari-flickr.png", "Mes photos préférées sur Flickr visualisées avec PicLens. PicLens propose une interface dédiée sobre et très efficace pour la navigation dans une galerie d'images" %}
+{% respimg "piclens-safari-flickr.png", "Mes photos préférées sur Flickr visualisées avec PicLens. PicLens propose une interface dédiée sobre et très efficace pour la navigation dans une galerie d'images", page %}
 
 Il s'avère qu'il existe une [incompatibilité entre Safari 3 et PicLens](http://www.piclens.com/site/safari/support_pl_sf.php) dans la version que j'avais installée, et une simple réinstallation de la [dernière version de PicLens](http://www.piclens.com/site/download.php?p=piclens)[^1] a suffit pour faire fonctionner Safari 3.
 

@@ -4,7 +4,7 @@ lang:       fr
 tags:       [comic]
 ---
 
-{% respimg "art84-1.jpg", "", "onethird" %}
+{% respimg "art84-1.jpg", "", "onethird", page %}
 
 Marc-Antoine Mathieu est né en 1959 à Anthony. Il a étudié à l'Ecole des Beaux Arts d'Angers avant de créer, toujours à Angers, l'agence de graphistes-scénographes [Lucie Lom](http://www.lucie-lom.fr/) spécialisée dans la création d'expositions.
 
@@ -16,22 +16,22 @@ Il débute sa célèbre série *Julius Corentin Acquefacques, prisonnier des rê
 
 | Titre              | Couverture                  |
 |--------------------|-----------------------------|
-| L'Origine          | {% respimg "art84-2.jpg" %} |
-| La Qu…             | {% respimg "art84-3.jpg" %} |
-| Le Processus       | {% respimg "art84-4.jpg" %} |
-| Le Début de la fin | {% respimg "art84-5.jpg" %} |
+| L'Origine          | {% respimg "art84-2.jpg", page %} |
+| La Qu…             | {% respimg "art84-3.jpg", page %} |
+| Le Processus       | {% respimg "art84-4.jpg", page %} |
+| Le Début de la fin | {% respimg "art84-5.jpg", page %} |
 
 On note très rapidement dans l'oeuvre de Marc-Antoine Mathieu des influences en provenance de Kafka pour les petites absurdités, de Peeters et Schuiten pour le dessin noir & blanc et les ambiances étranges,…
 
 Après 5 ans d'absence, Marc-Antoine Mathieu revient à la BD en mars 2000, toujours chez Delcourt, avec *Mémoire morte*, une oeuvre plus noire, moins ludique, mais tout aussi passionnante.
 
-{% respimg "art84-6.jpg" %}
+{% respimg "art84-6.jpg", page %}
 
 Il publie ensuite fin 2001 son dernier titre à ce jour, *Le Dessin*, dont vous pouvez lire une critique dans [Chronic'art](http://www.chronicart.com/livres/livres_bd.php3?id=7149).
 
-{% respimg "art84-7.jpg" %}
+{% respimg "art84-7.jpg", page %}
 
-{% respimg "doc-76.png", "Le Dessin" %}
+{% respimg "doc-76.png", "Le Dessin", page %}
 
 Parmis ses autres oeuvres, on trouve à l'Association :
 

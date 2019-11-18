@@ -7,7 +7,7 @@ poster:     nicolas_hoizey_-_paris_web_2013_-_photo_par_fabrice_le_guernec_pour_
 
 Après y avoir assisté plusieurs années en tant qu'auditeur, j'ai eu la joie — le privilège — d'être sélectionné parmi les orateurs de l'édition 2013. Sélectionné qui plus est avec un sujet plutôt pointu, sur une bonne pratique que tout le monde devrait appliquer depuis plus de 10 ans, mais qui est très largement sous estimée.
 
-{% respimg "paris-web-2013-j-y-etais.jpg" %}
+{% respimg "paris-web-2013-j-y-etais.jpg", page %}
 
 # Le *pitch*
 
@@ -35,7 +35,7 @@ Il me reste à répondre plus complètement à une question que j'ai évoquée d
 
 Je vais rédiger dans les prochaines semaines une version détaillée de ma conférence, et j'ai prévu d'approfondir ce sujet pour donner mon point de vue[^2].
 
-{% respimg "nicolas_hoizey_-_paris_web_2013_-_photo_par_fabrice_le_guernec_pour_paris_web.jpg", "Nicolas Hoizey à Paris Web 2013. [Photo](https://www.flickr.com/photos/parisweb/10401233525/) de [Fabrice Le Guernec](http://twitter.com/Fab_incident) pour Paris-Web" %}
+{% respimg "nicolas_hoizey_-_paris_web_2013_-_photo_par_fabrice_le_guernec_pour_paris_web.jpg", "Nicolas Hoizey à Paris Web 2013. [Photo](https://www.flickr.com/photos/parisweb/10401233525/) de [Fabrice Le Guernec](http://twitter.com/Fab_incident) pour Paris-Web", page %}
 
 # Je n'aurais pas pu faire ça tout seul
 

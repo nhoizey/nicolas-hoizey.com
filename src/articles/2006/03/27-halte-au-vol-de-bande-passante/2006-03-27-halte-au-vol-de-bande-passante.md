@@ -8,25 +8,25 @@ Certains individus peu scrupuleux n'hésitent pas à prendre les sites web des a
 
 Par exemple, la photo de Zhang Ziyi que j'ai mis dans mon article sur le film « [Hero](/2003/10/hero.html) » :
 
-{% respimg "zhang_ziyi.jpg", "Lune (Zhang Ziyi)" %}
+{% respimg "zhang_ziyi.jpg", "Lune (Zhang Ziyi)", page %}
 
 En consultant les *logs* de consultation de mon serveur HTTP Apache, je me suis rendu compte qu'elle est reprise sur différents sites, dans le profil d'internautes peu scrupuleux.
 
 Sur [Fractal](http://www.fract.org/) par exemple, dans [le profil d'une certaine « Mei Lin »](http://www.fract.org/game/popup/popup.php?cazid=18740&caztyp=1) :
 
-{% respimg "vol_fract.png" %}
+{% respimg "vol_fract.png", page %}
 
 Dans les forums de [El Otro Lado](http://www.elotrolado.net/), dans [la signature d'un certain « Evil Mask »](http://www.elotrolado.net/showthread.php?s=e9641aba363ea6b5f31c0d7ac2a5d199&postid=1704174210#post1704174210) :
 
-{% respimg "vol_elotrado.png" %}
+{% respimg "vol_elotrado.png", page %}
 
 Bien sûr, le [furoncle](http://www.myspace.com/) MySpace n'échappe pas à la liste, avec notamment [le profil d'un certain « Nick »](http://profile.myspace.com/index.cfm?fuseaction=user.viewprofile&friendID=3871726)…
 
-{% respimg "vol_myspace1.png" %}
+{% respimg "vol_myspace1.png", page %}
 
 … ou encore [celui d'un certain « Sgnl>06 (Paul Fills The Void) »](http://www.myspace.com/newyorkslave) :
 
-{% respimg "vol_myspace2.png" %}
+{% respimg "vol_myspace2.png", page %}
 
 J'arrête là la démonstration, mais j'ai déjà relevé plus de dix autres sites sur lesquels cette unique image est réutilisée sans vergogne.
 

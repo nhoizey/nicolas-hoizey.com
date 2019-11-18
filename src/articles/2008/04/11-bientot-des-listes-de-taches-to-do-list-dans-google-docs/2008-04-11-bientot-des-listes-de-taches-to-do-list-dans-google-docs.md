@@ -9,12 +9,12 @@ J'ai vu apparaître ce matin dans mon aggrégateur de flux RSS/Atom un billet du
 
 Voilà ce que ça donnait dans NetNewsWire :
 
-{% respimg "GoogleDocsToDoListsYes.png", "Des listes de tâches dans Google Docs ?" %}
+{% respimg "GoogleDocsToDoListsYes.png", "Des listes de tâches dans Google Docs ?", page %}
 
 
 Et voilà ce qu'il y a maintenant dans le flux :
 
-{% respimg "GoogleDocsToDoListsNo.png", "Ou pas…" %}
+{% respimg "GoogleDocsToDoListsNo.png", "Ou pas…", page %}
 
 
 Alors, fausse manipulation d'un rédacteur du blog qui a par erreur copié sa vraie liste de tâches personnelle au lieu d'un vrai billet, ou fébrilité ayant conduit à la mise en ligne d'un billet qui aurait dû accompagner un peu plus tard une annonce officielle ?

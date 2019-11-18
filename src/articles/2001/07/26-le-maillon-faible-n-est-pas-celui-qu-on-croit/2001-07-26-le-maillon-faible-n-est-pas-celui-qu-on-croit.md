@@ -8,4 +8,4 @@ Voilà quelque temps que l'on me parle du nouveau jeu de <http://www.tf1.fr/> in
 
 …enfin, j'ai tenté, parce que le maillon faible, dans l'histoire, c'est bien TF1 :
 
-{% respimg "le-maillon-faible.png", "Le maillon faible" %}
+{% respimg "le-maillon-faible.png", "Le maillon faible", page %}

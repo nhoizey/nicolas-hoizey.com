@@ -7,7 +7,7 @@ tags:       [humour, cinema]
 
 ## Steven au service d'un rêve de Stanley
 
-{% respimg "artificial-intelligence.png", "", "", "right" %}
+{% respimg "artificial-intelligence.png", "", "", "right", page %}
 
 Si vous avez déjà vu la bande annonce de [A.I.](http://aimovie.warnerbros.com/) (Artificial Intelligence), le prochain film de Steven Spielberg, vous n'avez sans doute rien remarqué de particulier, si ce n'est que Stanley Kubrick est crédité comme co-producteur avec Amblin, la société de Steven Spielberg.
 

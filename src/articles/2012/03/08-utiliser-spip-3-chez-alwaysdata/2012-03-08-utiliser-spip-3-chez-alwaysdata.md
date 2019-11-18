@@ -6,7 +6,7 @@ tags:       [SPIP, AlwaysData]
 
 Je suis passé il y a déjà quelque temps chez [AlwaysData](https://www.alwaysdata.com/) pour héberger plusieurs sites, dont certains sous SPIP. Voici quelques trucs à savoir si vous envisagez de faire de même. Je mettrais le billet à jour au fur et à mesure de mes découvertes.
 
-{% respimg "/assets/logos/alwaysdata.png", "logo" %}
+{% respimg "/assets/logos/alwaysdata.png", "logo", page %}
 
 # Faire fonctionner les sauvegardes SQLite
 

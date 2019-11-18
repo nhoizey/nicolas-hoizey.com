@@ -9,11 +9,11 @@ C'est aujourd'hui qu'ont débuté les soldes, et j'ai décidé pour une fois d'e
 Voici en effet [la page](http://www.3suisses.fr/FrontOfficePortail/catalogue_fra/homme/shopping-par-produit/pantalons/jeans/jean-coupe-bootcut-levis-512-longueur-us-32/11008-jean-coupe-bootcut-levis-512-longueur-us-32.html) sur laquelle je suis tombé :
 
 
-{% respimg "3Suisses_-_Jean_Levis_512.jpg", "Un Jean Levi's 512 sur le site des 3 Suisses" %}
+{% respimg "3Suisses_-_Jean_Levis_512.jpg", "Un Jean Levi's 512 sur le site des 3 Suisses", page %}
 
 
 Et regardez de plus prêt la photo, et notamment la main du mannequin :
 
-{% respimg "3Suisses_-_Jean_Levis_512_-_zoom.png" %}
+{% respimg "3Suisses_-_Jean_Levis_512_-_zoom.png", page %}
 
 C'est une honte de maltraiter ainsi ses mannequins !

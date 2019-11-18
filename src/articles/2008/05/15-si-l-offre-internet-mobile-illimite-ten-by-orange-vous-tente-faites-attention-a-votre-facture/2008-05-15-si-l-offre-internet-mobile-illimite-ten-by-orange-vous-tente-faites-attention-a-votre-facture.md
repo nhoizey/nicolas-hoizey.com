@@ -10,11 +10,11 @@ L'offre « Ten by Orange » est en effet assez dangereuse pour sa facture si on 
 
 J'ai par exemple pu testé avec un [HTC Touch](http://www.ten.fr/telephone_details.php?id=12030918074022) :
 
-{% respimg "HTC-Touch.png", "HTC Touch" %}
+{% respimg "HTC-Touch.png", "HTC Touch", page %}
 
 Et voici la promesse faite par cette offre Ten by Orange :
 
-{% respimg "Ten-by-Orange.png", "Ten by Orange" %}
+{% respimg "Ten-by-Orange.png", "Ten by Orange", page %}
 
 Après différentes tentatives de surf et consultation de mails, j'ai découvert qu'il y a les restrictions suivantes, vraiment pas clairement exprimées par Orange, et inconnues des vendeurs des boutiques Orange ou Photo Service[^1] :
 
@@ -25,7 +25,7 @@ En gros, on a un smart phone avec Windows Mobile 6 et tous ses logiciels, mais o
 
 Heureusement, même si je trouve honteux d'omettre de donner cette information au client, Orange est couvert puisqu'[on la trouve](http://www.ten.fr/services_ten.php) en cherchant un peu sur leur site :
 
-{% respimg "Ten-Internet-Illimite.png", "L'Internet illimité façon Ten" %}
+{% respimg "Ten-Internet-Illimite.png", "L'Internet illimité façon Ten", page %}
 
 En cherchant un peu plus, notamment dans des [forums](http://www.forummobiles.com/index.php?showtopic=163316), j'ai finalement trouvé [le wiki officiel de Ten](http://wiki.ten.fr/wiki/index.php?title=Internet), vers lequel je n'ai pas trouvé de lien sur le site de l'offre, mais qui précise bien la limitation au sujet du mail :
 

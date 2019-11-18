@@ -12,7 +12,7 @@ Le meilleur moyen de se rafraîchir en plein été quand on est resté à Paris,
 
 La seconde édition du festival [Paris Cinéma](http://www.pariscinema.org/), du 30 juin au 13 juillet 2004, s'ouvrira par la projection en plein air le 28 juin[^t1], sur le parvis de l'Hôtel de Ville, du fameux « [Peur sur la Ville](http://french.imdb.com/title/tt0073535/) » d'Henri Verneuil avec Jean-Paul Belmondo, qui sera présent à la projection.
 
-{% respimg "paris_cinema_2004.jpg" %}
+{% respimg "paris_cinema_2004.jpg", page %}
 
 Ce festival sera bien sûr l'occasion de revoir d'anciens films, mais aussi de découvrir pas mal d'[avant premières](http://www.pariscinema.org/fr/programmes/avant_premieres.html)[^t2].
 
@@ -20,7 +20,7 @@ Ce festival sera bien sûr l'occasion de revoir d'anciens films, mais aussi de d
 
 Comme chaque année, la prairie du triangle du [Parc de la Villette](http://www.villette.com/) accueille le Festival du Cinéma en plein air, du 16 juillet au 29 août. Oui, enfin, comme chaque année ou presque, puisque [l'édition 2003 avait été annulée](/2003/07/le-cinema-en-plein-air-a-la-villette-c-est-finalement-pas-reparti.html) faute d'intermittents…
 
-{% respimg "cinemapleinair2004.png" %}
+{% respimg "cinemapleinair2004.png", page %}
 
 Quoi qu'il en soit, le programme de l'an dernier n'a pas été perdu, il est resservi cette année, sur le thème « un monde d'orage ».
 
@@ -28,7 +28,7 @@ Retrouvez le [programme intégral en ligne](http://www.villette.com/manif/manif.
 
 Comme [je le disais l'an dernier](/2003/07/le-cinema-en-plein-air-a-la-villette-c-est-finalement-pas-reparti.html), la mise en regard du trop méconnu « Une balle dans la tête » de John Woo et du fabuleux « Retour vers l'enfer » de Michael Cimino est plus qu'intéressante.
 
-{% respimg "villette.jpg" %}
+{% respimg "villette.jpg", page %}
 
 Comme toujours, la projection commence à la tombée de la nuit, c'est à dire en général vers 22h, tous les jours sauf le lundi, mais il est plus que conseillé d'arriver plus tôt pour trouver une bonne place, siroter un ballon de rouge avec quelques crudités ou de la charcuterie, et surtout admirer le levé d'écran[^t3].
 
@@ -38,7 +38,7 @@ Comme toujours, la projection commence à la tombée de la nuit, c'est à dire e
 
 La [fête de la musique](http://www.fetedelamusique.culture.fr/) sera bien entendu au rendez-vous encore cette année le 21 juin.
 
-{% respimg "fete_musique_2004.jpg" %}
+{% respimg "fete_musique_2004.jpg", page %}
 
 Là, impossible de donner le programme, il y a bien entendu trop de bonnes choses à découvrir, même juste en se baladant sans but précis !
 

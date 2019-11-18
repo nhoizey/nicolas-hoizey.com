@@ -9,22 +9,22 @@ tags:       [photography, image, search, TinEye]
 
 J'ai pris comme exemple cette fameuse photo de l'actrice [Zhang Ziyi](http://fr.wikipedia.org/wiki/Zhang_Ziyi) que tant de gens [intègrent à leurs contenus directement depuis Gastero Prod](/2006/03/halte-au-vol-de-bande-passante.html) :
 
-{% respimg "zhang_ziyi.jpg", "Lune (Zhang Ziyi)" %}
+{% respimg "zhang_ziyi.jpg", "Lune (Zhang Ziyi)", page %}
 
 
 En lançant TinEye directement sur la page de mon article avec l'[extension Firefox](http://tineye.com/plugin) :
 
-{% respimg "tineye-firefox.png", "Lancement de la recherche" %}
+{% respimg "tineye-firefox.png", "Lancement de la recherche", page %}
 
 
 J'obtiens 13 résultats :
 
-{% respimg "tineye-resultat.png", "Premiers résultat de la recherche" %}
+{% respimg "tineye-resultat.png", "Premiers résultat de la recherche", page %}
 
 
 Dont l'un n'est vraiment pas une simple copie ou redécoupage de la photo recherchée, mais une version légèrement altérée :
 
-{% respimg "tineye-resultat-balaise.png", "Un résultat particulièrement intéressant" %}
+{% respimg "tineye-resultat-balaise.png", "Un résultat particulièrement intéressant", page %}
 
 
 TinEye permet donc une vraie recherche de photos, même légèrement altérées, et on peut notamment imaginer un jour l'utiliser si l'on est photographe pour vérifier que personne n'utilise nos photos sans autorisation…

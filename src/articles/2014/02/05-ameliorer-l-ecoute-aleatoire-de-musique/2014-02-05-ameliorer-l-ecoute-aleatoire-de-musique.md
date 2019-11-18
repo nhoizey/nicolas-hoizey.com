@@ -5,7 +5,7 @@ tags:       [music, iTunes]
 ---
 Je suis d'habitude du genre à écouter des albums plutôt que des *singles*, mais le fait est qu'il est très compliqué d'écouter des albums quand on écoute de façon morcelée, notamment dans les transports en commun. J'écoute donc de plus en plus ma musique en mode aléatoire, en enchainant les singles. Sauf que l'aléatoire de base ne me convient pas.
 
-{% respimg "casque-iphone.png" %}
+{% respimg "casque-iphone.png", page %}
 
 J'ai plus de 20000 morceaux dans ma librairie iTunes — et encore, je n'ai pas fini de numériser mes centaines de CD —, donc une écoute aléatoire basique me fait passer allégrement d'un morceaux que j'adore à un autre que je déteste[^1].
 
@@ -22,25 +22,25 @@ Malheureusement, il est impossible de croiser des critères avec des « ou » et
 Voici les listes que j'ai créées :
 
 
-{% respimg "itunes-listes-intelligentes.png", "Cinq listes intelligentes pour sélectionner la musique à écouter" %}
+{% respimg "itunes-listes-intelligentes.png", "Cinq listes intelligentes pour sélectionner la musique à écouter", page %}
 
 
 Les intitulés sont à priori explicites, mais voici la configuration de l'une d'elles :
 
 
-{% respimg "itunes-liste-intelligente-4-etoiles.png", "Une liste intelligente pour écouter les morceaux 4 étoiles une fois par semaine. Oui, je retire la musique pour enfants, j'ai d'autres occasions de l'écouter…" %}
+{% respimg "itunes-liste-intelligente-4-etoiles.png", "Une liste intelligente pour écouter les morceaux 4 étoiles une fois par semaine. Oui, je retire la musique pour enfants, j'ai d'autres occasions de l'écouter…", page %}
 
 
 Rassembler ces listes dans un dossier permet de jouer l'ensemble dans iTunes en sélectionnant le dossier en question :
 
 
-{% respimg "itunes-dossier-listes-intelligentes.png", "Un dossier pour obtenir une liste composée. C'est donc un « ou » logique." %}
+{% respimg "itunes-dossier-listes-intelligentes.png", "Un dossier pour obtenir une liste composée. C'est donc un « ou » logique.", page %}
 
 
 Mais ce n'est malheureusement pas le cas sur iPhone. J'ai donc créé une dernière liste pour rassembler les précédentes, c'est celle-ci qui est synchronisée sur mon iPhone :
 
 
-{% respimg "itunes-liste-intelligente-dossier.png", "Une liste intelligente pour rassembler les listes d'un dossier" %}
+{% respimg "itunes-liste-intelligente-dossier.png", "Une liste intelligente pour rassembler les listes d'un dossier", page %}
 
 
 Vous pouvez bien entendu reproduire ce système avec n'importe quel autre logiciel que iTunes, peut-être même directement avec une unique liste.

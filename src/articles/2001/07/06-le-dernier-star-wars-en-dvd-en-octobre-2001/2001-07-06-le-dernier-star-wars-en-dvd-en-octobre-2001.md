@@ -4,7 +4,7 @@ lang:       fr
 tags:       [cinema]
 ---
 
-{% respimg "star-wars-1.png", "", "onethird" %}
+{% respimg "star-wars-1.png", "", "onethird", page %}
 
 Eh oui, tous les fans de Star Wars (La Guerre des Etoiles) l'attendaient avec impatience, et Georges Lucas les a enfin entendus. Le premier film de la cultissime saga, le dernier sorti en salles à ce jour en fait, sera [dans les bacs](http://www.amazon.com/exec/obidos/ASIN/B00003CX5P/phpheaven) de DVD en octobre 2001. "[The Wait Is Over](http://www.starwars.com/episode-i/news/2001/06/news20010619.html)", comme l'annonce le [site officiel](http://www.starwars.com/) de Star Wars. Au programme, deux disques pour un maximum de suppléments : des commentaires audios, des scènes coupées au montage, des reportages, un storyboard multi-angle, des galleries de photos et d'affiches… 6 heures en tout !!!
 

@@ -31,7 +31,7 @@ Also, Disqus loads around 450 kB of data — mostly JavaScript — on the pag
 
 [^dns]: So as many DNS requests are needed.
 
-{% respimg "dareboost-disqus-page-weight.png", "[This page](/2015/06/la-recherche-dans-du-statique-facile-avec-algolia.html)'s weight before and after removing Disqus, as shown in my [Dareboost](https://www.dareboost.com/) monitoring. Disqus accounted for **three quarters** of the page weight!" %}
+{% respimg "dareboost-disqus-page-weight.png", "[This page](/2015/06/la-recherche-dans-du-statique-facile-avec-algolia.html)'s weight before and after removing Disqus, as shown in my [Dareboost](https://www.dareboost.com/) monitoring. Disqus accounted for **three quarters** of the page weight!", page %}
 
 Disqus also requires [a few rules in your Content Security Policy](https://github.com/nico3333fr/CSP-useful/tree/master/csp-for-third-party-services#disqus), but that's manageable.
 
@@ -39,7 +39,7 @@ Disqus also requires [a few rules in your Content Security Policy](https://githu
 
 Disqus being a third party service, we don't know what our comments become and how Disqus tracks us accross blogs, how [we are becoming the product](http://geek-and-poke.com/geekandpoke/2010/12/21/the-free-model.html).
 
-{% respimg "geek-and-poke-fremium-model.jpg", "The famous Geek&Poke cartoon with pigs talking about the “free” model." %}
+{% respimg "geek-and-poke-fremium-model.jpg", "The famous Geek&Poke cartoon with pigs talking about the “free” model.", page %}
 
 I can of course export all comments to keep my own local copy, but it's not as convenient as a true local storage.
 
@@ -47,7 +47,7 @@ Some people also [don't like being forced to create an account on Disqus to be a
 
 If you use Disqus on your blog, please active the "Allow guests to comment" option in the settings!
 
-{% respimg "disqus-guests.png", "If you use Disqus, please allow guests to comment without an account" %}
+{% respimg "disqus-guests.png", "If you use Disqus, please allow guests to comment without an account", page %}
 
 # Comments history is not lost!
 
@@ -108,7 +108,7 @@ First, there are some Webmentions that should not be shown, either because they 
 
 Also, I should group mentions by type. Likes, for example, can be take much less space in the page. Aaron Gustafson grouped mentions by type [on his blog](https://www.aaron-gustafson.com/notebook/your-site-should-be-a-pwa/#webmentions), but I'ld like to show them as [facepiles](https://indieweb.org/facepile), [like Drew McLellan](https://allinthehead.com/retro/378/implementing-webmentions#comments):
 
-{% respimg "webmention-facepiles.png", "Nice facepiles for likes and reposts on Drew McLellan's site.", "onehalf" %}
+{% respimg "webmention-facepiles.png", "Nice facepiles for likes and reposts on Drew McLellan's site.", "onehalf", page %}
 
 I also have issues with some avatars that come directly from Twitter, and are [really heavy](https://github.com/aarongustafson/jekyll-webmention_io/issues/24). The new version of Aaron's Jekyll plugin will allow me to define my own template, and use Cloudinary to resize and optimize these images. I have yet to try it, because I'm still using the old single file version, while the new one is now a gem.
 

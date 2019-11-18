@@ -7,7 +7,7 @@ tags:       [Web 2.0]
 Jeremy Chone a proposé fin novembre [une vue simplifiée de l'évolution du Web entre sa version 0 et sa version 2](http://www.bitsandbuzz.com/2005/11/29/web-0x-to-web-20-simplified/), celle du (trop ?) fameux [Web 2.0](http://blogmarks.net/tag/web2.0?order_by=popularity). Ce qui n'a pas -- me semble t'il -- été donné comme conclusion, c'est que le Web 3.0 pourrait voir la fin des blogs !
 
 
-{% respimg "web2_graphe-2.jpg", "Le Web selon Jeremy Chone" %}
+{% respimg "web2_graphe-2.jpg", "Le Web selon Jeremy Chone", page %}
 
 
 En effet, comme l'indiquent [les commentaires du blog de Fred Cavazza](http://www.fredcavazza.net/index.php?2006/01/10/1017-les-facteurs-limitant-du-web-20#co), qui relate l'histoire, on voit de plus en plus diminuer le rapport signal / bruit des contenus [^1].

@@ -8,7 +8,7 @@ Vous le savez sans doute si vous me lisez régulièrement, sur ce blog ou via [m
 
 # Web UX le 26 mai 2011
 
-{% respimg "web-ux.png", "onefourth" %}
+{% respimg "web-ux.png", "onefourth", page %}
 
 Voilà comment Web UX se présente :
 
@@ -31,7 +31,7 @@ Vous pouvez retrouver [cette conférence sur Lanyrd](http://lanyrd.com/2011/webu
 
 # Sud Web le 27 mai 2011
 
-{% respimg "sud-web.png", "onefourth" %}
+{% respimg "sud-web.png", "onefourth", page %}
 
 Voilà comment [Sud Web](http://sudweb.fr/) se présente :
 

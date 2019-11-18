@@ -12,7 +12,7 @@ People tend to be lazy (I am often) and chose the easiest tool to do the job, ev
 
 # Medium can do anything with your content
 
-{% respimg "/assets/logos/medium.png", "logo" %}
+{% respimg "/assets/logos/medium.png", "logo", page %}
 
 Andrea Phillips already said it a few years ago in her post [The Problem With Medium](https://medium.com/@andrhia/the-problem-with-medium-336300490cbb):
 
@@ -38,7 +38,7 @@ Disappearing content can happen on any platform, like [it did on Twitter recentl
 
 POSSE means **P**ublish (on your) **O**wn **S**ite, **S**yndicate **E**lsewhere.
 
-{% respimg "/assets/logos/indiewebcamp.png", "logo" %}
+{% respimg "/assets/logos/indiewebcamp.png", "logo", page %}
 
 Like [Webmentions](/2017/07/so-long-disqus-hello-webmentions.html), POSSE is a creation of [IndieWeb](https://indieweb.org/), which gives this description:
 

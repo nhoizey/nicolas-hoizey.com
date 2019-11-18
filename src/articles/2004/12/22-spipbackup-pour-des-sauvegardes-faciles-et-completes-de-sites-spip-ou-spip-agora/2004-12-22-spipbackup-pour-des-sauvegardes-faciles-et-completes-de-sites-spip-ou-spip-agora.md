@@ -70,7 +70,7 @@ define('VISUAL_FRIENDLY', false);
 
 Voici un apperçu de l'interface de l'outil :
 
-{% respimg "spip_backup.png", "L'interface de l'outil" %}
+{% respimg "spip_backup.png", "L'interface de l'outil", page %}
 
 
 Son utilisation est normalement intuitive…

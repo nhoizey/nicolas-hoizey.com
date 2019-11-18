@@ -9,7 +9,7 @@ Dans sa version Mac OS, [Mozilla Firefox](http://www.mozilla-europe.org/fr/produ
 
 Ce choix est incompréhensible, l'apport ergonomique de ces *favicon*[^1] étant considérable pour identifier visuellement rapidement un favori.
 
-{% respimg "firefox-favicon-barre-personnelle.png", "Des favicon dans la barre personnelle de Firefox, même sous Mac" %}
+{% respimg "firefox-favicon-barre-personnelle.png", "Des favicon dans la barre personnelle de Firefox, même sous Mac", page %}
 
 Heureusement, une solution technique mais relativement simple existe. La technologie XUL employée par Mozilla fait qu'il suffit d'[éditer une feuille de styles CSS personnalisée pour changer la présentation de l'interface](http://www.geckozone.org/forum/viewtopic.php?t=28965). Car l'icône est en fait bien présente, elle est juste masquée.
 

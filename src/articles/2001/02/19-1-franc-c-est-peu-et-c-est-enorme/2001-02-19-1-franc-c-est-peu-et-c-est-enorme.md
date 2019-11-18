@@ -6,7 +6,7 @@ tags:       [life]
 
 1 franc, pour vous, ce n'est rien, même pas de quoi vous acheter une baguette de pain.
 
-[{% respimg "medecins-sans-frontieres-1-franc-par-jour.gif", "1 franc par jour" %}](http://www.1francparjour.net/)
+[{% respimg "medecins-sans-frontieres-1-franc-par-jour.gif", "1 franc par jour", page %}](http://www.1francparjour.net/)
 
 Pour eux, ce sont deux repas ou un vaccin contre la rougeole. Eux, ce sont les populations en situation critique auprès desquelles intervient [Médecins Sans Frontières](http://www.msf.org/), qui explique :
 
@@ -20,4 +20,4 @@ Au risque de faire un très mauvais jeu de mots, mais pour être sûr de bien ma
 
 Convaincu ? J'espère !
 
-{% respimg "medecins-sans-frontieres.jpg", "Médecins Sans Frontières" %}
+{% respimg "medecins-sans-frontieres.jpg", "Médecins Sans Frontières", page %}

@@ -9,66 +9,66 @@ Vous avez sans doute déjà vu ma belle photo de méduses fluorescentes -- une d
 Le premier à avoir publié la photo semble être celui-ci :
 
 
-{% respimg "meduses-tumblr-2.png", "[birdhaus.tumblr.com](http://birdhaus.tumblr.com/post/407643793/nicolas-hoizey)" %}
+{% respimg "meduses-tumblr-2.png", "[birdhaus.tumblr.com](http://birdhaus.tumblr.com/post/407643793/nicolas-hoizey)", page %}
 
 
 Et il a été largement repris ensuite :
 
 
-{% respimg "meduses-tumblr-2.png", "[frostybear.tumblr.com](http://frostybear.tumblr.com/post/407748576/fuckyeahjellyfish-birdhaus-nicolas-hoizey)" %}
+{% respimg "meduses-tumblr-2.png", "[frostybear.tumblr.com](http://frostybear.tumblr.com/post/407748576/fuckyeahjellyfish-birdhaus-nicolas-hoizey)", page %}
 
 
 
 
-{% respimg "meduses-tumblr-3.png", "[fuckyeahjellyfish.tumblr.com](http://fuckyeahjellyfish.tumblr.com/post/407648432/birdhaus-nicolas-hoizey)" %}
+{% respimg "meduses-tumblr-3.png", "[fuckyeahjellyfish.tumblr.com](http://fuckyeahjellyfish.tumblr.com/post/407648432/birdhaus-nicolas-hoizey)", page %}
 
 
 
 
-{% respimg "meduses-tumblr-4.png", "[karencilla.tumblr.com](http://karencilla.tumblr.com/post/407665077/isnt-gods-creation-amazing-birdhaus-nicolas)" %}
+{% respimg "meduses-tumblr-4.png", "[karencilla.tumblr.com](http://karencilla.tumblr.com/post/407665077/isnt-gods-creation-amazing-birdhaus-nicolas)", page %}
 
 
 
 
-{% respimg "meduses-tumblr-5.png", "[moqueur.tumblr.com](http://moqueur.tumblr.com/post/407674522/birdhaus-nicolas-hoizey)" %}
+{% respimg "meduses-tumblr-5.png", "[moqueur.tumblr.com](http://moqueur.tumblr.com/post/407674522/birdhaus-nicolas-hoizey)", page %}
 
 
 
 
-{% respimg "meduses-tumblr-6.png", "[acertainshadeofgreen.tumblr.com](http://acertainshadeofgreen.tumblr.com/post/407687092/fuckyeahjellyfish-birdhaus-nicolas-hoizey)" %}
+{% respimg "meduses-tumblr-6.png", "[acertainshadeofgreen.tumblr.com](http://acertainshadeofgreen.tumblr.com/post/407687092/fuckyeahjellyfish-birdhaus-nicolas-hoizey)", page %}
 
 
 
 
-{% respimg "meduses-tumblr-7.png", "[seashelllz.tumblr.com](http://seashelllz.tumblr.com/post/407754310/fuckyeahjellyfish-birdhaus-nicolas-hoizey)" %}
+{% respimg "meduses-tumblr-7.png", "[seashelllz.tumblr.com](http://seashelllz.tumblr.com/post/407754310/fuckyeahjellyfish-birdhaus-nicolas-hoizey)", page %}
 
 
 
 
-{% respimg "meduses-tumblr-8.png", "[meagannnn-reblog.tumblr.com](http://meagannnn-reblog.tumblr.com/post/407784792)" %}
+{% respimg "meduses-tumblr-8.png", "[meagannnn-reblog.tumblr.com](http://meagannnn-reblog.tumblr.com/post/407784792)", page %}
 
 
 
 
-{% respimg "meduses-tumblr-9.png", "[thaiteaa.tumblr.com](http://thaiteaa.tumblr.com/post/407819743/fuckyeahjellyfish-birdhaus-nicolas-hoizey)" %}
+{% respimg "meduses-tumblr-9.png", "[thaiteaa.tumblr.com](http://thaiteaa.tumblr.com/post/407819743/fuckyeahjellyfish-birdhaus-nicolas-hoizey)", page %}
 
 
 
 
-{% respimg "meduses-tumblr-10.png", "[strangestofinventions.tumblr.com](http://strangestofinventions.tumblr.com/post/408117688/fuckyeahjellyfish-birdhaus-nicolas-hoizey)" %}
+{% respimg "meduses-tumblr-10.png", "[strangestofinventions.tumblr.com](http://strangestofinventions.tumblr.com/post/408117688/fuckyeahjellyfish-birdhaus-nicolas-hoizey)", page %}
 
 
 
 
-{% respimg "meduses-tumblr-11.png", "[vinitha.tumblr.com](http://vinitha.tumblr.com/post/408123360/fuckyeahjellyfish-birdhaus-nicolas-hoizey)" %}
+{% respimg "meduses-tumblr-11.png", "[vinitha.tumblr.com](http://vinitha.tumblr.com/post/408123360/fuckyeahjellyfish-birdhaus-nicolas-hoizey)", page %}
 
 
 
 
-{% respimg "meduses-tumblr-12.png", "[blog.neonjelly.net](http://blog.neonjelly.net/post/407851083/fuckyeahjellyfish-birdhaus-nicolas-hoizey)" %}
+{% respimg "meduses-tumblr-12.png", "[blog.neonjelly.net](http://blog.neonjelly.net/post/407851083/fuckyeahjellyfish-birdhaus-nicolas-hoizey)", page %}
 
 
 Tout ça grâce sans aucun doute à la facilité offerte par Tumblr de faire un « Reblog », à la manière des « retweets » de Twitter :
 
-{% respimg "tumblr-reblog.png" %}
+{% respimg "tumblr-reblog.png", page %}
 

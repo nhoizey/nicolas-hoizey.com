@@ -8,7 +8,7 @@ Nous avons eu droit hier au [Photo Club de Draveil](http://photoclubdraveil.fr/)
 
 Voilà le résultat auquel je suis arrivé :
 
-{% respimg "Une-goutte-de-crayons.jpg", "Une photo en macro d'un crayon de couleur blanc avec une goutte multicolore" %}
+{% respimg "Une-goutte-de-crayons.jpg", "Une photo en macro d'un crayon de couleur blanc avec une goutte multicolore", page %}
 
 La mise en place n'est finalement pas très compliquée, et le résultat très intéressant.
 

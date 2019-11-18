@@ -7,7 +7,7 @@ tags:       [fun]
 
 ## Parce qu'elle le vend bien
 
-{% respimg "claudia-schiffer.jpg", "", "onethird" %}
+{% respimg "claudia-schiffer.jpg", "", "onethird", page %}
 
 Vous avez un [Palm Pilot](http://www.palm.com/products/) ?
 

@@ -9,4 +9,4 @@ tags:       [creation, "3D", animation]
 
 Découvrez son héros Arnold dans des vidéos et images qui prouvent bien qu'il n'y a pas que dans les studios hollywoodiens que se trouvent les talents de l'animation.
 
-{% respimg "art30-1.jpg", "image 500 x 310" %}
+{% respimg "art30-1.jpg", "image 500 x 310", page %}
