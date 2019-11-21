@@ -15,7 +15,7 @@ permalink: "/tags/index.html"
 {% for tag in collections.tags %}
   {% set tagUrl %}/tags/{{ tag.tag | slugify }}.html{% endset %}
     <li>
-      <a href="{{ tagUrl | url }}"
+      <a href="{{ tagUrl }}"
         class="tag{{ tag.step }}"
         style="
           font-size: {{ (maxSize - minSize) * tag.factor  + minSize }}em;

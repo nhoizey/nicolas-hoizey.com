@@ -46,13 +46,13 @@
     {% include "components/footer.njk" %}
 
     {# TODO: make critical inline #}
-    <script src="{{ '/js/main.min.js' | url }}" defer></script>
+    <script src="{{ '/js/main.js' }}" defer></script>
 
     <script type="module" src="/sw-window.mjs"></script>
 
     {#
     {% if layout == 'article' or layout == 'link' %}
-      <script src="{{ '/js/webmentions.min.js' | url }}" defer></script>
+      <script src="{{ '/js/webmentions.min.js' }}" defer></script>
     {% endif %}
     #}
   </body>
