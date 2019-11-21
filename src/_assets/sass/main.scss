@@ -234,14 +234,14 @@ a.deeplink:visited {
   svg {
     width: 1em;
     height: 1em;
-    fill: $color-link-decoration;
+    fill: $link-decoration-color;
   }
 }
 
 a.deeplink:hover,
 a.deeplink:focus,
 a.deeplink:active {
-  background-color: $color-link-decoration;
+  background-color: $link-decoration-color;
   color: $color-white;
 
   svg {
@@ -260,7 +260,7 @@ h6 {
   &:active {
     a.deeplink:link,
     a.deeplink:visited {
-      background-color: $color-link-decoration;
+      background-color: $link-decoration-color;
       color: $color-white;
 
       svg {
@@ -311,7 +311,7 @@ article {
     overflow: hidden;
     padding: 0 1em 0 2.5em;
 
-    color: $color-text;
+    color: $text-color;
     background-color: $color-primary-lighter-5;
     border-radius: 10px;
 
