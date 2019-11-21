@@ -6,34 +6,55 @@ eleventyExcludeFromCollections: true
 
 {% set nowTimestamp = build.timestamp %}
 
-<p>Here are a few talks I gave along the years:</p>
+{% for talk in notist.talks.future %}
+  {% if loop.first %}
+    <p>Here are my upcoming talks:</p>
+    <ul class="list">
+  {% endif %}
+  <li class="list__item">
+    <div class="card">
+      <p class="card__title">
+        <a href="{{ talk.links.self }}">{{ talk.attributes.title }}</a>
+      </p>
+      <footer>
+        <ul class="card__meta">
+          <li class="date card__meta__item card__date">
+            <svg class="icon"><use xlink:href="#symbol-date" /></svg>
+            <time class="dt-published" datetime="{{ talk.attributes.presented_on | attributeDate }}">
+              {{ talk.attributes.presented_on | date("Do MMMM YYYY") }}
+            </time>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </li>
+  {% if loop.last %}
+    </ul>
+  {% endif %}
+{% endfor %}
 
+<p>Here are a few talks I gave along the years:</p>
 <ul class="list">
-  {# {% assign data = site.data.talks.data | first %}
-  {% for presentation in data.relationships.data %}
-    {% assign talkTimestamp = presentation.attributes.presented_on | date: '%s' %}
-    {% if talkTimestamp < nowTimestamp %}
-      <li class="list__item">
-        <div class="card">
-          <figure class="card__image">
-            <img src="{{ presentation.attributes.image.src }}" alt="Slides from the talk “{{ presentation.attributes.title }}”" />
-          </figure>
-          <p class="card__title">
-            <a href="{{ presentation.links.self }}">{{ presentation.attributes.title }}</a>
-          </p>
-          <footer>
-            <ul class="card__meta">
-              <li class="date card__meta__item card__date">
-                <svg class="icon"><use xlink:href="#symbol-date" /></svg>
-                <time class="dt-published" datetime="{{ presentation.attributes.presented_on | date: "%Y-%m-%d %H:%M:%S" }}">
-                  {{ presentation.attributes.presented_on | date: "%B" }}
-                  {% include ordinal-day.njk date=presentation.attributes.presented_on %}, {{ presentation.attributes.presented_on | date: "%Y" }}
-                </time>
-              </li>
-            </ul>
-          </footer>
-        </div>
-      </li>
-    {% endif %}
-  {% endfor %} #}
+  {% for talk in notist.talks.past %}
+    <li class="list__item">
+      <div class="card">
+        <figure class="card__image">
+          <img src="{{ talk.attributes.image.src }}" alt="Slides from the talk “{{ talk.attributes.title }}”" />
+        </figure>
+        <p class="card__title">
+          <a href="{{ talk.links.self }}">{{ talk.attributes.title }}</a>
+        </p>
+        <footer>
+          <ul class="card__meta">
+            <li class="date card__meta__item card__date">
+              <svg class="icon"><use xlink:href="#symbol-date" /></svg>
+              <time class="dt-published" datetime="{{ talk.attributes.presented_on | attributeDate }}">
+                {{ talk.attributes.presented_on | date("Do MMMM YYYY") }}
+              </time>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </li>
+  {% endfor %}
 </ul>
