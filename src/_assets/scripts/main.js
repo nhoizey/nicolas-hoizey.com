@@ -107,7 +107,6 @@ if (gifsNumber > 0) {
 // https://mxb.at/blog/youre-offline/
 // https://www.youtube.com/watch?v=7fnpsF9tMXc
 
-var notifications = window.document.getElementById("notifications");
 var isOffline = false;
 
 // check if we're online, set a class on <body> if offline
