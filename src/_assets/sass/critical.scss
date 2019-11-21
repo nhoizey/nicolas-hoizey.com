@@ -2,6 +2,9 @@
 @import "utilities";
 @import "critical/globals";
 @import "critical/accessibility";
+@import "components/header";
+@import "components/search";
+@import "components/navigation";
 
 :root {
   --base-duration: 0s;
@@ -44,26 +47,6 @@ body {
   word-break: break-word;
 }
 
-a {
-  --link-decoration-color: $link-decoration-color;
-
-  &:link,
-  &:visited {
-    color: currentColor;
-    text-decoration-line: underline;
-    text-decoration-color: var(--link-decoration-color);
-    text-decoration-thickness: 0.1em;
-  }
-
-  &:hover,
-  &:focus {
-    color: #fff;
-    background-color: var(--link-decoration-color);
-    text-decoration: none;
-    outline: none;
-  }
-}
-
 // ************************************************************
 // Layout
 // ************************************************************
@@ -86,5 +69,81 @@ main,
   width: 90vw;
   max-width: 60rem;
   margin: 0 auto;
+}
+
+// ************************************************************
+// Paragraphs and headers
+// ************************************************************
+
+p {
+  margin: $baseline 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  line-height: 1.3;
+  margin: calc(0.75em + 2vw) 0 $baseline / 2 0;
+  position: relative;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: var(--font-size-xxxxl);
+  color: $color-primary;
+}
+
+h2 {
+  font-size: var(--font-size-xxxl);
+  color: $color-primary-lighter-1;
+}
+
+h3 {
+  font-size: var(--font-size-xxl);
+  color: $color-primary-lighter-2;
+}
+
+h4 {
+  font-size: var(--font-size-xl);
+  color: $color-primary-lighter-2;
+}
+
+h5 {
+  font-size: var(--font-size-l);
+  color: $color-primary-lighter-2;
+}
+
+h6 {
+  font-style: italic;
+  font-size: var(--font-size-m);
+  color: $color-primary-lighter-2;
+}
+
+// ************************************************************
+// Links
+// ************************************************************
+
+a {
+  --link-decoration-color: #{$link-decoration-color};
+
+  &:link,
+  &:visited {
+    color: currentColor;
+    text-decoration-line: underline;
+    text-decoration-color: var(--link-decoration-color);
+    text-decoration-thickness: 0.1em;
+  }
+
+  &:hover,
+  &:focus {
+    color: #fff;
+    background-color: var(--link-decoration-color);
+    text-decoration: none;
+    outline: none;
+  }
 }
 
