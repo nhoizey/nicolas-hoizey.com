@@ -1,9 +1,3 @@
-@import "settings";
-
-// ************************************************************
-// Comments
-// ************************************************************
-
 .comments__list {
   padding: 0;
 }
@@ -50,7 +44,7 @@
 }
 
 .comment__meta {
-  color: $color-meta;
-  --link-decoration-color: #{$color-meta-link-decoration};
+  color: $meta-color;
+  --link-decoration-color: #{$meta-link-decoration-color};
   font-size: var(--font-size-s);
 }

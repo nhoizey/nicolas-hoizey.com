@@ -1,9 +1,3 @@
-@import "settings";
-
-// ************************************************************
-// Card
-// ************************************************************
-
 .card {
   margin: 0;
   padding: 0;
@@ -54,7 +48,7 @@
 .card__meta {
   margin: 0.5em 0;
   padding: 0;
-  color: $color-meta;
+  color: $meta-color;
   font-size: var(--font-size-xs);
 
   display: flex;
@@ -65,10 +59,10 @@
   margin: 0 1em 0 1.5em;
   list-style-type: none;
 
-  --link-decoration-color: #{$color-meta-link-decoration};
+  --link-decoration-color: #{$meta-link-decoration-color};
 
   svg {
-    fill: $color-meta-icon;
+    fill: $meta-icon-color;
     vertical-align: middle;
     margin: 0 0.2em 0 -1.5em;
     padding: 0;

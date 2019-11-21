@@ -11,7 +11,7 @@ $color-darkgrey: #555;
 $color-gold: #937c07;
 
 // ************************************************************
-// Theme colors palette
+// Colors palette
 // ************************************************************
 //
 // Rebecca Purple:
@@ -34,25 +34,21 @@ $color-secondary-lighter-3: #ffc0a1;
 $color-secondary-lighter-4: #ffe0d0;
 $color-secondary-lighter-5: #ffeadf;
 
-$color-background: #fff;
-$color-text: #222;
+// Global styles
+$background-color: #fff;
+$text-color: #222;
 
-$color-link-decoration: $color-blue;
+$link-decoration-color: $color-blue;
 
-$color-meta: $color-darkgrey;
-$color-meta-icon: $color-grey;
-$color-meta-link-decoration: $color-grey;
+$meta-color: $color-darkgrey;
+$meta-icon-color: $color-grey;
+$meta-link-decoration-color: $color-grey;
 
-$color-article-intro: #333;
+$inline-code-background-color: #fff4d1;
+$inline-code-text-color: #111;
 
-$color-inline-code-background: #fff4d1;
-$color-inline-code-text: #111;
-
-$color-icon-background: #fff;
-$color-icon-text: $color-darkgrey;
-$color-icon-link: #aaa;
-$color-icon-border: #fff;
-$color-icon-hover: $color-secondary;
+$icon-link-color: #aaa;
+$icon-hover-color: $color-secondary;
 
 $baseline: 1.5rem;
 

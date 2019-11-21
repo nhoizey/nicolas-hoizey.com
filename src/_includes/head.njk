@@ -6,12 +6,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 
-  {% if build.env !== 'production' %}
-    <link rel="stylesheet" href="{{ '/css/main.css' | url }}">
-  {% else %}
-    {# TODO: make critical inline #}
-    <link rel="stylesheet" href="{{ '/css/main.min.css' | url }}">
-  {% endif %}
+  <style>{{ css["critical"] | safe }}</style>
+  <link rel="stylesheet" href="/css/main.css" />
 
   {# Google Analytics #}
   {# {% if build.env == "production" %}
