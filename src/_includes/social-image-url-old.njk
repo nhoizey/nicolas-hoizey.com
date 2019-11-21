@@ -4,17 +4,17 @@
 {%- set twitter_logo = "https://nicolas-hoizey.com/assets/logos/twitter.png" -%}
 {%- comment -%} Get the first image in the page {%- endcomment -%}
 {%- if include.page.poster -%}
-  {%- capture image -%}{{ pkg.homepage }}{{ include.page.url | url_path }}{{ include.page.poster }}{%- endcapture -%}
+  {%- capture image -%}{{ site.url }}{{ include.page.url | url_path }}{{ include.page.poster }}{%- endcapture -%}
 {%- else -%}
   {%- comment -%} Get the first image in the page {%- endcomment -%}
   {%- capture image -%}{% include first-image-src.njk page=include.page -%}{%- endcapture %}
   {%- comment -%}{%- set image = include.page.content | first_image -%}{%- endcomment -%}
 {%- endif -%}
 {%- if image == "" -%}
-  {%- set image = pkg.homepage + '/assets/degrade.png' -%}
+  {%- set image = site.url + '/assets/degrade.png' -%}
 {%- endif -%}
 {%- if include.page.title == 'Accueil' -%}
-  {%- set title = pkg.description -%}
+  {%- set title = site.description -%}
 {%- elif include.page.title == 'Recherche' -%}
   {%- set title = 'Search powered by Algolia' -%}
 {%- elif include.page.layout == 'link' -%}

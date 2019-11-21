@@ -5,22 +5,22 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Nicolas Hoizey - All content</title>
-  <link href="{{ pkg.homepage }}/feeds/all.xml" rel="self"/>
-  <link href="{{ pkg.homepage }}/?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
+  <link href="{{ site.url }}/feeds/all.xml" rel="self"/>
+  <link href="{{ site.url }}/?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
   <link rel="hub" href="http://pubsubhubbub.superfeedr.com/" />
   <updated>{{ build.timestamp | attributeDate }}</updated>
-  <id>{{ pkg.homepage }}/</id>
+  <id>{{ site.url }}/</id>
   <author>
-    <name>{{ pkg.author.name }}</name>
-    <email>{{ pkg.author.email }}</email>
+    <name>{{ site.author.name }}</name>
+    <email>{{ site.author.email }}</email>
   </author>
 
   {% for post in site.posts limit:20 %}
     <entry>
       <title>{{ post.title }}</title>
-      <link href="{{ pkg.homepage }}{{ post.url }}?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
+      <link href="{{ site.url }}{{ post.url }}?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
       <updated>{{ post.date | attributeDate }}</updated>
-      <id>{{ pkg.homepage }}{{ post.id }}</id>
+      <id>{{ site.url }}{{ post.id }}</id>
       {% if post.categories contains 'links' %}
         <content type="html">
           &lt;p&gt;{% if post.author %}{{ post.author }}&lt;br /&gt;{% endif %}

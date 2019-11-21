@@ -38,8 +38,8 @@
 
   {% set ogType = "website" %}
   {% if page.url == "/" %}
-    {% set title = pkg.title %}
-    {% set description = pkg.description %}
+    {% set title = site.title %}
+    {% set description = site.description %}
     <title itemprop="name">{{ title }}</title>
     <meta property="og:title" content="{{ title }}" />
   {% else %}
@@ -67,15 +67,15 @@
         {% endif %}
       {% endif %}
     {% endif %}
-    <title>{{ title }} &ndash; {{ pkg.short_title }}</title>
+    <title>{{ title }} &ndash; {{ site.name }}</title>
     <meta property="og:title" content="{{ title }}" />
   {% endif %}
 
   <meta name="description" content="{{ description }}" />
   <meta property="og:description" content="{{ description }}" />
 
-  <link rel="canonical" href="{{ pkg.homepage + page.url }}" itemprop="url" />
-  <meta property="og:url" content="{{ pkg.homepage + page.url }}" />
+  <link rel="canonical" href="{{ site.url + page.url }}" itemprop="url" />
+  <meta property="og:url" content="{{ site.url + page.url }}" />
 
   <meta property="og:type" content="{{ ogType }}" />
   {% if ogType == "article" %}

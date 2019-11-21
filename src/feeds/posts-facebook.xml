@@ -4,13 +4,13 @@ layout: null
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Nicolas Hoizey's articles</title>
-  <link href="{{ pkg.homepage }}/feeds/posts-facebook.xml" rel="self"  type="application/rss+xml" />
-  <link href="{{ pkg.homepage }}/?utm_medium=social&amp;utm_source=Facebook&amp;utm_campaign=feed" />
+  <link href="{{ site.url }}/feeds/posts-facebook.xml" rel="self"  type="application/rss+xml" />
+  <link href="{{ site.url }}/?utm_medium=social&amp;utm_source=Facebook&amp;utm_campaign=feed" />
   <updated>{{ build.timestamp | attributeDate }}</updated>
-  <id>{{ pkg.homepage }}/</id>
+  <id>{{ site.url }}/</id>
   <author>
-    <name>{{ pkg.author.name }}</name>
-    <email>{{ pkg.author.email }}</email>
+    <name>{{ site.author.name }}</name>
+    <email>{{ site.author.email }}</email>
   </author>
   {% for post in site.posts limit:20 %}
   <entry>
@@ -19,10 +19,10 @@ layout: null
 
 {{ post.excerpt | strip_footnotes | striptags | xml_escape }}
 
--> {{ pkg.homepage }}{{ post.url }}?utm_medium=social&amp;utm_source=Facebook&amp;utm_campaign=feed
+-> {{ site.url }}{{ post.url }}?utm_medium=social&amp;utm_source=Facebook&amp;utm_campaign=feed
     </content>
-    <id>{{ pkg.homepage }}{{ post.id }}</id>
-    <link href="{{ pkg.homepage }}{{ post.url }}?utm_medium=social&amp;utm_source=Facebook&amp;utm_campaign=feed"/>
+    <id>{{ site.url }}{{ post.id }}</id>
+    <link href="{{ site.url }}{{ post.url }}?utm_medium=social&amp;utm_source=Facebook&amp;utm_campaign=feed"/>
     <updated>{{ post.date | attributeDate }}</updated>
   </entry>
   {% endfor %}

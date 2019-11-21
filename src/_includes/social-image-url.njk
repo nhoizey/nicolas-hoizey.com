@@ -3,7 +3,7 @@
 {%- set icon = '' -%}
 {%- set icon_part = '' -%}
 {%- if include.page.title == 'Homepage' -%}
-  {%- set title = pkg.description -%}
+  {%- set title = site.description -%}
 {%- elif include.page.title == 'Search' -%}
   {%- set title = 'Search powered by Algolia' -%}
   {%- set icon = 'search' -%}
@@ -22,12 +22,12 @@
   {%- endif -%}
 {%- endif -%}
 {%- set title = title | urlencode | replace(' ', '%20') | replace('.', '%2e') | replace(',', '%252C') | replace(':', '%253A') | replace('/', '%252F') | replace("'", '%E2%80%99') | replace('?', '%3F') | replace('#', '%23') -%}
-{%- set background_image = pkg.homepage + '/assets/opengraph/background.png' -%}
+{%- set background_image = site.url + '/assets/opengraph/background.png' -%}
 {%- set padding = 50 -%}
 {%- set padding_right = 50 -%}
 {%- if icon != '' -%}
   {%- set padding_right = 150 -%}
-  {%- set icon_image = pkg.homepage + '/assets/opengraph/' + icon + '.png' -%}
+  {%- set icon_image = site.url + '/assets/opengraph/' + icon + '.png' -%}
   {%- set icon_part %}l_fetch:{{ icon_image | base64_encode }},g_north_east,c_fill,w_{{ padding_right }},h_{{ padding_right }}/{%- endset -%}
 {%- endif %}
 {%- set font = "Noto%20Serif" -%}

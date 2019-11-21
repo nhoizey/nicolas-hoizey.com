@@ -1,5 +1,5 @@
 {% if include.page.poster %}
-  {% set poster_image %}{{ pkg.homepage }}{{ include.page.url | url_path }}{{ include.page.poster }}{% endset %}
+  {% set poster_image %}{{ site.url }}{{ include.page.url | url_path }}{{ include.page.poster }}{% endset %}
 {% else %}
   {% set poster_image = include.page.content | first_image %}
 {% endif %}

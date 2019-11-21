@@ -4,13 +4,13 @@ layout: null
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Nicolas Hoizey's links</title>
-  <link href="{{ pkg.homepage }}/feeds/links-clevermarks.xml" rel="self" type="application/rss+xml" />
-  <link href="{{ pkg.homepage }}/" />
+  <link href="{{ site.url }}/feeds/links-clevermarks.xml" rel="self" type="application/rss+xml" />
+  <link href="{{ site.url }}/" />
   <updated>{{ build.timestamp | attributeDate }}</updated>
-  <id>{{ pkg.homepage }}/links/</id>
+  <id>{{ site.url }}/links/</id>
   <author>
-    <name>{{ pkg.author.name }}</name>
-    <email>{{ pkg.author.email }}</email>
+    <name>{{ site.author.name }}</name>
+    <email>{{ site.author.email }}</email>
   </author>
   {% assign links = site.categories['links'] %}
   {% for link in links limit:20 %}
