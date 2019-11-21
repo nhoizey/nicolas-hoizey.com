@@ -12,7 +12,9 @@
   margin: 0 1em 0 1.5em;
   list-style-type: none;
 
-  --link-decoration-color: #{$meta-link-decoration-color};
+  a {
+    --link-decoration-color: #{$meta-link-decoration-color};
+  }
 
   svg {
     fill: $meta-icon-color;
