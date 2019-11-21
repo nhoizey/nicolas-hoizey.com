@@ -9,6 +9,9 @@
   <style>{{ css["critical"] | safe }}</style>
   <link rel="stylesheet" href="/css/main.css" />
 
+  <script>{{ js["critical.js"] | safe }}</script>
+  <script src="/js/main.js" async defer></script>
+
   {# Google Analytics #}
   {# {% if build.env == "production" %}
     <script>
