@@ -1,21 +1,24 @@
+import Toast from "toast.js";
+
 /*****************************************************************
  * Statistics
  * ****************************************************************/
 
-(function(win, doc) {
-  doc.body.setAttribute("data-viewportwidth", win.viewport_width);
-  doc.body.setAttribute("data-screendensity", win.screen_density);
-  doc.body.setAttribute("data-rootfontsize", win.root_font_size);
-})(window, document);
+(function (window) {
+  let bodyElement = window.document.querySelector('body');
+  bodyElement.setAttribute("data-viewportwidth", window.viewport_width);
+  bodyElement.setAttribute("data-screendensity", window.screen_density);
+  bodyElement.setAttribute("data-rootfontsize", window.root_font_size);
+})(window);
 
 /*****************************************************************
  * UX
  * ****************************************************************/
 
 // Add anchor links to titles in the article
-(function(w) {
+(function (window) {
   var i,
-    list = w.document.querySelectorAll(
+    list = window.document.querySelectorAll(
       "article.main h2[id], article.main h3[id], article.main h4[id], article.main h5[id], article.main h6[id]"
     ),
     nb = list.length;
@@ -28,7 +31,7 @@
       list[i].textContent +
       '"><svg><use xlink:href="#symbol-link" /></svg></a>';
   }
-})(this);
+})(window);
 
 /*****************************************************************
  * Lazyload some images
@@ -210,7 +213,7 @@ function onAlgoliaAvailable(callback) {
         .appendChild(algoliaScript);
       algoliaLinked = true;
     }
-    setTimeout(function() {
+    setTimeout(function () {
       onAlgoliaAvailable(callback);
     }, 50);
   }
@@ -233,19 +236,19 @@ var searchSettings = {
 var queryString = getParameterByName("q");
 if (queryString.length > 0) {
   $input.value = queryString;
-  onAlgoliaAvailable(function() {
+  onAlgoliaAvailable(function () {
     algoliaIndex.search(queryString, searchSettings, searchCallback);
   });
 }
 
 // A search query may come from the user typing in the search field
-$input.addEventListener("keyup", function() {
+$input.addEventListener("keyup", function () {
   if ($input.value.length > 0) {
     history.pushState(null, null, "/search.html?q=" + $input.value);
     if ($intro) $intro.style.display = "none";
     $currentContent.style.display = "none";
     $searchContent.style.display = "block";
-    onAlgoliaAvailable(function() {
+    onAlgoliaAvailable(function () {
       algoliaIndex.search($input.value, searchSettings, searchCallback);
     });
   } else {
@@ -300,8 +303,8 @@ function searchCallback(err, content) {
     hit_excerpt = hit._highlightResult.html
       ? hit._highlightResult.html.value
       : hit._snippetResult.content
-      ? hit._snippetResult.content.value
-      : hit.excerpt_html;
+        ? hit._snippetResult.content.value
+        : hit.excerpt_html;
 
     hit_tags = "";
     if (hit._highlightResult.tags) {
