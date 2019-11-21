@@ -1,4 +1,4 @@
-import Toast from "toast.js";
+import Toast from "./toast.js";
 
 /*****************************************************************
  * Statistics
