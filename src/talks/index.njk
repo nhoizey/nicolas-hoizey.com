@@ -17,8 +17,8 @@ eleventyExcludeFromCollections: true
         <a href="{{ talk.links.self }}">{{ talk.attributes.title }}</a>
       </p>
       <footer>
-        <ul class="card__meta">
-          <li class="date card__meta__item card__date">
+        <ul class="meta">
+          <li class="date meta__item card__date">
             <svg class="icon"><use xlink:href="#symbol-date" /></svg>
             <time class="dt-published" datetime="{{ talk.attributes.presented_on | attributeDate }}">
               {{ talk.attributes.presented_on | date("Do MMMM YYYY") }}
@@ -45,8 +45,8 @@ eleventyExcludeFromCollections: true
           <a href="{{ talk.links.self }}">{{ talk.attributes.title }}</a>
         </p>
         <footer>
-          <ul class="card__meta">
-            <li class="date card__meta__item card__date">
+          <ul class="meta">
+            <li class="date meta__item card__date">
               <svg class="icon"><use xlink:href="#symbol-date" /></svg>
               <time class="dt-published" datetime="{{ talk.attributes.presented_on | attributeDate }}">
                 {{ talk.attributes.presented_on | date("Do MMMM YYYY") }}

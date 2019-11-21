@@ -316,12 +316,12 @@ function searchCallback(err, content) {
 
     result = `<li class="list__item"><div class="card"><p class="card__title"><a href="${hit.url}">${hit_title}</a></p><p class="card__excerpt">${hit_excerpt}</p>`;
     if (hit_date || hit_tags) {
-      result += '<footer><ul class="card__meta">';
+      result += '<footer><ul class="meta">';
       if (hit_date) {
-        result += `<li class="date card__meta__item card__date"><svg class="icon"><use xlink:href="#symbol-date" /></svg> ${hit_date}</li>`;
+        result += `<li class="date meta__item card__date"><svg class="icon"><use xlink:href="#symbol-date" /></svg> ${hit_date}</li>`;
       }
       if (hit_tags) {
-        result += `<li class="tags card__meta__item card__tags"><svg class="icon"><use xlink:href="#symbol-tags" /></svg> ${hit_tags}</li>`;
+        result += `<li class="tags meta__item card__tags"><svg class="icon"><use xlink:href="#symbol-tags" /></svg> ${hit_tags}</li>`;
       }
       result += "</ul></footer>";
     }
