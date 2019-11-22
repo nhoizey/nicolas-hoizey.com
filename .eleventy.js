@@ -3,8 +3,6 @@ const moment = require("moment");
 const { parse, stringify } = require("flatted/cjs");
 const cheerio = require('cheerio');
 
-// Import transforms
-const htmlMinTransform = require("./src/transforms/html-min-transform.js");
 module.exports = function (eleventyConfig) {
 
   // ------------------------------------------------------------------------
@@ -228,6 +226,7 @@ module.exports = function (eleventyConfig) {
   // Transforms
   // ------------------------------------------------------------------------
 
+  const htmlMinTransform = require("./src/transforms/html-min-transform.js");
   eleventyConfig.addTransform("htmlmin", htmlMinTransform);
 
   // ------------------------------------------------------------------------
