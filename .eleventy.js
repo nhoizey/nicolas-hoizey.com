@@ -212,6 +212,8 @@ module.exports = function (eleventyConfig) {
     }
   };
 
+  const markdownItAttributes = require("markdown-it-attrs");
+
   const markdownItContainer = require("markdown-it-container");
 
   eleventyConfig.setLibrary(
@@ -219,6 +221,7 @@ module.exports = function (eleventyConfig) {
     markdownIt(markdownItOptions)
       .use(markdownItFootnote)
       .use(markdownItAnchor, markdownItAnchorOptions)
+      .use(markdownItAttributes)
       .use(markdownItContainer, "info")
   );
 

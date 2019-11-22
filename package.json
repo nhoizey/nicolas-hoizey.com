@@ -65,6 +65,7 @@
     "@sindresorhus/slugify": "~0.9",
     "markdown-it": "~10.0",
     "markdown-it-anchor": "~5.2",
+    "markdown-it-attrs": "^3.0.1",
     "markdown-it-container": "~2.0",
     "markdown-it-footnote": "~3.0.2",
     "moment": "~2.24.0",
