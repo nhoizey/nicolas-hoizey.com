@@ -1,17 +1,3 @@
-# Site settings
-title: Nicolas Hoizey, passionate about the Web and photography
-author: Nicolas Hoizey
-email: nicolas@hoizey.com
-description: > # this means to ignore newlines until "baseurl:"
-  Nicolas Hoizey, passionate about the Web and photography, among many other interests.
-baseurl: ""
-url: "https://nicolas-hoizey.com"
-twitter_username: nhoizey
-github_username: nhoizey
-
-# Handling content with date in the future
-future: false
-
 # Markdown parsing
 markdown: kramdown
 kramdown:
@@ -19,69 +5,6 @@ kramdown:
   syntax_highlighter: rouge
   footnote_backlink: "⬆︎"
   header_offset: 1
-
-# Indexing for related post using the classifier-reborn plugin
-lsi: false
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "default"
-  - scope:
-      path: "articles"
-      type: "posts"
-    values:
-      layout: "post"
-      lang: en
-      categories:
-        - articles
-      permalink: :year/:month/:title.html
-  - scope:
-      path: "links"
-      type: "posts"
-    values:
-      layout: "link"
-      lang: en
-      categories:
-        - links
-      permalink: :categories/:year/:month/:title.html
-
-# Tags
-tag_page_layout: tag
-tag_page_dir: tags
-tag_feed_layout: atom-tag
-tag_feed_dir: tags
-
-exclude:
-  - autoprefixer.yml
-  - Gemfile*
-  - README.md
-  - LICENSE.md
-  - tags/*.md
-  - Rakefile
-include:
-  - .htaccess
-  - .well-known
-  - favicon.jpg
-  - tags
-
-# Jekyll Assets
-assets:
-  compression: true
-  plugins:
-    css: { autoprefixer: {} }
-  autoprefixer:
-    browsers:
-      - "last 2 versions"
-      - "IE > 10"
-
-# Get data from Notist
-jekyll_get:
-  data: talks
-  json: "https://noti.st/nhoizey.json"
 
 # POSSEify plugin settings
 posseify:
