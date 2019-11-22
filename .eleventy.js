@@ -229,8 +229,8 @@ module.exports = function (eleventyConfig) {
   // Transforms
   // ------------------------------------------------------------------------
 
-  const responsiveImagesTransform = require("./src/transforms/responsive-images-transform.js/index.js");
-  eleventyConfig.addTransform("responsive-images", responsiveImagesTransform);
+  const cloudinaryTransform = require("./src/transforms/cloudinary-transform.js");
+  eleventyConfig.addTransform("cloudinary", cloudinaryTransform);
 
   const htmlMinTransform = require("./src/transforms/html-min-transform.js");
   eleventyConfig.addTransform("htmlmin", htmlMinTransform);
