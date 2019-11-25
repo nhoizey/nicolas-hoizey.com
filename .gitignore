@@ -4,3 +4,4 @@ logs
 _scripts
 _config_credentials.yml
 tmp
+.env
