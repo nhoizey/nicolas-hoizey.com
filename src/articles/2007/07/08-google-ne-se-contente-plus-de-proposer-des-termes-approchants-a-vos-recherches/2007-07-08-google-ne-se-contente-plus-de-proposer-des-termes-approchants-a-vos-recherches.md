@@ -9,12 +9,12 @@ J'ai lancé dernièrement une recherche sur Google sur l'acronyme « NLB », et 
 
 Voici la page de résultat complète pour la recherche de « NLB » :
 
-{% respimg "google-nlb.png", "Recherche de « NLB » dans Google", page %}
+![](google-nlb.png){caption="Recherche de « NLB » dans Google"}
 
 
 Et un zoom sur la partie supplémentaire portant sur la recherche de « MLB » :
 
-{% respimg "google-mlb.png", "Recherche bonus de « MLB »", page %}
+![](google-mlb.png){caption="Recherche bonus de « MLB »"}
 
 
 Peut-être s'agit-il d'un nouveau type de lien publicitaire présenté directement au sein de la recherche, et non plus à côté, à haut ou à droite…

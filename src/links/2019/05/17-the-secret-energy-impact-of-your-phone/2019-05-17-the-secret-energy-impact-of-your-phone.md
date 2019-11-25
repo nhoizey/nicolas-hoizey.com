@@ -17,4 +17,4 @@ We can passively observe big actors improve their data centers efficency and thi
 
 As Web sites/apps architects, designers and developers, we are directly responsible for the [web pages increasing weight](https://httparchive.org/reports/state-of-the-web?start=earliest&end=latest&view=list#bytesTotal), and we should be more careful.
 
-{% respimg "web-page-weight-chronology.png", "The median Web page weight on mobile has increased **1 000 %** over 8 years!", page %}
+![](web-page-weight-chronology.png){caption="The median Web page weight on mobile has increased **1 000 %** over 8 years!"}

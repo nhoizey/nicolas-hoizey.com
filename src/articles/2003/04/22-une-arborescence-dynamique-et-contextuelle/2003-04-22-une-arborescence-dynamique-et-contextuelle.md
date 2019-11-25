@@ -12,13 +12,13 @@ Voici donc comme promis depuis plus de six mois une version simplifiée et netto
 
 Voilà un exemple très parlant de ce que l'on peut en faire :
 
-{% respimg "menu_edf.png", "Sur le portail EDF. Le menu arborescent dynamique du site EDF pour les particuliers", page %}
+![](menu_edf.png){caption="Sur le portail EDF. Le menu arborescent dynamique du site EDF pour les particuliers"}
 
 Voyez par vous-même : <http://particuliers.edf.fr/rubrique25.html>
 
 Et voilà ce que ça donne en installation de base :
 
-{% respimg "menu_big.png", "Le menu dans les squelettes par défaut. Voilà ce que donne ce menu après simple ajout dans le squelette par défaut des rubriques.", page %}
+![](menu_big.png){caption="Le menu dans les squelettes par défaut. Voilà ce que donne ce menu après simple ajout dans le squelette par défaut des rubriques."}
 
 # Utilisation
 

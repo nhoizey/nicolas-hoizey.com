@@ -12,7 +12,7 @@ Si vous ne vous en souciez pas, commencez tout de suite à le faire, il y a beau
 
 Le moyen le plus simple de connaître les URL en erreur 404 sur lesquelles arrivent les internautes, c’est d’abord de s’intéresser à celles qui sont référencées dans les moteurs de recherche, dont Google. On peut trouver justement un référencement des pages en erreur, dont celles en 404, au sein des [outils Google pour les webmasters](https://www.google.com/webmasters/tools/).
 
-{% respimg "google-webmasters-404.png", "Erreurs 404 de Gastero Prod référencées par Google", page %}
+![](google-webmasters-404.png){caption="Erreurs 404 de Gastero Prod référencées par Google"}
 
 Une autre méthode plus basique et source potentielle d’explosion de compte mail est de se faire envoyer un mail à chaque requête donnant une erreur. C’est ce que j’ai fait dans mon squelette `404.html` pour Gastero Prod, en donnant au passage quelques informations utiles de contexte d’appel :
 

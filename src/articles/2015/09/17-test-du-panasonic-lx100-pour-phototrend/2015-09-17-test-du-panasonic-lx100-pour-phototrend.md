@@ -9,4 +9,4 @@ Voici un nouveau test réalisé pour Phototrend, celui de l'excellent [compact e
 
 Je vous invite à aller lire le [test détaillé du Panasonic LX100 sur Phototrend](http://phototrend.fr/2015/09/test-appareil-photo-compact-panasonic-lumix-lx100/) et surtout n'hésitez pas à commenter et me dire ce que vous en pensez, tant de l'appareil que du test.
 
-{% respimg "20150427-Pigments.jpg", page %}
+![](20150427-Pigments.jpg)

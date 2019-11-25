@@ -18,7 +18,7 @@ Si vous voulez vous lancer vous aussi, voici [un bon tutoriel pour Photoshop](ht
 
 Bref, c'est en parcourant Flickr à la recherche des meilleurs exemples de ces manipulations que je suis tombé sur cette photo intitulée *[miniatur wunderland](https://www.flickr.com/photos/wvs/107108594/)* :
 
-{% respimg "107108594_2a5819.jpg", page %}
+![](107108594_2a5819.jpg)
 
 Croyant au départ avoir affaire à un nouvel exemple de manipulation, je me suis en fait rendu compte qu'il s'agit tout simplement d'une vraie photo de maquette, qui est du coup plutôt réaliste !
 
@@ -28,13 +28,13 @@ J'ai un peu creusé le sujet en cherchant [les photos les plus intéressantes su
 
 J'ai ainsi découvert que les allemands ont de l'humour, avec [quelques](https://www.flickr.com/photos/barttc/51132903/) [exemples](https://www.flickr.com/photos/barttc/51133175/) [sympathiques](http://www.freakydog.de/galerie/bild/166/), dont ce [Bestzt](https://www.flickr.com/photos/effpunkt/88967949/) :
 
-{% respimg "88967949_6b104dc.jpg", page %}
+![](88967949_6b104dc.jpg)
 
 # Quand le réalisme dépasse les limites du bon goût
 
 Mais j'ai aussi découvert un type de miniatures bien particulier, à priori plutôt destiné aux adultes, comme ce [Miniatur Wunderland IX](https://www.flickr.com/photos/gullideckel/48541516/) :
 
-{% respimg "48541516_d2184c1.jpg", page %}
+![](48541516_d2184c1.jpg)
 
 Et voici d'[autres](https://www.flickr.com/photos/gullideckel/48541518/) [exemples](https://www.flickr.com/photos/gullideckel/48541517/) tout aussi [explicitement](https://www.flickr.com/photos/barttc/51132448/) destinés aux [adultes](https://www.flickr.com/photos/oandreas/1145708/).
 

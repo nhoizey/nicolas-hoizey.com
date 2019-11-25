@@ -12,11 +12,11 @@ La [longue traine](http://fr.wikipedia.org/wiki/Longue_tra%C3%AEne), ce fameux p
 
 [Alapage](http://www.alapage.com/) -- une filiale de France Télécom -- est un site de vente en ligne relativement important, et qui existe depuis déjà longtemps. Il propose comme la plupart des autres vendeurs généralistes multimédia une panoplie assez large de produits, et c'est chez eux que j'avais trouvé avant noël un [casque sans fil Sennheiser RS 130](http://www.lesnumeriques.com/article-313-1667-165.html) que je souhaitais acheter, pour plus de 30% moins cher que chez les autres :
 
-{% respimg "Alapage_-_Casque.png", "Page produit sur Alapage", page %}
+![](Alapage_-_Casque.png){caption="Page produit sur Alapage"}
 
 Je n'était pas pressé, et le prix était intéressant, donc le délai annoncé sur la page m'allait parfaitement :
 
-{% respimg "Alapage_-_Casque_-_Detail.png", page %}
+![](Alapage_-_Casque_-_Detail.png)
 
 Mais plus d'un mois après, je n'ai toujours pas reçu mon casque, et le suivi de commande indique juste que le produit est en attente.
 

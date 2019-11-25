@@ -7,7 +7,7 @@ tags:       [cinema, movie]
 
 Mais qu'est-ce qu'elle pensent vraiment, les femmes, justement ?
 
-{% respimg "what-women-want-affiche.png", "", "onethird", page %}
+![](what-women-want-affiche.png){.onethird}
 
 C'est vrai quoi, le film [What Women Want](http://www.whatwomenwantmovie.com/) a beau avoir été réalisé par une femme et écrit par un homme et deux femmes, comment être sûr que c'est bien là ce que pensent les femmes, que ce n'est pas un n-ième [délire](http://www.whatwomenwant.com/) de macho qui veut se donner bonne conscience ?
 
@@ -17,6 +17,6 @@ A part cette interrogation philosophique, je dois avouer que Mel Gibson et Helen
 
 Enfin bon, je suis bon public en général pour ce genre de film, on ne se refait pas…
 
-{% respimg "what-women-want-scene.jpg", page %}
+![](what-women-want-scene.jpg)
 
 Allez, juste pour la route, une petite réplique de Nick Marshall, le personnage interprété par Mel Gibson, avant qu'il ne sorte du côté obscur : "What's the difference between a wife and a job ? After 10 years a job still sucks." Très fin, non ?

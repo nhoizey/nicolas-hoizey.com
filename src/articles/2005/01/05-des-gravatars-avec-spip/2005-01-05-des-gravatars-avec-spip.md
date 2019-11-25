@@ -17,7 +17,7 @@ Par exemple, si je créé un gravatar associé à mon adresse e-mail, et que j'u
 
 Voyez par exemple les commentaires de l'article «<428>» :
 
-{% respimg "gravatars.png", page %}
+![](gravatars.png)
 
 
 Heureusement, il n'est pas possible de venir ainsi poluer tous les blogs avec des images sentencieuses, Tom Werner modère lui-même tous les avatars proposés[^t2] et leur affecte une [classification](http://www.gravatar.com/rating.php) similaire à celle des films aux Etats-Unis. Il est alors possible de spécifier quel niveau de tolérance on accepte pour les gravatars à afficher sur son propre site[^t3].

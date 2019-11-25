@@ -14,7 +14,7 @@ Alors profitez maintenant de flux RSS dédiés à chaque thème, avec un lien pr
 
 Voici l'exemple pour le thème «[SPIP](/tags/spip.html)» :
  
-{% respimg "plus_de_feed_themes.png", "Un flux RSS sur un thème", page %}
+![](plus_de_feed_themes.png){caption="Un flux RSS sur un thème"}
 
 
 Le flux RSS de ce thème possède l'URL suivante : <http://www.gasteroprod.com/rss/themes/spip/29.rss>
@@ -31,7 +31,7 @@ J'ai donc mis en place des flux RSS dédiés à ces discussions, accessible via 
 
 Voici l'exemple pour les commentaires de l'article «[Pompez !](/2005/01/pompez.html)» :
 
-{% respimg "plus_de_feed_commentaires.png", "Un flux RSS sur les commentaires d'un articles", page %}
+![](plus_de_feed_commentaires.png){caption="Un flux RSS sur les commentaires d'un articles"}
 
 Le flux RSS de cette discussion possède l'URL suivante : <http://www.gasteroprod.com/rss/commentaires/pompez-428.rss>
 

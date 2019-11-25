@@ -8,7 +8,7 @@ Cela aurait dû s'appeler « Gastero Prod '06 », car voilà plus d'un an que je
 
 Souvenez-vous, il y a encore quelques heures, voilà à quoi ressemblait Gastero Prod :
 
-{% respimg "Gastero_Prod_2007_-_Accueil.png", "Gastero Prod en 2007", page %}
+![](Gastero_Prod_2007_-_Accueil.png){caption="Gastero Prod en 2007"}
 
 Avouez que ça commençait à dater, malgré les légers réalignements successifs que j'avais réalisés.
 

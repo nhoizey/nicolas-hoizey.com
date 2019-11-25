@@ -17,7 +17,7 @@ Voilà donc mon script [BlogmarksInGoogle](http://userscripts.org/scripts/show/2
 
 Et voici un apperçu de ce que cela donne pour une recherche sur [Clever Age](http://www.google.fr/search?q=Clever+Age&start=0&ie=utf-8&oe=utf-8&client=firefox-a&rls=org.mozilla:fr:official) :
 
-{% respimg "BlogmarksInGoogle.png", page %}
+![](BlogmarksInGoogle.png)
 
 
 Ce script a été testé avec Mozilla Firefox 1.5.

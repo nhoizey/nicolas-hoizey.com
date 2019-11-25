@@ -7,4 +7,4 @@ flickr:     https://www.flickr.com/photos/nicolas-hoizey/2704877/
 
 Si quelqu'un n'arrive pas à éviter ce vélo sur la route, c'est qu'il est aveugle !
 
-{% respimg "20100212-Maximum-security.jpg", page %}
+![](20100212-Maximum-security.jpg)

@@ -6,7 +6,7 @@ tags:       [photography, gear]
 
 A l'heure où l'argentique est en grosse perte de vitesse, notamment au niveau de la production de pellicules, papiers et chimies, voilà qu'un des acteurs majeurs de la photographie abandonne tout, y compris son activité numérique !
 
-{% respimg "konica-minolta.jpg", "logo", page %}
+![](konica-minolta.jpg){.logo}
 
 C'est dans un [long communiqué](http://kmpi.konicaminolta.us/eprise/main/kmpi/content/cam/cam_News/cam_NewsDetail/Camera_Business_Withdraw?header=aboutus), publié ce 19 janvier, que [Konica Minolta a annoncé son retrait de l'activité liée aux appareils photographiques](http://www.zone-numerique.com/news-photo-numerique-442.htm).
 
@@ -24,11 +24,11 @@ Toute l'activité photo de KM devrait être reprise par Sony, qui annonce tout s
 ## Et mon matos alors ???
 
 
-{% respimg "minolta_x700.png", page %}
+![](minolta_x700.png)
 
 Voilà déjà longtemps que j'hésitais à faire réparer mon bon vieux [Minolta X-700](http://www.mir.com.my/rb/photography/hardwares/classics/minoltax700/)[^1], il va falloir que je me dépêche, sinon je n'aurais plus le choix. J'ai récupéré ce boitier argentique de référence -- ainsi que plusieurs optiques -- il y a quelques années après que mes parents se sont acheté un reflex argentique un peu plus moderne, mais je n'ai malheureusement pas pris assez le temps de l'utiliser, je le regrette de plus en plus, même si j'ai largement de quoi m'amuser maintenant avec mon [Canon EOS 350D](https://www.flickr.com/photos/nicolas-hoizey/76046485/in/set-165968/)…
 
-{% respimg "konica_kd400z.png", page %}
+![](konica_kd400z.png)
 
 Pour ce qui est de mon premier boitier numérique, un excellent [Konica KD-400 Z](http://www.nomatica.fr/photo/kd400zFR.htm), il a déjà subit pas mal d'outrages depuis 2002[^2], et il continue pourtant fièrement à fonctionner. J'espère que ça va durer, d'autant qu'[il n'a clairement pas à rougir de n'être qu'un petit automatique, vu les résultats](https://www.flickr.com/photos/nicolas-hoizey/2704862/in/set-685912/) !
 

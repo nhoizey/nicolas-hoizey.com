@@ -22,7 +22,7 @@ Comme vous vous en rendrez sans doute compte, FeedBurner a le bon goût[^2] d'in
 
 Au passage, FeedBurner met à disposition un formulaire d'inscription à l'envoi par e-mail des nouveautés du site, donc j'ai créé un nouveau bloc en haut à droite de la page d'accueil[^3] :
 
-{% respimg "gp_feedburner.png", page %}
+![](gp_feedburner.png)
 
 Donc si vous êtes allergique au RSS, voilà un nouveau moyen de ne plus manquer les mises à jour du site.
 

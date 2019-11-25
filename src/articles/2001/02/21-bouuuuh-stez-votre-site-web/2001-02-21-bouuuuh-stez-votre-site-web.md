@@ -8,4 +8,4 @@ La technologie INA (Intelligent Network Acceleration) de [BoostWorks](http://www
 
 C'est peut-être un peu trop sophistiqué du coup, parce que vous verrez sur la copie d'écran ci-dessous que AlloCiné aurait peut-être dû tester avant d'approuver…
 
-{% respimg "error-504.jpg", page %}
+![](error-504.jpg)

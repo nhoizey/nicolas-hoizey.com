@@ -10,7 +10,7 @@ J'ai donc fait du ménage pour ne garder que deux collections complémentaires b
 
 Quand j'ai voulu supprimer une collection, voilà l'écran que Mozilla m'a montré pour demander confirmation de cette suppression :
 
-{% respimg "mozilla-addons-suppression-ko.png", page %}
+![](mozilla-addons-suppression-ko.png)
 
 Ces points me paraissent mauvais en termes d'ergonomie :
 
@@ -25,7 +25,7 @@ Voici ce que je propose rapidement[^3] comme solution plus ergonomique :
 
 [^3]: Merci Firebug !
 
-{% respimg "mozilla-addons-suppression-ok.png", page %}
+![](mozilla-addons-suppression-ok.png)
 
 Qu'en dites-vous ?
 

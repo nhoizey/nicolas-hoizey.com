@@ -13,7 +13,7 @@ Par contre, ce qui est à mon avis inadmissible de la part d'un tel acteur majeu
 
 La preuve en image :
 
-{% respimg "doc-136.png", "Yahoo! fait du zèle", page %}
+![](doc-136.png){caption="Yahoo! fait du zèle"}
 
 
 Yahoo! a des problèmes de base de données qui ne répond pas, et ils ont le toupet de tout de même demander à l'utilisateur s'il est bien sûr d'avoir correctement taper son mot de passe, dingue !

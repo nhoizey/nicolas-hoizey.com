@@ -13,7 +13,7 @@ Et loin de l'austérité des chats traditionnels (comme [phpMyChat](http://phpmy
 
 Un bon exemple d'univers ainsi créé est l'hôtel [Habbo](http://www.habbohotel.com/), qui dispose de nombreux salons, des salles de jeux (poker, echecs, bataille navale,…), une discothèque, des bars…
 
-{% respimg "habbo-hotel.jpg", page %}
+![](habbo-hotel.jpg)
 
 Le tout est réalisé en Shockwave, avec un graphisme très "hype" tout en diagonales.
 

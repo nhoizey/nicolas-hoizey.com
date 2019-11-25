@@ -8,7 +8,7 @@ Sur son site déjà récemment revu, le célèbre magazine [Photo](http://www.ph
 
 Voilà à quoi ressemble cette petite zone de la page d'accueil :
 
-{% respimg "photo-fr-form-mail.png", page %}
+![](photo-fr-form-mail.png)
 
 C'est beau, bien dans le style du site, mais ça ne fait rien.
 
@@ -16,7 +16,7 @@ J'ai découvert cela en navigant avec Safari sur mon iPhone, mais trouvant cela 
 
 En regardant le code source[^1], j'ai découvert qu'il n'y a tout simplement pas de formulaire déclaré — vous savez, la balise `<form>` — donc pas étonnant que les deux `<input />` du champ de saisie et du bouton ne donnent rien, ils ne peuvent pas deviner quelle est l'`action` à réaliser :
 
-{% respimg "photo-fr-form-mail-code.png", page %}
+![](photo-fr-form-mail-code.png)
 
 Vous noterez au passage la délicieuse intrusion de code JavaScript en ligne directement dans l'`input`, pas accessible du tout…
 

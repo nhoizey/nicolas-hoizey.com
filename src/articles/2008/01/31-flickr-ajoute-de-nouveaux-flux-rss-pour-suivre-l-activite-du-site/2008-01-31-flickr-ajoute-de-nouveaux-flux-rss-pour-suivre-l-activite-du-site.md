@@ -14,7 +14,7 @@ C'est un flux que je demandais depuis déjà pas mal de temps, au point de lance
 
 Ce flux est donc maintenant proposé directement par Flickr, au même endroit sur la page que tout les autres, en bas à gauche :
 
-{% respimg "rss-favoris-flickr.png", page %}
+![](rss-favoris-flickr.png)
 
 Vous pouvez donc vous abonner au [flux RSS](http://api.flickr.com/services/feeds/photos_faves.gne?nsid=38608514@N00&lang=en-us&format=rss_200) de [mes favoris](https://flickr.com/photos/nicolas-hoizey/favorites/), si vous le souhaitez, qui correspond en fait aux photos que je montre comme inspirations sur ce site.
 

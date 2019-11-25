@@ -7,4 +7,4 @@ tags:       [fun, computer]
 
 Nerd confirmé, vous vous nourrissez uniquement de pizzas livrées à domicile ? Alors conservez les boîtes et faites-en des [serveurs](http://www.jrcs.co.uk/Free_Stuff.html) !!!
 
-{% respimg "art37-1.jpg", "image 646 x 583", page %}
+![](art37-1.jpg){caption="image 646 x 583"}

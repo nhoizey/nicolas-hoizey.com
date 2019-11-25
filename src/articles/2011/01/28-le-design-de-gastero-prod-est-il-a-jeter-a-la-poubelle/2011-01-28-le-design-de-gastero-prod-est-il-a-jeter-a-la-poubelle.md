@@ -8,7 +8,7 @@ Alarmé par certains commentaires faits sur Twitter par des personnes dont l'avi
 
 [^1]: Sinon je ne les suivrais pas sur Twitter…
 
-{% respimg "gastero-prod-2008.png", "Le design du site Gastero Prod entre 2008 et 2011", page %}
+![](gastero-prod-2008.png){caption="Le design du site Gastero Prod entre 2008 et 2011"}
 
 Ça a commencé par [@glazou](http://twitter.com/glazou) qui indiquait qu'il se «[ser(t) de plus en plus de l'extension Readability dans Firefox](http://twitter.com/glazou/statuses/30925819798884352)»[^1], rejoint par [@edasfr](http://twitter.com/edasfr) qui ajoutait que «[les gens font plus attention au joli qu'au lisible, ce qui est quand même étrange](http://twitter.com/edasfr/statuses/30926641555308544)».
 

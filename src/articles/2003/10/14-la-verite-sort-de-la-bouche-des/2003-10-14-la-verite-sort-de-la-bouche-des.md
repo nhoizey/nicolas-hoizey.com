@@ -17,7 +17,7 @@ C'est très simple, suivez ces quelques instructions :
 
 Si vous me faites confiance, regardez juste ci-après :
 
-{% respimg "houra_vibro.png", "Recherche d'un vibromasseur chez Houra.fr…. Cliquez pour voir la copie d'écran complète", page %}
+![](houra_vibro.png){caption="Recherche d'un vibromasseur chez Houra.fr…. Cliquez pour voir la copie d'écran complète"}
 
 
 Et le meilleur dans tout ça, c'est qu'on nous apprend que «les possibilités d'utilisation de la carotte sont presque illimitées».

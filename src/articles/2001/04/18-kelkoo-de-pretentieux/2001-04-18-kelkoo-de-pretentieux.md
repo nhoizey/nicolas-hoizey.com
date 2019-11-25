@@ -7,7 +7,7 @@ tags:       [society, fail]
 
 Voilà que les startupiens de tous poils (dont [Kelkoo](http://fr.kelkoo.com/), il suffit de voir les sponsors et pubs), s'inventent des remords et veulent (nous faire) croire qu'ils ont une âme.
 
-{% respimg "antisinistrose.jpg", page %}
+![](antisinistrose.jpg)
 
 Non contents de nous bouffer les Actualités avec leurs petits crachs boursiers à répétition, ils viennent de créer un site nombriliste pour combattre la "[sinistrose](http://www.antisinistrose.com/)" qui risquerait d'avoir une mauvaise influence sur les marchés financiers.
 

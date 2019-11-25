@@ -7,7 +7,7 @@ tags:       [fail, UX]
 A priori, avant même de penser à ses contenus et à leur présentation, il n'est pas franchement difficile de suivre quelques règles simples d'[ergonomie](http://www.clever-age.com/metiers/formations/mise-en-oeuvre/usabilite-accessibilite-et-outils-de-gestion-de-contenus-web.html) pour assurer à l'internaute une navigation aisée et donc une satisfaction minimale. C'est pourtant trop souvent qu'un site propose une ergonomie bâclée, gênante, voire même parfois bloquante…
 
 
-{% respimg "logo_cashstore.png", page %}
+![](logo_cashstore.png)
 
 Même si j'ai [déjà évoqué](/2005/04/un-probleme-d-ergonomie-chez-les-petits-swiss.html) par le passé des erreurs d'ergonomie rencontrées sur le Web[^1], j'ai décidé de lancer avec cet article une nouvelle série à épisodes pour mettre en évidence de telles erreurs, en espérant que ceux qui me lisent puissent en profiter[^2].
 
@@ -17,7 +17,7 @@ Sur le [formulaire d'inscription](https://www.cashstore.fr/signup/signup1.aspx),
 
 Je pinaille sans doute un peu, mais jugez par vous-même de l'ergonomie de cette partie du formulaire :
 
-{% respimg "Image_2.png", "Saisie de la date de naissance. On ne voit qu'un chiffre pour le jour et le mois de naissance, pas très ergonomique !", page %}
+![](Image_2.png){caption="Saisie de la date de naissance. On ne voit qu'un chiffre pour le jour et le mois de naissance, pas très ergonomique !"}
 
 
 Il n'était sans doute pas compliqué de rendre visibles tous les chiffres du jour et du mois de naissance, mais cela n'a visiblement pas été testé ou jugé nécessaire.

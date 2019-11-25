@@ -8,7 +8,7 @@ Après plusieurs années passées à utiliser un Uploadr 2 très spartiate, voic
 
 Auparavant, il fallait *uploader* tel quel, et passer ensuite en interface web pour renommer, ajouter des tags, etc. Très laborieux. C'est maintenant beaucoup plus ergonomique !
 
-{% respimg "Flickr_Uploadr_3.png", "Flickr Uploadr 3", page %}
+![](Flickr_Uploadr_3.png){caption="Flickr Uploadr 3"}
 
 Flickr en profite pour passer le logiciel sous licence libre GNU/GPL 2, ce qui devrait permettre aux développeurs de l'étendre, par exemple à d'autres services comme [23hq](/2005/09/23-un-remplacant-potentiel-de-flickr.html), [Zooomr](http://www.zooomr.com/) ou [ipernity](http://www.ipernity.com/), qui ont des [API](https://www.flickr.com/services/) très proches si ce n'est identiques.
 

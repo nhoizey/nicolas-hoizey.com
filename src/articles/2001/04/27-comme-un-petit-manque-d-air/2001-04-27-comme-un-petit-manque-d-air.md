@@ -8,7 +8,7 @@ Vendredi 27 avril 2001, l'Élysée Montmartre. Avec un certain retard, sans prem
 
 Tout de suite, sans un mot, les lumières commencent à s'agiter et le son à monter sur les mélodies lancinantes bien connues, un zest appuyé de Pink Floyd jonglant avec les voix vocodées et surtout une basse étincelante qui est au centre de la scène et de la musique. Une basse tenue par un Jason Falkner qui nous offrira même un délire de géniale saturation comme on n'en entend habituellement que provenant d'une guitare.
 
-{% respimg "air-en-concert.jpg", page %}
+![](air-en-concert.jpg)
 
 En bref, la musique est géniale, correspond à ce que chacun devait attendre.
 

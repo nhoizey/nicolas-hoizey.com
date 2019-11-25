@@ -8,7 +8,7 @@ A l'heure où le contenu et les services sont (enfin) redevenus rois, pouvoir en
 
 Ainsi, par exemple, [DealPartners](http://www.dealpartners.com/fr/) fourni des boutiques électroniques clef en main. La seule chose à faire est de "looker" quelque peu le service pour qu'il s'intègre le mieux possible au site existant.
 
-{% respimg "tous-les-memes.gif", "Tous les mêmes", "onehalf", page %}
+![](tous-les-memes.gif){.onehalf caption="Tous les mêmes"}
 
 Vous pouvez ainsi acheter exactement la même PlayStation 2 (de [Sony](http://fr.scee.com/), est-il utile de le préciser) chez [M6](http://www.dealpartners.com/m6fr/fiche.cfm?produit_id=1628&cat_id=195), [Surf'N Buy](http://www.dealpartners.com/freesurf/fiche.cfm?produit_id=1628&cat_id=195) (FreeSurf), [UnionDream](http://www.uniondream.com/FR_FR/fiche.cfm?produit_id=1628&cat_id=195) ou [Clust](http://www.clust.com/fiche.cfm?produit_id=1628&cat_id=195). Vous remarquerez quand même que le prix est plus élevé qu'en boutique traditionnelle, et qu'il y a en plus des frais de port.
 

@@ -18,17 +18,17 @@ Le nouveau code du site est constitué de contenus structurés en [XHTML 1.0](ht
 
 Cela permet notamment d'être sûr que ceux qui ne peuvent pas  (ou ne veulent pas) exploiter les feuilles de style, peuvent tout de même consulter le site sans problème :
 
-{% respimg "gp4_aucun_style.png", "Sans feuille de style. Affichage dans Mozilla Firebird avec la feuille de styles désactivée", page %}
+![](gp4_aucun_style.png){caption="Sans feuille de style. Affichage dans Mozilla Firebird avec la feuille de styles désactivée"}
 
-{% respimg "gp4_lynx.png", "En mode texte. Affichage dans Lynx, navigateur en mode texte", page %}
+![](gp4_lynx.png){caption="En mode texte. Affichage dans Lynx, navigateur en mode texte"}
 
 Mais cela n'empêche pas pour autant ceux qui en ont la capacité de profiter d'un site avec une identité graphique qui lui est propre et qui n'est pas forcément la plus minimale qui soit :
 
-{% respimg "gp4_normal.png", "Normal. Affichage dans Mozilla Firebird avec la feuille de style", page %}
+![](gp4_normal.png){caption="Normal. Affichage dans Mozilla Firebird avec la feuille de style"}
 
 Enfin, qui dit graphisme ne signifie pas forcément contrainte sur les tailles de tous les éléments, il est tout à fait possible de laisser le choix à l'utilisateur de sa taille de police par défaut.
 
-{% respimg "gp4_big.png", "En caractères agrandis. Affichage dans Mozilla Firebird avec une taille de police supérieure et des colonnes ajustées en conséquence", page %}
+![](gp4_big.png){caption="En caractères agrandis. Affichage dans Mozilla Firebird avec une taille de police supérieure et des colonnes ajustées en conséquence"}
 
 ## Un peu d'usabilité
 

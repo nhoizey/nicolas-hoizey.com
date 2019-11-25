@@ -13,12 +13,12 @@ Exemple avec le logo Gastero Prod et les mots « Gastero Prod » et « Nicolas H
 
 Voici l'original du logo :
 
-{% respimg "logo-gastero-prod.png", page %}
+![](logo-gastero-prod.png)
 
 
 Et le résultat de Textorizer, normalement obtenu en SVG, mais ici transformé en PNG sans transparence[^1] :
 
-{% respimg "Gastero_Prod_textorized.png", page %}
+![](Gastero_Prod_textorized.png)
 
 
 J'ai obtenu ce résultat à l'aide de la [version en ligne de Textorizer](http://textorizer.whatfettle.com/) et [ces paramètres](http://textorizer.whatfettle.com/?image=http%3A%2F%2Fwww.gasteroprod.com%2Fdesign%2Fimages%2Fgp-titre-trans.png&text=Gastero%0D%0AProd%0D%0ANicolas%0D%0AHoizey&nstrokes=1000&threshold=10&width=800&height=200), mais il existe aussi une [version Java de Textorizer](http://lapin-bleu.net/software/textorizer/textorizer1_2/) à installer en local.

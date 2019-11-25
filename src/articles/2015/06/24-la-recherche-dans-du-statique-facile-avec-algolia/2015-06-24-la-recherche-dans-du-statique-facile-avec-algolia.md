@@ -6,7 +6,7 @@ tags:  [JAMstack, search, Algolia]
 
 Un des soucis avec un site statique tel que celui-ci, c'est que par définition il rend compliquée la mise en œuvre de fonctionnalités habituellement dynamiques. Les commentaires viennent immédiatement à l'esprit, et seront évoqués ultérieurement, mais la mise en place d'un moteur de recherche interne n'est pas plus simple. Heureusement, Algolia est là.
 
-{% respimg "/assets/logos/algolia.png", "Le logo de Algolia", "logo", page %}
+![](/assets/logos/algolia.png){.logo caption="Le logo de Algolia"}
 
 Avant de découvrir les pistes envisagées et ce que j'aime dans Algolia, [allez donc tester par vous-même](/search.html) et/ou regardez ce petit screencast fait pour l'occasion :
 
@@ -20,7 +20,7 @@ Avec un site statique, il existe trois possibilités :
 
 # Un moteur de recherche côté serveur
 
-{% respimg "/assets/logos/apache-solr.png", "Le logo de Apache Solr", "logo", page %}
+![](/assets/logos/apache-solr.png){.logo caption="Le logo de Apache Solr"}
 
 Ce n'est pas parce que le site est statique qu'il est impossible de déployer une solution dynamique côté serveur, telle que [Solr](http://lucene.apache.org/solr/), « à côté » des pages.
 
@@ -50,7 +50,7 @@ De plus, l'indexation est plein texte, sans vraiment de paramétrage possible, c
 
 ## Algolia
 
-{% respimg "/assets/logos/algolia.png", "Le logo de Algolia", "logo", page %}
+![](/assets/logos/algolia.png){.logo caption="Le logo de Algolia"}
 
 C'est alors que j'ai entendu parler[^vvo] d'[Algolia](https://www.algolia.com/), un moteur de recherche en mode SaaS intégralement pilotable par une [API REST](https://www.algolia.com/doc/rest_api) extrêmement riche, et pour laquelle de [très nombreux clients](https://www.algolia.com/doc/apiclients) et [intégrations](https://www.algolia.com/doc/integrations) sont déjà proposés de base.
 
@@ -64,9 +64,9 @@ Algolia est bluffant à plus d'un titre :
 * nombreux paramètres de configuration activables dans l'interface et surchargeables via l'API
 * et enfin, performance incroyable, avec des temps de réponse extrêmement faibles permettant une expérience utilisateur optimale, que ce soit en mode [suggestion de recherche](https://www.algolia.com/doc/tutorials/auto-complete) ou [résultats instantanés](https://www.algolia.com/doc/tutorials/instant-search)
 
-{% respimg "algolia-dashboard-overview.jpg", "Le tableau de bord Algolia : un point de vue rapide sur l'état de l'indexation et des recherches.", page %}
+![](algolia-dashboard-overview.jpg){caption="Le tableau de bord Algolia : un point de vue rapide sur l'état de l'indexation et des recherches."}
 
-{% respimg "algolia-dashboard-response-times.jpg", "Le suivi des temps de réponse de l'API. Oui, l'échelle est en millisecondes !", page %}
+![](algolia-dashboard-response-times.jpg){caption="Le suivi des temps de réponse de l'API. Oui, l'échelle est en millisecondes !"}
 
 [Ma mise en œuvre](https://github.com/nhoizey/nicolas-hoizey.com/blob/master/search.html) n'est sans doute pas parfaite techniquement, mais j'y suis arrivé assez simplement grâce aux tutoriels proposés et à l'aide rapide et efficace obtenue via Twitter en cas de blocage, donc c'est à la portée de tout le monde !
 

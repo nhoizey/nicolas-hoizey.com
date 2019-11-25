@@ -10,7 +10,7 @@ Nous sommes très nombreux à utiliser [Mozilla Firefox](http://www.mozilla-euro
 
 Voilà donc enfin la sortie tant attendue de la version 1.0 !
 
-{% respimg "firefox_rediscover.png", page %}
+![](firefox_rediscover.png)
 
 
 Mozilla Firefox, c'est notamment un navigateur qui respecte mieux [les standards du Web](/tags/web.html) et est sujet à moins de [bugs](/tags/bug.html)[^t1], et il vous permet en plus de voir un [Gastero Prod](http://www.gasteroprod.com/) plus joli qu'avec Internet Explorer.

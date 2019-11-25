@@ -8,7 +8,7 @@ Histoire d'illustrer le jeu de mots qui donne son nom à ce site, il fallait un 
 
 C'est chose faite grâce à ce cyber-escargot dessiné par Cyril Rousselet, un ami graphiste indépendant.
 
-{% respimg "escargot.png", page %}
+![](escargot.png)
 
 Vous pourrez notamment retrouver ses oeuvres sur [Funktrip](http://www.funktrip.com/), le "cellular e-zine" à la vie duquel il participe.
 

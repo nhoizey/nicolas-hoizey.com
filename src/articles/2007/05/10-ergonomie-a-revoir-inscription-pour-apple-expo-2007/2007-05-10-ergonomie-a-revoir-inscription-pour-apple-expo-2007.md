@@ -11,14 +11,14 @@ Je passe sur le fait qu'on soit obligé de s'inscrire dans un formulaire en angl
 
 Par contre, il semble que Apple ou Reed -- l'organisateur -- a des difficultés à parler d'argent, quand on voit qu'à la question de savoir combien on pense dépenser lors de l'Apple Expo, on nous propose de répondre par « oui » ou « non » !
 
-{% respimg "Apple_Expo_-_yes_or_no.png", "Un choix difficile", page %}
+![](Apple_Expo_-_yes_or_no.png){caption="Un choix difficile"}
 
 
 Choix difficile s'il en est…
 
 Mais ce n'est pas la seule erreur de ce formulaire, puisqu'on nous pose aussi deux fois la même question à propos du budget moyen annuel pour les dépenses informatiques !
 
-{% respimg "Apple_Expo_-_How_much.png", "Combien ? OK, mais combien ?", page %}
+![](Apple_Expo_-_How_much.png){caption="Combien ? OK, mais combien ?"}
 
 
 Ca a l'air bien difficile de faire des formulaires Web de nos jours…

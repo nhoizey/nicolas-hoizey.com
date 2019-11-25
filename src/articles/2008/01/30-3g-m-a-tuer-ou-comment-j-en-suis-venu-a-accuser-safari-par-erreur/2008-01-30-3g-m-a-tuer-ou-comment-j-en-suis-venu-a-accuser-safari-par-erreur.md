@@ -10,17 +10,17 @@ Utilisateur habituellement de Mozilla Firefox, j'ai lancé Safari pour tester Gr
 
 Voici par exemple le rendu sous Firefox :
 
-{% respimg "firefox-couleurs.png", "Un joli dégradé dans Firefox", page %}
+![](firefox-couleurs.png){caption="Un joli dégradé dans Firefox"}
 
 Et celui sous Safari :
 
-{% respimg "safari-couleurs.png", "Un dégradé horrible dans Safari", page %}
+![](safari-couleurs.png){caption="Un dégradé horrible dans Safari"}
 
 Plus en détail, voilà ce que ça donne :
 
-{% respimg "firefox-couleurs-zoom.png", "Détail dans Firefox", "onehalf", page %}
+![](firefox-couleurs-zoom.png){.onehalf caption="Détail dans Firefox"}
 
-{% respimg "safari-couleurs-zoom.png", "Détail dans Safari", "onehalf", page %}
+![](safari-couleurs-zoom.png){.onehalf caption="Détail dans Safari"}
 
 ## L'enquête
 

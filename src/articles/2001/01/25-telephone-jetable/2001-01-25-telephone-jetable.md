@@ -8,4 +8,4 @@ Grace à sa Super Thin Technology (STT), [Dieceland](http://www.dtcproducts.com/
 
 Notez que c'est une femme, Randi Altschul, qui a déposé son brevet en 1999, et que cela semble étonner les journalistes. Ainsi, [Ananova](http://www.ananova.com/news/story/sm_89877.html) débute son article par "A female US inventor has created a new kind of mobile", l'air de dire qu'il fallait bien une femme pour faire une telle invention. C'est étrange, je n'ai jamais vu d'article commençant par "A male" sauf en zoologie…
 
-{% respimg "dieceland-phone.jpg", page %}
+![](dieceland-phone.jpg)

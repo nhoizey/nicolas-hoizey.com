@@ -11,4 +11,4 @@ Les informations sont plus que nombreuses et la réalisation est splendide.
 
 Un must !!!
 
-{% respimg "les-mysterieuses-cites-d-or.jpg", page %}
+![](les-mysterieuses-cites-d-or.jpg)

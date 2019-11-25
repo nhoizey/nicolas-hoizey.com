@@ -13,7 +13,7 @@ Maintenant, passez à la reconnaissance de formes et couleurs avec retrievr !
 
 Dessinez simplement une forme avec différentes couleurs et tailles de pinceau, à la manière d'un *paint* basique, et lancez la recherche :
 
-{% respimg "retrievr.png", "Cherchons un coucher de soleil avec retrievr…", page %}
+![](retrievr.png){caption="Cherchons un coucher de soleil avec retrievr…"}
 
 
 Le résultat n'est pas toujours totalement cohérent, mais globalement ça marche très bien, c'est très impressionnant.

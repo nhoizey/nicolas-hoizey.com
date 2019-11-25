@@ -8,6 +8,6 @@ Tout comme Daniel Martinez Lara dont je vous parlais dans [une autre news](/2001
 
 L'histoire est celle d'un grain de riz Samuraï qui doit retrouver un sabre qui a été volé. Cette histoire est surtout un prétexte des créateurs pour réaliser une scène de combat d'arts martiaux époustouflante.
 
-{% respimg "samurice.jpg", page %}
+![](samurice.jpg)
 
 Préparez votre connexion, y'en a pour 22Mo de DivX à downloader…

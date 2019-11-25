@@ -11,7 +11,7 @@ Le dernier exemple en date est la page d'accueil de [Clio Renault Sport](http://
 
 Sauf que c'est une liste de pays et non de langues que l'on nous propose !
 
-{% respimg "renault-clio-sport-choix-langue.png", page %}
+![](renault-clio-sport-choix-langue.png)
 
 
 Je comprends bien que les différents pays -- même quand ils utilisent la même langue -- ne proposent pas forcément les mêmes modèles de voitures, ou même ne serait-ce que les mêmes dénominations, mais dans ce cas pourquoi proposer de choisir une langue et non un pays ?

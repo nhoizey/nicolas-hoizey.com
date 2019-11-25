@@ -15,19 +15,19 @@ Mais cette nouvelle preuve de l'ethnocentrisme de la blogosphère francophone[^5
 
 Que mon premier site perso, dont la [Wayback Machine](http://web.archive.org/) de [archive.org](http://www.archive.org/) retrouve la plus vieille trace au [7 mai 1997](http://web.archive.org/web/19970507012424/http://www.eisti.fr/~brush/)[^6] ne puisse pas être considéré comme un blog, sachant qu'il n'y avait effectivement rien d'un journal chronologique là-dedans[^7], je veux bien. La seule partie chronologique était en fait mon -- lapidaire -- [journal d'un cinéphage](http://web.archive.org/web/19970730195347/www.eisti.fr/~brush/CINEMA/Sceances/), qui me permet surtout de voir jusqu'à quel point mes goûts cinématographiques ont évolué, pas franchement la matière suffisante pour un blog.
 
-{% respimg "site-perso-1997.png", "Mon site perso en 1997", page %}
+![](site-perso-1997.png){caption="Mon site perso en 1997"}
 
 
 Mais on peut sans doute dire que la première version de Gastero Prod, lancée sur l'hébergement gratuit de Free fin 1999 à l'adresse [gasteroprod.free.fr](http://gasteroprod.free.fr/) était un blog, sachant qu'il s'agissait d'une liste anté chronologique d'articles regroupés dans des thèmes, non ? La Wayback Machine n'en a malheureusement aucune trace, il faut attendre le passage sur le domaine dédié [gasteroprod.com](http://www.gasteroprod.com/) pour qu'elle commence a en avoir une trace le [20 février 2001](http://web.archive.org/web/20010220195335/http://www.gasteroprod.com/).
 
-{% respimg "gastero-prod-2001.png", "Gastero Prod en 2001", page %}
+![](gastero-prod-2001.png){caption="Gastero Prod en 2001"}
 
 
 C'est donc vers fin 1999 que mon « site perso » est devenu un « blog », soit[^8].
 
 Sur la dernière version du site, j'ai ajouté des photos et des liens, et j'envisage prochainement d'ajouter une nouvelle rubrique « projets » pour mettre en avant certaines de mes réalisations en tous genres, donc peut-on encore parler d'un blog ?
 
-{% respimg "gastero-prod-2008.png", "Gastero Prod en 2008", page %}
+![](gastero-prod-2008.png){caption="Gastero Prod en 2008"}
 
 
 Bon, de toute façon on voit bien que des dinoblogueurs bien moins anciens que moi sont plus consultés, et à raison, donc à quoi bon lutter… ;-)

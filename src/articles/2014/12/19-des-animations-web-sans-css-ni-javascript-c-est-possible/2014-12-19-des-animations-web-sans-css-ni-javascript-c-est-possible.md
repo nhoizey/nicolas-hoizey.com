@@ -10,7 +10,7 @@ J'avais déjà vu SMIL plusieurs fois avant, mais j'ai découvert sa puissance a
 
 Si vous ne l'avez pas encore vue, il s'agit d'une animation, en SVG complètement scriptée en SMIL, qui parle des Super Héros du Web, et elle est heureusement encore visible [sur son blog](http://jeremie.patonnier.net/post/2011/10/18/Paris-Web-2011-%3A-SVG-et-Typographie).
 
-{% respimg "jeremie-patonnier-svg-smil.png", "« W3C Sentaï Team » par Jérémie Patonnier avec des illustrations de Corinne Massacry", page %}
+![](jeremie-patonnier-svg-smil.png){caption="« W3C Sentaï Team » par Jérémie Patonnier avec des illustrations de Corinne Massacry"}
 
 En moins de 5 minutes, Jérémie m'a motivé à développer en technologies Web standards un jeu que j'avais inventé en 1992, codé à l'époque en [Reverse Polish LISP](http://fr.wikipedia.org/wiki/RPL) sur calculette graphique HP 48.
 

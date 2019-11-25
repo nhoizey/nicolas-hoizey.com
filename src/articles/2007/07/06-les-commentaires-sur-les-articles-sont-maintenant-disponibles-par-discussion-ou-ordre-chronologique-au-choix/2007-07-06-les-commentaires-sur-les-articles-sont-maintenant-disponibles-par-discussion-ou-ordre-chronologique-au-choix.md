@@ -13,7 +13,7 @@ Je suis plutôt de la seconde catégorie, et ça tombe bien parce que SPIP le pe
 
 Maintenant, si vous avez JavaScript activé, vous allez pouvoir choisir vous-même comment vous souhaitez lire les commentaires !
 
-{% respimg "Image_1.png", page %}
+![](Image_1.png)
 
 
 Tout cela est rendu possible par la librairie JavaScript magique [jQuery](http://www.jquery.com/), qui me permet d'ajouter ce fonctionnement de manière non intrusive en Ajax.

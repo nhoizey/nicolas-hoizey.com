@@ -4,7 +4,7 @@ layout: page
 lang: en
 ---
 
-{% respimg "/assets/photo-de-nicolas-hoizey.jpg", "Portrait of Nicolas Hoizey", "logo", page %}
+![](/assets/photo-de-nicolas-hoizey.jpg){.logo caption="Portrait of Nicolas Hoizey"}
 
 I am passionate about **the Web and photography**, among many other interests.
 

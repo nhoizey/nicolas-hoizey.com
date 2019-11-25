@@ -31,7 +31,7 @@ Il existe deux moyens de voter pour des photos avec flickRate, tous deux présen
 
 Le premier moyen est assez traditionnel, il s'agit d'un bookmarklet qui ouvre une popup de vote.
 
-{% respimg "flickrate_bookmarklet.jpg", "Voter dans une popup. Popup ouverte par le bookmarklet flickRate depuis une page de photo", page %}
+![](flickrate_bookmarklet.jpg){caption="Voter dans une popup. Popup ouverte par le bookmarklet flickRate depuis une page de photo"}
 
 
 Ce bookmarklet est normalement utilisable avec tous les navigateurs, mais n'hésitez pas à signaler si ce n'est pas le cas.
@@ -44,7 +44,7 @@ Il existe [des tonnes](http://blogmarks.net/tag/greasemonkey) de [scripts Grease
 
 Pour faire simple, dans le cas de flickRate, cela permet d'afficher l'interface de vote de flickRate directement sous les photos dans les pages de Flickr !
 
-{% respimg "flickrate_greasemonkey.jpg", "flickRate intégré à Flickr. Grâce à Greasemonkey, l'interface de vote de flickRate est intégrée à Flickr !", page %}
+![](flickrate_greasemonkey.jpg){caption="flickRate intégré à Flickr. Grâce à Greasemonkey, l'interface de vote de flickRate est intégrée à Flickr !"}
 
 
 Ce script Greasemonkey a aussi été [compilé](http://www.letitblog.com/greasemonkey-compiler/) sous forme d'une extension Firefox, si vous ne souhaitez pas installer l'extension Greasemonkey.
@@ -54,7 +54,7 @@ Ce script Greasemonkey a aussi été [compilé](http://www.letitblog.com/greasem
 
 La navigation dans flickRate permet de voir quelles sont les photos les mieux classées selon les trois critères, et même de restreindre la visualisation à une période calendaire donnée, voir à [ses propres votes](http://flickrate.gasteroprod.com/browse.php?nb=32&who=you&when=all&criteria=aesthetics) ou [uniquement ceux des autres](http://flickrate.gasteroprod.com/browse.php?nb=32&who=others&when=all&criteria=aesthetics).
 
-{% respimg "flickrate_browse.jpg", "Navigation dans flickRate. Les options de filtre et tri sont nombreuses dans flickRate pour naviguer selon ses propres intérêts", page %}
+![](flickrate_browse.jpg){caption="Navigation dans flickRate. Les options de filtre et tri sont nombreuses dans flickRate pour naviguer selon ses propres intérêts"}
 
 
 Afin de récolter les remarques des utilisateurs et discuter des évolutions de flickRate, j'ai créé un [groupe flickRate](https://www.flickr.com/groups/flickrate/) sur Flickr.

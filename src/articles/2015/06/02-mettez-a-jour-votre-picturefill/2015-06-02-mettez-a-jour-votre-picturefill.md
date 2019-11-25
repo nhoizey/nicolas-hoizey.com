@@ -6,7 +6,7 @@ tags:       [RWD, image]
 
 Si vous êtes un peu à jour dans vos développements responsives, vous avez adopté [le dernier standard pour les images](http://responsiveimages.org/) —`srcset`, `sizes` et éventuellement `picture`— et bien entendu l'excellent polyfill [Picturefill](https://scottjehl.github.io/picturefill/) qui apporte cette révolution à tous les navigateurs qui n'en disposent pas encore nativement. Si vous n'utilisez pas encore la [version 2.3.1](https://github.com/scottjehl/picturefill/releases/tag/2.3.1), [la dernière stable](https://github.com/scottjehl/picturefill/releases) à cet instant, **dépêchez-vous de faire la mise à jour !**
 
-{% respimg "/assets/logos/ricg.png", "logo", page %}
+![](/assets/logos/ricg.png){.logo}
 
 Si vous ne mettez pas à jour, les personnes qui visiteront votre site avec les dernières versions de développement de webkit[^nightly] ou Microsoft Edge[^edge] ne verront tout simplement aucune image.
 

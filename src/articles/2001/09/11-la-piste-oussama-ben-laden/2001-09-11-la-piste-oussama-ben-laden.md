@@ -8,7 +8,7 @@ tags:       [society, media, TV]
 
 Que ce soient des responsables américains (sous couvert d'anonymat) ou des journalistes, ceux qui forgent l'opinion public occidental semblent majoritairement d'accord pour dire que Oussama Ben Laden est le responsable de ces attentats d'une échelle inégalée.
 
-{% respimg "oussama-ben-laden.jpg", "Oussama Ben Laden", "onethird", page %}
+![](oussama-ben-laden.jpg){.onethird caption="Oussama Ben Laden"}
 
 Oussama Ben Laden est un milliardaire saoudien exilé en Afghanistan. Il est considéré comme l'un des terroristes les plus importants dans le monde, au point de faire partie du ["top ten" des personnes recherchées le plus activement par le FBI](http://www.fbi.gov/wanted/topten). Il aurait notamment été lié à l'attentat qui avait déjà eu le World Trade Center pour cible en 1993. Il aurait été formé aux techniques utilisées par les commandos d'élite et les terroristes par l'armée saoudienne et au moins en partie par la CIA.
 

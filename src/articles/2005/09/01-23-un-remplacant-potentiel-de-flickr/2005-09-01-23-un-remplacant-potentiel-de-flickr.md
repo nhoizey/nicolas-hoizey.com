@@ -11,7 +11,7 @@ Avec la logique décision prise par [Flickr](https://flickr.com/)[^1] de [lier l
 
 Personnellement, je ne me sens pas trop menacé par la fusion des comptes de Flickr et Yahoo, j'ai déjà les deux depuis longtemps, et cela ne changera à priori rien à l'usage que je fais de l'un et de l'autre. Le rachat de Flickr par Yahoo est même à priori une bonne opportunité pour Flickr d'avoir les financements nécessaires pour améliorer sa qualité de service et développer de nouvelles fonctionnalités.
 
-{% respimg "23hq.png", page %}
+![](23hq.png)
 
 
 [23](http://www.23hq.com/), un nouvel acteur du domaine, est une alternative possible pour ces futurs ex, et semble avoir bien copié sur Flickr toutes les fonctionnalités qui en ont fait le succès. Malheureusement, il ne marche pas. L'inscription se passe bien, [oui](http://www.23hq.com/nhoizey), mais ensuite, ce n'est que bug sur bug, et il est très difficile d'uploader une photo. Je n'ai réussi qu'au bout de 4 essais, aucun message d'erreur explicite n'ayant été fourni pour expliquer l'échec… Certains éléments d'interfaces sont de plus bien mal présentés, et on ne trouve pas tout de suite les éléments qui semblent pourtant évidents.

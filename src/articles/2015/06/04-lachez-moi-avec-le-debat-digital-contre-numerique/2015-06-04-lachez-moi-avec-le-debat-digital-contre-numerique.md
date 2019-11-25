@@ -6,7 +6,7 @@ tags:       [vocabulary]
 
 Je travaille dans le digital. J'ai même co-fondé un « [assembleur de cocktails digitaux 100% indépendant](http://clever-age.com) », c'est dire. Et vous ne me ferez pas dire de sitôt que je travaille dans le numérique.
 
-{% respimg "digital-vs-numerique.jpg", page %}
+![](digital-vs-numerique.jpg)
 
 Si je disais que je travaille dans le numérique, la plupart de mes clients ne me comprendraient pas, ils sont habitués au terme « digital » depuis trop longtemps. Beaucoup sont des entreprises avec des activités à l'international, ça joue sans doute.
 

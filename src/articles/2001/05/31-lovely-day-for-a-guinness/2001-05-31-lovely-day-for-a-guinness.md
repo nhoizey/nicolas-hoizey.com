@@ -21,4 +21,4 @@ Mais si Paris ne vous convient pas, découvrez dans le [Guinness Storehouse](htt
 
 Et si vous n'aimez pas la Guinness, vous pouvez toujours voir avec [Michael Jackson](http://www.beerhunter.com/) ce qu'il en pense…
 
-{% respimg "guinness.png", page %}
+![](guinness.png)

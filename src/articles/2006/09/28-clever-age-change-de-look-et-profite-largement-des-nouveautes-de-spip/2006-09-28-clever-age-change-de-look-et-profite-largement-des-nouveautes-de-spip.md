@@ -11,7 +11,7 @@ Pour fêter dignement ses 5 ans[^1], [Clever Age](http://www.clever-age.com/) ch
 
 … et en profite pour abandonner [SPIP-Agora](http://spip-agora.clever-age.org/) au profit du récent et de plus en plus génial[^1] [SPIP](http://www.spip.net/) !
 
-{% respimg "clever-age.com-v3.png", page %}
+![](clever-age.com-v3.png)
 
 
 Merci à [Julien De Luca](http://www.jide.fr/) pour ce splendide design et à Thomas pour son intégration.

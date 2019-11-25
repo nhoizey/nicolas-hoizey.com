@@ -7,7 +7,7 @@ tags:       [photography]
 
 Créatrice de mode, la française [Nicole Tran Ba Vang](http://www.tranbavang.com/) s'interroge sur la fonction du vêtement en présentant ses collections virtuelles d'habits de nudité.
 
-{% respimg "nicole-tran-ba-vang.jpg", page %}
+![](nicole-tran-ba-vang.jpg)
 
 Réalisée avec Photoshop à partir de photos de mannequins, son oeuvre est un troublant mélange de trompes l'oeil où la frontière entre le corps et l'habit s'estompe imperceptiblement, ce dernier étant lui-même une représentation de la nudité qu'il est censé cacher.
 

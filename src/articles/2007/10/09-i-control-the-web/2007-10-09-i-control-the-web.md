@@ -6,4 +6,4 @@ tags:       [macro]
 
 On se fait une toile ?
 
-{% respimg "I-control-the-web.jpg", page %}
+![](I-control-the-web.jpg)

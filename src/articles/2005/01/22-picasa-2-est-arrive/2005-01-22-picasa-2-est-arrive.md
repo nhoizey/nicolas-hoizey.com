@@ -12,13 +12,13 @@ Au menu des améliorations de cette tout autant gratuite version 2, pas mal de c
 
 Pour découvrir toutes les fonctionnalités offertes, je vous invite à aller voir directement sur [le site de Picasa](http://www.picasa.com/), mais voici déjà un apperçu de quelques fonctionnalités :
 
-{% respimg "picasa2_browse.png", "Navigation dans la photothèque. La navigation dans les vignettes des photos est aisée, et le dimensionnent de ces vignette se fait tout simplement à l'aide d'un curseur, sans nécessité d'aller fouiller dans un panneau de configuration incompréhensible.", page %}
+![](picasa2_browse.png){caption="Navigation dans la photothèque. La navigation dans les vignettes des photos est aisée, et le dimensionnent de ces vignette se fait tout simplement à l'aide d'un curseur, sans nécessité d'aller fouiller dans un panneau de configuration incompréhensible."}
 
-{% respimg "picasa2_edit.png", "Visualisation et édition. La vue grande taille d'une unique image permet de plus de faire quelques retouches, avec des filtres simples pour redresser la photo, supprimer les yeux rouges ou même tout ajuster automatiquement avec le « I'm feeling lucky » cher à Google, mais aussi d'appliquer des filtres plus photographiques tels que le passage en noir et blanc ou sépia, l'ajout de grain, etc.", page %}
+![](picasa2_edit.png){caption="Visualisation et édition. La vue grande taille d'une unique image permet de plus de faire quelques retouches, avec des filtres simples pour redresser la photo, supprimer les yeux rouges ou même tout ajuster automatiquement avec le « I'm feeling lucky » cher à Google, mais aussi d'appliquer des filtres plus photographiques tels que le passage en noir et blanc ou sépia, l'ajout de grain, etc."}
 
-{% respimg "picasa2_slideshow.png", "Fondu enchaîné. Le fondu enchaîné de Picasa est toujours aussi beau, avec une fois encore des paramètres accessibles simplement", page %}
+![](picasa2_slideshow.png){caption="Fondu enchaîné. Le fondu enchaîné de Picasa est toujours aussi beau, avec une fois encore des paramètres accessibles simplement"}
 
-{% respimg "picasa2_print.png", "Impression. Picasa propose plusieurs modes d'impression bien pratiques", page %}
+![](picasa2_print.png){caption="Impression. Picasa propose plusieurs modes d'impression bien pratiques"}
 
 Il y a plein d'autres fonctionnalités toutes plus épatantes les unes que les autres, je vous laisse les découvrir !
 
