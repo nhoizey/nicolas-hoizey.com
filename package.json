@@ -28,6 +28,7 @@
     "start": "cross-env ELEVENTY_ENV=development npx eleventy --serve",
     "build": "cross-env ELEVENTY_ENV=production npx eleventy",
     "debug": "DEBUG=Eleventy* npm start",
+    "clean": "gulp clean",
     "build-gulp": "NODE_ENV=production gulp build",
     "start-gulp": "gulp build:dev && npm run serve"
   },
