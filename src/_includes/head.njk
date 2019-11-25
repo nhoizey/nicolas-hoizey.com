@@ -1,3 +1,8 @@
+<!--
+Page: {{ page | dump | safe }}
+Layout: {{ layout }}
+Title: {{ page.data.title }}
+-->
 <head{% if page.url == "/" %} itemscope itemtype="https://schema.org/WebSite"{% endif %}>
   {#
   charset and viewport first:
@@ -46,29 +51,23 @@
     <title itemprop="name">{{ title }}</title>
     <meta property="og:title" content="{{ title }}" />
   {% else %}
-    {% if page.url == "/links/" %}
-      {% set title = page.title %}
-      {% set description = page.data.excerpt | striptags | truncate(290) | escape %}
+    {% if layout == "article" or layout == "link" %}
+      {% set title = page.data.title %}
+      {% set description = page.templateContent | excerpt | striptags | truncate(290) | escape %}
       {% set ogType = "article" %}
-    {% else %}
-      {% if page.type == "year" %}
-        {% set title %}Articles from year {{ page.date | date("%Y") }}{% endset %}
-        {% set description %}Articles published by Nicolas Hoizey in {{ page.date | date("%Y") }}{% endset %}
-      {% else %}
-        {% if page.type == "month" %}
-          {% set title %}Articles from {{ page.date | date("%B %Y") }}{% endset %}
-          {% set description %}Articles published by Nicolas Hoizey in {{ page.date | date("%B %Y") }}{% endset %}
-        {% else %}
-          {% if page.tag %}
-            {% set title %}{{ page.tag }}{% endset %}
-            {% set description %}Articles published by Nicolas Hoizey with the tag ”{{ page.tag }}”{% endset %}
-          {% else %}
-            {% set title = page.title %}
-            {% set description = page.data.excerpt | striptags | truncate(290) | escape %}
-            {% set ogType = "article" %}
-          {% endif %}
-        {% endif %}
-      {% endif %}
+    {% elif page.inputPath == "./src/tag-page.njk" %}
+      {% set title %}{{ page.data.title }}{% endset %}
+      {% set description %}Articles published by Nicolas Hoizey with the tag ”{{ page.data.title }}”{% endset %}
+    {% elif "/links/" in page.url %}
+      {% set title = page.title %}
+      {% set description = page.templateContent | excerpt | striptags | truncate(290) | escape %}
+      {% set ogType = "article" %}
+    {% elif page.type == "year" %}
+      {% set title %}Articles from year {{ page.date | date("%Y") }}{% endset %}
+      {% set description %}Articles published by Nicolas Hoizey in {{ page.date | date("%Y") }}{% endset %}
+    {% elif page.type == "month" %}
+      {% set title %}Articles from {{ page.date | date("%B %Y") }}{% endset %}
+      {% set description %}Articles published by Nicolas Hoizey in {{ page.date | date("%B %Y") }}{% endset %}
     {% endif %}
     <title>{{ title }} &ndash; {{ site.name }}</title>
     <meta property="og:title" content="{{ title }}" />
