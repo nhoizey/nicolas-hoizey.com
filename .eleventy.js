@@ -69,7 +69,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("safeDump", stringify);
 
   eleventyConfig.addFilter("stripFootnotes", function (content) {
-    console.error(content);
+    // TODO: Use jsdom?
     const $ = cheerio.load(content);
     $('a.footnote, a.footnotes, div.footnote, div.footnotes, sup.footnote, sup.footnotes').remove();
     return $.html();
