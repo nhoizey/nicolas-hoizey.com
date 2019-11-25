@@ -116,9 +116,9 @@ module.exports = function (value, outputPath) {
             }
           }
         }
-        // console.dir(attributesForFigure);
-        // Replace the img with a figure if there is a caption
-        let caption = image.getAttribute('caption');
+
+        // Replace the img with a figure if there is a caption (in the title)
+        let caption = image.getAttribute('title');
         if (caption === null && imageSettings.figure === 'always') {
           caption = image.getAttribute('alt');
         }
@@ -127,8 +127,7 @@ module.exports = function (value, outputPath) {
           figure.classList.add(...image.classList);
           image.classList.remove(...image.classList);
           const figCaption = document.createElement('figcaption');
-          figCaption.innerHTML = caption; // TODO: parse Markdown
-          image.removeAttribute('caption');
+          figCaption.innerHTML = md.render(caption); // TODO: parse Markdown
           figure.appendChild(image.cloneNode(true));
           figure.appendChild(figCaption);
           image.replaceWith(figure);
