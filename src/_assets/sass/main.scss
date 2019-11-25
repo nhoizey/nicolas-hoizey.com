@@ -53,7 +53,9 @@ figure {
     margin: 0 auto;
     padding: 0;
   }
+}
 
+figure, img {
   &.twothirds {
     max-width: 66%;
   }
@@ -62,7 +64,7 @@ figure {
     max-width: 50%;
   }
 
-  &.onethird {
+  &.onethird, &.logo {
     max-width: 50%;
 
     @media (min-width: 20em) {
@@ -91,7 +93,7 @@ figure {
     }
   }
 
-  &.right {
+  &.right, &.logo {
     margin: $baseline auto;
 
     @media (min-width: 20em) {
@@ -101,21 +103,9 @@ figure {
   }
 }
 
-.logo,
-.poster {
+.logo {
   display: block;
   margin: $baseline auto;
-  max-width: 50%;
-
-  @media (min-width: 20em) {
-    float: right;
-    margin: 0 0 3vw 3vw;
-    max-width: 33%;
-  }
-
-  @media (min-width: 67em) {
-    margin: 0 0 2rem 2rem;
-  }
 }
 
 figcaption {
