@@ -1,13 +1,18 @@
-const fs = require('fs');
-const jsdom = require("@tbranyen/jsdom");
-const { JSDOM } = jsdom;
 const deepmerge = require('deepmerge')
+const fs = require('fs');
+const imageSize = require('image-size');
+const jsdom = require("@tbranyen/jsdom");
+const markdownIt = require('markdown-it');
+
+const md = new markdownIt();
+const { JSDOM } = jsdom;
 const overwriteMerge = (destinationArray, sourceArray, options) => sourceArray;
+
 const site = require("../_data/site.js");
 const cloudinaryConfig = require("../_data/cloudinary-config.js");
 
 module.exports = function (value, outputPath) {
-  if (outputPath.endsWith(".html") && outputPath.match(/^dist\/articles\/201/)) {
+  if (outputPath.endsWith(".html") && outputPath.match(/^dist\/articles\//)) {
     // Default settings
     let globalSettings = {
       fallbackWidth: 640,
@@ -29,10 +34,6 @@ module.exports = function (value, outputPath) {
       );
     }
 
-    // console.log('############### globalSettings ###############');
-    // console.dir(globalSettings);
-    // console.log('^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^');
-
     const cloudinaryPrefix = `https://res.cloudinary.com/${cloudinaryConfig.cloud_name}/image/fetch/`;
 
     const DOM = new JSDOM(value, {
@@ -46,6 +47,9 @@ module.exports = function (value, outputPath) {
       let distPath = article.getAttribute('data-img-dist');
 
       articleImages.forEach(image => {
+        let imageUrl = '';
+        let imagePath = image.getAttribute('src');
+
         let imageSettings = globalSettings;
 
         image.classList.forEach(className => {
@@ -59,25 +63,29 @@ module.exports = function (value, outputPath) {
           }
         });
 
-        // console.log('############### imageSettings ###############');
-        // console.dir(imageSettings);
-        // console.log('^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^');
+        imageSettings.attributes.width = undefined;
+        imageSettings.attributes.height = undefined;
 
         if (imageSettings.classes.length > 0) {
           image.classList.add(...imageSettings.classes);
         }
 
-        let imageUrl = '';
-        let imagePath = image.getAttribute('src');
-        if (imagePath.match(/^https?:\/\//)) {
+        if (imagePath.match(/^(https?:)?\/\//)) {
           imageUrl = imagePath;
         } else {
           // This is not an external URL
           if (imagePath[0] === '/') {
             // This is a local absolute URL
+            // console.log('-> local absolute image');
             imageUrl = site.url + imagePath;
           } else {
             // This is a relative URL
+
+            const imageDimensions = imageSize(srcPath + imagePath);
+            imageSettings.attributes.width = imageDimensions.width;
+            imageSettings.attributes.height = imageDimensions.height;
+
+            // Copy the image file from src to dist
             fs.promises.mkdir(distPath, { recursive: true }).then(() => {
               fs.copyFile(srcPath + imagePath, distPath + imagePath, (err) => {
                 if (err) throw err;
@@ -96,7 +104,12 @@ module.exports = function (value, outputPath) {
         let srcset = [];
         for (let i = 0; i < imageSettings.steps; i++) {
           width = Math.ceil(imageSettings.minWidth + (imageSettings.maxWidth - imageSettings.minWidth) / (imageSettings.steps - 1) * i);
-          srcset.push(`${cloudinaryPrefix}q_auto,f_auto,w_${width}/${imageUrl} ${width}w`);
+          if (imageSettings.attributes.width === undefined || width < imageSettings.attributes.width) {
+            srcset.push(`${cloudinaryPrefix}q_auto,f_auto,w_${width}/${imageUrl} ${width}w`);
+          } else {
+            srcset.push(`${cloudinaryPrefix}q_auto,f_auto,w_${imageSettings.attributes.width}/${imageUrl} ${imageSettings.attributes.width}w`);
+            break;
+          }
         }
         image.setAttribute('srcset', srcset.join(', '));
 
@@ -107,12 +120,13 @@ module.exports = function (value, outputPath) {
         let attributesForFigure = {};
         if (imageSettings.attributes.length > 0) {
           for (const attribute in imageSettings.attributes) {
-            // console.log(`${attribute}: ${imageSettings.attributes[attribute]}`);
-            // Define immediately attributes than must be kept on img if there's a figure
-            if (['width', 'height', 'loading'].indexOf(attribute)) {
-              image.setAttribute(attribute, imageSettings.attributes[attribute]);
-            } else {
-              attributesForFigure[attribute] = imageSettings.attributes[attribute];
+            if (imageSettings.attributes[attribute] !== undefined) {
+              // Define immediately attributes than must be kept on img if there's a figure
+              if (['width', 'height', 'loading'].indexOf(attribute)) {
+                image.setAttribute(attribute, imageSettings.attributes[attribute]);
+              } else {
+                attributesForFigure[attribute] = imageSettings.attributes[attribute];
+              }
             }
           }
         }
