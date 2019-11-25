@@ -222,9 +222,54 @@ module.exports = function (eleventyConfig) {
 
   const markdownItAbbr = require("markdown-it-abbr");
 
+  // taken from https://gist.github.com/rodneyrehm/4feec9af8a8635f7de7cb1754f146a39
+  function getHeadingLevel(tagName) {
+    if (tagName[0].toLowerCase() === 'h') {
+      tagName = tagName.slice(1);
+    }
+
+    return parseInt(tagName, 10);
+  }
+
+  function markdownItHeadingLevel(md, options) {
+    var firstLevel = options.firstLevel;
+
+    if (typeof firstLevel === 'string') {
+      firstLevel = getHeadingLevel(firstLevel);
+    }
+
+    if (!firstLevel || isNaN(firstLevel)) {
+      return;
+    }
+
+    var levelOffset = firstLevel - 1;
+    if (levelOffset < 1 || levelOffset > 6) {
+      return;
+    }
+
+    md.core.ruler.push("adjust-heading-levels", function (state) {
+      var tokens = state.tokens
+      for (var i = 0; i < tokens.length; i++) {
+        if (tokens[i].type !== "heading_close") {
+          continue
+        }
+
+        var headingOpen = tokens[i - 2];
+        var headingClose = tokens[i];
+
+        var currentLevel = getHeadingLevel(headingOpen.tag);
+        var tagName = 'h' + Math.min(currentLevel + levelOffset, 6);
+
+        headingOpen.tag = tagName;
+        headingClose.tag = tagName;
+      }
+    });
+  }
+
   eleventyConfig.setLibrary(
     "md",
     markdownIt(markdownItOptions)
+      .use(markdownItHeadingLevel, { firstLevel: 2 })
       .use(markdownItFootnote)
       .use(markdownItAnchor, markdownItAnchorOptions)
       .use(markdownItAttributes)
