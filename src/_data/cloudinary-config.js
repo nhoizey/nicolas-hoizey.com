@@ -6,7 +6,6 @@ module.exports = {
       minWidth: 360,
       maxWidth: 1600,
       sizes: '(max-width: 67rem) 90vw, 60rem',
-      classes: ['tata'],
       attributes: {
         loading: 'lazy'
       }
@@ -30,10 +29,7 @@ module.exports = {
       minWidth: 120,
       maxWidth: 560,
       sizes: '(max-width: 20rem) 45vw, (max-width: 67rem) 30vw, 20rem',
-      classes: ['onethird', 'right'],
-      attributes: {
-        toto: 'tata'
-      }
+      classes: ['onethird', 'right']
     },
     onefourth: {
       fallbackWidth: 200,
@@ -48,8 +44,7 @@ module.exports = {
       maxWidth: 560,
       sizes: '(max-width: 20rem) 45vw, (max-width: 67rem) 30vw, 20rem',
       figure: 'never',
-      classes: ['logo'],
-      attributes: { 'truc': 'doudou' }
+      classes: ['logo']
     }
   }
 }
