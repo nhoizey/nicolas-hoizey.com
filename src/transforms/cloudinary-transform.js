@@ -16,8 +16,8 @@ module.exports = function (value, outputPath) {
       steps: 5,
       sizes: '100vw',
       figure: 'auto',
-      classes: ['tutu'],
-      attributes: { 'loading': 'eager', 'bidule': 'machin' }
+      classes: [],
+      attributes: {}
     };
 
     // Overhide default settings with a "default" preset
