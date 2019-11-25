@@ -17,6 +17,6 @@ They call it "Progressive Font Enrichment", and it looks awesome.
 
 There's even [a live demo of progressive font enrichment](https://fonts.gstatic.com/experimental/incxfer_demo).
 
-![](progressive-font-enrichment-demo.png){caption="a live demo of progressive font enrichment"}
+![](progressive-font-enrichment-demo.png "a live demo of progressive font enrichment")
 
 > Couple that capability with variable fonts, and the combination could be simply transformative for the design possibilities on sites using [Chinese, Japanese, Arabic, Vietnamese, and other more complicated languages with much larger sets of glyphs]. After years of promise shackled to performance constraints, this will be nothing short of revolutionary.

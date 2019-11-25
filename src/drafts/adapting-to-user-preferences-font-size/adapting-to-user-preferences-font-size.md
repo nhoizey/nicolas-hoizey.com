@@ -86,7 +86,7 @@ The draft specification currently only contains [environment variables for "safe
 
 > The safe area insets are four environment variables that define a rectangle by its top, right, bottom, and left insets from the edge of the viewport. For rectangular displays, these must all be zero, but for nonrectangular displays they must form a rectangle, chosen by the user agent, such that all content inside the rectangle is visible, and such that reducing any of the insets would cause some content inside of the rectangle to be invisible due to the nonrectangular nature of the display. This allows authors to limit the layout of essential content to the space inside of the safe area rectangle.
 
-![](env-safe-areas.png){caption="The safe and unsafe areas on iPhone X in the landscape orientation, with insets indicated. ([source](https://webkit.org/blog/7929/designing-websites-for-iphone-x/))"}
+![](env-safe-areas.png "The safe and unsafe areas on iPhone X in the landscape orientation, with insets indicated. ([source](https://webkit.org/blog/7929/designing-websites-for-iphone-x/))")
 
 However, WebKit's initial proposal contained other environment variables, including `user-font-size` for user preferred root font size[^constant]:
 
