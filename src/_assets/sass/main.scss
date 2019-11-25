@@ -219,7 +219,7 @@ article {
       margin-bottom: 1em;
     }
 
-    code.highlighter-rouge {
+    code {
       background-color: $inline-code-background-color;
       color: $color-darkgrey;
       font-style: normal;
@@ -263,9 +263,23 @@ article {
     border-radius: 0.2em;
   }
 
-  code.highlighter-rouge {
+  h2, h3, h4, h5, h6 {
+    kbd,
+    code {
+      font-size: 1em;
+      font-weight: normal;
+      background-color: #fff4d1;
+      color: currentColor;
+    }
+  }
+
+  code {
     background-color: $inline-code-background-color;
     color: $inline-code-text-color;
+  }
+
+  pre code {
+    padding: 0.5em;
   }
 
   kbd {
@@ -279,7 +293,7 @@ article {
   a:link,
   a:visited {
     kbd,
-    code.highlighter-rouge {
+    code {
       text-decoration-line: underline;
       text-decoration-color: var(--link-decoration-color, #{$color-blue});
     }
@@ -289,14 +303,10 @@ article {
   a:focus,
   a:active {
     kbd,
-    code.highlighter-rouge {
+    code {
       color: inherit;
       background-color: transparent;
     }
-  }
-
-  div.highlighter-rouge pre.highlight {
-    padding: 0.5em;
   }
 
   a.footnote.footnote {
