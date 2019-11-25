@@ -12,28 +12,6 @@ import Toast from "./toast.js";
 })(window);
 
 /*****************************************************************
- * UX
- * ****************************************************************/
-
-// Add anchor links to titles in the article
-(function (window) {
-  var i,
-    list = window.document.querySelectorAll(
-      "article.main h2[id], article.main h3[id], article.main h4[id], article.main h5[id], article.main h6[id]"
-    ),
-    nb = list.length;
-
-  for (i = 0; i < nb; ++i) {
-    list[i].innerHTML +=
-      '&nbsp;<a class="deeplink" href="#' +
-      list[i].id +
-      '" title="Direct link to ' +
-      list[i].textContent +
-      '"><svg><use xlink:href="#symbol-link" /></svg></a>';
-  }
-})(window);
-
-/*****************************************************************
  * Lazyload some images
  * ****************************************************************/
 
