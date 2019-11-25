@@ -75,6 +75,10 @@ module.exports = function (eleventyConfig) {
     return $.html();
   });
 
+  eleventyConfig.addFilter("mdpath2imgpath", function (inputPath) {
+    return inputPath.replace(/[^/]+\.md$/, '');
+  });
+
   // ------------------------------------------------------------------------
   // Shortcodes
   // ------------------------------------------------------------------------

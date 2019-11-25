@@ -39,6 +39,10 @@ module.exports = function (value, outputPath) {
     const document = DOM.window.document;
     const articleImages = [...document.querySelectorAll("main article img")];
     if (articleImages.length) {
+      let article = document.querySelector('main article');
+      let srcPath = article.getAttribute('data-img-src');
+      let distPath = article.getAttribute('data-img-dist');
+
       articleImages.forEach(image => {
         let imageSettings = {}
         Object.assign(imageSettings, globalSettings);
