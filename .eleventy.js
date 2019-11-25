@@ -220,12 +220,15 @@ module.exports = function (eleventyConfig) {
 
   const markdownItContainer = require("markdown-it-container");
 
+  const markdownItAbbr = require("markdown-it-abbr");
+
   eleventyConfig.setLibrary(
     "md",
     markdownIt(markdownItOptions)
       .use(markdownItFootnote)
       .use(markdownItAnchor, markdownItAnchorOptions)
       .use(markdownItAttributes)
+      .use(markdownItAbbr)
       .use(markdownItContainer, "info")
   );
 
