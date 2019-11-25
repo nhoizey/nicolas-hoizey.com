@@ -29,9 +29,9 @@ module.exports = function (value, outputPath) {
       );
     }
 
-    console.log('############### globalSettings ###############');
-    console.dir(globalSettings);
-    console.log('^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^');
+    // console.log('############### globalSettings ###############');
+    // console.dir(globalSettings);
+    // console.log('^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^');
 
     const cloudinaryPrefix = `https://res.cloudinary.com/${cloudinaryConfig.cloud_name}/image/fetch/`;
 
@@ -59,9 +59,9 @@ module.exports = function (value, outputPath) {
           }
         });
 
-        console.log('############### imageSettings ###############');
-        console.dir(imageSettings);
-        console.log('^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^');
+        // console.log('############### imageSettings ###############');
+        // console.dir(imageSettings);
+        // console.log('^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^');
 
         if (imageSettings.classes.length > 0) {
           image.classList.add(...imageSettings.classes);
