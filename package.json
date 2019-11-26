@@ -15,15 +15,6 @@
     "type": "git",
     "url": "https://github.com/nhoizey/nicolas-hoizey.com"
   },
-  "config": {
-    "input": "src/",
-    "intermediate": "tmp/",
-    "output": "dist/"
-  },
-  "browserslist": [
-    "> 0.25%",
-    "not dead"
-  ],
   "scripts": {
     "start": "cross-env ELEVENTY_ENV=development npx eleventy --serve",
     "build": "cross-env ELEVENTY_ENV=production npx eleventy",
@@ -51,14 +42,11 @@
     "dotenv": "^6.2.0",
     "encoding": "^0.1.12",
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^5.0.0",
     "gulp-clean-css": "^4.0.0",
     "gulp-rename": "^1.2.3",
-    "gulp-sass": "^4.0.1",
     "gulp-shell": "^0.6.5",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-svg-sprite": "^1.4.0",
-    "gulp-uglify": "^3.0.1",
     "html-entities": "^1.2.1",
     "html-minifier": "^3.5.20",
     "image-size": "^0.8.3",
