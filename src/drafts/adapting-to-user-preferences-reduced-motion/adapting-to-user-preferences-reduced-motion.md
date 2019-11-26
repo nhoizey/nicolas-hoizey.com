@@ -4,7 +4,6 @@ lang:  en
 tags:  [accessibility, UX, CSS, animation]
 ---
 
-
 https://hugogiraudel.com/2018/03/19/implementing-a-reduced-motion-mode/
 https://css-tricks.com/introduction-reduced-motion-media-query/
 https://webkit.org/blog-files/prefers-reduced-motion/prm.htm

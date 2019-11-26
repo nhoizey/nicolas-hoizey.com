@@ -4,7 +4,6 @@ lang:  fr
 tags:  [ ]
 ---
 
-
 http://www.declencheur.com/photo/carnet/note/recadrer-ne-pas-hesiter-a-couper/
 
 Disparu :

@@ -12,7 +12,6 @@ C'est donc avec grand plaisir que j'ai lu le billet «[That “JavaScript not av
 
 Plutôt que paraphraser ce texte auquel j'adhère totalement, j'ai proposé de le traduire, pour le rendre accessible au plus grand nombre :
 
-
 [^chapo1]: « bien » ne voulant pas forcément dire « à l'identique ».
 
 [^chapo2]: Christian est allé jusqu'à formaliser sa pratique de *Developer Evangelist* dans l'excellent livre [Developer Evangelism](http://developer-evangelism.com/).
@@ -31,7 +30,6 @@ La première question que nous devons nous poser est quels sont ces environnemen
 - Des utilisateurs qui ont une connexion limitée ou très lente
 - Des utilisateurs qui désactivent JavaScript pour leurs raisons spécifiques
 - Des utilisateurs qui en ont marre des fenêtres surgissantes et autres publicités agressives
-
 
 
 	<p>As you can see some of them are done to our end users (proxying my companies or mobile provider), some are probably temporary (feature phones) and some are simply their own choice. So there is no way to say that only people who want to mess with our cool web stuff are affected.</p>

@@ -71,7 +71,6 @@ Nouvelle soumission sur la Firefox Marketplace
 
 ## 2013-01-27 Inscription à la compétition Game On organisée par Mozilla
 
-
 ## 2013-02-19 Abandon des gradients dans le fond et les balles pour gagner en performances
 
 - https://bugzilla.mozilla.org/show_bug.cgi?id=835041#c3

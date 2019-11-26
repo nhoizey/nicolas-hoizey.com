@@ -52,16 +52,11 @@ https://github.com/w3c/csswg-drafts/issues/2430
 
 
 
-
-
 # `revert`
-
 
 # `unset`
 
-
 # `initial`
-
 
 # Environment Variables: `env(user-font-size)`
 
