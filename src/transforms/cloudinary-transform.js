@@ -118,11 +118,11 @@ module.exports = function (value, outputPath) {
 
         // Add attributes from the preset
         let attributesForFigure = {};
-        if (imageSettings.attributes.length > 0) {
+        if (Object.keys(imageSettings.attributes).length > 0) {
           for (const attribute in imageSettings.attributes) {
             if (imageSettings.attributes[attribute] !== undefined) {
               // Define immediately attributes than must be kept on img if there's a figure
-              if (['width', 'height', 'loading'].indexOf(attribute)) {
+              if (['width', 'height', 'loading'].indexOf(attribute) !== -1) {
                 image.setAttribute(attribute, imageSettings.attributes[attribute]);
               } else {
                 attributesForFigure[attribute] = imageSettings.attributes[attribute];
