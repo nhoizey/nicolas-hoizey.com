@@ -36,6 +36,7 @@ module.exports = function (eleventyConfig) {
   const attributeDate = require("./src/_filters/attributeDate.js");
   eleventyConfig.addFilter("attributeDate", attributeDate);
 
+  // TODO: Not useful anymore?
   const ordinal = require("./src/_filters/ordinal.js");
   eleventyConfig.addFilter("ordinal", ordinal);
 
@@ -116,6 +117,9 @@ module.exports = function (eleventyConfig) {
 
   const svgContents = require("eleventy-plugin-svg-contents");
   eleventyConfig.addPlugin(svgContents);
+
+  const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+  eleventyConfig.addPlugin(syntaxHighlight);
 
   // ------------------------------------------------------------------------
   // Markdown plugins
