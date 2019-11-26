@@ -1,6 +1,6 @@
 {
   "name": "nicolas-hoizey.com",
-  "version": "0.0.1",
+  "version": "2.0.0",
   "title": "Nicolas Hoizey, passionate about the Web and photography",
   "author": {
     "name": "Nicolas Hoizey",
@@ -29,8 +29,7 @@
     "build": "cross-env ELEVENTY_ENV=production npx eleventy",
     "debug": "DEBUG=Eleventy* npm start",
     "clean": "gulp clean",
-    "build-gulp": "NODE_ENV=production gulp build",
-    "start-gulp": "gulp build:dev && npm run serve"
+    "build-gulp": "NODE_ENV=production gulp build"
   },
   "dependencies": {},
   "devDependencies": {
