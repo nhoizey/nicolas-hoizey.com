@@ -6,8 +6,8 @@ const { compileWebpackTargets } = require("../utils/compile-webpack");
 
 // Add Webpack compilation targets here
 const targets = {
-  "main": "src/_assets/scripts/main.js",
   "critical": "src/_assets/scripts/critical.js",
+  "additional": "src/_assets/scripts/additional.js",
   // "service-worker": "src/_assets/scripts/service-worker.js",
 };
 

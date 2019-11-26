@@ -11,8 +11,8 @@ importScripts(
 
 const offlineFallback = "/offline-fallback.html";
 const preCachedFiles = [
-  '/css/main.css',
-  '/js/main.js',
+  '/css/additional.css',
+  '/js/additional.js',
   '/assets/fonts/notoserif-regular-subset.woff2',
   {
     url: "/assets/default-screenshot.svg",
