@@ -36,9 +36,7 @@ module.exports = function (value, outputPath) {
 
     const cloudinaryPrefix = `https://res.cloudinary.com/${cloudinaryConfig.cloud_name}/image/fetch/`;
 
-    const DOM = new JSDOM(value, {
-      resources: 'usable'
-    });
+    const DOM = new JSDOM(value);
     const document = DOM.window.document;
     const articleImages = [...document.querySelectorAll("main article img")];
     if (articleImages.length) {
