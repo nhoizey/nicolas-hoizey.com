@@ -16,9 +16,14 @@ content: "<blockquote> <p>Un peu hard la lisibilité de la page ! Pensez aux vie
   <ul>
     <li>Pour afficher du contenu si une balise, éventuellement filtrée, n'est pas vide</li>
     <li>Pour afficher du contenu si une boucle renvoie au moins un élément :
-  <code><pre>&lt;b_boucle&gt;Contenu
-  conditionnel avant&lt;boucle_boucle&gt;(STRUCTURE){paramètre}&gt;Contenu
-  bouclé&lt;/boucle_boucle&gt;Contenu conditionnel après&lt;/b_boucle&gt;Contenu
-  si pas d'éléments&lt;//b_boucle&gt;</pre></code></li>
+  <code><pre>
+  &lt;b_boucle&gt;Contenu conditionnel avant
+  &lt;boucle_boucle&gt;(STRUCTURE){paramètre}&gt;
+    Contenu bouclé
+  &lt;/boucle_boucle&gt;
+  Contenu conditionnel après
+  &lt;/b_boucle&gt;
+  Contenu si pas d'éléments&lt;//b_boucle&gt;
+  </pre></code></li>
     <li>* Sinon, voir aussi le type de boucle <code>CONDITION</code> du plugin Bonux</li>
   </ul>"
