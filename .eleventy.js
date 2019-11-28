@@ -228,6 +228,24 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.setDataDeepMerge(true);
 
+  // eleventyConfig.addWatchTarget("_data");
+
+  // function firstParagraph(source, options) {
+  //   let excerpt = '';
+  //   let parts = source.content.split("\n");
+
+  //   parts.forEach(part => {
+  //     if (part.match(/^[^!>#\{]/) && excerpt === '') {
+  //       excerpt = part.trim();
+  //     }
+  //   });
+
+  //   source.data.excerpt = excerpt;
+  // }
+  // eleventyConfig.setFrontMatterParsingOptions({
+  //   excerpt: firstParagraph
+  // });
+
   return {
     templateFormats: [
       "md",

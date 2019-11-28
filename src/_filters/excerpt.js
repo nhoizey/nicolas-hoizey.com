@@ -1,8 +1,15 @@
 module.exports = function excerpt(content) {
-  const regex = /(<p>.*<\/p>)/m;
+  if (content === undefined) {
+    return '';
+  }
+  const regex = /(<p( [^>]*)?>((?!(<\/p>)).|\n)+<\/p>)/m;
   let excerpt = '';
-  if ((matches = regex.exec(content)) !== null) {
+  cleanContent = content
+    // .replace(/<blockquote>(?!(<\/blockquote>))*<\/blockquote>/, '')
+    .replace(/<p><img [^>]+><\/p>/, '');
+  if ((matches = regex.exec(cleanContent)) !== null) {
     excerpt = matches[0];
   }
+
   return excerpt;
 };
