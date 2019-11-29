@@ -739,11 +739,11 @@ RewriteRule ^a-propos/((index|de-moi)\.html)? /about/ [QSA,L,R=301]
 RewriteRule ^a-propos\.html /about/ [QSA,L,R=301]
 RewriteRule ^a-propos/du-site\.html$ /about/the-website.html [QSA,L,R=301]
 
-# Remove the temporary `/articles/` folder because it lost Webmentions
-# RewriteRule ^articles/(.*)$ /$1 [QSA,L,R=301]
-
 # Migrating some articles to links
 RewriteRule ^2018/08/just.html /links/2018/08/just.html [QSA,L,R=301]
+
+# Move articles as `/articles/` subfolder
+RewriteRule ^([0-9]{4}/[0-9]{2}/.*)\.html$ /articles/$1/ [QSA,L,R=301]
 
 # Moving feeds
 RewriteRule ^atom.xml /feeds/articles.xml [QSA,L,R=301]
