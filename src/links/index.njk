@@ -11,19 +11,6 @@ permalink: "links/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumbe
 
 {% from "macros/linkCard.njk" import linkCard %}
 
-<p class="pagination">
-  Pages:
-  {% set separator = joiner(", ") %}
-  {%- for pageEntry in pagination.pages %}
-    {{ separator() }}
-    {% if page.url == pagination.hrefs[ loop.index0 ] %}
-      <strong>{{ loop.index }}</strong>
-    {% else %}  
-      <a href="{{ pagination.hrefs[ loop.index0 ] }}">{{ loop.index }}</a>
-    {% endif %}
-  {%- endfor %}
-</p>
-
 <ul class="list">
   {% for link in pagination.items %}
     <li class="list__item">

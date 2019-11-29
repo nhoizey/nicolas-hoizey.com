@@ -10,19 +10,6 @@ permalink: "articles/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNu
 
 {% from "macros/articleCard.njk" import articleCard %}
 
-<p class="pagination">
-  Pages:
-  {% set separator = joiner(", ") %}
-  {%- for pageEntry in pagination.pages %}
-    {{ separator() }}
-    {% if page.url == pagination.hrefs[ loop.index0 ] %}
-      <strong>{{ loop.index }}</strong>
-    {% else %}  
-      <a href="{{ pagination.hrefs[ loop.index0 ] }}">{{ loop.index }}</a>
-    {% endif %}
-  {%- endfor %}
-</p>
-
 <ul class="list">
   {% for article in pagination.items %}
     <li class="list__item list__item--large">
