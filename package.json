@@ -16,8 +16,8 @@
     "url": "https://github.com/nhoizey/nicolas-hoizey.com"
   },
   "scripts": {
-    "start": "cross-env ELEVENTY_ENV=development npx eleventy --serve",
-    "build": "cross-env ELEVENTY_ENV=production npx eleventy",
+    "start": "cross-env ELEVENTY_ENV=development npx eleventy --quiet --serve",
+    "build": "cross-env ELEVENTY_ENV=production npx eleventy --quiet",
     "debug": "DEBUG=Eleventy* npm start",
     "clean": "gulp clean",
     "build-gulp": "NODE_ENV=production gulp build"
