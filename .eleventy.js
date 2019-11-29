@@ -36,10 +36,6 @@ module.exports = function (eleventyConfig) {
   const attributeDate = require("./src/_filters/attributeDate.js");
   eleventyConfig.addFilter("attributeDate", attributeDate);
 
-  // TODO: Not useful anymore?
-  const ordinal = require("./src/_filters/ordinal.js");
-  eleventyConfig.addFilter("ordinal", ordinal);
-
   eleventyConfig.addFilter("slugify", function (string) {
     return slugify(string, {
       decamelize: false,
@@ -47,7 +43,7 @@ module.exports = function (eleventyConfig) {
         ['%', ' ']
       ]
     });
-  })
+  });
 
   eleventyConfig.addFilter("date", function (date, format) {
     return moment(date).format(format);
