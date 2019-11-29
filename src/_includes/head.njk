@@ -62,11 +62,11 @@ Title: {{ page.data.title }}
       {% set description = page.templateContent | excerpt | striptags | truncate(290) | escape %}
       {% set ogType = "article" %}
     {% elif page.type == "year" %}
-      {% set title %}Articles from year {{ page.date | date("%Y") }}{% endset %}
-      {% set description %}Articles published by Nicolas Hoizey in {{ page.date | date("%Y") }}{% endset %}
+      {% set title %}Articles from year {{ page.date | dateFormat("%Y") }}{% endset %}
+      {% set description %}Articles published by Nicolas Hoizey in {{ page.date | dateFormat("%Y") }}{% endset %}
     {% elif page.type == "month" %}
-      {% set title %}Articles from {{ page.date | date("%B %Y") }}{% endset %}
-      {% set description %}Articles published by Nicolas Hoizey in {{ page.date | date("%B %Y") }}{% endset %}
+      {% set title %}Articles from {{ page.date | dateFormat("%B %Y") }}{% endset %}
+      {% set description %}Articles published by Nicolas Hoizey in {{ page.date | dateFormat("%B %Y") }}{% endset %}
     {% endif %}
     <title>{{ title }} &ndash; {{ site.name }}</title>
     <meta property="og:title" content="{{ title }}" />

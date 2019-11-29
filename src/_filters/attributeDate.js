@@ -1,5 +1,5 @@
-const { DateTime } = require("luxon");
+const moment = require("moment");
 
-module.exports = function attributeDate(dateObj) {
-  return DateTime.fromJSDate(dateObj).toFormat('yyyy-LL-dd');
+module.exports = function attributeDate(date) {
+  return moment(date).format('YYYY-MM-DD');
 };

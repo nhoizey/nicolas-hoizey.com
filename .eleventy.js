@@ -1,5 +1,4 @@
 const slugify = require("@sindresorhus/slugify");
-const moment = require("moment");
 const { parse, stringify } = require("flatted/cjs");
 const cheerio = require('cheerio');
 
@@ -30,6 +29,9 @@ module.exports = function (eleventyConfig) {
   const excerpt = require("./src/_filters/excerpt.js");
   eleventyConfig.addFilter("excerpt", excerpt);
 
+  const dateFormat = require("./src/_filters/dateFormat.js");
+  eleventyConfig.addFilter("dateFormat", dateFormat);
+
   const permalinkDate = require("./src/_filters/permalinkDate.js");
   eleventyConfig.addFilter("permalinkDate", permalinkDate);
 
@@ -43,10 +45,6 @@ module.exports = function (eleventyConfig) {
         ['%', ' ']
       ]
     });
-  });
-
-  eleventyConfig.addFilter("date", function (date, format) {
-    return moment(date).format(format);
   });
 
   eleventyConfig.addFilter("split", function (string, separator) {

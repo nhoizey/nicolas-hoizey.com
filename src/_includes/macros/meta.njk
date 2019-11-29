@@ -7,7 +7,7 @@
       <li class="date meta__item card__date">
         <svg class="icon"><use xlink:href="#symbol-date" /></svg>
         <time class="dt-published" datetime="{{ date | attributeDate }}">
-          {{ date | date("Do MMMM YYYY") }}
+          {{ date | dateFormat("Do MMMM YYYY") }}
         </time>
       </li>
       <li class="tags meta__item card__tags">

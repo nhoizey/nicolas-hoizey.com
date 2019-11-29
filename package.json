@@ -51,7 +51,6 @@
     "html-minifier": "^4.0.0",
     "image-size": "^0.8.3",
     "@tbranyen/jsdom": "^13.0.0",
-    "luxon": "^1.21.2",
     "@sindresorhus/slugify": "~0.9",
     "markdown-it": "~10.0",
     "markdown-it-anchor": "~5.2",

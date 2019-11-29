@@ -1,5 +1,5 @@
-const { DateTime } = require("luxon");
+const moment = require("moment");
 
-module.exports = function permalinkDate(dateObj) {
-  return DateTime.fromJSDate(dateObj).toFormat('yyyy/LL');
+module.exports = function permalinkDate(date) {
+  return moment(date).format('YYYY/MM');
 };
