@@ -1,6 +1,0 @@
-{
-  "buildSrc": "src",
-  "buildDest": "dist",
-  "assetSrc": "src/_assets",
-  "assetDest": "dist"
-}
