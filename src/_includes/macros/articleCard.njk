@@ -1,9 +1,9 @@
-{% macro articleCard(title, url, lang, date, tags, excerpt) %}
+{% macro articleCard(title, url, lang, date, tags, content) %}
 
   <p class="card__title p-name">
     <a href="{{ url }}" hreflang="{{ lang }}" class="u-url">{{ title }}</a>
   </p>
-  <p class="card__excerpt p-summary">{{ excerpt }}</p>
+  <p class="card__excerpt p-summary">{{ content | safe | excerpt | striptags }}</p>
 
   {% from "macros/meta.njk" import meta %}
   {{ meta(url, date, tags) }}
