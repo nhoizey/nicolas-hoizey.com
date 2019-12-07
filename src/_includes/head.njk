@@ -1,8 +1,3 @@
-<!--
-Page: {{ page | dump | safe }}
-Layout: {{ layout }}
-Title: {{ page.data.title }}
--->
 <head{% if page.url == "/" %} itemscope itemtype="https://schema.org/WebSite"{% endif %}>
   {#
   charset and viewport first:
@@ -45,35 +40,27 @@ Title: {{ page.data.title }}
 
   {% set ogType = "website" %}
   {% if page.url == "/" %}
-    {% set title = site.title %}
-    {% set description = site.description %}
-    <title itemprop="name">{{ title }}</title>
-    <meta property="og:title" content="{{ title }}" />
+    {% set ogTitle = site.title %}
+    {% set ogDescription = site.description %}
+    <title itemprop="name">{{ ogTitle }}</title>
   {% else %}
+    {% set ogTitle = renderData.title or title %}
     {% if layout == "article" or layout == "link" %}
-      {% set title = page.data.title %}
-      {% set description = page.templateContent | excerpt | striptags | truncate(290) | escape %}
+      {% set ogDescription = page.templateContent | excerpt | striptags | truncate(290) | escape %}
       {% set ogType = "article" %}
     {% elif page.inputPath == "./src/tag-page.njk" %}
-      {% set title %}{{ page.data.title }}{% endset %}
-      {% set description %}Articles published by Nicolas Hoizey with the tag ”{{ page.data.title }}”{% endset %}
-    {% elif "/links/" in page.url %}
-      {% set title = page.title %}
-      {% set description = page.templateContent | excerpt | striptags | truncate(290) | escape %}
-      {% set ogType = "article" %}
+      {% set ogDescription = ogTitle %}
     {% elif page.type == "year" %}
-      {% set title %}Articles from year {{ page.date | dateFormat("%Y") }}{% endset %}
-      {% set description %}Articles published by Nicolas Hoizey in {{ page.date | dateFormat("%Y") }}{% endset %}
+      {% set ogDescription %}Articles published by Nicolas Hoizey in {{ page.date | dateFormat("%Y") }}{% endset %}
     {% elif page.type == "month" %}
-      {% set title %}Articles from {{ page.date | dateFormat("%B %Y") }}{% endset %}
-      {% set description %}Articles published by Nicolas Hoizey in {{ page.date | dateFormat("%B %Y") }}{% endset %}
+      {% set ogDescription %}Articles published by Nicolas Hoizey in {{ page.date | dateFormat("%B %Y") }}{% endset %}
     {% endif %}
-    <title>{{ title }} &ndash; {{ site.name }}</title>
-    <meta property="og:title" content="{{ title }}" />
+    <title>{{ ogTitle }} &ndash; {{ site.name }}</title>
   {% endif %}
 
-  <meta name="description" content="{{ description }}" />
-  <meta property="og:description" content="{{ description }}" />
+  <meta property="og:title" content="{{ ogTitle }}" />
+  <meta name="description" content="{{ ogDescription }}" />
+  <meta property="og:description" content="{{ ogDescription }}" />
 
   <link rel="canonical" href="{{ site.url + page.url }}" itemprop="url" />
   <meta property="og:url" content="{{ site.url + page.url }}" />
