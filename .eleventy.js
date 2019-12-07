@@ -144,6 +144,8 @@ module.exports = function (eleventyConfig) {
 
   const markdownItAttributes = require("markdown-it-attrs");
 
+  const markdownItSpan = require("markdown-it-bracketed-spans");
+
   const markdownItContainer = require("markdown-it-container");
 
   const markdownItAbbr = require("markdown-it-abbr");
@@ -199,6 +201,7 @@ module.exports = function (eleventyConfig) {
       .use(markdownItFootnote)
       .use(markdownItAnchor, markdownItAnchorOptions)
       .use(markdownItAttributes)
+      .use(markdownItSpan)
       .use(markdownItAbbr)
       .use(markdownItContainer, "info")
   );
