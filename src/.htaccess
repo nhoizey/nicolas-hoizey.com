@@ -745,6 +745,9 @@ RewriteRule ^2018/08/just.html /links/2018/08/just.html [QSA,L,R=301]
 # Move articles as `/articles/` subfolder
 RewriteRule ^([0-9]{4}/[0-9]{2}/.*)\.html$ /articles/$1/ [QSA,L,R=301]
 
+# Links pages are now folders
+RewriteRule ^links/([0-9]{4}/[0-9]{2}/.*)\.html$ /links/$1/ [QSA,L,R=301]
+
 # Moving feeds
 RewriteRule ^atom.xml /feeds/articles.xml [QSA,L,R=301]
 
