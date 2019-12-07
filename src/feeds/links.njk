@@ -1,0 +1,47 @@
+---
+layout: null
+permalink: /feeds/links.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Nicolas Hoizey - Links</title>
+  <link href="{{ site.url }}/feeds/links.xml" rel="self"/>
+  <link href="{{ site.url }}/links/?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
+  <updated>{{ build.timestamp | attributeDate }}T00:00:00+02:00</updated>
+  <id>{{ site.url }}/links/</id>
+  <author>
+    <name>{{ site.author.name }}</name>
+    <email>{{ site.author.email }}</email>
+  </author>
+
+  {% for link in collections.links | limit(20) %}
+    <entry>
+      <link href="{{ site.url }}{{ link.url }}?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
+      <title>{{ link.data.title }}</title>
+      <updated>{{ link.date | attributeDate }}T00:00:00+02:00</updated>
+      <id>{{ site.url }}{{ link.url }}</id>
+      <content type="html">
+        &lt;p&gt;
+        {% if link.data.authors %}
+          {%- for author in link.data.authors -%}
+            {%- if not loop.first -%}
+              {%- if not loop.last -%},&amp;ensp;{%- else -%}&amp;ensp;and&amp;ensp;{%- endif -%}
+            {%- endif -%}
+            {{- author.name -}}
+          {%- endfor -%}
+          &amp;ensp;wrote&lt;br /&gt;
+        {% endif %}
+        &lt;a href="{{ link.data.link }}"&gt;{{ link.data.link }}&lt;/a&gt;
+        &lt;/p&gt;
+        &lt;figure&gt;&lt;img src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_600,h_400/http://image.thum.io/get/width/1200/crop/800/noanimate/{{ link.data.link }}" /&gt;&lt;/figure&gt;
+        {{ link.templateContent }}
+      </content>
+      <link rel="enclosure" type="image/png"
+      href="https://res.cloudinary.com/nho/image/fetch/c_fill,f_png,q_auto,w_600,h_400/http://image.thum.io/get/width/1200/crop/800/noanimate/{{ link.data.link }}"/>
+      {%- for tag in link.tags -%}
+        <category term="{{ tag | slugify }}" label=""/>
+      {%- endfor -%}
+    </entry>
+  {% endfor %}
+
+</feed>

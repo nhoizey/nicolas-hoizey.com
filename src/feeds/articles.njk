@@ -1,0 +1,28 @@
+---
+layout: null
+permalink: /feeds/articles.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Nicolas Hoizey - Articles</title>
+  <link href="{{ site.url }}/feeds/articles.xml" rel="self"/>
+  <link href="{{ site.url }}/?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
+  <link rel="hub" href="http://pubsubhubbub.superfeedr.com/" />
+  <updated>{{ build.timestamp | attributeDate }}T00:00:00+02:00</updated>
+  <id>{{ site.url }}/articles/</id>
+  <author>
+    <name>{{ site.author.name }}</name>
+    <email>{{ site.author.email }}</email>
+  </author>
+
+  {% for article in collections.articles | limit(20) %}
+    <entry>
+      <title>{{ article.data.title }}</title>
+      <link href="{{ site.url }}{{ article.url }}?utm_medium=feed&amp;utm_source=Atom%20feed&amp;utm_campaign=feed"/>
+      <updated>{{ article.date | attributeDate }}T00:00:00+02:00</updated>
+      <id>{{ site.url }}{{ article.url }}</id>
+      <content type="html">{{ article.templateContent | cleanDeepLinks }}</content>
+    </entry>
+  {% endfor %}
+
+</feed>

@@ -38,6 +38,9 @@ module.exports = function (eleventyConfig) {
   const attributeDate = require("./src/_filters/attributeDate.js");
   eleventyConfig.addFilter("attributeDate", attributeDate);
 
+  const cleanDeepLinks = require("./src/_filters/cleanDeepLinks.js");
+  eleventyConfig.addFilter("cleanDeepLinks", cleanDeepLinks);
+
   eleventyConfig.addFilter("slugify", function (string) {
     return slugify(string, {
       decamelize: false,
