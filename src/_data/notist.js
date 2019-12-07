@@ -5,6 +5,7 @@ const url = 'https://noti.st/nhoizey.json';
 
 module.exports = () => {
   return new Promise((resolve, reject) => {
+    // TODO: add caching
     axios.get(url).then((response) => {
       let talksData = response.data.data[0].relationships.data;
       let talks = {
