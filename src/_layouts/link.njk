@@ -5,7 +5,6 @@ layout: default
 {% from "macros/meta.njk" import meta %}
 
 {% set thumbUrl = 'https://image.thum.io/get/width/1200/crop/800/noanimate/' %}
-{% set cloudinaryPrefix = 'https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,' %}
 <article
     class="main link clearfix h-cite"
     lang="{{ lang }}">
@@ -15,7 +14,7 @@ layout: default
         {% for author in authors %}
           <p class="link__source p-author h-card">
             {% if author.twitter %}
-              <img class="u-photo" src="{{ cloudinaryPrefix }}w_72,h_72/https://avatars.io/twitter/{{ author.twitter }}/large" alt="{{ author.name }} avatar" loading="lazy" width="48" height="48"/>
+              <img class="u-photo largeavatar" src="https://avatars.io/twitter/{{ author.twitter }}/large" alt="{{ author.name }} avatar" loading="lazy" width="48" height="48"/>
               <b class="p-name">{{ author.name }}</b>
               (<svg><use xlink:href="#symbol-twitter"/></svg>&nbsp;<a href="https://twitter.com/{{ author.twitter }}">@{{ author.twitter }}</a>)
             {% else %}
@@ -29,15 +28,11 @@ layout: default
     </div>
     <figure class="link__screenshot">
       <img
-        alt="screenshot"
+        alt="screenshot of {{ title }}"
         width="300"
         height="200"
-        src="{{ cloudinaryPrefix }}w_300,h_200/{{ thumbUrl }}{{ link }}"
-        srcset="
-          {{ cloudinaryPrefix }}w_300,h_200/{{ thumbUrl }}{{ link }} 300w,
-          {{ cloudinaryPrefix }}w_600,h_400/{{ thumbUrl }}{{ link }} 600w,
-          {{ cloudinaryPrefix }}w_900,h_600/{{ thumbUrl }}{{ link }} 900w"
-        sizes="(min-width:60em) 21.6em, (min-width: 40em) 36vw, 100vw"
+        src="{{ thumbUrl }}{{ link }}"
+        class="screenshot"
         >
     </figure>
   </div>

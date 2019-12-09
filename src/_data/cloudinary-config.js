@@ -38,6 +38,33 @@ module.exports = {
       sizes: '(max-width: 20rem) 45vw, (max-width: 30rem) 30vw, (max-width: 67rem) 22.5vw, 15rem',
       classes: ['onefourth', 'right']
     },
+    vignette: {
+      fallbackWidth: 300,
+      minWidth: 120,
+      maxWidth: 560,
+      sizes: '(max-width: 20rem) 45vw, (max-width: 67rem) 30vw, 20rem'
+    },
+    smallavatar: {
+      fallbackWidth: 24,
+      minWidth: 24,
+      maxWidth: 48,
+      steps: 3,
+      sizes: '24px'
+    },
+    largeavatar: {
+      fallbackWidth: 48,
+      minWidth: 48,
+      maxWidth: 96,
+      steps: 3,
+      sizes: '48px'
+    },
+    screenshot: {
+      fallbackWidth: 300,
+      minWidth: 300,
+      maxWidth: 900,
+      sizes: '(min-width:60em) 21.6em, (min-width: 40em) 36vw, 100vw',
+      figure: 'never'
+    },
     logo: {
       fallbackWidth: 300,
       minWidth: 120,
