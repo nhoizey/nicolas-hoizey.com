@@ -12,7 +12,7 @@ const site = require("../_data/site.js");
 const cloudinaryConfig = require("../_data/cloudinary-config.js");
 
 module.exports = function (value, outputPath) {
-  if (outputPath.endsWith(".html") && outputPath.match(/^dist\/articles\//)) {
+  if (outputPath.endsWith(".html")) {
     // Default settings
     let globalSettings = {
       fallbackWidth: 640,
