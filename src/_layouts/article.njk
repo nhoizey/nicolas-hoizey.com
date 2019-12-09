@@ -37,9 +37,7 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
 
 <article
     class="main clearfix h-entry"
-    lang="{{ lang }}"
-    data-img-src="{{ page.inputPath | mdpath2imgpath}}"
-    data-img-dist="./dist{{ page.url | replace('.html', '') }}">
+    lang="{{ lang }}">
   <h1 id="post" class="card__title p-name">{{ title }}</h1>
 
   {% from "macros/meta.njk" import meta %}

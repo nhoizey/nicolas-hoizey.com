@@ -40,9 +40,14 @@ module.exports = function (value, outputPath) {
     const document = DOM.window.document;
     const articleImages = [...document.querySelectorAll("main article img")];
     if (articleImages.length) {
-      let article = document.querySelector('main article');
-      let srcPath = article.getAttribute('data-img-src');
-      let distPath = article.getAttribute('data-img-dist');
+
+      // Get images src and dist path from attributes on body
+      // TODO: move to context data
+      let documentBody = document.querySelector('body');
+      let srcPath = documentBody.getAttribute('data-img-src');
+      let distPath = documentBody.getAttribute('data-img-dist');
+      documentBody.removeAttribute('data-img-src');
+      documentBody.removeAttribute('data-img-dist');
 
       articleImages.forEach(image => {
         let imageUrl = '';

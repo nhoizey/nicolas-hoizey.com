@@ -3,7 +3,13 @@
 
   {% include "head.njk" %}
 
-  <body itemscope itemtype="https://schema.org/{% if "about/" in page.inputPath %}aboutpage{% else %}webpage{% endif %}" class="{%- include "current-type.njk" -%}">
+  <body
+    itemscope
+    itemtype="https://schema.org/{% if "about/" in page.inputPath %}aboutpage{% else %}webpage{% endif %}"
+    class="{%- include "current-type.njk" -%}"
+    data-img-src="{{ page.inputPath | mdpath2imgpath }}"
+    data-img-dist="./dist{{ page.url }}"
+  >
 
     {% include "components/svg-sprite.njk" %}
 
