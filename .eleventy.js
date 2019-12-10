@@ -77,6 +77,10 @@ module.exports = function (eleventyConfig) {
     return inputPath.replace(/[^/]+\.md$/, '');
   });
 
+  eleventyConfig.addFilter("uniq", function (array) {
+    return [...new Set(array)];
+  });
+
   // ------------------------------------------------------------------------
   // Shortcodes
   // ------------------------------------------------------------------------
