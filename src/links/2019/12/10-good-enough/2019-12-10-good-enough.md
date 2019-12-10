@@ -1,5 +1,5 @@
 ---
-date: 2019-12-10 11:17:40 +0200
+date: 2019-12-10 11:17:40 +02:00
 title: "Good Enough"
 lang: en
 link: https://mxb.dev/blog/good-enough/
