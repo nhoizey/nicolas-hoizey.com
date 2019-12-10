@@ -14,7 +14,6 @@ permalink: /feeds/articles.xml
     <name>{{ site.author.name }}</name>
     <email>{{ site.author.email }}</email>
   </author>
-
   {% for entry in collections.articles | limit(20) %}
     {% set absoluteEntryUrl %}{{ entry.url | url | absoluteUrl(site.url) }}{% endset %}
     <entry>
@@ -25,5 +24,4 @@ permalink: /feeds/articles.xml
       <content type="html">{{ entry.templateContent | cleanDeepLinks | htmlToAbsoluteUrls(absoluteEntryUrl) }}</content>
     </entry>
   {% endfor %}
-
 </feed>
