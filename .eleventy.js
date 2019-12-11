@@ -1,6 +1,7 @@
 const slugify = require("@sindresorhus/slugify");
 const { parse, stringify } = require("flatted/cjs");
 const cheerio = require('cheerio');
+const path = require('path');
 
 module.exports = function (eleventyConfig) {
 
@@ -73,8 +74,8 @@ module.exports = function (eleventyConfig) {
     return $.html();
   });
 
-  eleventyConfig.addFilter("mdpath2imgpath", function (inputPath) {
-    return inputPath.replace(/[^/]+\.md$/, '');
+  eleventyConfig.addFilter("dirname", function (filePath) {
+    return path.dirname(filePath);
   });
 
   eleventyConfig.addFilter("uniq", function (array) {

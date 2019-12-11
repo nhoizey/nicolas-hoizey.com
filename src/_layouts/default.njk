@@ -7,7 +7,7 @@
     itemscope
     itemtype="https://schema.org/{% if "about/" in page.inputPath %}aboutpage{% else %}webpage{% endif %}"
     class="{%- include "current-type.njk" -%}"
-    data-img-src="{{ page.inputPath | mdpath2imgpath }}"
+    data-img-src="{{ page.inputPath | dirname }}/"
     data-img-dist="./dist{{ page.url }}"
   >
 
