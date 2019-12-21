@@ -35,6 +35,7 @@
 .card__title {
   margin: 0;
   padding: 0;
+  letter-spacing: -0.02em;
 
   .card--article & {
     font-size: var(--font-size-xl);
