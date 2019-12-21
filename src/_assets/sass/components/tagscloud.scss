@@ -1,0 +1,60 @@
+.tagscloud__tags {
+  list-style: none;
+  padding: 0;
+
+  li {
+    display: inline-block;
+    margin: 0;
+  }
+
+  a {
+    &:link,
+    &:visited {
+      display: inline-block;
+      margin: 0.2em 0.3em;
+      padding: 0.1em 0.3em;
+
+      text-decoration: none;
+      white-space: nowrap;
+
+      background-color: $color-primary-lighter-2;
+      color: $color-white;
+      border-radius: 0.2em;
+    }
+
+    &.tag2 {
+      &:link,
+      &:visited {
+        background-color: $color-primary-lighter-1;
+      }
+    }
+
+    &.tag3 {
+      &:link,
+      &:visited {
+        background-color: $color-primary;
+      }
+    }
+
+    &:hover,
+    &:focus {
+      background-color: $link-decoration-color;
+      outline: none;
+    }
+
+    &:active {
+      background-color: $color-secondary;
+
+      &.tag2,
+      &.tag3 {
+        background-color: $color-secondary;
+      }
+    }
+  }
+}
+
+img.tag {
+  max-width: 25%;
+  float: right;
+  margin: 0 0 2em 1em;
+}

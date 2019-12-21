@@ -1,0 +1,55 @@
+// ************************************************************
+// Base colors
+// ************************************************************
+
+$color-white: #fff;
+$color-blue: #39f;
+$color-red: #f33;
+$color-lightgrey: #eee;
+$color-grey: #bbb;
+$color-darkgrey: #555;
+$color-gold: #937c07;
+
+// ************************************************************
+// Colors palette
+// ************************************************************
+//
+// Rebecca Purple:
+//   https://www.economist.com/babbage/2014/06/23/the-colour-purple
+// Persimmon:
+//   https://en.wikipedia.org/wiki/Shades_of_orange#Persimmon
+// http://gka.github.io/palettes/#diverging|c0=#663399,#ffffff|c1=#ffffff,#EC5800|steps=11|bez0=1|bez1=1|coL0=1|coL1=1
+
+$color-primary: rebeccapurple; // #663399;
+$color-primary-lighter-1: #865aad;
+$color-primary-lighter-2: #a582c2;
+$color-primary-lighter-3: #c3abd6;
+$color-primary-lighter-4: #e1d4eb;
+$color-primary-lighter-5: #e8def0;
+
+$color-secondary: #ec5800;
+$color-secondary-lighter-1: #f87c3f;
+$color-secondary-lighter-2: #ff9f70;
+$color-secondary-lighter-3: #ffc0a1;
+$color-secondary-lighter-4: #ffe0d0;
+$color-secondary-lighter-5: #ffeadf;
+
+// Global styles
+$background-color: #fff;
+$text-color: #222;
+
+$link-decoration-color: $color-blue;
+
+$meta-color: $color-darkgrey;
+$meta-icon-color: $color-grey;
+$meta-link-decoration-color: $color-grey;
+
+$inline-code-background-color: #fff4d1;
+$inline-code-text-color: #111;
+
+$icon-link-color: #aaa;
+$icon-hover-color: $color-secondary;
+
+$baseline: 1.5rem;
+
+$cloudinary-prefix: "https://res.cloudinary.com/nho/image/fetch/c_limit,f_auto,q_auto,w_";

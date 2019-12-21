@@ -1,0 +1,16 @@
+---
+id: comment-2867805990
+date: '2006-09-15 15:29:10 +0000'
+updated: '2006-09-15 15:29:10 +0000'
+post_id: "/2006/03/comment-faire-un-tag-cloud-nuage-de-tags-ou-d-etiquettes-accessible"
+author:
+  url: https://nicolas-hoizey.com/
+  email: 
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<p>Parce que :</p><br /><ul><li>
+  d'une part, le nuage est en général présent dans une page
+  où se trouvent déjà ces éléments hiérarchiques</li><li> et surtout, d'autre part, parce qu'ils
+  permettent d'exprimer une hiérarchie, et non une importance relative. Un
+  h2 doit être dans un h1, alors qu'un tag est plus ou moins important qu'un
+  autre, mais pas forcément &#034;inclus&#034; sémantiquement</li></ul>"

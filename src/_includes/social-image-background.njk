@@ -1,0 +1,10 @@
+{%- set image_width = 1200 -%}
+{%- set image_height = 630 -%}
+{%- set avatar = "https://nicolas-hoizey.com/assets/photo-de-nicolas-hoizey.jpg" -%}
+{%- set twitter_logo = "https://nicolas-hoizey.com/assets/logos/twitter.png" -%}
+{%- set background_image = site.url + '/assets/opengraph/background-raw.png' -%}
+{%- set padding = 50 -%}
+{%- set font = "Noto%20Serif" -%}
+{%- capture website -%}l_text:{{ font }}_50:nicolas-hoizey.com,g_south_west,x_{{ padding | plus: 1 }},y_{{ padding }},co_black/l_text:{{ font }}_50:nicolas-hoizey.com,g_south_west,x_{{ padding }},y_{{ padding | plus: 1 }},co_white{%- endcapture -%}
+{%- capture twitter -%}l_fetch:{{ twitter_logo | base64_encode }},g_south_east,x_260,y_{{ padding }},c_fill,w_50,r_max/l_text:{{ font }}_50:nhoizey,g_south_east,x_{{ padding }},y_{{ padding }},co_black/l_text:{{ font }}_50:nhoizey,g_south_east,x_{{ padding | plus: 1 }},y_{{ padding | plus: 1 }},co_white{%- endcapture -%}
+https://res.cloudinary.com/nho/image/fetch/{{ website }}/{{ twitter }}/{{ background_image }}

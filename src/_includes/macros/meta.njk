@@ -1,0 +1,36 @@
+{% macro meta(url, date, tags) %}
+  <footer>
+    <ul class="meta">
+      <li class="meta__item card__author">
+        Published by <a class="p-author h-card" rel="me" href="https://nicolas-hoizey.com">Nicolas Hoizey</a>
+      </li>
+      <li class="date meta__item card__date">
+        <svg class="icon"><use xlink:href="#symbol-date" /></svg>
+        <time class="dt-published" datetime="{{ date | attributeDate }}">
+          {{ date | dateFormat("Do MMMM YYYY") }}
+        </time>
+      </li>
+      <li class="tags meta__item card__tags">
+        <svg class="icon"><use xlink:href="#symbol-tags" /></svg>&nbsp;
+        {% set comma = joiner(", ") %}
+        {% for tag in tags %}
+          {{ comma() }}
+          <a href="/tags/{{ tag | slugify }}.html" rel="tag" class="p-category">{{ tag }}</a>
+        {% endfor %}
+      </li>
+      {#
+      {% set webmention_count_value %}{% webmention_count url %}
+      {% endset %}
+      {% set webmention_count_int = webmention_count_value | striptags | int %}
+      {% if webmention_count_int > 0 %}
+        <li class="webmentions meta__item card__webmentionscount">
+          <svg class="icon"><use xlink:href="#symbol-webmentions" /></svg>
+          <a href="{{ url }}#webmentions">{{ webmention_count_int }} webmention{% if webmention_count_int > 1 %}s{% endif %}
+          </a>
+        </li>
+      {% endif %}
+      #}
+    </ul>
+  </footer>
+{% endmacro %}
+

@@ -1,0 +1,49 @@
+.years {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+
+  .previous {
+    order: 1;
+    flex: 1;
+  }
+
+  h1 {
+    order: 2;
+    flex: 2;
+    text-align: center;
+
+    span {
+      display: none;
+
+      @media (min-width: 25em) {
+        display: inline;
+      }
+    }
+  }
+
+  .following {
+    order: 3;
+    flex: 1;
+    text-align: right;
+  }
+}
+
+.archive-month {
+  text-decoration: none;
+
+  &:link,
+  &:visited {
+    color: #000;
+  }
+
+  &:hover,
+  &:active {
+    color: $color-secondary;
+    text-decoration: underline;
+  }
+
+  &:first-letter {
+    text-transform: capitalize;
+  }
+}

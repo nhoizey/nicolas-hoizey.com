@@ -8,4 +8,4 @@ Découvrez en exclusivité les incroyables possibilités que l'iPad 3 offrira, r
 
 C'est en allemand malheureusement, mais les images parlent d'elles-mêmes :
 
-{% youtube tDTte61iCJU %}
+{% youtube "tDTte61iCJU" %}

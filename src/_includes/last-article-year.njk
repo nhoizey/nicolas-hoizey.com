@@ -1,0 +1,3 @@
+{%- for article in collections.articles | limit(1) -%}
+  {{- article.date | dateFormat("YYYY") -}}
+{%- endfor -%}

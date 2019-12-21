@@ -1,0 +1,60 @@
+---
+layout: page
+title: Talks
+eleventyExcludeFromCollections: true
+---
+
+{% set nowTimestamp = build.timestamp %}
+
+{% for talk in notist.talks.future %}
+  {% if loop.first %}
+    <p>Here are my upcoming talks:</p>
+    <ul class="list">
+  {% endif %}
+  <li class="list__item">
+    <div class="card">
+      <p class="card__title">
+        <a href="{{ talk.links.self }}">{{ talk.attributes.title }}</a>
+      </p>
+      <footer>
+        <ul class="meta">
+          <li class="date meta__item card__date">
+            <svg class="icon"><use xlink:href="#symbol-date" /></svg>
+            <time class="dt-published" datetime="{{ talk.attributes.presented_on | attributeDate }}">
+              {{ talk.attributes.presented_on | dateFormat("Do MMMM YYYY") }}
+            </time>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </li>
+  {% if loop.last %}
+    </ul>
+  {% endif %}
+{% endfor %}
+
+<p>Here are a few talks I gave along the years:</p>
+<ul class="list">
+  {% for talk in notist.talks.past %}
+    <li class="list__item">
+      <div class="card">
+        <figure class="card__image">
+          <img src="{{ talk.attributes.image.src }}" alt="Slides from the talk “{{ talk.attributes.title }}”" class="vignette" />
+        </figure>
+        <p class="card__title">
+          <a href="{{ talk.links.self }}">{{ talk.attributes.title }}</a>
+        </p>
+        <footer>
+          <ul class="meta">
+            <li class="date meta__item card__date">
+              <svg class="icon"><use xlink:href="#symbol-date" /></svg>
+              <time class="dt-published" datetime="{{ talk.attributes.presented_on | attributeDate }}">
+                {{ talk.attributes.presented_on | dateFormat("Do MMMM YYYY") }}
+              </time>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </li>
+  {% endfor %}
+</ul>

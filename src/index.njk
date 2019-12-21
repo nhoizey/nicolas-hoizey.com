@@ -1,0 +1,72 @@
+---
+layout: default
+title: Home
+eleventyExcludeFromCollections: true
+---
+
+{#
+JSON-LD for:
+- Site name: https://developers.google.com/search/docs/data-types/sitename
+- Site links searchbox: https://developers.google.com/search/docs/data-types/sitelinks-searchbox
+- Social Profile Links: https://developers.google.com/search/docs/data-types/social-profile-links
+#}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Nicolas Hoizey",
+  "url": "https://nicolas-hoizey.com/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://nicolas-hoizey.com/search.html?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "sameAs": [
+    "https://twitter.com/nhoizey",
+    "https://www.flickr.com/photos/nicolas-hoizey/",
+    "https://www.facebook.com/nhoizey.photo/",
+    "https://instagram.com/nhoizey",
+    "https://github.com/nhoizey"
+  ]
+}
+</script>
+
+{% from "macros/articleCard.njk" import articleCard %}
+
+<h2>Latest articles</h2>
+<ul class="list">
+  {% for article in collections.articles | limit(3) %}
+    <li class="list__item list__item--large">
+      <div class="card card--article h-entry">
+        {{ articleCard(article.data.title, article.url, article.data.lang, article.date, article.data.tags, article.templateContent ) }}
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+<p>Read <a href="/articles/">all articles</a>…</p>
+
+{% from "macros/linkCard.njk" import linkCard %}
+
+<h2>Latest links</h2>
+<ul class="list">
+  {% for link in collections.links | limit(6) %}
+    <li class="list__item">
+      <div class="card card--link h-entry">
+        {{ linkCard(link.data.title, link.url, link.data.link, link.data.authors, link.date, link.data.tags) }}
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+<p>Discover <a href="/links/">all links</a>…</p>
+
+{#
+<section class="tagscloud">
+  <p>Find other contents by frequent tags:</p>
+  {% set cloud %}
+  {% include "components/tags-cloud.njk" %}
+  {% endset %}
+  {{ cloud | frequent_tags }}
+  <p>See <a href="/tags/">the full tags cloud</a> for even more content.</p>
+</section>
+#}

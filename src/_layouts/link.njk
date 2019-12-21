@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+{% from "macros/meta.njk" import meta %}
+
+{% set thumbUrl = 'https://image.thum.io/get/width/1200/crop/800/noanimate/' %}
+<article
+    class="main link clearfix h-cite"
+    lang="{{ lang }}">
+  <div class="link__header">
+    <div class="link__info">
+      {% if authors %}
+        {% for author in authors %}
+          <p class="link__source p-author h-card">
+            {% if author.twitter %}
+              <img class="u-photo largeavatar" src="https://avatars.io/twitter/{{ author.twitter }}/large" alt="{{ author.name }} avatar" loading="lazy" width="48" height="48"/>
+              <b class="p-name">{{ author.name }}</b>
+              (<svg><use xlink:href="#symbol-twitter"/></svg>&nbsp;<a href="https://twitter.com/{{ author.twitter }}">@{{ author.twitter }}</a>)
+            {% else %}
+              <b class="p-name">{{ author.name }}</b>
+            {% endif %}
+          </p>
+        {% endfor %}
+      {% endif %}
+      <h1>{{ title }}</h1>
+      {{ meta(url, date, tags) }}
+    </div>
+    <figure class="link__screenshot">
+      <img
+        alt="screenshot of {{ title }}"
+        width="300"
+        height="200"
+        src="{{ thumbUrl }}{{ link }}"
+        class="screenshot"
+        >
+    </figure>
+  </div>
+  <p class="link__link">
+    <a href="{{ link }}">{{ link }}</a>
+  </p>
+  {{ content | safe }}
+
+  {% include "components/webmentions.njk" %}
+</article>

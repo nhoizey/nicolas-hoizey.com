@@ -1,0 +1,12 @@
+{%- set current = page.url | split('/') | first -%}
+{%- set firstChar = current | truncate(1, true, "") -%}
+{%- if page.title == "Homepage" -%}
+  {%- set current = "homepage" -%}
+{%- endif -%}
+{%- if page.type == "year" or page.type == "month" or firstChar == "2" -%}
+  {%- set current = "articles" -%}
+{%- endif -%}
+{%- if current == "" -%}
+  {%- set current = "page" -%}
+{%- endif -%}
+{{ current }}

@@ -1,0 +1,16 @@
+---
+layout: default
+title: Every character
+---
+
+<h1>Every character</h1>
+
+{% from "macros/articleCard.njk" import articleCard %}
+
+{% set every_char = '' %}
+{% for article in collections.articles %}
+  {% set article_chars %}{{ articleCard(article.data.title, article.url, article.data.lang, article.date, article.data.tags, article.templateContent ) }}{{ article.templateContent }}{% endset %}
+  {% set new_every_char %}{{ every_char }}{{ article_chars | striptags | split("") | uniq | join("") }}{% endset %}
+  {% set every_char = new_every_char %}
+{% endfor %}
+{{ every_char | striptags | split("") | uniq | sort | join("") }}

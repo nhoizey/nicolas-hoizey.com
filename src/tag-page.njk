@@ -1,0 +1,39 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+  addAllPagesToCollections: true
+layout: page
+renderData:
+  title: Content tagged “{{ tag }}”
+permalink: /tags/{{ tag | slugify }}.html
+---
+
+<h1>Content tagged “{{ tag }}”</h1>
+
+{% from "macros/articleCard.njk" import articleCard %}
+{% from "macros/linkCard.njk" import linkCard %}
+
+<ul class="list">
+  {% set contentItems = collections[ tag ] %}
+  {% for item in contentItems | reverse %}
+    {% if item.data.layout == "article" %}
+      <li class="list__item list__item--large">
+        <div class="card card--article h-entry">
+          {{ articleCard(item.data.title, item.url, item.data.lang, item.date, item.data.tags, item.templateContent ) }}
+        </div>
+      </li>
+    {% else %}
+      <li class="list__item">
+        <div class="card card--article h-entry">
+          {{ linkCard(item.data.title, item.url, item.data.link, item.data.authors, item.date, item.data.tags) }}
+        </div>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<p>See <a href="/tags/">all tags</a>.</p>

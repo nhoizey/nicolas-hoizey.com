@@ -1,0 +1,56 @@
+.card {
+  margin: 0;
+  padding: 0;
+}
+
+.card__image img {
+  margin: 0;
+  border: 1px solid #ddd;
+}
+
+.card__source {
+  margin: 0;
+  padding: 0;
+  font-size: var(--font-size-xs);
+  color: $color-darkgrey;
+
+  .u-photo {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    width: 1.2em;
+    height: auto;
+    border-radius: 0.3em;
+    vertical-align: middle;
+    overflow: hidden;
+  }
+
+  svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+  }
+}
+
+.card__title {
+  margin: 0;
+  padding: 0;
+  letter-spacing: -0.02em;
+
+  .card--article & {
+    font-size: var(--font-size-xl);
+  }
+}
+
+.card__excerpt {
+  margin: 0.5em 0;
+}
+
+.card__author {
+  display: none;
+}
+
+.card__date,
+.card__webmentionscount {
+  white-space: nowrap;
+}

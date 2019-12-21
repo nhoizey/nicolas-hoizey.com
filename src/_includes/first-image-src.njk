@@ -1,0 +1,38 @@
+{%
+set foundImage = 0 %}{%
+set images = include.page.content | split:'<img ' %}{%
+for image in images %}{%
+  set imageTag = image | split: '>' | first %}{%
+  if foundImage == 1 %}{%
+    break %}{%
+  elif 'srcset="' in imageTag %}{%
+    set attributes = imageTag | split:' ' %}{%
+    for attr in attributes %}{%
+      if 'srcset' in attr %}{%
+        set srcset = attr | split:'"' %}{%
+        set srcset = srcset[1] | strip %}{%
+        set srcset = srcset | split:'://' | last %}{%
+        set srcset = srcset | split:' ' | first %}{%
+        if 'localhost' in srcset %}http://{%
+        else %}https://{%
+        endif %}{{ srcset }}{%
+        break %}{%
+      endif %}{%
+    endfor %}{%
+    set foundImage = 1 %}{%
+  elif 'src="' in imageTag %}{%
+    set attributes = imageTag | split:' ' %}{%
+    for attr in attributes %}{%
+      if 'src' in attr %}{%
+        set src = attr | split:'"' %}{%
+        set src = src[1] | strip %}{%
+        set src = src | split:'://' | last %}{%
+        if 'localhost' in src %}http://{%
+        else %}https://{%
+        endif %}{{ src }}{%
+        break %}{%
+      endif %}{%
+    endfor %}{%
+    set foundImage = 1 %}{%
+  endif %}{%
+endfor %}

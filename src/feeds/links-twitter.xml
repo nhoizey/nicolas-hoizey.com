@@ -1,0 +1,60 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Nicolas Hoizey's links</title>
+  <link href="{{ site.url }}/feeds/links-twitter.xml" rel="self" type="application/rss+xml" />
+  <link href="{{ site.url }}/?utm_medium=social&amp;utm_source=Twitter&amp;utm_campaign=feed" />
+  <updated>{{ build.timestamp | attributeDate }}</updated>
+  <id>{{ site.url }}/links/</id>
+  <author>
+    <name>{{ site.author.name }}</name>
+    <email>{{ site.author.email }}</email>
+  </author>
+  {% assign links = site.categories['links'] %}
+  {% for link in links limit:20 %}
+    {% assign link_date_in_seconds = link.date | date: "%s" | int %}
+    {% assign now_in_seconds = "now" | date: "%s" | int %}
+    {% if link_date_in_seconds < now_in_seconds %}
+
+      {%- assign posse_title = link.title | markdown_to_tweet -%}
+      {%- if link.author -%}
+        {%- assign posse_content = link.author + ': ' -%}
+      {%- else -%}
+        {%- assign posse_content = '' -%}
+      {%- endif %}
+      {%- assign posse_content = posse_content + posse_title | truncate(200) -%}
+      {%- comment -%}{%- assign posse_url = link.link -%}{%- endcomment -%}
+      {%- assign posse_url = site.url + link.url -%}
+
+      {% comment %} https://developer.twitter.com/en/docs/basics/counting-characters.html {% endcomment %}
+      {%- assign tweet_without_meta_size = site.posseify.twitter.link.template | replace: '@posse_content', posse_content | replace: '@posse_tags', '' | replace: '@posse_url', '' | size -%}
+
+      {% comment %} https://help.twitter.com/en/using-twitter/how-to-tweet-a-link {% endcomment %}
+      {%- assign space_left = site.posseify.twitter.max_length - tweet_without_meta_size - site.posseify.twitter.url_length -%}
+
+      {%- assign posse_tags = '' -%}
+      {%- assign posse_tags_nb = 0 -%}
+      {%- for tag in link.tags -%}
+        {%- if posse_tags_nb < site.posseify.twitter.link.max_hashtags %}
+          {%- capture new_tag -%}#{{ tag | slugify: 'latin' | camelcase + ' ' }}{%- endcapture -%}
+          {%- assign new_space_left = space_left - new_tag.size -%}
+          {%- if new_space_left > 0 -%}
+            {%- assign posse_tags = posse_tags + new_tag -%}
+            {%- assign space_left = space_left - new_tag.size -%}
+          {%- endif -%}
+        {%- endif -%}
+      {%- endfor -%}
+
+      {%- assign tweet = site.posseify.twitter.link.template | replace: '@posse_content', posse_content | replace: '@posse_tags', posse_tags | replace: '@posse_url', posse_url -%}
+    <entry>
+      <title>{{ link.title | xml_escape }}</title>
+      <content>{{ tweet | xml_escape }}</content>
+      <id>{{ posse_url }}</id>
+      <link href="https://res.cloudinary.com/nho/image/fetch/c_fill,f_png,q_auto,w_1200,h_630/http://image.thum.io/get/width/1200/crop/630/noanimate/{{ link.link }}"/>
+      <updated>{{ link.date | attributeDate }}</updated>
+    </entry>
+    {% endif %}
+  {% endfor %}
+</feed>

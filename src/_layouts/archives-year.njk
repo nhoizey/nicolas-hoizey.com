@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+{% asset "components/archives" @inline %}
+
+{% set this_year = page.date | date : "%Y" | plus : 0 %}
+{% set max_year = build.timestamp | date : "%Y" | plus : 0 %}
+{% set yearsNavigation %}
+  <p class="previous">
+    {% if this_year > 2001 %}
+      <a href="/{{ this_year | minus: 1 }}/">«&nbsp;{{ this_year | minus: 1 }}</a>
+    {% else %}
+      <span title="No previous content, sorry">«&nbsp;{{ this_year | minus: 1 }}</span>
+    {% endif %}
+  </p>
+  <p class="following">
+    {% if this_year < max_year %}
+      <a href="/{{ this_year | plus: 1 }}/">{{ this_year | plus: 1 }}&nbsp;»</a>
+    {% else %}
+      <span title="Not yet!">{{ this_year | plus: 1 }}&nbsp;»</span>
+    {% endif %}
+  </p>
+{% endset %}
+
+<div class="years">
+  {{ yearsNavigation }}
+  <h1>
+    <span class="label">Articles from </span>{{ page.date | date: "%Y" }}</h1>
+</div>
+
+{% set month = "" %}
+{% for post in page.posts %}
+  {% unless 'links' in post.categories %}
+    {% set post_month = post.date | date : "%m" %}
+    {% if post_month != month %}
+      {% if month != "" %}
+    </ul>
+  {% endif %}
+  <h2 class="list__title">{{ post.date | date: "%B" | capitalize }}
+    {{ page.date | date: "%Y" }}</h2>
+  <ul class="list">
+    {% set month = post_month %}
+  {% endif %}
+  <li class="list__item list__item--large">
+    <div class="card card--article">
+      {% include components/post-card.njk page=post %}
+    </div>
+  </li>
+{% endunless %}
+{% endfor %}
+</ul>
+
+<div class="years">
+{{ yearsNavigation }}
+</div>

@@ -1,0 +1,29 @@
+---
+id: comment-2867805895
+date: '2009-12-22 14:45:28 +0000'
+updated: '2009-12-22 14:45:28 +0000'
+post_id: "/2008/01/amusons-nous-avec-des-boucles-spip-et-les-petits-nouveaux-get-set-et-array"
+author:
+  url: https://nicolas-hoizey.com/
+  email:
+  image: nhoizey.jpg
+  name: Nicolas Hoizey
+content: "<blockquote> <p>Un peu hard la lisibilité de la page ! Pensez aux vieux,
+  bande de sales jeunes :-)</p> </blockquote><p>Voilà qui devrait être bien
+  mieux, si c'est bien des couleurs du code qu'il s'agissait !</p><blockquote>
+  <p>tout bêtement, existe-t-il un « if » ?</p> </blockquote>
+  <p>Le « if » est représenté sous différentes formes :</p>
+  <ul>
+    <li>Pour afficher du contenu si une balise, éventuellement filtrée, n'est pas vide</li>
+    <li>Pour afficher du contenu si une boucle renvoie au moins un élément :
+  <code><pre>
+  &lt;b_boucle&gt;Contenu conditionnel avant
+  &lt;boucle_boucle&gt;(STRUCTURE){paramètre}&gt;
+    Contenu bouclé
+  &lt;/boucle_boucle&gt;
+  Contenu conditionnel après
+  &lt;/b_boucle&gt;
+  Contenu si pas d'éléments&lt;//b_boucle&gt;
+  </pre></code></li>
+    <li>* Sinon, voir aussi le type de boucle <code>CONDITION</code> du plugin Bonux</li>
+  </ul>"

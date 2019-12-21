@@ -1,0 +1,22 @@
+.list {
+  clear: both;
+
+  display: grid;
+  grid-gap: calc(#{$baseline} * 2);
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  grid-auto-flow: dense;
+
+  margin: calc(#{$baseline} * 2) 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.list__item {
+  margin: 0;
+  padding: 0;
+}
+
+.list__item--large {
+  grid-column: 1 / -1;
+}

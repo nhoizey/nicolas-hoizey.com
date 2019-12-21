@@ -1,0 +1,28 @@
+.meta {
+  margin: 0.5em 0;
+  padding: 0;
+  color: $meta-color;
+  font-size: var(--font-size-xs);
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.meta__item {
+  margin: 0 1em 0 1.5em;
+  list-style-type: none;
+
+  a {
+    --link-decoration-color: #{$meta-link-decoration-color};
+  }
+
+  svg {
+    fill: $meta-icon-color;
+    vertical-align: middle;
+    margin: 0 0.2em 0 -1.5em;
+    padding: 0;
+
+    width: 1.1em;
+    height: 1.1em;
+  }
+}

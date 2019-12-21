@@ -1,0 +1,553 @@
+@import "settings";
+@import "utilities";
+@import "components/list";
+@import "components/card";
+@import "components/toast";
+@import "components/intro";
+@import "components/link";
+@import "components/comments";
+@import "components/webmentions";
+@import "components/tagscloud";
+@import "rve";
+@import "highlight/prism-onedark";
+
+// ************************************************************
+// General styles
+// ************************************************************
+
+pre {
+  overflow-x: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+video {
+  background-color: #eee;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+figure,
+img,
+iframe,
+.embed-video-container {
+  clear: both;
+  margin: $baseline auto;
+  display: block;
+}
+
+figure {
+  text-align: center;
+
+  img,
+  iframe,
+  .embed-video-container {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+figure, img {
+  &.twothirds {
+    max-width: 66%;
+  }
+
+  &.onehalf {
+    max-width: 50%;
+  }
+
+  &.onethird, &.logo {
+    max-width: 50%;
+
+    @media (min-width: 20em) {
+      max-width: 33%;
+    }
+  }
+
+  &.onefourth {
+    max-width: 50%;
+
+    @media (min-width: 20em) {
+      max-width: 33%;
+    }
+
+    @media (min-width: 30em) {
+      max-width: 25%;
+    }
+  }
+
+  &.left {
+    margin: $baseline auto;
+
+    @media (min-width: 20em) {
+      float: left;
+      margin: 0 $baseline $baseline 0;
+    }
+  }
+
+  &.right, &.logo {
+    margin: $baseline auto;
+
+    @media (min-width: 20em) {
+      float: right;
+      margin: 0 0 $baseline $baseline;
+    }
+  }
+}
+
+.logo {
+  display: block;
+  margin: $baseline auto;
+}
+
+figcaption {
+  // http://nocode.in/aligning-text-smartly-in-css/
+  display: inline-block;
+  text-align: left;
+
+  font-size: var(--font-size-s);
+  font-style: italic;
+  margin: 0.1em 1em;
+  padding: 0.3em 0;
+  color: #666;
+
+  p {
+    margin: 0;
+  }
+}
+
+// ************************************************************
+// no delay on focusable elements in iOS:
+// https://adactio.com/journal/10019
+// https://webkit.org/blog/5610/more-responsive-tapping-on-ios/
+// ************************************************************
+
+a,
+button,
+input,
+select,
+textarea,
+label,
+summary {
+  touch-action: manipulation;
+}
+
+// ************************************************************
+// Deep links
+// ************************************************************
+
+// ************************************************************
+// Main content
+// ************************************************************
+
+.intro {
+  margin: 0 0 2em;
+  font-size: var(--font-size-l);
+  color: #333;
+}
+
+article {
+  margin: 0;
+
+  .e-content {
+    margin: calc(0.75em + 2vw) 0 $baseline / 2 0;
+  }
+
+  .e-content > p:first-of-type {
+    font-size: var(--font-size-l);
+  }
+
+  ul {
+    margin: 1em 0;
+    padding: 0 1em;
+  }
+
+  li {
+    margin: 0 0 0.5em 0;
+  }
+
+  blockquote,
+  .intro,
+  .footnotes {
+    margin: $baseline 0;
+  }
+
+  blockquote {
+    position: relative;
+    overflow: hidden;
+    padding: 0 1em 0 2.5em;
+
+    color: $text-color;
+    background-color: $color-primary-lighter-5;
+    border-radius: 10px;
+
+    font-style: italic;
+
+    &::before {
+      position: absolute;
+      left: 0.1em;
+      top: 0.1em;
+      content: "\201C";
+      color: $color-primary;
+      font-size: 3em;
+      line-height: 1;
+    }
+
+    p:first-child {
+      margin-top: 1em;
+    }
+
+    p:last-child {
+      margin-bottom: 1em;
+    }
+
+    code {
+      background-color: $inline-code-background-color;
+      color: $color-darkgrey;
+      font-style: normal;
+    }
+
+    blockquote {
+      background-color: $color-primary-lighter-3;
+    }
+  }
+
+  table {
+    border-collapse: collapse;
+    font-feature-settings: "tnum" 1;
+
+    @supports (font-variant-numeric: tabular-nums) {
+      font-feature-settings: normal;
+      font-variant-numeric: tabular-nums;
+    }
+  }
+
+  thead {
+    background-color: #eee;
+
+    th {
+      vertical-align: bottom;
+    }
+  }
+
+  th,
+  td {
+    padding: 0.3em 0.5em;
+    border: 1px solid #ccc;
+    vertical-align: top;
+  }
+
+  kbd,
+  code {
+    font-size: var(--font-size-s);
+    display: inline-block;
+    padding: 0 0.2em;
+    border-radius: 0.2em;
+  }
+
+  h2, h3, h4, h5, h6 {
+    kbd,
+    code {
+      font-size: 1em;
+      font-weight: normal;
+      background-color: #fff4d1;
+      color: currentColor;
+    }
+  }
+
+  code {
+    background-color: $inline-code-background-color;
+    color: $inline-code-text-color;
+  }
+
+  pre code {
+    padding: 0.5em;
+  }
+
+  kbd {
+    color: #444d56;
+    background-color: #f3f3f3;
+    border: solid 1px #c6cbd1;
+    border-bottom-color: #959da5;
+    box-shadow: inset 0 -1px 0 #959da5;
+  }
+
+  a:link,
+  a:visited {
+    kbd,
+    code {
+      text-decoration-line: underline;
+      text-decoration-color: var(--link-decoration-color, #{$color-blue});
+    }
+  }
+
+  a:hover,
+  a:focus,
+  a:active {
+    kbd,
+    code {
+      color: inherit;
+      background-color: transparent;
+    }
+  }
+
+  a.footnote.footnote {
+    text-decoration: none;
+    padding: 0.1em 0.4em;
+    margin: 0 0.2em;
+    background-color: #39f;
+    color: #fff;
+    border-radius: 30%;
+
+    // https://css-tricks.com/touch-devices-not-judged-size/
+    @media (pointer: coarse) {
+      padding: 0.3em 0.6em;
+    }
+  }
+
+  a.reversefootnote {
+    text-decoration: none;
+  }
+
+  // https://gist.github.com/unruthless/413930
+  sub,
+  sup {
+    // Specified in % so that the sup/sup is the right size relative to the surrounding text
+    font-size: 75%;
+
+    // Zero out the line-height so that it doesn't interfere with the positioning that follows
+    line-height: 0;
+
+    // Where the magic happens: makes all browsers position the sup/sup properly, relative to the surrounding text
+    position: relative;
+
+    // Note that if you're using Eric Meyer's reset.css, this is already set and you can remove this rule
+    vertical-align: baseline;
+  }
+
+  sup {
+    // Move the superscripted text up
+    top: -0.5em;
+  }
+
+  sub {
+    // Move the subscripted text down, but only half as far down as the superscript moved up
+    bottom: -0.25em;
+  }
+
+  .footnotes {
+    margin: 2em 0;
+    background-color: #eee;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    font-size: var(--font-size-s);
+
+    ol {
+      margin: 0;
+      padding: 0 1em 0 2em;
+      list-style-position: outside;
+    }
+  }
+
+  .socialphoto {
+    background-color: #eef;
+    color: #333;
+    padding: 1em;
+
+    p {
+      margin: 0;
+    }
+
+    span {
+      white-space: nowrap;
+    }
+
+    a {
+      color: #777;
+    }
+  }
+
+  .edit {
+    border-top: 1px dotted #ccc;
+    padding: 0.5em 0;
+    font-size: var(--font-size-s);
+    color: $color-darkgrey;
+
+    // https://sass-lang.com/documentation/style-rules/declarations#custom-properties
+    --link-decoration-color: #{$color-grey};
+  }
+}
+
+.giphy {
+  margin: 2em 0;
+  padding: 0;
+  clear: both;
+
+  video {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+
+// ************************************************************
+// Footer
+// ************************************************************
+
+#footer {
+  white-space: nowrap;
+  margin-top: calc((670 * 0.7) / 1534 * 100vw);
+
+  color: #fff;
+
+  .wrap {
+    @media (min-width: 15em) {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+      & > *:first-child {
+        flex: 1;
+      }
+    }
+  }
+
+  p {
+    margin: 0;
+    line-height: 2;
+
+    &:last-child {
+      text-align: right;
+    }
+  }
+}
+
+
+// File link icons
+a[href$=".zip"],
+a[href$=".kml"] {
+  padding-left: 1.6em;
+  background-size: 1.4em 1.4em;
+}
+
+a[href$=".zip"] {
+  background: url(/assets/icons/zip.svg) 0 0 no-repeat;
+}
+
+a[href$=".kml"] {
+  background: url(/assets/icons/kml.svg) 0 0 no-repeat;
+}
+
+// ************************************************************
+// Search results
+// ************************************************************
+
+#search_results {
+  .ais-Highlight {
+    color: $color-blue;
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  a:hover,
+  a:focus,
+  a:active {
+    .ais-Highlight {
+      color: $color-white;
+    }
+  }
+}
+
+a.icon {
+  font-size: 2em;
+  vertical-align: middle;
+  color: $icon-link-color;
+  text-decoration: none;
+
+  svg {
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+  }
+
+  &:hover {
+    color: $icon-hover-color;
+  }
+}
+
+// background photo in the page bottom
+
+body {
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  background-image: url("#{$cloudinary-prefix}640/https://nicolas-hoizey.com/assets/limbes.jpg");
+
+  @media (min-width: 640px), (min-resolution: 2dppx) {
+    background-image: url("#{$cloudinary-prefix}1024/https://nicolas-hoizey.com/assets/limbes.jpg");
+  }
+
+  @media (min-width: 1024px), (min-width: 512px) and (min-resolution: 2dppx) {
+    background-image: url("#{$cloudinary-prefix}1280/https://nicolas-hoizey.com/assets/limbes.jpg");
+  }
+
+  @media (min-width: 1280px), (min-width: 640px) and (min-resolution: 2dppx) {
+    background-image: url("#{$cloudinary-prefix}1534/https://nicolas-hoizey.com/assets/limbes.jpg");
+  }
+}
+
+// ************************************************************
+// Print styles
+// ************************************************************
+
+@media print {
+  @page {
+    margin: 2cm;
+  }
+
+  a,
+  blockquote,
+  table,
+  pre,
+  img,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    page-break-inside: avoid;
+  }
+
+  img,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    page-break-after: avoid;
+  }
+
+  ul,
+  ol,
+  dl {
+    page-break-before: avoid;
+  }
+
+  a[href^="http"]:after {
+    content: " &lt; " attr(href) "&gt; ";
+  }
+}

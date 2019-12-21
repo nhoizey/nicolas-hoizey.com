@@ -1,0 +1,72 @@
+#search {
+  position: relative;
+  flex: 1;
+
+  p {
+    display: flex;
+    flex-direction: row;
+    line-height: 1;
+    margin: 0.5rem 0;
+  }
+
+  input {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0.3em 1.7em 0.3em 0.7em;
+    border-radius: 2em;
+    outline: none;
+  }
+
+  [type="search"] {
+    background-color: $color-primary-lighter-4;
+    border: 2px solid $color-primary-lighter-2;
+    color: #111;
+    -webkit-appearance: none;
+
+    width: 40%;
+    min-width: 5em;
+    margin-left: auto;
+
+    transition-property: background-color, border-color, color, width;
+    transition-duration: var(--base-duration), var(--base-duration),
+      var(--base-duration), calc(2 * var(--base-duration));
+    transition-timing-function: ease-in-out;
+
+    &:focus {
+      border: 2px solid $color-primary-lighter-2;
+      background-color: #fff;
+      width: 100%;
+    }
+  }
+
+  [type="submit"] {
+    background-color: $color-primary-lighter-4;
+    border: 2px solid $color-primary-lighter-2;
+    color: #fff;
+  }
+
+  label {
+    position: absolute;
+    right: 0.4em;
+    top: 50%;
+    margin-top: -0.6em;
+  }
+
+  svg {
+    vertical-align: middle;
+    width: 0.8em;
+    height: 0.8em;
+    fill: $color-primary-lighter-1;
+  }
+}
+
+#powered-by-algolia {
+  text-align: right;
+  font-size: var(--font-size-s);
+
+  svg {
+    width: 6.3em;
+    height: 2em;
+    vertical-align: bottom;
+  }
+}

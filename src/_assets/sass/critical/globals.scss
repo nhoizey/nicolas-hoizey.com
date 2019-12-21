@@ -1,0 +1,18 @@
+:root {
+  --font-size-base: 0.9rem;
+  --font-size-responsive: 0.5vw;
+  --font-size-scale: 1.1;
+
+  --font-size-m: calc(var(--font-size-base) + var(--font-size-responsive));
+
+  // https://every-layout.dev/rudiments/modular-scale/
+  --font-size-s: calc(var(--font-size-m) / var(--font-size-scale));
+  --font-size-xs: calc(var(--font-size-s) / var(--font-size-scale));
+  --font-size-xxs: calc(var(--font-size-xs) / var(--font-size-scale));
+
+  --font-size-l: calc(var(--font-size-m) * var(--font-size-scale));
+  --font-size-xl: calc(var(--font-size-l) * var(--font-size-scale));
+  --font-size-xxl: calc(var(--font-size-xl) * var(--font-size-scale));
+  --font-size-xxxl: calc(var(--font-size-xxl) * var(--font-size-scale));
+  --font-size-xxxxl: calc(var(--font-size-xxxl) * var(--font-size-scale));
+}

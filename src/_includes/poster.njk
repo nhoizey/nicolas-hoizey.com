@@ -1,0 +1,18 @@
+{% if include.page.poster %}
+  {% set poster_image %}{{ site.url }}{{ include.page.url | url_path }}{{ include.page.poster }}{% endset %}
+{% else %}
+  {% set poster_image = include.page.content | first_image %}
+{% endif %}
+{% if poster_image != "" %}
+  {% if build.env == 'production' %}
+    <img
+      src="https://res.cloudinary.com/nho/image/fetch/w_250,h_250,c_limit,q_auto,f_auto/{{ poster_image }}"
+      srcset="https://res.cloudinary.com/nho/image/fetch/w_100,h_100,c_limit,q_auto,f_auto/{{ poster_image }} 100w, https://res.cloudinary.com/nho/image/fetch/w_250,h_250,c_limit,q_auto,f_auto/{{ poster_image }} 250w, https://res.cloudinary.com/nho/image/fetch/w_500,h_500,c_limit,q_auto,f_auto/{{ poster_image }} 500w"
+      sizes="(max-width: 20rem) 45vw, (max-width: 67rem) 30vw, 20rem"
+      class="poster" />
+  {% else %}
+    <img
+      src="{{ poster_image }}"
+      class="poster" />
+  {% endif %}
+{% endif %}

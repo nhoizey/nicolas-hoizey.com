@@ -1,0 +1,29 @@
+// Hidden for everyone
+.hidden {
+  display: none;
+}
+
+// http://nicolasgallagher.com/micro-clearfix-hack/
+.clearfix {
+  &::after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+}
+
+.responsive-wrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+
+  iframe {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}

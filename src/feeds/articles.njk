@@ -1,0 +1,27 @@
+---
+layout: null
+permalink: /feeds/articles.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Nicolas Hoizey - Articles</title>
+  <link href="{{ site.url }}/feeds/articles.xml" rel="self"/>
+  <link href="{{ site.url }}/articles/"/>
+  <link rel="hub" href="http://pubsubhubbub.superfeedr.com/" />
+  <updated>{{ collections.articles | rssLastUpdatedDate }}</updated>
+  <id>{{ site.url }}/articles/</id>
+  <author>
+    <name>{{ site.author.name }}</name>
+    <email>{{ site.author.email }}</email>
+  </author>
+  {% for entry in collections.articles | limit(20) %}
+    {% set absoluteEntryUrl %}{{ entry.url | url | absoluteUrl(site.url) }}{% endset %}
+    <entry>
+      <title>{{ entry.data.title }}</title>
+      <link href="{{ absoluteEntryUrl }}"/>
+      <updated>{{ entry.date | rssDate }}</updated>
+      <id>{{ absoluteEntryUrl }}</id>
+      <content type="html">{{ entry.templateContent | cleanDeepLinks | htmlToAbsoluteUrls(absoluteEntryUrl) }}</content>
+    </entry>
+  {% endfor %}
+</feed>

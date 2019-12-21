@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include "head.njk" %}
+
+  <body
+    itemscope
+    itemtype="https://schema.org/{% if "about/" in page.inputPath %}aboutpage{% else %}webpage{% endif %}"
+    class="{%- include "current-type.njk" -%}"
+    data-img-src="{{ page.inputPath | dirname }}/"
+    data-img-dist="{{ page.outputPath | dirname }}/"
+  >
+
+    {% include "components/svg-sprite.njk" %}
+
+    <a class="sr-only" href="#main">Jump to main content</a>
+
+    <header id="header" role="banner">
+      <div
+        class="wrap">
+        <!-- {{ page.url }} -->
+        {% if page.url == "/" %}
+          <h1 class="site_title h-card" rel="me">Nicolas Hoizey</h1>
+        {% else %}
+          <p class="site_title">
+            <a class="h-card" href="/" rel="me" title="Homepage">Nicolas Hoizey</a>
+          </p>
+        {% endif %}
+        {% include "components/search-form.njk" %}
+      </div>
+    </header>
+
+    {% include "components/navigation.njk" %}
+
+    {% if page.url == "/" %}
+      {% include "components/intro.njk" %}
+    {% endif %}
+
+    <main id="main" role="main">
+      <div class="wrap">
+        {{ content | safe }}
+      </div>
+    </main>
+    <div class="search">
+      <div class="wrap">
+        <div class="results" id="search_results"></div>
+      </div>
+    </div>
+
+    {% include "components/footer.njk" %}
+
+    <script src="/js/additional.js" async defer></script>
+    <script type="module" src="/sw-window.mjs"></script>
+
+    {#
+    {% if layout == 'article' or layout == 'link' %}
+      <script src="{{ '/js/webmentions.min.js' }}" defer></script>
+    {% endif %}
+    #}
+  </body>
+
+</html>
