@@ -1,6 +1,6 @@
 node_modules
 dist
-logs
+_logs
 _scripts
 _config_credentials.yml
 tmp
