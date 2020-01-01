@@ -1,13 +1,14 @@
 ---
 layout: default
 title: "Page non trouvée"
+permalink: 404.html
 ---
 
 <h1>Page non trouvée</h1>
 <p>Désolé, cette URL est erronée, ou la page correspondante a été supprimée.</p>
 <p>Vous pouvez <a href="/">aller à l'accueil du site</a> ou utiliser la recherche ci-dessus.</p>
 
-<script>
+{# <script>
 let urlWords = window.document.location.pathname;
 urlWords = urlWords.replace(/^\/[0-9]{4}\/[0-9]{2}\//g, '');   // remove date of posts URLs
 urlWords = urlWords.replace(/(\.html|\/)$/, '');               // remove .html or / suffixes
@@ -24,4 +25,4 @@ let keyupEvent = new KeyboardEvent('keyup', {
     cancelable: true
   });
 let cancelledEvent = !searchInput.dispatchEvent(keyupEvent);
-</script>
+</script> #}
