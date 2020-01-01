@@ -734,6 +734,7 @@ RewriteRule ^.well-known/(host-meta|webfinger).* https://fed.brid.gy/$0  [redire
 # ----------------------------------------------------------------------
 
 RewriteRule ^2015/06/un-moteur-de-recherche-sur-un-site-statique-facile-avec-algolia.html /2015/06/la-recherche-dans-du-statique-facile-avec-algolia.html [QSA,L,R=301]
+RewriteRule ^(articles/)?2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-blog-is-the-origin(/|\.html) /articles/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin/ [QSA,L,R=301]
 
 RewriteRule ^a-propos/((index|de-moi)\.html)? /about/ [QSA,L,R=301]
 RewriteRule ^a-propos\.html /about/ [QSA,L,R=301]
@@ -743,7 +744,7 @@ RewriteRule ^a-propos/du-site\.html$ /about/the-website.html [QSA,L,R=301]
 RewriteRule ^2018/08/just.html /links/2018/08/just.html [QSA,L,R=301]
 
 # Move articles as `/articles/` subfolder
-RewriteRule ^([0-9]{4}/[0-9]{2}/.*)\.html$ /articles/$1/ [QSA,L,R=301]
+RewriteRule ^([0-9]{4}/[0-9]{2}/.*)(\.html|/)$ /articles/$1/ [QSA,L,R=301]
 
 # Links pages are now folders
 RewriteRule ^links/([0-9]{4}/[0-9]{2}/.*)\.html$ /links/$1/ [QSA,L,R=301]
