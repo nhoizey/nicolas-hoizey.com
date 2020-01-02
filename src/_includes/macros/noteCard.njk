@@ -1,0 +1,8 @@
+{% macro noteCard(url, lang, date, tags, content) %}
+
+  <div class="card__content e-content" lang="{{ lang }}">{{ content | safe }}</div>
+
+  {% from "macros/meta.njk" import meta %}
+  {{ meta(url, date, tags) }}
+
+{% endmacro %}

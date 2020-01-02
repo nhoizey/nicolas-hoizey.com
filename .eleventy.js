@@ -2,6 +2,7 @@ const slugify = require("@sindresorhus/slugify");
 const { parse, stringify } = require("flatted/cjs");
 const cheerio = require('cheerio');
 const path = require('path');
+const util = require('util');
 
 module.exports = function (eleventyConfig) {
 
@@ -21,6 +22,12 @@ module.exports = function (eleventyConfig) {
     });;
   });
 
+  eleventyConfig.addCollection("notes", function (collection) {
+    return collection.getFilteredByGlob("src/notes/**/*.md").sort(function (a, b) {
+      return b.date - a.date;
+    });;
+  });
+
   eleventyConfig.addCollection("tags", require("./_11ty/getTags"));
 
   // ------------------------------------------------------------------------
@@ -35,6 +42,9 @@ module.exports = function (eleventyConfig) {
 
   const permalinkDate = require("./src/_filters/permalinkDate.js");
   eleventyConfig.addFilter("permalinkDate", permalinkDate);
+
+  const notePermalinkDate = require("./src/_filters/notePermalinkDate.js");
+  eleventyConfig.addFilter("notePermalinkDate", notePermalinkDate);
 
   const attributeDate = require("./src/_filters/attributeDate.js");
   eleventyConfig.addFilter("attributeDate", attributeDate);
@@ -65,7 +75,9 @@ module.exports = function (eleventyConfig) {
     return array.slice(offset);
   });
 
+  // debug utilities
   eleventyConfig.addFilter("safeDump", stringify);
+  eleventyConfig.addFilter("dump", obj => util.inspect(obj));
 
   eleventyConfig.addFilter("stripFootnotes", function (content) {
     // TODO: Use jsdom?
