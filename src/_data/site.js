@@ -9,9 +9,5 @@ module.exports = {
     url: "https://nicolas-hoizey.com/",
     twitter: "nhoizey",
     github: "nhoizey"
-  },
-
-  // Critical CSS results in much slower build times and uses a lot of system resources
-  // See `site/transforms/critical-css-transform.js` for more details
-  criticalCSS: false
+  }
 };
