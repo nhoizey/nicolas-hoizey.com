@@ -168,13 +168,11 @@ function getParameterByName(name) {
 }
 
 var algoliaLinked = false;
-var algoliaLoaded = false;
 var algoliaClient;
 var algoliaIndex;
 
 function onAlgoliaAvailable(callback) {
   if (typeof algoliasearch === "function") {
-    algoliaLoaded = true;
     algoliaClient = algoliasearch(algoliaApplicationId, algoliaApiKey);
     algoliaIndex = algoliaClient.initIndex(algoliaIndexName);
     callback();
@@ -183,7 +181,7 @@ function onAlgoliaAvailable(callback) {
       var algoliaScript = window.document.createElement("script");
       algoliaScript.setAttribute(
         "src",
-        "/assets/javascript/vendors/algoliasearchLite-3.32.0.min.js"
+        "/assets/javascript/vendors/algoliasearchLite-3.35.1.min.js"
       );
       window.document
         .getElementsByTagName("head")[0]
