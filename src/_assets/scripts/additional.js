@@ -260,35 +260,34 @@ function searchCallback(err, content) {
     return;
   }
 
-
-  results =
+  var results =
     `<h1>${resultsNumber} ` +
     (resultsNumber > 1 ? "contents contain" : "content contains") +
     ` <em>${$input.value}</em></h1><ul class="list">`;
 
   for (var i = 0; i < resultsNumber; i++) {
-    hit = content.hits[i];
-    result = "";
+    var hit = content.hits[i];
+    var result = "";
 
-    hit_date = "";
+    var hit_date = "";
     if (hit.date) {
-      js_hit_date = new Date(hit.date * 1000);
-      date_options = { year: "numeric", month: "long", day: "numeric" };
+      var js_hit_date = new Date(hit.date * 1000);
+      var date_options = { year: "numeric", month: "long", day: "numeric" };
       hit_date = js_hit_date.toLocaleDateString("en-US", date_options);
     }
 
-    hit_title = hit._highlightResult.title.value;
-    hit_excerpt = hit._highlightResult.html
+    var hit_title = hit._highlightResult.title.value;
+    var hit_excerpt = hit._highlightResult.html
       ? hit._highlightResult.html.value
       : hit._snippetResult.content
         ? hit._snippetResult.content.value
         : hit.excerpt_html;
 
-    hit_tags = "";
+    var hit_tags = "";
     if (hit._highlightResult.tags) {
       // Build the tags list
       hit_tags = "";
-      hit_tags_number = hit._highlightResult.tags.length;
+      var hit_tags_number = hit._highlightResult.tags.length;
       for (var j = 0; j < hit_tags_number; j++) {
         hit_tags = hit_tags + ", " + hit._highlightResult.tags[j].value;
       }
