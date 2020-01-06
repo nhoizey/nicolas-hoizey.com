@@ -230,10 +230,10 @@ module.exports = function (eleventyConfig) {
   // Transforms
   // ------------------------------------------------------------------------
 
-  const cloudinaryTransform = require("./src/transforms/cloudinary-transform.js");
+  const cloudinaryTransform = require("./src/_transforms/cloudinary-transform.js");
   eleventyConfig.addTransform("cloudinary", cloudinaryTransform);
 
-  const htmlMinTransform = require("./src/transforms/html-min-transform.js");
+  const htmlMinTransform = require("./src/_transforms/html-min-transform.js");
   eleventyConfig.addTransform("htmlmin", htmlMinTransform);
 
   // ------------------------------------------------------------------------
