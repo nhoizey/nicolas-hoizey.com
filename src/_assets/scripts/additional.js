@@ -260,7 +260,6 @@ function searchCallback(err, content) {
     return;
   }
 
-  var result, results, hit, hit_title, hit_excerpt, hit_date, js_hit_date, date_options, hit_tags;
 
   results =
     `<h1>${resultsNumber} ` +
