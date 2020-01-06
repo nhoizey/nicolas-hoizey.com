@@ -2,34 +2,15 @@ importScripts(
   "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js"
 );
 
-{% capture aboutPage %} {% include_relative about / index.md %} {% endcapture %}
-{% capture aboutSitePage %} {% include_relative about / the - website.md %} {% endcapture %}
-{% capture manifestFile %} {% include_relative manifest.webmanifest %} {% endcapture %}
-{% capture offlineFile %} {% include_relative offline.html %} {% endcapture %}
-{% capture offlineFallbackFile %} {% include_relative offline - fallback.html %} {% endcapture %}
-{% capture defaultScreenshot %} {% include_relative assets /default -screenshot.svg %} {% endcapture %}
-
 const offlineFallback = "/offline-fallback.html";
 const preCachedFiles = [
   '/css/additional.css',
   '/js/additional.js',
   '/assets/fonts/notoserif-regular-subset.woff2',
-  {
-    url: "/assets/default-screenshot.svg",
-    revision: "{{ defaultScreenshot | md5 }}"
-  },
-  {
-    url: "/manifest.webmanifest",
-    revision: "{{ manifestFile | md5 }}"
-  },
-  {
-    url: "/offline.html",
-    revision: "{{ offlineFile | md5 }}"
-  },
-  {
-    url: offlineFallback,
-    revision: "{{ offlineFallbackFile | md5 }}"
-  }
+  '/manifest.webmanifest',
+  '/assets/default-screenshot.svg',
+  '/offline.html',
+  offlineFallback,
 ];
 const preCachedPages = ["/about/", "/about/the-website.html"];
 const pagesCacheName = "pages";

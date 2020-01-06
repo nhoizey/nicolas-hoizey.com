@@ -1,4 +1,4 @@
-import { Workbox } from "https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-window.prod.mjs";
+import { Workbox } from "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-window.prod.mjs";
 
 if ("serviceWorker" in navigator) {
   const wb = new Workbox("/sw.js");
@@ -19,7 +19,7 @@ if ("serviceWorker" in navigator) {
   wb.addEventListener("waiting", event => {
     console.info(
       `A new service worker has installed, but it can't activate` +
-        `until all tabs running the current version have fully unloaded.`
+      `until all tabs running the current version have fully unloaded.`
     );
   });
 

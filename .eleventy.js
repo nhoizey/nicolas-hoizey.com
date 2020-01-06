@@ -244,7 +244,9 @@ module.exports = function (eleventyConfig) {
     .addPassthroughCopy("src/assets")
     .addPassthroughCopy("src/.well-known")
     .addPassthroughCopy("src/.htaccess")
-    .addPassthroughCopy("src/manifest.webmanifest");
+    .addPassthroughCopy("src/manifest.webmanifest")
+    .addPassthroughCopy("src/sw.js")
+    .addPassthroughCopy("src/sw-window.mjs");
 
   eleventyConfig.setDataDeepMerge(true);
 
