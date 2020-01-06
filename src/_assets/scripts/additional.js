@@ -223,7 +223,7 @@ if (queryString.length > 0) {
 // A search query may come from the user typing in the search field
 $input.addEventListener("keyup", function () {
   if ($input.value.length > 0) {
-    history.pushState(null, null, "/search.html?q=" + $input.value);
+    history.pushState(null, null, "/search/?q=" + $input.value);
     if ($intro) $intro.style.display = "none";
     $currentContent.style.display = "none";
     $searchContent.style.display = "block";
