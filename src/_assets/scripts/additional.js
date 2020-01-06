@@ -167,6 +167,10 @@ function getParameterByName(name) {
     : decodeURIComponent(results[1].replace(/\+/g, " "));
 }
 
+var algoliaApplicationId = '1YLVA0N7BR';
+var algoliaApiKey = '3b98a9f7c736ecc42aac5d52140beb41';
+var algoliaIndexName = 'blog_posts';
+
 var algoliaLinked = false;
 var algoliaClient;
 var algoliaIndex;
