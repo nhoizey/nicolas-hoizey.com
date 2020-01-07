@@ -117,8 +117,8 @@
 
   {# Algolia settings #}
   <script>
-  var algoliaApplicationId = '{{ site.algolia.application_id }}';
-  var algoliaApiKey = '{{ site.algolia.read_only_api_key }}';
-  var algoliaIndexName = '{{ site.algolia.index_name }}';
+  var algoliaApplicationId = '{{ build.env.ALGOLIA_APPLICATION_ID }}';
+  var algoliaApiKey = '{{ build.env.ALGOLIA_READ_ONLY_API_KEY }}';
+  var algoliaIndexName = '{{ build.env.ALGOLIA_INDEX_NAME }}';
   </script>
 </head>
