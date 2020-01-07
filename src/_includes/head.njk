@@ -12,7 +12,7 @@
   <script>{{ js["critical.js"] | safe }}</script>
 
   {# Google Analytics #}
-  {# {% if build.env == "production" %}
+  {# {% if build.env.ELEVENTY_ENV == "production" %}
     <script>
       window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
       ga('create', 'UA-1655999-10', 'auto');
