@@ -752,6 +752,9 @@ RewriteRule ^links/([0-9]{4}/[0-9]{2}/.*)\.html$ /links/$1/ [QSA,L,R=301]
 # Moving feeds
 RewriteRule ^atom.xml /feeds/articles.xml [QSA,L,R=301]
 
+# Moving search
+RewriteRule ^search.html /search/ [QSA,L,R=301]
+
 # This is not powered by Wordpress
 RewriteRule ^wp-login.php /about/the-website.html [QSA,L,R=302]
 
