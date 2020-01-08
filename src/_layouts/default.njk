@@ -32,10 +32,6 @@
 
     {% include "components/navigation.njk" %}
 
-    {% if page.url == "/" %}
-      {% include "components/intro.njk" %}
-    {% endif %}
-
     <main id="main" role="main">
       <div class="wrap">
         {{ content | safe }}
