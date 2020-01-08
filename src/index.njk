@@ -24,9 +24,8 @@ JSON-LD for:
   },
   "sameAs": [
     "https://twitter.com/nhoizey",
+    "https://mamot.fr/@nhoizey",
     "https://www.flickr.com/photos/nicolas-hoizey/",
-    "https://www.facebook.com/nhoizey.photo/",
-    "https://instagram.com/nhoizey",
     "https://github.com/nhoizey"
   ]
 }
@@ -66,13 +65,9 @@ JSON-LD for:
 </ul>
 <p>Discover <a href="/links/">all links</a>…</p>
 
-{#
-<section class="tagscloud">
-  <p>Find other contents by frequent tags:</p>
-  {% set cloud %}
-  {% include "components/tags-cloud.njk" %}
-  {% endset %}
-  {{ cloud | frequent_tags }}
-  <p>See <a href="/tags/">the full tags cloud</a> for even more content.</p>
-</section>
-#}
+{% from "macros/tagsCloud.njk" import tagsCloud %}
+
+<h2>Main topics</h2>
+<p>These are the tags the most used on the site to set content topics:</p>
+{{ tagsCloud(collections.tags, 0.5) }}
+<p>Browse <a href="/tags/">all tags</a>…</p>
