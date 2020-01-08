@@ -3,7 +3,7 @@
   <p class="card__title p-name">
     <a href="{{ url }}" hreflang="{{ lang }}" class="u-url">{{ title }}</a>
   </p>
-  <p class="card__excerpt p-summary">{{ content | safe | excerpt | striptags }}</p>
+  <p class="card__excerpt p-summary">{{ content | excerpt | safe }}</p>
 
   {% from "macros/meta.njk" import meta %}
   {{ meta(url, date, tags) }}
