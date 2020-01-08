@@ -11,12 +11,12 @@
         </time>
       </li>
       <li class="tags meta__item card__tags">
-        <svg class="icon"><use xlink:href="#symbol-tags" /></svg>&nbsp;
+        <svg class="icon"><use xlink:href="#symbol-tags" /></svg>
         {% set comma = joiner(", ") %}
-        {% for tag in tags %}
+        {%- for tag in tags -%}
           {{ comma() }}
           <a href="/tags/{{ tag | slugify }}.html" rel="tag" class="p-category">{{ tag }}</a>
-        {% endfor %}
+        {%- endfor -%}
       </li>
       {#
       {% set webmention_count_value %}{% webmention_count url %}
