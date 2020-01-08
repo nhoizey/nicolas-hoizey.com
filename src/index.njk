@@ -34,9 +34,9 @@ JSON-LD for:
 
 {% from "macros/articleCard.njk" import articleCard %}
 
-<h2>Latest articles</h2>
+<h2>Noteworthy articles</h2>
 <ul class="list">
-  {% for article in collections.articles | limit(3) %}
+  {% for article in collections.promoted %}
     <li class="list__item list__item--large">
       <div class="card card--article h-entry">
         {{ articleCard(article.data.title, article.url, article.data.lang, article.date, article.data.tags, article.templateContent ) }}
@@ -48,7 +48,7 @@ JSON-LD for:
 
 {% from "macros/linkCard.njk" import linkCard %}
 
-<h2>Latest links</h2>
+<h2>Recent links</h2>
 <ul class="list">
   {% for link in collections.links | limit(6) %}
     <li class="list__item">

@@ -11,21 +11,32 @@ module.exports = function (eleventyConfig) {
   // ------------------------------------------------------------------------
 
   eleventyConfig.addCollection("articles", function (collection) {
-    return collection.getFilteredByGlob("src/articles/**/*.md").sort(function (a, b) {
-      return b.date - a.date;
-    });
+    return collection.getFilteredByGlob("src/articles/**/*.md")
+      .sort((a, b) => {
+        return b.date - a.date;
+      });
+  });
+
+  eleventyConfig.addCollection("promoted", function (collection) {
+    return collection.getFilteredByGlob("src/articles/**/*.md")
+      .filter((article) => article.data.promoted)
+      .sort((a, b) => {
+        return b.date - a.date;
+      });
   });
 
   eleventyConfig.addCollection("links", function (collection) {
-    return collection.getFilteredByGlob("src/links/**/*.md").sort(function (a, b) {
-      return b.date - a.date;
-    });;
+    return collection.getFilteredByGlob("src/links/**/*.md")
+      .sort((a, b) => {
+        return b.date - a.date;
+      });;
   });
 
   eleventyConfig.addCollection("notes", function (collection) {
-    return collection.getFilteredByGlob("src/notes/**/*.md").sort(function (a, b) {
-      return b.date - a.date;
-    });;
+    return collection.getFilteredByGlob("src/notes/**/*.md")
+      .sort((a, b) => {
+        return b.date - a.date;
+      });;
   });
 
   eleventyConfig.addCollection("tags", require("./_11ty/getTags"));
