@@ -17,12 +17,14 @@ module.exports = function (eleventyConfig) {
       });
   });
 
+  // promoted articles, but not the latest article at all
   eleventyConfig.addCollection("promoted", function (collection) {
     return collection.getFilteredByGlob("src/articles/**/*.md")
-      .filter((article) => article.data.promoted)
       .sort((a, b) => {
         return b.date - a.date;
-      });
+      })
+      .slice(1)
+      .filter((article) => article.data.promoted);
   });
 
   eleventyConfig.addCollection("links", function (collection) {
