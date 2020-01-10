@@ -71,7 +71,8 @@
     "webpack": "^4.41.4",
     "webpack-stream": "^5.2.1",
     "workbox-build": "^4.3.1",
-    "rimraf": "^3.0.0"
+    "rimraf": "^3.0.0",
+    "@jlengstorf/get-share-image": "file:../_eleventy_plugins/get-share-image"
   },
   "resolutions": {
     "**/**/axios": "^0.19.0"
