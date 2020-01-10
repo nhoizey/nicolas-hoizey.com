@@ -39,6 +39,17 @@ JSON-LD for:
 
 {% from "macros/articleCard.njk" import articleCard %}
 
+<h2>Latest article</h2>
+<ul class="list">
+  {% for article in collections.articles | limit(1) %}
+    <li class="list__item list__item--large">
+      <div class="card card--article h-entry">
+        {{ articleCard(article.data.title, article.url, article.data.lang, article.date, article.data.tags, article.templateContent ) }}
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+
 <h2>Noteworthy articles</h2>
 <ul class="list">
   {% for article in collections.promoted %}
