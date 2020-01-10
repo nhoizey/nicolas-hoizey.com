@@ -6,8 +6,6 @@ module.exports = function (collection) {
     if ("tags" in item.data) {
       let itemTags = item.data.tags;
 
-      // itemTags = itemTags.filter(tag => tag !== "all");
-
       for (const tag of itemTags) {
         let number = (tagsCollection.get(tag) || 0) + 1;
         max = Math.max(max, number);
