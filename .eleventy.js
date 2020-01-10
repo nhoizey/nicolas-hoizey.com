@@ -105,6 +105,10 @@ module.exports = function (eleventyConfig) {
     return [...new Set(array)];
   });
 
+  eleventyConfig.addFilter("base64", function (url) {
+    return Buffer.from(url).toString('base64');
+  });
+
   // ------------------------------------------------------------------------
   // Shortcodes
   // ------------------------------------------------------------------------
