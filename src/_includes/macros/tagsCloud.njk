@@ -1,5 +1,9 @@
 {% macro tagsCloud(tags, minFactor=0) %}
 
+{% if minFactor >= 1 %}
+  {% set minFactor = 0.99 %}
+{% endif %}
+
 {% set minSize = 0.9 %}
 {% set maxSize = 1.8 %}
 {% set minWeight = 300 %}
@@ -14,7 +18,7 @@
           class="tag{{ tag.step }}"
           style="
             font-size: {{ (maxSize - minSize) * tag.factor + minSize }}em;
-            font-weight: {{ (maxWeight - minWeight) * tag.factor  + minWeight }}"
+            font-weight: {{ (maxWeight - minWeight) * tag.factor + minWeight }}"
           rel="tag">{{ tag.tag }}</a>
       </li>
   {% endif %}
