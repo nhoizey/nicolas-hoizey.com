@@ -18,10 +18,10 @@
   "scripts": {
     "clean": "npx rimraf dist",
     "prestart": "npm run clean",
-    "start": "npx cross-env ELEVENTY_ENV=development npx eleventy --quiet --serve",
+    "start": "npx cross-env ELEVENTY_ENV=development npx eleventy --serve",
     "debug": "DEBUG=Eleventy* npm start",
     "prebuild": "npm run clean",
-    "build": "npx cross-env ELEVENTY_ENV=production npx eleventy --quiet"
+    "build": "npx cross-env ELEVENTY_ENV=production npx eleventy"
   },
   "dependencies": {},
   "devDependencies": {

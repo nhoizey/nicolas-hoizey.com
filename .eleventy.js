@@ -282,6 +282,7 @@ module.exports = function (eleventyConfig) {
     .addPassthroughCopy("src/sw-window.mjs");
 
   eleventyConfig.setDataDeepMerge(true);
+  eleventyConfig.setQuietMode(true);
 
   // eleventyConfig.addWatchTarget("_data");
 
