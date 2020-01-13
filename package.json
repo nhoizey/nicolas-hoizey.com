@@ -16,12 +16,12 @@
     "url": "https://github.com/nhoizey/nicolas-hoizey.com"
   },
   "scripts": {
-    "clean": "npx rimraf dist",
+    "clean": "rimraf dist",
     "prestart": "npm run clean",
-    "start": "npx cross-env ELEVENTY_ENV=development npx eleventy --serve",
+    "start": "cross-env ELEVENTY_ENV=development eleventy --serve",
     "debug": "DEBUG=Eleventy* npm start",
     "prebuild": "npm run clean",
-    "build": "npx cross-env ELEVENTY_ENV=production npx eleventy"
+    "build": "cross-env ELEVENTY_ENV=production eleventy"
   },
   "dependencies": {},
   "devDependencies": {
