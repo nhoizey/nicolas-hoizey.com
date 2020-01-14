@@ -1,4 +1,4 @@
-{% macro meta(url, date, tags) %}
+{% macro meta(url, date, tags, permalink=false) %}
   <footer>
     <ul class="meta">
       <li class="meta__item card__author">
@@ -30,10 +30,12 @@
         </li>
       {% endif %}
       #}
-      <li class="permalink meta__item">
-        <svg class="icon"><use xlink:href="#symbol-link" /></svg>
-        <a href="{{ url }}">permalink</a>
-      </li>
+      {% if permalink %}
+        <li class="permalink meta__item">
+          <svg class="icon"><use xlink:href="#symbol-link" /></svg>
+          <a href="{{ url }}">permalink</a>
+        </li>
+      {% endif %}
     </ul>
   </footer>
 {% endmacro %}
