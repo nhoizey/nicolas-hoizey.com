@@ -247,17 +247,18 @@ module.exports = function (eleventyConfig) {
     });
   }
 
-  eleventyConfig.setLibrary(
-    "md",
-    markdownIt(markdownItOptions)
-      .use(markdownItHeadingLevel, { firstLevel: 2 })
-      .use(markdownItFootnote)
-      .use(markdownItAnchor, markdownItAnchorOptions)
-      .use(markdownItAttributes)
-      .use(markdownItSpan)
-      .use(markdownItAbbr)
-      .use(markdownItContainer, "info")
-  );
+  const md = markdownIt(markdownItOptions)
+    .use(markdownItHeadingLevel, { firstLevel: 2 })
+    .use(markdownItFootnote)
+    .use(markdownItAnchor, markdownItAnchorOptions)
+    .use(markdownItAttributes)
+    .use(markdownItSpan)
+    .use(markdownItAbbr)
+    .use(markdownItContainer, "info");
+  eleventyConfig.setLibrary("md", md);
+
+  // Add markdownify filter with Markdown-it configuration
+  eleventyConfig.addNunjucksFilter("markdownify", markdownString => md.render(markdownString));
 
   // ------------------------------------------------------------------------
   // Transforms
