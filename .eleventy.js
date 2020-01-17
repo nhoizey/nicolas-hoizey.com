@@ -264,11 +264,13 @@ module.exports = function (eleventyConfig) {
   // Transforms
   // ------------------------------------------------------------------------
 
-  const cloudinaryTransform = require("./src/_transforms/cloudinary-transform.js");
-  eleventyConfig.addTransform("cloudinary", cloudinaryTransform);
+  if (process.env.ELEVENTY_ENV == "production") {
+    const cloudinaryTransform = require("./src/_transforms/cloudinary-transform.js");
+    eleventyConfig.addTransform("cloudinary", cloudinaryTransform);
 
-  const htmlMinTransform = require("./src/_transforms/html-min-transform.js");
-  eleventyConfig.addTransform("htmlmin", htmlMinTransform);
+    const htmlMinTransform = require("./src/_transforms/html-min-transform.js");
+    eleventyConfig.addTransform("htmlmin", htmlMinTransform);
+  }
 
   // ------------------------------------------------------------------------
   // Eleventy configuration
