@@ -1,5 +1,6 @@
 ---
 title:      Mes bookmarks migrent de Diigo vers Pinboard
+date: 2014-12-23 12:00:00 +02:00
 lang:       fr
 tags:       [bookmarks, Diigo, Pinboard]
 ---

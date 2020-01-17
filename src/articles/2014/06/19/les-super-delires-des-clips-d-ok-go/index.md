@@ -1,5 +1,6 @@
 ---
 title:      Les super délires des clips d'OK Go
+date: 2014-06-19 12:00:00 +02:00
 lang:        fr
 tags:       [music, video]
 ---

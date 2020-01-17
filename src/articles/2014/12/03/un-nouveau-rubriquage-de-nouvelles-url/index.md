@@ -1,5 +1,6 @@
 ---
 title:      Un nouveau rubriquage, de nouvelles URL
+date: 2014-12-03 12:00:00 +02:00
 lang:       fr
 tags:       [URL]
 ---

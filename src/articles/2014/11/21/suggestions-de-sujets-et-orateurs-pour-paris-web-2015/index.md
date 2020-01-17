@@ -1,5 +1,6 @@
 ---
 title:      Suggestions de sujets et orateurs pour Paris Web 2015
+date: 2014-11-21 12:00:00 +02:00
 lang:       fr
 tags:       [Paris Web, conference, RWD]
 ---

@@ -1,5 +1,6 @@
 ---
 title:      Layered symmetry
+date: 2014-04-04 12:00:00 +02:00
 lang:       fr
 tags:       [photography]
 flickr:     https://www.flickr.com/photos/nicolas-hoizey/13601977205/

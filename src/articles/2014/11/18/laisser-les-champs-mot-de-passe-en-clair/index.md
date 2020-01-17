@@ -1,5 +1,6 @@
 ---
 title:      Laisser les champs mot de passe en clair
+date: 2014-11-18 12:00:00 +02:00
 lang:       fr
 tags:       [UX, form, password]
 ---

@@ -1,5 +1,6 @@
 ---
 title:      Mon test du Panasonic Lumix DMC-GM1, un minuscule appareil photo hybride
+date: 2014-08-29 12:00:00 +02:00
 lang:       fr
 tags:       [photography, gear]
 ---

@@ -1,5 +1,6 @@
 ---
 title:      Savez-vous ce qu'est un PIM ?
+date: 2014-04-22 12:00:00 +02:00
 lang:       fr
 tags:       [ecommerce, software]
 ---

@@ -1,5 +1,6 @@
 ---
 title:      A Blind Legend
+date: 2014-06-26 12:00:00 +02:00
 lang:      fr
 tags:       [game, crowdfunding, accessibility]
 ---

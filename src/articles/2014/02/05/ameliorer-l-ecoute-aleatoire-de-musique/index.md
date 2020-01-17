@@ -1,5 +1,6 @@
 ---
 title:      Améliorer l'écoute aléatoire de musique
+date: 2014-02-05 12:00:00 +02:00
 lang:       fr
 tags:       [music, iTunes]
 ---

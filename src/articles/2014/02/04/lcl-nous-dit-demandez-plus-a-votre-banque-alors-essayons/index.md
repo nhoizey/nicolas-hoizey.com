@@ -1,5 +1,6 @@
 ---
 title:      LCL nous dit « Demandez plus à votre banque », alors essayons…
+date: 2014-02-04 12:00:00 +02:00
 lang:       fr
 tags:       [quality]
 ---

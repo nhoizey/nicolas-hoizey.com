@@ -1,5 +1,6 @@
 ---
 title:      Winter
+date: 2014-03-01 12:00:00 +02:00
 lang:       fr
 tags:       [photography]
 flickr:     https://www.flickr.com/photos/nicolas-hoizey/12842257345/

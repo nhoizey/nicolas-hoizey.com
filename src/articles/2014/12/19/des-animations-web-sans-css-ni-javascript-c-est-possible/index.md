@@ -1,5 +1,6 @@
 ---
 title:      Des animations Web sans CSS ni JavaScript ? C'est possible !
+date: 2014-12-19 12:00:00 +02:00
 lang:       fr
 tags:       [animation, SVG, esviji]
 ---
