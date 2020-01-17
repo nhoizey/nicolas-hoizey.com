@@ -48,15 +48,3 @@ webmentions:
     last_month: daily
     last_year: weekly
     older: every 2 weeks
-
-# Archives
-jekyll-archives:
-  enabled:
-    - year
-    - month
-  layouts:
-    year: archives-year
-    month: archives-month
-  permalinks:
-    year: /:year/
-    month: /:year/:month/
