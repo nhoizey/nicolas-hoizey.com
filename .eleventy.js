@@ -293,6 +293,11 @@ module.exports = function (eleventyConfig) {
     templateFormats: [
       "md",
       "njk",
+      "jpg",
+      "png",
+      "gif",
+      "kmz",
+      "zip"
     ],
 
     markdownTemplateEngine: "njk",
