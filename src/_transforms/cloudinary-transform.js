@@ -25,6 +25,10 @@ module.exports = function (value, outputPath) {
       attributes: {}
     };
 
+    if (cloudinaryConfig.copy_files === undefined) {
+      cloudinaryConfig.copy_files = false;
+    }
+
     // Overhide default settings with a "default" preset
     if (cloudinaryConfig.presets.default !== undefined) {
       globalSettings = deepmerge(
@@ -88,14 +92,17 @@ module.exports = function (value, outputPath) {
             imageSettings.attributes.width = imageDimensions.width;
             imageSettings.attributes.height = imageDimensions.height;
 
-            // Copy the image file from src to dist
-            fs.promises.mkdir(distPath, { recursive: true }).then(() => {
-              fs.copyFile(srcPath + imagePath, distPath + imagePath, (err) => {
+            if (cloudinaryConfig.copy_files) {
+              // Copy the image file from src to dist
+              fs.promises.mkdir(distPath, { recursive: true }).then(() => {
+                fs.copyFile(srcPath + imagePath, distPath + imagePath, (err) => {
+                  if (err) throw err;
+                });
+              }).catch(err => {
                 if (err) throw err;
               });
-            }).catch(err => {
-              if (err) throw err;
-            });
+            }
+            // TODO: get "dist/" from config
             imageUrl = site.url + outputPath.replace(/^dist\/(.*)index\.html/, "/$1") + imagePath;
           }
         }
