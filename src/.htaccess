@@ -733,33 +733,34 @@ RewriteRule ^.well-known/(host-meta|webfinger).* https://fed.brid.gy/$0  [redire
 # Renamed or moved articles and pages
 # ----------------------------------------------------------------------
 
-RewriteRule ^2015/06/un-moteur-de-recherche-sur-un-site-statique-facile-avec-algolia.html /2015/06/la-recherche-dans-du-statique-facile-avec-algolia.html [QSA,L,R=301]
-RewriteRule ^(articles/)?2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-blog-is-the-origin(/|\.html) /articles/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin/ [QSA,L,R=301]
+RewriteRule ^2015/06/un-moteur-de-recherche-sur-un-site-statique-facile-avec-algolia.html https://%{HTTP_HOST}/2015/06/la-recherche-dans-du-statique-facile-avec-algolia.html [QSA,L,R=301]
+RewriteRule ^(articles/)?2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-blog-is-the-origin(/|\.html) https://%{HTTP_HOST}/articles/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin/ [QSA,L,R=301]
 
-RewriteRule ^a-propos/((index|de-moi)\.html)? /about/ [QSA,L,R=301]
-RewriteRule ^a-propos\.html /about/ [QSA,L,R=301]
-RewriteRule ^a-propos/du-site\.html$ /about/the-website.html [QSA,L,R=301]
+RewriteRule ^a-propos/((index|de-moi)\.html)? https://%{HTTP_HOST}/about/ [QSA,L,R=301]
+RewriteRule ^a-propos\.html https://%{HTTP_HOST}/about/ [QSA,L,R=301]
+RewriteRule ^a-propos/du-site\.html$ https://%{HTTP_HOST}/about/the-website.html [QSA,L,R=301]
 
 # Migrating some articles to links
-RewriteRule ^2018/08/just.html /links/2018/08/just.html [QSA,L,R=301]
+RewriteRule ^2018/08/just.html https://%{HTTP_HOST}/links/2018/08/just.html [QSA,L,R=301]
 
 # Move articles as `/articles/` subfolder
-RewriteRule ^([0-9]{4}/[0-9]{2}/.*)(\.html|/)$ /articles/$1/ [QSA,L,R=301]
+RewriteRule ^([0-9]{4}/[0-9]{2}/.*)(\.html|/)$ https://%{HTTP_HOST}/articles/$1/ [QSA,L,R=301]
 
 # Links pages are now folders
-RewriteRule ^links/([0-9]{4}/[0-9]{2}/.*)\.html$ /links/$1/ [QSA,L,R=301]
+RewriteRule ^links/([0-9]{4}/[0-9]{2}/.*)\.html$ https://%{HTTP_HOST}/links/$1/ [QSA,L,R=301]
 
 # Moving feeds
-RewriteRule ^atom.xml /feeds/articles.xml [QSA,L,R=301]
+RewriteRule ^atom.xml https://%{HTTP_HOST}/feeds/articles.xml [QSA,L,R=301]
 
 # Moving search
-RewriteRule ^search.html /search/ [QSA,L,R=301]
+RewriteRule ^search.html https://%{HTTP_HOST}/search/ [QSA,L,R=301]
 
 # This is not powered by Wordpress
-RewriteRule ^wp-login.php /about/the-website.html [QSA,L,R=302]
+RewriteRule ^wp-login.php https://%{HTTP_HOST}/about/the-website.html [QSA,L,R=302]
 
 # These images were moved/renamed
-RewriteRule ^assets/(opengraph/)?opengraph-(background(-raw)?).png /assets/opengraph/$2.png [QSA,L,R=301]
+RewriteRule ^assets/(opengraph/)?opengraph-(background(-raw)?).png https://%{HTTP_HOST}/assets/opengraph/$2.png [QSA,L,R=301]
+
 # Articles are now one level deeper, for the day, but we don't know where… 😅
 RewriteCond %{DOCUMENT_ROOT}/$1/01/$2 -d
 RewriteRule ^(articles/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/01/$2 [QSA,L,R=301]
