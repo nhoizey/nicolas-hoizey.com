@@ -1,8 +1,4 @@
-{% macro tagsCloud(tags, minFactor=0) %}
-
-{% if minFactor >= 1 %}
-  {% set minFactor = 0.99 %}
-{% endif %}
+{% macro tagsCloud(tags) %}
 
 {% set minSize = 0.9 %}
 {% set maxSize = 1.8 %}
@@ -11,17 +7,16 @@
 
 <ol class="tagscloud__tags">
 {% for tag in tags %}
-  {% if tag.factor >= minFactor %}
-    {% set tagUrl %}/tags/{{ tag.tag | slugify }}.html{% endset %}
-      <li>
-        <a href="{{ tagUrl }}"
-          class="tag{{ tag.step }}"
-          style="
-            font-size: {{ (maxSize - minSize) * tag.factor + minSize }}em;
-            font-weight: {{ (maxWeight - minWeight) * tag.factor + minWeight }}"
-          rel="tag">{{ tag.tag }}</a>
-      </li>
-  {% endif %}
+  {% set tagUrl %}/tags/{{ tag.tag | slugify }}.html{% endset %}
+  <li>
+    <a href="{{ tagUrl }}"
+      class="tag{{ tag.step }}"
+      title="{{ tag.tag }} attached to {{ tag.number }} contents"
+      style="
+        font-size: {{ (maxSize - minSize) * tag.factor + minSize }}em;
+        font-weight: {{ (maxWeight - minWeight) * tag.factor + minWeight }}"
+      rel="tag">{{ tag.tag }}</a>
+  </li>
 {% endfor %}
 </ol>
 
