@@ -46,7 +46,7 @@ module.exports = function (collection) {
 
     let tagContentPath = `src/tags/${tagSlug}.md`;
     if (fs.existsSync(tagContentPath)) {
-      newTag.description = fs.readFileSync(tagContentPath, {encoding: 'utf8'}).toString('utf8');
+      newTag.description = fs.readFileSync(tagContentPath, {encoding: 'utf8'});
     }
 
     tags.push(newTag);
