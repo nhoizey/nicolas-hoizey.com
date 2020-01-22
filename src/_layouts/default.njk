@@ -6,7 +6,7 @@
   <body
     itemscope
     itemtype="https://schema.org/{% if "about/" in page.inputPath %}aboutpage{% else %}webpage{% endif %}"
-    class="{%- include "current-type.njk" -%}"
+    class="layout-{{ layout }}"
     data-img-src="{{ page.inputPath | dirname }}/"
     data-img-dist="{{ page.outputPath | dirname }}/"
   >
