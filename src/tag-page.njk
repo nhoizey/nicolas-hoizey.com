@@ -1,6 +1,6 @@
 ---
 pagination:
-  data: collections
+  data: collections.tags
   size: 1
   alias: tag
   filter:
@@ -8,8 +8,8 @@ pagination:
   addAllPagesToCollections: true
 layout: page
 renderData:
-  title: Content tagged “{{ tag }}”
-permalink: /tags/{{ tag | slugify }}.html
+  title: Contents tagged “{{ tag.tag }}”
+permalink: /tags/{{ tag.slug }}.html
 ---
 
 <h1>Content tagged “{{ tag }}”</h1>
@@ -17,8 +17,22 @@ permalink: /tags/{{ tag | slugify }}.html
 {% from "macros/articleCard.njk" import articleCard %}
 {% from "macros/linkCard.njk" import linkCard %}
 
+{% if tag.logo %}
+  <img src="/{{ tag.logo }}" class="logo" />
+{% endif %}
+
+{% if tag.description %}
+  {{ tag.description | markdownify | safe }}
+{% endif %}
+
+{% if tag.number > 1 %}
+  <p>Here are the {{ tag.number }} contents tagged with “{{ tag.tag }}”:</p>
+{% else %}
+  <p>Here is the single content tagged with “{{ tag.tag }}”:</p>
+{% endif %}
+
 <ul class="list">
-  {% set contentItems = collections[ tag ] %}
+  {% set contentItems = collections[ tag.tag ] %}
   {% for item in contentItems | reverse %}
     {% if item.data.layout == "article" %}
       <li class="list__item list__item--large">

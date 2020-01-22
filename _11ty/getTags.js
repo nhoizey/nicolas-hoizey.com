@@ -1,3 +1,6 @@
+const slugify = require('@sindresorhus/slugify');
+const fs = require('fs');
+
 module.exports = function (collection) {
   let tagsCollection = new Map();
   let max = 0;
@@ -21,7 +24,32 @@ module.exports = function (collection) {
   const tags = [];
   tagsCollection.forEach((number, tag) => {
     let factor = (Math.log(number) - minLog) / (maxLog - minLog);
-    tags.push({ 'tag': tag, 'number': number, 'factor': factor, 'step': Math.ceil(factor * 2) + 1 });
+    let tagSlug = slugify(tag, {
+      decamelize: false,
+      customReplacements: [
+        ['%', ' ']
+      ]
+    });
+
+    let newTag = {
+      'tag': tag,
+      'slug': tagSlug,
+      'number': number,
+      'factor': factor, 
+      'step': Math.ceil(factor * 2) + 1
+    }
+
+    let tagLogoPath = `assets/logos/${tagSlug}.png`;
+    if (fs.existsSync(`src/${tagLogoPath}`)) {
+      newTag.logo = tagLogoPath;
+    }
+
+    let tagContentPath = `src/tags/${tagSlug}.md`;
+    if (fs.existsSync(tagContentPath)) {
+      newTag.description = fs.readFileSync(tagContentPath, {encoding: 'utf8'}).toString('utf8');
+    }
+
+    tags.push(newTag);
   });
 
   tags.sort((a, b) => {
