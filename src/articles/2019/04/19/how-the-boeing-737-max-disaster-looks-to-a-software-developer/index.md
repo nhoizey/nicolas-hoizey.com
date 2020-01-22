@@ -83,3 +83,4 @@ We need to make things simple so that our lazyness has less opportunities to lea
 - December 11th, 2019: [US regulator failed to ground Boeing 737 Max despite risks](https://www.ft.com/content/04f6f45e-1c2c-11ea-97df-cc63de1d73f4) (Financial Times)
 - January 10th, 2020: [‘Designed by Clowns and Supervised by Monkeys’: The 737 Max Story](https://www.bloomberg.com/opinion/articles/2020-01-10/-designed-by-clowns-and-supervised-by-monkeys-the-737-max-story) (Bloomberg)
 - January 14th, 2020: [Boeing Mocked Lion Air Calls for More 737 Max Training Before Crash](https://www.bloomberg.com/news/articles/2020-01-14/lion-air-idiots-sought-more-max-training-boeing-thwarted-it) (Bloomberg)
+- January 20th, 2020: [How Boeing’s Responsibility in a Deadly Crash ‘Got Buried’](https://www.nytimes.com/2020/01/20/business/boeing-737-accidents.html) (The New York Times)
