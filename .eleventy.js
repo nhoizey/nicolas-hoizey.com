@@ -259,7 +259,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setLibrary("md", md);
 
   // Add markdownify filter with Markdown-it configuration
-  eleventyConfig.addNunjucksFilter("markdownify", markdownString => md.render(markdownString));
+  eleventyConfig.addFilter("markdownify", markdownString => md.render(markdownString));
 
   // ------------------------------------------------------------------------
   // Transforms
