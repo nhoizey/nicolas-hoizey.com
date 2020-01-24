@@ -83,8 +83,12 @@ module.exports = function (value, outputPath) {
           // This is not an external URL
           if (imagePath[0] === '/') {
             // This is a local absolute URL
-            // console.log('-> local absolute image');
             imageUrl = site.url + imagePath;
+
+            // TODO: get "src/" from config
+            const imageDimensions = imageSize('./src' + imagePath);
+            imageSettings.attributes.width = imageDimensions.width;
+            imageSettings.attributes.height = imageDimensions.height;
           } else {
             // This is a relative URL
 
