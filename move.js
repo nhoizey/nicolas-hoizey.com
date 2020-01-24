@@ -25,7 +25,7 @@ fs.readdirSync(rootDir).forEach(yearDir => {
               fs.mkdirSync(fullDayDir);
             }
             fs.renameSync(path.join(fullMonthDir, contentDir), path.join(fullDayDir, contentSlug));
-            fs.renameSync(path.join(fullDayDir, contentSlug, `${yearDir}-${monthDir}-${dayDir}-${contentSlug}.md`), 'index.md');
+            fs.renameSync(path.join(fullDayDir, contentSlug, `${yearDir}-${monthDir}-${dayDir}-${contentSlug}.md`), path.join(fullDayDir, contentSlug, 'index.md'));
           }
         });
       }
