@@ -46,7 +46,7 @@
   {% else %}
     {% set ogTitle = renderData.title or title %}
     {% if layout == "article" or layout == "link" %}
-      {% set ogDescription = page.templateContent | excerpt | striptags | truncate(290) | escape %}
+      {% set ogDescription = pageExcerpt | striptags | truncate(290) | escape %}
       {% set ogType = "article" %}
     {% elif page.inputPath == "./src/tag-page.njk" %}
       {% set ogDescription = ogTitle %}
