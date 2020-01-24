@@ -1,5 +1,6 @@
 ---
 title: "If it's interactive, it needs a focus style"
+date: 2019-01-07 12:00:00 +02:00
 lang: en
 link: https://noti.st/ericwbailey/TcMJFP/if-it-s-interactive-it-needs-a-focus-style
 authors:

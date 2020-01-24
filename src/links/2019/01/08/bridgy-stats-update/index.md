@@ -1,5 +1,6 @@
 ---
 title: "Bridgy stats update"
+date: 2019-01-08 12:00:00 +02:00
 lang: en
 link: https://snarfed.org/2019-01-02_bridgy-stats-update-4
 authors:

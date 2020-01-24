@@ -1,5 +1,6 @@
 ---
 title: "On the importance of testing with content blockers"
+date: 2019-01-07 12:00:00 +02:00
 lang: en
 link: https://hiddedevries.nl/en/blog/2019-01-07-on-the-importance-of-testing-with-content-blockers
 authors:

@@ -1,5 +1,6 @@
 ---
 title: "Flutter: the good, the bad and the ugly"
+date: 2019-01-04 12:00:00 +02:00
 lang: en
 link: https://medium.com/asos-techblog/flutter-vs-react-native-for-ios-android-app-development-c41b4e038db9
 authors:

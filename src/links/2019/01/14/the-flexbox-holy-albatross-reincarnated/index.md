@@ -1,5 +1,6 @@
 ---
 title: "The Flexbox Holy Albatross Reincarnated"
+date: 2019-01-14 12:00:00 +02:00
 lang: en
 link: http://www.heydonworks.com/article/the-flexbox-holy-albatross-reincarnated
 authors:

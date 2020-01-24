@@ -1,5 +1,6 @@
 ---
 title: "Signal v Noise exits Medium"
+date: 2019-01-16 12:00:00 +02:00
 lang:  en
 link: https://m.signalvnoise.com/signal-v-noise-exits-medium/
 authors:

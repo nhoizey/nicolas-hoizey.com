@@ -1,5 +1,6 @@
 ---
 title: "The Rule of Least Power"
+date: 2019-01-04 12:00:00 +02:00
 lang: en
 link: https://www.w3.org/2001/tag/doc/leastPower.html
 authors:
