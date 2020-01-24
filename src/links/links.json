@@ -1,4 +1,3 @@
 {
-  "layout": "link",
-  "permalink": "/links/{{ page.date | permalinkDate }}/{{ page.fileSlug }}/"
+  "layout": "link"
 }
