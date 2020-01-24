@@ -1,5 +1,4 @@
 const slugify = require("@sindresorhus/slugify");
-const { parse, stringify } = require("flatted/cjs");
 const cheerio = require('cheerio');
 const path = require('path');
 const util = require('util');
@@ -90,7 +89,6 @@ module.exports = function (eleventyConfig) {
   });
 
   // debug utilities
-  eleventyConfig.addFilter("safeDump", stringify);
   eleventyConfig.addFilter("dump", obj => util.inspect(obj));
 
   eleventyConfig.addFilter("stripFootnotes", function (content) {
