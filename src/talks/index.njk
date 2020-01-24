@@ -21,7 +21,7 @@ eleventyExcludeFromCollections: true
           <li class="date meta__item card__date">
             <svg class="icon"><use xlink:href="#symbol-date" /></svg>
             <time class="dt-published" datetime="{{ talk.attributes.presented_on | attributeDate }}">
-              {{ talk.attributes.presented_on | dateFormat("Do MMMM YYYY") }}
+              {{ talk.attributes.presented_on | date("Do MMMM YYYY") }}
             </time>
           </li>
         </ul>
@@ -49,7 +49,7 @@ eleventyExcludeFromCollections: true
             <li class="date meta__item card__date">
               <svg class="icon"><use xlink:href="#symbol-date" /></svg>
               <time class="dt-published" datetime="{{ talk.attributes.presented_on | attributeDate }}">
-                {{ talk.attributes.presented_on | dateFormat("Do MMMM YYYY") }}
+                {{ talk.attributes.presented_on | date("Do MMMM YYYY") }}
               </time>
             </li>
           </ul>

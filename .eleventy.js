@@ -50,8 +50,10 @@ module.exports = function (eleventyConfig) {
   const excerpt = require("./src/_filters/excerpt.js");
   eleventyConfig.addFilter("excerpt", excerpt);
 
-  const dateFormat = require("./src/_filters/dateFormat.js");
-  eleventyConfig.addFilter("dateFormat", dateFormat);
+  const moment = require("moment");
+  eleventyConfig.addFilter("date", function (date, format) {
+    return moment(date).format(format);
+  });
 
   const permalinkDate = require("./src/_filters/permalinkDate.js");
   eleventyConfig.addFilter("permalinkDate", permalinkDate);
