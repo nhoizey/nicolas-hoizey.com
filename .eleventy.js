@@ -40,6 +40,44 @@ module.exports = function (eleventyConfig) {
       });;
   });
 
+  const yearsWithContent = require("./src/_utils/content-by-date").yearsWithContent;
+  eleventyConfig.addCollection(
+    "yearsWithArticles", collection => {
+      return yearsWithContent(collection.getFilteredByGlob("src/articles/**/*.md"));
+    }
+  );
+  eleventyConfig.addCollection(
+    "yearsWithLinks", collection => {
+      return yearsWithContent(collection.getFilteredByGlob("src/links/**/*.md"));
+    }
+  );
+
+  const contentsByYear = require("./src/_utils/content-by-date").contentByYear;
+  eleventyConfig.addCollection(
+    "articlesByYear", collection => {
+      return contentsByYear(collection.getFilteredByGlob("src/articles/**/*.md"));
+    }
+  );
+  eleventyConfig.addCollection(
+    "linksByYear", collection => {
+      return contentsByYear(collection.getFilteredByGlob("src/links/**/*.md"));
+    }
+  );
+
+  const contentsByMonth = require("./src/_utils/content-by-date").contentByMonth;
+  eleventyConfig.addCollection(
+    "articlesByMonth",
+    collection => {
+      return contentsByMonth(collection.getFilteredByGlob("src/articles/**/*.md"));
+    }
+  );
+  eleventyConfig.addCollection(
+    "linksByMonth",
+    collection => {
+      return contentsByMonth(collection.getFilteredByGlob("src/links/**/*.md"));
+    }
+  );
+
   eleventyConfig.addCollection("tags", require("./_11ty/getTags"));
   eleventyConfig.addCollection("mainTags", require("./_11ty/getMainTags"));
 
@@ -53,6 +91,10 @@ module.exports = function (eleventyConfig) {
   const moment = require("moment");
   eleventyConfig.addFilter("date", function (date, format) {
     return moment(date).format(format);
+  });
+  eleventyConfig.addFilter("monthString", function (month) {
+    let fullDate = `${month.replace('/', '-')}-01T10:00:00.000Z`;
+    return moment(fullDate).format("MMMM YYYY");
   });
 
   const permalinkDate = require("./src/_filters/permalinkDate.js");

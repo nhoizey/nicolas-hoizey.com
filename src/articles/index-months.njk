@@ -1,0 +1,35 @@
+---
+layout: page
+pagination:
+  data: collections.articlesByMonth
+  size: 1
+  alias: month
+permalink: "articles/{{ month }}/"
+renderData:
+  title: Articles published in {{ month | monthString }}
+---
+
+{% from "macros/articleCard.njk" import articleCard %}
+
+<ul class="list">
+  {% for article in collections.articlesByMonth[month] %}
+    <li class="list__item list__item--large">
+      <div class="card card--article h-entry">
+        {{ articleCard(article.data.title, article.url, article.data.lang, article.date, article.data.tags, article.templateContent ) }}
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+
+<p class="pagination">
+  Pages:
+  {% set separator = joiner(", ") %}
+  {%- for pageEntry in pagination.pages %}
+    {{ separator() }}
+    {% if page.url == pagination.hrefs[ loop.index0 ] %}
+      <strong>{{ pageEntry }}</strong>
+    {% else %}
+      <a href="{{ pagination.hrefs[ loop.index0 ] }}">{{ pageEntry }}</a>
+    {% endif %}
+  {%- endfor %}
+</p>

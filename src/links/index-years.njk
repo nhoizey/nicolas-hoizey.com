@@ -1,0 +1,35 @@
+---
+layout: page
+pagination:
+  data: collections.linksByYear
+  size: 1
+  alias: year
+permalink: "links/{{ year }}/"
+renderData:
+  title: Links published in {{ year }}
+---
+
+{% from "macros/linkCard.njk" import linkCard %}
+
+<ul class="list">
+  {% for link in collections.linksByYear[year] %}
+    <li class="list__item">
+      <div class="card card--link">
+        {{ linkCard(link.data.title, link.url, link.data.link, link.data.authors, link.date, link.data.tags) }}
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+
+<p class="pagination">
+  Years:
+  {% set separator = joiner(", ") %}
+  {%- for pageEntry in pagination.pages %}
+    {{ separator() }}
+    {% if page.url == pagination.hrefs[ loop.index0 ] %}
+      <strong>{{ pageEntry }}</strong>
+    {% else %}  
+      <a href="{{ pagination.hrefs[ loop.index0 ] }}">{{ pageEntry }}</a>
+    {% endif %}
+  {%- endfor %}
+</p>
