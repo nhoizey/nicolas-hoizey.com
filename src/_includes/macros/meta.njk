@@ -1,4 +1,4 @@
-{% macro meta(url, date, tags, permalink=false) %}
+{% macro meta(url, date, tags, type, permalink=false) %}
   <footer>
     <ul class="meta">
       <li class="meta__item card__author">
@@ -7,7 +7,9 @@
       <li class="date meta__item card__date">
         <svg class="icon"><use xlink:href="#symbol-date" /></svg>
         <time class="dt-published" datetime="{{ date | attributeDate }}">
-          {{ date | date("Do MMMM YYYY") }}
+          {{ date | date("Do") }}
+          <a href="/{{ type }}/{{ date | date("YYYY") }}/{{ date | date("MM") }}/">{{ date | date("MMMM") }}</a>
+          <a href="/{{ type }}/{{ date | date("YYYY") }}/">{{ date | date("YYYY") }}</a>
         </time>
       </li>
       <li class="tags meta__item card__tags">

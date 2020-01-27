@@ -6,6 +6,6 @@
   <p class="card__excerpt p-summary">{{ content | excerpt | safe }}</p>
 
   {% from "macros/meta.njk" import meta %}
-  {{ meta(url, date, tags) }}
+  {{ meta(url, date, tags, 'articles') }}
 
 {% endmacro %}

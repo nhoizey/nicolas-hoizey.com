@@ -3,6 +3,6 @@
   <div class="card__content e-content" lang="{{ lang }}">{{ content | safe }}</div>
 
   {% from "macros/meta.njk" import meta %}
-  {{ meta(url, date, tags) }}
+  {{ meta(url, date, tags, 'notes') }}
 
 {% endmacro %}
