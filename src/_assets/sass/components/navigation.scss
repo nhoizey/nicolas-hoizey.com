@@ -52,12 +52,12 @@
     transform: translateY(1px);
   }
 
-  .homepage &.homepage,
-  .articles &.articles,
-  .links &.links,
-  .talks &.talks,
-  .feeds &.feeds,
-  .about &.about {
+  .section-home &.home,
+  .section-articles &.articles,
+  .section-links &.links,
+  .section-talks &.talks,
+  .section-feeds &.feeds,
+  .section-about &.about {
     a:link,
     a:visited {
       color: $color-primary;
