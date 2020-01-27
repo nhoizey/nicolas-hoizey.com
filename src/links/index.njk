@@ -1,35 +1,29 @@
 ---
-layout: page
+layout: default
 title: Links
 eleventyExcludeFromCollections: true
-pagination:
-  data: collections.links
-  size: 10
-  alias: links
-permalink: "links/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}{% else %}index{% endif %}.html"
 ---
 
 {% from "macros/linkCard.njk" import linkCard %}
 
+<h2>Latest links</h2>
 <ul class="list">
-  {% for link in pagination.items %}
+  {% for link in collections.links | limit(6) %}
     <li class="list__item">
-      <div class="card card--link">
+      <div class="card card--link h-entry">
         {{ linkCard(link.data.title, link.url, link.data.link, link.data.authors, link.date, link.data.tags) }}
       </div>
     </li>
   {% endfor %}
 </ul>
 
+<h2>Browse all links</h2>
 <p class="pagination">
-  Pages:
+  Years:
   {% set separator = joiner(", ") %}
-  {%- for pageEntry in pagination.pages %}
+  {% for linkYear in collections.yearsWithLinks %}
     {{ separator() }}
-    {% if page.url == pagination.hrefs[ loop.index0 ] %}
-      <strong>{{ loop.index }}</strong>
-    {% else %}  
-      <a href="{{ pagination.hrefs[ loop.index0 ] }}">{{ loop.index }}</a>
-    {% endif %}
+    <a href="/links/{{ linkYear }}/">{{ linkYear }}</a>
   {%- endfor %}
 </p>
+

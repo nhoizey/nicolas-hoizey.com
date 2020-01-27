@@ -1,17 +1,14 @@
 ---
-layout: page
+layout: default
 title: Articles
-pagination:
-  data: collections.articles
-  size: 10
-  alias: articles
-permalink: "articles/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}{% else %}index{% endif %}.html"
+eleventyExcludeFromCollections: true
 ---
 
 {% from "macros/articleCard.njk" import articleCard %}
 
+<h2>Latest article</h2>
 <ul class="list">
-  {% for article in pagination.items %}
+  {% for article in collections.articles | limit(1) %}
     <li class="list__item list__item--large">
       <div class="card card--article h-entry">
         {{ articleCard(article.data.title, article.url, article.data.lang, article.date, article.data.tags, article.templateContent ) }}
@@ -20,15 +17,24 @@ permalink: "articles/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNu
   {% endfor %}
 </ul>
 
+<h2>Latest noteworthy article</h2>
+<ul class="list">
+  {% for article in collections.promoted | limit(1) %}
+    <li class="list__item list__item--large">
+      <div class="card card--article h-entry">
+        {{ articleCard(article.data.title, article.url, article.data.lang, article.date, article.data.tags, article.templateContent ) }}
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+
+<h2>Browse all articles</h2>
 <p class="pagination">
-  Pages:
+  Years:
   {% set separator = joiner(", ") %}
-  {%- for pageEntry in pagination.pages %}
+  {% for articleYear in collections.yearsWithArticles %}
     {{ separator() }}
-    {% if page.url == pagination.hrefs[ loop.index0 ] %}
-      <strong>{{ loop.index }}</strong>
-    {% else %}  
-      <a href="{{ pagination.hrefs[ loop.index0 ] }}">{{ loop.index }}</a>
-    {% endif %}
+    <a href="/articles/{{ articleYear }}/">{{ articleYear }}</a>
   {%- endfor %}
 </p>
+
