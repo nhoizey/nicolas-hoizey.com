@@ -47,6 +47,7 @@
     "html-entities": "^1.2.1",
     "html-minifier": "^4.0.0",
     "image-size": "^0.8.3",
+    "lodash": "^4.17.15",
     "markdown-it": "~10.0",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-anchor": "~5.2",
