@@ -1,8 +1,3 @@
-const slugify = require("@sindresorhus/slugify");
-const cheerio = require('cheerio');
-const path = require('path');
-const util = require('util');
-
 module.exports = function (eleventyConfig) {
 
   // ------------------------------------------------------------------------
@@ -85,73 +80,9 @@ module.exports = function (eleventyConfig) {
   // Filters
   // ------------------------------------------------------------------------
 
-  const excerpt = require("./src/_filters/excerpt.js");
-  eleventyConfig.addFilter("excerpt", excerpt);
-
-  const moment = require("moment");
-  eleventyConfig.addFilter("date", function (date, format) {
-    return moment(date).format(format);
-  });
-  eleventyConfig.addFilter("monthString", function (month) {
-    let fullDate = `${month.replace('/', '-')}-01T10:00:00.000Z`;
-    return moment(fullDate).format("MMMM YYYY");
-  });
-
-  const permalinkDate = require("./src/_filters/permalinkDate.js");
-  eleventyConfig.addFilter("permalinkDate", permalinkDate);
-
-  const notePermalinkDate = require("./src/_filters/notePermalinkDate.js");
-  eleventyConfig.addFilter("notePermalinkDate", notePermalinkDate);
-
-  const attributeDate = require("./src/_filters/attributeDate.js");
-  eleventyConfig.addFilter("attributeDate", attributeDate);
-
-  const cleanDeepLinks = require("./src/_filters/cleanDeepLinks.js");
-  eleventyConfig.addFilter("cleanDeepLinks", cleanDeepLinks);
-
-  eleventyConfig.addFilter("slugify", function (string) {
-    return slugify(string, {
-      decamelize: false,
-      customReplacements: [
-        ['%', ' ']
-      ]
-    });
-  });
-
-  eleventyConfig.addFilter("split", function (string, separator) {
-    return string.split(separator);
-  });
-
-  // limit filter
-  eleventyConfig.addFilter("limit", function (array, limit) {
-    return array.slice(0, limit);
-  });
-
-  // offset filter
-  eleventyConfig.addFilter("offset", function (array, offset) {
-    return array.slice(offset);
-  });
-
-  // debug utilities
-  eleventyConfig.addFilter("dump", obj => util.inspect(obj));
-
-  eleventyConfig.addFilter("stripFootnotes", function (content) {
-    // TODO: Use jsdom?
-    const $ = cheerio.load(content);
-    $('a.footnote, a.footnotes, div.footnote, div.footnotes, sup.footnote, sup.footnotes').remove();
-    return $.html();
-  });
-
-  eleventyConfig.addFilter("dirname", function (filePath) {
-    return path.dirname(filePath);
-  });
-
-  eleventyConfig.addFilter("uniq", function (array) {
-    return [...new Set(array)];
-  });
-
-  eleventyConfig.addFilter("base64", function (url) {
-    return Buffer.from(url).toString('base64');
+  const filters = require('./src/_11ty/filters')
+  Object.keys(filters).forEach(filterName => {
+    eleventyConfig.addFilter(filterName, filters[filterName]);
   });
 
   // ------------------------------------------------------------------------
@@ -227,6 +158,7 @@ module.exports = function (eleventyConfig) {
 
   const markdownItFootnote = require("markdown-it-footnote");
 
+  const slugify = require("@sindresorhus/slugify");
   const markdownItAnchor = require("markdown-it-anchor");
   const markdownItAnchorOptions = {
     permalink: true,
