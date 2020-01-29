@@ -15,7 +15,7 @@ permalink: "notes/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumbe
   {% for note in pagination.items %}
     <li class="list__item list__item--large">
       <div class="card card--note">
-        {{ noteCard(note.url, note.lang, note.date, note.data.tags, note.templateContent) }}
+        {{ noteCard(note.url, note.lang, note.date, note.data.tags, note.templateContent, webmentions) }}
       </div>
     </li>
   {% endfor %}

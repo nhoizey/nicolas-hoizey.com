@@ -1,0 +1,27 @@
+{% set cloudinaryPrefix = 'https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,' %}
+<div class="webmentions webmentions--repost-of">
+  <ol class="webmentions__list">
+    {% for webmention in reposts %}
+      <li id="webmention-{{ webmention['wm-id'] }}" class="webmentions__item webmention webmention--{{ webmention['wm-property'] }}">
+        <div class="webmention__author p-author h-card">
+          {% if "https://twitter.com/" in webmention.url %}
+            <a class="u-url" href="{{ webmention.url }}">
+          {% else %}
+            <a class="u-url" href="{{ webmention.author.url }}">
+          {% endif %}
+          <img
+            class="webmention__author__photo u-photo"
+            src="/assets/avatars/default.svg"
+            data-src="{{ cloudinaryPrefix }}w_48,h_48/{{ webmention.author.photo }}"
+            data-srcset="{{ cloudinaryPrefix }}w_48,h_48/{{ webmention.author.photo }} 1x, {{ cloudinaryPrefix }}w_96,h_96/{{ webmention.author.photo }} 2x"
+            width= "48"
+            height="48"
+            alt="{{ webmention.author.name }} avatar"
+            loading="lazy"
+            crossorigin="anonymous" />
+          </a>
+        </div>
+      </li>
+    {% endfor %}
+  </ol>
+</div>

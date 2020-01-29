@@ -1,4 +1,4 @@
-{% macro linkCard(title, url, link, authors, date, tags) %}
+{% macro linkCard(title, url, link, authors, date, tags, webmentions) %}
 
   {% set thumbUrl = 'https://image.thum.io/get/width/1200/crop/800/noanimate/' %}
   <figure class="card__image">
@@ -29,6 +29,6 @@
   </p>
 
   {% from "macros/meta.njk" import meta %}
-  {{ meta(url, date, tags, 'links') }}
+  {{ meta(url, date, tags, 'links', webmentions) }}
 
 {% endmacro %}

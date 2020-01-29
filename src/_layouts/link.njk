@@ -24,7 +24,7 @@ layout: default
         {% endfor %}
       {% endif %}
       <h1>{{ title }}</h1>
-      {{ meta(url, date, tags, 'links') }}
+      {{ meta(page.url, date, tags, 'links', webmentions) }}
     </div>
     <figure class="link__screenshot">
       <img
@@ -41,5 +41,6 @@ layout: default
   </p>
   {{ content | safe }}
 
+  {% set webmentionUrl = page.url %}
   {% include "components/webmentions.njk" %}
 </article>

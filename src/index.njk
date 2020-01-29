@@ -44,7 +44,7 @@ JSON-LD for:
   {% for article in collections.articles | limit(1) %}
     <li class="list__item list__item--large">
       <div class="card card--article h-entry">
-        {{ articleCard(article.data.title, article.url, article.data.lang, article.date, article.data.tags, article.templateContent ) }}
+        {{ articleCard(article.data.title, article.url, article.data.lang, article.date, article.data.tags, article.templateContent, webmentions ) }}
       </div>
     </li>
   {% endfor %}
@@ -55,7 +55,7 @@ JSON-LD for:
   {% for article in collections.promoted %}
     <li class="list__item list__item--large">
       <div class="card card--article h-entry">
-        {{ articleCard(article.data.title, article.url, article.data.lang, article.date, article.data.tags, article.templateContent ) }}
+        {{ articleCard(article.data.title, article.url, article.data.lang, article.date, article.data.tags, article.templateContent, webmentions ) }}
       </div>
     </li>
   {% endfor %}
@@ -69,7 +69,7 @@ JSON-LD for:
   {% for link in collections.links | limit(6) %}
     <li class="list__item">
       <div class="card card--link h-entry">
-        {{ linkCard(link.data.title, link.url, link.data.link, link.data.authors, link.date, link.data.tags) }}
+        {{ linkCard(link.data.title, link.url, link.data.link, link.data.authors, link.date, link.data.tags, webmentions) }}
       </div>
     </li>
   {% endfor %}

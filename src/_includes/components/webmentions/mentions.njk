@@ -1,0 +1,91 @@
+{% set cloudinaryPrefix = 'https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,' %}
+<div class="webmentions webmentions--mention-of">
+  <ol class="webmentions__list">
+    {% for webmention in mentions %}
+      <li id="webmention-{{ webmention['wm-id'] }}" class="webmentions__item">
+        <article class="h-cite webmention webmention--{{ webmention['wm-property'] }}
+          {% if webmention.author == undefined or webmention.author == '' %}webmention--no-author{% endif %}
+          {% if webmention.author.photo == undefined or webmention.author.photo == '' %}webmention--no-photo{% endif %}">
+          {% if webmention.author.url != "" %}
+            <div class="webmention__author p-author h-card">
+              <a class="u-url" href="{{ webmention.author.url }}">
+                {% if webmention.author.photo != "" %}
+                  <img
+                    class="webmention__author__photo u-photo"
+                    src="/assets/avatars/default.svg"
+                    data-src="{{ cloudinaryPrefix }}w_48,h_48/{{ webmention.author.photo }}"
+                    data-srcset="{{ cloudinaryPrefix }}w_48,h_48/{{ webmention.author.photo }} 1x, {{ cloudinaryPrefix }}w_96,h_96/{{ webmention.author.photo }} 2x"
+                    width= "48"
+                    height="48"
+                    alt="{{ webmention.author.name }} avatar"
+                    loading="lazy"
+                    crossorigin="anonymous" />
+                {% endif %}
+                <b class="p-name">{{ webmention.author.name }}</b>
+              </a>
+              <a class="deeplink" href="#webmention-{{ webmention['wm-id'] }}">
+                <svg><use xlink:href="#symbol-link" /></svg>
+              </a>
+            </div>
+          {% else %}
+            {% if webmention.url %}
+              {% set screenshot = 'https://image.thum.io/get/width/1200/crop/800/noanimate/' + webmention.url %}
+              <div class="webmention__source">
+                <a class="deeplink" href="#webmention-{{ webmention['wm-id'] }}">
+                  <svg><use xlink:href="#symbol-link" /></svg>
+                </a>
+                <img
+                  class="webmention__source__screenshot u-photo"
+                  src="/assets/default-screenshot.svg"
+                  data-src="{{ cloudinaryPrefix }}w_300,h_200/{{ screenshot }}"
+                  data-srcset="
+                    {{ cloudinaryPrefix }}w_300,h_200/{{ screenshot }} 300w,
+                    {{ cloudinaryPrefix }}w_480,h_320/{{ screenshot }} 480w,
+                    {{ cloudinaryPrefix }}w_660,h_440/{{ screenshot }} 660w,
+                    {{ cloudinaryPrefix }}w_840,h_560/{{ screenshot }} 840w,
+                    {{ cloudinaryPrefix }}w_1200,h_800/{{ screenshot }} 1200w"
+                  sizes="(min-width: 66.666rem) 20rem, (min-width: 40rem) 30vw, calc(90vw - 2em)"
+                  width="300"
+                  height="200"
+                  alt="Page screenshot"
+                  loading="lazy"
+                  crossorigin="anonymous" />
+                <a class="u-url" href="{{ webmention.url }}">
+                  <b class="p-name">{{ webmention.url | truncate(70) }}</b>
+                </a>
+              </div>
+            {% endif %}
+          {% endif %}
+
+          <div class="webmention__content p-content">
+            {% if webmention.content %}
+              <div class="webmention__content p-content">
+                {% if webmention.content['content-type'] == 'text/html' %}
+                  {% if webmention.content.html | striptags | length > 400 %}
+                    {{ webmention.content.html | safe | striptags | truncate(400, true, '…') }}
+                  {% else %}
+                    {{ webmention.content.html | safe | striptags }}
+                  {% endif %}
+                {% else %}
+                  {{ webmention.content.text | truncate(400, true, '…') }}
+                {% endif %}
+              </div>
+            {% endif %}
+          </div>
+          {% if webmention.url %}
+            <div class="webmention__meta">
+              {% if webmention.published %}
+                <time class="webmention__pubdate dt-published" datetime="{{ webmention.published }}">{{ webmention.published | date("Do MMMM YYYY, HH:mm") }}</time>
+                |
+              {% endif %}
+              {% if "https://twitter.com/" in webmention.url %}
+                <svg><use xlink:href="#symbol-twitter" /></svg>
+              {% endif %}
+              <a class="webmention__source u-url" href="{{ webmention.url }}">Source</a>
+            </div>
+          {% endif %}
+        </article>
+      </li>
+    {% endfor %}
+  </ol>
+</div>

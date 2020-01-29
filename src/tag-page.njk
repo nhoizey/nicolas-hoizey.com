@@ -24,9 +24,9 @@ permalink: /tags/{{ tag.slug }}.html
 {% endif %}
 
 {% if tag.number > 1 %}
-  <p>Here are the {{ tag.number }} contents tagged with “{{ tag.tag }}”:</p>
+  <p>There are {{ tag.number }} contents with this tag:</p>
 {% else %}
-  <p>Here is the single content tagged with “{{ tag.tag }}”:</p>
+  <p>There is only one content with this tag:</p>
 {% endif %}
 
 <ul class="list">
@@ -35,13 +35,13 @@ permalink: /tags/{{ tag.slug }}.html
     {% if item.data.layout == "article" %}
       <li class="list__item list__item--large">
         <div class="card card--article h-entry">
-          {{ articleCard(item.data.title, item.url, item.data.lang, item.date, item.data.tags, item.templateContent ) }}
+          {{ articleCard(item.data.title, item.url, item.data.lang, item.date, item.data.tags, item.templateContent, webmentions ) }}
         </div>
       </li>
     {% else %}
       <li class="list__item">
         <div class="card card--article h-entry">
-          {{ linkCard(item.data.title, item.url, item.data.link, item.data.authors, item.date, item.data.tags) }}
+          {{ linkCard(item.data.title, item.url, item.data.link, item.data.authors, item.date, item.data.tags, webmentions) }}
         </div>
       </li>
     {% endif %}

@@ -1,4 +1,4 @@
-{% macro meta(url, date, tags, type, permalink=false) %}
+{% macro meta(url, date, tags, type, webmentions, permalink=false) %}
   <footer>
     <ul class="meta">
       <li class="meta__item card__author">
@@ -20,18 +20,15 @@
           <a href="/tags/{{ tag | slugify }}.html" rel="tag" class="p-category">{{ tag }}</a>
         {%- endfor -%}
       </li>
-      {#
-      {% set webmention_count_value %}{% webmention_count url %}
-      {% endset %}
-      {% set webmention_count_int = webmention_count_value | striptags | int %}
-      {% if webmention_count_int > 0 %}
+      {% set mentions = webmentions | getWebmentionsForUrl(url) %}
+      {% set mentionsSize = mentions | size %}
+      {% if mentionsSize > 0 %}
         <li class="webmentions meta__item card__webmentionscount">
           <svg class="icon"><use xlink:href="#symbol-webmentions" /></svg>
-          <a href="{{ url }}#webmentions">{{ webmention_count_int }} webmention{% if webmention_count_int > 1 %}s{% endif %}
+          <a href="{{ url }}#webmentions">{{ mentionsSize }} webmention{% if mentionsSize > 1 %}s{% endif %}
           </a>
         </li>
       {% endif %}
-      #}
       {% if permalink %}
         <li class="permalink meta__item">
           <svg class="icon"><use xlink:href="#symbol-link" /></svg>
