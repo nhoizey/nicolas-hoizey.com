@@ -26,7 +26,7 @@ async function fetchWebmentions(since, perPage = 10000) {
   const response = await fetch(url);
   if (response.ok) {
     const feed = await response.json();
-    console.log(`>>> ${feed.children.length} new webmentions fetched from ${API}`);
+    console.log(`[Webmention] ${feed.children.length} new webmentions fetched from ${API}`);
     return feed;
   }
 
@@ -35,7 +35,13 @@ async function fetchWebmentions(since, perPage = 10000) {
 
 // Merge fresh webmentions with cached entries, unique per id
 function mergeWebmentions(a, b) {
-  return unionBy(a.children, b.children, 'wm-id');
+  let union = unionBy(a.children, b.children, 'wm-id');
+  union.sort((a, b) => {
+    let aDate = new Date(a.published || a['wm-received']);
+    let bDate = new Date(b.published || b['wm-received']);
+    return aDate - bDate;
+  });
+  return union;
 }
 
 // save combined webmentions in cache file
@@ -49,7 +55,6 @@ function writeToCache(data) {
   // write data to cache json file
   fs.writeFile(CACHE_FILE_PATH, fileContent, err => {
     if (err) throw err;
-    console.log(`>>> webmentions cached to ${CACHE_FILE_PATH}`);
   })
 }
 
@@ -68,17 +73,10 @@ function readFromCache() {
 }
 
 module.exports = async function () {
-  console.log('>>> Reading webmentions from cache...');
-
   const cache = readFromCache();
 
-  if (cache.children.length) {
-    console.log(`>>> ${cache.children.length} webmentions loaded from cache`);
-  }
-
   // Only fetch new mentions in production
-  if (process.env.NODE_ENV === 'production') {
-    console.log('>>> Checking for new webmentions...');
+  if (process.env.ELEVENTY_ENV === 'production') {
     const feed = await fetchWebmentions(cache.lastFetched);
     if (feed) {
       const webmentions = {
