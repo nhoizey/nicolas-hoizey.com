@@ -73,8 +73,8 @@ module.exports = function (eleventyConfig) {
     }
   );
 
-  eleventyConfig.addCollection("tags", require("./_11ty/getTags"));
-  eleventyConfig.addCollection("mainTags", require("./_11ty/getMainTags"));
+  eleventyConfig.addCollection("tags", require("./src/_11ty/getTags"));
+  eleventyConfig.addCollection("mainTags", require("./src/_11ty/getMainTags"));
 
   // ------------------------------------------------------------------------
   // Filters
