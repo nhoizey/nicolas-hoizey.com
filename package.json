@@ -32,7 +32,6 @@
     "@babel/preset-env": "^7.8.3",
     "@sindresorhus/slugify": "~0.10",
     "@tbranyen/jsdom": "^13.0.0",
-    "axios": "^0.19.2",
     "babel-loader": "^8.0.6",
     "browser-sync": "^2.26.7",
     "cheerio": "~1.0.0-rc.3",
@@ -69,9 +68,6 @@
     "rimraf": "^3.0.1",
     "@jlengstorf/get-share-image": "^0.5.0",
     "insert-line": "^1.1.0"
-  },
-  "resolutions": {
-    "**/**/axios": "^0.19.0"
   },
   "engines": {
     "node": ">=8.16"
