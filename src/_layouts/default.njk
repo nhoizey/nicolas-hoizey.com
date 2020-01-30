@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
   {% set pageExcerpt = content | excerpt %}
   {% include "head.njk" %}
 
@@ -50,12 +49,6 @@
 
     <script src="/js/additional.js" async defer></script>
     <script type="module" src="/sw-window.mjs"></script>
-
-    {#
-    {% if layout == 'article' or layout == 'link' %}
-      <script src="{{ '/js/webmentions.min.js' }}" defer></script>
-    {% endif %}
-    #}
   </body>
 
 </html>
