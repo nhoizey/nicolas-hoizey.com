@@ -1,0 +1,31 @@
+---
+layout: default
+title: Latest Webmentions
+---
+
+<article>
+<h1>Latest Webmentions</h1>
+<table style="font-size: 0.8em">
+  <thead>
+    <tr>
+      <th>date</th>
+      <th>type</th>
+      <th>target</th>
+      <th>mention</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for webmention in webmentions | reverse | limit(100) %}
+      <tr style="font-size: 0.8em">
+        <td style="white-space: nowrap">{{ webmention.published | date("DD/MM/YYYY HH:mm") }}</td>
+        <td style="white-space: nowrap">{{ webmention['wm-property'] }}</td>
+        <td><a href="{{ webmention['wm-target'] }}">{{ webmention['wm-target'] | replace('https://nicolas-hoizey.com', '') }}</a></td>
+        <td><a href="{{ webmention.url }}">{{ webmention.url | replace('https://twitter.com/', '@') }}</a></td>
+      </tr>
+      <tr>
+        <td colspan="4" style="border-bottom: 1px solid #333">{{ webmention.content.text }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</article>
