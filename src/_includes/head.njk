@@ -50,10 +50,6 @@
       {% set ogType = "article" %}
     {% elif page.inputPath == "./src/tag-page.njk" %}
       {% set ogDescription = ogTitle %}
-    {# {% elif page.type == "year" %}
-      {% set ogDescription %}Articles published by Nicolas Hoizey in {{ page.date | date("%Y") }}{% endset %}
-    {% elif page.type == "month" %}
-      {% set ogDescription %}Articles published by Nicolas Hoizey in {{ page.date | date("%B %Y") }}{% endset %} #}
     {% endif %}
     <title>{{ ogTitle }} &ndash; {{ site.name }}</title>
   {% endif %}
