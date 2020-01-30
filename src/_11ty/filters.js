@@ -26,7 +26,7 @@ module.exports = {
       // /links/2019/12/good-enough.html
       urlsList.push(`${rootUrl}/links/${parts[1]}/${parts[2]}/${parts[4]}.html`);
     }
-    return webmentions.children.filter(entry => {
+    return webmentions.filter(entry => {
       return urlsList.includes(entry['wm-target']);
     });
   },

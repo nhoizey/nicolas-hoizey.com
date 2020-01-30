@@ -4,6 +4,7 @@ const fs = require('fs');
 const fetch = require('node-fetch');
 const unionBy = require('lodash/unionBy');
 const domain = require('./site.js').domain;
+const sanitizeHTML = require('sanitize-html');
 
 // Load .env variables with dotenv
 require('dotenv').config();
@@ -26,16 +27,56 @@ async function fetchWebmentions(since, perPage = 10000) {
   const response = await fetch(url);
   if (response.ok) {
     const feed = await response.json();
-    console.log(`[Webmention] ${feed.children.length} new webmentions fetched from ${API}`);
-    return feed;
+    const webmentions = feed.children;
+    if (webmentions.length === 0) {
+      console.log(`[Webmention] No new webmentions fetched from ${API}`);
+      return [];
+    } else {
+      console.log(`[Webmention] ${webmentions.length} new webmentions fetched from ${API}`);
+      return cleanWebmentions(webmentions);
+    }
   }
 
   return null;
 }
 
+function cleanWebmentions(webmentions) {
+  // https://mxb.dev/blog/using-webmentions-on-static-sites/#h-parsing-and-filtering
+  const hasRequiredFields = entry => {
+    const { published, url } = entry;
+    return published && url;
+  }
+  const isNotSelf = entry => {
+    const { url } = entry;
+    return !url.match(/^https:\/\/twitter.com\/(nhoizey|nice_links)\//);
+  }
+  const sanitize = entry => {
+    const { content } = entry;
+    if (content && content['content-type'] === 'text/html') {
+      content.html = sanitizeHTML(content.html, {
+        allowedTags: ['b', 'i', 'em', 'strong', 'a', 'blockquote', 'ul', 'ol', 'li', 'code', 'pre'],
+        allowedAttributes: {
+          a: ['href', 'rel'],
+          img: ['src', 'alt']
+        },
+        allowedIframeHostnames: []
+      });
+    }
+    return entry;
+  }
+
+  return webmentions
+    .filter(hasRequiredFields)
+    .filter(isNotSelf)
+    .map(sanitize);
+}
+
 // Merge fresh webmentions with cached entries, unique per id
 function mergeWebmentions(a, b) {
-  let union = unionBy(a.children, b.children, 'wm-id');
+  if (b.length === 0) {
+    return a;
+  }
+  let union = unionBy(a, b, 'wm-id');
   union.sort((a, b) => {
     let aDate = new Date(a.published || a['wm-received']);
     let bDate = new Date(b.published || b['wm-received']);
@@ -68,26 +109,27 @@ function readFromCache() {
   // no cache found.
   return {
     lastFetched: null,
-    children: []
+    webmentions: []
   };
 }
 
 module.exports = async function () {
-  const cache = readFromCache();
+  const cached = readFromCache();
 
   // Only fetch new mentions in production
   if (process.env.ELEVENTY_ENV === 'production') {
-    const feed = await fetchWebmentions(cache.lastFetched);
-    if (feed) {
+    const fetchedAt = new Date().toISOString();
+    const newWebmentions = await fetchWebmentions(cached.lastFetched);
+    if (newWebmentions) {
       const webmentions = {
-        lastFetched: new Date().toISOString(),
-        children: mergeWebmentions(cache, feed)
+        lastFetched: fetchedAt,
+        webmentions: mergeWebmentions(cached.webmentions, newWebmentions)
       };
 
       writeToCache(webmentions);
-      return webmentions;
+      return webmentions.webmentions;
     }
   }
 
-  return cache;
+  return cached.webmentions;
 }

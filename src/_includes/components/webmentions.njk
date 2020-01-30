@@ -1,4 +1,3 @@
-<!-- Filter the cached mentions to only include ones matching the post's url -->
 {% set allMentions = webmentions | getWebmentionsForUrl(webmentionUrl) %}
 {% set allMentionsSize = allMentions | size %}
 
@@ -18,30 +17,22 @@
   <h2 id="webmentions">{{ allMentionsSize }} Webmention{% if allMentionsSize > 1 %}s{% endif %}</h2>
 
   {% if likesSize > 0 %}
-    <section>
-      <h3>{{ likesSize }} like{% if likesSize > 1 %}s{% endif %}</h3>
-      {% include "components/webmentions/likes.njk" %}
-    </section>
+    <h3>{{ likesSize }} like{% if likesSize > 1 %}s{% endif %}</h3>
+    {% include "components/webmentions/likes.njk" %}
   {% endif %}
 
   {% if repostsSize > 0 %}
-    <section>
-      <h3>{{ repostsSize }} repost{% if repostsSize > 1 %}s{% endif %}</h3>
-      {% include "components/webmentions/reposts.njk" %}
-    </section>
+    <h3>{{ repostsSize }} repost{% if repostsSize > 1 %}s{% endif %}</h3>
+    {% include "components/webmentions/reposts.njk" %}
   {% endif %}
 
   {% if repliesSize > 0 %}
-    <section>
-      <h3>{{ repliesSize }} {% if repliesSize > 1 %}replies{% else %}reply{% endif %}</h3>
-      {% include "components/webmentions/replies.njk" %}
-    </section>
+    <h3>{{ repliesSize }} {% if repliesSize > 1 %}replies{% else %}reply{% endif %}</h3>
+    {% include "components/webmentions/replies.njk" %}
   {% endif %}
 
   {% if mentionsSize > 0 %}
-    <section>
-      <h3>{{ mentionsSize }} mention{% if mentionsSize > 1 %}s{% endif %}</h3>
-      {% include "components/webmentions/mentions.njk" %}
-    </section>
+    <h3>{{ mentionsSize }} mention{% if mentionsSize > 1 %}s{% endif %}</h3>
+    {% include "components/webmentions/mentions.njk" %}
   {% endif %}
 </aside>
