@@ -1,0 +1,35 @@
+---
+layout: page
+pagination:
+  data: collections.notesByYear
+  size: 1
+  alias: year
+permalink: "notes/{{ year }}/"
+renderData:
+  title: Notes published in {{ year }}
+---
+
+{% from "macros/noteCard.njk" import noteCard %}
+
+<ul class="list">
+  {% for note in collections.notesByYear[year] %}
+    <li class="list__item list__item--large">
+      <div class="card card--note">
+        {{ noteCard(note.url, note.lang, note.date, note.data.tags, note.templateContent, webmentions) }}
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+
+<p class="pagination">
+  Years:
+  {% set separator = joiner(", ") %}
+  {%- for pageEntry in pagination.pages %}
+    {{ separator() }}
+    {% if page.url == pagination.hrefs[ loop.index0 ] %}
+      <strong>{{ pageEntry }}</strong>
+    {% else %}  
+      <a href="{{ pagination.hrefs[ loop.index0 ] }}">{{ pageEntry }}</a>
+    {% endif %}
+  {%- endfor %}
+</p>
