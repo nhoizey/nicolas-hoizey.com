@@ -21,7 +21,7 @@
     "start": "cross-env ELEVENTY_ENV=development eleventy --serve",
     "debug": "DEBUG=Eleventy* npm start",
     "prebuild": "npm run clean",
-    "build": "cross-env ELEVENTY_ENV=production eleventy"
+    "build": "cross-env ELEVENTY_ENV=production eleventy && workbox injectManifest ./workbox-config.js"
   },
   "dependencies": {},
   "devDependencies": {
@@ -67,7 +67,8 @@
     "workbox-build": "^4.3.1",
     "rimraf": "^3.0.1",
     "@jlengstorf/get-share-image": "^0.5.0",
-    "insert-line": "^1.1.0"
+    "insert-line": "^1.1.0",
+    "workbox-cli": "^5.0.0"
   },
   "engines": {
     "node": ">=8.16"
