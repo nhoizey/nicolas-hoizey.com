@@ -55,15 +55,16 @@ define('ARCHIVES_NUMBER', 2);
 define('VISUAL_FRIENDLY', false);
 ```
 
-|**Constante**|**Rôle**|
-|`DIRECTORY`|Répertoire dans lequel doivent être placées les sauvegardes|
-|`ARCHIVE_PREFIX`|Préfixe des noms de fichier des sauvegardes|
-|`BASE_HOST`|Serveur sur lequel se trouve la base de données|
-|`BASE_NAME`|Nom de la base de données|
-|`BASE_USERNAME`|Utilisateur de la base de données|
-|`BASE_USERPASS`|Mot de passe de l'utilisateur de la base de données|
-|`ARCHIVES_NUMBER`|Nombre de fichiers d'archive à conserver. En mettant 0, on retire la limite.[^t2]|
-|`VISUAL_FRIENDLY`|Utilisation de l'interface plus riche indiquant la progression des actions|
+| **Constante**     | **Rôle**                                                                          |
+|-------------------|-----------------------------------------------------------------------------------|
+| `DIRECTORY`       | Répertoire dans lequel doivent être placées les sauvegardes                       |
+| `ARCHIVE_PREFIX`  | Préfixe des noms de fichier des sauvegardes                                       |
+| `BASE_HOST`       | Serveur sur lequel se trouve la base de données                                   |
+| `BASE_NAME`       | Nom de la base de données                                                         |
+| `BASE_USERNAME`   | Utilisateur de la base de données                                                 |
+| `BASE_USERPASS`   | Mot de passe de l'utilisateur de la base de données                               |
+| `ARCHIVES_NUMBER` | Nombre de fichiers d'archive à conserver. En mettant 0, on retire la limite.[^t2] |
+| `VISUAL_FRIENDLY` | Utilisation de l'interface plus riche indiquant la progression des actions        |
 
 ## Utilisation
 
