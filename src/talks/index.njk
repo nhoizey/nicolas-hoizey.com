@@ -4,9 +4,7 @@ title: Talks
 eleventyExcludeFromCollections: true
 ---
 
-{% set nowTimestamp = build.timestamp %}
-
-{% for talk in notist.talks.future %}
+{% for talk in notist.future %}
   {% if loop.first %}
     <p>Here are my upcoming talks:</p>
     <ul class="list">
@@ -35,7 +33,7 @@ eleventyExcludeFromCollections: true
 
 <p>Here are a few talks I gave along the years:</p>
 <ul class="list">
-  {% for talk in notist.talks.past %}
+  {% for talk in notist.past %}
     <li class="list__item">
       <div class="card">
         <figure class="card__image">
