@@ -47,31 +47,25 @@ module.exports = function (eleventyConfig) {
     }
   );
 
+  // collections for yearly archives
   const contentsByYear = require("./src/_utils/content-by-date").contentByYear;
-  eleventyConfig.addCollection(
-    "articlesByYear", collection => {
-      return contentsByYear(collection.getFilteredByGlob("src/articles/**/*.md"));
-    }
-  );
-  eleventyConfig.addCollection(
-    "linksByYear", collection => {
-      return contentsByYear(collection.getFilteredByGlob("src/links/**/*.md"));
-    }
-  );
+  ['articles', 'links', 'notes'].forEach(collectionName => {
+    eleventyConfig.addCollection(
+      `${collectionName}ByYear`, collection => {
+        return contentsByYear(collection.getFilteredByGlob(`src/${collectionName}/**/*.md`));
+      }
+    );
+  })
 
+  // collections for monthly archives
   const contentsByMonth = require("./src/_utils/content-by-date").contentByMonth;
-  eleventyConfig.addCollection(
-    "articlesByMonth",
-    collection => {
-      return contentsByMonth(collection.getFilteredByGlob("src/articles/**/*.md"));
-    }
-  );
-  eleventyConfig.addCollection(
-    "linksByMonth",
-    collection => {
-      return contentsByMonth(collection.getFilteredByGlob("src/links/**/*.md"));
-    }
-  );
+  ['articles', 'links', 'notes'].forEach(collectionName => {
+    eleventyConfig.addCollection(
+      `${collectionName}ByMonth`, collection => {
+        return contentsByMonth(collection.getFilteredByGlob(`src/${collectionName}/**/*.md`));
+      }
+    );
+  })
 
   eleventyConfig.addCollection("tags", require("./src/_11ty/getTags"));
   eleventyConfig.addCollection("mainTags", require("./src/_11ty/getMainTags"));
