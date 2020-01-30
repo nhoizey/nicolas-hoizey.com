@@ -6,7 +6,7 @@ layout: default
 
 {% set thumbUrl = 'https://image.thum.io/get/width/1200/crop/800/noanimate/' %}
 <article
-    class="main link clearfix h-cite"
+    class="main link clearfix h-entry"
     lang="{{ lang }}">
   <div class="link__header">
     <div class="link__info">
@@ -37,7 +37,7 @@ layout: default
     </figure>
   </div>
   <p class="link__link">
-    <a href="{{ link }}">{{ link }}</a>
+    <a href="{{ link }}" class="u-bookmark-of">{{ link }}</a>
   </p>
   {{ content | safe }}
 
