@@ -1,14 +1,10 @@
 @import "settings";
 @import "utilities";
-@import "components/list";
-@import "components/card";
 @import "components/toast";
-@import "components/intro";
 @import "components/link";
 @import "components/comments";
 @import "components/webmentions";
 @import "components/tagscloud";
-@import "rve";
 @import "highlight/prism-onedark";
 
 // ************************************************************
@@ -433,20 +429,21 @@ article {
   }
 }
 
-
 // File link icons
 a[href$=".zip"],
 a[href$=".kml"] {
   padding-left: 1.6em;
   background-size: 1.4em 1.4em;
+  background-position: 0 0;
+  background-repeat: no-repeat;
 }
 
 a[href$=".zip"] {
-  background: url(/assets/icons/zip.svg) 0 0 no-repeat;
+  background-image: url(/assets/icons/zip.svg);
 }
 
 a[href$=".kml"] {
-  background: url(/assets/icons/kml.svg) 0 0 no-repeat;
+  background-image: url(/assets/icons/kml.svg);
 }
 
 // ************************************************************

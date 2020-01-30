@@ -6,6 +6,9 @@
 @import "components/search";
 @import "components/navigation";
 @import "components/meta";
+@import "components/intro";
+@import "components/list";
+@import "components/card";
 
 :root {
   --base-duration: 0s;
@@ -210,4 +213,3 @@ h6 {
     }
   }
 }
-
