@@ -13,7 +13,7 @@ Vous vous dites régulièrement que vous appréciez les articles que je publie s
 
 Alors profitez maintenant de flux RSS dédiés à chaque thème, avec un lien présent sur la page de chacun d'entre eux.
 
-Voici l'exemple pour le thème «[SPIP](/tags/spip.html)» :
+Voici l'exemple pour le thème «[SPIP](/tags/spip/)» :
  
 ![](plus_de_feed_themes.png "Un flux RSS sur un thème")
 

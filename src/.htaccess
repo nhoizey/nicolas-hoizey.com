@@ -749,6 +749,10 @@ RewriteRule ^([0-9]{4}/[0-9]{2}/.*)(\.html|/)$ https://%{HTTP_HOST}/articles/$1/
 # Links pages are now folders
 RewriteRule ^links/([0-9]{4}/[0-9]{2}/.*)\.html$ https://%{HTTP_HOST}/links/$1/ [QSA,L,R=301]
 
+# Tags pages are now folders
+RewriteCond %{REQUEST_URI} !^/tags/index.html
+RewriteRule ^tags/(.*)\.html$ https://%{HTTP_HOST}/tags/$1/ [QSA,L,R=301]
+
 # Tools pages are now folders
 RewriteRule ^tools/(.*)\.html$ https://%{HTTP_HOST}/tools/$1/ [QSA,L,R=301]
 

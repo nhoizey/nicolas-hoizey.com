@@ -24,7 +24,7 @@ There are several ways to make the texts of a web page adapt to the user preferr
 
 # Proportional units: `em`, `rem`, `%`
 
-I have already talked and written [a lot about `em` in the past](/tags/em.html), the most detailed article being on [24 Jours de Web](http://www.24joursdeweb.fr/), a French advent calendar about the Web:
+I have already talked and written [a lot about `em` in the past](/tags/em/), the most detailed article being on [24 Jours de Web](http://www.24joursdeweb.fr/), a French advent calendar about the Web:
 - [Lâchez prise sans perdre le contrôle grâce à l’unité CSS em](https://www.24joursdeweb.fr/2013/lachez-prise-sans-perdre-le-controle-grace-a-l-unite-css-em/)
 - Here's an automatic English translation provided by Google Translate: [Let go without losing control thanks to the CSS unit em](https://translate.google.com/translate?sl=fr&tl=en&u=https%3A%2F%2Fwww.24joursdeweb.fr%2F2013%2Flachez-prise-sans-perdre-le-controle-grace-a-l-unite-css-em%2F)
 

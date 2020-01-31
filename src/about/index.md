@@ -18,7 +18,7 @@ I am passionate about the Web, which I discovered in 1996 during my graduate stu
 
 Always concerned about quality, I participated in the community project [Opquast](https://opquast.com/fr/), a quality repository for the Web initiated by [Temesis](https://temesis.com/). I also regularly participate, sometimes even as a speaker, in beautiful conferences such as [Paris Web](https://www.paris-web.fr/) or [Sud Web](https://sudweb.fr/).
 
-As a professional, I am **co-founder (in 2001) and director of innovation at [Clever Age](http://www.clever-age.com/)**, where I mainly advise on Web architecture (e-commerce, content management, collaborative tools, etc.) and *front end* expertise, including[Responsive Web Design](/tags/rwd.html) and [webperf](/tags/webperf.html). I also run some seminars and training courses on these topics.
+As a professional, I am **co-founder (in 2001) and director of innovation at [Clever Age](http://www.clever-age.com/)**, where I mainly advise on Web architecture (e-commerce, content management, collaborative tools, etc.) and *front end* expertise, including[Responsive Web Design](/tags/rwd/) and [webperf](/tags/webperf/). I also run some seminars and training courses on these topics.
 
 A little (too?) curious and interested in everything about the Web, from knowledge of the lowest technical network and system layers (my specialization at EISTI) to quality *front end* integration including universal accessibility, I now call myself a **Web facilitator**, committed to sharing my knowledge with others, whether they are my clients, my colleagues or other members of the community.
 

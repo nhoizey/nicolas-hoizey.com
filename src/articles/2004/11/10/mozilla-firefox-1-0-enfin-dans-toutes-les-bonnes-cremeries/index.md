@@ -13,7 +13,7 @@ Voilà donc enfin la sortie tant attendue de la version 1.0 !
 
 ![](firefox_rediscover.png)
 
-Mozilla Firefox, c'est notamment un navigateur qui respecte mieux [les standards du Web](/tags/web.html) et est sujet à moins de [bugs](/tags/bug.html)[^t1], et il vous permet en plus de voir un [Gastero Prod](http://www.gasteroprod.com/) plus joli qu'avec Internet Explorer.
+Mozilla Firefox, c'est notamment un navigateur qui respecte mieux [les standards du Web](/tags/web/) et est sujet à moins de [bugs](/tags/bug/)[^t1], et il vous permet en plus de voir un [Gastero Prod](http://www.gasteroprod.com/) plus joli qu'avec Internet Explorer.
 
 N'hésitez donc plus, découvrez vite [les raisons de passer au navigateur Mozilla Firefox](http://frenchmozilla.org/firefox/pourquoi/), et téléchargez vite [Mozilla Firefox en version française](ftp://ftp.eu.mozilla.org/pub/mozilla.org/firefox/releases/1.0/win32/fr-FR/Firefox%20Setup%201.0.exe) !
 

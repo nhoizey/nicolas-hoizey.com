@@ -11,7 +11,7 @@ L'Allemagne s'est aussi dotée d'un parc d'attraction de ce type, [Miniatur Wund
 
 # Au départ, de fausses miniatures
 
-Une mode actuellement très en vogue sur [Flickr](/tags/flickr.html)[^1] consiste à réaliser[^2] de fausses photos de modèles réduits à partir de photos d'éléments de grandeur normale. Cette pratique est appelée *tilt-shift miniature fakes*, du nom des objectifs spéciaux qui permettent d'obtenir le même résultat sans manipulation informatique, et a donné lieu à la création d'un groupe [Tilt-shift miniature fakes](https://www.flickr.com/groups/59319377@N00/). Un second groupe est même né pour mettre en avant les meilleurs éléments, [Top 20 Fake Tilt-Shift](https://www.flickr.com/groups/top20faketiltshift/).
+Une mode actuellement très en vogue sur [Flickr](/tags/flickr/)[^1] consiste à réaliser[^2] de fausses photos de modèles réduits à partir de photos d'éléments de grandeur normale. Cette pratique est appelée *tilt-shift miniature fakes*, du nom des objectifs spéciaux qui permettent d'obtenir le même résultat sans manipulation informatique, et a donné lieu à la création d'un groupe [Tilt-shift miniature fakes](https://www.flickr.com/groups/59319377@N00/). Un second groupe est même né pour mettre en avant les meilleurs éléments, [Top 20 Fake Tilt-Shift](https://www.flickr.com/groups/top20faketiltshift/).
 
 Si vous voulez vous lancer vous aussi, voici [un bon tutoriel pour Photoshop](http://recedinghairline.co.uk/tutorials/fakemodel/) proposé par Christopher Phin.
 

@@ -7,7 +7,7 @@
 
 <ol class="tagscloud__tags">
 {% for tag in tags %}
-  {% set tagUrl %}/tags/{{ tag.tag | slugify }}.html{% endset %}
+  {% set tagUrl %}/tags/{{ tag.tag | slugify }}/{% endset %}
   <li>
     <a href="{{ tagUrl }}"
       class="tag{{ tag.step }}"

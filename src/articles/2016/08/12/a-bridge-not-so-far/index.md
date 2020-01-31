@@ -14,4 +14,4 @@ Voilà le Manhattan Bridge, impressionnante vue depuis la rue Washington du quar
 
 En me décalant un peu, j'aurais même pu apercevoir l'Empire State Building entre les pieds, mais je préfère ce cadrage décalé, pas trop symétrique.
 
-J'ai adoré mon voyage à [New York](/tags/new-york.html) l'an dernier, et j'en ai ramené quelques photos bien sympathiques, que je vais continuer à diffuser petit à petit.
+J'ai adoré mon voyage à [New York](/tags/new-york/) l'an dernier, et j'en ai ramené quelques photos bien sympathiques, que je vais continuer à diffuser petit à petit.

@@ -15,7 +15,7 @@ authors:
 tags: [offline, cloud, POSSE, architecture, PWA]
 ---
 
-I talk a lot about [POSSE](/tags/posse.html) these days, but it's mainly about content, not applications. For them, it is often difficult to host a solution yourself, but relying on a third-party solution in the cloud also raises many concerns, to which the [Ink & Switch](https://www.inkandswitch.com/) team is trying to find a solution:
+I talk a lot about [POSSE](/tags/posse/) these days, but it's mainly about content, not applications. For them, it is often difficult to host a solution yourself, but relying on a third-party solution in the cloud also raises many concerns, to which the [Ink & Switch](https://www.inkandswitch.com/) team is trying to find a solution:
 
 > When data is stored on “someone else’s computer”, that third party assumes a degree of control over that data. Cloud apps are provided as a service; **if the service is unavailable, you cannot use the software, and you can no longer access your data created with that software**. If the service shuts down, even though you might be able to export your data, without the servers there is normally no way for you to continue running your own copy of that software. Thus, you are at the mercy of the company providing the service.
 >

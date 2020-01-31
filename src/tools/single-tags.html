@@ -14,7 +14,7 @@ title: Single tags
   {% for tag in site_tags %}
     {% assign tag_nb = site.tags[tag] | size %}
     {% if tag_nb == 1 %}
-      <li><a href="/tags/{{ tag | slugify }}.html">{{ tag }}</a></li>
+      <li><a href="/tags/{{ tag | slugify }}/">{{ tag }}</a></li>
     {% endif %}
   {% endfor %}
 </ul>
