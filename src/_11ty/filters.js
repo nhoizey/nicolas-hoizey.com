@@ -119,5 +119,9 @@ module.exports = {
     }
 
     return excerpt;
+  },
+  tagToHashtag: (tag) => {
+    let words = tag.replace(/-/, ' ').split(' ');
+    return words[0] + words.slice(1).map(word => word.charAt(0).toUpperCase() + word.substr(1)).join('');
   }
 }

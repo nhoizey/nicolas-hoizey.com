@@ -1,0 +1,44 @@
+---
+layout: default
+title: Tweets
+---
+
+<h1>Links</h1>
+{% for link in collections.links | limit(20) %}
+  <div style="margin: 1em; padding: .5em 1em; border: 1px solid #333">
+  <p>
+    🔗 "{{ link.data.title}}"
+    <br />
+    {% set by = false %}
+    {% if link.data.authors %}
+      {% for author in link.data.authors %}
+        {% if author.twitter %}
+          {% if by == false %}
+            by
+            {% set by = true %}
+          {% endif %}
+          @{{ author.twitter }}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+    <br /><br />
+    {{site.url}}{{ link.url }}
+    <br />
+    {%- for tag in link.data.tags -%}#{{ tag | tagToHashtag }} {% endfor %}
+  </p>
+  </div>
+{% endfor %}
+
+<h1>Articles</h1>
+{% for article in collections.articles | limit(10) %}
+  <div style="margin: 1em; padding: .5em 1em; border: 1px solid #333">
+  <p>
+    📝 "{{ article.data.title}}"
+    <br /><br />
+    {{site.url}}{{ article.url }}
+    <br />
+    {%- for tag in article.data.tags -%}#{{ tag | tagToHashtag }} {% endfor %}
+  </p>
+  </div>
+{% endfor %}
+

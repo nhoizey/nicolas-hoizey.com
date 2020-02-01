@@ -3,11 +3,6 @@ layout: default
 title: Social images
 ---
 
-{#
-<p>Background:</p>
-<img src="{% include social-image-background.njk %}" style="max-width: 100%;" />
-#}
-
 <h1>Articles</h1>
 <section class="list recent">
   {% for article in collections.articles | limit(20) %}
