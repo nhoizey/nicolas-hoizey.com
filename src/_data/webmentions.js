@@ -29,10 +29,9 @@ async function fetchWebmentions(since, perPage = 10000) {
     const feed = await response.json();
     const webmentions = feed.children;
     if (webmentions.length === 0) {
-      console.log(`[Webmention] No new webmentions fetched from ${API}`);
       return [];
     } else {
-      console.log(`[Webmention] ${webmentions.length} new webmentions fetched from ${API}`);
+      console.log(`[Webmention] ${webmentions.length} new webmentions`);
       return cleanWebmentions(webmentions);
     }
   }
