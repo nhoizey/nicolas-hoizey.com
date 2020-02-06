@@ -42,7 +42,7 @@ module.exports = function (value, outputPath) {
 
     const DOM = new JSDOM(value);
     const document = DOM.window.document;
-    const articleImages = [...document.querySelectorAll("main article img")];
+    const articleImages = [...document.querySelectorAll("main img")];
     if (articleImages.length) {
 
       // Get images src and dist path from attributes on body
