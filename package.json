@@ -23,7 +23,6 @@
     "prebuild": "npm run clean",
     "build": "cross-env ELEVENTY_ENV=production eleventy && workbox injectManifest ./workbox-config.js"
   },
-  "dependencies": {},
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
     "@11ty/eleventy-plugin-rss": "^1.0.7",
