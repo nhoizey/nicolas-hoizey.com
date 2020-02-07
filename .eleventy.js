@@ -258,6 +258,11 @@ module.exports = function (eleventyConfig) {
 
   // eleventyConfig.addWatchTarget("_data");
 
+  eleventyConfig.setBrowserSyncConfig({
+    ui: false,
+    ghostMode: false
+  });
+
   return {
     templateFormats: [
       "md",
