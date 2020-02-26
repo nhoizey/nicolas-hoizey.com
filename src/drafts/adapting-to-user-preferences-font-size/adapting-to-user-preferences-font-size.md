@@ -68,7 +68,7 @@ The specification is still a draft, [initiated on April 28, 2018 by Tab Atkins J
 
 <script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/caniuse-embed.min.js"></script>
 
-{% caniuse css-env-function %}
+{% caniuse "css-env-function" %}
 
 The draft specification currently only contains [environment variables for "safe" viewport area](https://drafts.csswg.org/css-env-1/#safe-area-insets) (aka the "Notch" on iPhone X and other recent smartphones):
 

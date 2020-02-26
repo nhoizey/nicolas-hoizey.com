@@ -21,3 +21,9 @@ Les slides sont visibles — et même téléchargeables — en deux emplacemen
 * [« Quelques solutions facilitant la bonne mise en œuvre des images responsives » sur Slideshare](https://www.slideshare.net/nhoizey/solutions-pour-images-responsives-paris-webperf-meetup)
 
 N'hésitez pas à mettre des commentaires, des pouces, des likes, des étoiles, sur ces différentes plateformes, c'est toujours intéressant de savoir si ce travail a été apprécié !
+
+Rappel au passage, les images responsives sont vraiment supportées partout maintenant, n'hésitez pas :
+
+{% caniuse "srcset" %}
+
+{% caniuse "picture" %}

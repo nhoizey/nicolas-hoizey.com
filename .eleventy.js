@@ -91,6 +91,15 @@ module.exports = function (eleventyConfig) {
     return `<figure class="video"><iframe width="784" height="441" src="https://player.vimeo.com/video/${id}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure>`;
   });
 
+  eleventyConfig.addNunjucksShortcode("caniuse", function (id) {
+    return `
+<script>
+!function () {
+  document.addEventListener("DOMContentLoaded",function(){for(var e=document.getElementsByClassName("ciu_embed"),t=0;t<e.length;t++){var s=e[t],r=s.getAttribute("data-feature"),n=s.getAttribute("data-periods"),a=s.getAttribute("data-accessible-colours")||"false";if(r){var o="https://caniuse.bitsofco.de/embed/index.html",i='<iframe src="'+o+"?feat="+r+"&periods="+n+"&accessible-colours="+a+'" frameborder="0" width="100%" height="400px"></iframe>';s.innerHTML=i}else s.innerHTML="A feature was not included. Go to <a href='https://caniuse.bitsofco.de/#how-to-use'>https://caniuse.bitsofco.de/#how-to-use</a> to generate an embed."}var l=window.addEventListener?"addEventListener":"attachEvent";(0,window[l])("attachEvent"==l?"onmessage":"message",function(t){var s=t.data;if("string"==typeof s&&s.indexOf("ciu_embed")>-1)for(var r=s.split(":")[1],n=s.split(":")[2],a=0;a<e.length;a++){var o=e[a];if(o.getAttribute("data-feature")===r){var i=parseInt(n)+30;o.childNodes[0].height=i+"px";break}}},!1)})}();
+</script>
+<p class="ciu_embed" data-feature="${id}" data-periods="future_2,future_1,current,past_1,past_2" data-accessible-colours="false"><a href="http://caniuse.com/#feat=${id}">Can I Use ${id}?</a> Data on support for the ${id} feature across the major browsers from caniuse.com.</p>`;
+  });
+
   eleventyConfig.addNunjucksShortcode("giphy", function (id) {
     const cloudinaryPrefix = "https://res.cloudinary.com/nho/image/fetch";
     const giphyImage = `https://media.giphy.com/media/${id}/giphy.gif`;
