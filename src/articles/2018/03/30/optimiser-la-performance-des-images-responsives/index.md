@@ -15,8 +15,9 @@ Vous pouvez directement regarder la vidéo, captée par Mozilla, qui nous accuei
 
 En me regardant, je me rends compte de la quantité incroyable de « euuuh » qui ponctuent ma présentation, il va falloir que je fasse des progrès…
 
-Les slides sont visibles — et même téléchargeables — en deux emplacements :
+Les slides sont visibles — et même téléchargeables — en plusieurs emplacements :
 
+* [« Quelques solutions facilitant la bonne mise en œuvre des images responsives » sur Notist](https://talks.nicolas-hoizey.com/Vr3Sme/quelques-solutions-facilitant-la-bonne-mise-en-oeuvre-des-images-responsives)
 * [« Quelques solutions facilitant la bonne mise en œuvre des images responsives » sur Speakerdeck](https://speakerdeck.com/nhoizey/quelques-solutions-facilitant-la-bonne-mise-en-oeuvre-des-images-responsives-paris-webperf-meetup)
 * [« Quelques solutions facilitant la bonne mise en œuvre des images responsives » sur Slideshare](https://www.slideshare.net/nhoizey/solutions-pour-images-responsives-paris-webperf-meetup)
 
