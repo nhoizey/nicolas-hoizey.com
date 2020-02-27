@@ -3,6 +3,22 @@
   padding: 0;
 }
 
+.card--note .card__content {
+  font-size: var(--font-size-s);
+  padding: .5em;
+  border-radius: .3em;
+  background-color: $color-primary-lighter-5;
+  background: linear-gradient(135deg, $color-primary-lighter-3, $color-primary-lighter-5);
+
+  p {
+    margin: 0;
+  }
+  
+  p + p {
+    margin: 1em 0;
+  }
+}
+
 .card__image img {
   margin: 0;
   border: 1px solid #ddd;

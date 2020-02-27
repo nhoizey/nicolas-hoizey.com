@@ -154,7 +154,7 @@ article {
   margin: 0;
 
   .e-content {
-    margin: calc(0.75em + 2vw) 0 $baseline / 2 0;
+    margin: $baseline/2 0 $baseline/2 0;
   }
 
   .e-content > p:first-of-type {
