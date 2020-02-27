@@ -61,7 +61,7 @@ module.exports = {
     return moment(date).format('YYYY/MM');
   },
   notePermalinkDate: (date) => {
-    return moment(date).format('YYYY/MM/DD');
+    return moment(date).format('YYYY/MM/DD/HHmmss');
   },
   cleanDeepLinks: (content) => {
     const regex = / <a class="deeplink"((?!(<\/a>)).|\n)+<\/a>/gm;
