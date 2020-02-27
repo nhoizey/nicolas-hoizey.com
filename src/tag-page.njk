@@ -14,6 +14,7 @@ permalink: /tags/{{ tag.slug }}/
 
 {% from "macros/articleCard.njk" import articleCard %}
 {% from "macros/linkCard.njk" import linkCard %}
+{% from "macros/noteCard.njk" import noteCard %}
 
 {% if tag.logo %}
   <img src="/{{ tag.logo }}" class="logo" />
@@ -38,10 +39,16 @@ permalink: /tags/{{ tag.slug }}/
           {{ articleCard(item.data.title, item.url, item.data.lang, item.date, item.data.tags, item.templateContent, webmentions ) }}
         </div>
       </li>
-    {% else %}
+    {% elif item.data.layout == "link" %}
       <li class="list__item">
-        <div class="card card--article h-entry">
+        <div class="card card--link h-entry">
           {{ linkCard(item.data.title, item.url, item.data.link, item.data.authors, item.date, item.data.tags, webmentions) }}
+        </div>
+      </li>
+    {% elif item.data.layout == "note" %}
+      <li class="list__item">
+        <div class="card card--note h-entry">
+          {{ noteCard(item.url, item.lang, item.date, item.data.tags, item.templateContent, webmentions) }}
         </div>
       </li>
     {% endif %}
