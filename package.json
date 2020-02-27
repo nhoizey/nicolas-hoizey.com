@@ -67,7 +67,8 @@
     "rimraf": "^3.0.2",
     "@jlengstorf/get-share-image": "^0.7.0",
     "insert-line": "^1.1.0",
-    "workbox-cli": "^5.0.0"
+    "workbox-cli": "^5.0.0",
+    "twitter-text": "^3.0.1"
   },
   "engines": {
     "node": ">=8.16"
