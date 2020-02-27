@@ -138,25 +138,11 @@ module.exports = {
   microblogify: (content) => {
     return content;
   },
-  hashtagsToTags: (content) => {
-    content = "hello #Twitter, go to #Mastodon";
-
-    if (content === undefined) {
-      return "[]";
-    }
-
-    // remove HTML tags
-    let text = content.replace(/(<([^>]+)>)/ig, "");
-
-    // extract hashtags
-    let regex = /(?:^|\s)(?:#)([a-zA-Z\d]+)/gm;
-    let matches = [];
-    let match;
-    while ((match = regex.exec(text))) {
-      // TODO: prevent duplication
-      matches.push(match[1]);
-    }
-
-    return `[${matches.join(',')}]`;
+  hashtagsToTagLinks: (content) => {
+    let hashtags = twitter.extractHashtags(twitter.htmlEscape(content));
+    hashtags.forEach(hashtag => {
+      content = content.replace(`#${hashtag}`, `<a href="/tags/${slugifyString(hashtag)}/">#${hashtag}</a>`, 'g');
+    });
+    return content;
   }
 }

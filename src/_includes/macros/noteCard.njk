@@ -1,6 +1,6 @@
 {% macro noteCard(url, lang, date, tags, content, webmentions) %}
 
-  <div class="card__content" lang="{{ lang }}">{{ content | safe | microblogify }}</div>
+  <div class="card__content" lang="{{ lang }}">{{ content | hashtagsToTagLinks | safe }}</div>
 
   {% from "macros/meta.njk" import meta %}
   {{ meta(url, date, tags, 'notes', webmentions) }}
