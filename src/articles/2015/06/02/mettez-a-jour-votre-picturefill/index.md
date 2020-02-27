@@ -27,3 +27,9 @@ Allez, soyez sympa, **mettez tout de suite à jour votre Picturefill, au moins[^
 [^aumoins]: On ne sait jamais, la v3 en cours de développement sera peut-être sortie quand vous lirez ce billet.
 
 Et si vous n'utilisez pas encore Picturefill, c'est que vous n'avez pas adopté le standard pour les images responsives, j'espère que ce billet attisera votre curiosité et que vous vous lancerez. En suivant [ma formation](http://clever-institut.com/formation/formation-responsive-web-design) éventuellement… ;-)
+
+Parce que franchement, le support des images responsives se développe vraiment, alors n'hésitez pas :
+
+{% caniuse "srcset" %}
+
+{% caniuse "picture" %}
