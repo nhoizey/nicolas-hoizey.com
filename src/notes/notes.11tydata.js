@@ -2,7 +2,7 @@ const twitter = require('twitter-text');
 
 module.exports = {
   layout: "note",
-  permalink: "/notes/{{ page.date | notePermalinkDate }}-{{ page.fileSlug }}/",
+  permalink: "/notes/{{ page.date | permalinkDate }}/{{ page.fileSlug }}/",
   eleventyComputed: {
     tags: data => {
       if (data.content === undefined) {
