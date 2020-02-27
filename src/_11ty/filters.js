@@ -6,6 +6,23 @@ const util = require('util');
 const path = require('path');
 const twitter = require('twitter-text');
 
+// slugify is called 1000s of times, let's memoize it
+let memoizedSlugs = {};
+function slugifyString(string) {
+  if (string in memoizedSlugs) {
+    return memoizedSlugs[string];
+  } else {
+    let slug = slugify(string, {
+      decamelize: false,
+      customReplacements: [
+        ['%', ' ']
+      ]
+    });
+    memoizedSlugs[string] = slug;
+    return slug;
+  }
+}
+
 module.exports = {
   getWebmentionsForUrl: (webmentions, url) => {
     let urlsList = [
@@ -86,14 +103,7 @@ module.exports = {
     $('a.footnote, a.footnotes, div.footnote, div.footnotes, sup.footnote, sup.footnotes').remove();
     return $.html();
   },
-  slugify: (string) => {
-    return slugify(string, {
-      decamelize: false,
-      customReplacements: [
-        ['%', ' ']
-      ]
-    });
-  },
+  slugify: (string) => slugifyString(string),
   dirname: (filePath) => {
     return path.dirname(filePath);
   },
