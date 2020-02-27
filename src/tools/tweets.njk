@@ -7,7 +7,7 @@ title: Tweets
 {% for note in collections.notes | limit(10) %}
   <div style="margin: 1em; padding: .5em 1em; border: 1px solid #333">
   <p>
-    {{ note.templateContent }}
+    {{ note.templateContent | microblogify }}
     <br /><br />
     {{site.url}}{{ note.url }}
   </p>

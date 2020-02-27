@@ -126,7 +126,7 @@ module.exports = {
     return words[0] + words.slice(1).map(word => word.charAt(0).toUpperCase() + word.substr(1)).join('');
   },
   microblogify: (content) => {
-    return twitter.autoLink(twitter.htmlEscape(content));
+    return content;
   },
   hashtagsToTags: (content) => {
     content = "hello #Twitter, go to #Mastodon";
