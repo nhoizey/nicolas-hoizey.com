@@ -265,7 +265,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setDataDeepMerge(true);
   eleventyConfig.setQuietMode(true);
 
-  // eleventyConfig.addWatchTarget("_data");
+  eleventyConfig.addWatchTarget("src/_assets/sass/**/*.scss");
 
   eleventyConfig.setBrowserSyncConfig({
     ui: false,
@@ -280,7 +280,8 @@ module.exports = function (eleventyConfig) {
       "png",
       "gif",
       "kmz",
-      "zip"
+      "zip",
+      "scss"
     ],
 
     markdownTemplateEngine: "njk",
