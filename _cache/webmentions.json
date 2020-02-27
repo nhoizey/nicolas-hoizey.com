@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-02-24T21:47:55.693Z",
+  "lastFetched": "2020-02-27T09:26:59.147Z",
   "webmentions": [
     {
       "type": "entry",
@@ -30505,6 +30505,52 @@
       },
       "mention-of": "https://nicolas-hoizey.com/links/2020/01/31/a-new-technique-for-making-responsive-javascript-free-charts/",
       "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Rainer Müller",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/47715bc41fbe429165c352875f3756b3cc8c8fdd778f312239bbf171545dca47.jpg",
+        "url": "https://twitter.com/trueAbelass"
+      },
+      "url": "https://twitter.com/trueAbelass/status/1232721881129783296",
+      "published": "2020-02-26T17:39:33+00:00",
+      "wm-received": "2020-02-26T18:18:09Z",
+      "wm-id": 761492,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nice_links/1232271284920299525/1232721881129783296",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/02/25/google-s-new-recaptcha-has-a-dark-side/",
+      "content": {
+        "content-type": "text/plain",
+        "value": "🔗 \"Google’s new reCAPTCHA has a dark side\"\nby @kschwabable\n\nnicolas-hoizey.com/links/2020/02/…\n#privacy #security #Google",
+        "text": "🔗 \"Google’s new reCAPTCHA has a dark side\"\nby @kschwabable\n\nnicolas-hoizey.com/links/2020/02/…\n#privacy #security #Google"
+      },
+      "repost-of": "https://nicolas-hoizey.com/links/2020/02/25/google-s-new-recaptcha-has-a-dark-side/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Patidou",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/3aa011a261ffb89db68f862deb4475f8639eb66915ccb36de9447e7b7e39387e.jpg",
+        "url": "https://twitter.com/gloupgloup"
+      },
+      "url": "https://twitter.com/gloupgloup/status/1232933636791525376",
+      "published": "2020-02-27T07:41:00+00:00",
+      "wm-received": "2020-02-27T08:25:22Z",
+      "wm-id": 761718,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nice_links/1232922692942168065/1232933636791525376",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/02/26/responsive-grid-magazine-layout-in-just-20-lines-of-css/",
+      "content": {
+        "content-type": "text/plain",
+        "value": "🔗 \"Responsive Grid Magazine Layout in Just 20 Lines of CSS\"\n\nnicolas-hoizey.com/links/2020/02/…\n#CSS #Grid",
+        "text": "🔗 \"Responsive Grid Magazine Layout in Just 20 Lines of CSS\"\n\nnicolas-hoizey.com/links/2020/02/…\n#CSS #Grid"
+      },
+      "repost-of": "https://nicolas-hoizey.com/links/2020/02/26/responsive-grid-magazine-layout-in-just-20-lines-of-css/",
+      "wm-property": "repost-of",
       "wm-private": false
     }
   ]
