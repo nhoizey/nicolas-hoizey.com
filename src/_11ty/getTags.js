@@ -35,7 +35,7 @@ module.exports = function (collection) {
       'tag': tag,
       'slug': tagSlug,
       'number': number,
-      'factor': factor, 
+      'factor': factor,
       'step': Math.ceil(factor * 2) + 1
     }
 
@@ -46,7 +46,7 @@ module.exports = function (collection) {
 
     let tagContentPath = `src/tags/${tagSlug}.md`;
     if (fs.existsSync(tagContentPath)) {
-      newTag.description = fs.readFileSync(tagContentPath, {encoding: 'utf8'});
+      newTag.description = fs.readFileSync(tagContentPath, { encoding: 'utf8' });
     }
 
     tags.push(newTag);
