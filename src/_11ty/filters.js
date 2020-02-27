@@ -124,8 +124,29 @@ module.exports = {
   tagToHashtag: (tag) => {
     let words = tag.replace(/-/, ' ').split(' ');
     return words[0] + words.slice(1).map(word => word.charAt(0).toUpperCase() + word.substr(1)).join('');
+  },
   microblogify: (content) => {
     return twitter.autoLink(twitter.htmlEscape(content));
   },
+  hashtagsToTags: (content) => {
+    content = "hello #Twitter, go to #Mastodon";
+
+    if (content === undefined) {
+      return "[]";
+    }
+
+    // remove HTML tags
+    let text = content.replace(/(<([^>]+)>)/ig, "");
+
+    // extract hashtags
+    let regex = /(?:^|\s)(?:#)([a-zA-Z\d]+)/gm;
+    let matches = [];
+    let match;
+    while ((match = regex.exec(text))) {
+      // TODO: prevent duplication
+      matches.push(match[1]);
+    }
+
+    return `[${matches.join(',')}]`;
   }
 }
