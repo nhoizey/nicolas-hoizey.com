@@ -78,6 +78,9 @@ module.exports = {
   permalinkDate: (date) => {
     return moment(date).format('YYYY/MM');
   },
+  notePermalinkDate: (date) => {
+    return moment(date).format('YYYY/MM/DD');
+  },
   cleanDeepLinks: (content) => {
     const regex = / <a class="deeplink"((?!(<\/a>)).|\n)+<\/a>/gm;
     return content.replace(regex, '');
