@@ -4,6 +4,7 @@ const cheerio = require('cheerio');
 const rootUrl = require('../_data/site.js').url
 const util = require('util');
 const path = require('path');
+const twitter = require('twitter-text');
 
 module.exports = {
   getWebmentionsForUrl: (webmentions, url) => {
@@ -123,5 +124,8 @@ module.exports = {
   tagToHashtag: (tag) => {
     let words = tag.replace(/-/, ' ').split(' ');
     return words[0] + words.slice(1).map(word => word.charAt(0).toUpperCase() + word.substr(1)).join('');
+  microblogify: (content) => {
+    return twitter.autoLink(twitter.htmlEscape(content));
+  },
   }
 }
