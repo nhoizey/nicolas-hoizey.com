@@ -3,6 +3,17 @@ layout: default
 title: Tweets
 ---
 
+<h1>Notes</h1>
+{% for note in collections.notes | limit(10) %}
+  <div style="margin: 1em; padding: .5em 1em; border: 1px solid #333">
+  <p>
+    {{ note.templateContent }}
+    <br /><br />
+    {{site.url}}{{ note.url }}
+  </p>
+  </div>
+{% endfor %}
+
 <h1>Links</h1>
 {% for link in collections.links | limit(20) %}
   <div style="margin: 1em; padding: .5em 1em; border: 1px solid #333">
