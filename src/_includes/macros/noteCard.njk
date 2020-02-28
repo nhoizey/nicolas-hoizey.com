@@ -3,6 +3,6 @@
   <div class="card__content" lang="{{ lang }}">{{ content | hashtagsToTagLinks | safe }}</div>
 
   {% from "macros/meta.njk" import meta %}
-  {{ meta(url, date, tags, 'notes', webmentions) }}
+  {{ meta(url, date, tags, 'notes', webmentions, permalink=true) }}
 
 {% endmacro %}
