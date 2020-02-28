@@ -25,6 +25,10 @@ function slugifyString(string) {
 
 module.exports = {
   getWebmentionsForUrl: (webmentions, url) => {
+    if (url === undefined) {
+      console.log('No URL for webmention matching');
+      return [];
+    }
     let urlsList = [
       `${rootUrl}${url}`
     ];
