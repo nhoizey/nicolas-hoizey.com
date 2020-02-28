@@ -1,35 +1,29 @@
 ---
-layout: page
+layout: default
 title: Notes
+permalink: "notes/"
 eleventyExcludeFromCollections: true
-pagination:
-  data: collections.notes
-  size: 10
-  alias: notes
-permalink: "notes/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}{% else %}index{% endif %}.html"
 ---
 
 {% from "macros/noteCard.njk" import noteCard %}
 
+<h2>Latest notes</h2>
 <ul class="list">
-  {% for note in pagination.items %}
-    <li class="list__item list__item--large">
-      <div class="card card--note">
+  {% for note in collections.notes | limit(10) %}
+    <li class="list__item">
+      <div class="card card--note h-entry">
         {{ noteCard(note.url, note.lang, note.date, note.data.tags, note.templateContent, webmentions) }}
       </div>
     </li>
   {% endfor %}
 </ul>
 
+<h2>Browse all notes</h2>
 <p class="pagination">
-  Pages:
+  Years:
   {% set separator = joiner(", ") %}
-  {%- for pageEntry in pagination.pages %}
+  {% for noteYear in collections.yearsWithNotes %}
     {{ separator() }}
-    {% if page.url == pagination.hrefs[ loop.index0 ] %}
-      <strong>{{ loop.index }}</strong>
-    {% else %}  
-      <a href="{{ pagination.hrefs[ loop.index0 ] }}">{{ loop.index }}</a>
-    {% endif %}
+    <a href="/notes/{{ noteYear }}/">{{ noteYear }}</a>
   {%- endfor %}
 </p>

@@ -61,6 +61,11 @@ module.exports = function (eleventyConfig) {
       return yearsWithContent(collection.getFilteredByGlob("src/links/**/*.md"));
     }
   );
+  eleventyConfig.addCollection(
+    "yearsWithNotes", collection => {
+      return yearsWithContent(collection.getFilteredByGlob("src/notes/**/*.md"));
+    }
+  );
 
   // collections for yearly archives
   const contentsByYear = require("./src/_utils/content-by-date").contentByYear;
