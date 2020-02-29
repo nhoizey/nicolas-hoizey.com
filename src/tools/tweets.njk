@@ -3,20 +3,33 @@ layout: default
 title: Tweets
 ---
 
+<style>
+.tweet {
+  margin: 1em; 
+  padding: .5em 1em;
+  border: 1px solid #333;
+  font-size: .9em;
+}
+
+.tweet p {
+  margin: 0;
+}
+</style>
+
 <h1>Notes</h1>
 {% for note in collections.notes | limit(10) %}
-  <div style="margin: 1em; padding: .5em 1em; border: 1px solid #333">
+  <div class="tweet">
   <p>
-    {{ note.templateContent | microblogify }}
+    {{ note.data.rawContent | microblogify | safe }}
     <br /><br />
-    {{site.url}}{{ note.url }}
+    ⚓️ https://nho.io/n/{{ note.url | replace("/notes/", "") }}
   </p>
   </div>
 {% endfor %}
 
 <h1>Links</h1>
 {% for link in collections.links | limit(20) %}
-  <div style="margin: 1em; padding: .5em 1em; border: 1px solid #333">
+  <div class="tweet">
   <p>
     🔗 "{{ link.data.title}}"
     <br />
@@ -42,7 +55,7 @@ title: Tweets
 
 <h1>Articles</h1>
 {% for article in collections.articles | limit(10) %}
-  <div style="margin: 1em; padding: .5em 1em; border: 1px solid #333">
+  <div class="tweet">
   <p>
     📝 "{{ article.data.title}}"
     <br /><br />

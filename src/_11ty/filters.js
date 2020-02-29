@@ -140,7 +140,28 @@ module.exports = {
     return words[0] + words.slice(1).map(word => word.charAt(0).toUpperCase() + word.substr(1)).join('');
   },
   microblogify: (content) => {
-    return content;
+    tweet = content.trim();
+
+    // convert hashtags to Twitter accounts
+    let handles = {
+      '#Cloudinary': '@cloudinary',
+      '#Eleventy': '@eleven_ty',
+      '#Jekyll': '@jekyllrb',
+      '#Notist': '@benotist'
+    };
+    for (const tag in handles) {
+      tweet = tweet.replace(tag, handles[tag]);
+    }
+
+    // deal with links
+    tweet = tweet.replace(/\[([^\]]+)\]\(([^\)]+)\)/g, "$1 ( $2 )");
+
+    // show tweet in terminal
+    // console.log("-------------");
+    // console.log(tweet);
+    // tweet = tweet.replace(/\n/g, "<br />\n");
+
+    return tweet;
   },
   hashtagsToTagLinks: (content) => {
     let hashtags = twitter.extractHashtags(twitter.htmlEscape(content));
