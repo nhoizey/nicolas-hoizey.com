@@ -1,5 +1,6 @@
 const slugify = require('@sindresorhus/slugify');
 const fs = require('fs');
+const hashtagsToTags = require("../_utils/hashtags").hashtagsToTags;
 
 module.exports = function (collection) {
   let tagsCollection = new Map();
@@ -8,6 +9,11 @@ module.exports = function (collection) {
   collection.getAll().forEach(function (item) {
     if ("tags" in item.data) {
       let itemTags = item.data.tags;
+
+      // TODO: deal with hashtags only once
+      if (item.data.layout === "note") {
+        itemTags = [...new Set([].concat(...itemTags, ...hashtagsToTags(item.template.frontMatter.content)))];
+      }
 
       for (const tag of itemTags) {
         let number = (tagsCollection.get(tag) || 0) + 1;

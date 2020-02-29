@@ -1,13 +1,3 @@
-const twitter = require('twitter-text');
-
-function getTagsFromHashtags(content) {
-  if (content === undefined) {
-    return [];
-  }
-
-  return twitter.extractHashtags(twitter.htmlEscape(content));
-}
-
 module.exports = function (eleventyConfig) {
 
   // ------------------------------------------------------------------------
@@ -38,10 +28,12 @@ module.exports = function (eleventyConfig) {
       });;
   });
 
+  const hashtagsToTags = require("./src/_utils/hashtags").hashtagsToTags;
   eleventyConfig.addCollection("notes", function (collection) {
     return collection.getFilteredByGlob("src/notes/**/*.md")
       .map(note => {
-        note.data.tags = [...new Set([].concat(...note.data.tags, ...getTagsFromHashtags(note.template.frontMatter.content)))];
+        // TODO: deal with hashtags only once
+        note.data.tags = [...new Set([].concat(...note.data.tags, ...hashtagsToTags(note.template.frontMatter.content)))];
         note.data.rawContent = note.template.frontMatter.content;
         return note;
       })
