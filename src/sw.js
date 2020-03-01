@@ -1,9 +1,12 @@
+import { CacheableResponsePlugin } from 'workbox-cacheable-response';
 import { CacheFirst, StaleWhileRevalidate } from 'workbox-strategies';
+import { cleanupOutdatedCaches, precacheAndRoute } from 'workbox-precaching';
+import { clientsClaim, skipWaiting } from 'workbox-core';
 import { ExpirationPlugin } from 'workbox-expiration';
-import { precacheAndRoute } from 'workbox-precaching';
-import { registerRoute, setCatchHandler } from 'workbox-routing';
+import { registerRoute } from 'workbox-routing';
 
 precacheAndRoute(self.__WB_MANIFEST);
+cleanupOutdatedCaches();
 
 // Pages
 registerRoute(
@@ -49,3 +52,5 @@ registerRoute(
   }),
 );
 
+skipWaiting();
+clientsClaim();
