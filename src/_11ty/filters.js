@@ -147,7 +147,9 @@ module.exports = {
       '#Cloudinary': '@cloudinary',
       '#Eleventy': '@eleven_ty',
       '#Jekyll': '@jekyllrb',
-      '#Notist': '@benotist'
+      '#Notist': '@benotist',
+      '#Rollup': '@RollupJS',
+      '#Workbox': '@workboxjs'
     };
     for (const tag in handles) {
       tweet = tweet.replace(tag, handles[tag]);
