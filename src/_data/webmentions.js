@@ -28,11 +28,12 @@ async function fetchWebmentions(since, perPage = 10000) {
   if (response.ok) {
     const feed = await response.json();
     const webmentions = feed.children;
-    if (webmentions.length === 0) {
+    let cleanedWebmentions = cleanWebmentions(webmentions);
+    if (cleanedWebmentions.length === 0) {
       return [];
     } else {
-      console.log(`[Webmention] ${webmentions.length} new webmentions`);
-      return cleanWebmentions(webmentions);
+      console.log(`[Webmention] ${cleanedWebmentions.length} new webmentions`);
+      return cleanedWebmentions;
     }
   }
 
