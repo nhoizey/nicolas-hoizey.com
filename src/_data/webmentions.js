@@ -46,8 +46,12 @@ function cleanWebmentions(webmentions) {
     return published && url;
   }
   const isNotSelf = entry => {
-    const { url } = entry;
-    return !url.match(/^https:\/\/twitter.com\/(nhoizey|nice_links)\//);
+    return !(
+      entry['wm-property'] === 'repost-of'
+      && (
+        entry.url.match(/^https:\/\/twitter.com\/(nhoizey|nice_links)\//)
+        || entry.url.match(/^https:\/\/mamot.fr\/@nhoizey\//)
+      ));
   }
   const sanitize = entry => {
     const { content } = entry;
