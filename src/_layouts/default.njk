@@ -48,37 +48,7 @@
     {% include "components/footer.njk" %}
 
     <script src="/js/additional.js" async defer></script>
-    {# <script type="module" src="/sw-window.mjs"></script> #}
 
-  {% if build.env.ELEVENTY_ENV == "production" %}
-    <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.getRegistrations().then((registrations) => {
-          for(let registration of registrations) {
-            registration.unregister().then(() => {
-              return self.clients.matchAll();
-            }).then((clients) => {
-              clients.forEach(client => {
-                if (client.url && 'navigate' in client) {
-                  client.navigate(client.url);
-                }
-              });
-            });
-          }
-        });
-      });
-    }
-    if ('caches' in window) {
-      caches.keys()
-        .then(function(keyList) {
-            return Promise.all(keyList.map(function(key) {
-                return caches.delete(key);
-            }));
-        })
-    }
-    </script>
-  {% else %}
     <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
@@ -86,7 +56,6 @@
       });
     }
     </script>
-  {% endif %}
   </body>
 
 </html>

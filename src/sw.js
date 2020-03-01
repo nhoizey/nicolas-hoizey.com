@@ -5,11 +5,24 @@ import { registerRoute, setCatchHandler } from 'workbox-routing';
 
 precacheAndRoute(self.__WB_MANIFEST);
 
+// Pages
+registerRoute(
+  ({ request }) => request.destination === 'document',
+  new StaleWhileRevalidate({
+    cacheName: 'pages',
+    plugins: [
+      new ExpirationPlugin({
+        maxAgeSeconds: 90 * 24 * 60 * 60, // 90 Days
+      }),
+    ],
+  }),
+);
+
 // Images
 registerRoute(
   ({ request }) => request.destination === 'image',
-  new StaleWhileRevalidate({
-    cacheName: 'pages',
+  new CacheFirst({
+    cacheName: 'images',
     plugins: [
       new ExpirationPlugin({
         maxEntries: 50,
@@ -36,16 +49,3 @@ registerRoute(
   }),
 );
 
-// Images
-registerRoute(
-  ({ request }) => request.destination === 'image',
-  new CacheFirst({
-    cacheName: 'images',
-    plugins: [
-      new ExpirationPlugin({
-        maxEntries: 50,
-        maxAgeSeconds: 90 * 24 * 60 * 60, // 90 Days
-      }),
-    ],
-  }),
-);
