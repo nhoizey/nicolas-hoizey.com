@@ -70,7 +70,7 @@ function cleanWebmentions(webmentions) {
   }
 
   return webmentions
-    .filter(hasRequiredFields)
+    //.filter(hasRequiredFields)
     .filter(isNotSelf)
     .map(sanitize);
 }
