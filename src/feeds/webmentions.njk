@@ -21,6 +21,7 @@ permalink: /feeds/webmentions.xml
       <id>{{ webmention['wm-target'] }}</id>
       <content type="html">
         &lt;p&gt;&lt;a href="{{ webmention.url }}"&gt;{{ webmention.url }}&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Type: {{ webmention['wm-property'] }}&lt;/p&gt;
         &lt;p&gt;{{ webmention.content.text }}&lt;/p&gt;
       </content>
     </entry>
