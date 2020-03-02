@@ -214,6 +214,10 @@ h6 {
   }
 }
 
+:target {
+  scroll-margin-top: 2em;
+}
+
 ul {
   margin: 1em 0;
   padding: 0 1em;
