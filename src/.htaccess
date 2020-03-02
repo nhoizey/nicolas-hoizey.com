@@ -768,6 +768,9 @@ RewriteRule ^wp-login.php https://%{HTTP_HOST}/about/the-website.html [QSA,L,R=3
 # These images were moved/renamed
 RewriteRule ^assets/(opengraph/)?opengraph-(background(-raw)?).png https://%{HTTP_HOST}/assets/opengraph/$2.png [QSA,L,R=301]
 
+# Notes are deeper, so that it maps to the source tree and assets copy works
+RewriteRule ^(notes/[0-9]{4}/[0-9]{2}/[0-9]{2})-([0-9]+)/(.*)$ /$1/$2/$3 [QSA,L,R=301]
+
 # Articles and links are now one level deeper, for the day, but we don't know where… 😅
 RewriteCond %{DOCUMENT_ROOT}/$1/01/$3 -d
 RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/01/$3 [QSA,L,R=301]
