@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-03-02T16:39:18.393Z",
+  "lastFetched": "2020-03-02T22:52:20.562Z",
   "webmentions": [
     {
       "type": "entry",
@@ -45984,6 +45984,234 @@
       },
       "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
       "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1234520148062720000",
+      "published": "2020-03-02T16:45:14+00:00",
+      "wm-received": "2020-03-02T16:59:53Z",
+      "wm-id": 763350,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234256790914813953/1234520148062720000",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "OMG, that’s it! 🤦‍♂️\n\nI forgot to add explicit HTTPS to some of my numerous redirections performed by Apache, which only sees HTTP, behind a HTTPS proxy:\n<a href=\"https://github.com/nhoizey/nicolas-hoizey.com/commit/2075180b1c89939c6b2188e58e40e20261cafb69\">github.com/nhoizey/nicola…</a>\n\nThanks a lot Jeff! 👍\n<a class=\"u-mention\" href=\"https://twitter.com/jeffposnick\"></a>",
+        "html": "OMG, that’s it! 🤦‍♂️\n\nI forgot to add explicit HTTPS to some of my numerous redirections performed by Apache, which only sees HTTP, behind a HTTPS proxy:\n<a href=\"https://github.com/nhoizey/nicolas-hoizey.com/commit/2075180b1c89939c6b2188e58e40e20261cafb69\">github.com/nhoizey/nicola…</a>\n\nThanks a lot Jeff! 👍\n<a href=\"https://twitter.com/jeffposnick\"></a>",
+        "text": "OMG, that’s it! 🤦‍♂️\n\nI forgot to add explicit HTTPS to some of my numerous redirections performed by Apache, which only sees HTTP, behind a HTTPS proxy:\ngithub.com/nhoizey/nicola…\n\nThanks a lot Jeff! 👍"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1234520148062720000",
+      "published": "2020-03-02T16:45:14+00:00",
+      "wm-received": "2020-03-02T16:59:52Z",
+      "wm-id": 763349,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234359045273899010/1234520148062720000",
+      "wm-target": "https://nicolas-hoizey.com/",
+      "content": {
+        "content-type": "text/html",
+        "value": "OMG, that’s it! 🤦‍♂️\n\nI forgot to add explicit HTTPS to some of my numerous redirections performed by Apache, which only sees HTTP, behind a HTTPS proxy:\n<a href=\"https://github.com/nhoizey/nicolas-hoizey.com/commit/2075180b1c89939c6b2188e58e40e20261cafb69\">github.com/nhoizey/nicola…</a>\n\nThanks a lot Jeff! 👍\n<a class=\"u-mention\" href=\"https://twitter.com/jeffposnick\"></a>",
+        "html": "OMG, that’s it! 🤦‍♂️\n\nI forgot to add explicit HTTPS to some of my numerous redirections performed by Apache, which only sees HTTP, behind a HTTPS proxy:\n<a href=\"https://github.com/nhoizey/nicolas-hoizey.com/commit/2075180b1c89939c6b2188e58e40e20261cafb69\">github.com/nhoizey/nicola…</a>\n\nThanks a lot Jeff! 👍\n<a href=\"https://twitter.com/jeffposnick\"></a>",
+        "text": "OMG, that’s it! 🤦‍♂️\n\nI forgot to add explicit HTTPS to some of my numerous redirections performed by Apache, which only sees HTTP, behind a HTTPS proxy:\ngithub.com/nhoizey/nicola…\n\nThanks a lot Jeff! 👍"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "0gust1",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/5c14bf49430b7132302879e4b1c12b8ad3d082fb85bb10083b3d29856b58ca7f.jpg",
+        "url": "https://twitter.com/0gust1"
+      },
+      "url": "https://twitter.com/0gust1/status/1234531557379104768",
+      "published": "2020-03-02T17:30:34+00:00",
+      "wm-received": "2020-03-02T18:07:14Z",
+      "wm-id": 763373,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234457681148207106/1234531557379104768",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Yes, it shocked me at first (note that the average bootstrap site , after 1-2 year is not better).\n\nFactorizing is possible :\n* leveraging the component level (vue, react etc.)\n* and/or using the theme() function or the \"apply\" directive  \n\n<a href=\"https://tailwindcss.com/docs/extracting-components/\">tailwindcss.com/docs/extractin…</a>\n\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/tailwindcss\"></a>",
+        "html": "Yes, it shocked me at first (note that the average bootstrap site , after 1-2 year is not better).\n\nFactorizing is possible :\n* leveraging the component level (vue, react etc.)\n* and/or using the theme() function or the \"apply\" directive  \n\n<a href=\"https://tailwindcss.com/docs/extracting-components/\">tailwindcss.com/docs/extractin…</a>\n\n<a href=\"https://nicolas-hoizey.com/\"></a>\n<a href=\"https://tailwindui.com/preview\"></a>\n<a href=\"https://twitter.com/nhoizey\"></a>\n<a href=\"https://twitter.com/tailwindcss\"></a>",
+        "text": "Yes, it shocked me at first (note that the average bootstrap site , after 1-2 year is not better).\n\nFactorizing is possible :\n* leveraging the component level (vue, react etc.)\n* and/or using the theme() function or the \"apply\" directive  \n\ntailwindcss.com/docs/extractin…"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "0gust1",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/5c14bf49430b7132302879e4b1c12b8ad3d082fb85bb10083b3d29856b58ca7f.jpg",
+        "url": "https://twitter.com/0gust1"
+      },
+      "url": "https://twitter.com/0gust1/status/1234533112882790400",
+      "published": "2020-03-02T17:36:45+00:00",
+      "wm-received": "2020-03-02T18:07:08Z",
+      "wm-id": 763372,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234457681148207106/1234533112882790400",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "I tend to agree (but only benchmarks would say)\n\nalso look at <a href=\"https://www.dotconferences.com/2019/12/sarah-dayan-in-defense-of-utility-first-css\">dotconferences.com/2019/12/sarah-…</a> (around slide 46)\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/anthony_ricaud\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/borisschapira\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "I tend to agree (but only benchmarks would say)\n\nalso look at <a href=\"https://www.dotconferences.com/2019/12/sarah-dayan-in-defense-of-utility-first-css\">dotconferences.com/2019/12/sarah-…</a> (around slide 46)\n<a href=\"https://nicolas-hoizey.com/\"></a>\n<a href=\"https://tailwindui.com/preview\"></a>\n<a href=\"https://twitter.com/anthony_ricaud\"></a>\n<a href=\"https://twitter.com/borisschapira\"></a>\n<a href=\"https://twitter.com/nhoizey\"></a>",
+        "text": "I tend to agree (but only benchmarks would say)\n\nalso look at dotconferences.com/2019/12/sarah-… (around slide 46)"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "patrick h. lauke",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a372b735f18896ab774e0efd063d9305d17d2396452c381470b65b27c214072f.jpg",
+        "url": "https://twitter.com/patrick_h_lauke"
+      },
+      "url": "https://twitter.com/patrick_h_lauke/status/1234539719280726016",
+      "published": "2020-03-02T18:03:00+00:00",
+      "wm-received": "2020-03-02T18:07:20Z",
+      "wm-id": 763374,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234457681148207106/1234539719280726016",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "having a class for every possible CSS prop is only one step above just putting inline style=\"...\" attributes in your markup.\n\nanyway, purely from my BS experience, i'd rather provide some high level utilities, but then allow authors to define their own separate styles if needed\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/anthony_ricaud\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "having a class for every possible CSS prop is only one step above just putting inline style=\"...\" attributes in your markup.\n\nanyway, purely from my BS experience, i'd rather provide some high level utilities, but then allow authors to define their own separate styles if needed\n<a href=\"https://nicolas-hoizey.com/\"></a>\n<a href=\"https://tailwindui.com/preview\"></a>\n<a href=\"https://twitter.com/anthony_ricaud\"></a>\n<a href=\"https://twitter.com/nhoizey\"></a>",
+        "text": "having a class for every possible CSS prop is only one step above just putting inline style=\"...\" attributes in your markup.\n\nanyway, purely from my BS experience, i'd rather provide some high level utilities, but then allow authors to define their own separate styles if needed"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "patrick h. lauke",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a372b735f18896ab774e0efd063d9305d17d2396452c381470b65b27c214072f.jpg",
+        "url": "https://twitter.com/patrick_h_lauke"
+      },
+      "url": "https://twitter.com/patrick_h_lauke/status/1234540370068934656",
+      "published": "2020-03-02T18:05:35+00:00",
+      "wm-received": "2020-03-02T18:07:37Z",
+      "wm-id": 763375,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234457681148207106/1234540370068934656",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "but i guess it's a matter of taste. \"your CSS won't grow\" but yes your HTML will. and then devs can still completely mess things up to be completely quirky and non-standard by just littering classes where they shouldn't, losing the power of more high-level classes/components\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/anthony_ricaud\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "but i guess it's a matter of taste. \"your CSS won't grow\" but yes your HTML will. and then devs can still completely mess things up to be completely quirky and non-standard by just littering classes where they shouldn't, losing the power of more high-level classes/components\n<a href=\"https://nicolas-hoizey.com/\"></a>\n<a href=\"https://tailwindui.com/preview\"></a>\n<a href=\"https://twitter.com/anthony_ricaud\"></a>\n<a href=\"https://twitter.com/nhoizey\"></a>",
+        "text": "but i guess it's a matter of taste. \"your CSS won't grow\" but yes your HTML will. and then devs can still completely mess things up to be completely quirky and non-standard by just littering classes where they shouldn't, losing the power of more high-level classes/components"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "patrick h. lauke",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a372b735f18896ab774e0efd063d9305d17d2396452c381470b65b27c214072f.jpg",
+        "url": "https://twitter.com/patrick_h_lauke"
+      },
+      "url": "https://twitter.com/patrick_h_lauke/status/1234540439551795201",
+      "published": "2020-03-02T18:05:52+00:00",
+      "wm-received": "2020-03-02T18:07:43Z",
+      "wm-id": 763376,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234457681148207106/1234540439551795201",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "but hey, each to their own...\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/anthony_ricaud\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "but hey, each to their own...\n<a href=\"https://nicolas-hoizey.com/\"></a>\n<a href=\"https://tailwindui.com/preview\"></a>\n<a href=\"https://twitter.com/anthony_ricaud\"></a>\n<a href=\"https://twitter.com/nhoizey\"></a>",
+        "text": "but hey, each to their own..."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "L'🌒iseau2nuit",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/87c83d0dfb98492cf6d9694e1c29470a45b3183b7025a819d57760040b75a6cf.jpg",
+        "url": "https://twitter.com/Loiseau2nuit"
+      },
+      "url": "https://twitter.com/Loiseau2nuit/status/1234544336324485120",
+      "published": "2020-03-02T18:21:21+00:00",
+      "wm-received": "2020-03-02T19:00:56Z",
+      "wm-id": 763402,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/nhoizey/1234544336324485120",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Oooookaaaay ! Ben c'est mort ! J'étais prêt à lui donner une 'tite chance mais là c'est même pas la peine !!! 😱 <a href=\"https://twitter.com/search?q=%23Tailwind\">#Tailwind</a> <a href=\"https://twitter.com/search?q=%23CSS\">#CSS</a>\n<a class=\"u-mention\" href=\"https://nho.io/n/2020/03/02/2/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/notes/2020/03/02/2/\"></a>",
+        "html": "Oooookaaaay ! Ben c'est mort ! J'étais prêt à lui donner une 'tite chance mais là c'est même pas la peine !!! 😱 <a href=\"https://twitter.com/search?q=%23Tailwind\">#Tailwind</a> <a href=\"https://twitter.com/search?q=%23CSS\">#CSS</a>\n<a href=\"https://nho.io/n/2020/03/02/2/\"></a>\n<a href=\"https://nicolas-hoizey.com/notes/2020/03/02/2/\"></a>",
+        "text": "Oooookaaaay ! Ben c'est mort ! J'étais prêt à lui donner une 'tite chance mais là c'est même pas la peine !!! 😱 #Tailwind #CSS"
+      },
+      "mention-of": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Olivier Rafal",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/8e773f385ce23e6934b8d1011a5b6c26a87a02745dcd39191f72cac47827bbd6.jpg",
+        "url": "https://twitter.com/olivierrafal"
+      },
+      "url": "https://twitter.com/nhoizey/status/1234474880755732480#favorited-by-80064357",
+      "published": null,
+      "wm-received": "2020-03-02T18:56:48Z",
+      "wm-id": 763398,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1234474880755732480/80064357",
+      "wm-target": "https://nicolas-hoizey.com/articles/2015/06/04/lachez-moi-avec-le-debat-digital-contre-numerique/",
+      "like-of": "https://nicolas-hoizey.com/articles/2015/06/04/lachez-moi-avec-le-debat-digital-contre-numerique/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Bryce Wray",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/b7a80f06bd0444925bf3506019ab0f10869ae49d4b8c35ea126612f1875ceef2.jpg",
+        "url": "https://twitter.com/BryceWrayTX"
+      },
+      "url": "https://twitter.com/nhoizey/status/1233863671518040070#favorited-by-2391572880",
+      "published": null,
+      "wm-received": "2020-03-02T19:35:06Z",
+      "wm-id": 763437,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1233863671518040070/2391572880",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/02/29/2/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/02/29/2/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
