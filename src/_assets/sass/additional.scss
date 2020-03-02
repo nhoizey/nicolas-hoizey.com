@@ -1,6 +1,7 @@
 @import "settings";
 @import "utilities";
 @import "components/toast";
+@import "components/notification";
 @import "components/link";
 @import "components/comments";
 @import "components/webmentions";
@@ -397,7 +398,7 @@ article {
 
 #footer {
   white-space: nowrap;
-  margin-top: calc((670 * 0.7) / 1534 * 100vw);
+  margin: calc((670 * 0.7) / 1534 * 100vw) 0 1em;
 
   color: #fff;
 
