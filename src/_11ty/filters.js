@@ -171,5 +171,23 @@ module.exports = {
       content = content.replace(`#${hashtag}`, `<a href="/tags/${slugifyString(hashtag)}/">#${hashtag}</a>`, 'g');
     });
     return content;
-  }
+  },
+  absoluteImagePath: (content, url) => {
+    if (content.match(/ailwind/)) {
+      console.log(content);
+      console.log('---');
+      console.log(url);
+      console.log('---');
+    }
+    let imagesAbsoluteUrl = content.replace(/<img src="([^"]+)"/, (correspondance, $1) => {
+      if (!$1.match(/^(\/|https?:\/\/)/)) {
+        return `<img src="${url}${$1}"`;
+      }
+    });
+    if (content.match(/tailwind/)) {
+      console.log(imagesAbsoluteUrl);
+    }
+    return imagesAbsoluteUrl;
+  },
+  removeImages: content => content.replace(/<img [^>]+>/, '')
 }
