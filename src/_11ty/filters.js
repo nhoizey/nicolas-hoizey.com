@@ -139,7 +139,7 @@ module.exports = {
     let words = tag.replace(/-/, ' ').split(' ');
     return words[0] + words.slice(1).map(word => word.charAt(0).toUpperCase() + word.substr(1)).join('');
   },
-  microblogify: (content) => {
+  microblogify: (content, url) => {
     tweet = content.trim();
 
     // convert hashtags to Twitter accounts
@@ -149,11 +149,15 @@ module.exports = {
       '#Jekyll': '@jekyllrb',
       '#Notist': '@benotist',
       '#Rollup': '@RollupJS',
+      '#Tailwind': '@tailwindcss',
       '#Workbox': '@workboxjs'
     };
     for (const tag in handles) {
       tweet = tweet.replace(tag, handles[tag]);
     }
+
+    // deal with images
+    tweet = tweet.replace(/!\[([^\]]+)\]\(([^\)]+)\)/g, `[<a href="${url}$2">image</a>]`);
 
     // deal with links
     tweet = tweet.replace(/\[([^\]]+)\]\(([^\)]+)\)/g, "$1 ( $2 )");
