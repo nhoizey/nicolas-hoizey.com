@@ -62,13 +62,13 @@
           {% if webmention.content %}
             <div class="webmention__content p-content">
               {% if webmention.content['content-type'] == 'text/html' %}
-                {% if webmention.content.html | striptags | length > 400 %}
-                  {{ webmention.content.html | safe | striptags | truncate(400, true, '…') }}
+                {% if webmention.content.html | length > 1000 %}
+                  {{ webmention.content.html | safe | truncate(1000, true, '…') }}
                 {% else %}
-                  {{ webmention.content.html | safe | striptags }}
+                  {{ webmention.content.html | safe }}
                 {% endif %}
               {% else %}
-                {{ webmention.content.text | truncate(400, true, '…') }}
+                {{ webmention.content.text | truncate(1000, true, '…') }}
               {% endif %}
             </div>
           {% endif %}
