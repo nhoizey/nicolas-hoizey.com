@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-03-02T11:27:00.601Z",
+  "lastFetched": "2020-03-02T16:39:18.393Z",
   "webmentions": [
     {
       "type": "entry",
@@ -45169,6 +45169,821 @@
       "wm-target": "https://nicolas-hoizey.com/notes/2020/02/29-2/",
       "like-of": "https://nicolas-hoizey.com/notes/2020/02/29-2/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Boris",
+        "photo": "https://webmention.io/avatar/mamot.fr/ee9ea5f67692b7240de6ba44d3da2c2ad35fdc715a9a61886eab1b4c14dd99df.jpg",
+        "url": "https://framapiaf.org/@borisschapira"
+      },
+      "url": "https://framapiaf.org/@borisschapira/103753616634648805",
+      "published": "2020-03-02T13:09:10",
+      "wm-received": "2020-03-02T13:45:41Z",
+      "wm-id": 763138,
+      "wm-source": "https://brid-gy.appspot.com/comment/mastodon/@nhoizey@mamot.fr/103753496751536080/103753616650821258",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "<p><span class=\"h-card\"><a href=\"https://mamot.fr/@nhoizey\" class=\"u-url\">@<span>nhoizey</span></a></span> why not (honest question)?</p>\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>",
+        "html": "<a href=\"https://mamot.fr/@nhoizey\">@nhoizey</a> why not (honest question)?\n<a href=\"https://tailwindui.com/preview\"></a>",
+        "text": "@nhoizey why not (honest question)?"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Thomas T.",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/7763f484d6493d5c4d5caf9fac74b1dda922aad884738f8b39d824c6fe10940a.jpg",
+        "url": "https://twitter.com/ttoledo_js"
+      },
+      "url": "https://twitter.com/ttoledo_js/status/1234458222876123137",
+      "published": "2020-03-02T12:39:10+00:00",
+      "wm-received": "2020-03-02T12:45:03Z",
+      "wm-id": 763095,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/nhoizey/1234458222876123137",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Agreed.\nEven though I really like Tailwind CSS, I find it absolutely counter-productive to have such an unreadable code. HTML can already be hard to read if it is not your code: no need to make it more complicated.\n<a class=\"u-mention\" href=\"https://nho.io/n/2020/03/02/2/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/notes/2020/03/02/2/\"></a>",
+        "html": "Agreed.\nEven though I really like Tailwind CSS, I find it absolutely counter-productive to have such an unreadable code. HTML can already be hard to read if it is not your code: no need to make it more complicated.\n<a href=\"https://nho.io/n/2020/03/02/2/\"></a>\n<a href=\"https://nicolas-hoizey.com/notes/2020/03/02/2/\"></a>",
+        "text": "Agreed.\nEven though I really like Tailwind CSS, I find it absolutely counter-productive to have such an unreadable code. HTML can already be hard to read if it is not your code: no need to make it more complicated."
+      },
+      "mention-of": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "MIR A Petit Pélican",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/efded56fca5ded607f80d79f5e6053904989dc2f0e4dcb837b641b499c609956.jpg",
+        "url": "https://twitter.com/SliftVolte"
+      },
+      "url": "https://twitter.com/SliftVolte/status/1234458656231641088",
+      "published": "2020-03-02T12:40:53+00:00",
+      "wm-received": "2020-03-02T12:44:22Z",
+      "wm-id": 763093,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234457681148207106/1234458656231641088",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "even more embarrassed that there is no list item (&lt;ul&gt; &lt;li&gt;) and therefore a little bit of ux for assistive technology users. <a href=\"https://twitter.com/search?q=%23a11y\">#a11y</a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/tailwindcss\"></a>",
+        "html": "even more embarrassed that there is no list item (&lt;ul&gt; &lt;li&gt;) and therefore a little bit of ux for assistive technology users. <a href=\"https://twitter.com/search?q=%23a11y\">#a11y</a>\n<a href=\"https://nicolas-hoizey.com/\"></a>\n<a href=\"https://tailwindui.com/preview\"></a>\n<a href=\"https://twitter.com/nhoizey\"></a>\n<a href=\"https://twitter.com/tailwindcss\"></a>",
+        "text": "even more embarrassed that there is no list item (<ul> <li>) and therefore a little bit of ux for assistive technology users. #a11y"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Thomas T.",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/7763f484d6493d5c4d5caf9fac74b1dda922aad884738f8b39d824c6fe10940a.jpg",
+        "url": "https://twitter.com/ttoledo_js"
+      },
+      "url": "https://twitter.com/nhoizey/status/1234457681148207106#favorited-by-806123388309827584",
+      "published": null,
+      "wm-received": "2020-03-02T12:44:28Z",
+      "wm-id": 763094,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1234457681148207106/806123388309827584",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1234461714726428672",
+      "published": "2020-03-02T12:53:02+00:00",
+      "wm-received": "2020-03-02T13:20:42Z",
+      "wm-id": 763132,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234457681148207106/1234461714726428672",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Indeed!\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/SliftVolte\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/tailwindcss\"></a>",
+        "html": "Indeed!\n<a href=\"https://tailwindui.com/preview\"></a>\n<a href=\"https://twitter.com/SliftVolte\"></a>\n<a href=\"https://twitter.com/tailwindcss\"></a>",
+        "text": "Indeed!"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Anthony Ricaud",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e80edb77f394e47700bbb6f7ce5ded4c4c76cf6ea8108058646b7a5485a7576f.jpg",
+        "url": "https://twitter.com/anthony_ricaud"
+      },
+      "url": "https://twitter.com/anthony_ricaud/status/1234462950615855105",
+      "published": "2020-03-02T12:57:57+00:00",
+      "wm-received": "2020-03-02T13:19:32Z",
+      "wm-id": 763129,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234457681148207106/1234462950615855105",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "What’s the exact issue you’re pointing out?\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "What’s the exact issue you’re pointing out?\n<a href=\"https://nicolas-hoizey.com/\"></a>\n<a href=\"https://tailwindui.com/preview\"></a>\n<a href=\"https://twitter.com/nhoizey\"></a>",
+        "text": "What’s the exact issue you’re pointing out?"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "patrick h. lauke",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a372b735f18896ab774e0efd063d9305d17d2396452c381470b65b27c214072f.jpg",
+        "url": "https://twitter.com/patrick_h_lauke"
+      },
+      "url": "https://twitter.com/patrick_h_lauke/status/1234464154347548674",
+      "published": "2020-03-02T13:02:44+00:00",
+      "wm-received": "2020-03-02T13:19:25Z",
+      "wm-id": 763128,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234457681148207106/1234464154347548674",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "same as with bootstrap, i strongly suspect it's down to devs demanding a bloody CSS utility class for every single little CSS property. without fail, as soon as you add one, they bleat \"why can't we have one for pointer-events:none\" or some shit like that...\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "same as with bootstrap, i strongly suspect it's down to devs demanding a bloody CSS utility class for every single little CSS property. without fail, as soon as you add one, they bleat \"why can't we have one for pointer-events:none\" or some shit like that...\n<a href=\"https://nicolas-hoizey.com/\"></a>\n<a href=\"https://tailwindui.com/preview\"></a>\n<a href=\"https://twitter.com/nhoizey\"></a>",
+        "text": "same as with bootstrap, i strongly suspect it's down to devs demanding a bloody CSS utility class for every single little CSS property. without fail, as soon as you add one, they bleat \"why can't we have one for pointer-events:none\" or some shit like that..."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1234464937117913088",
+      "published": "2020-03-02T13:05:50+00:00",
+      "wm-received": "2020-03-02T13:20:20Z",
+      "wm-id": 763131,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234457681148207106/1234464937117913088",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Sorry, I though \"logorrhea\" was strong enough. 😅\n\nI know repetition is not a real problem with compression, but I guess parsing the uncompressed result is not so nice for low power devices.\n\nI really fear this is mostly meant for DX and will lead to issues in the future.\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/anthony_ricaud\"></a>",
+        "html": "Sorry, I though \"logorrhea\" was strong enough. 😅\n\nI know repetition is not a real problem with compression, but I guess parsing the uncompressed result is not so nice for low power devices.\n\nI really fear this is mostly meant for DX and will lead to issues in the future.\n<a href=\"https://tailwindui.com/preview\"></a>\n<a href=\"https://twitter.com/anthony_ricaud\"></a>",
+        "text": "Sorry, I though \"logorrhea\" was strong enough. 😅\n\nI know repetition is not a real problem with compression, but I guess parsing the uncompressed result is not so nice for low power devices.\n\nI really fear this is mostly meant for DX and will lead to issues in the future."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1234464985423765505",
+      "published": "2020-03-02T13:06:02+00:00",
+      "wm-received": "2020-03-02T13:19:08Z",
+      "wm-id": 763126,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234457681148207106/1234464985423765505",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "There were also some details in <a href=\"https://nicolas-hoizey.com/links/2019/06/19/the-perils-of-functional-css/\">nicolas-hoizey.com/links/2019/06/…</a>\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/anthony_ricaud\"></a>",
+        "html": "There were also some details in <a href=\"https://nicolas-hoizey.com/links/2019/06/19/the-perils-of-functional-css/\">nicolas-hoizey.com/links/2019/06/…</a>\n<a href=\"https://tailwindui.com/preview\"></a>\n<a href=\"https://twitter.com/anthony_ricaud\"></a>",
+        "text": "There were also some details in nicolas-hoizey.com/links/2019/06/…"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1234465312474574854",
+      "published": "2020-03-02T13:07:20+00:00",
+      "wm-received": "2020-03-02T13:19:39Z",
+      "wm-id": 763130,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234457681148207106/1234465312474574854",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Exactly.\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/patrick_h_lauke\"></a>",
+        "html": "Exactly.\n<a href=\"https://tailwindui.com/preview\"></a>\n<a href=\"https://twitter.com/patrick_h_lauke\"></a>",
+        "text": "Exactly."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Steve Workman",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/b639e43488ed1dd8065dd691330958e0bf6b05073a4e5a47885f94f115a9b684.jpg",
+        "url": "https://twitter.com/steveworkman"
+      },
+      "url": "https://twitter.com/steveworkman/status/1234465656768278528",
+      "published": "2020-03-02T13:08:42+00:00",
+      "wm-received": "2020-03-02T13:19:17Z",
+      "wm-id": 763127,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234457681148207106/1234465656768278528",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Also, anchor tag with # as the href should be a button\n\nMany, many things that aren't optimal\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/tailwindcss\"></a>",
+        "html": "Also, anchor tag with # as the href should be a button\n\nMany, many things that aren't optimal\n<a href=\"https://nicolas-hoizey.com/\"></a>\n<a href=\"https://tailwindui.com/preview\"></a>\n<a href=\"https://twitter.com/nhoizey\"></a>\n<a href=\"https://twitter.com/tailwindcss\"></a>",
+        "text": "Also, anchor tag with # as the href should be a button\n\nMany, many things that aren't optimal"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Guillaume Germain",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/44f34069df6dbf6c0ee343c0864e69e3cb13c3f53c17b2831f412498632e8a34.jpg",
+        "url": "https://twitter.com/guillaumegbzh"
+      },
+      "url": "https://twitter.com/nhoizey/status/1234457681148207106#favorited-by-493299523",
+      "published": null,
+      "wm-received": "2020-03-02T13:20:46Z",
+      "wm-id": 763133,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1234457681148207106/493299523",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Anthony Ricaud",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e80edb77f394e47700bbb6f7ce5ded4c4c76cf6ea8108058646b7a5485a7576f.jpg",
+        "url": "https://twitter.com/anthony_ricaud"
+      },
+      "url": "https://twitter.com/anthony_ricaud/status/1234471194625265665",
+      "published": "2020-03-02T13:30:42+00:00",
+      "wm-received": "2020-03-02T13:50:46Z",
+      "wm-id": 763143,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234457681148207106/1234471194625265665",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "I’ve never seen that argument anywhere. Honestly, I’ve enjoyed working with TailwindCSS and found it good for performance and UI consistency.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "I’ve never seen that argument anywhere. Honestly, I’ve enjoyed working with TailwindCSS and found it good for performance and UI consistency.\n<a href=\"https://nicolas-hoizey.com/\"></a>\n<a href=\"https://tailwindui.com/preview\"></a>\n<a href=\"https://twitter.com/nhoizey\"></a>",
+        "text": "I’ve never seen that argument anywhere. Honestly, I’ve enjoyed working with TailwindCSS and found it good for performance and UI consistency."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1234473629032878080",
+      "published": "2020-03-02T13:40:23+00:00",
+      "wm-received": "2020-03-02T13:51:09Z",
+      "wm-id": 763145,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234457681148207106/1234473629032878080",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "I agree it helps a lot for consistency, like Bootstrap and other frameworks.\n\nBut if leads to bad code (see https://t.co/qiXqK2xNFE for example), it’s a shame.\n\nI know you know HTML/CSS enough to not fall in this trap, but I guess many Tailwind users unfortunately don’t.\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/anthony_ricaud\"></a>",
+        "html": "I agree it helps a lot for consistency, like Bootstrap and other frameworks.\n\nBut if leads to bad code (see https://t.co/qiXqK2xNFE for example), it’s a shame.\n\nI know you know HTML/CSS enough to not fall in this trap, but I guess many Tailwind users unfortunately don’t.\n<a href=\"https://tailwindui.com/preview\"></a>\n<a href=\"https://twitter.com/anthony_ricaud\"></a>",
+        "text": "I agree it helps a lot for consistency, like Bootstrap and other frameworks.\n\nBut if leads to bad code (see https://t.co/qiXqK2xNFE for example), it’s a shame.\n\nI know you know HTML/CSS enough to not fall in this trap, but I guess many Tailwind users unfortunately don’t."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Anthony Ricaud",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e80edb77f394e47700bbb6f7ce5ded4c4c76cf6ea8108058646b7a5485a7576f.jpg",
+        "url": "https://twitter.com/anthony_ricaud"
+      },
+      "url": "https://twitter.com/anthony_ricaud/status/1234474573376245761",
+      "published": "2020-03-02T13:44:08+00:00",
+      "wm-received": "2020-03-02T13:50:40Z",
+      "wm-id": 763142,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234457681148207106/1234474573376245761",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Thinking about this some more, as far as I know, browsers have to parse CSS on every page so the utility approach should be less to parse.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "Thinking about this some more, as far as I know, browsers have to parse CSS on every page so the utility approach should be less to parse.\n<a href=\"https://nicolas-hoizey.com/\"></a>\n<a href=\"https://tailwindui.com/preview\"></a>\n<a href=\"https://twitter.com/nhoizey\"></a>",
+        "text": "Thinking about this some more, as far as I know, browsers have to parse CSS on every page so the utility approach should be less to parse."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Anthony Ricaud",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e80edb77f394e47700bbb6f7ce5ded4c4c76cf6ea8108058646b7a5485a7576f.jpg",
+        "url": "https://twitter.com/anthony_ricaud"
+      },
+      "url": "https://twitter.com/anthony_ricaud/status/1234474884266414082",
+      "published": "2020-03-02T13:45:22+00:00",
+      "wm-received": "2020-03-02T13:49:47Z",
+      "wm-id": 763141,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234457681148207106/1234474884266414082",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "I don’t think any CSS framework ever helped writing appropriate HTML.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "I don’t think any CSS framework ever helped writing appropriate HTML.\n<a href=\"https://nicolas-hoizey.com/\"></a>\n<a href=\"https://tailwindui.com/preview\"></a>\n<a href=\"https://twitter.com/nhoizey\"></a>",
+        "text": "I don’t think any CSS framework ever helped writing appropriate HTML."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1234475120577728513",
+      "published": "2020-03-02T13:46:18+00:00",
+      "wm-received": "2020-03-02T13:51:03Z",
+      "wm-id": 763144,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234457681148207106/1234475120577728513",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Less CSS code, but probably more selectors to match, and more rules to combine.\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/anthony_ricaud\"></a>",
+        "html": "Less CSS code, but probably more selectors to match, and more rules to combine.\n<a href=\"https://tailwindui.com/preview\"></a>\n<a href=\"https://twitter.com/anthony_ricaud\"></a>",
+        "text": "Less CSS code, but probably more selectors to match, and more rules to combine."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Christophe Lauer",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/7a3771bbce5f2c78f67a2f8dccc06f6be42d0f0215c8bc57b45337b0897ab70d.jpg",
+        "url": "https://twitter.com/clauer"
+      },
+      "url": "https://twitter.com/clauer/status/1234475234100727809",
+      "published": "2020-03-02T13:46:45+00:00",
+      "wm-received": "2020-03-02T13:48:51Z",
+      "wm-id": 763140,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1234474880755732480/1234475234100727809",
+      "wm-target": "https://nicolas-hoizey.com/articles/2015/06/04/lachez-moi-avec-le-debat-digital-contre-numerique/",
+      "content": {
+        "content-type": "text/plain",
+        "value": "@clauer Pas mieux !\n\nnicolas-hoizey.com/articles/2015/…",
+        "text": "@clauer Pas mieux !\n\nnicolas-hoizey.com/articles/2015/…"
+      },
+      "repost-of": "https://nicolas-hoizey.com/articles/2015/06/04/lachez-moi-avec-le-debat-digital-contre-numerique/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Christophe Lauer",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/7a3771bbce5f2c78f67a2f8dccc06f6be42d0f0215c8bc57b45337b0897ab70d.jpg",
+        "url": "https://twitter.com/clauer"
+      },
+      "url": "https://twitter.com/nhoizey/status/1234474880755732480#favorited-by-1155631",
+      "published": null,
+      "wm-received": "2020-03-02T13:48:46Z",
+      "wm-id": 763139,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1234474880755732480/1155631",
+      "wm-target": "https://nicolas-hoizey.com/articles/2015/06/04/lachez-moi-avec-le-debat-digital-contre-numerique/",
+      "like-of": "https://nicolas-hoizey.com/articles/2015/06/04/lachez-moi-avec-le-debat-digital-contre-numerique/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Bastien Calou",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/4289defb59da1a9f0869e3b0bb6b76dc7814b07eeff3336e92dcce8c3ac1c242.jpg",
+        "url": "https://twitter.com/DctStrangelove"
+      },
+      "url": "https://twitter.com/nhoizey/status/1234457681148207106#favorited-by-265920769",
+      "published": null,
+      "wm-received": "2020-03-02T13:51:12Z",
+      "wm-id": 763146,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1234457681148207106/265920769",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Anthony Ricaud",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e80edb77f394e47700bbb6f7ce5ded4c4c76cf6ea8108058646b7a5485a7576f.jpg",
+        "url": "https://twitter.com/anthony_ricaud"
+      },
+      "url": "https://twitter.com/anthony_ricaud/status/1234476998648573958",
+      "published": "2020-03-02T13:53:46+00:00",
+      "wm-received": "2020-03-02T14:43:35Z",
+      "wm-id": 763258,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234457681148207106/1234476998648573958",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "I also had a knee-jerk reaction the first time I saw Tailwind but I’d say give it 5 minutes (<a href=\"https://signalvnoise.com/posts/3124-give-it-five-minutes\">signalvnoise.com/posts/3124-giv…</a>).\n\nThink about the first time you saw something like `&lt;h2 class=“h1”&gt;`. That felt wrong but I think it’s recognised as a good idea nowadays.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "I also had a knee-jerk reaction the first time I saw Tailwind but I’d say give it 5 minutes (<a href=\"https://signalvnoise.com/posts/3124-give-it-five-minutes\">signalvnoise.com/posts/3124-giv…</a>).\n\nThink about the first time you saw something like `&lt;h2 class=“h1”&gt;`. That felt wrong but I think it’s recognised as a good idea nowadays.\n<a href=\"https://nicolas-hoizey.com/\"></a>\n<a href=\"https://tailwindui.com/preview\"></a>\n<a href=\"https://twitter.com/nhoizey\"></a>",
+        "text": "I also had a knee-jerk reaction the first time I saw Tailwind but I’d say give it 5 minutes (signalvnoise.com/posts/3124-giv…).\n\nThink about the first time you saw something like `<h2 class=“h1”>`. That felt wrong but I think it’s recognised as a good idea nowadays."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Boris",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0e6b7c0c9912522de37589b5514d9f8f1d06185a17169521bd7fbed6a7018fc8.jpg",
+        "url": "https://twitter.com/borisschapira"
+      },
+      "url": "https://twitter.com/borisschapira/status/1234477143897276417",
+      "published": "2020-03-02T13:54:21+00:00",
+      "wm-received": "2020-03-02T14:43:50Z",
+      "wm-id": 763260,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234457681148207106/1234477143897276417",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "I look forward to seeing the proof of this statement and the measurement of the impact on performance. From experience, I would say: close to zero.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/anthony_ricaud\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "I look forward to seeing the proof of this statement and the measurement of the impact on performance. From experience, I would say: close to zero.\n<a href=\"https://nicolas-hoizey.com/\"></a>\n<a href=\"https://tailwindui.com/preview\"></a>\n<a href=\"https://twitter.com/anthony_ricaud\"></a>\n<a href=\"https://twitter.com/nhoizey\"></a>",
+        "text": "I look forward to seeing the proof of this statement and the measurement of the impact on performance. From experience, I would say: close to zero."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1234477607166541826",
+      "published": "2020-03-02T13:56:11+00:00",
+      "wm-received": "2020-03-02T14:44:15Z",
+      "wm-id": 763262,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234457681148207106/1234477607166541826",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Probably close to zero indeed, closeness depending on device type.\n\nI guess people already made some benchmark, I’ll try to find some.\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/anthony_ricaud\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/borisschapira\"></a>",
+        "html": "Probably close to zero indeed, closeness depending on device type.\n\nI guess people already made some benchmark, I’ll try to find some.\n<a href=\"https://tailwindui.com/preview\"></a>\n<a href=\"https://twitter.com/anthony_ricaud\"></a>\n<a href=\"https://twitter.com/borisschapira\"></a>",
+        "text": "Probably close to zero indeed, closeness depending on device type.\n\nI guess people already made some benchmark, I’ll try to find some."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Boris",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0e6b7c0c9912522de37589b5514d9f8f1d06185a17169521bd7fbed6a7018fc8.jpg",
+        "url": "https://twitter.com/borisschapira"
+      },
+      "url": "https://twitter.com/borisschapira/status/1234477609767047168",
+      "published": "2020-03-02T13:56:12+00:00",
+      "wm-received": "2020-03-02T14:44:38Z",
+      "wm-id": 763265,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234457681148207106/1234477609767047168",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "And even if this were the case, there is no indication that fully custom CSS contain less useless code. Still from experience: there are a lot of useless CSS statements everywhere, and it has almost no impact on performance.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/anthony_ricaud\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "And even if this were the case, there is no indication that fully custom CSS contain less useless code. Still from experience: there are a lot of useless CSS statements everywhere, and it has almost no impact on performance.\n<a href=\"https://nicolas-hoizey.com/\"></a>\n<a href=\"https://tailwindui.com/preview\"></a>\n<a href=\"https://twitter.com/anthony_ricaud\"></a>\n<a href=\"https://twitter.com/nhoizey\"></a>",
+        "text": "And even if this were the case, there is no indication that fully custom CSS contain less useless code. Still from experience: there are a lot of useless CSS statements everywhere, and it has almost no impact on performance."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Anthony Ricaud",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e80edb77f394e47700bbb6f7ce5ded4c4c76cf6ea8108058646b7a5485a7576f.jpg",
+        "url": "https://twitter.com/anthony_ricaud"
+      },
+      "url": "https://twitter.com/anthony_ricaud/status/1234477654465826816",
+      "published": "2020-03-02T13:56:22+00:00",
+      "wm-received": "2020-03-02T14:44:10Z",
+      "wm-id": 763261,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234457681148207106/1234477654465826816",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "In my experience, unless you have an outrageously big HTML or CSS file (as in several MB), you can avoid thinking about the performance aspect of the parsing/matching.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/borisschapira\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "In my experience, unless you have an outrageously big HTML or CSS file (as in several MB), you can avoid thinking about the performance aspect of the parsing/matching.\n<a href=\"https://nicolas-hoizey.com/\"></a>\n<a href=\"https://tailwindui.com/preview\"></a>\n<a href=\"https://twitter.com/borisschapira\"></a>\n<a href=\"https://twitter.com/nhoizey\"></a>",
+        "text": "In my experience, unless you have an outrageously big HTML or CSS file (as in several MB), you can avoid thinking about the performance aspect of the parsing/matching."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1234478090518192128",
+      "published": "2020-03-02T13:58:06+00:00",
+      "wm-received": "2020-03-02T14:43:40Z",
+      "wm-id": 763259,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234457681148207106/1234478090518192128",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Nice post, thanks for sharing.\n\nBTW, I don’t like `&lt;h2 class=\"h1\"&gt;`…\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/anthony_ricaud\"></a>",
+        "html": "Nice post, thanks for sharing.\n\nBTW, I don’t like `&lt;h2 class=\"h1\"&gt;`…\n<a href=\"https://tailwindui.com/preview\"></a>\n<a href=\"https://twitter.com/anthony_ricaud\"></a>",
+        "text": "Nice post, thanks for sharing.\n\nBTW, I don’t like `<h2 class=\"h1\">`…"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Boris",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0e6b7c0c9912522de37589b5514d9f8f1d06185a17169521bd7fbed6a7018fc8.jpg",
+        "url": "https://twitter.com/borisschapira"
+      },
+      "url": "https://twitter.com/borisschapira/status/1234478196076273664",
+      "published": "2020-03-02T13:58:32+00:00",
+      "wm-received": "2020-03-02T14:44:30Z",
+      "wm-id": 763264,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234457681148207106/1234478196076273664",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "There are edge cases where this is relevant, but in most of the web we know of, the cost of HTML and CSS parsing is far outweighed by the cost of blocking JavaScript.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/anthony_ricaud\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "There are edge cases where this is relevant, but in most of the web we know of, the cost of HTML and CSS parsing is far outweighed by the cost of blocking JavaScript.\n<a href=\"https://nicolas-hoizey.com/\"></a>\n<a href=\"https://tailwindui.com/preview\"></a>\n<a href=\"https://twitter.com/anthony_ricaud\"></a>\n<a href=\"https://twitter.com/nhoizey\"></a>",
+        "text": "There are edge cases where this is relevant, but in most of the web we know of, the cost of HTML and CSS parsing is far outweighed by the cost of blocking JavaScript."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1234478254414794752",
+      "published": "2020-03-02T13:58:46+00:00",
+      "wm-received": "2020-03-02T14:44:24Z",
+      "wm-id": 763263,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234457681148207106/1234478254414794752",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "If I don’t find any benchmark out there, I might build one and try on my low end devices.\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/anthony_ricaud\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/borisschapira\"></a>",
+        "html": "If I don’t find any benchmark out there, I might build one and try on my low end devices.\n<a href=\"https://tailwindui.com/preview\"></a>\n<a href=\"https://twitter.com/anthony_ricaud\"></a>\n<a href=\"https://twitter.com/borisschapira\"></a>",
+        "text": "If I don’t find any benchmark out there, I might build one and try on my low end devices."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Anthony Ricaud",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e80edb77f394e47700bbb6f7ce5ded4c4c76cf6ea8108058646b7a5485a7576f.jpg",
+        "url": "https://twitter.com/anthony_ricaud"
+      },
+      "url": "https://twitter.com/anthony_ricaud/status/1234479750011379712",
+      "published": "2020-03-02T14:04:42+00:00",
+      "wm-received": "2020-03-02T14:42:57Z",
+      "wm-id": 763256,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234457681148207106/1234479750011379712",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "There is a very subjective aesthetic aspect to h1.h2 and Tailwind. And it’s OK to not like them based on your tastes. But I’d be careful when arguing that something is bad when you just don’t like it. You know, like tasting food :)\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "There is a very subjective aesthetic aspect to h1.h2 and Tailwind. And it’s OK to not like them based on your tastes. But I’d be careful when arguing that something is bad when you just don’t like it. You know, like tasting food :)\n<a href=\"https://nicolas-hoizey.com/\"></a>\n<a href=\"https://tailwindui.com/preview\"></a>\n<a href=\"https://twitter.com/nhoizey\"></a>",
+        "text": "There is a very subjective aesthetic aspect to h1.h2 and Tailwind. And it’s OK to not like them based on your tastes. But I’d be careful when arguing that something is bad when you just don’t like it. You know, like tasting food :)"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1234482893537280001",
+      "published": "2020-03-02T14:17:12+00:00",
+      "wm-received": "2020-03-02T14:43:04Z",
+      "wm-id": 763257,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234457681148207106/1234482893537280001",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "I agree.\n\nI don’t (currently) like Tailwind, and maybe more how some use it, but I know it helps some others, as I mention in my first note:\n<a href=\"https://nho.io/n/2020/03/02/2/\">nho.io/n/2020/03/02/2/</a>\n\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/anthony_ricaud\"></a>",
+        "html": "I agree.\n\nI don’t (currently) like Tailwind, and maybe more how some use it, but I know it helps some others, as I mention in my first note:\n<a href=\"https://nho.io/n/2020/03/02/2/\">nho.io/n/2020/03/02/2/</a>\n\n<a href=\"https://tailwindui.com/preview\"></a>\n<a href=\"https://twitter.com/anthony_ricaud\"></a>",
+        "text": "I agree.\n\nI don’t (currently) like Tailwind, and maybe more how some use it, but I know it helps some others, as I mention in my first note:\nnho.io/n/2020/03/02/2/"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Bastien Jaillot",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0dbb6910fed96ef1e3fdf19d6b27ac2dd24a7d5fbdcc7d71e693325a349d8280.jpg",
+        "url": "https://twitter.com/bastnic"
+      },
+      "url": "https://twitter.com/nhoizey/status/1234482893537280001#favorited-by-16088762",
+      "published": null,
+      "wm-received": "2020-03-02T14:51:04Z",
+      "wm-id": 763275,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1234482893537280001/16088762",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tim Carry",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/6743c1b05b6897c690adc634910dd7b0ead5653b565fb9b196f273cdde7b7f22.jpg",
+        "url": "https://twitter.com/pixelastic"
+      },
+      "url": "https://twitter.com/pixelastic/status/1234492839280726017",
+      "published": "2020-03-02T14:56:43+00:00",
+      "wm-received": "2020-03-02T15:28:32Z",
+      "wm-id": 763294,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234457681148207106/1234492839280726017",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "While the \"previous\" way of writing HTML markup first and then applying styling in CSS forced us to think about what the various elements were, and not only how they looked\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/SliftVolte\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/tailwindcss\"></a>",
+        "html": "While the \"previous\" way of writing HTML markup first and then applying styling in CSS forced us to think about what the various elements were, and not only how they looked\n<a href=\"https://nicolas-hoizey.com/\"></a>\n<a href=\"https://tailwindui.com/preview\"></a>\n<a href=\"https://twitter.com/SliftVolte\"></a>\n<a href=\"https://twitter.com/nhoizey\"></a>\n<a href=\"https://twitter.com/tailwindcss\"></a>",
+        "text": "While the \"previous\" way of writing HTML markup first and then applying styling in CSS forced us to think about what the various elements were, and not only how they looked"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jeff Posnick",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/36aba4753c8886a19da25fc84a8969331a257ff408aa5eea565c97efcf9ce9a1.jpg",
+        "url": "https://twitter.com/jeffposnick"
+      },
+      "url": "https://twitter.com/jeffposnick/status/1234494621197230081",
+      "published": "2020-03-02T15:03:48+00:00",
+      "wm-received": "2020-03-02T15:28:12Z",
+      "wm-id": 763292,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234256790914813953/1234494621197230081",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/1/",
+      "photo": [
+        "https://pbs.twimg.com/media/ESHOS0jWkAUkR6s.jpg"
+      ],
+      "content": {
+        "content-type": "text/html",
+        "value": "Can you check your web server setup? It looks like a request for /index.html results in a 301 Redirect for /.\n\nThat 301 Redirect switches the scheme from https:// to http://\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "Can you check your web server setup? It looks like a request for /index.html results in a 301 Redirect for /.\n\nThat 301 Redirect switches the scheme from https:// to http://\n<a href=\"https://nicolas-hoizey.com/\"></a>\n<a href=\"https://twitter.com/nhoizey\"></a>",
+        "text": "Can you check your web server setup? It looks like a request for /index.html results in a 301 Redirect for /.\n\nThat 301 Redirect switches the scheme from https:// to http://"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jeff Posnick",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/36aba4753c8886a19da25fc84a8969331a257ff408aa5eea565c97efcf9ce9a1.jpg",
+        "url": "https://twitter.com/jeffposnick"
+      },
+      "url": "https://twitter.com/jeffposnick/status/1234494621197230081",
+      "published": "2020-03-02T15:03:48+00:00",
+      "wm-received": "2020-03-02T15:28:09Z",
+      "wm-id": 763291,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234359045273899010/1234494621197230081",
+      "wm-target": "https://nicolas-hoizey.com/",
+      "photo": [
+        "https://pbs.twimg.com/media/ESHOS0jWkAUkR6s.jpg"
+      ],
+      "content": {
+        "content-type": "text/html",
+        "value": "Can you check your web server setup? It looks like a request for /index.html results in a 301 Redirect for /.\n\nThat 301 Redirect switches the scheme from https:// to http://\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "Can you check your web server setup? It looks like a request for /index.html results in a 301 Redirect for /.\n\nThat 301 Redirect switches the scheme from https:// to http://\n<a href=\"https://nicolas-hoizey.com/\"></a>\n<a href=\"https://twitter.com/nhoizey\"></a>",
+        "text": "Can you check your web server setup? It looks like a request for /index.html results in a 301 Redirect for /.\n\nThat 301 Redirect switches the scheme from https:// to http://"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Anthony Ricaud",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e80edb77f394e47700bbb6f7ce5ded4c4c76cf6ea8108058646b7a5485a7576f.jpg",
+        "url": "https://twitter.com/anthony_ricaud"
+      },
+      "url": "https://twitter.com/anthony_ricaud/status/1234498433198764033",
+      "published": "2020-03-02T15:18:57+00:00",
+      "wm-received": "2020-03-02T15:28:27Z",
+      "wm-id": 763293,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1234457681148207106/1234498433198764033",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Yes, that's exactly what Tailwind is about. How is that bad?\n\nHave you read <a href=\"https://tailwindcss.com/docs/utility-first\">tailwindcss.com/docs/utility-f…</a> and <a href=\"https://tailwindcss.com/docs/extracting-componentsto\">tailwindcss.com/docs/extractin…</a> understand the philosophy?\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://tailwindui.com/preview\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/patrick_h_lauke\"></a>",
+        "html": "Yes, that's exactly what Tailwind is about. How is that bad?\n\nHave you read <a href=\"https://tailwindcss.com/docs/utility-first\">tailwindcss.com/docs/utility-f…</a> and <a href=\"https://tailwindcss.com/docs/extracting-componentsto\">tailwindcss.com/docs/extractin…</a> understand the philosophy?\n<a href=\"https://nicolas-hoizey.com/\"></a>\n<a href=\"https://tailwindui.com/preview\"></a>\n<a href=\"https://twitter.com/nhoizey\"></a>\n<a href=\"https://twitter.com/patrick_h_lauke\"></a>",
+        "text": "Yes, that's exactly what Tailwind is about. How is that bad?\n\nHave you read tailwindcss.com/docs/utility-f… and tailwindcss.com/docs/extractin… understand the philosophy?"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
       "wm-private": false
     }
   ]
