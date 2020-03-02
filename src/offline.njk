@@ -45,7 +45,7 @@ permalink: offline.html
       requests.forEach(request => {
         const requestUrl = new URL(request.url);
         const requestPath = requestUrl.pathname;
-        if (/^\/[0-9]{4}\/[0-9]{2}\/./.test(requestPath)) {
+        if (/^\/articles\/[0-9]{4}\/[0-9]{2}\/./.test(requestPath)) {
           addRequestToList(request, "cachedArticles");
         } else {
           if (/^\/links\/[0-9]{4}\/[0-9]{2}\/./.test(requestPath)) {
