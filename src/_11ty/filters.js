@@ -158,9 +158,6 @@ module.exports = {
     // deal with links
     tweet = tweet.replace(/\[([^\]]+)\]\(([^\)]+)\)/g, "$1 ( $2 )");
 
-    // show tweet in terminal
-    // console.log("-------------");
-    // console.log(tweet);
     // tweet = tweet.replace(/\n/g, "<br />\n");
 
     return tweet;
@@ -173,20 +170,11 @@ module.exports = {
     return content;
   },
   absoluteImagePath: (content, url) => {
-    if (content.match(/ailwind/)) {
-      console.log(content);
-      console.log('---');
-      console.log(url);
-      console.log('---');
-    }
     let imagesAbsoluteUrl = content.replace(/<img src="([^"]+)"/, (correspondance, $1) => {
       if (!$1.match(/^(\/|https?:\/\/)/)) {
         return `<img src="${url}${$1}"`;
       }
     });
-    if (content.match(/tailwind/)) {
-      console.log(imagesAbsoluteUrl);
-    }
     return imagesAbsoluteUrl;
   },
   removeImages: content => content.replace(/<img [^>]+>/, '')
