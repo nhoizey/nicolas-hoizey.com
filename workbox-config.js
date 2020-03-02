@@ -9,7 +9,9 @@ module.exports = {
     './js/*.js',
     './css/*.css',
     './offline.html',
-    './offline-fallback.html'
+    './offline-fallback.html',
+    './about/index.html',
+    './about/the-website.html'
   ],
   swSrc: path.join(BUILD_DIR, 'sw.js'),
   swDest: path.join(BUILD_DIR, 'sw.js'),
