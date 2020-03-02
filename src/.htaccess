@@ -254,7 +254,7 @@ RewriteRule .* - [L]
 
 # Redirect from http to https
 # RewriteCond specific to AlwaysData proxy
-# https://help.alwaysdata.com/my-account/ssl/redirection-http-https
+# https://help.alwaysdata.com/en/security/certificates/redirect-http-to-https/
 RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteRule ^(.*) https://nicolas-hoizey.com/$1 [QSA,R=301,L]
 
@@ -676,10 +676,10 @@ RewriteRule ^(.*)\)$ https://%{HTTP_HOST}/$1 [QSA,R=301,L]
 # ------------------------------------------------------------------------------
 
 # Redirect old paginations
-RewriteRule ^([0-9]{1,2})/?$ /page-$1/ [QSA,R=301,L]
+RewriteRule ^([0-9]{1,2})/?$ https://%{HTTP_HOST}/ [QSA,R=301,L]
 
 # No more pagination at all
-RewriteRule ^page-[0-9]+/?$ / [QSA,R=301,L]
+RewriteRule ^page-[0-9]+/?$ https://%{HTTP_HOST}/ [QSA,R=301,L]
 
 # ----------------------------------------------------------------------
 # Remove index.html
@@ -688,14 +688,14 @@ RewriteRule ^page-[0-9]+/?$ / [QSA,R=301,L]
 # If it's a request to index(.html)
 RewriteCond %{THE_REQUEST} \ /(.+/)?index(\.html)?(\?.*)?\  [NC]
 # Remove it.
-RewriteRule ^(.+/)?index(\.html)?$ /%1 [R=301,L]
+RewriteRule ^(.+/)?index(\.html)?$ https://%{HTTP_HOST}/%1 [R=301,L]
 
 # ----------------------------------------------------------------------
 # Remove trailing double slashes //
 # ----------------------------------------------------------------------
 
 RewriteCond %{REQUEST_URI} ^(.*)//(.*)$
-RewriteRule . %1/%2 [R=301,L]
+RewriteRule . https://%{HTTP_HOST}/%1/%2 [R=301,L]
 
 # ----------------------------------------------------------------------
 # Put well known resources in the .well-known folder
@@ -769,7 +769,7 @@ RewriteRule ^wp-login.php https://%{HTTP_HOST}/about/the-website.html [QSA,L,R=3
 RewriteRule ^assets/(opengraph/)?opengraph-(background(-raw)?).png https://%{HTTP_HOST}/assets/opengraph/$2.png [QSA,L,R=301]
 
 # Notes are deeper, so that it maps to the source tree and assets copy works
-RewriteRule ^(notes/[0-9]{4}/[0-9]{2}/[0-9]{2})-([0-9]+)/(.*)$ /$1/$2/$3 [QSA,L,R=301]
+RewriteRule ^(notes/[0-9]{4}/[0-9]{2}/[0-9]{2})-([0-9]+)/(.*)$ https://%{HTTP_HOST}/$1/$2/$3 [QSA,L,R=301]
 
 # Articles and links are now one level deeper, for the day, but we don't know where… 😅
 RewriteCond %{DOCUMENT_ROOT}/$1/01/$3 -d
