@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-03-03T00:18:49.862Z",
+  "lastFetched": "2020-03-03T22:48:26.365Z",
   "webmentions": [
     {
       "type": "entry",
@@ -46086,6 +46086,32 @@
       "type": "entry",
       "author": {
         "type": "card",
+        "name": "Rainer Müller",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/47715bc41fbe429165c352875f3756b3cc8c8fdd778f312239bbf171545dca47.jpg",
+        "url": "https://twitter.com/trueAbelass"
+      },
+      "url": "https://twitter.com/trueAbelass/status/1234537886197964801",
+      "published": "2020-03-02T17:55:43+00:00",
+      "wm-received": "2020-03-03T01:12:37Z",
+      "wm-id": 763569,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1234457681148207106/1234537886197964801",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "photo": [
+        "https://pbs.twimg.com/media/ESGstc9XsAEiMy9.jpg"
+      ],
+      "content": {
+        "content-type": "text/plain",
+        "value": "I know some utility classes can be useful, and @tailwindcss helps some devs create pages without (really) knowing #CSS, but is it enough to",
+        "text": "I know some utility classes can be useful, and @tailwindcss helps some devs create pages without (really) knowing #CSS, but is it enough to"
+      },
+      "repost-of": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
         "name": "patrick h. lauke",
         "photo": "https://webmention.io/avatar/pbs.twimg.com/a372b735f18896ab774e0efd063d9305d17d2396452c381470b65b27c214072f.jpg",
         "url": "https://twitter.com/patrick_h_lauke"
@@ -46260,6 +46286,42 @@
       },
       "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
       "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mike Byrne",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/2023a059720682f7a5a49232034f0696857cac83c633b3bfc18fa5cdcf1cde84.jpg",
+        "url": "https://twitter.com/13twelve"
+      },
+      "url": "https://twitter.com/nhoizey/status/1234457681148207106#favorited-by-16255630",
+      "published": null,
+      "wm-received": "2020-03-03T12:31:46Z",
+      "wm-id": 763822,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1234457681148207106/16255630",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Arnaud MALON",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/dc8bd9cbd22886051476575035648c02c9744f1453d582538dfe075b8d17e003.png",
+        "url": "https://twitter.com/zemoko"
+      },
+      "url": "https://twitter.com/nhoizey/status/1234457681148207106#favorited-by-5827012",
+      "published": null,
+      "wm-received": "2020-03-03T14:23:35Z",
+      "wm-id": 763877,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1234457681148207106/5827012",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
