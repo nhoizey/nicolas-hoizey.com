@@ -5,6 +5,7 @@ const rootUrl = require('../_data/site.js').url
 const util = require('util');
 const path = require('path');
 const twitter = require('twitter-text');
+const truncateHtml = require('truncate-html');
 
 // slugify is called 1000s of times, let's memoize it
 let memoizedSlugs = {};
@@ -181,5 +182,8 @@ module.exports = {
     });
     return imagesAbsoluteUrl;
   },
-  removeImages: content => content.replace(/<img [^>]+>/, '')
+  removeImages: content => content.replace(/<img [^>]+>/, ''),
+  truncateHtml: (content, length) => {
+    return truncateHtml(content, length, { reserveLastWord: true, ellipsis: '…' });
+  }
 }

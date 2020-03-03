@@ -61,13 +61,9 @@
             {% if webmention.content %}
               <div class="webmention__content p-content">
                 {% if webmention.content['content-type'] == 'text/html' %}
-                  {% if webmention.content.html | striptags | length > 400 %}
-                    {{ webmention.content.html | safe | striptags | truncate(400, true, '…') }}
-                  {% else %}
-                    {{ webmention.content.html | safe | striptags }}
-                  {% endif %}
+                  {{ webmention.content.html | truncateHtml(500) | safe }}
                 {% else %}
-                  {{ webmention.content.text | truncate(400, true, '…') }}
+                  {{ webmention.content.text | truncate(500, true, '…') }}
                 {% endif %}
               </div>
             {% endif %}
