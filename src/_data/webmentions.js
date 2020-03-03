@@ -57,14 +57,26 @@ function cleanWebmentions(webmentions) {
   const sanitize = entry => {
     const { content } = entry;
     if (content && content['content-type'] === 'text/html') {
-      content.html = sanitizeHTML(content.html, {
-        allowedTags: ['b', 'i', 'em', 'strong', 'a', 'blockquote', 'ul', 'ol', 'li', 'code', 'pre'],
+      let html = content.html;
+      if (html.match(/even more embarrassed/)) {
+        console.log(html);
+      }
+      html = html.replace(/<a [^>]+><\/a>/gm, '')
+        .trim()
+        .replace(/\n/g, "<br />");
+      html = sanitizeHTML(html, {
+        allowedTags: ['b', 'i', 'em', 'strong', 'a', 'blockquote', 'ul', 'ol', 'li', 'code', 'pre', 'br'],
         allowedAttributes: {
           a: ['href', 'rel'],
           img: ['src', 'alt']
         },
         allowedIframeHostnames: []
       });
+      if (html.match(/even more embarrassed/)) {
+        console.log('-------');
+        console.log(html);
+      }
+      content.html = html;
     }
     return entry;
   }
