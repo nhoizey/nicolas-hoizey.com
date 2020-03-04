@@ -151,6 +151,7 @@ module.exports = {
       '#Notist': '@benotist',
       '#Rollup': '@RollupJS',
       '#Tailwind': '@tailwindcss',
+      '#Unsplash': '@unsplash',
       '#Workbox': '@workboxjs'
     };
     for (const tag in handles) {
