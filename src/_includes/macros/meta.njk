@@ -12,14 +12,17 @@
           <a href="/{{ type }}/{{ date | date("YYYY") }}/">{{ date | date("YYYY") }}</a>
         </time>
       </li>
-      <li class="tags meta__item card__tags">
-        <svg class="icon"><use xlink:href="#symbol-tags" /></svg>
-        {% set comma = joiner(", ") %}
-        {%- for tag in tags -%}
-          {{ comma() }}
-          <a href="/tags/{{ tag | slugify }}/" rel="tag" class="p-category">{{ tag }}</a>
-        {%- endfor -%}
-      </li>
+      {% set tagsSize = tags | size %}
+      {% if tagsSize > 0 %}
+        <li class="tags meta__item card__tags">
+          <svg class="icon"><use xlink:href="#symbol-tags" /></svg>
+          {% set comma = joiner(", ") %}
+          {%- for tag in tags -%}
+            {{ comma() }}
+            <a href="/tags/{{ tag | slugify }}/" rel="tag" class="p-category">{{ tag }}</a>
+          {%- endfor -%}
+        </li>
+      {% endif %}
       {% set mentions = webmentions | getWebmentionsForUrl(url) %}
       {% set mentionsSize = mentions | size %}
       {% if mentionsSize > 0 %}
