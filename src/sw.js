@@ -76,23 +76,6 @@ registerRoute(
   }),
 );
 
-// Fonts
-registerRoute(
-  ({ request }) => request.destination === 'font',
-  new CacheFirst({
-    cacheName: 'shell',
-    plugins: [
-      new CacheableResponsePlugin({
-        statuses: [0, 200],
-      }),
-      new ExpirationPlugin({
-        maxAgeSeconds: 60 * 60 * 24 * 365,
-        maxEntries: 30,
-      }),
-    ],
-  }),
-);
-
 setCatchHandler(({ event }) => {
   switch (event.request.destination) {
     case 'document':

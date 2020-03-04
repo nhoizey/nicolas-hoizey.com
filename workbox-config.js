@@ -7,6 +7,7 @@ module.exports = {
   globPatterns: [
     './js/*.js',
     './css/*.css',
+    './assets/fonts/*.woff2',
     './index.html',
     './about/index.html',
     './about/the-website.html',
