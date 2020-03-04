@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-03-03T22:48:26.365Z",
+  "lastFetched": "2020-03-04T20:40:47.426Z",
   "webmentions": [
     {
       "type": "entry",
@@ -46322,6 +46322,120 @@
       "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
       "like-of": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Joachim ᕙ👨🏻ᕗ",
+        "photo": "https://webmention.io/avatar/mamot.fr/800367a205d3015d432ab611e53f9daf0f4f1f0acef526b6915407263407e3d4.jpg",
+        "url": "https://boitam.eu/@joachim"
+      },
+      "url": "https://mamot.fr/@nhoizey/103764504438910893#favorited-by-1041",
+      "published": null,
+      "wm-received": "2020-03-04T12:02:38Z",
+      "wm-id": 764181,
+      "wm-source": "https://brid-gy.appspot.com/like/mastodon/@nhoizey@mamot.fr/103764504438910893/1041",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/04/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/03/04/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Hubert SABLONNIÈRE 😎",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/b98be22654fa0b522890000c8e7ce8a6a4385d79a7f280ddacc56b7c2915d8d6.jpg",
+        "url": "https://twitter.com/hsablonniere"
+      },
+      "url": "https://twitter.com/hsablonniere/status/1235234216029425665",
+      "published": "2020-03-04T16:02:41+00:00",
+      "wm-received": "2020-03-04T16:44:19Z",
+      "wm-id": 764277,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1235162221577195520/1235234216029425665",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/04/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Déception, tu utilises le \"site jaune\" 🤣\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "Déception, tu utilises le \"site jaune\" 🤣",
+        "text": "Déception, tu utilises le \"site jaune\" 🤣"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/04/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1235234577297354752",
+      "published": "2020-03-04T16:04:07+00:00",
+      "wm-received": "2020-03-04T16:44:26Z",
+      "wm-id": 764278,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1235162221577195520/1235234577297354752",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/04/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Juste pour voir les séances, même pas pour réserver… 😉\n<a class=\"u-mention\" href=\"https://twitter.com/hsablonniere\"></a>",
+        "html": "Juste pour voir les séances, même pas pour réserver… 😉",
+        "text": "Juste pour voir les séances, même pas pour réserver… 😉"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/04/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Hubert SABLONNIÈRE 😎",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/b98be22654fa0b522890000c8e7ce8a6a4385d79a7f280ddacc56b7c2915d8d6.jpg",
+        "url": "https://twitter.com/hsablonniere"
+      },
+      "url": "https://twitter.com/hsablonniere/status/1235234924157947905",
+      "published": "2020-03-04T16:05:30+00:00",
+      "wm-received": "2020-03-04T16:43:58Z",
+      "wm-id": 764275,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1235162221577195520/1235234924157947905",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/04/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Je me doute bien et je trouve dingue qu'en 2020, on soit encore dépendant de ce truc qui a clairement le monopole sur ce qui devrait être en open data IMO.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "Je me doute bien et je trouve dingue qu'en 2020, on soit encore dépendant de ce truc qui a clairement le monopole sur ce qui devrait être en open data IMO.",
+        "text": "Je me doute bien et je trouve dingue qu'en 2020, on soit encore dépendant de ce truc qui a clairement le monopole sur ce qui devrait être en open data IMO."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/04/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1235241850241519616",
+      "published": "2020-03-04T16:33:01+00:00",
+      "wm-received": "2020-03-04T16:44:04Z",
+      "wm-id": 764276,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1235162221577195520/1235241850241519616",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/04/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Bien d’accord. Je crois me souvenir que <a href=\"https://twitter.com/SensCritique\">@SensCritique</a> avait eu du mal à mettre ça en place.\n<a class=\"u-mention\" href=\"https://twitter.com/hsablonniere\"></a>",
+        "html": "Bien d’accord. Je crois me souvenir que <a href=\"https://twitter.com/SensCritique\">@SensCritique</a> avait eu du mal à mettre ça en place.",
+        "text": "Bien d’accord. Je crois me souvenir que @SensCritique avait eu du mal à mettre ça en place."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/04/1/",
+      "wm-property": "in-reply-to",
       "wm-private": false
     }
   ]
