@@ -158,12 +158,12 @@ module.exports = {
     }
 
     // deal with images
-    tweet = tweet.replace(/!\[([^\]]+)\]\(([^\)]+)\)/g, `[<a href="${url}$2">image</a>]`);
+    tweet = tweet.replace(/!\[([^\]]+)\]\(([^\) ]+)( [^\)]+)?\)({.[^}]+})?/g, `[<a href="${url}$2">image</a>]`);
 
     // deal with links
     tweet = tweet.replace(/\[([^\]]+)\]\(([^\)]+)\)/g, "$1 ( $2 )");
 
-    // tweet = tweet.replace(/\n/g, "<br />\n");
+    tweet = tweet.replace(/\n/g, "<br />\n");
 
     return tweet;
   },
