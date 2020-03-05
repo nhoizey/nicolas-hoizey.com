@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-03-04T20:40:47.426Z",
+  "lastFetched": "2020-03-05T22:06:40.441Z",
   "webmentions": [
     {
       "type": "entry",
@@ -46436,6 +46436,535 @@
       },
       "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/04/1/",
       "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "m4dz",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/77cffe02fd7dc6e59f33129df7d8cd1e701d0dfb11e187ee7328ef17b268a26b.jpg",
+        "url": "https://twitter.com/m4d_z"
+      },
+      "url": "https://twitter.com/m4d_z/status/1235307864312467457",
+      "published": "2020-03-04T20:55:20+00:00",
+      "wm-received": "2020-03-04T21:36:36Z",
+      "wm-id": 764389,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1235299782534586372/1235307864312467457",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/04/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Owww, I never realized this is one of your pics! I *love* this one, always trying to use it for illustration purposes &lt;3 !\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/phlearn\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/unsplash\"></a>\n<a class=\"u-mention\" href=\"https://unsplash.com/photos/2MuZ23gkFKo\"></a>",
+        "html": "Owww, I never realized this is one of your pics! I *love* this one, always trying to use it for illustration purposes &lt;3 !",
+        "text": "Owww, I never realized this is one of your pics! I *love* this one, always trying to use it for illustration purposes <3 !"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/04/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Cahnory ツ",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/1839fc8f14b46ac8f48f776937d6e49d69761bf2271ae321e017067343168300.png",
+        "url": "https://twitter.com/cahnory"
+      },
+      "url": "https://twitter.com/nhoizey/status/1235299782534586372#favorited-by-120530290",
+      "published": null,
+      "wm-received": "2020-03-04T21:11:15Z",
+      "wm-id": 764366,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1235299782534586372/120530290",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/04/2/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/03/04/2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1235311998239416327",
+      "published": "2020-03-04T21:11:46+00:00",
+      "wm-received": "2020-03-04T21:36:43Z",
+      "wm-id": 764390,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1235299782534586372/1235311998239416327",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/04/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Thanks! 😘\n\nThat’s also one of my favorites, I’m very proud of it. 😊\n<a class=\"u-mention\" href=\"https://twitter.com/m4d_z\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/phlearn\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/unsplash\"></a>\n<a class=\"u-mention\" href=\"https://unsplash.com/photos/2MuZ23gkFKo\"></a>",
+        "html": "Thanks! 😘<br /><br />That’s also one of my favorites, I’m very proud of it. 😊",
+        "text": "Thanks! 😘\n\nThat’s also one of my favorites, I’m very proud of it. 😊"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/04/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Eric Portis",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/558b4c45b7bd5a1107c170e4bb77e2f8cd7f59bf7eda42756b5a7b93c24753a2.png",
+        "url": "https://twitter.com/etportis"
+      },
+      "url": "https://twitter.com/nhoizey/status/1235299782534586372#favorited-by-528720846",
+      "published": null,
+      "wm-received": "2020-03-04T21:11:46Z",
+      "wm-id": 764367,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1235299782534586372/528720846",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/04/2/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/03/04/2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Monique Dubbelman",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d918569b0b0963a0a0bc11b8e50df1f3eff6d01fbfc9b7bdd9d37345b67d5221.jpg",
+        "url": "https://twitter.com/mdubbelm"
+      },
+      "url": "https://twitter.com/nhoizey/status/1235299782534586372#favorited-by-369170268",
+      "published": null,
+      "wm-received": "2020-03-04T21:13:50Z",
+      "wm-id": 764368,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1235299782534586372/369170268",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/04/2/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/03/04/2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "m4dz",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/77cffe02fd7dc6e59f33129df7d8cd1e701d0dfb11e187ee7328ef17b268a26b.jpg",
+        "url": "https://twitter.com/m4d_z"
+      },
+      "url": "https://twitter.com/nhoizey/status/1235299782534586372#favorited-by-81091261",
+      "published": null,
+      "wm-received": "2020-03-04T21:36:56Z",
+      "wm-id": 764391,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1235299782534586372/81091261",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/04/2/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/03/04/2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Webaaz (martin)",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/34a41f0de85b272e9cc6cafdf216436db3a58c77a346a9270928e898d1eb7fd3.png",
+        "url": "https://twitter.com/webaaz"
+      },
+      "url": "https://twitter.com/nhoizey/status/1235299782534586372#favorited-by-28536809",
+      "published": null,
+      "wm-received": "2020-03-04T22:15:36Z",
+      "wm-id": 764409,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1235299782534586372/28536809",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/04/2/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/03/04/2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "MaximG",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/6ae91f271e0550ff9fad3077a4e94d77ca23810e884a8a02560fbb58db402286.jpg",
+        "url": "https://twitter.com/max_inredcastle"
+      },
+      "url": "https://twitter.com/nhoizey/status/1235299782534586372#favorited-by-32389717",
+      "published": null,
+      "wm-received": "2020-03-04T22:15:47Z",
+      "wm-id": 764410,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1235299782534586372/32389717",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/04/2/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/03/04/2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "PHLEARN",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/fe5c4cb14a55e1cbd366377d59344fa42b3ddc4faa46c8ff9d98c047e643cdc3.jpg",
+        "url": "https://twitter.com/phlearn"
+      },
+      "url": "https://twitter.com/nhoizey/status/1235299782534586372#favorited-by-123509849",
+      "published": null,
+      "wm-received": "2020-03-04T23:01:48Z",
+      "wm-id": 764421,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1235299782534586372/123509849",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/04/2/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/03/04/2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Damien Roué",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/508be2ba70dc7c6b11ead2fda710ca356e7574a6bfbf5ebb9808da2330cd75d4.jpg",
+        "url": "https://twitter.com/damienroue"
+      },
+      "url": "https://twitter.com/damienroue/status/1235351975501246464",
+      "published": "2020-03-04T23:50:37+00:00",
+      "wm-received": "2020-03-05T00:10:17Z",
+      "wm-id": 764438,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1235299782534586372/1235351975501246464",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/04/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Est ce que tu as une façon de savoir quand ta photo est utilisée ou c’est par hasard que tu l’as remarqué ?\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/phlearn\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/unsplash\"></a>\n<a class=\"u-mention\" href=\"https://unsplash.com/photos/2MuZ23gkFKo\"></a>",
+        "html": "Est ce que tu as une façon de savoir quand ta photo est utilisée ou c’est par hasard que tu l’as remarqué ?",
+        "text": "Est ce que tu as une façon de savoir quand ta photo est utilisée ou c’est par hasard que tu l’as remarqué ?"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/04/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1235358319394656257",
+      "published": "2020-03-05T00:15:49+00:00",
+      "wm-received": "2020-03-05T00:40:56Z",
+      "wm-id": 764449,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1235299782534586372/1235358319394656257",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/04/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Je l’ai su grâce à <a href=\"https://twitter.com/Mention\">@Mention</a> !\n<a class=\"u-mention\" href=\"https://twitter.com/damienroue\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/phlearn\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/unsplash\"></a>\n<a class=\"u-mention\" href=\"https://unsplash.com/photos/2MuZ23gkFKo\"></a>",
+        "html": "Je l’ai su grâce à <a href=\"https://twitter.com/Mention\">@Mention</a> !",
+        "text": "Je l’ai su grâce à @Mention !"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/04/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/mamot.fr/5fa24c7dbcb46640e1137d65e156fbcb15bc2e3759135ed7481ae94ace2e80fb.jpg",
+        "url": "https://mamot.fr/@nhoizey"
+      },
+      "url": "https://mamot.fr/@nhoizey/103769636932380521",
+      "published": "2020-03-05T09:03:21",
+      "wm-received": "2020-03-05T09:20:08Z",
+      "wm-id": 764562,
+      "wm-source": "https://brid-gy.appspot.com/comment/mastodon/@nhoizey@mamot.fr/103769613208815448/103769636932380521",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/05/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "<p>@RollupJS@twitter.com @workboxjs@twitter.com @eleven_ty@twitter.com First question: how can I generate a JS bundle with a hashed filename with @RollupJS@twitter.com, and use this hashed name in my @eleven_ty@twitter.com pages?</p>",
+        "html": "@RollupJS@twitter.com @workboxjs@twitter.com @eleven_ty@twitter.com First question: how can I generate a JS bundle with a hashed filename with @RollupJS@twitter.com, and use this hashed name in my @eleven_ty@twitter.com pages?",
+        "text": "@RollupJS@twitter.com @workboxjs@twitter.com @eleven_ty@twitter.com First question: how can I generate a JS bundle with a hashed filename with @RollupJS@twitter.com, and use this hashed name in my @eleven_ty@twitter.com pages?"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/05/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas ⧖",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/abf3f59794f93039916f4e4deb36885c2704c7aeaab50542261b7fdca472626b.png",
+        "url": "https://twitter.com/swissnic"
+      },
+      "url": "https://twitter.com/nhoizey/status/1235299782534586372#favorited-by-22827880",
+      "published": null,
+      "wm-received": "2020-03-05T08:27:34Z",
+      "wm-id": 764555,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1235299782534586372/22827880",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/04/2/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/03/04/2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "JSBot",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d3b5d39458624dd923d325a5c71691554b9b18d6d5104f53c3a94d5489cd209a.jpg",
+        "url": "https://twitter.com/Taieb_Bot"
+      },
+      "url": "https://twitter.com/Taieb_Bot/status/1235489503680348160",
+      "published": "2020-03-05T08:57:06+00:00",
+      "wm-received": "2020-03-05T09:31:18Z",
+      "wm-id": 764566,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1235489454325981184/1235489503680348160",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/05/1/",
+      "content": {
+        "content-type": "text/plain",
+        "value": "Now that I use @RollupJS to generate my #ServiceWorker with @workboxjs in @eleven_ty, I guess I should try to remove #Webpack from #JavaScr",
+        "text": "Now that I use @RollupJS to generate my #ServiceWorker with @workboxjs in @eleven_ty, I guess I should try to remove #Webpack from #JavaScr"
+      },
+      "repost-of": "https://nicolas-hoizey.com/notes/2020/03/05/1/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Stack Five",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/36b416049de335af9d9955156a7358198bbe8c69722a74f5bb62ce9b0917166b.jpg",
+        "url": "https://twitter.com/stackfive_io"
+      },
+      "url": "https://twitter.com/nhoizey/status/1235489454325981184#favorited-by-1230950241202995202",
+      "published": null,
+      "wm-received": "2020-03-05T09:31:11Z",
+      "wm-id": 764565,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1235489454325981184/1230950241202995202",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/05/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/03/05/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "GoOz",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e35841e8deed01abba04f1fcc2908fd608cb1f3313c667c7e692f4c03fa4593e.jpg",
+        "url": "https://twitter.com/GoOz"
+      },
+      "url": "https://twitter.com/GoOz/status/1235524787033735168",
+      "published": "2020-03-05T11:17:18+00:00",
+      "wm-received": "2020-03-05T11:32:37Z",
+      "wm-id": 764614,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1235523873170317312/1235524787033735168",
+      "wm-target": "https://nicolas-hoizey.com/articles/2018/07/02/leaving-500px/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Bawé, c'est pour ça que je paye plus d'abo et que je déserte…\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/flousentimental\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rapportaucorps\"></a>",
+        "html": "Bawé, c'est pour ça que je paye plus d'abo et que je déserte…",
+        "text": "Bawé, c'est pour ça que je paye plus d'abo et que je déserte…"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/articles/2018/07/02/leaving-500px/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1235525613647257600",
+      "published": "2020-03-05T11:20:35+00:00",
+      "wm-received": "2020-03-05T11:30:05Z",
+      "wm-id": 764609,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1235523873170317312/1235525613647257600",
+      "wm-target": "https://nicolas-hoizey.com/articles/2018/07/02/leaving-500px/",
+      "content": {
+        "content-type": "text/html",
+        "value": "👍\n<a class=\"u-mention\" href=\"https://twitter.com/GoOz\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/flousentimental\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rapportaucorps\"></a>",
+        "html": "👍",
+        "text": "👍"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/articles/2018/07/02/leaving-500px/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Javascript Digest",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/8926516280df06f09e9ac45cd9df37e0e2ed500388fbfd669e40b7ec4fb680df.jpeg",
+        "url": "https://twitter.com/javascriptd"
+      },
+      "url": "https://twitter.com/javascriptd/status/1235525751933263873",
+      "published": "2020-03-05T11:21:08+00:00",
+      "wm-received": "2020-03-05T11:32:07Z",
+      "wm-id": 764611,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1235489454325981184/1235525751933263873",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/05/1/",
+      "content": {
+        "content-type": "text/plain",
+        "value": "Now that I use @RollupJS to generate my #ServiceWorker with @workboxjs in @eleven_ty, I guess I should try to remove #Webpack from #JavaScr",
+        "text": "Now that I use @RollupJS to generate my #ServiceWorker with @workboxjs in @eleven_ty, I guess I should try to remove #Webpack from #JavaScr"
+      },
+      "repost-of": "https://nicolas-hoizey.com/notes/2020/03/05/1/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Flou sentimental",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/7079108df4689517d84bed0383ad42d8f68cff1a4ca7cca25920d041c02e0ae9.png",
+        "url": "https://twitter.com/flousentimental"
+      },
+      "url": "https://twitter.com/nhoizey/status/1235523873170317312#favorited-by-68761914",
+      "published": null,
+      "wm-received": "2020-03-05T11:30:13Z",
+      "wm-id": 764610,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1235523873170317312/68761914",
+      "wm-target": "https://nicolas-hoizey.com/articles/2018/07/02/leaving-500px/",
+      "like-of": "https://nicolas-hoizey.com/articles/2018/07/02/leaving-500px/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Flou sentimental",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/7079108df4689517d84bed0383ad42d8f68cff1a4ca7cca25920d041c02e0ae9.png",
+        "url": "https://twitter.com/flousentimental"
+      },
+      "url": "https://twitter.com/nhoizey/status/1235299782534586372#favorited-by-68761914",
+      "published": null,
+      "wm-received": "2020-03-05T11:32:18Z",
+      "wm-id": 764612,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1235299782534586372/68761914",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/04/2/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/03/04/2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Fullstack Developer",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/7d7632adc50473ef2f09512def2fadb86e4412704c65af1f8acd0d37d7cab38f.jpg",
+        "url": "https://twitter.com/FullstackDevJS"
+      },
+      "url": "https://twitter.com/nhoizey/status/1235489454325981184#favorited-by-931055758971752448",
+      "published": null,
+      "wm-received": "2020-03-05T12:06:48Z",
+      "wm-id": 764624,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1235489454325981184/931055758971752448",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/05/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/03/05/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "RxJS Live! London",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e3acd45f790ee7b35ae873528ff8fd7b60e2e211f091e8181504ab10b8a1e450.png",
+        "url": "https://twitter.com/rxjslive"
+      },
+      "url": "https://twitter.com/nhoizey/status/1235489454325981184#favorited-by-1111803804851163136",
+      "published": null,
+      "wm-received": "2020-03-05T12:06:55Z",
+      "wm-id": 764625,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1235489454325981184/1111803804851163136",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/05/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/03/05/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jeff Posnick",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/36aba4753c8886a19da25fc84a8969331a257ff408aa5eea565c97efcf9ce9a1.jpg",
+        "url": "https://twitter.com/jeffposnick"
+      },
+      "url": "https://twitter.com/nhoizey/status/1235489454325981184#favorited-by-11817932",
+      "published": null,
+      "wm-received": "2020-03-05T14:58:10Z",
+      "wm-id": 764662,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1235489454325981184/11817932",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/05/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/03/05/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nice Web Links 🔗",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c597fd60663cd037d973e567bb00cc3eebd49f6f3e38f8e856270193c6bcd587.jpg",
+        "url": "https://twitter.com/nice_links"
+      },
+      "url": "https://twitter.com/nice_links/status/1235666220273156096",
+      "published": "2020-03-05T20:39:19+00:00",
+      "wm-received": "2020-03-05T21:18:01Z",
+      "wm-id": 764842,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/nhoizey/1235666220273156096",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/03/05/chameleonic-header/",
+      "photo": [
+        "https://pbs.twimg.com/media/ESX34JxXcAI5imu.jpg"
+      ],
+      "content": {
+        "content-type": "text/html",
+        "value": "🔗 \"Chameleonic Header\"\nby <a href=\"https://twitter.com/guerriero_se\">@guerriero_se</a>\n\n<a href=\"https://nicolas-hoizey.com/links/2020/03/05/chameleonic-header/\">nicolas-hoizey.com/links/2020/03/…</a>\n<a href=\"https://twitter.com/search?q=%23design\">#design</a> <a href=\"https://twitter.com/search?q=%23CSS\">#CSS</a> <a href=\"https://twitter.com/search?q=%23JavaScript\">#JavaScript</a>",
+        "html": "🔗 \"Chameleonic Header\"<br />by <a href=\"https://twitter.com/guerriero_se\">@guerriero_se</a><br /><br /><a href=\"https://nicolas-hoizey.com/links/2020/03/05/chameleonic-header/\">nicolas-hoizey.com/links/2020/03/…</a><br /><a href=\"https://twitter.com/search?q=%23design\">#design</a> <a href=\"https://twitter.com/search?q=%23CSS\">#CSS</a> <a href=\"https://twitter.com/search?q=%23JavaScript\">#JavaScript</a>",
+        "text": "🔗 \"Chameleonic Header\"\nby @guerriero_se\n\nnicolas-hoizey.com/links/2020/03/…\n#design #CSS #JavaScript"
+      },
+      "mention-of": "https://nicolas-hoizey.com/links/2020/03/05/chameleonic-header/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "bud parr",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0434d991b590ed79630baae11a9d6fbeb8a2e8d63341d56fa825dcfc9d20359c.jpeg",
+        "url": "https://twitter.com/budparr"
+      },
+      "url": "https://twitter.com/nhoizey/status/1235489454325981184#favorited-by-14130021",
+      "published": null,
+      "wm-received": "2020-03-05T21:18:06Z",
+      "wm-id": 764843,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1235489454325981184/14130021",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/05/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/03/05/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Sam Vloeberghs",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/977d548930b94d6ec03f84e7d7709dbd16be6c0789691ce4afc5383293b0879e.jpg",
+        "url": "https://twitter.com/samvloeberghs"
+      },
+      "url": "https://twitter.com/nhoizey/status/1235489454325981184#favorited-by-33196090",
+      "published": null,
+      "wm-received": "2020-03-05T21:18:14Z",
+      "wm-id": 764844,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1235489454325981184/33196090",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/05/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/03/05/1/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
