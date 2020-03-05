@@ -1,0 +1,5 @@
+---
+date: 2020-03-05 09:47:28 +01:00
+---
+
+Now that I use #Rollup to generate my #ServiceWorker with #Workbox in #Eleventy, I guess I should try to remove #Webpack from #JavaScript assets bundling… 😅
