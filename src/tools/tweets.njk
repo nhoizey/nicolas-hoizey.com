@@ -22,7 +22,7 @@ title: Tweets
   <p>
     {{ note.data.rawContent | microblogify(note.url) | safe }}
     <br /><br />
-    ⚓️ https://nho.io/n/{{ note.url | replace("/notes/", "") }}
+    📝 https://nho.io/n/{{ note.url | replace("/notes/", "") }}
   </p>
   </div>
 {% endfor %}
@@ -31,7 +31,7 @@ title: Tweets
 {% for link in collections.links | limit(20) %}
   <div class="tweet">
   <p>
-    🔗 "{{ link.data.title}}"
+    "{{ link.data.title}}"
     <br />
     {% set by = false %}
     {% if link.data.authors %}
@@ -46,9 +46,9 @@ title: Tweets
       {% endfor %}
     {% endif %}
     <br /><br />
-    {{site.url}}{{ link.url }}
-    <br />
     {%- for tag in link.data.tags -%}#{{ tag | tagToHashtag }} {% endfor %}
+    <br />
+    🔗 https://nho.io/l/{{ link.url | replace("/links/", "") }}
   </p>
   </div>
 {% endfor %}
@@ -57,11 +57,11 @@ title: Tweets
 {% for article in collections.articles | limit(10) %}
   <div class="tweet">
   <p>
-    📝 "{{ article.data.title}}"
+    "{{ article.data.title}}"
     <br /><br />
-    {{site.url}}{{ article.url }}
-    <br />
     {%- for tag in article.data.tags -%}#{{ tag | tagToHashtag }} {% endfor %}
+    <br />
+    🖋 https://nho.io/a/{{ article.url | replace("/articles/", "") }}
   </p>
   </div>
 {% endfor %}
