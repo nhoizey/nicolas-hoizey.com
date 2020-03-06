@@ -46,21 +46,10 @@ function cleanWebmentions(webmentions) {
     const { published, url } = entry;
     return published && url;
   }
-  const isNotSelf = entry => {
-    return !(
-      entry['wm-property'] === 'repost-of'
-      && (
-        entry.url.match(/^https:\/\/twitter.com\/(nhoizey|nice_links)\//)
-        || entry.url.match(/^https:\/\/mamot.fr\/@nhoizey\//)
-      ));
-  }
   const sanitize = entry => {
     const { content } = entry;
     if (content && content['content-type'] === 'text/html') {
       let html = content.html;
-      if (html.match(/even more embarrassed/)) {
-        console.log(html);
-      }
       html = html.replace(/<a [^>]+><\/a>/gm, '')
         .trim()
         .replace(/\n/g, "<br />");
@@ -72,10 +61,6 @@ function cleanWebmentions(webmentions) {
         },
         allowedIframeHostnames: []
       });
-      if (html.match(/even more embarrassed/)) {
-        console.log('-------');
-        console.log(html);
-      }
       content.html = html;
     }
     return entry;
@@ -83,7 +68,6 @@ function cleanWebmentions(webmentions) {
 
   return webmentions
     //.filter(hasRequiredFields)
-    .filter(isNotSelf)
     .map(sanitize);
 }
 
