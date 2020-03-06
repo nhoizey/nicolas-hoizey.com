@@ -183,6 +183,7 @@ module.exports = {
       '#Cloudinary': '@cloudinary',
       '#Eleventy': '@eleven_ty',
       '#Jekyll': '@jekyllrb',
+      '#Netlify': '@Netlify',
       '#Notist': '@benotist',
       '#Rollup': '@RollupJS',
       '#Tailwind': '@tailwindcss',
