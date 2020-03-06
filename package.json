@@ -21,7 +21,7 @@
     "start": "cross-env ELEVENTY_ENV=development eleventy --serve",
     "debug": "DEBUG=Eleventy* npm start",
     "prebuild": "npm run clean",
-    "build": "cross-env ELEVENTY_ENV=production eleventy && rollup --config rollup.config.js && workbox injectManifest ./workbox-config.js"
+    "build": "cross-env ELEVENTY_ENV=production eleventy && rollup --config rollup.config.js && workbox injectManifest ./workbox.config.js"
   },
   "devDependencies": {
     "@11ty/eleventy": "0.11.0-beta.1",
