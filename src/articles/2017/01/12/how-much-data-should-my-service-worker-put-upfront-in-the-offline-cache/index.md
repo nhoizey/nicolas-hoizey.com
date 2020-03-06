@@ -73,3 +73,5 @@ I don't know if Jeremy thought about this or not, but I hope there will be some 
 To conclude, it's kind of amusing to see that Jeremy also provides links to download other versions of the book, including PDF, epub and mobi, and most of these files weight less than 16 Mb.
 
 **February 25, 2017 update:** Lighthouse [will now give a lower score if total byte weight is too high](https://github.com/GoogleChrome/lighthouse/pull/1759).
+
+**August 1st, 2019 update:** Lighthouse's [total byte weight audit](https://github.com/GoogleChrome/lighthouse/issues/584) unfortunately just checks the weight of the page and its resources, without counting any request performed by the Service Worker. So I opened another issue: [#9493 "total byte weight" but for the service worker installation and activation](https://github.com/GoogleChrome/lighthouse/issues/9493)
