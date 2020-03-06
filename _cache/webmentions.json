@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-03-06T19:34:27.142Z",
+  "lastFetched": "2020-03-06T22:41:14.758Z",
   "webmentions": [
     {
       "type": "entry",
@@ -48074,6 +48074,30 @@
       "wm-target": "https://nicolas-hoizey.com/notes/2020/03/04/2/",
       "like-of": "https://nicolas-hoizey.com/notes/2020/03/04/2/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Yvain Liechti",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/435b28d6c561faa8ea38ab4a8da6fe3f30bb7ec9d737a75ae1bef9c0201f2e0d.jpg",
+        "url": "https://twitter.com/ryuran78"
+      },
+      "url": "https://twitter.com/ryuran78/status/1236047686714957825",
+      "published": "2020-03-06T21:55:07+00:00",
+      "wm-received": "2020-03-06T21:55:34Z",
+      "wm-id": 765330,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1235991764529565696/1236047686714957825",
+      "wm-target": "https://nicolas-hoizey.com/articles/2020/03/06/updating-npm-packages-versions-in-package-json/",
+      "content": {
+        "content-type": "text/html",
+        "value": "I think you should mention grenkeeper or dependabot. And I prefer <a href=\"https://www.npmjs.com/package/npm-check\">npmjs.com/package/npm-ch…</a> to ncu now\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "I think you should mention grenkeeper or dependabot. And I prefer <a href=\"https://www.npmjs.com/package/npm-check\">npmjs.com/package/npm-ch…</a> to ncu now",
+        "text": "I think you should mention grenkeeper or dependabot. And I prefer npmjs.com/package/npm-ch… to ncu now"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/articles/2020/03/06/updating-npm-packages-versions-in-package-json/",
+      "wm-property": "in-reply-to",
       "wm-private": false
     }
   ]
