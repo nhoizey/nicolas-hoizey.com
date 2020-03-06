@@ -39,7 +39,7 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
     class="main clearfix h-entry"
     lang="{{ lang }}">
 
-  <div class="e-content">{{ content | hashtagsToTagLinks | safe }}</div>
+  <div class="e-content">{{ content | noteToHtml | safe }}</div>
 
   {% from "macros/meta.njk" import meta %}
   {{ meta(page.url, page.date, tags, 'notes', webmentions) }}

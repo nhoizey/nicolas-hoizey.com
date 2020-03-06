@@ -20,7 +20,7 @@ title: Tweets
 {% for note in collections.notes | limit(10) %}
   <div class="tweet">
   <p>
-    {{ note.data.rawContent | microblogify(note.url) | safe }}
+    {{ note.data.rawContent | noteToTweet(note.url) | safe }}
     <br /><br />
     📝 https://nho.io/n/{{ note.url | replace("/notes/", "") }}
   </p>

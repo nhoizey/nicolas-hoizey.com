@@ -140,7 +140,7 @@ module.exports = {
     let words = tag.replace(/-/, ' ').split(' ');
     return words[0] + words.slice(1).map(word => word.charAt(0).toUpperCase() + word.substr(1)).join('');
   },
-  microblogify: (content, url) => {
+  noteToTweet: (content, url) => {
     tweet = content.trim();
 
     // convert hashtags to Twitter accounts
@@ -168,11 +168,18 @@ module.exports = {
 
     return tweet;
   },
-  hashtagsToTagLinks: (content) => {
+  noteToHtml: (content) => {
     let hashtags = twitter.extractHashtags(twitter.htmlEscape(content));
     hashtags.forEach(hashtag => {
       content = content.replace(`#${hashtag}`, `<a href="/tags/${slugifyString(hashtag)}/">#${hashtag}</a>`, 'g');
     });
+
+    // deal with Twitter handles
+    let mentions = twitter.extractMentions(content);
+    mentions.forEach(mention => {
+      content = content.replace(`@${mention}`, `<a href="https://twitter.com/${mention}">@${mention}</a>`);
+    });
+
     return content;
   },
   absoluteImagePath: (content, url) => {
