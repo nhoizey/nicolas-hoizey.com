@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-03-07T22:30:20.330Z",
+  "lastFetched": "2020-03-09T12:59:47.319Z",
   "webmentions": [
     {
       "type": "entry",
@@ -48534,6 +48534,93 @@
       },
       "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/06/3/",
       "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1236982028203167747",
+      "published": "2020-03-09T11:47:52+00:00",
+      "wm-received": "2020-03-09T11:50:25Z",
+      "wm-id": 766220,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nice_links/1236981972934721536/1236982028203167747",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/03/09/n26-and-lack-of-javascript/",
+      "content": {
+        "content-type": "text/plain",
+        "value": "\"N26 and lack of JavaScript\"\nby @HugoGiraudel\n\n#JavaScript #React #progressiveEnhancement\n🔗 nho.io/l/2020/03/09/n…",
+        "text": "\"N26 and lack of JavaScript\"\nby @HugoGiraudel\n\n#JavaScript #React #progressiveEnhancement\n🔗 nho.io/l/2020/03/09/n…"
+      },
+      "repost-of": "https://nicolas-hoizey.com/links/2020/03/09/n26-and-lack-of-javascript/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "AltBot 👽🤖👨🏻‍💻",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/b75b4eece8176bedf22d10c8a8419659b36e66f55fc231c4ad3a72b310ca2168.jpg",
+        "url": "https://twitter.com/AltBot4"
+      },
+      "url": "https://twitter.com/AltBot4/status/1236982028983242752",
+      "published": "2020-03-09T11:47:52+00:00",
+      "wm-received": "2020-03-09T11:50:08Z",
+      "wm-id": 766219,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nice_links/1236981972934721536/1236982028983242752",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/03/09/n26-and-lack-of-javascript/",
+      "content": {
+        "content-type": "text/plain",
+        "value": "\"N26 and lack of JavaScript\"\nby @HugoGiraudel\n\n#JavaScript #React #progressiveEnhancement\n🔗 nho.io/l/2020/03/09/n…",
+        "text": "\"N26 and lack of JavaScript\"\nby @HugoGiraudel\n\n#JavaScript #React #progressiveEnhancement\n🔗 nho.io/l/2020/03/09/n…"
+      },
+      "repost-of": "https://nicolas-hoizey.com/links/2020/03/09/n26-and-lack-of-javascript/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Aaron Cuddeback",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0548f88231594957b156bd5b0c9e3b832930f8a47d892a7b1003c8ecc3828710.jpg",
+        "url": "https://twitter.com/AaronCuddeback"
+      },
+      "url": "https://twitter.com/AaronCuddeback/status/1236982950333501441",
+      "published": "2020-03-09T11:51:32+00:00",
+      "wm-received": "2020-03-09T12:22:34Z",
+      "wm-id": 766240,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nice_links/1236981972934721536/1236982950333501441",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/03/09/n26-and-lack-of-javascript/",
+      "content": {
+        "content-type": "text/plain",
+        "value": "\"N26 and lack of JavaScript\"\nby @HugoGiraudel\n\n#JavaScript #React #progressiveEnhancement\n🔗 nho.io/l/2020/03/09/n…",
+        "text": "\"N26 and lack of JavaScript\"\nby @HugoGiraudel\n\n#JavaScript #React #progressiveEnhancement\n🔗 nho.io/l/2020/03/09/n…"
+      },
+      "repost-of": "https://nicolas-hoizey.com/links/2020/03/09/n26-and-lack-of-javascript/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Florian Voutzinos ⚡",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/b4bcee3db413dc3c370ae018ccac41cf27b5f9b1f20e6cc9942c35426842de1c.jpg",
+        "url": "https://twitter.com/voutzinos"
+      },
+      "url": "https://twitter.com/nice_links/status/1236981972934721536#favorited-by-2195036186",
+      "published": null,
+      "wm-received": "2020-03-09T12:22:28Z",
+      "wm-id": 766239,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nice_links/1236981972934721536/2195036186",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/03/09/n26-and-lack-of-javascript/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/03/09/n26-and-lack-of-javascript/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
