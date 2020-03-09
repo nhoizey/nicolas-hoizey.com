@@ -1,4 +1,4 @@
-Sitemap: https://www.belter.io/sitemap.xml
+Sitemap: https://nicolas-hoizey.com/sitemap.xml
 
 User-agent: *
 Allow: /
