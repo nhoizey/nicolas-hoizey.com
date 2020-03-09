@@ -16,7 +16,15 @@ title: Tweets
 }
 </style>
 
-<h1>Notes</h1>
+<h1>Tweets</h1>
+
+<ul>
+  <li><a href="#notes">Notes</a></li>
+  <li><a href="#links">Links</a></li>
+  <li><a href="#articles">Articles</a></li>
+</ul>
+
+<h2 id="notes">Notes</h2>
 {% for note in collections.notes | limit(10) %}
   <div class="tweet">
   <p>
@@ -27,7 +35,7 @@ title: Tweets
   </div>
 {% endfor %}
 
-<h1>Links</h1>
+<h2 id="links">Links</h2>
 {% for link in collections.links | limit(20) %}
   <div class="tweet">
   <p>
@@ -53,7 +61,7 @@ title: Tweets
   </div>
 {% endfor %}
 
-<h1>Articles</h1>
+<h2 id="articles">Articles</h2>
 {% for article in collections.articles | limit(10) %}
   <div class="tweet">
   <p>
