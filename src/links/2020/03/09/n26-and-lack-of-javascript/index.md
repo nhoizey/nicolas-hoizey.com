@@ -7,7 +7,7 @@ authors:
   - name: "Hugo Giraudel"
     twitter: "HugoGiraudel"
     site: "https://hugogiraudel.com/"
-tags: [JavaScript, React, progressive enhancement]
+tags: [JavaScript, React, progressive enhancement, User-Agent]
 ---
 
 Great article where Hugo shows how React helps providing N26 clients the features they're looking for even if they unfortunately have JavaScript issues.
