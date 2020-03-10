@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-03-09T12:59:47.319Z",
+  "lastFetched": "2020-03-10T16:54:33.491Z",
   "webmentions": [
     {
       "type": "entry",
@@ -48621,6 +48621,29 @@
       "wm-target": "https://nicolas-hoizey.com/links/2020/03/09/n26-and-lack-of-javascript/",
       "like-of": "https://nicolas-hoizey.com/links/2020/03/09/n26-and-lack-of-javascript/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1237393751946870787",
+      "published": "2020-03-10T15:03:54+00:00",
+      "wm-received": "2020-03-10T15:29:04Z",
+      "wm-id": 767396,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nice_links/1237392093393248259/1237393751946870787",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/03/10/the-case-of-the-500-mile-email/",
+      "content": {
+        "content-type": "text/plain",
+        "value": "\"The case of the 500-mile email\"\nby @treyethan\n\n#email #fun\n🔗 nho.io/l/2020/03/10/t…",
+        "text": "\"The case of the 500-mile email\"\nby @treyethan\n\n#email #fun\n🔗 nho.io/l/2020/03/10/t…"
+      },
+      "repost-of": "https://nicolas-hoizey.com/links/2020/03/10/the-case-of-the-500-mile-email/",
+      "wm-property": "repost-of",
       "wm-private": false
     }
   ]
