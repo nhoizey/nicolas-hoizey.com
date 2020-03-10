@@ -15,10 +15,10 @@ content: "<p>Ouh là ! mais c'est super ça !</p><p>ça va me simplifier les
   </blockquote><p>En fait si on peut. Je fais déjà la même chose depuis un
   bout de temps avec, certes plusieurs boucles, mais surtout <code>{doublons XXX}</code></p><p>
   </p><p>je vais tenter de traduire ton exemple, si j'ai bien compris … car ça
-  devrait donner :</p><p> <textarea>&lt;boucle_select_article(articles){id_mot=3}{id_rubrique}&gt; &lt;boucle_select_evenements(evenements){id_article}{doublons
+  devrait donner :</p><pre> <pre><code>&lt;boucle_select_article(articles){id_mot=3}{id_rubrique}&gt; &lt;boucle_select_evenements(evenements){id_article}{doublons
   evenements_rentenus}&gt; &lt;/boucle_select_evenements&gt; &lt;/boucle_select_article&gt;
   &lt;boucle_evenements(evenements){!doublons evenements_rentenus}{age&gt;0}{!par
-  date}&gt; #TITRE … &lt;/boucle_evenements&gt;</textarea> </p><p>tout est
+  date}&gt; #TITRE … &lt;/boucle_evenements&gt;</code></pre> </p><p>tout est
   dans l'inversion du doublons :</p>
   <ul><li> le premier
   lot de boucles, ne sert en fait qu'a fait la sélection (sans trie par …) ;</li><li>

@@ -9,6 +9,6 @@ author:
   image: no-avatar.png
   name: tetue
 content: "<p>C'est finalement tout bête, il suffit d'utiliser ceci
-  (en plus de ton filtre) :</p> <textarea>&lt;img[ src=&#034;(#LOGO_AUTEUR||?{ [#URL_SITE_SPIP/IMG/(#LOGO_AUTEUR|fichier)]
-  , [(#EMAIL|gravatar_url)] })&#034;] alt=&#034;gravatar&#034; /&gt;</textarea><br
+  (en plus de ton filtre) :</p> <pre><code>&lt;img[ src=&#034;(#LOGO_AUTEUR||?{ [#URL_SITE_SPIP/IMG/(#LOGO_AUTEUR|fichier)]
+  , [(#EMAIL|gravatar_url)] })&#034;] alt=&#034;gravatar&#034; /&gt;</code></pre><br
   /><p>Pour afficher prioritairemment le logo de l'auteur, sinon son gravatar.</p>"

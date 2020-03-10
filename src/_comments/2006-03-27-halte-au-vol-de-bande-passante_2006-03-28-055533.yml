@@ -8,7 +8,7 @@ author:
   email: 
   image: no-avatar.png
   name: NiKo
-content: "<p>J'adore le bombing sur <a href='<a href='http://www.myspace.com/%27'>furoncle</a> ^^</p> <p>Sinon j'ai
+content: "<p>J'adore le bombing sur <a href='http://www.myspace.com/%27'>furoncle</a> ^^</p> <p>Sinon j'ai
   trouvé encore mieux (plus lisible je trouve) grâce aux variables
   d'enironnement apache :</p> <p> SetEnvIfNoCase Referer <a href='http://myspace.com'>myspace.com</a> leecher=yes</p> <p> SetEnvIfNoCase
   Referer <a href='http://furoncle.org'>furoncle.org</a> leecher=yes</p> <p> deny from
