@@ -29,6 +29,16 @@ fs.readdirSync(rootDir).forEach(commentFile => {
     if (commentContent.author.url === null) {
       delete commentContent.author.url;
     }
+    // Fix date format
+    commentContent.date = commentContent.date
+      .replace(/([0-9]{4}-[0-9]{2}-[0-9]{2}) ([0-9]{2}:[0-9]{2}:[0-9]{2}) \+([0-9]{2})([0-9]{2})$/, "$1T$2+$3:$4")
+      .replace(/\+00:00$/, "+02:00");
+
+    // Eleventy doesn't seem to like "{" in data files content
+    if (commentContent.content.match(/\{/g)) {
+      console.log(`Found a "{" in comment ${commentContent.id}`);
+      commentContent.content = commentContent.content.replace(/\{/g, '&lbrace;');
+    }
 
     if (comments[contentDir] === undefined) {
       comments[contentDir] = [];
@@ -37,5 +47,4 @@ fs.readdirSync(rootDir).forEach(commentFile => {
   }
 });
 
-console.dir(comments);
 fs.writeFileSync(path.join('src', '_data', 'comments.json'), JSON.stringify(comments));
