@@ -1,39 +1,38 @@
-<!-- nomicrotypo -->
-{% if page.comments.size and page.comments.size > 0 %}
-  <div>
-    <h2 id="commentaires">{{ page.comments.size }} commentaire{% if page.comments.size > 1 %}s{% endif %}
-    </h2>
-    <ul class="comments__list">
-      {% for comment in page.comments %}
-        {% set avatar %}{{ site.url }}/assets/avatars/{{ comment.author.image }}{% endset %}
-        <li id="{{ comment.id }}" class="comments__item{% if comment.author.name == 'Nicolas Hoizey' %} me{% endif %}">
-          <article>
-            <div class="comment__author p-author h-card">
-              <a href="{{ comment.author.url }}" class="u-url">
-                <img
-                  src="/assets/avatars/default.svg"
-                  data-src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_48,h_48/{{ avatar }}"
-                  data-srcset="
-                    https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_48,h_48/{{ avatar }} 1x,
-                    https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_96,h_96/{{ avatar }} 2x"
-                  alt="{{ comment.author.name }} avatar"
-                  class="comment__author__photo u-photo" />
-                <b class="p-name">{{ comment.author.name }}</b>
-              </a>
-            </div>
-            <div class="comment__content p-content">
-              {{ comment.content }}
-            </div>
-            <div class="comment__meta">
-              <a href="#{{ comment.id }}">
-                <time class="comment__pubdate dt-published" datetime="{{ comment.date | attributeDate }}">{{ comment.date | date("Do MMMM YYYY") }}</time>
-              </a>
-            </div>
-          </article>
-        </li>
-      {% endfor %}
-    </ul>
-  </aside>
-{% endif %}
+{% set comments = comments | getCommentsForUrl(articleUrl) %}
+{% set commentsSize = comments | size %}
 
-<!-- endnomicrotypo -->
+{% if commentsSize > 0 %}
+<aside>
+  <h2 id="comments">{{ commentsSize }} comment{% if commentsSize > 1 %}s{% endif %}</h2>
+  <ul class="comments__list">
+    {% for comment in comments %}
+      {% set avatar %}{{ site.url }}/assets/avatars/{{ comment.author.image }}{% endset %}
+      <li id="{{ comment.id }}" class="comments__item{% if comment.author.name == 'Nicolas Hoizey' %} me{% endif %}">
+        <article>
+          <div class="comment__author p-author h-card">
+            <a href="{{ comment.author.url }}" class="u-url">
+              <img
+                src="/assets/avatars/default.svg"
+                data-src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_48,h_48/{{ avatar }}"
+                data-srcset="
+                  https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_48,h_48/{{ avatar }} 1x,
+                  https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_96,h_96/{{ avatar }} 2x"
+                alt="{{ comment.author.name }} avatar"
+                class="comment__author__photo u-photo" />
+              <b class="p-name">{{ comment.author.name }}</b>
+            </a>
+          </div>
+          <div class="comment__content p-content">
+            {{ comment.content | safe }}
+          </div>
+          <div class="comment__meta">
+            <a href="#{{ comment.id }}">
+              <time class="comment__pubdate dt-published" datetime="{{ comment.date | attributeDate }}">{{ comment.date | date("Do MMMM YYYY") }}</time>
+            </a>
+          </div>
+        </article>
+      </li>
+    {% endfor %}
+  </ul>
+</aside>
+{% endif %}
