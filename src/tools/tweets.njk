@@ -25,7 +25,7 @@ title: Tweets
 </ul>
 
 <h2 id="notes">Notes</h2>
-{% for note in collections.notes | limit(10) %}
+{% for note in collections.notes | limit(5) %}
   <div class="tweet">
   <p>
     {{ note.data.rawContent | noteToTweet(note.url) | safe }}
@@ -36,7 +36,7 @@ title: Tweets
 {% endfor %}
 
 <h2 id="links">Links</h2>
-{% for link in collections.links | limit(20) %}
+{% for link in collections.links | limit(5) %}
   <div class="tweet">
   <p>
     "{{ link.data.title}}"
@@ -62,7 +62,7 @@ title: Tweets
 {% endfor %}
 
 <h2 id="articles">Articles</h2>
-{% for article in collections.articles | limit(10) %}
+{% for article in collections.articles | limit(5) %}
   <div class="tweet">
   <p>
     "{{ article.data.title}}"
