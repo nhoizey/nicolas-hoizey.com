@@ -11,7 +11,7 @@ eleventyExcludeFromCollections: true
   {% for article in collections.articles | limit(1) %}
     <li class="list__item list__item--large">
       <div class="card card--article h-entry">
-        {{ articleCard(article.data.title, article.url, article.data.lang, article.date, article.data.tags, article.templateContent, webmentions ) }}
+        {{ articleCard(article.data.title, article.url, article.data.lang, article.date, article.data.tags, article.templateContent, webmentions, comments ) }}
       </div>
     </li>
   {% endfor %}
@@ -22,7 +22,7 @@ eleventyExcludeFromCollections: true
   {% for article in collections.promoted | limit(1) %}
     <li class="list__item list__item--large">
       <div class="card card--article h-entry">
-        {{ articleCard(article.data.title, article.url, article.data.lang, article.date, article.data.tags, article.templateContent, webmentions ) }}
+        {{ articleCard(article.data.title, article.url, article.data.lang, article.date, article.data.tags, article.templateContent, webmentions, comments ) }}
       </div>
     </li>
   {% endfor %}

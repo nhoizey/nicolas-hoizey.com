@@ -41,7 +41,7 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
   <h1 id="post" class="card__title p-name">{{ title }}</h1>
 
   {% from "macros/meta.njk" import meta %}
-  {{ meta(page.url, page.date, tags, 'articles', webmentions, permalink=true) }}
+  {{ meta(page.url, page.date, tags, 'articles', webmentions, true, comments) }}
 
   <div class="e-content">{{ content | safe }}</div>
 
