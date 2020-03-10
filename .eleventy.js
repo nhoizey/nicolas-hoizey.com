@@ -39,7 +39,7 @@ module.exports = function (eleventyConfig) {
       })
       .sort((a, b) => {
         return b.date - a.date;
-      });;
+      });
   });
 
   const yearsWithContent = require("./src/_utils/content-by-date").yearsWithContent;
