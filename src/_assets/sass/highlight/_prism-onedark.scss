@@ -5,9 +5,9 @@
  */
 code[class*="language-"],
 pre[class*="language-"] {
-  color: #ABB2BF;
-  background: none;
-  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  // color: #ABB2BF;
+  // background: none;
+  // font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
   text-align: left;
   white-space: pre;
   word-spacing: normal;
@@ -42,21 +42,21 @@ code[class*="language-"]::selection, code[class*="language-"] ::selection {
   }
 }
 /* Code blocks */
-pre[class*="language-"] {
-  padding: .3em;
-  margin: .5em 0;
-  overflow: auto;
-}
+// pre[class*="language-"] {
+//   padding: .3em;
+//   margin: .5em 0;
+//   overflow: auto;
+// }
 
-:not(pre) > code[class*="language-"],
-pre[class*="language-"] {
-  background: #282c34;
-}
+// :not(pre) > code[class*="language-"],
+// pre[class*="language-"] {
+//   background: #282c34;
+// }
 
 /* Inline code */
 :not(pre) > code[class*="language-"] {
-  padding: .1em;
-  border-radius: .3em;
+  // padding: .1em;
+  // border-radius: .3em;
   white-space: normal;
 }
 

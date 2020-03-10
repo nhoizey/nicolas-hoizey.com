@@ -44,8 +44,9 @@ $meta-color: $color-darkgrey;
 $meta-icon-color: $color-grey;
 $meta-link-decoration-color: $color-grey;
 
-$inline-code-background-color: #fff4d1;
-$inline-code-text-color: #111;
+// Colors from Prism OneDark theme
+$inline-code-background-color: #282c34;
+$inline-code-text-color: #abb2bf;
 
 $icon-link-color: #aaa;
 $icon-hover-color: $color-secondary;

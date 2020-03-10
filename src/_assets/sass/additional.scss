@@ -6,15 +6,12 @@
 @import "components/comments";
 @import "components/webmentions";
 @import "components/tagscloud";
+@import "components/code";
 @import "highlight/prism-onedark";
 
 // ************************************************************
 // General styles
 // ************************************************************
-
-pre {
-  overflow-x: auto;
-}
 
 img {
   max-width: 100%;
@@ -191,12 +188,6 @@ article {
       margin-bottom: 1em;
     }
 
-    code {
-      background-color: $inline-code-background-color;
-      color: $color-darkgrey;
-      font-style: normal;
-    }
-
     blockquote {
       background-color: $color-primary-lighter-3;
     }
@@ -225,60 +216,6 @@ article {
     padding: 0.3em 0.5em;
     border: 1px solid #ccc;
     vertical-align: top;
-  }
-
-  kbd,
-  code {
-    font-size: var(--font-size-s);
-    display: inline-block;
-    padding: 0 0.2em;
-    border-radius: 0.2em;
-  }
-
-  h2, h3, h4, h5, h6 {
-    kbd,
-    code {
-      font-size: 1em;
-      font-weight: normal;
-      background-color: #fff4d1;
-      color: currentColor;
-    }
-  }
-
-  code {
-    background-color: $inline-code-background-color;
-    color: $inline-code-text-color;
-  }
-
-  pre code {
-    padding: 0.5em;
-  }
-
-  kbd {
-    color: #444d56;
-    background-color: #f3f3f3;
-    border: solid 1px #c6cbd1;
-    border-bottom-color: #959da5;
-    box-shadow: inset 0 -1px 0 #959da5;
-  }
-
-  a:link,
-  a:visited {
-    kbd,
-    code {
-      text-decoration-line: underline;
-      text-decoration-color: var(--link-decoration-color, #{$color-blue});
-    }
-  }
-
-  a:hover,
-  a:focus,
-  a:active {
-    kbd,
-    code {
-      color: inherit;
-      background-color: transparent;
-    }
   }
 
   a.footnote.footnote {
