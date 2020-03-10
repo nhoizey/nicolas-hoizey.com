@@ -178,6 +178,9 @@ module.exports = {
   noteToTweet: (content, url) => {
     tweet = content.trim();
 
+    // remove bold and italics
+    tweet = tweet.replace(/\*+([^\*\n]+)\*+/, "$1");
+
     // convert hashtags to Twitter accounts
     let handles = {
       '#Cloudinary': '@cloudinary',
@@ -200,7 +203,13 @@ module.exports = {
     // deal with links
     tweet = tweet.replace(/\[([^\]]+)\]\(([^\)]+)\)/g, "$1 ( $2 )");
 
+    // replace <del>blah blah</del> by b̶̶l̶a̶h̶ ̶b̶l̶a̶h̶
+    tweet = tweet.replace(/<del>([^<]+)<\/del>/g, ($correspondance, $1) => {
+      return $1.split('').map(c => `${c}\u0336`).join('');
+    });
+
     tweet = tweet.replace(/\n/g, "<br />\n");
+    // tweet = tweet.replace(/\n/g, "\u000a");
 
     return tweet;
   },
@@ -219,9 +228,9 @@ module.exports = {
     return content;
   },
   absoluteImagePath: (content, url) => {
-    let imagesAbsoluteUrl = content.replace(/<img src="([^"]+)"/, (correspondance, $1) => {
-      if (!$1.match(/^(\/|https?:\/\/)/)) {
-        return `<img src="${url}${$1}"`;
+    let imagesAbsoluteUrl = content.replace(/<img src="([^"]+)"/, (correspondance, imagePath) => {
+      if (!imagePath.match(/^(\/|https?:\/\/)/)) {
+        return `<img src="${url}${imagePath}"`;
       }
     });
     return imagesAbsoluteUrl;
