@@ -83,6 +83,12 @@ p {
   margin: $baseline 0;
 }
 
+.intro {
+  margin: 0 0 2em;
+  font-size: var(--font-size-l);
+  color: #333;
+}
+
 h1,
 h2,
 h3,
