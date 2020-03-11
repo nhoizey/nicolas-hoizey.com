@@ -4,11 +4,12 @@
   border-bottom: solid 2px $color-primary;
   margin: 0 0 $baseline * 2;
   padding: 0.2em 0;
+  overflow-x: scroll;
 
   .wrap {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
   }
 }
 
@@ -16,7 +17,7 @@
   margin: 0;
   padding: 0;
   display: flex;
-  flex-wrap: wrap;
+  // flex-wrap: wrap;
   list-style-type: none;
 }
 
