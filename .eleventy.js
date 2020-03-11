@@ -104,7 +104,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addNunjucksShortcode("caniuse", function (id) {
-    return `<figure><img src="https://caniuse.bitsofco.de/image/${id}.png" alt="Browser support for feature “${id}“" /><figcaption><a href="https://caniuse.com/#feat=${id}">Can I Use ${id}?</a></figcaption></figure>`;
+    return `<figure><img src="https://caniuse.bitsofco.de/image/${id}.png" alt="Browser support for feature “${id}“" width="800" /><figcaption><a href="https://caniuse.com/#feat=${id}">Can I Use ${id}?</a></figcaption></figure>`;
   });
 
   eleventyConfig.addNunjucksShortcode("giphy", function (id) {
