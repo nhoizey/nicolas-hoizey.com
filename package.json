@@ -46,7 +46,6 @@
     "html-entities": "^1.2.1",
     "html-minifier": "^4.0.0",
     "image-size": "^0.8.3",
-    "insert-line": "^1.1.0",
     "lodash": "^4.17.15",
     "markdown-it": "~10.0",
     "markdown-it-abbr": "^1.0.4",
@@ -81,8 +80,7 @@
     "workbox-google-analytics": "5.0.0",
     "workbox-precaching": "5.0.0",
     "workbox-routing": "5.0.0",
-    "workbox-strategies": "5.0.0",
-    "front-matter": "^3.1.0"
+    "workbox-strategies": "5.0.0"
   },
   "engines": {
     "node": ">=8.16"
