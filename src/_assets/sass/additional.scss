@@ -10,115 +10,6 @@
 @import "highlight/prism-onedark";
 
 // ************************************************************
-// General styles
-// ************************************************************
-
-img {
-  max-width: 100%;
-  height: auto;
-  opacity: 1;
-  transition: opacity 0.3s;
-}
-
-video {
-  background-color: #eee;
-}
-
-iframe {
-  max-width: 100%;
-}
-
-figure,
-img,
-iframe,
-.embed-video-container {
-  clear: both;
-  margin: $baseline auto;
-  display: block;
-}
-
-figure {
-  text-align: center;
-
-  img,
-  iframe,
-  .embed-video-container {
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-  }
-}
-
-figure, img {
-  &.twothirds {
-    max-width: 66%;
-  }
-
-  &.onehalf {
-    max-width: 50%;
-  }
-
-  &.onethird, &.logo {
-    max-width: 50%;
-
-    @media (min-width: 20em) {
-      max-width: 33%;
-    }
-  }
-
-  &.onefourth {
-    max-width: 50%;
-
-    @media (min-width: 20em) {
-      max-width: 33%;
-    }
-
-    @media (min-width: 30em) {
-      max-width: 25%;
-    }
-  }
-
-  &.left {
-    margin: $baseline auto;
-
-    @media (min-width: 20em) {
-      float: left;
-      margin: 0 $baseline $baseline 0;
-    }
-  }
-
-  &.right, &.logo {
-    margin: $baseline auto;
-
-    @media (min-width: 20em) {
-      float: right;
-      margin: 0 0 $baseline $baseline;
-    }
-  }
-}
-
-.logo {
-  display: block;
-  margin: $baseline auto;
-}
-
-figcaption {
-  // http://nocode.in/aligning-text-smartly-in-css/
-  display: inline-block;
-  text-align: left;
-
-  font-size: var(--font-size-s);
-  font-style: italic;
-  margin: 0.1em 1em;
-  padding: 0.3em 0;
-  color: #666;
-
-  p {
-    margin: 0;
-  }
-}
-
-// ************************************************************
 // no delay on focusable elements in iOS:
 // https://adactio.com/journal/10019
 // https://webkit.org/blog/5610/more-responsive-tapping-on-ios/
@@ -140,14 +31,6 @@ summary {
 
 article {
   margin: 0;
-
-  .e-content {
-    margin: $baseline/2 0 $baseline/2 0;
-  }
-
-  .e-content > p:first-of-type {
-    font-size: var(--font-size-l);
-  }
 
   li {
     margin: 0 0 0.5em 0;
