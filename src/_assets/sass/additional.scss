@@ -296,19 +296,19 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
 
-  background-image: url("#{$cloudinary-prefix}640/https://nicolas-hoizey.com/assets/limbes.jpg");
+  // background-image: url("#{$cloudinary-prefix}640/https://nicolas-hoizey.com/assets/limbes.jpg");
 
-  @media (min-width: 640px), (min-resolution: 2dppx) {
-    background-image: url("#{$cloudinary-prefix}1024/https://nicolas-hoizey.com/assets/limbes.jpg");
-  }
+  // @media (min-width: 640px), (min-resolution: 2dppx) {
+  //   background-image: url("#{$cloudinary-prefix}1024/https://nicolas-hoizey.com/assets/limbes.jpg");
+  // }
 
-  @media (min-width: 1024px), (min-width: 512px) and (min-resolution: 2dppx) {
-    background-image: url("#{$cloudinary-prefix}1280/https://nicolas-hoizey.com/assets/limbes.jpg");
-  }
+  // @media (min-width: 1024px), (min-width: 512px) and (min-resolution: 2dppx) {
+  //   background-image: url("#{$cloudinary-prefix}1280/https://nicolas-hoizey.com/assets/limbes.jpg");
+  // }
 
-  @media (min-width: 1280px), (min-width: 640px) and (min-resolution: 2dppx) {
-    background-image: url("#{$cloudinary-prefix}1534/https://nicolas-hoizey.com/assets/limbes.jpg");
-  }
+  // @media (min-width: 1280px), (min-width: 640px) and (min-resolution: 2dppx) {
+  //   background-image: url("#{$cloudinary-prefix}1534/https://nicolas-hoizey.com/assets/limbes.jpg");
+  // }
 }
 
 // ************************************************************
