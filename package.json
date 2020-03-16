@@ -60,12 +60,12 @@
     "path": "^0.12.7",
     "require-dir": "^1.2.0",
     "rimraf": "^3.0.2",
-    "rollup": "^1.32.0",
-    "rollup-plugin-babel": "^4.3.3",
+    "rollup": "^2.0.6",
+    "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-replace": "^2.2.0",
-    "rollup-plugin-terser": "^5.2.0",
-    "sanitize-html": "^1.22.0",
+    "rollup-plugin-terser": "^5.3.0",
+    "sanitize-html": "^1.22.1",
     "terser-webpack-plugin": "~2.3.5",
     "truncate-html": "^1.0.3",
     "twitter": "^1.7.1",
@@ -80,7 +80,8 @@
     "workbox-google-analytics": "5.0.0",
     "workbox-precaching": "5.0.0",
     "workbox-routing": "5.0.0",
-    "workbox-strategies": "5.0.0"
+    "workbox-strategies": "5.0.0",
+    "eleventy-plugin-images-responsiver": "../_eleventy_plugins/eleventy-plugin-images-responsiver"
   },
   "engines": {
     "node": ">=8.16"
