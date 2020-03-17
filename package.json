@@ -32,7 +32,7 @@
     "@babel/preset-env": "^7.8.7",
     "@jlengstorf/get-share-image": "^0.7.0",
     "@sindresorhus/slugify": "~0.11",
-    "@tbranyen/jsdom": "^13.0.0",
+    "jsdom": "^16.2.1",
     "babel-loader": "^8.0.6",
     "browser-sync": "^2.26.7",
     "cheerio": "~1.0.0-rc.3",
@@ -82,7 +82,7 @@
     "workbox-precaching": "5.0.0",
     "workbox-routing": "5.0.0",
     "workbox-strategies": "5.0.0",
-    "eleventy-plugin-images-responsiver": "../_eleventy_plugins/eleventy-plugin-images-responsiver"
+    "eleventy-plugin-images-responsiver": "file:../_eleventy_plugins/eleventy-plugin-images-responsiver"
   },
   "engines": {
     "node": ">=8.16"
