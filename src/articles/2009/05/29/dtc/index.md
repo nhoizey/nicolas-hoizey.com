@@ -60,7 +60,7 @@ Comme je trouve le site sympa et que je connais personnellement l'un des membres
 
 Voilà donc l'objet du délit :
 
-<html><a href="https://www.amazon.fr/Dans-Ton-Chat-S%C3%A9bastien-Delahaye/dp/2350760995/ref=as_li_ss_il?&linkId=&linkCode=li3&tag=gasteroprod-21&linkId=93ad057ecf9f77d5a82f2ad6e065710e&language=fr_FR" target="_blank"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=2350760995&Format=_SL250_&ID=AsinImage&MarketPlace=FR&ServiceVersion=20070822&WS=1&tag=gasteroprod-21&language=fr_FR" ></a><img src="https://ir-fr.amazon-adsystem.com/e/ir?t=gasteroprod-21&language=fr_FR&l=li3&o=8&a=2350760995" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></html>
+<html><a href="https://www.amazon.fr/Dans-Ton-Chat-S%C3%A9bastien-Delahaye/dp/2350760995/ref=as_li_ss_il?&linkId=&linkCode=li3&tag=gasteroprod-21&linkId=93ad057ecf9f77d5a82f2ad6e065710e&language=fr_FR" target="_blank"><img border="0" src="https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=2350760995&Format=_SL250_&ID=AsinImage&MarketPlace=FR&ServiceVersion=20070822&WS=1&tag=gasteroprod-21&language=fr_FR" ></a><img src="https://ir-fr.amazon-adsystem.com/e/ir?t=gasteroprod-21&language=fr_FR&l=li3&o=8&a=2350760995" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></html>
 
 [^3]: Qui au passage doit avoir un système de calcul aussi sophistiqué que l'Interestingness de Flickr, incompréhensible…
 
