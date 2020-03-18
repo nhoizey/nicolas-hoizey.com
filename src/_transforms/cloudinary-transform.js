@@ -1,18 +1,18 @@
-const deepmerge = require('deepmerge')
+'use strict';
+
+const deepmerge = require('deepmerge');
 const fs = require('fs');
 const imageSize = require('image-size');
-const markdownIt = require('markdown-it');
-const jsdom = require("jsdom");
+const jsdom = require('jsdom');
 
-const md = new markdownIt();
 const { JSDOM } = jsdom;
 const overwriteMerge = (destinationArray, sourceArray, options) => sourceArray;
 
-const site = require("../_data/site.js");
-const cloudinaryConfig = require("../_data/cloudinary-config.js");
+const site = require('../_data/site.js');
+const cloudinaryConfig = require('../_data/cloudinary-config.js');
 
-module.exports = function (value, outputPath) {
-  if (outputPath.endsWith(".html")) {
+module.exports = function(value, outputPath) {
+  if (outputPath.endsWith('.html')) {
     // Default settings
     let globalSettings = {
       fallbackWidth: 640,
@@ -20,10 +20,8 @@ module.exports = function (value, outputPath) {
       maxWidth: 2560,
       steps: 5,
       sizes: '100vw',
-      figure: 'auto',
-      zoom: false,
       classes: [],
-      attributes: {}
+      attributes: {},
     };
 
     if (cloudinaryConfig.copy_files === undefined) {
@@ -43,9 +41,8 @@ module.exports = function (value, outputPath) {
 
     const DOM = new JSDOM(value);
     const document = DOM.window.document;
-    const articleImages = [...document.querySelectorAll("main img")];
+    const articleImages = [...document.querySelectorAll('main img')];
     if (articleImages.length) {
-
       // Get images src path from attribute on body
       // TODO: move to context data
       let documentBody = document.querySelector('body');
@@ -59,9 +56,9 @@ module.exports = function (value, outputPath) {
 
         let imageSettings = globalSettings;
 
+        // Overhide settings with presets named in classes
         image.classList.forEach(className => {
           if (cloudinaryConfig.presets[className] !== undefined) {
-            // Overhide settings with a preset named in a class
             imageSettings = deepmerge(
               imageSettings,
               cloudinaryConfig.presets[className],
@@ -98,30 +95,55 @@ module.exports = function (value, outputPath) {
 
             if (cloudinaryConfig.copy_files) {
               // Copy the image file from src to dist
-              fs.promises.mkdir(distPath, { recursive: true }).then(() => {
-                fs.copyFile(srcPath + imagePath, distPath + imagePath, (err) => {
+              fs.promises
+                .mkdir(distPath, { recursive: true })
+                .then(() => {
+                  fs.copyFile(
+                    srcPath + imagePath,
+                    distPath + imagePath,
+                    err => {
+                      if (err) throw err;
+                    }
+                  );
+                })
+                .catch(err => {
                   if (err) throw err;
                 });
-              }).catch(err => {
-                if (err) throw err;
-              });
             }
             // TODO: get "dist/" from config
-            imageUrl = site.url + outputPath.replace(/^dist\/(.*)index\.html/, "/$1") + imagePath;
+            imageUrl =
+              site.url +
+              outputPath.replace(/^dist\/(.*)index\.html/, '/$1') +
+              imagePath;
           }
         }
 
         // Change the image source
-        image.setAttribute('src', `${cloudinaryPrefix}q_auto,f_auto,w_${imageSettings.fallbackWidth}/${imageUrl}`);
+        image.setAttribute(
+          'src',
+          `${cloudinaryPrefix}q_auto,f_auto,w_${imageSettings.fallbackWidth}/${imageUrl}`
+        );
 
         // generate the srcset attribute
         let srcset = [];
         for (let i = 0; i < imageSettings.steps; i++) {
-          width = Math.ceil(imageSettings.minWidth + (imageSettings.maxWidth - imageSettings.minWidth) / (imageSettings.steps - 1) * i);
-          if (imageSettings.attributes.width === undefined || width < imageSettings.attributes.width) {
-            srcset.push(`${cloudinaryPrefix}q_auto,f_auto,w_${width}/${imageUrl} ${width}w`);
+          width = Math.ceil(
+            imageSettings.minWidth +
+              ((imageSettings.maxWidth - imageSettings.minWidth) /
+                (imageSettings.steps - 1)) *
+                i
+          );
+          if (
+            imageSettings.attributes.width === undefined ||
+            width < imageSettings.attributes.width
+          ) {
+            srcset.push(
+              `${cloudinaryPrefix}q_auto,f_auto,w_${width}/${imageUrl} ${width}w`
+            );
           } else {
-            srcset.push(`${cloudinaryPrefix}q_auto,f_auto,w_${imageSettings.attributes.width}/${imageUrl} ${imageSettings.attributes.width}w`);
+            srcset.push(
+              `${cloudinaryPrefix}q_auto,f_auto,w_${imageSettings.attributes.width}/${imageUrl} ${imageSettings.attributes.width}w`
+            );
             break;
           }
         }
@@ -130,47 +152,24 @@ module.exports = function (value, outputPath) {
         // add sizes attribute
         image.setAttribute('sizes', imageSettings.sizes);
 
+        // add data-pristine attribute with URL to the pristine image
+        image.setAttribute('data-pristine', imageUrl);
+
         // Add attributes from the preset
-        let attributesForFigure = {};
         if (Object.keys(imageSettings.attributes).length > 0) {
           for (const attribute in imageSettings.attributes) {
             if (imageSettings.attributes[attribute] !== undefined) {
-              // Define immediately attributes than must be kept on img if there's a figure
-              if (['width', 'height', 'loading'].indexOf(attribute) !== -1) {
-                image.setAttribute(attribute, imageSettings.attributes[attribute]);
-              } else {
-                attributesForFigure[attribute] = imageSettings.attributes[attribute];
-              }
+              image.setAttribute(
+                attribute,
+                imageSettings.attributes[attribute]
+              );
             }
           }
-        }
-
-        // Replace the img with a figure if there is a caption (in the title)
-        let caption = image.getAttribute('title');
-        if (caption === null && imageSettings.figure === 'always') {
-          caption = image.getAttribute('alt');
-        }
-        if ((caption && imageSettings.figure !== 'never') || imageSettings.figure === 'always' || imageSettings.zoom) {
-          const figure = document.createElement('figure');
-          figure.classList.add(...image.classList);
-          image.classList.remove(...image.classList);
-          const figCaption = document.createElement('figcaption');
-          // TODO: parse Markdown
-          figCaption.innerHTML =
-            (caption ? md.render(caption) : '') + (imageSettings.zoom ? `<p class="zoom">&#128269;&nbsp;<a href="${imageUrl}" target="_blank">zoom</a></p>` : '');
-          figure.appendChild(image.cloneNode(true));
-          figure.appendChild(figCaption);
-          image.replaceWith(figure);
-        }
-
-        // Add attributes that have to be on the root element, img or figure
-        for (const attribute in attributesForFigure) {
-          image.setAttribute(attribute, attributesForFigure[attribute]);
         }
       });
     }
 
-    return "<!DOCTYPE html>\r\n" + document.documentElement.outerHTML;
+    return '<!DOCTYPE html>\r\n' + document.documentElement.outerHTML;
   }
   return value;
 };
