@@ -1,8 +1,0 @@
-{
-    "env": {
-        "node": false
-    },
-    "globals": {
-        "process": "readonly"
-    }
-}

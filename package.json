@@ -83,6 +83,10 @@
     "workbox-routing": "5.0.0",
     "workbox-strategies": "5.0.0",
     "eleventy-plugin-images-responsiver": "file:../_eleventy_plugins/eleventy-plugin-images-responsiver"
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.10.0",
+    "eslint-plugin-prettier": "3.1.2",
+    "prettier": "1.19.1"
   },
   "engines": {
     "node": ">=8.16"
