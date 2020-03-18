@@ -249,12 +249,21 @@ module.exports = function (eleventyConfig) {
   // Transforms
   // ------------------------------------------------------------------------
 
-  if (process.env.ELEVENTY_ENV == "production") {
-    const cloudinaryTransform = require("./src/_transforms/cloudinary-transform.js");
-    eleventyConfig.addTransform("cloudinary", cloudinaryTransform);
+  const imagesDimensionsAndAbsoluteUrlsTransform = require('./src/_transforms/images-dimensions-and-absolute-urls-transform.js');
+  eleventyConfig.addTransform(
+    'imagesDimensionsAndAbsoluteUrls',
+    imagesDimensionsAndAbsoluteUrlsTransform
+  );
 
-    const htmlMinTransform = require("./src/_transforms/html-min-transform.js");
-    eleventyConfig.addTransform("htmlmin", htmlMinTransform);
+  if (process.env.ELEVENTY_ENV == 'production') {
+    const imagesResponsiver = require('eleventy-plugin-images-responsiver');
+    const imagesResponsiverConfig = require('./src/_data/images-responsiver-config.js');
+    eleventyConfig.addPlugin(imagesResponsiver, imagesResponsiverConfig);
+  }
+
+  if (process.env.ELEVENTY_ENV == 'production') {
+    const htmlMinTransform = require('./src/_transforms/html-min-transform.js');
+    eleventyConfig.addTransform('htmlmin', htmlMinTransform);
   }
 
   // ------------------------------------------------------------------------
