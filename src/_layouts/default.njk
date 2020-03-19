@@ -10,6 +10,7 @@
     itemtype="https://schema.org/{% if "about/" in page.inputPath %}aboutpage{% else %}webpage{% endif %}"
     class="layout-{{ layout }} section-{{ section }}"
     data-img-src="{{ page.inputPath | dirname }}/"
+    data-img-dist="{{ page.outputPath | dirname }}/"
   >
 
     {% include "components/svg-sprite.njk" %}
