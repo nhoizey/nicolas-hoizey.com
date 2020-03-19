@@ -68,6 +68,15 @@ function getUrlsHistory(url) {
   return urlsList;
 }
 
+function htmlEntities(str) {
+  // https://css-tricks.com/snippets/javascript/htmlentities-for-javascript/
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
 module.exports = {
   getCommentsForUrl: (comments, url) => {
     if (url === undefined) {
@@ -206,6 +215,11 @@ module.exports = {
   },
   noteToTweet: (content, url) => {
     tweet = content.trim();
+
+    // Deal with inline code
+    tweet = tweet.replace(/`([^`]+)`/g, ($correspondance, code) => {
+      return '`' + htmlEntities(code) + '`';
+    });
 
     // remove bold and italics
     tweet = tweet.replace(/\*+([^\*\n]+)\*+/, '$1');
