@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-03-18T17:42:52.491Z",
+  "lastFetched": "2020-03-19T23:14:53.678Z",
   "webmentions": [
     {
       "type": "entry",
@@ -49257,6 +49257,24 @@
       },
       "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/17/1/",
       "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Eric Portis",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/558b4c45b7bd5a1107c170e4bb77e2f8cd7f59bf7eda42756b5a7b93c24753a2.png",
+        "url": "https://twitter.com/etportis"
+      },
+      "url": "https://twitter.com/nhoizey/status/1240757205902688256#favorited-by-528720846",
+      "published": null,
+      "wm-received": "2020-03-19T22:52:39Z",
+      "wm-id": 771847,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1240757205902688256/528720846",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/19/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/03/19/1/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
