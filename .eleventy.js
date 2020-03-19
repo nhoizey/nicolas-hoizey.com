@@ -257,19 +257,11 @@ module.exports = function(eleventyConfig) {
   // Transforms
   // ------------------------------------------------------------------------
 
-  const imagesDimensionsAndAbsoluteUrlsTransform = require('./src/_transforms/images-dimensions-and-absolute-urls-transform.js');
-  eleventyConfig.addTransform(
-    'imagesDimensionsAndAbsoluteUrls',
-    imagesDimensionsAndAbsoluteUrlsTransform
-  );
-
   if (process.env.ELEVENTY_ENV == 'production') {
     const imagesResponsiver = require('eleventy-plugin-images-responsiver');
     const imagesResponsiverConfig = require('./src/_data/images-responsiver-config.js');
     eleventyConfig.addPlugin(imagesResponsiver, imagesResponsiverConfig);
-  }
 
-  if (process.env.ELEVENTY_ENV == 'production') {
     const htmlMinTransform = require('./src/_transforms/html-min-transform.js');
     eleventyConfig.addTransform('htmlmin', htmlMinTransform);
   }
