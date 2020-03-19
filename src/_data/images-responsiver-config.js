@@ -1,9 +1,47 @@
+const site = require('../_data/site.js');
+const imageSize = require('image-size');
 const markdownIt = require('markdown-it');
 const md = new markdownIt();
 
-const runBeforeHook = image => {};
+const runBeforeHook = (image, document) => {
+  let documentBody = document.querySelector('body');
+  let srcPath = documentBody.getAttribute('data-img-src');
+  // TODO: get "dist/" from config
+  let distPath = documentBody
+    .getAttribute('data-img-dist')
+    .replace(/^dist/, '');
 
-const runAfterHook = image => {
+  let imageSrc = image.getAttribute('src');
+  if (imageSrc === null) {
+    console.dir(image.attributes);
+  }
+
+  let imageUrl = '';
+
+  if (imageSrc.match(/^(https?:)?\/\//)) {
+    // TODO: find a way to get a remote image's dimensions
+    // TODO: some images are local but have an absolute URL
+    imageUrl = imageSrc;
+  } else {
+    let imageDimensions;
+    if (imageSrc[0] === '/') {
+      // TODO: get "src/" from Eleventy config
+      imageDimensions = imageSize('./src' + imageSrc);
+      imageUrl = site.url + imageSrc;
+    } else {
+      // This is a relative URL
+      imageDimensions = imageSize(srcPath + imageSrc);
+      imageUrl = site.url + distPath + imageSrc;
+    }
+    image.setAttribute('width', imageDimensions.width);
+    image.setAttribute('height', imageDimensions.height);
+    image.setAttribute('src', imageUrl);
+  }
+
+  image.dataset.responsiver = image.className;
+};
+
+const runAfterHook = (image, document) => {
   let imageUrl =
     image.getAttribute('data-pristine') || image.getAttribute('src');
   let caption = image.getAttribute('title');
@@ -33,7 +71,7 @@ const runAfterHook = image => {
 };
 
 module.exports = {
-  selector: ':not(picture) img:not([srcset]):not([src$=".svg"])',
+  selector: ':not(picture) img[src]:not([srcset]):not([src$=".svg"])',
   resizedImageUrl: (src, width) =>
     `https://res.cloudinary.com/nho/image/fetch/q_auto,f_auto,w_${width}/${src}`,
   runBefore: runBeforeHook,
