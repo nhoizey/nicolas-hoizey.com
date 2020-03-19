@@ -46,7 +46,7 @@
     {% set ogTitle %}Note from {{ page.date | date("Do MMMM YYYY") }}{% endset %}
     {% set ogDescription = pageExcerpt | striptags | truncate(290) | escape %}
     {% set ogType = "article" %}
-    <title>{{ ogTitle }} &ndash; {{ site.name }}</title>
+    <title>{{ ogTitle }} - {{ site.name }}</title>
   {% else %}
     {% set ogTitle = renderData.title or title %}
     {% if layout == "article" or layout == "link" %}
@@ -55,7 +55,7 @@
     {% elif page.inputPath == "./src/tag-page.njk" %}
       {% set ogDescription = ogTitle %}
     {% endif %}
-    <title>{{ ogTitle }} &ndash; {{ site.name }}</title>
+    <title>{{ ogTitle }} - {{ site.name }}</title>
   {% endif %}
 
   <meta property="og:title" content="{{ ogTitle }}" />
