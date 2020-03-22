@@ -33,7 +33,7 @@
     "@babel/preset-env": "^7.8.7",
     "@jlengstorf/get-share-image": "^0.7.0",
     "@sindresorhus/slugify": "~0.11",
-    "babel-loader": "^8.0.6",
+    "babel-loader": "^8.1.0",
     "basichtml": "^2.2.0",
     "browser-sync": "^2.26.7",
     "cheerio": "~1.0.0-rc.3",
