@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-03-19T23:14:53.678Z",
+  "lastFetched": "2020-03-22T12:26:12.508Z",
   "webmentions": [
     {
       "type": "entry",
@@ -49272,6 +49272,180 @@
       "wm-received": "2020-03-19T22:52:39Z",
       "wm-id": 771847,
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1240757205902688256/528720846",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/19/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/03/19/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Eleventy",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/64ed7c5b6f8f7dc61e11ff6a926eeb6a94e686473efdb5a7c697a4a87f4e411a.jpg",
+        "url": "https://twitter.com/eleven_ty"
+      },
+      "url": "https://twitter.com/eleven_ty/status/1240784380261478406",
+      "published": "2020-03-19T23:37:03+00:00",
+      "wm-received": "2020-03-19T23:39:45Z",
+      "wm-id": 771860,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1240757205902688256/1240784380261478406",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/19/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Hey, nice job! I bet incremental builds will be a big win for you\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "Hey, nice job! I bet incremental builds will be a big win for you",
+        "text": "Hey, nice job! I bet incremental builds will be a big win for you"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/19/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Eleventy",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/64ed7c5b6f8f7dc61e11ff6a926eeb6a94e686473efdb5a7c697a4a87f4e411a.jpg",
+        "url": "https://twitter.com/eleven_ty"
+      },
+      "url": "https://twitter.com/nhoizey/status/1240757205902688256#favorited-by-949639269433380864",
+      "published": null,
+      "wm-received": "2020-03-19T23:39:53Z",
+      "wm-id": 771861,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1240757205902688256/949639269433380864",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/19/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/03/19/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1240786783413174272",
+      "published": "2020-03-19T23:46:36+00:00",
+      "wm-received": "2020-03-20T00:34:08Z",
+      "wm-id": 771865,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1240757205902688256/1240786783413174272",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/19/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Probably yes!\n<a class=\"u-mention\" href=\"https://twitter.com/eleven_ty\"></a>",
+        "html": "Probably yes!",
+        "text": "Probably yes!"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/19/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Kyle Mitofsky",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/797b730743e3815f89ec08c6ca436701aa5f74ef7370e91c4419b80b918fef64.jpg",
+        "url": "https://twitter.com/KyleMitBTV"
+      },
+      "url": "https://twitter.com/nhoizey/status/1240757205902688256#favorited-by-331207312",
+      "published": null,
+      "wm-received": "2020-03-20T00:35:22Z",
+      "wm-id": 771866,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1240757205902688256/331207312",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/19/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/03/19/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Khalid",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e5fdbde9d3343ae061061b833831c0d0b4a5834795ec6c42d0ac7288400c55f6.png",
+        "url": "https://twitter.com/buhakmeh"
+      },
+      "url": "https://twitter.com/nhoizey/status/1240757205902688256#favorited-by-72354175",
+      "published": null,
+      "wm-received": "2020-03-20T00:35:37Z",
+      "wm-id": 771867,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1240757205902688256/72354175",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/19/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/03/19/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "John Meyerhofer",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/de1fce77ed55a93f3f9b89550ef20a870ddd2e81d5013812ce13a05540d0f560.jpg",
+        "url": "https://twitter.com/JRMeyerhofer"
+      },
+      "url": "https://twitter.com/nhoizey/status/1240757205902688256#favorited-by-425853322",
+      "published": null,
+      "wm-received": "2020-03-20T03:03:54Z",
+      "wm-id": 771892,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1240757205902688256/425853322",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/19/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/03/19/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Vincent M.",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/573ce14c7a3a95fd928b4c716c2e32fa37777a553aa4154f4bd328eb4957c833.jpg",
+        "url": "https://twitter.com/Sleipne"
+      },
+      "url": "https://twitter.com/nhoizey/status/1240757205902688256#favorited-by-76719275",
+      "published": null,
+      "wm-received": "2020-03-20T07:57:17Z",
+      "wm-id": 771962,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1240757205902688256/76719275",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/19/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/03/19/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "R. Mark Volkmann",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e0aad51a3a266edac6fed6dbd3564269067cde6a764c878fa9052830b7df7602.jpg",
+        "url": "https://twitter.com/mark_volkmann"
+      },
+      "url": "https://twitter.com/nhoizey/status/1240757205902688256#favorited-by-16169402",
+      "published": null,
+      "wm-received": "2020-03-20T11:40:05Z",
+      "wm-id": 772057,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1240757205902688256/16169402",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/19/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/03/19/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Arnaud Ligny 👨‍💻 💡 🚀",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/29bed4d1c9d7e7ea7326cb2578f8d22681f86cbb34f1d62847bf5406970d283d.jpg",
+        "url": "https://twitter.com/ArnaudLigny"
+      },
+      "url": "https://twitter.com/nhoizey/status/1240757205902688256#favorited-by-155551263",
+      "published": null,
+      "wm-received": "2020-03-20T12:20:30Z",
+      "wm-id": 772072,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1240757205902688256/155551263",
       "wm-target": "https://nicolas-hoizey.com/notes/2020/03/19/1/",
       "like-of": "https://nicolas-hoizey.com/notes/2020/03/19/1/",
       "wm-property": "like-of",
