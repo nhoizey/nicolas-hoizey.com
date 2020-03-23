@@ -1,47 +1,47 @@
 [
   {
-    "url": "https://nicolas-hoizey.com/articles/",
-    "finalUrl": "https://nicolas-hoizey.com/articles/",
+    "url": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
+    "finalUrl": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
     "lighthouseScore": 1,
-    "firstContentfulPaint": 1389.4467,
-    "firstMeaningfulPaint": 1547.33575,
-    "speedIndex": 1389.4467,
+    "firstContentfulPaint": 1391.8486,
+    "firstMeaningfulPaint": 1536.6344,
+    "speedIndex": 1391.8486,
     "rank": 1
   },
   {
     "url": "https://nicolas-hoizey.com/links/",
     "finalUrl": "https://nicolas-hoizey.com/links/",
-    "lighthouseScore": 0.99,
-    "firstContentfulPaint": 1393.814,
-    "firstMeaningfulPaint": 1468.8436000000002,
-    "speedIndex": 1393.814,
+    "lighthouseScore": 1,
+    "firstContentfulPaint": 1395.2213000000002,
+    "firstMeaningfulPaint": 1557.02755,
+    "speedIndex": 1395.2213000000002,
     "rank": 2
   },
   {
-    "url": "https://nicolas-hoizey.com/",
-    "finalUrl": "https://nicolas-hoizey.com/",
-    "lighthouseScore": 0.99,
-    "firstContentfulPaint": 1524.8760000000002,
-    "firstMeaningfulPaint": 1704.5120000000002,
-    "speedIndex": 1524.8760000000002,
+    "url": "https://nicolas-hoizey.com/articles/",
+    "finalUrl": "https://nicolas-hoizey.com/articles/",
+    "lighthouseScore": 1,
+    "firstContentfulPaint": 1396.7637,
+    "firstMeaningfulPaint": 1396.7637,
+    "speedIndex": 1396.7637,
     "rank": 3
-  },
-  {
-    "url": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
-    "finalUrl": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
-    "lighthouseScore": 0.99,
-    "firstContentfulPaint": 1528.3394000000003,
-    "firstMeaningfulPaint": 1608.0425500000001,
-    "speedIndex": 1528.3394000000003,
-    "rank": 4
   },
   {
     "url": "https://nicolas-hoizey.com/articles/2018/08/01/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video/",
     "finalUrl": "https://nicolas-hoizey.com/articles/2018/08/01/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video/",
     "lighthouseScore": 0.99,
-    "firstContentfulPaint": 1679.1138,
-    "firstMeaningfulPaint": 1679.1138,
-    "speedIndex": 1679.1138,
+    "firstContentfulPaint": 1407.4425999999999,
+    "firstMeaningfulPaint": 1951.6105499999999,
+    "speedIndex": 1407.4425999999999,
+    "rank": 4
+  },
+  {
+    "url": "https://nicolas-hoizey.com/",
+    "finalUrl": "https://nicolas-hoizey.com/",
+    "lighthouseScore": 0.99,
+    "firstContentfulPaint": 1527.4120000000003,
+    "firstMeaningfulPaint": 1709.8685000000003,
+    "speedIndex": 1527.4120000000003,
     "rank": 5
   }
 ]
