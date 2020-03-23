@@ -34,7 +34,7 @@
     "@jlengstorf/get-share-image": "^0.7.0",
     "@sindresorhus/slugify": "~0.11",
     "babel-loader": "^8.0.6",
-    "basichtml": "^2.2.0",
+    "basichtml": "^2.2.1",
     "browser-sync": "^2.26.7",
     "cheerio": "~1.0.0-rc.3",
     "chrome-launcher": "^0.13.0",
