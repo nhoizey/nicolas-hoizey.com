@@ -42,33 +42,49 @@ async function fetchWebmentions(since, perPage = 10000) {
 
 function cleanWebmentions(webmentions) {
   // https://mxb.dev/blog/using-webmentions-on-static-sites/#h-parsing-and-filtering
-  const hasRequiredFields = entry => {
+  const hasRequiredFields = (entry) => {
     const { published, url } = entry;
     return published && url;
-  }
-  const sanitize = entry => {
+  };
+  const sanitize = (entry) => {
     const { content } = entry;
     if (content && content['content-type'] === 'text/html') {
       let html = content.html;
-      html = html.replace(/<a [^>]+><\/a>/gm, '')
+      html = html
+        .replace(/<a [^>]+><\/a>/gm, '')
         .trim()
-        .replace(/\n/g, "<br />");
+        .replace(/\n/g, '<br />');
       html = sanitizeHTML(html, {
-        allowedTags: ['b', 'i', 'em', 'strong', 'a', 'blockquote', 'ul', 'ol', 'li', 'code', 'pre', 'br'],
+        allowedTags: [
+          'b',
+          'i',
+          'em',
+          'strong',
+          'a',
+          'blockquote',
+          'ul',
+          'ol',
+          'li',
+          'code',
+          'pre',
+          'br',
+        ],
         allowedAttributes: {
           a: ['href', 'rel'],
-          img: ['src', 'alt']
+          img: ['src', 'alt'],
         },
-        allowedIframeHostnames: []
+        allowedIframeHostnames: [],
       });
       content.html = html;
     }
     return entry;
-  }
+  };
 
-  return webmentions
-    //.filter(hasRequiredFields)
-    .map(sanitize);
+  return (
+    webmentions
+      //.filter(hasRequiredFields)
+      .map(sanitize)
+  );
 }
 
 // Merge fresh webmentions with cached entries, unique per id
@@ -94,9 +110,9 @@ function writeToCache(data) {
     fs.mkdirSync(dir);
   }
   // write data to cache json file
-  fs.writeFile(CACHE_FILE_PATH, fileContent, err => {
+  fs.writeFile(CACHE_FILE_PATH, fileContent, (err) => {
     if (err) throw err;
-  })
+  });
 }
 
 // get cache contents from json file
@@ -109,7 +125,7 @@ function readFromCache() {
   // no cache found.
   return {
     lastFetched: null,
-    webmentions: []
+    webmentions: [],
   };
 }
 
@@ -123,7 +139,7 @@ module.exports = async function () {
     if (newWebmentions) {
       const webmentions = {
         lastFetched: fetchedAt,
-        webmentions: mergeWebmentions(cached.webmentions, newWebmentions)
+        webmentions: mergeWebmentions(cached.webmentions, newWebmentions),
       };
 
       writeToCache(webmentions);
@@ -132,4 +148,4 @@ module.exports = async function () {
   }
 
   return cached.webmentions;
-}
+};

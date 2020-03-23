@@ -27,9 +27,9 @@ function writeToCache(data) {
     fs.mkdirSync(dir);
   }
   // write data to cache json file
-  fs.writeFile(CACHE_FILE_PATH, fileContent, err => {
+  fs.writeFile(CACHE_FILE_PATH, fileContent, (err) => {
     if (err) throw err;
-  })
+  });
 }
 
 // get cache contents from json file
@@ -46,11 +46,11 @@ function readFromCache() {
 function prepareNotistData(rawData) {
   let talks = {
     future: [],
-    past: []
+    past: [],
   };
 
   let now = new Date();
-  rawData.map(talk => {
+  rawData.map((talk) => {
     let when = new Date(talk.presented_on);
     var future = now - when < 0 ? true : false;
     if (future) {
@@ -75,4 +75,4 @@ module.exports = async function () {
 
   const cachedNotistData = readFromCache();
   return prepareNotistData(cachedNotistData);
-}
+};

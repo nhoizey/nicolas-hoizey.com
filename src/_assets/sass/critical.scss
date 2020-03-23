@@ -1,15 +1,15 @@
-@import "settings";
-@import "critical/globals";
-@import "critical/accessibility";
-@import "critical/fonts";
-@import "components/header";
-@import "components/search";
-@import "components/navigation";
-@import "components/meta";
-@import "components/intro";
-@import "components/list";
-@import "components/card";
+@import 'settings';
+@import 'critical/globals';
+@import 'critical/accessibility';
+@import 'critical/fonts';
+@import 'components/header';
+@import 'components/search';
+@import 'components/navigation';
 @import 'components/button';
+@import 'components/meta';
+@import 'components/intro';
+@import 'components/list';
+@import 'components/card';
 @import 'components/prevnext';
 
 :root {
@@ -89,7 +89,8 @@ p {
   margin: $baseline 0;
 }
 
-.intro, article .e-content > p:first-of-type {
+.intro,
+article .e-content > p:first-of-type {
   margin: 0 0 2em;
   font-size: var(--font-size-l);
   color: #333;
@@ -98,7 +99,6 @@ p {
 article .e-content {
   margin: $baseline/2 0 $baseline/2 0;
 }
-
 
 h1,
 h2,
@@ -280,7 +280,8 @@ figure {
   }
 }
 
-figure, img {
+figure,
+img {
   &.twothirds {
     max-width: 66%;
   }
@@ -289,7 +290,8 @@ figure, img {
     max-width: 50%;
   }
 
-  &.onethird, &.logo {
+  &.onethird,
+  &.logo {
     max-width: 50%;
 
     @media (min-width: 20em) {
@@ -318,7 +320,8 @@ figure, img {
     }
   }
 
-  &.right, &.logo {
+  &.right,
+  &.logo {
     margin: $baseline auto;
 
     @media (min-width: 20em) {
@@ -348,4 +351,3 @@ figcaption {
     margin: 0;
   }
 }
-
