@@ -6,7 +6,7 @@
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix {
   &::after {
-    content: " ";
+    content: ' ';
     display: table;
     clear: both;
   }
