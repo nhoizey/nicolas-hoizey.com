@@ -65,7 +65,7 @@ function prepareNotistData(rawData) {
 
 module.exports = async function () {
   // Only fetch new mentions in production
-  if (process.env.ELEVENTY_ENV === 'production') {
+  if (process.env.NODE_ENV === 'production') {
     const newNotistData = await fetchNotist();
     if (newNotistData) {
       writeToCache(newNotistData);

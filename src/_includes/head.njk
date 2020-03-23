@@ -6,11 +6,12 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 
-  <style>{{ css["critical"] | safe }}</style>
-  <script>{{ js["critical.js"] | safe }}</script>
+  {# TODO: use minified version of the CSS #}
+  <style>{% include "generated/critical.css" %}</style>
+  <script>{% include "generated/critical.min.js" %}</script>
 
   {# Google Analytics #}
-  {% if build.env.ELEVENTY_ENV == "production" %}
+  {% if build.env.NODE_ENV === "production" %}
     <script>
       window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
       ga('create', 'UA-1655999-10', 'auto');

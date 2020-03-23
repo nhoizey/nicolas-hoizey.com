@@ -3,3 +3,4 @@ dist
 _logs
 _scripts
 .env
+src/_includes/generated

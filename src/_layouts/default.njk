@@ -48,7 +48,13 @@
     {% include "components/footer.njk" %}
 
     <link rel="stylesheet" href="/css/additional.css" />
-    <script src="/js/additional.js" async defer></script>
+
+    {#
+    https://buzut.net/configurer-rollup-bundles-esm-cjs/
+    https://v8.dev/features/modules#browser
+    #}
+    <script async type="module" src="/js/additional.esm.min.js"></script>
+    <script async nomodule src="/js/additional.iife.min.js"></script>
 
     <script>
     if ('serviceWorker' in navigator) {

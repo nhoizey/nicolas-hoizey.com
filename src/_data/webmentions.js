@@ -133,7 +133,7 @@ module.exports = async function () {
   const cached = readFromCache();
 
   // Only fetch new mentions in production
-  if (process.env.ELEVENTY_ENV === 'production') {
+  if (process.env.NODE_ENV === 'production') {
     const fetchedAt = new Date().toISOString();
     const newWebmentions = await fetchWebmentions(cached.lastFetched);
     if (newWebmentions) {

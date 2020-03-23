@@ -257,7 +257,7 @@ module.exports = function (eleventyConfig) {
   // Transforms
   // ------------------------------------------------------------------------
 
-  if (process.env.ELEVENTY_ENV == 'production') {
+  if (process.env.NODE_ENV === 'production') {
     const imagesResponsiver = require('eleventy-plugin-images-responsiver');
     const imagesResponsiverConfig = require('./src/_data/images-responsiver-config.js');
     eleventyConfig.addPlugin(imagesResponsiver, imagesResponsiverConfig);
@@ -279,15 +279,14 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setDataDeepMerge(true);
   eleventyConfig.setQuietMode(true);
 
-  eleventyConfig.addWatchTarget('src/_assets/sass/**/*.scss');
-
   eleventyConfig.setBrowserSyncConfig({
     ui: false,
     ghostMode: false,
+    // files: ['dist/css', 'dist/js'],
   });
 
   return {
-    templateFormats: ['md', 'njk', 'jpg', 'png', 'gif', 'kmz', 'zip', 'scss'],
+    templateFormats: ['md', 'njk', 'jpg', 'png', 'gif', 'kmz', 'zip'],
 
     markdownTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
