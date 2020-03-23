@@ -1,36 +1,36 @@
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
   // ------------------------------------------------------------------------
   // Collections
   // ------------------------------------------------------------------------
 
-  eleventyConfig.addCollection('articles', function(collection) {
+  eleventyConfig.addCollection('articles', function (collection) {
     return collection.getFilteredByGlob('src/articles/**/*.md').sort((a, b) => {
       return b.date - a.date;
     });
   });
 
   // promoted articles, but not the latest article at all
-  eleventyConfig.addCollection('promoted', function(collection) {
+  eleventyConfig.addCollection('promoted', function (collection) {
     return collection
       .getFilteredByGlob('src/articles/**/*.md')
       .sort((a, b) => {
         return b.date - a.date;
       })
       .slice(1)
-      .filter(article => article.data.promoted);
+      .filter((article) => article.data.promoted);
   });
 
-  eleventyConfig.addCollection('links', function(collection) {
+  eleventyConfig.addCollection('links', function (collection) {
     return collection.getFilteredByGlob('src/links/**/*.md').sort((a, b) => {
       return b.date - a.date;
     });
   });
 
   const hashtagsToTags = require('./src/_utils/hashtags').hashtagsToTags;
-  eleventyConfig.addCollection('notes', function(collection) {
+  eleventyConfig.addCollection('notes', function (collection) {
     return collection
       .getFilteredByGlob('src/notes/**/*.md')
-      .map(note => {
+      .map((note) => {
         // TODO: deal with hashtags only once
         note.data.tags = [
           ...new Set(
@@ -50,22 +50,22 @@ module.exports = function(eleventyConfig) {
 
   const yearsWithContent = require('./src/_utils/content-by-date')
     .yearsWithContent;
-  eleventyConfig.addCollection('yearsWithArticles', collection => {
+  eleventyConfig.addCollection('yearsWithArticles', (collection) => {
     return yearsWithContent(
       collection.getFilteredByGlob('src/articles/**/*.md')
     );
   });
-  eleventyConfig.addCollection('yearsWithLinks', collection => {
+  eleventyConfig.addCollection('yearsWithLinks', (collection) => {
     return yearsWithContent(collection.getFilteredByGlob('src/links/**/*.md'));
   });
-  eleventyConfig.addCollection('yearsWithNotes', collection => {
+  eleventyConfig.addCollection('yearsWithNotes', (collection) => {
     return yearsWithContent(collection.getFilteredByGlob('src/notes/**/*.md'));
   });
 
   // collections for yearly archives
   const contentsByYear = require('./src/_utils/content-by-date').contentByYear;
-  ['articles', 'links', 'notes'].forEach(collectionName => {
-    eleventyConfig.addCollection(`${collectionName}ByYear`, collection => {
+  ['articles', 'links', 'notes'].forEach((collectionName) => {
+    eleventyConfig.addCollection(`${collectionName}ByYear`, (collection) => {
       return contentsByYear(
         collection.getFilteredByGlob(`src/${collectionName}/**/*.md`)
       );
@@ -75,8 +75,8 @@ module.exports = function(eleventyConfig) {
   // collections for monthly archives
   const contentsByMonth = require('./src/_utils/content-by-date')
     .contentByMonth;
-  ['articles', 'links', 'notes'].forEach(collectionName => {
-    eleventyConfig.addCollection(`${collectionName}ByMonth`, collection => {
+  ['articles', 'links', 'notes'].forEach((collectionName) => {
+    eleventyConfig.addCollection(`${collectionName}ByMonth`, (collection) => {
       return contentsByMonth(
         collection.getFilteredByGlob(`src/${collectionName}/**/*.md`)
       );
@@ -91,7 +91,7 @@ module.exports = function(eleventyConfig) {
   // ------------------------------------------------------------------------
 
   const filters = require('./src/_11ty/filters');
-  Object.keys(filters).forEach(filterName => {
+  Object.keys(filters).forEach((filterName) => {
     eleventyConfig.addFilter(filterName, filters[filterName]);
   });
 
@@ -99,19 +99,19 @@ module.exports = function(eleventyConfig) {
   // Shortcodes
   // ------------------------------------------------------------------------
 
-  eleventyConfig.addNunjucksShortcode('youtube', function(id) {
+  eleventyConfig.addNunjucksShortcode('youtube', function (id) {
     return `<figure class="video"><iframe width="784" height="441" src="https://www.youtube.com/embed/${id}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure>`;
   });
 
-  eleventyConfig.addNunjucksShortcode('vimeo', function(id) {
+  eleventyConfig.addNunjucksShortcode('vimeo', function (id) {
     return `<figure class="video"><iframe width="784" height="441" src="https://player.vimeo.com/video/${id}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure>`;
   });
 
-  eleventyConfig.addNunjucksShortcode('caniuse', function(id) {
+  eleventyConfig.addNunjucksShortcode('caniuse', function (id) {
     return `<figure><img src="https://caniuse.bitsofco.de/image/${id}.png" alt="Browser support for feature “${id}“" width="800" /><figcaption><a href="https://caniuse.com/#feat=${id}">Can I Use ${id}?</a></figcaption></figure>`;
   });
 
-  eleventyConfig.addNunjucksShortcode('giphy', function(id) {
+  eleventyConfig.addNunjucksShortcode('giphy', function (id) {
     const cloudinaryPrefix = 'https://res.cloudinary.com/nho/image/fetch';
     const giphyImage = `https://media.giphy.com/media/${id}/giphy.gif`;
     webmSource = `<source src="${cloudinaryPrefix}/f_webm/${giphyImage}" type="video/webm">`;
@@ -125,7 +125,7 @@ module.exports = function(eleventyConfig) {
   });
 
   const getShareImage = require('@jlengstorf/get-share-image').default;
-  eleventyConfig.addNunjucksShortcode('ogImage', title => {
+  eleventyConfig.addNunjucksShortcode('ogImage', (title) => {
     return title
       ? getShareImage({
           imageWidth: 1200,
@@ -181,7 +181,7 @@ module.exports = function(eleventyConfig) {
     permalinkClass: 'deeplink',
     permalinkSymbol: '<svg><use xlink:href="#symbol-link"/></svg>',
     level: [2, 3, 4],
-    slugify: function(s) {
+    slugify: function (s) {
       return slugify(s);
     },
   };
@@ -219,7 +219,7 @@ module.exports = function(eleventyConfig) {
       return;
     }
 
-    md.core.ruler.push('adjust-heading-levels', function(state) {
+    md.core.ruler.push('adjust-heading-levels', function (state) {
       var tokens = state.tokens;
       for (var i = 0; i < tokens.length; i++) {
         if (tokens[i].type !== 'heading_close') {
@@ -249,7 +249,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setLibrary('md', md);
 
   // Add markdownify filter with Markdown-it configuration
-  eleventyConfig.addFilter('markdownify', markdownString =>
+  eleventyConfig.addFilter('markdownify', (markdownString) =>
     md.render(markdownString)
   );
 
