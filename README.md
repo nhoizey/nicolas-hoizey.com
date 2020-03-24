@@ -11,7 +11,19 @@ Open sourced under the [MIT license](LICENSE.md).
 ## Installation
 
 ```bash
-git clone git@github.com:nhoizey/nicolas-hoizey.com.git .
+git clone https://github.com/nhoizey/nicolas-hoizey.com.git
 cd ./nicolas-hoizey.com
 npm i
+```
+
+## Development
+
+```
+npm start
+```
+
+## Build
+
+```
+npm run build
 ```
