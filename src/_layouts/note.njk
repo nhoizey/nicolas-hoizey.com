@@ -35,13 +35,13 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
 }
 </script>
 
-{% set previousNote = collections.notes | getPreviousCollectionItem(page) %}
+{# {% set previousNote = collections.notes | getPreviousCollectionItem(page) %}
 {% set nextNote = collections.notes | getNextCollectionItem(page) %}
 
 <ul class="prevnext">
   <li class="prevnext__prev">{% if previousNote %}<a href="{{ previousNote.url }}" class="button">&lt; newer</a>{% endif %}</li>
   <li class="prevnext__next">{% if nextNote %}<a href="{{ nextNote.url }}" class="button">older &gt;</a>{% endif %}</li>
-</ul>
+</ul> #}
 
 <article
     class="main clearfix h-entry"

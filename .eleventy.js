@@ -279,10 +279,14 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setDataDeepMerge(true);
   eleventyConfig.setQuietMode(true);
 
+  // eleventyConfig.addWatchTarget('./src/_includes/generated/');
+  // eleventyConfig.addWatchTarget('./dist/css/');
+  // eleventyConfig.addWatchTarget('./dist/js/');
+
   eleventyConfig.setBrowserSyncConfig({
     ui: false,
     ghostMode: false,
-    // files: ['dist/css', 'dist/js'],
+    // files: ['src/_includes/generated', 'dist/css', 'dist/js'],
   });
 
   return {
