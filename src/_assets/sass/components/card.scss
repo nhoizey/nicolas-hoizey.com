@@ -5,15 +5,19 @@
 
 .card--note .card__content {
   font-size: var(--font-size-s);
-  padding: .5em;
-  border-radius: .3em;
+  padding: 0.5em;
+  border-radius: 0.3em;
   background-color: $color-primary-lighter-5;
-  background: linear-gradient(135deg, $color-primary-lighter-3, $color-primary-lighter-5);
+  background: linear-gradient(
+    135deg,
+    $color-primary-lighter-3,
+    $color-primary-lighter-5
+  );
 
   p {
     margin: 0;
   }
-  
+
   p + p {
     margin: 1em 0;
   }
@@ -59,7 +63,8 @@
   }
 }
 
-.card__excerpt, .card__content {
+.card__excerpt,
+.card__content {
   margin: 0.5em 0;
 }
 
