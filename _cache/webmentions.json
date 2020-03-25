@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-03-25T16:39:34.129Z",
+  "lastFetched": "2020-03-25T20:31:08.539Z",
   "webmentions": [
     {
       "type": "entry",
@@ -49466,6 +49466,107 @@
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1242484519912869890/25656681",
       "wm-target": "https://nicolas-hoizey.com/links/2020/03/24/how-to-read-rss-in-2020/",
       "like-of": "https://nicolas-hoizey.com/links/2020/03/24/how-to-read-rss-in-2020/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "webetcaetera",
+        "photo": "https://webmention.io/avatar/mamot.fr/fad3379b6970eac11982f0a9a8fd8e22d2e9200401359e98a078b69d18e85608.png",
+        "url": "https://mastodon.social/@webetcaetera"
+      },
+      "url": "https://mamot.fr/@nhoizey/103884794281688037#favorited-by-4193",
+      "published": null,
+      "wm-received": "2020-03-25T17:47:50Z",
+      "wm-id": 775346,
+      "wm-source": "https://brid-gy.appspot.com/like/mastodon/@nhoizey@mamot.fr/103884794281688037/4193",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/03/25/apple-just-killed-offline-web-apps-while-purporting-to-protect-your-privacy-why-that-s-a-bad-thing-and-why-you-should-care/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/03/25/apple-just-killed-offline-web-apps-while-purporting-to-protect-your-privacy-why-that-s-a-bad-thing-and-why-you-should-care/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Yvain Liechti",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/435b28d6c561faa8ea38ab4a8da6fe3f30bb7ec9d737a75ae1bef9c0201f2e0d.jpg",
+        "url": "https://twitter.com/ryuran78"
+      },
+      "url": "https://twitter.com/ryuran78/status/1242886292062560264",
+      "published": "2020-03-25T18:49:18+00:00",
+      "wm-received": "2020-03-25T19:33:21Z",
+      "wm-id": 775369,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1242860434497159168/1242886292062560264",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/03/25/apple-just-killed-offline-web-apps-while-purporting-to-protect-your-privacy-why-that-s-a-bad-thing-and-why-you-should-care/",
+      "content": {
+        "content-type": "text/plain",
+        "value": "🔗 \"Apple just killed Offline Web Apps while purporting to protect your privacy: why that’s A Bad Thing and why you should care\"\n\n#privacy #P",
+        "text": "🔗 \"Apple just killed Offline Web Apps while purporting to protect your privacy: why that’s A Bad Thing and why you should care\"\n\n#privacy #P"
+      },
+      "repost-of": "https://nicolas-hoizey.com/links/2020/03/25/apple-just-killed-offline-web-apps-while-purporting-to-protect-your-privacy-why-that-s-a-bad-thing-and-why-you-should-care/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "thefutureis.app",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/779ca2e74f76c57591d3b05d473160b8a52deb3cede8cfd875179cfae46f08b9.jpg",
+        "url": "https://twitter.com/dot_app_tld"
+      },
+      "url": "https://twitter.com/dot_app_tld/status/1242896549698404354",
+      "published": "2020-03-25T19:30:04+00:00",
+      "wm-received": "2020-03-25T19:32:29Z",
+      "wm-id": 775366,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1242860434497159168/1242896549698404354",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/03/25/apple-just-killed-offline-web-apps-while-purporting-to-protect-your-privacy-why-that-s-a-bad-thing-and-why-you-should-care/",
+      "content": {
+        "content-type": "text/html",
+        "value": "They've updated the press release, web apps added to home screen are safe 🥳\n\n<a href=\"https://twitter.com/johnwilander/status/1242882202301427712?s=20\">twitter.com/johnwilander/s…</a>\n\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "They've updated the press release, web apps added to home screen are safe 🥳<br /><br /><a href=\"https://twitter.com/johnwilander/status/1242882202301427712?s=20\">twitter.com/johnwilander/s…</a>",
+        "text": "They've updated the press release, web apps added to home screen are safe 🥳\n\ntwitter.com/johnwilander/s…"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/03/25/apple-just-killed-offline-web-apps-while-purporting-to-protect-your-privacy-why-that-s-a-bad-thing-and-why-you-should-care/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Xavier Zaława",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/77e826a263cabc3e81663ac5e508de10361793373ea1652b6af58cd278821fd0.jpg",
+        "url": "https://twitter.com/7studio"
+      },
+      "url": "https://twitter.com/nhoizey/status/1242860434497159168#favorited-by-20092443",
+      "published": null,
+      "wm-received": "2020-03-25T19:32:38Z",
+      "wm-id": 775367,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1242860434497159168/20092443",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/03/25/apple-just-killed-offline-web-apps-while-purporting-to-protect-your-privacy-why-that-s-a-bad-thing-and-why-you-should-care/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/03/25/apple-just-killed-offline-web-apps-while-purporting-to-protect-your-privacy-why-that-s-a-bad-thing-and-why-you-should-care/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Yvain Liechti",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/435b28d6c561faa8ea38ab4a8da6fe3f30bb7ec9d737a75ae1bef9c0201f2e0d.jpg",
+        "url": "https://twitter.com/ryuran78"
+      },
+      "url": "https://twitter.com/nhoizey/status/1242860434497159168#favorited-by-79130645",
+      "published": null,
+      "wm-received": "2020-03-25T19:32:45Z",
+      "wm-id": 775368,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1242860434497159168/79130645",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/03/25/apple-just-killed-offline-web-apps-while-purporting-to-protect-your-privacy-why-that-s-a-bad-thing-and-why-you-should-care/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/03/25/apple-just-killed-offline-web-apps-while-purporting-to-protect-your-privacy-why-that-s-a-bad-thing-and-why-you-should-care/",
       "wm-property": "like-of",
       "wm-private": false
     }
