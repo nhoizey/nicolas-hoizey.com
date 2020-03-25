@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-03-24T09:56:24.259Z",
+  "lastFetched": "2020-03-24T22:34:56.593Z",
   "webmentions": [
     {
       "type": "entry",
@@ -49448,6 +49448,24 @@
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1240757205902688256/155551263",
       "wm-target": "https://nicolas-hoizey.com/notes/2020/03/19/1/",
       "like-of": "https://nicolas-hoizey.com/notes/2020/03/19/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Olivier Fredon",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/103cc01707ca12705ea499ef14fe19fdace8dc6a6037b8769e0d63387f4d2955.jpg",
+        "url": "https://twitter.com/the2ne"
+      },
+      "url": "https://twitter.com/nhoizey/status/1242484519912869890#favorited-by-25656681",
+      "published": null,
+      "wm-received": "2020-03-24T19:21:03Z",
+      "wm-id": 775149,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1242484519912869890/25656681",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/03/24/how-to-read-rss-in-2020/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/03/24/how-to-read-rss-in-2020/",
       "wm-property": "like-of",
       "wm-private": false
     }
