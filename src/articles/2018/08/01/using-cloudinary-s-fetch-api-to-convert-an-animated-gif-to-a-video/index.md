@@ -2,7 +2,7 @@
 title: "Using Cloudinary's Fetch API to convert an animated GIF to a video"
 date: 2018-08-01 12:00:00 +02:00
 lang:  en
-tags:  [video, GIF, Cloudinary]
+tags:  [video, GIF, Cloudinary, WebPerf]
 ---
 
 I like animated GIFs, like most people these days I think, but they are really heavy, hurting the performance of web pages, and consuming data plans faster than should be needed. So we need to convert them to videos, which are much lighter, for the same visual result. Let's use Cloudinary.
