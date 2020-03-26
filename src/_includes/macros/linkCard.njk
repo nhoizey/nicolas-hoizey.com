@@ -14,14 +14,14 @@
     <p class="card__source">
       {%- for author in authors -%}
         {%- if not loop.first -%}
-          {%- if not loop.last -%},&ensp;{%- else -%}&ensp;and&ensp;{%- endif -%}
+          {%- if not loop.last -%}, {% else %} and {% endif -%}
         {%- endif -%}
         {%- if author.twitter -%}
-          <img class="u-photo smallavatar" src="https://avatars.io/twitter/{{ author.twitter }}/large" alt="{{ author.name }} avatar" width="24" height="24"/>&ensp;
-        {%- endif -%}
-        {{- author.name -}}
-      {%- endfor -%}
-      &ensp;wrote
+          <img class="u-photo smallavatar" src="https://avatars.io/twitter/{{ author.twitter }}/large" alt="{{ author.name }} avatar" width="24" height="24"/> 
+        {%- endif %}
+        {{ author.name }}
+      {%- endfor %}
+      wrote
     </p>
   {% endif %}
   <p class="card__title">
