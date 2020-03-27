@@ -49,7 +49,7 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
             {% if author.twitter %}
               <img class="u-photo largeavatar" src="https://avatars.io/twitter/{{ author.twitter }}/large" alt="{{ author.name }} avatar" loading="lazy" width="48" height="48"/>
               <b class="p-name">{{ author.name }}</b>
-              (<svg><use xlink:href="#symbol-twitter"/></svg>&nbsp;<a href="https://twitter.com/{{ author.twitter }}">@{{ author.twitter }}</a>)
+              (<svg><use xlink:href="#symbol-twitter"/></svg> <a href="https://twitter.com/{{ author.twitter }}">@{{ author.twitter }}</a>)
             {% else %}
               <b class="p-name">{{ author.name }}</b>
             {% endif %}
