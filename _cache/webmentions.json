@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-03-25T23:52:57.887Z",
+  "lastFetched": "2020-03-27T16:33:47.689Z",
   "webmentions": [
     {
       "type": "entry",
@@ -49586,6 +49586,209 @@
       "wm-target": "https://nicolas-hoizey.com/",
       "like-of": "https://nicolas-hoizey.com/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Miles Tincknell",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f474bc467e11b0cd748235b39d9f27748f333bcf85bf28270b65e156880b0219.jpg",
+        "url": "https://twitter.com/MilesTincknell"
+      },
+      "url": "https://twitter.com/nhoizey/status/1243126340729126912#favorited-by-24052841",
+      "published": null,
+      "wm-received": "2020-03-26T12:06:36Z",
+      "wm-id": 775524,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1243126340729126912/24052841",
+      "wm-target": "https://nicolas-hoizey.com/",
+      "like-of": "https://nicolas-hoizey.com/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Bastien Jaillot",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0dbb6910fed96ef1e3fdf19d6b27ac2dd24a7d5fbdcc7d71e693325a349d8280.jpg",
+        "url": "https://twitter.com/bastnic"
+      },
+      "url": "https://twitter.com/nhoizey/status/1243140858662322177#favorited-by-16088762",
+      "published": null,
+      "wm-received": "2020-03-26T12:06:54Z",
+      "wm-id": 775525,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1243140858662322177/16088762",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/03/26/climbing-the-11ty-performance-leaderboard-with-cloudinary-critical-css-and-more/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/03/26/climbing-the-11ty-performance-leaderboard-with-cloudinary-critical-css-and-more/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "edgemesh",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0dc7d529c0213c4885b8f105ddecd02e1d7272b1bd0086cbe1b10342f1b7edfb.jpg",
+        "url": "https://twitter.com/edgemeshinc"
+      },
+      "url": "https://twitter.com/nhoizey/status/1243140858662322177#favorited-by-760891744678543361",
+      "published": null,
+      "wm-received": "2020-03-26T12:07:30Z",
+      "wm-id": 775526,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1243140858662322177/760891744678543361",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/03/26/climbing-the-11ty-performance-leaderboard-with-cloudinary-critical-css-and-more/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/03/26/climbing-the-11ty-performance-leaderboard-with-cloudinary-critical-css-and-more/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1243156109315026944",
+      "published": "2020-03-26T12:41:27+00:00",
+      "wm-received": "2020-03-26T12:46:53Z",
+      "wm-id": 775548,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1243126340729126912/1243156109315026944",
+      "wm-target": "https://nicolas-hoizey.com/",
+      "content": {
+        "content-type": "text/html",
+        "value": "My photo site is currently an Adobe Portfolio, but migration to Eleventy has been planned for two years… 😅\n\n<a href=\"https://github.com/11ty/eleventy/issues/59\">github.com/11ty/eleventy/…</a>\n\n<a class=\"u-mention\" href=\"https://twitter.com/eleven_ty\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/scottishstoater\"></a>",
+        "html": "My photo site is currently an Adobe Portfolio, but migration to Eleventy has been planned for two years… 😅<br /><br /><a href=\"https://github.com/11ty/eleventy/issues/59\">github.com/11ty/eleventy/…</a>",
+        "text": "My photo site is currently an Adobe Portfolio, but migration to Eleventy has been planned for two years… 😅\n\ngithub.com/11ty/eleventy/…"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Chris Collins 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0cac46ece2df8fe947bef7a131dbb88ed68b15f6a9233229a8fdaff92e00060d.jpg",
+        "url": "https://twitter.com/scottishstoater"
+      },
+      "url": "https://twitter.com/nhoizey/status/1243126340729126912#favorited-by-37516599",
+      "published": null,
+      "wm-received": "2020-03-26T12:47:06Z",
+      "wm-id": 775549,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1243126340729126912/37516599",
+      "wm-target": "https://nicolas-hoizey.com/",
+      "like-of": "https://nicolas-hoizey.com/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Gaël Poupard",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/bebb7c8bbc4d5d316c64a4e8278e4fb1a662dd836590aa669864c8f7d7ca013d.jpeg",
+        "url": "https://twitter.com/ffoodd_fr"
+      },
+      "url": "https://twitter.com/nhoizey/status/1243140858662322177#favorited-by-259814870",
+      "published": null,
+      "wm-received": "2020-03-26T12:47:25Z",
+      "wm-id": 775550,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1243140858662322177/259814870",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/03/26/climbing-the-11ty-performance-leaderboard-with-cloudinary-critical-css-and-more/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/03/26/climbing-the-11ty-performance-leaderboard-with-cloudinary-critical-css-and-more/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Detonnal",
+        "photo": "https://webmention.io/avatar/abs.twimg.com/0e6b2cd70aa5b35dec24ca4e1e63f8963f0118736d9ec3bba77e3a8c99a27bc2.png",
+        "url": "https://twitter.com/detonnal"
+      },
+      "url": "https://twitter.com/detonnal/status/1243334855754223616",
+      "published": "2020-03-27T00:31:44+00:00",
+      "wm-received": "2020-03-27T01:49:09Z",
+      "wm-id": 775768,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1242860434497159168/1243334855754223616",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/03/25/apple-just-killed-offline-web-apps-while-purporting-to-protect-your-privacy-why-that-s-a-bad-thing-and-why-you-should-care/",
+      "content": {
+        "content-type": "text/plain",
+        "value": "🔗 \"Apple just killed Offline Web Apps while purporting to protect your privacy: why that’s A Bad Thing and why you should care\"\n\n#privacy #P",
+        "text": "🔗 \"Apple just killed Offline Web Apps while purporting to protect your privacy: why that’s A Bad Thing and why you should care\"\n\n#privacy #P"
+      },
+      "repost-of": "https://nicolas-hoizey.com/links/2020/03/25/apple-just-killed-offline-web-apps-while-purporting-to-protect-your-privacy-why-that-s-a-bad-thing-and-why-you-should-care/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "edgemesh",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0dc7d529c0213c4885b8f105ddecd02e1d7272b1bd0086cbe1b10342f1b7edfb.jpg",
+        "url": "https://twitter.com/edgemeshinc"
+      },
+      "url": "https://twitter.com/nhoizey/status/1243520450497597440#favorited-by-760891744678543361",
+      "published": null,
+      "wm-received": "2020-03-27T13:00:00Z",
+      "wm-id": 775867,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1243520450497597440/760891744678543361",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/03/27/lighthouse-changes-how-performance-score-is-calculated/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/03/27/lighthouse-changes-how-performance-score-is-calculated/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1243530437588377603",
+      "published": "2020-03-27T13:28:54+00:00",
+      "wm-received": "2020-03-27T14:17:02Z",
+      "wm-id": 775894,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/nhoizey/1243530437588377603",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/03/27/lighthouse-changes-how-performance-score-is-calculated/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Looking forward to see how <a href=\"https://twitter.com/____lighthouse\">@____lighthouse</a> 6 new rules will affect <a href=\"https://twitter.com/zachleat\">@zachleat</a>’s webperf audit of sites built with <a href=\"https://twitter.com/eleven_ty\">@eleven_ty</a>… 😁\n<a class=\"u-mention\" href=\"https://nho.io/l/2020/03/27/lighthouse-changes-how-performance-score-is-calculated/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/links/2020/03/27/lighthouse-changes-how-performance-score-is-calculated/\"></a>",
+        "html": "Looking forward to see how <a href=\"https://twitter.com/____lighthouse\">@____lighthouse</a> 6 new rules will affect <a href=\"https://twitter.com/zachleat\">@zachleat</a>’s webperf audit of sites built with <a href=\"https://twitter.com/eleven_ty\">@eleven_ty</a>… 😁",
+        "text": "Looking forward to see how @____lighthouse 6 new rules will affect @zachleat’s webperf audit of sites built with @eleven_ty… 😁"
+      },
+      "mention-of": "https://nicolas-hoizey.com/links/2020/03/27/lighthouse-changes-how-performance-score-is-calculated/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1243536417516654595",
+      "published": "2020-03-27T13:52:40+00:00",
+      "wm-received": "2020-03-27T14:16:48Z",
+      "wm-id": 775893,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/nhoizey/1243536417516654595",
+      "wm-target": "https://nicolas-hoizey.com/articles/2014/02/05/ameliorer-l-ecoute-aleatoire-de-musique/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Ça se voit, que j’écris beaucoup en Markdown ? 😅\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/articles/2014/02/05/ameliorer-l-ecoute-aleatoire-de-musique/\"></a>",
+        "html": "Ça se voit, que j’écris beaucoup en Markdown ? 😅",
+        "text": "Ça se voit, que j’écris beaucoup en Markdown ? 😅"
+      },
+      "mention-of": "https://nicolas-hoizey.com/articles/2014/02/05/ameliorer-l-ecoute-aleatoire-de-musique/",
+      "wm-property": "mention-of",
       "wm-private": false
     }
   ]
