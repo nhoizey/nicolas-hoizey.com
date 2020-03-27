@@ -94,10 +94,10 @@ module.exports = {
     }
     let urlsList = getUrlsHistory(url);
     return webmentions
-      .filter(entry => {
+      .filter((entry) => {
         return urlsList.includes(entry['wm-target']);
       })
-      .filter(entry => !isSelf(entry));
+      .filter((entry) => !isSelf(entry));
   },
   getMyWebmentionsForUrl: (webmentions, url) => {
     if (url === undefined) {
@@ -106,17 +106,17 @@ module.exports = {
     }
     let urlsList = getUrlsHistory(url);
     return webmentions
-      .filter(entry => {
+      .filter((entry) => {
         return urlsList.includes(entry['wm-target']);
       })
-      .filter(entry => isSelf(entry));
+      .filter((entry) => isSelf(entry));
   },
-  getMyWebmentionsWithoutTarget: webmentions => {
-    return webmentions.filter(entry => {
+  getMyWebmentionsWithoutTarget: (webmentions) => {
+    return webmentions.filter((entry) => {
       return entry['wm-target'] === undefined;
     });
   },
-  isOwnWebmention: webmention => {
+  isOwnWebmention: (webmention) => {
     const urls = [
       rootUrl,
       'https://twitter.com/nhoizey',
@@ -126,30 +126,30 @@ module.exports = {
     // check if a given URL is part of this site.
     return authorUrl && urls.includes(authorUrl);
   },
-  size: mentions => {
+  size: (mentions) => {
     return !mentions ? 0 : mentions.length;
   },
   webmentionsByType: (mentions, mentionType) => {
-    return mentions.filter(entry => entry['wm-property'] === mentionType);
+    return mentions.filter((entry) => entry['wm-property'] === mentionType);
   },
   date: (date, format) => {
     return moment(date).format(format);
   },
-  monthString: month => {
+  monthString: (month) => {
     // transforms "2020/02" into "February 2020"
     let fullDate = `${month.replace('/', '-')}-01T10:00:00.000Z`;
     return moment(fullDate).format('MMMM YYYY');
   },
-  attributeDate: date => {
+  attributeDate: (date) => {
     return moment(date).format('YYYY-MM-DD');
   },
-  permalinkDate: date => {
+  permalinkDate: (date) => {
     return moment(date).format('YYYY/MM');
   },
-  notePermalinkDate: date => {
+  notePermalinkDate: (date) => {
     return moment(date).format('YYYY/MM/DD');
   },
-  cleanDeepLinks: content => {
+  cleanDeepLinks: (content) => {
     const regex = / <a class="deeplink"((?!(<\/a>)).|\n)+<\/a>/gm;
     return content.replace(regex, '');
   },
@@ -162,10 +162,10 @@ module.exports = {
   offset: (array, offset) => {
     return array.slice(offset);
   },
-  dump: obj => {
+  dump: (obj) => {
     return util.inspect(obj);
   },
-  stripFootnotes: content => {
+  stripFootnotes: (content) => {
     // TODO: Use BasicHTML?
     const $ = cheerio.load(content);
     $(
@@ -173,17 +173,17 @@ module.exports = {
     ).remove();
     return $.html();
   },
-  slugify: string => slugifyString(string),
-  dirname: filePath => {
+  slugify: (string) => slugifyString(string),
+  dirname: (filePath) => {
     return path.dirname(filePath);
   },
-  uniq: array => {
+  uniq: (array) => {
     return [...new Set(array)];
   },
-  base64: url => {
+  base64: (url) => {
     return Buffer.from(url).toString('base64');
   },
-  excerpt: content => {
+  excerpt: (content) => {
     if (content === undefined) {
       return '';
     }
@@ -203,13 +203,13 @@ module.exports = {
 
     return excerpt;
   },
-  tagToHashtag: tag => {
+  tagToHashtag: (tag) => {
     let words = tag.replace(/-/, ' ').split(' ');
     return (
       words[0] +
       words
         .slice(1)
-        .map(word => word.charAt(0).toUpperCase() + word.substr(1))
+        .map((word) => word.charAt(0).toUpperCase() + word.substr(1))
         .join('')
     );
   },
@@ -228,6 +228,7 @@ module.exports = {
     let handles = {
       '#Cloudinary': '@cloudinary',
       '#Eleventy': '@eleven_ty',
+      '#Github': '@github',
       '#Jekyll': '@jekyllrb',
       '#Netlify': '@Netlify',
       '#Notist': '@benotist',
@@ -253,7 +254,7 @@ module.exports = {
     tweet = tweet.replace(/<del>([^<]+)<\/del>/g, ($correspondance, $1) => {
       return $1
         .split('')
-        .map(c => `${c}\u0336`)
+        .map((c) => `${c}\u0336`)
         .join('');
     });
 
@@ -262,9 +263,9 @@ module.exports = {
 
     return tweet;
   },
-  noteToHtml: content => {
+  noteToHtml: (content) => {
     let hashtags = twitter.extractHashtags(twitter.htmlEscape(content));
-    hashtags.forEach(hashtag => {
+    hashtags.forEach((hashtag) => {
       content = content.replace(
         `#${hashtag}`,
         `<a href="/tags/${slugifyString(hashtag)}/">#${hashtag}</a>`,
@@ -274,7 +275,7 @@ module.exports = {
 
     // deal with Twitter handles
     let mentions = twitter.extractMentions(content);
-    mentions.forEach(mention => {
+    mentions.forEach((mention) => {
       content = content.replace(
         `@${mention}`,
         `<a href="https://twitter.com/${mention}">@${mention}</a>`
@@ -294,7 +295,7 @@ module.exports = {
     );
     return imagesAbsoluteUrl;
   },
-  removeImages: content => content.replace(/<img [^>]+>/, ''),
+  removeImages: (content) => content.replace(/<img [^>]+>/, ''),
   truncateHtml: (content, length) => {
     return truncateHtml(content, length, {
       reserveLastWord: true,
