@@ -243,7 +243,7 @@ module.exports = {
     // deal with images
     tweet = tweet.replace(
       /!\[([^\]]+)\]\(([^\) ]+)( [^\)]+)?\)({.[^}]+})?/g,
-      `[<a href="${url}$2">image</a>]`
+      `🖼 <a href="${url}$2">image</a>`
     );
 
     // deal with links
