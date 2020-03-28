@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-03-28T12:51:48.110Z",
+  "lastFetched": "2020-03-28T22:29:18.081Z",
   "webmentions": [
     {
       "type": "entry",
@@ -49998,6 +49998,102 @@
         "text": "Oh, now I understand what you mean, and I’m really happy you think what I did is valuable. 😊\n\nI know it is powerful, it works for my use cases, but it still lacks proper documentation for people trying to use it."
       },
       "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/27/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "The Realest",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/028e8dc0b80dc7980b3ec2bfa612ba363cc630805d1145c4157ca3170e4133f3.png",
+        "url": "https://twitter.com/realglenndixon"
+      },
+      "url": "https://twitter.com/realglenndixon/status/1243888609977159680",
+      "published": "2020-03-28T13:12:09+00:00",
+      "wm-received": "2020-03-28T13:47:27Z",
+      "wm-id": 776133,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1243885478950178816/1243888609977159680",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/28/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "I have not yet used labels on my site repos, but it seems like something I should probably do. Sort of like a to-do list. I will probably use very few though...\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/github\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "I have not yet used labels on my site repos, but it seems like something I should probably do. Sort of like a to-do list. I will probably use very few though...",
+        "text": "I have not yet used labels on my site repos, but it seems like something I should probably do. Sort of like a to-do list. I will probably use very few though..."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/28/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1243897378048000003",
+      "published": "2020-03-28T13:47:00+00:00",
+      "wm-received": "2020-03-28T13:47:53Z",
+      "wm-id": 776134,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1243885478950178816/1243897378048000003",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/28/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Every time I have an idea for my site, or other projects, I now open an issue to keep track of it, it’s really useful.\n<a class=\"u-mention\" href=\"https://twitter.com/github\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/realglenndixon\"></a>",
+        "html": "Every time I have an idea for my site, or other projects, I now open an issue to keep track of it, it’s really useful.",
+        "text": "Every time I have an idea for my site, or other projects, I now open an issue to keep track of it, it’s really useful."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/28/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "The Realest",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/028e8dc0b80dc7980b3ec2bfa612ba363cc630805d1145c4157ca3170e4133f3.png",
+        "url": "https://twitter.com/realglenndixon"
+      },
+      "url": "https://twitter.com/realglenndixon/status/1243932545718407170",
+      "published": "2020-03-28T16:06:44+00:00",
+      "wm-received": "2020-03-28T16:34:17Z",
+      "wm-id": 776149,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1243885478950178816/1243932545718407170",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/28/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "I now have 3 repos with 3 projects and multiple issues in each. Thanks for the inspiration 😀\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/github\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "I now have 3 repos with 3 projects and multiple issues in each. Thanks for the inspiration 😀",
+        "text": "I now have 3 repos with 3 projects and multiple issues in each. Thanks for the inspiration 😀"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/28/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1243934289303044096",
+      "published": "2020-03-28T16:13:40+00:00",
+      "wm-received": "2020-03-28T16:34:37Z",
+      "wm-id": 776150,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1243885478950178816/1243934289303044096",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/28/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "You’re welcome! 😉\n<a class=\"u-mention\" href=\"https://twitter.com/github\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/realglenndixon\"></a>",
+        "html": "You’re welcome! 😉",
+        "text": "You’re welcome! 😉"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/28/1/",
       "wm-property": "in-reply-to",
       "wm-private": false
     }
