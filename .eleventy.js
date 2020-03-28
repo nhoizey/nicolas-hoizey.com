@@ -1,3 +1,5 @@
+const glob = require('fast-glob');
+
 module.exports = function (eleventyConfig) {
   // ------------------------------------------------------------------------
   // Collections
@@ -90,9 +92,11 @@ module.exports = function (eleventyConfig) {
   // Filters
   // ------------------------------------------------------------------------
 
-  const filters = require('./src/_11ty/filters');
-  Object.keys(filters).forEach((filterName) => {
-    eleventyConfig.addFilter(filterName, filters[filterName]);
+  glob.sync('src/_11ty/filters/*.js').forEach((file) => {
+    let filters = require('./' + file);
+    Object.keys(filters).forEach((name) => {
+      eleventyConfig.addFilter(name, filters[name]);
+    });
   });
 
   // ------------------------------------------------------------------------
