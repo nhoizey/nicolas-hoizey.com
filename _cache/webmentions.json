@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-03-27T16:33:47.689Z",
+  "lastFetched": "2020-03-28T12:51:48.110Z",
   "webmentions": [
     {
       "type": "entry",
@@ -49789,6 +49789,216 @@
       },
       "mention-of": "https://nicolas-hoizey.com/articles/2014/02/05/ameliorer-l-ecoute-aleatoire-de-musique/",
       "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Eric Portis",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/558b4c45b7bd5a1107c170e4bb77e2f8cd7f59bf7eda42756b5a7b93c24753a2.png",
+        "url": "https://twitter.com/etportis"
+      },
+      "url": "https://twitter.com/etportis/status/1243578719916056576",
+      "published": "2020-03-27T16:40:46+00:00",
+      "wm-received": "2020-03-27T17:21:29Z",
+      "wm-id": 775940,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1243576443365457930/1243578719916056576",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/27/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "*Au contraire*, the greatest gift you can give an open source project is to obviate the need for it.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/github\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "*Au contraire*, the greatest gift you can give an open source project is to obviate the need for it.",
+        "text": "*Au contraire*, the greatest gift you can give an open source project is to obviate the need for it."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/27/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Eric Portis",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/558b4c45b7bd5a1107c170e4bb77e2f8cd7f59bf7eda42756b5a7b93c24753a2.png",
+        "url": "https://twitter.com/etportis"
+      },
+      "url": "https://twitter.com/etportis/status/1243578998443012097",
+      "published": "2020-03-27T16:41:52+00:00",
+      "wm-received": "2020-03-27T17:22:07Z",
+      "wm-id": 775942,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1243576443365457930/1243578998443012097",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/27/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "PS I realize now that you actually speak French, and I have no idea if \"au contraire\" means what I think it means, or has any of the same joke-y connotations, in it's native tounge <a href=\"https://www.merriam-webster.com/dictionary/au%20contraire\">merriam-webster.com/dictionary/au%…</a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/github\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "PS I realize now that you actually speak French, and I have no idea if \"au contraire\" means what I think it means, or has any of the same joke-y connotations, in it's native tounge <a href=\"https://www.merriam-webster.com/dictionary/au%20contraire\">merriam-webster.com/dictionary/au%…</a>",
+        "text": "PS I realize now that you actually speak French, and I have no idea if \"au contraire\" means what I think it means, or has any of the same joke-y connotations, in it's native tounge merriam-webster.com/dictionary/au%…"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/27/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1243579111999709184",
+      "published": "2020-03-27T16:42:19+00:00",
+      "wm-received": "2020-03-27T17:21:38Z",
+      "wm-id": 775941,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1243576443365457930/1243579111999709184",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/27/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Gift to the project, or gift to the maintainer? 😅\n<a class=\"u-mention\" href=\"https://twitter.com/etportis\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/github\"></a>",
+        "html": "Gift to the project, or gift to the maintainer? 😅",
+        "text": "Gift to the project, or gift to the maintainer? 😅"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/27/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1243579385128587268",
+      "published": "2020-03-27T16:43:24+00:00",
+      "wm-received": "2020-03-27T17:22:17Z",
+      "wm-id": 775943,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1243576443365457930/1243579385128587268",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/27/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "I believe it means what you think it means! 👍\n<a class=\"u-mention\" href=\"https://twitter.com/etportis\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/github\"></a>",
+        "html": "I believe it means what you think it means! 👍",
+        "text": "I believe it means what you think it means! 👍"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/27/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Eric Portis",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/558b4c45b7bd5a1107c170e4bb77e2f8cd7f59bf7eda42756b5a7b93c24753a2.png",
+        "url": "https://twitter.com/etportis"
+      },
+      "url": "https://twitter.com/etportis/status/1243581319172354048",
+      "published": "2020-03-27T16:51:05+00:00",
+      "wm-received": "2020-03-27T17:20:50Z",
+      "wm-id": 775938,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1243576443365457930/1243581319172354048",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/27/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "The maintainer, the project's *goals*, its users, and its users' users!\n\nWhat I'm trying to say is: thanks (:\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/github\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "The maintainer, the project's *goals*, its users, and its users' users!<br /><br />What I'm trying to say is: thanks (:",
+        "text": "The maintainer, the project's *goals*, its users, and its users' users!\n\nWhat I'm trying to say is: thanks (:"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/27/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1243581812452012039",
+      "published": "2020-03-27T16:53:03+00:00",
+      "wm-received": "2020-03-27T17:21:20Z",
+      "wm-id": 775939,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1243576443365457930/1243581812452012039",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/27/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "You’re welcome!\n\nIn fact, I’m not sure I follow what you mean, I understand you say all open source projects aim to disappear, while most are useful and have no alternatives, or proprietary ones.\n<a class=\"u-mention\" href=\"https://twitter.com/etportis\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/github\"></a>",
+        "html": "You’re welcome!<br /><br />In fact, I’m not sure I follow what you mean, I understand you say all open source projects aim to disappear, while most are useful and have no alternatives, or proprietary ones.",
+        "text": "You’re welcome!\n\nIn fact, I’m not sure I follow what you mean, I understand you say all open source projects aim to disappear, while most are useful and have no alternatives, or proprietary ones."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/27/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Eric Portis",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/558b4c45b7bd5a1107c170e4bb77e2f8cd7f59bf7eda42756b5a7b93c24753a2.png",
+        "url": "https://twitter.com/etportis"
+      },
+      "url": "https://twitter.com/etportis/status/1243582771894685697",
+      "published": "2020-03-27T16:56:52+00:00",
+      "wm-received": "2020-03-27T17:20:10Z",
+      "wm-id": 775936,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1243576443365457930/1243582771894685697",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/27/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Exactly! So I feel quite lucky to have someone do what I was trying to do, but better.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/github\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "Exactly! So I feel quite lucky to have someone do what I was trying to do, but better.",
+        "text": "Exactly! So I feel quite lucky to have someone do what I was trying to do, but better."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/27/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "berkes",
+        "photo": "https://webmention.io/avatar/mamot.fr/d8bf41fc3d29bb41e5fac1a5dd443b2f75c97d4a0f44a047160209c68f06712a.jpg",
+        "url": "https://bitcoinhackers.org/@berkes"
+      },
+      "url": "https://mamot.fr/@nhoizey/103895974140931331#reblogged-by-234556",
+      "published": null,
+      "wm-received": "2020-03-27T17:01:17Z",
+      "wm-id": 775932,
+      "wm-source": "https://brid-gy.appspot.com/repost/mastodon/@nhoizey@mamot.fr/103895974140931331/234556",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/27/2/",
+      "repost-of": "https://nicolas-hoizey.com/notes/2020/03/27/2/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1243584523096424448",
+      "published": "2020-03-27T17:03:49+00:00",
+      "wm-received": "2020-03-27T17:20:30Z",
+      "wm-id": 775937,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1243576443365457930/1243584523096424448",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/27/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Oh, now I understand what you mean, and I’m really happy you think what I did is valuable. 😊\n\nI know it is powerful, it works for my use cases, but it still lacks proper documentation for people trying to use it.\n<a class=\"u-mention\" href=\"https://twitter.com/etportis\"></a>",
+        "html": "Oh, now I understand what you mean, and I’m really happy you think what I did is valuable. 😊<br /><br />I know it is powerful, it works for my use cases, but it still lacks proper documentation for people trying to use it.",
+        "text": "Oh, now I understand what you mean, and I’m really happy you think what I did is valuable. 😊\n\nI know it is powerful, it works for my use cases, but it still lacks proper documentation for people trying to use it."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/27/2/",
+      "wm-property": "in-reply-to",
       "wm-private": false
     }
   ]
