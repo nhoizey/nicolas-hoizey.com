@@ -103,53 +103,18 @@ module.exports = function (eleventyConfig) {
   // Shortcodes
   // ------------------------------------------------------------------------
 
-  eleventyConfig.addNunjucksShortcode('youtube', function (id) {
-    return `<figure class="video"><iframe width="784" height="441" src="https://www.youtube.com/embed/${id}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure>`;
+  glob.sync('src/_11ty/shortcodes/*.js').forEach((file) => {
+    let shortcodes = require('./' + file);
+    Object.keys(shortcodes).forEach((name) => {
+      eleventyConfig.addNunjucksShortcode(name, shortcodes[name]);
+    });
   });
 
-  eleventyConfig.addNunjucksShortcode('vimeo', function (id) {
-    return `<figure class="video"><iframe width="784" height="441" src="https://player.vimeo.com/video/${id}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure>`;
-  });
-
-  eleventyConfig.addNunjucksShortcode('caniuse', function (id) {
-    return `<figure><img src="https://caniuse.bitsofco.de/image/${id}.png" alt="Browser support for feature “${id}“" width="800" /><figcaption><a href="https://caniuse.com/#feat=${id}">Can I Use ${id}?</a></figcaption></figure>`;
-  });
-
-  eleventyConfig.addNunjucksShortcode('giphy', function (id) {
-    const cloudinaryPrefix = 'https://res.cloudinary.com/nho/image/fetch';
-    const giphyImage = `https://media.giphy.com/media/${id}/giphy.gif`;
-    webmSource = `<source src="${cloudinaryPrefix}/f_webm/${giphyImage}" type="video/webm">`;
-    mp4Source = `<source src="${cloudinaryPrefix}/f_mp4/${giphyImage}" type="video/mp4">`;
-    posterUrl = `${cloudinaryPrefix}/f_jpg/${giphyImage}`;
-    fallback = `<p>Your browser doesn't support video. See <a href="${giphyImage}">the animated GIF</a>.</p>`;
-    // videoTag = "<video controls loop muted playsinline preload=\"auto\" crossorigin=\"anonymous\" poster=\"#{posterUrl}\">#{webmSource}#{mp4Source}#{fallback}</video>"
-    videoTag = `<video controls loop muted playsinline preload="auto" crossorigin="anonymous">${webmSource}${mp4Source}${fallback}</video>`;
-
-    return `<div class="giphy">${videoTag}</div>`;
-  });
-
-  const getShareImage = require('@jlengstorf/get-share-image').default;
-  eleventyConfig.addNunjucksShortcode('ogImage', (title) => {
-    return title
-      ? getShareImage({
-          imageWidth: 1200,
-          imageHeight: 630,
-          cloudName: 'nho',
-          imagePublicID: 'resources/opengraph-background',
-          titleFont: 'Noto Serif',
-          textAreaWidth: 1100,
-          textLeftOffset: 50,
-          titleBottomOffset: 330,
-          titleFontSize: 50 + Math.max(0, 30 - title.length),
-          title: title,
-        })
-      : '';
-  });
-
-  eleventyConfig.addPairedShortcode('markdown', (content, inline = null) => {
-    return inline
-      ? markdownIt.renderInline(content)
-      : markdownIt.render(content);
+  glob.sync('src/_11ty/pairedShortcodes/*.js').forEach((file) => {
+    let pairedShortcodes = require('./' + file);
+    Object.keys(pairedShortcodes).forEach((name) => {
+      eleventyConfig.addPairedShortcode(name, pairedShortcodes[name]);
+    });
   });
 
   // ------------------------------------------------------------------------
