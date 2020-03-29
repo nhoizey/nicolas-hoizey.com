@@ -5,88 +5,12 @@ module.exports = function (eleventyConfig) {
   // Collections
   // ------------------------------------------------------------------------
 
-  eleventyConfig.addCollection('articles', function (collection) {
-    return collection.getFilteredByGlob('src/articles/**/*.md').sort((a, b) => {
-      return b.date - a.date;
+  glob.sync('src/_11ty/collections/*.js').forEach((file) => {
+    let collection = require('./' + file);
+    Object.keys(collection).forEach((name) => {
+      eleventyConfig.addCollection(name, collection[name]);
     });
   });
-
-  // promoted articles, but not the latest article at all
-  eleventyConfig.addCollection('promoted', function (collection) {
-    return collection
-      .getFilteredByGlob('src/articles/**/*.md')
-      .sort((a, b) => {
-        return b.date - a.date;
-      })
-      .slice(1)
-      .filter((article) => article.data.promoted);
-  });
-
-  eleventyConfig.addCollection('links', function (collection) {
-    return collection.getFilteredByGlob('src/links/**/*.md').sort((a, b) => {
-      return b.date - a.date;
-    });
-  });
-
-  const hashtagsToTags = require('./src/_utils/hashtags').hashtagsToTags;
-  eleventyConfig.addCollection('notes', function (collection) {
-    return collection
-      .getFilteredByGlob('src/notes/**/*.md')
-      .map((note) => {
-        // TODO: deal with hashtags only once
-        note.data.tags = [
-          ...new Set(
-            [].concat(
-              ...note.data.tags,
-              ...hashtagsToTags(note.template.frontMatter.content)
-            )
-          ),
-        ];
-        note.data.rawContent = note.template.frontMatter.content;
-        return note;
-      })
-      .sort((a, b) => {
-        return b.date - a.date;
-      });
-  });
-
-  const yearsWithContent = require('./src/_utils/content-by-date')
-    .yearsWithContent;
-  eleventyConfig.addCollection('yearsWithArticles', (collection) => {
-    return yearsWithContent(
-      collection.getFilteredByGlob('src/articles/**/*.md')
-    );
-  });
-  eleventyConfig.addCollection('yearsWithLinks', (collection) => {
-    return yearsWithContent(collection.getFilteredByGlob('src/links/**/*.md'));
-  });
-  eleventyConfig.addCollection('yearsWithNotes', (collection) => {
-    return yearsWithContent(collection.getFilteredByGlob('src/notes/**/*.md'));
-  });
-
-  // collections for yearly archives
-  const contentsByYear = require('./src/_utils/content-by-date').contentByYear;
-  ['articles', 'links', 'notes'].forEach((collectionName) => {
-    eleventyConfig.addCollection(`${collectionName}ByYear`, (collection) => {
-      return contentsByYear(
-        collection.getFilteredByGlob(`src/${collectionName}/**/*.md`)
-      );
-    });
-  });
-
-  // collections for monthly archives
-  const contentsByMonth = require('./src/_utils/content-by-date')
-    .contentByMonth;
-  ['articles', 'links', 'notes'].forEach((collectionName) => {
-    eleventyConfig.addCollection(`${collectionName}ByMonth`, (collection) => {
-      return contentsByMonth(
-        collection.getFilteredByGlob(`src/${collectionName}/**/*.md`)
-      );
-    });
-  });
-
-  eleventyConfig.addCollection('tags', require('./src/_11ty/getTags'));
-  eleventyConfig.addCollection('mainTags', require('./src/_11ty/getMainTags'));
 
   // ------------------------------------------------------------------------
   // Filters
