@@ -1,20 +1,22 @@
 pre {
   padding: 0;
-  margin: $baseline 0;  
+  margin: $baseline 0;
   overflow-x: auto;
 }
 
 code {
   margin: 0;
-  padding: .1em .3em;
-  border-radius: .3em;
-  background-color: $inline-code-background-color;
-  color: $inline-code-text-color;
+  padding: 0.1em 0.3em;
+  border-radius: 0.3em;
+  background-color: #fff4d1;
+  color: currentColor;
 }
 
 pre code {
   width: 100%;
-  padding: .5em;
+  padding: 0.5em;
+  background-color: $inline-code-background-color;
+  color: $inline-code-text-color;
 }
 
 kbd {
@@ -33,13 +35,15 @@ code {
   border-radius: 0.2em;
 }
 
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
   kbd,
   code {
     font-size: 1em;
     font-weight: normal;
-    background-color: #fff4d1;
-    color: currentColor;
   }
 }
 
@@ -61,4 +65,3 @@ a:active {
     background-color: transparent;
   }
 }
-
