@@ -7,6 +7,8 @@ tags:  [fail, Chrome]
 
 It was the first time I really tried to use Web technologies instead of Powerpoint to create slides for a talk. The aim was to be able to demonstrate some cool responsive images features right inside the slides. But when I tried to put big emojis is these slides to emphasize reactions to these features, I discovered Chrome didn't show some of them!
 
+![Chrome logo](/assets/logos/chrome.png){.logo}
+
 I tried in Firefox, and it did show the emojis without any issue. Unfortunately, Firefox on macOS doesn't have a real fullscreen option appart from the one you can start with JavaScript, so I had to use Chrome.
 
 I found the maximum `font-size` after which Chrome didn't show the emojis anymore was `128px`:
