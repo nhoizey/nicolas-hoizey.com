@@ -7,7 +7,7 @@ pagination:
     - all
   addAllPagesToCollections: true
 layout: page
-renderData:
+eleventyComputed:
   title: Contents tagged “{{ tag.tag }}”
 permalink: /tags/{{ tag.slug }}/
 ---
