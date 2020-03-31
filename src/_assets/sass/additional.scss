@@ -1,12 +1,12 @@
-@import "settings";
-@import "utilities";
-@import "components/toast";
-@import "components/notification";
-@import "components/comments";
-@import "components/webmentions";
-@import "components/tagscloud";
-@import "components/code";
-@import "highlight/prism-onedark";
+@import 'settings';
+@import 'utilities';
+@import 'components/toast';
+@import 'components/notification';
+@import 'components/comments';
+@import 'components/webmentions';
+@import 'components/tagscloud';
+@import 'components/code';
+@import 'highlight/prism-onedark';
 
 // ************************************************************
 // no delay on focusable elements in iOS:
@@ -56,7 +56,7 @@ article {
       position: absolute;
       left: 0.1em;
       top: 0.1em;
-      content: "\201C";
+      content: '\201C';
       color: $color-primary;
       font-size: 3em;
       line-height: 1;
@@ -77,7 +77,7 @@ article {
 
   table {
     border-collapse: collapse;
-    font-feature-settings: "tnum" 1;
+    font-feature-settings: 'tnum' 1;
 
     @supports (font-variant-numeric: tabular-nums) {
       font-feature-settings: normal;
@@ -235,19 +235,19 @@ article {
 }
 
 // File link icons
-a[href$=".zip"],
-a[href$=".kml"] {
+a[href$='.zip'],
+a[href$='.kml'] {
   padding-left: 1.6em;
   background-size: 1.4em 1.4em;
   background-position: 0 0;
   background-repeat: no-repeat;
 }
 
-a[href$=".zip"] {
+a[href$='.zip'] {
   background-image: url(/assets/icons/zip.svg);
 }
 
-a[href$=".kml"] {
+a[href$='.kml'] {
   background-image: url(/assets/icons/kml.svg);
 }
 
@@ -278,8 +278,6 @@ a.icon {
   text-decoration: none;
 
   svg {
-    width: 1em;
-    height: 1em;
     fill: currentColor;
   }
 
@@ -349,7 +347,7 @@ body {
     page-break-before: avoid;
   }
 
-  a[href^="http"]:after {
-    content: " &lt; " attr(href) "&gt; ";
+  a[href^='http']:after {
+    content: ' &lt; ' attr(href) '&gt; ';
   }
 }

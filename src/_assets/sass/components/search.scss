@@ -17,7 +17,7 @@
     outline: none;
   }
 
-  [type="search"] {
+  [type='search'] {
     background-color: $color-primary-lighter-4;
     border: 2px solid $color-primary-lighter-2;
     color: #111;
@@ -39,7 +39,7 @@
     }
   }
 
-  [type="submit"] {
+  [type='submit'] {
     background-color: $color-primary-lighter-4;
     border: 2px solid $color-primary-lighter-2;
     color: #fff;
@@ -53,10 +53,9 @@
   }
 
   svg {
-    vertical-align: middle;
     width: 0.8em;
     height: 0.8em;
-    fill: $color-primary-lighter-1;
+    fill: $color-primary;
   }
 }
 
