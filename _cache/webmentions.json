@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-03-28T22:29:18.081Z",
+  "lastFetched": "2020-03-31T17:56:53.062Z",
   "webmentions": [
     {
       "type": "entry",
@@ -50095,6 +50095,120 @@
       },
       "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/28/1/",
       "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Christophe Lauer",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f91d1d84cdf2c036d53dbc527da510b55cc321eb2e7dabcf97d7b36c6c4dd8e5.jpg",
+        "url": "https://twitter.com/clauer"
+      },
+      "url": "https://twitter.com/clauer/status/1244931866957930498",
+      "published": "2020-03-31T10:17:41+00:00",
+      "wm-received": "2020-03-31T12:10:58Z",
+      "wm-id": 776942,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1244931480356376578/1244931866957930498",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/03/31/after-gdpr-the-new-york-times-cut-off-ad-exchanges-in-europe-and-kept-growing-ad-revenue/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Ahah très cool oui merci je ne me souvenais plus de quel journal il s'agissait mais en effet il y avait le NYT et un autre au NL aussi\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "Ahah très cool oui merci je ne me souvenais plus de quel journal il s'agissait mais en effet il y avait le NYT et un autre au NL aussi",
+        "text": "Ahah très cool oui merci je ne me souvenais plus de quel journal il s'agissait mais en effet il y avait le NYT et un autre au NL aussi"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/03/31/after-gdpr-the-new-york-times-cut-off-ad-exchanges-in-europe-and-kept-growing-ad-revenue/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1244934428452937734",
+      "published": "2020-03-31T10:27:52+00:00",
+      "wm-received": "2020-03-31T12:11:14Z",
+      "wm-id": 776944,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1244931480356376578/1244934428452937734",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/03/31/after-gdpr-the-new-york-times-cut-off-ad-exchanges-in-europe-and-kept-growing-ad-revenue/",
+      "content": {
+        "content-type": "text/html",
+        "value": "J’en ai vu passer plusieurs, ça fait plaisir de voir qu’il y a une vraie pertinence business à diminuer le tracking/ciblage individuel.\n<a class=\"u-mention\" href=\"https://twitter.com/clauer\"></a>",
+        "html": "J’en ai vu passer plusieurs, ça fait plaisir de voir qu’il y a une vraie pertinence business à diminuer le tracking/ciblage individuel.",
+        "text": "J’en ai vu passer plusieurs, ça fait plaisir de voir qu’il y a une vraie pertinence business à diminuer le tracking/ciblage individuel."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/03/31/after-gdpr-the-new-york-times-cut-off-ad-exchanges-in-europe-and-kept-growing-ad-revenue/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Christophe Lauer",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f91d1d84cdf2c036d53dbc527da510b55cc321eb2e7dabcf97d7b36c6c4dd8e5.jpg",
+        "url": "https://twitter.com/clauer"
+      },
+      "url": "https://twitter.com/clauer/status/1244940434180313088",
+      "published": "2020-03-31T10:51:44+00:00",
+      "wm-received": "2020-03-31T12:10:48Z",
+      "wm-id": 776941,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1244931480356376578/1244940434180313088",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/03/31/after-gdpr-the-new-york-times-cut-off-ad-exchanges-in-europe-and-kept-growing-ad-revenue/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Tiens, voici une autre réponse à une question posée ce matin, à première vue chez Microsoft on confirme l'évolution vers Chromium pour Edge dans des versions à venir : <a href=\"https://blogs.windows.com/windowsexperience/2020/03/30/the-top-10-reasons-to-switch-to-the-new-microsoft-edge/\">blogs.windows.com/windowsexperie…</a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "Tiens, voici une autre réponse à une question posée ce matin, à première vue chez Microsoft on confirme l'évolution vers Chromium pour Edge dans des versions à venir : <a href=\"https://blogs.windows.com/windowsexperience/2020/03/30/the-top-10-reasons-to-switch-to-the-new-microsoft-edge/\">blogs.windows.com/windowsexperie…</a>",
+        "text": "Tiens, voici une autre réponse à une question posée ce matin, à première vue chez Microsoft on confirme l'évolution vers Chromium pour Edge dans des versions à venir : blogs.windows.com/windowsexperie…"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/03/31/after-gdpr-the-new-york-times-cut-off-ad-exchanges-in-europe-and-kept-growing-ad-revenue/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1244941158977089537",
+      "published": "2020-03-31T10:54:36+00:00",
+      "wm-received": "2020-03-31T12:11:07Z",
+      "wm-id": 776943,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1244931480356376578/1244941158977089537",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/03/31/after-gdpr-the-new-york-times-cut-off-ad-exchanges-in-europe-and-kept-growing-ad-revenue/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Oui, c’est une actualité qu’on suit depuis quelque temps maintenant, vu que ce qu’on produit se retrouve dans ces différents navigateurs.\n\nC’est dommage pour la diversité des moteurs de navigateurs, mais Microsoft semble aider à rendre Chromium moins Google, c’est pas mal.\n<a class=\"u-mention\" href=\"https://twitter.com/clauer\"></a>",
+        "html": "Oui, c’est une actualité qu’on suit depuis quelque temps maintenant, vu que ce qu’on produit se retrouve dans ces différents navigateurs.<br /><br />C’est dommage pour la diversité des moteurs de navigateurs, mais Microsoft semble aider à rendre Chromium moins Google, c’est pas mal.",
+        "text": "Oui, c’est une actualité qu’on suit depuis quelque temps maintenant, vu que ce qu’on produit se retrouve dans ces différents navigateurs.\n\nC’est dommage pour la diversité des moteurs de navigateurs, mais Microsoft semble aider à rendre Chromium moins Google, c’est pas mal."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/03/31/after-gdpr-the-new-york-times-cut-off-ad-exchanges-in-europe-and-kept-growing-ad-revenue/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Christophe Lauer",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f91d1d84cdf2c036d53dbc527da510b55cc321eb2e7dabcf97d7b36c6c4dd8e5.jpg",
+        "url": "https://twitter.com/clauer"
+      },
+      "url": "https://twitter.com/nhoizey/status/1244931480356376578#favorited-by-1155631",
+      "published": null,
+      "wm-received": "2020-03-31T12:11:40Z",
+      "wm-id": 776945,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1244931480356376578/1155631",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/03/31/after-gdpr-the-new-york-times-cut-off-ad-exchanges-in-europe-and-kept-growing-ad-revenue/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/03/31/after-gdpr-the-new-york-times-cut-off-ad-exchanges-in-europe-and-kept-growing-ad-revenue/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
