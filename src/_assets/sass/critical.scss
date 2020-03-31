@@ -194,8 +194,6 @@ a.deeplink:visited {
   }
 
   svg {
-    width: 1em;
-    height: 1em;
     fill: $link-decoration-color;
   }
 }
@@ -250,6 +248,12 @@ img {
   height: auto;
   opacity: 1;
   transition: opacity 0.3s;
+}
+
+svg {
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
 }
 
 video {
