@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-03-31T17:56:53.062Z",
+  "lastFetched": "2020-04-01T22:16:31.565Z",
   "webmentions": [
     {
       "type": "entry",
@@ -50208,6 +50208,78 @@
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1244931480356376578/1155631",
       "wm-target": "https://nicolas-hoizey.com/links/2020/03/31/after-gdpr-the-new-york-times-cut-off-ad-exchanges-in-europe-and-kept-growing-ad-revenue/",
       "like-of": "https://nicolas-hoizey.com/links/2020/03/31/after-gdpr-the-new-york-times-cut-off-ad-exchanges-in-europe-and-kept-growing-ad-revenue/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "The Realest",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/028e8dc0b80dc7980b3ec2bfa612ba363cc630805d1145c4157ca3170e4133f3.png",
+        "url": "https://twitter.com/realglenndixon"
+      },
+      "url": "https://twitter.com/nhoizey/status/1245121291981643778#favorited-by-765536236807204864",
+      "published": null,
+      "wm-received": "2020-04-01T00:33:23Z",
+      "wm-id": 777300,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1245121291981643778/765536236807204864",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/01/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/04/01/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Eric Portis",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/558b4c45b7bd5a1107c170e4bb77e2f8cd7f59bf7eda42756b5a7b93c24753a2.png",
+        "url": "https://twitter.com/etportis"
+      },
+      "url": "https://twitter.com/nhoizey/status/1245121291981643778#favorited-by-528720846",
+      "published": null,
+      "wm-received": "2020-04-01T05:14:49Z",
+      "wm-id": 777351,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1245121291981643778/528720846",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/01/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/04/01/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "m4dz",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/77cffe02fd7dc6e59f33129df7d8cd1e701d0dfb11e187ee7328ef17b268a26b.jpg",
+        "url": "https://twitter.com/m4d_z"
+      },
+      "url": "https://twitter.com/nhoizey/status/1245121291981643778#favorited-by-81091261",
+      "published": null,
+      "wm-received": "2020-04-01T09:22:51Z",
+      "wm-id": 777459,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1245121291981643778/81091261",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/01/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/04/01/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Arnaud Ligny 👨‍💻 💡 🚀",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/29bed4d1c9d7e7ea7326cb2578f8d22681f86cbb34f1d62847bf5406970d283d.jpg",
+        "url": "https://twitter.com/ArnaudLigny"
+      },
+      "url": "https://twitter.com/nhoizey/status/1245121291981643778#favorited-by-155551263",
+      "published": null,
+      "wm-received": "2020-04-01T20:58:13Z",
+      "wm-id": 777636,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1245121291981643778/155551263",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/01/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/04/01/1/",
       "wm-property": "like-of",
       "wm-private": false
     }
