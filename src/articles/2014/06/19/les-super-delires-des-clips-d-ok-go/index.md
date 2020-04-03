@@ -11,7 +11,7 @@ Voilà déjà 5 ans que j'ai découvert le groupe de rock [OK Go](http://fr.wiki
 
 Voici en effet en 2010 un [clip pour la chanson « This Too Shall Pass »](https://www.youtube.com/watch?v=qybUFnY7Y8w), utilisant une [machine de Rube Goldberg](http://fr.wikipedia.org/wiki/Machine_de_Rube_Goldberg) dans un immense entrepôt[^1] :
 
-[^1]: En fait il y avait déjà [un autre clip sympa pour la chanson « This Too Shall Pass »](https://www.youtube.com/watch?v=UJKythlXAIY], mais il était moins bluffant.)
+[^1]: En fait il y avait déjà [un autre clip sympa pour la chanson « This Too Shall Pass »](https://www.youtube.com/watch?v=UJKythlXAIY), mais il était moins bluffant.
 
 {% youtube "qybUFnY7Y8w" %}
 
@@ -19,7 +19,7 @@ La vidéo a été vue plus de 43 millions de fois sur YouTube.
 
 Cela devrait rappeler à certains d'entre vous le jeu « [The Incredible Machine](http://fr.wikipedia.org/wiki/The_Incredible_Machine) », une merveille sur laquelle j'ai passé des heures il y a bien longtemps[^2].
 
-[^2]: Les plus jeunes connaissent peut-être plus « [Amazing Alex](http://www.amazingalex.com/) » de Rovio (Angry Birds), mais je ne l'ai vraiment pas trouvé à la hauteur de sa référence…]
+[^2]: Les plus jeunes connaissent peut-être plus « [Amazing Alex](http://www.amazingalex.com/) » de Rovio (Angry Birds), mais je ne l'ai vraiment pas trouvé à la hauteur de sa référence…
 
 Ils sont allés jusqu'à mettre en ligne [le making of du clip](http://media.okgo.net/ttsp/FloorPlan_TV.html), très intéressant :
 
