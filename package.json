@@ -16,7 +16,7 @@
     "url": "https://github.com/nhoizey/nicolas-hoizey.com"
   },
   "scripts": {
-    "clean": "rimraf dist src/_generated/*",
+    "clean": "rimraf dist/* src/_generated/*",
     "prestart": "npm run clean",
     "prebuild": "npm run clean",
     "js:build": "rollup --config rollup-js.config.js",
