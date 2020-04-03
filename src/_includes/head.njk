@@ -6,8 +6,11 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 
-  <style>{% include_raw "src/_generated/" + hashes['critical.css'] %}</style>
-  <script>{% include_raw "src/_generated/critical.min.js" %}</script>
+  {% set criticalCss %}{% include_raw "src/_generated/" + hashes['critical.css'] %}{% endset %}
+  <style>{{ criticalCss | replace('&#39;', '"') | safe }}</style>
+
+  {% set criticalJs %}{% include_raw "src/_generated/critical.min.js" %}{% endset %}
+  <script>{{ criticalJs | replace('&quot;', '"') | safe }}</script>
 
   {# Google Analytics #}
   {% if build.env.NODE_ENV === "production" %}
