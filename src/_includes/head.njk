@@ -7,10 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 
   {% set criticalCss %}{% include_raw "src/_generated/" + hashes['critical.css'] %}{% endset %}
-  <style>{{ criticalCss | replace('&#39;', '"') | safe }}</style>
+  <style>{{ criticalCss | safe }}</style>
 
   {% set criticalJs %}{% include_raw "src/_generated/critical.min.js" %}{% endset %}
-  <script>{{ criticalJs | replace('&quot;', '"') | safe }}</script>
+  <script>{{ criticalJs | safe }}</script>
 
   {# Google Analytics #}
   {% if build.env.NODE_ENV === "production" %}
