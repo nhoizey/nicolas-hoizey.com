@@ -6,7 +6,7 @@ import { terser } from 'rollup-plugin-terser';
 const files = {
   critical: {
     src: './src/_assets/scripts/critical.js',
-    dist: './src/_includes/generated/critical.min.js',
+    dist: './src/_generated/critical.min.js',
   },
   additional: {
     src: './src/_assets/scripts/additional.js',

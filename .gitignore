@@ -3,4 +3,5 @@ dist
 _logs
 _scripts
 .env
-src/_includes/generated
+src/_generated
+hashes.json

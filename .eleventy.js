@@ -173,15 +173,14 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setDataDeepMerge(true);
   eleventyConfig.setQuietMode(true);
 
-  eleventyConfig.addWatchTarget('./src/_includes/generated/critical.css');
-  eleventyConfig.addWatchTarget('./src/_includes/generated/critical.js');
-  eleventyConfig.addWatchTarget('./dist/css/additional.css');
-  eleventyConfig.addWatchTarget('./dist/js/additional.js');
+  eleventyConfig.addWatchTarget('./src/_generated/*');
+  eleventyConfig.addWatchTarget('./dist/css/*');
+  eleventyConfig.addWatchTarget('./dist/js/*');
 
   eleventyConfig.setBrowserSyncConfig({
     ui: false,
     ghostMode: false,
-    // files: ['src/_includes/generated', 'dist/css', 'dist/js'],
+    // files: ['src/_generated', 'dist/css', 'dist/js'],
   });
 
   return {

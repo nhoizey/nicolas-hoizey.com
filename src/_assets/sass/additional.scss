@@ -1,12 +1,12 @@
-@import 'settings';
-@import 'utilities';
-@import 'components/toast';
-@import 'components/notification';
-@import 'components/comments';
-@import 'components/webmentions';
-@import 'components/tagscloud';
-@import 'components/code';
-@import 'highlight/prism-onedark';
+@import '_settings.scss';
+@import '_utilities.scss';
+@import 'components/toast.scss';
+@import 'components/notification.scss';
+@import 'components/comments.scss';
+@import 'components/webmentions.scss';
+@import 'components/tagscloud.scss';
+@import 'components/code.scss';
+@import 'highlight/_prism-onedark.scss';
 
 // ************************************************************
 // no delay on focusable elements in iOS:
@@ -184,7 +184,7 @@ article {
     color: $color-darkgrey;
 
     // https://sass-lang.com/documentation/style-rules/declarations#custom-properties
-    --link-decoration-color: #{$color-grey};
+    --link-decoration-color: $color-grey;
   }
 }
 
@@ -292,20 +292,6 @@ body {
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: contain;
-
-  // background-image: url("#{$cloudinary-prefix}640/https://nicolas-hoizey.com/assets/limbes.jpg");
-
-  // @media (min-width: 640px), (min-resolution: 2dppx) {
-  //   background-image: url("#{$cloudinary-prefix}1024/https://nicolas-hoizey.com/assets/limbes.jpg");
-  // }
-
-  // @media (min-width: 1024px), (min-width: 512px) and (min-resolution: 2dppx) {
-  //   background-image: url("#{$cloudinary-prefix}1280/https://nicolas-hoizey.com/assets/limbes.jpg");
-  // }
-
-  // @media (min-width: 1280px), (min-width: 640px) and (min-resolution: 2dppx) {
-  //   background-image: url("#{$cloudinary-prefix}1534/https://nicolas-hoizey.com/assets/limbes.jpg");
-  // }
 }
 
 // ************************************************************
