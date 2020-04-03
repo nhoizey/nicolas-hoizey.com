@@ -13,9 +13,9 @@ module.exports = {
     './about/the-website.html',
     './offline.html',
     './offline-fallback.html',
-    './manifest.webmanifest'
+    './manifest.webmanifest',
   ],
   swSrc: path.join(BUILD_DIR, 'sw.js'),
   swDest: path.join(BUILD_DIR, 'sw.js'),
-  mode: "production"
+  mode: 'production',
 };

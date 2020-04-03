@@ -13,7 +13,9 @@
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
-  animation-play-state: paused !important;
+  * {
+    animation-play-state: paused !important;
+  }
 }
 
 // Visually hidden (but screen reader friendly) content

@@ -6,9 +6,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 
-  {# TODO: use minified version of the CSS #}
-  <style>{% include "generated/critical.css" %}</style>
-  <script>{% include "generated/critical.min.js" %}</script>
+  <style>{% include_raw "src/_generated/" + hashes['critical.css'] %}</style>
+  <script>{% include_raw "src/_generated/critical.min.js" %}</script>
 
   {# Google Analytics #}
   {% if build.env.NODE_ENV === "production" %}
