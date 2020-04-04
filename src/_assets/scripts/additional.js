@@ -57,6 +57,7 @@ if (!('connection' in navigator) || navigator.connection.saveData !== true) {
  * Autoplay Giphy videos when possible
  * ****************************************************************/
 
+// TODO: use IntersectionObserver to play the video only when visible in the viewport?
 let gifs = document.querySelectorAll('.giphy video');
 let gifsNumber = gifs.length;
 
@@ -74,8 +75,12 @@ if (gifsNumber > 0) {
       }
     }
   }
-  handleReducedMotionChanged(); // trigger this once on load to set up the initial value
-  prefersReducedMotion.addListener(handleReducedMotionChanged); // Note: https://webkit.org/b/168491
+
+  // trigger this once on load to set up the initial value
+  handleReducedMotionChanged();
+
+  // Note: https://webkit.org/b/168491
+  prefersReducedMotion.addListener(handleReducedMotionChanged);
 }
 
 /*****************************************************************
