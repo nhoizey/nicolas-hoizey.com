@@ -10,7 +10,7 @@ module.exports = {
     },
     'postcss-hash': {
       trim: 10,
-      manifest: 'src/_data/hashes.json',
+      manifest: 'src/_data/hashes_css.json',
     },
   },
 };

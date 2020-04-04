@@ -2,20 +2,7 @@ import babel from 'rollup-plugin-babel';
 import commonjs from 'rollup-plugin-commonjs';
 import resolve from '@rollup/plugin-node-resolve';
 import { terser } from 'rollup-plugin-terser';
-
-const files = {
-  critical: {
-    src: './src/_assets/scripts/critical.js',
-    dist: './src/_generated/critical.min.js',
-  },
-  additional: {
-    src: './src/_assets/scripts/additional.js',
-    dist: {
-      iife: './dist/js/additional.iife.min.js',
-      esm: './dist/js/additional.esm.min.js',
-    },
-  },
-};
+import entrypointHashmanifest from 'rollup-plugin-entrypoint-hashmanifest';
 
 const plugins = [
   commonjs(),
@@ -26,38 +13,56 @@ const plugins = [
   terser(),
 ];
 
-let rollupBuilds = [
+const pluginsAdditionalIife = [
+  commonjs(),
+  resolve(),
+  babel({
+    exclude: 'node_modules/**',
+  }),
+  terser(),
+  entrypointHashmanifest({ manifestName: 'src/_data/hashes_iife.json' }),
+];
+
+const pluginsAdditionalEs = [
+  commonjs(),
+  resolve(),
+  babel({
+    exclude: 'node_modules/**',
+  }),
+  terser(),
+  entrypointHashmanifest({ manifestName: 'src/_data/hashes_es.json' }),
+];
+
+export default [
   {
-    input: files.critical.src,
-    output: [
-      {
-        file: files.critical.dist,
-        format: 'iife',
-        name: 'critical',
-      },
-    ],
-    plugins: plugins,
-  },
-  {
-    input: files.additional.src,
-    output: [
-      {
-        file: files.additional.dist.iife,
-        format: 'iife',
-        name: 'additional',
-      },
-    ],
-    plugins: plugins,
-  },
-  {
-    input: files.additional.src,
+    input: './src/_assets/scripts/critical.js',
     output: {
-      file: files.additional.dist.esm,
-      format: 'esm',
-      name: 'additional',
+      file: './src/_generated/critical.js',
+      format: 'iife',
+      name: 'critical',
+      sourcemap: true,
     },
     plugins: plugins,
   },
+  {
+    input: './src/_assets/scripts/additional.js',
+    output: {
+      dir: 'dist/js',
+      entryFileNames: '[name]-[format].[hash].js',
+      format: 'iife',
+      name: 'additional',
+      sourcemap: true,
+    },
+    plugins: pluginsAdditionalIife,
+  },
+  {
+    input: './src/_assets/scripts/additional.js',
+    output: {
+      dir: 'dist/js',
+      entryFileNames: '[name]-[format].[hash].js',
+      format: 'es',
+      sourcemap: true,
+    },
+    plugins: pluginsAdditionalEs,
+  },
 ];
-
-export default rollupBuilds;

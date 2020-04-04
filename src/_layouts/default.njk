@@ -47,14 +47,14 @@
 
     {% include "components/footer.njk" %}
 
-    <link rel="stylesheet" href="/css/{{ hashes['additional.css'] }}" />
+    <link rel="stylesheet" href="/css/{{ hashes_css['additional.css'] }}" />
 
     {#
     https://buzut.net/configurer-rollup-bundles-esm-cjs/
     https://v8.dev/features/modules#browser
     #}
-    <script async type="module" src="/js/additional.esm.min.js"></script>
-    <script async nomodule src="/js/additional.iife.min.js"></script>
+    <script async type="module" src="/js/{{ hashes_es['./src/_assets/scripts/additional.js']}}"></script>
+    <script async nomodule src="/js/{{ hashes_iife['./src/_assets/scripts/additional.js']}}"></script>
 
     <script>
     if ('serviceWorker' in navigator) {
