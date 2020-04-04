@@ -1,7 +1,14 @@
+# npp modules
 node_modules
+
+# generated files
 dist
+src/_generated
+hashes_*.json
+
+# logs
 _logs
+
+# personnal scripts and secret data
 _scripts
 .env
-src/_generated
-hashes.json
