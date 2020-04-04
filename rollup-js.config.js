@@ -4,48 +4,55 @@ import resolve from '@rollup/plugin-node-resolve';
 import { terser } from 'rollup-plugin-terser';
 import entrypointHashmanifest from 'rollup-plugin-entrypoint-hashmanifest';
 
-const plugins = [
+const plugins_critical = [
   commonjs(),
   resolve(),
   babel({
     exclude: 'node_modules/**',
   }),
   terser(),
+  entrypointHashmanifest({ manifestName: 'src/_data/hashes_critical.json' }),
 ];
 
-const pluginsAdditionalIife = [
+const plugins_additional_iife = [
   commonjs(),
   resolve(),
   babel({
     exclude: 'node_modules/**',
   }),
   terser(),
-  entrypointHashmanifest({ manifestName: 'src/_data/hashes_iife.json' }),
+  entrypointHashmanifest({
+    manifestName: 'src/_data/hashes_additional_iife.json',
+  }),
 ];
 
-const pluginsAdditionalEs = [
+const plugins_additional_es = [
   commonjs(),
   resolve(),
   babel({
     exclude: 'node_modules/**',
   }),
   terser(),
-  entrypointHashmanifest({ manifestName: 'src/_data/hashes_es.json' }),
+  entrypointHashmanifest({
+    manifestName: 'src/_data/hashes_additional_es.json',
+  }),
 ];
 
 export default [
   {
-    input: './src/_assets/scripts/critical.js',
+    input: 'src/_assets/scripts/critical.js',
     output: {
-      file: './src/_generated/critical.js',
+      dir: 'dist/js',
+      entryFileNames: '[name]-[format].[hash].js',
       format: 'iife',
       name: 'critical',
       sourcemap: true,
+      // sourcemapFile: 'dist/js/critical.js.map',
     },
-    plugins: plugins,
+    plugins: plugins_critical,
   },
   {
-    input: './src/_assets/scripts/additional.js',
+    input: 'src/_assets/scripts/additional.js',
     output: {
       dir: 'dist/js',
       entryFileNames: '[name]-[format].[hash].js',
@@ -53,16 +60,16 @@ export default [
       name: 'additional',
       sourcemap: true,
     },
-    plugins: pluginsAdditionalIife,
+    plugins: plugins_additional_iife,
   },
   {
-    input: './src/_assets/scripts/additional.js',
+    input: 'src/_assets/scripts/additional.js',
     output: {
       dir: 'dist/js',
       entryFileNames: '[name]-[format].[hash].js',
       format: 'es',
       sourcemap: true,
     },
-    plugins: pluginsAdditionalEs,
+    plugins: plugins_additional_es,
   },
 ];

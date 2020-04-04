@@ -21,7 +21,7 @@
     "prebuild": "npm run clean",
     "js:build": "rollup --config rollup-js.config.js",
     "js:watch": "rollup --config rollup-js.config.js --watch",
-    "css:critical:build": "postcss src/_assets/sass/critical.scss -o src/_generated/critical.css",
+    "css:critical:build": "postcss src/_assets/sass/critical.scss -o dist/css/critical.css",
     "css:additional:build": "postcss src/_assets/sass/additional.scss -o dist/css/additional.css",
     "css:build": "npm-run-all -p css:*:build",
     "css:watch": "npm run css:build && chokidar 'src/_assets/**/*.scss' --command 'npm run css:build'",
