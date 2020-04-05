@@ -17,10 +17,10 @@
   },
   "scripts": {
     "clean": "rimraf dist src/_generated",
+    "js:build": "rollup -c",
+    "js:watch": "rollup -c --watch",
     "css:critical:build": "postcss src/_assets/sass/critical.scss -o dist/css/critical.css",
     "css:additional:build": "postcss src/_assets/sass/additional.scss -o dist/css/additional.css",
-    "js:build": "rollup",
-    "js:watch": "rollup --watch",
     "css:build": "npm-run-all -p css:*:build",
     "css:watch": "npm run css:build && chokidar 'src/_assets/**/*.scss' --command 'npm run css:build'",
     "assets:build": "npm-run-all -p css:build js:build",
