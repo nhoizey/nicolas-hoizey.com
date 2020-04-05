@@ -17,8 +17,6 @@
   },
   "scripts": {
     "clean": "rimraf dist src/_generated",
-    "prestart": "npm run clean",
-    "prebuild": "npm run clean",
     "css:critical:build": "postcss src/_assets/sass/critical.scss -o dist/css/critical.css",
     "css:additional:build": "postcss src/_assets/sass/additional.scss -o dist/css/additional.css",
     "js:build": "rollup",
@@ -29,10 +27,10 @@
     "eleventy:build": "cross-env NODE_ENV=production eleventy",
     "eleventy:watch": "cross-env NODE_ENV=development eleventy --serve",
     "sw:build": "rollup --config rollup-serviceworker.config.js && workbox injectManifest ./workbox.config.js",
-    "build": "npm-run-all --sequential assets:build eleventy:build sw:build",
+    "build": "npm-run-all --sequential clean assets:build eleventy:build sw:build",
     "builddebug": "DEBUG=Eleventy* npm run build",
     "watch": "npm-run-all -p css:watch js:watch eleventy:watch",
-    "start": "npm-run-all --sequential assets:build watch",
+    "start": "npm-run-all --sequential clean assets:build watch",
     "startdebug": "DEBUG=Eleventy* npm start"
   },
   "devDependencies": {
