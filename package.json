@@ -22,7 +22,7 @@
     "css:critical:build": "postcss src/_assets/sass/critical.scss -o dist/css/critical.css",
     "css:additional:build": "postcss src/_assets/sass/additional.scss -o dist/css/additional.css",
     "css:build": "npm-run-all -p css:*:build",
-    "css:watch": "npm run css:build && chokidar 'src/_assets/**/*.scss' --command 'npm run css:build'",
+    "css:watch": "chokidar 'src/_assets/**/*.scss' --command 'npm run css:build'",
     "assets:build": "npm-run-all -p css:build js:build",
     "eleventy:build": "cross-env NODE_ENV=production eleventy",
     "eleventy:watch": "cross-env NODE_ENV=development eleventy --serve",
