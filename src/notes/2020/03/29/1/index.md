@@ -1,5 +1,6 @@
 ---
 date: 2020-03-29 14:43:12 +02:00
+tags: [Eleventy]
 ---
 
 I guess (without proof) #Eleventy builds including assets bundling/minifying could be accelerated with memoization.

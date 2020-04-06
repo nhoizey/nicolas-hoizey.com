@@ -1,5 +1,6 @@
 ---
 date: 2020-03-12 18:42:22 +01:00
+tags: [AMP, Google]
 ---
 
 Want another reason to hate #AMP?

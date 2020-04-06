@@ -1,5 +1,6 @@
 ---
 date: 2020-03-06 09:44:51 +01:00
+tags: [PWA]
 ---
 
 Would you like to be able to control when a #PWA is updated on your device?

@@ -1,5 +1,6 @@
 ---
 date: 2020-03-06 23:30:28 +01:00
+tags: [Cloudinary]
 ---
 
 Updated my post about #Cloudinary and GIFs to add some details about why we need to convert them to videos, and how well it works in browsers.

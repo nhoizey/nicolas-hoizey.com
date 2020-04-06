@@ -1,6 +1,7 @@
 ---
 date: 2020-02-28 22:22:52 +01:00
 lang: en
+tags: [Jekyll, Eleventy]
 ---
 
 Migration from #Jekyll to #Eleventy now complete, and even more!  💪

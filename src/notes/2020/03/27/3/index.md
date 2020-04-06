@@ -1,6 +1,6 @@
 ---
 date: 2020-03-27 22:08:44 +01:00
-tags: [RWD, image]
+tags: [RWD, image, Eleventy]
 ---
 
 > `images-responsiver` is a simple solution for most responsive images needs

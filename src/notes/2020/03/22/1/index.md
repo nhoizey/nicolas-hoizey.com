@@ -1,5 +1,6 @@
 ---
 date: 2020-03-22 13:09:43 +01:00
+tags: [Netlify]
 ---
 
 Had to cancel subscription for #Netlify Analytics on https://nho.io because it doesn't support redirects yet, it was almost useless.
