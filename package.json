@@ -18,7 +18,7 @@
   "scripts": {
     "clean": "rimraf dist src/_generated",
     "js:build": "rollup -c",
-    "js:watch": "rollup -c --watch",
+    "js:watch": "chokidar 'src/_assets/**/*.js' --command 'npm run js:build'",
     "css:critical:build": "postcss src/_assets/sass/critical.scss -o dist/css/critical.css",
     "css:additional:build": "postcss src/_assets/sass/additional.scss -o dist/css/additional.css",
     "css:build": "npm-run-all -p css:*:build",
