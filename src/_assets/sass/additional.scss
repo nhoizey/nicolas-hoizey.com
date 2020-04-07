@@ -8,22 +8,6 @@
 @import 'highlight/_prism-onedark.scss';
 
 // ************************************************************
-// no delay on focusable elements in iOS:
-// https://adactio.com/journal/10019
-// https://webkit.org/blog/5610/more-responsive-tapping-on-ios/
-// ************************************************************
-
-a,
-button,
-input,
-select,
-textarea,
-label,
-summary {
-  touch-action: manipulation;
-}
-
-// ************************************************************
 // Main content
 // ************************************************************
 
