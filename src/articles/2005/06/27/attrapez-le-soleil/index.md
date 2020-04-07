@@ -15,9 +15,9 @@ Voici quelques exemples bien sympathiques trouvés sur Flickr :
 
 <a title="Sentimental Sunlight, by hamedical" href="https://www.flickr.com/photos/hamedical/19939048/"><img src="https://photos13.flickr.com/19939048_095ce35915_m.jpg" width="240" height="159"></a>
 
-<a title="Not to be contained, by hamedical" href="https://www.flickr.com/photos/hamedical/7336364/in/set-119800/"><img src="http://photos6.flickr.com/7336364_ee6bced044_m.jpg" width="160" height="240"></a>
+<a title="Not to be contained, by hamedical" href="https://www.flickr.com/photos/hamedical/7336364/in/set-119800/"><img src="https://photos6.flickr.com/7336364_ee6bced044_m.jpg" width="160" height="240"></a>
 
-<a title="grasp the ungraspable" href="https://www.flickr.com/photos/81541643@N00/2067621/"><img src="http://photos2.flickr.com/2067621_69feb61d0a_m.jpg" width="240" height="180"></a>
+<a title="grasp the ungraspable" href="https://www.flickr.com/photos/81541643@N00/2067621/"><img src="https://photos2.flickr.com/2067621_69feb61d0a_m.jpg" width="240" height="180"></a>
 
 <a title="sunset" href="https://www.flickr.com/photos/49753917@N00/19160328/"><img src="https://photos15.flickr.com/19160328_3c65336698_m.jpg" width="182" height="240"></a>
 

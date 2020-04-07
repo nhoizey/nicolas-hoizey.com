@@ -5,7 +5,7 @@ lang:       fr
 tags:       [photography, Flickr, development, Greasemonkey]
 ---
 
-Voilà trop longtemps que je n'ai rien écrit ici. Ce n'est pas la seule raison, mais [flickRate](http://flickrate.gasteroprod.com/) occupe pas mal mon esprit ces derniers temps, il est temps d'en parler.
+Voilà trop longtemps que je n'ai rien écrit ici. Ce n'est pas la seule raison, mais [flickRate](https://flickrate.gasteroprod.com/) occupe pas mal mon esprit ces derniers temps, il est temps d'en parler.
 
 flickRate est né d'une frustration que j'avais vis à vis des favoris de [Flickr](https://flickr.com/).
 
@@ -57,19 +57,19 @@ Afin de récolter les remarques des utilisateurs et discuter des évolutions de 
 
 Pour finir en beauté[^t1], voici à ce jour les 20 photos les plus appréciées des utilisateurs de flickRate[^t2] depuis son lancement :
 
-<a href="https://www.flickr.com/photos/84796723@N00/1558605/" title="longtail on the beach, by dogsbody"><img src="http://photos2.flickr.com/1558605_af64edfa42_s.jpg" width="75" height="75" /></a>
-<a href="https://www.flickr.com/photos/47689490@N00/11757131/" title="Lucy In The Sky With Diamonds, by noqontrol"><img src="http://photos6.flickr.com/11757131_c7e7c32baf_s.jpg" width="75" height="75" /></a>
+<a href="https://www.flickr.com/photos/84796723@N00/1558605/" title="longtail on the beach, by dogsbody"><img src="https://photos2.flickr.com/1558605_af64edfa42_s.jpg" width="75" height="75" /></a>
+<a href="https://www.flickr.com/photos/47689490@N00/11757131/" title="Lucy In The Sky With Diamonds, by noqontrol"><img src="https://photos6.flickr.com/11757131_c7e7c32baf_s.jpg" width="75" height="75" /></a>
 <a href="https://www.flickr.com/photos/64235932@N00/13512288/" title="Under Rain, by Foad 2Fun"><img src="https://photos10.flickr.com/13512288_f9a2dd2e78_s.jpg" width="75" height="75" /></a>
 <a href="https://www.flickr.com/photos/38608514@N00/13466833/" title="L&apos;intÃ©rieur de la basilique de Lisieux, by Nicolas Hoizey"><img src="https://photos11.flickr.com/13466833_cf31714fa7_s.jpg" width="75" height="75" /></a>
 <a href="https://www.flickr.com/photos/59171457@N00/13251523/" title="IMG_1973, by conceptDawg"><img src="https://photos11.flickr.com/13251523_75cfb52b06_s.jpg" width="75" height="75" /></a>
-<a href="https://www.flickr.com/photos/43671131372@N01/4271300/" title="Wolf Moon, by notraces"><img src="http://photos4.flickr.com/4271300_9fc9235f4e_s.jpg" width="75" height="75" /></a>
-<a href="https://www.flickr.com/photos/49503111054@N01/9887123/" title="sun, by lil aNNa"><img src="http://photos5.flickr.com/9887123_8005cb4929_s.jpg" width="75" height="75" /></a>
+<a href="https://www.flickr.com/photos/43671131372@N01/4271300/" title="Wolf Moon, by notraces"><img src="https://photos4.flickr.com/4271300_9fc9235f4e_s.jpg" width="75" height="75" /></a>
+<a href="https://www.flickr.com/photos/49503111054@N01/9887123/" title="sun, by lil aNNa"><img src="https://photos5.flickr.com/9887123_8005cb4929_s.jpg" width="75" height="75" /></a>
 <a href="https://www.flickr.com/photos/11823401@N00/11668682/" title="Curve 70, by Crinity"><img src="https://photos10.flickr.com/11668682_f9af877357_s.jpg" width="75" height="75" /></a>
-<a href="https://www.flickr.com/photos/15297893@N00/5762084/" title="Winter in spring #2, by solea"><img src="http://photos6.flickr.com/5762084_496b9624bf_s.jpg" width="75" height="75" /></a>
-<a href="https://www.flickr.com/photos/80866212@N00/9185047/" title="China Image 0039, by Jackson Lee"><img src="http://photos4.flickr.com/9185047_be635d551a_s.jpg" width="75" height="75" /></a>
-<a href="https://www.flickr.com/photos/66812927@N00/8109304/" title="Asaf-ud-Daula&apos;s Imambara, by madviks"><img src="http://photos6.flickr.com/8109304_d03036bac0_s.jpg" width="75" height="75" /></a>
-<a href="https://www.flickr.com/photos/35277602@N00/1290277/" title="Chevrons, by BombDog"><img src="http://photos2.flickr.com/1290277_172122f428_s.jpg" width="75" height="75" /></a>
-<a href="https://www.flickr.com/photos/15264742@N00/4594639/" title="Fusca, by Josa Jr"><img src="http://photos3.flickr.com/4594639_7d92a87b69_s.jpg" width="75" height="75" /></a>
+<a href="https://www.flickr.com/photos/15297893@N00/5762084/" title="Winter in spring #2, by solea"><img src="https://photos6.flickr.com/5762084_496b9624bf_s.jpg" width="75" height="75" /></a>
+<a href="https://www.flickr.com/photos/80866212@N00/9185047/" title="China Image 0039, by Jackson Lee"><img src="https://photos4.flickr.com/9185047_be635d551a_s.jpg" width="75" height="75" /></a>
+<a href="https://www.flickr.com/photos/66812927@N00/8109304/" title="Asaf-ud-Daula&apos;s Imambara, by madviks"><img src="https://photos6.flickr.com/8109304_d03036bac0_s.jpg" width="75" height="75" /></a>
+<a href="https://www.flickr.com/photos/35277602@N00/1290277/" title="Chevrons, by BombDog"><img src="https://photos2.flickr.com/1290277_172122f428_s.jpg" width="75" height="75" /></a>
+<a href="https://www.flickr.com/photos/15264742@N00/4594639/" title="Fusca, by Josa Jr"><img src="https://photos3.flickr.com/4594639_7d92a87b69_s.jpg" width="75" height="75" /></a>
 <a href="https://www.flickr.com/photos/89826592@N00/14295396/" title="Let the light shine, by Mark, The"><img src="https://photos14.flickr.com/14295396_b1982fbf29_s.jpg" width="75" height="75" /></a>
 <a href="https://www.flickr.com/photos/38608514@N00/3057330/" title="Le TrÃ©port, Normandie, France, by Nicolas Hoizey"><img src="https://photos1.flickr.com/3057330_e284624052_s.jpg" width="75" height="75" /></a>
 <a href="https://www.flickr.com/photos/74813207@N00/20717912/" title="La Jolla Shores #06, by mutbka"><img src="https://photos16.flickr.com/20717912_0eda5882a1_s.jpg" width="75" height="75" /></a>

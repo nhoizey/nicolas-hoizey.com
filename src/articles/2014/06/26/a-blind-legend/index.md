@@ -27,4 +27,4 @@ Le jeu exploite le technique du son binaural pour donner une immersion totale 3D
 
 Je vous invite vraiment à [aider ce beau projet en participant à son financement](http://fr.ulule.com/a-blind-legend/), et à faire tourner l’info au plus vite pour que le budget soit réuni en temps et en heure !
 
-<iframe frameborder="0" height="355px" width="300px" src="http://fr.ulule.com/a-blind-legend/widget.html" scrolling="no"></iframe>
+<iframe frameborder="0" height="355px" width="300px" src="https://fr.ulule.com/a-blind-legend/widget.html" scrolling="no"></iframe>
