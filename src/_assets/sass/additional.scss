@@ -6,6 +6,7 @@
 @import 'components/tagscloud.scss';
 @import 'components/code.scss';
 @import 'highlight/_prism-onedark.scss';
+@import 'global/print.scss';
 
 // ************************************************************
 // Main content
@@ -269,46 +270,3 @@ body {
   background-size: contain;
 }
 
-// ************************************************************
-// Print styles
-// ************************************************************
-
-@media print {
-  @page {
-    margin: 2cm;
-  }
-
-  a,
-  blockquote,
-  table,
-  pre,
-  img,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    page-break-inside: avoid;
-  }
-
-  img,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    page-break-after: avoid;
-  }
-
-  ul,
-  ol,
-  dl {
-    page-break-before: avoid;
-  }
-
-  a[href^='http']:after {
-    content: ' &lt; ' attr(href) '&gt; ';
-  }
-}
