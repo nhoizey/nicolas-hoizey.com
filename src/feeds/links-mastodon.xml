@@ -4,13 +4,13 @@ layout: null
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Nicolas Hoizey's links</title>
-  <link href="{{ site.url }}/feeds/links-twitter.xml" rel="self" type="application/rss+xml" />
-  <link href="{{ site.url }}/?utm_medium=social&amp;utm_source=Twitter&amp;utm_campaign=feed" />
+  <link href="{{ pkg.homepage }}/feeds/links-twitter.xml" rel="self" type="application/rss+xml" />
+  <link href="{{ pkg.homepage }}/?utm_medium=social&amp;utm_source=Twitter&amp;utm_campaign=feed" />
   <updated>{{ build.timestamp | attributeDate }}</updated>
-  <id>{{ site.url }}/links/</id>
+  <id>{{ pkg.homepage }}/links/</id>
   <author>
-    <name>{{ site.author.name }}</name>
-    <email>{{ site.author.email }}</email>
+    <name>{{ pkg.author.name }}</name>
+    <email>{{ pkg.author.email }}</email>
   </author>
   {% assign links = site.categories['links'] %}
   {% for link in links limit:20 %}

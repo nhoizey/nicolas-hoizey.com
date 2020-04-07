@@ -1,4 +1,4 @@
-const rootUrl = require('../../_data/site.js').url;
+const rootUrl = require('../../../package.json').homepage;
 
 function isSelf(entry) {
   return (

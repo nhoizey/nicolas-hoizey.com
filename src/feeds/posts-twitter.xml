@@ -4,13 +4,13 @@ layout: null
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Nicolas Hoizey's articles</title>
-  <link href="{{ site.url }}/feeds/posts-twitter.xml" rel="self" type="application/rss+xml" />
-  <link href="{{ site.url }}/?utm_medium=social&amp;utm_source=Twitter&amp;utm_campaign=feed" />
+  <link href="{{ pkg.homepage }}/feeds/posts-twitter.xml" rel="self" type="application/rss+xml" />
+  <link href="{{ pkg.homepage }}/?utm_medium=social&amp;utm_source=Twitter&amp;utm_campaign=feed" />
   <updated>{{ build.timestamp | attributeDate }}</updated>
-  <id>{{ site.url }}/</id>
+  <id>{{ pkg.homepage }}/</id>
   <author>
-    <name>{{ site.author.name }}</name>
-    <email>{{ site.author.email }}</email>
+    <name>{{ pkg.author.name }}</name>
+    <email>{{ pkg.author.email }}</email>
   </author>
   {%- for post in site.posts limit:20 -%}
     {%- comment -%}
@@ -19,7 +19,7 @@ layout: null
 
     {%- assign posse_title = post.title | markdown_to_tweet -%}
     {%- assign posse_content = '' -%}
-    {%- assign posse_url = post.url | prepend: site.url | append: '?utm_medium=social&amp;utm_source=Twitter&amp;utm_campaign=feed' -%}
+    {%- assign posse_url = post.url | prepend: pkg.homepage | append: '?utm_medium=social&amp;utm_source=Twitter&amp;utm_campaign=feed' -%}
 
     {%- assign tweet_without_meta_size = site.posseify.twitter.post.template | replace: '@posse_title', posse_title | replace: '@posse_content', posse_content | replace: '@posse_tags', '' | replace: '@posse_url', '' | size -%}
 
@@ -44,7 +44,7 @@ layout: null
   <entry>
     <title>{{ posse_title | xml_escape }}</title>
     <content type="html">{{ tweet | xml_escape }}</content>
-    <id>{{ site.url }}{{ post.id }}</id>
+    <id>{{ pkg.homepage }}{{ post.id }}</id>
     <link href="{{ posse_url }}"/>
     <updated>{{ post.date | attributeDate }}</updated>
   </entry>

@@ -43,15 +43,15 @@
 
   {% set ogType = "website" %}
   {% if page.url == "/" %}
-    {% set ogTitle = site.title %}
-    {% set ogDescription = site.description %}
+    {% set ogTitle = pkg.title %}
+    {% set ogDescription = pkg.description %}
     <title itemprop="name">{{ ogTitle }}</title>
   {% elif layout == "note" %}
     {% set plainDate = page.date | date("Do MMMM YYYY") %}
     {% set ogTitle %}Note from {{ page.date | date("Do MMMM YYYY") }}{% endset %}
     {% set ogDescription = pageExcerpt | striptags | truncate(290) | escape %}
     {% set ogType = "article" %}
-    <title>{{ ogTitle }} - {{ site.name }}</title>
+    <title>{{ ogTitle }} - {{ pkg.author.name }}</title>
   {% else %}
     {% set ogTitle = renderData.title or title %}
     {% if layout == "article" or layout == "link" %}
@@ -60,15 +60,15 @@
     {% elif page.inputPath == "./src/tag-page.njk" %}
       {% set ogDescription = ogTitle %}
     {% endif %}
-    <title>{{ ogTitle }} - {{ site.name }}</title>
+    <title>{{ ogTitle }} - {{ pkg.author.name }}</title>
   {% endif %}
 
   <meta property="og:title" content="{{ ogTitle }}" />
   <meta name="description" content="{{ ogDescription }}" />
   <meta property="og:description" content="{{ ogDescription }}" />
 
-  <link rel="canonical" href="{{ site.url + page.url }}" itemprop="url" />
-  <meta property="og:url" content="{{ site.url + page.url }}" />
+  <link rel="canonical" href="{{ pkg.homepage + page.url }}" itemprop="url" />
+  <meta property="og:url" content="{{ pkg.homepage + page.url }}" />
 
   <meta property="og:type" content="{{ ogType }}" />
   {% if ogType == "article" %}

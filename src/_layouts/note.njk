@@ -28,7 +28,7 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
     "@type": "ListItem",
     "position": 3,
     "item": {
-      "@id": "{{ site.url }}{{ page.url }}",
+      "@id": "{{ pkg.homepage }}{{ page.url }}",
       "name": "{{ content | striptags | truncate(100, true, '…') }}"
     }
   }]
