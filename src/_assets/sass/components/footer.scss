@@ -1,0 +1,32 @@
+// ************************************************************
+// Footer
+// ************************************************************
+
+#footer {
+  white-space: nowrap;
+  margin: calc((670 * 0.7) / 1534 * 100vw) 0 1em;
+
+  color: #fff;
+
+  .wrap {
+    @media (min-width: 15em) {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+      & > *:first-child {
+        flex: 1;
+      }
+    }
+  }
+
+  p {
+    margin: 0;
+    line-height: 2;
+
+    &:last-child {
+      text-align: right;
+    }
+  }
+}
