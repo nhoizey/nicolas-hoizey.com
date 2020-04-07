@@ -1,13 +1,12 @@
 {
   "name": "nicolas-hoizey.com",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "title": "Nicolas Hoizey, passionate about the Web and photography",
+  "description": "This is the personnal website of Nicolas Hoizey, passionate about the Web and photography, among many other interests.",
   "author": {
     "name": "Nicolas Hoizey",
     "email": "nicolas@hoizey.com",
-    "url": "https://nicolas-hoizey.com/",
-    "twitter": "nhoizey",
-    "github": "nhoizey"
+    "url": "https://nicolas-hoizey.com/"
   },
   "license": "MIT",
   "homepage": "https://nicolas-hoizey.com",
