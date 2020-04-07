@@ -11,6 +11,57 @@
 // Main content
 // ************************************************************
 
+blockquote {
+  position: relative;
+  overflow: hidden;
+  padding: 0 1em 0 2.5em;
+
+  border-left: 0.5em solid $color-primary;
+  border-radius: 1em;
+
+  font-style: italic;
+  color: $text-color;
+
+  &::before {
+    position: absolute;
+    left: 0.1em;
+    top: 0.1em;
+    content: '\201C';
+    color: $color-primary;
+    font-size: 3.5em;
+    line-height: 1;
+  }
+
+  blockquote {
+    background-color: $color-primary-lighter-6;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  font-feature-settings: 'tnum' 1;
+
+  @supports (font-variant-numeric: tabular-nums) {
+    font-feature-settings: normal;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+thead {
+  background-color: #eee;
+
+  th {
+    vertical-align: bottom;
+  }
+}
+
+th,
+td {
+  padding: 0.3em 0.5em;
+  border: 1px solid #ccc;
+  vertical-align: top;
+}
+
 article {
   margin: 0;
 
@@ -22,65 +73,6 @@ article {
   .intro,
   .footnotes {
     margin: $baseline 0;
-  }
-
-  blockquote {
-    position: relative;
-    overflow: hidden;
-    padding: 0 1em 0 2.5em;
-
-    color: $text-color;
-    background-color: $color-primary-lighter-6;
-    border-radius: 10px;
-
-    font-style: italic;
-
-    &::before {
-      position: absolute;
-      left: 0.1em;
-      top: 0.1em;
-      content: '\201C';
-      color: $color-primary;
-      font-size: 3em;
-      line-height: 1;
-    }
-
-    p:first-child {
-      margin-top: 1em;
-    }
-
-    p:last-child {
-      margin-bottom: 1em;
-    }
-
-    blockquote {
-      background-color: $color-primary-lighter-4;
-    }
-  }
-
-  table {
-    border-collapse: collapse;
-    font-feature-settings: 'tnum' 1;
-
-    @supports (font-variant-numeric: tabular-nums) {
-      font-feature-settings: normal;
-      font-variant-numeric: tabular-nums;
-    }
-  }
-
-  thead {
-    background-color: #eee;
-
-    th {
-      vertical-align: bottom;
-    }
-  }
-
-  th,
-  td {
-    padding: 0.3em 0.5em;
-    border: 1px solid #ccc;
-    vertical-align: top;
   }
 
   a.footnote.footnote {
