@@ -139,10 +139,11 @@ module.exports = {
     figure: 'never',
   },
   logo: {
-    fallbackWidth: 300,
-    minWidth: 120,
-    maxWidth: 560,
-    sizes: '(max-width: 20rem) 45vw, (max-width: 67rem) 30vw, 20rem',
+    fallbackWidth: 200,
+    minWidth: 100,
+    maxWidth: 400,
+    sizes:
+      '(max-width: 20rem) 45vw, (max-width: 30rem) 30vw, (max-width: 67rem) 22.5vw, 15rem',
     figure: 'never',
     classes: ['logo'],
   },

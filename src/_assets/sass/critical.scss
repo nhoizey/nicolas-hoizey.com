@@ -12,6 +12,7 @@
 @import 'components/intro.scss';
 @import 'components/list.scss';
 @import 'components/card.scss';
+@import 'components/tweets.scss';
 @import 'components/prevnext.scss';
 
 // Box sizing:
@@ -283,8 +284,7 @@ img {
     max-width: 50%;
   }
 
-  &.onethird,
-  &.logo {
+  &.onethird {
     max-width: 50%;
 
     @media (min-width: 20em) {
@@ -292,7 +292,8 @@ img {
     }
   }
 
-  &.onefourth {
+  &.onefourth,
+  &.logo {
     max-width: 50%;
 
     @media (min-width: 20em) {
