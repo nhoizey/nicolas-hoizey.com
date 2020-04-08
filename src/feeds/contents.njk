@@ -1,0 +1,33 @@
+---
+layout: null
+permalink: /feeds/contents.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Nicolas Hoizey - All contents</title>
+  <link href="{{ pkg.homepage }}/feeds/contents.xml" rel="self"/>
+  <link href="{{ pkg.homepage }}/"/>
+  <link rel="hub" href="http://pubsubhubbub.superfeedr.com/" />
+  <updated>{{ collections.contents | rssLastUpdatedDate }}</updated>
+  <id>{{ pkg.homepage }}</id>
+  <author>
+    <name>{{ pkg.author.name }}</name>
+    <email>{{ pkg.author.email }}</email>
+  </author>
+  {% for entry in collections.contents | limit(50) %}
+    {% set absoluteEntryUrl %}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{% endset %}
+    {% set readableDate = entry.date | date("Do MMMM YYYY") %}
+    {% set icon %}
+      {% if entry.data.layout == 'article' %}🖋{% endif %}
+      {% if entry.data.layout == 'link' %}🔗{% endif %}
+      {% if entry.data.layout == 'note' %}💬{% endif %}
+    {% endset %}      
+    <entry>
+      <title>{{ icon }} {{ entry.data.title or 'Note from ' + readableDate }}</title>
+      <link href="{{ absoluteEntryUrl }}"/>
+      <updated>{{ entry.date | rssDate }}</updated>
+      <id>{{ absoluteEntryUrl }}</id>
+      <content type="html">{{ entry.templateContent | cleanDeepLinks | htmlToAbsoluteUrls(absoluteEntryUrl) }}</content>
+    </entry>
+  {% endfor %}
+</feed>

@@ -14,10 +14,10 @@ permalink: /feeds/articles.xml
     <name>{{ pkg.author.name }}</name>
     <email>{{ pkg.author.email }}</email>
   </author>
-  {% for entry in collections.articles | limit(20) %}
+  {% for entry in collections.articles | limit(50) %}
     {% set absoluteEntryUrl %}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{% endset %}
     <entry>
-      <title>{{ entry.data.title }}</title>
+      <title>🖋 {{ entry.data.title }}</title>
       <link href="{{ absoluteEntryUrl }}"/>
       <updated>{{ entry.date | rssDate }}</updated>
       <id>{{ absoluteEntryUrl }}</id>
