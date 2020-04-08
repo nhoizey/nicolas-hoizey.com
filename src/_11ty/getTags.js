@@ -1,18 +1,25 @@
 const slugify = require('@sindresorhus/slugify');
 const fs = require('fs');
-const hashtagsToTags = require("../_utils/hashtags").hashtagsToTags;
+const hashtagsToTags = require('../_utils/hashtags').hashtagsToTags;
 
 module.exports = function (collection) {
   let tagsCollection = new Map();
   let max = 0;
 
   collection.getAll().forEach(function (item) {
-    if ("tags" in item.data) {
+    if ('tags' in item.data) {
       let itemTags = item.data.tags;
 
       // TODO: deal with hashtags only once
-      if (item.data.layout === "note") {
-        itemTags = [...new Set([].concat(...itemTags, ...hashtagsToTags(item.template.frontMatter.content)))];
+      if (item.data.layout === 'note') {
+        itemTags = [
+          ...new Set(
+            [].concat(
+              ...itemTags,
+              ...hashtagsToTags(item.template.frontMatter.content)
+            )
+          ),
+        ];
       }
 
       for (const tag of itemTags) {
@@ -32,18 +39,16 @@ module.exports = function (collection) {
     let factor = (Math.log(number) - minLog) / (maxLog - minLog);
     let tagSlug = slugify(tag, {
       decamelize: false,
-      customReplacements: [
-        ['%', ' ']
-      ]
+      customReplacements: [['%', ' ']],
     });
 
     let newTag = {
-      'tag': tag,
-      'slug': tagSlug,
-      'number': number,
-      'factor': factor,
-      'step': Math.ceil(factor * 2) + 1
-    }
+      tag: tag,
+      slug: tagSlug,
+      number: number,
+      factor: factor,
+      step: Math.ceil(factor * 2) + 1,
+    };
 
     let tagLogoPath = `assets/logos/${tagSlug}.png`;
     if (fs.existsSync(`src/${tagLogoPath}`)) {
@@ -52,7 +57,9 @@ module.exports = function (collection) {
 
     let tagContentPath = `src/tags/${tagSlug}.md`;
     if (fs.existsSync(tagContentPath)) {
-      newTag.description = fs.readFileSync(tagContentPath, { encoding: 'utf8' });
+      newTag.description = fs.readFileSync(tagContentPath, {
+        encoding: 'utf8',
+      });
     }
 
     tags.push(newTag);
@@ -60,7 +67,7 @@ module.exports = function (collection) {
 
   tags.sort((a, b) => {
     return a.tag.localeCompare(b.tag, 'en', { ignorePunctuation: true });
-  })
+  });
 
   return tags;
 };
