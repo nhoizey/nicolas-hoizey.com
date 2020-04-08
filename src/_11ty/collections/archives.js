@@ -4,10 +4,6 @@
 const moment = require('moment');
 const getFilteredCollection = require('../../_utils/filter-collection');
 
-function sortByDate(a, b) {
-  return b.date - a.date;
-}
-
 function makeDateFormatter(datePattern) {
   return function (date) {
     return moment(date).format(datePattern);
@@ -25,7 +21,6 @@ function getItemsByDate(items, date, dateFormatter) {
   return items.filter((item) => {
     return dateFormatter(item.data.page.date) === date;
   });
-  // .sort(sortByDate);
 }
 
 const contentByDateString = (items, dateFormatter) => {
