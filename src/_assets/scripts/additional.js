@@ -67,7 +67,7 @@ if (gifsNumber > 0) {
     '(prefers-reduced-motion: no-preference)'
   );
   function handleReducedMotionChanged() {
-    for (i = 0; i < gifsNumber; ++i) {
+    for (let i = 0; i < gifsNumber; ++i) {
       if (prefersReducedMotionNoPreference.matches) {
         gifs[i].play();
       } else {
