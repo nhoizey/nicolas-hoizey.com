@@ -15,7 +15,7 @@ module.exports = {
     './offline-fallback.html',
     './manifest.webmanifest',
   ],
-  swSrc: path.join(BUILD_DIR, 'sw.js'),
-  swDest: path.join(BUILD_DIR, 'sw.js'),
+  swSrc: path.join(BUILD_DIR, 'service-worker.js'),
+  swDest: path.join(BUILD_DIR, 'service-worker.js'),
   mode: 'production',
 };

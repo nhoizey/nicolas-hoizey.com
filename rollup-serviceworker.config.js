@@ -8,7 +8,7 @@ const BROWSER_TARGET = {
 
 export default [
   {
-    input: 'src/sw.js',
+    input: 'src/service-worker.js',
     plugins: [
       resolve(),
       babel({
@@ -25,7 +25,7 @@ export default [
       terser(),
     ],
     output: {
-      file: 'dist/sw.js',
+      file: 'dist/service-worker.js',
       format: 'iife',
     },
   },

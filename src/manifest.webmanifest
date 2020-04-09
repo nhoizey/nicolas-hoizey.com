@@ -23,7 +23,7 @@
     }
   ],
   "serviceworker": {
-    "src": "sw.js",
+    "src": "service-worker.js",
     "scope": "/",
     "use_cache": false
   }
