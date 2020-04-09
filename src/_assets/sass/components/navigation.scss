@@ -1,7 +1,7 @@
 .navigation {
   color: #fff;
-  background-color: $color-primary-lighter-1;
-  border-bottom: solid 2px $color-primary;
+  background-color: $color-primary;
+  border-bottom: solid 2px $color-primary-lighter-2;
   margin: 0 0 calc($baseline * 2);
   padding: 0.2em 0;
   overflow-x: auto;
@@ -33,23 +33,17 @@
     text-decoration: none;
     white-space: nowrap;
 
-    border: solid 1px transparent;
-    border-radius: 5px;
+    border-radius: 3px;
 
-    transition-property: color, background-color, border-color, transform;
+    transition-property: color, background-color, border-color;
     transition-duration: calc(var(--base-duration) / 2);
     transition-timing-function: ease-in-out;
   }
   a:hover,
   a:focus {
-    color: #fff;
     text-decoration-line: underline;
     text-decoration-color: $color-white;
-    background-color: $color-primary-lighter-1;
-    border: solid 1px $color-primary;
-    border-bottom-color: $color-primary-lighter-2;
-    border-left-color: $color-primary-lighter-2;
-    transform: translateY(1px);
+    background-color: $color-primary-lighter-3;
   }
 
   .section-home &.home,
@@ -62,16 +56,12 @@
     a:link,
     a:visited {
       color: $color-primary;
-      background-color: $color-primary-lighter-5;
-      border: solid 1px $color-primary;
-      border-bottom-color: $color-primary-lighter-2;
-      border-left-color: $color-primary-lighter-2;
-      transform: translateY(1px);
+      background-color: $color-primary-lighter-7;
     }
 
     a:hover,
     a:focus {
-      text-decoration-color: $color-primary-lighter-1;
+      text-decoration-color: $color-primary;
     }
   }
 }
