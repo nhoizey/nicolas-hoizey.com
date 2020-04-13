@@ -54,6 +54,9 @@ module.exports = function (eleventyConfig) {
   const rss = require('@11ty/eleventy-plugin-rss');
   eleventyConfig.addPlugin(rss);
 
+  const embedTweets = require("eleventy-plugin-embed-tweet");
+  eleventyConfig.addPlugin(embedTweets, {cacheDirectory: '_cache', useInlineStyles: false, autoEmbed: true});
+
   // ------------------------------------------------------------------------
   // Markdown plugins
   // ------------------------------------------------------------------------
