@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-04-03T16:24:17.823Z",
+  "lastFetched": "2020-04-13T07:54:24.768Z",
   "webmentions": [
     {
       "type": "entry",
@@ -50281,6 +50281,315 @@
       "wm-target": "https://nicolas-hoizey.com/notes/2020/04/01/1/",
       "like-of": "https://nicolas-hoizey.com/notes/2020/04/01/1/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Eleventy",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/64ed7c5b6f8f7dc61e11ff6a926eeb6a94e686473efdb5a7c697a4a87f4e411a.jpg",
+        "url": "https://twitter.com/eleven_ty"
+      },
+      "url": "https://twitter.com/eleven_ty/status/1248297694340222980",
+      "published": "2020-04-09T17:12:17+00:00",
+      "wm-received": "2020-04-09T18:50:38Z",
+      "wm-id": 780407,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1248296708116807680/1248297694340222980",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
+      "content": {
+        "content-type": "text/plain",
+        "value": "I guess #CSSNakedDay is the best day to launch my own heavily opinionated @eleven_ty template project, for which I didn't write any CSS yet…",
+        "text": "I guess #CSSNakedDay is the best day to launch my own heavily opinionated @eleven_ty template project, for which I didn't write any CSS yet…"
+      },
+      "repost-of": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "The Realest",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/028e8dc0b80dc7980b3ec2bfa612ba363cc630805d1145c4157ca3170e4133f3.png",
+        "url": "https://twitter.com/realglenndixon"
+      },
+      "url": "https://twitter.com/realglenndixon/status/1248303946374021120",
+      "published": "2020-04-09T17:37:07+00:00",
+      "wm-received": "2020-04-09T18:50:11Z",
+      "wm-id": 780400,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1248296708116807680/1248303946374021120",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "this link works\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://pack11ty.netlify.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Netlify\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/eleven_ty\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "this link works",
+        "text": "this link works"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1248310668832407555",
+      "published": "2020-04-09T18:03:50+00:00",
+      "wm-received": "2020-04-09T18:50:12Z",
+      "wm-id": 780401,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1248296708116807680/1248310668832407555",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "I was trying to share the link with the .app TLD, as the .com will not last\n<a class=\"u-mention\" href=\"https://pack11ty.netlify.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Netlify\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/eleven_ty\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/realglenndixon\"></a>",
+        "html": "I was trying to share the link with the .app TLD, as the .com will not last",
+        "text": "I was trying to share the link with the .app TLD, as the .com will not last"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Marc Filleul",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/2030df8e42862836526f0d7bd5ae6536a572f02474544e5f7f8dab430d2d6c24.jpg",
+        "url": "https://twitter.com/marcfilleul"
+      },
+      "url": "https://twitter.com/nhoizey/status/1248296708116807680#favorited-by-385870129",
+      "published": null,
+      "wm-received": "2020-04-09T18:50:25Z",
+      "wm-id": 780403,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1248296708116807680/385870129",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Léa Tortay",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/1257335c7e9eb8bb1c31f606957f4372b7648b259ec33e15a35e5d752e2fc90e.jpg",
+        "url": "https://twitter.com/lea_tortay"
+      },
+      "url": "https://twitter.com/nhoizey/status/1248296708116807680#favorited-by-822880342105329664",
+      "published": null,
+      "wm-received": "2020-04-09T18:50:25Z",
+      "wm-id": 780404,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1248296708116807680/822880342105329664",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Xavier Zaława",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/77e826a263cabc3e81663ac5e508de10361793373ea1652b6af58cd278821fd0.jpg",
+        "url": "https://twitter.com/7studio"
+      },
+      "url": "https://twitter.com/nhoizey/status/1248296708116807680#favorited-by-20092443",
+      "published": null,
+      "wm-received": "2020-04-09T18:50:31Z",
+      "wm-id": 780405,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1248296708116807680/20092443",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Eleventy",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/64ed7c5b6f8f7dc61e11ff6a926eeb6a94e686473efdb5a7c697a4a87f4e411a.jpg",
+        "url": "https://twitter.com/eleven_ty"
+      },
+      "url": "https://twitter.com/nhoizey/status/1248296708116807680#favorited-by-949639269433380864",
+      "published": null,
+      "wm-received": "2020-04-09T18:50:31Z",
+      "wm-id": 780406,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1248296708116807680/949639269433380864",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Paul Applegate",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0987ec9de511d7885e80cd0e1b34669556dfbe7deaa05e666dd007ebb2edbd77.jpg",
+        "url": "https://twitter.com/papplegate"
+      },
+      "url": "https://twitter.com/papplegate/status/1248334631658835968",
+      "published": "2020-04-09T19:39:03+00:00",
+      "wm-received": "2020-04-10T00:10:32Z",
+      "wm-id": 780462,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1248296708116807680/1248334631658835968",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Thank you.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://pack11ty.netlify.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Netlify\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/eleven_ty\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "Thank you.",
+        "text": "Thank you."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1248362095617376259",
+      "published": "2020-04-09T21:28:11+00:00",
+      "wm-received": "2020-04-10T00:10:34Z",
+      "wm-id": 780465,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1248296708116807680/1248362095617376259",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "You're welcome! 🙏\n<a class=\"u-mention\" href=\"https://pack11ty.netlify.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Netlify\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/eleven_ty\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/papplegate\"></a>",
+        "html": "You're welcome! 🙏",
+        "text": "You're welcome! 🙏"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Gaël Poupard",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/bebb7c8bbc4d5d316c64a4e8278e4fb1a662dd836590aa669864c8f7d7ca013d.jpeg",
+        "url": "https://twitter.com/ffoodd_fr"
+      },
+      "url": "https://twitter.com/nhoizey/status/1248296708116807680#favorited-by-259814870",
+      "published": null,
+      "wm-received": "2020-04-10T00:10:58Z",
+      "wm-id": 780466,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1248296708116807680/259814870",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Paul Applegate",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0987ec9de511d7885e80cd0e1b34669556dfbe7deaa05e666dd007ebb2edbd77.jpg",
+        "url": "https://twitter.com/papplegate"
+      },
+      "url": "https://twitter.com/nhoizey/status/1248296708116807680#favorited-by-10192922",
+      "published": null,
+      "wm-received": "2020-04-10T00:10:59Z",
+      "wm-id": 780467,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1248296708116807680/10192922",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matt Biilmann",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/af70cb924db6d4dfc56c9c7cf65e39cf6e3901836a903a237357a1fc28c1c6a5.jpg",
+        "url": "https://twitter.com/biilmann"
+      },
+      "url": "https://twitter.com/biilmann/status/1248435139203321858",
+      "published": "2020-04-10T02:18:26+00:00",
+      "wm-received": "2020-04-10T02:21:26Z",
+      "wm-id": 780497,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1248296708116807680/1248435139203321858",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
+      "content": {
+        "content-type": "text/plain",
+        "value": "I guess #CSSNakedDay is the best day to launch my own heavily opinionated @eleven_ty template project, for which I didn't write any CSS yet…",
+        "text": "I guess #CSSNakedDay is the best day to launch my own heavily opinionated @eleven_ty template project, for which I didn't write any CSS yet…"
+      },
+      "repost-of": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matt Biilmann",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/af70cb924db6d4dfc56c9c7cf65e39cf6e3901836a903a237357a1fc28c1c6a5.jpg",
+        "url": "https://twitter.com/biilmann"
+      },
+      "url": "https://twitter.com/nhoizey/status/1248296708116807680#favorited-by-24203304",
+      "published": null,
+      "wm-received": "2020-04-10T02:21:26Z",
+      "wm-id": 780498,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1248296708116807680/24203304",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Eric Wallace",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/463b4ed15c2e16baf216e94e7f203bf54853cfce0410fe64417bd33935c0d79e.jpg",
+        "url": "https://twitter.com/ecrosstexas"
+      },
+      "url": "https://twitter.com/nhoizey/status/1248296708116807680#favorited-by-758056",
+      "published": null,
+      "wm-received": "2020-04-10T03:22:00Z",
+      "wm-id": 780508,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1248296708116807680/758056",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Gaël Poupard",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/bebb7c8bbc4d5d316c64a4e8278e4fb1a662dd836590aa669864c8f7d7ca013d.jpeg",
+        "url": "https://twitter.com/ffoodd_fr"
+      },
+      "url": "https://twitter.com/ffoodd_fr/status/1248509037051854849",
+      "published": "2020-04-10T07:12:05+00:00",
+      "wm-received": "2020-04-10T07:56:42Z",
+      "wm-id": 780526,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1248296708116807680/1248509037051854849",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
+      "content": {
+        "content-type": "text/plain",
+        "value": "I guess #CSSNakedDay is the best day to launch my own heavily opinionated @eleven_ty template project, for which I didn't write any CSS yet…",
+        "text": "I guess #CSSNakedDay is the best day to launch my own heavily opinionated @eleven_ty template project, for which I didn't write any CSS yet…"
+      },
+      "repost-of": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
+      "wm-property": "repost-of",
       "wm-private": false
     }
   ]
