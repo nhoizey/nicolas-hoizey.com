@@ -1,6 +1,7 @@
 @import 'global/settings.scss';
 @import 'components/toast.scss';
 @import 'components/notification.scss';
+@import 'components/footnotes.scss';
 @import 'components/comments.scss';
 @import 'components/webmentions.scss';
 @import 'components/tagscloud.scss';
@@ -69,43 +70,6 @@ td {
   padding: 0.3em 0.5em;
   border: 1px solid #ccc;
   vertical-align: top;
-}
-
-// ************************************************************
-// Footnotes
-// ************************************************************
-
-.footnotes {
-  margin: $baseline 0;
-  background-color: #eee;
-  color: #333;
-  border: 1px solid #ccc;
-  border-radius: 0.3em;
-  font-size: var(--font-size-s);
-
-  ol {
-    margin: 0;
-    padding: 0 1em 0 2em;
-    list-style-position: outside;
-  }
-}
-
-a.footnote.footnote {
-  text-decoration: none;
-  padding: 0.1em 0.4em;
-  margin: 0 0.2em;
-  background-color: #39f;
-  color: #fff;
-  border-radius: 30%;
-
-  // https://css-tricks.com/touch-devices-not-judged-size/
-  @media (pointer: coarse) {
-    padding: 0.3em 0.6em;
-  }
-}
-
-a.reversefootnote {
-  text-decoration: none;
 }
 
 // ************************************************************
