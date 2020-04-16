@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-04-16T09:22:10.070Z",
+  "lastFetched": "2020-04-16T19:22:00.829Z",
   "webmentions": [
     {
       "type": "entry",
@@ -50626,6 +50626,168 @@
       "wm-target": "https://nicolas-hoizey.com/notes/2020/04/14/1/",
       "like-of": "https://nicolas-hoizey.com/notes/2020/04/14/1/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Xman07",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a695d5c588876c60bab1173912fe76cd5254b4e86bc73d926742c3d9762482d4.jpg",
+        "url": "https://twitter.com/OudenSeptua"
+      },
+      "url": "https://twitter.com/OudenSeptua/status/1250805638327926787",
+      "published": "2020-04-16T15:17:57+00:00",
+      "wm-received": "2020-04-16T15:19:28Z",
+      "wm-id": 783316,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1250802873358848002/1250805638327926787",
+      "wm-target": "https://nicolas-hoizey.com/articles/2008/02/11/ne-sous-estimez-pas-l-importance-du-cable-hdmi/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Il y a clairement des cables de moins bonne qualité, finition médiocre , matériaux utilisé médiocre , qui dans la durée de vie peux foirer voir faire des écran noir . Je crois aussi que la qualitée rentre en compte sur des très grande longueurs de cables .(+10m)\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/davrous\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "Il y a clairement des cables de moins bonne qualité, finition médiocre , matériaux utilisé médiocre , qui dans la durée de vie peux foirer voir faire des écran noir . Je crois aussi que la qualitée rentre en compte sur des très grande longueurs de cables .(+10m)",
+        "text": "Il y a clairement des cables de moins bonne qualité, finition médiocre , matériaux utilisé médiocre , qui dans la durée de vie peux foirer voir faire des écran noir . Je crois aussi que la qualitée rentre en compte sur des très grande longueurs de cables .(+10m)"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/articles/2008/02/11/ne-sous-estimez-pas-l-importance-du-cable-hdmi/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "David Rousset",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/76295d7825d4a1959ff2f0b12a1bb64ac959bfcd655d0db8e77c40518a397258.jpg",
+        "url": "https://twitter.com/davrous"
+      },
+      "url": "https://twitter.com/nhoizey/status/1250802873358848002#favorited-by-17537168",
+      "published": null,
+      "wm-received": "2020-04-16T15:19:29Z",
+      "wm-id": 783317,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1250802873358848002/17537168",
+      "wm-target": "https://nicolas-hoizey.com/articles/2008/02/11/ne-sous-estimez-pas-l-importance-du-cable-hdmi/",
+      "like-of": "https://nicolas-hoizey.com/articles/2008/02/11/ne-sous-estimez-pas-l-importance-du-cable-hdmi/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "David Rousset",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/76295d7825d4a1959ff2f0b12a1bb64ac959bfcd655d0db8e77c40518a397258.jpg",
+        "url": "https://twitter.com/davrous"
+      },
+      "url": "https://twitter.com/davrous/status/1250806032642838529",
+      "published": "2020-04-16T15:19:31+00:00",
+      "wm-received": "2020-04-16T16:11:09Z",
+      "wm-id": 783340,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1250802873358848002/1250806032642838529",
+      "wm-target": "https://nicolas-hoizey.com/articles/2008/02/11/ne-sous-estimez-pas-l-importance-du-cable-hdmi/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Oui effectivement il y a des câbles pourris. Mais ce que je voulais dire c'est que soit cela marche très bien (image sans points blancs), soit cela ne marche pas. Un câble HDMI soit disant HDG (non actif) ne va pas améliorer le signal numérique ;)\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "Oui effectivement il y a des câbles pourris. Mais ce que je voulais dire c'est que soit cela marche très bien (image sans points blancs), soit cela ne marche pas. Un câble HDMI soit disant HDG (non actif) ne va pas améliorer le signal numérique ;)",
+        "text": "Oui effectivement il y a des câbles pourris. Mais ce que je voulais dire c'est que soit cela marche très bien (image sans points blancs), soit cela ne marche pas. Un câble HDMI soit disant HDG (non actif) ne va pas améliorer le signal numérique ;)"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/articles/2008/02/11/ne-sous-estimez-pas-l-importance-du-cable-hdmi/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Xman07",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a695d5c588876c60bab1173912fe76cd5254b4e86bc73d926742c3d9762482d4.jpg",
+        "url": "https://twitter.com/OudenSeptua"
+      },
+      "url": "https://twitter.com/OudenSeptua/status/1250806035478188032",
+      "published": "2020-04-16T15:19:32+00:00",
+      "wm-received": "2020-04-16T16:11:08Z",
+      "wm-id": 783339,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1250802873358848002/1250806035478188032",
+      "wm-target": "https://nicolas-hoizey.com/articles/2008/02/11/ne-sous-estimez-pas-l-importance-du-cable-hdmi/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Après sinon c'est vrai que c'est surtout les normes qui joue sur le debit possible ou pas .\n4k60\n4k120 (2.1)\n8k60 (2.1)\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/davrous\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "Après sinon c'est vrai que c'est surtout les normes qui joue sur le debit possible ou pas .<br />4k60<br />4k120 (2.1)<br />8k60 (2.1)",
+        "text": "Après sinon c'est vrai que c'est surtout les normes qui joue sur le debit possible ou pas .\n4k60\n4k120 (2.1)\n8k60 (2.1)"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/articles/2008/02/11/ne-sous-estimez-pas-l-importance-du-cable-hdmi/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1250806275342053376",
+      "published": "2020-04-16T15:20:29+00:00",
+      "wm-received": "2020-04-16T16:10:02Z",
+      "wm-id": 783338,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1250802873358848002/1250806275342053376",
+      "wm-target": "https://nicolas-hoizey.com/articles/2008/02/11/ne-sous-estimez-pas-l-importance-du-cable-hdmi/",
+      "content": {
+        "content-type": "text/html",
+        "value": "C'est clair. 😉\n<a class=\"u-mention\" href=\"https://twitter.com/davrous\"></a>",
+        "html": "C'est clair. 😉",
+        "text": "C'est clair. 😉"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/articles/2008/02/11/ne-sous-estimez-pas-l-importance-du-cable-hdmi/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "David Rousset",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/76295d7825d4a1959ff2f0b12a1bb64ac959bfcd655d0db8e77c40518a397258.jpg",
+        "url": "https://twitter.com/davrous"
+      },
+      "url": "https://twitter.com/davrous/status/1250806641085124608",
+      "published": "2020-04-16T15:21:56+00:00",
+      "wm-received": "2020-04-16T16:09:58Z",
+      "wm-id": 783337,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1250802873358848002/1250806641085124608",
+      "wm-target": "https://nicolas-hoizey.com/articles/2008/02/11/ne-sous-estimez-pas-l-importance-du-cable-hdmi/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Oui mais quand ils fonctionnent, ils donnent exactement la même image que les câbles \"de qualité\" ;) pour les grandes distances, j'utilise des câbles HDMI optique désormais. Ce n'est pas très cher et cela encaisse le débit du 8K 60 fps sans problème.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/OudenSeptua\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "Oui mais quand ils fonctionnent, ils donnent exactement la même image que les câbles \"de qualité\" ;) pour les grandes distances, j'utilise des câbles HDMI optique désormais. Ce n'est pas très cher et cela encaisse le débit du 8K 60 fps sans problème.",
+        "text": "Oui mais quand ils fonctionnent, ils donnent exactement la même image que les câbles \"de qualité\" ;) pour les grandes distances, j'utilise des câbles HDMI optique désormais. Ce n'est pas très cher et cela encaisse le débit du 8K 60 fps sans problème."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/articles/2008/02/11/ne-sous-estimez-pas-l-importance-du-cable-hdmi/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "DjiBee",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/9c23dcb8128205494d6c269b50bb2a0ea36e327c82f4f14311c1b08c481ee0e7.jpg",
+        "url": "https://twitter.com/DjiBee"
+      },
+      "url": "https://twitter.com/DjiBee/status/1250811214403457024",
+      "published": "2020-04-16T15:40:07+00:00",
+      "wm-received": "2020-04-16T16:09:58Z",
+      "wm-id": 783336,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1250802873358848002/1250811214403457024",
+      "wm-target": "https://nicolas-hoizey.com/articles/2008/02/11/ne-sous-estimez-pas-l-importance-du-cable-hdmi/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Mais un mauvais cable dégrade la transmission et donc la qualité peut-être dégradée non ? Il y a négociation dans le protocole non ? Par contre pixel blanc/noir non.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/davrous\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "Mais un mauvais cable dégrade la transmission et donc la qualité peut-être dégradée non ? Il y a négociation dans le protocole non ? Par contre pixel blanc/noir non.",
+        "text": "Mais un mauvais cable dégrade la transmission et donc la qualité peut-être dégradée non ? Il y a négociation dans le protocole non ? Par contre pixel blanc/noir non."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/articles/2008/02/11/ne-sous-estimez-pas-l-importance-du-cable-hdmi/",
+      "wm-property": "in-reply-to",
       "wm-private": false
     }
   ]
