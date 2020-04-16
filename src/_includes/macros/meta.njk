@@ -3,9 +3,6 @@
     {% set title %}Note from {{ date | date("Do MMMM YYYY") }}{% endset %}
   {% endif %}
   <ul class="meta">
-    <li class="meta__item card__author">
-      Published by <a class="p-author h-card" rel="me" href="https://nicolas-hoizey.com">Nicolas Hoizey</a>
-    </li>
     <li class="date meta__item card__date">
       <svg class="icon"><use xlink:href="#symbol-date" /></svg>
       <time class="dt-published" datetime="{{ date | attributeDate }}">
