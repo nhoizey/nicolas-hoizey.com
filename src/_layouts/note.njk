@@ -50,7 +50,7 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
   <div class="e-content">{{ content | noteToHtml | safe }}</div>
 
   {% from "macros/meta.njk" import meta %}
-  {{ meta(page.url, page.date, tags, 'notes', webmentions) }}
+  {{ meta(false, page.url, page.date, tags, 'notes', webmentions) }}
 
   <p class="edit">If you want to share an error or suggest an enhancement of this content, please edit <a href="https://github.com/nhoizey/nicolas-hoizey.com/tree/master/{{ page.inputPath }}">the source on Github</a>.</p>
 

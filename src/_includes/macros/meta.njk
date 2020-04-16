@@ -1,4 +1,7 @@
-{% macro meta(url, date, tags, type, webmentions, permalink=false, comments=false) %}
+{% macro meta(title, url, date, tags, type, webmentions, permalink=false, comments=false) %}
+  {% if type == note %}
+    {% set title %}Note from {{ date | date("Do MMMM YYYY") }}{% endset %}
+  {% endif %}
   <ul class="meta">
     <li class="meta__item card__author">
       Published by <a class="p-author h-card" rel="me" href="https://nicolas-hoizey.com">Nicolas Hoizey</a>
@@ -29,7 +32,7 @@
       {% if theseCommentsSize > 0 %}
         <li class="comments meta__item card__commentscount">
           <svg class="icon"><use xlink:href="#symbol-webmentions" /></svg>
-          <a href="{{ url }}#comments">{{ theseCommentsSize }} comment{% if theseCommentsSize > 1 %}s{% endif %}
+          <a href="{{ url }}#comments" aria-label="{{ theseCommentsSize }} comment{% if theseCommentsSize > 1 %}s{% endif %} for &quot;{{ title }}&quot;">{{ theseCommentsSize }} comment{% if theseCommentsSize > 1 %}s{% endif %}
           </a>
         </li>
       {% endif %}
@@ -39,7 +42,7 @@
     {% if mentionsSize > 0 %}
       <li class="webmentions meta__item card__webmentionscount">
         <svg class="icon"><use xlink:href="#symbol-webmentions" /></svg>
-        <a href="{{ url }}#webmentions">{{ mentionsSize }} webmention{% if mentionsSize > 1 %}s{% endif %}
+        <a href="{{ url }}#webmentions" aria-label="{{ mentionsSize }} webmention{% if mentionsSize > 1 %}s{% endif %} for &quot;{{ title }}&quot;">{{ mentionsSize }} webmention{% if mentionsSize > 1 %}s{% endif %}
         </a>
       </li>
     {% endif %}

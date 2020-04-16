@@ -57,7 +57,7 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
         {% endfor %}
       {% endif %}
       <h1>{{ title }}</h1>
-      {{ meta(page.url, date, tags, 'links', webmentions) }}
+      {{ meta(title, page.url, date, tags, 'links', webmentions) }}
     </div>
     <figure class="link__screenshot">
       <img
