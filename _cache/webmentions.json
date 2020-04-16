@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-04-13T07:54:24.768Z",
+  "lastFetched": "2020-04-16T09:22:10.070Z",
   "webmentions": [
     {
       "type": "entry",
@@ -50590,6 +50590,42 @@
       },
       "repost-of": "https://nicolas-hoizey.com/notes/2020/04/09/1/",
       "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Gaël Poupard",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/bebb7c8bbc4d5d316c64a4e8278e4fb1a662dd836590aa669864c8f7d7ca013d.jpeg",
+        "url": "https://twitter.com/ffoodd_fr"
+      },
+      "url": "https://twitter.com/nhoizey/status/1250160986109198338#favorited-by-259814870",
+      "published": null,
+      "wm-received": "2020-04-14T21:44:35Z",
+      "wm-id": 782664,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1250160986109198338/259814870",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/14/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/04/14/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "m4dz",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/77cffe02fd7dc6e59f33129df7d8cd1e701d0dfb11e187ee7328ef17b268a26b.jpg",
+        "url": "https://twitter.com/m4d_z"
+      },
+      "url": "https://twitter.com/nhoizey/status/1250160986109198338#favorited-by-81091261",
+      "published": null,
+      "wm-received": "2020-04-15T01:07:51Z",
+      "wm-id": 782695,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1250160986109198338/81091261",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/14/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/04/14/1/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
