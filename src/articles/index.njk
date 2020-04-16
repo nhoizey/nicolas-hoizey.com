@@ -17,9 +17,9 @@ eleventyExcludeFromCollections: true
   {% endfor %}
 </ul>
 
-<h2>Latest noteworthy article</h2>
+<h2>Noteworthy articles</h2>
 <ul class="list">
-  {% for article in collections.promoted | limit(1) %}
+  {% for article in collections.promoted %}
     <li class="list__item list__item--large">
       <div class="card card--article h-entry">
         {{ articleCard(article.data.title, article.url, article.data.lang, article.date, article.data.tags, article.templateContent, webmentions, comments ) }}
