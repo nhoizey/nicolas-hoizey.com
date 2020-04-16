@@ -1,27 +1,27 @@
 <nav class="navigation" role="navigation">
   <div class="wrap">
-    <ul class="navigation__section">
-      <li class="navigation__item home">
+    <ul>
+      <li {% if page.url == '/' %} class="current"{% endif %}>
         <a href="/">home</a>
       </li>
-      <li class="navigation__item articles">
+      <li {% if '/articles/' in page.url %} class="current"{% endif %}>
         <a href="/articles/">articles</a>
       </li>
-      <li class="navigation__item links">
+      <li {% if '/links/' in page.url %} class="current"{% endif %}>
         <a href="/links/">links</a>
       </li>
-      <li class="navigation__item talks">
+      <li {% if '/talks/' in page.url %} class="current"{% endif %}>
         <a href="/talks/">talks</a>
       </li>
-      <li class="navigation__item notes">
+      <li {% if '/notes/' in page.url %} class="current"{% endif %}>
         <a href="/notes/">notes</a>
       </li>
     </ul>
-    <ul class="navigation__section">
-      <li class="navigation__item feeds">
+    <ul>
+      <li {% if '/feeds/' in page.url %} class="current"{% endif %}>
         <a href="/feeds/">feeds</a>
       </li>
-      <li class="navigation__item about">
+      <li {% if '/about/' in page.url %} class="current"{% endif %}>
         <a href="/about/">about</a>
       </li>
     </ul>
