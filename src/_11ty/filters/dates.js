@@ -12,9 +12,6 @@ module.exports = {
   attributeDate: (date) => {
     return moment(date).format('YYYY-MM-DD');
   },
-  permalinkDate: (date) => {
-    return moment(date).format('YYYY/MM');
-  },
   notePermalinkDate: (date) => {
     return moment(date).format('YYYY/MM/DD');
   },
