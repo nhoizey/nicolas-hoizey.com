@@ -26,6 +26,7 @@ module.exports = {
     let handles = {
       '#Cloudinary': '@cloudinary',
       '#Eleventy': '@eleven_ty',
+      '#EveryLayout': '@layoutplusplus',
       '#Github': '@github',
       '#Jekyll': '@jekyllrb',
       '#Netlify': '@Netlify',
