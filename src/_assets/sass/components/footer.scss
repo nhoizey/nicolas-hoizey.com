@@ -2,13 +2,51 @@
 // Footer
 // ************************************************************
 
+@keyframes revealFooter {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 #footer {
   white-space: nowrap;
-  margin: calc((670 * 0.7) / 1534 * 100vw) 0 1em;
+  margin: 1em 0 0 0;
+  padding: 1em 0;
 
-  color: #fff;
+  // transition color and padding if background image is added with JS
+  color: currentColor;
+  transition-property: color, padding;
+  transition-delay: 0;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
+
+  // animate opacity
+  opacity: 0;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-name: revealFooter;
+
+  background-image: var(--limbes),
+    linear-gradient(
+      to bottom,
+      $color-white,
+      $color-primary-lighter-4 50%,
+      $color-primary-darker-2 80%,
+      $color-primary-darker-5
+    );
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   .wrap {
+    opacity: 1;
+
     @media (min-width: 15em) {
       display: flex;
       flex-direction: row;

@@ -12,6 +12,25 @@ import Toast from './toast.js';
 })(window);
 
 /*****************************************************************
+ * Add image background to the footer
+ * ****************************************************************/
+
+window.addEventListener('load', () => {
+  if (
+    window.viewport_width > 0 &&
+    'connection' in navigator &&
+    navigator.connection.saveData !== true
+  ) {
+    let backgroundImageWidth = Math.ceil(window.viewport_width / 20) * 20;
+    let limbes = `url('https://res.cloudinary.com/nho/image/fetch/c_limit,f_auto,q_auto,w_${backgroundImageWidth}/https://nicolas-hoizey.com/assets/limbes.jpg')`;
+    let footer = window.document.querySelector('#footer');
+    footer.style.setProperty('--limbes', limbes);
+    footer.style.color = '#fff';
+    footer.style.padding = 'calc(670 / 1534 * 100vw) 0 1em 0';
+  }
+});
+
+/*****************************************************************
  * Lazyload some images
  * ****************************************************************/
 
