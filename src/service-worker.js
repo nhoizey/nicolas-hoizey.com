@@ -1,8 +1,21 @@
 import { clientsClaim, skipWaiting } from 'workbox-core';
-import { cleanupOutdatedCaches, precacheAndRoute, matchPrecache } from 'workbox-precaching';
-import { registerRoute, setDefaultHandler, setCatchHandler } from 'workbox-routing';
+import {
+  cleanupOutdatedCaches,
+  precacheAndRoute,
+  matchPrecache,
+} from 'workbox-precaching';
+import {
+  registerRoute,
+  setDefaultHandler,
+  setCatchHandler,
+} from 'workbox-routing';
 import { CacheableResponsePlugin } from 'workbox-cacheable-response';
-import { CacheFirst, StaleWhileRevalidate, NetworkFirst, NetworkOnly } from 'workbox-strategies';
+import {
+  CacheFirst,
+  StaleWhileRevalidate,
+  NetworkFirst,
+  NetworkOnly,
+} from 'workbox-strategies';
 import { ExpirationPlugin } from 'workbox-expiration';
 import { BroadcastUpdatePlugin } from 'workbox-broadcast-update';
 import * as googleAnalytics from 'workbox-google-analytics';
@@ -12,7 +25,7 @@ const OFFLINE_FALLBACK = '/offline-fallback.html';
 precacheAndRoute(self.__WB_MANIFEST, {
   // Ignore all URL parameters:
   // https://developers.google.com/web/tools/workbox/modules/workbox-precaching#ignore_url_parameters
-  ignoreURLParametersMatching: [/.*/]
+  ignoreURLParametersMatching: [/.*/],
 });
 
 cleanupOutdatedCaches();
@@ -21,28 +34,30 @@ cleanupOutdatedCaches();
 setDefaultHandler(
   new StaleWhileRevalidate({
     cacheName: 'default',
-    plugins: [
-      new BroadcastUpdatePlugin()
-    ]
+    plugins: [new BroadcastUpdatePlugin()],
   })
 );
 
-// Never cache ranged requests (videos)
+// Never cache BrowserSync requests
 registerRoute(
-  ({ request }) => request.headers.has('range'),
+  ({ request }) => request.url.match('/browser-sync/'),
   new NetworkOnly()
 );
 
+// Never cache ranged requests (videos)
+registerRoute(({ request }) => request.headers.has('range'), new NetworkOnly());
+
 // Google Analytics
 registerRoute(
-  ({ request }) => request.url === 'https://www.google-analytics.com/analytics.js',
+  ({ request }) =>
+    request.url === 'https://www.google-analytics.com/analytics.js',
   new CacheFirst({
     cacheName: 'shell',
     plugins: [
       new ExpirationPlugin({
         maxAgeSeconds: 10 * 24 * 60 * 60, // 10 Days
-      })
-    ]
+      }),
+    ],
   })
 );
 
@@ -53,10 +68,8 @@ registerRoute(
   new NetworkFirst({
     cacheName: 'pages',
     networkTimeoutSeconds: 2,
-    plugins: [
-      new BroadcastUpdatePlugin()
-    ]
-  }),
+    plugins: [new BroadcastUpdatePlugin()],
+  })
 );
 
 // Images
@@ -73,7 +86,7 @@ registerRoute(
         maxAgeSeconds: 90 * 24 * 60 * 60, // 90 Days
       }),
     ],
-  }),
+  })
 );
 
 setCatchHandler(({ event }) => {
@@ -84,7 +97,7 @@ setCatchHandler(({ event }) => {
     case 'image':
       return new Response(
         '<svg role="img" aria-labelledby="offline-title" viewBox="0 0 400 225" xmlns="https://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"><title id="offline-title">Offline</title><path fill="rgba(145,145,145,0.5)" d="M0 0h400v225H0z" /><text fill="rgba(0,0,0,0.33)" font-family="Georgia,serif" font-size="27" text-anchor="middle" x="200" y="113" dominant-baseline="central">offline</text></svg>',
-        { headers: { "Content-Type": "image/svg+xml" } }
+        { headers: { 'Content-Type': 'image/svg+xml' } }
       );
 
     default:
@@ -92,7 +105,7 @@ setCatchHandler(({ event }) => {
       return new Response('Service Temporarily Unavailable', {
         status: 503,
         statusText: 'Service Temporarily Unavailable',
-        contentType: 'text/plain'
+        contentType: 'text/plain',
       });
   }
 });
@@ -107,7 +120,7 @@ googleAnalytics.initialize({
   },
 });
 
-self.addEventListener("message", event => {
+self.addEventListener('message', (event) => {
   console.log(`[SW] Receiving a message: ${event.data.type}`);
 });
 
