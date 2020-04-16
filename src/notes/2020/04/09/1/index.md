@@ -7,4 +7,4 @@ I guess #CSSNakedDay is the best day to launch my own heavily opinionated #Eleve
 
 Here is Pack11ty, hosted on #Netlify!
 
-https://pack11ty.netlify.app/
+https://pack11ty.dev/
