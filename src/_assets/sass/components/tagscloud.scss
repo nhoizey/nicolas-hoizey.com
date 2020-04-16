@@ -40,6 +40,12 @@
     &:focus {
       background-color: $link-decoration-color;
       outline: none;
+      text-decoration: underline;
+
+      &.tag2,
+      &.tag3 {
+        background-color: $link-decoration-color;
+      }
     }
 
     &:active {
