@@ -12,6 +12,27 @@ import Toast from './toast.js';
 })(window);
 
 /*****************************************************************
+ * Lazyload additional HTML
+ * ****************************************************************/
+
+window.addEventListener('load', () => {
+  let lazy = document.querySelector('#lazy');
+  if (lazy) {
+    let path = new URL(window.location).pathname;
+    let beforeLazy = document.createElement('div');
+
+    fetch(`/lazy${path}`)
+      .then((response) => response.text())
+      .then((html) => {
+        lazy.innerHTML = html;
+      })
+      .catch(function (err) {
+        console.warn('Something went wrong.', err);
+      });
+  }
+});
+
+/*****************************************************************
  * Install Service Worker
  * ****************************************************************/
 
