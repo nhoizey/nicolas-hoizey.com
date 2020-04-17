@@ -1,6 +1,6 @@
 ---
 date: 2020-04-14 21:41:47 +02:00
-tags: [Pack11ty, Eleventy, Every Layout]
+tags: [Pack11ty, Eleventy, EveryLayout]
 ---
 
 Pack11ty, my #Eleventy template project, now uses some of #EveryLayout layouts and starts looking much better!
