@@ -25,6 +25,7 @@ module.exports = {
     // convert hashtags to Twitter accounts
     let handles = {
       '#Cloudinary': '@cloudinary',
+      '#Dareboost': '@Dareboost',
       '#Eleventy': '@eleven_ty',
       '#EveryLayout': '@layoutplusplus',
       '#Github': '@github',
