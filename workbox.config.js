@@ -5,9 +5,9 @@ const BUILD_DIR = 'dist';
 module.exports = {
   globDirectory: BUILD_DIR,
   globPatterns: [
-    './js/*.js',
-    './css/*.css',
-    './assets/fonts/*.woff2',
+    './js/additional-es.*.js',
+    './css/additional.*.css',
+    // './assets/fonts/*.woff2',
     './',
     './about/',
     './about/the-website.html',
