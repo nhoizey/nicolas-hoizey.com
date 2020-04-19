@@ -66,7 +66,7 @@ if ('serviceWorker' in navigator) {
 window.addEventListener('load', () => {
   if (
     window.viewport_width > 0 &&
-    (!'connection' in navigator || navigator.connection.saveData !== true)
+    (!('connection' in navigator) || navigator.connection.saveData !== true)
   ) {
     let backgroundImageWidth = Math.ceil(window.viewport_width / 20) * 20;
     let limbes = `url('https://res.cloudinary.com/nho/image/fetch/c_limit,f_auto,q_auto,w_${backgroundImageWidth}/https://nicolas-hoizey.com/assets/limbes.jpg')`;
