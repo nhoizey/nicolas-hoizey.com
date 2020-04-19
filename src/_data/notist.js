@@ -6,12 +6,17 @@ const fetch = require('node-fetch');
 const CACHE_FILE_PATH = '_cache/notist.json';
 
 async function fetchNotist() {
-  const response = await fetch('https://noti.st/nhoizey.json');
-  if (response.ok) {
-    const notistData = await response.json();
-    if (notistData.data) {
-      return notistData.data[0].relationships.data;
+  try {
+    const response = await fetch('https://noti.st/nhoizey.json');
+    if (response.ok) {
+      const notistData = await response.json();
+      if (notistData.data) {
+        return notistData.data[0].relationships.data;
+      }
+      return {};
     }
+  } catch (error) {
+    console.error(error);
     return {};
   }
 
