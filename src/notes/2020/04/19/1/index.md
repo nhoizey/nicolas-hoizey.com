@@ -1,5 +1,6 @@
 ---
 date: 2020-04-19 11:42:51 +02:00
+tags: [Eleventy, Dareboost]
 ---
 
 Tracking my #Eleventy based web sites in #Dareboost to make sure my performance and accessibility results stay good for the leaderboards… 😅
