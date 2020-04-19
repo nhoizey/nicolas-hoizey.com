@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-04-19T16:50:04.829Z",
+  "lastFetched": "2020-04-19T21:44:48.351Z",
   "webmentions": [
     {
       "type": "entry",
@@ -51061,6 +51061,42 @@
       "wm-received": "2020-04-19T14:56:35Z",
       "wm-id": 784306,
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1251814026318942208/385870129",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/19/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/04/19/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matt Biilmann",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/af70cb924db6d4dfc56c9c7cf65e39cf6e3901836a903a237357a1fc28c1c6a5.jpg",
+        "url": "https://twitter.com/biilmann"
+      },
+      "url": "https://twitter.com/nhoizey/status/1251814026318942208#favorited-by-24203304",
+      "published": null,
+      "wm-received": "2020-04-19T17:10:35Z",
+      "wm-id": 784351,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1251814026318942208/24203304",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/19/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/04/19/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Eduardo Uribe",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/163bc653e7f182a5c9beac14d9ced3781aa197ddf9b3fef08a46270e83b29914.jpg",
+        "url": "https://twitter.com/Eduardo__Uribe"
+      },
+      "url": "https://twitter.com/nhoizey/status/1251814026318942208#favorited-by-3165967183",
+      "published": null,
+      "wm-received": "2020-04-19T21:12:15Z",
+      "wm-id": 784416,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1251814026318942208/3165967183",
       "wm-target": "https://nicolas-hoizey.com/notes/2020/04/19/1/",
       "like-of": "https://nicolas-hoizey.com/notes/2020/04/19/1/",
       "wm-property": "like-of",
