@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-04-19T21:44:48.351Z",
+  "lastFetched": "2020-04-20T20:11:32.725Z",
   "webmentions": [
     {
       "type": "entry",
@@ -51097,6 +51097,24 @@
       "wm-received": "2020-04-19T21:12:15Z",
       "wm-id": 784416,
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1251814026318942208/3165967183",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/19/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/04/19/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Paul Applegate",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0987ec9de511d7885e80cd0e1b34669556dfbe7deaa05e666dd007ebb2edbd77.jpg",
+        "url": "https://twitter.com/papplegate"
+      },
+      "url": "https://twitter.com/nhoizey/status/1251814026318942208#favorited-by-10192922",
+      "published": null,
+      "wm-received": "2020-04-20T05:23:32Z",
+      "wm-id": 784491,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1251814026318942208/10192922",
       "wm-target": "https://nicolas-hoizey.com/notes/2020/04/19/1/",
       "like-of": "https://nicolas-hoizey.com/notes/2020/04/19/1/",
       "wm-property": "like-of",
