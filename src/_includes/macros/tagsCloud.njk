@@ -8,13 +8,15 @@
 <ol class="tagscloud__tags">
 {% for tag in tags %}
   {% set tagUrl %}/tags/{{ tag.tag | slugify }}/{% endset %}
+  {% set fontSize = (maxSize - minSize) * tag.factor + minSize %}
+  {% set fontWeight = (maxWeight - minWeight) * tag.factor + minWeight %}
   <li>
     <a href="{{ tagUrl }}"
       class="tag{{ tag.step }}"
       title="{{ tag.tag }} attached to {{ tag.number }} contents"
       style="
-        font-size: {{ (maxSize - minSize) * tag.factor + minSize }}em;
-        font-weight: {{ (maxWeight - minWeight) * tag.factor + minWeight }}"
+        font-size: {{ fontSize | round(2) }}em;
+        font-weight: {{ fontWeight | round(0) }}"
       rel="tag">{{ tag.tag }}</a>
   </li>
 {% endfor %}
