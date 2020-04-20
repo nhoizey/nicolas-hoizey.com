@@ -15,7 +15,7 @@ title: Latest Webmentions
     </tr>
   </thead>
   <tbody>
-    {% for webmention in webmentions | reverse | limit(100) %}
+    {% for webmention in webmentions | reverse | limit(20) %}
       <tr style="font-size: 0.8em">
         <td style="white-space: nowrap">{{ webmention.published | date("DD/MM/YYYY HH:mm") }}</td>
         <td style="white-space: nowrap">{{ webmention['wm-property'] }}</td>
