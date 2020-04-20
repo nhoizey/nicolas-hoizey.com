@@ -17,7 +17,7 @@
       text-decoration: none;
       white-space: nowrap;
 
-      background-color: $color-primary-lighter-2;
+      background-color: $color-primary-lighter-3;
       color: $color-white;
       border-radius: 0.2em;
     }
@@ -25,14 +25,28 @@
     &.tag2 {
       &:link,
       &:visited {
-        background-color: $color-primary-lighter-1;
+        background-color: $color-primary-lighter-2;
       }
     }
 
     &.tag3 {
       &:link,
       &:visited {
+        background-color: $color-primary-lighter-1;
+      }
+    }
+
+    &.tag4 {
+      &:link,
+      &:visited {
         background-color: $color-primary;
+      }
+    }
+
+    &.tag5 {
+      &:link,
+      &:visited {
+        background-color: $color-primary-darker-1;
       }
     }
 

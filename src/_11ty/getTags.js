@@ -47,7 +47,7 @@ module.exports = function (collection) {
       slug: tagSlug,
       number: number,
       factor: factor,
-      step: Math.ceil(factor * 2) + 1,
+      step: Math.ceil(factor * 4) + 1,
     };
 
     let tagLogoPath = `assets/logos/${tagSlug}.png`;
