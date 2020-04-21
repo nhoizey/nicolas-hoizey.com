@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-04-20T20:11:32.725Z",
+  "lastFetched": "2020-04-21T22:53:44.341Z",
   "webmentions": [
     {
       "type": "entry",
@@ -51117,6 +51117,24 @@
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1251814026318942208/10192922",
       "wm-target": "https://nicolas-hoizey.com/notes/2020/04/19/1/",
       "like-of": "https://nicolas-hoizey.com/notes/2020/04/19/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Yann",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0d23b8b9f86d76a6945ea9832828c55248d76e8fd9fd4aceab9fefe2e83e4eb5.jpg",
+        "url": "https://twitter.com/firewalkwizme"
+      },
+      "url": "https://twitter.com/nhoizey/status/1252333175117959168#favorited-by-40312405",
+      "published": null,
+      "wm-received": "2020-04-20T21:23:20Z",
+      "wm-id": 784995,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1252333175117959168/40312405",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/04/20/how-i-m-teaching-the-kids-coding-for-the-web/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/04/20/how-i-m-teaching-the-kids-coding-for-the-web/",
       "wm-property": "like-of",
       "wm-private": false
     }
