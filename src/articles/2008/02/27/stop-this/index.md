@@ -6,5 +6,5 @@ tags:       [photography]
 flickr:     https://www.flickr.com/photos/nicolas-hoizey/2295248859
 ---
 
-![](20071028-Stop-this.jpg)
+![A very close statue hand](20071028-Stop-this.jpg "Stop this ([on Flickr](https://www.flickr.com/photos/nicolas-hoizey/2295248859/))")
 
