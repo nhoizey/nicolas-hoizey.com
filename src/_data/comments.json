@@ -6374,7 +6374,7 @@
         "image": "no-avatar.png",
         "name": "Fil"
       },
-      "content": "<p>pour attraper plein de bots tu peux juste mettre<br /> <code>RewriteCond %&lbrace;HTTP_USER_AGENT} bot</code></p>"
+      "content": "<p>pour attraper plein de bots tu peux juste mettre<br /> <code>RewriteCond %{HTTP_USER_AGENT} bot</code></p>"
     },
     {
       "id": "comment-2867805117",
