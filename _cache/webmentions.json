@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-04-23T10:03:01.160Z",
+  "lastFetched": "2020-04-27T16:23:06.251Z",
   "webmentions": [
     {
       "type": "entry",
@@ -51177,6 +51177,240 @@
       "wm-target": "https://nicolas-hoizey.com/notes/2020/04/22/1/",
       "like-of": "https://nicolas-hoizey.com/notes/2020/04/22/1/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Dave 🧱",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/355a5a62cd04d53ac931e2feb2960a2ae22d2c7989419d8160fab2bcd38dfbf9.jpg",
+        "url": "https://twitter.com/DavidDarnes"
+      },
+      "url": "https://twitter.com/nhoizey/status/1254431878230290432#favorited-by-33643481",
+      "published": null,
+      "wm-received": "2020-04-26T15:42:22Z",
+      "wm-id": 787341,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1254431878230290432/33643481",
+      "wm-target": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "like-of": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Julianoe ✏️",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/030c71409445fa2aec98ccc547645ad90e222e83bf174c90ef3701b0d10fc50e.jpg",
+        "url": "https://twitter.com/ju3R57xKlKYv7"
+      },
+      "url": "https://twitter.com/ju3R57xKlKYv7/status/1254699841319469057",
+      "published": "2020-04-27T09:12:08+00:00",
+      "wm-received": "2020-04-27T09:16:04Z",
+      "wm-id": 787523,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1254699317828476930/1254699841319469057",
+      "wm-target": "https://nicolas-hoizey.com/notes/",
+      "content": {
+        "content-type": "text/html",
+        "value": "super cool de voir les applications des uns et des autres. C'est du 11ty aussi ?\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Slashgear_\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "super cool de voir les applications des uns et des autres. C'est du 11ty aussi ?",
+        "text": "super cool de voir les applications des uns et des autres. C'est du 11ty aussi ?"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Julianoe ✏️",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/030c71409445fa2aec98ccc547645ad90e222e83bf174c90ef3701b0d10fc50e.jpg",
+        "url": "https://twitter.com/ju3R57xKlKYv7"
+      },
+      "url": "https://twitter.com/ju3R57xKlKYv7/status/1254700033242468353",
+      "published": "2020-04-27T09:12:53+00:00",
+      "wm-received": "2020-04-27T09:16:08Z",
+      "wm-id": 787524,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1254699317828476930/1254700033242468353",
+      "wm-target": "https://nicolas-hoizey.com/notes/",
+      "content": {
+        "content-type": "text/html",
+        "value": "C'est justement ce qui m'intéresse, la publication plus ou moins automatisée sur les réseaux. M'est avis que pour populariser cette approche qui me parait très vertueuse et constructive, il faut fournir des outils qui facilitent son adoption.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Slashgear_\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "C'est justement ce qui m'intéresse, la publication plus ou moins automatisée sur les réseaux. M'est avis que pour populariser cette approche qui me parait très vertueuse et constructive, il faut fournir des outils qui facilitent son adoption.",
+        "text": "C'est justement ce qui m'intéresse, la publication plus ou moins automatisée sur les réseaux. M'est avis que pour populariser cette approche qui me parait très vertueuse et constructive, il faut fournir des outils qui facilitent son adoption."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Julianoe ✏️",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/030c71409445fa2aec98ccc547645ad90e222e83bf174c90ef3701b0d10fc50e.jpg",
+        "url": "https://twitter.com/ju3R57xKlKYv7"
+      },
+      "url": "https://twitter.com/ju3R57xKlKYv7/status/1254700118546268160",
+      "published": "2020-04-27T09:13:14+00:00",
+      "wm-received": "2020-04-27T09:50:24Z",
+      "wm-id": 787543,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1254699317828476930/1254700118546268160",
+      "wm-target": "https://nicolas-hoizey.com/notes/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Et pas que ça demande beaucoup plus de boulot une fois en place pour poster un tweet\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Slashgear_\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "Et pas que ça demande beaucoup plus de boulot une fois en place pour poster un tweet",
+        "text": "Et pas que ça demande beaucoup plus de boulot une fois en place pour poster un tweet"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1254700411111583744",
+      "published": "2020-04-27T09:14:23+00:00",
+      "wm-received": "2020-04-27T09:16:03Z",
+      "wm-id": 787522,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1254699317828476930/1254700411111583744",
+      "wm-target": "https://nicolas-hoizey.com/notes/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Oui, tout à fait.\n\nLe code est là : <a href=\"https://github.com/nhoizey/nicolas-hoizey.com\">github.com/nhoizey/nicola…</a>\n\nJ'essaie de généraliser mes habitudes dans un template : <a href=\"https://pack11ty.dev/\">pack11ty.dev</a>\n\n<a class=\"u-mention\" href=\"https://twitter.com/Slashgear_\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/ju3R57xKlKYv7\"></a>",
+        "html": "Oui, tout à fait.<br /><br />Le code est là : <a href=\"https://github.com/nhoizey/nicolas-hoizey.com\">github.com/nhoizey/nicola…</a><br /><br />J'essaie de généraliser mes habitudes dans un template : <a href=\"https://pack11ty.dev/\">pack11ty.dev</a>",
+        "text": "Oui, tout à fait.\n\nLe code est là : github.com/nhoizey/nicola…\n\nJ'essaie de généraliser mes habitudes dans un template : pack11ty.dev"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1254700622642925569",
+      "published": "2020-04-27T09:15:14+00:00",
+      "wm-received": "2020-04-27T09:50:24Z",
+      "wm-id": 787544,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1254699317828476930/1254700622642925569",
+      "wm-target": "https://nicolas-hoizey.com/notes/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Exactement ! Pour l'instant, j'ai été confronté à un blocage parce que je n'arrivais pas à poster automatiquement un tweet contenant une mention, je n'ai pas encore pu passer plus de temps dessus.\n<a class=\"u-mention\" href=\"https://twitter.com/Slashgear_\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/ju3R57xKlKYv7\"></a>",
+        "html": "Exactement ! Pour l'instant, j'ai été confronté à un blocage parce que je n'arrivais pas à poster automatiquement un tweet contenant une mention, je n'ai pas encore pu passer plus de temps dessus.",
+        "text": "Exactement ! Pour l'instant, j'ai été confronté à un blocage parce que je n'arrivais pas à poster automatiquement un tweet contenant une mention, je n'ai pas encore pu passer plus de temps dessus."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Julianoe ✏️",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/030c71409445fa2aec98ccc547645ad90e222e83bf174c90ef3701b0d10fc50e.jpg",
+        "url": "https://twitter.com/ju3R57xKlKYv7"
+      },
+      "url": "https://twitter.com/ju3R57xKlKYv7/status/1254700635636797440",
+      "published": "2020-04-27T09:15:17+00:00",
+      "wm-received": "2020-04-27T09:50:15Z",
+      "wm-id": 787539,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1254699317828476930/1254700635636797440",
+      "wm-target": "https://nicolas-hoizey.com/notes/",
+      "content": {
+        "content-type": "text/html",
+        "value": "oups le About a l'air d'évoquer Jekyll ^^ \n<a href=\"https://nicolas-hoizey.com/about/the-website.html\">nicolas-hoizey.com/about/the-webs…</a>\n\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Slashgear_\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "oups le About a l'air d'évoquer Jekyll ^^ <br /><a href=\"https://nicolas-hoizey.com/about/the-website.html\">nicolas-hoizey.com/about/the-webs…</a>",
+        "text": "oups le About a l'air d'évoquer Jekyll ^^ \nnicolas-hoizey.com/about/the-webs…"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Julianoe ✏️",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/030c71409445fa2aec98ccc547645ad90e222e83bf174c90ef3701b0d10fc50e.jpg",
+        "url": "https://twitter.com/ju3R57xKlKYv7"
+      },
+      "url": "https://twitter.com/ju3R57xKlKYv7/status/1254701228933681152",
+      "published": "2020-04-27T09:17:38+00:00",
+      "wm-received": "2020-04-27T09:50:31Z",
+      "wm-id": 787545,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1254699317828476930/1254701228933681152",
+      "wm-target": "https://nicolas-hoizey.com/notes/",
+      "content": {
+        "content-type": "text/html",
+        "value": "en tout cas je découvre aussi le concept de Webmention qui est... géniale. Damn mais c'est tout ça le web qu'on veut ! c'est le futur tout ça !\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Slashgear_\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "en tout cas je découvre aussi le concept de Webmention qui est... géniale. Damn mais c'est tout ça le web qu'on veut ! c'est le futur tout ça !",
+        "text": "en tout cas je découvre aussi le concept de Webmention qui est... géniale. Damn mais c'est tout ça le web qu'on veut ! c'est le futur tout ça !"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1254701432982380545",
+      "published": "2020-04-27T09:18:27+00:00",
+      "wm-received": "2020-04-27T09:50:17Z",
+      "wm-id": 787541,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1254699317828476930/1254701432982380545",
+      "wm-target": "https://nicolas-hoizey.com/notes/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Ah oui, une des dernières choses à faire dans ma migration… 😅\n\n<a href=\"https://github.com/nhoizey/nicolas-hoizey.com/projects/3\">github.com/nhoizey/nicola…</a>\n\n<a class=\"u-mention\" href=\"https://twitter.com/Slashgear_\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/ju3R57xKlKYv7\"></a>",
+        "html": "Ah oui, une des dernières choses à faire dans ma migration… 😅<br /><br /><a href=\"https://github.com/nhoizey/nicolas-hoizey.com/projects/3\">github.com/nhoizey/nicola…</a>",
+        "text": "Ah oui, une des dernières choses à faire dans ma migration… 😅\n\ngithub.com/nhoizey/nicola…"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1254703739937718272",
+      "published": "2020-04-27T09:27:37+00:00",
+      "wm-received": "2020-04-27T09:50:32Z",
+      "wm-id": 787546,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1254699317828476930/1254703739937718272",
+      "wm-target": "https://nicolas-hoizey.com/notes/",
+      "content": {
+        "content-type": "text/html",
+        "value": "😁\n<a class=\"u-mention\" href=\"https://twitter.com/Slashgear_\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/ju3R57xKlKYv7\"></a>",
+        "html": "😁",
+        "text": "😁"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/",
+      "wm-property": "in-reply-to",
       "wm-private": false
     }
   ]
