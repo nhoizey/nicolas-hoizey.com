@@ -24,6 +24,7 @@ module.exports = {
 
     // convert hashtags to Twitter accounts
     let handles = {
+      '#CanIUse': '@caniuse',
       '#Cloudinary': '@cloudinary',
       '#Dareboost': '@Dareboost',
       '#Eleventy': '@eleven_ty',
@@ -55,7 +56,7 @@ module.exports = {
     tweet = tweet.replace(/<del>([^<]+)<\/del>/g, ($correspondance, $1) => {
       return $1
         .split('')
-        .map(c => `${c}\u0336`)
+        .map((c) => `${c}\u0336`)
         .join('');
     });
 
@@ -64,9 +65,9 @@ module.exports = {
 
     return tweet;
   },
-  noteToHtml: content => {
+  noteToHtml: (content) => {
     let hashtags = twitter.extractHashtags(twitter.htmlEscape(content));
-    hashtags.forEach(hashtag => {
+    hashtags.forEach((hashtag) => {
       content = content.replace(
         `#${hashtag}`,
         `<a href="/tags/${slugifyString(hashtag)}/">#${hashtag}</a>`,
@@ -76,7 +77,7 @@ module.exports = {
 
     // deal with Twitter handles
     let mentions = twitter.extractMentions(content);
-    mentions.forEach(mention => {
+    mentions.forEach((mention) => {
       content = content.replace(
         `@${mention}`,
         `<a href="https://twitter.com/${mention}">@${mention}</a>`
