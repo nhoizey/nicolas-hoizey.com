@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-04-28T07:20:50.237Z",
+  "lastFetched": "2020-04-29T08:28:17.665Z",
   "webmentions": [
     {
       "type": "entry",
@@ -51429,6 +51429,240 @@
       "wm-target": "https://nicolas-hoizey.com/articles/2012/07/06/reconcilier-seo-et-webperf-au-niveau-des-redirections-de-sous-domaines/",
       "like-of": "https://nicolas-hoizey.com/articles/2012/07/06/reconcilier-seo-et-webperf-au-niveau-des-redirections-de-sous-domaines/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jérémie Patonnier",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/cb47bbabd3165f38fafef14743b0bd26739bb9fd1d1c592d5d7887edd63f488b.jpg",
+        "url": "https://twitter.com/JeremiePat"
+      },
+      "url": "https://twitter.com/JeremiePat/status/1255035897415897088",
+      "published": "2020-04-28T07:27:30+00:00",
+      "wm-received": "2020-04-28T07:52:25Z",
+      "wm-id": 788015,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1255035263262371840/1255035897415897088",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/28/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "All browsers since Safari 13 😉\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/caniuse\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "All browsers since Safari 13 😉",
+        "text": "All browsers since Safari 13 😉"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/04/28/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Xavier Zaława",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/77e826a263cabc3e81663ac5e508de10361793373ea1652b6af58cd278821fd0.jpg",
+        "url": "https://twitter.com/7studio"
+      },
+      "url": "https://twitter.com/7studio/status/1255036209375645697",
+      "published": "2020-04-28T07:28:44+00:00",
+      "wm-received": "2020-04-28T07:52:28Z",
+      "wm-id": 788018,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1255035263262371840/1255036209375645697",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/28/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Anyone knows which browsers support the `href` attribute in #SVG `&lt;use&gt;` tags without the `xlink` namespace?\n\nCouldn't find the information",
+        "html": "Anyone knows which browsers support the `href` attribute in #SVG `&lt;use&gt;` tags without the `xlink` namespace?<br /><br />Couldn't find the information",
+        "text": "Anyone knows which browsers support the `href` attribute in #SVG `<use>` tags without the `xlink` namespace?\n\nCouldn't find the information"
+      },
+      "repost-of": "https://nicolas-hoizey.com/notes/2020/04/28/1/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1255036577266491393",
+      "published": "2020-04-28T07:30:12+00:00",
+      "wm-received": "2020-04-28T07:52:27Z",
+      "wm-id": 788017,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1255035263262371840/1255036577266491393",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/28/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Thanks!\n\nSo it's still pretty new, might be a good idea to keep namespaces for a while…\n<a class=\"u-mention\" href=\"https://twitter.com/JeremiePat\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/caniuse\"></a>",
+        "html": "Thanks!<br /><br />So it's still pretty new, might be a good idea to keep namespaces for a while…",
+        "text": "Thanks!\n\nSo it's still pretty new, might be a good idea to keep namespaces for a while…"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/04/28/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Florens Verschelde",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/dcb2d84e544835659f3002614ef679b273f8bebfbe1066cbd44951a37580ba53.jpg",
+        "url": "https://twitter.com/fvsch"
+      },
+      "url": "https://twitter.com/fvsch/status/1255037082495528960",
+      "published": "2020-04-28T07:32:12+00:00",
+      "wm-received": "2020-04-28T07:52:25Z",
+      "wm-id": 788014,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1255035263262371840/1255037082495528960",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/28/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Firefox and Chromium do, WebKit doesn't.\nNot sure about IE11 and Edge18.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/JeremiePat\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/caniuse\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "Firefox and Chromium do, WebKit doesn't.<br />Not sure about IE11 and Edge18.",
+        "text": "Firefox and Chromium do, WebKit doesn't.\nNot sure about IE11 and Edge18."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/04/28/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Yvain Liechti",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/435b28d6c561faa8ea38ab4a8da6fe3f30bb7ec9d737a75ae1bef9c0201f2e0d.jpg",
+        "url": "https://twitter.com/ryuran78"
+      },
+      "url": "https://twitter.com/ryuran78/status/1255037279971794949",
+      "published": "2020-04-28T07:32:59+00:00",
+      "wm-received": "2020-04-28T07:52:22Z",
+      "wm-id": 788012,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1255035263262371840/1255037279971794949",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/28/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "<a href=\"https://developer.mozilla.org/en-US/docs/Web/SVG/Element/use#Browser_compatibility\">developer.mozilla.org/en-US/docs/Web…</a> safari 12.1 c'est indiqué ici ?\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/JeremiePat\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/caniuse\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "<a href=\"https://developer.mozilla.org/en-US/docs/Web/SVG/Element/use#Browser_compatibility\">developer.mozilla.org/en-US/docs/Web…</a> safari 12.1 c'est indiqué ici ?",
+        "text": "developer.mozilla.org/en-US/docs/Web… safari 12.1 c'est indiqué ici ?"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/04/28/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1255041499311550464",
+      "published": "2020-04-28T07:49:45+00:00",
+      "wm-received": "2020-04-28T07:52:23Z",
+      "wm-id": 788013,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1255035263262371840/1255041499311550464",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/28/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "<a href=\"https://twitter.com/fvsch\">@fvsch</a> well, if MDN is right, iOS Safari 12.2 do support it… interesting.\n\nI guess all browsers will keep support for `xlink:href` for a while anyway, might be safer keeping it. But with the `xmlns` declaration.\n\nIn <a href=\"https://twitter.com/esviji\">@esviji</a>, I had `xlink:href` but no `xmlns`, it fails in SVGO.\n<a class=\"u-mention\" href=\"https://twitter.com/JeremiePat\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/caniuse\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/ryuran78\"></a>",
+        "html": "<a href=\"https://twitter.com/fvsch\">@fvsch</a> well, if MDN is right, iOS Safari 12.2 do support it… interesting.<br /><br />I guess all browsers will keep support for `xlink:href` for a while anyway, might be safer keeping it. But with the `xmlns` declaration.<br /><br />In <a href=\"https://twitter.com/esviji\">@esviji</a>, I had `xlink:href` but no `xmlns`, it fails in SVGO.",
+        "text": "@fvsch well, if MDN is right, iOS Safari 12.2 do support it… interesting.\n\nI guess all browsers will keep support for `xlink:href` for a while anyway, might be safer keeping it. But with the `xmlns` declaration.\n\nIn @esviji, I had `xlink:href` but no `xmlns`, it fails in SVGO."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/04/28/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Xavier Zaława",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/77e826a263cabc3e81663ac5e508de10361793373ea1652b6af58cd278821fd0.jpg",
+        "url": "https://twitter.com/7studio"
+      },
+      "url": "https://twitter.com/nhoizey/status/1255035263262371840#favorited-by-20092443",
+      "published": null,
+      "wm-received": "2020-04-28T07:52:26Z",
+      "wm-id": 788016,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1255035263262371840/20092443",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/28/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/04/28/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Florens Verschelde",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/dcb2d84e544835659f3002614ef679b273f8bebfbe1066cbd44951a37580ba53.jpg",
+        "url": "https://twitter.com/fvsch"
+      },
+      "url": "https://twitter.com/fvsch/status/1255047223907319809",
+      "published": "2020-04-28T08:12:30+00:00",
+      "wm-received": "2020-04-28T08:56:35Z",
+      "wm-id": 788039,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1255035263262371840/1255047223907319809",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/28/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Because HTML is more permissive than XML, you can use namespaced attributes without declaring the namespace and it won't blow in your face. :)\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/JeremiePat\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/caniuse\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/esviji\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/ryuran78\"></a>",
+        "html": "Because HTML is more permissive than XML, you can use namespaced attributes without declaring the namespace and it won't blow in your face. :)",
+        "text": "Because HTML is more permissive than XML, you can use namespaced attributes without declaring the namespace and it won't blow in your face. :)"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/04/28/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1255048466461593600",
+      "published": "2020-04-28T08:17:26+00:00",
+      "wm-received": "2020-04-28T08:56:35Z",
+      "wm-id": 788040,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1255035263262371840/1255048466461593600",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/28/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "But I never use namespaced attributes in HTML, only in SVG… 😉\n\nI played with <a href=\"https://twitter.com/parceljs\">@parceljs</a> yesterday for @esviji, to replace 6 years old Grunt build, and stumbled upon this issue:\n<a href=\"https://github.com/posthtml/htmlnano/issues/47#issuecomment-373341624\">github.com/posthtml/htmln…</a>\n\n<a class=\"u-mention\" href=\"https://twitter.com/JeremiePat\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/caniuse\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/esviji\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/fvsch\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/ryuran78\"></a>",
+        "html": "But I never use namespaced attributes in HTML, only in SVG… 😉<br /><br />I played with <a href=\"https://twitter.com/parceljs\">@parceljs</a> yesterday for @esviji, to replace 6 years old Grunt build, and stumbled upon this issue:<br /><a href=\"https://github.com/posthtml/htmlnano/issues/47#issuecomment-373341624\">github.com/posthtml/htmln…</a>",
+        "text": "But I never use namespaced attributes in HTML, only in SVG… 😉\n\nI played with @parceljs yesterday for @esviji, to replace 6 years old Grunt build, and stumbled upon this issue:\ngithub.com/posthtml/htmln…"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/04/28/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jérémie Patonnier",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/cb47bbabd3165f38fafef14743b0bd26739bb9fd1d1c592d5d7887edd63f488b.jpg",
+        "url": "https://twitter.com/JeremiePat"
+      },
+      "url": "https://twitter.com/JeremiePat/status/1255088998801956864",
+      "published": "2020-04-28T10:58:30+00:00",
+      "wm-received": "2020-04-28T11:28:23Z",
+      "wm-id": 788078,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1255035263262371840/1255088998801956864",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/04/28/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "IE support unprefixed href since IE9 (it was the first)\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/caniuse\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/fvsch\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "IE support unprefixed href since IE9 (it was the first)",
+        "text": "IE support unprefixed href since IE9 (it was the first)"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/04/28/1/",
+      "wm-property": "in-reply-to",
       "wm-private": false
     }
   ]
