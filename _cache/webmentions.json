@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-04-29T08:28:17.665Z",
+  "lastFetched": "2020-05-01T08:51:03.395Z",
   "webmentions": [
     {
       "type": "entry",
@@ -51662,6 +51662,158 @@
         "text": "IE support unprefixed href since IE9 (it was the first)"
       },
       "in-reply-to": "https://nicolas-hoizey.com/notes/2020/04/28/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Thomas Steiner",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/05796e7c6ce8b47a935fae4489812faf9813783f9c99b9b9dbb54d2de4bb9770.jpg",
+        "url": "https://twitter.com/tomayac"
+      },
+      "url": "https://twitter.com/tomayac/status/1255436168335953921",
+      "published": "2020-04-29T09:58:02+00:00",
+      "wm-received": "2020-04-29T10:45:56Z",
+      "wm-id": 788563,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1254431878230290432/1255436168335953921",
+      "wm-target": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "photo": [
+        "https://pbs.twimg.com/media/EWw0iIGWsAA5YxY.jpg",
+        "https://pbs.twimg.com/media/EWw0iIAWoAACNFq.jpg",
+        "https://pbs.twimg.com/media/EWw0iIBWkAEokT8.jpg"
+      ],
+      "content": {
+        "content-type": "text/html",
+        "value": "Ugh, while this works on iOS Safari and in-app browsers like the one in Google Hangouts, it breaks in Chrome, since Chrome honors `-webkit-fill-available` (and consequently doesn't ignore it). Demo: <a href=\"https://100vh.glitch.me/\">100vh.glitch.me</a>.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/AllThingsSmitty\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/DavidDarnes\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/HenriHelvetica\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/jonathandavis\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/webkit\"></a>",
+        "html": "Ugh, while this works on iOS Safari and in-app browsers like the one in Google Hangouts, it breaks in Chrome, since Chrome honors `-webkit-fill-available` (and consequently doesn't ignore it). Demo: <a href=\"https://100vh.glitch.me/\">100vh.glitch.me</a>.",
+        "text": "Ugh, while this works on iOS Safari and in-app browsers like the one in Google Hangouts, it breaks in Chrome, since Chrome honors `-webkit-fill-available` (and consequently doesn't ignore it). Demo: 100vh.glitch.me."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matt Smith",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/6c6ca3bf718b5a57454800b0c484c48e828c7131be6a557690a64bdd4536aa4e.jpg",
+        "url": "https://twitter.com/AllThingsSmitty"
+      },
+      "url": "https://twitter.com/AllThingsSmitty/status/1255467622407311362",
+      "published": "2020-04-29T12:03:01+00:00",
+      "wm-received": "2020-04-29T12:33:02Z",
+      "wm-id": 788647,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1254431878230290432/1255467622407311362",
+      "wm-target": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "photo": [
+        "https://pbs.twimg.com/media/EWxQtClXsAIMFpn.jpg"
+      ],
+      "content": {
+        "content-type": "text/html",
+        "value": "Any idea why Chrome honors `-webkit-fill-available` and not ignore it? Bug? 🤔 But am I missing something, cuz my desktop Chrome handles your example fine.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/DavidDarnes\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/HenriHelvetica\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/jonathandavis\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/tomayac\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/webkit\"></a>",
+        "html": "Any idea why Chrome honors `-webkit-fill-available` and not ignore it? Bug? 🤔 But am I missing something, cuz my desktop Chrome handles your example fine.",
+        "text": "Any idea why Chrome honors `-webkit-fill-available` and not ignore it? Bug? 🤔 But am I missing something, cuz my desktop Chrome handles your example fine."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Thomas Steiner",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/05796e7c6ce8b47a935fae4489812faf9813783f9c99b9b9dbb54d2de4bb9770.jpg",
+        "url": "https://twitter.com/tomayac"
+      },
+      "url": "https://twitter.com/tomayac/status/1255470266525810690",
+      "published": "2020-04-29T12:13:31+00:00",
+      "wm-received": "2020-04-29T12:33:09Z",
+      "wm-id": 788648,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1254431878230290432/1255470266525810690",
+      "wm-target": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Chrome 83 and Chrome 84 render it broken as in my screenshot. I’m not an expert, but it seems it’s not really in the spec anymore: <a href=\"https://drafts.csswg.org/css-sizing-3/#sizing-values\">drafts.csswg.org/css-sizing-3/#…</a> (search for 'stretch', which is the actual name of 'fill-available' IIUC).\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/AllThingsSmitty\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/DavidDarnes\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/HenriHelvetica\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/jonathandavis\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/webkit\"></a>",
+        "html": "Chrome 83 and Chrome 84 render it broken as in my screenshot. I’m not an expert, but it seems it’s not really in the spec anymore: <a href=\"https://drafts.csswg.org/css-sizing-3/#sizing-values\">drafts.csswg.org/css-sizing-3/#…</a> (search for 'stretch', which is the actual name of 'fill-available' IIUC).",
+        "text": "Chrome 83 and Chrome 84 render it broken as in my screenshot. I’m not an expert, but it seems it’s not really in the spec anymore: drafts.csswg.org/css-sizing-3/#… (search for 'stretch', which is the actual name of 'fill-available' IIUC)."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Dave 🧱",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/355a5a62cd04d53ac931e2feb2960a2ae22d2c7989419d8160fab2bcd38dfbf9.jpg",
+        "url": "https://twitter.com/DavidDarnes"
+      },
+      "url": "https://twitter.com/DavidDarnes/status/1255479054519750663",
+      "published": "2020-04-29T12:48:26+00:00",
+      "wm-received": "2020-04-29T13:51:45Z",
+      "wm-id": 788706,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1254431878230290432/1255479054519750663",
+      "wm-target": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Just to make things more confusing, for me (macOS Catalina, Chrome 81) the value works but doesn't respect resizing\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/AllThingsSmitty\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/HenriHelvetica\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/jonathandavis\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/tomayac\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/webkit\"></a>",
+        "html": "Just to make things more confusing, for me (macOS Catalina, Chrome 81) the value works but doesn't respect resizing",
+        "text": "Just to make things more confusing, for me (macOS Catalina, Chrome 81) the value works but doesn't respect resizing"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Thomas Steiner",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/05796e7c6ce8b47a935fae4489812faf9813783f9c99b9b9dbb54d2de4bb9770.jpg",
+        "url": "https://twitter.com/tomayac"
+      },
+      "url": "https://twitter.com/tomayac/status/1255481548503121923",
+      "published": "2020-04-29T12:58:21+00:00",
+      "wm-received": "2020-04-29T13:51:46Z",
+      "wm-id": 788707,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1254431878230290432/1255481548503121923",
+      "wm-target": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Maybe <a href=\"https://twitter.com/fantasai\">@fantasai</a> or <a href=\"https://twitter.com/tabatkins\">@tabatkins</a> as the spec editors can clarify what’s the correct behavior here.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/AllThingsSmitty\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/DavidDarnes\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/HenriHelvetica\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/jonathandavis\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/webkit\"></a>",
+        "html": "Maybe <a href=\"https://twitter.com/fantasai\">@fantasai</a> or <a href=\"https://twitter.com/tabatkins\">@tabatkins</a> as the spec editors can clarify what’s the correct behavior here.",
+        "text": "Maybe @fantasai or @tabatkins as the spec editors can clarify what’s the correct behavior here."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Thomas Steiner",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/05796e7c6ce8b47a935fae4489812faf9813783f9c99b9b9dbb54d2de4bb9770.jpg",
+        "url": "https://twitter.com/tomayac"
+      },
+      "url": "https://twitter.com/tomayac/status/1255513983186014214",
+      "published": "2020-04-29T15:07:14+00:00",
+      "wm-received": "2020-04-29T15:59:09Z",
+      "wm-id": 788818,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1254431878230290432/1255513983186014214",
+      "wm-target": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Thanks for the reply; and sorry, it was hard to get the context. We were discussing whether the first screenshot with the footer _not_ at the bottom in Chrome from my tweet https://t.co/jwdvlk4GUz was the correct behavior for `min-height: -webkit-fill-available`.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/AllThingsSmitty\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/DavidDarnes\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/HenriHelvetica\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/fantasai\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/jonathandavis\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/tabatkins\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/webkit\"></a>",
+        "html": "Thanks for the reply; and sorry, it was hard to get the context. We were discussing whether the first screenshot with the footer _not_ at the bottom in Chrome from my tweet https://t.co/jwdvlk4GUz was the correct behavior for `min-height: -webkit-fill-available`.",
+        "text": "Thanks for the reply; and sorry, it was hard to get the context. We were discussing whether the first screenshot with the footer _not_ at the bottom in Chrome from my tweet https://t.co/jwdvlk4GUz was the correct behavior for `min-height: -webkit-fill-available`."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
       "wm-property": "in-reply-to",
       "wm-private": false
     }
