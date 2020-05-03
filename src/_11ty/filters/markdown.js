@@ -47,7 +47,7 @@ const tweetImageToHtml = (tweet, url) => {
   // replace markdown images with HTML image
   tweet = tweet.replace(
     /!\[([^\]]+)\]\(([^\) ]+)( [^\)]+)?\)({.[^}]+})?/g,
-    `<img src="${url}$2" />`
+    `<img src="${url}$2" style="max-width: 100%" />`
   );
   return tweet;
 };
