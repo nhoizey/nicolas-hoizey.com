@@ -1,5 +1,6 @@
 ---
 date: 2020-05-03 16:21:05 +02:00
+tags: [IFTTT, feed, Twitter]
 ---
 
 I still love how #IFTTT makes it easy to link two services.

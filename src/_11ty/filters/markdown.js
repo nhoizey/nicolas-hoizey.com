@@ -10,55 +10,103 @@ function htmlEntities(str) {
     .replace(/"/g, '&quot;');
 }
 
+const tweetCode = (tweet) => {
+  // Deal with inline code
+  tweet = tweet.replace(/`([^`]+)`/g, (correspondance, code) => {
+    return '`' + htmlEntities(code) + '`';
+  });
+  return tweet;
+};
+
+const tweetHashtagTohandle = (tweet) => {
+  // convert hashtags to Twitter accounts
+  let handles = {
+    '#CanIUse': '@caniuse',
+    '#Cloudinary': '@cloudinary',
+    '#Dareboost': '@Dareboost',
+    '#Eleventy': '@eleven_ty',
+    '#esviji': '@esviji',
+    '#EveryLayout': '@layoutplusplus',
+    '#Github': '@github',
+    '#IFTTT': '@IFTTT',
+    '#Jekyll': '@jekyllrb',
+    '#Netlify': '@Netlify',
+    '#Notist': '@benotist',
+    '#Rollup': '@RollupJS',
+    '#Tailwind': '@tailwindcss',
+    '#Unsplash': '@unsplash',
+    '#Workbox': '@workboxjs',
+  };
+  for (const tag in handles) {
+    tweet = tweet.replace(tag, handles[tag]);
+  }
+  return tweet;
+};
+
+const tweetImageToHtml = (tweet, url) => {
+  // replace markdown images with HTML image
+  tweet = tweet.replace(
+    /!\[([^\]]+)\]\(([^\) ]+)( [^\)]+)?\)({.[^}]+})?/g,
+    `<img src="${url}$2" />`
+  );
+  return tweet;
+};
+
+const tweetImageToLink = (tweet, url) => {
+  // replace images with links
+  tweet = tweet.replace(
+    /!\[([^\]]+)\]\(([^\) ]+)( [^\)]+)?\)({.[^}]+})?/g,
+    `🖼 <a href="${url}$2">image</a>`
+  );
+  return tweet;
+};
+
+const tweetLinks = (tweet) => {
+  // deal with links
+  tweet = tweet.replace(/\[([^\]]+)\]\(([^\)]+)\)/g, '$1 ( $2 )');
+  return tweet;
+};
+
+const tweetStrike = (tweet) => {
+  // replace <del>blah blah</del> by b̶̶l̶a̶h̶ ̶b̶l̶a̶h̶
+  tweet = tweet.replace(/<del>([^<]+)<\/del>/g, ($correspondance, $1) => {
+    return $1
+      .split('')
+      .map((c) => `${c}\u0336`)
+      .join('');
+  });
+  return tweet;
+};
+
 module.exports = {
   noteToTweet: (content, url) => {
     tweet = content.trim();
-
-    // Deal with inline code
-    tweet = tweet.replace(/`([^`]+)`/g, ($correspondance, code) => {
-      return '`' + htmlEntities(code) + '`';
-    });
+    tweet = tweetCode(tweet);
 
     // remove bold and italics
     tweet = tweet.replace(/\*+([^\*\n]+)\*+/, '$1');
 
-    // convert hashtags to Twitter accounts
-    let handles = {
-      '#CanIUse': '@caniuse',
-      '#Cloudinary': '@cloudinary',
-      '#Dareboost': '@Dareboost',
-      '#Eleventy': '@eleven_ty',
-      '#esviji': '@esviji',
-      '#EveryLayout': '@layoutplusplus',
-      '#Github': '@github',
-      '#Jekyll': '@jekyllrb',
-      '#Netlify': '@Netlify',
-      '#Notist': '@benotist',
-      '#Rollup': '@RollupJS',
-      '#Tailwind': '@tailwindcss',
-      '#Unsplash': '@unsplash',
-      '#Workbox': '@workboxjs',
-    };
-    for (const tag in handles) {
-      tweet = tweet.replace(tag, handles[tag]);
-    }
+    tweet = tweetHashtagTohandle(tweet);
+    tweet = tweetImageToLink(tweet, url);
+    tweet = tweetLinks(tweet);
+    tweet = tweetStrike(tweet);
 
-    // deal with images
-    tweet = tweet.replace(
-      /!\[([^\]]+)\]\(([^\) ]+)( [^\)]+)?\)({.[^}]+})?/g,
-      `🖼 <a href="${url}$2">image</a>`
-    );
+    tweet = tweet.replace(/\n/g, '<br />\n');
+    // tweet = tweet.replace(/\n/g, "\u000a");
 
-    // deal with links
-    tweet = tweet.replace(/\[([^\]]+)\]\(([^\)]+)\)/g, '$1 ( $2 )');
+    return tweet;
+  },
+  noteToTweetForIfttt: (content, url) => {
+    tweet = content.trim();
+    tweet = tweetCode(tweet);
 
-    // replace <del>blah blah</del> by b̶̶l̶a̶h̶ ̶b̶l̶a̶h̶
-    tweet = tweet.replace(/<del>([^<]+)<\/del>/g, ($correspondance, $1) => {
-      return $1
-        .split('')
-        .map((c) => `${c}\u0336`)
-        .join('');
-    });
+    // remove bold and italics
+    tweet = tweet.replace(/\*+([^\*\n]+)\*+/, '$1');
+
+    tweet = tweetHashtagTohandle(tweet);
+    tweet = tweetImageToHtml(tweet, url);
+    tweet = tweetLinks(tweet);
+    tweet = tweetStrike(tweet);
 
     tweet = tweet.replace(/\n/g, '<br />\n');
     // tweet = tweet.replace(/\n/g, "\u000a");
