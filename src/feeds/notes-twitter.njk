@@ -19,7 +19,7 @@ permalink: /feeds/notes-twitter.xml
       <link href="{{ absoluteEntryUrl }}"/>
       <updated>{{ entry.date | rssDate }}</updated>
       <id>{{ absoluteEntryUrl }}</id>
-      <content type="html"><![CDATA[{{ entry.data.rawContent | noteToTweetForIfttt(entry.url) | safe }}<br /><br />https://nho.io/n/{{ entry.url | replace("/notes/", "") }}]]></content>
+      <content type="html"><![CDATA[{{ entry.data.rawContent | noteToTweetForIfttt(absoluteEntryUrl) | safe }}<br /><br />https://nho.io/n/{{ entry.url | replace("/notes/", "") }}]]></content>
     </entry>
   {% endfor %}
 </feed>
