@@ -1,3 +1,6 @@
+// Get additional CSS for Rollup
+import '../sass/additional.scss';
+
 import Toast from './toast.js';
 
 /*****************************************************************
