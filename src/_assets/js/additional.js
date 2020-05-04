@@ -19,8 +19,6 @@ window.addEventListener('load', () => {
   let lazy = document.querySelector('#lazy');
   if (lazy) {
     let path = new URL(window.location).pathname;
-    let beforeLazy = document.createElement('div');
-
     fetch(`/lazy${path}`)
       .then((response) => response.text())
       .then((html) => {
