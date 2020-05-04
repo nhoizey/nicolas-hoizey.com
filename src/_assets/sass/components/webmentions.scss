@@ -105,7 +105,7 @@
 
   .webmention__meta {
     color: $meta-color;
-    --link-decoration-color: $meta-link-decoration-color;
+    --link-decoration-color: #{$meta-link-decoration-color};
     font-size: var(--font-size-s);
   }
 }
