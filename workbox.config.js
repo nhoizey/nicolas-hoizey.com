@@ -1,9 +1,9 @@
 const path = require('path');
 
-const BUILD_DIR = 'dist';
+const DIST = '_site';
 
 module.exports = {
-  globDirectory: BUILD_DIR,
+  globDirectory: DIST,
   globPatterns: [
     './js/additional-es.*.js',
     './css/additional.*.css',
@@ -15,7 +15,7 @@ module.exports = {
     './offline-fallback.html',
     './manifest.webmanifest',
   ],
-  swSrc: path.join(BUILD_DIR, 'service-worker.js'),
-  swDest: path.join(BUILD_DIR, 'service-worker.js'),
+  swSrc: path.join(DIST, 'service-worker.js'),
+  swDest: path.join(DIST, 'service-worker.js'),
   mode: 'production',
 };

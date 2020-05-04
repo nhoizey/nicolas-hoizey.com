@@ -2,7 +2,7 @@
 node_modules
 
 # generated files
-dist
+_site
 src/_generated
 hashes_*.json
 

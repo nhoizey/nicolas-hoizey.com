@@ -180,7 +180,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setBrowserSyncConfig({
     ui: false,
     ghostMode: false,
-    // files: ['src/_generated', 'dist/css', 'dist/js'],
+    // files: ['src/_generated', '_site/css', '_site/js'],
   });
 
   return {
@@ -195,7 +195,7 @@ module.exports = function (eleventyConfig) {
       includes: '_includes',
       layouts: '_layouts',
       data: '_data',
-      output: 'dist',
+      output: '_site',
     },
   };
 };

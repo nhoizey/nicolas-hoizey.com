@@ -6,10 +6,10 @@ const md = new markdownIt();
 const runBeforeHook = (image, document) => {
   let documentBody = document.querySelector('body');
   let srcPath = documentBody.getAttribute('data-img-src');
-  // TODO: get "dist/" from config
+  // TODO: get "_site/" from config
   let distPath = documentBody
     .getAttribute('data-img-dist')
-    .replace(/^dist/, '');
+    .replace(/^_site/, '');
 
   let imageSrc = image.getAttribute('src');
 
