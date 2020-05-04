@@ -52,7 +52,7 @@ a:visited {
   kbd,
   code {
     text-decoration-line: underline;
-    text-decoration-color: var(--link-decoration-color, $color-blue);
+    text-decoration-color: var(--link-decoration-color, #{$color-blue});
   }
 }
 

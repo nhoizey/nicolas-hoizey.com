@@ -2,7 +2,7 @@
   color: #fff;
   background-color: $color-primary;
   border-bottom: solid 2px $color-primary-lighter-2;
-  margin: 0 0 calc($baseline * 2);
+  margin: 0 0 calc(#{$baseline} * 2);
   padding: 0.2em 0;
   overflow-x: auto;
   -webkit-overflow-scrolling: auto;

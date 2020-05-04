@@ -131,7 +131,7 @@ article {
   color: $color-darkgrey;
 
   // https://sass-lang.com/documentation/style-rules/declarations#custom-properties
-  --link-decoration-color: $color-grey;
+  --link-decoration-color: #{$color-grey};
 }
 
 .giphy {
