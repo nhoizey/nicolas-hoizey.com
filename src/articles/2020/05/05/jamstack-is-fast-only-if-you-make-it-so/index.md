@@ -10,7 +10,7 @@ You may have seen [Alex Russell](https://infrequently.org/)'s frequent rants abo
 
 https://twitter.com/slightlylate/status/1184959830819106816
 
-Gatsby is an easy target (among many others) because it is currently not optimized for performance out of the box. It is possible to [fix it](https://www.gatsbyjs.org/packages/gatsby-plugin-no-javascript/), but it should be the default, not an afterthought.
+Gatsby is an easy target (among many others) because it is currently not optimized for performance out of the box, despite what's [promoted](https://store.gatsbyjs.org/product/gatsby-sticker-6-pack). It is possible to fix it, for example with [this plugin](https://www.gatsbyjs.org/packages/gatsby-plugin-no-javascript/), and I believe good React developers can make it shine, but it should be the default, not an afterthought.
 
 Eleventy is very different, as Zach Leatherman reminds us in [Eleventy’s New Performance Leaderboard](https://www.zachleat.com/web/performance-dashboard/):
 
