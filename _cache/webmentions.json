@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-05-03T20:47:35.014Z",
+  "lastFetched": "2020-05-06T18:25:14.801Z",
   "webmentions": [
     {
       "type": "entry",
@@ -51841,6 +51841,201 @@
         "text": "Looks like it's a fail…\n\nhttps://t.co/2f8cZ7ss3Y\n\nnho.io/n/2020/05/03/2/"
       },
       "mention-of": "https://nicolas-hoizey.com/notes/2020/05/03/1/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Brian Rinaldi",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/efc0f01ad8139eeadfb194c9be54dec1b02269aafe8185d92d7bf91983ad396f.jpg",
+        "url": "https://twitter.com/remotesynth"
+      },
+      "url": "https://twitter.com/remotesynth/status/1257743243682500608",
+      "published": "2020-05-05T18:45:31+00:00",
+      "wm-received": "2020-05-05T19:27:22Z",
+      "wm-id": 792847,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/nhoizey/1257743243682500608",
+      "wm-target": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+      "content": {
+        "content-type": "text/html",
+        "value": "An interesting take on building for performance in the Jamstack by <a href=\"https://twitter.com/nhoizey\">@nhoizey</a>, which gets at something I personally keep trying to build awareness around - just because the J is for JavaScript, does not mean the solution for everything is client-side script. <a href=\"https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/\">nicolas-hoizey.com/articles/2020/…</a>",
+        "html": "An interesting take on building for performance in the Jamstack by <a href=\"https://twitter.com/nhoizey\">@nhoizey</a>, which gets at something I personally keep trying to build awareness around - just because the J is for JavaScript, does not mean the solution for everything is client-side script. <a href=\"https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/\">nicolas-hoizey.com/articles/2020/…</a>",
+        "text": "An interesting take on building for performance in the Jamstack by @nhoizey, which gets at something I personally keep trying to build awareness around - just because the J is for JavaScript, does not mean the solution for everything is client-side script. nicolas-hoizey.com/articles/2020/…"
+      },
+      "mention-of": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "edgemesh",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0dc7d529c0213c4885b8f105ddecd02e1d7272b1bd0086cbe1b10342f1b7edfb.jpg",
+        "url": "https://twitter.com/edgemeshinc"
+      },
+      "url": "https://twitter.com/nhoizey/status/1257731500465848320#favorited-by-760891744678543361",
+      "published": null,
+      "wm-received": "2020-05-05T19:27:22Z",
+      "wm-id": 792846,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1257731500465848320/760891744678543361",
+      "wm-target": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+      "like-of": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tomáš Jakl",
+        "photo": "https://webmention.io/avatar/nest.jakl.one/97b994b41ea14d3870e55e1afea0591022af9e9024f8098dd655e428200a732b.jpg",
+        "url": "https://nest.jakl.one/"
+      },
+      "url": "https://nest.jakl.one/likes/2020-05-06-vkx71/",
+      "published": "2020-05-06T05:02:32+00:00",
+      "wm-received": "2020-05-06T05:03:11Z",
+      "wm-id": 792994,
+      "wm-source": "https://nest.jakl.one/likes/2020-05-06-vkx71/",
+      "wm-target": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/#webmention-792847",
+      "like-of": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/#webmention-792847",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Boris Schapira 🚀",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/5ee9406245c84f10b637d5bfa201100dcc4a4c64dc9cd10d1729dad8730ac358.jpg",
+        "url": "https://twitter.com/boostmarks"
+      },
+      "url": "https://twitter.com/boostmarks/status/1257945009128722432",
+      "published": "2020-05-06T08:07:16+00:00",
+      "wm-received": "2020-05-06T08:33:45Z",
+      "wm-id": 793038,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/nice_links/1257945009128722432",
+      "wm-target": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+      "content": {
+        "content-type": "text/html",
+        "value": "<a href=\"https://twitter.com/search?q=%23boostmark\">#boostmark</a> \"JAMstack is fast only if you make it so\", <a href=\"https://twitter.com/nhoizey\">@nhoizey</a> <a href=\"https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/\">nicolas-hoizey.com/articles/2020/…</a>\n\nI really like the concept of MStack. \nClient-side JS tends to slow websites, use it wisely.",
+        "html": "<a href=\"https://twitter.com/search?q=%23boostmark\">#boostmark</a> \"JAMstack is fast only if you make it so\", <a href=\"https://twitter.com/nhoizey\">@nhoizey</a> <a href=\"https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/\">nicolas-hoizey.com/articles/2020/…</a><br /><br />I really like the concept of MStack. <br />Client-side JS tends to slow websites, use it wisely.",
+        "text": "#boostmark \"JAMstack is fast only if you make it so\", @nhoizey nicolas-hoizey.com/articles/2020/…\n\nI really like the concept of MStack. \nClient-side JS tends to slow websites, use it wisely."
+      },
+      "mention-of": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Coco Marz",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f50478b6a0c6668ac090bfa7e68eb3c5b37b18a6ef4dc5cae2368093b643abbd.jpg",
+        "url": "https://twitter.com/marz_coco"
+      },
+      "url": "https://twitter.com/nhoizey/status/1257731500465848320#favorited-by-3878783475",
+      "published": null,
+      "wm-received": "2020-05-06T10:12:56Z",
+      "wm-id": 793048,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1257731500465848320/3878783475",
+      "wm-target": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+      "like-of": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Arnaud Ligny 👨‍💻 💡 🚀",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/afdaad5e58f3f5186fe0155018d61b5726714e5d79f20fcf93c85a19edd512b4.jpg",
+        "url": "https://twitter.com/ArnaudLigny"
+      },
+      "url": "https://twitter.com/ArnaudLigny/status/1257981797880795137",
+      "published": "2020-05-06T10:33:27+00:00",
+      "wm-received": "2020-05-06T11:22:13Z",
+      "wm-id": 793059,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/nhoizey/1257981797880795137",
+      "wm-target": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Et si on faisait d'avantage la promotion de la Mstack ?\n\n\"JAMstack is fast only if you make it so\" \n<a href=\"https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/\">nicolas-hoizey.com/articles/2020/…</a>\n<a href=\"https://twitter.com/search?q=%23JAMstack\">#JAMstack</a>",
+        "html": "Et si on faisait d'avantage la promotion de la Mstack ?<br /><br />\"JAMstack is fast only if you make it so\" <br /><a href=\"https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/\">nicolas-hoizey.com/articles/2020/…</a><br /><a href=\"https://twitter.com/search?q=%23JAMstack\">#JAMstack</a>",
+        "text": "Et si on faisait d'avantage la promotion de la Mstack ?\n\n\"JAMstack is fast only if you make it so\" \nnicolas-hoizey.com/articles/2020/…\n#JAMstack"
+      },
+      "mention-of": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Boris",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0e6b7c0c9912522de37589b5514d9f8f1d06185a17169521bd7fbed6a7018fc8.jpg",
+        "url": "https://twitter.com/borisschapira"
+      },
+      "url": "https://twitter.com/borisschapira/status/1257997792594853888",
+      "published": "2020-05-06T11:37:00+00:00",
+      "wm-received": "2020-05-06T12:16:19Z",
+      "wm-id": 793072,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/nice_links/1257997792594853888",
+      "wm-target": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+      "content": {
+        "content-type": "text/html",
+        "value": "[Bookmark] \"JAMstack is fast only if you make it so\", Nicolas Hoizey (<a href=\"https://twitter.com/nhoizey\">@nhoizey</a>) <a href=\"https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/\">nicolas-hoizey.com/articles/2020/…</a>",
+        "html": "[Bookmark] \"JAMstack is fast only if you make it so\", Nicolas Hoizey (<a href=\"https://twitter.com/nhoizey\">@nhoizey</a>) <a href=\"https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/\">nicolas-hoizey.com/articles/2020/…</a>",
+        "text": "[Bookmark] \"JAMstack is fast only if you make it so\", Nicolas Hoizey (@nhoizey) nicolas-hoizey.com/articles/2020/…"
+      },
+      "mention-of": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://habr.com/ru/post/500100/",
+      "published": null,
+      "wm-received": "2020-05-06T11:50:17Z",
+      "wm-id": 793067,
+      "wm-source": "https://habr.com/ru/post/500100/",
+      "wm-target": "https://nicolas-hoizey.com/articles/2016/03/02/people-don-t-change-the-default-16px-font-size-in-their-browser/",
+      "mention-of": "https://nicolas-hoizey.com/articles/2016/03/02/people-don-t-change-the-default-16px-font-size-in-their-browser/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://habr.com/ru/post/500100/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Baldur Bjarnason @baldur@toot.cafe",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/380091dbece0311dd5cadc43ecdde03be0b6517dc13a83e8b6622a2a1e24516c.jpg",
+        "url": "https://twitter.com/fakebaldur"
+      },
+      "url": "https://twitter.com/fakebaldur/status/1258077934000181248",
+      "published": "2020-05-06T16:55:28+00:00",
+      "wm-received": "2020-05-06T17:47:28Z",
+      "wm-id": 793113,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/nice_links/1258077934000181248",
+      "wm-target": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+      "content": {
+        "content-type": "text/html",
+        "value": "“JAMstack is fast only if you make it so - Nicolas Hoizey”\n\n“That’s also something I don’t really like in current JAMstack trend, promoting JavaScript and APIs much more than Markup.” <a href=\"https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/\">nicolas-hoizey.com/articles/2020/…</a>",
+        "html": "“JAMstack is fast only if you make it so - Nicolas Hoizey”<br /><br />“That’s also something I don’t really like in current JAMstack trend, promoting JavaScript and APIs much more than Markup.” <a href=\"https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/\">nicolas-hoizey.com/articles/2020/…</a>",
+        "text": "“JAMstack is fast only if you make it so - Nicolas Hoizey”\n\n“That’s also something I don’t really like in current JAMstack trend, promoting JavaScript and APIs much more than Markup.” nicolas-hoizey.com/articles/2020/…"
+      },
+      "mention-of": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
       "wm-property": "mention-of",
       "wm-private": false
     }
