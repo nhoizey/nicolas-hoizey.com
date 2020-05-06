@@ -73,20 +73,113 @@ That's also something I don't really like in current JAMstack trend, promoting *
 
 Here's for example what you can see on [jamstack.wtf](https://jamstack.wtf/):
 
-![JAMstack layers](wtf-jamstack-layers.png)
+![JAMstack layers](wtf-jamstack-layers.png){.twothirds}
 
-I would like to suggest this presentation instead[^flexbox]:
+As suggested by [Yann](https://twitter.com/yann_yinn), I would like to start by using this better presentation[^grid]:
 
-[^flexbox]: Thanks to flexbox, it took me just a few seconds to hack the CSS in Firefox devtools and get this! 💪
+[^grid]: Thanks to CSS Grid and Flexbox, it took me just a few minutes to get this! 💪
 
-![JAMstack layers enhanced](wtf-jamstack-layers-enhanced.png)
+<style>
+  .stack {
+    max-width: 50ch;
+    margin: 1.5rem auto;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+  }
 
-It makes more obvious there is a pile of things (quite useful for a "stack") and JavaScript is the link between APIs and Markup.
+  .stack * {
+    margin: 0;
+    list-style: none;
+    font-style: normal;
+    font-weight: normal;
+  }
 
-Of course, it reads as AJMstack instead of JAMstack, so I bet I won't be successful promoting it, but at least it feels more accurate.
+  .stack {
+    display: grid;
+    grid-template: "jamstack top-layer" 1fr "jamstack middle-layer" 1fr "jamstack bottom-layer" 1fr / 1fr 2fr;
+    grid-gap: .3em;
+    text-align: center;
+    list-style-type: none;
+  }
+
+  .stack dt, .stack li {
+    padding: 1.3em;
+    background-color: #999;
+    border-radius: .5em;
+  }
+
+  .stack dd, .stack ol {
+    display: contents;
+  }
+
+  .stack .jamstack {
+    grid-row: 1 / span 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+  }
+
+  .stack .javascript {
+    background-color: #00F5C4;
+  }
+
+  .stack .apis {
+    background-color: #FF871F;
+  }
+
+  .stack .markup {
+    background-color: #E88DA3;
+  }
+
+  .m.stack .markup {
+    grid-row: 1 / span 3;
+  }
+</style>
+<dl class="jam stack">
+  <dt class="jamstack">JAMstack
+    <dd>
+      <ol>
+        <li class="javascript">JavaScript</li>
+        <li class="apis">APIs</li>
+        <li class="markup">Markup</li>
+      </ol>
+    </dd>
+  </dt>
+</dl>
+
+It makes more obvious there is a pile of things, quite useful for a "stack".
+
+But I would like to suggest this modification:
+
+<dl class="ajm stack">
+  <dt class="jamstack">JAMstack
+    <dd>
+      <ol>
+        <li class="apis">APIs</li>
+        <li class="javascript">JavaScript</li>
+        <li class="markup">Markup</li>
+      </ol>
+    </dd>
+  </dt>
+</dl>
+
+Of course, it reads as AJMstack instead of JAMstack, so I bet I won't be successful promoting it… 🤷‍♂️
+
+But at least it feels more accurate, it shows JavaScript is the link between APIs and Markup.
 
 I even allows to present this as a great [progressive enhancement](/tags/progressive-enhancement/) platform, as we can start with plain old (did I hear "boring"?) Markup…
 
-![Mstack single layer](wtf-mstack.png)
+<dl class="m stack">
+  <dt class="jamstack">JAMstack
+    <dd>
+      <ol>
+        <li class="markup">Markup</li>
+      </ol>
+    </dd>
+  </dt>
+</dl>
 
 …and then enhance with JavaScript and APIs.
