@@ -5,6 +5,30 @@
 {% set minWeight = 300 %}
 {% set maxWeight = 900 %}
 
+<style>
+.tagscloud__tags {
+  list-style: none;
+  padding: 0;
+
+.tagscloud__tags li {
+  display: inline-block;
+  margin: 0;
+}
+
+.tagscloud__tags a:link, .tagscloud__tags a:visited {
+  display: inline-block;
+  margin: 0.2em 0.3em;
+  padding: 0.1em 0.3em;
+
+  text-decoration: none;
+  white-space: nowrap;
+
+  background-color: $color-primary-lighter-2;
+  color: $color-white;
+  border-radius: 0.2em;
+}
+</style>
+
 <ol class="tagscloud__tags">
 {% for tag in tags %}
   {% set tagUrl %}/tags/{{ tag.tag | slugify }}/{% endset %}
