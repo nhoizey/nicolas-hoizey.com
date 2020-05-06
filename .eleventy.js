@@ -168,7 +168,7 @@ module.exports = function (eleventyConfig) {
   // ------------------------------------------------------------------------
 
   eleventyConfig
-    .addPassthroughCopy('src/**/*.{jpg,png,gif,kmz,zip}')
+    .addPassthroughCopy('src/**/*.{jpg,png,gif,kmz,zip,css}')
     .addPassthroughCopy('src/assets')
     .addPassthroughCopy('src/.well-known')
     .addPassthroughCopy('src/.htaccess')
