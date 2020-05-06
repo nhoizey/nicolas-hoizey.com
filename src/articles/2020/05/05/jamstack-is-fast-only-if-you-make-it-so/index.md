@@ -155,7 +155,7 @@ It makes more obvious there is a pile of things, quite useful for a "stack".
 But I would like to suggest this modification:
 
 <dl class="ajm stack">
-  <dt class="jamstack">JAMstack
+  <dt class="jamstack">AJMstack
     <dd>
       <ol>
         <li class="apis">APIs</li>
@@ -173,7 +173,7 @@ But at least it feels more accurate, it shows JavaScript is the link between API
 I even allows to present this as a great [progressive enhancement](/tags/progressive-enhancement/) platform, as we can start with plain old (did I hear "boring"?) Markup…
 
 <dl class="m stack">
-  <dt class="jamstack">JAMstack
+  <dt class="jamstack">Mstack
     <dd>
       <ol>
         <li class="markup">Markup</li>
