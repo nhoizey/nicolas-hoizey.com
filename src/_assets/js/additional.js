@@ -74,7 +74,8 @@ window.addEventListener('load', () => {
     let footer = window.document.querySelector('#footer');
     footer.style.setProperty('--limbes', limbes);
     footer.style.color = '#fff';
-    footer.style.padding = 'calc(670 / 1534 * 100vw) 0 1em 0';
+    let imageRatio = Math.round((670 / 1534) * 100);
+    footer.style.padding = `${imageRatio}vw 0 1em 0`;
   }
 });
 
