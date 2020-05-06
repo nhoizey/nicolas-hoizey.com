@@ -156,61 +156,27 @@ a {
 
 // Deep links (aka anchors)
 
-a.deeplink:link,
-a.deeplink:visited {
-  display: inline-block;
-  font-size: var(--font-size-xs);
-  width: 1.9rem;
-  height: 1.9rem;
-  text-align: center;
-  vertical-align: middle;
-  border-radius: 50%;
-  text-decoration: none;
-
-  @media (min-width: 55em) {
-    position: absolute;
-    top: 0.35em;
-    left: -3rem;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
+a.deeplink {
+  &:link,
+  &:visited {
+    text-align: center;
+    margin-left: 0.3rem;
+    padding: 0 0.4rem;
+    border-radius: 0.4em;
+    color: #767676;
+    text-decoration: none;
   }
 
-  svg {
-    fill: $link-decoration-color;
-  }
-}
-
-a.deeplink:hover,
-a.deeplink:focus,
-a.deeplink:active {
-  background-color: $link-decoration-color;
-  color: $color-white;
-
-  svg {
-    fill: $color-white;
-  }
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
   &:hover,
-  &:focus,
-  &:active {
-    a.deeplink:link,
-    a.deeplink:visited {
-      background-color: $link-decoration-color;
-      color: $color-white;
+  &:focus {
+    color: #fff;
+    background-color: $link-decoration-color;
+  }
 
-      svg {
-        fill: $color-white;
-      }
-    }
+  @media (min-width: 65rem) {
+    position: absolute;
+    top: $baseline;
+    left: -3rem;
   }
 }
 
