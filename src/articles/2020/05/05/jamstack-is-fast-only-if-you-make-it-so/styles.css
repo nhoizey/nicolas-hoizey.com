@@ -9,18 +9,16 @@
 
   font-family: sans-serif;
   font-size: 1.2rem;
-
-  grid-gap: 0.3em;
-  text-align: center;
 }
 
 .stack * {
   margin: 0;
   font-style: normal;
   font-weight: normal;
-  padding: 1.3em;
+  padding: 1.3em 0.3em;
   list-style-type: none;
   border-radius: 0.5em;
+  white-space: nowrap;
 }
 
 .stack dd,
@@ -33,7 +31,10 @@
     'javascript apis    markup'
     'name       name    name';
   grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 1fr) minmax(
+      min-content,
+      1fr
+    );
 }
 
 .stack-jam {
