@@ -21,14 +21,18 @@ async function fetchNotist() {
 
         const urls = notist.map((talk) => talk.links.related);
         const details = await fetchAll(urls);
-        console.dir(details[0].data[0]);
 
         details.map((detail) => {
           detail = detail.data[0];
           notist.map((talk) => {
             if (talk.id === detail.id) {
+              talk.links.self = detail.links.self;
               talk.attributes.slug = detail.attributes.slug;
               talk.attributes.blurb = detail.attributes.blurb.html;
+              talk.attributes.event = {
+                name: detail.relationships.data[0].attributes.title,
+                url: detail.relationships.data[0].attributes.url,
+              };
             }
           });
         });
@@ -68,36 +72,15 @@ function readFromCache() {
   return {};
 }
 
-function prepareNotistData(rawData) {
-  let talks = {
-    future: [],
-    past: [],
-  };
-
-  let now = new Date();
-  rawData.map((talk) => {
-    let when = new Date(talk.presented_on);
-    var future = now - when < 0 ? true : false;
-    if (future) {
-      talks.future.push(talk);
-    } else {
-      talks.past.push(talk);
-    }
-  });
-
-  return talks;
-}
-
 module.exports = async function () {
   // Only fetch new mentions in production
   if (process.env.NODE_ENV === 'production') {
     const newNotistData = await fetchNotist();
     if (newNotistData) {
       writeToCache(newNotistData);
-      return prepareNotistData(newNotistData);
+      return newNotistData;
     }
   }
 
-  const cachedNotistData = readFromCache();
-  return prepareNotistData(cachedNotistData);
+  return readFromCache();
 };

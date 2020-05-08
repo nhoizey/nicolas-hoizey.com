@@ -4,43 +4,16 @@ title: Talks
 eleventyExcludeFromCollections: true
 ---
 
-{% for talk in notist.future %}
-  {% if loop.first %}
-    <p>Here are my upcoming talks:</p>
-    <ul class="list">
-  {% endif %}
-  <li class="list__item">
-    <div class="card">
-      <p class="card__title">
-        <a href="{{ talk.links.self }}">{{ talk.attributes.title }}</a>
-      </p>
-      <footer>
-        <ul class="meta">
-          <li class="date meta__item card__date">
-            <svg class="icon"><use xlink:href="#symbol-date" /></svg>
-            <time class="dt-published" datetime="{{ talk.attributes.presented_on | attributeDate }}">
-              {{ talk.attributes.presented_on | date("Do MMMM YYYY") }}
-            </time>
-          </li>
-        </ul>
-      </footer>
-    </div>
-  </li>
-  {% if loop.last %}
-    </ul>
-  {% endif %}
-{% endfor %}
-
 <p>Here are a few talks I gave along the years:</p>
 <ul class="list">
-  {% for talk in notist.past %}
+  {% for talk in notist %}
     <li class="list__item">
       <div class="card">
         <figure class="card__image">
-          <img src="{{ talk.attributes.image.src }}" alt="Slides from the talk “{{ talk.attributes.title }}”" class="vignette" />
+          <img src="{{ talk.attributes.image.src }}" alt="Cover slide from the talk “{{ talk.attributes.title }}”" class="vignette" width="{{ talk.attributes.image.width }}" height="{{ talk.attributes.image.height }}" />
         </figure>
         <p class="card__title">
-          <a href="{{ talk.links.self }}">{{ talk.attributes.title }}</a>
+          <a href="/talks/{{ talk.attributes.presented_on | permalinkDate }}/{{ talk.attributes.slug }}/">{{ talk.attributes.title }}</a>
         </p>
         <footer>
           <ul class="meta">
@@ -49,6 +22,13 @@ eleventyExcludeFromCollections: true
               <time class="dt-published" datetime="{{ talk.attributes.presented_on | attributeDate }}">
                 {{ talk.attributes.presented_on | date("Do MMMM YYYY") }}
               </time>
+            </li>
+            <li class="date meta__item card__location">
+              {% if talk.attributes.event.url %}
+                <a href="{{ talk.attributes.event.url }}">{{ talk.attributes.event.name }}</a>
+              {% else %}
+                {{ talk.attributes.event.name }}
+              {% endif %}
             </li>
           </ul>
         </footer>
