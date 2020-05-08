@@ -1,17 +1,39 @@
-// From https://github.com/philhawksworth/eleventy-notist-example
-
 const fs = require('fs');
 const fetch = require('node-fetch');
 
-const CACHE_FILE_PATH = '_cache/notist.json';
+const NOTIST_URL = 'https://noti.st/nhoizey.json';
+const NOTIST_CACHE = '_cache/notist.json';
+
+async function fetchAll(urls) {
+  const results = await Promise.all(
+    urls.map((url) => fetch(url).then((response) => response.json()))
+  );
+  return results;
+}
 
 async function fetchNotist() {
   try {
-    const response = await fetch('https://noti.st/nhoizey.json');
+    const response = await fetch(NOTIST_URL);
     if (response.ok) {
-      const notistData = await response.json();
-      if (notistData.data) {
-        return notistData.data[0].relationships.data;
+      let notist = await response.json();
+      if (notist.data) {
+        notist = notist.data[0].relationships.data;
+
+        const urls = notist.map((talk) => talk.links.related);
+        const details = await fetchAll(urls);
+        console.dir(details[0].data[0]);
+
+        details.map((detail) => {
+          detail = detail.data[0];
+          notist.map((talk) => {
+            if (talk.id === detail.id) {
+              talk.attributes.slug = detail.attributes.slug;
+              talk.attributes.blurb = detail.attributes.blurb.html;
+            }
+          });
+        });
+
+        return notist;
       }
       return {};
     }
@@ -19,8 +41,6 @@ async function fetchNotist() {
     console.error(error);
     return {};
   }
-
-  return null;
 }
 
 // save in cache file
@@ -32,15 +52,15 @@ function writeToCache(data) {
     fs.mkdirSync(dir);
   }
   // write data to cache json file
-  fs.writeFile(CACHE_FILE_PATH, fileContent, (err) => {
+  fs.writeFile(NOTIST_CACHE, fileContent, (err) => {
     if (err) throw err;
   });
 }
 
 // get cache contents from json file
 function readFromCache() {
-  if (fs.existsSync(CACHE_FILE_PATH)) {
-    const cacheFile = fs.readFileSync(CACHE_FILE_PATH);
+  if (fs.existsSync(NOTIST_CACHE)) {
+    const cacheFile = fs.readFileSync(NOTIST_CACHE);
     return JSON.parse(cacheFile);
   }
 
