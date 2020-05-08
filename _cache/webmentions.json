@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-05-07T22:49:26.124Z",
+  "lastFetched": "2020-05-08T00:43:35.714Z",
   "webmentions": [
     {
       "type": "entry",
@@ -52168,6 +52168,24 @@
       "wm-received": "2020-05-07T18:46:17Z",
       "wm-id": 793719,
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1257731500465848320/133031018",
+      "wm-target": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+      "like-of": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Maestro Khalid",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e5fdbde9d3343ae061061b833831c0d0b4a5834795ec6c42d0ac7288400c55f6.png",
+        "url": "https://twitter.com/buhakmeh"
+      },
+      "url": "https://twitter.com/nhoizey/status/1257731500465848320#favorited-by-72354175",
+      "published": null,
+      "wm-received": "2020-05-07T23:22:57Z",
+      "wm-id": 793986,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1257731500465848320/72354175",
       "wm-target": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
       "like-of": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
       "wm-property": "like-of",
