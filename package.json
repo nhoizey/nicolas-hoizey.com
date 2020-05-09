@@ -24,7 +24,8 @@
     "build": "npm-run-all --sequential clean assets:build eleventy:build serviceworker",
     "debug:build": "DEBUG=Eleventy* npm run build",
     "start": "npm-run-all --sequential clean assets:build --parallel *:watch",
-    "debug:start": "DEBUG=Eleventy* npm start"
+    "debug:start": "DEBUG=Eleventy* npm start",
+    "notist": "node ./src/_utils/update-notist.js"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0-beta.3",
