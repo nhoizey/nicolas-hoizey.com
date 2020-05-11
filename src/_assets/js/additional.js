@@ -37,27 +37,30 @@ window.addEventListener('load', () => {
  * Install Service Worker
  * ****************************************************************/
 
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/service-worker.js');
-  });
+if (process.env.NODE_ENV === 'production') {
+  // Install Service Worker only on production
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/service-worker.js');
+    });
 
-  navigator.serviceWorker.addEventListener('message', async (event) => {
-    // Optional: ensure the message came from workbox-broadcast-update
-    if (event.data.meta === 'workbox-broadcast-update') {
-      const { cacheName, updatedUrl } = event.data.payload;
-      console.groupCollapsed(
-        `[Page] Updated content in "${cacheName}": ${updatedUrl}`
-      );
-      const cache = await caches.open(cacheName);
-      const updatedResponse = await cache.match(updatedUrl);
-      if (updatedResponse) {
-        const updatedText = await updatedResponse.text();
-        console.log(updatedText);
+    navigator.serviceWorker.addEventListener('message', async (event) => {
+      // Optional: ensure the message came from workbox-broadcast-update
+      if (event.data.meta === 'workbox-broadcast-update') {
+        const { cacheName, updatedUrl } = event.data.payload;
+        console.groupCollapsed(
+          `[Page] Updated content in "${cacheName}": ${updatedUrl}`
+        );
+        const cache = await caches.open(cacheName);
+        const updatedResponse = await cache.match(updatedUrl);
+        if (updatedResponse) {
+          const updatedText = await updatedResponse.text();
+          console.log(updatedText);
+        }
+        console.groupEnd();
       }
-      console.groupEnd();
-    }
-  });
+    });
+  }
 }
 
 /*****************************************************************
