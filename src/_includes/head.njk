@@ -9,7 +9,7 @@
   <style>{{ criticalCss | safe }}</style>
 
   {% set criticalJs %}{% include_raw "_site/js/" + hashes_critical['src/_assets/js/critical.js'] %}{% endset %}
-  <script>{{ criticalJs | safe }}</script>
+  <script>{{ criticalJs | replace('//# sourceMappingURL=', '//# sourceMappingURL=/js/') | safe }}</script>
 
   {# Google Analytics #}
   {% if build.env.NODE_ENV === "production" %}
