@@ -28,7 +28,7 @@
     "notist": "node ./src/_utils/update-notist.js"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.0-beta.3",
+    "@11ty/eleventy": "^0.11.0",
     "@11ty/eleventy-plugin-rss": "^1.0.7",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
     "@babel/core": "^7.9.6",
