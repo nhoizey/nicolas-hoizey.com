@@ -13,8 +13,6 @@
     data-img-dist="{{ page.outputPath | dirname }}/"
   >
 
-    {% include "components/svg-sprite.njk" %}
-
     <a class="sr-only" href="#main">Jump to main content</a>
 
     <header id="header" role="banner">
@@ -45,6 +43,8 @@
     </div>
 
     {% include "components/footer.njk" %}
+
+    {% include "components/svg-sprite.njk" %}
 
     <link rel="stylesheet" href="/css/{{ hashes_css['additional.css'] }}" />
 
