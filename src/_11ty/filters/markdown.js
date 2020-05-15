@@ -1,6 +1,8 @@
 const twitter = require('twitter-text');
 const slugifyString = require('../../_utils/slugify');
 
+const MARKDOWN_IMAGE_REGEX = /!\[([^\]]+)\]\(([^\) ]+)( [^\)]+)?\)({.[^}]+})?/g;
+
 function htmlEntities(str) {
   // https://css-tricks.com/snippets/javascript/htmlentities-for-javascript/
   return String(str)
@@ -46,7 +48,7 @@ const tweetHashtagTohandle = (tweet) => {
 const tweetImageToHtml = (tweet, url) => {
   // replace markdown images with HTML image
   tweet = tweet.replace(
-    /!\[([^\]]+)\]\(([^\) ]+)( [^\)]+)?\)({.[^}]+})?/g,
+    MARKDOWN_IMAGE_REGEX,
     `<img src="${url}$2" style="max-width: 100%" />`
   );
   return tweet;
@@ -54,10 +56,7 @@ const tweetImageToHtml = (tweet, url) => {
 
 const tweetImageToLink = (tweet, url) => {
   // replace images with links
-  tweet = tweet.replace(
-    /!\[([^\]]+)\]\(([^\) ]+)( [^\)]+)?\)({.[^}]+})?/g,
-    `🖼 <a href="${url}$2">image</a>`
-  );
+  tweet = tweet.replace(MARKDOWN_IMAGE_REGEX, `🖼 <a href="${url}$2">image</a>`);
   return tweet;
 };
 
