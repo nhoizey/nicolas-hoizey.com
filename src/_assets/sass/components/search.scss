@@ -2,12 +2,11 @@
   position: relative;
   flex: 1;
 
-  p {
-    display: flex;
-    flex-direction: row;
-    line-height: 1;
-    margin: 0.5rem 0;
-  }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  line-height: 1;
+  margin: 0.5rem 0 0.5rem 2rem;
 
   input {
     font-size: 1rem;
@@ -23,7 +22,7 @@
     color: #111;
     -webkit-appearance: none;
 
-    width: 40%;
+    width: 30%;
     min-width: 5em;
     margin-left: auto;
 
@@ -47,14 +46,14 @@
 
   label {
     position: absolute;
-    right: 0.4em;
-    top: 50%;
-    margin-top: -0.6em;
+    right: 0.7em;
+    font-size: 0.8em;
   }
 
-  svg {
-    width: 0.8em;
-    height: 0.8em;
+  svg,
+  use {
+    width: 1em;
+    height: 1em;
     fill: $color-primary;
   }
 }
