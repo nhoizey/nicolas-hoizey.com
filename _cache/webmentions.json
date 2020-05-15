@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-05-15T16:32:36.562Z",
+  "lastFetched": "2020-05-15T22:38:13.412Z",
   "webmentions": [
     {
       "type": "entry",
@@ -52522,6 +52522,100 @@
       "rels": {
         "canonical": "https://wipdeveloper.wpcomstaging.com/around-the-web-20200515/"
       }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1261337815742181381",
+      "published": "2020-05-15T16:49:04+00:00",
+      "wm-received": "2020-05-15T17:07:15Z",
+      "wm-id": 796759,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/nhoizey/1261337815742181381",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/05/15/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Sooo… <a href=\"https://twitter.com/IFTTT\">@IFTTT</a> removes `@`s from my tweet content provided with an Atom feed… 😥\n\nHow do you send tweets with mentions from your own site? <a href=\"https://twitter.com/search?q=%23POSSE\">#POSSE</a>\n\n<a class=\"u-mention\" href=\"https://nho.io/n/2020/05/15/1/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/notes/2020/05/15/1/\"></a>",
+        "html": "Sooo… <a href=\"https://twitter.com/IFTTT\">@IFTTT</a> removes `@`s from my tweet content provided with an Atom feed… 😥<br /><br />How do you send tweets with mentions from your own site? <a href=\"https://twitter.com/search?q=%23POSSE\">#POSSE</a>",
+        "text": "Sooo… @IFTTT removes `@`s from my tweet content provided with an Atom feed… 😥\n\nHow do you send tweets with mentions from your own site? #POSSE"
+      },
+      "mention-of": "https://nicolas-hoizey.com/notes/2020/05/15/1/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "JAMstacked 📮",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/48c0fac1ec2ce6bdef488fe10e7b46d0767664845a1cb15a935bcb9d140ef706.jpg",
+        "url": "https://twitter.com/JAMstacked"
+      },
+      "url": "https://twitter.com/JAMstacked/status/1261344595868135430",
+      "published": "2020-05-15T17:16:00+00:00",
+      "wm-received": "2020-05-15T17:50:03Z",
+      "wm-id": 796769,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/nhoizey/1261344595868135430",
+      "wm-target": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+      "content": {
+        "content-type": "text/html",
+        "value": "JAMstack is fast only if you make it so — <a href=\"https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/\">nicolas-hoizey.com/articles/2020/…</a>",
+        "html": "JAMstack is fast only if you make it so — <a href=\"https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/\">nicolas-hoizey.com/articles/2020/…</a>",
+        "text": "JAMstack is fast only if you make it so — nicolas-hoizey.com/articles/2020/…"
+      },
+      "mention-of": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "bear",
+        "photo": "",
+        "url": "https://throwexceptions.com/author/bear"
+      },
+      "url": "https://throwexceptions.com/2020/05 .",
+      "published": "2020-05-15T17:24:25+00:00",
+      "wm-received": "2020-05-15T17:24:39Z",
+      "wm-id": 796764,
+      "wm-source": "https://throwexceptions.com/android-chrome-dev-tools-to-emulate-mobile-devices-with-navigation-bar-throwexceptions.html",
+      "wm-target": "https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html",
+      "name": "android – Chrome dev tools to emulate mobile devices with navigation bar-ThrowExceptions",
+      "content": {
+        "content-type": "text/html",
+        "value": "Exception or error:\n\n\n\n\n\n                        <b>Closed.</b> This question does not meet <a href=\"https://throwexceptions.com/help/closed-questions\">Stack Overflow guidelines</a>. It is not currently accepting answers.\n\n\n\n\n\n\n<p>\n                    <b>Want to improve this question?</b> <a href=\"https://throwexceptions.com/posts/44014654/edit\">Update the question</a> so it's <a href=\"https://throwexceptions.com/help/on-topic\">on-topic</a> for Stack Overflow.\n                </p>\n<p>Closed <span title=\"2018-04-04 01:38:53Z\">2 years ago</span>.</p>\n\n\n\n<p>Hey I’m a web developer and I’m looking for a way to emulate mobile devices which also displays their respective navigation bars, toolbars etc. In the ‘Device toolbar’ in Google Chrome (v58 on macOS) there’s a specific mode available for the Nexus 5X (and  <a href=\"https://developers.google.com/web/tools/chrome-devtools/device-mode/emulate-mobile-viewports\">‘supported devices’, according to Google</a>), which is exactly what I’m looking for (see screenshot below), however I can’t seem to find a way to turn this on for other devices (such as iPhones, Galaxys etc).</p>\n<p>Of course these bars would differ between the devices and the browser that it’s running, so ideally I’m looking for a way to manually specify the height of the bars and how they interact with the viewport (e.g. iOS Safari includes the top bar in the viewport height calculation but leaves out the bottom bar, which kinda screws with how the bottom of the page is being displayed (as discussed <a href=\"https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html\">here</a>)). </p>\n<p>Ultimately what I’m trying to achieve is a way to accurately simulate how a website would look on a specific device, by instead of looking at just screen sizes and pixel density actually taking in to account that there are other sections being displayed on the screen which of course takes up screen realestate themselves and affect the appearance and user experience.</p>\n<p>All ideas are welcome =)</p>\n<p><a href=\"https://i.stack.imgur.com/ymmVE.png\"><img src=\"https://i.stack.imgur.com/ymmVE.png\" alt=\"\" /></a></p>\nHow to solve:\n<a href=\"https://throwexceptions.com/category/android\">More exceptions or solve method</a>",
+        "html": "Exception or error:<br /><br /><br /><br /><br /><br />                        <b>Closed.</b> This question does not meet <a href=\"https://throwexceptions.com/help/closed-questions\">Stack Overflow guidelines</a>. It is not currently accepting answers.<br /><br /><br /><br /><br /><br /><br /><br />                    <b>Want to improve this question?</b> <a href=\"https://throwexceptions.com/posts/44014654/edit\">Update the question</a> so it's <a href=\"https://throwexceptions.com/help/on-topic\">on-topic</a> for Stack Overflow.<br />                <br />Closed 2 years ago.<br /><br /><br /><br />Hey I’m a web developer and I’m looking for a way to emulate mobile devices which also displays their respective navigation bars, toolbars etc. In the ‘Device toolbar’ in Google Chrome (v58 on macOS) there’s a specific mode available for the Nexus 5X (and  <a href=\"https://developers.google.com/web/tools/chrome-devtools/device-mode/emulate-mobile-viewports\">‘supported devices’, according to Google</a>), which is exactly what I’m looking for (see screenshot below), however I can’t seem to find a way to turn this on for other devices (such as iPhones, Galaxys etc).<br />Of course these bars would differ between the devices and the browser that it’s running, so ideally I’m looking for a way to manually specify the height of the bars and how they interact with the viewport (e.g. iOS Safari includes the top bar in the viewport height calculation but leaves out the bottom bar, which kinda screws with how the bottom of the page is being displayed (as discussed <a href=\"https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html\">here</a>)). <br />Ultimately what I’m trying to achieve is a way to accurately simulate how a website would look on a specific device, by instead of looking at just screen sizes and pixel density actually taking in to account that there are other sections being displayed on the screen which of course takes up screen realestate themselves and affect the appearance and user experience.<br />All ideas are welcome =)<br /><a href=\"https://i.stack.imgur.com/ymmVE.png\"></a><br />How to solve:<br /><a href=\"https://throwexceptions.com/category/android\">More exceptions or solve method</a>",
+        "text": "Exception or error:\n\n\n\n\n\n                        Closed. This question does not meet Stack Overflow guidelines. It is not currently accepting answers.\n\n\n\n\n\n\n\n                    Want to improve this question? Update the question so it's on-topic for Stack Overflow.\n                \nClosed 2 years ago.\n\n\n\nHey I’m a web developer and I’m looking for a way to emulate mobile devices which also displays their respective navigation bars, toolbars etc. In the ‘Device toolbar’ in Google Chrome (v58 on macOS) there’s a specific mode available for the Nexus 5X (and  ‘supported devices’, according to Google), which is exactly what I’m looking for (see screenshot below), however I can’t seem to find a way to turn this on for other devices (such as iPhones, Galaxys etc).\nOf course these bars would differ between the devices and the browser that it’s running, so ideally I’m looking for a way to manually specify the height of the bars and how they interact with the viewport (e.g. iOS Safari includes the top bar in the viewport height calculation but leaves out the bottom bar, which kinda screws with how the bottom of the page is being displayed (as discussed here)). \nUltimately what I’m trying to achieve is a way to accurately simulate how a website would look on a specific device, by instead of looking at just screen sizes and pixel density actually taking in to account that there are other sections being displayed on the screen which of course takes up screen realestate themselves and affect the appearance and user experience.\nAll ideas are welcome =)\n\nHow to solve:\nMore exceptions or solve method"
+      },
+      "mention-of": "https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://throwexceptions.com/android-chrome-dev-tools-to-emulate-mobile-devices-with-navigation-bar-throwexceptions.html"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://graphicdon.com/2020/05/15/css-fix-for-100vh-in-mobile-webkit/",
+      "published": null,
+      "wm-received": "2020-05-15T22:08:30Z",
+      "wm-id": 796892,
+      "wm-source": "https://graphicdon.com/2020/05/15/css-fix-for-100vh-in-mobile-webkit/",
+      "wm-target": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "mention-of": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "wm-property": "mention-of",
+      "wm-private": false
     }
   ]
 }
