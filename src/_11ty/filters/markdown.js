@@ -78,6 +78,9 @@ const tweetStrike = (tweet) => {
 };
 
 module.exports = {
+  hasImage: (content) => {
+    return content.match(MARKDOWN_IMAGE_REGEX);
+  },
   noteToTweet: (content, url) => {
     tweet = content.trim();
     tweet = tweetCode(tweet);
