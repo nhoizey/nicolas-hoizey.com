@@ -1,6 +1,6 @@
 ---
 layout: null
-permalink: /feeds/notes-twitter-with-image.xml
+permalink: /feeds/twitter/notes-without-image.xml
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
@@ -13,7 +13,7 @@ permalink: /feeds/notes-twitter-with-image.xml
     <email>{{ pkg.author.email }}</email>
   </author>
   {% for entry in collections.notes | limit(50) %}
-    {% if entry.data.rawContent | hasImage %}
+    {% if not entry.data.rawContent | hasImage %}
       {% set absoluteEntryUrl %}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{% endset %}
       <entry>
         <title>💬 Note from {{ entry.date | date("Do MMMM YYYY") }}</title>
