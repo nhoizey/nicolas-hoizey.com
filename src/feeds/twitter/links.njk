@@ -1,0 +1,39 @@
+---
+layout: null
+permalink: /feeds/twitter/links.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Nicolas Hoizey - Links</title>
+  <link href="{{ pkg.homepage }}/links/" />
+  <updated>{{ collections.links | rssLastUpdatedDate }}</updated>
+  <id>{{ pkg.homepage }}/links/</id>
+  <author>
+    <name>{{ pkg.author.name }}</name>
+    <email>{{ pkg.author.email }}</email>
+  </author>
+  {% for entry in collections.links | limit(50) %}
+    {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
+    <entry>
+      <title>🔗 "{{ entry.data.title}}"</title>
+      <link href="{{ absoluteEntryUrl }}"/>
+      <updated>{{ entry.date | rssDate }}</updated>
+      <id>{{ absoluteEntryUrl }}</id>
+      <content type="html"><![CDATA[🔗 "{{ entry.data.title}}"
+{% set by = false -%}
+{%- if entry.data.authors -%}
+{%- for author in entry.data.authors -%}
+{%- if author.twitter -%}{%- if by == false -%}by{%- set by = true -%}{%- endif %} @{{ author.twitter }}{% endif -%}
+{%- endfor -%}
+{%- endif %}
+
+{% for tag in entry.data.tags -%}#{{ tag | tagToHashtag }} {% endfor %}
+
+https://nho.io/l/{{ entry.url | replace("/links/", "") }}]]></content>
+        <link rel="enclosure"
+          type="image/png"
+          title="screenshot"
+          href="https://image.thum.io/get/width/1200/crop/800/noanimate/{{ entry.data.link }}" />
+    </entry>
+  {% endfor %}
+</feed>
