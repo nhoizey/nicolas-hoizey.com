@@ -45,9 +45,6 @@ module.exports = function (eleventyConfig) {
   // Plugins
   // ------------------------------------------------------------------------
 
-  const svgContents = require('eleventy-plugin-svg-contents');
-  eleventyConfig.addPlugin(svgContents);
-
   const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
   eleventyConfig.addPlugin(syntaxHighlight);
 
