@@ -27,7 +27,24 @@ permalink: /feeds/all.xml
       <link href="{{ absoluteEntryUrl }}"/>
       <updated>{{ entry.date | rssDate }}</updated>
       <id>{{ absoluteEntryUrl }}</id>
-      <content type="html">{{ entry.templateContent | cleanDeepLinks | htmlToAbsoluteUrls(absoluteEntryUrl) }}</content>
+      <content type="html">
+      {% if entry.data.layout == 'link' %}
+        &lt;p&gt;
+        {% if entry.data.authors %}
+          {%- for author in entry.data.authors -%}
+            {%- if not loop.first -%}
+              {%- if not loop.last -%},&amp;ensp;{%- else -%}&amp;ensp;and&amp;ensp;{%- endif -%}
+            {%- endif -%}
+            {{- author.name -}}
+          {%- endfor -%}
+          &amp;ensp;wrote&lt;br /&gt;
+        {% endif %}
+        &lt;a href="{{ entry.data.link }}"&gt;{{ entry.data.link }}&lt;/a&gt;
+        &lt;/p&gt;
+        &lt;figure&gt;&lt;img src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_300,h_200/http://image.thum.io/get/width/1200/crop/800/noanimate/{{ entry.data.link }}" width="300" height="200" /&gt;&lt;/figure&gt;
+      {% endif %}
+      {{ entry.templateContent | cleanDeepLinks | htmlToAbsoluteUrls(absoluteEntryUrl) }}
+      </content>
     </entry>
   {% endfor %}
 </feed>

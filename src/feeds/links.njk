@@ -34,11 +34,9 @@ permalink: /feeds/links.xml
         {% endif %}
         &lt;a href="{{ entry.data.link }}"&gt;{{ entry.data.link }}&lt;/a&gt;
         &lt;/p&gt;
-        &lt;figure&gt;&lt;img src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_600,h_400/http://image.thum.io/get/width/1200/crop/800/noanimate/{{ entry.data.link }}" /&gt;&lt;/figure&gt;
+        &lt;figure&gt;&lt;img src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_300,h_200/http://image.thum.io/get/width/1200/crop/800/noanimate/{{ entry.data.link }}" width="300" height="200" /&gt;&lt;/figure&gt;
         {{ entry.templateContent | cleanDeepLinks | htmlToAbsoluteUrls(absoluteEntryUrl) }}
       </content>
-      <link rel="enclosure" type="image/png"
-      href="https://res.cloudinary.com/nho/image/fetch/c_fill,f_png,q_auto,w_600,h_400/https://image.thum.io/get/width/1200/crop/800/noanimate/{{ entry.data.link }}"/>
       {%- for tag in entry.tags -%}
         <category term="{{ tag | slugify }}" label="{{ tag }}"/>
       {%- endfor -%}
