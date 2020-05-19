@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-05-15T22:38:13.412Z",
+  "lastFetched": "2020-05-19T09:00:17.173Z",
   "webmentions": [
     {
       "type": "entry",
@@ -52607,6 +52607,34 @@
         "photo": "",
         "url": ""
       },
+      "url": "https://websitedesign-usa.com/css-fix-for-100vh-in-mobile-webkit/",
+      "published": "2020-05-15T16:45:56-05:00",
+      "wm-received": "2020-05-16T00:35:23Z",
+      "wm-id": 796928,
+      "wm-source": "https://websitedesign-usa.com/css-fix-for-100vh-in-mobile-webkit/",
+      "wm-target": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "name": "CSS repair for 100vh in mobile WebKit",
+      "content": {
+        "content-type": "text/html",
+        "value": "<time datetime=\"2020-05-11T00:00:00-04:00\"> Might 11, 2020 Recently there was some buzz around how WebKit manages 100vh in CSS, basically overlooking the bottom <code>edge of the web browser viewport. Some have <a href=\"https://medium.com/@susiekim9/how-to-compensate-for-the-ios-viewport-unit-bug-46e78d54af0d\">recommended prevent utilizing 100vh, others have actually developed various options to work around the </a><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\">issue. This problem goes even more back a couple of years when Nicolas Hoizey submitted a bug with WebKit on the <span>topic(the</span>except\n</a></code></time><p><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\">it: WebKit states this is \"deliberate\" period class= \"emoji-x-sm\"function=\" img\" aria-label=\"emoji confront with monocle \"&gt;). A few days ago I was doing some deal with a standard flexbox design-- header, primary, sticky footer-- the kind we have actually all seen and utilized sometimes prior to:</a></code></p><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\">\n\n\n</a></code><pre><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\"><code><span><span> MAIN GOES HERE<span>\n</span></span></span></code></a></code></pre><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\">\n\n\n\n\n</a></code><pre><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\"><code><span> FOOTER GOES HERE <span> body span&gt;<span>: </span> <span>primary</span> <span> span&gt;<span>; </span>\n</span></span></span></code></a></code></pre><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\">\n\n\n</a></code><p><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\">I started running some web browser tests on my iPhone, which's when I saw that my sticky footer wasn't looking so sticky:</a></code></p><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\">\n</a></code><p><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\"><img src=\"https://websitedesign-usa.com/wp-content/uploads/2020/05/css-repair-for-100vh-in-mobile-webkit.png\" alt=\"Mobile screen showing sticky footer below Safari's menu bar\" /></a></code></p><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\">\n</a></code><p><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\"> The footer was concealing listed below Safari's menu bar. This is the 100vh bug( function?)that Nicolas initially exposed and reported. I did a little sleuthing-- hoping that perhaps by now a non-hacky repair had actually been discovered-- which's when I came across my own option (btw, it's completely hacky):</a></code></p><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\">\n</a></code><h2><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\">Utilizing -webkit-fill-available</a></code></h2><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\">\n</a></code><p><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\">The concept behind <code> -webkit-fill-available-- a minimum of at one point-- was to enable a component to inherently suit a specific design, i.e., fill the offered area for that residential or commercial property. At the minute </code></a></code></p><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\">\n</a></code><p><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\">The above issue is particularly in WebKit, which <em>does</em> assistance <code>-webkit-fill-available. With <code>that in mind, I included it to my ruleset with 100vh as the alternative for all other web browsers.</code></code></a></code></p><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\">\n</a></code><pre><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\"><code><span>body</span> <span> span&gt; <span>-webkit-fill-available </span>\n</span></code></a></code></pre><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\">\n</a></code>",
+        "html": " Might 11, 2020 Recently there was some buzz around how WebKit manages 100vh in CSS, basically overlooking the bottom <code>edge of the web browser viewport. Some have <a href=\"https://medium.com/@susiekim9/how-to-compensate-for-the-ios-viewport-unit-bug-46e78d54af0d\">recommended prevent utilizing 100vh, others have actually developed various options to work around the </a><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\">issue. This problem goes even more back a couple of years when Nicolas Hoizey submitted a bug with WebKit on the topic(theexcept<br /></a></code><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\">it: WebKit states this is \"deliberate\" period class= \"emoji-x-sm\"function=\" img\" aria-label=\"emoji confront with monocle \"&gt;). A few days ago I was doing some deal with a standard flexbox design-- header, primary, sticky footer-- the kind we have actually all seen and utilized sometimes prior to:</a></code><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\"><br /><br /><br /></a></code><pre><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\"><code> MAIN GOES HERE<br /></code></a></code></pre><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\"><br /><br /><br /><br /><br /></a></code><pre><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\"><code> FOOTER GOES HERE  body span&gt;:  primary  span&gt;; <br /></code></a></code></pre><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\"><br /><br /><br /></a></code><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\">I started running some web browser tests on my iPhone, which's when I saw that my sticky footer wasn't looking so sticky:</a></code><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\"><br /></a></code><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\"></a></code><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\"><br /></a></code><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\"> The footer was concealing listed below Safari's menu bar. This is the 100vh bug( function?)that Nicolas initially exposed and reported. I did a little sleuthing-- hoping that perhaps by now a non-hacky repair had actually been discovered-- which's when I came across my own option (btw, it's completely hacky):</a></code><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\"><br /></a></code><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\">Utilizing -webkit-fill-available</a></code><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\"><br /></a></code><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\">The concept behind <code> -webkit-fill-available-- a minimum of at one point-- was to enable a component to inherently suit a specific design, i.e., fill the offered area for that residential or commercial property. At the minute </code></a></code><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\"><br /></a></code><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\">The above issue is particularly in WebKit, which <em>does</em> assistance <code>-webkit-fill-available. With <code>that in mind, I included it to my ruleset with 100vh as the alternative for all other web browsers.</code></code></a></code><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\"><br /></a></code><pre><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\"><code>body  span&gt; -webkit-fill-available <br /></code></a></code></pre><code><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\"><br /></a></code>",
+        "text": "Might 11, 2020 Recently there was some buzz around how WebKit manages 100vh in CSS, basically overlooking the bottom edge of the web browser viewport. Some have recommended prevent utilizing 100vh, others have actually developed various options to work around the issue. This problem goes even more back a couple of years when Nicolas Hoizey submitted a bug with WebKit on the topic(theexcept\nit: WebKit states this is \"deliberate\" period class= \"emoji-x-sm\"function=\" img\" aria-label=\"emoji confront with monocle \">). A few days ago I was doing some deal with a standard flexbox design-- header, primary, sticky footer-- the kind we have actually all seen and utilized sometimes prior to:\n\n\n MAIN GOES HERE\n\n\n\n\n\n FOOTER GOES HERE  body span>:  primary  span>; \n\n\n\nI started running some web browser tests on my iPhone, which's when I saw that my sticky footer wasn't looking so sticky:\n\n The footer was concealing listed below Safari's menu bar. This is the 100vh bug( function?)that Nicolas initially exposed and reported. I did a little sleuthing-- hoping that perhaps by now a non-hacky repair had actually been discovered-- which's when I came across my own option (btw, it's completely hacky):\nUtilizing -webkit-fill-available\nThe concept behind  -webkit-fill-available-- a minimum of at one point-- was to enable a component to inherently suit a specific design, i.e., fill the offered area for that residential or commercial property. At the minute \nThe above issue is particularly in WebKit, which does assistance -webkit-fill-available. With that in mind, I included it to my ruleset with 100vh as the alternative for all other web browsers.\nbody  span> -webkit-fill-available"
+      },
+      "mention-of": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://websitedesign-usa.com/css-fix-for-100vh-in-mobile-webkit/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
       "url": "https://graphicdon.com/2020/05/15/css-fix-for-100vh-in-mobile-webkit/",
       "published": null,
       "wm-received": "2020-05-15T22:08:30Z",
@@ -52616,6 +52644,214 @@
       "mention-of": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
       "wm-property": "mention-of",
       "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://dinezh.com/css-fix-for-100vh-in-mobile-webkit/",
+      "published": null,
+      "wm-received": "2020-05-15T23:23:44Z",
+      "wm-id": 796910,
+      "wm-source": "https://dinezh.com/css-fix-for-100vh-in-mobile-webkit/",
+      "wm-target": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "content": {
+        "content-type": "text/html",
+        "value": "<p> <br /></p>\n\n<h2>CSS fix for 100vh in mobile WebKit</h2>\n<p>Not long ago there was some buzz around how WebKit handles <code>100vh</code> in CSS, essentially ignoring the bottom edge of the browser viewport. Some have suggested avoid using <code>100vh</code>, others have come up with <a href=\"https://medium.com/@susiekim9/how-to-compensate-for-the-ios-viewport-unit-bug-46e78d54af0d\">different alternatives</a> to work around the problem. In fact, this issue goes further back a few years when Nicolas Hoizey <a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\">filed a bug with WebKit</a> on the subject (the short of it: WebKit says this is “intentional” <span>🧐</span>).</p>\n<p>The other day I was doing some work with a basic flexbox layout – header, main, sticky footer – the kind we’ve all seen and used many times before:</p>\n\n\n<pre><code><span></span>HEADER GOES HERE<span></span>\n<span></span>MAIN GOES HERE<span></span></code></pre>",
+        "html": " <br /><br /><br />CSS fix for 100vh in mobile WebKit<br />Not long ago there was some buzz around how WebKit handles <code>100vh</code> in CSS, essentially ignoring the bottom edge of the browser viewport. Some have suggested avoid using <code>100vh</code>, others have come up with <a href=\"https://medium.com/@susiekim9/how-to-compensate-for-the-ios-viewport-unit-bug-46e78d54af0d\">different alternatives</a> to work around the problem. In fact, this issue goes further back a few years when Nicolas Hoizey <a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\">filed a bug with WebKit</a> on the subject (the short of it: WebKit says this is “intentional” 🧐).<br />The other day I was doing some work with a basic flexbox layout – header, main, sticky footer – the kind we’ve all seen and used many times before:<br /><br /><br /><pre><code>HEADER GOES HERE<br />MAIN GOES HERE</code></pre>",
+        "text": "CSS fix for 100vh in mobile WebKit\nNot long ago there was some buzz around how WebKit handles 100vh in CSS, essentially ignoring the bottom edge of the browser viewport. Some have suggested avoid using 100vh, others have come up with different alternatives to work around the problem. In fact, this issue goes further back a few years when Nicolas Hoizey filed a bug with WebKit on the subject (the short of it: WebKit says this is “intentional” 🧐).\nThe other day I was doing some work with a basic flexbox layout – header, main, sticky footer – the kind we’ve all seen and used many times before:\n\n\nHEADER GOES HERE\nMAIN GOES HERE"
+      },
+      "mention-of": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://allthingssmitty.com/2020/05/11/css-fix-for-100vh-in-mobile-webkit/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://1dmx.org/correction-css-pour-100vh-dans-webkit-mobile/",
+      "published": null,
+      "wm-received": "2020-05-16T00:00:45Z",
+      "wm-id": 796917,
+      "wm-source": "https://1dmx.org/correction-css-pour-100vh-dans-webkit-mobile/",
+      "wm-target": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "mention-of": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://www.seowebdesignllc.com/css-fix-for-100vh-in-mobile-webkit/",
+      "published": null,
+      "wm-received": "2020-05-16T03:08:17Z",
+      "wm-id": 796946,
+      "wm-source": "https://www.seowebdesignllc.com/css-fix-for-100vh-in-mobile-webkit/",
+      "wm-target": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "mention-of": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://pixallus.com/css-fix-for-100vh-in-mobile-webkit/",
+      "published": null,
+      "wm-received": "2020-05-16T04:33:12Z",
+      "wm-id": 796958,
+      "wm-source": "https://pixallus.com/css-fix-for-100vh-in-mobile-webkit/",
+      "wm-target": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "mention-of": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://www.new.pixel-forge.ca/2020/05/15/css-fix-for-100vh-in-mobile-webkit/",
+      "published": null,
+      "wm-received": "2020-05-16T07:39:49Z",
+      "wm-id": 796973,
+      "wm-source": "https://www.new.pixel-forge.ca/2020/05/15/css-fix-for-100vh-in-mobile-webkit/",
+      "wm-target": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "mention-of": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://www.new.pixel-forge.ca/2020/05/15/css-fix-for-100vh-in-mobile-webkit/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "code.store",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/4f29dab1b0be9acc94a84c7ae914311d4da0576a4b5cb9de64f6eb8139736a79.jpg",
+        "url": "https://twitter.com/CodeStore2"
+      },
+      "url": "https://twitter.com/nhoizey/status/1261575203043315712#favorited-by-1189071710877822976",
+      "published": null,
+      "wm-received": "2020-05-16T09:36:03Z",
+      "wm-id": 796992,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1261575203043315712/1189071710877822976",
+      "wm-target": "https://nicolas-hoizey.com/articles/2018/08/01/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video/",
+      "like-of": "https://nicolas-hoizey.com/articles/2018/08/01/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://makemoneyupdaters.sample-sites.xyz/css-fix-for-100vh-in-mobile-webkit-matt-smith/",
+      "published": null,
+      "wm-received": "2020-05-16T10:06:40Z",
+      "wm-id": 796996,
+      "wm-source": "https://makemoneyupdaters.sample-sites.xyz/css-fix-for-100vh-in-mobile-webkit-matt-smith/",
+      "wm-target": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "mention-of": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://makemoneyupdaters.sample-sites.xyz/css-fix-for-100vh-in-mobile-webkit-matt-smith/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Cloudinary",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/058ec28455046f036326257306a125a1e844c29230170c7bc49b1e82f96afec0.jpg",
+        "url": "https://twitter.com/cloudinary"
+      },
+      "url": "https://twitter.com/nhoizey/status/1261575203043315712#favorited-by-307810043",
+      "published": null,
+      "wm-received": "2020-05-16T14:21:27Z",
+      "wm-id": 797076,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1261575203043315712/307810043",
+      "wm-target": "https://nicolas-hoizey.com/articles/2018/08/01/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video/",
+      "like-of": "https://nicolas-hoizey.com/articles/2018/08/01/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://cornerwire.com/css-repair-for-100vh-in-cellular-webkit/",
+      "published": null,
+      "wm-received": "2020-05-16T17:41:44Z",
+      "wm-id": 797116,
+      "wm-source": "https://cornerwire.com/css-repair-for-100vh-in-cellular-webkit/",
+      "wm-target": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "mention-of": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://allthingssmitty.com/2020/05/11/css-fix-for-100vh-in-mobile-webkit/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://onumahkalusamuel.tk/css-fix-for-100vh-in-mobile-webkit/",
+      "published": null,
+      "wm-received": "2020-05-16T19:39:40Z",
+      "wm-id": 797143,
+      "wm-source": "https://onumahkalusamuel.tk/css-fix-for-100vh-in-mobile-webkit/",
+      "wm-target": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "name": "CSS fix for 100vh in mobile WebKit",
+      "content": {
+        "content-type": "text/html",
+        "value": "May 11, 2020 \n<p>Not long ago there was some buzz around how WebKit handles <code>100vh</code> in CSS, essentially ignoring the bottom edge of the browser viewport. Some have suggested avoid using <code>100vh</code>, others have come up with <a href=\"https://medium.com/@susiekim9/how-to-compensate-for-the-ios-viewport-unit-bug-46e78d54af0d\">different alternatives</a> to work around the problem. In fact, this issue goes further back a few years when Nicolas Hoizey <a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\">filed a bug with WebKit</a> on the subject (the short of it: WebKit says this is “intentional” <span>🧐</span>).</p>\n<p>The other day I was doing some work with a basic flexbox layout – header, main, sticky footer – the kind we’ve all seen and used many times before:</p>\n\n\n<pre><code><span>&lt;header&gt;</span>HEADER GOES HERE<span>&lt;/header&gt;</span>\n<span>&lt;main&gt;</span>MAIN GOES HERE<span>&lt;/main&gt;</span>\n<span>&lt;footer&gt;</span>FOOTER GOES HERE<span>&lt;/footer&gt;</span>\n</code></pre>\n\n\n\n\n<pre><code><span>body</span> <span>{</span> <span>display</span><span>:</span> <span>flex</span><span>;</span> <span>flex-direction</span><span>:</span> <span>column</span><span>;</span> <span>margin</span><span>:</span> <span>0</span><span>;</span> <span>min-height</span><span>:</span> <span>100vh</span><span>;</span>\n<span>}</span> <span>main</span> <span>{</span> <span>flex</span><span>:</span> <span>1</span><span>;</span>\n<span>}</span>\n</code></pre>\n\n\n<p>I began running some browser tests on my iPhone, and that’s when I noticed that my sticky footer wasn’t looking so sticky:</p>\n<p><img src=\"https://allthingssmitty.com/img/posts/2020-05-11-css-fix-for-100vh-in-mobile-webkit-01.png\" alt=\"Mobile screen showing sticky footer below Safari's menu bar\" /></p>\n<p>The footer was hiding below Safari’s menu bar. This is the <code>100vh</code> bug (feature?) that Nicolas originally uncovered and reported. I did a little sleuthing – hoping that maybe by now a non-hacky fix had been found – and that’s when I stumbled upon my own solution (btw, it’s totally hacky):</p>\n<h2>Using -webkit-fill-available</h2>\n<p>The idea behind <code>-webkit-fill-available</code> – at least at one point – was to allow for an element to intrinsically fit into a particular layout, i.e., fill the available space for that property. At the moment <a href=\"https://caniuse.com/#feat=intrinsic-width\">intrinsic values</a> like this aren’t fully supported by the CSSWG.</p>\n<p>However, the above problem is specifically in WebKit, which <em>does</em> support <code>-webkit-fill-available</code>. So with that in mind, I added it to my ruleset with <code>100vh</code> as the fallback for all other browsers.</p>\n\n\n<pre><code><span>body</span> <span>{</span> <span>min-height</span><span>:</span> <span>100vh</span><span>;</span> <span>/* mobile viewport bug fix */</span> <span>min-height</span><span>:</span> <span>-webkit-fill-available</span><span>;</span>\n<span>}</span>\n</code></pre>\n\n\n<p>And now the sticky footer is right where I want it to be in mobile Safari!</p>\n<p><img src=\"https://allthingssmitty.com/img/posts/2020-05-11-css-fix-for-100vh-in-mobile-webkit-02.png\" alt=\"Mobile screen showing sticky footer at the bottom of the viewport above Safari's menu bar\" /></p>\n<h2>Does this really work?</h2>\n<p>The jury seems to be out on this. I’ve had no problems with any of the tests I’ve run and I’m using this method in production right now. But I did receive a number of responses to my tweet pointing to other possible problems with using this (the effects of rotating devices, Chrome not completely ignoring the property, etc.).</p>\n<p>Will <code>-webkit-fill-available</code> work in every scenario? Probably not, cuz let’s be honest: this is the web, and it can be damn hard to build. But, if you’re having a problem with <code>100vh</code> in WebKit and you’re looking for a CSS alternative, you might want to try this.</p>\n<p> <a href=\"https://allthingssmitty.com/2020/05/11/css-fix-for-100vh-in-mobile-webkit/\">Article Source</a></p>\n\n\t\t\t<span></span>\n\t\t\t<span>Post Views: </span>\n\t\t\t<span>1</span>",
+        "html": "May 11, 2020 <br />Not long ago there was some buzz around how WebKit handles <code>100vh</code> in CSS, essentially ignoring the bottom edge of the browser viewport. Some have suggested avoid using <code>100vh</code>, others have come up with <a href=\"https://medium.com/@susiekim9/how-to-compensate-for-the-ios-viewport-unit-bug-46e78d54af0d\">different alternatives</a> to work around the problem. In fact, this issue goes further back a few years when Nicolas Hoizey <a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\">filed a bug with WebKit</a> on the subject (the short of it: WebKit says this is “intentional” 🧐).<br />The other day I was doing some work with a basic flexbox layout – header, main, sticky footer – the kind we’ve all seen and used many times before:<br /><br /><br /><pre><code>&lt;header&gt;HEADER GOES HERE&lt;/header&gt;<br />&lt;main&gt;MAIN GOES HERE&lt;/main&gt;<br />&lt;footer&gt;FOOTER GOES HERE&lt;/footer&gt;<br /></code></pre><br /><br /><br /><br /><br /><pre><code>body { display: flex; flex-direction: column; margin: 0; min-height: 100vh;<br />} main { flex: 1;<br />}<br /></code></pre><br /><br /><br />I began running some browser tests on my iPhone, and that’s when I noticed that my sticky footer wasn’t looking so sticky:<br /><br />The footer was hiding below Safari’s menu bar. This is the <code>100vh</code> bug (feature?) that Nicolas originally uncovered and reported. I did a little sleuthing – hoping that maybe by now a non-hacky fix had been found – and that’s when I stumbled upon my own solution (btw, it’s totally hacky):<br />Using -webkit-fill-available<br />The idea behind <code>-webkit-fill-available</code> – at least at one point – was to allow for an element to intrinsically fit into a particular layout, i.e., fill the available space for that property. At the moment <a href=\"https://caniuse.com/#feat=intrinsic-width\">intrinsic values</a> like this aren’t fully supported by the CSSWG.<br />However, the above problem is specifically in WebKit, which <em>does</em> support <code>-webkit-fill-available</code>. So with that in mind, I added it to my ruleset with <code>100vh</code> as the fallback for all other browsers.<br /><br /><br /><pre><code>body { min-height: 100vh; /* mobile viewport bug fix */ min-height: -webkit-fill-available;<br />}<br /></code></pre><br /><br /><br />And now the sticky footer is right where I want it to be in mobile Safari!<br /><br />Does this really work?<br />The jury seems to be out on this. I’ve had no problems with any of the tests I’ve run and I’m using this method in production right now. But I did receive a number of responses to my tweet pointing to other possible problems with using this (the effects of rotating devices, Chrome not completely ignoring the property, etc.).<br />Will <code>-webkit-fill-available</code> work in every scenario? Probably not, cuz let’s be honest: this is the web, and it can be damn hard to build. But, if you’re having a problem with <code>100vh</code> in WebKit and you’re looking for a CSS alternative, you might want to try this.<br /> <a href=\"https://allthingssmitty.com/2020/05/11/css-fix-for-100vh-in-mobile-webkit/\">Article Source</a><br /><br />\t\t\t<br />\t\t\tPost Views: <br />\t\t\t1",
+        "text": "May 11, 2020 \nNot long ago there was some buzz around how WebKit handles 100vh in CSS, essentially ignoring the bottom edge of the browser viewport. Some have suggested avoid using 100vh, others have come up with different alternatives to work around the problem. In fact, this issue goes further back a few years when Nicolas Hoizey filed a bug with WebKit on the subject (the short of it: WebKit says this is “intentional” 🧐).\nThe other day I was doing some work with a basic flexbox layout – header, main, sticky footer – the kind we’ve all seen and used many times before:\n\n\n<header>HEADER GOES HERE</header>\n<main>MAIN GOES HERE</main>\n<footer>FOOTER GOES HERE</footer>\n\n\n\n\n\nbody { display: flex; flex-direction: column; margin: 0; min-height: 100vh;\n} main { flex: 1;\n}\n\n\n\nI began running some browser tests on my iPhone, and that’s when I noticed that my sticky footer wasn’t looking so sticky:\n\nThe footer was hiding below Safari’s menu bar. This is the 100vh bug (feature?) that Nicolas originally uncovered and reported. I did a little sleuthing – hoping that maybe by now a non-hacky fix had been found – and that’s when I stumbled upon my own solution (btw, it’s totally hacky):\nUsing -webkit-fill-available\nThe idea behind -webkit-fill-available – at least at one point – was to allow for an element to intrinsically fit into a particular layout, i.e., fill the available space for that property. At the moment intrinsic values like this aren’t fully supported by the CSSWG.\nHowever, the above problem is specifically in WebKit, which does support -webkit-fill-available. So with that in mind, I added it to my ruleset with 100vh as the fallback for all other browsers.\n\n\nbody { min-height: 100vh; /* mobile viewport bug fix */ min-height: -webkit-fill-available;\n}\n\n\n\nAnd now the sticky footer is right where I want it to be in mobile Safari!\n\nDoes this really work?\nThe jury seems to be out on this. I’ve had no problems with any of the tests I’ve run and I’m using this method in production right now. But I did receive a number of responses to my tweet pointing to other possible problems with using this (the effects of rotating devices, Chrome not completely ignoring the property, etc.).\nWill -webkit-fill-available work in every scenario? Probably not, cuz let’s be honest: this is the web, and it can be damn hard to build. But, if you’re having a problem with 100vh in WebKit and you’re looking for a CSS alternative, you might want to try this.\n Article Source\n\n\t\t\t\n\t\t\tPost Views: \n\t\t\t1"
+      },
+      "mention-of": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://onumahkalusamuel.tk/css-fix-for-100vh-in-mobile-webkit/"
+      }
     }
   ]
 }
