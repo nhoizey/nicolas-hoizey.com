@@ -3830,7 +3830,7 @@
       "date": "2008-01-31T03:40:18+02:00",
       "author": {
         "image": "no-avatar.png",
-        "name": "http://julienfortin.fr"
+        "name": "https://julienfortin.fr"
       },
       "content": "<p>A chaque question sa réponse :<br /> Il faut aller dans</p><blockquote> <p>user &gt; bibliothèque &gt;application support &gt; firefox &gt; profiles &gt; xxx.default &gt; chrome</p> </blockquote><p><br /> et j'ajoute juste une petite ligne au code pour décoller l'icône du texte</p><p>.bookmark-item &gt; .toolbarbutton-icon <i>&lt; br /&gt;<br /> margin : 0px !important ;<br /> width : 16px !important ;<br /> height : 16px !important ;<br /> display : inline !important ;<br /> </i></p>"
     },
@@ -3839,7 +3839,7 @@
       "date": "2008-01-31T03:41:24+02:00",
       "author": {
         "image": "no-avatar.png",
-        "name": "http://julienfortin.fr"
+        "name": "https://julienfortin.fr"
       },
       "content": "<p>petite erreur de post :<br /> il faut insérer un</p><blockquote> <p> padding : 0px 2px 0px 0px ;</p> </blockquote>"
     },
