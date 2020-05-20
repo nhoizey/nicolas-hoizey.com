@@ -105,6 +105,5 @@ export async function handler(event, context) {
         .catch(handleError);
     })
   );
-  console.dir(result);
-  return {};
+  return { statusCode: 200, body: JSON.stringify(result) };
 }
