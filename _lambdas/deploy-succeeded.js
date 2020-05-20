@@ -105,4 +105,6 @@ export async function handler(event, context) {
         .catch(handleError);
     })
   );
+  console.dir(result);
+  return {};
 }

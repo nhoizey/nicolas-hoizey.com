@@ -22,7 +22,7 @@
     "eleventy:build": "eleventy",
     "eleventy:watch": "eleventy --serve",
     "serviceworker": "workbox injectManifest workbox.config.js",
-    "netlify:build": "netlify functions:build",
+    "netlify:build": "netlify-lambda build _lambdas",
     "netlify:call": "netlify functions:invoke --name deploy-succeeded",
     "build": "cross-env NODE_ENV=production npm-run-all --sequential clean assets:build eleventy:build serviceworker netlify:build",
     "benchmark:build": "DEBUG=Eleventy:Benchmark* cross-env NODE_ENV=production npm-run-all --sequential clean assets:build eleventy:build serviceworker",
@@ -95,5 +95,8 @@
   "engines": {
     "node": ">=8.16"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "netlify-lambda": "^1.6.3"
+  }
 }
