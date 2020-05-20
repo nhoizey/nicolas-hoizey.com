@@ -1,5 +1,6 @@
 const twitter = require('twitter-text');
 const slugifyString = require('../../_utils/slugify');
+const path = require('path');
 
 const MARKDOWN_IMAGE_REGEX = /!\[([^\]]+)\]\(([^\) ]+)( [^\)]+)?\)({.[^}]+})?/g;
 
@@ -45,6 +46,12 @@ const tweetHashtagTohandle = (tweet) => {
   return tweet;
 };
 
+const tweetRemoveImage = (tweet) => {
+  // remove markdown images
+  tweet = tweet.replace(MARKDOWN_IMAGE_REGEX, '');
+  return tweet;
+};
+
 const tweetImageToHtml = (tweet, url) => {
   // replace markdown images with HTML image
   tweet = tweet.replace(
@@ -81,6 +88,18 @@ module.exports = {
   hasImage: (content) => {
     return content.match(MARKDOWN_IMAGE_REGEX);
   },
+  firstImageAsAttachment: (content, url) => {
+    let attachment = '';
+    let matches = content.match(
+      /!\[([^\]]+)\]\(([^\) ]+)( [^\)]+)?\)({.[^}]+})?/
+    );
+    if (matches) {
+      let imageUrl = `${url}${matches[2]}`;
+      let imageType = path.extname(matches[2]).slice(1);
+      attachment = `,"attachments": [{"url": "${imageUrl}", "mime_type": "image/${imageType}"}]`;
+    }
+    return attachment;
+  },
   noteToTweet: (content, url) => {
     tweet = content.trim();
     tweet = tweetCode(tweet);
@@ -112,6 +131,24 @@ module.exports = {
 
     tweet = tweet.replace(/\n/g, '<br />\n');
     // tweet = tweet.replace(/\n/g, "\u000a");
+
+    return tweet;
+  },
+  noteToTweetForJson: (content, url) => {
+    tweet = content.trim();
+    tweet = tweetCode(tweet);
+
+    // remove bold and italics
+    tweet = tweet.replace(/\*+([^\*\n]+)\*+/, '$1');
+
+    tweet = tweetHashtagTohandle(tweet);
+    tweet = tweetRemoveImage(tweet);
+    tweet = tweetLinks(tweet);
+    tweet = tweetStrike(tweet);
+
+    tweet = tweet.replace(/"/gm, '\\"');
+    tweet = tweet.replace(/\n/gm, '\\n');
+    // tweet = tweet.replace(/(\n){3,}/gm, '\\n\\n');
 
     return tweet;
   },
