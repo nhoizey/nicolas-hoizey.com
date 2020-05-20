@@ -117,23 +117,6 @@ module.exports = {
 
     return tweet;
   },
-  noteToTweetForIfttt: (content, url) => {
-    tweet = content.trim();
-    tweet = tweetCode(tweet);
-
-    // remove bold and italics
-    tweet = tweet.replace(/\*+([^\*\n]+)\*+/, '$1');
-
-    tweet = tweetHashtagTohandle(tweet);
-    tweet = tweetImageToHtml(tweet, url);
-    tweet = tweetLinks(tweet);
-    tweet = tweetStrike(tweet);
-
-    tweet = tweet.replace(/\n/g, '<br />\n');
-    // tweet = tweet.replace(/\n/g, "\u000a");
-
-    return tweet;
-  },
   noteToTweetForJson: (content, url) => {
     tweet = content.trim();
     tweet = tweetCode(tweet);
