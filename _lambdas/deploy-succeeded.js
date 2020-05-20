@@ -66,7 +66,7 @@ const publishItem = async (item) => {
   try {
     const statusText = item.content_text;
 
-    // Checck if there's at least one image attachment
+    // Check if there's at least one image attachment
     // Todo: manage multiple image attachments
     if (
       item.hasOwnProperty('attachments') &&
