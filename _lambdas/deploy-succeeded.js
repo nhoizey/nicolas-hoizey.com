@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 import dotenv from 'dotenv';
 import Twitter from 'twitter';
 import bent from 'bent';
-import getBuffer = bent('buffer');
+const getBuffer = bent('buffer');
 
 dotenv.config();
 
