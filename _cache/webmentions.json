@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-05-19T21:02:03.557Z",
+  "lastFetched": "2020-05-20T00:25:32.671Z",
   "webmentions": [
     {
       "type": "entry",
@@ -52960,6 +52960,24 @@
       "rels": {
         "canonical": "http://virusno.tk/jamstack-is-fast-only-if-you-make-it-so/"
       }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Arnaud Denoyelle",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/5f3db122bef7f39a1f8c030fd1137f1900ef5f28c06d196cbdfa375e8705a9f3.jpg",
+        "url": "https://twitter.com/ArnaudDenoyelle"
+      },
+      "url": "https://twitter.com/nhoizey/status/1262858835661905921#favorited-by-316030521",
+      "published": null,
+      "wm-received": "2020-05-19T23:15:00Z",
+      "wm-id": 798620,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1262858835661905921/316030521",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/05/19/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/05/19/1/",
+      "wm-property": "like-of",
+      "wm-private": false
     }
   ]
 }
