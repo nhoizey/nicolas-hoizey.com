@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-05-20T00:25:32.671Z",
+  "lastFetched": "2020-05-20T09:22:01.113Z",
   "webmentions": [
     {
       "type": "entry",
@@ -52976,6 +52976,24 @@
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1262858835661905921/316030521",
       "wm-target": "https://nicolas-hoizey.com/notes/2020/05/19/1/",
       "like-of": "https://nicolas-hoizey.com/notes/2020/05/19/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "@thomas@social.tzi.fr",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/771c10bdccf2f1097190137165e552207370fc500b4e8edf30f141ef858cede1.jpg",
+        "url": "https://twitter.com/iamtzi"
+      },
+      "url": "https://twitter.com/nhoizey/status/1262880080763682817#favorited-by-33046163",
+      "published": null,
+      "wm-received": "2020-05-20T07:28:26Z",
+      "wm-id": 798688,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1262880080763682817/33046163",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/19/modified-machete/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/05/19/modified-machete/",
       "wm-property": "like-of",
       "wm-private": false
     }
