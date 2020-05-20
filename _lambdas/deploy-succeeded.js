@@ -1,8 +1,8 @@
-const fetch = require('node-fetch');
-const dotenv = require('dotenv');
-const Twitter = require('twitter');
-const bent = require('bent');
-const getBuffer = bent('buffer');
+import fetch from 'node-fetch';
+import dotenv from 'dotenv';
+import Twitter from 'twitter';
+import bent from 'bent';
+import getBuffer = bent('buffer');
 
 dotenv.config();
 
