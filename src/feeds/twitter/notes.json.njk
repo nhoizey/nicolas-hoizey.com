@@ -15,8 +15,8 @@ permalink: /feeds/twitter/notes.json
       "url": "https://nho.io/n/{{ entry.url | replace('/notes/', '') }}",
       "title": "💬 Note from {{ entry.date | date("Do MMMM YYYY") }}",
       "date_published": "{{ entry.date | rssDate }}",
-      "content_text": "{{ entry.data.rawContent | noteToTweetForJson(absoluteEntryUrl) | safe }}\n\nhttps://nho.io/n/{{ entry.url | replace("/notes/", "") }}"
-      {{ entry.data.rawContent | firstImageAsAttachment(absoluteEntryUrl) | safe }}
+      "content_text": "{{ entry.data.rawContent | noteToTweet(absoluteEntryUrl) | safe }}\n\nhttps://nho.io/n/{{ entry.url | replace("/notes/", "") }}",
+      "attachments": {{ entry.data.rawContent | imagesAsAttachments(absoluteEntryUrl) | safe }}      
     }{%- if not loop.last -%},{%- endif -%}
   {% endfor %}
   ]

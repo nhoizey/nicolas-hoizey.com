@@ -88,36 +88,19 @@ module.exports = {
   hasImage: (content) => {
     return content.match(MARKDOWN_IMAGE_REGEX);
   },
-  firstImageAsAttachment: (content, url) => {
-    let attachment = '';
-    let matches = content.match(
-      /!\[([^\]]+)\]\(([^\) ]+)( [^\)]+)?\)({.[^}]+})?/
-    );
-    if (matches) {
-      let imageUrl = `${url}${matches[2]}`;
-      let imageType = path.extname(matches[2]).slice(1);
-      attachment = `,"attachments": [{"url": "${imageUrl}", "mime_type": "image/${imageType}"}]`;
+  imagesAsAttachments: (content, url) => {
+    let attachments = [];
+
+    while ((match = MARKDOWN_IMAGE_REGEX.exec(content))) {
+      attachments.push({
+        url: `${url}${match[2]}`,
+        mime_type: `image/${path.extname(match[2]).slice(1)}`,
+      });
     }
-    return attachment;
+
+    return JSON.stringify(attachments);
   },
   noteToTweet: (content, url) => {
-    tweet = content.trim();
-    tweet = tweetCode(tweet);
-
-    // remove bold and italics
-    tweet = tweet.replace(/\*+([^\*\n]+)\*+/, '$1');
-
-    tweet = tweetHashtagTohandle(tweet);
-    tweet = tweetImageToLink(tweet, url);
-    tweet = tweetLinks(tweet);
-    tweet = tweetStrike(tweet);
-
-    tweet = tweet.replace(/\n/g, '<br />\n');
-    // tweet = tweet.replace(/\n/g, "\u000a");
-
-    return tweet;
-  },
-  noteToTweetForJson: (content, url) => {
     tweet = content.trim();
     tweet = tweetCode(tweet);
 
