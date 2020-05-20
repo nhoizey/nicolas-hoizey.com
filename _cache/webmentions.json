@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-05-20T09:22:01.113Z",
+  "lastFetched": "2020-05-20T13:35:22.715Z",
   "webmentions": [
     {
       "type": "entry",
@@ -52994,6 +52994,94 @@
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1262880080763682817/33046163",
       "wm-target": "https://nicolas-hoizey.com/links/2020/05/19/modified-machete/",
       "like-of": "https://nicolas-hoizey.com/links/2020/05/19/modified-machete/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Timothée Barray",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/697e1c2534afa3435647748ab6026e3e6111e879cf0954289830bd22e260ca10.jpg",
+        "url": "https://twitter.com/timbarray"
+      },
+      "url": "https://twitter.com/timbarray/status/1263040375385718786",
+      "published": "2020-05-20T09:34:26+00:00",
+      "wm-received": "2020-05-20T09:40:59Z",
+      "wm-id": 798700,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1263039269389639680/1263040375385718786",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/20/the-fastest-google-fonts/",
+      "photo": [
+        "https://pbs.twimg.com/media/EYc3hYKXgAABdXH.jpg"
+      ],
+      "content": {
+        "content-type": "text/plain",
+        "value": "🔗 “The Fastest Google Fonts”\nby @csswizardry\n\n#font #WebPerf \n\nnho.io/l/2020/05/20/t…",
+        "text": "🔗 “The Fastest Google Fonts”\nby @csswizardry\n\n#font #WebPerf \n\nnho.io/l/2020/05/20/t…"
+      },
+      "repost-of": "https://nicolas-hoizey.com/links/2020/05/20/the-fastest-google-fonts/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Julien Wajsberg",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/079e8b6d4d606c25447891e40542e9d4f62b9e045b7f19f88e00262468d79454.jpeg",
+        "url": "https://twitter.com/jwajsberg"
+      },
+      "url": "https://twitter.com/jwajsberg/status/1263040648338440192",
+      "published": "2020-05-20T09:35:31+00:00",
+      "wm-received": "2020-05-20T09:40:59Z",
+      "wm-id": 798699,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1263039269389639680/1263040648338440192",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/20/the-fastest-google-fonts/",
+      "photo": [
+        "https://pbs.twimg.com/media/EYc3hYKXgAABdXH.jpg"
+      ],
+      "content": {
+        "content-type": "text/plain",
+        "value": "🔗 “The Fastest Google Fonts”\nby @csswizardry\n\n#font #WebPerf \n\nnho.io/l/2020/05/20/t…",
+        "text": "🔗 “The Fastest Google Fonts”\nby @csswizardry\n\n#font #WebPerf \n\nnho.io/l/2020/05/20/t…"
+      },
+      "repost-of": "https://nicolas-hoizey.com/links/2020/05/20/the-fastest-google-fonts/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "edgemesh",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0dc7d529c0213c4885b8f105ddecd02e1d7272b1bd0086cbe1b10342f1b7edfb.jpg",
+        "url": "https://twitter.com/edgemeshinc"
+      },
+      "url": "https://twitter.com/nhoizey/status/1263039269389639680#favorited-by-760891744678543361",
+      "published": null,
+      "wm-received": "2020-05-20T09:40:49Z",
+      "wm-id": 798697,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1263039269389639680/760891744678543361",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/20/the-fastest-google-fonts/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/05/20/the-fastest-google-fonts/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Brett Sinclair",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/9a3e1512b386ebaeb0901aa257b86d4faa765997843ebecea664507f87c37f39.jpg",
+        "url": "https://twitter.com/BrettSinclair"
+      },
+      "url": "https://twitter.com/nhoizey/status/1263039269389639680#favorited-by-13289382",
+      "published": null,
+      "wm-received": "2020-05-20T09:40:50Z",
+      "wm-id": 798698,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1263039269389639680/13289382",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/20/the-fastest-google-fonts/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/05/20/the-fastest-google-fonts/",
       "wm-property": "like-of",
       "wm-private": false
     }
