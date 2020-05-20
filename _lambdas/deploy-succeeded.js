@@ -94,11 +94,11 @@ const publishItem = async (item) => {
 
 // Main Lambda Function Handler
 export async function handler(event, context) {
-  return Promise.all(
+  let result = await Promise.all(
     [
       'https://nicolas-hoizey.com/feeds/twitter/links.json',
       'https://nicolas-hoizey.com/feeds/twitter/notes.json',
-    ].map((feedUrl) => {
+    ].map(async (feedUrl) => {
       return fetch(feedUrl)
         .then((response) => response.json())
         .then(processFeed)
