@@ -61,20 +61,32 @@ const processFeed = async (feed) => {
   }
 };
 
-// Push a new note to Twitter
+// Push a new tweet to Twitter
 const publishItem = async (item) => {
   try {
     const statusText = item.content_text;
 
-    if (item.hasOwnProperty('attachments') && item.attachments.length > 0) {
+    // Checck if there's at least one image attachment
+    // Todo: manage multiple image attachments
+    if (
+      item.hasOwnProperty('attachments') &&
+      item.attachments.length > 0 &&
+      item.attachments[0].mime_type.match('image/')
+    ) {
+      // Get the image as a base64 string
       let imageBuffer = await getBuffer(item.attachments[0].url);
       let imageData = await imageBuffer.toString('base64');
+
+      // Upload the image to Twitter
       let media = await twitter.post('media/upload', { media_data: imageData });
+
+      // Post the tweet with the uploaded image
       tweet = await twitter.post('statuses/update', {
         status: statusText,
         media_ids: media.media_id_string, // Pass the media id string
       });
     } else {
+      // Simple text tweet
       tweet = await twitter.post('statuses/update', {
         status: statusText,
       });
@@ -105,5 +117,6 @@ export async function handler(event, context) {
         .catch(handleError);
     })
   );
+  // Todo: parse `result` to find potential errors and return accordingly
   return { statusCode: 200, body: JSON.stringify(result) };
 }
