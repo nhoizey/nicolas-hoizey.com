@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-05-20T20:31:06.772Z",
+  "lastFetched": "2020-05-21T16:02:05.504Z",
   "webmentions": [
     {
       "type": "entry",
@@ -53133,6 +53133,84 @@
       },
       "mention-of": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
       "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Bastien Jaillot",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0dbb6910fed96ef1e3fdf19d6b27ac2dd24a7d5fbdcc7d71e693325a349d8280.jpg",
+        "url": "https://twitter.com/bastnic"
+      },
+      "url": "https://twitter.com/nhoizey/status/1263247190685818880#favorited-by-16088762",
+      "published": null,
+      "wm-received": "2020-05-21T00:33:41Z",
+      "wm-id": 799538,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1263247190685818880/16088762",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/05/21/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/05/21/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Phil Hawksworth",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/fd1185da1ed09664bc011181408cfd1571fc310d9fccaa93ee40f50c93cedd54.jpg",
+        "url": "https://twitter.com/philhawksworth"
+      },
+      "url": "https://twitter.com/nhoizey/status/1263247190685818880#favorited-by-7655012",
+      "published": null,
+      "wm-received": "2020-05-21T08:17:09Z",
+      "wm-id": 799811,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1263247190685818880/7655012",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/05/21/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/05/21/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Bejamas.io",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/9dbb9337c625da64a004f63d2f0b810ce8c9f746ad1ff94cc009305e6e35a689.jpg",
+        "url": "https://twitter.com/bejamas_io"
+      },
+      "url": "https://twitter.com/bejamas_io/status/1263394415021883392",
+      "published": "2020-05-21T09:01:15+00:00",
+      "wm-received": "2020-05-21T09:07:56Z",
+      "wm-id": 799822,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/nhoizey/1263394415021883392",
+      "wm-target": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+      "content": {
+        "content-type": "text/html",
+        "value": "JAMstack is fast only if you make it so by <a href=\"https://twitter.com/nhoizey\">@nhoizey</a>\n<a href=\"https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/\">nicolas-hoizey.com/articles/2020/…</a>",
+        "html": "JAMstack is fast only if you make it so by <a href=\"https://twitter.com/nhoizey\">@nhoizey</a><br /><a href=\"https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/\">nicolas-hoizey.com/articles/2020/…</a>",
+        "text": "JAMstack is fast only if you make it so by @nhoizey\nnicolas-hoizey.com/articles/2020/…"
+      },
+      "mention-of": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Arnaud Ligny 👨‍💻 💡 🚀",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/afdaad5e58f3f5186fe0155018d61b5726714e5d79f20fcf93c85a19edd512b4.jpg",
+        "url": "https://twitter.com/ArnaudLigny"
+      },
+      "url": "https://twitter.com/nhoizey/status/1263247190685818880#favorited-by-155551263",
+      "published": null,
+      "wm-received": "2020-05-21T11:30:05Z",
+      "wm-id": 799852,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1263247190685818880/155551263",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/05/21/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/05/21/1/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
