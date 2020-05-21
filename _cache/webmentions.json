@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-05-21T16:02:05.504Z",
+  "lastFetched": "2020-05-21T22:00:32.816Z",
   "webmentions": [
     {
       "type": "entry",
@@ -53210,6 +53210,258 @@
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1263247190685818880/155551263",
       "wm-target": "https://nicolas-hoizey.com/notes/2020/05/21/1/",
       "like-of": "https://nicolas-hoizey.com/notes/2020/05/21/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Alexandre",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0e23594acf215fe56faf019721d23bfe1ad02c91be7001e98e02ef97033a5253.jpg",
+        "url": "https://twitter.com/amarlot"
+      },
+      "url": "https://twitter.com/amarlot/status/1263511821664862209",
+      "published": "2020-05-21T16:47:47+00:00",
+      "wm-received": "2020-05-21T16:56:27Z",
+      "wm-id": 799976,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1263502659102924800/1263511821664862209",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/21/the-cost-of-javascript-frameworks/",
+      "photo": [
+        "https://pbs.twimg.com/media/EYjc-PyWsAMMOdX.png"
+      ],
+      "content": {
+        "content-type": "text/plain",
+        "value": "🔗 “The Cost of Javascript Frameworks”\nby @tkadlec\n\n#WebPerf #JavaScript \n\nnho.io/l/2020/05/21/t…",
+        "text": "🔗 “The Cost of Javascript Frameworks”\nby @tkadlec\n\n#WebPerf #JavaScript \n\nnho.io/l/2020/05/21/t…"
+      },
+      "repost-of": "https://nicolas-hoizey.com/links/2020/05/21/the-cost-of-javascript-frameworks/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "JSBot",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d3b5d39458624dd923d325a5c71691554b9b18d6d5104f53c3a94d5489cd209a.jpg",
+        "url": "https://twitter.com/Taieb_Bot"
+      },
+      "url": "https://twitter.com/Taieb_Bot/status/1263511838387470336",
+      "published": "2020-05-21T16:47:51+00:00",
+      "wm-received": "2020-05-21T16:56:24Z",
+      "wm-id": 799974,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1263502659102924800/1263511838387470336",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/21/the-cost-of-javascript-frameworks/",
+      "photo": [
+        "https://pbs.twimg.com/media/EYjc-PyWsAMMOdX.png"
+      ],
+      "content": {
+        "content-type": "text/plain",
+        "value": "🔗 “The Cost of Javascript Frameworks”\nby @tkadlec\n\n#WebPerf #JavaScript \n\nnho.io/l/2020/05/21/t…",
+        "text": "🔗 “The Cost of Javascript Frameworks”\nby @tkadlec\n\n#WebPerf #JavaScript \n\nnho.io/l/2020/05/21/t…"
+      },
+      "repost-of": "https://nicolas-hoizey.com/links/2020/05/21/the-cost-of-javascript-frameworks/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Alexandre",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0e23594acf215fe56faf019721d23bfe1ad02c91be7001e98e02ef97033a5253.jpg",
+        "url": "https://twitter.com/amarlot"
+      },
+      "url": "https://twitter.com/amarlot/status/1263511928506368000",
+      "published": "2020-05-21T16:48:13+00:00",
+      "wm-received": "2020-05-21T16:56:27Z",
+      "wm-id": 799977,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/nhoizey/1263511928506368000",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/21/the-cost-of-javascript-frameworks/",
+      "content": {
+        "content-type": "text/html",
+        "value": "So true ... Framework cost a lot in webperf.\nPing <a href=\"https://twitter.com/carlcamilleri\">@carlcamilleri</a>\n\n<a class=\"u-mention\" href=\"https://nho.io/l/2020/05/21/the-cost-of-javascript-frameworks/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/links/2020/05/21/the-cost-of-javascript-frameworks/\"></a>",
+        "html": "So true ... Framework cost a lot in webperf.<br />Ping <a href=\"https://twitter.com/carlcamilleri\">@carlcamilleri</a>",
+        "text": "So true ... Framework cost a lot in webperf.\nPing @carlcamilleri"
+      },
+      "mention-of": "https://nicolas-hoizey.com/links/2020/05/21/the-cost-of-javascript-frameworks/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "edgemesh",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0dc7d529c0213c4885b8f105ddecd02e1d7272b1bd0086cbe1b10342f1b7edfb.jpg",
+        "url": "https://twitter.com/edgemeshinc"
+      },
+      "url": "https://twitter.com/nhoizey/status/1263502659102924800#favorited-by-760891744678543361",
+      "published": null,
+      "wm-received": "2020-05-21T16:56:25Z",
+      "wm-id": 799975,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1263502659102924800/760891744678543361",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/21/the-cost-of-javascript-frameworks/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/05/21/the-cost-of-javascript-frameworks/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Yvain Liechti",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/435b28d6c561faa8ea38ab4a8da6fe3f30bb7ec9d737a75ae1bef9c0201f2e0d.jpg",
+        "url": "https://twitter.com/ryuran78"
+      },
+      "url": "https://twitter.com/ryuran78/status/1263520246637486082",
+      "published": "2020-05-21T17:21:16+00:00",
+      "wm-received": "2020-05-21T18:39:18Z",
+      "wm-id": 800029,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1263502659102924800/1263520246637486082",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/21/the-cost-of-javascript-frameworks/",
+      "photo": [
+        "https://pbs.twimg.com/media/EYjc-PyWsAMMOdX.png"
+      ],
+      "content": {
+        "content-type": "text/plain",
+        "value": "🔗 “The Cost of Javascript Frameworks”\nby @tkadlec\n\n#WebPerf #JavaScript \n\nnho.io/l/2020/05/21/t…",
+        "text": "🔗 “The Cost of Javascript Frameworks”\nby @tkadlec\n\n#WebPerf #JavaScript \n\nnho.io/l/2020/05/21/t…"
+      },
+      "repost-of": "https://nicolas-hoizey.com/links/2020/05/21/the-cost-of-javascript-frameworks/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "marc_hugon",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f5d5e6c31d2caef6d35bf3d5ca1fc2bbd8753c3bc76f1d6604e3176fda9e0768.jpg",
+        "url": "https://twitter.com/marc_hugon"
+      },
+      "url": "https://twitter.com/marc_hugon/status/1263538258715303937",
+      "published": "2020-05-21T18:32:50+00:00",
+      "wm-received": "2020-05-21T18:39:15Z",
+      "wm-id": 800028,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1263502659102924800/1263538258715303937",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/21/the-cost-of-javascript-frameworks/",
+      "photo": [
+        "https://pbs.twimg.com/media/EYjc-PyWsAMMOdX.png"
+      ],
+      "content": {
+        "content-type": "text/plain",
+        "value": "🔗 “The Cost of Javascript Frameworks”\nby @tkadlec\n\n#WebPerf #JavaScript \n\nnho.io/l/2020/05/21/t…",
+        "text": "🔗 “The Cost of Javascript Frameworks”\nby @tkadlec\n\n#WebPerf #JavaScript \n\nnho.io/l/2020/05/21/t…"
+      },
+      "repost-of": "https://nicolas-hoizey.com/links/2020/05/21/the-cost-of-javascript-frameworks/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "marc_hugon",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f5d5e6c31d2caef6d35bf3d5ca1fc2bbd8753c3bc76f1d6604e3176fda9e0768.jpg",
+        "url": "https://twitter.com/marc_hugon"
+      },
+      "url": "https://twitter.com/nhoizey/status/1263502659102924800#favorited-by-15070270",
+      "published": null,
+      "wm-received": "2020-05-21T18:39:15Z",
+      "wm-id": 800027,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1263502659102924800/15070270",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/21/the-cost-of-javascript-frameworks/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/05/21/the-cost-of-javascript-frameworks/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "lemmespeaktruth",
+        "photo": "https://webmention.io/avatar/abs.twimg.com/0e6b2cd70aa5b35dec24ca4e1e63f8963f0118736d9ec3bba77e3a8c99a27bc2.png",
+        "url": "https://twitter.com/lemmespeaktruth"
+      },
+      "url": "https://twitter.com/lemmespeaktruth/status/1263555388416417793",
+      "published": "2020-05-21T19:40:54+00:00",
+      "wm-received": "2020-05-21T19:42:49Z",
+      "wm-id": 800057,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1263502659102924800/1263555388416417793",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/21/the-cost-of-javascript-frameworks/",
+      "photo": [
+        "https://pbs.twimg.com/media/EYjc-PyWsAMMOdX.png"
+      ],
+      "content": {
+        "content-type": "text/plain",
+        "value": "🔗 “The Cost of Javascript Frameworks”\nby @tkadlec\n\n#WebPerf #JavaScript \n\nnho.io/l/2020/05/21/t…",
+        "text": "🔗 “The Cost of Javascript Frameworks”\nby @tkadlec\n\n#WebPerf #JavaScript \n\nnho.io/l/2020/05/21/t…"
+      },
+      "repost-of": "https://nicolas-hoizey.com/links/2020/05/21/the-cost-of-javascript-frameworks/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "AltBot 👽🤖👨🏻‍💻",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/b75b4eece8176bedf22d10c8a8419659b36e66f55fc231c4ad3a72b310ca2168.jpg",
+        "url": "https://twitter.com/AltBot4"
+      },
+      "url": "https://twitter.com/AltBot4/status/1263555398667247624",
+      "published": "2020-05-21T19:40:57+00:00",
+      "wm-received": "2020-05-21T19:42:40Z",
+      "wm-id": 800056,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1263502659102924800/1263555398667247624",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/21/the-cost-of-javascript-frameworks/",
+      "photo": [
+        "https://pbs.twimg.com/media/EYjc-PyWsAMMOdX.png"
+      ],
+      "content": {
+        "content-type": "text/plain",
+        "value": "🔗 “The Cost of Javascript Frameworks”\nby @tkadlec\n\n#WebPerf #JavaScript \n\nnho.io/l/2020/05/21/t…",
+        "text": "🔗 “The Cost of Javascript Frameworks”\nby @tkadlec\n\n#WebPerf #JavaScript \n\nnho.io/l/2020/05/21/t…"
+      },
+      "repost-of": "https://nicolas-hoizey.com/links/2020/05/21/the-cost-of-javascript-frameworks/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "AltBot 👽 🤖 👨🏻‍💻",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/b75b4eece8176bedf22d10c8a8419659b36e66f55fc231c4ad3a72b310ca2168.jpg",
+        "url": "https://twitter.com/AltBot4"
+      },
+      "url": "https://twitter.com/nhoizey/status/1263502659102924800#favorited-by-1236222056921878528",
+      "published": null,
+      "wm-received": "2020-05-21T19:42:31Z",
+      "wm-id": 800054,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1263502659102924800/1236222056921878528",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/21/the-cost-of-javascript-frameworks/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/05/21/the-cost-of-javascript-frameworks/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "lemmespeaktruth",
+        "photo": "https://webmention.io/avatar/abs.twimg.com/0e6b2cd70aa5b35dec24ca4e1e63f8963f0118736d9ec3bba77e3a8c99a27bc2.png",
+        "url": "https://twitter.com/lemmespeaktruth"
+      },
+      "url": "https://twitter.com/nhoizey/status/1263502659102924800#favorited-by-1099700156562321415",
+      "published": null,
+      "wm-received": "2020-05-21T19:42:39Z",
+      "wm-id": 800055,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1263502659102924800/1099700156562321415",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/21/the-cost-of-javascript-frameworks/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/05/21/the-cost-of-javascript-frameworks/",
       "wm-property": "like-of",
       "wm-private": false
     }
