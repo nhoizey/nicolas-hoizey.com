@@ -35,15 +35,15 @@ module.exports = {
     return excerpt;
   },
   absoluteImagePath: (content, url) => {
-    let imagesAbsoluteUrl = content.replace(
-      /<img src="([^"]+)"/,
-      (correspondance, imagePath) => {
-        if (!imagePath.match(/^(\/|https?:\/\/)/)) {
-          return `<img src="${url}${imagePath}"`;
-        }
+    const HTML_IMAGE_REGEX = /<img src="([^"]+)"/g;
+
+    while ((match = HTML_IMAGE_REGEX.exec(content))) {
+      if (!match[1].match(/^(\/|https?:\/\/)/)) {
+        content = content.replace(match[1], `${url}${match[1]}`);
       }
-    );
-    return imagesAbsoluteUrl;
+    }
+
+    return content;
   },
   removeImages: (html) => html.replace(/<img [^>]+>/, ''),
   truncateHtml: (html, length) => {
