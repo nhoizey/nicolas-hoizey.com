@@ -9,4 +9,4 @@ authors:
 tags: [privacy]
 ---
 
-> For several days this spring, I lived my life through this Invasive Firefox, which **logged every site I visited**, all the advertising tracking servers that were watching my surfing and all the data they obtained. Then I uploaded the data to my colleagues at The Times, who reconstructed my web sessions into **the gloriously invasive picture of my digital life** you see here.
+> For several days this spring, I lived my life through this Invasive Firefox, which <mark>logged every site I visited</mark>, all the advertising tracking servers that were watching my surfing and all the data they obtained. Then I uploaded the data to my colleagues at The Times, who reconstructed my web sessions into <mark>the gloriously invasive picture of my digital life</mark> you see here.

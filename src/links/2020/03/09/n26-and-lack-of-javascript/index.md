@@ -26,7 +26,7 @@ I also like how Hugo shows evidence that **using the browser's User-Agent string
 
 Also:
 
-> we use ua-parser-js to **(hopefully)** detect the browser
+> we use ua-parser-js to <mark>(hopefully)</mark> detect the browser
 
 Unfortunately, too many sites/apps rely on the User-Agent string to decide what to do with the request, as [Šime Vidas' experiment with an empty User-Agent string shows](https://twitter.com/simevidas/status/1233490500520468480). 😥
 

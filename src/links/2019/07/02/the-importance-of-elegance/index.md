@@ -10,7 +10,7 @@ authors:
 tags: [Svelte, JavaScript]
 ---
 
-> If code is explicit and testable but hard to read and follow, then we’ve lost our most important property along the way. **Code is first and foremost designed to be read by humans, not computers**. Turning source code into CPU instructions is the compiler’s job, not mine […]
+> If code is explicit and testable but hard to read and follow, then we’ve lost our most important property along the way. <mark>Code is first and foremost designed to be read by humans, not computers<mark>. Turning source code into CPU instructions is the compiler’s job, not mine […]
 
 I'm more and more tempted to try [Svelte](https://svelte.dev/), a compiled frontend framework (whereas popular traditional frameworks/libraries like Angular, React and Vue do the bulk of their work in the browser) with a simple syntax[^sveltetutorial] and lightweight and performant bundle to deploy.
 

@@ -10,4 +10,4 @@ authors:
 tags: [accessibility, UX, Google]
 ---
 
-> We have to stop confusing the excesses of capitalism with the hallmarks of quality. Sometimes Google aren’t better, they’re just more pervasive.
+> We have to stop confusing the excesses of capitalism with the hallmarks of quality. <mark>Sometimes Google aren’t better, they’re just more pervasive</mark>.

@@ -13,4 +13,4 @@ tags: [progressive enhancement, JavaScript]
 >
 > […]
 >
-> While ever you build under the assumption that things will always work smoothly, you’re leaving yourself completely ill-equipped to handle the scenario that they don’t. **Remember the fallacies; think about resilience.**
+> While ever you build under the assumption that things will always work smoothly, you’re leaving yourself completely ill-equipped to handle the scenario that they don’t. <mark>Remember the fallacies; think about resilience.</mark>

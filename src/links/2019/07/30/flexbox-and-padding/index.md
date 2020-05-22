@@ -12,5 +12,5 @@ tags: [CSS, Flexbox]
 
 Chen Hui Jing helps fix a little issue with overflowing Flexbox containers:
 
-> If you have tried to apply padding to a flex container with an horizontal overflow behaviour of scroll, you might notice that **the padding is not applied to the flex end side of your container**.
+> If you have tried to apply padding to a flex container with an horizontal overflow behaviour of scroll, you might notice that <mark>the padding is not applied to the flex end side of your container</mark>.
 

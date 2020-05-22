@@ -11,4 +11,4 @@ tags: [advertisement, privacy]
 
 Great demonstration that GDPR is not a threat for publishers who favor quality:
 
-> The desirability of a brand may be stronger than the targeting capabilities. We have not been impacted from a revenue standpoint, and, on the contrary, our digital advertising business continues to grow nicely.
+> The desirability of a brand may be stronger than the targeting capabilities. <mark>We have not been impacted from a revenue standpoint</mark>, and, on the contrary, our digital advertising business continues to grow nicely.

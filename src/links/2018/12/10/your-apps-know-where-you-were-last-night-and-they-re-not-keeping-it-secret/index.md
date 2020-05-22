@@ -6,11 +6,11 @@ link: https://www.nytimes.com/interactive/2018/12/10/business/location-data-priv
 tags: [privacy, geolocation]
 ---
 
-> The mobile location industry began as a way to customize apps and target ads for nearby businesses, but **it has morphed into a data collection and analysis machine**.
+> The mobile location industry began as a way to customize apps and target ads for nearby businesses, but <mark>it has morphed into a data collection and analysis machine</mark>.
 >
 > […]
 >
-> **More than 1,000 popular apps contain location-sharing code** from such companies, according to 2018 data from MightySignal, a mobile analysis firm. Google’s Android system was found to have about 1,200 apps with such code, compared with about 200 on Apple’s iOS.
+> <mark>More than 1,000 popular apps contain location-sharing code</mark> from such companies, according to 2018 data from MightySignal, a mobile analysis firm. Google’s Android system was found to have about 1,200 apps with such code, compared with about 200 on Apple’s iOS.
 >
 > […]
 >

@@ -9,4 +9,4 @@ authors:
 tags: [privacy, security, Google]
 ---
 
-> Because reCaptcha v3 is likely to be on every page of a website,  if you’re signed into your Google account **there’s a chance Google is getting data about every single webpage you go to** that is embedded with reCaptcha v3—and there many be no visual indication on the site that it’s happening, beyond a small reCaptcha logo hidden in the corner.
+> Because reCaptcha v3 is likely to be on every page of a website,  if you’re signed into your Google account <mark>there’s a chance Google is getting data about every single webpage you go to<mark> that is embedded with reCaptcha v3—and there many be no visual indication on the site that it’s happening, beyond a small reCaptcha logo hidden in the corner.

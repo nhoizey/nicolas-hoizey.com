@@ -13,7 +13,7 @@ Let me quote just one phrase:
 
 > "We can't send mail more than 500 miles," the chairman explained.
 
-No I'll let you read, and laugh.
+Now I'll let you read, and laugh.
 
 Looks like Trey wanted to make an animation from this amazing story:
 

@@ -13,4 +13,4 @@ I really loved Firefox OS. I even own 2 Firefox OS devices.
 
 I really wanted to believe in KaiOS's future, but this article shows I should be worried:
 
-> Since Mozilla discontinued Firefox OS, B2G source code has found its way into a surprising number of commercial products and now forms the basis of the third largest and fastest growing mobile operating system in the world. However, those devices are currently running out of date versions of Gecko, use locked down packaged app stores, are developed behind closed doors, and are arguably not a great showcase of the open web in the way B2G was originally intended to be.
+> Since Mozilla discontinued Firefox OS, B2G source code has found its way into a surprising number of commercial products and now forms the basis of the third largest and fastest growing mobile operating system in the world. However, <mark>those devices are currently running out of date versions of Gecko, use locked down packaged app stores, are developed behind closed doors, and are arguably not a great showcase of the open web</mark> in the way B2G was originally intended to be.

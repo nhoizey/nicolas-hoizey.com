@@ -9,4 +9,4 @@ authors:
 tags: [PWA]
 ---
 
-> PWAs don’t require you use a particular JavaScript framework or any JavaScript framework at all. You don’t need to be building a Single Page App either. In fact, it will probably be easier if you’re not. **If you work on a website, there’s a really good chance your site could benefit from the technologies and approaches aggregated under the PWA umbrella**.
+> PWAs don’t require you use a particular JavaScript framework or any JavaScript framework at all. You don’t need to be building a Single Page App either. In fact, it will probably be easier if you’re not. <mark>If you work on a website, there’s a really good chance your site could benefit from the technologies and approaches aggregated under the PWA umbrella</mark>.

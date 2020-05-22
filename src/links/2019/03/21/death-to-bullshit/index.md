@@ -9,7 +9,7 @@ authors:
 tags: [bullshit, Web, design, UX]
 ---
 
-> We’re bombarded by more information than ever before. With the rise of all this information comes a rise of the amount of bullshit we’re exposed to. Death to Bullshit is a rallying cry to rid the world of bullshit and demand experiences that respect people and their time.
+> We’re bombarded by more information than ever before. With the rise of all this information comes a rise of the amount of bullshit we’re exposed to. Death to Bullshit is a rallying cry to <mark>rid the world of bullshit and demand experiences that respect people and their time</mark>.
 
 Brad Frost gave a great talk at Creative Mornings in Pittsburgh in April 2013:
 

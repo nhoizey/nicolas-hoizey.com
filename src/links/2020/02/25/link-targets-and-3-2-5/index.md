@@ -10,6 +10,6 @@ authors:
 tags: [accessibility]
 ---
 
-> Regardless of what accessibility conformance level you target, **do not arbitrarily open links in a new window or tab**. If you are required to do so anyway, inform users in text.
+> Regardless of what accessibility conformance level you target, <mark>do not arbitrarily open links in a new window or tab</mark>. If you are required to do so anyway, inform users in text.
 
 I hate people for still doing that nowadays.
