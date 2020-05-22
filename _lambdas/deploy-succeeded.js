@@ -76,26 +76,24 @@ const publishItem = async (item) => {
         attachment.mime_type.match('image/')
       );
       if (imagesAttachments.length > 0) {
-        let images = await Promise.all(
-          item.attachments.map(async (attachment) => {
-            if (attachment.mime_type.match('image/')) {
-              // Get the image as a base64 string
-              let imageBuffer = await getBuffer(item.attachments[0].url);
-              let imageData = await imageBuffer.toString('base64');
+        let uploadedImages = await Promise.all(
+          imagesAttachments.map(async (attachment) => {
+            // Get the image as a base64 string
+            let imageBuffer = await getBuffer(item.attachments[0].url);
+            let imageData = await imageBuffer.toString('base64');
 
-              // Upload the image to Twitter
-              let media = await twitter.post('media/upload', {
-                media_data: imageData,
-              });
-              return media.media_id_string;
-            }
+            // Upload the image to Twitter
+            let media = await twitter.post('media/upload', {
+              media_data: imageData,
+            });
+            return media.media_id_string;
           })
         );
 
         // Post the tweet with the uploaded image(s)
         tweet = await twitter.post('statuses/update', {
           status: statusText,
-          media_ids: images.join(','), // Pass the media id string(s)
+          media_ids: uploadedImages.join(','), // Pass the media id string(s)
         });
       } else {
         // There's no image afterall, simple text tweet
