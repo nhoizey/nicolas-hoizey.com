@@ -67,24 +67,39 @@ const publishItem = async (item) => {
     const statusText = item.content_text;
 
     // Check if there's at least one image attachment
-    // Todo: manage multiple image attachments
-    if (
-      item.hasOwnProperty('attachments') &&
-      item.attachments.length > 0 &&
-      item.attachments[0].mime_type.match('image/')
-    ) {
-      // Get the image as a base64 string
-      let imageBuffer = await getBuffer(item.attachments[0].url);
-      let imageData = await imageBuffer.toString('base64');
+    if (item.hasOwnProperty('attachments') && item.attachments.length > 0) {
+      let imagesAttachments = item.attachments.filter((attachment) =>
+        // Only keep images
+        attachment.mime_type.match('image/')
+      );
+      if (imagesAttachments.length > 0) {
+        let images = await Promise.all(
+          item.attachments.map(async (attachment) => {
+            if (attachment.mime_type.match('image/')) {
+              // Get the image as a base64 string
+              let imageBuffer = await getBuffer(item.attachments[0].url);
+              let imageData = await imageBuffer.toString('base64');
 
-      // Upload the image to Twitter
-      let media = await twitter.post('media/upload', { media_data: imageData });
+              // Upload the image to Twitter
+              let media = await twitter.post('media/upload', {
+                media_data: imageData,
+              });
+              return media.media_id_string;
+            }
+          })
+        );
 
-      // Post the tweet with the uploaded image
-      tweet = await twitter.post('statuses/update', {
-        status: statusText,
-        media_ids: media.media_id_string, // Pass the media id string
-      });
+        // Post the tweet with the uploaded image(s)
+        tweet = await twitter.post('statuses/update', {
+          status: statusText,
+          media_ids: images.join(','), // Pass the media id string(s)
+        });
+      } else {
+        // There's no image afterall, simple text tweet
+        tweet = await twitter.post('statuses/update', {
+          status: statusText,
+        });
+      }
     } else {
       // Simple text tweet
       tweet = await twitter.post('statuses/update', {
