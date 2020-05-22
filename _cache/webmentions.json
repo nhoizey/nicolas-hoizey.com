@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-05-22T12:05:39.614Z",
+  "lastFetched": "2020-05-22T22:58:22.701Z",
   "webmentions": [
     {
       "type": "entry",
@@ -53462,6 +53462,24 @@
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1263502659102924800/1099700156562321415",
       "wm-target": "https://nicolas-hoizey.com/links/2020/05/21/the-cost-of-javascript-frameworks/",
       "like-of": "https://nicolas-hoizey.com/links/2020/05/21/the-cost-of-javascript-frameworks/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Arnaud Ligny 👨‍💻 💡 🚀",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/afdaad5e58f3f5186fe0155018d61b5726714e5d79f20fcf93c85a19edd512b4.jpg",
+        "url": "https://twitter.com/ArnaudLigny"
+      },
+      "url": "https://twitter.com/nhoizey/status/1263847280060387328#favorited-by-155551263",
+      "published": null,
+      "wm-received": "2020-05-22T15:34:28Z",
+      "wm-id": 800374,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1263847280060387328/155551263",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/05/22/2/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/05/22/2/",
       "wm-property": "like-of",
       "wm-private": false
     }
