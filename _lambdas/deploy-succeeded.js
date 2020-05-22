@@ -1,3 +1,6 @@
+// Heavily inspired from
+// https://mxb.dev/blog/syndicating-content-to-twitter-with-netlify-functions/
+
 import fetch from 'node-fetch';
 import dotenv from 'dotenv';
 import Twitter from 'twitter';
