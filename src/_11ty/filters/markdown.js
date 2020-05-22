@@ -1,8 +1,10 @@
 const twitter = require('twitter-text');
 const slugifyString = require('../../_utils/slugify');
 const path = require('path');
+const Entities = require('html-entities').AllHtmlEntities;
+const entities = new Entities();
 
-const MARKDOWN_IMAGE_REGEX = /!\[([^\]]+)\]\(([^\) ]+)( [^\)]+)?\)({.[^}]+})?/g;
+const MARKDOWN_IMAGE_REGEX = /!\[([^\]]*)\]\(([^\) ]+)( [^\)]+)?\)({.[^}]+})?/g;
 
 function htmlEntities(str) {
   // https://css-tricks.com/snippets/javascript/htmlentities-for-javascript/
@@ -52,24 +54,9 @@ const tweetRemoveImage = (tweet) => {
   return tweet;
 };
 
-const tweetImageToHtml = (tweet, url) => {
-  // replace markdown images with HTML image
-  tweet = tweet.replace(
-    MARKDOWN_IMAGE_REGEX,
-    `<img src="${url}$2" style="max-width: 100%" />`
-  );
-  return tweet;
-};
-
-const tweetImageToLink = (tweet, url) => {
-  // replace images with links
-  tweet = tweet.replace(MARKDOWN_IMAGE_REGEX, `🖼 <a href="${url}$2">image</a>`);
-  return tweet;
-};
-
 const tweetLinks = (tweet) => {
-  // deal with links
-  tweet = tweet.replace(/\[([^\]]+)\]\(([^\)]+)\)/g, '$1 ( $2 )');
+  // only keep the links text
+  tweet = tweet.replace(/\[([^\]]+)\]\(([^\)]+)\)/g, '$1');
   return tweet;
 };
 
@@ -113,8 +100,14 @@ module.exports = {
     tweet = tweetStrike(tweet);
 
     tweet = tweet.replace(/"/gm, '\\"');
+
+    tweet = entities.decode(tweet);
+
+    // Notrmalize linee feeds
     tweet = tweet.replace(/\n/gm, '\\n');
-    // tweet = tweet.replace(/(\n){3,}/gm, '\\n\\n');
+    tweet = tweet.replace(/(\\n){3,}/gm, '\\n\\n');
+    tweet = tweet.replace(/^(\\n)*/gm, '');
+    tweet = tweet.replace(/(\\n)*$/gm, '');
 
     return tweet;
   },
