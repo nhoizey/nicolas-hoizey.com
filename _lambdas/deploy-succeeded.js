@@ -79,7 +79,7 @@ const publishItem = async (item) => {
         let uploadedImages = await Promise.all(
           imagesAttachments.map(async (attachment) => {
             // Get the image as a base64 string
-            let imageBuffer = await getBuffer(item.attachments[0].url);
+            let imageBuffer = await getBuffer(attachment.url);
             let imageData = await imageBuffer.toString('base64');
 
             // Upload the image to Twitter
