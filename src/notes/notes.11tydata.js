@@ -3,7 +3,6 @@ const twitter = require('twitter-text');
 module.exports = {
   layout: 'note',
   lang: 'en',
-  permalink: '/notes/{{ page.date | permalinkDate }}/{{ page.fileSlug }}/',
   eleventyComputed: {
     tags: (data) => {
       if (data.content === undefined) {
