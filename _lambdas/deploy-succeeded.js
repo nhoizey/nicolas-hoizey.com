@@ -51,8 +51,8 @@ const processFeed = async (feed) => {
       return publishItem(latestItem);
     } else {
       return status(
-        400,
-        'Latest item was already syndicated. No action taken.'
+        200,
+        'Latest item was already syndicated. No action necessary.'
       );
     }
   } catch (error) {
