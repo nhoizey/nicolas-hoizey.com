@@ -41,6 +41,7 @@ const processFeed = async (feed) => {
   }
 
   // assume the last item is not yet syndicated
+  // TODO: manage multiple items not yet syndicated?
   const latestItem = items[0];
 
   try {
@@ -63,6 +64,7 @@ const processFeed = async (feed) => {
 // Push a new tweet to Twitter
 const publishItem = async (item) => {
   try {
+    // TODO: shorten the status text if it's too long, or let the API call fail (current behavior)
     const statusText = item.content_text;
     let tweet;
 
@@ -110,6 +112,7 @@ const publishItem = async (item) => {
         `Item "${item.title}" successfully posted to Twitter.`
       );
     } else {
+      // TODO: get the actual issue from each call
       return status(422, 'Error posting to Twitter API.');
     }
   } catch (err) {
