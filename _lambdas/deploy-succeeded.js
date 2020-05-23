@@ -19,12 +19,8 @@ const twitter = new Twitter({
 
 // Helper Function to return unknown errors
 const handleError = (error) => {
-  console.error(error);
   const msg = Array.isArray(error) ? error[0].message : error.message;
-  return {
-    statusCode: 422,
-    body: String(msg),
-  };
+  return status(422, String(msg));
 };
 
 // Helper Function to return function status
