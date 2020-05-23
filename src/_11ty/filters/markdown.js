@@ -40,6 +40,7 @@ const tweetHashtagTohandle = (tweet) => {
     '#Rollup': '@RollupJS',
     '#Tailwind': '@tailwindcss',
     '#Unsplash': '@unsplash',
+    '#VSCode': '@code',
     '#Workbox': '@workboxjs',
   };
   for (const tag in handles) {
