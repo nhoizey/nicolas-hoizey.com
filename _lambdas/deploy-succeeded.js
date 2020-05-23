@@ -68,6 +68,7 @@ const processFeed = async (feed) => {
 const publishItem = async (item) => {
   try {
     const statusText = item.content_text;
+    let tweet;
 
     // Check if there's at least one image attachment
     if (item.hasOwnProperty('attachments') && item.attachments.length > 0) {
