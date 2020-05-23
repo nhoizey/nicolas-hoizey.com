@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-05-22T23:48:47.772Z",
+  "lastFetched": "2020-05-23T09:21:34.733Z",
   "webmentions": [
     {
       "type": "entry",
@@ -53480,6 +53480,86 @@
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1263847280060387328/155551263",
       "wm-target": "https://nicolas-hoizey.com/notes/2020/05/22/2/",
       "like-of": "https://nicolas-hoizey.com/notes/2020/05/22/2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Yvain Liechti",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/435b28d6c561faa8ea38ab4a8da6fe3f30bb7ec9d737a75ae1bef9c0201f2e0d.jpg",
+        "url": "https://twitter.com/ryuran78"
+      },
+      "url": "https://twitter.com/ryuran78/status/1264103123469115392",
+      "published": "2020-05-23T07:57:25+00:00",
+      "wm-received": "2020-05-23T08:05:03Z",
+      "wm-id": 800571,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1263987636152172545/1264103123469115392",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/05/23/1/",
+      "photo": [
+        "https://pbs.twimg.com/media/EYqWDbVWAAo93iL.jpg"
+      ],
+      "content": {
+        "content-type": "text/plain",
+        "value": "Every time I update my @code extension, it takes 5 minutes for the code, and 30 minutes to find how to renew my Personal Access Token on one",
+        "text": "Every time I update my @code extension, it takes 5 minutes for the code, and 30 minutes to find how to renew my Personal Access Token on one"
+      },
+      "repost-of": "https://nicolas-hoizey.com/notes/2020/05/23/1/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Yvain Liechti",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/435b28d6c561faa8ea38ab4a8da6fe3f30bb7ec9d737a75ae1bef9c0201f2e0d.jpg",
+        "url": "https://twitter.com/ryuran78"
+      },
+      "url": "https://twitter.com/nhoizey/status/1263987636152172545#favorited-by-79130645",
+      "published": null,
+      "wm-received": "2020-05-23T08:05:01Z",
+      "wm-id": 800569,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1263987636152172545/79130645",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/05/23/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/05/23/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "m4dz",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/77cffe02fd7dc6e59f33129df7d8cd1e701d0dfb11e187ee7328ef17b268a26b.jpg",
+        "url": "https://twitter.com/m4d_z"
+      },
+      "url": "https://twitter.com/nhoizey/status/1263987636152172545#favorited-by-81091261",
+      "published": null,
+      "wm-received": "2020-05-23T08:05:01Z",
+      "wm-id": 800568,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1263987636152172545/81091261",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/05/23/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/05/23/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Guillaume Dumoulin",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/bce3f149de3f930ec19c45c5aa89ee5af52521eae65187c3cfa7cd4197a73e5c.jpg",
+        "url": "https://twitter.com/Frulko"
+      },
+      "url": "https://twitter.com/nhoizey/status/1263987636152172545#favorited-by-133031018",
+      "published": null,
+      "wm-received": "2020-05-23T08:05:03Z",
+      "wm-id": 800570,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1263987636152172545/133031018",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/05/23/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/05/23/1/",
       "wm-property": "like-of",
       "wm-private": false
     }
