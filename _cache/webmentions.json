@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-05-23T09:21:34.733Z",
+  "lastFetched": "2020-05-24T01:26:30.224Z",
   "webmentions": [
     {
       "type": "entry",
@@ -53469,6 +53469,222 @@
       "type": "entry",
       "author": {
         "type": "card",
+        "name": "antoine 📙",
+        "photo": "https://webmention.io/avatar/mamot.fr/7030d735854d89ac7165be4fe2326895f4791f039cfa9eb88196d2d78afe706d.jpg",
+        "url": "https://mamot.fr/@antoinentl"
+      },
+      "url": "https://mamot.fr/@antoinentl/104212178299420307",
+      "published": "2020-05-22T12:47:26",
+      "wm-received": "2020-05-23T13:46:59Z",
+      "wm-id": 800624,
+      "wm-source": "https://brid-gy.appspot.com/comment/mastodon/@nhoizey@mamot.fr/104212075302973447/104212178299420307",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/05/22/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "<p><span class=\"h-card\"><a href=\"https://mamot.fr/@nhoizey\" class=\"u-url\">@<span>nhoizey</span></a></span> Great dissemination of the idea of `&lt;mark&gt;`: <span class=\"h-card\"><a href=\"https://mamot.fr/@loupbrun\" class=\"u-url\">@<span>loupbrun</span></a></span> &gt; <span class=\"h-card\"><a href=\"https://mastodon.social/@dav\" class=\"u-url\">@<span>dav</span></a></span> &gt; <span class=\"h-card\"><a href=\"https://mamot.fr/@nhoizey\" class=\"u-url\">@<span>nhoizey</span></a></span> 👍</p>",
+        "html": "<a href=\"https://mamot.fr/@nhoizey\">@nhoizey</a> Great dissemination of the idea of `&lt;mark&gt;`: <a href=\"https://mamot.fr/@loupbrun\">@loupbrun</a> &gt; <a href=\"https://mastodon.social/@dav\">@dav</a> &gt; <a href=\"https://mamot.fr/@nhoizey\">@nhoizey</a> 👍",
+        "text": "@nhoizey Great dissemination of the idea of `<mark>`: @loupbrun > @dav > @nhoizey 👍"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/05/22/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "David Larlet ✅",
+        "photo": "https://webmention.io/avatar/mamot.fr/9725241346c341bd65c1bc9ccb17ef8783725a0e6268a14672e18f7e5abad436.jpg",
+        "url": "https://mastodon.social/@dav"
+      },
+      "url": "https://mastodon.social/@dav/104212199351664542",
+      "published": "2020-05-22T12:52:47",
+      "wm-received": "2020-05-23T13:47:02Z",
+      "wm-id": 800626,
+      "wm-source": "https://brid-gy.appspot.com/comment/mastodon/@nhoizey@mamot.fr/104212075302973447/104212199372091252",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/05/22/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "<p><span class=\"h-card\"><a href=\"https://mamot.fr/@antoinentl\" class=\"u-url\">@<span>antoinentl</span></a></span> <span class=\"h-card\"><a href=\"https://mamot.fr/@nhoizey\" class=\"u-url\">@<span>nhoizey</span></a></span> <span class=\"h-card\"><a href=\"https://mamot.fr/@loupbrun\" class=\"u-url\">@<span>loupbrun</span></a></span> à ce sujet, iA (writer) propose le `==` comme syntaxe pour `&lt;mark&gt;`, j'hésite à l'ajouter à Mistune en extension pour m'en servir et avoir aussi la coloration dans l'éditeur. En tout cas c'est dans l'air du temps :)</p><p><a href=\"https://ia.net/writer/blog/new-pdf-preview-better-web-publishing-improved-editing\"><span>https://</span><span>ia.net/writer/blog/new-pdf-pre</span><span>view-better-web-publishing-improved-editing</span></a></p>\n<a href=\"https://ia.net/writer/blog/new-pdf-preview-better-web-publishing-improved-editing\">New PDF Preview, Better Web Publishing, Improved Editing - iA Writer: The Focused Writing App</a>",
+        "html": "<a href=\"https://mamot.fr/@antoinentl\">@antoinentl</a> <a href=\"https://mamot.fr/@nhoizey\">@nhoizey</a> <a href=\"https://mamot.fr/@loupbrun\">@loupbrun</a> à ce sujet, iA (writer) propose le `==` comme syntaxe pour `&lt;mark&gt;`, j'hésite à l'ajouter à Mistune en extension pour m'en servir et avoir aussi la coloration dans l'éditeur. En tout cas c'est dans l'air du temps :)<a href=\"https://ia.net/writer/blog/new-pdf-preview-better-web-publishing-improved-editing\">https://ia.net/writer/blog/new-pdf-preview-better-web-publishing-improved-editing</a><br /><a href=\"https://ia.net/writer/blog/new-pdf-preview-better-web-publishing-improved-editing\">New PDF Preview, Better Web Publishing, Improved Editing - iA Writer: The Focused Writing App</a>",
+        "text": "@antoinentl @nhoizey @loupbrun à ce sujet, iA (writer) propose le `==` comme syntaxe pour `<mark>`, j'hésite à l'ajouter à Mistune en extension pour m'en servir et avoir aussi la coloration dans l'éditeur. En tout cas c'est dans l'air du temps :)https://ia.net/writer/blog/new-pdf-preview-better-web-publishing-improved-editing\nNew PDF Preview, Better Web Publishing, Improved Editing - iA Writer: The Focused Writing App"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/05/22/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "antoine 📙",
+        "photo": "https://webmention.io/avatar/mamot.fr/7030d735854d89ac7165be4fe2326895f4791f039cfa9eb88196d2d78afe706d.jpg",
+        "url": "https://mamot.fr/@antoinentl"
+      },
+      "url": "https://mamot.fr/@antoinentl/104212209906260477",
+      "published": "2020-05-22T12:55:28",
+      "wm-received": "2020-05-23T13:47:01Z",
+      "wm-id": 800625,
+      "wm-source": "https://brid-gy.appspot.com/comment/mastodon/@nhoizey@mamot.fr/104212075302973447/104212209906260477",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/05/22/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "<p><span class=\"h-card\"><a href=\"https://mastodon.social/@dav\" class=\"u-url\">@<span>dav</span></a></span> <span class=\"h-card\"><a href=\"https://mamot.fr/@nhoizey\" class=\"u-url\">@<span>nhoizey</span></a></span> <span class=\"h-card\"><a href=\"https://mamot.fr/@loupbrun\" class=\"u-url\">@<span>loupbrun</span></a></span> Oh je découvre Mistune ! Ou alors carrément le proposer à Commonmark ? 🙃 Ça fait sens `==` !</p>",
+        "html": "<a href=\"https://mastodon.social/@dav\">@dav</a> <a href=\"https://mamot.fr/@nhoizey\">@nhoizey</a> <a href=\"https://mamot.fr/@loupbrun\">@loupbrun</a> Oh je découvre Mistune ! Ou alors carrément le proposer à Commonmark ? 🙃 Ça fait sens `==` !",
+        "text": "@dav @nhoizey @loupbrun Oh je découvre Mistune ! Ou alors carrément le proposer à Commonmark ? 🙃 Ça fait sens `==` !"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/05/22/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "David Larlet ✅",
+        "photo": "https://webmention.io/avatar/mamot.fr/9725241346c341bd65c1bc9ccb17ef8783725a0e6268a14672e18f7e5abad436.jpg",
+        "url": "https://mastodon.social/@dav"
+      },
+      "url": "https://mastodon.social/@dav/104212213869519949",
+      "published": "2020-05-22T12:56:29",
+      "wm-received": "2020-05-23T13:47:20Z",
+      "wm-id": 800628,
+      "wm-source": "https://brid-gy.appspot.com/comment/mastodon/@nhoizey@mamot.fr/104212075302973447/104212213886968334",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/05/22/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "<p><span class=\"h-card\"><a href=\"https://mamot.fr/@antoinentl\" class=\"u-url\">@<span>antoinentl</span></a></span> <span class=\"h-card\"><a href=\"https://mamot.fr/@nhoizey\" class=\"u-url\">@<span>nhoizey</span></a></span> <span class=\"h-card\"><a href=\"https://mamot.fr/@loupbrun\" class=\"u-url\">@<span>loupbrun</span></a></span> l'usage créera/fera évoluer le standard, ça marche rarement dans l'autre sens quand on n'est pas un GAFAM+ 😇</p>",
+        "html": "<a href=\"https://mamot.fr/@antoinentl\">@antoinentl</a> <a href=\"https://mamot.fr/@nhoizey\">@nhoizey</a> <a href=\"https://mamot.fr/@loupbrun\">@loupbrun</a> l'usage créera/fera évoluer le standard, ça marche rarement dans l'autre sens quand on n'est pas un GAFAM+ 😇",
+        "text": "@antoinentl @nhoizey @loupbrun l'usage créera/fera évoluer le standard, ça marche rarement dans l'autre sens quand on n'est pas un GAFAM+ 😇"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/05/22/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Louis-Olivier Brassard",
+        "photo": "https://webmention.io/avatar/mamot.fr/6bb0843b3bce78aa1583c8e1be07e2e7cf990b6e9b227be5064e9a37dadb1e3c.jpg",
+        "url": "https://mamot.fr/@loupbrun"
+      },
+      "url": "https://mamot.fr/@loupbrun/104212868341976835",
+      "published": "2020-05-22T15:42:55",
+      "wm-received": "2020-05-23T13:47:20Z",
+      "wm-id": 800627,
+      "wm-source": "https://brid-gy.appspot.com/comment/mastodon/@nhoizey@mamot.fr/104212075302973447/104212868341976835",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/05/22/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "<p><span class=\"h-card\"><a href=\"https://mastodon.social/@dav\" class=\"u-url\">@<span>dav</span></a></span> <span class=\"h-card\"><a href=\"https://mamot.fr/@antoinentl\" class=\"u-url\">@<span>antoinentl</span></a></span> <span class=\"h-card\"><a href=\"https://mamot.fr/@nhoizey\" class=\"u-url\">@<span>nhoizey</span></a></span> <br />Depuis longtemps que je rêve du standard == pour &lt;mark&gt;… Je l’utilisais dans Typora en 2016-17, mais peu de générateurs MD/HTML l’acceptant, je suis donc revenu au bon vieux &lt;mark&gt;.</p>",
+        "html": "<a href=\"https://mastodon.social/@dav\">@dav</a> <a href=\"https://mamot.fr/@antoinentl\">@antoinentl</a> <a href=\"https://mamot.fr/@nhoizey\">@nhoizey</a> <br />Depuis longtemps que je rêve du standard == pour &lt;mark&gt;… Je l’utilisais dans Typora en 2016-17, mais peu de générateurs MD/HTML l’acceptant, je suis donc revenu au bon vieux &lt;mark&gt;.",
+        "text": "@dav @antoinentl @nhoizey \nDepuis longtemps que je rêve du standard == pour <mark>… Je l’utilisais dans Typora en 2016-17, mais peu de générateurs MD/HTML l’acceptant, je suis donc revenu au bon vieux <mark>."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/05/22/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Louis-Olivier Brassard",
+        "photo": "https://webmention.io/avatar/mamot.fr/6bb0843b3bce78aa1583c8e1be07e2e7cf990b6e9b227be5064e9a37dadb1e3c.jpg",
+        "url": "https://mamot.fr/@loupbrun"
+      },
+      "url": "https://mamot.fr/@loupbrun/104212870390608763",
+      "published": "2020-05-22T15:43:26",
+      "wm-received": "2020-05-23T13:47:24Z",
+      "wm-id": 800630,
+      "wm-source": "https://brid-gy.appspot.com/comment/mastodon/@nhoizey@mamot.fr/104212075302973447/104212870390608763",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/05/22/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "<p><span class=\"h-card\"><a href=\"https://mamot.fr/@antoinentl\" class=\"u-url\">@<span>antoinentl</span></a></span> <span class=\"h-card\"><a href=\"https://mastodon.social/@dav\" class=\"u-url\">@<span>dav</span></a></span> +1 pour la spec Commonmark!</p><p>Je vais ouvrir une issue.</p>",
+        "html": "<a href=\"https://mamot.fr/@antoinentl\">@antoinentl</a> <a href=\"https://mastodon.social/@dav\">@dav</a> +1 pour la spec Commonmark!Je vais ouvrir une issue.",
+        "text": "@antoinentl @dav +1 pour la spec Commonmark!Je vais ouvrir une issue."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/05/22/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "antoine 📙",
+        "photo": "https://webmention.io/avatar/mamot.fr/7030d735854d89ac7165be4fe2326895f4791f039cfa9eb88196d2d78afe706d.jpg",
+        "url": "https://mamot.fr/@antoinentl"
+      },
+      "url": "https://mamot.fr/@antoinentl/104213036913338041",
+      "published": "2020-05-22T16:25:47",
+      "wm-received": "2020-05-23T13:47:26Z",
+      "wm-id": 800631,
+      "wm-source": "https://brid-gy.appspot.com/comment/mastodon/@nhoizey@mamot.fr/104212075302973447/104213036913338041",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/05/22/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "<p><span class=\"h-card\"><a href=\"https://mamot.fr/@loupbrun\" class=\"u-url\">@<span>loupbrun</span></a></span> <span class=\"h-card\"><a href=\"https://mastodon.social/@dav\" class=\"u-url\">@<span>dav</span></a></span> Ah tu es plus rapide que moi ! J'ai commencé à regarder si des propositions avaient déjà été faites mais pour le moment je n'ai rien trouvé.</p>",
+        "html": "<a href=\"https://mamot.fr/@loupbrun\">@loupbrun</a> <a href=\"https://mastodon.social/@dav\">@dav</a> Ah tu es plus rapide que moi ! J'ai commencé à regarder si des propositions avaient déjà été faites mais pour le moment je n'ai rien trouvé.",
+        "text": "@loupbrun @dav Ah tu es plus rapide que moi ! J'ai commencé à regarder si des propositions avaient déjà été faites mais pour le moment je n'ai rien trouvé."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/05/22/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/mamot.fr/5fa24c7dbcb46640e1137d65e156fbcb15bc2e3759135ed7481ae94ace2e80fb.jpg",
+        "url": "https://mamot.fr/@nhoizey"
+      },
+      "url": "https://mamot.fr/@nhoizey/104213124973679480",
+      "published": "2020-05-22T16:48:11",
+      "wm-received": "2020-05-23T13:47:27Z",
+      "wm-id": 800632,
+      "wm-source": "https://brid-gy.appspot.com/comment/mastodon/@nhoizey@mamot.fr/104212075302973447/104213124973679480",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/05/22/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "<p><span class=\"h-card\"><a href=\"https://mamot.fr/@antoinentl\" class=\"u-url\">@<span>antoinentl</span></a></span> <span class=\"h-card\"><a href=\"https://mastodon.social/@dav\" class=\"u-url\">@<span>dav</span></a></span> <span class=\"h-card\"><a href=\"https://mamot.fr/@loupbrun\" class=\"u-url\">@<span>loupbrun</span></a></span> je trouve pas cette notation super intuitive, pour ma part… 🤔</p>",
+        "html": "<a href=\"https://mamot.fr/@antoinentl\">@antoinentl</a> <a href=\"https://mastodon.social/@dav\">@dav</a> <a href=\"https://mamot.fr/@loupbrun\">@loupbrun</a> je trouve pas cette notation super intuitive, pour ma part… 🤔",
+        "text": "@antoinentl @dav @loupbrun je trouve pas cette notation super intuitive, pour ma part… 🤔"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/05/22/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/mamot.fr/5fa24c7dbcb46640e1137d65e156fbcb15bc2e3759135ed7481ae94ace2e80fb.jpg",
+        "url": "https://mamot.fr/@nhoizey"
+      },
+      "url": "https://mamot.fr/@nhoizey/104213137813158947",
+      "published": "2020-05-22T16:51:27",
+      "wm-received": "2020-05-23T13:47:23Z",
+      "wm-id": 800629,
+      "wm-source": "https://brid-gy.appspot.com/comment/mastodon/@nhoizey@mamot.fr/104212075302973447/104213137813158947",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/05/22/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "<p><span class=\"h-card\"><a href=\"https://mastodon.social/@dav\" class=\"u-url\">@<span>dav</span></a></span> <span class=\"h-card\"><a href=\"https://mamot.fr/@antoinentl\" class=\"u-url\">@<span>antoinentl</span></a></span> <span class=\"h-card\"><a href=\"https://mamot.fr/@loupbrun\" class=\"u-url\">@<span>loupbrun</span></a></span> demander l’ajout de quoi que ce soit dans CommonMark, faut s’accrocher.</p>",
+        "html": "<a href=\"https://mastodon.social/@dav\">@dav</a> <a href=\"https://mamot.fr/@antoinentl\">@antoinentl</a> <a href=\"https://mamot.fr/@loupbrun\">@loupbrun</a> demander l’ajout de quoi que ce soit dans CommonMark, faut s’accrocher.",
+        "text": "@dav @antoinentl @loupbrun demander l’ajout de quoi que ce soit dans CommonMark, faut s’accrocher."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/05/22/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
         "name": "Arnaud Ligny 👨‍💻 💡 🚀",
         "photo": "https://webmention.io/avatar/pbs.twimg.com/afdaad5e58f3f5186fe0155018d61b5726714e5d79f20fcf93c85a19edd512b4.jpg",
         "url": "https://twitter.com/ArnaudLigny"
@@ -53560,6 +53776,24 @@
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1263987636152172545/133031018",
       "wm-target": "https://nicolas-hoizey.com/notes/2020/05/23/1/",
       "like-of": "https://nicolas-hoizey.com/notes/2020/05/23/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "David Larlet ✅",
+        "photo": "https://webmention.io/avatar/mamot.fr/9725241346c341bd65c1bc9ccb17ef8783725a0e6268a14672e18f7e5abad436.jpg",
+        "url": "https://mastodon.social/@dav"
+      },
+      "url": "https://mamot.fr/@nhoizey/104217052540813529#favorited-by-506",
+      "published": null,
+      "wm-received": "2020-05-23T13:46:59Z",
+      "wm-id": 800623,
+      "wm-source": "https://brid-gy.appspot.com/like/mastodon/@nhoizey@mamot.fr/104217052540813529/506",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/05/23/2/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/05/23/2/",
       "wm-property": "like-of",
       "wm-private": false
     }
