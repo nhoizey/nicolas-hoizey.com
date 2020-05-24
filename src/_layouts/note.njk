@@ -46,7 +46,7 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
 <article
     class="main clearfix h-entry"
     lang="{{ lang }}">
-
+  <h1>Note from {{ page.date | date("Do MMMM YYYY") }}</h1>
   <div class="e-content">{{ content | noteToHtml | safe }}</div>
 
   {% from "macros/meta.njk" import meta %}
