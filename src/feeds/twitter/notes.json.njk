@@ -13,7 +13,7 @@ permalink: /feeds/twitter/notes.json
     {
       "id": "{{ absoluteEntryUrl }}",
       "url": "https://nho.io/n/{{ entry.url | replace('/notes/', '') }}",
-      "title": "💬 Note from {{ entry.date | date("Do MMMM YYYY") }}",
+      "title": "💬 Note from {{ entry.date | date("Do MMMM YYYY [at] H:mm:ss") }}",
       "date_published": "{{ entry.date | rssDate }}",
       "content_text": "{{ entry.data.rawContent | noteToTweet(absoluteEntryUrl) | safe }}\n\nhttps://nho.io/n/{{ entry.url | replace("/notes/", "") }}",
       "attachments": {{ entry.data.rawContent | imagesAsAttachments(absoluteEntryUrl) | safe }}      

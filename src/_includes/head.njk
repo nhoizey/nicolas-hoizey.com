@@ -44,7 +44,7 @@
     {% set ogDescription = pkg.description %}
     <title itemprop="name">{{ ogTitle }}</title>
   {% elif layout == "note" %}
-    {% set ogTitle %}Note from {{ page.date | date("Do MMMM YYYY") }}{% endset %}
+    {% set ogTitle %}Note from {{ page.date | date("Do MMMM YYYY [at] H:mm:ss") }}{% endset %}
     {% set ogDescription = pageExcerpt | striptags | truncate(290) | escape %}
     {% set ogType = "article" %}
     <title>{{ ogTitle }} - {{ pkg.author.name }}</title>

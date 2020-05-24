@@ -16,7 +16,7 @@ permalink: /feeds/all.xml
   </author>
   {% for entry in collections.contents | limit(50) %}
     {% set absoluteEntryUrl %}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{% endset %}
-    {% set readableDate = entry.date | date("Do MMMM YYYY") %}
+    {% set readableDate = entry.date | date("Do MMMM YYYY [at] H:mm:ss") %}
     {% set icon %}
       {% if entry.data.layout == 'article' %}🖋{% endif %}
       {% if entry.data.layout == 'link' %}🔗{% endif %}

@@ -17,7 +17,7 @@ permalink: /feeds/notes.xml
   {% for entry in collections.notes | limit(50) %}
     {% set absoluteEntryUrl %}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{% endset %}
     <entry>
-      <title>💬 Note from {{ entry.date | date("Do MMMM YYYY") }}</title>
+      <title>💬 Note from {{ entry.date | date("Do MMMM YYYY [at] H:mm:ss") }}</title>
       <link href="{{ absoluteEntryUrl }}"/>
       <updated>{{ entry.date | rssDate }}</updated>
       <id>{{ absoluteEntryUrl }}</id>
