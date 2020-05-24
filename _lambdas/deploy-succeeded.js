@@ -122,6 +122,7 @@ const publishItem = async (item) => {
 
 // Main Lambda Function Handler
 export async function handler(event, context) {
+  // TODO: use Promise.allSettled to continue even if one is rejected
   let result = await Promise.all(
     [
       'https://nicolas-hoizey.com/feeds/twitter/links.json',
