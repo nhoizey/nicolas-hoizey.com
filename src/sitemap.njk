@@ -5,14 +5,16 @@ eleventyExcludeFromCollections: true
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {% for page in collections.all %}
-    <url>
-      <loc>{{ pkg.homepage }}{{ page.url | url }}</loc>
-      <lastmod>{{ page.date.toISOString() }}</lastmod>
-      {% if page.url | split('/') | length == 7 %}
-        <changefreq>weekly</changefreq>
-      {% else %}
-        <changefreq>daily</changefreq>
-      {% endif %}
-    </url>
+    {%- if page.data.layout == 'article' or page.data.layout == 'link' or page.data.layout == 'note' -%}
+      <url>
+        <loc>{{ pkg.homepage }}{{ page.url | url }}</loc>
+        <lastmod>{{ page.date.toISOString() }}</lastmod>
+        {% if page.url | split('/') | length == 7 %}
+          <changefreq>weekly</changefreq>
+        {% else %}
+          <changefreq>daily</changefreq>
+        {% endif %}
+      </url>
+    {%- endif -%}
   {% endfor %}
 </urlset>
