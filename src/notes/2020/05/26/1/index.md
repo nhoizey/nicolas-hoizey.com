@@ -5,14 +5,14 @@ tags: [Apple, UX, fail]
 
 If <del>iTunes</del>Music plays in the background, there is a media control key in the Touch Bar.
 
-![](touch-bar-media-control-key.png)
+![Screenshot of the Touch Bar with media control key highlighted](touch-bar-media-control-key.png)
 
 This key shows the media controls.
 
-![](touch-bar-media-control.png)
+![Screenshot of the Touch Bar with media controls highlighted](touch-bar-media-control.png)
 
 When Music is in focus, there is another Touch Bar.
 
-![](touch-bar-music.png)
+![Screenshot of the Touch Bar with Music app controls highlighted](touch-bar-music.png)
 
 The control keys and the progress bar are inverted! 🤦‍♂️
