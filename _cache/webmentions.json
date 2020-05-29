@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-05-29T00:01:37.880Z",
+  "lastFetched": "2020-05-29T20:57:23.591Z",
   "webmentions": [
     {
       "type": "entry",
@@ -53932,6 +53932,136 @@
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1265768496614576128/133031018",
       "wm-target": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
       "like-of": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Cédric G. / effi10",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/8a11c7b34d8bc7208fb1b3864e56bf1db9a20984b18383eea779949abc3b9ea4.jpg",
+        "url": "https://twitter.com/effi_10"
+      },
+      "url": "https://twitter.com/effi_10/status/1266260919169892353",
+      "published": "2020-05-29T06:51:43+00:00",
+      "wm-received": "2020-05-29T07:36:58Z",
+      "wm-id": 803135,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1266113610583064581/1266260919169892353",
+      "wm-target": "https://nicolas-hoizey.com/talks/2018/03/28/quelques-solutions-facilitant-la-bonne-mise-en-oeuvre-des-images-responsives/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Très bon lien, merci !\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "Très bon lien, merci !",
+        "text": "Très bon lien, merci !"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/talks/2018/03/28/quelques-solutions-facilitant-la-bonne-mise-en-oeuvre-des-images-responsives/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1266264663005622277",
+      "published": "2020-05-29T07:06:36+00:00",
+      "wm-received": "2020-05-29T07:36:58Z",
+      "wm-id": 803136,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1266113610583064581/1266264663005622277",
+      "wm-target": "https://nicolas-hoizey.com/talks/2018/03/28/quelques-solutions-facilitant-la-bonne-mise-en-oeuvre-des-images-responsives/",
+      "content": {
+        "content-type": "text/html",
+        "value": "De rien !\n<a class=\"u-mention\" href=\"https://twitter.com/effi_10\"></a>",
+        "html": "De rien !",
+        "text": "De rien !"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/talks/2018/03/28/quelques-solutions-facilitant-la-bonne-mise-en-oeuvre-des-images-responsives/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Cédric G. / effi10",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/8a11c7b34d8bc7208fb1b3864e56bf1db9a20984b18383eea779949abc3b9ea4.jpg",
+        "url": "https://twitter.com/effi_10"
+      },
+      "url": "https://twitter.com/nhoizey/status/1266113610583064581#favorited-by-524390539",
+      "published": null,
+      "wm-received": "2020-05-29T07:37:01Z",
+      "wm-id": 803137,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1266113610583064581/524390539",
+      "wm-target": "https://nicolas-hoizey.com/talks/2018/03/28/quelques-solutions-facilitant-la-bonne-mise-en-oeuvre-des-images-responsives/",
+      "like-of": "https://nicolas-hoizey.com/talks/2018/03/28/quelques-solutions-facilitant-la-bonne-mise-en-oeuvre-des-images-responsives/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Patidou",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/3aa011a261ffb89db68f862deb4475f8639eb66915ccb36de9447e7b7e39387e.jpg",
+        "url": "https://twitter.com/gloupgloup"
+      },
+      "url": "https://twitter.com/gloupgloup/status/1266323422277251072",
+      "published": "2020-05-29T11:00:05+00:00",
+      "wm-received": "2020-05-29T12:29:54Z",
+      "wm-id": 803197,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1266277014866030594/1266323422277251072",
+      "wm-target": "https://nicolas-hoizey.com/articles/2020/05/29/identify-which-apache-rewrite-rules-are-used/",
+      "content": {
+        "content-type": "text/plain",
+        "value": "🖋 \"Identify which Apache rewrite rules are used\"\n\n#Apache #shell\n\nnho.io/a/2020/05/29/i…",
+        "text": "🖋 \"Identify which Apache rewrite rules are used\"\n\n#Apache #shell\n\nnho.io/a/2020/05/29/i…"
+      },
+      "repost-of": "https://nicolas-hoizey.com/articles/2020/05/29/identify-which-apache-rewrite-rules-are-used/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Arnaud Ligny 👨‍💻 💡 🚀",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/afdaad5e58f3f5186fe0155018d61b5726714e5d79f20fcf93c85a19edd512b4.jpg",
+        "url": "https://twitter.com/ArnaudLigny"
+      },
+      "url": "https://twitter.com/ArnaudLigny/status/1266337329536475137",
+      "published": "2020-05-29T11:55:21+00:00",
+      "wm-received": "2020-05-29T12:29:52Z",
+      "wm-id": 803196,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1266277014866030594/1266337329536475137",
+      "wm-target": "https://nicolas-hoizey.com/articles/2020/05/29/identify-which-apache-rewrite-rules-are-used/",
+      "content": {
+        "content-type": "text/plain",
+        "value": "🖋 \"Identify which Apache rewrite rules are used\"\n\n#Apache #shell\n\nnho.io/a/2020/05/29/i…",
+        "text": "🖋 \"Identify which Apache rewrite rules are used\"\n\n#Apache #shell\n\nnho.io/a/2020/05/29/i…"
+      },
+      "repost-of": "https://nicolas-hoizey.com/articles/2020/05/29/identify-which-apache-rewrite-rules-are-used/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Arnaud Ligny 👨‍💻 💡 🚀",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/afdaad5e58f3f5186fe0155018d61b5726714e5d79f20fcf93c85a19edd512b4.jpg",
+        "url": "https://twitter.com/ArnaudLigny"
+      },
+      "url": "https://twitter.com/nhoizey/status/1266277014866030594#favorited-by-155551263",
+      "published": null,
+      "wm-received": "2020-05-29T19:39:12Z",
+      "wm-id": 803570,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1266277014866030594/155551263",
+      "wm-target": "https://nicolas-hoizey.com/articles/2020/05/29/identify-which-apache-rewrite-rules-are-used/",
+      "like-of": "https://nicolas-hoizey.com/articles/2020/05/29/identify-which-apache-rewrite-rules-are-used/",
       "wm-property": "like-of",
       "wm-private": false
     }
