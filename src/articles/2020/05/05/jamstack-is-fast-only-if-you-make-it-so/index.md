@@ -2,6 +2,7 @@
 title: "JAMstack is fast only if you make it so"
 lang:  en
 tags:  [JAMstack, WebPerf, API, Webmention]
+promoted: true
 --- 
 
 JAMstack is often promoted as a good way to provide performant sites. It's even the first listed benefit on [jamstack.wtf](https://jamstack.wtf/), a "guide [which] gathers the concept of JAMstack in a straight-forward guide to encourage other developers to adopt the workflow". But too many JAMstack sites are very slow.
