@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-05-29T20:57:23.591Z",
+  "lastFetched": "2020-05-30T21:37:56.842Z",
   "webmentions": [
     {
       "type": "entry",
@@ -54051,6 +54051,30 @@
       "type": "entry",
       "author": {
         "type": "card",
+        "name": "nicod_ 🐰🕚",
+        "photo": "https://webmention.io/avatar/mamot.fr/a8a7d029deae09b5c5c9d1fadb977254ec8d79527efac2cd80a2336ee829cc75.png",
+        "url": "https://mamot.fr/@nicod_"
+      },
+      "url": "https://mamot.fr/@nicod_/104253629011282048",
+      "published": "2020-05-29T20:28:54",
+      "wm-received": "2020-05-29T21:11:38Z",
+      "wm-id": 803627,
+      "wm-source": "https://brid-gy.appspot.com/comment/mastodon/@nhoizey@mamot.fr/104250671543739544/104253629011282048",
+      "wm-target": "https://nicolas-hoizey.com/articles/2020/05/29/identify-which-apache-rewrite-rules-are-used/",
+      "content": {
+        "content-type": "text/html",
+        "value": "<p><span class=\"h-card\"><a href=\"https://mamot.fr/@nhoizey\" class=\"u-url\">@<span>nhoizey</span></a></span> Merci, je bookmarke, ça peut servir.</p>",
+        "html": "<a href=\"https://mamot.fr/@nhoizey\">@nhoizey</a> Merci, je bookmarke, ça peut servir.",
+        "text": "@nhoizey Merci, je bookmarke, ça peut servir."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/articles/2020/05/29/identify-which-apache-rewrite-rules-are-used/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
         "name": "Arnaud Ligny 👨‍💻 💡 🚀",
         "photo": "https://webmention.io/avatar/pbs.twimg.com/afdaad5e58f3f5186fe0155018d61b5726714e5d79f20fcf93c85a19edd512b4.jpg",
         "url": "https://twitter.com/ArnaudLigny"
@@ -54063,6 +54087,24 @@
       "wm-target": "https://nicolas-hoizey.com/articles/2020/05/29/identify-which-apache-rewrite-rules-are-used/",
       "like-of": "https://nicolas-hoizey.com/articles/2020/05/29/identify-which-apache-rewrite-rules-are-used/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "nicod_ 🐰🕚",
+        "photo": "https://webmention.io/avatar/mamot.fr/a8a7d029deae09b5c5c9d1fadb977254ec8d79527efac2cd80a2336ee829cc75.png",
+        "url": "https://mamot.fr/@nicod_"
+      },
+      "url": "https://mamot.fr/@nhoizey/104250671543739544#reblogged-by-1492",
+      "published": null,
+      "wm-received": "2020-05-29T21:11:38Z",
+      "wm-id": 803626,
+      "wm-source": "https://brid-gy.appspot.com/repost/mastodon/@nhoizey@mamot.fr/104250671543739544/1492",
+      "wm-target": "https://nicolas-hoizey.com/articles/2020/05/29/identify-which-apache-rewrite-rules-are-used/",
+      "repost-of": "https://nicolas-hoizey.com/articles/2020/05/29/identify-which-apache-rewrite-rules-are-used/",
+      "wm-property": "repost-of",
       "wm-private": false
     }
   ]
