@@ -102,20 +102,20 @@ Here's what I now get:
 'articles/2018/06/users-do-change-font-size/';'articles/2018/06/15/users-do-change-font-size/'
 ```
 
-But with logs for multiple days, I get some identical redirections many times, so I chose to sort them and keep only one of each:
+But with logs for multiple days, I get some identical redirections many times, so I chose to [sort them, keep only one of each, and count their number](https://unix.stackexchange.com/a/263849):
 
 ```bash
-cat apache.log | grep 'nicolas-hoizey.com' | grep "] rewrite '" | sed 's/^.*\] rewrite //' | sed 's/ -> /;/' | sed 's/https:\/\/nicolas-hoizey.com\///' | sort -u
+cat apache.log | grep 'nicolas-hoizey.com' | grep "] rewrite '" | sed 's/^.*\] rewrite //' | sed 's/ -> /;/' | sed 's/https:\/\/nicolas-hoizey.com\///' | sort | uniq -c | sort -nr
 ```
 
 Finally, I chose to put all this in a file for later use:
 
 ```bash
-cat apache.log | grep 'nicolas-hoizey.com' | grep "] rewrite '" | sed 's/^.*\] rewrite //' | sed 's/ -> /;/' | sed 's/https:\/\/nicolas-hoizey.com\///' | sort -u > ~/rewrites.csv
+cat apache.log | grep 'nicolas-hoizey.com' | grep "] rewrite '" | sed 's/^.*\] rewrite //' | sed 's/ -> /;/' | sed 's/https:\/\/nicolas-hoizey.com\///' | sort | uniq -c | sort -nr > ~/rewrites.csv
 ```
 
 I can now run this script, open the `.csv` file in a spreadsheet, and see which of my redirections are still useful.
 
-After less than one single day with the log directive, I already have **181 different redirections** performed. I will wait for a few days, and I'll have to understand which ones are legitimate, and which others I can safely remove.
+After less than one single day with the log directive, I already have 181 different redirections performed. I will wait for a few days (24 hours later, I have **839 different redirections**), and I'll have to understand which ones are legitimate, and which others I can safely remove.
 
 For some of these redirections, the log also contains the referer, so I might be able to fix the URL at the source, like [I just did in the IndieWeb wiki](https://indieweb.org/wiki/index.php?title=Webmention&type=revision&diff=70110&oldid=69713).
