@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-06-01T14:40:42.901Z",
+  "lastFetched": "2020-06-01T23:41:36.207Z",
   "webmentions": [
     {
       "type": "entry",
@@ -54105,6 +54105,105 @@
       "wm-target": "https://nicolas-hoizey.com/articles/2020/05/29/identify-which-apache-rewrite-rules-are-used/",
       "repost-of": "https://nicolas-hoizey.com/articles/2020/05/29/identify-which-apache-rewrite-rules-are-used/",
       "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "A random dev 🏝️",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/93106f36ed691c7e1e4a669370134f265da88866984eba3aa63a245f69885c05.png",
+        "url": "https://twitter.com/ramdom_dev"
+      },
+      "url": "https://twitter.com/ramdom_dev/status/1267574842662039557",
+      "published": "2020-06-01T21:52:47+00:00",
+      "wm-received": "2020-06-01T22:22:54Z",
+      "wm-id": 804889,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1267574052354392064/1267574842662039557",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/01/1/",
+      "photo": [
+        "https://pbs.twimg.com/media/EZdUmPCWkAAzU0P.jpg"
+      ],
+      "content": {
+        "content-type": "text/html",
+        "value": "No issues on my side on chrome + ublockorigin\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/photoshelter\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/ublockorigin\"></a>",
+        "html": "No issues on my side on chrome + ublockorigin",
+        "text": "No issues on my side on chrome + ublockorigin"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/06/01/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoffmann",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/b6ccd529f1a26a908dddff90d90bef7b5eb6ca359e6d71d3bcca49c0e30b2688.jpg",
+        "url": "https://twitter.com/Nico3333fr"
+      },
+      "url": "https://twitter.com/Nico3333fr/status/1267576557230592001",
+      "published": "2020-06-01T21:59:36+00:00",
+      "wm-received": "2020-06-01T22:22:53Z",
+      "wm-id": 804888,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1267574052354392064/1267576557230592001",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/01/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Don’t navigate with uMatrix ;)\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/photoshelter\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/ublockorigin\"></a>",
+        "html": "Don’t navigate with uMatrix ;)",
+        "text": "Don’t navigate with uMatrix ;)"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/06/01/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1267576739351453696",
+      "published": "2020-06-01T22:00:19+00:00",
+      "wm-received": "2020-06-01T22:23:00Z",
+      "wm-id": 804890,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1267574052354392064/1267576739351453696",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/01/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "I don't, indeed… 😜\n<a class=\"u-mention\" href=\"https://twitter.com/Nico3333fr\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/photoshelter\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/ublockorigin\"></a>",
+        "html": "I don't, indeed… 😜",
+        "text": "I don't, indeed… 😜"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/06/01/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mathieu Pillard",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/2a2aaa09871b4a9ef96bbb0942cdaf5051c6d630a2a50b2ac6601256238e7cde.jpg",
+        "url": "https://twitter.com/dioxmat"
+      },
+      "url": "https://twitter.com/dioxmat/status/1267597100335992832",
+      "published": "2020-06-01T23:21:14+00:00",
+      "wm-received": "2020-06-01T23:38:16Z",
+      "wm-id": 804901,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1267574052354392064/1267597100335992832",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/01/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "WFM on Firefox + Ublock Origin, maybe some specific rule configured on your side.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/photoshelter\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/ublockorigin\"></a>",
+        "html": "WFM on Firefox + Ublock Origin, maybe some specific rule configured on your side.",
+        "text": "WFM on Firefox + Ublock Origin, maybe some specific rule configured on your side."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/06/01/1/",
+      "wm-property": "in-reply-to",
       "wm-private": false
     }
   ]
