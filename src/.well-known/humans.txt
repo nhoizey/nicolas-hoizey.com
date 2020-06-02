@@ -28,7 +28,7 @@ Languages:
 
 Technologies:
 - Standards: HTML, CSS, JavaScript
-- Software : Jekyll, Cloudinary, Algolia
+- Software : Eleventy, Cloudinary, Algolia
 - Tools    : VS Code
 - Hosting  : AlwaysData
 - Code     : http://github.com/nhoizey/nicolas-hoizey.com
