@@ -25,7 +25,7 @@
     "lambdas:build": "netlify-lambda build _lambdas",
     "lambdas:call": "netlify functions:invoke --name deploy-succeeded",
     "build": "cross-env NODE_ENV=production npm-run-all --sequential clean assets:build eleventy:build serviceworker",
-    "build:netlify": "cross-env NODE_ENV=production npm-run-all --sequential clean assets:build eleventy:build serviceworker lambdas:build",
+    "build:netlify": "cross-env NODE_ENV=production npm-run-all --sequential build lambdas:build",
     "benchmark:build": "DEBUG=Eleventy:Benchmark* cross-env NODE_ENV=production npm-run-all --sequential clean assets:build eleventy:build serviceworker",
     "debug:build": "DEBUG=Eleventy* npm run build",
     "start": "cross-env NODE_ENV=development npm-run-all --sequential clean --parallel *:watch",
