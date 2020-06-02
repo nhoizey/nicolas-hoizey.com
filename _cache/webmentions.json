@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-06-01T23:41:36.207Z",
+  "lastFetched": "2020-06-02T09:47:57.952Z",
   "webmentions": [
     {
       "type": "entry",
@@ -54201,6 +54201,30 @@
         "value": "WFM on Firefox + Ublock Origin, maybe some specific rule configured on your side.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/photoshelter\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/ublockorigin\"></a>",
         "html": "WFM on Firefox + Ublock Origin, maybe some specific rule configured on your side.",
         "text": "WFM on Firefox + Ublock Origin, maybe some specific rule configured on your side."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/06/01/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1267604422475108353",
+      "published": "2020-06-01T23:50:19+00:00",
+      "wm-received": "2020-06-02T00:46:05Z",
+      "wm-id": 804905,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1267574052354392064/1267604422475108353",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/01/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Really strange then.\n\nMy uBlock blocks resources loading from <a href=\"http://ssl.c.photoshelter.com\">ssl.c.photoshelter.com</a>\n\n<a class=\"u-mention\" href=\"https://twitter.com/dioxmat\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/photoshelter\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/ublockorigin\"></a>",
+        "html": "Really strange then.<br /><br />My uBlock blocks resources loading from <a href=\"http://ssl.c.photoshelter.com\">ssl.c.photoshelter.com</a>",
+        "text": "Really strange then.\n\nMy uBlock blocks resources loading from ssl.c.photoshelter.com"
       },
       "in-reply-to": "https://nicolas-hoizey.com/notes/2020/06/01/1/",
       "wm-property": "in-reply-to",
