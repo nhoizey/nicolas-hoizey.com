@@ -10,14 +10,14 @@ import fs from 'fs';
 import crypto from 'crypto';
 
 // TODO: get these from site config
-const SRC = 'src';
-const DIST = '_site';
+const SRC_DIR = 'assets';
+const DIST_DIR = '_site';
 
-const JS_SRC = path.join(SRC, '_assets/js');
-const JS_DIST = path.join(DIST, 'js');
-const CSS_SRC = path.join(SRC, '_assets/sass');
-const CSS_DIST = path.join(DIST, 'css');
-const HASH = path.join(SRC, '_data');
+const JS_SRC = path.join(SRC_DIR, 'js');
+const JS_DIST = path.join(DIST_DIR, 'js');
+const CSS_SRC = path.join(SRC_DIR, 'sass');
+const CSS_DIST = path.join(DIST_DIR, 'css');
+const HASH = path.join('src/_data');
 
 const createHashedCssFile = function (folder, srcFile, destFile, styles) {
   // Get the 8 first chars of the md5 hash of these styles
@@ -156,7 +156,7 @@ export default [
     plugins: plugins_additional_es,
   },
   {
-    input: 'src/service-worker.js',
+    input: path.join(JS_SRC, 'service-worker.js'),
     plugins: [
       resolve(),
       replace({
@@ -178,7 +178,7 @@ export default [
       terser(),
     ],
     output: {
-      file: '_site/service-worker.js',
+      file: path.join(DIST_DIR, 'service-worker.js'),
       format: 'iife',
     },
   },

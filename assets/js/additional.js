@@ -28,7 +28,7 @@ window.addEventListener('load', () => {
         lazy.innerHTML = html;
       })
       .catch(function (err) {
-        console.warn('Something went wrong.', err);
+        console.warn('Something went wrong with HTML lazyload.', err);
       });
   }
 });

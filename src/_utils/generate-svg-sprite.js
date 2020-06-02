@@ -2,7 +2,7 @@ const svgstore = require('svgstore');
 const fs = require('fs');
 const path = require('path');
 
-const ICONS_FOLDER = 'src/_assets/icons/';
+const ICONS_FOLDER = 'assets/svg-icons/';
 
 let sprite = svgstore({
   svgAttrs: { style: 'display: none;', 'aria-hidden': 'true' },
