@@ -164,6 +164,11 @@ module.exports = function (eleventyConfig) {
   // Eleventy configuration
   // ------------------------------------------------------------------------
 
+  // https://github.com/11ty/eleventy/issues/893#issuecomment-606260541
+  eleventyConfig.setUseGitIgnore(false);
+  eleventyConfig.addWatchTarget("_site/js/");
+  eleventyConfig.addWatchTarget("_site/css/");
+
   eleventyConfig
     .addPassthroughCopy('src/**/*.{jpg,png,gif,kmz,zip,css}')
     .addPassthroughCopy('src/assets')
