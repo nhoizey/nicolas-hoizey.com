@@ -40,7 +40,7 @@
     "@babel/preset-env": "^7.10.2",
     "@jlengstorf/get-share-image": "^0.7.1",
     "@rollup/plugin-node-resolve": "^8.0.0",
-    "@rollup/plugin-replace": "^2.3.2",
+    "@rollup/plugin-replace": "^2.3.3",
     "@sindresorhus/slugify": "~1.0",
     "babel-loader": "^8.1.0",
     "bent": "^7.3.2",
