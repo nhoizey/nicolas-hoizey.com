@@ -27,3 +27,9 @@
 [[redirects]]
   from = "/humans.txt"
   to = "/.well-known/humans.txt"
+
+[[redirects]]
+  from = "/atom.xml"
+  to = "/feeds/articles.xml"
+  status = 301
+  force = true
