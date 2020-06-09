@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-06-02T09:47:57.952Z",
+  "lastFetched": "2020-06-09T07:45:35.243Z",
   "webmentions": [
     {
       "type": "entry",
@@ -54227,6 +54227,405 @@
         "text": "Really strange then.\n\nMy uBlock blocks resources loading from ssl.c.photoshelter.com"
       },
       "in-reply-to": "https://nicolas-hoizey.com/notes/2020/06/01/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jean-Pierre Vincent",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/28a5d3be9d9f0961f8c383b1350241f225f845a5a3e502e9cea86ea5fc7c6448.jpg",
+        "url": "https://twitter.com/theystolemynick"
+      },
+      "url": "https://twitter.com/theystolemynick/status/1267918346663669761",
+      "published": "2020-06-02T20:37:45+00:00",
+      "wm-received": "2020-06-02T21:09:24Z",
+      "wm-id": 805084,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1267854873044934657/1267918346663669761",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/06/02/the-hell-with-dependencies-the-complete-guide-to-killing-local-dev-environments/",
+      "content": {
+        "content-type": "text/html",
+        "value": "bon sang, l'art de trouver de vrais titres … \n(en plus de vraies solutions à de purs problèmes)\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/m4d_z\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "bon sang, l'art de trouver de vrais titres … <br />(en plus de vraies solutions à de purs problèmes)",
+        "text": "bon sang, l'art de trouver de vrais titres … \n(en plus de vraies solutions à de purs problèmes)"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/06/02/the-hell-with-dependencies-the-complete-guide-to-killing-local-dev-environments/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1267918952828743683",
+      "published": "2020-06-02T20:40:09+00:00",
+      "wm-received": "2020-06-02T21:09:23Z",
+      "wm-id": 805083,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1267854873044934657/1267918952828743683",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/06/02/the-hell-with-dependencies-the-complete-guide-to-killing-local-dev-environments/",
+      "content": {
+        "content-type": "text/html",
+        "value": "🤣\n<a class=\"u-mention\" href=\"https://twitter.com/m4d_z\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/theystolemynick\"></a>",
+        "html": "🤣",
+        "text": "🤣"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/06/02/the-hell-with-dependencies-the-complete-guide-to-killing-local-dev-environments/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "m4dz",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/77cffe02fd7dc6e59f33129df7d8cd1e701d0dfb11e187ee7328ef17b268a26b.jpg",
+        "url": "https://twitter.com/m4d_z"
+      },
+      "url": "https://twitter.com/m4d_z/status/1267947911184334848",
+      "published": "2020-06-02T22:35:14+00:00",
+      "wm-received": "2020-06-02T23:22:31Z",
+      "wm-id": 805106,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1267854873044934657/1267947911184334848",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/06/02/the-hell-with-dependencies-the-complete-guide-to-killing-local-dev-environments/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Ahaha, je le prends comme un compliment ! Et je poke <a href=\"https://twitter.com/NLaPalice\">@NLaPalice</a> qui m'a aidé à trouver la tournure finale :P\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/theystolemynick\"></a>",
+        "html": "Ahaha, je le prends comme un compliment ! Et je poke <a href=\"https://twitter.com/NLaPalice\">@NLaPalice</a> qui m'a aidé à trouver la tournure finale :P",
+        "text": "Ahaha, je le prends comme un compliment ! Et je poke @NLaPalice qui m'a aidé à trouver la tournure finale :P"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/06/02/the-hell-with-dependencies-the-complete-guide-to-killing-local-dev-environments/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jonathan Blanchet",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/cad3174da2511292e687b1a051b9e3a7014566a3e316925c2cac5bafc0309d4f.jpg",
+        "url": "https://twitter.com/jblanchefr"
+      },
+      "url": "https://twitter.com/nhoizey/status/1267854873044934657#favorited-by-101532547",
+      "published": null,
+      "wm-received": "2020-06-04T01:54:41Z",
+      "wm-id": 805522,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1267854873044934657/101532547",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/06/02/the-hell-with-dependencies-the-complete-guide-to-killing-local-dev-environments/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/06/02/the-hell-with-dependencies-the-complete-guide-to-killing-local-dev-environments/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "@thomas@social.tzi.fr",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/771c10bdccf2f1097190137165e552207370fc500b4e8edf30f141ef858cede1.jpg",
+        "url": "https://twitter.com/iamtzi"
+      },
+      "url": "https://twitter.com/nhoizey/status/1267854873044934657#favorited-by-33046163",
+      "published": null,
+      "wm-received": "2020-06-04T01:54:50Z",
+      "wm-id": 805523,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1267854873044934657/33046163",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/06/02/the-hell-with-dependencies-the-complete-guide-to-killing-local-dev-environments/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/06/02/the-hell-with-dependencies-the-complete-guide-to-killing-local-dev-environments/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Adrien ಠ_ಠ",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f087dd66e696937b8adb57a845a9db06bb0b42b6f08fb6aa1ea5a1d2bdd00741.jpg",
+        "url": "https://twitter.com/Adri_iench"
+      },
+      "url": "https://twitter.com/nhoizey/status/1267854873044934657#favorited-by-114695222",
+      "published": null,
+      "wm-received": "2020-06-04T01:54:51Z",
+      "wm-id": 805524,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1267854873044934657/114695222",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/06/02/the-hell-with-dependencies-the-complete-guide-to-killing-local-dev-environments/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/06/02/the-hell-with-dependencies-the-complete-guide-to-killing-local-dev-environments/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "𝕃𝕦𝕞⊙",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a8c1d66a465dc8c5db3cba9de1da25027a20a4854d48c13c146d8540964ed7e0.jpg",
+        "url": "https://twitter.com/lumographe"
+      },
+      "url": "https://twitter.com/nhoizey/status/1267854873044934657#favorited-by-18759761",
+      "published": null,
+      "wm-received": "2020-06-04T01:54:51Z",
+      "wm-id": 805525,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1267854873044934657/18759761",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/06/02/the-hell-with-dependencies-the-complete-guide-to-killing-local-dev-environments/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/06/02/the-hell-with-dependencies-the-complete-guide-to-killing-local-dev-environments/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "m4dz",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/77cffe02fd7dc6e59f33129df7d8cd1e701d0dfb11e187ee7328ef17b268a26b.jpg",
+        "url": "https://twitter.com/m4d_z"
+      },
+      "url": "https://twitter.com/nhoizey/status/1267854873044934657#favorited-by-81091261",
+      "published": null,
+      "wm-received": "2020-06-04T01:54:52Z",
+      "wm-id": 805526,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1267854873044934657/81091261",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/06/02/the-hell-with-dependencies-the-complete-guide-to-killing-local-dev-environments/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/06/02/the-hell-with-dependencies-the-complete-guide-to-killing-local-dev-environments/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Louis Chenais",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/b493c46b206dd5a0400814c182f61c2d211d3fa1e025e9f03f6850231dfe4a3c.jpg",
+        "url": "https://twitter.com/ChucKN0risK"
+      },
+      "url": "https://twitter.com/nhoizey/status/1267854873044934657#favorited-by-212204734",
+      "published": null,
+      "wm-received": "2020-06-04T01:54:53Z",
+      "wm-id": 805527,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1267854873044934657/212204734",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/06/02/the-hell-with-dependencies-the-complete-guide-to-killing-local-dev-environments/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/06/02/the-hell-with-dependencies-the-complete-guide-to-killing-local-dev-environments/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Gaël Poupard",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/bebb7c8bbc4d5d316c64a4e8278e4fb1a662dd836590aa669864c8f7d7ca013d.jpeg",
+        "url": "https://twitter.com/ffoodd_fr"
+      },
+      "url": "https://twitter.com/nhoizey/status/1267854873044934657#favorited-by-259814870",
+      "published": null,
+      "wm-received": "2020-06-04T01:55:14Z",
+      "wm-id": 805528,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1267854873044934657/259814870",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/06/02/the-hell-with-dependencies-the-complete-guide-to-killing-local-dev-environments/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/06/02/the-hell-with-dependencies-the-complete-guide-to-killing-local-dev-environments/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Marcus Herrmann",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/72c80119cece59908e6cb2895d65ba6d88bad1944f8f29ef4e4a2bd99dd38a9d.jpg",
+        "url": "https://twitter.com/_marcusherrmann"
+      },
+      "url": "https://twitter.com/nhoizey/status/1268313911838851073#favorited-by-11659852",
+      "published": null,
+      "wm-received": "2020-06-04T08:28:39Z",
+      "wm-id": 805551,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1268313911838851073/11659852",
+      "wm-target": "https://nicolas-hoizey.com/feeds/",
+      "like-of": "https://nicolas-hoizey.com/feeds/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Marcus Herrmann",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/72c80119cece59908e6cb2895d65ba6d88bad1944f8f29ef4e4a2bd99dd38a9d.jpg",
+        "url": "https://twitter.com/_marcusherrmann"
+      },
+      "url": "https://twitter.com/_marcusherrmann/status/1268493747073007616",
+      "published": "2020-06-04T10:44:11+00:00",
+      "wm-received": "2020-06-04T11:02:21Z",
+      "wm-id": 805563,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1268313911838851073/1268493747073007616",
+      "wm-target": "https://nicolas-hoizey.com/feeds/",
+      "content": {
+        "content-type": "text/html",
+        "value": "That \"feeds\" is close to feed is kind of intentional, but I understand that it can cause some confusion. Intent behind it was \"feeds\" as in plural of \"feed\", and \"feeds\" as in \"XY feeds\", verb form, which is of course best with domains with names, e.g. <a href=\"http://marcus.io/feeds\">marcus.io/feeds</a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/SaraSoueidan\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/SebacicA11y\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "That \"feeds\" is close to feed is kind of intentional, but I understand that it can cause some confusion. Intent behind it was \"feeds\" as in plural of \"feed\", and \"feeds\" as in \"XY feeds\", verb form, which is of course best with domains with names, e.g. <a href=\"http://marcus.io/feeds\">marcus.io/feeds</a>",
+        "text": "That \"feeds\" is close to feed is kind of intentional, but I understand that it can cause some confusion. Intent behind it was \"feeds\" as in plural of \"feed\", and \"feeds\" as in \"XY feeds\", verb form, which is of course best with domains with names, e.g. marcus.io/feeds"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/feeds/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1268510001225744387",
+      "published": "2020-06-04T11:48:46+00:00",
+      "wm-received": "2020-06-04T12:17:19Z",
+      "wm-id": 805572,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1268313911838851073/1268510001225744387",
+      "wm-target": "https://nicolas-hoizey.com/feeds/",
+      "content": {
+        "content-type": "text/html",
+        "value": "I understand the (good) intention! 👍\n<a class=\"u-mention\" href=\"https://twitter.com/SaraSoueidan\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/SebacicA11y\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/_marcusherrmann\"></a>",
+        "html": "I understand the (good) intention! 👍",
+        "text": "I understand the (good) intention! 👍"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/feeds/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Atila 🧉",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/7525472772c4e2238facfebb70d818386a3055d7f262e80b84800107c8c7b414.jpg",
+        "url": "https://twitter.com/AtilaFassina"
+      },
+      "url": "https://twitter.com/AtilaFassina/status/1268651117031948292",
+      "published": "2020-06-04T21:09:31+00:00",
+      "wm-received": "2020-06-04T21:22:02Z",
+      "wm-id": 805643,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1268649950247817216/1268651117031948292",
+      "wm-target": "https://nicolas-hoizey.com/articles/2017/07/27/so-long-disqus-hello-webmentions/",
+      "content": {
+        "content-type": "text/html",
+        "value": "♥️ great post!! 🔥\n\nThat statement was meant as a joke that not enough people are using it. But I'm starting to get the feel that a should rewrite that bit 😅\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/css\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/mxbck\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/swyx\"></a>",
+        "html": "♥️ great post!! 🔥<br /><br />That statement was meant as a joke that not enough people are using it. But I'm starting to get the feel that a should rewrite that bit 😅",
+        "text": "♥️ great post!! 🔥\n\nThat statement was meant as a joke that not enough people are using it. But I'm starting to get the feel that a should rewrite that bit 😅"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/articles/2017/07/27/so-long-disqus-hello-webmentions/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Max Böck",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/18a4e83da23e07a465feab2cd21362105938e9ac05ff774c757bec8f39bf6141.jpg",
+        "url": "https://twitter.com/mxbck"
+      },
+      "url": "https://twitter.com/mxbck/status/1268651839341371398",
+      "published": "2020-06-04T21:12:23+00:00",
+      "wm-received": "2020-06-04T21:22:02Z",
+      "wm-id": 805644,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1268649950247817216/1268651839341371398",
+      "wm-target": "https://nicolas-hoizey.com/articles/2017/07/27/so-long-disqus-hello-webmentions/",
+      "photo": [
+        "https://pbs.twimg.com/media/EZsn7g5X0AA42jI.png"
+      ],
+      "content": {
+        "content-type": "text/html",
+        "value": "we're all rookies compared to some of the folks at <a href=\"https://indieweb.org/Webmention\">indieweb.org/Webmention</a> (<a href=\"https://twitter.com/adactio\">@adactio</a> going on 7 years now!)\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "we're all rookies compared to some of the folks at <a href=\"https://indieweb.org/Webmention\">indieweb.org/Webmention</a> (<a href=\"https://twitter.com/adactio\">@adactio</a> going on 7 years now!)",
+        "text": "we're all rookies compared to some of the folks at indieweb.org/Webmention (@adactio going on 7 years now!)"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/articles/2017/07/27/so-long-disqus-hello-webmentions/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Atila 🧉",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/7525472772c4e2238facfebb70d818386a3055d7f262e80b84800107c8c7b414.jpg",
+        "url": "https://twitter.com/AtilaFassina"
+      },
+      "url": "https://twitter.com/nhoizey/status/1268649950247817216#favorited-by-276089562",
+      "published": null,
+      "wm-received": "2020-06-04T21:22:03Z",
+      "wm-id": 805645,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1268649950247817216/276089562",
+      "wm-target": "https://nicolas-hoizey.com/articles/2017/07/27/so-long-disqus-hello-webmentions/",
+      "like-of": "https://nicolas-hoizey.com/articles/2017/07/27/so-long-disqus-hello-webmentions/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1268669384492560387",
+      "published": "2020-06-04T22:22:06+00:00",
+      "wm-received": "2020-06-04T22:38:59Z",
+      "wm-id": 805667,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1268649950247817216/1268669384492560387",
+      "wm-target": "https://nicolas-hoizey.com/articles/2017/07/27/so-long-disqus-hello-webmentions/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Of course!\n\nI discovered Webmention and Indieweb thanks to @adactio BTW.\n<a class=\"u-mention\" href=\"https://twitter.com/adactio\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/mxbck\"></a>",
+        "html": "Of course!<br /><br />I discovered Webmention and Indieweb thanks to @adactio BTW.",
+        "text": "Of course!\n\nI discovered Webmention and Indieweb thanks to @adactio BTW."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/articles/2017/07/27/so-long-disqus-hello-webmentions/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Clément Oriol",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/aa2b2ef0bb9b323d12f1dd44aa333dd36b283a007818adae13d32fecdae7a587.jpg",
+        "url": "https://twitter.com/oriolclement"
+      },
+      "url": "https://twitter.com/nhoizey/status/1268649950247817216#favorited-by-1026303048",
+      "published": null,
+      "wm-received": "2020-06-05T06:43:14Z",
+      "wm-id": 805825,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1268649950247817216/1026303048",
+      "wm-target": "https://nicolas-hoizey.com/articles/2017/07/27/so-long-disqus-hello-webmentions/",
+      "like-of": "https://nicolas-hoizey.com/articles/2017/07/27/so-long-disqus-hello-webmentions/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Atila 🧉",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/7525472772c4e2238facfebb70d818386a3055d7f262e80b84800107c8c7b414.jpg",
+        "url": "https://twitter.com/AtilaFassina"
+      },
+      "url": "https://twitter.com/AtilaFassina/status/1268827699839188993",
+      "published": "2020-06-05T08:51:11+00:00",
+      "wm-received": "2020-06-05T09:13:00Z",
+      "wm-id": 805849,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1268649950247817216/1268827699839188993",
+      "wm-target": "https://nicolas-hoizey.com/articles/2017/07/27/so-long-disqus-hello-webmentions/",
+      "content": {
+        "content-type": "text/html",
+        "value": "haha good to know. Thanks! 😅\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/css\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/mxbck\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/swyx\"></a>",
+        "html": "haha good to know. Thanks! 😅",
+        "text": "haha good to know. Thanks! 😅"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/articles/2017/07/27/so-long-disqus-hello-webmentions/",
       "wm-property": "in-reply-to",
       "wm-private": false
     }
