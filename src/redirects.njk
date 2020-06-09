@@ -1,0 +1,19 @@
+---
+permalink: /_redirects
+eleventyExcludeFromCollections: true
+---
+
+# Well known files
+/favicon.jpg      /.well-known/favicon.jpg      200
+/favicon.ico      /.well-known/favicon.ico      200
+/robots.txt       /.well-known/robots.txt       200
+/humans.txt       /.well-known/humans.txt       200
+
+# Feeds
+/atom.xml         /feeds/articles.xml           301
+
+# Redirect old URLs without day
+{% for article in collections.articles -%}
+{{ article.url | newUrlToOld }}.html   {{ article.url | url }}   301
+/articles{{ article.url | newUrlToOld }}/   {{ article.url | url }}   301
+{% endfor %}
