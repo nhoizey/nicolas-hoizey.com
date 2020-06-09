@@ -12,24 +12,3 @@
         X-Content-Type-Options = "nosniff"
         Referrer-Policy= "no-referrer-when-downgrade"
 
-[[redirects]]
-  from = "/favicon.jpg"
-  to = "/.well-known/favicon.jpg"
-
-[[redirects]]
-  from = "/favicon.ico"
-  to = "/.well-known/favicon.ico"
-
-[[redirects]]
-  from = "/robots.txt"
-  to = "/.well-known/robots.txt"
-
-[[redirects]]
-  from = "/humans.txt"
-  to = "/.well-known/humans.txt"
-
-[[redirects]]
-  from = "/atom.xml"
-  to = "/feeds/articles.xml"
-  status = 301
-  force = true
