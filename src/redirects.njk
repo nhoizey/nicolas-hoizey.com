@@ -14,6 +14,8 @@ eleventyExcludeFromCollections: true
 
 # Redirect old URLs without day
 {% for article in collections.articles -%}
+{%- if article.date | date('YYYYMMDD') < '20200310' %}
 {{ article.url | newUrlToOld }}.html   {{ article.url | url }}   301
 /articles{{ article.url | newUrlToOld }}/   {{ article.url | url }}   301
+{% endif -%}
 {% endfor %}
