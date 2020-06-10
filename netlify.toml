@@ -12,3 +12,8 @@
         X-Content-Type-Options = "nosniff"
         Referrer-Policy= "no-referrer-when-downgrade"
 
+[[plugins]]
+package = "netlify-build-plugin-dareboost"
+
+  [plugins.inputs]
+  monitoringIds = "3470,10748,15490,19693"
