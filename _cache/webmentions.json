@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-06-09T07:45:35.243Z",
+  "lastFetched": "2020-06-10T16:49:10.764Z",
   "webmentions": [
     {
       "type": "entry",
@@ -54627,6 +54627,71 @@
       },
       "in-reply-to": "https://nicolas-hoizey.com/articles/2017/07/27/so-long-disqus-hello-webmentions/",
       "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Anthony Ricaud",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e80edb77f394e47700bbb6f7ce5ded4c4c76cf6ea8108058646b7a5485a7576f.jpg",
+        "url": "https://twitter.com/anthony_ricaud"
+      },
+      "url": "https://twitter.com/anthony_ricaud/status/1270750103914020864",
+      "published": "2020-06-10T16:10:08+00:00",
+      "wm-received": "2020-06-10T16:20:58Z",
+      "wm-id": 808721,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1270736088496250880/1270750103914020864",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Yeah, I wouldn't hold my breath for WebP support.\n\nCurious, why do you want WebP? It's not better than a JPEG compressed with mozjpeg. (It might even be a worse experience as it does not support progressive rendering)\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/JeremiePat\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/webkit\"></a>",
+        "html": "Yeah, I wouldn't hold my breath for WebP support.<br /><br />Curious, why do you want WebP? It's not better than a JPEG compressed with mozjpeg. (It might even be a worse experience as it does not support progressive rendering)",
+        "text": "Yeah, I wouldn't hold my breath for WebP support.\n\nCurious, why do you want WebP? It's not better than a JPEG compressed with mozjpeg. (It might even be a worse experience as it does not support progressive rendering)"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mateo Zapata",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/8811023a62c4b212e90bfdb952560d14c597593eafd5bc9e97fb17aeb69878c8.jpg",
+        "url": "https://twitter.com/Mateozmaldonado"
+      },
+      "url": "https://twitter.com/Mateozmaldonado/status/1270752756454866950",
+      "published": "2020-06-10T16:20:41+00:00",
+      "wm-received": "2020-06-10T16:21:00Z",
+      "wm-id": 808722,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1270736088496250880/1270752756454866950",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "content": {
+        "content-type": "text/plain",
+        "value": "@JeremiePat @webkit I don't know for webkit, but Apple tried in iOS 10, and then removed it and used HEIF.\n\nI hope they will implement JPEG",
+        "text": "@JeremiePat @webkit I don't know for webkit, but Apple tried in iOS 10, and then removed it and used HEIF.\n\nI hope they will implement JPEG"
+      },
+      "repost-of": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mateo Zapata",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/8811023a62c4b212e90bfdb952560d14c597593eafd5bc9e97fb17aeb69878c8.jpg",
+        "url": "https://twitter.com/Mateozmaldonado"
+      },
+      "url": "https://twitter.com/nhoizey/status/1270736088496250880#favorited-by-528839672",
+      "published": null,
+      "wm-received": "2020-06-10T16:20:58Z",
+      "wm-id": 808720,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1270736088496250880/528839672",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
