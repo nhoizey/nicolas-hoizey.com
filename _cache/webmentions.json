@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-06-10T16:49:10.764Z",
+  "lastFetched": "2020-06-10T22:29:24.387Z",
   "webmentions": [
     {
       "type": "entry",
@@ -54633,6 +54633,30 @@
       "type": "entry",
       "author": {
         "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1270736316322451456",
+      "published": "2020-06-10T15:15:21+00:00",
+      "wm-received": "2020-06-10T19:32:54Z",
+      "wm-id": 808876,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1270736088496250880/1270736316322451456",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Sorry, I forgot this link:\n<a href=\"https://www.cnet.com/news/apple-ios-macos-tests-googles-webp-graphics-to-speed-up-web/\">cnet.com/news/apple-ios…</a>\n\n<a class=\"u-mention\" href=\"https://twitter.com/JeremiePat\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/webkit\"></a>",
+        "html": "Sorry, I forgot this link:<br /><a href=\"https://www.cnet.com/news/apple-ios-macos-tests-googles-webp-graphics-to-speed-up-web/\">cnet.com/news/apple-ios…</a>",
+        "text": "Sorry, I forgot this link:\ncnet.com/news/apple-ios…"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
         "name": "Anthony Ricaud",
         "photo": "https://webmention.io/avatar/pbs.twimg.com/e80edb77f394e47700bbb6f7ce5ded4c4c76cf6ea8108058646b7a5485a7576f.jpg",
         "url": "https://twitter.com/anthony_ricaud"
@@ -54689,6 +54713,232 @@
       "wm-received": "2020-06-10T16:20:58Z",
       "wm-id": 808720,
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1270736088496250880/528839672",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "SuztoniK",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/7bd6e9acc71c95a4d2e804ad87bef7e7e18de722081d428a483c469e65a32eb5.jpg",
+        "url": "https://twitter.com/Suztonik"
+      },
+      "url": "https://twitter.com/nhoizey/status/1270736088496250880#favorited-by-837063706160812033",
+      "published": null,
+      "wm-received": "2020-06-10T17:06:45Z",
+      "wm-id": 808758,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1270736088496250880/837063706160812033",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "BrowserStack",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/6a1ad028cf28a732875ce899b2da116206c113d0a7a20078dda80f5f3df4200b.png",
+        "url": "https://twitter.com/browserstack"
+      },
+      "url": "https://twitter.com/nhoizey/status/1270761413229916160#favorited-by-334604386",
+      "published": null,
+      "wm-received": "2020-06-10T17:06:46Z",
+      "wm-id": 808759,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1270761413229916160/334604386",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/10/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/06/10/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "edgemesh",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0dc7d529c0213c4885b8f105ddecd02e1d7272b1bd0086cbe1b10342f1b7edfb.jpg",
+        "url": "https://twitter.com/edgemeshinc"
+      },
+      "url": "https://twitter.com/nhoizey/status/1270761413229916160#favorited-by-760891744678543361",
+      "published": null,
+      "wm-received": "2020-06-10T17:06:47Z",
+      "wm-id": 808760,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1270761413229916160/760891744678543361",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/10/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/06/10/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "msnarain",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e256415c2777a59f0e1f0926ef3d13ca2a0920bafec9ced25c695e537b8e836a.jpg",
+        "url": "https://twitter.com/msnarain"
+      },
+      "url": "https://twitter.com/nhoizey/status/1270761413229916160#favorited-by-14197636",
+      "published": null,
+      "wm-received": "2020-06-10T17:53:45Z",
+      "wm-id": 808789,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1270761413229916160/14197636",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/10/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/06/10/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Søren Birkemeyer 🦊",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/116ee1994cd9056a041e8201996ae3f792ecdfa9e0137a35f11beec7a167cfa3.jpg",
+        "url": "https://twitter.com/polarbirke"
+      },
+      "url": "https://twitter.com/nhoizey/status/1270761413229916160#favorited-by-202608598",
+      "published": null,
+      "wm-received": "2020-06-10T18:41:17Z",
+      "wm-id": 808830,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1270761413229916160/202608598",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/10/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/06/10/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jérémie Patonnier",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/cb47bbabd3165f38fafef14743b0bd26739bb9fd1d1c592d5d7887edd63f488b.jpg",
+        "url": "https://twitter.com/JeremiePat"
+      },
+      "url": "https://twitter.com/JeremiePat/status/1270797117309816834",
+      "published": "2020-06-10T19:16:57+00:00",
+      "wm-received": "2020-06-10T19:32:53Z",
+      "wm-id": 808875,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1270736088496250880/1270797117309816834",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "content": {
+        "content-type": "text/html",
+        "value": "I don't really want it, it's just that currently Safari is the last modern browser not supporting it and it would be interesting to understand the official reasoning behind that decision.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/anthony_ricaud\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/webkit\"></a>",
+        "html": "I don't really want it, it's just that currently Safari is the last modern browser not supporting it and it would be interesting to understand the official reasoning behind that decision.",
+        "text": "I don't really want it, it's just that currently Safari is the last modern browser not supporting it and it would be interesting to understand the official reasoning behind that decision."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jérémie Patonnier",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/cb47bbabd3165f38fafef14743b0bd26739bb9fd1d1c592d5d7887edd63f488b.jpg",
+        "url": "https://twitter.com/JeremiePat"
+      },
+      "url": "https://twitter.com/JeremiePat/status/1270800802291027972",
+      "published": "2020-06-10T19:31:36+00:00",
+      "wm-received": "2020-06-10T19:33:22Z",
+      "wm-id": 808878,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1270736088496250880/1270800802291027972",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Indeed, JPEG XL looks super promising 😍\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/webkit\"></a>",
+        "html": "Indeed, JPEG XL looks super promising 😍",
+        "text": "Indeed, JPEG XL looks super promising 😍"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jérémie Patonnier",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/cb47bbabd3165f38fafef14743b0bd26739bb9fd1d1c592d5d7887edd63f488b.jpg",
+        "url": "https://twitter.com/JeremiePat"
+      },
+      "url": "https://twitter.com/JeremiePat/status/1270800945925050374",
+      "published": "2020-06-10T19:32:10+00:00",
+      "wm-received": "2020-06-10T19:32:55Z",
+      "wm-id": 808877,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1270736088496250880/1270800945925050374",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "content": {
+        "content-type": "text/plain",
+        "value": "@JeremiePat @webkit I don't know for webkit, but Apple tried in iOS 10, and then removed it and used HEIF.\n\nI hope they will implement JPEG",
+        "text": "@JeremiePat @webkit I don't know for webkit, but Apple tried in iOS 10, and then removed it and used HEIF.\n\nI hope they will implement JPEG"
+      },
+      "repost-of": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Anthony Ricaud",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e80edb77f394e47700bbb6f7ce5ded4c4c76cf6ea8108058646b7a5485a7576f.jpg",
+        "url": "https://twitter.com/anthony_ricaud"
+      },
+      "url": "https://twitter.com/anthony_ricaud/status/1270807595251630080",
+      "published": "2020-06-10T19:58:35+00:00",
+      "wm-received": "2020-06-10T20:19:23Z",
+      "wm-id": 808906,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1270736088496250880/1270807595251630080",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Ah alright, I didn't understand that from the first question.\n\nI still don't understand why Mozilla decided to support it :(\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/JeremiePat\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/webkit\"></a>",
+        "html": "Ah alright, I didn't understand that from the first question.<br /><br />I still don't understand why Mozilla decided to support it :(",
+        "text": "Ah alright, I didn't understand that from the first question.\n\nI still don't understand why Mozilla decided to support it :("
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jyrki Alakuijala",
+        "photo": "https://webmention.io/avatar/abs.twimg.com/0e6b2cd70aa5b35dec24ca4e1e63f8963f0118736d9ec3bba77e3a8c99a27bc2.png",
+        "url": "https://twitter.com/jyzg"
+      },
+      "url": "https://twitter.com/jyzg/status/1270815915681210372",
+      "published": "2020-06-10T20:31:39+00:00",
+      "wm-received": "2020-06-10T21:19:43Z",
+      "wm-id": 808939,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1270736088496250880/1270815915681210372",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "content": {
+        "content-type": "text/plain",
+        "value": "@JeremiePat @webkit I don't know for webkit, but Apple tried in iOS 10, and then removed it and used HEIF.\n\nI hope they will implement JPEG",
+        "text": "@JeremiePat @webkit I don't know for webkit, but Apple tried in iOS 10, and then removed it and used HEIF.\n\nI hope they will implement JPEG"
+      },
+      "repost-of": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jyrki Alakuijala",
+        "photo": "https://webmention.io/avatar/abs.twimg.com/0e6b2cd70aa5b35dec24ca4e1e63f8963f0118736d9ec3bba77e3a8c99a27bc2.png",
+        "url": "https://twitter.com/jyzg"
+      },
+      "url": "https://twitter.com/nhoizey/status/1270736088496250880#favorited-by-807786872",
+      "published": null,
+      "wm-received": "2020-06-10T21:19:43Z",
+      "wm-id": 808938,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1270736088496250880/807786872",
       "wm-target": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
       "like-of": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
       "wm-property": "like-of",
