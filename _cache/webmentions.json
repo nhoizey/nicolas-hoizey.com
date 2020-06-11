@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-06-10T22:29:24.387Z",
+  "lastFetched": "2020-06-11T12:01:37.916Z",
   "webmentions": [
     {
       "type": "entry",
@@ -54942,6 +54942,178 @@
       "wm-target": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
       "like-of": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mithgol the Webmaster",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d33120809a472739845be1cab62dbdb8d2b3eec2f497b9776b82135266b1c41d.png",
+        "url": "https://twitter.com/FidonetRunes"
+      },
+      "url": "https://twitter.com/FidonetRunes/status/1270875013491634182",
+      "published": "2020-06-11T00:26:29+00:00",
+      "wm-received": "2020-06-11T00:53:25Z",
+      "wm-id": 809045,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1270736088496250880/1270875013491634182",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "content": {
+        "content-type": "text/plain",
+        "value": "@JeremiePat @webkit I don't know for webkit, but Apple tried in iOS 10, and then removed it and used HEIF.\n\nI hope they will implement JPEG",
+        "text": "@JeremiePat @webkit I don't know for webkit, but Apple tried in iOS 10, and then removed it and used HEIF.\n\nI hope they will implement JPEG"
+      },
+      "repost-of": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mithgol the Webmaster",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d33120809a472739845be1cab62dbdb8d2b3eec2f497b9776b82135266b1c41d.png",
+        "url": "https://twitter.com/FidonetRunes"
+      },
+      "url": "https://twitter.com/FidonetRunes/status/1270875078260072448",
+      "published": "2020-06-11T00:26:45+00:00",
+      "wm-received": "2020-06-11T00:53:26Z",
+      "wm-id": 809046,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1270736088496250880/1270875078260072448",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "content": {
+        "content-type": "text/html",
+        "value": "You should want WebP because lossless WebP usually offers better compression than PNG or GIF and because animated lossless WebP offers better compression than animated PNG (aka APNG) or animated GIF.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/JeremiePat\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/anthony_ricaud\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/webkit\"></a>",
+        "html": "You should want WebP because lossless WebP usually offers better compression than PNG or GIF and because animated lossless WebP offers better compression than animated PNG (aka APNG) or animated GIF.",
+        "text": "You should want WebP because lossless WebP usually offers better compression than PNG or GIF and because animated lossless WebP offers better compression than animated PNG (aka APNG) or animated GIF."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tyson",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/b72088da16f961c0fe68a5f85188a8d857ce352986b89ea7fda3cdbae8f10879.jpg",
+        "url": "https://twitter.com/Tysondsouza_09"
+      },
+      "url": "https://twitter.com/nhoizey/status/1270761413229916160#favorited-by-943738417635979264",
+      "published": null,
+      "wm-received": "2020-06-11T02:49:09Z",
+      "wm-id": 809073,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1270761413229916160/943738417635979264",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/10/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/06/10/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Anthony Ricaud",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e80edb77f394e47700bbb6f7ce5ded4c4c76cf6ea8108058646b7a5485a7576f.jpg",
+        "url": "https://twitter.com/anthony_ricaud"
+      },
+      "url": "https://twitter.com/anthony_ricaud/status/1270950426343587841",
+      "published": "2020-06-11T05:26:09+00:00",
+      "wm-received": "2020-06-11T05:58:57Z",
+      "wm-id": 809110,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1270736088496250880/1270950426343587841",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "content": {
+        "content-type": "text/html",
+        "value": "I'd argue that SVG is a better alternative for most images suited for PNG. And any form of animations (CSS, SVG, Web Animations) or video would offer a smaller filesize and would be less CPU intensive than an animated WebP.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/FidonetRunes\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/JeremiePat\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/webkit\"></a>",
+        "html": "I'd argue that SVG is a better alternative for most images suited for PNG. And any form of animations (CSS, SVG, Web Animations) or video would offer a smaller filesize and would be less CPU intensive than an animated WebP.",
+        "text": "I'd argue that SVG is a better alternative for most images suited for PNG. And any form of animations (CSS, SVG, Web Animations) or video would offer a smaller filesize and would be less CPU intensive than an animated WebP."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Kari Pihkala",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c9111589d28f170d14b994cfcc6a986e30056c9ab8747f7f15695c359a5d0104.jpg",
+        "url": "https://twitter.com/kartsa"
+      },
+      "url": "https://twitter.com/nhoizey/status/1270736088496250880#favorited-by-14932417",
+      "published": null,
+      "wm-received": "2020-06-11T07:13:53Z",
+      "wm-id": 809123,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1270736088496250880/14932417",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "音風景の管理人",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/6c176bc936b6d292c3a2683aca85dad2ef50c5653dcd4556b74259608faaee6c.png",
+        "url": "https://twitter.com/kamedo2"
+      },
+      "url": "https://twitter.com/kamedo2/status/1271001005149192192",
+      "published": "2020-06-11T08:47:08+00:00",
+      "wm-received": "2020-06-11T08:56:05Z",
+      "wm-id": 809140,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1270736088496250880/1271001005149192192",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "content": {
+        "content-type": "text/plain",
+        "value": "@JeremiePat @webkit I don't know for webkit, but Apple tried in iOS 10, and then removed it and used HEIF.\n\nI hope they will implement JPEG",
+        "text": "@JeremiePat @webkit I don't know for webkit, but Apple tried in iOS 10, and then removed it and used HEIF.\n\nI hope they will implement JPEG"
+      },
+      "repost-of": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Amit Debnath",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c8c9a0bfed3e8fa811360b6daf56ea958834e4863f3d90c256628221427688d3.jpg",
+        "url": "https://twitter.com/AmitDeb85990628"
+      },
+      "url": "https://twitter.com/nhoizey/status/1270761413229916160#favorited-by-851379000333049858",
+      "published": null,
+      "wm-received": "2020-06-11T10:24:19Z",
+      "wm-id": 809369,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1270761413229916160/851379000333049858",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/10/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/06/10/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "tom byrer",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e6e520cb5370fe5add096230a30a013236f7e9132f28cafaa0072fe06afe1d65.jpg",
+        "url": "https://twitter.com/tombyrer"
+      },
+      "url": "https://twitter.com/tombyrer/status/1271034338348589056",
+      "published": "2020-06-11T10:59:35+00:00",
+      "wm-received": "2020-06-11T11:10:19Z",
+      "wm-id": 809371,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1270736088496250880/1271034338348589056",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "content": {
+        "content-type": "text/html",
+        "value": "I think animated WebP is supposed to replace AGIF?\n&amp; there is a CPU cost to SVG, since most browser makers haven't optimized it lately AFAIK.  Though animated SVG may be better; I'd like to see hard tests.\n\nI'd ❣️ to see HEIF support in browsers!\n\n<a href=\"https://caniuse.com/#feat=heif\">caniuse.com/#feat=heif</a>\n\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/FidonetRunes\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/JeremiePat\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/anthony_ricaud\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/webkit\"></a>",
+        "html": "I think animated WebP is supposed to replace AGIF?<br />&amp; there is a CPU cost to SVG, since most browser makers haven't optimized it lately AFAIK.  Though animated SVG may be better; I'd like to see hard tests.<br /><br />I'd ❣️ to see HEIF support in browsers!<br /><br /><a href=\"https://caniuse.com/#feat=heif\">caniuse.com/#feat=heif</a>",
+        "text": "I think animated WebP is supposed to replace AGIF?\n& there is a CPU cost to SVG, since most browser makers haven't optimized it lately AFAIK.  Though animated SVG may be better; I'd like to see hard tests.\n\nI'd ❣️ to see HEIF support in browsers!\n\ncaniuse.com/#feat=heif"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "wm-property": "in-reply-to",
       "wm-private": false
     }
   ]
