@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-06-11T12:01:37.916Z",
+  "lastFetched": "2020-06-11T14:48:13.184Z",
   "webmentions": [
     {
       "type": "entry",
@@ -55114,6 +55114,42 @@
       },
       "in-reply-to": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
       "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Søren Birkemeyer 🦊",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/116ee1994cd9056a041e8201996ae3f792ecdfa9e0137a35f11beec7a167cfa3.jpg",
+        "url": "https://twitter.com/polarbirke"
+      },
+      "url": "https://twitter.com/nhoizey/status/1271076616882524161#favorited-by-202608598",
+      "published": null,
+      "wm-received": "2020-06-11T14:05:47Z",
+      "wm-id": 809419,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1271076616882524161/202608598",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Šime Vidas",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/09bb4880190585b5e89c617e2b0fc0af42f2bd0b1eefa64fa76f35eb307555a6.jpeg",
+        "url": "https://twitter.com/simevidas"
+      },
+      "url": "https://twitter.com/nhoizey/status/1271076616882524161#favorited-by-175727560",
+      "published": null,
+      "wm-received": "2020-06-11T14:05:47Z",
+      "wm-id": 809418,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1271076616882524161/175727560",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
