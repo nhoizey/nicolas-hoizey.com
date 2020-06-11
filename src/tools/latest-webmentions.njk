@@ -15,16 +15,24 @@ title: Latest Webmentions
     </tr>
   </thead>
   <tbody>
-    {% for webmention in webmentions | reverse | limit(20) %}
-      <tr style="font-size: 0.8em">
-        <td style="white-space: nowrap">{{ webmention.published | date("DD/MM/YYYY HH:mm") }}</td>
+    {% for webmention in webmentions | reverse | limit(50) %}
+      <tr style="font-size: 0.8em; border-top: 3px solid #333">
+        <td style="white-space: nowrap">
+          {% if webmention.published %}
+            {{ webmention.published | date("DD/MM/YYYY HH:mm") }}
+          {% else %}
+            {{ webmention['wm-received'] | date("DD/MM/YYYY HH:mm") }}
+          {% endif %}
+        </td>
         <td style="white-space: nowrap">{{ webmention['wm-property'] }}</td>
         <td><a href="{{ webmention['wm-target'] }}">{{ webmention['wm-target'] | replace('https://nicolas-hoizey.com', '') }}</a></td>
         <td><a href="{{ webmention.url }}">{{ webmention.url | replace('https://twitter.com/', '@') }}</a></td>
       </tr>
-      <tr>
-        <td colspan="4" style="border-bottom: 2px solid #333">{{ webmention.content.text }}</td>
-      </tr>
+      {% if webmention.content.text %}
+        <tr>
+          <td colspan="4">{{ webmention.content.text }}</td>
+        </tr>
+      {% endif %}
     {% endfor %}
   </tbody>
 </table>
