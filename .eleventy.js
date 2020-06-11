@@ -51,8 +51,12 @@ module.exports = function (eleventyConfig) {
   const rss = require('@11ty/eleventy-plugin-rss');
   eleventyConfig.addPlugin(rss);
 
-  const embedTweets = require("eleventy-plugin-embed-tweet");
-  eleventyConfig.addPlugin(embedTweets, {cacheDirectory: '_cache', useInlineStyles: false, autoEmbed: true});
+  const embedTweets = require('eleventy-plugin-embed-tweet');
+  eleventyConfig.addPlugin(embedTweets, {
+    cacheDirectory: '_cache',
+    useInlineStyles: false,
+    autoEmbed: true,
+  });
 
   // ------------------------------------------------------------------------
   // Markdown plugins
@@ -166,14 +170,15 @@ module.exports = function (eleventyConfig) {
 
   // https://github.com/11ty/eleventy/issues/893#issuecomment-606260541
   eleventyConfig.setUseGitIgnore(false);
-  eleventyConfig.addWatchTarget("_site/js/");
-  eleventyConfig.addWatchTarget("_site/css/");
+  eleventyConfig.addWatchTarget('_site/js/');
+  eleventyConfig.addWatchTarget('_site/css/');
 
   eleventyConfig
     .addPassthroughCopy('src/**/*.{jpg,png,gif,kmz,zip,css}')
     .addPassthroughCopy('src/assets')
     .addPassthroughCopy('src/.well-known')
     .addPassthroughCopy('src/.htaccess')
+    .addPassthroughCopy('src/_headers')
     .addPassthroughCopy('src/manifest.webmanifest');
 
   eleventyConfig.setDataDeepMerge(true);
@@ -181,7 +186,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.setBrowserSyncConfig({
     ui: false,
-    ghostMode: false
+    ghostMode: false,
   });
 
   return {
