@@ -13,7 +13,6 @@ Voilà les 10 versions de Firefox les plus utilisées sur [play.esviji.com](http
 
 [^corr]: Les correspondances sont données par [cette table](https://developer.mozilla.org/en-US/docs/Web/HTTP/Gecko_user_agent_string_reference#Firefox_OS_version_number).
 
-|--------------------+-----------------------+----------|
 | Version de Firefox | Version de Firefox OS | Sessions |
 |-------------------:|----------------------:|---------:|
 |               28.1 |                   1.3 |    8 354 |
@@ -26,7 +25,6 @@ Voilà les 10 versions de Firefox les plus utilisées sur [play.esviji.com](http
 |               26.0 |                   1.2 |        3 |
 |               30.0 |                   1.4 |        2 |
 |               39.0 |                   2.? |        1 |
-|--------------------+-----------------------+----------|
 
 La version 1.3 de Firefox OS est donc largement la plus utilisée parmi les joueurs de esviji, qui se trouvent principalement aux Philippines, et la vieille version 1.1 est encore pas mal présente.
 
