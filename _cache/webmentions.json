@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-06-11T14:48:13.184Z",
+  "lastFetched": "2020-06-11T22:03:25.086Z",
   "webmentions": [
     {
       "type": "entry",
@@ -55147,6 +55147,72 @@
       "wm-received": "2020-06-11T14:05:47Z",
       "wm-id": 809418,
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1271076616882524161/175727560",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Anthony Ricaud",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e80edb77f394e47700bbb6f7ce5ded4c4c76cf6ea8108058646b7a5485a7576f.jpg",
+        "url": "https://twitter.com/anthony_ricaud"
+      },
+      "url": "https://twitter.com/anthony_ricaud/status/1271090400036519944",
+      "published": "2020-06-11T14:42:21+00:00",
+      "wm-received": "2020-06-11T14:48:23Z",
+      "wm-id": 809430,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1270736088496250880/1271090400036519944",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "content": {
+        "content-type": "text/html",
+        "value": "HEIF is patent encumbered so there is no chance it will be supported by browsers. As @nhoizey shared earlier in the thread, the best bet for a cross-browser modern image format is JPEG XL. And it's far more interesting than WebP.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/FidonetRunes\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/JeremiePat\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/tombyrer\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/webkit\"></a>",
+        "html": "HEIF is patent encumbered so there is no chance it will be supported by browsers. As @nhoizey shared earlier in the thread, the best bet for a cross-browser modern image format is JPEG XL. And it's far more interesting than WebP.",
+        "text": "HEIF is patent encumbered so there is no chance it will be supported by browsers. As @nhoizey shared earlier in the thread, the best bet for a cross-browser modern image format is JPEG XL. And it's far more interesting than WebP."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Kaustubh Joshi",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/25b7a87976c2b4bd62aeccc2615be655c2567a5da86f2c5cd195cc0cd1d4f21b.jpg",
+        "url": "https://twitter.com/thatsmekaustubh"
+      },
+      "url": "https://twitter.com/thatsmekaustubh/status/1271166998974619648",
+      "published": "2020-06-11T19:46:44+00:00",
+      "wm-received": "2020-06-11T20:30:32Z",
+      "wm-id": 809513,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1271076616882524161/1271166998974619648",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Nice quick read\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/simevidas\"></a>",
+        "html": "Nice quick read",
+        "text": "Nice quick read"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Kaustubh Joshi",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/25b7a87976c2b4bd62aeccc2615be655c2567a5da86f2c5cd195cc0cd1d4f21b.jpg",
+        "url": "https://twitter.com/thatsmekaustubh"
+      },
+      "url": "https://twitter.com/nhoizey/status/1271076616882524161#favorited-by-237823900",
+      "published": null,
+      "wm-received": "2020-06-11T20:29:57Z",
+      "wm-id": 809511,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1271076616882524161/237823900",
       "wm-target": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
       "like-of": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
       "wm-property": "like-of",
