@@ -872,3 +872,13 @@ RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}
 <IfModule headers_module>
   header set X-Clacks-Overhead "GNU Terry Pratchett"
 </IfModule>
+
+# ##############################################################################
+# # Reporting                                                                  #
+# # https://scotthelme.co.uk/network-error-logging-deep-dive/                  #
+# ##############################################################################
+
+<IfModule headers_module>
+  header set Report-To '{"group":"default","max_age":31536000,"endpoints":[{"url":"https://nhocom.report-uri.com/a/d/g"}],"include_subdomains":true}'
+  header set NEL '{"report_to":"default","max_age":31536000,"include_subdomains":true,"failure_fraction":0.5}'
+</IfModule>
