@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-06-11T22:03:25.086Z",
+  "lastFetched": "2020-06-12T08:24:29.069Z",
   "webmentions": [
     {
       "type": "entry",
@@ -55213,6 +55213,144 @@
       "wm-received": "2020-06-11T20:29:57Z",
       "wm-id": 809511,
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1271076616882524161/237823900",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "pascal massimino",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/24c726c6685e34035865eaa1d9c02ea4507af834a68fb49e23d7218d78897bdf.jpg",
+        "url": "https://twitter.com/PascalMassimino"
+      },
+      "url": "https://twitter.com/PascalMassimino/status/1271215083948060673",
+      "published": "2020-06-11T22:57:48+00:00",
+      "wm-received": "2020-06-11T23:08:45Z",
+      "wm-id": 809694,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1270736088496250880/1271215083948060673",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "content": {
+        "content-type": "text/html",
+        "value": "do you have an example of this bad case?\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/JeremiePat\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/anthony_ricaud\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/webkit\"></a>",
+        "html": "do you have an example of this bad case?",
+        "text": "do you have an example of this bad case?"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matthieu Chatry",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/aca6ed6ad0e33209038aa513947fbefc30c67fd3f36192811f88aa576df23f34.jpg",
+        "url": "https://twitter.com/mamatdunet"
+      },
+      "url": "https://twitter.com/nhoizey/status/1271076616882524161#favorited-by-22425359",
+      "published": null,
+      "wm-received": "2020-06-11T23:42:47Z",
+      "wm-id": 809701,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1271076616882524161/22425359",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Vasyl Boroviak",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/9351c6c7d1022e681c9781cf8ec9c5954649fdd25b8e79dadef5a134522bb914.jpg",
+        "url": "https://twitter.com/kore_sar"
+      },
+      "url": "https://twitter.com/nhoizey/status/1271076616882524161#favorited-by-307417599",
+      "published": null,
+      "wm-received": "2020-06-11T23:43:16Z",
+      "wm-id": 809702,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1271076616882524161/307417599",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Julianoe ✏️",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/030c71409445fa2aec98ccc547645ad90e222e83bf174c90ef3701b0d10fc50e.jpg",
+        "url": "https://twitter.com/ju3R57xKlKYv7"
+      },
+      "url": "https://twitter.com/ju3R57xKlKYv7/status/1271238085183930369",
+      "published": "2020-06-12T00:29:12+00:00",
+      "wm-received": "2020-06-12T00:30:09Z",
+      "wm-id": 809717,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1271076616882524161/1271238085183930369",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Deleting urls is a wet dream for google/Facebook as they could keep a better grip on the users and how they can access content.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/simevidas\"></a>",
+        "html": "Deleting urls is a wet dream for google/Facebook as they could keep a better grip on the users and how they can access content.",
+        "text": "Deleting urls is a wet dream for google/Facebook as they could keep a better grip on the users and how they can access content."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Rhamses",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/74b24bbd778e74ed8e67867387657409844dfc2bedd217b96a197a2d38240dc0.jpg",
+        "url": "https://twitter.com/Rhamses"
+      },
+      "url": "https://twitter.com/nhoizey/status/1271076616882524161#favorited-by-15631005",
+      "published": null,
+      "wm-received": "2020-06-12T00:30:08Z",
+      "wm-id": 809716,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1271076616882524161/15631005",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Noël Macé",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/734bc882a104323c2b033baae87103c1ae100a43c3e97f51ab64e05fe518477d.png",
+        "url": "https://twitter.com/noel_mace"
+      },
+      "url": "https://twitter.com/nhoizey/status/1271076616882524161#favorited-by-191620154",
+      "published": null,
+      "wm-received": "2020-06-12T08:08:45Z",
+      "wm-id": 809754,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1271076616882524161/191620154",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Hussein Al Hammad",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/db9a66a83164c4b40b4f0557d74f842985202d33a9b479d8b6b81d59365fba6f.jpg",
+        "url": "https://twitter.com/hus_hmd"
+      },
+      "url": "https://twitter.com/nhoizey/status/1271076616882524161#favorited-by-4279981874",
+      "published": null,
+      "wm-received": "2020-06-12T08:08:45Z",
+      "wm-id": 809753,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1271076616882524161/4279981874",
       "wm-target": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
       "like-of": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
       "wm-property": "like-of",
