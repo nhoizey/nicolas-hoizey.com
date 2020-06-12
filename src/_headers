@@ -6,7 +6,6 @@
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
   Feature-Policy: accelerometer ‘none’; camera ‘none’; geolocation ‘none’; gyroscope ‘none’; magnetometer ‘none’; microphone ‘none’; payment ‘none’; usb ‘none’
   Accept-CH: Downlink,RTT,Device-Memory,Save-Data,DPR,Width
-  Etag: ''
   Report-To: {"group":"default","max_age":31536000,"endpoints":[{"url":"https://nhocom.report-uri.com/a/d/g"}],"include_subdomains":true}
   NEL: {"report_to":"default","max_age":31536000,"include_subdomains":true,"failure_fraction":0.5}
   X-Clacks-Overhead: GNU Terry Pratchett
