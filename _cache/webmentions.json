@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-06-12T13:16:13.402Z",
+  "lastFetched": "2020-06-12T17:27:42.789Z",
   "webmentions": [
     {
       "type": "entry",
@@ -55639,6 +55639,54 @@
         "value": "What bad case?\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/JeremiePat\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/PascalMassimino\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/webkit\"></a>",
         "html": "What bad case?",
         "text": "What bad case?"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "pascal massimino",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/24c726c6685e34035865eaa1d9c02ea4507af834a68fb49e23d7218d78897bdf.jpg",
+        "url": "https://twitter.com/PascalMassimino"
+      },
+      "url": "https://twitter.com/PascalMassimino/status/1271437978494255107",
+      "published": "2020-06-12T13:43:30+00:00",
+      "wm-received": "2020-06-12T13:48:26Z",
+      "wm-id": 809823,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1270736088496250880/1271437978494255107",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "content": {
+        "content-type": "text/html",
+        "value": "the one where mozjpeg does better job than WebP at compressing an image.\n\n[and btw, i think the blurry look of progressive jpeg being rendered is quite annoying. but that's just me]\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/JeremiePat\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/anthony_ricaud\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/webkit\"></a>",
+        "html": "the one where mozjpeg does better job than WebP at compressing an image.<br /><br />[and btw, i think the blurry look of progressive jpeg being rendered is quite annoying. but that's just me]",
+        "text": "the one where mozjpeg does better job than WebP at compressing an image.\n\n[and btw, i think the blurry look of progressive jpeg being rendered is quite annoying. but that's just me]"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1271438784081600512",
+      "published": "2020-06-12T13:46:42+00:00",
+      "wm-received": "2020-06-12T13:48:26Z",
+      "wm-id": 809824,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1270736088496250880/1271438784081600512",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Not just you, I don't like JPEG's progressive rendering either. But I don't like low quality placeholders even more.\n<a class=\"u-mention\" href=\"https://twitter.com/JeremiePat\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/PascalMassimino\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/anthony_ricaud\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/webkit\"></a>",
+        "html": "Not just you, I don't like JPEG's progressive rendering either. But I don't like low quality placeholders even more.",
+        "text": "Not just you, I don't like JPEG's progressive rendering either. But I don't like low quality placeholders even more."
       },
       "in-reply-to": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
       "wm-property": "in-reply-to",
