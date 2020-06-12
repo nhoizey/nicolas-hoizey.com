@@ -16,6 +16,20 @@ title: Home
 </ul>
 <p>Discover <a href="/links/">all links</a>…</p>
 
+{% from "macros/noteCard.njk" import noteCard %}
+
+<h2>Recent notes</h2>
+<ul class="grid">
+  {% for note in collections.notes | limit(4) %}
+    <li class="item">
+      <div class="card card--note h-entry">
+        {{ noteCard(note.url, note.lang, note.date, note.data.tags, note.templateContent, webmentions) }}
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+<p>Discover <a href="/notes/">all notes</a>…</p>
+
 {% from "macros/tagsCloud.njk" import tagsCloud %}
 
 <h2>Main topics</h2>
