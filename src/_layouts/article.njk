@@ -45,24 +45,6 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
 
   <div class="e-content">{{ content | safe }}</div>
 
-  {% if page.data.flickr or page.data.facebook or page.data.instagram %}
-    <div class="socialphoto">
-      <p>You'll also find this photo on your favorite service&nbsp;:
-        <span>
-        {% if page.data.flickr %}
-          <a href="{{ page.data.flickr }}" class="icon flickr"><svg><use xlink:href="#symbol-flickr" /></svg></a>
-        {% endif %}
-        {% if page.data.facebook %}
-          <a href="{{ page.data.facebook }}" class="icon facebook"><svg><use xlink:href="#symbol-facebook" /></svg></a>
-        {% endif %}
-        {% if page.data.instagram %}
-          <a href="{{ page.data.instagram }}" class="icon instagram"><svg><use xlink:href="#symbol-instagram" /></svg></a>
-        {% endif %}
-        </span>
-      </p>
-    </div>
-  {% endif %}
-
   <p class="edit">If you want to share an error or suggest an enhancement of this content, please edit <a href="https://github.com/nhoizey/nicolas-hoizey.com/tree/master/{{ page.inputPath }}">the source on Github</a>.</p>
 
   {% set articleUrl = page.url %}

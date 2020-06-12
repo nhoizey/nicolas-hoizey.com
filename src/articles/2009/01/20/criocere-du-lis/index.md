@@ -3,7 +3,6 @@ title:      Criocère du Lis
 date: 2009-01-20 12:00:00 +02:00
 lang:       fr
 tags:       [photography]
-flickr:     https://www.flickr.com/photos/nicolas-hoizey/3211000164/
 ---
 
 Voilà une bien jolie bestiole saisie tout simplement dans mon jardin.
