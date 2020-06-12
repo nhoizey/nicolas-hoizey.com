@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-06-12T08:24:29.069Z",
+  "lastFetched": "2020-06-12T13:16:13.402Z",
   "webmentions": [
     {
       "type": "entry",
@@ -55354,6 +55354,294 @@
       "wm-target": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
       "like-of": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Boris Schapira 🚀",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/5ee9406245c84f10b637d5bfa201100dcc4a4c64dc9cd10d1729dad8730ac358.jpg",
+        "url": "https://twitter.com/boostmarks"
+      },
+      "url": "https://twitter.com/boostmarks/status/1271369250213638145",
+      "published": "2020-06-12T09:10:24+00:00",
+      "wm-received": "2020-06-12T09:27:25Z",
+      "wm-id": 809768,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1271367498726858752/1271369250213638145",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/12/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Did I create a Dareboost Netlify Build Plugin because I wanted to give weight to this community request made by <a href=\"https://twitter.com/simonhearne\">@simonhearne</a>?\n\nYou can't prove it 😉\n<a class=\"u-mention\" href=\"https://community.netlify.com/t/setting-response-headers-only-on-documents/6144\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Dareboost\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Netlify\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/alwaysdata\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "Did I create a Dareboost Netlify Build Plugin because I wanted to give weight to this community request made by <a href=\"https://twitter.com/simonhearne\">@simonhearne</a>?<br /><br />You can't prove it 😉",
+        "text": "Did I create a Dareboost Netlify Build Plugin because I wanted to give weight to this community request made by @simonhearne?\n\nYou can't prove it 😉"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/06/12/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1271370649219616769",
+      "published": "2020-06-12T09:15:58+00:00",
+      "wm-received": "2020-06-12T09:27:28Z",
+      "wm-id": 809769,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1271367498726858752/1271370649219616769",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/12/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "😅\n\nWell done! 👍\n<a class=\"u-mention\" href=\"https://community.netlify.com/t/setting-response-headers-only-on-documents/6144\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Dareboost\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Netlify\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/alwaysdata\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/boostmarks\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/simonhearne\"></a>",
+        "html": "😅<br /><br />Well done! 👍",
+        "text": "😅\n\nWell done! 👍"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/06/12/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Simon Hearne",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/03b3826cec503910363c82042f891e633090b4dfb14beecd2728980b1bc14eaf.jpg",
+        "url": "https://twitter.com/simonhearne"
+      },
+      "url": "https://twitter.com/simonhearne/status/1271372988638793728",
+      "published": "2020-06-12T09:25:16+00:00",
+      "wm-received": "2020-06-12T09:27:25Z",
+      "wm-id": 809767,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1271367498726858752/1271372988638793728",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/12/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "It is on my list to look into that! Is the plugin public?\n<a class=\"u-mention\" href=\"https://community.netlify.com/t/setting-response-headers-only-on-documents/6144\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Dareboost\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Netlify\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/alwaysdata\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/boostmarks\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "It is on my list to look into that! Is the plugin public?",
+        "text": "It is on my list to look into that! Is the plugin public?"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/06/12/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoffmann",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/b6ccd529f1a26a908dddff90d90bef7b5eb6ca359e6d71d3bcca49c0e30b2688.jpg",
+        "url": "https://twitter.com/Nico3333fr"
+      },
+      "url": "https://twitter.com/Nico3333fr/status/1271375618727391233",
+      "published": "2020-06-12T09:35:43+00:00",
+      "wm-received": "2020-06-12T10:12:04Z",
+      "wm-id": 809781,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1271367498726858752/1271375618727391233",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/12/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "What blocks you with Netlify to get a high score? (curiosity)\n<a class=\"u-mention\" href=\"https://community.netlify.com/t/setting-response-headers-only-on-documents/6144\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Dareboost\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Netlify\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/alwaysdata\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "What blocks you with Netlify to get a high score? (curiosity)",
+        "text": "What blocks you with Netlify to get a high score? (curiosity)"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/06/12/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1271377840441876480",
+      "published": "2020-06-12T09:44:32+00:00",
+      "wm-received": "2020-06-12T10:12:13Z",
+      "wm-id": 809782,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1271367498726858752/1271377840441876480",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/12/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "We can't unset/override the caching headers they already set, and we can't target just documents for additional headers.\n\nIt's in the link in my tweet… 😉\n<a class=\"u-mention\" href=\"https://community.netlify.com/t/setting-response-headers-only-on-documents/6144\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Dareboost\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Netlify\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Nico3333fr\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/alwaysdata\"></a>",
+        "html": "We can't unset/override the caching headers they already set, and we can't target just documents for additional headers.<br /><br />It's in the link in my tweet… 😉",
+        "text": "We can't unset/override the caching headers they already set, and we can't target just documents for additional headers.\n\nIt's in the link in my tweet… 😉"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/06/12/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoffmann",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/b6ccd529f1a26a908dddff90d90bef7b5eb6ca359e6d71d3bcca49c0e30b2688.jpg",
+        "url": "https://twitter.com/Nico3333fr"
+      },
+      "url": "https://twitter.com/Nico3333fr/status/1271381315250782213",
+      "published": "2020-06-12T09:58:21+00:00",
+      "wm-received": "2020-06-12T10:12:37Z",
+      "wm-id": 809783,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1271367498726858752/1271381315250782213",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/12/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Ah sorry, I though this was due to other reasons, because I was thinking to what I did on another case <a href=\"https://github.com/ProtonMail/design-system/blob/master/_headers\">github.com/ProtonMail/des…</a> but it is not the same case :)\n<a class=\"u-mention\" href=\"https://community.netlify.com/t/setting-response-headers-only-on-documents/6144\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Dareboost\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Netlify\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/alwaysdata\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "Ah sorry, I though this was due to other reasons, because I was thinking to what I did on another case <a href=\"https://github.com/ProtonMail/design-system/blob/master/_headers\">github.com/ProtonMail/des…</a> but it is not the same case :)",
+        "text": "Ah sorry, I though this was due to other reasons, because I was thinking to what I did on another case github.com/ProtonMail/des… but it is not the same case :)"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/06/12/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1271391997127991296",
+      "published": "2020-06-12T10:40:48+00:00",
+      "wm-received": "2020-06-12T10:45:41Z",
+      "wm-id": 809787,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1271367498726858752/1271391997127991296",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/12/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Are your Cache-Control headers working?\n\nAlso, I'm not sure you need the double quotes around CSP and FP values.\n<a class=\"u-mention\" href=\"https://community.netlify.com/t/setting-response-headers-only-on-documents/6144\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Dareboost\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Netlify\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Nico3333fr\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/alwaysdata\"></a>",
+        "html": "Are your Cache-Control headers working?<br /><br />Also, I'm not sure you need the double quotes around CSP and FP values.",
+        "text": "Are your Cache-Control headers working?\n\nAlso, I'm not sure you need the double quotes around CSP and FP values."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/06/12/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoffmann",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/b6ccd529f1a26a908dddff90d90bef7b5eb6ca359e6d71d3bcca49c0e30b2688.jpg",
+        "url": "https://twitter.com/Nico3333fr"
+      },
+      "url": "https://twitter.com/Nico3333fr/status/1271393753421484032",
+      "published": "2020-06-12T10:47:46+00:00",
+      "wm-received": "2020-06-12T11:30:09Z",
+      "wm-id": 809795,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1271367498726858752/1271393753421484032",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/12/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Holy shit, you're right, it seems that the header are not taken into account, but as assets were on CDNs, I didn't notice that ^^\n<a class=\"u-mention\" href=\"https://community.netlify.com/t/setting-response-headers-only-on-documents/6144\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Dareboost\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Netlify\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/alwaysdata\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "Holy shit, you're right, it seems that the header are not taken into account, but as assets were on CDNs, I didn't notice that ^^",
+        "text": "Holy shit, you're right, it seems that the header are not taken into account, but as assets were on CDNs, I didn't notice that ^^"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/06/12/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1271394398052462592",
+      "published": "2020-06-12T10:50:20+00:00",
+      "wm-received": "2020-06-12T11:29:36Z",
+      "wm-id": 809792,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1271367498726858752/1271394398052462592",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/12/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "👍\n<a class=\"u-mention\" href=\"https://community.netlify.com/t/setting-response-headers-only-on-documents/6144\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Dareboost\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Netlify\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Nico3333fr\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/alwaysdata\"></a>",
+        "html": "👍",
+        "text": "👍"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/06/12/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Boris Schapira 🚀",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/5ee9406245c84f10b637d5bfa201100dcc4a4c64dc9cd10d1729dad8730ac358.jpg",
+        "url": "https://twitter.com/boostmarks"
+      },
+      "url": "https://twitter.com/boostmarks/status/1271395732478664704",
+      "published": "2020-06-12T10:55:38+00:00",
+      "wm-received": "2020-06-12T11:29:47Z",
+      "wm-id": 809793,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1271367498726858752/1271395732478664704",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/12/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "The plug-in is public but you need a Dareboost plan to use it. No plan, no monitoring to put an event onto and no API credits to launch analysis.\n<a class=\"u-mention\" href=\"https://community.netlify.com/t/setting-response-headers-only-on-documents/6144\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Dareboost\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Netlify\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/alwaysdata\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/simonhearne\"></a>",
+        "html": "The plug-in is public but you need a Dareboost plan to use it. No plan, no monitoring to put an event onto and no API credits to launch analysis.",
+        "text": "The plug-in is public but you need a Dareboost plan to use it. No plan, no monitoring to put an event onto and no API credits to launch analysis."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/06/12/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Boris Schapira 🚀",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/5ee9406245c84f10b637d5bfa201100dcc4a4c64dc9cd10d1729dad8730ac358.jpg",
+        "url": "https://twitter.com/boostmarks"
+      },
+      "url": "https://twitter.com/boostmarks/status/1271396146771091456",
+      "published": "2020-06-12T10:57:17+00:00",
+      "wm-received": "2020-06-12T11:29:47Z",
+      "wm-id": 809794,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1271367498726858752/1271396146771091456",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/12/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "If you want to try out, we can give you a trial period.\n<a class=\"u-mention\" href=\"https://community.netlify.com/t/setting-response-headers-only-on-documents/6144\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Dareboost\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Netlify\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/alwaysdata\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/simonhearne\"></a>",
+        "html": "If you want to try out, we can give you a trial period.",
+        "text": "If you want to try out, we can give you a trial period."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/06/12/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Anthony Ricaud",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e80edb77f394e47700bbb6f7ce5ded4c4c76cf6ea8108058646b7a5485a7576f.jpg",
+        "url": "https://twitter.com/anthony_ricaud"
+      },
+      "url": "https://twitter.com/anthony_ricaud/status/1271403597914419200",
+      "published": "2020-06-12T11:26:53+00:00",
+      "wm-received": "2020-06-12T11:29:33Z",
+      "wm-id": 809791,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1270736088496250880/1271403597914419200",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "content": {
+        "content-type": "text/html",
+        "value": "What bad case?\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/JeremiePat\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/PascalMassimino\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/webkit\"></a>",
+        "html": "What bad case?",
+        "text": "What bad case?"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "wm-property": "in-reply-to",
       "wm-private": false
     }
   ]
