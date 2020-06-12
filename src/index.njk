@@ -42,7 +42,7 @@ JSON-LD for:
 <h2>Latest article</h2>
 <ul class="list">
   {% for article in collections.articles | limit(1) %}
-    <li class="list__item list__item--large">
+    <li class="item">
       <div class="card card--article h-entry">
         {{ articleCard(article.data.title, article.url, article.data.lang, article.date, article.data.tags, article.templateContent, webmentions, comments ) }}
       </div>
@@ -53,7 +53,7 @@ JSON-LD for:
 <h2>Noteworthy articles</h2>
 <ul class="list">
   {% for article in collections.promoted | limit(3) %}
-    <li class="list__item list__item--large">
+    <li class="item">
       <div class="card card--article h-entry">
         {{ articleCard(article.data.title, article.url, article.data.lang, article.date, article.data.tags, article.templateContent, webmentions, comments ) }}
       </div>

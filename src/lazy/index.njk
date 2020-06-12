@@ -5,9 +5,9 @@ title: Home
 {% from "macros/linkCard.njk" import linkCard %}
 
 <h2>Recent links</h2>
-<ul class="list">
-  {% for link in collections.links | limit(6) %}
-    <li class="list__item">
+<ul class="grid">
+  {% for link in collections.links | limit(4) %}
+    <li class="item">
       <div class="card card--link h-entry">
         {{ linkCard(link.data.title, link.url, link.data.link, link.data.authors, link.date, link.data.tags, webmentions) }}
       </div>

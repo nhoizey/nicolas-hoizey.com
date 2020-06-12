@@ -1,25 +1,29 @@
-.card {
-  margin: 0;
-  padding: 0;
-}
-
-.card--note .card__content {
+.card--note {
+  position: relative;
   font-size: var(--font-size-s);
-  padding: 0.5em;
-  border-radius: 0.3em;
-  background-color: $color-primary-lighter-7;
-  background: linear-gradient(
-    135deg,
-    $color-primary-lighter-5,
-    $color-primary-lighter-7
-  );
+  padding: 1em;
+  border: 2px solid $color-grey;
+  border-radius: 0.5em;
+  background-color: $color-white;
+  transition: border 0.3s ease-in-out;
 
-  p {
-    margin: 0;
+  &:hover {
+    border: 2px solid $color-primary;
   }
 
-  p + p {
-    margin: 1em 0;
+  .card__content {
+    margin: 0;
+
+    & > * + * {
+      margin: $baseline 0;
+    }
+  }
+
+  .meta {
+    margin-top: $baseline;
+    margin-bottom: 0;
+    padding-top: $baseline / 2;
+    border-top: 1px solid $color-lightgrey;
   }
 }
 

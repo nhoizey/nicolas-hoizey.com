@@ -95,14 +95,6 @@
     }
   }
 
-  .webmention__content {
-    margin: 0;
-
-    p {
-      margin: 0;
-    }
-  }
-
   .webmention__meta {
     color: $meta-color;
     --link-decoration-color: #{$meta-link-decoration-color};

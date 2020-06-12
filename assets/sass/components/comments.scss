@@ -35,14 +35,6 @@
   border-radius: 5px;
 }
 
-.comment__content {
-  margin: 0;
-
-  p {
-    margin: 0;
-  }
-}
-
 .comment__meta {
   color: $meta-color;
   --link-decoration-color: #{$meta-link-decoration-color};

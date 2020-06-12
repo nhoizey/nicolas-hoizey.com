@@ -13,7 +13,7 @@ renderData:
 
 <ul class="list">
   {% for link in collections.linksByMonth[month] %}
-    <li class="list__item">
+    <li class="item">
       <div class="card card--link">
         {{ linkCard(link.data.title, link.url, link.data.link, link.data.authors, link.date, link.data.tags, webmentions) }}
       </div>

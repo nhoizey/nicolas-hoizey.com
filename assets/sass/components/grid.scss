@@ -1,0 +1,17 @@
+.grid {
+  clear: both;
+
+  display: grid;
+  grid-gap: $baseline * 2;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  grid-auto-flow: dense;
+
+  margin: calc(#{$baseline} * 2) 0;
+  padding: 0;
+
+  list-style-type: none;
+
+  .full {
+    grid-column: 1 / -1;
+  }
+}

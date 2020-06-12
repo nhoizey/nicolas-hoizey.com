@@ -13,7 +13,7 @@ eleventyComputed:
 
 <ul class="list">
   {% for note in collections.notesByYear[year] %}
-    <li class="list__item">
+    <li class="item">
       <div class="card card--note">
         {{ noteCard(note.url, note.lang, note.date, note.data.tags, note.templateContent, webmentions) }}
       </div>

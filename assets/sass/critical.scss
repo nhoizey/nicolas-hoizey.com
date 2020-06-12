@@ -11,6 +11,7 @@
 @import 'components/meta.scss';
 @import 'components/intro.scss';
 @import 'components/list.scss';
+@import 'components/grid.scss';
 @import 'components/card.scss';
 @import 'components/tweets.scss';
 @import 'components/prevnext.scss';
@@ -76,6 +77,16 @@ body:not(.layout-note) .e-content > p:first-of-type {
   color: #555;
   font-weight: bold;
   letter-spacing: 0.02em;
+}
+
+p,
+ul,
+ol,
+dl,
+table,
+blockquote {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .e-content {
@@ -306,8 +317,4 @@ figcaption {
   margin: 0.1em 1em;
   padding: 0.3em 0;
   color: #666;
-
-  p {
-    margin: 0;
-  }
 }
