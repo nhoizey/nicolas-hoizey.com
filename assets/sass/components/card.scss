@@ -1,34 +1,30 @@
-.card--note {
+$card-radius: 0.5em;
+$card-padding: 1em;
+
+.card {
   position: relative;
-  font-size: var(--font-size-s);
-  padding: 1em;
+  padding: $card-padding;
+
   border: 2px solid $color-grey;
-  border-radius: 0.5em;
+  border-radius: $card-radius;
   background-color: $color-white;
   transition: border 0.3s ease-in-out;
-
   &:hover {
     border: 2px solid $color-primary;
   }
 
-  .card__content {
-    margin: 0;
-
-    & > * + * {
-      margin: $baseline 0;
-    }
-  }
-
-  .meta {
+  & > * + * {
     margin-top: $baseline;
     margin-bottom: 0;
-    padding-top: $baseline / 2;
-    border-top: 1px solid $color-lightgrey;
   }
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 // https://tobiasahlin.com/blog/how-to-animate-box-shadow/
-.card--note::after {
+.card::after {
   content: '';
   position: absolute;
   left: 0;
@@ -36,7 +32,7 @@
   top: 0;
   bottom: 0;
   z-index: -1;
-  border-radius: 0.5em;
+  border-radius: $card-radius;
 
   opacity: 0;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
@@ -45,50 +41,54 @@
   transition: opacity 0.3s ease-in-out;
 }
 
-.card--note:hover::after {
+.card:hover::after {
   opacity: 1;
 }
 
-.card__image img {
-  margin: 0;
-  border: 1px solid #ddd;
+.card__illustration {
+  margin-top: -1 * $card-padding;
+  margin-left: -1 * $card-padding;
+  margin-right: -1 * $card-padding;
+  margin-bottom: 0;
+
+  img {
+    margin: 0;
+    border-width: 2px;
+    border-style: solid;
+    border-color: $color-white $color-white $color-lightgrey $color-white;
+    border-radius: $card-radius $card-radius 0 0;
+  }
 }
 
-.card__source {
-  margin: 0;
-  padding: 0;
-  font-size: var(--font-size-xs);
+.card__content {
+  flex: 1;
+
+  & > * + * {
+    margin-top: $baseline;
+    margin-bottom: 0;
+  }
+}
+
+.card__surtitle {
   color: $color-darkgrey;
 
   .u-photo {
-    display: inline;
-    margin: 0;
-    padding: 0;
     width: 1.2em;
     height: auto;
     border-radius: 0.3em;
     vertical-align: middle;
-    overflow: hidden;
   }
 }
 
 .card__title {
-  margin: 0;
-  padding: 0;
+  font-size: var(--font-size-xl);
   font-weight: bold;
   letter-spacing: -0.02em;
 
-  .card--article & {
-    font-size: var(--font-size-xl);
+  .card__surtitle + & {
+    margin-top: 0;
   }
 }
 
-.card__excerpt,
-.card__content {
-  margin: 0.5em 0;
-}
-
-.card__date,
-.card__webmentionscount {
-  white-space: nowrap;
+.card__text {
 }

@@ -366,18 +366,18 @@ function searchCallback(err, content) {
       hit_tags = hit_tags.replace(/^, /, '');
     }
 
-    result = `<li class="item"><div class="card"><p class="card__title"><a href="${hit.url}">${hit_title}</a></p><p class="card__excerpt">${hit_excerpt}</p>`;
+    result = `<li class="card"><div class="card__content"><p class="card__title"><a href="${hit.url}">${hit_title}</a></p><p class="card__text">${hit_excerpt}</p></div>`;
     if (hit_date || hit_tags) {
-      result += '<footer><ul class="meta">';
+      result += '<div class="card__meta"><ul class="meta">';
       if (hit_date) {
-        result += `<li class="date meta__item card__date"><svg class="icon"><use xlink:href="#symbol-date" /></svg> ${hit_date}</li>`;
+        result += `<li class="date meta__item meta__date"><svg class="icon"><use xlink:href="#symbol-date" /></svg> ${hit_date}</li>`;
       }
       if (hit_tags) {
         result += `<li class="tags meta__item card__tags"><svg class="icon"><use xlink:href="#symbol-tags" /></svg> ${hit_tags}</li>`;
       }
-      result += '</ul></footer>';
+      result += '</ul></div>';
     }
-    result += '</div></li>';
+    result += '</li>';
 
     results += result;
   }

@@ -7,10 +7,8 @@ title: Home
 <h2>Recent links</h2>
 <ul class="grid">
   {% for link in collections.links | limit(4) %}
-    <li class="item">
-      <div class="card card--link h-entry">
-        {{ linkCard(link.data.title, link.url, link.data.link, link.data.authors, link.date, link.data.tags, webmentions) }}
-      </div>
+    <li class="card h-entry">
+      {{ linkCard(link.data.title, link.url, link.data.link, link.data.authors, link.date, link.data.tags, webmentions) }}
     </li>
   {% endfor %}
 </ul>
@@ -21,10 +19,8 @@ title: Home
 <h2>Recent notes</h2>
 <ul class="grid">
   {% for note in collections.notes | limit(4) %}
-    <li class="item">
-      <div class="card card--note h-entry">
-        {{ noteCard(note.url, note.lang, note.date, note.data.tags, note.templateContent, webmentions) }}
-      </div>
+    <li class="card h-entry">
+      {{ noteCard(note.url, note.lang, note.date, note.data.tags, note.templateContent, webmentions) }}
     </li>
   {% endfor %}
 </ul>

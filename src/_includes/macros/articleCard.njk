@@ -1,10 +1,12 @@
 {% macro articleCard(title, url, lang, date, tags, content, webmentions, comments) %}
-  <p class="card__title p-name">
-    <a href="{{ url }}" hreflang="{{ lang }}" class="u-url">{{ title }}</a>
-  </p>
-  <p class="card__excerpt p-summary">{{ content | excerpt | safe }}</p>
-
-  {% from "macros/meta.njk" import meta %}
-  {{ meta(title, url, date, tags, 'articles', webmentions, false, comments) }}
-
+  <div class="card__content">
+    <p class="card__title p-name">
+      <a href="{{ url }}" hreflang="{{ lang }}" class="u-url">{{ title }}</a>
+    </p>
+    <p class="card__text p-summary">{{ content | excerpt | safe }}</p>
+  </div>
+  <div class="card__meta">
+    {% from "macros/meta.njk" import meta %}
+    {{ meta(title, url, date, tags, 'articles', webmentions, false, comments) }}
+  </div>
 {% endmacro %}

@@ -1,34 +1,36 @@
 {% macro linkCard(title, url, link, authors, date, tags, webmentions) %}
 
   {% set thumbUrl = 'https://image.thum.io/get/width/1200/crop/800/noanimate/' %}
-  <figure class="card__image">
+  <figure class="card__illustration">
     <img
       alt="screenshot of {{ title }}"
-      width="300"
-      height="200"
+      width="1200"
+      height="800"
       src="{{ thumbUrl }}{{ link }}"
       class="vignette"
       crossorigin="anonymous" />
   </figure>
-  {% if authors %}
-    <p class="card__source">
-      {%- for author in authors -%}
-        {%- if not loop.first -%}
-          {%- if not loop.last -%}, {% else %} and {% endif -%}
-        {%- endif -%}
-        {%- if author.twitter -%}
-          <img class="u-photo smallavatar" src="https://res.cloudinary.com/nho/image/twitter_name/{{ author.twitter }}" alt="{{ author.name }} avatar" width="24" height="24"/> 
-        {%- endif %}
-        {{ author.name }}
-      {%- endfor %}
-      wrote
+  <div class="card__content">
+    {% if authors %}
+      <p class="card__surtitle">
+        {%- for author in authors -%}
+          {%- if not loop.first -%}
+            {%- if not loop.last -%}, {% else %} and {% endif -%}
+          {%- endif -%}
+          {%- if author.twitter -%}
+            <img class="u-photo smallavatar" src="https://res.cloudinary.com/nho/image/twitter_name/{{ author.twitter }}" alt="{{ author.name }} avatar" width="24" height="24"/> 
+          {%- endif %}
+          {{ author.name }}
+        {%- endfor %}
+        wrote
+      </p>
+    {% endif %}
+    <p class="card__title">
+      <a href="{{ url }}">{{ title }}</a>
     </p>
-  {% endif %}
-  <p class="card__title">
-    <a href="{{ url }}">{{ title }}</a>
-  </p>
-
-  {% from "macros/meta.njk" import meta %}
-  {{ meta(title, url, date, tags, 'links', webmentions) }}
-
+  </div>
+  <div class="card__meta">
+    {% from "macros/meta.njk" import meta %}
+    {{ meta(title, url, date, tags, 'links', webmentions) }}
+  </div>
 {% endmacro %}

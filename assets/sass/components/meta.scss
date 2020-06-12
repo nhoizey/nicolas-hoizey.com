@@ -1,5 +1,4 @@
 .meta {
-  margin: 0.5em 0;
   padding: 0;
   color: $meta-color;
   font-size: var(--font-size-xs);
@@ -14,7 +13,7 @@
 
   a {
     --link-decoration-color: #{$meta-link-decoration-color};
-    padding: 0.3em 0.1em;
+    padding: 0.2em 0.1em;
   }
 
   svg {
@@ -26,4 +25,9 @@
     width: 1.1em;
     height: 1.1em;
   }
+}
+
+.meta__date,
+.meta__webmentionscount {
+  white-space: nowrap;
 }

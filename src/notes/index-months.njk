@@ -11,12 +11,10 @@ renderData:
 
 {% from "macros/noteCard.njk" import noteCard %}
 
-<ul class="list">
+<ul class="grid">
   {% for note in collections.notesByMonth[month] %}
-    <li class="item">
-      <div class="card card--note">
-        {{ noteCard(note.url, note.lang, note.date, note.data.tags, note.templateContent, webmentions) }}
-      </div>
+    <li class="card">
+      {{ noteCard(note.url, note.lang, note.date, note.data.tags, note.templateContent, webmentions) }}
     </li>
   {% endfor %}
 </ul>
