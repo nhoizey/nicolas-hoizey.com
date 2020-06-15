@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-06-12T17:27:42.789Z",
+  "lastFetched": "2020-06-15T16:57:21.628Z",
   "webmentions": [
     {
       "type": "entry",
@@ -55690,6 +55690,75 @@
       },
       "in-reply-to": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
       "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "зелёный чай плацкарта",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f8a11c00b725034847e3114e88a6cf5eca47267d9b13a0bbddc782a5cef91023.jpg",
+        "url": "https://twitter.com/dartist21"
+      },
+      "url": "https://twitter.com/nhoizey/status/1271076616882524161#favorited-by-1516339345",
+      "published": null,
+      "wm-received": "2020-06-13T05:46:22Z",
+      "wm-id": 809992,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1271076616882524161/1516339345",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Max Zhukov",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/48c311f571b493032b12528c9398a884ec839e8124495597b1c87b4bf9d59f74.jpg",
+        "url": "https://twitter.com/maxzhuk0v"
+      },
+      "url": "https://twitter.com/maxzhuk0v/status/1272118680806215680",
+      "published": "2020-06-14T10:48:22+00:00",
+      "wm-received": "2020-06-14T11:04:28Z",
+      "wm-id": 810340,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/nhoizey/1272118680806215680",
+      "wm-target": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/?ref=sidebar",
+      "content": {
+        "content-type": "text/html",
+        "value": "<a href=\"https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/?ref=sidebar\">nicolas-hoizey.com/articles/2020/…</a>",
+        "html": "<a href=\"https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/?ref=sidebar\">nicolas-hoizey.com/articles/2020/…</a>",
+        "text": "nicolas-hoizey.com/articles/2020/…"
+      },
+      "mention-of": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/?ref=sidebar",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "CoderYoga🧘‍♂️",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a9501db20d1bfa6db0160dee83d1f3c7335afe56baa83c95287e5408ef2a6261.jpg",
+        "url": "https://twitter.com/KoderJS"
+      },
+      "url": "https://twitter.com/KoderJS/status/1272193677411024897",
+      "published": "2020-06-14T15:46:23+00:00",
+      "wm-received": "2020-06-15T05:24:18Z",
+      "wm-id": 810630,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/nhoizey/1272193677411024897",
+      "wm-target": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+      "photo": [
+        "https://pbs.twimg.com/media/Eae9ZL5UYAEwhfv.jpg"
+      ],
+      "content": {
+        "content-type": "text/html",
+        "value": "<a href=\"https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/\">nicolas-hoizey.com/articles/2020/…</a>\n<a href=\"https://twitter.com/search?q=%23nodejs\">#nodejs</a> <a href=\"https://twitter.com/search?q=%23Javascript\">#Javascript</a> <a href=\"https://twitter.com/search?q=%23MSBotFramework\">#MSBotFramework</a> <a href=\"https://twitter.com/search?q=%23botframework\">#botframework</a> <a href=\"https://twitter.com/search?q=%23Coding\">#Coding</a> <a href=\"https://twitter.com/search?q=%23programmer\">#programmer</a> <a href=\"https://twitter.com/search?q=%23CodingTips\">#CodingTips</a> <a href=\"https://twitter.com/search?q=%23ProgrammerNews\">#ProgrammerNews</a> \nJAMstack is fast only if you make it so",
+        "html": "<a href=\"https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/\">nicolas-hoizey.com/articles/2020/…</a><br /><a href=\"https://twitter.com/search?q=%23nodejs\">#nodejs</a> <a href=\"https://twitter.com/search?q=%23Javascript\">#Javascript</a> <a href=\"https://twitter.com/search?q=%23MSBotFramework\">#MSBotFramework</a> <a href=\"https://twitter.com/search?q=%23botframework\">#botframework</a> <a href=\"https://twitter.com/search?q=%23Coding\">#Coding</a> <a href=\"https://twitter.com/search?q=%23programmer\">#programmer</a> <a href=\"https://twitter.com/search?q=%23CodingTips\">#CodingTips</a> <a href=\"https://twitter.com/search?q=%23ProgrammerNews\">#ProgrammerNews</a> <br />JAMstack is fast only if you make it so",
+        "text": "nicolas-hoizey.com/articles/2020/…\n#nodejs #Javascript #MSBotFramework #botframework #Coding #programmer #CodingTips #ProgrammerNews \nJAMstack is fast only if you make it so"
+      },
+      "mention-of": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+      "wm-property": "mention-of",
       "wm-private": false
     }
   ]
