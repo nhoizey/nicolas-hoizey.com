@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-06-16T13:12:35.910Z",
+  "lastFetched": "2020-06-16T16:23:13.412Z",
   "webmentions": [
     {
       "type": "entry",
@@ -55792,6 +55792,24 @@
       "wm-received": "2020-06-15T22:08:10Z",
       "wm-id": 810930,
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1272613515119992833/1238894545909288967",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/15/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/06/15/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Karl Swedberg",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/987bde1ae24efaeb06b3cc26a749661609c59848f6c9bbe15b80ebc316623367.jpg",
+        "url": "https://twitter.com/kswedberg"
+      },
+      "url": "https://twitter.com/nhoizey/status/1272613515119992833#favorited-by-10950672",
+      "published": null,
+      "wm-received": "2020-06-16T15:29:13Z",
+      "wm-id": 811309,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1272613515119992833/10950672",
       "wm-target": "https://nicolas-hoizey.com/notes/2020/06/15/1/",
       "like-of": "https://nicolas-hoizey.com/notes/2020/06/15/1/",
       "wm-property": "like-of",
