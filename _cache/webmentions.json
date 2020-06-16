@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-06-15T16:57:21.628Z",
+  "lastFetched": "2020-06-16T13:12:35.910Z",
   "webmentions": [
     {
       "type": "entry",
@@ -55759,6 +55759,42 @@
       },
       "mention-of": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
       "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Yvain Liechti",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/435b28d6c561faa8ea38ab4a8da6fe3f30bb7ec9d737a75ae1bef9c0201f2e0d.jpg",
+        "url": "https://twitter.com/ryuran78"
+      },
+      "url": "https://twitter.com/nhoizey/status/1272613515119992833#favorited-by-79130645",
+      "published": null,
+      "wm-received": "2020-06-15T21:13:32Z",
+      "wm-id": 810901,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1272613515119992833/79130645",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/15/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/06/15/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "DotNet Max",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/30284f983f5696ca29140d4ca055b02c717d2b70158a4604e03228b5e2bd8a20.jpg",
+        "url": "https://twitter.com/dotnet_max"
+      },
+      "url": "https://twitter.com/nhoizey/status/1272613515119992833#favorited-by-1238894545909288967",
+      "published": null,
+      "wm-received": "2020-06-15T22:08:10Z",
+      "wm-id": 810930,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1272613515119992833/1238894545909288967",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/15/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/06/15/1/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
