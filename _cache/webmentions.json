@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-06-16T16:23:13.412Z",
+  "lastFetched": "2020-06-16T19:37:36.717Z",
   "webmentions": [
     {
       "type": "entry",
@@ -54075,6 +54075,30 @@
       "type": "entry",
       "author": {
         "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/mamot.fr/5fa24c7dbcb46640e1137d65e156fbcb15bc2e3759135ed7481ae94ace2e80fb.jpg",
+        "url": "https://mamot.fr/@nhoizey"
+      },
+      "url": "https://mamot.fr/@nhoizey/104253800829047840",
+      "published": "2020-05-29T21:12:35",
+      "wm-received": "2020-06-16T18:16:37Z",
+      "wm-id": 811362,
+      "wm-source": "https://brid-gy.appspot.com/comment/mastodon/@nhoizey@mamot.fr/104250671543739544/104253800829047840",
+      "wm-target": "https://nicolas-hoizey.com/articles/2020/05/29/identify-which-apache-rewrite-rules-are-used/",
+      "content": {
+        "content-type": "text/html",
+        "value": "<p><span class=\"h-card\"><a href=\"https://mamot.fr/@nicod_\" class=\"u-url\">@<span>nicod_</span></a></span> plaisir de partager ! 😁</p>",
+        "html": "<a href=\"https://mamot.fr/@nicod_\">@nicod_</a> plaisir de partager ! 😁",
+        "text": "@nicod_ plaisir de partager ! 😁"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/articles/2020/05/29/identify-which-apache-rewrite-rules-are-used/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
         "name": "Arnaud Ligny 👨‍💻 💡 🚀",
         "photo": "https://webmention.io/avatar/pbs.twimg.com/afdaad5e58f3f5186fe0155018d61b5726714e5d79f20fcf93c85a19edd512b4.jpg",
         "url": "https://twitter.com/ArnaudLigny"
@@ -55795,6 +55819,30 @@
       "wm-target": "https://nicolas-hoizey.com/notes/2020/06/15/1/",
       "like-of": "https://nicolas-hoizey.com/notes/2020/06/15/1/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/mamot.fr/5fa24c7dbcb46640e1137d65e156fbcb15bc2e3759135ed7481ae94ace2e80fb.jpg",
+        "url": "https://mamot.fr/@nhoizey"
+      },
+      "url": "https://mamot.fr/@nhoizey/104354755264895823",
+      "published": "2020-06-16T17:06:38",
+      "wm-received": "2020-06-16T18:16:37Z",
+      "wm-id": 811363,
+      "wm-source": "https://brid-gy.appspot.com/comment/mastodon/@nhoizey@mamot.fr/104250671543739544/104354755264895823",
+      "wm-target": "https://nicolas-hoizey.com/articles/2020/05/29/identify-which-apache-rewrite-rules-are-used/",
+      "content": {
+        "content-type": "text/html",
+        "value": "<p>For 15 days in June, there have already been 26,658 redirects to one single article URL, from one of the old URLs:<br /><a href=\"https://nicolas-hoizey.com/articles/2016/03/02/people-don-t-change-the-default-16px-font-size-in-their-browser/\"><span>https://</span><span>nicolas-hoizey.com/articles/20</span><span>16/03/02/people-don-t-change-the-default-16px-font-size-in-their-browser/</span></a></p><p>26,658 ! 😮</p><p><a href=\"https://mamot.fr/tags/CoolURIsDontChange\">#<span>CoolURIsDontChange</span></a> or at least there are redirects… 😅</p>\n<a class=\"p-category\" href=\"https://mamot.fr/tags/CoolURIsDontChange\">CoolURIsDontChange</a>\n<a href=\"https://nicolas-hoizey.com/articles/2016/03/02/people-don-t-change-the-default-16px-font-size-in-their-browser/\">People don't change the default 16px font size in their browser (You wish!)</a>",
+        "html": "For 15 days in June, there have already been 26,658 redirects to one single article URL, from one of the old URLs:<br /><a href=\"https://nicolas-hoizey.com/articles/2016/03/02/people-don-t-change-the-default-16px-font-size-in-their-browser/\">https://nicolas-hoizey.com/articles/2016/03/02/people-don-t-change-the-default-16px-font-size-in-their-browser/</a>26,658 ! 😮<a href=\"https://mamot.fr/tags/CoolURIsDontChange\">#CoolURIsDontChange</a> or at least there are redirects… 😅<br /><a href=\"https://mamot.fr/tags/CoolURIsDontChange\">CoolURIsDontChange</a><br /><a href=\"https://nicolas-hoizey.com/articles/2016/03/02/people-don-t-change-the-default-16px-font-size-in-their-browser/\">People don't change the default 16px font size in their browser (You wish!)</a>",
+        "text": "For 15 days in June, there have already been 26,658 redirects to one single article URL, from one of the old URLs:\nhttps://nicolas-hoizey.com/articles/2016/03/02/people-don-t-change-the-default-16px-font-size-in-their-browser/26,658 ! 😮#CoolURIsDontChange or at least there are redirects… 😅\nCoolURIsDontChange\nPeople don't change the default 16px font size in their browser (You wish!)"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/articles/2020/05/29/identify-which-apache-rewrite-rules-are-used/",
+      "wm-property": "in-reply-to",
       "wm-private": false
     },
     {
