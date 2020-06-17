@@ -46,11 +46,12 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
 <article
     class="main clearfix h-entry"
     lang="{{ lang }}">
-  <h1 class="card__title">{{ page.date | date("Do MMMM YYYY[,] H:mm:ss") }}</h1>
-  <div class="e-content">{{ content | noteToHtml | safe }}</div>
+  <h1>{{ page.date | date("Do MMMM YYYY[,] H:mm:ss") }}</h1>
 
   {% from "macros/meta.njk" import meta %}
-  {{ meta(false, page.url, page.date, tags, 'notes', webmentions) }}
+  {{ meta(false, page.url, page.date, tags, 'notes', webmentions, false, false, false) }}
+
+  <div class="e-content">{{ content | noteToHtml | safe }}</div>
 
   <p class="edit">If you want to share an error or suggest an enhancement of this content, please edit <a href="https://github.com/nhoizey/nicolas-hoizey.com/tree/master/{{ page.inputPath }}">the source on Github</a>.</p>
 

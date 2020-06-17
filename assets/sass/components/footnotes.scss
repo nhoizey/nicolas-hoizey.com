@@ -2,6 +2,10 @@
 // Footnotes
 // ************************************************************
 
+.footnotes-sep {
+  display: none;
+}
+
 .footnotes {
   margin: $baseline 0;
   background-color: #eee;
@@ -12,9 +16,13 @@
 
   ol {
     margin: 0;
-    padding: 0 1em 0 2em;
+    padding: 1em 1em 1em 2em;
     list-style-position: outside;
   }
+}
+
+.footnote-item + .footnote-item {
+  margin-top: 0.5em;
 }
 
 a.footnote.footnote {

@@ -7,6 +7,10 @@
   flex-wrap: wrap;
 }
 
+.note__meta {
+  margin: $baseline 0;
+}
+
 .meta__item {
   margin: 0 1em 0 1.5em;
   list-style-type: none;
