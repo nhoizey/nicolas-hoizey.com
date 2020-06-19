@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-06-17T13:40:15.007Z",
+  "lastFetched": "2020-06-19T23:57:13.994Z",
   "webmentions": [
     {
       "type": "entry",
@@ -55885,6 +55885,32 @@
       },
       "mention-of": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
       "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "LaPalice",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/2747a3dbae8c9a8407335f0e4f0c22161fcf18b837eef43e98a60998f439a9c6.jpg",
+        "url": "https://twitter.com/NLaPalice"
+      },
+      "url": "https://twitter.com/NLaPalice/status/1273864054638084096",
+      "published": "2020-06-19T06:23:52+00:00",
+      "wm-received": "2020-06-19T06:25:42Z",
+      "wm-id": 812118,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1273845045922332672/1273864054638084096",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/06/02/the-hell-with-dependencies-the-complete-guide-to-killing-local-dev-environments/",
+      "photo": [
+        "https://pbs.twimg.com/media/Ea2bUY8XsAEScY7.jpg"
+      ],
+      "content": {
+        "content-type": "text/plain",
+        "value": "🔗 “The Hell With Dependencies: The Complete Guide to Killing Local Dev Environments”\nby @m4d_z\n\n#VSCode #dev \n\nnho.io/l/2020/06/02/t… https",
+        "text": "🔗 “The Hell With Dependencies: The Complete Guide to Killing Local Dev Environments”\nby @m4d_z\n\n#VSCode #dev \n\nnho.io/l/2020/06/02/t… https"
+      },
+      "repost-of": "https://nicolas-hoizey.com/links/2020/06/02/the-hell-with-dependencies-the-complete-guide-to-killing-local-dev-environments/",
+      "wm-property": "repost-of",
       "wm-private": false
     }
   ]
