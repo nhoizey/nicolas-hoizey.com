@@ -1,6 +1,8 @@
 // Heavily inspired from
 // https://mxb.dev/blog/syndicating-content-to-twitter-with-netlify-functions/
 
+const myTwitterUsername = 'nhoizey';
+
 import fetch from 'node-fetch';
 import dotenv from 'dotenv';
 import Twitter from 'twitter';
@@ -45,15 +47,19 @@ const processFeed = async (feed) => {
   const latestItem = items[0];
 
   try {
-    // check twitter for any tweets containing item URL.
+    // check twitter for any tweets containing item URL in last 7 days (API limit).
+    // TODO: keep a cache of sent tweets instead of seaching with the API
     // if there are none, publish it.
-    const q = await twitter.get('search/tweets', { q: latestItem.url });
+    const q = await twitter.get('search/tweets', {
+      q: `${latestItem.url} from:${myTwitterUsername}`,
+      result_type: 'recent',
+    });
     if (q.statuses && q.statuses.length === 0) {
       return publishItem(latestItem);
     } else {
       return status(
         200,
-        'Latest item was already syndicated. No action necessary.'
+        `Latest item already on Twitter: https://twitter.com/${myTwitterUsername}/status/${q.statuses[0].id_str}`
       );
     }
   } catch (error) {
