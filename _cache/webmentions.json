@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-06-19T23:57:13.994Z",
+  "lastFetched": "2020-06-20T21:36:47.639Z",
   "webmentions": [
     {
       "type": "entry",
@@ -55910,6 +55910,32 @@
         "text": "🔗 “The Hell With Dependencies: The Complete Guide to Killing Local Dev Environments”\nby @m4d_z\n\n#VSCode #dev \n\nnho.io/l/2020/06/02/t… https"
       },
       "repost-of": "https://nicolas-hoizey.com/links/2020/06/02/the-hell-with-dependencies-the-complete-guide-to-killing-local-dev-environments/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "esviji",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/5d1486011edd6ed35301e056c64e278ed7d1595a1eb645e757ff1cd345bfd74a.png",
+        "url": "https://twitter.com/esviji"
+      },
+      "url": "https://twitter.com/esviji/status/1274293543893426176",
+      "published": "2020-06-20T10:50:30+00:00",
+      "wm-received": "2020-06-20T10:50:54Z",
+      "wm-id": 812667,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1274289123562577921/1274293543893426176",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/20/1/",
+      "photo": [
+        "https://pbs.twimg.com/media/Ea8vM34XsAIxVMl.jpg"
+      ],
+      "content": {
+        "content-type": "text/plain",
+        "value": "Would you play @esviji on your TV/console if d-pad/gamepad were supported?\n\nI should \"adapt to input\" as @grigs told us on @alistapart: http",
+        "text": "Would you play @esviji on your TV/console if d-pad/gamepad were supported?\n\nI should \"adapt to input\" as @grigs told us on @alistapart: http"
+      },
+      "repost-of": "https://nicolas-hoizey.com/notes/2020/06/20/1/",
       "wm-property": "repost-of",
       "wm-private": false
     }
