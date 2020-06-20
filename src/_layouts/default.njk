@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% set pageExcerpt = content | excerpt %}
-  {% include "head.njk" %}
+{% set pageExcerpt = content | excerpt %}
+{% include "head.njk" %}
 
   {% set section = page.outputPath | split('/') %}
   {% set section = section[1] | replace('index.html', 'home') %}

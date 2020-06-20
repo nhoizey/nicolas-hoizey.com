@@ -8,16 +8,17 @@ import entrypointHashmanifest from 'rollup-plugin-entrypoint-hashmanifest';
 import path from 'path';
 import fs from 'fs';
 import crypto from 'crypto';
+const config = require('./pack11ty.config.js');
 
-// TODO: get these from site config
-const SRC_DIR = 'assets';
-const DIST_DIR = '_site';
+const SRC_DIR = config.dir.src;
+const ASSETS_DIR = config.dir.assets;
+const DIST_DIR = config.dir.dist;
 
-const JS_SRC = path.join(SRC_DIR, 'js');
+const JS_SRC = path.join(ASSETS_DIR, 'js');
 const JS_DIST = path.join(DIST_DIR, 'js');
-const CSS_SRC = path.join(SRC_DIR, 'sass');
+const CSS_SRC = path.join(ASSETS_DIR, 'sass');
 const CSS_DIST = path.join(DIST_DIR, 'css');
-const HASH = path.join('src/_data');
+const HASH = path.join(SRC_DIR, '_data');
 
 const createHashedCssFile = function (folder, srcFile, destFile, styles) {
   // Get the 8 first chars of the md5 hash of these styles
