@@ -1,22 +1,26 @@
 const glob = require('fast-glob');
+const path = require('path');
+const config = require('./pack11ty.config.js');
 
 module.exports = function (eleventyConfig) {
   // ------------------------------------------------------------------------
   // Collections
   // ------------------------------------------------------------------------
 
-  glob.sync('src/_11ty/collections/*.js').forEach((file) => {
-    let collection = require('./' + file);
-    Object.keys(collection).forEach((name) => {
-      eleventyConfig.addCollection(name, collection[name]);
+  glob
+    .sync(path.join(config.dir.src, '_11ty/collections/*.js'))
+    .forEach((file) => {
+      let collection = require('./' + file);
+      Object.keys(collection).forEach((name) => {
+        eleventyConfig.addCollection(name, collection[name]);
+      });
     });
-  });
 
   // ------------------------------------------------------------------------
   // Filters
   // ------------------------------------------------------------------------
 
-  glob.sync('src/_11ty/filters/*.js').forEach((file) => {
+  glob.sync(path.join(config.dir.src, '_11ty/filters/*.js')).forEach((file) => {
     let filters = require('./' + file);
     Object.keys(filters).forEach((name) => {
       eleventyConfig.addFilter(name, filters[name]);
@@ -27,19 +31,23 @@ module.exports = function (eleventyConfig) {
   // Shortcodes
   // ------------------------------------------------------------------------
 
-  glob.sync('src/_11ty/shortcodes/*.js').forEach((file) => {
-    let shortcodes = require('./' + file);
-    Object.keys(shortcodes).forEach((name) => {
-      eleventyConfig.addNunjucksShortcode(name, shortcodes[name]);
+  glob
+    .sync(path.join(config.dir.src, '_11ty/shortcodes/*.js'))
+    .forEach((file) => {
+      let shortcodes = require('./' + file);
+      Object.keys(shortcodes).forEach((name) => {
+        eleventyConfig.addNunjucksShortcode(name, shortcodes[name]);
+      });
     });
-  });
 
-  glob.sync('src/_11ty/pairedShortcodes/*.js').forEach((file) => {
-    let pairedShortcodes = require('./' + file);
-    Object.keys(pairedShortcodes).forEach((name) => {
-      eleventyConfig.addPairedShortcode(name, pairedShortcodes[name]);
+  glob
+    .sync(path.join(config.dir.src, '_11ty/pairedShortcodes/*.js'))
+    .forEach((file) => {
+      let pairedShortcodes = require('./' + file);
+      Object.keys(pairedShortcodes).forEach((name) => {
+        eleventyConfig.addPairedShortcode(name, pairedShortcodes[name]);
+      });
     });
-  });
 
   // ------------------------------------------------------------------------
   // Plugins
@@ -157,10 +165,16 @@ module.exports = function (eleventyConfig) {
 
   if (process.env.NODE_ENV === 'production') {
     const imagesResponsiver = require('eleventy-plugin-images-responsiver');
-    const imagesResponsiverConfig = require('./src/_11ty/images-responsiver-config.js');
+    const imagesResponsiverConfig = require(path.join(
+      config.dir.src,
+      '_11ty/images-responsiver-config.js'
+    ));
     eleventyConfig.addPlugin(imagesResponsiver, imagesResponsiverConfig);
 
-    const htmlMinTransform = require('./src/_transforms/html-min-transform.js');
+    const htmlMinTransform = require(path.join(
+      config.dir.src,
+      '_transforms/html-min-transform.js'
+    ));
     eleventyConfig.addTransform('htmlmin', htmlMinTransform);
   }
 
@@ -174,12 +188,14 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget('_site/css/');
 
   eleventyConfig
-    .addPassthroughCopy('src/**/*.{jpg,png,gif,kmz,zip,css}')
-    .addPassthroughCopy('src/assets')
-    .addPassthroughCopy('src/.well-known')
-    .addPassthroughCopy('src/.htaccess')
-    .addPassthroughCopy('src/_headers')
-    .addPassthroughCopy('src/manifest.webmanifest');
+    .addPassthroughCopy(
+      path.join(config.dir.src, '**/*.{jpg,png,gif,kmz,zip,css}')
+    )
+    .addPassthroughCopy(path.join(config.dir.src, 'assets'))
+    .addPassthroughCopy(path.join(config.dir.src, '.well-known'))
+    .addPassthroughCopy(path.join(config.dir.src, '.htaccess'))
+    .addPassthroughCopy(path.join(config.dir.src, '_headers'))
+    .addPassthroughCopy(path.join(config.dir.src, 'manifest.webmanifest'));
 
   eleventyConfig.setDataDeepMerge(true);
   eleventyConfig.setQuietMode(true);
@@ -197,11 +213,11 @@ module.exports = function (eleventyConfig) {
     dataTemplateEngine: 'njk',
     passthroughFileCopy: true,
     dir: {
-      input: 'src',
+      output: config.dir.dist,
+      input: config.dir.src,
       includes: '_includes',
       layouts: '_layouts',
       data: '_data',
-      output: '_site',
     },
   };
 };
