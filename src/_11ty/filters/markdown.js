@@ -36,12 +36,14 @@ const tweetHashtagTohandle = (tweet) => {
     '#Github': '@github',
     '#IFTTT': '@IFTTT',
     '#Jekyll': '@jekyllrb',
+    '#Lighthouse': '@____lighthouse',
     '#Netlify': '@Netlify',
     '#Notist': '@benotist',
     '#Rollup': '@RollupJS',
     '#Tailwind': '@tailwindcss',
     '#Unsplash': '@unsplash',
     '#VSCode': '@code',
+    '#webhint': '@webhintio',
     '#Workbox': '@workboxjs',
   };
   for (const tag in handles) {
