@@ -1,9 +1,9 @@
 .navigation {
-  color: #fff;
   background-color: $color-primary;
-  border-bottom: solid 2px $color-primary-lighter-2;
+  color: #fff;
+
   margin: 0 0 calc(#{$baseline} * 2);
-  padding: 0.2em 0;
+  padding: 0.25em 0 0;
   overflow-x: auto;
   -webkit-overflow-scrolling: auto;
 
@@ -32,7 +32,7 @@
       text-decoration: none;
       white-space: nowrap;
 
-      border-radius: 3px;
+      border-radius: 0.25rem 0.25rem 0 0;
     }
     a:hover,
     a:focus {
@@ -45,7 +45,7 @@
       a:link,
       a:visited {
         color: $color-primary;
-        background-color: $color-primary-lighter-7;
+        background-color: $color-white;
       }
 
       a:hover,
