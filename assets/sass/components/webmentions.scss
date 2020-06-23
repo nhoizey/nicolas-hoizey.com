@@ -5,15 +5,8 @@
 
 .webmentions--like-of,
 .webmentions--repost-of {
-  ol {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
-  }
-
   li {
     display: inline-block;
-    padding: 0;
-    margin: 0;
   }
 
   a:link,
@@ -37,15 +30,9 @@
   }
 }
 
-.webmention__author,
-.webmention__source {
-  font-size: var(--font-size-s);
-  font-weight: normal;
-}
-
-.webmention--author-starts .webmention__author .p-name {
-  display: none;
-}
+// .webmention--author-starts .webmention__author .p-name {
+//   display: none;
+// }
 
 .webmentions--in-reply-to,
 .webmentions--mention-of {
@@ -54,14 +41,12 @@
     position: relative;
     min-height: 48px;
 
-    article {
-      margin: 0 0 2em;
-      padding: 0.5em 0 0 calc(48px + 1em);
-    }
+    margin: 0 0 2em;
+    padding: 0.5em 0 0 calc(48px + 1em);
 
-    .webmention--no-photo {
+    &.webmention--no-photo {
       padding: 0.5em 1em 0 1em;
-      @media (min-width: 40em) {
+      @media (min-width: 30em) {
         padding: 0.5em 0 0 calc(48px + 1em);
       }
     }
@@ -84,7 +69,7 @@
     height: auto;
     border: solid 1px #ccc;
 
-    @media (min-width: 40em) {
+    @media (min-width: 30em) {
       width: 30vw;
       float: right;
       margin: 0 0 2em 1em;
@@ -94,10 +79,8 @@
       width: 20rem;
     }
   }
+}
 
-  .webmention__meta {
-    color: $meta-color;
-    --link-decoration-color: #{$meta-link-decoration-color};
-    font-size: var(--font-size-s);
-  }
+.webmentions__item .meta {
+  margin-top: $baseline / 2;
 }
