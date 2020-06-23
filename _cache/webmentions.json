@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-06-20T21:36:47.639Z",
+  "lastFetched": "2020-06-23T09:26:28.611Z",
   "webmentions": [
     {
       "type": "entry",
@@ -55937,6 +55937,84 @@
       },
       "repost-of": "https://nicolas-hoizey.com/notes/2020/06/20/1/",
       "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Diel Duarte",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/b169f2aaf2e288ae1a88f21e907f75fb3e135807af2c6cea1a6705de569d4176.jpg",
+        "url": "https://twitter.com/diel_duarte"
+      },
+      "url": "https://twitter.com/diel_duarte/status/1275107026390208513",
+      "published": "2020-06-22T16:43:00+00:00",
+      "wm-received": "2020-06-22T17:18:03Z",
+      "wm-id": 813448,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/nhoizey/1275107026390208513",
+      "wm-target": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "content": {
+        "content-type": "text/html",
+        "value": "that kind of shit that makes me cry as a webdev.\n\n<a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\">nicolas-hoizey.com/articles/2015/…</a>",
+        "html": "that kind of shit that makes me cry as a webdev.<br /><br /><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\">nicolas-hoizey.com/articles/2015/…</a>",
+        "text": "that kind of shit that makes me cry as a webdev.\n\nnicolas-hoizey.com/articles/2015/…"
+      },
+      "mention-of": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Dave Rupert",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/2534ee87244ea43d21a993a02048189c4c829849df42adb4d298b5d51e4994fa.jpeg",
+        "url": "https://twitter.com/davatron5000"
+      },
+      "url": "https://twitter.com/nhoizey/status/1275166944279265282#favorited-by-14839862",
+      "published": null,
+      "wm-received": "2020-06-22T20:55:28Z",
+      "wm-id": 813524,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1275166944279265282/14839862",
+      "wm-target": "https://nicolas-hoizey.com/articles/2017/01/12/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache/",
+      "like-of": "https://nicolas-hoizey.com/articles/2017/01/12/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Šime Vidas",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/09bb4880190585b5e89c617e2b0fc0af42f2bd0b1eefa64fa76f35eb307555a6.jpeg",
+        "url": "https://twitter.com/simevidas"
+      },
+      "url": "https://twitter.com/nhoizey/status/1275166944279265282#favorited-by-175727560",
+      "published": null,
+      "wm-received": "2020-06-22T22:16:50Z",
+      "wm-id": 813543,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1275166944279265282/175727560",
+      "wm-target": "https://nicolas-hoizey.com/articles/2017/01/12/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache/",
+      "like-of": "https://nicolas-hoizey.com/articles/2017/01/12/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Patrick Hulce",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/ff0c9823152d77cde78042b2e2a931c72846224a653e1cb48500db0c3590432d.jpg",
+        "url": "https://twitter.com/patrickhulce"
+      },
+      "url": "https://twitter.com/nhoizey/status/1275166944279265282#favorited-by-277168946",
+      "published": null,
+      "wm-received": "2020-06-22T22:16:51Z",
+      "wm-id": 813544,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1275166944279265282/277168946",
+      "wm-target": "https://nicolas-hoizey.com/articles/2017/01/12/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache/",
+      "like-of": "https://nicolas-hoizey.com/articles/2017/01/12/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
