@@ -1,4 +1,6 @@
-@import 'global/settings.scss';
+@import 'global/variables.scss';
+@import 'global/dimensions.scss';
+@import 'global/colors.scss';
 @import 'components/toast.scss';
 @import 'components/notification.scss';
 @import 'components/footnotes.scss';
@@ -21,13 +23,17 @@ blockquote:not(.tweet-card) {
   padding: 0.5em 1em 0.5em 2.5em;
   overflow: hidden;
 
-  border-left: 0.5em solid $color-primary-lighter-3;
+  border-left: 0.25em solid $color-primary-lighter-3;
 
   font-style: italic;
   color: $text-color;
-  background-color: $color-primary-lighter-7;
 
   position: relative;
+
+  & > * + * {
+    margin-top: $baseline;
+    margin-bottom: 0;
+  }
 
   &::before {
     position: absolute;
@@ -40,7 +46,8 @@ blockquote:not(.tweet-card) {
   }
 
   blockquote {
-    background-color: $color-primary-lighter-6;
+    background-color: $color-primary-lighter-7;
+    font-style: normal;
   }
 }
 
