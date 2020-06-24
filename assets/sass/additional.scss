@@ -136,19 +136,6 @@ article {
   --link-decoration-color: #{$color-grey};
 }
 
-.giphy {
-  margin: 2em 0;
-  padding: 0;
-  clear: both;
-
-  video {
-    display: block;
-    width: 100%;
-    max-width: 500px;
-    margin: 0 auto;
-  }
-}
-
 // File link icons
 a[href$='.zip'],
 a[href$='.kml'] {

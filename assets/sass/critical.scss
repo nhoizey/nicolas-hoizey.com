@@ -228,6 +228,19 @@ video {
   background-color: #eee;
 }
 
+.giphy {
+  clear: both;
+  margin: 2em auto;
+  padding: 0;
+
+  video {
+    display: block;
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
 iframe {
   max-width: 100%;
 }
