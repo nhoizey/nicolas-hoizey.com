@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-06-24T19:20:18.892Z",
+  "lastFetched": "2020-06-24T23:11:22.495Z",
   "webmentions": [
     {
       "type": "entry",
@@ -56164,6 +56164,24 @@
       "wm-source": "https://brid-gy.appspot.com/like/mastodon/@nhoizey@mamot.fr/104398133510793669/46477",
       "wm-target": "https://nicolas-hoizey.com/links/2020/06/24/inclusively-hiding-styling-checkboxes-and-radio-buttons/",
       "like-of": "https://nicolas-hoizey.com/links/2020/06/24/inclusively-hiding-styling-checkboxes-and-radio-buttons/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Eve La Fée",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/b49f7169cb853a49a232788a5c19db17345903e01f6fd8829810bd463c79b1a6.jpg",
+        "url": "https://twitter.com/Evlf"
+      },
+      "url": "https://twitter.com/nhoizey/status/1275919454065614853#favorited-by-36361288",
+      "published": null,
+      "wm-received": "2020-06-24T23:00:47Z",
+      "wm-id": 814524,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1275919454065614853/36361288",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/25/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/06/25/1/",
       "wm-property": "like-of",
       "wm-private": false
     }
