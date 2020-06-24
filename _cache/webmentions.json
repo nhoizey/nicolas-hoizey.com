@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-06-24T09:52:57.566Z",
+  "lastFetched": "2020-06-24T19:20:18.892Z",
   "webmentions": [
     {
       "type": "entry",
@@ -56126,6 +56126,42 @@
       "wm-received": "2020-06-24T09:17:49Z",
       "wm-id": 814099,
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1275714516194648065/931908516",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/06/24/inclusively-hiding-styling-checkboxes-and-radio-buttons/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/06/24/inclusively-hiding-styling-checkboxes-and-radio-buttons/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "nicod_ 🐰🕚",
+        "photo": "https://webmention.io/avatar/mamot.fr/a8a7d029deae09b5c5c9d1fadb977254ec8d79527efac2cd80a2336ee829cc75.png",
+        "url": "https://mamot.fr/@nicod_"
+      },
+      "url": "https://mamot.fr/@nhoizey/104398133510793669#reblogged-by-1492",
+      "published": null,
+      "wm-received": "2020-06-24T15:41:34Z",
+      "wm-id": 814330,
+      "wm-source": "https://brid-gy.appspot.com/repost/mastodon/@nhoizey@mamot.fr/104398133510793669/1492",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/06/24/inclusively-hiding-styling-checkboxes-and-radio-buttons/",
+      "repost-of": "https://nicolas-hoizey.com/links/2020/06/24/inclusively-hiding-styling-checkboxes-and-radio-buttons/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Le Monolecte 🗣 💐",
+        "photo": "https://webmention.io/avatar/mamot.fr/0e5e9fa947c9eac9262ea78ee1e2268cd679171ae9a12ccb9d818740cb9e1068.jpg",
+        "url": "https://framapiaf.org/@Monolecte"
+      },
+      "url": "https://mamot.fr/@nhoizey/104398133510793669#favorited-by-46477",
+      "published": null,
+      "wm-received": "2020-06-24T15:41:34Z",
+      "wm-id": 814329,
+      "wm-source": "https://brid-gy.appspot.com/like/mastodon/@nhoizey@mamot.fr/104398133510793669/46477",
       "wm-target": "https://nicolas-hoizey.com/links/2020/06/24/inclusively-hiding-styling-checkboxes-and-radio-buttons/",
       "like-of": "https://nicolas-hoizey.com/links/2020/06/24/inclusively-hiding-styling-checkboxes-and-radio-buttons/",
       "wm-property": "like-of",
