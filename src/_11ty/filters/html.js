@@ -1,10 +1,15 @@
 const cheerio = require('cheerio');
 const truncateHtml = require('truncate-html');
+const Entities = require('html-entities').AllHtmlEntities;
+const entities = new Entities();
 
 module.exports = {
   cleanDeepLinks: (content) => {
     const regex = / <a class="deeplink"((?!(<\/a>)).|\n)+<\/a>/gm;
     return content.replace(regex, '');
+  },
+  decodeEntities: (content) => {
+    return entities.decode(content);
   },
   stripFootnotes: (content) => {
     // TODO: Use BasicHTML?

@@ -1,0 +1,60 @@
+---
+layout: null
+permalink: /tools/algolia.json
+---
+
+[
+{% for entry in collections.articles %}
+  {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
+  {
+    "type": "article",
+		"title": "{{ entry.data.title | safe }}",
+		"date": {{ entry.date | date('X')}},
+		"url": "{{ absoluteEntryUrl }}",
+		"content": {{ entry.templateContent | stripFootnotes | cleanDeepLinks | htmlToAbsoluteUrls(absoluteEntryUrl) | safe | striptags | decodeEntities | jsonify | safe }},
+		"tags":[
+      {% for tag in entry.data.tags %}
+        "{{ tag }}"{%- if not loop.last -%},{% endif -%}
+      {% endfor %}
+		]
+	}
+  {%- if not loop.last -%},{% endif -%}
+{% endfor %}
+,
+{% for entry in collections.links %}
+  {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
+  {
+    "type": "link",
+		"title": "{{ entry.data.title | safe }}",
+		"date": {{ entry.date | date('X')}},
+		"url": "{{ absoluteEntryUrl }}",
+    {# TODO: add author(s) #}
+		"content": {{ entry.templateContent | stripFootnotes | cleanDeepLinks | htmlToAbsoluteUrls(absoluteEntryUrl) | safe | striptags | decodeEntities | jsonify | safe }},
+		"tags":[
+      {% for tag in entry.data.tags %}
+        "{{ tag }}"{%- if not loop.last -%},{% endif -%}
+      {% endfor %}
+		]
+	}
+  {%- if not loop.last -%},{% endif -%}
+{% endfor %}
+,
+{% for entry in collections.notes %}
+  {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
+  {
+    "type": "note",
+		"title": "💬 Note from {{ entry.date | date("Do MMMM YYYY [at] H:mm:ss") }}",
+		"date": {{ entry.date | date('X')}},
+		"url": "{{ absoluteEntryUrl }}",
+    {# TODO: add author(s) #}
+		"content": {{ entry.templateContent | stripFootnotes | cleanDeepLinks | htmlToAbsoluteUrls(absoluteEntryUrl) | safe | striptags | decodeEntities | jsonify | safe }},
+		"tags":[
+      {% for tag in entry.data.tags %}
+        "{{ tag }}"{%- if not loop.last -%},{% endif -%}
+      {% endfor %}
+		]
+	}
+  {%- if not loop.last -%},{% endif -%}
+{% endfor %}
+
+]
