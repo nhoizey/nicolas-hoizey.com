@@ -3,6 +3,11 @@ import '../sass/additional.scss';
 
 import Toast from './toast.js';
 
+const saveData = 'connection' in navigator && navigator.connection.saveData;
+const observable =
+  typeof IntersectionObserver !== 'undefined' &&
+  'forEach' in NodeList.prototype;
+
 /*****************************************************************
  * Statistics
  * ****************************************************************/
@@ -13,25 +18,6 @@ import Toast from './toast.js';
   bodyElement.setAttribute('data-screendensity', window.screen_density);
   bodyElement.setAttribute('data-rootfontsize', window.root_font_size);
 })(window);
-
-/*****************************************************************
- * Lazyload additional HTML
- * ****************************************************************/
-
-window.addEventListener('load', () => {
-  let lazy = document.querySelector('#lazy');
-  if (lazy) {
-    let path = new URL(window.location).pathname;
-    fetch(`/lazy${path}`)
-      .then((response) => response.text())
-      .then((html) => {
-        lazy.innerHTML = html;
-      })
-      .catch(function (err) {
-        console.warn('Something went wrong with HTML lazyload.', err);
-      });
-  }
-});
 
 /*****************************************************************
  * Install Service Worker
@@ -67,60 +53,144 @@ if (process.env.NODE_ENV === 'production') {
  * Add image background to the footer
  * ****************************************************************/
 
-window.addEventListener('load', () => {
-  if (
-    window.viewport_width > 0 &&
-    (!('connection' in navigator) || navigator.connection.saveData !== true)
-  ) {
-    let backgroundImageWidth = Math.ceil(window.viewport_width / 20) * 20;
-    let limbes = `url('https://res.cloudinary.com/nho/image/fetch/c_limit,f_auto,q_auto,w_${backgroundImageWidth}/https://nicolas-hoizey.com/assets/limbes.jpg')`;
-    let footer = window.document.querySelector('#footer');
-    footer.style.setProperty('--limbes', limbes);
-    footer.style.color = '#fff';
-    let imageRatio = Math.round((670 / 1534) * 100);
-    footer.style.padding = `${imageRatio}vw 0 1em 0`;
-  }
-});
+const loadFooter = () => {
+  let backgroundImageWidth = Math.ceil(window.viewport_width / 20) * 20;
+  let limbes = `url('https://res.cloudinary.com/nho/image/fetch/c_limit,f_auto,q_auto,w_${backgroundImageWidth}/https://nicolas-hoizey.com/assets/limbes.jpg')`;
+  let footer = window.document.querySelector('#footer');
+  footer.style.setProperty('--limbes', limbes);
+  footer.style.color = '#fff';
+  let imageRatio = Math.round((670 / 1534) * 100);
+  footer.style.padding = `${imageRatio}vw 0 1em 0`;
+};
 
 /*****************************************************************
- * Lazyload some images
+ * Load lazy loaded images
  * ****************************************************************/
 
-// https://www.zachleat.com/web/facepile/
-if (!('connection' in navigator) || navigator.connection.saveData !== true) {
-  // Load avatars only if not in save data mode
-  if (
-    typeof IntersectionObserver !== 'undefined' &&
-    'forEach' in NodeList.prototype
-  ) {
-    var observer = new IntersectionObserver((changes) => {
+const loadImage = (img) => {
+  if (img.getAttribute('data-srcset')) {
+    img.setAttribute('srcset', img.getAttribute('data-srcset'));
+  }
+  img.setAttribute('src', img.getAttribute('data-src'));
+};
+
+/*****************************************************************
+ * Lazyload additional HTML
+ * ****************************************************************/
+
+const lazyHtmlElement = document.querySelector('#lazy');
+
+const lazyHtml = () => {
+  if (lazyHtmlElement) {
+    let path = new URL(window.location).pathname;
+    fetch(`/lazy${path}`)
+      .then((response) => response.text())
+      .then((html) => {
+        lazyHtmlElement.innerHTML = html;
+      })
+      .catch(function (err) {
+        console.warn('Something went wrong with HTML lazyload.', err);
+      });
+  }
+};
+
+/*****************************************************************
+ * Lazyload some images, the footer background, and some HTML
+ * ****************************************************************/
+
+// Inspired by https://www.zachleat.com/web/facepile/
+
+if (!saveData) {
+  // Lazyload additional content only if not in save data mode
+
+  if (observable) {
+    // Lazyload images
+    // ************************************************************/
+    const lazyImages = document.querySelectorAll('img[data-src]');
+    const lazyImagesCallback = (changes) => {
       changes.forEach((change) => {
         if (change.isIntersecting) {
-          if (change.target.getAttribute('data-srcset')) {
-            change.target.setAttribute(
-              'srcset',
-              change.target.getAttribute('data-srcset')
-            );
-          }
-          change.target.setAttribute(
-            'src',
-            change.target.getAttribute('data-src')
-          );
-          observer.unobserve(change.target);
+          lazyImagesObserver.unobserve(change.target);
+          loadImage(change.target);
         }
       });
+    };
+    const lazyImagesOptions = {
+      // If the image gets within 200px in the Y axis, start the download.
+      rootMargin: '300px 0px 300px 0px',
+      threshold: 0.01,
+    };
+    let lazyImagesObserver = new IntersectionObserver(
+      lazyImagesCallback,
+      lazyImagesOptions
+    );
+    lazyImages.forEach((img) => {
+      lazyImagesObserver.observe(img);
     });
-    document.querySelectorAll('img[data-src]').forEach((img) => {
-      observer.observe(img);
-    });
+
+    // Lazyload additional HTML content
+    // ************************************************************/
+    if (lazyHtmlElement) {
+      const lazyHtmlCallback = (changes) => {
+        changes.forEach((change) => {
+          if (change.isIntersecting) {
+            lazyHtmlObserver.unobserve(change.target);
+            lazyHtml();
+          }
+        });
+      };
+      const lazyHtmlOptions = {
+        // If the image gets within 200px in the Y axis, start the download.
+        rootMargin: '500px 0px 0px 0px',
+        threshold: 0.01,
+      };
+      let lazyHtmlObserver = new IntersectionObserver(
+        lazyHtmlCallback,
+        lazyHtmlOptions
+      );
+      lazyHtmlObserver.observe(lazyHtmlElement);
+    }
+
+    // Lazyload footer background
+    // ************************************************************/
+    if (window.viewport_width > 0) {
+      const lazyFooter = document.querySelector('#footer');
+      const lazyFooterCallback = (changes) => {
+        changes.forEach((change) => {
+          if (change.isIntersecting) {
+            lazyFooterObserver.unobserve(change.target);
+            loadFooter();
+          }
+        });
+      };
+      const lazyFooterOptions = {
+        // If the image gets within 200px in the Y axis, start the download.
+        rootMargin: '300px 0px 0px 0px',
+        threshold: 0.01,
+      };
+      let lazyFooterObserver = new IntersectionObserver(
+        lazyFooterCallback,
+        lazyFooterOptions
+      );
+      lazyFooterObserver.observe(lazyFooter);
+    }
   } else {
     // No IntersectionObserver support => no lazyloading
+
+    // Load images
     document.querySelectorAll('img[data-src]').forEach((img) => {
-      if (img.getAttribute('data-srcset')) {
-        img.setAttribute('srcset', img.getAttribute('data-srcset'));
-      }
-      img.setAttribute('src', img.getAttribute('data-src'));
+      loadImage(img);
     });
+
+    // Load additional HTML content
+    if (lazyHtmlElement) {
+      lazyHtml();
+    }
+
+    // Load footer background
+    if (window.viewport_width > 0) {
+      loadFooter();
+    }
   }
 }
 
