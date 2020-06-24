@@ -52,4 +52,7 @@ module.exports = {
       ellipsis: '…',
     });
   },
+  algoliaExcerpt: (text) => {
+    return text.substring(0, 5000);
+  },
 };
