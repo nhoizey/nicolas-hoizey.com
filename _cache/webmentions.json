@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-06-23T09:26:28.611Z",
+  "lastFetched": "2020-06-24T09:52:57.566Z",
   "webmentions": [
     {
       "type": "entry",
@@ -56014,6 +56014,120 @@
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1275166944279265282/277168946",
       "wm-target": "https://nicolas-hoizey.com/articles/2017/01/12/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache/",
       "like-of": "https://nicolas-hoizey.com/articles/2017/01/12/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Goutay",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/530689629ae758c19a1f5934375173c73f807b9674a2f20eb08ed5d467bfa476.jpg",
+        "url": "https://twitter.com/Phacks"
+      },
+      "url": "https://twitter.com/Phacks/status/1275700780390141955",
+      "published": "2020-06-24T08:02:22+00:00",
+      "wm-received": "2020-06-24T08:23:01Z",
+      "wm-id": 814093,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1275699688860155904/1275700780390141955",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Thanks for the pointer! Yeah I feel you, not leveraging the cascade feels _off_ somehow.\n<a class=\"u-mention\" href=\"https://nho.io/n/2020/03/02/2/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/notes/2020/03/02/2/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/SaraSoueidan\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Swishyfishie2\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Una\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "Thanks for the pointer! Yeah I feel you, not leveraging the cascade feels _off_ somehow.",
+        "text": "Thanks for the pointer! Yeah I feel you, not leveraging the cascade feels _off_ somehow."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Pierre Burel",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/1965af2c88b48e627efe7348059bfdb9993958ae7c04fc09f2d153f98ef54c2b.jpg",
+        "url": "https://twitter.com/pierreburel"
+      },
+      "url": "https://twitter.com/pierreburel/status/1275713207391395846",
+      "published": "2020-06-24T08:51:44+00:00",
+      "wm-received": "2020-06-24T09:17:52Z",
+      "wm-id": 814100,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1275699688860155904/1275713207391395846",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "The problem with the @​apply rule provided by Tailwind is that compiled CSS code is duplicated (last time I checked tho). That’s why they recommend using templates first in their doc. That will output “not-DRY” HTML, but I guess it’s better for performance?\n<a class=\"u-mention\" href=\"https://nho.io/n/2020/03/02/2/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/notes/2020/03/02/2/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Phacks\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/SaraSoueidan\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Swishyfishie2\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Una\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "The problem with the @​apply rule provided by Tailwind is that compiled CSS code is duplicated (last time I checked tho). That’s why they recommend using templates first in their doc. That will output “not-DRY” HTML, but I guess it’s better for performance?",
+        "text": "The problem with the @​apply rule provided by Tailwind is that compiled CSS code is duplicated (last time I checked tho). That’s why they recommend using templates first in their doc. That will output “not-DRY” HTML, but I guess it’s better for performance?"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1275715716910649347",
+      "published": "2020-06-24T09:01:43+00:00",
+      "wm-received": "2020-06-24T09:17:52Z",
+      "wm-id": 814101,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1275699688860155904/1275715716910649347",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Good to know, thanks! 👍\n\nI guess that's why we often see Tailwind combined with uncss.\n<a class=\"u-mention\" href=\"https://nho.io/n/2020/03/02/2/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/notes/2020/03/02/2/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Phacks\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/SaraSoueidan\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Swishyfishie2\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Una\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/pierreburel\"></a>",
+        "html": "Good to know, thanks! 👍<br /><br />I guess that's why we often see Tailwind combined with uncss.",
+        "text": "Good to know, thanks! 👍\n\nI guess that's why we often see Tailwind combined with uncss."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1275716517968125952",
+      "published": "2020-06-24T09:04:54+00:00",
+      "wm-received": "2020-06-24T09:17:54Z",
+      "wm-id": 814102,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1275699688860155904/1275716517968125952",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Looks like they already use PurgeCSS after all:\n<a href=\"https://tailwindcss.com/docs/controlling-file-size\">tailwindcss.com/docs/controlli…</a>\n\n<a class=\"u-mention\" href=\"https://nho.io/n/2020/03/02/2/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/notes/2020/03/02/2/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Phacks\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/SaraSoueidan\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Swishyfishie2\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Una\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/pierreburel\"></a>",
+        "html": "Looks like they already use PurgeCSS after all:<br /><a href=\"https://tailwindcss.com/docs/controlling-file-size\">tailwindcss.com/docs/controlli…</a>",
+        "text": "Looks like they already use PurgeCSS after all:\ntailwindcss.com/docs/controlli…"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/03/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tim Vereecke",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/cc1ebf6995936f04911f7161226d746c052768931e920f6971fcf1c27352a361.jpg",
+        "url": "https://twitter.com/TimVereecke"
+      },
+      "url": "https://twitter.com/nhoizey/status/1275714516194648065#favorited-by-931908516",
+      "published": null,
+      "wm-received": "2020-06-24T09:17:49Z",
+      "wm-id": 814099,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1275714516194648065/931908516",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/06/24/inclusively-hiding-styling-checkboxes-and-radio-buttons/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/06/24/inclusively-hiding-styling-checkboxes-and-radio-buttons/",
       "wm-property": "like-of",
       "wm-private": false
     }
