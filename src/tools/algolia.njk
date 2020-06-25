@@ -59,5 +59,23 @@ permalink: /tools/algolia.json
 	}
   {%- if not loop.last -%},{% endif -%}
 {% endfor %}
+,
+{% for entry in notist %}
+
+  {%- set absoluteEntryUrl -%}{{ pkg.homepage }}/talks/{{ entry.attributes.presented_on | permalinkDate }}/{{ entry.attributes.slug }}/{%- endset -%}
+  {%- set entryContent -%}{{ entry.attributes.blurb | safe }} {{ entry.attributes.event.name | safe }}{%- endset -%}
+  {%- set entryContent = entryContent | cleanForAlgolia | striptags | safe %}
+
+  {
+    "type": "talk",
+    "lang": "en",
+		"title": "{{ entry.attributes.title }}",
+		"date": {{ entry.attributes.presented_on | date('X')}},
+		"url": "{{ absoluteEntryUrl }}",
+		"content": {{ entryContent | jsonify | safe }},
+		"tags":[]
+	}
+  {%- if not loop.last -%},{% endif -%}
+{% endfor %}
 
 ]
