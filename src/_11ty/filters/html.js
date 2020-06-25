@@ -11,13 +11,15 @@ module.exports = {
   decodeEntities: (content) => {
     return entities.decode(content);
   },
-  stripFootnotes: (content) => {
+  cleanForAlgolia: (html) => {
     // TODO: Use BasicHTML?
-    const $ = cheerio.load(content);
+    const $ = cheerio.load(html);
     $(
-      'a.footnote, a.footnotes, div.footnote, div.footnotes, sup.footnote, sup.footnotes'
+      'a.footnote, a.footnotes, div.footnote, div.footnotes, sup.footnote, sup.footnotes, sup.footnote-ref, a.footnote-backref, a.deeplink'
     ).remove();
-    return $.html();
+    html = $.html();
+    html = entities.decode(html);
+    return html;
   },
   excerpt: (content) => {
     if (content === undefined) {

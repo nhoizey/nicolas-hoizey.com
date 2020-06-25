@@ -8,10 +8,11 @@ permalink: /tools/algolia.json
   {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
   {
     "type": "article",
+    "lang": "{{ entry.data.lang }}",
 		"title": "{{ entry.data.title | safe }}",
 		"date": {{ entry.date | date('X')}},
 		"url": "{{ absoluteEntryUrl }}",
-		"content": {{ entry.templateContent | stripFootnotes | cleanDeepLinks | htmlToAbsoluteUrls(absoluteEntryUrl) | safe | striptags | decodeEntities | jsonify | safe }},
+		"content": {{ entry.templateContent | cleanForAlgolia | htmlToAbsoluteUrls(absoluteEntryUrl) | jsonify | safe }},
 		"tags":[
       {% for tag in entry.data.tags %}
         "{{ tag }}"{%- if not loop.last -%},{% endif -%}
@@ -25,11 +26,12 @@ permalink: /tools/algolia.json
   {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
   {
     "type": "link",
+    "lang": "{{ entry.data.lang }}",
 		"title": "{{ entry.data.title | safe }}",
 		"date": {{ entry.date | date('X')}},
 		"url": "{{ absoluteEntryUrl }}",
     {# TODO: add author(s) #}
-		"content": {{ entry.templateContent | stripFootnotes | cleanDeepLinks | htmlToAbsoluteUrls(absoluteEntryUrl) | safe | striptags | decodeEntities | jsonify | safe }},
+		"content": {{ entry.templateContent | cleanForAlgolia | htmlToAbsoluteUrls(absoluteEntryUrl) | safe | striptags | decodeEntities | jsonify | safe }},
 		"tags":[
       {% for tag in entry.data.tags %}
         "{{ tag }}"{%- if not loop.last -%},{% endif -%}
@@ -43,11 +45,12 @@ permalink: /tools/algolia.json
   {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
   {
     "type": "note",
+    "lang": "{{ entry.data.lang }}",
 		"title": "💬 Note from {{ entry.date | date("Do MMMM YYYY [at] H:mm:ss") }}",
 		"date": {{ entry.date | date('X')}},
 		"url": "{{ absoluteEntryUrl }}",
     {# TODO: add author(s) #}
-		"content": {{ entry.templateContent | stripFootnotes | cleanDeepLinks | htmlToAbsoluteUrls(absoluteEntryUrl) | safe | striptags | decodeEntities | jsonify | safe }},
+		"content": {{ entry.templateContent | cleanForAlgolia | htmlToAbsoluteUrls(absoluteEntryUrl) | safe | striptags | decodeEntities | jsonify | safe }},
 		"tags":[
       {% for tag in entry.data.tags %}
         "{{ tag }}"{%- if not loop.last -%},{% endif -%}
