@@ -23,6 +23,8 @@ module.exports = {
       ''
     );
     html = entities.decodeHTML(html);
+    html = html.replace("'", '’');
+
     return html;
   },
   excerpt: (content) => {
