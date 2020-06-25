@@ -12,16 +12,11 @@ module.exports = {
   },
   cleanForAlgolia: (html) => {
     // Remove some elements with Cheerio: footnote links, heading links
+    // Cheerio can't load videos, so we get a fallback message we have to remove
     // TODO: Use BasicHTML?
     const $ = cheerio.load(html);
-    $('sup.footnote-ref, a.footnote-backref, a.deeplink').remove();
+    $('sup.footnote-ref, a.footnote-backref, a.deeplink, div.giphy').remove();
     html = $.html();
-
-    // Cheerio can't load videos, so we get a fallback message we have to remove
-    html = html.replace(
-      "Your browser doesn't support video. See the animated GIF.",
-      ''
-    );
     html = entities.decodeHTML(html);
     html = html.replace("'", '’');
 
