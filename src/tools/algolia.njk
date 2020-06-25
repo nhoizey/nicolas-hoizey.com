@@ -12,7 +12,7 @@ permalink: /tools/algolia.json
 		"title": "{{ entry.data.title | safe }}",
 		"date": {{ entry.date | date('X')}},
 		"url": "{{ absoluteEntryUrl }}",
-		"content": {{ entry.templateContent | cleanForAlgolia | htmlToAbsoluteUrls(absoluteEntryUrl) | jsonify | safe }},
+		"content": {{ entry.templateContent | cleanForAlgolia | striptags | jsonify | safe }},
 		"tags":[
       {% for tag in entry.data.tags %}
         "{{ tag }}"{%- if not loop.last -%},{% endif -%}
@@ -31,7 +31,7 @@ permalink: /tools/algolia.json
 		"date": {{ entry.date | date('X')}},
 		"url": "{{ absoluteEntryUrl }}",
     {# TODO: add author(s) #}
-		"content": {{ entry.templateContent | cleanForAlgolia | htmlToAbsoluteUrls(absoluteEntryUrl) | safe | striptags | decodeEntities | jsonify | safe }},
+		"content": {{ entry.templateContent | cleanForAlgolia | striptags | jsonify | safe }},
 		"tags":[
       {% for tag in entry.data.tags %}
         "{{ tag }}"{%- if not loop.last -%},{% endif -%}
@@ -50,7 +50,7 @@ permalink: /tools/algolia.json
 		"date": {{ entry.date | date('X')}},
 		"url": "{{ absoluteEntryUrl }}",
     {# TODO: add author(s) #}
-		"content": {{ entry.templateContent | cleanForAlgolia | htmlToAbsoluteUrls(absoluteEntryUrl) | safe | striptags | decodeEntities | jsonify | safe }},
+		"content": {{ entry.templateContent | cleanForAlgolia | striptags | jsonify | safe }},
 		"tags":[
       {% for tag in entry.data.tags %}
         "{{ tag }}"{%- if not loop.last -%},{% endif -%}

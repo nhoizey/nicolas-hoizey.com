@@ -1,7 +1,6 @@
 const cheerio = require('cheerio');
 const truncateHtml = require('truncate-html');
-const Entities = require('html-entities').AllHtmlEntities;
-const entities = new Entities();
+const entities = require('entities');
 
 module.exports = {
   cleanDeepLinks: (content) => {
@@ -9,16 +8,21 @@ module.exports = {
     return content.replace(regex, '');
   },
   decodeEntities: (content) => {
-    return entities.decode(content);
+    return entities.decodeHTML(content);
   },
   cleanForAlgolia: (html) => {
+    // Remove some elements with Cheerio: footnote links, heading links
     // TODO: Use BasicHTML?
     const $ = cheerio.load(html);
-    $(
-      'a.footnote, a.footnotes, div.footnote, div.footnotes, sup.footnote, sup.footnotes, sup.footnote-ref, a.footnote-backref, a.deeplink'
-    ).remove();
+    $('sup.footnote-ref, a.footnote-backref, a.deeplink').remove();
     html = $.html();
-    html = entities.decode(html);
+
+    // Cheerio can't load videos, so we get a fallback message we have to remove
+    html = html.replace(
+      "Your browser doesn't support video. See the animated GIF.",
+      ''
+    );
+    html = entities.decodeHTML(html);
     return html;
   },
   excerpt: (content) => {

@@ -1,8 +1,7 @@
 const twitter = require('twitter-text');
 const slugifyString = require('../../_utils/slugify');
 const path = require('path');
-const Entities = require('html-entities').AllHtmlEntities;
-const entities = new Entities();
+const entities = require('entities');
 
 const MARKDOWN_IMAGE_REGEX = /!\[([^\]]*)\]\(([^\) ]+)( [^\)]+)?\)({.[^}]+})?/g;
 
@@ -105,7 +104,7 @@ module.exports = {
 
     tweet = tweet.replace(/"/gm, '\\"');
 
-    tweet = entities.decode(tweet);
+    tweet = entities.decodeHTML(tweet);
 
     // Notrmalize linee feeds
     tweet = tweet.replace(/\n/gm, '\\n');
