@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-06-24T23:11:22.495Z",
+  "lastFetched": "2020-06-25T16:05:24.650Z",
   "webmentions": [
     {
       "type": "entry",
@@ -56183,6 +56183,110 @@
       "wm-target": "https://nicolas-hoizey.com/notes/2020/06/25/1/",
       "like-of": "https://nicolas-hoizey.com/notes/2020/06/25/1/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Boris Schapira 🚀",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/5ee9406245c84f10b637d5bfa201100dcc4a4c64dc9cd10d1729dad8730ac358.jpg",
+        "url": "https://twitter.com/boostmarks"
+      },
+      "url": "https://twitter.com/boostmarks/status/1276093436505047040",
+      "published": "2020-06-25T10:02:38+00:00",
+      "wm-received": "2020-06-25T10:24:35Z",
+      "wm-id": 814746,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1276091311410548737/1276093436505047040",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/25/2/",
+      "photo": [
+        "https://pbs.twimg.com/media/EbWWSKQXYAIbB6i.png"
+      ],
+      "content": {
+        "content-type": "text/plain",
+        "value": "Looks like @Dareboost liked improvements made yesterday evening! 💪\n\nSpeed Index at 800 on 3G, despite a laaate 530 ms TTFB, not bad! 🤔\n\nhttp",
+        "text": "Looks like @Dareboost liked improvements made yesterday evening! 💪\n\nSpeed Index at 800 on 3G, despite a laaate 530 ms TTFB, not bad! 🤔\n\nhttp"
+      },
+      "repost-of": "https://nicolas-hoizey.com/notes/2020/06/25/2/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "arnoSEO",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d1ccf9e97c41a8323bfbfa1d68980c2f1769568e40a34cda198b038fe91179d6.jpg",
+        "url": "https://twitter.com/arnobouin"
+      },
+      "url": "https://twitter.com/nhoizey/status/1276091311410548737#favorited-by-810976577718775808",
+      "published": null,
+      "wm-received": "2020-06-25T10:24:34Z",
+      "wm-id": 814745,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1276091311410548737/810976577718775808",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/25/2/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/06/25/2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Boris Schapira 🚀",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/5ee9406245c84f10b637d5bfa201100dcc4a4c64dc9cd10d1729dad8730ac358.jpg",
+        "url": "https://twitter.com/boostmarks"
+      },
+      "url": "https://twitter.com/nhoizey/status/1276091311410548737#favorited-by-920990355394265089",
+      "published": null,
+      "wm-received": "2020-06-25T10:24:35Z",
+      "wm-id": 814747,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1276091311410548737/920990355394265089",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/25/2/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/06/25/2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Dareboost",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/20441c1b44e39f82c51ece7ea2cdedc9b844062fc8a9dfbd2aeafec697b6a955.png",
+        "url": "https://twitter.com/Dareboost"
+      },
+      "url": "https://twitter.com/nhoizey/status/1276091311410548737#favorited-by-1551567476",
+      "published": null,
+      "wm-received": "2020-06-25T11:09:55Z",
+      "wm-id": 814756,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1276091311410548737/1551567476",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/25/2/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/06/25/2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1276146354549555200",
+      "published": "2020-06-25T13:32:55+00:00",
+      "wm-received": "2020-06-25T14:15:35Z",
+      "wm-id": 814787,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/nhoizey/1276146354549555200",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/25/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "How do you analyse TTFB?\n\nHow to know how many of these 530 ms come from the network, from reading files on the server, from many rules to parse in `.htaccess`, etc.?\n<a class=\"u-mention\" href=\"https://nho.io/n/2020/06/25/2/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/notes/2020/06/25/2/\"></a>",
+        "html": "How do you analyse TTFB?<br /><br />How to know how many of these 530 ms come from the network, from reading files on the server, from many rules to parse in `.htaccess`, etc.?",
+        "text": "How do you analyse TTFB?\n\nHow to know how many of these 530 ms come from the network, from reading files on the server, from many rules to parse in `.htaccess`, etc.?"
+      },
+      "mention-of": "https://nicolas-hoizey.com/notes/2020/06/25/2/",
+      "wm-property": "mention-of",
       "wm-private": false
     }
   ]
