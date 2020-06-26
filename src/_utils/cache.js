@@ -23,7 +23,7 @@ const readFromCache = (file) => {
   }
 
   // no cache found.
-  return {};
+  return false;
 };
 
 module.exports = {
