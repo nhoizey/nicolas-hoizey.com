@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-06-25T16:05:24.650Z",
+  "lastFetched": "2020-06-30T07:04:43.233Z",
   "webmentions": [
     {
       "type": "entry",
@@ -56287,6 +56287,218 @@
       },
       "mention-of": "https://nicolas-hoizey.com/notes/2020/06/25/2/",
       "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tim",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/3d82e647cafbe47c61ba49aaad3fd48a796ef82db1f894898e24bdfc88660bd8.jpg",
+        "url": "https://twitter.com/tpillard"
+      },
+      "url": "https://twitter.com/tpillard/status/1276162982683250695",
+      "published": "2020-06-25T14:38:59+00:00",
+      "wm-received": "2020-06-29T16:53:51Z",
+      "wm-id": 817600,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1276146354549555200/1276162982683250695",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/25/2/",
+      "photo": [
+        "https://pbs.twimg.com/media/EbXXYIDXQAQgTb7.jpg"
+      ],
+      "content": {
+        "content-type": "text/html",
+        "value": "530ms seem unexpectedly long for your website, it could be a temporary glitch somewhere in the chain between dareboost and alwaysdata.\nTo partly answer your original question, you might want to take a look at curl -w output format or httpstat: <a href=\"https://github.com/reorx/httpstat\">github.com/reorx/httpstat</a>\n\n<a class=\"u-mention\" href=\"https://nho.io/n/2020/06/25/2/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/notes/2020/06/25/2/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "530ms seem unexpectedly long for your website, it could be a temporary glitch somewhere in the chain between dareboost and alwaysdata.<br />To partly answer your original question, you might want to take a look at curl -w output format or httpstat: <a href=\"https://github.com/reorx/httpstat\">github.com/reorx/httpstat</a>",
+        "text": "530ms seem unexpectedly long for your website, it could be a temporary glitch somewhere in the chain between dareboost and alwaysdata.\nTo partly answer your original question, you might want to take a look at curl -w output format or httpstat: github.com/reorx/httpstat"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/06/25/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1276169678755434496",
+      "published": "2020-06-25T15:05:36+00:00",
+      "wm-received": "2020-06-29T16:53:29Z",
+      "wm-id": 817597,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1276146354549555200/1276169678755434496",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/25/2/",
+      "photo": [
+        "https://pbs.twimg.com/media/EbXdjnTXQAIxdPQ.jpg"
+      ],
+      "content": {
+        "content-type": "text/html",
+        "value": "This is not a temporary glitch, as <a href=\"https://twitter.com/Dareboost\">@Dareboost</a> shows, that's why I want to investigate.\n\nI'll see what I can get with http stat, thanks! 👍\n<a class=\"u-mention\" href=\"https://nho.io/n/2020/06/25/2/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/notes/2020/06/25/2/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/tpillard\"></a>",
+        "html": "This is not a temporary glitch, as <a href=\"https://twitter.com/Dareboost\">@Dareboost</a> shows, that's why I want to investigate.<br /><br />I'll see what I can get with http stat, thanks! 👍",
+        "text": "This is not a temporary glitch, as @Dareboost shows, that's why I want to investigate.\n\nI'll see what I can get with http stat, thanks! 👍"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/06/25/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1276171507975237633",
+      "published": "2020-06-25T15:12:52+00:00",
+      "wm-received": "2020-06-29T16:53:27Z",
+      "wm-id": 817596,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1276146354549555200/1276171507975237633",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/25/2/",
+      "photo": [
+        "https://pbs.twimg.com/media/EbXfOBvWsAEUjgD.jpg",
+        "https://pbs.twimg.com/media/EbXfOEIXQAIJkEt.jpg"
+      ],
+      "content": {
+        "content-type": "text/html",
+        "value": "Also, it's almost the same with Netlify, so I guess it's not an issue with <a href=\"https://twitter.com/alwaysdata\">@alwaysdata</a>\n\nDid you see it's on simulated 3G?\n<a class=\"u-mention\" href=\"https://nho.io/n/2020/06/25/2/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/notes/2020/06/25/2/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/tpillard\"></a>",
+        "html": "Also, it's almost the same with Netlify, so I guess it's not an issue with <a href=\"https://twitter.com/alwaysdata\">@alwaysdata</a><br /><br />Did you see it's on simulated 3G?",
+        "text": "Also, it's almost the same with Netlify, so I guess it's not an issue with @alwaysdata\n\nDid you see it's on simulated 3G?"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/06/25/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Boris Schapira 🚀",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/5ee9406245c84f10b637d5bfa201100dcc4a4c64dc9cd10d1729dad8730ac358.jpg",
+        "url": "https://twitter.com/boostmarks"
+      },
+      "url": "https://twitter.com/boostmarks/status/1276172630580776964",
+      "published": "2020-06-25T15:17:19+00:00",
+      "wm-received": "2020-06-29T16:53:19Z",
+      "wm-id": 817593,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1276146354549555200/1276172630580776964",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/25/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "In Dareboost, the \"More metrics\" qui decompose the TTFB between DNS, Connecting, Waiting and Receiving.\n<a class=\"u-mention\" href=\"https://nho.io/n/2020/06/25/2/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/notes/2020/06/25/2/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "In Dareboost, the \"More metrics\" qui decompose the TTFB between DNS, Connecting, Waiting and Receiving.",
+        "text": "In Dareboost, the \"More metrics\" qui decompose the TTFB between DNS, Connecting, Waiting and Receiving."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/06/25/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Boris Schapira 🚀",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/5ee9406245c84f10b637d5bfa201100dcc4a4c64dc9cd10d1729dad8730ac358.jpg",
+        "url": "https://twitter.com/boostmarks"
+      },
+      "url": "https://twitter.com/boostmarks/status/1276172691087724545",
+      "published": "2020-06-25T15:17:34+00:00",
+      "wm-received": "2020-06-29T16:53:32Z",
+      "wm-id": 817599,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1276146354549555200/1276172691087724545",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/25/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "If your Connecting time is long, you can test with a perfect bandwidth/0ms latency to better assess the problem. If nothing changes, maybe it's because it takes time to validate your certificate.\n<a class=\"u-mention\" href=\"https://nho.io/n/2020/06/25/2/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/notes/2020/06/25/2/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "If your Connecting time is long, you can test with a perfect bandwidth/0ms latency to better assess the problem. If nothing changes, maybe it's because it takes time to validate your certificate.",
+        "text": "If your Connecting time is long, you can test with a perfect bandwidth/0ms latency to better assess the problem. If nothing changes, maybe it's because it takes time to validate your certificate."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/06/25/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1276175480681627649",
+      "published": "2020-06-25T15:28:39+00:00",
+      "wm-received": "2020-06-29T16:53:19Z",
+      "wm-id": 817594,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1276146354549555200/1276175480681627649",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/25/2/",
+      "photo": [
+        "https://pbs.twimg.com/media/EbXi1dEXYAEY-sZ.jpg"
+      ],
+      "content": {
+        "content-type": "text/html",
+        "value": "Looks like I never clicked that button… 😅\n\nConnection takes 334 ms.\n<a class=\"u-mention\" href=\"https://nho.io/n/2020/06/25/2/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/notes/2020/06/25/2/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/boostmarks\"></a>",
+        "html": "Looks like I never clicked that button… 😅<br /><br />Connection takes 334 ms.",
+        "text": "Looks like I never clicked that button… 😅\n\nConnection takes 334 ms."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/06/25/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1276176045893353472",
+      "published": "2020-06-25T15:30:54+00:00",
+      "wm-received": "2020-06-29T16:53:29Z",
+      "wm-id": 817598,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1276146354549555200/1276176045893353472",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/25/2/",
+      "photo": [
+        "https://pbs.twimg.com/media/EbXjWW3X0AM8TaZ.jpg"
+      ],
+      "content": {
+        "content-type": "text/html",
+        "value": "No issue on a perfect network:\n<a href=\"https://www.dareboost.com/en/report/a_35ef4c2ec63b258779cbf4c61\">dareboost.com/en/report/a_35…</a>\n\n<a class=\"u-mention\" href=\"https://nho.io/n/2020/06/25/2/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/notes/2020/06/25/2/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/boostmarks\"></a>",
+        "html": "No issue on a perfect network:<br /><a href=\"https://www.dareboost.com/en/report/a_35ef4c2ec63b258779cbf4c61\">dareboost.com/en/report/a_35…</a>",
+        "text": "No issue on a perfect network:\ndareboost.com/en/report/a_35…"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/06/25/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1276181560929198080",
+      "published": "2020-06-25T15:52:49+00:00",
+      "wm-received": "2020-06-29T16:53:26Z",
+      "wm-id": 817595,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1276146354549555200/1276181560929198080",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/06/25/2/",
+      "photo": [
+        "https://pbs.twimg.com/media/EbXoXN2XkAAfnMe.jpg",
+        "https://pbs.twimg.com/media/EbXoXLVXQAAEvRh.jpg"
+      ],
+      "content": {
+        "content-type": "text/html",
+        "value": "First result with httpstat from my computer on fiber was chocking! 🤷‍♂️\n\nNext ones are better.\n<a class=\"u-mention\" href=\"https://nho.io/n/2020/06/25/2/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/notes/2020/06/25/2/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/tpillard\"></a>",
+        "html": "First result with httpstat from my computer on fiber was chocking! 🤷‍♂️<br /><br />Next ones are better.",
+        "text": "First result with httpstat from my computer on fiber was chocking! 🤷‍♂️\n\nNext ones are better."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/06/25/2/",
+      "wm-property": "in-reply-to",
       "wm-private": false
     }
   ]
