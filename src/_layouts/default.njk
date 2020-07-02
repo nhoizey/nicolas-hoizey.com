@@ -7,7 +7,7 @@
   {% set section = section[1] | replace('index.html', 'home') %}
   <body
     itemscope
-    itemtype="https://schema.org/{% if "about/" in page.inputPath %}aboutpage{% else %}webpage{% endif %}"
+    itemtype="https://schema.org/{% if "about/" in page.inputPath %}AboutPage{% else %}WebPage{% endif %}"
     class="layout-{{ layout }} section-{{ section }}"
     data-img-src="{{ page.inputPath | dirname }}/"
     data-img-dist="{{ page.outputPath | dirname }}/"
