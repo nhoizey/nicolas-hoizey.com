@@ -48,7 +48,7 @@
     "cheerio": "~1.0.0-rc.3",
     "cross-env": "^7.0.2",
     "dotenv": "^8.2.0",
-    "eleventy-plugin-embed-tweet": "github:KyleMit/eleventy-plugin-embed-tweet#pull/2/head",
+    "eleventy-plugin-embed-tweet": "github:nhoizey/eleventy-plugin-embed-tweet",
     "eleventy-plugin-images-responsiver": "^1.5.3",
     "encoding": "^0.1.12",
     "entities": "^2.0.3",
