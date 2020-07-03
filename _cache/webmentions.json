@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-07-02T08:11:49.626Z",
+  "lastFetched": "2020-07-03T09:25:13.165Z",
   "webmentions": [
     {
       "type": "entry",
@@ -56582,6 +56582,616 @@
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1278262267574960130/760891744678543361",
       "wm-target": "https://nicolas-hoizey.com/notes/2020/07/01/1/",
       "like-of": "https://nicolas-hoizey.com/notes/2020/07/01/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "edgemesh",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0dc7d529c0213c4885b8f105ddecd02e1d7272b1bd0086cbe1b10342f1b7edfb.jpg",
+        "url": "https://twitter.com/edgemeshinc"
+      },
+      "url": "https://twitter.com/nhoizey/status/1278640297258487809#favorited-by-760891744678543361",
+      "published": null,
+      "wm-received": "2020-07-02T11:02:34Z",
+      "wm-id": 819417,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1278640297258487809/760891744678543361",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/07/02/use-speedlify-to-continuously-measure-site-performance/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/07/02/use-speedlify-to-continuously-measure-site-performance/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "David Larlet ✅",
+        "photo": "https://webmention.io/avatar/mamot.fr/9725241346c341bd65c1bc9ccb17ef8783725a0e6268a14672e18f7e5abad436.jpg",
+        "url": "https://mastodon.social/@dav"
+      },
+      "url": "https://mastodon.social/@dav/104444730049060563",
+      "published": "2020-07-02T14:28:24",
+      "wm-received": "2020-07-02T19:44:10Z",
+      "wm-id": 819663,
+      "wm-source": "https://brid-gy.appspot.com/comment/mastodon/@nhoizey@mamot.fr/104443849576343053/104444730074017184",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/07/02/use-speedlify-to-continuously-measure-site-performance/",
+      "content": {
+        "content-type": "text/html",
+        "value": "<p><span class=\"h-card\"><a href=\"https://mamot.fr/@nhoizey\" class=\"u-url\">@<span>nhoizey</span></a></span> merci pour le partage (et la participation !), ça juste marche bien :)</p>",
+        "html": "<a href=\"https://mamot.fr/@nhoizey\">@nhoizey</a> merci pour le partage (et la participation !), ça juste marche bien :)",
+        "text": "@nhoizey merci pour le partage (et la participation !), ça juste marche bien :)"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/07/02/use-speedlify-to-continuously-measure-site-performance/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/mamot.fr/5fa24c7dbcb46640e1137d65e156fbcb15bc2e3759135ed7481ae94ace2e80fb.jpg",
+        "url": "https://mamot.fr/@nhoizey"
+      },
+      "url": "https://mamot.fr/@nhoizey/104444773044914507",
+      "published": "2020-07-02T14:39:20",
+      "wm-received": "2020-07-02T19:44:11Z",
+      "wm-id": 819664,
+      "wm-source": "https://brid-gy.appspot.com/comment/mastodon/@nhoizey@mamot.fr/104443849576343053/104444773044914507",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/07/02/use-speedlify-to-continuously-measure-site-performance/",
+      "content": {
+        "content-type": "text/html",
+        "value": "<p><span class=\"h-card\"><a href=\"https://mastodon.social/@dav\" class=\"u-url\">@<span>dav</span></a></span> oui, c'est génial d'efficacité !</p>",
+        "html": "<a href=\"https://mastodon.social/@dav\">@dav</a> oui, c'est génial d'efficacité !",
+        "text": "@dav oui, c'est génial d'efficacité !"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/07/02/use-speedlify-to-continuously-measure-site-performance/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "bertrandkeller",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/5705e235fe729ec62273131d966952f09e3ab0bbf8b470a3846fb0280a3d40fa.gif",
+        "url": "https://twitter.com/bertrandkeller"
+      },
+      "url": "https://twitter.com/bertrandkeller/status/1278688210613342210",
+      "published": "2020-07-02T13:53:20+00:00",
+      "wm-received": "2020-07-02T14:31:22Z",
+      "wm-id": 819535,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1278640297258487809/1278688210613342210",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/07/02/use-speedlify-to-continuously-measure-site-performance/",
+      "content": {
+        "content-type": "text/html",
+        "value": "C’est quand même bien pompé sur <a href=\"http://lowtus.fr\">lowtus.fr</a>. Mais il n’en est fait mention nul part.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/zachleat\"></a>",
+        "html": "C’est quand même bien pompé sur <a href=\"http://lowtus.fr\">lowtus.fr</a>. Mais il n’en est fait mention nul part.",
+        "text": "C’est quand même bien pompé sur lowtus.fr. Mais il n’en est fait mention nul part."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/07/02/use-speedlify-to-continuously-measure-site-performance/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1278695169509019650",
+      "published": "2020-07-02T14:21:00+00:00",
+      "wm-received": "2020-07-02T14:31:22Z",
+      "wm-id": 819536,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1278640297258487809/1278695169509019650",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/07/02/use-speedlify-to-continuously-measure-site-performance/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Ah bin je ne connaissais même pas, je ne pense pas que ce soit pompé du tout. 🤷‍♂️\n<a class=\"u-mention\" href=\"https://twitter.com/bertrandkeller\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/zachleat\"></a>",
+        "html": "Ah bin je ne connaissais même pas, je ne pense pas que ce soit pompé du tout. 🤷‍♂️",
+        "text": "Ah bin je ne connaissais même pas, je ne pense pas que ce soit pompé du tout. 🤷‍♂️"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/07/02/use-speedlify-to-continuously-measure-site-performance/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/mamot.fr/5fa24c7dbcb46640e1137d65e156fbcb15bc2e3759135ed7481ae94ace2e80fb.jpg",
+        "url": "https://mamot.fr/@nhoizey"
+      },
+      "url": "https://mamot.fr/@nhoizey/104445383814972383",
+      "published": "2020-07-02T17:14:40",
+      "wm-received": "2020-07-02T19:43:48Z",
+      "wm-id": 819662,
+      "wm-source": "https://brid-gy.appspot.com/comment/mastodon/@nhoizey@mamot.fr/104443849576343053/104445383814972383",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/07/02/use-speedlify-to-continuously-measure-site-performance/",
+      "content": {
+        "content-type": "text/html",
+        "value": "<p><span class=\"h-card\"><a href=\"https://mastodon.social/@dav\" class=\"u-url\">@<span>dav</span></a></span> tiens, du coup, n'hésite pas à donner ton avis sur <a href=\"https://github.com/zachleat/speedlify/issues/7\"><span>https://</span><span>github.com/zachleat/speedlify/</span><span>issues/7</span></a></p>\n<a href=\"https://github.com/zachleat/speedlify/issues/7\">Rename _data/sites.js to _data/sites-sample.js · Issue #7 · zachleat/speedlify</a>",
+        "html": "<a href=\"https://mastodon.social/@dav\">@dav</a> tiens, du coup, n'hésite pas à donner ton avis sur <a href=\"https://github.com/zachleat/speedlify/issues/7\">https://github.com/zachleat/speedlify/issues/7</a><br /><a href=\"https://github.com/zachleat/speedlify/issues/7\">Rename _data/sites.js to _data/sites-sample.js · Issue #7 · zachleat/speedlify</a>",
+        "text": "@dav tiens, du coup, n'hésite pas à donner ton avis sur https://github.com/zachleat/speedlify/issues/7\nRename _data/sites.js to _data/sites-sample.js · Issue #7 · zachleat/speedlify"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/07/02/use-speedlify-to-continuously-measure-site-performance/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jeff Posnick",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/36aba4753c8886a19da25fc84a8969331a257ff408aa5eea565c97efcf9ce9a1.jpg",
+        "url": "https://twitter.com/jeffposnick"
+      },
+      "url": "https://twitter.com/jeffposnick/status/1278744295290417153",
+      "published": "2020-07-02T17:36:12+00:00",
+      "wm-received": "2020-07-02T18:00:18Z",
+      "wm-id": 819633,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1278640293768843265/1278744295290417153",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/02/2/",
+      "photo": [
+        "https://pbs.twimg.com/media/Eb8DJ3uUYAE75XG.jpg"
+      ],
+      "content": {
+        "content-type": "text/html",
+        "value": "Different CSP?\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/workboxjs\"></a>",
+        "html": "Different CSP?",
+        "text": "Different CSP?"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/07/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jeff Posnick",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/36aba4753c8886a19da25fc84a8969331a257ff408aa5eea565c97efcf9ce9a1.jpg",
+        "url": "https://twitter.com/jeffposnick"
+      },
+      "url": "https://twitter.com/jeffposnick/status/1278744295290417153",
+      "published": "2020-07-02T17:36:12+00:00",
+      "wm-received": "2020-07-02T18:00:17Z",
+      "wm-id": 819632,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1278640293768843265/1278744295290417153",
+      "wm-target": "https://nicolas-hoizey.com/notes/",
+      "photo": [
+        "https://pbs.twimg.com/media/Eb8DJ3uUYAE75XG.jpg"
+      ],
+      "content": {
+        "content-type": "text/html",
+        "value": "Different CSP?\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/workboxjs\"></a>",
+        "html": "Different CSP?",
+        "text": "Different CSP?"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1278746552522231811",
+      "published": "2020-07-02T17:45:10+00:00",
+      "wm-received": "2020-07-02T18:00:30Z",
+      "wm-id": 819636,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1278640293768843265/1278746552522231811",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "They are the same:\n<a href=\"https://github.com/nhoizey/nicolas-hoizey.com/blob/master/src/.htaccess#L369\">github.com/nhoizey/nicola…</a>\n<a href=\"https://github.com/nhoizey/nicolas-hoizey.com/blob/master/src/_headers#L17\">github.com/nhoizey/nicola…</a>\n\nThe strange thing is that there is no Cloudinary in there… 😅\n\nAnyway, it should behave the same, and with or without the SW.\n<a class=\"u-mention\" href=\"https://twitter.com/jeffposnick\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/workboxjs\"></a>",
+        "html": "They are the same:<br /><a href=\"https://github.com/nhoizey/nicolas-hoizey.com/blob/master/src/.htaccess#L369\">github.com/nhoizey/nicola…</a><br /><a href=\"https://github.com/nhoizey/nicolas-hoizey.com/blob/master/src/_headers#L17\">github.com/nhoizey/nicola…</a><br /><br />The strange thing is that there is no Cloudinary in there… 😅<br /><br />Anyway, it should behave the same, and with or without the SW.",
+        "text": "They are the same:\ngithub.com/nhoizey/nicola…\ngithub.com/nhoizey/nicola…\n\nThe strange thing is that there is no Cloudinary in there… 😅\n\nAnyway, it should behave the same, and with or without the SW."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/07/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1278746552522231811",
+      "published": "2020-07-02T17:45:10+00:00",
+      "wm-received": "2020-07-02T18:00:29Z",
+      "wm-id": 819635,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1278640293768843265/1278746552522231811",
+      "wm-target": "https://nicolas-hoizey.com/notes/",
+      "content": {
+        "content-type": "text/html",
+        "value": "They are the same:\n<a href=\"https://github.com/nhoizey/nicolas-hoizey.com/blob/master/src/.htaccess#L369\">github.com/nhoizey/nicola…</a>\n<a href=\"https://github.com/nhoizey/nicolas-hoizey.com/blob/master/src/_headers#L17\">github.com/nhoizey/nicola…</a>\n\nThe strange thing is that there is no Cloudinary in there… 😅\n\nAnyway, it should behave the same, and with or without the SW.\n<a class=\"u-mention\" href=\"https://twitter.com/jeffposnick\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/workboxjs\"></a>",
+        "html": "They are the same:<br /><a href=\"https://github.com/nhoizey/nicolas-hoizey.com/blob/master/src/.htaccess#L369\">github.com/nhoizey/nicola…</a><br /><a href=\"https://github.com/nhoizey/nicolas-hoizey.com/blob/master/src/_headers#L17\">github.com/nhoizey/nicola…</a><br /><br />The strange thing is that there is no Cloudinary in there… 😅<br /><br />Anyway, it should behave the same, and with or without the SW.",
+        "text": "They are the same:\ngithub.com/nhoizey/nicola…\ngithub.com/nhoizey/nicola…\n\nThe strange thing is that there is no Cloudinary in there… 😅\n\nAnyway, it should behave the same, and with or without the SW."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1278746861977944065",
+      "published": "2020-07-02T17:46:24+00:00",
+      "wm-received": "2020-07-02T18:00:30Z",
+      "wm-id": 819637,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1278640293768843265/1278746861977944065",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Hum… maybe that's different after all, because we can't yet restrict headers to documents on <a href=\"https://twitter.com/Netlify\">@Netlify</a>, so the CSP is also on the image.\n<a class=\"u-mention\" href=\"https://twitter.com/jeffposnick\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/workboxjs\"></a>",
+        "html": "Hum… maybe that's different after all, because we can't yet restrict headers to documents on <a href=\"https://twitter.com/Netlify\">@Netlify</a>, so the CSP is also on the image.",
+        "text": "Hum… maybe that's different after all, because we can't yet restrict headers to documents on @Netlify, so the CSP is also on the image."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/07/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1278746861977944065",
+      "published": "2020-07-02T17:46:24+00:00",
+      "wm-received": "2020-07-02T18:00:26Z",
+      "wm-id": 819634,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1278640293768843265/1278746861977944065",
+      "wm-target": "https://nicolas-hoizey.com/notes/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Hum… maybe that's different after all, because we can't yet restrict headers to documents on <a href=\"https://twitter.com/Netlify\">@Netlify</a>, so the CSP is also on the image.\n<a class=\"u-mention\" href=\"https://twitter.com/jeffposnick\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/workboxjs\"></a>",
+        "html": "Hum… maybe that's different after all, because we can't yet restrict headers to documents on <a href=\"https://twitter.com/Netlify\">@Netlify</a>, so the CSP is also on the image.",
+        "text": "Hum… maybe that's different after all, because we can't yet restrict headers to documents on @Netlify, so the CSP is also on the image."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1278750131832213504",
+      "published": "2020-07-02T17:59:24+00:00",
+      "wm-received": "2020-07-02T18:00:49Z",
+      "wm-id": 819638,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1278640293768843265/1278750131832213504",
+      "wm-target": "https://nicolas-hoizey.com/notes/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Hum… maybe is it referring to `connect-src` instead of `img-src` because it comes from the Service Worker?\n<a class=\"u-mention\" href=\"https://twitter.com/jeffposnick\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/workboxjs\"></a>",
+        "html": "Hum… maybe is it referring to `connect-src` instead of `img-src` because it comes from the Service Worker?",
+        "text": "Hum… maybe is it referring to `connect-src` instead of `img-src` because it comes from the Service Worker?"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1278750131832213504",
+      "published": "2020-07-02T17:59:24+00:00",
+      "wm-received": "2020-07-02T18:00:49Z",
+      "wm-id": 819639,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1278640293768843265/1278750131832213504",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/02/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Hum… maybe is it referring to `connect-src` instead of `img-src` because it comes from the Service Worker?\n<a class=\"u-mention\" href=\"https://twitter.com/jeffposnick\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/workboxjs\"></a>",
+        "html": "Hum… maybe is it referring to `connect-src` instead of `img-src` because it comes from the Service Worker?",
+        "text": "Hum… maybe is it referring to `connect-src` instead of `img-src` because it comes from the Service Worker?"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/07/02/2/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "bertrandkeller",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/5705e235fe729ec62273131d966952f09e3ab0bbf8b470a3846fb0280a3d40fa.gif",
+        "url": "https://twitter.com/bertrandkeller"
+      },
+      "url": "https://twitter.com/bertrandkeller/status/1278762387672371208",
+      "published": "2020-07-02T18:48:06+00:00",
+      "wm-received": "2020-07-02T18:51:15Z",
+      "wm-id": 819647,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1278640297258487809/1278762387672371208",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/07/02/use-speedlify-to-continuously-measure-site-performance/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Hmm, il connait le site. Des audits de groupes de pages. C’était le seul outil à le faire…ma petite fierté quoi. Mais peu importe, j’ai jamais imaginé que ça ne pouvait pas être copié.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/zachleat\"></a>",
+        "html": "Hmm, il connait le site. Des audits de groupes de pages. C’était le seul outil à le faire…ma petite fierté quoi. Mais peu importe, j’ai jamais imaginé que ça ne pouvait pas être copié.",
+        "text": "Hmm, il connait le site. Des audits de groupes de pages. C’était le seul outil à le faire…ma petite fierté quoi. Mais peu importe, j’ai jamais imaginé que ça ne pouvait pas être copié."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/07/02/use-speedlify-to-continuously-measure-site-performance/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1278767298652897286",
+      "published": "2020-07-02T19:07:37+00:00",
+      "wm-received": "2020-07-02T19:53:19Z",
+      "wm-id": 819665,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1278640297258487809/1278767298652897286",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/07/02/use-speedlify-to-continuously-measure-site-performance/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Franchement, je ne pense pas que ce soit une copie. Il a mis en place le leaderboard depuis déjà pas mal de temps, il parle de perf depuis des années.\n\nÀ ce compte là, on pourrait dire que tu as copié Dareboost, SpeedCurve, ou autre… 🤷‍♂️\n<a class=\"u-mention\" href=\"https://twitter.com/bertrandkeller\"></a>",
+        "html": "Franchement, je ne pense pas que ce soit une copie. Il a mis en place le leaderboard depuis déjà pas mal de temps, il parle de perf depuis des années.<br /><br />À ce compte là, on pourrait dire que tu as copié Dareboost, SpeedCurve, ou autre… 🤷‍♂️",
+        "text": "Franchement, je ne pense pas que ce soit une copie. Il a mis en place le leaderboard depuis déjà pas mal de temps, il parle de perf depuis des années.\n\nÀ ce compte là, on pourrait dire que tu as copié Dareboost, SpeedCurve, ou autre… 🤷‍♂️"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/07/02/use-speedlify-to-continuously-measure-site-performance/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "bertrandkeller",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/5705e235fe729ec62273131d966952f09e3ab0bbf8b470a3846fb0280a3d40fa.gif",
+        "url": "https://twitter.com/bertrandkeller"
+      },
+      "url": "https://twitter.com/bertrandkeller/status/1278785392368648192",
+      "published": "2020-07-02T20:19:30+00:00",
+      "wm-received": "2020-07-02T20:48:17Z",
+      "wm-id": 819679,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1278640297258487809/1278785392368648192",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/07/02/use-speedlify-to-continuously-measure-site-performance/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Le leaderboard c'est après un tweet envoyé à Zach sur Lowtus. Et non, un audit comparatif d’un groupe de pages n’est pas comparable à un outil de monitoring où tu rentres toi même une URL. Mais bon, moi ou un autre, ça aurait été fait un jour ou l’autre.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "Le leaderboard c'est après un tweet envoyé à Zach sur Lowtus. Et non, un audit comparatif d’un groupe de pages n’est pas comparable à un outil de monitoring où tu rentres toi même une URL. Mais bon, moi ou un autre, ça aurait été fait un jour ou l’autre.",
+        "text": "Le leaderboard c'est après un tweet envoyé à Zach sur Lowtus. Et non, un audit comparatif d’un groupe de pages n’est pas comparable à un outil de monitoring où tu rentres toi même une URL. Mais bon, moi ou un autre, ça aurait été fait un jour ou l’autre."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/07/02/use-speedlify-to-continuously-measure-site-performance/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1278788808406978562",
+      "published": "2020-07-02T20:33:05+00:00",
+      "wm-received": "2020-07-02T20:48:52Z",
+      "wm-id": 819680,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1278640297258487809/1278788808406978562",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/07/02/use-speedlify-to-continuously-measure-site-performance/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Je pense vraiment que ce genre de truc existait déjà, ou a pu se créer après le tiens sans qu'il soit connu. \n\nPar exemple :\n- <a href=\"https://speedcurve.com/benchmarks/\">speedcurve.com/benchmarks/</a>\n- <a href=\"https://www.journaldunet.com/solutions/dsi/1192875-classement-webperf/\">journaldunet.com/solutions/dsi/…</a>\n- <a href=\"https://webperf.xyz/\">webperf.xyz</a>\n\nPeut-être pas celui de Zach, ok, je n'ai pas toutes les infos pour juger.\n<a class=\"u-mention\" href=\"https://twitter.com/bertrandkeller\"></a>",
+        "html": "Je pense vraiment que ce genre de truc existait déjà, ou a pu se créer après le tiens sans qu'il soit connu. <br /><br />Par exemple :<br />- <a href=\"https://speedcurve.com/benchmarks/\">speedcurve.com/benchmarks/</a><br />- <a href=\"https://www.journaldunet.com/solutions/dsi/1192875-classement-webperf/\">journaldunet.com/solutions/dsi/…</a><br />- <a href=\"https://webperf.xyz/\">webperf.xyz</a><br /><br />Peut-être pas celui de Zach, ok, je n'ai pas toutes les infos pour juger.",
+        "text": "Je pense vraiment que ce genre de truc existait déjà, ou a pu se créer après le tiens sans qu'il soit connu. \n\nPar exemple :\n- speedcurve.com/benchmarks/\n- journaldunet.com/solutions/dsi/…\n- webperf.xyz\n\nPeut-être pas celui de Zach, ok, je n'ai pas toutes les infos pour juger."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/07/02/use-speedlify-to-continuously-measure-site-performance/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Bastien Jaillot",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0dbb6910fed96ef1e3fdf19d6b27ac2dd24a7d5fbdcc7d71e693325a349d8280.jpg",
+        "url": "https://twitter.com/bastnic"
+      },
+      "url": "https://twitter.com/bastnic/status/1278806306565107712",
+      "published": "2020-07-02T21:42:37+00:00",
+      "wm-received": "2020-07-02T22:49:59Z",
+      "wm-id": 819710,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1278798173335703552/1278806306565107712",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/02/4/",
+      "photo": [
+        "https://pbs.twimg.com/media/Eb80KSeUEAAq1Ny.jpg"
+      ],
+      "content": {
+        "content-type": "text/plain",
+        "value": "Google's Structure Data testing tool finds only the BreadcrumbList type in my article pages.\n\nBut using @redirectionio's new Structured data",
+        "text": "Google's Structure Data testing tool finds only the BreadcrumbList type in my article pages.\n\nBut using @redirectionio's new Structured data"
+      },
+      "repost-of": "https://nicolas-hoizey.com/notes/2020/07/02/4/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Damien Alexandre",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/542158651473dbab4d143bfa2f07328d22bc6bb15b2ee8e370f22db5acaafd83.png",
+        "url": "https://twitter.com/damienalexandre"
+      },
+      "url": "https://twitter.com/nhoizey/status/1278798173335703552#favorited-by-14192532",
+      "published": null,
+      "wm-received": "2020-07-02T22:49:55Z",
+      "wm-id": 819706,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1278798173335703552/14192532",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/02/4/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/07/02/4/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "redirection.io",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/74fd80b303d77df2ca9845e033cb03a35eb3b0ecb334fc65164bb80421f477b2.jpg",
+        "url": "https://twitter.com/redirectionio"
+      },
+      "url": "https://twitter.com/nhoizey/status/1278798173335703552#favorited-by-847908596247646208",
+      "published": null,
+      "wm-received": "2020-07-02T22:49:57Z",
+      "wm-id": 819708,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1278798173335703552/847908596247646208",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/02/4/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/07/02/4/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Bastien Jaillot",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0dbb6910fed96ef1e3fdf19d6b27ac2dd24a7d5fbdcc7d71e693325a349d8280.jpg",
+        "url": "https://twitter.com/bastnic"
+      },
+      "url": "https://twitter.com/nhoizey/status/1278798173335703552#favorited-by-16088762",
+      "published": null,
+      "wm-received": "2020-07-02T22:49:57Z",
+      "wm-id": 819707,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1278798173335703552/16088762",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/02/4/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/07/02/4/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Xavier Lacot",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/743e70d9a24a79e6c25c797b654f8eb08df48cba678216bdeb87e366bc54b6f0.jpg",
+        "url": "https://twitter.com/xavierlacot"
+      },
+      "url": "https://twitter.com/nhoizey/status/1278798173335703552#favorited-by-16815643",
+      "published": null,
+      "wm-received": "2020-07-02T22:49:58Z",
+      "wm-id": 819709,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1278798173335703552/16815643",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/02/4/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/07/02/4/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "ن Yohann Monnier",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/21fcab6ff34e8aa0245d730ebb70ad1aec4c0c2490d52eb6081cbea185f05889.jpg",
+        "url": "https://twitter.com/yohannmonnier"
+      },
+      "url": "https://twitter.com/nhoizey/status/1278798173335703552#favorited-by-101718118",
+      "published": null,
+      "wm-received": "2020-07-03T05:30:38Z",
+      "wm-id": 819746,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1278798173335703552/101718118",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/02/4/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/07/02/4/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Clément Delmas",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/49e2e3281292670a4633dad5c916ae9dee1c6e7a8413fd7945684e8c97b1d316.jpg",
+        "url": "https://twitter.com/clem"
+      },
+      "url": "https://twitter.com/clem/status/1278939755405852673",
+      "published": "2020-07-03T06:32:53+00:00",
+      "wm-received": "2020-07-03T07:21:59Z",
+      "wm-id": 819766,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1278798173335703552/1278939755405852673",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/02/4/",
+      "photo": [
+        "https://pbs.twimg.com/media/Eb80KSeUEAAq1Ny.jpg"
+      ],
+      "content": {
+        "content-type": "text/plain",
+        "value": "Google's Structure Data testing tool finds only the BreadcrumbList type in my article pages.\n\nBut using @redirectionio's new Structured data",
+        "text": "Google's Structure Data testing tool finds only the BreadcrumbList type in my article pages.\n\nBut using @redirectionio's new Structured data"
+      },
+      "repost-of": "https://nicolas-hoizey.com/notes/2020/07/02/4/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Quentin Brunet",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/acc89447e2ca1998f71c636c1e7b46f9e74c16b95d870293e7f9a2f03cc25faa.jpg",
+        "url": "https://twitter.com/_qboot"
+      },
+      "url": "https://twitter.com/nhoizey/status/1278798173335703552#favorited-by-731852720911568896",
+      "published": null,
+      "wm-received": "2020-07-03T08:07:34Z",
+      "wm-id": 819773,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1278798173335703552/731852720911568896",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/02/4/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/07/02/4/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Baptiste Adrien",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/34a987784962144d20269130dd8266b0575413860661e6ecfc87e290a3dde0c9.jpg",
+        "url": "https://twitter.com/shinework"
+      },
+      "url": "https://twitter.com/nhoizey/status/1278798173335703552#favorited-by-31388292",
+      "published": null,
+      "wm-received": "2020-07-03T08:52:35Z",
+      "wm-id": 819779,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1278798173335703552/31388292",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/02/4/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/07/02/4/",
       "wm-property": "like-of",
       "wm-private": false
     }
