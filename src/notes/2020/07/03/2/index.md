@@ -7,4 +7,4 @@ TIL: if you cache images with a Service Worker, and you have a [Content Security
 
 Details from @qubyte: https://qubyte.codes/blog/content-security-policy-and-service-workers
 
-Of course, there are inconsistencies across browsers… 🤷‍♂️
+There are inconsistencies across browsers… 🤷‍♂️
