@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-07-03T09:25:13.165Z",
+  "lastFetched": "2020-07-03T16:27:16.885Z",
   "webmentions": [
     {
       "type": "entry",
@@ -57193,6 +57193,338 @@
       "wm-target": "https://nicolas-hoizey.com/notes/2020/07/02/4/",
       "like-of": "https://nicolas-hoizey.com/notes/2020/07/02/4/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1279032961648689152",
+      "published": "2020-07-03T12:43:15+00:00",
+      "wm-received": "2020-07-03T15:51:38Z",
+      "wm-id": 820008,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/qubyte/1279032961648689152",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/03/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "TIL: if you cache images with a Service Worker, and you have a Content Security Policy, the image's origin should be in both the `img-src` and `connect-src` directives.\n\nDetails from <a href=\"https://twitter.com/qubyte\">@qubyte</a>: <a href=\"https://qubyte.codes/blog/content-security-policy-and-service-workers\">qubyte.codes/blog/content-s…</a>\n\n<a href=\"https://nho.io/n/2020/07/03/2/\">nho.io/n/2020/07/03/2/</a>\n\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/notes/2020/07/03/2/\"></a>",
+        "html": "TIL: if you cache images with a Service Worker, and you have a Content Security Policy, the image's origin should be in both the `img-src` and `connect-src` directives.<br /><br />Details from <a href=\"https://twitter.com/qubyte\">@qubyte</a>: <a href=\"https://qubyte.codes/blog/content-security-policy-and-service-workers\">qubyte.codes/blog/content-s…</a><br /><br /><a href=\"https://nho.io/n/2020/07/03/2/\">nho.io/n/2020/07/03/2/</a>",
+        "text": "TIL: if you cache images with a Service Worker, and you have a Content Security Policy, the image's origin should be in both the `img-src` and `connect-src` directives.\n\nDetails from @qubyte: qubyte.codes/blog/content-s…\n\nnho.io/n/2020/07/03/2/"
+      },
+      "mention-of": "https://nicolas-hoizey.com/notes/2020/07/03/2/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1279034376265793536",
+      "published": "2020-07-03T12:48:53+00:00",
+      "wm-received": "2020-07-03T13:11:50Z",
+      "wm-id": 819846,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1279034287430524934/1279034376265793536",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/03/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "BTW, there's a typo near the end: \"both IPv4 and IPv4 addresses\".\n<a class=\"u-mention\" href=\"https://daniel.haxx.se/blog/2016/08/18/http2-connection-coalescing/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/bagder\"></a>",
+        "html": "BTW, there's a typo near the end: \"both IPv4 and IPv4 addresses\".",
+        "text": "BTW, there's a typo near the end: \"both IPv4 and IPv4 addresses\"."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/07/03/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Daniel Stenberg",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/8f9cf9c70603c266e0101bb447c86a9ac794fc0ab7399bf2e68803681f153622.jpeg",
+        "url": "https://twitter.com/bagder"
+      },
+      "url": "https://twitter.com/bagder/status/1279035002047672322",
+      "published": "2020-07-03T12:51:22+00:00",
+      "wm-received": "2020-07-03T13:11:49Z",
+      "wm-id": 819845,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1279034287430524934/1279035002047672322",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/03/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "I'm not sure what you're asking. Are you asking if my explanation is correct of how Firefox does connection coalescing?\n<a class=\"u-mention\" href=\"https://daniel.haxx.se/blog/2016/08/18/http2-connection-coalescing/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "I'm not sure what you're asking. Are you asking if my explanation is correct of how Firefox does connection coalescing?",
+        "text": "I'm not sure what you're asking. Are you asking if my explanation is correct of how Firefox does connection coalescing?"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/07/03/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1279038498851508224",
+      "published": "2020-07-03T13:05:16+00:00",
+      "wm-received": "2020-07-03T13:11:48Z",
+      "wm-id": 819844,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1279034287430524934/1279038498851508224",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/03/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "I'm not questioning your explanation at all.\n\nI don't understand how Firefox can make sure B can answer on the same IP as A when DNS doesn't list it.\n<a class=\"u-mention\" href=\"https://daniel.haxx.se/blog/2016/08/18/http2-connection-coalescing/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/bagder\"></a>",
+        "html": "I'm not questioning your explanation at all.<br /><br />I don't understand how Firefox can make sure B can answer on the same IP as A when DNS doesn't list it.",
+        "text": "I'm not questioning your explanation at all.\n\nI don't understand how Firefox can make sure B can answer on the same IP as A when DNS doesn't list it."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/07/03/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Dr Mark Everitt",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/8b1a12a69cfe4a497f92e182f8c53b3a651388f2389d03c39c303e4587391741.jpg",
+        "url": "https://twitter.com/qubyte"
+      },
+      "url": "https://twitter.com/nhoizey/status/1279032961648689152#favorited-by-19335843",
+      "published": null,
+      "wm-received": "2020-07-03T13:11:52Z",
+      "wm-id": 819847,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1279032961648689152/19335843",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/03/2/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/07/03/2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Daniel Stenberg",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/8f9cf9c70603c266e0101bb447c86a9ac794fc0ab7399bf2e68803681f153622.jpeg",
+        "url": "https://twitter.com/bagder"
+      },
+      "url": "https://twitter.com/bagder/status/1279044766097965056",
+      "published": "2020-07-03T13:30:10+00:00",
+      "wm-received": "2020-07-03T13:58:51Z",
+      "wm-id": 819862,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1279034287430524934/1279044766097965056",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/03/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "that's not what it says, it says it can reuse/coalesce the connection for A with B if DNS and the certs have overlap\n<a class=\"u-mention\" href=\"https://daniel.haxx.se/blog/2016/08/18/http2-connection-coalescing/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "that's not what it says, it says it can reuse/coalesce the connection for A with B if DNS and the certs have overlap",
+        "text": "that's not what it says, it says it can reuse/coalesce the connection for A with B if DNS and the certs have overlap"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/07/03/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1279051544223264770",
+      "published": "2020-07-03T13:57:06+00:00",
+      "wm-received": "2020-07-03T13:58:53Z",
+      "wm-id": 819864,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1279034287430524934/1279051544223264770",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/03/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "As I understand it:\n- A is on 1 and 2\n- Firefox connects to 1\n- TLS says * are the same\n- B is on 2 and 3\n- 2 and 3 are in *, so 1 (which is also) is reused\n\nThat's what I understand in \"It will reuse […] A and ask for host B’s content over that single shared connection\"\n<a class=\"u-mention\" href=\"https://daniel.haxx.se/blog/2016/08/18/http2-connection-coalescing/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/bagder\"></a>",
+        "html": "As I understand it:<br />- A is on 1 and 2<br />- Firefox connects to 1<br />- TLS says * are the same<br />- B is on 2 and 3<br />- 2 and 3 are in *, so 1 (which is also) is reused<br /><br />That's what I understand in \"It will reuse […] A and ask for host B’s content over that single shared connection\"",
+        "text": "As I understand it:\n- A is on 1 and 2\n- Firefox connects to 1\n- TLS says * are the same\n- B is on 2 and 3\n- 2 and 3 are in *, so 1 (which is also) is reused\n\nThat's what I understand in \"It will reuse […] A and ask for host B’s content over that single shared connection\""
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/07/03/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Daniel Stenberg",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/8f9cf9c70603c266e0101bb447c86a9ac794fc0ab7399bf2e68803681f153622.jpeg",
+        "url": "https://twitter.com/bagder"
+      },
+      "url": "https://twitter.com/bagder/status/1279051742949380096",
+      "published": "2020-07-03T13:57:53+00:00",
+      "wm-received": "2020-07-03T13:58:51Z",
+      "wm-id": 819863,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1279034287430524934/1279051742949380096",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/03/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "yes, that seems accurate\n<a class=\"u-mention\" href=\"https://daniel.haxx.se/blog/2016/08/18/http2-connection-coalescing/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "yes, that seems accurate",
+        "text": "yes, that seems accurate"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/07/03/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Gregoire Pineau",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/6d5c7c24c50f0d3ee87579f7e7e4193c10aa29ee5cc094ea49d1d8d17c87f396.jpg",
+        "url": "https://twitter.com/lyrixx"
+      },
+      "url": "https://twitter.com/lyrixx/status/1279065707133763584",
+      "published": "2020-07-03T14:53:23+00:00",
+      "wm-received": "2020-07-03T15:27:14Z",
+      "wm-id": 819988,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1278798173335703552/1279065707133763584",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/02/4/",
+      "photo": [
+        "https://pbs.twimg.com/media/Eb80KSeUEAAq1Ny.jpg"
+      ],
+      "content": {
+        "content-type": "text/plain",
+        "value": "Google's Structure Data testing tool finds only the BreadcrumbList type in my article pages.\n\nBut using @redirectionio's new Structured data",
+        "text": "Google's Structure Data testing tool finds only the BreadcrumbList type in my article pages.\n\nBut using @redirectionio's new Structured data"
+      },
+      "repost-of": "https://nicolas-hoizey.com/notes/2020/07/02/4/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1279080868842217474",
+      "published": "2020-07-03T15:53:37+00:00",
+      "wm-received": "2020-07-03T16:11:51Z",
+      "wm-id": 820016,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1279034287430524934/1279080868842217474",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/03/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Ok, so I wonder how it reacts if B is not reachable with 192.168.0.1 … 🤷‍♂️\n<a class=\"u-mention\" href=\"https://daniel.haxx.se/blog/2016/08/18/http2-connection-coalescing/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/bagder\"></a>",
+        "html": "Ok, so I wonder how it reacts if B is not reachable with 192.168.0.1 … 🤷‍♂️",
+        "text": "Ok, so I wonder how it reacts if B is not reachable with 192.168.0.1 … 🤷‍♂️"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/07/03/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Daniel Stenberg",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/8f9cf9c70603c266e0101bb447c86a9ac794fc0ab7399bf2e68803681f153622.jpeg",
+        "url": "https://twitter.com/bagder"
+      },
+      "url": "https://twitter.com/bagder/status/1279081636164972544",
+      "published": "2020-07-03T15:56:40+00:00",
+      "wm-received": "2020-07-03T16:11:49Z",
+      "wm-id": 820014,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1279034287430524934/1279081636164972544",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/03/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "I'm pretty sure that doesn't matter. The point is that the site admins have specified that A and B overlap.\n<a class=\"u-mention\" href=\"https://daniel.haxx.se/blog/2016/08/18/http2-connection-coalescing/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "I'm pretty sure that doesn't matter. The point is that the site admins have specified that A and B overlap.",
+        "text": "I'm pretty sure that doesn't matter. The point is that the site admins have specified that A and B overlap."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/07/03/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1279081847532683271",
+      "published": "2020-07-03T15:57:31+00:00",
+      "wm-received": "2020-07-03T16:11:49Z",
+      "wm-id": 820015,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1279034287430524934/1279081847532683271",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/03/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Ok, thanks.\n\nMaybe I should let go… 😉\n<a class=\"u-mention\" href=\"https://daniel.haxx.se/blog/2016/08/18/http2-connection-coalescing/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/bagder\"></a>",
+        "html": "Ok, thanks.<br /><br />Maybe I should let go… 😉",
+        "text": "Ok, thanks.\n\nMaybe I should let go… 😉"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/07/03/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Daniel Stenberg",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/8f9cf9c70603c266e0101bb447c86a9ac794fc0ab7399bf2e68803681f153622.jpeg",
+        "url": "https://twitter.com/bagder"
+      },
+      "url": "https://twitter.com/bagder/status/1279082323846336520",
+      "published": "2020-07-03T15:59:24+00:00",
+      "wm-received": "2020-07-03T16:11:47Z",
+      "wm-id": 820013,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1279034287430524934/1279082323846336520",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/03/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "you don't have to, but if you want to argue that they're doing it wrong you should talk to Firefox engineers, not me...\n<a class=\"u-mention\" href=\"https://daniel.haxx.se/blog/2016/08/18/http2-connection-coalescing/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "you don't have to, but if you want to argue that they're doing it wrong you should talk to Firefox engineers, not me...",
+        "text": "you don't have to, but if you want to argue that they're doing it wrong you should talk to Firefox engineers, not me..."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/07/03/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1279082677967171584",
+      "published": "2020-07-03T16:00:49+00:00",
+      "wm-received": "2020-07-03T16:11:47Z",
+      "wm-id": 820012,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1279034287430524934/1279082677967171584",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/03/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "I really do not want to argue anything, just to understand how/why it works.\n<a class=\"u-mention\" href=\"https://daniel.haxx.se/blog/2016/08/18/http2-connection-coalescing/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/bagder\"></a>",
+        "html": "I really do not want to argue anything, just to understand how/why it works.",
+        "text": "I really do not want to argue anything, just to understand how/why it works."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/07/03/1/",
+      "wm-property": "in-reply-to",
       "wm-private": false
     }
   ]
