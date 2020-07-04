@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-07-03T16:27:16.885Z",
+  "lastFetched": "2020-07-04T15:16:53.081Z",
   "webmentions": [
     {
       "type": "entry",
@@ -57525,6 +57525,24 @@
       },
       "in-reply-to": "https://nicolas-hoizey.com/notes/2020/07/03/1/",
       "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Samuel ROZE",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e39073a3d9e9253e52b19b8582dbc548d9bd29e738045a32e17a80daff03c2be.jpg",
+        "url": "https://twitter.com/samuelroze"
+      },
+      "url": "https://twitter.com/nhoizey/status/1278798173335703552#favorited-by-49404693",
+      "published": null,
+      "wm-received": "2020-07-04T10:23:54Z",
+      "wm-id": 820224,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1278798173335703552/49404693",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/02/4/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/07/02/4/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
