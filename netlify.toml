@@ -1,8 +1,9 @@
 [build]
-    command = "npm run build:netlify"
-    publish = "_site"
-    functions = "functions"
-    functionsSource = "_lambdas"
+  ignore = "git log -1 --pretty=%B | grep dependabot"
+  command = "npm run build:netlify"
+  publish = "_site"
+  functions = "functions"
+  functionsSource = "_lambdas"
 
 [[plugins]]
 package = "netlify-build-plugin-dareboost"
