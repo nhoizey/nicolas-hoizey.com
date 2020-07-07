@@ -90,5 +90,8 @@ $card-padding: 1em;
   }
 }
 
-.card__text {
+.card.note {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
 }

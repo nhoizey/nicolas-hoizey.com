@@ -17,9 +17,9 @@ title: Home
 {% from "macros/noteCard.njk" import noteCard %}
 
 <h2>Recent notes</h2>
-<ul class="grid">
+<ul class="list">
   {% for note in collections.notes | limit(4) %}
-    <li class="card h-entry">
+    <li class="card h-entry note">
       {{ noteCard(note.url, note.lang, note.date, note.data.tags, note.templateContent, webmentions) }}
     </li>
   {% endfor %}
