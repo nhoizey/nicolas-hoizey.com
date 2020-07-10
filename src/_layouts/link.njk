@@ -56,12 +56,12 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
                   <p class="author__name"><b class="p-name">{{ author.name }}</b>
                   (<svg><use xlink:href="#symbol-twitter"/></svg> @<a href="https://twitter.com/{{ author.twitter }}">{{ author.twitter }}</a>)
                 {% else %}
-                  <b class="p-name">{{ author.name }}</b>
+                  <p class="author__name no-avatar"><b class="p-name">{{ author.name }}</b></p>
                 {% endif %}
               </li>
             {% endfor %}
           </ul>
-          <p>wrote</p>
+          <p class="link__wrote">wrote</p>
         {% endif %}
         <p class="link__link">
           <a href="{{ link }}" class="u-bookmark-of">{{ link }}</a>
