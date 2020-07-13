@@ -50,7 +50,7 @@
     "dotenv": "^8.2.0",
     "eleventy-plugin-embed-tweet": "github:nhoizey/eleventy-plugin-embed-tweet",
     "eleventy-plugin-images-responsiver": "^1.5.3",
-    "encoding": "^0.1.12",
+    "encoding": "^0.1.13",
     "entities": "^2.0.3",
     "eslint": "7.3.1",
     "eslint-config-prettier": "6.11.0",
