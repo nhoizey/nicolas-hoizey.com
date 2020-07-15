@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-07-04T15:16:53.081Z",
+  "lastFetched": "2020-07-15T08:14:48.794Z",
   "webmentions": [
     {
       "type": "entry",
@@ -57542,6 +57542,179 @@
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1278798173335703552/49404693",
       "wm-target": "https://nicolas-hoizey.com/notes/2020/07/02/4/",
       "like-of": "https://nicolas-hoizey.com/notes/2020/07/02/4/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1282542005076267009",
+      "published": "2020-07-13T05:06:57+00:00",
+      "wm-received": "2020-07-13T06:10:10Z",
+      "wm-id": 825587,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/qubyte/1282542005076267009",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/03/2/",
+      "content": {
+        "content-type": "text/html",
+        "value": "TIL: if you cache images with a Service Worker, and you have a Content Security Policy, the image's origin should be in both the `img-src` and `connect-src` directives.\n\nDetails from <a href=\"https://twitter.com/qubyte\">@qubyte</a>: <a href=\"https://qubyte.codes/blog/content-security-policy-and-service-workers\">qubyte.codes/blog/content-s…</a>\n\n<a href=\"https://nho.io/n/2020/07/03/2/\">nho.io/n/2020/07/03/2/</a>\n\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/notes/2020/07/03/2/\"></a>",
+        "html": "TIL: if you cache images with a Service Worker, and you have a Content Security Policy, the image's origin should be in both the `img-src` and `connect-src` directives.<br /><br />Details from <a href=\"https://twitter.com/qubyte\">@qubyte</a>: <a href=\"https://qubyte.codes/blog/content-security-policy-and-service-workers\">qubyte.codes/blog/content-s…</a><br /><br /><a href=\"https://nho.io/n/2020/07/03/2/\">nho.io/n/2020/07/03/2/</a>",
+        "text": "TIL: if you cache images with a Service Worker, and you have a Content Security Policy, the image's origin should be in both the `img-src` and `connect-src` directives.\n\nDetails from @qubyte: qubyte.codes/blog/content-s…\n\nnho.io/n/2020/07/03/2/"
+      },
+      "mention-of": "https://nicolas-hoizey.com/notes/2020/07/03/2/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Patidou",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/3aa011a261ffb89db68f862deb4475f8639eb66915ccb36de9447e7b7e39387e.jpg",
+        "url": "https://twitter.com/gloupgloup"
+      },
+      "url": "https://twitter.com/gloupgloup/status/1282542917454901249",
+      "published": "2020-07-13T05:10:34+00:00",
+      "wm-received": "2020-07-13T06:51:14Z",
+      "wm-id": 825600,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1282542005076267009/1282542917454901249",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/03/2/",
+      "content": {
+        "content-type": "text/plain",
+        "value": "TIL: if you cache images with a Service Worker, and you have a Content Security Policy, the image's origin should be in both the `img-src` a",
+        "text": "TIL: if you cache images with a Service Worker, and you have a Content Security Policy, the image's origin should be in both the `img-src` a"
+      },
+      "repost-of": "https://nicolas-hoizey.com/notes/2020/07/03/2/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "edgemesh",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0dc7d529c0213c4885b8f105ddecd02e1d7272b1bd0086cbe1b10342f1b7edfb.jpg",
+        "url": "https://twitter.com/edgemeshinc"
+      },
+      "url": "https://twitter.com/nhoizey/status/1282542008280776705#favorited-by-760891744678543361",
+      "published": null,
+      "wm-received": "2020-07-13T06:51:39Z",
+      "wm-id": 825602,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1282542008280776705/760891744678543361",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/07/02/use-speedlify-to-continuously-measure-site-performance/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/07/02/use-speedlify-to-continuously-measure-site-performance/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Gaël Poupard",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/bebb7c8bbc4d5d316c64a4e8278e4fb1a662dd836590aa669864c8f7d7ca013d.jpeg",
+        "url": "https://twitter.com/ffoodd_fr"
+      },
+      "url": "https://twitter.com/nhoizey/status/1282542005076267009#favorited-by-259814870",
+      "published": null,
+      "wm-received": "2020-07-13T06:51:39Z",
+      "wm-id": 825601,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1282542005076267009/259814870",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/03/2/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/07/03/2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "@inseo@mamot.fr",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/252351b6930d7b490fc6a5755e94494b373a7831bc401f4d4d441019eba7c9ad.jpg",
+        "url": "https://twitter.com/schillinger"
+      },
+      "url": "https://twitter.com/nhoizey/status/1282542005076267009#favorited-by-11157072",
+      "published": null,
+      "wm-received": "2020-07-13T11:18:17Z",
+      "wm-id": 825642,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1282542005076267009/11157072",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/03/2/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/07/03/2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jean-Pierre Vincent",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/28a5d3be9d9f0961f8c383b1350241f225f845a5a3e502e9cea86ea5fc7c6448.jpg",
+        "url": "https://twitter.com/theystolemynick"
+      },
+      "url": "https://twitter.com/nhoizey/status/1282542005076267009#favorited-by-74401965",
+      "published": null,
+      "wm-received": "2020-07-13T11:18:51Z",
+      "wm-id": 825643,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1282542005076267009/74401965",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/03/2/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/07/03/2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Richard Pasquiou",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/bbdb1e3360460a6903c1db363ecdbdaa2ba593199113f0e13680c56f321f18a7.jpg",
+        "url": "https://twitter.com/P45QU10U"
+      },
+      "url": "https://twitter.com/nhoizey/status/1282542005076267009#favorited-by-123496554",
+      "published": null,
+      "wm-received": "2020-07-13T20:56:58Z",
+      "wm-id": 826111,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1282542005076267009/123496554",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/03/2/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/07/03/2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "oliv06",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/55cb40fc235b75c1f6cdb1e76940e3f9961078c544e6a1f63fa73401b9d38eb3.jpg",
+        "url": "https://twitter.com/oliv06"
+      },
+      "url": "https://twitter.com/nhoizey/status/1282542008280776705#favorited-by-19938455",
+      "published": null,
+      "wm-received": "2020-07-14T13:41:32Z",
+      "wm-id": 826686,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1282542008280776705/19938455",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/07/02/use-speedlify-to-continuously-measure-site-performance/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/07/02/use-speedlify-to-continuously-measure-site-performance/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Florian Truchot",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/3ec6b88475bb4c8073a02dce6c64fe6463ee1d9809da465ac5d17a790543653e.jpg",
+        "url": "https://twitter.com/floriantruchot"
+      },
+      "url": "https://twitter.com/nhoizey/status/1282542005076267009#favorited-by-447117638",
+      "published": null,
+      "wm-received": "2020-07-14T22:08:05Z",
+      "wm-id": 826902,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1282542005076267009/447117638",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/03/2/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/07/03/2/",
       "wm-property": "like-of",
       "wm-private": false
     }
