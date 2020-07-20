@@ -1,20 +1,15 @@
-:root {
-  --base-duration: 0s;
-}
-
-@media screen and (prefers-reduced-motion: no-preference) {
-  :root {
-    --base-duration: 0.25s;
-  }
-
-  body {
-    scroll-behavior: smooth;
-  }
-}
-
-@media screen and (prefers-reduced-motion: reduce) {
-  * {
-    animation-play-state: paused !important;
+// https://web.dev/prefers-reduced-motion/#(bonus)-forcing-reduced-motion-on-all-websites
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-delay: -1ms !important;
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    background-attachment: initial !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0s !important;
+    transition-delay: 0s !important;
   }
 }
 

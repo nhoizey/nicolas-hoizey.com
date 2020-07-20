@@ -27,8 +27,7 @@
     margin-left: auto;
 
     transition-property: background-color, border-color, color, width;
-    transition-duration: var(--base-duration), var(--base-duration),
-      var(--base-duration), calc(2 * var(--base-duration));
+    transition-duration: 0.5s, 0.5s, 0.5s, 1s;
     transition-timing-function: ease-in-out;
 
     &:focus {
