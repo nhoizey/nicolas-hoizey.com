@@ -54,7 +54,7 @@
     {% set ogType = "article" %}
     <title>{{ ogTitle }} - {{ pkg.author.name }}</title>
   {% else %}
-    {% set ogTitle = renderData.title or title %}
+    {% set ogTitle = title %}
     {% if layout == "article" or layout == "link" %}
       {% set ogDescription = pageExcerpt | striptags | truncate(290) | escape %}
       {% set ogType = "article" %}

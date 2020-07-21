@@ -5,7 +5,7 @@ pagination:
   size: 1
   alias: month
 permalink: "articles/{{ month }}/"
-renderData:
+eleventyComputed:
   title: Articles published in {{ month | monthString }}
 ---
 
