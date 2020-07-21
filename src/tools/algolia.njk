@@ -64,7 +64,7 @@ permalink: /tools/algolia.json
 
   {%- set absoluteEntryUrl -%}{{ pkg.homepage }}/talks/{{ entry.attributes.presented_on | permalinkDate }}/{{ entry.attributes.slug }}/{%- endset -%}
   {%- set entryContent -%}{{ entry.attributes.blurb | safe }} {{ entry.attributes.event.name | safe }}{%- endset -%}
-  {%- set entryContent = entryContent | cleanForAlgolia | striptags | safe %}
+  {%- set entryContent = entryContent | cleanForAlgolia | striptags | jsonify | safe %}
 
   {
     "type": "talk",
@@ -72,7 +72,7 @@ permalink: /tools/algolia.json
 		"title": "{{ entry.attributes.title }}",
 		"date": {{ entry.attributes.presented_on | date('X')}},
 		"url": "{{ absoluteEntryUrl }}",
-		"content": {{ entryContent | jsonify | safe }},
+		"content": {{ entryContent }},
 		"tags":[]
 	}
   {%- if not loop.last -%},{% endif -%}
