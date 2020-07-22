@@ -85,7 +85,7 @@ It makes it more obvious there is a pile of things (quite useful for a "stack") 
 
 Of course, it reads as AJMstack instead of JAMstack, so I bet I won't be successful promoting it, but at least it feels more accurate.
 
-It even allows presenting this as a significant [progressive enhancement](/tags/progressive-enhancement/) platform, as we can start with plain old (did I hear "boring"?) Markup…
+It even allows presenting this as a great [progressive enhancement](/tags/progressive-enhancement/) platform, as we can start with plain old (did I hear "boring"?) Markup…
 
 ![Mstack single layer](wtf-mstack.png)
 
