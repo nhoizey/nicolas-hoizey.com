@@ -58,7 +58,7 @@ Then, **keep track of a user's calls to the API**, in localStorage or IndexedDB,
 
 # Client-side only API calls sometimes make more sense
 
-I agree Webmentions are not the most complex use case to explain that you should use as much as possible call APIs from the server at build time instead of from the client:
+I agree Webmentions are not the most complex use case to explain that most of the time you should call APIs from the server at build time rather than from the client:
 
 - Webmentions to show are the same for all visitors.
 - Missing a few of the latest ones is probably not an issue.
