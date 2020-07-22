@@ -1,0 +1,23 @@
+---
+layout: null
+permalink: /feeds/twitter/notes.json
+---
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Notes - Nicolas Hoizey",
+  "home_page_url": "{{ pkg.homepage }}/notes/",
+  "feed_url": "{{ pkg.homepage }}/feeds/twitter/notes.json",
+  "items": [
+  {% for entry in collections.notes | limit(50) %}
+    {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
+    {
+      "id": "{{ absoluteEntryUrl }}",
+      "url": "https://nho.io/n/{{ entry.url | replace('/notes/', '') }}",
+      "title": "💬 Note from {{ entry.date | date("Do MMMM YYYY [at] H:mm:ss") }}",
+      "date_published": "{{ entry.date | rssDate }}",
+      "content_text": "{{ entry.template.frontMatter.content | noteToTweet(absoluteEntryUrl) | safe }}\n\nhttps://nho.io/n/{{ entry.url | replace("/notes/", "") }}",
+      "attachments": {{ entry.template.frontMatter.content | imagesAsAttachments(absoluteEntryUrl) | safe }}      
+    }{%- if not loop.last -%},{%- endif -%}
+  {% endfor %}
+  ]
+}

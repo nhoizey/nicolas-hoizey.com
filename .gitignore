@@ -5,6 +5,7 @@ node_modules
 _site
 src/_generated
 hashes_*.json
+functions
 
 # logs
 _logs
@@ -12,3 +13,6 @@ _logs
 # personnal scripts and secret data
 _scripts
 .env
+
+# Local Netlify folder
+.netlify

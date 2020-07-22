@@ -13,7 +13,6 @@ module.exports = {
           )
         ),
       ];
-      note.data.rawContent = note.template.frontMatter.content;
       return note;
     });
   },

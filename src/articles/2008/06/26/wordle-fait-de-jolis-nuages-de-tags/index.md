@@ -19,7 +19,7 @@ Et cet autre produit avec les tags de Gastero Prod[^2] :
 
 Mais ce que je n'ai vu personne signaler, c'est qu'à part produire une image, permettant certes de réaliser de beaux t-shirts ou autres gadgets, ces nuages de tags ne peuvent malheureusement pas être utilisés sur un site pour la navigation, puisque le résultat n'est pas du tout cliquable.
 
-Ce qui n'est bien entendu pas le cas du [nuage de tags de Gastero Prod](http://www.gasteroprod.com/#tagscloud), qui n'est pourtant pas si moche non plus, par rapport à ce qu'on peut voir ailleurs :
+Ce qui n'est bien entendu pas le cas du nuage de tags de Gastero Prod, qui n'<del>est</del>était pourtant pas si moche non plus, par rapport à ce qu'on peut voir ailleurs :
 
 ![](nuage-de-tags-gastero-prod.png "Nuage de tags de Gastero Prod")
 

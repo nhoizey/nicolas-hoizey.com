@@ -9,4 +9,4 @@ authors:
 tags: [WebPerf]
 ---
 
-> You can have large, robust pages that still feel fast. But **you should care about page bloat** in terms of how it affects mobile users, especially mobile-only users who are dealing with bandwidth constraints or data limits.
+> You can have large, robust pages that still feel fast. But <mark>you should care about page bloat</mark> in terms of how it affects mobile users, especially mobile-only users who are dealing with bandwidth constraints or data limits.

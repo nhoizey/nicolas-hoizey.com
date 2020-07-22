@@ -5,7 +5,7 @@ pagination:
   size: 1
   alias: month
 permalink: "articles/{{ month }}/"
-renderData:
+eleventyComputed:
   title: Articles published in {{ month | monthString }}
 ---
 
@@ -13,10 +13,8 @@ renderData:
 
 <ul class="list">
   {% for article in collections.articlesByMonth[month] %}
-    <li class="list__item list__item--large">
-      <div class="card card--article h-entry">
-        {{ articleCard(article.data.title, article.url, article.data.lang, article.date, article.data.tags, article.templateContent, webmentions, comments ) }}
-      </div>
+    <li class="card h-entry">
+      {{ articleCard(article.data.title, article.url, article.data.lang, article.date, article.data.tags, article.templateContent, webmentions, comments ) }}
     </li>
   {% endfor %}
 </ul>

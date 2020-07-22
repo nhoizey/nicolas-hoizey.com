@@ -5,16 +5,26 @@ title: Home
 {% from "macros/linkCard.njk" import linkCard %}
 
 <h2>Recent links</h2>
-<ul class="list">
-  {% for link in collections.links | limit(6) %}
-    <li class="list__item">
-      <div class="card card--link h-entry">
-        {{ linkCard(link.data.title, link.url, link.data.link, link.data.authors, link.date, link.data.tags, webmentions) }}
-      </div>
+<ul class="grid">
+  {% for link in collections.links | limit(4) %}
+    <li class="card h-entry">
+      {{ linkCard(link.data.title, link.url, link.data.link, link.data.authors, link.date, link.data.tags, webmentions) }}
     </li>
   {% endfor %}
 </ul>
 <p>Discover <a href="/links/">all links</a>…</p>
+
+{% from "macros/noteCard.njk" import noteCard %}
+
+<h2>Recent notes</h2>
+<ul class="list">
+  {% for note in collections.notes | limit(4) %}
+    <li class="card h-entry note">
+      {{ noteCard(note.url, note.lang, note.date, note.data.tags, note.templateContent, webmentions) }}
+    </li>
+  {% endfor %}
+</ul>
+<p>Discover <a href="/notes/">all notes</a>…</p>
 
 {% from "macros/tagsCloud.njk" import tagsCloud %}
 

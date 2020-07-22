@@ -1,0 +1,189 @@
+@import 'global/variables.scss';
+@import 'global/dimensions.scss';
+@import 'global/colors.scss';
+@import 'components/toast.scss';
+@import 'components/notification.scss';
+@import 'components/footnotes.scss';
+@import 'components/comments.scss';
+@import 'components/webmentions.scss';
+@import 'components/tagscloud.scss';
+@import 'components/code.scss';
+@import 'highlight/_prism-onedark.scss';
+@import 'components/footer.scss';
+@import 'components/tweets-icons.scss';
+@import 'global/print.scss';
+
+// ************************************************************
+// Blockquotes
+// ************************************************************
+
+blockquote:not(.tweet-card) {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0.5em 1em 0.5em 2.5em;
+  overflow: hidden;
+
+  border-left: 0.25em solid $color-primary-lighter-3;
+
+  font-style: italic;
+  color: $text-color;
+
+  position: relative;
+
+  & > * + * {
+    margin-top: $baseline;
+    margin-bottom: 0;
+  }
+
+  &::before {
+    position: absolute;
+    left: 0.1em;
+    top: 0.1em;
+    content: '\201C';
+    color: $color-primary-lighter-3;
+    font-size: 3.5em;
+    line-height: 1;
+  }
+
+  blockquote {
+    background-color: $color-primary-lighter-7;
+    font-style: normal;
+  }
+}
+
+// ************************************************************
+// Tables
+// ************************************************************
+
+table {
+  border-collapse: collapse;
+  font-feature-settings: 'tnum' 1;
+
+  @supports (font-variant-numeric: tabular-nums) {
+    font-feature-settings: normal;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+thead {
+  background-color: #eee;
+
+  th {
+    vertical-align: bottom;
+  }
+}
+
+th,
+td {
+  padding: 0.3em 0.5em;
+  border: 1px solid #ccc;
+  vertical-align: top;
+}
+
+// ************************************************************
+// Sub and sup texts
+// ************************************************************
+
+// https://gist.github.com/unruthless/413930
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+// ************************************************************
+// Other elements inside the article
+// ************************************************************
+
+article {
+  .socialphoto {
+    background-color: #eef;
+    color: #333;
+    padding: 1em;
+
+    p {
+      margin: 0;
+    }
+
+    span {
+      white-space: nowrap;
+    }
+
+    a {
+      color: #777;
+    }
+  }
+}
+
+.edit {
+  border-top: 1px dotted #ccc;
+  margin-top: $baseline;
+  padding: 0.5em 0;
+  font-size: var(--font-size-s);
+  color: $color-darkgrey;
+
+  // https://sass-lang.com/documentation/style-rules/declarations#custom-properties
+  --link-decoration-color: #{$color-grey};
+}
+
+// File link icons
+a[href$='.zip'],
+a[href$='.kml'] {
+  padding-left: 1.6em;
+  background-size: 1.4em 1.4em;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+a[href$='.zip'] {
+  background-image: url(/assets/icons/zip.svg);
+}
+
+a[href$='.kml'] {
+  background-image: url(/assets/icons/kml.svg);
+}
+
+// ************************************************************
+// Search results
+// ************************************************************
+
+#search_results {
+  .ais-Highlight {
+    color: $color-blue;
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  a:hover,
+  a:focus,
+  a:active {
+    .ais-Highlight {
+      color: $color-white;
+    }
+  }
+}
+
+a.icon {
+  font-size: 2em;
+  vertical-align: middle;
+  color: $icon-link-color;
+  text-decoration: none;
+
+  svg {
+    fill: currentColor;
+  }
+
+  &:hover {
+    color: $icon-hover-color;
+  }
+}

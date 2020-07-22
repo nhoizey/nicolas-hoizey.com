@@ -5,6 +5,7 @@ module.exports = {
     return Buffer.from(string).toString('base64');
   },
   slugify: (string) => slugifyString(string),
+  jsonify: (object) => JSON.stringify(object),
   tagToHashtag: (tag) => {
     let words = tag.replace(/-/, ' ').split(' ');
     return (

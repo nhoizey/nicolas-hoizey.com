@@ -5,18 +5,16 @@ pagination:
   size: 1
   alias: month
 permalink: "links/{{ month }}/"
-renderData:
+eleventyComputed:
   title: Links published in {{ month | monthString }}
 ---
 
 {% from "macros/linkCard.njk" import linkCard %}
 
-<ul class="list">
+<ul class="grid">
   {% for link in collections.linksByMonth[month] %}
-    <li class="list__item">
-      <div class="card card--link">
-        {{ linkCard(link.data.title, link.url, link.data.link, link.data.authors, link.date, link.data.tags, webmentions) }}
-      </div>
+    <li class="card">
+      {{ linkCard(link.data.title, link.url, link.data.link, link.data.authors, link.date, link.data.tags, webmentions) }}
     </li>
   {% endfor %}
 </ul>

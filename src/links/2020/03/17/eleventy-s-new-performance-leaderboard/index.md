@@ -10,4 +10,4 @@ authors:
 tags: [WebPerf, Eleventy]
 ---
 
-> Eleventy doesn’t do any special optimizations out of the box to make your sites fast. It doesn’t protect you from making a slow site. But importantly **it also doesn’t add anything extra either**. This sort of developer empowerment over the final product has seemed to attract an amazing group of performance oriented developers using the project and I am so grateful to every one of you.
+> Eleventy doesn’t do any special optimizations out of the box to make your sites fast. It doesn’t protect you from making a slow site. But importantly <mark>it also doesn’t add anything extra either</mark>. This sort of developer empowerment over the final product has seemed to attract an amazing group of performance oriented developers using the project and I am so grateful to every one of you.

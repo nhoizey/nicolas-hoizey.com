@@ -12,6 +12,6 @@ tags: [WebPerf, privacy, security, ethics]
 
 In this article, Boris shows how new practices around third party trackers hidden as first party assets, to "escape" GDPR and trackers blockers, can lead to security and performance issues, leading to potential business loss.
 
-> We already know that the degradation of Web Performance impacts ranking. With Chrome’s experiments, it could impact visits to your entire origin. We are no longer talking about people who will think that their connection may be temporarily poor, but about people who will be notified by Google that your site is slow, and will leave.
+> We already know that the degradation of Web Performance impacts ranking. With Chrome’s experiments, it could impact visits to your entire origin. We are no longer talking about people who will think that their connection may be temporarily poor, but about <mark>people who will be notified by Google that your site is slow, and will leave</mark>.
 > 
 > Do you really want to take that risk?

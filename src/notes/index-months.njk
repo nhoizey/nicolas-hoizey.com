@@ -5,7 +5,7 @@ pagination:
   size: 1
   alias: month
 permalink: "notes/{{ month }}/"
-renderData:
+eleventyComputed:
   title: Notes published in {{ month | monthString }}
 ---
 
@@ -13,10 +13,8 @@ renderData:
 
 <ul class="list">
   {% for note in collections.notesByMonth[month] %}
-    <li class="list__item">
-      <div class="card card--note">
-        {{ noteCard(note.url, note.lang, note.date, note.data.tags, note.templateContent, webmentions) }}
-      </div>
+    <li class="card note">
+      {{ noteCard(note.url, note.lang, note.date, note.data.tags, note.templateContent, webmentions) }}
     </li>
   {% endfor %}
 </ul>

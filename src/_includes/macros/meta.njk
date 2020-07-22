@@ -1,16 +1,18 @@
-{% macro meta(title, url, date, tags, type, webmentions, permalink=false, comments=false) %}
+{% macro meta(title, url, date, tags, type, webmentions, permalink=false, comments=false, showDate=true) %}
   {% if type == note %}
     {% set title %}Note from {{ date | date("Do MMMM YYYY") }}{% endset %}
   {% endif %}
   <ul class="meta">
-    <li class="date meta__item card__date">
-      <svg class="icon"><use xlink:href="#symbol-date" /></svg>
-      <time class="dt-published" datetime="{{ date | attributeDate }}">
-        {{ date | date("Do") }}
-        <a href="/{{ type }}/{{ date | date("YYYY") }}/{{ date | date("MM") }}/">{{ date | date("MMMM") }}</a>
-        <a href="/{{ type }}/{{ date | date("YYYY") }}/">{{ date | date("YYYY") }}</a>
-      </time>
-    </li>
+    {% if showDate %}
+      <li class="date meta__item meta__date">
+        <svg class="icon"><use xlink:href="#symbol-date" /></svg>
+        <time class="dt-published" datetime="{{ date | attributeDate }}">
+          {{ date | date("Do") }}
+          <a href="/{{ type }}/{{ date | date("YYYY") }}/{{ date | date("MM") }}/">{{ date | date("MMMM") }}</a>
+          <a href="/{{ type }}/{{ date | date("YYYY") }}/">{{ date | date("YYYY") }}</a>
+        </time>
+      </li>
+    {% endif %}
     {% set tagsSize = tags | size %}
     {% if tagsSize > 0 %}
       <li class="tags meta__item card__tags">
@@ -37,7 +39,7 @@
     {% set mentions = webmentions | getWebmentionsForUrl(url) %}
     {% set mentionsSize = mentions | size %}
     {% if mentionsSize > 0 %}
-      <li class="webmentions meta__item card__webmentionscount">
+      <li class="webmentions meta__item meta__webmentionscount">
         <svg class="icon"><use xlink:href="#symbol-webmentions" /></svg>
         <a href="{{ url }}#webmentions" aria-label="{{ mentionsSize }} webmention{% if mentionsSize > 1 %}s{% endif %} for &quot;{{ title }}&quot;">{{ mentionsSize }} webmention{% if mentionsSize > 1 %}s{% endif %}
         </a>

@@ -1,0 +1,90 @@
+.stack {
+  max-width: 50ch;
+  margin: 1.5rem auto;
+  padding: 0;
+
+  display: grid;
+  grid-gap: 0.3em;
+  text-align: center;
+
+  font-family: sans-serif;
+  font-size: 1.2rem;
+}
+
+.stack * {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  padding: 1.3em 0.3em;
+  list-style-type: none;
+  border-radius: 0.5em;
+  white-space: nowrap;
+}
+
+.stack dd,
+.stack ol {
+  display: contents;
+}
+
+.stack-wtf {
+  grid-template-areas:
+    'javascript apis    markup'
+    'name       name    name';
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 1fr) minmax(
+      min-content,
+      1fr
+    );
+}
+
+.stack-jam {
+  grid-template-areas:
+    'name javascript'
+    'name apis'
+    'name markup';
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
+}
+
+.stack-ajm {
+  grid-template-areas:
+    'name apis'
+    'name javascript'
+    'name markup';
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
+}
+
+.stack-m {
+  grid-template-areas: 'name markup';
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 2fr;
+}
+
+.stack__name {
+  grid-area: name;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: black;
+  color: white;
+}
+
+.stack__javascript {
+  grid-area: javascript;
+  background-color: #00f5c4;
+  color: black;
+}
+
+.stack__apis {
+  grid-area: apis;
+  background-color: #ff871f;
+  color: black;
+}
+
+.stack__markup {
+  grid-area: markup;
+  background-color: #e88da3;
+  color: black;
+}

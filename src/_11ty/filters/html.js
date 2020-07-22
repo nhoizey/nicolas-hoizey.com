@@ -1,18 +1,26 @@
 const cheerio = require('cheerio');
 const truncateHtml = require('truncate-html');
+const entities = require('entities');
 
 module.exports = {
   cleanDeepLinks: (content) => {
     const regex = / <a class="deeplink"((?!(<\/a>)).|\n)+<\/a>/gm;
     return content.replace(regex, '');
   },
-  stripFootnotes: (content) => {
+  decodeEntities: (content) => {
+    return entities.decodeHTML(content);
+  },
+  cleanForAlgolia: (html) => {
+    // Remove some elements with Cheerio: footnote links, heading links
+    // Cheerio can't load videos, so we get a fallback message we have to remove
     // TODO: Use BasicHTML?
-    const $ = cheerio.load(content);
-    $(
-      'a.footnote, a.footnotes, div.footnote, div.footnotes, sup.footnote, sup.footnotes'
-    ).remove();
-    return $.html();
+    const $ = cheerio.load(html);
+    $('sup.footnote-ref, a.footnote-backref, a.deeplink, div.giphy').remove();
+    html = $.html();
+    html = entities.decodeHTML(html);
+    html = html.replace("'", '’');
+
+    return html;
   },
   excerpt: (content) => {
     if (content === undefined) {
@@ -35,15 +43,15 @@ module.exports = {
     return excerpt;
   },
   absoluteImagePath: (content, url) => {
-    let imagesAbsoluteUrl = content.replace(
-      /<img src="([^"]+)"/,
-      (correspondance, imagePath) => {
-        if (!imagePath.match(/^(\/|https?:\/\/)/)) {
-          return `<img src="${url}${imagePath}"`;
-        }
+    const HTML_IMAGE_REGEX = /<img src="([^"]+)"/g;
+
+    while ((match = HTML_IMAGE_REGEX.exec(content))) {
+      if (!match[1].match(/^(\/|https?:\/\/)/)) {
+        content = content.replace(match[1], `${url}${match[1]}`);
       }
-    );
-    return imagesAbsoluteUrl;
+    }
+
+    return content;
   },
   removeImages: (html) => html.replace(/<img [^>]+>/, ''),
   truncateHtml: (html, length) => {
@@ -51,5 +59,8 @@ module.exports = {
       reserveLastWord: true,
       ellipsis: '…',
     });
+  },
+  algoliaExcerpt: (text) => {
+    return text.substring(0, 5000);
   },
 };

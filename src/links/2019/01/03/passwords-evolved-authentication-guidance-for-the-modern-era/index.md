@@ -11,7 +11,7 @@ tags: [security, password]
 
 Great read about security and passwords, summarizing bet practices we've known for a while now, but unfortunately too few enterprises already follow.
 
-> There's a lot more to how authentication has evolved than just the rise and rise of credential stuffing though, many other aspects of how we logon to systems has also changed. In some cases, this has led to once-held "truths" about how we create and manage accounts to be totally flipped on their head, yet **we still see modern organisations applying the patterns of yesterday to the threats of today**. This post sets out to address this gap and **talk about how we should be designing this critical part of our systems** today.
+> There's a lot more to how authentication has evolved than just the rise and rise of credential stuffing though, many other aspects of how we logon to systems has also changed. In some cases, this has led to once-held "truths" about how we create and manage accounts to be totally flipped on their head, yet <mark>we still see modern organisations applying the patterns of yesterday to the threats of today</mark>. This post sets out to address this gap and <mark>talk about how we should be designing this critical part of our systems</mark> today.
 
 […]
 

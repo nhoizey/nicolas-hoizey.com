@@ -366,7 +366,7 @@ RewriteRule ^(.*) https://nicolas-hoizey.com/$1 [QSA,R=301,L]
 
 <IfModule mod_headers.c>
 
-    Header set Content-Security-Policy "upgrade-insecure-requests; base-uri 'self'; script-src 'self' data: 'unsafe-inline' 'unsafe-eval' speakerdeck.com storage.googleapis.com www.google-analytics.com platform.twitter.com syndication.twitter.com cdn.syndication.twimg.com cdn.jsdelivr.net assets.codepen.io production-assets.codepen.io ifttt.com; object-src 'self' vimeo.com; connect-src 'self' *.algolia.net *.algolianet.com *.google-analytics.com stats.g.doubleclick.net; report-uri https://nhocom.report-uri.io/r/default/csp/enforce"
+    Header set Content-Security-Policy "upgrade-insecure-requests; base-uri 'self'; img-src 'self' data: res.cloudinary.com; script-src 'self' data: 'unsafe-inline' 'unsafe-eval' speakerdeck.com storage.googleapis.com www.google-analytics.com platform.twitter.com syndication.twitter.com cdn.syndication.twimg.com cdn.jsdelivr.net assets.codepen.io production-assets.codepen.io ifttt.com; object-src 'self' vimeo.com; connect-src 'self' res.cloudinary.com *.algolia.net *.algolianet.com *.google-analytics.com stats.g.doubleclick.net; report-uri https://nhocom.report-uri.com/r/d/csp/enforce"
 
     # `mod_headers` cannot match based on the content-type, however,
     # the `Content-Security-Policy` response header should be send
@@ -771,6 +771,9 @@ RewriteRule ^assets/(opengraph/)?opengraph-(background(-raw)?).png https://%{HTT
 # Notes are deeper, so that it maps to the source tree and assets copy works
 RewriteRule ^(notes/[0-9]{4}/[0-9]{2}/[0-9]{2})-([0-9]+)/(.*)$ https://%{HTTP_HOST}/$1/$2/$3 [QSA,L,R=301]
 
+# There is no page for exact date, redirect to month
+RewriteRule ^(articles|links|notes)/([0-9]{4}/[0-9]{2})/[0-9]{2}/?$ https://%{HTTP_HOST}/$1/$2/ [QSA,L,R=301]
+
 # Articles and links are now one level deeper, for the day, but we don't know where… 😅
 RewriteCond %{DOCUMENT_ROOT}/$1/01/$3 -d
 RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/01/$3 [QSA,L,R=301]
@@ -871,4 +874,14 @@ RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}
 
 <IfModule headers_module>
   header set X-Clacks-Overhead "GNU Terry Pratchett"
+</IfModule>
+
+# ##############################################################################
+# # Reporting                                                                  #
+# # https://scotthelme.co.uk/network-error-logging-deep-dive/                  #
+# ##############################################################################
+
+<IfModule headers_module>
+  header set Report-To '{"group":"default","max_age":31536000,"endpoints":[{"url":"https://nhocom.report-uri.com/a/d/g"}],"include_subdomains":true}'
+  header set NEL '{"report_to":"default","max_age":31536000,"include_subdomains":true,"failure_fraction":0.5}'
 </IfModule>

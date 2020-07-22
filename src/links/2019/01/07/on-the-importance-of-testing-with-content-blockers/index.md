@@ -9,4 +9,4 @@ authors:
 tags: [quality, progressive enhancement]
 ---
 
-> To build good websites, I think **we should prioritise working websites above gathering potentially useful data** (if doing that at all). As developers, we should keep in mind trackers could get blocked and, consequently, never rely on their availability.
+> To build good websites, I think <mark>we should prioritise working websites above gathering potentially useful data</mark> (if doing that at all). As developers, we should keep in mind trackers could get blocked and, consequently, never rely on their availability.

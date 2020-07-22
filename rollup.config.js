@@ -8,16 +8,17 @@ import entrypointHashmanifest from 'rollup-plugin-entrypoint-hashmanifest';
 import path from 'path';
 import fs from 'fs';
 import crypto from 'crypto';
+const config = require('./pack11ty.config.js');
 
-// TODO: get these from site config
-const SRC = 'src';
-const DIST = '_site';
+const SRC_DIR = config.dir.src;
+const ASSETS_DIR = config.dir.assets;
+const DIST_DIR = config.dir.dist;
 
-const JS_SRC = path.join(SRC, '_assets/js');
-const JS_DIST = path.join(DIST, 'js');
-const CSS_SRC = path.join(SRC, '_assets/sass');
-const CSS_DIST = path.join(DIST, 'css');
-const HASH = path.join(SRC, '_data');
+const JS_SRC = path.join(ASSETS_DIR, 'js');
+const JS_DIST = path.join(DIST_DIR, 'js');
+const CSS_SRC = path.join(ASSETS_DIR, 'sass');
+const CSS_DIST = path.join(DIST_DIR, 'css');
+const HASH = path.join(SRC_DIR, '_data');
 
 const createHashedCssFile = function (folder, srcFile, destFile, styles) {
   // Get the 8 first chars of the md5 hash of these styles
@@ -50,10 +51,13 @@ const createHashedCssFile = function (folder, srcFile, destFile, styles) {
 const plugins_critical = [
   commonjs(),
   resolve(),
+  replace({
+    'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
+  }),
   babel({
     exclude: 'node_modules/**',
   }),
-  terser(),
+  process.env.NODE_ENV === 'production' && terser(),
   scss({
     failOnError: true,
     outputStyle: 'compressed',
@@ -75,10 +79,13 @@ const plugins_critical = [
 const plugins_additional_iife = [
   commonjs(),
   resolve(),
+  replace({
+    'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
+  }),
   babel({
     exclude: 'node_modules/**',
   }),
-  terser(),
+  process.env.NODE_ENV === 'production' && terser(),
   scss({
     failOnError: true,
     outputStyle: 'compressed',
@@ -100,10 +107,13 @@ const plugins_additional_iife = [
 const plugins_additional_es = [
   commonjs(),
   resolve(),
+  replace({
+    'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
+  }),
   babel({
     exclude: 'node_modules/**',
   }),
-  terser(),
+  process.env.NODE_ENV === 'production' && terser(),
   scss({
     // just here to clean the CSS import from the JS
     output: false,
@@ -147,11 +157,11 @@ export default [
     plugins: plugins_additional_es,
   },
   {
-    input: 'src/service-worker.js',
+    input: path.join(JS_SRC, 'service-worker.js'),
     plugins: [
       resolve(),
       replace({
-        'process.env.NODE_ENV': JSON.stringify('production'),
+        'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
       }),
       babel({
         presets: [
@@ -166,10 +176,10 @@ export default [
           ],
         ],
       }),
-      terser(),
+      process.env.NODE_ENV === 'production' && terser(),
     ],
     output: {
-      file: '_site/service-worker.js',
+      file: path.join(DIST_DIR, 'service-worker.js'),
       format: 'iife',
     },
   },

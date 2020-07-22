@@ -12,7 +12,7 @@ tags: [WebPerf]
 
 Ramesh Periyathambi explains why eBay developed a dedicated "light" service to get critical informations about products, to speed up presentation of accurate content to buyers, and why it was worth the additional effort.
 
-> One of the top engineering efforts in eBay is to improve the site speed of critical page flows to provide a better user experience. The item page is one of the critical pages in the buyer experience. We explored multiple ways of improving site speed for the item page using this light service.
+> One of the top engineering efforts in eBay is to <mark>improve the site speed of critical page flows to provide a better user experience</mark>. The item page is one of the critical pages in the buyer experience. We explored multiple ways of improving site speed for the item page using this light service.
 
 One of the key way to get these critical informations as fast as possible (less than 10ms !) is to get it directly "from the primary source tables", "using a highly tuned SQL".
 

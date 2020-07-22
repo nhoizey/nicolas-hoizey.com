@@ -4,7 +4,6 @@ permalink: "{{ page.filePathStem }}.html"
 ---
 
 <article class="main" lang="{{ lang }}">
-  <h2>{{ renderData.title or title }}</h2>
+  <h1>{{ title }}</h1>
   {{ content | safe }}
-
 </article>

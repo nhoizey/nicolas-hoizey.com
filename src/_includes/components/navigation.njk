@@ -1,27 +1,27 @@
 <nav class="navigation" role="navigation">
   <div class="wrap">
     <ul>
-      <li {% if page.url == '/' %} class="current"{% endif %}>
+      <li {% if page.url == '/' %} class="current" aria-current="page"{% endif %}>
         <a href="/">home</a>
       </li>
-      <li {% if '/articles/' in page.url %} class="current"{% endif %}>
+      <li {% if '/articles/' in page.url %} class="current" aria-current="page"{% endif %}>
         <a href="/articles/">articles</a>
       </li>
-      <li {% if '/links/' in page.url %} class="current"{% endif %}>
+      <li {% if '/links/' in page.url %} class="current" aria-current="page"{% endif %}>
         <a href="/links/">links</a>
       </li>
-      <li {% if '/talks/' in page.url %} class="current"{% endif %}>
-        <a href="/talks/">talks</a>
-      </li>
-      <li {% if '/notes/' in page.url %} class="current"{% endif %}>
+      <li {% if '/notes/' in page.url %} class="current" aria-current="page"{% endif %}>
         <a href="/notes/">notes</a>
+      </li>
+      <li {% if '/talks/' in page.url %} class="current" aria-current="page"{% endif %}>
+        <a href="/talks/">talks</a>
       </li>
     </ul>
     <ul>
-      <li {% if '/feeds/' in page.url %} class="current"{% endif %}>
+      <li {% if '/feeds/' in page.url %} class="current" aria-current="page"{% endif %}>
         <a href="/feeds/">feeds</a>
       </li>
-      <li {% if '/about/' in page.url %} class="current"{% endif %}>
+      <li {% if '/about/' in page.url %} class="current" aria-current="page"{% endif %}>
         <a href="/about/">about</a>
       </li>
     </ul>

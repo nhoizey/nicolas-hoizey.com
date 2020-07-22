@@ -1,5 +1,9 @@
 const twitter = require('twitter-text');
 const slugifyString = require('../../_utils/slugify');
+const path = require('path');
+const entities = require('entities');
+
+const MARKDOWN_IMAGE_REGEX = /!\[([^\]]*)\]\(([^\) ]+)( [^\)]+)?\)({.[^}]+})?/g;
 
 function htmlEntities(str) {
   // https://css-tricks.com/snippets/javascript/htmlentities-for-javascript/
@@ -21,6 +25,7 @@ const tweetCode = (tweet) => {
 const tweetHashtagTohandle = (tweet) => {
   // convert hashtags to Twitter accounts
   let handles = {
+    '#AlwaysData': '@alwaysdata',
     '#CanIUse': '@caniuse',
     '#Cloudinary': '@cloudinary',
     '#Dareboost': '@Dareboost',
@@ -30,11 +35,14 @@ const tweetHashtagTohandle = (tweet) => {
     '#Github': '@github',
     '#IFTTT': '@IFTTT',
     '#Jekyll': '@jekyllrb',
+    '#Lighthouse': '@____lighthouse',
     '#Netlify': '@Netlify',
     '#Notist': '@benotist',
     '#Rollup': '@RollupJS',
     '#Tailwind': '@tailwindcss',
     '#Unsplash': '@unsplash',
+    '#VSCode': '@code',
+    '#webhint': '@webhintio',
     '#Workbox': '@workboxjs',
   };
   for (const tag in handles) {
@@ -43,27 +51,15 @@ const tweetHashtagTohandle = (tweet) => {
   return tweet;
 };
 
-const tweetImageToHtml = (tweet, url) => {
-  // replace markdown images with HTML image
-  tweet = tweet.replace(
-    /!\[([^\]]+)\]\(([^\) ]+)( [^\)]+)?\)({.[^}]+})?/g,
-    `<img src="${url}$2" style="max-width: 100%" />`
-  );
-  return tweet;
-};
-
-const tweetImageToLink = (tweet, url) => {
-  // replace images with links
-  tweet = tweet.replace(
-    /!\[([^\]]+)\]\(([^\) ]+)( [^\)]+)?\)({.[^}]+})?/g,
-    `🖼 <a href="${url}$2">image</a>`
-  );
+const tweetRemoveImage = (tweet) => {
+  // remove markdown images
+  tweet = tweet.replace(MARKDOWN_IMAGE_REGEX, '');
   return tweet;
 };
 
 const tweetLinks = (tweet) => {
-  // deal with links
-  tweet = tweet.replace(/\[([^\]]+)\]\(([^\)]+)\)/g, '$1 ( $2 )');
+  // only keep the links text
+  tweet = tweet.replace(/\[([^\]]+)\]\(([^\)]+)\)/g, '$1');
   return tweet;
 };
 
@@ -79,6 +75,21 @@ const tweetStrike = (tweet) => {
 };
 
 module.exports = {
+  hasImage: (content) => {
+    return content.match(MARKDOWN_IMAGE_REGEX);
+  },
+  imagesAsAttachments: (content, url) => {
+    let attachments = [];
+
+    while ((match = MARKDOWN_IMAGE_REGEX.exec(content))) {
+      attachments.push({
+        url: `${url}${match[2]}`,
+        mime_type: `image/${path.extname(match[2]).slice(1)}`,
+      });
+    }
+
+    return JSON.stringify(attachments);
+  },
   noteToTweet: (content, url) => {
     tweet = content.trim();
     tweet = tweetCode(tweet);
@@ -87,29 +98,19 @@ module.exports = {
     tweet = tweet.replace(/\*+([^\*\n]+)\*+/, '$1');
 
     tweet = tweetHashtagTohandle(tweet);
-    tweet = tweetImageToLink(tweet, url);
+    tweet = tweetRemoveImage(tweet);
     tweet = tweetLinks(tweet);
     tweet = tweetStrike(tweet);
 
-    tweet = tweet.replace(/\n/g, '<br />\n');
-    // tweet = tweet.replace(/\n/g, "\u000a");
+    tweet = tweet.replace(/"/gm, '\\"');
 
-    return tweet;
-  },
-  noteToTweetForIfttt: (content, url) => {
-    tweet = content.trim();
-    tweet = tweetCode(tweet);
+    tweet = entities.decodeHTML(tweet);
 
-    // remove bold and italics
-    tweet = tweet.replace(/\*+([^\*\n]+)\*+/, '$1');
-
-    tweet = tweetHashtagTohandle(tweet);
-    tweet = tweetImageToHtml(tweet, url);
-    tweet = tweetLinks(tweet);
-    tweet = tweetStrike(tweet);
-
-    tweet = tweet.replace(/\n/g, '<br />\n');
-    // tweet = tweet.replace(/\n/g, "\u000a");
+    // Notrmalize linee feeds
+    tweet = tweet.replace(/\n/gm, '\\n');
+    tweet = tweet.replace(/(\\n){3,}/gm, '\\n\\n');
+    tweet = tweet.replace(/^(\\n)*/gm, '');
+    tweet = tweet.replace(/(\\n)*$/gm, '');
 
     return tweet;
   },

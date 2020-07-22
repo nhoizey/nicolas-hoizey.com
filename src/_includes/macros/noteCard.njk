@@ -1,8 +1,9 @@
 {% macro noteCard(url, lang, date, tags, content, webmentions) %}
-
-  <div class="card__content" lang="{{ lang }}">{{ content | noteToHtml | absoluteImagePath(url) | safe }}</div>
-
-  {% from "macros/meta.njk" import meta %}
-  {{ meta(false, url, date, tags, 'notes', webmentions, permalink=true) }}
-
+  <div class="card__content" lang="{{ lang }}">
+    {{ content | noteToHtml | absoluteImagePath(url) | safe }}
+  </div>
+  <div class="card__meta">
+    {% from "macros/meta.njk" import meta %}
+    {{ meta(false, url, date, tags, 'notes', webmentions, permalink=true) }}
+  </div>
 {% endmacro %}

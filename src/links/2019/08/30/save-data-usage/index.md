@@ -10,4 +10,4 @@ authors:
 tags: [WebPerf]
 ---
 
-> Because while the web keeps getting heavier and we keep moving further away from page weight as a primary performance metric, the data I’ve seen so far indicates **folks who want low-data experiences are far more common than we may think**.
+> Because while the web keeps getting heavier and we keep moving further away from page weight as a primary performance metric, the data I’ve seen so far indicates <mark>folks who want low-data experiences are far more common than we may think</mark>.

@@ -612,5 +612,39 @@
       "profile_image_url_https": "https://pbs.twimg.com/profile_images/1129167550175014912/MXbENwsA_normal.jpg"
     },
     "html": "<blockquote class=\"tweet-card\"><div class=\"tweet-header\"><a class=\"tweet-profile\" href=\"https://twitter.com/slightlylate\"><img src=\"https://pbs.twimg.com/profile_images/1129167550175014912/MXbENwsA_normal.jpg\" alt=\"Avatar for slightlylate\"></a><div class=\"tweet-author\"><a class=\"tweet-author-name\" href=\"https://twitter.com/slightlylate\">Alex Russell </a><a class=\"tweet-author-handle\" href=\"https://twitter.com/slightlylate\">@slightlylate</a></div><a class=\"tweet-bird\" href=\"https://twitter.com/slightlylate/status/1184959830819106816\"><div class=\"tweet-bird-icon\" role=\"presentation\" aria-label=\"View on Twitter\" title=\"View on Twitter\"></div></a></div><p class=\"tweet-body\"><a href=\"https://twitter.com/matthewcp\">@matthewcp</a> <a href=\"https://twitter.com/justinfagnani\">@justinfagnani</a> <a href=\"https://twitter.com/gatsbyjs\">@gatsbyjs</a> <a href=\"https://twitter.com/kylemathews\">@kylemathews</a> <a href=\"https://twitter.com/addyosmani\">@addyosmani</a> Looking across the full set of traces, modern Gatsby seems to produce pages that take 2-3x as long as they should to become interactive.<br><br>This is not OK. Gatsby/NPM/React regressively tax access to content.<br><br>In less generous moments, I'd go as far as to say it's unethical.</p><div class=\"tweet-images\"></div><div class=\"tweet-footer\"><a class=\"tweet-like\" href=\"https://twitter.com/intent/like?tweet_id=1184959830819106816\"><div class=\"tweet-like-icon\" aria-label=\"Like\" title=\"Like\" role=\"img\"></div><span class=\"tweet-like-count\">14 </span></a><a class=\"tweet-date\" title=\"Time Posted: Oct 17, 2019 10:30:13 (UTC)\" href=\"https://twitter.com/slightlylate/status/1184959830819106816\">12:30 AM · Oct 18, 2019</a></div></blockquote>"
+  },
+  "1278017314978496513": {
+    "id_str": "1278017314978496513",
+    "htmlText": "New project: Speedlify 🐇<br/><br/>A self-hosted dashboard to continuously measure and publish web site performance statistics using Lighthouse and Axe.<br/><br/>Demo:<a href=\"https://speedlify.netlify.app/ssg/\">speedlify.netlify.app/ssg/</a>c<br/>Blog post:<a href=\"https://www.zachleat.com/web/speedlify/\">www.zachleat.com/web/speedlify/</a>L",
+    "images": [],
+    "favorite_count": 303,
+    "created_at": {
+      "display": "07:27 PM · Jun 30, 2020",
+      "meta": "Jun 30, 2020 05:27:26 (UTC)"
+    },
+    "user": {
+      "name": "Zach Leatherman",
+      "screen_name": "zachleat",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1196791261233111040/iWVjazhO_normal.jpg"
+    },
+    "html": "<blockquote class=\"tweet-card\"><div class=\"tweet-header\"><a class=\"tweet-profile\" href=\"https://twitter.com/zachleat\"><img src=\"https://pbs.twimg.com/profile_images/1196791261233111040/iWVjazhO_normal.jpg\" alt=\"Avatar for zachleat\"></a><div class=\"tweet-author\"><a class=\"tweet-author-name\" href=\"https://twitter.com/zachleat\">Zach Leatherman </a><a class=\"tweet-author-handle\" href=\"https://twitter.com/zachleat\">@zachleat</a></div><a class=\"tweet-bird\" href=\"https://twitter.com/zachleat/status/1278017314978496513\"><div class=\"tweet-bird-icon\" role=\"presentation\" aria-label=\"View on Twitter\" title=\"View on Twitter\"></div></a></div><p class=\"tweet-body\">New project: Speedlify 🐇<br><br>A self-hosted dashboard to continuously measure and publish web site performance statistics using Lighthouse and Axe.<br><br>Demo:<a href=\"https://speedlify.netlify.app/ssg/\">speedlify.netlify.app/ssg/</a>c<br>Blog post:<a href=\"https://www.zachleat.com/web/speedlify/\">www.zachleat.com/web/speedlify/</a>L</p><div class=\"tweet-images\"></div><div class=\"tweet-footer\"><a class=\"tweet-like\" href=\"https://twitter.com/intent/like?tweet_id=1278017314978496513\"><div class=\"tweet-like-icon\" aria-label=\"Like\" title=\"Like\" role=\"img\"></div><span class=\"tweet-like-count\">303 </span></a><a class=\"tweet-date\" title=\"Time Posted: Jun 30, 2020 05:27:26 (UTC)\" href=\"https://twitter.com/zachleat/status/1278017314978496513\">07:27 PM · Jun 30, 2020</a></div></blockquote>"
+  },
+  "1278381673776705537": {
+    "id_str": "1278381673776705537",
+    "htmlText": "JUST LANDED in Firefox Nightly: <br/><br/>🐢!<br/><br/>Appears when the server response time for a request exceeds the recommended limit of 500 ms (adjustable in about:config).<br/><br/>Awesome dev work by<a href=\"https://twitter.com/@b4boms\"> @b4boms</a>y and planning by<a href=\"https://twitter.com/@digitaral\"> @digitaral</a>d &amp;<a href=\"https://twitter.com/@janodvark\"> @janodvark</a>o!<br/>If you spot it and it helps, let us know!H",
+    "images": [
+      "https://pbs.twimg.com/media/Eb25JSpU4AAvUeP.png"
+    ],
+    "favorite_count": 277,
+    "created_at": {
+      "display": "07:35 PM · Jul 1, 2020",
+      "meta": "Jul 1, 2020 05:35:16 (UTC)"
+    },
+    "user": {
+      "name": "Victoria Wang",
+      "screen_name": "violasong",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/981039168515014657/pwB4fZPq_normal.jpg"
+    },
+    "html": "<blockquote class=\"tweet-card\"><div class=\"tweet-header\"><a class=\"tweet-profile\" href=\"https://twitter.com/violasong\"><img src=\"https://pbs.twimg.com/profile_images/981039168515014657/pwB4fZPq_normal.jpg\" alt=\"Avatar for violasong\"></a><div class=\"tweet-author\"><a class=\"tweet-author-name\" href=\"https://twitter.com/violasong\">Victoria Wang </a><a class=\"tweet-author-handle\" href=\"https://twitter.com/violasong\">@violasong</a></div><a class=\"tweet-bird\" href=\"https://twitter.com/violasong/status/1278381673776705537\"><div class=\"tweet-bird-icon\" role=\"presentation\" aria-label=\"View on Twitter\" title=\"View on Twitter\"></div></a></div><p class=\"tweet-body\">JUST LANDED in Firefox Nightly:<br><br>🐢!<br><br>Appears when the server response time for a request exceeds the recommended limit of 500 ms (adjustable in about:config).<br><br>Awesome dev work by<a href=\"https://twitter.com/@b4boms\"> @b4boms</a>y and planning by<a href=\"https://twitter.com/@digitaral\"> @digitaral</a>d &amp;<a href=\"https://twitter.com/@janodvark\"> @janodvark</a>o!<br>If you spot it and it helps, let us know!H</p><div class=\"tweet-images\"><img alt=\"Image from Tweet\" src=\"https://pbs.twimg.com/media/Eb25JSpU4AAvUeP.png\"></div><div class=\"tweet-footer\"><a class=\"tweet-like\" href=\"https://twitter.com/intent/like?tweet_id=1278381673776705537\"><div class=\"tweet-like-icon\" aria-label=\"Like\" title=\"Like\" role=\"img\"></div><span class=\"tweet-like-count\">277 </span></a><a class=\"tweet-date\" title=\"Time Posted: Jul 1, 2020 05:35:16 (UTC)\" href=\"https://twitter.com/violasong/status/1278381673776705537\">07:35 PM · Jul 1, 2020</a></div></blockquote>"
   }
 }

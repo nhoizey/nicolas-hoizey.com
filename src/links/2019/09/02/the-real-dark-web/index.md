@@ -14,4 +14,4 @@ Charlie writes about the vast majority of Web developers that we never hear/read
 
 > These developers are quietly building their sites and apps, day in, day out. But they are rendered invisible as they are not making use of the cutting-edge technologies that the 1% of the bleeding edge love to talk about.
 > 
-> They are the 99% of the web universe that is quietly getting on, not blogging about their technology stack, not publishing amazing new tooling. Simply building things.
+> <mark>They are the 99% of the web universe that is quietly getting on, not blogging about their technology stack, not publishing amazing new tooling. Simply building things</mark>.

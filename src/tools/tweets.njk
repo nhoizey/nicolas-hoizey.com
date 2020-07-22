@@ -18,49 +18,6 @@ title: Tweets
 
 <h1>Tweets</h1>
 
-<ul>
-  <li><a href="#notes">Notes</a></li>
-  <li><a href="#links">Links</a></li>
-  <li><a href="#articles">Articles</a></li>
-</ul>
-
-<h2 id="notes">Notes</h2>
-{% for note in collections.notes | limit(5) %}
-  <div class="tweet">
-  <p>
-    {{ note.data.rawContent | noteToTweet(note.url) | safe }}
-    <br /><br />
-    https://nho.io/n/{{ note.url | replace("/notes/", "") }}
-  </p>
-  </div>
-{% endfor %}
-
-<h2 id="links">Links</h2>
-{% for link in collections.links | limit(5) %}
-  <div class="tweet">
-  <p>
-    🔗 "{{ link.data.title}}"
-    <br />
-    {% set by = false %}
-    {% if link.data.authors %}
-      {% for author in link.data.authors %}
-        {% if author.twitter %}
-          {% if by == false %}
-            by
-            {% set by = true %}
-          {% endif %}
-          @{{ author.twitter }}
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-    <br /><br />
-    {%- for tag in link.data.tags -%}#{{ tag | tagToHashtag }} {% endfor %}
-    <br /><br />
-    https://nho.io/l/{{ link.url | replace("/links/", "") }}
-  </p>
-  </div>
-{% endfor %}
-
 <h2 id="articles">Articles</h2>
 {% for article in collections.articles | limit(5) %}
   <div class="tweet">

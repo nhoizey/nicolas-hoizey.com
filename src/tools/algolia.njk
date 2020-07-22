@@ -1,0 +1,81 @@
+---
+layout: null
+permalink: /tools/algolia.json
+---
+
+[
+{% for entry in collections.articles %}
+  {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
+  {
+    "type": "article",
+    "lang": "{{ entry.data.lang }}",
+		"title": "{{ entry.data.title | safe }}",
+		"date": {{ entry.date | date('X')}},
+		"url": "{{ absoluteEntryUrl }}",
+		"content": {{ entry.templateContent | cleanForAlgolia | striptags | jsonify | safe }},
+		"tags":[
+      {% for tag in entry.data.tags %}
+        "{{ tag }}"{%- if not loop.last -%},{% endif -%}
+      {% endfor %}
+		]
+	}
+  {%- if not loop.last -%},{% endif -%}
+{% endfor %}
+,
+{% for entry in collections.links %}
+  {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
+  {
+    "type": "link",
+    "lang": "{{ entry.data.lang }}",
+		"title": "{{ entry.data.title | safe }}",
+		"date": {{ entry.date | date('X')}},
+		"url": "{{ absoluteEntryUrl }}",
+    {# TODO: add author(s) #}
+		"content": {{ entry.templateContent | cleanForAlgolia | striptags | jsonify | safe }},
+		"tags":[
+      {% for tag in entry.data.tags %}
+        "{{ tag }}"{%- if not loop.last -%},{% endif -%}
+      {% endfor %}
+		]
+	}
+  {%- if not loop.last -%},{% endif -%}
+{% endfor %}
+,
+{% for entry in collections.notes %}
+  {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
+  {
+    "type": "note",
+    "lang": "{{ entry.data.lang }}",
+		"title": "💬 Note from {{ entry.date | date("Do MMMM YYYY [at] H:mm:ss") }}",
+		"date": {{ entry.date | date('X')}},
+		"url": "{{ absoluteEntryUrl }}",
+    {# TODO: add author(s) #}
+		"content": {{ entry.templateContent | cleanForAlgolia | striptags | jsonify | safe }},
+		"tags":[
+      {% for tag in entry.data.tags %}
+        "{{ tag }}"{%- if not loop.last -%},{% endif -%}
+      {% endfor %}
+		]
+	}
+  {%- if not loop.last -%},{% endif -%}
+{% endfor %}
+,
+{% for entry in notist %}
+
+  {%- set absoluteEntryUrl -%}{{ pkg.homepage }}/talks/{{ entry.attributes.presented_on | permalinkDate }}/{{ entry.attributes.slug }}/{%- endset -%}
+  {%- set entryContent -%}{{ entry.attributes.blurb | safe }} {{ entry.attributes.event.name | safe }}{%- endset -%}
+  {%- set entryContent = entryContent | cleanForAlgolia | striptags | jsonify | safe %}
+
+  {
+    "type": "talk",
+    "lang": "en",
+		"title": "{{ entry.attributes.title }}",
+		"date": {{ entry.attributes.presented_on | date('X')}},
+		"url": "{{ absoluteEntryUrl }}",
+		"content": {{ entryContent }},
+		"tags":[]
+	}
+  {%- if not loop.last -%},{% endif -%}
+{% endfor %}
+
+]

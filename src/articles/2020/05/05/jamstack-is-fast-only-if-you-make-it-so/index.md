@@ -2,6 +2,7 @@
 title: "JAMstack is fast only if you make it so"
 lang:  en
 tags:  [JAMstack, WebPerf, API, Webmention]
+promoted: true
 --- 
 
 JAMstack often promotes itself as an excellent way to provide performant sites. It's even the first listed benefit on [jamstack.wtf](https://jamstack.wtf/), a "guide [which] gathers the concept of JAMstack in a straight-forward guide to encourage other developers to adopt the workflow". But too many JAMstack sites are very slow.
@@ -69,24 +70,72 @@ I say **it should not be the default**.
 
 # Promoting the <del>AJMstack</del> Mstack
 
-That's also something I don't really like in the current JAMstack trend, promoting **J**avaScript and **A**PIs much more than **M**arkup.
+<link rel="stylesheet" href="./styles.css" />
 
-Here's for example what you can see on [jamstack.wtf](https://jamstack.wtf/):
+That's also something I don't really like in current JAMstack trend, promoting **J**avaScript and **A**PIs much more than **M**arkup.
 
-![JAMstack layers](wtf-jamstack-layers.png)
+Here's for example what you can see on [jamstack.wtf](https://jamstack.wtf/) (simplified):
 
-I would like to suggest this presentation instead[^flexbox]:
+<dl class="stack stack-wtf">
+  <dt class="stack__name">JAMstack
+    <dd>
+      <ol>
+        <li class="stack__javascript">JavaScript</li>
+        <li class="stack__apis">APIs</li>
+        <li class="stack__markup">Markup</li>
+      </ol>
+    </dd>
+  </dt>
+</dl>
 
-[^flexbox]: Thanks to flexbox, it took me just a few seconds to hack the CSS in Firefox devtools and get this! 💪
+As suggested by [Yann](https://twitter.com/yann_yinn), I would like to start by using this better presentation[^grid]:
 
-![JAMstack layers enhanced](wtf-jamstack-layers-enhanced.png)
+[^grid]: CSS Grid and Flexbox are so fun to use, it took me just a few minutes to get this, look at [this stylesheet](./styles.css)! 💪
 
-It makes it more obvious there is a pile of things (quite useful for a "stack") and JavaScript is the link between APIs and Markup.
+<dl class="stack stack-jam">
+  <dt class="stack__name">JAMstack
+    <dd>
+      <ol>
+        <li class="stack__javascript">JavaScript</li>
+        <li class="stack__apis">APIs</li>
+        <li class="stack__markup">Markup</li>
+      </ol>
+    </dd>
+  </dt>
+</dl>
 
-Of course, it reads as AJMstack instead of JAMstack, so I bet I won't be successful promoting it, but at least it feels more accurate.
+It makes more obvious there is a pile of things, quite useful for a "stack".
 
-It even allows presenting this as a great [progressive enhancement](/tags/progressive-enhancement/) platform, as we can start with plain old (did I hear "boring"?) Markup…
+But I would like to suggest this modification:
 
-![Mstack single layer](wtf-mstack.png)
+<dl class="stack stack-ajm">
+  <dt class="stack__name">AJMstack
+    <dd>
+      <ol>
+        <li class="stack__apis">APIs</li>
+        <li class="stack__javascript">JavaScript</li>
+        <li class="stack__markup">Markup</li>
+      </ol>
+    </dd>
+  </dt>
+</dl>
 
-…and then enhance with JavaScript and APIs.
+Of course, it reads as **AJMstack** instead of JAMstack, so I bet I won't be successful promoting it… 🤷‍♂️
+
+But at least it feels more accurate, it shows JavaScript is the link between APIs and Markup.
+
+It even allows to present this as a great [progressive enhancement](/tags/progressive-enhancement/) platform, as we can start with plain old (did I hear "boring"?) Markup…
+
+Here's the **Mstack**:
+
+<dl class="stack stack-m">
+  <dt class="stack__name">Mstack
+    <dd>
+      <ol>
+        <li class="stack__markup">Markup</li>
+      </ol>
+    </dd>
+  </dt>
+</dl>
+
+Make sure this "stack" is great, and then enhance with JavaScript and APIs.

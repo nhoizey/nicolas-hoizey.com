@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% set pageExcerpt = content | excerpt %}
-  {% include "head.njk" %}
+{% set pageExcerpt = content | excerpt %}
+{% include "head.njk" %}
 
   {% set section = page.outputPath | split('/') %}
   {% set section = section[1] | replace('index.html', 'home') %}
   <body
     itemscope
-    itemtype="https://schema.org/{% if "about/" in page.inputPath %}aboutpage{% else %}webpage{% endif %}"
+    itemtype="https://schema.org/{% if "about/" in page.inputPath %}AboutPage{% else %}WebPage{% endif %}"
     class="layout-{{ layout }} section-{{ section }}"
     data-img-src="{{ page.inputPath | dirname }}/"
     data-img-dist="{{ page.outputPath | dirname }}/"
   >
-
-    {% include "components/svg-sprite.njk" %}
 
     <a class="sr-only" href="#main">Jump to main content</a>
 
@@ -45,6 +43,7 @@
     </div>
 
     {% include "components/footer.njk" %}
+    {% include "svg-sprite.njk" %}
 
     <link rel="stylesheet" href="/css/{{ hashes_css['additional.css'] }}" />
 
@@ -52,8 +51,8 @@
     https://buzut.net/configurer-rollup-bundles-esm-cjs/
     https://v8.dev/features/modules#browser
     #}
-    <script async type="module" src="/js/{{ hashes_additional_es['src/_assets/js/additional.js']}}"></script>
-    <script async nomodule src="/js/{{ hashes_additional_iife['src/_assets/js/additional.js']}}"></script>
+    <script async type="module" src="/js/{{ hashes_additional_es['assets/js/additional.js']}}"></script>
+    <script async nomodule src="/js/{{ hashes_additional_iife['assets/js/additional.js']}}"></script>
   </body>
 
 </html>

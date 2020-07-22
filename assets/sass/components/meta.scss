@@ -1,0 +1,34 @@
+.meta {
+  padding: 0;
+  color: $meta-color;
+  font-size: var(--font-size-xs);
+
+  display: flex;
+  flex-wrap: wrap;
+
+  list-style-type: none;
+}
+
+.meta__item {
+  margin: 0 1em 0 1.5em;
+
+  a {
+    --link-decoration-color: #{$meta-link-decoration-color};
+    padding: 0.2em 0.1em;
+  }
+
+  svg {
+    fill: $meta-icon-color;
+    vertical-align: middle;
+    margin: 0 0.2em 0 -1.5em;
+    padding: 0;
+
+    width: 1.1em;
+    height: 1.1em;
+  }
+}
+
+.meta__date,
+.meta__webmentionscount {
+  white-space: nowrap;
+}

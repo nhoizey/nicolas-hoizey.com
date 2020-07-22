@@ -13,7 +13,7 @@ Here's a good overview of mobile (smart)phones alternative to Google and Apple o
 
 The conclusion is explicit:
 
-> The app economy, like the web economy, is ultimately **based on surveillance**. That isn’t likely to change unless the EU does something about it. And so far, despite the GDPR and three antitrust cases against Google, the EU has left smartphone tracking revenues unharmed.
+> The app economy, like the web economy, is ultimately <mark>based on surveillance</mark>. That isn’t likely to change unless the EU does something about it. And so far, despite the GDPR and three antitrust cases against Google, the EU has left smartphone tracking revenues unharmed.
 
 I own a [Nokia 8110 4G](https://amzn.to/2xMjDTs) "banana" powered by [KaiOS](https://www.kaiostech.com/), because I was a big fan of [Firefox OS](/tags/firefox-os/)[^kaios], but I can't make it my daily phone because I would miss the large touch screen.
 

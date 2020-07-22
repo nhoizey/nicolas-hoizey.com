@@ -1,12 +1,8 @@
 <form id="search" method="get" action="https://www.google.com/search">
-  <p>
     <input id="search_sites" type="hidden" name="as_sitesearch" value="nicolas-hoizey.com" />
     <input id="search_input" name="q" type="search" size="5" spellcheck="false" autocorrect="off" autocomplete="off" aria-label="Search articles on the site" enterkeyhint="search" />
-    <label for="search_button">
-      {{ '/src/_assets/images/icon-search.svg' | svgContents | safe }}
-    </label>
+    <label for="search_button"><svg class="icon"><use xlink:href="#symbol-search" /></svg></label>
     <input id="search_button" type="submit" value="" />
-  </p>
 </form>
 <script>
   // Make the search form dynamic

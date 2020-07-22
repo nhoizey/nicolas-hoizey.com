@@ -30,7 +30,7 @@ Of course, Medium is an obvious black sheep, but the same can be said about most
 
 Additionally, Medium is a service that can disappear like many others before, and your content might be lost. I will never accept to take such a risk for my content.
 
-Also, there are sometimes issues with content moderation, like [Peter O'Shaughnessy](https://twitter.com/poshaughnessy/) experienced a few days ago:
+Also, there are sometimes issues with content moderation, like [Peter O'Shaughnessy](https://twitter.com/poshaughnessy/) experienced:
 
 https://twitter.com/poshaughnessy/status/927836002915356672
 

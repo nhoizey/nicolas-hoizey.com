@@ -11,4 +11,4 @@ tags: [CSS, Grid]
 
 Interesting dive into some of CSS Grid subtleties, to build a nice magazine layout.
 
-> Incredibly, this layout only took 21 lines of CSS (excluding global content styling). However, to achieve such flexibility in such a few lines of code, I had to dig deep into the more obscure parts of some of  CSS Grid and learn how to work around some of its inherent limitations.
+> Incredibly, this layout only took 21 lines of CSS (excluding global content styling). However, to achieve such flexibility in such a few lines of code, I had to dig deep into the more obscure parts of some of CSS Grid and learn how to work around some of its inherent limitations.

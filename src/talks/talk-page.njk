@@ -1,0 +1,36 @@
+---
+pagination:
+  data: notist
+  size: 1
+  alias: talk
+  filter:
+    - all
+layout: page
+eleventyExcludeFromCollections: true
+permalink: "/talks/{{ talk.attributes.presented_on | permalinkDate }}/{{ talk.attributes.slug }}/"
+eleventyComputed:
+  title: "{{ talk.attributes.title }}"
+---
+
+<div class="e-content">
+  <footer>
+    <ul class="meta">
+      <li class="date meta__item meta__date">
+        <svg class="icon"><use xlink:href="#symbol-date" /></svg>
+        <time class="dt-published" datetime="{{ talk.attributes.presented_on | attributeDate }}">
+          {{ talk.attributes.presented_on | date("Do MMMM YYYY") }}
+        </time>
+      </li>
+      <li class="date meta__item card__location">
+        {% if talk.attributes.event.url %}
+          <a href="{{ talk.attributes.event.url }}">{{ talk.attributes.event.name }}</a>
+        {% else %}
+          {{ talk.attributes.event.name }}
+        {% endif %}
+      </li>
+    </ul>
+  </footer>
+  <img src="{{ talk.attributes.image.src }}" alt="Cover slide from the talk “{{ talk.attributes.title }}”" class="onethird right" width="{{ talk.attributes.image.width }}" height="{{ talk.attributes.image.height }}" />
+  {{ talk.attributes.blurb | safe }}
+  <p>See slides and additional content on Notist: <a href="{{ talk.links.self }}">{{ talk.attributes.title }}</a></p>
+</div>

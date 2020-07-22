@@ -12,8 +12,8 @@ tags: [quality]
 >
 > […]
 >
-> Length is just **one of many ways** that real text and data can strain a weak design.
+> Length is just <mark>one of many ways</mark> that real text and data can strain a weak design.
 >
 > […]
 >
-> Schedule and budget are the common excuses for not delivering more robust design components. Especially on larger projects, though, learning to incorporate more difficult data into your early design process can **save you time in the long run**.
+> Schedule and budget are the common excuses for not delivering more robust design components. Especially on larger projects, though, learning to incorporate more difficult data into your early design process can <mark>save you time in the long run</mark>.

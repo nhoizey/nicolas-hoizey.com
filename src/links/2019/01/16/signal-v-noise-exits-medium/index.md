@@ -11,7 +11,7 @@ tags: [Medium, IndieWeb]
 
 [Signal v Noise](https://m.signalvnoise.com/) (aka SvN), the famous Basecamp blog, is also leaving Medium, joining the movement towards re-de-centralization of blogs. 👍🏻
 
-> Traditional blogs might have swung out of favor, as we all discovered the benefits of social media and aggregating platforms, but we think they’re about to swing back in style, as we all discover the real costs and problems brought by such centralization.
+> Traditional blogs might have swung out of favor, as we all discovered the benefits of social media and aggregating platforms, but we think they’re about to swing back in style, as <mark>we all discover the real costs and problems brought by such centralization</mark>.
 
 David highlights one of the main recommendation I would make to anyone: [**own your own domain!**](https://indieweb.org/personal-domain)
 

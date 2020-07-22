@@ -7,12 +7,10 @@ eleventyExcludeFromCollections: true
 {% from "macros/linkCard.njk" import linkCard %}
 
 <h2>Latest links</h2>
-<ul class="list">
+<ul class="grid">
   {% for link in collections.links | limit(6) %}
-    <li class="list__item">
-      <div class="card card--link h-entry">
-        {{ linkCard(link.data.title, link.url, link.data.link, link.data.authors, link.date, link.data.tags, webmentions) }}
-      </div>
+    <li class="card h-entry">
+      {{ linkCard(link.data.title, link.url, link.data.link, link.data.authors, link.date, link.data.tags, webmentions) }}
     </li>
   {% endfor %}
 </ul>

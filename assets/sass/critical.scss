@@ -1,0 +1,345 @@
+@import 'global/variables.scss';
+@import 'global/dimensions.scss';
+@import 'global/colors.scss';
+@import 'global/utilities.scss';
+@import 'critical/globals.scss';
+@import 'critical/accessibility.scss';
+@import 'critical/fonts.scss';
+@import 'components/header.scss';
+@import 'components/search.scss';
+@import 'components/navigation.scss';
+@import 'components/link.scss';
+@import 'components/button.scss';
+@import 'components/meta.scss';
+@import 'components/intro.scss';
+@import 'components/list.scss';
+@import 'components/grid.scss';
+@import 'components/card.scss';
+@import 'components/tweets.scss';
+@import 'components/prevnext.scss';
+
+// Box sizing:
+// http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+html {
+  box-sizing: border-box;
+  text-size-adjust: 100%;
+  // https://twitter.com/TimVereecke/status/1239454788116533248
+  // https://twitter.com/lfredolo/status/1240301405325361152
+  overflow-y: scroll;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: var(--font-size-m);
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: $text-color;
+  background-color: $background-color;
+
+  word-break: break-word;
+
+  scroll-behavior: smooth;
+}
+
+// ************************************************************
+// Layout
+// ************************************************************
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main,
+.search {
+  margin: 0;
+  flex: 1;
+}
+
+.wrap {
+  width: 90vw;
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+// ************************************************************
+// Paragraphs and headers
+// ************************************************************
+
+.intro,
+body:not(.layout-note) .e-content > p:first-of-type {
+  font-size: var(--font-size-l);
+  color: #555;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+}
+
+p,
+ul,
+ol,
+dl,
+table,
+blockquote {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.e-content {
+  margin-top: $baseline;
+}
+
+.e-content > * + * {
+  margin-top: $baseline;
+  margin-bottom: 0;
+}
+
+.e-content > p + ul {
+  margin-top: $baseline / 4;
+}
+
+ul {
+  padding: 0 0 0 $baseline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding-top: $baseline;
+  font-weight: bold;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  position: relative;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: var(--font-size-xxxxl);
+  color: $color-primary;
+}
+
+h2 {
+  font-size: var(--font-size-xxxl);
+  color: $color-primary-lighter-1;
+}
+
+h3 {
+  font-size: var(--font-size-xxl);
+  color: $color-primary-lighter-2;
+}
+
+h4 {
+  font-size: var(--font-size-xl);
+  color: $color-primary-lighter-2;
+}
+
+h5 {
+  font-size: var(--font-size-l);
+  color: $color-primary-lighter-2;
+}
+
+h6 {
+  font-style: italic;
+  font-size: var(--font-size-m);
+  color: $color-primary-lighter-2;
+}
+
+// ************************************************************
+// Links
+// Lord Vader Hates Furry Animals
+// https://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states/
+// ************************************************************
+
+a {
+  --link-decoration-color: #{$link-decoration-color};
+
+  &:link,
+  &:visited {
+    color: currentColor;
+    text-decoration-line: underline;
+    text-decoration-color: var(--link-decoration-color);
+    text-decoration-thickness: 0.1em;
+  }
+
+  &:hover,
+  &:focus {
+    color: #fff;
+    background-color: var(--link-decoration-color);
+    text-decoration: none;
+    outline: none;
+  }
+
+  &:active {
+    color: #fff;
+    background-color: $color-secondary;
+    text-decoration: none;
+    outline: none;
+  }
+}
+
+// Deep links (aka anchors)
+
+a.deeplink {
+  &:link,
+  &:visited {
+    text-align: center;
+    margin-left: 0.3rem;
+    padding: 0 0.4rem;
+    border-radius: 0.4em;
+    color: #767676;
+    text-decoration: none;
+  }
+
+  &:hover,
+  &:focus {
+    color: #fff;
+    background-color: $link-decoration-color;
+  }
+
+  @media (min-width: 65rem) {
+    position: absolute;
+    top: $baseline;
+    left: -3rem;
+  }
+}
+
+:target {
+  scroll-margin-top: 2em;
+}
+
+// ************************************************************
+// General styles
+// ************************************************************
+
+img {
+  max-width: 100%;
+  height: auto;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+svg {
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+}
+
+video {
+  background-color: #eee;
+}
+
+.giphy {
+  clear: both;
+  margin: 2em auto;
+  padding: 0;
+
+  video {
+    display: block;
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+iframe {
+  max-width: 100%;
+}
+
+figure,
+iframe,
+.embed-video-container {
+  clear: both;
+  margin: $baseline auto;
+  display: block;
+}
+
+figure {
+  text-align: center;
+
+  img,
+  iframe,
+  .embed-video-container {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+figure,
+img {
+  &.twothirds {
+    max-width: 66%;
+  }
+
+  &.onehalf {
+    max-width: 50%;
+  }
+
+  &.onethird {
+    max-width: 50%;
+
+    @media (min-width: 20em) {
+      max-width: 33%;
+    }
+  }
+
+  &.onefourth,
+  &.logo {
+    max-width: 50%;
+
+    @media (min-width: 20em) {
+      max-width: 33%;
+    }
+
+    @media (min-width: 30em) {
+      max-width: 25%;
+    }
+  }
+
+  &.left {
+    margin: $baseline auto;
+
+    @media (min-width: 20em) {
+      float: left;
+      margin: 0 $baseline $baseline 0;
+    }
+  }
+
+  &.right,
+  &.logo {
+    margin: $baseline auto;
+
+    @media (min-width: 20em) {
+      float: right;
+      margin: 0 0 $baseline $baseline;
+    }
+  }
+}
+
+.logo {
+  display: block;
+  margin: $baseline auto;
+}
+
+figcaption {
+  // http://nocode.in/aligning-text-smartly-in-css/
+  display: inline-block;
+  text-align: left;
+
+  font-size: var(--font-size-s);
+  font-style: italic;
+  margin: 0.1em 1em;
+  padding: 0.3em 0;
+  color: #666;
+}

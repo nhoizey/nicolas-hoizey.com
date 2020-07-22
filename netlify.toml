@@ -1,0 +1,12 @@
+[build]
+  ignore = "git log -1 --pretty=%B | grep dependabot"
+  command = "npm run build:netlify"
+  publish = "_site"
+  functions = "functions"
+  functionsSource = "_lambdas"
+
+[[plugins]]
+package = "netlify-build-plugin-dareboost"
+
+  [plugins.inputs]
+  monitoringIds = "3470,10748,15490,19693"

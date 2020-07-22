@@ -12,10 +12,16 @@
         "width": "640",
         "height": "480",
         "mime": "image/jpeg"
+      },
+      "slug": "ne-vous-laissez-plus-deposseder-de-vos-contenus",
+      "blurb": "<p>Nous sommes de plus en plus soucieux des dérives des GAFAM et autres acteurs majeurs du web dans l’usage de nos données personnelles ou le contrôle de nos actions. Nous y restons pourtant massivement, par facilité bien sûr (qui n’a jamais loué la facilité de publications sur Medium ?), mais aussi au prétexte que c’est là que nos familles, amis et autres “followers” se trouvent.</p>\n<p>Nous pensons donc incontournable d’y aller mettre nos contenus, au point de négliger d’autres pistes. Il est pourtant possible de reprendre la main sur nos publications, qui font bel et bien partie de nos données personnelles, tout en continuant à les mettre à disposition de ces « amis » si précieux. Le seul moyen de maîtriser la diffusion de ces contenus, d’en assurer la pérennité, et d’en choisir éventuellement la disparition, est de se réapproprier la plateforme sur laquelle ils sont publiés. Ce n’est pas forcément aussi compliqué que beaucoup le pensent, notamment grâce aux pistes et outils déjà référencés ou conçus et proposés par le mouvement IndieWeb, avec le principe POSSE : Publish (on your) Own Site, Syndicate Elsewhere.</p>\n",
+      "event": {
+        "name": "Paris Web",
+        "url": "https://www.paris-web.fr/"
       }
     },
     "links": {
-      "self": "https://noti.st/nhoizey/AXGNM8/ne-vous-laissez-plus-deposseder-de-vos-contenus",
+      "self": "https://talks.nicolas-hoizey.com/AXGNM8/ne-vous-laissez-plus-deposseder-de-vos-contenus",
       "related": "https://noti.st/nhoizey/AXGNM8.json",
       "event": "https://noti.st/events/9Jjxub.json"
     }
@@ -33,10 +39,16 @@
         "width": "640",
         "height": "480",
         "mime": "image/jpeg"
+      },
+      "slug": "performance-web",
+      "blurb": "<p>Dans Les Papis du Web Épisode #6, retrouvez notre web série sur l’actualité du web à 360° analysée par nos Papis du Web. Actualité et veille techno sur les sujets digitaux qui vous concernent, vues par nos experts… Le tout, en toute indépendance.</p>\n<p>Avec un dossier sur la performance Web (WebPerf) :</p>\n<p>La Web performance est un élément clé de l’expérience utilisateur. Plus un site est rapide, mieux il répond à la demande/satisfaction des utilisateurs, il accroît le taux de conversion et permet un meilleur positionnement sur Google.</p>\n<p>Les sites Web sont de plus en plus lourds : images qui ne sont pas optimisées, augmentation du volume de JavaScrip, de trackers et de publicités, etc.</p>\n<p>Les principaux conseils que nous pouvons vous donner sont de :</p>\n<ul>\n<li>Mesurer les performances de votre site Web. Il est possible de faire ces mesures :</li>\n<li>en local (outils de développement des navigateurs, Lighthouse, etc.)</li>\n<li>par l’intermédiaire d’outils à distance : outils de mesure synthétique (ex : Dareboost, PageSpeed Insights)</li>\n<li>en condition d’utilisation réelle : Real User Monitoring</li>\n<li>Il faut être prudent sur les valeurs utilisées, et prendre en compte le contexte, afin de ne pas être biaisé sur le résultat de l’analyse.</li>\n<li>Optimiser les formats et dimensions des images, limiter le poids des ressources, éviter les redirections, mettre en cache, limiter les usages de services tiers, etc. Ces bonnes pratiques sont rassemblées dans des ouvrages de références ou des référentiels comme Opquast.</li>\n<li>Répéter ces bonnes pratiques, remettre les performances en question, trouver les nouvelles pistes d’optimisation, les appliquer, mesurer l’impact, etc.</li>\n</ul>\n<p>Ces points sont essentiels car ils permettent de réduire le taux de rebond et de faciliter l’acte d’achat.</p>\n",
+      "event": {
+        "name": "Les Papis du Web (Clever Age)",
+        "url": null
       }
     },
     "links": {
-      "self": "https://noti.st/nhoizey/OfSEN7/performance-web",
+      "self": "https://talks.nicolas-hoizey.com/OfSEN7/performance-web",
       "related": "https://noti.st/nhoizey/OfSEN7.json",
       "event": "https://noti.st/events/XoaVru.json"
     }
@@ -54,10 +66,16 @@
         "width": "640",
         "height": "480",
         "mime": "image/jpeg"
+      },
+      "slug": "les-progressive-web-apps-pwa",
+      "blurb": "<p>Dans Les Papis du Web Épisode #2, retrouvez notre web série sur l’actualité du web à 360° analysée par nos Papis du Web. Actualité et veille techno sur les sujets digitaux qui vous concernent, vues par nos experts… Le tout, en toute indépendance.</p>\n<p>Avec un dossier sur les Progressive Web Apps (PWA) :</p>\n<p>Les PWA sont un sujet très tendance sur le web aujourd’hui et nombre d’entreprises ont mis le pied à l’étrier. Après le lancement du premier IPhone en 2007 correspondant à l’avènement de la mobilité et du responsive design, les PWA ont pris une autre dimension. Elles présentent de nombreux avantages : adaptation aux petits écrans, performance, fonctionnement off-line, interfaces plein écran, notifications push, référencement dans les stores, …</p>\n",
+      "event": {
+        "name": "Les Papis du Web (Clever Age)",
+        "url": null
       }
     },
     "links": {
-      "self": "https://noti.st/nhoizey/y2DE0Z/les-progressive-web-apps-pwa",
+      "self": "https://talks.nicolas-hoizey.com/y2DE0Z/les-progressive-web-apps-pwa",
       "related": "https://noti.st/nhoizey/y2DE0Z.json",
       "event": "https://noti.st/events/KUy0gd.json"
     }
@@ -75,10 +93,16 @@
         "width": "640",
         "height": "400",
         "mime": "image/jpeg"
+      },
+      "slug": "optimiser-la-performance-par-un-choix-optimal-des-dimensions-des-images-responsives",
+      "blurb": "<p>L’usage des standards pour les images responsives (<code>srcset-w</code> principalement) est devenu incontournable, mais n’est pas toujours accompagné d’une réflexion de fond sur leur bonne utilisation.</p>\n<p>Plus particulièrement, trop de sites utilisent des tailles d’images arbitraires dans leurs <code>srcset-w</code>, négligeant une piste d’optimisation de performance conséquente.</p>\n<p>Il sera donc question de différentes méthodes permettant de définir les meilleures dimensions possibles pour ces images, permettant d’une part d’optimiser la performance pour les visiteurs, mais aussi d’autre part d’optimiser les ressources de génération, stockage et bande passante nécessaires côté site.</p>\n<p>Il ne sera par contre pas question dans cette conférence de taux de compression optimal, de format d’encodage des images ou de solution automatisant la gestion de toutes ces optimisations.</p>\n",
+      "event": {
+        "name": "We Love Speed",
+        "url": null
       }
     },
     "links": {
-      "self": "https://noti.st/nhoizey/U7c3zE/optimiser-la-performance-par-un-choix-optimal-des-dimensions-des-images-responsives",
+      "self": "https://talks.nicolas-hoizey.com/U7c3zE/optimiser-la-performance-par-un-choix-optimal-des-dimensions-des-images-responsives",
       "related": "https://noti.st/nhoizey/U7c3zE.json",
       "event": "https://noti.st/events/2ov8Aw.json"
     }
@@ -96,10 +120,16 @@
         "width": "640",
         "height": "360",
         "mime": "image/jpeg"
+      },
+      "slug": "la-petite-clinique-des-images-responsives",
+      "blurb": "<p>L’usage des standards pour les images responsives semble maintenant répandu, mais trop souvent d’une façon loin d’être optimale, tant pour l’expérience utilisateur (UX) que pour celle de l’expérience de développement (DX).</p>\n<p>Qu’il s’agisse d’un mauvais choix de niveau de compression ou de format d’image, ou d’une sélection trop arbitraire et non pertinente des tailles d’images mises à disposition, en passant par un oubli complet de la parfois nécessaire Direction Artistique, les utilisateurs se retrouvent régulièrement à pester contre des images lentes à afficher, de mauvaise qualité visuelle, ou indéchiffrables.</p>\n<p>D’un autre côté, certains développeurs front s’évanouissent vite en découvrant la complexité et verbosité des nouveaux standards d’images responsives, peinent à saisir le sens et l’intérêt des multiples possibilités qui s’offrent à eux, et s’en remettent au bon vieux copier/coller en touchant du bois pour que ça passe. Sans parler des concepteurs UX et graphiques, que l’on n’a pas forcément sensibilisé au sujet, alors qu’ils vont fournir la matière première à ces travaux.</p>\n<p>Quelques principes simples et de bons outils peuvent pourtant faciliter grandement le travail, et permettre de proposer aux visiteurs une bien meilleure expérience.</p>\n",
+      "event": {
+        "name": "Paris Web",
+        "url": null
       }
     },
     "links": {
-      "self": "https://noti.st/nhoizey/b23Bwm/la-petite-clinique-des-images-responsives",
+      "self": "https://talks.nicolas-hoizey.com/b23Bwm/la-petite-clinique-des-images-responsives",
       "related": "https://noti.st/nhoizey/b23Bwm.json",
       "event": "https://noti.st/events/vHqo1c.json"
     }
@@ -117,10 +147,16 @@
         "width": "640",
         "height": "480",
         "mime": "image/png"
+      },
+      "slug": "quelques-solutions-facilitant-la-bonne-mise-en-oeuvre-des-images-responsives",
+      "blurb": "<p>Comment utiliser les images responsives, quelles dimensions d'images, quels formats, quelles optimisations, etc.</p>\n",
+      "event": {
+        "name": "Paris Webperf Meetup",
+        "url": "https://www.meetup.com/fr-FR/Paris-Webperf-Meetup/"
       }
     },
     "links": {
-      "self": "https://noti.st/nhoizey/Vr3Sme/quelques-solutions-facilitant-la-bonne-mise-en-oeuvre-des-images-responsives",
+      "self": "https://talks.nicolas-hoizey.com/Vr3Sme/quelques-solutions-facilitant-la-bonne-mise-en-oeuvre-des-images-responsives",
       "related": "https://noti.st/nhoizey/Vr3Sme.json",
       "event": "https://noti.st/events/0D0txt.json"
     }
@@ -138,10 +174,16 @@
         "width": "640",
         "height": "480",
         "mime": "image/jpeg"
+      },
+      "slug": "how-cloudinary-eases-responsive-web-design-and-more",
+      "blurb": "<p>Thoughts on Responsive Images, the <a href=\"https://nhoizey.github.io/jekyll-cloudinary/\" target=\"_blank\" rel=\"noopener\">Cloudinary plugin for Jekyll</a>, and more!</p>\n<p>From <a href=\"http://info.cloudinary.com/CustomerEventLondonOct17_RegistrationPage.html\" target=\"_blank\" rel=\"noopener\">the registration page</a>: &quot;Please join us for a fabulous networking dinner and drinks! You will also get a chance to hear from Nicolas Hoizey web facilitator extraordinaire, Amit Sharon VP Customer Success and a shared use case from one of our very own Cloudinary customers!&quot;</p>\n",
+      "event": {
+        "name": "Cloudinary's Customers Dinner",
+        "url": null
       }
     },
     "links": {
-      "self": "https://noti.st/nhoizey/QQdc6Y/how-cloudinary-eases-responsive-web-design-and-more",
+      "self": "https://talks.nicolas-hoizey.com/QQdc6Y/how-cloudinary-eases-responsive-web-design-and-more",
       "related": "https://noti.st/nhoizey/QQdc6Y.json",
       "event": "https://noti.st/events/ROKOKE.json"
     }
@@ -159,10 +201,16 @@
         "width": "640",
         "height": "480",
         "mime": "image/jpeg"
+      },
+      "slug": "un-petit-pas-pour-l-em-un-grand-pas-pour-le-web",
+      "blurb": "<p>Aujourd’hui, je parcours le Web principalement sur mon ordinateur portable, très souvent sur mon smartphone, parfois sur ma tablette et ma TV, et plutôt exceptionnellement sur ma liseuse. Ces différents appareils ont bien entendu des formats — paysage ou portrait — et tailles très différents, ce que les adeptes du Responsive Web Design ont bien intégré dans leur conception du Web.</p>\n<p>Mais ils ont aussi des tailles de base de police de caractère très différents —une échelle de 16 à 24 px dans mon cas—, ce que presque tous les intégrateurs Web ignorent, ou choisissent d’ignorer pour se faciliter la tâche. Cela fait pourtant déjà quelque temps que l’on sait qu’il faut utiliser une unité proportionnelle et non fixe pour définir les hauteurs de texte, mais ce n’est que trop peu appliqué, les intégrateurs refusant souvent de lâcher prise.</p>\n<p>L’étape suivante, qui devrait être un enchainement naturel —mais pose plus de contraintes—, est d’utiliser ces mêmes unités pour d’autres dimensions, notamment les largeurs de « boîtes » et les seuils de Media Queries.</p>\n<p>L’objectif de cette conférence est d’illustrer les avantages et inconvénients d’une telle intégration complètement élastique, en espérant convaincre que les uns l’emportent suffisamment sur les autres pour améliorer notre pratique de l’intégration Web.</p>\n",
+      "event": {
+        "name": "Paris-Web 2013",
+        "url": null
       }
     },
     "links": {
-      "self": "https://noti.st/nhoizey/HDbr1q/un-petit-pas-pour-l-em-un-grand-pas-pour-le-web",
+      "self": "https://talks.nicolas-hoizey.com/HDbr1q/un-petit-pas-pour-l-em-un-grand-pas-pour-le-web",
       "related": "https://noti.st/nhoizey/HDbr1q.json",
       "event": "https://noti.st/events/yuvmKN.json"
     }
@@ -180,10 +228,16 @@
         "width": "640",
         "height": "480",
         "mime": "image/jpeg"
+      },
+      "slug": "web-ux-performance-web",
+      "blurb": "<p>L'utilisateur n'aime pas attendre. Sa perception de la vitesse d'un site Web a donc une influence sur son comportement. Cette perception peut être orientée positivement en travaillant intelligemment l'optimisation des performances côté client du site Web.</p>\n<p>Le premier réflexe quand on parle de performances Web est de se tourner vers des tests de montée en charge et des optimisations côté serveur, alors que l'optimisation des performances côté client peut être plus simple, plus efficace, et plus rentable.</p>\n<p>Nous aborderons dans cette conférence les différents aspects de l'optimisation côté client des performances Web, en attirant l'attention sur – par exemple – les téléchargements bloquants, les manières optimales d'inclure le code JavaScript et CSS, et leur impact sur les performances perçues par les internautes.</p>\n",
+      "event": {
+        "name": "Web UX",
+        "url": ""
       }
     },
     "links": {
-      "self": "https://noti.st/nhoizey/ett39R/web-ux-performance-web",
+      "self": "https://talks.nicolas-hoizey.com/ett39R/web-ux-performance-web",
       "related": "https://noti.st/nhoizey/ett39R.json",
       "event": "https://noti.st/events/NtI65U.json"
     }
@@ -201,10 +255,16 @@
         "width": "640",
         "height": "480",
         "mime": "image/jpeg"
+      },
+      "slug": "ameliorer-les-performances-web-les-optimisations-cote-client",
+      "blurb": "<p>Quand on parle d’optimiser les performances d’un site Web, le premier réflexe est de se tourner vers des tests de montée en charge et des optimisations côté serveur. Bien que celles-ci ne soient pas à négliger, si on se limite aux actions « server side » on risque de passer à côté d’une série de points à surveiller et à améliorer côté client.</p>\n<p>Dans cette session, nous introduirons les différents aspects de l’optimisation « client side » des performances Web, en attirant votre attention sur – par exemple – les téléchargements bloquants, les manières optimales d’inclure des codes JavaScript, le placement optimal des CSS (internes ou externes, …) ainsi que des différentes et particularités des différents navigateurs, et leur impact sur les performances perçues par les internautes.</p>\n",
+      "event": {
+        "name": "TechDays France 2011",
+        "url": null
       }
     },
     "links": {
-      "self": "https://noti.st/nhoizey/2aAFH2/ameliorer-les-performances-web-les-optimisations-cote-client",
+      "self": "https://talks.nicolas-hoizey.com/2aAFH2/ameliorer-les-performances-web-les-optimisations-cote-client",
       "related": "https://noti.st/nhoizey/2aAFH2.json",
       "event": "https://noti.st/events/lZZID5.json"
     }

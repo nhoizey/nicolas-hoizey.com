@@ -22,6 +22,6 @@ Eric describes the issues people can face while using browsers to navigate on th
 
 > Browsers allow users to change their preferred default font size, resizing text across websites accordingly. Browsers excel at handling this setting when you write CSS that takes advantage of unitless line-height values and relative font-size units.
 > 
-> Some designers may feel that granting this liberty to users somehow detracts from their intended branding. Good designers understand that there’s more to branding than just how something looks.
+> Some designers may feel that granting this liberty to users somehow detracts from their intended branding. <mark>Good designers understand that there’s more to branding than just how something looks</mark>.
 
 Yes [users do change font size](/2018/06/users-do-change-font-size.html), bear with it.

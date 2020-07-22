@@ -11,12 +11,10 @@ eleventyComputed:
 
 {% from "macros/linkCard.njk" import linkCard %}
 
-<ul class="list">
+<ul class="grid">
   {% for link in collections.linksByYear[year] %}
-    <li class="list__item">
-      <div class="card card--link">
-        {{ linkCard(link.data.title, link.url, link.data.link, link.data.authors, link.date, link.data.tags, webmentions) }}
-      </div>
+    <li class="card">
+      {{ linkCard(link.data.title, link.url, link.data.link, link.data.authors, link.date, link.data.tags, webmentions) }}
     </li>
   {% endfor %}
 </ul>
