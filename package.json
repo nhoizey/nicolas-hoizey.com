@@ -101,6 +101,6 @@
   },
   "private": true,
   "dependencies": {
-    "netlify-lambda": "^2.0.0"
+    "netlify-lambda": "^2.0.1"
   }
 }
