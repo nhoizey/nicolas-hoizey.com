@@ -77,7 +77,7 @@ But to be able to use this syntax to generate responsive images with the SSG, th
 After several unsuccessful attempts to write a plugin for Markdown-it, the default Markdown parser in Eleventy, I figured out that dealing with 3 and 4 could be easier from an HTML source than from a Markdown one, so I decided to split the puzzle in two parts:
 
 1. First: transform simple and standard enough Markdown into a simple HTML image with one single `src`
-1. Second: transform this simple HTML image into a responsive image with `srcset` and `sizes` attributes
+2. Second: transform this simple HTML image into a responsive image with `srcset` and `sizes` attributes
 
 I took the reverse path, starting with the second transformation, aiming at providing a standalone Node.js solution that could be used in any build pipeline or integrated into a Node.js based SSG (Eleventy for example of course, but also Gatsby eventually, etc.).
 
