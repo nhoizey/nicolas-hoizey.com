@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-07-24T08:18:06.566Z",
+  "lastFetched": "2020-07-24T14:22:57.084Z",
   "webmentions": [
     {
       "type": "entry",
@@ -57745,6 +57745,54 @@
       "rels": {
         "canonical": "https://martymcgui.re/2020/07/15/what-we-talk-about-when-were-talking-about-webmentions/"
       }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Patrick Hulce",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/ff0c9823152d77cde78042b2e2a931c72846224a653e1cb48500db0c3590432d.jpg",
+        "url": "https://twitter.com/patrickhulce"
+      },
+      "url": "https://twitter.com/patrickhulce/status/1284864224154591232",
+      "published": "2020-07-19T14:54:37+00:00",
+      "wm-received": "2020-07-24T09:53:31Z",
+      "wm-id": 830626,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1284734497246851072/1284864224154591232",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/18/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Ah that's a tricky bug thanks!\n\nI filed <a href=\"https://github.com/GoogleChrome/lighthouse/issues/11129\">github.com/GoogleChrome/l…</a> :)\n<a class=\"u-mention\" href=\"https://nho.io/n/2020/07/18/1/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/notes/2020/07/18/1/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/____lighthouse\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/eleven_ty\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/zachleat\"></a>",
+        "html": "Ah that's a tricky bug thanks!<br /><br />I filed <a href=\"https://github.com/GoogleChrome/lighthouse/issues/11129\">github.com/GoogleChrome/l…</a> :)",
+        "text": "Ah that's a tricky bug thanks!\n\nI filed github.com/GoogleChrome/l… :)"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/07/18/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1284892131975475205",
+      "published": "2020-07-19T16:45:31+00:00",
+      "wm-received": "2020-07-24T09:53:30Z",
+      "wm-id": 830625,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1284734497246851072/1284892131975475205",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/18/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Thanks! I thought there was something wrong in my Service Worker.\n<a class=\"u-mention\" href=\"https://nho.io/n/2020/07/18/1/\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/notes/2020/07/18/1/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/____lighthouse\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/eleven_ty\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/patrickhulce\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/zachleat\"></a>",
+        "html": "Thanks! I thought there was something wrong in my Service Worker.",
+        "text": "Thanks! I thought there was something wrong in my Service Worker."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/07/18/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
     },
     {
       "type": "entry",
