@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-07-24T14:22:57.084Z",
+  "lastFetched": "2020-07-27T09:23:18.619Z",
   "webmentions": [
     {
       "type": "entry",
@@ -57881,6 +57881,42 @@
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1285803371597828097/1262374114699948032",
       "wm-target": "https://nicolas-hoizey.com/links/2020/07/02/use-speedlify-to-continuously-measure-site-performance/",
       "like-of": "https://nicolas-hoizey.com/links/2020/07/02/use-speedlify-to-continuously-measure-site-performance/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Gaël Poupard",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/bebb7c8bbc4d5d316c64a4e8278e4fb1a662dd836590aa669864c8f7d7ca013d.jpeg",
+        "url": "https://twitter.com/ffoodd_fr"
+      },
+      "url": "https://twitter.com/nhoizey/status/1286645835179200512#favorited-by-259814870",
+      "published": null,
+      "wm-received": "2020-07-24T15:42:52Z",
+      "wm-id": 830929,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1286645835179200512/259814870",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/07/24/4-design-patterns-that-violate-back-button-expectations-59-of-sites-get-it-wrong/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/07/24/4-design-patterns-that-violate-back-button-expectations-59-of-sites-get-it-wrong/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jeff Posnick",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/36aba4753c8886a19da25fc84a8969331a257ff408aa5eea565c97efcf9ce9a1.jpg",
+        "url": "https://twitter.com/jeffposnick"
+      },
+      "url": "https://twitter.com/nhoizey/status/1286591784903217153#favorited-by-11817932",
+      "published": null,
+      "wm-received": "2020-07-24T15:43:24Z",
+      "wm-id": 830931,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1286591784903217153/11817932",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/24/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/07/24/1/",
       "wm-property": "like-of",
       "wm-private": false
     }
