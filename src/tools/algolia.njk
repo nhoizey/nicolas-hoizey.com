@@ -12,8 +12,9 @@ permalink: /tools/algolia.json
 		"title": "{{ entry.data.title | safe }}",
 		"date": {{ entry.date | date('X')}},
 		"url": "{{ absoluteEntryUrl }}",
+    "objectID": "{{ absoluteEntryUrl }}",
 		"content": {{ entry.templateContent | cleanForAlgolia | striptags | jsonify | safe }},
-		"tags":[
+		"tags": [
       {% for tag in entry.data.tags %}
         "{{ tag }}"{%- if not loop.last -%},{% endif -%}
       {% endfor %}
@@ -30,9 +31,10 @@ permalink: /tools/algolia.json
 		"title": "{{ entry.data.title | safe }}",
 		"date": {{ entry.date | date('X')}},
 		"url": "{{ absoluteEntryUrl }}",
+		"objectID": "{{ absoluteEntryUrl }}",
     {# TODO: add author(s) #}
 		"content": {{ entry.templateContent | cleanForAlgolia | striptags | jsonify | safe }},
-		"tags":[
+		"tags": [
       {% for tag in entry.data.tags %}
         "{{ tag }}"{%- if not loop.last -%},{% endif -%}
       {% endfor %}
@@ -49,9 +51,9 @@ permalink: /tools/algolia.json
 		"title": "💬 Note from {{ entry.date | date("Do MMMM YYYY [at] H:mm:ss") }}",
 		"date": {{ entry.date | date('X')}},
 		"url": "{{ absoluteEntryUrl }}",
-    {# TODO: add author(s) #}
+		"objectID": "{{ absoluteEntryUrl }}",
 		"content": {{ entry.templateContent | cleanForAlgolia | striptags | jsonify | safe }},
-		"tags":[
+		"tags": [
       {% for tag in entry.data.tags %}
         "{{ tag }}"{%- if not loop.last -%},{% endif -%}
       {% endfor %}
@@ -72,8 +74,9 @@ permalink: /tools/algolia.json
 		"title": "{{ entry.attributes.title }}",
 		"date": {{ entry.attributes.presented_on | date('X')}},
 		"url": "{{ absoluteEntryUrl }}",
+		"objectID": "{{ absoluteEntryUrl }}",
 		"content": {{ entryContent }},
-		"tags":[]
+		"tags": []
 	}
   {%- if not loop.last -%},{% endif -%}
 {% endfor %}
