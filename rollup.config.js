@@ -1,13 +1,14 @@
 import babel from 'rollup-plugin-babel';
 import commonjs from 'rollup-plugin-commonjs';
 import replace from '@rollup/plugin-replace';
-import resolve from '@rollup/plugin-node-resolve';
+import { nodeResolve } from '@rollup/plugin-node-resolve';
 import { terser } from 'rollup-plugin-terser';
 import scss from 'rollup-plugin-scss';
 import entrypointHashmanifest from 'rollup-plugin-entrypoint-hashmanifest';
 import path from 'path';
 import fs from 'fs';
 import crypto from 'crypto';
+
 const config = require('./pack11ty.config.js');
 
 const SRC_DIR = config.dir.src;
@@ -49,8 +50,8 @@ const createHashedCssFile = function (folder, srcFile, destFile, styles) {
 };
 
 const plugins_critical = [
+  nodeResolve({ browser: true }),
   commonjs(),
-  resolve(),
   replace({
     'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
   }),
@@ -77,8 +78,8 @@ const plugins_critical = [
 ];
 
 const plugins_additional_iife = [
+  nodeResolve({ browser: true }),
   commonjs(),
-  resolve(),
   replace({
     'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
   }),
@@ -105,8 +106,8 @@ const plugins_additional_iife = [
 ];
 
 const plugins_additional_es = [
+  nodeResolve({ browser: true }),
   commonjs(),
-  resolve(),
   replace({
     'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
   }),
@@ -159,7 +160,7 @@ export default [
   {
     input: path.join(JS_SRC, 'service-worker.js'),
     plugins: [
-      resolve(),
+      nodeResolve(),
       replace({
         'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
       }),
