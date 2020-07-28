@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-07-27T09:23:18.619Z",
+  "lastFetched": "2020-07-28T15:27:30.681Z",
   "webmentions": [
     {
       "type": "entry",
@@ -57918,6 +57918,30 @@
       "wm-target": "https://nicolas-hoizey.com/notes/2020/07/24/1/",
       "like-of": "https://nicolas-hoizey.com/notes/2020/07/24/1/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Stef Walter",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/23e709b2c32ab7ad91021367f6251682c70527e6732bf69fce728afb4b0e23b0.jpg",
+        "url": "https://twitter.com/WalterStephanie"
+      },
+      "url": "https://twitter.com/WalterStephanie/status/1288114690124472322",
+      "published": "2020-07-28T14:10:48+00:00",
+      "wm-received": "2020-07-28T14:31:10Z",
+      "wm-id": 832884,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1288109362507120640/1288114690124472322",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/07/28/designing-adaptive-components-beyond-responsive-breakpoints/",
+      "content": {
+        "content-type": "text/html",
+        "value": "🙏 thanks for sharing\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "🙏 thanks for sharing",
+        "text": "🙏 thanks for sharing"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/07/28/designing-adaptive-components-beyond-responsive-breakpoints/",
+      "wm-property": "in-reply-to",
       "wm-private": false
     }
   ]
