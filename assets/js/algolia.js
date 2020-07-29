@@ -3,10 +3,6 @@
 
 /*
  * Algolia's autocomplete using instantsearch
- * Requires following env variables:
- * ALGOLIA_APP_ID
- * ALGOLIA_SEARCH_API_KEY
- * ALGOLIA_INDEX_NAME
  */
 import algoliasearch from 'algoliasearch/lite';
 import autocomplete from 'autocomplete.js';
