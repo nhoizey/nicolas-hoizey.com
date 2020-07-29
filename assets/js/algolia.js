@@ -55,6 +55,8 @@ const contentTypeEmojis = {
             : ''
         }`;
       },
+      footer:
+        '<div class="branding"><img src="/assets/search-by-algolia-light-background.svg" /></div>',
     },
   },
 ]).on('autocomplete:selected', function (event, suggestion, dataset) {
