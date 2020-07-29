@@ -25,7 +25,6 @@ function newHitsSource(index, params) {
   };
 }
 
-autocomplete('#search_input', { hint: false }, [
 const contentTypeEmojis = {
   article: '📄',
   link: '🔗',
@@ -34,6 +33,7 @@ const contentTypeEmojis = {
   tag: '🏷',
 };
 
+autocomplete('#search_input', { hint: false, autoselect: true }, [
   {
     source: newHitsSource(index, { hitsPerPage: 10 }),
     displayKey: 'title',
