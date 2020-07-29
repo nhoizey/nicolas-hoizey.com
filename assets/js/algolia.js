@@ -1,8 +1,7 @@
-// Based on
-// https://github.com/creasoft-dev/fundamenty/blob/master/src/scripts/algolia.js
-
 /*
  * Algolia's autocomplete using instantsearch
+ * Based on
+ * https://github.com/creasoft-dev/fundamenty/blob/master/src/scripts/algolia.js
  */
 
 const searchClient = algoliasearch(
@@ -28,15 +27,19 @@ function newHitsSource(index, params) {
 
 autocomplete('#search_input', { hint: false }, [
   {
-    source: newHitsSource(index, { hitsPerPage: 5 }),
-    displayKey: 'content',
+    source: newHitsSource(index, { hitsPerPage: 10 }),
+    displayKey: 'title',
     templates: {
       suggestion: function (suggestion) {
         return (
           suggestion._highlightResult.title.value +
-          ' (' +
-          suggestion._highlightResult.tags.value +
-          ')'
+          (suggestion._highlightResult.tags !== undefined
+            ? ' (' +
+              suggestion._highlightResult.tags
+                .map((tag) => tag.value)
+                .join(', ') +
+              ')'
+            : '')
         );
       },
     },
