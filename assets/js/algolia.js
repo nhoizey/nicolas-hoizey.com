@@ -4,8 +4,6 @@
 /*
  * Algolia's autocomplete using instantsearch
  */
-import algoliasearch from 'algoliasearch/lite';
-import autocomplete from 'autocomplete.js';
 
 const searchClient = algoliasearch(
   process.env.ALGOLIA_APPLICATION_ID,
