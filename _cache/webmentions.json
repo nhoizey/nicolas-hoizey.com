@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-07-28T15:27:30.681Z",
+  "lastFetched": "2020-07-29T13:17:25.653Z",
   "webmentions": [
     {
       "type": "entry",
@@ -57942,6 +57942,66 @@
       },
       "in-reply-to": "https://nicolas-hoizey.com/links/2020/07/28/designing-adaptive-components-beyond-responsive-breakpoints/",
       "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1288134775308521472",
+      "published": "2020-07-28T15:30:37+00:00",
+      "wm-received": "2020-07-28T16:01:52Z",
+      "wm-id": 832915,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1288109362507120640/1288134775308521472",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/07/28/designing-adaptive-components-beyond-responsive-breakpoints/",
+      "content": {
+        "content-type": "text/html",
+        "value": "You're welcome, thanks again for the great content!\n<a class=\"u-mention\" href=\"https://twitter.com/WalterStephanie\"></a>",
+        "html": "You're welcome, thanks again for the great content!",
+        "text": "You're welcome, thanks again for the great content!"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/07/28/designing-adaptive-components-beyond-responsive-breakpoints/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Stefan Baumgartner",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/825a5eda26df5eefb139fd7358bc58b3af0d351171f9bdfae87a44f04d9a435e.jpg",
+        "url": "https://twitter.com/ddprrt"
+      },
+      "url": "https://twitter.com/nhoizey/status/1288135374515113988#favorited-by-461916281",
+      "published": null,
+      "wm-received": "2020-07-28T21:01:42Z",
+      "wm-id": 833016,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1288135374515113988/461916281",
+      "wm-target": "https://nicolas-hoizey.com/articles/2017/11/09/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin/",
+      "like-of": "https://nicolas-hoizey.com/articles/2017/11/09/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Wim Symons",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/b75b8adedb378872850264b2400a448c5e3de8adc709111efa43d6c60532d4ae.jpg",
+        "url": "https://twitter.com/wimsymons"
+      },
+      "url": "https://twitter.com/nhoizey/status/1288135374515113988#favorited-by-54923920",
+      "published": null,
+      "wm-received": "2020-07-28T21:02:11Z",
+      "wm-id": 833017,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1288135374515113988/54923920",
+      "wm-target": "https://nicolas-hoizey.com/articles/2017/11/09/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin/",
+      "like-of": "https://nicolas-hoizey.com/articles/2017/11/09/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
