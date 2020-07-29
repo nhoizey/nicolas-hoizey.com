@@ -108,10 +108,18 @@
     font-size: 1rem;
     margin: 0.5em 0.2em;
     text-align: right;
-  }
 
-  .branding img {
-    height: 1rem;
-    margin-bottom: -0.3em;
+    a:link,
+    a:visited,
+    a:hover,
+    a:active {
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    img {
+      height: 1rem;
+      margin-bottom: -0.3em;
+    }
   }
 }

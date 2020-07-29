@@ -56,7 +56,7 @@ autocomplete('#search_input', { hint: false, autoselect: true }, [
         }`;
       },
       footer:
-        '<div class="branding"><img src="/assets/search-by-algolia-light-background.svg" /></div>',
+        '<div class="branding"><a href="/articles/2015/06/24/la-recherche-dans-du-statique-facile-avec-algolia/"><img src="/assets/search-by-algolia-light-background.svg" /></a></div>',
     },
   },
 ]).on('autocomplete:selected', function (event, suggestion, dataset) {
