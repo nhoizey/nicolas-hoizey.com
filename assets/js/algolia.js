@@ -60,5 +60,5 @@ const contentTypeEmojis = {
     },
   },
 ]).on('autocomplete:selected', function (event, suggestion, dataset) {
-  window.location.replace(suggestion.url);
+  window.location.assign(suggestion.url);
 });
