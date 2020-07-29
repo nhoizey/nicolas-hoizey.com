@@ -76,10 +76,8 @@ main {
 
 .intro,
 body:not(.layout-note) .e-content > p:first-of-type {
-  font-size: var(--font-size-l);
+  font-size: var(--font-size-xl);
   color: #555;
-  font-weight: bold;
-  letter-spacing: 0.02em;
 }
 
 p,
