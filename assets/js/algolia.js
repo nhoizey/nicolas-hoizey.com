@@ -39,16 +39,21 @@ const contentTypeEmojis = {
     displayKey: 'title',
     templates: {
       suggestion: function (suggestion) {
-        return (
-          suggestion._highlightResult.title.value +
-          (suggestion._highlightResult.tags !== undefined
+        return `${
+          contentTypeEmojis.hasOwnProperty(suggestion.type)
+            ? contentTypeEmojis[suggestion.type] + ' '
+            : ''
+        }<a href="${suggestion.url}">${
+          suggestion._highlightResult.title.value
+        }</a> ${
+          suggestion._highlightResult.tags !== undefined
             ? ' (' +
               suggestion._highlightResult.tags
                 .map((tag) => tag.value)
                 .join(', ') +
               ')'
-            : '')
-        );
+            : ''
+        }`;
       },
     },
   },
