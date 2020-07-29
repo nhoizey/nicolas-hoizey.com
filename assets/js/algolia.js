@@ -26,6 +26,14 @@ function newHitsSource(index, params) {
 }
 
 autocomplete('#search_input', { hint: false }, [
+const contentTypeEmojis = {
+  article: '📄',
+  link: '🔗',
+  note: '💬',
+  talk: '👨‍🏫',
+  tag: '🏷',
+};
+
   {
     source: newHitsSource(index, { hitsPerPage: 10 }),
     displayKey: 'title',
