@@ -83,9 +83,7 @@ const plugins_critical = [
 const plugins_additional_iife = [
   replace({
     'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
-    'process.env.ALGOLIA_APPLICATION_ID': JSON.stringify(
-      process.env.ALGOLIA_APPLICATION_ID
-    ),
+    'process.env.ALGOLIA_APP_ID': JSON.stringify(process.env.ALGOLIA_APP_ID),
     'process.env.ALGOLIA_READ_ONLY_API_KEY': JSON.stringify(
       process.env.ALGOLIA_READ_ONLY_API_KEY
     ),
@@ -120,9 +118,7 @@ const plugins_additional_iife = [
 const plugins_additional_es = [
   replace({
     'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
-    'process.env.ALGOLIA_APPLICATION_ID': JSON.stringify(
-      process.env.ALGOLIA_APPLICATION_ID
-    ),
+    'process.env.ALGOLIA_APP_ID': JSON.stringify(process.env.ALGOLIA_APP_ID),
     'process.env.ALGOLIA_READ_ONLY_API_KEY': JSON.stringify(
       process.env.ALGOLIA_READ_ONLY_API_KEY
     ),

@@ -5,7 +5,7 @@
  */
 
 const searchClient = algoliasearch(
-  process.env.ALGOLIA_APPLICATION_ID,
+  process.env.ALGOLIA_APP_ID,
   process.env.ALGOLIA_READ_ONLY_API_KEY
 );
 var index = searchClient.initIndex(process.env.ALGOLIA_INDEX_NAME);
