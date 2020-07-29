@@ -47,16 +47,16 @@
 
     <link rel="stylesheet" href="/css/{{ hashes_css['additional.css'] }}" />
 
-    <script src="/assets/javascript/vendors/zepto-1.2.0.min.js"></script>
-    <script src="/assets/javascript/vendors/algoliasearchLite-3.35.1.min.js"></script>
-    <script src="/assets/javascript/vendors/algolia-autocomplete-0.37.1.min.js"></script>
+    <script defer src="/assets/javascript/vendors/zepto-1.2.0.min.js"></script>
+    <script defer src="/assets/javascript/vendors/algoliasearchLite-3.35.1.min.js"></script>
+    <script defer src="/assets/javascript/vendors/algolia-autocomplete-0.37.1.min.js"></script>
 
     {#
     https://buzut.net/configurer-rollup-bundles-esm-cjs/
     https://v8.dev/features/modules#browser
     #}
-    <script async type="module" src="/js/{{ hashes_additional_es['assets/js/additional.js']}}"></script>
-    <script async nomodule src="/js/{{ hashes_additional_iife['assets/js/additional.js']}}"></script>
+    <script defer type="module" src="/js/{{ hashes_additional_es['assets/js/additional.js']}}"></script>
+    <script defer nomodule src="/js/{{ hashes_additional_iife['assets/js/additional.js']}}"></script>
   </body>
 
 </html>
