@@ -27,7 +27,7 @@
     margin-left: auto;
 
     transition-property: background-color, border-color, color, width;
-    transition-duration: 0.5s, 0.5s, 0.5s, 1s;
+    transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
 
     &:focus {
@@ -54,6 +54,30 @@
     width: 1em;
     height: 1em;
     fill: $color-primary;
+  }
+
+  .algolia-autocomplete {
+    display: contents !important;
+    color: $color-primary;
+
+    .aa-dropdown-menu {
+      width: 100%;
+      font-size: 1rem;
+      background-color: #fff;
+      border: 1px solid $color-primary;
+      border-top: none;
+      overflow: hidden;
+
+      .aa-suggestion {
+        cursor: pointer;
+        padding: 0.5em;
+      }
+
+      .aa-suggestion.aa-cursor {
+        background-color: $color-primary-lighter-1;
+        color: $color-white;
+      }
+    }
   }
 }
 

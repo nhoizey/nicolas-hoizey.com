@@ -80,5 +80,21 @@ permalink: /tools/algolia.json
 	}
   {%- if not loop.last -%},{% endif -%}
 {% endfor %}
-
+,
+{% for entry in collections.tags %}
+  {%- set absoluteEntryUrl -%}{{ pkg.homepage }}/tags/{{ entry.slug }}/{%- endset -%}
+  {
+    "type": "tag",
+    "lang": "en",
+		"title": "{{ entry.tag | safe }}",
+		"url": "{{ absoluteEntryUrl }}",
+		"objectID": "{{ absoluteEntryUrl }}",
+    {% if entry.description %}
+  		"content": {{ entry.description | cleanForAlgolia | striptags | jsonify | safe }}
+    {% else %}
+      "content": ""
+    {% endif %}
+	}
+  {%- if not loop.last -%},{% endif -%}
+{% endfor %}
 ]

@@ -1,3 +1,6 @@
+import dotenv from 'dotenv';
+dotenv.config();
+
 import babel from 'rollup-plugin-babel';
 import commonjs from 'rollup-plugin-commonjs';
 import replace from '@rollup/plugin-replace';
@@ -50,11 +53,11 @@ const createHashedCssFile = function (folder, srcFile, destFile, styles) {
 };
 
 const plugins_critical = [
-  nodeResolve({ browser: true }),
-  commonjs(),
   replace({
     'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
   }),
+  nodeResolve({ browser: true }),
+  commonjs(),
   babel({
     exclude: 'node_modules/**',
   }),
@@ -78,11 +81,20 @@ const plugins_critical = [
 ];
 
 const plugins_additional_iife = [
-  nodeResolve({ browser: true }),
-  commonjs(),
   replace({
     'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
+    'process.env.ALGOLIA_APPLICATION_ID': JSON.stringify(
+      process.env.ALGOLIA_APPLICATION_ID
+    ),
+    'process.env.ALGOLIA_READ_ONLY_API_KEY': JSON.stringify(
+      process.env.ALGOLIA_READ_ONLY_API_KEY
+    ),
+    'process.env.ALGOLIA_INDEX_NAME': JSON.stringify(
+      process.env.ALGOLIA_INDEX_NAME
+    ),
   }),
+  nodeResolve({ browser: true }),
+  commonjs(),
   babel({
     exclude: 'node_modules/**',
   }),
@@ -106,11 +118,20 @@ const plugins_additional_iife = [
 ];
 
 const plugins_additional_es = [
-  nodeResolve({ browser: true }),
-  commonjs(),
   replace({
     'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
+    'process.env.ALGOLIA_APPLICATION_ID': JSON.stringify(
+      process.env.ALGOLIA_APPLICATION_ID
+    ),
+    'process.env.ALGOLIA_READ_ONLY_API_KEY': JSON.stringify(
+      process.env.ALGOLIA_READ_ONLY_API_KEY
+    ),
+    'process.env.ALGOLIA_INDEX_NAME': JSON.stringify(
+      process.env.ALGOLIA_INDEX_NAME
+    ),
   }),
+  nodeResolve({ browser: true }),
+  commonjs(),
   babel({
     exclude: 'node_modules/**',
   }),
