@@ -61,16 +61,27 @@
     color: $color-primary;
 
     .aa-dropdown-menu {
+      margin: 0;
+      padding: 0.1em;
       width: 100%;
       font-size: 1rem;
-      background-color: #fff;
-      border: 1px solid $color-primary;
+      line-height: 1.2;
+      white-space: normal;
+      background-color: $color-primary-lighter-8;
+      border: 2px solid $color-primary;
       border-top: none;
       overflow: hidden;
 
       .aa-suggestion {
         cursor: pointer;
         padding: 0.5em;
+
+        a:link,
+        a:visited,
+        a:hover,
+        a:active {
+          color: currentColor;
+        }
       }
 
       .aa-suggestion.aa-cursor {
@@ -79,15 +90,15 @@
       }
     }
   }
-}
 
-#powered-by-algolia {
-  text-align: right;
-  font-size: var(--font-size-s);
+  .branding {
+    font-size: 1rem;
+    margin: 0.5em 0.2em;
+    text-align: right;
+  }
 
-  svg {
-    width: 6.3em;
-    height: 2em;
-    vertical-align: bottom;
+  .branding img {
+    height: 1rem;
+    margin-bottom: -0.3em;
   }
 }

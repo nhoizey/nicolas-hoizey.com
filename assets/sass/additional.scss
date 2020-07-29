@@ -152,38 +152,3 @@ a[href$='.zip'] {
 a[href$='.kml'] {
   background-image: url(/assets/icons/kml.svg);
 }
-
-// ************************************************************
-// Search results
-// ************************************************************
-
-#search_results {
-  .ais-Highlight {
-    color: $color-blue;
-    font-weight: bold;
-    font-style: normal;
-  }
-
-  a:hover,
-  a:focus,
-  a:active {
-    .ais-Highlight {
-      color: $color-white;
-    }
-  }
-}
-
-a.icon {
-  font-size: 2em;
-  vertical-align: middle;
-  color: $icon-link-color;
-  text-decoration: none;
-
-  svg {
-    fill: currentColor;
-  }
-
-  &:hover {
-    color: $icon-hover-color;
-  }
-}
