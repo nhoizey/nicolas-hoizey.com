@@ -36,18 +36,12 @@
         {{ content | safe }}
       </div>
     </main>
-    <div class="search">
-      <div class="wrap">
-        <div class="results" id="search_results"></div>
-      </div>
-    </div>
 
     {% include "components/footer.njk" %}
     {% include "svg-sprite.njk" %}
 
     <link rel="stylesheet" href="/css/{{ hashes_css['additional.css'] }}" />
 
-    <script defer src="/assets/javascript/vendors/zepto-1.2.0.min.js"></script>
     <script defer src="/assets/javascript/vendors/algoliasearchLite-3.35.1.min.js"></script>
     <script defer src="/assets/javascript/vendors/algolia-autocomplete-0.37.1.min.js"></script>
 
