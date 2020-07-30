@@ -25,6 +25,7 @@ const tweetCode = (tweet) => {
 const tweetHashtagTohandle = (tweet) => {
   // convert hashtags to Twitter accounts
   let handles = {
+    '#Algolia': '@algolia',
     '#AlwaysData': '@alwaysdata',
     '#CanIUse': '@caniuse',
     '#Cloudinary': '@cloudinary',
