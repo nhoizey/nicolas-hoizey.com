@@ -97,7 +97,7 @@ module.exports = {
     tweet = tweetCode(tweet);
 
     // remove bold and italics
-    tweet = tweet.replace(/\*+([^\*\n]+)\*+/, '$1');
+    tweet = tweet.replace(/\*+([^\*\n]+)\*+/g, '$1');
 
     tweet = tweetHashtagTohandle(tweet);
     tweet = tweetRemoveImage(tweet);
