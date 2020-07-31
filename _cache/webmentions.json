@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-07-29T13:17:25.653Z",
+  "lastFetched": "2020-07-30T17:05:08.070Z",
   "webmentions": [
     {
       "type": "entry",
@@ -58001,6 +58001,24 @@
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1288135374515113988/54923920",
       "wm-target": "https://nicolas-hoizey.com/articles/2017/11/09/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin/",
       "like-of": "https://nicolas-hoizey.com/articles/2017/11/09/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "nicosomb",
+        "photo": "https://webmention.io/avatar/mamot.fr/c2e89b5c4af1b1c446e8fb37b575118388bb87dd7ec09d16881f09e55f578dd3.jpg",
+        "url": "https://mamot.fr/@nicosomb"
+      },
+      "url": "https://mamot.fr/@nhoizey/104602388262705577#favorited-by-12095",
+      "published": null,
+      "wm-received": "2020-07-30T13:46:11Z",
+      "wm-id": 833614,
+      "wm-source": "https://brid-gy.appspot.com/like/mastodon/@nhoizey@mamot.fr/104602388262705577/12095",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/30/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/07/30/1/",
       "wm-property": "like-of",
       "wm-private": false
     }
