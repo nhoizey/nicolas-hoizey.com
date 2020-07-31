@@ -108,7 +108,7 @@ module.exports = {
 
     tweet = entities.decodeHTML(tweet);
 
-    // Notrmalize linee feeds
+    // Normalize line feeds
     tweet = tweet.replace(/\n/gm, '\\n');
     tweet = tweet.replace(/(\\n){3,}/gm, '\\n\\n');
     tweet = tweet.replace(/^(\\n)*/gm, '');
