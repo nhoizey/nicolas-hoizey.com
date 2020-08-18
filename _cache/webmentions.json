@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-08-14T20:21:47.437Z",
+  "lastFetched": "2020-08-17T17:08:30.371Z",
   "webmentions": [
     {
       "type": "entry",
@@ -58259,6 +58259,106 @@
       "like-of": "https://nicolas-hoizey.com/links/2020/08/14/performance-vs-functionality-making-the-right-site-speed-tradeoffs/",
       "wm-property": "like-of",
       "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "gandi.net",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0fd8ef533a4e62dcbfdce3e1c3e287109332e476731c2bd134b2cf7497e16bdb.jpg",
+        "url": "https://twitter.com/gandi_net"
+      },
+      "url": "https://twitter.com/gandi_net/status/1295251672638337029",
+      "published": "2020-08-17T06:50:38+00:00",
+      "wm-received": "2020-08-17T06:56:25Z",
+      "wm-id": 841300,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1294268810338414592/1295251672638337029",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/31/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "1/2 Hello Nicolas! Thank you for contacting us. Gandi sends 3 reminders for renewals : \n- 1 reminder 1 month prior to expiration\n- 1 reminder 7 days prior to expiration\n- 1 reminder 1 day after expiration.\n\nDepending on your TLD, you might  still  be able to renew it.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "1/2 Hello Nicolas! Thank you for contacting us. Gandi sends 3 reminders for renewals : <br />- 1 reminder 1 month prior to expiration<br />- 1 reminder 7 days prior to expiration<br />- 1 reminder 1 day after expiration.<br /><br />Depending on your TLD, you might  still  be able to renew it.",
+        "text": "1/2 Hello Nicolas! Thank you for contacting us. Gandi sends 3 reminders for renewals : \n- 1 reminder 1 month prior to expiration\n- 1 reminder 7 days prior to expiration\n- 1 reminder 1 day after expiration.\n\nDepending on your TLD, you might  still  be able to renew it."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/07/31/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "gandi.net",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0fd8ef533a4e62dcbfdce3e1c3e287109332e476731c2bd134b2cf7497e16bdb.jpg",
+        "url": "https://twitter.com/gandi_net"
+      },
+      "url": "https://twitter.com/gandi_net/status/1295251783414145024",
+      "published": "2020-08-17T06:51:04+00:00",
+      "wm-received": "2020-08-17T09:24:08Z",
+      "wm-id": 841321,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1294268810338414592/1295251783414145024",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/31/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "2/2\nThus, have you already opened a ticket on our customer service via <a href=\"https://help.gandi.net\">help.gandi.net</a>?\nIf so, can you give me the number of your ticket that is on the confirmation email you received after its creation? Thank you - Julia\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "2/2<br />Thus, have you already opened a ticket on our customer service via <a href=\"https://help.gandi.net\">help.gandi.net</a>?<br />If so, can you give me the number of your ticket that is on the confirmation email you received after its creation? Thank you - Julia",
+        "text": "2/2\nThus, have you already opened a ticket on our customer service via help.gandi.net?\nIf so, can you give me the number of your ticket that is on the confirmation email you received after its creation? Thank you - Julia"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/07/31/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1295284722319400960",
+      "published": "2020-08-17T09:01:57+00:00",
+      "wm-received": "2020-08-17T09:24:08Z",
+      "wm-id": 841322,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1294268810338414592/1295284722319400960",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/07/31/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Hello, my tweet was to show the latest of this 3 reminders should be changed, because AFTER the expiration date, it suggests to renew it BEFORE the same date.\n<a class=\"u-mention\" href=\"https://twitter.com/gandi_net\"></a>",
+        "html": "Hello, my tweet was to show the latest of this 3 reminders should be changed, because AFTER the expiration date, it suggests to renew it BEFORE the same date.",
+        "text": "Hello, my tweet was to show the latest of this 3 reminders should be changed, because AFTER the expiration date, it suggests to renew it BEFORE the same date."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/07/31/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://flisks.com/html-css3-100vh-not-constant-in-mobile-browser",
+      "published": null,
+      "wm-received": "2020-08-17T15:26:20Z",
+      "wm-id": 841417,
+      "wm-source": "https://flisks.com/html-css3-100vh-not-constant-in-mobile-browser",
+      "wm-target": "https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html",
+      "name": "html – CSS3 100vh not constant in mobile browser",
+      "content": {
+        "content-type": "text/html",
+        "value": "<p><strong>Unfortunately this is intentional…</strong></p>\n<p>This is a well know issue (at least in safari mobile), which is intentional, as it prevents other problems. <a href=\"https://bugs.webkit.org/show_bug.cgi?id=141832\">Benjamin Poulain replied to a webkit bug</a>:</p>\n<blockquote>\n<p>This is completely intentional. It took quite a bit of work on our part to achieve this effect. 🙂</p>\n<p>The base problem is this: the visible area changes dynamically as you scroll. If we update the CSS viewport height accordingly, we need to update the layout during the scroll. Not only that looks like shit, but doing that at 60 FPS is practically impossible in most pages (60 FPS is the baseline framerate on iOS).</p>\n<p>It is hard to show you the “looks like shit” part, but imagine as you scroll, the contents moves and what you want on screen is continuously shifting.</p>\n<p>Dynamically updating the height was not working, we had a few choices: drop viewport units on iOS, match the document size like before iOS 8, use the small view size, use the large view size.</p>\n<p>From the data we had, using the larger view size was the best compromise. Most website using viewport units were looking great most of the time.</p>\n</blockquote>\n<p>Nicolas Hoizey has researched this quite a bit: <a href=\"https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html\">https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html</a></p>\n<p><strong>No fix planned</strong></p>\n<p>At this point, there is not much you can do except refrain from using viewport height on mobile devices. Chrome changed to this as well in 2016:</p>\n<ul><li><a href=\"https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/BK0oHURgmJ4\">https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/BK0oHURgmJ4</a></li>\n<li><a href=\"https://developers.google.com/web/updates/2016/12/url-bar-resizing\">https://developers.google.com/web/updates/2016/12/url-bar-resizing</a></li>\n</ul>\n<h3>Share this:</h3>\n<ul><li><a href=\"https://flisks.com/html-css3-100vh-not-constant-in-mobile-browser?share=twitter\" title=\"Click to share on Twitter\"><span>Twitter</span></a></li>\n<li><a href=\"https://flisks.com/html-css3-100vh-not-constant-in-mobile-browser?share=facebook\" title=\"Click to share on Facebook\"><span>Facebook</span></a></li>\n<li>\n</li></ul>\n\n<h3>Like this:</h3>\n\n<span><span>Like</span></span> <span>Loading...</span>\n\n<span></span><a></a>\n\n\n\t<h3><em>Related</em></h3>",
+        "html": "<strong>Unfortunately this is intentional…</strong><br />This is a well know issue (at least in safari mobile), which is intentional, as it prevents other problems. <a href=\"https://bugs.webkit.org/show_bug.cgi?id=141832\">Benjamin Poulain replied to a webkit bug</a>:<br /><blockquote><br />This is completely intentional. It took quite a bit of work on our part to achieve this effect. 🙂<br />The base problem is this: the visible area changes dynamically as you scroll. If we update the CSS viewport height accordingly, we need to update the layout during the scroll. Not only that looks like shit, but doing that at 60 FPS is practically impossible in most pages (60 FPS is the baseline framerate on iOS).<br />It is hard to show you the “looks like shit” part, but imagine as you scroll, the contents moves and what you want on screen is continuously shifting.<br />Dynamically updating the height was not working, we had a few choices: drop viewport units on iOS, match the document size like before iOS 8, use the small view size, use the large view size.<br />From the data we had, using the larger view size was the best compromise. Most website using viewport units were looking great most of the time.<br /></blockquote><br />Nicolas Hoizey has researched this quite a bit: <a href=\"https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html\">https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html</a><br /><strong>No fix planned</strong><br />At this point, there is not much you can do except refrain from using viewport height on mobile devices. Chrome changed to this as well in 2016:<br /><ul><li><a href=\"https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/BK0oHURgmJ4\">https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/BK0oHURgmJ4</a></li><br /><li><a href=\"https://developers.google.com/web/updates/2016/12/url-bar-resizing\">https://developers.google.com/web/updates/2016/12/url-bar-resizing</a></li><br /></ul><br />Share this:<br /><ul><li><a href=\"https://flisks.com/html-css3-100vh-not-constant-in-mobile-browser?share=twitter\">Twitter</a></li><br /><li><a href=\"https://flisks.com/html-css3-100vh-not-constant-in-mobile-browser?share=facebook\">Facebook</a></li><br /><li><br /></li></ul><br /><br />Like this:<br /><br />Like Loading...<br /><br /><a></a><br /><br /><br />\t<em>Related</em>",
+        "text": "Unfortunately this is intentional…\nThis is a well know issue (at least in safari mobile), which is intentional, as it prevents other problems. Benjamin Poulain replied to a webkit bug:\n\nThis is completely intentional. It took quite a bit of work on our part to achieve this effect. 🙂\nThe base problem is this: the visible area changes dynamically as you scroll. If we update the CSS viewport height accordingly, we need to update the layout during the scroll. Not only that looks like shit, but doing that at 60 FPS is practically impossible in most pages (60 FPS is the baseline framerate on iOS).\nIt is hard to show you the “looks like shit” part, but imagine as you scroll, the contents moves and what you want on screen is continuously shifting.\nDynamically updating the height was not working, we had a few choices: drop viewport units on iOS, match the document size like before iOS 8, use the small view size, use the large view size.\nFrom the data we had, using the larger view size was the best compromise. Most website using viewport units were looking great most of the time.\n\nNicolas Hoizey has researched this quite a bit: https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html\nNo fix planned\nAt this point, there is not much you can do except refrain from using viewport height on mobile devices. Chrome changed to this as well in 2016:\nhttps://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/BK0oHURgmJ4\nhttps://developers.google.com/web/updates/2016/12/url-bar-resizing\nShare this:\nTwitter\nFacebook\n\nLike this:\n\nLike Loading...\n\n\n\n\n\tRelated"
+      },
+      "mention-of": "https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://flisks.com/html-css3-100vh-not-constant-in-mobile-browser"
+      }
     }
   ]
 }
