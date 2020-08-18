@@ -21,7 +21,7 @@ https://youtu.be/rskC6c_5L1M
 
 Si vous êtes sur Mac et donc plutôt utilisateur de iPhoto[^3] et que vous voulez faire la même chose hors ligne, il n'y a pas de solution à ma connaissance, mais [iLovePhotos](http://www.ilovephotos.com/) propose des fonctionnalités de reconnaissance de visages qui facilitent l'ajout de tags pertinents.
 
-{% vimeo 1690486 %}
+https://vimeo.com/1690486
 
 A quand une reconnaissance faciale complète et simple dans Adobe Photoshop Lightroom ? ;-)
 

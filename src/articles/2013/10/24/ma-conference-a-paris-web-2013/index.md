@@ -54,7 +54,7 @@ J'ai la chance de travailler avec ces trois là, et d'autres tout aussi talentue
 
 La vidéo de ma prestation a été publiée par Paris Web sur son compte Vimeo :
 
-{% vimeo 79204119 %}
+https://vimeo.com/79204119
 
 Voici [la version de mes slides hébergée sur SlideShare](https://fr.slideshare.net/nhoizey/paris-web-2013-un-petit-pas-pour-lem-un-grand-pas-pour-le-web), donc sans les animations qui ne sont visibles qu'en vidéo :
 
