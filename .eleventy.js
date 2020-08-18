@@ -66,6 +66,22 @@ module.exports = function (eleventyConfig) {
     autoEmbed: true,
   });
 
+  const embedEverythingElse = require('eleventy-plugin-embed-everything');
+  eleventyConfig.addPlugin(embedEverythingElse, {
+    youtube: {
+      options: {
+        lite: {
+          css: {
+            path: '/assets/javascript/vendors/yt-lite/lite-yt-embed.css',
+          },
+          js: {
+            path: '/assets/javascript/vendors/yt-lite/lite-yt-embed.js',
+          },
+        },
+      },
+    },
+  });
+
   // ------------------------------------------------------------------------
   // Markdown plugins
   // ------------------------------------------------------------------------

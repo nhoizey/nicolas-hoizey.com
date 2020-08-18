@@ -13,4 +13,4 @@ This is a nice quote about security threats caused by concentrating our personal
 
 Read [the full transcript of the "Notes from an Emergency" talk](http://idlewords.com/talks/notes_from_an_emergency.htm) or see [the video](https://www.youtube.com/watch?v=rSrLjb3k1II):
 
-{% youtube "rSrLjb3k1II" %}
+https://youtu.be/rSrLjb3k1II

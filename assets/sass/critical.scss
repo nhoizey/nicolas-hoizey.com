@@ -257,8 +257,13 @@ figure,
 iframe,
 .embed-video-container {
   clear: both;
-  margin: $baseline auto;
+  margin-left: auto;
+  margin-right: auto;
   display: block;
+}
+
+lite-youtube > iframe {
+  margin: 0;
 }
 
 figure {
@@ -268,7 +273,8 @@ figure {
   iframe,
   .embed-video-container {
     display: block;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
   }
 }

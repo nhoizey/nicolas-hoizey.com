@@ -18,6 +18,6 @@ I already new some of these, but I learned a lot more about people using touch b
 
 Thanks a lot Sara for the link to [Rob Dodson](https://robdodson.me/)'s great video:
 
-{% youtube "0Zpzl4EKCco" %}
+https://youtu.be/0Zpzl4EKCco
 
 Learning that up and down swipes change the navigation mode in TalkBack, I wonder if anyone already tried playing [esviji](https://play.esviji.com) with TalkBack, as up and down swipes are used to move the ball… 🤔

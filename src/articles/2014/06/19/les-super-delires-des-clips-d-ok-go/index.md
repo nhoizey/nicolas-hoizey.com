@@ -13,7 +13,7 @@ Voici en effet en 2010 un [clip pour la chanson « This Too Shall Pass »](https
 
 [^1]: En fait il y avait déjà [un autre clip sympa pour la chanson « This Too Shall Pass »](https://www.youtube.com/watch?v=UJKythlXAIY), mais il était moins bluffant.
 
-{% youtube "qybUFnY7Y8w" %}
+https://youtu.be/qybUFnY7Y8w
 
 La vidéo a été vue plus de 43 millions de fois sur YouTube.
 
@@ -29,7 +29,7 @@ Ils sont allés jusqu'à mettre en ligne [le making of du clip](http://media.okg
 
 En 2012, c'est en voiture qu'ils font de la musique, ou plutôt devrais-je dire {{avec}} une voiture :
 
-{% youtube "MejbOFk7H6c" %}
+https://youtu.be/MejbOFk7H6c
 
 Je vous laisserais juger la qualité de la musique… ;-)
 
@@ -39,6 +39,6 @@ La vidéo a été vue plus de 27 millions de fois sur YouTube.
 
 Hier, c'est le clip de « The Writing's On the Wall » qui est publié, un retour dans un grand entrepôt, avec cette fois un enchainement d'illusions optiques saisies dans un plan séquence ahurissant :
 
-{% youtube "m86ae_e_ptU" %}
+https://youtu.be/m86ae_e_ptU
 
 Il y a d'autres pépites dans [les clips de OK Go sur leur compte YouTube](https://www.youtube.com/user/OkGo/videos), mais c'étaient les trois qui m'ont le plus marquées.

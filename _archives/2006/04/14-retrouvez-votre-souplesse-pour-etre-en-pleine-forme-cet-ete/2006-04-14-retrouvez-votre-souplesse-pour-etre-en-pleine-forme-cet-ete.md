@@ -6,4 +6,4 @@ tags:       [fun, video]
 
 C'est pourtant simple, prenez exemple ci-après :
 
-{% youtube "HSoVKUVOnfQ" %}
+https://youtu.be/HSoVKUVOnfQ

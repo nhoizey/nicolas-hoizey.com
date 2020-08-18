@@ -11,7 +11,7 @@ Un des soucis avec un site statique tel que celui-ci, c'est que par définition 
 
 Avant de découvrir les pistes envisagées et ce que j'aime dans Algolia, [allez donc tester par vous-même](/search/) et/ou regardez ce petit screencast fait pour l'occasion :
 
-{% youtube "Ia9FFYwkU6c" %}
+https://youtu.be/Ia9FFYwkU6c
 
 Pour proposer des résultats à une recherche comme ceci, il faut nécessairement faire du dynamique, trouver des éléments répondant aux critères de recherche et les lister.
 
@@ -41,7 +41,7 @@ Il est enfin possible de s'appuyer sur une solution tierce disponible intégrale
 
 Il existe bien entendu [Google Custom Search Engine](https://developers.google.com/custom-search/docs/overview), la solution gratuite de Google[^gss] permettant de profiter d'une recherche complète avec la puissance que l'on connaît :
 
-{% youtube "Qd9z48Bo8ZA" %}
+https://youtu.be/Qd9z48Bo8ZA
 
 [^gss]: Il existe aussi la solution [Google Site Search](https://www.google.com/work/search/products/gss.html), qui elle est payante.
 

@@ -35,7 +35,7 @@ SVG is even inline in the HTML, so there is no additional request at all.
 
 I made a little screencast for those who don't have SVG support in their browser:
 
-{% youtube "y1d1dDWs4_4" %}
+https://youtu.be/y1d1dDWs4_4
 
 There are still some parts missing:
 

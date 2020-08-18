@@ -8,7 +8,7 @@ poster:     the-expert-screencap.png
 
 Bon sang, mais oui, c'est ça que je vis régulièrement depuis plus de 15 ans que je travaille dans le Web. Trop souvent, un client essaie de m'imposer sa vision des choses, alors que je tente par tous les moyens de lui faire comprendre qu'il a tort — ou en tout cas qu'il est possible de mieux faire —, et alors que justement il me paie pour cette expertise que je suis censé avoir.
 
-{% youtube "BKorP55Aqvg" %}
+https://youtu.be/BKorP55Aqvg
 
 J'ai remis plus d'une fois à un client une conclusion de mission d'expertise qui n'allait pas dans le sens qu'il imaginait. Rarement il m'en a voulu. Qu'il n'aime pas la conclusion, souvent parce qu'elle met en évidence des défauts techniques, méthodologiques ou autres, n'est pas grave, s'il l'accepte et agit en conséquence.
 
@@ -22,4 +22,4 @@ Ce court-métrage est drôle à postériori quand on a vécu cela en tant qu'exp
 
 L'air de rien, un « expert » a bien relevé le défi de cette demande client :
 
-{% youtube "B7MIJP90biM" %}
+https://youtu.be/B7MIJP90biM

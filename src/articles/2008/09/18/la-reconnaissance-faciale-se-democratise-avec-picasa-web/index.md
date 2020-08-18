@@ -17,7 +17,7 @@ J'ai testé sur mes galeries en ligne, et ça marche extrêmement bien, c'est bl
 
 A noter que cette fonctionnalité n'est pas présente dans le client lourd Picasa, soit par nécessité de grosses capacités de traitement, soit tout simplement pour pousser les utilisateurs a utiliser Picasa Web[^2].
 
-{% youtube "rskC6c_5L1M" %}
+https://youtu.be/rskC6c_5L1M
 
 Si vous êtes sur Mac et donc plutôt utilisateur de iPhoto[^3] et que vous voulez faire la même chose hors ligne, il n'y a pas de solution à ma connaissance, mais [iLovePhotos](http://www.ilovephotos.com/) propose des fonctionnalités de reconnaissance de visages qui facilitent l'ajout de tags pertinents.
 

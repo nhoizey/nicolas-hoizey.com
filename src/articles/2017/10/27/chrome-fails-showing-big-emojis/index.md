@@ -29,7 +29,7 @@ data:text/html;charset=utf-8,<body><p style="margin: 0; font-size:128px">128px: 
 
 Then, I discovered the emoji where shown when I put the browser window on another screen, I was really astonished:
 
-{% youtube "XlDxkRq2Gr4" %}
+https://youtu.be/XlDxkRq2Gr4
 
 I had forgotten my MacBook 12" screen was a Retina one, which means there were twice the pixels of a standard screen.
 

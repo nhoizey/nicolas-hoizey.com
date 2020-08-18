@@ -15,7 +15,7 @@ Yuan Chuan creates art from everything available in CSS, created [`< css-doodle 
 
 Here is the video recording (also [on the conference website](https://www.yuque.com/cssconf/5th/hyku3f#1f2bd521)):
 
-{% youtube "mEpocRIc3q8" %}
+https://youtu.be/mEpocRIc3q8
 
 Yuan Chuan presents in Chinese, but the slides and even some live coding are already awesome and self-describing.
 
