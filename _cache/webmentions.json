@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-08-18T16:25:52.392Z",
+  "lastFetched": "2020-08-18T20:34:42.203Z",
   "webmentions": [
     {
       "type": "entry",
@@ -58450,6 +58450,42 @@
       "wm-received": "2020-08-18T15:02:29Z",
       "wm-id": 841688,
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1295705162326171648/40312405",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/08/18/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/08/18/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Peter Antonius",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/b9f3c9100136e57d6639a597f3f0a96aefc4fc39390f79608240b502adcc3066.jpg",
+        "url": "https://twitter.com/Okkido"
+      },
+      "url": "https://twitter.com/nhoizey/status/1295705162326171648#favorited-by-5399562",
+      "published": null,
+      "wm-received": "2020-08-18T18:35:08Z",
+      "wm-id": 841754,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1295705162326171648/5399562",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/08/18/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/08/18/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Rollier",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c0a3bb8e4ee85f86528d3454a7d496e9bd47675f286186de5673745a9fbc03f4.png",
+        "url": "https://twitter.com/nrollr"
+      },
+      "url": "https://twitter.com/nhoizey/status/1295705162326171648#favorited-by-60856311",
+      "published": null,
+      "wm-received": "2020-08-18T18:35:10Z",
+      "wm-id": 841755,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1295705162326171648/60856311",
       "wm-target": "https://nicolas-hoizey.com/notes/2020/08/18/1/",
       "like-of": "https://nicolas-hoizey.com/notes/2020/08/18/1/",
       "wm-property": "like-of",
