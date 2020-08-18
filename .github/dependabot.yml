@@ -3,8 +3,12 @@ updates:
   - package-ecosystem: npm
     directory: '/'
     schedule:
-      interval: daily
+      interval: 'daily'
       time: '04:00'
-    open-pull-requests-limit: 10
+    open-pull-requests-limit: 20
     commit-message:
       prefix: '[skip ci]'
+    labels:
+      - 'dependencies'
+      # Add Kodiak `merge.automerge_label`
+      - 'automerge 🤞'
