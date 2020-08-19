@@ -22,7 +22,7 @@ Pour migrer les centaines de contenus rédigés depuis 2001 en syntaxe spécifiq
 
 ## Quelques plugins
 
-De [nombreux](https://jekyllrb.com/docs/plugins/#available-plugins) [plugins](https://www.jekyll-plugins.com/) existent dans l'écosystème Jekyll pour enrichir la solution de base, mais comme partout, tous ne fonctionnent pas bien, certains imposent des modes de fonctionnement contradictoires, ou tout simplement ne sont pas suffisamment configurables. Attention, la plupart de ces plugins empêchent d'utiliser la génération automatique de pages des [Github Pages](https://help.github.com/articles/using-jekyll-with-pages/).
+De [nombreux](https://jekyllrb.com/docs/plugins/#available-plugins) [plugins](https://www.jekyll-plugins.com/) existent dans l'écosystème Jekyll pour enrichir la solution de base, mais comme partout, tous ne fonctionnent pas bien, certains imposent des modes de fonctionnement contradictoires, ou tout simplement ne sont pas suffisamment configurables. Attention, la plupart de ces plugins empêchent d'utiliser la génération automatique de pages des [GitHub Pages](https://help.github.com/articles/using-jekyll-with-pages/).
 
 Les images bénéficient de mon plugin [Jekyll Cloudinary](https://nhoizey.github.io/jekyll-cloudinary/) pour utiliser le service SaaS [Cloudinary](https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/sgyyc0j14k6p0sbt51nw) afin de générer les différentes versions nécessaires au Responsive Web Design, tout en optimisant au mieux la performance.
 
@@ -84,8 +84,8 @@ Avec un site dynamique, il est possible d'indexer directement les contenus prés
 
 Publier un nouveau contenu est devenu plus compliqué, puisqu'il faut produire le Markdown et les éventuelles illustrations, puis lancer la compilation par Jekyll, avant de déployer.
 
-Tout cela pourrait être facilité avec les Github Pages, mais c'est trop restrictif fonctionnellement.
+Tout cela pourrait être facilité avec les GitHub Pages, mais c'est trop restrictif fonctionnellement.
 
 Je pourrais aussi utiliser une solution d'intégration continue, [comme Boris](https://borisschapira.com/), mais j'ai encore quelques soucis de génération du site qui m'en empêchent pour l'instant.
 
-Mais avoir une source de contenus propre, dans un format plus standard, et  versionnée dans Github, est un gain considérable.
+Mais avoir une source de contenus propre, dans un format plus standard, et  versionnée dans GitHub, est un gain considérable.
