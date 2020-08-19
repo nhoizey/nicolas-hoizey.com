@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-08-18T20:34:42.203Z",
+  "lastFetched": "2020-08-19T08:41:30.481Z",
   "webmentions": [
     {
       "type": "entry",
@@ -58489,6 +58489,138 @@
       "wm-target": "https://nicolas-hoizey.com/notes/2020/08/18/1/",
       "like-of": "https://nicolas-hoizey.com/notes/2020/08/18/1/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Šime Vidas",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/09bb4880190585b5e89c617e2b0fc0af42f2bd0b1eefa64fa76f35eb307555a6.jpeg",
+        "url": "https://twitter.com/simevidas"
+      },
+      "url": "https://twitter.com/simevidas/status/1295855785508036615",
+      "published": "2020-08-18T22:51:09+00:00",
+      "wm-received": "2020-08-18T22:53:49Z",
+      "wm-id": 841822,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1295839387675238401/1295855785508036615",
+      "wm-target": "https://nicolas-hoizey.com/links/2019/04/26/progressive-font-enrichment-reinventing-web-font-performance/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Thanks for the info!\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WebPlatformNews\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/jpamental\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "Thanks for the info!",
+        "text": "Thanks for the info!"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2019/04/26/progressive-font-enrichment-reinventing-web-font-performance/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jason Pamental",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/4cd301503877e2a542f53a5c7b6841f8c4f7c85e1d05c4218dd37b145f86b29a.jpg",
+        "url": "https://twitter.com/jpamental"
+      },
+      "url": "https://twitter.com/nhoizey/status/1295839387675238401#favorited-by-14049683",
+      "published": null,
+      "wm-received": "2020-08-18T22:53:50Z",
+      "wm-id": 841823,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1295839387675238401/14049683",
+      "wm-target": "https://nicolas-hoizey.com/links/2019/04/26/progressive-font-enrichment-reinventing-web-font-performance/",
+      "like-of": "https://nicolas-hoizey.com/links/2019/04/26/progressive-font-enrichment-reinventing-web-font-performance/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1295856852719284224",
+      "published": "2020-08-18T22:55:24+00:00",
+      "wm-received": "2020-08-18T23:39:34Z",
+      "wm-id": 841830,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1295839387675238401/1295856852719284224",
+      "wm-target": "https://nicolas-hoizey.com/links/2019/04/26/progressive-font-enrichment-reinventing-web-font-performance/",
+      "content": {
+        "content-type": "text/html",
+        "value": "You're welcome\n<a class=\"u-mention\" href=\"https://twitter.com/WebPlatformNews\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/jpamental\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/simevidas\"></a>",
+        "html": "You're welcome",
+        "text": "You're welcome"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2019/04/26/progressive-font-enrichment-reinventing-web-font-performance/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Richard Pasquiou",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/bbdb1e3360460a6903c1db363ecdbdaa2ba593199113f0e13680c56f321f18a7.jpg",
+        "url": "https://twitter.com/P45QU10U"
+      },
+      "url": "https://twitter.com/nhoizey/status/1295705162326171648#favorited-by-123496554",
+      "published": null,
+      "wm-received": "2020-08-18T23:39:37Z",
+      "wm-id": 841831,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1295705162326171648/123496554",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/08/18/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/08/18/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jason Pamental",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/4cd301503877e2a542f53a5c7b6841f8c4f7c85e1d05c4218dd37b145f86b29a.jpg",
+        "url": "https://twitter.com/jpamental"
+      },
+      "url": "https://twitter.com/jpamental/status/1295895598005092352",
+      "published": "2020-08-19T01:29:21+00:00",
+      "wm-received": "2020-08-19T02:17:28Z",
+      "wm-id": 841845,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1295839387675238401/1295895598005092352",
+      "wm-target": "https://nicolas-hoizey.com/links/2019/04/26/progressive-font-enrichment-reinventing-web-font-performance/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Our research has come along quite a ways since I wrote that; really excited to see it get published soon!\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WebPlatformNews\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/simevidas\"></a>",
+        "html": "Our research has come along quite a ways since I wrote that; really excited to see it get published soon!",
+        "text": "Our research has come along quite a ways since I wrote that; really excited to see it get published soon!"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2019/04/26/progressive-font-enrichment-reinventing-web-font-performance/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "にっし",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/75fbe15644d6313832c0b4000fa8da7c53aecaf3d6f17ceed85561ef2522ec75.jpg",
+        "url": "https://twitter.com/nsd244"
+      },
+      "url": "https://twitter.com/nsd244/status/1295983177639448583",
+      "published": "2020-08-19T07:17:22+00:00",
+      "wm-received": "2020-08-19T07:31:14Z",
+      "wm-id": 841904,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/nhoizey/1295983177639448583",
+      "wm-target": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "content": {
+        "content-type": "text/html",
+        "value": "レスポンシブ対応つらい\n<a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\">nicolas-hoizey.com/articles/2015/…</a>",
+        "html": "レスポンシブ対応つらい<br /><a href=\"https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/\">nicolas-hoizey.com/articles/2015/…</a>",
+        "text": "レスポンシブ対応つらい\nnicolas-hoizey.com/articles/2015/…"
+      },
+      "mention-of": "https://nicolas-hoizey.com/articles/2015/02/18/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers/",
+      "wm-property": "mention-of",
       "wm-private": false
     }
   ]
