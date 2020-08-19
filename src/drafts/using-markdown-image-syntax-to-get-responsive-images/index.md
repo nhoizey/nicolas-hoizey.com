@@ -50,7 +50,7 @@ There are multiple issues IMHO:
 
 - I have to **wait for the SSG build to run to actually see the image in the content**
 - In my Markdown file editor[^macdown], **the live preview shows the tag/shortcode, not the image** it is supposed to show
-- likewise, when **browsing files on Github**, opening a Markdown file shows the code, not the image, in the content
+- likewise, when **browsing files on GitHub**, opening a Markdown file shows the code, not the image, in the content
 
 *[SSG]: Static Site Generator
 
@@ -60,7 +60,7 @@ When [I moved from Jekyll to Eleventy](/notes/2020/02/28/1/), I knew **I had to 
 
 # What do we need?
 
-To be able to show the image in the page preview in a local editor or on Github:
+To be able to show the image in the page preview in a local editor or on GitHub:
 
 1. the **standard Markdown syntax for images** has to be used, instead of a tag or shortcode,
 2. the **path to the image has to be either absolute** (on the local folders or a remote server), **or relative to the Markdown file** location.
@@ -83,7 +83,7 @@ I took the reverse path, starting with the second transformation, aiming at prov
 
 ## How to transform simple HTML image into a responsive image?
 
-This is the part provided by [images-responsiver](https://nhoizey.github.io/images-responsiver/), available [on Github](https://github.com/nhoizey/images-responsiver) and [in npm](https://www.npmjs.com/package/images-responsiver).
+This is the part provided by [images-responsiver](https://nhoizey.github.io/images-responsiver/), available [on GitHub](https://github.com/nhoizey/images-responsiver) and [in npm](https://www.npmjs.com/package/images-responsiver).
 
 
 
@@ -104,7 +104,7 @@ github.com/nhoizey/nicola…
 
 I understand it is really complex, but I don't like having my content illustrations outside the "content folder" (in a single shared "/assets/" folder for example), so I found this convoluted solution.
 
-If the code of your site is in Github, Gitlab or another online repository, I could take some time (maybe not today) to help you with a Pull Request, if you want.
+If the code of your site is in GitHub, Gitlab or another online repository, I could take some time (maybe not today) to help you with a Pull Request, if you want.
 
 Oh sorry, the filter is there:
 https://github.com/nhoizey/nicolas-hoizey.com/blob/master/src/_11ty/filters/file.js#L4-L6

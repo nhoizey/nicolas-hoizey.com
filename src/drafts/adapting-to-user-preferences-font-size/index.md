@@ -93,7 +93,7 @@ However, WebKit's initial proposal contained other environment variables, includ
 
 [^constant]: The actual code from the proposal used [WebKit's `constant()` function, replaced with `env()` since Safari Technology Preview 41 and the iOS 11.2 beta](https://webkit.org/blog/7929/designing-websites-for-iphone-x/).
 
-This `user-font-size` Environment Variable unfortunately didn't make it into the first specification draft, but there is still hope to get it later, if people ask for it in this Github issue opened by Becca Hughes: [list of predefined variables](https://github.com/w3c/csswg-drafts/issues/2630).
+This `user-font-size` Environment Variable unfortunately didn't make it into the first specification draft, but there is still hope to get it later, if people ask for it in this GitHub issue opened by Becca Hughes: [list of predefined variables](https://github.com/w3c/csswg-drafts/issues/2630).
 
 The usage example in WebKit's proposal doesn't make sense however, reducing its attractiveness for developers, because `:root`'s default font size is already set to the user's preferred font size, or the browser's default one if the user didn't change anything.
 

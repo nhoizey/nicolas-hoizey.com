@@ -34,7 +34,7 @@ const tweetHashtagTohandle = (tweet) => {
     '#esviji': '@esviji',
     '#EveryLayout': '@layoutplusplus',
     '#Gandi': '@gandi_net',
-    '#Github': '@github',
+    '#GitHub': '@github',
     '#IFTTT': '@IFTTT',
     '#Jekyll': '@jekyllrb',
     '#Lighthouse': '@____lighthouse',

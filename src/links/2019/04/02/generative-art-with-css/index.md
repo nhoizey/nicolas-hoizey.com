@@ -21,6 +21,6 @@ Yuan Chuan presents in Chinese, but the slides and even some live coding are alr
 
 Unfortunately, some features are not yet available in some browsers, so to really enjoy the presentation, you must use [Google Chrome Canary](https://www.google.com/intl/fr_ALL/chrome/canary/), the version for developers.
 
-If you want to deep dive in the code, [the source of the presentation is on Github](https://github.com/yuanchuan/talk/tree/gh-pages/generative-art-with-css).
+If you want to deep dive in the code, [the source of the presentation is on GitHub](https://github.com/yuanchuan/talk/tree/gh-pages/generative-art-with-css).
 
 You can also find some of [Yuan Chuan's experiments on CodePen](https://codepen.io/yuanchuan/).

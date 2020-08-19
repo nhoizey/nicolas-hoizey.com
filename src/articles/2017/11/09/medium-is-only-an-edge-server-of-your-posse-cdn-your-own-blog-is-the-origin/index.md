@@ -92,11 +92,11 @@ If you can't do it right now, let's say hosting your own platform is your long t
 
 You can start by choosing a better platform that Medium to create your content, the origin that will serve all edge platforms you want to have for their greater reach.
 
-Such a platform can be Github with [Github Pages](https://pages.github.com/), where your content will more be yours than on Medium. You can also use the hosted [Wordpress.com](https://en.wordpress.com/). Or whatever where you will be confident enough you won't lose your content, and ownership of it.
+Such a platform can be GitHub with [GitHub Pages](https://pages.github.com/), where your content will more be yours than on Medium. You can also use the hosted [Wordpress.com](https://en.wordpress.com/). Or whatever where you will be confident enough you won't lose your content, and ownership of it.
 
 But **first, chose your own domain name**, and use it for your canonical URLs. If you want later to change the platform, you can change where your domain points to, and your canonical URLs will be safe.
 
-It's free on Github, and only costs 4€ a month on Wordpress.com.
+It's free on GitHub, and only costs 4€ a month on Wordpress.com.
 
 It is one of the first items in [the IndieMark set of metrics](https://indieweb.org/IndieMark) for "measuring the indieweb-ness of a site, and a step-by-step approach to incrementally adopting indieweb features on your site".
 

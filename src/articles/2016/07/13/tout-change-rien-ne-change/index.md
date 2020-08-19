@@ -118,7 +118,7 @@ Mais cela ne me suffit pas, je travaille sur un plugin qui permettrait de profit
 
 ## Le plugin Jekyll Algolia pour indexer les contenus
 
-J'utilisais jusqu'à présent un `Rakefile` bidouillé à partir d'un autre trouvé sur Github pour indexer mes contenus en appelant l'API Algolia.
+J'utilisais jusqu'à présent un `Rakefile` bidouillé à partir d'un autre trouvé sur GitHub pour indexer mes contenus en appelant l'API Algolia.
 
 J'utilise maintenant [le plugin officiel](https://github.com/algolia/algoliasearch-jekyll), ce qui est bien plus pratique, et devrait permettre de meilleurs résultats.
 
