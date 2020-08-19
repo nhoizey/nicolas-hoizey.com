@@ -46,7 +46,7 @@
     "@sindresorhus/slugify": "~1.1",
     "atomic-algolia": "~0.3.19",
     "babel-loader": "^8.1.0",
-    "bent": "^7.3.9",
+    "bent": "^7.3.10",
     "cheerio": "~1.0.0-rc.3",
     "cross-env": "^7.0.2",
     "dotenv": "^8.2.0",
