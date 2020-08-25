@@ -5,5 +5,7 @@ permalink: "{{ page.filePathStem }}.html"
 
 <article class="main" lang="{{ lang }}">
   <h1>{{ title }}</h1>
-  {{ content | safe }}
+  <div class="e-content">
+    {{ content | safe }}
+  </div>
 </article>
