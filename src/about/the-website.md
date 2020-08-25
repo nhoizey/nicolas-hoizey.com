@@ -26,9 +26,9 @@ In order to migrate the hundreds of contents written since 2001 in specific [SPI
 
 [An increasing number of plugins](https://www.11ty.dev/docs/plugins/) exist in the Eleventy ecosystem to enrich the base solution.
 
-The images benefit from my [`eleventy-plugin-images-responsiver` plugin](https://nhoizey.github.io/eleventy-plugin-images-responsiver/) to use the SaaS [Cloudinary] service (https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/sgyyc0j14k6p0sbt51nw) in order to generate the different versions necessary for Responsive Web Design, while optimizing performance.
 
 The [Webmentions](https://www.w3.org/TR/webmention/), finally, are collected by the [Bridgy](https://brid.gy/) and [webmention.io](https://webmention.io/) services.
+The images benefit from my [`eleventy-plugin-images-responsiver` plugin](https://nhoizey.github.io/eleventy-plugin-images-responsiver/) to use the SaaS [Cloudinary](https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/sgyyc0j14k6p0sbt51nw) service in order to generate the different versions necessary for Responsive Web Design, while optimizing performance.
 
 # The webperf
 
