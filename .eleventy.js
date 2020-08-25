@@ -167,7 +167,7 @@ module.exports = function (eleventyConfig) {
     .use(markdownItAttributes)
     .use(markdownItSpan)
     .use(markdownItAbbr)
-    .use(markdownItContainer, 'info');
+    .use(markdownItContainer, 'note');
   eleventyConfig.setLibrary('md', md);
 
   // Add markdownify filter with Markdown-it configuration

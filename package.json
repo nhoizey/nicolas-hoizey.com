@@ -67,7 +67,7 @@
     "markdown-it-anchor": "~5.3",
     "markdown-it-attrs": "^3.0.3",
     "markdown-it-bracketed-spans": "^1.0.1",
-    "markdown-it-container": "~3.0",
+    "markdown-it-container": "~3.0.0",
     "markdown-it-footnote": "~3.0.2",
     "moment": "~2.27.0",
     "netlify-build-plugin-dareboost": "^1.2.1",

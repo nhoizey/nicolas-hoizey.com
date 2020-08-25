@@ -1,0 +1,24 @@
+.note {
+  clear: both;
+  padding: 0.4em 0.6em;
+
+  border: 2px solid #d6c6e9;
+  border-radius: 0.5em;
+
+  color: #3c3d76;
+  background-color: #dfd8f0;
+
+  a:link,
+  a:visited {
+    color: #2b2c54;
+  }
+}
+
+.note.note {
+  a:hover,
+  a:active {
+    color: #fff;
+    background-color: $link-decoration-color;
+    text-decoration: none;
+  }
+}
