@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-08-23T21:42:41.945Z",
+  "lastFetched": "2020-08-24T16:48:07.443Z",
   "webmentions": [
     {
       "type": "entry",
@@ -58638,6 +58638,24 @@
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1295705162326171648/3165967183",
       "wm-target": "https://nicolas-hoizey.com/notes/2020/08/18/1/",
       "like-of": "https://nicolas-hoizey.com/notes/2020/08/18/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "edgemesh",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0dc7d529c0213c4885b8f105ddecd02e1d7272b1bd0086cbe1b10342f1b7edfb.jpg",
+        "url": "https://twitter.com/edgemeshinc"
+      },
+      "url": "https://twitter.com/nhoizey/status/1297909642006331393#favorited-by-760891744678543361",
+      "published": null,
+      "wm-received": "2020-08-24T15:26:48Z",
+      "wm-id": 843351,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1297909642006331393/760891744678543361",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/08/14/performance-vs-functionality-making-the-right-site-speed-tradeoffs/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/08/14/performance-vs-functionality-making-the-right-site-speed-tradeoffs/",
       "wm-property": "like-of",
       "wm-private": false
     }
