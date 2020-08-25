@@ -26,8 +26,6 @@ In order to migrate the hundreds of contents written since 2001 in specific [SPI
 
 [An increasing number of plugins](https://www.11ty.dev/docs/plugins/) exist in the Eleventy ecosystem to enrich the base solution.
 
-
-The [Webmentions](https://www.w3.org/TR/webmention/), finally, are collected by the [Bridgy](https://brid.gy/) and [webmention.io](https://webmention.io/) services.
 The images benefit from my [`eleventy-plugin-images-responsiver` plugin](https://nhoizey.github.io/eleventy-plugin-images-responsiver/) to use the SaaS [Cloudinary](https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/sgyyc0j14k6p0sbt51nw) service in order to generate the different versions necessary for Responsive Web Design, while optimizing performance.
 
 # The webperf
@@ -54,7 +52,7 @@ Switching to static made me lose the comments I had natively in SPIP, so I decid
 
 I had also started to implement Webmention fairly quickly to explore a new standard inter-blog dialog technique.
 
-I ended up [abandoning Disqus in favor of Webmention](/articles/2017/07/27/so-long-disqus-hello-webmentions/).
+I ended up [abandoning Disqus in favor of Webmention](/articles/2017/07/27/so-long-disqus-hello-webmentions/), thanks to the great [Bridgy](https://brid.gy/) and [webmention.io](https://webmention.io/) services.
 
 # Search
 
