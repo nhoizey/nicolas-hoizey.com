@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-08-24T16:48:07.443Z",
+  "lastFetched": "2020-08-25T13:28:01.845Z",
   "webmentions": [
     {
       "type": "entry",
@@ -58654,6 +58654,42 @@
       "wm-received": "2020-08-24T15:26:48Z",
       "wm-id": 843351,
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1297909642006331393/760891744678543361",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/08/14/performance-vs-functionality-making-the-right-site-speed-tradeoffs/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/08/14/performance-vs-functionality-making-the-right-site-speed-tradeoffs/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "José M. Pérez",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e7c49784abf587ffbc5b5a04526ea0b25ec5b201ff61aa5175ac69e552cef3a9.jpg",
+        "url": "https://twitter.com/jmperezperez"
+      },
+      "url": "https://twitter.com/nhoizey/status/1297909642006331393#favorited-by-94344849",
+      "published": null,
+      "wm-received": "2020-08-25T08:29:38Z",
+      "wm-id": 843699,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1297909642006331393/94344849",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/08/14/performance-vs-functionality-making-the-right-site-speed-tradeoffs/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/08/14/performance-vs-functionality-making-the-right-site-speed-tradeoffs/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Bruno CHIREZ",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/681c4b5ae294013d922c4df728eceede32542747ce585431e9ece3ae1822379f.jpg",
+        "url": "https://twitter.com/sn4rky"
+      },
+      "url": "https://twitter.com/nhoizey/status/1297909642006331393#favorited-by-9586032",
+      "published": null,
+      "wm-received": "2020-08-25T10:33:37Z",
+      "wm-id": 843718,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1297909642006331393/9586032",
       "wm-target": "https://nicolas-hoizey.com/links/2020/08/14/performance-vs-functionality-making-the-right-site-speed-tradeoffs/",
       "like-of": "https://nicolas-hoizey.com/links/2020/08/14/performance-vs-functionality-making-the-right-site-speed-tradeoffs/",
       "wm-property": "like-of",
