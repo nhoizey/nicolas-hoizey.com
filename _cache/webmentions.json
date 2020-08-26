@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-08-26T15:20:20.338Z",
+  "lastFetched": "2020-08-26T19:30:01.892Z",
   "webmentions": [
     {
       "type": "entry",
@@ -58856,6 +58856,159 @@
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1298610618187100160/16544408",
       "wm-target": "https://nicolas-hoizey.com/links/2020/08/26/why-you-should-be-testing-your-404-pages-web-performance/",
       "like-of": "https://nicolas-hoizey.com/links/2020/08/26/why-you-should-be-testing-your-404-pages-web-performance/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tanner Dolby",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0b9b6080c2486ab209b39facadec189a081288baa997cdb77bda07ddd9dafa21.jpg",
+        "url": "https://twitter.com/tannerdolby"
+      },
+      "url": "https://twitter.com/nhoizey/status/1298654779514724355#favorited-by-1259622945955016705",
+      "published": null,
+      "wm-received": "2020-08-26T17:12:58Z",
+      "wm-id": 844284,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1298654779514724355/1259622945955016705",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/08/26/is-the-phone-gap-closed-in-2020-/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/08/26/is-the-phone-gap-closed-in-2020-/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Maximiliano Firtman",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c99d1835e8e2efa124ee60237c4364507dd12445febac52920dadbb341c6d8d4.jpg",
+        "url": "https://twitter.com/firt"
+      },
+      "url": "https://twitter.com/nhoizey/status/1298654779514724355#favorited-by-17509972",
+      "published": null,
+      "wm-received": "2020-08-26T17:12:58Z",
+      "wm-id": 844283,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1298654779514724355/17509972",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/08/26/is-the-phone-gap-closed-in-2020-/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/08/26/is-the-phone-gap-closed-in-2020-/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Boris Schapira 🚀",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/5ee9406245c84f10b637d5bfa201100dcc4a4c64dc9cd10d1729dad8730ac358.jpg",
+        "url": "https://twitter.com/boostmarks"
+      },
+      "url": "https://twitter.com/boostmarks/status/1298674882549612546",
+      "published": "2020-08-26T17:33:14+00:00",
+      "wm-received": "2020-08-26T18:08:05Z",
+      "wm-id": 844306,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1298673893369151488/1298674882549612546",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "video": [
+        "https://video.twimg.com/tweet_video/EgXR6YpXoAAPdGM.mp4"
+      ],
+      "content": {
+        "content-type": "text/html",
+        "value": "Fight!\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "Fight!",
+        "text": "Fight!"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Boris Schapira 🚀",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/5ee9406245c84f10b637d5bfa201100dcc4a4c64dc9cd10d1729dad8730ac358.jpg",
+        "url": "https://twitter.com/boostmarks"
+      },
+      "url": "https://twitter.com/boostmarks/status/1298675140058910722",
+      "published": "2020-08-26T17:34:16+00:00",
+      "wm-received": "2020-08-26T18:07:44Z",
+      "wm-id": 844303,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1298673893369151488/1298675140058910722",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "content": {
+        "content-type": "text/html",
+        "value": ".<a href=\"https://twitter.com/HTTPArchive\">@HTTPArchive</a> Web Almanac 2021 will be so interesting!\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": ".<a href=\"https://twitter.com/HTTPArchive\">@HTTPArchive</a> Web Almanac 2021 will be so interesting!",
+        "text": ".@HTTPArchive Web Almanac 2021 will be so interesting!"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1298677149365395456",
+      "published": "2020-08-26T17:42:15+00:00",
+      "wm-received": "2020-08-26T18:08:07Z",
+      "wm-id": 844307,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1298673893369151488/1298677149365395456",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "content": {
+        "content-type": "text/html",
+        "value": "😅\n<a class=\"u-mention\" href=\"https://twitter.com/boostmarks\"></a>",
+        "html": "😅",
+        "text": "😅"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1298677170022252544",
+      "published": "2020-08-26T17:42:20+00:00",
+      "wm-received": "2020-08-26T18:07:44Z",
+      "wm-id": 844304,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1298673893369151488/1298677170022252544",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Indeed!\n<a class=\"u-mention\" href=\"https://twitter.com/HTTPArchive\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/boostmarks\"></a>",
+        "html": "Indeed!",
+        "text": "Indeed!"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matyo",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f5eca6264babb2d92ad3e9a8e8338e448dbddd6961b30e4cc41d32d07a489143.jpg",
+        "url": "https://twitter.com/matyo91"
+      },
+      "url": "https://twitter.com/nhoizey/status/1298654779514724355#favorited-by-98738084",
+      "published": null,
+      "wm-received": "2020-08-26T18:07:46Z",
+      "wm-id": 844305,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1298654779514724355/98738084",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/08/26/is-the-phone-gap-closed-in-2020-/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/08/26/is-the-phone-gap-closed-in-2020-/",
       "wm-property": "like-of",
       "wm-private": false
     }
