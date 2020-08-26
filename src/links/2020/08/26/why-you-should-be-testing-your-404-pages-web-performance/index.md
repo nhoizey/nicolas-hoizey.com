@@ -20,5 +20,5 @@ I would add[^remind] that looking at 404 errors in your own HTTP server logs (or
 
 Some of these patterns are not listed in Matt's article because these are not resources actually linked from pages, "visible" by HTTP Archive's crawler.
 
-They can be malicious attempts to hack your site (`/wp-login.php` for Wodpress for example), files automatically requested by browsers not used by HTTP Archive's crawler (`apple-touch-icon.png` requested only by Safari on iOS for example), etc.
+They can be malicious attempts to hack your site (`/wp-login.php` for WordPress for example), files automatically requested by browsers not used by HTTP Archive's crawler (`apple-touch-icon.png` requested only by Safari on iOS for example), etc.
 
