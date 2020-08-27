@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-08-27T12:49:47.257Z",
+  "lastFetched": "2020-08-27T15:19:34.878Z",
   "webmentions": [
     {
       "type": "entry",
@@ -59130,6 +59130,96 @@
       },
       "in-reply-to": "https://nicolas-hoizey.com/notes/2020/08/27/1/",
       "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1298955060823683075",
+      "published": "2020-08-27T12:06:34+00:00",
+      "wm-received": "2020-08-27T13:09:19Z",
+      "wm-id": 844481,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1298759834343485440/1298955060823683075",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/08/27/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "I failed… 😥\n\nLooks like the screen is dead.\n\nI can either buy one (~ 70 €) and change it myself (hopping not to break it), ask someone else to change it (~90 €) or buy a full refurbished identical model (~ 150 €)…\n<a class=\"u-mention\" href=\"https://twitter.com/davrous\"></a>",
+        "html": "I failed… 😥<br /><br />Looks like the screen is dead.<br /><br />I can either buy one (~ 70 €) and change it myself (hopping not to break it), ask someone else to change it (~90 €) or buy a full refurbished identical model (~ 150 €)…",
+        "text": "I failed… 😥\n\nLooks like the screen is dead.\n\nI can either buy one (~ 70 €) and change it myself (hopping not to break it), ask someone else to change it (~90 €) or buy a full refurbished identical model (~ 150 €)…"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/08/27/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Yohann Streibel",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e63982af62ebc74bd86d3267075b8f29ea18e080ca68ab49aa18819c73c2b7a1.jpg",
+        "url": "https://twitter.com/YStreibel"
+      },
+      "url": "https://twitter.com/YStreibel/status/1298975673290092550",
+      "published": "2020-08-27T13:28:28+00:00",
+      "wm-received": "2020-08-27T15:02:08Z",
+      "wm-id": 844524,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1298759834343485440/1298975673290092550",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/08/27/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "A tout hasard, si ca peut aider <a href=\"https://www.youtube.com/c/JaiPhone/videos\">youtube.com/c/JaiPhone/vid…</a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/ramdom_dev\"></a>",
+        "html": "A tout hasard, si ca peut aider <a href=\"https://www.youtube.com/c/JaiPhone/videos\">youtube.com/c/JaiPhone/vid…</a>",
+        "text": "A tout hasard, si ca peut aider youtube.com/c/JaiPhone/vid…"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/08/27/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1298983012227354628",
+      "published": "2020-08-27T13:57:38+00:00",
+      "wm-received": "2020-08-27T15:01:33Z",
+      "wm-id": 844523,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1298759834343485440/1298983012227354628",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/08/27/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Ah oui, j'ai un peu fait ça cette nuit…. 😅\n\n<a href=\"https://www.youtube.com/watch?v=w0ganzJBolc\">youtube.com/watch?v=w0ganz…</a>\n\n<a class=\"u-mention\" href=\"https://twitter.com/YStreibel\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/ramdom_dev\"></a>",
+        "html": "Ah oui, j'ai un peu fait ça cette nuit…. 😅<br /><br /><a href=\"https://www.youtube.com/watch?v=w0ganzJBolc\">youtube.com/watch?v=w0ganz…</a>",
+        "text": "Ah oui, j'ai un peu fait ça cette nuit…. 😅\n\nyoutube.com/watch?v=w0ganz…"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/08/27/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Louis-Olivier Brassard",
+        "photo": "https://webmention.io/avatar/mamot.fr/7b633f2517cfb36c598b170ec1b347960536fe4e1b835528eff0540c17f94116.jpg",
+        "url": "https://mamot.fr/@loupbrun"
+      },
+      "url": "https://mamot.fr/@nhoizey/104761724362888794#favorited-by-170604",
+      "published": null,
+      "wm-received": "2020-08-27T14:46:26Z",
+      "wm-id": 844518,
+      "wm-source": "https://brid-gy.appspot.com/like/mastodon/@nhoizey@mamot.fr/104761724362888794/170604",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/08/27/autonomy-online-a-case-for-the-indieweb/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/08/27/autonomy-online-a-case-for-the-indieweb/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
