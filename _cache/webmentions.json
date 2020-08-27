@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-08-26T19:30:01.892Z",
+  "lastFetched": "2020-08-27T06:55:04.105Z",
   "webmentions": [
     {
       "type": "entry",
@@ -59009,6 +59009,24 @@
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1298654779514724355/98738084",
       "wm-target": "https://nicolas-hoizey.com/links/2020/08/26/is-the-phone-gap-closed-in-2020-/",
       "like-of": "https://nicolas-hoizey.com/links/2020/08/26/is-the-phone-gap-closed-in-2020-/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mickaël Isaert",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/9598c3443e09f0cd8ef24c892367db18d3bfad493d823e9aeee60cf0ff9d0185.jpg",
+        "url": "https://twitter.com/misaert59"
+      },
+      "url": "https://twitter.com/nhoizey/status/1298614465076887553#favorited-by-1216373595687006209",
+      "published": null,
+      "wm-received": "2020-08-26T21:37:46Z",
+      "wm-id": 844338,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1298614465076887553/1216373595687006209",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/08/26/why-you-should-be-testing-your-404-pages-web-performance/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/08/26/why-you-should-be-testing-your-404-pages-web-performance/",
       "wm-property": "like-of",
       "wm-private": false
     }
