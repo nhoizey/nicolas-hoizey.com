@@ -7,7 +7,7 @@ module.exports = {
   slugify: (string) => slugifyString(string),
   jsonify: (object) => JSON.stringify(object),
   tagToHashtag: (tag) => {
-    let words = tag.replace(/-/, ' ').split(' ');
+    let words = tag.replace(/[-\.]/, ' ').split(' ');
     return (
       words[0] +
       words
