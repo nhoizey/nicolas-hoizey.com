@@ -1,7 +1,7 @@
 ---
 title: "Updating npm packages versions in package.json"
 lang:  en
-tags:  [npm]
+tags:  [Node.js, npm]
 ---
 
 I chose to use [`npm-check-updates`](https://github.com/tjunnone/npm-check-updates) to check for available updates of packages in my `package.json` files, and it always works without issues, so I guess I can recommend it.
