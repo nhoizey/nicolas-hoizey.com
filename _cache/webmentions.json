@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-08-27T15:19:34.878Z",
+  "lastFetched": "2020-08-27T23:06:40.363Z",
   "webmentions": [
     {
       "type": "entry",
@@ -59219,6 +59219,68 @@
       "wm-source": "https://brid-gy.appspot.com/like/mastodon/@nhoizey@mamot.fr/104761724362888794/170604",
       "wm-target": "https://nicolas-hoizey.com/links/2020/08/27/autonomy-online-a-case-for-the-indieweb/",
       "like-of": "https://nicolas-hoizey.com/links/2020/08/27/autonomy-online-a-case-for-the-indieweb/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mobile Development",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f48c20db79cd229b4b98fa23a02fd85d51ff990ba83329927f261e0098fde412.jpg",
+        "url": "https://twitter.com/develop_mobile"
+      },
+      "url": "https://twitter.com/develop_mobile/status/1299034947198390274",
+      "published": "2020-08-27T17:24:00+00:00",
+      "wm-received": "2020-08-27T18:38:16Z",
+      "wm-id": 844729,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1298654779514724355/1299034947198390274",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/08/26/is-the-phone-gap-closed-in-2020-/",
+      "photo": [
+        "https://pbs.twimg.com/media/EgW_o8uWsAAEgZE.jpg"
+      ],
+      "content": {
+        "content-type": "text/plain",
+        "value": "🔗 “Is the Phone Gap closed in 2020?”\nby @firt\n\n#PhoneGap #PWA #TWA \n\nnho.io/l/2020/08/26/i…",
+        "text": "🔗 “Is the Phone Gap closed in 2020?”\nby @firt\n\n#PhoneGap #PWA #TWA \n\nnho.io/l/2020/08/26/i…"
+      },
+      "repost-of": "https://nicolas-hoizey.com/links/2020/08/26/is-the-phone-gap-closed-in-2020-/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Eric Portis",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/558b4c45b7bd5a1107c170e4bb77e2f8cd7f59bf7eda42756b5a7b93c24753a2.png",
+        "url": "https://twitter.com/etportis"
+      },
+      "url": "https://twitter.com/nhoizey/status/1298673893369151488#favorited-by-528720846",
+      "published": null,
+      "wm-received": "2020-08-27T19:42:20Z",
+      "wm-id": 844759,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1298673893369151488/528720846",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/05/27/how-jpeg-xl-compares-to-other-image-codecs/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "David Rousset",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/76295d7825d4a1959ff2f0b12a1bb64ac959bfcd655d0db8e77c40518a397258.jpg",
+        "url": "https://twitter.com/davrous"
+      },
+      "url": "https://twitter.com/nhoizey/status/1298759834343485440#favorited-by-17537168",
+      "published": null,
+      "wm-received": "2020-08-27T19:42:20Z",
+      "wm-id": 844758,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1298759834343485440/17537168",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/08/27/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/08/27/1/",
       "wm-property": "like-of",
       "wm-private": false
     }
