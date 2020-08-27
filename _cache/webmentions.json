@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-08-27T06:55:04.105Z",
+  "lastFetched": "2020-08-27T12:49:47.257Z",
   "webmentions": [
     {
       "type": "entry",
@@ -59028,6 +59028,108 @@
       "wm-target": "https://nicolas-hoizey.com/links/2020/08/26/why-you-should-be-testing-your-404-pages-web-performance/",
       "like-of": "https://nicolas-hoizey.com/links/2020/08/26/why-you-should-be-testing-your-404-pages-web-performance/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "A random dev 🏝️",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/93106f36ed691c7e1e4a669370134f265da88866984eba3aa63a245f69885c05.png",
+        "url": "https://twitter.com/ramdom_dev"
+      },
+      "url": "https://twitter.com/ramdom_dev/status/1298894423095468032",
+      "published": "2020-08-27T08:05:37+00:00",
+      "wm-received": "2020-08-27T08:43:11Z",
+      "wm-id": 844401,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1298759834343485440/1298894423095468032",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/08/27/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Verdict ? 😅 Pas évident a réparer ces machines\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "Verdict ? 😅 Pas évident a réparer ces machines",
+        "text": "Verdict ? 😅 Pas évident a réparer ces machines"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/08/27/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Christophe",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/2a92ee95791f08f367fbbdb703bd233b4010f89212e57992c493a341efd647dc.jpg",
+        "url": "https://twitter.com/cvergne"
+      },
+      "url": "https://twitter.com/nhoizey/status/1298879461971156992#favorited-by-67565749",
+      "published": null,
+      "wm-received": "2020-08-27T08:43:08Z",
+      "wm-id": 844399,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1298879461971156992/67565749",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/08/27/2/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/08/27/2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matyo",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f5eca6264babb2d92ad3e9a8e8338e448dbddd6961b30e4cc41d32d07a489143.jpg",
+        "url": "https://twitter.com/matyo91"
+      },
+      "url": "https://twitter.com/nhoizey/status/1298879461971156992#favorited-by-98738084",
+      "published": null,
+      "wm-received": "2020-08-27T08:43:09Z",
+      "wm-id": 844400,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1298879461971156992/98738084",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/08/27/2/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/08/27/2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Barry Pollard",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/fcbe96adacdd609913d19adbe899bab65bd08bcae8c6aec5267a715a007ec96e.jpg",
+        "url": "https://twitter.com/tunetheweb"
+      },
+      "url": "https://twitter.com/nhoizey/status/1298610618187100160#favorited-by-3374717733",
+      "published": null,
+      "wm-received": "2020-08-27T09:52:52Z",
+      "wm-id": 844412,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1298610618187100160/3374717733",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/08/26/why-you-should-be-testing-your-404-pages-web-performance/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/08/26/why-you-should-be-testing-your-404-pages-web-performance/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1298924249219059712",
+      "published": "2020-08-27T10:04:08+00:00",
+      "wm-received": "2020-08-27T10:59:08Z",
+      "wm-id": 844423,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1298759834343485440/1298924249219059712",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/08/27/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Pas trop compliqué à ouvrir, mais tout est tellement petit à l'intérieur, et je ne suis pas électronicien, donc difficile de savoir quoi faire malgré les tutos.\n\nEn tout cas, écran toujours noir, même si le téléphone fonctionne bien, vu par l'ordi. 😥\n<a class=\"u-mention\" href=\"https://twitter.com/ramdom_dev\"></a>",
+        "html": "Pas trop compliqué à ouvrir, mais tout est tellement petit à l'intérieur, et je ne suis pas électronicien, donc difficile de savoir quoi faire malgré les tutos.<br /><br />En tout cas, écran toujours noir, même si le téléphone fonctionne bien, vu par l'ordi. 😥",
+        "text": "Pas trop compliqué à ouvrir, mais tout est tellement petit à l'intérieur, et je ne suis pas électronicien, donc difficile de savoir quoi faire malgré les tutos.\n\nEn tout cas, écran toujours noir, même si le téléphone fonctionne bien, vu par l'ordi. 😥"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/08/27/1/",
+      "wm-property": "in-reply-to",
       "wm-private": false
     }
   ]
