@@ -1,11 +1,16 @@
 ---
-title: "Technical credit"
 date: 2018-05-15 12:00:00 +02:00
+title: "Technical credit"
 lang: en
+link: https://www.stillbreathing.co.uk/2016/10/13/technical-credit
+authors:
+  - name: "Chris Taylor"
+    twitter: "mrwiblog"
+    site: "https://www.stillbreathing.co.uk/"
 tags: [progressive enhancement]
 ---
 
-Awesome (old) post by [Chris Taylor](https://www.stillbreathing.co.uk/about) about progressive enhancement, seen as [Technical Credit](https://www.stillbreathing.co.uk/2016/10/13/technical-credit):
+Awesome post about progressive enhancement:
 
 > With such a wide array of both expected and unexpected properties of the current technological revolution, building our systems in such a way to both be resilient to potential failures and benefit from unanticipated events surely is a no-brainer.
 
