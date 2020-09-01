@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-08-31T14:21:47.439Z",
+  "lastFetched": "2020-08-31T22:46:41.378Z",
   "webmentions": [
     {
       "type": "entry",
@@ -59322,6 +59322,42 @@
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1298984221600444417/434457570",
       "wm-target": "https://nicolas-hoizey.com/links/2020/08/27/autonomy-online-a-case-for-the-indieweb/",
       "like-of": "https://nicolas-hoizey.com/links/2020/08/27/autonomy-online-a-case-for-the-indieweb/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Khalid",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/2047e22187dd63a01dca10c94929d7ea3618a0b29817832c4d2ba552bb7aa6f6.jpg",
+        "url": "https://twitter.com/buhakmeh"
+      },
+      "url": "https://twitter.com/nhoizey/status/1300441419560243204#favorited-by-72354175",
+      "published": null,
+      "wm-received": "2020-08-31T14:50:14Z",
+      "wm-id": 845891,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1300441419560243204/72354175",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/08/31/rfc8890-the-internet-is-for-end-users/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/08/31/rfc8890-the-internet-is-for-end-users/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tanner Dolby",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0b9b6080c2486ab209b39facadec189a081288baa997cdb77bda07ddd9dafa21.jpg",
+        "url": "https://twitter.com/tannerdolby"
+      },
+      "url": "https://twitter.com/nhoizey/status/1300441419560243204#favorited-by-1259622945955016705",
+      "published": null,
+      "wm-received": "2020-08-31T19:31:35Z",
+      "wm-id": 845975,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1300441419560243204/1259622945955016705",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/08/31/rfc8890-the-internet-is-for-end-users/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/08/31/rfc8890-the-internet-is-for-end-users/",
       "wm-property": "like-of",
       "wm-private": false
     }
