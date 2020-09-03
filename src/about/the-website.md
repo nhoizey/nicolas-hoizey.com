@@ -54,7 +54,7 @@ I had also started to implement Webmention fairly quickly to explore a new stand
 
 I ended up [abandoning Disqus in favor of Webmention](/articles/2017/07/27/so-long-disqus-hello-webmentions/), thanks to the great [Bridgy](https://brid.gy/) and [webmention.io](https://webmention.io/) services.
 
-# Search
+# Search with Algolia
 
 Setting up an internal search engine on a static site is no simpler than for comments. It is necessary to make dynamics, find elements meeting the search criteria and list them.
 
