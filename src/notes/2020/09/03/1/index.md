@@ -7,4 +7,4 @@ I wonder if I should use a Git monorepo for both [images-responsiver](https://gi
 
 It might be better to manage dependencies, sync npm releases, and make it easier for users to find/add issues.
 
-Any recommendation welcome on [this issue](https://github.com/nhoizey/eleventy-plugin-images-responsiver/issues/52). 🙏
+Ideas welcome in [this issue](https://github.com/nhoizey/eleventy-plugin-images-responsiver/issues/52). 🙏
