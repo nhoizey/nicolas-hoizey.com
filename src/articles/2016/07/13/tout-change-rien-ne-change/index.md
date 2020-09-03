@@ -67,7 +67,7 @@ Le support de la syntaxe courante basée sur un dossier global permet aussi d'in
 
 ## Un nouveau plugin pour gérer les images responsives avec Cloudinary
 
-Le plugin Jekyll Picture Tag, même dans sa version d'origine, avait été mon choix à l'époque faute de mieux, [`<picture>` n'étant en général pas la bonne solution](https://cloudfour.com/thinks/dont-use-picture-most-of-the-time/){: hreflang="en"}.
+Le plugin Jekyll Picture Tag, même dans sa version d'origine, avait été mon choix à l'époque faute de mieux, [`<picture>` n'étant en général pas la bonne solution](https://cloudfour.com/thinks/dont-use-picture-most-of-the-time/){hreflang="en"}.
 
 Il existe maintenant un plugin [Jekyll Responsive Image](https://github.com/wildlyinaccurate/jekyll-responsive-image) qui permet d'utiliser la syntaxe `srcset-w`/`sizes` en général plus appropriée, avec même son propre template.
 

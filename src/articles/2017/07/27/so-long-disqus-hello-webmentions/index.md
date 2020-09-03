@@ -11,7 +11,7 @@ Enough. I'm fed up with Disqus. It's been useful, easy to plug on this blog, but
 
 # So long Disqus
 
-When I launched this Jekyll based site a while ago, I didn't put any comment system, because I didn't like any of [the options available at the moment](https://nicolas-hoizey.com/2013/09/gerer-des-commentaires-sur-un-blog-statique.html){: hreflang="fr"}.
+When I launched this Jekyll based site a while ago, I didn't put any comment system, because I didn't like any of [the options available at the moment](https://nicolas-hoizey.com/2013/09/gerer-des-commentaires-sur-un-blog-statique.html){hreflang="fr"}.
 
 Later, I was missing the interaction I had on my previous dynamic blog powered by [SPIP](https://www.spip.net/en_rubrique25.html), so I jumped in the Disqus train, because it was the most used around me, and on the sites I visited.
 
@@ -57,7 +57,7 @@ Of course, removing Disqus could have meant losing the comments made so far. But
 
 So, I used [Pat Hawks](https://twitter.com/pathawks)'s [jekyll-disqus-comments](https://github.com/pathawks/jekyll-disqus-comments) plugin to get a copy of all comments into [YAML data files](https://github.com/nhoizey/nicolas-hoizey.com/tree/master/_comments).
 
-I had to clean them a lot, mostly manually, because they were an HTML mess. Maybe not only because of Disqus, but also because they had already been [migrated from SPIP](/about/the-website.html#avec-jekyll-le-statique-cest-fantastique){: hreflang="fr"} before.
+I had to clean them a lot, mostly manually, because they were an HTML mess. Maybe not only because of Disqus, but also because they had already been [migrated from SPIP](/about/the-website.html#with-eleventy-static-is-fantastic) before.
 
 The comments are shown below posts has before[^comments], but they are now static, using [a Jekyll template](https://github.com/nhoizey/nicolas-hoizey.com/blob/master/_includes/comments.html), without Disqus being involved anymore.
 
