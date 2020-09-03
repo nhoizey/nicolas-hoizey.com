@@ -45,7 +45,7 @@ Disqus being a third party service, we don't know what our comments become and h
 
 I can of course export all comments to keep my own local copy, but it's not as convenient as a true local storage.
 
-Some people also [don't like being forced to create an account on Disqus to be able to comment](https://twitter.com/ChapitreOnze/status/890507297780367360){: hreflang="fr"}.
+Some people also [don't like being forced to create an account on Disqus to be able to comment](https://twitter.com/ChapitreOnze/status/890507297780367360){hreflang="fr"}.
 
 If you use Disqus on your blog, please activate the "Allow guests to comment" option in the settings!
 
