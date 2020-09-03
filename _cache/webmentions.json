@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-09-03T13:45:18.346Z",
+  "lastFetched": "2020-09-03T19:36:37.599Z",
   "webmentions": [
     {
       "type": "entry",
@@ -59636,6 +59636,24 @@
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1300727418693603328/49285959",
       "wm-target": "https://nicolas-hoizey.com/links/2020/09/01/don-t-design-for-mobile/",
       "like-of": "https://nicolas-hoizey.com/links/2020/09/01/don-t-design-for-mobile/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jimmy Marks",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/daccedeeb8b6e36cbac30c2768b07dbc1e28b195b57e3601b77fd0b084932068.jpg",
+        "url": "https://twitter.com/jimmymarks"
+      },
+      "url": "https://twitter.com/nhoizey/status/1301539747878375424#favorited-by-16244690",
+      "published": null,
+      "wm-received": "2020-09-03T16:38:03Z",
+      "wm-id": 846950,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1301539747878375424/16244690",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/09/03/are-your-country-s-cellphone-plans-a-rip-off-/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/09/03/are-your-country-s-cellphone-plans-a-rip-off-/",
       "wm-property": "like-of",
       "wm-private": false
     }
