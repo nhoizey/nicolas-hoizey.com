@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-09-03T19:36:37.599Z",
+  "lastFetched": "2020-09-04T15:34:50.147Z",
   "webmentions": [
     {
       "type": "entry",
@@ -59652,6 +59652,60 @@
       "wm-received": "2020-09-03T16:38:03Z",
       "wm-id": 846950,
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1301539747878375424/16244690",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/09/03/are-your-country-s-cellphone-plans-a-rip-off-/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/09/03/are-your-country-s-cellphone-plans-a-rip-off-/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tanner Dolby",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0b9b6080c2486ab209b39facadec189a081288baa997cdb77bda07ddd9dafa21.jpg",
+        "url": "https://twitter.com/tannerdolby"
+      },
+      "url": "https://twitter.com/nhoizey/status/1301612465403375616#favorited-by-1259622945955016705",
+      "published": null,
+      "wm-received": "2020-09-03T20:54:50Z",
+      "wm-id": 847021,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1301612465403375616/1259622945955016705",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/09/03/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/09/03/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matyo",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f5eca6264babb2d92ad3e9a8e8338e448dbddd6961b30e4cc41d32d07a489143.jpg",
+        "url": "https://twitter.com/matyo91"
+      },
+      "url": "https://twitter.com/nhoizey/status/1301612465403375616#favorited-by-98738084",
+      "published": null,
+      "wm-received": "2020-09-03T20:54:51Z",
+      "wm-id": 847022,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1301612465403375616/98738084",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/09/03/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/09/03/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tanner Dolby",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0b9b6080c2486ab209b39facadec189a081288baa997cdb77bda07ddd9dafa21.jpg",
+        "url": "https://twitter.com/tannerdolby"
+      },
+      "url": "https://twitter.com/nhoizey/status/1301539747878375424#favorited-by-1259622945955016705",
+      "published": null,
+      "wm-received": "2020-09-03T23:56:33Z",
+      "wm-id": 847065,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1301539747878375424/1259622945955016705",
       "wm-target": "https://nicolas-hoizey.com/links/2020/09/03/are-your-country-s-cellphone-plans-a-rip-off-/",
       "like-of": "https://nicolas-hoizey.com/links/2020/09/03/are-your-country-s-cellphone-plans-a-rip-off-/",
       "wm-property": "like-of",
