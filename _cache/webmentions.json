@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-09-04T15:34:50.147Z",
+  "lastFetched": "2020-09-09T09:03:34.861Z",
   "webmentions": [
     {
       "type": "entry",
@@ -59709,6 +59709,405 @@
       "wm-target": "https://nicolas-hoizey.com/links/2020/09/03/are-your-country-s-cellphone-plans-a-rip-off-/",
       "like-of": "https://nicolas-hoizey.com/links/2020/09/03/are-your-country-s-cellphone-plans-a-rip-off-/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matyo",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f5eca6264babb2d92ad3e9a8e8338e448dbddd6961b30e4cc41d32d07a489143.jpg",
+        "url": "https://twitter.com/matyo91"
+      },
+      "url": "https://twitter.com/nhoizey/status/1302891286534512640#favorited-by-98738084",
+      "published": null,
+      "wm-received": "2020-09-07T09:54:03Z",
+      "wm-id": 849003,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1302891286534512640/98738084",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Katherine Maher",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/4a1ea51dd4889819f861c67b0b14cb723314de84aa792d0b3a824041ffe2c6a7.jpg",
+        "url": "https://twitter.com/krmaher"
+      },
+      "url": "https://twitter.com/krmaher/status/1303009575419949058",
+      "published": "2020-09-07T16:37:46+00:00",
+      "wm-received": "2020-09-07T17:08:14Z",
+      "wm-id": 849082,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1302891286534512640/1303009575419949058",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Hi Nicolas, thank you for your donation! It’s possible that we have two different email addresses for you. You should not be getting a request if you’ve already donated. Please send us a note to donate@wikipedia.org and we’ll get that fixed!\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Wikipedia\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/jimmy_wales\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "Hi Nicolas, thank you for your donation! It’s possible that we have two different email addresses for you. You should not be getting a request if you’ve already donated. Please send us a note to donate@wikipedia.org and we’ll get that fixed!",
+        "text": "Hi Nicolas, thank you for your donation! It’s possible that we have two different email addresses for you. You should not be getting a request if you’ve already donated. Please send us a note to donate@wikipedia.org and we’ll get that fixed!"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "zebstrika",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/6db0dcc04178d28adc452bd1952bc248d5b23e19d794bdbf5a79af7c6c917bb1.jpg",
+        "url": "https://twitter.com/e_j_hayes"
+      },
+      "url": "https://twitter.com/e_j_hayes/status/1303028062464946180",
+      "published": "2020-09-07T17:51:13+00:00",
+      "wm-received": "2020-09-07T18:17:00Z",
+      "wm-id": 849109,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1302891286534512640/1303028062464946180",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "give to your local chapter instead. they do the content work, and do not spam you. <a href=\"https://twitter.com/Wikimedia_Fr\">@Wikimedia_Fr</a> <a href=\"https://twitter.com/WikiCommons\">@WikiCommons</a> \n\n<a href=\"https://twitter.com/wikimediadc\">@wikimediadc</a>\n<a href=\"https://twitter.com/WikimediaNYC\">@WikimediaNYC</a>\n<a href=\"https://twitter.com/wikicari\">@wikicari</a>\n<a href=\"https://twitter.com/WikimediaSE\">@WikimediaSE</a>\n<a href=\"https://twitter.com/WikimediaItalia\">@WikimediaItalia</a>\n<a href=\"https://twitter.com/WikimediaDE\">@WikimediaDE</a>\n<a href=\"https://twitter.com/WikimediaAT\">@WikimediaAT</a>\n<a href=\"https://twitter.com/WikimediaIE\">@WikimediaIE</a>\n<a href=\"https://twitter.com/wikimediauk\">@wikimediauk</a>\n\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Wikipedia\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/jimmy_wales\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/krmaher\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "give to your local chapter instead. they do the content work, and do not spam you. <a href=\"https://twitter.com/Wikimedia_Fr\">@Wikimedia_Fr</a> <a href=\"https://twitter.com/WikiCommons\">@WikiCommons</a> <br /><br /><a href=\"https://twitter.com/wikimediadc\">@wikimediadc</a><br /><a href=\"https://twitter.com/WikimediaNYC\">@WikimediaNYC</a><br /><a href=\"https://twitter.com/wikicari\">@wikicari</a><br /><a href=\"https://twitter.com/WikimediaSE\">@WikimediaSE</a><br /><a href=\"https://twitter.com/WikimediaItalia\">@WikimediaItalia</a><br /><a href=\"https://twitter.com/WikimediaDE\">@WikimediaDE</a><br /><a href=\"https://twitter.com/WikimediaAT\">@WikimediaAT</a><br /><a href=\"https://twitter.com/WikimediaIE\">@WikimediaIE</a><br /><a href=\"https://twitter.com/wikimediauk\">@wikimediauk</a>",
+        "text": "give to your local chapter instead. they do the content work, and do not spam you. @Wikimedia_Fr @WikiCommons \n\n@wikimediadc\n@WikimediaNYC\n@wikicari\n@WikimediaSE\n@WikimediaItalia\n@WikimediaDE\n@WikimediaAT\n@WikimediaIE\n@wikimediauk"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tanner Dolby",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0b9b6080c2486ab209b39facadec189a081288baa997cdb77bda07ddd9dafa21.jpg",
+        "url": "https://twitter.com/tannerdolby"
+      },
+      "url": "https://twitter.com/nhoizey/status/1302891286534512640#favorited-by-1259622945955016705",
+      "published": null,
+      "wm-received": "2020-09-07T18:47:17Z",
+      "wm-id": 849123,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1302891286534512640/1259622945955016705",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1303272534897569792",
+      "published": "2020-09-08T10:02:40+00:00",
+      "wm-received": "2020-09-08T10:18:36Z",
+      "wm-id": 849363,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1302891286534512640/1303272534897569792",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Hi Katherine, thanks for the answer. I received all messages on the same e-mail address. I will contact donate@wikipedia.org 👍\n<a class=\"u-mention\" href=\"https://twitter.com/Wikipedia\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/jimmy_wales\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/krmaher\"></a>",
+        "html": "Hi Katherine, thanks for the answer. I received all messages on the same e-mail address. I will contact donate@wikipedia.org 👍",
+        "text": "Hi Katherine, thanks for the answer. I received all messages on the same e-mail address. I will contact donate@wikipedia.org 👍"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1303273043578499072",
+      "published": "2020-09-08T10:04:41+00:00",
+      "wm-received": "2020-09-08T10:18:35Z",
+      "wm-id": 849362,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1302891286534512640/1303273043578499072",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "photo": [
+        "https://pbs.twimg.com/media/EhYn6lQX0AAo_ur.png"
+      ],
+      "content": {
+        "content-type": "text/html",
+        "value": "By the way, is it  donate@wikiPEDIA.org or donate@wikiMEDIA.org?\n\nI received one of the emails from the later.\n<a class=\"u-mention\" href=\"https://twitter.com/Wikipedia\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/jimmy_wales\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/krmaher\"></a>",
+        "html": "By the way, is it  donate@wikiPEDIA.org or donate@wikiMEDIA.org?<br /><br />I received one of the emails from the later.",
+        "text": "By the way, is it  donate@wikiPEDIA.org or donate@wikiMEDIA.org?\n\nI received one of the emails from the later."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1303273493639892992",
+      "published": "2020-09-08T10:06:29+00:00",
+      "wm-received": "2020-09-08T10:18:32Z",
+      "wm-id": 849361,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1302891286534512640/1303273493639892992",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Good idea indeed, I thought donations to Wikimedia were redistributed to local chapters…\n<a class=\"u-mention\" href=\"https://twitter.com/WikiCommons\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaAT\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaDE\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaIE\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaItalia\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaNYC\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaSE\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Wikimedia_Fr\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Wikipedia\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/e_j_hayes\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/jimmy_wales\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/krmaher\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/wikicari\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/wikimediadc\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/wikimediauk\"></a>",
+        "html": "Good idea indeed, I thought donations to Wikimedia were redistributed to local chapters…",
+        "text": "Good idea indeed, I thought donations to Wikimedia were redistributed to local chapters…"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Wikimedia Österreich",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/bc0b0ec2d29179cb20825740304ace9cfd22db327c1874a82dae5b3c80b2b27c.jpg",
+        "url": "https://twitter.com/WikimediaAT"
+      },
+      "url": "https://twitter.com/WikimediaAT/status/1303275949413339136",
+      "published": "2020-09-08T10:16:14+00:00",
+      "wm-received": "2020-09-08T10:18:32Z",
+      "wm-id": 849360,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1302891286534512640/1303275949413339136",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "They are partly - but if you want to make sure to support eg your local charter a direct donation does the trick.. ;)\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikiCommons\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaDE\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaIE\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaItalia\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaNYC\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaSE\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Wikimedia_Fr\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Wikipedia\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/e_j_hayes\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/jimmy_wales\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/krmaher\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/wikicari\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/wikimediadc\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/wikimediauk\"></a>",
+        "html": "They are partly - but if you want to make sure to support eg your local charter a direct donation does the trick.. ;)",
+        "text": "They are partly - but if you want to make sure to support eg your local charter a direct donation does the trick.. ;)"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1303284181477330944",
+      "published": "2020-09-08T10:48:57+00:00",
+      "wm-received": "2020-09-08T11:20:26Z",
+      "wm-id": 849375,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1302891286534512640/1303284181477330944",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "👍\n<a class=\"u-mention\" href=\"https://twitter.com/WikiCommons\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaAT\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaDE\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaIE\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaItalia\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaNYC\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaSE\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Wikimedia_Fr\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Wikipedia\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/e_j_hayes\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/jimmy_wales\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/krmaher\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/wikicari\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/wikimediadc\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/wikimediauk\"></a>",
+        "html": "👍",
+        "text": "👍"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "zebstrika",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/6db0dcc04178d28adc452bd1952bc248d5b23e19d794bdbf5a79af7c6c917bb1.jpg",
+        "url": "https://twitter.com/e_j_hayes"
+      },
+      "url": "https://twitter.com/e_j_hayes/status/1303299761861210112",
+      "published": "2020-09-08T11:50:52+00:00",
+      "wm-received": "2020-09-08T11:58:27Z",
+      "wm-id": 849384,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1302891286534512640/1303299761861210112",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "more information here:\n<a href=\"https://www.wikimedia.fr/\">wikimedia.fr</a>\n<a href=\"https://www.wikimedia.de/2019/en/wikimedia/\">wikimedia.de/2019/en/wikime…</a>\nand some layoffs here:\n<a href=\"https://wikiedu.org/\">wikiedu.org</a> meanwhile:\n\"The cash and investment balance of the Wikimedia Foundation on 30 June 2019 represents about 17-18 months of operating funds\"\n<a href=\"https://meta.wikimedia.org/wiki/Wikimedia_Foundation_reports/Financial/Audits/2018-2019_-_frequently_asked_questions\">meta.wikimedia.org/wiki/Wikimedia…</a>\n\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikiCommons\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaAT\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaDE\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaIE\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaItalia\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaNYC\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaSE\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Wikimedia_Fr\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Wikipedia\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/jimmy_wales\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/krmaher\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/wikicari\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/wikimediadc\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/wikimediauk\"></a>",
+        "html": "more information here:<br /><a href=\"https://www.wikimedia.fr/\">wikimedia.fr</a><br /><a href=\"https://www.wikimedia.de/2019/en/wikimedia/\">wikimedia.de/2019/en/wikime…</a><br />and some layoffs here:<br /><a href=\"https://wikiedu.org/\">wikiedu.org</a> meanwhile:<br />\"The cash and investment balance of the Wikimedia Foundation on 30 June 2019 represents about 17-18 months of operating funds\"<br /><a href=\"https://meta.wikimedia.org/wiki/Wikimedia_Foundation_reports/Financial/Audits/2018-2019_-_frequently_asked_questions\">meta.wikimedia.org/wiki/Wikimedia…</a>",
+        "text": "more information here:\nwikimedia.fr\nwikimedia.de/2019/en/wikime…\nand some layoffs here:\nwikiedu.org meanwhile:\n\"The cash and investment balance of the Wikimedia Foundation on 30 June 2019 represents about 17-18 months of operating funds\"\nmeta.wikimedia.org/wiki/Wikimedia…"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Katherine Maher",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/4a1ea51dd4889819f861c67b0b14cb723314de84aa792d0b3a824041ffe2c6a7.jpg",
+        "url": "https://twitter.com/krmaher"
+      },
+      "url": "https://twitter.com/krmaher/status/1303327658152005633",
+      "published": "2020-09-08T13:41:43+00:00",
+      "wm-received": "2020-09-08T14:05:16Z",
+      "wm-id": 849430,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1302891286534512640/1303327658152005633",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Wikimedia -- my apologies, an autocorrect on my phone.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Wikipedia\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/jimmy_wales\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>",
+        "html": "Wikimedia -- my apologies, an autocorrect on my phone.",
+        "text": "Wikimedia -- my apologies, an autocorrect on my phone."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Katherine Maher",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/4a1ea51dd4889819f861c67b0b14cb723314de84aa792d0b3a824041ffe2c6a7.jpg",
+        "url": "https://twitter.com/krmaher"
+      },
+      "url": "https://twitter.com/krmaher/status/1303328613048123392",
+      "published": "2020-09-08T13:45:30+00:00",
+      "wm-received": "2020-09-08T14:05:14Z",
+      "wm-id": 849429,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1302891286534512640/1303328613048123392",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "Donating to the Foundation or a chapter are both fine options! Chapters do work that is more focused on local issues: culture, language, partnerships, outreach, policy, volunteer support., etc. Not every region, language, or community has a chapter.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikiCommons\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaAT\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaDE\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaIE\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaItalia\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaNYC\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaSE\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Wikimedia_Fr\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Wikipedia\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/e_j_hayes\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/jimmy_wales\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/wikicari\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/wikimediadc\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/wikimediauk\"></a>",
+        "html": "Donating to the Foundation or a chapter are both fine options! Chapters do work that is more focused on local issues: culture, language, partnerships, outreach, policy, volunteer support., etc. Not every region, language, or community has a chapter.",
+        "text": "Donating to the Foundation or a chapter are both fine options! Chapters do work that is more focused on local issues: culture, language, partnerships, outreach, policy, volunteer support., etc. Not every region, language, or community has a chapter."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Katherine Maher",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/4a1ea51dd4889819f861c67b0b14cb723314de84aa792d0b3a824041ffe2c6a7.jpg",
+        "url": "https://twitter.com/krmaher"
+      },
+      "url": "https://twitter.com/krmaher/status/1303329090360037377",
+      "published": "2020-09-08T13:47:24+00:00",
+      "wm-received": "2020-09-08T14:05:18Z",
+      "wm-id": 849432,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1302891286534512640/1303329090360037377",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "The Foundation is global support: runs the websites, engineering, develops software to support volunteers and readers, handles site security, etc. It helps coordinate across local organizations, and support volunteer contributors in regions and languages where no chapters exist.\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikiCommons\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaAT\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaDE\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaIE\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaItalia\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaNYC\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaSE\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Wikimedia_Fr\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Wikipedia\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/e_j_hayes\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/jimmy_wales\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/wikicari\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/wikimediadc\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/wikimediauk\"></a>",
+        "html": "The Foundation is global support: runs the websites, engineering, develops software to support volunteers and readers, handles site security, etc. It helps coordinate across local organizations, and support volunteer contributors in regions and languages where no chapters exist.",
+        "text": "The Foundation is global support: runs the websites, engineering, develops software to support volunteers and readers, handles site security, etc. It helps coordinate across local organizations, and support volunteer contributors in regions and languages where no chapters exist."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Katherine Maher",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/4a1ea51dd4889819f861c67b0b14cb723314de84aa792d0b3a824041ffe2c6a7.jpg",
+        "url": "https://twitter.com/krmaher"
+      },
+      "url": "https://twitter.com/krmaher/status/1303329768386056194",
+      "published": "2020-09-08T13:50:06+00:00",
+      "wm-received": "2020-09-08T14:05:17Z",
+      "wm-id": 849431,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1302891286534512640/1303329768386056194",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "The majority of chapters and user groups around the world receive their funding from the Foundation's annual operating fund. We coordinate and collaborate with chapters, not compete. Everyone should donate based on your interests and what you wish to support!\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikiCommons\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaAT\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaDE\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaIE\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaItalia\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaNYC\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaSE\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Wikimedia_Fr\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Wikipedia\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/e_j_hayes\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/jimmy_wales\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/wikicari\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/wikimediadc\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/wikimediauk\"></a>",
+        "html": "The majority of chapters and user groups around the world receive their funding from the Foundation's annual operating fund. We coordinate and collaborate with chapters, not compete. Everyone should donate based on your interests and what you wish to support!",
+        "text": "The majority of chapters and user groups around the world receive their funding from the Foundation's annual operating fund. We coordinate and collaborate with chapters, not compete. Everyone should donate based on your interests and what you wish to support!"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "FullStack Bulletin",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/3704dca248c3d9c00a5f50b5e009639cb4224d1d2e29be0e81ed4cd7c98619af.jpg",
+        "url": "https://twitter.com/fstackbulletin"
+      },
+      "url": "https://twitter.com/fstackbulletin/status/1303332442414161925",
+      "published": "2020-09-08T14:00:43+00:00",
+      "wm-received": "2020-09-08T14:05:36Z",
+      "wm-id": 849433,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/nhoizey/1303332442414161925",
+      "wm-target": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+      "content": {
+        "content-type": "text/html",
+        "value": "JAMstack is fast only if you make it so - Nicolas Hoizey <a href=\"https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/\">nicolas-hoizey.com/articles/2020/…</a>",
+        "html": "JAMstack is fast only if you make it so - Nicolas Hoizey <a href=\"https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/\">nicolas-hoizey.com/articles/2020/…</a>",
+        "text": "JAMstack is fast only if you make it so - Nicolas Hoizey nicolas-hoizey.com/articles/2020/…"
+      },
+      "mention-of": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c21eff209ada91f6fe7e85dade06b7cd289b2c253324148110fe5c4ae2cb8021.jpg",
+        "url": "https://twitter.com/nhoizey"
+      },
+      "url": "https://twitter.com/nhoizey/status/1303349092869902338",
+      "published": "2020-09-08T15:06:53+00:00",
+      "wm-received": "2020-09-08T15:26:22Z",
+      "wm-id": 849446,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1302891286534512640/1303349092869902338",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "👍\n<a class=\"u-mention\" href=\"https://twitter.com/Wikipedia\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/jimmy_wales\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/krmaher\"></a>",
+        "html": "👍",
+        "text": "👍"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Wikimedia Italia",
+        "photo": "https://webmention.io/avatar/mamot.fr/62ca8b432b21ccc8dede3fcf4b3c211ff5d2280b64cdac6c77057d2f749927a4.jpg",
+        "url": "https://framapiaf.org/@wikimediaitalia"
+      },
+      "url": "https://framapiaf.org/@wikimediaitalia/104830418618892419",
+      "published": "2020-09-08T17:14:05",
+      "wm-received": "2020-09-08T19:35:22Z",
+      "wm-id": 849494,
+      "wm-source": "https://brid-gy.appspot.com/comment/mastodon/@nhoizey@mamot.fr/104822769634982379/104830418630590440",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "<p><span class=\"h-card\"><a href=\"https://mamot.fr/@nhoizey\" class=\"u-url\">@<span>nhoizey</span></a></span> Re the rest of the conversation on Twitter, Wikimedia Italia does not get one cent from the Wikimedia Foundation.</p>",
+        "html": "<a href=\"https://mamot.fr/@nhoizey\">@nhoizey</a> Re the rest of the conversation on Twitter, Wikimedia Italia does not get one cent from the Wikimedia Foundation.",
+        "text": "@nhoizey Re the rest of the conversation on Twitter, Wikimedia Italia does not get one cent from the Wikimedia Foundation."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "wm-property": "in-reply-to",
       "wm-private": false
     }
   ]
