@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-09-09T09:03:34.861Z",
+  "lastFetched": "2020-09-09T13:16:17.627Z",
   "webmentions": [
     {
       "type": "entry",
@@ -60108,6 +60108,48 @@
       },
       "in-reply-to": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
       "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Kumioko",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c35ce3974b5f86047e101b6df9d547d54d667b891fff96587170ccc9393c72dc.jpg",
+        "url": "https://twitter.com/Kumioko2"
+      },
+      "url": "https://twitter.com/Kumioko2/status/1303651208247246848",
+      "published": "2020-09-09T11:07:23+00:00",
+      "wm-received": "2020-09-09T11:14:20Z",
+      "wm-id": 849640,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/nhoizey/1302891286534512640/1303651208247246848",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "This allows the WMF to control the chapters or risk losing funding. This also helps make sure the <a href=\"https://twitter.com/search?q=%23wikimedia\">#wikimedia</a> CEO gets to keep travelling the world for free. But don't be fooled into thinking she cares about the chapters or editors. She doesn't! She cares about the donors!\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikiCommons\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaAT\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaDE\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaIE\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaItalia\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaNYC\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/WikimediaSE\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Wikimedia_Fr\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Wikipedia\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/e_j_hayes\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/jimmy_wales\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/krmaher\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nhoizey\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/wikicari\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/wikimediadc\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/wikimediauk\"></a>",
+        "html": "This allows the WMF to control the chapters or risk losing funding. This also helps make sure the <a href=\"https://twitter.com/search?q=%23wikimedia\">#wikimedia</a> CEO gets to keep travelling the world for free. But don't be fooled into thinking she cares about the chapters or editors. She doesn't! She cares about the donors!",
+        "text": "This allows the WMF to control the chapters or risk losing funding. This also helps make sure the #wikimedia CEO gets to keep travelling the world for free. But don't be fooled into thinking she cares about the chapters or editors. She doesn't! She cares about the donors!"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Kumioko",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c35ce3974b5f86047e101b6df9d547d54d667b891fff96587170ccc9393c72dc.jpg",
+        "url": "https://twitter.com/Kumioko2"
+      },
+      "url": "https://twitter.com/nhoizey/status/1302891286534512640#favorited-by-1144562638258626560",
+      "published": null,
+      "wm-received": "2020-09-09T11:13:44Z",
+      "wm-id": 849639,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1302891286534512640/1144562638258626560",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
