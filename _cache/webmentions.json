@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-09-10T13:49:11.640Z",
+  "lastFetched": "2020-09-11T14:22:05.990Z",
   "webmentions": [
     {
       "type": "entry",
@@ -60186,6 +60186,30 @@
       "wm-target": "https://nicolas-hoizey.com/links/2020/09/09/this-one-weird-trick-tells-us-everything-about-you/",
       "like-of": "https://nicolas-hoizey.com/links/2020/09/09/this-one-weird-trick-tells-us-everything-about-you/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Marc Radziwill",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/378aa790fe71feea5c3c555b4598410c8bac7f4fa056d69424f77c3bb56dc548.jpg",
+        "url": "https://twitter.com/marc_radziwill"
+      },
+      "url": "https://twitter.com/marc_radziwill/status/1304415902696452096",
+      "published": "2020-09-11T13:46:00+00:00",
+      "wm-received": "2020-09-11T14:00:45Z",
+      "wm-id": 850597,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/nhoizey/1304415902696452096",
+      "wm-target": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+      "content": {
+        "content-type": "text/html",
+        "value": "\"JAMstack is fast only if you make it so\" by <a href=\"https://twitter.com/nhoizey\">@nhoizey</a>\n\n<a href=\"https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/\">nicolas-hoizey.com/articles/2020/…</a>\n\n<a href=\"https://twitter.com/search?q=%23webperf\">#webperf</a> <a href=\"https://twitter.com/search?q=%23webperformance\">#webperformance</a> <a href=\"https://twitter.com/search?q=%23perfmatters\">#perfmatters</a> <a href=\"https://twitter.com/search?q=%23uxspeed\">#uxspeed</a> <a href=\"https://twitter.com/search?q=%23sitespeed\">#sitespeed</a> <a href=\"https://twitter.com/search?q=%23jamstack\">#jamstack</a>",
+        "html": "\"JAMstack is fast only if you make it so\" by <a href=\"https://twitter.com/nhoizey\">@nhoizey</a><br /><br /><a href=\"https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/\">nicolas-hoizey.com/articles/2020/…</a><br /><br /><a href=\"https://twitter.com/search?q=%23webperf\">#webperf</a> <a href=\"https://twitter.com/search?q=%23webperformance\">#webperformance</a> <a href=\"https://twitter.com/search?q=%23perfmatters\">#perfmatters</a> <a href=\"https://twitter.com/search?q=%23uxspeed\">#uxspeed</a> <a href=\"https://twitter.com/search?q=%23sitespeed\">#sitespeed</a> <a href=\"https://twitter.com/search?q=%23jamstack\">#jamstack</a>",
+        "text": "\"JAMstack is fast only if you make it so\" by @nhoizey\n\nnicolas-hoizey.com/articles/2020/…\n\n#webperf #webperformance #perfmatters #uxspeed #sitespeed #jamstack"
+      },
+      "mention-of": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+      "wm-property": "mention-of",
       "wm-private": false
     }
   ]
