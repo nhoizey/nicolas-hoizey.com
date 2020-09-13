@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-09-09T13:16:17.627Z",
+  "lastFetched": "2020-09-13T13:55:26.932Z",
   "webmentions": [
     {
       "type": "entry",
@@ -60149,6 +60149,84 @@
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1302891286534512640/1144562638258626560",
       "wm-target": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
       "like-of": "https://nicolas-hoizey.com/notes/2020/09/07/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Eric Portis",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/558b4c45b7bd5a1107c170e4bb77e2f8cd7f59bf7eda42756b5a7b93c24753a2.png",
+        "url": "https://twitter.com/etportis"
+      },
+      "url": "https://twitter.com/nhoizey/status/1303690115890532352#favorited-by-528720846",
+      "published": null,
+      "wm-received": "2020-09-09T14:24:22Z",
+      "wm-id": 849718,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1303690115890532352/528720846",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/09/09/this-one-weird-trick-tells-us-everything-about-you/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/09/09/this-one-weird-trick-tells-us-everything-about-you/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Laura Kalbag",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/aff868925171a025abdb3d49a66a94fe8e3f0a43e12c4144b447a84ef60a7fde.jpg",
+        "url": "https://twitter.com/LauraKalbag"
+      },
+      "url": "https://twitter.com/nhoizey/status/1303690115890532352#favorited-by-14849130",
+      "published": null,
+      "wm-received": "2020-09-09T14:24:22Z",
+      "wm-id": 849717,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1303690115890532352/14849130",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/09/09/this-one-weird-trick-tells-us-everything-about-you/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/09/09/this-one-weird-trick-tells-us-everything-about-you/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Marc Radziwill",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/378aa790fe71feea5c3c555b4598410c8bac7f4fa056d69424f77c3bb56dc548.jpg",
+        "url": "https://twitter.com/marc_radziwill"
+      },
+      "url": "https://twitter.com/marc_radziwill/status/1304415902696452096",
+      "published": "2020-09-11T13:46:00+00:00",
+      "wm-received": "2020-09-11T14:00:45Z",
+      "wm-id": 850597,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/nhoizey/1304415902696452096",
+      "wm-target": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+      "content": {
+        "content-type": "text/html",
+        "value": "\"JAMstack is fast only if you make it so\" by <a href=\"https://twitter.com/nhoizey\">@nhoizey</a>\n\n<a href=\"https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/\">nicolas-hoizey.com/articles/2020/…</a>\n\n<a href=\"https://twitter.com/search?q=%23webperf\">#webperf</a> <a href=\"https://twitter.com/search?q=%23webperformance\">#webperformance</a> <a href=\"https://twitter.com/search?q=%23perfmatters\">#perfmatters</a> <a href=\"https://twitter.com/search?q=%23uxspeed\">#uxspeed</a> <a href=\"https://twitter.com/search?q=%23sitespeed\">#sitespeed</a> <a href=\"https://twitter.com/search?q=%23jamstack\">#jamstack</a>",
+        "html": "\"JAMstack is fast only if you make it so\" by <a href=\"https://twitter.com/nhoizey\">@nhoizey</a><br /><br /><a href=\"https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/\">nicolas-hoizey.com/articles/2020/…</a><br /><br /><a href=\"https://twitter.com/search?q=%23webperf\">#webperf</a> <a href=\"https://twitter.com/search?q=%23webperformance\">#webperformance</a> <a href=\"https://twitter.com/search?q=%23perfmatters\">#perfmatters</a> <a href=\"https://twitter.com/search?q=%23uxspeed\">#uxspeed</a> <a href=\"https://twitter.com/search?q=%23sitespeed\">#sitespeed</a> <a href=\"https://twitter.com/search?q=%23jamstack\">#jamstack</a>",
+        "text": "\"JAMstack is fast only if you make it so\" by @nhoizey\n\nnicolas-hoizey.com/articles/2020/…\n\n#webperf #webperformance #perfmatters #uxspeed #sitespeed #jamstack"
+      },
+      "mention-of": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Eric Portis",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/558b4c45b7bd5a1107c170e4bb77e2f8cd7f59bf7eda42756b5a7b93c24753a2.png",
+        "url": "https://twitter.com/etportis"
+      },
+      "url": "https://twitter.com/nhoizey/status/1304422288104841222#favorited-by-528720846",
+      "published": null,
+      "wm-received": "2020-09-11T15:49:36Z",
+      "wm-id": 850664,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1304422288104841222/528720846",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/09/11/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/09/11/1/",
       "wm-property": "like-of",
       "wm-private": false
     }
