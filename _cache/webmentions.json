@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-09-11T14:22:05.990Z",
+  "lastFetched": "2020-09-13T13:55:26.932Z",
   "webmentions": [
     {
       "type": "entry",
@@ -60210,6 +60210,24 @@
       },
       "mention-of": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
       "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Eric Portis",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/558b4c45b7bd5a1107c170e4bb77e2f8cd7f59bf7eda42756b5a7b93c24753a2.png",
+        "url": "https://twitter.com/etportis"
+      },
+      "url": "https://twitter.com/nhoizey/status/1304422288104841222#favorited-by-528720846",
+      "published": null,
+      "wm-received": "2020-09-11T15:49:36Z",
+      "wm-id": 850664,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1304422288104841222/528720846",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/09/11/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/09/11/1/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
