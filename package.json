@@ -52,7 +52,7 @@
     "dotenv": "^8.2.0",
     "eleventy-plugin-embed-everything": "~1.9.1",
     "eleventy-plugin-embed-tweet": "^0.3.0",
-    "eleventy-plugin-images-responsiver": "^1.8.1",
+    "eleventy-plugin-images-responsiver": "^1.8.2",
     "encoding": "^0.1.13",
     "entities": "^2.0.3",
     "eslint": "7.9.0",
