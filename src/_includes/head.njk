@@ -9,24 +9,42 @@
   {% set criticalCss %}
   {% include_raw config.dir.dist + "/css/" + hashes_css['critical.css'] %}
   {% endset %}
-  <style>{{ criticalCss | safe }}</style>
+  <style>
+    {{criticalCss | safe}}
+  </style>
 
   {% set criticalJs %}
   {% include_raw config.dir.dist + "/js/" + hashes_critical[config.dir.assets + '/js/critical.js'] %}
   {% endset %}
-  <script>{{ criticalJs | replace('//# sourceMappingURL=', '//# sourceMappingURL=/js/') | safe }}</script>
+  <script>
+    {{ criticalJs | replace('//# sourceMappingURL=', '//# sourceMappingURL=/js/') | safe }}
+  </script>
 
   {# Google Analytics #}
   {% if build.env.NODE_ENV === "production" %}
     <script>
-      window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+      window.ga = function () {
+        ga
+          .q
+          .push(arguments)
+      };
+      ga.q = [];
+      ga.l = + new Date;
       ga('create', 'UA-1655999-10', 'auto');
-      ga('set','transport','beacon');
+      ga('set', 'transport', 'beacon');
       ga('set', 'anonymizeIp', true);
       if (window.viewport_width > 0) {
-        ga('set', { dimension1: window.screen_density, dimension2: window.viewport_width, dimension3: window.root_font_size });
+        ga('set', {
+          dimension1: window.screen_density,
+          dimension2: window.viewport_width,
+          dimension3: window.root_font_size
+        });
       } else {
-        ga('set', { dimension1: window.screen_density, dimension2: 0, dimension3: window.root_font_size });
+        ga('set', {
+          dimension1: window.screen_density,
+          dimension2: 0,
+          dimension3: window.root_font_size
+        });
       }
       ga('set', 'dimension4', 'online');
       ga('send', 'pageview');
