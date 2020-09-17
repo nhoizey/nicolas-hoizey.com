@@ -37,6 +37,7 @@ const tweetHashtagTohandle = (tweet) => {
     '#GitHub': '@github',
     '#IFTTT': '@IFTTT',
     '#Jekyll': '@jekyllrb',
+    '#Jest': '@fbjest',
     '#Lighthouse': '@____lighthouse',
     '#Netlify': '@Netlify',
     '#Notist': '@benotist',
