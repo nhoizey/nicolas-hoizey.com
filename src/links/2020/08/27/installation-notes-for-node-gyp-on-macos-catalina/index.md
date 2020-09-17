@@ -5,7 +5,7 @@ lang: en
 link: https://github.com/nodejs/node-gyp/blob/master/macOS_Catalina.md
 authors:
   - name: "node-gyp"
-tags: [Node.js]
+tags: [Node]
 ---
 
 I was confronted with this error at least once a month for several months (once again yesterday) when trying to `npm install` a freshly checked out Node.js project:
