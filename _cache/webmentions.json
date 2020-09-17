@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-09-17T16:36:43.748Z",
+  "lastFetched": "2020-09-17T19:57:14.288Z",
   "webmentions": [
     {
       "type": "entry",
@@ -60380,6 +60380,30 @@
       "wm-target": "https://nicolas-hoizey.com/notes/2020/09/16/1/",
       "like-of": "https://nicolas-hoizey.com/notes/2020/09/16/1/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "TakeShape",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/00e45ccea2a541216717479d57d3d356ef9ba16d6ebb419dad9b620628f8f3d9.jpg",
+        "url": "https://twitter.com/TakeShapeIO"
+      },
+      "url": "https://twitter.com/TakeShapeIO/status/1306634775600431105",
+      "published": "2020-09-17T16:43:01+00:00",
+      "wm-received": "2020-09-17T16:57:47Z",
+      "wm-id": 853387,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/nhoizey/1306634775600431105",
+      "wm-target": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+      "content": {
+        "content-type": "text/html",
+        "value": "When you're building on the Jamstack, don't forget that sturdy Markup is a key component! The speed gains of a static site are lost if you're relying too heavily on Javascript for your rendering. \n\n<a href=\"https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/\">nicolas-hoizey.com/articles/2020/…</a>",
+        "html": "When you're building on the Jamstack, don't forget that sturdy Markup is a key component! The speed gains of a static site are lost if you're relying too heavily on Javascript for your rendering. <br /><br /><a href=\"https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/\">nicolas-hoizey.com/articles/2020/…</a>",
+        "text": "When you're building on the Jamstack, don't forget that sturdy Markup is a key component! The speed gains of a static site are lost if you're relying too heavily on Javascript for your rendering. \n\nnicolas-hoizey.com/articles/2020/…"
+      },
+      "mention-of": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+      "wm-property": "mention-of",
       "wm-private": false
     }
   ]
