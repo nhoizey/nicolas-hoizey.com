@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-09-13T22:25:09.002Z",
+  "lastFetched": "2020-09-17T16:36:43.748Z",
   "webmentions": [
     {
       "type": "entry",
@@ -60299,6 +60299,86 @@
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1305148865780342786/24203304",
       "wm-target": "https://nicolas-hoizey.com/notes/2020/09/13/1/",
       "like-of": "https://nicolas-hoizey.com/notes/2020/09/13/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matyo",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f5eca6264babb2d92ad3e9a8e8338e448dbddd6961b30e4cc41d32d07a489143.jpg",
+        "url": "https://twitter.com/matyo91"
+      },
+      "url": "https://twitter.com/nhoizey/status/1306496733808123905#favorited-by-98738084",
+      "published": null,
+      "wm-received": "2020-09-17T07:54:35Z",
+      "wm-id": 853290,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1306496733808123905/98738084",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/09/17/tiny-lesson-netlify-redirects-and-downloads/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/09/17/tiny-lesson-netlify-redirects-and-downloads/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Phil Hawksworth",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/fd1185da1ed09664bc011181408cfd1571fc310d9fccaa93ee40f50c93cedd54.jpg",
+        "url": "https://twitter.com/philhawksworth"
+      },
+      "url": "https://twitter.com/nhoizey/status/1306496733808123905#favorited-by-7655012",
+      "published": null,
+      "wm-received": "2020-09-17T08:59:45Z",
+      "wm-id": 853303,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1306496733808123905/7655012",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/09/17/tiny-lesson-netlify-redirects-and-downloads/",
+      "like-of": "https://nicolas-hoizey.com/links/2020/09/17/tiny-lesson-netlify-redirects-and-downloads/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "m4dz",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/77cffe02fd7dc6e59f33129df7d8cd1e701d0dfb11e187ee7328ef17b268a26b.jpg",
+        "url": "https://twitter.com/m4d_z"
+      },
+      "url": "https://twitter.com/m4d_z/status/1306526480130879488",
+      "published": "2020-09-17T09:32:41+00:00",
+      "wm-received": "2020-09-17T09:37:51Z",
+      "wm-id": 853307,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1306496733808123905/1306526480130879488",
+      "wm-target": "https://nicolas-hoizey.com/links/2020/09/17/tiny-lesson-netlify-redirects-and-downloads/",
+      "photo": [
+        "https://pbs.twimg.com/media/EiGb2xDXkAA1Nm1.jpg"
+      ],
+      "content": {
+        "content-type": "text/plain",
+        "value": "🔗 “Netlify redirects and downloads”\nby @adactio\n\n#JAMstack #technology #Web \n\nnho.io/l/2020/09/17/t…",
+        "text": "🔗 “Netlify redirects and downloads”\nby @adactio\n\n#JAMstack #technology #Web \n\nnho.io/l/2020/09/17/t…"
+      },
+      "repost-of": "https://nicolas-hoizey.com/links/2020/09/17/tiny-lesson-netlify-redirects-and-downloads/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Thomas Bassetto",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e2ced026a9f2b162625a80f3c45418ff9e301ca0e8268210c7f21d94a7641d94.png",
+        "url": "https://twitter.com/tbassetto"
+      },
+      "url": "https://twitter.com/nhoizey/status/1306325657304076289#favorited-by-18640560",
+      "published": null,
+      "wm-received": "2020-09-17T11:42:56Z",
+      "wm-id": 853326,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1306325657304076289/18640560",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/09/16/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/09/16/1/",
       "wm-property": "like-of",
       "wm-private": false
     }
