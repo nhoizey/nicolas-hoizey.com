@@ -1,19 +1,28 @@
 const getShareImage = require('@jlengstorf/get-share-image').default;
 
 module.exports = {
-  ogImage: (title) => {
+  ogImage: (title, tagline = '') => {
     return title
       ? getShareImage({
+          cloudName: 'nho',
           imageWidth: 1200,
           imageHeight: 630,
-          cloudName: 'nho',
           imagePublicID: 'resources/opengraph-background',
-          titleFont: 'Noto Serif',
           textAreaWidth: 1100,
           textLeftOffset: 50,
-          titleBottomOffset: 330,
-          titleFontSize: 50 + Math.max(0, 30 - title.length),
+
           title: title,
+          titleFont: 'Georgia',
+          titleFontSize: 50 + Math.max(0, 30 - title.length),
+          titleGravity: 'south_west',
+          titleBottomOffset: 450,
+
+          tagline: tagline,
+          taglineFont: 'Georgia',
+          taglineFontSize: 40,
+          taglineGravity: 'north_east',
+          taglineTopOffset: 300,
+          taglineColor: '663399',
         })
       : '';
   },
