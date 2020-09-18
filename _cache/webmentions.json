@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-09-18T07:17:53.244Z",
+  "lastFetched": "2020-09-18T11:52:48.794Z",
   "webmentions": [
     {
       "type": "entry",
@@ -60492,6 +60492,42 @@
       "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1306684626900078595/95035665",
       "wm-target": "https://nicolas-hoizey.com/notes/2020/09/17/2/",
       "like-of": "https://nicolas-hoizey.com/notes/2020/09/17/2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matthieu",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/87c0551bb5115b56761f38b6d90e91fe0940829710ad2b144bf24784d7f96b49.jpg",
+        "url": "https://twitter.com/mvion_dev"
+      },
+      "url": "https://twitter.com/nhoizey/status/1306896967881064448#favorited-by-1280042818946433024",
+      "published": null,
+      "wm-received": "2020-09-18T10:23:16Z",
+      "wm-id": 853532,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1306896967881064448/1280042818946433024",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/09/18/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/09/18/1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Paul X. McCarthy",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/5a9a7f6b9c782df4a9cfa85f8ea2c6124af396b79ecbc9cd8410a68791c359f6.jpg",
+        "url": "https://twitter.com/paulxmccarthy"
+      },
+      "url": "https://twitter.com/nhoizey/status/1306896967881064448#favorited-by-21625098",
+      "published": null,
+      "wm-received": "2020-09-18T10:23:17Z",
+      "wm-id": 853533,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1306896967881064448/21625098",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/09/18/1/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/09/18/1/",
       "wm-property": "like-of",
       "wm-private": false
     }
