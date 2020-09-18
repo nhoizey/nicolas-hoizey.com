@@ -49,7 +49,7 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
   <h1>{{ page.date | date("Do MMMM YYYY[,] H:mm:ss") }}</h1>
 
   {% from "macros/meta.njk" import meta %}
-  {{ meta(false, page.url, page.date, tags, 'notes', webmentions, false, false, false) }}
+  {{ meta(false, page.url, page.date, tags, 'notes', webmentions, false, false) }}
 
   <div class="e-content">{{ content | noteToHtml | safe }}</div>
 

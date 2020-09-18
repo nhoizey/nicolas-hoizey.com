@@ -1,18 +1,16 @@
-{% macro meta(title, url, date, tags, type, webmentions, permalink=false, comments=false, showDate=true) %}
+{% macro meta(title, url, date, tags, type, webmentions, permalink = false, comments = false) %}
   {% if type == note %}
     {% set title %}Note from {{ date | date("Do MMMM YYYY") }}{% endset %}
   {% endif %}
   <ul class="meta">
-    {% if showDate %}
-      <li class="date meta__item meta__date">
-        <svg class="icon"><use xlink:href="#symbol-date" /></svg>
-        <time class="dt-published" datetime="{{ date | attributeDate }}">
-          {{ date | date("Do") }}
-          <a href="/{{ type }}/{{ date | date("YYYY") }}/{{ date | date("MM") }}/">{{ date | date("MMMM") }}</a>
-          <a href="/{{ type }}/{{ date | date("YYYY") }}/">{{ date | date("YYYY") }}</a>
-        </time>
-      </li>
-    {% endif %}
+    <li class="date meta__item meta__date">
+      <svg class="icon"><use xlink:href="#symbol-date" /></svg>
+      <time class="dt-published" datetime="{{ date | attributeDate }}">
+        {{ date | date("Do") }}
+        <a href="/{{ type }}/{{ date | date("YYYY") }}/{{ date | date("MM") }}/">{{ date | date("MMMM") }}</a>
+        <a href="/{{ type }}/{{ date | date("YYYY") }}/">{{ date | date("YYYY") }}</a>
+      </time>
+    </li>
     {% set tagsSize = tags | size %}
     {% if tagsSize > 0 %}
       <li class="tags meta__item card__tags">
@@ -53,4 +51,3 @@
     {% endif %}
   </ul>
 {% endmacro %}
-
