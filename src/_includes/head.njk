@@ -93,16 +93,16 @@
   {% if ogType == "article" %}
     <meta property="article:published_time" content="{{ page.date | attributeDate }}" />
     <meta property="article:author" content="https://www.facebook.com/nhoizey" />
-    {% for tag in tags %}
-      <meta property="article:tag" content="{{ tag }}" />
-    {% endfor %}
   {% endif %}
 
-  {%- set ogTags -%}
-  {%- for tag in tags -%}
-    #{{- tag | tagToHashtag -}}%20%20
-  {%- endfor -%}
-  {%- endset -%}
+  {%- set ogTags = '' -%}
+  {% if tags %}
+    {%- set ogTags %}
+    {%- for tag in tags -%}
+      #{{- tag | tagToHashtag -}}%20%20
+    {%- endfor -%}
+    {%- endset -%}
+  {% endif %}
 
   {#
   https://developers.facebook.com/docs/sharing/best-practices?locale=fr_FR#images
