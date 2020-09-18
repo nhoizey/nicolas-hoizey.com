@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-09-17T19:57:14.288Z",
+  "lastFetched": "2020-09-18T07:17:53.244Z",
   "webmentions": [
     {
       "type": "entry",
@@ -60404,6 +60404,95 @@
       },
       "mention-of": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
       "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "welcomattic",
+        "photo": "https://webmention.io/avatar/mamot.fr/14cf316431050091f57c3e16b878e560a04571b2fb1c44cc676104f6b8c264ab.jpg",
+        "url": "https://framapiaf.org/@welcomattic"
+      },
+      "url": "https://framapiaf.org/@welcomattic/104882270386896156",
+      "published": "2020-09-17T21:00:40",
+      "wm-received": "2020-09-17T23:54:26Z",
+      "wm-id": 853449,
+      "wm-source": "https://brid-gy.appspot.com/comment/mastodon/@nhoizey@mamot.fr/104881352506994660/104882270396382866",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/09/17/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "<p><span class=\"h-card\"><a href=\"https://mamot.fr/@nhoizey\" class=\"u-url\">@<span>nhoizey</span></a></span> is it a replacement for cleverage/daltons?</p>",
+        "html": "<a href=\"https://mamot.fr/@nhoizey\">@nhoizey</a> is it a replacement for cleverage/daltons?",
+        "text": "@nhoizey is it a replacement for cleverage/daltons?"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/09/17/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://webmention.io/avatar/mamot.fr/5fa24c7dbcb46640e1137d65e156fbcb15bc2e3759135ed7481ae94ace2e80fb.jpg",
+        "url": "https://mamot.fr/@nhoizey"
+      },
+      "url": "https://mamot.fr/@nhoizey/104882282280459121",
+      "published": "2020-09-17T21:03:41",
+      "wm-received": "2020-09-17T23:54:26Z",
+      "wm-id": 853450,
+      "wm-source": "https://brid-gy.appspot.com/comment/mastodon/@nhoizey@mamot.fr/104881352506994660/104882282280459121",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/09/17/1/",
+      "content": {
+        "content-type": "text/html",
+        "value": "<p><span class=\"h-card\"><a href=\"https://framapiaf.org/@welcomattic\" class=\"u-url\">@<span>welcomattic</span></a></span> not at all, they are (or will be) complementary.</p><p>Daltons computes (actually \"will\" compute) the optimum image widths from analytics, for the `srcset` attribute. </p><p>While images-responsiver creates the HTML to list these image widths and the relevant `sizes` attribute, to help the browser download the right image.</p>",
+        "html": "<a href=\"https://framapiaf.org/@welcomattic\">@welcomattic</a> not at all, they are (or will be) complementary.Daltons computes (actually \"will\" compute) the optimum image widths from analytics, for the `srcset` attribute. While images-responsiver creates the HTML to list these image widths and the relevant `sizes` attribute, to help the browser download the right image.",
+        "text": "@welcomattic not at all, they are (or will be) complementary.Daltons computes (actually \"will\" compute) the optimum image widths from analytics, for the `srcset` attribute. While images-responsiver creates the HTML to list these image widths and the relevant `sizes` attribute, to help the browser download the right image."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/notes/2020/09/17/1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mathieu 😷",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/7e99cca9afa13a614a303c104e8a06e023fa3bab4d39dc8b4f4caa36e2ae1f16.jpg",
+        "url": "https://twitter.com/welcoMattic"
+      },
+      "url": "https://twitter.com/welcoMattic/status/1306690940514508800",
+      "published": "2020-09-17T20:26:12+00:00",
+      "wm-received": "2020-09-17T20:58:39Z",
+      "wm-id": 853429,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/nhoizey/1306684626900078595/1306690940514508800",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/09/17/2/",
+      "content": {
+        "content-type": "text/plain",
+        "value": "First step after iOS 14 update:\nsupport.mozilla.org/en-US/kb/set-f…\n\n(Yes, I know, that's not enough, it's still Apple's webkit…)\n\nhttps://t.co/PFCuqVr4",
+        "text": "First step after iOS 14 update:\nsupport.mozilla.org/en-US/kb/set-f…\n\n(Yes, I know, that's not enough, it's still Apple's webkit…)\n\nhttps://t.co/PFCuqVr4"
+      },
+      "repost-of": "https://nicolas-hoizey.com/notes/2020/09/17/2/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "benji",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/310a2506cfc30606691372391afb9a8bd76ace0e2e530893c3f9b0d7dc058b2e.gif",
+        "url": "https://twitter.com/benji9025"
+      },
+      "url": "https://twitter.com/nhoizey/status/1306684626900078595#favorited-by-95035665",
+      "published": null,
+      "wm-received": "2020-09-18T04:37:28Z",
+      "wm-id": 853478,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/nhoizey/1306684626900078595/95035665",
+      "wm-target": "https://nicolas-hoizey.com/notes/2020/09/17/2/",
+      "like-of": "https://nicolas-hoizey.com/notes/2020/09/17/2/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
