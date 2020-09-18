@@ -7,32 +7,34 @@ Breadcrumb JSON-LD:
 https://developers.google.com/search/docs/data-types/breadcrumbs
 #}
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{
-    "@type": "ListItem",
-    "position": 1,
-    "item": {
-      "@id": "https://nicolas-hoizey.com/articles/{{ page.date | date("YYYY") }}/",
-      "name": "{{ page.date | date("YYYY") }}"
-    }
-  },{
-    "@type": "ListItem",
-    "position": 2,
-    "item": {
-      "@id": "https://nicolas-hoizey.com/articles/{{ page.date | date("YYYY/MM") }}/",
-      "name": "{{ page.date | date("MM") }}"
-    }
-  },{
-    "@type": "ListItem",
-    "position": 3,
-    "item": {
-      "@id": "{{ pkg.homepage }}{{ page.url }}",
-      "name": "{{ title }}"
-    }
-  }]
-}
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://nicolas-hoizey.com/articles/{{ page.date | date("YYYY") }}/",
+          "name": "{{ page.date | date(" YYYY ") }}"
+        }
+      }, {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@id": "https://nicolas-hoizey.com/articles/{{ page.date | date("YYYY/MM") }}/",
+          "name": "{{ page.date | date(" MM ") }}"
+        }
+      }, {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "{{ pkg.homepage }}{{ page.url }}",
+          "name": "{{ title }}"
+        }
+      }
+    ]
+  }
 </script>
 
 <article
@@ -45,9 +47,9 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
 
   <div class="e-content">{{ content | safe }}</div>
 
-  <p class="edit">If you want to share an error or suggest an enhancement of this content, please edit <a href="https://github.com/nhoizey/nicolas-hoizey.com/tree/master/{{ page.inputPath }}">the source on GitHub</a>.</p>
-
   {% set articleUrl = page.url %}
   {% include "components/comments.njk" %}
   {% include "components/webmentions.njk" %}
+
+  <p class="edit">If you want to share an error or suggest an enhancement of this content, please edit <a href="https://github.com/nhoizey/nicolas-hoizey.com/tree/master/{{ page.inputPath }}">the source on GitHub</a>.</p>
 </article>

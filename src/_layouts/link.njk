@@ -7,32 +7,34 @@ Breadcrumb JSON-LD:
 https://developers.google.com/search/docs/data-types/breadcrumbs
 #}
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{
-    "@type": "ListItem",
-    "position": 1,
-    "item": {
-      "@id": "https://nicolas-hoizey.com/links/{{ page.date | date("YYYY") }}/",
-      "name": "{{ page.date | date("YYYY") }}"
-    }
-  },{
-    "@type": "ListItem",
-    "position": 2,
-    "item": {
-      "@id": "https://nicolas-hoizey.com/links/{{ page.date | date("YYYY/MM") }}/",
-      "name": "{{ page.date | date("MM") }}"
-    }
-  },{
-    "@type": "ListItem",
-    "position": 3,
-    "item": {
-      "@id": "{{ pkg.homepage }}{{ page.url }}",
-      "name": "{{ title }}"
-    }
-  }]
-}
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://nicolas-hoizey.com/links/{{ page.date | date("YYYY") }}/",
+          "name": "{{ page.date | date(" YYYY ") }}"
+        }
+      }, {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@id": "https://nicolas-hoizey.com/links/{{ page.date | date("YYYY/MM") }}/",
+          "name": "{{ page.date | date(" MM ") }}"
+        }
+      }, {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "{{ pkg.homepage }}{{ page.url }}",
+          "name": "{{ title }}"
+        }
+      }
+    ]
+  }
 </script>
 
 {% from "macros/meta.njk" import meta %}
@@ -52,37 +54,40 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
             {% for author in authors %}
               <li class="p-author h-card">
                 {% if author.twitter %}
-                  <img class="u-photo largeavatar" src="https://res.cloudinary.com/nho/image/twitter_name/{{ author.twitter }}" alt="{{ author.name }} avatar" loading="lazy" width="48" height="48"/>
-                  <p class="author__name"><b class="p-name">{{ author.name }}</b>
-                  (<svg><use xlink:href="#symbol-twitter"/></svg> @<a href="https://twitter.com/{{ author.twitter }}">{{ author.twitter }}</a>)
+                  <img class="u-photo largeavatar" src="https://res.cloudinary.com/nho/image/twitter_name/{{ author.twitter }}" alt="{{ author.name }} avatar" loading="lazy" width="48" height="48" />
+                  <p class="author__name">
+                    <b class="p-name">{{ author.name }}</b>
+                  (<svg><use xlink:href="#symbol-twitter" /></svg> @<a href="https://twitter.com/{{ author.twitter }}">{{ author.twitter }}</a>)
                 {% else %}
-                  <p class="author__name no-avatar"><b class="p-name">{{ author.name }}</b></p>
-                {% endif %}
-              </li>
-            {% endfor %}
-          </ul>
-          <p class="link__wrote">wrote</p>
-        {% endif %}
-        <p class="link__link">
-          <a href="{{ link }}" class="u-bookmark-of">{{ link }}</a>
-        </p>
-      </div>
-      <figure class="link__screenshot">
-        <img
+                    <p class="author__name no-avatar">
+                      <b class="p-name">{{ author.name }}</b>
+                    </p>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+            <p class="link__wrote">wrote</p>
+          {% endif %}
+          <p class="link__link">
+            <a href="{{ link }}" class="u-bookmark-of">{{ link }}</a>
+          </p>
+        </div>
+        <figure class="link__screenshot">
+          <img
           alt="screenshot of {{ title }}"
           width="300"
           height="200"
           src="{{ thumbUrl }}{{ link }}"
           class="screenshot"
           >
-      </figure>
+        </figure>
+      </div>
+
+      {{ content | safe }}
     </div>
 
-    {{ content | safe }}
-  </div>
+    {% set articleUrl = page.url %}
+    {% include "components/webmentions.njk" %}
 
-  <p class="edit">If you want to share an error or suggest an enhancement of this content, please edit <a href="https://github.com/nhoizey/nicolas-hoizey.com/tree/master/{{ page.inputPath }}">the source on GitHub</a>.</p>
-
-  {% set articleUrl = page.url %}
-  {% include "components/webmentions.njk" %}
-</article>
+    <p class="edit">If you want to share an error or suggest an enhancement of this content, please edit <a href="https://github.com/nhoizey/nicolas-hoizey.com/tree/master/{{ page.inputPath }}">the source on GitHub</a>.</p>
+  </article>

@@ -7,54 +7,64 @@ Breadcrumb JSON-LD:
 https://developers.google.com/search/docs/data-types/breadcrumbs
 #}
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{
-    "@type": "ListItem",
-    "position": 1,
-    "item": {
-      "@id": "https://nicolas-hoizey.com/notes/{{ page.date | date("YYYY") }}/",
-      "name": "{{ page.date | date("YYYY") }}"
-    }
-  },{
-    "@type": "ListItem",
-    "position": 2,
-    "item": {
-      "@id": "https://nicolas-hoizey.com/notes/{{ page.date | date("YYYY/MM") }}/",
-      "name": "{{ page.date | date("MM") }}"
-    }
-  },{
-    "@type": "ListItem",
-    "position": 3,
-    "item": {
-      "@id": "{{ pkg.homepage }}{{ page.url }}",
-      "name": "{{ content | striptags | truncate(100, true, '…') }}"
-    }
-  }]
-}
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://nicolas-hoizey.com/notes/{{ page.date | date("YYYY") }}/",
+          "name": "{{ page.date | date(" YYYY ") }}"
+        }
+      }, {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@id": "https://nicolas-hoizey.com/notes/{{ page.date | date("YYYY/MM") }}/",
+          "name": "{{ page.date | date(" MM ") }}"
+        }
+      }, {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "{{ pkg.homepage }}{{ page.url }}",
+          "name": "{{ content | striptags | truncate(100, true, '…') }}"
+        }
+      }
+    ]
+  }
 </script>
 
 {% set previousNote = collections.notes | getPreviousCollectionItem(page) %}
 {% set nextNote = collections.notes | getNextCollectionItem(page) %}
 
 <ul class="prevnext">
-  <li class="prevnext__prev">{% if previousNote %}<a href="{{ previousNote.url }}" class="button">&lt; newer</a>{% endif %}</li>
-  <li class="prevnext__next">{% if nextNote %}<a href="{{ nextNote.url }}" class="button">older &gt;</a>{% endif %}</li>
+  <li class="prevnext__prev">
+    {% if previousNote %}
+      <a href="{{ previousNote.url }}" class="button">&lt; newer</a>
+    {% endif %}
+  </li>
+  <li class="prevnext__next">
+    {% if nextNote %}
+      <a href="{{ nextNote.url }}" class="button">older &gt;</a>
+    {% endif %}
+  </li>
 </ul>
 
 <article
     class="main clearfix h-entry"
     lang="{{ lang }}">
-  <h1>{{ page.date | date("Do MMMM YYYY[,] H:mm:ss") }}</h1>
+  <h1>Note</h1>
 
   {% from "macros/meta.njk" import meta %}
   {{ meta(false, page.url, page.date, tags, 'notes', webmentions, false, false) }}
 
   <div class="e-content">{{ content | noteToHtml | safe }}</div>
 
-  <p class="edit">If you want to share an error or suggest an enhancement of this content, please edit <a href="https://github.com/nhoizey/nicolas-hoizey.com/tree/master/{{ page.inputPath }}">the source on GitHub</a>.</p>
-
   {% set articleUrl = page.url %}
   {% include "components/webmentions.njk" %}
+
+  <p class="edit">If you want to share an error or suggest an enhancement of this content, please edit <a href="https://github.com/nhoizey/nicolas-hoizey.com/tree/master/{{ page.inputPath }}">the source on GitHub</a>.</p>
 </article>
