@@ -13,9 +13,9 @@ module.exports = {
 
           title: title,
           titleFont: 'Georgia',
-          titleFontSize: 50 + Math.max(0, 30 - title.length),
+          titleFontSize: 50 + Math.max(0, 50 - title.length),
           titleGravity: 'south_west',
-          titleBottomOffset: 450,
+          titleBottomOffset: 380,
 
           tagline: tagline,
           taglineFont: 'Georgia',
