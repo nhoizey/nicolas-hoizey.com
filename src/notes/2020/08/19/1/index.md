@@ -1,8 +1,8 @@
 ---
 date: 2020-08-19 12:27:21 +02:00
-tags: [opensource, GitHub]
+tags: [Hacktoberfest, opensource, GitHub]
 ---
 
-Join #hacktoberfest in October, a monthlong celebration of #opensource, to help with useful Pull Requests on opensource projects hosted on #GitHub, and earn a limited edition T-shirt!
+Join #Hacktoberfest in October, a monthlong celebration of #opensource, to help with useful Pull Requests on opensource projects hosted on #GitHub, and earn a limited edition T-shirt!
 
 https://hacktoberfest.digitalocean.com/
