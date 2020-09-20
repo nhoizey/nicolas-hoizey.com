@@ -10,6 +10,9 @@ module.exports = {
   decodeEntities: (content) => {
     return entities.decodeHTML(content);
   },
+  encodeEntities: (content) => {
+    return entities.encodeHTML(content);
+  },
   cleanForAlgolia: (html) => {
     // Remove some elements with Cheerio: footnote links, heading links
     // Cheerio can't load videos, so we get a fallback message we have to remove
