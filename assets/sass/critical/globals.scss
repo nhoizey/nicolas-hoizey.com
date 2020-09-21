@@ -15,4 +15,6 @@
   --font-size-xxl: calc(var(--font-size-xl) * var(--font-size-scale));
   --font-size-xxxl: calc(var(--font-size-xxl) * var(--font-size-scale));
   --font-size-xxxxl: calc(var(--font-size-xxxl) * var(--font-size-scale));
+
+  --link-decoration-color: #{$link-decoration-color};
 }

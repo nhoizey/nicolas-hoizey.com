@@ -160,8 +160,6 @@ h6 {
 // ************************************************************
 
 a {
-  --link-decoration-color: #{$link-decoration-color};
-
   &:link,
   &:visited {
     color: currentColor;
