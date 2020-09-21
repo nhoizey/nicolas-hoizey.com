@@ -20,12 +20,13 @@ title: Social images
 <h1 id="links">Links</h1>
 <section class="list recent">
   {% for link in collections.links | limit(10) %}
+    {% set ogImageTitle %}Link: {{ link.data.title }}{% endset %}
     {% set ogTags -%}
     {%- for tag in link.data.tags -%}
     #{{- tag | tagToHashtag -}}%20%20
     {%- endfor -%}
     {%- endset -%}
-    <a href="{{ link.url }}"><img src="{% ogImage link.data.title, ogTags %}" width="1200" height="630" /></a>
+    <a href="{{ link.url }}"><img src="{% ogImage ogImageTitle, ogTags %}" width="1200" height="630" /></a>
   {% endfor %}
 </section>
 

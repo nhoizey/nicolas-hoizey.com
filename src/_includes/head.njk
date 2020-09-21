@@ -89,6 +89,9 @@
     {% if layout == "article" or layout == "link" %}
       {% set ogDescription = pageExcerpt | striptags | truncate(290) | escape %}
       {% set ogType = "article" %}
+      {% if layout == "link" %}
+        {% set ogImageTitle %}Link: {{ ogTitle }}{% endset %}
+      {% endif %}
     {% elif page.inputPath == "./src/tag-page.njk" %}
       {% set ogDescription = ogTitle %}
     {% endif %}
