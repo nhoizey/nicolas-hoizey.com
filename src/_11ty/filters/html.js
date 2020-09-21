@@ -33,7 +33,7 @@ module.exports = {
     );
   },
   titleSafe: (content) => {
-    return content.replace('&#39;', '’');
+    return content.replace(/&#39;/g, '’');
   },
   excerpt: (content) => {
     if (content === undefined) {
