@@ -1,6 +1,6 @@
 ---
-title: "How the Boeing 737 Max Disaster Looks to a Software Developer"
 date: 2019-04-19 12:00:00 +02:00
+title: "How the Boeing 737 Max Disaster Looks to a Software Developer"
 lang:  en
 tags:  [KISS]
 ---

@@ -1,4 +1,5 @@
 ---
+date: 2020-03-06 12:13:01 +02:00
 title: "Updating npm packages versions in package.json"
 lang:  en
 tags:  [Node, npm]

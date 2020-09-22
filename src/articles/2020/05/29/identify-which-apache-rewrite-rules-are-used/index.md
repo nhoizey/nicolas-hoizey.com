@@ -1,4 +1,5 @@
 ---
+date: 2020-05-29 12:13:01 +02:00
 title: "Identify which Apache rewrite rules are used"
 lang:  en
 tags:  [Apache, shell]
