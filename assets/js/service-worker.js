@@ -30,14 +30,6 @@ precacheAndRoute(self.__WB_MANIFEST, {
 
 cleanupOutdatedCaches();
 
-// default strategy
-setDefaultHandler(
-  new StaleWhileRevalidate({
-    cacheName: 'default',
-    plugins: [new BroadcastUpdatePlugin()],
-  })
-);
-
 // Never cache BrowserSync requests
 registerRoute(
   ({ request }) => request.url.match('/browser-sync/'),
@@ -104,6 +96,14 @@ setCatchHandler(({ event }) => {
       return Response.error();
   }
 });
+
+// default strategy
+setDefaultHandler(
+  new StaleWhileRevalidate({
+    cacheName: 'default',
+    plugins: [new BroadcastUpdatePlugin()],
+  })
+);
 
 googleAnalytics.initialize({
   hitFilter: (params) => {
