@@ -10,6 +10,7 @@ function isSelf(entry) {
 }
 
 function getUrlsHistory(url) {
+  url = encodeURI(url);
   let urlsList = [`${rootUrl}${url}`];
   let httpRootUrl = rootUrl.replace(/^https:/, 'http:');
   if (
@@ -43,11 +44,13 @@ function getUrlsHistory(url) {
       `${httpRootUrl}/links/${parts[1]}/${parts[2]}/${parts[4]}.html`
     );
   }
+
   return urlsList;
 }
 
 module.exports = {
   getWebmentionsForUrl: (webmentions, url) => {
+    // TODO: for each URL, we loop through all webmentions, should be optimized
     if (url === undefined) {
       console.log('No URL for webmention matching');
       return [];
