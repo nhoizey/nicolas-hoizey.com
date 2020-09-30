@@ -63,6 +63,7 @@ const plugins_critical = [
   }),
   process.env.NODE_ENV === 'production' && terser(),
   scss({
+    sass: require('sass'),
     failOnError: true,
     outputStyle: 'compressed',
     output: function (styles, styleNodes) {
@@ -98,6 +99,7 @@ const plugins_additional_iife = [
   }),
   process.env.NODE_ENV === 'production' && terser(),
   scss({
+    sass: require('sass'),
     failOnError: true,
     outputStyle: 'compressed',
     output: function (styles, styleNodes) {
@@ -134,6 +136,7 @@ const plugins_additional_es = [
   process.env.NODE_ENV === 'production' && terser(),
   scss({
     // just here to clean the CSS import from the JS
+    sass: require('sass'),
     output: false,
   }),
   entrypointHashmanifest({
