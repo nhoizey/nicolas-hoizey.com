@@ -12,14 +12,16 @@
   "background_color": "#865aad",
   "icons": [
     {
-      "src": "/assets/photo-de-nicolas-hoizey-192px.png",
+      "src": "/assets/nicolas-hoizey-maskable-192px.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      "src": "/assets/photo-de-nicolas-hoizey-512px.png",
+      "src": "/assets/nicolas-hoizey-maskable-512px.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ],
   "serviceworker": {
