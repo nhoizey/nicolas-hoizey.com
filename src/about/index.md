@@ -4,7 +4,7 @@ layout: page
 lang: en
 ---
 
-![Portrait of Nicolas Hoizey](/assets/photo-de-nicolas-hoizey.jpg){.logo}
+![Portrait of Nicolas Hoizey](/assets/me/nicolas-hoizey.jpg){.logo}
 I am passionate about **the Web and photography**, among many other interests.
 
 *If you're more interested in technical stuff, you can learn more [about this website](/about/the-website.html).*
