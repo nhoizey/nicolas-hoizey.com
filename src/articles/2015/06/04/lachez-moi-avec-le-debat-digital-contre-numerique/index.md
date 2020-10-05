@@ -2,7 +2,7 @@
 title:      Lâchez-moi avec le débat digital contre numérique !
 date: 2015-06-04 12:00:00 +02:00
 lang:       fr
-tags:       [vocabulary]
+tags:       [vocabulary, digital]
 ---
 
 Je travaille dans le digital. J'ai même co-fondé un « [assembleur de cocktails digitaux 100% indépendant](http://clever-age.com) », c'est dire. Et vous ne me ferez pas dire de sitôt que je travaille dans le numérique.
@@ -20,3 +20,11 @@ Alors je dis « digital » et non « numérique », et je commence à en avo
 Bref, OSEF, faisons de beaux projets et arrêtons ces débats stériles, comme le dit si bien l'ami Élie :
 
 https://twitter.com/ElieSl/status/606040859751120896
+
+# MAJ du 5 octobre 2020
+
+J'avais raté une réflexion intéressante chez Boris : [Digital](https://boris.schapira.dev/notes/2017-03-digital/).
+
+Et un article de Éric dans l'excellent [24 Jours de Web](https://www.24joursdeweb.fr/) : [On dit numérique et pas digital (bordel) !](https://www.24joursdeweb.fr/2017/on-dit-numerique-et-pas-digital-bordel/)[^mouais]
+
+[^mouais]: Je n'aime pas ce titre. Mais il faut lire l'article pour aider à construire sa propre idée du sujet.
