@@ -14,3 +14,5 @@ Now that [CSS Grid support in browsers](https://caniuse.com/css-grid) is great, 
 
 > - We want to limit the width of prose content to promote readability.
 > - But sometimes, the reader may benefit from an element being full-width. For example, a nice photograph or a detailed chart.
+
+You can read more about how CSS Grid works in this specific case in [this other link](/links/2020/10/06/breaking-out-with-css-grid-explained/).
