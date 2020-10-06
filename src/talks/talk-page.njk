@@ -16,7 +16,7 @@ eleventyComputed:
   <footer>
     <ul class="meta">
       <li class="date meta__item meta__date">
-        <svg class="icon"><use xlink:href="#symbol-date" /></svg>
+        <svg class="icon"><use xlink:href="#symbol-calendar" /></svg>
         <time class="dt-published" datetime="{{ talk.attributes.presented_on | attributeDate }}">
           {{ talk.attributes.presented_on | date("Do MMMM YYYY") }}
         </time>
@@ -32,5 +32,6 @@ eleventyComputed:
   </footer>
   <img src="{{ talk.attributes.image.src }}" alt="Cover slide from the talk “{{ talk.attributes.title }}”" class="onethird right" width="{{ talk.attributes.image.width }}" height="{{ talk.attributes.image.height }}" />
   {{ talk.attributes.blurb | safe }}
-  <p>See slides and additional content on Notist: <a href="{{ talk.links.self }}">{{ talk.attributes.title }}</a></p>
+  <p>See slides and additional content on Notist: <a href="{{ talk.links.self }}">{{ talk.attributes.title }}</a>
+  </p>
 </div>

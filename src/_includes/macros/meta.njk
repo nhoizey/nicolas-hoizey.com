@@ -4,7 +4,7 @@
   {% endif %}
   <ul class="meta">
     <li class="date meta__item meta__date">
-      <svg class="icon"><use xlink:href="#symbol-date" /></svg>
+      <svg class="icon"><use xlink:href="#symbol-calendar" /></svg>
       <time class="dt-published" datetime="{{ date | attributeDate }}">
         {{ date | date("Do") }}
         <a href="/{{ type }}/{{ date | date("YYYY") }}/{{ date | date("MM") }}/">{{ date | date("MMMM") }}</a>
@@ -14,7 +14,7 @@
     {% set tagsSize = tags | size %}
     {% if tagsSize > 0 %}
       <li class="tags meta__item card__tags">
-        <svg class="icon"><use xlink:href="#symbol-tags" /></svg>
+        <svg class="icon"><use xlink:href="#symbol-tag" /></svg>
         {% set comma = joiner(", ") %}
         {%- for tag in tags -%}
           {{ comma() }}
@@ -28,7 +28,7 @@
       {% set theseCommentsSize = theseComments | size %}
       {% if theseCommentsSize > 0 %}
         <li class="comments meta__item card__commentscount">
-          <svg class="icon"><use xlink:href="#symbol-webmentions" /></svg>
+          <svg class="icon"><use xlink:href="#symbol-message-circle" /></svg>
           <a href="{{ url }}#comments" aria-label="{{ theseCommentsSize }} comment{% if theseCommentsSize > 1 %}s{% endif %} for &quot;{{ title }}&quot;">{{ theseCommentsSize }} comment{% if theseCommentsSize > 1 %}s{% endif %}
           </a>
         </li>
@@ -38,7 +38,7 @@
     {% set mentionsSize = mentions | size %}
     {% if mentionsSize > 0 %}
       <li class="webmentions meta__item meta__webmentionscount">
-        <svg class="icon"><use xlink:href="#symbol-webmentions" /></svg>
+        <svg class="icon"><use xlink:href="#symbol-message-circle" /></svg>
         <a href="{{ url }}#webmentions" aria-label="{{ mentionsSize }} webmention{% if mentionsSize > 1 %}s{% endif %} for &quot;{{ title }}&quot;">{{ mentionsSize }} webmention{% if mentionsSize > 1 %}s{% endif %}
         </a>
       </li>

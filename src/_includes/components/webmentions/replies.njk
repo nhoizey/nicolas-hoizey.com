@@ -59,7 +59,7 @@
 
       {% if webmention.url %}
         <ul class="meta">
-        
+
           {% set webmentionDate = false %}
           {% if webmention.published %}
             {% set webmentionDate = webmention.published %}
@@ -70,8 +70,12 @@
           {% endif %}
           {% if webmentionDate %}
             <li class="meta__item meta__date">
-              <svg class="icon"><use xlink:href="#symbol-date"></use></svg>
-              <a href="#webmention-{{ webmention['wm-id'] }}"><time class="dt-published" datetime="{{ webmentionDate }}">{{ webmentionDate | date("Do MMMM YYYY, HH:mm") }}</time></a>
+              <svg class="icon">
+                <use xlink:href="#symbol-calendar"></use>
+              </svg>
+              <a href="#webmention-{{ webmention['wm-id'] }}">
+                <time class="dt-published" datetime="{{ webmentionDate }}">{{ webmentionDate | date("Do MMMM YYYY, HH:mm") }}</time>
+              </a>
             </li>
           {% endif %}
 

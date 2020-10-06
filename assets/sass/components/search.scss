@@ -45,7 +45,7 @@
 
   label {
     position: absolute;
-    right: 0.7em;
+    right: 0.4em;
     font-size: 0.8em;
   }
 
@@ -53,7 +53,12 @@
   use {
     width: 1em;
     height: 1em;
-    fill: $color-primary;
+
+    fill: none;
+    stroke: $color-primary;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
   }
 
   .algolia-autocomplete {
