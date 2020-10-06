@@ -7,6 +7,7 @@ import replace from '@rollup/plugin-replace';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
 import { terser } from 'rollup-plugin-terser';
 import scss from 'rollup-plugin-scss';
+import sass from 'sass';
 import entrypointHashmanifest from 'rollup-plugin-entrypoint-hashmanifest';
 import path from 'path';
 import fs from 'fs';
@@ -63,7 +64,7 @@ const plugins_critical = [
   }),
   process.env.NODE_ENV === 'production' && terser(),
   scss({
-    sass: require('sass'),
+    sass: sass,
     failOnError: true,
     outputStyle: 'compressed',
     output: function (styles, styleNodes) {
@@ -99,7 +100,7 @@ const plugins_additional_iife = [
   }),
   process.env.NODE_ENV === 'production' && terser(),
   scss({
-    sass: require('sass'),
+    sass: sass,
     failOnError: true,
     outputStyle: 'compressed',
     output: function (styles, styleNodes) {
@@ -136,7 +137,7 @@ const plugins_additional_es = [
   process.env.NODE_ENV === 'production' && terser(),
   scss({
     // just here to clean the CSS import from the JS
-    sass: require('sass'),
+    sass: sass,
     output: false,
   }),
   entrypointHashmanifest({
