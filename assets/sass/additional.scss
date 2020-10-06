@@ -1,3 +1,4 @@
+@import 'functions';
 @import 'global/variables.scss';
 @import 'global/dimensions.scss';
 @import 'global/colors.scss';
@@ -39,7 +40,7 @@ blockquote:not(.tweet-card) {
     position: absolute;
     left: 0.1em;
     top: 0.1em;
-    content: '\201C';
+    content: unicode('201C');
     color: $color-primary-lighter-3;
     font-size: 3.5em;
     line-height: 1;
