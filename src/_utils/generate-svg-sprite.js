@@ -37,6 +37,6 @@ Object.entries(ICONS_LIST).forEach(([icon, title]) => {
   });
 });
 fs.writeFileSync(
-  'src/_includes/svg-sprite.njk',
+  'src/_includes/svg-sprite.svg',
   sprite.toString({ inline: true })
 );
