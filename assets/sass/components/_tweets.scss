@@ -1,0 +1,144 @@
+/* card */
+.tweet-card {
+  background: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  background-color: #fff;
+  border: 2px solid $color-grey;
+  border-radius: 0.5em;
+  font-size: 1em;
+  line-height: 1.4;
+  font-family: sans-serif;
+  color: #1c2022;
+  max-width: 30em;
+  text-align: left;
+
+  &:hover {
+    border-color: $color-twitter;
+  }
+
+  a:link,
+  a:visited {
+    color: $color-twitter;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:active {
+    color: $color-twitter;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+}
+
+/* header */
+.tweet-header {
+  display: flex;
+  margin-bottom: 1em;
+
+  .tweet-profile {
+    margin-right: 9px;
+    flex-shrink: 0;
+
+    img {
+      margin: 0;
+      border-radius: 50%;
+      height: 36px;
+      width: 36px;
+    }
+  }
+
+  .tweet-author {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  a.tweet-author-name {
+    &:link,
+    &:visited {
+      font-weight: bold;
+      color: #1c2022;
+      line-height: 1.3;
+    }
+    &:hover {
+      color: $color-twitter;
+    }
+  }
+
+  a.tweet-author-handle {
+    &:link,
+    &:visited {
+      color: $color-darkgrey;
+      font-size: var(--font-size-s);
+      line-height: 1;
+    }
+    &:hover {
+      color: $color-twitter;
+    }
+  }
+
+  .tweet-bird {
+    margin-left: $baseline;
+  }
+}
+
+/* images */
+.tweet-images img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 0.5em;
+  border: 1px solid $color-lightgrey;
+}
+
+/* footer */
+.tweet-footer {
+  display: flex;
+  align-items: center;
+}
+
+.tweet-card .tweet-footer a {
+  color: $color-darkgrey;
+  font-size: var(--font-size-s);
+}
+
+.tweet-footer .tweet-date:hover {
+  color: $color-twitter;
+}
+
+.tweet-footer .tweet-like {
+  margin-right: 1em;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.tweet-footer .tweet-like:hover {
+  color: $color-red;
+}
+
+.tweet-footer .tweet-like-count {
+  margin-left: 4px;
+}
+
+.tweet-footer .tweet-like-icon {
+  filter: grayscale(1) brightness(1.4);
+  transition: filter;
+}
+
+.tweet-footer .tweet-like:hover .tweet-like-icon {
+  filter: none;
+}
+
+/* icons */
+.tweet-bird-icon,
+.tweet-like-icon {
+  display: inline-block;
+  width: 1.25em;
+  height: 1.25em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: text-bottom;
+}

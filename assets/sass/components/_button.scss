@@ -1,0 +1,15 @@
+.button {
+  &:link,
+  &:visited {
+    padding: 0.2em 0.5em;
+    border: 2px solid $link-decoration-color;
+    border-radius: 0.3em;
+    color: $link-decoration-color;
+    text-decoration: none;
+  }
+  &:hover,
+  &:active {
+    background-color: $link-decoration-color;
+    color: white;
+  }
+}

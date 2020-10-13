@@ -1,0 +1,9 @@
+#intro {
+  margin-bottom: 1em;
+  font-size: var(--font-size-xxl);
+
+  & > * + * {
+    margin-top: $baseline;
+    margin-bottom: 0;
+  }
+}

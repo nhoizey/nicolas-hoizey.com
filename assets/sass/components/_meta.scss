@@ -1,0 +1,39 @@
+.meta {
+  padding: 0;
+  color: $meta-color;
+  font-size: var(--font-size-xs);
+
+  display: flex;
+  flex-wrap: wrap;
+
+  list-style-type: none;
+}
+
+.meta__item {
+  margin: 0 1em 0 1.5em;
+
+  a {
+    --link-decoration-color: #{$meta-link-decoration-color};
+    padding: 0.2em 0.1em;
+  }
+
+  svg {
+    vertical-align: middle;
+    margin-left: -1.5em;
+    padding: 0;
+
+    width: 1.1em;
+    height: 1.1em;
+
+    fill: none;
+    stroke: $meta-icon-color;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+}
+
+.meta__date,
+.meta__webmentionscount {
+  white-space: nowrap;
+}

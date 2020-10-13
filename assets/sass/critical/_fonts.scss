@@ -1,0 +1,53 @@
+// ************************************************************
+// Font faces
+// ************************************************************
+
+@font-face {
+  font-family: NotoSerif;
+  src: url('/assets/fonts/notoserif-regular-subset.woff2') format('woff2'),
+    url('/assets/fonts/notoserif-regular-subset.woff') format('woff');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: NotoSerif;
+  src: url('/assets/fonts/notoserif-bold-subset.woff2') format('woff2'),
+    url('/assets/fonts/notoserif-bold-subset.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: NotoSerif;
+  src: url('/assets/fonts/notoserif-italic-subset.woff2') format('woff2'),
+    url('/assets/fonts/notoserif-italic-subset.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: NotoSerif;
+  src: url('/assets/fonts/notoserif-bolditalic-subset.woff2') format('woff2'),
+    url('/assets/fonts/notoserif-bolditalic-subset.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+// ************************************************************
+// Font styles
+// ************************************************************
+
+body {
+  // font-family: NotoSerif, Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+pre,
+kbd,
+code {
+  // font-family: 'Fira Code', 'Courier New', Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
+}

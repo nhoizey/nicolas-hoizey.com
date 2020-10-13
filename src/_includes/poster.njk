@@ -4,7 +4,7 @@
   {% set poster_image = include.page.content | first_image %}
 {% endif %}
 {% if poster_image != "" %}
-  {% if build.env.NODE_ENV == 'production' %}
+  {% if build.env == 'production' %}
     <img
       src="https://res.cloudinary.com/nho/image/fetch/w_250,h_250,c_limit,q_auto,f_auto/{{ poster_image }}"
       srcset="https://res.cloudinary.com/nho/image/fetch/w_100,h_100,c_limit,q_auto,f_auto/{{ poster_image }} 100w, https://res.cloudinary.com/nho/image/fetch/w_250,h_250,c_limit,q_auto,f_auto/{{ poster_image }} 250w, https://res.cloudinary.com/nho/image/fetch/w_500,h_500,c_limit,q_auto,f_auto/{{ poster_image }} 500w"

@@ -1,6 +1,3 @@
-// Get critical CSS for Rollup
-import '../sass/critical.scss';
-
 (function (window) {
   // get device pixel ratio in dppx
   // https://github.com/ryanve/res/blob/master/src/index.js

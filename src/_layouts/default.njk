@@ -40,7 +40,11 @@
     {% include "components/footer.njk" %}
     {% include "svg-sprite.svg" %}
 
-    <link rel="stylesheet" href="/css/{{ hashes_css['additional.css'] }}" />
+    {% if build.env == 'production' %}
+      <link rel="stylesheet" href="/css/{{ hashes_css['additional.css'] }}" />
+    {% else %}
+      <link rel="stylesheet" href="/css/additional.css" />
+    {% endif %}
 
     <script defer src="/assets/javascript/vendors/algoliasearchLite-3.35.1.min.js"></script>
     <script defer src="/assets/javascript/vendors/algolia-autocomplete-0.37.1.min.js"></script>
