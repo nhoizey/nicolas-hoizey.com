@@ -113,6 +113,9 @@ module.exports = {
 
     tweet = entities.decodeHTML(tweet);
 
+    // escape unicode
+    tweet = tweet.replace(/\\([0-9])/gm, '\\$1');
+
     // Normalize line feeds
     tweet = tweet.replace(/\n/gm, '\\n');
     tweet = tweet.replace(/(\\n){3,}/gm, '\\n\\n');
