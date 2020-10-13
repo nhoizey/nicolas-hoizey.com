@@ -17,10 +17,10 @@
   "scripts": {
     "clean": "rimraf _site",
     "js": "rollup -c",
-    "sass": "sass --no-source-map assets/sass:_site/css",
+    "sass": "sass --source-map-urls=absolute assets/sass:_site/css",
     "postcss": "postcss _site/css/*.css --replace --map",
     "watch:js": "rollup -c --watch",
-    "watch:sass": "sass  --no-source-map --watch assets/sass:_site/css",
+    "watch:sass": "sass --source-map-urls=absolute --watch assets/sass:_site/css",
     "build:eleventy": "eleventy",
     "watch:eleventy": "eleventy --serve",
     "serviceworker": "workbox injectManifest workbox.config.js",
