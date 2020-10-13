@@ -16,22 +16,29 @@
   },
   "scripts": {
     "clean": "rimraf _site",
-    "js": "rollup -c",
+
     "sass": "sass --source-map-urls=absolute assets/sass:_site/css",
-    "postcss": "postcss _site/css/*.css --replace --map",
-    "watch:js": "rollup -c --watch",
+    "postcss": "postcss _site/css/*.css --no-map --replace",
     "watch:sass": "sass --source-map-urls=absolute --watch assets/sass:_site/css",
+
+    "js": "rollup -c",
+    "watch:js": "rollup -c --watch",
+
     "build:eleventy": "eleventy",
     "watch:eleventy": "eleventy --serve",
+
     "serviceworker": "workbox injectManifest workbox.config.js",
+
     "start": "cross-env NODE_ENV=development npm-run-all --sequential clean js --parallel watch:*",
     "start:debug": "DEBUG=Eleventy* npm start",
     "build": "cross-env NODE_ENV=production npm-run-all --sequential clean --parallel js sass --sequential postcss build:eleventy serviceworker",
     "build:debug": "DEBUG=Eleventy* npm run build",
     "build:benchmark": "DEBUG=Eleventy:Benchmark* npm run build",
+
     "build:lambdas": "netlify-lambda build _lambdas",
     "call:lambdas": "netlify functions:invoke --name deploy-succeeded",
     "build:netlify": "cross-env NODE_ENV=production npm-run-all --sequential build build:lambdas",
+
     "notist": "node ./src/_utils/update-notist.js",
     "webmention": "node ./src/_utils/update-webmention.js",
     "algolia": "atomic-algolia",
