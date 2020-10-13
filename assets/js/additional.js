@@ -1,6 +1,3 @@
-// Get additional CSS for Rollup
-import '../sass/additional.scss';
-
 import './algolia.js';
 import Toast from './toast.js';
 
