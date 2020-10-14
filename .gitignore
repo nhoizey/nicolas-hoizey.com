@@ -3,15 +3,13 @@ node_modules
 
 # generated files
 _site
-src/_generated
 hashes_*.json
 functions
 
 # logs
 _logs
 
-# personnal scripts and secret data
-_scripts
+# secret data
 .env
 
 # Local Netlify folder
