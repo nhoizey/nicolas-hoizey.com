@@ -16,30 +16,23 @@
   },
   "scripts": {
     "clean": "rimraf _site",
-
     "sass": "sass --no-source-map assets/sass:_site/css",
     "postcss": "postcss _site/css/*.css --no-map --replace",
     "build:sass": "npm-run-all --sequential sass postcss",
     "watch:sass": "sass --source-map-urls=absolute --watch assets/sass:_site/css",
-
     "build:js": "rollup -c",
     "watch:js": "rollup -c --watch",
-
     "build:eleventy": "eleventy",
     "watch:eleventy": "eleventy --serve",
-
     "serviceworker": "workbox injectManifest workbox.config.js",
-
     "start": "cross-env NODE_ENV=development npm-run-all --sequential clean build:js --parallel watch:*",
     "start:debug": "DEBUG=Eleventy* npm start",
     "build": "cross-env NODE_ENV=production npm-run-all --sequential clean --parallel build:js build:sass --sequential build:eleventy serviceworker",
     "build:debug": "DEBUG=Eleventy* npm run build",
     "build:benchmark": "DEBUG=Eleventy:Benchmark* npm run build",
-
     "build:lambdas": "netlify-lambda build _lambdas",
     "call:lambdas": "netlify functions:invoke --name deploy-succeeded",
     "build:netlify": "cross-env NODE_ENV=production npm-run-all --sequential build build:lambdas",
-
     "notist": "node ./src/_utils/update-notist.js",
     "webmention": "node ./src/_utils/update-webmention.js",
     "algolia": "atomic-algolia",
@@ -72,6 +65,7 @@
     "eslint-config-prettier": "6.12.0",
     "eslint-plugin-prettier": "3.1.4",
     "fast-glob": "^3.2.4",
+    "feather-icons": "~4.28.0",
     "html-minifier": "^4.0.0",
     "image-size": "^0.9.1",
     "lodash": "^4.17.20",

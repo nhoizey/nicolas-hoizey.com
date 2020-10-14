@@ -2,7 +2,7 @@ const svgstore = require('svgstore');
 const fs = require('fs');
 const path = require('path');
 
-const ICONS_FOLDER = 'assets/svg-icons/feather/';
+const ICONS_FOLDER = 'node_modules/feather-icons/dist/icons/';
 const ICONS_LIST = {
   calendar: 'Date',
   info: 'Info',
