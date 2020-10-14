@@ -338,6 +338,11 @@ img {
   }
 }
 
+figure.border img,
+img.border {
+  border: 3px solid $color-primary-lighter-5;
+}
+
 .logo {
   display: block;
   margin: $baseline auto;
