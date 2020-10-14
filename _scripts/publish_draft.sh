@@ -30,5 +30,7 @@ dest="$dest_parent/"
 mv $src $dest
 
 # Add current date/time
+# https://stackoverflow.com/a/18273421/717195
+# https://stackoverflow.com/a/19075707/717195
 awk -v datetime="date: $year-$month-$day $hour:$minute:$second +02:00" 'NR==2{print datetime}007' "$dest/$name/index.md" > "$dest/$name/index-temp.md"
 mv -f "$dest/$name/index-temp.md" "$dest/$name/index.md"
