@@ -2,7 +2,7 @@
 date: 2020-10-15 00:02:19 +02:00
 title: "How I build my SVG sprites"
 lang:  en
-tags:  [SVG, WebPerf, Node.js]
+tags:  [SVG, WebPerf, Node]
 ---
 
 I'm using an SVG sprite on this site to make sure I don't repeat SVG code for icons that are used multiple times, and I inline it so the rendering doesn't depend on another resource loading. Here's how I build this sprite from individual SVG icons.
