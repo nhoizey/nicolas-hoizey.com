@@ -16,7 +16,7 @@ Here's own these icons are used on this site:
 
 ![Feather icons in content meta datas](feather-icons-in-metas.png){.border}
 
-In pages listing multiple contents such as the home page, these icons are used multiple times, so it's best having each only once in the HTML, hence the use of a sprite. For the whole site, I use only 9 different icons, so the sprite is light, at only 3 KB(minified, not compressed).
+In pages listing multiple contents such as the home page, these icons are used multiple times, so it's best having each only once in the HTML, hence the use of a sprite. For the whole site, I use only 9 different icons, so the sprite is light, at only 3 KB (minified, not compressed).
 
 To build this sprite, I use [`svgstore`](https://www.npmjs.com/package/svgstore) in the following Node.js script, where comments should be enough to understand how it works:
 
