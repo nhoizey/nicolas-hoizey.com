@@ -1,6 +1,6 @@
 {% macro noteCard(note) %}
   <div class="card__content" lang="{{ note.data.lang }}">
-    {{ note.templateContent | noteToHtml | absoluteImagePath(url) | safe }}
+    {{ note.templateContent | noteToHtml | absoluteImagePath(note.url) | safe }}
   </div>
   <div class="card__meta">
     {% from "macros/meta.njk" import meta %}
