@@ -41,7 +41,7 @@ Disqus also requires [a few rules in your Content Security Policy](https://githu
 
 Disqus being a third party service, we don't know what our comments become and how Disqus tracks us accross blogs, how [we are becoming the product](http://geek-and-poke.com/geekandpoke/2010/12/21/the-free-model.html).
 
-![](geek-and-poke-fremium-model.jpg "The famous Geek&Poke cartoon with pigs talking about the “free” model."){.onehalf }
+![](geek-and-poke-fremium-model.jpg "The famous Geek&Poke cartoon with pigs talking about the “free” model."){.onehalf}
 
 I can of course export all comments to keep my own local copy, but it's not as convenient as a true local storage.
 
@@ -110,7 +110,7 @@ First, there are some Webmentions that should not be shown, either because they 
 
 Also, I should group mentions by type. Likes, for example, could take much less space in the page. Aaron Gustafson grouped mentions by type [on his blog](https://www.aaron-gustafson.com/notebook/your-site-should-be-a-pwa/#webmentions), but I'ld like to show them as [facepiles](https://indieweb.org/facepile), [like Drew McLellan](https://allinthehead.com/retro/378/implementing-webmentions#comments):
 
-![](webmention-facepiles.png "Nice facepiles for likes and reposts on Drew McLellan's site."){.onehalf }
+![](webmention-facepiles.png "Nice facepiles for likes and reposts on Drew McLellan's site."){.onehalf}
 
 I also have issues with some avatars that come directly from Twitter, and are [really heavy](https://github.com/aarongustafson/jekyll-webmention_io/issues/24). The new version of Aaron's Jekyll plugin will allow me to define my own template, and use Cloudinary to resize and optimize these images. I have yet to try it, because I'm still using the old single file version, while the new one is now a gem.
 

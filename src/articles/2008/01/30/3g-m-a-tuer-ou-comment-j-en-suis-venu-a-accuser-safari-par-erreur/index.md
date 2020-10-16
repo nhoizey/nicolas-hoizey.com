@@ -19,9 +19,9 @@ Et celui sous Safari :
 
 Plus en détail, voilà ce que ça donne :
 
-![](firefox-couleurs-zoom.png "Détail dans Firefox"){.onehalf }
+![](firefox-couleurs-zoom.png "Détail dans Firefox"){.onehalf}
 
-![](safari-couleurs-zoom.png "Détail dans Safari"){.onehalf }
+![](safari-couleurs-zoom.png "Détail dans Safari"){.onehalf}
 
 ## L'enquête
 
