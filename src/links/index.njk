@@ -10,7 +10,7 @@ eleventyExcludeFromCollections: true
 <ul class="grid">
   {% for link in collections.links | limit(6) %}
     <li class="card h-entry">
-      {{ linkCard(link.data.title, link.url, link.data.link, link.data.authors, link.date, link.data.tags, webmentions) }}
+      {{ linkCard(link) }}
     </li>
   {% endfor %}
 </ul>
@@ -24,4 +24,3 @@ eleventyExcludeFromCollections: true
     <a href="/links/{{ linkYear }}/">{{ linkYear }}</a>
   {%- endfor %}
 </p>
-

@@ -14,7 +14,7 @@ eleventyComputed:
 <ul class="list">
   {% for article in collections.articlesByYear[year] %}
     <li class="card h-entry">
-      {{ articleCard(article.data.title, article.url, article.data.lang, article.date, article.data.tags, article.templateContent, webmentions, comments ) }}
+      {{ articleCard(article) }}
     </li>
   {% endfor %}
 </ul>
@@ -24,9 +24,9 @@ eleventyComputed:
   {% set separator = joiner(", ") %}
   {%- for pageEntry in pagination.pages %}
     {{ separator() }}
-    {% if page.url == pagination.hrefs[ loop.index0 ] %}
+    {% if page.url == pagination.hrefs[loop.index0] %}
       <strong>{{ pageEntry }}</strong>
-    {% else %}  
+    {% else %}
       <a href="{{ pagination.hrefs[ loop.index0 ] }}">{{ pageEntry }}</a>
     {% endif %}
   {%- endfor %}

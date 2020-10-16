@@ -59,7 +59,7 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
   <h1>Note</h1>
 
   {% from "macros/meta.njk" import meta %}
-  {{ meta(false, page.url, page.date, tags, 'notes', webmentions, false, false) }}
+  {{ meta(page) }}
 
   <div class="e-content">{{ content | noteToHtml | safe }}</div>
 

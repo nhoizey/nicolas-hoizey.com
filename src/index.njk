@@ -12,29 +12,26 @@ JSON-LD for:
 #}
 
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Nicolas Hoizey",
-  "url": "https://nicolas-hoizey.com/",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://nicolas-hoizey.com/search/?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  },
-  "sameAs": [
-    "https://twitter.com/nhoizey",
-    "https://mamot.fr/@nhoizey",
-    "https://www.flickr.com/photos/nicolas-hoizey/",
-    "https://github.com/nhoizey"
-  ]
-}
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Nicolas Hoizey",
+    "url": "https://nicolas-hoizey.com/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://nicolas-hoizey.com/search/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    },
+    "sameAs": ["https://twitter.com/nhoizey", "https://mamot.fr/@nhoizey", "https://www.flickr.com/photos/nicolas-hoizey/", "https://github.com/nhoizey"]
+  }
 </script>
 
 <div id="intro" class="h-card">
   <p>My name is <strong>Nicolas Hoizey</strong>.</p>
   <p class="p-note">
-    I am passionate about <strong>the Web</strong> and <strong><a href="/tags/photography/">photography</a></strong>, among <a href="/tags/">many other interests</a>.</p>
+    I am passionate about <strong>the Web</strong> and <strong>
+      <a href="/tags/photography/">photography</a>
+    </strong>, among <a href="/tags/">many other interests</a>.</p>
 </div>
 
 {% from "macros/articleCard.njk" import articleCard %}
@@ -43,7 +40,7 @@ JSON-LD for:
 <ul class="list">
   {% for article in collections.articles | limit(1) %}
     <li class="card h-entry">
-      {{ articleCard(article.data.title, article.url, article.data.lang, article.date, article.data.tags, article.templateContent, webmentions, comments ) }}
+      {{ articleCard(article) }}
     </li>
   {% endfor %}
 </ul>
@@ -52,7 +49,7 @@ JSON-LD for:
 <ul class="list">
   {% for article in collections.promoted | limit(3) %}
     <li class="card h-entry">
-      {{ articleCard(article.data.title, article.url, article.data.lang, article.date, article.data.tags, article.templateContent, webmentions, comments ) }}
+      {{ articleCard(article) }}
     </li>
   {% endfor %}
 </ul>

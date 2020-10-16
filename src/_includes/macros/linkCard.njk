@@ -1,24 +1,23 @@
-{% macro linkCard(title, url, link, authors, date, tags, webmentions) %}
-
+{% macro linkCard(link) %}
   {% set thumbUrl = 'https://image.thum.io/get/width/1200/crop/800/noanimate/' %}
   <figure class="card__illustration">
     <img
-      alt="screenshot of {{ title }}"
+      alt="screenshot of {{ link.data.title }}"
       width="1200"
       height="800"
-      src="{{ thumbUrl }}{{ link }}"
+      src="{{ thumbUrl }}{{ link.data.link }}"
       class="vignette"
       crossorigin="anonymous" />
   </figure>
   <div class="card__content">
-    {% if authors %}
+    {% if link.data.authors %}
       <p class="card__surtitle">
-        {%- for author in authors -%}
+        {%- for author in link.data.authors -%}
           {%- if not loop.first -%}
             {%- if not loop.last -%}, {% else %} and {% endif -%}
           {%- endif -%}
           {%- if author.twitter -%}
-            <img class="u-photo smallavatar" src="https://res.cloudinary.com/nho/image/twitter_name/{{ author.twitter }}" alt="{{ author.name }} avatar" width="24" height="24"/> 
+            <img class="u-photo smallavatar" src="https://res.cloudinary.com/nho/image/twitter_name/{{ author.twitter }}" alt="{{ author.name }} avatar" width="24" height="24" />
           {%- endif %}
           {{ author.name }}
         {%- endfor %}
@@ -26,11 +25,11 @@
       </p>
     {% endif %}
     <p class="card__title">
-      <a href="{{ url }}">{{ title }}</a>
+      <a href="{{ link.url }}">{{ link.data.title }}</a>
     </p>
   </div>
   <div class="card__meta">
     {% from "macros/meta.njk" import meta %}
-    {{ meta(title, url, date, tags, 'links', webmentions) }}
+    {{ meta(link) }}
   </div>
 {% endmacro %}

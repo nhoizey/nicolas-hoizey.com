@@ -1,52 +1,56 @@
-{% macro meta(title, url, date, tags, type, webmentions, permalink = false, comments = false) %}
-  {% if type == note %}
-    {% set title %}Note from {{ date | date("Do MMMM YYYY") }}{% endset %}
+{% macro meta(object, permalink = false) %}
+  {% if object.data.layout == 'note' %}
+    {% set title %}Note from {{ object.date | date("Do MMMM YYYY") }}{% endset %}
+  {% else %}
+    {% set title = object.data.title %}
   {% endif %}
   <ul class="meta">
     <li class="date meta__item meta__date">
       <svg class="icon"><use xlink:href="#symbol-calendar" /></svg>
-      <time class="dt-published" datetime="{{ date | attributeDate }}">
-        {{ date | date("Do") }}
-        <a href="/{{ type }}/{{ date | date("YYYY") }}/{{ date | date("MM") }}/">{{ date | date("MMMM") }}</a>
-        <a href="/{{ type }}/{{ date | date("YYYY") }}/">{{ date | date("YYYY") }}</a>
+      <time class="dt-published" datetime="{{ object.date | attributeDate }}">
+        {{ object.date | date("Do MMMM YYYY") }}
       </time>
     </li>
-    {% set tagsSize = tags | size %}
+    {% set tagsSize = object.data.tags | size %}
     {% if tagsSize > 0 %}
       <li class="tags meta__item card__tags">
         <svg class="icon"><use xlink:href="#symbol-tag" /></svg>
         {% set comma = joiner(", ") %}
-        {%- for tag in tags -%}
+        {%- for tag in object.data.tags -%}
           {{ comma() }}
           <a href="/tags/{{ tag | slugify }}/" rel="tag" class="p-category">{{ tag }}</a>
         {%- endfor -%}
       </li>
     {% endif %}
-    {% if type == 'articles' %}
+    {% if object.data.layout == 'article' %}
       {# TODO: optimize with memoization? Or add number to the computed FM data? #}
-      {% set theseComments = comments | getCommentsForUrl(url) %}
-      {% set theseCommentsSize = theseComments | size %}
-      {% if theseCommentsSize > 0 %}
-        <li class="comments meta__item card__commentscount">
+      {% if object.data.comments %}
+        {% set theseComments = object.data.comments | getCommentsForUrl(object.url) %}
+        {% set theseCommentsSize = theseComments | size %}
+        {% if theseCommentsSize > 0 %}
+          <li class="comments meta__item card__commentscount">
+            <svg class="icon"><use xlink:href="#symbol-message-circle" /></svg>
+            <a href="{{ object.url }}#comments" aria-label="{{ theseCommentsSize }} comment{% if theseCommentsSize > 1 %}s{% endif %} for &quot;{{ title }}&quot;">{{ theseCommentsSize }} comment{% if theseCommentsSize > 1 %}s{% endif %}
+            </a>
+          </li>
+        {% endif %}
+      {% endif %}
+    {% endif %}
+    {% if object.data.webmentions %}
+      {% set mentions = object.data.webmentions | getWebmentionsForUrl(object.url) %}
+      {% set mentionsSize = mentions | size %}
+      {% if mentionsSize > 0 %}
+        <li class="webmentions meta__item meta__webmentionscount">
           <svg class="icon"><use xlink:href="#symbol-message-circle" /></svg>
-          <a href="{{ url }}#comments" aria-label="{{ theseCommentsSize }} comment{% if theseCommentsSize > 1 %}s{% endif %} for &quot;{{ title }}&quot;">{{ theseCommentsSize }} comment{% if theseCommentsSize > 1 %}s{% endif %}
+          <a href="{{ object.url }}#webmentions" aria-label="{{ mentionsSize }} webmention{% if mentionsSize > 1 %}s{% endif %} for &quot;{{ title }}&quot;">{{ mentionsSize }} webmention{% if mentionsSize > 1 %}s{% endif %}
           </a>
         </li>
       {% endif %}
     {% endif %}
-    {% set mentions = webmentions | getWebmentionsForUrl(url) %}
-    {% set mentionsSize = mentions | size %}
-    {% if mentionsSize > 0 %}
-      <li class="webmentions meta__item meta__webmentionscount">
-        <svg class="icon"><use xlink:href="#symbol-message-circle" /></svg>
-        <a href="{{ url }}#webmentions" aria-label="{{ mentionsSize }} webmention{% if mentionsSize > 1 %}s{% endif %} for &quot;{{ title }}&quot;">{{ mentionsSize }} webmention{% if mentionsSize > 1 %}s{% endif %}
-        </a>
-      </li>
-    {% endif %}
     {% if permalink %}
       <li class="permalink meta__item">
         <svg class="icon"><use xlink:href="#symbol-link" /></svg>
-        <a href="{{ url }}">permalink</a>
+        <a href="{{ object.url }}">permalink</a>
       </li>
     {% endif %}
   </ul>
