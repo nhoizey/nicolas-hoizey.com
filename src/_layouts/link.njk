@@ -37,14 +37,26 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
   }
 </script>
 
-{% from "macros/meta.njk" import meta %}
-
 {% set thumbUrl = 'https://image.thum.io/get/width/1200/crop/800/noanimate/' %}
 <article
     class="main link clearfix h-entry"
     lang="{{ lang }}">
   <h1>{{ title }}</h1>
-  {{ meta(title, page.url, date, tags, 'links', webmentions) }}
+
+  {% set item = {
+    data: {
+      layout: 'note',
+      lang: lang,
+      title: title,
+      tags: tags,
+      webmentions: webmentions,
+      comments: comments
+    },
+    date: page.date,
+    url: page.url
+  } %}
+  {% from "macros/meta.njk" import meta %}
+  {{ meta(item) }}
 
   <div class="e-content">
     <div class="link__header">

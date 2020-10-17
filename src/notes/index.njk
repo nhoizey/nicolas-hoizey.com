@@ -11,7 +11,7 @@ eleventyExcludeFromCollections: true
 <ul class="list">
   {% for note in collections.notes | limit(10) %}
     <li class="card h-entry note">
-      {{ noteCard(note.url, note.lang, note.date, note.data.tags, note.templateContent, webmentions) }}
+      {{ noteCard(note) }}
     </li>
   {% endfor %}
 </ul>

@@ -10,7 +10,7 @@ eleventyExcludeFromCollections: true
 <ul class="list">
   {% for article in collections.articles | limit(1) %}
     <li class="card h-entry">
-      {{ articleCard(article.data.title, article.url, article.data.lang, article.date, article.data.tags, article.templateContent, webmentions, comments ) }}
+      {{ articleCard(article) }}
     </li>
   {% endfor %}
 </ul>
@@ -19,7 +19,7 @@ eleventyExcludeFromCollections: true
 <ul class="list">
   {% for article in collections.promoted %}
     <li class="card h-entry">
-      {{ articleCard(article.data.title, article.url, article.data.lang, article.date, article.data.tags, article.templateContent, webmentions, comments ) }}
+      {{ articleCard(article) }}
     </li>
   {% endfor %}
 </ul>
@@ -33,4 +33,3 @@ eleventyExcludeFromCollections: true
     <a href="/articles/{{ articleYear }}/">{{ articleYear }}</a>
   {%- endfor %}
 </p>
-

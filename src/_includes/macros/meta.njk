@@ -1,52 +1,54 @@
-{% macro meta(title, url, date, tags, type, webmentions, permalink = false, comments = false) %}
-  {% if type == note %}
-    {% set title %}Note from {{ date | date("Do MMMM YYYY") }}{% endset %}
+{% macro meta(item, permalink = false) %}
+  {% if item.data.layout == 'note' %}
+    {% set title %}Note from {{ item.date | date("Do MMMM YYYY") }}{% endset %}
+  {% else %}
+    {% set title = item.data.title %}
   {% endif %}
   <ul class="meta">
     <li class="date meta__item meta__date">
       <svg class="icon"><use xlink:href="#symbol-calendar" /></svg>
-      <time class="dt-published" datetime="{{ date | attributeDate }}">
-        {{ date | date("Do") }}
-        <a href="/{{ type }}/{{ date | date("YYYY") }}/{{ date | date("MM") }}/">{{ date | date("MMMM") }}</a>
-        <a href="/{{ type }}/{{ date | date("YYYY") }}/">{{ date | date("YYYY") }}</a>
+      <time class="dt-published" datetime="{{ item.date | attributeDate }}">
+        {{ item.date | date("Do MMMM YYYY") }}
       </time>
     </li>
-    {% set tagsSize = tags | size %}
+    {% set tagsSize = item.data.tags | size %}
     {% if tagsSize > 0 %}
       <li class="tags meta__item card__tags">
         <svg class="icon"><use xlink:href="#symbol-tag" /></svg>
         {% set comma = joiner(", ") %}
-        {%- for tag in tags -%}
+        {%- for tag in item.data.tags -%}
           {{ comma() }}
           <a href="/tags/{{ tag | slugify }}/" rel="tag" class="p-category">{{ tag }}</a>
         {%- endfor -%}
       </li>
     {% endif %}
-    {% if type == 'articles' %}
-      {# TODO: optimize with memoization? Or add number to the computed FM data? #}
-      {% set theseComments = comments | getCommentsForUrl(url) %}
+    {# TODO: optimize with memoization? Or add number to the computed FM data? #}
+    {% if item.data.comments %}
+      {% set theseComments = item.data.comments | getCommentsForUrl(item.url) %}
       {% set theseCommentsSize = theseComments | size %}
       {% if theseCommentsSize > 0 %}
         <li class="comments meta__item card__commentscount">
           <svg class="icon"><use xlink:href="#symbol-message-circle" /></svg>
-          <a href="{{ url }}#comments" aria-label="{{ theseCommentsSize }} comment{% if theseCommentsSize > 1 %}s{% endif %} for &quot;{{ title }}&quot;">{{ theseCommentsSize }} comment{% if theseCommentsSize > 1 %}s{% endif %}
+          <a href="{{ item.url }}#comments" aria-label="{{ theseCommentsSize }} comment{% if theseCommentsSize > 1 %}s{% endif %} for &quot;{{ title }}&quot;">{{ theseCommentsSize }} comment{% if theseCommentsSize > 1 %}s{% endif %}
           </a>
         </li>
       {% endif %}
     {% endif %}
-    {% set mentions = webmentions | getWebmentionsForUrl(url) %}
-    {% set mentionsSize = mentions | size %}
-    {% if mentionsSize > 0 %}
-      <li class="webmentions meta__item meta__webmentionscount">
-        <svg class="icon"><use xlink:href="#symbol-message-circle" /></svg>
-        <a href="{{ url }}#webmentions" aria-label="{{ mentionsSize }} webmention{% if mentionsSize > 1 %}s{% endif %} for &quot;{{ title }}&quot;">{{ mentionsSize }} webmention{% if mentionsSize > 1 %}s{% endif %}
-        </a>
-      </li>
+    {% if item.data.webmentions %}
+      {% set mentions = item.data.webmentions | getWebmentionsForUrl(item.url) %}
+      {% set mentionsSize = mentions | size %}
+      {% if mentionsSize > 0 %}
+        <li class="webmentions meta__item meta__webmentionscount">
+          <svg class="icon"><use xlink:href="#symbol-message-circle" /></svg>
+          <a href="{{ item.url }}#webmentions" aria-label="{{ mentionsSize }} webmention{% if mentionsSize > 1 %}s{% endif %} for &quot;{{ title }}&quot;">{{ mentionsSize }} webmention{% if mentionsSize > 1 %}s{% endif %}
+          </a>
+        </li>
+      {% endif %}
     {% endif %}
     {% if permalink %}
       <li class="permalink meta__item">
         <svg class="icon"><use xlink:href="#symbol-link" /></svg>
-        <a href="{{ url }}">permalink</a>
+        <a href="{{ item.url }}">permalink</a>
       </li>
     {% endif %}
   </ul>
