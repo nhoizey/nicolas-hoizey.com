@@ -21,19 +21,19 @@
           <a href="/tags/{{ tag | slugify }}/" rel="tag" class="p-category">{{ tag }}</a>
         {%- endfor -%}
       </li>
+    {% else %}
+      {{ object | log }}
     {% endif %}
-    {% if object.data.layout == 'article' %}
-      {# TODO: optimize with memoization? Or add number to the computed FM data? #}
-      {% if object.data.comments %}
-        {% set theseComments = object.data.comments | getCommentsForUrl(object.url) %}
-        {% set theseCommentsSize = theseComments | size %}
-        {% if theseCommentsSize > 0 %}
-          <li class="comments meta__item card__commentscount">
-            <svg class="icon"><use xlink:href="#symbol-message-circle" /></svg>
-            <a href="{{ object.url }}#comments" aria-label="{{ theseCommentsSize }} comment{% if theseCommentsSize > 1 %}s{% endif %} for &quot;{{ title }}&quot;">{{ theseCommentsSize }} comment{% if theseCommentsSize > 1 %}s{% endif %}
-            </a>
-          </li>
-        {% endif %}
+    {# TODO: optimize with memoization? Or add number to the computed FM data? #}
+    {% if object.data.comments %}
+      {% set theseComments = object.data.comments | getCommentsForUrl(object.url) %}
+      {% set theseCommentsSize = theseComments | size %}
+      {% if theseCommentsSize > 0 %}
+        <li class="comments meta__item card__commentscount">
+          <svg class="icon"><use xlink:href="#symbol-message-circle" /></svg>
+          <a href="{{ object.url }}#comments" aria-label="{{ theseCommentsSize }} comment{% if theseCommentsSize > 1 %}s{% endif %} for &quot;{{ title }}&quot;">{{ theseCommentsSize }} comment{% if theseCommentsSize > 1 %}s{% endif %}
+          </a>
+        </li>
       {% endif %}
     {% endif %}
     {% if object.data.webmentions %}
