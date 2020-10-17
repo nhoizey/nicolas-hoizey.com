@@ -21,8 +21,6 @@
           <a href="/tags/{{ tag | slugify }}/" rel="tag" class="p-category">{{ tag }}</a>
         {%- endfor -%}
       </li>
-    {% else %}
-      {{ item | log }}
     {% endif %}
     {# TODO: optimize with memoization? Or add number to the computed FM data? #}
     {% if item.data.comments %}
