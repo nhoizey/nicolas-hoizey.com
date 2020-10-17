@@ -58,8 +58,20 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
     lang="{{ lang }}">
   <h1>Note</h1>
 
+  {% set item = {
+    data: {
+      layout: 'note',
+      lang: lang,
+      title: title,
+      tags: tags,
+      webmentions: webmentions,
+      comments: comments
+    },
+    date: page.date,
+    url: page.url
+  } %}
   {% from "macros/meta.njk" import meta %}
-  {{ meta(page) }}
+  {{ meta(item) }}
 
   <div class="e-content">{{ content | noteToHtml | safe }}</div>
 
