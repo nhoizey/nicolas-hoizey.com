@@ -45,6 +45,7 @@ const tweetHashtagTohandle = (tweet) => {
     '#Netlify': '@Netlify',
     '#Notist': '@benotist',
     '#Rollup': '@RollupJS',
+    '#Svelte': '@sveltejs',
     '#Tailwind': '@tailwindcss',
     '#Unsplash': '@unsplash',
     '#Uphold': '@UpholdInc',
