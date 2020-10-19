@@ -8,6 +8,7 @@
 
 .footnotes {
   content-visibility: auto;
+  contain-intrinsic-size: 1px 500px;
 
   margin: $baseline 0;
   background-color: #eee;
