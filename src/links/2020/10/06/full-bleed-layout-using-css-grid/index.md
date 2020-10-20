@@ -18,4 +18,4 @@ Josh shows here beautifully[^gorgeous] how to use CSS Grid to contain page eleme
 > 
 > I recently discovered an elegant solution to this problem using CSS Grid. In this post, we'll learn how it works!
 
-Same idea as Tyler Sticka in [this previous link](/links/2020/10/06/breaking-out-with-css-grid-layout/), but with line numbers instead of names. It shows how CSS Grid offers many ways to build layouts.
+Same idea as Tyler Sticka in [this previous link]({% link_to "breaking-out-with-css-grid-layout" %}), but with line numbers instead of names. It shows how CSS Grid offers many ways to build layouts.
