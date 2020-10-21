@@ -3,10 +3,13 @@ import instantsearch from 'instantsearch.js/es';
 import {
   clearRefinements,
   configure,
+  hierarchicalMenu,
   infiniteHits,
+  panel,
+  poweredBy,
   refinementList,
   searchBox,
-  sortBy,
+  stats,
 } from 'instantsearch.js/es/widgets';
 
 const search = instantsearch({
@@ -26,15 +29,42 @@ search.addWidgets([
   }),
   clearRefinements({
     container: '#clear-refinements',
+    templates: {
+      resetLabel: 'Clear filters',
+    },
+  }),
+  stats({
+    container: '#stats',
+  }),
+  poweredBy({
+    container: '#powered-by',
+  }),
+  refinementList({
+    container: '#langs-list',
+    attribute: 'lang',
+    sortBy: ['name:asc'],
   }),
   refinementList({
     container: '#types-list',
     attribute: 'type',
+    sortBy: ['name:asc'],
+  }),
+  hierarchicalMenu({
+    container: '#dates-menu',
+    attributes: ['date.lvl0', 'date.lvl1', 'date.lvl2'],
+    limit: 5,
+    showMore: true,
+    showMoreLimit: 1000,
+    sortBy: ['name:desc'],
   }),
   refinementList({
     container: '#tags-list',
     attribute: 'tags',
-    sortBy: ['name:asc'],
+    sortBy: ['count:desc', 'name:asc'],
+    operator: 'and',
+    showMore: true,
+    showMoreLimit: 1000,
+    searchable: true,
   }),
   infiniteHits({
     container: '#hits',
@@ -43,27 +73,23 @@ search.addWidgets([
         // console.dir(hit);
         return `
           <div class="card ${hit.type}">
-            <p class="card__title">
-              <a href="${hit.url}">${instantsearch.highlight({
+            <div class="card__content">
+              <p class="card__title">
+                <a href="${hit.url}">${instantsearch.highlight({
           attribute: 'title',
           hit,
         })}</a>
-            </p>
+              </p>
+            </div>
             ${
               hit._snippetResult.content.matchLevel !== 'none'
                 ? '<p>' + hit._snippetResult.content.value + '</p>'
-                : ''
+                : hit.excerpt
             }
+            <div class="card__meta">${hit.meta_html}</div>
           </div>`;
       },
     },
-  }),
-  sortBy({
-    container: '#sortby',
-    items: [
-      { label: 'Relevance', value: 'instant_search' },
-      { label: 'Freshness', value: 'date' },
-    ],
   }),
   configure({
     hitsPerPage: 10,

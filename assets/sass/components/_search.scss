@@ -135,10 +135,10 @@
   display: grid;
   grid-template-columns: 10em 1fr;
   grid-template-areas:
-    'searchbox searchbox'
-    'clear sortby'
-    'refinements hits'
-    'refinements pagination';
+    'searchbox searchbox searchbox'
+    'clear stats poweredby'
+    'refinements hits hits'
+    'refinements pagination pagination';
 
   #searchbox {
     grid-area: searchbox;
@@ -146,15 +146,22 @@
 
   #clear-refinements {
     grid-area: clear;
+    align-self: center;
 
     .ais-ClearRefinements-button--disabled {
       display: none;
     }
   }
 
-  #sortby {
-    grid-area: sortby;
-    text-align: right;
+  #stats {
+    grid-area: stats;
+    font-size: var(--font-size-xs);
+    align-self: center;
+  }
+
+  #powered-by {
+    grid-area: poweredby;
+    align-self: center;
   }
 
   .refinements {
@@ -170,26 +177,52 @@
   }
 
   .refinements {
-    grid-area: refinements;
+    dt {
+      margin-top: 1em;
+      font-size: var(--font-size-xs);
+    }
+
+    dd {
+      margin-left: 0.5em;
+    }
 
     ul {
-      font-size: 0.9em;
-      margin-bottom: 1em;
+      font-size: var(--font-size-s);
       padding-left: 0;
       list-style-type: none;
     }
 
-    .ais-RefinementList-count {
+    input,
+    button {
+      font-size: var(--font-size-xs);
+    }
+
+    button {
+      background-color: $color-lightgrey;
+    }
+
+    .ais-HierarchicalMenu-list--child {
+      padding-left: 1em;
+    }
+
+    .ais-RefinementList-count,
+    .ais-HierarchicalMenu-count {
       font-size: 0.7em;
       padding: 0.1em 0.3em;
       background-color: $color-lightgrey;
+      text-decoration: none;
     }
+  }
+
+  .ais-HierarchicalMenu-item--selected > div > a > .ais-HierarchicalMenu-label {
+    font-weight: bold;
   }
 
   #searchbox {
     font-size: 1.1rem;
     margin-bottom: 1em;
     padding: 0.3em 0.5em;
+    min-height: 3em;
 
     border-radius: 2em;
     border-width: 2px;
