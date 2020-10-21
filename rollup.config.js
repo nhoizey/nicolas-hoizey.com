@@ -112,6 +112,39 @@ export default [
     plugins: plugins_additional_es,
   },
   {
+    input: path.join(JS_SRC, 'search.js'),
+    output: {
+      dir: JS_DIST,
+      entryFileNames: '[name]-[format].[hash].js',
+      format: 'iife',
+      sourcemap: true,
+      globals: {
+        events: 'events',
+      },
+    },
+    plugins: [
+      replace({
+        'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
+        'process.env.ALGOLIA_APP_ID': JSON.stringify(
+          process.env.ALGOLIA_APP_ID
+        ),
+        'process.env.ALGOLIA_READ_ONLY_API_KEY': JSON.stringify(
+          process.env.ALGOLIA_READ_ONLY_API_KEY
+        ),
+        'process.env.ALGOLIA_INDEX_NAME': JSON.stringify(
+          process.env.ALGOLIA_INDEX_NAME
+        ),
+      }),
+      nodeResolve({ browser: true, preferBuiltins: false }),
+      commonjs(),
+      babel(),
+      process.env.NODE_ENV === 'production' && terser(),
+      entrypointHashmanifest({
+        manifestName: path.join(HASH, 'hashes_search.json'),
+      }),
+    ],
+  },
+  {
     input: path.join(JS_SRC, 'service-worker.js'),
     plugins: [
       nodeResolve(),
