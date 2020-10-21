@@ -3,61 +3,81 @@ layout: null
 permalink: /tools/algolia.json
 ---
 
+{% from "macros/meta.njk" import meta %}
+
 [
 {% for entry in collections.articles %}
   {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
+  {%- set metaHtml %}{{ meta(entry) }}{%- endset -%}
   {
     "type": "article",
     "lang": "{{ entry.data.lang }}",
 		"title": "{{ entry.data.title | safe }}",
 		"date": {{ entry.date | date('X')}},
+		"date_year": "{{ entry.date | date('YYYY')}}",
+		"date_month": "{{ entry.date | date('MM')}}",
+		"date_day": "{{ entry.date | date('DD')}}",
 		"url": "{{ absoluteEntryUrl }}",
     "objectID": "{{ absoluteEntryUrl }}",
 		"content": {{ entry.templateContent | cleanForAlgolia | striptags | jsonify | safe }},
+    "excerpt": "",
 		"tags": [
       {% for tag in entry.data.tags %}
         "{{ tag }}"{%- if not loop.last -%},{% endif -%}
-      {% endfor %}
-		]
+  {% endfor %}
+		],
+    "meta_html": {{ metaHtml | jsonify | safe }}
 	}
   {%- if not loop.last -%},{% endif -%}
 {% endfor %}
 ,
 {% for entry in collections.links %}
   {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
+  {%- set metaHtml %}{{ meta(entry) }}{%- endset -%}
   {
     "type": "link",
     "lang": "{{ entry.data.lang }}",
 		"title": "{{ entry.data.title | safe }}",
 		"date": {{ entry.date | date('X')}},
+		"date_year": "{{ entry.date | date('YYYY')}}",
+		"date_month": "{{ entry.date | date('MM')}}",
+		"date_day": "{{ entry.date | date('DD')}}",
 		"url": "{{ absoluteEntryUrl }}",
 		"objectID": "{{ absoluteEntryUrl }}",
     {# TODO: add author(s) #}
 		"content": {{ entry.templateContent | cleanForAlgolia | striptags | jsonify | safe }},
+    "excerpt": "",
 		"tags": [
       {% for tag in entry.data.tags %}
         "{{ tag }}"{%- if not loop.last -%},{% endif -%}
-      {% endfor %}
-		]
+  {% endfor %}
+		],
+    "meta_html": {{ metaHtml | jsonify | safe }}
 	}
   {%- if not loop.last -%},{% endif -%}
 {% endfor %}
 ,
 {% for entry in collections.notes %}
   {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
+  {%- set metaHtml %}{{ meta(entry) }}{%- endset -%}
   {
     "type": "note",
     "lang": "{{ entry.data.lang }}",
 		"title": "Note from {{ entry.date | date("Do MMMM YYYY [at] H:mm:ss") }}",
 		"date": {{ entry.date | date('X')}},
+		"date_year": "{{ entry.date | date('YYYY')}}",
+		"date_month": "{{ entry.date | date('MM')}}",
+		"date_day": "{{ entry.date | date('DD')}}",
 		"url": "{{ absoluteEntryUrl }}",
 		"objectID": "{{ absoluteEntryUrl }}",
 		"content": {{ entry.templateContent | cleanForAlgolia | striptags | jsonify | safe }},
+    "excerpt": "",
 		"tags": [
       {% for tag in entry.data.tags %}
         "{{ tag }}"{%- if not loop.last -%},{% endif -%}
-      {% endfor %}
-		]
+  {% endfor %}
+		],
+    "meta_html": {{ metaHtml | jsonify | safe }}
 	}
   {%- if not loop.last -%},{% endif -%}
 {% endfor %}
@@ -65,7 +85,8 @@ permalink: /tools/algolia.json
 {% for entry in notist %}
 
   {%- set absoluteEntryUrl -%}{{ pkg.homepage }}/talks/{{ entry.attributes.presented_on | permalinkDate }}/{{ entry.attributes.slug }}/{%- endset -%}
-  {%- set entryContent -%}{{ entry.attributes.blurb | safe }} {{ entry.attributes.event.name | safe }}{%- endset -%}
+  {%- set entryContent -%}{{ entry.attributes.blurb | safe }}
+  {{ entry.attributes.event.name | safe }}{%- endset -%}
   {%- set entryContent = entryContent | cleanForAlgolia | striptags | jsonify | safe %}
 
   {
@@ -73,10 +94,15 @@ permalink: /tools/algolia.json
     "lang": "en",
 		"title": "{{ entry.attributes.title }}",
 		"date": {{ entry.attributes.presented_on | date('X')}},
+		"date_year": "{{ entry.attributes.presented_on | date('YYYY')}}",
+		"date_month": "{{ entry.attributes.presented_on | date('MM')}}",
+		"date_day": "{{ entry.attributes.presented_on | date('DD')}}",
 		"url": "{{ absoluteEntryUrl }}",
 		"objectID": "{{ absoluteEntryUrl }}",
 		"content": {{ entryContent }},
-		"tags": []
+    "excerpt": "",
+		"tags": [],
+    "meta_html": ""
 	}
   {%- if not loop.last -%},{% endif -%}
 {% endfor %}
@@ -91,7 +117,7 @@ permalink: /tools/algolia.json
 		"objectID": "{{ absoluteEntryUrl }}",
     {% if entry.description %}
   		"content": {{ entry.description | cleanForAlgolia | striptags | jsonify | safe }}
-    {% else %}
+  {% else %}
       "content": ""
     {% endif %}
 	}
