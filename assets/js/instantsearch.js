@@ -25,6 +25,7 @@ const typesPanel = panel({
   templates: {
     header: 'Types',
   },
+  hidden: ({ results }) => results.getFacetValues('type').length === 0,
 })(refinementList);
 
 const languagesPanel = panel({
