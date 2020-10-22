@@ -33,9 +33,10 @@ title: Archives
   <div id="pagination"></div>
 </div>
 
-{% set js %}
+{# {% set js %}
 {% include_raw config.dir.dist + "/js/" + hashes_instantsearch[config.dir.assets + '/js/instantsearch.js'] %}
 {% endset %}
 <script>
   {{ js | replace('//# sourceMappingURL=', '//# sourceMappingURL=/js/') | safe }}
-</script>
+</script> #}
+<script src="/js/{{ hashes_instantsearch['assets/js/instantsearch.js']}}"></script>
