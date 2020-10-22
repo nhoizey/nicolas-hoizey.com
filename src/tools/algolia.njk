@@ -36,7 +36,7 @@ permalink: /tools/algolia.json
   {%- set authors -%}
   {%- if entry.data.authors -%}
     <p class="card__surtitle">A content by 
-    {%- for author in entry.data.authors -%}
+    {% for author in entry.data.authors -%}
         {%- if not loop.first -%}
           {%- if not loop.last -%}, {% else %} and {% endif -%}
         {%- endif -%}
