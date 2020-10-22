@@ -24,7 +24,7 @@ const search = instantsearch({
 search.addWidgets([
   searchBox({
     container: '#searchbox',
-    placeholder: 'Search for content',
+    placeholder: 'Search for content…',
     showSubmit: false,
   }),
   clearRefinements({
@@ -81,11 +81,13 @@ search.addWidgets([
         })}</a>
               </p>
             </div>
+            <p class="card__text p-summary">
             ${
               hit._snippetResult.content.matchLevel !== 'none'
-                ? '<p>' + hit._snippetResult.content.value + '</p>'
+                ? hit._snippetResult.content.value
                 : hit.excerpt
             }
+            </p>
             <div class="card__meta">${hit.meta_html}</div>
           </div>`;
       },

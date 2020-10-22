@@ -2,6 +2,10 @@
 @import 'global/dimensions';
 @import 'global/colors';
 
+// ************************************************************
+// Layout
+// ************************************************************
+
 .instant-search {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -16,6 +20,8 @@
 
 #clear-refinements,
 .refinements {
+  // Hide refinements on mobile
+  // TODO: find a way to allow refinements
   display: none;
 }
 
@@ -41,23 +47,14 @@
 
 #clear-refinements {
   grid-area: clear;
-  align-self: center;
-
-  .ais-ClearRefinements-button--disabled {
-    display: none;
-  }
 }
 
 #stats {
   grid-area: stats;
-  font-size: var(--font-size-xs);
-  align-self: center;
 }
 
 #powered-by {
   grid-area: poweredby;
-  align-self: center;
-  justify-self: end;
 }
 
 .refinements {
@@ -72,29 +69,66 @@
   grid-area: pagination;
 }
 
+// ************************************************************
+// Refinements
+// ************************************************************
+
+#clear-refinements {
+  align-self: center;
+
+  .ais-ClearRefinements-button--disabled {
+    display: none;
+  }
+}
+
 .refinements {
+  font-size: var(--font-size-xs);
+
   dt {
-    margin-top: 1em;
-    font-size: var(--font-size-xs);
+    border-bottom: 1px solid $color-grey;
   }
 
   dd {
-    margin-left: 0.5em;
+    margin-left: 0;
+    margin-bottom: $gap;
   }
 
   ul {
-    font-size: var(--font-size-s);
     padding-left: 0;
     list-style-type: none;
   }
 
-  input,
   button {
     font-size: var(--font-size-xs);
+    background-color: $color-lightgrey;
   }
 
-  button {
-    background-color: $color-lightgrey;
+  .ais-HierarchicalMenu-item {
+    padding-left: 1em;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      left: 0;
+      top: 0.2em;
+      font-family: monospace;
+      font-size: 1em;
+      content: '+\00a0';
+    }
+
+    &.ais-HierarchicalMenu-item--selected::before {
+      content: '-\00a0';
+    }
+  }
+
+  .ais-HierarchicalMenu-list--child {
+    .ais-HierarchicalMenu-item {
+      padding-left: 0;
+
+      &::before {
+        content: '';
+      }
+    }
   }
 
   .ais-HierarchicalMenu-list--child {
@@ -118,28 +152,32 @@
   font-weight: bold;
 }
 
-.ais-Pagination {
-  margin-top: 1em;
+// ************************************************************
+// Stats
+// ************************************************************
+
+#stats {
+  font-size: var(--font-size-xs);
+  align-self: center;
 }
 
-.ais-InfiniteHits-list {
-  display: grid;
-  grid-gap: $gap;
-  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-  grid-template-columns: repeat(auto-fill, minmax(min(20rem, 100%), 1fr));
-  grid-auto-flow: dense;
-  padding: 0;
-  list-style-type: none;
-  font-size: 1rem;
+// ************************************************************
+// Powered by
+// ************************************************************
 
-  .card__title {
-    font-size: var(--font-size-s);
-  }
+#powered-by {
+  align-self: center;
+  justify-self: end;
 }
+
+// ************************************************************
+// Search box
+// ************************************************************
 
 .ais-SearchBox-form {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 
   padding: 0.2em 0.5em;
 
@@ -159,6 +197,7 @@
     background-color: transparent;
     outline: none;
     width: auto;
+    height: 1.5em;
   }
 
   // from
@@ -178,9 +217,19 @@
     box-sizing: content-box;
   }
 
+  input {
+    flex-grow: 1;
+    max-width: calc(100% - 2em);
+  }
+
   button {
-    flex: 1;
+    width: 1.5em;
     fill: $color-darkgrey;
+
+    svg {
+      width: 0.5em;
+      height: 0.5em;
+    }
   }
 
   .ais-SearchBox-submit {
@@ -193,4 +242,34 @@
   button {
     font-size: var(--font-size-m);
   }
+}
+
+// ************************************************************
+// Hits list
+// ************************************************************
+
+.ais-InfiniteHits-list {
+  & > * + * {
+    margin-top: $gap;
+  }
+
+  padding: 0;
+  list-style-type: none;
+  font-size: 1rem;
+
+  .card__title {
+    font-size: var(--font-size-s);
+  }
+
+  .card.note {
+    max-width: none;
+  }
+}
+
+// ************************************************************
+// Pagination
+// ************************************************************
+
+.ais-Pagination {
+  margin-top: 1em;
 }

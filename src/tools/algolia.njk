@@ -20,7 +20,7 @@ permalink: /tools/algolia.json
 		"url": "{{ absoluteEntryUrl }}",
     "objectID": "{{ absoluteEntryUrl }}",
 		"content": {{ entry.templateContent | cleanForAlgolia | striptags | jsonify | safe }},
-    "excerpt": "",
+    "excerpt": {{ entry.templateContent | excerpt | cleanForAlgolia | striptags | jsonify | safe }},
 		"tags": [
       {% for tag in entry.data.tags %}
         "{{ tag }}"{%- if not loop.last -%},{% endif -%}
@@ -46,7 +46,19 @@ permalink: /tools/algolia.json
 		"objectID": "{{ absoluteEntryUrl }}",
     {# TODO: add author(s) #}
 		"content": {{ entry.templateContent | cleanForAlgolia | striptags | jsonify | safe }},
-    "excerpt": "",
+    "excerpt": "{%- if entry.data.authors -%}
+    <p class=\"card__surtitle\">
+      {%- for author in entry.data.authors -%}
+        {%- if not loop.first -%}
+          {%- if not loop.last -%}, {% else %} and {% endif -%}
+        {%- endif -%}
+        {%- if author.twitter -%}
+          <img class=\"u-photo smallavatar\" src=\"https://res.cloudinary.com/nho/image/twitter_name/{{ author.twitter }}\" alt=\"{{ author.name }} avatar\" width=\"24\" height=\"24\" />&nbsp;
+        {%- endif -%}
+        {{ author.name }}
+      {%- endfor -%}
+    </p>
+  {%- endif -%}",
 		"tags": [
       {% for tag in entry.data.tags %}
         "{{ tag }}"{%- if not loop.last -%},{% endif -%}
