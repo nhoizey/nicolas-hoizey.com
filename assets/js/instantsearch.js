@@ -21,10 +21,41 @@ const search = instantsearch({
   routing: true,
 });
 
+const typesPanel = panel({
+  templates: {
+    header: 'Types',
+  },
+})(refinementList);
+
+const languagesPanel = panel({
+  templates: {
+    header: 'Languages',
+  },
+  hidden: ({ results }) => results.getFacetValues('lang').length === 0,
+})(refinementList);
+
+const tagsPanel = panel({
+  templates: {
+    header: 'Tags',
+  },
+  hidden: ({ results }) => results.getFacetValues('tags').length === 0,
+})(refinementList);
+
+const datesPanel = panel({
+  templates: {
+    header: 'Dates',
+  },
+  hidden: ({ results }) => {
+    // console.dir(results.getFacetValues('date.lvl0'));
+    return results.getFacetValues('date.lvl0').data === null;
+  },
+})(hierarchicalMenu);
+
 search.addWidgets([
   searchBox({
     container: '#searchbox',
     placeholder: 'Search for content…',
+    autofocus: true,
     showSubmit: false,
   }),
   clearRefinements({
@@ -39,17 +70,17 @@ search.addWidgets([
   poweredBy({
     container: '#powered-by',
   }),
-  refinementList({
+  languagesPanel({
     container: '#langs-list',
     attribute: 'lang',
     sortBy: ['name:asc'],
   }),
-  refinementList({
+  typesPanel({
     container: '#types-list',
     attribute: 'type',
     sortBy: ['name:asc'],
   }),
-  hierarchicalMenu({
+  datesPanel({
     container: '#dates-menu',
     attributes: ['date.lvl0', 'date.lvl1', 'date.lvl2'],
     limit: 5,
@@ -57,7 +88,7 @@ search.addWidgets([
     showMoreLimit: 1000,
     sortBy: ['name:desc'],
   }),
-  refinementList({
+  tagsPanel({
     container: '#tags-list',
     attribute: 'tags',
     sortBy: ['count:desc', 'name:asc'],
@@ -81,14 +112,18 @@ search.addWidgets([
         })}</a>
               </p>
             </div>
-            <p class="card__text p-summary">
             ${
               hit._snippetResult.content.matchLevel !== 'none'
-                ? hit._snippetResult.content.value
-                : hit.excerpt
+                ? '<div class="card__text p-summary">' +
+                  hit._snippetResult.content.value +
+                  '</div>'
+                : '<div class="card__text p-summary">' + hit.excerpt + '</div>'
             }
-            </p>
-            <div class="card__meta">${hit.meta_html}</div>
+            ${
+              hit.meta_html && hit.meta_html !== ''
+                ? '<div class="card__meta">' + hit.meta_html + '</div>'
+                : ''
+            }
           </div>`;
       },
     },

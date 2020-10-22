@@ -14,8 +14,8 @@
     'stats poweredby'
     'hits hits'
     'pagination pagination';
-  grid-gap: 1em;
-  gap: 1em;
+  grid-gap: 0.5em;
+  gap: 0.5em;
 }
 
 #clear-refinements,
@@ -27,7 +27,7 @@
 
 @media (min-width: 40em) {
   .instant-search {
-    grid-template-columns: 10em 1fr;
+    grid-template-columns: 10em 1fr 1fr;
     grid-template-areas:
       'searchbox searchbox searchbox'
       'clear stats poweredby'
@@ -38,6 +38,7 @@
   #clear-refinements,
   .refinements {
     display: block;
+    margin-right: 1em;
   }
 }
 
@@ -47,10 +48,13 @@
 
 #clear-refinements {
   grid-area: clear;
+  align-self: center;
 }
 
 #stats {
   grid-area: stats;
+  font-size: var(--font-size-xs);
+  align-self: center;
 }
 
 #powered-by {
@@ -67,41 +71,68 @@
 
 #pagination {
   grid-area: pagination;
+
+  .ais-Pagination {
+    margin-top: $gap;
+  }
+}
+
+// ************************************************************
+// Buttons
+// ************************************************************
+
+.ais-ClearRefinements-button,
+.ais-HierarchicalMenu-showMore,
+.ais-RefinementList-showMore,
+.ais-InfiniteHits-loadMore {
+  font-size: 0.8em;
+
+  cursor: pointer;
+
+  background-color: $color-primary-lighter-2;
+  color: white;
+
+  border-style: solid;
+  border-color: $color-primary;
+  border-width: 1px;
+  border-radius: 1em;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+
+  &:hover {
+    background-color: $color-primary;
+  }
+}
+
+.ais-InfiniteHits-loadMore {
+  display: block;
+  margin: $gap auto;
+}
+
+.ais-ClearRefinements-button--disabled,
+.ais-RefinementList-showMore--disabled,
+.ais-HierarchicalMenu-showMore--disabled {
+  display: none;
 }
 
 // ************************************************************
 // Refinements
 // ************************************************************
 
-#clear-refinements {
-  align-self: center;
-
-  .ais-ClearRefinements-button--disabled {
-    display: none;
-  }
-}
-
 .refinements {
   font-size: var(--font-size-xs);
 
-  dt {
-    border-bottom: 1px solid $color-grey;
-    margin-bottom: 0.3em;
+  .ais-Panel {
+    margin-bottom: $gap;
   }
 
-  dd {
-    margin-left: 0;
-    margin-bottom: $gap;
+  .ais-Panel-header {
+    border-bottom: 1px solid $color-grey;
+    margin-bottom: 0.3em;
   }
 
   ul {
     padding-left: 0;
     list-style-type: none;
-  }
-
-  button {
-    font-size: var(--font-size-xs);
-    background-color: $color-lightgrey;
   }
 
   .ais-HierarchicalMenu-item {
@@ -136,15 +167,28 @@
     padding-left: 1em;
   }
 
-  .ais-HierarchicalMenu-showMore--disabled {
-    display: none;
+  .ais-HierarchicalMenu-link {
+    &:link,
+    &:visited {
+      text-decoration: none;
+    }
+
+    &:hover,
+    &:active {
+      background-color: transparent;
+      color: inherit;
+    }
   }
 
   .ais-RefinementList-count,
   .ais-HierarchicalMenu-count {
+    position: relative;
+    top: -0.1em;
     font-size: 0.7em;
+    margin-left: 0.2em;
     padding: 0.1em 0.3em;
     background-color: $color-lightgrey;
+    border-radius: 1em;
     text-decoration: none;
   }
 }
@@ -154,21 +198,19 @@
 }
 
 // ************************************************************
-// Stats
-// ************************************************************
-
-#stats {
-  font-size: var(--font-size-xs);
-  align-self: center;
-}
-
-// ************************************************************
 // Powered by
 // ************************************************************
 
 #powered-by {
   align-self: center;
   justify-self: end;
+
+  .ais-PoweredBy-link {
+    &:hover,
+    &:active {
+      background-color: transparent;
+    }
+  }
 }
 
 // ************************************************************
@@ -221,6 +263,7 @@
   input {
     flex-grow: 1;
     max-width: calc(100% - 2em);
+    padding-left: 0.3em;
   }
 
   button {
@@ -258,19 +301,20 @@
   list-style-type: none;
   font-size: 1rem;
 
+  .card.note {
+    max-width: none;
+  }
+
   .card__title {
     font-size: var(--font-size-s);
   }
 
-  .card.note {
-    max-width: none;
+  .card__text {
+    .u-photo {
+      width: 1.2em;
+      height: auto;
+      border-radius: 0.3em;
+      vertical-align: middle;
+    }
   }
-}
-
-// ************************************************************
-// Pagination
-// ************************************************************
-
-.ais-Pagination {
-  margin-top: 1em;
 }
