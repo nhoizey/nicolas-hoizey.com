@@ -139,6 +139,8 @@
     'clear stats poweredby'
     'refinements hits hits'
     'refinements pagination pagination';
+  grid-gap: 1em;
+  gap: 1em;
 
   #searchbox {
     grid-area: searchbox;
@@ -205,6 +207,10 @@
       padding-left: 1em;
     }
 
+    .ais-HierarchicalMenu-showMore--disabled {
+      display: none;
+    }
+
     .ais-RefinementList-count,
     .ais-HierarchicalMenu-count {
       font-size: 0.7em;
@@ -216,43 +222,6 @@
 
   .ais-HierarchicalMenu-item--selected > div > a > .ais-HierarchicalMenu-label {
     font-weight: bold;
-  }
-
-  #searchbox {
-    font-size: 1.1rem;
-    margin-bottom: 1em;
-    padding: 0.3em 0.5em;
-    min-height: 3em;
-
-    border-radius: 2em;
-    border-width: 2px;
-    border-style: solid;
-    border-color: $color-primary-lighter-2;
-
-    .ais-SearchBox-form {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-
-      input,
-      button {
-        font-size: 1.1em;
-        margin: 0;
-        padding: 0.3em 0.7em;
-        outline: none;
-        border: none;
-      }
-
-      [type='search'] {
-        flex: 1;
-        color: #111;
-        -webkit-appearance: none;
-      }
-
-      button {
-        background-color: white;
-      }
-    }
   }
 
   .ais-Pagination {
@@ -271,6 +240,64 @@
 
     .card__title {
       font-size: var(--font-size-s);
+    }
+  }
+
+  .ais-SearchBox-form {
+    display: flex;
+    align-items: center;
+
+    padding: 0.2em 0.5em;
+
+    background-color: $color-lightgrey;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: $color-grey;
+    border-radius: 2em;
+
+    input,
+    button {
+      font-size: 0.8rem;
+      margin: 0;
+      padding: 0;
+      border: transparent;
+      background-color: transparent;
+      outline: none;
+      width: auto;
+    }
+
+    // from
+    input[type='search']::-webkit-search-cancel-button,
+    input[type='search']::-webkit-search-decoration,
+    input[type='search']::-webkit-search-results-button,
+    input[type='search']::-webkit-search-results-decoration {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+    }
+
+    input[type='search'] {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -webkit-box-sizing: content-box;
+      -moz-box-sizing: content-box;
+      box-sizing: content-box;
+    }
+
+    button {
+      flex: 1;
+      fill: $color-darkgrey;
+    }
+
+    .ais-SearchBox-submit {
+      display: none;
+    }
+  }
+
+  #searchbox .ais-SearchBox-form {
+    input,
+    button {
+      font-size: var(--font-size-m);
     }
   }
 }
