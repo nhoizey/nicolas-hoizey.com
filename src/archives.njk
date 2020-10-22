@@ -3,6 +3,17 @@ layout: default
 title: Archives
 ---
 
+{% if build.env == 'production' %}
+  {% set css %}
+  {% include_raw config.dir.dist + "/css/" + hashes_css['instantsearch.css'] %}
+  {% endset %}
+  <style>
+    {{css | safe}}
+  </style>
+{% else %}
+  <link rel="stylesheet" href="/css/instantsearch.css" />
+{% endif %}
+
 <div class="instant-search">
   <div id="searchbox"></div>
   <div id="clear-refinements"></div>
