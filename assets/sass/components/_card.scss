@@ -1,6 +1,19 @@
 $card-radius: 0.5em;
 $card-padding: 1em;
 
+.cards-list {
+  clear: both;
+
+  margin: $gap 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.cards-list > * + * {
+  margin-top: $gap;
+}
+
 .card {
   position: relative;
   padding: $card-padding;
