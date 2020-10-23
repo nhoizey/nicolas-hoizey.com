@@ -1,0 +1,106 @@
+---
+title: Archives
+---
+
+{% extends "./default.njk" %}
+
+{% from "macros/articleCard.njk" import articleCard %}
+{% from "macros/linkCard.njk" import linkCard %}
+{% from "macros/noteCard.njk" import noteCard %}
+
+{% set currentType = page.filePathStem | split("/") | offset(1) | first %}
+{% set currentTypeSingular = currentType.slice(0, -1) %}
+
+{% block content %}
+  <h2>
+    {% block title %}
+      {% if currentType == 'archives' %}
+        Archives
+      {% else %}
+        Latest {{ currentType }}
+      {% endif %}
+    {% endblock %}
+  </h2>
+  <div class="archives">
+    <div id="searchbox"></div>
+    <div id="clear-refinements"></div>
+    <div class="refinements">
+      <div id="types-list">
+        <div class="ais-Panel">
+          <div class="ais-Panel-header">Types</div>
+          <ul class="no-ais-RefinementList-list">
+            {% for type in['article', 'link', 'note', 'tag', 'talk'] %}
+              {% set plural = type + "s" %}
+              {% if plural == currentType -%}
+                <li class="ais-RefinementList-item ais-RefinementList-item--selected">
+                  <strong>{{ type }}</strong>
+                  <span class="ais-RefinementList-count">{{ collections[plural] | length }}</span>
+                </li>
+              {% else %}
+                <li class="ais-RefinementList-item">
+                  <a href="/{{ type }}s/">{{ type }}</a>
+                  <span class="ais-RefinementList-count">{{ collections[plural] | length }}</span>
+                </li>
+              {%- endif -%}
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div id="dates-menu">
+        {% block dates %}
+          <div class="ais-Panel">
+            <div class="ais-Panel-header">Dates</div>
+            <div class="ais-HierarchicalMenu">
+              <ul class="ais-HierarchicalMenu-list">
+                {% for year in collections["yearsWith" + currentType | capitalize] %}
+                  <li class="ais-HierarchicalMenu-item">
+                    <div>
+                      <a class="ais-HierarchicalMenu-link" href="/{{ currentType }}/{{ year }}/">
+                        <span class="ais-HierarchicalMenu-label">{{ year }}</span>
+                      </a>
+                    </div>
+                  </li>
+                {%- endfor %}
+              </ul>
+            </div>
+          </div>
+        {% endblock %}
+      </div>
+      <div id="langs-list"></div>
+      <div id="tags-list"></div>
+    </div>
+    <div id="stats"></div>
+    <div id="powered-by"></div>
+    <div id="hits">
+      {% block hits %}
+        <div class="cards-list">
+          {% for item in collections[currentType] | limit(10) %}
+            {% if item.data.layout == 'article' %}
+              {{ articleCard(item) }}
+            {% endif %}
+            {% if item.data.layout == 'link' %}
+              {{ linkCard(item) }}
+            {% endif %}
+            {% if item.data.layout == 'note' %}
+              {{ noteCard(item) }}
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endblock %}
+    </div>
+    <div id="pagination">
+      {% block pagination %}{% endblock %}
+    </div>
+  </div>
+
+  {% if currentTypeSingular != archive %}
+    <script>
+      window.instantsearchInitialUiState = {
+        refinementList: {
+          type: ['{{ currentTypeSingular }}']
+        }
+      };
+    </script>
+  {% endif %}
+  <script src="/js/{{ hashes_archives['assets/js/archives.js']}}"></script>
+{% endblock %}
