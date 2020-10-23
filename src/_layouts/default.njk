@@ -33,6 +33,7 @@
 
     <main id="main" role="main">
       <div class="wrap">
+        {% block content %}{% endblock %}
         {{ content | safe }}
       </div>
     </main>
