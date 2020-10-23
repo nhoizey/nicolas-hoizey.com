@@ -7,11 +7,9 @@ eleventyExcludeFromCollections: true
 {% from "macros/linkCard.njk" import linkCard %}
 
 <h2>Latest links</h2>
-<ul class="grid">
+<div class="cards-list">
   {% for link in collections.links | limit(6) %}
-    <li class="card h-entry">
-      {{ linkCard(link) }}
-    </li>
+    {{ linkCard(link) }}
   {% endfor %}
 </ul>
 
@@ -19,8 +17,8 @@ eleventyExcludeFromCollections: true
 <p class="pagination">
   Years:
   {% set separator = joiner(", ") %}
-  {% for linkYear in collections.yearsWithLinks %}
-    {{ separator() }}
-    <a href="/links/{{ linkYear }}/">{{ linkYear }}</a>
-  {%- endfor %}
+{% for linkYear in collections.yearsWithLinks %}
+  {{ separator() }}
+  <a href="/links/{{ linkYear }}/">{{ linkYear }}</a>
+{%- endfor %}
 </p>

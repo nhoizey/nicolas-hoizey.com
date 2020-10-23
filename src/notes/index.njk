@@ -8,11 +8,9 @@ eleventyExcludeFromCollections: true
 {% from "macros/noteCard.njk" import noteCard %}
 
 <h2>Latest notes</h2>
-<ul class="list">
+<div class="cards-list">
   {% for note in collections.notes | limit(10) %}
-    <li class="card h-entry note">
-      {{ noteCard(note) }}
-    </li>
+    {{ noteCard(note) }}
   {% endfor %}
 </ul>
 
@@ -20,8 +18,8 @@ eleventyExcludeFromCollections: true
 <p class="pagination">
   Years:
   {% set separator = joiner(", ") %}
-  {% for noteYear in collections.yearsWithNotes %}
-    {{ separator() }}
-    <a href="/notes/{{ noteYear }}/">{{ noteYear }}</a>
-  {%- endfor %}
+{% for noteYear in collections.yearsWithNotes %}
+  {{ separator() }}
+  <a href="/notes/{{ noteYear }}/">{{ noteYear }}</a>
+{%- endfor %}
 </p>

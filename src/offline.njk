@@ -10,60 +10,73 @@ permalink: offline.html
 
 <section class="hidden" id="cachedArticles">
   <h2>Articles</h2>
-  <ul class="list"></ul>
+  <div class="cards-list">
+</ul>
 </section>
 <section class="hidden" id="cachedLinks">
-  <h2>Links</h2>
-  <ul class="list"></ul>
+<h2>Links</h2>
+<div class="cards-list">
+</ul>
 </section>
 <section class="hidden" id="cachedNotes">
-  <h2>Notes</h2>
-  <ul class="list"></ul>
+<h2>Notes</h2>
+<div class="cards-list">
+</ul>
 </section>
 
 <script>
-  // https://googlechrome.github.io/samples/service-worker/window-caches/
+// https://googlechrome.github.io/samples/service-worker/window-caches/
 
-  const cachedContent = {
-    articles: [],
-    links: [],
-    tags: []
-  };
+const cachedContent = {
+articles: [],
+links: [],
+tags: []
+};
 
-  window.caches
-    .open("pages")
-    .then(cache => {
-      return cache.keys();
-    })
-    .then(requests => {
-      requests.forEach(request => {
-        const requestUrl = new URL(request.url);
-        const requestPath = requestUrl.pathname;
-        if (/^\/articles\/[0-9]{4}\/[0-9]{2}\/./.test(requestPath)) {
-          addRequestToList(request, "cachedArticles");
-        } else {
-          if (/^\/links\/[0-9]{4}\/[0-9]{2}\/./.test(requestPath)) {
-            addRequestToList(request, "cachedLinks");
-          } else {
-            if (/^\/notes\/[0-9]{4}\/[0-9]{2}\/./.test(requestPath)) {
-              addRequestToList(request, "cachedNotes");
-            }
-          }
-        }
-      });
-    });
+window
+.caches
+.open("pages")
+.then(cache => {
+return cache.keys();
+})
+.then(requests => {
+requests.forEach(request => {
+  const requestUrl = new URL(request.url);
+  const requestPath = requestUrl.pathname;
+  if (/^\/articles\/[0-9]{4}\/[0-9]{2}\/./.test(requestPath)) {
+    addRequestToList(request, "cachedArticles");
+  } else {
+    if (/^\/links\/[0-9]{4}\/[0-9]{2}\/./.test(requestPath)) {
+      addRequestToList(request, "cachedLinks");
+    } else {
+      if (/^\/notes\/[0-9]{4}\/[0-9]{2}\/./.test(requestPath)) {
+        addRequestToList(request, "cachedNotes");
+      }
+    }
+  }
+});
+});
 
-  function addRequestToList(request, group) {
-    const requestUrl = new URL(request.url);
-    const requestPath = requestUrl.pathname;
+function addRequestToList(request, group) {
+const requestUrl = new URL(request.url);
+const requestPath = requestUrl.pathname;
 
-    window.caches.open("pages").then(cache => {
-      cache.match(request).then(item => {
-        item.text().then(pageHtml => {
+window
+.caches
+.open("pages")
+.then(cache => {
+  cache
+    .match(request)
+    .then(item => {
+      item
+        .text()
+        .then(pageHtml => {
           let pageDom = document.createElement("html");
           pageDom.innerHTML = pageHtml;
 
-          let pageTitle = pageDom.querySelector("h1").innerText;
+          let pageTitle = pageDom
+            .querySelector("h1")
+            .innerText;
 
           let linkElement = document.createElement("a");
           linkElement.href = request.url;
@@ -80,16 +93,21 @@ permalink: offline.html
 
           if (pageDom.querySelector(".main footer")) {
             let pageMeta = document.createElement("footer");
-            pageMeta.innerHTML = pageDom.querySelector(
-              ".main footer"
-            ).innerHTML;
+            pageMeta.innerHTML = pageDom
+              .querySelector(".main footer")
+              .innerHTML;
             liElement.appendChild(pageMeta);
           }
 
-          document.querySelector("#" + group + " ul").appendChild(liElement);
-          document.getElementById(group).classList.remove("hidden");
+          document
+            .querySelector("#" + group + " ul")
+            .appendChild(liElement);
+          document
+            .getElementById(group)
+            .classList
+            .remove("hidden");
         });
-      });
     });
-  }
+});
+}
 </script>

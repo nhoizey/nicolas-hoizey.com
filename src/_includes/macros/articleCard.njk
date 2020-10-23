@@ -1,12 +1,14 @@
 {% macro articleCard(article) %}
-  <div class="card__content">
-    <p class="card__title p-name">
-      <a href="{{ article.url }}" hreflang="{{ article.data.lang }}" class="u-url">{{ article.data.title }}</a>
-    </p>
-    <p class="card__text p-summary">{{ article.templateContent | excerpt | safe }}</p>
-  </div>
-  <div class="card__meta">
-    {% from "macros/meta.njk" import meta %}
-    {{ meta(article) }}
-  </div>
+  <article class="card h-entry">
+    <div class="card__content">
+      <p class="card__title p-name">
+        <a href="{{ article.url }}" hreflang="{{ article.data.lang }}" class="u-url">{{ article.data.title }}</a>
+      </p>
+      <p class="card__text p-summary">{{ article.templateContent | excerpt | safe }}</p>
+    </div>
+    <div class="card__meta">
+      {% from "macros/meta.njk" import meta %}
+      {{ meta(article) }}
+    </div>
+  </article>
 {% endmacro %}

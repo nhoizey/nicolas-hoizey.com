@@ -300,14 +300,9 @@
 
   padding: 0;
   list-style-type: none;
-  // font-size: 1rem;
 
   .card.note {
     max-width: none;
-  }
-
-  .card__title {
-    font-size: var(--font-size-s);
   }
 
   .card__text {

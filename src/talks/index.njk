@@ -5,9 +5,9 @@ eleventyExcludeFromCollections: true
 ---
 
 <p>Here are a few talks I gave along the years:</p>
-<ul class="grid">
+<div class="cards-list">
   {% for talk in notist %}
-    <li class="card">
+    <article class="card">
       <figure class="card__illustration">
         <img src="{{ talk.attributes.image.src }}" alt="Cover slide from the talk “{{ talk.attributes.title }}”" class="vignette" width="{{ talk.attributes.image.width }}" height="{{ talk.attributes.image.height }}" />
       </figure>
@@ -33,6 +33,6 @@ eleventyExcludeFromCollections: true
           </li>
         </ul>
       </div>
-    </li>
+    </article>
   {% endfor %}
 </ul>

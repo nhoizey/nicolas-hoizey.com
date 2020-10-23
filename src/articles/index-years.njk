@@ -11,23 +11,21 @@ eleventyComputed:
 
 {% from "macros/articleCard.njk" import articleCard %}
 
-<ul class="list">
+<div class="cards-list">
   {% for article in collections.articlesByYear[year] %}
-    <li class="card h-entry">
-      {{ articleCard(article) }}
-    </li>
+    {{ articleCard(article) }}
   {% endfor %}
 </ul>
 
 <p class="pagination">
   Years:
   {% set separator = joiner(", ") %}
-  {%- for pageEntry in pagination.pages %}
-    {{ separator() }}
-    {% if page.url == pagination.hrefs[loop.index0] %}
-      <strong>{{ pageEntry }}</strong>
-    {% else %}
-      <a href="{{ pagination.hrefs[ loop.index0 ] }}">{{ pageEntry }}</a>
-    {% endif %}
-  {%- endfor %}
+{%- for pageEntry in pagination.pages %}
+  {{ separator() }}
+  {% if page.url == pagination.hrefs[loop.index0] %}
+    <strong>{{ pageEntry }}</strong>
+  {% else %}
+    <a href="{{ pagination.hrefs[ loop.index0 ] }}">{{ pageEntry }}</a>
+  {% endif %}
+{%- endfor %}
 </p>

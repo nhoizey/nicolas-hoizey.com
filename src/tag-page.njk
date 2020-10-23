@@ -30,21 +30,15 @@ permalink: /tags/{{ tag.slug }}/
   <p>There is only one content with this tag:</p>
 {% endif %}
 
-<ul class="grid">
+<div class="cards-list">
   {% set contentItems = collections[tag.tag] %}
   {% for item in contentItems | reverse %}
     {% if item.data.layout == "article" %}
-      <li class="card card--full h-entry">
-        {{ articleCard(item) }}
-      </li>
+      {{ articleCard(item) }}
     {% elif item.data.layout == "link" %}
-      <li class="card h-entry">
-        {{ linkCard(item) }}
-      </li>
+      {{ linkCard(item) }}
     {% elif item.data.layout == "note" %}
-      <li class="card h-entry">
-        {{ noteCard(item) }}
-      </li>
+      {{ noteCard(item) }}
     {% endif %}
   {% endfor %}
 </ul>
