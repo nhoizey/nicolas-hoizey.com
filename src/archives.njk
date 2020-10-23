@@ -25,7 +25,44 @@ title: Archives
   </div>
   <div id="stats"></div>
   <div id="powered-by"></div>
-  <div id="hits"></div>
+  <div id="hits">
+
+    {% from "macros/articleCard.njk" import articleCard %}
+    {% from "macros/linkCard.njk" import linkCard %}
+    {% from "macros/noteCard.njk" import noteCard %}
+    <ul class="list">
+      {% set count = 0 %}
+      {% for item in collections.archives | limit(10) %}
+        {% if count < 10 %}
+          {% if item.data.layout == 'article' %}
+            <li class="card h-entry">
+              {{ articleCard(item) }}
+            </li>
+            {% set count = count + 1 %}
+          {% endif %}
+          {% if item.data.layout == 'link' %}
+            <li class="card h-entry">
+              {{ linkCard(item) }}
+            </li>
+            {% set count = count + 1 %}
+          {% endif %}
+          {% if item.data.layout == 'note' %}
+            <li class="card h-entry">
+              {{ noteCard(item) }}
+            </li>
+            {% set count = count + 1 %}
+          {% endif %}
+          {% if item.data.layout == 'tag' %}
+            <li class="card h-entry">
+              taaaaag!
+            </li>
+            {% set count = count + 1 %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+
+  </div>
   <div id="pagination"></div>
 </div>
 
@@ -35,4 +72,4 @@ title: Archives
 <script>
   {{ js | replace('//# sourceMappingURL=', '//# sourceMappingURL=/js/') | safe }}
 </script> #}
-<script src="/js/{{ hashes_instantsearch['assets/js/instantsearch.js']}}"></script>
+{# <script src="/js/{{ hashes_instantsearch['assets/js/instantsearch.js']}}"></script> #}
