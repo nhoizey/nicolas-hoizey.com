@@ -32,5 +32,5 @@
   {% endset %}
 
   {% from "macros/card.njk" import card %}
-  {{ card(surtitle, link.data.title, link.url, illustration, false, meta) }}
+  {{ card('link', link.data.lang, surtitle, link.data.title, link.url, illustration, false, meta) }}
 {% endmacro %}

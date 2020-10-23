@@ -1,5 +1,5 @@
-{% macro card(surtitle = false, title = false, url = false, illustration = false, content = false, meta = false) %}
-  <article class="card h-entry">
+{% macro card(type = false, lang = 'en', surtitle = false, title = false, url = false, illustration = false, content = false, meta = false) %}
+  <article class="card {{ type or '' }} h-entry" lang="{{ lang }}">
     <div class="with-sidebar">
       <div class="only-for-sidebar">
         {% if illustration %}
