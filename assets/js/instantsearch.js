@@ -111,7 +111,11 @@ search.addWidgets([
       item(hit) {
         console.dir(hit);
         return (
-          '<article class="card h-entry">' +
+          `<article class="card ${hit.type} h-entry" lang="${hit.lang}">
+            <div class="with-sidebar">
+              <div class="only-for-sidebar">` +
+          (hit.illustration ? hit.illustration : '') +
+          '<div class="card__main not-sidebar">' +
           (hit.surtitle
             ? `<p class="card__surtitle">${hit.surtitle}</p>`
             : '') +
@@ -130,6 +134,7 @@ search.addWidgets([
                 '</div>'
               : '<div class="card__text p-summary">' + hit.excerpt + '</div>'
           }` +
+          '</div></div></div>' +
           (hit.meta_html
             ? `
 ${hit.meta_html}`
