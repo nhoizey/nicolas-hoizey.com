@@ -7,4 +7,4 @@ Wonder if #EveryLayout's sidebar could be used for a media component where the i
 
 Looks like it's either 1st element on the left or 2nd element on the right… 🤔
 
-![A media element based on EveryLayout's sidebar?](everylayout-media-element.png)
+![A media element based on EveryLayout's sidebar?](everylayout-media-element.svg){width=2179}{height=1490}
