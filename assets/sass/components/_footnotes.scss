@@ -10,7 +10,7 @@
   content-visibility: auto;
   contain-intrinsic-size: 1px 500px;
 
-  margin: $baseline 0;
+  margin: var(--gap) 0;
   background-color: #eee;
   color: #333;
   border: 1px solid #ccc;

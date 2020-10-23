@@ -1,6 +1,5 @@
 @import 'functions';
 @import 'global/variables';
-@import 'global/dimensions';
 @import 'global/colors';
 @import 'components/toast';
 @import 'components/notification';
@@ -31,7 +30,7 @@ blockquote:not(.tweet-card) {
   position: relative;
 
   & > * + * {
-    margin-top: $baseline;
+    margin-top: var(--gap);
     margin-bottom: 0;
   }
 
@@ -126,7 +125,7 @@ article {
 }
 
 .edit {
-  margin-top: $baseline;
+  margin-top: var(--gap);
   padding: 0.5em 0;
   font-size: var(--font-size-xxs);
   color: $color-primary-lighter-6;

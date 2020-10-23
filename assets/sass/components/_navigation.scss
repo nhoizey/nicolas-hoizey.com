@@ -2,7 +2,7 @@
   background-color: $color-primary;
   color: #fff;
 
-  margin: 0 0 calc(#{$baseline} * 2);
+  margin: 0 0 calc(var(--gap) * 2);
   padding: 0.25em 0 0;
   overflow-x: auto;
   -webkit-overflow-scrolling: auto;

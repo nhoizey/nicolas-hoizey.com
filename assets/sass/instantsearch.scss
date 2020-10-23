@@ -1,5 +1,4 @@
 @import 'global/variables';
-@import 'global/dimensions';
 @import 'global/colors';
 
 // ************************************************************
@@ -14,8 +13,8 @@
     'stats poweredby'
     'hits hits'
     'pagination pagination';
-  grid-gap: 0.5em;
-  gap: 0.5em;
+  grid-gap: calc(var(--gap) / 2);
+  gap: calc(var(--gap) / 2);
 }
 
 #clear-refinements,
@@ -27,23 +26,26 @@
 
 @media (min-width: 40em) {
   .instant-search {
-    grid-template-columns: 10em 1fr 1fr;
+    grid-template-columns: 1fr 1fr var(--gap) 10em;
     grid-template-areas:
-      'searchbox searchbox searchbox'
-      'clear stats poweredby'
-      'refinements hits hits'
-      'refinements pagination pagination';
+      'searchbox searchbox gutter clear'
+      'stats poweredby gutter empty'
+      'hits hits gutter refinements'
+      'pagination pagination gutter refinements';
   }
 
   #clear-refinements,
   .refinements {
     display: block;
-    margin-right: 1em;
   }
 }
 
 #searchbox {
   grid-area: searchbox;
+
+  // prepare space to prevent layout shift
+  // input font-size + padding + border
+  min-height: calc(1.5em + 2 * 0.2em + 2 * 1px);
 }
 
 #clear-refinements {
@@ -59,6 +61,8 @@
 
 #powered-by {
   grid-area: poweredby;
+
+  min-height: 1.5em;
 }
 
 .refinements {
@@ -73,7 +77,7 @@
   grid-area: pagination;
 
   .ais-Pagination {
-    margin-top: $gap;
+    margin-top: var(--gap);
   }
 }
 
@@ -105,7 +109,7 @@
 
 .ais-InfiniteHits-loadMore {
   display: block;
-  margin: $gap auto;
+  margin: var(--gap) auto;
 }
 
 .ais-ClearRefinements-button--disabled,
@@ -120,13 +124,14 @@
 // ************************************************************
 
 .refinements {
-  font-size: var(--font-size-xs);
+  font-size: var(--font-size-s);
 
   .ais-Panel {
-    margin-bottom: $gap;
+    margin-bottom: var(--gap);
   }
 
   .ais-Panel-header {
+    font-size: var(--font-size-xs);
     border-bottom: 1px solid $color-grey;
     margin-bottom: 0.3em;
   }
@@ -146,11 +151,11 @@
       top: 0.2em;
       font-family: monospace;
       font-size: 1em;
-      content: '+\00a0';
+      content: '+';
     }
 
     &.ais-HierarchicalMenu-item--selected::before {
-      content: '-\00a0';
+      content: '-';
     }
   }
 
@@ -295,7 +300,7 @@
 
 .ais-InfiniteHits-list {
   & > * + * {
-    margin-top: $gap;
+    margin-top: var(--gap);
   }
 
   padding: 0;
