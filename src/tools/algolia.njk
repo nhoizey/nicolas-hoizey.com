@@ -35,8 +35,8 @@ permalink: /tools/algolia.json
   {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
   {%- set authors -%}
   {%- if entry.data.authors -%}
-    <p class="card__surtitle">A content by 
-    {% for author in entry.data.authors -%}
+    <p class="card__surtitle">
+      {%- for author in entry.data.authors -%}
         {%- if not loop.first -%}
           {%- if not loop.last -%}, {% else %} and {% endif -%}
         {%- endif -%}
@@ -44,14 +44,16 @@ permalink: /tools/algolia.json
           <img class="u-photo smallavatar" src="https://res.cloudinary.com/nho/image/twitter_name/{{ author.twitter }}" alt="{{ author.name }} avatar" width="24" height="24" />
         {% endif -%}
         {{ author.name }}
-      {%- endfor -%}.
-    </p>
-  {%- endif -%}{%- endset -%}
-  {%- set content -%}{{ authors }}{{ entry.templateContent }}{%- endset -%}
+      {%- endfor %} wrote</p>
+  {%- endif -%}
+  {%- endset -%}
+  {%- set content -%}{{ authors }} the linked content.
+{{ entry.templateContent }}{%- endset -%}
   {%- set metaHtml %}{{ meta(entry) }}{%- endset -%}
   {
     "type": "link",
     "lang": "{{ entry.data.lang }}",
+    "surtitle": {{ authors | jsonify | safe }},
 		"title": "{{ entry.data.title | safe }}",
 		"date": {{ entry.date | date('X')}},
 		"date_year": "{{ entry.date | date('YYYY')}}",
@@ -60,7 +62,7 @@ permalink: /tools/algolia.json
 		"url": "{{ absoluteEntryUrl }}",
 		"objectID": "{{ absoluteEntryUrl }}",
 		"content": {{ content | cleanForAlgolia | striptags | jsonify | safe }},
-    "excerpt": {{ authors | jsonify | safe }},
+    "excerpt": "",
 		"tags": [
       {% for tag in entry.data.tags %}
         "{{ tag }}"{%- if not loop.last -%},{% endif -%}
