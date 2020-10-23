@@ -19,6 +19,13 @@ const search = instantsearch({
     process.env.ALGOLIA_READ_ONLY_API_KEY
   ),
   routing: true,
+  // searchFunction(helper) {
+  // const page = helper.getPage(); // Retrieve the current page
+  // helper
+  //   .setQuery('Hello') // this call resets the page
+  //   .setPage(page) // we re-apply the previous page
+  //   .search();
+  // },
 });
 
 const typesPanel = panel({
@@ -102,30 +109,33 @@ search.addWidgets([
     container: '#hits',
     templates: {
       item(hit) {
-        // console.dir(hit);
-        return `
-          <div class="card ${hit.type}">
-            <div class="card__content">
-              <p class="card__title">
-                <a href="${hit.url}">${instantsearch.highlight({
-          attribute: 'title',
-          hit,
-        })}</a>
-              </p>
-            </div>
-            ${
-              hit._snippetResult.content.matchLevel !== 'none'
-                ? '<div class="card__text p-summary">' +
-                  hit._snippetResult.content.value +
-                  '</div>'
-                : '<div class="card__text p-summary">' + hit.excerpt + '</div>'
-            }
-            ${
-              hit.meta_html && hit.meta_html !== ''
-                ? '<div class="card__meta">' + hit.meta_html + '</div>'
-                : ''
-            }
-          </div>`;
+        console.dir(hit);
+        return (
+          '<article class="card h-entry">' +
+          (hit.surtitle
+            ? `<p class="card__surtitle">${hit.surtitle}</p>`
+            : '') +
+          (hit.title
+            ? `<p class="card__title"><a href="${
+                hit.url
+              }">${instantsearch.highlight({
+                attribute: 'title',
+                hit,
+              })}</a></p>`
+            : '') +
+          `${
+            hit._snippetResult.content.matchLevel !== 'none'
+              ? '<div class="card__text p-summary">' +
+                hit._snippetResult.content.value +
+                '</div>'
+              : '<div class="card__text p-summary">' + hit.excerpt + '</div>'
+          }` +
+          (hit.meta_html
+            ? `
+${hit.meta_html}`
+            : '') +
+          '</article>'
+        );
       },
     },
   }),
