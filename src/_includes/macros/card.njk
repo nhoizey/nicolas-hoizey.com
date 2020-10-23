@@ -1,0 +1,39 @@
+{% macro card(surtitle = false, title = false, url = false, illustration = false, content = false, meta = false) %}
+  <article class="card h-entry">
+    <div class="with-sidebar">
+      <div class="only-for-sidebar">
+        {% if illustration %}
+          <figure class="card__illustration sidebar">
+            <img
+          alt="{{ illustration.alt }}"
+          width="{{ illustration.width }}"
+          height="{{ illustration.height }}"
+          src="{{ illustration.src }}"
+          class="{{ illustration.classes }}"
+          crossorigin="anonymous" />
+          </figure>
+        {% endif %}
+        <div class="card__main not-sidebar">
+          {% if surtitle %}
+            <p class="card__surtitle">{{ surtitle | safe }}</p>
+          {% endif %}
+          {% if title %}
+            <p class="card__title">
+              <a href="{{ url }}">{{ title }}</a>
+            </p>
+          {% endif %}
+          {% if content %}
+            <div class="card__text">
+              {{ content | safe }}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    {% if meta %}
+      <div class="card__meta">
+        {{ meta | safe }}
+      </div>
+    {% endif %}
+  </article>
+{% endmacro %}
