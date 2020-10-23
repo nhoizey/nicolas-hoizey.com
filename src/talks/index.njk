@@ -16,23 +16,21 @@ eleventyExcludeFromCollections: true
           <a href="/talks/{{ talk.attributes.presented_on | permalinkDate }}/{{ talk.attributes.slug }}/">{{ talk.attributes.title }}</a>
         </p>
       </div>
-      <div class="card__meta">
-        <ul class="meta">
-          <li class="date meta__item meta__date">
-            <svg class="icon"><use xlink:href="#symbol-calendar" /></svg>
-            <time class="dt-published" datetime="{{ talk.attributes.presented_on | attributeDate }}">
-              {{ talk.attributes.presented_on | date("Do MMMM YYYY") }}
-            </time>
-          </li>
-          <li class="date meta__item card__location">
-            {% if talk.attributes.event.url %}
-              <a href="{{ talk.attributes.event.url }}">{{ talk.attributes.event.name }}</a>
-            {% else %}
-              {{ talk.attributes.event.name }}
-            {% endif %}
-          </li>
-        </ul>
-      </div>
+      <ul class="meta">
+        <li class="date meta__item meta__date">
+          <svg class="icon"><use xlink:href="#symbol-calendar" /></svg>
+          <time class="dt-published" datetime="{{ talk.attributes.presented_on | attributeDate }}">
+            {{ talk.attributes.presented_on | date("Do MMMM YYYY") }}
+          </time>
+        </li>
+        <li class="date meta__item card__location">
+          {% if talk.attributes.event.url %}
+            <a href="{{ talk.attributes.event.url }}">{{ talk.attributes.event.name }}</a>
+          {% else %}
+            {{ talk.attributes.event.name }}
+          {% endif %}
+        </li>
+      </ul>
     </article>
   {% endfor %}
-</ul>
+</div>
