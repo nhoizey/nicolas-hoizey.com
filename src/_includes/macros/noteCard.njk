@@ -1,11 +1,7 @@
 {% macro noteCard(note) %}
-  <article class="card h-entry">
-    <div class="card__content" lang="{{ note.data.lang }}">
-      {{ note.templateContent | noteToHtml | absoluteImagePath(note.url) | safe }}
-    </div>
-    <div class="card__meta">
-      {% from "macros/meta.njk" import meta %}
-      {{ meta(note, permalink=true) }}
-    </div>
+  <article class="card h-entry" lang="{{ note.data.lang }}">
+    {{ note.templateContent | noteToHtml | absoluteImagePath(note.url) | safe }}
+    {% from "macros/meta.njk" import meta %}
+    {{ meta(note, permalink=true) }}
   </article>
 {% endmacro %}
