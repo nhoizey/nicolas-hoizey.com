@@ -1,0 +1,16 @@
+---
+layout: false
+title: Tags
+permalink: "/tags/index.html"
+eleventyExcludeFromCollections: true
+---
+
+{% extends "./_layouts/archives.njk" %}
+
+{% from "macros/tagsCloud.njk" import tagsCloud %}
+
+{% block title %}Tags{% endblock %}
+
+{% block hits %}
+  {{ tagsCloud(collections.tags) }}
+{% endblock %}
