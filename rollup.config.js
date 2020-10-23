@@ -112,7 +112,7 @@ export default [
     plugins: plugins_additional_es,
   },
   {
-    input: path.join(JS_SRC, 'search.js'),
+    input: path.join(JS_SRC, 'archives.js'),
     output: {
       dir: JS_DIST,
       entryFileNames: '[name]-[format].[hash].js',
@@ -140,7 +140,7 @@ export default [
       babel(),
       process.env.NODE_ENV === 'production' && terser(),
       entrypointHashmanifest({
-        manifestName: path.join(HASH, 'hashes_search.json'),
+        manifestName: path.join(HASH, 'hashes_archives.json'),
       }),
     ],
   },
