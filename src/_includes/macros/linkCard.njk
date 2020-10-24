@@ -27,7 +27,7 @@
   {% endif %}
 
   {% set content %}
-  <p class="card__text p-summary">{{ link.templateContent | excerpt | safe }}</p>
+  <p class="card__text p-summary">{{ link.templateContent | excerpt | striptags | safe }}</p>
   {% endset %}
 
   {% from "macros/meta.njk" import meta %}
