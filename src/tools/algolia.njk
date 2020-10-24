@@ -61,11 +61,11 @@ permalink: /tools/algolia.json
 		"url": "{{ absoluteEntryUrl }}",
 		"objectID": "{{ absoluteEntryUrl }}",
     "illustration": {
-      src: "https://image.thum.io/get/width/1200/crop/800/noanimate/{{ entry.data.link }}"
-      alt: "screenshot of {{ entry.data.title | safe }}",
-      width: 1200,
-      height: 800,
-      classes: "vignette"
+      "src": "https://image.thum.io/get/width/1200/crop/800/noanimate/{{ entry.data.link }}",
+      "alt": "screenshot of {{ entry.data.title | safe }}",
+      "width": 1200,
+      "height": 800,
+      "classes": "vignette"
     },
 		"content": {{ content | cleanForAlgolia | striptags | jsonify | safe }},
     "excerpt": {{ entry.templateContent | excerpt | striptags | jsonify | safe }},
