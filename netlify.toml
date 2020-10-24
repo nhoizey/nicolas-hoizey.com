@@ -9,3 +9,7 @@ package = "netlify-build-plugin-dareboost"
 
   [plugins.inputs]
   monitoringIds = "3470,10748,15490,19693"
+
+[context.branch-deploy]
+  command = "npm run build"
+  
