@@ -22,13 +22,16 @@ const search = instantsearch({
   initialUiState: {
     nho: window.instantsearchInitialUiState || {},
   },
-  // searchFunction(helper) {
-  //   const page = helper.getPage(); // Retrieve the current page
-  //   helper
-  //     .setQuery('') // this call resets the page
-  //     .setPage(page) // we re-apply the previous page
-  //     .search();
-  // },
+  searchFunction(helper) {
+    if (window.instantsearchInitialUiState) {
+      window.instantsearchInitialUiState = false;
+    }
+    const page = helper.getPage(); // Retrieve the current page
+    // console.dir(helper);
+    helper
+      .setPage(page) // we re-apply the previous page
+      .search();
+  },
 });
 
 const typesPanel = panel({
@@ -153,3 +156,23 @@ ${hit.meta_html}`
 ]);
 
 search.start();
+
+document
+  .querySelectorAll(
+    '.navigation a[href="/articles/"], .navigation a[href="/links/"], .navigation a[href="/notes/"]'
+  )
+  .forEach((navigationItem) => {
+    // console.dir(navigationItem);
+    navigationItem.addEventListener('click', (event) => {
+      event.preventDefault();
+      const typePlural = event.originalTarget.pathname.split('/')[1];
+      const typeSingular = typePlural.slice(0, -1);
+      console.log(typeSingular);
+      search.setUiState({
+        refinementList: {
+          type: [typeSingular],
+        },
+        page: 1,
+      });
+    });
+  });
