@@ -127,7 +127,7 @@ permalink: /tools/algolia.json
 	}
   {%- if not loop.last -%},{% endif -%}
 {% endfor %}
-,
+{# ,
 {% for entry in collections.tags %}
   {%- set absoluteEntryUrl -%}{{ pkg.homepage }}/tags/{{ entry.slug }}/{%- endset -%}
   {
@@ -145,5 +145,5 @@ permalink: /tools/algolia.json
     {% endif %}
 	}
   {%- if not loop.last -%},{% endif -%}
-{% endfor %}
+{% endfor %} #}
 ]
