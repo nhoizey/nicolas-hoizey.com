@@ -42,6 +42,7 @@ const search = instantsearch({
     let contentType = 'archive';
     let typeTitle = 'Archives';
     if (
+      uiState.nho.refinementList &&
       uiState.nho.refinementList.type &&
       uiState.nho.refinementList.type.length === 1
     ) {
@@ -58,6 +59,7 @@ const search = instantsearch({
         li.classList.remove('current');
       }
     });
+    // TODO: update URL with https://www.algolia.com/doc/guides/building-search-ui/going-further/routing-urls/js/
     setUiState(uiState);
   },
 });
@@ -185,6 +187,7 @@ ${hit.meta_html}`
 
 search.start();
 
+// TODO: handle navigation as type selection and other facets reset
 // document
 //   .querySelectorAll(
 //     '.navigation a[href="/articles/"], .navigation a[href="/links/"], .navigation a[href="/notes/"]'
