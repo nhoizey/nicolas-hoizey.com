@@ -150,7 +150,17 @@ search.addWidgets([
           `<article class="card ${hit.type} h-entry" lang="${hit.lang}">
             <div class="with-sidebar">
               <div class="only-for-sidebar">` +
-          (hit.illustration ? hit.illustration : '') +
+          (hit.illustration
+            ? `<figure class="card__illustration sidebar">
+                <img
+                  alt="${hit.illustration.alt}"
+                  width="${hit.illustration.width}"
+                  height="${hit.illustration.height}"
+                  src="${hit.illustration.src}"
+                  class="${hit.illustration.classes}"
+                  crossorigin="anonymous" />
+              </figure>`
+            : '') +
           '<div class="card__main not-sidebar">' +
           (hit.surtitle
             ? `<p class="card__surtitle">${hit.surtitle}</p>`
