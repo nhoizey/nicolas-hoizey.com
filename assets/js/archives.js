@@ -12,6 +12,9 @@ import {
   stats,
 } from 'instantsearch.js/es/widgets';
 
+const titleize = (string) =>
+  string.charAt(0).toUpperCase() + string.slice(1) + 's';
+
 const search = instantsearch({
   indexName: process.env.ALGOLIA_INDEX_NAME,
   searchClient: algoliasearch(
@@ -22,15 +25,40 @@ const search = instantsearch({
   initialUiState: {
     nho: window.instantsearchInitialUiState || {},
   },
-  searchFunction(helper) {
-    if (window.instantsearchInitialUiState) {
-      window.instantsearchInitialUiState = false;
+  // searchFunction(helper) {
+  // if (window.instantsearchInitialUiState) {
+  //   window.instantsearchInitialUiState = false;
+  // }
+  // if (helper.state.query) {
+  //   helper.search();
+  // }
+  // const page = helper.getPage(); // Retrieve the current page
+  // console.dir(helper);
+  // helper
+  // .setPage(page) // we re-apply the previous page
+  // .search();
+  // },
+  onStateChange({ uiState, setUiState }) {
+    let contentType = 'archive';
+    let typeTitle = 'Archives';
+    if (
+      uiState.nho.refinementList.type &&
+      uiState.nho.refinementList.type.length === 1
+    ) {
+      contentType = uiState.nho.refinementList.type[0];
+      typeTitle = titleize(contentType);
     }
-    const page = helper.getPage(); // Retrieve the current page
-    // console.dir(helper);
-    helper
-      .setPage(page) // we re-apply the previous page
-      .search();
+    document.querySelector('h1').innerText = typeTitle;
+    document.title = `${typeTitle} - Nicolas Hoizey`;
+    document.querySelectorAll('.navigation li').forEach((li) => {
+      const link = li.querySelectorAll(`a[href="/${contentType}s/"]`);
+      if (link.length === 1) {
+        li.classList.add('current');
+      } else {
+        li.classList.remove('current');
+      }
+    });
+    setUiState(uiState);
   },
 });
 
@@ -157,23 +185,26 @@ ${hit.meta_html}`
 
 search.start();
 
-document
-  .querySelectorAll(
-    '.navigation a[href="/articles/"], .navigation a[href="/links/"], .navigation a[href="/notes/"]'
-  )
-  .forEach((navigationItem) => {
-    // console.dir(navigationItem);
-    navigationItem.addEventListener('click', (event) => {
-      event.preventDefault();
-      const typePlural = event.originalTarget.pathname.split('/')[1];
-      const typeSingular = typePlural.slice(0, -1);
-      console.log(typeSingular);
-      search.setUiState({
-        refinementList: {
-          type: [typeSingular],
-        },
-        page: 1,
-      });
-      // TODO: change active navigation item
-    });
-  });
+// document
+//   .querySelectorAll(
+//     '.navigation a[href="/articles/"], .navigation a[href="/links/"], .navigation a[href="/notes/"]'
+//   )
+//   .forEach((navigationItem) => {
+//     navigationItem.addEventListener('click', (event) => {
+//       event.preventDefault();
+//       const typePlural = event.originalTarget.pathname.split('/')[1];
+//       const typeSingular = typePlural.slice(0, -1);
+//       const refinementItem = document.querySelector(
+//         `#types-list .ais-RefinementList-checkbox[value="${typeSingular}"]`
+//       );
+//       const clickEvent = new Event('click');
+//       refinementItem.dispatchEvent(clickEvent);
+//       // search.setUiState({
+//       //   refinementList: {
+//       //     type: [typeSingular],
+//       //   },
+//       //   page: 1,
+//       // });
+//       // TODO: change active navigation item
+//     });
+//   });

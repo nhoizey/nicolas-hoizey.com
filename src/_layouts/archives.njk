@@ -12,15 +12,15 @@ title: Archives
 {% set currentTypeSingular = currentType.slice(0, -1) %}
 
 {% block content %}
-  <h2>
+  <h1>
     {% block title %}
       {% if currentType == 'archives' %}
         Archives
       {% else %}
-        Latest {{ currentType }}
+        {{ currentType | capitalize }}
       {% endif %}
     {% endblock %}
-  </h2>
+  </h1>
   <div class="archives">
     <div id="searchbox"></div>
     <div id="clear-refinements"></div>
