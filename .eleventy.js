@@ -225,7 +225,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig
     .addPassthroughCopy(
-      path.join(config.dir.src, '**/*.{jpg,png,gif,kmz,zip,css}')
+      path.join(config.dir.src, '**/*.{jpg,png,gif,svg,kmz,zip,css}')
     )
     .addPassthroughCopy(path.join(config.dir.src, 'assets'))
     .addPassthroughCopy(path.join(config.dir.src, '.well-known'))

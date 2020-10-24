@@ -4,35 +4,48 @@ title: Talks
 eleventyExcludeFromCollections: true
 ---
 
+{% from "macros/card.njk" import card %}
+
 <p>Here are a few talks I gave along the years:</p>
-<ul class="grid">
+<div class="cards-list">
+
   {% for talk in notist %}
-    <li class="card">
-      <figure class="card__illustration">
-        <img src="{{ talk.attributes.image.src }}" alt="Cover slide from the talk “{{ talk.attributes.title }}”" class="vignette" width="{{ talk.attributes.image.width }}" height="{{ talk.attributes.image.height }}" />
-      </figure>
-      <div class="car__content">
-        <p class="card__title">
-          <a href="/talks/{{ talk.attributes.presented_on | permalinkDate }}/{{ talk.attributes.slug }}/">{{ talk.attributes.title }}</a>
-        </p>
-      </div>
-      <div class="card__meta">
-        <ul class="meta">
-          <li class="date meta__item meta__date">
-            <svg class="icon"><use xlink:href="#symbol-calendar" /></svg>
-            <time class="dt-published" datetime="{{ talk.attributes.presented_on | attributeDate }}">
-              {{ talk.attributes.presented_on | date("Do MMMM YYYY") }}
-            </time>
-          </li>
-          <li class="date meta__item card__location">
-            {% if talk.attributes.event.url %}
-              <a href="{{ talk.attributes.event.url }}">{{ talk.attributes.event.name }}</a>
-            {% else %}
-              {{ talk.attributes.event.name }}
-            {% endif %}
-          </li>
-        </ul>
-      </div>
-    </li>
+
+    {% set illustration = {
+      src: talk.attributes.image.src,
+      alt: "Cover slide from the talk “" + talk.attributes.title + "”",
+      width: talk.attributes.image.width,
+      height: talk.attributes.image.height,
+      classes: "vignette"
+    } %}
+
+    {%- set url -%}
+    /talks/{{ talk.attributes.presented_on | permalinkDate }}/{{ talk.attributes.slug }}/
+    {%- endset -%}
+
+    {% set content %}
+    {{ talk.attributes.blurb | excerpt | safe }}
+    {% endset %}
+
+    {% set meta %}
+    <ul class="meta">
+      <li class="date meta__item meta__date">
+        <svg class="icon"><use xlink:href="#symbol-calendar" /></svg>
+        <time class="dt-published" datetime="{{ talk.attributes.presented_on | attributeDate }}">
+          {{ talk.attributes.presented_on | date("Do MMMM YYYY") }}
+        </time>
+      </li>
+      <li class="date meta__item card__location">
+        {% if talk.attributes.event.url %}
+          <a href="{{ talk.attributes.event.url }}">{{ talk.attributes.event.name }}</a>
+        {% else %}
+          {{ talk.attributes.event.name }}
+        {% endif %}
+      </li>
+    </ul>
+    {% endset %}
+
+    {{ card('talk', 'en', surtitle, talk.attributes.title, url, illustration, content, meta) }}
+
   {% endfor %}
-</ul>
+</div>

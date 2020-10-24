@@ -81,7 +81,7 @@
   }
 
   .tweet-bird {
-    margin-left: $baseline;
+    margin-left: var(--gap);
   }
 }
 

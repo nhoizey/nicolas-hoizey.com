@@ -85,5 +85,5 @@
 }
 
 .webmentions__item .meta {
-  margin-top: $baseline / 2;
+  margin-top: calc(var(--gap) / 2);
 }

@@ -1,12 +1,25 @@
-$card-radius: 0.5em;
-$card-padding: 1em;
+// ************************************************************
+// Card lists
+// ************************************************************
+
+.cards-list {
+  clear: both;
+}
+
+.cards-list > * + * {
+  margin-top: var(--gap);
+}
+
+// ************************************************************
+// Cards
+// ************************************************************
 
 .card {
   position: relative;
-  padding: $card-padding;
+  padding: calc(var(--gap) / 2);
 
   border: 2px solid $color-grey;
-  border-radius: $card-radius;
+  border-radius: calc(var(--gap) / 2);
   background-color: $color-white;
   transition: border 0.3s ease-in-out;
   &:hover {
@@ -14,13 +27,8 @@ $card-padding: 1em;
   }
 
   & > * + * {
-    margin-top: $baseline;
-    margin-bottom: 0;
+    margin-top: var(--gap);
   }
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 // https://tobiasahlin.com/blog/how-to-animate-box-shadow/
@@ -32,7 +40,7 @@ $card-padding: 1em;
   top: 0;
   bottom: 0;
   z-index: -1;
-  border-radius: $card-radius;
+  border-radius: calc(var(--gap) / 2);
 
   opacity: 0;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
@@ -46,26 +54,10 @@ $card-padding: 1em;
 }
 
 .card__illustration {
-  margin-top: -1 * $card-padding;
-  margin-left: -1 * $card-padding;
-  margin-right: -1 * $card-padding;
-  margin-bottom: 0;
-
   img {
-    margin: 0;
     border-width: 2px;
     border-style: solid;
-    border-color: $color-white $color-white $color-lightgrey $color-white;
-    border-radius: $card-radius $card-radius 0 0;
-  }
-}
-
-.card__content {
-  flex: 1;
-
-  & > * + * {
-    margin-top: $baseline;
-    margin-bottom: 0;
+    border-color: $color-lightgrey;
   }
 }
 
@@ -90,8 +82,15 @@ $card-padding: 1em;
   }
 }
 
+.card__text {
+  & > * + * {
+    margin-top: var(--gap);
+  }
+}
+
+// TODO: remove?
 .card.note {
-  max-width: 40rem;
+  max-width: 45rem;
   margin-left: auto;
   margin-right: auto;
 }

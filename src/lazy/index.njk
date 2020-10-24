@@ -5,11 +5,9 @@ title: Home
 {% from "macros/linkCard.njk" import linkCard %}
 
 <h2>Recent links</h2>
-<ul class="grid">
+<div class="cards-list">
   {% for link in collections.links | limit(4) %}
-    <li class="card h-entry">
-      {{ linkCard(link) }}
-    </li>
+    {{ linkCard(link) }}
   {% endfor %}
 </ul>
 <p>Discover <a href="/links/">all links</a>…</p>
@@ -17,12 +15,10 @@ title: Home
 {% from "macros/noteCard.njk" import noteCard %}
 
 <h2>Recent notes</h2>
-<ul class="list">
-  {% for note in collections.notes | limit(4) %}
-    <li class="card h-entry note">
-      {{ noteCard(note) }}
-    </li>
-  {% endfor %}
+<div class="cards-list">
+{% for note in collections.notes | limit(4) %}
+  {{ noteCard(note) }}
+{% endfor %}
 </ul>
 <p>Discover <a href="/notes/">all notes</a>…</p>
 

@@ -3,7 +3,7 @@
 .warning,
 .error {
   clear: both;
-  padding: $gap/3;
+  padding: calc(var(--gap) / 3);
 
   background-color: #ccc;
   color: #222;
@@ -15,8 +15,8 @@
 
   &::before {
     position: absolute;
-    top: $gap/2;
-    left: $gap/2;
+    top: calc(var(--gap) / 2);
+    left: calc(var(--gap) / 2);
   }
 
   & > * {
