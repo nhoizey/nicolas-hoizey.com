@@ -60,6 +60,7 @@ permalink: /tools/algolia.json
 		"date_day": "{{ entry.date | date('DD')}}",
 		"url": "{{ absoluteEntryUrl }}",
 		"objectID": "{{ absoluteEntryUrl }}",
+    "illustration": "https://image.thum.io/get/width/1200/crop/800/noanimate/{{ entry.data.link }}",
 		"content": {{ content | cleanForAlgolia | striptags | jsonify | safe }},
     "excerpt": {{ entry.templateContent | excerpt | striptags | jsonify | safe }},
 		"tags": [
