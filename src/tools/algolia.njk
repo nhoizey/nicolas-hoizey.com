@@ -121,7 +121,7 @@ permalink: /tools/algolia.json
 		"url": "{{ absoluteEntryUrl }}",
 		"objectID": "{{ absoluteEntryUrl }}",
     "illustration": {
-      "src": "entry.attributes.image.src",
+      "src": "{{ entry.attributes.image.src }}",
       "alt": "Cover slide from the talk “{{ entry.attributes.title }}”",
       "width": {{ entry.attributes.image.width }},
       "height": {{ entry.attributes.image.height }},
