@@ -1,8 +1,62 @@
+const fs = require('fs');
+const path = require('path');
 const fetch = require('node-fetch');
-const { writeToCache } = require('./cache');
 
 const NOTIST_URL = 'https://noti.st/nhoizey.json';
-const NOTIST_CACHE = '_cache/notist.json';
+const NOTIST_MORE = 'src/talks/more.json';
+
+const writeToMarkdown = (notist) => {
+  let more = {};
+  if (fs.existsSync(NOTIST_MORE)) {
+    more = JSON.parse(fs.readFileSync(NOTIST_MORE));
+  }
+
+  console.log('Creating talks files');
+  notist.map((talk) => {
+    console.log(`  ${talk.attributes.title}`);
+    const dir = `src/talks/${talk.attributes.presented_on.replace(
+      /^([0-9]{4})-([0-9]{2})-([0-9]{2}).*$/,
+      '$1/$2/$3'
+    )}/${talk.attributes.slug}`;
+    console.log(`  ${dir}
+`);
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir, { recursive: true });
+    }
+    // prettier-ignore
+    const content = `---
+date: ${talk.attributes.presented_on}${
+      more[dir] && more[dir].lang
+        ? `
+lang: ${more[dir].lang}`
+        : ''
+    }
+title: ${talk.attributes.title}${
+      more[dir] && more[dir].tags
+        ? `
+tags: ${more[dir].tags}`
+        : ''
+    }
+notist_url: ${talk.links.self}
+illustration:
+  src: ${talk.attributes.image.src}
+  width: ${talk.attributes.image.width}
+  height: ${talk.attributes.image.height}
+event:
+  name: ${talk.attributes.event.name}${
+      talk.attributes.event.url !== null
+        ? `
+  url: ${talk.attributes.event.url}`
+        : ''
+    }
+---
+${talk.attributes.blurb.replace(/<\/p>/g, '').replace(/<p>/g, '\n')}
+`;
+    fs.writeFileSync(`${dir}/index.md`, content, (err) => {
+      if (err) throw err;
+    });
+  });
+};
 
 async function fetchAll(urls) {
   const results = await Promise.all(
@@ -24,7 +78,6 @@ const fetchNotist = async () => {
 
         details.map((detail) => {
           detail = detail.data[0];
-          console.log(`Get details for talk "${detail.attributes.title}"`);
           notist.map((talk) => {
             if (talk.id === detail.id) {
               talk.links.self = detail.links.self;
@@ -38,7 +91,7 @@ const fetchNotist = async () => {
           });
         });
 
-        writeToCache(notist, NOTIST_CACHE);
+        writeToMarkdown(notist);
       }
       return {};
     }
