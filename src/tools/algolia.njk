@@ -55,9 +55,9 @@ permalink: /tools/algolia.json
     "surtitle": {{ authors | jsonify | safe }},
 		"title": "{{ entry.data.title | safe }}",
 		"date": {{ entry.date | date('X')}},
-		"date_year": "{{ entry.date | date('YYYY')}}",
-		"date_month": "{{ entry.date | date('MM')}}",
-		"date_day": "{{ entry.date | date('DD')}}",
+		"date.lvl0": "{{ entry.date | date('YYYY')}}",
+		"date.lvl1": "{{ entry.date | date('YYYY')}} > {{ entry.date | date('MM')}}",
+		"date.lvl2": "{{ entry.date | date('YYYY')}} > {{ entry.date | date('MM')}} > {{ entry.date | date('DD')}}",
 		"url": "{{ absoluteEntryUrl }}",
 		"objectID": "{{ absoluteEntryUrl }}",
     "illustration": {
@@ -86,9 +86,9 @@ permalink: /tools/algolia.json
     "type": "note",
     "lang": "{{ entry.data.lang }}",
 		"date": {{ entry.date | date('X')}},
-		"date_year": "{{ entry.date | date('YYYY')}}",
-		"date_month": "{{ entry.date | date('MM')}}",
-		"date_day": "{{ entry.date | date('DD')}}",
+		"date.lvl0": "{{ entry.date | date('YYYY')}}",
+		"date.lvl1": "{{ entry.date | date('YYYY')}} > {{ entry.date | date('MM')}}",
+		"date.lvl2": "{{ entry.date | date('YYYY')}} > {{ entry.date | date('MM')}} > {{ entry.date | date('DD')}}",
 		"url": "{{ absoluteEntryUrl }}",
 		"objectID": "{{ absoluteEntryUrl }}",
 		"content": {{ entry.templateContent | cleanForAlgolia | striptags | jsonify | safe }},
@@ -115,19 +115,26 @@ permalink: /tools/algolia.json
     "lang": "en",
 		"title": "{{ entry.attributes.title }}",
 		"date": {{ entry.attributes.presented_on | date('X')}},
-		"date_year": "{{ entry.attributes.presented_on | date('YYYY')}}",
-		"date_month": "{{ entry.attributes.presented_on | date('MM')}}",
-		"date_day": "{{ entry.attributes.presented_on | date('DD')}}",
+		"date.lvl0": "{{ entry.attributes.presented_on | date('YYYY')}}",
+		"date.lvl1": "{{ entry.attributes.presented_on | date('YYYY')}} > {{ entry.attributes.presented_on | date('MM')}}",
+		"date.lvl2": "{{ entry.attributes.presented_on | date('YYYY')}} > {{ entry.attributes.presented_on | date('MM')}} > {{ entry.attributes.presented_on | date('DD')}}",
 		"url": "{{ absoluteEntryUrl }}",
 		"objectID": "{{ absoluteEntryUrl }}",
+    "illustration": {
+      "src": "{{ entry.attributes.image.src }}",
+      "alt": "Cover slide from the talk “{{ entry.attributes.title }}”",
+      "width": {{ entry.attributes.image.width }},
+      "height": {{ entry.attributes.image.height }},
+      "classes": "vignette"
+    },
 		"content": {{ entryContent }},
-    "excerpt": "",
+    "excerpt": {{ entryContent | excerpt | striptags | jsonify | safe }},
 		"tags": [],
     "meta_html": ""
 	}
   {%- if not loop.last -%},{% endif -%}
 {% endfor %}
-,
+{# ,
 {% for entry in collections.tags %}
   {%- set absoluteEntryUrl -%}{{ pkg.homepage }}/tags/{{ entry.slug }}/{%- endset -%}
   {
@@ -145,5 +152,5 @@ permalink: /tools/algolia.json
     {% endif %}
 	}
   {%- if not loop.last -%},{% endif -%}
-{% endfor %}
+{% endfor %} #}
 ]
