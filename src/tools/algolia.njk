@@ -128,7 +128,7 @@ permalink: /tools/algolia.json
       "classes": "vignette"
     },
 		"content": {{ entryContent }},
-    "excerpt": {{ entryContent | excerpt | striptags | jsonify | safe }},
+    "excerpt": {{ entry.attributes.blurb | excerpt | striptags | jsonify | safe }},
 		"tags": [],
     "meta_html": ""
 	}
