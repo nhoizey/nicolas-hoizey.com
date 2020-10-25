@@ -90,7 +90,7 @@
     <title>{{ ogTitle }} - {{ pkg.author.name }}</title>
   {% else %}
     {% set ogTitle = title %}
-    {% if layout == "article" or layout == "link" %}
+    {% if layout == "article" or layout == "link" or layout == "talk" %}
       {% set ogDescription = pageExcerpt | striptags | truncate(290) | escape %}
       {% set ogType = "article" %}
       {% if layout == "link" %}
