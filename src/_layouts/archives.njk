@@ -10,7 +10,6 @@ title: Archives
 {% from "macros/talkCard.njk" import talkCard %}
 
 {% set currentType = page.filePathStem | split("/") | offset(1) | first %}
-{% set currentTypeSingular = currentType.slice(0, -1) %}
 
 {% block content %}
   <h1>
@@ -31,16 +30,15 @@ title: Archives
           <div class="ais-Panel-header">Types</div>
           <ul class="no-ais-RefinementList-list">
             {% for type in['article', 'link', 'note', 'tag', 'talk'] %}
-              {% set plural = type + "s" %}
-              {% if plural == currentType -%}
+              {% if type == currentType -%}
                 <li class="ais-RefinementList-item ais-RefinementList-item--selected">
                   <strong>{{ type }}</strong>
-                  <span class="ais-RefinementList-count">{{ collections[plural] | length }}</span>
+                  <span class="ais-RefinementList-count">{{ collections[type] | length }}</span>
                 </li>
               {% else %}
                 <li class="ais-RefinementList-item">
-                  <a href="/{{ type }}s/">{{ type }}</a>
-                  <span class="ais-RefinementList-count">{{ collections[plural] | length }}</span>
+                  <a href="/{{ type }}/">{{ type }}</a>
+                  <span class="ais-RefinementList-count">{{ collections[type] | length }}</span>
                 </li>
               {%- endif -%}
             {% endfor %}
@@ -85,6 +83,9 @@ title: Archives
             {% if item.data.layout == 'note' %}
               {{ noteCard(item) }}
             {% endif %}
+            {% if item.data.layout == 'talk' %}
+              {{ talkCard(item) }}
+            {% endif %}
           {% endfor %}
         </div>
       {% endblock %}
@@ -98,7 +99,7 @@ title: Archives
     <script>
       window.instantsearchInitialUiState = {
         refinementList: {
-          type: ['{{ currentTypeSingular }}']
+          type: ['{{ currentType }}']
         },
         page: 1
       };

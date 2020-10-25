@@ -10,7 +10,7 @@ permalink: /tools/algolia.json
   {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
   {%- set metaHtml %}{{ meta(entry) }}{%- endset -%}
   {
-    "type": "article",
+    "type": "articles",
     "lang": "{{ entry.data.lang }}",
 		"title": "{{ entry.data.title | safe }}",
 		"date": {{ entry.date | date('X')}},
@@ -50,7 +50,7 @@ permalink: /tools/algolia.json
 {{ entry.templateContent }}{%- endset -%}
   {%- set metaHtml %}{{ meta(entry) }}{%- endset -%}
   {
-    "type": "link",
+    "type": "links",
     "lang": "{{ entry.data.lang }}",
     "surtitle": {{ authors | jsonify | safe }},
 		"title": "{{ entry.data.title | safe }}",
@@ -64,8 +64,7 @@ permalink: /tools/algolia.json
       "src": "https://image.thum.io/get/width/1200/crop/800/noanimate/{{ entry.data.link }}",
       "alt": "screenshot of {{ entry.data.title | safe }}",
       "width": 1200,
-      "height": 800,
-      "classes": "vignette"
+      "height": 800
     },
 		"content": {{ content | cleanForAlgolia | striptags | jsonify | safe }},
     "excerpt": {{ entry.templateContent | excerpt | striptags | jsonify | safe }},
@@ -83,7 +82,7 @@ permalink: /tools/algolia.json
   {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
   {%- set metaHtml %}{{ meta(entry, true) }}{%- endset -%}
   {
-    "type": "note",
+    "type": "notes",
     "lang": "{{ entry.data.lang }}",
 		"date": {{ entry.date | date('X')}},
 		"date.lvl0": "{{ entry.date | date('YYYY')}}",
@@ -103,33 +102,32 @@ permalink: /tools/algolia.json
   {%- if not loop.last -%},{% endif -%}
 {% endfor %}
 ,
-{% for entry in notist %}
+{% for entry in collections.talks %}
 
-  {%- set absoluteEntryUrl -%}{{ pkg.homepage }}/talks/{{ entry.attributes.presented_on | permalinkDate }}/{{ entry.attributes.slug }}/{%- endset -%}
-  {%- set entryContent -%}{{ entry.attributes.blurb | safe }}
-  {{ entry.attributes.event.name | safe }}{%- endset -%}
-  {%- set entryContent = entryContent | cleanForAlgolia | striptags | jsonify | safe %}
-
+  {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
   {
-    "type": "talk",
-    "lang": "en",
-		"title": "{{ entry.attributes.title }}",
-		"date": {{ entry.attributes.presented_on | date('X')}},
-		"date.lvl0": "{{ entry.attributes.presented_on | date('YYYY')}}",
-		"date.lvl1": "{{ entry.attributes.presented_on | date('YYYY')}} > {{ entry.attributes.presented_on | date('MM')}}",
-		"date.lvl2": "{{ entry.attributes.presented_on | date('YYYY')}} > {{ entry.attributes.presented_on | date('MM')}} > {{ entry.attributes.presented_on | date('DD')}}",
+    "type": "talks",
+    "lang": "{{ entry.lang }}",
+		"title": "{{ entry.data.title }}",
+		"date": {{ entry.date | date('X')}},
+		"date.lvl0": "{{ entry.date | date('YYYY')}}",
+		"date.lvl1": "{{ entry.date | date('YYYY')}} > {{ entry.date | date('MM')}}",
+		"date.lvl2": "{{ entry.date | date('YYYY')}} > {{ entry.date | date('MM')}} > {{ entry.date | date('DD')}}",
 		"url": "{{ absoluteEntryUrl }}",
 		"objectID": "{{ absoluteEntryUrl }}",
     "illustration": {
       "src": "{{ entry.attributes.image.src }}",
-      "alt": "Cover slide from the talk “{{ entry.attributes.title }}”",
+      "alt": "{{ entry.attributes.image.alt }}",
       "width": {{ entry.attributes.image.width }},
-      "height": {{ entry.attributes.image.height }},
-      "classes": "vignette"
+      "height": {{ entry.attributes.image.height }}
     },
-		"content": {{ entryContent }},
-    "excerpt": {{ entry.attributes.blurb | excerpt | striptags | jsonify | safe }},
-		"tags": [],
+		"content": {{ entry.templateContent | cleanForAlgolia | striptags | jsonify | safe }},
+    "excerpt": {{ entry.templateContent | excerpt | striptags | jsonify | safe }},
+		"tags": [
+      {% for tag in entry.data.tags %}
+        "{{ tag }}"{%- if not loop.last -%},{% endif -%}
+  {% endfor %}
+		],
     "meta_html": ""
 	}
   {%- if not loop.last -%},{% endif -%}
@@ -138,7 +136,7 @@ permalink: /tools/algolia.json
 {% for entry in collections.tags %}
   {%- set absoluteEntryUrl -%}{{ pkg.homepage }}/tags/{{ entry.slug }}/{%- endset -%}
   {
-    "type": "tag",
+    "type": "tags",
     "lang": "en",
 		"title": "{{ entry.tag | safe }}",
 		"url": "{{ absoluteEntryUrl }}",
