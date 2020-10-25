@@ -62,20 +62,25 @@ let collections = {
   yearsWithNotes: (collection) => {
     return yearsWithContent(getFilteredCollection(collection, 'notes'));
   },
+  yearsWithTalks: (collection) => {
+    return yearsWithContent(getFilteredCollection(collection, 'talks'));
+  },
   yearsWithArchives: (collection) => {
     return yearsWithContent(getFilteredCollection(collection, 'archives'));
   },
 };
 
-['articles', 'links', 'notes', 'archives'].forEach((collectionName) => {
-  // collections for yearly archives
-  collections[`${collectionName}ByYear`] = (collection) => {
-    return contentsByYear(getFilteredCollection(collection, collectionName));
-  };
-  // collections for monthly archives
-  collections[`${collectionName}ByMonth`] = (collection) => {
-    return contentsByMonth(getFilteredCollection(collection, collectionName));
-  };
-});
+['articles', 'links', 'notes', 'talks', 'archives'].forEach(
+  (collectionName) => {
+    // collections for yearly archives
+    collections[`${collectionName}ByYear`] = (collection) => {
+      return contentsByYear(getFilteredCollection(collection, collectionName));
+    };
+    // collections for monthly archives
+    collections[`${collectionName}ByMonth`] = (collection) => {
+      return contentsByMonth(getFilteredCollection(collection, collectionName));
+    };
+  }
+);
 
 module.exports = collections;
