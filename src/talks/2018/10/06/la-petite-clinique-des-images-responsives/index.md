@@ -6,6 +6,7 @@ tags: [RWD, image]
 notist_url: https://talks.nicolas-hoizey.com/b23Bwm/la-petite-clinique-des-images-responsives
 illustration:
   src: https://on.notist.cloud/slides/deck1507/thumb-0.jpg
+  alt: "Cover slide from the talk “La petite clinique des images responsives”"
   width: 640
   height: 360
 event:

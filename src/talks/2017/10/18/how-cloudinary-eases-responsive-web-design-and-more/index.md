@@ -6,6 +6,7 @@ tags: [Cloudinary, RWD, image, WebPerf]
 notist_url: https://talks.nicolas-hoizey.com/QQdc6Y/how-cloudinary-eases-responsive-web-design-and-more
 illustration:
   src: https://on.notist.cloud/slides/deck977/thumb-0.jpg
+  alt: "Cover slide from the talk “How Cloudinary eases Responsive Web Design, and more”"
   width: 640
   height: 480
 event:

@@ -6,6 +6,7 @@ tags: [UX, WebPerf]
 notist_url: https://talks.nicolas-hoizey.com/2aAFH2/ameliorer-les-performances-web-les-optimisations-cote-client
 illustration:
   src: https://on.notist.cloud/slides/deck2579/thumb-0.jpg
+  alt: "Cover slide from the talk “Améliorer les performances Web - Les optimisations côté client”"
   width: 640
   height: 480
 event:

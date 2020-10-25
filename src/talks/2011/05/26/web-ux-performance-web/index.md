@@ -6,6 +6,7 @@ tags: [UX, WebPerf]
 notist_url: https://talks.nicolas-hoizey.com/ett39R/web-ux-performance-web
 illustration:
   src: https://on.notist.cloud/slides/deck1098/thumb-0.jpg
+  alt: "Cover slide from the talk “Web UX - Performance Web”"
   width: 640
   height: 480
 event:

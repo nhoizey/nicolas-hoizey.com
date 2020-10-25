@@ -6,6 +6,7 @@ tags: [WebPerf]
 notist_url: https://talks.nicolas-hoizey.com/OfSEN7/performance-web
 illustration:
   src: https://on.notist.cloud/slides/deck3297/thumb-0.jpg
+  alt: "Cover slide from the talk “Performance Web”"
   width: 640
   height: 480
 event:

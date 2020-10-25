@@ -6,6 +6,7 @@ tags: [accessibility]
 notist_url: https://talks.nicolas-hoizey.com/HDbr1q/un-petit-pas-pour-l-em-un-grand-pas-pour-le-web
 illustration:
   src: https://on.notist.cloud/slides/deck919/thumb-0.jpg
+  alt: "Cover slide from the talk “Un petit pas pour l’em, un grand pas pour le Web”"
   width: 640
   height: 480
 event:

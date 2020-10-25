@@ -6,6 +6,7 @@ tags: [PWA]
 notist_url: https://talks.nicolas-hoizey.com/y2DE0Z/les-progressive-web-apps-pwa
 illustration:
   src: https://on.notist.cloud/slides/deck3257/thumb-0.jpg
+  alt: "Cover slide from the talk “Les Progressive Web Apps (PWA)”"
   width: 640
   height: 480
 event:

@@ -40,6 +40,7 @@ tags: ${more[dir].tags}`
 notist_url: ${talk.links.self}
 illustration:
   src: ${talk.attributes.image.src}
+  alt: "Cover slide from the talk “${talk.attributes.title}”"
   width: ${talk.attributes.image.width}
   height: ${talk.attributes.image.height}
 event:

@@ -6,6 +6,7 @@ tags: [POSSE, IndieWeb]
 notist_url: https://talks.nicolas-hoizey.com/AXGNM8/ne-vous-laissez-plus-deposseder-de-vos-contenus
 illustration:
   src: https://on.notist.cloud/slides/deck3822/thumb-0.jpg
+  alt: "Cover slide from the talk “Ne vous laissez plus déPOSSEder de vos contenus !”"
   width: 640
   height: 480
 event:
