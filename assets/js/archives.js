@@ -42,10 +42,10 @@ const search = instantsearch({
     let typeTitle = 'Archives';
     if (
       uiState.nho.refinementList &&
-      uiState.nho.refinementList.types &&
-      uiState.nho.refinementList.types.length === 1
+      uiState.nho.refinementList.type &&
+      uiState.nho.refinementList.type.length === 1
     ) {
-      contentType = uiState.nho.refinementList.types[0];
+      contentType = uiState.nho.refinementList.type[0];
       typeTitle = titleize(contentType);
     }
     document.querySelector('h1').innerText = typeTitle;
@@ -68,7 +68,7 @@ const typesPanel = panel({
   templates: {
     header: 'Types',
   },
-  hidden: ({ results }) => results.getFacetValues('types').length === 0,
+  hidden: ({ results }) => results.getFacetValues('type').length === 0,
 })(refinementList);
 
 const datesPanel = panel({
@@ -115,7 +115,7 @@ search.addWidgets([
   }),
   typesPanel({
     container: '#types-list',
-    attribute: 'types',
+    attribute: 'type',
     sortBy: ['name:asc'],
   }),
   datesPanel({
