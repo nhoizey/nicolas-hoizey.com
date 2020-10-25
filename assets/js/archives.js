@@ -157,7 +157,7 @@ search.addWidgets([
                   width="${hit.illustration.width}"
                   height="${hit.illustration.height}"
                   src="${hit.illustration.src}"
-                  class="${hit.illustration.classes}"
+                  class="vignette"
                   crossorigin="anonymous" />
               </figure>`
             : '') +

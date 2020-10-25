@@ -9,7 +9,7 @@
           width="{{ illustration.width }}"
           height="{{ illustration.height }}"
           src="{{ illustration.src }}"
-          class="{{ illustration.classes }}"
+          {% if illustration.classes %}class="{{ illustration.classes }}"{% endif %}
           crossorigin="anonymous" />
           </figure>
         {% endif %}
