@@ -1,12 +1,12 @@
 ---
 layout: false
 pagination:
-  data: collections.notesByMonth
+  data: collections.talksByYear
   size: 1
-  alias: month
-permalink: "notes/{{ month }}/"
+  alias: year
+permalink: "talks/{{ year }}/"
 eleventyComputed:
-  title: Notes published in {{ month | monthString }}
+  title: Talks published in {{ year }}
 eleventyExcludeFromCollections: true
 ---
 
