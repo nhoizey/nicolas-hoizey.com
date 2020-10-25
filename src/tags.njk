@@ -1,16 +1,11 @@
 ---
-layout: false
 title: Tags
+layout: page
 permalink: "/tags/index.html"
-eleventyExcludeFromCollections: true
 ---
-
-{% extends "./_layouts/archives.njk" %}
 
 {% from "macros/tagsCloud.njk" import tagsCloud %}
 
-{% block title %}Tags{% endblock %}
+<p class="intro">These are all tags used in contents from this site:</p>
 
-{% block hits %}
-  {{ tagsCloud(collections.tags) }}
-{% endblock %}
+{{ tagsCloud(collections.tags) }}
