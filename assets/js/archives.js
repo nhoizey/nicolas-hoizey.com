@@ -12,8 +12,7 @@ import {
   stats,
 } from 'instantsearch.js/es/widgets';
 
-const titleize = (string) =>
-  string.charAt(0).toUpperCase() + string.slice(1) + 's';
+const titleize = (string) => string.charAt(0).toUpperCase() + string.slice(1);
 
 const search = instantsearch({
   indexName: process.env.ALGOLIA_INDEX_NAME,
@@ -39,20 +38,21 @@ const search = instantsearch({
   // .search();
   // },
   onStateChange({ uiState, setUiState }) {
-    let contentType = 'archive';
+    let contentType = 'archives';
     let typeTitle = 'Archives';
     if (
       uiState.nho.refinementList &&
-      uiState.nho.refinementList.type &&
-      uiState.nho.refinementList.type.length === 1
+      uiState.nho.refinementList.types &&
+      uiState.nho.refinementList.types.length === 1
     ) {
-      contentType = uiState.nho.refinementList.type[0];
+      contentType = uiState.nho.refinementList.types[0];
       typeTitle = titleize(contentType);
     }
     document.querySelector('h1').innerText = typeTitle;
     document.title = `${typeTitle} - Nicolas Hoizey`;
     document.querySelectorAll('.navigation li').forEach((li) => {
-      const link = li.querySelectorAll(`a[href="/${contentType}s/"]`);
+      const link = li.querySelectorAll(`a[href="/${contentType}/"]`);
+      // TODO: also update ARIA
       if (link.length === 1) {
         li.classList.add('current');
       } else {
@@ -68,7 +68,7 @@ const typesPanel = panel({
   templates: {
     header: 'Types',
   },
-  hidden: ({ results }) => results.getFacetValues('type').length === 0,
+  hidden: ({ results }) => results.getFacetValues('types').length === 0,
 })(refinementList);
 
 const datesPanel = panel({
@@ -76,7 +76,6 @@ const datesPanel = panel({
     header: 'Dates',
   },
   hidden: ({ results }) => {
-    // console.dir(results.getFacetValues('date.lvl0'));
     return results.getFacetValues('date.lvl0').data === null;
   },
 })(hierarchicalMenu);
@@ -116,7 +115,7 @@ search.addWidgets([
   }),
   typesPanel({
     container: '#types-list',
-    attribute: 'type',
+    attribute: 'types',
     sortBy: ['name:asc'],
   }),
   datesPanel({
@@ -145,9 +144,8 @@ search.addWidgets([
     container: '#hits',
     templates: {
       item(hit) {
-        // console.dir(hit);
         return (
-          `<article class="card ${hit.type} h-entry" lang="${hit.lang}">
+          `<article class="card ${hit.types} h-entry" lang="${hit.lang}">
             <div class="with-sidebar">
               <div class="only-for-sidebar">` +
           (hit.illustration
@@ -200,21 +198,20 @@ search.start();
 // TODO: handle navigation as type selection and other facets reset
 // document
 //   .querySelectorAll(
-//     '.navigation a[href="/articles/"], .navigation a[href="/links/"], .navigation a[href="/notes/"]'
+//     '.navigation a[href="/articles/"], .navigation a[href="/links/"], .navigation a[href="/notes/"], .navigation a[href="/talks/"], .navigation a[href="/archives/"]'
 //   )
 //   .forEach((navigationItem) => {
 //     navigationItem.addEventListener('click', (event) => {
 //       event.preventDefault();
-//       const typePlural = event.originalTarget.pathname.split('/')[1];
-//       const typeSingular = typePlural.slice(0, -1);
+//       const type = event.originalTarget.pathname.split('/')[1];
 //       const refinementItem = document.querySelector(
-//         `#types-list .ais-RefinementList-checkbox[value="${typeSingular}"]`
+//         `#types-list .ais-RefinementList-checkbox[value="${type}"]`
 //       );
 //       const clickEvent = new Event('click');
 //       refinementItem.dispatchEvent(clickEvent);
 //       // search.setUiState({
 //       //   refinementList: {
-//       //     type: [typeSingular],
+//       //     type: [type],
 //       //   },
 //       //   page: 1,
 //       // });
