@@ -9,7 +9,19 @@ title: Archives
 {% from "macros/noteCard.njk" import noteCard %}
 {% from "macros/talkCard.njk" import talkCard %}
 
-{% set currentType = page.filePathStem | split("/") | offset(1) | first %}
+{% set currentType = page.url | split("/") | offset(1) | first %}
+
+{% set currentYear = page.url | split("/") | offset(2) | first %}
+{% set regExpYear = r/^[0-9]{4}$/g %}
+{% if not regExpYear.test(currentYear) %}
+  {% set currentYear = false %}
+{% endif %}
+
+{% set currentMonth = page.url | split("/") | offset(3) | first %}
+{% set regExpMonth = r/^[0-9]{2}$/g %}
+{% if not regExpMonth.test(currentMonth) %}
+  {% set currentMonth = false %}
+{% endif %}
 
 {% block content %}
   <h1>
@@ -52,13 +64,40 @@ title: Archives
             <div class="ais-HierarchicalMenu">
               <ul class="ais-HierarchicalMenu-list">
                 {% for year in collections["yearsWith" + currentType | capitalize] %}
-                  <li class="ais-HierarchicalMenu-item">
-                    <div>
-                      <a class="ais-HierarchicalMenu-link" href="/{{ currentType }}/{{ year }}/">
-                        <span class="ais-HierarchicalMenu-label">{{ year }}</span>
-                      </a>
-                    </div>
-                  </li>
+                  {% if year == currentYear %}
+                    <li class="ais-HierarchicalMenu-item">
+                      <strong>{{ year }}</strong>
+                      <span class="ais-RefinementList-count">{{ collections[currentType + 'ByYear'][year] | length }}</span>
+                      <div class="ais-HierarchicalMenu-list--child">
+                        <ul class="ais-HierarchicalMenu-list">
+                          {% for month in collections["monthsWith" + currentType | capitalize] %}
+                            {% set monthYear = month | split('/') | first %}
+                            {% set monthMonth = month | split('/') | offset(1) | first %}
+                            {% if monthYear == currentYear %}
+                              <li class="ais-HierarchicalMenu-item">
+                                {% if monthMonth == currentMonth %}
+                                  <strong>{{ monthMonth }}</strong>
+                                {% else %}
+                                  <a class="ais-HierarchicalMenu-link" href="/{{ currentType }}/{{ year }}/{{ monthMonth }}/">
+                                    <span class="ais-HierarchicalMenu-label">{{ monthMonth }}</span>
+                                  </a>
+                                {% endif %}
+                              </li>
+                            {% endif %}
+                          {% endfor %}
+                        </ul>
+                      </div>
+                    </li>
+                  {% else %}
+                    <li class="ais-HierarchicalMenu-item">
+                      <div>
+                        <a class="ais-HierarchicalMenu-link" href="/{{ currentType }}/{{ year }}/">
+                          <span class="ais-HierarchicalMenu-label">{{ year }}</span>
+                        </a>
+                        <span class="ais-RefinementList-count">{{ collections[currentType + 'ByYear'][year] | length }}</span>
+                      </div>
+                    </li>
+                  {% endif %}
                 {%- endfor %}
               </ul>
             </div>
@@ -73,20 +112,52 @@ title: Archives
     <div id="hits">
       {% block hits %}
         <div class="cards-list">
-          {% for item in collections[currentType] | limit(10) %}
-            {% if item.data.layout == 'article' %}
-              {{ articleCard(item) }}
-            {% endif %}
-            {% if item.data.layout == 'link' %}
-              {{ linkCard(item) }}
-            {% endif %}
-            {% if item.data.layout == 'note' %}
-              {{ noteCard(item) }}
-            {% endif %}
-            {% if item.data.layout == 'talk' %}
-              {{ talkCard(item) }}
-            {% endif %}
-          {% endfor %}
+          {% if currentMonth %}
+            {% for item in collections[currentType + 'ByMonth'][currentYear + '/' + currentMonth] | limit(10) %}
+              {% if item.data.layout == 'article' %}
+                {{ articleCard(item) }}
+              {% endif %}
+              {% if item.data.layout == 'link' %}
+                {{ linkCard(item) }}
+              {% endif %}
+              {% if item.data.layout == 'note' %}
+                {{ noteCard(item) }}
+              {% endif %}
+              {% if item.data.layout == 'talk' %}
+                {{ talkCard(item) }}
+              {% endif %}
+            {% endfor %}
+          {% elif currentYear %}
+            {% for item in collections[currentType + 'ByYear'][currentYear] | limit(10) %}
+              {% if item.data.layout == 'article' %}
+                {{ articleCard(item) }}
+              {% endif %}
+              {% if item.data.layout == 'link' %}
+                {{ linkCard(item) }}
+              {% endif %}
+              {% if item.data.layout == 'note' %}
+                {{ noteCard(item) }}
+              {% endif %}
+              {% if item.data.layout == 'talk' %}
+                {{ talkCard(item) }}
+              {% endif %}
+            {% endfor %}
+          {% else %}
+            {% for item in collections[currentType] | limit(10) %}
+              {% if item.data.layout == 'article' %}
+                {{ articleCard(item) }}
+              {% endif %}
+              {% if item.data.layout == 'link' %}
+                {{ linkCard(item) }}
+              {% endif %}
+              {% if item.data.layout == 'note' %}
+                {{ noteCard(item) }}
+              {% endif %}
+              {% if item.data.layout == 'talk' %}
+                {{ talkCard(item) }}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
         </div>
       {% endblock %}
     </div>
@@ -95,15 +166,26 @@ title: Archives
     </div>
   </div>
 
-  {% if currentType != 'archives' %}
-    <script>
-      window.instantsearchInitialUiState = {
-        refinementList: {
-          type: ['{{ currentType }}']
-        },
-        page: 1
+  <script>
+    window.instantsearchInitialUiState = {
+      page: 1
+    };
+    {% if currentType != 'archives' %}
+      window.instantsearchInitialUiState.refinementList = {
+        type: ['{{ currentType }}']
       };
-    </script>
-  {% endif %}
-  <script src="/js/{{ hashes_archives['assets/js/archives.js']}}"></script>
+    {% endif %}
+    {% if currentYear %}
+      window.instantsearchInitialUiState.hierarchicalMenu = {
+        "date.lvl0": ['{{ currentYear }}']
+      };
+    {% endif %}
+    {% if currentYear %}
+      window.instantsearchInitialUiState.hierarchicalMenu = {
+        "date.lvl0": ['{{ currentYear }}']
+      };
+    {% endif %}
+  </script>
+
+  {# <script src="/js/{{ hashes_archives['assets/js/archives.js']}}"></script> #}
 {% endblock %}
