@@ -54,14 +54,23 @@
 }
 
 .card__illustration {
+  margin-top: 0;
+
   img {
     border-width: 2px;
     border-style: solid;
     border-color: $color-lightgrey;
   }
+
+  @media (min-width: 30em) {
+    float: right;
+    max-width: calc(30% + 5vw);
+    margin: 0 0 1em 1em;
+  }
 }
 
 .card__surtitle {
+  margin-top: 0;
   color: $color-darkgrey;
 
   .u-photo {
@@ -73,6 +82,7 @@
 }
 
 .card__title {
+  margin-top: 0;
   font-size: var(--font-size-xl);
   font-weight: bold;
   letter-spacing: -0.02em;

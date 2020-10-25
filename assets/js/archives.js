@@ -145,11 +145,9 @@ search.addWidgets([
     templates: {
       item(hit) {
         return (
-          `<article class="card ${hit.types} h-entry" lang="${hit.lang}">
-            <div class="with-sidebar">
-              <div class="only-for-sidebar">` +
+          `<article class="card ${hit.type} h-entry" lang="${hit.lang}">` +
           (hit.illustration
-            ? `<figure class="card__illustration sidebar">
+            ? `<figure class="card__illustration">
                 <img
                   alt="${hit.illustration.alt}"
                   width="${hit.illustration.width}"
@@ -159,7 +157,6 @@ search.addWidgets([
                   crossorigin="anonymous" />
               </figure>`
             : '') +
-          '<div class="card__main not-sidebar">' +
           (hit.surtitle
             ? `<p class="card__surtitle">${hit.surtitle}</p>`
             : '') +
@@ -178,7 +175,6 @@ search.addWidgets([
                 '</div>'
               : '<div class="card__text p-summary">' + hit.excerpt + '</div>'
           }` +
-          '</div></div></div>' +
           (hit.meta_html
             ? `
 ${hit.meta_html}`
