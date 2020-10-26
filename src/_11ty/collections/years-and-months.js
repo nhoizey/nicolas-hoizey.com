@@ -44,6 +44,10 @@ const yearsWithContent = (collection) => {
   return generateItemsDateSet(collection, makeDateFormatter('YYYY'));
 };
 
+const monthsWithContent = (collection) => {
+  return generateItemsDateSet(collection, makeDateFormatter('YYYY/MM'));
+};
+
 const contentsByMonth = (collection) => {
   return contentByDateString(collection, makeDateFormatter('YYYY/MM'));
 };
@@ -56,23 +60,46 @@ let collections = {
   yearsWithArticles: (collection) => {
     return yearsWithContent(getFilteredCollection(collection, 'articles'));
   },
+  monthsWithArticles: (collection) => {
+    return monthsWithContent(getFilteredCollection(collection, 'articles'));
+  },
   yearsWithLinks: (collection) => {
     return yearsWithContent(getFilteredCollection(collection, 'links'));
+  },
+  monthsWithLinks: (collection) => {
+    return monthsWithContent(getFilteredCollection(collection, 'links'));
   },
   yearsWithNotes: (collection) => {
     return yearsWithContent(getFilteredCollection(collection, 'notes'));
   },
+  monthsWithNotes: (collection) => {
+    return monthsWithContent(getFilteredCollection(collection, 'notes'));
+  },
+  yearsWithTalks: (collection) => {
+    return yearsWithContent(getFilteredCollection(collection, 'talks'));
+  },
+  monthsWithTalks: (collection) => {
+    return monthsWithContent(getFilteredCollection(collection, 'talks'));
+  },
+  yearsWithArchives: (collection) => {
+    return yearsWithContent(getFilteredCollection(collection, 'archives'));
+  },
+  monthsWithArchives: (collection) => {
+    return monthsWithContent(getFilteredCollection(collection, 'archives'));
+  },
 };
 
-['articles', 'links', 'notes'].forEach((collectionName) => {
-  // collections for yearly archives
-  collections[`${collectionName}ByYear`] = (collection) => {
-    return contentsByYear(getFilteredCollection(collection, collectionName));
-  };
-  // collections for monthly archives
-  collections[`${collectionName}ByMonth`] = (collection) => {
-    return contentsByMonth(getFilteredCollection(collection, collectionName));
-  };
-});
+['articles', 'links', 'notes', 'talks', 'archives'].forEach(
+  (collectionName) => {
+    // collections for yearly archives
+    collections[`${collectionName}ByYear`] = (collection) => {
+      return contentsByYear(getFilteredCollection(collection, collectionName));
+    };
+    // collections for monthly archives
+    collections[`${collectionName}ByMonth`] = (collection) => {
+      return contentsByMonth(getFilteredCollection(collection, collectionName));
+    };
+  }
+);
 
 module.exports = collections;

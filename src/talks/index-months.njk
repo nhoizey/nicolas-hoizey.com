@@ -1,0 +1,13 @@
+---
+layout: false
+pagination:
+  data: collections.talksByMonth
+  size: 1
+  alias: month
+permalink: "talks/{{ month }}/"
+eleventyComputed:
+  title: Talks published in {{ month | monthString }}
+eleventyExcludeFromCollections: true
+---
+
+{% extends "../_layouts/archives.njk" %}

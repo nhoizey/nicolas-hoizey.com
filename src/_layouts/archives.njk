@@ -1,0 +1,201 @@
+---
+title: Archives
+---
+
+{% extends "./default.njk" %}
+
+{% from "macros/articleCard.njk" import articleCard %}
+{% from "macros/linkCard.njk" import linkCard %}
+{% from "macros/noteCard.njk" import noteCard %}
+{% from "macros/talkCard.njk" import talkCard %}
+
+{% set currentType = page.url | split("/") | offset(1) | first %}
+
+{% set currentYear = page.url | split("/") | offset(2) | first %}
+{% set regExpYear = r/^[0-9]{4}$/g %}
+{% if not regExpYear.test(currentYear) %}
+  {% set currentYear = false %}
+{% endif %}
+
+{% set currentMonth = page.url | split("/") | offset(3) | first %}
+{% set regExpMonth = r/^[0-9]{2}$/g %}
+{% if not regExpMonth.test(currentMonth) %}
+  {% set currentMonth = false %}
+{% endif %}
+
+{% block content %}
+  <h1>
+    {% block title %}
+      {% if currentType == 'archives' %}
+        Archives
+      {% else %}
+        {{ currentType | capitalize }}
+      {% endif %}
+    {% endblock %}
+  </h1>
+  <div class="archives">
+    <div id="searchbox"></div>
+    <div id="clear-refinements"></div>
+    <div class="refinements">
+      <div id="types-list">
+        <div class="ais-Panel">
+          <div class="ais-Panel-header">Types</div>
+          <ul class="no-ais-RefinementList-list">
+            {% for type in['articles', 'links', 'notes', 'talks'] %}
+              {% if type == currentType -%}
+                <li class="ais-RefinementList-item ais-RefinementList-item--selected">
+                  <a href="/archives/{% if currentYear %}{{ currentYear}}/{% endif %}{% if currentMonth %}{{ currentMonth}}/{% endif %}">{{ type }}</a>
+                  <span class="ais-RefinementList-count">{{ collections[type] | length }}</span>
+                </li>
+              {% else %}
+                <li class="ais-RefinementList-item">
+                  <a href="/{{ type }}/">{{ type }}</a>
+                  <span class="ais-RefinementList-count">{{ collections[type] | length }}</span>
+                </li>
+              {%- endif -%}
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div id="dates-menu">
+        {% block dates %}
+          <div class="ais-Panel">
+            <div class="ais-Panel-header">Dates</div>
+            <div class="ais-HierarchicalMenu">
+              <ul class="ais-HierarchicalMenu-list">
+                {% for year in collections["yearsWith" + currentType | capitalize] %}
+                  {% if year == currentYear %}
+                    <li class="ais-HierarchicalMenu-item ais-HierarchicalMenu-item--selected ais-HierarchicalMenu-item--parent">
+                      <div>
+                        {% if currentMonth %}
+                          <a class="ais-HierarchicalMenu-link" href="/{{ currentType }}/{{ year }}/">
+                            <span class="ais-HierarchicalMenu-label">{{ year }}</span>
+                          </a>
+                        {% else %}
+                          <a class="ais-HierarchicalMenu-link" href="/{{ currentType }}/">
+                            <span class="ais-HierarchicalMenu-label">{{ year }}</span>
+                          </a>
+                        {% endif %}
+                        <span class="ais-RefinementList-count">{{ collections[currentType + 'ByYear'][year] | length }}</span>
+                      </div>
+                      <div class="ais-HierarchicalMenu-list--child">
+                        <ul class="ais-HierarchicalMenu-list">
+                          {% for month in collections["monthsWith" + currentType | capitalize] %}
+                            {% set monthYear = month | split('/') | first %}
+                            {% set monthMonth = month | split('/') | offset(1) | first %}
+                            {% if monthYear == currentYear %}
+                              <li class="ais-HierarchicalMenu-item">
+                                {% if monthMonth == currentMonth %}
+                                  <strong>{{ monthMonth }}</strong>
+                                {% else %}
+                                  <a class="ais-HierarchicalMenu-link" href="/{{ currentType }}/{{ year }}/{{ monthMonth }}/">
+                                    <span class="ais-HierarchicalMenu-label">{{ monthMonth }}</span>
+                                  </a>
+                                {% endif %}
+                              </li>
+                            {% endif %}
+                          {% endfor %}
+                        </ul>
+                      </div>
+                    </li>
+                  {% else %}
+                    <li class="ais-HierarchicalMenu-item">
+                      <div>
+                        <a class="ais-HierarchicalMenu-link" href="/{{ currentType }}/{{ year }}/">
+                          <span class="ais-HierarchicalMenu-label">{{ year }}</span>
+                        </a>
+                        <span class="ais-RefinementList-count">{{ collections[currentType + 'ByYear'][year] | length }}</span>
+                      </div>
+                    </li>
+                  {% endif %}
+                {%- endfor %}
+              </ul>
+            </div>
+          </div>
+        {% endblock %}
+      </div>
+      <div id="langs-list"></div>
+      <div id="tags-list"></div>
+    </div>
+    <div id="stats"></div>
+    <div id="powered-by"></div>
+    <div id="hits">
+      {% block hits %}
+        <div class="cards-list">
+          {% if currentMonth %}
+            {% for item in collections[currentType + 'ByMonth'][currentYear + '/' + currentMonth] | limit(10) %}
+              {% if item.data.layout == 'article' %}
+                {{ articleCard(item) }}
+              {% endif %}
+              {% if item.data.layout == 'link' %}
+                {{ linkCard(item) }}
+              {% endif %}
+              {% if item.data.layout == 'note' %}
+                {{ noteCard(item) }}
+              {% endif %}
+              {% if item.data.layout == 'talk' %}
+                {{ talkCard(item) }}
+              {% endif %}
+            {% endfor %}
+          {% elif currentYear %}
+            {% for item in collections[currentType + 'ByYear'][currentYear] | limit(10) %}
+              {% if item.data.layout == 'article' %}
+                {{ articleCard(item) }}
+              {% endif %}
+              {% if item.data.layout == 'link' %}
+                {{ linkCard(item) }}
+              {% endif %}
+              {% if item.data.layout == 'note' %}
+                {{ noteCard(item) }}
+              {% endif %}
+              {% if item.data.layout == 'talk' %}
+                {{ talkCard(item) }}
+              {% endif %}
+            {% endfor %}
+          {% else %}
+            {% for item in collections[currentType] | limit(10) %}
+              {% if item.data.layout == 'article' %}
+                {{ articleCard(item) }}
+              {% endif %}
+              {% if item.data.layout == 'link' %}
+                {{ linkCard(item) }}
+              {% endif %}
+              {% if item.data.layout == 'note' %}
+                {{ noteCard(item) }}
+              {% endif %}
+              {% if item.data.layout == 'talk' %}
+                {{ talkCard(item) }}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        </div>
+      {% endblock %}
+    </div>
+    <div id="pagination">
+      {% block pagination %}{% endblock %}
+    </div>
+  </div>
+
+  <script>
+    window.instantsearchInitialUiState = {
+      page: 1
+    };
+    {% if currentType != 'archives' %}
+      window.instantsearchInitialUiState.refinementList = {
+        type: ['{{ currentType }}']
+      };
+    {% endif %}
+    {% if currentYear %}
+      window.instantsearchInitialUiState.hierarchicalMenu = {
+        "date.lvl0": ['{{ currentYear }}']
+      };
+    {% endif %}
+    {% if currentYear %}
+      window.instantsearchInitialUiState.hierarchicalMenu = {
+        "date.lvl0": ['{{ currentYear }}']
+      };
+    {% endif %}
+  </script>
+
+  {# <script src="/js/{{ hashes_archives['assets/js/archives.js']}}"></script> #}
+{% endblock %}

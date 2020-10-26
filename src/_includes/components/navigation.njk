@@ -4,26 +4,25 @@
       <li {% if page.url == '/' %} class="current" aria-current="page"{% endif %}>
         <a href="/">home</a>
       </li>
-      <li {% if '/articles/' in page.url %} class="current" aria-current="page"{% endif %}>
-        <a href="/articles/">articles</a>
-      </li>
-      <li {% if '/links/' in page.url %} class="current" aria-current="page"{% endif %}>
-        <a href="/links/">links</a>
-      </li>
-      <li {% if '/notes/' in page.url %} class="current" aria-current="page"{% endif %}>
-        <a href="/notes/">notes</a>
-      </li>
-      <li {% if '/talks/' in page.url %} class="current" aria-current="page"{% endif %}>
-        <a href="/talks/">talks</a>
-      </li>
-    </ul>
-    <ul>
-      <li {% if '/feeds/' in page.url %} class="current" aria-current="page"{% endif %}>
-        <a href="/feeds/">feeds</a>
-      </li>
-      <li {% if '/about/' in page.url %} class="current" aria-current="page"{% endif %}>
-        <a href="/about/">about</a>
-      </li>
+      {% for type in[
+        'articles',
+        'links',
+        'notes',
+        'talks',
+        'archives',
+        'tags',
+        'feeds',
+        'about'
+      ] %}
+        {% set url = '/' + type + '/' %}
+        {% if type == 'feeds' %}
+        </ul>
+        <ul>
+        {% endif %}
+        <li {% if url in page.url %} class="current" aria-current="page"{% endif %}>
+          <a href="{{ url }}">{{ type }}</a>
+        </li>
+      {% endfor %}
     </ul>
   </div>
 </nav>

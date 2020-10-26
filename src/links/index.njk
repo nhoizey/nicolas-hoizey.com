@@ -1,24 +1,7 @@
 ---
-layout: default
+layout: false
 title: Links
 eleventyExcludeFromCollections: true
 ---
 
-{% from "macros/linkCard.njk" import linkCard %}
-
-<h2>Latest links</h2>
-<div class="cards-list">
-  {% for link in collections.links | limit(6) %}
-    {{ linkCard(link) }}
-  {% endfor %}
-</ul>
-
-<h2>Browse all links</h2>
-<p class="pagination">
-  Years:
-  {% set separator = joiner(", ") %}
-{% for linkYear in collections.yearsWithLinks %}
-  {{ separator() }}
-  <a href="/links/{{ linkYear }}/">{{ linkYear }}</a>
-{%- endfor %}
-</p>
+{% extends "../_layouts/archives.njk" %}

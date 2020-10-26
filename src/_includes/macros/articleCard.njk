@@ -3,7 +3,7 @@
     <p class="card__title p-name">
       <a href="{{ article.url }}" hreflang="{{ article.data.lang }}" class="u-url">{{ article.data.title }}</a>
     </p>
-    <p class="card__text p-summary">{{ article.templateContent | excerpt | safe }}</p>
+    <p class="card__text p-summary">{{ article.templateContent | excerpt | striptags | safe }}</p>
     {% from "macros/meta.njk" import meta %}
     {{ meta(article) }}
   </article>

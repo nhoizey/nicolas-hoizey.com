@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: false
 pagination:
   data: collections.linksByMonth
   size: 1
@@ -7,25 +7,7 @@ pagination:
 permalink: "links/{{ month }}/"
 eleventyComputed:
   title: Links published in {{ month | monthString }}
+eleventyExcludeFromCollections: true
 ---
 
-{% from "macros/linkCard.njk" import linkCard %}
-
-<div class="cards-list">
-  {% for link in collections.linksByMonth[month] %}
-    {{ linkCard(link) }}
-  {% endfor %}
-</ul>
-
-<p class="pagination">
-  Pages:
-  {% set separator = joiner(", ") %}
-{%- for pageEntry in pagination.pages %}
-  {{ separator() }}
-  {% if page.url == pagination.hrefs[loop.index0] %}
-    <strong>{{ pageEntry }}</strong>
-  {% else %}
-    <a href="{{ pagination.hrefs[ loop.index0 ] }}">{{ pageEntry }}</a>
-  {% endif %}
-{%- endfor %}
-</p>
+{% extends "../_layouts/archives.njk" %}

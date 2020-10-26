@@ -11,6 +11,16 @@
         {{ item.date | date("Do MMMM YYYY") }}
       </time>
     </li>
+    {% if item.data.location %}
+      <li class="date meta__item meta__location">
+        <svg class="icon"><use xlink:href="#symbol-map-pin" /></svg>
+        {% if item.data.location.url %}
+          <a href="{{ item.data.location.url }}">{{ item.data.location.name }}</a>
+        {% else %}
+          {{ item.data.location.name }}
+        {% endif %}
+      </li>
+    {% endif %}
     {% set tagsSize = item.data.tags | size %}
     {% if tagsSize > 0 %}
       <li class="tags meta__item card__tags">

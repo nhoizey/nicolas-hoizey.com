@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: false
 pagination:
   data: collections.notesByMonth
   size: 1
@@ -7,25 +7,7 @@ pagination:
 permalink: "notes/{{ month }}/"
 eleventyComputed:
   title: Notes published in {{ month | monthString }}
+eleventyExcludeFromCollections: true
 ---
 
-{% from "macros/noteCard.njk" import noteCard %}
-
-<div class="cards-list">
-  {% for note in collections.notesByMonth[month] %}
-    {{ noteCard(note) }}
-  {% endfor %}
-</ul>
-
-<p class="pagination">
-  Pages:
-  {% set separator = joiner(", ") %}
-{%- for pageEntry in pagination.pages %}
-  {{ separator() }}
-  {% if page.url == pagination.hrefs[loop.index0] %}
-    <strong>{{ pageEntry }}</strong>
-  {% else %}
-    <a href="{{ pagination.hrefs[ loop.index0 ] }}">{{ pageEntry }}</a>
-  {% endif %}
-{%- endfor %}
-</p>
+{% extends "../_layouts/archives.njk" %}

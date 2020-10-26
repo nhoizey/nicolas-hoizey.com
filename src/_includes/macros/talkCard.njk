@@ -1,0 +1,13 @@
+{% macro talkCard(talk) %}
+  {% set content %}
+  <p class="card__text p-summary">{{ talk.templateContent | excerpt | striptags | safe }}</p>
+  {% endset %}
+
+  {% from "macros/meta.njk" import meta %}
+  {% set meta %}
+  {{ meta(talk) }}
+  {% endset %}
+
+  {% from "macros/card.njk" import card %}
+  {{ card('talk', talk.data.lang, false, talk.data.title, talk.url, talk.data.illustration, content, meta) }}
+{% endmacro %}

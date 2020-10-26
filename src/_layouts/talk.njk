@@ -1,0 +1,80 @@
+---
+layout: default
+---
+
+{#
+Breadcrumb JSON-LD:
+https://developers.google.com/search/docs/data-types/breadcrumbs
+#}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://nicolas-hoizey.com/talks/{{ page.date | date("YYYY") }}/",
+          "name": "{{ page.date | date(" YYYY ") }}"
+        }
+      }, {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@id": "https://nicolas-hoizey.com/talks/{{ page.date | date("YYYY/MM") }}/",
+          "name": "{{ page.date | date(" MM ") }}"
+        }
+      }, {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "{{ pkg.homepage }}{{ page.url }}",
+          "name": "{{ title }}"
+        }
+      }
+    ]
+  }
+</script>
+
+<article
+    class="main talk clearfix h-entry"
+    lang="{{ lang }}">
+  <h1 id="post" class="p-name">{{ title }}</h1>
+
+  {% set item = {
+      date: date,
+      url: page.url,
+      data: {
+        layout: 'talk',
+        lang: lang,
+        title: title,
+        tags: tags,
+        location: {
+          name: event.name,
+          url: event.url or ''
+        }
+      }
+  } %}
+  {% from "macros/meta.njk" import meta %}
+  {{ meta(item) }}
+
+  <div class="e-content">
+    <figure class="onethird right">
+      <img
+        alt="Cover slide from the talk “{{ title }}"
+        width="{{ illustration.width }}"
+        height="{{ illustration.height }}"
+        src="{{ illustration.src }}"
+        >
+    </figure>
+
+    {{ content | safe }}
+
+    <p>See slides and additional content on Notist:<br /><a href="{{ notist_url }}">{{ title }}</a>
+  </div>
+
+  {% set articleUrl = page.url %}
+  {% include "components/webmentions.njk" %}
+
+</article>

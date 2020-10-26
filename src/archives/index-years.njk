@@ -1,0 +1,13 @@
+---
+layout: false
+pagination:
+  data: collections.archivesByYear
+  size: 1
+  alias: year
+permalink: "archives/{{ year }}/"
+eleventyComputed:
+  title: Contents published in {{ year }}
+eleventyExcludeFromCollections: true
+---
+
+{% extends "../_layouts/archives.njk" %}

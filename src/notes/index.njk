@@ -1,25 +1,7 @@
 ---
-layout: default
+layout: false
 title: Notes
-permalink: "notes/"
 eleventyExcludeFromCollections: true
 ---
 
-{% from "macros/noteCard.njk" import noteCard %}
-
-<h2>Latest notes</h2>
-<div class="cards-list">
-  {% for note in collections.notes | limit(10) %}
-    {{ noteCard(note) }}
-  {% endfor %}
-</ul>
-
-<h2>Browse all notes</h2>
-<p class="pagination">
-  Years:
-  {% set separator = joiner(", ") %}
-{% for noteYear in collections.yearsWithNotes %}
-  {{ separator() }}
-  <a href="/notes/{{ noteYear }}/">{{ noteYear }}</a>
-{%- endfor %}
-</p>
+{% extends "../_layouts/archives.njk" %}

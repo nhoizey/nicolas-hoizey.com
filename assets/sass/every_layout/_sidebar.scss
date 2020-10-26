@@ -21,7 +21,7 @@ https://absolutely.every-layout.dev/layouts/sidebar/
 }
 
 .sidebar {
-  flex-basis: var(--sidebar, calc(10em + 5vw));
+  flex-basis: var(--sidebar, calc(8em + 3vw));
   flex-grow: 1;
 }
 
@@ -29,5 +29,5 @@ https://absolutely.every-layout.dev/layouts/sidebar/
   /* ↓ grow from nothing */
   flex-basis: 0;
   flex-grow: 999;
-  min-width: calc(var(--notsidebar, 50%) - var(--gap));
+  min-width: calc(var(--notsidebar, 60%) - var(--gap));
 }
