@@ -63,7 +63,7 @@
     "eleventy-plugin-link_to": "~0.2.3",
     "encoding": "^0.1.13",
     "entities": "^2.1.0",
-    "eslint": "7.11.0",
+    "eslint": "7.12.0",
     "eslint-config-prettier": "6.14.0",
     "eslint-plugin-prettier": "3.1.4",
     "fast-glob": "^3.2.4",
