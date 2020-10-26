@@ -1,5 +1,5 @@
 ---
-date: 2018-12-13 10:00:00
+date: 2018-12-13 10:00:00 +02:00
 lang: fr
 title: "Les Progressive Web Apps (PWA)"
 tags: [PWA]

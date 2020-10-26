@@ -1,5 +1,5 @@
 ---
-date: 2018-10-06 14:30:00
+date: 2018-10-06 14:30:00 +02:00
 lang: fr
 title: "La petite clinique des images responsives"
 tags: [RWD, image]

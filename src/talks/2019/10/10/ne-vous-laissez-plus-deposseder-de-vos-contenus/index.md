@@ -1,5 +1,5 @@
 ---
-date: 2019-10-10 15:00:00
+date: 2019-10-10 15:00:00 +02:00
 lang: fr
 title: "Ne vous laissez plus déPOSSEder de vos contenus !"
 tags: [POSSE, IndieWeb]

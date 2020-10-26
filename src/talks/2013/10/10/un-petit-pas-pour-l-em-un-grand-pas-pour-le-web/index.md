@@ -1,5 +1,5 @@
 ---
-date: 2013-10-10 02:00:00
+date: 2013-10-10 02:00:00 +02:00
 lang: fr
 title: "Un petit pas pour l’em, un grand pas pour le Web"
 tags: [accessibility]

@@ -1,5 +1,5 @@
 ---
-date: 2018-10-09 15:10:00
+date: 2018-10-09 15:10:00 +02:00
 lang: fr
 title: "Optimiser la performance par un choix optimal des dimensions des images responsives"
 tags: [RWD, image, WebPerf]

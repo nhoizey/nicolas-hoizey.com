@@ -1,5 +1,5 @@
 ---
-date: 2019-07-25 14:00:00
+date: 2019-07-25 14:00:00 +02:00
 lang: fr
 title: "Performance Web"
 tags: [WebPerf]

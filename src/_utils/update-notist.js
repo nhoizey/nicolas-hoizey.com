@@ -25,7 +25,7 @@ const writeToMarkdown = (notist) => {
     }
     // prettier-ignore
     const content = `---
-date: ${talk.attributes.presented_on}${
+date: ${talk.attributes.presented_on} +02:00${
       more[dir] && more[dir].lang
         ? `
 lang: ${more[dir].lang}`

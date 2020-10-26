@@ -1,5 +1,5 @@
 ---
-date: 2011-02-08 14:00:00
+date: 2011-02-08 14:00:00 +02:00
 lang: fr
 title: "Améliorer les performances Web - Les optimisations côté client"
 tags: [UX, WebPerf]

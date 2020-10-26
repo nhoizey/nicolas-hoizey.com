@@ -1,5 +1,5 @@
 ---
-date: 2011-05-26 20:00:00
+date: 2011-05-26 20:00:00 +02:00
 lang: fr
 title: "Web UX - Performance Web"
 tags: [UX, WebPerf]

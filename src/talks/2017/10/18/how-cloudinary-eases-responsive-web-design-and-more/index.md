@@ -1,5 +1,5 @@
 ---
-date: 2017-10-18 20:00:00
+date: 2017-10-18 20:00:00 +02:00
 lang: en
 title: "How Cloudinary eases Responsive Web Design, and more"
 tags: [Cloudinary, RWD, image, WebPerf]

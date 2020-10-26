@@ -1,5 +1,5 @@
 ---
-date: 2018-03-28 19:30:00
+date: 2018-03-28 19:30:00 +02:00
 lang: fr
 title: "Quelques solutions facilitant la bonne mise en œuvre des images responsives"
 tags: [RWD, image]
