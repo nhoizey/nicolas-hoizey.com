@@ -1,0 +1,13 @@
+---
+layout: false
+pagination:
+  data: collections.archivesByMonth
+  size: 1
+  alias: month
+permalink: "archives/{{ month }}/"
+eleventyComputed:
+  title: Contents published in {{ month | monthString }}
+eleventyExcludeFromCollections: true
+---
+
+{% extends "../_layouts/archives.njk" %}
