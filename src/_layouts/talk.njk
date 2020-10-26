@@ -43,22 +43,19 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
   <h1 id="post" class="p-name">{{ title }}</h1>
 
   {% set item = {
-    data: {
-      layout: 'talk',
-      lang: lang,
-      title: title,
-      tags: tags,
-      location: {
-        name: event.name
-      },
-    },
-    date: date,
-    url: page.url
-  }
- %}
-  {% if event.url %}
-    {% set item.data.location.url = event.url %}
-  {% endif %}
+      date: date,
+      url: page.url,
+      data: {
+        layout: 'talk',
+        lang: lang,
+        title: title,
+        tags: tags,
+        location: {
+          name: event.name,
+          url: event.url or ''
+        }
+      }
+  } %}
   {% from "macros/meta.njk" import meta %}
   {{ meta(item) }}
 
@@ -76,4 +73,8 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
 
     <p>See slides and additional content on Notist:<br /><a href="{{ notist_url }}">{{ title }}</a>
   </div>
+
+  {% set articleUrl = page.url %}
+  {% include "components/webmentions.njk" %}
+
 </article>
