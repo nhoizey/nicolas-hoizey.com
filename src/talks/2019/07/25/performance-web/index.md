@@ -1,16 +1,16 @@
 ---
 date: 2019-07-25 14:00:00
 lang: fr
-title: Performance Web
+title: "Performance Web"
 tags: [WebPerf]
-notist_url: https://talks.nicolas-hoizey.com/OfSEN7/performance-web
+notist_url: "https://talks.nicolas-hoizey.com/OfSEN7/performance-web"
 illustration:
-  src: https://on.notist.cloud/slides/deck3297/thumb-0.jpg
+  src: "https://on.notist.cloud/slides/deck3297/thumb-0.jpg"
   alt: "Cover slide from the talk “Performance Web”"
   width: 640
   height: 480
 event:
-  name: Les Papis du Web (Clever Age)
+  name: "Les Papis du Web (Clever Age)"
 ---
 
 Dans Les Papis du Web Épisode #6, retrouvez notre web série sur l’actualité du web à 360° analysée par nos Papis du Web. Actualité et veille techno sur les sujets digitaux qui vous concernent, vues par nos experts… Le tout, en toute indépendance.

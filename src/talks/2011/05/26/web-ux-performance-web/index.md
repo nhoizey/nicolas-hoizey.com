@@ -1,17 +1,16 @@
 ---
 date: 2011-05-26 20:00:00
 lang: fr
-title: Web UX - Performance Web
+title: "Web UX - Performance Web"
 tags: [UX, WebPerf]
-notist_url: https://talks.nicolas-hoizey.com/ett39R/web-ux-performance-web
+notist_url: "https://talks.nicolas-hoizey.com/ett39R/web-ux-performance-web"
 illustration:
-  src: https://on.notist.cloud/slides/deck1098/thumb-0.jpg
+  src: "https://on.notist.cloud/slides/deck1098/thumb-0.jpg"
   alt: "Cover slide from the talk “Web UX - Performance Web”"
   width: 640
   height: 480
 event:
-  name: Web UX
-  url: 
+  name: "Web UX"
 ---
 
 L'utilisateur n'aime pas attendre. Sa perception de la vitesse d'un site Web a donc une influence sur son comportement. Cette perception peut être orientée positivement en travaillant intelligemment l'optimisation des performances côté client du site Web.

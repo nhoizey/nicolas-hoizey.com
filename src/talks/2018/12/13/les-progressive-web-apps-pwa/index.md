@@ -1,16 +1,16 @@
 ---
 date: 2018-12-13 10:00:00
 lang: fr
-title: Les Progressive Web Apps (PWA)
+title: "Les Progressive Web Apps (PWA)"
 tags: [PWA]
-notist_url: https://talks.nicolas-hoizey.com/y2DE0Z/les-progressive-web-apps-pwa
+notist_url: "https://talks.nicolas-hoizey.com/y2DE0Z/les-progressive-web-apps-pwa"
 illustration:
-  src: https://on.notist.cloud/slides/deck3257/thumb-0.jpg
+  src: "https://on.notist.cloud/slides/deck3257/thumb-0.jpg"
   alt: "Cover slide from the talk “Les Progressive Web Apps (PWA)”"
   width: 640
   height: 480
 event:
-  name: Les Papis du Web (Clever Age)
+  name: "Les Papis du Web (Clever Age)"
 ---
 
 Dans Les Papis du Web Épisode #2, retrouvez notre web série sur l’actualité du web à 360° analysée par nos Papis du Web. Actualité et veille techno sur les sujets digitaux qui vous concernent, vues par nos experts… Le tout, en toute indépendance.

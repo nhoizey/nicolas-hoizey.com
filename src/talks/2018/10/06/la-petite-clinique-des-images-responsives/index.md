@@ -1,16 +1,16 @@
 ---
 date: 2018-10-06 14:30:00
 lang: fr
-title: La petite clinique des images responsives
+title: "La petite clinique des images responsives"
 tags: [RWD, image]
-notist_url: https://talks.nicolas-hoizey.com/b23Bwm/la-petite-clinique-des-images-responsives
+notist_url: "https://talks.nicolas-hoizey.com/b23Bwm/la-petite-clinique-des-images-responsives"
 illustration:
-  src: https://on.notist.cloud/slides/deck1507/thumb-0.jpg
+  src: "https://on.notist.cloud/slides/deck1507/thumb-0.jpg"
   alt: "Cover slide from the talk “La petite clinique des images responsives”"
   width: 640
   height: 360
 event:
-  name: Paris Web
+  name: "Paris Web"
 ---
 
 L’usage des standards pour les images responsives semble maintenant répandu, mais trop souvent d’une façon loin d’être optimale, tant pour l’expérience utilisateur (UX) que pour celle de l’expérience de développement (DX).

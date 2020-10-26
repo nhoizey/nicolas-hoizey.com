@@ -1,16 +1,16 @@
 ---
 date: 2017-10-18 20:00:00
 lang: en
-title: How Cloudinary eases Responsive Web Design, and more
+title: "How Cloudinary eases Responsive Web Design, and more"
 tags: [Cloudinary, RWD, image, WebPerf]
-notist_url: https://talks.nicolas-hoizey.com/QQdc6Y/how-cloudinary-eases-responsive-web-design-and-more
+notist_url: "https://talks.nicolas-hoizey.com/QQdc6Y/how-cloudinary-eases-responsive-web-design-and-more"
 illustration:
-  src: https://on.notist.cloud/slides/deck977/thumb-0.jpg
+  src: "https://on.notist.cloud/slides/deck977/thumb-0.jpg"
   alt: "Cover slide from the talk “How Cloudinary eases Responsive Web Design, and more”"
   width: 640
   height: 480
 event:
-  name: Cloudinary's Customers Dinner
+  name: "Cloudinary's Customers Dinner"
 ---
 
 Thoughts on Responsive Images, the <a href="https://nhoizey.github.io/jekyll-cloudinary/" target="_blank" rel="noopener">Cloudinary plugin for Jekyll</a>, and more!

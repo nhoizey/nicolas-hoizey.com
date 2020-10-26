@@ -1,17 +1,17 @@
 ---
 date: 2019-10-10 15:00:00
 lang: fr
-title: Ne vous laissez plus déPOSSEder de vos contenus !
+title: "Ne vous laissez plus déPOSSEder de vos contenus !"
 tags: [POSSE, IndieWeb]
-notist_url: https://talks.nicolas-hoizey.com/AXGNM8/ne-vous-laissez-plus-deposseder-de-vos-contenus
+notist_url: "https://talks.nicolas-hoizey.com/AXGNM8/ne-vous-laissez-plus-deposseder-de-vos-contenus"
 illustration:
-  src: https://on.notist.cloud/slides/deck3822/thumb-0.jpg
+  src: "https://on.notist.cloud/slides/deck3822/thumb-0.jpg"
   alt: "Cover slide from the talk “Ne vous laissez plus déPOSSEder de vos contenus !”"
   width: 640
   height: 480
 event:
-  name: Paris Web
-  url: https://www.paris-web.fr/
+  name: "Paris Web"
+  url: "https://www.paris-web.fr/"
 ---
 
 Nous sommes de plus en plus soucieux des dérives des GAFAM et autres acteurs majeurs du web dans l’usage de nos données personnelles ou le contrôle de nos actions. Nous y restons pourtant massivement, par facilité bien sûr (qui n’a jamais loué la facilité de publications sur Medium ?), mais aussi au prétexte que c’est là que nos familles, amis et autres “followers” se trouvent.

@@ -31,23 +31,23 @@ date: ${talk.attributes.presented_on}${
 lang: ${more[dir].lang}`
         : ''
     }
-title: ${talk.attributes.title}${
+title: "${talk.attributes.title}"${
       more[dir] && more[dir].tags
         ? `
 tags: ${more[dir].tags}`
         : ''
     }
-notist_url: ${talk.links.self}
+notist_url: "${talk.links.self}"
 illustration:
-  src: ${talk.attributes.image.src}
+  src: "${talk.attributes.image.src}"
   alt: "Cover slide from the talk “${talk.attributes.title}”"
   width: ${talk.attributes.image.width}
   height: ${talk.attributes.image.height}
 event:
-  name: ${talk.attributes.event.name}${
-      talk.attributes.event.url !== null
+  name: "${talk.attributes.event.name}"${
+      talk.attributes.event.url !== null && talk.attributes.event.url !== ''
         ? `
-  url: ${talk.attributes.event.url}`
+  url: "${talk.attributes.event.url}"`
         : ''
     }
 ---
