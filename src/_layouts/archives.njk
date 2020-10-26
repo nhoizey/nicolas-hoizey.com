@@ -44,7 +44,7 @@ title: Archives
             {% for type in['articles', 'links', 'notes', 'talks'] %}
               {% if type == currentType -%}
                 <li class="ais-RefinementList-item ais-RefinementList-item--selected">
-                  <strong>{{ type }}</strong>
+                  <a href="/archives/{% if currentYear %}{{ currentYear}}/{% endif %}{% if currentMonth %}{{ currentMonth}}/{% endif %}">{{ type }}</a>
                   <span class="ais-RefinementList-count">{{ collections[type] | length }}</span>
                 </li>
               {% else %}
