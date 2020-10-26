@@ -48,55 +48,33 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
       lang: lang,
       title: title,
       tags: tags,
+      location: {
+        name: event.name
+      },
       webmentions: webmentions,
       comments: comments
     },
-    date: page.date,
+    date: date,
     url: page.url
   } %}
+  {% if event.url %}
+    {% set item.data.location.url = event.url %}
+  {% endif %}
   {% from "macros/meta.njk" import meta %}
   {{ meta(item) }}
 
   <div class="e-content">
-    <div class="talk__header">
-      <figure class="talk__cover">
-        <img
-          alt="screenshot of {{ title }}"
-          width="300"
-          height="200"
-          src="{{ thumbUrl }}{{ link }}"
-          class="screenshot"
-          >
-      </figure>
-    </div>
+    <figure class="onethird right">
+      <img
+        alt="Cover slide from the talk “{{ title }}"
+        width="{{ illustration.width }}"
+        height="{{ illustration.height }}"
+        src="{{ illustration.src }}"
+        >
+    </figure>
 
     {{ content | safe }}
+
+    <p>See slides and additional content on Notist:<br /><a href="{{ notist_url }}">{{ title }}</a>
   </div>
-
-  {% set articleUrl = page.url %}
-  {% include "components/webmentions.njk" %}
 </article>
-
-<div class="e-content">
-  <footer>
-    <ul class="meta">
-      <li class="date meta__item meta__date">
-        <svg class="icon"><use xlink:href="#symbol-calendar" /></svg>
-        <time class="dt-published" datetime="{{ talk.attributes.presented_on | attributeDate }}">
-          {{ talk.attributes.presented_on | date("Do MMMM YYYY") }}
-        </time>
-      </li>
-      <li class="date meta__item card__location">
-        {% if talk.attributes.event.url %}
-          <a href="{{ talk.attributes.event.url }}">{{ talk.attributes.event.name }}</a>
-        {% else %}
-          {{ talk.attributes.event.name }}
-        {% endif %}
-      </li>
-    </ul>
-  </footer>
-  <img src="{{ talk.attributes.image.src }}" alt="Cover slide from the talk “{{ talk.attributes.title }}”" class="onethird right" width="{{ talk.attributes.image.width }}" height="{{ talk.attributes.image.height }}" />
-  {{ talk.attributes.blurb | safe }}
-  <p>See slides and additional content on Notist: <a href="{{ talk.links.self }}">{{ talk.attributes.title }}</a>
-  </p>
-</div>
