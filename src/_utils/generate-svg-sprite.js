@@ -11,12 +11,13 @@ const ICONS_LIST = {
   calendar: 'Date',
   info: 'Info',
   link: 'Link',
-  wifi: 'Online',
-  'wifi-off': 'Offline',
+  'map-pin': 'Location',
+  'message-circle': 'Webmention',
   search: 'Search',
   tag: 'Tag',
   twitter: 'Twitter',
-  'message-circle': 'Webmention',
+  wifi: 'Online',
+  'wifi-off': 'Offline',
 };
 
 // Initiate the sprite with svgstore
