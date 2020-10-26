@@ -51,12 +51,11 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
       location: {
         name: event.name
       },
-      webmentions: webmentions,
-      comments: comments
     },
     date: date,
     url: page.url
-  } %}
+  }
+ %}
   {% if event.url %}
     {% set item.data.location.url = event.url %}
   {% endif %}
