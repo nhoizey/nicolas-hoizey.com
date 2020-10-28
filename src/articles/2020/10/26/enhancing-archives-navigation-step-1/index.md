@@ -17,6 +17,8 @@ Instead of "just" a little, I finaly chose to present this navigation with facet
 
 ![A much more user friendly months navigation](months-pagination-after.png)
 
+For example, you can navigate to the links I published in March 2019: [/links/2019/03/](/links/2019/03/).
+
 I find it so easy to navigate, I wonder why I didn't have this idea earlier!
 
 I already had the required [Eleventy collections](https://github.com/nhoizey/nicolas-hoizey.com/tree/master/src/_11ty/collections), so almost everything was done in a single shared Nunjucks template. Not the easiest one, I recon.
