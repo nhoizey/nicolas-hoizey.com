@@ -36,6 +36,12 @@ registerRoute(
   new NetworkOnly()
 );
 
+// Never cache Algolia requests
+registerRoute(
+  ({ request }) => request.url.match('algolia.net'),
+  new NetworkOnly()
+);
+
 // Never cache ranged requests (videos)
 registerRoute(({ request }) => request.headers.has('range'), new NetworkOnly());
 
