@@ -133,7 +133,7 @@ title: Archives
       {% block hits %}
         <div class="cards-list">
           {% if currentMonth %}
-            {% for item in collections[currentType + 'ByMonth'][currentYear + '/' + currentMonth] | limit(10) %}
+            {% for item in collections[currentType + 'ByMonth'][currentYear + '/' + currentMonth] %}
               {% if item.data.layout == 'article' %}
                 {{ articleCard(item) }}
               {% endif %}
@@ -162,6 +162,9 @@ title: Archives
                 {{ talkCard(item) }}
               {% endif %}
             {% endfor %}
+            {% if collections[currentType + 'ByYear'][currentYear].length > 10 %}
+              <p>Filter by month to see more {{ currentType }} from year {{ currentYear }}.</p>
+            {% endif %}
           {% else %}
             {% for item in collections[currentType] | limit(10) %}
               {% if item.data.layout == 'article' %}
@@ -177,6 +180,9 @@ title: Archives
                 {{ talkCard(item) }}
               {% endif %}
             {% endfor %}
+            {% if collections[currentType].length > 10 %}
+              <p>Filter by year and month to see more {{ currentType }}.</p>
+            {% endif %}
           {% endif %}
         </div>
       {% endblock %}
