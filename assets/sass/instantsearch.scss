@@ -11,8 +11,7 @@
   grid-template-areas:
     'searchbox searchbox'
     'stats poweredby'
-    'hits hits'
-    'pagination pagination';
+    'hits hits';
   grid-gap: calc(var(--gap) / 2);
   gap: calc(var(--gap) / 2);
 }
@@ -30,8 +29,7 @@
     grid-template-areas:
       'searchbox searchbox gutter clear'
       'stats poweredby gutter empty'
-      'hits hits gutter refinements'
-      'pagination pagination gutter refinements';
+      'hits hits gutter refinements';
   }
 
   #clear-refinements,
