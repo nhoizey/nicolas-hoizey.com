@@ -152,7 +152,7 @@ search.addWidgets([
                   alt="${hit.illustration.alt}"
                   width="${hit.illustration.width}"
                   height="${hit.illustration.height}"
-                  src="${hit.illustration.src}"
+                  src="https://res.cloudinary.com/nho/image/fetch/q_auto,f_auto,w_320,c_limit/${hit.illustration.src}"
                   class="vignette"
                   crossorigin="anonymous" />
               </figure>`
