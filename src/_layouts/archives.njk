@@ -27,11 +27,11 @@ title: Archives
 
   {% if build.env == 'production' %}
     {% set css %}
-    {% include_raw config.dir.dist + "/css/" + hashes_css['instantsearch.css'] %}
+    {% include_raw config.dir.dist + "/css/" + hashes_css['archives.css'] %}
     {% endset %}
     <style>{{css | safe}}</style>
   {% else %}
-    <link rel="stylesheet" href="/css/instantsearch.css" />
+    <link rel="stylesheet" href="/css/archives.css" />
   {% endif %}
 
   <h1>
