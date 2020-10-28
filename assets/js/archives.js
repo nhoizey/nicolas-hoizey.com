@@ -153,13 +153,6 @@ search.addWidgets([
     container: '#hits',
     templates: {
       item(hit) {
-        console.log(hit._highlightResult.surtitle.value);
-        console.log(
-          instantsearch.highlight({
-            attribute: 'surtitle',
-            hit,
-          })
-        );
         return (
           `<article class="card ${hit.type} h-entry" lang="${hit.lang}">` +
           (hit.illustration
