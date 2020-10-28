@@ -15,8 +15,8 @@
       <p class="card__surtitle">{{ surtitle | safe }}</p>
     {% endif %}
     {% if title %}
-      <p class="card__title">
-        <a href="{{ url }}">{{ title }}</a>
+      <p class="card__title p-name">
+        <a href="{{ url }}" hreflang="{{ lang }}" class="u-url">{{ title }}</a>
       </p>
     {% endif %}
     {% if content %}

@@ -1,3 +1,6 @@
+{% from "macros/meta.njk" import meta %}
+{% from "macros/card.njk" import card %}
+
 {% macro linkCard(link) %}
   {% set thumbUrl = 'https://image.thum.io/get/width/1200/crop/800/noanimate/' %}
 
@@ -28,11 +31,18 @@
   <p class="card__text p-summary">{{ link.templateContent | excerpt | striptags | safe }}</p>
   {% endset %}
 
-  {% from "macros/meta.njk" import meta %}
   {% set meta %}
   {{ meta(link) }}
   {% endset %}
 
-  {% from "macros/card.njk" import card %}
-  {{ card('link', link.data.lang, surtitle, link.data.title, link.url, illustration, content, meta) }}
+  {{ card(
+    type = 'link',
+    lang = link.data.lang,
+    surtitle = surtitle,
+    title = link.data.title,
+    url = link.url,
+    illustration = illustration,
+    content = content,
+    meta = meta)
+  }}
 {% endmacro %}

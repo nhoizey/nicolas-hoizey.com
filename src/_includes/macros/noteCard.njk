@@ -10,5 +10,10 @@
   {{ meta(note, permalink=true) }}
   {% endset %}
 
-  {{ card('note', note.data.lang, false, false, false, false, content, meta) }}
+  {{ card(
+    type = 'note',
+    lang = note.data.lang,
+    content = content,
+    meta = meta)
+  }}
 {% endmacro %}

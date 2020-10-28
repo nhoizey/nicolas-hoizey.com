@@ -1,10 +1,20 @@
+{% from "macros/meta.njk" import meta %}
+{% from "macros/card.njk" import card %}
+
 {% macro articleCard(article) %}
-  <article class="card h-entry">
-    <p class="card__title p-name">
-      <a href="{{ article.url }}" hreflang="{{ article.data.lang }}" class="u-url">{{ article.data.title }}</a>
-    </p>
-    <p class="card__text p-summary">{{ article.templateContent | excerpt | striptags | safe }}</p>
-    {% from "macros/meta.njk" import meta %}
-    {{ meta(article) }}
-  </article>
+  {% set content %}
+  <p class="card__text p-summary">{{ article.templateContent | excerpt | striptags | safe }}</p>
+  {% endset %}
+
+  {% set meta %}
+  {{ meta(article) }}
+  {% endset %}
+
+  {{ card(
+    type = 'article',
+    lang = article.data.lang,
+    title = article.data.title,
+    url = article.url,
+    content = content,
+    meta = meta) }}
 {% endmacro %}
