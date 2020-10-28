@@ -14,6 +14,15 @@ import {
 
 const titleize = (string) => string.charAt(0).toUpperCase() + string.slice(1);
 
+// https://stackoverflow.com/a/46851765/717195
+const unescapeHtml = (input) => {
+  var el = document.createElement('div');
+  return input.replace(/\&#?[0-9a-z]+;/gi, function (enc) {
+    el.innerHTML = enc;
+    return el.innerText;
+  });
+};
+
 const search = instantsearch({
   indexName: process.env.ALGOLIA_INDEX_NAME,
   searchClient: algoliasearch(
@@ -144,6 +153,13 @@ search.addWidgets([
     container: '#hits',
     templates: {
       item(hit) {
+        console.log(hit._highlightResult.surtitle.value);
+        console.log(
+          instantsearch.highlight({
+            attribute: 'surtitle',
+            hit,
+          })
+        );
         return (
           `<article class="card ${hit.type} h-entry" lang="${hit.lang}">` +
           (hit.illustration
@@ -158,7 +174,14 @@ search.addWidgets([
               </figure>`
             : '') +
           (hit.surtitle
-            ? `<p class="card__surtitle">${hit.surtitle}</p>`
+            ? '<p class="card__surtitle">' +
+              unescapeHtml(
+                instantsearch.highlight({
+                  attribute: 'surtitle',
+                  hit,
+                })
+              ) +
+              '</p>'
             : '') +
           (hit.title
             ? `<p class="card__title"><a href="${
