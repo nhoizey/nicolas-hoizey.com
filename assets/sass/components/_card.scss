@@ -78,6 +78,9 @@
     height: auto;
     border-radius: 1em;
     vertical-align: text-bottom;
+    border-width: 1px;
+    border-style: solid;
+    border-color: $color-grey;
   }
 }
 
