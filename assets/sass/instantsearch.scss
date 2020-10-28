@@ -5,7 +5,7 @@
 // Layout
 // ************************************************************
 
-.instant-search {
+.archives {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
@@ -25,7 +25,7 @@
 }
 
 @media (min-width: 40em) {
-  .instant-search {
+  .archives {
     grid-template-columns: 1fr 1fr var(--gap) 10em;
     grid-template-areas:
       'searchbox searchbox gutter clear'
@@ -140,67 +140,41 @@
     padding-left: 0;
     list-style-type: none;
   }
+}
 
-  .ais-HierarchicalMenu-item {
-    padding-left: 1em;
-    position: relative;
-
-    &::before {
-      position: absolute;
-      left: 0;
-      top: 0.2em;
-      font-family: monospace;
-      font-size: 1em;
-      content: '+';
-    }
-
-    &.ais-HierarchicalMenu-item--selected::before {
-      content: '-';
-    }
-  }
-
-  .ais-HierarchicalMenu-list--child {
-    .ais-HierarchicalMenu-item {
-      padding-left: 0;
-
-      &::before {
-        content: '';
-      }
-    }
-  }
-
-  .ais-HierarchicalMenu-list--child {
-    padding-left: 1em;
-  }
-
-  .ais-HierarchicalMenu-link {
-    &:link,
-    &:visited {
-      text-decoration: none;
-    }
-
-    &:hover,
-    &:active {
-      background-color: transparent;
-      color: inherit;
-    }
-  }
-
-  .ais-RefinementList-count,
-  .ais-HierarchicalMenu-count {
-    position: relative;
-    top: -0.1em;
-    font-size: 0.7em;
-    margin-left: 0.2em;
-    padding: 0.1em 0.3em;
-    background-color: $color-lightgrey;
-    border-radius: 1em;
-    text-decoration: none;
-  }
+// HierarchicalMenu
+.ais-HierarchicalMenu-item {
+  padding-left: 1em;
 }
 
 .ais-HierarchicalMenu-item--selected > div > a > .ais-HierarchicalMenu-label {
   font-weight: bold;
+}
+
+.ais-HierarchicalMenu-list--child {
+  padding-left: 1em;
+
+  .ais-HierarchicalMenu-item {
+    padding-left: 0;
+  }
+}
+
+// RefinementList
+.ais-RefinementList-item--selected {
+  font-weight: bold;
+}
+
+// Counts
+.ais-RefinementList-count,
+.ais-HierarchicalMenu-count {
+  position: relative;
+  top: -0.1em;
+  font-size: 0.7em;
+  margin-left: 0.2em;
+  padding: 0.1em 0.3em;
+  background-color: $color-lightgrey;
+  border-radius: 1em;
+  text-decoration: none;
 }
 
 // ************************************************************
@@ -249,7 +223,6 @@
     height: 1.5em;
   }
 
-  // from
   input[type='search']::-webkit-search-cancel-button,
   input[type='search']::-webkit-search-decoration,
   input[type='search']::-webkit-search-results-button,
@@ -266,14 +239,15 @@
     box-sizing: content-box;
   }
 
+  $search-button-width: 1.5em;
   input {
     flex-grow: 1;
-    max-width: calc(100% - 2em);
+    max-width: calc(100% - #{$search-button-width} - 0.5em);
     padding-left: 0.3em;
   }
 
   button {
-    width: 1.5em;
+    width: $search-button-width;
     fill: $color-darkgrey;
 
     svg {
@@ -313,5 +287,20 @@
       border-radius: 0.3em;
       vertical-align: middle;
     }
+  }
+}
+
+// ************************************************************
+// Before Algolia instant search loads
+// ************************************************************
+
+.no-ais-RefinementList-list {
+  li {
+    padding-left: 1.2em;
+  }
+
+  a:link,
+  a:visited {
+    // text-decoration: none;
   }
 }

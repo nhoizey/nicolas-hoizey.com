@@ -24,6 +24,16 @@ title: Archives
 {% endif %}
 
 {% block content %}
+
+  {% if build.env == 'production' %}
+    {% set css %}
+    {% include_raw config.dir.dist + "/css/" + hashes_css['instantsearch.css'] %}
+    {% endset %}
+    <style>{{css | safe}}</style>
+  {% else %}
+    <link rel="stylesheet" href="/css/instantsearch.css" />
+  {% endif %}
+
   <h1>
     {% block title %}
       {% if currentType == 'archives' %}
