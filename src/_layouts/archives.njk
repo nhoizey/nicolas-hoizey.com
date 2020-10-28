@@ -78,13 +78,9 @@ title: Archives
                     <li class="ais-HierarchicalMenu-item ais-HierarchicalMenu-item--selected ais-HierarchicalMenu-item--parent">
                       <div>
                         {% if currentMonth %}
-                          <a class="ais-HierarchicalMenu-link" href="/{{ currentType }}/{{ year }}/">
-                            <span class="ais-HierarchicalMenu-label">{{ year }}</span>
-                          </a>
+                          <a class="ais-HierarchicalMenu-link" href="/{{ currentType }}/{{ year }}/">{{ year }}</a>
                         {% else %}
-                          <a class="ais-HierarchicalMenu-link" href="/{{ currentType }}/">
-                            <span class="ais-HierarchicalMenu-label">{{ year }}</span>
-                          </a>
+                          <a class="ais-HierarchicalMenu-link" href="/{{ currentType }}/">{{ year }}</a>
                         {% endif %}
                         <span class="ais-RefinementList-count">{{ collections[currentType + 'ByYear'][year] | length }}</span>
                       </div>
@@ -98,9 +94,7 @@ title: Archives
                                 {% if monthMonth == currentMonth %}
                                   <strong>{{ monthMonth }}</strong>
                                 {% else %}
-                                  <a class="ais-HierarchicalMenu-link" href="/{{ currentType }}/{{ year }}/{{ monthMonth }}/">
-                                    <span class="ais-HierarchicalMenu-label">{{ monthMonth }}</span>
-                                  </a>
+                                  <a class="ais-HierarchicalMenu-link" href="/{{ currentType }}/{{ year }}/{{ monthMonth }}/">{{ monthMonth }}</a>
                                 {% endif %}
                               </li>
                             {% endif %}
@@ -111,9 +105,7 @@ title: Archives
                   {% else %}
                     <li class="ais-HierarchicalMenu-item">
                       <div>
-                        <a class="ais-HierarchicalMenu-link" href="/{{ currentType }}/{{ year }}/">
-                          <span class="ais-HierarchicalMenu-label">{{ year }}</span>
-                        </a>
+                        <a class="ais-HierarchicalMenu-link" href="/{{ currentType }}/{{ year }}/">{{ year }}</a>
                         <span class="ais-RefinementList-count">{{ collections[currentType + 'ByYear'][year] | length }}</span>
                       </div>
                     </li>

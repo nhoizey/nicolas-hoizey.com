@@ -134,6 +134,12 @@ search.addWidgets([
     showMore: true,
     showMoreLimit: 1000,
     sortBy: ['name:desc'],
+    templates: {
+      item: `
+      <a class="{{cssClasses.link}}" href="{{url}}">{{label}}</a>
+      <span class="{{cssClasses.count}}">{{count}}</span>
+    `,
+    },
   }),
   languagesPanel({
     container: '#langs-list',
