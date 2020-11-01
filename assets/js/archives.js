@@ -45,22 +45,6 @@ const search = instantsearch({
     process.env.ALGOLIA_APP_ID,
     process.env.ALGOLIA_READ_ONLY_API_KEY
   ),
-  // initialUiState: {
-  //   nho: window.instantsearchInitialUiState || {},
-  // },
-  // searchFunction(helper) {
-  // if (window.instantsearchInitialUiState) {
-  //   window.instantsearchInitialUiState = false;
-  // }
-  // if (helper.state.query) {
-  //   helper.search();
-  // }
-  // const page = helper.getPage(); // Retrieve the current page
-  // console.dir(helper);
-  // helper
-  // .setPage(page) // we re-apply the previous page
-  // .search();
-  // },
   routing: {
     router: history({
       windowTitle({ type, query }) {
@@ -90,8 +74,6 @@ const search = instantsearch({
         return title;
       },
       createURL({ qsModule, routeState, location }) {
-        // console.log('createURL');
-        // console.dir(routeState);
         const queryParameters = {};
 
         let urlPath = 'archives';
@@ -131,7 +113,6 @@ const search = instantsearch({
       },
 
       parseURL({ qsModule, location }) {
-        console.log('parseURL');
         const urlParts = {};
 
         // Parse location path
@@ -170,14 +151,11 @@ const search = instantsearch({
             urlParts[refinement] = queryParts[refinement];
           }
         });
-        console.dir(urlParts);
         return urlParts;
       },
     }),
     stateMapping: {
       routeToState(routeState) {
-        // console.log('routeToState');
-        // console.dir(routeState);
         const state = { nho: {} };
         if (routeState.query !== undefined && routeState.query !== '') {
           state.nho.query = routeState.query;
@@ -204,8 +182,6 @@ const search = instantsearch({
         return state;
       },
       stateToRoute(uiState) {
-        // console.log('stateToRoute');
-        // console.dir(uiState);
         const route = {};
         if (uiState['nho'].query !== undefined && uiState['nho'].query !== '') {
           route.query = uiState['nho'].query;
