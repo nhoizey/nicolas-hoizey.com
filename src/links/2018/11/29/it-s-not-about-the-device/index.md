@@ -5,6 +5,8 @@ lang: en
 link: https://ethanmarcotte.com/wrote/not-the-device/
 authors:
   - name: "Ethan Marcotte"
+    twitter: "beep"
+    site: "https://ethanmarcotte.com/"
 tags: [RWD]
 ---
 

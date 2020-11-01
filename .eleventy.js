@@ -50,19 +50,6 @@ module.exports = function (eleventyConfig) {
     });
 
   // ------------------------------------------------------------------------
-  // Nunjucks tags
-  // ------------------------------------------------------------------------
-
-  // glob
-  //   .sync(path.join(config.dir.src, '_11ty/nunjucksTags/*.js'))
-  //   .forEach((file) => {
-  //     let nunjucksTags = require('./' + file);
-  //     Object.keys(nunjucksTags).forEach((name) => {
-  //       eleventyConfig.addNunjucksTag(name, nunjucksTags[name]);
-  //     });
-  //   });
-
-  // ------------------------------------------------------------------------
   // Plugins
   // ------------------------------------------------------------------------
 

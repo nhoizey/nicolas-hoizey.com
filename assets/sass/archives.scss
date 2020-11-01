@@ -11,8 +11,7 @@
   grid-template-areas:
     'searchbox searchbox'
     'stats poweredby'
-    'hits hits'
-    'pagination pagination';
+    'hits hits';
   grid-gap: calc(var(--gap) / 2);
   gap: calc(var(--gap) / 2);
 }
@@ -30,8 +29,7 @@
     grid-template-areas:
       'searchbox searchbox gutter clear'
       'stats poweredby gutter empty'
-      'hits hits gutter refinements'
-      'pagination pagination gutter refinements';
+      'hits hits gutter refinements';
   }
 
   #clear-refinements,
@@ -147,34 +145,26 @@
   padding-left: 1em;
 }
 
-.ais-HierarchicalMenu-item--selected > div > a > .ais-HierarchicalMenu-label {
+.ais-HierarchicalMenu-item--selected > div > a {
   font-weight: bold;
 }
 
-.ais-HierarchicalMenu-list--child {
-  padding-left: 1em;
-
-  .ais-HierarchicalMenu-item {
-    padding-left: 0;
-  }
-}
-
 // RefinementList
-.ais-RefinementList-item--selected {
+.ais-RefinementList-item--selected .ais-RefinementList-labelText {
   font-weight: bold;
 }
 
 // Counts
 .ais-RefinementList-count,
 .ais-HierarchicalMenu-count {
+  color: $text-color;
   position: relative;
   top: -0.1em;
   font-size: 0.7em;
   margin-left: 0.2em;
-  padding: 0.1em 0.3em;
+  padding: 0.1em 0.5em;
   background-color: $color-lightgrey;
   border-radius: 1em;
-  text-decoration: none;
 }
 
 // ************************************************************

@@ -41,7 +41,7 @@ permalink: /tools/algolia.json
         {%- if not loop.last -%}, {% else %} and {% endif -%}
       {%- endif -%}
       {%- if author.twitter -%}
-        <img class="u-photo smallavatar" src="https://res.cloudinary.com/nho/image/twitter_name/{{ author.twitter }}" alt="{{ author.name }} avatar" width="24" height="24" />
+        <img class="u-photo smallavatar" src="https://res.cloudinary.com/nho/image/twitter_name/q_auto,f_auto,w_64,c_limit/{{ author.twitter }}" alt="{{ author.name }} avatar" width="24" height="24" />
       {% endif -%}
       {{ author.name }}
     {%- endfor %} wrote
@@ -105,6 +105,7 @@ permalink: /tools/algolia.json
 ,
 {% for entry in collections.talks %}
   {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
+  {%- set metaHtml %}{{ meta(entry) }}{%- endset -%}
   {
     "type": "talks",
     "lang": "{{ entry.lang }}",
@@ -129,7 +130,7 @@ permalink: /tools/algolia.json
         "{{ tag }}"{%- if not loop.last -%},{% endif -%}
   {% endfor %}
 		],
-    "meta_html": ""
+    "meta_html": {{ metaHtml | jsonify | safe }}
 	}
   {%- if not loop.last -%},{% endif -%}
 {% endfor %}
