@@ -145,13 +145,6 @@ search.addWidgets([
     container: '#langs-list',
     attribute: 'lang',
     sortBy: ['name:asc'],
-    // templates: {
-    //   item: `<label class="ais-RefinementList-label">
-    //       <input type="checkbox" class="ais-RefinementList-checkbox" value="{{label}}" {{#isRefined}}checked{{/isRefined}}>
-    //       <span class="ais-RefinementList-labelText">{{label}}</span>
-    //       <span class="ais-RefinementList-count">{{count}}</span>
-    //     </label>`,
-    // },
   }),
   tagsPanel({
     container: '#tags-list',
@@ -161,13 +154,6 @@ search.addWidgets([
     showMore: true,
     showMoreLimit: 1000,
     searchable: true,
-    // templates: {
-    //   item: `<label class="ais-RefinementList-label">
-    //       <input type="checkbox" class="ais-RefinementList-checkbox" value="{{label}}" {{#isRefined}}checked{{/isRefined}}>
-    //       <span class="ais-RefinementList-labelText">{{label}}</span>
-    //       <span class="ais-RefinementList-count">{{count}}</span>
-    //     </label>`,
-    // },
   }),
   infiniteHits({
     container: '#hits',
