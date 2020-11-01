@@ -181,26 +181,5 @@ title: Archives
     </div>
   </div>
 
-  <script>
-    window.instantsearchInitialUiState = {
-      page: 1
-    };
-    {% if currentType != 'archives' %}
-      window.instantsearchInitialUiState.refinementList = {
-        type: ['{{ currentType }}']
-      };
-    {% endif %}
-    {% if currentYear %}
-      window.instantsearchInitialUiState.hierarchicalMenu = {
-        "date.lvl0": ['{{ currentYear }}']
-      };
-    {% endif %}
-    {% if currentYear %}
-      window.instantsearchInitialUiState.hierarchicalMenu = {
-        "date.lvl0": ['{{ currentYear }}']
-      };
-    {% endif %}
-  </script>
-
   <script src="/js/{{ hashes_archives['assets/js/archives.js']}}"></script>
 {% endblock %}
