@@ -115,6 +115,9 @@ const search = instantsearch({
         if (routeState.page && routeState.page !== 1) {
           queryParameters.page = routeState.page;
         }
+        if (routeState.lang && routeState.lang.length > 0) {
+          queryParameters.lang = routeState.lang;
+        }
         if (routeState.tags && routeState.tags.length > 0) {
           queryParameters.tags = routeState.tags;
         }
@@ -129,19 +132,46 @@ const search = instantsearch({
 
       parseURL({ qsModule, location }) {
         console.log('parseURL');
-        console.log(location);
-        return {};
-        const pathnameMatches = location.pathname.match(/\/(.*?)\/?$/);
-        let type = (pathnameMatches && pathnameMatches[1]) || '';
-        const { query = '', page = 1 } = qsModule.parse(
-          location.search.slice(1)
+        const urlParts = {};
+
+        // Parse location path
+        const matches = location.pathname.match(
+          /\/([a-z]+)\/(?:([0-9]{4})\/)?(?:([0-9]{2})\/)?$/
         );
-        // console.log({ type, query, page });
-        return {
-          query: decodeURIComponent(query),
-          page: page,
-          type: type,
-        };
+        if (matches[1] !== undefined && matches[1] !== 'archives') {
+          urlParts.type = matches[1];
+        }
+        if (matches[2] !== undefined) {
+          urlParts.date = matches[2];
+        }
+        if (matches[3] !== undefined) {
+          urlParts.date += '-' + matches[3];
+        }
+
+        // Parse query string
+        const queryParts = qsModule.parse(location.search.slice(1));
+        if (queryParts.query !== undefined && queryParts.query !== '') {
+          urlParts.query = decodeURIComponent(queryParts.query);
+        }
+        if (queryParts.page !== undefined && queryParts.page !== 1) {
+          urlParts.page = queryParts.page;
+        }
+        ['type', 'lang', 'tags'].forEach((refinement) => {
+          if (
+            typeof queryParts[refinement] === 'string' &&
+            queryParts[refinement] !== ''
+          ) {
+            urlParts[refinement] = [queryParts[refinement]];
+          }
+          if (
+            Array.isArray(queryParts[refinement]) &&
+            queryParts[refinement].length > 0
+          ) {
+            urlParts[refinement] = queryParts[refinement];
+          }
+        });
+        console.dir(urlParts);
+        return urlParts;
       },
     }),
     stateMapping: {
