@@ -120,7 +120,7 @@ const search = instantsearch({
           /\/([a-z]+)\/(?:([0-9]{4})\/)?(?:([0-9]{2})\/)?$/
         );
         if (matches[1] !== undefined && matches[1] !== 'archives') {
-          urlParts.type = matches[1];
+          urlParts.type = [matches[1]];
         }
         if (matches[2] !== undefined) {
           urlParts.date = matches[2];
