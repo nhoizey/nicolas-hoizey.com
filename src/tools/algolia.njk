@@ -105,6 +105,7 @@ permalink: /tools/algolia.json
 ,
 {% for entry in collections.talks %}
   {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
+  {%- set metaHtml %}{{ meta(entry) }}{%- endset -%}
   {
     "type": "talks",
     "lang": "{{ entry.lang }}",
@@ -129,7 +130,7 @@ permalink: /tools/algolia.json
         "{{ tag }}"{%- if not loop.last -%},{% endif -%}
   {% endfor %}
 		],
-    "meta_html": ""
+    "meta_html": {{ metaHtml | jsonify | safe }}
 	}
   {%- if not loop.last -%},{% endif -%}
 {% endfor %}
