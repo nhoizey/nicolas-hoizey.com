@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>NHO</ShortName>
+  <LongName>Nicolas Hoizey personal site search</LongName>
+  <Description>Search through contents posted on Nicolas Hoizey personal site</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image height="16" width="16" type="image/x-icon">https://nicolas-hoizey.com/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://nicolas-hoizey.com/archives/?query={searchTerms}" />
+  <Url type="application/opensearchdescription+xml"
+    rel="self"
+    template="https://nicolas-hoizey.com/opensearch.xml" />
+  <moz:SearchForm>https://nicolas-hoizey.com/archives/</moz:SearchForm>
+</OpenSearchDescription>
