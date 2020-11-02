@@ -31,6 +31,7 @@ If you search for something specific, the results highlight why they're here in 
 
 ![Highlighted results](archives-live-search-with-algolia-highlight.png)
 
+![Algolia logo](/assets/logos/algolia.png){.logo}
 All of this would not be possible without [Algolia](/tags/algolia/), the awesome search service I've been using for multiple years.
 
 I inject all my contents in an Algolia index, and a single JavaScript script uses [Algolia's InstantSearch.js UI library](https://www.algolia.com/doc/guides/building-search-ui/what-is-instantsearch/js/) to build the user interface and synchronize the search term and facets values to the URL (and back).
