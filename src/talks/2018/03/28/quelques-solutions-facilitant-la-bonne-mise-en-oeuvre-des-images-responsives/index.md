@@ -9,7 +9,7 @@ illustration:
   alt: "Cover slide from the talk “Quelques solutions facilitant la bonne mise en œuvre des images responsives”"
   width: 640
   height: 480
-event:
+location:
   name: "Paris Webperf Meetup"
   url: "https://www.meetup.com/fr-FR/Paris-Webperf-Meetup/"
 ---

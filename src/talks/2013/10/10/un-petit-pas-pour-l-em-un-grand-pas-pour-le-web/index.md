@@ -9,7 +9,7 @@ illustration:
   alt: "Cover slide from the talk “Un petit pas pour l’em, un grand pas pour le Web”"
   width: 640
   height: 480
-event:
+location:
   name: "Paris-Web 2013"
 ---
 

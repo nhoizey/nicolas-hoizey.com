@@ -9,7 +9,7 @@ illustration:
   alt: "Cover slide from the talk “Améliorer les performances Web - Les optimisations côté client”"
   width: 640
   height: 480
-event:
+location:
   name: "TechDays France 2011"
 ---
 

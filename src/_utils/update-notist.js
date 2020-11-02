@@ -43,7 +43,7 @@ illustration:
   alt: "Cover slide from the talk “${talk.attributes.title}”"
   width: ${talk.attributes.image.width}
   height: ${talk.attributes.image.height}
-event:
+location:
   name: "${talk.attributes.event.name}"${
       talk.attributes.event.url !== null && talk.attributes.event.url !== ''
         ? `

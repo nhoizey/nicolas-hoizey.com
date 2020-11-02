@@ -9,7 +9,7 @@ illustration:
   alt: "Cover slide from the talk “Performance Web”"
   width: 640
   height: 480
-event:
+location:
   name: "Les Papis du Web (Clever Age)"
 ---
 

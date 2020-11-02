@@ -9,7 +9,7 @@ illustration:
   alt: "Cover slide from the talk “Web UX - Performance Web”"
   width: 640
   height: 480
-event:
+location:
   name: "Web UX"
 ---
 

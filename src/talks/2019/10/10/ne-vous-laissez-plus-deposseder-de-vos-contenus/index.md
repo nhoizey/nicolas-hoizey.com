@@ -9,7 +9,7 @@ illustration:
   alt: "Cover slide from the talk “Ne vous laissez plus déPOSSEder de vos contenus !”"
   width: 640
   height: 480
-event:
+location:
   name: "Paris Web"
   url: "https://www.paris-web.fr/"
 ---

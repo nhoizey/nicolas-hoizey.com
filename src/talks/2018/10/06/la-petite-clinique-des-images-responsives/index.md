@@ -9,7 +9,7 @@ illustration:
   alt: "Cover slide from the talk “La petite clinique des images responsives”"
   width: 640
   height: 360
-event:
+location:
   name: "Paris Web"
 ---
 

@@ -9,7 +9,7 @@ illustration:
   alt: "Cover slide from the talk “Optimiser la performance par un choix optimal des dimensions des images responsives”"
   width: 640
   height: 400
-event:
+location:
   name: "We Love Speed"
 ---
 

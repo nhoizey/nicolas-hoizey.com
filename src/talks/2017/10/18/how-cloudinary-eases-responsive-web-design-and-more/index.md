@@ -9,7 +9,7 @@ illustration:
   alt: "Cover slide from the talk “How Cloudinary eases Responsive Web Design, and more”"
   width: 640
   height: 480
-event:
+location:
   name: "Cloudinary's Customers Dinner"
 ---
 
