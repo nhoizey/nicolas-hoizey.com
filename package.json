@@ -35,6 +35,7 @@
     "build:netlify": "cross-env NODE_ENV=production npm-run-all --sequential build build:lambdas",
     "notist": "node ./src/_utils/update-notist.js",
     "webmention": "node ./src/_utils/update-webmention.js",
+    "tweets": "node ./src/_utils/send-tweets.js",
     "algolia": "atomic-algolia",
     "sprite": "node src/_utils/generate-svg-sprite.js"
   },
