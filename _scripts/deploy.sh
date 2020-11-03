@@ -7,3 +7,6 @@ echo "Sync server from local"
 
 echo "Update Algolia index"
 npm run algolia
+
+echo "Send tweets"
+npm run tweets
