@@ -7,7 +7,7 @@ permalink: /tools/algolia.json
 
 [
 {% for entry in collections.articles %}
-  {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
+  {%- set absoluteEntryUrl -%}{{ entry.url | url }}{%- endset -%}
   {%- set metaHtml %}{{ meta(entry) }}{%- endset -%}
   {
     "type": "articles",
@@ -33,7 +33,7 @@ permalink: /tools/algolia.json
 {% endfor %}
 ,
 {% for entry in collections.links %}
-  {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
+  {%- set absoluteEntryUrl -%}{{ entry.url | url }}{%- endset -%}
   {%- set authors -%}
   {%- if entry.data.authors -%}
     {%- for author in entry.data.authors -%}
@@ -78,7 +78,7 @@ permalink: /tools/algolia.json
 {% endfor %}
 ,
 {% for entry in collections.notes %}
-  {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
+  {%- set absoluteEntryUrl -%}{{ entry.url | url }}{%- endset -%}
   {%- set metaHtml %}{{ meta(entry, true) }}{%- endset -%}
   {
     "type": "notes",
@@ -104,7 +104,7 @@ permalink: /tools/algolia.json
 {% endfor %}
 ,
 {% for entry in collections.talks %}
-  {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
+  {%- set absoluteEntryUrl -%}{{ entry.url | url }}{%- endset -%}
   {%- set metaHtml %}{{ meta(entry) }}{%- endset -%}
   {
     "type": "talks",
