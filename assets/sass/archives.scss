@@ -1,5 +1,7 @@
 @import 'global/variables';
 @import 'global/colors';
+@import 'global/utilities';
+@import 'components/card';
 
 // ************************************************************
 // Layout
@@ -12,8 +14,10 @@
     'searchbox searchbox'
     'stats poweredby'
     'hits hits';
-  grid-gap: calc(var(--gap) / 2);
-  gap: calc(var(--gap) / 2);
+  grid-column-gap: calc(var(--gap) * 3);
+  column-gap: calc(var(--gap) * 3);
+  grid-row-gap: calc(var(--gap) * 2);
+  row-gap: calc(var(--gap) * 2);
 }
 
 #clear-refinements,
@@ -23,13 +27,13 @@
   display: none;
 }
 
-@media (min-width: 40em) {
+@media (min-width: 48rem) {
   .archives {
-    grid-template-columns: 1fr 1fr var(--gap) 10em;
+    grid-template-columns: 1fr 1fr 12rem;
     grid-template-areas:
-      'searchbox searchbox gutter clear'
-      'stats poweredby gutter empty'
-      'hits hits gutter refinements';
+      'searchbox searchbox clear'
+      'stats poweredby empty'
+      'hits hits refinements';
   }
 
   #clear-refinements,
@@ -59,8 +63,12 @@
 
 #powered-by {
   grid-area: poweredby;
-
   min-height: 1.5em;
+}
+
+#stats,
+#powered-by {
+  margin-top: -1rem;
 }
 
 .refinements {
@@ -263,9 +271,7 @@
 // ************************************************************
 
 .ais-InfiniteHits-list {
-  & > * + * {
-    margin-top: var(--gap);
-  }
+  @extend .cards-list;
 
   padding: 0;
   list-style-type: none;
@@ -287,10 +293,5 @@
 .no-ais-RefinementList-list {
   li {
     padding-left: 1.2em;
-  }
-
-  a:link,
-  a:visited {
-    // text-decoration: none;
   }
 }
