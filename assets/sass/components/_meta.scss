@@ -32,6 +32,10 @@
     stroke-width: 2px;
     stroke-linecap: round;
     stroke-linejoin: round;
+
+    &.twitter {
+      stroke: $color-twitter;
+    }
   }
 }
 
