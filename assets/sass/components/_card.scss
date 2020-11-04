@@ -7,7 +7,9 @@
 }
 
 .cards-list > * + * {
-  margin-top: var(--gap);
+  margin-top: calc(3 * var(--gap));
+  padding-top: calc(3 * var(--gap));
+  border-top: 1px solid $color-primary-lighter-3;
 }
 
 // ************************************************************
@@ -17,17 +19,6 @@
 .card {
   @extend .clearfix;
 
-  position: relative;
-  padding: var(--gap);
-
-  border: 2px solid $color-grey;
-  border-radius: var(--gap);
-  background-color: $color-white;
-  transition: border 0.3s ease-in-out;
-  &:hover {
-    border: 2px solid $color-primary;
-  }
-
   & > * + * {
     margin-top: var(--gap);
   }
@@ -36,17 +27,19 @@
 .card__illustration {
   margin-top: 0;
 
-  img {
-    border-width: 2px;
-    border-style: solid;
-    border-color: $color-lightgrey;
-  }
-
   @media (min-width: 30em) {
     float: right;
-    max-width: calc(30% + 5vw);
+    max-width: 40%;
     margin: 0 0 1em 1em;
   }
+}
+
+.card__illustration img,
+img.card__illustration {
+  border-style: solid;
+  border-width: 2px;
+  border-color: $color-primary-lighter-3;
+  padding: 2px;
 }
 
 .card__surtitle {
