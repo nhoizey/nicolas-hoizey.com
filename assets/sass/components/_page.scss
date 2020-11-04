@@ -1,3 +1,31 @@
+.page {
+  @extend .clearfix;
+
+  & > * + * {
+    margin-top: var(--gap);
+  }
+}
+
+.page__surtitle {
+  color: $color-darkgrey;
+  padding-top: var(--gap);
+  font-size: var(--font-size-l);
+
+  & + .page__title {
+    margin-top: 0;
+  }
+}
+
+.u-photo {
+  width: 1.3em;
+  height: auto;
+  border-radius: 1em;
+  vertical-align: text-bottom;
+  border-width: 1px;
+  border-style: solid;
+  border-color: $color-grey;
+}
+
 .page__illustration {
   margin-top: 0;
 
@@ -16,3 +44,8 @@ img.page__illustration {
   padding: 2px;
 }
 
+.page__text {
+  & > * + * {
+    margin-top: var(--gap);
+  }
+}
