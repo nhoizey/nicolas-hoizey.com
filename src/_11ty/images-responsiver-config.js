@@ -111,19 +111,12 @@ module.exports = {
       '(max-width: 20rem) 45vw, (max-width: 30rem) 30vw, (max-width: 67rem) 22.5vw, 15rem',
     classes: ['onefourth', 'right'],
   },
-  smallavatar: {
-    fallbackWidth: 24,
-    minWidth: 24,
-    maxWidth: 48,
+  avatar: {
+    fallbackWidth: 32,
+    minWidth: 32,
+    maxWidth: 64,
     steps: 3,
-    sizes: '24px',
-  },
-  largeavatar: {
-    fallbackWidth: 48,
-    minWidth: 48,
-    maxWidth: 96,
-    steps: 3,
-    sizes: '48px',
+    sizes: '32px',
   },
   logo: {
     fallbackWidth: 200,
