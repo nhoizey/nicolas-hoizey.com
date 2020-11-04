@@ -41,14 +41,14 @@ JSON-LD for:
   {% for article in collections.articles | limit(1) %}
     {{ articleCard(article) }}
   {% endfor %}
-</ul>
+</div>
 
 <h2>Noteworthy articles</h2>
 <div class="cards-list">
 {% for article in collections.promoted | limit(3) %}
   {{ articleCard(article) }}
 {% endfor %}
-</ul>
+</div>
 <p>Read <a href="/articles/">all articles</a>…</p>
 
 <div id="lazy"></div>
