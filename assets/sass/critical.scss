@@ -73,8 +73,7 @@ main {
 // Paragraphs and headers
 // ************************************************************
 
-.intro,
-body:not(.layout-note) .e-content > p:first-of-type {
+.intro {
   font-size: var(--font-size-xl);
   color: #555;
 }
