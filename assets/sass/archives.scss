@@ -275,15 +275,10 @@
 
   padding: 0;
   list-style-type: none;
+}
 
-  .card__text {
-    .u-photo {
-      width: 1.2em;
-      height: auto;
-      border-radius: 0.3em;
-      vertical-align: middle;
-    }
-  }
+.ais-InfiniteHits-loadMore {
+  margin-top: calc(var(--gap) * 3);
 }
 
 // ************************************************************
