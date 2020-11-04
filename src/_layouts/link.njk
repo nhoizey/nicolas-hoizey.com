@@ -84,17 +84,15 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
             <a href="{{ link }}" class="u-bookmark-of">{{ link }}</a>
           </p>
         </div>
-        <figure class="link__screenshot">
-          <img
-          alt="screenshot of {{ title }}"
-          width="300"
-          height="200"
-          src="{{ thumbUrl }}{{ link }}"
-          class="screenshot"
-          >
-        </figure>
       </div>
 
+    <img
+      alt="screenshot of “{{ title }}”"
+      width="1200"
+      height="800"
+      src="https://image.thum.io/get/width/1200/crop/800/noanimate/{{ link }}"
+      class="page__illustration"
+      >
       {{ content | safe }}
     </div>
 

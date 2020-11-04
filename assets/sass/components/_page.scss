@@ -1,0 +1,18 @@
+.page__illustration {
+  margin-top: 0;
+
+  @media (min-width: 40em) {
+    float: right;
+    max-width: 40%;
+    margin: 0 0 1em 1em;
+  }
+}
+
+.page__illustration img,
+img.page__illustration {
+  border-width: 2px;
+  border-style: solid;
+  border-color: $color-primary-lighter-3;
+  padding: 2px;
+}
+

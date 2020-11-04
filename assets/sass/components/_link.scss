@@ -49,15 +49,6 @@
     flex-grow: 1;
   }
 
-  .link__screenshot {
-    flex-shrink: 0;
-    margin: 0 0 var(--gap) var(--gap);
-    width: 40%;
-
-    img {
-      border: 1px solid #ddd;
-    }
-  }
 }
 
 @media (min-width: 70em) {

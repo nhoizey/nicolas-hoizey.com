@@ -65,23 +65,6 @@
     margin: 0;
     border-radius: 5px;
   }
-
-  .webmention__source__screenshot {
-    margin: 0 auto 1em;
-    width: calc(90vw - 2em);
-    height: auto;
-    border: solid 1px #ccc;
-
-    @media (min-width: 30em) {
-      width: 30vw;
-      float: right;
-      margin: 0 0 2em 1em;
-    }
-
-    @media (min-width: 66.666em) {
-      width: 20rem;
-    }
-  }
 }
 
 .webmentions__item .meta {

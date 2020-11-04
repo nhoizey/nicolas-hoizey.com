@@ -60,14 +60,13 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
   {{ meta(item) }}
 
   <div class="e-content">
-    <figure class="onethird right">
-      <img
-        alt="Cover slide from the talk “{{ title }}"
-        width="{{ illustration.width }}"
-        height="{{ illustration.height }}"
-        src="{{ illustration.src }}"
-        >
-    </figure>
+    <img
+      alt="Cover slide from the talk “{{ title }}”"
+      width="{{ illustration.width }}"
+      height="{{ illustration.height }}"
+      src="{{ illustration.src }}"
+      class="page__illustration"
+      >
 
     {{ content | safe }}
 

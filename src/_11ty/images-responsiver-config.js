@@ -111,12 +111,6 @@ module.exports = {
       '(max-width: 20rem) 45vw, (max-width: 30rem) 30vw, (max-width: 67rem) 22.5vw, 15rem',
     classes: ['onefourth', 'right'],
   },
-  vignette: {
-    fallbackWidth: 300,
-    minWidth: 120,
-    maxWidth: 560,
-    sizes: '(max-width: 20rem) 45vw, (max-width: 67rem) 30vw, 20rem',
-  },
   smallavatar: {
     fallbackWidth: 24,
     minWidth: 24,
@@ -131,13 +125,6 @@ module.exports = {
     steps: 3,
     sizes: '48px',
   },
-  screenshot: {
-    fallbackWidth: 300,
-    minWidth: 300,
-    maxWidth: 900,
-    sizes: '(min-width:60em) 21.6em, (min-width: 40em) 36vw, 100vw',
-    figure: 'never',
-  },
   logo: {
     fallbackWidth: 200,
     minWidth: 100,
@@ -146,5 +133,18 @@ module.exports = {
       '(max-width: 20rem) 45vw, (max-width: 30rem) 30vw, (max-width: 67rem) 22.5vw, 15rem',
     figure: 'never',
     classes: ['logo'],
+  },
+  page__illustration: {
+    fallbackWidth: 300,
+    minWidth: 220,
+    maxWidth: 1200,
+    sizes: '(min-width: 67rem) 24rem, (min-width: 40rem) 36vw, 90vw',
+  },
+  card__illustration: {
+    fallbackWidth: 300,
+    minWidth: 220,
+    maxWidth: 1200,
+    sizes:
+      '(min-width: 67rem) 18rem, (min-width: 48rem) calc(0.4 * (90vw - 15rem)), (min-width: 40rem) 36vw, 90vw',
   },
 };

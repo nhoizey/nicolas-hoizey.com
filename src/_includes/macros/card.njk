@@ -1,15 +1,13 @@
 {% macro card(type = false, lang = 'en', surtitle = false, title = false, url = false, illustration = false, content = false, meta = false) %}
   <article class="card {{ type or '' }} h-entry" lang="{{ lang }}">
     {% if illustration %}
-      <figure class="card__illustration">
-        <img
-      alt="{{ illustration.alt }}"
-      width="{{ illustration.width }}"
-      height="{{ illustration.height }}"
-      src="{{ illustration.src }}"
-      {% if illustration.classes %}class="{{ illustration.classes }}"{% endif %}
-      crossorigin="anonymous" />
-      </figure>
+      <img
+        alt="{{ illustration.alt }}"
+        width="{{ illustration.width }}"
+        height="{{ illustration.height }}"
+        src="{{ illustration.src }}"
+        class="card__illustration {% if illustration.classes %}{{ illustration.classes }}{% endif %}"
+        crossorigin="anonymous" />
     {% endif %}
     {% if surtitle %}
       <p class="card__surtitle">{{ surtitle | safe }}</p>
