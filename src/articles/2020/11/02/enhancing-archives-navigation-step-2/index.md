@@ -23,13 +23,13 @@ Time to [enhance the already nice server-side rendering with awesome client-side
 
 Here's what is now available for navigating the archives, [if you activated JavaScript](https://kryogenix.org/code/browser/everyonehasjs.html) in your browser:
 
-![Navigating the archives with search and facets](archives-live-search-with-algolia.png)
+![Navigating the archives with search and facets](archives-live-search-with-algolia.jpg)
 
 There is a search input field, to search for any content, with live "as you type" results, and live updated filtering facets. 🤯
 
 If you search for something specific, the results highlight why they're here in the list:
 
-![Highlighted results](archives-live-search-with-algolia-highlight.png)
+![Highlighted results](archives-live-search-with-algolia-highlight.jpg)
 
 ![Algolia logo](/assets/logos/algolia.png){.logo}
 All of this would not be possible without [Algolia](/tags/algolia/), the awesome search service I've been using for multiple years.
