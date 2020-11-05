@@ -13,6 +13,7 @@ const ICONS_LIST = {
   link: 'Link',
   'map-pin': 'Location',
   'message-circle': 'Webmention',
+  rss: 'Feeds',
   search: 'Search',
   tag: 'Tag',
   twitter: 'Twitter',
