@@ -124,16 +124,6 @@ article {
   }
 }
 
-.edit {
-  margin-top: var(--gap);
-  padding: 0.5em 0;
-  font-size: var(--font-size-xxs);
-  color: $color-primary-lighter-6;
-
-  // https://sass-lang.com/documentation/style-rules/declarations#custom-properties
-  --link-decoration-color: #{$color-primary-lighter-2};
-}
-
 // File link icons
 a[href$='.zip'],
 a[href$='.kml'] {
