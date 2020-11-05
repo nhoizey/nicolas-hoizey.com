@@ -2,6 +2,7 @@
   // THESE STYLES ARE ALREADY INLINE
   // list-style: none;
   // padding: 0;
+  // text-align: center;
 
   // li {
   //   display: inline-block;
@@ -21,6 +22,10 @@
   //     background-color: $color-primary-lighter-2;
   //     color: $color-white;
   //     border-radius: 0.2em;
+
+  //     transition-property: background-color;
+  //     transition-timing-function: ease-in-out;
+  //     transition-duration: 0.5s;
   //   }
   // }
 
@@ -60,7 +65,9 @@
       text-decoration: underline;
 
       &.tag2,
-      &.tag3 {
+      &.tag3,
+      &.tag4,
+      &.tag5 {
         background-color: $link-decoration-color;
       }
     }
@@ -69,7 +76,9 @@
       background-color: $color-secondary;
 
       &.tag2,
-      &.tag3 {
+      &.tag3,
+      &.tag4,
+      &.tag5 {
         background-color: $color-secondary;
       }
     }
