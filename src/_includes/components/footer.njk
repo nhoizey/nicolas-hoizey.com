@@ -1,16 +1,16 @@
 <footer id="footer">
   <div class="wrap">
     <p>
+      <small>© <a href="/about/" class="p-name u-url u-uid" rel="me">Nicolas Hoizey</a>
+      </small>
+    </p>
+    <p>
       <small>
         <a href="/about/the-website.html">Built with Eleventy</a>
       </small>
     </p>
-    <p>
-      <small>© <a href="/about/" class="p-name u-url u-uid" rel="me">Nicolas Hoizey</a>
-      </small>
-    </p>
   </div>
-  {% if layout == "article" or layout == "link" or layout == "note" %}
+  {% if layout in ["article", "link", "note"] %}
     <div class="wrap">
       <p class="edit">If you want to share an error or suggest an enhancement of this content, please edit <a href="https://github.com/nhoizey/nicolas-hoizey.com/tree/master/{{ page.inputPath }}">the source on GitHub</a>.</p>
     </div>
