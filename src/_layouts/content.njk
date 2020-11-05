@@ -1,0 +1,104 @@
+---
+layout: default
+---
+
+{#
+Breadcrumb JSON-LD:
+https://developers.google.com/search/docs/data-types/breadcrumbs
+#}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://nicolas-hoizey.com/{{ layout }}s/{{ date | date("YYYY") }}/",
+          "name": "{{ date | date(" YYYY ") }}"
+        }
+      }, {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@id": "https://nicolas-hoizey.com/{{ layout }}s/{{ date | date("YYYY/MM") }}/",
+          "name": "{{ date | date(" MM ") }}"
+        }
+      }, {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "{{ pkg.homepage }}{{ page.url }}",
+          "name": "{{ title }}"
+        }
+      }
+    ]
+  }
+</script>
+
+<article
+    class="main page clearfix h-entry"
+    lang="{{ lang }}">
+
+  {% if layout == 'link' %}
+    {% if authors %}
+      <p class="page__surtitle">
+        {% for author in authors %}
+          <span class="p-author h-card">
+            {% if author.twitter %}
+              <img class="u-photo avatar" src="https://res.cloudinary.com/nho/image/twitter_name/{{ author.twitter }}" alt="{{ author.name }} avatar" loading="lazy" width="48" height="48" />
+            {% endif %}
+            <b class="p-name">{{ author.name }}</b>
+            {% if author.twitter %}
+              <span class="author__twitter">(<svg><use xlink:href="#symbol-twitter" /></svg> @<a href="https://twitter.com/{{ author.twitter }}">{{ author.twitter }}</a>)</span>
+            {% endif %}
+          </span>
+        {% endfor %}
+        wrote
+      </p>
+    {% endif %}
+  {% endif %}
+
+  <h1 class="page__title p-name">{{ title }}</h1>
+
+  {% set item = {
+    data: {
+      layout: layout,
+      lang: lang,
+      title: title,
+      tags: tags,
+      webmentions: webmentions,
+      comments: comments
+    },
+    date: date,
+    url: page.url
+  } %}
+  {% from "macros/meta.njk" import meta %}
+  {{ meta(item) }}
+
+  <div class="e-content">
+    {% if layout == 'link' %}
+      <img
+        alt="Screenshot of “{{ title }}”"
+        width="1200"
+        height="800"
+        src="https://image.thum.io/get/width/1200/crop/800/noanimate/{{ link }}"
+        class="page__illustration u-photo"
+        crossorigin="anonymous"
+        >
+    {% endif %}
+    <div class="page__text">
+      {% if layout == 'link' %}
+        <p class="link__url">
+          <a href="{{ link }}" class="u-bookmark-of">{{ link }}</a>
+        </p>
+      {% endif %}
+      {{ content | safe }}
+    </div>
+  </div>
+
+  {% set articleUrl = page.url %}
+  {% include "components/webmentions.njk" %}
+</article>
+
