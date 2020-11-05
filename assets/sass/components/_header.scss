@@ -25,7 +25,7 @@
     letter-spacing: -0.02em;
 
     margin: 0;
-    padding: 0;
+    padding: 0.3em 0;
     color: #fff;
 
     &:last-child {
@@ -47,9 +47,31 @@
     mix-blend-mode: normal;
   }
 
-  .offline_indicator a {
-    display: inline-block;
-    line-height: 1;
-    padding: 0.4em;
+  .tools {
+    list-style-type: none;
+
+    li {
+      display: inline-block;
+    }
+
+    li + li {
+      margin-left: 2vw;
+    }
+
+    a:link,
+    a:visited {
+      color: $color-primary-lighter-4;
+    }
+
+    a:hover,
+    a:active {
+      color: $color-primary-lighter-7;
+    }
+
+    svg {
+      fill: transparent;
+      stroke: currentColor;
+      stroke-width: 2px;
+    }
   }
 }

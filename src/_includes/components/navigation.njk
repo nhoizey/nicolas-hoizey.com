@@ -1,7 +1,7 @@
 <nav class="navigation" role="navigation">
   <div class="wrap">
     <ul>
-      <li {% if page.url == '/' %} class="current" aria-current="page"{% endif %}>
+      <li class="navigation__home{% if page.url == '/' %} current" aria-current="page{% endif %}">
         <a href="/">home</a>
       </li>
       {% for type in[
@@ -10,16 +10,11 @@
         'notes',
         'talks',
         'archives',
-        'tags',
-        'feeds',
         'about'
       ] %}
         {% set url = '/' + type + '/' %}
-        {% if type == 'feeds' %}
-        </ul>
-        <ul>
-        {% endif %}
-        <li {% if url in page.url %} class="current" aria-current="page"{% endif %}>
+        {% if type == 'about' %}</ul><ul>{% endif %}
+        <li class="navigation__{{ type }}{% if url in page.url %} current" aria-current="page{% endif %}">
           <a href="{{ url }}">{{ type }}</a>
         </li>
       {% endfor %}

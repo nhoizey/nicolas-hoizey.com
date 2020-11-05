@@ -23,10 +23,33 @@
     margin: 0;
     padding: 0;
 
+    & + li {
+      margin-left: 2vw;
+    }
+
+    &.navigation__home {
+      display: none;
+
+      @media (min-width: 30em) {
+        display: block;
+      }
+    }
+
+    &.navigation__articles,
+    &.navigation__links,
+    &.navigation__notes,
+    &.navigation__talks {
+      display: none;
+
+      @media (min-width: 25em) {
+        display: block;
+      }
+    }
+
     a:link,
     a:visited {
       display: inline-block;
-      margin: 0 0.3em 0 0;
+      margin: 0;
       padding: 0 0.5vw;
       color: $color-white;
       text-decoration: none;
