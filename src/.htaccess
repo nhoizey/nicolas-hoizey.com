@@ -661,6 +661,17 @@ FileETag None
   Header set Link "<https://res.cloudinary.com>; rel=preconnect; crossorigin, <https://www.google-analytics.com>; rel=preconnect"
 </IfModule>
 
+# ------------------------------------------------------------------------------
+# | Client Hints                                                               |
+# ------------------------------------------------------------------------------
+
+# https://cloudinary.com/blog/automatic_responsive_images_with_client_hints
+
+<IfModule mod_headers.c>
+  Header set Accept-CH "DPR, Viewport-Width, Width"
+  Header set Vary "DPR, Viewport-Width, Width"
+</IfModule>
+
 # ##############################################################################
 # # REDIRECTS                                                                  #
 # ##############################################################################
