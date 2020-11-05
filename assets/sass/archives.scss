@@ -71,6 +71,14 @@
   margin-top: -1rem;
 }
 
+#stats {
+  display: none;
+
+  @media (min-width: 20em) {
+    display: block;
+  }
+}
+
 .refinements {
   grid-area: refinements;
 }
