@@ -1,4 +1,10 @@
 (function (window) {
+  // Change the `no-js` class on <html> to `js`
+  window.document.documentElement.className = window.document.documentElement.className.replace(
+    'no-js',
+    'js'
+  );
+
   // get device pixel ratio in dppx
   // https://github.com/ryanve/res/blob/master/src/index.js
   window.screen_density =
