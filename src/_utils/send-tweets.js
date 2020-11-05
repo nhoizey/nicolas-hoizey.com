@@ -74,6 +74,10 @@ const publishItem = async (item) => {
     const statusText = item.content_text;
     let tweet;
 
+    console.log(
+      `Attempting to post a tweet with ${statusText.length} characters…`
+    );
+
     // Check if there's at least one image attachment
     if (item.hasOwnProperty('attachments') && item.attachments.length > 0) {
       let imagesAttachments = item.attachments.filter((attachment) =>
