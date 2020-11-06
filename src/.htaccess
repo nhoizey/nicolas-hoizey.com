@@ -666,10 +666,11 @@ FileETag None
 # ------------------------------------------------------------------------------
 
 # https://cloudinary.com/blog/automatic_responsive_images_with_client_hints
+# Accept-Encoding comes from default header, necessary for gzip/no-gzip requests
 
 <IfModule mod_headers.c>
   Header set Accept-CH "DPR, Viewport-Width, Width"
-  Header set Vary "DPR, Viewport-Width, Width"
+  Header set Vary "Accept-Encoding, DPR, Viewport-Width, Width"
 </IfModule>
 
 # ##############################################################################
