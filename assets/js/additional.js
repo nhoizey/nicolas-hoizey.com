@@ -114,7 +114,7 @@ if (!saveData) {
       });
     };
     const lazyImagesOptions = {
-      // If the image gets within 200px in the Y axis, start the download.
+      // If the image gets within 300px in the Y axis, start the download.
       rootMargin: '300px 0px 300px 0px',
       threshold: 0.01,
     };
@@ -138,7 +138,7 @@ if (!saveData) {
         });
       };
       const lazyHtmlOptions = {
-        // If the image gets within 200px in the Y axis, start the download.
+        // If the image gets within 500px in the Y axis, start the download.
         rootMargin: '500px 0px 0px 0px',
         threshold: 0.01,
       };
@@ -162,8 +162,8 @@ if (!saveData) {
         });
       };
       const lazyFooterOptions = {
-        // If the image gets within 200px in the Y axis, start the download.
-        rootMargin: '300px 0px 0px 0px',
+        // If the image gets within 500px in the Y axis, start the download.
+        rootMargin: '500px 0px 0px 0px',
         threshold: 0.01,
       };
       let lazyFooterObserver = new IntersectionObserver(
