@@ -1,6 +1,6 @@
 ---
 date: 2020-11-06 23:29:22 +01:00
-tags: [PWA, icon, Lighthouse]
+tags: [PWA, icon, Lighthouse, MDN]
 ---
 
 Do anyone know why Google made it mandatory for #PWA icons to be PNG, not JPEG or other?
