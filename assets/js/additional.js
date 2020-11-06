@@ -1,4 +1,4 @@
-import './algolia.js';
+// import './algolia.js';
 import Toast from './toast.js';
 
 const saveData = 'connection' in navigator && navigator.connection.saveData;
