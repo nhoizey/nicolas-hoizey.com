@@ -76,7 +76,8 @@ const loadImage = (img) => {
  * Lazyload additional HTML
  * ****************************************************************/
 
-const lazyHtmlElement = document.querySelector('#lazy');
+// TODO: manage multiple lazy containers with content URL from data-src
+const lazyHtmlElement = document.querySelector('.lazy');
 
 const lazyHtml = () => {
   if (lazyHtmlElement) {

@@ -98,7 +98,11 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
     </div>
   </div>
 
-  {% set articleUrl = page.url %}
-  {% include "components/webmentions.njk" %}
+  {% if layout in ['article', 'link'] %}
+    <div id="webmentions" class="lazy"></div>
+  {% else %}
+    {% set articleUrl = page.url %}
+    {% include "components/webmentions.njk" %}
+  {% endif %}
 </article>
 

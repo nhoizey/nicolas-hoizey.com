@@ -10,9 +10,14 @@
           {% if webmention.author.photo != "" %}
             <img
               class="webmention__author__photo u-photo"
-              src="/assets/avatars/default.svg"
-              data-src="{{ cloudinaryPrefix }}w_48,h_48/{{ webmention.author.photo }}"
-              data-srcset="{{ cloudinaryPrefix }}w_48,h_48/{{ webmention.author.photo }} 1x, {{ cloudinaryPrefix }}w_96,h_96/{{ webmention.author.photo }} 2x"
+              {% if lazy == false %}
+                src="{{ cloudinaryPrefix }}w_48,h_48/{{ webmention.author.photo }}"
+                srcset="{{ cloudinaryPrefix }}w_48,h_48/{{ webmention.author.photo }} 1x, {{ cloudinaryPrefix }}w_96,h_96/{{ webmention.author.photo }} 2x"
+              {% else %}
+                src="/assets/avatars/default.svg"
+                data-src="{{ cloudinaryPrefix }}w_48,h_48/{{ webmention.author.photo }}"
+                data-srcset="{{ cloudinaryPrefix }}w_48,h_48/{{ webmention.author.photo }} 1x, {{ cloudinaryPrefix }}w_96,h_96/{{ webmention.author.photo }} 2x"
+              {% endif %}
               width= "48"
               height="48"
               alt="{{ webmention.author.name }} avatar"
@@ -26,14 +31,24 @@
           {% set screenshot = 'https://image.thum.io/get/width/1200/crop/800/noanimate/' + webmention.url %}
           <img
             class="page__illustration"
-            src="/assets/default-screenshot.svg"
-            data-src="{{ cloudinaryPrefix }}w_300,h_200/{{ screenshot }}"
-            data-srcset="
-              {{ cloudinaryPrefix }}w_300,h_200/{{ screenshot }} 300w,
-              {{ cloudinaryPrefix }}w_480,h_320/{{ screenshot }} 480w,
-              {{ cloudinaryPrefix }}w_660,h_440/{{ screenshot }} 660w,
-              {{ cloudinaryPrefix }}w_840,h_560/{{ screenshot }} 840w,
-              {{ cloudinaryPrefix }}w_1200,h_800/{{ screenshot }} 1200w"
+            {% if lazy == false %}
+              src="{{ cloudinaryPrefix }}w_300,h_200/{{ screenshot }}"
+              srcset="
+                {{ cloudinaryPrefix }}w_300,h_200/{{ screenshot }} 300w,
+                {{ cloudinaryPrefix }}w_480,h_320/{{ screenshot }} 480w,
+                {{ cloudinaryPrefix }}w_660,h_440/{{ screenshot }} 660w,
+                {{ cloudinaryPrefix }}w_840,h_560/{{ screenshot }} 840w,
+                {{ cloudinaryPrefix }}w_1200,h_800/{{ screenshot }} 1200w"
+            {% else %}
+              src="/assets/default-screenshot.svg"
+              data-src="{{ cloudinaryPrefix }}w_300,h_200/{{ screenshot }}"
+              data-srcset="
+                {{ cloudinaryPrefix }}w_300,h_200/{{ screenshot }} 300w,
+                {{ cloudinaryPrefix }}w_480,h_320/{{ screenshot }} 480w,
+                {{ cloudinaryPrefix }}w_660,h_440/{{ screenshot }} 660w,
+                {{ cloudinaryPrefix }}w_840,h_560/{{ screenshot }} 840w,
+                {{ cloudinaryPrefix }}w_1200,h_800/{{ screenshot }} 1200w"
+            {% endif %}
             sizes="(min-width: 66.666rem) 20rem, (min-width: 40rem) 30vw, calc(90vw - 2em)"
             width="300"
             height="200"
