@@ -45,7 +45,7 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.4",
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
-    "@jlengstorf/get-share-image": "^0.7.1",
+    "@jlengstorf/get-share-image": "^0.8.0",
     "@rollup/plugin-node-resolve": "^10.0.0",
     "@rollup/plugin-replace": "^2.3.4",
     "@sindresorhus/slugify": "~1.1",
