@@ -9,13 +9,13 @@ I decided years ago to remove paged navigation (aka "pagination"), because I fin
 
 Here's how the month by month navigation was presented earlier, in the page bottom:
 
-![The ugly and not user friendly months navigation before](months-pagination-before.png)
+![The ugly and not user friendly months navigation before](months-pagination-before.jpg)
 
 While it was OK for the year by year navigation, such a full months list was really not user friendly, so I intended to enhance it a little.
 
 Instead of "just" a little, I finaly chose to present this navigation with facets in a search engine, with the possibility to combine a filter for the content type, and another for the year or month of publication:
 
-![A much more user friendly months navigation](months-pagination-after.png)
+![A much more user friendly months navigation](months-pagination-after.jpg)
 
 For example, you can navigate to the links I published in March 2019: [/links/2019/03/](/links/2019/03/).
 

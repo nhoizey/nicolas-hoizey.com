@@ -9,7 +9,7 @@ In my previous article [Enhancing archives navigation, step 1]({% link_to "enhan
 
 Remember how UX of navigation in archives by year and month where already enhanced with [a single Eleventy layout](https://github.com/nhoizey/nicolas-hoizey.com/blob/master/src/_layouts/archives.njk):
 
-![User friendly months navigation with Eleventy only](/articles/2020/10/26/enhancing-archives-navigation-step-1/months-pagination-after.png)
+![User friendly months navigation with Eleventy only](/articles/2020/10/26/enhancing-archives-navigation-step-1/months-pagination-after.jpg)
 
 ::: warning
 This new awesome layout made my build time go from 40 seconds to 300 seconds, a 650 % increase, not so awesome… 😅
