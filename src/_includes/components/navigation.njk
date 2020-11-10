@@ -13,7 +13,6 @@
         'about'
       ] %}
         {% set url = '/' + type + '/' %}
-        {% if type == 'about' %}</ul><ul>{% endif %}
         <li class="navigation__{{ type }}{% if url in page.url %} current" aria-current="page{% endif %}">
           <a href="{{ url }}">{{ type }}</a>
         </li>
