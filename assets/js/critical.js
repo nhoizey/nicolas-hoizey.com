@@ -27,4 +27,21 @@
     window.getComputedStyle(document.documentElement).fontSize,
     10
   );
+
+  // add scroll position as a custom property
+  // https://css-tricks.com/books/greatest-css-tricks/scroll-animation/
+  // window.addEventListener(
+  //   'scroll',
+  //   () => {
+  //     document.body.style.setProperty(
+  //       '--scroll',
+  //       window.pageYOffset / (document.body.offsetHeight - window.innerHeight)
+  //     );
+  //     document.body.style.setProperty(
+  //       '--scrollTo200',
+  //       Math.min(200, window.pageYOffset) / 200 - 0.01
+  //     );
+  //   },
+  //   false
+  // );
 })(window);

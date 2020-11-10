@@ -1,16 +1,12 @@
 .navigation {
-  background-color: $color-primary;
-  color: #fff;
+  font-family: var(--font-family-sans-serif);
+  font-variant: small-caps;
+  font-size: var(--font-size-m);
 
-  margin: 0 0 calc(var(--gap) * 3);
-  padding: 0.25em 0 0;
+  padding: 0 0 calc(var(--gap) * 3);
   overflow-x: auto;
   -webkit-overflow-scrolling: auto;
-
-  .wrap {
-    display: flex;
-    justify-content: space-between;
-  }
+  // letter-spacing: 0.1vw;
 
   ul {
     margin: 0;
@@ -33,7 +29,7 @@
     &.navigation__talks {
       display: none;
 
-      @media (min-width: 25em) {
+      @media (min-width: 30em) {
         display: block;
       }
     }
@@ -43,30 +39,99 @@
       display: inline-block;
       margin: 0;
       padding: 0 0.5vw;
-      color: $color-white;
       text-decoration: none;
       white-space: nowrap;
-
-      border-radius: 0.25rem 0.25rem 0 0;
-    }
-    a:hover,
-    a:focus {
-      text-decoration-line: underline;
-      text-decoration-color: $color-white;
-      background-color: $color-primary-lighter-3;
     }
 
     &.current {
       a:link,
       a:visited {
         color: $color-primary;
-        background-color: $color-white;
+        text-decoration-line: underline;
+        text-decoration-thickness: 0.1em;
+        text-decoration-color: $color-primary;
+        -webkit-text-stroke-width: 0.05em;
       }
 
       a:hover,
       a:focus {
-        text-decoration-color: $color-primary;
+        color: $color-white;
+        text-decoration: none;
       }
     }
   }
+
+  .signature {
+    display: none;
+  }
 }
+
+// Sticky navigation
+@media (min-height: 30rem) {
+  .navigation {
+    background-image: linear-gradient(
+      to top,
+      hsla(0, 0%, 100%, 0),
+      hsla(0, 0%, 100%, 0.05) calc(var(--gap) * 0.5),
+      hsla(0, 0%, 100%, 0.2) calc(var(--gap) * 0.75),
+      hsla(0, 0%, 100%, 0.5) var(--gap),
+      hsla(0, 0%, 100%, 0.75) calc(var(--gap) * 1.25),
+      hsla(0, 0%, 100%, 0.9) calc(var(--gap) * 1.5),
+      hsla(0, 0%, 100%, 0.95) calc(var(--gap) * 2),
+      hsla(0, 0%, 100%, 0.95)
+    );
+    position: sticky;
+    top: 0;
+    z-index: 2;
+
+    // .wrap {
+    //   position: relative;
+    // }
+
+    // .signature {
+    //   display: inline-block;
+    //   position: absolute;
+    //   top: 0;
+    //   left: 0;
+
+    //   font-family: var(--font-family-serif);
+    //   font-weight: bold;
+    //   background-color: $color-primary;
+    //   color: $color-white;
+    //   padding: 0 0.2em;
+    //   opacity: 0;
+
+    //   animation: animate-sig 1s linear;
+    //   animation-play-state: paused;
+    //   animation-delay: calc((var(--scrollTo200) - 0.5) * -1.5s);
+    // }
+  }
+
+  a.deeplink {
+    scroll-margin-top: 0rem;
+  }
+
+  // Inspiration:
+  //   https://www.commarts.com/
+  // Technique :
+  //   https://css-tricks.com/books/greatest-css-tricks/scroll-animation/
+
+  // .navigation ul:first-of-type {
+  //   animation: animate-nav 1s linear;
+  //   animation-play-state: paused;
+  //   animation-delay: calc(var(--scrollTo200) * -1s);
+  // }
+}
+
+// @keyframes animate-sig {
+//   to {
+//     opacity: 1;
+//   }
+// }
+
+// @keyframes animate-nav {
+//   to {
+//     margin-left: 2.5em;
+//     letter-spacing: 0.05vw;
+//   }
+// }
