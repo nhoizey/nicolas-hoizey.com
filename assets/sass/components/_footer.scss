@@ -65,13 +65,15 @@
   p {
     line-height: 2;
 
-    &:last-child {
+    & + p {
       text-align: right;
     }
   }
 
   .edit {
-    margin-top: var(--gap);
+    margin-bottom: var(--gap);
     font-size: var(--font-size-xxs);
+    white-space: normal;
+    line-height: 1.3;
   }
 }
