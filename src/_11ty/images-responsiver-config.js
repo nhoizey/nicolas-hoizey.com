@@ -73,7 +73,7 @@ module.exports = {
     resizedImageUrl: (src, width) =>
       // https://cloudinary.com/blog/automatic_responsive_images_with_client_hints#comment-3190517665
       // `https://res.cloudinary.com/nho/image/fetch/q_auto,f_auto,w_${width},c_limit/${src}`,
-      `https://res.cloudinary.com/nho/image/fetch/q_auto,f_auto,w_auto:200:${width},c_limit/${src}`,
+      `https://res.cloudinary.com/nho/image/fetch/q_auto,f_auto,w_auto:100:${width},c_limit/${src}`,
     runBefore: runBeforeHook,
     runAfter: runAfterHook,
     fallbackWidth: 800,
