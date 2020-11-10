@@ -8,7 +8,9 @@ lang: en
 
 [^perf]: So it's hard to blame any server application for being slow…
 
-*If you're not interested in the technique, you can also [learn more about me](/about/).*
+::: info
+If you're not interested in the technique, you can also [learn more about me](/about/).
+:::
 
 # With Eleventy, static is fantastic
 

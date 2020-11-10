@@ -9,11 +9,13 @@ I like animated GIFs, like most people these days I think, but they are really h
 
 ![The Cloudinary logo](/assets/logos/cloudinary.png){.logo }
 
-*You need a Cloudinary account to try all of this, but no fear, its **free plan** is really confortable for personnal use or just testing: [signup for Cloudinary](https://nho.io/cloudinary-signup).*
-
 The animations in this post are animated GIFs provided by Giphy and (obviously) converted by Cloudinary.
 
 {% giphy "12NUbkX6p4xOO4" %}
+
+::: info
+You need a Cloudinary account to try all of this, but no fear, the **free plan** is really confortable for personnal use or just testing: [signup for Cloudinary](https://nho.io/cloudinary-signup).
+:::
 
 # So, what's the issue with animated GIFs?
 

@@ -5,9 +5,13 @@ lang: en
 ---
 
 ![Portrait of Nicolas Hoizey](/assets/me/nicolas-hoizey.jpg){.logo}
-I am passionate about **the Web and photography**, among many other interests.
+::: intro
+I am passionate about **the Web and photography**, among [many other interests](/tags/).
+:::
 
-*If you're more interested in technical stuff, you can learn more [about this website](/about/the-website.html).*
+::: info
+If you're more interested in technical stuff, you can learn more [about this website](/about/the-website.html).
+:::
 
 # I love the Web
 
