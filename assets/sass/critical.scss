@@ -203,7 +203,6 @@ a.deeplink {
 
   @media (min-width: 65rem) {
     position: absolute;
-    top: var(--gap);
     left: -3rem;
   }
 }
@@ -243,7 +242,6 @@ video {
 }
 
 .giphy {
-  clear: both;
   margin: 2em auto;
   padding: 0;
 
@@ -356,4 +354,8 @@ figcaption {
   margin: 0.1em 1em;
   padding: 0.3em 0;
   color: #666;
+}
+
+.more {
+  margin-top: calc(3 * var(--gap));
 }
