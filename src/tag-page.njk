@@ -16,12 +16,16 @@ permalink: /tags/{{ tag.slug }}/
 {% from "macros/linkCard.njk" import linkCard %}
 {% from "macros/noteCard.njk" import noteCard %}
 
-{% if tag.logo %}
-  <img src="/{{ tag.logo }}" class="logo" />
-{% endif %}
+{% if tag.logo or tag.description %}
+  <div class="intro clearfix">
+    {% if tag.logo %}
+      <img src="/{{ tag.logo }}" class="logo" />
+    {% endif %}
 
-{% if tag.description %}
-  {{ tag.description | markdownify | safe }}
+    {% if tag.description %}
+        {{ tag.description | markdownify | safe }}
+    {% endif %}
+  </div>
 {% endif %}
 
 {% if tag.number > 1 %}
