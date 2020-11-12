@@ -47,6 +47,17 @@
   background-repeat: no-repeat;
   background-size: cover;
 
+  a:link,
+  a:visited {
+    color: currentColor;
+  }
+
+  a:hover,
+  a:active {
+    color: var(--color-link-hover);
+    background-color: var(--color-link-hover-bg);
+  }
+
   .wrap {
     opacity: 1;
 

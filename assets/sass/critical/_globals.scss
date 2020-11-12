@@ -19,11 +19,21 @@
   --font-size-s: calc(var(--font-size-m) / var(--font-size-scale));
   --font-size-xs: calc(var(--font-size-s) / var(--font-size-scale));
   --font-size-xxs: calc(var(--font-size-xs) / var(--font-size-scale));
+  --font-size-xxxs: calc(var(--font-size-xxs) / var(--font-size-scale));
   --font-size-l: calc(var(--font-size-m) * var(--font-size-scale));
   --font-size-xl: calc(var(--font-size-l) * var(--font-size-scale));
   --font-size-xxl: calc(var(--font-size-xl) * var(--font-size-scale));
   --font-size-xxxl: calc(var(--font-size-xxl) * var(--font-size-scale));
   --font-size-xxxxl: calc(var(--font-size-xxxl) * var(--font-size-scale));
 
-  --link-decoration-color: #{$link-decoration-color};
+  --color-link: #{$color-primary};
+  --color-link-bg: inherit;
+  --color-link-decoration: #{$color-primary-lighter-6};
+
+  --color-link-hover: white;
+  --color-link-hover-bg: #{$color-primary};
+  --color-link-hover-decoration: none;
+
+  --color-meta: #{$color-darkgrey};
+  --color-meta-decoration: #{$color-grey};
 }

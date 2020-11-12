@@ -60,7 +60,7 @@
 
     &:hover,
     &:focus {
-      background-color: $link-decoration-color;
+      background-color: var(--color-link-decoration);
       outline: none;
       text-decoration: underline;
 
@@ -68,7 +68,7 @@
       &.tag3,
       &.tag4,
       &.tag5 {
-        background-color: $link-decoration-color;
+        background-color: var(--color-link-decoration);
       }
     }
 
