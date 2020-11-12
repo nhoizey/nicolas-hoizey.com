@@ -6,14 +6,14 @@
   {% endif %}
   <ul class="meta">
     <li class="date meta__item meta__date">
-      <svg class="icon"><use xlink:href="#symbol-calendar" /></svg>
+      <svg class="icon"><use xlink:href="#symbol-date" /></svg>
       <time class="dt-published" datetime="{{ item.date | attributeDate }}">
         {{ item.date | date("Do MMMM YYYY") }}
       </time>
     </li>
     {% if item.data.location %}
       <li class="date meta__item meta__location">
-        <svg class="icon"><use xlink:href="#symbol-map-pin" /></svg>
+        <svg class="icon"><use xlink:href="#symbol-location" /></svg>
         {% if item.data.location.url %}
           <a href="{{ item.data.location.url }}">{{ item.data.location.name }}</a>
         {% else %}
@@ -24,7 +24,7 @@
     {% set tagsSize = item.data.tags | size %}
     {% if tagsSize > 0 %}
       <li class="tags meta__item card__tags">
-        <svg class="icon"><use xlink:href="#symbol-tag" /></svg>
+        <svg class="icon"><use xlink:href="#symbol-tags" /></svg>
         {% set comma = joiner(", ") %}
         {%- for tag in item.data.tags -%}
           {{ comma() }}
@@ -38,8 +38,8 @@
       {% set theseCommentsSize = theseComments | size %}
       {% if theseCommentsSize > 0 %}
         <li class="comments meta__item card__commentscount">
-          <svg class="icon"><use xlink:href="#symbol-message-circle" /></svg>
-          <a href="{{ item.url }}#comments" aria-label="{{ theseCommentsSize }} comment{% if theseCommentsSize > 1 %}s{% endif %} for &quot;{{ title }}&quot;">{{ theseCommentsSize }} comment{% if theseCommentsSize > 1 %}s{% endif %}
+          <svg class="icon"><use xlink:href="#symbol-comments" /></svg>
+          <a href="{{ item.url }}#webmentions" aria-label="{{ theseCommentsSize }} comment{% if theseCommentsSize > 1 %}s{% endif %} for &quot;{{ title }}&quot;">{{ theseCommentsSize }} comment{% if theseCommentsSize > 1 %}s{% endif %}
           </a>
         </li>
       {% endif %}
@@ -49,7 +49,7 @@
       {% set mentionsSize = mentions | size %}
       {% if mentionsSize > 0 %}
         <li class="webmentions meta__item meta__webmentionscount">
-          <svg class="icon"><use xlink:href="#symbol-message-circle" /></svg>
+          <svg class="icon"><use xlink:href="#symbol-comments" /></svg>
           <a href="{{ item.url }}#webmentions" aria-label="{{ mentionsSize }} webmention{% if mentionsSize > 1 %}s{% endif %} for &quot;{{ title }}&quot;">{{ mentionsSize }} webmention{% if mentionsSize > 1 %}s{% endif %}
           </a>
         </li>
