@@ -1,4 +1,3 @@
-// import './algolia.js';
 import Toast from './toast.js';
 
 const saveData = 'connection' in navigator && navigator.connection.saveData;
@@ -241,10 +240,6 @@ function updateConnectivityStatus() {
 
   if (typeof navigator.onLine !== 'undefined') {
     if (!navigator.onLine) {
-      document
-        .querySelector('#search input')
-        .setAttribute('disabled', 'disabled');
-
       notificationToShow = true;
       notificationIcon = 'offline';
       if ('serviceWorker' in navigator) {
@@ -264,8 +259,6 @@ function updateConnectivityStatus() {
       }
       isOffline = true;
     } else {
-      document.querySelector('#search input').removeAttribute('disabled');
-
       if (isOffline) {
         isOffline = false;
         notificationIcon = 'online';
