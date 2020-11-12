@@ -344,6 +344,10 @@ img.border {
   margin: var(--gap) auto;
 }
 
+.portrait {
+  border-radius: 20%;
+}
+
 figcaption {
   // http://nocode.in/aligning-text-smartly-in-css/
   display: inline-block;
