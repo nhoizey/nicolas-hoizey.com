@@ -16,4 +16,5 @@ module.exports = {
         .join('')
     );
   },
+  orphans: (string) => string.replace(/((.*)\s(.*))$/g, '$2&nbsp;$3'),
 };
