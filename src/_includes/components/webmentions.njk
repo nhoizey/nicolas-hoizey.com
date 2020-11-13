@@ -1,4 +1,4 @@
-{% set allMentions = webmentions | getWebmentionsForUrl(articleUrl) %}
+{% set allMentions = articleUrl | getWebmentionsForUrl %}
 {% set allMentionsSize = allMentions | size %}
 
 {% set likes = allMentions | webmentionsByType('like-of') %}

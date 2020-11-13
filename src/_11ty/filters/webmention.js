@@ -1,4 +1,17 @@
+const { readFromCache } = require('../../_utils/cache');
 const rootUrl = require('../../../package.json').homepage;
+
+const WEBMENTION_CACHE = '_cache/webmentions.json';
+let allMemoizedWebmentions = [];
+let memoizedWebmentionsPerContent = {};
+
+const getWebmentions = () => {
+  if (allMemoizedWebmentions.length == 0) {
+    const cached = readFromCache(WEBMENTION_CACHE);
+    allMemoizedWebmentions = cached.webmentions;
+  }
+  return allMemoizedWebmentions;
+};
 
 function isSelf(entry) {
   return (
@@ -49,45 +62,21 @@ function getUrlsHistory(url) {
 }
 
 module.exports = {
-  getWebmentionsForUrl: (webmentions, url) => {
+  getWebmentionsForUrl: (url) => {
     // TODO: for each URL, we loop through all webmentions, should be optimized
     if (url === undefined) {
       console.log('No URL for webmention matching');
       return [];
     }
-    let urlsList = getUrlsHistory(url);
-    return webmentions
-      .filter((entry) => {
-        return urlsList.includes(entry['wm-target']);
-      })
-      .filter((entry) => !isSelf(entry));
-  },
-  getMyWebmentionsForUrl: (webmentions, url) => {
-    if (url === undefined) {
-      console.log('No URL for webmention matching');
-      return [];
+    if (memoizedWebmentionsPerContent[url] === undefined) {
+      let urlsList = getUrlsHistory(url);
+      memoizedWebmentionsPerContent[url] = getWebmentions()
+        .filter((entry) => {
+          return urlsList.includes(entry['wm-target']);
+        })
+        .filter((entry) => !isSelf(entry));
     }
-    let urlsList = getUrlsHistory(url);
-    return webmentions
-      .filter((entry) => {
-        return urlsList.includes(entry['wm-target']);
-      })
-      .filter((entry) => isSelf(entry));
-  },
-  getMyWebmentionsWithoutTarget: (webmentions) => {
-    return webmentions.filter((entry) => {
-      return entry['wm-target'] === undefined;
-    });
-  },
-  isOwnWebmention: (webmention) => {
-    const urls = [
-      rootUrl,
-      'https://twitter.com/nhoizey',
-      'https://twitter.com/nice_links',
-    ];
-    const authorUrl = webmention.author ? webmention.author.url : false;
-    // check if a given URL is part of this site.
-    return authorUrl && urls.includes(authorUrl);
+    return memoizedWebmentionsPerContent[url];
   },
   webmentionsByType: (mentions, mentionType) => {
     return mentions.filter((entry) => entry['wm-property'] === mentionType);

@@ -1,4 +1,4 @@
-{% set comments = comments | getCommentsForUrl(articleUrl) %}
+{% set comments = articleUrl | getCommentsForUrl %}
 {% set commentsSize = comments | size %}
 
 {% if commentsSize > 0 %}

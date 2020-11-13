@@ -32,28 +32,24 @@
         {%- endfor -%}
       </li>
     {% endif %}
-    {# TODO: optimize with memoization? Or add number to the computed FM data? #}
-    {% if item.data.comments %}
-      {% set theseComments = item.data.comments | getCommentsForUrl(item.url) %}
-      {% set theseCommentsSize = theseComments | size %}
-      {% if theseCommentsSize > 0 %}
-        <li class="comments meta__item card__commentscount">
-          <svg class="icon"><use xlink:href="#symbol-comments" /></svg>
-          <a href="{{ item.url }}#webmentions" aria-label="{{ theseCommentsSize }} comment{% if theseCommentsSize > 1 %}s{% endif %} for &quot;{{ title }}&quot;">{{ theseCommentsSize }} comment{% if theseCommentsSize > 1 %}s{% endif %}
-          </a>
-        </li>
-      {% endif %}
+    {# TODO: optimize with add number to the computed FM data? #}
+    {% set comments = item.url | getCommentsForUrl %}
+    {% set commentsSize = comments | size %}
+    {% if commentsSize > 0 %}
+      <li class="comments meta__item card__commentscount">
+        <svg class="icon"><use xlink:href="#symbol-comments" /></svg>
+        <a href="{{ item.url }}#webmentions" aria-label="{{ commentsSize }} comment{% if commentsSize > 1 %}s{% endif %} for &quot;{{ title }}&quot;">{{ commentsSize }} comment{% if commentsSize > 1 %}s{% endif %}
+        </a>
+      </li>
     {% endif %}
-    {% if item.data.webmentions %}
-      {% set mentions = item.data.webmentions | getWebmentionsForUrl(item.url) %}
-      {% set mentionsSize = mentions | size %}
-      {% if mentionsSize > 0 %}
-        <li class="webmentions meta__item meta__webmentionscount">
-          <svg class="icon"><use xlink:href="#symbol-comments" /></svg>
-          <a href="{{ item.url }}#webmentions" aria-label="{{ mentionsSize }} webmention{% if mentionsSize > 1 %}s{% endif %} for &quot;{{ title }}&quot;">{{ mentionsSize }} webmention{% if mentionsSize > 1 %}s{% endif %}
-          </a>
-        </li>
-      {% endif %}
+    {% set mentions = item.url | getWebmentionsForUrl %}
+    {% set mentionsSize = mentions | size %}
+    {% if mentionsSize > 0 %}
+      <li class="webmentions meta__item meta__webmentionscount">
+        <svg class="icon"><use xlink:href="#symbol-comments" /></svg>
+        <a href="{{ item.url }}#webmentions" aria-label="{{ mentionsSize }} webmention{% if mentionsSize > 1 %}s{% endif %} for &quot;{{ title }}&quot;">{{ mentionsSize }} webmention{% if mentionsSize > 1 %}s{% endif %}
+        </a>
+      </li>
     {% endif %}
     {% if permalink %}
       <li class="permalink meta__item">
