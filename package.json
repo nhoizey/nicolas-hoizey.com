@@ -51,7 +51,7 @@
     "@sindresorhus/slugify": "~1.1",
     "atomic-algolia": "~0.3.19",
     "autoprefixer": "~10.0.2",
-    "babel-loader": "^8.1.0",
+    "babel-loader": "^8.2.1",
     "bent": "^7.3.12",
     "chalk": "~4.1.0",
     "cheerio": "~1.0.0-rc.3",
