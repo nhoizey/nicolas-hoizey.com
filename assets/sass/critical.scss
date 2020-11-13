@@ -232,9 +232,16 @@ img {
 }
 
 svg {
+  margin: 0;
+  padding: 0;
+
   width: 1em;
   height: 1em;
-  vertical-align: middle;
+  vertical-align: text-bottom;
+
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2px;
 }
 
 video {
