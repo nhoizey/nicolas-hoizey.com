@@ -4,6 +4,7 @@ const rootUrl = require('../../../package.json').homepage;
 const WEBMENTION_CACHE = '_cache/webmentions.json';
 let allMemoizedWebmentions = [];
 let memoizedWebmentionsPerContent = {};
+let memoizedUrls = {};
 
 const getWebmentions = () => {
   if (allMemoizedWebmentions.length == 0) {
@@ -23,42 +24,51 @@ function isSelf(entry) {
 }
 
 function getUrlsHistory(url) {
-  url = encodeURI(url);
-  let urlsList = [`${rootUrl}${url}`];
-  let httpRootUrl = rootUrl.replace(/^https:/, 'http:');
-  if (
-    (parts = url.match(
-      /^\/articles\/([0-9]{4})\/([0-9]{2})\/([0-9]{2})\/(.*)\/$/
-    ))
-  ) {
-    // Current permalink: /articles/2018/06/15/users-do-change-font-size/
-    // /articles/2018/06/users-do-change-font-size/
-    urlsList.push(`${rootUrl}/articles/${parts[1]}/${parts[2]}/${parts[4]}/`);
-    urlsList.push(
-      `${httpRootUrl}/articles/${parts[1]}/${parts[2]}/${parts[4]}/`
-    );
-    // /2018/06/users-do-change-font-size/
-    urlsList.push(`${rootUrl}/${parts[1]}/${parts[2]}/${parts[4]}/`);
-    urlsList.push(`${httpRootUrl}/${parts[1]}/${parts[2]}/${parts[4]}/`);
-    // /2018/06/users-do-change-font-size.html
-    urlsList.push(`${rootUrl}/${parts[1]}/${parts[2]}/${parts[4]}.html`);
-    urlsList.push(`${httpRootUrl}/${parts[1]}/${parts[2]}/${parts[4]}.html`);
-  }
-  if (
-    (parts = url.match(/^\/links\/([0-9]{4})\/([0-9]{2})\/([0-9]{2})\/(.*)\/$/))
-  ) {
-    // Current permalink: /links/2019/12/10/good-enough/
-    // /links/2019/12/good-enough/
-    urlsList.push(`${rootUrl}/links/${parts[1]}/${parts[2]}/${parts[4]}/`);
-    urlsList.push(`${httpRootUrl}/links/${parts[1]}/${parts[2]}/${parts[4]}/`);
-    // /links/2019/12/good-enough.html
-    urlsList.push(`${rootUrl}/links/${parts[1]}/${parts[2]}/${parts[4]}.html`);
-    urlsList.push(
-      `${httpRootUrl}/links/${parts[1]}/${parts[2]}/${parts[4]}.html`
-    );
+  if (memoizedUrls[url] === undefined) {
+    url = encodeURI(url);
+    let urlsList = [`${rootUrl}${url}`];
+    let httpRootUrl = rootUrl.replace(/^https:/, 'http:');
+    if (
+      (parts = url.match(
+        /^\/articles\/([0-9]{4})\/([0-9]{2})\/([0-9]{2})\/(.*)\/$/
+      ))
+    ) {
+      // Current permalink: /articles/2018/06/15/users-do-change-font-size/
+      // /articles/2018/06/users-do-change-font-size/
+      urlsList.push(`${rootUrl}/articles/${parts[1]}/${parts[2]}/${parts[4]}/`);
+      urlsList.push(
+        `${httpRootUrl}/articles/${parts[1]}/${parts[2]}/${parts[4]}/`
+      );
+      // /2018/06/users-do-change-font-size/
+      urlsList.push(`${rootUrl}/${parts[1]}/${parts[2]}/${parts[4]}/`);
+      urlsList.push(`${httpRootUrl}/${parts[1]}/${parts[2]}/${parts[4]}/`);
+      // /2018/06/users-do-change-font-size.html
+      urlsList.push(`${rootUrl}/${parts[1]}/${parts[2]}/${parts[4]}.html`);
+      urlsList.push(`${httpRootUrl}/${parts[1]}/${parts[2]}/${parts[4]}.html`);
+    }
+    if (
+      (parts = url.match(
+        /^\/links\/([0-9]{4})\/([0-9]{2})\/([0-9]{2})\/(.*)\/$/
+      ))
+    ) {
+      // Current permalink: /links/2019/12/10/good-enough/
+      // /links/2019/12/good-enough/
+      urlsList.push(`${rootUrl}/links/${parts[1]}/${parts[2]}/${parts[4]}/`);
+      urlsList.push(
+        `${httpRootUrl}/links/${parts[1]}/${parts[2]}/${parts[4]}/`
+      );
+      // /links/2019/12/good-enough.html
+      urlsList.push(
+        `${rootUrl}/links/${parts[1]}/${parts[2]}/${parts[4]}.html`
+      );
+      urlsList.push(
+        `${httpRootUrl}/links/${parts[1]}/${parts[2]}/${parts[4]}.html`
+      );
+    }
+    memoizedUrls[url] = urlsList;
   }
 
-  return urlsList;
+  return memoizedUrls[url];
 }
 
 module.exports = {
