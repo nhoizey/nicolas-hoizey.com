@@ -60,7 +60,7 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
     {% endif %}
   {% endif %}
 
-  <h1 class="page__title p-name">{{ title }}</h1>
+  <h1 class="page__title p-name">{{ title | orphans | safe }}</h1>
 
   {% set item = {
     data: {

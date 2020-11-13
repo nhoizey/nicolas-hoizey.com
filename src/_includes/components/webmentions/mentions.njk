@@ -84,7 +84,7 @@
           {% if webmentionDate %}
             <li class="meta__item meta__date">
               <svg class="icon">
-                <use xlink:href="#symbol-calendar"></use>
+                <use xlink:href="#symbol-date"></use>
               </svg>
               <a href="#webmention-{{ webmention['wm-id'] }}">
                 <time class="dt-published" datetime="{{ webmentionDate }}">{{ webmentionDate | date("Do MMMM YYYY, HH:mm") }}</time>
@@ -94,7 +94,7 @@
 
           <li class="meta__item meta__source">
             {% if "https://twitter.com/" in webmention.url %}
-              <svg><use xlink:href="#symbol-twitter" /></svg>
+              <svg class="twitter"><use xlink:href="#symbol-twitter" /></svg>
             {% endif %}
             <a class="u-url" href="{{ webmention.url }}">Source</a>
           </li>

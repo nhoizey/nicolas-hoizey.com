@@ -2,14 +2,14 @@
   &:link,
   &:visited {
     padding: 0.2em 0.5em;
-    border: 2px solid $link-decoration-color;
+    border: 2px solid var(--color-link);
     border-radius: 0.3em;
-    color: $link-decoration-color;
+    color: var(--color-link);
     text-decoration: none;
   }
   &:hover,
   &:active {
-    background-color: $link-decoration-color;
-    color: white;
+    background-color: var(--color-link-hover-bg);
+    color: var(--color-link-hover);
   }
 }

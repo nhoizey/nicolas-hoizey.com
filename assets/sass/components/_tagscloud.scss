@@ -4,6 +4,10 @@
   // padding: 0;
   // text-align: center;
 
+  // @media (min-width: 50em) {
+  //   text-align: justify;
+  // }
+
   // li {
   //   display: inline-block;
   //   margin: 0;
@@ -60,7 +64,7 @@
 
     &:hover,
     &:focus {
-      background-color: $link-decoration-color;
+      background-color: var(--color-link-decoration);
       outline: none;
       text-decoration: underline;
 
@@ -68,7 +72,7 @@
       &.tag3,
       &.tag4,
       &.tag5 {
-        background-color: $link-decoration-color;
+        background-color: var(--color-link-decoration);
       }
     }
 
