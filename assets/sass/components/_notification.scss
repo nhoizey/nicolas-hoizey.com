@@ -21,7 +21,7 @@
   a:hover,
   a:active {
     color: #fff;
-    background-color: $link-decoration-color;
+    background-color: var(--color-link-decoration);
     text-decoration: none;
   }
 }

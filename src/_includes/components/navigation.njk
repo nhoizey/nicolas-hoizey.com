@@ -1,7 +1,7 @@
 <nav class="navigation" role="navigation">
   <div class="wrap">
     {# <span class="signature"><span title="Nicolas">N</span><span title=" Hoizey">H</span></span> #}
-    <ul>
+    <ul class="menu">
       <li class="navigation__home{% if page.url == '/' %} current" aria-current="page{% endif %}">
         <a href="/">home</a>
       </li>
@@ -11,6 +11,7 @@
         'notes',
         'talks',
         'archives',
+        'tags',
         'about'
       ] %}
         {% set url = '/' + type + '/' %}
@@ -18,6 +19,10 @@
           <a href="{{ url }}">{{ type }}</a>
         </li>
       {% endfor %}
+    </ul>
+    <ul class="tools">
+      <li class="tools__feeds"><a href="/feeds/"><svg class="icon"><use xlink:href="#symbol-feeds" /></svg></a></li>
+      <li class="tools__search"><a href="/archives/"><svg class="icon"><use xlink:href="#symbol-search" /></svg></a></li>
     </ul>
   </div>
 </nav>

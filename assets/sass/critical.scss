@@ -6,7 +6,6 @@
 @import 'critical/fonts';
 @import 'components/avatar';
 @import 'components/header';
-// @import 'components/search';
 @import 'components/navigation';
 @import 'components/link';
 @import 'components/button';
@@ -39,8 +38,8 @@ body {
   line-height: 1.5;
   font-weight: 400;
 
-  color: $text-color;
-  background-color: $background-color;
+  color: $color-primary-darker-6;
+  background-color: white;
 
   word-break: break-word;
 
@@ -76,7 +75,7 @@ main {
 
 .intro {
   font-size: var(--font-size-xl);
-  color: #555;
+  color: $color-primary-darker-5;
 }
 
 p,
@@ -127,28 +126,28 @@ h1 {
 
 h2 {
   font-size: var(--font-size-xxxl);
-  color: $color-primary-lighter-1;
+  color: $color-primary-darker-1;
 }
 
 h3 {
   font-size: var(--font-size-xxl);
-  color: $color-primary-lighter-2;
+  color: $color-primary-darker-2;
 }
 
 h4 {
   font-size: var(--font-size-xl);
-  color: $color-primary-lighter-2;
+  color: $color-primary-darker-3;
 }
 
 h5 {
   font-size: var(--font-size-l);
-  color: $color-primary-lighter-2;
+  color: $color-primary-darker-4;
 }
 
 h6 {
   font-style: italic;
   font-size: var(--font-size-m);
-  color: $color-primary-lighter-2;
+  color: $color-primary-darker-5;
 }
 
 // ************************************************************
@@ -160,17 +159,18 @@ h6 {
 a {
   &:link,
   &:visited {
-    color: currentColor;
+    color: var(--color-link);
+    background-color: var(--color-link-bg);
     text-decoration-line: underline;
-    text-decoration-color: var(--link-decoration-color);
+    text-decoration-color: var(--color-link-decoration);
     text-decoration-thickness: 0.1em;
   }
 
   &:hover,
   &:focus {
-    color: #fff;
-    background-color: var(--link-decoration-color);
-    text-decoration: none;
+    color: var(--color-link-hover);
+    background-color: var(--color-link-hover-bg);
+    text-decoration: var(--color-link-hover-decoration);
     outline: none;
   }
 
@@ -197,8 +197,8 @@ a.deeplink {
 
   &:hover,
   &:focus {
-    color: #fff;
-    background-color: $link-decoration-color;
+    color: var(--color-link-hover);
+    background-color: var(--color-link-hover-bg);
   }
 
   @media (min-width: 65rem) {
@@ -217,7 +217,7 @@ a.deeplink {
 }
 
 :target {
-  scroll-margin-top: 2em;
+  scroll-margin-top: 4rem;
 }
 
 // ************************************************************
@@ -232,9 +232,12 @@ img {
 }
 
 svg {
+  margin: 0;
+  padding: 0;
+
   width: 1em;
   height: 1em;
-  vertical-align: middle;
+  vertical-align: text-bottom;
 }
 
 video {
@@ -342,6 +345,10 @@ img.border {
 .logo {
   display: block;
   margin: var(--gap) auto;
+}
+
+.portrait {
+  border-radius: 20%;
 }
 
 figcaption {

@@ -8,17 +8,17 @@ const ICONS_FOLDER = 'node_modules/feather-icons/dist/icons/';
 // Which icons do I need for the sprite?
 // icon filename + title for accessibility
 const ICONS_LIST = {
-  calendar: 'Date',
-  info: 'Info',
-  link: 'Link',
-  'map-pin': 'Location',
-  'message-circle': 'Webmention',
-  rss: 'Feeds',
-  search: 'Search',
-  tag: 'Tag',
-  twitter: 'Twitter',
-  wifi: 'Online',
-  'wifi-off': 'Offline',
+  calendar: { name: 'date', title: 'Date' },
+  info: { title: 'Info' },
+  link: { title: 'Link' },
+  'map-pin': { name: 'location', title: 'Location' },
+  'message-circle': { name: 'comments', title: 'Webmention' },
+  rss: { name: 'feeds', title: 'Feeds' },
+  search: { title: 'Search' },
+  tag: { name: 'tags', title: 'Tag' },
+  twitter: { title: 'Twitter' },
+  wifi: { name: 'online', title: 'Online' },
+  'wifi-off': { name: 'offline', title: 'Offline' },
 };
 
 // Initiate the sprite with svgstore
@@ -30,9 +30,9 @@ let sprite = svgstore({
 });
 
 // Loop through each icon in the list
-Object.entries(ICONS_LIST).forEach(([icon, title]) => {
+Object.entries(ICONS_LIST).forEach(([icon, properties]) => {
   // Log the name of the icon and its title to the console
-  console.log(`${icon}.svg -> ${title}`);
+  console.log(`${icon}.svg -> ${properties.title}`);
   const svgFile = fs
     // Load the content of the icon SVG file
     .readFileSync(path.join(ICONS_FOLDER, `${icon}.svg`), 'utf8')
@@ -41,13 +41,15 @@ Object.entries(ICONS_LIST).forEach(([icon, title]) => {
     // Add a title for accessibility
     .replace(
       / fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-[^"]+">/,
-      ` ><title id="${icon}-icon">${title}</title>`
+      ` ><title id="${properties.name || icon}-icon">${
+        properties.title
+      }</title>`
     );
   // Add the new symbol to the sprite
-  sprite.add(`symbol-${icon}`, svgFile, {
+  sprite.add(`symbol-${properties.name || icon}`, svgFile, {
     // Add attributes for accessibility
     symbolAttrs: {
-      'aria-labelledby': `${icon}-icon`,
+      'aria-labelledby': `${properties.name || icon}-icon`,
       role: 'img',
     },
   });

@@ -246,6 +246,13 @@ const typesPanel = panel({
   hidden: ({ results }) => results.getFacetValues('type').length === 0,
 })(refinementList);
 
+const tagsPanel = panel({
+  templates: {
+    header: 'Tags',
+  },
+  hidden: ({ results }) => results.getFacetValues('tags').length === 0,
+})(refinementList);
+
 const datesPanel = panel({
   templates: {
     header: 'Dates',
@@ -260,13 +267,6 @@ const languagesPanel = panel({
     header: 'Languages',
   },
   hidden: ({ results }) => results.getFacetValues('lang').length === 0,
-})(refinementList);
-
-const tagsPanel = panel({
-  templates: {
-    header: 'Tags',
-  },
-  hidden: ({ results }) => results.getFacetValues('tags').length === 0,
 })(refinementList);
 
 search.addWidgets([
@@ -293,6 +293,15 @@ search.addWidgets([
     attribute: 'type',
     sortBy: ['name:asc'],
   }),
+  tagsPanel({
+    container: '#tags-list',
+    attribute: 'tags',
+    sortBy: ['count:desc', 'name:asc'],
+    operator: 'and',
+    showMore: true,
+    showMoreLimit: 1000,
+    searchable: true,
+  }),
   datesPanel({
     container: '#dates-menu',
     attributes: ['date.lvl0', 'date.lvl1', 'date.lvl2'],
@@ -311,15 +320,6 @@ search.addWidgets([
     container: '#langs-list',
     attribute: 'lang',
     sortBy: ['name:asc'],
-  }),
-  tagsPanel({
-    container: '#tags-list',
-    attribute: 'tags',
-    sortBy: ['count:desc', 'name:asc'],
-    operator: 'and',
-    showMore: true,
-    showMoreLimit: 1000,
-    searchable: true,
   }),
   infiniteHits({
     container: '#hits',

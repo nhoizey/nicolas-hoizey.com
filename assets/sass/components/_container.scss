@@ -31,8 +31,8 @@
   & a:hover,
   & a:active {
     color: #fff;
-    background-color: $link-decoration-color;
-    text-decoration: none;
+    background-color: var(--color-link-hover-bg);
+    text-decoration: var(--color-link-hover-decoration);
   }
 }
 
@@ -48,6 +48,7 @@
   a:link,
   a:visited {
     color: #2b2c54;
+    text-decoration-color: #2b2c54;
   }
 }
 
@@ -63,6 +64,7 @@
   a:link,
   a:visited {
     color: #2b542c;
+    text-decoration-color: #2b542c;
   }
 }
 
@@ -78,6 +80,7 @@
   a:link,
   a:visited {
     color: #66512c;
+    text-decoration-color: #66512c;
   }
 }
 
@@ -93,5 +96,6 @@
   a:link,
   a:visited {
     color: #843534;
+    text-decoration-color: #843534;
   }
 }

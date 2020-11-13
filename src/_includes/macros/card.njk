@@ -14,7 +14,7 @@
     {% endif %}
     {% if title %}
       <p class="card__title p-name">
-        <a href="{{ url }}" hreflang="{{ lang }}" class="u-url">{{ title }}</a>
+        <a href="{{ url }}" hreflang="{{ lang }}" class="u-url">{{ title | orphans | safe }}</a>
       </p>
     {% endif %}
     {% if content %}
