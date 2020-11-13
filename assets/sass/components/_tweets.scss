@@ -14,7 +14,8 @@
   max-width: 30em;
   text-align: left;
 
-  &:hover {
+  &:hover,
+  &:focus {
     border-color: $color-twitter;
   }
 
@@ -26,6 +27,7 @@
   }
 
   a:hover,
+  a:focus,
   a:active {
     color: $color-twitter;
     background-color: transparent;
@@ -63,7 +65,8 @@
       color: #1c2022;
       line-height: 1.3;
     }
-    &:hover {
+    &:hover,
+    &:focus {
       color: $color-twitter;
     }
   }
@@ -75,7 +78,8 @@
       font-size: var(--font-size-s);
       line-height: 1;
     }
-    &:hover {
+    &:hover,
+    &:focus {
       color: $color-twitter;
     }
   }

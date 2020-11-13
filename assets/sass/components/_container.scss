@@ -29,6 +29,7 @@
 .warning.warning,
 .error.error {
   & a:hover,
+  & a:focus,
   & a:active {
     color: #fff;
     background-color: var(--color-link-hover-bg);

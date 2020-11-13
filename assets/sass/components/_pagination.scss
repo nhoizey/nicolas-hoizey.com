@@ -57,7 +57,8 @@
       text-decoration: none;
     }
 
-    a:hover {
+    a:hover,
+    &:focus {
       border-color: $color-blue;
     }
 

@@ -31,6 +31,7 @@
 // Augment specificity
 .toast.toast {
   a:hover,
+  a:focus,
   a:active {
     color: #fff;
     background-color: var(--color-link-decoration);

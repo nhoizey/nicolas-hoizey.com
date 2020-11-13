@@ -8,6 +8,7 @@
     text-decoration: none;
   }
   &:hover,
+  &:focus,
   &:active {
     background-color: var(--color-link-hover-bg);
     color: var(--color-link-hover);
