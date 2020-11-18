@@ -1,3 +1,6 @@
+// https://github.com/hankchizljaw/modern-css-reset
+@import '../../node_modules/modern-css-reset/dist/reset';
+
 @import 'global/variables';
 @import 'global/colors';
 @import 'global/utilities';
@@ -17,33 +20,21 @@
 @import 'components/container';
 @import 'components/prevnext';
 
-// Box sizing:
-// http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
 html {
-  box-sizing: border-box;
   text-size-adjust: 100%;
   // https://twitter.com/TimVereecke/status/1239454788116533248
   // https://twitter.com/lfredolo/status/1240301405325361152
   overflow-y: scroll;
 }
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
 body {
   font-size: var(--font-size-m);
-  line-height: 1.5;
   font-weight: 400;
 
   color: $color-primary-darker-6;
   background-color: white;
 
   word-break: break-word;
-
-  scroll-behavior: smooth;
 }
 
 // ************************************************************
@@ -51,9 +42,7 @@ body {
 // ************************************************************
 
 body {
-  margin: 0;
   padding: 0;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -66,7 +55,8 @@ main {
 .wrap {
   width: 90vw;
   max-width: 60rem;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 // ************************************************************
