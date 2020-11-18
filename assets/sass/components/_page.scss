@@ -3,12 +3,8 @@
   @extend .flow;
 
   .lazy {
-    --flow-space: 2em;
+    --flow-space: 3em;
     @extend .flow;
-
-    * {
-      --flow-space: 1em;
-    }
   }
 }
 

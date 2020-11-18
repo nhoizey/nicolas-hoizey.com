@@ -7,7 +7,7 @@
   clear: both;
 
   & > * + * {
-    padding-top: var(--gap3);
+    padding-top: 3em;
     border-top: 1px solid $color-primary-lighter-3;
   }
 }
