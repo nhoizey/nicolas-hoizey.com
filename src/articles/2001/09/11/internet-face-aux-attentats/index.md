@@ -11,7 +11,7 @@ Un état des lieux de la cyber société est fait dans [cet article](http://www.
 
 Au programme, l'explosion du trafic sur les différents sites web concernés, une explosion identique de la messagerie et des mailing-lists, et les réactions des marchés financiers, dont cet extrait :
 
-*Dans la salle des marchés de BNP-Paribas, à Paris, on suit toute la catastrophe en direct sur CNN. Un informaticien résume l'ambiance : "Les mecs couraient partout en gueulant au téléphone. C'était hallucinant de voir la ligne de partage entre ceux qui continuaient à traiter les ordres pour engranger et ceux qui avaient plutôt envie de vomir en apprenant que la bourse de Paris avait finalement décidé de ne pas fermer." Business as usual.*
+> Dans la salle des marchés de BNP-Paribas, à Paris, on suit toute la catastrophe en direct sur CNN. Un informaticien résume l'ambiance : "Les mecs couraient partout en gueulant au téléphone. C'était hallucinant de voir la ligne de partage entre ceux qui continuaient à traiter les ordres pour engranger et ceux qui avaient plutôt envie de vomir en apprenant que la bourse de Paris avait finalement décidé de ne pas fermer." Business as usual.
 
 Sans commentaire…
 

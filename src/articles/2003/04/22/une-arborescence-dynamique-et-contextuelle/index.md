@@ -7,7 +7,9 @@ tags:       [SPIP, Clever Age]
 
 Voici comment obtenir très simplement dans tout site SPIP un menu arborescent dynamique du plus bel effet. Comble de bonheur, il sait en plus être contextuel pour s'adapter à la page où il est affiché, et il a la bonne idée de se servir des fonctionnalités DHTML déjà présentes dans SPIP.
 
-*Article initialement publié sur [SPIP-Contrib](http://www.spip-contrib.net/article103.html).*
+:::info
+Article initialement publié sur [SPIP-Contrib](http://www.spip-contrib.net/article103.html).
+:::
 
 Voici donc comme promis depuis plus de six mois une version simplifiée et nettoyée du menu arborescent dynamique que nous ([Clever Age](http://www.clever-age.com/)) avons réalisée pour la partie du site EDF dédiée aux [particuliers](http://particuliers.edf.fr/).
 

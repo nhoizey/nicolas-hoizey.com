@@ -5,7 +5,9 @@ lang:       fr
 tags:       [Microsoft, Windows]
 ---
 
-*Article initialement publié dans [le weblog de Clever Age](http://www.clever-age.com/veille/weblog/attendant-windows-vista-version-3-dot-0-du-framework-dot-net-donne-plus-visibilite-winfx-512.html).*
+::: info
+Article initialement publié dans [le weblog de Clever Age](http://www.clever-age.com/veille/weblog/attendant-windows-vista-version-3-dot-0-du-framework-dot-net-donne-plus-visibilite-winfx-512.html).
+:::
 
 Ayant déjà pris plusieurs fois du retard, la sortie de [Windows Vista](http://www.microsoft.com/windowsvista/) se précise néanmoins, au travers notamment de la mise à disposition anticipée de plusieurs de ses composants techniques.
 

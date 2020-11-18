@@ -25,7 +25,7 @@ Dans un futur relativement proche, dès que la [nouvelle API d'authentification 
 
 Il existe deux moyens de voter pour des photos avec flickRate, tous deux présents sur la page de flickRate réservée aux [outils](http://flickrate.gasteroprod.com/tools.php) :
 
-**Un bookmarklet**
+### Un bookmarklet
 
 Le premier moyen est assez traditionnel, il s'agit d'un bookmarklet qui ouvre une popup de vote.
 
@@ -33,7 +33,7 @@ Le premier moyen est assez traditionnel, il s'agit d'un bookmarklet qui ouvre un
 
 Ce bookmarklet est normalement utilisable avec tous les navigateurs, mais n'hésitez pas à signaler si ce n'est pas le cas.
 
-**Un script Greasemonkey**
+### Un script Greasemonkey
 
 Si ce nom [Greasemonkey](http://greasemonkey.mozdev.org/) ne vous est pas familier, sachez qu'il s'agit d'une extension formidable pour Mozilla Firefox qui permet de créer des scripts modifiant l'interface des sites Web visités.
 

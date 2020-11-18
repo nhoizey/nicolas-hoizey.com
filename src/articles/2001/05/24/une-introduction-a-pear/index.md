@@ -92,4 +92,7 @@ J'espère que cet article a jeté un peu de lumière sur le mystérieux PEAR, et
 
 Amusez-vous ! 
 
-*[Joao Prado Maia](http://www.onlamp.com/pub/au/98) est développeur Web à San Francisco. Il a plus de quatre ans d'expérience en développement d'applications web et aime apprendre de nouvelles technologies et de nouveaux langages de développement.*
+::: info
+[Joao Prado Maia](http://www.onlamp.com/pub/au/98) est développeur Web à San Francisco. Il a plus de quatre ans d'expérience en développement d'applications web et aime apprendre de nouvelles technologies et de nouveaux langages de développement.
+:::
+

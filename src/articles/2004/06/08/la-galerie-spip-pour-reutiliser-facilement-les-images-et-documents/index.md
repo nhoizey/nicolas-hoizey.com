@@ -19,25 +19,25 @@ Une fois le bon document retrouvé, des liens permettent d'ajouter simplement le
 
 ## Démonstration en images
 
-**1 - Ouvrez la galerie**
+### 1 - Ouvrez la galerie
 
 Tout d'abord, cliquez sur le nouveau bouton de la barre d'aide à la saisie des raccourcis typographiques :
 
 ![](galerie_spip_1.png)
 
-**2 - Naviguez dans l'arborescence**
+### 2 - Naviguez dans l'arborescence
 
 Déplacez-vous dans l'arborescence du site pour y retrouver le document ou l'image qui vous intéresse :
 
 ![](galerie_spip_2.png)
 
-**3 - Visualisez l'élément et ses liens d'ajout**
+### 3 - Visualisez l'élément et ses liens d'ajout
 
 Une fois le bon élément retrouvé, cliquez sur le lien correspondant à l'affichahe souhaité :
 
 ![](galerie_spip_3.png)
 
-**4 - Continuez à travailler normalement**
+### 4 - Continuez à travailler normalement
 
 Après avoir cliqué sur l'un des liens, le code correspondant est ajouté à la zone de saisie et la galerie est refermée :
 

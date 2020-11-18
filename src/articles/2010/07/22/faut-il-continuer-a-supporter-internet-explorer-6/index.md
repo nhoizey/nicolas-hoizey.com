@@ -5,7 +5,9 @@ lang:       fr
 tags:       [Clever Age, Internet Explorer, browser]
 ---
 
-*Article initialement publié dans [le blog de Clever Age](https://www.clever-age.com/veille/blog/faut-il-continuer-a-supporter-internet-explorer-6-.html).*
+::: info
+Article initialement publié dans [le blog de Clever Age](https://www.clever-age.com/veille/blog/faut-il-continuer-a-supporter-internet-explorer-6-.html).
+:::
 
 On ne va pas ergoter sans fin, tout le monde doit maintenant savoir que [Internet Explorer](https://fr.wikipedia.org/wiki/Internet_Explorer) 6 — IE6 pour les intimes — est un navigateur obsolète et dangereux. Et pourtant, certains continuent à l'utiliser. Faut-il les en dissuader, refuser de leur fournir son support, aller même jusqu'à leur empêcher l'accès, ou faut-il continuer à supporter (les faiblesses de) ce navigateur ?
 

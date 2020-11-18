@@ -5,7 +5,9 @@ lang:       fr
 tags:       [Flickr, PHP, Clever Age, feed, Web Services]
 ---
 
-*Article initialement publié dans [le weblog de Clever Age](http://www.clever-age.com/veille/weblog/services-web-rest-encore-plus-simples-avec-xml-493.html).*
+::: info
+Article initialement publié dans [le weblog de Clever Age](http://www.clever-age.com/veille/weblog/services-web-rest-encore-plus-simples-avec-xml-493.html).
+:::
 
 Si vous avez déjà manipulé les flux de syndication de Flickr, vous avez appelé des URL de la forme suivante :
 

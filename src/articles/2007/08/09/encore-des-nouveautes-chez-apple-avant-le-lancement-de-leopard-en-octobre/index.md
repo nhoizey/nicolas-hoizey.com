@@ -45,7 +45,7 @@ Un autre changement non négligeable sur ce nouveau clavier, c'est ni plus ni mo
 
 [iLife](http://www.apple.com/ilife/), la suite multimédia d'Apple, reçoit quelques nouveautés bienvenues, dont essentiellement pour ce qui m'intéresse dans iPhoto et iMovie.
 
-**iPhoto**
+### iPhoto
 
 La nouvelle version de [iPhoto](http://www.apple.com/ilife/iphoto/) sait enfin gérer la navigation par date, et contrairement à ce que dit Steve Jobs, non, ce n'est pas révolutionnaire, presque tous les autres logiciels de catalogage de photos le font !
 
@@ -57,7 +57,7 @@ Une autre nouveauté très intéressante est la navigation dans les photos d'un 
 
 Apple améliore enfin le partage de photos en ligne en ajoutant des galeries très Web 2.0[^1] à .Mac et en augmentant la capacité de stockage à 10 Go contre 1 Go actuellement. Voici d'ailleurs [un exemple de galerie](http://gallery.mac.com/emily_parker), où l'on peut voir que même en ligne le *skimming* fonctionne.
 
-**iMovie**
+### iMovie
 
 C'est [iMovie](http://www.apple.com/ilife/imovie/) qui fait l'objet de la plus importante mise à jour, a tel point que cette nouvelle version ne reprend rien de l'ancienne. Un ingénieur Apple aurait tellement luté avec l'ancienne version pour monter un film qu'il aurait développé pour son propre usage cette nouvelle version, avant qu'elle soit retenue comme nouvelle solution iMovie d'Apple. J'en ai presque la larme à l'oeil…
 
@@ -75,7 +75,7 @@ Outre le partage de vidéos via .Mac, iMovie permet aussi d'exporter directement
 
 Côté [iWork](http://www.apple.com/iwork/), la suite bureautique d'Apple, on voit enfin apparaître un tableur au côté du traitement de texte Pages et du logiciel de présentation Keynote.
 
-**Numbers**
+### Numbers
 
 Ce tableur prend le nom tout simple de Numbers, et met particulièrement l'accent sur la présentation tout comme Pages et Keynote.
 

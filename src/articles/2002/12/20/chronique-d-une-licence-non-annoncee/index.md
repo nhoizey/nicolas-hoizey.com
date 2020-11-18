@@ -14,11 +14,11 @@ Le **12 juin 2002**, Stig Bakken, leader du développement de PHP pour sa versio
 
 Le **21 juillet 2002**, Stig Bakken, toujours lui, intervient plusieurs fois sur la licence, principalement pour scinder en deux le paragraphe  3 qui parle à la fois du nom *PHP* et de l'usage qu'il en est fait pour nommer les logiciels développés en PHP. La séparation en deux paragraphe simplifie la compréhension de la seconde partie, qui devient donc le paragraphe 4 suivant :
 
-*Products derived from this software may not be called "PHP", nor may "PHP" appear in their name, without prior written permission from group@php.net.  You may indicate that your software works in conjunction with PHP by saying "Foo for PHP" instead of calling it "PHP Foo" or "phpfoo"*
+> Products derived from this software may not be called "PHP", nor may "PHP" appear in their name, without prior written permission from group@php.net.  You may indicate that your software works in conjunction with PHP by saying "Foo for PHP" instead of calling it "PHP Foo" or "phpfoo"
 
 Soit en français :
 
-*Les produits dérivés de ce logiciel ne devraient pas être appelés "PHP", et "PHP" ne devrait pas apparaître dans leur nom, sans autorisation écrite préalable de group@php.net. Vous pouvez indiquer que votre logiciel fonctionne avec PHP en disant "Foo pour PHP" plutôt qu'en l'appelant "PHP Foo" ou "phpfoo".*
+> Les produits dérivés de ce logiciel ne devraient pas être appelés "PHP", et "PHP" ne devrait pas apparaître dans leur nom, sans autorisation écrite préalable de group@php.net. Vous pouvez indiquer que votre logiciel fonctionne avec PHP en disant "Foo pour PHP" plutôt qu'en l'appelant "PHP Foo" ou "phpfoo".
 
 Dans la foulée, Derick Rethans [demande](http://marc.theaimsgroup.com/?l=php-cvs&m=102727165608460&w=2) dans la mailing-list [php-cvs](http://marc.theaimsgroup.com/?l=php-cvs&r=1&w=2) si [phpMyAdmin](http://www.phpmyadmin.net/) et [phpOpenTracker](http://phpopentracker.de/) sont considérés comme des logiciels *dérivés* de PHP, selon le nouveau sens proposé par la licence.
 

@@ -9,7 +9,9 @@ Il peut être tentant d'utiliser SPIP pour présenter un agenda d'événements s
 
 ATTENTION, cette contrib ne semble plus fonctionner avec les versions de SPIP ultérieure à la 1.8.2, ce qui a mené à « [La fin de l'agenda Gastero Prod…](/2005/11/la-fin-de-l-agenda-gastero-prod.html) »
 
-*Cet article présente une évolution de la méthode déjà présentée sur le site des contributions pour SPIP : [spip_contrib](http://www.uzine.net/spip_contrib/article.php3?id_article=113).*
+::: info
+Cet article présente une évolution de la méthode déjà présentée sur le site des contributions pour SPIP : [spip_contrib](http://www.uzine.net/spip_contrib/article.php3?id_article=113).
+:::
 
 ![](gp_agenda.png "Exemple d'agenda. L'agenda de [Gastero Prod](http://www.gasteroprod.com/agenda/)")
 

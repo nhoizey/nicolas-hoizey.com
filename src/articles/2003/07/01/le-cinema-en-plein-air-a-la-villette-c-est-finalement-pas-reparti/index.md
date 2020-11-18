@@ -7,7 +7,7 @@ tags:       [cinema]
 
 Voilà ce que je disais le 1er juillet, ce n'est plus valable, les intermittents sont passés par là :
 
-*Comme chaque année, venez découvrir des films célèbres ou parfaitement inconnus, sur une couverture ou dans un transat, sur la prairie du triangle, dans le parc de La Villette.
+> Comme chaque année, venez découvrir des films célèbres ou parfaitement inconnus, sur une couverture ou dans un transat, sur la prairie du triangle, dans le parc de La Villette.
 
 ![](villette.jpg)
 

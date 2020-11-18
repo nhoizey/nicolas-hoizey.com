@@ -27,13 +27,13 @@ Alors bien sûr, il existe [une solution simple pour utiliser quand même Time M
 
 # L'alternative
 
-**Utiliser un autre logiciel de sauvegarde**
+## Utiliser un autre logiciel de sauvegarde
 
 Une autre solution est donc de ne pas tenir compte de Time Machine[^5] et d'adopter un autre logiciel de sauvegarde permettant l'usage d'un NAS sans douleur. Et là le choix est difficile. Les fabriquants de NAS fournissent bien des logiciels de sauvegarde, mais la plupart sont dédiés à Windows, le Mac n'est pas encore suffisamment populaire pour eux[^6].
 
 Il y a les grands classiques comme [SuperDuper (en)](http://www.shirt-pocket.com/SuperDuper/SuperDuperDescription.html), [CarbonCopyCloner (en)](http://www.bombich.com/software/ccc.html) ou [Synk (en)](http://decimus.net/), et tant d'autres, mais je m'avoue incapable de faire un choix juste en lisant leurs descriptions respectives. Et je ne suis pas sûr qu'un seul arrive à la cheville de Time Machine en terme d'ergonomie.
 
-**Faire croire à Time Machine que le NAS est un disque USB**
+## Faire croire à Time Machine que le NAS est un disque USB
 
 ![](Apple_Time_Machine_icon.png)
 
