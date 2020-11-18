@@ -28,7 +28,7 @@
   {% endif %}
 
   {% set content %}
-  <p class="card__text p-summary">{{ link.templateContent | excerpt | striptags | safe }}</p>
+  <p class="card__body p-summary">{{ link.templateContent | excerpt | striptags | safe }}</p>
   {% endset %}
 
   {% set meta %}

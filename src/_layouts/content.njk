@@ -38,7 +38,7 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
 </script>
 
 <article
-    class="main page clearfix h-entry"
+    class="page h-entry"
     lang="{{ lang }}">
 
   {% if layout == 'link' %}
@@ -73,9 +73,11 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
     url: page.url
   } %}
   {% from "macros/meta.njk" import meta %}
-  {{ meta(item) }}
+  <aside class="page__meta">
+    {{ meta(item) }}
+  </aside>
 
-  <div class="e-content">
+  <div class="page__body e-content">
     {% if layout == 'link' %}
       <img
         alt="Screenshot of “{{ title }}”"
@@ -86,14 +88,12 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
         crossorigin="anonymous"
         >
     {% endif %}
-    <div class="page__text">
-      {% if layout == 'link' %}
-        <p class="link__url">
-          <a href="{{ link }}" class="u-bookmark-of">{{ link }}</a>
-        </p>
-      {% endif %}
-      {{ content | safe }}
-    </div>
+    {% if layout == 'link' %}
+      <p class="link__url">
+        <a href="{{ link }}" class="u-bookmark-of">{{ link }}</a>
+      </p>
+    {% endif %}
+    {{ content | safe }}
   </div>
 
   {% if layout in ['article', 'link'] %}

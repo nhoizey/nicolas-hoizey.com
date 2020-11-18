@@ -38,9 +38,9 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
 </script>
 
 <article
-    class="main talk clearfix h-entry"
+    class="page h-entry"
     lang="{{ lang }}">
-  <h1 id="post" class="p-name">{{ title }}</h1>
+  <h1 id="post" class="page__title p-name">{{ title }}</h1>
 
   {% set item = {
       date: date,
@@ -57,15 +57,18 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
       }
   } %}
   {% from "macros/meta.njk" import meta %}
-  {{ meta(item) }}
+  <aside class="page__meta">
+    {{ meta(item) }}
+  </aside>
 
-  <div class="e-content">
+  <div class="page__body e-content">
     <img
       alt="Cover slide from the talk “{{ title }}”"
       width="{{ illustration.width }}"
       height="{{ illustration.height }}"
       src="{{ illustration.src }}"
-      class="page__illustration"
+      class="page__illustration u-photo"
+      crossorigin="anonymous"
       >
 
     {{ content | safe }}

@@ -58,7 +58,7 @@ img.card__illustration {
   }
 }
 
-.card__text {
+.card__body {
   & > * + * {
     margin-top: var(--gap);
   }

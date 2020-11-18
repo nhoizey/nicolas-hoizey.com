@@ -42,8 +42,22 @@ img.page__illustration {
   padding: 2px;
 }
 
-.page__text {
-  & > * + * {
+.page__body {
+  margin-top: var(--gap2);
+
+  // TODO: this is ugly
+  & > * + *:not(h2):not(h3):not(h4):not(h5):not(h6) {
     margin-top: var(--gap);
+    // margin-bottom: 0;
+  }
+
+  &.page__body > p + ul,
+  &.page__body > p + ol {
+    margin-top: calc(var(--gap) / 2);
+  }
+
+  ul,
+  ol {
+    padding: 0 0 0 var(--gap2);
   }
 }

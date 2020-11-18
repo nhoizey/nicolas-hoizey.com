@@ -54,9 +54,9 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
 </ul>
 
 <article
-    class="main note clearfix h-entry"
+    class="page h-entry"
     lang="{{ lang }}">
-  <h1 id="post" class="p-name">Note from {{ page.date | formattedDate }}</h1>
+  <h1 id="post" class="page__title p-name">Note from {{ page.date | formattedDate }}</h1>
 
   {% set item = {
     data: {
@@ -68,9 +68,11 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
     url: page.url
   } %}
   {% from "macros/meta.njk" import meta %}
-  {{ meta(item) }}
+  <aside class="page__meta">
+    {{ meta(item) }}
+  </aside>
 
-  <div class="e-content">{{ content | noteToHtml | safe }}</div>
+  <div class="page__body e-content">{{ content | noteToHtml | safe }}</div>
 
   {% set articleUrl = page.url %}
   {% include "components/webmentions.njk" %}

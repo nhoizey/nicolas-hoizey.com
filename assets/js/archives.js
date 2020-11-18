@@ -358,10 +358,10 @@ search.addWidgets([
             : '') +
           `${
             hit._snippetResult.content.matchLevel !== 'none'
-              ? '<div class="card__text p-summary">' +
+              ? '<div class="card__body p-summary">' +
                 hit._snippetResult.content.value +
                 '</div>'
-              : '<div class="card__text p-summary">' + hit.excerpt + '</div>'
+              : '<div class="card__body p-summary">' + hit.excerpt + '</div>'
           }` +
           (hit.meta_html
             ? `
