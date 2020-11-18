@@ -5,12 +5,14 @@
     {% set title = item.data.title %}
   {% endif %}
   <ul class="meta">
-    <li class="date meta__item meta__date">
-      <svg class="icon"><use xlink:href="#symbol-date" /></svg>
-      <time class="dt-published" datetime="{{ item.date | attributeDate }}">
-        {{ item.date | date("Do MMMM YYYY") }}
-      </time>
-    </li>
+    {% if item.date %}
+      <li class="date meta__item meta__date">
+        <svg class="icon"><use xlink:href="#symbol-date" /></svg>
+        <time class="dt-published" datetime="{{ item.date | attributeDate }}">
+          {{ item.date | date("Do MMMM YYYY") }}
+        </time>
+      </li>
+    {% endif %}
     {% if item.data.location %}
       <li class="date meta__item meta__location">
         <svg class="icon"><use xlink:href="#symbol-location" /></svg>
