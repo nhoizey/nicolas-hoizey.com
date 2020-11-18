@@ -26,33 +26,36 @@ JSON-LD for:
   }
 </script>
 
-<div class="site__intro clearfix h-card">
-  <img src="/assets/me/nicolas-hoizey.jpg" alt="" class="logo portrait" />
-  <p class="site__intro__name">Hi, I'm <strong class="p-name">Nicolas Hoizey</strong>.</p>
-  <p class="p-note">
-    Passionate about the Web, I co-founded
-    <a href="https://www.clever-age.com/en/" class="p-org h-card">Clever Age</a>.
-    <br />
-    I also love <a href="/tags/photography/">photography</a></a>,
-    among <a href="/tags/">many other interests</a>.</p>
-  </p>
-</div>
+<div class="page">
 
-{% from "macros/articleCard.njk" import articleCard %}
+  <div class="site__intro clearfix h-card">
+    <img src="/assets/me/nicolas-hoizey.jpg" alt="" class="logo portrait" />
+    <p class="site__intro__name">Hi, I'm <strong class="p-name">Nicolas Hoizey</strong>.</p>
+    <p class="p-note">
+      Passionate about the Web, I co-founded
+      <a href="https://www.clever-age.com/en/" class="p-org h-card">Clever Age</a>.
+      <br />
+      I also love <a href="/tags/photography/">photography</a></a>,
+      among <a href="/tags/">many other interests</a>.
+    </p>
+  </div>
 
-<h2>Latest article</h2>
-<div class="cards-list">
-  {% for article in collections.articles | limit(1) %}
+  {% from "macros/articleCard.njk" import articleCard %}
+
+  <h2>Latest articles</h2>
+  <div class="cards-list">
+    {% for article in collections.latestArticles %}
+      {{ articleCard(article) }}
+    {% endfor %}
+  </div>
+
+  <h2>Older noteworthy articles</h2>
+  <div class="cards-list">
+  {% for article in collections.promotedArticles %}
     {{ articleCard(article) }}
   {% endfor %}
-</div>
+  </div>
+  <p class="more">Read <a href="/articles/">all articles</a>…</p>
 
-<h2>Noteworthy articles</h2>
-<div class="cards-list">
-{% for article in collections.promoted | limit(3) %}
-  {{ articleCard(article) }}
-{% endfor %}
+  <div class="lazy"></div>
 </div>
-<p class="more">Read <a href="/articles/">all articles</a>…</p>
-
-<div class="lazy"></div>
