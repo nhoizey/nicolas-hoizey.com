@@ -24,3 +24,10 @@
     clear: both;
   }
 }
+
+// https://piccalil.li/quick-tip/flow-css-utility/
+.flow {
+  & > * + * {
+    margin-top: var(--flow-space, 1em);
+  }
+}

@@ -3,13 +3,13 @@
 // ************************************************************
 
 .cards-list {
+  @extend .flow;
   clear: both;
-}
 
-.cards-list > * + * {
-  margin-top: var(--gap3);
-  padding-top: var(--gap3);
-  border-top: 1px solid $color-primary-lighter-3;
+  & > * + * {
+    padding-top: var(--gap3);
+    border-top: 1px solid $color-primary-lighter-3;
+  }
 }
 
 // ************************************************************
@@ -17,11 +17,12 @@
 // ************************************************************
 
 .card {
-  @extend .clearfix;
-
-  & > * + * {
-    margin-top: var(--gap);
+  --flow-space: 3em;
+  & * {
+    --flow-space: 0.5em;
   }
+  @extend .clearfix;
+  @extend .flow;
 }
 
 .card__illustration {
@@ -59,9 +60,7 @@ img.card__illustration {
 }
 
 .card__body {
-  & > * + * {
-    margin-top: var(--gap);
-  }
+  @extend .flow;
 }
 
 // TODO: remove?

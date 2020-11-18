@@ -1,4 +1,10 @@
+#webmentions {
+  @extend .flow;
+}
+
 .webmentions__list {
+  @extend .flow;
+
   content-visibility: auto;
   contain-intrinsic-size: 1px 500px;
 
@@ -45,7 +51,6 @@
     position: relative;
     min-height: 48px;
 
-    margin: 0 0 2em;
     padding: 0.5em 0 0 calc(48px + 1em);
 
     &.webmention--no-photo {

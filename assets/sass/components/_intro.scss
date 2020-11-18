@@ -1,14 +1,15 @@
 .site__intro {
-  margin-top: 3vw;
-  margin-bottom: 1em;
-  font-size: var(--font-size-xxl);
+  @extend .flow;
 
-  & > * + * {
-    margin-top: var(--gap);
-    margin-bottom: 0;
-  }
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  font-size: var(--font-size-xxl);
 }
 
 .site__intro__name {
   font-size: var(--font-size-xxxl);
+
+  @media (min-width: 20em) {
+    margin-top: 0;
+  }
 }
