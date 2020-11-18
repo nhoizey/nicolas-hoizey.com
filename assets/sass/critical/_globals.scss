@@ -1,5 +1,7 @@
 :root {
   --gap: 1rem;
+  --gap2: calc(2 * var(--gap));
+  --gap3: calc(3 * var(--gap));
 
   // --font-family-serif: NotoSerif, Georgia, 'Times New Roman', Times, serif;
   --font-family-serif: Georgia, 'Times New Roman', Times, serif;

@@ -7,8 +7,8 @@
 }
 
 .cards-list > * + * {
-  margin-top: calc(3 * var(--gap));
-  padding-top: calc(3 * var(--gap));
+  margin-top: var(--gap3);
+  padding-top: var(--gap3);
   border-top: 1px solid $color-primary-lighter-3;
 }
 
