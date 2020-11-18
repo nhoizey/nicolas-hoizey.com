@@ -72,6 +72,7 @@ function getUrlsHistory(url) {
 }
 
 module.exports = {
+  getLatestWebmentions: () => getWebmentions().slice(-50),
   getWebmentionsForUrl: (url) => {
     // TODO: for each URL, we loop through all webmentions, should be optimized
     if (url === undefined) {
