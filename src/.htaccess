@@ -794,97 +794,97 @@ RewriteRule ^([0-9]{4})/?$ https://%{HTTP_HOST}/archives/$1/ [QSA,L,R=301]
 
 # Articles and links are now one level deeper, for the day, but we don't know where… 😅
 RewriteCond %{DOCUMENT_ROOT}/$1/01/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/01/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/01/$3/ [QSA,L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}/$1/02/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/02/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/02/$3/ [QSA,L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}/$1/03/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/03/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/03/$3/ [QSA,L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}/$1/04/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/04/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/04/$3/ [QSA,L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}/$1/05/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/05/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/05/$3/ [QSA,L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}/$1/06/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/06/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/06/$3/ [QSA,L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}/$1/07/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/07/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/07/$3/ [QSA,L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}/$1/08/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/08/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/08/$3/ [QSA,L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}/$1/09/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/09/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/09/$3/ [QSA,L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}/$1/10/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/10/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/10/$3/ [QSA,L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}/$1/11/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/11/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/11/$3/ [QSA,L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}/$1/12/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/12/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/12/$3/ [QSA,L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}/$1/13/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/13/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/13/$3/ [QSA,L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}/$1/14/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/14/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/14/$3/ [QSA,L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}/$1/15/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/15/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/15/$3/ [QSA,L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}/$1/16/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/16/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/16/$3/ [QSA,L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}/$1/17/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/17/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/17/$3/ [QSA,L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}/$1/18/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/18/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/18/$3/ [QSA,L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}/$1/19/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/19/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/19/$3/ [QSA,L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}/$1/20/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/20/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/20/$3/ [QSA,L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}/$1/21/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/21/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/21/$3/ [QSA,L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}/$1/22/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/22/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/22/$3/ [QSA,L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}/$1/23/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/23/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/23/$3/ [QSA,L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}/$1/24/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/24/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/24/$3/ [QSA,L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}/$1/25/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/25/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/25/$3/ [QSA,L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}/$1/26/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/26/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/26/$3/ [QSA,L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}/$1/27/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/27/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/27/$3/ [QSA,L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}/$1/28/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/28/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/28/$3/ [QSA,L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}/$1/29/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/29/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/29/$3/ [QSA,L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}/$1/30/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/30/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/30/$3/ [QSA,L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}/$1/31/$3 -d
-RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+/)$ https://%{HTTP_HOST}/$1/31/$3 [QSA,L,R=301]
+RewriteRule ^((articles|links)/[0-9]{4}/[0-9]{2})/([^/]+)(/|\.html)$ https://%{HTTP_HOST}/$1/31/$3/ [QSA,L,R=301]
 
 # ##############################################################################
 # # HOMAGE TO Terry Pratchett: http://www.gnuterrypratchett.com/               #
