@@ -30,7 +30,7 @@
                 <use xlink:href="#symbol-date"></use>
               </svg>
               <a href="#{{ comment.id }}">
-                <time class="dt-published" datetime="{{ comment.date | attributeDate }}">{{ comment.date | date("Do MMMM YYYY") }}</time>
+                <time class="dt-published" datetime="{{ comment.date | attributeDate }}">{{ comment.date | formattedDate }}</time>
               </a>
             <li>
           </ul>

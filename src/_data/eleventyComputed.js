@@ -23,6 +23,7 @@ const attributeDate = (date) =>
 const permalinkDate = (date) =>
   dtfDigits.format(date).split('/').reverse().join('/');
 
+// TODO: is it useful?
 module.exports = {
   lang: (data) => data.lang || 'en',
   formattedDate: (data) => dtf[data.lang || 'en'].format(data.page.date),

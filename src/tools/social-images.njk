@@ -33,7 +33,7 @@ title: Social images
 <h1 id="notes">Notes</h1>
 <section class="cards-list">
   {% for note in collections.notes | limit(10) %}
-    {% set ogImageTitle %}A note from {{ note.date | date("Do MMMM YYYY") }}{% endset %}
+    {% set ogImageTitle %}Note from {{ note.date | formattedDate }}{% endset %}
     {% set ogTags -%}
     {%- for tag in note.data.tags -%}
     #{{- tag | tagToHashtag -}}%20%20

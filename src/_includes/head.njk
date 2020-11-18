@@ -84,7 +84,7 @@
     <title itemprop="name">{{ ogTitle }}</title>
   {% elif layout == "note" %}
     {% set ogTitle = pageExcerpt | striptags | truncate(60) | escape | titleSafe %}
-    {% set ogDescription %}A note from {{ note.date | date("Do MMMM YYYY") }}{% endset %}
+    {% set ogDescription %}Note from {{ note.date | formattedDate }}{% endset %}
     {% set ogImageTitle = ogDescription %}
     {% set ogType = "article" %}
     <title>{{ ogTitle }} - {{ pkg.author.name }}</title>
