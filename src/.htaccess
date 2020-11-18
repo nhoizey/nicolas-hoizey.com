@@ -753,7 +753,8 @@ RewriteRule ^a-propos\.html https://%{HTTP_HOST}/about/ [QSA,L,R=301]
 RewriteRule ^a-propos/du-site\.html$ https://%{HTTP_HOST}/about/the-website.html [QSA,L,R=301]
 
 # Migrating some articles to links
-RewriteRule ^2018/08/just.html https://%{HTTP_HOST}/links/2018/08/just.html [QSA,L,R=301]
+RewriteRule ^2018/08/just.html https://%{HTTP_HOST}/links/2018/08/01/just/ [QSA,L,R=301]
+RewriteRule ^/2018/05/technical-credit.html https://%{HTTP_HOST}/links/2018/05/15/technical-credit/ [QSA,L,R=301]
 
 # Move articles as `/articles/` subfolder
 RewriteRule ^([0-9]{4}/[0-9]{2}/.*)(\.html|/)$ https://%{HTTP_HOST}/articles/$1/ [QSA,L,R=301]
@@ -772,7 +773,8 @@ RewriteRule ^tools/(.*)\.html$ https://%{HTTP_HOST}/tools/$1/ [QSA,L,R=301]
 RewriteRule ^atom.xml https://%{HTTP_HOST}/feeds/articles.xml [QSA,L,R=301]
 
 # Moving search
-RewriteRule ^search.html https://%{HTTP_HOST}/search/ [QSA,L,R=301]
+RewriteRule ^(search|archives).html https://%{HTTP_HOST}/archives/ [QSA,L,R=301]
+RewriteRule ^search/?$ https://%{HTTP_HOST}/archives/ [QSA,L,R=301]
 
 # This is not powered by Wordpress
 RewriteRule ^wp-login.php https://%{HTTP_HOST}/about/the-website.html [QSA,L,R=302]
@@ -783,8 +785,12 @@ RewriteRule ^assets/(opengraph/)?opengraph-(background(-raw)?).png https://%{HTT
 # Notes are deeper, so that it maps to the source tree and assets copy works
 RewriteRule ^(notes/[0-9]{4}/[0-9]{2}/[0-9]{2})-([0-9]+)/(.*)$ https://%{HTTP_HOST}/$1/$2/$3 [QSA,L,R=301]
 
-# There is no page for exact date, redirect to month
+# There is no page for exact date listings, redirect to month
 RewriteRule ^(articles|links|notes)/([0-9]{4}/[0-9]{2})/[0-9]{2}/?$ https://%{HTTP_HOST}/$1/$2/ [QSA,L,R=301]
+
+# Year and month archives are in the 'archives' folder
+RewriteRule ^([0-9]{4}/[0-9]{2})/?$ https://%{HTTP_HOST}/archives/$1/ [QSA,L,R=301]
+RewriteRule ^([0-9]{4})/?$ https://%{HTTP_HOST}/archives/$1/ [QSA,L,R=301]
 
 # Articles and links are now one level deeper, for the day, but we don't know where… 😅
 RewriteCond %{DOCUMENT_ROOT}/$1/01/$3 -d
