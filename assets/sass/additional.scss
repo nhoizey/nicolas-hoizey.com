@@ -19,12 +19,13 @@
 blockquote:not(.tweet-card) {
   margin-left: 0;
   margin-right: 0;
-  padding: 0.5em 1em 0.5em calc(2em + 5vw);
+  padding: 0.5em 1em 0.5em calc(2em + 3vw);
   min-height: 3em;
   overflow: hidden;
 
+  font-size: var(--font-size-l);
   font-style: italic;
-  color: $color-primary-darker-4;
+  color: $color-primary;
 
   position: relative;
 
@@ -38,8 +39,9 @@ blockquote:not(.tweet-card) {
     left: 0;
     top: 0;
     content: unicode('201C');
-    color: $color-primary-lighter-3;
-    font-size: calc(5em + 5vw);
+    color: $color-primary-lighter-2;
+    font-size: calc(4em + 5vw);
+    font-style: normal;
     line-height: 1;
   }
 
