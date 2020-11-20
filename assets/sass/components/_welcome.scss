@@ -1,12 +1,11 @@
-.site__intro {
-  @extend .flow;
+.welcome {
+  @extend .clearfix;
 
   margin-top: 3vw;
   margin-bottom: 3vw;
-  font-size: var(--font-size-xxl);
 }
 
-.site__intro__name {
+.welcome__name {
   font-size: var(--font-size-xxxl);
 
   @media (min-width: 20em) {
