@@ -72,8 +72,8 @@ main {
 .lead {
   @extend .flow;
 
-  font-size: var(--font-size-xl);
-  color: $color-primary-darker-3;
+  font-size: var(--font-size-xxl);
+  color: $color-primary;
 }
 
 h1,
