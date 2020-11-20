@@ -143,6 +143,9 @@ a {
     text-decoration-line: underline;
     text-decoration-color: var(--color-link-decoration);
     text-decoration-thickness: 0.1em;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    margin-left: -0.1em;
   }
 
   &:hover,
