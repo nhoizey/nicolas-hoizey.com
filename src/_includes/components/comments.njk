@@ -26,9 +26,7 @@
           </div>
           <ul class="meta">
             <li class="meta__item meta__date">
-              <svg class="icon">
-                <use xlink:href="#symbol-date"></use>
-              </svg>
+              {% icon "date", "Date" %}
               <a href="#{{ comment.id }}">
                 <time class="dt-published" datetime="{{ comment.date | attributeDate }}">{{ comment.date | formattedDate }}</time>
               </a>

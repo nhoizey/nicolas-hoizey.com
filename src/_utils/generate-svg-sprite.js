@@ -38,18 +38,16 @@ Object.entries(ICONS_LIST).forEach(([icon, properties]) => {
     .readFileSync(path.join(ICONS_FOLDER, `${icon}.svg`), 'utf8')
     // Make its dimensions relative to the surounding text
     .replace(' width="24" height="24"', ' width="1em" height="1em"')
-    // Add a title for accessibility
+    // Clean useless attributes
     .replace(
       / fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-[^"]+">/,
-      ` ><title id="${properties.name || icon}-icon">${
-        properties.title
-      }</title>`
+      ' >'
     );
   // Add the new symbol to the sprite
   sprite.add(`symbol-${properties.name || icon}`, svgFile, {
     // Add attributes for accessibility
     symbolAttrs: {
-      'aria-labelledby': `${properties.name || icon}-icon`,
+      'aria-label': properties.title,
       role: 'img',
     },
   });

@@ -7,7 +7,7 @@
   <ul class="meta">
     {% if item.date %}
       <li class="date meta__item meta__date">
-        <svg class="icon"><use xlink:href="#symbol-date" /></svg>
+        {% icon "date", "Date" %}
         <time class="dt-published" datetime="{{ item.date | attributeDate }}">
           {{ item.date | formattedDate }}
         </time>
@@ -15,7 +15,7 @@
     {% endif %}
     {% if item.data.location %}
       <li class="date meta__item meta__location">
-        <svg class="icon"><use xlink:href="#symbol-location" /></svg>
+        {% icon "location", "Location" %}
         {% if item.data.location.url %}
           <a href="{{ item.data.location.url }}">{{ item.data.location.name }}</a>
         {% else %}
@@ -26,7 +26,7 @@
     {% set tagsSize = item.data.tags | size %}
     {% if tagsSize > 0 %}
       <li class="tags meta__item card__tags">
-        <svg class="icon"><use xlink:href="#symbol-tags" /></svg>
+        {% icon "tags", "Tags" %}
         {% set comma = joiner(", ") %}
         {%- for tag in item.data.tags -%}
           {{ comma() }}
@@ -39,7 +39,7 @@
     {% set commentsSize = comments | size %}
     {% if commentsSize > 0 %}
       <li class="comments meta__item card__commentscount">
-        <svg class="icon"><use xlink:href="#symbol-comments" /></svg>
+        {% icon "comments", "Comments" %}
         <a href="{{ item.url }}#webmentions" aria-label="{{ commentsSize }} comment{% if commentsSize > 1 %}s{% endif %} for &quot;{{ title }}&quot;">{{ commentsSize }} comment{% if commentsSize > 1 %}s{% endif %}
         </a>
       </li>
@@ -48,14 +48,14 @@
     {% set mentionsSize = mentions | size %}
     {% if mentionsSize > 0 %}
       <li class="webmentions meta__item meta__webmentionscount">
-        <svg class="icon"><use xlink:href="#symbol-comments" /></svg>
+        {% icon "comments", "Webmentions" %}
         <a href="{{ item.url }}#webmentions" aria-label="{{ mentionsSize }} webmention{% if mentionsSize > 1 %}s{% endif %} for &quot;{{ title }}&quot;">{{ mentionsSize }} webmention{% if mentionsSize > 1 %}s{% endif %}
         </a>
       </li>
     {% endif %}
     {% if permalink %}
       <li class="permalink meta__item">
-        <svg class="icon"><use xlink:href="#symbol-link" /></svg>
+        {% icon "link", "Permalink" %}
         <a href="{{ item.url }}" class="u-url">permalink</a>
       </li>
     {% endif %}
