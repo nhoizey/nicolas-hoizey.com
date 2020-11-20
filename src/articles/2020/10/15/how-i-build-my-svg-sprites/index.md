@@ -5,7 +5,9 @@ lang:  en
 tags:  [SVG, WebPerf, Node]
 ---
 
+::: lead
 I'm using an SVG sprite on this site to make sure I don't repeat SVG code for icons that are used multiple times, and I inline it so the rendering doesn't depend on another resource loading. Here's how I build this sprite from individual SVG icons.
+:::
 
 ![Feather icons](/assets/logos/feather-icons.png){.logo}
 I'm using the very nice and open source [Feather icons](https://feathericons.com/). Feather provides [multiples ways to use the icons](https://github.com/feathericons/feather#usage), including a sprite, but it contains all icons and weights almost 60 KB (minified, not compressed), so it's really not a good option for me as I need only 9 of them. Feather also provides a way to load icons with JavaScript, obviously not the best choice either for performance in a statically generated site.

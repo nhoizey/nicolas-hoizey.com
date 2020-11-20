@@ -5,7 +5,9 @@ lang:  en
 tags:  [Eleventy, UX, Algolia]
 ---
 
+::: lead
 In my previous article [Enhancing archives navigation, step 1]({% link_to "enhancing-archives-navigation-step-1" %}), I promised further archives navigation enhancements. Here they are!
+:::
 
 Remember how UX of navigation in archives by year and month where already enhanced with [a single Eleventy layout](https://github.com/nhoizey/nicolas-hoizey.com/blob/master/src/_layouts/archives.njk):
 

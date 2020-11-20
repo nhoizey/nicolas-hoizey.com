@@ -5,7 +5,9 @@ lang:  en
 tags:  [Eleventy, UX]
 ---
 
+::: lead
 I decided years ago to remove paged navigation (aka "pagination"), because I find it not user friendly at all, and a nightmare for SEO with new content pushing one tenth of contents to another page (for a 10 items per page pagination). Now, I improved the UX even further.
+:::
 
 Here's how the month by month navigation was presented earlier, in the page bottom:
 
