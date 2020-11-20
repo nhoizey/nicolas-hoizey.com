@@ -1,0 +1,30 @@
+blockquote:not(.tweet-card) {
+  @extend .flow;
+
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0.5em 1em 0.5em calc(2em + 3vw);
+  min-height: 3em;
+
+  font-size: var(--font-size-l);
+  font-style: italic;
+  color: $color-primary;
+
+  position: relative;
+
+  &::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: unicode('201C');
+    color: $color-primary-lighter-2;
+    font-size: calc(4em + 5vw);
+    font-style: normal;
+    line-height: 1;
+  }
+
+  blockquote {
+    background-color: $color-primary-lighter-7;
+    font-style: normal;
+  }
+}
