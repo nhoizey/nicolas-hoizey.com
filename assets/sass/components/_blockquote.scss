@@ -1,3 +1,5 @@
+@import '../functions';
+
 blockquote:not(.tweet-card) {
   @extend .flow;
 
