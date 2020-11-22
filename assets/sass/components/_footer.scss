@@ -39,9 +39,9 @@
     linear-gradient(
       to bottom,
       $color-white,
-      $color-primary-lighter-4 50%,
-      $color-primary-darker-2 80%,
-      $color-primary-darker-5
+      var(--color-primary-lighter-4) 50%,
+      var(--color-primary-darker-2) 80%,
+      var(--color-primary-darker-5)
     );
   background-position: top center;
   background-repeat: no-repeat;

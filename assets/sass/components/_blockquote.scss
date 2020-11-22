@@ -10,7 +10,7 @@ blockquote:not(.tweet-card) {
 
   font-size: var(--font-size-l);
   font-style: italic;
-  color: $color-primary;
+  color: var(--color-primary);
 
   position: relative;
 
@@ -19,14 +19,14 @@ blockquote:not(.tweet-card) {
     left: 0;
     top: 0;
     content: unicode('201C');
-    color: $color-primary-lighter-2;
+    color: var(--color-primary-lighter-2);
     font-size: calc(4em + 5vw);
     font-style: normal;
     line-height: 1;
   }
 
   blockquote {
-    background-color: $color-primary-lighter-7;
+    background-color: var(--color-primary-lighter-7);
     font-style: normal;
   }
 }

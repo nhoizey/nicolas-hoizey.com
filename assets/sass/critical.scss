@@ -33,7 +33,7 @@ body {
   font-size: var(--font-size-m);
   font-weight: 400;
 
-  color: $color-primary-darker-6;
+  color: var(--color-primary-darker-6);
   background-color: white;
 
   word-break: break-word;
@@ -73,7 +73,7 @@ main {
   @extend .flow;
 
   font-size: var(--font-size-xxl);
-  color: $color-primary;
+  color: var(--color-primary-lighter-1);
 }
 
 h1,
@@ -83,7 +83,7 @@ h4,
 h5,
 h6 {
   line-height: 1.3;
-  color: $color-primary-lighter-2;
+  color: var(--color-primary-lighter-2);
   position: relative;
 
   &:not(h1) {
@@ -94,7 +94,7 @@ h6 {
 h1 {
   font-size: var(--font-size-xxxxl);
   font-weight: 900;
-  color: $color-primary;
+  color: var(--color-primary);
 }
 
 h2 {
@@ -152,7 +152,7 @@ a {
 
   &:active {
     color: #fff;
-    background-color: $color-secondary;
+    background-color: var(--color-secondary);
     text-decoration: none;
     outline: none;
   }
@@ -326,7 +326,7 @@ img {
 
 figure.border img,
 img.border {
-  border: 3px solid $color-primary-lighter-5;
+  border: 3px solid var(--color-primary-lighter-5);
 }
 
 .logo {
