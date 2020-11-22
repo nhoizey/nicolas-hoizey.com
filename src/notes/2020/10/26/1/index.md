@@ -5,4 +5,4 @@ tags: [Unsplash]
 
 15 000 000 views on #Unsplash, WOW! 🎉 🤗
 
-![15 000 000 views on Unsplash!](unsplash-15000000-views.png)
+![15 000 000 views on Unsplash!](unsplash-15000000-views.png){.onehalf .border}
