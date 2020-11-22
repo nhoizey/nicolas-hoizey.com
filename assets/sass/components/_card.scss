@@ -3,7 +3,7 @@
 // ************************************************************
 
 .cards-list {
-  --flow-space: 3em;
+  --flow-space: calc(3em + 3vw);
   @extend .flow;
 
   clear: both;
