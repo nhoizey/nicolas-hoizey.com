@@ -14,8 +14,8 @@
     'searchbox searchbox'
     'stats poweredby'
     'hits hits';
-  grid-column-gap: calc(var(--gap) * 3);
-  column-gap: calc(var(--gap) * 3);
+  grid-column-gap: var(--gap3);
+  column-gap: var(--gap3);
   grid-row-gap: calc(var(--gap) * 2);
   row-gap: calc(var(--gap) * 2);
 }
@@ -282,13 +282,10 @@
 
 .ais-InfiniteHits-list {
   @extend .cards-list;
-
-  padding: 0;
-  list-style-type: none;
 }
 
 .ais-InfiniteHits-loadMore {
-  margin-top: calc(var(--gap) * 3);
+  margin-top: var(--gap3);
 }
 
 // ************************************************************

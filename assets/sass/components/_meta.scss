@@ -1,6 +1,4 @@
 .meta {
-  clear: both;
-
   padding: 0;
   color: var(--color-meta);
 
@@ -14,7 +12,11 @@
 }
 
 .meta__item {
-  margin: 0 1em 0 1.5em;
+  margin-left: 1.5em;
+
+  &:not(:last-child) {
+    margin-right: 1em;
+  }
 
   a:link,
   a:visited {

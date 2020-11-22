@@ -82,10 +82,13 @@ h3,
 h4,
 h5,
 h6 {
-  --flow-space: 2em;
   line-height: 1.3;
   color: $color-primary-lighter-2;
   position: relative;
+
+  &:not(h1) {
+    --flow-space: 2em;
+  }
 }
 
 h1 {
@@ -262,6 +265,13 @@ figure {
 
 figure,
 img {
+  &.twothirds,
+  &.onehalf {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   &.twothirds {
     max-width: 66%;
   }
@@ -271,6 +281,8 @@ img {
   }
 
   &.onethird {
+    @extend .right;
+
     max-width: 50%;
 
     @media (min-width: 20em) {
@@ -280,6 +292,8 @@ img {
 
   &.onefourth,
   &.logo {
+    @extend .right;
+
     max-width: 50%;
 
     @media (min-width: 20em) {
@@ -300,8 +314,7 @@ img {
     }
   }
 
-  &.right,
-  &.logo {
+  &.right {
     margin: var(--gap) auto;
 
     @media (min-width: 20em) {
