@@ -17,14 +17,14 @@
         <a href="{{ url }}" hreflang="{{ lang }}" class="u-url">{{ title | orphans | safe }}</a>
       </p>
     {% endif %}
-    {% if content %}
-      <div class="card__body">
-        {{ content | safe }}
-      </div>
-    {% endif %}
     {% if meta %}
       <div class="card__meta">
         {{ meta | safe }}
+      </div>
+    {% endif %}
+    {% if content %}
+      <div class="card__body">
+        {{ content | safe }}
       </div>
     {% endif %}
   </article>

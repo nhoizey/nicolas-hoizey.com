@@ -356,6 +356,10 @@ search.addWidgets([
                 hit,
               })}</a></p>`
             : '') +
+          (hit.meta_html
+            ? `
+${hit.meta_html}`
+            : '') +
           `${
             hit._snippetResult.content.matchLevel !== 'none'
               ? '<div class="card__body p-summary">' +
@@ -363,10 +367,6 @@ search.addWidgets([
                 '</div>'
               : '<div class="card__body p-summary">' + hit.excerpt + '</div>'
           }` +
-          (hit.meta_html
-            ? `
-${hit.meta_html}`
-            : '') +
           '</article>'
         );
       },
