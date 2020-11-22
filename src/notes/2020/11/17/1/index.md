@@ -5,6 +5,6 @@ tags: [Flickr]
 
 When I browse #Flickr these days, the UI is sometimes in French, sometimes in English, without me doing anything… 🤷‍♂️
 
-![Flickr UI in French](flickr-ui-french.png)
+![Flickr UI in French](flickr-ui-french.png){.twothirds}
 
-![Flickr UI in English](flickr-ui-english.png)
+![Flickr UI in English](flickr-ui-english.png){.twothirds}
