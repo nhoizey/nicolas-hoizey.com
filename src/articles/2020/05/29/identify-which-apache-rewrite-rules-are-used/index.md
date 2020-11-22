@@ -5,7 +5,9 @@ lang:  en
 tags:  [Apache, shell]
 ---
 
+::: lead
 I have many rewrite rules in my Apache configuration for redirections, some dating from more than 15 years ago. So I wanted to know which ones are really useful, because there's maybe some cleaning to do. I'll explain here how I got the list.
+:::
 
 # Get some logs
 

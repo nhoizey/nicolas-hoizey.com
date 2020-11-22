@@ -5,7 +5,9 @@ lang:  fr
 tags:  [Jekyll, plugin]
 ---
 
+::: lead
 Si vous n'utilisez pas [Bundler](https://bundler.io/) pour installer vos plugins Jekyll, c'est à dire [la troisième option de la documentation officielle des plugins Jekyll](https://jekyllrb.com/docs/plugins/#installing-a-plugin)[^doc], vous pouvez passer votre chemin. Ou vous y mettre, vous ne le regretterez pas ! Une fois l'installation gérée avec Bundler, voilà comment je vous conseille de gérer vos mises à jour.
+:::
 
 [^doc]: Je préférerai d'ailleurs voir cette option en premier, tellement elle simplifie les choses.
 

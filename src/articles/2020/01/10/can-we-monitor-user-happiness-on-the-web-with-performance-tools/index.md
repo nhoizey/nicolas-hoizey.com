@@ -6,7 +6,9 @@ tags: [WebPerf]
 promoted: true
 ---
 
+::: lead
 I really like that [SpeedCurve](https://speedcurve.com/) tried to innovate with this recent "[User Happiness](https://support.speedcurve.com/en/articles/3380780-user-happiness)" metric. It aggregates multiple technical metrics to decide if users visiting the page are happy or not with it. But I see several issues in this metric.
+:::
 
 ![User Happiness monitoring in SpeedCurve](speedcurve-user-happiness-monitoring.png "User Happiness monitoring in SpeedCurve"){.zoom}
 
@@ -54,10 +56,10 @@ I don't believe it's possible to set such thresholds once and for all, people sh
 
 I believe adding bounce and abandonment metrics to User Happiness comes from a good intention to consider happiness not only as pure speed oriented, but it has its own bias.
 
-SpeedCurve tells us that 
+SpeedCurve tells us that
 
 > bounced [is] the condition that contributes the most [to] the Unhappy page views
-> 
+>
 > In other words, no matter how well the other conditions perform, the number of Unhappy page views will always be 19% or higher.
 
 But while bounce is often seen as an issue, it might be preferable sometimes.

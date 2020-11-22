@@ -5,7 +5,9 @@ lang: fr
 tags: [Opquast, quality]
 ---
 
+::: lead
 <del>J'adore me tromper…</del> Non, j’adore apprendre de mes erreurs, surtout si ça peut aider d’autres à apprendre en même temps.
+:::
 
 Nouveau beau billet de [Élie Sloïm](https://twitter.com/ElieSl/) avec du [Opquast](https://twitter.com/opquast/) et un peu de moi dedans : [Décider en connaissance de cause](https://www.opquast.com/decider-connaissance-de-cause/).
 

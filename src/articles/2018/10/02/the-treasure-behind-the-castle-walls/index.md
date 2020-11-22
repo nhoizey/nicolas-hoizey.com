@@ -5,7 +5,9 @@ lang:  en
 tags: [security,quote,Pinboard]
 ---
 
+::: lead
 > Pile up enough treasure behind the castle walls and you'll eventually attract someone who can climb them.
+:::
 
 ![A photo of Maciej Ceglowski](Maciej-Ceglowski-republica.jpg "Maciej Ceglowski giving a talk at re:publica 2017"){.onethird}
 

@@ -5,7 +5,9 @@ lang:  en
 tags:  [photography, 500px]
 ---
 
+::: lead
 500px once was a light in the dark, when Flickr stopped evolving, years ago. But 500px gradually descended from its pedestal, as decisions were made against users' interests.
+:::
 
 # A fast growing challenger
 

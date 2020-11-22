@@ -5,7 +5,9 @@ lang:  fr
 tags:  [SAV, fail]
 ---
 
+::: lead
 Je ne sais pas si vous avez déjà été confronté au SAV de Lapeyre, mais je peux vous dire qu'il vaut son pesant de cacahuètes.
+:::
 
 ![](/assets/logos/lapeyre.png){.onethird}
 

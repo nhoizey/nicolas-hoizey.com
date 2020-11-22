@@ -5,7 +5,9 @@ lang:  fr
 tags:  [photography, macro]
 ---
 
+::: lead
 Je n'ai pas trop l'habitude de faire des photos de natures mortes, mais quand j'ai vu ces vieux livres dans une des installations du [Festival International des Jardins de Chaumont-sur-Loire](http://www.domaine-chaumont.fr/festival_festivals)[^chaumont], j'ai su qu'il y avait matière à faire une belle photo.
+:::
 
 [^chaumont]: Je vous recommande vivement d'y aller au moins une fois, d'ailleurs, ça vaut le détour.
 

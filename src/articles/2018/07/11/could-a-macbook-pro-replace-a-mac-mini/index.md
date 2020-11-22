@@ -5,7 +5,9 @@ lang: en
 tags: [Apple,Mac]
 ---
 
+::: lead
 I'm fed up with waiting for an updated Mac mini, but I need to replace one that is 10 years old (yes, 10 years!), so I'm considering other options.
+:::
 
 I know [Tim Cook said back in October 2017 that Apple plans to keep the Mac mini in it's product line](https://www.techradar.com/news/mac-mini-still-important-to-apple-says-tim-cook):
 

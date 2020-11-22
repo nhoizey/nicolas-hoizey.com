@@ -5,7 +5,9 @@ lang:  fr
 tags:  [Jekyll, plugin]
 ---
 
+::: lead
 Arrivé à la fin d'un billet, il est toujours intéressant de pouvoir facilement continuer la lecture avec un autre billet, sans changer de site. C'est l'objet des liens « billet précédent » / « billet suivant » que l'on trouve sur de nombreux blogs. Mais les sujets traités sur ce site étant très variés, il y a peu de chance qu'un lecteur puisse être intéressé par un autre billet qui ne serait proche que chronologiquement de celui qu'il vient de lire. Les propositions de rebond doivent être plus intelligentes que cela.
+:::
 
 ![](/assets/logos/jekyll.png "Jekyll"){.logo }
 

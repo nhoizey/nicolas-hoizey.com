@@ -5,7 +5,9 @@ lang:  fr
 tags:  [HTTPS, AlwaysData]
 ---
 
+::: lead
 Souhaitant me mettre aux [Service Workers](https://developer.mozilla.org/fr/docs/Web/API/Service_Worker_API/Using_Service_Workers), notamment pour remplacer [appcache](https://developer.mozilla.org/fr/docs/Utiliser_Application_Cache) pour le support _offline_ de mon jeu [esviji](https://esviji.com/), j'avais besoin de passer en HTTPS. [Let's Encrypt](https://letsencrypt.org/) étant à l'époque toujours en _beta_, et les tutoriels de mise en œuvre pas légion et peu compréhensibles, j'avais choisi la solution de facilité avec [CloudFlare](https://www.cloudflare.com/), que je quitte aujourd'hui pour mes propres certificats Let's Encrypt sur mon hébergement mutualisé [AlwaysData](https://www.alwaysdata.com/fr/).
+:::
 
 CloudFlare est un service qui fonctionne comme un proxy pour le site, avec beaucoup de fonctionnalités destinées à améliorer la performance et la sécurité, dont notamment la mise en place de HTTPS. Rien à faire sur le site, qui peut rester en HTTP, il faut juste faire pointer les DNS chez CloudFlare plutôt que chez l'hébergeur du site. Et quand même bien parcourir les nombreuses options de configuration dans tous les sens, pour bien choisir exactement ce que l'on veut.
 

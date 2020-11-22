@@ -6,7 +6,9 @@ tags:  [accessibility, font, em]
 promoted: true
 ---
 
+::: lead
 [Evan Minto](https://twitter.com/VamptVo) wrote a great article showing the [Internet Archive](https://twitter.com/internetarchive) has tested the actual root font-size set by their visitors, and the result shows a lot of people still change the default one: [Pixels vs. Ems: Users DO Change Font Size](https://medium.com/@vamptvo/pixels-vs-ems-users-do-change-font-size-5cfb20831773).
+:::
 
 > we found that the answer is 3.08% of our users. That’s a pretty big number, higher than most counts of the market share of browsers like Internet Explorer, Edge, or Opera Mini.
 

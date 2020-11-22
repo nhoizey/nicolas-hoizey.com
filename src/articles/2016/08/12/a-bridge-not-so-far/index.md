@@ -5,7 +5,9 @@ lang:  fr
 tags:  [photography, New York]
 ---
 
+::: lead
 Voilà le Manhattan Bridge, impressionnante vue depuis la rue Washington du quartier DUMBO de Brooklyn.
+:::
 
 ![](a-bridge-not-so-far.jpg "A bridge not so far")
 

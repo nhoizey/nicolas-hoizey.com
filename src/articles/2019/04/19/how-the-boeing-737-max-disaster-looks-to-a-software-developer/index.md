@@ -5,7 +5,9 @@ lang:  en
 tags:  [KISS]
 ---
 
+::: lead
 Experienced plane pilot and software developer [Gregory Travis](https://twitter.com/greg_travis) explains in details what led to [Boeing 737 Max](https://en.wikipedia.org/wiki/Boeing_737_MAX) recent disasters in this long article: [How the Boeing 737 Max Disaster Looks to a Software Developer](https://spectrum.ieee.org/aerospace/aviation/how-the-boeing-737-max-disaster-looks-to-a-software-developer).
+:::
 
 # Why do I even care?
 

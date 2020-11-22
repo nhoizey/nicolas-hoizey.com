@@ -5,7 +5,9 @@ lang: en
 tags: [Twitter]
 ---
 
+::: lead
 Twitter search finds this tweet with `from:nhoizey to:tapbots` but not with `from:nhoizey to:tweetbot`…
+:::
 
 https://twitter.com/nhoizey/status/996708858734235648
 

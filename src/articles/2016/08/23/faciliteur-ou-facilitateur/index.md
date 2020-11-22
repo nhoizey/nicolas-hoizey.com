@@ -5,7 +5,9 @@ lang:  fr
 tags:  [vocabulary]
 ---
 
+::: lead
 Comme je l'indique dans la page [à propos](/about/) de ce site, « je me qualifie moi-même aujourd'hui de **faciliteur de Web**, ayant à cœur de faire profiter les autres de mes connaissances ». Mais ne devrais-je pas plutôt dire « facili**ta**teur » ?
+:::
 
 Le Larousse ne connaît pas « faciliteur », et sa [définition de « facilitateur »](http://www.larousse.fr/dictionnaires/francais/facilitateur/186370) indique ceci :
 

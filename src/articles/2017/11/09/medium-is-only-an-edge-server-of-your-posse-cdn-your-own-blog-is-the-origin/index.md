@@ -6,7 +6,9 @@ tags:  [Medium, blog, POSSE, IndieWeb]
 promoted: true
 ---
 
+::: lead
 People tend to be lazy (I am often) and chose the easiest tool to do the job, even if it's not the best one. [Medium](https://medium.com/) is the new [Blogger](https://www.blogger.com/)[^ev-williams], but with a [much nicer content editing UI](https://medium.com/@ev/writing-in-medium-df8eac9f4a5e), and a cleaner presentation of content to readers[^blur]. People can create and account and start publish in a few minutes, it's really easy. But how can all this be free?
+:::
 
 [^ev-williams]: Ev Williams, the CEO of Medium, is one of Twitter's co-founders, but was previously headding Blogger.
 

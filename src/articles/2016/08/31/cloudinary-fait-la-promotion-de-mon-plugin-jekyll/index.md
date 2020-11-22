@@ -5,7 +5,9 @@ lang:  fr
 tags:  [Jekyll, Cloudinary, image, RWD]
 ---
 
+::: lead
 Je vous en avais parlé [lors de ma migration vers Jekyll 3](https://nicolas-hoizey.com/2016/07/tout-change-rien-ne-change.html#un-nouveau-plugin-pour-grer-les-images-responsives-avec-cloudinary), je me suis lancé dans le développement d'[un plugin Jekyll pour utiliser le service Cloudinary](https://nhoizey.github.io/jekyll-cloudinary/) pour mes [images responsives](http://images-responsives.com/).
+:::
 
 ![](/assets/logos/cloudinary.png "Cloudinary"){.logo }
 

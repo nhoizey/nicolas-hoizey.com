@@ -5,7 +5,9 @@ lang:  fr
 tags:  [book, ebook]
 ---
 
+::: lead
 Je réagi ici au [billet de Stéphane sur le livre numérique qu'il ne juge pas encore probant](http://nota-bene.org/Livre-numerique-pas-encore-probant-pour-moi) pour donner mon propre avis. J'allais répondre chez lui, mais j'ai voulu trop écrire, ça devenait inconfortable dans le petit champ de saisi, donc j'ai fini par plutôt écrire chez moi… ;-)
+:::
 
 ![](Cybook-Odyssey-HD-FrontLight.jpg "onethird")
 
