@@ -19,7 +19,7 @@ blockquote:not(.tweet-card) {
     position: absolute;
     left: 0;
     top: 0;
-    content: unicode('201C');
+    content: functions.unicode('201C');
     color: var(--color-primary-lighter-2);
     font-size: calc(4em + 5vw);
     font-style: normal;
