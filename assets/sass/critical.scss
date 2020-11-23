@@ -54,7 +54,7 @@ main {
   flex: 1;
 
   .wrap {
-    @extend .flow;
+    @extend %flow;
   }
 }
 
@@ -70,7 +70,7 @@ main {
 // ************************************************************
 
 .lead {
-  @extend .flow;
+  @extend %flow;
 
   font-size: var(--font-size-xxl);
   color: var(--color-primary-lighter-1);

@@ -1,9 +1,9 @@
 #webmentions {
-  @extend .flow;
+  @extend %flow;
 }
 
 .webmentions__list {
-  @extend .flow;
+  @extend %flow;
 
   content-visibility: auto;
   contain-intrinsic-size: 1px 500px;

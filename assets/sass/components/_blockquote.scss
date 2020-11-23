@@ -1,7 +1,7 @@
 @import '../global/functions';
 
 blockquote:not(.tweet-card) {
-  @extend .flow;
+  @extend %flow;
 
   margin-left: 0;
   margin-right: 0;

@@ -1,10 +1,10 @@
 .page {
-  @extend .clearfix;
-  @extend .flow;
+  @extend %clearfix;
+  @extend %flow;
 
   .lazy {
     --flow-space: 3em;
-    @extend .flow;
+    @extend %flow;
   }
 }
 
@@ -44,7 +44,7 @@ img.page__illustration {
 }
 
 .page__body {
-  @extend .flow;
+  @extend %flow;
 
   margin-top: var(--gap2);
 }

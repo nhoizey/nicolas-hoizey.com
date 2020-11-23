@@ -4,7 +4,7 @@
 
 .cards-list {
   --flow-space: calc(3em + 3vw);
-  @extend .flow;
+  @extend %flow;
 
   clear: both;
   padding: 0;
@@ -16,12 +16,12 @@
 // ************************************************************
 
 .card {
-  @extend .clearfix;
+  @extend %clearfix;
 
   * {
     --flow-space: 0.5em;
   }
-  @extend .flow;
+  @extend %flow;
 }
 
 .card__illustration {
@@ -59,7 +59,7 @@ img.card__illustration {
 }
 
 .card__body {
-  @extend .flow;
+  @extend %flow;
 }
 
 // TODO: remove?
