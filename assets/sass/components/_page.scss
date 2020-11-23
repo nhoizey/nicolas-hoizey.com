@@ -47,14 +47,4 @@ img.page__illustration {
   @extend .flow;
 
   margin-top: var(--gap2);
-
-  &.page__body > p + ul,
-  &.page__body > p + ol {
-    margin-top: calc(var(--flow-space, 1em) / 2);
-  }
-
-  ul,
-  ol {
-    padding: 0 0 0 var(--gap2);
-  }
 }
