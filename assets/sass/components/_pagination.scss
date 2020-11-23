@@ -1,3 +1,5 @@
+@use 'global/colors';
+
 .pagination {
   font-size: var(--font-size-l);
   margin: 3em auto;
@@ -59,13 +61,13 @@
 
     a:hover,
     &:focus {
-      border-color: $color-blue;
+      border-color: colors.$color-blue;
     }
 
     strong {
       // font-weight: 400;
-      background-color: $color-blue;
-      border-color: $color-blue;
+      background-color: colors.$color-blue;
+      border-color: colors.$color-blue;
       color: #fff;
     }
 
