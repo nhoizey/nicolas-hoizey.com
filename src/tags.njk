@@ -4,6 +4,9 @@ layout: page
 permalink: "/tags/index.html"
 ---
 
+{% set cssFilename = "page-tagscloud.css" %}
+{% include "add-css.njk" %}
+
 {% from "macros/tagsCloud.njk" import tagsCloud %}
 
 <p class="intro">These are all tags used in contents from this site:</p>

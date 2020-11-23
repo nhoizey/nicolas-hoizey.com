@@ -4,9 +4,9 @@
 @import 'global/variables';
 @import 'global/colors';
 @import 'global/utilities';
-@import 'critical/globals';
-@import 'critical/accessibility';
-@import 'critical/fonts';
+@import 'global/globals';
+@import 'global/accessibility';
+@import 'global/fonts';
 @import 'components/avatar';
 @import 'components/header';
 @import 'components/navigation';
@@ -19,8 +19,15 @@
 @import 'components/page';
 @import 'components/tweets';
 @import 'components/container';
-@import 'components/prevnext';
-@import 'components/welcome';
+@import 'components/toast';
+@import 'components/notification';
+@import 'components/footnotes';
+@import 'components/comments';
+@import 'components/webmentions';
+@import 'highlight/_prism-onedark';
+@import 'components/footer';
+@import 'components/tweets-icons';
+@import 'global/print';
 
 html {
   text-size-adjust: 100%;

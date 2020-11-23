@@ -1,5 +1,7 @@
+@import 'global/utilities';
+
 .welcome {
-  @extend .clearfix;
+  @extend %clearfix;
 
   margin-top: 3vw;
   margin-bottom: 3vw;

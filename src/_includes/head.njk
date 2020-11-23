@@ -6,16 +6,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 
-  {% if build.env == 'production' %}
-    {% set criticalCss %}
-    {% include_raw config.dir.dist + "/css/" + hashes_css['critical.css'] %}
-    {% endset %}
-    <style>
-      {{criticalCss | safe}}
-    </style>
-  {% else %}
-    <link rel="stylesheet" href="/css/critical.css" />
-  {% endif %}
+  {% set cssFilename = "critical.css" %}
+  {% include "add-css.njk" %}
 
   {% set criticalJs %}
   {% include_raw config.dir.dist + "/js/" + hashes_critical[config.dir.assets + '/js/critical.js'] %}

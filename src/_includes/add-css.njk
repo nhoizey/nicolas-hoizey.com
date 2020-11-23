@@ -1,0 +1,8 @@
+{% if build.env == 'production' %}
+  {% set css %}
+  {% include_raw config.dir.dist + "/css/" + hashes_css[cssFilename] %}
+  {% endset %}
+  <style>{{css | safe}}</style>
+{% else %}
+  <link rel="stylesheet" href="/css/{{ cssFilename }}" />
+{% endif %}

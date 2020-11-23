@@ -5,15 +5,6 @@
 {% set minWeight = 300 %}
 {% set maxWeight = 900 %}
 
-{% if build.env == 'production' %}
-  {% set css %}
-  {% include_raw config.dir.dist + "/css/" + hashes_css['tagscloud.css'] %}
-  {% endset %}
-  <style>{{css | safe}}</style>
-{% else %}
-  <link rel="stylesheet" href="/css/tagscloud.css" />
-{% endif %}
-
 <ol class="tagscloud__tags">
 {% for tag in tags %}
   {% set tagUrl %}/tags/{{ tag.tag | slugify }}/{% endset %}

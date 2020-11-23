@@ -25,14 +25,8 @@ title: Archives
 
 {% block content %}
 
-  {% if build.env == 'production' %}
-    {% set css %}
-    {% include_raw config.dir.dist + "/css/" + hashes_css['archives.css'] %}
-    {% endset %}
-    <style>{{css | safe}}</style>
-  {% else %}
-    <link rel="stylesheet" href="/css/archives.css" />
-  {% endif %}
+  {% set cssFilename = "page-archives.css" %}
+  {% include "add-css.njk" %}
 
   <h1>
     {% block title %}

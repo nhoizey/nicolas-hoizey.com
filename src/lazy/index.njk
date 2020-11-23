@@ -22,6 +22,9 @@ title: Home
 </div>
 <p class="more">Discover <a href="/notes/">all notes</a>…</p>
 
+{% set cssFilename = "page-tagscloud.css" %}
+{% include "add-css.njk" %}
+
 {% from "macros/tagsCloud.njk" import tagsCloud %}
 
 <h2>Main topics</h2>
