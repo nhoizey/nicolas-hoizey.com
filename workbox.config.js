@@ -6,7 +6,6 @@ module.exports = {
   globDirectory: DIST,
   globPatterns: [
     './js/additional-es.*.js',
-    './css/additional.*.css',
     './',
     './about/',
     './about/the-website.html',

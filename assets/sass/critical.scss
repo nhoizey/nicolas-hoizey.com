@@ -358,3 +358,99 @@ ul,
 ol {
   padding: 0 0 0 var(--gap2);
 }
+
+// ************************************************************
+// Tables
+// ************************************************************
+
+table {
+  border-collapse: collapse;
+  font-feature-settings: 'tnum' 1;
+
+  @supports (font-variant-numeric: tabular-nums) {
+    font-feature-settings: normal;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+thead {
+  background-color: #eee;
+
+  th {
+    vertical-align: bottom;
+  }
+}
+
+th,
+td {
+  padding: 0.3em 0.5em;
+  border: 1px solid #ccc;
+  vertical-align: top;
+}
+
+// ************************************************************
+// Sub and sup texts
+// ************************************************************
+
+// https://gist.github.com/unruthless/413930
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+// ************************************************************
+// Other elements inside the article
+// ************************************************************
+
+article {
+  .socialphoto {
+    background-color: #eef;
+    color: #333;
+    padding: 1em;
+
+    p {
+      margin: 0;
+    }
+
+    span {
+      white-space: nowrap;
+    }
+
+    a {
+      color: #777;
+    }
+  }
+}
+
+// File link icons
+a[href$='.zip'],
+a[href$='.kml'] {
+  padding-left: 1.6em;
+  background-size: 1.4em 1.4em;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+a[href$='.zip'] {
+  background-image: url(/assets/icons/zip.svg);
+}
+
+a[href$='.kml'] {
+  background-image: url(/assets/icons/kml.svg);
+}
+
+// Hidden for everyone
+.hidden {
+  display: none;
+}
