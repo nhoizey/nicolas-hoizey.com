@@ -1,0 +1,77 @@
+#webmentions {
+  @extend %flow;
+}
+
+.reactions__list {
+  @extend %flow;
+
+  padding: 0;
+  list-style-type: none;
+}
+
+.reaction__author__photo {
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.reactions__item .meta {
+  margin-top: calc(var(--gap) / 2);
+}
+
+.reactions--like-of,
+.reactions--repost-of {
+  --flow-space: 0;
+
+  li {
+    display: inline-block;
+  }
+
+  a:link,
+  a:visited {
+    margin: 0;
+    display: inline-block;
+    padding: 0.1em;
+    border-radius: 0.3em;
+
+    &:hover,
+    &:focus {
+      background-color: var(--color-link-decoration);
+    }
+  }
+
+  .reaction__author__photo {
+    margin: 0.2em;
+  }
+}
+
+.reactions--in-reply-to,
+.reactions--mention-of,
+.reactions--comments {
+  .reactions__item {
+    clear: both;
+    position: relative;
+    min-height: 48px;
+
+    padding-left: calc(48px + 1em);
+
+    &.reaction--no-photo {
+      padding-left: 1em;
+      padding-right: 1em;
+
+      @media (min-width: 30em) {
+        padding-left: calc(48px + 1em);
+        padding-right: 0;
+      }
+    }
+  }
+
+  .reaction__author__photo {
+    display: block;
+    position: absolute;
+    top: 0.3em;
+    left: 0;
+    margin: 0;
+  }
+}

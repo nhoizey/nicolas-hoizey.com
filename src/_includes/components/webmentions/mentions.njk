@@ -1,15 +1,15 @@
 {% set cloudinaryPrefix = 'https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,' %}
-<ol class="webmentions__list webmentions--mention-of">
+<ol class="reactions__list reactions--mention-of">
   {% for webmention in mentions %}
-    <li id="webmention-{{ webmention['wm-id'] }}" class="webmentions__item h-cite
-        {% if webmention.author == undefined or webmention.author == '' %}webmention--no-author{% endif %}
-        {% if webmention.author.photo == undefined or webmention.author.photo == '' %}webmention--no-photo{% endif %}
+    <li id="webmention-{{ webmention['wm-id'] }}" class="reactions__item h-cite
+        {% if webmention.author == undefined or webmention.author == '' %}reaction--no-author{% endif %}
+        {% if webmention.author.photo == undefined or webmention.author.photo == '' %}reaction--no-photo{% endif %}
         ">
       {% if webmention.author.url != "" %}
         <a class="u-url p-author h-card" href="{{ webmention.author.url }}">
           {% if webmention.author.photo != "" %}
             <img
-              class="webmention__author__photo u-photo"
+              class="reaction__author__photo u-photo"
               {% if lazy == false %}
                 src="{{ cloudinaryPrefix }}w_48,h_48/{{ webmention.author.photo }}"
                 srcset="{{ cloudinaryPrefix }}w_48,h_48/{{ webmention.author.photo }} 1x, {{ cloudinaryPrefix }}w_96,h_96/{{ webmention.author.photo }} 2x"

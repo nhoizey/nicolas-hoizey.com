@@ -2,39 +2,38 @@
 {% set commentsSize = comments | size %}
 
 {% if commentsSize > 0 %}
-<aside>
   <h2 id="comments">{{ commentsSize }} comment{% if commentsSize > 1 %}s{% endif %}</h2>
-  <ul class="comments__list">
+  <ol class="reactions__list reactions--comments">
     {% for comment in comments %}
       {% set avatar %}{{ pkg.homepage }}/assets/avatars/{{ comment.author.image }}{% endset %}
-      <li id="{{ comment.id }}" class="comments__item{% if comment.author.name == 'Nicolas Hoizey' %} me{% endif %}">
-        <article>
-          <div class="comment__author p-author h-card">
-            <a href="{{ comment.author.url }}" class="u-url">
-              <img
-                src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_48,h_48/{{ avatar }}"
-                srcset="
-                  https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_48,h_48/{{ avatar }} 1x,
-                  https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_96,h_96/{{ avatar }} 2x"
-                alt="{{ comment.author.name }} avatar"
-                class="comment__author__photo u-photo" />
-              <b class="p-name">{{ comment.author.name }}</b>
+      <li id="{{ comment.id }}" class="reactions__item h-cite
+          {% if comment.author.name == 'Nicolas Hoizey' %} me{% endif %}">
+        <a class="u-url p-author h-card" href="{{ comment.author.url }}">
+          <img
+            class="reaction__author__photo u-photo"
+            src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_48,h_48/{{ avatar }}"
+            srcset="
+              https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_48,h_48/{{ avatar }} 1x,
+              https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_96,h_96/{{ avatar }} 2x"
+            width= "48"
+            height="48"
+            alt="{{ comment.author.name }} avatar"
+            loading="lazy"
+            crossorigin="anonymous" />
+          <b class="p-name">{{ comment.author.name }}</b>
+        </a>
+        <div class="p-content">
+          {{ comment.content | safe }}
+        </div>
+        <ul class="meta">
+          <li class="meta__item meta__date">
+            {% icon "date", "Date" %}
+            <a href="#{{ comment.id }}">
+              <time class="dt-published" datetime="{{ comment.date | attributeDate }}">{{ comment.date | formattedDate }}</time>
             </a>
-          </div>
-          <div class="comment__content p-content">
-            {{ comment.content | safe }}
-          </div>
-          <ul class="meta">
-            <li class="meta__item meta__date">
-              {% icon "date", "Date" %}
-              <a href="#{{ comment.id }}">
-                <time class="dt-published" datetime="{{ comment.date | attributeDate }}">{{ comment.date | formattedDate }}</time>
-              </a>
-            <li>
-          </ul>
-        </article>
+          <li>
+        </ul>
       </li>
     {% endfor %}
-  </ul>
-</aside>
+  </ol>
 {% endif %}

@@ -38,18 +38,18 @@
     {% set comments = item.url | getCommentsForUrl %}
     {% set commentsSize = comments | size %}
     {% if commentsSize > 0 %}
-      <li class="comments meta__item card__commentscount">
+      <li class="comments meta__item meta__count">
         {% icon "comments", "Comments" %}
-        <a href="{{ item.url }}#webmentions" aria-label="{{ commentsSize }} comment{% if commentsSize > 1 %}s{% endif %} for &quot;{{ title }}&quot;">{{ commentsSize }} comment{% if commentsSize > 1 %}s{% endif %}
+        <a href="{{ item.url }}#comments">{{ commentsSize }} comment{% if commentsSize > 1 %}s{% endif %}
         </a>
       </li>
     {% endif %}
     {% set mentions = item.url | getWebmentionsForUrl %}
     {% set mentionsSize = mentions | size %}
     {% if mentionsSize > 0 %}
-      <li class="webmentions meta__item meta__webmentionscount">
+      <li class="webmentions meta__item meta__count">
         {% icon "comments", "Webmentions" %}
-        <a href="{{ item.url }}#webmentions" aria-label="{{ mentionsSize }} webmention{% if mentionsSize > 1 %}s{% endif %} for &quot;{{ title }}&quot;">{{ mentionsSize }} webmention{% if mentionsSize > 1 %}s{% endif %}
+        <a href="{{ item.url }}#webmentions">{{ mentionsSize }} webmention{% if mentionsSize > 1 %}s{% endif %}
         </a>
       </li>
     {% endif %}
