@@ -1,4 +1,4 @@
-@import '../functions';
+@import '../global/functions';
 
 blockquote:not(.tweet-card) {
   @extend .flow;
