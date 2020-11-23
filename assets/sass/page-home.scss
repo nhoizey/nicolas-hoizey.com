@@ -1,4 +1,4 @@
-@import 'global/utilities';
+@use 'global/utilities';
 
 .welcome {
   @extend %clearfix;

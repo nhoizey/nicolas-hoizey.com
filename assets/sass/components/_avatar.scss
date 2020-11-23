@@ -1,3 +1,5 @@
+@use '../global/colors';
+
 .avatar {
   width: 1.3em;
   height: auto;
@@ -5,5 +7,5 @@
   vertical-align: text-bottom;
   border-width: 1px;
   border-style: solid;
-  border-color: $color-grey;
+  border-color: colors.$color-grey;
 }

@@ -1,3 +1,5 @@
+@use '../global/colors';
+
 .meta {
   padding: 0;
   color: var(--color-meta);
@@ -36,7 +38,7 @@
     stroke-linejoin: round;
 
     &.twitter {
-      stroke: $color-twitter;
+      stroke: colors.$color-twitter;
     }
   }
 }

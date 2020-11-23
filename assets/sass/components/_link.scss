@@ -1,3 +1,5 @@
+@use '../global/colors';
+
 .page .link__url {
   margin-top: var(--gap2);
   margin-bottom: var(--gap2);
@@ -5,5 +7,5 @@
 }
 
 .author__twitter {
-  color: $color-darkgrey;
+  color: colors.$color-darkgrey;
 }

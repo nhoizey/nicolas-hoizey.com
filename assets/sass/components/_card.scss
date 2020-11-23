@@ -1,3 +1,6 @@
+@use '../global/colors';
+@use '../global/utilities';
+
 // ************************************************************
 // Card lists
 // ************************************************************
@@ -44,7 +47,7 @@ img.card__illustration {
 
 .card__surtitle {
   margin-top: 0;
-  color: $color-darkgrey;
+  color: colors.$color-darkgrey;
 }
 
 .card__title {

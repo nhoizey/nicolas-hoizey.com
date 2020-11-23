@@ -1,3 +1,6 @@
+@use '../global/colors';
+@use '../global/utilities';
+
 .page {
   @extend %clearfix;
   @extend %flow;
@@ -9,7 +12,7 @@
 }
 
 .page__surtitle {
-  color: $color-darkgrey;
+  color: colors.$color-darkgrey;
   font-size: var(--font-size-m);
 
   & + .page__title {
@@ -18,7 +21,7 @@
 
   svg {
     fill: none;
-    stroke: $color-twitter;
+    stroke: colors.$color-twitter;
     stroke-width: 2px;
     stroke-linecap: round;
     stroke-linejoin: round;

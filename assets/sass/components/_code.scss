@@ -1,3 +1,5 @@
+@use '../global/colors';
+
 pre {
   margin-left: -0.5em;
   margin-right: -0.5em;
@@ -20,8 +22,8 @@ code {
     display: block;
     overflow-x: auto;
     padding: 0.3em 0.5em;
-    background-color: $inline-code-background-color;
-    color: $inline-code-text-color;
+    background-color: colors.$inline-code-background-color;
+    color: colors.$inline-code-text-color;
   }
 }
 

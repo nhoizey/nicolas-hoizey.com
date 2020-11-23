@@ -1,3 +1,5 @@
+@use '../global/colors';
+
 /* card */
 .tweet-card {
   background: white;
@@ -5,7 +7,7 @@
   margin-right: auto;
   padding: 1em;
   background-color: #fff;
-  border: 2px solid $color-grey;
+  border: 2px solid colors.$color-grey;
   border-radius: 0.5em;
   font-size: 1em;
   line-height: 1.4;
@@ -16,12 +18,12 @@
 
   &:hover,
   &:focus {
-    border-color: $color-twitter;
+    border-color: colors.$color-twitter;
   }
 
   a:link,
   a:visited {
-    color: $color-twitter;
+    color: colors.$color-twitter;
     background-color: transparent;
     text-decoration: none;
   }
@@ -29,7 +31,7 @@
   a:hover,
   a:focus,
   a:active {
-    color: $color-twitter;
+    color: colors.$color-twitter;
     background-color: transparent;
     text-decoration: underline;
   }
@@ -67,20 +69,20 @@
     }
     &:hover,
     &:focus {
-      color: $color-twitter;
+      color: colors.$color-twitter;
     }
   }
 
   a.tweet-author-handle {
     &:link,
     &:visited {
-      color: $color-darkgrey;
+      color: colors.$color-darkgrey;
       font-size: var(--font-size-s);
       line-height: 1;
     }
     &:hover,
     &:focus {
-      color: $color-twitter;
+      color: colors.$color-twitter;
     }
   }
 
@@ -94,7 +96,7 @@
   max-width: 100%;
   height: auto;
   margin-bottom: 0.5em;
-  border: 1px solid $color-lightgrey;
+  border: 1px solid colors.$color-lightgrey;
 }
 
 /* footer */
@@ -104,12 +106,12 @@
 }
 
 .tweet-card .tweet-footer a {
-  color: $color-darkgrey;
+  color: colors.$color-darkgrey;
   font-size: var(--font-size-s);
 }
 
 .tweet-footer .tweet-date:hover {
-  color: $color-twitter;
+  color: colors.$color-twitter;
 }
 
 .tweet-footer .tweet-like {
@@ -120,7 +122,7 @@
 }
 
 .tweet-footer .tweet-like:hover {
-  color: $color-red;
+  color: colors.$color-red;
 }
 
 .tweet-footer .tweet-like-count {

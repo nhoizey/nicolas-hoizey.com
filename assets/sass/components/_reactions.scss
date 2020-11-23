@@ -1,3 +1,5 @@
+@use '../global/utilities';
+
 #webmentions {
   @extend %flow;
 }
