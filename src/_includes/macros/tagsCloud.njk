@@ -5,41 +5,14 @@
 {% set minWeight = 300 %}
 {% set maxWeight = 900 %}
 
-<style>
-.tagscloud__tags {
-  list-style: none;
-  padding: 0;
-  text-align: center;
-}
-
-@media (min-width: 50em) {
-  .tagscloud__tags {
-    text-align: justify;
-  }
-}
-
-.tagscloud__tags li {
-  display: inline-block;
-  margin: 0;
-}
-
-.tagscloud__tags a:link, .tagscloud__tags a:visited {
-  display: inline-block;
-  margin: 0.2em 0.3em;
-  padding: 0.1em 0.3em;
-
-  text-decoration: none;
-  white-space: nowrap;
-
-  background-color: #8e64b3;
-  color: #fff;
-  border-radius: 0.2em;
-
-  transition-property: background-color;
-  transition-timing-function: ease-in-out;
-  transition-duration: 0.5s;
-}
-</style>
+{% if build.env == 'production' %}
+  {% set css %}
+  {% include_raw config.dir.dist + "/css/" + hashes_css['tagscloud.css'] %}
+  {% endset %}
+  <style>{{css | safe}}</style>
+{% else %}
+  <link rel="stylesheet" href="/css/tagscloud.css" />
+{% endif %}
 
 <ol class="tagscloud__tags">
 {% for tag in tags %}
@@ -50,6 +23,7 @@
     <a href="{{ tagUrl }}"
       class="tag{{ tag.step }}"
       aria-label="{{ tag.number }} content{% if tag.number > 1 %}s{% endif %} with tag {{ tag.tag }}"
+      data-number="{{ tag.number }}"
       style="
         font-size: {{ fontSize | round(2) }}em;
         font-weight: {{ fontWeight | round(0) }}"

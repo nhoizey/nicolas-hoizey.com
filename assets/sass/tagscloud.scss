@@ -1,0 +1,70 @@
+.tagscloud__tags {
+  list-style-type: none;
+  padding: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+
+  a {
+    &:link,
+    &:visited {
+      display: inline-block;
+      margin: 0.2em 0.3em;
+      padding: 0.1em 0.3em;
+
+      text-decoration: none;
+      white-space: nowrap;
+
+      background-color: var(--color-primary-lighter-2);
+      color: white;
+      border-radius: 0.5em;
+    }
+  }
+
+  a {
+    &.tag2 {
+      &:link,
+      &:visited {
+        background-color: var(--color-primary-lighter-1);
+      }
+    }
+
+    &.tag3 {
+      &:link,
+      &:visited {
+        background-color: var(--color-primary);
+      }
+    }
+
+    &.tag4 {
+      &:link,
+      &:visited {
+        background-color: var(--color-primary-darker-1);
+      }
+    }
+
+    &.tag5 {
+      &:link,
+      &:visited {
+        background-color: var(--color-primary-darker-2);
+      }
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: var(--color-secondary);
+      outline: none;
+      text-decoration: underline;
+
+      &.tag2,
+      &.tag3,
+      &.tag4,
+      &.tag5 {
+        background-color: var(--color-secondary);
+      }
+    }
+  }
+}
