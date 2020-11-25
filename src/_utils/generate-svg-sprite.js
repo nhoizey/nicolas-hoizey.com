@@ -8,6 +8,7 @@ const ICONS_FOLDER = 'node_modules/feather-icons/dist/icons/';
 // Which icons do I need for the sprite?
 // icon filename + title for accessibility
 const ICONS_LIST = {
+  anchor: { title: 'Anchor' },
   calendar: { name: 'date', title: 'Date' },
   info: { title: 'Info' },
   link: { title: 'Link' },

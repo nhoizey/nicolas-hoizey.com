@@ -175,6 +175,16 @@ a.deeplink {
     border-radius: 0.4em;
     color: #767676;
     text-decoration: none;
+
+    svg {
+      vertical-align: baseline;
+      font-size: 0.7em;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2px;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
   }
 
   &:hover,
@@ -189,6 +199,10 @@ a.deeplink {
   }
 }
 
+:target {
+  scroll-margin-top: 5rem;
+}
+
 // Links to content in another language
 // https://tzi.fr/css/link-hreflang/
 :lang(fr) > :link[hreflang]:not([hreflang='fr'])::after,
@@ -196,10 +210,6 @@ a.deeplink {
   content: ' (' attr(hreflang) ')';
   font-size: 70%;
   vertical-align: super;
-}
-
-:target {
-  scroll-margin-top: 4rem;
 }
 
 // ************************************************************
