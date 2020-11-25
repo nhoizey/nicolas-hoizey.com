@@ -194,12 +194,12 @@ module.exports = function (eleventyConfig) {
     ));
     eleventyConfig.addPlugin(imagesResponsiver, imagesResponsiverConfig);
 
-    const htmlMinTransform = require(path.join(
-      __dirname,
-      config.dir.src,
-      '_transforms/html-min-transform.js'
-    ));
-    eleventyConfig.addTransform('htmlmin', htmlMinTransform);
+    // const htmlMinTransform = require(path.join(
+    //   __dirname,
+    //   config.dir.src,
+    //   '_transforms/html-min-transform.js'
+    // ));
+    // eleventyConfig.addTransform('htmlmin', htmlMinTransform);
   }
 
   // ------------------------------------------------------------------------
