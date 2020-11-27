@@ -16,37 +16,7 @@
     {{ criticalJs | replace('//# sourceMappingURL=', '//# sourceMappingURL=/js/') | safe }}
   </script>
 
-  {# Google Analytics #}
-  {% if build.env === "production" %}
-    <script>
-      window.ga = function () {
-        ga
-          .q
-          .push(arguments)
-      };
-      ga.q = [];
-      ga.l = + new Date;
-      ga('create', 'UA-1655999-10', 'auto');
-      ga('set', 'transport', 'beacon');
-      ga('set', 'anonymizeIp', true);
-      if (window.viewport_width > 0) {
-        ga('set', {
-          dimension1: window.screen_density,
-          dimension2: window.viewport_width,
-          dimension3: window.root_font_size
-        });
-      } else {
-        ga('set', {
-          dimension1: window.screen_density,
-          dimension2: 0,
-          dimension3: window.root_font_size
-        });
-      }
-      ga('set', 'dimension4', 'online');
-      ga('send', 'pageview');
-    </script>
-    <script src="https://www.google-analytics.com/analytics.js" defer></script>
-  {% endif %}
+  {% include 'components/google-analytics.njk' %}
 
   {# opengraph and Twitter #}
   <meta property="og:site_name" content="Nicolas Hoizey" />
