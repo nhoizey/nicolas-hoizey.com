@@ -6,6 +6,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 
+  {{ head.title | safe }}
+
   {% set cssFilename = "critical.css" %}
   {% include "add-css.njk" %}
 
@@ -43,13 +45,11 @@
   {% if page.url == "/" %}
     {% set ogTitle = pkg.title %}
     {% set ogDescription = pkg.description %}
-    <title itemprop="name">{{ ogTitle }}</title>
   {% elif layout == "note" %}
     {% set ogTitle = pageExcerpt | striptags | truncate(60) | escape | titleSafe %}
     {% set ogDescription %}Note from {{ note.date | formattedDate }}{% endset %}
     {% set ogImageTitle = ogDescription %}
     {% set ogType = "article" %}
-    <title>{{ ogTitle }} - {{ pkg.author.name }}</title>
   {% else %}
     {% set ogTitle = title %}
     {% if layout == "article" or layout == "link" or layout == "talk" %}
@@ -61,7 +61,6 @@
     {% elif page.inputPath == "./src/tag-page.njk" %}
       {% set ogDescription = ogTitle %}
     {% endif %}
-    <title>{{ ogTitle }} - {{ pkg.author.name }}</title>
   {% endif %}
   {% if ogImageTitle == '' %}
     {% set ogImageTitle = ogTitle %}
