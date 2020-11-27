@@ -92,6 +92,28 @@ function title(data) {
   }
 }
 
+// TODO: remove 'excerpt' filter when this works
+function lead(data) {
+  // if (data.layout === 'note') {
+  //   console.dir(data);
+  // }
+  if (data.content === undefined) {
+    return '';
+  }
+  const regex = /(<p( [^>]*)?>((?!(<\/p>)).|\n)+<\/p>)/m;
+  let lead = '';
+
+  // Remove paragraphs containing only an image
+  let cleanContent = data.content.replace(/<p><img [^>]+><\/p>/, '');
+
+  // Get first paragraph, if there's at least one, and remove the paragraph tag
+  if ((matches = regex.exec(cleanContent)) !== null) {
+    lead = matches[0].replace(/<p( [^>]*)?>(((?!(<\/p>)).|\n)+)<\/p>/, '$2');
+  }
+
+  return lead;
+}
+
 
 function tags(data) {
   let tags = [];
@@ -200,5 +222,6 @@ module.exports = {
       tagline: (data) => ogImageTagline(data),
     },
   },
+  lead: (data) => lead(data),
   tags: (data) => tags(data),
 };
