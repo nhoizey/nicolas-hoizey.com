@@ -114,6 +114,17 @@ function lead(data) {
   return lead;
 }
 
+// TODO: refactor with the one in filters
+function tagToHashtag(tag) {
+  let words = tag.replace(/[-\.]/, ' ').split(' ');
+  return (
+    words[0] +
+    words
+      .slice(1)
+      .map((word) => word.charAt(0).toUpperCase() + word.substr(1))
+      .join('')
+  );
+}
 
 function tags(data) {
   let tags = [];
