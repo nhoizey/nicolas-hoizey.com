@@ -178,7 +178,6 @@ function ogImageTagline(data) {
   return '';
 }
 
-// TODO: is it useful?
 module.exports = {
   lang: (data) => data.lang || 'en',
 
