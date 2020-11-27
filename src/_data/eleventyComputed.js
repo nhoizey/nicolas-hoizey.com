@@ -100,6 +100,12 @@ function tags(data) {
   return tags;
 }
 
+function ogTags(data) {
+  return tags(data)
+    .map((tag) => '#' + tagToHashtag(tag))
+    .join('%20%20');
+}
+
 function headTitle(data) {
   if (data.page.url === '/') {
     return `<title itemprop="name">${data.pkg.title}</title>`;
@@ -112,6 +118,57 @@ function headTitle(data) {
   return `<title>${title(data)} - ${data.pkg.author.name}</title>`;
 }
 
+function ogType(data) {
+  switch (data.layout) {
+    case 'article':
+    case 'link':
+    case 'note':
+    case 'talk':
+      return 'article';
+  }
+  return 'website';
+}
+
+function ogTitle(data) {
+  if (data.page.url === '/') {
+    return data.pkg.title;
+  }
+  return removeEmojis(title(data));
+}
+
+function ogDescription(data) {
+  return lead(data).slice(0, 50);
+}
+
+function ogImageTitle(data) {
+  if (data.page.url === '/') {
+    return data.pkg.title;
+  }
+  switch (data.layout) {
+    case 'article':
+    case 'link':
+    case 'talk':
+    case 'note':
+      return removeEmojis(title(data));
+    // case 'note':
+    //   return lead(data);
+  }
+  return '';
+}
+
+function ogImageTagline(data) {
+  if (data.page.url === '/') {
+    return '';
+  }
+  switch (data.layout) {
+    case 'article':
+    case 'link':
+    case 'note':
+    case 'talk':
+      return ogTags(data);
+  }
+  return '';
+}
 
 // TODO: is it useful?
 module.exports = {
@@ -125,6 +182,15 @@ module.exports = {
   },
   head: {
     title: (data) => headTitle(data),
+  },
+  opengraph: {
+    type: (data) => ogType(data),
+    title: (data) => ogTitle(data),
+    description: (data) => ogDescription(data),
+    image: {
+      title: (data) => ogImageTitle(data),
+      tagline: (data) => ogImageTagline(data),
+    },
   },
   tags: (data) => tags(data),
 };
