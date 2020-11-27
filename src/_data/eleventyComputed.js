@@ -1,3 +1,5 @@
+const twitter = require('twitter-text');
+
 const dtf = {
   en: new Intl.DateTimeFormat('en-GB', {
     year: 'numeric',
@@ -36,6 +38,33 @@ function textAuthors(data) {
     });
   }
   return text;
+}
+
+function htmlAuthors(data) {
+  let html = '';
+  if (data.layout === 'link' && data.authors && data.authors.length > 0) {
+    let i = 0;
+    const nb = data.authors.length;
+    data.authors.forEach((author) => {
+      html += '<span class="p-author h-card">';
+      if (author.twitter) {
+        html += `<img class="u-photo avatar" src="https://res.cloudinary.com/nho/image/twitter_name/${author.twitter}" alt="${author.name} avatar" loading="lazy" width="48" height="48" /> `;
+      }
+      html += `<b class="p-name">${author.name}</b>`;
+      if (author.twitter) {
+        html += ` <span class="author__twitter">(<svg><use xlink:href="#symbol-twitter" /></svg> @<a href="https://twitter.com/${author.twitter}">${author.twitter}</a>)</span>`;
+      }
+      html += '</span>';
+      i++;
+      if (i < nb - 1) {
+        html += ', ';
+      }
+      if (i === nb - 1) {
+        html += ' and ';
+      }
+    });
+  }
+  return html;
 }
 
 function title(data) {
@@ -90,6 +119,10 @@ module.exports = {
   formattedDate: (data) => dtf[data.lang || 'en'].format(data.page.date),
   attributeDate: (data) => attributeDate(data.page.date),
   permalinkDate: (data) => permalinkDate(data.page.date),
+  authors: {
+    text: (data) => textAuthors(data),
+    html: (data) => htmlAuthors(data),
+  },
   head: {
     title: (data) => headTitle(data),
   },
