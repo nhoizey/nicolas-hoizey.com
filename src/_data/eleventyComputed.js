@@ -19,8 +19,18 @@ const dtfDigits = new Intl.DateTimeFormat('en-GB', {
   day: '2-digit',
 });
 
-const attributeDate = (date) =>
-  dtfDigits.format(date).split('/').reverse().join('-');
+function attributeDate(date) {
+  return dtfDigits.format(date).split('/').reverse().join('-');
+}
+
+function permalinkDate(date) {
+  return dtfDigits.format(date).split('/').reverse().join('/');
+}
+
+function formattedDate(lang, date) {
+  return dtf[lang || 'en'].format(date);
+}
+
 function textAuthors(data) {
   let text = '';
   if (data.layout === 'link' && data.authors && data.authors.length > 0) {
@@ -83,8 +93,6 @@ function title(data) {
 }
 
 
-const permalinkDate = (date) =>
-  dtfDigits.format(date).split('/').reverse().join('/');
 function tags(data) {
   let tags = [];
   if (data.layout === 'note') {
@@ -173,7 +181,8 @@ function ogImageTagline(data) {
 // TODO: is it useful?
 module.exports = {
   lang: (data) => data.lang || 'en',
-  formattedDate: (data) => dtf[data.lang || 'en'].format(data.page.date),
+
+  formattedDate: (data) => formattedDate(data.lang, data.page.date),
   attributeDate: (data) => attributeDate(data.page.date),
   permalinkDate: (data) => permalinkDate(data.page.date),
   authors: {
