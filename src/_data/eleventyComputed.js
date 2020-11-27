@@ -22,6 +22,21 @@ const attributeDate = (date) =>
 
 const permalinkDate = (date) =>
   dtfDigits.format(date).split('/').reverse().join('/');
+function tags(data) {
+  let tags = [];
+  if (data.layout === 'note') {
+    tags = twitter.extractHashtags(twitter.htmlEscape(data.content));
+  }
+  if (data.tags !== undefined) {
+    // merge and deduplicate
+    tags = [...new Set([].concat(...tags, ...data.tags))];
+  }
+  tags.sort((a, b) => {
+    return a.localeCompare(b, 'en', { ignorePunctuation: true });
+  });
+  return tags;
+}
+
 
 // TODO: is it useful?
 module.exports = {
@@ -29,4 +44,5 @@ module.exports = {
   formattedDate: (data) => dtf[data.lang || 'en'].format(data.page.date),
   attributeDate: (data) => attributeDate(data.page.date),
   permalinkDate: (data) => permalinkDate(data.page.date),
+  tags: (data) => tags(data),
 };
