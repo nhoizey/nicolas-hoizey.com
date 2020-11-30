@@ -30,37 +30,17 @@ precacheAndRoute(self.__WB_MANIFEST, {
 
 cleanupOutdatedCaches();
 
-// Never cache BrowserSync requests
-registerRoute(
-  ({ request }) => request.url.match('/browser-sync/'),
-  new NetworkOnly()
-);
-
 // Never cache ranged requests (videos)
 registerRoute(({ request }) => request.headers.has('range'), new NetworkOnly());
 
-// Google Analytics
-registerRoute(
-  ({ request }) =>
-    request.url === 'https://www.google-analytics.com/analytics.js',
-  new CacheFirst({
-    cacheName: 'shell',
-    plugins: [
-      new ExpirationPlugin({
-        maxAgeSeconds: 10 * 24 * 60 * 60, // 10 Days
-      }),
-    ],
-  })
-);
-
 // Pages
-// Try to get fresh HTML from network, but don't wait for more than 2 seconds
+// Try to get fresh HTML from network, but don't wait for more than a few seconds
 registerRoute(
   ({ request }) => request.destination === 'document',
   new NetworkFirst({
     cacheName: 'pages',
-    networkTimeoutSeconds: 2,
-    plugins: [new BroadcastUpdatePlugin()],
+    networkTimeoutSeconds: 3,
+    // plugins: [new BroadcastUpdatePlugin()],
   })
 );
 
@@ -115,9 +95,9 @@ googleAnalytics.initialize({
   },
 });
 
-self.addEventListener('message', (event) => {
-  console.log(`[SW] Receiving a message: ${event.data.type}`);
-});
+// self.addEventListener('message', (event) => {
+//   console.log(`[SW] Receiving a message: ${event.data.type}`);
+// });
 
 skipWaiting();
 clientsClaim();
