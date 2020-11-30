@@ -30,9 +30,9 @@ if (process.env.NODE_ENV === 'production') {
     navigator.serviceWorker.addEventListener('message', async (event) => {
       // Optional: ensure the message came from workbox-broadcast-update
       if (event.data.meta === 'workbox-broadcast-update') {
-        const { cacheName, updatedUrl } = event.data.payload;
+        const { cacheName, updatedURL } = event.data.payload;
         console.groupCollapsed(
-          `[Page] Updated content in "${cacheName}": ${updatedUrl}`
+          `[Page] Updated content in "${cacheName}": ${updatedURL}`
         );
         const cache = await caches.open(cacheName);
         const updatedResponse = await cache.match(updatedUrl);
