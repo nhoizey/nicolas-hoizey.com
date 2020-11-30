@@ -242,5 +242,5 @@ module.exports = {
     },
   },
   lead: (data) => lead(data),
-  tags: (data) => tags(data),
+  // tags: (data) => tags(data),
 };
