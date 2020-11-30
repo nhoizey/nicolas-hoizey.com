@@ -1,0 +1,12 @@
+---
+pagination:
+  data: collections.notes
+  size: 1
+  alias: note
+layout: lazy
+permalink: "/lazy/{{ note.filePathStem | dirname }}/index.html"
+---
+
+{% set articleUrl = note.url %}
+{% set lazy = false %}
+{% include "components/webmentions.njk" %}
