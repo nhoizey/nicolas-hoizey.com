@@ -61,6 +61,10 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
     lang="{{ lang }}">
   <h1 id="post" class="page__title p-name">Note from {{ page.date | formattedDate }}</h1>
 
+  {# {% if page.inputPath == './src/notes/2020/11/18/3/index.md' %}
+    {{ tags | log }}
+  {% endif %} #}
+
   {% set item = {
     data: {
       layout: 'note',
