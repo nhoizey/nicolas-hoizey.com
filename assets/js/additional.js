@@ -27,22 +27,22 @@ if (process.env.NODE_ENV === 'production') {
       navigator.serviceWorker.register('/service-worker.js');
     });
 
-    navigator.serviceWorker.addEventListener('message', async (event) => {
-      // Optional: ensure the message came from workbox-broadcast-update
-      if (event.data.meta === 'workbox-broadcast-update') {
-        const { cacheName, updatedURL } = event.data.payload;
-        console.groupCollapsed(
-          `[Page] Updated content in "${cacheName}": ${updatedURL}`
-        );
-        const cache = await caches.open(cacheName);
-        const updatedResponse = await cache.match(updatedUrl);
-        if (updatedResponse) {
-          const updatedText = await updatedResponse.text();
-          console.log(updatedText);
-        }
-        console.groupEnd();
-      }
-    });
+    // navigator.serviceWorker.addEventListener('message', async (event) => {
+    //   // Optional: ensure the message came from workbox-broadcast-update
+    //   if (event.data.meta === 'workbox-broadcast-update') {
+    //     const { cacheName, updatedURL } = event.data.payload;
+    //     console.groupCollapsed(
+    //       `[Page] Updated content in "${cacheName}": ${updatedURL}`
+    //     );
+    //     const cache = await caches.open(cacheName);
+    //     const updatedResponse = await cache.match(updatedURL);
+    //     if (updatedResponse) {
+    //       const updatedText = await updatedResponse.text();
+    //       console.log(updatedText);
+    //     }
+    //     console.groupEnd();
+    //   }
+    // });
   }
 }
 
