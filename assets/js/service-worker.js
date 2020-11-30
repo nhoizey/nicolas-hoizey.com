@@ -30,12 +30,6 @@ precacheAndRoute(self.__WB_MANIFEST, {
 
 cleanupOutdatedCaches();
 
-// Never cache BrowserSync requests
-registerRoute(
-  ({ request }) => request.url.match('/browser-sync/'),
-  new NetworkOnly()
-);
-
 // Never cache ranged requests (videos)
 registerRoute(({ request }) => request.headers.has('range'), new NetworkOnly());
 
