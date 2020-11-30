@@ -5,6 +5,12 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+
+  @media (min-width: 87rem) {
+    position: fixed;
+    width: 90vw;
+    left: 5vw;
+  }
 }
 
 .prevnext__prev {
