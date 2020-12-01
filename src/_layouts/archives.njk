@@ -176,12 +176,7 @@ title: Archives
   </div>
 
   {% if build.env == 'production' %}
-    {% set criticalJs %}
-    {% include_raw config.dir.dist + "/js/" + hashes_archives[config.dir.assets + '/js/archives.js'] %}
-    {% endset %}
-    <script>
-      {{ criticalJs | replace('//# sourceMappingURL=', '//# sourceMappingURL=/js/') | safe }}
-    </script>
+    <script src="/js/{{ hashes_archives[config.dir.assets + '/js/archives.js'] }}"></script>
   {% else %}
     <script src="/js/archives-iife.js"></script>
   {% endif %}
