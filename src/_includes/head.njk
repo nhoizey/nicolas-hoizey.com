@@ -11,12 +11,16 @@
   {% set cssFilename = "critical.css" %}
   {% include "add-css.njk" %}
 
-  {% set criticalJs %}
-  {% include_raw config.dir.dist + "/js/" + hashes_critical[config.dir.assets + '/js/critical.js'] %}
-  {% endset %}
-  <script>
-    {{ criticalJs | replace('//# sourceMappingURL=', '//# sourceMappingURL=/js/') | safe }}
-  </script>
+  {% if build.env == 'production' %}
+    {% set criticalJs %}
+    {% include_raw config.dir.dist + "/js/" + hashes_critical[config.dir.assets + '/js/critical.js'] %}
+    {% endset %}
+    <script>
+      {{ criticalJs | replace('//# sourceMappingURL=', '//# sourceMappingURL=/js/') | safe }}
+    </script>
+  {% else %}
+    <script src="/js/critical-iife.js"></script>
+  {% endif %}
 
   {% include 'components/google-analytics.njk' %}
 
