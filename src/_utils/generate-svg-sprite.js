@@ -28,7 +28,6 @@ const ICONS_LIST = {
     flickr: { title: 'Flickr' },
     github: { title: 'GitHub' },
     mastodon: { title: 'Mastodon' },
-    rss: { name: 'feeds', title: 'Feeds' },
   },
 };
 
