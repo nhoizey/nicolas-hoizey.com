@@ -11,7 +11,6 @@ import {
 } from 'workbox-routing';
 import { CacheableResponsePlugin } from 'workbox-cacheable-response';
 import {
-  CacheFirst,
   StaleWhileRevalidate,
   NetworkFirst,
   NetworkOnly,
@@ -29,6 +28,17 @@ precacheAndRoute(self.__WB_MANIFEST, {
 });
 
 cleanupOutdatedCaches();
+
+// https://github.com/GoogleChrome/workbox/issues/2375#issuecomment-591069909
+googleAnalytics.initialize({
+  hitFilter: (params) => {
+    const queueTimeInSeconds = Math.round(params.get('qt') / 1000);
+    params.set('cm1', queueTimeInSeconds);
+  },
+  parameterOverrides: {
+    cd4: 'offline',
+  },
+});
 
 // Never cache ranged requests (videos)
 registerRoute(({ request }) => request.headers.has('range'), new NetworkOnly());
@@ -84,16 +94,6 @@ setDefaultHandler(
     plugins: [new BroadcastUpdatePlugin()],
   })
 );
-
-googleAnalytics.initialize({
-  hitFilter: (params) => {
-    const queueTimeInSeconds = Math.round(params.get('qt') / 1000);
-    params.set('cm1', queueTimeInSeconds);
-  },
-  parameterOverrides: {
-    cd4: 'offline',
-  },
-});
 
 // self.addEventListener('message', (event) => {
 //   console.log(`[SW] Receiving a message: ${event.data.type}`);
