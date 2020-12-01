@@ -18,7 +18,6 @@ const ICONS_LIST = {
     link: { title: 'Link' },
     'map-pin': { name: 'location', title: 'Location' },
     'message-circle': { name: 'comments', title: 'Webmention' },
-    rss: { name: 'feeds', title: 'Feeds' },
     search: { title: 'Search' },
     tag: { name: 'tags', title: 'Tag' },
     twitter: { title: 'Twitter' },
@@ -29,6 +28,7 @@ const ICONS_LIST = {
     flickr: { title: 'Flickr' },
     github: { title: 'GitHub' },
     mastodon: { title: 'Mastodon' },
+    rss: { name: 'feeds', title: 'Feeds' },
   },
 };
 

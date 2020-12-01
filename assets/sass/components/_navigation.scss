@@ -68,16 +68,6 @@
   }
 
   .tools {
-    a:link,
-    a:visited {
-      color: var(--color-primary);
-    }
-
-    a:hover,
-    a:focus {
-      color: white;
-    }
-
     svg {
       fill: transparent;
       stroke: currentColor;

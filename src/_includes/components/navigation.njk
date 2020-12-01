@@ -10,7 +10,6 @@
         'links',
         'notes',
         'talks',
-        'archives',
         'tags',
         'about'
       ] %}
@@ -21,8 +20,9 @@
       {% endfor %}
     </ul>
     <ul class="tools" role="list">
-      <li class="tools__feeds"><a href="/feeds/">{% icon "feeds", "Feeds" %}</a></li>
-      <li class="tools__search"><a href="/archives/">{% icon "search", "Search" %}</a></li>
+      <li class="tools__search navigation_archives{% if 'archives' in page.url %} current" aria-current="page{% endif %}">
+        <a href="/archives/">{% icon "search", "Search" %} archives</a>
+      </li>
     </ul>
   </div>
 </nav>
