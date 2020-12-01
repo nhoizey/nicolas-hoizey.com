@@ -2,6 +2,7 @@
 
 .welcome {
   @extend %clearfix;
+  @extend %flow;
 
   margin-top: 3vw;
   margin-bottom: 3vw;
@@ -9,8 +10,13 @@
 
 .welcome__name {
   font-size: var(--font-size-xxxl);
+  color: var(--color-primary);
 
   @media (min-width: 20em) {
     margin-top: 0;
   }
+}
+
+.welcome__text {
+  font-size: var(--font-size-xxl);
 }
