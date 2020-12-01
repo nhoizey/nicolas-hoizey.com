@@ -470,3 +470,17 @@ a[href$='.kml'] {
 .hidden {
   display: none;
 }
+
+.quickaccess {
+  &:link,
+  &:visited {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding-left: 0.5em;
+    background-color: white;
+    color: var(--color-primary);
+  }
+}
