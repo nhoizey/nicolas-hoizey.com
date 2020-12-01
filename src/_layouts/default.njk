@@ -12,8 +12,7 @@
     <a class="visually-hidden" href="#main">Jump to main content</a>
 
     <header id="header" role="banner">
-      <div
-        class="wrap">
+      <div class="wrap">
         {% if page.url == "/" %}
           <h1 class="site_title h-card" rel="me">Nicolas Hoizey</h1>
         {% else %}
@@ -21,6 +20,12 @@
             <a class="h-card" href="/" rel="me" title="Homepage">Nicolas Hoizey</a>
           </p>
         {% endif %}
+        <ul class="elsewhere">
+          <li><a href="https://twitter.com/nhoizey">{% icon "twitter", "Link to my Twitter profile" %}</a></li>
+          <li><a href="https://mamot.fr/@nhoizey">{% icon "mastodon", "Link to my Mastodon profile" %}</a></li>
+          <li><a href="https://www.flickr.com/photos/nicolas-hoizey">{% icon "flickr", "Link to my Flickr profile" %}</a></li>
+          <li><a href="https://github.com/nhoizey">{% icon "github", "Link to my GitHub profile" %}</a></li>
+        </ul>
       </div>
     </header>
 

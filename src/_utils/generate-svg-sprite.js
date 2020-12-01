@@ -26,6 +26,8 @@ const ICONS_LIST = {
     'wifi-off': { name: 'offline', title: 'Offline' },
   },
   simple: {
+    flickr: { title: 'Flickr' },
+    github: { title: 'GitHub' },
     mastodon: { title: 'Mastodon' },
   },
 };
