@@ -6,6 +6,7 @@ const path = require('path');
 const ICONS_FOLDERS = {
   feather: 'node_modules/feather-icons/dist/icons/',
   simple: 'node_modules/simple-icons/icons/',
+  local: 'assets/svg/',
 };
 
 // Which icons do I need for the sprite?
@@ -28,6 +29,10 @@ const ICONS_LIST = {
     flickr: { title: 'Flickr' },
     github: { title: 'GitHub' },
     mastodon: { title: 'Mastodon' },
+  },
+  local: {
+    older: { title: 'Older' },
+    newer: { title: 'Newer' },
   },
 };
 

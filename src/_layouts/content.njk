@@ -2,6 +2,12 @@
 layout: default
 ---
 
+{% set newerContent = collections[layout + 's'] | getPreviousCollectionItem(page) %}
+{% set olderContent = collections[layout + 's'] | getNextCollectionItem(page) %}
+
+{% set cssFilename = "component-older-newer.css" %}
+{% include "add-css.njk" %}
+
 {#
 Breadcrumb JSON-LD:
 https://developers.google.com/search/docs/data-types/breadcrumbs
@@ -37,28 +43,22 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
   }
 </script>
 
-{% set cssFilename = "page-content.css" %}
-{% include "add-css.njk" %}
-
-{% set previousNote = collections[layout + 's'] | getPreviousCollectionItem(page) %}
-{% set nextNote = collections[layout + 's'] | getNextCollectionItem(page) %}
-
-<ul class="prevnext">
-  <li class="prevnext__prev">
-    {% if previousNote %}
-      <a href="{{ previousNote.url }}" class="button">&lt; newer</a>
-    {% endif %}
-  </li>
-  <li class="prevnext__next">
-    {% if nextNote %}
-      <a href="{{ nextNote.url }}" class="button">older &gt;</a>
-    {% endif %}
-  </li>
-</ul>
-
 <article
     class="page h-entry"
     lang="{{ lang }}">
+
+  <ul class="older-newer__shortcuts">
+    <li class="older-newer__older">
+      {% if olderContent %}
+        <a href="{{ olderContent.url }}" aria-label="older {{ layout }}: “{{ olderContent.data.title }}”">{% icon "older", "Older" %}</a>
+      {% endif %}
+    </li>
+    <li class="older-newer__newer">
+      {% if newerContent %}
+        <a href="{{ newerContent.url }}" aria-label="newer {{ layout }}: “{{ newerContent.data.title }}”">{% icon "newer", "Newer" %}</a>
+      {% endif %}
+    </li>
+  </ul>
 
   {% if layout == 'link' and authors %}
     <p class="page__surtitle">{{ authors.html | safe }}</p>
@@ -107,6 +107,21 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
       {{ content | safe }}
     {% endif %}
   </div>
+
+  <ul class="older-newer">
+    <li class="older-newer__older">
+      {% if olderContent %}
+        {% icon "older", "Older" %} older {{ layout }}:<br />
+        <a href="{{ olderContent.url }}">{{ olderContent.data.title }}</a>
+      {% endif %}
+    </li>
+    <li class="older-newer__newer">
+      {% if newerContent %}
+        {% icon "newer", "Newer" %} newer {{ layout }}:<br />
+        <a href="{{ newerContent.url }}">{{ newerContent.data.title }}</a>
+      {% endif %}
+    </li>
+  </ul>
 
   {% if layout in ['article', 'link', 'note'] %}
     <div id="webmentions" class="lazy"></div>
