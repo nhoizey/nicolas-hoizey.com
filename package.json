@@ -57,7 +57,7 @@
     "bent": "^7.3.12",
     "chalk": "~4.1.0",
     "cheerio": "~1.0.0-rc.3",
-    "cross-env": "^7.0.2",
+    "cross-env": "^7.0.3",
     "cssnano": "~4.1.10",
     "dotenv": "^8.2.0",
     "eleventy-plugin-embed-everything": "~1.9.4",
