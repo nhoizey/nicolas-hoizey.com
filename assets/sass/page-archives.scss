@@ -16,8 +16,8 @@
     'hits hits';
   grid-column-gap: var(--gap3);
   column-gap: var(--gap3);
-  grid-row-gap: calc(var(--gap) * 2);
-  row-gap: calc(var(--gap) * 2);
+  grid-row-gap: var(--gap2);
+  row-gap: var(--gap2);
 }
 
 #clear-refinements,
