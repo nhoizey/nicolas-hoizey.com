@@ -1,13 +1,14 @@
 import dotenv from 'dotenv';
 dotenv.config();
 
+import path from 'path';
 import babel from 'rollup-plugin-babel';
 import commonjs from 'rollup-plugin-commonjs';
 import replace from '@rollup/plugin-replace';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
 import { terser } from 'rollup-plugin-terser';
 import entrypointHashmanifest from 'rollup-plugin-entrypoint-hashmanifest';
-import path from 'path';
+// import visualizer from 'rollup-plugin-visualizer';
 
 const config = require('./pack11ty.config.js');
 
@@ -86,6 +87,28 @@ const plugins_additional_es = [
     }),
 ];
 
+const plugins_archives = [
+  replace({
+    'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
+    'process.env.ALGOLIA_APP_ID': JSON.stringify(process.env.ALGOLIA_APP_ID),
+    'process.env.ALGOLIA_READ_ONLY_API_KEY': JSON.stringify(
+      process.env.ALGOLIA_READ_ONLY_API_KEY
+    ),
+    'process.env.ALGOLIA_INDEX_NAME': JSON.stringify(
+      process.env.ALGOLIA_INDEX_NAME
+    ),
+  }),
+  nodeResolve({ browser: true, preferBuiltins: false }),
+  commonjs(),
+  babel(),
+  process.env.NODE_ENV === 'production' && terser(),
+  process.env.NODE_ENV === 'production' &&
+    entrypointHashmanifest({
+      manifestName: path.join(HASH, 'hashes_archives.json'),
+    }),
+  // visualizer(),
+];
+
 export default [
   {
     input: path.join(JS_SRC, 'critical.js'),
@@ -130,27 +153,6 @@ export default [
         events: 'events',
       },
     },
-    plugins: [
-      replace({
-        'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
-        'process.env.ALGOLIA_APP_ID': JSON.stringify(
-          process.env.ALGOLIA_APP_ID
-        ),
-        'process.env.ALGOLIA_READ_ONLY_API_KEY': JSON.stringify(
-          process.env.ALGOLIA_READ_ONLY_API_KEY
-        ),
-        'process.env.ALGOLIA_INDEX_NAME': JSON.stringify(
-          process.env.ALGOLIA_INDEX_NAME
-        ),
-      }),
-      nodeResolve({ browser: true, preferBuiltins: false }),
-      commonjs(),
-      babel(),
-      process.env.NODE_ENV === 'production' && terser(),
-      process.env.NODE_ENV === 'production' &&
-        entrypointHashmanifest({
-          manifestName: path.join(HASH, 'hashes_archives.json'),
-        }),
-    ],
+    plugins: plugins_archives,
   },
 ];
