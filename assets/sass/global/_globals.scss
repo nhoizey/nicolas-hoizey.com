@@ -24,8 +24,6 @@
   --font-size-m: calc(var(--font-size-base) + var(--font-size-responsive));
   --font-size-s: calc(var(--font-size-m) / var(--font-size-scale));
   --font-size-xs: calc(var(--font-size-s) / var(--font-size-scale));
-  --font-size-xxs: calc(var(--font-size-xs) / var(--font-size-scale));
-  --font-size-xxxs: calc(var(--font-size-xxs) / var(--font-size-scale));
   --font-size-l: calc(var(--font-size-m) * var(--font-size-scale));
   --font-size-xl: calc(var(--font-size-l) * var(--font-size-scale));
   --font-size-xxl: calc(var(--font-size-xl) * var(--font-size-scale));
