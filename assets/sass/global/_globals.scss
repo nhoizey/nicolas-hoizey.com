@@ -34,6 +34,9 @@
   --font-size-xxxl: calc(var(--font-size-xxl) * var(--font-size-scale));
   --font-size-xxxxl: calc(var(--font-size-xxxl) * var(--font-size-scale));
 
+  // --layout-max: calc(50 * var(--font-size-m));
+  --layout-max: 60rem;
+
   // Color ingredients
   --hue: 270;
   --sat: 50%;
