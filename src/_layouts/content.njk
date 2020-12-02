@@ -50,12 +50,12 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
   <ul class="older-newer__shortcuts">
     <li class="older-newer__older">
       {% if olderContent %}
-        <a href="{{ olderContent.url }}" aria-label="older {{ layout }}: “{{ olderContent.data.title }}”">{% icon "older", "Older" %}</a>
+        <a href="{{ olderContent.url }}" aria-label="older {{ layout }}">{% icon "older", "Older" %}</a>
       {% endif %}
     </li>
     <li class="older-newer__newer">
       {% if newerContent %}
-        <a href="{{ newerContent.url }}" aria-label="newer {{ layout }}: “{{ newerContent.data.title }}”">{% icon "newer", "Newer" %}</a>
+        <a href="{{ newerContent.url }}" aria-label="newer {{ layout }}">{% icon "newer", "Newer" %}</a>
       {% endif %}
     </li>
   </ul>
@@ -112,13 +112,21 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
     <li class="older-newer__older">
       {% if olderContent %}
         {% icon "older", "Older" %} older {{ layout }}:<br />
-        <a href="{{ olderContent.url }}">{{ olderContent.data.title }}</a>
+        {% if layout == 'note' %}
+          <a href="{{ olderContent.url }}">Note from {{ olderContent.date | formattedDate }}</a>
+        {% else %}
+          <a href="{{ olderContent.url }}">{{ olderContent.data.title }}</a>
+        {% endif %}
       {% endif %}
     </li>
     <li class="older-newer__newer">
       {% if newerContent %}
         {% icon "newer", "Newer" %} newer {{ layout }}:<br />
-        <a href="{{ newerContent.url }}">{{ newerContent.data.title }}</a>
+        {% if layout == 'note' %}
+          <a href="{{ newerContent.url }}">Note from {{ newerContent.date | formattedDate }}</a>
+        {% else %}
+          <a href="{{ newerContent.url }}">{{ newerContent.data.title }}</a>
+        {% endif %}
       {% endif %}
     </li>
   </ul>
