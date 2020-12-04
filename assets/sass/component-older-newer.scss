@@ -14,14 +14,26 @@
     .older-newer__older,
     .older-newer__newer {
       position: fixed;
+      transition-property: transform;
+      transition-duration: 0.2s;
+      transition-timing-function: ease-in-out;
+      transform-origin: 50% 50%;
     }
 
     .older-newer__older {
       left: var(--gap2);
+
+      &:hover {
+        transform: rotate(-15deg);
+      }
     }
 
     .older-newer__newer {
       right: var(--gap2);
+
+      &:hover {
+        transform: rotate(15deg);
+      }
     }
   }
 
