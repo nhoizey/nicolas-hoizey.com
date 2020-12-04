@@ -36,7 +36,7 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
         "position": 3,
         "item": {
           "@id": "{{ pkg.homepage }}{{ page.url }}",
-          "name": "{{ title }}"
+          "name": "{% if layout == 'note' %}Note from {{ page.date | formattedDate }}{% else %}{{ title }}{% endif %}"
         }
       }
     ]
