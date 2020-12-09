@@ -199,6 +199,25 @@ a.deeplink {
 }
 
 :target {
+  // Inspired by https://adrianroselli.com/2019/12/responsive-type-and-zoom.html#Update04
+  animation-name: target;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 3;
+}
+
+@keyframes target {
+  0% {
+    outline-style: solid;
+    outline-offset: 0;
+    outline-color: var(--color-primary);
+    outline-width: 0.2em;
+  }
+  100% {
+    outline-offset: 1em;
+    outline-color: transparent;
+    outline-width: 0;
+  }
 }
 
 // Links to content in another language
