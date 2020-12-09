@@ -86,6 +86,12 @@
 
 // Sticky navigation
 @media (min-height: 30rem) {
+  // all elements that have an id attribute can become the target of an anchor link
+  // https://markus.oberlehner.net/blog/simple-solution-for-anchor-links-behind-sticky-headers/
+  [id] {
+    scroll-margin-top: 5rem;
+  }
+
   .navigation {
     background-image: linear-gradient(
       to top,
