@@ -41,44 +41,41 @@ const plugins_critical = [
     }),
 ];
 
+// only in production, for old browsers
 const plugins_additional_iife = [
   replace({
-    'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
-    'process.env.ALGOLIA_APP_ID': JSON.stringify(process.env.ALGOLIA_APP_ID),
-    'process.env.ALGOLIA_READ_ONLY_API_KEY': JSON.stringify(
-      process.env.ALGOLIA_READ_ONLY_API_KEY
-    ),
-    'process.env.ALGOLIA_INDEX_NAME': JSON.stringify(
-      process.env.ALGOLIA_INDEX_NAME
-    ),
+    'process.env.NODE_ENV': 'production',
   }),
   nodeResolve({ browser: true }),
   commonjs(),
   babel({
-    exclude: 'node_modules/**',
+    // exclude: 'node_modules/**',
+    presets: ['@babel/preset-env'],
   }),
-  process.env.NODE_ENV === 'production' && terser(),
-  process.env.NODE_ENV === 'production' &&
-    entrypointHashmanifest({
-      manifestName: path.join(HASH, 'hashes_additional_iife.json'),
-    }),
+  terser(),
+  entrypointHashmanifest({
+    manifestName: path.join(HASH, 'hashes_additional_iife.json'),
+  }),
 ];
 
 const plugins_additional_es = [
   replace({
     'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
-    'process.env.ALGOLIA_APP_ID': JSON.stringify(process.env.ALGOLIA_APP_ID),
-    'process.env.ALGOLIA_READ_ONLY_API_KEY': JSON.stringify(
-      process.env.ALGOLIA_READ_ONLY_API_KEY
-    ),
-    'process.env.ALGOLIA_INDEX_NAME': JSON.stringify(
-      process.env.ALGOLIA_INDEX_NAME
-    ),
   }),
   nodeResolve({ browser: true }),
   commonjs(),
   babel({
-    exclude: 'node_modules/**',
+    // exclude: 'node_modules/**',
+    presets: [
+      [
+        '@babel/preset-env',
+        {
+          targets: { esmodules: true },
+          bugfixes: true,
+          loose: true,
+        },
+      ],
+    ],
   }),
   process.env.NODE_ENV === 'production' && terser(),
   process.env.NODE_ENV === 'production' &&
@@ -100,7 +97,19 @@ const plugins_archives = [
   }),
   nodeResolve({ browser: true, preferBuiltins: false }),
   commonjs(),
-  babel(),
+  babel({
+    exclude: 'node_modules/**',
+    presets: [
+      [
+        '@babel/preset-env',
+        {
+          targets: { esmodules: true },
+          bugfixes: true,
+          loose: true,
+        },
+      ],
+    ],
+  }),
   process.env.NODE_ENV === 'production' && terser(),
   process.env.NODE_ENV === 'production' &&
     entrypointHashmanifest({
@@ -109,7 +118,7 @@ const plugins_archives = [
   // visualizer(),
 ];
 
-export default [
+const targets = [
   {
     input: path.join(JS_SRC, 'critical.js'),
     output: {
@@ -126,17 +135,6 @@ export default [
     output: {
       dir: JS_DIST,
       entryFileNames: JS_NAME,
-      format: 'iife',
-      name: 'additional',
-      sourcemap: true,
-    },
-    plugins: plugins_additional_iife,
-  },
-  {
-    input: path.join(JS_SRC, 'additional.js'),
-    output: {
-      dir: JS_DIST,
-      entryFileNames: JS_NAME,
       format: 'es',
       sourcemap: true,
     },
@@ -147,7 +145,7 @@ export default [
     output: {
       dir: JS_DIST,
       entryFileNames: JS_NAME,
-      format: 'iife',
+      format: 'es',
       sourcemap: true,
       globals: {
         events: 'events',
@@ -156,3 +154,19 @@ export default [
     plugins: plugins_archives,
   },
 ];
+
+if (process.env.NODE_ENV === 'production') {
+  targets.push({
+    input: path.join(JS_SRC, 'additional.js'),
+    output: {
+      dir: JS_DIST,
+      entryFileNames: JS_NAME,
+      format: 'iife',
+      name: 'additional',
+      sourcemap: true,
+    },
+    plugins: plugins_additional_iife,
+  });
+}
+
+export default targets;

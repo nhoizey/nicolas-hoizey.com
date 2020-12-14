@@ -175,10 +175,14 @@ title: Archives
     </div>
   </div>
 
+  {#
+  Load Algolia only in modern browsers
+  https://web.dev/publish-modern-javascript/#rollup
+  #}
   {% if build.env == 'production' %}
-    <script src="/js/{{ hashes_archives[config.dir.assets + '/js/archives.js'] }}"></script>
+    <script defer type="module" src="/js/{{ hashes_archives['assets/js/archives.js']}}"></script>
   {% else %}
-    <script src="/js/archives-iife.js"></script>
+    <script defer type="module" src="/js/archives-es.js"></script>
   {% endif %}
 
 {% endblock %}

@@ -6,7 +6,7 @@
           "@babel/preset-env",
           {
             "targets": {
-              "browsers": ["since 2018"]
+              "esmodules": true
             }
           }
         ]
