@@ -1,6 +1,10 @@
 @use '../global/colors';
 
 .meta {
+  // because cards lists are lists in Algolia lists but not elsewhere,
+  // and Firefox applies a 0 start and end margin to ul in an ul/ol
+  margin-bottom: 0;
+
   padding: 0;
   color: var(--color-meta);
 

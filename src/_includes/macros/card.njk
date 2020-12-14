@@ -18,14 +18,12 @@
       </p>
     {% endif %}
     {% if meta %}
-      <div class="card__meta">
-        {{ meta | safe }}
-      </div>
+      {{ meta | safe }}
     {% endif %}
     {% if content %}
-      <div class="card__body">
+      <p class="card__body p-summary">
         {{ content | safe }}
-      </div>
+      </p>
     {% endif %}
   </article>
 {% endmacro %}

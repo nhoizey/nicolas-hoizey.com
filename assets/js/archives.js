@@ -362,10 +362,10 @@ ${hit.meta_html}`
             : '') +
           `${
             hit._snippetResult.content.matchLevel !== 'none'
-              ? '<div class="card__body p-summary">' +
+              ? '<p class="card__body p-summary">' +
                 hit._snippetResult.content.value +
-                '</div>'
-              : '<div class="card__body p-summary">' + hit.excerpt + '</div>'
+                '</p>'
+              : '<p class="card__body p-summary">' + hit.excerpt + '</p>'
           }` +
           '</article>'
         );
