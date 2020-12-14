@@ -70,7 +70,7 @@ function htmlAuthors(data) {
       }
       html += `<b class="p-name">${author.name}</b>`;
       if (author.twitter) {
-        html += ` <span class="author__twitter">(<svg><use xlink:href="#symbol-twitter" /></svg> @<a href="https://twitter.com/${author.twitter}">${author.twitter}</a>)</span>`;
+        html += ` <a class="author__twitter" href="https://twitter.com/${author.twitter}" aria-label="@${author.twitter} on Twitter"><svg><use xlink:href="#symbol-twitter" /></svg></a>`;
       }
       html += '</span>';
       i++;

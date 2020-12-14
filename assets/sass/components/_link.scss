@@ -7,5 +7,30 @@
 }
 
 .author__twitter {
-  color: colors.$color-darkgrey;
+  font-size: 0.9em;
+  vertical-align: text-bottom;
+
+  svg {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  &:link,
+  &:visited {
+    color: colors.$color-twitter;
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: transparent;
+
+    svg {
+      fill: currentColor;
+      stroke-width: 0;
+    }
+  }
 }

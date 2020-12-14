@@ -22,8 +22,10 @@
         <img class="u-photo avatar" src="https://res.cloudinary.com/nho/image/twitter_name/{{ author.twitter }}" alt="{{ author.name }} avatar" width="48" height="48" />
       {%- endif %}
       {{ author.name }}
+      {%- if author.twitter %}
+        <a class="author__twitter" href="https://twitter.com/{{ author.twitter }}" aria-label="@{{ author.twitter }} on Twitter"><svg><use xlink:href="#symbol-twitter" /></svg></a>
+      {%- endif %}
     {%- endfor %}
-    wrote
     {% endset %}
   {% endif %}
 
