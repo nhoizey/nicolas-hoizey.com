@@ -10,7 +10,7 @@ authors:
 tags: [WebPerf, Lighthouse]
 ---
 
-Here is a great new open source tool provided by the great Cloud Four team! 👍
+Here is a great new open source tool provided by the Cloud Four team! 👍
 
 > Lighthouse Parade is a Node.js command line tool that crawls a domain and gathers lighthouse performance data for every page. With a single command, the tool will crawl an entire site, run a Lighthouse report for each page, and then output a spreadsheet with the aggregated data.
 
