@@ -299,9 +299,6 @@ search.addWidgets([
     container: '#hits',
     templates: {
       item(hit) {
-        // console.log(
-        //   `${hit.title}\n -> matchLevel ${hit._snippetResult.content.matchLevel}`
-        // );
         return (
           `<article class="card ${hit.type} h-entry" lang="${hit.lang}">` +
           (hit.illustration || '') +

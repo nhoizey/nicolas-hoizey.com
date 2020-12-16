@@ -98,6 +98,7 @@
 // Buttons
 // ************************************************************
 
+.ais-InfiniteHits-loadPrevious,
 .ais-InfiniteHits-loadMore {
   display: block;
   margin: var(--gap) auto;
@@ -106,6 +107,7 @@
 .ais-ClearRefinements-button--disabled,
 .ais-RefinementList-showMore--disabled,
 .ais-HierarchicalMenu-showMore--disabled,
+.ais-InfiniteHits-loadPrevious--disabled,
 .ais-InfiniteHits-loadMore--disabled {
   display: none;
 }
