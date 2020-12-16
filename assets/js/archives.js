@@ -1,4 +1,5 @@
-import algoliasearch from 'algoliasearch/lite';
+// import algoliasearch from 'algoliasearch/lite';
+import algoliasearch from 'algoliasearch/dist/algoliasearch-lite.esm.browser.js';
 import instantsearch from 'instantsearch.js/es';
 import {
   clearRefinements,
