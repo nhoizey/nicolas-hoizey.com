@@ -1,29 +1,31 @@
 {% macro card(type = false, lang = 'en', surtitle = false, title = false, url = false, illustration = false, content = false, meta = false) %}
-  <article class="card {{ type or '' }} h-entry" lang="{{ lang }}">
-    {% if illustration %}
-      <img
-        alt="{{ illustration.alt }}"
-        width="{{ illustration.width }}"
-        height="{{ illustration.height }}"
-        src="{{ illustration.src }}"
-        class="card__illustration {% if illustration.classes %}{{ illustration.classes }}{% endif %}"
-        crossorigin="anonymous" />
-    {% endif %}
-    {% if surtitle %}
-      <p class="card__surtitle">{{ surtitle | safe }}</p>
-    {% endif %}
-    {% if title %}
-      <p class="card__title p-name">
-        <a href="{{ url }}" hreflang="{{ lang }}" class="u-url">{{ title | orphans | safe }}</a>
-      </p>
-    {% endif %}
-    {% if meta %}
-      {{ meta | safe }}
-    {% endif %}
-    {% if content %}
-      <p class="card__body p-summary">
-        {{ content | safe }}
-      </p>
-    {% endif %}
-  </article>
+  <li class="card-list__item">
+    <article class="card {{ type or '' }} h-entry" lang="{{ lang }}">
+      {% if illustration %}
+        <img
+          alt="{{ illustration.alt }}"
+          width="{{ illustration.width }}"
+          height="{{ illustration.height }}"
+          src="{{ illustration.src }}"
+          class="card__illustration {% if illustration.classes %}{{ illustration.classes }}{% endif %}"
+          crossorigin="anonymous" />
+      {% endif %}
+      {% if surtitle %}
+        <p class="card__surtitle">{{ surtitle | safe }}</p>
+      {% endif %}
+      {% if title %}
+        <p class="card__title p-name">
+          <a href="{{ url }}" hreflang="{{ lang }}" class="u-url">{{ title | orphans | safe }}</a>
+        </p>
+      {% endif %}
+      {% if meta %}
+        {{ meta | safe }}
+      {% endif %}
+      {% if content %}
+        <p class="card__body p-summary">
+          {{ content | safe }}
+        </p>
+      {% endif %}
+    </article>
+  </li>
 {% endmacro %}

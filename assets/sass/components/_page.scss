@@ -6,7 +6,7 @@
   @extend %flow;
 
   .lazy {
-    --flow-space: 3em;
+    --flow-space: var(--gap3);
     @extend %flow;
   }
 }

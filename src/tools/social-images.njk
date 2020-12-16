@@ -6,7 +6,7 @@ title: Social images
 <a href="#articles">Articles</a>, <a href="#links">Links</a>, <a href="#notes">Notes</a>
 
 <h1 id="articles">Articles</h1>
-<section class="cards-list">
+<ol class="cards-list">
   {% for article in collections.articles | limit(10) %}
     {% set ogTags -%}
     {%- for tag in article.data.tags -%}
@@ -15,10 +15,10 @@ title: Social images
     {%- endset -%}
     <a href="{{ article.url }}"><img src="{% ogImage article.data.title, ogTags %}" width="1200" height="630" /></a>
   {% endfor %}
-</section>
+</ol>
 
 <h1 id="links">Links</h1>
-<section class="cards-list">
+<ol class="cards-list">
   {% for link in collections.links | limit(10) %}
     {% set ogImageTitle %}Link: {{ link.data.title }}{% endset %}
     {% set ogTags -%}
@@ -28,10 +28,10 @@ title: Social images
     {%- endset -%}
     <a href="{{ link.url }}"><img src="{% ogImage ogImageTitle, ogTags %}" width="1200" height="630" /></a>
   {% endfor %}
-</section>
+</ol>
 
 <h1 id="notes">Notes</h1>
-<section class="cards-list">
+<ol class="cards-list">
   {% for note in collections.notes | limit(10) %}
     {% set ogImageTitle %}Note from {{ note.date | formattedDate }}{% endset %}
     {% set ogTags -%}
@@ -41,4 +41,4 @@ title: Social images
     {%- endset -%}
     <a href="{{ note.url }}"><img src="{% ogImage ogImageTitle, ogTags %}" width="1200" height="630" /></a>
   {% endfor %}
-</section>
+</ol>

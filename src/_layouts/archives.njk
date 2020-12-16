@@ -117,7 +117,7 @@ title: Archives
     <div id="powered-by"></div>
     <div id="hits">
       {% block hits %}
-        <div class="cards-list">
+        <ol class="cards-list">
           {% if currentMonth %}
             {% for item in collections[currentType + 'ByMonth'][currentYear + '/' + currentMonth] %}
               {% if item.data.layout == 'article' %}
@@ -170,7 +170,7 @@ title: Archives
               <p>Filter by year and month to see more {{ currentType }}.</p>
             {% endif %}
           {% endif %}
-        </div>
+        </ol>
       {% endblock %}
     </div>
   </div>

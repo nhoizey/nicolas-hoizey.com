@@ -92,7 +92,7 @@ h6 {
   position: relative;
 
   &:not(h1) {
-    --flow-space: 2em;
+    --flow-space: var(--gap3);
   }
 }
 

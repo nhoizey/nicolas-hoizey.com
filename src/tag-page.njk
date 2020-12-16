@@ -34,7 +34,7 @@ permalink: /tags/{{ tag.slug }}/
   <p>There is only one content with this tag:</p>
 {% endif %}
 
-<div class="cards-list">
+<ol class="cards-list">
   {% set contentItems = collections[tag.tag] %}
   {% for item in contentItems | reverse %}
     {% if item.data.layout == "article" %}
@@ -45,6 +45,6 @@ permalink: /tags/{{ tag.slug }}/
       {{ noteCard(item) }}
     {% endif %}
   {% endfor %}
-</ul>
+</ol>
 
 <p>See <a href="/tags/">all tags</a>.</p>

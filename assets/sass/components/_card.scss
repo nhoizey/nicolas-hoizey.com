@@ -6,13 +6,16 @@
 // ************************************************************
 
 .cards-list {
-  --flow-space: calc(3em + 3vw);
   @extend %flow;
 
   clear: both;
   padding: 0;
-  margin: 0;
+  // margin: 0;
   list-style-type: none;
+
+  * {
+    --flow-space: var(--gap3);
+  }
 }
 
 // ************************************************************
