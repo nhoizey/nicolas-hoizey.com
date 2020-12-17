@@ -40,12 +40,22 @@ const activateNavItem = (type) => {
   });
 };
 
+// let firstLoad = true;
+
 const search = instantsearch({
   indexName: process.env.ALGOLIA_INDEX_NAME,
   searchClient: algoliasearch(
     process.env.ALGOLIA_APP_ID,
     process.env.ALGOLIA_READ_ONLY_API_KEY
   ),
+  // Prevent first search query
+  // searchFunction: function (helper) {
+  //   if (firstLoad === true) {
+  //     firstLoad = false;
+  //     return;
+  //   }
+  //   helper.search();
+  // },
   routing: {
     router: history({
       windowTitle({ type, query }) {
