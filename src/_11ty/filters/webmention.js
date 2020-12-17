@@ -4,8 +4,6 @@ const { readFromCache } = require('../../_utils/cache');
 const rootUrl = require('../../../package.json').homepage;
 
 const WEBMENTION_CACHE = '_cache/webmentions.json';
-let memoizedWebmentionsPerContent = {};
-let memoizedUrls = {};
 
 const getWebmentions = memoize(() => {
   const cached = readFromCache(WEBMENTION_CACHE);
