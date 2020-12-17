@@ -167,6 +167,33 @@ if (process.env.NODE_ENV === 'production') {
     },
     plugins: plugins_additional_iife,
   });
+  targets.push({
+    input: path.join(JS_SRC, 'service-worker.js'),
+    plugins: [
+      nodeResolve(),
+      replace({
+        'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
+      }),
+      babel({
+        presets: [
+          [
+            '@babel/preset-env',
+            {
+              targets: {
+                browsers: ['chrome >= 71'],
+              },
+              modules: false,
+            },
+          ],
+        ],
+      }),
+      terser(),
+    ],
+    output: {
+      file: path.join(DIST_DIR, 'service-worker.js'),
+      format: 'iife',
+    },
+  });
 }
 
 export default targets;
