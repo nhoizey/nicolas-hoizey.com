@@ -116,62 +116,60 @@ title: Archives
     <div id="stats"></div>
     <div id="powered-by"></div>
     <div id="hits">
-      {% block hits %}
-        <ol class="cards-list">
-          {% if currentMonth %}
-            {% for item in collections[currentType + 'ByMonth'][currentYear + '/' + currentMonth] %}
-              {% if item.data.layout == 'article' %}
-                {{ articleCard(item) }}
-              {% endif %}
-              {% if item.data.layout == 'link' %}
-                {{ linkCard(item) }}
-              {% endif %}
-              {% if item.data.layout == 'note' %}
-                {{ noteCard(item) }}
-              {% endif %}
-              {% if item.data.layout == 'talk' %}
-                {{ talkCard(item) }}
-              {% endif %}
-            {% endfor %}
-          {% elif currentYear %}
-            {% for item in collections[currentType + 'ByYear'][currentYear] | limit(10) %}
-              {% if item.data.layout == 'article' %}
-                {{ articleCard(item) }}
-              {% endif %}
-              {% if item.data.layout == 'link' %}
-                {{ linkCard(item) }}
-              {% endif %}
-              {% if item.data.layout == 'note' %}
-                {{ noteCard(item) }}
-              {% endif %}
-              {% if item.data.layout == 'talk' %}
-                {{ talkCard(item) }}
-              {% endif %}
-            {% endfor %}
-            {% if collections[currentType + 'ByYear'][currentYear].length > 10 %}
-              <p>Filter by month to see more {{ currentType }} from year {{ currentYear }}.</p>
+      <ol class="cards-list">
+        {% if currentMonth %}
+          {% for item in collections[currentType + 'ByMonth'][currentYear + '/' + currentMonth] %}
+            {% if item.data.layout == 'article' %}
+              {{ articleCard(item) }}
             {% endif %}
-          {% else %}
-            {% for item in collections[currentType] | limit(10) %}
-              {% if item.data.layout == 'article' %}
-                {{ articleCard(item) }}
-              {% endif %}
-              {% if item.data.layout == 'link' %}
-                {{ linkCard(item) }}
-              {% endif %}
-              {% if item.data.layout == 'note' %}
-                {{ noteCard(item) }}
-              {% endif %}
-              {% if item.data.layout == 'talk' %}
-                {{ talkCard(item) }}
-              {% endif %}
-            {% endfor %}
-            {% if collections[currentType].length > 10 %}
-              <p>Filter by year and month to see more {{ currentType }}.</p>
+            {% if item.data.layout == 'link' %}
+              {{ linkCard(item) }}
             {% endif %}
+            {% if item.data.layout == 'note' %}
+              {{ noteCard(item) }}
+            {% endif %}
+            {% if item.data.layout == 'talk' %}
+              {{ talkCard(item) }}
+            {% endif %}
+          {% endfor %}
+        {% elif currentYear %}
+          {% for item in collections[currentType + 'ByYear'][currentYear] | limit(10) %}
+            {% if item.data.layout == 'article' %}
+              {{ articleCard(item) }}
+            {% endif %}
+            {% if item.data.layout == 'link' %}
+              {{ linkCard(item) }}
+            {% endif %}
+            {% if item.data.layout == 'note' %}
+              {{ noteCard(item) }}
+            {% endif %}
+            {% if item.data.layout == 'talk' %}
+              {{ talkCard(item) }}
+            {% endif %}
+          {% endfor %}
+          {% if collections[currentType + 'ByYear'][currentYear].length > 10 %}
+            <p>Filter by month to see more {{ currentType }} from year {{ currentYear }}.</p>
           {% endif %}
-        </ol>
-      {% endblock %}
+        {% else %}
+          {% for item in collections[currentType] | limit(10) %}
+            {% if item.data.layout == 'article' %}
+              {{ articleCard(item) }}
+            {% endif %}
+            {% if item.data.layout == 'link' %}
+              {{ linkCard(item) }}
+            {% endif %}
+            {% if item.data.layout == 'note' %}
+              {{ noteCard(item) }}
+            {% endif %}
+            {% if item.data.layout == 'talk' %}
+              {{ talkCard(item) }}
+            {% endif %}
+          {% endfor %}
+          {% if collections[currentType].length > 10 %}
+            <p>Filter by year and month to see more {{ currentType }}.</p>
+          {% endif %}
+        {% endif %}
+      </ol>
     </div>
   </div>
 
