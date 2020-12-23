@@ -1,11 +1,13 @@
---- 
-title:      "Guide du débutant pour PEAR DB" 
+---
+title:      "Guide du débutant pour PEAR DB"
 date: 2001-10-12 12:00:00 +02:00
-lang:       fr 
+lang:       fr
 tags:       [development, PHP, PEAR]
 ---
 
+::: lead
 Traduction du tutoriel de [Tomas V. V. Cox](mailto:cox@idecnet.com) publié en anglais à l'adresse suivante : <http://vulcanonet.com/soft/?pack=pear_tut>
+:::
 
 # Introduction (à écrire !)
 
@@ -15,7 +17,7 @@ PEAR DB est un ensemble de classe proposant :
 
 - abstraction de bases de données
 - gestion avancée des erreurs
-- etc 
+- etc
 
 # Obtenir et installer Pear
 
@@ -311,7 +313,7 @@ Avec PEAR DB vous avez plusieurs façons d'obtenir des informations intéressant
 - **numRows()** : Donne le nombre total d'enregistrements retournés par une requête de type "SELECT".
 - **numCols()** : Donne le nombre total de colonnes retournées par une requête de type "SELECT".
 - **affectedRows()** : Donne le nombre d'enregistrements affectés par une requête de manipulation de données ("INSERT", "UPDATE" or "DELETE").
-- **tableInfo()** : Donne un tableau associatif contenant des informations sur les champs retournés par une requête de type "SELECT". 
+- **tableInfo()** : Donne un tableau associatif contenant des informations sur les champs retournés par une requête de type "SELECT".
 
 Exemples d'utilisation :
 
@@ -341,7 +343,7 @@ echo 'I have deleted ' . $db->affectedRows() . 'clients';
 
 ## Séquences
 
-Les séquences sont un moyen d'obtenir des IDs uniques pour les enregistrements. Si vous faites la majeure partie de votre travail avec par exemple MySQL, pensez aux séquences comme un autre moyen de gérer AUTO_INCREMENT. Cela est relativement simple, tout d'abord vous demandez un ID, puis vous insérez cette valeur dans le champ correspondant du nouvel enregistrement que vous êtes en train de créer. Vous pouvez avoir plus d'une séquence pour toutes vos tables, mais assurez-vous que vous utilisez toujours la même séquence pour une table particulière. 
+Les séquences sont un moyen d'obtenir des IDs uniques pour les enregistrements. Si vous faites la majeure partie de votre travail avec par exemple MySQL, pensez aux séquences comme un autre moyen de gérer AUTO_INCREMENT. Cela est relativement simple, tout d'abord vous demandez un ID, puis vous insérez cette valeur dans le champ correspondant du nouvel enregistrement que vous êtes en train de créer. Vous pouvez avoir plus d'une séquence pour toutes vos tables, mais assurez-vous que vous utilisez toujours la même séquence pour une table particulière.
 
 ```php
 <?php
@@ -502,11 +504,11 @@ Comme vous pouvez le voir, PEAR DB fait d'intenses vérifications et rapports d'
 
 Les actions possibles sont :
 
-- Retourne l'objet erreur (PEAR_ERROR_RETURN). C'est l'action par défaut. 
-- Imprime le message d'erreur (PEAR_ERROR_PRINT) 
-- Imprime le message d'erreur et arrête l'exécution (PEAR_ERROR_DIE) 
-- Utilise la fonction PHP *trigger_error()* pour lever une erreur PHP (PEAR_ERROR_TRIGGER) 
-- Passe l'objet erreur à une fonction ou à une méthode d'objet (PEAR_ERROR_CALLBACK) 
+- Retourne l'objet erreur (PEAR_ERROR_RETURN). C'est l'action par défaut.
+- Imprime le message d'erreur (PEAR_ERROR_PRINT)
+- Imprime le message d'erreur et arrête l'exécution (PEAR_ERROR_DIE)
+- Utilise la fonction PHP *trigger_error()* pour lever une erreur PHP (PEAR_ERROR_TRIGGER)
+- Passe l'objet erreur à une fonction ou à une méthode d'objet (PEAR_ERROR_CALLBACK)
 
 Un exemple simple :
 
