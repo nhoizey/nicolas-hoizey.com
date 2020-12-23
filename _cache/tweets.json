@@ -646,5 +646,23 @@
       "profile_image_url_https": "https://pbs.twimg.com/profile_images/981039168515014657/pwB4fZPq_normal.jpg"
     },
     "html": "<blockquote class=\"tweet-card\"><div class=\"tweet-header\"><a class=\"tweet-profile\" href=\"https://twitter.com/violasong\"><img src=\"https://pbs.twimg.com/profile_images/981039168515014657/pwB4fZPq_normal.jpg\" alt=\"Avatar for violasong\"></a><div class=\"tweet-author\"><a class=\"tweet-author-name\" href=\"https://twitter.com/violasong\">Victoria Wang </a><a class=\"tweet-author-handle\" href=\"https://twitter.com/violasong\">@violasong</a></div><a class=\"tweet-bird\" href=\"https://twitter.com/violasong/status/1278381673776705537\"><div class=\"tweet-bird-icon\" role=\"presentation\" aria-label=\"View on Twitter\" title=\"View on Twitter\"></div></a></div><p class=\"tweet-body\">JUST LANDED in Firefox Nightly:<br><br>🐢!<br><br>Appears when the server response time for a request exceeds the recommended limit of 500 ms (adjustable in about:config).<br><br>Awesome dev work by<a href=\"https://twitter.com/@b4boms\"> @b4boms</a>y and planning by<a href=\"https://twitter.com/@digitaral\"> @digitaral</a>d &amp;<a href=\"https://twitter.com/@janodvark\"> @janodvark</a>o!<br>If you spot it and it helps, let us know!H</p><div class=\"tweet-images\"><img alt=\"Image from Tweet\" src=\"https://pbs.twimg.com/media/Eb25JSpU4AAvUeP.png\"></div><div class=\"tweet-footer\"><a class=\"tweet-like\" href=\"https://twitter.com/intent/like?tweet_id=1278381673776705537\"><div class=\"tweet-like-icon\" aria-label=\"Like\" title=\"Like\" role=\"img\"></div><span class=\"tweet-like-count\">277 </span></a><a class=\"tweet-date\" title=\"Time Posted: Jul 1, 2020 05:35:16 (UTC)\" href=\"https://twitter.com/violasong/status/1278381673776705537\">07:35 PM · Jul 1, 2020</a></div></blockquote>"
+  },
+  "1341669851484610560": {
+    "id_str": "1341669851484610560",
+    "htmlText": "Responsive Grid Design: Ultimate Guide<br/><br/>This article highlights the most important aspect of the responsive grid and how product designers can adapt grids in their design workflow. <a href=\"https://medium.muz.li/responsive-grid-design-ultimate-guide-7aa41ca7892\">medium.muz.li/responsive-grid-design-ultimate-guide-7aa41ca7892</a> ",
+    "images": [
+      "https://pbs.twimg.com/media/Ep6RneTXYAABuAw.png"
+    ],
+    "favorite_count": 38,
+    "created_at": {
+      "display": "09:59 AM · Dec 23, 2020",
+      "meta": "Dec 23, 2020 08:59:54 (UTC)"
+    },
+    "user": {
+      "name": "Veerle Pieters",
+      "screen_name": "vpieters",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/660859113094561792/eyX7OiI7_normal.png"
+    },
+    "html": "<blockquote class=\"tweet-card\"><div class=\"tweet-header\"><a class=\"tweet-profile\" href=\"https://twitter.com/vpieters\"><img src=\"https://pbs.twimg.com/profile_images/660859113094561792/eyX7OiI7_normal.png\" alt=\"Avatar for vpieters\"></a><div class=\"tweet-author\"><a class=\"tweet-author-name\" href=\"https://twitter.com/vpieters\">Veerle Pieters </a><a class=\"tweet-author-handle\" href=\"https://twitter.com/vpieters\">@vpieters</a></div><a class=\"tweet-bird\" href=\"https://twitter.com/vpieters/status/1341669851484610560\"><div class=\"tweet-bird-icon\" role=\"presentation\" aria-label=\"View on Twitter\" title=\"View on Twitter\"></div></a></div><p class=\"tweet-body\">Responsive Grid Design: Ultimate Guide<br><br>This article highlights the most important aspect of the responsive grid and how product designers can adapt grids in their design workflow. <a href=\"https://medium.muz.li/responsive-grid-design-ultimate-guide-7aa41ca7892\">medium.muz.li/responsive-grid-design-ultimate-guide-7aa41ca7892</a></p><div class=\"tweet-images\"><img alt=\"Image from Tweet\" src=\"https://pbs.twimg.com/media/Ep6RneTXYAABuAw.png\"></div><div class=\"tweet-footer\"><a class=\"tweet-like\" href=\"https://twitter.com/intent/like?tweet_id=1341669851484610560\"><div class=\"tweet-like-icon\" aria-label=\"Like\" title=\"Like\" role=\"img\"></div><span class=\"tweet-like-count\">38 </span></a><a class=\"tweet-date\" title=\"Time Posted: Dec 23, 2020 08:59:54 (UTC)\" href=\"https://twitter.com/vpieters/status/1341669851484610560\">09:59 AM · Dec 23, 2020</a></div></blockquote>"
   }
 }

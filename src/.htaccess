@@ -656,9 +656,11 @@ FileETag None
 # ------------------------------------------------------------------------------
 
 # https://www.igvita.com/2015/08/17/eliminating-roundtrips-with-preconnect/
+# https://nicolas-hoizey.com/notes/2020/12/22/1/
 
 <IfModule mod_headers.c>
-  Header set Link "<https://res.cloudinary.com>; rel=preconnect; crossorigin, <https://www.google-analytics.com>; rel=preconnect"
+  Header set Link "<https://res.cloudinary.com>; rel=dns-prefetch, <https://www.google-analytics.com>; rel=dns-prefetch"
+  Header set Link "<https://res.cloudinary.com>; rel=preconnect; crossorigin, <https://www.google-analytics.com>; rel=preconnect; crossorigin"
 </IfModule>
 
 # ------------------------------------------------------------------------------
