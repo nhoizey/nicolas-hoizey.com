@@ -100,7 +100,7 @@
     "rollup-plugin-visualizer": "~4.2.0",
     "sanitize-html": "^2.2.0",
     "sass": "~1.29.0",
-    "simple-icons": "~4.0.1",
+    "simple-icons": "~4.4.0",
     "svgstore": "^3.0.0-2",
     "truncate-html": "^1.0.3",
     "twitter": "^1.7.1",
