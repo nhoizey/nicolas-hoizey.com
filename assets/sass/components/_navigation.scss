@@ -99,7 +99,7 @@
       hsla(0, 0%, 100%, 0.5) var(--gap),
       hsla(0, 0%, 100%, 0.75) calc(var(--gap) * 1.25),
       hsla(0, 0%, 100%, 0.9) calc(var(--gap) * 1.5),
-      hsla(0, 0%, 100%, 0.95) var(--gap2),
+      hsla(0, 0%, 100%, 0.95) calc(var(--gap) * 2),
       hsla(0, 0%, 100%, 0.95)
     );
     position: sticky;
