@@ -44,9 +44,9 @@
 .card__illustration img,
 img.card__illustration {
   border-style: solid;
-  border-width: 2px;
+  border-width: var(--border-width);
   border-color: var(--color-primary-lighter-3);
-  padding: 2px;
+  padding: var(--border-width);
 }
 
 .card__surtitle {

@@ -7,7 +7,7 @@
   margin-right: auto;
   padding: 1em;
   background-color: #fff;
-  border: 2px solid colors.$color-grey;
+  border: var(--border-width) solid colors.$color-grey;
   border-radius: 0.5em;
   font-size: 1em;
   line-height: 1.4;

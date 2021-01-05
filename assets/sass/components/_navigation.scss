@@ -1,5 +1,5 @@
 .navigation {
-  border-top: solid 2px var(--color-primary-lighter-2);
+  border-top: solid var(--border-width) var(--color-primary-lighter-2);
 
   font-family: var(--font-family-sans-serif);
   font-variant: small-caps;
@@ -41,7 +41,7 @@
     a:link,
     a:visited {
       display: inline-block;
-      margin: 2px 0 0 0;
+      margin: var(--border-width) 0 0 0;
       padding: 0.1em 0.75vw 0.2em;
       text-decoration: none;
       white-space: nowrap;
@@ -52,7 +52,7 @@
       a:visited {
         color: var(--color-primary);
         text-decoration-line: underline;
-        text-decoration-thickness: 0.1em;
+        text-decoration-thickness: var(--border-width);
         text-decoration-color: var(--color-primary-lighter-2);
         -webkit-text-stroke-width: 0.05em;
       }

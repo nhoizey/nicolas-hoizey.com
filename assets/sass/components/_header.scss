@@ -6,7 +6,7 @@
 
   color: #fff;
   background: var(--color-primary);
-  border-top: solid 2px var(--color-primary-lighter-3);
+  border-top: solid var(--border-width) var(--color-primary-lighter-3);
 
   .wrap {
     @media (min-width: 15em) {
