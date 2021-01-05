@@ -208,15 +208,10 @@ a.deeplink {
 
 @keyframes target {
   0% {
-    outline-style: solid;
-    outline-offset: 0;
-    outline-color: var(--color-primary);
-    outline-width: 0.2em;
+    background-color: inherit;
   }
-  100% {
-    outline-offset: 1em;
-    outline-color: transparent;
-    outline-width: 0;
+  85% {
+    background-color: var(--color-yellow-light);
   }
 }
 
