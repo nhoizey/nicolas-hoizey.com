@@ -3,8 +3,8 @@
 const fetch = require('node-fetch');
 const unionBy = require('lodash/unionBy');
 const sanitizeHTML = require('sanitize-html');
-const domain = new URL(require('../../package.json').homepage).hostname;
-const { writeToCache, readFromCache } = require('./cache');
+const domain = new URL(require('../package.json').homepage).hostname;
+const { writeToCache, readFromCache } = require('../src/_utils/cache');
 
 // Load .env variables with dotenv
 require('dotenv').config();
@@ -43,11 +43,8 @@ async function fetchWebmentions(since, perPage = 10000) {
 
 function cleanWebmentions(webmentions) {
   // https://mxb.dev/blog/using-webmentions-on-static-sites/#h-parsing-and-filtering
-  const hasRequiredFields = (entry) => {
-    const { published, url } = entry;
-    return published && url;
-  };
   const sanitize = (entry) => {
+    // Sanitize HTML content
     const { content } = entry;
     if (content && content['content-type'] === 'text/html') {
       let html = content.html;
@@ -78,14 +75,16 @@ function cleanWebmentions(webmentions) {
       });
       content.html = html;
     }
+
+    // Fix missing publication date
+    if (!entry.published && entry['wm-received']) {
+      entry.published = entry['wm-received'];
+    }
+
     return entry;
   };
 
-  return (
-    webmentions
-      //.filter(hasRequiredFields)
-      .map(sanitize)
-  );
+  return webmentions.map(sanitize);
 }
 
 // Merge fresh webmentions with cached entries, unique per id
