@@ -19,6 +19,6 @@ Alors certes, toutes ces applications sont bien des divertissements, comme la pl
 
 La première liste est donc erronée, j'ai débusqué un bug !
 
-[^1]: Ou comment l'abus de majuscules illisibles transforme un simple message marketing en hommage subtil à une célèbre ancienne série TV… ;-)
+[^1]: Ou comment l'abus de majuscules illisibles transforme un simple message marketing en hommage subtil à une célèbre ancienne série TV… 😉
 
 [^2]: Bon, avec une seule appli en plus, manque de pertinence leur truc.

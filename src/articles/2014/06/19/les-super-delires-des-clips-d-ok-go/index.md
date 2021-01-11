@@ -31,7 +31,7 @@ En 2012, c'est en voiture qu'ils font de la musique, ou plutôt devrais-je dire 
 
 https://youtu.be/MejbOFk7H6c
 
-Je vous laisserais juger la qualité de la musique… ;-)
+Je vous laisserais juger la qualité de la musique… 😉
 
 La vidéo a été vue plus de 27 millions de fois sur YouTube.
 

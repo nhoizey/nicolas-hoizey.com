@@ -1,7 +1,7 @@
---- 
-title:      session_start() et exec() ne font pas toujours bon ménage en PHP 
+---
+title:      session_start() et exec() ne font pas toujours bon ménage en PHP
 date: 2008-01-30 12:00:00 +02:00
-lang:       fr 
+lang:       fr
 tags:       [fail, SPIP, PHP]
 ---
 
@@ -33,6 +33,6 @@ Bien sûr, si le `exec()` en question se trouve après du code écrivant sur la 
 
 Bien que les sources qui relatent ce problème et sa solution datent un peu, je peux vous confirmer que modifier de cette façon le source des fichiers présents dans `ecrire/extract/*.php` résout bien le problème.
 
-Finalement, les sessions de SPIP sont meilleures que celles de PHP, au moins sur ce point… ;-)
+Finalement, les sessions de SPIP sont meilleures que celles de PHP, au moins sur ce point… 😉
 
 [^1]: *output buffering* en anglais

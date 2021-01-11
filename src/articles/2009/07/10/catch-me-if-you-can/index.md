@@ -1,7 +1,7 @@
---- 
-title:      Catch me if you can 
+---
+title:      Catch me if you can
 date: 2009-07-10 12:00:00 +02:00
-lang:       fr 
+lang:       fr
 tags:       [RATP, SNCF, Twitter]
 ---
 
@@ -17,4 +17,4 @@ Merci à [VisibleTweets](http://visibletweets.com/) pour cet outil si simple mai
 
 [^3]: Passez en plein écran, c'est encore plus hypnotique !
 
-[^4]: J'ai mis aussi [le twitter officiel de la RATP](http://twitter.com/ratp) pour leur laisser une chance… ;-)
+[^4]: J'ai mis aussi [le twitter officiel de la RATP](http://twitter.com/ratp) pour leur laisser une chance… 😉

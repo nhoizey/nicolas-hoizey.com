@@ -136,7 +136,7 @@ Parmi les petits changements temporaires tout de même :
 
 Les vidéos Youtube sont pour l'instant intégrées avec le *player* standard, donc ne sont plus *lazy loadées* au clic du lecteur. C'est une régression, mais elle n'est que temporaire, il faut que j'adapte le plugin [Jekyll Youtube Lazyloading](https://github.com/erossignon/jekyll-youtube-lazyloading) à mon nouveau [plugin d'embed automatique à partir d'une simple URL](https://github.com/nhoizey/nicolas-hoizey.com/blob/jekyll3/_plugins/auto-embed.rb).
 
-Cela m'a fait perdre 4 points sur Dareboost, tout de même ! ;-)
+Cela m'a fait perdre 4 points sur Dareboost, tout de même ! 😉
 
 ![](dareboost-de-98-a-94.png "4 points perdus sur Dareboost")
 

@@ -27,7 +27,7 @@ Bon, pour revenir au sujet de ce billet, en imaginant qu'Ouriel ait raison et qu
 
 ![](Google_Trends_-_techcrunch_et_facebook.png "Techcrunch vs Facebook")
 
-Ah, tiens, TechCrunch n'a même pas assez de trafic pour que sa courbe apparaisse… ;-)
+Ah, tiens, TechCrunch n'a même pas assez de trafic pour que sa courbe apparaisse… 😉
 
 
 [^2]: Un bien grand mot vu la profondeur de l'analyse

@@ -17,4 +17,4 @@ Voilà donc mon test publié par Phototrend début août[^1] :
 
 Teasing… j'ai depuis pu tester encore plus longuement un Sony RX100m3, dont je vous reparlerais prochainement…
 
-[^1]: J'aurais dû publier ce billet à ce moment là, oui, mais les vacances, tout ça… ;-)
+[^1]: J'aurais dû publier ce billet à ce moment là, oui, mais les vacances, tout ça… 😉

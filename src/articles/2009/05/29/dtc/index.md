@@ -64,4 +64,4 @@ Voilà donc l'objet du délit :
 
 [^3]: Qui au passage doit avoir un système de calcul aussi sophistiqué que l'Interestingness de Flickr, incompréhensible…
 
-[^4]: Peut-être une ligne de lingerie… ;-)
+[^4]: Peut-être une ligne de lingerie… 😉

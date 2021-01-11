@@ -34,4 +34,4 @@ L'essentiel est de :
 
 [^2]: Avez-vous essayé les [plugins](http://trac.spip.org/trac/spip-zone/wiki/LesPlugins) (dont [SpipForms](http://trac.spip.org/trac/spip-zone/wiki/SpipForms), [SpipListes](http://trac.spip.org/trac/spip-zone/wiki/SpipListes), Coloration Code, Modeles liste, Google Sitemap, etc.), [les modèles](http://www.spip.net/fr_article3454.html), [la pagination](http://www.spip.net/fr_article3367.html), l'édition des docs joints sans rechargement de la page, etc., que nous utilisons à outrance ?
 
-[^3]: Qui a dit Web 2.0 ? ;-)
+[^3]: Qui a dit Web 2.0 ? 😉

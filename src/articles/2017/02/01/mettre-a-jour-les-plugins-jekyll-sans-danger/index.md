@@ -121,7 +121,7 @@ Bundle updated!
 
 # Une nouvelle option à explorer ?
 
-Une [option `--conservative` apparue avec Bundler `1.14`](https://github.com/bundler/bundler/pull/4980#issuecomment-254713686) semble produire le même résultat, mais la documentation n'est pas très claire, je n'ai pas encore compris son intérêt par rapport à `--source`. Des explications sont bienvenues en commentaire, si vous les avez… ;-)
+Une [option `--conservative` apparue avec Bundler `1.14`](https://github.com/bundler/bundler/pull/4980#issuecomment-254713686) semble produire le même résultat, mais la documentation n'est pas très claire, je n'ai pas encore compris son intérêt par rapport à `--source`. Des explications sont bienvenues en commentaire, si vous les avez… 😉
 
 # Mais ces précautions ne suffisent pas toujours
 

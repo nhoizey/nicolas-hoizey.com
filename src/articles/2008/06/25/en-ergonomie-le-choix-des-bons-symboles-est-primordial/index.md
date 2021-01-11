@@ -11,7 +11,7 @@ Si vous devez opter pour des métaphores visuelles pour représenter des donnée
 
 ![](villamil-fleche_tri.jpg "© Frédéric de Villamil")
 
-Au delà du fait que je ne comprends pas la présence d'un tel élément sur un onglet[^1], j'ai plutôt tendance à interpréter comme lui ce triangle, c'est à dire sa pointe indiquant le sens de tri, mais je n'appellerais pas forcément cela comme lui une lecture « logique », vu le nombre de personnes qui interprètent la chose différemment… ;-)
+Au delà du fait que je ne comprends pas la présence d'un tel élément sur un onglet[^1], j'ai plutôt tendance à interpréter comme lui ce triangle, c'est à dire sa pointe indiquant le sens de tri, mais je n'appellerais pas forcément cela comme lui une lecture « logique », vu le nombre de personnes qui interprètent la chose différemment… 😉
 
 Il indique d'ailleurs que pour lui « une pointe vers le bas signifie […] que le premier élément de la liste se trouve sur la première ligne », mais il ne spécifie pas ce qu'il entend par « premier élément ». Je ne pense pas que cette appellation soit adaptée, puisque pour moi le « premier élément » est bien celui de l'affichage, donc toujours en début (visuel) de la liste…
 

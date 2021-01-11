@@ -13,13 +13,13 @@ Ma proposition pour le thème «[tourist](http://www.jpgmag.com/themes/1)» est 
 
 Vous pouvez voter sur [sa page dédiée](http://www.jpgmag.com/photos/20192)[^1].
 
-Evidemment, si vous votez pour sa publication, vous aurez toute ma gratitude !!! ;-)
+Evidemment, si vous votez pour sa publication, vous aurez toute ma gratitude !!! 😉
 
 **MAJ du 04/12 :** Les votes pour le huitième volume sont terminés[^2], mais vous pouvez maintenant voter pour cette soumission au thème «[street](http://www.jpgmag.com/themes/23)» :
 
 ![](maximum-security.jpg "Maximum security")
 
-Comme pour la précédente, vous pouvez voter sur [JPG Magazine](https://www.jpgmag.com/photos/21364), et vous pouvez aussi [la retrouver sur Flickr](http://www.flickr.com/photos/nicolas-hoizey/2704877/) si vous voulez la mettre dans vos favoris… ;-)
+Comme pour la précédente, vous pouvez voter sur [JPG Magazine](https://www.jpgmag.com/photos/21364), et vous pouvez aussi [la retrouver sur Flickr](http://www.flickr.com/photos/nicolas-hoizey/2704877/) si vous voulez la mettre dans vos favoris… 😉
 
 [^1]: Vous pouvez aussi [la retrouver sur Flickr](http://www.flickr.com/photos/nicolas-hoizey/10566776/), au passage, si vous voulez la mettre dans vos favoris…
 

@@ -21,6 +21,6 @@ Par ceci :
 <!DOCTYPE html>
 ```
 
-Tout simplement. ;-)
+Tout simplement. 😉
 
 Je vous invite à lire cette superbe BD pour comprendre un peu mieux où on en est dans la cacophonie entre avènement de HTML 5 et mort de XHTML 2, mais pas de XHTML : « [Misunderstanding Markup: XHTML 2/HTML 5 Comic Strip](http://www.smashingmagazine.com/2009/07/29/misunderstanding-markup-xhtml-2-comic-strip/) ».

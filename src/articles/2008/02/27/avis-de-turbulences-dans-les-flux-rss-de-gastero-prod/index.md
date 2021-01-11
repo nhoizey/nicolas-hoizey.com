@@ -24,7 +24,7 @@ Au passage, vous noterez que j'ai aussi supprimé le [*widget* BoxedUp](http://w
     Un Flux pour les alerter tous et dans les méandre de Gastero Prod les lier
     Au pays de la blogosphère où s’étendent les ombres…
 
-Ca pète, hein… ;-)[^1]
+Ca pète, hein… 😉[^1]
 
 Bon, sérieusement, avec trois flux RSS principaux disponibles sur Gastero Prod — l'un pour les articles, le second pour les photos et le troisième pour les liens[^2] — il devenait compliqué pour un Internaute « moyen »[^3] de s'abonner pour être au courant de tous les nouveaux contenus du site.
 
@@ -70,4 +70,4 @@ A vous de jouer !
 
 [^5]: Sont marrants chez Yahoo! de parler de code source alors que tout se fait graphiquement et par configuration.
 
-[^6]: Oui, vous pouvez voter… ;-)
+[^6]: Oui, vous pouvez voter… 😉

@@ -11,7 +11,7 @@ Donc, si vous avez un compte JPG Magazine, aidez-moi à être sélectionné pour
 
 ![](20080511-fluorescent-jellyfishes.jpg "Fluorescent Jellyfishes")
 
-Si vous n'avez pas encore de compte JPG Magazine et êtes photographe, inscrivez-vous vite ! ;-)
+Si vous n'avez pas encore de compte JPG Magazine et êtes photographe, inscrivez-vous vite ! 😉
 
 Enfin, que vous ayez un compte ou pas, aidez-moi à donner de la visibilité à cette photo grâce à Digg : <http://digg.com/arts_culture/Fluorescent_Jellyfishes>
 

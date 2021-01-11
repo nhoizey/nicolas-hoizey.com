@@ -9,7 +9,7 @@ J'ai découvert [JPG Magazine](http://jpgmag.com/) au détours de discussions su
 
 [^i1]: JPG Mag était alors publié par [Lulu](http://www.lulu.com/jpgmag)
 
-[^i2]: N'hésitez surtout pas à voter pour mes photos !!! ;-)
+[^i2]: N'hésitez surtout pas à voter pour mes photos !!! 😉
 
 ![](/assets/logos/jpg-magazine.png){.logo}
 

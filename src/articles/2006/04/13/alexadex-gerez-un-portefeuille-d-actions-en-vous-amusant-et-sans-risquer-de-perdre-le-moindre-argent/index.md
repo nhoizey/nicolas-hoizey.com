@@ -15,7 +15,7 @@ Cela a donné l'idée à [Colin M. Saunders](http://alexadex.com/ad/about) de cr
 
 Saurez-vous détecter les bonnes tendances et ainsi acheter des parts des sites qui vont décoller rapidement ? [A vous de jouer](http://alexadex.com/ad/index.fcgi?ref=10022) !
 
-Oserez-vous par exemple parier sur ce site Gastero Prod et [en acheter des parts](http://alexadex.com/ad/url/gasteroprod.com) ? ;-)
+Oserez-vous par exemple parier sur ce site Gastero Prod et [en acheter des parts](http://alexadex.com/ad/url/gasteroprod.com) ? 😉
 
 ![](alexadex_gasteroprod.png "La page Alexadex sur Gastero Prod")
 

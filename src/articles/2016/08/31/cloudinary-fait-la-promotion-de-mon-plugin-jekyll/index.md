@@ -25,4 +25,4 @@ Et si ça vous tente, n'hésitez pas à [créer un compte sur Cloudinary](https:
 
 Vous pouvez aussi [« upvoter » sur Hacker News](https://news.ycombinator.com/item?id=12398006), pour donner un peu de visibilité au plugin.
 
-[^parrainage]: Si vous utilisez ce lien pour vous inscrire, cela me donnera un petit bonus de quota pour mon compte, un bon moyen de me remercier et encourager ! ;-)
+[^parrainage]: Si vous utilisez ce lien pour vous inscrire, cela me donnera un petit bonus de quota pour mon compte, un bon moyen de me remercier et encourager ! 😉

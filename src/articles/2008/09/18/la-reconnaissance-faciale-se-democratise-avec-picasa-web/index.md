@@ -23,12 +23,12 @@ Si vous êtes sur Mac et donc plutôt utilisateur de iPhoto[^3] et que vous voul
 
 https://vimeo.com/1690486
 
-A quand une reconnaissance faciale complète et simple dans Adobe Photoshop Lightroom ? ;-)
+A quand une reconnaissance faciale complète et simple dans Adobe Photoshop Lightroom ? 😉
 
 Tout retour d'expérience sur ces différentes solutions m'intéressent !
 
 [^1]: Testé avec un grand succès par [NiKo](http://prendreuncafe.com/blog/post/2007/05/24/Reconnaissance-Faciale) et [Remouk](http://shiii.org/2007/05/24/lhomme-le-plus-classe-du-monde/) !
 
-[^2]: Et abandonner Flickr ? ;-)
+[^2]: Et abandonner Flickr ? 😉
 
 [^3]: Je ne sais pas si Google aurait un intérêt à fournir Picasa pour Mac, d'ailleurs…

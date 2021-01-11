@@ -30,7 +30,7 @@ Donc si vous êtes allergique au RSS, voilà un nouveau moyen de ne plus manquer
 C'est-y pas beau tout ça ?
 
 **MAJ dix minutes après :** Ah bin tiens, [NiKo est aussi passé chez FeedBurner](http://www.prendreuncafe.com/blog/2006/04/24/442-amenagement-des-flux-de-syndication), belle coïncidence !
-**MAJ du 25/04 :** Un point intéressant que j'avais oublié de signaler est que maintenant seul FeedBurner vient chercher le flux RSS chez Gastero Prod, donc ça devrait alléger de manière conséquente la charge serveur et la bande passante consommée. C'est [NiCoS](http://www.unelectronlibre.info/) qui va être content… ;-)
+**MAJ du 25/04 :** Un point intéressant que j'avais oublié de signaler est que maintenant seul FeedBurner vient chercher le flux RSS chez Gastero Prod, donc ça devrait alléger de manière conséquente la charge serveur et la bande passante consommée. C'est [NiCoS](http://www.unelectronlibre.info/) qui va être content… 😉
 
 **Seconde MAJ du 25/04 :** Comme signalé par NiKo, pep propose une explication plus complète des [intérêts et limites de FeedBurner](http://www.callmepep.org/blog/2006/04/24/291-utilisation-de-feedburner-pour-les-fils-de-syndication-principaux).
 

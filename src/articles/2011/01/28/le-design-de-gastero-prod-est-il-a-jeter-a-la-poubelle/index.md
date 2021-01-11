@@ -35,4 +35,4 @@ Merci d'avance, je vous tiendrais au courant !
 
 [^1]: L'extension [Readability](https://addons.mozilla.org/fr/firefox/addon/readability/) permet de lire les contenus Web en retirant l'habillage des pages.
 
-[^2]: Qui s'y connaît en taille de fonte… ;-)
+[^2]: Qui s'y connaît en taille de fonte… 😉

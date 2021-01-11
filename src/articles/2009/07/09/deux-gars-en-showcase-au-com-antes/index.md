@@ -17,4 +17,4 @@ J'ai profité de ce concert pour tester un peu la vidéo en basse luminosité de
 
 https://vimeo.com/5515242
 
-N'hésitez pas à passer en plein écran, c'est du Full HD ! ;-)
+N'hésitez pas à passer en plein écran, c'est du Full HD ! 😉

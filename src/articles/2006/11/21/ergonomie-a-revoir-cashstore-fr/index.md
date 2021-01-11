@@ -25,6 +25,6 @@ C'est d'autant plus dommage que l'ergonomie générale de ce site semble tout à
 
 [^1]: Et il y aurait aussi beaucoup à dire sur l'ergonomie en général, hors du Web !
 
-[^2]: Je suis bien entendu ouvert à toute critique constructive sur l'ergonomie de Gastero Prod… ;-)
+[^2]: Je suis bien entendu ouvert à toute critique constructive sur l'ergonomie de Gastero Prod… 😉
 
 [^3]: Ils annoncent jusqu'à 20%

@@ -9,7 +9,7 @@ tags:  [accessibility, UX, em]
 Afin d'assurer une présentation optimale du texte pour la lisibilité, il est nécessaire de définir un nombre optimal de caractères par ligne quelle que soit la taille du texte.
 :::
 
-Allez, j’ose m’auto-[citer](http://www.24joursdeweb.fr/2013/lachez-prise-sans-perdre-le-controle-grace-a-l-unite-css-em)… ;-)
+Allez, j’ose m’auto-[citer](http://www.24joursdeweb.fr/2013/lachez-prise-sans-perdre-le-controle-grace-a-l-unite-css-em)… 😉
 
 > […] assurer une présentation optimale du texte, notamment en conservant un nombre optimal de caractères par ligne — de 55 à 65, à affiner selon les langues concernées — quelle que soit la taille du texte. Pour cela, une largeur de `30em` est une valeur courante, à ajuster évidemment selon la nature de la police de caractères
 

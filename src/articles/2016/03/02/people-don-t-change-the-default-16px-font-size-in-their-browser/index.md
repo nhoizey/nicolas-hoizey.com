@@ -8,7 +8,7 @@ tags: [em, accessibility, font]
 ::: lead
 I am really happy to still read articles that advocate for the [use of proportional CSS units as `em` and `rem`](http://zellwk.com/blog/rem-vs-em/) in 2016. But there are often trolls[^troll] that come comment these articles to say that we, who are using proportional units, are dumb, because there is no need for this. Here is [an example](http://zellwk.com/blog/rem-vs-em/#comment-2547145640).
 
-[^troll]: I often call myself a troll, that's not that harsh when I'm the one saying it… ;-)
+[^troll]: I often call myself a troll, that's not that harsh when I'm the one saying it… 😉
 
 There are unfortunately **two misleading urban legends** in most web developers minds.
 :::

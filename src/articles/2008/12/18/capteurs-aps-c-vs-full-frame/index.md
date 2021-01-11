@@ -9,7 +9,7 @@ La sortie ces derniers mois de [plusieurs appareils photo numériques équipés 
 
 [^fullframe]: C'est à dire de même taille que les traditionnelles pellicules argentiques de 24x36mm de côté
 
-[^experts]: Qui sont souvent déraisonnables, sans pouvoir se payer du matériel pro à 8000 €… ;-)
+[^experts]: Qui sont souvent déraisonnables, sans pouvoir se payer du matériel pro à 8000 €… 😉
 
 [^apsc]: Appellation faisant référence aux pellicules argentiques au format APS, plus petit que le 24x36mm, correspondant aux capteurs les plus courants des reflex numériques.
 

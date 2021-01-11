@@ -27,7 +27,7 @@ Sur la dernière version du site, j'ai ajouté des photos et des liens, et j'env
 
 ![](gastero-prod-2008.png "Gastero Prod en 2008")
 
-Bon, de toute façon on voit bien que des dinoblogueurs bien moins anciens que moi sont plus consultés, et à raison, donc à quoi bon lutter… ;-)
+Bon, de toute façon on voit bien que des dinoblogueurs bien moins anciens que moi sont plus consultés, et à raison, donc à quoi bon lutter… 😉
 
 [^1]: Ca pète grave, d'avoir une page sur soi dans Wikipedia !
 

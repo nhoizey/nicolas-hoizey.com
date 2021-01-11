@@ -7,7 +7,7 @@ tags:       [hosting, Linux, Gandi, fail]
 
 Si vous venez de temps en temps vous balader sur ce site[^1], vous avez peut-être eu la déception de découvrir qu'il ne répondait plus pendant une semaine. Non, je n'ai pas succombé à l'incroyable faille de sécurité SSH présente dans Debian Linux[^2] depuis deux ans, c'est tout simplement que [mon hébergeur Gandi a eu des soucis matériels](http://iwi.lebardegandi.net/post/2008/05/21/Le-filer-13-%3A-Epilogue) dont j'ai subit des effets de bord.
 
-[^1]: Levez la main que je vous compte ! ;-)
+[^1]: Levez la main que je vous compte ! 😉
 
 [^2]: Oui, c'est la distribution que j'utilise tant bien que mal depuis peu
 

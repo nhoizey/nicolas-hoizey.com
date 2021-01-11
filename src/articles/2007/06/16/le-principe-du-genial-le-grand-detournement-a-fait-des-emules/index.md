@@ -41,4 +41,4 @@ Allez, j'arrête là, je reviendrais peut-être ultérieurement sur le sujet si 
 
 [^1]: Vu le nombre de films considérés, c'est forcément complexe…
 
-[^2]: Bon, OK, il y a pas mal de productions AMDS Films, mais c'est logique, c'est aussi lui qui gère ce site… ;-)
+[^2]: Bon, OK, il y a pas mal de productions AMDS Films, mais c'est logique, c'est aussi lui qui gère ce site… 😉

@@ -9,4 +9,4 @@ Especially if there is nothing useful (no open PR for example) on the repository
 
 ![The UI for repository deletion on GitHub](github-repository-delete.png)
 
-(sorry @etportis ;-) )
+(sorry @etportis 😉 )

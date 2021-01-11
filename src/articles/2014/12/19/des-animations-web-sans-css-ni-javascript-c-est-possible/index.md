@@ -30,7 +30,7 @@ Je suis en train de travailler[^3] sur une grosse refonte du jeu pour une versio
 
 Je me dirigerais sans doute vers la librairie [Snap.svg](http://snapsvg.io/) que l'on me vente beaucoup, mais je suis plutôt sur l'interface pour l'instant donc le choix n'est pas encore figé. Je veux aussi en profiter pour revoir complètement mon code JS qui fait peur à voir.
 
-Il faudra donc sans doute attendre encore des mois avant de voir quoi que ce soit… ;-)
+Il faudra donc sans doute attendre encore des mois avant de voir quoi que ce soit… 😉
 
 [^1]: ou à cause de…
 

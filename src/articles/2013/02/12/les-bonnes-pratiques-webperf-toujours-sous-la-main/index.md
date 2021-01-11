@@ -15,7 +15,7 @@ L'optimisation de la vitesse des sites web est en effet un des éléments clefs 
 
 ![](memento-webperf-interieur.jpg)
 
-En plus, ce mémento a le bon goût de citer mon billet où j'explique pourquoi « [PageSpeed et YSlow ne sont pas des indices de performance](http://www.clever-age.com/veille/reactions/pagespeed-et-yslow-ne-sont-pas-des-indices-de-performance.html) »… ;-)
+En plus, ce mémento a le bon goût de citer mon billet où j'explique pourquoi « [PageSpeed et YSlow ne sont pas des indices de performance](http://www.clever-age.com/veille/reactions/pagespeed-et-yslow-ne-sont-pas-des-indices-de-performance.html) »… 😉
 
 Bravo à [Karine Joly](http://twitter.com/kjoly) de Eyrolles pour cette nouvelle référence et merci à Armel et Lionel pour le travail réalisé !
 

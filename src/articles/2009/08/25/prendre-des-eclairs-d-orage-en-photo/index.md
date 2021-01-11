@@ -20,7 +20,7 @@ Pour la prochaine fois, je me suis promis de trouver le temps de suivre les cons
 - [MP #41 : comment photographier un orage ?](http://phototrend.fr/2009/07/mp-41-comment-photographier-un-orage/)
 - [How to photograph lightning](http://www.weatherscapes.com/techniques.php?cat=lightning&page=lightning)
 
-A bientôt pour la mise en pratique, en espérant arriver à la cheville de certains exemples de [The Big Picture](http://www.boston.com/bigpicture/2009/07/lightning.html)… ;-)
+A bientôt pour la mise en pratique, en espérant arriver à la cheville de certains exemples de [The Big Picture](http://www.boston.com/bigpicture/2009/07/lightning.html)… 😉
 
 [^1]: Bien sûr, l'orage ne prévient pas forcément avant d'arriver, ça n'aide pas…
 

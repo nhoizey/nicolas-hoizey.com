@@ -39,7 +39,7 @@ Si un internaute arrive sur votre site depuis un moteur de recherche, et tombe s
 
 En observant les erreurs 404 relevées par Google, j’ai pu corriger de nombreux problèmes apparus sur Gastero Prod, notamment avec le petit changement opéré sur les URL[^url] pour que les articles du blog ne soient plus à la racine mais dans une sous rubrique blog/ et surtout un mélange entre URL absolues et URL relative, pas encore totalement bien gérées dans SPIP avec des URL arborescentes.
 
-[^url]: Oui, je sais, c’est mal, mais j’ai mis des redirections permanentes au moins, moi ! ;-)
+[^url]: Oui, je sais, c’est mal, mais j’ai mis des redirections permanentes au moins, moi ! 😉
 
 Il n’y a bien entendu pas que le nettoyage des erreurs 404 qui permet d’améliorer la qualité du référencement, mais c’est un autre sujet…
 

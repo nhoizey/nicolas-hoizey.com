@@ -15,4 +15,4 @@ Désolé pour cette interruption momentanée du service, si vous tenez absolumen
 
 [^1]: Admirez l'imagination dans le choix du nom du plugin !
 
-[^2]: Ah bin faut se passer de la pommade de temps en temps, si personne d'autre ne le fait… ;-)
+[^2]: Ah bin faut se passer de la pommade de temps en temps, si personne d'autre ne le fait… 😉

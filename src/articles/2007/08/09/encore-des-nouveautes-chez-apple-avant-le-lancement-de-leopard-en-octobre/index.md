@@ -15,7 +15,7 @@ Sans doute attiré par la grande mode actuelle des écrans télé LCD et Plasma,
 
 ![](Apple-iMac-profil.png "Apple iMac")
 
-La coque passe en aluminium, ce qui donne à Steve l'occasion de dire qu'Apple favorise ainsi le [recyclage](http://www.apple.com/environment/). A quand des MacBook non pro bien classe en alu, alors ? ;-)
+La coque passe en aluminium, ce qui donne à Steve l'occasion de dire qu'Apple favorise ainsi le [recyclage](http://www.apple.com/environment/). A quand des MacBook non pro bien classe en alu, alors ? 😉
 
 Cet iMac s'accompagne évidemment d'un nouveau clavier assorti, en aluminium lui aussi, et surtout extrêmement réduit en épaisseur par rapport au précédent. Il est fait de touches similaires à celles des portables MacBook, il va falloir que certains s'y habituent.
 

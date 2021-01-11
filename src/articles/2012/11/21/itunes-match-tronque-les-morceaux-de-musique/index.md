@@ -25,7 +25,7 @@ Pour supprimer un morceau depuis une *playlist*, il ne suffit pas de presser la 
 
 J'espère que iTunes / iTunes Match sera corrigé pour détecter automatiquement ces morceaux tronqués et les télécharger intégralement…
 
-[^1]: Puis-je encore dire que ma communauté ego centrée de followers Twitter fait partie de «mon entourage» ? ;-)
+[^1]: Puis-je encore dire que ma communauté ego centrée de followers Twitter fait partie de «mon entourage» ? 😉
 
 [^2]: Saleté de widget Twitter qui inclus le tweet initial quand on veut afficher sa réponse, mais ne permet pas l'inverse !
 

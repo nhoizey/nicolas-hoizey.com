@@ -9,6 +9,6 @@ J'ai branché comme d'habitude mon iPod Touch sur mon MacBook pour lancer une sy
 
 ![](ipod-touch-schizophrene.png)
 
-Mon iPod Touch a donc tenté de se faire passer pour un iPhone, mais iTunes ne s'est pas laissé abuser… ;-)
+Mon iPod Touch a donc tenté de se faire passer pour un iPhone, mais iTunes ne s'est pas laissé abuser… 😉
 
 Non, je n'aurais pas d'iPhone tant que cela m'obligera à changer d'opérateur, à avoir un débit inférieur à celui que j'ai actuellement avec mon téléphone — un comble pour le champion des terminaux mobiles d'accès à Internet, et même à avoir moins d'espace de stockage que son cousin iPod Touch !

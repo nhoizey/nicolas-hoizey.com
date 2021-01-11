@@ -17,4 +17,4 @@ Et voilà ce qu'il y a maintenant dans le flux :
 
 Alors, fausse manipulation d'un rédacteur du blog qui a par erreur copié sa vraie liste de tâches personnelle au lieu d'un vrai billet, ou fébrilité ayant conduit à la mise en ligne d'un billet qui aurait dû accompagner un peu plus tard une annonce officielle ?
 
-**Mise à jour :** J'ai l'honneur d'avoir été [TechCrunché](http://www.techcrunch.com/2008/04/11/google-launching-todo-list-product/) après avoir envoyé un mail à ce sujet à Michael Arrington, on va voir si une part d'[hébergement Gandi](http://www.gandi.net/hebergement/) tient la charge… ;-)
+**Mise à jour :** J'ai l'honneur d'avoir été [TechCrunché](http://www.techcrunch.com/2008/04/11/google-launching-todo-list-product/) après avoir envoyé un mail à ce sujet à Michael Arrington, on va voir si une part d'[hébergement Gandi](http://www.gandi.net/hebergement/) tient la charge… 😉

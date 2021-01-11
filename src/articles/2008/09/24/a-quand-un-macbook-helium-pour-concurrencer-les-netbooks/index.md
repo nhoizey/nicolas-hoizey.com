@@ -15,7 +15,7 @@ D'un autre côté, il y a certes un joli et léger [MacBook Air](http://fr.wikip
 
 J'avoue que voir une nouvelle version 12 pouces ne ferait pas trop de sens, la différence avec les 13,3 pouces étant faible, mais il y a largement la place dans la gamme Apple — et dans les *wishlist* des fans et potentiels switcheurs — pour une version réduite et encore plus légère du MacBook Air, de 9 ou 10 pouces[^2].
 
-Appelons le donc MacBook Helium, plus léger que l'Air… ;-)
+Appelons le donc MacBook Helium, plus léger que l'Air… 😉
 
 Il serait potentiellement un peu plus épais que le MacBook Air, la miniaturisation des composant ayant ses limites et l'espace disponible en largeur/profondeur devenant plus réduit, mais qu'importe. Il y aura le MacBook Air pour ceux qui veulent le perdre dans une pile de dossiers, et le MacBook Helium pour ceux qui veulent vraiment se balader avec dans la main un compromis optimal entre le MacBook Air et l'iPhone / iPod Touch.
 

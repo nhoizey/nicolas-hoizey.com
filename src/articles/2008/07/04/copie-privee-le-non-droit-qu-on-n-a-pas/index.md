@@ -19,4 +19,4 @@ Non, ça ne marche pas comme ça ? Bon, tant pis…
 
 [^2]: Là, c'est moi qui le dit, même si je ne regrette quand même pas de n'avoir pas été très assidu en cours de droit…
 
-[^3]: NDR : Mesure Technique Efficace… oui, parce qu'ils en ont aussi essayé des inefficaces dans le passé ! ;-)
+[^3]: NDR : Mesure Technique Efficace… oui, parce qu'ils en ont aussi essayé des inefficaces dans le passé ! 😉

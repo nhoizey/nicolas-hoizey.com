@@ -11,6 +11,6 @@ J'aimerais tout de même savoir, si vous faites partie des 15 concernés, pourqu
 
 Et du même coup, je voudrais savoir si la suppression de ce flux vous importunerait, ou pas.
 
-Si vous n'êtes pas concerné, votre avis peut quand même m'intéresser ! ;-)
+Si vous n'êtes pas concerné, votre avis peut quand même m'intéresser ! 😉
 
 Merci d'avance pour vos retours !

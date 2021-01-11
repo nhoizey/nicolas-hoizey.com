@@ -29,7 +29,7 @@ Cela fait déjà pas mal de temps que je veux me passer de Yahoo! Pipes, mon vai
 
 La position de FeedBurner est plus délicate. J'y vois toujours deux gros intérêts, et m'en passer sera plus difficile.
 
-D'une part, bien entendu, FeedBurner me fourni des statistiques d'abonnement aux flux. Rien de tel qu'un nombre d'abonnés dérisoire pour relativiser la pertinence d'un classement Wikio[^4] ! ;-)
+D'une part, bien entendu, FeedBurner me fourni des statistiques d'abonnement aux flux. Rien de tel qu'un nombre d'abonnés dérisoire pour relativiser la pertinence d'un classement Wikio[^4] ! 😉
 
 D'autre part, même si c'est une fonction à laquelle peu d'utilisateurs semblent penser, FeedBurner assure une fonction de proxy qui soulage énormément mon serveur[^5]. Certes, le nombre réduit d'abonnés ne doit pas générer un trafic délirant, mais je pari sans frémir qu'au moins les trois quarts des abonnés[^6] — volontairement ou en utilisant un mauvais client — ne respectent pas le TTL (*Time To Live*) que j'ai fixé dans mes flux à 60 minutes, et mettent ainsi en évidence la principale faiblesse de la syndication par *pull* qui sature tant les serveurs fournissant les contenus que les bandes passantes. Ce qui me rappelle au passage que je voulais mettre en place une syndication en *push* par XMPP[^jabber].
 
