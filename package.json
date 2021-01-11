@@ -33,11 +33,11 @@
     "build:lambdas": "netlify-lambda build _lambdas",
     "call:lambdas": "netlify functions:invoke --name deploy-succeeded",
     "build:netlify": "cross-env NODE_ENV=production npm-run-all --sequential build build:lambdas",
-    "notist": "node ./src/_utils/update-notist.js",
-    "webmention": "node ./src/_utils/update-webmention.js",
-    "tweets": "node ./src/_utils/send-tweets.js",
+    "notist": "node ./_scripts/update-notist.js",
+    "webmention": "node ./_scripts/update-webmention.js",
+    "tweets": "node ./_scripts/send-tweets.js",
     "algolia": "atomic-algolia",
-    "sprite": "node src/_utils/generate-svg-sprite.js"
+    "sprite": "node ./_scripts/generate-svg-sprite.js"
   },
   "devDependencies": {
     "@11ty/eleventy": "~0.11.1",
