@@ -92,16 +92,31 @@
 
   .navigation {
     background-repeat: no-repeat;
+    // based on https://larsenwork.com/easing-gradients/
+    //   linear-gradient(
+    //     to top,
+    //     hsla(0, 0%, 100%, 0),
+    //     cubic-bezier(0.4, 0, 0, 1),
+    //     hsla(0, 0%, 100%, 1)
+    //   );
     background-image: linear-gradient(
       to top,
-      hsla(0, 0%, 100%, 0),
-      hsla(0, 0%, 100%, 0.05) calc(var(--gap) * 0.5),
-      hsla(0, 0%, 100%, 0.2) calc(var(--gap) * 0.75),
-      hsla(0, 0%, 100%, 0.5) var(--gap),
-      hsla(0, 0%, 100%, 0.75) calc(var(--gap) * 1.25),
-      hsla(0, 0%, 100%, 0.9) calc(var(--gap) * 1.5),
-      hsla(0, 0%, 100%, 0.95) calc(var(--gap) * 2),
-      hsla(0, 0%, 100%, 0.95)
+      hsla(0, 0%, 100%, 0) 0%,
+      hsla(0, 0%, 100%, 0.013) 7%,
+      hsla(0, 0%, 100%, 0.049) 12.3%,
+      hsla(0, 0%, 100%, 0.104) 16.2%,
+      hsla(0, 0%, 100%, 0.175) 19.1%,
+      hsla(0, 0%, 100%, 0.259) 21.5%,
+      hsla(0, 0%, 100%, 0.352) 23.7%,
+      hsla(0, 0%, 100%, 0.45) 26.1%,
+      hsla(0, 0%, 100%, 0.55) 29.1%,
+      hsla(0, 0%, 100%, 0.648) 33.1%,
+      hsla(0, 0%, 100%, 0.741) 38.5%,
+      hsla(0, 0%, 100%, 0.825) 45.7%,
+      hsla(0, 0%, 100%, 0.896) 55%,
+      hsla(0, 0%, 100%, 0.951) 66.9%,
+      hsla(0, 0%, 100%, 0.987) 81.8%,
+      hsl(0, 0%, 100%) 100%
     );
     position: sticky;
     top: 0;
