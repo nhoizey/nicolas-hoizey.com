@@ -5,14 +5,9 @@
       <a class="u-url p-author h-card" href="{{ webmention.author.url }}">
         <img
           class="reaction__author__photo u-photo"
-          {% if lazy == false %}
-            src="{{ cloudinaryPrefix }}w_48,h_48/{{ webmention.author.photo }}"
-            srcset="{{ cloudinaryPrefix }}w_48,h_48/{{ webmention.author.photo }} 1x, {{ cloudinaryPrefix }}w_96,h_96/{{ webmention.author.photo }} 2x"
-          {% else %}
-            src="/assets/avatars/default.svg"
-            data-src="{{ cloudinaryPrefix }}w_48,h_48/{{ webmention.author.photo }}"
-            data-srcset="{{ cloudinaryPrefix }}w_48,h_48/{{ webmention.author.photo }} 1x, {{ cloudinaryPrefix }}w_96,h_96/{{ webmention.author.photo }} 2x"
-          {% endif %}
+          src="/assets/avatars/default.svg"
+          data-src="{{ cloudinaryPrefix }}w_48,h_48/{{ webmention.author.photo }}"
+          data-srcset="{{ cloudinaryPrefix }}w_48,h_48/{{ webmention.author.photo }} 1x, {{ cloudinaryPrefix }}w_96,h_96/{{ webmention.author.photo }} 2x"
           width= "48"
           height="48"
           alt="{{ webmention.author.name }} avatar"
