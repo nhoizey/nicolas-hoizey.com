@@ -372,6 +372,8 @@ img.border {
   border-radius: var(--wobble-max) var(--wobble-min) / var(--wobble-min)
     var(--wobble-max);
   animation: portrait-wobble 5s ease-in-out alternate infinite;
+
+  background-image: linear-gradient(55deg, #acf9fc, #70d4fc);
 }
 
 // https://chrisruppel.com/blog/css-animation-border-radius/
