@@ -64,7 +64,7 @@
     "eleventy-plugin-link_to": "~0.4.0",
     "encoding": "^0.1.13",
     "entities": "^2.1.0",
-    "eslint": "7.17.0",
+    "eslint": "7.18.0",
     "eslint-config-prettier": "7.1.0",
     "eslint-plugin-prettier": "3.3.0",
     "fast-glob": "^3.2.4",
