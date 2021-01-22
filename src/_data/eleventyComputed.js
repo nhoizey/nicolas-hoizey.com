@@ -64,7 +64,6 @@ function htmlAuthors(data) {
     let i = 0;
     const nb = data.authors.length;
     data.authors.forEach((author) => {
-      html += '<span class="p-author h-card">';
       if (author.twitter) {
         html += `<img class="u-photo avatar" src="https://res.cloudinary.com/nho/image/twitter_name/${author.twitter}" alt="${author.name} avatar" loading="lazy" width="48" height="48" /> `;
       }
@@ -72,7 +71,6 @@ function htmlAuthors(data) {
       if (author.twitter) {
         html += ` <a class="author__twitter" href="https://twitter.com/${author.twitter}" aria-label="@${author.twitter} on Twitter"><svg><use xlink:href="#symbol-twitter" /></svg></a>`;
       }
-      html += '</span>';
       i++;
       if (i < nb - 1) {
         html += ', ';
