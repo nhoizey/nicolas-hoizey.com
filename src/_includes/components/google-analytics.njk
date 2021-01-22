@@ -7,11 +7,15 @@
       };
       ga.q = [];
       ga.l = + new Date;
+
+      // https://twitter.com/TimVereecke/status/1352535945229295617
+      // https://developers.google.com/analytics/devguides/collection/gtagjs/user-timings#sampling_considerations
       ga('create', {
         trackingId: 'UA-1655999-10',
         cookieDomain: 'auto',
-        siteSpeedSampleRate: 100
+        siteSpeedSampleRate: 10
       });
+
       ga('set', 'transport', 'beacon');
       ga('set', 'anonymizeIp', true);
       if (window.viewport_width > 0) {
