@@ -25,20 +25,19 @@ async function fetchWebmentions(since, perPage = 10000) {
   if (since) url += `&since=${since}`; // only fetch new mentions
 
   const response = await fetch(url);
-  if (response.ok) {
-    const feed = await response.json();
-    const webmentions = feed.children;
-    let cleanedWebmentions = cleanWebmentions(webmentions);
-    if (cleanedWebmentions.length === 0) {
-      console.log('[Webmention] No new webmention');
-      return [];
-    } else {
-      console.log(`[Webmention] ${cleanedWebmentions.length} new webmentions`);
-      return cleanedWebmentions;
-    }
+  if (!response.ok) {
+    return null;
   }
-
-  return null;
+  const feed = await response.json();
+  const webmentions = feed.children;
+  let cleanedWebmentions = cleanWebmentions(webmentions);
+  if (cleanedWebmentions.length === 0) {
+    console.log('[Webmention] No new webmention');
+    return null;
+  } else {
+    console.log(`[Webmention] ${cleanedWebmentions.length} new webmentions`);
+    return cleanedWebmentions;
+  }
 }
 
 function cleanWebmentions(webmentions) {
