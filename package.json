@@ -50,7 +50,7 @@
     "@rollup/plugin-replace": "^2.3.4",
     "@sindresorhus/slugify": "~1.1",
     "atomic-algolia": "~0.3.19",
-    "autoprefixer": "~10.1.0",
+    "autoprefixer": "~10.2.3",
     "babel-loader": "^8.2.2",
     "bent": "^7.3.12",
     "chalk": "~4.1.0",
