@@ -95,10 +95,8 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
         class="page__illustration u-photo"
         crossorigin="anonymous"
         >
-    {% endif %}
-    {% if layout == 'link' %}
       <p class="link__url">
-        <a href="{{ link }}" class="u-bookmark-of">{{ link }}</a>
+        <a href="{{ link }}" class="u-bookmark-of">{{ link | replace('_', '_&shy;') | safe }}</a>
       </p>
     {% endif %}
     {% if layout == 'note' %}
