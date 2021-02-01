@@ -106,14 +106,14 @@
     "twitter": "^1.7.1",
     "twitter-text": "^3.1.0",
     "workbox-broadcast-update": "6.0.2",
-    "workbox-cacheable-response": "6.0.2",
+    "workbox-cacheable-response": "6.1.0",
     "workbox-cli": "^6.0.2",
     "workbox-core": "6.0.2",
-    "workbox-expiration": "6.0.2",
+    "workbox-expiration": "6.1.0",
     "workbox-google-analytics": "6.0.2",
     "workbox-precaching": "6.0.2",
     "workbox-routing": "6.0.2",
-    "workbox-strategies": "6.0.2"
+    "workbox-strategies": "6.1.0"
   },
   "engines": {
     "node": ">=13"
@@ -121,6 +121,6 @@
   "private": true,
   "dependencies": {
     "algoliasearch": "~4.8.3",
-    "instantsearch.js": "~4.12.0"
+    "instantsearch.js": "~4.13.1"
   }
 }
