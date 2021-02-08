@@ -35,7 +35,7 @@ J'avais choisi [Mozy](/2007/05/une-sauvegarde-de-fichiers-en-ligne-tres-simple-p
 
 Pour la seconde sauvegarde, je n'ai pas pour l'instant de stratégie bien déterminée, chaque ordinateur ayant un usage différent. Mon MacBook Air est sauvegardé avec Time Machine sur le merveilleux disque dur externe [LaCie Little Disk](http://www.lacie.com/support/support_manifest.htm?id=10252)[^4], mais heureusement que Time Machine m'alerte de temps en temps parce que je ne pense pas à le brancher suffisamment souvent.
 
-![](drobo-s.png "onethird")
+![](drobo-s.png){.onethird}
 
 Mon Mac mini qui me sert essentiellement de *media center* est sauvegardé avec Time Machine sur une [baie de 5 disques Drobo-S](http://www.drobo.com/products/professionals/drobo-s/index.php) reliée en Firewire 800. L'usage de Time Machine sur le réseau étant impossible de base[^5], je vais plutôt faire des sauvegardes des autres machines sur cette même baie grâce au logiciel CrashPlan qui sait gérer plusieurs destinations de sauvegarde simultanément.
 

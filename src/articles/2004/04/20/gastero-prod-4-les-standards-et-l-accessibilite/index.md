@@ -35,9 +35,10 @@ Enfin, qui dit graphisme ne signifie pas forcément contrainte sur les tailles d
 
 Des « raccourcis » clavier vous permettent d'accéder rapidement, sans utiliser votre souris, à des éléments du site :
 
-|**Elément concerné**|**Touche**|
-|Page d'accueil|a|
-|Moteur de recherche|r|
+| **Elément concerné** | **Touche** |
+|----------------------|------------|
+| Page d'accueil       | a          |
+| Moteur de recherche  | r          |
 
 Voici la procédure à employer pour utiliser par exemple la touche `a`  :
 

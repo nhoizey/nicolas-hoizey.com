@@ -7,7 +7,7 @@ tags:       [cinema]
 
 Basé sur une très populaire légende chinoise, *Hero* raconte, à travers l'histoire d'un personnage énigmatique nommé Sans Nom (Jet Li), une étape de l'unification des sept royaumes qui constituaient la Chine entre 400 et 200 avant notre ère.
 
-![](hero_affiche.jpg "onethird")
+![](hero_affiche.jpg){.onethird}
 
 Le roi de Qin (Chen Daoming) voulait unifier la Chine pour en devenir le premier Empereur.
 
