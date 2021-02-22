@@ -13,7 +13,7 @@ Pour la réalisation de ce time-lapse, il faut bien sûr un intervalomètre pour
 
 [^appareils]: les appareils concernés à ce jour sont les suivants : NEX-5R, NEX-6, NEX-5T, ILCE-7, ILCE-7R, ILCE-5000, DSC-HX400V, DSC-HX60, DSC-HX60V, DSC-HX400, ILCE-6000, DSC-RX100M3, ILCE-7S, ILCE-5100, ILCE-7M2, DSC-RX100M4, DSC-RX10M2, ILCE-7RM2
 
-Vous voyez de plus sur la vidéo un effet de zoom, qui est lui ajouté grâceà l'application complémentaire [Angle Shift Add-on](https://www.playmemoriescameraapps.com/portal/usbdetail.php?eid=IS9104-NPIA09014_00-000016).
+Vous voyez de plus sur la vidéo un effet de zoom, qui est lui ajouté grâce à l'application complémentaire [Angle Shift Add-on](https://www.playmemoriescameraapps.com/portal/usbdetail.php?eid=IS9104-NPIA09014_00-000016).
 
 Je n'arrive toujours pas à comprendre pourquoi Sony n'inclue pas ces fonctionnalités de base dans ses appareils, et en plus les facture[^facture], alors que :
 
