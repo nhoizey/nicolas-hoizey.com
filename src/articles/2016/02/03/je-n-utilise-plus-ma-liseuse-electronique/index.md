@@ -9,7 +9,7 @@ tags:  [book, ebook]
 Je réagi ici au [billet de Stéphane sur le livre numérique qu'il ne juge pas encore probant](http://nota-bene.org/Livre-numerique-pas-encore-probant-pour-moi) pour donner mon propre avis. J'allais répondre chez lui, mais j'ai voulu trop écrire, ça devenait inconfortable dans le petit champ de saisi, donc j'ai fini par plutôt écrire chez moi… 😉
 :::
 
-![](Cybook-Odyssey-HD-FrontLight.jpg "onethird")
+![](Cybook-Odyssey-HD-FrontLight.jpg){.onethird}
 
 Je lis extrêmement peu en dehors du Web (trop peu, même), et surtout des ouvrages consacrés à [mes deux passions](/a-propos.html) que sont le Web (surtout ses techniques) et la photographie (tant les techniques que les œuvres).
 

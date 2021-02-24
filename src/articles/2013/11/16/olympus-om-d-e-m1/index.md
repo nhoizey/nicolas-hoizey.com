@@ -58,11 +58,11 @@ Bien entendu, les objectifs sont essentiels dans un équipement photo, sans dout
 
 Si j'en crois les nombreux tests détaillés par Ming Thein, ou [ce billet de The Luminous Landscape](http://www.luminous-landscape.com/reviews/lenses/one_upon_a_time.shtml), il ne sera en fait pas si difficile de remplacer mes excellents objectifs actuels en gardant les mêmes qualités :
 
-|Objectifs Canon pour Full Frame|Objectifs équivalents[^2] pour Olympus micro 4/3|Remarques|
-|-
-|EF 24-70mm f/2.8 L USM|[12-40/2.8 M.Zuiko PRO](http://blog.mingthein.com/2013/09/13/lens-review-the-olympus-12-40/)||
-|EF 100mm f/2.8 Macro|[ZD 60mm f2.8 Macro](http://blog.mingthein.com/2012/09/21/olympus-60-2-8-macro/)|On arrive à un équivalent 120mm, mais cela ne devrait pas changer grand chose.|
-|[EF 135mm f/2.0 L USM](http://www.naturepixel.com/canon_ef_135mm_f2,0_l_essai_photo_5d_mark2.htm)|[ZD 75/1.8](http://blog.mingthein.com/2012/07/22/review-the-olympus-zd-751-8-for-micro-four-thirds/)|Cette ouverture à f/1.8 sur un micro 4/3 est assez loin du f/2.0 du Full Frame, donc le bokeh risque d'être moins important, même si c'est un équivalent 150mm, à vérifier.|
+| Objectifs Canon pour Full Frame                                                                   | Objectifs équivalents[^2] pour Olympus micro 4/3                                                     | Remarques                                                                                                                                                                   |
+|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| EF 24-70mm f/2.8 L USM                                                                            | [12-40/2.8 M.Zuiko PRO](http://blog.mingthein.com/2013/09/13/lens-review-the-olympus-12-40/)         |                                                                                                                                                                             |
+| EF 100mm f/2.8 Macro                                                                              | [ZD 60mm f2.8 Macro](http://blog.mingthein.com/2012/09/21/olympus-60-2-8-macro/)                     | On arrive à un équivalent 120mm, mais cela ne devrait pas changer grand chose.                                                                                              |
+| [EF 135mm f/2.0 L USM](http://www.naturepixel.com/canon_ef_135mm_f2,0_l_essai_photo_5d_mark2.htm) | [ZD 75/1.8](http://blog.mingthein.com/2012/07/22/review-the-olympus-zd-751-8-for-micro-four-thirds/) | Cette ouverture à f/1.8 sur un micro 4/3 est assez loin du f/2.0 du Full Frame, donc le bokeh risque d'être moins important, même si c'est un équivalent 150mm, à vérifier. |
 
 Je ne tiens pas compte pour l'instant de mon bon vieux Canon EF 70-300mm, que j'aurais éventuellement remplacé par un 70-200mm de série L, mais un 40-150mm f/2.8 est prévu chez Olympus en 2014, j'ai tout mon temps.
 
