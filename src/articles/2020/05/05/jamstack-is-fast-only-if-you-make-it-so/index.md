@@ -37,7 +37,7 @@ I prefer [doing it on the server](https://nicolas-hoizey.com/articles/2017/07/27
 
 It allows to:
 
-- call webmentio.io API only when building the site, which should be less often than visitors viewing pages.
+- call webmention.io API only when building the site, which should be less often than visitors viewing pages.
 - cache the result of requests to [webmention.io](https://webmention.io) and the timestamp of the latest, so that the next one only asks for new webmentions.
 
 It puts less pressure on webmention.io, with one single request per build, when a client implementation makes a much larger request (or even several, with pagination) for **each** page view.
