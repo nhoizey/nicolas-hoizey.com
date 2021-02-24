@@ -66,7 +66,7 @@
     "entities": "^2.2.0",
     "eslint": "7.20.0",
     "eslint-config-prettier": "7.1.0",
-    "eslint-plugin-prettier": "3.3.0",
+    "eslint-plugin-prettier": "3.3.1",
     "fast-glob": "^3.2.5",
     "fast-memoize": "~2.5.2",
     "feather-icons": "~4.28.0",
