@@ -64,8 +64,8 @@
     "eleventy-plugin-link_to": "~0.4.0",
     "encoding": "^0.1.13",
     "entities": "^2.2.0",
-    "eslint": "7.18.0",
     "eslint-config-prettier": "8.0.0",
+    "eslint": "7.20.0",
     "eslint-plugin-prettier": "3.3.0",
     "fast-glob": "^3.2.5",
     "fast-memoize": "~2.5.2",
@@ -105,14 +105,14 @@
     "truncate-html": "^1.0.3",
     "twitter": "^1.7.1",
     "twitter-text": "^3.1.0",
-    "workbox-broadcast-update": "6.0.2",
+    "workbox-broadcast-update": "6.1.1",
     "workbox-cacheable-response": "6.1.0",
     "workbox-cli": "^6.1.1",
     "workbox-core": "6.1.0",
     "workbox-expiration": "6.1.0",
-    "workbox-google-analytics": "6.0.2",
+    "workbox-google-analytics": "6.1.1",
     "workbox-precaching": "6.1.0",
-    "workbox-routing": "6.0.2",
+    "workbox-routing": "6.1.0",
     "workbox-strategies": "6.1.0"
   },
   "engines": {
@@ -120,7 +120,7 @@
   },
   "private": true,
   "dependencies": {
-    "algoliasearch": "~4.8.3",
+    "algoliasearch": "~4.8.5",
     "instantsearch.js": "~4.13.1"
   }
 }
