@@ -103,7 +103,7 @@ module.exports = function (eleventyConfig) {
     permalink: true,
     permalinkClass: 'deeplink',
     permalinkSymbol:
-      '<svg class="icon" role="img" focusable="false"><use xlink:href="#symbol-anchor" /></svg>',
+      '<svg class="icon" role="img" focusable="false" viewBox="0 0 24 24" width="1em" height="1em"><use xlink:href="#symbol-anchor" /></svg>',
     level: [2, 3, 4],
     slugify: function (s) {
       return slugify(s);
