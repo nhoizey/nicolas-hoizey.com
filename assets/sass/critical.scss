@@ -174,23 +174,12 @@ a {
   grid-template-columns: minmax(auto, max-content) min-content;
   align-items: stretch;
   gap: 0.5rem;
-
-  @media (min-width: 65rem) {
-    grid-template-columns: min-content auto;
-    margin-left: -2rem; // 1rem width + .25rem * 2 paddings + 0.5rem gap
-  }
 }
 
 .deeplink {
-  font-size: 1rem;
-
-  @media (min-width: 65rem) {
-    grid-row-start: 1;
-  }
-
-  span {
-    vertical-align: middle;
-  }
+  display: grid;
+  justify-content: center;
+  align-content: center;
 
   &:link,
   &:visited {
@@ -200,7 +189,6 @@ a {
     text-decoration: none;
 
     svg {
-      font-size: 1rem;
       fill: none;
       stroke: currentColor;
       stroke-width: 2px;
@@ -214,6 +202,17 @@ a {
   &:focus {
     color: var(--color-link-hover);
     background-color: var(--color-link-hover-bg);
+  }
+}
+
+@media (min-width: 65rem) {
+  .heading-wrapper {
+    grid-template-columns: min-content auto;
+    margin-left: -2rem; // 1rem width + .25rem * 2 paddings + 0.5rem gap
+  }
+
+  .deeplink {
+    grid-row-start: 1;
   }
 }
 
