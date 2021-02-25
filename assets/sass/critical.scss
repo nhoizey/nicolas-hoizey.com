@@ -168,20 +168,39 @@ a {
 }
 
 // Deep links (aka anchors)
+// Inspired by https://smolcss.dev/#smol-article-anchors
+.heading-wrapper {
+  display: grid;
+  grid-template-columns: minmax(auto, max-content) min-content;
+  align-items: stretch;
+  gap: 0.5rem;
 
-a.deeplink {
+  @media (min-width: 65rem) {
+    grid-template-columns: min-content auto;
+    margin-left: -2rem; // 1rem width + .25rem * 2 paddings + 0.5rem gap
+  }
+}
+
+.deeplink {
+  font-size: 1rem;
+
+  @media (min-width: 65rem) {
+    grid-row-start: 1;
+  }
+
+  span {
+    vertical-align: middle;
+  }
+
   &:link,
   &:visited {
-    text-align: center;
-    margin-left: 0.3rem;
-    padding: 0 0.4rem;
-    border-radius: 0.4em;
-    color: #767676;
+    padding: 0 0.25rem;
+    border-radius: 0.3em;
+    color: var(--color-meta);
     text-decoration: none;
 
     svg {
-      vertical-align: baseline;
-      font-size: 0.7em;
+      font-size: 1rem;
       fill: none;
       stroke: currentColor;
       stroke-width: 2px;
@@ -190,15 +209,11 @@ a.deeplink {
     }
   }
 
+  .heading-wrapper:hover &,
   &:hover,
   &:focus {
     color: var(--color-link-hover);
     background-color: var(--color-link-hover-bg);
-  }
-
-  @media (min-width: 65rem) {
-    position: absolute;
-    left: -3rem;
   }
 }
 
