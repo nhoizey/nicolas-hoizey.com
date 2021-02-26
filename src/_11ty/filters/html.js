@@ -4,7 +4,7 @@ const entities = require('entities');
 
 module.exports = {
   cleanDeepLinks: (content) => {
-    const regex = / <a class="deeplink"((?!(<\/a>)).|\n)+<\/a>/gm;
+    const regex = /<a class="deeplink"((?!(<\/a>)).|\n)+<\/a>/gm;
     return content.replace(regex, '');
   },
   decodeEntities: (content) => {
