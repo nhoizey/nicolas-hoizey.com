@@ -96,7 +96,7 @@ renderPermalink: (slug, opts, state, idx) => {
 },
 ```
 
-I hope there are enough comments in the code to understand how it works. The main `markdown-it` behavior I had to understand is that it uses an array of tokens to represent HTML nodes, instead of a more traditional [Abstract Syntax Tree](https://en.wikipedia.org/wiki/Abstract_syntax_tree).
+I hope there are enough comments in the code to understand how it works. The main `markdown-it` behavior I had to understand is that [it uses an array of tokens to represent HTML nodes](https://github.com/markdown-it/markdown-it/blob/master/docs/architecture.md#token-stream), instead of a more traditional [Abstract Syntax Tree](https://en.wikipedia.org/wiki/Abstract_syntax_tree).
 
 # Adapting the CSS to the new HTML structure
 
