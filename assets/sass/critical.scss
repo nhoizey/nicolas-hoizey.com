@@ -175,6 +175,7 @@ a {
   grid-template-columns: minmax(auto, max-content) min-content;
   align-items: stretch;
   gap: 0.5rem;
+  --flow-space: var(--gap3);
 }
 
 .deeplink {
