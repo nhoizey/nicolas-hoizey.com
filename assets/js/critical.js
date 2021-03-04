@@ -28,6 +28,7 @@
     10
   );
 
+  // See https://www.bram.us/2021/02/23/the-future-of-css-scroll-linked-animations-part-1/
   // add scroll position as a custom property
   // https://css-tricks.com/books/greatest-css-tricks/scroll-animation/
   // window.addEventListener(
