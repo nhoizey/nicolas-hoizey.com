@@ -2,23 +2,23 @@
 date: 2020-03-09 12:14:54 +02:00
 title: "N26 and lack of JavaScript"
 lang: en
-link: https://hugogiraudel.com/2020/01/20/n26-and-lack-of-javascript/
+link: https://kittygiraudel.com/2020/01/20/n26-and-lack-of-javascript/
 authors:
-  - name: "Hugo Giraudel"
-    twitter: "HugoGiraudel"
-    site: "https://hugogiraudel.com/"
+  - name: "Kitty Giraudel"
+    twitter: "KittyGiraudel"
+    site: "https://kittygiraudel.com/"
 tags: [JavaScript, React, progressive enhancement, User-Agent]
 ---
 
-Great article where Hugo shows how React helps providing N26 clients the features they're looking for even if they unfortunately have JavaScript issues.
+Great article where Kitty shows how React helps providing N26 clients the features they're looking for even if they unfortunately have JavaScript issues.
 
-I like how Hugo reminds us that JavaScript is not a given, it can be missing for many reasons:
+I like how Kitty reminds us that JavaScript is not a given, it can be missing for many reasons:
 
 > JavaScript is fickle. It can fail to load. It can be disabled. It can be blocked. It can fail to run. It probably is fine most of the time, but when it fails, everything tends to go bad. And having such a hard point of failure is not ideal.
 
 All other online services should follow N26's lead. Many don't.
 
-I also like how Hugo shows evidence that **using the browser's User-Agent string to decide what to send to the browser is dangerous**:
+I also like how Kitty shows evidence that **using the browser's User-Agent string to decide what to send to the browser is dangerous**:
 
 > we realized we had an impressively high amount of errors coming from Internet Explorer 11, despite using Polyfill.io to provide unsupported features
 
