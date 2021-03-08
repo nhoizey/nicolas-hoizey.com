@@ -671,8 +671,19 @@ FileETag None
 # Accept-Encoding comes from default header, necessary for gzip/no-gzip requests
 
 <IfModule mod_headers.c>
-  Header set Accept-CH "DPR, Viewport-Width, Width"
-  Header set Vary "Accept-Encoding, DPR, Viewport-Width, Width"
+  Header set Accept-CH "DPR, Width"
+  Header set Vary "Accept-Encoding, DPR, Width"
+</IfModule>
+
+# ------------------------------------------------------------------------------
+# | Feature Policy                                                             |
+# ------------------------------------------------------------------------------
+
+# Add Feature Policy for cross origin Client Hints (in Chrome)
+# https://source.chromium.org/chromium/chromium/src/+/master:content/public/common/content_features.cc;l=267;drc=6687e9201a1b0d2c9c81ad7e4dd113fb09547953
+
+<IfModule mod_headers.c>
+  Header set Feature-Policy "ch-dpr 'self' https://res.cloudinary.com; ch-width 'self' https://res.cloudinary.com"
 </IfModule>
 
 # ##############################################################################
