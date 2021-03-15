@@ -65,9 +65,9 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
     url: page.url
   } %}
   {% from "macros/meta.njk" import meta %}
-  <aside class="page__meta">
+  <footer class="page__meta">
     {{ meta(item) }}
-  </aside>
+  </footer>
 
   <div class="page__body e-content">
     {% if layout == 'link' %}
