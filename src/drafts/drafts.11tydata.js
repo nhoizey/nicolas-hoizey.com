@@ -1,6 +1,6 @@
 module.exports = {
+  layout: 'article',
   eleventyComputed: {
-    layout: 'article',
     permalink: (data) =>
       process.env.NODE_ENV === 'production' ? false : data.permalink,
     eleventyExcludeFromCollections: (data) =>
