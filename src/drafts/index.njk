@@ -1,0 +1,16 @@
+---
+layout: page
+title: Drafts
+eleventyExcludeFromCollections: true
+permalink: "/drafts/"
+---
+
+{% from "macros/articleCard.njk" import articleCard %}
+
+<div class="page">
+  <ol class="cards-list">
+    {% for draft in collections.drafts %}
+      {{ articleCard(draft) }}
+    {% endfor %}
+  </ol>
+</div>
