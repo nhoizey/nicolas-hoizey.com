@@ -12,9 +12,6 @@ module.exports = {
       tags.sort((a, b) => {
         return a.localeCompare(b, 'en', { ignorePunctuation: true });
       });
-      // if (note.url === '/notes/2020/11/18/3/') {
-      //   console.dir({ url: note.url, tags: tags });
-      // }
       note.data.tags = tags;
       return note;
     });
