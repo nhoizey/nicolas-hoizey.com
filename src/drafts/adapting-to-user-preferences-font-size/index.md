@@ -4,7 +4,9 @@ lang:  en
 tags:  [UX, accessibility, CSS, em]
 ---
 
+::: lead
 [Michael Scharnagl](https://twitter.com/justmarkup/)[^feediary] wrote a nice article about standards that allow us to [make our sites adapt to user preferences](https://justmarkup.com/log/2019/02/adapting-to-user-preferences/). He could have talked about the old `Accept-Language` header to adapt to user preferred language, but it will probably be replaced with [the new `Lang` Client Hint](https://twitter.com/mikewest/status/1095945797382877185), so I guess it's a good idea not diving too much into it until then. Another user preference I would like every website to adapt to, that Michael didn't talk about either, is the font size. Let's talk (once again) about this.
+:::
 
 [^feediary]: I discovered Michael when [he created Feediary](https://justmarkup.com/log/2018/07/hey-there-feediary-com/), a Web based RSS/Atom feed reader, which is also a PWA.
 
