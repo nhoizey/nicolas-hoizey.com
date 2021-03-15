@@ -7,13 +7,15 @@
 
   font-size: calc(1em + 2vw);
 
-  @media (min-width: 75rem) {
+  @media (min-width: 75rem) and (min-height: 25rem) {
     display: flex;
     margin: 0;
 
     .older-newer__older,
     .older-newer__newer {
       position: fixed;
+      top: 10rem;
+
       transition-property: transform;
       transition-duration: 0.2s;
       transition-timing-function: ease-in-out;

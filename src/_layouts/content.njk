@@ -5,9 +5,6 @@ layout: default
 {% set newerContent = collections[layout + 's'] | getPreviousCollectionItem(page) %}
 {% set olderContent = collections[layout + 's'] | getNextCollectionItem(page) %}
 
-{% set cssFilename = "component-older-newer.css" %}
-{% include "add-css.njk" %}
-
 {#
 Breadcrumb JSON-LD:
 https://developers.google.com/search/docs/data-types/breadcrumbs
@@ -46,19 +43,6 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
 <article
     class="page h-entry"
     lang="{{ lang }}">
-
-  <ul class="older-newer__shortcuts">
-    <li class="older-newer__older">
-      {% if olderContent %}
-        <a href="{{ olderContent.url }}" aria-label="older {{ layout }}">{% icon "older", "Older" %}</a>
-      {% endif %}
-    </li>
-    <li class="older-newer__newer">
-      {% if newerContent %}
-        <a href="{{ newerContent.url }}" aria-label="newer {{ layout }}">{% icon "newer", "Newer" %}</a>
-      {% endif %}
-    </li>
-  </ul>
 
   {% if layout == 'link' and authors %}
     <p class="page__surtitle">{{ authors.html | safe }}</p>
@@ -106,6 +90,20 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
     {% endif %}
   </div>
 
+  {% set cssFilename = "component-older-newer.css" %}
+  {% include "add-css.njk" %}
+  <ul class="older-newer__shortcuts">
+    <li class="older-newer__older">
+      {% if olderContent %}
+        <a href="{{ olderContent.url }}" aria-label="older {{ layout }}">{% icon "older", "Older" %}</a>
+      {% endif %}
+    </li>
+    <li class="older-newer__newer">
+      {% if newerContent %}
+        <a href="{{ newerContent.url }}" aria-label="newer {{ layout }}">{% icon "newer", "Newer" %}</a>
+      {% endif %}
+    </li>
+  </ul>
   <ul class="older-newer">
     <li class="older-newer__older">
       {% if olderContent %}
