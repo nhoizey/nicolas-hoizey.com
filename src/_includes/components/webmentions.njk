@@ -13,7 +13,8 @@
 {% set mentions = allMentions | webmentionsByType('mention-of') %}
 {% set mentionsSize = mentions | size  %}
 
-<h2 id="webmentions">{{ allMentionsSize }} Webmention{% if allMentionsSize > 1 %}s{% endif %}</h2>
+<aside class="reactions" id="webmentions">
+  <h2>{{ allMentionsSize }} Webmention{% if allMentionsSize > 1 %}s{% endif %}</h2>
 
 {% if likesSize > 0 %}
   <section>
@@ -42,3 +43,4 @@
     {% include "components/webmentions/mentions.njk" %}
   </section>
 {% endif %}
+</aside>
