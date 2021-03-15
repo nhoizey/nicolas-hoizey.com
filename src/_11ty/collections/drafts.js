@@ -2,6 +2,8 @@ const getFilteredCollection = require('../../_utils/filter-collection');
 
 module.exports = {
   drafts: (collection) => {
-    return getFilteredCollection(collection, 'drafts');
+    return process.env.NODE_ENV === 'production'
+      ? []
+      : getFilteredCollection(collection, 'drafts');
   },
 };
