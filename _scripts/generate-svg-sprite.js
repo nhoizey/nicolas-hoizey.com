@@ -18,7 +18,7 @@ const ICONS_LIST = {
     info: { title: 'Info' },
     link: { title: 'Link' },
     'map-pin': { name: 'location', title: 'Location' },
-    'message-circle': { name: 'comments', title: 'Webmention' },
+    'message-circle': { name: 'reactions', title: 'Reactions' },
     search: { title: 'Search' },
     tag: { name: 'tags', title: 'Tag' },
     twitter: { title: 'Twitter' },
