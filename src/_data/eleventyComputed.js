@@ -241,4 +241,10 @@ module.exports = {
   },
   lead: (data) => lead(data),
   // tags: (data) => tags(data),
+  permalink: (data) =>
+    data.layout === 'draft' && process.env.NODE_ENV === 'production'
+      ? false
+      : data.permalink,
+  eleventyExcludeFromCollections: (data) =>
+    data.layout === 'draft' && process.env.NODE_ENV === 'production',
 };
