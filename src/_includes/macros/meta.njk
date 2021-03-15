@@ -34,23 +34,16 @@
         {%- endfor -%}
       </li>
     {% endif %}
-    {% if commentsSize > 0 %}
-      <li class="comments meta__item meta__count">
-        {% icon "comments", "Comments" %}
-        <a href="{{ item.url }}#comments">{{ commentsSize }} comment{% if commentsSize > 1 %}s{% endif %}
-        </a>
-      </li>
-    {% endif %}
     {# TODO: optimize with add number to the computed FM data? #}
     {% set comments = item.url | getCommentsForUrl %}
     {% set commentsSize = comments | size %}
     {% set webmentions = item.url | getWebmentionsForUrl %}
     {% set webmentionsSize = webmentions | size %}
-    {% set repliesSize = commentsSize + webmentionsSize %}
-    {% if repliesSize > 0 %}
+    {% set reactionsSize = commentsSize + webmentionsSize %}
+    {% if reactionsSize > 0 %}
       <li class="reactions meta__item meta__count">
         {% icon "reactions", "Reactions" %}
-        <a href="{{ item.url }}#reactions">{{ repliesSize }} reaction{% if repliesSize > 1 %}s{% endif %}
+        <a href="{{ item.url }}#reactions">{{ reactionsSize }} reaction{% if reactionsSize > 1 %}s{% endif %}
         </a>
       </li>
     {% endif %}
