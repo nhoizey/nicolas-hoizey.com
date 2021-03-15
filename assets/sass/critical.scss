@@ -91,7 +91,7 @@ h3,
 h4,
 h5,
 h6 {
-  line-height: 1.3;
+  line-height: 1.2;
   font-weight: normal;
   font-family: var(--font-family-sans-serif);
   color: var(--color-primary-lighter-2);
@@ -104,6 +104,7 @@ h6 {
 
 h1 {
   font-size: var(--font-size-xxl);
+  font-weight: bold;
   color: var(--color-primary);
 }
 
