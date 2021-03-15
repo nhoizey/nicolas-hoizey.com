@@ -67,7 +67,7 @@ The comments are shown below posts has before[^comments], but they are now stati
 
 # Hello Webmention
 
-I added Webmention to this blog a while ago, with some success on popular posts like [How much data should my Service Worker put upfront in the offline cache?](https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html#webmentions).
+I added Webmention to this blog a while ago, with some success on popular posts like [How much data should my Service Worker put upfront in the offline cache?](https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html#reactions).
 
 I also see that Webmention use is growing elsewhere. For example, [Rachel Andrew](https://twitter.com/rachelandrew) chose to adopt Webmention because she had too much SPAM:
 
@@ -110,7 +110,7 @@ All of this is great, but there are a few issues I'ld like to fix as soon as pos
 
 First, there are some Webmentions that should not be shown, either because they are useless, or because they are duplicates. [webmention.io now provides a way to remove mentions](https://aaronparecki.com/2017/07/19/24/webmention-io), and will evolve to add [a block function](https://indieweb.org/block).
 
-Also, I should group mentions by type. Likes, for example, could take much less space in the page. Aaron Gustafson grouped mentions by type [on his blog](https://www.aaron-gustafson.com/notebook/your-site-should-be-a-pwa/#webmentions), but I'ld like to show them as [facepiles](https://indieweb.org/facepile), [like Drew McLellan](https://allinthehead.com/retro/378/implementing-webmentions#comments):
+Also, I should group mentions by type. Likes, for example, could take much less space in the page. Aaron Gustafson grouped mentions by type [on his blog](https://www.aaron-gustafson.com/notebook/your-site-should-be-a-pwa/#reactions), but I'ld like to show them as [facepiles](https://indieweb.org/facepile), [like Drew McLellan](https://allinthehead.com/retro/378/implementing-webmentions#comments):
 
 ![](webmention-facepiles.png "Nice facepiles for likes and reposts on Drew McLellan's site."){.onehalf}
 
