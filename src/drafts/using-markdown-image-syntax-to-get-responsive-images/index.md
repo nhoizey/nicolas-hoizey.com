@@ -15,7 +15,9 @@ My first serious attempt at mixing Markdown and responsive images was the [Jekyl
 It allowed writing this Liquid tag in Markdown:
 
 ```markdown
+{% raw %}
 {% cloudinary cloudinary-pricing.png alt="Cloudinary pricing" caption="Cloudinary pricing and plans, the **free** one is great for bloggers!" %}
+{% endraw %}
 ```
 
 And get this HTML:
