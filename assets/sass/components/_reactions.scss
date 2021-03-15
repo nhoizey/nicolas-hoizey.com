@@ -1,12 +1,14 @@
 @use '../global/utilities';
 
-#webmentions {
+#reactions {
   @extend %flow;
+
+  summary > h3 {
+    display: inline-block;
+  }
 }
 
 .reactions__list {
-  @extend %flow;
-
   padding: 0;
   list-style-type: none;
 }
@@ -15,6 +17,9 @@
   width: 48px;
   height: 48px;
   padding: 0;
+  border-color: var(--color-link-decoration);
+  border-width: 1px;
+  border-style: solid;
   border-radius: 50%;
 }
 
@@ -24,8 +29,6 @@
 
 .reactions--like-of,
 .reactions--repost-of {
-  --flow-space: 0;
-
   li {
     display: inline-block;
   }
@@ -49,8 +52,10 @@
 }
 
 .reactions--in-reply-to,
-.reactions--mention-of,
-.reactions--comments {
+.reactions--mention-of {
+  @extend %flow;
+  --flow-space: var(--gap3);
+
   .reactions__item {
     clear: both;
     position: relative;

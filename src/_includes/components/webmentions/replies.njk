@@ -1,5 +1,7 @@
 {% set cloudinaryPrefix = 'https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,' %}
 <ol class="reactions__list reactions--in-reply-to">
+  {% include "components/comments.njk" %}
+
   {% for webmention in replies %}
     <li id="webmention-{{ webmention['wm-id'] }}" class="reactions__item h-cite
         {% if webmention.author == undefined %}reaction--no-author{% endif %}
