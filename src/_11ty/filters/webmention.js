@@ -4,10 +4,14 @@ const { readFromCache } = require('../../_utils/cache');
 const rootUrl = require('../../../package.json').homepage;
 
 const WEBMENTION_CACHE = '_cache/webmentions.json';
+const WEBMENTION_BLOCKLIST = '../webmention-blocklist.json';
 
 const getWebmentions = memoize(() => {
   const cached = readFromCache(WEBMENTION_CACHE);
-  return cached.webmentions;
+  const webmentionBlocklist = require(WEBMENTION_BLOCKLIST);
+  return cached.webmentions.filter(
+    (mention) => !webmentionBlocklist.includes(`${mention['wm-id']}`)
+  );
 });
 
 function isSelf(entry) {
