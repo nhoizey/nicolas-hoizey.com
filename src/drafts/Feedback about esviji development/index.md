@@ -1,3 +1,9 @@
+---
+title: "Feedback about esviji development"
+lang:  en
+tags:  [esviji]
+---
+
 # retour d'expérience sur le développement de esviji en SVG
 
 ## 2009-05-11 Début d'intérêt pour le Web comme plateforme de jeu avec Canvas
