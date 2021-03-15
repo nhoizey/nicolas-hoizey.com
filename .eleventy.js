@@ -296,6 +296,8 @@ module.exports = function (eleventyConfig) {
     ui: false,
     ghostMode: false,
     files: ['_site/css/*.css', '_site/js/*.js'],
+    open: true,
+    browser: 'firefox',
   });
 
   return {
