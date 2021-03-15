@@ -669,7 +669,7 @@
     "id_str": "1349077385300344837",
     "htmlText": "<a href=\"https://twitter.com/addyosmani\">@addyosmani</a> Bitly sets cookies and shares user data with third parties. Please consider stopping unnecessarily using URL shorteners.",
     "images": [],
-    "favorite_count": 7,
+    "favorite_count": 8,
     "created_at": {
       "display": "08:34 PM · Jan 12, 2021",
       "meta": "Jan 12, 2021 07:34:47 (UTC)"
@@ -679,7 +679,7 @@
       "screen_name": "simevidas",
       "profile_image_url_https": "https://pbs.twimg.com/profile_images/742138036243292160/cTSLtCgB_normal.jpg"
     },
-    "html": "<blockquote class=\"tweet-card\"><div class=\"tweet-header\"><a class=\"tweet-profile\" href=\"https://twitter.com/simevidas\"><img src=\"https://pbs.twimg.com/profile_images/742138036243292160/cTSLtCgB_normal.jpg\" alt=\"Avatar for simevidas\"></a><div class=\"tweet-author\"><a class=\"tweet-author-name\" href=\"https://twitter.com/simevidas\">Šime Vidas </a><a class=\"tweet-author-handle\" href=\"https://twitter.com/simevidas\">@simevidas</a></div><a class=\"tweet-bird\" href=\"https://twitter.com/simevidas/status/1349077385300344837\"><div class=\"tweet-bird-icon\" role=\"presentation\" aria-label=\"View on Twitter\" title=\"View on Twitter\"></div></a></div><p class=\"tweet-body\"><a href=\"https://twitter.com/addyosmani\">@addyosmani</a> Bitly sets cookies and shares user data with third parties. Please consider stopping unnecessarily using URL shorteners.</p><div class=\"tweet-images\"></div><div class=\"tweet-footer\"><a class=\"tweet-like\" href=\"https://twitter.com/intent/like?tweet_id=1349077385300344837\"><div class=\"tweet-like-icon\" aria-label=\"Like\" title=\"Like\" role=\"img\"></div><span class=\"tweet-like-count\">7 </span></a><a class=\"tweet-date\" title=\"Time Posted: Jan 12, 2021 07:34:47 (UTC)\" href=\"https://twitter.com/simevidas/status/1349077385300344837\">08:34 PM · Jan 12, 2021</a></div></blockquote>"
+    "html": "<blockquote class=\"tweet-card\"><div class=\"tweet-header\"><a class=\"tweet-profile\" href=\"https://twitter.com/simevidas\"><img src=\"https://pbs.twimg.com/profile_images/742138036243292160/cTSLtCgB_normal.jpg\" alt=\"Avatar for simevidas\"></a><div class=\"tweet-author\"><a class=\"tweet-author-name\" href=\"https://twitter.com/simevidas\">Šime Vidas </a><a class=\"tweet-author-handle\" href=\"https://twitter.com/simevidas\">@simevidas</a></div><a class=\"tweet-bird\" href=\"https://twitter.com/simevidas/status/1349077385300344837\"><div class=\"tweet-bird-icon\" role=\"presentation\" aria-label=\"View on Twitter\" title=\"View on Twitter\"></div></a></div><p class=\"tweet-body\"><a href=\"https://twitter.com/addyosmani\">@addyosmani</a> Bitly sets cookies and shares user data with third parties. Please consider stopping unnecessarily using URL shorteners.</p><div class=\"tweet-images\"></div><div class=\"tweet-footer\"><a class=\"tweet-like\" href=\"https://twitter.com/intent/like?tweet_id=1349077385300344837\"><div class=\"tweet-like-icon\" aria-label=\"Like\" title=\"Like\" role=\"img\"></div><span class=\"tweet-like-count\">8 </span></a><a class=\"tweet-date\" title=\"Time Posted: Jan 12, 2021 07:34:47 (UTC)\" href=\"https://twitter.com/simevidas/status/1349077385300344837\">08:34 PM · Jan 12, 2021</a></div></blockquote>"
   },
   "1349264167056912384": {
     "id_str": "1349264167056912384",
@@ -714,5 +714,37 @@
       "profile_image_url_https": "https://pbs.twimg.com/profile_images/742138036243292160/cTSLtCgB_normal.jpg"
     },
     "html": "<blockquote class=\"tweet-card\"><div class=\"tweet-header\"><a class=\"tweet-profile\" href=\"https://twitter.com/simevidas\"><img src=\"https://pbs.twimg.com/profile_images/742138036243292160/cTSLtCgB_normal.jpg\" alt=\"Avatar for simevidas\"></a><div class=\"tweet-author\"><a class=\"tweet-author-name\" href=\"https://twitter.com/simevidas\">Šime Vidas </a><a class=\"tweet-author-handle\" href=\"https://twitter.com/simevidas\">@simevidas</a></div><a class=\"tweet-bird\" href=\"https://twitter.com/simevidas/status/1349606102263066624\"><div class=\"tweet-bird-icon\" role=\"presentation\" aria-label=\"View on Twitter\" title=\"View on Twitter\"></div></a></div><p class=\"tweet-body\">What if browsers provided a “Copy link to element” context menu option for all page elements with ID attributes?<br><br>&lt;h1 id=\"title\"&gt; → https://site.ex/page#title <a href=\"https://twitter.com/simevidas/status/1349601189026017281\">twitter.com/simevidas/status/1349601189026017281</a></p><div class=\"tweet-images\"></div><div class=\"tweet-footer\"><a class=\"tweet-like\" href=\"https://twitter.com/intent/like?tweet_id=1349606102263066624\"><div class=\"tweet-like-icon\" aria-label=\"Like\" title=\"Like\" role=\"img\"></div><span class=\"tweet-like-count\">4 </span></a><a class=\"tweet-date\" title=\"Time Posted: Jan 14, 2021 06:35:43 (UTC)\" href=\"https://twitter.com/simevidas/status/1349606102263066624\">07:35 AM · Jan 14, 2021</a></div></blockquote>"
+  },
+  "276380791905337344": {
+    "id_str": "276380791905337344",
+    "htmlText": "Exactly one ago, last commit on the initial RaphaelJS version of this game, then replaced by native SVG… <a href=\"https://github.com/nhoizey/esviji/commit/ae9d8d15e30fe72c79a57fb43df94b5ea1eb465f\">github.com/nhoizey/esviji/commit/ae9d8d15e30fe72c79a57fb43df94b5ea1eb465f</a>",
+    "images": [],
+    "favorite_count": 0,
+    "created_at": {
+      "display": "06:41 PM · Dec 5, 2012",
+      "meta": "Dec 5, 2012 05:41:30 (UTC)"
+    },
+    "user": {
+      "name": "esviji",
+      "screen_name": "esviji",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/685141203004817409/XBqM9_UP_normal.png"
+    },
+    "html": "<blockquote class=\"tweet-card\"><div class=\"tweet-header\"><a class=\"tweet-profile\" href=\"https://twitter.com/esviji\"><img src=\"https://pbs.twimg.com/profile_images/685141203004817409/XBqM9_UP_normal.png\" alt=\"Avatar for esviji\"></a><div class=\"tweet-author\"><a class=\"tweet-author-name\" href=\"https://twitter.com/esviji\">esviji </a><a class=\"tweet-author-handle\" href=\"https://twitter.com/esviji\">@esviji</a></div><a class=\"tweet-bird\" href=\"https://twitter.com/esviji/status/276380791905337344\"><div class=\"tweet-bird-icon\" role=\"presentation\" aria-label=\"View on Twitter\" title=\"View on Twitter\"></div></a></div><p class=\"tweet-body\">Exactly one ago, last commit on the initial RaphaelJS version of this game, then replaced by native SVG… <a href=\"https://github.com/nhoizey/esviji/commit/ae9d8d15e30fe72c79a57fb43df94b5ea1eb465f\">github.com/nhoizey/esviji/commit/ae9d8d15e30fe72c79a57fb43df94b5ea1eb465f</a></p><div class=\"tweet-images\"></div><div class=\"tweet-footer\"><a class=\"tweet-like\" href=\"https://twitter.com/intent/like?tweet_id=276380791905337344\"><div class=\"tweet-like-icon\" aria-label=\"Like\" title=\"Like\" role=\"img\"></div><span class=\"tweet-like-count\"></span> </a><a class=\"tweet-date\" title=\"Time Posted: Dec 5, 2012 05:41:30 (UTC)\" href=\"https://twitter.com/esviji/status/276380791905337344\">06:41 PM · Dec 5, 2012</a></div></blockquote>"
+  },
+  "992404571078234113": {
+    "id_str": "992404571078234113",
+    "htmlText": "<a href=\"https://twitter.com/nhoizey\">@nhoizey</a> <a href=\"https://twitter.com/Twitter\">@Twitter</a> Tu as essayé de forcer le truc ? Quand ils limitaient le nb de chars dans le profil, la vérif client n'étais pas la même que côté serveur.<br/><br/><a href=\"https://twitter.com/hsablonniere/status/850452754808152066\">twitter.com/hsablonniere/status/850452754808152066</a>",
+    "images": [],
+    "favorite_count": 0,
+    "created_at": {
+      "display": "04:04 PM · May 4, 2018",
+      "meta": "May 4, 2018 02:04:22 (UTC)"
+    },
+    "user": {
+      "name": "Hubert SABLONNIÈRE",
+      "screen_name": "hsablonniere",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/854028880046379008/Bm-ygvTm_normal.jpg"
+    },
+    "html": "<blockquote class=\"tweet-card\"><div class=\"tweet-header\"><a class=\"tweet-profile\" href=\"https://twitter.com/hsablonniere\"><img src=\"https://pbs.twimg.com/profile_images/854028880046379008/Bm-ygvTm_normal.jpg\" alt=\"Avatar for hsablonniere\"></a><div class=\"tweet-author\"><a class=\"tweet-author-name\" href=\"https://twitter.com/hsablonniere\">Hubert SABLONNIÈRE </a><a class=\"tweet-author-handle\" href=\"https://twitter.com/hsablonniere\">@hsablonniere</a></div><a class=\"tweet-bird\" href=\"https://twitter.com/hsablonniere/status/992404571078234113\"><div class=\"tweet-bird-icon\" role=\"presentation\" aria-label=\"View on Twitter\" title=\"View on Twitter\"></div></a></div><p class=\"tweet-body\"><a href=\"https://twitter.com/nhoizey\">@nhoizey</a> <a href=\"https://twitter.com/Twitter\">@Twitter</a> Tu as essayé de forcer le truc ? Quand ils limitaient le nb de chars dans le profil, la vérif client n'étais pas la même que côté serveur.<br><br><a href=\"https://twitter.com/hsablonniere/status/850452754808152066\">twitter.com/hsablonniere/status/850452754808152066</a></p><div class=\"tweet-images\"></div><div class=\"tweet-footer\"><a class=\"tweet-like\" href=\"https://twitter.com/intent/like?tweet_id=992404571078234113\"><div class=\"tweet-like-icon\" aria-label=\"Like\" title=\"Like\" role=\"img\"></div><span class=\"tweet-like-count\"></span> </a><a class=\"tweet-date\" title=\"Time Posted: May 4, 2018 02:04:22 (UTC)\" href=\"https://twitter.com/hsablonniere/status/992404571078234113\">04:04 PM · May 4, 2018</a></div></blockquote>"
   }
 }
