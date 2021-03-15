@@ -22,7 +22,7 @@
 
 // https://piccalil.li/quick-tip/flow-css-utility/
 %flow {
-  & > * + * {
+  & > *:not(script) + * {
     margin-top: var(--flow-space, 1em);
   }
 }
