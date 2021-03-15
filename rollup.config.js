@@ -27,6 +27,7 @@ const JS_NAME =
 
 const plugins_critical = [
   replace({
+    preventAssignment: true,
     'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
   }),
   nodeResolve({ browser: true }),
@@ -44,6 +45,7 @@ const plugins_critical = [
 // only in production, for old browsers
 const plugins_additional_iife = [
   replace({
+    preventAssignment: true,
     'process.env.NODE_ENV': 'production',
   }),
   nodeResolve({ browser: true }),
@@ -60,6 +62,7 @@ const plugins_additional_iife = [
 
 const plugins_additional_es = [
   replace({
+    preventAssignment: true,
     'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
   }),
   nodeResolve({ browser: true }),
@@ -86,6 +89,7 @@ const plugins_additional_es = [
 
 const plugins_archives = [
   replace({
+    preventAssignment: true,
     'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
     'process.env.ALGOLIA_APP_ID': JSON.stringify(process.env.ALGOLIA_APP_ID),
     'process.env.ALGOLIA_READ_ONLY_API_KEY': JSON.stringify(
@@ -172,6 +176,7 @@ if (process.env.NODE_ENV === 'production') {
     plugins: [
       nodeResolve(),
       replace({
+        preventAssignment: true,
         'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
       }),
       babel({
