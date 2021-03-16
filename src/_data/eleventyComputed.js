@@ -100,9 +100,6 @@ function title(data) {
 
 // TODO: remove 'excerpt' filter when this works
 function lead(data) {
-  // if (data.layout === 'note') {
-  //   console.dir(data);
-  // }
   if (data.content === undefined) {
     return '';
   }
