@@ -9,6 +9,10 @@ module.exports = {
       console.log('No URL for comments matching');
       return [];
     }
+    if (url === false) {
+      // TODO: useful? Should happen only for drafts in production mode
+      return [];
+    }
     let contentPath = url.replace(/^\/(.*)\/$/, '$1');
     if (comments === false) {
       comments = readFromCache(COMMENTS_CACHE);

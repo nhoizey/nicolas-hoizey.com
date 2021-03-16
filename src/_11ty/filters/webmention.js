@@ -70,6 +70,10 @@ module.exports = {
       console.log('No URL for webmention matching');
       return [];
     }
+    if (url === false) {
+      // TODO: useful? Should happen only for drafts in production mode
+      return [];
+    }
     let urlsList = getUrlsHistory(url);
     return getWebmentions()
       .filter((entry) => {
