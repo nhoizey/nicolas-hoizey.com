@@ -16,3 +16,4 @@ https://github.com/jensimmons/cssremedy/issues/11
 https://twitter.com/tunetheweb/status/1372289702938689536
 https://twitter.com/nhoizey/status/1372288897208741890
 https://christianheilmann.com/2021/03/13/conditional-animation-with-css-properties/
+https://tatianamac.com/posts/prefers-reduced-motion/
