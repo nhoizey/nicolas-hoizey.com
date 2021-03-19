@@ -5,8 +5,12 @@
   <body
     itemscope
     itemtype="https://schema.org/{% if "about/" in page.inputPath %}AboutPage{% else %}WebPage{% endif %}"
-    data-img-src="{{ page.inputPath | dirname }}/"
-    data-img-dist="{{ page.outputPath | dirname }}/"
+    {% if page.inputPath %}
+      data-img-src="{{ page.inputPath | dirname }}/"
+    {% endif %}
+    {% if page.outputPath %}
+      data-img-dist="{{ page.outputPath | dirname }}/"
+    {% endif %}
   >
 
     <a class="quickaccess visually-hidden" href="#main">Jump to main content</a>

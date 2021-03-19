@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   dirname: (filePath) => {
-    return path.dirname(filePath);
+    return typeof filePath === 'string' ? path.dirname(filePath) : '';
   },
   newUrlToOld: (url) => {
     return url.replace(
