@@ -1,5 +1,11 @@
 #!/bin/sh
 
+if [ -z "$1" ]; then
+  content=""
+else
+  content="$@"
+fi
+
 year=$(date +"%Y")
 month=$(date +"%m")
 day=$(date +"%d")
@@ -28,6 +34,8 @@ read -d '' body <<EOF
 date: $year-$month-$day $hour:$minute:$second $timezone:00
 tags: []
 ---
+
+$content
 
 EOF
 
