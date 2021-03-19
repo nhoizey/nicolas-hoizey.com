@@ -135,7 +135,7 @@ const main = async () => {
   let result = await Promise.all(
     [
       'https://nicolas-hoizey.com/feeds/twitter/links.json',
-      // 'https://nicolas-hoizey.com/feeds/twitter/notes.json',
+      'https://nicolas-hoizey.com/feeds/twitter/notes.json',
     ].map(async (feedUrl) => {
       return fetch(feedUrl)
         .then((response) => response.json())
