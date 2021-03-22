@@ -249,4 +249,14 @@ module.exports = {
       process.env.NODE_ENV === 'production'
     );
   },
+  githubEditUrl: (data) => {
+    if (['article', 'link', 'note'].includes(data.layout)) {
+      return new URL(
+        data.page.inputPath,
+        'https://github.com/nhoizey/nicolas-hoizey.com/blob/main/'
+      ).toString();
+    } else {
+      return false;
+    }
+  },
 };
