@@ -20,12 +20,13 @@ const dtfDigits = new Intl.DateTimeFormat('en-GB', {
   day: '2-digit',
 });
 
-function attributeDate(date) {
-  return dtfDigits.format(date).split('/').reverse().join('-');
-}
+// function attributeDate(date) {
+//   return dtfDigits.format(date).split('/').reverse().join('-');
+// }
 
-function permalinkDate(date) {
-  return dtfDigits.format(date).split('/').reverse().join('/');
+function attributeDate(date) {
+  const dateObject = new Date(date);
+  return dateObject.toISOString().substr(0, 10);
 }
 
 function formattedDate(lang, date) {
@@ -219,7 +220,6 @@ module.exports = {
   lang: (data) => data.lang || config.defaultLang || 'en',
   formattedDate: (data) => formattedDate(data.lang, data.page.date),
   attributeDate: (data) => attributeDate(data.page.date),
-  permalinkDate: (data) => permalinkDate(data.page.date),
   authors: {
     text: (data) => textAuthors(data),
     html: (data) => htmlAuthors(data),
