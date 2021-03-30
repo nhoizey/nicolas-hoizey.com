@@ -1,4 +1,5 @@
 const twitter = require('twitter-text');
+const config = require('../../pack11ty.config.js');
 
 const dtf = {
   en: new Intl.DateTimeFormat('en-GB', {
@@ -215,8 +216,7 @@ function ogImageTagline(data) {
 }
 
 module.exports = {
-  lang: (data) => data.lang || 'en',
-
+  lang: (data) => data.lang || config.defaultLang || 'en',
   formattedDate: (data) => formattedDate(data.lang, data.page.date),
   attributeDate: (data) => attributeDate(data.page.date),
   permalinkDate: (data) => permalinkDate(data.page.date),
