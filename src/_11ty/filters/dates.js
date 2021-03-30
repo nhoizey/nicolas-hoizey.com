@@ -12,10 +12,4 @@ module.exports = {
     let fullDate = `${month.replace('/', '-')}-01T10:00:00.000Z`;
     return moment(fullDate).format('MMMM YYYY');
   },
-  attributeDate: (date) => {
-    return moment(date).format('YYYY-MM-DD');
-  },
-  permalinkDate: (date) => {
-    return moment(date).format('YYYY/MM/DD');
-  },
 };

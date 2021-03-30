@@ -3,8 +3,8 @@
     {% if item.date %}
       <li class="date meta__item meta__date">
         {% icon "date", "Date" %}
-        <time class="dt-published" datetime="{{ item.date | attributeDate }}">
-          {{ item.date | formattedDate }}
+        <time class="dt-published" datetime="{{ item.data.attributeDate }}">
+          {{ item.data.formattedDate }}
         </time>
       </li>
     {% endif %}
