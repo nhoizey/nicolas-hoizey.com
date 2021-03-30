@@ -29,7 +29,8 @@ module.exports = {
   },
   formattedDate: (date) => {
     // return moment(date).format('Do MMMM YYYY');
-    return formattedDate('en', date);
+    const isoDate = new Date(date);
+    return formattedDate('en', isoDate);
   },
   monthString: (month) => {
     // transforms "2020/02" into "February 2020"
