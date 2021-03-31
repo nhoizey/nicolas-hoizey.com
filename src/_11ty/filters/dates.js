@@ -54,6 +54,7 @@ module.exports = {
     return formattedDateTime('en', date);
   },
   monthString: (month) => {
+    // TODO: remove Moment dependency
     // transforms "2020/02" into "February 2020"
     let fullDate = `${month.replace('/', '-')}-01T10:00:00.000Z`;
     return moment(fullDate).format('MMMM YYYY');

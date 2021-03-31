@@ -85,12 +85,9 @@ function htmlAuthors(data) {
   return html;
 }
 
-function title(data) {
-  switch (data.layout) {
-    case 'link':
-      return `${textAuthors(data)}:\n“${data.title}”`;
-    case 'note':
-      return `Note from ${formattedDate(data.lang, data.page.date)}`;
+function bodyTitle(data) {
+  if (data.layout === 'note') {
+    return `Note from ${formattedDate(data.lang, data.page.date)}`;
   }
   if (data.title && data.title !== '') {
     return data.title;
@@ -98,6 +95,14 @@ function title(data) {
     // TODO: console.log(`No title for ${data.page.inputPath}`);
     return '???';
   }
+}
+
+function title(data) {
+  let body = bodyTitle(data);
+  if (data.layout === 'link') {
+    return `${textAuthors(data)}:\n“${body}”`;
+  }
+  return body;
 }
 
 // TODO: remove 'excerpt' filter when this works
@@ -228,7 +233,9 @@ module.exports = {
   head: {
     title: (data) => headTitle(data),
   },
-  title: (data) => title(data),
+  body: {
+    title: (data) => bodyTitle(data),
+  },
   opengraph: {
     type: (data) => ogType(data),
     title: (data) => ogTitle(data),
