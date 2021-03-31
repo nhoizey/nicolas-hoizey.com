@@ -45,6 +45,7 @@ const tweetHashtagTohandle = (tweet) => {
     '#MDN': '@MozDevNet',
     '#Netlify': '@Netlify',
     '#Notist': '@benotist',
+    '#Pinboard': '@Pinboard',
     '#Rollup': '@RollupJS',
     '#Svelte': '@sveltejs',
     '#Tailwind': '@tailwindcss',

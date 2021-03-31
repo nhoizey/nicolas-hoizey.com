@@ -20,9 +20,9 @@ title: Latest Webmentions
       <tr style="font-size: 0.8em; border-top: 3px solid #333">
         <td style="white-space: nowrap">
           {% if webmention.published %}
-            {{ webmention.published | date("DD/MM/YYYY HH:mm") }}
+            {{ webmention.published | formattedDateTime }}
           {% else %}
-            {{ webmention['wm-received'] | date("DD/MM/YYYY HH:mm") }}
+            {{ webmention['wm-received'] | formattedDateTime }}
           {% endif %}
         </td>
         <td style="white-space: nowrap">{{ webmention['wm-property'] }}</td>

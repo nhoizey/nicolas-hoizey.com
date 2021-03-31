@@ -1,4 +1,5 @@
 const twitter = require('twitter-text');
+const config = require('../../pack11ty.config.js');
 
 const dtf = {
   en: new Intl.DateTimeFormat('en-GB', {
@@ -19,12 +20,13 @@ const dtfDigits = new Intl.DateTimeFormat('en-GB', {
   day: '2-digit',
 });
 
-function attributeDate(date) {
-  return dtfDigits.format(date).split('/').reverse().join('-');
-}
+// function attributeDate(date) {
+//   return dtfDigits.format(date).split('/').reverse().join('-');
+// }
 
-function permalinkDate(date) {
-  return dtfDigits.format(date).split('/').reverse().join('/');
+function attributeDate(date) {
+  const dateObject = new Date(date);
+  return dateObject.toISOString().substr(0, 10);
 }
 
 function formattedDate(lang, date) {
@@ -83,12 +85,9 @@ function htmlAuthors(data) {
   return html;
 }
 
-function title(data) {
-  switch (data.layout) {
-    case 'link':
-      return `${textAuthors(data)}:\n“${data.title}”`;
-    case 'note':
-      return `Note from ${formattedDate(data.lang, data.page.date)}`;
+function bodyTitle(data) {
+  if (data.layout === 'note') {
+    return `Note from ${formattedDate(data.lang, data.page.date)}`;
   }
   if (data.title && data.title !== '') {
     return data.title;
@@ -96,6 +95,14 @@ function title(data) {
     // TODO: console.log(`No title for ${data.page.inputPath}`);
     return '???';
   }
+}
+
+function title(data) {
+  let body = bodyTitle(data);
+  if (data.layout === 'link') {
+    return `${textAuthors(data)}:\n“${body}”`;
+  }
+  return body;
 }
 
 // TODO: remove 'excerpt' filter when this works
@@ -215,17 +222,19 @@ function ogImageTagline(data) {
 }
 
 module.exports = {
-  lang: (data) => data.lang || 'en',
-
+  lang: (data) => data.lang || config.defaultLang || 'en',
+  date: (data) => data.date || new Date(),
   formattedDate: (data) => formattedDate(data.lang, data.page.date),
   attributeDate: (data) => attributeDate(data.page.date),
-  permalinkDate: (data) => permalinkDate(data.page.date),
   authors: {
     text: (data) => textAuthors(data),
     html: (data) => htmlAuthors(data),
   },
   head: {
     title: (data) => headTitle(data),
+  },
+  body: {
+    title: (data) => bodyTitle(data),
   },
   opengraph: {
     type: (data) => ogType(data),
@@ -248,5 +257,15 @@ module.exports = {
       data.page.filePathStem.startsWith('/drafts/') &&
       process.env.NODE_ENV === 'production'
     );
+  },
+  githubEditUrl: (data) => {
+    if (['article', 'link', 'note'].includes(data.layout)) {
+      return new URL(
+        data.page.inputPath,
+        'https://github.com/nhoizey/nicolas-hoizey.com/blob/main/'
+      ).toString();
+    } else {
+      return false;
+    }
   },
 };

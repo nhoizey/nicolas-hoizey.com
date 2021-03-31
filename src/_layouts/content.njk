@@ -18,22 +18,22 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
         "@type": "ListItem",
         "position": 1,
         "item": {
-          "@id": "https://nicolas-hoizey.com/{{ layout }}s/{{ date | date("YYYY") }}/",
-          "name": "{{ date | date(" YYYY ") }}"
+          "@id": "https://nicolas-hoizey.com/{{ layout }}s/{{ date | year }}/",
+          "name": "{{ date | year }}"
         }
       }, {
         "@type": "ListItem",
         "position": 2,
         "item": {
-          "@id": "https://nicolas-hoizey.com/{{ layout }}s/{{ date | date("YYYY/MM") }}/",
-          "name": "{{ date | date(" MM ") }}"
+          "@id": "https://nicolas-hoizey.com/{{ layout }}s/{{ date | year }}/{{ date | month }}/",
+          "name": "{{ date | month }}"
         }
       }, {
         "@type": "ListItem",
         "position": 3,
         "item": {
           "@id": "{{ pkg.homepage }}{{ page.url }}",
-          "name": "{% if layout == 'note' %}Note from {{ page.date | formattedDate }}{% else %}{{ title }}{% endif %}"
+          "name": "{{ title }}"
         }
       }
     ]
@@ -48,15 +48,12 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
     <p class="page__surtitle">{{ authors.html | safe }}</p>
   {% endif %}
 
-  {% if layout == 'note' %}
-    <h1 class="page__title p-name">Note from {{ page.date | formattedDate }}</h1>
-  {% else %}
-    <h1 class="page__title p-name">{{ title | orphans | safe }}</h1>
-  {% endif %}
+  <h1 class="page__title p-name">{{ body.title | orphans | safe }}</h1>
 
   {% set item = {
     data: {
       layout: layout,
+      formattedDate: formattedDate,
       lang: lang,
       title: title,
       tags: tags
@@ -108,21 +105,13 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
     <li class="older-newer__older">
       {% if olderContent %}
         {% icon "older", "Older" %} older {{ layout }}:<br />
-        {% if layout == 'note' %}
-          <a href="{{ olderContent.url }}">Note from {{ olderContent.date | formattedDate }}</a>
-        {% else %}
-          <a href="{{ olderContent.url }}">{{ olderContent.data.title }}</a>
-        {% endif %}
+        <a href="{{ olderContent.url }}">{{ olderContent.data.body.title }}</a>
       {% endif %}
     </li>
     <li class="older-newer__newer">
       {% if newerContent %}
         {% icon "newer", "Newer" %} newer {{ layout }}:<br />
-        {% if layout == 'note' %}
-          <a href="{{ newerContent.url }}">Note from {{ newerContent.date | formattedDate }}</a>
-        {% else %}
-          <a href="{{ newerContent.url }}">{{ newerContent.data.title }}</a>
-        {% endif %}
+        <a href="{{ newerContent.url }}">{{ newerContent.data.body.title }}</a>
       {% endif %}
     </li>
   </ul>

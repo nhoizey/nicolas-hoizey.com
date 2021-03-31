@@ -41,7 +41,7 @@
     {% set ogDescription = pkg.description %}
   {% elif layout == "note" %}
     {% set ogTitle = pageExcerpt | striptags | truncate(60) | escape | titleSafe %}
-    {% set ogDescription %}Note from {{ note.date | formattedDate }}{% endset %}
+    {% set ogDescription %}Note from {{ note.data.formattedDate }}{% endset %}
     {% set ogImageTitle = ogDescription %}
   {% else %}
     {% set ogTitle = title %}
