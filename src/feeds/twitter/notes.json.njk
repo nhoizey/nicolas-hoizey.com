@@ -13,10 +13,10 @@ permalink: /feeds/twitter/notes.json
     {
       "id": "{{ absoluteEntryUrl }}",
       "url": "https://nho.io/n/{{ entry.url | replace('/notes/', '') }}",
-      "title": "💬 Note from {{ entry.date | date("Do MMMM YYYY [at] H:mm:ss") }}",
+      "title": "💬 Note from {{ entry.date | formattedDateTime }}",
       "date_published": "{{ entry.date | rssDate }}",
       "content_text": "{{ entry.template.frontMatter.content | noteToTweet(absoluteEntryUrl) | safe }}\n\nhttps://nho.io/n/{{ entry.url | replace("/notes/", "") }}",
-      "attachments": {{ entry.template.frontMatter.content | imagesAsAttachments(absoluteEntryUrl) | safe }}      
+      "attachments": {{ entry.template.frontMatter.content | imagesAsAttachments(absoluteEntryUrl) | safe }}
     }{%- if not loop.last -%},{%- endif -%}
   {% endfor %}
   ]

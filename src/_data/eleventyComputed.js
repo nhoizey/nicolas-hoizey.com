@@ -218,6 +218,7 @@ function ogImageTagline(data) {
 
 module.exports = {
   lang: (data) => data.lang || config.defaultLang || 'en',
+  date: (data) => data.date || new Date(),
   formattedDate: (data) => formattedDate(data.lang, data.page.date),
   attributeDate: (data) => attributeDate(data.page.date),
   authors: {

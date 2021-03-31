@@ -1,6 +1,6 @@
 const moment = require('moment');
 
-const dtf = {
+const dateFormat = {
   en: new Intl.DateTimeFormat('en-GB', {
     year: 'numeric',
     month: 'long',
@@ -13,24 +13,45 @@ const dtf = {
   }),
 };
 
-const dtfDigits = new Intl.DateTimeFormat('en-GB', {
+const dateTimeFormat = {
+  en: new Intl.DateTimeFormat('en-GB', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+  }),
+  fr: new Intl.DateTimeFormat('fr-FR', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+  }),
+};
+
+const dateFormatDigits = new Intl.DateTimeFormat('en-GB', {
   year: 'numeric',
   month: '2-digit',
   day: '2-digit',
 });
 
 function formattedDate(lang, date) {
-  return dtf[lang || 'en'].format(date);
+  const isoDate = new Date(date);
+  return dateFormat[lang || 'en'].format(isoDate);
+}
+
+function formattedDateTime(lang, date) {
+  const isoDate = new Date(date);
+  return dateTimeFormat[lang || 'en'].format(isoDate);
 }
 
 module.exports = {
-  date: (date, format) => {
-    return moment(date).format(format);
-  },
   formattedDate: (date) => {
-    // return moment(date).format('Do MMMM YYYY');
-    const isoDate = new Date(date);
-    return formattedDate('en', isoDate);
+    return formattedDate('en', date);
+  },
+  formattedDateTime: (date) => {
+    return formattedDateTime('en', date);
   },
   monthString: (month) => {
     // transforms "2020/02" into "February 2020"
@@ -38,4 +59,11 @@ module.exports = {
     return moment(fullDate).format('MMMM YYYY');
   },
   attributeDate: (date) => date.substr(0, 10),
+  year: (date) => date.toISOString().substr(0, 4),
+  month: (date) => date.toISOString().substr(5, 2),
+  day: (date) => date.toISOString().substr(8, 2),
+  timestamp: (date) => {
+    const thisDate = new Date(date);
+    return thisDate.getTime() / 1000;
+  },
 };

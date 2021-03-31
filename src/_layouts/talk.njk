@@ -15,15 +15,15 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
         "@type": "ListItem",
         "position": 1,
         "item": {
-          "@id": "https://nicolas-hoizey.com/talks/{{ page.date | date("YYYY") }}/",
-          "name": "{{ page.date | date(" YYYY ") }}"
+          "@id": "https://nicolas-hoizey.com/talks/{{ page.date | year }}/",
+          "name": "{{ page.date | year }}"
         }
       }, {
         "@type": "ListItem",
         "position": 2,
         "item": {
-          "@id": "https://nicolas-hoizey.com/talks/{{ page.date | date("YYYY/MM") }}/",
-          "name": "{{ page.date | date(" MM ") }}"
+          "@id": "https://nicolas-hoizey.com/talks/{{ page.date | year }}/{{ page.date | month }}/",
+          "name": "{{ page.date | month }}"
         }
       }, {
         "@type": "ListItem",
