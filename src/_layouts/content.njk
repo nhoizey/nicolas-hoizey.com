@@ -33,7 +33,7 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
         "position": 3,
         "item": {
           "@id": "{{ pkg.homepage }}{{ page.url }}",
-          "name": "{% if layout == 'note' %}Note from {{ page.data.formattedDate }}{% else %}{{ title }}{% endif %}"
+          "name": "{{ title }}"
         }
       }
     ]
@@ -48,11 +48,7 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
     <p class="page__surtitle">{{ authors.html | safe }}</p>
   {% endif %}
 
-  {% if layout == 'note' %}
-    <h1 class="page__title p-name">Note from {{ page.data.formattedDate }}</h1>
-  {% else %}
-    <h1 class="page__title p-name">{{ title | orphans | safe }}</h1>
-  {% endif %}
+  <h1 class="page__title p-name">{{ title | orphans | safe }}</h1>
 
   {% set item = {
     data: {
@@ -109,21 +105,13 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
     <li class="older-newer__older">
       {% if olderContent %}
         {% icon "older", "Older" %} older {{ layout }}:<br />
-        {% if layout == 'note' %}
-          <a href="{{ olderContent.url }}">Note from {{ olderContent.data.formattedDate }}</a>
-        {% else %}
-          <a href="{{ olderContent.url }}">{{ olderContent.data.title }}</a>
-        {% endif %}
+        <a href="{{ olderContent.url }}">{{ olderContent.data.title }}</a>
       {% endif %}
     </li>
     <li class="older-newer__newer">
       {% if newerContent %}
         {% icon "newer", "Newer" %} newer {{ layout }}:<br />
-        {% if layout == 'note' %}
-          <a href="{{ newerContent.url }}">Note from {{ newerContent.data.formattedDate }}</a>
-        {% else %}
-          <a href="{{ newerContent.url }}">{{ newerContent.data.title }}</a>
-        {% endif %}
+        <a href="{{ newerContent.url }}">{{ newerContent.data.title }}</a>
       {% endif %}
     </li>
   </ul>

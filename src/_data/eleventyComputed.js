@@ -228,6 +228,7 @@ module.exports = {
   head: {
     title: (data) => headTitle(data),
   },
+  title: (data) => title(data),
   opengraph: {
     type: (data) => ogType(data),
     title: (data) => ogTitle(data),
