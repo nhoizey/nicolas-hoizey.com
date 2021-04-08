@@ -12,20 +12,23 @@ let mdContent = '<table><tr>';
 fs.readdirSync(ROOT_DIR).forEach((image) => {
   if (image !== README_FILENAME) {
     if (!(nbImages % NB_IMAGES_PER_LINE)) {
-      mdContent = `${mdContent}
-      </tr>
-      <tr>`;
+      if (nbImages > 0) {
+        mdContent += `
+</tr>`;
+      }
+      mdContent += `
+<tr>`;
     }
     nbImages++;
-    mdContent = `${mdContent}
+    mdContent += `
 <td valign="bottom">
 <img src="./${image}" width="200"><br>
 ${image}
 </td>
-  `;
+`;
   }
 });
-mdContent = `${mdContent}
+mdContent += `
 </tr></table>`;
 
 fs.writeFileSync(path.join(ROOT_DIR, README_FILENAME), mdContent);
