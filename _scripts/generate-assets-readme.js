@@ -20,7 +20,11 @@ FOLDERS.forEach((folder) => {
   console.log(`
 Processing ${folder}…`);
   nbImages = 0;
-  mdContent = '<table><tr>';
+  mdContent = `---
+permalink: false
+---
+
+<table><tr>`;
   fs.readdirSync(folder).forEach((image) => {
     if (image !== README_FILENAME) {
       console.log(` ${image}`);
