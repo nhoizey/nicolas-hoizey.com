@@ -11,7 +11,7 @@ fs.readdirSync(rootDir).forEach((logo) => {
   if (logo !== readmeFile)
     mdContent = `${mdContent}
 <figure>
-<img src="./${logo}" style="max-width: 200px">
+<img src="./${logo}" width="200">
 <figcaption>${logo}</figcaption>
 </figure>
 `;
