@@ -3,37 +3,51 @@
 const fs = require('fs');
 const path = require('path');
 
-const ROOT_DIR = './src/assets/logos/';
+const FOLDERS = [
+  './src/assets/avatars/',
+  './src/assets/icons/',
+  './src/assets/logos/',
+  './src/assets/opengraph/',
+];
 const README_FILENAME = 'README.md';
 const NB_IMAGES_PER_LINE = 6;
 const IMAGE_WIDTH = 150;
-let nbImages = 0;
-let mdContent = '<table><tr>';
 
-fs.readdirSync(ROOT_DIR).forEach((image) => {
-  if (image !== README_FILENAME) {
-    if (!(nbImages % NB_IMAGES_PER_LINE)) {
-      if (nbImages > 0) {
-        mdContent += `
+let nbImages;
+let mdContent;
+
+FOLDERS.forEach((folder) => {
+  console.log(`
+Processing ${folder}…`);
+  nbImages = 0;
+  mdContent = '<table><tr>';
+  fs.readdirSync(folder).forEach((image) => {
+    if (image !== README_FILENAME) {
+      console.log(` ${image}`);
+      if (!(nbImages % NB_IMAGES_PER_LINE)) {
+        if (nbImages > 0) {
+          mdContent += `
 </tr>`;
-      }
-      mdContent += `
+        }
+        mdContent += `
 <tr>`;
-    }
-    nbImages++;
-    mdContent += `
+      }
+      nbImages++;
+      mdContent += `
 <td valign="bottom">
 <img src="./${image}" width="${IMAGE_WIDTH}"><br>
 ${image}
 </td>
 `;
-  }
-});
-while (nbImages % NB_IMAGES_PER_LINE) {
-  mdContent += `
+    }
+  });
+  while (nbImages % NB_IMAGES_PER_LINE) {
+    mdContent += `
 <td></td>`;
-}
-mdContent += `
+    nbImages++;
+  }
+  mdContent += `
 </tr></table>`;
 
-fs.writeFileSync(path.join(ROOT_DIR, README_FILENAME), mdContent);
+  fs.writeFileSync(path.join(folder, README_FILENAME), mdContent);
+});
