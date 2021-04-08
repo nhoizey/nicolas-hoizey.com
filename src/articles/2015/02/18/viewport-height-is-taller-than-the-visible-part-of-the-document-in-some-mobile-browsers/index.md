@@ -2,7 +2,7 @@
 title:      Viewport height is taller than the visible part of the document in some mobile browsers
 date: 2015-02-18 12:00:00 +02:00
 lang:       en
-tags:       [Safari, iPhone, iPad, bug]
+tags:       [CSS, viewport, RWD]
 promoted: true
 ---
 

@@ -1,5 +1,6 @@
 ---
 date: 2020-04-28 09:17:49 +02:00
+tags: [SVG, CanIUse]
 ---
 
 Anyone knows which browsers support the `href` attribute in #SVG `<use>` tags without the `xlink` namespace?
