@@ -25,13 +25,13 @@ kml.svg
 meh.svg
 </td>
 
+</tr>
+<tr>
 <td valign="bottom">
 <img src="./smile.svg" width="150"><br>
 smile.svg
 </td>
 
-</tr>
-<tr>
 <td valign="bottom">
 <img src="./thumbs-up.svg" width="150"><br>
 thumbs-up.svg
@@ -47,7 +47,5 @@ twitter.svg
 zip.svg
 </td>
 
-<td></td>
-<td></td>
 <td></td>
 </tr></table>

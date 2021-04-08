@@ -25,13 +25,13 @@ alwaysdata.png
 apache-solr.png
 </td>
 
+</tr>
+<tr>
 <td valign="bottom">
 <img src="./bluray.png" width="150"><br>
 bluray.png
 </td>
 
-</tr>
-<tr>
 <td valign="bottom">
 <img src="./chrome.png" width="150"><br>
 chrome.png
@@ -52,6 +52,8 @@ crashplan.png
 eleventy.png
 </td>
 
+</tr>
+<tr>
 <td valign="bottom">
 <img src="./feather-icons.png" width="150"><br>
 feather-icons.png
@@ -62,8 +64,6 @@ feather-icons.png
 feed.png
 </td>
 
-</tr>
-<tr>
 <td valign="bottom">
 <img src="./firefox.png" width="150"><br>
 firefox.png
@@ -79,6 +79,8 @@ gandi.png
 homebrew.png
 </td>
 
+</tr>
+<tr>
 <td valign="bottom">
 <img src="./indiewebcamp.png" width="150"><br>
 indiewebcamp.png
@@ -94,8 +96,6 @@ jekyll.png
 jpg-magazine.png
 </td>
 
-</tr>
-<tr>
 <td valign="bottom">
 <img src="./jungledisk.png" width="150"><br>
 jungledisk.png
@@ -106,6 +106,8 @@ jungledisk.png
 lapeyre.png
 </td>
 
+</tr>
+<tr>
 <td valign="bottom">
 <img src="./lighthouse.png" width="150"><br>
 lighthouse.png
@@ -126,13 +128,13 @@ mozy.png
 noos.png
 </td>
 
-</tr>
-<tr>
 <td valign="bottom">
 <img src="./pinboard.png" width="150"><br>
 pinboard.png
 </td>
 
+</tr>
+<tr>
 <td valign="bottom">
 <img src="./pwa.png" width="150"><br>
 pwa.png

@@ -25,13 +25,13 @@ Memes11.jpg
 afonsoalban.jpg
 </td>
 
+</tr>
+<tr>
 <td valign="bottom">
 <img src="./and_finally.jpg" width="150"><br>
 and_finally.jpg
 </td>
 
-</tr>
-<tr>
 <td valign="bottom">
 <img src="./brent_stromberg.jpg" width="150"><br>
 brent_stromberg.jpg
@@ -52,6 +52,8 @@ default.svg
 disqus_5Q8OEPIegL.jpg
 </td>
 
+</tr>
+<tr>
 <td valign="bottom">
 <img src="./disqus_LjLK0Z8psR.jpg" width="150"><br>
 disqus_LjLK0Z8psR.jpg
@@ -62,8 +64,6 @@ disqus_LjLK0Z8psR.jpg
 disqus_VHWaLrfuF5.jpg
 </td>
 
-</tr>
-<tr>
 <td valign="bottom">
 <img src="./disqus_wVm1Rq5U8p.jpg" width="150"><br>
 disqus_wVm1Rq5U8p.jpg
@@ -79,6 +79,8 @@ donysukardi.jpg
 edas.jpg
 </td>
 
+</tr>
+<tr>
 <td valign="bottom">
 <img src="./j0k.jpg" width="150"><br>
 j0k.jpg
@@ -94,8 +96,6 @@ jackdinker.jpg
 jimthebigfatsmileylion.jpg
 </td>
 
-</tr>
-<tr>
 <td valign="bottom">
 <img src="./joelduckworth.jpg" width="150"><br>
 joelduckworth.jpg
@@ -106,6 +106,8 @@ joelduckworth.jpg
 johnyvarsami.jpg
 </td>
 
+</tr>
+<tr>
 <td valign="bottom">
 <img src="./joostvanderschee.jpg" width="150"><br>
 joostvanderschee.jpg
@@ -126,13 +128,13 @@ myeyesarehungry.jpg
 nhoizey.jpg
 </td>
 
-</tr>
-<tr>
 <td valign="bottom">
 <img src="./nikunjthakkar.jpg" width="150"><br>
 nikunjthakkar.jpg
 </td>
 
+</tr>
+<tr>
 <td valign="bottom">
 <img src="./no-avatar.png" width="150"><br>
 no-avatar.png
@@ -185,9 +187,15 @@ validatethis.jpg
 vhpoet.jpg
 </td>
 
+</tr>
+<tr>
 <td valign="bottom">
 <img src="./weisk.jpg" width="150"><br>
 weisk.jpg
 </td>
 
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr></table>

@@ -25,20 +25,18 @@ link.png
 search.png
 </td>
 
+</tr>
+<tr>
 <td valign="bottom">
 <img src="./tag.png" width="150"><br>
 tag.png
 </td>
 
-</tr>
-<tr>
 <td valign="bottom">
 <img src="./talk.png" width="150"><br>
 talk.png
 </td>
 
-<td></td>
-<td></td>
 <td></td>
 <td></td>
 <td></td>
