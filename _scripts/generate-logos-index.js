@@ -18,7 +18,7 @@ fs.readdirSync(ROOT_DIR).forEach((image) => {
     }
     nbImages++;
     mdContent = `${mdContent}
-<td>
+<td valign="bottom">
 <img src="./${image}" width="200"><br>
 ${image}
 </td>
