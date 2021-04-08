@@ -1,4 +1,6 @@
 <table><tr>
+      </tr>
+      <tr>
 <td>
 <img src="./500px.png" width="200"><br>
 500px.png
@@ -14,13 +16,13 @@ HowFast.png
 algolia.png
 </td>
   
-</tr>
-<tr>
 <td>
 <img src="./alwaysdata.png" width="200"><br>
 alwaysdata.png
 </td>
   
+      </tr>
+      <tr>
 <td>
 <img src="./apache-solr.png" width="200"><br>
 apache-solr.png
@@ -36,13 +38,13 @@ bluray.png
 chrome.png
 </td>
   
-</tr>
-<tr>
 <td>
 <img src="./cloudinary.png" width="200"><br>
 cloudinary.png
 </td>
   
+      </tr>
+      <tr>
 <td>
 <img src="./crashplan.png" width="200"><br>
 crashplan.png
@@ -58,13 +60,13 @@ eleventy.png
 feather-icons.png
 </td>
   
-</tr>
-<tr>
 <td>
 <img src="./feed.png" width="200"><br>
 feed.png
 </td>
   
+      </tr>
+      <tr>
 <td>
 <img src="./firefox.png" width="200"><br>
 firefox.png
@@ -80,13 +82,13 @@ gandi.png
 homebrew.png
 </td>
   
-</tr>
-<tr>
 <td>
 <img src="./indiewebcamp.png" width="200"><br>
 indiewebcamp.png
 </td>
   
+      </tr>
+      <tr>
 <td>
 <img src="./jekyll.png" width="200"><br>
 jekyll.png
@@ -102,13 +104,13 @@ jpg-magazine.png
 jungledisk.png
 </td>
   
-</tr>
-<tr>
 <td>
 <img src="./lapeyre.png" width="200"><br>
 lapeyre.png
 </td>
   
+      </tr>
+      <tr>
 <td>
 <img src="./lighthouse.png" width="200"><br>
 lighthouse.png
@@ -124,13 +126,13 @@ medium.png
 mozy.png
 </td>
   
-</tr>
-<tr>
 <td>
 <img src="./noos.png" width="200"><br>
 noos.png
 </td>
   
+      </tr>
+      <tr>
 <td>
 <img src="./pinboard.png" width="200"><br>
 pinboard.png
@@ -146,13 +148,13 @@ pwa.png
 ricg.png
 </td>
   
-</tr>
-<tr>
 <td>
 <img src="./safari.png" width="200"><br>
 safari.png
 </td>
   
+      </tr>
+      <tr>
 <td>
 <img src="./twitter.png" width="200"><br>
 twitter.png
