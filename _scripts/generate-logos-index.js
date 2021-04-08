@@ -5,7 +5,7 @@ const path = require('path');
 
 const ROOT_DIR = './src/assets/logos/';
 const README_FILENAME = 'README.md';
-const NB_IMAGES_PER_LINE = 5;
+const NB_IMAGES_PER_LINE = 6;
 const IMAGE_WIDTH = 150;
 let nbImages = 0;
 let mdContent = '<table><tr>';
@@ -29,6 +29,10 @@ ${image}
 `;
   }
 });
+while (nbImages % NB_IMAGES_PER_LINE) {
+  mdContent += `
+<td></td>`;
+}
 mdContent += `
 </tr></table>`;
 
