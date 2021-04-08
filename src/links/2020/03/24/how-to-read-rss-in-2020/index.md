@@ -8,7 +8,7 @@ authors:
     twitter: "laurakalbag"
     mastodon: "https://mastodon.laurakalbag.com/@laura"
     site: "https://laurakalbag.com/"
-tags: [RSS]
+tags: [feed]
 ---
 
 > Another big benefit of RSS is that <mark>you curate your own feeds</mark>. You get to choose what you subscribe to in your feed reader, and the order in which the posts show up. You might prefer to read the oldest posts first, or the newest. You might group your feeds by topic or another priority. <mark>You are not subjected to the “algorithmic feed”</mark> of Facebook, Twitter, Instagram, YouTube, where they choose the order for you. You won’t miss your friends’ posts because the algorithm decided to suppress them […]

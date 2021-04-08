@@ -2,7 +2,7 @@
 title:      Nouvelle tempête sur les flux RSS, réduisons les intermédiaires !
 date: 2008-09-26 12:00:00 +02:00
 lang:       fr
-tags:       [Google, feed, RSS, Yahoo, FeedBurner]
+tags:       [Google, feed, Yahoo, FeedBurner]
 ---
 
 Alors que je me — et vous — demandais il y a quelque temps si je devais [faire du ménage dans mes flux](/2008/07/faut-il-que-je-revienne-a-un-unique-flux-rss.html), et que la migration de FeedBurner vers Google[^i1] ne semble pas bien se passer pour tout le monde[^i2], j'ai l'impression que mes flux disponibles via FeedBurner ont de plus en plus de hoquets.

@@ -1,8 +1,8 @@
---- 
-title:      "Plus de flux RSS" 
+---
+title:      "Plus de flux RSS"
 date: 2005-01-05 12:00:00 +02:00
-lang:       fr 
-tags:       [SPIP, RSS]
+lang:       fr
+tags:       [SPIP, feed]
 ---
 
 Vous pouvez désormais suivre avec des flux RSS dédiés les publications par thème, et les commentaires article par article.
@@ -14,7 +14,7 @@ Vous vous dites régulièrement que vous appréciez les articles que je publie s
 Alors profitez maintenant de flux RSS dédiés à chaque thème, avec un lien présent sur la page de chacun d'entre eux.
 
 Voici l'exemple pour le thème «[SPIP](/tags/spip/)» :
- 
+
 ![](plus_de_feed_themes.png "Un flux RSS sur un thème")
 
 Le flux RSS de ce thème possède l'URL suivante : <http://www.gasteroprod.com/rss/themes/spip/29.rss>

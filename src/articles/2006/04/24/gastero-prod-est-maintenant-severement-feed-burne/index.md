@@ -2,7 +2,7 @@
 title:      "Gastero Prod est maintenant sévèrement (Feed)Burné"
 date: 2006-04-24 12:00:00 +02:00
 lang:       fr
-tags:       [feed, RSS, FeedBurner]
+tags:       [feed, FeedBurner]
 ---
 
 C'est bien beau de mettre à disposition des flux RSS, mais comment savoir si quelqu'un les utilise ? Et puis certains ont beau dire le contraire, certains[^1] préfèrent encore recevoir l'annonce de nouveaux articles par mail plutôt que par flux de syndication.

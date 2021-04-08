@@ -2,7 +2,7 @@
 title:      Avis de turbulences dans les flux RSS de Gastero Prod
 date: 2008-02-27 12:00:00 +02:00
 lang:       fr
-tags:       [feed, RSS, Yahoo, FeedBurner]
+tags:       [feed, Yahoo, FeedBurner]
 ---
 
 Certains d'entre vous, chers abonnés, m'ont signalé des problèmes dans les flux RSS de Gastero Prod, avec notamment l'apparition de nouveaux éléments dans [le flux RSS principal](http://feeds.feedburner.com/GasteroProd). Pas de panique, ces turbulences sont passagères, et dues principalement à la mise à jour du bloc « Ambiance musicale » en bas de page, et à la création d'un réel flux complet, reprenant en plus des articles du blog les photos et les liens que vous trouvez aussi sur le site.
