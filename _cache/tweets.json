@@ -798,5 +798,21 @@
       "profile_image_url_https": "https://pbs.twimg.com/profile_images/407830253/portrait_normal.png"
     },
     "html": "<blockquote class=\"tweet-card\"><div class=\"tweet-header\"><a class=\"tweet-profile\" href=\"https://twitter.com/seansan\"><img src=\"https://pbs.twimg.com/profile_images/407830253/portrait_normal.png\" alt=\"Avatar for seansan\"></a><div class=\"tweet-author\"><a class=\"tweet-author-name\" href=\"https://twitter.com/seansan\">Sean Ho </a><a class=\"tweet-author-handle\" href=\"https://twitter.com/seansan\">@seansan</a></div><a class=\"tweet-bird\" href=\"https://twitter.com/seansan/status/985833601802559488\"><div class=\"tweet-bird-icon\" role=\"presentation\" aria-label=\"View on Twitter\" title=\"View on Twitter\"></div></a></div><p class=\"tweet-body\">We took a sample size of +30k users over 1 month period. And we grouped them by font size they use (17 is the default on iOS, 14 is the min and 53 is max if Larger Accessibility Text is enabled) Turns out 73% uses default, 20% uses bigger font and 7% uses smaller font. /4</p><div class=\"tweet-images\"><img alt=\"Image from Tweet\" src=\"https://pbs.twimg.com/media/Da5ibmLUwAEsHpP.jpg\"></div><div class=\"tweet-footer\"><a class=\"tweet-like\" href=\"https://twitter.com/intent/like?tweet_id=985833601802559488\"><div class=\"tweet-like-icon\" aria-label=\"Like\" title=\"Like\" role=\"img\"></div><span class=\"tweet-like-count\">93 </span></a><a class=\"tweet-date\" title=\"Time Posted: Apr 16, 2018 10:53:41 (UTC)\" href=\"https://twitter.com/seansan/status/985833601802559488\">12:53 PM · Apr 16, 2018</a></div></blockquote>"
+  },
+  "1381704940574412813": {
+    "id_str": "1381704940574412813",
+    "htmlText": "<a href=\"https://twitter.com/SaraSoueidan\">@SaraSoueidan</a> In my experience that’s caused by people choosing pure white: <a href=\"https://web.dev/prefers-color-scheme/#avoid-pure-white\">web.dev/prefers-color-scheme/#avoid-pure-white</a>. Do you have examples of sites you have trouble with? (DMs are open, no public “shaming” needed.)",
+    "images": [],
+    "favorite_count": 0,
+    "created_at": {
+      "display": "10:25 PM · Apr 12, 2021",
+      "meta": "Apr 12, 2021 08:25:03 (UTC)"
+    },
+    "user": {
+      "name": "Thomas Steiner",
+      "screen_name": "tomayac",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/758412790029750280/fHw8Dxah_normal.jpg"
+    },
+    "html": "<blockquote class=\"tweet-card\"><div class=\"tweet-header\"><a class=\"tweet-profile\" href=\"https://twitter.com/tomayac\"><img src=\"https://pbs.twimg.com/profile_images/758412790029750280/fHw8Dxah_normal.jpg\" alt=\"Avatar for tomayac\"></a><div class=\"tweet-author\"><a class=\"tweet-author-name\" href=\"https://twitter.com/tomayac\">Thomas Steiner </a><a class=\"tweet-author-handle\" href=\"https://twitter.com/tomayac\">@tomayac</a></div><a class=\"tweet-bird\" href=\"https://twitter.com/tomayac/status/1381704940574412813\"><div class=\"tweet-bird-icon\" role=\"presentation\" aria-label=\"View on Twitter\" title=\"View on Twitter\"></div></a></div><p class=\"tweet-body\"><a href=\"https://twitter.com/SaraSoueidan\">@SaraSoueidan</a> In my experience that’s caused by people choosing pure white: <a href=\"https://web.dev/prefers-color-scheme/#avoid-pure-white\">web.dev/prefers-color-scheme/#avoid-pure-white</a>. Do you have examples of sites you have trouble with? (DMs are open, no public “shaming” needed.)</p><div class=\"tweet-images\"></div><div class=\"tweet-footer\"><a class=\"tweet-like\" href=\"https://twitter.com/intent/like?tweet_id=1381704940574412813\"><div class=\"tweet-like-icon\" aria-label=\"Like\" title=\"Like\" role=\"img\"></div><span class=\"tweet-like-count\"></span> </a><a class=\"tweet-date\" title=\"Time Posted: Apr 12, 2021 08:25:03 (UTC)\" href=\"https://twitter.com/tomayac/status/1381704940574412813\">10:25 PM · Apr 12, 2021</a></div></blockquote>"
   }
 }
