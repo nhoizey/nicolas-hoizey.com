@@ -27,7 +27,7 @@
     "serviceworker:inject": "workbox injectManifest workbox.config.js",
     "start": "cross-env NODE_ENV=development npm-run-all --sequential clean build:js --parallel watch:*",
     "start:debug": "DEBUG=Eleventy* npm start",
-    "build": "cross-env NODE_ENV=production npm-run-all --sequential clean --parallel build:js build:sass --sequential build:eleventy serviceworker:inject",
+    "build": "cross-env NODE_ENV=production npm-run-all --sequential clean --parallel build:js build:sass ga --sequential build:eleventy serviceworker:inject",
     "build:debug": "DEBUG=Eleventy* npm run build",
     "build:benchmark": "DEBUG=Eleventy:Benchmark* npm run build",
     "build:lambdas": "netlify-lambda build _lambdas",
@@ -37,7 +37,8 @@
     "webmention": "node ./_scripts/update-webmention.js",
     "tweets": "node ./_scripts/send-tweets.js",
     "algolia": "atomic-algolia",
-    "sprite": "node ./_scripts/generate-svg-sprite.js"
+    "sprite": "node ./_scripts/generate-svg-sprite.js",
+    "ga": "node ./_scripts/update-google-analytics.js"
   },
   "devDependencies": {
     "@11ty/eleventy": "~0.11.1",
@@ -58,6 +59,7 @@
     "cross-env": "^7.0.3",
     "cssnano": "~4.1.10",
     "dotenv": "^8.2.0",
+    "download": "~8.0.0",
     "eleventy-plugin-embed-everything": "~1.11.0",
     "eleventy-plugin-embed-tweet": "^0.3.1",
     "eleventy-plugin-images-responsiver": "^1.8.2",
