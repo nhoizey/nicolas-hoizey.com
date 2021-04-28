@@ -382,25 +382,11 @@ img.border {
 }
 
 .portrait {
-  --wobble-min: 55%;
-  --wobble-max: 100%;
-
   border-style: solid;
   border-color: var(--color-primary);
   border-width: var(--border-width);
-  border-radius: var(--wobble-max) var(--wobble-min) / var(--wobble-min)
-    var(--wobble-max);
-  animation: portrait-wobble 5s ease-in-out alternate infinite;
-
+  border-radius: 50%;
   background-image: linear-gradient(55deg, #acf9fc, #70d4fc);
-}
-
-// https://chrisruppel.com/blog/css-animation-border-radius/
-@keyframes portrait-wobble {
-  100% {
-    border-radius: var(--wobble-min) var(--wobble-max) / var(--wobble-max)
-      var(--wobble-min);
-  }
 }
 
 figcaption {
