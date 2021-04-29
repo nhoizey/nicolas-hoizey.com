@@ -5,7 +5,7 @@ eleventyExcludeFromCollections: true
 lang: en
 ---
 
-![Feed logo](/assets/logos/feed.png){.logo}
+![Feed logo](/assets/logos/feed.png){.small_logo}
 
 You can follow my publications with several feeds.
 

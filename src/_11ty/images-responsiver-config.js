@@ -130,6 +130,15 @@ module.exports = {
     figure: 'never',
     classes: ['logo'],
   },
+  small_logo: {
+    fallbackWidth: 100,
+    minWidth: 50,
+    maxWidth: 200,
+    sizes:
+      '(max-width: 20rem) 22.5vw, (max-width: 30rem) 15vw, (max-width: 67rem) 11.25vw, 7.5rem',
+    figure: 'never',
+    classes: ['small_logo'],
+  },
   page__illustration: {
     fallbackWidth: 300,
     minWidth: 220,

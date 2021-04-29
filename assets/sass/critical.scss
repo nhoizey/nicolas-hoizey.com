@@ -352,6 +352,20 @@ img {
     }
   }
 
+  &.small_logo {
+    @extend .right;
+
+    max-width: 25%;
+
+    @media (min-width: 20em) {
+      max-width: 16.5%;
+    }
+
+    @media (min-width: 30em) {
+      max-width: 12.5%;
+    }
+  }
+
   &.left {
     margin: var(--gap) auto;
 
