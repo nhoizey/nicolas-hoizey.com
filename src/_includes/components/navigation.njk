@@ -1,31 +1,25 @@
 <nav class="navigation" role="navigation">
   <div class="wrap">
-    {# <span class="signature"><span title="Nicolas">N</span><span title=" Hoizey">H</span></span> #}
     <ul class="menu" role="list">
-      <li class="navigation__home{% if page.url == '/' %} current" aria-current="page{% endif %}">
-        <a href="/">home</a>
-      </li>
       {% for type in[
         'articles',
-        'drafts',
         'links',
         'notes',
         'talks',
-        'tags',
-        'feeds',
         'about'
       ] %}
-        {% if build.env == 'development' or type != 'drafts' %}
-          {% set url = '/' + type + '/' %}
-          <li class="navigation__{{ type }}{% if page.url != false and url in page.url %} current" aria-current="page{% endif %}">
-            <a href="{{ url }}">{{ type }}</a>
-          </li>
-        {% endif %}
+        {% set url = '/' + type + '/' %}
+        <li class="navigation__{{ type }}{% if page.url != false and url in page.url %} current" aria-current="page{% endif %}">
+          <a href="{{ url }}">{{ type }}</a>
+        </li>
       {% endfor %}
     </ul>
     <ul class="tools" role="list">
-      <li class="tools__search navigation_archives{% if page.url != false and 'archives' in page.url %} current" aria-current="page{% endif %}">
-        <a href="/archives/">{% icon "search", "Search" %} archives</a>
+      <li class="tools__search navigation__archives{% if page.url != false and 'archives' in page.url %} current" aria-current="page{% endif %}">
+        <a href="/archives/">{% icon "search", "Search" %}<span>archives</span></a>
+      </li>
+      <li class="tools__feeds navigation__feeds{% if page.url != false and 'feeds' in page.url %} current" aria-current="page{% endif %}">
+        <a href="/feeds/">{% icon "feeds", "Feeds" %}<span>feeds</span></a>
       </li>
     </ul>
   </div>

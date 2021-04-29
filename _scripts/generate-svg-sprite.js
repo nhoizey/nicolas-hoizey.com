@@ -19,6 +19,7 @@ const ICONS_LIST = {
     link: { title: 'Link' },
     'map-pin': { name: 'location', title: 'Location' },
     'message-circle': { name: 'reactions', title: 'Reactions' },
+    rss: { name: 'feeds', title: 'Feeds' },
     search: { title: 'Search' },
     tag: { name: 'tags', title: 'Tag' },
     twitter: { title: 'Twitter' },
@@ -26,8 +27,8 @@ const ICONS_LIST = {
     'wifi-off': { name: 'offline', title: 'Offline' },
   },
   simple: {
-    flickr: { title: 'Flickr' },
-    github: { title: 'GitHub' },
+    // flickr: { title: 'Flickr' },
+    // github: { title: 'GitHub' },
     mastodon: { title: 'Mastodon' },
   },
   local: {

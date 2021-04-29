@@ -24,7 +24,7 @@
   }
 
   li {
-    margin: 0;
+    margin: 0 1px;
     padding: 0;
 
     &.navigation__articles,
@@ -33,7 +33,7 @@
     &.navigation__talks {
       display: none;
 
-      @media (min-width: 45em) {
+      @media (min-width: 35em) {
         display: block;
       }
     }
@@ -51,39 +51,43 @@
       a:link,
       a:visited {
         color: var(--color-primary);
-        text-decoration-line: underline;
-        text-decoration-thickness: var(--border-width);
-        text-decoration-color: var(--color-primary-lighter-2);
+        background-image: linear-gradient(
+          to top,
+          var(--color-primary),
+          var(--color-primary) calc(var(--border-width) + 1px),
+          white calc(var(--border-width) + 1px),
+          white
+        );
         -webkit-text-stroke-width: 0.05em;
       }
 
       a:hover,
       a:focus {
         color: white;
+        background-image: none;
+        background-color: var(--color-primary);
         text-decoration: none;
       }
     }
   }
 
   .tools {
+    color: var(--color-primary);
+
     svg {
       fill: transparent;
       stroke: currentColor;
       stroke-width: 2px;
     }
   }
-
-  // .signature {
-  //   display: none;
-  // }
 }
 
-.no-js .tools__search {
+.no-js .tools__search svg {
   display: none !important;
 }
 
 // Sticky navigation
-@media (min-height: 30rem) {
+@media (min-height: 40rem) {
   // all elements that have an id attribute can become the target of an anchor link
   // https://markus.oberlehner.net/blog/simple-solution-for-anchor-links-behind-sticky-headers/
   [id] {
@@ -121,51 +125,5 @@
     position: sticky;
     top: 0;
     z-index: 2;
-
-    // .wrap {
-    //   position: relative;
-    // }
-
-    // .signature {
-    //   display: inline-block;
-    //   position: absolute;
-    //   top: 0;
-    //   left: 0;
-
-    //   font-family: var(--font-family-serif);
-    //   font-weight: bold;
-    //   background-color: var(--color-primary)
-    //   color: white;
-    //   padding: 0 0.2em;
-    //   opacity: 0;
-
-    //   animation: animate-sig 1s linear;
-    //   animation-play-state: paused;
-    //   animation-delay: calc((var(--scrollTo200) - 0.5) * -1.5s);
-    // }
   }
-
-  // Inspiration:
-  //   https://www.commarts.com/
-  // Technique :
-  //   https://css-tricks.com/books/greatest-css-tricks/scroll-animation/
-
-  // .navigation ul:first-of-type {
-  //   animation: animate-nav 1s linear;
-  //   animation-play-state: paused;
-  //   animation-delay: calc(var(--scrollTo200) * -1s);
-  // }
 }
-
-// @keyframes animate-sig {
-//   to {
-//     opacity: 1;
-//   }
-// }
-
-// @keyframes animate-nav {
-//   to {
-//     margin-left: 2.5em;
-//     letter-spacing: 0.05vw;
-//   }
-// }
