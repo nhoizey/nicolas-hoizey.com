@@ -7,7 +7,7 @@ lang: en
 
 ![Feed logo](/assets/logos/feed.png){.small_logo}
 
-You can follow my publications with several feeds:
+You can follow my publications with different feeds:
 
 - [latest articles](/feeds/articles.xml), about once a month
 - [latest links](/feeds/links.xml), multiple times each week
