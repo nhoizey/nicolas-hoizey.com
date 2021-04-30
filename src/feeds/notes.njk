@@ -2,20 +2,20 @@
 layout: null
 permalink: /feeds/notes.xml
 ---
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="/assets/pretty-atom-feed-v3.xsl" type="text/xsl" media="screen"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Nicolas Hoizey - Notes</title>
-  <link href="{{ pkg.homepage }}/feeds/notes.xml" rel="self"/>
-  <link href="{{ pkg.homepage }}/notes/"/>
-  <link rel="hub" href="http://pubsubhubbub.superfeedr.com/" />
-  <updated>{{ collections.notes | rssLastUpdatedDate }}</updated>
-  <id>{{ pkg.homepage }}/notes/</id>
-  <author>
-    <name>{{ pkg.author.name }}</name>
-    <email>{{ pkg.author.email }}</email>
-  </author>
-  <generator uri="https://11ty.dev" version="{{ build.version }}">Eleventy {{ build.version }}</generator>
+
+{% extends "./../_layouts/feed.njk" %}
+
+{% block title %}Nicolas Hoizey - Notes{% endblock %}
+
+{% block self %}notes.xml{% endblock %}
+
+{% block page %}notes/{% endblock %}
+
+{% block id %}notes/{% endblock %}
+
+{% block update %}{{ collections.notes | rssLastUpdatedDate }}{% endblock %}
+
+{% block entries %}
   {% for entry in collections.notes | limit(20) %}
     {% set absoluteEntryUrl %}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{% endset %}
     <entry>
@@ -26,4 +26,4 @@ permalink: /feeds/notes.xml
       <content type="html">{{ entry.templateContent | cleanDeepLinks | htmlToAbsoluteUrls(absoluteEntryUrl) }}</content>
     </entry>
   {% endfor %}
-</feed>
+{% endblock %}

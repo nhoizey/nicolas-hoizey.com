@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="/assets/pretty-atom-feed-v3.xsl" type="text/xsl" media="screen"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{% block title %}Nicolas Hoizey - Articles{% endblock %}</title>
+  <link href="{{ pkg.homepage }}/feeds/{% block self %}articles.xml{% endblock %}" rel="self"/>
+  <link href="{{ pkg.homepage }}/{% block page %}articles/{% endblock %}"/>
+  <link rel="hub" href="http://pubsubhubbub.superfeedr.com/" />
+  <updated>{% block update %}{{ collections.articles | rssLastUpdatedDate }}{% endblock %}</updated>
+  <id>{{ pkg.homepage }}/{% block id %}articles/{% endblock %}</id>
+  <author>
+    <name>{{ pkg.author.name }}</name>
+    <email>{{ pkg.author.email }}</email>
+  </author>
+  <generator uri="https://11ty.dev" version="{{ build.version }}">Eleventy {{ build.version }}</generator>
+  {% block entries %}
+  {% endblock %}
+</feed>

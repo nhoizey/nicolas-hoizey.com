@@ -2,20 +2,20 @@
 layout: null
 permalink: /feeds/all.xml
 ---
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="/assets/pretty-atom-feed-v3.xsl" type="text/xsl" media="screen"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Nicolas Hoizey - All contents</title>
-  <link href="{{ pkg.homepage }}/feeds/all.xml" rel="self" />
-  <link href="{{ pkg.homepage }}/" />
-  <link rel="hub" href="http://pubsubhubbub.superfeedr.com/" />
-  <updated>{{ collections.archives | rssLastUpdatedDate }}</updated>
-  <id>{{ pkg.homepage }}</id>
-  <author>
-    <name>{{ pkg.author.name }}</name>
-    <email>{{ pkg.author.email }}</email>
-  </author>
-  <generator uri="https://11ty.dev" version="{{ build.version }}">Eleventy {{ build.version }}</generator>
+
+{% extends "./../_layouts/feed.njk" %}
+
+{% block title %}Nicolas Hoizey - All contents{% endblock %}
+
+{% block self %}all.xml{% endblock %}
+
+{% block page %}archives/{% endblock %}
+
+{% block id %}archives/{% endblock %}
+
+{% block update %}{{ collections.archives | rssLastUpdatedDate }}{% endblock %}
+
+{% block entries %}
   {% for entry in collections.archives | limit(20) %}
     {% set absoluteEntryUrl %}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{% endset %}
     {% set readableDate = entry.date | formattedDateTime %}
@@ -50,4 +50,4 @@ permalink: /feeds/all.xml
       </content>
     </entry>
   {% endfor %}
-</feed>
+{% endblock %}

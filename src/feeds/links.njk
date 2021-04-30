@@ -2,20 +2,20 @@
 layout: null
 permalink: /feeds/links.xml
 ---
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="/assets/pretty-atom-feed-v3.xsl" type="text/xsl" media="screen"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Nicolas Hoizey - Links</title>
-  <link href="{{ pkg.homepage }}/feeds/links.xml" rel="self"/>
-  <link href="{{ pkg.homepage }}/links/"/>
-  <updated>{{ collections.links | rssLastUpdatedDate }}</updated>
-  <id>{{ pkg.homepage }}/links/</id>
-  <author>
-    <name>{{ pkg.author.name }}</name>
-    <email>{{ pkg.author.email }}</email>
-  </author>
-  <generator uri="https://11ty.dev" version="{{ build.version }}">Eleventy {{ build.version }}</generator>
 
+{% extends "./../_layouts/feed.njk" %}
+
+{% block title %}Nicolas Hoizey - Links{% endblock %}
+
+{% block self %}links.xml{% endblock %}
+
+{% block page %}links/{% endblock %}
+
+{% block id %}links/{% endblock %}
+
+{% block update %}{{ collections.links | rssLastUpdatedDate }}{% endblock %}
+
+{% block entries %}
   {% for entry in collections.links | limit(20) %}
     {% set absoluteEntryUrl %}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{% endset %}
     <entry>
@@ -44,5 +44,4 @@ permalink: /feeds/links.xml
       {%- endfor -%}
     </entry>
   {% endfor %}
-
-</feed>
+{% endblock %}

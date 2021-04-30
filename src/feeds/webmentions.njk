@@ -2,20 +2,23 @@
 layout: null
 permalink: /feeds/webmentions.xml
 ---
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="/assets/pretty-atom-feed-v3.xsl" type="text/xsl" media="screen"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Nicolas Hoizey - Webmentions</title>
-  <link href="{{ pkg.homepage }}/feeds/webmentions.xml" rel="self"/>
-  <link href="{{ pkg.homepage }}/tools/latest-webmentions/"/>
-  <updated>{{ build.timestamp }}</updated>
-  <id>{{ pkg.homepage }}/tools/latest-webmentions/</id>
-  <author>
-    <name>{{ pkg.author.name }}</name>
-    <email>{{ pkg.author.email }}</email>
-  </author>
-  <generator uri="https://11ty.dev" version="{{ build.version }}">Eleventy {{ build.version }}</generator>
-  {% for webmention in webmentions | reverse | limit(100) %}
+
+{% extends "./../_layouts/feed.njk" %}
+
+{% block title %}Nicolas Hoizey - Webmentions{% endblock %}
+
+{% block self %}webmentions.xml{% endblock %}
+
+{% block page %}tools/latest-webmentions/{% endblock %}
+
+{% block id %}tools/latest-webmentions/{% endblock %}
+
+{% block update %}{{ build.timestamp }}{% endblock %}
+
+{% block entries %}
+  {% set webmentions = '' | getLatestWebmentions %}
+
+  {% for webmention in webmentions | reverse %}
     <entry>
       <title>{{ webmention['wm-target'] }}</title>
       <link href="{{ webmention['wm-target'] }}"/>
@@ -28,4 +31,4 @@ permalink: /feeds/webmentions.xml
       </content>
     </entry>
   {% endfor %}
-</feed>
+{% endblock %}
