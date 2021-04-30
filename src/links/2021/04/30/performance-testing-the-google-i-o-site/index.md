@@ -4,7 +4,7 @@ title: "Performance-testing the Google I/O site"
 lang: en
 link: https://jakearchibald.com/2021/io-site-perf/
 authors:
-  - name: "Jake "
+  - name: "Jake Archibald"
     twitter: "jaffathecake"
     site: "https://jakearchibald.com/"
 tags: [WebPerf]
