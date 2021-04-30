@@ -14,6 +14,7 @@ permalink: /feeds/webmentions.xml
     <name>{{ pkg.author.name }}</name>
     <email>{{ pkg.author.email }}</email>
   </author>
+  <generator uri="https://11ty.dev" version="{{ build.version }}">Eleventy {{ build.version }}</generator>
   {% for webmention in webmentions | reverse | limit(100) %}
     <entry>
       <title>{{ webmention['wm-target'] }}</title>
