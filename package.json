@@ -107,7 +107,7 @@
     "truncate-html": "^1.0.3",
     "twitter": "^1.7.1",
     "twitter-text": "^3.1.0",
-    "workbox-broadcast-update": "6.1.2",
+    "workbox-broadcast-update": "6.1.5",
     "workbox-cacheable-response": "6.1.5",
     "workbox-cli": "^6.1.2",
     "workbox-core": "6.1.5",
