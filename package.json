@@ -73,7 +73,7 @@
     "fast-memoize": "~2.5.2",
     "feather-icons": "~4.28.0",
     "html-minifier": "^4.0.0",
-    "image-size": "^0.9.7",
+    "image-size": "^1.0.0",
     "lodash": "^4.17.21",
     "markdown-it": "~12.0",
     "markdown-it-abbr": "^1.0.4",
