@@ -19,7 +19,7 @@ permalink: /feeds/articles.xml
   {% for entry in collections.articles | limit(20) %}
     {% set absoluteEntryUrl %}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{% endset %}
     <entry>
-      <title>🖋 {{ entry.data.title }}</title>
+      <title>{{ entry.data.title }}</title>
       <link href="{{ absoluteEntryUrl }}"/>
       <updated>{{ entry.date | rssDate }}</updated>
       <id>{{ absoluteEntryUrl }}</id>
