@@ -3,7 +3,7 @@
 
 {% macro articleCard(article) %}
   {% set content %}
-  <p class="card__body p-summary">{{ article.templateContent | excerpt | striptags | safe }}</p>
+  {{ article.templateContent | excerpt | striptags | safe }}
   {% endset %}
 
   {% set meta %}
