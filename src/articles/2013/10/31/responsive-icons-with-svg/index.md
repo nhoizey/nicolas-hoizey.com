@@ -12,15 +12,21 @@ There have already been [some explorations on responsive SVG images](http://blog
 
 [Mariusz Ciesla](http://mariusz.cc/) made [a version](https://codepen.io/mariusz/pen/azBne) with one single div, using one single sprite image:
 
-<p data-height="480" data-theme-id="2148" data-slug-hash="mRLLzg" data-default-tab="result" data-user="nhoizey" data-embed-version="2" data-pen-title="Responsive Icons" class="codepen">See the Pen <a href="http://codepen.io/nhoizey/pen/mRLLzg/">Responsive Icons</a> by Nicolas Hoizey (<a href="http://codepen.io/nhoizey">@nhoizey</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-
-(you need to open it on [CodePen](https://codepen.io/) or resize you window to see the effect, as for following examples.)
+<p class="codepen" data-height="480" data-theme-id="2148" data-default-tab="result" data-user="nhoizey" data-slug-hash="mRLLzg" data-preview="true" style="height: 480px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Responsive Icons">
+  <span>See the Pen <a href="https://codepen.io/nhoizey/pen/mRLLzg">
+  Responsive Icons</a> by Nicolas Hoizey (<a href="https://codepen.io/nhoizey">@nhoizey</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 [Justin Avery](http://justinavery.me/), famous for [the Responsive Design Weekly newsletter](http://responsivedesignweekly.com/) made [his own version](http://responsivedesign.is/articles/responsive-icons) also with a single SVG image, but with Media Queries inside the SVG itself:
 
-<p data-height="480" data-theme-id="2148" data-slug-hash="mRLLzg" data-default-tab="result" data-user="nhoizey" data-embed-version="2" data-pen-title="Responsive Icons" class="codepen">See the Pen <a href="https://codepen.io/nhoizey/pen/mRLLzg/">Responsive Icons</a> by Nicolas Hoizey (<a href="https://codepen.io/nhoizey">@nhoizey</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+<p class="codepen" data-height="480" data-theme-id="2148" data-default-tab="result" data-user="nhoizey" data-slug-hash="mRLLzg" data-preview="true" style="height: 480px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Responsive Icons">
+  <span>See the Pen <a href="https://codepen.io/nhoizey/pen/mRLLzg">
+  Responsive Icons</a> by Nicolas Hoizey (<a href="https://codepen.io/nhoizey">@nhoizey</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 My own attempt tries to really use SVG features, by using sub elements as progressively revealed building blocks, instead of full houses for every breakpoint. The purpose is to remove as much redundancy as possible, and add some semantic on the way.
 
@@ -30,8 +36,12 @@ SVG is even inline in the HTML, so there is no additional request at all.
 
 [Here it is](https://codepen.io/nhoizey/pen/ICJvA):
 
-<p data-height="480" data-theme-id="2148" data-slug-hash="ICJvA" data-default-tab="result" data-user="nhoizey" data-embed-version="2" data-pen-title="SVG Responsive Icons" class="codepen">See the Pen <a href="https://codepen.io/nhoizey/pen/ICJvA/">SVG Responsive Icons</a> by Nicolas Hoizey (<a href="https://codepen.io/nhoizey">@nhoizey</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+<p class="codepen" data-height="480" data-theme-id="2148" data-default-tab="result" data-user="nhoizey" data-slug-hash="ICJvA" data-preview="true" style="height: 480px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="SVG Responsive Icons">
+  <span>See the Pen <a href="https://codepen.io/nhoizey/pen/ICJvA">
+  SVG Responsive Icons</a> by Nicolas Hoizey (<a href="https://codepen.io/nhoizey">@nhoizey</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 I made a little screencast for those who don't have SVG support in their browser:
 

@@ -297,6 +297,26 @@ lite-youtube > iframe {
   margin: 0;
 }
 
+// https://blog.codepen.io/2017/05/01/make-embedded-pen-resizeable/
+.cp_embed_wrapper {
+  /* required for resize to work */
+  overflow: hidden;
+
+  /* make resizeble! */
+  resize: both;
+
+  /* required to see the handle */
+  background: white;
+  padding-bottom: 10px;
+
+  /* default height */
+  height: 400px;
+
+  iframe {
+    height: 100% !important;
+  }
+}
+
 figure {
   text-align: center;
 
