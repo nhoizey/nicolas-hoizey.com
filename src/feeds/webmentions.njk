@@ -22,12 +22,25 @@ permalink: /feeds/webmentions.xml
     <entry>
       <title>{{ webmention['wm-target'] }}</title>
       <link href="{{ webmention['wm-target'] }}"/>
-      <updated>{{ webmention.published }}</updated>
+      {% if webmention.published %}
+        <updated>{{ webmention.published | formattedDateTime }}</updated>
+      {% else %}
+        <updated>{{ webmention['wm-received'] | formattedDateTime }}</updated>
+      {% endif %}
       <id>{{ webmention['wm-target'] }}</id>
       <content type="html">
-        &lt;p&gt;&lt;a href="{{ webmention.url }}"&gt;{{ webmention.url }}&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;Type: {{ webmention['wm-property'] }}&lt;/p&gt;
-        &lt;p&gt;{{ webmention.content.text }}&lt;/p&gt;
+        &lt;dl&gt;
+          &lt;dt&gt;&lt;/dt&gt;
+          &lt;dd&gt;&lt;a href="{{ webmention.url }}"&gt;{{ webmention.url }}&lt;/a&gt;&lt;/dd&gt;
+          &lt;dt&gt;Type&lt;/dt&gt;
+          &lt;dd&gt;{{ webmention['wm-property'] }}&lt;/dd&gt;
+          &lt;dt&gt;Target&lt;/dt&gt;
+          &lt;dd&gt;&lt;a href="{{ webmention['wm-target'] }}"&gt;{{ webmention['wm-target'] | replace('https://nicolas-hoizey.com', '') }}&lt;/a&gt;&lt;/dd&gt;
+          &lt;dt&gt;URL&lt;/dt&gt;
+          &lt;dd&gt;&lt;a href="{{ webmention.url }}"&gt;{{ webmention.url | replace('https://twitter.com/', '@') }}&lt;/a&gt;&lt;/dd&gt;
+          &lt;dt&gt;Content&lt;/dt&gt;
+          &lt;dd&gt;{{ webmention.content.text }}&lt;/dd&gt;
+        &lt;/dl&gt;
       </content>
     </entry>
   {% endfor %}
