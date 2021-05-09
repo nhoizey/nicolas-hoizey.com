@@ -38,7 +38,7 @@ const tweetHashtagTohandle = (tweet) => {
     '#Flickr': '@Flickr',
     '#Gandi': '@gandi_net',
     '#GitHub': '@github',
-    '#GoogleAnalytics', '@googleanalytics',
+    '#GoogleAnalytics': '@googleanalytics',
     '#IFTTT': '@IFTTT',
     '#Jekyll': '@jekyllrb',
     '#Jest': '@fbjest',
