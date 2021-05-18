@@ -77,7 +77,7 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
         crossorigin="anonymous"
         >
       <p class="link__url">
-        <a href="{{ link }}" class="u-bookmark-of">{{ link | replace('_', '_&shy;') | safe }}</a>
+        <a href="{{ link }}" class="u-bookmark-of">{{ link }}</a>
       </p>
     {% endif %}
     {% if layout == 'note' %}
