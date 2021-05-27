@@ -29,7 +29,7 @@ title: Latest Webmentions
         <td><a href="{{ webmention['wm-target'] }}">{{ webmention['wm-target'] | replace('https://nicolas-hoizey.com', '') }}</a></td>
         <td><a href="{{ webmention.url }}">{{ webmention.url | replace('https://twitter.com/', '@') }}</a></td>
       </tr>
-      {% if webmention.content.text %}
+      {% if webmention['wm-property'] != 'repost-of' and webmention.content.text %}
         <tr>
           <td colspan="4">{{ webmention.content.text }}</td>
         </tr>
