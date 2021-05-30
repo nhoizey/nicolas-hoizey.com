@@ -31,7 +31,7 @@ Outside the Web, I am also passionate about [photography](/tags/photography/). A
 
 I don't have a theme or subject that really stands out from the others in my photographic production, but I do have **a strong preference for the natural**, whether it's landscapes or urban landscapes, or portraits.
 
-My portfolio's name is [Photo Synthèse](http://photosynthese.net), and you can also see my photos on [Flickr](https://www.flickr.com/photos/nicolas-hoizey/).
+You can watch my photos in [my own photography portfolio](https://nicolas-hoizey.photo), but also [on Flickr](https://www.flickr.com/photos/nicolas-hoizey/).
 
 At the end of 2014, I joined the [Photo Club de Draveil](http://photo-club-draveil.fr/), which was being created, and has since participated in several group exhibitions. This is a great opportunity to **confront his work to the eyes of complete strangers** (who are much less so now), which seems necessary to me to progress.
 
