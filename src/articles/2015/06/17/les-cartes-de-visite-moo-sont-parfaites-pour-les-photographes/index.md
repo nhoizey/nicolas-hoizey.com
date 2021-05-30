@@ -7,7 +7,7 @@ tags:  [photography]
 
 Je dois en être à ma quatrième commande de cartes de visite sur [Moo](https://refer.moo.com/s/mkzfn), et je suis de plus en plus épaté. Des cartes de visite format mini, offertes par Flickr il y a quelques années, très sympa parce que d'un format atypique, aux dernières cartes Luxe, il y a toute une gamme à (re)découvrir, notamment pour les photographes.
 
-Pour accompagner la mise en place —enfin— d'un site[^site] dédié à ma pratique photographique, [http://photosynthese.net/](http://photosynthese.net/), je voulais me refaire des cartes de visite, pour les donner aux photographes que je rencontre, aux éventuels modèles que je souhaiterais photographier, etc.
+Pour accompagner la mise en place —enfin— d'un site[^site] dédié à ma pratique photographique, <https://nicolas-hoizey.photo>, je voulais me refaire des cartes de visite, pour les donner aux photographes que je rencontre, aux éventuels modèles que je souhaiterais photographier, etc.
 
 [^site]: Ce site est pour l'instant géré via Adobe Portfolio parce que c'est très simple et plutôt efficace, mais je passerais à une solution maison dès que possible.
 
