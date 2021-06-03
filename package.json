@@ -55,7 +55,7 @@
     "cheerio": "~1.0.0-rc.6",
     "cross-env": "^7.0.3",
     "cssnano": "~5.0.2",
-    "dotenv": "^8.2.0",
+    "dotenv": "^10.0.0",
     "download": "~8.0.0",
     "eleventy-plugin-embed-everything": "~1.13.1",
     "eleventy-plugin-embed-tweet": "^0.3.1",
