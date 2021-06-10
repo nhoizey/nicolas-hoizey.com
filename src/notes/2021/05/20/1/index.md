@@ -9,6 +9,6 @@ We NEED this as professionals and we WANT this as users. 😍
 
 https://checklists.opquast.com/en/web-quality-assurance/
 
-![Screenshot of the Web Quality Assurance Checklist site](opquast-web-quality-assurance-checklist.png)
+![Screenshot of the Web Quality Assurance Checklist site.](opquast-web-quality-assurance-checklist.png)
 
 Please RT!

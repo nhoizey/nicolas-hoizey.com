@@ -5,4 +5,4 @@ tags: [WebPerf]
 
 Using @__treo for small sites with low trafic can be frustrating… 😅
 
-![Not enough trafic on this site for CrUX](core-web-vitals-treo-nicolas-hoizey-com.png)
+![Not enough trafic on this site for CrUX.](core-web-vitals-treo-nicolas-hoizey-com.png)

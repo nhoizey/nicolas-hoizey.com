@@ -6,9 +6,11 @@ tags:       [SVG, design, CSS, RWD]
 promoted: true
 ---
 
+::: lead
 There have already been [some explorations on responsive SVG images](http://blog.cloudfour.com/media-queries-in-svg-images/) a while back, but when [Joe Harrison](http://www.joeharrison.co.uk/) posted [a responsive icon concept](http://dribbble.com/shots/1290195-New-Project-Responsive-Icons) on Dribbble and even a working version on [a dedicated website](http://responsiveicons.co.uk/), a few people thought this was [so wrong](http://xkcd.com/386/) they had to make their own version. I must admit I'm one of them… 😉
+:::
 
-![](responsive-icons.png)
+![A screenshot of the Responsive Icons site](responsive-icons.png)
 
 [Mariusz Ciesla](http://mariusz.cc/) made [a version](https://codepen.io/mariusz/pen/azBne) with one single div, using one single sprite image:
 

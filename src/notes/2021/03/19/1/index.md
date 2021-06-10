@@ -7,5 +7,5 @@ I created my first @raycastapp command, it's so simple! 😍
 
 https://github.com/nhoizey/raycast-commands/blob/main/search-nho.sh
 
-![A Raycast command to search on nicolas-hoizey.com](search-on-nicolas-hoizey.com.png)
+![A Raycast command to search on nicolas-hoizey.com.](search-on-nicolas-hoizey.com.png)
 

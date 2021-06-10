@@ -7,4 +7,4 @@ tags: [movie, cinema]
 
 I still love everything about it, it aged very well!
 
-![The cover of the amazing Raiders of the Lost Ark soundtrack by John Williams](indiana-jones-raiders-of-the-lost-ark.jpg)
+![The cover of the amazing Raiders of the Lost Ark soundtrack by John Williams.](indiana-jones-raiders-of-the-lost-ark.jpg)
