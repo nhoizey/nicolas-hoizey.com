@@ -23,7 +23,7 @@ const runBeforeHook = (image, document) => {
     if (!image.getAttribute('width') || !image.getAttribute('height')) {
       let imageDimensions;
       if (imageSrc[0] === '/') {
-        imageDimensions = imageSize(config.dir.src + imageSrc);
+        imageDimensions = imageSize('./src/' + imageSrc);
       } else {
         // This is a relative URL
         imageDimensions = imageSize(srcPath + imageSrc);
@@ -32,10 +32,10 @@ const runBeforeHook = (image, document) => {
       image.setAttribute('height', imageDimensions.height);
     }
     if (imageSrc[0] === '/') {
-      imageUrl = site.url.replace(/\/$/, '') + imageSrc;
+      imageUrl = pkg.homepage + imageSrc;
     } else {
       // This is a relative URL
-      imageUrl = site.url.replace(/\/$/, '') + distPath + imageSrc;
+      imageUrl = pkg.homepage + distPath + imageSrc;
     }
     image.setAttribute('src', imageUrl);
   }
