@@ -20,18 +20,23 @@ const runBeforeHook = (image, document) => {
     // TODO: some images are local but have an absolute URL
     imageUrl = imageSrc;
   } else {
-    let imageDimensions;
+    if (!image.getAttribute('width') || !image.getAttribute('height')) {
+      let imageDimensions;
+      if (imageSrc[0] === '/') {
+        imageDimensions = imageSize(config.dir.src + imageSrc);
+      } else {
+        // This is a relative URL
+        imageDimensions = imageSize(srcPath + imageSrc);
+      }
+      image.setAttribute('width', imageDimensions.width);
+      image.setAttribute('height', imageDimensions.height);
+    }
     if (imageSrc[0] === '/') {
-      // TODO: get "src/" from Eleventy config
-      imageDimensions = imageSize('./src' + imageSrc);
-      imageUrl = pkg.homepage + imageSrc;
+      imageUrl = site.url.replace(/\/$/, '') + imageSrc;
     } else {
       // This is a relative URL
-      imageDimensions = imageSize(srcPath + imageSrc);
-      imageUrl = pkg.homepage + distPath + imageSrc;
+      imageUrl = site.url.replace(/\/$/, '') + distPath + imageSrc;
     }
-    image.setAttribute('width', imageDimensions.width);
-    image.setAttribute('height', imageDimensions.height);
     image.setAttribute('src', imageUrl);
   }
 
