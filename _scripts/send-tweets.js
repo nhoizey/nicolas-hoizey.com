@@ -5,6 +5,7 @@ const myTwitterUsername = 'nhoizey';
 
 const fetch = require('node-fetch');
 const dotenv = require('dotenv');
+const moment = require('moment');
 const Twitter = require('twitter');
 const bent = require('bent');
 const getBuffer = bent('buffer');
@@ -36,7 +37,10 @@ const status = (code, msg) => {
 
 // Check exisiting entries
 const processFeed = async (feed) => {
-  let items = feed.items;
+  // Keep items published less than 7 days ago
+  let items = feed.items.filter((item) =>
+    moment(item.date_published).isAfter(moment().subtract(6, 'd'))
+  );
 
   if (!items.length) {
     return status(404, 'No item found to process.');
