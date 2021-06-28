@@ -36,7 +36,7 @@
     "algolia": "atomic-algolia",
     "sprite": "node ./_scripts/generate-svg-sprite.js",
     "ga": "node ./_scripts/update-google-analytics.js",
-    "fix-styles": "prettier-stylelint --write 'assets/**/*.scss'"
+    "lint:sass": "stylelint 'assets/**/*.scss'"
   },
   "devDependencies": {
     "@11ty/eleventy": "~0.12.1",
@@ -88,7 +88,6 @@
     "postcss-cli": "~8.3.1",
     "postcss-hash": "~2.0.0",
     "prettier": "2.3.1",
-    "prettier-stylelint": "~0.4.2",
     "require-dir": "^1.2.0",
     "rimraf": "^3.0.2",
     "rollup": "^2.52.3",
@@ -101,7 +100,11 @@
     "sass": "~1.35.1",
     "simple-icons": "~5.3.0",
     "stylelint": "~13.13.1",
+    "stylelint-config-idiomatic-order": "~8.1.0",
+    "stylelint-config-prettier": "~8.0.2",
+    "stylelint-config-sass-guidelines": "~8.0.0",
     "stylelint-config-standard": "~22.0.0",
+    "stylelint-order": "~4.1.0",
     "svgstore": "^3.0.0-2",
     "truncate-html": "^1.0.3",
     "twitter": "^1.7.1",
