@@ -25,6 +25,7 @@
 
   @media (min-width: 40em) {
     float: right;
+
     max-width: 40%;
     margin: 0 0 1em 1em;
   }
@@ -32,14 +33,15 @@
 
 .page__illustration img,
 img.page__illustration {
-  border-width: var(--border-width);
-  border-style: solid;
-  border-color: var(--color-primary-lighter-3);
   padding: var(--border-width);
+
+  border-color: var(--color-primary-lighter-3);
+  border-style: solid;
+  border-width: var(--border-width);
 }
 
 .page__body {
-  @extend %flow;
 
   margin-top: var(--gap2);
+  @extend %flow;
 }

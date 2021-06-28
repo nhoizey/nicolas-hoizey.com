@@ -10,6 +10,7 @@
 
 .reactions__list {
   padding: 0;
+
   list-style-type: none;
 }
 
@@ -17,9 +18,10 @@
   width: 48px;
   height: 48px;
   padding: 0;
+
   border-color: var(--color-link-decoration);
-  border-width: 1px;
   border-style: solid;
+  border-width: 1px;
   border-radius: 50%;
 }
 
@@ -35,9 +37,11 @@
 
   a:link,
   a:visited {
-    margin: 0;
     display: inline-block;
+
+    margin: 0;
     padding: 0.1em;
+
     border-radius: 0.3em;
 
     &:hover,
@@ -53,32 +57,35 @@
 
 .reactions--in-reply-to,
 .reactions--mention-of {
-  @extend %flow;
   --flow-space: var(--gap3);
+  @extend %flow;
 
   .reactions__item {
-    clear: both;
     position: relative;
-    min-height: 48px;
 
+    clear: both;
+
+    min-height: 48px;
     padding-left: calc(48px + 1em);
 
     &.reaction--no-photo {
-      padding-left: 1em;
       padding-right: 1em;
+      padding-left: 1em;
 
       @media (min-width: 30em) {
-        padding-left: calc(48px + 1em);
         padding-right: 0;
+        padding-left: calc(48px + 1em);
       }
     }
   }
 
   .reaction__author__photo {
-    display: block;
     position: absolute;
     top: 0.3em;
     left: 0;
+
+    display: block;
+
     margin: 0;
   }
 }

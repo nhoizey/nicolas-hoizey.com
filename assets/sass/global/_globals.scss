@@ -49,19 +49,6 @@
   //   https://www.economist.com/babbage/2014/06/23/the-colour-purple
   --color-primary: hsl(var(--hue), var(--sat), var(--lum));
 
-  @for $i from 1 through 7 {
-    --color-primary-lighter-#{$i}: hsl(
-      var(--hue),
-      calc(var(--sat) - #{$i} * var(--sat-step)),
-      calc(var(--lum) + #{$i} * var(--lum-step))
-    );
-    --color-primary-darker-#{$i}: hsl(
-      var(--hue),
-      calc(var(--sat) - #{$i} * var(--sat-step)),
-      calc(var(--lum) - #{$i} * var(--lum-step))
-    );
-  }
-
   // Persimmon:
   //   https://en.wikipedia.org/wiki/Shades_of_orange#Persimmon
   --color-secondary: hsl(22, 100%, 46%);
@@ -81,4 +68,17 @@
   --color-yellow-light: hsl(59, 100%, 88%);
 
   --border-width: 0.15em;
+
+  @for $i from 1 through 7 {
+    --color-primary-lighter-#{$i}: hsl(
+      var(--hue),
+      calc(var(--sat) - #{$i} * var(--sat-step)),
+      calc(var(--lum) + #{$i} * var(--lum-step))
+    );
+    --color-primary-darker-#{$i}: hsl(
+      var(--hue),
+      calc(var(--sat) - #{$i} * var(--sat-step)),
+      calc(var(--lum) - #{$i} * var(--lum-step))
+    );
+  }
 }

@@ -1,16 +1,16 @@
 @use 'global/utilities';
 
 .welcome {
-  @extend %clearfix;
-  @extend %flow;
 
   margin-top: 3vw;
   margin-bottom: 3vw;
+  @extend %clearfix;
+  @extend %flow;
 }
 
 .welcome__name {
-  font-size: var(--font-size-xxl);
   color: var(--color-primary);
+  font-size: var(--font-size-xxl);
 
   @media (min-width: 20em) {
     margin-top: 0;

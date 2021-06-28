@@ -2,24 +2,25 @@
 @use '../global/utilities';
 
 blockquote:not(.tweet-card) {
-  @extend %flow;
-
-  margin-left: 0;
-  margin-right: 0;
-  padding: 0.5em 1em 0.5em calc(2em + 3vw);
-  min-height: 3em;
-
-  font-size: var(--font-size-l);
-  font-style: italic;
-  color: var(--color-primary);
 
   position: relative;
 
+  min-height: 3em;
+  margin-right: 0;
+  margin-left: 0;
+  padding: 0.5em 1em 0.5em calc(2em + 3vw);
+
+  color: var(--color-primary);
+  font-size: var(--font-size-l);
+  font-style: italic;
+  @extend %flow;
+
   &::before {
     position: absolute;
-    left: 0;
     top: 0;
+    left: 0;
     content: functions.unicode('201C');
+
     color: var(--color-primary-lighter-2);
     font-size: calc(4em + 5vw);
     font-style: normal;
@@ -27,7 +28,8 @@ blockquote:not(.tweet-card) {
   }
 
   blockquote {
-    background-color: var(--color-primary-lighter-7);
     font-style: normal;
+
+    background-color: var(--color-primary-lighter-7);
   }
 }

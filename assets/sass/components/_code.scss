@@ -1,40 +1,53 @@
 @use '../global/colors';
 
 pre {
-  margin-left: -0.5em;
   margin-right: -0.5em;
-  overflow-x: scroll;
+  margin-left: -0.5em;
+
   word-break: normal;
+
+  overflow-x: scroll;
 }
 
 code,
 kbd {
-  font-size: 0.9em;
   padding: 0.1em 0.3em;
+
+  font-size: 0.9em;
+
   border-radius: 0.2em;
 }
 
 code {
   margin: 0;
-  background-color: #fff4d1;
+
   color: currentColor;
+
+  background-color: #fff4d1;
 
   pre & {
     display: block;
-    overflow-x: scroll;
+
     padding: 0.3em 0.5em;
-    background-color: colors.$inline-code-background-color;
+
     color: colors.$inline-code-text-color;
+
+    background-color: colors.$inline-code-background-color;
+
+    overflow-x: scroll;
   }
 }
 
 kbd {
-  white-space: nowrap;
 
   color: #444d56;
-  background-color: #f3f3f3;
+  white-space: nowrap;
+
   border: solid 1px #c6cbd1;
   border-bottom-color: #959da5;
+
+  background-color: #f3f3f3;
+
   box-shadow: inset 0 -1px 0 #959da5;
 }
 
@@ -43,6 +56,7 @@ a:focus,
 a:active {
   code {
     color: inherit;
+
     background-color: transparent;
   }
 }

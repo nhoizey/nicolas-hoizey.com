@@ -2,18 +2,21 @@
 
 /* card */
 .tweet-card {
-  background-color: #fff;
+  max-width: 30em;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1em;
+
+  color: #1c2022;
+  font-size: 1em;
+  font-family: sans-serif;
+  line-height: 1.4;
+  text-align: left;
+
   border: var(--border-width) solid colors.$color-grey;
   border-radius: 0.5em;
-  color: #1c2022;
-  font-family: sans-serif;
-  font-size: 1em;
-  line-height: 1.4;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 30em;
-  padding: 1em;
-  text-align: left;
+
+  background-color: #fff;
 
   &:hover,
   &:focus {
@@ -22,35 +25,40 @@
 
   a:link,
   a:visited {
-    background-color: transparent;
     color: colors.$color-twitter;
     text-decoration: none;
+
+    background-color: transparent;
   }
 
   a:hover,
   a:focus,
   a:active {
-    background-color: transparent;
     color: colors.$color-twitter;
     text-decoration: underline;
+
+    background-color: transparent;
   }
 }
 
 /* header */
 .tweet-header {
   display: flex;
+
   margin-bottom: 1em;
 }
 
 .tweet-profile {
   flex-shrink: 0;
+
   margin-right: 9px;
 
   img {
-    border-radius: 50%;
-    margin: 0;
     width: 36px;
     height: 36px;
+    margin: 0;
+
+    border-radius: 50%;
   }
 }
 
@@ -63,8 +71,8 @@
 .tweet-author-name {
   &:link,
   &:visited {
-    font-weight: bold;
     color: #1c2022;
+    font-weight: bold;
     line-height: 1.3;
   }
   &:hover,
@@ -92,9 +100,10 @@
 
 /* images */
 .tweet-images img {
-  max-width: 100%;
   height: auto;
+  max-width: 100%;
   margin-bottom: 0.5em;
+
   border: 1px solid colors.$color-lightgrey;
 }
 
@@ -114,10 +123,12 @@
 }
 
 .tweet-footer .tweet-like {
-  margin-right: 1em;
-  font-size: 1em;
   display: flex;
   align-items: center;
+
+  margin-right: 1em;
+
+  font-size: 1em;
 }
 
 .tweet-footer .tweet-like:hover {
@@ -130,6 +141,7 @@
 
 .tweet-footer .tweet-like-icon {
   filter: grayscale(1) brightness(1.4);
+
   transition: filter;
 }
 
@@ -141,9 +153,12 @@
 .tweet-bird-icon,
 .tweet-like-icon {
   display: inline-block;
+
   width: 1.25em;
   height: 1.25em;
-  background-size: contain;
-  background-repeat: no-repeat;
+
   vertical-align: text-bottom;
+
+  background-repeat: no-repeat;
+  background-size: contain;
 }

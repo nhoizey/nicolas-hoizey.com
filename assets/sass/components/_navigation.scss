@@ -1,11 +1,13 @@
 .navigation {
-  border-top: solid var(--border-width) var(--color-primary-lighter-2);
-
-  font-family: var(--font-family-sans-serif);
-  font-variant: small-caps;
-  font-size: var(--font-size-m);
 
   padding: 0 0 var(--gap3);
+
+  font-size: var(--font-size-m);
+  font-family: var(--font-family-sans-serif);
+  font-variant: small-caps;
+
+  border-top: solid var(--border-width) var(--color-primary-lighter-2);
+
   overflow-x: auto;
   -webkit-overflow-scrolling: auto;
 
@@ -17,9 +19,11 @@
   }
 
   ul {
+    display: flex;
+
     margin: 0;
     padding: 0;
-    display: flex;
+
     list-style-type: none;
   }
 
@@ -45,16 +49,19 @@
     a:link,
     a:visited {
       display: inline-block;
+
       margin: var(--border-width) 0 0 0;
       padding: 0.1em 0.4vw;
-      text-decoration: none;
+
       white-space: nowrap;
+      text-decoration: none;
     }
 
     &.current {
       a:link,
       a:visited {
         color: var(--color-primary);
+
         background-image: linear-gradient(
           to top,
           var(--color-primary),
@@ -68,9 +75,10 @@
       a:hover,
       a:focus {
         color: white;
-        background-image: none;
-        background-color: var(--color-primary);
         text-decoration: none;
+
+        background-color: var(--color-primary);
+        background-image: none;
       }
     }
   }
@@ -99,7 +107,9 @@
   }
 
   .navigation {
-    background-repeat: no-repeat;
+    position: sticky;
+    top: 0;
+    z-index: 2;
     // based on https://larsenwork.com/easing-gradients/
     //   linear-gradient(
     //     to top,
@@ -126,8 +136,6 @@
       hsla(0, 0%, 100%, 0.987) 81.8%,
       hsl(0, 0%, 100%) 100%
     );
-    position: sticky;
-    top: 0;
-    z-index: 2;
+    background-repeat: no-repeat;
   }
 }

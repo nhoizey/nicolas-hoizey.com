@@ -1,18 +1,17 @@
 @use '../global/colors';
 
 .meta {
-  // because cards lists are lists in Algolia lists but not elsewhere,
-  // and Firefox applies a 0 start and end margin to ul in an ul/ol
-  margin-bottom: 0;
-
-  padding: 0;
-  color: var(--color-meta);
-
-  font-family: var(--font-family-sans-serif);
-  font-size: var(--font-size-s);
 
   display: flex;
   flex-wrap: wrap;
+  // because cards lists are lists in Algolia lists but not elsewhere,
+  // and Firefox applies a 0 start and end margin to ul in an ul/ol
+  margin-bottom: 0;
+  padding: 0;
+
+  color: var(--color-meta);
+  font-size: var(--font-size-s);
+  font-family: var(--font-family-sans-serif);
 
   list-style-type: none;
 }
@@ -29,6 +28,7 @@
     --color-link: var(--color-meta);
     --color-link-decoration: var(--color-meta-decoration);
     text-decoration-thickness: 1px;
+
     padding: 0.2em 0.1em;
   }
 

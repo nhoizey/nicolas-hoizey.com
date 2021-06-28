@@ -39,13 +39,13 @@ html:focus-within {
 }
 
 body {
-  font-size: var(--font-size-m);
-  font-weight: 400;
 
   color: var(--color-primary-darker-6);
-  background-color: white;
-
+  font-weight: 400;
+  font-size: var(--font-size-m);
   word-break: break-word;
+
+  background-color: white;
 }
 
 // ************************************************************
@@ -53,14 +53,16 @@ body {
 // ************************************************************
 
 body {
-  padding: 0;
   display: flex;
   flex-direction: column;
+
+  padding: 0;
 }
 
 main {
-  margin: 0;
   flex: 1;
+
+  margin: 0;
 
   .wrap {
     @extend %flow;
@@ -68,10 +70,10 @@ main {
 }
 
 .wrap {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: var(--layout-max);
   width: 90vw;
+  max-width: var(--layout-max);
+  margin-right: auto;
+  margin-left: auto;
 }
 
 // ************************************************************
@@ -79,10 +81,10 @@ main {
 // ************************************************************
 
 .lead {
-  @extend %flow;
 
   color: var(--color-primary-lighter-1);
   font-size: var(--font-size-l);
+  @extend %flow;
 }
 
 h1,
@@ -91,11 +93,12 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--color-primary-lighter-2);
-  font-family: var(--font-family-sans-serif);
-  font-weight: normal;
-  line-height: 1.2;
   position: relative;
+
+  color: var(--color-primary-lighter-2);
+  font-weight: normal;
+  font-family: var(--font-family-sans-serif);
+  line-height: 1.2;
 
   &:not(h1) {
     --flow-space: var(--gap3);
@@ -104,8 +107,8 @@ h6 {
 
 h1 {
   color: var(--color-primary);
-  font-size: var(--font-size-xxl);
   font-weight: bold;
+  font-size: var(--font-size-xxl);
 }
 
 h2 {
@@ -139,11 +142,13 @@ h6 {
 a {
   &:link,
   &:visited {
-    background-color: var(--color-link-bg);
-    color: var(--color-link);
     margin-left: -0.1em;
-    padding-left: 0.1em;
     padding-right: 0.1em;
+    padding-left: 0.1em;
+
+    color: var(--color-link);
+
+    background-color: var(--color-link-bg);
     text-decoration-color: var(--color-link-decoration);
     text-decoration-line: underline;
     text-decoration-thickness: 2px;
@@ -151,16 +156,20 @@ a {
 
   &:hover,
   &:focus {
-    background-color: var(--color-link-hover-bg);
     color: var(--color-link-hover);
-    outline: none;
     text-decoration: var(--color-link-hover-decoration);
+
+    background-color: var(--color-link-hover-bg);
+
+    outline: none;
   }
 
   &:active {
     color: #fff;
-    background-color: var(--color-secondary);
     text-decoration: none;
+
+    background-color: var(--color-secondary);
+
     outline: none;
   }
 }
@@ -168,12 +177,12 @@ a {
 // Anchor links
 // Based on https://smolcss.dev/#smol-article-anchors
 .heading-wrapper {
+  --flow-space: var(--gap3);
   display: grid;
   // anchor link on the far right for long wrapping headings
   grid-template-columns: minmax(auto, max-content) min-content;
-  align-items: stretch;
   gap: 0.5rem;
-  --flow-space: var(--gap3);
+  align-items: stretch;
 }
 
 .deeplink {
@@ -184,9 +193,11 @@ a {
   &:link,
   &:visited {
     padding: 0 0.25rem;
-    border-radius: 0.3em;
+
     color: var(--color-meta);
     text-decoration: none;
+
+    border-radius: 0.3em;
 
     svg {
       fill: none;
@@ -201,6 +212,7 @@ a {
   &:hover,
   &:focus {
     color: var(--color-link-hover);
+
     background-color: var(--color-link-hover-bg);
   }
 }
@@ -209,6 +221,7 @@ a {
   .heading-wrapper {
     // Anchor link in the left margin on larger viewports
     grid-template-columns: min-content auto;
+
     margin-left: -2rem; // 1rem width + .25rem * 2 paddings + 0.5rem gap
   }
 
@@ -239,6 +252,7 @@ a {
 :lang(fr) > :link[hreflang]:not([hreflang='fr'])::after,
 :lang(en) > :link[hreflang]:not([hreflang='en'])::after {
   content: ' (' attr(hreflang) ')';
+
   font-size: 70%;
   vertical-align: super;
 }
@@ -249,18 +263,22 @@ a {
 
 img {
   display: inline; // because the reset sets it to block
-  max-width: 100%;
+
   height: auto;
+  max-width: 100%;
+
   opacity: 1;
+
   transition: opacity 0.3s;
 }
 
 svg {
-  margin: 0;
-  padding: 0;
 
   width: 1em;
   height: 1em;
+  margin: 0;
+  padding: 0;
+
   vertical-align: text-bottom;
 }
 
@@ -274,6 +292,7 @@ video {
 
   video {
     display: block;
+
     width: 500px;
     max-width: 100%;
     margin: 0 auto;
@@ -287,10 +306,11 @@ iframe {
 figure,
 iframe,
 .embed-video-container {
-  clear: both;
-  margin-left: auto;
-  margin-right: auto;
   display: block;
+  clear: both;
+
+  margin-right: auto;
+  margin-left: auto;
 }
 
 lite-youtube > iframe {
@@ -299,18 +319,18 @@ lite-youtube > iframe {
 
 // https://blog.codepen.io/2017/05/01/make-embedded-pen-resizeable/
 .cp_embed_wrapper {
+
+  /* default height */
+  height: 400px;
+  padding-bottom: 10px;
+
+  /* required to see the handle */
+  background: white;
   /* required for resize to work */
   overflow: hidden;
 
   /* make resizeble! */
   resize: both;
-
-  /* required to see the handle */
-  background: white;
-  padding-bottom: 10px;
-
-  /* default height */
-  height: 400px;
 
   iframe {
     height: 100% !important;
@@ -324,8 +344,9 @@ figure {
   iframe,
   .embed-video-container {
     display: block;
-    margin-left: auto;
+
     margin-right: auto;
+    margin-left: auto;
     padding: 0;
   }
 }
@@ -335,8 +356,9 @@ img {
   &.twothirds,
   &.onehalf {
     display: block;
-    margin-left: auto;
+
     margin-right: auto;
+    margin-left: auto;
   }
 
   &.twothirds {
@@ -348,9 +370,9 @@ img {
   }
 
   &.onethird {
-    @extend .right;
 
     max-width: 50%;
+    @extend .right;
 
     @media (min-width: 20em) {
       max-width: 33%;
@@ -359,9 +381,9 @@ img {
 
   &.onefourth,
   &.logo {
-    @extend .right;
 
     max-width: 50%;
+    @extend .right;
 
     @media (min-width: 20em) {
       max-width: 33%;
@@ -373,9 +395,9 @@ img {
   }
 
   &.small_logo {
-    @extend .right;
 
     max-width: 25%;
+    @extend .right;
 
     @media (min-width: 20em) {
       max-width: 16.5%;
@@ -391,6 +413,7 @@ img {
 
     @media (min-width: 20em) {
       float: left;
+
       margin: 0 var(--gap) var(--gap) 0;
     }
   }
@@ -400,6 +423,7 @@ img {
 
     @media (min-width: 20em) {
       float: right;
+
       margin: 0 0 var(--gap) var(--gap);
     }
   }
@@ -412,27 +436,30 @@ img.border {
 
 .logo {
   display: block;
+
   margin: var(--gap) auto;
 }
 
 .portrait {
-  border-style: solid;
   border-color: var(--color-primary);
+  border-style: solid;
   border-width: var(--border-width);
   border-radius: 50%;
+
   background-image: linear-gradient(55deg, #acf9fc, #70d4fc);
 }
 
 figcaption {
   // http://nocode.in/aligning-text-smartly-in-css/
   display: inline-block;
-  text-align: left;
 
-  font-size: var(--font-size-s);
-  font-style: italic;
   margin: 0.1em 1em;
   padding: 0.3em 0;
+
   color: #666;
+  font-size: var(--font-size-s);
+  font-style: italic;
+  text-align: left;
 }
 
 .more {
@@ -469,8 +496,10 @@ thead {
 th,
 td {
   padding: 0.3em 0.5em;
-  border: 1px solid #ccc;
+
   vertical-align: top;
+
+  border: 1px solid #ccc;
 }
 
 // ************************************************************
@@ -480,9 +509,10 @@ td {
 // https://gist.github.com/unruthless/413930
 sub,
 sup {
+  position: relative;
+
   font-size: 75%;
   line-height: 0;
-  position: relative;
   vertical-align: baseline;
 }
 
@@ -500,9 +530,11 @@ sub {
 
 article {
   .socialphoto {
-    background-color: #eef;
-    color: #333;
     padding: 1em;
+
+    color: #333;
+
+    background-color: #eef;
 
     p {
       margin: 0;
@@ -522,9 +554,10 @@ article {
 a[href$='.zip'],
 a[href$='.kml'] {
   padding-left: 1.6em;
-  background-size: 1.4em 1.4em;
-  background-position: 0 0;
+
   background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 1.4em 1.4em;
   background-size: contain;
 }
 
@@ -549,8 +582,11 @@ a[href$='.kml'] {
     left: 0;
     right: 0;
     z-index: 10;
+
     padding-left: 0.5em;
-    background-color: white;
+
     color: var(--color-primary);
+
+    background-color: white;
   }
 }

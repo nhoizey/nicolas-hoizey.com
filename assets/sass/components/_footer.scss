@@ -12,25 +12,12 @@
 }
 
 #footer {
-  white-space: nowrap;
-  margin: 1em 0 0 0;
+  margin: 1em 0 0;
   padding: 1em 0;
 
   // transition color and padding if background image is added with JS
   color: currentColor;
-  transition-property: color, padding;
-  transition-delay: 0;
-  transition-duration: 1s;
-  transition-timing-function: ease-in;
-
-  // animate opacity
-  opacity: 0;
-  animation-duration: 1s;
-  animation-timing-function: ease-out;
-  animation-delay: 1s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-  animation-name: revealFooter;
+  white-space: nowrap;
 
   background-image: var(--limbes),
     linear-gradient(
@@ -40,9 +27,23 @@
       var(--color-primary-darker-2) 80%,
       var(--color-primary-darker-5)
     );
-  background-position: top center;
   background-repeat: no-repeat;
+  background-position: top center;
   background-size: cover;
+
+  // animate opacity
+  opacity: 0;
+
+  transition-property: color, padding;
+  transition-delay: 0;
+  transition-timing-function: ease-in;
+  transition-duration: 1s;
+  animation-name: revealFooter;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 
   a:link,
   a:visited {
@@ -53,6 +54,7 @@
   &:focus,
   a:active {
     color: var(--color-link-hover);
+
     background-color: var(--color-link-hover-bg);
   }
 
@@ -62,8 +64,8 @@
     @media (min-width: 15em) {
       display: flex;
       flex-direction: row;
-      align-items: center;
       justify-content: space-between;
+      align-items: center;
 
       & > *:first-child {
         flex: 1;
@@ -81,8 +83,9 @@
 
   .edit {
     margin-bottom: var(--gap);
+
     font-size: var(--font-size-xs);
-    white-space: normal;
     line-height: 1.3;
+    white-space: normal;
   }
 }

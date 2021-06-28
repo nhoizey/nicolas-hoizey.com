@@ -1,24 +1,21 @@
 @use 'global/colors';
 
 .pagination {
-  font-size: var(--font-size-l);
-  margin: 3em auto;
-  padding: 0;
   display: flex;
   justify-content: center;
   align-items: baseline;
 
+  margin: 3em auto;
+  padding: 0;
+
+  font-size: var(--font-size-l);
+
   li {
-    list-style-type: none;
     flex-grow: 1;
+
     text-align: center;
 
-    &.dist1,
-    &.dist2,
-    &.dist3,
-    &.extreme {
-      display: none;
-    }
+    list-style-type: none;
 
     @media (min-width: 20em) {
       &.extreme {
@@ -50,13 +47,22 @@
       }
     }
 
+    &.dist1,
+    &.dist2,
+    &.dist3,
+    &.extreme {
+      display: none;
+    }
+
     a,
     strong,
     &.disabled {
       padding: 0.1em 0.3em;
-      border-radius: 0.3em;
-      border: var(--border-width) solid #fff;
+
       text-decoration: none;
+
+      border: var(--border-width) solid #fff;
+      border-radius: 0.3em;
     }
 
     a:hover,
@@ -65,10 +71,11 @@
     }
 
     strong {
+      color: #fff;
+
+      border-color: colors.$color-blue;
       // font-weight: 400;
       background-color: colors.$color-blue;
-      border-color: colors.$color-blue;
-      color: #fff;
     }
 
     &.next,

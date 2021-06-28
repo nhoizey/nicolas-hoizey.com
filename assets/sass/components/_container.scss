@@ -2,16 +2,19 @@
 .success,
 .warning,
 .error {
+  position: relative;
+
   clear: both;
+
   padding: calc(var(--gap) / 3);
 
-  background-color: #ccc;
   color: #222;
+  text-decoration: none;
+
   border: var(--border-width) solid #999;
   border-radius: 0.3em;
 
-  text-decoration: none;
-  position: relative;
+  background-color: #ccc;
 
   &::before {
     position: absolute;
@@ -32,15 +35,18 @@
   & a:focus,
   & a:active {
     color: #fff;
-    background-color: var(--color-link-hover-bg);
     text-decoration: var(--color-link-hover-decoration);
+
+    background-color: var(--color-link-hover-bg);
   }
 }
 
 .info {
   color: #3c3d76;
-  background-color: #dfd8f0;
+
   border-color: #d6c6e9;
+
+  background-color: #dfd8f0;
 
   &::before {
     content: url(/assets/icons/info.svg);
@@ -55,8 +61,10 @@
 
 .success {
   color: #3c763d;
-  background-color: #dff0d8;
+
   border-color: #d6e9c6;
+
+  background-color: #dff0d8;
 
   &::before {
     content: url(/assets/icons/thumbs-up.svg);
@@ -71,8 +79,10 @@
 
 .warning {
   color: #8a6d3b;
-  background-color: #fcf8e3;
+
   border-color: #faebcc;
+
+  background-color: #fcf8e3;
 
   &::before {
     content: url(/assets/icons/alert.svg);
@@ -87,8 +97,10 @@
 
 .error {
   color: #a94442;
-  background-color: #f2dede;
+
   border-color: #ebccd1;
+
+  background-color: #f2dede;
 
   &::before {
     content: url(/assets/icons/meh.svg);

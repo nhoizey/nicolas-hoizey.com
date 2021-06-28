@@ -8,15 +8,19 @@
 
 .footnotes {
   margin: var(--gap) 0;
-  background-color: #eee;
+
   color: #333;
+  font-size: var(--font-size-s);
+
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  font-size: var(--font-size-s);
+
+  background-color: #eee;
 
   ol {
     margin: 0;
     padding: 1em 1em 1em 2em;
+
     list-style-position: outside;
   }
 }
@@ -26,12 +30,15 @@
 }
 
 a.footnote.footnote {
-  text-decoration: none;
-  padding: 0.1em 0.4em;
   margin: 0 0.2em;
-  background-color: #39f;
+  padding: 0.1em 0.4em;
+
   color: #fff;
+  text-decoration: none;
+
   border-radius: 30%;
+
+  background-color: #39f;
 
   // https://css-tricks.com/touch-devices-not-judged-size/
   @media (pointer: coarse) {

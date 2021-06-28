@@ -1,14 +1,16 @@
 .older-newer__shortcuts {
   display: none;
-
-  list-style-type: none;
-  padding: 0;
   justify-content: space-between;
+
+  padding: 0;
 
   font-size: calc(1em + 2vw);
 
+  list-style-type: none;
+
   @media (min-width: 75rem) and (min-height: 25rem) {
     display: flex;
+
     margin: 0;
 
     .older-newer__older,
@@ -16,10 +18,11 @@
       position: fixed;
       top: 10rem;
 
-      transition-property: transform;
-      transition-duration: 0.2s;
-      transition-timing-function: ease-in-out;
       transform-origin: 50% 50%;
+
+      transition-property: transform;
+      transition-timing-function: ease-in-out;
+      transition-duration: 0.2s;
     }
 
     .older-newer__older {
@@ -41,21 +44,24 @@
 
   a:link,
   a:visited {
-    padding: 0.1em 0.2em;
     width: 1em;
     height: 1em;
+    padding: 0.1em 0.2em;
+
     color: #ccc;
   }
 
   a:hover,
   a:focus {
     color: var(--color-primary);
+
     background-color: transparent;
   }
 
   svg {
     width: 1em;
     height: 1em;
+
     fill: none;
     stroke: currentColor;
     stroke-width: 2px;
@@ -65,28 +71,31 @@
 }
 
 .older-newer {
-  margin: 3em 0;
-  padding: var(--gap);
-
-  list-style-type: none;
 
   display: grid;
-  grid-template-columns: 1fr 1fr;
   grid-template-areas:
     'prev prev'
     'next next';
-  grid-column-gap: calc(5 * var(--gap));
-  column-gap: calc(5 * var(--gap));
+  grid-template-columns: 1fr 1fr;
   grid-row-gap: var(--gap);
+  grid-column-gap: calc(5 * var(--gap));
+
+  margin: 3em 0;
+  padding: var(--gap);
+
+  column-gap: calc(5 * var(--gap));
+
+  border: solid 1px var(--color-primary-lighter-3);
+  border-radius: 0.3em;
+
+  background-color: var(--color-primary-lighter-7);
+
+  list-style-type: none;
   row-gap: var(--gap);
 
   @media (min-width: 48rem) {
     grid-template-areas: 'prev next';
   }
-
-  border: solid 1px var(--color-primary-lighter-3);
-  border-radius: 0.3em;
-  background-color: var(--color-primary-lighter-7);
 
   svg {
     fill: none;
@@ -102,6 +111,7 @@
 
   .older-newer__newer {
     grid-area: next;
+
     justify-self: end;
   }
 }

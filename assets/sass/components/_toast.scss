@@ -1,31 +1,38 @@
 // Forked from https://github.com/apvarun/toastify-js
 
 .toast {
-  display: inline-block;
-  font-size: 1.2rem;
-  padding: 0.4em 0.7em;
   position: fixed;
+  left: 0;
+  bottom: 15px;
+  right: 0;
+  z-index: 10;
 
-  background-color: #ccc;
-  color: #222;
-  border: 1px solid #999;
-  border-radius: 0.5em;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  display: inline-block;
 
-  opacity: 0;
-  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
-  cursor: pointer;
-  text-decoration: none;
   max-width: calc(50% - 20px);
   max-width: max-content;
+  margin-right: auto;
 
   // position
   margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  bottom: 15px;
-  z-index: 10;
+  padding: 0.4em 0.7em;
+
+  color: #222;
+  font-size: 1.2rem;
+  text-decoration: none;
+
+  border: 1px solid #999;
+  border-radius: 0.5em;
+
+  background-color: #ccc;
+
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+
+  cursor: pointer;
+
+  opacity: 0;
+
+  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 // Augment specificity
@@ -34,8 +41,9 @@
   a:focus,
   a:active {
     color: #fff;
-    background-color: var(--color-link-decoration);
     text-decoration: none;
+
+    background-color: var(--color-link-decoration);
   }
 }
 
@@ -44,23 +52,28 @@
 }
 
 .toast-close {
-  opacity: 0.4;
   padding: 0 0.3em;
+
+  opacity: 0.4;
 }
 
 .toast-icon {
-  font-size: 1.8em;
   width: 1em;
   height: 1em;
   margin: 0 0.3em 0 0;
-  fill: currentColor;
+
+  font-size: 1.8em;
   vertical-align: middle;
+
+  fill: currentColor;
 }
 
 .toast-info {
   color: #3c3d76;
-  background-color: #dfd8f0;
+
   border-color: #d6c6e9;
+
+  background-color: #dfd8f0;
 
   a:link,
   a:visited {
@@ -70,8 +83,10 @@
 
 .toast-success {
   color: #3c763d;
-  background-color: #dff0d8;
+
   border-color: #d6e9c6;
+
+  background-color: #dff0d8;
 
   a:link,
   a:visited {
@@ -81,8 +96,10 @@
 
 .toast-warning {
   color: #8a6d3b;
-  background-color: #fcf8e3;
+
   border-color: #faebcc;
+
+  background-color: #fcf8e3;
 
   a:link,
   a:visited {
@@ -92,8 +109,10 @@
 
 .toast-error {
   color: #a94442;
-  background-color: #f2dede;
+
   border-color: #ebccd1;
+
+  background-color: #f2dede;
 
   a:link,
   a:visited {

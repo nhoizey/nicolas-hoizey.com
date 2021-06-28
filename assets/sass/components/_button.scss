@@ -1,20 +1,22 @@
 .button:link,
 .button:visited,
 button {
-  font-size: 0.9em;
   padding: 0.1em 0.5em;
+
+  color: white;
+  font-size: 0.9em;
   text-decoration: none;
 
-  cursor: pointer;
-
-  background-color: var(--color-primary-lighter-2);
-  color: white;
-
-  border-style: solid;
   border-color: var(--color-primary);
+  border-style: solid;
   border-width: var(--border-width);
   border-radius: 1em;
+
+  background-color: var(--color-primary-lighter-2);
+
   box-shadow: inset 0 0.1em 0 rgba(255, 255, 255, 0.2);
+
+  cursor: pointer;
 
   &:hover,
   &:focus {
