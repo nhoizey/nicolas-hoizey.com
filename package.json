@@ -35,7 +35,8 @@
     "tweets": "node ./_scripts/send-tweets.js",
     "algolia": "atomic-algolia",
     "sprite": "node ./_scripts/generate-svg-sprite.js",
-    "ga": "node ./_scripts/update-google-analytics.js"
+    "ga": "node ./_scripts/update-google-analytics.js",
+    "fix-styles": "prettier-stylelint --write 'assets/**/*.scss'"
   },
   "devDependencies": {
     "@11ty/eleventy": "~0.12.1",
@@ -87,6 +88,7 @@
     "postcss-cli": "~8.3.1",
     "postcss-hash": "~2.0.0",
     "prettier": "2.3.1",
+    "prettier-stylelint": "~0.4.2",
     "require-dir": "^1.2.0",
     "rimraf": "^3.0.2",
     "rollup": "^2.52.3",
