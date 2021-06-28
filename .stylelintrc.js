@@ -1,3 +1,5 @@
+const { semanticOrdering } = require('stylelint-semantic-groups');
+
 module.exports = {
   ignoreFiles: ['assets/sass/highlight/*.scss'],
   extends: [
@@ -11,10 +13,10 @@ module.exports = {
       'custom-properties',
       'dollar-variables',
       'declarations',
-      'rules',
       'at-rules',
+      'rules',
     ],
-    'order/properties-order': ['width', 'height'],
+    'order/properties-order': semanticOrdering,
     'order/properties-alphabetical-order': null,
   },
 };
