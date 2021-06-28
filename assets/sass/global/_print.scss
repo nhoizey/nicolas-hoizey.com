@@ -37,7 +37,7 @@
     page-break-before: avoid;
   }
 
-  a[href^='http']:after {
+  [href^='http']::after {
     content: ' &lt; ' attr(href) '&gt; ';
   }
 }

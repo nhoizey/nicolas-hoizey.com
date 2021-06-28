@@ -2,18 +2,17 @@
 
 /* card */
 .tweet-card {
-  background: white;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1em;
   background-color: #fff;
   border: var(--border-width) solid colors.$color-grey;
   border-radius: 0.5em;
+  color: #1c2022;
+  font-family: sans-serif;
   font-size: 1em;
   line-height: 1.4;
-  font-family: sans-serif;
-  color: #1c2022;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 30em;
+  padding: 1em;
   text-align: left;
 
   &:hover,
@@ -23,16 +22,16 @@
 
   a:link,
   a:visited {
-    color: colors.$color-twitter;
     background-color: transparent;
+    color: colors.$color-twitter;
     text-decoration: none;
   }
 
   a:hover,
   a:focus,
   a:active {
-    color: colors.$color-twitter;
     background-color: transparent;
+    color: colors.$color-twitter;
     text-decoration: underline;
   }
 }
@@ -41,54 +40,54 @@
 .tweet-header {
   display: flex;
   margin-bottom: 1em;
+}
 
-  .tweet-profile {
-    margin-right: 9px;
-    flex-shrink: 0;
+.tweet-profile {
+  flex-shrink: 0;
+  margin-right: 9px;
 
-    img {
-      margin: 0;
-      border-radius: 50%;
-      height: 36px;
-      width: 36px;
-    }
+  img {
+    border-radius: 50%;
+    margin: 0;
+    width: 36px;
+    height: 36px;
   }
+}
 
-  .tweet-author {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-  }
+.tweet-author {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
 
-  a.tweet-author-name {
-    &:link,
-    &:visited {
-      font-weight: bold;
-      color: #1c2022;
-      line-height: 1.3;
-    }
-    &:hover,
-    &:focus {
-      color: colors.$color-twitter;
-    }
+.tweet-author-name {
+  &:link,
+  &:visited {
+    font-weight: bold;
+    color: #1c2022;
+    line-height: 1.3;
   }
+  &:hover,
+  &:focus {
+    color: colors.$color-twitter;
+  }
+}
 
-  a.tweet-author-handle {
-    &:link,
-    &:visited {
-      color: colors.$color-darkgrey;
-      font-size: var(--font-size-s);
-      line-height: 1;
-    }
-    &:hover,
-    &:focus {
-      color: colors.$color-twitter;
-    }
+.tweet-author-handle {
+  &:link,
+  &:visited {
+    color: colors.$color-darkgrey;
+    font-size: var(--font-size-s);
+    line-height: 1;
   }
+  &:hover,
+  &:focus {
+    color: colors.$color-twitter;
+  }
+}
 
-  .tweet-bird {
-    margin-left: var(--gap);
-  }
+.tweet-bird {
+  margin-left: var(--gap);
 }
 
 /* images */

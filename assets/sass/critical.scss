@@ -68,10 +68,10 @@ main {
 }
 
 .wrap {
-  width: 90vw;
-  max-width: var(--layout-max);
   margin-left: auto;
   margin-right: auto;
+  max-width: var(--layout-max);
+  width: 90vw;
 }
 
 // ************************************************************
@@ -81,8 +81,8 @@ main {
 .lead {
   @extend %flow;
 
-  font-size: var(--font-size-l);
   color: var(--color-primary-lighter-1);
+  font-size: var(--font-size-l);
 }
 
 h1,
@@ -91,10 +91,10 @@ h3,
 h4,
 h5,
 h6 {
-  line-height: 1.2;
-  font-weight: normal;
-  font-family: var(--font-family-sans-serif);
   color: var(--color-primary-lighter-2);
+  font-family: var(--font-family-sans-serif);
+  font-weight: normal;
+  line-height: 1.2;
   position: relative;
 
   &:not(h1) {
@@ -103,14 +103,14 @@ h6 {
 }
 
 h1 {
+  color: var(--color-primary);
   font-size: var(--font-size-xxl);
   font-weight: bold;
-  color: var(--color-primary);
 }
 
 h2 {
-  font-size: var(--font-size-xl);
   color: var(--color-primary-lighter-1);
+  font-size: var(--font-size-xl);
 }
 
 h3 {
@@ -139,22 +139,22 @@ h6 {
 a {
   &:link,
   &:visited {
-    color: var(--color-link);
     background-color: var(--color-link-bg);
-    text-decoration-line: underline;
-    text-decoration-color: var(--color-link-decoration);
-    text-decoration-thickness: 2px;
+    color: var(--color-link);
+    margin-left: -0.1em;
     padding-left: 0.1em;
     padding-right: 0.1em;
-    margin-left: -0.1em;
+    text-decoration-color: var(--color-link-decoration);
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
   }
 
   &:hover,
   &:focus {
-    color: var(--color-link-hover);
     background-color: var(--color-link-hover-bg);
-    text-decoration: var(--color-link-hover-decoration);
+    color: var(--color-link-hover);
     outline: none;
+    text-decoration: var(--color-link-hover-decoration);
   }
 
   &:active {

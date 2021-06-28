@@ -12,6 +12,7 @@
   &::before,
   &::after {
     content: ' '; /* 1 */
+
     display: table; /* 2 */
   }
 
@@ -22,7 +23,7 @@
 
 // https://piccalil.li/quick-tip/flow-css-utility/
 %flow {
-  & > *:not(script) + * {
+  > *:not(script) + * {
     margin-top: var(--flow-space, 1em);
   }
 }
