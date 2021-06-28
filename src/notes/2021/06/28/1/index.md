@@ -7,7 +7,7 @@ Look, #esviji is now in the @windowsstore! 🎉
 
 https://www.microsoft.com/en-us/p/esviji/9n77wvv83x54
 
-![esviji in the Windows Store](esviji-in-windows-store.png)
+![esviji in the Windows Store](esviji-in-windows-store.png){.border}
 
 It was pretty easy with the great help of the @pwabuilder team, thanks for that. 🙏
 
