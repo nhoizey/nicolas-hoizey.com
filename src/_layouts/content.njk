@@ -18,19 +18,26 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
         "@type": "ListItem",
         "position": 1,
         "item": {
+          "@id": "https://nicolas-hoizey.com/{{ layout }}s/",
+          "name": "{{ layout | titleize }}s"
+        }
+      }, {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
           "@id": "https://nicolas-hoizey.com/{{ layout }}s/{{ date | year }}/",
           "name": "{{ date | year }}"
         }
       }, {
         "@type": "ListItem",
-        "position": 2,
+        "position": 3,
         "item": {
           "@id": "https://nicolas-hoizey.com/{{ layout }}s/{{ date | year }}/{{ date | month }}/",
           "name": "{{ date | month }}"
         }
       }, {
         "@type": "ListItem",
-        "position": 3,
+        "position": 4,
         "item": {
           "@id": "{{ pkg.homepage }}{{ page.url }}",
           "name": "{{ title }}"

@@ -15,19 +15,26 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
         "@type": "ListItem",
         "position": 1,
         "item": {
+          "@id": "https://nicolas-hoizey.com/talks/",
+          "name": "Talks"
+        }
+      }, {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
           "@id": "https://nicolas-hoizey.com/talks/{{ page.date | year }}/",
           "name": "{{ page.date | year }}"
         }
       }, {
         "@type": "ListItem",
-        "position": 2,
+        "position": 3,
         "item": {
           "@id": "https://nicolas-hoizey.com/talks/{{ page.date | year }}/{{ page.date | month }}/",
           "name": "{{ page.date | month }}"
         }
       }, {
         "@type": "ListItem",
-        "position": 3,
+        "position": 4,
         "item": {
           "@id": "{{ pkg.homepage }}{{ page.url }}",
           "name": "{{ title }}"
