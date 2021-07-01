@@ -61,7 +61,7 @@
     "download": "~8.0.0",
     "eleventy-plugin-embed-everything": "~1.13.2",
     "eleventy-plugin-embed-tweet": "^0.3.1",
-    "eleventy-plugin-images-responsiver": "1.9.0",
+    "eleventy-plugin-images-responsiver": "1.9.1",
     "eleventy-plugin-link_to": "~0.4.0",
     "encoding": "^0.1.13",
     "entities": "^2.2.0",
