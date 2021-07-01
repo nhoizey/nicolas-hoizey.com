@@ -76,7 +76,7 @@
     "lodash": "^4.17.21",
     "markdown-it": "~12.0",
     "markdown-it-abbr": "^1.0.4",
-    "markdown-it-anchor": "~7.1",
+    "markdown-it-anchor": "~8.0",
     "markdown-it-attrs": "^4.0.0",
     "markdown-it-bracketed-spans": "^1.0.1",
     "markdown-it-container": "~3.0.0",
@@ -87,16 +87,16 @@
     "npm-run-all": "^4.1.5",
     "path": "^0.12.7",
     "postcss-cli": "~8.3.1",
-    "postcss-hash": "~2.0.0",
+    "postcss-hash": "~3.0.0",
     "prettier": "2.3.1",
     "require-dir": "^1.2.0",
     "rimraf": "^3.0.2",
-    "rollup": "^2.52.3",
+    "rollup": "^2.52.4",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-entrypoint-hashmanifest": "^0.1.2",
     "rollup-plugin-terser": "^7.0.2",
-    "rollup-plugin-visualizer": "~5.5.0",
+    "rollup-plugin-visualizer": "~5.5.1",
     "sanitize-html": "^2.4.0",
     "sass": "~1.35.1",
     "simple-icons": "~5.3.0",
@@ -127,6 +127,6 @@
   "private": true,
   "dependencies": {
     "algoliasearch": "~4.10.2",
-    "instantsearch.js": "~4.24.1"
+    "instantsearch.js": "~4.24.2"
   }
 }
