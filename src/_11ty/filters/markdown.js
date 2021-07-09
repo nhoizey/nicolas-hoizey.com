@@ -33,6 +33,7 @@ const tweetHashtagTohandle = (tweet) => {
     '#Dareboost': '@Dareboost',
     '#Eleventy': '@eleven_ty',
     '#esviji': '@esviji',
+    '#Edge': '@MicrosoftEdge',
     '#EveryLayout': '@layoutplusplus',
     '#Firefox': '@firefox',
     '#Flickr': '@Flickr',
