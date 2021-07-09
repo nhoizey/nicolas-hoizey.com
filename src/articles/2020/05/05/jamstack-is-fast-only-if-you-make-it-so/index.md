@@ -63,7 +63,9 @@ So, instead of doing this for every page view, at least:
 
 First, try to **wait for some time after the site build** before making client-side API calls. Keep the build timestamp available to client-side JavaScript, and wait for an hour, a day, or more, depending on the frequency of webmentions. You could even use the page's "age" to query webmention.io less for older content that probably receives less webmentions, as [Aaron Gustafson did even for server-side call in his Jekyll plugin](https://aarongustafson.github.io/jekyll-webmention_io/performance-tuning).
 
-Then, **keep track of a user's calls to the API**, in localStorage or IndexedDB, so that you don't make these calls again a short while after. You could even use a Service Worker to cache requests and their timestamp.
+Then, **keep track of a user's calls to the API**, in localStorage or IndexedDB, so that you don't make these calls again a short while after. You could even use a Service Worker to cache requests and their timestamp.[^serviceworker]
+
+[^serviceworker]: [Bernard Nijenhuis](https://twitter.com/bnijenhuis/) wrote about [how he handles a Cache of webmention.io requests with a Service Worker](https://bnijenhuis.nl/notes/2021-07-07-implementing-service-workers-with-limited-cache/).
 
 # Client-side only API calls sometimes make more sense
 
