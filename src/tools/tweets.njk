@@ -5,7 +5,7 @@ title: Tweets
 
 <style>
 .tweet {
-  margin: 1em; 
+  margin: 1em;
   padding: .5em 1em;
   border: 1px solid #333;
   font-size: .9em;
@@ -26,7 +26,7 @@ title: Tweets
     <br /><br />
     {%- for tag in article.data.tags -%}#{{ tag | tagToHashtag }} {% endfor %}
     <br /><br />
-    https://nho.io/a/{{ article.url | replace("/articles/", "") }}
+    https://nho.link/a/{{ article.url | replace("/articles/", "") }}
   </p>
   </div>
 {% endfor %}

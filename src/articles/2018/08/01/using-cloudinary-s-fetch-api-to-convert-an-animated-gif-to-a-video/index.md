@@ -16,7 +16,7 @@ The animations in this post are animated GIFs provided by Giphy and (obviously) 
 {% giphy "12NUbkX6p4xOO4" %}
 
 ::: info
-You need a Cloudinary account to try all of this, but no fear, the **free plan** is really confortable for personnal use or just testing: [signup for Cloudinary](https://nho.io/cloudinary-signup).
+You need a Cloudinary account to try all of this, but no fear, the **free plan** is really confortable for personnal use or just testing: [signup for Cloudinary](https://nho.link/cloudinary-signup).
 :::
 
 # So, what's the issue with animated GIFs?

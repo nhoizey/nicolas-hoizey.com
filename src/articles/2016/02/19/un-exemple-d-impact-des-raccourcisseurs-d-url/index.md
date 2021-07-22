@@ -6,10 +6,10 @@ tags:  [URL, WebPerf]
 ---
 
 ::: lead
-Les raccourcisseurs d'URL sont devenus incontournables sur le Web depuis quelques années, mais initialement pensés comme outils de facilitation de partage[^nhoio], [ils ont beaucoup évolué](http://www.lemonde.fr/technologies/article/2009/12/15/la-bataille-des-raccourcisseurs-d-adresses-web_1281072_651865.html) et sont surtout devenus des outils de _tracking_. Du coup, les sites en abusent de plus en plus, alors que les plateformes où ces liens sont publiés, Twitter par exemple, rajoutent leur propre couche. **L'impact sur la performance pour l'utilisateur final est désastreux**.
+Les raccourcisseurs d'URL sont devenus incontournables sur le Web depuis quelques années, mais initialement pensés comme outils de facilitation de partage[^nholink], [ils ont beaucoup évolué](http://www.lemonde.fr/technologies/article/2009/12/15/la-bataille-des-raccourcisseurs-d-adresses-web_1281072_651865.html) et sont surtout devenus des outils de _tracking_. Du coup, les sites en abusent de plus en plus, alors que les plateformes où ces liens sont publiés, Twitter par exemple, rajoutent leur propre couche. **L'impact sur la performance pour l'utilisateur final est désastreux**.
 :::
 
-[^nhoio]: J'utilise moi-même le domaine personnalisé `nho.io` avec Bitly quand j'ai besoin de partager une URL courte et intelligible, notamment des [permashortlinks](https://indiewebcamp.com/permashortlinks) vers mes propres contenus, mais j'en connais les conséquences, donc je suis prudent.
+[^nholink]: J'utilisais moi-même le domaine personnalisé `nho.link` avec Bitly quand j'avais besoin de partager une URL courte et intelligible, notamment des [permashortlinks](https://indiewebcamp.com/permashortlinks) vers mes propres contenus, mais j'en connais les conséquences, donc je suis passé à [une solution plus légère](https://github.com/nhoizey/1y).
 
 Voici l'exemple d'un lien présent dans un tweet de TechCrunch :
 

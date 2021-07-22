@@ -29,7 +29,7 @@ L'évolution technique la plus importante pour le site lui-même, c'est le passa
 
 ![](/assets/logos/alwaysdata.png){.logo}
 
-L'autre évolution technique importante, mais plus pour moi que le site lui-même, est le passage d'un hébergement [Gandi Serveur](https://www.gandi.net/hebergement/serveur) où je devais tout (mal) faire moi-même, y compris la configuration et les mises à jour système, à un hébergement [AlwaysData](http://nho.io/alwaysdata) infogéré où je n'ai plus à me préoccuper que des sources de mes sites.
+L'autre évolution technique importante, mais plus pour moi que le site lui-même, est le passage d'un hébergement [Gandi Serveur](https://www.gandi.net/hebergement/serveur) où je devais tout (mal) faire moi-même, y compris la configuration et les mises à jour système, à un hébergement [AlwaysData](http://nho.link/alwaysdata) infogéré où je n'ai plus à me préoccuper que des sources de mes sites.
 
 Un des arguments de AlwaysData face à une concurrence très large est la mise à disposition d'un accès *ssh* qui me permet de gérer les sources des sites dans un dépôt Git et faire des *pull*, plutôt que tout faire par FTP.
 

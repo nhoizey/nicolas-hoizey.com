@@ -12,7 +12,7 @@ permalink: /feeds/twitter/links.json
     {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
     {
       "id": "{{ absoluteEntryUrl }}",
-      "url": "https://nho.io/l/{{ entry.url | replace('/links/', '') }}",
+      "url": "https://nho.link/l/{{ entry.url | replace('/links/', '') }}",
       "title": "🔗 “{{ entry.data.title | safe }}”",
       "date_published": "{{ entry.date | rssDate }}",
       "content_text": "🔗 “{{ entry.data.title | safe }}”\n{% set by = false -%}
@@ -21,7 +21,7 @@ permalink: /feeds/twitter/links.json
 {%- if author.twitter -%}{%- if by == false -%}by{%- set by = true -%}{%- endif %} @{{ author.twitter }}{% endif -%}
 {%- endfor -%}
 {%- endif %}\n\n{% for tag in entry.data.tags -%}#{{ tag | tagToHashtag }} {% endfor -%}
-\n\nhttps://nho.io/l/{{ entry.url | replace('/links/', '') }}",
+\n\nhttps://nho.link/l/{{ entry.url | replace('/links/', '') }}",
       "attachments": [
         {
           "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/{{ entry.data.link }}",

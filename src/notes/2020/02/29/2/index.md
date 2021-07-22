@@ -5,6 +5,6 @@ tags: [POSSE, Eleventy]
 
 You might have noticed that these notes are #POSSE on social networks with a link to a shorter domain. 🤔
 
-https://nho.io/ is my short URL domain, hosting only redirects. It is also powered by #Eleventy! 💪
+https://nho.link/ is my short URL domain, hosting only redirects. It is also powered by #Eleventy! 💪
 
 Use the "1y" template to create your own: https://github.com/nhoizey/1y
