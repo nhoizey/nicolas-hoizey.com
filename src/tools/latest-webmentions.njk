@@ -8,6 +8,7 @@ title: Latest Webmentions
 <table style="font-size: 0.8em">
   <thead>
     <tr>
+      <th>id</th>
       <th>date</th>
       <th>type</th>
       <th>target</th>
@@ -18,6 +19,7 @@ title: Latest Webmentions
     {% set webmentions = '' | getLatestWebmentions %}
     {% for webmention in webmentions | reverse %}
       <tr style="font-size: 0.8em; border-top: 3px solid #333">
+        <td style="white-space: nowrap">{{ webmention['wm-id'] }}</td>
         <td style="white-space: nowrap">
           {% if webmention.published %}
             {{ webmention.published | formattedDateTime }}
@@ -31,7 +33,7 @@ title: Latest Webmentions
       </tr>
       {% if webmention['wm-property'] != 'repost-of' and webmention.content.text %}
         <tr>
-          <td colspan="4">{{ webmention.content.text }}</td>
+          <td colspan="5" style="font-size: 0.8em">{{ webmention.content.text | truncate(1000) }}</td>
         </tr>
       {% endif %}
     {% endfor %}

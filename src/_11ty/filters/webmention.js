@@ -63,7 +63,7 @@ const getUrlsHistory = memoize((url) => {
 });
 
 module.exports = {
-  getLatestWebmentions: () => getWebmentions().slice(-50),
+  getLatestWebmentions: () => getWebmentions().slice(-250),
   getWebmentionsForUrl: memoize((url) => {
     // TODO: for each URL, we loop through all webmentions, should be optimized
     if (url === undefined) {
