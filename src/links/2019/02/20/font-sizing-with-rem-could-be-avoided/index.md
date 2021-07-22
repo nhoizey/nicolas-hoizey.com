@@ -6,7 +6,7 @@ link: https://csswizardry.com/2011/05/font-sizing-with-rem-could-be-avoided/
 authors:
   - name: "Harry Roberts"
     twitter: "csswizardry"
-tags: [em, rem, "62.5%"]
+tags: [em, rem, "62.5%", accessibility, CSS]
 ---
 
 I don't really agree with the simple statement made in the title of this article, as sizing fonts with `rem` is sometimes useful to escape the default cascading sizing, but the most important part here IMHO is the following:
