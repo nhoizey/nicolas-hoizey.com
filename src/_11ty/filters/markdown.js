@@ -122,6 +122,12 @@ module.exports = {
     // escape unicode
     tweet = tweet.replace(/\\([0-9A-F])/gm, '\\\\$1');
 
+    // find caniuse shortcodes
+    tweet = tweet.replace(
+      /\{% caniuse \\"([^)]+)\\" %\}/,
+      'https://caniuse.com/$1'
+    );
+
     // Normalize line feeds
     tweet = tweet.replace(/\n/gm, '\\n');
     tweet = tweet.replace(/(\\n){3,}/gm, '\\n\\n');
