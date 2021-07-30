@@ -13,7 +13,7 @@ Pourtant, je découvre depuis peu certains des artistes qui y sont catalogués. 
 
 ![](art85-1.jpg){.onethird}
 
-Enfin bref, c'est par un heureux hasard qu'une amie m'a parlé de [Jill Scott](http://www.amazon.com/exec/obidos/tg/stores/artist/glance/-/207808/phpheaven) et de son passage à Paris en février. Intéressé, je me suis empressé de chercher des infos et d'écouter l'album [Who Is Jill Scott?](http://www.amazon.com/exec/obidos/ASIN/B00004UARR/phpheaven). L'ayant bien apprécié, je me suis laissé tenté par l'idée de ce concert d'un nouveau genre pour moi, mais en terrain connu, le fameux [Elysée Montmartre](http://www.elyseemontmartre.com/).
+Enfin bref, c'est par un heureux hasard qu'une amie m'a parlé de [Jill Scott](http://www.amazon.com/exec/obidos/tg/stores/artist/glance/-/207808/phpheaven) et de son passage à Paris en février. Intéressé, je me suis empressé de chercher des infos et d'écouter l'album [Who Is Jill Scott?](http://www.amazon.com/exec/obidos/ASIN/B00004UARR). L'ayant bien apprécié, je me suis laissé tenté par l'idée de ce concert d'un nouveau genre pour moi, mais en terrain connu, le fameux [Elysée Montmartre](http://www.elyseemontmartre.com/).
 
 Arrive donc ce fameux lundi 25 février 2002, concert à 19h30 (dur quand on bosse régulièrement jusqu'à 20h). Suite à un set plutôt sympa d'un DJ dont le nom ne figure malheureusement pas sur le billet, mais qui a la bonne idée de passer notamment du DJ Cam du meilleur cru, la tension monte, et les musiciens arrivent sur scène. Ces musiciens, rassemblés sous le nom Fatback Taffy, assurent déjà bien le spectacle en se répondant avec talent avec leurs guitare, basse, batterie et percussions. Un trio de choristes elles-mêmes très douées individuellement accompagne le dispositif.
 
@@ -27,7 +27,7 @@ Durant les chansons, les corps se trémoussent dans la salle, le public ne fait 
 
 En sortant de ce concert, impossible de ne pas remarquer les mines réjouies de tout le public, c'était vraiment un grand concert, comme on en voit peu.
 
-Pour retrouver un peu de l'ambiance de ce concert, il est possible d'écouter le double album live [Experience: Jill Scott](http://www.amazon.com/exec/obidos/ASIN/B00005R5V2/phpheaven) qui reprend notamment des extraits d'un concert au Constitution Hall de Washington D.C.
+Pour retrouver un peu de l'ambiance de ce concert, il est possible d'écouter le double album live [Experience: Jill Scott](http://www.amazon.com/exec/obidos/ASIN/B00005R5V2) qui reprend notamment des extraits d'un concert au Constitution Hall de Washington D.C.
 
 Je vais donc me pencher plus curieusement sur le R&B, il doit bien y avoir d'autres pépites du type de Jill Scott, il suffit maintenant de les débusquer.
 

@@ -7,7 +7,7 @@ tags:       [UX, form, password]
 
 J'avais découvert chez Luke Wroblewski[^i1] que la galère historique des mots de passe masqués dans les champs de formulaires Web n'est pas une fatalité, et je découvre aujourd'hui qu'il n'était pas le premier à y penser ni le mettre en œuvre. Voilà quelques ressources sur le sujet fournies par quelques-uns qui ont répondu à [mon appel à références sur Twitter](https://twitter.com/nhoizey/status/534669510708834305).
 
-[^i1]: Monsieur « [Mobile First](http://www.amazon.fr/gp/product/2212134061/ref=as_li_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=2212134061&linkCode=as2&tag=phpheaven-21&linkId=WWJVUYX3VIWH6SNG) » entre autres…
+[^i1]: Monsieur « [Mobile First](https://www.amazon.fr/gp/product/2212134061) » entre autres…
 
 Voici donc le premier article que j'ai lu en novembre 2012 sur le sujet, par Luke Wroblewski qui le mettait alors en œuvre sur sa plateforme Polar : « [Mobile Design Details: Hide/Show Passwords](http://www.lukew.com/ff/entry.asp?1653) ». Sur le moment, j'avais trouvé ça vraiment excellent comme idée, ne l'ayant jamais vu mise en œuvre. Cet article est d'ailleurs repris dans l'excellent e-book publié par Luke Wroblewski en synthèse de ses travaux chez Polar avant son rachat par Google : « [Mobile & Multi-Device Design: Lessons Learned](http://www.lukew.com/ff/entry.asp?1919) »[^1].
 

@@ -7,4 +7,4 @@ tags:       [humour, cinema, quote, Les Nuls]
 
 > On se fait tellement chier ici, à Cannes, que même la palme dort.
 
-Extrait de « [L'info, c'est rigolo](http://www.amazon.fr/exec/obidos/ASIN/2020200090/phpheaven-21) »
+Extrait de « [L'info, c'est rigolo](http://www.amazon.com/exec/obidos/ASIN/2020200090) »

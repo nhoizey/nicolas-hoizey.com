@@ -31,6 +31,6 @@ Je ne vois qu'une source possible d'inspiration pour le script de cette nouvelle
 
 Décidemment très impliqué à tous les niveaux dans ses oeuvres, John Carpenter signe la musique du film, percutante et d'influence très métal.
 
-Pour en apprendre plus sur ce film, déjà disponible en [DVD Zone 1](http://www.amazon.com/exec/obidos/ASIN/B00003CY6P/phpheaven), je vous invite à visiter le [site officiel américain](http://www.spe.sony.com/movies/ghostsofmars/) et son [pendant français](http://www.ghostofmars-lefilm.com/).
+Pour en apprendre plus sur ce film, déjà disponible en [DVD Zone 1](http://www.amazon.com/exec/obidos/ASIN/B00003CY6P), je vous invite à visiter le [site officiel américain](http://www.spe.sony.com/movies/ghostsofmars/) et son [pendant français](http://www.ghostofmars-lefilm.com/).
 
 Quoi qu'il en soit, c'est un bon divertissement, moins lobotomisant que beaucoup de super-productions hollywoodiennes.

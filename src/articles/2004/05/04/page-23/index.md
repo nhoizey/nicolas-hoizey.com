@@ -1,13 +1,13 @@
---- 
-title:      "Page 23" 
+---
+title:      "Page 23"
 date: 2004-05-04 12:00:00 +02:00
-lang:       fr 
+lang:       fr
 tags:       [humour, me]
 ---
 
 
 
-Aldous Huxley, dans sa nouvelle préface au [Meilleur des Mondes](http://www.amazon.fr/exec/obidos/ASIN/2266128566/phpheaven-21) pour l'édition de 1946 en Livre de Poche :
+Aldous Huxley, dans sa nouvelle préface au [Meilleur des Mondes](http://www.amazon.com/exec/obidos/ASIN/2266128566) pour l'édition de 1946 en Livre de Poche :
 
 > A tout bien considérer, il semble que l'Utopie soit beaucoup plus proche de nous que quiconque ne l'eût pu imaginer, il y a seulement quinze ans.
 

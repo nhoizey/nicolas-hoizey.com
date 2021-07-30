@@ -23,4 +23,4 @@ La dernière partie du film, qui montre le retour de Noland à la civilisation a
 
 Petite anecdote, la phrase suivante est lue par le héros sur une carte d'anniversaire rescapée du naufrage : "The most beautiful thing in the world is, of course, the world itself." Voilà, tout est dit.
 
-En bonus, la [fiche de IMDB](http://www.imdb.com/Title?0162222) (Internet Movie DataBase) et le [DVD](http://www.amazon.com/exec/obidos/ASIN/B00003CXRN/phpheaven) en vente chez Amazon.
+En bonus, la [fiche de IMDB](http://www.imdb.com/Title?0162222) (Internet Movie DataBase) et le [DVD](http://www.amazon.com/exec/obidos/ASIN/B00003CXRN) en vente chez Amazon.

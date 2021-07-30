@@ -12,17 +12,17 @@ Je trimballe pour l'instant mon Canon EOS 350D[^i1] et ses accessoires dans un s
 Voilà ce que je trimbale donc pour l'instant dans mon Lowepro Mini Trekker Classic :
 
 - Le boitier Canon EOS 350D,
-- Le zoom trans-standard [Canon EF-S 17-85mm f/4.0-5.6 IS USM (fr)](http://www.amazon.fr/dp/B0002XNRG4/gasteroprod-21) vissé dessus,
-- Un télé zoom [Canon EF 70-300mm f/4.0-5.6 IS USM (fr)](http://www.amazon.fr/dp/B000B84KB6/gasteroprod-21),
-- Un objectif macro [Canon EF 100mm f/2.8 USM (fr)](http://www.amazon.fr/dp/B00005KHRX/gasteroprod-21),
-- Une [bonnette Macro Canon 250D (fr)](http://www.amazon.fr/dp/B00008AZZI/gasteroprod-21) pour aller encore plus près et surtout plus gros,
-- Un flash [Canon Speedlite 430 EX II (fr)](http://www.amazon.fr/dp/B001AXFV5A/gasteroprod-21),
-- Un [GPS Garmin Colorado 300 (fr)](http://www.amazon.fr/dp/B0012XKCXO/gasteroprod-21) pour la balade et la géolocalisation de mes photos,
-- Divers accessoires de taille plus ou moins réduite mais faisant quand même au total un volume respectable : [batteries (fr)](http://www.amazon.fr/dp/B000ZNY2O2/gasteroprod-21), piles, chargeurs, cartes mémoire, [télécommande sans fil (fr)](http://www.amazon.fr/dp/B00005LLPA/gasteroprod-21), bouchons d'objectifs de rechange, stylos, etc.
+- Le zoom trans-standard [Canon EF-S 17-85mm f/4.0-5.6 IS USM (fr)](http://www.amazon.fr/dp/B0002XNRG4) vissé dessus,
+- Un télé zoom [Canon EF 70-300mm f/4.0-5.6 IS USM (fr)](http://www.amazon.fr/dp/B000B84KB6),
+- Un objectif macro [Canon EF 100mm f/2.8 USM (fr)](http://www.amazon.fr/dp/B00005KHRX),
+- Une [bonnette Macro Canon 250D (fr)](http://www.amazon.fr/dp/B00008AZZI) pour aller encore plus près et surtout plus gros,
+- Un flash [Canon Speedlite 430 EX II (fr)](http://www.amazon.fr/dp/B001AXFV5A),
+- Un [GPS Garmin Colorado 300 (fr)](http://www.amazon.fr/dp/B0012XKCXO) pour la balade et la géolocalisation de mes photos,
+- Divers accessoires de taille plus ou moins réduite mais faisant quand même au total un volume respectable : [batteries (fr)](http://www.amazon.fr/dp/B000ZNY2O2), piles, chargeurs, cartes mémoire, [télécommande sans fil (fr)](http://www.amazon.fr/dp/B00005LLPA), bouchons d'objectifs de rechange, stylos, etc.
 
 Tout cela rempli bien le sac, dont le confort sommaire trouve ses limites avec le poids considéré lors de balades prolongées.
 
-Depuis très peu de temps[^1], il y a en plus un boitier [Canon EOS 5D Mark II (fr)](http://www.amazon.fr/dp/B001G7PBIC/gasteroprod-21) accompagné d'un zoom trans-standard [Canon EF 24-70mm f/2.8 L USM (fr)](http://www.amazon.fr/dp/B00007EE8M). Le 350D et son trans-standard EF-S resteront peut-être dans le sac pour usage complémentaire, le 350D étant notamment intéressant en télé avec le 300mm transformé « magiquement » en 480mm[^2].
+Depuis très peu de temps[^1], il y a en plus un boitier [Canon EOS 5D Mark II (fr)](http://www.amazon.fr/dp/B001G7PBIC) accompagné d'un zoom trans-standard [Canon EF 24-70mm f/2.8 L USM (fr)](http://www.amazon.fr/dp/B00007EE8M). Le 350D et son trans-standard EF-S resteront peut-être dans le sac pour usage complémentaire, le 350D étant notamment intéressant en télé avec le 300mm transformé « magiquement » en 480mm[^2].
 
 Voici en gros ce que le Mini Trekker Classic n'offre pas et me serait bien utile :
 

@@ -7,4 +7,4 @@ tags:       [society, humour, quote, comic]
 
 > Sometimes I think the surest sign that intelligent life exists elsewhere in the universe is that none of it has tried to contact us.
 
-Extrait de la bande dessinée « [Calvin and Hobbes](http://www.amazon.fr/exec/obidos/ASIN/0836218051/phpheaven-21) »
+Extrait de la bande dessinée « [Calvin and Hobbes](http://www.amazon.com/exec/obidos/ASIN/0836218051) »
