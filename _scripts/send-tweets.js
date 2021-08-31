@@ -1,6 +1,8 @@
 // Heavily inspired from
 // https://mxb.dev/blog/syndicating-content-to-twitter-with-netlify-functions/
 
+// TODO: manage offline
+
 const myTwitterUsername = 'nhoizey';
 
 const fetch = require('node-fetch');
@@ -23,12 +25,14 @@ const twitter = new Twitter({
 // Helper Function to return unknown errors
 const handleError = (error) => {
   const msg = Array.isArray(error) ? error[0].message : error.message;
+  // TODO: no need to return
   return status(422, String(msg));
 };
 
 // Helper Function to return function status
 const status = (code, msg) => {
   console.log(msg);
+  // TODO: no need to return
   return {
     statusCode: code,
     body: msg,
@@ -43,6 +47,7 @@ const processFeed = async (feed) => {
   );
 
   if (!items.length) {
+    // TODO: no need to return
     return status(404, 'No item found to process.');
   }
 
@@ -147,7 +152,8 @@ const main = async () => {
         .catch(handleError);
     })
   );
-  // Todo: parse `result` to find potential errors and return accordingly
+  // TODO: parse `result` to find potential errors and return accordingly
+  // TODO: no need to return
   return { statusCode: 200, body: JSON.stringify(result) };
 };
 

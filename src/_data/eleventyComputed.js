@@ -66,6 +66,7 @@ function htmlAuthors(data) {
     let i = 0;
     const nb = data.authors.length;
     data.authors.forEach((author) => {
+      // TODO: Add support for author.mastodon
       if (author.twitter) {
         html += `<img class="u-photo avatar" src="https://res.cloudinary.com/nho/image/twitter_name/${author.twitter}" alt="${author.name} avatar" loading="lazy" width="48" height="48" /> `;
       }
