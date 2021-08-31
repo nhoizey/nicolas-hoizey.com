@@ -39,7 +39,6 @@ html:focus-within {
 }
 
 body {
-
   color: var(--color-primary-darker-6);
   font-weight: 400;
   font-size: var(--font-size-m);
@@ -81,7 +80,6 @@ main {
 // ************************************************************
 
 .lead {
-
   color: var(--color-primary-lighter-1);
   font-size: var(--font-size-l);
   @extend %flow;
@@ -186,9 +184,9 @@ a {
 }
 
 .deeplink {
-  display: grid;
-  justify-content: center;
-  align-content: center;
+  // display: grid;
+  // justify-content: center;
+  // align-content: center;
 
   &:link,
   &:visited {
@@ -273,7 +271,6 @@ img {
 }
 
 svg {
-
   width: 1em;
   height: 1em;
   margin: 0;
@@ -319,7 +316,6 @@ lite-youtube > iframe {
 
 // https://blog.codepen.io/2017/05/01/make-embedded-pen-resizeable/
 .cp_embed_wrapper {
-
   /* default height */
   height: 400px;
   padding-bottom: 10px;
@@ -370,7 +366,6 @@ img {
   }
 
   &.onethird {
-
     max-width: 50%;
     @extend .right;
 
@@ -381,7 +376,6 @@ img {
 
   &.onefourth,
   &.logo {
-
     max-width: 50%;
     @extend .right;
 
@@ -395,7 +389,6 @@ img {
   }
 
   &.small_logo {
-
     max-width: 25%;
     @extend .right;
 
