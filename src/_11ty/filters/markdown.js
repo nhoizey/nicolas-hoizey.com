@@ -45,6 +45,7 @@ const tweetHashtagTohandle = (tweet) => {
     '#Jekyll': '@jekyllrb',
     '#Jest': '@fbjest',
     '#Lighthouse': '@____lighthouse',
+    '#Mapbox': '@Mapbox',
     '#Matomo': '@matomo_org',
     '#MDN': '@MozDevNet',
     '#Netlify': '@Netlify',
