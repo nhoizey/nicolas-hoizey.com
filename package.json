@@ -64,7 +64,7 @@
     "eleventy-plugin-images-responsiver": "1.9.1",
     "eleventy-plugin-link_to": "~0.4.0",
     "encoding": "^0.1.13",
-    "entities": "^2.2.0",
+    "entities": "^3.0.1",
     "eslint": "7.29.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-prettier": "3.4.0",
