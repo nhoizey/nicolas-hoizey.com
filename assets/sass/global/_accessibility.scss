@@ -18,3 +18,21 @@
   clip: rect(0 0 0 0);
   clip-path: inset(100%);
 }
+
+/* mark element */
+// https://www.tpgi.com/short-note-on-making-your-mark-more-accessible/
+mark::before,
+mark::after {
+  content: ' [highlight start] ';
+  clip-path: inset(100%);
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+}
+
+mark::after {
+  content: ' [highlight end] ';
+}
