@@ -28,6 +28,7 @@ const tweetHashtagTohandle = (tweet) => {
     '#Algolia': '@algolia',
     '#AlwaysData': '@alwaysdata',
     '#CanIUse': '@caniuse',
+    '#Chrome': '@googlechrome',
     '#Cloudinary': '@cloudinary',
     '#Coil': '@Coil',
     '#Dareboost': '@Dareboost',
