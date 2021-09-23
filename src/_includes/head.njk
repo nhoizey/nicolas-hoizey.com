@@ -61,8 +61,9 @@
   {% endif %}
 
   <meta property="og:title" content="{{ opengraph.title }}" />
-  <meta name="description" content="{{ ogDescription }}" />
-  <meta property="og:description" content="{{ ogDescription }}" />
+
+  {# https://stackoverflow.com/q/6203984/717195 #}
+  <meta name="description" property="og:description" content="{{ head.description }}" />
 
   <link rel="canonical" href="{{ pkg.homepage + page.url }}" itemprop="url" />
   <meta property="og:url" content="{{ pkg.homepage + page.url }}" />
