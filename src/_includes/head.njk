@@ -8,9 +8,6 @@
 
   {{ head.title | safe }}
 
-  {% set cssFilename = "critical.css" %}
-  {% include "add-css.njk" %}
-
   {% if build.env == 'production' %}
     {% set criticalJs %}
     {% include_raw config.dir.dist + "/js/" + hashes_critical[config.dir.assets + '/js/critical.js'] %}
@@ -22,7 +19,12 @@
     <script src="/js/critical-iife.js"></script>
   {% endif %}
 
+  {# Analytics #}
   {% include 'components/google-analytics.njk' %}
+  {% include 'components/matomo.njk' %}
+
+  {% set cssFilename = "critical.css" %}
+  {% include "add-css.njk" %}
 
   {# opengraph and Twitter #}
   <meta property="og:site_name" content="Nicolas Hoizey" />
@@ -114,6 +116,4 @@
     href="https://nicolas-hoizey.com/opensearch.xml" />
 
   <meta name="generator" content="Eleventy {{ build.version }}" />
-
-{% include 'components/matomo.njk' %}
 </head>
