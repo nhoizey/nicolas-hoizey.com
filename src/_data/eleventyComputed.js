@@ -101,7 +101,7 @@ function bodyTitle(data) {
 function title(data) {
   let body = bodyTitle(data);
   if (data.layout === 'link') {
-    return `${textAuthors(data)}:\n“${body}”`;
+    return `${textAuthors(data)}: “${body}”`;
   }
   return body;
 }
