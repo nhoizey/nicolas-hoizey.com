@@ -106,25 +106,6 @@ function title(data) {
   return body;
 }
 
-// TODO: remove 'excerpt' filter when this works
-function lead(data) {
-  if (data.content === undefined) {
-    return '';
-  }
-  const regex = /(<p( [^>]*)?>((?!(<\/p>)).|\n)+<\/p>)/m;
-  let lead = '';
-
-  // Remove paragraphs containing only an image
-  let cleanContent = data.content.replace(/<p><img [^>]+><\/p>/, '');
-
-  // Get first paragraph, if there's at least one, and remove the paragraph tag
-  if ((matches = regex.exec(cleanContent)) !== null) {
-    lead = matches[0].replace(/<p( [^>]*)?>(((?!(<\/p>)).|\n)+)<\/p>/, '$2');
-  }
-
-  return lead;
-}
-
 // TODO: refactor with the one in filters
 function tagToHashtag(tag) {
   let words = tag.replace(/[-\.]/, ' ').split(' ');
@@ -140,6 +121,7 @@ function tagToHashtag(tag) {
 function tags(data) {
   let tags = [];
   if (data.layout === 'note') {
+    // TODO: duplicate work with collections/notes.js ?
     tags = twitter.extractHashtags(twitter.htmlEscape(data.content));
   }
   if (data.tags !== undefined) {
@@ -162,12 +144,20 @@ function headTitle(data) {
   if (data.page.url === '/') {
     return `<title itemprop="name">${data.pkg.title}</title>`;
   }
-  // if (data.layout === 'note') {
-  //   return `<title>${lead(data).slice(0, 50)} - ${
-  //     data.pkg.author.name
-  //   }</title>`;
-  // }
+  if (data.layout === 'note') {
+    return `<title>Note: ${data.page.excerpt.replace(
+      /^(.{40}[^\s]*).*/gm,
+      '$1'
+    )}… - ${data.pkg.author.name}</title>`;
+  }
   return `<title>${title(data)} - ${data.pkg.author.name}</title>`;
+}
+
+function headDescription(data) {
+  if (data.page.url === '/') {
+    return data.pkg.description;
+  }
+  return data.page.excerpt;
 }
 
 function ogType(data) {
@@ -188,10 +178,6 @@ function ogTitle(data) {
   return removeEmojis(title(data));
 }
 
-function ogDescription(data) {
-  return lead(data).slice(0, 50);
-}
-
 function ogImageTitle(data) {
   if (data.page.url === '/') {
     return data.pkg.title;
@@ -200,10 +186,9 @@ function ogImageTitle(data) {
     case 'article':
     case 'link':
     case 'talk':
-    case 'note':
       return removeEmojis(title(data));
-    // case 'note':
-    //   return lead(data);
+    case 'note':
+      return removeEmojis(data.page.excerpt);
   }
   return '';
 }
@@ -233,6 +218,7 @@ module.exports = {
   },
   head: {
     title: (data) => headTitle(data),
+    description: (data) => headDescription(data),
   },
   body: {
     title: (data) => bodyTitle(data),
@@ -240,13 +226,11 @@ module.exports = {
   opengraph: {
     type: (data) => ogType(data),
     title: (data) => ogTitle(data),
-    description: (data) => ogDescription(data),
     image: {
       title: (data) => ogImageTitle(data),
       tagline: (data) => ogImageTagline(data),
     },
   },
-  lead: (data) => lead(data),
   // tags: (data) => tags(data),
   permalink: (data) =>
     data.page.filePathStem.startsWith('/drafts/') &&

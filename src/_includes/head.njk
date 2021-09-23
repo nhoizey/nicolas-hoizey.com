@@ -35,31 +35,6 @@
   {# https://dev.twitter.com/web/overview/widgets-webpage-properties#csp #}
   <meta name="twitter:widgets:csp" content="on" />
 
-  {% set ogImageTitle = '' %}
-  {% set ogImageTagline = '' %}
-
-  {% if page.url == "/" %}
-    {% set ogTitle = pkg.title %}
-    {% set ogDescription = pkg.description %}
-  {% elif layout == "note" %}
-    {% set ogTitle = pageExcerpt | striptags | truncate(60) | escape | titleSafe %}
-    {% set ogDescription %}Note from {{ note.data.formattedDate }}{% endset %}
-    {% set ogImageTitle = ogDescription %}
-  {% else %}
-    {% set ogTitle = title %}
-    {% if layout == "article" or layout == "link" or layout == "talk" %}
-      {% set ogDescription = pageExcerpt | striptags | truncate(290) | escape %}
-      {% if layout == "link" %}
-        {% set ogImageTitle %}Link: {{ ogTitle }}{% endset %}
-      {% endif %}
-    {% elif page.inputPath == "./src/tag-page.njk" %}
-      {% set ogDescription = ogTitle %}
-    {% endif %}
-  {% endif %}
-  {% if ogImageTitle == '' %}
-    {% set ogImageTitle = ogTitle %}
-  {% endif %}
-
   <meta property="og:title" content="{{ opengraph.title }}" />
 
   {# https://stackoverflow.com/q/6203984/717195 #}
