@@ -240,6 +240,48 @@ module.exports = function (eleventyConfig) {
   }
 
   // ------------------------------------------------------------------------
+  // Excerpt
+  // ------------------------------------------------------------------------
+
+  const markdownItPlainText = require('markdown-it-plain-text');
+  const excerptMd = new markdownIt().use(markdownItPlainText);
+
+  function grayMatterExcerpt(file, options) {
+    const regex = /^.*::: lead(((?!(:::)).|\n)+):::.*$/gm;
+    let excerpt = '';
+
+    if ((leadMatches = regex.exec(file.content)) !== null) {
+      lead = leadMatches[1];
+      excerptMd.render(lead);
+    } else {
+      excerptMd.render(file.content);
+    }
+    excerpt = excerptMd.plainText
+      .trim()
+      .replace(/{%(((?!(%})).|\n)+)%}/gm, '') // remove short codes
+      .replace(/{{(((?!(}})).|\n)+)}}/gm, '') // remove nunjucks variables
+      .replace(/{#(((?!(#})).|\n)+)#}/gm, '') // remove nunjucks comments
+      .replace(/<style>(((?!(<\/style>)).|\n)+)<\/style>/gm, '') // remove inline CSS
+      .replace(
+        /<script type="application\/ld\+json">(((?!(<\/script>)).|\n)+)<\/script>/gm,
+        ''
+      ) // remove JSON+LD
+      .replace(/(<\/h[1-6]>)/gm, '. $1') // add a dot at the end of headings
+      .replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>|<!--[\s\S]*?-->/gm, '') // remove HTML tags
+      .replace(/(\[\^[^\]]+\])/gm, '') // remove Markdown footnotes
+      .replace(/ +(\.|,)/gm, '$1'); // remove space before punctuation
+
+    if (excerpt.length > 150) {
+      excerpt = excerpt.replace(/^(.{145}[^\s]*).*/gm, '$1') + '…';
+    }
+    file.excerpt = excerpt;
+  }
+
+  eleventyConfig.setFrontMatterParsingOptions({
+    excerpt: grayMatterExcerpt,
+  });
+
+  // ------------------------------------------------------------------------
   // Eleventy configuration
   // ------------------------------------------------------------------------
 
