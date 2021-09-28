@@ -20,7 +20,7 @@ permalink: /feeds/webmentions.xml
 
   {% for webmention in webmentions | reverse %}
     <entry>
-      <title>{{ webmention['wm-target'] }}</title>
+      <title>👀 {{ webmention['wm-property'] }} {{ webmention['wm-target'] }}</title>
       <link href="{{ webmention['wm-target'] }}"/>
       {% if webmention.published %}
         <updated>{{ webmention.published | formattedDateTime }}</updated>
