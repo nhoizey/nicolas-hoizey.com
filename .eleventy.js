@@ -272,6 +272,7 @@ module.exports = function (eleventyConfig) {
       .replace(/ +(\.|,)/gm, '$1'); // remove space before punctuation
 
     if (excerpt.length > 150) {
+      // Keep only 145 characters and an ellipsis
       excerpt = excerpt.replace(/^(.{145}[^\s]*).*/gm, '$1') + '…';
     }
     file.excerpt = excerpt;
