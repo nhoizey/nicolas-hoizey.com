@@ -118,8 +118,6 @@ module.exports = {
     tweet = tweetLinks(tweet);
     tweet = tweetStrike(tweet);
 
-    tweet = tweet.replace(/"/gm, '\\"');
-
     tweet = entities.decodeHTML(tweet);
 
     // escape unicode
@@ -136,6 +134,8 @@ module.exports = {
     tweet = tweet.replace(/(\\n){3,}/gm, '\\n\\n');
     tweet = tweet.replace(/^(\\n)*/gm, '');
     tweet = tweet.replace(/(\\n)*$/gm, '');
+
+    tweet = tweet.replace(/"/gm, '\\"');
 
     return tweet;
   },
