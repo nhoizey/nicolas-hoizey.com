@@ -289,3 +289,20 @@ function checkConnectivity() {
 
 // when the page has finished loading,
 window.addEventListener('load', checkConnectivity);
+
+/*****************************************************************
+ * Open details tag on hash/anchor
+ * ****************************************************************/
+
+// https://gist.github.com/davidbgk/259daf79d0b833a83dd1ba988f6a42aa
+// https://gist.github.com/rik/3b005371537223a28e24349fc1e92489
+
+function openDetailsIfTargetInside() {
+  const hash = document.location.hash ? document.location.hash.slice(1) : '';
+  if (hash) {
+    let target = document.getElementById(hash);
+    target?.closest('details')?.setAttribute('open', '');
+  }
+}
+openDetailsIfTargetInside();
+window.addEventListener('hashchange', openDetailsIfTargetInside);
