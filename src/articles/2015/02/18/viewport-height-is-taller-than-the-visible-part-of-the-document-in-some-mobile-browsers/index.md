@@ -12,7 +12,7 @@ When trying to use [a `100vh` CSS value](http://caniuse.com/viewport-units) to b
 
 I first discovered this on my iPhone 5 and iPad 2.
 
-Here is what [this page](http://lab.gasteroprod.com/vub/index-ios-issue.html) looks like on an iPhone 5 :
+Here is what [this page](http://lab.nicolas-hoizey.com/vub/index-ios-issue.html) looks like on an iPhone 5 :
 
 ![](ios-safari-portrait-before-scroll.png "The page rendering in portrait mode with visible browser chrome"){.onehalf}
 
@@ -32,7 +32,7 @@ When trying to use [a `100vh` CSS value](http://caniuse.com/viewport-units) to b
 
 ## Steps to Reproduce
 
-1. Open http://lab.gasteroprod.com/vub/index-ios-issue.html on iOS Safari with an iPhone in portrait mode, or an iPad in portrait or landscape mode
+1. Open http://lab.nicolas-hoizey.com/vub/index-ios-issue.html on iOS Safari with an iPhone in portrait mode, or an iPad in portrait or landscape mode
 2. The bottom part of the "bottom right" box is not visible, the 100vh height container being taller than the visible part
 
 ## Expected Results
@@ -99,7 +99,7 @@ https://twitter.com/csswg/status/571742414299246592
 
 # March 9th update
 
-The W3C CSS Working Group suggestion doesn't fix anything, in iOS at least. Test it [live here](http://lab.gasteroprod.com/vub/index-ios-overflow.html).
+The W3C CSS Working Group suggestion doesn't fix anything, in iOS at least. Test it [live here](http://lab.nicolas-hoizey.com/vub/index-ios-overflow.html).
 
 # June 30th update
 
