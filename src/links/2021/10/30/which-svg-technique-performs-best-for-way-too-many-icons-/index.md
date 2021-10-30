@@ -17,3 +17,8 @@ Just yesterday, I chose to [inline all SVG icons](https://github.com/nhoizey/nic
 I agree with Tyler that having so many different icons in one single screen is not so common, so be careful also with UX and DX when you chose your way.
 
 For example, you'll see in Tyler's chart that many "Inline SVG" render faster than an inline "Symbol Sprite". But if your HTML weights 10 times more with many inline SVG, the browser will take more time to get it, so render will start later. "Render time" is not the only useful metric there.
+
+On the DX side, there are multiple tradeoffs to consider. It can be more difficult to maintain an SVG sprite ([here's some help]({% link_to "how-i-build-my-svg-sprites" %})) than a folder with all SVG images. It can be simpler to have all color variants available as individual files, but it's more efficient to have one single SVG per symbol and use CSS to style it in different ways (color, stroke width, etc.), but it's not possible with every method. Difficult choices, and difficult to change once the project is started.
+
+*[UX]: User Experience
+*[DX]: Developer Experience
