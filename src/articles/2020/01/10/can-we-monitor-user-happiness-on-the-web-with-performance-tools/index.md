@@ -7,7 +7,7 @@ promoted: true
 ---
 
 ::: lead
-I really like that [SpeedCurve](https://speedcurve.com/) tried to innovate with this recent "[User Happiness](https://support.speedcurve.com/en/articles/3380780-user-happiness)" metric. It aggregates multiple technical metrics to decide if users visiting the page are happy or not with it. But I see several issues in this metric.
+I really like that [SpeedCurve](https://speedcurve.com/) tried to innovate with this recent "[User Happiness](https://support.speedcurve.com/docs/user-happiness)" metric ([original version](https://web.archive.org/web/20201124064307/https://support.speedcurve.com/en/articles/3380780-user-happiness)). It aggregates multiple technical metrics to decide if users visiting the page are happy or not with it. But I see several issues in this metric.
 :::
 
 ![User Happiness monitoring in SpeedCurve](speedcurve-user-happiness-monitoring.png "User Happiness monitoring in SpeedCurve"){.zoom}
