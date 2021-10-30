@@ -21,4 +21,7 @@ module.exports = {
     if (string === undefined) return '';
     return string.charAt(0).toUpperCase() + string.slice(1);
   },
+  url_encode: (url) => {
+    return encodeURIComponent(url);
+  },
 };
