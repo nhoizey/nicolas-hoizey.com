@@ -2,7 +2,7 @@
 date: 2021-10-30 11:19:01 +02:00
 title: "Which SVG technique performs best for way too many icons?"
 lang: en
-link:
+link: https://cloudfour.com/thinks/svg-icon-stress-test/
 authors:
   - name: "Tyler Sticka"
     twitter: "tylersticka"
