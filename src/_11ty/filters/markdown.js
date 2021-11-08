@@ -54,6 +54,7 @@ const tweetHashtagTohandle = (tweet) => {
     '#Notist': '@benotist',
     '#Pinboard': '@Pinboard',
     '#Rollup': '@RollupJS',
+    '#Setapp': '@setapp',
     '#Svelte': '@sveltejs',
     '#Tailwind': '@tailwindcss',
     '#Unsplash': '@unsplash',
