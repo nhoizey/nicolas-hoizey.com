@@ -124,7 +124,7 @@
     "workbox-strategies": "^6.2.4"
   },
   "engines": {
-    "node": ">=13"
+    "node": ">=14"
   },
   "private": true,
   "dependencies": {
