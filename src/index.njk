@@ -58,5 +58,30 @@ JSON-LD for:
   </ol>
   <p class="more">Read <a href="/articles/">all articles</a>…</p>
 
-  <div class="lazy"></div>
+  {% from "macros/linkCard.njk" import linkCard %}
+  <h2>Recent links</h2>
+  <ol class="cards-list">
+    {% for link in collections.links | limit(4) %}
+      {{ linkCard(link) }}
+    {% endfor %}
+  </ol>
+  <p class="more">Discover <a href="/links/">all links</a>…</p>
+
+  {% from "macros/noteCard.njk" import noteCard %}
+  <h2>Recent notes</h2>
+  <ol class="cards-list">
+  {% for note in collections.notes | limit(4) %}
+    {{ noteCard(note) }}
+  {% endfor %}
+  </ol>
+  <p class="more">Discover <a href="/notes/">all notes</a>…</p>
+
+  {% set cssFilename = "page-tagscloud.css" %}
+  {% include "add-css.njk" %}
+
+  {% from "macros/tagsCloud.njk" import tagsCloud %}
+  <h2>Main topics</h2>
+  <p>These are the tags the most used on the site to set content topics:</p>
+  {{ tagsCloud(collections.mainTags) }}
+  <p class="more">Browse <a href="/tags/">all tags</a>…</p>
 </div>
