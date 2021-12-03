@@ -239,8 +239,9 @@ module.exports = {
       : data.permalink,
   eleventyExcludeFromCollections: (data) => {
     return (
-      data.page.filePathStem.startsWith('/drafts/') &&
-      process.env.NODE_ENV === 'production'
+      data.eleventyExcludeFromCollections === true ||
+      (data.page.filePathStem.startsWith('/drafts/') &&
+        process.env.NODE_ENV === 'production')
     );
   },
   githubEditUrl: (data) => {

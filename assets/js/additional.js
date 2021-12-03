@@ -72,27 +72,6 @@ const loadImage = (img) => {
 };
 
 /*****************************************************************
- * Lazyload additional HTML
- * ****************************************************************/
-
-// TODO: manage multiple lazy containers with content URL from data-href
-const lazyHtmlElement = document.querySelector('.lazy');
-
-const lazyHtml = () => {
-  if (lazyHtmlElement) {
-    let path = new URL(window.location).pathname;
-    fetch(`/lazy${path}`)
-      .then((response) => response.text())
-      .then((html) => {
-        lazyHtmlElement.innerHTML = html;
-      })
-      .catch(function (err) {
-        console.warn('Something went wrong with HTML lazyload.', err);
-      });
-  }
-};
-
-/*****************************************************************
  * Lazyload some images, the footer background, and some HTML
  * ****************************************************************/
 
@@ -125,29 +104,6 @@ if (!saveData) {
     lazyImages.forEach((img) => {
       lazyImagesObserver.observe(img);
     });
-
-    // Lazyload additional HTML content
-    // ************************************************************/
-    if (lazyHtmlElement) {
-      const lazyHtmlCallback = (changes) => {
-        changes.forEach((change) => {
-          if (change.isIntersecting) {
-            lazyHtmlObserver.unobserve(change.target);
-            lazyHtml();
-          }
-        });
-      };
-      const lazyHtmlOptions = {
-        // If the image gets within 500px in the Y axis, start the download.
-        rootMargin: '500px 0px 0px 0px',
-        threshold: 0.01,
-      };
-      let lazyHtmlObserver = new IntersectionObserver(
-        lazyHtmlCallback,
-        lazyHtmlOptions
-      );
-      lazyHtmlObserver.observe(lazyHtmlElement);
-    }
 
     // Lazyload footer background
     // ************************************************************/
