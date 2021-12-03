@@ -778,8 +778,9 @@ RewriteRule ^a-propos\.html https://%{HTTP_HOST}/about/ [QSA,L,R=301]
 RewriteRule ^a-propos/du-site\.html$ https://%{HTTP_HOST}/about/the-website.html [QSA,L,R=301]
 
 # Migrating some articles to links
-RewriteRule ^2018/08/just.html https://%{HTTP_HOST}/links/2018/08/01/just/ [QSA,L,R=301]
-RewriteRule ^/2018/05/technical-credit.html https://%{HTTP_HOST}/links/2018/05/15/technical-credit/ [QSA,L,R=301]
+RewriteRule ^articles/2013/07/03/how-google-is-killing-organic-search/ https://%{HTTP_HOST}/links/2013/07/03/how-google-is-killing-organic-search/ [QSA,L,R=301]
+RewriteRule ^(articles/)?2018/08/just.html https://%{HTTP_HOST}/links/2018/08/01/just/ [QSA,L,R=301]
+RewriteRule ^(articles/)?2018/05/technical-credit.html https://%{HTTP_HOST}/links/2018/05/15/technical-credit/ [QSA,L,R=301]
 
 # Move articles as `/articles/` subfolder
 RewriteRule ^([0-9]{4}/[0-9]{2}/.*)(\.html|/)$ https://%{HTTP_HOST}/articles/$1/ [QSA,L,R=301]
