@@ -11,6 +11,6 @@ Current:
 ![The site design in 2021.](site-design-2021.png)
 
 Old:
-<https://archeologie.nicolas-hoizey.com/2001-gasteroprod/web/esviji-v2-sera-completement-responsive.html>
+<https://archives.nicolas-hoizey.com/2001-gasteroprod/web/esviji-v2-sera-completement-responsive.html>
 
 ![The site design in 2015.](site-design-2015.png)
