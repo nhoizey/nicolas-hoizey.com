@@ -17,7 +17,6 @@ import {
 } from 'workbox-strategies';
 import { ExpirationPlugin } from 'workbox-expiration';
 import { BroadcastUpdatePlugin } from 'workbox-broadcast-update';
-import * as googleAnalytics from 'workbox-google-analytics';
 
 const OFFLINE_FALLBACK = '/offline-fallback.html';
 
@@ -28,17 +27,6 @@ precacheAndRoute(self.__WB_MANIFEST, {
 });
 
 cleanupOutdatedCaches();
-
-// https://github.com/GoogleChrome/workbox/issues/2375#issuecomment-591069909
-googleAnalytics.initialize({
-  hitFilter: (params) => {
-    const queueTimeInSeconds = Math.round(params.get('qt') / 1000);
-    params.set('cm1', queueTimeInSeconds);
-  },
-  parameterOverrides: {
-    cd4: 'offline',
-  },
-});
 
 // Never cache ranged requests (videos)
 registerRoute(({ request }) => request.headers.has('range'), new NetworkOnly());
