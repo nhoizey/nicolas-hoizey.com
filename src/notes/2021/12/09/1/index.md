@@ -7,4 +7,4 @@ I tried to follow @TheRealNooshu advice about #Cloudflare [cache configuration f
 
 ![A low percent of assets are cached](cloudflare-cache.png)
 
-Could it be because almost nobody visits the site, so the cache TTL is lower than the delay between 2 visits?
+Could it be because the cache TTL is lower than the delay between 2 visits?
