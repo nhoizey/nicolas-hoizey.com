@@ -2,7 +2,7 @@
 title: How much data should my Service Worker put upfront in the offline cache?
 date: 2017-01-12 12:00:00 +02:00
 lang:  en
-tags:  [offline, WebPerf, Service Worker, PWA]
+tags:  [offline, WebPerf, Service Worker, PWA, WebPageTest]
 promoted: true
 ---
 
@@ -40,9 +40,9 @@ Jeremy had the great idea to make this book available offline thanks to [a Servi
 
 [^capablebrowers]: As of today, these include only Firefox, Chrome and Opera.
 
-According to my browser network panel or [WebPagetest](https://www.webpagetest.org/result/170111_P9_D0V3/), it means **almost 16 Mb are downloaded** right away when you access one page of the site.
+According to my browser network panel or [WebPageTest](https://www.webpagetest.org/result/170111_P9_D0V3/), it means **almost 16 Mb are downloaded** right away when you access one page of the site.
 
-![](webpagetest-resilient-web-design.png "The Resilient Web Design web book audited by WebPagetest")
+![](webpagetest-resilient-web-design.png "The Resilient Web Design web book audited by WebPageTest")
 
 The site is very fast, and all checks are green, but that's because most of the downloads happen asynchronously, after the visited page has been rendered.
 
