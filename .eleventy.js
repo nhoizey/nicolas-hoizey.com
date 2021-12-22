@@ -317,8 +317,8 @@ module.exports = function (eleventyConfig) {
     templateFormats: ['md', 'njk'],
 
     markdownTemplateEngine: 'njk',
-    htmlTemplateEngine: 'njk',
-    dataTemplateEngine: 'njk',
+    htmlTemplateEngine: false,
+    dataTemplateEngine: false,
     passthroughFileCopy: true,
     dir: {
       output: config.dir.dist,
