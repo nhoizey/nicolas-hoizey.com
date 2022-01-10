@@ -770,6 +770,9 @@ RewriteRule ^.well-known/(host-meta|webfinger).* https://fed.brid.gy/$0  [redire
 # Renamed or moved articles and pages
 # ----------------------------------------------------------------------
 
+# https://twitter.com/nhoizey/status/1479059998252666880
+RewriteRule ^AXGNM8/ne-vous-laissez-plus-deposseder-de-vos-contenus https://talks.nicolas-hoizey.com/AXGNM8/ne-vous-laissez-plus-deposseder-de-vos-contenus [QSA,L,R=301]
+
 RewriteRule ^2015/06/un-moteur-de-recherche-sur-un-site-statique-facile-avec-algolia.html https://%{HTTP_HOST}/2015/06/la-recherche-dans-du-statique-facile-avec-algolia.html [QSA,L,R=301]
 RewriteRule ^(articles/)?2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-blog-is-the-origin(/|\.html) https://%{HTTP_HOST}/articles/2017/11/medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin/ [QSA,L,R=301]
 
