@@ -24,4 +24,7 @@ module.exports = {
   url_encode: (url) => {
     return encodeURIComponent(url);
   },
+  shyify: (url) => {
+    return url.replace(/([\.\/])/g, '$1<wbr>');
+  },
 };
