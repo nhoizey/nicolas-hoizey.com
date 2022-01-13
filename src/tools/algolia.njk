@@ -32,6 +32,32 @@ permalink: /tools/algolia.json
   {%- if not loop.last -%},{% endif -%}
 {% endfor %}
 ,
+{% for entry in collections.billets %}
+  {%- set absoluteEntryUrl -%}{{ entry.url | url }}{%- endset -%}
+  {%- set metaHtml %}{{ meta(entry, true) }}{%- endset -%}
+  {
+    "type": "billets",
+    "lang": "{{ entry.data.lang }}",
+    "surtitle": "",
+		"title": "",
+		"date": {{ entry.date | timestamp}},
+		"date.lvl0": "{{ entry.date | year}}",
+		"date.lvl1": "{{ entry.date | year}} > {{ entry.date | month}}",
+		"date.lvl2": "{{ entry.date | year}} > {{ entry.date | month}} > {{ entry.date | day}}",
+		"url": "{{ absoluteEntryUrl }}",
+    "objectID": "{{ absoluteEntryUrl }}",
+		"content": {{ entry.templateContent | cleanForAlgolia | striptags | jsonify | safe }},
+    "excerpt": {{ entry.templateContent | excerpt | striptags | jsonify | safe }},
+		"tags": [
+      {% for tag in entry.data.tags %}
+        "{{ tag }}"{%- if not loop.last -%},{% endif -%}
+  {% endfor %}
+		],
+    "meta_html": {{ metaHtml | jsonify | safe }}
+	}
+  {%- if not loop.last -%},{% endif -%}
+{% endfor %}
+,
 {% for entry in collections.links %}
   {%- set absoluteEntryUrl -%}{{ entry.url | url }}{%- endset -%}
   {%- set authors -%}

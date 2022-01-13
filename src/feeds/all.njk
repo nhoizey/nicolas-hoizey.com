@@ -22,6 +22,7 @@ permalink: /feeds/all.xml
     {% set icon %}
     {% if entry.data.layout == 'article' %}🖋{% endif %}
     {% if entry.data.layout == 'link' %}🔗{% endif %}
+    {% if entry.data.layout == 'billet' %}📓{% endif %}
     {% if entry.data.layout == 'note' %}💬{% endif %}
     {% endset %}
     <entry>

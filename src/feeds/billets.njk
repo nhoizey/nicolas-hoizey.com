@@ -1,0 +1,29 @@
+---
+layout: null
+permalink: /feeds/billets.xml
+---
+
+{% extends "./../_layouts/feed.njk" %}
+
+{% block title %}Nicolas Hoizey - Billets{% endblock %}
+
+{% block self %}billets.xml{% endblock %}
+
+{% block page %}billets/{% endblock %}
+
+{% block id %}billets/{% endblock %}
+
+{% block update %}{{ collections.billets | rssLastUpdatedDate }}{% endblock %}
+
+{% block entries %}
+  {% for entry in collections.billets | limit(20) %}
+    {% set absoluteEntryUrl %}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{% endset %}
+    <entry>
+      <title>{{ entry.data.body.title }}</title>
+      <link href="{{ absoluteEntryUrl }}"/>
+      <updated>{{ entry.date | rssDate }}</updated>
+      <id>{{ absoluteEntryUrl }}</id>
+      <content type="html">{{ entry.templateContent | cleanDeepLinks | htmlToAbsoluteUrls(absoluteEntryUrl) }}</content>
+    </entry>
+  {% endfor %}
+{% endblock %}

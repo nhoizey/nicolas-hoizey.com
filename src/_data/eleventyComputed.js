@@ -90,6 +90,9 @@ function bodyTitle(data) {
   if (data.layout === 'note') {
     return `Note from ${formattedDate(data.lang, data.page.date)}`;
   }
+  if (data.layout === 'billet') {
+    return `Billet du ${formattedDate(data.lang, data.page.date)}`;
+  }
   if (data.title && data.title !== '') {
     return data.title;
   } else {
@@ -150,6 +153,12 @@ function headTitle(data) {
       '$1'
     )}… - ${data.pkg.author.name}</title>`;
   }
+  if (data.layout === 'billet') {
+    return `<title>Billet: ${data.page.excerpt.replace(
+      /^(.{40}[^\s]*).*/gm,
+      '$1'
+    )}… - ${data.pkg.author.name}</title>`;
+  }
   return `<title>${title(data)} - ${data.pkg.author.name}</title>`;
 }
 
@@ -165,6 +174,7 @@ function ogType(data) {
     case 'article':
     case 'link':
     case 'note':
+    case 'billet':
     case 'talk':
       return 'article';
   }
@@ -189,6 +199,8 @@ function ogImageTitle(data) {
       return removeEmojis(title(data));
     case 'note':
       return removeEmojis(data.page.excerpt);
+    case 'billet':
+      return removeEmojis(data.page.excerpt);
   }
   return '';
 }
@@ -201,6 +213,7 @@ function ogImageTagline(data) {
     case 'article':
     case 'link':
     case 'note':
+    case 'billet':
     case 'talk':
       return ogTags(data);
   }

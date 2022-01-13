@@ -4,7 +4,8 @@ const getFilteredCollection = (collection, type) => {
   if (type in filteredCollectionsMemoization) {
     return filteredCollectionsMemoization[type];
   } else {
-    const pattern = type === 'archives' ? '{articles,links,notes,talks}' : type;
+    const pattern =
+      type === 'archives' ? '{articles,billets,links,notes,talks}' : type;
     let filteredCollection = collection
       .getFilteredByGlob(`src/${pattern}/**/*.md`)
       .filter((item) => now >= item.date.getTime())

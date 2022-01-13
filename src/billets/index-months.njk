@@ -1,0 +1,13 @@
+---
+layout: false
+pagination:
+  data: collections.billetsByMonth
+  size: 1
+  alias: month
+permalink: "billets/{{ month }}/"
+eleventyComputed:
+  title: Billets publiés en {{ month | monthString }}
+eleventyExcludeFromCollections: true
+---
+
+{% extends "../_layouts/archives.njk" %}

@@ -8,6 +8,7 @@ title: Archives
 {% from "macros/linkCard.njk" import linkCard %}
 {% from "macros/noteCard.njk" import noteCard %}
 {% from "macros/talkCard.njk" import talkCard %}
+{% from "macros/billetCard.njk" import billetCard %}
 
 {% set currentType = page.url | split("/") | offset(1) | first %}
 
@@ -45,7 +46,7 @@ title: Archives
         <div class="ais-Panel">
           <div class="ais-Panel-header">Types</div>
           <ul class="no-ais-RefinementList-list">
-            {% for type in['articles', 'links', 'notes', 'talks'] %}
+            {% for type in['articles', 'links', 'notes', 'billets', 'talks'] %}
               {% if type == currentType -%}
                 <li class="ais-RefinementList-item ais-RefinementList-item--selected">
                   <a href="/archives/{% if currentYear %}{{ currentYear}}/{% endif %}{% if currentMonth %}{{ currentMonth}}/{% endif %}">{{ type }}</a>
@@ -129,6 +130,9 @@ title: Archives
               {% if item.data.layout == 'note' %}
                 {{ noteCard(item) }}
               {% endif %}
+              {% if item.data.layout == 'billet' %}
+                {{ billetCard(item) }}
+              {% endif %}
               {% if item.data.layout == 'talk' %}
                 {{ talkCard(item) }}
               {% endif %}
@@ -143,6 +147,9 @@ title: Archives
               {% endif %}
               {% if item.data.layout == 'note' %}
                 {{ noteCard(item) }}
+              {% endif %}
+              {% if item.data.layout == 'billet' %}
+                {{ billetCard(item) }}
               {% endif %}
               {% if item.data.layout == 'talk' %}
                 {{ talkCard(item) }}
@@ -161,6 +168,9 @@ title: Archives
               {% endif %}
               {% if item.data.layout == 'note' %}
                 {{ noteCard(item) }}
+              {% endif %}
+              {% if item.data.layout == 'billet' %}
+                {{ billetCard(item) }}
               {% endif %}
               {% if item.data.layout == 'talk' %}
                 {{ talkCard(item) }}

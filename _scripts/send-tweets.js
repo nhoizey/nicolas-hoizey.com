@@ -145,6 +145,7 @@ const main = async () => {
     [
       'https://nicolas-hoizey.com/feeds/twitter/links.json',
       'https://nicolas-hoizey.com/feeds/twitter/notes.json',
+      'https://nicolas-hoizey.com/feeds/twitter/billets.json',
     ].map(async (feedUrl) => {
       return fetch(feedUrl)
         .then((response) => response.json())

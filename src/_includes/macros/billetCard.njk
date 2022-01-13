@@ -1,0 +1,19 @@
+{% from "macros/meta.njk" import meta %}
+{% from "macros/card.njk" import card %}
+
+{% macro billetCard(billet) %}
+  {% set content %}
+  {{ billet.templateContent | excerpt | striptags | safe }}
+  {% endset %}
+
+  {% set meta %}
+  {{ meta(billet, permalink=true) }}
+  {% endset %}
+
+  {{ card(
+    type = 'billet',
+    lang = billet.data.lang,
+    url = billet.url,
+    content = content,
+    meta = meta) }}
+{% endmacro %}

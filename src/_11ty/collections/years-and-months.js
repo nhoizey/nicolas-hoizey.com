@@ -75,6 +75,12 @@ let collections = {
   monthsWithNotes: (collection) => {
     return monthsWithContent(getFilteredCollection(collection, 'notes'));
   },
+  yearsWithBillets: (collection) => {
+    return yearsWithContent(getFilteredCollection(collection, 'billets'));
+  },
+  monthsWithBillets: (collection) => {
+    return monthsWithContent(getFilteredCollection(collection, 'billets'));
+  },
   yearsWithTalks: (collection) => {
     return yearsWithContent(getFilteredCollection(collection, 'talks'));
   },
@@ -89,7 +95,7 @@ let collections = {
   },
 };
 
-['articles', 'links', 'notes', 'talks', 'archives'].forEach(
+['articles', 'links', 'notes', 'talks', 'billets', 'archives'].forEach(
   (collectionName) => {
     // collections for yearly archives
     collections[`${collectionName}ByYear`] = (collection) => {

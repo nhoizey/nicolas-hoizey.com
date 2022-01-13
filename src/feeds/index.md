@@ -12,6 +12,7 @@ You can follow my publications with different feeds:
 - [latest articles](/feeds/articles.xml), about once a month
 - [latest links](/feeds/links.xml), multiple times each week
 - [latest notes](/feeds/notes.xml), multiple times each week
+- [les derniers billets en français](/feeds/billets.xml), plusieurs fois par semaine
 - [latest contents from all types](/feeds/all.xml), the most verbose
 
 ::: info

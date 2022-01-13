@@ -1,0 +1,13 @@
+---
+layout: false
+pagination:
+  data: collections.billetsByYear
+  size: 1
+  alias: year
+permalink: "billets/{{ year }}/"
+eleventyComputed:
+  title: Billets publiés en {{ year }}
+eleventyExcludeFromCollections: true
+---
+
+{% extends "../_layouts/archives.njk" %}
