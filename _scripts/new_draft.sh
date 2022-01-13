@@ -34,4 +34,4 @@ EOF
 
 echo "$body" > "$post"
 
-/Applications/MacDown.app/Contents/MacOS/MacDown "$post" &
+/usr/local/bin/code "$post" &

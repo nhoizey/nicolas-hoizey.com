@@ -53,4 +53,4 @@ EOF
 
 echo "$body" > "$link"
 
-/Applications/MacDown.app/Contents/MacOS/MacDown "$link" &
+/usr/local/bin/code "$link" &

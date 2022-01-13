@@ -42,4 +42,4 @@ EOF
 echo "$body" > "$note"
 
 open "$folder/$number"
-/Applications/MacDown.app/Contents/MacOS/MacDown "$note" &
+/usr/local/bin/code "$note" &
