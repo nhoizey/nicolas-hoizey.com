@@ -154,10 +154,7 @@ function headTitle(data) {
     )}… - ${data.pkg.author.name}</title>`;
   }
   if (data.layout === 'billet') {
-    return `<title>Billet: ${data.page.excerpt.replace(
-      /^(.{40}[^\s]*).*/gm,
-      '$1'
-    )}… - ${data.pkg.author.name}</title>`;
+    return `<title>${bodyTitle(data)}</title>`;
   }
   return `<title>${title(data)} - ${data.pkg.author.name}</title>`;
 }
