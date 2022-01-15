@@ -33,6 +33,7 @@
     "notist": "node ./_scripts/update-notist.js",
     "webmention": "node ./_scripts/update-webmention.js",
     "tweets": "node ./_scripts/send-tweets.js",
+    "photo": "node ./_scripts/get-a-photo-of-the-day.js",
     "algolia": "atomic-algolia",
     "sprite": "node ./_scripts/generate-svg-sprite.js",
     "ga": "node ./_scripts/update-google-analytics.js",

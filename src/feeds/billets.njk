@@ -23,7 +23,24 @@ permalink: /feeds/billets.xml
       <link href="{{ absoluteEntryUrl }}"/>
       <updated>{{ entry.date | rssDate }}</updated>
       <id>{{ absoluteEntryUrl }}</id>
-      <content type="html">{{ entry.templateContent | cleanDeepLinks | htmlToAbsoluteUrls(absoluteEntryUrl) }}</content>
+      <content type="html">
+        {% if entry.data.photo %}
+          <div style="max-width: 33%; float: right; margin: 0 0 1em 1em;">
+            <p>Une photo prise un {{ entry.date | dayMonth }} :</p>
+            <figure>
+              <img
+                src="https://res.cloudinary.com/nho/image/fetch/w_800,q_auto,f_auto/{{ entry.data.photo.src }}"
+                alt="{{ entry.data.photo.title }}"
+                width="{{ entry.data.photo.width }}"
+                height="{{ entry.data.photo.height }}"
+                crossorigin="anonymous"
+                />
+              <figcaption><a href="{{ entry.data.photo.url }}">{{ entry.data.photo.title }}</a></figcaption>
+            </figure>
+          </div>
+        {% endif %}
+        {{ entry.templateContent | cleanDeepLinks | htmlToAbsoluteUrls(absoluteEntryUrl) }}
+      </content>
     </entry>
   {% endfor %}
 {% endblock %}

@@ -85,7 +85,7 @@ main {
 
 .lead {
   color: var(--color-primary-lighter-1);
-  font-size: var(--font-size-l);
+  font-size: var(--font-size-s);
   @extend %flow;
 }
 
@@ -589,4 +589,21 @@ a[href$='.kml'] {
 
     background-color: white;
   }
+}
+
+.encart_photo_du_jour {
+  max-width: 50%;
+  @media (min-width: 20em) {
+    max-width: 33%;
+  }
+
+  margin: var(--gap) auto;
+  @media (min-width: 20em) {
+    float: right;
+    margin: 0 0 var(--gap2) var(--gap2);
+  }
+
+  color: var(--color-primary);
+  font-size: var(--font-size-s);
+  @extend %flow;
 }

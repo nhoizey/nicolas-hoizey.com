@@ -40,7 +40,9 @@ const runBeforeHook = (image, document) => {
     image.setAttribute('src', imageUrl);
   }
 
-  image.dataset.responsiver = image.className;
+  if ('responsiver' in image.dataset === false) {
+    image.dataset.responsiver = image.className;
+  }
 };
 
 const runAfterHook = (image, document) => {
@@ -110,6 +112,13 @@ module.exports = {
     maxWidth: 560,
     sizes: '(max-width: 20rem) 45vw, (max-width: 67rem) 30vw, 20rem',
     classes: ['onethird', 'right'],
+  },
+  photo_du_jour: {
+    fallbackWidth: 300,
+    minWidth: 120,
+    maxWidth: 560,
+    sizes: '(max-width: 20rem) 45vw, (max-width: 67rem) 30vw, 20rem',
+    figure: 'always',
   },
   onefourth: {
     fallbackWidth: 200,

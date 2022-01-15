@@ -12,10 +12,10 @@ permalink: /feeds/twitter/billets.json
     {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
     {
       "id": "{{ absoluteEntryUrl }}",
-      "url": "https://nho.link/b/{{ entry.url | replace('/billets/', '') }}",
+      "url": "{{ absoluteEntryUrl }}",
       "title": "📓 {{ entry.data.body.title }}",
       "date_published": "{{ entry.date | rssDate }}",
-      "content_text": "{{ entry.templateContent | excerpt | truncateHtml(150) | striptags | safe }}\n\nhttps://nho.link/b/{{ entry.url | replace("/billets/", "") }}",
+      "content_text": "📓 {{ entry.data.body.title }}\n\n{{ entry.templateContent | excerpt | truncateHtml(150) | striptags | safe }}\n\n{{ absoluteEntryUrl }}",
       "attachments": {{ entry.template.frontMatter.content | imagesAsAttachments(absoluteEntryUrl) | safe }}
     }{%- if not loop.last -%},{%- endif -%}
   {% endfor %}

@@ -16,25 +16,24 @@ timezone=$(date +"%z" | cut -b 1-3)
 
 # Create date folder if it doesn't exist yet
 folder="./src/billets/$year/$month/$day"
-
-if [ ! -d "$folder" ]; then
-
-mkdir -p "$folder"
 billet="$folder/index.md"
 
-body=""
-read -d '' body <<EOF
+if [ ! -f "$billet" ]; then
+  mkdir -p "$folder"
+  body=""
+  read -d '' body <<EOF
 ---
 date: $year-$month-$day $hour:$minute:$second $timezone:00
 tags: []
+$(node ./_scripts/get-a-photo-of-the-day.js)
 ---
 
 $content
 
 EOF
 
-echo "$body" > "$billet"
+  echo "$body" > "$billet"
+fi
+
 open "$folder"
 /usr/local/bin/code "$billet" &
-
-fi

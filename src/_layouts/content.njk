@@ -87,6 +87,22 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
         <a href="{{ link }}" class="u-bookmark-of">{{ link | shyify | safe }}</a>
       </p>
     {% endif %}
+    {% if layout == 'billet' and photo %}
+      <div class="encart_photo_du_jour">
+        <p>Une photo prise un {{ date | dayMonth }} :</p>
+        <figure>
+          <img
+            src="{{ photo.src }}"
+            alt="{{ photo.title }}"
+            width="{{ photo.width }}"
+            height="{{ photo.height }}"
+            crossorigin="anonymous"
+            data-responsiver="photo_du_jour"
+            />
+          <figcaption><a href="{{ photo.url }}">{{ photo.title }}</figcaption>
+        </figure>
+      </div>
+    {% endif %}
     {% if layout == 'note' %}
       {{ content | noteToHtml | safe }}
     {% else %}

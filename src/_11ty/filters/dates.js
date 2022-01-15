@@ -30,6 +30,11 @@ const dateTimeFormat = {
   }),
 };
 
+const dayMonthFrFormat = new Intl.DateTimeFormat('fr-FR', {
+  month: 'long',
+  day: 'numeric',
+});
+
 const dateFormatDigits = new Intl.DateTimeFormat('en-GB', {
   year: 'numeric',
   month: '2-digit',
@@ -58,6 +63,10 @@ module.exports = {
     // transforms "2020/02" into "February 2020"
     let fullDate = `${month.replace('/', '-')}-01T10:00:00.000Z`;
     return moment(fullDate).format('MMMM YYYY');
+  },
+  dayMonth: (date) => {
+    const isoDate = new Date(date);
+    return dayMonthFrFormat.format(isoDate);
   },
   attributeDate: (date) => date.substr(0, 10),
   year: (date) => date.toISOString().substr(0, 4),

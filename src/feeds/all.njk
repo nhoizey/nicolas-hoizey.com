@@ -20,33 +20,47 @@ permalink: /feeds/all.xml
     {% set absoluteEntryUrl %}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{% endset %}
     {% set readableDate = entry.date | formattedDateTime %}
     {% set icon %}
-    {% if entry.data.layout == 'article' %}🖋{% endif %}
-    {% if entry.data.layout == 'link' %}🔗{% endif %}
-    {% if entry.data.layout == 'billet' %}📓{% endif %}
-    {% if entry.data.layout == 'note' %}💬{% endif %}
+      {% if entry.data.layout == 'article' %}🖋{% endif %}
+      {% if entry.data.layout == 'link' %}🔗{% endif %}
+      {% if entry.data.layout == 'billet' %}📓{% endif %}
+      {% if entry.data.layout == 'note' %}💬{% endif %}
     {% endset %}
     <entry>
-      <title>{{ icon }}
-        {{ entry.data.title or 'Note from ' + readableDate }}</title>
+      <title>{{ icon }} {{ entry.data.body.title }}</title>
       <link href="{{ absoluteEntryUrl }}" />
       <updated>{{ entry.date | rssDate }}</updated>
       <id>{{ absoluteEntryUrl }}</id>
       <content type="html">
         {% if entry.data.layout == 'link' %}
-        &lt;p&gt;
-        {% if entry.data.authors %}
-            {%- for author in entry.data.authors -%}
-              {%- if not loop.first -%}
-                {%- if not loop.last -%},&amp;ensp;{%- else -%}&amp;ensp;and&amp;ensp;{%- endif -%}
-              {%- endif -%}
-              {{- author.name -}}
-            {%- endfor -%}
-            &lt;br /&gt;
+          &lt;p&gt;
+          {% if entry.data.authors %}
+              {%- for author in entry.data.authors -%}
+                {%- if not loop.first -%}
+                  {%- if not loop.last -%},&amp;ensp;{%- else -%}&amp;ensp;and&amp;ensp;{%- endif -%}
+                {%- endif -%}
+                {{- author.name -}}
+              {%- endfor -%}
+              &lt;br /&gt;
+          {% endif %}
+          &lt;a href="{{ entry.data.link }}"&gt;{{ entry.data.link }}&lt;/a&gt;
+          &lt;/p&gt;
+          &lt;figure&gt;&lt;img src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_300,h_200/http://image.thum.io/get/width/1200/crop/800/noanimate/{{ entry.data.link }}" width="300" height="200" /&gt;&lt;/figure&gt;
         {% endif %}
-        &lt;a href="{{ entry.data.link }}"&gt;{{ entry.data.link }}&lt;/a&gt;
-        &lt;/p&gt;
-        &lt;figure&gt;&lt;img src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_300,h_200/http://image.thum.io/get/width/1200/crop/800/noanimate/{{ entry.data.link }}" width="300" height="200" /&gt;&lt;/figure&gt;
-      {% endif %}
+        {% if entry.data.layout == 'billet' and entry.data.photo %}
+          <div style="max-width: 33%; float: right; margin: 0 0 1em 1em;">
+            <p>Une photo prise un {{ entry.date | dayMonth }} :</p>
+            <figure>
+              <img
+                src="https://res.cloudinary.com/nho/image/fetch/w_800,q_auto,f_auto/{{ entry.data.photo.src }}"
+                alt="{{ entry.data.photo.title }}"
+                width="{{ entry.data.photo.width }}"
+                height="{{ entry.data.photo.height }}"
+                crossorigin="anonymous"
+                />
+              <figcaption><a href="{{ entry.data.photo.url }}">{{ entry.data.photo.title }}</a></figcaption>
+            </figure>
+          </div>
+        {% endif %}
         {{ entry.templateContent | cleanDeepLinks | htmlToAbsoluteUrls(absoluteEntryUrl) }}
       </content>
     </entry>

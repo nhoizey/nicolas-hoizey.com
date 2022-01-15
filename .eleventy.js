@@ -207,6 +207,7 @@ module.exports = function (eleventyConfig) {
     .use(markdownItSpan)
     .use(markdownItAbbr)
     .use(markdownItContainer, 'lead') // Chapô in French
+    .use(markdownItContainer, 'encart_photo_du_jour')
     .use(markdownItContainer, 'info')
     .use(markdownItContainer, 'success')
     .use(markdownItContainer, 'warning')
