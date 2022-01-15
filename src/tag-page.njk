@@ -15,6 +15,7 @@ permalink: /tags/{{ tag.slug }}/
 {% from "macros/articleCard.njk" import articleCard %}
 {% from "macros/linkCard.njk" import linkCard %}
 {% from "macros/noteCard.njk" import noteCard %}
+{% from "macros/billetCard.njk" import billetCard %}
 
 {% if tag.logo or tag.description %}
   <div class="intro clearfix">
@@ -43,6 +44,8 @@ permalink: /tags/{{ tag.slug }}/
       {{ linkCard(item) }}
     {% elif item.data.layout == "note" %}
       {{ noteCard(item) }}
+    {% elif item.data.layout == "billet" %}
+      {{ billetCard(item) }}
     {% endif %}
   {% endfor %}
 </ol>
