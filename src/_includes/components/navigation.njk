@@ -3,11 +3,10 @@
     <ul class="menu" role="list">
       {% for type in[
         'articles',
+        'billets',
         'links',
         'notes',
-        'billets',
-        'talks',
-        'about'
+        'talks'
       ] %}
         {% set url = '/' + type + '/' %}
         <li class="navigation__{{ type }}{% if page.url != false and url in page.url %} current" aria-current="page{% endif %}">
@@ -21,6 +20,9 @@
       </li>
       <li class="tools__feeds navigation__feeds{% if page.url != false and 'feeds' in page.url %} current" aria-current="page{% endif %}">
         <a href="/feeds/">{% icon "feeds", "Feeds" %}<span>feeds</span></a>
+      </li>
+      <li class="tools__about navigation__about{% if page.url != false and 'about' in page.url %} current" aria-current="page{% endif %}">
+        <a href="/about/"><span>about</span></a>
       </li>
     </ul>
   </div>

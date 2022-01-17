@@ -31,16 +31,17 @@
     padding: 0;
 
     & + li {
-      margin-left: 0.2vw;
+      margin-left: 0.5vw;
     }
 
     &.navigation__articles,
+    &.navigation__billets,
     &.navigation__links,
     &.navigation__notes,
     &.navigation__talks {
       display: none;
 
-      @media (min-width: 35em) {
+      @media (min-width: 40em) {
         display: block;
       }
     }
@@ -96,45 +97,3 @@
 .no-js .tools__search svg {
   display: none !important;
 }
-
-// // Sticky navigation
-// @media (min-height: 40rem) {
-//   // all elements that have an id attribute can become the target of an anchor link
-//   // https://markus.oberlehner.net/blog/simple-solution-for-anchor-links-behind-sticky-headers/
-//   [id] {
-//     scroll-margin-top: 5rem;
-//   }
-
-//   .navigation {
-//     position: sticky;
-//     top: 0;
-//     z-index: 2;
-//     // based on https://larsenwork.com/easing-gradients/
-//     //   linear-gradient(
-//     //     to top,
-//     //     hsla(0, 0%, 100%, 0),
-//     //     cubic-bezier(0.4, 0, 0, 1),
-//     //     hsla(0, 0%, 100%, 1)
-//     //   );
-//     background-image: linear-gradient(
-//       to top,
-//       hsla(0, 0%, 100%, 0) 0%,
-//       hsla(0, 0%, 100%, 0.013) 7%,
-//       hsla(0, 0%, 100%, 0.049) 12.3%,
-//       hsla(0, 0%, 100%, 0.104) 16.2%,
-//       hsla(0, 0%, 100%, 0.175) 19.1%,
-//       hsla(0, 0%, 100%, 0.259) 21.5%,
-//       hsla(0, 0%, 100%, 0.352) 23.7%,
-//       hsla(0, 0%, 100%, 0.45) 26.1%,
-//       hsla(0, 0%, 100%, 0.55) 29.1%,
-//       hsla(0, 0%, 100%, 0.648) 33.1%,
-//       hsla(0, 0%, 100%, 0.741) 38.5%,
-//       hsla(0, 0%, 100%, 0.825) 45.7%,
-//       hsla(0, 0%, 100%, 0.896) 55%,
-//       hsla(0, 0%, 100%, 0.951) 66.9%,
-//       hsla(0, 0%, 100%, 0.987) 81.8%,
-//       hsl(0, 0%, 100%) 100%
-//     );
-//     background-repeat: no-repeat;
-//   }
-// }
