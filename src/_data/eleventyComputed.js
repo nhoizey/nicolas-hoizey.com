@@ -255,7 +255,7 @@ module.exports = {
     );
   },
   githubEditUrl: (data) => {
-    if (['article', 'link', 'note'].includes(data.layout)) {
+    if (['article', 'link', 'note', 'billet'].includes(data.layout)) {
       return new URL(
         data.page.inputPath,
         'https://github.com/nhoizey/nicolas-hoizey.com/blob/main/'
