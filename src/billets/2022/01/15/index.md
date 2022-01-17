@@ -3,7 +3,7 @@ date: 2022-01-15 23:47:24 +01:00
 tags: [photo, IndieWeb]
 ---
 
-David s'est jeté à l'eau et lancé [son propre site photo et vidéo](https://media.larlet.fr/) ! 🎉
+David s'est jeté à l'eau et a lancé [son propre site photo et vidéo](https://media.larlet.fr/) ! 🎉
 
 Aaah, ces [fabuleux paysages du Québec](https://media.larlet.fr/2021--paysages-15.html)… 😍
 
