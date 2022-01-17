@@ -247,6 +247,23 @@ function checkConnectivity() {
 window.addEventListener('load', checkConnectivity);
 
 /*****************************************************************
+ * Navigate to prev/next content with keyboard
+ * ****************************************************************/
+
+const older = window.document.querySelector('.older-newer__older a');
+const newer = window.document.querySelector('.older-newer__newer a');
+if (older || newer) {
+  document.addEventListener('keyup', (event) => {
+    if (event.key === 'ArrowLeft' && older) {
+      older.click();
+    }
+    if (event.key === 'ArrowRight' && newer) {
+      newer.click();
+    }
+  });
+}
+
+/*****************************************************************
  * Open details tag on hash/anchor
  * ****************************************************************/
 
