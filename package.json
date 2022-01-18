@@ -39,7 +39,8 @@
     "ga": "node ./_scripts/update-google-analytics.js",
     "matomo": "node ./_scripts/update-matomo.js",
     "lint:sass": "stylelint 'assets/**/*.scss'",
-    "fix:sass": "stylelint --fix 'assets/**/*.scss'"
+    "fix:sass": "stylelint --fix 'assets/**/*.scss'",
+    "bookmarklet": "bookmarklet --demo assets/js/bookmarklet.js src/tools/bookmarklet.html"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
@@ -55,6 +56,7 @@
     "autoprefixer": "^10.3.6",
     "babel-loader": "^8.2.2",
     "bent": "^7.3.12",
+    "bookmarklet": "^3.0.0",
     "chalk": "^4.1.2",
     "cheerio": "^1.0.0-rc.10",
     "cross-env": "^7.0.3",
