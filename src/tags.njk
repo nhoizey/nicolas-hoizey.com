@@ -9,6 +9,34 @@ permalink: "/tags/index.html"
 
 {% from "macros/tagsCloud.njk" import tagsCloud %}
 
-<p class="intro">These are all tags used in contents from this site:</p>
+<p class="lead">These are the tags used in contents from this site.</p>
+
+<section id="dynamic" style="display: none">
+  <p id="current"></p>
+  <input type="range" id="mintags" size="4" min="1" max="11" step="1" value="3" style="width: 100%" />
+</section>
 
 {{ tagsCloud(collections.tags) }}
+
+<script>
+const rangeInput = document.querySelector('#mintags');
+const currentLabel = document.querySelector('#current');
+
+let max = 0;
+const tags = document.querySelectorAll('[data-number]');
+tags.forEach((tag) => {max = Math.max(max, parseInt(tag.dataset.number, 10));});
+rangeInput.max = max;
+
+const updateLabel = () => {
+  let currentValue = rangeInput.value;
+  currentLabel.innerText = `Currently showing tags used with at least ${currentValue} content${currentValue > 1 ? 's' : ''}:`;
+  tags.forEach((tag) => {
+    tag.style.display = parseInt(tag.dataset.number, 10) >= currentValue ? 'inline-block' : 'none';
+  });
+}
+
+rangeInput.addEventListener('input', updateLabel);
+updateLabel();
+
+document.querySelector('#dynamic').style.display = 'block';
+</script>
