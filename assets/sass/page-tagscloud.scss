@@ -1,5 +1,4 @@
 .tagscloud__tags {
-
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -23,7 +22,7 @@
 
       border-radius: 0.5em;
 
-      background-color: var(--color-primary-lighter-2);
+      background-color: var(--color-primary-lighter-3);
     }
   }
 
@@ -31,28 +30,28 @@
     &.tag2 {
       &:link,
       &:visited {
-        background-color: var(--color-primary-lighter-1);
+        background-color: var(--color-primary-lighter-2);
       }
     }
 
     &.tag3 {
       &:link,
       &:visited {
-        background-color: var(--color-primary);
+        background-color: var(--color-primary-lighter-1);
       }
     }
 
     &.tag4 {
       &:link,
       &:visited {
-        background-color: var(--color-primary-darker-1);
+        background-color: var(--color-primary);
       }
     }
 
     &.tag5 {
       &:link,
       &:visited {
-        background-color: var(--color-primary-darker-2);
+        background-color: var(--color-primary-darker-1);
       }
     }
 
