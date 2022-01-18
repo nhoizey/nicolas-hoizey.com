@@ -1,5 +1,5 @@
 ---
-date: 2022-01-17 09:05:52 +02:00
+date: 2022-01-18 15:03:52 +02:00
 title: 'Performant A/B Testing with Cloudflare Workers'
 lang: en
 link: https://philipwalton.com/articles/performant-a-b-testing-with-cloudflare-workers/
