@@ -54,16 +54,17 @@ if (title !== null) {
 
   if (slug !== null) {
     /* **********************************************************************************
-    /* Build the URL
+    /* Build the content
     /* *********************************************************************************/
     const today = new Date();
-    console.log(today.toISOString());
-    const pathDate = today.toISOString().slice(0, 10).replaceAll('-', '/');
-    const filename = `src/links/${pathDate}/${slug}/index.md`;
+    const dateString = today
+      .toISOString()
+      .replace('T', ' ')
+      .replace(/\.[0-9]{3}Z/, ' +00:00');
 
     let value = `---
-date: 2022-01-17 09:05:52 +02:00
-title: '${title}'
+date: ${dateString}
+title: ${title}
 lang: en
 link: ${linkUrl}
 authors:
@@ -72,10 +73,15 @@ authors:
     site: ""
 tags: []
 ---
-
-
+\n
 ${linkContent ? `> ${linkContent.replaceAll('\n', '\n> ')}` : ''}
 `;
+
+    /* **********************************************************************************
+    /* Build the URL
+    /* *********************************************************************************/
+    const pathDate = dateString.slice(0, 10).replaceAll('-', '/');
+    const filename = `src/links/${pathDate}/${slug}/index.md`;
 
     let issueUrl = `https://github.com/nhoizey/nicolas-hoizey.com/new/main/?filename=${filename}&value=${encodeURIComponent(
       value
