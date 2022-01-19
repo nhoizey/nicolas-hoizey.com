@@ -5,6 +5,7 @@ lang: en
 link: https://github.com/w3c/w3c-website/issues/97#issuecomment-1011213242
 authors:
   - name: "Richard Ishida"
+    twitter: "r12a"
     site: "https://r12a.github.io/"
 tags: [language, UX]
 ---
