@@ -44,6 +44,12 @@
     {% include "svg-sprite.svg" %}
 
     {% if build.env == 'production' %}
+      <link rel="stylesheet" href="/css/{{ hashes_css['additional.css'] }}" />
+    {% else %}
+      <link rel="stylesheet" href="/css/additional.css" />
+    {% endif %}
+
+    {% if build.env == 'production' %}
       {#
       https://buzut.net/configurer-rollup-bundles-esm-cjs/
       https://v8.dev/features/modules#browser

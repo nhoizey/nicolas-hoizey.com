@@ -18,14 +18,6 @@
 @use 'components/page';
 @use 'components/tweets';
 @use 'components/container';
-@use 'components/toast';
-@use 'components/notification';
-@use 'components/footnotes';
-@use 'components/reactions';
-@use 'highlight/_prism-onedark';
-@use 'components/footer';
-@use 'components/tweets-icons';
-@use 'global/print';
 
 html {
   text-size-adjust: 100%;
