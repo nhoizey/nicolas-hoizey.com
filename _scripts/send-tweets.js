@@ -100,6 +100,15 @@ const publishItem = async (item) => {
             let imageBuffer = await getBuffer(attachment.url);
             let imageData = await imageBuffer.toString('base64');
 
+            // TODO: prevent sending tweet if media too large
+            if (imageData.length > 5000000) {
+              console.error(
+                `Weight ~ ${
+                  Math.round(imageData.length / 100000) / 10
+                } MB > 5 MB: ${attachment.url}`
+              );
+            }
+
             // Upload the image to Twitter
             let media = await twitter.post('media/upload', {
               media_data: imageData,
