@@ -5,26 +5,3 @@
 @use 'components/footer';
 @use 'components/tweets-icons';
 @use 'global/print';
-
-// ************************************************************
-// External links favicons
-// ************************************************************
-
-// https://www.zachleat.com/web/external-link-favicons/
-
-$domains: 'github.com', 'wikipedia.org', 'www.algolia.com', 'pack11ty.dev',
-  'nicolas-hoizey.com', 'nicolas-hoizey.photo';
-
-@each $domain in $domains {
-  article > :not(.tweet-card) a[href^='https://#{$domain}']:before
-  {
-    content: '';
-    display: inline-block;
-    vertical-align: text-bottom;
-    width: 0.9em;
-    height: 0.9em;
-    margin: 0 0.2em;
-    background-size: contain;
-    background-image: url('https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2F#{$domain}%2F/');
-  }
-}
