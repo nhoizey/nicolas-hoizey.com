@@ -1,6 +1,6 @@
 ---
 date: 2022-01-26 12:49:33 +00:00
-title: Trailing Slashes on URLs: Contentious or Settled?
+title: "Trailing Slashes on URLs: Contentious or Settled?"
 lang: en
 link: https://www.zachleat.com/web/trailing-slash/
 authors:
