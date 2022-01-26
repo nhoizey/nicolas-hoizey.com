@@ -7,12 +7,12 @@ authors:
   - name: "Zach Leatherman"
     twitter: "zachleat"
     site: "https://www.zachleat.com"
-tags: [Eleventy, URL]
+tags: [Eleventy, URL, Netlify, Cloudflare]
 ---
 
 I have mixed feelings about URLs without an extension (`.html` for example) or a trailing slash. It certainly comes mostly from 25 years of unexpected behaviors with HTTP servers and other Web plumbering.
 
-When there's none of these at the end of the URL, I don't know what it "is", it's disturbing. 
+When there's none of these at the end of the URL, I don't know what it "is", it's disturbing.
 
 I like how URL termination helps infer what the page type is:
 - There's a trailing slash? It's a folder, there are other contents "inside"/"below" it.
@@ -30,10 +30,11 @@ I like then that an `index.html` file shows the content of a folder by conventio
 
 [^opquast]: By the way, make sure you read, understand and apply as much as possible Opquast's [Web Quality Assurance Checklist](https://checklists.opquast.com/en/web-quality-assurance/).
 
-Now that this is decided, it's important to know how our toolschain helps or prevent it.
+Now that this is settled, it's important to know how our toolschain helps or prevent it, as Zach shows with the help of Sebastien Lorber's [huge work](https://github.com/slorber/trailing-slash-guide) on the topic.
 
 From the tools I use nowadays for multiple sites:
-- [Eleventy](https://11ty.dev) helps, as it is the default behavior, and you can define your own permalinks behavior as you want, as I did with [a single option in Pack11ty](https://pack11ty.dev/documentation/collections/#permalinks), my Eleventy project template. 👍
-- [Netlify](https://netlify.com) has an optional "Pretty URLs" feature in [post build asset optimizations](https://docs.netlify.com/site-deploys/post-processing/), I really thank them for making it optional. 👍
-- [Cloudflare](https://cloudflare.com) on the other hand does it [by default without any way to disable it](https://developers.cloudflare.com/pages/platform/serving-pages#route-matching), I hate that. 😡
+- [Eleventy](https://11ty.dev) helps, as it is the default behavior[^eleventy], and you can define your own permalinks behavior if you want. 👍
+- [Netlify](https://netlify.com) has an optional "Pretty URLs" (which means "without extension") feature in [post build asset optimizations](https://docs.netlify.com/site-deploys/post-processing/), I really thank them for making it optional, even if it's unfortunately active by default. 👍
+- [Cloudflare](https://cloudflare.com) on the other hand does it [by default without any way to disable it](https://developers.cloudflare.com/pages/platform/serving-pages#route-matching). I don't like that, even if I currently use trailing slashes anyway. 😡
 
+[^eleventy]: It comes though with an issue: if you create source files `/folder.md` and `folder/index.md`, they get the same permalink, which should be impossible. That's something you can [change with a single option in Pack11ty](https://pack11ty.dev/documentation/collections/#permalinks), my Eleventy project template.
