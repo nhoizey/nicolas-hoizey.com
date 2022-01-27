@@ -64,7 +64,7 @@ if (title !== null) {
 
     let value = `---
 date: ${dateString}
-title: ${title}
+title: "${title}"
 lang: en
 link: ${linkUrl}
 authors:
