@@ -12,7 +12,9 @@ pageCache({
   networkTimoutSeconds: 2,
   warmCache: ['/', '/about/', '/about/the-website.html', '/offline/'],
 });
+
 staticResourceCache();
+
 imageCache();
 
 offlineFallback({
