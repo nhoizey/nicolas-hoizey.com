@@ -8,7 +8,6 @@ module.exports = {
     './js/additional-es.*.js',
     './js/tagscloud-es.*.js',
     './css/additional.*.css',
-    './offline/*',
     './manifest.webmanifest',
   ],
   dontCacheBustURLsMatching: new RegExp('.+.[a-f0-9]{8}..+'),
