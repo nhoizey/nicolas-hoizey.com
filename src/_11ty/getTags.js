@@ -4,7 +4,6 @@ const hashtagsToTags = require('../_utils/hashtags').hashtagsToTags;
 
 module.exports = function (collection) {
   let tagsCollection = new Map();
-  let max = 0;
 
   collection.getAll().forEach(function (item) {
     if ('tags' in item.data) {
@@ -24,7 +23,6 @@ module.exports = function (collection) {
 
       for (const tag of itemTags) {
         let number = (tagsCollection.get(tag) || 0) + 1;
-        max = Math.max(max, number);
         tagsCollection.set(tag, number);
       }
     }
