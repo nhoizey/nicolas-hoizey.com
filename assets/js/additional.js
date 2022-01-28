@@ -207,7 +207,7 @@ function updateConnectivityStatus() {
         // TODO: check if SW active and some content in cache
         notificationType = 'warning';
         notificationText =
-          'It looks like <strong>the connection is lost</strong>. Continue reading this page, or look at <a href="/offline.html">other contents you can read while offline</a>.';
+          'It looks like <strong>the connection is lost</strong>. Continue reading this page, or look at <a href="/offline/">other contents you can read while offline</a>.';
       } else {
         notificationType = 'error';
         notificationText =
