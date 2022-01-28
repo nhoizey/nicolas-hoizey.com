@@ -122,6 +122,30 @@ const plugins_archives = [
   // visualizer(),
 ];
 
+const plugins_tagscloud = [
+  nodeResolve({ browser: true, preferBuiltins: false }),
+  commonjs(),
+  babel({
+    exclude: 'node_modules/**',
+    presets: [
+      [
+        '@babel/preset-env',
+        {
+          targets: { esmodules: true },
+          bugfixes: true,
+          loose: true,
+        },
+      ],
+    ],
+  }),
+  process.env.NODE_ENV === 'production' && terser(),
+  process.env.NODE_ENV === 'production' &&
+    entrypointHashmanifest({
+      manifestName: path.join(HASH, 'hashes_tagscloud.json'),
+    }),
+  // visualizer(),
+];
+
 const targets = [
   {
     input: path.join(JS_SRC, 'critical.js'),
@@ -156,6 +180,19 @@ const targets = [
       },
     },
     plugins: plugins_archives,
+  },
+  {
+    input: path.join(JS_SRC, 'tagscloud.js'),
+    output: {
+      dir: JS_DIST,
+      entryFileNames: JS_NAME,
+      format: 'es',
+      sourcemap: true,
+      globals: {
+        events: 'events',
+      },
+    },
+    plugins: plugins_tagscloud,
   },
 ];
 

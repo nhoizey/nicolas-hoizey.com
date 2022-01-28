@@ -18,25 +18,8 @@ permalink: "/tags/index.html"
 
 {{ tagsCloud(collections.tags) }}
 
-<script>
-const rangeInput = document.querySelector('#mintags');
-const currentLabel = document.querySelector('#current');
-
-let max = 0;
-const tags = document.querySelectorAll('[data-number]');
-tags.forEach((tag) => {max = Math.max(max, parseInt(tag.dataset.number, 10));});
-rangeInput.max = max;
-
-const updateLabel = () => {
-  let currentValue = rangeInput.value;
-  currentLabel.innerText = `Currently showing tags used with at least ${currentValue} content${currentValue > 1 ? 's' : ''}:`;
-  tags.forEach((tag) => {
-    tag.style.display = parseInt(tag.dataset.number, 10) >= currentValue ? 'inline-block' : 'none';
-  });
-}
-
-rangeInput.addEventListener('input', updateLabel);
-updateLabel();
-
-document.querySelector('#dynamic').style.display = 'block';
-</script>
+{% if build.env == 'production' %}
+  <script defer type="module" src="/js/{{ hashes_tagscloud['assets/js/tagscloud.js']}}"></script>
+{% else %}
+  <script defer type="module" src="/js/tagscloud-es.js"></script>
+{% endif %}

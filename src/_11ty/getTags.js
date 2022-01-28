@@ -1,4 +1,4 @@
-const slugify = require('@sindresorhus/slugify');
+const slugify = require('../_utils/slugify');
 const fs = require('fs');
 const hashtagsToTags = require('../_utils/hashtags').hashtagsToTags;
 
@@ -30,24 +30,16 @@ module.exports = function (collection) {
     }
   });
 
-  // We assume there is at least one tag with only one content
-  const minLog = Math.log(1);
-  const maxLog = Math.log(max);
-
   const tags = [];
   tagsCollection.forEach((number, tag) => {
-    let factor = (Math.log(number) - minLog) / (maxLog - minLog);
-    let tagSlug = slugify(tag, {
-      decamelize: false,
-      customReplacements: [['%', ' ']],
-    });
+    let tagLog = Math.log(number);
+    let tagSlug = slugify(tag);
 
     let newTag = {
       tag: tag,
       slug: tagSlug,
       number: number,
-      factor: factor,
-      step: Math.ceil(factor * 4) + 1,
+      log: tagLog,
     };
 
     let tagLogoPath = `assets/logos/${tagSlug}.png`;
@@ -55,7 +47,7 @@ module.exports = function (collection) {
       newTag.logo = tagLogoPath;
     }
 
-    let tagContentPath = `src/tags/${tagSlug}.md`;
+    let tagContentPath = `src/_includes/tags/${tagSlug}.md`;
     if (fs.existsSync(tagContentPath)) {
       newTag.description = fs.readFileSync(tagContentPath, {
         encoding: 'utf8',

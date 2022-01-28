@@ -1,23 +1,13 @@
 {% macro tagsCloud(tags) %}
 
-{% set minSize = 0.9 %}
-{% set maxSize = 1.8 %}
-{% set minWeight = 300 %}
-{% set maxWeight = 900 %}
-
-<ol class="tagscloud__tags">
+<ol id="tagscloud">
 {% for tag in tags %}
   {% set tagUrl %}/tags/{{ tag.tag | slugify }}/{% endset %}
-  {% set fontSize = (maxSize - minSize) * tag.factor + minSize %}
-  {% set fontWeight = (maxWeight - minWeight) * tag.factor + minWeight %}
   <li>
     <a href="{{ tagUrl }}"
-      class="tag{{ tag.step }}"
       aria-label="{{ tag.number }} content{% if tag.number > 1 %}s{% endif %} with tag {{ tag.tag }}"
       data-number="{{ tag.number }}"
-      style="
-        font-size: {{ fontSize | round(2) }}em;
-        font-weight: {{ fontWeight | round(0) }}"
+      style="--log: {{ tag.log }}"
       rel="tag">{{ tag.tag }}</a>
   </li>
 {% endfor %}

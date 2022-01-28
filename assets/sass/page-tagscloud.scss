@@ -1,7 +1,18 @@
-.tagscloud__tags {
+#tagscloud {
+  --min-log: 0; // log(1)
+  --max-log: 5; // ~log(150)
+  --min-size: 0.8;
+  --max-size: 1.8;
+  --min-weight: 300;
+  --max-weight: 900;
+  --min-l: 30;
+  --max-l: 60;
+
+  font-family: var(--font-family-sans-serif);
+
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 
   padding: 0;
@@ -13,63 +24,47 @@
     &:visited {
       display: inline-block;
 
-      margin: 0.2em 0.3em;
-      padding: 0.1em 0.3em;
+      margin: 0.5rem;
+      padding: 0 1rem;
 
-      color: white;
       white-space: nowrap;
       text-decoration: none;
 
-      border-radius: 0.5em;
+      --factor: (var(--log) - var(--min-log)) /
+        (var(--max-log) - var(--min-log) + 1);
+      font-size: calc(
+        ((var(--max-size) - var(--min-size)) * var(--factor) + var(--min-size)) *
+          1em
+      );
+      font-weight: calc(
+        (var(--max-weight) - var(--min-weight)) * var(--factor) +
+          var(--min-weight)
+      );
 
-      background-color: var(--color-primary-lighter-3);
+      --h: 270;
+      --s: 50%;
+      --l: calc(
+        ((var(--max-l) - var(--min-l)) * var(--factor) + var(--min-l)) * 1%
+      );
+      --a: 1;
+      background-color: hsl(var(--h) var(--s) var(--l) / var(--a));
+      color: white;
+
+      border-color: var(--color-primary);
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 2rem;
     }
   }
 
   a {
-    &.tag2 {
-      &:link,
-      &:visited {
-        background-color: var(--color-primary-lighter-2);
-      }
-    }
-
-    &.tag3 {
-      &:link,
-      &:visited {
-        background-color: var(--color-primary-lighter-1);
-      }
-    }
-
-    &.tag4 {
-      &:link,
-      &:visited {
-        background-color: var(--color-primary);
-      }
-    }
-
-    &.tag5 {
-      &:link,
-      &:visited {
-        background-color: var(--color-primary-darker-1);
-      }
-    }
-
     &:hover,
     &:focus,
     &:active {
-      text-decoration: underline;
-
-      background-color: var(--color-secondary);
+      color: var(--color-primary);
+      background-color: white;
 
       outline: none;
-
-      &.tag2,
-      &.tag3,
-      &.tag4,
-      &.tag5 {
-        background-color: var(--color-secondary);
-      }
     }
   }
 }
