@@ -89,6 +89,7 @@
 
 #hits {
   grid-area: hits;
+  min-width: 0;
 }
 
 #pagination {
@@ -197,7 +198,6 @@
 // ************************************************************
 
 .ais-SearchBox-form {
-
   $search-button-width: 1.5em;
   display: flex;
   justify-content: space-between;
