@@ -1251,7 +1251,7 @@
         "image": "nhoizey.jpg",
         "name": "Nicolas Hoizey"
       },
-      "content": "<p>&lt;blockquote&gt;Cette question me tracassait aussi et j'ai finalement opté pour les tags composés de plusieurs mots… tablant sur la paresse humaine : il est plus facile et plus rapide de cliquer sur un tag que d'utiliser une fonction de recherche.</blockquote><br /><p>C'est valable en mode consultation, pour voir les nouveautés ou les éléments postés par d'autres, mais j'utilise de plus en plus Blogmarks à la place de Google pour trouver des infos sur certains sujets, et je passe donc par la recherche.</p> <p>En fait, c'est de là que vient mon interrogation, je suis passé d'un mode &#034;accumulation de bookmarks&#034; à un mode &#034;voyons voir si je trouve une réponse à mon problème&#034;, ce qui est bien différent !</p><br />&lt;blockquote&gt;Mais je me demande si la question mérite vraiment de s'y attarder, chacun choisit son tag selon ses habitudes : &#034;open source&#034;, open-source, opensource, open, source… Les résultats obtenus diffèrent bien-sûr mais des tags approchants sont suggérés et il dépend de l'utilisateur d'approfondir sa recherche.</blockquote><br /><p>Les tags approchants ne sont pas suggérés, non, sauf si j'ai loupé quelque chose, et c'est d'ailleurs un des plus gros manques à l'heure actuelle de presque tous les systèmes de tags.</p><br />&lt;blockquote&gt;Par contre je pense qu'il est important de s'assurer que les principaux mots-clé visés soient présents dans le titre ou la description : l'utilisateur avisé utilisera aussi la fonction de recherche et pourra trouver des sites qui ne comprennent pas ces mots-là dans les tags.</blockquote><br /><p>Effectivement, mais j'essaie dans la mesure du possible de laisser en titre celui d'origine, et je mets bien souvent en description un extrait de la page.</p>"
+      "content": "<p>&lt;blockquote&gt;Cette question me tracassait aussi et j'ai finalement opté pour les tags composés de plusieurs mots… tablant sur la paresse humaine : il est plus facile et plus rapide de cliquer sur un tag que d'utiliser une fonction de recherche.</blockquote><p>C'est valable en mode consultation, pour voir les nouveautés ou les éléments postés par d'autres, mais j'utilise de plus en plus Blogmarks à la place de Google pour trouver des infos sur certains sujets, et je passe donc par la recherche.</p> <p>En fait, c'est de là que vient mon interrogation, je suis passé d'un mode &#034;accumulation de bookmarks&#034; à un mode &#034;voyons voir si je trouve une réponse à mon problème&#034;, ce qui est bien différent !</p><br />&lt;blockquote&gt;Mais je me demande si la question mérite vraiment de s'y attarder, chacun choisit son tag selon ses habitudes : &#034;open source&#034;, open-source, opensource, open, source… Les résultats obtenus diffèrent bien-sûr mais des tags approchants sont suggérés et il dépend de l'utilisateur d'approfondir sa recherche.</blockquote><p>Les tags approchants ne sont pas suggérés, non, sauf si j'ai loupé quelque chose, et c'est d'ailleurs un des plus gros manques à l'heure actuelle de presque tous les systèmes de tags.</p><br />&lt;blockquote&gt;Par contre je pense qu'il est important de s'assurer que les principaux mots-clé visés soient présents dans le titre ou la description : l'utilisateur avisé utilisera aussi la fonction de recherche et pourra trouver des sites qui ne comprennent pas ces mots-là dans les tags.</blockquote><p>Effectivement, mais j'essaie dans la mesure du possible de laisser en titre celui d'origine, et je mets bien souvent en description un extrait de la page.</p>"
     },
     {
       "id": "comment-2867806316",
@@ -1593,7 +1593,7 @@
         "image": "nhoizey.jpg",
         "name": "Nicolas Hoizey"
       },
-      "content": "<p><blockquote><br /><p>J'ai lu un article il y a deux mois, j'aimerai le retrouver. J'ai besoin de pouvoir faire une recherche avec &#034;il y a environ deux mois&#034;</p><br /></blockquote><br /><p>Problème intéressant, oui, mais je doute qu'on se souvienne suffisamment de la date précise, voire du mois, donc je pense que la recherche est plus indiquée.</p><br /><blockquote><br /><p>Je lis un article qui n'est pas récent et il fait référence implicitement à d'autres textes précédents. J'ai besoin de pouvoir lire ces textes précédents, la liste des articles récents ne me sert à rien</p><br /></blockquote><br /><p>Effectivement, mais dans ce cas là, on fait plutôt référence aux articles précédents en mettant un lien.</p><br /><blockquote><br /><p>Je lis un article, je veux pouvoir consulter les articles écrits à la même période.</p><br /></blockquote><br /><p>Je n'ai jamais éprouvé ce besoin, mais si tu dis que tu l'as… ;-)</p><br /><blockquote><br /><p>Je veux pouvoir remonter dans la liste des articles et ne pas avoir que les X derniers que j'ai déjà lu</p><br /></blockquote><br /><p>Certains proposent sur la page d'un article, soit un lien vers l'article précédent (et le suivant tant qu'à faire), soit carrément la liste des 5 ou 10 articles précédents. Ca peut en effet être utile…</p> <p>Concernant la dernière remarque, oui, en effet, il faudrait une recherche avancée avec possibilité de restreindre à une période. Ajouté à la todo !</p> <p>Merci pour ces retours !</p>"
+      "content": "<p><blockquote><p>J'ai lu un article il y a deux mois, j'aimerai le retrouver. J'ai besoin de pouvoir faire une recherche avec &#034;il y a environ deux mois&#034;</p></blockquote><p>Problème intéressant, oui, mais je doute qu'on se souvienne suffisamment de la date précise, voire du mois, donc je pense que la recherche est plus indiquée.</p><blockquote><p>Je lis un article qui n'est pas récent et il fait référence implicitement à d'autres textes précédents. J'ai besoin de pouvoir lire ces textes précédents, la liste des articles récents ne me sert à rien</p></blockquote><p>Effectivement, mais dans ce cas là, on fait plutôt référence aux articles précédents en mettant un lien.</p><blockquote><p>Je lis un article, je veux pouvoir consulter les articles écrits à la même période.</p></blockquote><p>Je n'ai jamais éprouvé ce besoin, mais si tu dis que tu l'as… ;-)</p><blockquote><p>Je veux pouvoir remonter dans la liste des articles et ne pas avoir que les X derniers que j'ai déjà lu</p></blockquote><p>Certains proposent sur la page d'un article, soit un lien vers l'article précédent (et le suivant tant qu'à faire), soit carrément la liste des 5 ou 10 articles précédents. Ca peut en effet être utile…</p> <p>Concernant la dernière remarque, oui, en effet, il faudrait une recherche avancée avec possibilité de restreindre à une période. Ajouté à la todo !</p> <p>Merci pour ces retours !</p>"
     },
     {
       "id": "comment-2816531553",
@@ -2108,7 +2108,7 @@
         "image": "nhoizey.jpg",
         "name": "Nicolas Hoizey"
       },
-      "content": "<p><blockquote><br /><p>Pour Niko, pour le code il suffit d'utiliser les balises code ou cadre (sur le même formatage qu'une balise html standard…</p><br /></blockquote><br /><p>Sauf que la balise <code>&lt;cadre&gt;</code> donne en général quelque chose de pas très lisible. Son seul intérêt est pour les lignes de code trop longues, qui donnent un ascenceur horizontal au lieu d'exploser la mise en page…</p>"
+      "content": "<p><blockquote><p>Pour Niko, pour le code il suffit d'utiliser les balises code ou cadre (sur le même formatage qu'une balise html standard…</p></blockquote><p>Sauf que la balise <code>&lt;cadre&gt;</code> donne en général quelque chose de pas très lisible. Son seul intérêt est pour les lignes de code trop longues, qui donnent un ascenceur horizontal au lieu d'exploser la mise en page…</p>"
     },
     {
       "id": "comment-2867806296",
@@ -2117,7 +2117,7 @@
         "image": "no-avatar.png",
         "name": "Anonymous"
       },
-      "content": "<p><blockquote><br /><p>Malheureusement, il est impossible de généraliser la règle à tout site externe, car les images deviendraient alors invisibles dans les aggrégateurs de flux de syndication en ligne tels que Bloglines ou FeedLounge.</p><br /></blockquote><br /><p>Pour ma part, je ne fonctionne pas en \"liste noire\" (en bloquant des sites indélicats), mais en \"liste blanche\" (en débloquant les sites souhaités). L'option liste noire oblige à pouchasser les hotlinkers dans les logs, ce qui rpend un temps certain.</p> <p>Je redirige aussi les images hotlinkées vers une image modifiée, rétrécie, et un brin provoquante.</p> <p><a href='http://www.azurs.net/photos/htaccess.txt'>Le htaccess</a></p> <p><a href='http://www.azurs.net/watermark2.php?pic=chevre.jpg'>Exemple d'image modifiée</a></p> "
+      "content": "<p><blockquote><p>Malheureusement, il est impossible de généraliser la règle à tout site externe, car les images deviendraient alors invisibles dans les aggrégateurs de flux de syndication en ligne tels que Bloglines ou FeedLounge.</p></blockquote><p>Pour ma part, je ne fonctionne pas en \"liste noire\" (en bloquant des sites indélicats), mais en \"liste blanche\" (en débloquant les sites souhaités). L'option liste noire oblige à pouchasser les hotlinkers dans les logs, ce qui rpend un temps certain.</p> <p>Je redirige aussi les images hotlinkées vers une image modifiée, rétrécie, et un brin provoquante.</p> <p><a href='http://www.azurs.net/photos/htaccess.txt'>Le htaccess</a></p> <p><a href='http://www.azurs.net/watermark2.php?pic=chevre.jpg'>Exemple d'image modifiée</a></p> "
     },
     {
       "id": "comment-2867806609",
@@ -2254,7 +2254,7 @@
         "image": "nhoizey.jpg",
         "name": "Nicolas Hoizey"
       },
-      "content": "<p><blockquote><br /><p>Pendant qu'on y est, un captcha quoi t'est-ce ?</p><br /></blockquote><br /><p>« Un captcha est une forme de test de Turing permettant de différencier un utilisateur humain d'un ordinateur. » (cf <a href='http://fr.wikipedia.org/wiki/Captcha'>Wikipedia</a>)</p><br /><blockquote><br /><p>Je me serai pas inscrit juste pour ça. CQFD</p><br /></blockquote><br /><p>C'est bien pour ça que j'ai ouvert les commentaires.</p> <p>Pour l'instant, je n'ai eu que deux spams, tout va bien…</p> "
+      "content": "<p><blockquote><p>Pendant qu'on y est, un captcha quoi t'est-ce ?</p></blockquote><p>« Un captcha est une forme de test de Turing permettant de différencier un utilisateur humain d'un ordinateur. » (cf <a href='http://fr.wikipedia.org/wiki/Captcha'>Wikipedia</a>)</p><blockquote><p>Je me serai pas inscrit juste pour ça. CQFD</p></blockquote><p>C'est bien pour ça que j'ai ouvert les commentaires.</p> <p>Pour l'instant, je n'ai eu que deux spams, tout va bien…</p> "
     }
   ],
   "articles/2006/04/11/citation-de-albert-einstein": [
@@ -2314,7 +2314,7 @@
         "image": "nhoizey.jpg",
         "name": "Nicolas Hoizey"
       },
-      "content": "<p><blockquote><br /><p>Abandonner SPIP, toi ? pas possible…</p><br /></blockquote><br /><p>Si un autre outil convient mieux à ce que je veux faire, pourquoi pas !</p><br /><blockquote><br /><p>Manquerait plus que Gasteroprod passe sous Dotclear… et je crie à l'usurpateur !</p><br /></blockquote><br /><p>Si la v2 est aussi bien que l'annoncent les rumeurs, j'y penserais sans doute. Finalement, je n'utilise plus grand chose dans SPIP qui ne soit pas dans dotClear, et les fonctionnalités spécifiques aux blogs (trackback notamment) commencent à vraiment manquer…</p><br /><blockquote><br /><p>Le seul reproche que je fais à Dokuwiki est qu'il n'intègre pas par défaut un système de commentaires…</p><br /></blockquote><br /><p>C'est vrai que c'est dommage, il faudra que je tente à nouveau de faire marcher le plugin pour phpHeaven.</p><br /><blockquote><br /><p>Ce qui me gène aussi dans les wiki, c'est l'impossibilité (a priori) d'avoir des visualisation de pages par &#034;rubriques&#034; et de gérer ainsi proprement ses pages…</p><br /></blockquote><br /><p>Tu peux au moins utiliser des <i>namespaces</i>, ça permet déjà de cloisoner les pages par grands domaines. J'ai par exemple un <i>namespace</i> pour phpMyChat sur phpHeaven.</p>"
+      "content": "<p><blockquote><p>Abandonner SPIP, toi ? pas possible…</p></blockquote><p>Si un autre outil convient mieux à ce que je veux faire, pourquoi pas !</p><blockquote><p>Manquerait plus que Gasteroprod passe sous Dotclear… et je crie à l'usurpateur !</p></blockquote><p>Si la v2 est aussi bien que l'annoncent les rumeurs, j'y penserais sans doute. Finalement, je n'utilise plus grand chose dans SPIP qui ne soit pas dans dotClear, et les fonctionnalités spécifiques aux blogs (trackback notamment) commencent à vraiment manquer…</p><blockquote><p>Le seul reproche que je fais à Dokuwiki est qu'il n'intègre pas par défaut un système de commentaires…</p></blockquote><p>C'est vrai que c'est dommage, il faudra que je tente à nouveau de faire marcher le plugin pour phpHeaven.</p><blockquote><p>Ce qui me gène aussi dans les wiki, c'est l'impossibilité (a priori) d'avoir des visualisation de pages par &#034;rubriques&#034; et de gérer ainsi proprement ses pages…</p></blockquote><p>Tu peux au moins utiliser des <i>namespaces</i>, ça permet déjà de cloisoner les pages par grands domaines. J'ai par exemple un <i>namespace</i> pour phpMyChat sur phpHeaven.</p>"
     },
     {
       "id": "comment-2867806605",
@@ -2428,7 +2428,7 @@
         "image": "no-avatar.png",
         "name": "NiCoS"
       },
-      "content": "<p><blockquote><br /><p> C'est NicoS qui va être content… ;-)</p><br /></blockquote><br /><p>Tsss : Ni<strong>C</strong>oS</p> <p>Sinon tes photos de fleurs sont chouettes, je voulais faire la même chose avec les orchydées de ma femme mais les fleurs sont tombées trop vite (ou je m'y suis pris trop tard) ; va falloir attendre les prochaines :'(</p> <p>Donc en gros feedburner serait un RSSCache + stats + notification email ?</p> <p>Bon ben je vais attendre ton retour.</p> <p>Par contre, pour ceux qui sont abonnés à l'ancien flux, ça changera rien pour le serveur vu qu'ils feront une requête sur le serveur avant d'être renvoyé chez Feedburner… :-S ; on échappe juste au temps de génération du flux mais bon avec le cache spip, on était relativement préservé…</p>"
+      "content": "<p><blockquote><p> C'est NicoS qui va être content… ;-)</p></blockquote><p>Tsss : Ni<strong>C</strong>oS</p> <p>Sinon tes photos de fleurs sont chouettes, je voulais faire la même chose avec les orchydées de ma femme mais les fleurs sont tombées trop vite (ou je m'y suis pris trop tard) ; va falloir attendre les prochaines :'(</p> <p>Donc en gros feedburner serait un RSSCache + stats + notification email ?</p> <p>Bon ben je vais attendre ton retour.</p> <p>Par contre, pour ceux qui sont abonnés à l'ancien flux, ça changera rien pour le serveur vu qu'ils feront une requête sur le serveur avant d'être renvoyé chez Feedburner… :-S ; on échappe juste au temps de génération du flux mais bon avec le cache spip, on était relativement préservé…</p>"
     },
     {
       "id": "comment-2867805968",
@@ -2438,7 +2438,7 @@
         "image": "nhoizey.jpg",
         "name": "Nicolas Hoizey"
       },
-      "content": "<p><blockquote><br /><p>Tsss : NiCoS</p><br /></blockquote><br /><p>Oups, désolé… ;-)</p><br /><blockquote><br /><p>Sinon tes photos de fleurs sont chouettes</p><br /></blockquote><br /><p>Merci !!! N'hésites pas à les mettre en favoris dans Flickr… ;-)</p><br /><blockquote><br /><p>je voulais faire la même chose avec les orchydées de ma femme mais les fleurs sont tombées trop vite (ou je m'y suis pris trop tard) ; va falloir attendre les prochaines :'(</p><br /></blockquote><br /><p>Pourtant, les orchydées ça tient pas mal de temps, normalement. Va falloir que j'essaie de photographier les 3 que j'ai, tiens…</p><br /><blockquote><br /><p>Donc en gros feedburner serait un RSSCache + stats + notification email ?</p><br /></blockquote><br /><p>A priori, oui !</p><br /><blockquote><br /><p>Par contre, pour ceux qui sont abonnés à l'ancien flux, ça changera rien pour le serveur vu qu'ils feront une requête sur le serveur avant d'être renvoyé chez Feedburner… :-S ; on échappe juste au temps de génération du flux mais bon avec le cache spip, on était relativement préservé…</p><br /></blockquote><br /><p>Vu que c'est une redirection « moved permanently », le client est censé changer l'URL pour les fois suivantes. Après, il faudrait vérifier si les clients les plus courants le font bien, c'est sûr…</p>"
+      "content": "<p><blockquote><p>Tsss : NiCoS</p></blockquote><p>Oups, désolé… ;-)</p><blockquote><p>Sinon tes photos de fleurs sont chouettes</p></blockquote><p>Merci !!! N'hésites pas à les mettre en favoris dans Flickr… ;-)</p><blockquote><p>je voulais faire la même chose avec les orchydées de ma femme mais les fleurs sont tombées trop vite (ou je m'y suis pris trop tard) ; va falloir attendre les prochaines :'(</p></blockquote><p>Pourtant, les orchydées ça tient pas mal de temps, normalement. Va falloir que j'essaie de photographier les 3 que j'ai, tiens…</p><blockquote><p>Donc en gros feedburner serait un RSSCache + stats + notification email ?</p></blockquote><p>A priori, oui !</p><blockquote><p>Par contre, pour ceux qui sont abonnés à l'ancien flux, ça changera rien pour le serveur vu qu'ils feront une requête sur le serveur avant d'être renvoyé chez Feedburner… :-S ; on échappe juste au temps de génération du flux mais bon avec le cache spip, on était relativement préservé…</p></blockquote><p>Vu que c'est une redirection « moved permanently », le client est censé changer l'URL pour les fois suivantes. Après, il faudrait vérifier si les clients les plus courants le font bien, c'est sûr…</p>"
     },
     {
       "id": "comment-2867806278",
@@ -2447,7 +2447,7 @@
         "image": "no-avatar.png",
         "name": "NiCoS"
       },
-      "content": "<p><blockquote><br /><p>Vu que c'est une redirection « moved permanently », le client est censé changer l'URL pour les fois suivantes. Après, il faudrait vérifier si les clients les plus courants le font bien, c'est sûr…</p><br /></blockquote><br /><p>et la marmotte… ?</p> <p>A mon avis, si c'est en dur dans un aggrégateur, ça m'étonnerait que cela se mette à jour tout seul…</p>"
+      "content": "<p><blockquote><p>Vu que c'est une redirection « moved permanently », le client est censé changer l'URL pour les fois suivantes. Après, il faudrait vérifier si les clients les plus courants le font bien, c'est sûr…</p></blockquote><p>et la marmotte… ?</p> <p>A mon avis, si c'est en dur dans un aggrégateur, ça m'étonnerait que cela se mette à jour tout seul…</p>"
     },
     {
       "id": "comment-2867806594",
@@ -2514,7 +2514,7 @@
         "image": "no-avatar.png",
         "name": "NiCoS"
       },
-      "content": "<p><blockquote><br /><p>'Organizr - que je n'utilise que très rarement - a largement été revu, et semble maintenant être intégralement en Ajax, sans plus aucun flash.</p><br /></blockquote><br /><p>Je confirme, sur mon pc à la maison sous Ubuntu Dapper en AMD64, le plugin flash n'existe pas et je peux enfin utiliser l'Organizr :-)</p>"
+      "content": "<p><blockquote><p>'Organizr - que je n'utilise que très rarement - a largement été revu, et semble maintenant être intégralement en Ajax, sans plus aucun flash.</p></blockquote><p>Je confirme, sur mon pc à la maison sous Ubuntu Dapper en AMD64, le plugin flash n'existe pas et je peux enfin utiliser l'Organizr :-)</p>"
     },
     {
       "id": "comment-2867805965",
@@ -2524,7 +2524,7 @@
         "image": "nhoizey.jpg",
         "name": "Nicolas Hoizey"
       },
-      "content": "<p><blockquote><br /><p>Tu dois être content, y a enfin un flux rss pour suivre les photos d'une personne ;-)</p><br /></blockquote><br /><p>Euh… ça existait déjà depuis le début, ça !</p><br /><blockquote><br /><p>si on clique sur le titre du menu, on arrive sur la fonctionnalité et qu'il faut cliquer sur la flèche pour voir le menu déroulant</p><br /></blockquote><br /><p>C'est vrai que ce n'est pas tout à fait standard, mais j'aime bien, ça permet d'arriver en un clic à la page la plus courante pour le groupe de fonctionnalités.</p>"
+      "content": "<p><blockquote><p>Tu dois être content, y a enfin un flux rss pour suivre les photos d'une personne ;-)</p></blockquote><p>Euh… ça existait déjà depuis le début, ça !</p><blockquote><p>si on clique sur le titre du menu, on arrive sur la fonctionnalité et qu'il faut cliquer sur la flèche pour voir le menu déroulant</p></blockquote><p>C'est vrai que ce n'est pas tout à fait standard, mais j'aime bien, ça permet d'arriver en un clic à la page la plus courante pour le groupe de fonctionnalités.</p>"
     },
     {
       "id": "comment-2867805960",
@@ -2544,7 +2544,7 @@
         "image": "nhoizey.jpg",
         "name": "Nicolas Hoizey"
       },
-      "content": "<p><blockquote><br /><p>je peux enfin utiliser l'Organizr</p><br /></blockquote><br /><p>Attention à l'overdose ! ;-)</p>"
+      "content": "<p><blockquote><p>je peux enfin utiliser l'Organizr</p></blockquote><p>Attention à l'overdose ! ;-)</p>"
     }
   ],
   "articles/2006/06/07/citation-de-nelson-mandela": [
@@ -2672,7 +2672,7 @@
         "image": "nhoizey.jpg",
         "name": "Nicolas Hoizey"
       },
-      "content": "<p><blockquote><br /><p>Les tracksbacks dans spip fonctionne avec le squelette spipclear. Il suffit juste de verifier si cela tourne avec spip 1.9 et de le transformer en plugin.</p><br /></blockquote><br /><p>Sauf qu'il « suffit » mais personne, moi compris, n'a eu le temps de le faire depuis de longs mois…</p><br /><blockquote><br /><p>Ce qu'il manque à Spip, c'est une saisie rapide des tags comme chez Flickr.</p><br /></blockquote><br /><p>Aussi, mais c'est moins critique à mon sens que les trackbacks/pingbacks.</p>"
+      "content": "<p><blockquote><p>Les tracksbacks dans spip fonctionne avec le squelette spipclear. Il suffit juste de verifier si cela tourne avec spip 1.9 et de le transformer en plugin.</p></blockquote><p>Sauf qu'il « suffit » mais personne, moi compris, n'a eu le temps de le faire depuis de longs mois…</p><blockquote><p>Ce qu'il manque à Spip, c'est une saisie rapide des tags comme chez Flickr.</p></blockquote><p>Aussi, mais c'est moins critique à mon sens que les trackbacks/pingbacks.</p>"
     },
     {
       "id": "comment-2867805950",
@@ -2729,7 +2729,7 @@
         "image": "nhoizey.jpg",
         "name": "Nicolas Hoizey"
       },
-      "content": "<p><blockquote><br /><p>En fait, pour moi Dotclear c'est un blog, SPIP c'est un CMS. Mais on peut toujours installer des plugins à Dotclear pour en faire un CMS ou ne pas utiliser toutes les fonctions de SPIP pour en faire un blog ;-) Tout dépend de l'usage qu'on veut en faire non ?</p><br /></blockquote><br /><p>Je suis bien d'accord. Je comparais les fonctionnalités selon mes besoins, et non toutes les fonctionnalités de chacun des outils.</p> <p>L'objectif était de faire un choix, pas de déterminer le meilleur dans l'absolu.</p>"
+      "content": "<p><blockquote><p>En fait, pour moi Dotclear c'est un blog, SPIP c'est un CMS. Mais on peut toujours installer des plugins à Dotclear pour en faire un CMS ou ne pas utiliser toutes les fonctions de SPIP pour en faire un blog ;-) Tout dépend de l'usage qu'on veut en faire non ?</p></blockquote><p>Je suis bien d'accord. Je comparais les fonctionnalités selon mes besoins, et non toutes les fonctionnalités de chacun des outils.</p> <p>L'objectif était de faire un choix, pas de déterminer le meilleur dans l'absolu.</p>"
     },
     {
       "id": "comment-2867805507",
@@ -2788,7 +2788,7 @@
         "image": "nhoizey.jpg",
         "name": "Nicolas Hoizey"
       },
-      "content": "<p><blockquote><br /><p>L'équipe Dotclear a prévu de maintenir DC1 pendant encore un moment (non défini) d'après ce que j'ai pu lire sur les forums…</p><br /></blockquote><br /><p>Formidable !</p><br /><blockquote><br /><p><br />Olivier Meunier avait prévenu depuis le début qu'il voulait profiter des dernières fonctionnalités de PHP/MySQL pour coder mieux a priori.</p><br /></blockquote><br /><p>Et je le comprends, bien entendu ! Mais il ne code pas un petit soft pour lui seul, c'est un projet libre de grande envergure. Les mainteneurs de projets libres ont une certaine responsabilité vis à vis de leurs utilisateurs…</p><br /><blockquote><br /><p>PS : donc je redescends le serveur en PHP4 ? ;-)</p><br /></blockquote><br /><p>Ah bin non, faut que je refasse <a href='http://flickrate.gasteroprod.com/'>flickRate</a> en <a href='http://www.symfony-project.com/'>Symfony</a> ! ;-)</p>"
+      "content": "<p><blockquote><p>L'équipe Dotclear a prévu de maintenir DC1 pendant encore un moment (non défini) d'après ce que j'ai pu lire sur les forums…</p></blockquote><p>Formidable !</p><blockquote><p>Olivier Meunier avait prévenu depuis le début qu'il voulait profiter des dernières fonctionnalités de PHP/MySQL pour coder mieux a priori.</p></blockquote><p>Et je le comprends, bien entendu ! Mais il ne code pas un petit soft pour lui seul, c'est un projet libre de grande envergure. Les mainteneurs de projets libres ont une certaine responsabilité vis à vis de leurs utilisateurs…</p><blockquote><p>PS : donc je redescends le serveur en PHP4 ? ;-)</p></blockquote><p>Ah bin non, faut que je refasse <a href='http://flickrate.gasteroprod.com/'>flickRate</a> en <a href='http://www.symfony-project.com/'>Symfony</a> ! ;-)</p>"
     },
     {
       "id": "comment-2867805496",
@@ -2798,7 +2798,7 @@
         "image": "nhoizey.jpg",
         "name": "Nicolas Hoizey"
       },
-      "content": "<p><blockquote><p>il est toujours possible de demander la mise en place des deux versions de PHP sur l'espace d'hébergement, afin que chacun y trouve son compte</p><br /></blockquote><br /><p>Je ne suis pas sûr que beaucoup d'hébergeurs mutualisés soient prêts à gérer plusieurs versions simultanées, d'autant plus que les différentes techniques sont à peu près toutes des bidouilles, non ? Si ce n'était pas le cas, il n'y aurait sans doute qu'une solution officielle mise en oeuvre par tout le monde… ;-)</p><br /><blockquote><br /><p>Quand à la stabilité de php5, il me semble tout de même que nombre de sites importants et à fortes charges s'en sortent très bien, non ?</p><br /></blockquote><br /><p>Oui, bien entendu, mais comme je le signale, attention surtout à tous les softs déjà en place qui ne tournent pas avec PHP5.</p> <p>Quand on voit les problèmes avec les composant PEAR, pourtant censés être proches des évolutions de PHP, ça laisse rêveur…</p>"
+      "content": "<p><blockquote><p>il est toujours possible de demander la mise en place des deux versions de PHP sur l'espace d'hébergement, afin que chacun y trouve son compte</p></blockquote><p>Je ne suis pas sûr que beaucoup d'hébergeurs mutualisés soient prêts à gérer plusieurs versions simultanées, d'autant plus que les différentes techniques sont à peu près toutes des bidouilles, non ? Si ce n'était pas le cas, il n'y aurait sans doute qu'une solution officielle mise en oeuvre par tout le monde… ;-)</p><blockquote><p>Quand à la stabilité de php5, il me semble tout de même que nombre de sites importants et à fortes charges s'en sortent très bien, non ?</p></blockquote><p>Oui, bien entendu, mais comme je le signale, attention surtout à tous les softs déjà en place qui ne tournent pas avec PHP5.</p> <p>Quand on voit les problèmes avec les composant PEAR, pourtant censés être proches des évolutions de PHP, ça laisse rêveur…</p>"
     },
     {
       "id": "comment-2867806271",
@@ -2826,7 +2826,7 @@
         "image": "nhoizey.jpg",
         "name": "Nicolas Hoizey"
       },
-      "content": "<p><blockquote><br /><p>c'est un peu dommage de se limiter dans ses devs sous prétexte que le soft est &#034;&#034;massivement&#034;&#034; (surtout en france) utilisé</p><br /></blockquote><br /><p>A condition de maintenir une version plus « universelle », bien sur…</p><br /><blockquote><br /><p>Il y a tout au mieux un engagement moral, rien ne l'oblige à assurer un niveau de continuité. Si on continue sur le coté &#034;responsable&#034;, alors aucun dev de projet libre ne devrait arrêter d'y contribuer sous prétexte qu'il est utilisé.</p><br /></blockquote><br /><p>Si les mainteneurs historiques s'en vont où changent d'orientation, le fork est proche, cf Mambo/Joomla…</p><br /><blockquote><br /><p>Il aurait peut être du le nommer autrement que Dotclear, cela aurait fait couler moins d'encre…</p><br /></blockquote><br /><p>Ah bin non, c'est quand même bien le même outil !</p><br /><blockquote><br /><p>Pour la refonte de Flickrate sous Symfony, c'est pas sortir la grosse berta pour écraser un moucheron ?</p><br /></blockquote><br /><p>Tu penses vraiment ? En fait, il faut que je refasse une grosse partie de flickRate, et j'ai envie de tester Symfony, donc le lien est simple… ;-)</p>"
+      "content": "<p><blockquote><p>c'est un peu dommage de se limiter dans ses devs sous prétexte que le soft est &#034;&#034;massivement&#034;&#034; (surtout en france) utilisé</p></blockquote><p>A condition de maintenir une version plus « universelle », bien sur…</p><blockquote><p>Il y a tout au mieux un engagement moral, rien ne l'oblige à assurer un niveau de continuité. Si on continue sur le coté &#034;responsable&#034;, alors aucun dev de projet libre ne devrait arrêter d'y contribuer sous prétexte qu'il est utilisé.</p></blockquote><p>Si les mainteneurs historiques s'en vont où changent d'orientation, le fork est proche, cf Mambo/Joomla…</p><blockquote><p>Il aurait peut être du le nommer autrement que Dotclear, cela aurait fait couler moins d'encre…</p></blockquote><p>Ah bin non, c'est quand même bien le même outil !</p><blockquote><p>Pour la refonte de Flickrate sous Symfony, c'est pas sortir la grosse berta pour écraser un moucheron ?</p></blockquote><p>Tu penses vraiment ? En fait, il faut que je refasse une grosse partie de flickRate, et j'ai envie de tester Symfony, donc le lien est simple… ;-)</p>"
     },
     {
       "id": "comment-2867805949",
@@ -2836,7 +2836,7 @@
         "image": "nhoizey.jpg",
         "name": "Nicolas Hoizey"
       },
-      "content": "<p><blockquote><br /><p>Un produit compatible avec l'existant, on en a un, c'est Dotclear, premier du nom, et il n'est pas question de cesser de le maintenir.</p><br /></blockquote><br /><p>C'est formidable alors, c'est une démarche très saine, bravo !</p><br /><blockquote><br /><p>Le public visé n'est plus l'utilisateur de base, c'est le webmaster.</p><br /></blockquote><br /><p>Là c'est un changement d'orientation relativement fort, attention aux désistements potentiels. Mais si la version 1 continue réellement à vivre et évoluer, ça devrait bien se passer.</p><br /><blockquote><br /><p>La lettre type en question n'est rien d'autre qu'une aide pour qu'il sachent quoi demander s'il veulent le faire.</p><br /></blockquote><br /><p>Je pense que la plupart des utilisateurs l'utiliseront telle quel, et je persiste donc à dire que son ton devrait être revu pour plus d'humilité.</p><br /><blockquote><br /><p>&#192 titre personnel, mon conseil aux gens qui paient un hébergeur pas foutu de fournir des services corrects (parce que franchement, ne pas être foutu de faire tourner conjointement php4 et php5 quand on est hébergeur, c'est ne pas connaître son boulot.) c'est : &#034;cassez vous ! Allez donner votre argent à des gens compétents.&#034;</p><br /></blockquote><br /><p>Faire tourner plusieurs versions, c'est multiplier les environnements, et donc les tâches d'administration / supervision, et donc en général avoir plus de frais. Ca rend aussi l'usage plus compliqué pour les clients, qui doivent comprendre pourquoi il y a deux versions, et comment utiliser l'une ou l'autre.</p> <p>Il ne faut pas oublier que la plupart des utilisateurs de logiciels comme DotClear ou SPIP ne sont pas du tout informaticiens, tous ces concepts leur échappent bien souvent…</p>"
+      "content": "<p><blockquote><p>Un produit compatible avec l'existant, on en a un, c'est Dotclear, premier du nom, et il n'est pas question de cesser de le maintenir.</p></blockquote><p>C'est formidable alors, c'est une démarche très saine, bravo !</p><blockquote><p>Le public visé n'est plus l'utilisateur de base, c'est le webmaster.</p></blockquote><p>Là c'est un changement d'orientation relativement fort, attention aux désistements potentiels. Mais si la version 1 continue réellement à vivre et évoluer, ça devrait bien se passer.</p><blockquote><p>La lettre type en question n'est rien d'autre qu'une aide pour qu'il sachent quoi demander s'il veulent le faire.</p></blockquote><p>Je pense que la plupart des utilisateurs l'utiliseront telle quel, et je persiste donc à dire que son ton devrait être revu pour plus d'humilité.</p><blockquote><p>&#192 titre personnel, mon conseil aux gens qui paient un hébergeur pas foutu de fournir des services corrects (parce que franchement, ne pas être foutu de faire tourner conjointement php4 et php5 quand on est hébergeur, c'est ne pas connaître son boulot.) c'est : &#034;cassez vous ! Allez donner votre argent à des gens compétents.&#034;</p></blockquote><p>Faire tourner plusieurs versions, c'est multiplier les environnements, et donc les tâches d'administration / supervision, et donc en général avoir plus de frais. Ca rend aussi l'usage plus compliqué pour les clients, qui doivent comprendre pourquoi il y a deux versions, et comment utiliser l'une ou l'autre.</p> <p>Il ne faut pas oublier que la plupart des utilisateurs de logiciels comme DotClear ou SPIP ne sont pas du tout informaticiens, tous ces concepts leur échappent bien souvent…</p>"
     },
     {
       "id": "comment-2867807053",
@@ -2986,7 +2986,7 @@
         "image": "no-avatar.png",
         "name": "NiCoS"
       },
-      "content": "<p><blockquote><br /><p>… et en profite pour abandonner SPIP-Agora au profit du récent et de plus en plus génial SPIP !</p><br /></blockquote><br /><p>De tels propos vont faire plaisir aux trolleurs sur les listes agora… ;-)</p>"
+      "content": "<p><blockquote><p>… et en profite pour abandonner SPIP-Agora au profit du récent et de plus en plus génial SPIP !</p></blockquote><p>De tels propos vont faire plaisir aux trolleurs sur les listes agora… ;-)</p>"
     },
     {
       "id": "comment-2867805942",
@@ -3041,7 +3041,7 @@
         "image": "no-avatar.png",
         "name": "Jacques PYRAT"
       },
-      "content": "<p><blockquote><br /><p>… et en profite pour abandonner SPIP-Agora</p><br /></blockquote><br /><p>Il y a une erreur sur le lien vers AGORA. La bonne URL est <a href='http://agora.gouv.fr/'>http://agora.gouv.fr/&#034;</a>.</p> <p>A part ça, c'est une nouvelle très intéressante ;-).</p> "
+      "content": "<p><blockquote><p>… et en profite pour abandonner SPIP-Agora</p></blockquote><p>Il y a une erreur sur le lien vers AGORA. La bonne URL est <a href='http://agora.gouv.fr/'>http://agora.gouv.fr/&#034;</a>.</p> <p>A part ça, c'est une nouvelle très intéressante ;-).</p> "
     },
     {
       "id": "comment-2867805941",
@@ -3061,7 +3061,7 @@
         "image": "nhoizey.jpg",
         "name": "Nicolas Hoizey"
       },
-      "content": "<p><blockquote><br /><p>Il y a une erreur sur le lien vers AGORA</p><br /></blockquote><br /><p>Je crois que tu as oublié un smiley, là, Jacques…</p>"
+      "content": "<p><blockquote><p>Il y a une erreur sur le lien vers AGORA</p></blockquote><p>Je crois que tu as oublié un smiley, là, Jacques…</p>"
     },
     {
       "id": "comment-2867806269",
@@ -3091,7 +3091,7 @@
         "image": "nhoizey.jpg",
         "name": "Nicolas Hoizey"
       },
-      "content": "<p><blockquote><br /><p>1.47 - pas trop mal face à un grand gourou du web 2.0 comme toi</p><br /></blockquote><br /><p>Pas mal ! Essai encore, tu vas voir que c'est de plus en plus facile… ;-)</p><br /><blockquote><br /><p>Faut vraiment que tu arrêtes de t'occuper de tes plantes dans ton jardin</p><br /></blockquote><br /><p>Au contraire, c'est reposant, ça fait un bien fou !</p>"
+      "content": "<p><blockquote><p>1.47 - pas trop mal face à un grand gourou du web 2.0 comme toi</p></blockquote><p>Pas mal ! Essai encore, tu vas voir que c'est de plus en plus facile… ;-)</p><blockquote><p>Faut vraiment que tu arrêtes de t'occuper de tes plantes dans ton jardin</p></blockquote><p>Au contraire, c'est reposant, ça fait un bien fou !</p>"
     },
     {
       "id": "comment-2867805939",
@@ -3110,7 +3110,7 @@
         "image": "nhoizey.jpg",
         "name": "Nicolas Hoizey"
       },
-      "content": "<p><blockquote><br /><p>Je devrais me mettre au jardinage plutôt que de me casser la tête sur la mise en place du WDS sur mon réseau wifi - tout ça pour apprendre que le WDS ne fonctionne pas en WPA2 mais seulement en WPA…</p><br /></blockquote><br /><p>Ouh la, c'est du chinois pour moi, ça !</p> <p>Je filtre tout simplement les adresses MAC, sur mon routeur WiFi… ;-)</p>"
+      "content": "<p><blockquote><p>Je devrais me mettre au jardinage plutôt que de me casser la tête sur la mise en place du WDS sur mon réseau wifi - tout ça pour apprendre que le WDS ne fonctionne pas en WPA2 mais seulement en WPA…</p></blockquote><p>Ouh la, c'est du chinois pour moi, ça !</p> <p>Je filtre tout simplement les adresses MAC, sur mon routeur WiFi… ;-)</p>"
     },
     {
       "id": "comment-2867815387",
@@ -3129,7 +3129,7 @@
         "image": "nhoizey.jpg",
         "name": "Nicolas Hoizey"
       },
-      "content": "<p><blockquote><br /><p>il parait que c'est très simple de choper l'adresse mac et de faire du spoofing</p><br /></blockquote><br /><p>Ah ??? :-(</p><br /><blockquote><br /><p>brancher 2 ordis en filaire sur une borne wifi qui sera connectée à celle qui fait office de routeur internet et avoir ainsi accès au net… et sans avoir à tirer des cables à travers l'appart</p><br /></blockquote><br /><p>Pas mal. Moi je suis passé au courant porteur en ligne (CPL), et j'en suis très satisfait !</p>"
+      "content": "<p><blockquote><p>il parait que c'est très simple de choper l'adresse mac et de faire du spoofing</p></blockquote><p>Ah ??? :-(</p><blockquote><p>brancher 2 ordis en filaire sur une borne wifi qui sera connectée à celle qui fait office de routeur internet et avoir ainsi accès au net… et sans avoir à tirer des cables à travers l'appart</p></blockquote><p>Pas mal. Moi je suis passé au courant porteur en ligne (CPL), et j'en suis très satisfait !</p>"
     },
     {
       "id": "comment-2867815915",
@@ -3168,7 +3168,7 @@
         "image": "nhoizey.jpg",
         "name": "Nicolas Hoizey"
       },
-      "content": "<p><blockquote><p>Ta 3ème note ne revient pas à la ligne…</p><br /></blockquote><br /><p>Zut, peut-être un bug des « frimousses »…</p><br /><blockquote><br /><p>Pour revenir au problème ergonomique, au moins, ça permet de cacher ton grand âge</p></blockquote><p> :-p</p>"
+      "content": "<p><blockquote><p>Ta 3ème note ne revient pas à la ligne…</p></blockquote><p>Zut, peut-être un bug des « frimousses »…</p><blockquote><p>Pour revenir au problème ergonomique, au moins, ça permet de cacher ton grand âge</p></blockquote><p> :-p</p>"
     },
     {
       "id": "comment-2867805455",
