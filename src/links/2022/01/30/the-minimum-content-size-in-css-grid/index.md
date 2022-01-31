@@ -20,7 +20,7 @@ On my [archives page](/archives/), the list of contents was overlaping the searc
 
 Fortunately, I quickly found Ahmad's post about this behavior of CSS Grid where "the minimum content size of a grid item is `auto`, [which] means a grid item can expand its width due to long content".
 
-After [adding a simple `min-width: 0` to the overlaping Grid item](), it was fixed! 🎉
+After [adding a simple `min-width: 0` to the overlaping Grid item](https://github.com/nhoizey/nicolas-hoizey.com/commit/be6a039224facc6c9bec8d6b3b890799c815352b), it was fixed! 🎉
 
 ![](css-grid-pre-width-contained.jpg)
 
