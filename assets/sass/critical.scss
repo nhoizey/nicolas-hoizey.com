@@ -1,11 +1,11 @@
 // https://github.com/hankchizljaw/modern-css-reset
 @use '../../node_modules/modern-css-reset/dist/reset';
 
+@use 'variables/fonts';
 @use 'variables/colors';
 @use 'global/utilities';
 @use 'global/globals';
 @use 'global/accessibility';
-@use 'global/fonts';
 @use 'components/avatar';
 @use 'components/header';
 @use 'components/navigation';
@@ -35,6 +35,8 @@ html {
 
 body {
   color: var(--color-primary-darker-6);
+
+  font-family: fonts.$font-family-serif;
   font-weight: 400;
   font-size: var(--font-size-m);
   word-break: break-word;
@@ -91,7 +93,7 @@ h6 {
 
   color: var(--color-primary-lighter-2);
   font-weight: normal;
-  font-family: var(--font-family-sans-serif);
+  font-family: fonts.$font-family-sans-serif;
   line-height: 1.2;
 
   &:not(h1) {

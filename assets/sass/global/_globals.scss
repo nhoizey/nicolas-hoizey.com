@@ -1,15 +1,13 @@
-@use 'colors';
+@use '../variables/fonts';
 
 :root {
   // Default settings that can be chosen by users
   --default-density: 1;
-  --default-font-size-base: 0.9rem;
   --default-hue: 270; // Rebecca Purple: https://www.economist.com/babbage/2014/06/23/the-colour-purple
 
   // Computed values from default settings and users choices
   --density: var(--user-density, var(--default-density));
   --hue: var(--user-hue, var(--default-hue));
-  --font-size-base: var(--user-font-size-base, var(--default-font-size-base));
 
   --gap: calc(var(--density) * 1rem);
   --gap2: calc(2 * var(--gap));
@@ -17,29 +15,21 @@
 
   --flow-space: calc(var(--density) * 1em);
 
-  --font-family-serif: Georgia, 'Times New Roman', Times, serif;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  --font-family-monospace: 'Courier New', Courier, monospace;
-
-  --font-size-responsive: 0.5vw;
-  --font-size-scale: 1.2;
-
   // https://every-layout.dev/rudiments/modular-scale/
-  --font-size-m: calc(var(--font-size-base) + var(--font-size-responsive));
-  --font-size-m: min(
-    calc(var(--font-size-base) + var(--font-size-responsive)),
+  --font-size-m: calc(#{fonts.$base} + #{fonts.$viewport-sprinkle});
+  --font-size-m: clamp(
+    1rem,
+    #{fonts.$base} + #{fonts.$viewport-sprinkle},
     1.4rem
   );
-  --font-size-s: calc(var(--font-size-m) / var(--font-size-scale));
-  --font-size-xs: calc(var(--font-size-s) / var(--font-size-scale));
-  --font-size-l: calc(var(--font-size-m) * var(--font-size-scale));
-  --font-size-xl: calc(var(--font-size-l) * var(--font-size-scale));
-  --font-size-xxl: calc(var(--font-size-xl) * var(--font-size-scale));
-  --font-size-xxxl: calc(var(--font-size-xxl) * var(--font-size-scale));
-  --font-size-xxxxl: calc(var(--font-size-xxxl) * var(--font-size-scale));
+  --font-size-s: calc(var(--font-size-m) / #{fonts.$scale});
+  --font-size-xs: calc(var(--font-size-s) / #{fonts.$scale});
+  --font-size-l: calc(var(--font-size-m) * #{fonts.$scale});
+  --font-size-xl: calc(var(--font-size-l) * #{fonts.$scale});
+  --font-size-xxl: calc(var(--font-size-xl) * #{fonts.$scale});
+  --font-size-xxxl: calc(var(--font-size-xxl) * #{fonts.$scale});
+  --font-size-xxxxl: calc(var(--font-size-xxxl) * #{fonts.$scale});
 
-  // --layout-max: calc(50 * var(--font-size-m));
   --layout-max: 60rem;
 
   // Color ingredients
@@ -51,6 +41,19 @@
   // Colors
   --color-primary: hsl(var(--hue), var(--sat), var(--lum));
   --color-complementary: hsl(calc(var(--hue) + 180), var(--sat), var(--lum));
+
+  @for $i from 1 through 7 {
+    --color-primary-lighter-#{$i}: hsl(
+      var(--hue),
+      calc(var(--sat) - #{$i} * var(--sat-step)),
+      calc(var(--lum) + #{$i} * var(--lum-step))
+    );
+    --color-primary-darker-#{$i}: hsl(
+      var(--hue),
+      calc(var(--sat) - #{$i} * var(--sat-step)),
+      calc(var(--lum) - #{$i} * var(--lum-step))
+    );
+  }
 
   --color-link: var(--color-primary);
   --color-link-bg: inherit;
@@ -67,17 +70,4 @@
   --color-yellow-light: hsl(59, 100%, 88%);
 
   --border-width: 0.15em;
-
-  @for $i from 1 through 7 {
-    --color-primary-lighter-#{$i}: hsl(
-      var(--hue),
-      calc(var(--sat) - #{$i} * var(--sat-step)),
-      calc(var(--lum) + #{$i} * var(--lum-step))
-    );
-    --color-primary-darker-#{$i}: hsl(
-      var(--hue),
-      calc(var(--sat) - #{$i} * var(--sat-step)),
-      calc(var(--lum) - #{$i} * var(--lum-step))
-    );
-  }
 }

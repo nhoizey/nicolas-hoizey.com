@@ -1,8 +1,10 @@
+@use '../variables/fonts';
+
 .navigation {
   padding: 0 0 var(--gap3);
 
   font-size: var(--font-size-m);
-  font-family: var(--font-family-sans-serif);
+  font-family: fonts.$font-family-sans-serif;
   font-variant: small-caps;
 
   border-top: solid var(--border-width) var(--color-primary-lighter-2);

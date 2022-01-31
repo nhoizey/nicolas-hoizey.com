@@ -1,3 +1,4 @@
+@use '../variables/fonts';
 @use '../variables/colors';
 @use '../global/utilities';
 
@@ -6,7 +7,6 @@
 // ************************************************************
 
 .cards-list {
-
   clear: both;
 
   padding: 0;
@@ -62,7 +62,7 @@ img.card__illustration {
   margin-top: 0;
 
   font-size: var(--font-size-xl);
-  font-family: var(--font-family-sans-serif);
+  font-family: fonts.$font-family-sans-serif;
   letter-spacing: -0.02em;
 
   .card__surtitle + & {

@@ -1,4 +1,11 @@
+@use '../variables/fonts';
 @use '../variables/colors';
+
+pre,
+kbd,
+code {
+  font-family: fonts.$font-family-monospace;
+}
 
 pre {
   margin-right: -0.5em;
@@ -39,7 +46,6 @@ code {
 }
 
 kbd {
-
   color: #444d56;
   white-space: nowrap;
 

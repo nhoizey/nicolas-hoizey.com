@@ -1,7 +1,7 @@
+@use '../variables/fonts';
 @use '../variables/colors';
 
 .meta {
-
   display: flex;
   flex-wrap: wrap;
   // because cards lists are lists in Algolia lists but not elsewhere,
@@ -11,7 +11,7 @@
 
   color: var(--color-meta);
   font-size: var(--font-size-s);
-  font-family: var(--font-family-sans-serif);
+  font-family: fonts.$font-family-sans-serif;
 
   list-style-type: none;
 }

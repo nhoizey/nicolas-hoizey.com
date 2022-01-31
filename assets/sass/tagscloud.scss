@@ -1,3 +1,5 @@
+@use 'variables/fonts';
+
 #tagscloud {
   --min-log: 0; // log(1)
   --max-log: 5; // ~log(150)
@@ -8,7 +10,7 @@
   --min-l: 30;
   --max-l: 60;
 
-  font-family: var(--font-family-sans-serif);
+  font-family: fonts.$font-family-sans-serif;
 
   display: flex;
   flex-wrap: wrap;
