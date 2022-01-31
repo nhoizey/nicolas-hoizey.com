@@ -17,11 +17,11 @@ Si vous voulez vous lancer vous aussi, voici [un bon tutoriel pour Photoshop](ht
 
 # Et les vraies miniatures, dans tout ça ?
 
-Bref, c'est en parcourant Flickr à la recherche des meilleurs exemples de ces manipulations que je suis tombé sur cette photo intitulée *[miniatur wunderland](https://www.flickr.com/photos/wvs/107108594/)* :
+Bref, c'est en parcourant Flickr à la recherche des meilleurs exemples de ces manipulations que je suis tombé sur cette photo intitulée *[miniatur wunderland](https://www.flickr.com/photos/wvs/107108594/)* :
 
 ![](107108594_2a5819.jpg)
 
-Croyant au départ avoir affaire à un nouvel exemple de manipulation, je me suis en fait rendu compte qu'il s'agit tout simplement d'une vraie photo de maquette, qui est du coup plutôt réaliste !
+Croyant au départ avoir affaire à un nouvel exemple de manipulation, je me suis en fait rendu compte qu'il s'agit tout simplement d'une vraie photo de maquette, qui est du coup plutôt réaliste !
 
 J'ai un peu creusé le sujet en cherchant [les photos les plus intéressantes sur ce Miniatur Wunderland](https://www.flickr.com/photos/tags/miniaturwunderland/interesting/) que je venais de découvrir.
 
