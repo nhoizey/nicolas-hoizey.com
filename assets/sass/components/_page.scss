@@ -1,4 +1,4 @@
-@use '../global/colors';
+@use '../variables/colors';
 @use '../global/utilities';
 
 .page {
@@ -41,7 +41,6 @@ img.page__illustration {
 }
 
 .page__body {
-
   margin-top: var(--gap2);
   @extend %flow;
 }
