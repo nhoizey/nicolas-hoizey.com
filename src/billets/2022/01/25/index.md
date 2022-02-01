@@ -13,7 +13,7 @@ J'ai beau essayer de toujours penser à mettre en route ce qu'il me faut pour g�
 
 ![La photo non géolocalisée, dans Lightroom](la-photo-non-geolocalisee-dans-lightroom.jpg "La photo non géolocalisée, dans Lightroom"){.twothirds}
 
-Ou pas ! Merci beaucoup à Google Maps, et surtout Street View et la vue 3D, avec lesquels j'arrive souvent à retrouver un lieu précis de prise de vue, ce qui me permet de mettre à jour la photo dans Lightroom.
+Ou pas ! Merci beaucoup à Google Maps, et surtout [Street View](https://www.google.com/maps/@41.8945964,12.4891817,3a,75y,87.97h,101.3t/data=!3m6!1e1!3m4!1sV4A2fobiE0_GP1oQo5VR5Q!2e0!7i16384!8i8192) et la vue 3D, avec lesquels j'arrive souvent à retrouver un lieu précis de prise de vue, ce qui me permet de mettre à jour la photo dans Lightroom.
 
 ![Street View à l'emplacement exact de ma photo](google-maps-street-view.jpg "Street View à l'emplacement exact de ma photo"){.twothirds}
 
