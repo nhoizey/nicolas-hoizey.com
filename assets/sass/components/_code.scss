@@ -34,14 +34,11 @@ code {
 
   pre & {
     display: block;
-
     padding: 0.3em 0.5em;
-
-    color: colors.$inline-code-text-color;
-
-    background-color: colors.$inline-code-background-color;
-
     overflow-x: scroll;
+
+    background-color: #181c24;
+    color: #abb2bf;
   }
 }
 
@@ -62,7 +59,6 @@ a:focus,
 a:active {
   code {
     color: inherit;
-
     background-color: transparent;
   }
 }
