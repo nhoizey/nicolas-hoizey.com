@@ -28,7 +28,8 @@
     .older-newer__older {
       left: var(--gap2);
 
-      &:hover {
+      &:hover,
+      &:focus {
         transform: rotate(-15deg);
       }
     }
@@ -36,7 +37,8 @@
     .older-newer__newer {
       right: var(--gap2);
 
-      &:hover {
+      &:hover,
+      &:focus {
         transform: rotate(15deg);
       }
     }
@@ -71,7 +73,6 @@
 }
 
 .older-newer {
-
   display: grid;
   grid-template-areas:
     'prev prev'
