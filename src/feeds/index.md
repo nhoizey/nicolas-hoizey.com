@@ -15,6 +15,11 @@ You can follow my publications with different feeds:
 - [les derniers billets en français](/feeds/billets.xml), plusieurs fois par semaine
 - [latest contents from all types](/feeds/all.xml), the most verbose
 
+You can also subscribe to feeds from [my photography site](https://nicolas-hoizey.photo/):
+
+- [latest photos](https://nicolas-hoizey.photo/feeds/photos.xml)
+- [latest blog posts](https://nicolas-hoizey.photo/feeds/blog.xml)
+
 ::: info
 If you wonder what "feeds" are, go read [About Feeds](https://aboutfeeds.com/) to understand how they allow you "to subscribe to websites and get the latest content in one place".
 :::
