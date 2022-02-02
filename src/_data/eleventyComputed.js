@@ -20,10 +20,6 @@ const dtfDigits = new Intl.DateTimeFormat('en-GB', {
   day: '2-digit',
 });
 
-// function attributeDate(date) {
-//   return dtfDigits.format(date).split('/').reverse().join('-');
-// }
-
 function attributeDate(date) {
   const dateObject = new Date(date);
   return dateObject.toISOString().substr(0, 10);
