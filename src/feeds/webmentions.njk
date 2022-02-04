@@ -21,7 +21,7 @@ permalink: /feeds/webmentions.xml
   {% for webmention in webmentions | reverse %}
     <entry>
       <title>👀 {{ webmention['wm-property'] }} {{ webmention['wm-target'] }}</title>
-      <link href="{{ webmention['wm-target'] }}"/>
+      <link href="{{ webmention['wm-target'] }}?utm_medium=feed&utm_source=webmentions"/>
       {% if webmention.published %}
         <updated>{{ webmention.published | formattedDateTime }}</updated>
       {% else %}

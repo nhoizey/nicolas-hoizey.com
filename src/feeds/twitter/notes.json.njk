@@ -12,7 +12,7 @@ permalink: /feeds/twitter/notes.json
     {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
     {
       "id": "{{ absoluteEntryUrl }}",
-      "url": "{{ absoluteEntryUrl }}",
+      "url": "{{ absoluteEntryUrl }}?utm_source=twitter&utm_medium=social",
       "title": "💬 Note from {{ entry.date | formattedDateTime }}",
       "date_published": "{{ entry.date | rssDate }}",
       "content_text": "{{ entry.template.frontMatter.content | noteToTweet(absoluteEntryUrl) | safe }}\n\n{{ absoluteEntryUrl }}",

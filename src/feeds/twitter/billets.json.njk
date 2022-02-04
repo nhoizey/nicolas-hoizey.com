@@ -12,7 +12,7 @@ permalink: /feeds/twitter/billets.json
     {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
     {
       "id": "{{ absoluteEntryUrl }}",
-      "url": "{{ absoluteEntryUrl }}",
+      "url": "{{ absoluteEntryUrl }}?utm_source=twitter&utm_medium=social",
       "title": "📓 {{ entry.data.body.title }}",
       "date_published": "{{ entry.date | rssDate }}",
       "content_text": "📓 {{ entry.data.body.title }}\n\n{{ entry.templateContent | excerpt | truncateHtml(150) | striptags | safe }}\n\n{{ absoluteEntryUrl }}",

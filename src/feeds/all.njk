@@ -27,7 +27,7 @@ permalink: /feeds/all.xml
     {% endset %}
     <entry>
       <title>{{ icon }} {{ entry.data.body.title }}</title>
-      <link href="{{ absoluteEntryUrl }}" />
+      <link href="{{ absoluteEntryUrl }}?utm_source=feed_all&utm_medium=feed" />
       <updated>{{ entry.date | rssDate }}</updated>
       <id>{{ absoluteEntryUrl }}</id>
       <content type="html">

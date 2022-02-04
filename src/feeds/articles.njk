@@ -20,7 +20,7 @@ permalink: /feeds/articles.xml
     {% set absoluteEntryUrl %}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{% endset %}
     <entry>
       <title>{{ entry.data.title }}</title>
-      <link href="{{ absoluteEntryUrl }}"/>
+      <link href="{{ absoluteEntryUrl }}?utm_source=feed_articles&utm_medium=feed"/>
       <updated>{{ entry.date | rssDate }}</updated>
       <id>{{ absoluteEntryUrl }}</id>
       <content type="html">{{ entry.templateContent | cleanDeepLinks | htmlToAbsoluteUrls(absoluteEntryUrl) }}</content>
