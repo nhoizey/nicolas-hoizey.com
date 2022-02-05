@@ -29,8 +29,8 @@ jobs:
         with:
           token: ${{ secrets.PAT }}
           commit-message: Update Webmentions
-          labels: |
-            'automerge 🤞'
+          title: Update Webmentions
+          labels: automerge 🤞
 
       # - name: Commit new Webmentions
       #   uses: stefanzweifel/git-auto-commit-action@v4
