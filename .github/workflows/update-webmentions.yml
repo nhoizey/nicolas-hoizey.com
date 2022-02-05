@@ -1,0 +1,47 @@
+name: Check Webmentions
+on:
+  schedule:
+    # Runs every hour every day
+    - cron: '0 * * * *'
+jobs:
+  webmentions:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the project
+        uses: actions/checkout@v2
+
+      - name: Select Node.js version
+        uses: actions/setup-node@v1
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run webmention script
+        env:
+          WEBMENTION_IO_TOKEN: ${{ secrets.WEBMENTION_IO_TOKEN }}
+        run: npm run webmention
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.PAT }}
+          add-paths: |
+            _cache/webmentions.json
+          commit-message: [Bot] Update Webmentions
+          committer: GitHub <noreply@github.com>
+          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+          labels: |
+            automerge 🤞
+
+
+      # - name: Commit new Webmentions
+      #   uses: stefanzweifel/git-auto-commit-action@v4
+      #   with:
+      #     file_pattern: _cache/webmentions.json
+      #     commit_message: '[Bot] Update Webmentions'
+      #     commit_user_name: Nicolas Hoizey
+      #     commit_user_email: nicolas@hoizey.com
+      #     commit_author: Nicolas Hoizey <nicolas@hoizey.com>
