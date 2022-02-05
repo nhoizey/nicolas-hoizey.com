@@ -19,6 +19,8 @@ jobs:
         run: npm ci
 
       - name: Run build
+        env:
+          WEBMENTION_IO_TOKEN: ${{ secrets.WEBMENTION_IO_TOKEN }}
         run: npm run webmention
 
       - name: Commit new Webmentions
