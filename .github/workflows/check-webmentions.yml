@@ -8,7 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout the project
+        uses: actions/checkout@v2
 
       - name: Select Node.js version
         uses: actions/setup-node@v1
@@ -18,7 +19,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run build
+      - name: Run webmention script
         env:
           WEBMENTION_IO_TOKEN: ${{ secrets.WEBMENTION_IO_TOKEN }}
         run: npm run webmention
