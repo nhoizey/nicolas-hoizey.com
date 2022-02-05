@@ -28,14 +28,9 @@ jobs:
         uses: peter-evans/create-pull-request@v3
         with:
           token: ${{ secrets.PAT }}
-          add-paths: |
-            _cache/webmentions.json
-          commit-message: [Bot] Update Webmentions
-          committer: GitHub <noreply@github.com>
-          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+          commit-message: Update Webmentions
           labels: |
-            automerge 🤞
-
+            'automerge 🤞'
 
       # - name: Commit new Webmentions
       #   uses: stefanzweifel/git-auto-commit-action@v4
