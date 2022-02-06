@@ -20,7 +20,7 @@ permalink: /feeds/notes.xml
     {% set absoluteEntryUrl %}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{% endset %}
     <entry>
       <title>Note from {{ entry.date | formattedDateTime }}</title>
-      <link href="{{ absoluteEntryUrl }}?utm_source=feed_notes&amp;utm_medium=feed"/>
+      <link href="{{ absoluteEntryUrl }}"/>
       <updated>{{ entry.date | rssDate }}</updated>
       <id>{{ absoluteEntryUrl }}</id>
       <content type="html">{{ entry.templateContent | cleanDeepLinks | htmlToAbsoluteUrls(absoluteEntryUrl) }}</content>

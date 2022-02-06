@@ -20,7 +20,7 @@ permalink: /feeds/billets.xml
     {% set absoluteEntryUrl %}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{% endset %}
     <entry>
       <title>{{ entry.data.body.title }}</title>
-      <link href="{{ absoluteEntryUrl }}?utm_source=feed_billets&amp;utm_medium=feed"/>
+      <link href="{{ absoluteEntryUrl }}"/>
       <updated>{{ entry.date | rssDate }}</updated>
       <id>{{ absoluteEntryUrl }}</id>
       <content type="html">
