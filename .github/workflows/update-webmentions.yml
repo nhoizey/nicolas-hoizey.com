@@ -1,8 +1,9 @@
 name: Check Webmentions
 on:
   schedule:
-    # Runs every hour every day
-    - cron: '0 * * * *'
+    # Runs every day at 6:00 and 18:00
+    # https://crontab.guru/#0_6,18_*_*_*
+    - cron: '0 8,20 * * *'
 jobs:
   webmentions:
     runs-on: ubuntu-latest
