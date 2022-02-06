@@ -12,10 +12,10 @@ permalink: /feeds/twitter/links.json
     {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
     {
       "id": "{{ absoluteEntryUrl }}",
-      "title": "🔗 “{{ entry.data.title | safe }}”",
       "url": "{{ absoluteEntryUrl }}",
+      "title": "🔗 {{ entry.data.title | safe }}",
       "date_published": "{{ entry.date | rssDate }}",
-      "content_text": "🔗 “{{ entry.data.title | safe }}”\n{% set by = false -%}
+      "content_text": "🔗 {{ entry.data.title | safe }}\n{% set by = false -%}
 {%- if entry.data.authors -%}
 {%- for author in entry.data.authors -%}
 {%- if author.twitter -%}{%- if by == false -%}by{%- set by = true -%}{%- endif %} @{{ author.twitter }}{% endif -%}
