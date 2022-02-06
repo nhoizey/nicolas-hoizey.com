@@ -12,7 +12,7 @@ permalink: /feeds/twitter/links.json
     {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
     {
       "id": "{{ absoluteEntryUrl }}",
-      "url": "{{ absoluteEntryUrl }}?utm_source=twitter&utm_medium=social",
+      "url": "{{ absoluteEntryUrl }}?utm_source=twitter&amp;utm_medium=social",
       "title": "🔗 “{{ entry.data.title | safe }}”",
       "date_published": "{{ entry.date | rssDate }}",
       "content_text": "🔗 “{{ entry.data.title | safe }}”\n{% set by = false -%}
