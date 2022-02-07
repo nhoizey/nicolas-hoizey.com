@@ -32,12 +32,3 @@ jobs:
           commit-message: Update Webmentions
           title: Update Webmentions
           labels: automerge 🤞
-
-      # - name: Commit new Webmentions
-      #   uses: stefanzweifel/git-auto-commit-action@v4
-      #   with:
-      #     file_pattern: _cache/webmentions.json
-      #     commit_message: '[Bot] Update Webmentions'
-      #     commit_user_name: Nicolas Hoizey
-      #     commit_user_email: nicolas@hoizey.com
-      #     commit_author: Nicolas Hoizey <nicolas@hoizey.com>
