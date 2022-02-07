@@ -1,7 +1,7 @@
 const twitter = require('twitter-text');
 const config = require('../../pack11ty.config.js');
 
-const dtf = {
+const dateFormat = {
   en: new Intl.DateTimeFormat('en-GB', {
     year: 'numeric',
     month: 'long',
@@ -14,7 +14,7 @@ const dtf = {
   }),
 };
 
-const dtfDigits = new Intl.DateTimeFormat('en-GB', {
+const dateFormatDigits = new Intl.DateTimeFormat('en-GB', {
   year: 'numeric',
   month: '2-digit',
   day: '2-digit',
@@ -26,7 +26,9 @@ function attributeDate(date) {
 }
 
 function formattedDate(lang, date) {
-  return dtf[lang || 'en'].format(date);
+  const isoDate = new Date(date);
+  return dateFormat[lang || 'en'].format(isoDate);
+  // return dtf[lang || 'en'].format(date);
 }
 
 function removeEmojis(content) {
