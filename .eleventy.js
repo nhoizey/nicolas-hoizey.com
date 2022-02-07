@@ -299,7 +299,6 @@ module.exports = function (eleventyConfig) {
     .addPassthroughCopy(path.join(config.dir.src, 'assets'))
     .addPassthroughCopy(path.join(config.dir.src, '.well-known'))
     .addPassthroughCopy(path.join(config.dir.src, '.htaccess'))
-    .addPassthroughCopy(path.join(config.dir.src, '_headers'))
     .addPassthroughCopy(path.join(config.dir.src, 'tools/bookmarklet.html'))
     .addPassthroughCopy(path.join(config.dir.src, 'opensearch.xml'))
     .addPassthroughCopy(path.join(config.dir.src, 'manifest.webmanifest'));
