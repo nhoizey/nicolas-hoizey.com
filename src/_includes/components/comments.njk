@@ -27,7 +27,7 @@
         <li class="meta__item meta__date">
           {% icon "date", "Date" %}
           <a href="#{{ comment.id }}">
-            <time class="dt-published" datetime="{{ comment.date | attributeDate }}">{{ comment.date | formattedDateTime }}</time>
+            <time class="dt-published" datetime="{{ comment.date | isoDate }}">{{ comment.date | formattedDateTime }}</time>
           </a>
         </li>
       </ul>

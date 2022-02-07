@@ -27,7 +27,7 @@ const monthString = (month, lang = 'en') => {
 const dayMonth = (date, lang = 'en') =>
   DateTime.fromJSDate(date).setLocale(lang).toFormat('LLLL y');
 
-const attributeDate = (date) => DateTime.fromJSDate(date).toFormat('y-LL-dd');
+const isoDate = (date) => DateTime.fromJSDate(date).toISO();
 
 const year = (date) => DateTime.fromJSDate(date).toFormat('y');
 const month = (date) => DateTime.fromJSDate(date).toFormat('LL');
@@ -38,7 +38,7 @@ const timestamp = (date) => new Date(date).getTime() / 1000;
 module.exports = {
   formattedDate,
   formattedDateTime,
-  attributeDate,
+  isoDate,
   monthString,
   dayMonth,
   year,

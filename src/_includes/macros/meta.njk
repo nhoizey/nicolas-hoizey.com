@@ -3,7 +3,7 @@
     {% if item.date %}
       <li class="date meta__item meta__date">
         {% icon "date", "Date" %}
-        <time class="dt-published" datetime="{{ item.data.attributeDate }}">
+        <time class="dt-published" datetime="{{ item.date | isoDate }}">
           {{ item.data.formattedDate }}
         </time>
       </li>

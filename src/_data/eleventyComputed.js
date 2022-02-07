@@ -1,6 +1,6 @@
 const twitter = require('twitter-text');
 const config = require('../../pack11ty.config.js');
-const { formattedDate, attributeDate } = require('../_utils/dates');
+const { formattedDate, isoDate } = require('../_utils/dates');
 
 function removeEmojis(content) {
   // https://thekevinscott.com/emojis-in-javascript/
@@ -190,7 +190,7 @@ module.exports = {
   lang: (data) => data.lang || config.defaultLang || 'en',
   date: (data) => data.date || new Date(),
   formattedDate: (data) => formattedDate(data.page.date, data.lang),
-  attributeDate: (data) => attributeDate(data.page.date),
+  isoDate: (data) => isoDate(data.page.date),
   authors: {
     text: (data) => textAuthors(data),
     html: (data) => htmlAuthors(data),
