@@ -27,7 +27,7 @@
     "serviceworker:inject": "workbox injectManifest workbox.config.js",
     "start": "cross-env NODE_ENV=development npm-run-all --sequential clean build:js --parallel watch:*",
     "start:debug": "DEBUG=Eleventy* npm start",
-    "build": "cross-env NODE_ENV=production npm-run-all --sequential clean --parallel build:js build:sass ga matomo --sequential build:eleventy --parallel serviceworker:inject atomic-algolia",
+    "build": "cross-env NODE_ENV=production npm-run-all --sequential clean --parallel build:js build:sass ga matomo --sequential build:eleventy --parallel serviceworker:inject algolia",
     "build:debug": "DEBUG=Eleventy* npm run build",
     "build:benchmark": "DEBUG=Eleventy:Benchmark* npm run build",
     "notist": "node ./_scripts/update-notist.js",
@@ -38,7 +38,8 @@
     "matomo": "node ./_scripts/update-matomo.js",
     "lint:sass": "stylelint 'assets/**/*.scss'",
     "fix:sass": "stylelint --fix 'assets/**/*.scss'",
-    "bookmarklet": "bookmarklet --demo assets/js/bookmarklet.js src/tools/bookmarklet.html"
+    "bookmarklet": "bookmarklet --demo assets/js/bookmarklet.js src/tools/bookmarklet.html",
+    "algolia": "atomic-algolia"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
