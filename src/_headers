@@ -1,23 +1,38 @@
 /*
-  X-Frame-Options: SAMEORIGIN
-  X-XSS-Protection: 1; mode=block
+  X-XSS-Protection: 1;mode=block
   X-Content-Type-Options: nosniff
   Referrer-Policy: no-referrer-when-downgrade
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
-  Feature-Policy: accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'
-  Accept-CH: Downlink,RTT,Device-Memory,Save-Data,DPR,Width
-  Report-To: {"group":"default","max_age":31536000,"endpoints":[{"url":"https://nhocom.report-uri.com/a/d/g"}],"include_subdomains":true}
-  NEL: {"report_to":"default","max_age":31536000,"include_subdomains":true,"failure_fraction":0.5}
   X-Clacks-Overhead: GNU Terry Pratchett
-/*.html
-  Content-Security-Policy: upgrade-insecure-requests; base-uri 'self'; img-src 'self' data: res.cloudinary.com i.ytimg.com image.thum.io; script-src 'self' data: 'unsafe-inline' 'unsafe-eval' speakerdeck.com storage.googleapis.com www.google-analytics.com platform.twitter.com syndication.twitter.com cdn.syndication.twimg.com cdn.jsdelivr.net assets.codepen.io production-assets.codepen.io ifttt.com; object-src 'self' vimeo.com; connect-src 'self' res.cloudinary.com *.algolia.net *.algolianet.com *.google-analytics.com stats.g.doubleclick.net; report-uri https://nhocom.report-uri.com/r/d/csp/enforce
-  Cache-Control: public, no-cache, no-store, max-age=0, must-revalidate
-  Link: <https://res.cloudinary.com>; rel=preconnect; crossorigin, <https://www.google-analytics.com>; rel=preconnect; crossorigin
-/*/
-  Content-Security-Policy: upgrade-insecure-requests; base-uri 'self'; img-src 'self' data: res.cloudinary.com i.ytimg.com image.thum.io; script-src 'self' data: 'unsafe-inline' 'unsafe-eval' speakerdeck.com storage.googleapis.com www.google-analytics.com platform.twitter.com syndication.twitter.com cdn.syndication.twimg.com cdn.jsdelivr.net assets.codepen.io production-assets.codepen.io ifttt.com; object-src 'self' vimeo.com; connect-src 'self' res.cloudinary.com *.algolia.net *.algolianet.com *.google-analytics.com stats.g.doubleclick.net; report-uri https://nhocom.report-uri.com/r/d/csp/enforce
-  Cache-Control: public, no-cache, no-store, max-age=0, must-revalidate
-  Link: <https://res.cloudinary.com>; rel=preconnect; crossorigin, <https://www.google-analytics.com>; rel=preconnect; crossorigin
-/*.css
-  Cache-Control: public, max-age=31536000,immutable
+
 /*.js
-  Cache-Control: public, max-age=31536000,immutable
+  Content-Type: application/javascript; charset=utf-8
+  Cache-Control: public, max-age=604800, immutable
+
+/*.css
+  Content-Type: text/css; charset=utf-8
+  Cache-Control: public, max-age=604800, immutable
+
+/*.svg
+  Content-Type: image/svg+xml; charset=utf-8
+  Vary: Accept-Encoding
+  Cache-Control: public, max-age=604800, immutable
+
+/
+  Cache-Control: public, max-age=14405
+  Link: <https://res.cloudinary.com>;rel="dns-prefetch"
+  Link: <https://res.cloudinary.com>;rel="preconnect"
+  Content-Security-Policy: upgrade-insecure-requests; base-uri 'self'; img-src 'self' data: data.nicolas-hoizey.com res.cloudinary.com i.ytimg.com image.thum.io caniuse.bitsofco.de; script-src 'self' data: 'unsafe-inline' 'unsafe-eval' data.nicolas-hoizey.com speakerdeck.com storage.googleapis.com www.google-analytics.com platform.twitter.com syndication.twitter.com cdn.syndication.twimg.com cdn.jsdelivr.net assets.codepen.io static.codepen.io cpwebassets.codepen.io production-assets.codepen.io ifttt.com; object-src 'self' vimeo.com; connect-src 'self' data.nicolas-hoizey.com res.cloudinary.com *.algolia.net *.algolianet.com *.google-analytics.com stats.g.doubleclick.net; report-uri https://nhocom.report-uri.com/r/d/csp/enforce
+  Feature-Policy: accelerometer 'none';camera 'none';geolocation 'none';gyroscope 'none';magnetometer 'none';microphone 'none';payment 'none';usb 'none';ch-dpr 'self' https://res.cloudinary.com;ch-width 'self' https://res.cloudinary.com
+  Permissions-Policy: accelerometer=(),camera=(),geolocation=(),gyroscope=(),magnetometer=(),microphone=(),payment=(),usb=(),ch-width=(self "https://res.cloudinary.com"),ch-dpr=(self "https://res.cloudinary.com")
+  Accept-CH: Downlink,RTT,Device-Memory,Save-Data,DPR,Width
+
+/*/
+  Cache-Control: public, max-age=14406
+  Link: <https://res.cloudinary.com>;rel="dns-prefetch"
+  Link: <https://res.cloudinary.com>;rel="preconnect"
+  Content-Security-Policy: upgrade-insecure-requests; base-uri 'self'; img-src 'self' data: data.nicolas-hoizey.com res.cloudinary.com i.ytimg.com image.thum.io caniuse.bitsofco.de; script-src 'self' data: 'unsafe-inline' 'unsafe-eval' data.nicolas-hoizey.com speakerdeck.com storage.googleapis.com www.google-analytics.com platform.twitter.com syndication.twitter.com cdn.syndication.twimg.com cdn.jsdelivr.net assets.codepen.io static.codepen.io cpwebassets.codepen.io production-assets.codepen.io ifttt.com; object-src 'self' vimeo.com; connect-src 'self' data.nicolas-hoizey.com res.cloudinary.com *.algolia.net *.algolianet.com *.google-analytics.com stats.g.doubleclick.net; report-uri https://nhocom.report-uri.com/r/d/csp/enforce
+  Feature-Policy: accelerometer 'none';camera 'none';geolocation 'none';gyroscope 'none';magnetometer 'none';microphone 'none';payment 'none';usb 'none';ch-dpr 'self' https://res.cloudinary.com;ch-width 'self' https://res.cloudinary.com
+  Permissions-Policy: accelerometer=(),camera=(),geolocation=(),gyroscope=(),magnetometer=(),microphone=(),payment=(),usb=(),ch-width=(self "https://res.cloudinary.com"),ch-dpr=(self "https://res.cloudinary.com")
+  Origin-Trial: An/QZmBh2+kGG0v/E+L7X5JZ1K8WW+IbzKGTJSa0fCKkkl6tqqH5Jjfh/+aG7YpANvKA6xcSqFC9a2SpUNG3IAkAAABeeyJvcmlnaW4iOiJodHRwczovL25pY29sYXMtaG9pemV5LnBob3RvOjQ0MyIsImZlYXR1cmUiOiJQcmlvcml0eUhpbnRzQVBJIiwiZXhwaXJ5IjoxNjQ3OTkzNTk5fQ==
+  Accept-CH: Downlink,RTT,Device-Memory,Save-Data,DPR,Width
