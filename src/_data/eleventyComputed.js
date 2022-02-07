@@ -20,6 +20,7 @@ const dateFormatDigits = new Intl.DateTimeFormat('en-GB', {
   day: '2-digit',
 });
 
+// TODO: share dates functions with filters
 function attributeDate(date) {
   const dateObject = new Date(date);
   return dateObject.toISOString().substr(0, 10);
