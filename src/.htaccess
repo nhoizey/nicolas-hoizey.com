@@ -239,19 +239,6 @@ AddDefaultCharset utf-8
 RewriteCond %{HTTP_HOST} ^www\. [NC]
 RewriteRule ^(.*) https://nicolas-hoizey.com/$1 [QSA,R=301,L]
 
-# Redirect from .fr to .com
-RewriteCond %{HTTP_HOST} \.fr$ [NC]
-RewriteRule ^(.*) https://nicolas-hoizey.com/$1 [QSA,R=301,L]
-
-# Redirect from domain without dash
-RewriteCond %{HTTP_HOST} nicolashoizey\.com$ [NC]
-RewriteRule ^(.*) https://nicolas-hoizey.com/$1 [QSA,R=301,L]
-
-# Don't redirect Let's Encrypt ACME Challenge
-# https://github.com/oncletom/letsencrypt-alwaysdata#http-redirects
-RewriteCond %{REQUEST_URI} ^/.well-known/acme-challenge [NC]
-RewriteRule .* - [L]
-
 # Redirect from http to https
 # RewriteCond specific to AlwaysData proxy
 # https://help.alwaysdata.com/en/security/certificates/redirect-http-to-https/
