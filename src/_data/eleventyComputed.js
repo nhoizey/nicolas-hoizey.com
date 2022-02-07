@@ -1,29 +1,6 @@
 const twitter = require('twitter-text');
 const config = require('../../pack11ty.config.js');
-
-const dateFormat = {
-  en: new Intl.DateTimeFormat('en-GB', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-  }),
-  fr: new Intl.DateTimeFormat('fr-FR', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-  }),
-};
-
-// TODO: share dates functions with filters
-function attributeDate(date) {
-  const dateObject = new Date(date);
-  return dateObject.toISOString().slice(0, 10);
-}
-
-function formattedDate(lang, date) {
-  const isoDate = new Date(date);
-  return dateFormat[lang || 'en'].format(isoDate);
-}
+const { formattedDate, attributeDate } = require('../_utils/dates');
 
 function removeEmojis(content) {
   // https://thekevinscott.com/emojis-in-javascript/
@@ -80,10 +57,10 @@ function htmlAuthors(data) {
 
 function bodyTitle(data) {
   if (data.layout === 'note') {
-    return `Note from ${formattedDate(data.lang, data.page.date)}`;
+    return `Note from ${formattedDate(data.page.date, data.lang)}`;
   }
   if (data.layout === 'billet') {
-    return `Billet du ${formattedDate(data.lang, data.page.date)}`;
+    return `Billet du ${formattedDate(data.page.date, data.lang)}`;
   }
   if (data.title && data.title !== '') {
     return data.title;
@@ -212,7 +189,7 @@ function ogImageTagline(data) {
 module.exports = {
   lang: (data) => data.lang || config.defaultLang || 'en',
   date: (data) => data.date || new Date(),
-  formattedDate: (data) => formattedDate(data.lang, data.page.date),
+  formattedDate: (data) => formattedDate(data.page.date, data.lang),
   attributeDate: (data) => attributeDate(data.page.date),
   authors: {
     text: (data) => textAuthors(data),
