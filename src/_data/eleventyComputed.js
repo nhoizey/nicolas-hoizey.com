@@ -17,7 +17,7 @@ const dateFormat = {
 // TODO: share dates functions with filters
 function attributeDate(date) {
   const dateObject = new Date(date);
-  return dateObject.toISOString().substr(0, 10);
+  return dateObject.toISOString().slice(0, 10);
 }
 
 function formattedDate(lang, date) {
