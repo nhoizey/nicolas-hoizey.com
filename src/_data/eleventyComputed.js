@@ -14,12 +14,6 @@ const dateFormat = {
   }),
 };
 
-const dateFormatDigits = new Intl.DateTimeFormat('en-GB', {
-  year: 'numeric',
-  month: '2-digit',
-  day: '2-digit',
-});
-
 // TODO: share dates functions with filters
 function attributeDate(date) {
   const dateObject = new Date(date);
@@ -29,7 +23,6 @@ function attributeDate(date) {
 function formattedDate(lang, date) {
   const isoDate = new Date(date);
   return dateFormat[lang || 'en'].format(isoDate);
-  // return dtf[lang || 'en'].format(date);
 }
 
 function removeEmojis(content) {
