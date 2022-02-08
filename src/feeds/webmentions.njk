@@ -23,9 +23,9 @@ permalink: /feeds/webmentions.xml
       <title>👀 {{ webmention['wm-property'] }} {{ webmention['wm-target'] }}</title>
       <link href="{{ webmention['wm-target'] }}"/>
       {% if webmention.published %}
-        <updated>{{ webmention.published | formattedDateTime }}</updated>
+        <updated>{{ webmention.published | formattedDateTimeFromIso }}</updated>
       {% else %}
-        <updated>{{ webmention['wm-received'] | formattedDateTime }}</updated>
+        <updated>{{ webmention['wm-received'] | formattedDateTimeFromIso }}</updated>
       {% endif %}
       <id>{{ webmention['wm-target'] }}</id>
       <content type="html">

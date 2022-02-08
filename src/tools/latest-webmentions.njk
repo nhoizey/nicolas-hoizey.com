@@ -22,9 +22,9 @@ title: Latest Webmentions
         <td style="white-space: nowrap">{{ webmention['wm-id'] }}</td>
         <td style="white-space: nowrap">
           {% if webmention.published %}
-            {{ webmention.published | formattedDateTime }}
+            {{ webmention.published | formattedDateTimeFromIso }}
           {% else %}
-            {{ webmention['wm-received'] | formattedDateTime }}
+            {{ webmention['wm-received'] | formattedDateTimeFromIso }}
           {% endif %}
         </td>
         <td style="white-space: nowrap">{{ webmention['wm-property'] }}</td>

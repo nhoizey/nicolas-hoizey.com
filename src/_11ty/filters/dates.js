@@ -1,6 +1,7 @@
 const {
   formattedDate,
   formattedDateTime,
+  formattedDateTimeFromIso,
   isoDate,
   monthString,
   dayMonth,
@@ -13,6 +14,8 @@ const {
 module.exports = {
   formattedDate: (date, lang = 'en') => formattedDate(date, lang),
   formattedDateTime: (date, lang = 'en') => formattedDateTime(date, lang),
+  formattedDateTimeFromIso: (date, lang = 'en') =>
+    formattedDateTimeFromIso(date, lang),
   monthString: (month, lang = 'en') => monthString(month, lang),
   dayMonth: (date, lang = 'en') => dayMonth(date, lang),
   isoDate: (date) => isoDate(date),

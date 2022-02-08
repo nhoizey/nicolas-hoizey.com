@@ -73,7 +73,7 @@
             <li class="meta__item meta__date">
               {% icon "date", "Date" %}
               <a href="#webmention-{{ webmention['wm-id'] }}">
-                <time class="dt-published" datetime="{{ webmentionDate }}">{{ webmentionDate | formattedDateTime }}</time>
+                <time class="dt-published" datetime="{{ webmentionDate }}">{{ webmentionDate | formattedDateTimeFromIso }}</time>
               </a>
             </li>
           {% endif %}
