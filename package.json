@@ -28,6 +28,7 @@
     "start": "cross-env NODE_ENV=development npm-run-all --sequential clean build:js --parallel watch:*",
     "start:debug": "DEBUG=Eleventy* npm start",
     "build": "cross-env NODE_ENV=production npm-run-all --sequential clean --parallel build:js build:sass ga matomo --sequential build:eleventy --parallel serviceworker:inject algolia",
+    "ci-check": "cross-env NODE_ENV=production npm-run-all --sequential clean --parallel build:js build:sass --sequential build:eleventy --parallel serviceworker:inject",
     "build:debug": "DEBUG=Eleventy* npm run build",
     "build:benchmark": "DEBUG=Eleventy:Benchmark* npm run build",
     "notist": "node ./_scripts/update-notist.js",
