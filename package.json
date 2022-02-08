@@ -76,6 +76,7 @@
     "fast-glob": "^3.2.7",
     "fast-memoize": "^2.5.2",
     "feather-icons": "^4.28.0",
+    "git-branch-is": "^4.0.0",
     "html-minifier": "^4.0.0",
     "image-size": "^1.0.0",
     "lodash": "^4.17.21",
