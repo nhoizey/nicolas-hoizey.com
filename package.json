@@ -40,7 +40,9 @@
     "lint:sass": "stylelint 'assets/**/*.scss'",
     "fix:sass": "stylelint --fix 'assets/**/*.scss'",
     "bookmarklet": "bookmarklet --demo assets/js/bookmarklet.js src/tools/bookmarklet.html",
-    "algolia": "atomic-algolia"
+    "algolia": "atomic-algolia",
+    "build-only-main": "branch=$(git rev-parse --symbolic-full-name --abbrev-ref HEAD); if [[ $branch == \"main\" ]]; then npm run build; fi;"
+},
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
