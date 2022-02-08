@@ -41,7 +41,7 @@
     "fix:sass": "stylelint --fix 'assets/**/*.scss'",
     "bookmarklet": "bookmarklet --demo assets/js/bookmarklet.js src/tools/bookmarklet.html",
     "algolia": "atomic-algolia",
-    "build-only-main": "git-branch-is -q main && npm run build"
+    "build-only-main": "git-branch-is -v main && npm run build"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
