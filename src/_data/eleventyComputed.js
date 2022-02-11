@@ -1,6 +1,6 @@
 const twitter = require('twitter-text');
 const config = require('../../pack11ty.config.js');
-const { formattedDate, isoDate } = require('../_utils/dates');
+const { formattedDate, isoDate, isInEmbargo } = require('../_utils/dates');
 
 function removeEmojis(content) {
   // https://thekevinscott.com/emojis-in-javascript/
@@ -9,6 +9,13 @@ function removeEmojis(content) {
     ''
   );
 }
+
+const isProduction = () => process.env.NODE_ENV === 'production';
+const isDraft = (data) => data.page.filePathStem.startsWith('/drafts/');
+const hasBilletToWait = (data) =>
+  data.layout === 'billet' && isInEmbargo(data.date);
+const isHidden = (data) =>
+  isProduction() && (isDraft(data) || hasBilletToWait(data));
 
 function textAuthors(data) {
   let text = '';
@@ -211,17 +218,9 @@ module.exports = {
     },
   },
   // tags: (data) => tags(data),
-  permalink: (data) =>
-    data.page.filePathStem.startsWith('/drafts/') &&
-    process.env.NODE_ENV === 'production'
-      ? false
-      : data.permalink,
+  permalink: (data) => (isHidden(data) ? false : data.permalink),
   eleventyExcludeFromCollections: (data) => {
-    return (
-      data.eleventyExcludeFromCollections === true ||
-      (data.page.filePathStem.startsWith('/drafts/') &&
-        process.env.NODE_ENV === 'production')
-    );
+    return data.eleventyExcludeFromCollections === true || isHidden(data);
   },
   githubEditUrl: (data) => {
     if (['article', 'link', 'note', 'billet'].includes(data.layout)) {

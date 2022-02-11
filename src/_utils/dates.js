@@ -36,6 +36,15 @@ const day = (date) => jsToDateTime(date).toFormat('dd');
 
 const timestamp = (date) => new Date(date).getTime() / 1000;
 
+const isInEmbargo = (date) => {
+  const today = DateTime.now()
+    .setZone('Europe/Paris')
+    .startOf('day')
+    .toMillis();
+  const contentDay = jsToDateTime(date).startOf('day').toMillis();
+  return today === contentDay && DateTime.now().hour < 22; // 10pm
+};
+
 module.exports = {
   isoToDateTime,
   jsToDateTime,
@@ -49,4 +58,5 @@ module.exports = {
   month,
   day,
   timestamp,
+  isInEmbargo,
 };
