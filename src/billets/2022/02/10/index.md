@@ -9,7 +9,7 @@ En tout cas, cela me fait rudement plaisir de voir arriver d'autres blogueurs da
 
 Malheureusement, c'est aussi l'occasion de constater, une fois de plus, que [tout cela](https://indieweb.org/) est très séduisant « sur le papier », mais bien trop compliqué encore à mettre en place, même pour des personnes avec des connaissances techniques.
 
-J'en parlais déjà parlé dans [ma conférence sur IndieWeb et plus particulièrement POSSE, à Paris Web en 2019]({% link_to "ne-vous-laissez-plus-deposseder-de-vos-contenus" %}")[^covid], qui n'offrait malheureusement pas assez de pistes concrètes pour aider les nouveaux arrivants sur le sujet.
+J'en parlais déjà parlé dans [ma conférence sur IndieWeb et plus particulièrement POSSE, à Paris Web en 2019]({% link_to "ne-vous-laissez-plus-deposseder-de-vos-contenus" %})[^covid], qui n'offrait malheureusement pas assez de pistes concrètes pour aider les nouveaux arrivants sur le sujet.
 
 [^covid]: Vous savez, juste avant le truc qui nous gonfle, là, et qui malheureusement continue à beaucoup trop tuer dans l'indifférence presque générale.
 
