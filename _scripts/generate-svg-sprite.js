@@ -23,6 +23,7 @@ const ICONS_LIST = {
     search: { title: 'Search' },
     tag: { name: 'tags', title: 'Tag' },
     twitter: { title: 'Twitter' },
+    user: { name: 'author', title: 'Author' },
     wifi: { name: 'online', title: 'Online' },
     'wifi-off': { name: 'offline', title: 'Offline' },
   },
