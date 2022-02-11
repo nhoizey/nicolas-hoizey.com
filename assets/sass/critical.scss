@@ -544,6 +544,10 @@ article {
   }
 }
 
+.eleventy-plugin-youtube-embed {
+  margin: var(--gap) 0;
+}
+
 // File link icons
 a[href$='.zip'],
 a[href$='.kml'] {
