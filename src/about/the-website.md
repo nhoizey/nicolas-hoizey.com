@@ -49,7 +49,7 @@ The external resources, potential sources of trouble, are mainly :
 
 - the *players* of videos, including Youtube, Vimeo or Dailymotion
 - the *widgets* of certain services, including Ulule, Speakerdeck or Slideshare
-- Google Analytics, to find out what's going on on the site.
+- Matomo, to find out what's going on on the site.
 
 # Comments
 
