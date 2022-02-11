@@ -4,7 +4,7 @@
       <li class="date meta__item meta__date">
         {% icon "date", "Date" %}
         <time class="dt-published" datetime="{{ item.date | isoDate }}">
-          {{ item.data.formattedDate }}
+          {{ item.date | formattedDate }}
         </time>
       </li>
     {% endif %}
