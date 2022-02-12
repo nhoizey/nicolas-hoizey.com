@@ -13,7 +13,7 @@ Franck a découvert [un bug dans l'implémentation des Webmentions sur Dotclear]
 
 [^cnil]: Il était temps, [la CNIL commence enfin à taper un peu plus fort](https://www.cnil.fr/fr/utilisation-de-google-analytics-et-transferts-de-donnees-vers-les-etats-unis-la-cnil-met-en-demeure).
 
-Il me reste juste à remettre en place les dimensions personnalisées pour les statistiques sur les *viewports* et densités d'écran des visiteurs, que j'utilise pour définir au mieux les dimensions d'images responsives pertinentes, comme je l'expliquais dans [ma conférence en 2028 à We ❤️ Speed]({% link_to "optimiser-la-performance-par-un-choix-optimal-des-dimensions-des-images-responsives" %}).
+Il me reste juste à remettre en place les dimensions personnalisées pour les statistiques sur les *viewports* et densités d'écran des visiteurs, que j'utilise pour définir au mieux les dimensions d'images responsives pertinentes, comme je l'expliquais dans [ma conférence en 2018 à We ❤️ Speed]({% link_to "optimiser-la-performance-par-un-choix-optimal-des-dimensions-des-images-responsives" %}).
 
 ---
 
