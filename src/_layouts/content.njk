@@ -89,7 +89,7 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
     {% endif %}
     {% if layout == 'billet' and photo %}
       <div class="encart_photo_du_jour">
-        <p>Une photo prise un {{ date | dayMonth }} :</p>
+        <p>Une photo prise un {{ date | dayMonth('fr') }} :</p>
         <figure>
           <img
             src="{{ photo.src }}"

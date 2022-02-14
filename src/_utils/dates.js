@@ -26,7 +26,7 @@ const monthString = (month, lang = 'en') => {
 };
 
 const dayMonth = (date, lang = 'en') =>
-  jsToDateTime(date, lang).toFormat('LLLL y');
+  jsToDateTime(date, lang).toFormat('d LLLL');
 
 const isoDate = (date) => jsToDateTime(date).toISO();
 
