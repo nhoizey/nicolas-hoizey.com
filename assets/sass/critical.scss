@@ -573,6 +573,8 @@ a[href$='.kml'] {
 }
 
 hr {
+  --flow-space: var(--gap3);
+  margin-bottom: var(--flow-space);
   width: 70%;
   height: 1px;
   color: var(--color-primary);
