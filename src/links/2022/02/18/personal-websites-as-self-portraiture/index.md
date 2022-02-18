@@ -19,6 +19,6 @@ As Matt also says:
 
 I chose to differenciate [my written content here](/) and [my photography creations elsewhere](https://nicolas-hoizey.photo/) because I know some people are not interested in both, and I wanted to present photography very differently.
 
-It reminds me of a great quote I used in [my talk about POSSE and IndieWeb]({% link_to "ne-vous-laissez-plus-deposseder-de-vos-contenus" %}, from [Brad Frost](https://bradfrost.com/)'s [Write on your own website](https://bradfrost.com/blog/post/write-on-your-own-website/):
+It reminds me of a great quote I used in [my talk about POSSE and IndieWeb]({% link_to "ne-vous-laissez-plus-deposseder-de-vos-contenus" %}), from [Brad Frost](https://bradfrost.com/)'s [Write on your own website](https://bradfrost.com/blog/post/write-on-your-own-website/):
 
 > Writing on your own website associates your thoughts and ideas with you as a person. Having a distinct website design helps strengthen that association.
