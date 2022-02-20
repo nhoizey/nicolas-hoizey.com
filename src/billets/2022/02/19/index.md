@@ -9,4 +9,4 @@ Cette fois, on va à Tbilisi, capitale de la Géorgie[^homonymes], où nous avon
 
 [^homonymes]: Je vous laisse pour l'instant deviner de [quelle Géorgie](https://fr.wikipedia.org/wiki/G%C3%A9orgie) je parle.
 
-Ça se passe [sur mon site photo](http://localhost:8080/galleries/travels/europe/georgia/) bien sûr.
+Ça se passe [sur mon site photo](https://nicolas-hoizey.photo/galleries/travels/europe/georgia/) bien sûr.
