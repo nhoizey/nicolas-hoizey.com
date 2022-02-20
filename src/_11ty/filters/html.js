@@ -67,11 +67,13 @@ module.exports = {
     return content;
   },
   removeImages: (html) => html.replace(/<img [^>]+>/, ''),
-  truncateHtml: (html, length) => {
-    return truncateHtml(html, length, {
+  truncateHtml: (html, length) =>
+    truncateHtml(html, length, {
       reserveLastWord: true,
       ellipsis: '…',
-    });
+    }),
+  cleanForJson: (html) => {
+    return html.replace(/&quot;/gm, '\\"');
   },
   algoliaExcerpt: (text) => {
     return text.substring(0, 5000);
