@@ -8,8 +8,8 @@ Cool, [Véro lance une nouvelle section dans son site pour des petites notes](ht
 ---
 
 J'ai eu deux bonnes idées ce soir pour améliorer la gestion du [code de mon site photo](https://github.com/nhoizey/nicolas-hoizey.photo):
-- mettre un *hook* `pre-push` pour éviter d'envoyer en ligne des photos sans date[^processus]
-- mettre en place [Git Large File Storage](https://git-lfs.github.com/) (aka `git-lfs`) pour les photos d'origine, qui sont trop volumineuses pour le Git de base, d'autant plus que je les modifies parfois
+- mettre un *hook* Git `pre-push` pour éviter d'envoyer en ligne des photos sans date[^processus]
+- mettre en place [Git Large File Storage](https://git-lfs.github.com/) (aka `git-lfs`) pour les photos d'origine, qui sont trop volumineuses pour le Git de base, d'autant plus que je les modifie parfois donc elles sont plusieurs fois dans l'historique
 
 [^processus]: Un jour j'expliquerai comment fonctionne mon processus de publication de photos…
 
