@@ -914,5 +914,23 @@
       "profile_image_url_https": "https://pbs.twimg.com/profile_images/928959187270361088/a7al-hRb_normal.jpg"
     },
     "html": "<blockquote class=\"tweet-card\"><div class=\"tweet-header\"><a class=\"tweet-profile\" href=\"https://twitter.com/webcompat\"><img src=\"https://pbs.twimg.com/profile_images/928959187270361088/a7al-hRb_normal.jpg\" alt=\"Avatar for webcompat\"></a><div class=\"tweet-author\"><a class=\"tweet-author-name\" href=\"https://twitter.com/webcompat\">webcompat.com </a><a class=\"tweet-author-handle\" href=\"https://twitter.com/webcompat\">@webcompat</a></div><a class=\"tweet-bird\" href=\"https://twitter.com/webcompat/status/1488704073058570243\"><div class=\"tweet-bird-icon\" role=\"presentation\" aria-label=\"View on Twitter\" title=\"View on Twitter\"></div></a></div><p class=\"tweet-body\">If you someone working at <a href=\"https://twitter.com/Akamai\">@Akamai</a> <a href=\"https://twitter.com/akamaidev\">@akamaidev</a> in charge of the mobile detection for their CDN, please put them in contact with us. Android 12 detection is broken. See <a href=\"https://github.com/mozilla-mobile/android-components/pull/11649/commits/805637ea2ac6514cb7cc723ead91458d21aacd35#diff-cd4ec44d729d61b8bc60f5ba8b965530152b049318563f2379cb9c678a81ed9dR795-R823\">github.com/mozilla-mobile/android-components/pull/11649/commits/805637ea2ac6514cb7cc723ead91458d21aacd35#diff-cd4ec44d729d61b8bc60f5ba8b965530152b049318563f2379cb9c678a81ed9dR795-R823</a></p><div class=\"tweet-images\"></div><div class=\"tweet-footer\"><a class=\"tweet-like\" href=\"https://twitter.com/intent/like?tweet_id=1488704073058570243\"><div class=\"tweet-like-icon\" aria-label=\"Like\" title=\"Like\" role=\"img\"></div><span class=\"tweet-like-count\">3 </span></a><a class=\"tweet-date\" title=\"Time Posted: Feb 2, 2022 02:41:24 (UTC)\" href=\"https://twitter.com/webcompat/status/1488704073058570243\">03:41 AM · Feb 2, 2022</a></div></blockquote>"
+  },
+  "1496618454375358466": {
+    "id_str": "1496618454375358466",
+    "htmlText": "📣 Faster builds on Cloudflare Pages are here! <br/><br/>⚡Opt-in to our open beta in your project’s settings to test out the new infrastructure and shed minutes off your total builds time. <br/><br/>Have feedback? Let us know on Discord in our<a href=\"https://twitter.com/hashtag/#fas\"> #fas</a>t-builds-beta channel.<br/><a href=\"http://discord.com/invite/cloudflaredev\">discord.com/invite/cloudflaredev</a>Id",
+    "images": [
+      "https://pbs.twimg.com/media/FMUOgoBWYAYG0ni.jpg"
+    ],
+    "favorite_count": 51,
+    "created_at": {
+      "display": "11:50 PM · Feb 23, 2022",
+      "meta": "Feb 23, 2022 10:50:20 (UTC)"
+    },
+    "user": {
+      "name": "Cloudflare Developers",
+      "screen_name": "CloudflareDev",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/991779658147377152/ESp67BNN_normal.jpg"
+    },
+    "html": "<blockquote class=\"tweet-card\"><div class=\"tweet-header\"><a class=\"tweet-profile\" href=\"https://twitter.com/CloudflareDev\"><img src=\"https://pbs.twimg.com/profile_images/991779658147377152/ESp67BNN_normal.jpg\" alt=\"Avatar for CloudflareDev\"></a><div class=\"tweet-author\"><a class=\"tweet-author-name\" href=\"https://twitter.com/CloudflareDev\">Cloudflare Developers </a><a class=\"tweet-author-handle\" href=\"https://twitter.com/CloudflareDev\">@CloudflareDev</a></div><a class=\"tweet-bird\" href=\"https://twitter.com/CloudflareDev/status/1496618454375358466\"><div class=\"tweet-bird-icon\" role=\"presentation\" aria-label=\"View on Twitter\" title=\"View on Twitter\"></div></a></div><p class=\"tweet-body\">📣 Faster builds on Cloudflare Pages are here!<br><br>⚡Opt-in to our open beta in your project’s settings to test out the new infrastructure and shed minutes off your total builds time.<br><br>Have feedback? Let us know on Discord in our<a href=\"https://twitter.com/hashtag/#fas\"> #fas</a>t-builds-beta channel.<br><a href=\"http://discord.com/invite/cloudflaredev\">discord.com/invite/cloudflaredev</a>Id</p><div class=\"tweet-images\"><img alt=\"Image from Tweet\" src=\"https://pbs.twimg.com/media/FMUOgoBWYAYG0ni.jpg\"></div><div class=\"tweet-footer\"><a class=\"tweet-like\" href=\"https://twitter.com/intent/like?tweet_id=1496618454375358466\"><div class=\"tweet-like-icon\" aria-label=\"Like\" title=\"Like\" role=\"img\"></div><span class=\"tweet-like-count\">51 </span></a><a class=\"tweet-date\" title=\"Time Posted: Feb 23, 2022 10:50:20 (UTC)\" href=\"https://twitter.com/CloudflareDev/status/1496618454375358466\">11:50 PM · Feb 23, 2022</a></div></blockquote>"
   }
 }
