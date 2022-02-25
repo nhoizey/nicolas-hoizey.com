@@ -615,3 +615,12 @@ hr {
   font-size: var(--font-size-s);
   @extend %flow;
 }
+
+del {
+  color: darkred;
+}
+
+ins {
+  color: darkgreen;
+  text-decoration: none;
+}
