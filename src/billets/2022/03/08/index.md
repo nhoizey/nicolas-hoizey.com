@@ -25,7 +25,7 @@ J'ai effectivement un [en-tête HTTP `Referrer-Policy`](https://developer.mozill
 
 [^mdn]: Je n'arrive décidément pas à me faire à ce [redesign sans âme de MDN](https://hacks.mozilla.org/2022/03/a-new-year-a-new-mdn/)… 😞
 
-```apache
+```apacheconf
 <IfModule mod_headers.c>
   Header set Referrer-Policy "unsafe-url"
 </IfModule>
