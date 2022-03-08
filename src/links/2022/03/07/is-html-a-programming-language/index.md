@@ -11,6 +11,6 @@ authors:
 tags: [HTML]
 ---
 
-Heydon realeased a new Webbed Briefs episode, always entertaining!
+Heydon released a new Webbed Briefs episode, always entertaining!
 
 > In this episode, I ask a question that has never been asked before and has **certainly not** in any way caused a great number of arguments and **nobody** has ever been blocked or muted on social media for asking it. Bon appétit.
