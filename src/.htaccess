@@ -424,7 +424,7 @@ RewriteRule ^(.*) https://nicolas-hoizey.com/$1 [QSA,R=301,L]
 # https://scotthelme.co.uk/a-new-security-header-referrer-policy/
 
 <IfModule mod_headers.c>
-  Header set Referrer-Policy "unsafe-url"
+  Header set Referrer-Policy "no-referrer-when-downgrade"
 </IfModule>
 
 # ##############################################################################
