@@ -15,7 +15,7 @@ permalink: /feeds/twitter/billets.json
       "url": "{{ absoluteEntryUrl }}",
       "title": "📓 {{ entry.data.body.title }}",
       "date_published": "{{ entry.date | rssDate }}",
-      "content_text": "📓 {{ entry.data.body.title }}\n\n{{ entry.templateContent | excerpt | truncateHtml(150) | striptags | cleanForJson | safe }}\n\n{{ absoluteEntryUrl }}",
+      "content_text": "📓 {{ entry.templateContent | excerpt | truncateHtml(180) | striptags | cleanForJson | safe }}\n\n{{ absoluteEntryUrl }}",
       "attachments": {{ entry.template.frontMatter.content | imagesAsAttachments(absoluteEntryUrl) | safe }}
     }{%- if not loop.last -%},{%- endif -%}
   {% endfor %}
