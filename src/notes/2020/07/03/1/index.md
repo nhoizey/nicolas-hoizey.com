@@ -1,6 +1,6 @@
 ---
 date: 2020-07-03 11:44:52 +02:00
-tags: [WebPerf, HTTP2]
+tags: [WebPerf, HTTP]
 ---
 
 @bagder hi Daniel, reading https://daniel.haxx.se/blog/2016/08/18/http2-connection-coalescing/ (yes, I'm late 😅)

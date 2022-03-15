@@ -2,7 +2,7 @@
 title: So long CloudFlare, and thanks for all the fissh
 date: 2016-06-09 12:00:00 +02:00
 lang:  fr
-tags:  [HTTPS, AlwaysData]
+tags:  [HTTP, AlwaysData]
 ---
 
 ::: lead

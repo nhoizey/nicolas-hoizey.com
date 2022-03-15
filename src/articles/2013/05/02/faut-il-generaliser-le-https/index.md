@@ -2,7 +2,7 @@
 title:      Faut-il généraliser le HTTPS ?
 date: 2013-05-02 12:00:00 +02:00
 lang:       fr
-tags:       [security, HTTPS]
+tags:       [security, HTTP]
 ---
 
 J'ai vu ces derniers jours un blog passer à [TLS par défaut](https://n.survol.fr/n/tls-par-defaut), et je me demandais justement s'il n'était pas possible maintenant de le faire sur tous les sites nécessitant un minimum de confidentialité, notamment la plupart des sites e-commerce.
