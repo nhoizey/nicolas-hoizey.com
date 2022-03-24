@@ -14,4 +14,4 @@ Goodreads lost all data Nelson contributed for years, this is a sad reminder tha
 
 > I've learned a hard lesson in trusting cloud services. Unfortunately just having a copy of your data isn't enough; it's a lot of work to build a useful product. In the meantime I will be more careful about which companies I trust.
 
-I gave a talk — in French — about this, IndieWeb in general, and POSSE specificaly: [Ne vous laissez plus déPOSSEder de vos contenus !]({% link_to "/ne-vous-laissez-plus-deposseder-de-vos-contenus/" %}).
+I gave a talk — in French — about this, IndieWeb in general, and POSSE specifically: [Ne vous laissez plus déPOSSEder de vos contenus !]({% link_to "/ne-vous-laissez-plus-deposseder-de-vos-contenus/" %}){lang=fr}{hreflang=fr}.
