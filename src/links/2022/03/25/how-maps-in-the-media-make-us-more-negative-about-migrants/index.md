@@ -6,11 +6,9 @@ link: https://thecorrespondent.com/664/how-maps-in-the-media-make-us-more-negati
 authors:
   - name: "Maite Vermeulen"
     twitter: "maitevermeulen"
-authors:
   - name: "Leon de Korte"
     twitter: "dekorteleon"
     site: "https://www.leondekorte.nl/"
-authors:
   - name: "Henk van Houtum"
     twitter: "henkvanhoutum"
     site: "https://henkvanhoutum.nl/"
