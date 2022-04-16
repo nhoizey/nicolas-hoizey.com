@@ -3,6 +3,7 @@
 
 .navigation {
   margin: 0 0 3 * dimensions.$gap;
+  padding: 1vw 0;
 
   font-size: var(--font-size-m);
   font-family: fonts.$font-family-sans-serif;
@@ -12,16 +13,20 @@
 
   overflow-x: auto;
   -webkit-overflow-scrolling: auto;
+  overflow-y: hidden;
 
   .wrap {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    gap: .5rem;
     justify-content: space-between;
   }
 
   ul {
     display: flex;
+    flex-wrap: nowrap;
+    gap: .1em;
 
     margin: 0;
     padding: 0;
@@ -33,32 +38,23 @@
     margin: 0;
     padding: 0;
 
-    & + li {
-      margin-left: 0.5vw;
-    }
-
-    &.navigation__articles,
-    &.navigation__billets,
-    &.navigation__links,
-    &.navigation__notes,
-    &.navigation__talks {
-      display: none;
-
-      @media (min-width: 40em) {
-        display: block;
-      }
-    }
-
     a:link,
     a:visited {
       display: inline-block;
 
-      margin: var(--border-width) 0 0 0;
-      padding: 0.1em 0.4vw;
+      margin: 0;
+      padding: 0.1em .5em;
 
       white-space: nowrap;
       text-decoration: none;
+
+      color: black;
     }
+
+    a:hover,
+    a:focus {
+        color: white;
+        }
 
     &.current {
       a:link,
@@ -68,8 +64,8 @@
         background-image: linear-gradient(
           to top,
           var(--color-primary),
-          var(--color-primary) calc(var(--border-width) + 1px),
-          white calc(var(--border-width) + 1px),
+          var(--color-primary) calc(dimensions.$border-width + 1px),
+          white calc(dimensions.$border-width + 1px),
           white
         );
         -webkit-text-stroke-width: 0.05em;

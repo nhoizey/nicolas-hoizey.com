@@ -17,6 +17,17 @@ const observable =
 })(window);
 
 /*****************************************************************
+ * Center active menu item
+ * ****************************************************************/
+
+(function (window) {
+  let current = window.document.querySelector('.navigation .current');
+  if (current) {
+    current.scrollIntoView({ behavior: 'smooth', inline: 'center' });
+  }
+})(window);
+
+/*****************************************************************
  * Install Service Worker
  * ****************************************************************/
 
