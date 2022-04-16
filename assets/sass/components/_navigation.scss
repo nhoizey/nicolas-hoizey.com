@@ -1,13 +1,14 @@
 @use '../variables/fonts';
+@use '../variables/dimensions';
 
 .navigation {
-  padding: 0 0 var(--gap3);
+  margin: 0 0 3 * dimensions.$gap;
 
   font-size: var(--font-size-m);
   font-family: fonts.$font-family-sans-serif;
   font-variant: small-caps;
 
-  border-top: solid var(--border-width) var(--color-primary-lighter-2);
+  border-top: solid dimensions.$border-width var(--color-primary-lighter-2);
 
   overflow-x: auto;
   -webkit-overflow-scrolling: auto;

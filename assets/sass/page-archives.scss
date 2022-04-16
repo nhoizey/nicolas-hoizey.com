@@ -1,4 +1,5 @@
 @use 'variables/colors';
+@use 'variables/dimensions';
 @use 'global/utilities';
 @use 'components/card';
 
@@ -13,11 +14,11 @@
     'stats poweredby'
     'hits hits';
   grid-template-columns: 1fr 1fr;
-  grid-row-gap: var(--gap2);
-  grid-column-gap: var(--gap3);
+  grid-row-gap: 2 * dimensions.$gap;
+  grid-column-gap: 3 * dimensions.$gap;
 
-  column-gap: var(--gap3);
-  row-gap: var(--gap2);
+  column-gap: 3 * dimensions.$gap;
+  row-gap: 2 * dimensions.$gap;
 }
 
 #clear-refinements,
@@ -96,7 +97,7 @@
   grid-area: pagination;
 
   .ais-Pagination {
-    margin-top: var(--gap);
+    margin-top: dimensions.$gap;
   }
 }
 
@@ -108,7 +109,7 @@
 .ais-InfiniteHits-loadMore {
   display: block;
 
-  margin: var(--gap) auto;
+  margin: dimensions.$gap auto;
 }
 
 .ais-ClearRefinements-button--disabled,
@@ -127,7 +128,7 @@
   font-size: var(--font-size-s);
 
   .ais-Panel {
-    margin-bottom: var(--gap);
+    margin-bottom: dimensions.$gap;
   }
 
   .ais-Panel-header {
@@ -283,7 +284,7 @@
 }
 
 .ais-InfiniteHits-loadMore {
-  margin-top: var(--gap3);
+  margin-top: 3 * dimensions.$gap;
 }
 
 // ************************************************************

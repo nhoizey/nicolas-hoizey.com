@@ -1,5 +1,6 @@
 @use '../variables/fonts';
 @use '../variables/colors';
+@use '../variables/dimensions';
 @use '../global/utilities';
 
 // ************************************************************
@@ -15,7 +16,7 @@
   @extend %flow;
 
   * {
-    --flow-space: var(--gap3);
+    --flow-space: #{3 * dimensions.$gap};
   }
 }
 
@@ -45,11 +46,11 @@
 
 .card__illustration img,
 img.card__illustration {
-  padding: var(--border-width);
+  padding: dimensions.$border-width;
 
   border-color: var(--color-primary-lighter-3);
   border-style: solid;
-  border-width: var(--border-width);
+  border-width: dimensions.$border-width;
 }
 
 .card__surtitle {

@@ -1,8 +1,10 @@
 @use '../variables/colors';
+@use '../variables/dimensions';
+
 
 .page .link__url {
-  margin-top: var(--gap2);
-  margin-bottom: var(--gap2);
+  margin-top: 2 * dimensions.$gap;
+  margin-bottom: 2 * dimensions.$gap;
 
   font-size: var(--font-size-xl);
 }

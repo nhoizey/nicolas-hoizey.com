@@ -1,3 +1,6 @@
+@use '../variables/dimensions';
+@use 'sass:math';
+
 .info,
 .success,
 .warning,
@@ -6,20 +9,20 @@
 
   clear: both;
 
-  padding: calc(var(--gap) / 3);
+  padding: math.div(dimensions.$gap, 3);
 
   color: #222;
   text-decoration: none;
 
-  border: var(--border-width) solid #999;
+  border: dimensions.$border-width solid #999;
   border-radius: 0.3em;
 
   background-color: #ccc;
 
   &::before {
     position: absolute;
-    top: calc(var(--gap) / 2);
-    left: calc(var(--gap) / 2);
+    top: math.div(dimensions.$gap, 2);
+    left: math.div(dimensions.$gap, 2);
   }
 
   & > * {

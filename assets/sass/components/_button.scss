@@ -1,3 +1,5 @@
+@use '../variables/dimensions';
+
 .button:link,
 .button:visited,
 button {
@@ -9,7 +11,7 @@ button {
 
   border-color: var(--color-primary);
   border-style: solid;
-  border-width: var(--border-width);
+  border-width: dimensions.$border-width;
   border-radius: 1em;
 
   background-color: var(--color-primary-lighter-2);

@@ -1,4 +1,5 @@
 @use '../variables/colors';
+@use '../variables/dimensions';
 @use '../global/utilities';
 
 .page {
@@ -6,7 +7,7 @@
   @extend %flow;
 
   .lazy {
-    --flow-space: var(--gap3);
+    --flow-space: #{3 * dimensions.$gap};
     @extend %flow;
   }
 }
@@ -33,14 +34,14 @@
 
 .page__illustration img,
 img.page__illustration {
-  padding: var(--border-width);
+  padding: dimensions.$border-width;
 
   border-color: var(--color-primary-lighter-3);
   border-style: solid;
-  border-width: var(--border-width);
+  border-width: dimensions.$border-width;
 }
 
 .page__body {
-  margin-top: var(--gap2);
+  margin-top: 2 * dimensions.$gap;
   @extend %flow;
 }

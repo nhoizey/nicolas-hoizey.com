@@ -1,4 +1,5 @@
 @use '../variables/colors';
+@use '../variables/dimensions';
 
 /* card */
 .tweet-card {
@@ -13,7 +14,7 @@
   line-height: 1.4;
   text-align: left;
 
-  border: var(--border-width) solid colors.$color-grey;
+  border: dimensions.$border-width solid colors.$color-grey;
   border-radius: 0.5em;
 
   background-color: #fff;
@@ -95,7 +96,7 @@
 }
 
 .tweet-bird {
-  margin-left: var(--gap);
+  margin-left: dimensions.$gap;
 }
 
 /* images */

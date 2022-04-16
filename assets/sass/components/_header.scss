@@ -1,4 +1,5 @@
 @use '../variables/fonts';
+@use '../variables/dimensions';
 
 #header {
   margin: 0;
@@ -8,7 +9,7 @@
   font-size: var(--font-size-l);
   white-space: nowrap;
 
-  border-top: solid var(--border-width) var(--color-primary-lighter-3);
+  border-top: solid dimensions.$border-width var(--color-primary-lighter-3);
 
   background: var(--color-primary);
 

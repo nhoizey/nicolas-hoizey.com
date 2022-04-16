@@ -1,4 +1,6 @@
+@use '../variables/dimensions';
 @use '../global/utilities';
+@use 'sass:math';
 
 // TODO: sortir de critical
 
@@ -28,7 +30,7 @@
 }
 
 .reactions__item .meta {
-  margin-top: calc(var(--gap) / 2);
+  margin-top: math.div(dimensions.$gap, 2);
 }
 
 .reactions--like-of,
@@ -59,7 +61,7 @@
 
 .reactions--in-reply-to,
 .reactions--mention-of {
-  --flow-space: var(--gap3);
+  --flow-space: #{3 * dimensions.$gap};
   @extend %flow;
 
   .reactions__item {

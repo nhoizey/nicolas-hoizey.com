@@ -1,3 +1,5 @@
+@use 'variables/dimensions';
+
 .older-newer__shortcuts {
   display: none;
   justify-content: space-between;
@@ -26,7 +28,7 @@
     }
 
     .older-newer__older {
-      left: var(--gap2);
+      left: 2 * dimensions.$gap;
 
       &:hover,
       &:focus {
@@ -35,7 +37,7 @@
     }
 
     .older-newer__newer {
-      right: var(--gap2);
+      right: 2 * dimensions.$gap;
 
       &:hover,
       &:focus {
@@ -78,13 +80,13 @@
     'prev prev'
     'next next';
   grid-template-columns: 1fr 1fr;
-  grid-row-gap: var(--gap);
-  grid-column-gap: calc(5 * var(--gap));
+  grid-row-gap: dimensions.$gap;
+  grid-column-gap: 5 * dimensions.$gap;
 
   margin: 3em 0;
-  padding: var(--gap);
+  padding: dimensions.$gap;
 
-  column-gap: calc(5 * var(--gap));
+  column-gap: 5 * dimensions.$gap;
 
   border: solid 1px var(--color-primary-lighter-3);
   border-radius: 0.3em;
@@ -92,7 +94,7 @@
   background-color: var(--color-primary-lighter-7);
 
   list-style-type: none;
-  row-gap: var(--gap);
+  row-gap: dimensions.$gap;
 
   @media (min-width: 48rem) {
     grid-template-areas: 'prev next';

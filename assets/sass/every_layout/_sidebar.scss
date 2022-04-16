@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 /*
 Every Layout's sidebar layout:
 https://absolutely.every-layout.dev/layouts/sidebar/
@@ -18,7 +20,7 @@ https://absolutely.every-layout.dev/layouts/sidebar/
 
 .with-sidebar > * > * {
   /* ↓ applies to both elements */
-  margin: calc(var(--gap) / 2);
+  margin: math.div(dimensions.$gap, 2);
 }
 
 .sidebar {

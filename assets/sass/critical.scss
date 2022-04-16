@@ -3,6 +3,7 @@
 
 @use 'variables/fonts';
 @use 'variables/colors';
+@use 'variables/dimensions';
 @use 'global/utilities';
 @use 'global/globals';
 @use 'global/accessibility';
@@ -97,7 +98,7 @@ h6 {
   line-height: 1.2;
 
   &:not(h1) {
-    --flow-space: var(--gap3);
+    --flow-space: #{3 * dimensions.$gap};
   }
 }
 
@@ -173,7 +174,7 @@ a {
 // Anchor links
 // Based on https://smolcss.dev/#smol-article-anchors
 .heading-wrapper {
-  --flow-space: var(--gap3);
+  --flow-space: #{3 * dimensions.$gap};
   display: grid;
   // anchor link on the far right for long wrapping headings
   grid-template-columns: minmax(auto, max-content) min-content;
@@ -403,22 +404,22 @@ img {
   }
 
   &.left {
-    margin: var(--gap) auto;
+    margin: dimensions.$gap auto;
 
     @media (min-width: 20em) {
       float: left;
 
-      margin: 0 var(--gap) var(--gap) 0;
+      margin: 0 dimensions.$gap dimensions.$gap 0;
     }
   }
 
   &.right {
-    margin: var(--gap) auto;
+    margin: dimensions.$gap auto;
 
     @media (min-width: 20em) {
       float: right;
 
-      margin: 0 0 var(--gap) var(--gap);
+      margin: 0 0 dimensions.$gap dimensions.$gap;
     }
   }
 }
@@ -431,13 +432,13 @@ img.border {
 .logo {
   display: block;
 
-  margin: var(--gap) auto;
+  margin: dimensions.$gap auto;
 }
 
 .portrait {
   border-color: var(--color-primary);
   border-style: solid;
-  border-width: var(--border-width);
+  border-width: dimensions.$border-width;
   border-radius: 50%;
 
   background-image: linear-gradient(55deg, #acf9fc, #70d4fc);
@@ -457,12 +458,12 @@ figcaption {
 }
 
 .more {
-  margin-top: var(--gap3);
+  margin-top: 3 * dimensions.$gap;
 }
 
 ul,
 ol {
-  padding: 0 0 0 var(--gap2);
+  padding: 0 0 0 2 * dimensions.$gap;
 }
 
 // ************************************************************
@@ -545,7 +546,7 @@ article {
 }
 
 .eleventy-plugin-youtube-embed {
-  margin: var(--gap) 0;
+  margin: dimensions.$gap 0;
 }
 
 // File link icons
@@ -573,7 +574,7 @@ a[href$='.kml'] {
 }
 
 hr {
-  --flow-space: var(--gap3);
+  --flow-space: #{3 * dimensions.$gap};
   margin-bottom: var(--flow-space);
   width: 70%;
   height: 1px;
@@ -605,10 +606,10 @@ hr {
     max-width: 33%;
   }
 
-  margin: var(--gap) auto;
+  margin: dimensions.$gap auto;
   @media (min-width: 20em) {
     float: right;
-    margin: 0 0 var(--gap2) var(--gap2);
+    margin: 0 0 2 * dimensions.$gap 2 * dimensions.$gap;
   }
 
   color: var(--color-primary);

@@ -10,9 +10,6 @@
   --hue: var(--user-hue, var(--default-hue));
 
   --gap: calc(var(--density) * 1rem);
-  --gap2: calc(2 * var(--gap));
-  --gap3: calc(3 * var(--gap));
-
   --flow-space: calc(var(--density) * 1em);
 
   // https://every-layout.dev/rudiments/modular-scale/
@@ -68,6 +65,4 @@
 
   --color-gold: hsl(50, 91%, 30%);
   --color-yellow-light: hsl(59, 100%, 88%);
-
-  --border-width: 0.15em;
 }
