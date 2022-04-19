@@ -11,7 +11,7 @@
     <name>{{ pkg.author.name }}</name>
     <email>{{ pkg.author.email }}</email>
   </author>
-  <generator uri="https://11ty.dev" version="{{ build.version }}">Eleventy {{ build.version }}</generator>
+  <generator uri="https://11ty.dev" version="{{ eleventy.version }}">{{ eleventy.generator }}</generator>
   {% block entries %}
   {% endblock %}
 </feed>
