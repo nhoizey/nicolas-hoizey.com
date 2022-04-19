@@ -231,13 +231,6 @@ module.exports = function (eleventyConfig) {
       '_11ty/images-responsiver-config.js'
     ));
     eleventyConfig.addPlugin(imagesResponsiver, imagesResponsiverConfig);
-
-    // const htmlMinTransform = require(path.join(
-    //   __dirname,
-    //   config.dir.src,
-    //   '_transforms/html-min-transform.js'
-    // ));
-    // eleventyConfig.addTransform('htmlmin', htmlMinTransform);
   }
 
   // ------------------------------------------------------------------------
