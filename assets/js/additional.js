@@ -23,7 +23,11 @@ const observable =
 (function (window) {
   let current = window.document.querySelector('.navigation .current');
   if (current) {
-    current.scrollIntoView({ behavior: 'smooth', inline: 'center' });
+    current.scrollIntoView({
+      behavior: 'smooth',
+      block: 'nearest',
+      inline: 'center',
+    });
   }
 })(window);
 
