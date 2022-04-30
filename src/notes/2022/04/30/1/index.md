@@ -7,4 +7,4 @@ When you start using an image CDN on a site with oversized JPEGs, without any ch
 
 ![SpeedCurve test showing a 20 seconds gain in Largest Contentful Paint](image-cdn-webp-gain.png)
 
-Imagine when there will be accurate `srcset`/`sizes` attributes…
+Imagine when there will be accurate `srcset`/`sizes` attributes, better formats, etc. 🤯
