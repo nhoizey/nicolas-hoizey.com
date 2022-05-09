@@ -22,4 +22,4 @@ Back in 2015, I had an issue with the behavior of some mobile browsers with the 
 
 Fortunately, there is now a standard CSS solution, so I added a mention in the begining of my article, linking to [Bramus' article about new viewport units]({% link_to "the-large-small-and-dynamic-viewports" %}), so that people coming here also find the solution.
 
-In addition to blogging about an issue, it is nice to always check if it is already listed in the browser's known issues, or create it. It helps even more.
+In addition to blogging about an issue, it is nice to always check if it is already listed in the browser's known issues, or create it. I know it can be difficult, require additional time, but it helps even more.
