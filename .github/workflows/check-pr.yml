@@ -16,4 +16,4 @@ jobs:
         run: npm ci
 
       - name: Run build
-        run: npm run ci-check
+        run: npm run ci-check >> $GITHUB_STEP_SUMMARY
