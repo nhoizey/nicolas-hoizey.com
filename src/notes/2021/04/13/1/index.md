@@ -1,6 +1,6 @@
 ---
 date: 2021-04-13 13:55:17 +02:00
-tags: [WebPerf]
+tags: [WebPerf, Treo, CrUX]
 ---
 
 Using @__treo for small sites with low trafic can be frustrating… 😅

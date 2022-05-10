@@ -59,6 +59,7 @@ const tweetHashtagTohandle = (tweet) => {
     '#Setapp': '@setapp',
     '#Svelte': '@sveltejs',
     '#Tailwind': '@tailwindcss',
+    '#Treo': '@__treo',
     '#Unsplash': '@unsplash',
     '#Uphold': '@UpholdInc',
     '#VSCode': '@code',

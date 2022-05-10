@@ -3,7 +3,7 @@ date: 2022-05-10 12:15:41 +02:00
 tags: [image, WebPerf, Cloudinary, WebP, AVIF]
 ---
 
-[One year later]({% link_to "/notes/2021/05/06/1/" %}), interesting update about image formats used on my sites:
+[One year later]({% link_to "/notes/2021/05/06/1/" %})…
 
 16.9 % of the requests made for images on my web sites are served as AVIF by #Cloudinary:
 
