@@ -2,11 +2,17 @@
 title:      Viewport height is taller than the visible part of the document in some mobile browsers
 date: 2015-02-18 12:00:00 +02:00
 lang:       en
-tags:       [CSS, viewport, RWD, 100vh]
+tags:       [CSS, viewport, RWD, 100vh, bug, mobile]
 promoted: true
 ---
 
 When trying to use [a `100vh` CSS value](http://caniuse.com/viewport-units) to build a new interface for [a game](http://esviji.com/) that would use the full viewport, I discovered that this full height value meant the bottom of the game interface was partialy hidden behind the browser buttons bar or below the "fold" of some mobile browsers.
+
+::: warning
+Since I wrote this article back in 2015, new standard viewport units have been defined and implemented in the browsers.
+
+You can learn more about new `lvh`/`svh`/`dvh`/etc. units in this article written by [Bramus Van Damme](https://www.bram.us/about/): [The Large, Small, and Dynamic Viewports]({% link_to "the-large-small-and-dynamic-viewports" %}).
+:::
 
 # An issue with Apple iOS Safari
 
