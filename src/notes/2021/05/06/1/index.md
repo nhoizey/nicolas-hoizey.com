@@ -12,3 +12,5 @@ But it only represents 56.8 % of the bandwidth!
 ![Top image formats by bandwidth.](cloudinary-top-image-formats-april-2021-bandwidth.png)
 
 Looking forward to seeing AVIF and JPEG XL in there… 😁
+
+…[one year later]({% link_to "/notes/2022/05/10/1/" %}).
