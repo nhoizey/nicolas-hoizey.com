@@ -9,8 +9,8 @@ Stop.
 Using.
 Icon fonts.
 
-[Seriously, Don’t Use Icon Fonts](https://cloudfour.com/thinks/seriously-dont-use-icon-fonts/).
+[Seriously, Don’t Use Icon Fonts]({% link_to "seriously-don-t-use-icon-fonts" %}).
 
-![](google-icon-font-fail.png)
+![A screenshot of a Web page where icons are replaced with words, but not usable](google-icon-font-fail.png)
 
 [Here](https://developers.google.com/search/docs/advanced/guidelines/google-images?hl=fr) the font request responds with a 503 error (via the Service Worker)…
