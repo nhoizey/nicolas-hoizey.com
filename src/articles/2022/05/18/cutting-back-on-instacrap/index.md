@@ -1,6 +1,6 @@
 ---
 date: 2022-05-18 18:23:01 +02:00
-title: "cutting back on Instacrap"
+title: "Cutting back on Instacrap"
 lang:  en
 tags:  [photography, Pixelfed, Flickr]
 ---
