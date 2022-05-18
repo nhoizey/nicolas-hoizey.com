@@ -11,7 +11,7 @@ I additionaly now really dislike that they are [doing everything to resemble Tik
 
 As a result, I'm going to stay on it for now, but only keep following people I really know and like. I will find inspiration and share my own creations in a much more enjoyable way on welcoming platforms like [Flickr](https://www.flickr.com/photos/nicolas-hoizey/) and [Pixelfed](https://pixelfed.social/nhoizey)[^pixelfed].
 
-[^pixelfed]: [Pixelfed](https://pixelfed.org/) is kind of the (few) good parts of Instagram, with the many good part of Mastodon.
+[^pixelfed]: [Pixelfed](https://pixelfed.org/) is kind of the (few) good parts of Instagram, with the many good part of Mastodon. Here's a [beginner's guide to Pixelfed](https://write.wien.rocks/paula/beginners-guide-to-pixelfed).
 
 If you want to follow my photography work, I invite you to come directly to **my own website**: [nicolas-hoizey.photo](https://nicolas-hoizey.photo!).
 
@@ -19,9 +19,9 @@ Here are a few screenshot of the experience you can expect, tailored to my needs
 
 ![The home page](nicolas-hoizey-photo-site-01-home-page.png "The home page")
 
-![The category page](nicolas-hoizey-photo-site-02-category.png "The category page")
+![A category page](nicolas-hoizey-photo-site-02-category.png "A category page")
 
-![The photo page](nicolas-hoizey-photo-site-03-photo-page.png "The photo page")
+![A photo page](nicolas-hoizey-photo-site-03-photo-page.png "A photo page")
 
 ![The map of all photos](nicolas-hoizey-photo-site-04-map.png "The map of all photos")
 
