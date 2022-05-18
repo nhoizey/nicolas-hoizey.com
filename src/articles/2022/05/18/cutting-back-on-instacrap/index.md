@@ -13,7 +13,7 @@ As a result, I'm going to stay on it for now, but only keep following people I r
 
 [^pixelfed]: [Pixelfed](https://pixelfed.org/) is kind of the (few) good parts of Instagram, with the many good part of Mastodon.
 
-If you want to follow my photography work, I invite you to come directly to my own website: [nicolas-hoizey.photo](https://nicolas-hoizey.photo).
+If you want to follow my photography work, I invite you to come directly to **my own website**: [nicolas-hoizey.photo](https://nicolas-hoizey.photo!).
 
 Here are a few screenshot of the experience you can expect, tailored to my needs and your viewing pleasure:
 
@@ -26,3 +26,5 @@ Here are a few screenshot of the experience you can expect, tailored to my needs
 ![The map of all photos](nicolas-hoizey-photo-site-04-map.png "The map of all photos")
 
 ![The blog](nicolas-hoizey-photo-site-05-blog-post.png "The blog")
+
+Enjoy [the visit](https://nicolas-hoizey.photo/)!
