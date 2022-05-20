@@ -353,7 +353,7 @@ RewriteRule ^(.*) https://nicolas-hoizey.com/$1 [QSA,R=301,L]
 
 <IfModule mod_headers.c>
 
-    Header set Content-Security-Policy "upgrade-insecure-requests; base-uri 'self'; img-src 'self' data: data.nicolas-hoizey.com res.cloudinary.com i.ytimg.com image.thum.io caniuse.bitsofco.de; script-src 'self' data: 'unsafe-inline' 'unsafe-eval' data.nicolas-hoizey.com speakerdeck.com storage.googleapis.com platform.twitter.com syndication.twitter.com cdn.syndication.twimg.com cdn.jsdelivr.net assets.codepen.io static.codepen.io cpwebassets.codepen.io production-assets.codepen.io ifttt.com; object-src 'self' vimeo.com; connect-src 'self' data.nicolas-hoizey.com res.cloudinary.com *.algolia.net *.algolianet.com; report-uri https://nhocom.report-uri.com/r/d/csp/enforce"
+    Header set Content-Security-Policy "upgrade-insecure-requests; base-uri 'self'; img-src 'self' data: data.nicolas-hoizey.com res.cloudinary.com i.ytimg.com image.thum.io caniuse.bitsofco.de; script-src 'self' data: 'unsafe-inline' 'unsafe-eval' data.nicolas-hoizey.com speakerdeck.com storage.googleapis.com platform.twitter.com syndication.twitter.com cdn.syndication.twimg.com cdn.jsdelivr.net assets.codepen.io static.codepen.io cpwebassets.codepen.io production-assets.codepen.io ifttt.com https://ausi.github.io/respimagelint/; object-src 'self' vimeo.com; connect-src 'self' data.nicolas-hoizey.com res.cloudinary.com *.algolia.net *.algolianet.com; report-uri https://nhocom.report-uri.com/r/d/csp/enforce"
 
     # `mod_headers` cannot match based on the content-type, however,
     # the `Content-Security-Policy` response header should be send
