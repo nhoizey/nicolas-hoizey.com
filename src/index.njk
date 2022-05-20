@@ -42,11 +42,29 @@ JSON-LD for:
   </div>
 
   {% from "macros/articleCard.njk" import articleCard %}
+  {% from "macros/linkCard.njk" import linkCard %}
+  {% from "macros/noteCard.njk" import noteCard %}
+  {% from "macros/billetCard.njk" import billetCard %}
+  {% from "macros/talkCard.njk" import talkCard %}
 
-  <h2>Latest articles</h2>
+  <h2>Latest contents</h2>
   <ol class="cards-list">
-    {% for article in collections.latestArticles %}
-      {{ articleCard(article) }}
+    {% for item in collections.archives | limit(5) %}
+      {% if item.data.layout == 'article' %}
+        {{ articleCard(item) }}
+      {% endif %}
+      {% if item.data.layout == 'link' %}
+        {{ linkCard(item) }}
+      {% endif %}
+      {% if item.data.layout == 'note' %}
+        {{ noteCard(item) }}
+      {% endif %}
+      {% if item.data.layout == 'billet' %}
+        {{ billetCard(item) }}
+      {% endif %}
+      {% if item.data.layout == 'talk' %}
+        {{ talkCard(item) }}
+      {% endif %}
     {% endfor %}
   </ol>
 
@@ -56,25 +74,6 @@ JSON-LD for:
     {{ articleCard(article) }}
   {% endfor %}
   </ol>
-  <p class="more">Read <a href="/articles/">all articles</a>…</p>
-
-  {% from "macros/linkCard.njk" import linkCard %}
-  <h2>Recent links</h2>
-  <ol class="cards-list">
-    {% for link in collections.links | limit(4) %}
-      {{ linkCard(link) }}
-    {% endfor %}
-  </ol>
-  <p class="more">Discover <a href="/links/">all links</a>…</p>
-
-  {% from "macros/noteCard.njk" import noteCard %}
-  <h2>Recent notes</h2>
-  <ol class="cards-list">
-  {% for note in collections.notes | limit(4) %}
-    {{ noteCard(note) }}
-  {% endfor %}
-  </ol>
-  <p class="more">Discover <a href="/notes/">all notes</a>…</p>
 
   {% set cssFilename = "tagscloud.css" %}
   {% include "add-css.njk" %}
