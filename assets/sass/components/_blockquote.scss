@@ -12,6 +12,11 @@ blockquote:not(.tweet-card) {
   color: var(--color-primary);
   font-size: var(--font-size-l);
   font-style: italic;
+
+  em {
+    font-style: normal;
+  }
+
   @extend %flow;
 
   &::before {
