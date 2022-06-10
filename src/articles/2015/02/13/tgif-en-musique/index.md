@@ -21,15 +21,8 @@ Allez, on relève un peu le niveau avec un peu de disco, la bien nommée « Tha
 
 https://youtu.be/N4IhjhEykpE
 
-Bon, désolé, mais les vrais bons morceaux sur le sujet ne courent pas les rues, voilà une soupe « Thank God It's Friday » servie par R. Kelly :
-
-https://youtu.be/dr3RzfNq2Ws
-
 Allez, soyez sympa, faites des propositions plus intéressantes !
 
 [^1]: Notez le nombre incroyable de votes négatifs !
 
 [^2]: Avec Jeff Goldblum et Donna Summer en stars, wow !
-
-
-
