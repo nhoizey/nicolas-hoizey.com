@@ -15,6 +15,12 @@
   -webkit-overflow-scrolling: auto;
   overflow-y: hidden;
 
+  // Hide the scrollbar
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
   .wrap {
     display: flex;
     flex-direction: row;
