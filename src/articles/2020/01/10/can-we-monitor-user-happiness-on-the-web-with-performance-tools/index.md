@@ -2,7 +2,7 @@
 date: 2020-01-10 12:13:01 +02:00
 title: "Can we monitor User Happiness on the Web with performance tools?"
 lang: en
-tags: [WebPerf]
+tags: [WebPerf, SpeedCurve]
 promoted: true
 ---
 
