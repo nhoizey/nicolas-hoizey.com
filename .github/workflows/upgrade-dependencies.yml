@@ -1,0 +1,68 @@
+# See tutorial:
+#   https://michaelcurrin.github.io/code-cookbook/recipes/ci-cd/github-actions/workflows/node/upgrade-packages.html
+name: Upgrade NPM packages
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '0 0 * * 1'
+
+jobs:
+  upgrade-packages:
+    name: Upgrade packages
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js ⚙️
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'npm'
+
+      - name: Check for outdated packages 🔍
+        id: vars
+        run: |
+          OUTDATED=$(npm outdated) || true
+
+          if [[ -z "$OUTDATED" ]]; then
+            echo 'Nothing to upgrade'
+          else
+            echo 'Found outdated packages:'
+            echo "$OUTDATED"
+          fi
+
+          echo "::set-output name=outdated::$OUTDATED"
+
+      - name: Upgrade packages ⏫
+        if: ${{ steps.vars.outputs.outdated != '' }}
+        run: npm upgrade
+
+      # - name: Lint 🧐
+      #   if: ${{ steps.vars.outputs.outdated != '' }}
+      #   run: npm lint:check
+
+      # - name: Test 🚨
+      #   if: ${{ steps.vars.outputs.outdated != '' }}
+      #   run: npm test:unit
+
+      - name: Build 🏗️
+        if: ${{ steps.vars.outputs.outdated != '' }}
+        run: npm run build
+        env:
+          NODE_ENV: production
+
+      - name: Commit and create PR 🔀
+        if: ${{ steps.vars.outputs.outdated != '' }}
+        uses: peter-evans/create-pull-request@v3
+        with:
+          title: 'build(deps): Upgrade NPM packages (automated)'
+          branch: 'build-deps-upgrade-npm-packages-automated'
+          commit-message: 'build(deps): upgrade NPM packages (automated)'
+          labels: |
+            type: dependencies 🔗
+            automerge 🤞
