@@ -23,6 +23,9 @@ jobs:
           node-version-file: '.nvmrc'
           cache: 'npm'
 
+      - name: Install dependencies 📦
+        run: npm ci
+
       - name: Check for outdated packages 🔍
         id: vars
         run: |
