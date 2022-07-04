@@ -1,6 +1,6 @@
 ---
 date: 2022-06-30 01:40:14 +02:00
-tags: [Mapbox]
+tags: [Mapbox, map, projection]
 ---
 
 The new globe projection in #Mapbox is awesome! 🤩
