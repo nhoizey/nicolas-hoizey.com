@@ -12,7 +12,7 @@ authors:
   - name: "Henk van Houtum"
     twitter: "henkvanhoutum"
     site: "https://henkvanhoutum.nl/"
-tags: [society]
+tags: [society, map]
 ---
 
 A great demonstration of how maps and dataviz can influence our understanding of what happens in the world, in our society.
