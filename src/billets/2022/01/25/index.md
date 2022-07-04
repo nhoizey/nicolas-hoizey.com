@@ -1,6 +1,6 @@
 ---
 date: 2022-01-25 19:46:22 +01:00
-tags: [photography]
+tags: [photography, map]
 photo:
   title: Le Petit Poucet
   url: https://nicolas-hoizey.photo/galleries/travels/europe/france/ile-de-france/paris/le-petit-poucet/
