@@ -2,7 +2,7 @@
 title:      "Google Maps s'emmêle les pédales"
 date: 2005-06-27 12:00:00 +02:00
 lang:       fr
-tags:       [fail, Google]
+tags:       [fail, Google, map]
 ---
 
 Ca y est enfin, [Google Maps](http://maps.google.com/) commence progressivement à être accessible au monde entier, et non plus uniquement aux Etats-Unis et au Royaume-Uni. Mais à quel prix ?
