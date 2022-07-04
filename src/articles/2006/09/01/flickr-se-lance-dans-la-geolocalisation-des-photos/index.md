@@ -2,7 +2,7 @@
 title:      "Flickr se lance dans la géolocalisation des photos"
 date: 2006-09-01 12:00:00 +02:00
 lang:       fr
-tags:       [photography, Flickr]
+tags:       [photography, Flickr, map]
 ---
 
 [Flickr](https://www.flickr.com/) vient de [lancer son système de géolocalisation](http://blog.flickr.com/flickrblog/2006/08/great_shot_wher.html) des photos, basé évidemment sur [Yahoo! Maps](http://maps.yahoo.com/)[^1], et le moins qu'on puisse dire est qu'ils ont créé une interface vraiment très aboutie !
