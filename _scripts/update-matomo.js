@@ -23,7 +23,12 @@ const ONE_DAY_IN_MS = 1000 * 60 * 60 * 24;
   } finally {
     if (getIt) {
       console.log(`Downloading a local copy of Matomo…`);
-      await download(REMOTE_URL, LOCAL_PATH);
+      try {
+        await download(REMOTE_URL, LOCAL_PATH, {timeout: 5000});
+      } catch (err) {
+        console.error(`Unable to download Matomo: ${err}`);
+        process.exit(1);
+      }
     }
   }
 })();
