@@ -27,7 +27,8 @@ const ONE_DAY_IN_MS = 1000 * 60 * 60 * 24;
         await download(REMOTE_URL, LOCAL_PATH, {timeout: 5000});
       } catch (err) {
         console.error(`Unable to download Matomo: ${err}`);
-        process.exit(1);
+        // This is not a big issue, we can continue without Matomo
+        process.exit(0);
       }
     }
   }
