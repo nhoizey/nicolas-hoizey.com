@@ -60,7 +60,7 @@ body {
 main {
   flex: 1;
 
-  margin: 0;
+  margin: 3 * dimensions.$gap 0 0;
 
   .wrap {
     @extend %flow;
