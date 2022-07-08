@@ -59,7 +59,6 @@ const tweetHashtagTohandle = (tweet) => {
     '#Pinboard': '@Pinboard',
     '#Rollup': '@RollupJS',
     '#Setapp': '@setapp',
-    '#Skypack': '@skypackjs',
     '#SpeedCurve': '@SpeedCurve',
     '#Svelte': '@sveltejs',
     '#Tailwind': '@tailwindcss',
