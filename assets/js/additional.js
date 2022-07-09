@@ -190,7 +190,7 @@ if (gifsNumber > 0) {
   handleReducedMotionChanged();
 
   // Note: https://webkit.org/b/168491
-  prefersReducedMotion.addListener(handleReducedMotionChanged);
+  prefersReducedMotion.addEventListener('change', handleReducedMotionChanged);
 }
 
 /*****************************************************************
