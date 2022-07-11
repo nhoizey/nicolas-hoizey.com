@@ -30,9 +30,9 @@
   --layout-max: 60rem;
 
   // Color ingredients
-  --sat: 50%;
+  --sat: 50%; // Rebecca Purple
   --sat-step: 4%;
-  --lum: 40%;
+  --lum: 40%; // Rebecca Purple
   --lum-step: 7%;
 
   // Colors
@@ -52,9 +52,9 @@
     );
   }
 
-  --color-link: var(--color-primary);
+  --color-link: var(--color-primary-darker-3);
   --color-link-bg: inherit;
-  --color-link-decoration: var(--color-primary-lighter-6);
+  --color-link-decoration: var(--color-primary-lighter-3);
 
   --color-link-hover: #fff;
   --color-link-hover-bg: var(--color-primary);
