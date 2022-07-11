@@ -1,6 +1,6 @@
 ---
 date: 2022-07-11 15:31:28 +00:00
-title: "Avoiding <img> layout shifts: aspect-ratio vs width & height attributes"
+title: "Avoiding &lt;img&gt; layout shifts: aspect-ratio vs width & height attributes"
 lang: en
 link: https://jakearchibald.com/2022/img-aspect-ratio/
 authors:
