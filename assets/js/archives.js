@@ -307,6 +307,7 @@ search.addWidgets([
   }),
   infiniteHits({
     container: '#hits',
+    escapeHTML: false,
     showPrevious: true,
     templates: {
       item(hit) {
