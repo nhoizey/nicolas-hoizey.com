@@ -378,6 +378,9 @@ img {
     }
   }
 
+  // base: min(90vw, 60rem)
+  // sizes="(min-width: 66.7rem) 60rem * 25%, (min-width: 30rem) 90vw * 25%, (min-width: 20rem) 90vw * 33%, 90vw * 50%"
+  // sizes="(min-width: 66.7rem) 15rem, (min-width: 30rem) 22.5vw, (min-width: 20rem) 30vw, 45vw"
   &.onefourth,
   &.logo {
     max-width: 50%;

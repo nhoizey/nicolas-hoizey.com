@@ -124,7 +124,7 @@ module.exports = {
     minWidth: 100,
     maxWidth: 400,
     sizes:
-      '(max-width: 20rem) 45vw, (max-width: 30rem) 30vw, (max-width: 67rem) 22.5vw, 15rem',
+      '(min-width: 66.7rem) 15rem, (min-width: 30rem) 22.5vw, (min-width: 20rem) 30vw, 45vw',
     classes: ['onefourth', 'right'],
   },
   avatar: {
@@ -135,11 +135,11 @@ module.exports = {
     sizes: '32px',
   },
   logo: {
-    fallbackWidth: 200,
-    minWidth: 100,
-    maxWidth: 400,
+    fallbackWidth: 150,
+    minWidth: 150, // 320px * 45%
+    maxWidth: 480, // 15rem * 16 * 2dppx
     sizes:
-      '(max-width: 20rem) 45vw, (max-width: 30rem) 30vw, (max-width: 67rem) 22.5vw, 15rem',
+      '(min-width: 66.7rem) 15rem, (min-width: 30rem) 22.5vw, (min-width: 20rem) 30vw, 45vw',
     figure: 'never',
     classes: ['logo'],
   },
