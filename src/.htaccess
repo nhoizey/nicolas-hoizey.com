@@ -673,18 +673,6 @@ FileETag None
   Header set Feature-Policy "ch-dpr 'self' https://res.cloudinary.com; ch-width 'self' https://res.cloudinary.com"
 </IfModule>
 
-# ------------------------------------------------------------------------------
-# | Permissions Policy                                                             |
-# ------------------------------------------------------------------------------
-
-# Add Permissions Policy to prevent Google FLoc (in Chrome)
-# https://twitter.com/DuckDuckGo/status/1380492473424736256
-# https://developer.chrome.com/blog/floc/#how-can-websites-opt-out-of-the-floc-computation
-
-<IfModule mod_headers.c>
-  Header set Permissions-Policy "interest-cohort=()"
-</IfModule>
-
 # ##############################################################################
 # # REDIRECTS                                                                  #
 # ##############################################################################
