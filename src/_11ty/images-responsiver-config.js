@@ -86,7 +86,7 @@ module.exports = {
     fallbackWidth: 800,
     minWidth: 360,
     maxWidth: 1600,
-    sizes: '(max-width: 67rem) 90vw, 60rem',
+    sizes: '(max-width: 66.7rem) 90vw, 60rem',
     attributes: {
       crossorigin: 'anonymous',
     },
@@ -95,28 +95,28 @@ module.exports = {
     fallbackWidth: 600,
     minWidth: 240,
     maxWidth: 1120,
-    sizes: '(max-width: 20rem) 45vw, (max-width: 67rem) 60vw, 40rem',
+    sizes: '(max-width: 20rem) 45vw, (max-width: 66.7rem) 60vw, 40rem',
     classes: ['twothirds'],
   },
   onehalf: {
     fallbackWidth: 400,
     minWidth: 180,
     maxWidth: 800,
-    sizes: '(max-width: 67rem) 45vw, 30rem',
+    sizes: '(max-width: 66.7rem) 45vw, 30rem',
     classes: ['onehalf'],
   },
   onethird: {
     fallbackWidth: 300,
     minWidth: 120,
     maxWidth: 560,
-    sizes: '(max-width: 20rem) 45vw, (max-width: 67rem) 30vw, 20rem',
+    sizes: '(max-width: 20rem) 45vw, (max-width: 66.7rem) 30vw, 20rem',
     classes: ['onethird', 'right'],
   },
   photo_du_jour: {
     fallbackWidth: 300,
     minWidth: 120,
     maxWidth: 560,
-    sizes: '(max-width: 20rem) 45vw, (max-width: 67rem) 30vw, 20rem',
+    sizes: '(max-width: 20rem) 45vw, (max-width: 66.7rem) 30vw, 20rem',
     figure: 'always',
   },
   onefourth: {
@@ -135,11 +135,20 @@ module.exports = {
     sizes: '32px',
   },
   logo: {
-    fallbackWidth: 150,
+    fallbackWidth: 240,
     minWidth: 150, // 320px * 45%
     maxWidth: 480, // 15rem * 16 * 2dppx
     sizes:
       '(min-width: 66.7rem) 15rem, (min-width: 30rem) 22.5vw, (min-width: 20rem) 30vw, 45vw',
+    figure: 'never',
+    classes: ['logo'],
+  },
+  portrait: {
+    fallbackWidth: 240,
+    minWidth: 150, // 320px * 45%
+    maxWidth: 480, // 15rem * 16 * 2dppx
+    sizes:
+      '(min-width: 66.7rem) 14.4rem, (min-width: 30rem) calc(22.5vw - .6rem), (min-width: 20rem) calc(30vw - .6rem), calc(45vw - .6rem)',
     figure: 'never',
     classes: ['logo'],
   },
@@ -156,13 +165,13 @@ module.exports = {
     fallbackWidth: 300,
     minWidth: 220,
     maxWidth: 1200,
-    sizes: '(min-width: 67rem) 24rem, (min-width: 40rem) 36vw, 90vw',
+    sizes: '(min-width: 66.7rem) 24rem, (min-width: 40rem) 36vw, 90vw',
   },
   card__illustration: {
-    fallbackWidth: 300,
+    fallbackWidth: 384,
     minWidth: 220,
-    maxWidth: 1200,
+    maxWidth: 1100,
     sizes:
-      '(min-width: 67rem) 18rem, (min-width: 48rem) calc(0.4 * (90vw - 15rem)), (min-width: 40rem) 36vw, 90vw',
+      '(min-width: 66.7rem) 23.4rem, (min-width: 30rem) calc(36vw - .6rem), calc(90vw - .6rem)',
   },
 };

@@ -33,6 +33,8 @@
   }
 }
 
+// sizes = (min-width: 66.7rem) calc(66.7rem * 90% * 40% - 2 * .15rem - 2 * .15rem), (min-width: 30rem) calc(90vw * 40% - 2 * .15rem - 2 * .15rem), calc(90vw - 2 * .15rem - 2 * .15rem)
+// sizes = (min-width: 66.7rem) calc(24rem - 4 * .15rem), (min-width: 30rem) calc(36vw - 4 * .15rem), calc(90vw - 4 * .15rem)
 .card__illustration {
   margin-top: 0;
 

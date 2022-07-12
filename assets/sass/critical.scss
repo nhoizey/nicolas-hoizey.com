@@ -440,13 +440,16 @@ img.border {
   margin: dimensions.$gap auto;
 }
 
+// base: min(90vw, 60rem)
+// sizes="(min-width: 66.7rem) calc(60rem * 25% - 2 * .15rem - 2 * .15rem), (min-width: 30rem) calc(90vw * 25% - 2 * .15rem - 2 * .15rem), (min-width: 20rem) calc(90vw * 33% - 2 * .15rem - 2 * .15rem), calc(90vw * 50% - 2 * .15rem - 2 * .15rem)"
+// sizes="(min-width: 66.7rem) 14.4rem, (min-width: 30rem) calc(22.5vw - .6rem), (min-width: 20rem) calc(30vw - .6rem), calc(45vw - .6rem)"
 .portrait {
+  background-color: white;
+  padding: dimensions.$border-width;
   border-color: var(--color-primary);
   border-style: solid;
   border-width: dimensions.$border-width;
   border-radius: 50%;
-
-  background-image: linear-gradient(55deg, #acf9fc, #70d4fc);
 }
 
 figcaption {

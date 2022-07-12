@@ -4,7 +4,7 @@ layout: page
 lang: en
 ---
 
-![](/assets/me/nicolas-hoizey.jpg){.logo}{.portrait}
+![](/assets/me/nicolas-hoizey.jpg){.portrait}
 ::: lead
 I am **passionate about [the Web](#i-love-the-web) and [photography](#i-love-photography)**, among [many interests](/tags/).
 :::
