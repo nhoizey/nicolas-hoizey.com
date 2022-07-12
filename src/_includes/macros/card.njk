@@ -1,4 +1,4 @@
-{% macro card(type = false, lang = 'en', surtitle = false, title = false, url = false, illustration = false, content = false, meta = false) %}
+{% macro card(type = false, lang = 'en', surtitle = false, title = false, url = false, illustration = false, content = false, meta = false, lazy = true) %}
   <li class="card-list__item">
     <article class="card {{ type or '' }} h-entry" lang="{{ lang }}">
       {% if illustration %}
@@ -8,7 +8,9 @@
           height="{{ illustration.height }}"
           src="{{ illustration.src }}"
           class="card__illustration {% if illustration.classes %}{{ illustration.classes }}{% endif %}"
-          crossorigin="anonymous" />
+          crossorigin="anonymous"
+          {% if lazy %}loading="lazy"{% endif %}
+          />
       {% endif %}
       {% if surtitle %}
         <p class="card__surtitle">{{ surtitle | safe }}</p>

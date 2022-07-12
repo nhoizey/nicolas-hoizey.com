@@ -1,7 +1,7 @@
 {% from "macros/meta.njk" import meta %}
 {% from "macros/card.njk" import card %}
 
-{% macro linkCard(link) %}
+{% macro linkCard(link, lazy = true) %}
   {% set thumbUrl = 'https://image.thum.io/get/width/1200/crop/800/noanimate/' %}
 
   {% set illustration = {
@@ -43,6 +43,7 @@
     url = link.url,
     illustration = illustration,
     content = content,
-    meta = meta)
+    meta = meta,
+    lazy = lazy)
   }}
 {% endmacro %}

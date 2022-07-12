@@ -41,7 +41,11 @@ permalink: /tags/{{ tag.slug }}/
     {% if item.data.layout == "article" %}
       {{ articleCard(item) }}
     {% elif item.data.layout == "link" %}
-      {{ linkCard(item) }}
+      {% if loop.index > 5 %}
+        {{ linkCard(item) }}
+      {% else %}
+        {{ linkCard(item, false) }}
+      {% endif %}
     {% elif item.data.layout == "note" %}
       {{ noteCard(item) }}
     {% elif item.data.layout == "billet" %}

@@ -125,7 +125,11 @@ title: Archives
                 {{ articleCard(item) }}
               {% endif %}
               {% if item.data.layout == 'link' %}
-                {{ linkCard(item) }}
+                {% if loop.index > 5 %}
+                  {{ linkCard(item) }}
+                {% else %}
+                  {{ linkCard(item, false) }}
+                {% endif %}
               {% endif %}
               {% if item.data.layout == 'note' %}
                 {{ noteCard(item) }}
@@ -143,7 +147,11 @@ title: Archives
                 {{ articleCard(item) }}
               {% endif %}
               {% if item.data.layout == 'link' %}
-                {{ linkCard(item) }}
+                {% if loop.index > 5 %}
+                  {{ linkCard(item) }}
+                {% else %}
+                  {{ linkCard(item, false) }}
+                {% endif %}
               {% endif %}
               {% if item.data.layout == 'note' %}
                 {{ noteCard(item) }}
@@ -164,7 +172,11 @@ title: Archives
                 {{ articleCard(item) }}
               {% endif %}
               {% if item.data.layout == 'link' %}
-                {{ linkCard(item) }}
+                {% if loop.index > 5 %}
+                  {{ linkCard(item) }}
+                {% else %}
+                  {{ linkCard(item, false) }}
+                {% endif %}
               {% endif %}
               {% if item.data.layout == 'note' %}
                 {{ noteCard(item) }}
