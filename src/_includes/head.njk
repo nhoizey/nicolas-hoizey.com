@@ -37,7 +37,8 @@
   <meta property="og:title" content="{{ opengraph.title }}" />
 
   {# https://stackoverflow.com/q/6203984/717195 #}
-  <meta name="description" property="og:description" content="{{ head.description }}" />
+  {# https://snook.ca/archives/html_and_css/open-graph-and-sharing-tags #}
+  <meta property="og:description" name="description" content="{{ head.description }}" />
 
   <link rel="canonical" href="{{ pkg.homepage + page.url }}" itemprop="url" />
   <meta property="og:url" content="{{ pkg.homepage + page.url }}" />
