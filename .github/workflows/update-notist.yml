@@ -1,0 +1,33 @@
+name: Check Webmentions
+on:
+  workflow_dispatch:
+
+jobs:
+  webmentions:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js ⚙️
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'npm'
+
+      - name: Install dependencies 📦
+        run: npm ci
+
+      - name: Run notist script
+        run: npm run notist >> $GITHUB_STEP_SUMMARY
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.PAT }}
+          branch: notist
+          delete-branch: true
+          commit-message: Update Notist data
+          title: Update Notist
+          labels: automerge 🤞

@@ -5,15 +5,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
 
-      - name: Select Node.js version
-        uses: actions/setup-node@v1
+      - name: Set up Node.js ⚙️
+        uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version-file: '.nvmrc'
+          cache: 'npm'
 
-      - name: Install dependencies
+      - name: Install dependencies 📦
         run: npm ci
 
-      - name: Run build
+      - name: Run build 🏗️
         run: npm run ci-check >> $GITHUB_STEP_SUMMARY

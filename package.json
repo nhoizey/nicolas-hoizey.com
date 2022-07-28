@@ -34,6 +34,7 @@
     "build:cloudflare": "cross-env NODE_ENV=production npm-run-all --parallel build:js build:sass --sequential build:eleventy serviceworker:inject",
     "notist": "node ./_scripts/update-notist.js",
     "webmention": "node ./_scripts/update-webmention.js",
+    "algolia": "node ./_scripts/update-algolia.js",
     "photo": "node ./_scripts/get-a-photo-of-the-day.js",
     "sprite": "node ./_scripts/generate-svg-sprite.js",
     "matomo": "node ./_scripts/update-matomo.js",
