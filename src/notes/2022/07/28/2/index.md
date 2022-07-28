@@ -3,7 +3,7 @@ date: 2022-07-28 22:38:36 +02:00
 tags: [photography, map, Google]
 ---
 
-Once [again]({% link_to "/billets/2022/01/25/" %}), I had a rough idea of the location where I took this photo 8 years ago, near the The Devil's Staircase in Scotland, but I couldn't remember precisely where:
+Once [again]({% link_to "/billets/2022/01/25/" %}), I had a rough idea of the location where I took this photo 8 years ago, near The Devil's Staircase in Scotland, but I couldn't remember precisely where:
 
 ![The photo in Lightroom](photo-lightrrom-scotland-landscape.jpg)
 
