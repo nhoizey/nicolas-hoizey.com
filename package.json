@@ -31,6 +31,7 @@
     "ci-check": "cross-env NODE_ENV=production npm-run-all --sequential clean --parallel build:js build:sass --sequential build:eleventy serviceworker:inject",
     "build:debug": "DEBUG=Eleventy* npm run build",
     "build:benchmark": "DEBUG=Eleventy:Benchmark* npm run build",
+    "build:cloudflare": "cross-env NODE_ENV=production npm-run-all --parallel build:js build:sass --sequential build:eleventy serviceworker:inject",
     "notist": "node ./_scripts/update-notist.js",
     "webmention": "node ./_scripts/update-webmention.js",
     "photo": "node ./_scripts/get-a-photo-of-the-day.js",
