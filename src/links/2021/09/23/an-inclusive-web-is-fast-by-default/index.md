@@ -7,7 +7,7 @@ authors:
   - name: "Simon Hearne"
     twitter: "SimonHearne"
     site: "https://simonhearne.com/"
-tags: [WebPerf]
+tags: [performance]
 ---
 
 This is a great talk!

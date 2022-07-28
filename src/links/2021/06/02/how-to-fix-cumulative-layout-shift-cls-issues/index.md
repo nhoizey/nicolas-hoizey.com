@@ -7,7 +7,7 @@ authors:
   - name: "Barry Pollard"
     twitter: "tunetheweb"
     site: "https://www.tunetheweb.com/"
-tags: [WebPerf]
+tags: [CLS, CWV, performance]
 ---
 
 Barry shows here a few ways to prevent layout shifts and make your visitors happier.

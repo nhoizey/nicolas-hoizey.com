@@ -7,7 +7,7 @@ authors:
   - name: "Harry Roberts"
     twitter: "csswizardry"
     site: "https://csswizardry.com/"
-tags: [font, WebPerf]
+tags: [font, performance]
 ---
 
 If you're using Google Fonts service instead of self-hosting the fonts (even if they come from Google Fonts), Harry shows here the optimal performance and UX you can get with it, with lot of details, but a really simple solution.

@@ -1,6 +1,6 @@
 ---
 date: 2022-05-24 16:15:21 +02:00
-tags: [mobile, RWD]
+tags: [mobile, responsive]
 ---
 
 Is there any public data about most common viewport widths and screen densities on the Web?

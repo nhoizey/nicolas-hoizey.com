@@ -7,7 +7,7 @@ authors:
   - name: "Tim Kadlec"
     twitter: "tkadlec"
     site: "https://timkadlec.com/"
-tags: [WebPerf, UX]
+tags: [performance, UX]
 ---
 
 > When the skeleton screen doesn’t match the outcome, <mark>we’ve created confusion and frustration that will overcome any benefit</mark> you might have gotten from trying to handle that delay in a better way.

@@ -7,7 +7,7 @@ authors:
   - name: "Tim Kadlec"
     twitter: "tkadlec"
     site: "https://timkadlec.com/"
-tags: [WebPerf]
+tags: [performance]
 ---
 
 > Because while the web keeps getting heavier and we keep moving further away from page weight as a primary performance metric, the data I’ve seen so far indicates <mark>folks who want low-data experiences are far more common than we may think</mark>.

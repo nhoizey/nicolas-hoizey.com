@@ -2,7 +2,7 @@
 title:      "Bouuuuh-stez votre site web !!!"
 date: 2001-02-21 12:00:00 +02:00
 lang:       fr
-tags:       [fail, WebPerf]
+tags:       [fail, performance]
 ---
 
 La technologie INA (Intelligent Network Acceleration) de [BoostWorks](http://www.boostworks.com/) utilisé dans le produit [BoostWeb Optimizer](http://www.boostworks.com/fr_bstkaa/products/boostweb.htm) « est une procédure sophistiquée de mémorisation et de compression qui optimise les performances du réseau tout en préservant l'intégrité et la qualité des données ».

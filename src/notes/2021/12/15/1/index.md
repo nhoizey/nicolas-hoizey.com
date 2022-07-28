@@ -1,6 +1,6 @@
 ---
 date: 2021-12-15 18:28:00 +01:00
-tags: [RWD, CSS]
+tags: [responsive, CSS]
 ---
 
 I started updating [my photography site](https://nicolas-hoizey.photo) with new Media Queries and CSS environment variables to make sure Surface Duo owners enjoy it even more! 🎉

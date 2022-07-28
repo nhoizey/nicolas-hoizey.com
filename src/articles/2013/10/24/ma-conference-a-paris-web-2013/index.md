@@ -2,7 +2,7 @@
 title:      Ma conférence à Paris Web 2013
 date: 2013-10-24 12:00:00 +02:00
 lang:       fr
-tags:       [Paris Web, conference, RWD, em, accessibility]
+tags:       [Paris Web, conference, responsive, em, accessibility]
 poster:     nicolas_hoizey_-_paris_web_2013_-_photo_par_fabrice_le_guernec_pour_paris_web.jpg
 ---
 

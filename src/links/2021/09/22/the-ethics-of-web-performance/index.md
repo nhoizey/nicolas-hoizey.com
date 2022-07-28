@@ -7,7 +7,7 @@ authors:
   - name: "Tim Kadlec"
     twitter: "tkadlec"
     site: "https://timkadlec.com/"
-tags: [WebPerf]
+tags: [performance]
 ---
 
 > The business models that support much of the content on the web don’t favor better performance. Nor does the culture of many organizations who end up prioritizing the next feature over improving things like performance or accessibility or security.

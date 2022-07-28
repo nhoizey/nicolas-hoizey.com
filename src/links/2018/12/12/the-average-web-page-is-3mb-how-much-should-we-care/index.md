@@ -6,7 +6,7 @@ link: https://speedcurve.com/blog/web-performance-page-bloat/
 authors:
   - name: "Tammy Everts"
     twitter: "tameverts"
-tags: [WebPerf]
+tags: [performance]
 ---
 
 > You can have large, robust pages that still feel fast. But <mark>you should care about page bloat</mark> in terms of how it affects mobile users, especially mobile-only users who are dealing with bandwidth constraints or data limits.

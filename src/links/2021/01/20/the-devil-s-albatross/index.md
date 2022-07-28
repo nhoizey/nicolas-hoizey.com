@@ -7,7 +7,7 @@ authors:
   - name: "Nils Binder"
     twitter: "supremebeing09"
     site: "https://ichimnetz.com/"
-tags: [CSS, RWD, Flexbox, layout]
+tags: [CSS, responsive, Flexbox, layout]
 ---
 
 A new nice responsive layout trick built upon Heydon Pickering's [Flexbox Holy Albatross]({% link_to "the-flexbox-holy-albatross-reincarnated" %}).

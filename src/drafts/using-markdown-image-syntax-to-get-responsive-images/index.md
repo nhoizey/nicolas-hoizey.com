@@ -1,7 +1,7 @@
 ---
 title: "Using the Markdown image syntax to get responsive images"
 lang:  en
-tags:  [Markdown, RWD, image, Cloudinary, Eleventy]
+tags:  [Markdown, responsive, image, Cloudinary, Eleventy]
 ---
 
 I've been writing Markdown content for years now. And I wish all websites were using responsive images for performance. Here's why and how I tried to help content writers get great responsive images without having to abandon Markdown's standard image syntax.

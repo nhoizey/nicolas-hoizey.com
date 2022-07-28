@@ -7,7 +7,7 @@ authors:
   - name: "Brian Louis Ramirez"
     twitter: "screenspan"
     site: "https://blr.design/"
-tags: [WebPerf, environment]
+tags: [performance, environment]
 ---
 
 > We humans are creatures of comfort. We like taking the easy route, the low-hanging fruit, the way that doesn’t make us think. […] In this article, I’ll show you <mark>how defaults can be used to save energy</mark> and thereby reduce CO₂ emissions in technology.

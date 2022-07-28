@@ -7,11 +7,11 @@ authors:
   - name: "Tim Kadlec"
     twitter: "tkadlec"
     site: "https://timkadlec.com/"
-tags: [WebPerf, AB test]
+tags: [performance, AB test]
 ---
 
 > Client-side A/B testing has been a performance loving developer’s worst friend for years.
-> 
+>
 > […]
-> 
+>
 > With either approach, <mark>you’re putting a pause button in the middle of your page load process. They can wreak havoc on a site’s performance</mark>.

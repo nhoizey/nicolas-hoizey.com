@@ -7,7 +7,7 @@ authors:
   - name: "Jason Grigsby"
     twitter: "grigs"
     site: "https://gri.gs/"
-tags: [100vh, CSS, viewport, RWD]
+tags: [100vh, CSS, viewport, responsive]
 ---
 
 6 years ago I reported [a bug about 100vh being larger than the viewport height in Safari]({% link_to "viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers" %}). It was "intentional" according to webkit/Safari team, and other browsers followed… 🤦‍♂️

@@ -7,7 +7,7 @@ authors:
   - name: "Nolan Lawson"
     mastodon: "https://toot.cafe/@nolan"
     site: "https://nolanlawson.com/"
-tags: [CSS, WebPerf]
+tags: [CSS, performance]
 ---
 
 This article is about style performance improvement with Shadow DOM, but it also contains a useful comparison of selector performance between ids, classes and data attributes:

@@ -7,7 +7,7 @@ authors:
   - name: "Emerson Loustau"
     twitter: "emersonthis"
     site: "https://emersonthis.com/"
-tags: [WebPerf, Lighthouse]
+tags: [performance, Lighthouse]
 ---
 
 Here is a great new open source tool provided by the Cloud Four team! 👍

@@ -7,7 +7,7 @@ authors:
   - name: "Zach Leatherman"
     twitter: "zachleat"
     site: "https://www.zachleat.com/"
-tags: [WebPerf, monitoring, Eleventy, Lighthouse]
+tags: [performance, monitoring, Eleventy, Lighthouse]
 ---
 
 If you don't have any budget for [Dareboost](/tags/dareboost/) (or competitors) yet, Speedlify can help you monitor your site's performance for free, and build your performance strategy to justify using even better tools:

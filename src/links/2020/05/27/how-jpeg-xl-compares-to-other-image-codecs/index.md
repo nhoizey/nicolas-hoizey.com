@@ -7,7 +7,7 @@ authors:
   - name: "Jon Sneyers"
     twitter: "jonsneyers"
     site: "http://sneyers.info/"
-tags: [image, RWD, JPEG XL]
+tags: [image, responsive, JPEG XL]
 ---
 
 With many competing image formats available, it's not always easy to know which one(s) we have to use to provide both the best performance and visual quality to Web users.

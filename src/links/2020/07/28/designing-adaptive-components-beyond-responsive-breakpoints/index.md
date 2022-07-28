@@ -7,7 +7,7 @@ authors:
   - name: "Stéphanie Walter"
     twitter: "walterstephanie"
     site: "https://stephaniewalter.design/"
-tags: [RWD]
+tags: [responsive]
 ---
 
 A great talk from Stéphanie about responsible use of responsive components:

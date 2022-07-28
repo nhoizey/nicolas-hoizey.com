@@ -2,7 +2,7 @@
 title:      Responsive Icons with SVG
 date: 2013-10-31 12:00:00 +02:00
 lang:       en
-tags:       [SVG, design, CSS, RWD]
+tags:       [SVG, design, CSS, responsive]
 promoted: true
 ---
 

@@ -2,7 +2,7 @@
 title:      esviji v2 sera complètement responsive
 date: 2015-03-10 12:00:00 +02:00
 lang:       fr
-tags:       [game, RWD, SVG, esviji]
+tags:       [game, responsive, SVG, esviji]
 ---
 
 Voilà plus d'un an que je travaille sur une nouvelle version de mon jeu *esviji* développé en technologies Web, et plus particulièrement en SVG. Avant la sortie prochaine de cette v2 sur tous vos écrans, voici déjà un petit *teasing* de son interface devenue complètement responsive.

@@ -7,7 +7,7 @@ authors:
   - name: "Carolina Gilabert"
     twitter: "CarolSaysThings"
     site: "https://carol.gg/"
-tags: [Eleventy, image, WebPerf]
+tags: [Eleventy, image, performance]
 ---
 
 Carol shares the process to build her new site with Eleventy, with a section about image optimisation, a topic I'm very interested in, as you should already know. 😅

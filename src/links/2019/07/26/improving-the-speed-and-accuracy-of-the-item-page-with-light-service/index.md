@@ -7,7 +7,7 @@ authors:
   - name: "Ramesh Periyathambi"
     twitter: "ebaytech"
     site: "https://www.ebayinc.com/stories/blogs/tech/"
-tags: [WebPerf]
+tags: [performance]
 ---
 
 Ramesh Periyathambi explains why eBay developed a dedicated "light" service to get critical informations about products, to speed up presentation of accurate content to buyers, and why it was worth the additional effort.

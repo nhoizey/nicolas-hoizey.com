@@ -7,7 +7,7 @@ authors:
   - name: "Ethan Marcotte"
     twitter: "beep"
     site: "https://ethanmarcotte.com/"
-tags: [RWD]
+tags: [responsive]
 ---
 
 I remember being really excited when I read Ethan's [Responsive Web Design article on A List Apart](https://alistapart.com/article/responsive-web-design/) and saw the [final responsive result](https://alistapart.github.io/code-samples/responsive-web-design/ex/ex-site-FINAL.html).

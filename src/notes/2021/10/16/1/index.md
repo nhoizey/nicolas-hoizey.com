@@ -1,6 +1,6 @@
 ---
 date: 2021-10-16 00:12:56 +02:00
-tags: [image, WebPerf]
+tags: [image, performance]
 ---
 
 > JPEG XL competes with AVIF which has similar compression quality but <mark>fewer features overall</mark>

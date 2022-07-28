@@ -1,6 +1,6 @@
 ---
 date: 2020-06-20 12:07:34 +02:00
-tags: [game, esviji, RWD, TV]
+tags: [game, esviji, responsive, TV]
 ---
 
 Would you play @esviji on your TV/console if d-pad/gamepad were supported?

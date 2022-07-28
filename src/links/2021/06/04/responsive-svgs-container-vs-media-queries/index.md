@@ -7,7 +7,7 @@ authors:
   - name: "Maarten Van Hoof"
     twitter: "mrtnvh"
     site: "https://mrtnvh.com/"
-tags: [SVG, RWD, CSS]
+tags: [SVG, responsive, CSS]
 ---
 
 Maarten shows here (only in Chrome Canary for now) how Container Queries will allow us to have responsive SVG images inline in the HTML.

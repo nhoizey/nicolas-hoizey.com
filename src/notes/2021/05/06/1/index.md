@@ -1,6 +1,6 @@
 ---
 date: 2021-05-06 19:28:43 +02:00
-tags: [image, WebPerf, WebP, Cloudinary]
+tags: [image, performance, WebP, Cloudinary]
 ---
 
 79.4 % of the requests made for images on my web sites are served as WebP by #Cloudinary:

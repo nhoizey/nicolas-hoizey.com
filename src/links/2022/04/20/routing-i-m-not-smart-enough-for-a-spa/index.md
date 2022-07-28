@@ -7,7 +7,7 @@ authors:
   - name: "Taylor Hunt"
     twitter: "tigt_"
     site: "https://ti.gt/"
-tags: [WebPerf, SPA, JavaScript]
+tags: [performance, SPA, JavaScript]
 ---
 
 Here comes Taylor's 4th article in his great ["Streets" series](https://dev.to/tigt/series/16560) about web performance and front end architectures.

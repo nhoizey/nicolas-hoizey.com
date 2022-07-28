@@ -7,7 +7,7 @@ authors:
   - name: "Jake Archibald"
     twitter: "jaffathecake"
     site: "https://jakearchibald.com/"
-tags: [image, RWD, performance]
+tags: [image, responsive, CLS, CWV, performance]
 ---
 
 Layout shifts are a real annoyance on most sites, so please, read this new gem from Jake, about preventing images layouut shifts the right way… or the right way**s** actually.

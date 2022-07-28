@@ -1,6 +1,6 @@
 ---
 date: 2021-12-24 10:20:49 +01:00
-tags: [WebPerf, Lighthouse, Speedlify]
+tags: [performance, Lighthouse, Speedlify]
 ---
 
 Looks like getting 4 💯 #Lighthouse scores in #Speedlify is more difficult than before… 🤔

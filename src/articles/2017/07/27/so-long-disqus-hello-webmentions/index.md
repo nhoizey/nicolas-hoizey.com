@@ -2,7 +2,7 @@
 title: So long Disqus, hello Webmention
 date: 2017-07-27 12:00:00 +02:00
 lang:  en
-tags:  [WebPerf, Webmention, IndieWeb]
+tags:  [performance, Webmention, IndieWeb]
 tweet: https://twitter.com/nhoizey/status/890635589170585600
 promoted: true
 ---

@@ -7,7 +7,7 @@ authors:
   - name: "Jake Archibald"
     twitter: "jaffathecake"
     site: "https://jakearchibald.com/"
-tags: [WebPerf]
+tags: [performance]
 ---
 
 Jake continues his series of web performance audits, this time with the site for Google's I/O conference, and the result is a real shame.

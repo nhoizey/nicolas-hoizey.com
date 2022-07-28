@@ -7,7 +7,7 @@ authors:
   - name: "Bryan L. Robinson"
     twitter: "brob"
     site: "https://bryanlrobinson.com/"
-tags: [Eleventy, JAMstack, WebPerf]
+tags: [Eleventy, JAMstack, performance]
 ---
 
 This is an excellent writeup of the different paths Bryan went to optimize the performance of his site built with Eleventy. I will definitely look for inspiration in this code.

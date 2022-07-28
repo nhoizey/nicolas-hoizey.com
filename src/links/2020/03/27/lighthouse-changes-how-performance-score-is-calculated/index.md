@@ -7,7 +7,7 @@ authors:
   - name: "Karolina Szczur"
     twitter: "fox"
     site: "https://thefox.is/"
-tags: [WebPerf, Lighthouse]
+tags: [performance, Lighthouse]
 ---
 
 > Lighthouse 6 is the first major release of the popular auditing tool since May 2019, introducing critical changes that **will impact everyone relying on the scoring**. Remember, the PageSpeed Score (which contributes to your SEO ranking) is the same as the Lighthouse Performance Score.

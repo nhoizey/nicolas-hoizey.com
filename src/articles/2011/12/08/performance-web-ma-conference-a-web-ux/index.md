@@ -2,7 +2,7 @@
 title:      Performance Web, ma conférence à Web UX
 date: 2011-12-08 12:00:00 +02:00
 lang:       fr
-tags:       [WebPerf, UX]
+tags:       [performance, UX]
 ---
 
 Pour ceux qui n'étaient pas présents à Web UX en mai 2011, et avec pas mal de retard[^1], voici mes slides, ainsi que la vidéo captée par l'équipe organisatrice.

@@ -1,6 +1,6 @@
 ---
 date: 2021-06-24 19:46:54 +02:00
-tags: [JavaScript, image, npm, RWD]
+tags: [JavaScript, image, npm, responsive]
 ---
 
 This [migration](https://github.com/nhoizey/images-responsiver/issues/138) from basicHTML to LinkeDOM in [images-responsiver](https://nhoizey.github.io/images-responsiver/) looks good! 😍

@@ -2,7 +2,7 @@
 title:      Retrouvons nous à Web UX et Sud Web les 26 et 27 mai
 date: 2011-04-28 12:00:00 +02:00
 lang:       fr
-tags:       [WebPerf, conference, UX]
+tags:       [performance, conference, UX]
 ---
 
 Vous le savez sans doute si vous me lisez régulièrement, sur ce blog ou via [mes tweets](https://twitter.com/nhoizey), je suis dingue de Web, et toujours intéressé par ses moyens de mise en œuvre, usages et acteurs, et donc très intéressé par tout événement permettant de mixer tout cela. Cette année, en plus de l'incontournable rendez-vous annuel [Paris Web](/2010/07/les-inscriptions-a-paris-web-2010-sont-ouvertes.html) en octobre, vous pourrez me croiser fin mai à Nîmes pour [Web UX](http://www.web-ux.org/) et [Sud Web](http://sudweb.fr/).

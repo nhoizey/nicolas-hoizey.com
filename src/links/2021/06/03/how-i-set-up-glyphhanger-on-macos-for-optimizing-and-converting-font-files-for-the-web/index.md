@@ -7,7 +7,7 @@ authors:
   - name: "Sara Soueidan"
     twitter: "SaraSoueidan"
     site: "https://www.sarasoueidan.com/"
-tags: [WebPerf, font, tool]
+tags: [performance, font, tool]
 ---
 
 I already had [Glyphhanger](https://github.com/zachleat/glyphhanger) installed on my computer, but I remember having similar issues, so Sara's article is welcome for anyone who wants to use it to optimize fonts weight, including future me.

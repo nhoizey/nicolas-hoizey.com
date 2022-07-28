@@ -7,7 +7,7 @@ authors:
   - name: "Ethan Marcotte"
     twitter: "beep"
     site: "https://ethanmarcotte.com/"
-tags: [RWD]
+tags: [responsive]
 ---
 
 > I generally avoid terms like “mobile”, “tablet”, and “desktop” in my work. It’s not that they’re bad; it’s because they’re broad. In my experience, terms like these confuse more than they clarify.

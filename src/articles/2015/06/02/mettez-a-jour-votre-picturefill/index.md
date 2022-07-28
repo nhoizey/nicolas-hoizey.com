@@ -2,7 +2,7 @@
 title:      Mettez à jour votre Picturefill !
 date: 2015-06-02 12:00:00 +02:00
 lang:       fr
-tags:       [RWD, image]
+tags:       [responsive, image]
 ---
 
 Si vous êtes un peu à jour dans vos développements responsives, vous avez adopté [le dernier standard pour les images](http://responsiveimages.org/) —`srcset`, `sizes` et éventuellement `picture`— et bien entendu l'excellent polyfill [Picturefill](https://scottjehl.github.io/picturefill/) qui apporte cette révolution à tous les navigateurs qui n'en disposent pas encore nativement. Si vous n'utilisez pas encore la [version 2.3.1](https://github.com/scottjehl/picturefill/releases/tag/2.3.1), [la dernière stable](https://github.com/scottjehl/picturefill/releases) à cet instant, **dépêchez-vous de faire la mise à jour !**

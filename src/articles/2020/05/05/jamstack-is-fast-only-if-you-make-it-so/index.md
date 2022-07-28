@@ -2,7 +2,7 @@
 date: 2020-05-05 12:13:01 +02:00
 title: "JAMstack is fast only if you make it so"
 lang:  en
-tags:  [JAMstack, WebPerf, API, Webmention]
+tags:  [JAMstack, performance, API, Webmention]
 promoted: true
 ---
 

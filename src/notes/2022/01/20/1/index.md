@@ -1,6 +1,6 @@
 ---
 date: 2022-01-20 18:52:44 +01:00
-tags: [Cloudinary, image, preload, WebPerf]
+tags: [Cloudinary, image, preload, performance]
 ---
 
 It looks like when I preload an image on #Cloudinary, the automatic best format selection (`f_auto`) doesn't work! 😱

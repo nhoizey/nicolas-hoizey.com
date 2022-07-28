@@ -1,6 +1,6 @@
 ---
 date: 2020-12-22 10:25:15 +01:00
-tags: [WebPerf]
+tags: [performance]
 ---
 
 We should use both `dns-prefetch` and `preconnect` (separately) to speed up connexions to additional servers in most browsers:

@@ -7,7 +7,7 @@ authors:
   - name: "Matt Hobbs"
     twitter: "TheRealNooshu"
     site: "https://nooshu.github.io/"
-tags: ["404", WebPerf]
+tags: ["404", performance]
 ---
 
 Nice overview of the issue encountered by users if your 404 error page weights too much, with actual data from HTTP Archive.

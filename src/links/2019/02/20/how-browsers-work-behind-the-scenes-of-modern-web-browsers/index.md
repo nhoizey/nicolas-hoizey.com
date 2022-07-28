@@ -5,7 +5,7 @@ lang: en
 link: https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
 authors:
   - name: "Tali Garsiel"
-tags: [WebPerf, browser]
+tags: [performance, browser]
 ---
 
 > As a web developer, learning the internals of browser operations helps you make better decisions and know the justifications behind development best practices. While this is a rather lengthy document, we recommend you spend some time digging in; we guarantee you’ll be glad you did.

@@ -7,7 +7,7 @@ authors:
   - name: "Simon Hearne"
     twitter: "SimonHearne"
     site: "https://simonhearne.com/"
-tags: [WebPerf, SEO]
+tags: [performance, SEO, CWV]
 ---
 
 Here's a great overview of both what will come soon in Google ranking algorithm, and how to detect and fix issues with these *Core Web Vitals*.

@@ -1,6 +1,6 @@
 ---
 date: 2020-07-01 11:30:16 +02:00
-tags: [WebPerf, Eleventy, Lighthouse, Speedlify]
+tags: [performance, Eleventy, Lighthouse, Speedlify]
 ---
 
 This new monitoring tool based on #Eleventy, built by @zachleat, is awesome! 😍

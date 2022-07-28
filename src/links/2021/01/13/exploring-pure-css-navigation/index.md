@@ -7,7 +7,7 @@ authors:
   - name: "Xiao Zhuo Jia"
     twitter: "XiaoZhuoJia"
     site: "http://www.miragecraft.com/"
-tags: [CSS, RWD]
+tags: [CSS, responsive]
 ---
 
 > So there it is, 5 different variations of fully accessible, CSS only mobile menu.

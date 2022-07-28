@@ -1,6 +1,6 @@
 ---
 date: 2020-09-23 22:51:33 +02:00
-tags: [Eleventy, image, RWD]
+tags: [Eleventy, image, responsive]
 ---
 
 Each step of `eleventy-plugin-images-responsiver` tutorial is both a README and a small Eleventy site with the plugin and progressively improving configuration and usage… 😎

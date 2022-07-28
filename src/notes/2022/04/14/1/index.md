@@ -1,6 +1,6 @@
 ---
 date: 2022-04-14 13:59:46 +02:00
-tags: [Netlify, WebPerf]
+tags: [Netlify, performance]
 ---
 
 TIL: [Configure an apex domain](https://docs.netlify.com/domains-https/custom-domains/configure-external-dns/#configure-an-apex-domain) on #Netlify

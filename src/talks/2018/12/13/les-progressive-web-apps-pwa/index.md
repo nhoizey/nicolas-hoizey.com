@@ -2,7 +2,7 @@
 date: 2018-12-13 10:00:00 +02:00
 lang: fr
 title: "Les Progressive Web Apps (PWA)"
-tags: [PWA, WebPerf, UX]
+tags: [PWA, performance, UX]
 notist_url: "https://talks.nicolas-hoizey.com/y2DE0Z/les-progressive-web-apps-pwa"
 illustration:
   src: "https://on.notist.cloud/slides/deck3257/thumb-0.jpg"

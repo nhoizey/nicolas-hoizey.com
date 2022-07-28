@@ -7,7 +7,7 @@ authors:
   - name: "Barry Pollard"
     twitter: "tunetheweb"
     site: "https://www.tunetheweb.com/"
-tags: [WebPerf]
+tags: [performance, CWV]
 ---
 
 Barry dives into data from HTTP Archive to show how Google's push for web performance with Core Web Vitals helped — or not 😅 — improve the performance of the Web.

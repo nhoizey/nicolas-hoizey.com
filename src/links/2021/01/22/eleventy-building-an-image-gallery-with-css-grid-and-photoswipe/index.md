@@ -7,7 +7,7 @@ authors:
   - name: "Mark Llobrera"
     twitter: "dirtystylus"
     site: "https://www.markllobrera.com/"
-tags: [image, Eleventy, RWD, WebPerf, Netlify]
+tags: [image, Eleventy, responsive, performance, Netlify]
 ---
 
 Mark is using my [Images Responsiver plugin for Eleventy](https://nhoizey.github.io/images-responsiver/eleventy-plugin-images-responsiver/) with [Netlify Large Media](https://www.netlify.com/products/large-media/) and [PhotoSwipe](https://photoswipe.com/) to build an image gallery, and it's really great!

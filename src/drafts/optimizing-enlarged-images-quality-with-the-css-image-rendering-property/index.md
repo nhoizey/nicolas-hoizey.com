@@ -1,7 +1,7 @@
 ---
 title: "Optimizing enlarged images quality with the CSS image-rendering property"
 lang:  en
-tags:  [CSS, image, RWD]
+tags:  [CSS, image, responsive]
 ---
 
 ::: lead

@@ -7,7 +7,7 @@ authors:
   - name: "Nicolas Goutay"
     twitter: "Phacks"
     site: "https://phacks.dev/"
-tags: [JAMstack, WebPerf, Eleventy]
+tags: [JAMstack, performance, Eleventy]
 ---
 
 > Not having to use a JavaScript framework also meant that HTML, not JSX or Vue components, is now front and center in the code you write. This helped me avoid the usual traps when writing React: the infamous div soup, inaccessible components, or non-semantic tags.

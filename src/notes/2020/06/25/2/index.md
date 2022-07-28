@@ -1,6 +1,6 @@
 ---
 date: 2020-06-25 11:41:04 +02:00
-tags: [WebPerf, Dareboost]
+tags: [performance, Dareboost]
 ---
 
 Looks like #Dareboost liked improvements made yesterday evening! 💪

@@ -2,7 +2,7 @@
 title: Optimiser la performance des images responsives
 date: 2018-03-30 12:00:00 +02:00
 lang:  fr
-tags:  [RWD, image, WebPerf]
+tags:  [responsive, image, performance]
 ---
 
 ::: lead

@@ -7,7 +7,7 @@ authors:
   - name: "Romaric Pascal"
     twitter: "romaricpascal"
     site: "https://romaricpascal.is/"
-tags: [font, WebPerf, CSS, custom properties]
+tags: [font, performance, CSS, custom properties]
 ---
 
 I do love beautiful Web fonts, even if there are none on this site currently, so I plan to add at least one soon. I might use this nice solution.

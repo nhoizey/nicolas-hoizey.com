@@ -2,7 +2,7 @@
 title:      Réconcilier SEO et WebPerf au niveau des redirections de (sous)domaines
 date: 2012-07-06 12:00:00 +02:00
 lang:       fr
-tags:       [SEO, WebPerf, WebPageTest]
+tags:       [SEO, performance, WebPageTest]
 ---
 
 Le SEO et la performance Web sont deux disciplines très différentes liées à la mise en ligne de sites Web, avec des objectifs qui parfois peuvent être contradictoires. Mais des fois, ce qui paraît contradictoire ne l'est en fait pas si on y regarde de plus près, avec un peu de pragmatisme.

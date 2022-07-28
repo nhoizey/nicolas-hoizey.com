@@ -2,7 +2,7 @@
 title:      Une ode à l'em
 date: 2013-12-10 12:00:00 +02:00
 lang:       fr
-tags:       [quality, RWD, em, accessibility]
+tags:       [quality, responsive, em, accessibility]
 ---
 
 Après avoir eu des retours plutôt nombreux et positifs suite à [ma conférence à Paris Web 2013](/2013/10/ma-conference-a-paris-web-2013.html), j'ai retroussé mes manches pour proposer une version plus rédactionnelle, en essayant de retranscrire tout ce que j'ai dit mais pas mis dans mes slides, et même plus. Et j'ai la chance d'avoir vu ce très long article publié sur [24 Jours de Web](http://www.24joursdeweb.fr/), « le calendrier de l'avent des gens qui font le web d'après ».

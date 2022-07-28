@@ -2,7 +2,7 @@
 title: Cloudinary fait la promotion de mon plugin Jekyll
 date: 2016-08-31 12:00:00 +02:00
 lang:  fr
-tags:  [Jekyll, Cloudinary, image, RWD]
+tags:  [Jekyll, Cloudinary, image, responsive]
 ---
 
 ::: lead

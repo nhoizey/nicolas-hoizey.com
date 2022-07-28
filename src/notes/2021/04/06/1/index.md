@@ -1,6 +1,6 @@
 ---
 date: 2021-04-06 19:21:03 +02:00
-tags: [CSS, viewport, RWD]
+tags: [CSS, viewport, responsive]
 ---
 
 > 4329 is a long discussion about how people are really, *really*, REALLY unhappy how on mobile the viewport units don't represent the size of the viewport — @fantasai <https://github.com/w3c/csswg-drafts/issues/4329#issuecomment-814281379>

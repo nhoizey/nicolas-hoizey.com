@@ -7,7 +7,7 @@ authors:
   - name: "Tyler Sticka"
     twitter: "tylersticka"
     site: "http://tylersticka.com/"
-tags: [SVG, WebPerf]
+tags: [SVG, performance]
 ---
 
 Using SVG with performance in mind is not an easy topic because there are many ways to show SVG images in pages.

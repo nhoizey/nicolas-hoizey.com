@@ -7,7 +7,7 @@ authors:
   - name: "Michelle Barker"
     twitter: "MicheBarks"
     site: "https://www.michellebarker.co.uk/"
-tags: [SVG, WebPerf]
+tags: [SVG, performance]
 ---
 
 > Optimising SVGs (scalable vector graphics) for web projects has the dual benefits of reducing the file size and making them easier to work with. […] In this article I’ll share my process for optimising SVG assets, which may help you if you’re a designer or developer unfamiliar with working with SVG on the web.

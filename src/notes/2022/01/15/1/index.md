@@ -1,6 +1,6 @@
 ---
 date: 2022-01-15 12:43:21 +01:00
-tags: [RWD, Pack11ty, EveryLayout, Eleventy]
+tags: [responsive, Pack11ty, EveryLayout, Eleventy]
 ---
 
 https://twitter.com/layoutplusplus/status/1481998586854449156

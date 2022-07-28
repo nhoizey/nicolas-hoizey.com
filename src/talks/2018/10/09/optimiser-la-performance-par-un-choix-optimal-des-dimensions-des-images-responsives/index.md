@@ -2,7 +2,7 @@
 date: 2018-10-09 15:10:00 +02:00
 lang: fr
 title: "Optimiser la performance par un choix optimal des dimensions des images responsives"
-tags: [RWD, image, WebPerf]
+tags: [responsive, image, performance]
 notist_url: "https://talks.nicolas-hoizey.com/U7c3zE/optimiser-la-performance-par-un-choix-optimal-des-dimensions-des-images-responsives"
 illustration:
   src: "https://on.notist.cloud/slides/deck1528/thumb-0.jpg"

@@ -7,7 +7,7 @@ authors:
   - name: "Tim Kadlec"
     twitter: "tkadlec"
     site: "https://timkadlec.com/"
-tags: [Netlify, Cloudinary, WebPerf]
+tags: [Netlify, Cloudinary, performance]
 ---
 
 > So we get reduced data cost, with no extra connection from the browser, and what appears to be pretty negligible cost at the CDN (the difference in response time for the final proxied images versus loading them without Cloudinary in place is barely noticeable in my tests)—and it all took just a few minutes to put into place.

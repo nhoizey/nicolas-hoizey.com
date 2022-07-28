@@ -7,7 +7,7 @@ authors:
   - name: "Tim Kadlec"
     twitter: "tkadlec"
     site: "http://timkadlec.com/"
-tags: [WebPerf, WebPageTest]
+tags: [performance, WebPageTest]
 ---
 
 The WebPageTest team has been working on improving the platform since Catchpoint acquired them, and now they're releasing awesome new features to help better test performance and try actual improvements! 😍

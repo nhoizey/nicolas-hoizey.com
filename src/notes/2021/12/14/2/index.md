@@ -1,6 +1,6 @@
 ---
 date: 2021-12-14 19:18:00 +01:00
-tags: [WebPerf, Cloudflare]
+tags: [performance, Cloudflare]
 ---
 
 Early Hints are now activated on https://nicolas-hoizey.photo ! 🎉
