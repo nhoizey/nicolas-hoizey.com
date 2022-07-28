@@ -1,6 +1,6 @@
 ---
 date: 2022-02-11 11:49:06 +01:00
-tags: [Webmention]
+tags: [Webmention, Google, analytics, Matomo]
 ---
 
 Comme [je disais]({% link_to "/billets/2022/02/10/" %}), c'est pas toujours simple de chercher l'indépendance des grosses plateformes.

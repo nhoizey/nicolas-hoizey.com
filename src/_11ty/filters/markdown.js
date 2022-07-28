@@ -44,7 +44,6 @@ const tweetHashtagTohandle = (tweet) => {
     '#Formula1': '@F1',
     '#Gandi': '@gandi_net',
     '#GitHub': '@github',
-    '#GoogleAnalytics': '@googleanalytics',
     '#IFTTT': '@IFTTT',
     '#Jekyll': '@jekyllrb',
     '#Jest': '@fbjest',

@@ -2,7 +2,7 @@
 title:      Qui a gagné un million ?
 date: 2009-12-28 12:00:00 +02:00
 lang:       fr
-tags:       [statistics]
+tags:       [statistics, analytics]
 ---
 
 Bon, c'est peu forcément par rapport à tant d'autres sites, mais petit à petit cet humble site personnel lancé [début 2001](/2001/01/phpmychat-copieusement-cite-en-exemple-dans-le-magazine-allemand-pc-online.html) a de plus en plus de visiteurs, et cela fait forcément plaisir d'avoir atteint un premier million de visites.

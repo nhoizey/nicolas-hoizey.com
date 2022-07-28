@@ -2,7 +2,7 @@
 title:      Google a-t-il encore des concurrents ?
 date: 2008-08-06 12:00:00 +02:00
 lang:       fr
-tags:       [Google, search, SEO]
+tags:       [Google, search, analytics, SEO]
 ---
 
 Après en avoir ramassé un ersatz à la petite [cuil](/2008/07/y-a-une-cuil-dans-le-potage.html)lère la semaine dernière, je me demande aujourd'hui si Google a réellement une concurrence, en tout cas sur le marché de la recherche sur le Web. Je constate effectivement dans Google Analytics que près de 90% du traffic arrivé sur Gastero Prod depuis un moteur de recherche[^1] est venu de Google !
