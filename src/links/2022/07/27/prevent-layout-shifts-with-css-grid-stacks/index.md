@@ -5,8 +5,8 @@ lang: en
 link: https://www.hsablonniere.com/prevent-layout-shifts-with-css-grid-stacks--qcj5jo/
 authors:
   - name: "Hubert Sablonnière"
-    twitter: "https://www.hsablonniere.com/"
-    site: "hsablonniere"
+    twitter: "hsablonniere"
+    site: "https://www.hsablonniere.com/"
 tags: [CSS, Grid, CLS, CWV, performance]
 ---
 
