@@ -1,4 +1,4 @@
-name: Check Webmentions
+name: Update Notist data
 on:
   workflow_dispatch:
 
