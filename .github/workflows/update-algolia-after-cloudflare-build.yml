@@ -3,6 +3,9 @@ on:
   push
 
 jobs:
+  strategy:
+    max-parallel: 1
+
   cf_pages_build:
     name: Cloudflare Pages build
 
