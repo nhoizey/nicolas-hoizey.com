@@ -1,6 +1,7 @@
 name: Update Algolia after Cloudflare Pages build
 on:
-  push
+  workflow_dispatch
+  # push
 
 jobs:
   algolia:
