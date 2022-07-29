@@ -30,7 +30,7 @@ Technologies:
 - Standards: HTML, CSS, JavaScript
 - Software : Eleventy, Cloudinary, Algolia
 - Tools    : VS Code
-- Hosting  : AlwaysData
+- Hosting  : Cloudflare
 - Code     : http://github.com/nhoizey/nicolas-hoizey.com
 
 [The humans responsible & technology colophon](http://humanstxt.org/)
