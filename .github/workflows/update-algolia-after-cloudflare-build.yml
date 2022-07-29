@@ -3,8 +3,8 @@ on:
   push
 
 jobs:
-  algolia:
-    runs-on: ubuntu-latest
+  cf_pages_build:
+    name: Cloudflare Pages build
 
     permissions:
       contents: read
@@ -21,6 +21,12 @@ jobs:
           # Add this if you want GitHub Deployments (see below)
           githubToken: ${{ secrets.GITHUB_TOKEN }}
 
+  algolia:
+    name: Update Algolia
+
+    runs-on: ubuntu-latest
+
+    steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
 
