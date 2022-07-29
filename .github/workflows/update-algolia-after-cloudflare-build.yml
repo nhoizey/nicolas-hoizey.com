@@ -13,7 +13,7 @@ jobs:
       deployments: write
 
     steps:
-      - name: Wait for Cloudflare Pages build
+      - name: Wait for Cloudflare Pages build ⏳
         id: cf-pages
         uses: WalshyDev/cf-pages-await@v1
         with:
