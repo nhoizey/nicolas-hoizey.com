@@ -6,6 +6,8 @@ jobs:
   cf_pages_build:
     name: Cloudflare Pages build
 
+    runs-on: ubuntu-latest
+
     permissions:
       contents: read
       deployments: write
