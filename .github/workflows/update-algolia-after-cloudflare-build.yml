@@ -1,0 +1,40 @@
+name: Update Algolia after Cloudflare build
+on:
+  push
+
+jobs:
+  algolia:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      deployments: write
+
+    steps:
+      - name: Wait for Cloudflare Pages build
+        id: cf-pages
+        uses: WalshyDev/cf-pages-await@v1
+        with:
+          apiToken: ${{ secrets.CF_BUILD_OBSERVER }}
+          accountId: '41a18d7b8a6ce962c521c5b83b91c350'
+          project: 'nicolas-hoizey.com'
+          # Add this if you want GitHub Deployments (see below)
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js ⚙️
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'npm'
+
+      - name: Install dependencies ⬇️
+        run: npm ci
+
+      - name: Update Algolia
+        env:
+          ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
+          ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
+        run: npm run algolia >> $GITHUB_STEP_SUMMARY
