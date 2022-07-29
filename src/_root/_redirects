@@ -1,6 +1,6 @@
-/*) /:splat 301
-
 /atom.xml /feeds/articles.xml 301
 /search.html /archives/ 301
 /archives.html /archives/ 301
 /search/ /archives/ 301
+
+/*) /:splat 301
