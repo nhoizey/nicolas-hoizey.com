@@ -1,13 +1,10 @@
-name: Update Algolia after Cloudflare build
+name: Update Algolia after Cloudflare Pages build
 on:
   push
 
 jobs:
-  strategy:
-    max-parallel: 1
-
-  cf_pages_build:
-    name: Cloudflare Pages build
+  algolia:
+    name: Update Algolia after Cloudflare Pages build
 
     runs-on: ubuntu-latest
 
@@ -26,12 +23,6 @@ jobs:
           # Add this if you want GitHub Deployments (see below)
           githubToken: ${{ secrets.GITHUB_TOKEN }}
 
-  algolia:
-    name: Update Algolia
-
-    runs-on: ubuntu-latest
-
-    steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
 
@@ -41,8 +32,12 @@ jobs:
           node-version-file: '.nvmrc'
           cache: 'npm'
 
-      - name: Install dependencies ⬇️
-        run: npm ci
+#      - name: Install dependencies ⬇️
+#        run: npm ci
+
+      - name: Install useful dependencies ⬇️
+        run: npm i atomic-algolia
+        run: npm i node-fetch
 
       - name: Update Algolia
         env:
