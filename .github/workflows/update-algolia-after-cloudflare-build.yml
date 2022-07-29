@@ -36,8 +36,9 @@ jobs:
 #        run: npm ci
 
       - name: Install useful dependencies ⬇️
-        run: npm i atomic-algolia
-        run: npm i node-fetch
+        run: |
+          npm i atomic-algolia
+          npm i node-fetch
 
       - name: Update Algolia
         env:
