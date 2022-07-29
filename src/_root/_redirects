@@ -1,4 +1,4 @@
-/:realurl) /:realurl 301
+/*) /:splat 301
 
 /atom.xml /feeds/articles.xml 301
 /search.html /archives/ 301
