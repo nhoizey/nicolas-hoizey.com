@@ -4,13 +4,6 @@ node_modules
 # generated files
 _site
 hashes_*.json
-functions
-
-# logs
-_logs
 
 # secret data
 .env
-
-# Local Netlify folder
-.netlify
