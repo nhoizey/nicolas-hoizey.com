@@ -55,7 +55,7 @@
     "@rollup/plugin-replace": "^3.1.0",
     "@sindresorhus/slugify": "^1.1.2",
     "atomic-algolia": "^0.3.19",
-    "autoprefixer": "^10.4.7",
+    "autoprefixer": "^10.4.8",
     "babel-loader": "^8.2.5",
     "bent": "^7.3.12",
     "bookmarklet": "^3.0.0",
@@ -99,7 +99,7 @@
     "prettier": "^2.7.1",
     "require-dir": "^1.2.0",
     "rimraf": "^3.0.2",
-    "rollup": "^2.77.0",
+    "rollup": "^2.77.2",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-entrypoint-hashmanifest": "^0.1.2",
@@ -121,7 +121,7 @@
     "twitter-text": "^3.1.0",
     "workbox-broadcast-update": "^6.2.4",
     "workbox-cacheable-response": "^6.2.4",
-    "workbox-cli": "^6.5.3",
+    "workbox-cli": "^6.5.4",
     "workbox-core": "^6.2.4",
     "workbox-expiration": "^6.2.4",
     "workbox-google-analytics": "^6.2.4",
@@ -134,7 +134,7 @@
   },
   "private": true,
   "dependencies": {
-    "algoliasearch": "^4.14.1",
+    "algoliasearch": "^4.14.2",
     "instantsearch.js": "^4.43.1"
   }
 }
