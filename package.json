@@ -36,7 +36,7 @@
     "webmention": "node ./_scripts/update-webmention.js",
     "algolia:script": "node ./_scripts/update-algolia.js",
     "algolia": "atomic-algolia",
-    "algolia:cloudflare": "if-env CF_PAGES_BRANCH=main && npm run algolia || echo 'Skipping algolia on preview builds'",
+    "algolia:cloudflare": "if-env CF_PAGES_BRANCH=main && npm run algolia || echo 'Skipping Algolia update on preview builds'",
     "photo": "node ./_scripts/get-a-photo-of-the-day.js",
     "sprite": "node ./_scripts/generate-svg-sprite.js",
     "matomo": "node ./_scripts/update-matomo.js",
