@@ -3,7 +3,7 @@ date: 2022-08-03 22:45:03 +02:00
 tags: [Cloudflare, npm]
 ---
 
-To adjust builds on #Cloudflare Pages previews, I found [the `if-env` npm package](https://www.npmjs.com/package/if-env) and [the `CF_PAGES_BRANCH` variable](https://developers.cloudflare.com/pages/platform/build-configuration/#environment-variables):
+To have different builds for #Cloudflare Pages previews, I found [`if-env`](https://www.npmjs.com/package/if-env) and [the `CF_PAGES_BRANCH` variable](https://developers.cloudflare.com/pages/platform/build-configuration/#environment-variables):
 
 ```json
 {
@@ -12,5 +12,3 @@ To adjust builds on #Cloudflare Pages previews, I found [the `if-env` npm packag
   }
 }
 ```
-
-Awkward syntax though…
