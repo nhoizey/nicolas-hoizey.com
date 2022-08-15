@@ -62,7 +62,7 @@
     "chalk": "^4.1.2",
     "cheerio": "^1.0.0-rc.10",
     "cross-env": "^7.0.3",
-    "cssnano": "^5.1.12",
+    "cssnano": "^5.1.13",
     "dotenv": "^10.0.0",
     "download": "^8.0.0",
     "eleventy-plugin-embed-everything": "^1.14.1",
@@ -99,14 +99,14 @@
     "prettier": "^2.7.1",
     "require-dir": "^1.2.0",
     "rimraf": "^3.0.2",
-    "rollup": "^2.77.2",
+    "rollup": "^2.78.0",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-entrypoint-hashmanifest": "^0.1.2",
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-visualizer": "^5.7.1",
     "sanitize-html": "^2.7.1",
-    "sass": "^1.54.3",
+    "sass": "^1.54.4",
     "simple-icons": "^5.24.0",
     "stylelint": "^13.13.1",
     "stylelint-config-idiomatic-order": "^8.1.0",
@@ -135,6 +135,6 @@
   "private": true,
   "dependencies": {
     "algoliasearch": "^4.14.2",
-    "instantsearch.js": "^4.43.1"
+    "instantsearch.js": "^4.44.0"
   }
 }
