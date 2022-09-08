@@ -81,7 +81,7 @@
         color: white;
         }
 
-    &.current {
+    &[aria-current="page"] {
       a:link,
       a:visited {
         color: var(--color-primary);

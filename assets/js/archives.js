@@ -31,11 +31,10 @@ const unescapeHtml = (input) => {
 const activateNavItem = (type) => {
   document.querySelectorAll('.navigation li').forEach((li) => {
     const link = li.querySelectorAll(`a[href="/${type}/"]`);
-    // TODO: also update ARIA
     if (link.length === 1) {
-      li.classList.add('current');
+      li.setAttribute('aria-current', 'page');
     } else {
-      li.classList.remove('current');
+      li.removeAttribute('aria-current');
     }
   });
 };

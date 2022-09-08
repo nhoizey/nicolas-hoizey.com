@@ -21,7 +21,9 @@ const observable =
  * ****************************************************************/
 
 (function (window) {
-  let current = window.document.querySelector('.navigation .current');
+  let current = window.document.querySelector(
+    '.navigation [aria-current="page"]'
+  );
   if (current) {
     current.scrollIntoView({
       behavior: 'smooth',
