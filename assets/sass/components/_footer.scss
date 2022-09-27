@@ -17,6 +17,9 @@
   margin: 1em 0 0;
   padding: 1em 0;
 
+  // https://www.smashingmagazine.com/2021/04/humble-img-element-core-web-vitals/#lazy-render-offscreen-content
+  content-visibility: auto;
+
   // transition color and padding if background image is added with JS
   color: currentColor;
   white-space: nowrap;
