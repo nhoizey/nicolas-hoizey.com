@@ -35,6 +35,8 @@ html {
 }
 
 body {
+  min-height: var(--full-height);
+
   color: var(--color-primary-darker-6);
 
   font-family: fonts.$font-family-serif;

@@ -6,6 +6,7 @@
   @extend %clearfix;
   @extend %flow;
 
+  // TODO: still useful?
   .lazy {
     --flow-space: #{3 * dimensions.$gap};
     @extend %flow;
