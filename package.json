@@ -42,7 +42,9 @@
     "matomo": "node ./_scripts/update-matomo.js",
     "lint:sass": "stylelint 'assets/**/*.scss'",
     "fix:sass": "stylelint --fix 'assets/**/*.scss'",
-    "bookmarklet": "bookmarklet --demo assets/js/bookmarklet.js src/tools/bookmarklet.html"
+    "bookmarklets:link": "bookmarklet --demo assets/js/bookmarklets/new-link.js src/tools/bookmarklets/new-link.html",
+    "bookmarklets:note": "bookmarklet --demo assets/js/bookmarklets/new-note.js src/tools/bookmarklets/new-note.html",
+    "bookmarklets": "npm-run-all --parallel bookmarklets:*"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",

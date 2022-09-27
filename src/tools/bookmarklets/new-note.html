@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      html,body,div { margin: 0; padding: 0; font: normal 16px/24px Helvetica Neue, Helvetica, sans-serif; color: #333; }
+      #main { max-width: 630px; margin: 3em auto; }
+      .bookmarklet { display: inline-block; padding: .5em 1em; color: #fff; background: #50dcf3; border-radius: 4px; text-decoration: none; }
+      a { color: #50dcf3; }
+      .dim { color: #999; }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <h1>+note</h1>
+      <p>
+        Drag this button to your bookmarks bar to save it as a bookmarklet:
+      </p>
+      <p>
+        <a class="bookmarklet" href="javascript:(function()%7Blet%20title%3Dwindow.prompt(%22Title%20of%20the%20link%3F%22%2CpageTitle)%3Bif(null!%3D%3Dtitle)%7Blet%20n%3Dwindow.prompt(%22Slug%20of%20the%20link%3F%22%2Cslugify(title))%3Bif(null!%3D%3Dn)%7Bconst%20e%3D(new%20Date).toISOString().replace(%22T%22%2C%22%20%22).replace(%2F%5C.%5B0-9%5D%7B3%7DZ%2F%2C%22%20%2B00%3A00%22)%3Blet%20t%3D%60---%5Cndate%3A%20%24%7Be%7D%5Cntitle%3A%20%22%24%7Btitle%7D%22%5Cnlang%3A%20en%5Cnlink%3A%20%24%7BlinkUrl%7D%5Cnauthors%3A%5Cn%20%20-%20name%3A%20%22%22%5Cn%20%20%20%20twitter%3A%20%22%22%5Cn%20%20%20%20site%3A%20%22%22%5Cntags%3A%20%5B%5D%5Cn---%5Cn%5Cn%5Cn%24%7BlinkContent%3F%60%3E%20%24%7BlinkContent.replaceAll(%22%5Cn%22%2C%22%5Cn%3E%20%22)%7D%60%3A%22%22%7D%5Cn%60%3Blet%20l%3D%60https%3A%2F%2Fgithub.com%2Fnhoizey%2Fnicolas-hoizey.com%2Fnew%2Fmain%2F%3Ffilename%3D%24%7B%60src%2Flinks%2F%24%7Be.slice(0%2C10).replaceAll(%22-%22%2C%22%2F%22)%7D%2F%24%7Bn%7D%2Findex.md%60%7D%26value%3D%24%7BencodeURIComponent(t)%7D%60%3Bwindow.open(l)%7D%7D%7D)()">+note</a>
+      </p>
+      
+      <p class="dim">This page was created with the <a href="https://github.com/mrcoles/bookmarklet">bookmarklet</a> npm library.</p>
+    </div>
+  </body>
+</html>
