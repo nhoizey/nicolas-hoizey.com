@@ -1,6 +1,6 @@
 ---
 date: 2021-01-06 00:21:28 +01:00
-tags: [Design Tokens]
+tags: [Design Tokens, Style Dictionary]
 ---
 
 Wrote my own transform from `px` to `rem` values for [Style Dictionary](https://amzn.github.io/style-dictionary/) and discovered just after that @jbarreiros already did it for the upcoming v3… 😅
