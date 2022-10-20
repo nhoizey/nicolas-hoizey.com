@@ -15,3 +15,5 @@ tags: [accessibility, UX]
 > […]
 > 
 > My question is: **why fix it, when you could design and build it right to start with?**
+
+As always with Stéphanie, this awesome resource is also available in French: [Documenter l’accessibilité en phase de design !](https://stephaniewalter.design/fr/blog/documenter-accessibilite-en-phase-de-design/)
