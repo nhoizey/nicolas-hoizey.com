@@ -7,7 +7,7 @@ authors:
   - name: "Brian Louis Ramirez"
     twitter: "screenspan"
     site: "https://screenspan.net/"
-tags: [performance, font, CSS]
+tags: [performance, font, CSS, CLS]
 ---
 
 > Reduce Cumulative Layout Shift (CLS) by adjusting web fonts and system font fallbacks using special @font-face descriptors.

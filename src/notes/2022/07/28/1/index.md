@@ -1,6 +1,6 @@
 ---
 date: 2022-07-28 11:40:41 +02:00
-tags: [search, Algolia, CLS]
+tags: [search, Algolia]
 ---
 
 I use [my own site's search]({% link_to "enhancing-archives-navigation-step-2" %}) every day, mostly because the links I put here are useful very often. 🤩
