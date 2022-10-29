@@ -1,3 +1,7 @@
+/**
+ *  @param {import("@11ty/eleventy/src/UserConfig")} eleventyConfig
+ */
+
 const glob = require('fast-glob');
 const path = require('path');
 const config = require('./pack11ty.config.js');
