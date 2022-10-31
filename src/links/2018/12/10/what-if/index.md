@@ -6,6 +6,7 @@ link: https://csswizardry.com/2018/11/what-if/
 authors:
   - name: "Harry Roberts"
     twitter: "csswizardry"
+    site: "https://csswizardry.com/"
 tags: [progressive enhancement, JavaScript]
 ---
 
