@@ -57,14 +57,14 @@
     "@rollup/plugin-replace": "^3.1.0",
     "@sindresorhus/slugify": "^1.1.2",
     "atomic-algolia": "^0.3.19",
-    "autoprefixer": "^10.4.12",
+    "autoprefixer": "^10.4.13",
     "babel-loader": "^8.2.5",
     "bent": "^7.3.12",
     "bookmarklet": "^3.0.0",
     "chalk": "^4.1.2",
     "cheerio": "^1.0.0-rc.10",
     "cross-env": "^7.0.3",
-    "cssnano": "^5.1.13",
+    "cssnano": "^5.1.14",
     "dotenv": "^10.0.0",
     "download": "^8.0.0",
     "eleventy-plugin-embed-everything": "^1.14.1",
@@ -107,7 +107,7 @@
     "rollup-plugin-entrypoint-hashmanifest": "^0.1.2",
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-visualizer": "^5.8.3",
-    "sanitize-html": "^2.7.2",
+    "sanitize-html": "^2.7.3",
     "sass": "^1.55.0",
     "simple-icons": "^5.24.0",
     "stylelint": "^13.13.1",
@@ -116,7 +116,7 @@
     "stylelint-config-sass-guidelines": "^8.0.0",
     "stylelint-config-standard": "^22.0.0",
     "stylelint-order": "^4.1.0",
-    "stylelint-semantic-groups": "^1.1.4",
+    "stylelint-semantic-groups": "^1.2.0",
     "svgstore": "^3.0.1",
     "truncate-html": "^1.0.4",
     "twitter": "^1.7.1",
@@ -137,6 +137,6 @@
   "private": true,
   "dependencies": {
     "algoliasearch": "^4.14.2",
-    "instantsearch.js": "^4.48.1"
+    "instantsearch.js": "^4.49.0"
   }
 }
