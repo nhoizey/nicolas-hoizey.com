@@ -17,16 +17,11 @@
 
   // Scroll shadows
   // https://lea.verou.me/2012/04/background-attachment-local/
-  background:
-    linear-gradient(90deg, #fff 33%, rgba(255, 255, 255, 0)),
+  background: linear-gradient(90deg, #fff 33%, rgba(255, 255, 255, 0)),
     linear-gradient(90deg, rgba(255, 255, 255, 0), #fff 66%) 0 100%,
-    radial-gradient(farthest-side at 0 50%, rgba(0, 0, 0, .5), transparent),
-    radial-gradient(farthest-side at 100% 50%, rgba(0, 0, 0, .5), transparent) 0 100%;
-  background-position-x: 0%, 0px, 0%, 0px;
-  background-position-y: 0%, 100%, 0%, 100%;
-  background-repeat: repeat, repeat, repeat, repeat;
-  background-attachment: scroll, scroll, scroll, scroll;
-  background-size: auto, auto, auto, auto;
+    radial-gradient(farthest-side at 0 50%, rgba(0, 0, 0, 0.5), transparent),
+    radial-gradient(farthest-side at 100% 50%, rgba(0, 0, 0, 0.5), transparent)
+      0 100%;
   background-repeat: no-repeat;
   background-size: 20px 100%, 20px 100%, 10px 100%, 10px 100%;
   background-position: 0 0, 100%, 0 0, 100%;
@@ -42,14 +37,14 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    gap: .5rem;
+    gap: 0.5rem;
     justify-content: space-between;
   }
 
   ul {
     display: flex;
     flex-wrap: nowrap;
-    gap: .1em;
+    gap: 0.1em;
 
     margin: 0;
     padding: 0;
@@ -68,7 +63,7 @@
       display: inline-block;
 
       margin: 0;
-      padding: 0.1em .5em;
+      padding: 0.1em 0.5em;
 
       white-space: nowrap;
       text-decoration: none;
@@ -78,10 +73,10 @@
 
     a:hover,
     a:focus {
-        color: white;
-        }
+      color: white;
+    }
 
-    &[aria-current="page"] {
+    &[aria-current='page'] {
       a:link,
       a:visited {
         color: var(--color-primary);
