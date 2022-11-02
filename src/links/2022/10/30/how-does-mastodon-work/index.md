@@ -6,7 +6,7 @@ link: https://kevquirk.com/how-does-mastodon-work
 authors:
   - name: "Kev Quirk"
     twitter: "kevquirk"
-    mastodon: "https://fosstodon.org/@kev"
+    mastodon: "@kev@fosstodon.org"
     site: "https://kevquirk.com/"
 tags: [Mastodon]
 ---

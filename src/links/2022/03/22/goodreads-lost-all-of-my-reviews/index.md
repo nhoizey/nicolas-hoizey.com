@@ -5,7 +5,7 @@ lang: en
 link: https://www.somebits.com/weblog/tech/bad/goodreads-lost-all-my-data.html
 authors:
   - name: "Nelson Minar"
-    mastodon: "https://lgbt.io/@nelson"
+    mastodon: "@nelson@lgbt.io"
     site: "https://www.somebits.com/"
 tags: [IndieWeb]
 ---

@@ -6,7 +6,7 @@ link: https://briefs.video/videos/is-html-a-programming-language/
 authors:
   - name: "Heydon Pickering"
     twitter: "heydonworks"
-    mastodon: "https://mastodon.social/@heydon"
+    mastodon: "@heydon@mastodon.social"
     site: "https://heydonworks.com/"
 tags: [HTML]
 ---

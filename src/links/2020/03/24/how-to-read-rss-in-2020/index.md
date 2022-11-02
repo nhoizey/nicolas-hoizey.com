@@ -6,7 +6,7 @@ link: https://laurakalbag.com/how-to-read-rss-in-2020/
 authors:
   - name: "Laura Kalbag"
     twitter: "laurakalbag"
-    mastodon: "https://mastodon.laurakalbag.com/@laura"
+    mastodon: "@laura@mastodon.laurakalbag.com"
     site: "https://laurakalbag.com/"
 tags: [feed]
 ---

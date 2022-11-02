@@ -6,7 +6,7 @@ link: https://briefs.video/videos/why-the-indieweb/
 authors:
   - name: "Heydon Pickering"
     twitter: "heydonworks"
-    mastodon: "https://mastodon.social/heydon"
+    mastodon: "@heydon@mastodon.social"
     site: "https://heydonworks.com/"
 tags: [IndieWeb]
 ---

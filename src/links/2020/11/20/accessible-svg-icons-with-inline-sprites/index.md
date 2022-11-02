@@ -6,7 +6,7 @@ link: https://www.24a11y.com/2018/accessible-svg-icons-with-inline-sprites/
 authors:
   - name: "Marco Hengstenberg"
     twitter: "nice2meatu"
-    mastodon: "https://mastodon.social/@nice2meatu"
+    mastodon: "@nice2meatu@mastodon.social"
 tags: [SVG, accessibility]
 ---
 

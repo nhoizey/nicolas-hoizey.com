@@ -6,7 +6,7 @@ link: https://kevquirk.com/getting-started-with-mastodon/
 authors:
   - name: "Kev Quirk"
     twitter: "kevquirk"
-    mastodon: "https://fosstodon.org/@kev"
+    mastodon: "@kev@fosstodon.org"
     site: "https://kevquirk.com/"
 tags: [Mastodon]
 ---

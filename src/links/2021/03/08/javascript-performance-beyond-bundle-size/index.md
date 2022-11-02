@@ -5,7 +5,7 @@ lang: en
 link: https://nolanlawson.com/2021/02/23/javascript-performance-beyond-bundle-size/
 authors:
   - name: "Nolan Lawson"
-    mastodon: "https://toot.cafe/@nolan"
+    mastodon: "@nolan@toot.cafe"
     site: "https://nolanlawson.com/"
 tags: [performance, JavaScript]
 ---
