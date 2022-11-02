@@ -6,6 +6,7 @@ link: https://www.matuzo.at/blog/2022/your-account-is-permanently-suspended/
 authors:
   - name: "Manuel Matuzović"
     twitter: "mmatuzo"
+    mastodon: "https://mastodon.social/@matuzo"
     site: "https://www.matuzo.at/"
 tags: [IndieWeb, POSSE]
 ---
