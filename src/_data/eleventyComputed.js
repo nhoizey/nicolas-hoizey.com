@@ -47,6 +47,15 @@ function htmlAuthors(data) {
         html += `<img class="u-photo avatar" src="https://res.cloudinary.com/nho/image/twitter_name/${author.twitter}" alt="${author.name} avatar" loading="lazy" width="48" height="48" /> `;
       }
       html += `<b class="p-name">${author.name}</b>`;
+      if (author.mastodon) {
+        const mastodonUrl = author.mastodon.replace(
+          /^(@[^@]+)@(.*)$/,
+          'https://$2/$1'
+        );
+        const mastodonId = author.mastodon.replace(/^(@[^@]+)@.*$/, '$1');
+        author.mastodon = { url: mastodonUrl, id: mastodonId };
+        html += ` <a class="author__mastodon" href="${mastodonUrl}" aria-label="${mastodonId} on Mastodon"><svg><use xlink:href="#symbol-mastodon" /></svg></a>`;
+      }
       if (author.twitter) {
         html += ` <a class="author__twitter" href="https://twitter.com/${author.twitter}" aria-label="@${author.twitter} on Twitter"><svg><use xlink:href="#symbol-twitter" /></svg></a>`;
       }

@@ -1,7 +1,6 @@
 @use '../variables/colors';
 @use '../variables/dimensions';
 
-
 .page .link__url {
   margin-top: 2 * dimensions.$gap;
   margin-bottom: 2 * dimensions.$gap;
@@ -9,21 +8,16 @@
   font-size: var(--font-size-xl);
 }
 
-.author__twitter {
+.author__twitter,
+.author__mastodon {
   font-size: 0.9em;
   vertical-align: text-bottom;
 
   svg {
-    fill: none;
-    stroke: currentColor;
-    stroke-width: 2px;
+    fill: currentColor;
+    stroke-width: 0;
     stroke-linecap: round;
     stroke-linejoin: round;
-  }
-
-  &:link,
-  &:visited {
-    color: colors.$color-twitter;
   }
 
   &:hover,
@@ -32,8 +26,21 @@
     background-color: transparent;
 
     svg {
-      fill: currentColor;
-      stroke-width: 0;
+      transform: scale(1.2);
     }
+  }
+}
+
+.author__twitter {
+  &:link,
+  &:visited {
+    color: colors.$color-twitter;
+  }
+}
+
+.author__mastodon {
+  &:link,
+  &:visited {
+    color: colors.$color-mastodon;
   }
 }

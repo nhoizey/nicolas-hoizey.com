@@ -12,4 +12,4 @@ tags: [feed]
 
 > Guess which format is going to outlast all these proprietary syndication formats. I’d say RSS, which I believe to be true, but really, it’s HTML.
 
-Chris didn't even mention Atom, the other XML-based standard for feeds… [the one I use]({% link_to "/feeds/" %}). 😔
+Chris didn't even mention Atom, the other XML-based standard for feeds… [the one I use](/feeds/). 😔
