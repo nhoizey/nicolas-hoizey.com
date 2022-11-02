@@ -68,6 +68,7 @@ const tweetHashtagTohandle = (tweet) => {
     '#webhint': '@webhintio',
     '#Workbox': '@workboxjs',
     '#WebPageTest': '@RealWebPageTest',
+    '@media': '@​media',
   };
   for (const tag in handles) {
     tweet = tweet.replace(tag, handles[tag]);
