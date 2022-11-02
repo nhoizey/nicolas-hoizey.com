@@ -70,6 +70,9 @@ permalink: /tools/algolia.json
         <img class="u-photo avatar" src="https://res.cloudinary.com/nho/image/twitter_name/q_auto,f_auto,w_64,c_limit/{{ author.twitter }}" alt="{{ author.name }} avatar" width="48" height="48" />
       {% endif -%}
       {{ author.name }}
+      {%- if author.mastodon %}
+        <a class="author__mastodon" href="{{ author.mastodon.url }}" aria-label="{{ author.mastodon.id }} on Mastodon"><svg><use xlink:href="#symbol-mastodon" /></svg></a>
+      {%- endif %}
       {%- if author.twitter %}
         <a class="author__twitter" href="https://twitter.com/{{ author.twitter }}" aria-label="@{{ author.twitter }} on Twitter"><svg><use xlink:href="#symbol-twitter" /></svg></a>
       {%- endif %}
