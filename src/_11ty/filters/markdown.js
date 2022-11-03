@@ -71,7 +71,7 @@ const tweetHashtagTohandle = (tweet) => {
     '@media': '@​media',
   };
   for (const tag in handles) {
-    tweet = tweet.replace(tag, handles[tag]);
+    tweet = tweet.replaceAll(tag, handles[tag]);
   }
   return tweet;
 };
