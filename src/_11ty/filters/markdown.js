@@ -50,6 +50,7 @@ const tweetHashtagTohandle = (tweet) => {
     '#Lego': '@LEGO_Group',
     '#Lighthouse': '@____lighthouse',
     '#Mapbox': '@Mapbox',
+    '#Mastodon': '@joinmastodon',
     '#Matomo': '@matomo_org',
     '#MDN': '@MozDevNet',
     '#Netlify': '@Netlify',
