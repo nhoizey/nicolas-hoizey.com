@@ -68,11 +68,29 @@ const tweetHashtagTohandle = (tweet) => {
     '#webhint': '@webhintio',
     '#Workbox': '@workboxjs',
     '#WebPageTest': '@RealWebPageTest',
-    '@media': '@​media',
   };
   for (const tag in handles) {
     tweet = tweet.replaceAll(tag, handles[tag]);
   }
+
+  // Add zero width space to CSS At-rules
+  // https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule
+  [
+    'charset',
+    'import',
+    'namespace',
+    'media',
+    'supports',
+    'page',
+    'font-face',
+    'keyframes',
+    'counter-style',
+    'property',
+    'layer',
+  ].forEach((atRule) => {
+    tweet = tweet.replace(`@{atRule}`, `@​{atRule}`);
+  });
+
   return tweet;
 };
 
