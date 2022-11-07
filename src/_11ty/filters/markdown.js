@@ -48,6 +48,7 @@ const tweetHashtagTohandle = (tweet) => {
     '#Jekyll': '@jekyllrb',
     '#Jest': '@fbjest',
     '#Lego': '@LEGO_Group',
+    '#Leonardo': '@Leonardo_Color',
     '#Lighthouse': '@____lighthouse',
     '#Mapbox': '@Mapbox',
     '#Mastodon': '@joinmastodon',
