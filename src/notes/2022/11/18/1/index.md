@@ -5,7 +5,7 @@ tags: [Twitter, Mastodon]
 
 15 years ago… 🤷‍♂️
 
-https://twitter.com/nhoizey/status/7775411
+https://twitter.com/nhoizey/status/77754112
 
 Twitter might not exist anymore soon, or change to the point I don't want to use it anymore.
 

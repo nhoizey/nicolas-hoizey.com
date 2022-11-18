@@ -982,5 +982,21 @@
       "profile_image_url_https": "https://pbs.twimg.com/profile_images/1265585417849634816/OqwdR83A_normal.jpg"
     },
     "html": "<blockquote class=\"tweet-card\"><div class=\"tweet-header\"><a class=\"tweet-profile\" href=\"https://twitter.com/csswizardry\"><img src=\"https://pbs.twimg.com/profile_images/1265585417849634816/OqwdR83A_normal.jpg\" alt=\"Avatar for csswizardry\"></a><div class=\"tweet-author\"><a class=\"tweet-author-name\" href=\"https://twitter.com/csswizardry\">Harry Roberts </a><a class=\"tweet-author-handle\" href=\"https://twitter.com/csswizardry\">@csswizardry</a></div><a class=\"tweet-bird\" href=\"https://twitter.com/csswizardry/status/1575517437180657666\"><div class=\"tweet-bird-icon\" role=\"presentation\" aria-label=\"View on Twitter\" title=\"View on Twitter\"></div></a></div><p class=\"tweet-body\">I accidentally moved my hero image onto Cloudinary (who I also adore!). But, a less-optimised image served from the same origin is always faster than a more-optimised image from a third party. Self-host your static assets! <a href=\"https://csswizardry.com/2019/05/self-host-your-static-assets/\">csswizardry.com/2019/05/self-host-your-static-assets/</a></p><div class=\"tweet-images\"></div><div class=\"tweet-footer\"><a class=\"tweet-like\" href=\"https://twitter.com/intent/like?tweet_id=1575517437180657666\"><div class=\"tweet-like-icon\" aria-label=\"Like\" title=\"Like\" role=\"img\"></div><span class=\"tweet-like-count\">55 </span></a><a class=\"tweet-date\" title=\"Time Posted: Sep 29, 2022 04:06:43 (UTC)\" href=\"https://twitter.com/csswizardry/status/1575517437180657666\">06:06 PM · Sep 29, 2022</a></div></blockquote>"
+  },
+  "1589206913463779328": {
+    "id_str": "1589206913463779328",
+    "htmlText": "Navigation doesn’t have to be hidden behind a \"Menu\"-button. If it matters, we need to show it, and do so prominently. Some items are more important or more frequently used, so they might deserve a little bit more spotlight in your navigation.",
+    "images": [],
+    "favorite_count": 31,
+    "created_at": {
+      "display": "11:43 AM · Nov 6, 2022",
+      "meta": "Nov 6, 2022 10:43:48 (UTC)"
+    },
+    "user": {
+      "name": "Vitaly Friedman 🇺🇦🏳️‍🌈",
+      "screen_name": "vitalyf",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1548936503157575680/6RxQVoR6_normal.jpg"
+    },
+    "html": "<blockquote class=\"tweet-card\"><div class=\"tweet-header\"><a class=\"tweet-profile\" href=\"https://twitter.com/vitalyf\"><img src=\"https://pbs.twimg.com/profile_images/1548936503157575680/6RxQVoR6_normal.jpg\" alt=\"Avatar for vitalyf\"></a><div class=\"tweet-author\"><a class=\"tweet-author-name\" href=\"https://twitter.com/vitalyf\">Vitaly Friedman 🇺🇦🏳️‍🌈 </a><a class=\"tweet-author-handle\" href=\"https://twitter.com/vitalyf\">@vitalyf</a></div><a class=\"tweet-bird\" href=\"https://twitter.com/vitalyf/status/1589206913463779328\"><div class=\"tweet-bird-icon\" role=\"presentation\" aria-label=\"View on Twitter\" title=\"View on Twitter\"></div></a></div><p class=\"tweet-body\">Navigation doesn’t have to be hidden behind a \"Menu\"-button. If it matters, we need to show it, and do so prominently. Some items are more important or more frequently used, so they might deserve a little bit more spotlight in your navigation.</p><div class=\"tweet-images\"></div><div class=\"tweet-footer\"><a class=\"tweet-like\" href=\"https://twitter.com/intent/like?tweet_id=1589206913463779328\"><div class=\"tweet-like-icon\" aria-label=\"Like\" title=\"Like\" role=\"img\"></div><span class=\"tweet-like-count\">31 </span></a><a class=\"tweet-date\" title=\"Time Posted: Nov 6, 2022 10:43:48 (UTC)\" href=\"https://twitter.com/vitalyf/status/1589206913463779328\">11:43 AM · Nov 6, 2022</a></div></blockquote>"
   }
 }
