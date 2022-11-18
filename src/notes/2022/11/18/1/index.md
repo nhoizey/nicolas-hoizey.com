@@ -3,7 +3,7 @@ date: 2022-11-18 17:34:14 +01:00
 tags: [Twitter, Mastodon]
 ---
 
-15 years ago, my first tweet… 🤷‍♂️
+15 years ago… 🤷‍♂️
 
 https://twitter.com/nhoizey/status/7775411
 
