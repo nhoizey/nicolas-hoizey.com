@@ -7,6 +7,6 @@ tags: [Twitter, Mastodon]
 
 https://twitter.com/nhoizey/status/7775411
 
-I don’t know if Twitter will still be there in a few weeks, months, or if I’ll keep using it even if it lasts!
+I don’t know if Twitter will still exist in a while, or if I'll continue to use it given how it changes.
 
 But I’ve been on Mastodon for a few years now, and it’s great. Find me at https://mamot.fr/@nhoizey
