@@ -39,4 +39,4 @@ EOF
 fi
 
 open "$folder"
-/usr/local/bin/code "$billet" &
+/opt/homebrew/bin/code "$billet" &

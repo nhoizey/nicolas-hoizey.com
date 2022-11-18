@@ -34,4 +34,4 @@ EOF
 
 echo "$body" > "$post"
 
-/usr/local/bin/code "$post" &
+/opt/homebrew/bin/code "$post" &

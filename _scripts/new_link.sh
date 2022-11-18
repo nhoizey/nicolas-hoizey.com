@@ -53,4 +53,4 @@ EOF
 
 echo "$body" > "$link"
 
-/usr/local/bin/code "$link" &
+/opt/homebrew/bin/code "$link" &
