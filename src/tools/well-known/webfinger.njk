@@ -1,0 +1,7 @@
+---
+permalink: /.well-known/webfinger
+layout: null
+---
+{%- set handle = 'nhoizey' -%}
+{%- set server = 'mamot.fr' -%}
+{"subject":"acct:{{- handle -}}@{{- server -}}","aliases":["https://{{- server -}}/@{{- handle -}}","https://{{- server -}}/users/{{- handle -}}"],"links":[{"rel":"http://webfinger.net/rel/profile-page","type":"text/html","href":"https://{{- server -}}/@{{- handle -}}"},{"rel":"self","type":"application/activity+json","href":"https://{{- server -}}/users/{{- handle -}}"},{"rel":"http://ostatus.org/schema/1.0/subscribe","template":"https://{{- server -}}/authorize_interaction?uri={uri}"}]}
