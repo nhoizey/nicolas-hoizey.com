@@ -1,0 +1,23 @@
+---
+layout: null
+permalink: /feeds/mastodon/billets.json
+---
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Billets - Nicolas Hoizey",
+  "home_page_url": "{{ pkg.homepage }}/billets/",
+  "feed_url": "{{ pkg.homepage }}/feeds/mastodon/billets.json",
+  "items": [
+  {% for entry in collections.billets | limit(20) %}
+    {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
+    {
+      "id": "{{ absoluteEntryUrl }}",
+      "url": "{{ absoluteEntryUrl }}",
+      "title": "📓 {{ entry.data.body.title }}",
+      "date_published": "{{ entry.date | rssDate }}",
+      "content_text": "📓 {{ entry.templateContent | excerpt | truncateHtml(180) | striptags | cleanForJson | safe }}\n\n{{ absoluteEntryUrl }}",
+      "attachments": {{ entry.template.frontMatter.content | imagesAsAttachments(absoluteEntryUrl) | safe }}
+    }{%- if not loop.last -%},{%- endif -%}
+  {% endfor %}
+  ]
+}

@@ -1,0 +1,35 @@
+---
+layout: null
+permalink: /feeds/mastodon/links.json
+---
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Links - Nicolas Hoizey",
+  "home_page_url": "{{ pkg.homepage }}/links/",
+  "feed_url": "{{ pkg.homepage }}/feeds/mastodon/links.json",
+  "items": [
+  {% for entry in collections.links | limit(20) %}
+    {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
+    {
+      "id": "{{ absoluteEntryUrl }}",
+      "url": "{{ absoluteEntryUrl }}",
+      "title": "🔗 {{ entry.data.title | safe }}",
+      "date_published": "{{ entry.date | rssDate }}",
+      "content_text": "🔗 {{ entry.data.title | safe }}\n{% set by = false -%}
+{%- if entry.data.authors -%}
+{%- for author in entry.data.authors -%}
+{%- if author.mastodon -%}{%- if by == false -%}by{%- set by = true -%}{%- endif %} {{ author.mastodon }}{% endif -%}
+{%- endfor -%}
+{%- endif %}\n\n{% for tag in entry.data.tags -%}#{{ tag | tagToHashtag }} {% endfor -%}
+\n\n{{ absoluteEntryUrl }}",
+      "attachments": [
+        {
+          "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/{{ entry.data.link }}",
+          "mime_type": "image/png",
+          "title": "Screenshot of {{ entry.data.title}}"
+        }
+      ]
+    }{%- if not loop.last -%},{%- endif -%}
+  {% endfor %}
+  ]
+}

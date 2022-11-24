@@ -14,12 +14,12 @@ function htmlEntities(str) {
     .replace(/"/g, '&quot;');
 }
 
-const tweetCode = (tweet) => {
+const shortMessageCode = (shortMessage) => {
   // Deal with inline code
-  tweet = tweet.replace(/`([^`]+)`/g, (correspondance, code) => {
+  shortMessage = shortMessage.replace(/`([^`]+)`/g, (correspondance, code) => {
     return '`' + htmlEntities(code) + '`';
   });
-  return tweet;
+  return shortMessage;
 };
 
 const tweetHashtagTohandle = (tweet) => {
@@ -96,27 +96,61 @@ const tweetHashtagTohandle = (tweet) => {
   return tweet;
 };
 
-const tweetRemoveImage = (tweet) => {
-  // remove markdown images
-  tweet = tweet.replace(MARKDOWN_IMAGE_REGEX, '');
-  return tweet;
-};
+const tootHashtagTohandle = (toot) => {
+  // convert hashtags to Twitter accounts
+  let handles = {
+    '#Eleventy': '@eleventy@fosstodon.org',
+    '#Mastodon': '@Mastodon@mastodon.social',
+  };
+  for (const tag in handles) {
+    toot = toot.replaceAll(tag, handles[tag]);
+  }
 
-const tweetLinks = (tweet) => {
-  // only keep the links text
-  tweet = tweet.replace(/\[([^\]]+)\]\(([^\)]+)\)/g, '$1');
-  return tweet;
-};
-
-const tweetStrike = (tweet) => {
-  // replace <del>blah blah</del> by b̶̶l̶a̶h̶ ̶b̶l̶a̶h̶
-  tweet = tweet.replace(/<del>([^<]+)<\/del>/g, ($correspondance, $1) => {
-    return $1
-      .split('')
-      .map((c) => `${c}\u0336`)
-      .join('');
+  // Add zero width space to CSS At-rules
+  // https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule
+  [
+    'charset',
+    'import',
+    'namespace',
+    'media',
+    'supports',
+    'page',
+    'font-face',
+    'keyframes',
+    'counter-style',
+    'property',
+    'layer',
+  ].forEach((atRule) => {
+    toot = toot.replace(`@{atRule}`, `@​{atRule}`);
   });
-  return tweet;
+
+  return toot;
+};
+
+const shortMessageRemoveImage = (shortMessage) => {
+  // remove markdown images
+  shortMessage = shortMessage.replace(MARKDOWN_IMAGE_REGEX, '');
+  return shortMessage;
+};
+
+const shortMessageLinks = (shortMessage) => {
+  // only keep the links text
+  shortMessage = shortMessage.replace(/\[([^\]]+)\]\(([^\)]+)\)/g, '$1');
+  return shortMessage;
+};
+
+const shortMessageStrike = (shortMessage) => {
+  // replace <del>blah blah</del> by b̶̶l̶a̶h̶ ̶b̶l̶a̶h̶
+  shortMessage = shortMessage.replace(
+    /<del>([^<]+)<\/del>/g,
+    ($correspondance, $1) => {
+      return $1
+        .split('')
+        .map((c) => `${c}\u0336`)
+        .join('');
+    }
+  );
+  return shortMessage;
 };
 
 module.exports = {
@@ -137,15 +171,16 @@ module.exports = {
   },
   noteToTweet: (content, url) => {
     tweet = content.trim();
-    tweet = tweetCode(tweet);
+    tweet = shortMessageCode(tweet);
 
     // remove bold and italics
     tweet = tweet.replace(/\*+([^\*\n]+)\*+/g, '$1');
 
     tweet = tweetHashtagTohandle(tweet);
-    tweet = tweetRemoveImage(tweet);
-    tweet = tweetLinks(tweet);
-    tweet = tweetStrike(tweet);
+
+    tweet = shortMessageRemoveImage(tweet);
+    tweet = shortMessageLinks(tweet);
+    tweet = shortMessageStrike(tweet);
 
     tweet = entities.decodeHTML(tweet);
 
@@ -167,6 +202,40 @@ module.exports = {
     tweet = tweet.replace(/"/gm, '\\"');
 
     return tweet;
+  },
+  noteToToot: (content, url) => {
+    toot = content.trim();
+    toot = shortMessageCode(toot);
+
+    // remove bold and italics
+    toot = toot.replace(/\*+([^\*\n]+)\*+/g, '$1');
+
+    toot = tootHashtagTohandle(toot);
+
+    toot = shortMessageRemoveImage(toot);
+    toot = shortMessageLinks(toot);
+    toot = shortMessageStrike(toot);
+
+    toot = entities.decodeHTML(toot);
+
+    // escape unicode
+    toot = toot.replace(/\\([0-9A-F])/gm, '\\\\$1');
+
+    // find caniuse shortcodes
+    toot = toot.replace(
+      /\{% caniuse \\"([^)]+)\\" %\}/,
+      'https://caniuse.com/$1'
+    );
+
+    // Normalize line feeds
+    toot = toot.replace(/\n/gm, '\\n');
+    toot = toot.replace(/(\\n){3,}/gm, '\\n\\n');
+    toot = toot.replace(/^(\\n)*/gm, '');
+    toot = toot.replace(/(\\n)*$/gm, '');
+
+    toot = toot.replace(/"/gm, '\\"');
+
+    return toot;
   },
   noteToHtml: (content) => {
     let hashtags = twitter.extractHashtags(twitter.htmlEscape(content));
