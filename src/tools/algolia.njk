@@ -71,7 +71,7 @@ permalink: /tools/algolia.json
       {% endif -%}
       {{ author.name }}
       {%- if author.mastodon %}
-        <a class="author__mastodon" href="{{ author.mastodon.url }}" aria-label="{{ author.mastodon.id }} on Mastodon"><svg><use xlink:href="#symbol-mastodon" /></svg></a>
+        <a class="author__mastodon" href="{{ author.mastodonSplit.url }}" aria-label="{{ author.mastodonSplit.id }} on Mastodon"><svg><use xlink:href="#symbol-mastodon" /></svg></a>
       {%- endif %}
       {%- if author.twitter %}
         <a class="author__twitter" href="https://twitter.com/{{ author.twitter }}" aria-label="@{{ author.twitter }} on Twitter"><svg><use xlink:href="#symbol-twitter" /></svg></a>

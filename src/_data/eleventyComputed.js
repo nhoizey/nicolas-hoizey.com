@@ -53,7 +53,7 @@ function htmlAuthors(data) {
           'https://$2/$1'
         );
         const mastodonId = author.mastodon.replace(/^(@[^@]+)@.*$/, '$1');
-        author.mastodon = { url: mastodonUrl, id: mastodonId };
+        author.mastodonSplit = { url: mastodonUrl, id: mastodonId };
         html += ` <a class="author__mastodon" href="${mastodonUrl}" aria-label="${mastodonId} on Mastodon"><svg><use xlink:href="#symbol-mastodon" /></svg></a>`;
       }
       if (author.twitter) {
