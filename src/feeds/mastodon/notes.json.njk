@@ -13,6 +13,7 @@ permalink: /feeds/mastodon/notes.json
     {
       "id": "{{ absoluteEntryUrl }}",
       "url": "{{ absoluteEntryUrl }}",
+      "lang": "{{ entry.data.lang }}",
       "title": "💬 Note from {{ entry.date | formattedDateTime }}",
       "date_published": "{{ entry.date | rssDate }}",
       "content_text": "{{ entry.template.frontMatter.content | noteToToot(absoluteEntryUrl) | safe }}\n\n{{ absoluteEntryUrl }}",

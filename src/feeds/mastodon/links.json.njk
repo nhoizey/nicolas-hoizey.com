@@ -13,6 +13,7 @@ permalink: /feeds/mastodon/links.json
     {
       "id": "{{ absoluteEntryUrl }}",
       "url": "{{ absoluteEntryUrl }}",
+      "lang": "{{ entry.data.lang }}",
       "title": "🔗 {{ entry.data.title | safe }}",
       "date_published": "{{ entry.date | rssDate }}",
       "content_text": "🔗 {{ entry.data.title | safe }}\n{% set by = false -%}

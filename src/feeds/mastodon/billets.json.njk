@@ -13,6 +13,7 @@ permalink: /feeds/mastodon/billets.json
     {
       "id": "{{ absoluteEntryUrl }}",
       "url": "{{ absoluteEntryUrl }}",
+      "lang": "{{ entry.data.lang }}",
       "title": "📓 {{ entry.data.body.title }}",
       "date_published": "{{ entry.date | rssDate }}",
       "content_text": "📓 {{ entry.templateContent | excerpt | truncateHtml(180) | striptags | cleanForJson | safe }}\n\n{{ absoluteEntryUrl }}",
