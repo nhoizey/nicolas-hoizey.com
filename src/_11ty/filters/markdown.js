@@ -164,6 +164,7 @@ module.exports = {
       attachments.push({
         url: `${url}${match[2]}`,
         mime_type: `image/${path.extname(match[2]).slice(1)}`,
+        title: match[1],
       });
     }
 
