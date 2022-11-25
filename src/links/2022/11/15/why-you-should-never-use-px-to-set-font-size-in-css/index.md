@@ -17,6 +17,6 @@ I'm amazed we still have to say this, 9 years after I gave a whole 50 minutes ta
 
 How can some front-end developers still ignore that [users DO change font size]({% link_to "users-do-change-font-size" %})?
 
-I however understand why most don't know that [the default font size in browsers is not always `16px`]({% link_to "people-don-t-change-the-default-16px-font-size-in-their-browser/#default-font-size-in-browsers-is-always-16px" %}), as this is really rare (Josh even writes "On the web, the default font size is 16px" 🤷‍♂️), but users setting a preferred default and/or minimum font size is not so rare. I use text-only zoom in Firefox really often.
+I however understand why most don't know that [the default font size in browsers is not always `16px`]({% link_to "people-don-t-change-the-default-16px-font-size-in-their-browser/" %}#default-font-size-in-browsers-is-always-16px), as this is really rare (Josh even writes "On the web, the default font size is 16px" 🤷‍♂️), but users setting a preferred default and/or minimum font size is not so rare. I use text-only zoom in Firefox really often.
 
 It's also revealing that people don't remember what one `em` originally represented. Josh writes "Em originally referred to the width of an “M” character", but [it was originally actually more related to the height of the character](https://en.wikipedia.org/wiki/Em_(typography)#History).
