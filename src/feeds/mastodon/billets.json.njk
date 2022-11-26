@@ -16,7 +16,7 @@ permalink: /feeds/mastodon/billets.json
       "lang": "{{ entry.data.lang }}",
       "title": "📓 {{ entry.data.body.title }}",
       "date_published": "{{ entry.date | rssDate }}",
-      "content_text": "📓 {{ entry.templateContent | excerpt | truncateHtml(180) | striptags | cleanForJson | safe }}\n\n{{ absoluteEntryUrl }}",
+      "content_text": "📓 {{ entry.templateContent | excerpt | truncateHtml(180) | striptags | cleanForJson | safe }}\n\n⚓️ {{ absoluteEntryUrl }}",
       "attachments": {{ entry.template.frontMatter.content | imagesAsAttachments(absoluteEntryUrl) | safe }}
     }{%- if not loop.last -%},{%- endif -%}
   {% endfor %}

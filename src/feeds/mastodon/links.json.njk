@@ -22,7 +22,7 @@ permalink: /feeds/mastodon/links.json
 {%- if author.mastodon -%}{%- if by == false -%}by{%- set by = true -%}{%- endif %} {{ author.mastodon }}{% endif -%}
 {%- endfor -%}
 {%- endif %}\n\n{% for tag in entry.data.tags -%}#{{ tag | tagToHashtag }} {% endfor -%}
-\n\n{{ absoluteEntryUrl }}",
+\n\n⚓️ {{ absoluteEntryUrl }}",
       "attachments": [
         {
           "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/{{ entry.data.link }}",
