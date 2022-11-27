@@ -4,8 +4,7 @@ title: "The Problem With Our Maps"
 lang: en
 link: https://www.visualcapitalist.com/problem-with-our-maps/
 authors:
-  - name: "Nick Routley"
-    twitter: "nickroutley"
+  - "Nick Routley"
 tags: [map, projection]
 ---
 

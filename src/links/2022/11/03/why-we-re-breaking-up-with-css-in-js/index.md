@@ -4,7 +4,7 @@ title: "Why We're Breaking Up with CSS-in-JS"
 lang: en
 link: https://dev.to/srmagura/why-were-breaking-up-wiht-css-in-js-4g9b
 authors:
-  - name: "Sam Magura"
+  - "Sam Magura"
 tags: [JavaScript, CSS, performance]
 ---
 

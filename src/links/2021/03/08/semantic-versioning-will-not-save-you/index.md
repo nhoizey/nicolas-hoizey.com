@@ -4,9 +4,7 @@ title: "Semantic Versioning Will Not Save You"
 lang: en
 link: https://hynek.me/articles/semver-will-not-save-you/
 authors:
-  - name: "Hynek Schlawack"
-    twitter: "hynek"
-    site: "https://hynek.me/"
+  - "Hynek Schlawack"
 tags: [development]
 ---
 

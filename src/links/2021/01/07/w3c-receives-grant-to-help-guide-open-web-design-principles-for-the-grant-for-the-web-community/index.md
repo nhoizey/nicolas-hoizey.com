@@ -4,9 +4,7 @@ title: "W3C receives grant to help guide open web design principles for the Gran
 lang: en
 link: https://www.grantfortheweb.org/blog/w3c
 authors:
-  - name: "Grant for the Web"
-    twitter: "GrantForTheWeb"
-    site: "https://www.grantfortheweb.org/"
+  - "Grant for the Web"
 tags: [WebMonetization, standard, Coil, W3C]
 ---
 

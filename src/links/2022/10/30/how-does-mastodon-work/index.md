@@ -4,10 +4,7 @@ title: "How Does Mastodon Work?"
 lang: en
 link: https://kevquirk.com/how-does-mastodon-work
 authors:
-  - name: "Kev Quirk"
-    twitter: "kevquirk"
-    mastodon: "@kev@fosstodon.org"
-    site: "https://kevquirk.com/"
+  - "Kev Quirk"
 tags: [Mastodon]
 ---
 

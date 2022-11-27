@@ -4,8 +4,7 @@ title: "I Visited 47 Sites. Hundreds of Trackers Followed Me."
 lang: en
 link: https://www.nytimes.com/interactive/2019/08/23/opinion/data-internet-privacy-tracking.html
 authors:
-  - name: "Farhad Manjoo"
-    twitter: "fmanjoo"
+  - "Farhad Manjoo"
 tags: [privacy]
 ---
 

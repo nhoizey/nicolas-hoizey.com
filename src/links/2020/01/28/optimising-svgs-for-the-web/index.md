@@ -4,9 +4,7 @@ title: "Optimising SVGs for the Web"
 lang: en
 link: https://css-irl.info/optimising-svgs-for-the-web/
 authors:
-  - name: "Michelle Barker"
-    twitter: "MicheBarks"
-    site: "https://www.michellebarker.co.uk/"
+  - "Michelle Barker"
 tags: [SVG, performance]
 ---
 

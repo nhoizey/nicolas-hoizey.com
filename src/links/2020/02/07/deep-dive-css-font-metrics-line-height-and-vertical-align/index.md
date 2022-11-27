@@ -4,9 +4,7 @@ title: "Deep dive CSS: font metrics, line-height and vertical-align"
 lang: en
 link: https://iamvdo.me/en/blog/css-font-metrics-line-height-and-vertical-align
 authors:
-  - name: "Vincent De Oliveira"
-    twitter: "iamvdo"
-    site: "https://iamvdo.me/"
+  - "Vincent De Oliveira"
 tags: [CSS, font]
 ---
 

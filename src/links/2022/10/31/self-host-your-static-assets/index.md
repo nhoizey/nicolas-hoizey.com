@@ -4,9 +4,7 @@ title: "Self-Host Your Static Assets"
 lang: en
 link: https://csswizardry.com/2019/05/self-host-your-static-assets/
 authors:
-  - name: "Harry Roberts"
-    twitter: "csswizardry"
-    site: "https://csswizardry.com/"
+  - "Harry Roberts"
 tags: [performance, CDN]
 ---
 

@@ -4,9 +4,7 @@ title: "How JPEG XL Compares to Other Image Codecs"
 lang: en
 link: https://cloudinary.com/blog/how_jpeg_xl_compares_to_other_image_codecs
 authors:
-  - name: "Jon Sneyers"
-    twitter: "jonsneyers"
-    site: "http://sneyers.info/"
+  - "Jon Sneyers"
 tags: [image, responsive, JPEG XL]
 ---
 

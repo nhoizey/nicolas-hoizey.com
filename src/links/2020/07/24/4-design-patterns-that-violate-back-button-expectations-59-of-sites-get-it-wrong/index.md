@@ -4,8 +4,7 @@ title: "4 Design Patterns That Violate “Back” Button Expectations – 59% of
 lang: en
 link: https://baymard.com/blog/back-button-expectations
 authors:
-  - name: "Christian Holst"
-    twitter: "kiehnholst"
+  - "Christian Holst"
 tags: [UX]
 ---
 

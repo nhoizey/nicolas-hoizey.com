@@ -4,9 +4,7 @@ title: "Towards a Lightweight Jamstack"
 lang: en
 link: https://orbit.love/blog/towards-a-lightweight-jamstack/
 authors:
-  - name: "Nicolas Goutay"
-    twitter: "Phacks"
-    site: "https://phacks.dev/"
+  - "Nicolas Goutay"
 tags: [JAMstack, performance, Eleventy]
 ---
 

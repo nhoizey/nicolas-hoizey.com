@@ -4,9 +4,7 @@ title: "Avoiding &lt;img&gt; layout shifts: aspect-ratio vs width & height attri
 lang: en
 link: https://jakearchibald.com/2022/img-aspect-ratio/
 authors:
-  - name: "Jake Archibald"
-    twitter: "jaffathecake"
-    site: "https://jakearchibald.com/"
+  - "Jake Archibald"
 tags: [image, responsive, CLS, CWV, performance]
 ---
 

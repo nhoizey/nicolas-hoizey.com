@@ -4,9 +4,7 @@ title: "Web Quality Checklist"
 lang: en
 link: https://devchecklists.com/web-quality-checklist/en/
 authors:
-  - name: "Opquast"
-    twitter: "opquast"
-    site: "https://www.opquast.com/"
+  - "Opquast"
 tags: [quality, performance, privacy, accessibility]
 ---
 

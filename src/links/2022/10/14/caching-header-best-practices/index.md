@@ -4,9 +4,7 @@ title: "Caching Header Best Practices"
 lang: en
 link: https://simonhearne.com/2022/caching-header-best-practices/
 authors:
-  - name: "Simon Hearne"
-    twitter: "simonhearne"
-    site: "https://simonhearne.com/"
+  - "Simon Hearne"
 tags: [performance, HTTP]
 ---
 

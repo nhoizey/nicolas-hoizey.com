@@ -4,9 +4,7 @@ title: "Atom > RSS: Why We Should Just Call Them “Feeds” Instead of “RSS�
 lang: en
 link: https://danielmiessler.com/blog/atom-rss-why-we-should-just-call-them-feeds-instead-of-rss-feeds/
 authors:
-  - name: "Daniel Miessler"
-    twitter: "danielmiessler"
-    site: "https://danielmiessler.com/"
+  - "Daniel Miessler"
 tags: [feed]
 ---
 

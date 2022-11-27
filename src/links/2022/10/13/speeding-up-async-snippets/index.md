@@ -4,9 +4,7 @@ title: "Speeding Up Async Snippets"
 lang: en
 link: https://csswizardry.com/2022/10/speeding-up-async-snippets/#the-new-syntax
 authors:
-  - name: "Harry Roberts"
-    twitter: "csswizardry"
-    site: "https://csswizardry.com/"
+  - "Harry Roberts"
 tags: [performance, JavaScript]
 ---
 

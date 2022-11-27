@@ -4,9 +4,7 @@ title: "Into the Personal-Website-Verse"
 lang: en
 link: https://matthiasott.com/articles/into-the-personal-website-verse
 authors:
-  - name: "Matthias Ott"
-    twitter: "m_ott"
-    site: "https://matthiasott.com/"
+  - "Matthias Ott"
 tags: [IndieWeb]
 ---
 

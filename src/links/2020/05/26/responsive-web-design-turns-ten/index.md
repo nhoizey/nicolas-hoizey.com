@@ -4,9 +4,7 @@ title: "Responsive web design turns ten"
 lang: en
 link: https://ethanmarcotte.com/wrote/responsive-design-at-10/
 authors:
-  - name: "Ethan Marcotte"
-    twitter: "beep"
-    site: "https://ethanmarcotte.com/"
+  - "Ethan Marcotte"
 tags: [responsive]
 ---
 

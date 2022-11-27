@@ -4,8 +4,7 @@ title: "When should you be using Web Workers?"
 lang: en
 link: https://dassur.ma/things/when-workers/
 authors:
-  - name: "Surma"
-    twitter: "dassurma"
+  - "Surma"
 tags: [performance, JavaScript]
 ---
 

@@ -4,9 +4,7 @@ title: "Progressive Enhancement: Where Do I Begin?"
 lang: en
 link: https://presentations.aaron-gustafson.com/uygzjR/progressive-enhancement-where-do-i-begin#spxSxDi
 authors:
-  - name: "Aaron Gustafson"
-    twitter: "AaronGustafson"
-    site: "https://www.aaron-gustafson.com/"
+  - "Aaron Gustafson"
 tags: [progressive enhancement]
 ---
 

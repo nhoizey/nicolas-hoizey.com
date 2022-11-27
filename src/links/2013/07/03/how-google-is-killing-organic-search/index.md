@@ -4,8 +4,7 @@ title: "How Google is Killing Organic Search"
 lang: en
 link: http://blog.tutorspree.com/post/54349646327/death-of-organic-search
 authors:
-  - name: "Tutorspree"
-    site: "http://www.tutorspree.com/about"
+  - "Tutorspree"
 tags: [advertisement, Google, search]
 ---
 

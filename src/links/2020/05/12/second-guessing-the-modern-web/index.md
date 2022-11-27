@@ -4,9 +4,7 @@ title: "Second-guessing the modern web"
 lang: en
 link: https://macwright.org/2020/05/10/spa-fatigue.html
 authors:
-  - name: "Tom MacWright"
-    twitter: "tmcw"
-    site: "https://macwright.org/"
+  - "Tom MacWright"
 tags: [SPA, React, JavaScript]
 ---
 

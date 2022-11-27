@@ -4,9 +4,7 @@ title: "Thoughtworks Technology Radar Volume 26"
 lang: en
 link: https://www.thoughtworks.com/radar/techniques?blipid=202203006
 authors:
-  - name: "Thoughtworks"
-    twitter: "thoughtworks"
-    site: "https://www.thoughtworks.com/"
+  - "Thoughtworks"
 tags: [JavaScript, architecture]
 ---
 

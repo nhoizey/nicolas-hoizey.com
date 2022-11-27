@@ -4,9 +4,7 @@ title: "The Fastest Google Fonts"
 lang: en
 link: https://csswizardry.com/2020/05/the-fastest-google-fonts/
 authors:
-  - name: "Harry Roberts"
-    twitter: "csswizardry"
-    site: "https://csswizardry.com/"
+  - "Harry Roberts"
 tags: [font, performance]
 ---
 

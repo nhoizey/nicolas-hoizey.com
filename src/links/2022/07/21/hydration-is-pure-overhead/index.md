@@ -4,9 +4,7 @@ title: "Hydration is Pure Overhead"
 lang: en
 link: https://www.builder.io/blog/hydration-is-pure-overhead
 authors:
-  - name: "Miško Hevery"
-    twitter: "mhevery"
-    site: "http://misko.hevery.com/"
+  - "Miško Hevery"
 tags: [performance, JavaScript]
 ---
 

@@ -4,9 +4,7 @@ title: "T E N Ǝ T"
 lang: en
 link: https://adactio.com/journal/17379
 authors:
-  - name: "Jeremy Keith"
-    twitter: "adactio"
-    site: "https://adactio.com/"
+  - "Jeremy Keith"
 tags: [movie, cinema, time]
 ---
 

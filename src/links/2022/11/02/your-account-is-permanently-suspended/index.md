@@ -4,10 +4,7 @@ title: "Your account is permanently suspended"
 lang: en
 link: https://www.matuzo.at/blog/2022/your-account-is-permanently-suspended/
 authors:
-  - name: "Manuel Matuzović"
-    twitter: "mmatuzo"
-    mastodon: "@matuzo@mastodon.social"
-    site: "https://www.matuzo.at/"
+  - "Manuel Matuzović"
 tags: [IndieWeb, POSSE]
 ---
 

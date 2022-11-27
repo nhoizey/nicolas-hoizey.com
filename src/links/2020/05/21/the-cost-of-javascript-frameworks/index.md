@@ -4,9 +4,7 @@ title: "The Cost of Javascript Frameworks"
 lang: en
 link: https://timkadlec.com/remembers/2020-04-21-the-cost-of-javascript-frameworks/
 authors:
-  - name: "Tim Kadlec"
-    twitter: "tkadlec"
-    site: "https://timkadlec.com/"
+  - "Tim Kadlec"
 tags: [performance, JavaScript]
 ---
 

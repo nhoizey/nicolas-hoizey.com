@@ -4,9 +4,7 @@ title: "Green by Default"
 lang: en
 link: https://blr.design/blog/green-by-default/
 authors:
-  - name: "Brian Louis Ramirez"
-    twitter: "screenspan"
-    site: "https://blr.design/"
+  - "Brian Louis Ramirez"
 tags: [performance, environment]
 ---
 

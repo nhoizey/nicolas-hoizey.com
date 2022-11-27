@@ -4,10 +4,8 @@ title: "Life Happens: Towards Community Support For Prioritizing Life Events And
 lang: en
 link: https://tantek.com/2021/051/b1/life-happens
 authors:
-  - name: "Tantek Çelik"
-    twitter: "t"
-    site: "https://tantek.com/"
+  - "Tantek Çelik"
 tags: [IndieWeb, society]
 ---
 
-> When these things happen, as a community, I feel <mark>we should respond with kindness, support, and understanding when someone steps back from community participation or projects</mark>. We should not shame or guilt them in any way, and ideally act in such a way that welcomes their return whenever they are able to do so. 
+> When these things happen, as a community, I feel <mark>we should respond with kindness, support, and understanding when someone steps back from community participation or projects</mark>. We should not shame or guilt them in any way, and ideally act in such a way that welcomes their return whenever they are able to do so.

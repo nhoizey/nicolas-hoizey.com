@@ -4,9 +4,7 @@ title: "The power of progressive enhancement"
 lang: en
 link: https://andy-bell.design/wrote/the-power-of-progressive-enhancement/
 authors:
-  - name: "Andy Bell"
-    twitter: "andybelldesign"
-    site: "https://andy-bell.design/"
+  - "Andy Bell"
 tags: [progressive enhancement]
 ---
 

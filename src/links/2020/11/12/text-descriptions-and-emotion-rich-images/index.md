@@ -4,9 +4,7 @@ title: "Text descriptions and emotion rich images"
 lang: en
 link: https://tink.uk/text-descriptions-emotion-rich-images/
 authors:
-  - name: "Léonie Watson"
-    twitter: "LeonieWatson"
-    site: "https://tink.uk/"
+  - "Léonie Watson"
 tags: [accessibility, image]
 ---
 

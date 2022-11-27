@@ -4,8 +4,7 @@ date: 2018-12-10 13:00:00 +02:00
 lang: en
 link: https://hiddedevries.nl/en/blog/2018-01-13-making-password-managers-play-ball-with-your-login-form
 authors:
-  - name: "Hidde de Vries"
-    twitter: "hdv"
+  - "Hidde de Vries"
 tags: [security, UX, password]
 ---
 

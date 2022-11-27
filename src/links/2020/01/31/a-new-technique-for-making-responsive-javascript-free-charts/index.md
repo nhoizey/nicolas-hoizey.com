@@ -4,8 +4,7 @@ title: "A new technique for making responsive, JavaScript-free charts"
 lang: en
 link: https://dev.to/richharris/a-new-technique-for-making-responsive-javascript-free-charts-gmp
 authors:
-  - name: "Rich Harris"
-    twitter: "Rich_Harris"
+  - "Rich Harris"
 tags: [SVG, Svelte]
 ---
 

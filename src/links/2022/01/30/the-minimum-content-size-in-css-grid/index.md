@@ -4,9 +4,7 @@ title: "The Minimum Content Size In CSS Grid"
 lang: en
 link: https://ishadeed.com/article/min-content-size-css-grid/
 authors:
-  - name: "Ahmad Shadeed"
-    twitter: "shadeed9"
-    site: "https://ishadeed.com/"
+  - "Ahmad Shadeed"
 tags: [CSS, Grid]
 ---
 

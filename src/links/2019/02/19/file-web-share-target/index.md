@@ -4,8 +4,7 @@ title: "File Web Share Target"
 lang: en
 link: https://paul.kinlan.me/file-web-share-target/
 authors:
-  - name: "Paul Kinlan"
-    twitter: "Paul_Kinlan"
+  - "Paul Kinlan"
 tags: [PWA, API]
 ---
 

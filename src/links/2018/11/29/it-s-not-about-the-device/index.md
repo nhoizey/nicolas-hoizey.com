@@ -4,9 +4,7 @@ date: 2018-11-29 12:00:00 +02:00
 lang: en
 link: https://ethanmarcotte.com/wrote/not-the-device/
 authors:
-  - name: "Ethan Marcotte"
-    twitter: "beep"
-    site: "https://ethanmarcotte.com/"
+  - "Ethan Marcotte"
 tags: [responsive]
 ---
 

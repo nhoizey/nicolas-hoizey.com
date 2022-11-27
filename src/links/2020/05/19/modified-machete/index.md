@@ -4,9 +4,7 @@ title: "Modified machete"
 lang: en
 link: https://adactio.com/journal/16826
 authors:
-  - name: "Jeremy Keith"
-    twitter: "adactio"
-    site: "https://adactio.com/"
+  - "Jeremy Keith"
 tags: [Star Wars, movie]
 ---
 
@@ -14,7 +12,7 @@ I guess you were already using the [Machete Order](https://www.nomachetejuggling
 
 Now that there are eleven (11!)[^solo] Star Wars movies[^ewoks], we needed a new Machete Order, and I must say i like Jeremy's suggestion[^spoil]! 👍
 
-[^solo]: I'm not a big fan of Solo, at all, and I could remove it altogether without disturbing the new Machete Order, but I've already said too much[^footnotes]. 
+[^solo]: I'm not a big fan of Solo, at all, and I could remove it altogether without disturbing the new Machete Order, but I've already said too much[^footnotes].
 
 [^ewoks]: I could add both Ewoks movies, for younger ones, through.
 

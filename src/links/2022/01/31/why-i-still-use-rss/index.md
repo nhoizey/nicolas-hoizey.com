@@ -4,8 +4,7 @@ title: "Why I Still Use RSS"
 lang: en
 link: https://atthis.link/blog/2021/rss.html
 authors:
-  - name: "Marc"
-    site: "https://atthis.link/"
+  - "Marc"
 tags: [feed]
 ---
 

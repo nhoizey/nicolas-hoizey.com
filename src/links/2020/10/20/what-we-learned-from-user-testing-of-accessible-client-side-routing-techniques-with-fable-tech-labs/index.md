@@ -4,9 +4,7 @@ title: "What we learned from user testing of accessible client-side routing tech
 lang: en
 link: https://www.gatsbyjs.com/blog/2019-07-11-user-testing-accessible-client-routing/
 authors:
-  - name: "Marcy Sutton"
-    twitter: "marcysutton"
-    site: "https://marcysutton.com/"
+  - "Marcy Sutton"
 tags: [accessibility, SPA]
 ---
 

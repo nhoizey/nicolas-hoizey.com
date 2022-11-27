@@ -4,9 +4,7 @@ title: "Spoiled by the Web"
 lang: en
 link: https://cloudfour.com/thinks/spoiled-by-the-web/
 authors:
-  - name: "Tyler Sticka"
-    twitter: "tylersticka"
-    site: "http://tylersticka.com/"
+  - "Tyler Sticka"
 tags: [Web, mobile, native, app, resilience]
 ---
 

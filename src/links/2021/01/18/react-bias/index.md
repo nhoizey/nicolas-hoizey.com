@@ -4,9 +4,7 @@ title: "React Bias"
 lang: en
 link: https://gist.github.com/malchata/e7c4862b77120dc230763ea8f3110c17
 authors:
-  - name: "Jeremy Wagner"
-    twitter: "malchata"
-    site: "https://jeremy.codes/"
+  - "Jeremy Wagner"
 tags: [React, JavaScript]
 ---
 

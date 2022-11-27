@@ -4,9 +4,7 @@ title: "The Large, Small, and Dynamic Viewports"
 lang: en
 link: https://www.bram.us/2021/07/08/the-large-small-and-dynamic-viewports/
 authors:
-  - name: "Bramus Van Damme"
-    twitter: "bramus"
-    site: "https://www.bram.us/"
+  - "Bramus Van Damme"
 tags: [CSS, 100vh]
 ---
 

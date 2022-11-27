@@ -4,14 +4,10 @@ title: "Local-first software"
 lang: en
 link: https://www.inkandswitch.com/local-first.html
 authors:
-  - name: "Martin Kleppmann"
-    site: "https://martin.kleppmann.com/"
-  - name: "Adam Wiggins"
-    site: "http://about.adamwiggins.com/"
-  - name: "Peter van Hardenberg"
-    twitter: "pvh"
-  - name: "Mark McGranaghan"
-    site: "https://markmcgranaghan.com/"
+  - "Martin Kleppmann"
+  - "Adam Wiggins"
+  - "Peter van Hardenberg"
+  - "Mark McGranaghan"
 tags: [offline, cloud, POSSE, architecture, PWA]
 ---
 

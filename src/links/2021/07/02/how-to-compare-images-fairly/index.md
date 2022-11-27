@@ -4,9 +4,7 @@ title: "How to compare images fairly"
 lang: en
 link: https://kornel.ski/en/faircomparison
 authors:
-  - name: "Kornel"
-    twitter: "kornelski"
-    site: "https://kornel.ski/"
+  - "Kornel"
 tags: [image, performance]
 ---
 

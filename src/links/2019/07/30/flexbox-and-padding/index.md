@@ -4,9 +4,7 @@ title: "Flexbox and padding"
 lang: en
 link: https://www.chenhuijing.com/blog/flexbox-and-padding/
 authors:
-  - name: "Chen Hui Jing"
-    twitter: "hj_chen"
-    site: "https://www.chenhuijing.com/"
+  - "Chen Hui Jing"
 tags: [CSS, Flexbox]
 ---
 

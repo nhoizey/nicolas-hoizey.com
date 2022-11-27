@@ -4,9 +4,7 @@ title: "Vanilla JavaScript and old-school SSGs are the best choices for web perf
 lang: en
 link: https://gomakethings.com/vanilla-javascript-and-old-school-ssgs-are-the-best-choices-for-web-performance/
 authors:
-  - name: "Chris Ferdinandi"
-    twitter: "ChrisFerdinandi"
-    site: "https://gomakethings.com/"
+  - "Chris Ferdinandi"
 tags: [Eleventy]
 ---
 

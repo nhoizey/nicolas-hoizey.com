@@ -4,9 +4,7 @@ title: "The Ad Hoc Accessibility Beyond Compliance Playbook"
 lang: en
 link: https://adhoc.team/playbook-accessibility/
 authors:
-  - name: "Ad Hoc"
-    twitter: "adhocteam"
-    site: "https://adhoc.team/"
+  - "Ad Hoc"
 tags: [accessibility]
 ---
 

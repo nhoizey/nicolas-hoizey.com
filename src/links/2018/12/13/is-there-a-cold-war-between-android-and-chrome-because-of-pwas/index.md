@@ -4,8 +4,7 @@ date: 2018-12-13 12:00:00 +02:00
 lang: en
 link: https://medium.com/@firt/is-there-a-cold-war-between-android-and-chrome-because-of-pwas-e50a7471056c
 authors:
-  - name: "Maximiliano Firtman"
-    twitter: "firt"
+  - "Maximiliano Firtman"
 tags: [PWA, Android, Chrome]
 ---
 

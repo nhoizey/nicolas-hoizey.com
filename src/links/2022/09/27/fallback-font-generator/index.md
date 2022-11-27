@@ -4,9 +4,7 @@ title: "Fallback Font Generator"
 lang: en
 link: https://screenspan.net/fallback
 authors:
-  - name: "Brian Louis Ramirez"
-    twitter: "screenspan"
-    site: "https://screenspan.net/"
+  - "Brian Louis Ramirez"
 tags: [performance, font, CSS, CLS]
 ---
 

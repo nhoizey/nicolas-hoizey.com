@@ -4,10 +4,7 @@ title: "It's all about that space"
 lang: en
 link: https://www.trysmudford.com/blog/its-all-about-that-space/
 authors:
-  - name: "Trys Mudford"
-    twitter: "trysmudford"
-    mastodon: "@trys@mastodon.social"
-    site: "https://www.trysmudford.com/"
+  - "Trys Mudford"
 tags: [CSS, Grid]
 ---
 

@@ -4,9 +4,7 @@ title: "How To Convert Variable TTF Font Files to WOFF2"
 lang: en
 link: https://henry.codes/writing/how-to-convert-variable-ttf-font-files-to-woff2/
 authors:
-  - name: "Henry Desroches"
-    twitter: "xdesro"
-    site: "https://henry.codes/"
+  - "Henry Desroches"
 tags: [font, variable, TTF, WOFF2, performance]
 ---
 

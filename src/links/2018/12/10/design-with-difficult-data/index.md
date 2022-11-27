@@ -4,7 +4,7 @@ date: 2018-12-10 12:00:00 +02:00
 lang: en
 link: https://alistapart.com/article/design-with-difficult-data
 authors:
-  - name: "Steven Garrity"
+  - "Steven Garrity"
 tags: [quality]
 ---
 

@@ -4,9 +4,7 @@ title: "A Bashful Button Worth 8 Million Dollars"
 lang: en
 link: https://cloudfour.com/thinks/a-bashful-button-worth-8-million/
 authors:
-  - name: "Jason Grigsby"
-    twitter: "grigs"
-    site: "https://gri.gs/"
+  - "Jason Grigsby"
 tags: [100vh, CSS, viewport, responsive]
 ---
 

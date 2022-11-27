@@ -4,9 +4,7 @@ title: "Why you should be testing your 404 pages web performance"
 lang: en
 link: https://nooshu.github.io/blog/2020/08/25/you-should-be-testing-your-404-pages-web-performance/
 authors:
-  - name: "Matt Hobbs"
-    twitter: "TheRealNooshu"
-    site: "https://nooshu.github.io/"
+  - "Matt Hobbs"
 tags: ["404", performance]
 ---
 

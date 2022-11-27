@@ -4,9 +4,7 @@ title: "Everybody be Coil. You… Be Coil"
 lang: en
 link: https://tink.uk/everybody-be-coil/
 authors:
-  - name: "Léonie Watson"
-    twitter: "LeonieWatson"
-    site: "https://tink.uk/"
+  - "Léonie Watson"
 tags: [Coil, WebMonetization]
 ---
 

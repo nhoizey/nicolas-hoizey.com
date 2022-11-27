@@ -4,9 +4,7 @@ title: "Please disable JavaScript to view this site"
 lang: en
 link: https://remysharp.com/2020/11/30/please-disable-javascript-to-view-this-site
 authors:
-  - name: "Remy Sharp"
-    twitter: "rem"
-    site: "https://remysharp.com/"
+  - "Remy Sharp"
 tags: [JavaScript, progressive enhancement]
 ---
 

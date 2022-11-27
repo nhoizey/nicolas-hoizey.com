@@ -4,7 +4,7 @@ title: "Installation notes for [node-gyp on] macOS Catalina"
 lang: en
 link: https://github.com/nodejs/node-gyp/blob/master/macOS_Catalina.md
 authors:
-  - name: "node-gyp"
+  - "node-gyp"
 tags: [Node]
 ---
 

@@ -4,8 +4,7 @@ title: "Expandable Sections Within a CSS Grid"
 lang: en
 link: https://css-tricks.com/expandable-sections-within-a-css-grid/
 authors:
-  - name: "Kev Bonett"
-    twitter: "basherkev"
+  - "Kev Bonett"
 tags: [CSS, Grid]
 ---
 

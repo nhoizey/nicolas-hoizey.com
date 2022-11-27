@@ -4,9 +4,7 @@ title: "Add punctuation to your alt text"
 lang: en
 link: https://thoughtbot.com/blog/add-punctuation-to-your-alt-text
 authors:
-  - name: "Eric Bailey"
-    twitter: "ericwbailey"
-    site: "https://ericwbailey.design/"
+  - "Eric Bailey"
 tags: [accessibility, image]
 ---
 

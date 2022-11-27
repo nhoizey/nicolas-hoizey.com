@@ -4,8 +4,7 @@ date: 2019-01-03 12:00:00 +02:00
 lang: en
 link: https://www.troyhunt.com/passwords-evolved-authentication-guidance-for-the-modern-era/
 authors:
-  - name: "Troy Hunt"
-    twitter: "troyhunt"
+  - "Troy Hunt"
 tags: [security, password]
 ---
 

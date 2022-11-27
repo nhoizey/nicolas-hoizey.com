@@ -4,9 +4,7 @@ title: "Save-Data Usage"
 lang: en
 link: https://timkadlec.com/remembers/2019-08-29-save-data-usage/
 authors:
-  - name: "Tim Kadlec"
-    twitter: "tkadlec"
-    site: "https://timkadlec.com/"
+  - "Tim Kadlec"
 tags: [performance]
 ---
 

@@ -4,9 +4,7 @@ title: "WTF are all these config files for?"
 lang: en
 link: https://www.youtube.com/watch?v=14WanxTD2O4
 authors:
-  - name: "Jeff Delaney"
-    twitter: "Jeffdelaney23"
-    site: "https://jeffdelaney.me/"
+  - "Jeff Delaney"
 tags: [development]
 ---
 

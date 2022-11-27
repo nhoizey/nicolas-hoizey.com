@@ -4,11 +4,8 @@ title: "Every Layout: Relearn CSS layout"
 lang: en
 link: https://every-layout.dev/
 authors:
-  - name: "Andy Bell"
-    twitter: "andybelldesign"
-    site: "https://andy-bell.design/"
-  - name: "Heydon Pickering"
-    twitter: "heydonworks"
+  - "Andy Bell"
+  - "Heydon Pickering"
 tags: [CSS, layout]
 ---
 

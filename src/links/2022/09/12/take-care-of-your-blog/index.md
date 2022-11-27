@@ -4,9 +4,7 @@ title: "Take Care of Your Blog"
 lang: en
 link: https://www.robinrendle.com/notes/take-care-of-your-blog-/
 authors:
-  - name: "Robin Rendle"
-    twitter: "robinrendle"
-    site: "https://www.robinrendle.com/"
+  - "Robin Rendle"
 tags: [IndieWeb]
 ---
 

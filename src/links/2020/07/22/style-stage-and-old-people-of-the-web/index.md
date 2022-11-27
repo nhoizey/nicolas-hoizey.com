@@ -4,9 +4,7 @@ title: "Style Stage and old people of the web"
 lang: en
 link: https://christianheilmann.com/2020/07/22/style-stage-and-old-people-of-the-web/
 authors:
-  - name: "Christian Heilmann"
-    twitter: "codepo8"
-    site: "https://christianheilmann.com/"
+  - "Christian Heilmann"
 tags: [CSS]
 ---
 

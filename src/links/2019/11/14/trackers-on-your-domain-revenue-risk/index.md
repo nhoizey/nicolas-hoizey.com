@@ -4,9 +4,7 @@ title: "Trackers on Your Domain, Revenue Risk"
 lang: en
 link: https://boris.schapira.dev/2019/10/tracker-on-your-domain-revenue-risk/
 authors:
-  - name: "Boris Schapira"
-    twitter: "borisschapira"
-    site: "https://boris.schapira.dev/"
+  - "Boris Schapira"
 tags: [performance, privacy, security, ethics]
 ---
 

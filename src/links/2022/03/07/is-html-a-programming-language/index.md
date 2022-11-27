@@ -4,10 +4,7 @@ title: "Is HTML A Programming Language?"
 lang: en
 link: https://briefs.video/videos/is-html-a-programming-language/
 authors:
-  - name: "Heydon Pickering"
-    twitter: "heydonworks"
-    mastodon: "@heydon@mastodon.social"
-    site: "https://heydonworks.com/"
+  - "Heydon Pickering"
 tags: [HTML]
 ---
 

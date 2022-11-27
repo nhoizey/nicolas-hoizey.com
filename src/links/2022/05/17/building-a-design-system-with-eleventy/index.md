@@ -4,10 +4,7 @@ title: "Building a design system with Eleventy"
 lang: en
 link: https://www.trysmudford.com/blog/eleventy-design-system/
 authors:
-  - name: "Trys Mudford"
-    twitter: "trysmudford"
-    mastodon: "@trys@mastodon.social"
-    site: "https://www.trysmudford.com/"
+  - "Trys Mudford"
 tags: [Eleventy, Design System]
 ---
 

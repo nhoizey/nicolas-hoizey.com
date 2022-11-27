@@ -4,9 +4,7 @@ title: "A quick look at privacy-focused analytics for small sites"
 lang: en
 link: https://fvsch.com/small-analytics
 authors:
-  - name: "Florens Verschelde"
-    twitter: "fvsch"
-    site: "https://fvsch.com/"
+  - "Florens Verschelde"
 tags: [analytics]
 ---
 

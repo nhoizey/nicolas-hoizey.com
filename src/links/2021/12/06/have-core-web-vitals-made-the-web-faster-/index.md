@@ -4,9 +4,7 @@ title: "Have Core Web Vitals made the web faster?"
 lang: en
 link: https://calendar.perfplanet.com/2021/have-core-web-vitals-made-the-web-faster/
 authors:
-  - name: "Barry Pollard"
-    twitter: "tunetheweb"
-    site: "https://www.tunetheweb.com/"
+  - "Barry Pollard"
 tags: [performance, CWV]
 ---
 

@@ -4,9 +4,7 @@ title: "An Inclusive Web is Fast by Default"
 lang: en
 link: https://simonhearne.com/2021/inclusive-design/
 authors:
-  - name: "Simon Hearne"
-    twitter: "SimonHearne"
-    site: "https://simonhearne.com/"
+  - "Simon Hearne"
 tags: [performance]
 ---
 

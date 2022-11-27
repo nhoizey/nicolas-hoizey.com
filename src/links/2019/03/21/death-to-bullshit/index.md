@@ -4,8 +4,7 @@ title: "Death to bullshit"
 lang: en
 link: http://bradfrost.com/blog/post/death-to-bullshit/
 authors:
-  - name: "Brad Frost"
-    twitter: "brad_frost"
+  - "Brad Frost"
 tags: [bullshit, Web, design, UX]
 ---
 

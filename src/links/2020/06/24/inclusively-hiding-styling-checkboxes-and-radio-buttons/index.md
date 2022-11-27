@@ -4,9 +4,7 @@ title: "Inclusively Hiding & Styling Checkboxes and Radio Buttons"
 lang: en
 link: https://www.sarasoueidan.com/blog/inclusively-hiding-and-styling-checkboxes-and-radio-buttons/
 authors:
-  - name: "Sara Soueidan"
-    twitter: "SaraSoueidan"
-    site: "https://www.sarasoueidan.com/"
+  - "Sara Soueidan"
 tags: [CSS, accessibility]
 ---
 

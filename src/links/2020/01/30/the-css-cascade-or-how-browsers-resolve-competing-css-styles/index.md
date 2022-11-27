@@ -4,9 +4,7 @@ title: "The CSS Cascade, or how browsers resolve competing CSS styles"
 lang: en
 link: https://wattenberger.com/blog/css-cascade
 authors:
-  - name: "Amelia Wattenberger"
-    twitter: "wattenberger"
-    site: "https://wattenberger.com/"
+  - "Amelia Wattenberger"
 tags: [CSS]
 ---
 

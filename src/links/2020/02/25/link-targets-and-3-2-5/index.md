@@ -4,9 +4,7 @@ title: "Link Targets and 3.2.5"
 lang: en
 link: https://adrianroselli.com/2020/02/link-targets-and-3-2-5.html
 authors:
-  - name: "Adrian Roselli"
-    twitter: "aardrian"
-    site: "https://adrianroselli.com/"
+  - "Adrian Roselli"
 tags: [accessibility]
 ---
 

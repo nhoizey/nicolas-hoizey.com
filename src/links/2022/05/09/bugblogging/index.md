@@ -4,9 +4,7 @@ title: "Bugblogging"
 lang: en
 link: https://adactio.com/journal/19043
 authors:
-  - name: "Jeremy Keith"
-    twitter: "adactio"
-    site: "https://adactio.com/"
+  - "Jeremy Keith"
 tags: [bug]
 ---
 

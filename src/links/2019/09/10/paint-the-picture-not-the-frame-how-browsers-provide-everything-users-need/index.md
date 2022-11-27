@@ -4,9 +4,7 @@ title: "Paint the Picture, Not the Frame: How Browsers Provide Everything Users 
 lang: en
 link: https://alistapart.com/article/paint-the-picture-not-the-frame/
 authors:
-  - name: "Eric Bailey"
-    twitter: "ericwbailey"
-    site: "http://ericwbailey.design/"
+  - "Eric Bailey"
 tags: [accessibility, em]
 ---
 
@@ -21,7 +19,7 @@ Eric describes the issues people can face while using browsers to navigate on th
 [Obviously](/2016/03/people-don-t-change-the-default-16px-font-size-in-their-browser.html), the part I'm more inclined to share is [the one about allowing people to decide which size texts should be](https://alistapart.com/article/paint-the-picture-not-the-frame/#section7):
 
 > Browsers allow users to change their preferred default font size, resizing text across websites accordingly. Browsers excel at handling this setting when you write CSS that takes advantage of unitless line-height values and relative font-size units.
-> 
+>
 > Some designers may feel that granting this liberty to users somehow detracts from their intended branding. <mark>Good designers understand that there’s more to branding than just how something looks</mark>.
 
 Yes [users do change font size](/2018/06/users-do-change-font-size.html), bear with it.

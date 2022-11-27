@@ -4,8 +4,7 @@ title: "Responsive Grid Magazine Layout in Just 20 Lines of CSS"
 lang: en
 link: https://css-tricks.com/responsive-grid-magazine-layout-in-just-20-lines-of-css/
 authors:
-  - name: "Keir Watson"
-    site: "https://herbidacious.calamus.graphics/"
+  - "Keir Watson"
 tags: [CSS, Grid]
 ---
 

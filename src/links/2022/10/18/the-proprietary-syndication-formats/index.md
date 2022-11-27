@@ -4,9 +4,7 @@ title: "The Proprietary Syndication Formats"
 lang: en
 link: https://chriscoyier.net/2022/10/17/the-proprietary-syndication-formats/
 authors:
-  - name: "Chris Coyier"
-    twitter: "chriscoyier"
-    site: "https://chriscoyier.net/"
+  - "Chris Coyier"
 tags: [feed]
 ---
 

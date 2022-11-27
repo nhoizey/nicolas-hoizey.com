@@ -4,9 +4,7 @@ title: "ASPIRE: Ideals to Aspire to When Building Websites"
 lang: en
 link: https://www.filamentgroup.com/lab/aspire/
 authors:
-  - name: "Scott Jehl"
-    twitter: "scottjehl"
-    site: "https://scottjehl.com/"
+  - "Scott Jehl"
 tags: [quality]
 ---
 

@@ -4,10 +4,7 @@ title: "How to read RSS in 2020"
 lang: en
 link: https://laurakalbag.com/how-to-read-rss-in-2020/
 authors:
-  - name: "Laura Kalbag"
-    twitter: "laurakalbag"
-    mastodon: "@laura@mastodon.laurakalbag.com"
-    site: "https://laurakalbag.com/"
+  - "Laura Kalbag"
 tags: [feed]
 ---
 

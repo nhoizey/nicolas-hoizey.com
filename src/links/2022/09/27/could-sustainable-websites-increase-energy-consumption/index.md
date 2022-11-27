@@ -4,9 +4,7 @@ title: "Could sustainable websites increase energy consumption?"
 lang: en
 link: https://www.wholegraindigital.com/blog/jevons-paradox/
 authors:
-  - name: "Tom Greenwood"
-    twitter: "eatwholegrain"
-    site: "https://www.wholegraindigital.com/"
+  - "Tom Greenwood"
 tags: [sustainability, performance]
 ---
 

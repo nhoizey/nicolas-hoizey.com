@@ -4,9 +4,7 @@ title: "Using :has() as a CSS Parent Selector and much more"
 lang: en
 link: https://webkit.org/blog/13096/css-has-pseudo-class/#the-basics-of-how-to-use-has-as-a-parent-selector
 authors:
-  - name: "Jen Simmons"
-    twitter: "jensimmons"
-    site: "https://jensimmons.com/"
+  - "Jen Simmons"
 tags: [CSS]
 ---
 

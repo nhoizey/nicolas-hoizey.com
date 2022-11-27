@@ -4,8 +4,7 @@ date: 2019-01-16 12:00:00 +02:00
 lang:  en
 link: https://m.signalvnoise.com/signal-v-noise-exits-medium/
 authors:
-  - name: "David Heinemeier Hansson"
-    twitter: "dhh"
+  - "David Heinemeier Hansson"
 tags: [Medium, IndieWeb]
 ---
 

@@ -4,9 +4,7 @@ title: "Async Alpine — Asynchronous Alpine component loading"
 lang: en
 link: https://alistairshepherd.uk/writing/async-alpine
 authors:
-  - name: "Alistair Shepherd"
-    twitter: "accudio"
-    site: "https://alistairshepherd.uk/"
+  - "Alistair Shepherd"
 tags: [JavaScript, performance]
 ---
 

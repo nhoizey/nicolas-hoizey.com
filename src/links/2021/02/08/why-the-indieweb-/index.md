@@ -4,10 +4,7 @@ title: "Why The IndieWeb?"
 lang: en
 link: https://briefs.video/videos/why-the-indieweb/
 authors:
-  - name: "Heydon Pickering"
-    twitter: "heydonworks"
-    mastodon: "@heydon@mastodon.social"
-    site: "https://heydonworks.com/"
+  - "Heydon Pickering"
 tags: [IndieWeb]
 ---
 

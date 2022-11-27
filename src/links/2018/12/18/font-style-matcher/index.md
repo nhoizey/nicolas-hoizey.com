@@ -4,8 +4,7 @@ date: 2018-12-18 12:00:00 +02:00
 lang: en
 link: https://meowni.ca/font-style-matcher/
 authors:
-  - name: "Monica Dinculescu"
-    twitter: "notwaldorf"
+  - "Monica Dinculescu"
 tags: [performance, font, CWV, CLS]
 ---
 

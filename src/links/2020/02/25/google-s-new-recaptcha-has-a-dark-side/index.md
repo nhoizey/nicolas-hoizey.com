@@ -4,8 +4,7 @@ title: "Google’s new reCAPTCHA has a dark side"
 lang: en
 link: https://www.fastcompany.com/90369697/googles-new-recaptcha-has-a-dark-side
 authors:
-  - name: "Katharine Schwab"
-    twitter: "kschwabable"
+  - "Katharine Schwab"
 tags: [privacy, security, Google]
 ---
 

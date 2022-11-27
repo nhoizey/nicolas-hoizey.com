@@ -4,9 +4,7 @@ title: "How to Pick More Beautiful Colors for your Data Visualizations"
 lang: en
 link: https://prototypr.io/post/how-to-pick-more-beautiful-colors-for-your-data-visualizations/
 authors:
-  - name: "Lisa Charlotte Rost"
-    twitter: "lisacrost"
-    site: "https://lisacharlotterost.de/"
+  - "Lisa Charlotte Rost"
 tags: [colour]
 ---
 

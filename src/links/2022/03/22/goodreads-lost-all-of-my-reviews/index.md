@@ -4,9 +4,7 @@ title: "Goodreads lost all of my reviews"
 lang: en
 link: https://www.somebits.com/weblog/tech/bad/goodreads-lost-all-my-data.html
 authors:
-  - name: "Nelson Minar"
-    mastodon: "@nelson@lgbt.io"
-    site: "https://www.somebits.com/"
+  - "Nelson Minar"
 tags: [IndieWeb]
 ---
 

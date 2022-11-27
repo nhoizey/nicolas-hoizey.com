@@ -4,9 +4,7 @@ title: "Use Speedlify to Continuously Measure Site Performance"
 lang: en
 link: https://www.zachleat.com/web/speedlify/
 authors:
-  - name: "Zach Leatherman"
-    twitter: "zachleat"
-    site: "https://www.zachleat.com/"
+  - "Zach Leatherman"
 tags: [performance, monitoring, Eleventy, Lighthouse]
 ---
 

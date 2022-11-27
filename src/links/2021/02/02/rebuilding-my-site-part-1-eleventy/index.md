@@ -4,9 +4,7 @@ title: "Rebuilding my site - Part 1: Eleventy"
 lang: en
 link: https://carol.gg/blog/site-rebuild-eleventy/
 authors:
-  - name: "Carolina Gilabert"
-    twitter: "CarolSaysThings"
-    site: "https://carol.gg/"
+  - "Carolina Gilabert"
 tags: [Eleventy, image, performance]
 ---
 

@@ -4,9 +4,7 @@ title: "None of Your Business"
 lang: en
 link: https://matthiasott.com/notes/none-of-your-business
 authors:
-  - name: "Matthias Ott"
-    twitter: "m_ott"
-    site: "https://matthiasott.com/"
+  - "Matthias Ott"
 tags: [creation]
 ---
 

@@ -4,9 +4,7 @@ title: "Big picture performance analysis using Lighthouse Parade"
 lang: en
 link: https://cloudfour.com/thinks/big-picture-performance-analysis-using-lighthouse-parade/
 authors:
-  - name: "Emerson Loustau"
-    twitter: "emersonthis"
-    site: "https://emersonthis.com/"
+  - "Emerson Loustau"
 tags: [performance, Lighthouse]
 ---
 

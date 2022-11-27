@@ -4,9 +4,7 @@ title: "Google doesn't see content behind Load More buttons or Infinite Scroll"
 lang: en
 link: https://www.thewebmaster.com/google-does-not-crawl-load-more-links/
 authors:
-  - name: "Jonathan Griffin"
-    twitter: "thewebmastercom"
-    site: "https://www.thewebmaster.com/"
+  - "Jonathan Griffin"
 tags: [SEO, JavaScript]
 ---
 

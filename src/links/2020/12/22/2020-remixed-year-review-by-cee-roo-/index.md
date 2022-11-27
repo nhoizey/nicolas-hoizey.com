@@ -4,8 +4,7 @@ title: "2020 Remixed ! (Year review by Cee-Roo)"
 lang: en
 link: https://www.youtube.com/watch?v=eMOUTgWQM74
 authors:
-  - name: "Cee-Roo"
-    site: "http://www.ceeroo.ch/"
+  - "Cee-Roo"
 tags: [video]
 ---
 

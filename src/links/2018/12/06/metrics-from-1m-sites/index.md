@@ -4,8 +4,7 @@ date: 2018-12-06 12:00:00 +02:00
 lang: en
 link: https://speedcurve.com/blog/metrics-from-1m-sites/
 authors:
-  - name: "Steve Souders"
-    twitter: "Souders"
+  - "Steve Souders"
 tags: [performance, JavaScript]
 ---
 

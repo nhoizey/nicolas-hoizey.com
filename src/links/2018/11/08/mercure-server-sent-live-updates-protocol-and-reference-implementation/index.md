@@ -4,8 +4,7 @@ date: 2018-11-08 12:00:00 +02:00
 lang: en
 link: https://mercure.rocks
 authors:
-  - name: "Kévin Dunglas"
-    twitter: "dunglas"
+  - "Kévin Dunglas"
 tags: [push, API]
 ---
 

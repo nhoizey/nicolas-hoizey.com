@@ -4,9 +4,7 @@ title: "Does shadow DOM improve style performance?"
 lang: en
 link: https://nolanlawson.com/2021/08/15/does-shadow-dom-improve-style-performance/
 authors:
-  - name: "Nolan Lawson"
-    mastodon: "@nolan@toot.cafe"
-    site: "https://nolanlawson.com/"
+  - "Nolan Lawson"
 tags: [CSS, performance]
 ---
 

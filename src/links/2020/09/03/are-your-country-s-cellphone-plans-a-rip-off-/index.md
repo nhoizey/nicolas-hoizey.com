@@ -4,9 +4,7 @@ title: "Are Your Country’s Cellphone Plans a Rip-off?"
 lang: en
 link: https://themarkup.org/2020/09/03/cost-speed-of-mobile-data-by-country
 authors:
-  - name: "Sam Morris"
-    twitter: "sammorrisdesign"
-    site: "https://sammorr.is/"
+  - "Sam Morris"
 tags: [mobile]
 ---
 

@@ -4,9 +4,7 @@ title: "Don't design for mobile"
 lang: en
 link: https://mattanddesign.com/dont-design-for-mobile/
 authors:
-  - name: "Matt Anderson"
-    twitter: "mattanddesign"
-    site: "https://mattanddesign.com/"
+  - "Matt Anderson"
 tags: [responsive, mobile, progressive enhancement]
 ---
 

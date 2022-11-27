@@ -4,9 +4,7 @@ title: "An oral history of Tom Holland's sensational 'Lip Sync Battle' performan
 lang: en
 link: https://www.insider.com/tom-holland-zendaya-lip-sync-battle-umbrella-oral-history-2021-5
 authors:
-  - name: "Ashley Spencer"
-    twitter: "ashleyyspencer"
-    site: "https://ashleymspencer.com/"
+  - "Ashley Spencer"
 tags: [music, dance]
 ---
 

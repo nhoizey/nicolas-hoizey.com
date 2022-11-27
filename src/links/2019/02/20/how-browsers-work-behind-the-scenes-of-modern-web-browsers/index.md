@@ -4,7 +4,7 @@ title: "How Browsers Work: Behind the scenes of modern web browsers"
 lang: en
 link: https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
 authors:
-  - name: "Tali Garsiel"
+  - "Tali Garsiel"
 tags: [performance, browser]
 ---
 

@@ -4,9 +4,7 @@ title: "Is the Phone Gap closed in 2020?"
 lang: en
 link: https://firt.dev/phonegap-end/
 authors:
-  - name: "Maximiliano Firtman"
-    twitter: "firt"
-    site: "https://firt.dev/"
+  - "Maximiliano Firtman"
 tags: [PhoneGap, PWA, TWA]
 ---
 

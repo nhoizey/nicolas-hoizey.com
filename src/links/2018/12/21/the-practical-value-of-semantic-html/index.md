@@ -4,8 +4,7 @@ date: 2018-12-21 13:00:00 +02:00
 lang: en
 link: https://www.brucelawson.co.uk/2018/the-practical-value-of-semantic-html/
 authors:
-  - name: "Bruce Lawson"
-    twitter: "brucel"
+  - "Bruce Lawson"
 tags: [HTML, semantic, Web, quality]
 ---
 

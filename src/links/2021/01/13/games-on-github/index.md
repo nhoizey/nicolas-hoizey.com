@@ -4,9 +4,7 @@ title: "Games on GitHub"
 lang: en
 link: https://github.com/leereilly/games
 authors:
-  - name: "Lee Reilly"
-    twitter: "leereilly"
-    site: "https://leereilly.net/"
+  - "Lee Reilly"
 tags: [game, esviji, GitHub]
 ---
 

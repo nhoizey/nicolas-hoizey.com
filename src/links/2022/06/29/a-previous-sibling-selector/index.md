@@ -4,9 +4,7 @@ title: "A Previous Sibling Selector"
 lang: en
 link: https://blog.jim-nielsen.com/2022/previous-sibling-selector/
 authors:
-  - name: "Jim Nielsen"
-    twitter: "jimniels"
-    site: "https://blog.jim-nielsen.com/"
+  - "Jim Nielsen"
 tags: [CSS]
 ---
 

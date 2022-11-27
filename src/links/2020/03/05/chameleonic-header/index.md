@@ -4,9 +4,7 @@ title: "Chameleonic Header"
 lang: en
 link: https://codyhouse.co/tutorials/chameleonic-header-effect
 authors:
-  - name: "Sebastiano Guerriero"
-    twitter: "guerriero_se"
-    site: "https://codyhouse.co/"
+  - "Sebastiano Guerriero"
 tags: [design,CSS,JavaScript]
 ---
 

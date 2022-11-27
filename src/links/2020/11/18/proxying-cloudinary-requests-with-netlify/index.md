@@ -4,9 +4,7 @@ title: "Proxying Cloudinary Requests with Netlify"
 lang: en
 link: https://timkadlec.com/remembers/2020-11-17-netlify-proxy-requests/
 authors:
-  - name: "Tim Kadlec"
-    twitter: "tkadlec"
-    site: "https://timkadlec.com/"
+  - "Tim Kadlec"
 tags: [Netlify, Cloudinary, performance]
 ---
 

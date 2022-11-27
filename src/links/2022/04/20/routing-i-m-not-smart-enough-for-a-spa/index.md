@@ -4,9 +4,7 @@ title: "Routing: I’m not smart enough for a SPA"
 lang: en
 link: https://dev.to/tigt/routing-im-not-smart-enough-for-a-spa-5hki
 authors:
-  - name: "Taylor Hunt"
-    twitter: "tigt_"
-    site: "https://ti.gt/"
+  - "Taylor Hunt"
 tags: [performance, SPA, JavaScript]
 ---
 

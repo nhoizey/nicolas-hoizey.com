@@ -4,8 +4,7 @@ title: "How HTTPS works… in a comic!"
 lang: en
 link: https://howhttps.works/
 authors:
-  - name: "Sebastian Hermida"
-    twitter: "sbastn"
+  - "Sebastian Hermida"
 tags: [HTTP, security]
 ---
 

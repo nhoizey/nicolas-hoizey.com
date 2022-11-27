@@ -4,9 +4,7 @@ date: 2018-12-10 14:00:00 +02:00
 lang: en
 link: https://csswizardry.com/2018/11/what-if/
 authors:
-  - name: "Harry Roberts"
-    twitter: "csswizardry"
-    site: "https://csswizardry.com/"
+  - "Harry Roberts"
 tags: [progressive enhancement, JavaScript]
 ---
 

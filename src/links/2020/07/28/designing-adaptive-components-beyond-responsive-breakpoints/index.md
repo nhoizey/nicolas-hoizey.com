@@ -4,9 +4,7 @@ title: "Designing Adaptive Components, Beyond Responsive Breakpoints"
 lang: en
 link: https://stephaniewalter.design/blog/designing-adaptive-components-beyond-responsive-breakpoints/
 authors:
-  - name: "Stéphanie Walter"
-    twitter: "walterstephanie"
-    site: "https://stephaniewalter.design/"
+  - "Stéphanie Walter"
 tags: [responsive]
 ---
 

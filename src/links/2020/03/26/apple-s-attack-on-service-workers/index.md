@@ -4,9 +4,7 @@ title: "Apple’s attack on service workers"
 lang: en
 link: https://adactio.com/journal/16619
 authors:
-  - name: "Jeremy Keith"
-    twitter: "adactio"
-    site: "https://adactio.com/"
+  - "Jeremy Keith"
 tags: [PWA, iOS]
 ---
 

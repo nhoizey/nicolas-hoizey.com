@@ -4,9 +4,7 @@ title: "Why designers should move from px to rem - and how to do that in Figma"
 lang: en
 link: https://uxdesign.cc/why-designers-should-move-from-px-to-rem-and-how-to-do-that-in-figma-c0ea23e07a15
 authors:
-  - name: "Christine Vallaure"
-    twitter: "moonlearning"
-    site: "https://www.moonlearning.io/"
+  - "Christine Vallaure"
 tags: [Figma, accessibility, em, rem, UI, design]
 ---
 

@@ -4,9 +4,7 @@ title: "Lighthouse changes how Performance Score is calculated"
 lang: en
 link: https://calibreapp.com/blog/lighthouse-changes-scoring-algorithm
 authors:
-  - name: "Karolina Szczur"
-    twitter: "fox"
-    site: "https://thefox.is/"
+  - "Karolina Szczur"
 tags: [performance, Lighthouse]
 ---
 

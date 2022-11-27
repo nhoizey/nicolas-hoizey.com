@@ -4,9 +4,7 @@ title: "How I'm teaching the kids coding for the web"
 lang: en
 link: https://remysharp.com/2020/04/20/how-im-teaching-the-kids-coding-for-the-web
 authors:
-  - name: "Remy Sharp"
-    twitter: "rem"
-    site: "https://remysharp.com/"
+  - "Remy Sharp"
 tags: [HTML, child, beginner, learning]
 ---
 

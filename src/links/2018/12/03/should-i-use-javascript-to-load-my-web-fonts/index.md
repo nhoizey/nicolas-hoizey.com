@@ -4,8 +4,7 @@ date: 2018-12-03 12:00:00 +02:00
 lang: en
 link: https://www.filamentgroup.com/lab/js-web-fonts.html
 authors:
-  - name: "Zach Leatherman"
-    twitter: "zachleat"
+  - "Zach Leatherman"
 tags: [font, performance]
 ---
 

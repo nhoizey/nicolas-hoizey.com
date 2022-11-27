@@ -4,10 +4,7 @@ title: "Why you should never use px to set font-size in CSS"
 lang: en
 link: https://joshcollinsworth.com/blog/never-use-px-for-font-size
 authors:
-  - name: "Josh Collinsworth"
-    twitter: "jjcollinsworth"
-    mastodon: "@collinsworth@mastodon.sandwich.net"
-    site: "https://joshcollinsworth.com/"
+  - "Josh Collinsworth"
 tags: [em, rem, accessibility]
 ---
 

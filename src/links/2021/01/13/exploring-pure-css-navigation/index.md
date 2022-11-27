@@ -4,9 +4,7 @@ title: "Exploring Pure CSS Navigation"
 lang: en
 link: http://www.miragecraft.com/articles/exploring_css_menu.html
 authors:
-  - name: "Xiao Zhuo Jia"
-    twitter: "XiaoZhuoJia"
-    site: "http://www.miragecraft.com/"
+  - "Xiao Zhuo Jia"
 tags: [CSS, responsive]
 ---
 

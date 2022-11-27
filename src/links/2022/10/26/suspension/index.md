@@ -4,9 +4,7 @@ title: "Suspension"
 lang: en
 link: https://matthiasott.com/notes/suspension
 authors:
-  - name: "Matthias Ott"
-    twitter: "m_ott"
-    site: "https://matthiasott.com/"
+  - "Matthias Ott"
 tags: [IndieWeb, POSSE]
 ---
 

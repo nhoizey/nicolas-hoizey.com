@@ -4,9 +4,7 @@ title: "Climbing the 11ty Performance leaderboard with Cloudinary, critical CSS 
 lang: en
 link: https://bryanlrobinson.com/blog/climbing-the-11ty-performance-leaderboard/
 authors:
-  - name: "Bryan L. Robinson"
-    twitter: "brob"
-    site: "https://bryanlrobinson.com/"
+  - "Bryan L. Robinson"
 tags: [Eleventy, JAMstack, performance]
 ---
 

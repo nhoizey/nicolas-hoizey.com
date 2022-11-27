@@ -4,9 +4,7 @@ title: "Listen To Me And Not Google"
 lang: en
 link: https://heydonworks.com/article/listen-to-me-not-google/
 authors:
-  - name: "Heydon Pickering"
-    twitter: "heydonworks"
-    site: "https://heydonworks.com/"
+  - "Heydon Pickering"
 tags: [accessibility, UX, Google]
 ---
 

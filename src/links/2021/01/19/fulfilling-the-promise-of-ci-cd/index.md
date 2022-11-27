@@ -4,9 +4,7 @@ title: "Fulfilling the promise of CI/CD"
 lang: en
 link: https://stackoverflow.blog/2021/01/19/fulfilling-the-promise-of-ci-cd/
 authors:
-  - name: "Charity Majors"
-    twitter: "mipsytipsy"
-    site: "https://charity.wtf/"
+  - "Charity Majors"
 tags: [development, quality]
 ---
 

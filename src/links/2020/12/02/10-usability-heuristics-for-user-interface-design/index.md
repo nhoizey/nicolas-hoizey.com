@@ -4,9 +4,7 @@ title: "10 Usability Heuristics for User Interface Design"
 lang: en
 link: https://www.nngroup.com/articles/ten-usability-heuristics/
 authors:
-  - name: "Jakob Nielsen"
-    twitter: "nngroup"
-    site: "https://www.nngroup.com/"
+  - "Jakob Nielsen"
 tags: [UX]
 ---
 

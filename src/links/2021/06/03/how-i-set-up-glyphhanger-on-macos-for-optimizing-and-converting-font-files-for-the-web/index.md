@@ -4,9 +4,7 @@ title: "How I set up Glyphhanger on macOS for optimizing and converting font fil
 lang: en
 link: https://www.sarasoueidan.com/blog/glyphhanger/
 authors:
-  - name: "Sara Soueidan"
-    twitter: "SaraSoueidan"
-    site: "https://www.sarasoueidan.com/"
+  - "Sara Soueidan"
 tags: [performance, font, tool]
 ---
 

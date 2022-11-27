@@ -4,9 +4,7 @@ title: "Can I email ___ ?"
 lang: en
 link: https://www.caniemail.com/
 authors:
-  - name: "Rémy Parmentier"
-    twitter: "HTeuMeuLeu"
-    site: "https://www.hteumeuleu.fr/"
+  - "Rémy Parmentier"
 tags: [HTML, CSS, email]
 ---
 

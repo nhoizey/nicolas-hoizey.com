@@ -4,7 +4,7 @@ date: 2018-11-11 12:00:00 +02:00
 lang: en
 link: https://peteroshaughnessy.com/posts/why-mastodon-is-defying-the-critical-mass/
 authors:
-  - name: "Peter O’Shaughnessy"
+  - "Peter O’Shaughnessy"
 tags: [Mastodon]
 ---
 

@@ -4,8 +4,7 @@ title: "Generative Art With CSS"
 lang: en
 link: https://yuanchuan.name/talk/generative-art-with-css/
 authors:
-  - name: "Yuan Chuan"
-    twitter: "yuanchuan23"
+  - "Yuan Chuan"
 tags: [CSS, art]
 ---
 

@@ -4,9 +4,7 @@ title: "iOS PWA Compatibility"
 lang: en
 link: https://firt.dev/notes/pwa-ios/
 authors:
-  - name: "Maximiliano Firtman"
-    twitter: "firt"
-    site: "https://firt.dev/"
+  - "Maximiliano Firtman"
 tags: [PWA, iOS]
 ---
 

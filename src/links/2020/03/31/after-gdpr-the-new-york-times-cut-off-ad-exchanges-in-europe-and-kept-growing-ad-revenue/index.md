@@ -4,8 +4,7 @@ title: "After GDPR, The New York Times cut off ad exchanges in Europe — and ke
 lang: en
 link: https://digiday.com/media/gumgumtest-new-york-times-gdpr-cut-off-ad-exchanges-europe-ad-revenue/
 authors:
-  - name: "Jessica Davies"
-    twitter: "jessdaviesmk"
+  - "Jessica Davies"
 tags: [advertisement, privacy]
 ---
 

@@ -4,9 +4,7 @@ title: "Mastodon & Fediverse for Beginners"
 lang: en
 link: https://write.wien.rocks/paula/mastodon-and-fediverse-for-beginners
 authors:
-  - name: "Paula"
-    mastodon: "@PaulaToThePeople@climatejustice.social"
-    site: "https://write.wien.rocks/paula/"
+  - "Paula"
 tags: [Mastodon, Pixelfed, Fediverse]
 ---
 

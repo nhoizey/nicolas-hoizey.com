@@ -4,9 +4,7 @@ title: "Intrinsically Responsive CSS Grid with minmax() and min()"
 lang: en
 link: https://evanminto.com/blog/intrinsically-responsive-css-grid-minmax-min/
 authors:
-  - name: "Evan Minto"
-    twitter: "VamptVo"
-    site: https://evanminto.com/
+  - "Evan Minto"
 tags: [CSS, Sass, Grid, Rollup]
 ---
 

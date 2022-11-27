@@ -4,9 +4,7 @@ title: "Hydration"
 lang: en
 link: https://adactio.com/journal/16404
 authors:
-  - name: "Jeremy Keith"
-    twitter: "adactio"
-    site: "https://adactio.com/"
+  - "Jeremy Keith"
 tags: [progressive enhancement, JavaScript]
 ---
 

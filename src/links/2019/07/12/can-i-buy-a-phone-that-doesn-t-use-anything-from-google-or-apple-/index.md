@@ -4,8 +4,7 @@ title: "Can I buy a phone that doesn’t use anything from Google or Apple?"
 lang: en
 link: https://www.theguardian.com/technology/askjack/2019/jul/04/can-i-buy-a-phone-that-does-not-use-anything-from-google-or-apple
 authors:
-  - name: "Jack Schofield"
-    twitter: "jackschofield"
+  - "Jack Schofield"
 tags: [Google, Apple, privacy, mobile]
 ---
 

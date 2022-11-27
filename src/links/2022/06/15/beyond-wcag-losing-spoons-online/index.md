@@ -4,7 +4,7 @@ title: "Beyond WCAG: Losing Spoons Online"
 lang: en
 link: https://www.tpgi.com/beyond-wcag-losing-spoons-online/
 authors:
-  - name: "Lē McNamara"
+  - "Lē McNamara"
 tags: [accessibility]
 ---
 

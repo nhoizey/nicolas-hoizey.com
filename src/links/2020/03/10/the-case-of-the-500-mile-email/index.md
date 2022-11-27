@@ -4,8 +4,7 @@ title: "The case of the 500-mile email"
 lang: en
 link: https://ibiblio.org/harris/500milemail
 authors:
-  - name: "Trey Harris"
-    twitter: "treyethan"
+  - "Trey Harris"
 tags: [email, fun]
 ---
 

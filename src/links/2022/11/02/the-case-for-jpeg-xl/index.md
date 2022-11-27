@@ -4,9 +4,7 @@ title: "The Case for JPEG XL"
 lang: en
 link: https://cloudinary.com/blog/the-case-for-jpeg-xl
 authors:
-  - name: "Jon Sneyers"
-    twitter: "jonsneyers"
-    site: "https://sneyers.info/"
+  - "Jon Sneyers"
 tags: [image, performance, JPEG XL]
 ---
 

@@ -4,9 +4,7 @@ title: "The Devil's Albatross"
 lang: en
 link: https://9elements.com/blog/the-devils-albatros-an-algorithmic-layout-technique/
 authors:
-  - name: "Nils Binder"
-    twitter: "supremebeing09"
-    site: "https://ichimnetz.com/"
+  - "Nils Binder"
 tags: [CSS, responsive, Flexbox, layout]
 ---
 

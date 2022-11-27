@@ -4,9 +4,7 @@ title: "Component-level Design Tokens: are they worth it?"
 lang: en
 link: https://medium.com/@NateBaldwin/component-level-design-tokens-are-they-worth-it-d1ae4c6b19d4
 authors:
-  - name: "Nate Baldwin"
-    twitter: "NateBaldwinArt"
-    site: "https://natebaldw.in/"
+  - "Nate Baldwin"
 tags: [Design Tokens]
 ---
 

@@ -4,10 +4,7 @@ title: "Is Progressive Enhancement Dead Yet?"
 lang: en
 link: https://briefs.video/videos/is-progressive-enhancement-dead-yet/
 authors:
-  - name: "Heydon Pickering"
-    twitter: "heydonworks"
-    mastodon: "@heydon@mastodon.social"
-    site: "https://heydonworks.com/"
+  - "Heydon Pickering"
 tags: [progressive enhancement]
 ---
 

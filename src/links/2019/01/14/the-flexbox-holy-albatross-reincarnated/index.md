@@ -4,8 +4,7 @@ date: 2019-01-14 12:00:00 +02:00
 lang: en
 link: http://www.heydonworks.com/article/the-flexbox-holy-albatross-reincarnated
 authors:
-  - name: "Heydon Pickering"
-    twitter: "heydonworks"
+  - "Heydon Pickering"
 tags: [responsive, Flexbox, CSS, layout]
 ---
 

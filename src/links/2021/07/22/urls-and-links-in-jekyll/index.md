@@ -4,9 +4,7 @@ title: "URLs and links in Jekyll"
 lang: en
 link: https://mademistakes.com/mastering-jekyll/how-to-link/
 authors:
-  - name: "Michael Rose"
-    twitter: "mmistakes"
-    site: "https://mademistakes.com/"
+  - "Michael Rose"
 tags: [Jekyll]
 ---
 

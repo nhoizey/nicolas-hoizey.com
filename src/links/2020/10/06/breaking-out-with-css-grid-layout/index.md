@@ -4,9 +4,7 @@ title: "Breaking Out With CSS Grid Layout"
 lang: en
 link: https://cloudfour.com/thinks/breaking-out-with-css-grid-layout/
 authors:
-  - name: "Tyler Sticka"
-    twitter: "tylersticka"
-    site: "http://tylersticka.com/"
+  - "Tyler Sticka"
 tags: [CSS, Grid]
 ---
 

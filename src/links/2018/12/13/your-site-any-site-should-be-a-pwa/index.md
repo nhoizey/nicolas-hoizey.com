@@ -4,8 +4,7 @@ date: 2018-12-13 13:00:00 +02:00
 lang: en
 link: https://www.aaron-gustafson.com/notebook/your-site-should-be-a-pwa/
 authors:
-  - name: "Aaron Gustafson"
-    twitter: "AaronGustafson"
+  - "Aaron Gustafson"
 tags: [PWA]
 ---
 

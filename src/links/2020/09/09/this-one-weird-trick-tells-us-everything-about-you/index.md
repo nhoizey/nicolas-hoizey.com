@@ -4,9 +4,7 @@ title: "This One Weird Trick Tells Us Everything About You"
 lang: en
 link: https://noti.st/laurakalbag/z23Us9/this-one-weird-trick-tells-us-everything-about-you
 authors:
-  - name: "Laura Kalbag"
-    twitter: "laurakalbag"
-    site: "https://laurakalbag.com/"
+  - "Laura Kalbag"
 tags: [privacy]
 ---
 

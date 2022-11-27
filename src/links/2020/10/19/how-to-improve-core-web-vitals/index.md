@@ -4,9 +4,7 @@ title: "How to Improve Core Web Vitals"
 lang: en
 link: https://simonhearne.com/2020/core-web-vitals/
 authors:
-  - name: "Simon Hearne"
-    twitter: "SimonHearne"
-    site: "https://simonhearne.com/"
+  - "Simon Hearne"
 tags: [performance, SEO, CWV]
 ---
 

@@ -4,9 +4,7 @@ title: "Colorimetry and the Cartography of Color"
 lang: en
 link: https://medium.com/thinking-design/colorimetry-and-the-cartography-of-color-415ef5315c0a
 authors:
-  - name: "Nate Baldwin"
-    twitter: "NateBaldwinArt"
-    site: "https://natebaldw.in/"
+  - "Nate Baldwin"
 tags: [colour]
 ---
 

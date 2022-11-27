@@ -4,9 +4,7 @@ title: "Seriously, Don’t Use Icon Fonts"
 lang: en
 link: https://cloudfour.com/thinks/seriously-dont-use-icon-fonts/
 authors:
-  - name: "Tyler Sticka"
-    twitter: "tylersticka"
-    site: "https://tylersticka.com/"
+  - "Tyler Sticka"
 tags: [icon, font]
 ---
 

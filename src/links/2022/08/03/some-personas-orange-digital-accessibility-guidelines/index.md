@@ -4,8 +4,7 @@ title: "Some personas - Orange digital accessibility guidelines"
 lang: en
 link: https://a11y-guidelines.orange.com/en/persona/
 authors:
-  - name: "Orange Digital Accessibility"
-    site: "https://a11y-guidelines.orange.com/"
+  - "Orange Digital Accessibility"
 tags: [accessibility]
 ---
 

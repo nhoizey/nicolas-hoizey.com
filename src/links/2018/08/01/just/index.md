@@ -4,9 +4,7 @@ date: 2018-08-01 12:00:00 +02:00
 lang: en
 link: http://bradfrost.com/blog/post/just/
 authors:
-  - name: "Brad Frost"
-    twitter: "brad_frost"
-    site: "http://bradfrost.com/"
+  - "Brad Frost"
 tags: [empathy]
 ---
 

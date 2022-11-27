@@ -4,8 +4,7 @@ title: "Personal Websites as Self-Portraiture"
 lang: en
 link: https://starbreaker.org/essays/personal-websites-self-portraiture.html
 authors:
-  - name: "Matt Cambion"
-    site: "https://starbreaker.org/"
+  - "Matt Cambion"
 tags: [IndieWeb]
 ---
 

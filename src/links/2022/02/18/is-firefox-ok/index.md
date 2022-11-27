@@ -4,9 +4,7 @@ title: "Is Firefox OK?"
 lang: en
 link: https://www.wired.com/story/firefox-mozilla-2022/
 authors:
-  - name: "Matt Burgess"
-    twitter: "mattburgess1"
-    site: "http://mattburgess.co/"
+  - "Matt Burgess"
 tags: [Firefox]
 ---
 

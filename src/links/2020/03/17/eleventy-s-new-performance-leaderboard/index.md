@@ -4,9 +4,7 @@ title: "Eleventy’s New Performance Leaderboard"
 lang: en
 link: https://www.zachleat.com/web/performance-dashboard/
 authors:
-  - name: "Zach Leatherman"
-    twitter: "zachleat"
-    site: "https://www.zachleat.com/"
+  - "Zach Leatherman"
 tags: [performance, Eleventy]
 ---
 

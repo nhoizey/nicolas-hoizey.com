@@ -4,9 +4,7 @@ title: "How to avoid layout shifts caused by web fonts"
 lang: en
 link: https://simonhearne.com/2021/layout-shifts-webfonts/
 authors:
-  - name: "Simon Hearne"
-    twitter: "SimonHearne"
-    site: "https://simonhearne.com/"
+  - "Simon Hearne"
 tags: [font, UX, CLS, CWV, performance]
 ---
 

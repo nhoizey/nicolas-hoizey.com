@@ -4,9 +4,7 @@ title: "Improving the Speed and Accuracy of the Item Page with Light Service"
 lang: en
 link: https://www.ebayinc.com/stories/blogs/tech/item-fast-light-service/
 authors:
-  - name: "Ramesh Periyathambi"
-    twitter: "ebaytech"
-    site: "https://www.ebayinc.com/stories/blogs/tech/"
+  - "Ramesh Periyathambi"
 tags: [performance]
 ---
 

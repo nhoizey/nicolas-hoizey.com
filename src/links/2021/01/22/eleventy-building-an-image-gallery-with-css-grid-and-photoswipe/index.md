@@ -4,9 +4,7 @@ title: "Eleventy: Building an Image Gallery with CSS Grid and PhotoSwipe"
 lang: en
 link: https://www.markllobrera.com/posts/eleventy-building-image-gallery-photoswipe/
 authors:
-  - name: "Mark Llobrera"
-    twitter: "dirtystylus"
-    site: "https://www.markllobrera.com/"
+  - "Mark Llobrera"
 tags: [image, Eleventy, responsive, performance, Netlify]
 ---
 

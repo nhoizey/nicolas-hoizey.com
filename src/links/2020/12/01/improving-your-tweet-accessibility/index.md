@@ -4,9 +4,7 @@ title: "Improving Your Tweet Accessibility"
 lang: en
 link: https://adrianroselli.com/2018/01/improving-your-tweet-accessibility.html
 authors:
-  - name: "Adrian Roselli"
-    twitter: "aardrian"
-    site: "https://adrianroselli.com/"
+  - "Adrian Roselli"
 tags: [Twitter, accessibility]
 ---
 

@@ -4,9 +4,7 @@ title: "A short history of body copy sizes on the Web"
 lang: en
 link: https://fvsch.com/body-copy-sizes/
 authors:
-  - name: "Florens Verschelde"
-    twitter: "fvsch"
-    site: "https://fvsch.com/"
+  - "Florens Verschelde"
 tags: [accessibility, font]
 ---
 

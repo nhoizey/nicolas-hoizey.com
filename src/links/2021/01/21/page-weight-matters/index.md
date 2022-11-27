@@ -4,9 +4,7 @@ title: "Page Weight Matters"
 lang: en
 link: https://blog.chriszacharias.com/page-weight-matters
 authors:
-  - name: "Chris Zacharias"
-    twitter: "zacman85"
-    site: "https://www.chriszacharias.com/"
+  - "Chris Zacharias"
 tags: [performance, analytics]
 ---
 

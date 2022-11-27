@@ -4,7 +4,7 @@ title: "OneDevice, a smartphone that makes sense"
 lang: en
 link: https://www.onedevice.eu/?mref=nhoizey
 authors:
-  - name: "Pierre-Louis Boyer"
+  - "Pierre-Louis Boyer"
 tags: [mobile]
 ---
 

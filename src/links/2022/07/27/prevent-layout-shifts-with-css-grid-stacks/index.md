@@ -4,9 +4,7 @@ title: "Prevent layout shifts with CSS grid stacks"
 lang: en
 link: https://www.hsablonniere.com/prevent-layout-shifts-with-css-grid-stacks--qcj5jo/
 authors:
-  - name: "Hubert Sablonnière"
-    twitter: "hsablonniere"
-    site: "https://www.hsablonniere.com/"
+  - "Hubert Sablonnière"
 tags: [CSS, Grid, CLS, CWV, performance]
 ---
 

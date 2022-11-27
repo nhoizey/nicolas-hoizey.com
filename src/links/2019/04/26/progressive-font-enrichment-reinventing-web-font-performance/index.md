@@ -4,8 +4,7 @@ title: "Progressive Font Enrichment: reinventing web font performance"
 lang: en
 link: https://mailchi.mp/fe0fa657733a/web-typography-news-11-progressive-font-enrichment-naming-things-is-hard-edition?e=6d09bc30d0
 authors:
-  - name: "Jason Pamental"
-    twitter: "jpamental"
+  - "Jason Pamental"
 tags: [font, performance]
 ---
 

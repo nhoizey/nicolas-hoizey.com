@@ -4,9 +4,7 @@ title: "The Art of Deception, Lighthouse Score Edition"
 lang: en
 link: https://www.zachleat.com/web/lighthouse-deception/
 authors:
-  - name: "Zach Leatherman"
-    twitter: "zachleat"
-    site: "https://www.zachleat.com/"
+  - "Zach Leatherman"
 tags: [performance, Lighthouse]
 ---
 

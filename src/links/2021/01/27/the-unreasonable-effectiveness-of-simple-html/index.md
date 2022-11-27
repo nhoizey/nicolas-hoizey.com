@@ -4,9 +4,7 @@ title: "The unreasonable effectiveness of simple HTML"
 lang: en
 link: https://shkspr.mobi/blog/2021/01/the-unreasonable-effectiveness-of-simple-html/
 authors:
-  - name: "Terence Eden"
-    twitter: "edent"
-    site: "https://shkspr.mobi/blog/"
+  - "Terence Eden"
 tags: [HTML, accessibility]
 ---
 

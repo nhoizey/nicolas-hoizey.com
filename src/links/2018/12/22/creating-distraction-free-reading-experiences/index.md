@@ -4,8 +4,7 @@ date: 2018-12-22 12:00:00 +02:00
 lang: en
 link: http://azumbrunnen.me/blog/creating-distraction-free-reading-experiences/
 authors:
-  - name: "Adrian Zumbrunnen"
-    twitter: "azumbrunnen_"
+  - "Adrian Zumbrunnen"
 tags: [UX, blog]
 ---
 

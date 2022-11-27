@@ -4,9 +4,7 @@ title: "Internet Explorer’s Decline in Usage in 2021"
 lang: en
 link: https://paulcalvano.com/2022-01-31-internet-explorer-decline-in-2021/
 authors:
-  - name: "Paul Calvano"
-    twitter: "paulcalvano"
-    site: "https://paulcalvano.com/"
+  - "Paul Calvano"
 tags: [progressive enhancement]
 ---
 

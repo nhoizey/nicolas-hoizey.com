@@ -4,9 +4,7 @@ title: 'Performant A/B Testing with Cloudflare Workers'
 lang: en
 link: https://philipwalton.com/articles/performant-a-b-testing-with-cloudflare-workers/
 authors:
-  - name: "Philip Walton"
-    twitter: "philwalton"
-    site: "https://philipwalton.com/"
+  - "Philip Walton"
 tags: [performance, Cloudflare]
 ---
 

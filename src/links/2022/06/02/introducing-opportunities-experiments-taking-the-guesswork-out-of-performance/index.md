@@ -4,9 +4,7 @@ title: "Introducing Opportunities & Experiments: Taking the Guesswork out of Per
 lang: en
 link: https://blog.webpagetest.org/posts/introducing-opportunities-and-experiments/
 authors:
-  - name: "Tim Kadlec"
-    twitter: "tkadlec"
-    site: "http://timkadlec.com/"
+  - "Tim Kadlec"
 tags: [performance, WebPageTest]
 ---
 

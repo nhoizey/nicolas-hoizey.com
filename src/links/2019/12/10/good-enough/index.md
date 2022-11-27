@@ -4,9 +4,7 @@ title: "Good Enough"
 lang: en
 link: https://mxb.dev/blog/good-enough/
 authors:
-  - name: "Max Böck"
-    twitter: "mxbck"
-    site: "https://mxb.dev/"
+  - "Max Böck"
 tags: [writing, blog]
 ---
 

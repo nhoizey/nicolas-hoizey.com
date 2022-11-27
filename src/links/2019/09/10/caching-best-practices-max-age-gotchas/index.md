@@ -4,9 +4,7 @@ title: "Caching best practices & max-age gotchas"
 lang: en
 link: https://jakearchibald.com/2016/caching-best-practices/
 authors:
-  - name: "Jake Archibald"
-    twitter: "jaffathecake"
-    site: "https://jakearchibald.com"
+  - "Jake Archibald"
 tags: [performance]
 ---
 

@@ -4,9 +4,7 @@ title: "Don’t Let Architecture Astronauts Scare You"
 lang: en
 link: https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astronauts-scare-you/
 authors:
-  - name: "Joel Spolsky"
-    twitter: "spolsky"
-    site: "https://www.joelonsoftware.com/"
+  - "Joel Spolsky"
 tags: [KISS, software]
 ---
 

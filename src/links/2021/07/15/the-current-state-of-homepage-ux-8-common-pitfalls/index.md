@@ -4,9 +4,7 @@ title: "The Current State of Homepage UX – 8 Common Pitfalls"
 lang: en
 link: https://baymard.com/blog/2021-current-state-of-ecommerce-homepage-ux
 authors:
-  - name: "Baymard Institute"
-    twitter: "Baymard"
-    site: "https://baymard.com/"
+  - "Baymard Institute"
 tags: [UX]
 ---
 

@@ -4,8 +4,7 @@ title: "Send Outgoing Webmentions"
 lang: en
 link: https://remysharp.com/2019/06/18/send-outgoing-webmentions
 authors:
-  - name: "Remy Sharp"
-    twitter: "rem"
+  - "Remy Sharp"
 tags: [Webmention, IndieWeb]
 ---
 

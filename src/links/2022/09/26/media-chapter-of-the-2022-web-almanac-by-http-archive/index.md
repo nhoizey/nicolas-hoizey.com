@@ -4,9 +4,7 @@ title: "Media chapter of the 2022 Web Almanac by HTTP Archive"
 lang: en
 link: https://almanac.httparchive.org/en/2022/media
 authors:
-  - name: "HTTP Archive"
-    twitter: "HTTPArchive"
-    site: "https://httparchive.org/"
+  - "HTTP Archive"
 tags: [image, performance, responsive]
 ---
 

@@ -4,9 +4,7 @@ title: "Technical credit"
 lang: en
 link: https://www.stillbreathing.co.uk/2016/10/13/technical-credit
 authors:
-  - name: "Chris Taylor"
-    twitter: "mrwiblog"
-    site: "https://www.stillbreathing.co.uk/"
+  - "Chris Taylor"
 tags: [progressive enhancement]
 ---
 

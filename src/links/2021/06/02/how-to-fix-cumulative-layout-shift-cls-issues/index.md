@@ -4,9 +4,7 @@ title: "How To Fix Cumulative Layout Shift (CLS) Issues"
 lang: en
 link: https://www.smashingmagazine.com/2021/06/how-to-fix-cumulative-layout-shift-issues/
 authors:
-  - name: "Barry Pollard"
-    twitter: "tunetheweb"
-    site: "https://www.tunetheweb.com/"
+  - "Barry Pollard"
 tags: [CLS, CWV, performance]
 ---
 

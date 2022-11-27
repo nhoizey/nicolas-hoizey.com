@@ -4,9 +4,7 @@ title: "The (extremely) loud minority"
 lang: en
 link: https://hankchizljaw.com/wrote/the-(extremely)-loud-minority/
 authors:
-  - name: "Andy Bell"
-    twitter: "hankchizljaw"
-    site: "https://hankchizljaw.com/"
+  - "Andy Bell"
 tags: [JavaScript, CSS]
 ---
 

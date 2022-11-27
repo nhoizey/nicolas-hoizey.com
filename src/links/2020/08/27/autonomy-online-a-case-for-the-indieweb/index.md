@@ -4,9 +4,7 @@ title: "Autonomy Online: A Case For The IndieWeb"
 lang: en
 link: https://www.smashingmagazine.com/2020/08/autonomy-online-indieweb/
 authors:
-  - name: "Ana Rodrigues"
-    twitter: "ohhelloana"
-    site: "https://ohhelloana.blog/"
+  - "Ana Rodrigues"
 tags: [IndieWeb, POSSE]
 ---
 

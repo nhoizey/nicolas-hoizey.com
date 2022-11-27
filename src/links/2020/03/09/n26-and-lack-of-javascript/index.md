@@ -4,9 +4,7 @@ title: "N26 and lack of JavaScript"
 lang: en
 link: https://kittygiraudel.com/2020/01/20/n26-and-lack-of-javascript/
 authors:
-  - name: "Kitty Giraudel"
-    twitter: "KittyGiraudel"
-    site: "https://kittygiraudel.com/"
+  - "Kitty Giraudel"
 tags: [JavaScript, React, progressive enhancement, User-Agent]
 ---
 

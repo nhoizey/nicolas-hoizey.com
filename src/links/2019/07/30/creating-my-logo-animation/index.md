@@ -4,9 +4,7 @@ title: "Creating my logo animation"
 lang: en
 link: https://www.cassie.codes/posts/creating-my-logo-animation/
 authors:
-  - name: "Cassie Evans"
-    twitter: "cassiecodes"
-    site: "https://www.cassie.codes/"
+  - "Cassie Evans"
 tags: [CSS, SVG, animation]
 ---
 

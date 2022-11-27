@@ -4,9 +4,7 @@ title: "The Ethics of Web Performance"
 lang: en
 link: https://timkadlec.com/remembers/2019-01-09-the-ethics-of-performance/
 authors:
-  - name: "Tim Kadlec"
-    twitter: "tkadlec"
-    site: "https://timkadlec.com/"
+  - "Tim Kadlec"
 tags: [performance]
 ---
 

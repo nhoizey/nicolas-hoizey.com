@@ -4,8 +4,7 @@ title: "Accessibility of Content Management Systems – what’s stopping us?"
 lang: en
 link: https://www.studio24.net/blog/accessibility-of-content-management-systems-whats-stopping-us/
 authors:
-  - name: "Marie Manandise"
-    site: "https://marie-manandise.net/"
+  - "Marie Manandise"
 tags: [accessibility, CMS]
 ---
 

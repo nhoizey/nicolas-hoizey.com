@@ -4,8 +4,7 @@ title: "Sophisticated Partitioning with CSS Grid"
 lang: en
 link: https://v6.robweychert.com/blog/2019/03/css-grid-sophisticated-partitioning/
 authors:
-  - name: "Rob Weychert"
-    twitter: "robweychert"
+  - "Rob Weychert"
 tags: [Grid, CSS, layout]
 ---
 

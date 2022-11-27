@@ -4,9 +4,7 @@ title: "Apple just killed Offline Web Apps while purporting to protect your priv
 lang: en
 link: https://ar.al/2020/03/25/apple-just-killed-offline-web-apps-while-purporting-to-protect-your-privacy-why-thats-a-bad-thing-and-why-you-should-care/
 authors:
-  - name: "Aral Balkan"
-    mastodon: "@aral@mastodon.ar.al"
-    site: "https://ar.al/"
+  - "Aral Balkan"
 tags: [privacy, PWA, Apple]
 ---
 

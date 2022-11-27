@@ -4,9 +4,7 @@ title: "Legacy and Transition: Creating a New Universal Image Codec"
 lang: en
 link: https://cloudinary.com/blog/legacy_and_transition_creating_a_new_universal_image_codec
 authors:
-  - name: "Jon Sneyers"
-    twitter: "jonsneyers"
-    site: "http://sneyers.info/"
+  - "Jon Sneyers"
 tags: [image, performance, JPEG XL]
 ---
 

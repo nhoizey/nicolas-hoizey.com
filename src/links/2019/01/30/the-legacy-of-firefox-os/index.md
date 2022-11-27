@@ -4,8 +4,7 @@ title: "The Legacy of Firefox OS"
 lang: en
 link: https://medium.com/@bfrancis/the-legacy-of-firefox-os-c58ec32d94f0
 authors:
-  - name: "Ben Francis"
-    twitter: "bfrancis"
+  - "Ben Francis"
 tags: [Firefox OS, Mozilla]
 ---
 

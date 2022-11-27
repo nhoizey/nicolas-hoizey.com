@@ -4,8 +4,7 @@ title: "The secret energy impact of your phone"
 lang: en
 link: https://increment.com/energy-environment/the-secret-energy-impact-of-your-phone/
 authors:
-  - name: "Owen Williams"
-    twitter: "ow"
+  - "Owen Williams"
 tags: [technology, mobile, environment]
 ---
 

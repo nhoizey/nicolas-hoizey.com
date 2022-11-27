@@ -4,7 +4,7 @@ title: "Why Your Cached JavaScript Is Still Slow and Incurs Performance Overhead
 lang: en
 link: https://www.webperf.tips/tip/cached-js-misconceptions/
 authors:
-  - name: "Joe Liccini"
+  - "Joe Liccini"
 tags: [performance, JavaScript]
 ---
 

@@ -4,7 +4,7 @@ date: 2018-09-19 12:00:00 +02:00
 lang: en
 link: http://tonsky.me/blog/disenchantment/
 authors:
-  - name: "Nikita Prokopov"
+  - "Nikita Prokopov"
 tags: [innovation, performance]
 ---
 

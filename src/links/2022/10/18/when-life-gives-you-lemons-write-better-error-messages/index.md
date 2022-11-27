@@ -4,8 +4,7 @@ title: "When life gives you lemons, write better error messages"
 lang: en
 link: https://wix-ux.com/when-life-gives-you-lemons-write-better-error-messages-46c5223e1a2f
 authors:
-  - name: "Jenni Nadler"
-    site: "https://www.jenninadler.com/"
+  - "Jenni Nadler"
 tags: [UX]
 ---
 

@@ -4,8 +4,7 @@ date: 2018-12-21 12:00:00 +02:00
 lang: en
 link: https://24ways.org/2018/jank-free-image-loads/
 authors:
-  - name: "Eric Portis"
-    twitter: "etportis"
+  - "Eric Portis"
 tags: [image, responsive, performance]
 ---
 

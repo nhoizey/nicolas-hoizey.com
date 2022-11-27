@@ -4,9 +4,7 @@ title: "Languages on Mastodon"
 lang: en
 link: https://marcus.io/blog/languages-on-mastodon
 authors:
-  - name: "Marcus Herrmann"
-    mastodon: "@marcus@mastodon.social"
-    site: "https://marcus.io/"
+  - "Marcus Herrmann"
 tags: [Mastodon, Fediverse]
 ---
 

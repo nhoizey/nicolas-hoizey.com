@@ -4,9 +4,7 @@ title: "Structuring Eleventy projects"
 lang: en
 link: https://www.webstoemp.com/blog/eleventy-projects-structure/
 authors:
-  - name: "Jérôme Coupé"
-    twitter: "jeromecoupe"
-    site: "https://www.webstoemp.com/"
+  - "Jérôme Coupé"
 tags: [Eleventy]
 ---
 

@@ -4,12 +4,8 @@ title: "Humans can't read URLs. How can we fix it?"
 lang: en
 link: https://youtu.be/0-wB1VY3Nrc
 authors:
-  - name: "Jake Archibald"
-    twitter: "jaffathecake"
-    site: "https://jakearchibald.com/"
-  - name: "Surma"
-    twitter: "DasSurma"
-    site: "https://dassur.ma/"
+  - "Jake Archibald"
+  - "Surma"
 tags: [Web, URL, browser, security]
 ---
 

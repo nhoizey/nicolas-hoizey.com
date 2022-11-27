@@ -4,9 +4,7 @@ title: "Update for Customers Using PhoneGap and PhoneGap Build"
 lang: en
 link: https://blog.phonegap.com/update-for-customers-using-phonegap-and-phonegap-build-cc701c77502c
 authors:
-  - name: "Adobe PhoneGap"
-    twitter: "phonegap"
-    site: "https://blog.phonegap.com/"
+  - "Adobe PhoneGap"
 tags: [Adobe, PhoneGap, PWA, esviji, Google, TWA]
 ---
 

@@ -4,9 +4,7 @@ title: "Trailing Slashes on URLs: Contentious or Settled?"
 lang: en
 link: https://www.zachleat.com/web/trailing-slash/
 authors:
-  - name: "Zach Leatherman"
-    twitter: "zachleat"
-    site: "https://www.zachleat.com"
+  - "Zach Leatherman"
 tags: [Eleventy, URL, Netlify, Cloudflare]
 ---
 

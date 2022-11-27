@@ -4,9 +4,7 @@ title: "Loading and replacing HTML parts with HTML"
 lang: en
 link: https://justmarkup.com/notes/2020-12-28-loading-and-replacing-html-parts-with-html/
 authors:
-  - name: "Michael Scharnagl"
-    twitter: "justmarkup"
-    site: "https://justmarkup.com/"
+  - "Michael Scharnagl"
 tags: [HTML, JavaScript, SPA]
 ---
 

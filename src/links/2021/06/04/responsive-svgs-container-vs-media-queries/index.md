@@ -4,9 +4,7 @@ title: "Responsive SVGs - container vs media queries"
 lang: en
 link: https://codepen.io/vanhoofmaarten/full/dyvmJWN
 authors:
-  - name: "Maarten Van Hoof"
-    twitter: "mrtnvh"
-    site: "https://mrtnvh.com/"
+  - "Maarten Van Hoof"
 tags: [SVG, responsive, CSS]
 ---
 

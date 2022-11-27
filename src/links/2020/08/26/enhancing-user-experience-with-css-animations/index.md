@@ -4,9 +4,7 @@ title: "Enhancing User Experience With CSS Animations"
 lang: en
 link: https://stephaniewalter.design/blog/enhancing-user-experience-with-css-animations/
 authors:
-  - name: "Stéphanie Walter"
-    twitter: "walterstephanie"
-    site: "https://stephaniewalter.design/"
+  - "Stéphanie Walter"
 tags: [CSS, animation, transition, UX]
 ---
 

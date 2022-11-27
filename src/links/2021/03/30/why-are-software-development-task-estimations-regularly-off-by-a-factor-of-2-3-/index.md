@@ -4,8 +4,7 @@ title: "Why are software development task estimations regularly off by a factor 
 lang: en
 link: https://www.quora.com/Why-are-software-development-task-estimations-regularly-off-by-a-factor-of-2-3/answer/Michael-Wolfe
 authors:
-  - name: "Michael Wolfe"
-    twitter: "michaelrwolfe"
+  - "Michael Wolfe"
 tags: [development]
 ---
 

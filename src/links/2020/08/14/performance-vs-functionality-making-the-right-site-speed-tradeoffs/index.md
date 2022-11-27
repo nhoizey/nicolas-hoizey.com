@@ -4,8 +4,7 @@ title: "Performance vs. Functionality: Making the Right Site Speed Tradeoffs"
 lang: en
 link: https://www.shopify.com/enterprise/performance-vs-functionality-making-the-right-site-speed-tradeoffs
 authors:
-  - name: "Nick Winkler"
-    site: "https://www.thewinklergroup.net/"
+  - "Nick Winkler"
 tags: [performance]
 ---
 

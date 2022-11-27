@@ -4,9 +4,7 @@ title: "Understanding Filters, Shortcodes and Data in 11ty"
 lang: en
 link: https://www.madebymike.com.au/writing/11ty-filters-data-shortcodes/
 authors:
-  - name: "Mike Riethmuller"
-    twitter: "MikeRiethmuller"
-    site: "https://www.madebymike.com.au/"
+  - "Mike Riethmuller"
 tags: [Eleventy, Nunjucks]
 ---
 

@@ -4,9 +4,7 @@ title: "Web Quality Assurance: From User Requirements To Web Risk Management"
 lang: en
 link: https://www.smashingmagazine.com/2021/09/journey-into-web-quality-assurance/
 authors:
-  - name: "Elie Sloïm"
-    twitter: "ElieSl"
-    site: "https://www.opquast.com/"
+  - "Elie Sloïm"
 tags: [Opquast, quality]
 ---
 

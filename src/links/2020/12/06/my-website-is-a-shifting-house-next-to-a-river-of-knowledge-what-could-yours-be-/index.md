@@ -4,8 +4,7 @@ title: "My website is a shifting house next to a river of knowledge. What could 
 lang: en
 link: https://thecreativeindependent.com/people/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/
 authors:
-  - name: "Laurel Schwulst"
-    site: "https://laurelschwulst.com/"
+  - "Laurel Schwulst"
 tags: [Web, IndieWeb]
 ---
 

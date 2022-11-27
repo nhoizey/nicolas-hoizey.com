@@ -4,8 +4,7 @@ title: "Why Should I Care What Color the Bikeshed Is?"
 lang: en
 link: http://bikeshed.com/
 authors:
-  - name: "Poul-Henning Kamp"
-    twitter: "bsdphk"
+  - "Poul-Henning Kamp"
 tags: [software]
 ---
 

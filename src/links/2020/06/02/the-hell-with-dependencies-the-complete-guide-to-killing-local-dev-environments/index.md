@@ -4,9 +4,7 @@ title: "The Hell With Dependencies: The Complete Guide to Killing Local Dev Envi
 lang: en
 link: https://blog.alwaysdata.com/2020/06/02/the-hell-with-dependencies-the-complete-guide-to-killing-local-dev-environments/
 authors:
-  - name: "m4dz"
-    twitter: "m4d_z"
-    site: "https://m4dz.net/"
+  - "m4dz"
 tags: [VSCode, dev]
 ---
 

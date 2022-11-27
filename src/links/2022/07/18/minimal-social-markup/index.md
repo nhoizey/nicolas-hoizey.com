@@ -4,9 +4,7 @@ title: "Minimal Social Markup"
 lang: en
 link: https://meiert.com/en/blog/minimal-social-markup/
 authors:
-  - name: "Jens Oliver Meiert"
-    twitter: "j9t"
-    site: "https://meiert.com/"
+  - "Jens Oliver Meiert"
 tags: [social, HTML, opengraph]
 ---
 

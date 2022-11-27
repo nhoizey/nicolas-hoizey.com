@@ -4,9 +4,7 @@ title: "Adjust font size with CSS custom properties"
 lang: en
 link: https://romaricpascal.is/posts/adjust-font-size-css-custom-properties/
 authors:
-  - name: "Romaric Pascal"
-    twitter: "romaricpascal"
-    site: "https://romaricpascal.is/"
+  - "Romaric Pascal"
 tags: [font, performance, CSS, custom properties]
 ---
 

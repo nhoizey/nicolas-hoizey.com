@@ -4,9 +4,7 @@ title: "HTML and CSS techniques to reduce your JavaScript"
 lang: en
 link: https://calendar.perfplanet.com/2020/html-and-css-techniques-to-reduce-your-javascript
 authors:
-  - name: "Anthony Ricaud"
-    twitter: "anthony_ricaud"
-    site: "https://ricaud.me/"
+  - "Anthony Ricaud"
 tags: [JavaScript, CSS]
 ---
 

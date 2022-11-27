@@ -4,9 +4,7 @@ title: "No, Utility Classes Aren't the Same As Inline Styles"
 lang: en
 link: https://frontstuff.io/no-utility-classes-arent-the-same-as-inline-styles
 authors:
-  - name: "Sarah Dayan"
-    twitter: "frontstuff_io"
-    site: "https://frontstuff.io/"
+  - "Sarah Dayan"
 tags: [CSS]
 ---
 

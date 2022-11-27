@@ -4,9 +4,7 @@ title: "The Surprising Truth About Pixels and Accessibility: should I use pixels
 lang: en
 link: https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/
 authors:
-  - name: "Josh W. Comeau"
-    twitter: "joshwcomeau"
-    site: "https://www.joshwcomeau.com/c"
+  - "Josh W. Comeau"
 tags: [CSS, rem, accessibility]
 ---
 

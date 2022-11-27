@@ -4,9 +4,7 @@ title: "Why Is CSS So Weird?"
 lang: en
 link: https://www.youtube.com/watch?v=aHUtMbJw8iA
 authors:
-  - name: "Miriam Suzanne"
-    twitter: "mirisuzanne"
-    site: "https://www.miriamsuzanne.com/"
+  - "Miriam Suzanne"
 tags: [CSS, progressive enhancement]
 ---
 

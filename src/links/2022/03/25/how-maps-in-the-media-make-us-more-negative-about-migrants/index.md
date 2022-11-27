@@ -4,14 +4,9 @@ title: "How maps in the media make us more negative about migrants"
 lang: en
 link: https://thecorrespondent.com/664/how-maps-in-the-media-make-us-more-negative-about-migrants
 authors:
-  - name: "Maite Vermeulen"
-    twitter: "maitevermeulen"
-  - name: "Leon de Korte"
-    twitter: "dekorteleon"
-    site: "https://www.leondekorte.nl/"
-  - name: "Henk van Houtum"
-    twitter: "henkvanhoutum"
-    site: "https://henkvanhoutum.nl/"
+  - "Maite Vermeulen"
+  - "Leon de Korte"
+  - "Henk van Houtum"
 tags: [society, map]
 ---
 

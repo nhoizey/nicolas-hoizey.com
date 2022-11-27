@@ -4,9 +4,7 @@ title: "Effective Skeleton Screens"
 lang: en
 link: https://timkadlec.com/remembers/2020-11-02-skeleton-screens/
 authors:
-  - name: "Tim Kadlec"
-    twitter: "tkadlec"
-    site: "https://timkadlec.com/"
+  - "Tim Kadlec"
 tags: [performance, UX]
 ---
 

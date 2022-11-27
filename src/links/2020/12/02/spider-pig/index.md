@@ -4,9 +4,7 @@ title: "spider-pig"
 lang: en
 link: https://github.com/zachleat/spider-pig#readme
 authors:
-  - name: "Zach Leatherman"
-    twitter: "zachleat"
-    site: "https://zachleat.com/"
+  - "Zach Leatherman"
 tags: [CSS, refactoring]
 ---
 

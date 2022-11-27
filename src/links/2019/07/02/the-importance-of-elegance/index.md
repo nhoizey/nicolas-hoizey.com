@@ -4,9 +4,7 @@ title: "The importance of elegance"
 lang: en
 link: https://www.varvet.com/blog/the-importance-of-elegance/
 authors:
-  - name: "Johan Halse"
-    twitter: "hejsna"
-    site: "https://johan.hal.se/"
+  - "Johan Halse"
 tags: [Svelte, JavaScript]
 ---
 

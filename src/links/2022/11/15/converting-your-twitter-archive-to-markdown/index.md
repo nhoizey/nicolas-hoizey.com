@@ -4,10 +4,7 @@ title: "Converting Your Twitter Archive to Markdown"
 lang: en
 link: https://matthiasott.com/notes/converting-your-twitter-archive-to-markdown
 authors:
-  - name: "Matthias Ott"
-    twitter: "m_ott"
-    mastodon: "@matthiasott@mastodon.social"
-    site: "https://matthiasott.com/"
+  - "Matthias Ott"
 tags: [Twitter, Markdown]
 ---
 

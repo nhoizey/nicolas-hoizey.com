@@ -4,9 +4,7 @@ title: "Breaking out with CSS Grid explained"
 lang: en
 link: https://rachelandrew.co.uk/archives/2017/06/01/breaking-out-with-css-grid-explained/
 authors:
-  - name: "Rachel Andrew"
-    twitter: "rachelandrew"
-    site: "https://rachelandrew.co.uk/"
+  - "Rachel Andrew"
 tags: [CSS, Grid]
 ---
 

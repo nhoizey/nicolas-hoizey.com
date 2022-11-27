@@ -4,9 +4,7 @@ title: "Understanding the True Cost of Client-Side A/B Testing"
 lang: en
 link: https://timkadlec.com/remembers/2021-01-12-cost-of-client-side-ab-testing/
 authors:
-  - name: "Tim Kadlec"
-    twitter: "tkadlec"
-    site: "https://timkadlec.com/"
+  - "Tim Kadlec"
 tags: [performance, AB test]
 ---
 
