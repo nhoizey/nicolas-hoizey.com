@@ -30,7 +30,7 @@ permalink: /feeds/links.xml
             {%- if not loop.first -%}
               {%- if not loop.last -%},&amp;ensp;{%- else -%}&amp;ensp;and&amp;ensp;{%- endif -%}
             {%- endif -%}
-            {{- author.name -}}
+            {{- author -}}
           {%- endfor -%}
           &lt;br /&gt;
         {% endif %}

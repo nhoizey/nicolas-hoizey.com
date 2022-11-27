@@ -1,5 +1,6 @@
 const twitter = require('twitter-text');
 const config = require('../../pack11ty.config.js');
+const link_authors = require('./link_authors.json');
 const { formattedDate, isoDate, isInEmbargo } = require('../_utils/dates');
 
 function removeEmojis(content) {
@@ -23,7 +24,7 @@ function textAuthors(data) {
     let i = 0;
     const nb = data.authors.length;
     data.authors.forEach((author) => {
-      text += author.name;
+      text += author;
       i++;
       if (i < nb - 1) {
         text += ', ';
@@ -43,28 +44,29 @@ function htmlAuthors(data) {
     const nb = data.authors.length;
     data.authors.forEach((author) => {
       // TODO: Add support for author.mastodon
-      if (author.twitter) {
-        html += `<img class="u-photo avatar" src="https://res.cloudinary.com/nho/image/twitter_name/${author.twitter}" alt="${author.name} avatar" loading="lazy" width="48" height="48" /> `;
-      }
-      html += `<b class="p-name">${author.name}</b>`;
-      if (author.mastodon) {
-        const mastodonUrl = author.mastodon.replace(
-          /^(@[^@]+)@(.*)$/,
-          'https://$2/$1'
-        );
-        const mastodonId = author.mastodon.replace(/^(@[^@]+)@.*$/, '$1');
-        author.mastodonSplit = { url: mastodonUrl, id: mastodonId };
-        html += ` <a class="author__mastodon" href="${mastodonUrl}" aria-label="${mastodonId} on Mastodon"><svg><use xlink:href="#symbol-mastodon" /></svg></a>`;
-      }
-      if (author.twitter) {
-        html += ` <a class="author__twitter" href="https://twitter.com/${author.twitter}" aria-label="@${author.twitter} on Twitter"><svg><use xlink:href="#symbol-twitter" /></svg></a>`;
-      }
-      i++;
-      if (i < nb - 1) {
-        html += ', ';
-      }
-      if (i === nb - 1) {
-        html += ' and ';
+      let authorData = link_authors[author];
+      if (authorData) {
+        if (authorData.twitter) {
+          html += `<img class="u-photo avatar" src="https://res.cloudinary.com/nho/image/twitter_name/${authorData.twitter}" alt="${author} avatar" loading="lazy" width="48" height="48" /> `;
+        }
+        html += `<b class="p-name">${author}</b>`;
+        if (authorData.mastodon) {
+          const mastodonUrl = authorData.mastodon.replace(
+            /^(@[^@]+)@(.*)$/,
+            'https://$2/$1'
+          );
+          html += ` <a class="author__mastodon" href="${mastodonUrl}" aria-label="${authorData.mastodon} on Mastodon"><svg><use xlink:href="#symbol-mastodon" /></svg></a>`;
+        }
+        if (authorData.twitter) {
+          html += ` <a class="author__twitter" href="https://twitter.com/${authorData.twitter}" aria-label="@${authorData.twitter} on Twitter"><svg><use xlink:href="#symbol-twitter" /></svg></a>`;
+        }
+        i++;
+        if (i < nb - 1) {
+          html += ', ';
+        }
+        if (i === nb - 1) {
+          html += ' and ';
+        }
       }
     });
   }

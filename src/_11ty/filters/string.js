@@ -21,10 +21,8 @@ module.exports = {
     if (string === undefined) return '';
     return string.charAt(0).toUpperCase() + string.slice(1);
   },
-  url_encode: (url) => {
-    return encodeURIComponent(url);
-  },
-  shyify: (url) => {
-    return url.replace(/([\.\/])/g, '$1<wbr>');
-  },
+  url_encode: (url) => encodeURIComponent(url),
+  shyify: (url) => url.replace(/([\.\/])/g, '$1<wbr>'),
+  mastodonUrl: (mastodonId) =>
+    mastodonId.replace(/^(@[^@]+)@(.*)$/, 'https://$2/$1'),
 };

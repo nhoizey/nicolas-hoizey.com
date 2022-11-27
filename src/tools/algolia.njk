@@ -66,15 +66,16 @@ permalink: /tools/algolia.json
       {%- if not loop.first -%}
         {%- if not loop.last -%}, {% else %} and {% endif -%}
       {%- endif -%}
-      {%- if author.twitter -%}
-        <img class="u-photo avatar" src="https://res.cloudinary.com/nho/image/twitter_name/q_auto,f_auto,w_64,c_limit/{{ author.twitter }}" alt="{{ author.name }} avatar" width="48" height="48" />
+      {% set authorData = link_authors[author] %}
+      {%- if authorData.twitter -%}
+        <img class="u-photo avatar" src="https://res.cloudinary.com/nho/image/twitter_name/q_auto,f_auto,w_64,c_limit/{{ authorData.twitter }}" alt="{{ author }} avatar" width="48" height="48" />
       {% endif -%}
-      {{ author.name }}
-      {%- if author.mastodon %}
-        <a class="author__mastodon" href="{{ author.mastodonSplit.url }}" aria-label="{{ author.mastodonSplit.id }} on Mastodon"><svg><use xlink:href="#symbol-mastodon" /></svg></a>
+      {{ author }}
+      {%- if authorData.mastodon %}
+        <a class="author__mastodon" href="{{ authorData.mastodon | mastodonUrl }}" aria-label="{{ authorData.mastodon }} on Mastodon"><svg><use xlink:href="#symbol-mastodon" /></svg></a>
       {%- endif %}
-      {%- if author.twitter %}
-        <a class="author__twitter" href="https://twitter.com/{{ author.twitter }}" aria-label="@{{ author.twitter }} on Twitter"><svg><use xlink:href="#symbol-twitter" /></svg></a>
+      {%- if authorData.twitter %}
+        <a class="author__twitter" href="https://twitter.com/{{ authorData.twitter }}" aria-label="@{{ authorData.twitter }} on Twitter"><svg><use xlink:href="#symbol-twitter" /></svg></a>
       {%- endif %}
     {%- endfor -%}
   {%- endif -%}

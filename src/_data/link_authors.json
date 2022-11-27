@@ -1,0 +1,699 @@
+{
+  "Aaron Gustafson": {
+    "twitter": "AaronGustafson",
+    "site": "https://www.aaron-gustafson.com/"
+  },
+  "Ad Hoc": {
+    "twitter": "adhocteam",
+    "site": "https://adhoc.team/"
+  },
+  "Adam Silver": {
+    "twitter": "adambsilver",
+    "site": "https://adamsilver.io/"
+  },
+  "Adam Wiggins": {
+    "site": "http://about.adamwiggins.com/"
+  },
+  "Adobe PhoneGap": {
+    "twitter": "phonegap",
+    "site": "https://blog.phonegap.com/"
+  },
+  "Adrian Roselli": {
+    "twitter": "aardrian",
+    "site": "https://adrianroselli.com/"
+  },
+  "Adrian Todorov": {
+    "site": "https://atodorov.me/"
+  },
+  "Adrian Zumbrunnen": {
+    "twitter": "azumbrunnen_"
+  },
+  "Ahmad Shadeed": {
+    "twitter": "shadeed9",
+    "site": "https://ishadeed.com/"
+  },
+  "Alistair Shepherd": {
+    "twitter": "accudio",
+    "site": "https://alistairshepherd.uk/"
+  },
+  "Amelia Wattenberger": {
+    "twitter": "wattenberger",
+    "site": "https://wattenberger.com/"
+  },
+  "Ana Rodrigues": {
+    "twitter": "ohhelloana",
+    "site": "https://ohhelloana.blog/"
+  },
+  "Andy Bell": {
+    "twitter": "hankchizljaw",
+    "site": "https://hankchizljaw.com/"
+  },
+  "Anthony Ricaud": {
+    "twitter": "anthony_ricaud",
+    "site": "https://ricaud.me/"
+  },
+  "Aral Balkan": {
+    "mastodon": "@aral@mastodon.ar.al",
+    "site": "https://ar.al/"
+  },
+  "Ashley Spencer": {
+    "twitter": "ashleyyspencer",
+    "site": "https://ashleymspencer.com/"
+  },
+  "Barry Pollard": {
+    "twitter": "tunetheweb",
+    "site": "https://www.tunetheweb.com/"
+  },
+  "Baymard Institute": {
+    "twitter": "Baymard",
+    "site": "https://baymard.com/"
+  },
+  "Ben Francis": {
+    "twitter": "bfrancis"
+  },
+  "Boris Schapira": {
+    "twitter": "borisschapira",
+    "site": "https://boris.schapira.dev/"
+  },
+  "Brad Frost": {
+    "twitter": "brad_frost",
+    "mastodon": "@brad_frost@mastodon.social",
+    "site": "http://bradfrost.com/"
+  },
+  "Bramus Van Damme": {
+    "twitter": "bramus",
+    "site": "https://www.bram.us/"
+  },
+  "Brian Louis Ramirez": {
+    "twitter": "screenspan",
+    "site": "https://screenspan.net/"
+  },
+  "Bruce Lawson": {
+    "twitter": "brucel"
+  },
+  "Bryan L. Robinson": {
+    "twitter": "brob",
+    "site": "https://bryanlrobinson.com/"
+  },
+  "Carolina Gilabert": {
+    "twitter": "CarolSaysThings",
+    "site": "https://carol.gg/"
+  },
+  "Cassie Evans": {
+    "twitter": "cassiecodes",
+    "site": "https://www.cassie.codes/"
+  },
+  "Cee-Roo": {
+    "site": "http://www.ceeroo.ch/"
+  },
+  "Charity Majors": {
+    "twitter": "mipsytipsy",
+    "site": "https://charity.wtf/"
+  },
+  "Charlie Owen": {
+    "twitter": "sonniesedge",
+    "site": "https://sonniesedge.co.uk/"
+  },
+  "Chen Hui Jing": {
+    "twitter": "hj_chen",
+    "site": "https://www.chenhuijing.com/"
+  },
+  "Chris Coyier": {
+    "twitter": "chriscoyier",
+    "site": "https://chriscoyier.net/"
+  },
+  "Chris Ferdinandi": {
+    "twitter": "ChrisFerdinandi",
+    "site": "https://gomakethings.com/"
+  },
+  "Chris Nielsen": {
+    "twitter": "chrisnielsen123"
+  },
+  "Chris Taylor": {
+    "twitter": "mrwiblog",
+    "site": "https://www.stillbreathing.co.uk/"
+  },
+  "Chris Zacharias": {
+    "twitter": "zacman85",
+    "site": "https://www.chriszacharias.com/"
+  },
+  "Christian Heilmann": {
+    "twitter": "codepo8",
+    "site": "https://christianheilmann.com/"
+  },
+  "Christian Holst": {
+    "twitter": "kiehnholst"
+  },
+  "Christine Vallaure": {
+    "twitter": "moonlearning",
+    "site": "https://www.moonlearning.io/"
+  },
+  "Cody Lindley": {
+    "twitter": "codylindley"
+  },
+  "Daniel Miessler": {
+    "twitter": "danielmiessler",
+    "site": "https://danielmiessler.com/"
+  },
+  "Dave Ceddia": {
+    "twitter": "dceddia"
+  },
+  "David Heinemeier Hansson": {
+    "twitter": "dhh"
+  },
+  "Elie Sloïm": {
+    "twitter": "ElieSl",
+    "site": "https://www.opquast.com/"
+  },
+  "Emerson Loustau": {
+    "twitter": "emersonthis",
+    "site": "https://emersonthis.com/"
+  },
+  "Eric Bailey": {
+    "twitter": "ericwbailey",
+    "site": "https://ericwbailey.design/"
+  },
+  "Eric Portis": {
+    "twitter": "etportis"
+  },
+  "Ethan Marcotte": {
+    "twitter": "beep",
+    "site": "https://ethanmarcotte.com/"
+  },
+  "Evan Minto": {
+    "twitter": "VamptVo",
+    "site": "https://evanminto.com/"
+  },
+  "Farhad Manjoo": {
+    "twitter": "fmanjoo"
+  },
+  "Florens Verschelde": {
+    "twitter": "fvsch",
+    "site": "https://fvsch.com/"
+  },
+  "Grant for the Web": {
+    "twitter": "GrantForTheWeb",
+    "site": "https://www.grantfortheweb.org/"
+  },
+  "HTTP Archive": {
+    "twitter": "HTTPArchive",
+    "site": "https://httparchive.org/"
+  },
+  "Harry Roberts": {
+    "twitter": "csswizardry",
+    "site": "https://csswizardry.com/"
+  },
+  "Henk van Houtum": {
+    "twitter": "henkvanhoutum",
+    "site": "https://henkvanhoutum.nl/"
+  },
+  "Henry Desroches": {
+    "twitter": "xdesro",
+    "site": "https://henry.codes/"
+  },
+  "Heydon Pickering": {
+    "twitter": "heydonworks",
+    "mastodon": "@heydon@mastodon.social",
+    "site": "https://heydonworks.com/"
+  },
+  "Hidde de Vries": {
+    "twitter": "hdv"
+  },
+  "Hubert Sablonnière": {
+    "twitter": "hsablonniere",
+    "site": "https://www.hsablonniere.com/"
+  },
+  "Hynek Schlawack": {
+    "twitter": "hynek",
+    "site": "https://hynek.me/"
+  },
+  "Jack Schofield": {
+    "twitter": "jackschofield"
+  },
+  "Jake Archibald": {
+    "twitter": "jaffathecake",
+    "site": "https://jakearchibald.com/"
+  },
+  "Jakob Nielsen": {
+    "twitter": "nngroup",
+    "site": "https://www.nngroup.com/"
+  },
+  "Jason Grigsby": {
+    "twitter": "grigs",
+    "site": "http://www.userfirstweb.com/"
+  },
+  "Jason Pamental": {
+    "twitter": "jpamental"
+  },
+  "Jay Freestone": {
+    "twitter": "jayfreestone"
+  },
+  "Jeff Delaney": {
+    "twitter": "Jeffdelaney23",
+    "site": "https://jeffdelaney.me/"
+  },
+  "Jen Simmons": {
+    "twitter": "jensimmons",
+    "site": "https://jensimmons.com/"
+  },
+  "Jenni Nadler": {
+    "site": "https://www.jenninadler.com/"
+  },
+  "Jens Oliver Meiert": {
+    "twitter": "j9t",
+    "site": "https://meiert.com/"
+  },
+  "Jeremy Keith": {
+    "twitter": "adactio",
+    "site": "https://adactio.com/"
+  },
+  "Jeremy Wagner": {
+    "twitter": "malchata",
+    "site": "https://jeremy.codes/"
+  },
+  "Jessica Davies": {
+    "twitter": "jessdaviesmk"
+  },
+  "Jim Nielsen": {
+    "twitter": "jimniels",
+    "site": "https://blog.jim-nielsen.com/"
+  },
+  "Joe Liccini": {
+    "site": "https://www.webperf.tips/"
+  },
+  "Joel Spolsky": {
+    "twitter": "spolsky",
+    "site": "https://www.joelonsoftware.com/"
+  },
+  "Johan Halse": {
+    "twitter": "hejsna",
+    "site": "https://johan.hal.se/"
+  },
+  "Jon Sneyers": {
+    "twitter": "jonsneyers",
+    "site": "https://sneyers.info/"
+  },
+  "Jonathan Griffin": {
+    "twitter": "thewebmastercom",
+    "site": "https://www.thewebmaster.com/"
+  },
+  "Josh Collinsworth": {
+    "twitter": "jjcollinsworth",
+    "mastodon": "@collinsworth@mastodon.sandwich.net",
+    "site": "https://joshcollinsworth.com/"
+  },
+  "Josh W Comeau": {
+    "twitter": "joshwcomeau",
+    "site": "https://www.joshwcomeau.com/"
+  },
+  "Josh W. Comeau": {
+    "twitter": "joshwcomeau",
+    "site": "https://www.joshwcomeau.com/c"
+  },
+  "Jérôme Coupé": {
+    "twitter": "jeromecoupe",
+    "site": "https://www.webstoemp.com/"
+  },
+  "Karl Dubost": {
+    "site": "https://www.otsukare.info/"
+  },
+  "Karolina Szczur": {
+    "twitter": "fox",
+    "site": "https://thefox.is/"
+  },
+  "Katharine Schwab": {
+    "twitter": "kschwabable"
+  },
+  "Keir Watson": {
+    "site": "https://herbidacious.calamus.graphics/"
+  },
+  "Kev Bonett": {
+    "twitter": "basherkev"
+  },
+  "Kev Quirk": {
+    "twitter": "kevquirk",
+    "mastodon": "@kev@fosstodon.org",
+    "site": "https://kevquirk.com/"
+  },
+  "Kitty Giraudel": {
+    "twitter": "KittyGiraudel",
+    "site": "https://kittygiraudel.com/"
+  },
+  "Kornel": {
+    "twitter": "kornelski",
+    "site": "https://kornel.ski/"
+  },
+  "Kévin Dunglas": {
+    "twitter": "dunglas"
+  },
+  "Laura Kalbag": {
+    "twitter": "laurakalbag",
+    "site": "https://laurakalbag.com/"
+  },
+  "Laurel Schwulst": {
+    "site": "https://laurelschwulst.com/"
+  },
+  "Lee Reilly": {
+    "twitter": "leereilly",
+    "site": "https://leereilly.net/"
+  },
+  "Leon de Korte": {
+    "twitter": "dekorteleon",
+    "site": "https://www.leondekorte.nl/"
+  },
+  "Lisa Charlotte Rost": {
+    "twitter": "lisacrost",
+    "site": "https://lisacharlotterost.de/"
+  },
+  "Léonie Watson": {
+    "twitter": "LeonieWatson",
+    "site": "https://tink.uk/"
+  },
+  "Maarten Van Hoof": {
+    "twitter": "mrtnvh",
+    "site": "https://mrtnvh.com/"
+  },
+  "Maite Vermeulen": {
+    "twitter": "maitevermeulen"
+  },
+  "Malte Ubl": {
+    "twitter": "cramforce",
+    "site": "https://www.industrialempathy.com/"
+  },
+  "Manuel Matuzović": {
+    "twitter": "mmatuzo",
+    "mastodon": "@matuzo@mastodon.social",
+    "site": "https://www.matuzo.at/"
+  },
+  "Marc": {
+    "site": "https://atthis.link/"
+  },
+  "Marco Bellinaso": {
+    "twitter": "mbellinaso"
+  },
+  "Marco Hengstenberg": {
+    "twitter": "nice2meatu",
+    "mastodon": "@nice2meatu@mastodon.social"
+  },
+  "Marcus Herrmann": {
+    "mastodon": "@marcus@mastodon.social",
+    "site": "https://marcus.io/"
+  },
+  "Marcy Sutton": {
+    "twitter": "marcysutton",
+    "site": "https://marcysutton.com/"
+  },
+  "Maria Farrell": {
+    "twitter": "mariafarrell"
+  },
+  "Marie Manandise": {
+    "site": "https://marie-manandise.net/"
+  },
+  "Mark Llobrera": {
+    "twitter": "dirtystylus",
+    "site": "https://www.markllobrera.com/"
+  },
+  "Mark McGranaghan": {
+    "site": "https://markmcgranaghan.com/"
+  },
+  "Mark Nottingham": {
+    "twitter": "mnot",
+    "site": "https://www.mnot.net/"
+  },
+  "Martin Kleppmann": {
+    "site": "https://martin.kleppmann.com/"
+  },
+  "Matt Anderson": {
+    "twitter": "mattanddesign",
+    "site": "https://mattanddesign.com/"
+  },
+  "Matt Burgess": {
+    "twitter": "mattburgess1",
+    "site": "http://mattburgess.co/"
+  },
+  "Matt Cambion": {
+    "site": "https://starbreaker.org/"
+  },
+  "Matt Hobbs": {
+    "twitter": "TheRealNooshu",
+    "site": "https://nooshu.github.io/"
+  },
+  "Matthias Ott": {
+    "twitter": "m_ott",
+    "mastodon": "@matthiasott@mastodon.social",
+    "site": "https://matthiasott.com/"
+  },
+  "Max Böck": {
+    "twitter": "mxbck",
+    "mastodon": "@mxbck@indieweb.social",
+    "site": "https://mxb.dev/"
+  },
+  "Maximiliano Firtman": {
+    "twitter": "firt",
+    "site": "https://firt.dev/"
+  },
+  "Michael Rose": {
+    "twitter": "mmistakes",
+    "site": "https://mademistakes.com/"
+  },
+  "Michael Scharnagl": {
+    "twitter": "justmarkup",
+    "site": "https://justmarkup.com/"
+  },
+  "Michael Wolfe": {
+    "twitter": "michaelrwolfe"
+  },
+  "Michelle Barker": {
+    "twitter": "MicheBarks",
+    "site": "https://www.michellebarker.co.uk/"
+  },
+  "Mike Riethmuller": {
+    "twitter": "MikeRiethmuller",
+    "site": "https://www.madebymike.com.au/"
+  },
+  "Miriam Suzanne": {
+    "twitter": "mirisuzanne",
+    "site": "https://www.miriamsuzanne.com/"
+  },
+  "Miško Hevery": {
+    "twitter": "mhevery",
+    "site": "http://misko.hevery.com/"
+  },
+  "Monica Dinculescu": {
+    "twitter": "notwaldorf"
+  },
+  "Nate Baldwin": {
+    "twitter": "NateBaldwinArt",
+    "site": "https://natebaldw.in/"
+  },
+  "Nelson Minar": {
+    "mastodon": "@nelson@lgbt.io",
+    "site": "https://www.somebits.com/"
+  },
+  "Nick Routley": {
+    "twitter": "nickroutley"
+  },
+  "Nick Winkler": {
+    "site": "https://www.thewinklergroup.net/"
+  },
+  "Nicolas Goutay": {
+    "twitter": "Phacks",
+    "site": "https://phacks.dev/"
+  },
+  "Nils Binder": {
+    "twitter": "supremebeing09",
+    "site": "https://ichimnetz.com/"
+  },
+  "Nolan Lawson": {
+    "mastodon": "@nolan@toot.cafe",
+    "site": "https://nolanlawson.com/"
+  },
+  "Opquast": {
+    "twitter": "opquast",
+    "site": "https://www.opquast.com/"
+  },
+  "Orange Digital Accessibility": {
+    "site": "https://a11y-guidelines.orange.com/"
+  },
+  "Owen Williams": {
+    "twitter": "ow"
+  },
+  "Paul Calvano": {
+    "twitter": "paulcalvano",
+    "site": "https://paulcalvano.com/"
+  },
+  "Paul Kinlan": {
+    "twitter": "Paul_Kinlan"
+  },
+  "Paula": {
+    "mastodon": "@PaulaToThePeople@climatejustice.social",
+    "site": "https://write.wien.rocks/paula/"
+  },
+  "Peter van Hardenberg": {
+    "twitter": "pvh"
+  },
+  "Philip Walton": {
+    "twitter": "philwalton",
+    "site": "https://philipwalton.com/"
+  },
+  "Poul-Henning Kamp": {
+    "twitter": "bsdphk"
+  },
+  "Rachel Andrew": {
+    "twitter": "rachelandrew",
+    "site": "https://rachelandrew.co.uk/"
+  },
+  "Ramesh Periyathambi": {
+    "twitter": "ebaytech",
+    "site": "https://www.ebayinc.com/stories/blogs/tech/"
+  },
+  "Remy Sharp": {
+    "twitter": "rem",
+    "site": "https://remysharp.com/"
+  },
+  "Rich Harris": {
+    "twitter": "Rich_Harris"
+  },
+  "Richard Ishida": {
+    "twitter": "r12a",
+    "site": "https://r12a.github.io/"
+  },
+  "Rob Weychert": {
+    "twitter": "robweychert"
+  },
+  "Robin Rendle": {
+    "twitter": "robinrendle",
+    "site": "https://www.robinrendle.com/"
+  },
+  "Romaric Pascal": {
+    "twitter": "romaricpascal",
+    "site": "https://romaricpascal.is/"
+  },
+  "Ryan Barrett": {
+    "twitter": "schnarfed"
+  },
+  "Ryan Mulligan": {
+    "twitter": "hexagoncircle",
+    "site": "https://hexagoncircle.com/"
+  },
+  "Rémy Parmentier": {
+    "twitter": "HTeuMeuLeu",
+    "site": "https://www.hteumeuleu.fr/"
+  },
+  "Sam Morris": {
+    "twitter": "sammorrisdesign",
+    "site": "https://sammorr.is/"
+  },
+  "Sara Soueidan": {
+    "twitter": "SaraSoueidan",
+    "site": "https://www.sarasoueidan.com/"
+  },
+  "Sarah Dayan": {
+    "twitter": "frontstuff_io",
+    "site": "https://frontstuff.io/"
+  },
+  "Scott Jehl": {
+    "twitter": "scottjehl",
+    "site": "https://scottjehl.com/"
+  },
+  "Sebastian Hermida": {
+    "twitter": "sbastn"
+  },
+  "Sebastiano Guerriero": {
+    "twitter": "guerriero_se",
+    "site": "https://codyhouse.co/"
+  },
+  "Simon Hearne": {
+    "twitter": "simonhearne",
+    "site": "https://simonhearne.com/"
+  },
+  "Steve Souders": {
+    "twitter": "Souders"
+  },
+  "Stéphanie Walter": {
+    "twitter": "walterstephanie",
+    "site": "https://stephaniewalter.design/"
+  },
+  "Surma": {
+    "twitter": "DasSurma",
+    "site": "https://dassur.ma/"
+  },
+  "Tammy Everts": {
+    "twitter": "tameverts"
+  },
+  "Tantek Çelik": {
+    "twitter": "t",
+    "site": "https://tantek.com/"
+  },
+  "Taylor Hunt": {
+    "twitter": "tigt_",
+    "site": "https://ti.gt/"
+  },
+  "Terence Eden": {
+    "twitter": "edent",
+    "site": "https://shkspr.mobi/blog/"
+  },
+  "Thoughtworks": {
+    "twitter": "thoughtworks",
+    "site": "https://www.thoughtworks.com/"
+  },
+  "Tim Berners-Lee": {
+    "twitter": "timberners_lee"
+  },
+  "Tim Kadlec": {
+    "twitter": "tkadlec",
+    "site": "http://timkadlec.com/"
+  },
+  "Tom Greenwood": {
+    "twitter": "eatwholegrain",
+    "site": "https://www.wholegraindigital.com/"
+  },
+  "Tom MacWright": {
+    "twitter": "tmcw",
+    "site": "https://macwright.org/"
+  },
+  "Trey Harris": {
+    "twitter": "treyethan"
+  },
+  "Troy Hunt": {
+    "twitter": "troyhunt"
+  },
+  "Trys Mudford": {
+    "twitter": "trysmudford",
+    "mastodon": "@trys@mastodon.social",
+    "site": "https://www.trysmudford.com/"
+  },
+  "Tutorspree": {
+    "site": "http://www.tutorspree.com/about"
+  },
+  "Tyler Sticka": {
+    "twitter": "tylersticka",
+    "site": "https://tylersticka.com/"
+  },
+  "Vincent De Oliveira": {
+    "twitter": "iamvdo",
+    "site": "https://iamvdo.me/"
+  },
+  "Xiao Zhuo Jia": {
+    "twitter": "XiaoZhuoJia",
+    "site": "http://www.miragecraft.com/"
+  },
+  "Yoav Weiss": {
+    "twitter": "yoavweiss",
+    "site": "https://blog.yoav.ws/"
+  },
+  "Yuan Chuan": {
+    "twitter": "yuanchuan23"
+  },
+  "Zach Leatherman": {
+    "twitter": "zachleat",
+    "site": "https://www.zachleat.com"
+  },
+  "Ziemek Bućko": {
+    "twitter": "ziemek_bucko"
+  },
+  "m4dz": {
+    "twitter": "m4d_z",
+    "site": "https://m4dz.net/"
+  }
+}

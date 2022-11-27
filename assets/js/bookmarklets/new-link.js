@@ -68,9 +68,7 @@ title: "${title}"
 lang: en
 link: ${linkUrl}
 authors:
-  - name: ""
-    twitter: ""
-    site: ""
+  - ""
 tags: []
 ---
 \n
