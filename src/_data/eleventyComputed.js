@@ -43,7 +43,6 @@ function htmlAuthors(data) {
     let i = 0;
     const nb = data.authors.length;
     data.authors.forEach((author) => {
-      // TODO: Add support for author.mastodon
       let authorData = link_authors[author];
       if (authorData) {
         if (authorData.twitter) {
