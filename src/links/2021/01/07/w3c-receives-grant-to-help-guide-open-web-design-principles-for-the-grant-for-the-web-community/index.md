@@ -5,7 +5,7 @@ lang: en
 link: https://www.grantfortheweb.org/blog/w3c
 authors:
   - "Grant for the Web"
-tags: [WebMonetization, standard, Coil, W3C]
+tags: [WebMonetization, standards, Coil, W3C]
 ---
 
 > W3C and Grant for the Web are committed to getting more heads, hearts, and minds involved in building new business models on the web. We believe that <mark>Web Monetization has the opportunity to start to decentralize privilege and power and expand financial inclusion</mark>.
