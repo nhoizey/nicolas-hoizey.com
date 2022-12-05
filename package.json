@@ -50,7 +50,7 @@
     "@11ty/eleventy": "^1.0.2",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.2.2",
-    "@babel/core": "^7.20.2",
+    "@babel/core": "^7.20.5",
     "@babel/preset-env": "^7.20.2",
     "@jlengstorf/get-share-image": "^0.8.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
