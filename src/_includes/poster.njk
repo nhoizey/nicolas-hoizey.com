@@ -1,8 +1,8 @@
-{% if include.page.poster %}
-  {% set poster_image %}{{ pkg.homepage }}{{ include.page.url | url_path }}{{ include.page.poster }}{% endset %}
-{% else %}
-  {% set poster_image = include.page.content | first_image %}
-{% endif %}
+{%- if include.page.poster -%}
+  {%- set poster_image -%}{{- pkg.homepage -}}{{- include.page.url | url_path -}}{{- include.page.poster -}}{%- endset -%}
+{%- else -%}
+  {%- set poster_image = include.page.content | first_image -%}
+{%- endif -%}
 {% if poster_image != "" %}
   {% if build.env == 'production' %}
     <img

@@ -9,7 +9,7 @@ permalink: /feeds/mastodon/notes.json
   "feed_url": "{{ pkg.homepage }}/feeds/mastodon/notes.json",
   "items": [
   {% for entry in collections.notes | limit(20) %}
-    {%- set absoluteEntryUrl -%}{{- entry.url | url | absoluteUrl(pkg.homepage) -}}{%- endset -%}
+    {%- set absoluteEntryUrl -%}{{- pkg.homepage -}}{{- entry.url -}}{%- endset -%}
     {
       "id": "{{ absoluteEntryUrl }}",
       "url": "{{ absoluteEntryUrl }}",

@@ -6,21 +6,21 @@ eleventyExcludeFromCollections: true
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {% for page in collections.articles %}
     <url>
-      <loc>{{ pkg.homepage }}{{ page.url | url }}</loc>
+      <loc>{{ pkg.homepage }}{{ page.url }}</loc>
       <lastmod>{{ page.date.toISOString() }}</lastmod>
       <changefreq>weekly</changefreq>
     </url>
   {% endfor %}
   {% for page in collections.links %}
     <url>
-      <loc>{{ pkg.homepage }}{{ page.url | url }}</loc>
+      <loc>{{ pkg.homepage }}{{ page.url }}</loc>
       <lastmod>{{ page.date.toISOString() }}</lastmod>
       <changefreq>weekly</changefreq>
     </url>
   {% endfor %}
   {% for page in collections.notes %}
     <url>
-      <loc>{{ pkg.homepage }}{{ page.url | url }}</loc>
+      <loc>{{ pkg.homepage }}{{ page.url }}</loc>
       <lastmod>{{ page.date.toISOString() }}</lastmod>
       <changefreq>weekly</changefreq>
     </url>
