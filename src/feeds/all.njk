@@ -17,7 +17,7 @@ permalink: /feeds/all.xml
 
 {% block entries %}
   {% for entry in collections.archives | limit(20) %}
-    {%- set absoluteEntryUrl %}{{- entry.url | url | absoluteUrl(pkg.homepage) -}}{%- endset -%}
+    {%- set absoluteEntryUrl -%}{{- entry.url | url | absoluteUrl(pkg.homepage) -}}{%- endset -%}
     {%- set readableDate = entry.date | formattedDateTime -%}
     {%- set icon -%}
       {%- if entry.data.layout == 'article' -%}🖋{%- endif -%}
