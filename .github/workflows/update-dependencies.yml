@@ -4,8 +4,13 @@ name: Update NPM packages
 
 on:
   schedule:
-    - cron: '0 0 * * 1'
+    # https://crontab.guru/#0_8_*_*_1
+    - cron: '0 8 * * 1'
   workflow_dispatch:
+
+concurrency:
+  group: ${{ github.head_ref }}
+  cancel-in-progress: true
 
 jobs:
   update-packages:

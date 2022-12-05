@@ -3,6 +3,10 @@ on:
   workflow_dispatch
   # push
 
+concurrency:
+  group: ${{ github.head_ref }}
+  cancel-in-progress: true
+
 jobs:
   algolia:
     name: Update Algolia after Cloudflare Pages build

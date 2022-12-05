@@ -1,10 +1,14 @@
 name: Check Webmentions
 on:
   schedule:
-    # Runs every day at 6:00 and 18:00
-    # https://crontab.guru/#0_6,18_*_*_*
-    - cron: '0 8,20 * * *'
+    # Runs at every 15th minute from 0 through 59
+    # https://crontab.guru/#0/15_*_*_*_*
+    - cron: '0/15 * * * *'
   workflow_dispatch:
+
+concurrency:
+  group: ${{ github.head_ref }}
+  cancel-in-progress: true
 
 jobs:
   webmentions:
