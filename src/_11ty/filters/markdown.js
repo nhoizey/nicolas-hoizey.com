@@ -90,7 +90,7 @@ const tweetHashtagTohandle = (tweet) => {
     'property',
     'layer',
   ].forEach((atRule) => {
-    tweet = tweet.replace(`@{atRule}`, `@​{atRule}`);
+    tweet = tweet.replace(`@${atRule}`, `@​${atRule}`);
   });
 
   return tweet;
@@ -121,7 +121,7 @@ const tootHashtagTohandle = (toot) => {
     'property',
     'layer',
   ].forEach((atRule) => {
-    toot = toot.replace(`@{atRule}`, `@​{atRule}`);
+    toot = toot.replace(`@${atRule}`, `@​${atRule}`);
   });
 
   return toot;
@@ -249,6 +249,24 @@ module.exports = {
     });
 
     // deal with Twitter handles
+    // Add zero width space to CSS At-rules
+    // https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule
+    [
+      'charset',
+      'import',
+      'namespace',
+      'media',
+      'supports',
+      'page',
+      'font-face',
+      'keyframes',
+      'counter-style',
+      'property',
+      'layer',
+    ].forEach((atRule) => {
+      content = content.replaceAll(`@${atRule}`, `@​${atRule}`);
+    });
+
     let mentions = twitter.extractMentions(content);
     mentions.forEach((mention) => {
       content = content.replace(
