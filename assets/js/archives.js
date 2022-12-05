@@ -336,7 +336,8 @@ search.addWidgets([
 ${hit.meta_html}`
             : '') +
           `${
-            hit._snippetResult.content.matchLevel !== 'none'
+            hit._snippetResult.content.matchLevel !== 'none' &&
+            hit.type !== 'notes'
               ? '<p class="card__body p-summary">' +
                 hit._snippetResult.content.value +
                 '</p>'
