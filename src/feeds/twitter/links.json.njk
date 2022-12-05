@@ -9,7 +9,7 @@ permalink: /feeds/twitter/links.json
   "feed_url": "{{ pkg.homepage }}/feeds/twitter/links.json",
   "items": [
   {% for entry in collections.links | limit(20) %}
-    {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{%- endset -%}
+    {%- set absoluteEntryUrl -%}{{- entry.url | url | absoluteUrl(pkg.homepage) -}}{%- endset -%}
     {
       "id": "{{ absoluteEntryUrl }}",
       "url": "{{ absoluteEntryUrl }}",

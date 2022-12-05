@@ -17,14 +17,14 @@ permalink: /feeds/all.xml
 
 {% block entries %}
   {% for entry in collections.archives | limit(20) %}
-    {% set absoluteEntryUrl %}{{ entry.url | url | absoluteUrl(pkg.homepage) }}{% endset %}
-    {% set readableDate = entry.date | formattedDateTime %}
-    {% set icon %}
-      {% if entry.data.layout == 'article' %}🖋{% endif %}
-      {% if entry.data.layout == 'link' %}🔗{% endif %}
-      {% if entry.data.layout == 'billet' %}📓{% endif %}
-      {% if entry.data.layout == 'note' %}💬{% endif %}
-    {% endset %}
+    {%- set absoluteEntryUrl %}{{- entry.url | url | absoluteUrl(pkg.homepage) -}}{%- endset -%}
+    {%- set readableDate = entry.date | formattedDateTime -%}
+    {%- set icon -%}
+      {%- if entry.data.layout == 'article' -%}🖋{%- endif -%}
+      {%- if entry.data.layout == 'link' -%}🔗{%- endif -%}
+      {%- if entry.data.layout == 'billet' -%}📓{%- endif -%}
+      {%- if entry.data.layout == 'note' -%}💬{%- endif -%}
+    {%- endset -%}
     <entry>
       <title>{{ icon }} {{ entry.data.body.title }}</title>
       <link href="{{ absoluteEntryUrl }}" />
