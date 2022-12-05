@@ -260,13 +260,26 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget('_site/js/');
   eleventyConfig.addWatchTarget('_site/css/');
 
-  eleventyConfig
-    .addPassthroughCopy(
+  if (process.env.NODE_ENV === 'production') {
+    eleventyConfig.addPassthroughCopy(
       path.join(
         config.dir.src,
         '{articles,billets,drafts,links,notes,talks}/**/*.{jpg,png,gif,svg,kmz,zip,css}'
       )
-    )
+    );
+  } else {
+    // In development, don't use content from before 2020
+    eleventyConfig.addPassthroughCopy(
+      path.join(
+        config.dir.src,
+        '{articles,billets,drafts,links,notes,talks}/202*/*.{jpg,png,gif,svg,kmz,zip,css}'
+      )
+    );
+    eleventyConfig.ignores.add('./src/articles/200*/**');
+    eleventyConfig.ignores.add('./src/articles/201*/**');
+  }
+
+  eleventyConfig
     .addPassthroughCopy(path.join(config.dir.src, 'assets'))
     .addPassthroughCopy({ [path.join(config.dir.src, '_root')]: '/' })
     .addPassthroughCopy(path.join(config.dir.src, 'offline/fallback.svg'))
@@ -279,7 +292,7 @@ module.exports = function (eleventyConfig) {
     ui: false,
     ghostMode: false,
     files: ['_site/css/*.css', '_site/js/*.js'],
-    open: true,
+    open: false,
     browser: 'firefox',
   });
 
