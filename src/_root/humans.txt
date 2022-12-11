@@ -17,7 +17,7 @@ YP   YP  `Y88P'  Y888888P d88888P Y88888P    YP
 
 Nicolas Hoizey
 - Site    : nicolas-hoizey.com
-- Twitter : @nhoizey
+- Mastodon: @nhoizey@mamot.fr
 - Location: France
 
 /* SITE */

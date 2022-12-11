@@ -24,7 +24,7 @@ You can also subscribe to feeds from [my photography site](https://nicolas-hoize
 If you wonder what "feeds" are, go read [About Feeds](https://aboutfeeds.com/) to understand how they allow you "to subscribe to websites and get the latest content in one place".
 :::
 
-You can also follow me [on Mastodon](https://mamot.fr/@nhoizey) or [on Twitter](https://twitter.com/nhoizey), where the same contents are also pushed.
+You can also follow me [on Mastodon](https://mamot.fr/@nhoizey), where the same contents are also pushed.
 
 Most content I create is first published on my own website and then pushed to other platforms for increased audience (aka POSSE).
 
