@@ -34,4 +34,4 @@ EOF
 
 echo "$body" > "$post"
 
-/opt/homebrew/bin/code "$post" &
+/opt/homebrew/bin/macdown "$post" &

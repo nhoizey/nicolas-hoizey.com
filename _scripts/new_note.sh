@@ -42,4 +42,4 @@ EOF
 echo "$body" > "$note"
 
 open "$folder/$number"
-/opt/homebrew/bin/code "$note" &
+/opt/homebrew/bin/macdown "$note" &
