@@ -3,6 +3,8 @@ const slugifyString = require('../../_utils/slugify');
 const path = require('path');
 const entities = require('entities');
 
+const { tagToHashtag } = require('./string.js');
+
 const MARKDOWN_IMAGE_REGEX = /!\[([^\]]*)\]\(([^\) ]+)( [^\)]+)?\)({.[^}]+})?/g;
 
 function htmlEntities(str) {
@@ -96,8 +98,14 @@ const tweetHashtagTohandle = (tweet) => {
   return tweet;
 };
 
-const tootHashtagTohandle = (toot) => {
-  // convert hashtags to Twitter accounts
+const tootHashtagTohandle = (toot, tags) => {
+  // Remove tags from the list if they're already in the content as hashtags
+  const hashTags = tags
+    .filter((tag) => !toot.match(`#${tagToHashtag(tag)}`))
+    .map((tag) => `#${tagToHashtag(tag)}`);
+  console.dir(hashTags);
+
+  // convert hashtags to Mastodon accounts
   let handles = {
     '#Eleventy': '@eleventy@fosstodon.org',
     '#Mastodon': '@Mastodon@mastodon.social',
@@ -123,6 +131,14 @@ const tootHashtagTohandle = (toot) => {
   ].forEach((atRule) => {
     toot = toot.replace(`@${atRule}`, `@​${atRule}`);
   });
+
+  if (hashTags.length > 0) {
+    toot = toot.concat('\n\n', hashTags.join(' '));
+  }
+
+  if (toot.match('true also for design tokens')) {
+    console.log(toot);
+  }
 
   return toot;
 };
@@ -204,14 +220,14 @@ module.exports = {
 
     return tweet;
   },
-  noteToToot: (content, url) => {
+  noteToToot: (content, tags) => {
     toot = content.trim();
     toot = shortMessageCode(toot);
 
     // remove bold and italics
     toot = toot.replace(/\*+([^\*\n]+)\*+/g, '$1');
 
-    toot = tootHashtagTohandle(toot);
+    toot = tootHashtagTohandle(toot, tags);
 
     toot = shortMessageRemoveImage(toot);
     toot = shortMessageLinks(toot);
