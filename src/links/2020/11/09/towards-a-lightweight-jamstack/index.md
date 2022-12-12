@@ -5,7 +5,7 @@ lang: en
 link: https://orbit.love/blog/towards-a-lightweight-jamstack/
 authors:
   - "Nicolas Goutay"
-tags: [JAMstack, performance, Eleventy]
+tags: [JAMstack, webperf, Eleventy]
 ---
 
 > Not having to use a JavaScript framework also meant that HTML, not JSX or Vue components, is now front and center in the code you write. This helped me avoid the usual traps when writing React: the infamous div soup, inaccessible components, or non-semantic tags.

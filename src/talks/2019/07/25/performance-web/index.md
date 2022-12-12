@@ -2,7 +2,7 @@
 date: 2019-07-25 14:00:00 +02:00
 lang: fr
 title: "Performance Web"
-tags: [performance]
+tags: [webperf]
 notist_url: "https://talks.nicolas-hoizey.com/OfSEN7/performance-web"
 illustration:
   src: "https://on.notist.cloud/slides/deck3297/thumb-0.jpg"

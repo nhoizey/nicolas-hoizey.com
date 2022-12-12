@@ -5,7 +5,7 @@ lang: en
 link: https://cloudfour.com/thinks/svg-icon-stress-test/
 authors:
   - "Tyler Sticka"
-tags: [SVG, performance]
+tags: [SVG, webperf]
 ---
 
 Using SVG with performance in mind is not an easy topic because there are many ways to show SVG images in pages.

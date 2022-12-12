@@ -1,6 +1,6 @@
 ---
 date: 2021-10-31 14:32:18 +01:00
-tags: [performance, Netlify, Cloudflare]
+tags: [webperf, Netlify, Cloudflare]
 ---
 
 The really high TTFB from France with #Netlify makes me want to move to another hosting for [my photography site](https://nicolas-hoizey.photo), maybe #Cloudflare.

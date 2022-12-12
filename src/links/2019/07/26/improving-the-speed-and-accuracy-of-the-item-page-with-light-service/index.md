@@ -5,7 +5,7 @@ lang: en
 link: https://www.ebayinc.com/stories/blogs/tech/item-fast-light-service/
 authors:
   - "Ramesh Periyathambi"
-tags: [performance]
+tags: [webperf]
 ---
 
 Ramesh Periyathambi explains why eBay developed a dedicated "light" service to get critical informations about products, to speed up presentation of accurate content to buyers, and why it was worth the additional effort.

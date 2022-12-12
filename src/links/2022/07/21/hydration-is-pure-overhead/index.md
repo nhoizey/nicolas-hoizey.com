@@ -5,7 +5,7 @@ lang: en
 link: https://www.builder.io/blog/hydration-is-pure-overhead
 authors:
   - "Miško Hevery"
-tags: [performance, JavaScript]
+tags: [webperf, JavaScript]
 ---
 
 > The re-execution of code on the client that the server already executed as part of SSR/SSG is what makes hydration pure overhead: that is, <mark>a duplication of work by the client that the server already did</mark>. The framework could have avoided the cost by transferring information from the server to the client, but instead, it threw the information away.

@@ -5,7 +5,7 @@ lang: en
 link: https://cloudinary.com/blog/legacy_and_transition_creating_a_new_universal_image_codec
 authors:
   - "Jon Sneyers"
-tags: [image, performance, JPEG XL]
+tags: [image, webperf, JPEG XL]
 ---
 
 > JPEG XL’s legacy-friendly feature is <mark>a game-changer for the transition problems</mark> described above. Besides saving both storage and bandwidth from the outset, you can also losslessly preserve legacy images while reaping more compression. In other words, <mark>JPEG XL offers only benefits from the start, whereas other approaches require sacrifices in storage to reduce bandwidth</mark>.

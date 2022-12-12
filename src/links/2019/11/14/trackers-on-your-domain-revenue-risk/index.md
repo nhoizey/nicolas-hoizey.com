@@ -5,7 +5,7 @@ lang: en
 link: https://boris.schapira.dev/2019/10/tracker-on-your-domain-revenue-risk/
 authors:
   - "Boris Schapira"
-tags: [performance, privacy, security, ethics]
+tags: [webperf, privacy, security, ethics]
 ---
 
 In this article, Boris shows how new practices around third party trackers hidden as first party assets, to "escape" GDPR and trackers blockers, can lead to security and performance issues, leading to potential business loss.

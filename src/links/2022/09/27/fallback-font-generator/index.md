@@ -5,7 +5,7 @@ lang: en
 link: https://screenspan.net/fallback
 authors:
   - "Brian Louis Ramirez"
-tags: [performance, font, CSS, CLS]
+tags: [webperf, font, CSS, CLS]
 ---
 
 > Reduce Cumulative Layout Shift (CLS) by adjusting web fonts and system font fallbacks using special @font-face descriptors.

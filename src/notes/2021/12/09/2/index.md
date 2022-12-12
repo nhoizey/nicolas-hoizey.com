@@ -1,6 +1,6 @@
 ---
 date: 2021-12-09 18:55:38 +01:00
-tags: [image, responsive, performance]
+tags: [image, responsive, webperf]
 ---
 
 Looks like @archdigestindia could improve #WebPerf for their readers and reduce bandwidth invoices…

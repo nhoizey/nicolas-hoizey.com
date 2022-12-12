@@ -1,6 +1,6 @@
 ---
 date: 2021-10-14 09:33:51 +02:00
-tags: [performance]
+tags: [webperf]
 ---
 
 Looks like support for `loading="lazy"` in webkit is almost there! 🎉

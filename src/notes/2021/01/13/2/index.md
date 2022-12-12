@@ -1,6 +1,6 @@
 ---
 date: 2021-01-13 17:44:49 +01:00
-tags: [image, AVIF, performance, Cloudinary]
+tags: [image, AVIF, webperf, Cloudinary]
 ---
 
 Now waiting for #Cloudinary to automagically enhance my sites with AVIF for all supported browsers… 😍

@@ -5,7 +5,7 @@ lang: en
 link: https://carol.gg/blog/site-rebuild-eleventy/
 authors:
   - "Carolina Gilabert"
-tags: [Eleventy, image, performance]
+tags: [Eleventy, image, webperf]
 ---
 
 Carol shares the process to build her new site with Eleventy, with a section about image optimisation, a topic I'm very interested in, as you should already know. 😅

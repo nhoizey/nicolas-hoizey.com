@@ -5,7 +5,7 @@ lang: en
 link: https://nooshu.github.io/blog/2020/08/25/you-should-be-testing-your-404-pages-web-performance/
 authors:
   - "Matt Hobbs"
-tags: ["404", performance]
+tags: ["404", webperf]
 ---
 
 Nice overview of the issue encountered by users if your 404 error page weights too much, with actual data from HTTP Archive.

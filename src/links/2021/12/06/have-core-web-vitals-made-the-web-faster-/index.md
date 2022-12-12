@@ -5,7 +5,7 @@ lang: en
 link: https://calendar.perfplanet.com/2021/have-core-web-vitals-made-the-web-faster/
 authors:
   - "Barry Pollard"
-tags: [performance, CWV]
+tags: [webperf, CWV]
 ---
 
 Barry dives into data from HTTP Archive to show how Google's push for web performance with Core Web Vitals helped — or not 😅 — improve the performance of the Web.

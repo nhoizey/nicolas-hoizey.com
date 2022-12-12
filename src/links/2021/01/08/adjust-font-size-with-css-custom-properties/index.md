@@ -5,7 +5,7 @@ lang: en
 link: https://romaricpascal.is/posts/adjust-font-size-css-custom-properties/
 authors:
   - "Romaric Pascal"
-tags: [font, performance, CSS, custom properties]
+tags: [font, webperf, CSS, custom properties]
 ---
 
 I do love beautiful Web fonts, even if there are none on this site currently, so I plan to add at least one soon. I might use this nice solution.

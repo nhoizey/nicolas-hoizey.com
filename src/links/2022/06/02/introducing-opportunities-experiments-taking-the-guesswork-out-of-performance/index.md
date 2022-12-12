@@ -5,7 +5,7 @@ lang: en
 link: https://blog.webpagetest.org/posts/introducing-opportunities-and-experiments/
 authors:
   - "Tim Kadlec"
-tags: [performance, WebPageTest]
+tags: [webperf, WebPageTest]
 ---
 
 The WebPageTest team has been working on improving the platform since Catchpoint acquired them, and now they're releasing awesome new features to help better test performance and try actual improvements! 😍

@@ -5,7 +5,7 @@ lang: en
 link: https://www.zachleat.com/web/lighthouse-deception/
 authors:
   - "Zach Leatherman"
-tags: [performance, Lighthouse]
+tags: [webperf, Lighthouse]
 ---
 
 I agree with Zach that the Lighthouse scores we see - shared mostly on Twitter - should be taken with a grain of salt, as they are often shared without any mention of the test conditions.

@@ -1,6 +1,6 @@
 ---
 date: 2020-11-30 10:34:56 +01:00
-tags: [Dareboost, performance]
+tags: [Dareboost, webperf]
 ---
 
 That's the kind of #Dareboost report I like to receive on Monday! 💪

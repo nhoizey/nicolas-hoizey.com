@@ -1,6 +1,6 @@
 ---
 date: 2020-12-23 23:01:22 +01:00
-tags: [performance]
+tags: [webperf]
 ---
 
 5 tests for the same page on PageSpeed Insights within 3 minutes, results range from 29 to 60. 🤷‍♂️

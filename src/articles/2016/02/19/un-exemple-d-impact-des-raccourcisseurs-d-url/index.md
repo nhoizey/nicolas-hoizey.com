@@ -2,7 +2,7 @@
 title: Le gros impact des raccourcisseurs d'URL sur la performance
 date: 2016-02-19 12:00:00 +02:00
 lang:  fr
-tags:  [URL, performance]
+tags:  [URL, webperf]
 ---
 
 ::: lead

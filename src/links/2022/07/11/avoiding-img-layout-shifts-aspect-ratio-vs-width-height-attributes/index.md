@@ -5,7 +5,7 @@ lang: en
 link: https://jakearchibald.com/2022/img-aspect-ratio/
 authors:
   - "Jake Archibald"
-tags: [image, responsive, CLS, CWV, performance]
+tags: [image, responsive, CLS, CWV, webperf]
 ---
 
 Layout shifts are a real annoyance on most sites, so please, read this new gem from Jake, about preventing images layouut shifts the right way… or the right way**s** actually.

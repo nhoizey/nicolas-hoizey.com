@@ -5,7 +5,7 @@ lang: en
 link: https://henry.codes/writing/how-to-convert-variable-ttf-font-files-to-woff2/
 authors:
   - "Henry Desroches"
-tags: [font, variable, TTF, WOFF2, performance]
+tags: [font, variable, TTF, WOFF2, webperf]
 ---
 
 > In previous experience, converting variable TTF to WOFF via online tools like [convert.io](http://convert.io/) or [FontSquirrel](https://www.fontsquirrel.com/tools/webfont-generator) would often <mark>break the axes</mark> needed to interpolate between font variation settings.

@@ -2,7 +2,7 @@
 title:      La navigation ne se fige plus en haut de l'écran lors du scroll
 date: 2011-04-11 12:00:00 +02:00
 lang:       fr
-tags:       [UX, JavaScript, performance]
+tags:       [UX, JavaScript, webperf]
 ---
 
 Vous l'avez peut-être constaté par vous-même, le menu de navigation de ce site[^ancien] ne se fige plus en haut de l'écran quand vous descendez dans la page. Ce fonctionnement que j'avais trouvé très [sexy](/2009/12/un-menu-de-navigation-toujours-visible.html) s'avère poser plusieurs problèmes, donc j'ai préféré le supprimer.

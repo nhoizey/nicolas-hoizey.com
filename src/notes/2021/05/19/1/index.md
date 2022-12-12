@@ -1,6 +1,6 @@
 ---
 date: 2021-05-19 21:31:54 +02:00
-tags: [SVG, CSS, performance, Firefox]
+tags: [SVG, CSS, webperf, Firefox]
 ---
 
 Worked on a site with an SVG sprite used as CSS background, and was painfully reminded of why I didn't do that in other projects yet.

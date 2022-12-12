@@ -5,7 +5,7 @@ lang: en
 link: https://mailchi.mp/fe0fa657733a/web-typography-news-11-progressive-font-enrichment-naming-things-is-hard-edition?e=6d09bc30d0
 authors:
   - "Jason Pamental"
-tags: [font, performance]
+tags: [font, webperf]
 ---
 
 In issue #11 of his great Web Fonts & Typography News newsletter, Jason Pamental shares the progress made by the [W3C Web Fonts Working Group](https://www.w3.org/2009/08/WebFonts/charter.html) towards a new way to progressively serve fonts so that only the required new glyphs are downloaded every time new characters have to be rendered.

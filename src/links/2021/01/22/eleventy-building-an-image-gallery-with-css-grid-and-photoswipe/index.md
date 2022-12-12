@@ -5,7 +5,7 @@ lang: en
 link: https://www.markllobrera.com/posts/eleventy-building-image-gallery-photoswipe/
 authors:
   - "Mark Llobrera"
-tags: [image, Eleventy, responsive, performance, Netlify]
+tags: [image, Eleventy, responsive, webperf, Netlify]
 ---
 
 Mark is using my [Images Responsiver plugin for Eleventy](https://nhoizey.github.io/images-responsiver/eleventy-plugin-images-responsiver/) with [Netlify Large Media](https://www.netlify.com/products/large-media/) and [PhotoSwipe](https://photoswipe.com/) to build an image gallery, and it's really great!

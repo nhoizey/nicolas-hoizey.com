@@ -5,7 +5,7 @@ lang: en
 link: https://dassur.ma/things/when-workers/
 authors:
   - "Surma"
-tags: [performance, JavaScript]
+tags: [webperf, JavaScript]
 ---
 
 Surma explains very well how “<mark>low-end phones will mostly likely be used by the massive number of people coming online in the next couple of years</mark>“, and why we need to take that into account when we design our frontend Web architectures.

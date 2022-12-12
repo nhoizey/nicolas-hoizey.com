@@ -5,27 +5,27 @@
   },
   "src/talks/2019/07/25/performance-web": {
     "lang": "fr",
-    "tags": "[performance]"
+    "tags": "[webperf]"
   },
   "src/talks/2018/12/13/les-progressive-web-apps-pwa": {
     "lang": "fr",
-    "tags": "[PWA, performance, UX]"
+    "tags": "[PWA, webperf, UX]"
   },
   "src/talks/2018/10/09/optimiser-la-performance-par-un-choix-optimal-des-dimensions-des-images-responsives": {
     "lang": "fr",
-    "tags": "[responsive, image, performance]"
+    "tags": "[responsive, image, webperf]"
   },
   "src/talks/2018/10/06/la-petite-clinique-des-images-responsives": {
     "lang": "fr",
-    "tags": "[responsive, image, performance]"
+    "tags": "[responsive, image, webperf]"
   },
   "src/talks/2018/03/28/quelques-solutions-facilitant-la-bonne-mise-en-oeuvre-des-images-responsives": {
     "lang": "fr",
-    "tags": "[responsive, image, performance]"
+    "tags": "[responsive, image, webperf]"
   },
   "src/talks/2017/10/18/how-cloudinary-eases-responsive-web-design-and-more": {
     "lang": "en",
-    "tags": "[Cloudinary, responsive, image, performance]"
+    "tags": "[Cloudinary, responsive, image, webperf]"
   },
   "src/talks/2013/10/10/un-petit-pas-pour-l-em-un-grand-pas-pour-le-web": {
     "lang": "fr",
@@ -33,10 +33,10 @@
   },
   "src/talks/2011/05/26/web-ux-performance-web": {
     "lang": "fr",
-    "tags": "[UX, performance]"
+    "tags": "[UX, webperf]"
   },
   "src/talks/2011/02/08/ameliorer-les-performances-web-les-optimisations-cote-client": {
     "lang": "fr",
-    "tags": "[UX, performance]"
+    "tags": "[UX, webperf]"
   }
 }

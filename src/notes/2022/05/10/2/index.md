@@ -1,6 +1,6 @@
 ---
 date: 2022-05-10 15:54:27 +02:00
-tags: [performance, Treo, CrUX]
+tags: [webperf, Treo, CrUX]
 ---
 
 It looks like after [a few month without enough trafic]({% link_to "/notes/2021/04/13/1/" %}), my personal site is back in [**C**h**r**ome **U**ser e**X**perience](https://developers.google.com/web/tools/chrome-user-experience-report)! 🎉

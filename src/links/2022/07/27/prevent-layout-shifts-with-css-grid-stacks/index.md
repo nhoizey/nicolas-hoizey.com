@@ -5,7 +5,7 @@ lang: en
 link: https://www.hsablonniere.com/prevent-layout-shifts-with-css-grid-stacks--qcj5jo/
 authors:
   - "Hubert Sablonnière"
-tags: [CSS, Grid, CLS, CWV, performance]
+tags: [CSS, Grid, CLS, CWV, webperf]
 ---
 
 I keep sending people this clever solution provided by Hubert, I wonder why I still didn't add it to my links!

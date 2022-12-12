@@ -5,7 +5,7 @@ lang: en
 link: https://www.smashingmagazine.com/2021/06/how-to-fix-cumulative-layout-shift-issues/
 authors:
   - "Barry Pollard"
-tags: [CLS, CWV, performance]
+tags: [CLS, CWV, webperf]
 ---
 
 Barry shows here a few ways to prevent layout shifts and make your visitors happier.

@@ -2,7 +2,7 @@
 date: 2011-05-26 20:00:00 +02:00
 lang: fr
 title: "Web UX - Performance Web"
-tags: [UX, performance]
+tags: [UX, webperf]
 notist_url: "https://talks.nicolas-hoizey.com/ett39R/web-ux-performance-web"
 illustration:
   src: "https://on.notist.cloud/slides/deck1098/thumb-0.jpg"
