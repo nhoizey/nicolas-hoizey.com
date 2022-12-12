@@ -1,6 +1,6 @@
 ---
 date: 2022-01-18 21:56:41 +01:00
-tags: [Firefox, image, webperf, JPEG XL]
+tags: [Firefox, image, WebPerf, JPEG XL]
 ---
 
 Support for JPEG XL in Firefox just got a much better priority!

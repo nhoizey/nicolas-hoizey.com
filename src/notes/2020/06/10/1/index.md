@@ -1,6 +1,6 @@
 ---
 date: 2020-06-10 18:47:06 +02:00
-tags: [webperf, test]
+tags: [WebPerf, test]
 ---
 
 Nice new #WebPerf tool from @browserstack, it will help show people (aka "clients") not everyone have the same high end device and/or browser.

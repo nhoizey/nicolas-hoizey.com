@@ -1,6 +1,6 @@
 ---
 date: 2022-05-10 12:15:41 +02:00
-tags: [image, webperf, Cloudinary, WebP, AVIF]
+tags: [image, WebPerf, Cloudinary, WebP, AVIF]
 ---
 
 [One year later]({% link_to "/notes/2021/05/06/1/" %})…

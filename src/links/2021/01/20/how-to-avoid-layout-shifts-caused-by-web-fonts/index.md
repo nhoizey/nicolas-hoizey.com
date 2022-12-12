@@ -5,7 +5,7 @@ lang: en
 link: https://simonhearne.com/2021/layout-shifts-webfonts/
 authors:
   - "Simon Hearne"
-tags: [font, UX, CLS, CWV, webperf]
+tags: [font, UX, CLS, CWV, WebPerf]
 ---
 
 > One common cause of layout shift is surprisingly difficult to resolve though: flashes of unstyled text (FOUT).

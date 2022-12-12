@@ -1,6 +1,6 @@
 ---
 date: 2022-01-07 19:32:04 +01:00
-tags: [Mapbox, Cloudinary, webperf, image]
+tags: [Mapbox, Cloudinary, WebPerf, image]
 ---
 
 The #Mapbox sprite on my photo site weights 222 kB:

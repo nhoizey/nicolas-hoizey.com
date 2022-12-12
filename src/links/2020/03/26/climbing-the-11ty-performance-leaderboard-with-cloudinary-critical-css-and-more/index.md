@@ -5,7 +5,7 @@ lang: en
 link: https://bryanlrobinson.com/blog/climbing-the-11ty-performance-leaderboard/
 authors:
   - "Bryan L. Robinson"
-tags: [Eleventy, JAMstack, webperf]
+tags: [Eleventy, JAMstack, WebPerf]
 ---
 
 This is an excellent writeup of the different paths Bryan went to optimize the performance of his site built with Eleventy. I will definitely look for inspiration in this code.

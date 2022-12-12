@@ -5,7 +5,7 @@ lang: en
 link: https://performance.shopify.com/blogs/blog/responsive-images-on-shopify-with-liquid#fixing-oversized-mobile-images
 authors:
   - "Sia Karamalegos"
-tags: [responsive, image, webperf, Shopify, Liquid]
+tags: [responsive, image, WebPerf, Shopify, Liquid]
 ---
 
 > We launched the `image_tag` and `image_url` filters to help with generating responsive images. Before we dive in, what do these filters do? What are the differences between them?

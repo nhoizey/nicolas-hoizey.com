@@ -5,7 +5,7 @@ lang: en
 link: https://timkadlec.com/remembers/2020-04-21-the-cost-of-javascript-frameworks/
 authors:
   - "Tim Kadlec"
-tags: [webperf, JavaScript]
+tags: [WebPerf, JavaScript]
 ---
 
 > In an ideal world, I believe a framework should go beyond developer experience value and provide concrete value for the people using our sites. Performance is just one part of that—accessibility and security both come to mind as well—but it’s an essential part.

@@ -5,7 +5,7 @@ lang: en
 link: https://jakearchibald.com/2021/io-site-perf/
 authors:
   - "Jake Archibald"
-tags: [webperf]
+tags: [WebPerf]
 ---
 
 Jake continues his series of web performance audits, this time with the site for Google's I/O conference, and the result is a real shame.

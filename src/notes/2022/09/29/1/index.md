@@ -1,6 +1,6 @@
 ---
 date: 2022-09-29 20:35:12 +02:00
-tags: [webperf, image, responsive]
+tags: [WebPerf, image, responsive]
 ---
 
 https://twitter.com/csswizardry/status/1575517437180657666

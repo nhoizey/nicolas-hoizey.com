@@ -1,6 +1,6 @@
 ---
 date: 2022-04-30 10:46:57 +02:00
-tags: [image, webperf]
+tags: [image, WebPerf]
 ---
 
 When you start using an image CDN on a site with oversized JPEGs, without any change to the HTML:

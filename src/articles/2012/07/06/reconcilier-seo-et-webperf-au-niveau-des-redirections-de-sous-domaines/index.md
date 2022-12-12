@@ -2,7 +2,7 @@
 title:      Réconcilier SEO et WebPerf au niveau des redirections de (sous)domaines
 date: 2012-07-06 12:00:00 +02:00
 lang:       fr
-tags:       [SEO, webperf, WebPageTest]
+tags:       [SEO, WebPerf, WebPageTest]
 ---
 
 Le SEO et la performance Web sont deux disciplines très différentes liées à la mise en ligne de sites Web, avec des objectifs qui parfois peuvent être contradictoires. Mais des fois, ce qui paraît contradictoire ne l'est en fait pas si on y regarde de plus près, avec un peu de pragmatisme.
@@ -57,7 +57,7 @@ RewriteRule ^(.*) http://gasteroprod.com/$1 [QSA,R=301,L]
 
 Vous pouvez bien entendu ajouter d'autres robots si cela vous chante…
 
-[^1]: Et même peut-être un jour [une bonne pratique Opquast webperf](https://checklists.opquast.com/webperf/workshops/criterion/19918)…
+[^1]: Et même peut-être un jour [une bonne pratique Opquast WebPerf](https://checklists.opquast.com/webperf/workshops/criterion/19918)…
 
 [^2]: Ce n'est pas péjoratif.
 

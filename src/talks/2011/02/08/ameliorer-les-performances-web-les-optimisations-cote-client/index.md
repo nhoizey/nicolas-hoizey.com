@@ -2,7 +2,7 @@
 date: 2011-02-08 14:00:00 +02:00
 lang: fr
 title: "Améliorer les performances Web - Les optimisations côté client"
-tags: [UX, webperf]
+tags: [UX, WebPerf]
 notist_url: "https://talks.nicolas-hoizey.com/2aAFH2/ameliorer-les-performances-web-les-optimisations-cote-client"
 illustration:
   src: "https://on.notist.cloud/slides/deck2579/thumb-0.jpg"

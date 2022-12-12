@@ -5,7 +5,7 @@ lang: en
 link: https://www.shopify.com/enterprise/performance-vs-functionality-making-the-right-site-speed-tradeoffs
 authors:
   - "Nick Winkler"
-tags: [webperf]
+tags: [WebPerf]
 ---
 
 > Fortunes are made and lost based on how brands thread the needle between site speed and functionality. Despite this, the Retail Systems Research (RSR)’s survey reveals <mark>the average retailer’s website is still too slow, and their mobile sites are even slower</mark>.

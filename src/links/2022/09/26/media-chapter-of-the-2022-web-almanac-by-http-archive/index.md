@@ -5,7 +5,7 @@ lang: en
 link: https://almanac.httparchive.org/en/2022/media
 authors:
   - "HTTP Archive"
-tags: [image, webperf, responsive]
+tags: [image, WebPerf, responsive]
 ---
 
 I had the honor to review the Media chapter of the 2022 edition of [The Web Almanac](https://almanac.httparchive.org/) by HTTP Archive, "a comprehensive report on the state of the web, backed by real data and trusted web experts".

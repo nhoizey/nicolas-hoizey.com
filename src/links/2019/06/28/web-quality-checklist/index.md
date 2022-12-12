@@ -5,7 +5,7 @@ lang: en
 link: https://devchecklists.com/web-quality-checklist/en/
 authors:
   - "Opquast"
-tags: [quality, webperf, privacy, accessibility]
+tags: [quality, WebPerf, privacy, accessibility]
 ---
 
 > The Web Quality Checklist is intended for all professionals who create websites. It is designed in a collaborative way by a community of Web professionals, led by the French company [Opquast](https://www.opquast.com/) (Open Quality Standards).

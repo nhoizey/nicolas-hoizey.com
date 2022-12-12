@@ -5,7 +5,7 @@ lang: en
 link: https://www.webperf.tips/tip/cached-js-misconceptions/
 authors:
   - "Joe Liccini"
-tags: [webperf, JavaScript]
+tags: [WebPerf, JavaScript]
 ---
 
 Most developers still don't understand that large JavaScript code is really hurting performance, let's hope this great explanation by Joe, that this is really not just about network, will help:

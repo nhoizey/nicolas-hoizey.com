@@ -1,6 +1,6 @@
 ---
 date: 2022-07-11 10:42:19 +02:00
-tags: [webperf, Firefox]
+tags: [WebPerf, Firefox]
 ---
 
 `preconnect` is still not supported in #Firefox… 😔

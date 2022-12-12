@@ -5,7 +5,7 @@ lang: en
 link: https://cloudfour.com/thinks/big-picture-performance-analysis-using-lighthouse-parade/
 authors:
   - "Emerson Loustau"
-tags: [webperf, Lighthouse]
+tags: [WebPerf, Lighthouse]
 ---
 
 Here is a great new open source tool provided by the Cloud Four team! 👍

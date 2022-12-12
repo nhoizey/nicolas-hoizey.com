@@ -1,6 +1,6 @@
 ---
 date: 2021-10-26 15:55:21 +02:00
-tags: [webperf, photo]
+tags: [WebPerf, photo]
 ---
 
 I guess I've got a perfect illustration for a "WebPerf 101" course… 😉

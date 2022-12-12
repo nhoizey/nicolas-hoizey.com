@@ -1,6 +1,6 @@
 ---
 date: 2020-06-25 00:22:33 +02:00
-tags: [webperf, TIL, SpeedCurve]
+tags: [WebPerf, TIL, SpeedCurve]
 ---
 
 TIL:

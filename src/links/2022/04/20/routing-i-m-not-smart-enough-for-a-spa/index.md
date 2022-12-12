@@ -5,7 +5,7 @@ lang: en
 link: https://dev.to/tigt/routing-im-not-smart-enough-for-a-spa-5hki
 authors:
   - "Taylor Hunt"
-tags: [webperf, SPA, JavaScript]
+tags: [WebPerf, SPA, JavaScript]
 ---
 
 Here comes Taylor's 4th article in his great ["Streets" series](https://dev.to/tigt/series/16560) about web performance and front end architectures.

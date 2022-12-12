@@ -2,7 +2,7 @@
 date: 2020-10-15 00:02:19 +02:00
 title: "How I build my SVG sprites"
 lang:  en
-tags:  [SVG, webperf, Node]
+tags:  [SVG, WebPerf, Node]
 ---
 
 ::: lead

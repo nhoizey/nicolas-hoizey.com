@@ -5,7 +5,7 @@ lang: en
 link: https://csswizardry.com/2020/05/the-fastest-google-fonts/
 authors:
   - "Harry Roberts"
-tags: [font, webperf]
+tags: [font, WebPerf]
 ---
 
 If you're using Google Fonts service instead of self-hosting the fonts (even if they come from Google Fonts), Harry shows here the optimal performance and UX you can get with it, with lot of details, but a really simple solution.

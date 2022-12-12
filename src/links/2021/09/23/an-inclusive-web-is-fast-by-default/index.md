@@ -5,7 +5,7 @@ lang: en
 link: https://simonhearne.com/2021/inclusive-design/
 authors:
   - "Simon Hearne"
-tags: [webperf]
+tags: [WebPerf]
 ---
 
 This is a great talk!

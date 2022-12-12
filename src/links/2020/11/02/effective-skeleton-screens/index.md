@@ -5,7 +5,7 @@ lang: en
 link: https://timkadlec.com/remembers/2020-11-02-skeleton-screens/
 authors:
   - "Tim Kadlec"
-tags: [webperf, UX]
+tags: [WebPerf, UX]
 ---
 
 > When the skeleton screen doesn’t match the outcome, <mark>we’ve created confusion and frustration that will overcome any benefit</mark> you might have gotten from trying to handle that delay in a better way.

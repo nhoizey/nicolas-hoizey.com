@@ -2,11 +2,11 @@
 title: Optimiser la performance des images responsives
 date: 2018-03-30 12:00:00 +02:00
 lang:  fr
-tags:  [responsive, image, webperf]
+tags:  [responsive, image, WebPerf]
 ---
 
 ::: lead
-J'ai eu l'honneur de présenter une petite conférence lors du [meetup WebPerf de mars 2018](https://www.clever-age.com/fr/news/soiree-performances-web-paris-mars-2018/), sur un sujet qui me passionne, puisqu'il combine deux de mes marottes en Web front : la [webperf](/tags/webperf/) et les images en [Responsive Web Design](/tags/rwd/). Je vous invite à découvrir mes slides et la vidéo.
+J'ai eu l'honneur de présenter une petite conférence lors du [meetup WebPerf de mars 2018](https://www.clever-age.com/fr/news/soiree-performances-web-paris-mars-2018/), sur un sujet qui me passionne, puisqu'il combine deux de mes marottes en Web front : la [WebPerf](/tags/webperf/) et les images en [Responsive Web Design](/tags/rwd/). Je vous invite à découvrir mes slides et la vidéo.
 :::
 
 ![](/assets/logos/web-performance-paris.png){.logo}

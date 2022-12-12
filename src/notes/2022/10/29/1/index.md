@@ -1,6 +1,6 @@
 ---
 date: 2022-10-29 17:01:48 +02:00
-tags: [Netlify, webperf, TTFB]
+tags: [Netlify, WebPerf, TTFB]
 ---
 
 Any idea why there's so much TTFB difference on #Netlify for main vs branch deploys?

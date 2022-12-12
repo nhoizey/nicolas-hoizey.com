@@ -5,7 +5,7 @@ lang: en
 link: https://timkadlec.com/remembers/2019-01-09-the-ethics-of-performance/
 authors:
   - "Tim Kadlec"
-tags: [webperf]
+tags: [WebPerf]
 ---
 
 > The business models that support much of the content on the web don’t favor better performance. Nor does the culture of many organizations who end up prioritizing the next feature over improving things like performance or accessibility or security.

@@ -5,7 +5,7 @@ lang: en
 link: https://kornel.ski/en/faircomparison
 authors:
   - "Kornel"
-tags: [image, webperf]
+tags: [image, WebPerf]
 ---
 
 > To make a fair comparison you really have to pay meticulous attention to encoder settings, normalizing quality, and ensuring that compared images are in fact comparable.

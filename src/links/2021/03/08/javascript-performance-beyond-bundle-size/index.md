@@ -5,7 +5,7 @@ lang: en
 link: https://nolanlawson.com/2021/02/23/javascript-performance-beyond-bundle-size/
 authors:
   - "Nolan Lawson"
-tags: [webperf, JavaScript]
+tags: [WebPerf, JavaScript]
 ---
 
 > There’s a huge focus recently on JavaScript bundle size: how big are your dependencies? Could you use a smaller one? Could you lazy-load it? But I believe we focus on bundle size first and foremost because it’s easy to measure.

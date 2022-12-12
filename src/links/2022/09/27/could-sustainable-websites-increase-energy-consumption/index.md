@@ -5,7 +5,7 @@ lang: en
 link: https://www.wholegraindigital.com/blog/jevons-paradox/
 authors:
   - "Tom Greenwood"
-tags: [sustainability, webperf]
+tags: [sustainability, WebPerf]
 ---
 
 > Having lost some sleep over this, I am relieved to find that when it comes to the web, Sustainable Web Design is the solution to the Jevons paradox.

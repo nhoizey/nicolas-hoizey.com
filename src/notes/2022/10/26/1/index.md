@@ -1,6 +1,6 @@
 ---
 date: 2022-10-26 09:55:46 +02:00
-tags: [SpeedCurve, webperf, image]
+tags: [SpeedCurve, WebPerf, image]
 ---
 
 This is what happens when you `preload` the heavy high definition pristine image instead of the responsive version… 😅

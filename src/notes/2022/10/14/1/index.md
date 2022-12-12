@@ -1,6 +1,6 @@
 ---
 date: 2022-10-14 13:02:50 +02:00
-tags: [image, webperf]
+tags: [image, WebPerf]
 ---
 
 When an `<img loading="lazy">` is hidden (in a menu for example) but above the fold, when exactly is it downloaded? 🤔

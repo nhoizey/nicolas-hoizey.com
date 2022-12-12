@@ -5,7 +5,7 @@ lang: en
 link: https://www.industrialempathy.com/posts/high-performance-web-font-loading/#tool%3A-perfect-ish-font-fallbacks
 authors:
   - "Malte Ubl"
-tags: [font, webperf, CSS]
+tags: [font, WebPerf, CSS]
 ---
 
 > a tool that automatically matches the fallback font to the custom font–because computers are good at that stuff.

@@ -1,6 +1,6 @@
 ---
 date: 2022-10-12 18:05:38 +02:00
-tags: [image, responsive, webperf]
+tags: [image, responsive, WebPerf]
 ---
 
 How do you deal with images that need to have a fluid width but fixed height?

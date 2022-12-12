@@ -2,7 +2,7 @@
 title: How much data should my Service Worker put upfront in the offline cache?
 date: 2017-01-12 12:00:00 +02:00
 lang:  en
-tags:  [offline, webperf, Service Worker, PWA, WebPageTest]
+tags:  [offline, WebPerf, Service Worker, PWA, WebPageTest]
 promoted: true
 ---
 

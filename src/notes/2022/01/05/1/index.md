@@ -1,6 +1,6 @@
 ---
 date: 2022-01-05 00:16:07 +01:00
-tags: [JPEG XL, image, webperf, Firefox, Flickr]
+tags: [JPEG XL, image, WebPerf, Firefox, Flickr]
 ---
 
 Let's hope #Firefox will get JPEG XL support, if at least Facebook, Adobe and now #Flickr ask for it!

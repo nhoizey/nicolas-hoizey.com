@@ -2,7 +2,7 @@
 date: 2018-10-06 14:30:00 +02:00
 lang: fr
 title: "La petite clinique des images responsives"
-tags: [responsive, image, webperf]
+tags: [responsive, image, WebPerf]
 notist_url: "https://talks.nicolas-hoizey.com/b23Bwm/la-petite-clinique-des-images-responsives"
 illustration:
   src: "https://on.notist.cloud/slides/deck1507/thumb-0.jpg"

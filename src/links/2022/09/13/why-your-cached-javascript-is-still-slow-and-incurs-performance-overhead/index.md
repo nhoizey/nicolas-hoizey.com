@@ -5,7 +5,7 @@ lang: en
 link: https://www.webperf.tips/tip/cached-js-misconceptions/
 authors:
   - "Joe Liccini"
-tags: [webperf, JavaScript]
+tags: [WebPerf, JavaScript]
 ---
 
 > Caching assets is a fantastic way to optimize the *network overhead* of your web application, there is still plenty of *computational overhead* associated with cached JavaScript.

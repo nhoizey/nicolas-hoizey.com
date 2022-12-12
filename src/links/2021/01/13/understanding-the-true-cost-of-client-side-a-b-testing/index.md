@@ -5,7 +5,7 @@ lang: en
 link: https://timkadlec.com/remembers/2021-01-12-cost-of-client-side-ab-testing/
 authors:
   - "Tim Kadlec"
-tags: [webperf, AB test]
+tags: [WebPerf, AB test]
 ---
 
 > Client-side A/B testing has been a performance loving developer’s worst friend for years.

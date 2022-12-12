@@ -5,7 +5,7 @@ lang: en
 link: https://timkadlec.com/remembers/2020-11-17-netlify-proxy-requests/
 authors:
   - "Tim Kadlec"
-tags: [Netlify, Cloudinary, webperf]
+tags: [Netlify, Cloudinary, WebPerf]
 ---
 
 > So we get reduced data cost, with no extra connection from the browser, and what appears to be pretty negligible cost at the CDN (the difference in response time for the final proxied images versus loading them without Cloudinary in place is barely noticeable in my tests)—and it all took just a few minutes to put into place.

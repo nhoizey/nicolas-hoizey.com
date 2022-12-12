@@ -5,7 +5,7 @@ lang: en
 link: https://cloudinary.com/blog/the-case-for-jpeg-xl
 authors:
   - "Jon Sneyers"
-tags: [image, webperf, JPEG XL]
+tags: [image, WebPerf, JPEG XL]
 ---
 
 Jon gives a good overview of everything JPEG XL improves over other image formats. This article can be seen by some as biaised, as Jon is part of the team that created the format, but I really think it honestly shows clear advantages, and I hope it will help people understand JPEG XL support in browsers would be great.

@@ -5,7 +5,7 @@ lang: en
 link: https://nolanlawson.com/2021/08/15/does-shadow-dom-improve-style-performance/
 authors:
   - "Nolan Lawson"
-tags: [CSS, webperf]
+tags: [CSS, WebPerf]
 ---
 
 This article is about style performance improvement with Shadow DOM, but it also contains a useful comparison of selector performance between ids, classes and data attributes:
