@@ -103,7 +103,6 @@ const tootHashtagTohandle = (toot, tags) => {
   const hashTags = tags
     .filter((tag) => !toot.match(`#${tagToHashtag(tag)}`))
     .map((tag) => `#${tagToHashtag(tag)}`);
-  console.dir(hashTags);
 
   // convert hashtags to Mastodon accounts
   let handles = {
