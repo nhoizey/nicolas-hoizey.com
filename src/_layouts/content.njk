@@ -143,3 +143,36 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
 {% set articleUrl = page.url %}
 {% include "components/reactions.njk" %}
 
+{# Other contents with common tags #}
+{% set tagsNumber = tags | length | min(2) %}
+{% set linkedContent = collections.archives | hasSomeTags(page.url, tagsNumber, tags) %}
+{% if linkedContent | length > 1 %}
+  <hr>
+  <h2>Other contents with similar topics</h2>
+
+  {% from "macros/articleCard.njk" import articleCard %}
+  {% from "macros/linkCard.njk" import linkCard %}
+  {% from "macros/noteCard.njk" import noteCard %}
+  {% from "macros/billetCard.njk" import billetCard %}
+  {% from "macros/talkCard.njk" import talkCard %}
+
+  <ol class="cards-list">
+    {% for item in linkedContent | limit(5) %}
+      {% if item.data.layout == 'article' %}
+        {{ articleCard(item) }}
+      {% endif %}
+      {% if item.data.layout == 'link' %}
+        {{ linkCard(item) }}
+      {% endif %}
+      {% if item.data.layout == 'note' %}
+        {{ noteCard(item) }}
+      {% endif %}
+      {% if item.data.layout == 'billet' %}
+        {{ billetCard(item) }}
+      {% endif %}
+      {% if item.data.layout == 'talk' %}
+        {{ talkCard(item) }}
+      {% endif %}
+    {% endfor %}
+  </ol>
+{% endif %}
