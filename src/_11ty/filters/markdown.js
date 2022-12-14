@@ -135,10 +135,6 @@ const tootHashtagTohandle = (toot, tags) => {
     toot = toot.concat('\n\n', hashTags.join(' '));
   }
 
-  if (toot.match('true also for design tokens')) {
-    console.log(toot);
-  }
-
   return toot;
 };
 
