@@ -9,6 +9,7 @@ module.exports = {
     });
   },
   hasSomeTags: (collection, currentItemUrl, number, ...tags) => {
+    // TODO: sort by decreasing number of common tags
     if (tags.length === 1 && typeof tags[0] === 'object') {
       tags = tags[0];
     }
