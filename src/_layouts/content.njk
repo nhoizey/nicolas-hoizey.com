@@ -148,7 +148,7 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
 {% set linkedContent = collections.archives | hasSomeTags(page.url, tagsNumber, tags) %}
 {% if linkedContent | length > 0 %}
   <hr>
-  <h2>Other content{{ 's' if linkedContent | length > 1 }} with similar topics</h2>
+  <h2 id="related">Related content{{ 's' if linkedContent | length > 1 }} with similar topics</h2>
 
   {% from "macros/articleCard.njk" import articleCard %}
   {% from "macros/linkCard.njk" import linkCard %}
