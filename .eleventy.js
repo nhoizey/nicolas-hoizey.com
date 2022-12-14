@@ -272,7 +272,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy(
       path.join(
         config.dir.src,
-        '{articles,billets,drafts,links,notes,talks}/202*/*.{jpg,png,gif,svg,kmz,zip,css}'
+        '{articles,billets,drafts,links,notes,talks}/202*/**/*.{jpg,png,gif,svg,kmz,zip,css}'
       )
     );
     eleventyConfig.ignores.add('./src/articles/200*/**');
