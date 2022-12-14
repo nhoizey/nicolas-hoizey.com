@@ -1,7 +1,7 @@
 ---
 title: Text sizing is not dead
 lang:  en
-tags:  [em, a11y]
+tags:  [em, accessibility]
 ---
 
 https://alastairc.ac/2017/11/is-text-sizing-dead/
