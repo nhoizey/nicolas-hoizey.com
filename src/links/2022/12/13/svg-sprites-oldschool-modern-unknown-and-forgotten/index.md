@@ -4,7 +4,7 @@ title: "SVG sprites: old-school, modern, unknown, and forgotten"
 lang: en
 link: https://pepelsbey.dev/articles/svg-sprites/
 authors:
-  - ""
+  - "Vadim Makeev"
 tags: [SVG, sprite]
 ---
 

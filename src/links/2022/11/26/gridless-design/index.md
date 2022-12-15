@@ -4,10 +4,7 @@ title: "gridless.design"
 lang: en
 link: https://gridless.design/
 authors:
-  - name: "Donnie D'Amato"
-    twitter: "donniedamato"
-    mastodon: "@donniedamato@mastodon.social"
-    site: "https://donnie.damato.design/"
+  - "Donnie D'Amato"
 tags: [Grid, Flexbox, CSS, layout]
 ---
 

@@ -4,10 +4,7 @@ title: "Layout & Grid in Design Systems"
 lang: en
 link: https://bradfrost.com/blog/post/layout-grid-in-design-systems/
 authors:
-  - name: "Brad Frost"
-    twitter: "brad_frost"
-    mastodon: "@brad_frost@mastodon.social"
-    site: "http://bradfrost.com/"
+  - "Brad Frost"
 tags: [Grid, CSS, Design System]
 ---
 

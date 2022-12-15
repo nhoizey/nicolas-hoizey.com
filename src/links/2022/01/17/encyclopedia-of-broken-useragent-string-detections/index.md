@@ -4,8 +4,7 @@ title: 'Encyclopedia Of Broken UserAgent String Detections'
 lang: en
 link: https://www.otsukare.info/2022/01/14/broken-ua-detection
 authors:
-  - name: 'Karl Dubost'
-    site: 'https://www.otsukare.info/'
+  - "Karl Dubost"
 tags: [User-Agent]
 ---
 
