@@ -8,3 +8,5 @@ While we wait for browsers to implement the `text-wrap: balance;` #CSS property 
 https://codepen.io/nhoizey/pen/mdjbrVx
 
 Tell me what you think!
+
+But why? Just because a colleague needed it, we could not find a solution in pure CSS, and I like challenges… 😅
