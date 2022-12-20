@@ -28,9 +28,10 @@
   height: 48px;
   padding: 0;
 
-  border-color: var(--color-link-decoration);
+  background-color: white;
+  border-color: white;
   border-style: solid;
-  border-width: 1px;
+  border-width: 2px;
   border-radius: 50%;
 }
 
@@ -40,22 +41,28 @@
 
 .reactions--like-of,
 .reactions--repost-of {
+  display: flex;
+  flex-wrap: wrap;
+  margin-inline-start: 0.75em;
+
   li {
-    display: inline-block;
+    margin-inline-start: -0.75em;
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+
+    &:hover,
+    &:focus {
+      z-index: 2;
+      transform: scale(1.2);
+    }
   }
 
   a:link,
   a:visited {
-    display: inline-block;
-
-    margin: 0;
-    padding: 0.1em;
-
-    border-radius: 0.3em;
-
     &:hover,
     &:focus {
-      background-color: var(--color-link-decoration);
+      background-color: transparent;
     }
   }
 
