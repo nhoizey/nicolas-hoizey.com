@@ -7,6 +7,8 @@ module.exports = {
     const regex = /<a class="deeplink"((?!(<\/a>)).|\n)+<\/a>/gm;
     return content.replace(regex, '');
   },
+  escapeQuotes: (content, withinQuotation = false) =>
+    content.replaceAll(/"([^"]+)"/g, withinQuotation ? '‘$1’' : '“$1”'),
   decodeEntities: (content) => {
     return entities.decodeHTML(content);
   },
