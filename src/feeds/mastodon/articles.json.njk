@@ -1,0 +1,30 @@
+---
+layout: null
+permalink: /feeds/mastodon/articles.json
+---
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Articles - Nicolas Hoizey",
+  "home_page_url": "{{ pkg.homepage }}/articles/",
+  "feed_url": "{{ pkg.homepage }}/feeds/mastodon/articles.json",
+  "items": [
+  {% for entry in collections.articles | limit(20) %}
+    {%- set absoluteEntryUrl -%}{{- pkg.homepage -}}{{- entry.url -}}{%- endset -%}
+    {%- set contentStart -%}🖋 “{{ entry.data.title | decodeEntities | escapeQuotes(true) | safe }}”\n\n{%- endset -%}
+    {%- set contentStartLength = contentStart | length -%}
+    {%- set contentEnd -%}\n\n📅 {{ entry.date | formattedDate }}\n\n{% for tag in entry.data.tags -%}#{{ tag | tagToHashtag }} {% endfor -%}{% endset %}
+    {%- set contentEndLength = contentEnd | length -%}
+    {%- set contentLength = contentStartLength + contentEndLength -%}
+    {%- set contentMiddle = entry.templateContent | excerpt | striptags(true) | escapeQuotes | truncate(450 - contentLength, false, '…') | cleanForJson | safe %}
+    {#- 500 characters on mamot.fr, 13 for URL, a few more for emojies -> 450 -#}
+    {
+      "id": "{{ absoluteEntryUrl }}",
+      "url": "{{ absoluteEntryUrl }}",
+      "lang": "{{ entry.data.lang }}",
+      "title": "🖋 {{ entry.data.title | safe }}",
+      "date_published": "{{ entry.date | rssDate }}",
+      "content_text": "{{- contentStart | safe -}}{{- contentMiddle | safe -}}{{- contentEnd | safe -}}\n\n⚓️ {{ absoluteEntryUrl }}"
+    }{%- if not loop.last -%},{%- endif -%}
+  {% endfor %}
+  ]
+}
