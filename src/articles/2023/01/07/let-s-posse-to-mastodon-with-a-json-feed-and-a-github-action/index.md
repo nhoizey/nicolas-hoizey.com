@@ -13,7 +13,7 @@ You should already know that I'm a true believer of [IndieWeb](https://indieweb.
 
 You could for example replace "Medium" with many other services, including Twitter and Mastodon, in [Medium is only an edge server of your POSSE CDN, your own blog is the origin]({% link_to "medium-is-only-an-edge-server-of-your-posse-cdn-your-own-blog-is-the-origin" %}).
 
-I also gave a talk (in French) about IndieWeb and POSSE 3 years ago: [Ne vous laissez plus déPOSSEder de vos contenus !]({% link_to "talks/2019/10/10/ne-vous-laissez-plus-deposseder-de-vos-contenus" %}{hreflang="fr"}.
+I also gave a talk (in French) about IndieWeb and POSSE 3 years ago: [Ne vous laissez plus déPOSSEder de vos contenus !]({% link_to "talks/2019/10/10/ne-vous-laissez-plus-deposseder-de-vos-contenus" %}){hreflang="fr"}.
 
 ::: info
 Did you see Heydon Pickering's “Why The IndieWeb?” episode of the Webbed Briefs?
