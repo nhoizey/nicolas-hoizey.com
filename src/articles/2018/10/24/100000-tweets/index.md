@@ -43,7 +43,7 @@ A large part of my followees fortunately don't tweet that much, and I keep them 
 
 Overall, these have been 11 great years, but bad practices from Twitter on [the interface](https://www.vox.com/culture/2018/9/20/17876098/twitter-chronological-timeline-back-finally), [the platform](http://apps-of-a-feather.com/) and [the content](https://www.fastcompany.com/40547818/did-we-create-this-monster-how-twitter-turned-toxic) have help great open source, distributed and federated alternatives such as [Mastodon](https://en.wikipedia.org/wiki/Mastodon_(software)) thrive.
 
-Even if I don't have as many contacts and interesting discussions there yet, I'm happy to be part of the movement towards this better platform. You can find me at [cafe.des-blogueurs.org/@nhoizey](https://cafe.des-blogueurs.org/@nhoizey).
+Even if I don't have as many contacts and interesting discussions there yet, I'm happy to be part of the movement towards this better platform. You can find me at [@nhoizey@mamot.fr](https://mamot.fr/@nhoizey).
 
 I will continue using Twitter, because it's still my main source of technical news, I quickly find some help when I need it, and I have a lot of friends there that are not yet on Mastodon. But I hope I will be able to slowly migrate.
 
