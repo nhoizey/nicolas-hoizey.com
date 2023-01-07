@@ -15,12 +15,10 @@ You could for example replace "Medium" with many other services, including Twitt
 
 I also gave a talk (in French) about IndieWeb and POSSE 3 years ago: [Ne vous laissez plus déPOSSEder de vos contenus !]({% link_to "talks/2019/10/10/ne-vous-laissez-plus-deposseder-de-vos-contenus" %}){hreflang="fr"}.
 
-<!--
 ::: info
 Did you see Heydon Pickering's “Why The IndieWeb?” episode of the Webbed Briefs?
 [You should!](https://briefs.video/videos/why-the-indieweb/)
 :::
--->
 
 Every time I talk about IndieWeb and POSSE, a lot of people reply with “but it's not easy”… and they are right!
 
