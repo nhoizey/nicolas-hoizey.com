@@ -12,7 +12,7 @@ permalink: /feeds/mastodon/articles.json
     {%- set absoluteEntryUrl -%}{{- pkg.homepage -}}{{- entry.url -}}{%- endset -%}
     {%- set contentStart -%}🖋 “{{ entry.data.title | decodeEntities | escapeQuotes(true) | safe }}”\n\n{%- endset -%}
     {%- set contentStartLength = contentStart | length -%}
-    {%- set contentEnd -%}\n\n📅 {{ entry.date | formattedDate }}\n\n{% for tag in entry.data.tags -%}#{{ tag | tagToHashtag }} {% endfor -%}{% endset %}
+    {%- set contentEnd -%}\n\n{% for tag in entry.data.tags -%}#{{ tag | tagToHashtag }} {% endfor -%}{% endset %}
     {%- set contentEndLength = contentEnd | length -%}
     {%- set contentLength = contentStartLength + contentEndLength -%}
     {%- set contentMiddle = entry.templateContent | excerpt | striptags(true) | escapeQuotes | truncate(450 - contentLength, false, '…') | cleanForJson | safe %}
