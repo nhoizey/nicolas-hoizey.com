@@ -50,7 +50,7 @@
     "@11ty/eleventy": "^1.0.2",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.2.2",
-    "@babel/core": "^7.20.7",
+    "@babel/core": "^7.20.12",
     "@babel/preset-env": "^7.20.2",
     "@jlengstorf/get-share-image": "^0.8.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
@@ -74,7 +74,7 @@
     "encoding": "^0.1.13",
     "entities": "^3.0.1",
     "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
     "fast-glob": "^3.2.12",
     "fast-memoize": "^2.5.2",
@@ -98,7 +98,7 @@
     "path": "^0.12.7",
     "postcss-cli": "^8.3.1",
     "postcss-hash": "^3.0.0",
-    "prettier": "^2.8.1",
+    "prettier": "^2.8.2",
     "require-dir": "^1.2.0",
     "rimraf": "^3.0.2",
     "rollup": "^2.79.1",
@@ -137,6 +137,6 @@
   "private": true,
   "dependencies": {
     "algoliasearch": "^4.14.3",
-    "instantsearch.js": "^4.49.2"
+    "instantsearch.js": "^4.49.3"
   }
 }
