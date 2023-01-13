@@ -157,6 +157,10 @@
     "twitter": "moonlearning",
     "site": "https://www.moonlearning.io/"
   },
+  "CloudCannon": {
+    "mastodon": "@cloudcannon@techhub.social",
+    "site": "https://cloudcannon.com/"
+  },
   "Cody Lindley": {
     "twitter": "codylindley"
   },
