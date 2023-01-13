@@ -1,5 +1,5 @@
 // ==Bookmarklet==
-// @name +link
+// @name +🔗
 // @description New link for nicolas-hoizey.com
 // @version 1.0
 // ==/Bookmarklet==
@@ -7,23 +7,23 @@
 // Adapted from https://gist.github.com/codeguy/6684588#gistcomment-3361909
 const slugify = (str) => {
   let slug = str.toString();
-  // console.log(`1: ${slug}`);
+  console.log(`1: ${slug}`);
   slug = slug.replaceAll('/', ' ');
-  // console.log(`2: ${slug}`);
+  console.log(`2: ${slug}`);
   slug = slug.normalize('NFD');
-  // console.log(`3: ${slug}`);
+  console.log(`3: ${slug}`);
   slug = slug.replace(/[\u0300-\u036f]/g, '');
-  // console.log(`4: ${slug}`);
+  console.log(`4: ${slug}`);
   slug = slug.toLowerCase();
-  // console.log(`5: ${slug}`);
+  console.log(`5: ${slug}`);
   slug = slug.replace(/\s+/g, ' ');
-  // console.log(`6: ${slug}`);
-  slug = slug.replace(/[^\w ]+/g, '');
-  // console.log(`7: ${slug}`);
+  console.log(`6: ${slug}`);
+  slug = slug.replace(/[^\w ]+/g, ' ');
+  console.log(`7: ${slug}`);
   slug = slug.trim();
-  // console.log(`8: ${slug}`);
+  console.log(`8: ${slug}`);
   slug = slug.replace(/ +/g, '-');
-  // console.log(`9: ${slug}`);
+  console.log(`9: ${slug}`);
 
   return slug;
 };
