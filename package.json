@@ -67,7 +67,7 @@
     "cssnano": "^5.1.14",
     "dotenv": "^10.0.0",
     "download": "^8.0.0",
-    "eleventy-plugin-embed-everything": "^1.14.1",
+    "eleventy-plugin-embed-everything": "^1.15.0",
     "eleventy-plugin-embed-tweet": "^0.3.3",
     "eleventy-plugin-images-responsiver": "^1.12.0",
     "eleventy-plugin-link_to": "^0.4.1",
