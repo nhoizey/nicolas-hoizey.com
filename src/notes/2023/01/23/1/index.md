@@ -3,7 +3,7 @@ date: 2023-01-23 23:37:49 +01:00
 tags: [photography, image, performance]
 ---
 
-Large photos in photo pages of [my photography site](https://nicolas-hoizey.photo) are now progressive JPEGs so that you can see them earlier, even if they're larger than with AVIF or WebP:
+Large photos in photo pages of [my photography site](https://nicolas-hoizey.photo) are now progressive JPEGs so that you can see them earlier, even if they weight more than with AVIF or WebP:
 
 ![Screenshot of a page with a photo partially loaded](nicolas-hoizey-photo-progressive-jpeg.jpg)
 
