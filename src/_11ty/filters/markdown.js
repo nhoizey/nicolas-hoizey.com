@@ -234,10 +234,7 @@ module.exports = {
     toot = toot.replace(/\\([0-9A-F])/gm, '\\\\$1');
 
     // find caniuse shortcodes
-    toot = toot.replace(
-      /\{% caniuse \\"([^)]+)\\" %\}/,
-      'https://caniuse.com/$1'
-    );
+    toot = toot.replace(/\{% caniuse "([^)]+)" %\}/, 'https://caniuse.com/$1');
 
     // Normalize line feeds
     toot = toot.replace(/\n/gm, '\\n');
