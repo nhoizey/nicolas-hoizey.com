@@ -1,4 +1,5 @@
 ---
+date: 2023-02-05 21:27:38 +02:00
 title: "Updating webmentions on a static site"
 lang:  en
 tags:  [Webmention, Eleventy, static, GitHub, Cloudflare]
@@ -10,10 +11,16 @@ When [I started using Webmention on this site]({% link_to "so-long-disqus-hello-
 
 I chose to fetch new webmentions directly on GitHub with an Action, so that new webmentions are immediately added to the repository, and future calls to the webmention.io API only ask for new mentions.
 
+::: info
+Most of my Webmention implementation is based on two great inspiration sources:
+- [Max Böck](https://mxb.dev/)'s [Using Webmentions in Eleventy](https://mxb.dev/blog/using-webmentions-on-static-sites/)
+- [Sia](https://sia.codes/)'s [An In-Depth Tutorial of Webmentions + Eleventy](https://sia.codes/posts/webmentions-eleventy-in-depth/)
+:::
+
 Here's [the workflow of my GitHub Action](https://github.com/nhoizey/nicolas-hoizey.com/blob/main/.github/workflows/update-webmentions.yml):
 
 ```yaml
-name: Check Webmentions
+{% raw %}name: Check Webmentions
 on:
   schedule:
     # Runs at every 15th minute from 0 through 59
@@ -55,13 +62,14 @@ jobs:
           commit-message: Update Webmentions
           title: Update Webmentions
           labels: automerge 🤞
+{% endraw %}
 ```
+
+It uses the `WEBMENTION_IO_TOKEN` and `PAT` ([Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)) secrets I've defined in my GitHub secrets for Actions.
 
 And here's [the Node.js script that it runs](https://github.com/nhoizey/nicolas-hoizey.com/blob/main/_scripts/update-webmention.js):
 
 ```javascript
-// https://sia.codes/posts/webmentions-eleventy-in-depth/
-
 const fetch = require('node-fetch');
 const unionBy = require('lodash/unionBy');
 const sanitizeHTML = require('sanitize-html');
@@ -184,6 +192,6 @@ const updateWebmention = async function () {
 updateWebmention();
 ```
 
+Whenever the workflow updates the repository with new webmentions, it triggers a Cloudflare Pages build (could be Netlify), and the site is updated.
 
-
-As this workflow updates the repository, a Cloudflare Pages build (could be Netlify) is run anytime there are new webmentions.
+It means I don't have to run a full build of the site periodically "just" to check if there are new webmentions, and the check can be more frequent, as it is really light and fast.
