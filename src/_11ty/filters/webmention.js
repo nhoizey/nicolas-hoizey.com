@@ -19,7 +19,7 @@ function isSelf(entry) {
     entry.url.match(/^https:\/\/twitter.com\/nice_links\//) ||
     (entry['wm-property'] === 'repost-of' &&
       (entry.url.match(/^https:\/\/twitter.com\/nhoizey\//) ||
-        entry.url.match(/^https:\/\/mamot.fr\/@nhoizey\//)))
+        entry.author.url === 'https://mamot.fr/@nhoizey'))
   );
 }
 
