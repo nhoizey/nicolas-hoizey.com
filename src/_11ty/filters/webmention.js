@@ -59,6 +59,21 @@ const getUrlsHistory = memoize((url) => {
     );
   }
 
+  // const changedUrls = {
+  //   '/articles/2023/01/07/let-s-posse-to-mastodon-with-a-feed-and-a-github-action/':
+  //     '/articles/2023/01/07/let-s-posse-to-mastodon-with-a-json-feed-and-a-github-action/',
+  // };
+  if (
+    url.match(
+      /^\/articles\/2023\/01\/07\/let-s-posse-to-mastodon-with-a-feed-and-a-github-action\/$/
+    )
+  ) {
+    urlsList.push(
+      `${rootUrl}/articles/2023/01/07/let-s-posse-to-mastodon-with-a-json-feed-and-a-github-action/`,
+      `${httpRootUrl}/articles/2023/01/07/let-s-posse-to-mastodon-with-a-json-feed-and-a-github-action/`
+    );
+  }
+
   return urlsList;
 });
 
