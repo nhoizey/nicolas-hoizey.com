@@ -8,9 +8,6 @@
 
 {% set likes = allMentions | webmentionsByType('like-of') %}
 {% set likesSize = likes | size %}
-{% if likesSize > 0 and 'let-s-posse-to-mastodon-with-a-feed-and-a-github-action' in articleUrl %}
-  {{ likes | log }}
-{% endif %}
 
 {% set reposts = allMentions | webmentionsByType('repost-of') %}
 {% set repostsSize = reposts | size %}
