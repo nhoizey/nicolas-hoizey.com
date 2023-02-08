@@ -8,7 +8,7 @@
 
 {% set likes = allMentions | webmentionsByType('like-of') %}
 {% set likesSize = likes | size %}
-{% if 'let-s-posse-to-mastodon-with-a-feed-and-a-github-action' in articleUrl %}
+{% if likesSize > 0 and 'let-s-posse-to-mastodon-with-a-feed-and-a-github-action' in articleUrl %}
   {{ likes | log }}
 {% endif %}
 
