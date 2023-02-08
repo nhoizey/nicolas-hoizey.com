@@ -5,6 +5,6 @@ permalink: /tools/all-urls.json
 [
 {% for entry in collections.all %}
   {%- set absoluteEntryUrl -%}{{- pkg.homepage -}}{{- entry.url -}}{%- endset -%}
-  "{{ absoluteEntryUrl }}"{%- if not loop.last -%},{% endif -%}
+  "{{ absoluteEntryUrl }}"{%- if not loop.last -%},{% endif %}
 {% endfor %}
 ]
