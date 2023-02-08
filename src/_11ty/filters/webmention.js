@@ -59,16 +59,18 @@ const getUrlsHistory = memoize((url) => {
     );
   }
 
+  // TODO: enhance for multiple redirected URL
   // const changedUrls = {
   //   '/articles/2023/01/07/let-s-posse-to-mastodon-with-a-feed-and-a-github-action/':
-  //     '/articles/2023/01/07/let-s-posse-to-mastodon-with-a-json-feed-and-a-github-action/',
+  //     [
+  //       '/articles/2023/01/07/let-s-posse-to-mastodon-with-a-json-feed-and-a-github-action/',
+  //     ],
   // };
   if (
     url.match(
       /^\/articles\/2023\/01\/07\/let-s-posse-to-mastodon-with-a-feed-and-a-github-action\/$/
     )
   ) {
-    console.log('GitHub Action!');
     urlsList.push(
       `${rootUrl}/articles/2023/01/07/let-s-posse-to-mastodon-with-a-json-feed-and-a-github-action/`
     );
@@ -89,12 +91,13 @@ module.exports = {
       // TODO: useful? Should happen only for drafts in production mode
       return [];
     }
-    let urlsList = getUrlsHistory(url);
+
     return getWebmentions()
+      .filter((entry) => !isSelf(entry))
       .filter((entry) => {
+        let urlsList = getUrlsHistory(url);
         return urlsList.includes(entry['wm-target']);
-      })
-      .filter((entry) => !isSelf(entry));
+      });
   }),
   webmentionsByType: (mentions, mentionType) => {
     return mentions.filter((entry) => entry['wm-property'] === mentionType);
