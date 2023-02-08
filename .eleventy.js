@@ -283,8 +283,7 @@ module.exports = function (eleventyConfig) {
     .addPassthroughCopy(path.join(config.dir.src, 'assets'))
     .addPassthroughCopy({ [path.join(config.dir.src, '_root')]: '/' })
     .addPassthroughCopy(path.join(config.dir.src, 'offline/fallback.svg'))
-    .addPassthroughCopy(path.join(config.dir.src, 'tools/bookmarklets'))
-    .addPassthroughCopy('src/_redirects');
+    .addPassthroughCopy(path.join(config.dir.src, 'tools/bookmarklets'));
 
   eleventyConfig.setDataDeepMerge(true);
   eleventyConfig.setQuietMode(true);
