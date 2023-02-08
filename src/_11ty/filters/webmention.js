@@ -68,6 +68,7 @@ const getUrlsHistory = memoize((url) => {
       /^\/articles\/2023\/01\/07\/let-s-posse-to-mastodon-with-a-feed-and-a-github-action\/$/
     )
   ) {
+    console.log('GitHub Action!');
     urlsList.push(
       `${rootUrl}/articles/2023/01/07/let-s-posse-to-mastodon-with-a-json-feed-and-a-github-action/`
     );
