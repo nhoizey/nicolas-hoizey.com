@@ -1,5 +1,6 @@
 ---
 permalink: false
+eleventyExcludeFromCollections: true
 ---
 
 <table><tr>
