@@ -22,7 +22,7 @@ The main features of my bookmarklet are:
 
 I can then commit the file, push it directly to my `main` branch or open a pull request.
 
-And then the build runs on Cloudflare Pages, and the new link is online. It is also available in the feeds, to it soon becomes a toot on Mastodon, thanks to [my GitHub Action]({% link_to "let-s-posse-to-mastodon-with-a-json-feed-and-a-github-action" %})!
+And then the build runs on Cloudflare Pages, and the new link is online. It is also available in the feeds, to it soon becomes a toot on Mastodon, thanks to [my GitHub Action]({% link_to "let-s-posse-to-mastodon-with-a-feed-and-a-github-action" %})!
 
 The JavaScript source code [is here on GitHub](https://github.com/nhoizey/nicolas-hoizey.com/blob/main/assets/js/bookmarklets/new-link.js):
 
