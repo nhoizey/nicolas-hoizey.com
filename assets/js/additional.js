@@ -17,19 +17,21 @@ const observable =
 })(window);
 
 /*****************************************************************
- * Center active menu item
+ * Center active menu item, but only if there's no hash in the URL
  * ****************************************************************/
 
 (function (window) {
-  let current = window.document.querySelector(
-    '.navigation [aria-current="page"]'
-  );
-  if (current) {
-    current.scrollIntoView({
-      behavior: 'smooth',
-      block: 'nearest',
-      inline: 'center',
-    });
+  if (!window.location.hash) {
+    let current = window.document.querySelector(
+      '.navigation [aria-current="page"]'
+    );
+    if (current) {
+      current.scrollIntoView({
+        behavior: 'smooth',
+        block: 'nearest',
+        inline: 'center',
+      });
+    }
   }
 })(window);
 
