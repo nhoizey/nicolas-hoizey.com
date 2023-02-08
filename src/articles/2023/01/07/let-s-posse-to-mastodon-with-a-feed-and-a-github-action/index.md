@@ -2,7 +2,7 @@
 date: 2023-01-07 14:49:09 +02:00
 title: "Let's POSSE to Mastodon with a Feed and a GitHub Action"
 lang:  en
-tags:  [IndieWeb, POSSE, Mastodon, Feed, GitHub]
+tags:  [IndieWeb, POSSE, Mastodon, feed, GitHub]
 ---
 
 ::: lead
