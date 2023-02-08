@@ -69,8 +69,7 @@ const getUrlsHistory = memoize((url) => {
     )
   ) {
     urlsList.push(
-      `${rootUrl}/articles/2023/01/07/let-s-posse-to-mastodon-with-a-json-feed-and-a-github-action/`,
-      `${httpRootUrl}/articles/2023/01/07/let-s-posse-to-mastodon-with-a-json-feed-and-a-github-action/`
+      `${rootUrl}/articles/2023/01/07/let-s-posse-to-mastodon-with-a-json-feed-and-a-github-action/`
     );
   }
 
