@@ -81,10 +81,10 @@ ${linkContent ? `> ${linkContent.replaceAll('\n', '\n> ')}` : ''}
     const pathDate = dateString.slice(0, 10).replaceAll('-', '/');
     const filename = `src/links/${pathDate}/${slug}/index.md`;
 
-    let issueUrl = `https://github.com/nhoizey/nicolas-hoizey.com/new/main/?filename=${filename}&value=${encodeURIComponent(
+    let newFileUrl = `https://github.com/nhoizey/nicolas-hoizey.com/new/main/?filename=${filename}&value=${encodeURIComponent(
       value
     )}`;
 
-    window.open(issueUrl);
+    window.open(newFileUrl);
   }
 }
