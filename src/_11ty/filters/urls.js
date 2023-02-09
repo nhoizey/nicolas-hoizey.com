@@ -5,6 +5,8 @@ const rootUrl = require('../../../package.json').homepage;
 const getOldUrls = memoize((url) => {
   url = encodeURI(url);
   let urlsList = [];
+
+  // Articles
   if (
     (parts = url.match(
       /^\/articles\/([0-9]{4})\/([0-9]{2})\/([0-9]{2})\/(.*)\/$/
@@ -18,6 +20,8 @@ const getOldUrls = memoize((url) => {
     // /2018/06/users-do-change-font-size.html
     urlsList.push(`${rootUrl}/${parts[1]}/${parts[2]}/${parts[4]}.html`);
   }
+
+  // Links
   if (
     (parts = url.match(/^\/links\/([0-9]{4})\/([0-9]{2})\/([0-9]{2})\/(.*)\/$/))
   ) {
@@ -26,6 +30,13 @@ const getOldUrls = memoize((url) => {
     urlsList.push(`${rootUrl}/links/${parts[1]}/${parts[2]}/${parts[4]}/`);
     // /links/2019/12/good-enough.html
     urlsList.push(`${rootUrl}/links/${parts[1]}/${parts[2]}/${parts[4]}.html`);
+  }
+
+  // Tags
+  if ((parts = url.match(/^\/tags\/([^\/]+)\/$/))) {
+    // Current permalink: /tags/photo/
+    // /tags/photo.html
+    urlsList.push(`${rootUrl}/tags/${parts[1]}.html`);
   }
   return urlsList;
 });
@@ -40,6 +51,6 @@ module.exports = {
 
     return oldUrls
       .map((oldUrl) => `"${oldUrl}": "${rootUrl}${currentUrl}"`)
-      .join(',');
+      .join(', ');
   },
 };
