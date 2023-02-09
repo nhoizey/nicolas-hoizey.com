@@ -3,7 +3,12 @@ layout: null
 permalink: /tools/old-urls-mappings.json
 ---
 {
-{% for entry in collections.all %}
-  {{- entry.url | listUrlRewrites(loop.last) | safe -}}
-{% endfor %}
+{%- set already = false -%}
+{%- for entry in collections.all -%}
+  {%- set urls = entry.url | listUrlRewrites -%}
+  {%- if urls | length > 0 -%}
+    {%- if already -%},{%- endif -%}{{- urls | safe -}}
+    {%- set already = true -%}
+  {%- endif -%}
+{%- endfor -%}
 }

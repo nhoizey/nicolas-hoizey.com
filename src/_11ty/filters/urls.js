@@ -31,16 +31,15 @@ const getOldUrls = memoize((url) => {
 });
 
 module.exports = {
-  listUrlRewrites: (currentUrl, last = false) => {
+  listUrlRewrites: (currentUrl) => {
     const oldUrls = getOldUrls(currentUrl);
 
     if (oldUrls.length === 0) {
       return '';
     }
 
-    const urlsString = oldUrls
+    return oldUrls
       .map((oldUrl) => `"${oldUrl}": "${rootUrl}${currentUrl}"`)
       .join(',');
-    return `${urlsString}${last ? '' : ','}`;
   },
 };
