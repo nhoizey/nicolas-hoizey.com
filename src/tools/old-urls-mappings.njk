@@ -1,0 +1,9 @@
+---
+layout: null
+permalink: /tools/old-urls-mappings.json
+---
+{
+{% for entry in collections.all %}
+  {{- entry.url | listUrlRewrites(loop.last) | safe -}}
+{% endfor %}
+}
