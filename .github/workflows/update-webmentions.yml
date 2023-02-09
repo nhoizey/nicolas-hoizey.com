@@ -1,9 +1,9 @@
 name: Check Webmentions
 on:
-  schedule:
-    # Runs at every 15th minute from 0 through 59
-    # https://crontab.guru/#0/15_*_*_*_*
-    - cron: '0/15 * * * *'
+  # schedule:
+  # Runs at every 15th minute from 0 through 59
+  # https://crontab.guru/#0/15_*_*_*_*
+  # - cron: '0/15 * * * *'
   workflow_dispatch:
 
 concurrency:
