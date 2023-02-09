@@ -95,8 +95,12 @@ module.exports = {
     return getWebmentions()
       .filter((entry) => !isSelf(entry))
       .filter((entry) => {
-        let urlsList = getUrlsHistory(url);
-        return urlsList.includes(entry['wm-target']);
+        // let urlsList = getUrlsHistory(url);
+        // return urlsList.includes(entry['wm-target']);
+
+        // TODO: Deal with webmentions targeting URL with a hash
+        // https://github.com/nhoizey/nicolas-hoizey.com/issues/1373
+        return entry['wm-target'] === url;
       });
   }),
   webmentionsByType: (mentions, mentionType) => {
