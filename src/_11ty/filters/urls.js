@@ -38,6 +38,24 @@ const getOldUrls = memoize((url) => {
     // /tags/photo.html
     urlsList.push(`${rootUrl}/tags/${parts[1]}.html`);
   }
+
+  // TODO: enhance for multiple redirected URL
+  // const changedUrls = {
+  //   '/articles/2023/01/07/let-s-posse-to-mastodon-with-a-feed-and-a-github-action/':
+  //     [
+  //       '/articles/2023/01/07/let-s-posse-to-mastodon-with-a-json-feed-and-a-github-action/',
+  //     ],
+  // };
+  if (
+    url.match(
+      /^\/articles\/2023\/01\/07\/let-s-posse-to-mastodon-with-a-feed-and-a-github-action\/$/
+    )
+  ) {
+    urlsList.push(
+      `${rootUrl}/articles/2023/01/07/let-s-posse-to-mastodon-with-a-json-feed-and-a-github-action/`
+    );
+  }
+
   return urlsList;
 });
 
