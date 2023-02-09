@@ -11,11 +11,4 @@ permalink: /tools/old-urls-mappings.json
     {%- set already = true -%}
   {%- endif -%}
 {%- endfor -%}
-{%- for entry in collections.tags -%}
-  {%- set urls = entry.url | listUrlRewrites -%}
-  {%- if urls | length > 0 -%}
-    {%- if already -%},{%- endif -%}{{- urls | safe -}}
-    {%- set already = true -%}
-  {%- endif -%}
-{%- endfor -%}
 }
