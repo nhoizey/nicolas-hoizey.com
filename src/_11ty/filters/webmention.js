@@ -100,7 +100,7 @@ module.exports = {
 
         // TODO: Deal with webmentions targeting URL with a hash
         // https://github.com/nhoizey/nicolas-hoizey.com/issues/1373
-        return entry['wm-target'] === url;
+        return entry['wm-target'] === `${rootUrl}${url}`;
       });
   }),
   webmentionsByType: (mentions, mentionType) => {
