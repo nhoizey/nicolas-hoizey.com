@@ -2,7 +2,7 @@
 date: 2023-02-10 19:22:03 +00:00
 title: "The Content Management System of my Dreams"
 lang: en
-link: https://www.padawan.info/en/2023/02/the-content-managemepart 1) — A little bit of historynt-system-of-my-dreams-part-1-a-little-bit-of-history.html
+link: https://www.padawan.info/en/2023/02/the-content-management-system-of-my-dreams-part-1-a-little-bit-of-history.html
 authors:
   - "François Nonnenmacher"
 tags: [CMS, static]
