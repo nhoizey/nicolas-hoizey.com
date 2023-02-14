@@ -15,8 +15,8 @@
   overflow: hidden;
 
   /* Clip */
-  clip: rect(0 0 0 0);
-  clip-path: inset(100%);
+  // https://www.matuzo.at/blog/2023/css-wish-list/#visually-hidden-content 🤔
+  clip-path: inset(50%);
 }
 
 /* mark element */
