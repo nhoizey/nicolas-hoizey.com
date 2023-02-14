@@ -15,4 +15,4 @@ François started writing a series of articles about static *vs* dynamic publish
 - [part 1 — A little bit of history](https://www.padawan.info/en/2023/02/the-content-management-system-of-my-dreams-part-1-a-little-bit-of-history.html)
 - [part 2 — The trouble with dynamic publishing](https://www.padawan.info/en/2023/02/the-content-management-system-of-my-dreams-part-2-the-trouble-with-dynamic-publishing.html)
 - [part 3 — Static Site Generators with a side of toml/yaml soup](https://www.padawan.info/en/2023/02/the-content-management-system-of-my-dreams-part-3-static-site-generators-vs-static-content-managemen.html)
-- part 4 — coming soon…
+- [part 4 — Lets dream!](https://www.padawan.info/en/2023/02/the-content-management-system-of-my-dreams-part-4-lets-dream.html)
