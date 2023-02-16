@@ -1,14 +1,16 @@
 {% macro reactionAuthorPhoto(author) %}
   {% if author.photo != "" %}
-            <img
-              class="reaction__author__photo u-photo"
-              src="{{ author.photo }}"
-              width= "48"
-              height="48"
-              alt="{{ author.name }} avatar"
-              loading="lazy"
-              crossorigin="anonymous"
-              data-responsiver="reaction"
-              onerror="this.src='/assets/avatars/default.svg'; this.onerror=null" />
+    <img
+      class="reaction__author__photo u-photo"
+      src="{{ author.photo }}"
+      width= "48"
+      height="48"
+      alt="{{ author.name }} avatar"
+      loading="lazy"
+      decoding="async"
+      fetchpriority="low"
+      crossorigin="anonymous"
+      data-responsiver="reaction"
+      onerror="this.src='/assets/avatars/default.svg'; this.onerror=null" />
   {% endif %}
 {% endmacro %}
