@@ -1,3 +1,5 @@
+{% from "../../macros/reactionAuthorPhoto.njk" import reactionAuthorPhoto %}
+
 {% set cloudinaryPrefix = 'https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,' %}
 <ol class="reactions__list reactions--mention-of">
   {% for webmention in mentions %}
@@ -7,18 +9,7 @@
         ">
       {% if webmention.author.url != "" %}
         <a class="u-url p-author h-card" href="{{ webmention.author.url }}">
-          {% if webmention.author.photo != "" %}
-            <img
-              class="reaction__author__photo u-photo"
-              src="/assets/avatars/default.svg"
-              data-src="{{ cloudinaryPrefix }}w_48,h_48/{{ webmention.author.photo }}"
-              data-srcset="{{ cloudinaryPrefix }}w_48,h_48/{{ webmention.author.photo }} 1x, {{ cloudinaryPrefix }}w_96,h_96/{{ webmention.author.photo }} 2x"
-              width= "48"
-              height="48"
-              alt="{{ webmention.author.name }} avatar"
-              loading="lazy"
-              crossorigin="anonymous" />
-          {% endif %}
+          {{ reactionAuthorPhoto(webmention.author) }}
           <b class="p-name">{{ webmention.author.name }}</b>
         </a>
       {% else %}

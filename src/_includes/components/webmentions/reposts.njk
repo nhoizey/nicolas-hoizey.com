@@ -1,22 +1,15 @@
-{% set cloudinaryPrefix = 'https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,' %}
+{% from "macros/reactionAuthorPhoto.njk" import reactionAuthorPhoto %}
+
 <ol class="reactions__list reactions--repost-of">
   {% for webmention in reposts %}
     <li id="webmention-{{ webmention['wm-id'] }}" class="reactions__item">
+      {# TODO: manage Mastodon #}
       {% if "https://twitter.com/" in webmention.url %}
         <a class="u-url p-author h-card" href="{{ webmention.url }}">
       {% else %}
         <a class="u-url p-author h-card" href="{{ webmention.author.url }}">
       {% endif %}
-      <img
-        class="reaction__author__photo u-photo"
-        src="/assets/avatars/default.svg"
-        data-src="{{ cloudinaryPrefix }}w_48,h_48/{{ webmention.author.photo }}"
-        data-srcset="{{ cloudinaryPrefix }}w_48,h_48/{{ webmention.author.photo }} 1x, {{ cloudinaryPrefix }}w_96,h_96/{{ webmention.author.photo }} 2x"
-        width= "48"
-        height="48"
-        alt="{{ webmention.author.name }} avatar"
-        loading="lazy"
-        crossorigin="anonymous" />
+      {{ reactionAuthorPhoto(webmention.author) }}
       </a>
     </li>
   {% endfor %}

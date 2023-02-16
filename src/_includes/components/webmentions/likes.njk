@@ -1,16 +1,10 @@
+{% from "macros/reactionAuthorPhoto.njk" import reactionAuthorPhoto %}
+
 <ol class="reactions__list reactions--like-of">
   {% for webmention in likes %}
     <li id="webmention-{{ webmention['wm-id'] }}" class="reactions__item">
       <a class="u-url p-author h-card" href="{{ webmention.author.url }}">
-        <img
-          class="reaction__author__photo u-photo"
-          src="{{ webmention.author.photo }}"
-          width= "48"
-          height="48"
-          alt="{{ webmention.author.name }} avatar"
-          loading="lazy"
-          crossorigin="anonymous"
-          data-responsiver="reaction" />
+        {{ reactionAuthorPhoto(webmention.author) }}
       </a>
     </li>
   {% endfor %}
