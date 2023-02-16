@@ -176,7 +176,8 @@ module.exports = {
     fallbackWidth: 300,
     minWidth: 220,
     maxWidth: 1200,
-    sizes: '(min-width: 66.7rem) 24rem, (min-width: 40rem) 36vw, 90vw',
+    sizes:
+      '(min-width: 66.666rem) 20rem, (min-width: 40rem) 30vw, calc(90vw - 2em)',
   },
   card__illustration: {
     fallbackWidth: 384,

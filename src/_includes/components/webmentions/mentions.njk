@@ -14,23 +14,18 @@
         </a>
       {% else %}
         {% if webmention.url %}
-          {% set screenshot = 'https://image.thum.io/get/width/1200/crop/800/noanimate/' + webmention.url %}
           <img
             class="page__illustration"
-            src="/assets/default-screenshot.svg"
-            data-src="{{ cloudinaryPrefix }}w_300,h_200/{{ screenshot }}"
-            data-srcset="
-              {{ cloudinaryPrefix }}w_300,h_200/{{ screenshot }} 300w,
-              {{ cloudinaryPrefix }}w_480,h_320/{{ screenshot }} 480w,
-              {{ cloudinaryPrefix }}w_660,h_440/{{ screenshot }} 660w,
-              {{ cloudinaryPrefix }}w_840,h_560/{{ screenshot }} 840w,
-              {{ cloudinaryPrefix }}w_1200,h_800/{{ screenshot }} 1200w"
-            sizes="(min-width: 66.666rem) 20rem, (min-width: 40rem) 30vw, calc(90vw - 2em)"
+            src="https://image.thum.io/get/width/1200/crop/800/noanimate/{{ webmention.url }}"
             width="300"
             height="200"
             alt="Page screenshot"
             loading="lazy"
-            crossorigin="anonymous" />
+            decoding="async"
+            fetchpriority="low"
+            crossorigin="anonymous"
+            data-responsiver="page__illustration"
+            onerror="this.src='/assets/default-screenshot.svg'; this.onerror=null" />
           <a class="u-url" href="{{ webmention.url }}">
             <b class="p-name">{{ webmention.url | truncate(70) }}</b>
           </a>
