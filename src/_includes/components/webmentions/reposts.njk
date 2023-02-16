@@ -3,7 +3,6 @@
 <ol class="reactions__list reactions--repost-of">
   {% for webmention in reposts %}
     <li id="webmention-{{ webmention['wm-id'] }}" class="reactions__item">
-      {# TODO: manage Mastodon #}
       {% if "https://twitter.com/" in webmention.url %}
         <a class="u-url p-author h-card" href="{{ webmention.url }}">
       {% else %}
