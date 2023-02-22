@@ -5,6 +5,6 @@ tags: [image, WebPerf]
 
 > JPEG XL competes with AVIF which has similar compression quality but <mark>fewer features overall</mark>
 
-This is on #CanIUse page for JPEG-XL: <https://caniuse.com/jpegxl>
+This is on #CanIUse page for JPEG XL: <https://caniuse.com/jpegxl>
 
 I'm not sure @jonsneyers would approve… 😅
