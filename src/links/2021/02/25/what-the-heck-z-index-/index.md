@@ -4,7 +4,7 @@ title: "What the heck, z-index??"
 lang: en
 link: https://www.joshwcomeau.com/css/stacking-contexts/
 authors:
-  - "Josh W Comeau"
+  - "Josh W. Comeau"
 tags: [CSS]
 ---
 

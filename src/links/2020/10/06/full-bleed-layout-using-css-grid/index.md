@@ -4,7 +4,7 @@ title: "Full-Bleed Layout Using CSS Grid"
 lang: en
 link: https://joshwcomeau.com/css/full-bleed/
 authors:
-  - "Josh W Comeau"
+  - "Josh W. Comeau"
 tags: [CSS, Grid]
 ---
 
