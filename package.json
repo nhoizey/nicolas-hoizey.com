@@ -47,7 +47,7 @@
     "bookmarklets": "npm-run-all --parallel bookmarklets:*"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy": "^2.0.0",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.2.2",
     "@babel/core": "^7.21.0",
@@ -69,7 +69,7 @@
     "download": "^8.0.0",
     "eleventy-plugin-embed-everything": "^1.15.1",
     "eleventy-plugin-embed-tweet": "^0.3.3",
-    "eleventy-plugin-images-responsiver": "^1.12.0",
+    "eleventy-plugin-images-responsiver": "^2.0.0",
     "eleventy-plugin-link_to": "^0.4.1",
     "encoding": "^0.1.13",
     "entities": "^3.0.1",
