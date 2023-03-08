@@ -4,7 +4,7 @@ title: "JPEG XL vs AVIF: A Comparison"
 lang: en
 link: https://tonisagrista.com/blog/2023/jpegxl-vs-avif/
 authors:
-  - ""
+  - "Toni Sagristà"
 tags: [JPEG XL, AVIF, image, WebPerf]
 ---
 
