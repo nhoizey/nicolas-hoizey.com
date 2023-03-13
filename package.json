@@ -57,7 +57,7 @@
     "@rollup/plugin-replace": "^3.1.0",
     "@sindresorhus/slugify": "^1.1.2",
     "atomic-algolia": "^0.3.19",
-    "autoprefixer": "^10.4.13",
+    "autoprefixer": "^10.4.14",
     "babel-loader": "^8.3.0",
     "bent": "^7.3.12",
     "bookmarklet": "^3.0.0",
@@ -74,7 +74,7 @@
     "encoding": "^0.1.13",
     "entities": "^3.0.1",
     "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-prettier": "^8.7.0",
     "eslint-plugin-prettier": "^4.2.1",
     "fast-glob": "^3.2.12",
     "fast-memoize": "^2.5.2",
@@ -108,7 +108,7 @@
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-visualizer": "^5.9.0",
     "sanitize-html": "^2.10.0",
-    "sass": "^1.58.3",
+    "sass": "^1.59.2",
     "simple-icons": "^5.24.0",
     "stylelint": "^13.13.1",
     "stylelint-config-idiomatic-order": "^8.1.0",
@@ -137,6 +137,6 @@
   "private": true,
   "dependencies": {
     "algoliasearch": "^4.15.0",
-    "instantsearch.js": "^4.51.1"
+    "instantsearch.js": "^4.52.0"
   }
 }
