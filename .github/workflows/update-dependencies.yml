@@ -38,35 +38,48 @@ jobs:
 
           if [[ -z "$OUTDATED" ]]; then
             echo 'Nothing to update' >> "${GITHUB_STEP_SUMMARY}"
-            echo "outdated=false" >> "${GITHUB_OUTPUT}"
+            echo "updatable=false" >> "${GITHUB_OUTPUT}"
           else
+            HEADER=$(echo "$OUTDATED" | grep "Package")
             COMPATIBLE=$(echo "$OUTDATED" | awk '$2!=$3' | grep -v "Package")
-            COMPATIBLE_COUNT=$(echo COMPATIBLE | wc -l)
-            NOT_COMPATIBLE=$(echo "$OUTDATED" | awk '$2==$3')
-            NOT_COMPATIBLE_COUNT=$(echo NOT_COMPATIBLE | wc -l)
-
-            if [[ COMPATIBLE_COUNT -gt 0 ]]; then
-              echo 'Found outdated packages:' >> "${GITHUB_STEP_SUMMARY}"
-              echo '```' >> "${GITHUB_STEP_SUMMARY}"
-              echo "${OUTDATED}" >> "${GITHUB_STEP_SUMMARY}"
-              echo '```' >> "${GITHUB_STEP_SUMMARY}"
-              echo "outdated=true" >> "${GITHUB_OUTPUT}"
+            if [[ -z "$COMPATIBLE" ]]; then
+              COMPATIBLE_COUNT=0
             else
-              echo 'Nothing to update' >> "${GITHUB_STEP_SUMMARY}"
-              echo "outdated=false" >> "${GITHUB_OUTPUT}"
+              COMPATIBLE_COUNT=$(($(echo "$COMPATIBLE" | wc -l) + 0))
+            fi
+            NOT_COMPATIBLE=$(echo "$OUTDATED" | awk '$2==$3')
+            if [[ -z "$NOT_COMPATIBLE" ]]; then
+              NOT_COMPATIBLE_COUNT=0
+            else
+              NOT_COMPATIBLE_COUNT=$(($(echo "$NOT_COMPATIBLE" | wc -l) + 0))
             fi
 
-            if [[ NOT_COMPATIBLE_COUNT -gt 0 ]]; then
-              echo ''
-              echo 'Some available updates are not compatible:' >> "${GITHUB_STEP_SUMMARY}"
-              echo "$(echo $OUTDATED | grep 'Package')"
-              echo "${NOT_COMPATIBLE}"
+            if [[ $COMPATIBLE_COUNT -gt 0 ]]; then
+              {
+                echo "Found ${COMPATIBLE_COUNT} updatable package(s):"
+                echo '```'
+                echo "${COMPATIBLE}"
+                echo '```'
+              } >> "${GITHUB_STEP_SUMMARY}"
+              echo "updatable=true" >> "${GITHUB_OUTPUT}"
+            else
+              echo 'Nothing to update' >> "${GITHUB_STEP_SUMMARY}"
+              echo "updatable=false" >> "${GITHUB_OUTPUT}"
+            fi
+
+            if [[ $NOT_COMPATIBLE_COUNT -gt 0 ]]; then
+              {
+                echo ''
+                echo "${NOT_COMPATIBLE_COUNT} available updates are not compatible:"
+                echo "${HEADER}"
+                echo "${NOT_COMPATIBLE}"
+              } >> "${GITHUB_STEP_SUMMARY}"
             fi
           fi
 
       - name: ⏫ Update packages
         id: update
-        if: ${{ steps.vars.outputs.outdated }}
+        if: ${{ steps.vars.outputs.updatable }}
         run: |
           npm update --save
 
@@ -76,21 +89,21 @@ jobs:
           echo "${delimiter2}" >> "${GITHUB_OUTPUT}"
 
       # - name: 🧐 Lint
-      #   if: ${{ steps.vars.outputs.outdated }}
+      #   if: ${{ steps.vars.outputs.updatable }}
       #   run: npm lint:check
 
       # - name: 🚨 Test
-      #   if: ${{ steps.vars.outputs.outdated }}
+      #   if: ${{ steps.vars.outputs.updatable }}
       #   run: npm test:unit
 
       - name: 🏗️ Build
-        if: ${{ steps.vars.outputs.outdated }}
+        if: ${{ steps.vars.outputs.updatable }}
         run: npm run build
         env:
           NODE_ENV: production
 
       - name: 🔀 Commit and create PR
-        if: ${{ steps.vars.outputs.outdated }}
+        if: ${{ steps.vars.outputs.updatable }}
         uses: peter-evans/create-pull-request@v4
         with:
           token: ${{ secrets.PAT }}
