@@ -34,17 +34,34 @@ jobs:
       - name: 🔍 Check for outdated packages
         id: vars
         run: |
-          OUTDATED=$(npm outdated) || true
+          OUTDATED=$(npm outdated)
 
           if [[ -z "$OUTDATED" ]]; then
             echo 'Nothing to update' >> "${GITHUB_STEP_SUMMARY}"
             echo "outdated=false" >> "${GITHUB_OUTPUT}"
           else
-            echo 'Found outdated packages:' >> "${GITHUB_STEP_SUMMARY}"
-            echo '```' >> "${GITHUB_STEP_SUMMARY}"
-            echo "$OUTDATED" >> "${GITHUB_STEP_SUMMARY}"
-            echo '```' >> "${GITHUB_STEP_SUMMARY}"
-            echo "outdated=true" >> "${GITHUB_OUTPUT}"
+            COMPATIBLE=$(echo "$OUTDATED" | awk '$2!=$3' | grep -v "Package")
+            COMPATIBLE_COUNT=$(echo COMPATIBLE | wc -l)
+            NOT_COMPATIBLE=$(echo "$OUTDATED" | awk '$2==$3')
+            NOT_COMPATIBLE_COUNT=$(echo NOT_COMPATIBLE | wc -l)
+
+            if [[ COMPATIBLE_COUNT -gt 0 ]]; then
+              echo 'Found outdated packages:' >> "${GITHUB_STEP_SUMMARY}"
+              echo '```' >> "${GITHUB_STEP_SUMMARY}"
+              echo "${OUTDATED}" >> "${GITHUB_STEP_SUMMARY}"
+              echo '```' >> "${GITHUB_STEP_SUMMARY}"
+              echo "outdated=true" >> "${GITHUB_OUTPUT}"
+            else
+              echo 'Nothing to update' >> "${GITHUB_STEP_SUMMARY}"
+              echo "outdated=false" >> "${GITHUB_OUTPUT}"
+            fi
+
+            if [[ NOT_COMPATIBLE_COUNT -gt 0 ]]; then
+              echo ''
+              echo 'Some available updates are not compatible:' >> "${GITHUB_STEP_SUMMARY}"
+              echo "$(echo $OUTDATED | grep 'Package')"
+              echo "${NOT_COMPATIBLE}"
+            fi
           fi
 
       - name: ⏫ Update packages
