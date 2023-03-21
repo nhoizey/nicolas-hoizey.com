@@ -34,7 +34,7 @@ jobs:
       - name: 🔍 Check for outdated packages
         id: vars
         run: |
-          OUTDATED=$(npm outdated)
+          OUTDATED=$(npm outdated || true)
 
           if [[ -z "$OUTDATED" ]]; then
             echo 'Nothing to update' >> "${GITHUB_STEP_SUMMARY}"
