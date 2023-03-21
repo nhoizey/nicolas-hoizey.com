@@ -60,10 +60,10 @@ jobs:
         run: |
           npm update --save
 
-          delimiter="$(openssl rand -hex 8)"
-          echo "diff_result<<${delimiter}" >> "${GITHUB_OUTPUT}"
+          delimiter2="$(openssl rand -hex 8)"
+          echo "diff_result<<${delimiter2}" >> "${GITHUB_OUTPUT}"
           echo "$(git diff package.json | grep -e "^[-+]\s")" >> "${GITHUB_OUTPUT}"
-          echo "${delimiter}" >> "${GITHUB_OUTPUT}"
+          echo "${delimiter2}" >> "${GITHUB_OUTPUT}"
 
       # - name: 🧐 Lint
       #   if: ${{ steps.vars.outputs.outdated }}
@@ -84,7 +84,7 @@ jobs:
         uses: peter-evans/create-pull-request@v4
         with:
           token: ${{ secrets.PAT }}
-          title: 'build(deps): update NPM packages (automated)'
+          title: 'build(deps): update NPM packages (automated) [no ci]'
           body: |
             # Updating dependencies
 
