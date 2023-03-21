@@ -84,7 +84,7 @@ jobs:
         uses: peter-evans/create-pull-request@v4
         with:
           token: ${{ secrets.PAT }}
-          title: 'build(deps): update NPM packages (automated) [no ci]'
+          title: 'build(deps): update NPM packages (automated) [skip ci]'
           body: |
             # Updating dependencies
 
