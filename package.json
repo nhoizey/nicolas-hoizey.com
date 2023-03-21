@@ -110,7 +110,7 @@
     "sanitize-html": "^2.10.0",
     "sass": "^1.59.3",
     "simple-icons": "^5.24.0",
-    "stylelint": "^13.13.1",
+    "stylelint": "^15.3.0",
     "stylelint-config-idiomatic-order": "^8.1.0",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-sass-guidelines": "^8.0.0",
