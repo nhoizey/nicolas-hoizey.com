@@ -5,7 +5,7 @@ lang: en
 link: https://simonhearne.com/2020/core-web-vitals/
 authors:
   - "Simon Hearne"
-tags: [WebPerf, SEO, CWV]
+tags: [WebPerf, SEO, Core Web Vitals]
 ---
 
 Here's a great overview of both what will come soon in Google ranking algorithm, and how to detect and fix issues with these *Core Web Vitals*.

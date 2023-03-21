@@ -1,6 +1,6 @@
 ---
 date: 2022-12-12 10:51:19 +01:00
-tags: [WebPerf, CWV]
+tags: [WebPerf, Core Web Vitals]
 ---
 
 Of course we don't work on performance improvements only for Google, but the Search Console is our clients' main concern, so when it shows such a graph, it's satisfying for everyone! 🎉
