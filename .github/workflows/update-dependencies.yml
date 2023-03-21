@@ -56,7 +56,7 @@ jobs:
 
             if [[ $COMPATIBLE_COUNT -gt 0 ]]; then
               {
-                echo "Found ${COMPATIBLE_COUNT} updatable package(s):"
+                echo "${COMPATIBLE_COUNT} package(s) will be updated:"
                 echo '```'
                 echo "${HEADER}"
                 echo "${COMPATIBLE}"
@@ -71,7 +71,7 @@ jobs:
             if [[ $NOT_COMPATIBLE_COUNT -gt 0 ]]; then
               {
                 echo ''
-                echo "${NOT_COMPATIBLE_COUNT} available updates are not compatible:"
+                echo "${NOT_COMPATIBLE_COUNT} not compatible update(s):"
                 echo '```'
                 echo "${HEADER}"
                 echo "${NOT_COMPATIBLE}"
