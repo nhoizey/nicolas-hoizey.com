@@ -36,6 +36,8 @@ jobs:
         run: |
           OUTDATED=$(npm outdated) || true
 
+          echo "$OUTDATED"
+
           delimiter="$(openssl rand -hex 8)"
           echo "outdated_result<<${delimiter}" >> "${GITHUB_OUTPUT}"
           echo "$OUTDATED" >> "${GITHUB_OUTPUT}"
