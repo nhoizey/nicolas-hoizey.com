@@ -58,6 +58,7 @@ jobs:
               {
                 echo "Found ${COMPATIBLE_COUNT} updatable package(s):"
                 echo '```'
+                echo "${HEADER}"
                 echo "${COMPATIBLE}"
                 echo '```'
               } >> "${GITHUB_STEP_SUMMARY}"
