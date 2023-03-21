@@ -71,8 +71,10 @@ jobs:
               {
                 echo ''
                 echo "${NOT_COMPATIBLE_COUNT} available updates are not compatible:"
+                echo '```'
                 echo "${HEADER}"
                 echo "${NOT_COMPATIBLE}"
+                echo '```'
               } >> "${GITHUB_STEP_SUMMARY}"
             fi
           fi
