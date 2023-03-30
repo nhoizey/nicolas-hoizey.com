@@ -15,7 +15,7 @@ permalink: /feeds/mastodon/articles.json
     {%- set contentEnd -%}\n\n{% for tag in entry.data.tags -%}#{{ tag | tagToHashtag }} {% endfor -%}{% endset %}
     {%- set contentEndLength = contentEnd | length -%}
     {%- set contentLength = contentStartLength + contentEndLength -%}
-    {%- set contentMiddle = entry.templateContent | excerpt | striptags(true) | escapeQuotes | truncate(450 - contentLength, false, '…') | cleanForJson | safe %}
+    {%- set contentMiddle = entry.data.page.excerpt | escapeQuotes | truncate(450 - contentLength, false, '…') | cleanForJson | safe %}
     {#- 500 characters on mamot.fr, 13 for URL, a few more for emojies -> 450 -#}
     {
       "id": "{{ absoluteEntryUrl }}",

@@ -3,7 +3,7 @@
 
 {% macro talkCard(talk) %}
   {% set content %}
-  {{ talk.templateContent | excerpt | striptags | safe }}
+  {{ talk.data.page.excerpt }}
   {% endset %}
 
   {% set meta %}

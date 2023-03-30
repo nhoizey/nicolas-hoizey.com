@@ -3,7 +3,7 @@
 
 {% macro billetCard(billet) %}
   {% set content %}
-  {{ billet.templateContent | excerpt | striptags | safe }}
+  {{ billet.data.page.excerpt }}
   {% endset %}
 
   {% set meta %}

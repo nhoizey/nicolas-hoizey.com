@@ -33,7 +33,7 @@
     {% endset %}
   {% endif %}
 
-  {% set content = link.templateContent | excerpt | striptags | safe %}
+  {% set content = link.data.page.excerpt %}
 
   {% set meta %}
   {{ meta(link) }}
