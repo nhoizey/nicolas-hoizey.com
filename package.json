@@ -1,6 +1,6 @@
 {
   "name": "nicolas-hoizey.com",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "title": "Nicolas Hoizey, passionate about the Web and photography",
   "description": "This is the personnal website of Nicolas Hoizey, passionate about the Web and photography, among many other interests.",
   "author": {
@@ -47,7 +47,7 @@
     "bookmarklets": "npm-run-all --parallel bookmarklets:*"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.2.2",
     "@babel/core": "^7.21.3",

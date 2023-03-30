@@ -291,14 +291,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setDataDeepMerge(true);
   eleventyConfig.setQuietMode(true);
 
-  eleventyConfig.setBrowserSyncConfig({
-    ui: false,
-    ghostMode: false,
-    files: ['_site/css/*.css', '_site/js/*.js'],
-    open: false,
-    browser: 'firefox',
-  });
-
   return {
     templateFormats: ['md', 'njk'],
 
