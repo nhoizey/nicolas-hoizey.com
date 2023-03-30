@@ -5,7 +5,9 @@ lang:  en
 tags:  [Markdown, Eleventy, bookmarklet]
 ---
 
+::: lead
 When I was building my site on my local computer, I had a shell script to initialize a new Markdown file for sharing a [link](/links/). When I [moved to Cloudflare Pages 6 months ago]({% link_to "notes/2022/07/29/1/" %}), it opened a new opportunity to share links more easily in my Eleventy content, directly from the page I wanted to share. Bookmarklets are still an awesome invention!
+:::
 
 The main features of my bookmarklet are:
 - get the page title, ask for any change in a `window.prompt()`
