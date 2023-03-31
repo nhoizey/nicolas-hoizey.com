@@ -275,6 +275,12 @@ module.exports = {
       content = content.replaceAll(`@${atRule}`, `@​${atRule}`);
     });
 
+    // Twitter's extractMentions function thinks https://mastodon.social/@pixelfed/110117529562163633
+    // contains a Twitter mention… 🤦‍♂️
+
+    // "protect" Mastodon-like URLs
+    content = content.replace(/(https:\/\/[^\/]+\/)@/g, '$1###AROBASE###');
+
     let mentions = twitter.extractMentions(content);
     mentions.forEach((mention) => {
       content = content.replace(
@@ -282,6 +288,9 @@ module.exports = {
         `<a href="https://twitter.com/${mention}">@${mention}</a>`
       );
     });
+
+    // "restore" Mastodon-like URLs
+    content = content.replace(/(https:\/\/[^\/]+\/)###AROBASE###/g, '$1@');
 
     return content;
   },
