@@ -31,7 +31,7 @@ Combining this trick with my already existing media queries for the `prefers-red
 Here's the code I got for the Ken Burns animations running on [my photography site](https://nicolas-hoizey.photo) (with non relevant selectors cleaned up):
 
 ```css
-// Without @media update support
+// Without @​media update support
 // Enable animations if no reduced motion preference
 @media (prefers-reduced-motion: no-preference) {
   img {
@@ -39,7 +39,7 @@ Here's the code I got for the Ken Burns animations running on [my photography si
   }
 }
 
-// With @media update support
+// With @​media update support
 @media (update: fast), not (update: fast) {
   // If screen update is fast (neither slow nor print)
   @media (update: fast) {
