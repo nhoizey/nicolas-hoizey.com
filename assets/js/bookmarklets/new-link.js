@@ -83,7 +83,7 @@ ${linkContent ? `> ${linkContent.replaceAll('\n', '\n> ')}` : ''}
 
     let newFileUrl = `https://github.com/nhoizey/nicolas-hoizey.com/new/main/?filename=${filename}&value=${encodeURIComponent(
       value
-    )}`;
+    )}&message=${encodeURIComponent(`New link: ${title}`)}`;
 
     window.open(newFileUrl);
   }
