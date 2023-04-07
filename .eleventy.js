@@ -230,8 +230,6 @@ module.exports = function (eleventyConfig) {
     md.render(excerptContent);
     let excerpt = md.plainText.trim();
 
-    if (excerpt.match(/rendering and the speed/)) console.log(excerpt);
-
     excerpt = excerpt.replace(/{%(((?!(%})).|\n)+)%}/gm, ''); // remove short codes
     excerpt = excerpt.replace(/{{(((?!(}})).|\n)+)}}/gm, ''); // remove nunjucks variables
     excerpt = excerpt.replace(/{#(((?!(#})).|\n)+)#}/gm, ''); // remove nunjucks comments
