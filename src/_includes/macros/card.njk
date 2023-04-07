@@ -25,7 +25,7 @@
       {% endif %}
       {% if content %}
         <p class="card__body p-summary">
-          {{ content | safe }}
+          {{ content | markdown | safe }}
         </p>
       {% endif %}
     </article>

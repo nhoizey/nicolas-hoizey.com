@@ -21,7 +21,7 @@ permalink: /tools/algolia.json
 		"url": "{{ absoluteEntryUrl }}",
     "objectID": "{{ absoluteEntryUrl }}",
 		"content": {{ entry.templateContent | cleanForAlgolia | striptags | jsonify | safe }},
-    "excerpt": {{ entry.data.page.excerpt | jsonify | safe }},
+    "excerpt": {{ entry.data.page.excerpt | markdown | jsonify | safe }},
 		"tags": [
       {% for tag in entry.data.tags %}
         "{{ tag }}"{%- if not loop.last -%},{% endif -%}
@@ -47,7 +47,7 @@ permalink: /tools/algolia.json
 		"url": "{{ absoluteEntryUrl }}",
     "objectID": "{{ absoluteEntryUrl }}",
 		"content": {{ entry.templateContent | cleanForAlgolia | striptags | jsonify | safe }},
-    "excerpt": {{ entry.data.page.excerpt | jsonify | safe }},
+    "excerpt": {{ entry.data.page.excerpt | markdown | jsonify | safe }},
 		"tags": [
       {% for tag in entry.data.tags %}
         "{{ tag }}"{%- if not loop.last -%},{% endif -%}
@@ -94,7 +94,7 @@ permalink: /tools/algolia.json
 		"objectID": "{{ absoluteEntryUrl }}",
     "illustration": "{% archiveIllustration 'https://image.thum.io/get/width/1200/crop/800/noanimate/' + entry.data.link, 1200, 800, 'screenshot of ' + entry.data.title | safe %}",
 		"content": {{ entry.templateContent | cleanForAlgolia | striptags | jsonify | safe }},
-    "excerpt": {{ entry.data.page.excerpt | jsonify | safe }},
+    "excerpt": {{ entry.data.page.excerpt | markdown | jsonify | safe }},
 		"tags": [
       {% for tag in entry.data.tags %}
         "{{ tag }}"{%- if not loop.last -%},{% endif -%}
@@ -147,7 +147,7 @@ permalink: /tools/algolia.json
 		"objectID": "{{ absoluteEntryUrl }}",
     "illustration": "{% archiveIllustration entry.data.illustration.src, entry.data.illustration.width, entry.data.illustration.height, entry.data.illustration.alt %}",
 		"content": {{ entry.templateContent | cleanForAlgolia | striptags | jsonify | safe }},
-    "excerpt": {{ entry.data.page.excerpt | jsonify | safe }},
+    "excerpt": {{ entry.data.page.excerpt | markdown | jsonify | safe }},
 		"tags": [
       {% for tag in entry.data.tags %}
         "{{ tag }}"{%- if not loop.last -%},{% endif -%}

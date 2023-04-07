@@ -90,7 +90,7 @@
     "markdown-it-bracketed-spans": "^1.0.1",
     "markdown-it-container": "^3.0.0",
     "markdown-it-footnote": "^3.0.3",
-    "markdown-it-plain-text": "^0.2.1",
+    "markdown-it-plain-text": "^0.3.0",
     "modern-css-reset": "^1.4.0",
     "moment": "^2.29.4",
     "node-fetch": "^2.6.9",

@@ -24,7 +24,7 @@ permalink: /tags/{{ tag.slug }}/
     {% endif %}
 
     {% if tag.description %}
-        {{ tag.description | markdownify | safe }}
+        {{ tag.description | markdown | safe }}
     {% endif %}
   </div>
 {% endif %}

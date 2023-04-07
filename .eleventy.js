@@ -121,6 +121,7 @@ module.exports = function (eleventyConfig) {
   const markdownItSpan = require('markdown-it-bracketed-spans');
   const markdownItContainer = require('markdown-it-container');
   const markdownItAbbr = require('markdown-it-abbr');
+  const markdownItPlainText = require('markdown-it-plain-text');
 
   // taken from https://gist.github.com/rodneyrehm/4feec9af8a8635f7de7cb1754f146a39
   function getHeadingLevel(tagName) {
@@ -174,6 +175,7 @@ module.exports = function (eleventyConfig) {
     .use(markdownItAttributes)
     .use(markdownItSpan)
     .use(markdownItAbbr)
+    .use(markdownItPlainText)
     .use(markdownItContainer, 'lead') // Chapô in French
     .use(markdownItContainer, 'encart_photo_du_jour')
     .use(markdownItContainer, 'info')
@@ -183,7 +185,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setLibrary('md', md);
 
   // Add markdownify filter with shared Markdown-it configuration
-  eleventyConfig.addFilter('markdownify', (markdownString) =>
+  eleventyConfig.addFilter('markdown', (markdownString) =>
     md.render(markdownString)
   );
 
@@ -212,39 +214,45 @@ module.exports = function (eleventyConfig) {
   // Excerpt
   // ------------------------------------------------------------------------
 
-  const markdownItPlainText = require('markdown-it-plain-text');
-  const excerptMd = new markdownIt().use(markdownItPlainText);
-
   function grayMatterExcerpt(file, options) {
     const regex = /^.*::: lead(((?!(:::)).|\n)+):::.*$/gm;
-    let excerpt = '';
     let leadFound = false;
+    let excerptContent = '';
 
     if ((leadMatches = regex.exec(file.content)) !== null) {
-      lead = leadMatches[1];
       leadFound = true;
-      excerptMd.render(lead);
+      excerptContent = leadMatches[1];
     } else {
-      excerptMd.render(file.content);
+      excerptContent = file.content;
     }
-    excerpt = excerptMd.plainText
-      .trim()
-      .replace(/{%(((?!(%})).|\n)+)%}/gm, '') // remove short codes
-      .replace(/{{(((?!(}})).|\n)+)}}/gm, '') // remove nunjucks variables
-      .replace(/{#(((?!(#})).|\n)+)#}/gm, '') // remove nunjucks comments
-      .replace(/<style>(((?!(<\/style>)).|\n)+)<\/style>/gm, '') // remove inline CSS
-      .replace(
-        /<script type="application\/ld\+json">(((?!(<\/script>)).|\n)+)<\/script>/gm,
-        ''
-      ) // remove JSON+LD
-      .replace(/(<\/h[1-6]>)/gm, '. $1') // add a dot at the end of headings
-      .replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>|<!--[\s\S]*?-->/gm, '') // remove HTML tags
-      .replace(/(\[\^[^\]]+\])/gm, '') // remove Markdown footnotes
-      .replace(/\[([^\]]+)\]\(\)/gm, '$1') // remove Markdown links without URL (from {% link_to %} for example)
-      .replace(/ +(\.|,)/gm, '$1'); // remove space before punctuation
+
+    excerptContent = excerptContent.replace(/([^`])`([^`])/g, '$1#ONEFENCE#$2'); // keep single fences
+    md.render(excerptContent);
+    let excerpt = md.plainText.trim();
+
+    if (excerpt.match(/rendering and the speed/)) console.log(excerpt);
+
+    excerpt = excerpt.replace(/{%(((?!(%})).|\n)+)%}/gm, ''); // remove short codes
+    excerpt = excerpt.replace(/{{(((?!(}})).|\n)+)}}/gm, ''); // remove nunjucks variables
+    excerpt = excerpt.replace(/{#(((?!(#})).|\n)+)#}/gm, ''); // remove nunjucks comments
+    excerpt = excerpt.replace(/<style>(((?!(<\/style>)).|\n)+)<\/style>/gm, ''); // remove inline CSS
+    excerpt = excerpt.replace(
+      /<script type="application\/ld\+json">(((?!(<\/script>)).|\n)+)<\/script>/gm,
+      ''
+    ); // remove JSON+LD
+    excerpt = excerpt.replace(/(<\/h[1-6]>)/gm, '. $1'); // add a dot at the end of headings
+    excerpt = excerpt.replace(
+      /<\/?([a-z][a-z0-9]*)\b[^>]*>|<!--[\s\S]*?-->/gm,
+      ''
+    ); // remove HTML tags
+    excerpt = excerpt.replace(/(\[\^[^\]]+\])/gm, ''); // remove Markdown footnotes
+    excerpt = excerpt.replace(/\[([^\]]+)\]\(\)/gm, '$1'); // remove Markdown links without URL (from {% link_to %} for example)
+    excerpt = excerpt.replace(/ +(\.|,)/gm, '$1'); // remove space before punctuation
+
+    excerpt = excerpt.replace(/#ONEFENCE#/g, '`'); // restore fences
 
     if (!leadFound && excerpt.length > 150) {
-      // Keep only 145 characters and an ellipsis if there was no declared lead
+      // Keep only 145 characters and an ellipsis if there was no lead
       excerpt = excerpt.replace(/^(.{145}[^\s]*).*/gm, '$1') + '…';
     }
     file.excerpt = excerpt;
