@@ -11,6 +11,8 @@ Thanks to Chrome release notes, [I discovered today]({% link_to "notes/2023/04/0
 As I'm already respecting the user's preference with the `prefers-reduced-motion` media feature, I wondered how I could progressively enhance this with the new media feature.
 :::
 
+# "Testing" media feature support without `@supports`
+
 [Amelia Bellamy-Royds](https://front-end.social/@AmeliaBR) had [the answer with a clever trick](https://front-end.social/@AmeliaBR/110158330793667431). Thanks Amelia! 🙏
 
 This is how you can apply styles only if a feature is supported by the browser:
@@ -25,6 +27,8 @@ Indeed:
 
 - either the browser doesn't understand `thing: one` and ignores both media queries
 - or the browser understands `thing: one` and this is either `true` or `false`, so combining both matches all supporting browsers/contexts
+
+# Running CSS animations only if both the device (either `update: fast` not supported or `true`) and the user allow it (`prefers-reduced-motion: no-preference`)
 
 Combining this trick with my already existing media queries for the `prefers-reduced-motion` media feature requires a bit of code, but it's manageable.
 
@@ -62,5 +66,28 @@ Here's the code I got for the Ken Burns animations running on [my photography si
 ```
 
 Being able to nest media queries is great!
+
+# Later update: a simpler solution thanks to Amelia
+
+As [Amelia noticed when I shared this](https://front-end.social/@AmeliaBR/110160694917595587) (I ❤️ her comment “both awesome & awful” 😅), the code can be much simpler, without media queries inception. 😅
+
+Here's what [Amelia suggests to write](https://front-end.social/@AmeliaBR/110160702621003752), and I agree it's much better:
+
+```css
+@media (prefers-reduced-motion: no-preference) {
+  img {
+    animation-play-state: running;
+    /* turn animations on if user doesn't mind */
+  }
+}
+@media not (update: fast) {
+  img {
+    animation-play-state: paused;
+    /* except, turn them off again if the browser can't draw them effectively anyway */
+  }
+}
+```
+
+I feel so lucky to regularly get great feedback from people with such expertise as Amelia, on many topics. [Once with Twitter, I now get this with Mastodon]({% link_to "how-tweetbot-died-and-lived-again" %}), and it feels even better.
 
 Now… how can I test the different permutations of `update` support or not, and actual value? 🤔
