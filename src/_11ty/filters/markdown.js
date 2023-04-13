@@ -108,6 +108,7 @@ const tootHashtagTohandle = (toot, tags) => {
   let handles = {
     '#Eleventy': '@eleventy@fosstodon.org',
     '#Mastodon': '@Mastodon@mastodon.social',
+    '#SpeedCurve': '@speedcurve@webperf.social',
   };
   for (const tag in handles) {
     toot = toot.replaceAll(tag, handles[tag]);
