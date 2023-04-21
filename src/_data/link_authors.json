@@ -5,7 +5,7 @@
     "site": "https://www.aaron-gustafson.com/"
   },
   "Ad Hoc": {
-    "twitter": "adhocteam",
+    "twitter": "adhocteam",r
     "site": "https://adhoc.team/"
   },
   "Adam Silver": {
@@ -614,6 +614,10 @@
     "twitter": "ebaytech",
     "site": "https://www.ebayinc.com/stories/blogs/tech/"
   },
+  "Raymond Camden": {
+    "site": "https://www.raymondcamden.com/",
+    "mastodon": "@raymondcamden@mastodon.social"
+  },
   "Remy Sharp": {
     "twitter": "rem",
     "site": "https://remysharp.com/"
@@ -811,3 +815,4 @@
     "site": "https://m4dz.net/"
   }
 }
+a
