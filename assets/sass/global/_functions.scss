@@ -5,3 +5,15 @@
 @function unicode($str) {
   @return unquote('"') + unquote(str-insert($str, '\\', 1)) + unquote('"');
 }
+
+// Remove the unit of a length
+// https://css-tricks.com/snippets/sass/strip-unit-function/
+// @param {Number} $number - Number to remove unit from
+// @return {Number} - Unitless number
+@function strip-unit($number) {
+  @if type-of($number) == 'number' and not unitless($number) {
+    @return $number / ($number * 0 + 1);
+  }
+
+  @return $number;
+}
