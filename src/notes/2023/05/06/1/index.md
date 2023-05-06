@@ -9,7 +9,7 @@ I tried this without success in [the Service Worker in Pack11ty](https://github.
 
 ```javascript
 staticResourceCache({
-	warmCache: self.__WB_MANIFEST,
+  warmCache: self.__WB_MANIFEST,
 });
 ```
 
