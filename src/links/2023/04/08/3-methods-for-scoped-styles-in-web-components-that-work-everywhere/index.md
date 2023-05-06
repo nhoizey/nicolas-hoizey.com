@@ -5,7 +5,7 @@ lang: en
 link: https://www.zachleat.com/web/styling-web-components/
 authors:
   - "Zach Leatherman"
-tags: [WebC, web components, JavaScript, CSS]
+tags: [WebC, web component, JavaScript, CSS]
 ---
 
 > WebC allows folks to broaden access to things built with web components without the drawbacks of other methods
