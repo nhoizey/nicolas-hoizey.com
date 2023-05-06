@@ -1,6 +1,6 @@
 ---
 date: 2020-07-02 12:12:13 +02:00
-tags: [Workbox, ServiceWorker, image]
+tags: [Workbox, Service Worker, image]
 ---
 
 Wondering why my #Workbox based Service Workers breaks images on https://nicolas-hoizey-com.netlify.app/notes/ but not https://nicolas-hoizey.com/notes/
