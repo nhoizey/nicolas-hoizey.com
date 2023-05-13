@@ -483,6 +483,7 @@ ol {
 
 table {
   border-collapse: collapse;
+  border-spacing: 0;
   font-feature-settings: 'tnum' 1;
 
   @supports (font-variant-numeric: tabular-nums) {
