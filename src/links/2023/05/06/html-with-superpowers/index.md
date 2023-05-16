@@ -5,7 +5,7 @@ lang: en
 link: https://htmlwithsuperpowers.netlify.app/
 authors:
   - "Dave Rupert"
-tags: [web component]
+tags: [Web Components]
 ---
 
 > What makes Web Components different than JS frameworks is that they're a set of Web Standards <mark>built into the platform</mark>.
