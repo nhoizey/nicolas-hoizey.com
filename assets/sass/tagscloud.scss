@@ -49,6 +49,7 @@
         ((var(--max-l) - var(--min-l)) * var(--factor) + var(--min-l)) * 1%
       );
       --a: 1;
+      background-color: var(--color-primary);
       background-color: hsl(var(--h) var(--s) var(--l) / var(--a));
       color: white;
 
