@@ -1,9 +1,7 @@
 # nicolas-hoizey.com
 
-[![Update NPM packages](https://github.com/nhoizey/nicolas-hoizey.com/actions/workflows/update-dependencies.yml/badge.svg)](https://github.com/nhoizey/nicolas-hoizey.com/actions/workflows/update-dependencies.yml)
-[![Update Algolia](https://github.com/nhoizey/automations/actions/workflows/update-algolia.yml/badge.svg)](https://github.com/nhoizey/automations/actions/workflows/update-algolia.yml)
-[![Check Webmentions](https://github.com/nhoizey/nicolas-hoizey.com/actions/workflows/update-webmentions.yml/badge.svg)](https://github.com/nhoizey/nicolas-hoizey.com/actions/workflows/update-webmentions.yml)
-[![Send tweets](https://github.com/nhoizey/automations/actions/workflows/send-tweets.yml/badge.svg)](https://github.com/nhoizey/automations/actions/workflows/send-tweets.yml)
+[![GitHub stars](https://img.shields.io/github/stars/nhoizey/nicolas-hoizey.com.svg?style=social)](https://github.com/nhoizey/nicolas-hoizey.com/stargazers)
+![Mastodon Follow](https://img.shields.io/mastodon/follow/000262395?domain=https%3A%2F%2Fmamot.fr&label=Mastodon&style=social)
 
 ## My Eleventy based site
 
