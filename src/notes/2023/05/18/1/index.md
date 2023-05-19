@@ -1,6 +1,6 @@
 ---
 date: 2023-05-18 12:01:48 +02:00
-tags: [CSS]
+tags: [CSS, View Transitions]
 ---
 
 TIL: `a:link` in CSS doesn't match `a` elements without any `href` attribute! 😲
