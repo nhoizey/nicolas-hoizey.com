@@ -5,7 +5,7 @@ lang: en
 link: https://daverupert.com/2023/05/getting-started-view-transitions/
 authors:
   - "Dave Rupert"
-tags: [CSS, animation]
+tags: [CSS, View Transitions]
 ---
 
 > View Transitions for MPAs are a feature that’s high on my CSS wishlist, so I got to it. It took less than an hour to do, <mark>requires zero JavaScript, and two lines of CSS</mark>.
