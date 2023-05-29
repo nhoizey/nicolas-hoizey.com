@@ -50,8 +50,8 @@
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-    "@babel/core": "^7.21.8",
-    "@babel/preset-env": "^7.21.5",
+    "@babel/core": "^7.22.1",
+    "@babel/preset-env": "^7.22.2",
     "@jlengstorf/get-share-image": "^0.8.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@rollup/plugin-replace": "^3.1.0",
@@ -123,7 +123,7 @@
     "twitter-text": "^3.1.0",
     "workbox-broadcast-update": "^6.2.4",
     "workbox-cacheable-response": "^6.2.4",
-    "workbox-cli": "^6.5.4",
+    "workbox-cli": "^6.6.0",
     "workbox-core": "^6.2.4",
     "workbox-expiration": "^6.2.4",
     "workbox-google-analytics": "^6.2.4",
@@ -136,7 +136,7 @@
   },
   "private": true,
   "dependencies": {
-    "algoliasearch": "^4.17.0",
+    "algoliasearch": "^4.17.1",
     "instantsearch.js": "^4.56.0"
   }
 }
