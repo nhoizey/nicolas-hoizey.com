@@ -47,9 +47,8 @@ For this purpose, several recipes have been combined:
 
 The external resources, potential sources of trouble, are mainly :
 
-- the *players* of videos, including Youtube, Vimeo or Dailymotion
+- the *video players*, including Youtube, Vimeo or Dailymotion
 - the *widgets* of certain services, including Ulule, Speakerdeck or Slideshare
-- Matomo, to find out what's going on on the site.
 
 # Comments
 
