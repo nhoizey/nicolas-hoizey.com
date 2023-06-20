@@ -1,7 +1,6 @@
 const memoize = require('fast-memoize');
 
 const { readFromCache } = require('../../_utils/cache');
-const rootUrl = require('../../../package.json').homepage;
 
 const WEBMENTION_CACHE = '_cache/webmentions.json';
 const WEBMENTION_BLOCKLIST = '../webmention-blocklist.json';
