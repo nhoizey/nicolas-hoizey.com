@@ -12,4 +12,4 @@ This is a lovely way to deal with image crop and focal point with CSS only! 😍
 
 And I love that Johannes put this warning in the beginning:
 
-> While client-side cropping can be an effective way to adapt images further for display on different screens and devices, it can also be a wasteful technique. The downside of cropping on the client is that we discard pixels that we’ve spent resources on transferring and decoding. As a result we end up with larger file sizes, slower load times, and a less optimal user experience overall. As such, it’s important to use client-side cropping sparingly and consider alternative responsive image techniques.
+> While client-side cropping can be an effective way to adapt images further for display on different screens and devices, it can also be a wasteful technique. The downside of cropping on the client is that we discard pixels that we’ve spent resources on transferring and decoding. As a result we end up with <mark>larger file sizes, slower load times, and a less optimal user experience overall</mark>. As such, it’s important to use client-side cropping sparingly and consider alternative responsive image techniques.
