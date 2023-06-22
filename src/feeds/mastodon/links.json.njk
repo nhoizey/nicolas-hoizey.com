@@ -19,7 +19,7 @@ permalink: /feeds/mastodon/links.json
       "content_text": "🔗 “{{ entry.data.title | escapeQuotes(true) | safe }}”{% set by = false -%}
 {%- if entry.data.authors -%}
 {%- for author in entry.data.authors -%}
-{%- set authorData = link_authors[author] -%}
+{%- set authorData = people[author] -%}
 {%- if authorData.mastodon -%}{%- if by == false %} by{%- set by = true -%}{%- endif %} {{ authorData.mastodon }}{% endif -%}
 {%- endfor -%}
 {%- endif %}\n\n{% for tag in entry.data.tags -%}#{{ tag | tagToHashtag }} {% endfor -%}

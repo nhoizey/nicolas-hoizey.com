@@ -1,6 +1,6 @@
 const twitter = require('twitter-text');
 const config = require('../../pack11ty.config.js');
-const link_authors = require('./link_authors.json');
+const people = require('./people.json');
 const { formattedDate, isoDate, isInEmbargo } = require('../_utils/dates');
 
 function removeEmojis(content) {
@@ -43,7 +43,7 @@ function htmlAuthors(data) {
     let i = 0;
     const nb = data.authors.length;
     data.authors.forEach((author) => {
-      let authorData = link_authors[author];
+      let authorData = people[author];
       if (authorData?.twitter) {
         html += `<img class="u-photo avatar" src="https://res.cloudinary.com/nho/image/twitter_name/${authorData.twitter}" alt="${author} avatar" loading="lazy" width="48" height="48" /> `;
       }

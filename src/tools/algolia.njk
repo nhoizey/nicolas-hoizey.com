@@ -66,7 +66,7 @@ permalink: /tools/algolia.json
       {%- if not loop.first -%}
         {%- if not loop.last -%}, {% else %} and {% endif -%}
       {%- endif -%}
-      {% set authorData = link_authors[author] %}
+      {% set authorData = people[author] %}
       {%- if authorData.twitter -%}
         <img class="u-photo avatar" src="https://res.cloudinary.com/nho/image/twitter_name/q_auto,f_auto,w_64,c_limit/{{ authorData.twitter }}" alt="{{ author }} avatar" width="48" height="48" />
       {% endif -%}
