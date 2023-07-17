@@ -49,8 +49,8 @@
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-    "@babel/core": "^7.22.8",
-    "@babel/preset-env": "^7.22.7",
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
     "@jlengstorf/get-share-image": "^0.8.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@rollup/plugin-replace": "^3.1.0",
@@ -72,7 +72,7 @@
     "eleventy-plugin-link_to": "^0.4.1",
     "encoding": "^0.1.13",
     "entities": "^3.0.1",
-    "eslint": "^8.44.0",
+    "eslint": "^8.45.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
     "fast-glob": "^3.3.0",
@@ -136,6 +136,6 @@
   "private": true,
   "dependencies": {
     "algoliasearch": "^4.18.0",
-    "instantsearch.js": "^4.56.4"
+    "instantsearch.js": "^4.56.5"
   }
 }
