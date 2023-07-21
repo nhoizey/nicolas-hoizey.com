@@ -9,7 +9,8 @@
       src="https://res.cloudinary.com/nho/image/fetch/w_250,h_250,c_limit,q_auto,f_auto/{{ poster_image }}"
       srcset="https://res.cloudinary.com/nho/image/fetch/w_100,h_100,c_limit,q_auto,f_auto/{{ poster_image }} 100w, https://res.cloudinary.com/nho/image/fetch/w_250,h_250,c_limit,q_auto,f_auto/{{ poster_image }} 250w, https://res.cloudinary.com/nho/image/fetch/w_500,h_500,c_limit,q_auto,f_auto/{{ poster_image }} 500w"
       sizes="(max-width: 20rem) 45vw, (max-width: 67rem) 30vw, 20rem"
-      class="poster" />
+      class="poster"
+      data-responsiver="false" />
   {% else %}
     <img
       src="{{ poster_image }}"

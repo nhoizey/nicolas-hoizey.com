@@ -21,7 +21,7 @@
       {% set authorData = link.data.people[author] %}
       {%- if authorData.mastodon %}
         {% set avatarUrl %}https://mastodon-avatar.netlify.app/?username={{authorData.mastodon}}{% endset %}
-        <img class="u-photo avatar" src="https://res.cloudinary.com/nho/image/fetch/q_auto,f_auto,w_48/{{avatarUrl | url_encode }}" alt="{{ author }} avatar" width="48" height="48" />
+        <img class="u-photo avatar" src="https://res.cloudinary.com/nho/image/fetch/q_auto,f_auto,w_48/{{avatarUrl | url_encode }}" alt="{{ author }} avatar" width="48" height="48" data-responsiver="false" />
       {%- endif %}
       {{ author }}
       {%- if authorData.mastodon %}

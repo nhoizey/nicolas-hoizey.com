@@ -48,7 +48,7 @@ function htmlAuthors(data) {
         const avatarUrl = encodeURIComponent(
           `https://mastodon-avatar.netlify.app/?username=${authorData.mastodon}`
         );
-        html += `<img class="u-photo avatar" src="https://res.cloudinary.com/nho/image/fetch/q_auto,f_auto,w_48/${avatarUrl}" alt="${author} avatar" loading="lazy" width="48" height="48" /> `;
+        html += `<img class="u-photo avatar" src="https://res.cloudinary.com/nho/image/fetch/q_auto,f_auto,w_48/${avatarUrl}" alt="${author} avatar" loading="lazy" width="48" height="48" data-responsiver="false" /> `;
       }
       html += `<b class="p-name">${author}</b>`;
       if (authorData?.mastodon) {
