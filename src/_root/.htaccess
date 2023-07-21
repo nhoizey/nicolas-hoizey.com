@@ -646,7 +646,6 @@ FileETag None
 # https://nicolas-hoizey.com/notes/2020/12/22/1/
 
 <IfModule mod_headers.c>
-  Header set Link "<https://res.cloudinary.com>; rel=dns-prefetch"
   Header set Link "<https://res.cloudinary.com>; rel=preconnect"
 </IfModule>
 
