@@ -44,8 +44,11 @@ function htmlAuthors(data) {
     const nb = data.authors.length;
     data.authors.forEach((author) => {
       let authorData = people[author];
-      if (authorData?.twitter) {
-        html += `<img class="u-photo avatar" src="https://res.cloudinary.com/nho/image/twitter_name/${authorData.twitter}" alt="${author} avatar" loading="lazy" width="48" height="48" /> `;
+      if (authorData?.mastodon) {
+        const avatarUrl = encodeURIComponent(
+          `https://mastodon-avatar.netlify.app/?username=${authorData.mastodon}`
+        );
+        html += `<img class="u-photo avatar" src="https://res.cloudinary.com/nho/image/fetch/q_auto,f_auto,w_48/${avatarUrl}" alt="${author} avatar" loading="lazy" width="48" height="48" /> `;
       }
       html += `<b class="p-name">${author}</b>`;
       if (authorData?.mastodon) {
@@ -54,9 +57,6 @@ function htmlAuthors(data) {
           'https://$2/$1'
         );
         html += ` <a class="author__mastodon" href="${mastodonUrl}" aria-label="${authorData.mastodon} on Mastodon"><svg><use xlink:href="#symbol-mastodon" /></svg></a>`;
-      }
-      if (authorData?.twitter) {
-        html += ` <a class="author__twitter" href="https://twitter.com/${authorData.twitter}" aria-label="@${authorData.twitter} on Twitter"><svg><use xlink:href="#symbol-twitter" /></svg></a>`;
       }
       i++;
       if (i < nb - 1) {

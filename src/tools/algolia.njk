@@ -67,15 +67,13 @@ permalink: /tools/algolia.json
         {%- if not loop.last -%}, {% else %} and {% endif -%}
       {%- endif -%}
       {% set authorData = people[author] %}
-      {%- if authorData.twitter -%}
-        <img class="u-photo avatar" src="https://res.cloudinary.com/nho/image/twitter_name/q_auto,f_auto,w_64,c_limit/{{ authorData.twitter }}" alt="{{ author }} avatar" width="48" height="48" />
-      {% endif -%}
+      {%- if authorData.mastodon %}
+        {% set avatarUrl %}https://mastodon-avatar.netlify.app/?username={{authorData.mastodon}}{% endset %}
+        <img class="u-photo avatar" src="https://res.cloudinary.com/nho/image/fetch/q_auto,f_auto,w_48/{{avatarUrl | url_encode }}" alt="{{ author }} avatar" width="48" height="48" />
+      {%- endif %}
       {{ author }}
       {%- if authorData.mastodon %}
         <a class="author__mastodon" href="{{ authorData.mastodon | mastodonUrl }}" aria-label="{{ authorData.mastodon }} on Mastodon"><svg><use xlink:href="#symbol-mastodon" /></svg></a>
-      {%- endif %}
-      {%- if authorData.twitter %}
-        <a class="author__twitter" href="https://twitter.com/{{ authorData.twitter }}" aria-label="@{{ authorData.twitter }} on Twitter"><svg><use xlink:href="#symbol-twitter" /></svg></a>
       {%- endif %}
     {%- endfor -%}
   {%- endif -%}
