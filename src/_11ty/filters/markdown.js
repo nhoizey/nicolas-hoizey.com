@@ -106,6 +106,7 @@ const tootHashtagTohandle = (toot, tags) => {
 
   // convert hashtags to Mastodon accounts
   let handles = {
+    '#CloudCannon': '@cloudcannon@techhub.social',
     '#Eleventy': '@eleventy@fosstodon.org',
     '#Mastodon': '@Mastodon@mastodon.social',
     '#SpeedCurve': '@speedcurve@webperf.social',
