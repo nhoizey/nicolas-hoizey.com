@@ -120,15 +120,15 @@
     "truncate-html": "^1.0.4",
     "twitter": "^1.7.1",
     "twitter-text": "^3.1.0",
-    "workbox-broadcast-update": "^6.2.4",
-    "workbox-cacheable-response": "^6.2.4",
-    "workbox-cli": "^6.6.0",
-    "workbox-core": "^6.2.4",
-    "workbox-expiration": "^6.2.4",
-    "workbox-google-analytics": "^6.2.4",
-    "workbox-precaching": "^6.2.4",
-    "workbox-routing": "^6.2.4",
-    "workbox-strategies": "^6.2.4"
+    "workbox-broadcast-update": "^6.6.1",
+    "workbox-cacheable-response": "^6.6.1",
+    "workbox-cli": "^6.6.1",
+    "workbox-core": "^6.6.1",
+    "workbox-expiration": "^6.6.1",
+    "workbox-google-analytics": "^6.6.1",
+    "workbox-precaching": "^6.6.1",
+    "workbox-routing": "^6.6.1",
+    "workbox-strategies": "^6.6.1"
   },
   "engines": {
     "node": ">=14"
@@ -136,6 +136,6 @@
   "private": true,
   "dependencies": {
     "algoliasearch": "^4.19.1",
-    "instantsearch.js": "^4.56.7"
+    "instantsearch.js": "^4.56.8"
   }
 }
