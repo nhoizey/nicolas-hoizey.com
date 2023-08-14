@@ -49,14 +49,14 @@
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-    "@babel/core": "^7.22.9",
-    "@babel/preset-env": "^7.22.9",
+    "@babel/core": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
     "@jlengstorf/get-share-image": "^0.8.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@rollup/plugin-replace": "^3.1.0",
     "@sindresorhus/slugify": "^1.1.2",
     "atomic-algolia": "^0.3.19",
-    "autoprefixer": "^10.4.14",
+    "autoprefixer": "^10.4.15",
     "babel-loader": "^8.3.0",
     "bent": "^7.3.12",
     "bookmarklet": "^3.0.0",
@@ -72,7 +72,7 @@
     "eleventy-plugin-link_to": "^0.4.1",
     "encoding": "^0.1.13",
     "entities": "^3.0.1",
-    "eslint": "^8.46.0",
+    "eslint": "^8.47.0",
     "eslint-config-prettier": "^8.10.0",
     "eslint-plugin-prettier": "^4.2.1",
     "fast-glob": "^3.3.1",
@@ -107,7 +107,7 @@
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-visualizer": "^5.9.2",
     "sanitize-html": "^2.11.0",
-    "sass": "^1.64.2",
+    "sass": "^1.65.1",
     "simple-icons": "^5.24.0",
     "stylelint": "^15.10.2",
     "stylelint-config-idiomatic-order": "^9.0.0",
@@ -136,6 +136,6 @@
   "private": true,
   "dependencies": {
     "algoliasearch": "^4.19.1",
-    "instantsearch.js": "^4.56.8"
+    "instantsearch.js": "^4.56.9"
   }
 }
