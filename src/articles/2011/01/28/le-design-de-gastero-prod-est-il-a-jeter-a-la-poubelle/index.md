@@ -15,9 +15,9 @@ Alarmé par certains commentaires faits sur Twitter par des personnes dont l'avi
 
 Personnellement, j'ai toujours essayé de privilégier le lisible, mais sans oublier de travailler le joli, à ma manière de technicien sans la moindre compétence de graphisme.
 
-J'ai [demandé](http://twitter.com/nhoizey/statuses/30930128015990784) à @glazou et @edasfr s'ils utiliseraient Readability pour lire de façon plus agréable sur Gastero Prod, et je n'avais vraiment pas prévu l'avalanche de commentaires reçus en réponse par ces deux là et quelques autres…
+J'ai [demandé](https://twitter.nicolas-hoizey.com/30930128015990784/) à @glazou et @edasfr s'ils utiliseraient Readability pour lire de façon plus agréable sur Gastero Prod, et je n'avais vraiment pas prévu l'avalanche de commentaires reçus en réponse par ces deux là et quelques autres…
 
-Autant dire que j'en ai pris plein la tronche avec ces critiques enfin claires, que je n'avais pas vraiment eu depuis le [redesign de janvier 2008](/2008/01/gastero-prod-08-beaucoup-plus-de-changements-que-les-simples-realignements-progressifs-precedents.html). Cela ferait donc 3 ans que mon site fait peur aux Internautes ?
+Autant dire que j'en ai pris plein la tronche avec ces critiques enfin claires, que je n'avais pas vraiment eu depuis le [redesign de janvier 2008]({% link_to "gastero-prod-08-beaucoup-plus-de-changements-que-les-simples-realignements-progressifs-precedents" %}). Cela ferait donc 3 ans que mon site fait peur aux Internautes ?
 
 Cela a commencé par un très perturbant «[chez toi (…) je copie colle dans un éditeur texte](http://twitter.com/edasfr/statuses/30930279979814912)» de @edasfr et un «[couleurs, contraste, taille de fonte, trop de colonnes](http://twitter.com/glazou/statuses/30930642321543168)» de @glazou[^2].
 

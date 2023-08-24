@@ -9,9 +9,9 @@ Ce blog tourne depuis plus de 10 ans sur [SPIP](http://www.spip.net/), mais cela
 
 [^1]: Même si vous ne commentez pas beaucoup…
 
-J'ai d'abord posé cette question sur Twitter :
+J'ai d'abord [posé cette question sur Twitter](https://twitter.nicolas-hoizey.com/378117949183500288/) :
 
-https://twitter.com/nhoizey/statuses/378117949183500288
+> Bon, il n’y a vraiment pas d’alternative crédible à Disqus pour les commentaires sur un site statique ? :-/
 
 Ce qui a amené quelques réponses qu'il peut être intéressant de garder sous la main :
 
@@ -25,9 +25,9 @@ https://twitter.com/bobmaerten/statuses/378119926089011200
 
 https://twitter.com/bobmaerten/statuses/378120095614386176
 
-Mais j'avais oublié de préciser un aspect important de ma recherche :
+Mais j'avais oublié de [préciser un aspect important de ma recherche](https://twitter.nicolas-hoizey.com/378119810967937024/) :
 
-https://twitter.com/nhoizey/statuses/378119810967937024
+> J'ai oublié de préciser que je voudrais qu'ils soient auto hébergés, ces commentaires…
 
 Les réponses suivantes sont donc plus intéressantes :
 
