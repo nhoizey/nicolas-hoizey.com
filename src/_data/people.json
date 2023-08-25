@@ -443,6 +443,10 @@
   "Laurel Schwulst": {
     "site": "https://laurelschwulst.com/"
   },
+  "Leanne Renard": {
+    "site": "https://leannerenard.co.uk/",
+    "mastodon": "@leannecodes@mastodon.social"
+  },
   "Lee Reilly": {
     "twitter": "leereilly",
     "site": "https://leereilly.net/"
@@ -451,13 +455,16 @@
     "twitter": "dekorteleon",
     "site": "https://www.leondekorte.nl/"
   },
-  "Lisa Charlotte Rost": {
-    "twitter": "lisacrost",
-    "site": "https://lisacharlotterost.de/"
-  },
   "Léonie Watson": {
     "twitter": "LeonieWatson",
     "site": "https://tink.uk/"
+  },
+  "Liridon Hasani": {
+    "site": "https://liridon.dev/"
+  },
+  "Lisa Charlotte Rost": {
+    "twitter": "lisacrost",
+    "site": "https://lisacharlotterost.de/"
   },
   "Maarten Van Hoof": {
     "twitter": "mrtnvh",
