@@ -12,4 +12,8 @@ tags: [responsive, viewport]
 
 > <mark>you simply do not know how users are going to visit your website or web app</mark>. Instead of making design decisions on strict, limited breakpoints, keep in mind the sheer amount of fragmentation there is in viewports
 
-This is an absolutely brilliant website, focused on a single important topic. Follow the advice. Please.
+This is an absolutely brilliant website, focused on a single important topic.
+
+Follow the advice.
+
+Please.
