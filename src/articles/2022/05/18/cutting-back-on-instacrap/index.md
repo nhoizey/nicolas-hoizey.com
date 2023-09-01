@@ -19,14 +19,14 @@ If you want to follow my photography work, I invite you to come directly to **my
 
 Here are a few screenshot of the experience you can expect, tailored to my needs and your viewing pleasure:
 
-![The home page](nicolas-hoizey-photo-site-01-home-page.png "The home page")
+![Screenshot of the home page](nicolas-hoizey-photo-site-01-home-page.png "The home page")
 
-![A category page](nicolas-hoizey-photo-site-02-category.png "A category page")
+![Screenshot of a category page](nicolas-hoizey-photo-site-02-category.png "A category page")
 
-![A photo page](nicolas-hoizey-photo-site-03-photo-page.png "A photo page")
+![Screenshot of a photo page](nicolas-hoizey-photo-site-03-photo-page.png "A photo page")
 
-![The map of all photos](nicolas-hoizey-photo-site-04-map.png "The map of all photos")
+![Screenshot of the page with a map of all photos](nicolas-hoizey-photo-site-04-map.png "The map of all photos")
 
-![The blog](nicolas-hoizey-photo-site-05-blog-post.png "The blog")
+![Screenshot of the blog page](nicolas-hoizey-photo-site-05-blog-post.png "The blog")
 
 Enjoy [the visit](https://nicolas-hoizey.photo/)!
