@@ -5,7 +5,7 @@ lang: en
 link: https://colorandcontrast.com/
 authors:
   - "Nate Baldwin"
-tags: [color, Design System, accessibility]
+tags: [colour, Design System, accessibility]
 ---
 
 Nate Baldwin created an amazing resource about colors, with interactive examples that help understand many concepts.
