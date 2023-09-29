@@ -58,6 +58,10 @@
     "twitter": "ohhelloana",
     "site": "https://ohhelloana.blog/"
   },
+  "Andrey Sitnik": {
+    "mastodon": "@sitnik_en@mastodon.social",
+    "site": "https://sitnik.ru/en/"
+  },
   "Andy Bell": {
     "twitter": "hankchizljaw",
     "mastodon": "@andy@bell.bz",
@@ -818,6 +822,9 @@
   "Toni Sagristà": {
     "mastodon": "@jumpinglangur@mastodon.social",
     "site": "https://tonisagrista.com/"
+  },
+  "Travis Turner": {
+    "site": "https://github.com/Travis-Turner"
   },
   "Trey Harris": {
     "twitter": "treyethan"
