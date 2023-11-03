@@ -10,5 +10,3 @@ I created a new page in [my photography site](https://nicolas-hoizey.photo) to s
 Do you think any other statistics could be interesting?
 
 This is of course using #Eleventy 's collections and filters, based on photo data stored in Markdown files.
-
-Bar graphs are built with HTML and CSS thanks to @ffoodd@mamot.fr 's Chaarts: <https://ffoodd.github.io/chaarts/>
