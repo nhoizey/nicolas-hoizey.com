@@ -1,6 +1,6 @@
 ---
 date: 2023-12-05 22:32:57 +00:00
-title: "Sizes="auto" pretty much requires width and height attributes"
+title: "Sizes=\"auto\" pretty much requires width and height attributes"
 lang: en
 link: https://ericportis.com/posts/2023/auto-sizes-pretty-much-requires-width-and-height/
 authors:
