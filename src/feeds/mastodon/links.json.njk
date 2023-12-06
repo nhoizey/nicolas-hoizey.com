@@ -14,7 +14,7 @@ permalink: /feeds/mastodon/links.json
       "id": "{{ absoluteEntryUrl }}",
       "url": "{{ absoluteEntryUrl }}",
       "lang": "{{ entry.data.lang }}",
-      "title": "🔗 {{ entry.data.title | safe }}",
+      "title": "🔗 {{ entry.data.title | escapeQuotes | safe }}",
       "date_published": "{{ entry.date | rssDate }}",
       "content_text": "🔗 “{{ entry.data.title | escapeQuotes(true) | safe }}”{% set by = false -%}
 {%- if entry.data.authors -%}
