@@ -1,13 +1,13 @@
 ---
-title:      Yahoo va fermer Pipes, et je suis bien malheureux
+title:      Yahoo! va fermer Pipes, et je suis bien malheureux
 date: 2015-06-09 12:00:00 +02:00
 lang:        fr
 tags:       [Yahoo, feed, Pinboard]
 ---
 
-[Yahoo a annoncé](http://pipes.yqlblog.net/post/120705592639/pipes-end-of-life-announcement) la fermeture prochaine de son service [Yahoo Pipes](http://pipes.yahoo.com/), que j'utilise au quotidien depuis 2007. Comment vais-je faire ?
+[Yahoo a annoncé](http://pipes.yqlblog.net/post/120705592639/pipes-end-of-life-announcement) la fermeture prochaine de son service [Yahoo! Pipes](http://pipes.yahoo.com/), que j'utilise au quotidien depuis 2007. Comment vais-je faire ?
 
-Entendons-nous bien, Yahoo Pipes bosse pour moi au quotidien, mais je ne vais dans son interface que de temps à autre, pour modifier un *Pipe* existant ou en créer un nouveau.
+Entendons-nous bien, Yahoo! Pipes bosse pour moi au quotidien, mais je ne vais dans son interface que de temps à autre, pour modifier un *Pipe* existant ou en créer un nouveau.
 
 # Un exemple
 
@@ -27,7 +27,7 @@ https://twitter.com/nhoizey/status/606834636120072192
 
 # Et maintenant ?
 
-Avec la disparition de Yahoo Pipes, j'ai plusieurs constructions de flux qui ne fonctionneront plus.
+Avec la disparition de Yahoo! Pipes, j'ai plusieurs constructions de flux qui ne fonctionneront plus.
 
 Pour certaines assez simples, je pourrais bien entendu faire un petit développement spécifique auto-hébergé, mais c'est laborieux et cela nécessite de la maintenance.
 
