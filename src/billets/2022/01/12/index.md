@@ -9,7 +9,10 @@ Voici donc le premier billet de mon tout nouveau journal, dont la publication se
 
 J'ai pas mal hésité sur le nom à donner à ce nouveau type de contenu sur mon site, « note » étant déjà pris pour des contenus courts plutôt en mode micro-blog. « billets » m'a paru pas mal, notamment parce qu'il indique bien la vocation francophone des contenus, là où « articles » et « notes » sont plus ouverts.
 
-J'ai aussi hésité à donner des titres à ces billets, mais l'idée sera plutôt de n'en avoir qu'un au plus par jour oùj'en publierai, et certains traiteront de plusieurs sujets, donc je n'ai pas prévu de titre pour l'instant, comme pour les notes.
+J'ai aussi hésité à donner des titres à ces billets, mais l'idée sera plutôt de
+n'en avoir qu'un au plus par jour où j'en publierai, et certains traiteront de
+plusieurs sujets, donc je n'ai pas prévu de titre pour l'instant, comme pour les
+notes.
 
 J'espère que ce nouveau journal sera l'occasion d'échanges plus réguliers avec les amis qui publient plus chez eux que sur les réseaux sociaux, en mode IndieWeb inter-sites.
 

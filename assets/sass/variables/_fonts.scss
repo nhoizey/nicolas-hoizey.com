@@ -1,8 +1,16 @@
 // Fonts
-$font-family-serif: Georgia, 'Times New Roman', Times, serif;
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-$font-family-monospace: 'Courier New', Courier, monospace;
+
+// https://github.com/system-fonts/modern-font-stacks#old-style
+$font-family-serif: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L',
+  P052, serif;
+
+// https://github.com/system-fonts/modern-font-stacks#humanist
+$font-family-sans-serif: Seravek, 'Gill Sans Nova', Ubuntu, Calibri,
+  'DejaVu Sans', source-sans-pro, sans-serif;
+
+// https://github.com/system-fonts/modern-font-stacks#monospace-code
+$font-family-monospace: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo,
+  Consolas, 'DejaVu Sans Mono', monospace;
 
 // Font sizes
 $base: 0.9rem;

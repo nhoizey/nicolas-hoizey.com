@@ -1,6 +1,8 @@
 @use 'variables/dimensions';
 
 .older-newer__shortcuts {
+  clear: right;
+
   display: none;
   justify-content: space-between;
 
