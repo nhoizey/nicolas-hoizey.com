@@ -83,7 +83,7 @@ permalink: /tools/algolia.json
     "type": "links",
     "lang": "{{ entry.data.lang }}",
     "surtitle": {{ authors | jsonify | safe }},
-		"title": "{{ entry.data.title | safe | orphans | safe }}",
+		"title": "{{ entry.data.title | escapeQuotes | safe | orphans | safe }}",
 		"date": {{ entry.date | timestamp }},
 		"date.lvl0": "{{ entry.date | year }}",
 		"date.lvl1": "{{ entry.date | year }} > {{ entry.date | month }}",
