@@ -136,6 +136,6 @@
   "private": true,
   "dependencies": {
     "algoliasearch": "^4.22.0",
-    "instantsearch.js": "^4.62.0"
+    "instantsearch.js": "^4.63.0"
   }
 }
