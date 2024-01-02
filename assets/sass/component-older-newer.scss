@@ -1,36 +1,38 @@
 @use 'variables/dimensions';
 
 .older-newer {
-  display: grid;
-  grid-template-areas:
-    'prev prev prev prev void1'
-    'void2 next next next next';
-  grid-template-columns: 5vw 1fr 10vw 1fr 5vw;
-  grid-row-gap: dimensions.$gap;
-  grid-column-gap: 0;
+  ul {
+    display: grid;
+    grid-template-areas:
+      'prev prev prev prev void1'
+      'void2 next next next next';
+    grid-template-columns: 5vw 1fr 10vw 1fr 5vw;
+    grid-row-gap: dimensions.$gap;
+    grid-column-gap: 0;
 
-  list-style-type: none;
-  padding-inline-start: 0;
+    list-style-type: none;
+    padding-inline-start: 0;
 
-  @media (min-width: 48rem) {
-    grid-template-areas: 'prev prev void next next';
-  }
+    @media (min-width: 48rem) {
+      grid-template-areas: 'prev prev void next next';
+    }
 
-  svg {
-    fill: none;
-    stroke: var(--color-primary-lighter-7);
-    stroke-width: 2px;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-  }
+    svg {
+      fill: none;
+      stroke: var(--color-primary-lighter-7);
+      stroke-width: 2px;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
 
-  .older-newer__older {
-    grid-area: prev;
-  }
+    .older-newer__older {
+      grid-area: prev;
+    }
 
-  .older-newer__newer {
-    grid-area: next;
+    .older-newer__newer {
+      grid-area: next;
 
-    justify-self: end;
+      justify-self: end;
+    }
   }
 }

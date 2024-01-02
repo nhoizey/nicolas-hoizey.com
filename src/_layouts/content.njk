@@ -116,30 +116,31 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
 {% set articleUrl = page.url %}
 {% include "components/reactions.njk" %}
 
-{% set cssFilename = "component-older-newer.css" %}
-{% include "add-css.njk" %}
-<ul class="older-newer">
-  <li class="older-newer__older">
-    {% if olderContent %}
-      <a href="{{ olderContent.url }}" class="button">
-        {% icon "older", "Older" %} Older: {{ olderContent.data.body.title | safe }}
-      </a>
-    {% endif %}
-  </li>
-  <li class="older-newer__newer">
-    {% if newerContent %}
-      <a href="{{ newerContent.url }}" class="button">
-        {% icon "newer", "Newer" %} Newer: {{ newerContent.data.body.title | safe }}
-      </a>
-    {% endif %}
-  </li>
-</ul>
+<section id="chronology" class="older-newer">
+  {% set cssFilename = "component-older-newer.css" %}
+  {% include "add-css.njk" %}
+  <ul>
+    <li class="older-newer__older">
+      {% if olderContent %}
+        <a href="{{ olderContent.url }}" class="button">
+          {% icon "older", "Older" %} Older: {{ olderContent.data.body.title | safe }}
+        </a>
+      {% endif %}
+    </li>
+    <li class="older-newer__newer">
+      {% if newerContent %}
+        <a href="{{ newerContent.url }}" class="button">
+          {% icon "newer", "Newer" %} Newer: {{ newerContent.data.body.title | safe }}
+        </a>
+      {% endif %}
+    </li>
+  </ul>
+</section>
 
 {# Other contents with common tags #}
 {% set tagsNumber = tags | length | min(2) %}
 {% set linkedContent = collections.archives | hasSomeTags(page.url, tagsNumber, tags) %}
 {% if linkedContent | length > 0 %}
-  <hr>
   <h2 id="related">Related content{{ 's' if linkedContent | length > 1 }} with similar topics</h2>
 
   {% from "macros/articleCard.njk" import articleCard %}
