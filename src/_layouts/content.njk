@@ -111,38 +111,29 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
     {% endif %}
   </div>
 
-  {% set cssFilename = "component-older-newer.css" %}
-  {% include "add-css.njk" %}
-  <ul class="older-newer__shortcuts">
-    <li class="older-newer__older">
-      {% if olderContent %}
-        <a href="{{ olderContent.url }}" aria-label="older {{ layout }}">{% icon "older", "Older" %}</a>
-      {% endif %}
-    </li>
-    <li class="older-newer__newer">
-      {% if newerContent %}
-        <a href="{{ newerContent.url }}" aria-label="newer {{ layout }}">{% icon "newer", "Newer" %}</a>
-      {% endif %}
-    </li>
-  </ul>
-  <ul class="older-newer">
-    <li class="older-newer__older">
-      {% if olderContent %}
-        {% icon "older", "Older" %} older {{ layout }}:<br />
-        <a href="{{ olderContent.url }}">{{ olderContent.data.body.title | safe }}</a>
-      {% endif %}
-    </li>
-    <li class="older-newer__newer">
-      {% if newerContent %}
-        {% icon "newer", "Newer" %} newer {{ layout }}:<br />
-        <a href="{{ newerContent.url }}">{{ newerContent.data.body.title | safe }}</a>
-      {% endif %}
-    </li>
-  </ul>
 </article>
 
 {% set articleUrl = page.url %}
 {% include "components/reactions.njk" %}
+
+{% set cssFilename = "component-older-newer.css" %}
+{% include "add-css.njk" %}
+<ul class="older-newer">
+  <li class="older-newer__older">
+    {% if olderContent %}
+      <a href="{{ olderContent.url }}" class="button">
+        {% icon "older", "Older" %} Older: {{ olderContent.data.body.title | safe }}
+      </a>
+    {% endif %}
+  </li>
+  <li class="older-newer__newer">
+    {% if newerContent %}
+      <a href="{{ newerContent.url }}" class="button">
+        {% icon "newer", "Newer" %} Newer: {{ newerContent.data.body.title | safe }}
+      </a>
+    {% endif %}
+  </li>
+</ul>
 
 {# Other contents with common tags #}
 {% set tagsNumber = tags | length | min(2) %}

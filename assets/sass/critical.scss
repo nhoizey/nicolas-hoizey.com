@@ -64,6 +64,7 @@ main {
   flex: 1;
 
   margin: 3 * dimensions.$gap 0 0;
+  --flow-space: 3rem;
 
   .wrap {
     @extend %flow;
@@ -536,6 +537,8 @@ sub {
 // ************************************************************
 
 article {
+  --flow-space: 1rem;
+
   .socialphoto {
     padding: 1em;
 

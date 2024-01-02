@@ -3,7 +3,9 @@
 .button:link,
 .button:visited,
 button {
-  padding: 0.1em 0.5em;
+  display: inline-block;
+
+  padding: 0.2em 0.5em;
 
   color: white;
   font-size: 0.9em;

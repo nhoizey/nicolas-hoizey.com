@@ -71,7 +71,7 @@
   --full-height: 100vh;
 }
 
-@supports(height: 100dvh) {
+@supports (height: 100dvh) {
   :root {
     --full-height: 100dvh;
   }

@@ -1,110 +1,24 @@
 @use 'variables/dimensions';
 
-.older-newer__shortcuts {
-  clear: right;
-
-  display: none;
-  justify-content: space-between;
-
-  padding: 0;
-
-  font-size: calc(1em + 2vw);
-
-  list-style-type: none;
-
-  @media (min-width: 75rem) and (min-height: 25rem) {
-    display: flex;
-
-    margin: 0;
-
-    .older-newer__older,
-    .older-newer__newer {
-      position: fixed;
-      top: 10rem;
-
-      transform-origin: 50% 50%;
-
-      transition-property: transform;
-      transition-timing-function: ease-in-out;
-      transition-duration: 0.2s;
-    }
-
-    .older-newer__older {
-      left: 2 * dimensions.$gap;
-
-      &:hover,
-      &:focus {
-        transform: rotate(-15deg);
-      }
-    }
-
-    .older-newer__newer {
-      right: 2 * dimensions.$gap;
-
-      &:hover,
-      &:focus {
-        transform: rotate(15deg);
-      }
-    }
-  }
-
-  a:link,
-  a:visited {
-    width: 1em;
-    height: 1em;
-    padding: 0.1em 0.2em;
-
-    color: #ccc;
-  }
-
-  a:hover,
-  a:focus {
-    color: var(--color-primary);
-
-    background-color: transparent;
-  }
-
-  svg {
-    width: 1em;
-    height: 1em;
-
-    fill: none;
-    stroke: currentColor;
-    stroke-width: 2px;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-  }
-}
-
 .older-newer {
   display: grid;
   grid-template-areas:
-    'prev prev'
-    'next next';
-  grid-template-columns: 1fr 1fr;
+    'prev prev prev prev void1'
+    'void2 next next next next';
+  grid-template-columns: 5vw 1fr 10vw 1fr 5vw;
   grid-row-gap: dimensions.$gap;
-  grid-column-gap: 5 * dimensions.$gap;
-
-  margin: 3em 0;
-  padding: dimensions.$gap;
-
-  column-gap: 5 * dimensions.$gap;
-
-  border: solid 1px var(--color-primary-lighter-3);
-  border-radius: 0.3em;
-
-  background-color: var(--color-primary-lighter-7);
+  grid-column-gap: 0;
 
   list-style-type: none;
-  row-gap: dimensions.$gap;
+  padding-inline-start: 0;
 
   @media (min-width: 48rem) {
-    grid-template-areas: 'prev next';
+    grid-template-areas: 'prev prev void next next';
   }
 
   svg {
     fill: none;
-    stroke: var(--color-primary);
+    stroke: var(--color-primary-lighter-7);
     stroke-width: 2px;
     stroke-linecap: round;
     stroke-linejoin: round;
