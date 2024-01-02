@@ -6,10 +6,19 @@ Disallow: /
 User-agent: ChatGPT-User
 Disallow: /
 
-User-agent: GPTBot
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: FacebookBot
 Disallow: /
 
 User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Omgili
 Disallow: /
 
 User-agent: Omgilibot
