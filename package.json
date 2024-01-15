@@ -50,7 +50,7 @@
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "@babel/core": "^7.23.7",
-    "@babel/preset-env": "^7.23.7",
+    "@babel/preset-env": "^7.23.8",
     "@jlengstorf/get-share-image": "^0.8.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@rollup/plugin-replace": "^3.1.0",
@@ -66,7 +66,7 @@
     "cssnano": "^5.1.15",
     "dotenv": "^10.0.0",
     "download": "^8.0.0",
-    "eleventy-plugin-embed-everything": "^1.18.1",
+    "eleventy-plugin-embed-everything": "^1.18.2",
     "eleventy-plugin-embed-tweet": "^0.3.3",
     "eleventy-plugin-images-responsiver": "^2.2.0",
     "eleventy-plugin-link_to": "^0.4.1",
@@ -135,7 +135,7 @@
   },
   "private": true,
   "dependencies": {
-    "algoliasearch": "^4.22.0",
+    "algoliasearch": "^4.22.1",
     "instantsearch.js": "^4.63.0"
   }
 }
