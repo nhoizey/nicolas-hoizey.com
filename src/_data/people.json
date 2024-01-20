@@ -645,6 +645,10 @@
   "Monica Dinculescu": {
     "twitter": "notwaldorf"
   },
+  "Mozilla": {
+    "mastodon": "@mozilla@mozilla.social",
+    "site": "https://www.mozilla.org/"
+  },
   "Natalie Weizenbaum": {
     "twitter": "nex3",
     "mastodon": "@nex3@mastodon.social"
