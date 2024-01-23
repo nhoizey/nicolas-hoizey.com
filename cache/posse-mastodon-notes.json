@@ -1181,6 +1181,9 @@
     "date_published": "2024-01-13T00:00:47Z",
     "content_text": "I added new ways to browse my photography website built with @eleventy@fosstodon.org.\n\nThere were already galleries, like the list of countries I visited in Europe for example: https://nicolas-hoizey.photo/galleries/travels/europe/\n\nNow, you can also see all photos from Europe at once, with 3 different sorting orders:\n- newest first\n- oldest first\n- by popularity (a secret mix of favorites/likes from Flickr, Pixelfed and webmentions, and downloads from Unsplash)\n\nEnjoy!\n\n#photography\n\n⚓️ https://nicolas-hoizey.com/notes/2024/01/13/1/",
     "attachments": [],
-    "toots": []
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/111806893369756602"
+    ],
+    "lastTootTimestamp": 1706037801775
   }
 }
