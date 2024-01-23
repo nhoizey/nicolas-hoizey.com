@@ -1,12 +1,12 @@
-name: "🔗 → 🐘 POSSE links to Mastodon"
+name: '🔗 → 🐘 POSSE links to Mastodon'
 on:
-  # schedule:
-  # https://crontab.guru/#37_1/3_*_*_*
-  # - cron: '37 1/3 * * *'
+  schedule:
+    # https://crontab.guru/#37_1/3_*_*_*
+    - cron: '37 1/3 * * *'
   workflow_dispatch:
 
 env:
-  TYPE: "links"
+  TYPE: 'links'
 
 concurrency:
   group: ${{ github.workflow }}
@@ -19,15 +19,17 @@ jobs:
     steps:
       - name: Checkout 📥
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PAT }}
 
       - name: POSSE ${{ env.TYPE }} to Mastodon 🦣
         uses: nhoizey/github-action-jsonfeed-to-mastodon@v1
         with:
-          feedUrl: "https://nicolas-hoizey.com/feeds/mastodon/${{ env.TYPE }}.json"
+          feedUrl: 'https://nicolas-hoizey.com/feeds/mastodon/${{ env.TYPE }}.json'
           mastodonInstance: ${{ secrets.MASTODON_INSTANCE }}
           mastodonToken: ${{ secrets.MASTODON_ACCESS_TOKEN }}
-          cacheFile: "posse-mastodon-${{ env.TYPE }}.json"
-          cacheTimestampFile: "posse-mastodon-${{ env.TYPE }}-timestamp.json"
+          cacheFile: 'posse-mastodon-${{ env.TYPE }}.json'
+          cacheTimestampFile: 'posse-mastodon-${{ env.TYPE }}-timestamp.json'
           # 3 hours between links
           globalDelayToots: 180
           nbTootsPerItem: 2

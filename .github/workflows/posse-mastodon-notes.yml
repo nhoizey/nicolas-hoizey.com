@@ -1,8 +1,8 @@
 name: '💬 → 🐘 POSSE notes to Mastodon'
 on:
-  # schedule:
-  # https://crontab.guru/#2/7_0-2,8-23_*_*_*
-  # - cron: "2/17 0-2,8-23 * * *"
+  schedule:
+    # https://crontab.guru/#2/7_0-2,8-23_*_*_*
+    - cron: '2/17 0-2,8-23 * * *'
   workflow_dispatch:
 
 env:
@@ -19,7 +19,8 @@ jobs:
     steps:
       - name: Checkout 📥
         uses: actions/checkout@v3
-
+        with:
+          token: ${{ secrets.PAT }}
       - name: POSSE ${{ env.TYPE }} to Mastodon 🦣
         uses: nhoizey/github-action-jsonfeed-to-mastodon@v1
         with:
