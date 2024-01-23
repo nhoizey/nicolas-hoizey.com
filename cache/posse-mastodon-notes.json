@@ -1159,5 +1159,28 @@
       "https://mamot.fr/users/nhoizey/statuses/111728383545900430"
     ],
     "lastTootTimestamp": 1704839836906
+  },
+  "https://nicolas-hoizey.com/notes/2024/01/21/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2024/01/21/1/",
+    "url": "https://nicolas-hoizey.com/notes/2024/01/21/1/",
+    "lang": "en",
+    "title": "💬 Note from 21 January 2024, 13:15",
+    "date_published": "2024-01-21T12:15:59Z",
+    "content_text": "- 5047 photos taken in a few minutes (up to 40 fps in burst mode 🤯)\n- 251 deemed good enough after initial triage\n- only 1 will be shared... 😅\n\n#wildlife #photography\n\n⚓️ https://nicolas-hoizey.com/notes/2024/01/21/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/111806817739211587"
+    ],
+    "lastTootTimestamp": 1706036647735
+  },
+  "https://nicolas-hoizey.com/notes/2024/01/13/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2024/01/13/1/",
+    "url": "https://nicolas-hoizey.com/notes/2024/01/13/1/",
+    "lang": "en",
+    "title": "💬 Note from 13 January 2024, 01:00",
+    "date_published": "2024-01-13T00:00:47Z",
+    "content_text": "I added new ways to browse my photography website built with @eleventy@fosstodon.org.\n\nThere were already galleries, like the list of countries I visited in Europe for example: https://nicolas-hoizey.photo/galleries/travels/europe/\n\nNow, you can also see all photos from Europe at once, with 3 different sorting orders:\n- newest first\n- oldest first\n- by popularity (a secret mix of favorites/likes from Flickr, Pixelfed and webmentions, and downloads from Unsplash)\n\nEnjoy!\n\n#photography\n\n⚓️ https://nicolas-hoizey.com/notes/2024/01/13/1/",
+    "attachments": [],
+    "toots": []
   }
 }
