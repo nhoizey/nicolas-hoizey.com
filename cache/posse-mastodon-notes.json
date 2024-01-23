@@ -1,0 +1,1163 @@
+{
+  "https://nicolas-hoizey.com/notes/2022/12/21/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2022/12/21/1/",
+    "url": "https://nicolas-hoizey.com/notes/2022/12/21/1/",
+    "lang": "en",
+    "title": "💬 Note from 21 December 2022, 20:03",
+    "date_published": "2022-12-21T19:03:53Z",
+    "content_text": "Same page tested on PageSpeed Insights over a few hours the same day, without anything modified, and the desktop scores vary from 19 to 59… 🤷‍♂️\n\nA lot of businesses rely on this crap to now if their site is \"fast\" enough for Google SEO! 😭\n\n#Google #Lighthouse #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2022/12/21/1/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2022/12/21/1/pagespeed-insight-scores.png",
+        "mime_type": "image/png",
+        "title": "Three different scores: 44, 59, 19"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/@nhoizey/109553245483640494"
+    ],
+    "lastTootTimestamp": 1672947258499
+  },
+  "https://nicolas-hoizey.com/notes/2022/12/18/2/": {
+    "id": "https://nicolas-hoizey.com/notes/2022/12/18/2/",
+    "url": "https://nicolas-hoizey.com/notes/2022/12/18/2/",
+    "lang": "en",
+    "title": "💬 Note from 18 December 2022, 21:34",
+    "date_published": "2022-12-18T20:34:29Z",
+    "content_text": "I wonder why there are not so many Web games using mostly HTML, CSS and #SVG for the UI, with all the #responsive power they have… 🤷‍♂️\n\nThis live demo is more than 6 years old: https://play.esviji.com/wow/\n\n(Remove `wow` at the end to really play… 😅)\n\n#esviji #game\n\n⚓️ https://nicolas-hoizey.com/notes/2022/12/18/2/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/@nhoizey/109536677137488284"
+    ],
+    "lastTootTimestamp": 1672947845421
+  },
+  "https://nicolas-hoizey.com/notes/2022/12/18/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2022/12/18/1/",
+    "url": "https://nicolas-hoizey.com/notes/2022/12/18/1/",
+    "lang": "en",
+    "title": "💬 Note from 18 December 2022, 19:21",
+    "date_published": "2022-12-18T18:21:17Z",
+    "content_text": "> going forward, Twitter will no longer allow free promotion of specific social media platforms on Twitter\n> — Twitter's promotion of alternative social platforms policy\n\nEmon Lusk is so afraid. 🥳\n\n#Twitter\n\n⚓️ https://nicolas-hoizey.com/notes/2022/12/18/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/@nhoizey/109536108994801227"
+    ],
+    "lastTootTimestamp": 1672949150564
+  },
+  "https://nicolas-hoizey.com/notes/2022/12/16/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2022/12/16/1/",
+    "url": "https://nicolas-hoizey.com/notes/2022/12/16/1/",
+    "lang": "en",
+    "title": "💬 Note from 16 December 2022, 18:36",
+    "date_published": "2022-12-16T17:36:47Z",
+    "content_text": "While we wait for browsers to implement the `text-wrap: balance;` #CSS property and value for text (pleeeeeease! 🙏), I may have created a silly — and probably sub-optimal — function to do it with HTML block elements:\n\nhttps://codepen.io/nhoizey/pen/mdjbrVx\n\nTell me what you think!\n\nBut why? Just because a colleague needed it, we could not find a solution in pure CSS, and I like challenges… 😅\n\n#Flexbox #JavaScript\n\n⚓️ https://nicolas-hoizey.com/notes/2022/12/16/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/@nhoizey/109524879057005804"
+    ],
+    "lastTootTimestamp": 1672943417318
+  },
+  "https://nicolas-hoizey.com/notes/2022/12/14/3/": {
+    "id": "https://nicolas-hoizey.com/notes/2022/12/14/3/",
+    "url": "https://nicolas-hoizey.com/notes/2022/12/14/3/",
+    "lang": "en",
+    "title": "💬 Note from 14 December 2022, 16:59",
+    "date_published": "2022-12-14T15:59:14Z",
+    "content_text": "In all #WebPerf reporting tools with graphs, I would like to be able to quickly set a preferred scale, or ignore certain values that I know are incorrect.\n\nExamples from Contentsquare/Dareboost and SpeedCurve…\n\n⚓️ https://nicolas-hoizey.com/notes/2022/12/14/3/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2022/12/14/3/graph-useless-scale-dareboost-contentsquare.png",
+        "mime_type": "image/png",
+        "title": "Screenshot of a Contentsquare/Dareboost graph with an incorrect value implying a useless scale"
+      },
+      {
+        "url": "https://nicolas-hoizey.com/notes/2022/12/14/3/graph-useless-scale-speedcurve.png",
+        "mime_type": "image/png",
+        "title": "Screenshot of a SpeedCurve graph with an incorrect value implying a useless scale"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/@nhoizey/109512986069913809"
+    ],
+    "lastTootTimestamp": 1672944940324
+  },
+  "https://nicolas-hoizey.com/notes/2022/12/14/2/": {
+    "id": "https://nicolas-hoizey.com/notes/2022/12/14/2/",
+    "url": "https://nicolas-hoizey.com/notes/2022/12/14/2/",
+    "lang": "en",
+    "title": "💬 Note from 14 December 2022, 13:56",
+    "date_published": "2022-12-14T12:56:37Z",
+    "content_text": "I needed a JavaScript way to verify if two arrays contain the same (all different) values.\n\nI then found a better solution for my use case, but it might be useful later, so here it is:\n\n```javascript\nconst sameValues = (array1, array2) =>\n  array1.length === array2.length &&\n  array1.every((element) => array2.includes(element));\n```\n\n#JavaScript\n\n⚓️ https://nicolas-hoizey.com/notes/2022/12/14/2/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/@nhoizey/109512217325909622"
+    ],
+    "lastTootTimestamp": 1672942701486
+  },
+  "https://nicolas-hoizey.com/notes/2022/12/14/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2022/12/14/1/",
+    "url": "https://nicolas-hoizey.com/notes/2022/12/14/1/",
+    "lang": "en",
+    "title": "💬 Note from 14 December 2022, 09:48",
+    "date_published": "2022-12-14T08:48:14Z",
+    "content_text": "It's pretty annoying to see the same toot repeatedly on @Mastodon@mastodon.social because everyone is boosting it, even if it's legitimately awesome.\n\nCurrently, a boost of a toot is only posted if at least 40 other toots have been posted since the previous boost of the same toot.\n\nThere is a GitHub issue asking to allow the user to change this number, or set a duration instead:\nhttps://github.com/mastodon/mastodon/issues/18693\n\nPlease vote!\n\n#UX\n\n⚓️ https://nicolas-hoizey.com/notes/2022/12/14/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/@nhoizey/109511286867385094"
+    ],
+    "lastTootTimestamp": 1672946191796
+  },
+  "https://nicolas-hoizey.com/notes/2022/12/13/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2022/12/13/1/",
+    "url": "https://nicolas-hoizey.com/notes/2022/12/13/1/",
+    "lang": "en",
+    "title": "💬 Note from 13 December 2022, 12:11",
+    "date_published": "2022-12-13T11:11:23Z",
+    "content_text": "⚠️ Be carefull if you use SVGO or SVGOMG to optimize #SVG images using `<symbol>`s.\n\nThere's a bug that might remove them when it shouldn't:\nhttps://github.com/svg/svgo/issues/1726\n\n#image #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2022/12/13/1/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2022/12/13/1/svgomg-inline-styles-symbol-bug.gif",
+        "mime_type": "image/gif",
+        "title": "Screencast of the bug in SVGOMG"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/@nhoizey/109506109498449814"
+    ],
+    "lastTootTimestamp": 1673016266750
+  },
+  "https://nicolas-hoizey.com/notes/2022/12/12/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2022/12/12/1/",
+    "url": "https://nicolas-hoizey.com/notes/2022/12/12/1/",
+    "lang": "en",
+    "title": "💬 Note from 12 December 2022, 10:51",
+    "date_published": "2022-12-12T09:51:19Z",
+    "content_text": "Of course we don't work on performance improvements only for Google, but the Search Console is our clients' main concern, so when it shows such a graph, it's satisfying for everyone! 🎉\n\n#CWV #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2022/12/12/1/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2022/12/12/1/google-search-console-core-web-vitals.png",
+        "mime_type": "image/png",
+        "title": "Screenshot of a graph from the Google Search Console showing a great improvement of Core Web Vitals"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/@nhoizey/109500200856680207"
+    ],
+    "lastTootTimestamp": 1673015794666
+  },
+  "https://nicolas-hoizey.com/notes/2022/12/05/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2022/12/05/1/",
+    "url": "https://nicolas-hoizey.com/notes/2022/12/05/1/",
+    "lang": "en",
+    "title": "💬 Note from 5 December 2022, 17:31",
+    "date_published": "2022-12-05T16:31:06Z",
+    "content_text": "I always forget how to extract the content of matching HTML tags with a REGEX, so here it is:\n\n```javascript\ncontent.match(/<pre>(((?!</pre>).)*)</pre>/gs)\n```\n\nIt uses negative lookahead.\n\n(I know I should use the DOM API instead… 🤷‍♂️)\n\n#regex\n\n⚓️ https://nicolas-hoizey.com/notes/2022/12/05/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/@nhoizey/109462149716423047"
+    ],
+    "lastTootTimestamp": 1673013146715
+  },
+  "https://nicolas-hoizey.com/notes/2022/11/30/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2022/11/30/1/",
+    "url": "https://nicolas-hoizey.com/notes/2022/11/30/1/",
+    "lang": "en",
+    "title": "💬 Note from 30 November 2022, 16:13",
+    "date_published": "2022-11-30T15:13:18Z",
+    "content_text": "When we say \"truncation is not a content strategy\", it's true also for design tokens names!\n\nI saw this is Shopify's Polaris Design System… 🤷‍♂️\n\n#DesignSystem #DesignTokens #Shopify #truncation\n\n⚓️ https://nicolas-hoizey.com/notes/2022/11/30/1/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2022/11/30/1/shopify-polaris-truncated-token-names.png",
+        "mime_type": "image/png",
+        "title": "3 design tokens have their names truncated, so they look the same"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/@nhoizey/109433476889824869"
+    ],
+    "lastTootTimestamp": 1672940921597
+  },
+  "https://nicolas-hoizey.com/notes/2022/11/26/2/": {
+    "id": "https://nicolas-hoizey.com/notes/2022/11/26/2/",
+    "url": "https://nicolas-hoizey.com/notes/2022/11/26/2/",
+    "lang": "en",
+    "title": "💬 Note from 26 November 2022, 11:52",
+    "date_published": "2022-11-26T10:52:18Z",
+    "content_text": "I'm still looking for an alternative to Forestry:\nhttps://forestry.io/blog/tina-cloud-the-next-forestry/\n\nAs Netlify doesn't seem to care for Netlify CMS anymore:\nhttps://answers.netlify.com/t/is-this-project-dead/70988/1\n\nA fork managed by a community might be a good solution, I'll keep an eye on it:\nhttps://staticjscms.netlify.app/\n\n#CMS #Forestry #Netlify\n\n⚓️ https://nicolas-hoizey.com/notes/2022/11/26/2/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/@nhoizey/109446736026335686"
+    ],
+    "lastTootTimestamp": 1672945537630
+  },
+  "https://nicolas-hoizey.com/notes/2022/11/26/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2022/11/26/1/",
+    "url": "https://nicolas-hoizey.com/notes/2022/11/26/1/",
+    "lang": "en",
+    "title": "💬 Note from 26 November 2022, 01:01",
+    "date_published": "2022-11-26T00:01:00Z",
+    "content_text": "My notes will now be push to Mastodon as toots, this feels great! 🎉\n\n#IndieWeb #Mastodon #POSSE\n\n⚓️ https://nicolas-hoizey.com/notes/2022/11/26/1/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2022/11/26/1/screenshot-mastodon-toot-from-my-own-site.png",
+        "mime_type": "image/png",
+        "title": "A screenshot of a toot where the application used to publish is \"nicolas-hoizey.com\""
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/@nhoizey/109448565897373232"
+    ],
+    "lastTootTimestamp": 1672943983222
+  },
+  "https://nicolas-hoizey.com/notes/2022/11/18/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2022/11/18/1/",
+    "url": "https://nicolas-hoizey.com/notes/2022/11/18/1/",
+    "lang": "en",
+    "title": "💬 Note from 18 November 2022, 17:34",
+    "date_published": "2022-11-18T16:34:14Z",
+    "content_text": "15 years ago… 🤷‍♂️\n\nhttps://twitter.com/nhoizey/status/77754112\n\nTwitter might not exist anymore soon, or change to the point I don't want to use it anymore.\n\nBut I’ve been on Mastodon for a few years now, and it’s great. Find me at https://mamot.fr/@nhoizey\n\n#Mastodon #Twitter\n\n⚓️ https://nicolas-hoizey.com/notes/2022/11/18/1/",
+    "attachments": [],
+    "toots": [
+      "https://mastodon.hsablonniere.com/users/test1g6a1g8x/statuses/109638349654294254"
+    ],
+    "lastTootTimestamp": 1672948450648
+  },
+  "https://nicolas-hoizey.com/notes/2022/11/07/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2022/11/07/1/",
+    "url": "https://nicolas-hoizey.com/notes/2022/11/07/1/",
+    "lang": "en",
+    "title": "💬 Note from 7 November 2022, 19:20",
+    "date_published": "2022-11-07T18:20:24Z",
+    "content_text": "I'm trying to use #Leonardo to create a real set of design tokens for the colors I currently use on https://nicolas-hoizey.photo but I didn't find how to set the background color to `#292929` instead of white… 🤷‍♂️\n\nhttps://leonardocolor.io/theme.html?name=nicolas-hoizey.photo&config=%7B%22baseScale%22%3A%22Gray%22%2C%22colorScales%22%3A%5B%7B%22name%22%3A%22Gray%22%2C%22colorKeys%22%3A%5B%22%23000000%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221.45%22%2C%222.05%22%2C%223.03%22%2C%224.54%22%2C%227%22%2C%2210.86%22%5D%2C%22smooth%22%3Afalse%7D%2C%7B%22name%22%3A%22Rebecca+Purple%22%2C%22colorKeys%22%3A%5B%22%23663399%22%5D%2C%22colorspace%22%3A%22HSL%22%2C%22ratios%22%3A%5B%221.45%22%2C%222.05%22%2C%223.03%22%2C%224.54%22%2C%227%22%2C%2210.86%22%5D%2C%22smooth%22%3Atrue%7D%5D%2C%22lightness%22%3A100%2C%22contrast%22%3A1.19%2C%22saturation%22%3A100%2C%22formula%22%3A%22wcag2%22%7D\n\n#DesignTokens\n\n⚓️ https://nicolas-hoizey.com/notes/2022/11/07/1/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2022/11/07/1/leonardo-color-background.png",
+        "mime_type": "image/png",
+        "title": "A screenshot of Leonardo UI with the background set to white"
+      }
+    ],
+    "toots": [
+      "https://mastodon.hsablonniere.com/users/test1g6a1g8x/statuses/109638087779372903"
+    ],
+    "lastTootTimestamp": 1672944454803
+  },
+  "https://nicolas-hoizey.com/notes/2022/11/06/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2022/11/06/1/",
+    "url": "https://nicolas-hoizey.com/notes/2022/11/06/1/",
+    "lang": "en",
+    "title": "💬 Note from 6 November 2022, 13:47",
+    "date_published": "2022-11-06T12:47:57Z",
+    "content_text": "https://twitter.com/vitalyf/status/1589206913463779328\n\nIn addition to prominent navigation options @vitalyf shows in his thread, I really like the horizontal overflow scrolling navigation, enhanced with @LeaVerou's scrolling shadows.\n\n#mobile #UX\n\n⚓️ https://nicolas-hoizey.com/notes/2022/11/06/1/",
+    "attachments": [],
+    "toots": [
+      "https://mastodon.hsablonniere.com/users/test1g6a1g8x/statuses/109642924692012454"
+    ],
+    "lastTootTimestamp": 1673018260186
+  },
+  "https://nicolas-hoizey.com/notes/2022/11/03/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2022/11/03/1/",
+    "url": "https://nicolas-hoizey.com/notes/2022/11/03/1/",
+    "lang": "en",
+    "title": "💬 Note from 3 November 2022, 10:19",
+    "date_published": "2022-11-03T09:19:51Z",
+    "content_text": "Do we really need to repeat that using an icons font is a bad idea?\n\nThis is @Mastodon@mastodon.social UI right now:\n\nFonts are not loaded because of an error (from a Service Worker?):\n\nVery welcoming for new Mastodon users… 😔\n\n#font #icon #UX\n\n⚓️ https://nicolas-hoizey.com/notes/2022/11/03/1/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2022/11/03/1/mastodon-social-icon-font-missing.png",
+        "mime_type": "image/png",
+        "title": "Icons missing in Mastodon UI"
+      },
+      {
+        "url": "https://nicolas-hoizey.com/notes/2022/11/03/1/mastodon-social-icon-font-loading-error.png",
+        "mime_type": "image/png",
+        "title": "NS_ERROR_INTERCEPTION_FAILED errors in Firefox network panel"
+      }
+    ],
+    "toots": [
+      "https://mastodon.hsablonniere.com/users/test1g6a1g8x/statuses/109642877344255692"
+    ],
+    "lastTootTimestamp": 1673017537742
+  },
+  "https://nicolas-hoizey.com/notes/2022/11/02/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2022/11/02/1/",
+    "url": "https://nicolas-hoizey.com/notes/2022/11/02/1/",
+    "lang": "en",
+    "title": "💬 Note from 2 November 2022, 22:07",
+    "date_published": "2022-11-02T21:07:46Z",
+    "content_text": "TIL `@​media not (min-width: 60rem) { … }` doesn't work in Safari, while it works in Chromium and Firefox.\n\nSafari requires a media type, like `all`.\n\nSo here's the \"right\" syntax:\n`@media not all and (min-width: 60rem) { … }`\n\n#CSS #responsive\n\n⚓️ https://nicolas-hoizey.com/notes/2022/11/02/1/",
+    "attachments": [],
+    "toots": [
+      "https://mastodon.hsablonniere.com/users/test1g6a1g8x/statuses/109642831418750803"
+    ],
+    "lastTootTimestamp": 1673016836961
+  },
+  "https://nicolas-hoizey.com/notes/2022/10/31/2/": {
+    "id": "https://nicolas-hoizey.com/notes/2022/10/31/2/",
+    "url": "https://nicolas-hoizey.com/notes/2022/10/31/2/",
+    "lang": "en",
+    "title": "💬 Note from 31 October 2022, 17:42",
+    "date_published": "2022-10-31T16:42:37Z",
+    "content_text": "Would it be useful to add a filter on linked authors to my links page?\n\nFor example, the most linked author is currently @zachleat 😁\nhttps://nicolas-hoizey.com/links/?query=Zach%2520Leatherman\n\n#search\n\n⚓️ https://nicolas-hoizey.com/notes/2022/10/31/2/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2022/10/31/2/links-search-zach-leatherman.jpg",
+        "mime_type": "image/jpg",
+        "title": "I already shared 6 links to Zach Leatherman's contents"
+      }
+    ],
+    "toots": [
+      "https://mastodon.hsablonniere.com/users/test1g6a1g8x/statuses/109638232665029935"
+    ],
+    "lastTootTimestamp": 1672946665514
+  },
+  "https://nicolas-hoizey.com/notes/2022/10/31/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2022/10/31/1/",
+    "url": "https://nicolas-hoizey.com/notes/2022/10/31/1/",
+    "lang": "en",
+    "title": "💬 Note from 31 October 2022, 00:42",
+    "date_published": "2022-10-30T23:42:37Z",
+    "content_text": "> There is not enough interest from the entire ecosystem to continue experimenting with JPEG XL — https://bugs.chromium.org/p/chromium/issues/detail?id=1178058#c84\n\nI can't believe this, #Chrome is really removing the support for JPEG XL we've been waiting for years! 😡\n\n#image #JPEGXL #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2022/10/31/1/",
+    "attachments": [],
+    "toots": [
+      "https://mastodon.hsablonniere.com/users/test1g6a1g8x/statuses/109637924912295033"
+    ],
+    "lastTootTimestamp": 1672941971716
+  },
+  "https://nicolas-hoizey.com/notes/2023/01/07/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/01/07/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/01/07/1/",
+    "lang": "en",
+    "title": "💬 Note from 7 January 2023, 01:47",
+    "date_published": "2023-01-07T00:47:25Z",
+    "content_text": "Which (stable, lightweight, maintained, etc.) npm package would you recommend to transform any RSS or Atom feeds to a standard JSON Feed format?\n\n#JavaScript #npm\n\n⚓️ https://nicolas-hoizey.com/notes/2023/01/07/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/109645202981772757"
+    ],
+    "lastTootTimestamp": 1673053024113
+  },
+  "https://nicolas-hoizey.com/notes/2023/01/13/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/01/13/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/01/13/1/",
+    "lang": "en",
+    "title": "💬 Note from 13 January 2023, 22:23",
+    "date_published": "2023-01-13T21:23:16Z",
+    "content_text": "For language changes inside a paragraph, MDN suggests we can use the `i` element:\n<https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i>\n\nThat's what I thought was one of the new use cases for `i`.\n\nA @w3c@w3c.social page about “Declaring language in HTML” (so @webi18n@w3c.social ?) says we should use a `span`, `div` or `bdi`:\n<https://www.w3.org/International/questions/qa-html-language-declarations.en#usingspan>\n\nSo no `i` after all?\n\n#HTML #language #MDN #W3C\n\n⚓️ https://nicolas-hoizey.com/notes/2023/01/13/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/109684123798213982"
+    ],
+    "lastTootTimestamp": 1673646908698
+  },
+  "https://nicolas-hoizey.com/notes/2023/01/23/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/01/23/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/01/23/1/",
+    "lang": "en",
+    "title": "💬 Note from 23 January 2023, 23:37",
+    "date_published": "2023-01-23T22:37:49Z",
+    "content_text": "Large photos in photo pages of my photography site are now progressive JPEGs so that you can see them earlier, even if they weight more than with AVIF or WebP:\n\nThanks to Cloudinary and my responsive images plugin for Eleventy, it took me 10 seconds! 😍\n\nI wish Google didn't kill JPEG XL… 😭\n\nI also wish Largest Contenful Paint didn't wait for the full progressive image to be downloaded and rendered.\n\n#image #performance #photography\n\n⚓️ https://nicolas-hoizey.com/notes/2023/01/23/1/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2023/01/23/1/nicolas-hoizey-photo-progressive-jpeg.jpg",
+        "mime_type": "image/jpg",
+        "title": "Screenshot of a page with a photo partially loaded"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/109740982797516411"
+    ],
+    "lastTootTimestamp": 1674514508473
+  },
+  "https://nicolas-hoizey.com/notes/2023/01/26/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/01/26/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/01/26/1/",
+    "lang": "en",
+    "title": "💬 Note from 26 January 2023, 15:40",
+    "date_published": "2023-01-26T14:40:52Z",
+    "content_text": "TIL `IntersectionObserver`'s `rootMargin` only works if the observer is in the same origin, because of privacy concerns:\n\n> There is a risk that the API may be used to probe for information about the geometry of the global viewport itself, which may be used to deduce the user’s hardware configuration.\n\nThat's why this demo of a sticky navigation doesn't work in CodePen's default view… 😞\n\n<https://codepen.io/nhoizey/pen/QWBrrKB>\n\n#IntersectionObserver #JavaScript #security\n\n⚓️ https://nicolas-hoizey.com/notes/2023/01/26/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/109756609117334978"
+    ],
+    "lastTootTimestamp": 1674752946906
+  },
+  "https://nicolas-hoizey.com/notes/2023/01/26/2/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/01/26/2/",
+    "url": "https://nicolas-hoizey.com/notes/2023/01/26/2/",
+    "lang": "en",
+    "title": "💬 Note from 26 January 2023, 22:14",
+    "date_published": "2023-01-26T21:14:06Z",
+    "content_text": "I updated the footer on <https://nicolas-hoizey.photo/> with nice icons for the other platforms where I publish photos, and the services I use to build and deploy the site.\n\nSome where hard to find, most were not optimized (thanks SGVOMG!).\n\nThe Pixelfed one is reaaaaaly heavy with all these gradients, masks and paths.\n\n#icon #SVG\n\n⚓️ https://nicolas-hoizey.com/notes/2023/01/26/2/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2023/01/26/2/photo-platforms.png",
+        "mime_type": "image/png",
+        "title": "Other platforms where I publish photos: Flickr, Unsplash, Mastodon, pixelfed, Locationscout"
+      },
+      {
+        "url": "https://nicolas-hoizey.com/notes/2023/01/26/2/site-building-and-hosting-services.png",
+        "mime_type": "image/png",
+        "title": "Services I use to build and deploy the site: Eleventy, Cloudinary, Netlify, Cloudflare"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/109757789574152185"
+    ],
+    "lastTootTimestamp": 1674770959257
+  },
+  "https://nicolas-hoizey.com/notes/2023/01/27/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/01/27/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/01/27/1/",
+    "lang": "en",
+    "title": "💬 Note from 27 January 2023, 12:02",
+    "date_published": "2023-01-27T11:02:40Z",
+    "content_text": "Fellow photographers, where in EXIF/IPTC meta data would you (or are you already) put a description of the photo?\n\nI'm not talking about the legend, more the description of the actual content of the image, how you would describe it to blind people.\n\nCouldn't find anything yet in Lightroom's UI.\n\n#photography\n\n⚓️ https://nicolas-hoizey.com/notes/2023/01/27/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/109761036549978764"
+    ],
+    "lastTootTimestamp": 1674820504129
+  },
+  "https://nicolas-hoizey.com/notes/2023/01/27/2/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/01/27/2/",
+    "url": "https://nicolas-hoizey.com/notes/2023/01/27/2/",
+    "lang": "en",
+    "title": "💬 Note from 27 January 2023, 18:14",
+    "date_published": "2023-01-27T17:14:06Z",
+    "content_text": "I have a client site with a header that is hidden when the user scrolls down, but shown again when the user scrolls up, which seems pretty comon nowadays.\n\nThis triggers some CLS, even if the hide/show is done in less than 500 ms, as “continuous interactions such as scrolls, drags, or pinch and zoom gestures are not considered ‘recent input’”. 😞\n\n#CLS #CoreWebVitals #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2023/01/27/2/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/109762452724725804"
+    ],
+    "lastTootTimestamp": 1674842113233
+  },
+  "https://nicolas-hoizey.com/notes/2023/01/31/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/01/31/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/01/31/1/",
+    "lang": "en",
+    "title": "💬 Note from 31 January 2023, 09:20",
+    "date_published": "2023-01-31T08:20:35Z",
+    "content_text": "Ok, so Mozilla won't help JPEG XL…\n\n> Overall, we don't see JPEG-XL performing enough better than its closest competitors (like AVIF) to justify addition on that basis alone. — https://github.com/mozilla/standards-positions/issues/522#issuecomment-1409539985\n\n😭\n\n#Firefox #image #JPEGXL #Mozilla #performance\n\n⚓️ https://nicolas-hoizey.com/notes/2023/01/31/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/109782978170977678"
+    ],
+    "lastTootTimestamp": 1675155306709
+  },
+  "https://nicolas-hoizey.com/notes/2023/01/31/2/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/01/31/2/",
+    "url": "https://nicolas-hoizey.com/notes/2023/01/31/2/",
+    "lang": "en",
+    "title": "💬 Note from 31 January 2023, 19:00",
+    "date_published": "2023-01-31T18:00:51Z",
+    "content_text": "Is there a way to fill webmention.io with mentions from the past?\n\nAsking for a friend… 😅\n\n#Webmention\n\n⚓️ https://nicolas-hoizey.com/notes/2023/01/31/2/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/109785337838503274"
+    ],
+    "lastTootTimestamp": 1675191312341
+  },
+  "https://nicolas-hoizey.com/notes/2023/02/02/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/02/02/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/02/02/1/",
+    "lang": "en",
+    "title": "💬 Note from 2 February 2023, 15:04",
+    "date_published": "2023-02-02T14:04:07Z",
+    "content_text": "With Twitter limiting access to the API to users with a paid account, I guess it's time to run #tweetback update one last time before closing my Twitter account…\n\n`npm run fetch-new-data`\n\nSee https://github.com/tweetback/tweetback/#fetch-additional-tweets-from-the-api-optional\n\n#API #Twitter\n\n⚓️ https://nicolas-hoizey.com/notes/2023/02/02/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/109795602391878902"
+    ],
+    "lastTootTimestamp": 1675347937057
+  },
+  "https://nicolas-hoizey.com/notes/2023/02/05/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/02/05/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/02/05/1/",
+    "lang": "en",
+    "title": "💬 Note from 5 February 2023, 20:20",
+    "date_published": "2023-02-05T19:20:04Z",
+    "content_text": "Firefox 110 will be released on February 14th, for all Container Queries lovers! 🥰\n\nhttps://caniuse.com/css-container-queries\n\n#ContainerQueries #CSS #Firefox\n\n⚓️ https://nicolas-hoizey.com/notes/2023/02/05/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/109814001965601763"
+    ],
+    "lastTootTimestamp": 1675628692250
+  },
+  "https://nicolas-hoizey.com/notes/2023/02/08/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/02/08/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/02/08/1/",
+    "lang": "en",
+    "title": "💬 Note from 8 February 2023, 18:31",
+    "date_published": "2023-02-08T17:31:27Z",
+    "content_text": "Chris Harrelson in a new message in this old thread about SMIL deprecation in Chromium:\n\n> SMIL was not deprecated and there are no plans to do so. It's still a supported feature in Chromium.\n\nYeah, really happy for https://play.esviji.com ! 🥰\n\n#animation #Chromium #esviji #SMIL #SVG\n\n⚓️ https://nicolas-hoizey.com/notes/2023/02/08/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/109830338209571284"
+    ],
+    "lastTootTimestamp": 1675877964202
+  },
+  "https://nicolas-hoizey.com/notes/2023/02/22/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/02/22/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/02/22/1/",
+    "lang": "en",
+    "title": "💬 Note from 22 February 2023, 11:51",
+    "date_published": "2023-02-22T10:51:44Z",
+    "content_text": "Seriously?\n\nWho still declares font types in the wrong order in `@font-face` declarations, leading to heavy `TTF` fonts always loaded? 😭\n\n#font #performance\n\n⚓️ https://nicolas-hoizey.com/notes/2023/02/22/1/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2023/02/22/1/css-font-face-wrong-order.png",
+        "mime_type": "image/png",
+        "title": "Screenshot of CSS code declaring a `@font-face` in the wrong order"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/109909390535052102"
+    ],
+    "lastTootTimestamp": 1677084207523
+  },
+  "https://nicolas-hoizey.com/notes/2023/02/20/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/02/20/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/02/20/1/",
+    "lang": "en",
+    "title": "💬 Note from 20 February 2023, 18:11",
+    "date_published": "2023-02-20T17:11:33Z",
+    "content_text": "TIL AVIF transformation is only available on #Cloudflare for images below 2 megapixels… 😭\n\nhttps://community.cloudflare.com/t/avif-size-limit/273724/5\n\nWe need JPEG XL! 🙏\n\n#AVIF #image #JPEGXL #performance\n\n⚓️ https://nicolas-hoizey.com/notes/2023/02/20/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/109909492530451262"
+    ],
+    "lastTootTimestamp": 1677085762657
+  },
+  "https://nicolas-hoizey.com/notes/2023/02/22/2/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/02/22/2/",
+    "url": "https://nicolas-hoizey.com/notes/2023/02/22/2/",
+    "lang": "en",
+    "title": "💬 Note from 22 February 2023, 22:48",
+    "date_published": "2023-02-22T21:48:33Z",
+    "content_text": "Is it useful to have releases in GitHub for projects that are always installed from npmjs? 🤔\n\nAsking for example for a pet project (which is also a mono-repo).\n\n- GitHub: <https://github.com/nhoizey/images-responsiver/releases>\n- npm:\n  - `images-responsiver`: <https://www.npmjs.com/package/images-responsiver>\n  - `eleventy-plugin-images-responsiver`: <https://www.npmjs.com/package/eleventy-plugin-images-responsiver>\n\n#GitHub #npm\n\n⚓️ https://nicolas-hoizey.com/notes/2023/02/22/2/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/109910670905993992"
+    ],
+    "lastTootTimestamp": 1677103743185
+  },
+  "https://nicolas-hoizey.com/notes/2023/02/22/3/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/02/22/3/",
+    "url": "https://nicolas-hoizey.com/notes/2023/02/22/3/",
+    "lang": "en",
+    "title": "💬 Note from 22 February 2023, 23:21",
+    "date_published": "2023-02-22T22:21:11Z",
+    "content_text": "In other news:\n\nMy @eleventy@fosstodon.org starter project is now using Eleventy 2.0! 🥳\n\n<https://pack11ty.dev>\n\nAnd my Eleventy plugin for responsive images based on standard Markdown syntax and usage of an image CDN/service is now compatible with Eleventy 2.0:\n\n<https://nhoizey.github.io/images-responsiver/eleventy-plugin-images-responsiver/>\n\n#Pack11ty\n\n⚓️ https://nicolas-hoizey.com/notes/2023/02/22/3/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/109910789282076442"
+    ],
+    "lastTootTimestamp": 1677105549557
+  },
+  "https://nicolas-hoizey.com/notes/2023/03/05/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/03/05/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/03/05/1/",
+    "lang": "en",
+    "title": "💬 Note from 5 March 2023, 12:57",
+    "date_published": "2023-03-05T11:57:38Z",
+    "content_text": "“Rogue One” is one of my favourite Star Wars movies.\n\n“Andor” is by far my preferred Star Wars live action TV series (I didn't see the animated ones).\n\nThis video from Spaceman explains why (⚠️ spoilers alert!):\n\nhttps://www.youtube.com/watch?v=rDzv250fEaE\n\n#StarWars #TV\n\n⚓️ https://nicolas-hoizey.com/notes/2023/03/05/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/109970684977439937"
+    ],
+    "lastTootTimestamp": 1678019485318
+  },
+  "https://nicolas-hoizey.com/notes/2023/03/07/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/03/07/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/03/07/1/",
+    "lang": "en",
+    "title": "💬 Note from 7 March 2023, 23:54",
+    "date_published": "2023-03-07T22:54:01Z",
+    "content_text": "Today: we finaly have a Pro account on WebPageTest so we'll be able to use all Opportunities & Experiments! 🥳\n\nAlso today, in WebPageTest header: \"Notice: WebPageTest's user account services are currently experiencing issues.\" 😭\n\n#WebPageTest #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2023/03/07/1/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2023/03/07/1/webpagetest-account-broken.png",
+        "mime_type": "image/png",
+        "title": "Screenshot of WebPageTest header with message \"Notice: WebPageTest's user account services are currently experiencing issues.\""
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/109984519407846372"
+    ],
+    "lastTootTimestamp": 1678230582251
+  },
+  "https://nicolas-hoizey.com/notes/2023/03/08/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/03/08/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/03/08/1/",
+    "lang": "en",
+    "title": "💬 Note from 8 March 2023, 22:31",
+    "date_published": "2023-03-08T21:31:01Z",
+    "content_text": "I've read the whole documentation for @eleventy@fosstodon.org's WebC components: <https://www.11ty.dev/docs/languages/webc/>\n\nTime to experiment, I guess!\n\n⚓️ https://nicolas-hoizey.com/notes/2023/03/08/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/109989888903629718"
+    ],
+    "lastTootTimestamp": 1678312513895
+  },
+  "https://nicolas-hoizey.com/notes/2023/03/10/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/03/10/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/03/10/1/",
+    "lang": "en",
+    "title": "💬 Note from 10 March 2023, 16:02",
+    "date_published": "2023-03-10T15:02:03Z",
+    "content_text": "Finally available on Apple Music! 🎧🥳\n\n“Radio Soulwax presents As Heard on Radio Soulwax, Pt. 2”\n\n<https://music.apple.com/fr/album/radio-soulwax-presents-as-heard-on-radio-soulwax-pt-2-dj-mix/1666746776>\n\n#music\n\n⚓️ https://nicolas-hoizey.com/notes/2023/03/10/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/109999617381423277"
+    ],
+    "lastTootTimestamp": 1678460962884
+  },
+  "https://nicolas-hoizey.com/notes/2023/03/13/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/03/13/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/03/13/1/",
+    "lang": "en",
+    "title": "💬 Note from 13 March 2023, 18:09",
+    "date_published": "2023-03-13T17:09:30Z",
+    "content_text": "The photo I use as my avatar everywhere is 10 years old, maybe it's time for an update? 🤔\n\n#me\n\n⚓️ https://nicolas-hoizey.com/notes/2023/03/13/1/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2023/03/13/1/nicolas-hoizey-portrait-2013-bretagne.jpg",
+        "mime_type": "image/jpg",
+        "title": "Portrait photo of Nicolas Hoizey, with hair lifted by the wind and a flashy light green coat"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110017193656617847"
+    ],
+    "lastTootTimestamp": 1678729151386
+  },
+  "https://nicolas-hoizey.com/notes/2023/03/16/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/03/16/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/03/16/1/",
+    "lang": "en",
+    "title": "💬 Note from 16 March 2023, 09:45",
+    "date_published": "2023-03-16T08:45:27Z",
+    "content_text": "TIL there are nullish coalescing operator (`??`) and assignment (`??=`) in many programming languages, including JavaScript.\n\nNever used them, always either using `||` or initialising variables with `undefined`.\n\nShould I refactor? 🤔\n\n#JavaScript\n\n⚓️ https://nicolas-hoizey.com/notes/2023/03/16/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110032119927138613"
+    ],
+    "lastTootTimestamp": 1678956908208
+  },
+  "https://nicolas-hoizey.com/notes/2023/03/21/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/03/21/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/03/21/1/",
+    "lang": "en",
+    "title": "💬 Note from 21 March 2023, 09:59",
+    "date_published": "2023-03-21T08:59:55Z",
+    "content_text": "Looks like Google likes it when we start improving websites performance! 🚀\n\n#CoreWebVitals #Google #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2023/03/21/1/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2023/03/21/1/google-search-console-web-vitals.png",
+        "mime_type": "image/png",
+        "title": "Screenshot of Google Search Console's Core Web Vitals report, with an increasing number of green pages"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110060604600904285"
+    ],
+    "lastTootTimestamp": 1679391549848
+  },
+  "https://nicolas-hoizey.com/notes/2023/03/23/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/03/23/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/03/23/1/",
+    "lang": "en",
+    "title": "💬 Note from 23 March 2023, 11:17",
+    "date_published": "2023-03-23T10:17:18Z",
+    "content_text": "Seriously, do we need yet another version of Low Quality Image Placeholders?\n\nWhy do some people want to do additional work just to show useless colourful pixels to users, delaying the rendering of the actual image?\n\nAs a user, I hate LQIP. Single colour backgrounds are fine, though.\n\n#image #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2023/03/23/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110072281746099488"
+    ],
+    "lastTootTimestamp": 1679569728915
+  },
+  "https://nicolas-hoizey.com/notes/2023/03/31/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/03/31/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/03/31/1/",
+    "lang": "en",
+    "title": "💬 Note from 31 March 2023, 18:56",
+    "date_published": "2023-03-31T16:56:45Z",
+    "content_text": "Each new feature/release makes me like Pixelfed a little less… 😞\n\nhttps://mastodon.social/@pixelfed/110117529562163633\n\nCloning Instacrap is not what I initialy thought Pixelfed would do.\n\nI guess I was right betting on my own website instead of Pixelfed after all: <https://nicolas-hoizey.photo>\n\n#photography #Pixelfed\n\n⚓️ https://nicolas-hoizey.com/notes/2023/03/31/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110118996476386985"
+    ],
+    "lastTootTimestamp": 1680282539143
+  },
+  "https://nicolas-hoizey.com/notes/2023/03/31/2/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/03/31/2/",
+    "url": "https://nicolas-hoizey.com/notes/2023/03/31/2/",
+    "lang": "en",
+    "title": "💬 Note from 31 March 2023, 19:20",
+    "date_published": "2023-03-31T17:20:25Z",
+    "content_text": "Is it ok to be proud to almost be in the top 25,000 of The WebAIM Million, the 2023 report on the accessibility of the top 1,000,000 home pages? ☺️\n\nWith \"Number of accessibility errors detected: 0\", my personal site is ranked #25,406 of the top 1,000,000 home pages.\n\n#accessibility #WebAIM\n\n⚓️ https://nicolas-hoizey.com/notes/2023/03/31/2/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2023/03/31/2/webaim-million-2023.png",
+        "mime_type": "image/png",
+        "title": "Screenshot of my personal site rank in The WebAIM Million: 25,406 of 1,000,000"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110119115729461165"
+    ],
+    "lastTootTimestamp": 1680284359090
+  },
+  "https://nicolas-hoizey.com/notes/2023/04/03/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/04/03/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/04/03/1/",
+    "lang": "en",
+    "title": "💬 Note from 3 April 2023, 12:54",
+    "date_published": "2023-04-03T10:54:50Z",
+    "content_text": "I'm so happy to go soon to We ❤️ Speed 2023, the list of speakers and talks is amazing! 😍\n\nhttps://www.welovespeed.com/2023/interventions/\n\n#conference #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2023/04/03/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110134566860245206"
+    ],
+    "lastTootTimestamp": 1680520124692
+  },
+  "https://nicolas-hoizey.com/notes/2023/04/07/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/04/07/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/04/07/1/",
+    "lang": "en",
+    "title": "💬 Note from 7 April 2023, 13:59",
+    "date_published": "2023-04-07T11:59:13Z",
+    "content_text": "Chrome 113 beta adds support for `@​media (update: slow)` (Firefox already has it), great to remove some animations.\n\nBut can we `@​supports` a `@media` to use it only if supported? I don't think so.\n\nHow do you use new `@media` features progressively?\n\n#animation #CSS\n\n⚓️ https://nicolas-hoizey.com/notes/2023/04/07/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110157540011093897"
+    ],
+    "lastTootTimestamp": 1680870667204
+  },
+  "https://nicolas-hoizey.com/notes/2023/04/07/2/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/04/07/2/",
+    "url": "https://nicolas-hoizey.com/notes/2023/04/07/2/",
+    "lang": "en",
+    "title": "💬 Note from 7 April 2023, 19:17",
+    "date_published": "2023-04-07T17:17:26Z",
+    "content_text": "Some things I wish people mentioned when writing about @eleventy@fosstodon.org usage, moreover concerning assets bundling (Sass, JavaScript, etc.):\n\n- Does it run only once per asset, or once per template where the asset is used?\n- Does it run before or after HTML is generated?\n- Does it manage hashes for cache busting?\n\nThis is really important for sites with many contents/pages, build speed, and site performance.\n\n⚓️ https://nicolas-hoizey.com/notes/2023/04/07/2/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110158935366216718"
+    ],
+    "lastTootTimestamp": 1680891958296
+  },
+  "https://nicolas-hoizey.com/notes/2023/04/13/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/04/13/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/04/13/1/",
+    "lang": "en",
+    "title": "💬 Note from 13 April 2023, 10:40",
+    "date_published": "2023-04-13T08:40:23Z",
+    "content_text": "I love @speedcurve@webperf.social's simple and efficient Core Web Vitals Real User Monitoring, especially when everything is green! 🥳\n\nThis is a real e-commerce site, with many real users everyday. After a few months of performance optimisation.\n\n#CoreWebVitals #RUM #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2023/04/13/1/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2023/04/13/1/SpeedCurve-RUM-dashboard.png",
+        "mime_type": "image/png",
+        "title": "Screenshot of graphs for last week's Core Web Vitals in SpeedCurve Real User Monitoring"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110190664558817839"
+    ],
+    "lastTootTimestamp": 1681376107347
+  },
+  "https://nicolas-hoizey.com/notes/2023/04/14/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/04/14/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/04/14/1/",
+    "lang": "en",
+    "title": "💬 Note from 14 April 2023, 22:13",
+    "date_published": "2023-04-14T20:13:21Z",
+    "content_text": "I still don't understand why using Cloudflare in front of Netlify allows for a much better and stable Time To First Byte (TTFB) than Cloudflare Pages or Netlify alone… 🤷‍♂️\n\nTTFB for static sites should always be very low.\n\n#Cloudflare #Netlify #TTFB #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2023/04/14/1/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2023/04/14/1/SpeedCurve-TTFB-Netlify-Cloudflare.png",
+        "mime_type": "image/png",
+        "title": "SpeedCurve graph with Time To First Byte for the 3 hosting solutions"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110199037137560540"
+    ],
+    "lastTootTimestamp": 1681503862720
+  },
+  "https://nicolas-hoizey.com/notes/2023/04/23/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/04/23/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/04/23/1/",
+    "lang": "en",
+    "title": "💬 Note from 23 April 2023, 22:46",
+    "date_published": "2023-04-23T20:46:55Z",
+    "content_text": "I'm really honored to see my article about running CSS animations only if both the device and the user allow it being mentioned in the 99th episode of Stefan Judis' great Web Weekly newsletter! 🥰\n\n#CSS\n\n⚓️ https://nicolas-hoizey.com/notes/2023/04/23/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110253123603174793"
+    ],
+    "lastTootTimestamp": 1682329156922
+  },
+  "https://nicolas-hoizey.com/notes/2023/05/06/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/05/06/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/05/06/1/",
+    "lang": "en",
+    "title": "💬 Note from 6 May 2023, 19:40",
+    "date_published": "2023-05-06T17:40:55Z",
+    "content_text": "Is it ok to use Workbox's `injectManifest` with the recent recipes `warmCache` option?\n\nI tried this without success in the Service Worker in Pack11ty:\n\n```javascript\nstaticResourceCache({\n  warmCache: self.__WB_MANIFEST,\n});\n```\n\nOther caches are warmed up, not this one.\n\n#ServiceWorker #Workbox\n\n⚓️ https://nicolas-hoizey.com/notes/2023/05/06/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110323791036093387"
+    ],
+    "lastTootTimestamp": 1683407456226
+  },
+  "https://nicolas-hoizey.com/notes/2023/05/12/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/05/12/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/05/12/1/",
+    "lang": "en",
+    "title": "💬 Note from 12 May 2023, 18:10",
+    "date_published": "2023-05-12T16:10:34Z",
+    "content_text": "Why would anyone use the `path` package from npm instead of Node’s `path` module?\n\nhttps://www.npmjs.com/package/path\n\nJust found it in one of my own projects, where I'm the only contributor… 😅\n\n#Node #npm\n\n⚓️ https://nicolas-hoizey.com/notes/2023/05/12/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110356757335043333"
+    ],
+    "lastTootTimestamp": 1683910481915
+  },
+  "https://nicolas-hoizey.com/notes/2023/05/13/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/05/13/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/05/13/1/",
+    "lang": "en",
+    "title": "💬 Note from 13 May 2023, 18:29",
+    "date_published": "2023-05-13T16:29:06Z",
+    "content_text": "If someone is creating service workers with #Workbox recipes and injectManifest, a build with #esbuild, and doesn't have any issues, I'm interested! 😅\n\nI have a very strange issue:\n\nhttps://github.com/GoogleChrome/workbox/issues/3207\n\nBonus points if this is with @eleventy@fosstodon.org\n\n#ServiceWorker\n\n⚓️ https://nicolas-hoizey.com/notes/2023/05/13/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110362352736160039"
+    ],
+    "lastTootTimestamp": 1683995861111
+  },
+  "https://nicolas-hoizey.com/notes/2023/05/16/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/05/16/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/05/16/1/",
+    "lang": "en",
+    "title": "💬 Note from 16 May 2023, 10:39",
+    "date_published": "2023-05-16T08:39:45Z",
+    "content_text": "Limiting the image density on mobile devices drasticaly improves performance, with no visual loss, so we did it!\n\nI still wish it was much easier than dealing with `<picture>` and `x` descriptors for fluid images… 😞\n\nWith a `<img maxdensity=\"2.5\" …>` attribute for example!\n\nIf you agree, comment:\nhttps://github.com/whatwg/html/issues/4421\n\n#CoreWebVitals #image #LCP #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2023/05/16/1/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2023/05/16/1/webperf-core-web-vitals-largest-contentful-paint-lcp.png",
+        "mime_type": "image/png",
+        "title": "Graph of performance monitoring showing a great improvement of LCP"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110377686562424455"
+    ],
+    "lastTootTimestamp": 1684229836633
+  },
+  "https://nicolas-hoizey.com/notes/2023/05/18/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/05/18/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/05/18/1/",
+    "lang": "en",
+    "title": "💬 Note from 18 May 2023, 12:01",
+    "date_published": "2023-05-18T10:01:48Z",
+    "content_text": "TIL: `a:link` in CSS doesn't match `a` elements without any `href` attribute! 😲\n\nhttps://codepen.io/nhoizey/pen/dyggeOJ\n\nIt makes sense, but I never use `a` elements without `href` attributes (different from `#` of course), so I didn't know… 🤷‍♂️\n\n#CSS\n\n⚓️ https://nicolas-hoizey.com/notes/2023/05/18/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110389231289644527"
+    ],
+    "lastTootTimestamp": 1684405995166
+  },
+  "https://nicolas-hoizey.com/notes/2023/05/24/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/05/24/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/05/24/1/",
+    "lang": "en",
+    "title": "💬 Note from 24 May 2023, 12:52",
+    "date_published": "2023-05-24T10:52:09Z",
+    "content_text": "Do you know good tutorials and/or examples about dealing with responsive images that are fluid horizontaly, but with a fixed height?\n\nUsing `object-fit: cover;` in the CSS is easy, but how can we prevent loading many pixels that will be hidden, without using too many `<source>` in a `<picture>`?\n\n#CSS #image #responsive #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2023/05/24/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110423328342416505"
+    ],
+    "lastTootTimestamp": 1684926274944
+  },
+  "https://nicolas-hoizey.com/notes/2023/05/24/2/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/05/24/2/",
+    "url": "https://nicolas-hoizey.com/notes/2023/05/24/2/",
+    "lang": "en",
+    "title": "💬 Note from 24 May 2023, 18:06",
+    "date_published": "2023-05-24T16:06:15Z",
+    "content_text": "I really like to see that all browser vendors agree with @scottjehl@mstdn.social that we need `@​media`, `srcset` and `sizes` for `<video>` as for `<img>`/`<picture>`! 🤩\n\nhttps://github.com/whatwg/html/issues/6363\n\n#responsive #video #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2023/05/24/2/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110424703028978987"
+    ],
+    "lastTootTimestamp": 1684947252212
+  },
+  "https://nicolas-hoizey.com/notes/2023/05/31/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/05/31/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/05/31/1/",
+    "lang": "en",
+    "title": "💬 Note from 31 May 2023, 10:24",
+    "date_published": "2023-05-31T08:24:32Z",
+    "content_text": "Oh… you need to quickly start a new @eleventy@fosstodon.org project on your computer?\n\nAsuming you already have `npm` installed, here's how to use my Pack11ty starter/plugin:\n\n```shell\nnpm create pack11ty@latest your-project-name\n```\n\nEasy enough? 😁\n\nDetails on https://pack11ty.dev with other solutions for Netlify, Vercel, StackBlitz, etc.\n\n#npm #Pack11ty\n\n⚓️ https://nicolas-hoizey.com/notes/2023/05/31/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110462451378453903"
+    ],
+    "lastTootTimestamp": 1685523245083
+  },
+  "https://nicolas-hoizey.com/notes/2023/05/31/2/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/05/31/2/",
+    "url": "https://nicolas-hoizey.com/notes/2023/05/31/2/",
+    "lang": "en",
+    "title": "💬 Note from 31 May 2023, 11:09",
+    "date_published": "2023-05-31T09:09:33Z",
+    "content_text": "Who still thinks writing a Service Worker for basic features (performance with cache, offline fallback) is cumbersome?\n\nUsing #Workbox recipes make it so easy!\n\nHere's the Service Worker for https://pack11ty.dev 😍\n\nhttps://github.com/nhoizey/pack11ty/blob/main/src/assets/js/service-worker.js\n\n#PWA #ServiceWorker\n\n⚓️ https://nicolas-hoizey.com/notes/2023/05/31/2/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110462561438948394"
+    ],
+    "lastTootTimestamp": 1685524928760
+  },
+  "https://nicolas-hoizey.com/notes/2023/05/31/3/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/05/31/3/",
+    "url": "https://nicolas-hoizey.com/notes/2023/05/31/3/",
+    "lang": "en",
+    "title": "💬 Note from 31 May 2023, 12:36",
+    "date_published": "2023-05-31T10:36:35Z",
+    "content_text": "General question about synthetic performance monitoring:\n\nHow do you define the device/network settings of your tests?\n\n- Do you use low end devices / bad network to easily detect issues?\n- Or do you try to be close to your RUM data, to have more predictability when you deploy changes?\n\nI usualy do the former, but I think both could be useful.\n\n#WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2023/05/31/3/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110462923209344859"
+    ],
+    "lastTootTimestamp": 1685530444618
+  },
+  "https://nicolas-hoizey.com/notes/2023/06/02/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/06/02/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/06/02/1/",
+    "lang": "en",
+    "title": "💬 Note from 2 June 2023, 00:33",
+    "date_published": "2023-06-01T22:33:28Z",
+    "content_text": "Looks like `<link rel=\"preconnect\" …>` will start working again in Firefox 115! 🥳\n\nhttps://bugzilla.mozilla.org/show_bug.cgi?id=1543990#c26\n\n#Firefox #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2023/06/02/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110471416845423273"
+    ],
+    "lastTootTimestamp": 1685660047238
+  },
+  "https://nicolas-hoizey.com/notes/2023/06/06/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/06/06/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/06/06/1/",
+    "lang": "en",
+    "title": "💬 Note from 6 June 2023, 02:08",
+    "date_published": "2023-06-06T00:08:33Z",
+    "content_text": "Looks like we will soon have JPEG XL in Safari! 🥳\n\nhttps://developer.apple.com/videos/play/wwdc2023/10122/\n\n#image #JPEGXL #Safari #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2023/06/06/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110494567198213799"
+    ],
+    "lastTootTimestamp": 1686013294429
+  },
+  "https://nicolas-hoizey.com/notes/2023/06/06/2/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/06/06/2/",
+    "url": "https://nicolas-hoizey.com/notes/2023/06/06/2/",
+    "lang": "en",
+    "title": "💬 Note from 6 June 2023, 09:40",
+    "date_published": "2023-06-06T07:40:35Z",
+    "content_text": "Apparently, an image whose part above the fold is indeed the largest, but of which only a small part can be seen, can be considered an LCP element, even if another image has a larger part visible... 😭\n\nYou can see this for my photography site in this WebPageTest result:\n\nhttps://www.webpagetest.org/vitals.php?test=230606_BiDcN4_4NJ&run=3&cached=0#lcp\n\n#CoreWebVitals #image #LCP #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2023/06/06/2/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2023/06/06/2/webpagetest-lcp-hidden-image.jpg",
+        "mime_type": "image/jpg",
+        "title": "Screenshot from WebPageTest showing the image mostly hidden behind another one is the LCP"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110496230467676162"
+    ],
+    "lastTootTimestamp": 1686038673078
+  },
+  "https://nicolas-hoizey.com/notes/2023/06/12/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/06/12/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/06/12/1/",
+    "lang": "en",
+    "title": "💬 Note from 12 June 2023, 15:55",
+    "date_published": "2023-06-12T13:55:47Z",
+    "content_text": "The `media` attribute is back into the spec for `<video>`'s `<source>`! 🥳\n\nhttps://github.com/whatwg/html/pull/9341\n\nLet's hope `srcset` and `sizes` come next, but this needs a new issue:\nhttps://github.com/whatwg/html/issues/6363#issuecomment-1564464346\n\n#HTML #responsive #video\n\n⚓️ https://nicolas-hoizey.com/notes/2023/06/12/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110531619502648319"
+    ],
+    "lastTootTimestamp": 1686578666925
+  },
+  "https://nicolas-hoizey.com/notes/2023/06/14/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/06/14/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/06/14/1/",
+    "lang": "en",
+    "title": "💬 Note from 14 June 2023, 09:07",
+    "date_published": "2023-06-14T07:07:59Z",
+    "content_text": "I'm really worried about #WebPageTest, right now… 🤨\n\n#WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2023/06/14/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110541530377711944"
+    ],
+    "lastTootTimestamp": 1686729894841
+  },
+  "https://nicolas-hoizey.com/notes/2023/06/20/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/06/20/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/06/20/1/",
+    "lang": "en",
+    "title": "💬 Note from 20 June 2023, 19:16",
+    "date_published": "2023-06-20T17:16:30Z",
+    "content_text": "Cloudflare in “Faster website, more customers: Cloudflare Observatory can help your business grow”:\n\n> The generated report provides an overall performance score ranging from 1 (least performant) to <mark>99 (most performant)</mark>\n\nFirst try on my photography site: 100 🤷‍♂️😅\n\nJoke aside, new tools to audit performance are always welcome!\n\n#Cloudflare #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2023/06/20/1/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2023/06/20/1/cloudflare-observatory-score-100.png",
+        "mime_type": "image/png",
+        "title": "Screenshot of Cloudflare Observatory showing a 100 score"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110577755392331797"
+    ],
+    "lastTootTimestamp": 1687282645609
+  },
+  "https://nicolas-hoizey.com/notes/2023/06/21/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/06/21/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/06/21/1/",
+    "lang": "en",
+    "title": "💬 Note from 21 June 2023, 18:44",
+    "date_published": "2023-06-21T16:44:52Z",
+    "content_text": "Who would have thought linking to another Web page was so difficult… 🤷‍♂️\n\nhttps://github.com/storybookjs/storybook/issues/8618\n\n#DesignSystem #React #Storybook\n\n⚓️ https://nicolas-hoizey.com/notes/2023/06/21/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110583356650191478"
+    ],
+    "lastTootTimestamp": 1687368113130
+  },
+  "https://nicolas-hoizey.com/notes/2023/07/25/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/07/25/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/07/25/1/",
+    "lang": "en",
+    "title": "💬 Note from 25 July 2023, 19:05",
+    "date_published": "2023-07-25T17:05:14Z",
+    "content_text": "This is so great that @cloudcannon@techhub.social is now sponsoring @eleventy@fosstodon.org, and hiring @zachleat@zachleat.com as a Developer Advocate! 🥳\n\nhttps://cloudcannon.com/blog/cloudcannon-the-official-cms-partner-of-eleventy/\n\n⚓️ https://nicolas-hoizey.com/notes/2023/07/25/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110776947853015067"
+    ],
+    "lastTootTimestamp": 1690322080770
+  },
+  "https://nicolas-hoizey.com/notes/2023/10/30/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/10/30/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/10/30/1/",
+    "lang": "en",
+    "title": "💬 Note from 30 October 2023, 10:24",
+    "date_published": "2023-10-30T09:24:03Z",
+    "content_text": "I love (some) boring @speedcurve@webperf.social graphs… 😅\n\n#CLS #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2023/10/30/1/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2023/10/30/1/speedcurve-graph-cls-0.png",
+        "mime_type": "image/png",
+        "title": "Screenshot of a CLS graph from SpeedCurve showing one year of value zero"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/111323292447716516"
+    ],
+    "lastTootTimestamp": 1698658637345
+  },
+  "https://nicolas-hoizey.com/notes/2023/11/02/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/11/02/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/11/02/1/",
+    "lang": "en",
+    "title": "💬 Note from 2 November 2023, 21:01",
+    "date_published": "2023-11-02T20:01:08Z",
+    "content_text": "I created a new page in my photography site to show some statistics about the settings used to shoot the photos I share there: apertures, focal lengths, ISOs, shutter speeds.\n\n<https://nicolas-hoizey.photo/statistics/>\n\nDo you think any other statistics could be interesting?\n\nThis is of course using @eleventy@fosstodon.org 's collections and filters, based on photo data stored in Markdown files.\n\n#photography\n\n⚓️ https://nicolas-hoizey.com/notes/2023/11/02/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/111343721036097274"
+    ],
+    "lastTootTimestamp": 1698970352893
+  },
+  "https://nicolas-hoizey.com/notes/2023/11/03/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/11/03/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/11/03/1/",
+    "lang": "en",
+    "title": "💬 Note from 3 November 2023, 12:55",
+    "date_published": "2023-11-03T11:55:21Z",
+    "content_text": "Let's say a SPA first load has been optimized with SSR and the LCP image is loaded pretty fast because it's in the HTML.\n\nBut the JavaScript then builds a carousel in the DOM, which initially shows the very same image.\n\nI guess there's a second render of the image. How can I check this easily?\n\nWould it make sense that the LCP takes the late second render of the image, instead of the fast first one?\n\n#image #LCP #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2023/11/03/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/111346611350576962"
+    ],
+    "lastTootTimestamp": 1699014457933
+  },
+  "https://nicolas-hoizey.com/notes/2023/11/23/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/11/23/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/11/23/1/",
+    "lang": "en",
+    "title": "💬 Note from 23 November 2023, 09:52",
+    "date_published": "2023-11-23T08:52:32Z",
+    "content_text": "I wonder if MDN could add screenshots of the live examples, so people can see the result even if their browser doesn't support a feature yet.\n\nFor example for CSS Grid masonry layout:\n<https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Masonry_layout>\n\nI'm using Firefox, so I had to activate the `layout.css.grid-template-masonry-value.enabled` flag to see the “good” result.\n\n#CSS #Grid #MDN\n\n⚓️ https://nicolas-hoizey.com/notes/2023/11/23/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/111459059738683393"
+    ],
+    "lastTootTimestamp": 1700730281795
+  },
+  "https://nicolas-hoizey.com/notes/2023/12/01/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/12/01/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/12/01/1/",
+    "lang": "en",
+    "title": "💬 Note from 1 December 2023, 09:35",
+    "date_published": "2023-12-01T08:35:34Z",
+    "content_text": "Turbo Pascal is 40!\n\nhttps://mastodon.social/@nixCraft/111502805010199174\n\nI created my first game with Turbo Pascal, back in 1986, thanks to TO7/70 computers available in my collège when I was in 3e (high school's 9th grade in the US).\n\nThe game was a lot like Flappy Bird! 😁\n\n#development\n\n⚓️ https://nicolas-hoizey.com/notes/2023/12/01/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/111504358017647349"
+    ],
+    "lastTootTimestamp": 1701421478701
+  },
+  "https://nicolas-hoizey.com/notes/2023/12/21/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/12/21/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/12/21/1/",
+    "lang": "en",
+    "title": "💬 Note from 21 December 2023, 11:38",
+    "date_published": "2023-12-21T10:38:14Z",
+    "content_text": "> I believe that some companies get blinded by new tech, get high on their own supply, and that can result in work that is destructive instead of restorative. — <https://aftermath.site/true-lies-4k-uhd-blu-ray-james-cameron-peter-jackson-park-road-post>\n\nIs that a metaphor for the overuse of JavaScript frameworks/libraries where plain old HTML/CSS/JS would be much better?\n\n#cinema #movie\n\n⚓️ https://nicolas-hoizey.com/notes/2023/12/21/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/111618074740116077"
+    ],
+    "lastTootTimestamp": 1703156658154
+  },
+  "https://nicolas-hoizey.com/notes/2024/01/09/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2024/01/09/1/",
+    "url": "https://nicolas-hoizey.com/notes/2024/01/09/1/",
+    "lang": "en",
+    "title": "💬 Note from 9 January 2024, 09:40",
+    "date_published": "2024-01-09T08:40:40Z",
+    "content_text": "Is it worth it maintaining a #TWA version of my responsive puzzle game esviji in Google Play Store?\n\nhttps://play.google.com/store/apps/details?id=com.esviji.twa\n\nGoogle requires periodic “artificial life support” to check the app is still relevant: API version update, app links from websites, developer account, etc.\n\nThe #PWA version has been available and installable on its own domain for years,\nwithout any required maintenance:\n\nhttps://play.esviji.com\n\n#esviji #game #store\n\n⚓️ https://nicolas-hoizey.com/notes/2024/01/09/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/111725382793296937"
+    ],
+    "lastTootTimestamp": 1704794049120
+  },
+  "https://nicolas-hoizey.com/notes/2024/01/09/2/": {
+    "id": "https://nicolas-hoizey.com/notes/2024/01/09/2/",
+    "url": "https://nicolas-hoizey.com/notes/2024/01/09/2/",
+    "lang": "en",
+    "title": "💬 Note from 9 January 2024, 23:25",
+    "date_published": "2024-01-09T22:25:09Z",
+    "content_text": "OMG! OMG! OMG! 😱\n\nI have to finish reading the 3rd volume of The Three-Body Problem)[^actually] before the series starts, it looks awesome! 😍\n\nhttps://www.youtube.com/watch?v=mogSbMD6EcY\n\n[^actually]: Actually, the awesome novel series is titled Remembrance of Earth's Past, The Three-Body Problem is the first volume.\n\n#book #series #TV\n\n⚓️ https://nicolas-hoizey.com/notes/2024/01/09/2/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/111728383545900430"
+    ],
+    "lastTootTimestamp": 1704839836906
+  }
+}

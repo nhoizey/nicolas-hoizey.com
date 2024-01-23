@@ -1,0 +1,37 @@
+name: "💬 → 🐘 POSSE notes to Mastodon"
+on:
+  schedule:
+    # https://crontab.guru/#2/7_0-2,8-23_*_*_*
+    - cron: "2/17 0-2,8-23 * * *"
+  workflow_dispatch:
+
+env:
+  TYPE: "notes"
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+jobs:
+  Mastodon:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout 📥
+        uses: actions/checkout@v3
+
+      - name: POSSE ${{ env.TYPE }} to Mastodon 🦣
+        uses: nhoizey/github-action-jsonfeed-to-mastodon@v1
+        with:
+          feedUrl: "https://nicolas-hoizey.com/feeds/mastodon/${{ env.TYPE }}.json"
+          mastodonInstance: ${{ secrets.MASTODON_INSTANCE }}
+          mastodonToken: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+          cacheFile: "posse-mastodon-${{ env.TYPE }}.json"
+          cacheTimestampFile: "posse-mastodon-${{ env.TYPE }}-timestamp.json"
+          globalDelayToots: 10
+
+      - name: Pull any changes from Git 📥
+        run: git pull
+
+      - name: Commit and push 📤
+        uses: stefanzweifel/git-auto-commit-action@v4

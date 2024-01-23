@@ -1,0 +1,326 @@
+{
+  "https://nicolas-hoizey.com/articles/2022/05/18/cutting-back-on-instacrap/": {
+    "id": "https://nicolas-hoizey.com/articles/2022/05/18/cutting-back-on-instacrap/",
+    "url": "https://nicolas-hoizey.com/articles/2022/05/18/cutting-back-on-instacrap/",
+    "lang": "en",
+    "title": "🖋 Cutting back on Instacrap",
+    "date_published": "2022-05-18T16:23:01Z",
+    "content_text": "🖋 “Cutting back on Instacrap”\n\nI've been disliking for a long time that Instagram is a closed platform, more so in the hands of Facebook. I additionally now really dislike that they are doing everything to resemble TikTok, by prioritizing video more and more, at the expense of photography.\n\n#photography #Pixelfed #Flickr \n\n⚓️ https://nicolas-hoizey.com/articles/2022/05/18/cutting-back-on-instacrap/",
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1673101984113
+  },
+  "https://nicolas-hoizey.com/articles/2021/02/25/accessible-anchor-links-with-markdown-it-and-eleventy/": {
+    "id": "https://nicolas-hoizey.com/articles/2021/02/25/accessible-anchor-links-with-markdown-it-and-eleventy/",
+    "url": "https://nicolas-hoizey.com/articles/2021/02/25/accessible-anchor-links-with-markdown-it-and-eleventy/",
+    "lang": "en",
+    "title": "🖋 Accessible anchor links with Markdown-it and Eleventy",
+    "date_published": "2021-02-25T21:08:34Z",
+    "content_text": "🖋 “Accessible anchor links with Markdown-it and Eleventy”\n\nI like to be able to link directly to a section in a long content. I wish every site provided anchor links associated to headings, even if Text Fragments might be a cross browser thing sometimes in the future. Here's how I made the anchor links of my Eleventy based site accessible.\n\n#accessibility #Eleventy \n\n⚓️ https://nicolas-hoizey.com/articles/2021/02/25/accessible-anchor-links-with-markdown-it-and-eleventy/",
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1673101984113
+  },
+  "https://nicolas-hoizey.com/articles/2020/11/02/enhancing-archives-navigation-step-2/": {
+    "id": "https://nicolas-hoizey.com/articles/2020/11/02/enhancing-archives-navigation-step-2/",
+    "url": "https://nicolas-hoizey.com/articles/2020/11/02/enhancing-archives-navigation-step-2/",
+    "lang": "en",
+    "title": "🖋 Enhancing archives navigation, step 2",
+    "date_published": "2020-11-01T22:55:51Z",
+    "content_text": "🖋 “Enhancing archives navigation, step 2”\n\nIn my previous article Enhancing archives navigation, step 1, I promised further archives navigation enhancements. Here they are!\n\n#Eleventy #UX #Algolia \n\n⚓️ https://nicolas-hoizey.com/articles/2020/11/02/enhancing-archives-navigation-step-2/",
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1673101984113
+  },
+  "https://nicolas-hoizey.com/articles/2020/10/26/enhancing-archives-navigation-step-1/": {
+    "id": "https://nicolas-hoizey.com/articles/2020/10/26/enhancing-archives-navigation-step-1/",
+    "url": "https://nicolas-hoizey.com/articles/2020/10/26/enhancing-archives-navigation-step-1/",
+    "lang": "en",
+    "title": "🖋 Enhancing archives navigation, step 1",
+    "date_published": "2020-10-26T14:16:23Z",
+    "content_text": "🖋 “Enhancing archives navigation, step 1”\n\nI decided years ago to remove paged navigation (aka “pagination”), because I find it not user friendly at all, and a nightmare for SEO with new content pushing one tenth of contents to another page (for a 10 items per page pagination). Now, I improved the UX even further.\n\n#Eleventy #UX \n\n⚓️ https://nicolas-hoizey.com/articles/2020/10/26/enhancing-archives-navigation-step-1/",
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1673101984113
+  },
+  "https://nicolas-hoizey.com/articles/2020/10/15/how-i-build-my-svg-sprites/": {
+    "id": "https://nicolas-hoizey.com/articles/2020/10/15/how-i-build-my-svg-sprites/",
+    "url": "https://nicolas-hoizey.com/articles/2020/10/15/how-i-build-my-svg-sprites/",
+    "lang": "en",
+    "title": "🖋 How I build my SVG sprites",
+    "date_published": "2020-10-14T22:02:19Z",
+    "content_text": "🖋 “How I build my SVG sprites”\n\nI'm using an SVG sprite on this site to make sure I don't repeat SVG code for icons that are used multiple times, and I inline it so the rendering doesn't depend on another resource loading. Here's how I build this sprite from individual SVG icons.\n\n#SVG #WebPerf #Node \n\n⚓️ https://nicolas-hoizey.com/articles/2020/10/15/how-i-build-my-svg-sprites/",
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1673101984113
+  },
+  "https://nicolas-hoizey.com/articles/2020/05/29/identify-which-apache-rewrite-rules-are-used/": {
+    "id": "https://nicolas-hoizey.com/articles/2020/05/29/identify-which-apache-rewrite-rules-are-used/",
+    "url": "https://nicolas-hoizey.com/articles/2020/05/29/identify-which-apache-rewrite-rules-are-used/",
+    "lang": "en",
+    "title": "🖋 Identify which Apache rewrite rules are used",
+    "date_published": "2020-05-29T10:13:01Z",
+    "content_text": "🖋 “Identify which Apache rewrite rules are used”\n\nI have many rewrite rules in my Apache configuration for redirections, some dating from more than 15 years ago. So I wanted to know which ones are really useful, because there's maybe some cleaning to do. I'll explain here how I got the list.\n\n#Apache #shell \n\n⚓️ https://nicolas-hoizey.com/articles/2020/05/29/identify-which-apache-rewrite-rules-are-used/",
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1673101984113
+  },
+  "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/": {
+    "id": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+    "url": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+    "lang": "en",
+    "title": "🖋 JAMstack is fast only if you make it so",
+    "date_published": "2020-05-05T10:13:01Z",
+    "content_text": "🖋 “JAMstack is fast only if you make it so”\n\nJAMstack often promotes itself as an excellent way to provide performant sites. It's even the first listed benefit on jamstack.wtf, a “guide [which] gathers the concept of JAMstack in a straight-forward guide to encourage other developers to adopt the workflow”. But too many JAMstack sites are very slow.\n\n#JAMstack #WebPerf #API #Webmention \n\n⚓️ https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1673101984113
+  },
+  "https://nicolas-hoizey.com/articles/2020/03/06/updating-npm-packages-versions-in-package-json/": {
+    "id": "https://nicolas-hoizey.com/articles/2020/03/06/updating-npm-packages-versions-in-package-json/",
+    "url": "https://nicolas-hoizey.com/articles/2020/03/06/updating-npm-packages-versions-in-package-json/",
+    "lang": "en",
+    "title": "🖋 Updating npm packages versions in package.json",
+    "date_published": "2020-03-06T10:13:01Z",
+    "content_text": "🖋 “Updating npm packages versions in package.json”\n\nI chose to use `npm-check-updates` to check for available updates of packages in my `package.json` files, and it always works without issues, so I guess I can recommend it. I'm also using this as a reminder for my own use… 😁\n\n#Node #npm \n\n⚓️ https://nicolas-hoizey.com/articles/2020/03/06/updating-npm-packages-versions-in-package-json/",
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1673101984113
+  },
+  "https://nicolas-hoizey.com/articles/2020/01/10/can-we-monitor-user-happiness-on-the-web-with-performance-tools/": {
+    "id": "https://nicolas-hoizey.com/articles/2020/01/10/can-we-monitor-user-happiness-on-the-web-with-performance-tools/",
+    "url": "https://nicolas-hoizey.com/articles/2020/01/10/can-we-monitor-user-happiness-on-the-web-with-performance-tools/",
+    "lang": "en",
+    "title": "🖋 Can we monitor User Happiness on the Web with performance tools?",
+    "date_published": "2020-01-10T10:13:01Z",
+    "content_text": "🖋 “Can we monitor User Happiness on the Web with performance tools?”\n\nI really like that SpeedCurve tried to innovate with this recent “User Happiness ” metric (original version ). It aggregates multiple technical metrics to decide if users visiting the page are happy or not with it. But I see several issues in this metric.\n\n#WebPerf #SpeedCurve \n\n⚓️ https://nicolas-hoizey.com/articles/2020/01/10/can-we-monitor-user-happiness-on-the-web-with-performance-tools/",
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1673101984113
+  },
+  "https://nicolas-hoizey.com/articles/2019/04/19/how-the-boeing-737-max-disaster-looks-to-a-software-developer/": {
+    "id": "https://nicolas-hoizey.com/articles/2019/04/19/how-the-boeing-737-max-disaster-looks-to-a-software-developer/",
+    "url": "https://nicolas-hoizey.com/articles/2019/04/19/how-the-boeing-737-max-disaster-looks-to-a-software-developer/",
+    "lang": "en",
+    "title": "🖋 How the Boeing 737 Max Disaster Looks to a Software Developer",
+    "date_published": "2019-04-19T10:00:00Z",
+    "content_text": "🖋 “How the Boeing 737 Max Disaster Looks to a Software Developer”\n\nExperienced plane pilot and software developer Gregory Travis explains in details what led to Boeing 737 Max recent disasters in this long article: How the Boeing 737 Max Disaster Looks to a Software Developer.\n\n#KISS \n\n⚓️ https://nicolas-hoizey.com/articles/2019/04/19/how-the-boeing-737-max-disaster-looks-to-a-software-developer/",
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1673101984113
+  },
+  "https://nicolas-hoizey.com/articles/2018/10/24/100000-tweets/": {
+    "id": "https://nicolas-hoizey.com/articles/2018/10/24/100000-tweets/",
+    "url": "https://nicolas-hoizey.com/articles/2018/10/24/100000-tweets/",
+    "lang": "en",
+    "title": "🖋 100000 tweets",
+    "date_published": "2018-10-24T10:00:00Z",
+    "content_text": "🖋 “100000 tweets”\n\n100000 tweets. Already! Only? A little more than 11 years on Twitter, since I signed up May 25th 2007, and today I post my 100000th tweet. A lot have changed on Twitter, and it has brought me a lot of great things.\n\n#Twitter \n\n⚓️ https://nicolas-hoizey.com/articles/2018/10/24/100000-tweets/",
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1673101984113
+  },
+  "https://nicolas-hoizey.com/articles/2018/10/02/the-treasure-behind-the-castle-walls/": {
+    "id": "https://nicolas-hoizey.com/articles/2018/10/02/the-treasure-behind-the-castle-walls/",
+    "url": "https://nicolas-hoizey.com/articles/2018/10/02/the-treasure-behind-the-castle-walls/",
+    "lang": "en",
+    "title": "🖋 The treasure behind the castle walls",
+    "date_published": "2018-10-02T10:00:00Z",
+    "content_text": "🖋 “The treasure behind the castle walls”\n\nPile up enough treasure behind the castle walls and you'll eventually attract someone who can climb them.\n\n#security #quote #Pinboard \n\n⚓️ https://nicolas-hoizey.com/articles/2018/10/02/the-treasure-behind-the-castle-walls/",
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1673101984113
+  },
+  "https://nicolas-hoizey.com/articles/2018/08/01/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video/": {
+    "id": "https://nicolas-hoizey.com/articles/2018/08/01/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video/",
+    "url": "https://nicolas-hoizey.com/articles/2018/08/01/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video/",
+    "lang": "en",
+    "title": "🖋 Using Cloudinary to convert an animated GIF to a video",
+    "date_published": "2018-08-01T10:00:00Z",
+    "content_text": "🖋 “Using Cloudinary to convert an animated GIF to a video”\n\nI like animated GIFs, like most people these days I think, but they are really heavy, hurting the performance of web pages, and consuming data plans faster than should be needed. So we need to convert them to videos, which are much lighter, for the same visual result. Let's use Cloudinary.\n\n#video #GIF #Cloudinary #WebPerf \n\n⚓️ https://nicolas-hoizey.com/articles/2018/08/01/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video/",
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1673101984113
+  },
+  "https://nicolas-hoizey.com/articles/2018/07/17/lapeyre-y-en-a-pas-deux-j-espere/": {
+    "id": "https://nicolas-hoizey.com/articles/2018/07/17/lapeyre-y-en-a-pas-deux-j-espere/",
+    "url": "https://nicolas-hoizey.com/articles/2018/07/17/lapeyre-y-en-a-pas-deux-j-espere/",
+    "lang": "fr",
+    "title": "🖋 Lapeyre, y'en a pas deux. J'espère !",
+    "date_published": "2018-07-17T10:00:00Z",
+    "content_text": "🖋 “Lapeyre, y'en a pas deux. J'espère !”\n\nJe ne sais pas si vous avez déjà été confronté au SAV de Lapeyre, mais je peux vous dire qu'il vaut son pesant de cacahuètes.\n\n#SAV #fail \n\n⚓️ https://nicolas-hoizey.com/articles/2018/07/17/lapeyre-y-en-a-pas-deux-j-espere/",
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1673101984113
+  },
+  "https://nicolas-hoizey.com/articles/2018/07/11/could-a-macbook-pro-replace-a-mac-mini/": {
+    "id": "https://nicolas-hoizey.com/articles/2018/07/11/could-a-macbook-pro-replace-a-mac-mini/",
+    "url": "https://nicolas-hoizey.com/articles/2018/07/11/could-a-macbook-pro-replace-a-mac-mini/",
+    "lang": "en",
+    "title": "🖋 Could a MacBook Pro replace a Mac mini?",
+    "date_published": "2018-07-11T10:00:00Z",
+    "content_text": "🖋 “Could a MacBook Pro replace a Mac mini?”\n\nI'm fed up with waiting for an updated Mac mini, but I need to replace one that is 10 years old (yes, 10 years!), so I'm considering other options.\n\n#Apple #Mac \n\n⚓️ https://nicolas-hoizey.com/articles/2018/07/11/could-a-macbook-pro-replace-a-mac-mini/",
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1673101984113
+  },
+  "https://nicolas-hoizey.com/articles/2018/07/02/leaving-500px/": {
+    "id": "https://nicolas-hoizey.com/articles/2018/07/02/leaving-500px/",
+    "url": "https://nicolas-hoizey.com/articles/2018/07/02/leaving-500px/",
+    "lang": "en",
+    "title": "🖋 Leaving 500px",
+    "date_published": "2018-07-02T10:00:00Z",
+    "content_text": "🖋 “Leaving 500px”\n\n500px once was a light in the dark, when Flickr stopped evolving, years ago. But 500px gradually descended from its pedestal, as decisions were made against users' interests.\n\n#photography #500px \n\n⚓️ https://nicolas-hoizey.com/articles/2018/07/02/leaving-500px/",
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1673101984113
+  },
+  "https://nicolas-hoizey.com/articles/2018/06/15/users-do-change-font-size/": {
+    "id": "https://nicolas-hoizey.com/articles/2018/06/15/users-do-change-font-size/",
+    "url": "https://nicolas-hoizey.com/articles/2018/06/15/users-do-change-font-size/",
+    "lang": "en",
+    "title": "🖋 Users DO change font size",
+    "date_published": "2018-06-15T10:00:00Z",
+    "content_text": "🖋 “Users DO change font size”\n\nEvan Minto wrote a great article showing the Internet Archive has tested the actual root font-size set by their visitors, and the result shows a lot of people still change the default one: Pixels vs. Ems: Users DO Change Font Size.\n\n#accessibility #font #em \n\n⚓️ https://nicolas-hoizey.com/articles/2018/06/15/users-do-change-font-size/",
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1673101984113
+  },
+  "https://nicolas-hoizey.com/articles/2018/05/22/contextes-opquast/": {
+    "id": "https://nicolas-hoizey.com/articles/2018/05/22/contextes-opquast/",
+    "url": "https://nicolas-hoizey.com/articles/2018/05/22/contextes-opquast/",
+    "lang": "fr",
+    "title": "🖋 Contextes Opquast",
+    "date_published": "2018-05-22T10:00:00Z",
+    "content_text": "🖋 “Contextes Opquast”\n\nJ'adore me tromper… Non, j’adore apprendre de mes erreurs, surtout si ça peut aider d’autres à apprendre en même temps.\n\n#Opquast #quality \n\n⚓️ https://nicolas-hoizey.com/articles/2018/05/22/contextes-opquast/",
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1673101984113
+  },
+  "https://nicolas-hoizey.com/articles/2018/05/17/twitter-search/": {
+    "id": "https://nicolas-hoizey.com/articles/2018/05/17/twitter-search/",
+    "url": "https://nicolas-hoizey.com/articles/2018/05/17/twitter-search/",
+    "lang": "en",
+    "title": "🖋 Twitter search",
+    "date_published": "2018-05-17T10:00:00Z",
+    "content_text": "🖋 “Twitter search”\n\nTwitter search finds this tweet with from:nhoizey to:tapbots but not with from:nhoizey to:tweetbot…\n\n📅 17 May 2018\n\n#Twitter \n\n⚓️ https://nicolas-hoizey.com/articles/2018/05/17/twitter-search/",
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1673101984113
+  },
+  "https://nicolas-hoizey.com/articles/2018/03/30/optimiser-la-performance-des-images-responsives/": {
+    "id": "https://nicolas-hoizey.com/articles/2018/03/30/optimiser-la-performance-des-images-responsives/",
+    "url": "https://nicolas-hoizey.com/articles/2018/03/30/optimiser-la-performance-des-images-responsives/",
+    "lang": "fr",
+    "title": "🖋 Optimiser la performance des images responsives",
+    "date_published": "2018-03-30T10:00:00Z",
+    "content_text": "🖋 “Optimiser la performance des images responsives”\n\nJ'ai eu l'honneur de présenter une petite conférence lors du meetup WebPerf de mars 2018, sur un sujet qui me passionne, puisqu'il combine deux de mes marottes en Web front : la WebPerf et les images en Responsive Web Design. Je vous invite à découvrir mes slides et la vidéo.\n\n📅 30 March 2018\n\n#responsive #image #WebPerf \n\n⚓️ https://nicolas-hoizey.com/articles/2018/03/30/optimiser-la-performance-des-images-responsives/",
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1673101984113
+  },
+  "https://nicolas-hoizey.com/articles/2023/01/07/let-s-posse-to-mastodon-with-a-json-feed-and-a-github-action/": {
+    "id": "https://nicolas-hoizey.com/articles/2023/01/07/let-s-posse-to-mastodon-with-a-json-feed-and-a-github-action/",
+    "url": "https://nicolas-hoizey.com/articles/2023/01/07/let-s-posse-to-mastodon-with-a-json-feed-and-a-github-action/",
+    "lang": "en",
+    "title": "🖋 Let's POSSE to Mastodon with a JSON Feed and a GitHub Action",
+    "date_published": "2023-01-07T12:49:09Z",
+    "content_text": "🖋 “Let's POSSE to Mastodon with a JSON Feed and a GitHub Action”\n\nAfter building a Node script for my own POSSE needs, I thought it would be good if other people could also use it. I knew not many people would be able to use the script as-is, so I built a GitHub Action that is much simpler to use, without losing any feature, even gaining some!\n\n#IndieWeb #POSSE #Mastodon #JSONFeed #GitHub \n\n⚓️ https://nicolas-hoizey.com/articles/2023/01/07/let-s-posse-to-mastodon-with-a-json-feed-and-a-github-action/",
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/109648473982824878"
+    ],
+    "lastTootTimestamp": 1673102935666
+  },
+  "https://nicolas-hoizey.com/articles/2023/02/05/updating-webmentions-on-a-static-site/": {
+    "id": "https://nicolas-hoizey.com/articles/2023/02/05/updating-webmentions-on-a-static-site/",
+    "url": "https://nicolas-hoizey.com/articles/2023/02/05/updating-webmentions-on-a-static-site/",
+    "lang": "en",
+    "title": "🖋 Updating webmentions on a static site",
+    "date_published": "2023-02-05T19:27:38Z",
+    "content_text": "🖋 “Updating webmentions on a static site”\n\nWhen I started using Webmention on this site (more than 5 years ago!), I was building the site on my local computer, and uploading the build result on my hosting with `rsync`. I've moved to Cloudflare Pages 6 months ago, which means webmentions where updated only when I pushed new content to GitHub. Here's how I fixed that.\n\n#Webmention #Eleventy #static #GitHub #Cloudflare \n\n⚓️ https://nicolas-hoizey.com/articles/2023/02/05/updating-webmentions-on-a-static-site/",
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/109814034524432471"
+    ],
+    "lastTootTimestamp": 1675629189119
+  },
+  "https://nicolas-hoizey.com/articles/2023/02/08/a-bookmarklet-to-create-a-new-link-content-markdown-on-github/": {
+    "id": "https://nicolas-hoizey.com/articles/2023/02/08/a-bookmarklet-to-create-a-new-link-content-markdown-on-github/",
+    "url": "https://nicolas-hoizey.com/articles/2023/02/08/a-bookmarklet-to-create-a-new-link-content-markdown-on-github/",
+    "lang": "en",
+    "title": "🖋 A bookmarklet to create a new link content Markdown on GitHub",
+    "date_published": "2023-02-08T09:42:51Z",
+    "content_text": "🖋 “A bookmarklet to create a new link content Markdown on GitHub”\n\nWhen I was building my site on my local computer, I had a shell script to initialize a new Markdown file for sharing a link. When I moved to Cloudflare Pages 6 months ago, it opened a new opportunity to share links more easily in my Eleventy content, directly from the page I wanted to share. Bookmarklets are still an awesome invention!\n\n#Markdown #Eleventy #bookmarklet \n\n⚓️ https://nicolas-hoizey.com/articles/2023/02/08/a-bookmarklet-to-create-a-new-link-content-markdown-on-github/",
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/109828724318350810"
+    ],
+    "lastTootTimestamp": 1675853337633
+  },
+  "https://nicolas-hoizey.com/articles/2023/01/07/let-s-posse-to-mastodon-with-a-feed-and-a-github-action/": {
+    "id": "https://nicolas-hoizey.com/articles/2023/01/07/let-s-posse-to-mastodon-with-a-feed-and-a-github-action/",
+    "url": "https://nicolas-hoizey.com/articles/2023/01/07/let-s-posse-to-mastodon-with-a-feed-and-a-github-action/",
+    "lang": "en",
+    "title": "🖋 Let's POSSE to Mastodon with a Feed and a GitHub Action",
+    "date_published": "2023-01-07T12:49:09Z",
+    "content_text": "🖋 “Let's POSSE to Mastodon with a Feed and a GitHub Action”\n\nAfter building a Node script for my own POSSE needs, I thought it would be good if other people could also use it. I knew not many people would be able to use the script as-is, so I built a GitHub Action that is much simpler to use, without losing any feature, even gaining some!\n\n#IndieWeb #POSSE #Mastodon #feed #GitHub \n\n⚓️ https://nicolas-hoizey.com/articles/2023/01/07/let-s-posse-to-mastodon-with-a-feed-and-a-github-action/",
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/109828897889438131"
+    ],
+    "lastTootTimestamp": 1675855986020
+  },
+  "https://nicolas-hoizey.com/articles/2023/03/31/how-i-built-my-own-excerpt-for-markdown-content-in-eleventy/": {
+    "id": "https://nicolas-hoizey.com/articles/2023/03/31/how-i-built-my-own-excerpt-for-markdown-content-in-eleventy/",
+    "url": "https://nicolas-hoizey.com/articles/2023/03/31/how-i-built-my-own-excerpt-for-markdown-content-in-eleventy/",
+    "lang": "en",
+    "title": "🖋 How I built my own excerpt for Markdown content in Eleventy",
+    "date_published": "2023-03-30T23:40:32Z",
+    "content_text": "🖋 “How I built my own excerpt for Markdown content in Eleventy”\n\nI was not really happy with Eleventy's native excerpt solution requiring just a separator and having the excerpt content preserved in the content, without any way to style it differently. So I tried different alternatives, and settled on a solution with some Markdown-it plugins and a bunch of regexes.\n\n#Eleventy #Markdown \n\n⚓️ https://nicolas-hoizey.com/articles/2023/03/31/how-i-built-my-own-excerpt-for-markdown-content-in-eleventy/",
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110115151251256270"
+    ],
+    "lastTootTimestamp": 1680223866091
+  },
+  "https://nicolas-hoizey.com/articles/2023/04/07/running-css-animations-only-if-both-the-device-and-the-user-allow-it/": {
+    "id": "https://nicolas-hoizey.com/articles/2023/04/07/running-css-animations-only-if-both-the-device-and-the-user-allow-it/",
+    "url": "https://nicolas-hoizey.com/articles/2023/04/07/running-css-animations-only-if-both-the-device-and-the-user-allow-it/",
+    "lang": "en",
+    "title": "🖋 Running CSS animations only if both the device and the user allow it",
+    "date_published": "2023-04-07T17:49:14Z",
+    "content_text": "🖋 “Running CSS animations only if both the device and the user allow it”\n\nThanks to Chrome release notes, I discovered today that there is an `update` media feature which accepts values `fast`, `slow` and `print`, to set styles depending on the ability of the device to update the rendering and the speed of it. As I'm already respecting the user's preference with the `prefers-reduced-motion` media feature, I wondered how I could…\n\n#CSS \n\n⚓️ https://nicolas-hoizey.com/articles/2023/04/07/running-css-animations-only-if-both-the-device-and-the-user-allow-it/",
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110159435719330490"
+    ],
+    "lastTootTimestamp": 1680899593074
+  },
+  "https://nicolas-hoizey.com/articles/2023/05/19/html-and-css-based-view-transitions-are-coming/": {
+    "id": "https://nicolas-hoizey.com/articles/2023/05/19/html-and-css-based-view-transitions-are-coming/",
+    "url": "https://nicolas-hoizey.com/articles/2023/05/19/html-and-css-based-view-transitions-are-coming/",
+    "lang": "en",
+    "title": "🖋 HTML and CSS based View Transitions are coming",
+    "date_published": "2023-05-19T17:47:56Z",
+    "content_text": "🖋 “HTML and CSS based View Transitions are coming”\n\nWhile same-document View Transitions have now been available for a while in Chromium browsers for Single Page Applications (SPA), they were requiring the use of a JavaScript API. Chrome Canary now allows us to develop and test View Transitions with HTML and CSS only, obviously targeting Multiple Pages Applications (aka Web sites 🤷‍♂️).\n\n#CSS #ViewTransitions \n\n⚓️ https://nicolas-hoizey.com/articles/2023/05/19/html-and-css-based-view-transitions-are-coming/",
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/110396731425897286"
+    ],
+    "lastTootTimestamp": 1684520438349
+  }
+}
