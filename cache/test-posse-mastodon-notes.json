@@ -189,9 +189,10 @@
     "content_text": "I'm really worried about #WebPageTest, right now… 🤨\n\n#WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2023/06/14/1/",
     "attachments": [],
     "toots": [
-      "Ignored during first run (see `ignoreFirstRun` input)"
+      "Ignored during first run (see `ignoreFirstRun` input)",
+      "https://mastodon.hsablonniere.com/users/test1g6a1g8x/statuses/111810879446675730"
     ],
-    "lastTootTimestamp": 1706097638719
+    "lastTootTimestamp": 1706098624461
   },
   "https://nicolas-hoizey.com/notes/2023/06/12/1/": {
     "id": "https://nicolas-hoizey.com/notes/2023/06/12/1/",
