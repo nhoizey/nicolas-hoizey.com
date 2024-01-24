@@ -99,9 +99,10 @@
     "content_text": "Let's say a SPA first load has been optimized with SSR and the LCP image is loaded pretty fast because it's in the HTML.\n\nBut the JavaScript then builds a carousel in the DOM, which initially shows the very same image.\n\nI guess there's a second render of the image. How can I check this easily?\n\nWould it make sense that the LCP takes the late second render of the image, instead of the fast first one?\n\n#image #LCP #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2023/11/03/1/",
     "attachments": [],
     "toots": [
-      "Ignored during first run (see `ignoreFirstRun` input)"
+      "Ignored during first run (see `ignoreFirstRun` input)",
+      "https://mastodon.hsablonniere.com/users/test1g6a1g8x/statuses/111811016787045632"
     ],
-    "lastTootTimestamp": 1706097638719
+    "lastTootTimestamp": 1706100720139
   },
   "https://nicolas-hoizey.com/notes/2023/11/02/1/": {
     "id": "https://nicolas-hoizey.com/notes/2023/11/02/1/",
