@@ -265,9 +265,10 @@
     "content_text": "General question about synthetic performance monitoring:\n\nHow do you define the device/network settings of your tests?\n\n- Do you use low end devices / bad network to easily detect issues?\n- Or do you try to be close to your RUM data, to have more predictability when you deploy changes?\n\nI usualy do the former, but I think both could be useful.\n\n#WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2023/05/31/3/",
     "attachments": [],
     "toots": [
-      "Ignored during first run (see `ignoreFirstRun` input)"
+      "Ignored during first run (see `ignoreFirstRun` input)",
+      "https://mastodon.hsablonniere.com/users/test1g6a1g8x/statuses/111811334807206633"
     ],
-    "lastTootTimestamp": 1706097638719
+    "lastTootTimestamp": 1706105572722
   },
   "https://nicolas-hoizey.com/notes/2023/05/31/2/": {
     "id": "https://nicolas-hoizey.com/notes/2023/05/31/2/",
