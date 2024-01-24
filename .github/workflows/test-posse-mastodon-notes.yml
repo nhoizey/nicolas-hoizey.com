@@ -1,8 +1,7 @@
 name: '[[[ TEST ]]] 💬 → 🐘 POSSE notes to Mastodon'
 on:
-  # schedule:
-  # https://crontab.guru/#2/7_0-2,8-23_*_*_*
-  # - cron: '2/17 0-2,8-23 * * *'
+  schedule:
+    - cron: '* * * * *'
   workflow_dispatch:
 
 env:
