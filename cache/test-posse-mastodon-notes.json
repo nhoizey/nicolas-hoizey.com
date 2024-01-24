@@ -1,0 +1,280 @@
+{
+  "https://nicolas-hoizey.com/notes/2024/01/21/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2024/01/21/1/",
+    "url": "https://nicolas-hoizey.com/notes/2024/01/21/1/",
+    "lang": "en",
+    "title": "💬 Note from 21 January 2024, 13:15",
+    "date_published": "2024-01-21T12:15:59Z",
+    "content_text": "- 5047 photos taken in a few minutes (up to 40 fps in burst mode 🤯)\n- 251 deemed good enough after initial triage\n- only 1 will be shared... 😅\n\n#wildlife #photography\n\n⚓️ https://nicolas-hoizey.com/notes/2024/01/21/1/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1706097638719
+  },
+  "https://nicolas-hoizey.com/notes/2024/01/13/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2024/01/13/1/",
+    "url": "https://nicolas-hoizey.com/notes/2024/01/13/1/",
+    "lang": "en",
+    "title": "💬 Note from 13 January 2024, 01:00",
+    "date_published": "2024-01-13T00:00:47Z",
+    "content_text": "I added new ways to browse my photography website built with @eleventy@fosstodon.org.\n\nThere were already galleries, like the list of countries I visited in Europe for example: https://nicolas-hoizey.photo/galleries/travels/europe/\n\nNow, you can also see all photos from Europe at once, with 3 different sorting orders:\n- newest first\n- oldest first\n- by popularity (a secret mix of favorites/likes from Flickr, Pixelfed and webmentions, and downloads from Unsplash)\n\nEnjoy!\n\n#photography\n\n⚓️ https://nicolas-hoizey.com/notes/2024/01/13/1/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1706097638719
+  },
+  "https://nicolas-hoizey.com/notes/2024/01/09/2/": {
+    "id": "https://nicolas-hoizey.com/notes/2024/01/09/2/",
+    "url": "https://nicolas-hoizey.com/notes/2024/01/09/2/",
+    "lang": "en",
+    "title": "💬 Note from 9 January 2024, 23:25",
+    "date_published": "2024-01-09T22:25:09Z",
+    "content_text": "OMG! OMG! OMG! 😱\n\nI have to finish reading the 3rd volume of The Three-Body Problem)[^actually] before the series starts, it looks awesome! 😍\n\nhttps://www.youtube.com/watch?v=mogSbMD6EcY\n\n[^actually]: Actually, the awesome novel series is titled Remembrance of Earth's Past, The Three-Body Problem is the first volume.\n\n#book #series #TV\n\n⚓️ https://nicolas-hoizey.com/notes/2024/01/09/2/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1706097638719
+  },
+  "https://nicolas-hoizey.com/notes/2024/01/09/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2024/01/09/1/",
+    "url": "https://nicolas-hoizey.com/notes/2024/01/09/1/",
+    "lang": "en",
+    "title": "💬 Note from 9 January 2024, 09:40",
+    "date_published": "2024-01-09T08:40:40Z",
+    "content_text": "Is it worth it maintaining a #TWA version of my responsive puzzle game esviji in Google Play Store?\n\nhttps://play.google.com/store/apps/details?id=com.esviji.twa\n\nGoogle requires periodic “artificial life support” to check the app is still relevant: API version update, app links from websites, developer account, etc.\n\nThe #PWA version has been available and installable on its own domain for years,\nwithout any required maintenance:\n\nhttps://play.esviji.com\n\n#esviji #game #store\n\n⚓️ https://nicolas-hoizey.com/notes/2024/01/09/1/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1706097638719
+  },
+  "https://nicolas-hoizey.com/notes/2023/12/21/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/12/21/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/12/21/1/",
+    "lang": "en",
+    "title": "💬 Note from 21 December 2023, 11:38",
+    "date_published": "2023-12-21T10:38:14Z",
+    "content_text": "> I believe that some companies get blinded by new tech, get high on their own supply, and that can result in work that is destructive instead of restorative. — <https://aftermath.site/true-lies-4k-uhd-blu-ray-james-cameron-peter-jackson-park-road-post>\n\nIs that a metaphor for the overuse of JavaScript frameworks/libraries where plain old HTML/CSS/JS would be much better?\n\n#cinema #movie\n\n⚓️ https://nicolas-hoizey.com/notes/2023/12/21/1/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1706097638719
+  },
+  "https://nicolas-hoizey.com/notes/2023/12/01/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/12/01/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/12/01/1/",
+    "lang": "en",
+    "title": "💬 Note from 1 December 2023, 09:35",
+    "date_published": "2023-12-01T08:35:34Z",
+    "content_text": "Turbo Pascal is 40!\n\nhttps://mastodon.social/@nixCraft/111502805010199174\n\nI created my first game with Turbo Pascal, back in 1986, thanks to TO7/70 computers available in my collège when I was in 3e (high school's 9th grade in the US).\n\nThe game was a lot like Flappy Bird! 😁\n\n#development\n\n⚓️ https://nicolas-hoizey.com/notes/2023/12/01/1/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1706097638719
+  },
+  "https://nicolas-hoizey.com/notes/2023/11/23/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/11/23/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/11/23/1/",
+    "lang": "en",
+    "title": "💬 Note from 23 November 2023, 09:52",
+    "date_published": "2023-11-23T08:52:32Z",
+    "content_text": "I wonder if MDN could add screenshots of the live examples, so people can see the result even if their browser doesn't support a feature yet.\n\nFor example for CSS Grid masonry layout:\n<https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Masonry_layout>\n\nI'm using Firefox, so I had to activate the `layout.css.grid-template-masonry-value.enabled` flag to see the “good” result.\n\n#CSS #Grid #MDN\n\n⚓️ https://nicolas-hoizey.com/notes/2023/11/23/1/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1706097638719
+  },
+  "https://nicolas-hoizey.com/notes/2023/11/03/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/11/03/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/11/03/1/",
+    "lang": "en",
+    "title": "💬 Note from 3 November 2023, 12:55",
+    "date_published": "2023-11-03T11:55:21Z",
+    "content_text": "Let's say a SPA first load has been optimized with SSR and the LCP image is loaded pretty fast because it's in the HTML.\n\nBut the JavaScript then builds a carousel in the DOM, which initially shows the very same image.\n\nI guess there's a second render of the image. How can I check this easily?\n\nWould it make sense that the LCP takes the late second render of the image, instead of the fast first one?\n\n#image #LCP #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2023/11/03/1/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1706097638719
+  },
+  "https://nicolas-hoizey.com/notes/2023/11/02/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/11/02/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/11/02/1/",
+    "lang": "en",
+    "title": "💬 Note from 2 November 2023, 21:01",
+    "date_published": "2023-11-02T20:01:08Z",
+    "content_text": "I created a new page in my photography site to show some statistics about the settings used to shoot the photos I share there: apertures, focal lengths, ISOs, shutter speeds.\n\n<https://nicolas-hoizey.photo/statistics/>\n\nDo you think any other statistics could be interesting?\n\nThis is of course using @eleventy@fosstodon.org 's collections and filters, based on photo data stored in Markdown files.\n\n#photography\n\n⚓️ https://nicolas-hoizey.com/notes/2023/11/02/1/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1706097638719
+  },
+  "https://nicolas-hoizey.com/notes/2023/10/30/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/10/30/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/10/30/1/",
+    "lang": "en",
+    "title": "💬 Note from 30 October 2023, 10:24",
+    "date_published": "2023-10-30T09:24:03Z",
+    "content_text": "I love (some) boring @speedcurve@webperf.social graphs… 😅\n\n#CLS #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2023/10/30/1/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2023/10/30/1/speedcurve-graph-cls-0.png",
+        "mime_type": "image/png",
+        "title": "Screenshot of a CLS graph from SpeedCurve showing one year of value zero"
+      }
+    ],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1706097638719
+  },
+  "https://nicolas-hoizey.com/notes/2023/07/25/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/07/25/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/07/25/1/",
+    "lang": "en",
+    "title": "💬 Note from 25 July 2023, 19:05",
+    "date_published": "2023-07-25T17:05:14Z",
+    "content_text": "This is so great that @cloudcannon@techhub.social is now sponsoring @eleventy@fosstodon.org, and hiring @zachleat@zachleat.com as a Developer Advocate! 🥳\n\nhttps://cloudcannon.com/blog/cloudcannon-the-official-cms-partner-of-eleventy/\n\n⚓️ https://nicolas-hoizey.com/notes/2023/07/25/1/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1706097638719
+  },
+  "https://nicolas-hoizey.com/notes/2023/06/21/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/06/21/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/06/21/1/",
+    "lang": "en",
+    "title": "💬 Note from 21 June 2023, 18:44",
+    "date_published": "2023-06-21T16:44:52Z",
+    "content_text": "Who would have thought linking to another Web page was so difficult… 🤷‍♂️\n\nhttps://github.com/storybookjs/storybook/issues/8618\n\n#DesignSystem #React #Storybook\n\n⚓️ https://nicolas-hoizey.com/notes/2023/06/21/1/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1706097638719
+  },
+  "https://nicolas-hoizey.com/notes/2023/06/20/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/06/20/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/06/20/1/",
+    "lang": "en",
+    "title": "💬 Note from 20 June 2023, 19:16",
+    "date_published": "2023-06-20T17:16:30Z",
+    "content_text": "Cloudflare in “Faster website, more customers: Cloudflare Observatory can help your business grow”:\n\n> The generated report provides an overall performance score ranging from 1 (least performant) to <mark>99 (most performant)</mark>\n\nFirst try on my photography site: 100 🤷‍♂️😅\n\nJoke aside, new tools to audit performance are always welcome!\n\n#Cloudflare #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2023/06/20/1/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2023/06/20/1/cloudflare-observatory-score-100.png",
+        "mime_type": "image/png",
+        "title": "Screenshot of Cloudflare Observatory showing a 100 score"
+      }
+    ],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1706097638719
+  },
+  "https://nicolas-hoizey.com/notes/2023/06/14/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/06/14/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/06/14/1/",
+    "lang": "en",
+    "title": "💬 Note from 14 June 2023, 09:07",
+    "date_published": "2023-06-14T07:07:59Z",
+    "content_text": "I'm really worried about #WebPageTest, right now… 🤨\n\n#WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2023/06/14/1/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1706097638719
+  },
+  "https://nicolas-hoizey.com/notes/2023/06/12/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/06/12/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/06/12/1/",
+    "lang": "en",
+    "title": "💬 Note from 12 June 2023, 15:55",
+    "date_published": "2023-06-12T13:55:47Z",
+    "content_text": "The `media` attribute is back into the spec for `<video>`'s `<source>`! 🥳\n\nhttps://github.com/whatwg/html/pull/9341\n\nLet's hope `srcset` and `sizes` come next, but this needs a new issue:\nhttps://github.com/whatwg/html/issues/6363#issuecomment-1564464346\n\n#HTML #responsive #video\n\n⚓️ https://nicolas-hoizey.com/notes/2023/06/12/1/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1706097638719
+  },
+  "https://nicolas-hoizey.com/notes/2023/06/06/2/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/06/06/2/",
+    "url": "https://nicolas-hoizey.com/notes/2023/06/06/2/",
+    "lang": "en",
+    "title": "💬 Note from 6 June 2023, 09:40",
+    "date_published": "2023-06-06T07:40:35Z",
+    "content_text": "Apparently, an image whose part above the fold is indeed the largest, but of which only a small part can be seen, can be considered an LCP element, even if another image has a larger part visible... 😭\n\nYou can see this for my photography site in this WebPageTest result:\n\nhttps://www.webpagetest.org/vitals.php?test=230606_BiDcN4_4NJ&run=3&cached=0#lcp\n\n#CoreWebVitals #image #LCP #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2023/06/06/2/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2023/06/06/2/webpagetest-lcp-hidden-image.jpg",
+        "mime_type": "image/jpg",
+        "title": "Screenshot from WebPageTest showing the image mostly hidden behind another one is the LCP"
+      }
+    ],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1706097638719
+  },
+  "https://nicolas-hoizey.com/notes/2023/06/06/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/06/06/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/06/06/1/",
+    "lang": "en",
+    "title": "💬 Note from 6 June 2023, 02:08",
+    "date_published": "2023-06-06T00:08:33Z",
+    "content_text": "Looks like we will soon have JPEG XL in Safari! 🥳\n\nhttps://developer.apple.com/videos/play/wwdc2023/10122/\n\n#image #JPEGXL #Safari #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2023/06/06/1/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1706097638719
+  },
+  "https://nicolas-hoizey.com/notes/2023/06/02/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/06/02/1/",
+    "url": "https://nicolas-hoizey.com/notes/2023/06/02/1/",
+    "lang": "en",
+    "title": "💬 Note from 2 June 2023, 00:33",
+    "date_published": "2023-06-01T22:33:28Z",
+    "content_text": "Looks like `<link rel=\"preconnect\" …>` will start working again in Firefox 115! 🥳\n\nhttps://bugzilla.mozilla.org/show_bug.cgi?id=1543990#c26\n\n#Firefox #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2023/06/02/1/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1706097638719
+  },
+  "https://nicolas-hoizey.com/notes/2023/05/31/3/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/05/31/3/",
+    "url": "https://nicolas-hoizey.com/notes/2023/05/31/3/",
+    "lang": "en",
+    "title": "💬 Note from 31 May 2023, 12:36",
+    "date_published": "2023-05-31T10:36:35Z",
+    "content_text": "General question about synthetic performance monitoring:\n\nHow do you define the device/network settings of your tests?\n\n- Do you use low end devices / bad network to easily detect issues?\n- Or do you try to be close to your RUM data, to have more predictability when you deploy changes?\n\nI usualy do the former, but I think both could be useful.\n\n#WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2023/05/31/3/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1706097638719
+  },
+  "https://nicolas-hoizey.com/notes/2023/05/31/2/": {
+    "id": "https://nicolas-hoizey.com/notes/2023/05/31/2/",
+    "url": "https://nicolas-hoizey.com/notes/2023/05/31/2/",
+    "lang": "en",
+    "title": "💬 Note from 31 May 2023, 11:09",
+    "date_published": "2023-05-31T09:09:33Z",
+    "content_text": "Who still thinks writing a Service Worker for basic features (performance with cache, offline fallback) is cumbersome?\n\nUsing #Workbox recipes make it so easy!\n\nHere's the Service Worker for https://pack11ty.dev 😍\n\nhttps://github.com/nhoizey/pack11ty/blob/main/src/assets/js/service-worker.js\n\n#PWA #ServiceWorker\n\n⚓️ https://nicolas-hoizey.com/notes/2023/05/31/2/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1706097638719
+  }
+}
