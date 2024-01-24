@@ -299,8 +299,9 @@
     "content_text": "Ok, so…\n\n- scheduled #GitHub Actions\n- + POSSE to @Mastodon@mastodon.social / #Pixelfed\n- + auto Git commit/push of cache for next run\n- + GitHub branch protection\n- = handle with care… 😅\n\n#Actions #POSSE\n\n⚓️ https://nicolas-hoizey.com/notes/2024/01/24/1/",
     "attachments": [],
     "toots": [
-      "https://mastodon.hsablonniere.com/users/test1g6a1g8x/statuses/111811290273197761"
+      "https://mastodon.hsablonniere.com/users/test1g6a1g8x/statuses/111811290273197761",
+      "https://mastodon.hsablonniere.com/users/test1g6a1g8x/statuses/111811850878272994"
     ],
-    "lastTootTimestamp": 1706104893193
+    "lastTootTimestamp": 1706113447357
   }
 }
