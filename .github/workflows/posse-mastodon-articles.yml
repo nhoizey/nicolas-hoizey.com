@@ -1,8 +1,8 @@
 name: '🖋 → 🐘 POSSE articles to Mastodon'
 on:
-  # schedule:
-  # https://crontab.guru/#13/37_*_*_*_*
-  # - cron: '13/37 * * * *'
+  schedule:
+    # https://crontab.guru/#13/37_*_*_*_*
+    - cron: '13/37 * * * *'
   workflow_dispatch:
 
 env:
