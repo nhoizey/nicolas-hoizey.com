@@ -147,9 +147,10 @@
     "content_text": "This is so great that @cloudcannon@techhub.social is now sponsoring @eleventy@fosstodon.org, and hiring @zachleat@zachleat.com as a Developer Advocate! 🥳\n\nhttps://cloudcannon.com/blog/cloudcannon-the-official-cms-partner-of-eleventy/\n\n⚓️ https://nicolas-hoizey.com/notes/2023/07/25/1/",
     "attachments": [],
     "toots": [
-      "Ignored during first run (see `ignoreFirstRun` input)"
+      "Ignored during first run (see `ignoreFirstRun` input)",
+      "https://mastodon.hsablonniere.com/users/test1g6a1g8x/statuses/111811614114055703"
     ],
-    "lastTootTimestamp": 1706097638719
+    "lastTootTimestamp": 1706109834622
   },
   "https://nicolas-hoizey.com/notes/2023/06/21/1/": {
     "id": "https://nicolas-hoizey.com/notes/2023/06/21/1/",
