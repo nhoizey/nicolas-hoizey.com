@@ -181,9 +181,10 @@
       }
     ],
     "toots": [
-      "Ignored during first run (see `ignoreFirstRun` input)"
+      "Ignored during first run (see `ignoreFirstRun` input)",
+      "https://mastodon.hsablonniere.com/users/test1g6a1g8x/statuses/111811751358546088"
     ],
-    "lastTootTimestamp": 1706097638719
+    "lastTootTimestamp": 1706111928801
   },
   "https://nicolas-hoizey.com/notes/2023/06/14/1/": {
     "id": "https://nicolas-hoizey.com/notes/2023/06/14/1/",
