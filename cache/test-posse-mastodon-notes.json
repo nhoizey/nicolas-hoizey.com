@@ -160,9 +160,10 @@
     "content_text": "Who would have thought linking to another Web page was so difficult… 🤷‍♂️\n\nhttps://github.com/storybookjs/storybook/issues/8618\n\n#DesignSystem #React #Storybook\n\n⚓️ https://nicolas-hoizey.com/notes/2023/06/21/1/",
     "attachments": [],
     "toots": [
-      "Ignored during first run (see `ignoreFirstRun` input)"
+      "Ignored during first run (see `ignoreFirstRun` input)",
+      "https://mastodon.hsablonniere.com/users/test1g6a1g8x/statuses/111811455199544228"
     ],
-    "lastTootTimestamp": 1706097638719
+    "lastTootTimestamp": 1706107409749
   },
   "https://nicolas-hoizey.com/notes/2023/06/20/1/": {
     "id": "https://nicolas-hoizey.com/notes/2023/06/20/1/",
