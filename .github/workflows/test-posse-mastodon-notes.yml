@@ -1,7 +1,7 @@
 name: '[[[ TEST ]]] 💬 → 🐘 POSSE notes to Mastodon'
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: '5 * * * *'
   workflow_dispatch:
 
 env:
