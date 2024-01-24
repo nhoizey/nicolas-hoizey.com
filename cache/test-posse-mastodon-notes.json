@@ -87,9 +87,10 @@
     "content_text": "I wonder if MDN could add screenshots of the live examples, so people can see the result even if their browser doesn't support a feature yet.\n\nFor example for CSS Grid masonry layout:\n<https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Masonry_layout>\n\nI'm using Firefox, so I had to activate the `layout.css.grid-template-masonry-value.enabled` flag to see the “good” result.\n\n#CSS #Grid #MDN\n\n⚓️ https://nicolas-hoizey.com/notes/2023/11/23/1/",
     "attachments": [],
     "toots": [
-      "Ignored during first run (see `ignoreFirstRun` input)"
+      "Ignored during first run (see `ignoreFirstRun` input)",
+      "https://mastodon.hsablonniere.com/users/test1g6a1g8x/statuses/111811795621522041"
     ],
-    "lastTootTimestamp": 1706097638719
+    "lastTootTimestamp": 1706112604197
   },
   "https://nicolas-hoizey.com/notes/2023/11/03/1/": {
     "id": "https://nicolas-hoizey.com/notes/2023/11/03/1/",
