@@ -207,9 +207,10 @@
     "content_text": "The `media` attribute is back into the spec for `<video>`'s `<source>`! 🥳\n\nhttps://github.com/whatwg/html/pull/9341\n\nLet's hope `srcset` and `sizes` come next, but this needs a new issue:\nhttps://github.com/whatwg/html/issues/6363#issuecomment-1564464346\n\n#HTML #responsive #video\n\n⚓️ https://nicolas-hoizey.com/notes/2023/06/12/1/",
     "attachments": [],
     "toots": [
-      "Ignored during first run (see `ignoreFirstRun` input)"
+      "Ignored during first run (see `ignoreFirstRun` input)",
+      "https://mastodon.hsablonniere.com/users/test1g6a1g8x/statuses/111811524181044914"
     ],
-    "lastTootTimestamp": 1706097638719
+    "lastTootTimestamp": 1706108462353
   },
   "https://nicolas-hoizey.com/notes/2023/06/06/2/": {
     "id": "https://nicolas-hoizey.com/notes/2023/06/06/2/",
