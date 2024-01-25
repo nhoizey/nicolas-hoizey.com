@@ -13,6 +13,10 @@ blockquote:not(.tweet-card) {
   font-size: var(--font-size-l);
   font-style: italic;
 
+  mark {
+    color: var(--color-primary);
+  }
+
   em {
     font-style: normal;
   }
