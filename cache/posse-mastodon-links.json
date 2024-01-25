@@ -2430,7 +2430,10 @@
         "title": "Screenshot of Moderate people, not code"
       }
     ],
-    "toots": []
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/111818995382775027"
+    ],
+    "lastTootTimestamp": 1706222463841
   },
   "https://nicolas-hoizey.com/links/2024/01/20/platform-tilt-documenting-the-uneven-playing-field-for-an-independent-browser-like-firefox/": {
     "id": "https://nicolas-hoizey.com/links/2024/01/20/platform-tilt-documenting-the-uneven-playing-field-for-an-independent-browser-like-firefox/",
