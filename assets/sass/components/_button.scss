@@ -4,7 +4,8 @@
 .button:visited,
 button {
   display: flex;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
 
   gap: .3em;
 
@@ -28,5 +29,13 @@ button {
   &:hover,
   &:focus {
     background-color: var(--color-primary);
+  }
+
+  img, svg {
+    flex-shrink: 0;
+    width: 1em;
+    height: 1em;
+    align-self: baseline;
+    margin-top: 0.3em;
   }
 }
