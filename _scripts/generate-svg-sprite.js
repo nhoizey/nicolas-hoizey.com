@@ -33,8 +33,8 @@ const ICONS_LIST = {
     mastodon: { title: 'Mastodon' },
   },
   local: {
-    older: { title: 'Older' },
-    newer: { title: 'Newer' },
+    past: { title: 'Older' },
+    future: { title: 'Newer' },
   },
 };
 

@@ -19,20 +19,17 @@
 
     .older-newer__older {
       grid-area: prev;
+      justify-self: start;
     }
 
     .older-newer__newer {
       grid-area: next;
-
       justify-self: end;
     }
 
     svg {
-      fill: none;
-      stroke: var(--color-primary-lighter-7);
-      stroke-width: 2px;
-      stroke-linecap: round;
-      stroke-linejoin: round;
+      fill: var(--color-primary-lighter-6);
+      stroke-width: 0px;
     }
   }
 }

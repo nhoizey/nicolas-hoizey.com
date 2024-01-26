@@ -123,14 +123,14 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
     <li class="older-newer__older">
       {% if olderContent %}
         <a href="{{ olderContent.url }}" class="button">
-          {% icon "older", "Older" %} <em>Older:</em> {{ olderContent.data.body.title | safe }}
+          {% icon "past", "Older" %} <em>Older:</em> {{ olderContent.data.body.title | safe }}
         </a>
       {% endif %}
     </li>
     <li class="older-newer__newer">
       {% if newerContent %}
         <a href="{{ newerContent.url }}" class="button">
-          {% icon "newer", "Newer" %} <em>Newer:</em> {{ newerContent.data.body.title | safe }}
+          {% icon "future", "Newer" %} <em>Newer:</em> {{ newerContent.data.body.title | safe }}
         </a>
       {% endif %}
     </li>
