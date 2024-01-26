@@ -27,6 +27,10 @@
       justify-self: end;
     }
 
+    em {
+      white-space: nowrap;
+    }
+
     svg {
       fill: var(--color-primary-lighter-6);
       stroke-width: 0px;
