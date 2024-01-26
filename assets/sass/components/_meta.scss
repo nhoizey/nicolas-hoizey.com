@@ -3,7 +3,7 @@
 
 .meta {
   display: flex;
-  gap: 1em;
+  gap: .3em 1em;
   flex-wrap: wrap;
   // because cards lists are lists in Algolia lists but not elsewhere,
   // and Firefox applies a 0 start and end margin to ul in an ul/ol
