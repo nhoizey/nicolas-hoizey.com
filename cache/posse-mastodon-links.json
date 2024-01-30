@@ -2532,5 +2532,56 @@
       "https://mamot.fr/users/nhoizey/statuses/111816165211826433"
     ],
     "lastTootTimestamp": 1706179278887
+  },
+  "https://nicolas-hoizey.com/links/2024/01/30/the-web-component-success-story/": {
+    "id": "https://nicolas-hoizey.com/links/2024/01/30/the-web-component-success-story/",
+    "url": "https://nicolas-hoizey.com/links/2024/01/30/the-web-component-success-story/",
+    "lang": "en",
+    "title": "🔗 The Web Component Success Story",
+    "date_published": "2024-01-30T16:20:49Z",
+    "content_text": "🔗 “The Web Component Success Story” by @jakelazaroff@mastodon.social\n\n#WebComponents \n\n⚓️ https://nicolas-hoizey.com/links/2024/01/30/the-web-component-success-story/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://jakelazaroff.com/words/the-web-component-success-story/#user-content-fn-reactnative",
+        "mime_type": "image/png",
+        "title": "Screenshot of The Web Component Success Story"
+      }
+    ],
+    "toots": []
+  },
+  "https://nicolas-hoizey.com/links/2024/01/30/web-push-on-ios-1-year-anniversary/": {
+    "id": "https://nicolas-hoizey.com/links/2024/01/30/web-push-on-ios-1-year-anniversary/",
+    "url": "https://nicolas-hoizey.com/links/2024/01/30/web-push-on-ios-1-year-anniversary/",
+    "lang": "en",
+    "title": "🔗 Web Push on iOS - 1 year anniversary",
+    "date_published": "2024-01-30T14:33:18Z",
+    "content_text": "🔗 “Web Push on iOS - 1 year anniversary” by @rgadellaa@mastodon.social\n\n#PWA #Apple #iOS #push \n\n⚓️ https://nicolas-hoizey.com/links/2024/01/30/web-push-on-ios-1-year-anniversary/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://webventures.rejh.nl/blog/2024/web-push-ios-one-year/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Web Push on iOS - 1 year anniversary"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/111845895840773310"
+    ],
+    "lastTootTimestamp": 1706632932275
+  },
+  "https://nicolas-hoizey.com/links/2024/01/30/textcasting/": {
+    "id": "https://nicolas-hoizey.com/links/2024/01/30/textcasting/",
+    "url": "https://nicolas-hoizey.com/links/2024/01/30/textcasting/",
+    "lang": "en",
+    "title": "🔗 Textcasting",
+    "date_published": "2024-01-30T14:00:24Z",
+    "content_text": "🔗 “Textcasting” by @davew@mastodon.social\n\n#feed #Markdown #Mastodon #socialNetwork \n\n⚓️ https://nicolas-hoizey.com/links/2024/01/30/textcasting/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://textcasting.org/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Textcasting"
+      }
+    ],
+    "toots": []
   }
 }
