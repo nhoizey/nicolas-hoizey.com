@@ -5,7 +5,7 @@ lang: en
 link: https://stephaniewalter.design/blog/the-ultimate-guide-to-not-fck-up-push-notifications/
 authors:
   - "Stéphanie Walter"
-tags: [UX, PWA]
+tags: [UX, PWA, push]
 ---
 
 Awesome article about everything you have to take into consideration when planning to use Push notifications.
