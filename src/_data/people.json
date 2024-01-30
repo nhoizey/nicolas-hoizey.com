@@ -214,6 +214,10 @@
     "site": "https://daverupert.com/",
     "mastodon": "@davatron5000@mastodon.social"
   },
+  "Dave Winer": {
+    "site": "http://davewiner.com/",
+    "mastodon": "@davew@mastodon.social"
+  },
   "David Heinemeier Hansson": {
     "twitter": "dhh"
   },
