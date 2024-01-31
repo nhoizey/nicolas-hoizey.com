@@ -2547,7 +2547,10 @@
         "title": "Screenshot of The Web Component Success Story"
       }
     ],
-    "toots": []
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/111848069624852171"
+    ],
+    "lastTootTimestamp": 1706666101570
   },
   "https://nicolas-hoizey.com/links/2024/01/30/web-push-on-ios-1-year-anniversary/": {
     "id": "https://nicolas-hoizey.com/links/2024/01/30/web-push-on-ios-1-year-anniversary/",
