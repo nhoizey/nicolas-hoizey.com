@@ -1198,5 +1198,18 @@
       "https://mamot.fr/users/nhoizey/statuses/111811259586681775"
     ],
     "lastTootTimestamp": 1706104424991
+  },
+  "https://nicolas-hoizey.com/notes/2024/02/01/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2024/02/01/1/",
+    "url": "https://nicolas-hoizey.com/notes/2024/02/01/1/",
+    "lang": "en",
+    "title": "💬 Note from 1 February 2024, 02:01",
+    "date_published": "2024-02-01T01:01:19Z",
+    "content_text": "Tag pages on my photographie site can now be\nsorted by dates and popularity, just like galleries.\n\nFor example, here are the \"night\" photos sorted by popularity:\nhttps://nicolas-hoizey.photo/tags/night/by-popularity/\n\nThis is all static HTML generated with @eleventy@fosstodon.org, no need for any JavaScript here.\n\n#photography #tag\n\n⚓️ https://nicolas-hoizey.com/notes/2024/02/01/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/111853633958130266"
+    ],
+    "lastTootTimestamp": 1706751006560
   }
 }
