@@ -2590,5 +2590,24 @@
       "https://mamot.fr/users/nhoizey/statuses/111847307426020252"
     ],
     "lastTootTimestamp": 1706654471344
+  },
+  "https://nicolas-hoizey.com/links/2024/02/02/jpeg-xl-has-not-been-selected-for-interop-2024/": {
+    "id": "https://nicolas-hoizey.com/links/2024/02/02/jpeg-xl-has-not-been-selected-for-interop-2024/",
+    "url": "https://nicolas-hoizey.com/links/2024/02/02/jpeg-xl-has-not-been-selected-for-interop-2024/",
+    "lang": "en",
+    "title": "🔗 JPEG XL has not been selected for Interop 2024",
+    "date_published": "2024-02-02T08:32:34Z",
+    "content_text": "🔗 “JPEG XL has not been selected for Interop 2024”\n\n#JPEGXL #browser #image #WebPerf \n\n⚓️ https://nicolas-hoizey.com/links/2024/02/02/jpeg-xl-has-not-been-selected-for-interop-2024/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://github.com/web-platform-tests/interop/issues/430#issuecomment-1921864485",
+        "mime_type": "image/png",
+        "title": "Screenshot of JPEG XL has not been selected for Interop 2024"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/111861463538499021"
+    ],
+    "lastTootTimestamp": 1706870476489
   }
 }
