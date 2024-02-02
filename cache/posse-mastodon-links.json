@@ -2453,9 +2453,10 @@
       }
     ],
     "toots": [
-      "https://mamot.fr/users/nhoizey/statuses/111810907347953194"
+      "https://mamot.fr/users/nhoizey/statuses/111810907347953194",
+      "https://mamot.fr/users/nhoizey/statuses/111859393315527903"
     ],
-    "lastTootTimestamp": 1706099050255
+    "lastTootTimestamp": 1706838887400
   },
   "https://nicolas-hoizey.com/links/2024/01/19/my-take-on-fading-content-using-transparent-gradients-in-css/": {
     "id": "https://nicolas-hoizey.com/links/2024/01/19/my-take-on-fading-content-using-transparent-gradients-in-css/",
