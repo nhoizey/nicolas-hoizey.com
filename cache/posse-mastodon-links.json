@@ -2535,9 +2535,10 @@
       }
     ],
     "toots": [
-      "https://mamot.fr/users/nhoizey/statuses/111816165211826433"
+      "https://mamot.fr/users/nhoizey/statuses/111816165211826433",
+      "https://mamot.fr/users/nhoizey/statuses/111869248774920381"
     ],
-    "lastTootTimestamp": 1706179278887
+    "lastTootTimestamp": 1706989269747
   },
   "https://nicolas-hoizey.com/links/2024/01/30/the-web-component-success-story/": {
     "id": "https://nicolas-hoizey.com/links/2024/01/30/the-web-component-success-story/",
