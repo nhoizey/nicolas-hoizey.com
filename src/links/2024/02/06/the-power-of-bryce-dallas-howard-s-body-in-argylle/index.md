@@ -5,7 +5,7 @@ lang: en
 link: https://time.com/6622198/bryce-dallas-howard-argylle-body-interview/
 authors:
   - "Belinda Luscombe"
-tags: [society]
+tags: [society, cinema, movie]
 ---
 
 > A beautiful, smart, non-sample-size woman in a $200 million action movie by a major director should not be that rare in 2024, but it is. And it should also not feel like such a blow for rightsizing our attitude toward women’s bodies, but it does.
