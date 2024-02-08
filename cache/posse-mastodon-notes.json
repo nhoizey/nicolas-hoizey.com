@@ -1230,5 +1230,18 @@
       "https://mamot.fr/users/nhoizey/statuses/111855625441767380"
     ],
     "lastTootTimestamp": 1706781394189
+  },
+  "https://nicolas-hoizey.com/notes/2024/02/08/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2024/02/08/1/",
+    "url": "https://nicolas-hoizey.com/notes/2024/02/08/1/",
+    "lang": "en",
+    "title": "💬 Note from 8 February 2024, 20:23",
+    "date_published": "2024-02-08T19:23:55Z",
+    "content_text": "As I was checking once again if @cloudcannon@techhub.social had finaly added a starter plan in its pricing page, I just saw that there is a (new?) partner program starting at $10 for one single user! 😲\n\nhttps://cloudcannon.com/partner-program/\n\nBut I guess I can't join as an individual… 🤔\n\n#CMS\n\n⚓️ https://nicolas-hoizey.com/notes/2024/02/08/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/111897621099338044"
+    ],
+    "lastTootTimestamp": 1707422197047
   }
 }
