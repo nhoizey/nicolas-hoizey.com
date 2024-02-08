@@ -2654,5 +2654,24 @@
       "https://mamot.fr/users/nhoizey/statuses/111895437519299144"
     ],
     "lastTootTimestamp": 1707388878321
+  },
+  "https://nicolas-hoizey.com/links/2024/02/08/opportunities-for-ai-in-accessibility/": {
+    "id": "https://nicolas-hoizey.com/links/2024/02/08/opportunities-for-ai-in-accessibility/",
+    "url": "https://nicolas-hoizey.com/links/2024/02/08/opportunities-for-ai-in-accessibility/",
+    "lang": "en",
+    "title": "🔗 Opportunities for AI in Accessibility",
+    "date_published": "2024-02-08T14:18:09Z",
+    "content_text": "🔗 “Opportunities for AI in Accessibility” by @Aaron@front-end.social\n\n#accessibility #AI \n\n⚓️ https://nicolas-hoizey.com/links/2024/02/08/opportunities-for-ai-in-accessibility/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://alistapart.com/article/opportunities-for-ai-in-accessibility/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Opportunities for AI in Accessibility"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/111896854239150296"
+    ],
+    "lastTootTimestamp": 1707410495731
   }
 }
