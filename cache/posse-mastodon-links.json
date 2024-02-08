@@ -2635,5 +2635,24 @@
       "https://mamot.fr/users/nhoizey/statuses/111886234536882323"
     ],
     "lastTootTimestamp": 1707248451926
+  },
+  "https://nicolas-hoizey.com/links/2024/02/08/mobile-inp-performance-the-elephant-in-the-room/": {
+    "id": "https://nicolas-hoizey.com/links/2024/02/08/mobile-inp-performance-the-elephant-in-the-room/",
+    "url": "https://nicolas-hoizey.com/links/2024/02/08/mobile-inp-performance-the-elephant-in-the-room/",
+    "lang": "en",
+    "title": "🔗 Mobile INP performance: The elephant in the room",
+    "date_published": "2024-02-08T09:05:51Z",
+    "content_text": "🔗 “Mobile INP performance: The elephant in the room” by @cliff@webperf.social\n\n#WebPerf #INP #mobile \n\n⚓️ https://nicolas-hoizey.com/links/2024/02/08/mobile-inp-performance-the-elephant-in-the-room/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.speedcurve.com/blog/core-web-vitals-inp-mobile/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Mobile INP performance: The elephant in the room"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/111895437519299144"
+    ],
+    "lastTootTimestamp": 1707388878321
   }
 }
