@@ -3,7 +3,7 @@ date: 2024-02-08 22:06:06 +01:00
 tags: [tweetback]
 ---
 
-There are now 68 Twitter archives mapped in `tweetback-canonical`, which means links to the original tweets in other ttweetback archives are transformed to links to their archived versions! 💾
+There are now 68 Twitter archives mapped in `tweetback-canonical`, which means links to the original tweets in other [tweetback](https://github.com/tweetback/tweetback) archives are transformed to links to their archived versions! 💾
 
 https://github.com/tweetback/tweetback-canonical/blob/main/mapping.js
 
