@@ -108,7 +108,7 @@
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-visualizer": "^5.12.0",
     "sanitize-html": "^2.11.0",
-    "sass": "^1.70.0",
+    "sass": "^1.71.0",
     "simple-icons": "^5.24.0",
     "stylelint": "^15.11.0",
     "stylelint-config-idiomatic-order": "^9.0.0",
@@ -137,6 +137,6 @@
   "private": true,
   "dependencies": {
     "algoliasearch": "^4.22.1",
-    "instantsearch.js": "^4.64.3"
+    "instantsearch.js": "^4.65.0"
   }
 }
