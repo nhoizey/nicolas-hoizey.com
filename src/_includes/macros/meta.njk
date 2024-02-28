@@ -24,7 +24,7 @@
     {% endif %}
     {% set tagsSize = item.data.tags | size %}
     {% if tagsSize > 0 %}
-      <li class="tags meta__item card__tags">
+      <li class="tags meta__item meta__tags">
         {% icon "tags", "Tags" %}
         {% set comma = joiner(", ") %}
         {%- for tag in item.data.tags -%}
