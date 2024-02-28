@@ -24,6 +24,9 @@
           </p>
         {% endif %}
         <ul class="elsewhere">
+          <li {% if page.url != false and '/feeds/' in page.url %}aria-current="page"{% endif %}>
+            <a href="/feeds/" title="Link to my page about feeds">{% icon "feeds", "Feeds" %}</a>
+          </li>
           <li><a href="https://mamot.fr/@nhoizey" title="Link to my Mastodon profile" rel="me">{% icon "mastodon", "Link to my Mastodon profile" %}</a></li>
         </ul>
       </div>
