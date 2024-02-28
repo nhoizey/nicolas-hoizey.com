@@ -311,7 +311,9 @@ search.addWidgets([
     templates: {
       item(hit) {
         return (
-          `<article class="card ${hit.type} h-entry" lang="${hit.lang}">` +
+          `<article class="card ${hit.type.replace(/s$/, '')} h-entry" lang="${
+            hit.lang
+          }">` +
           (hit.illustration || '') +
           (hit.surtitle
             ? '<p class="card__surtitle">' +
