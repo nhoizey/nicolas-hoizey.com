@@ -51,9 +51,6 @@
   }
 
   li {
-    margin: 0;
-    padding: 0;
-
     a:link,
     a:visited {
       font-weight: normal;
@@ -65,13 +62,6 @@
 
       white-space: nowrap;
       text-decoration: none;
-
-      color: black;
-    }
-
-    a:hover,
-    a:focus {
-      color: white;
     }
 
     &[aria-current='page'] {
@@ -108,11 +98,11 @@
       stroke: currentColor;
       stroke-width: 2px;
 
-      polyline {
-        fill: none;
-        stroke: currentColor;
-        stroke-width: 2px;
-        }
+    }
+    polyline {
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2px;
     }
   }
 }

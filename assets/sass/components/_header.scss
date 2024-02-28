@@ -34,39 +34,22 @@
     }
   }
 
-  .follow {
-    display: flex;
-
-    margin: 0;
-    padding: 0;
-
-    list-style-type: none;
-
-    a:link,
-    a:visited {
-      display: inline-block;
-
-      padding-right: calc(0.3em + 2vw);
-      padding-left: calc(0.3em + 2vw);
-
-      white-space: nowrap;
-      text-decoration: none;
-    }
-  }
-
   a:link,
   a:visited {
     color: var(--color-primary);
     text-decoration: none;
+    transition: transform 0.1s ease-in-out;
   }
 
   a:hover,
   a:focus {
     color: var(--color-primary-lighter-2);
     text-decoration: underline;
-
     background-color: transparent;
-
     mix-blend-mode: normal;
+
+    :not(.site_title) > & {
+      transform: scale(1.2);
+    }
   }
 }
