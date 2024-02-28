@@ -26,11 +26,8 @@
     {% if tagsSize > 0 %}
       <li class="tags meta__item meta__tags">
         {% icon "tags", "Tags" %}
-        {% set comma = joiner(", ") %}
-        {%- for tag in item.data.tags -%}
-          {{ comma() }}
-          <a href="/tags/{{ tag | slugify }}/" rel="tag" class="p-category">{{ tag }}</a>
-        {%- endfor -%}
+        {%- set comma = joiner(", ") -%}
+        {%- for tag in item.data.tags -%}{{- comma() }} <a href="/tags/{{ tag | slugify }}/" rel="tag" class="p-category">{{ tag }}</a>{%- endfor -%}
       </li>
     {% endif %}
     {# TODO: optimize with add number to the computed FM data? #}

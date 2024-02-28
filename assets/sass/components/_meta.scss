@@ -49,8 +49,16 @@
 }
 
 .meta__date,
-.meta__count, .meta__tags a {
+.meta__count {
   white-space: nowrap;
+}
+
+.meta__tags {
+  flex-wrap: wrap;
+
+  a  {
+    white-space: nowrap;
+  }
 }
 
 .meta__author, article.note .meta__date {
