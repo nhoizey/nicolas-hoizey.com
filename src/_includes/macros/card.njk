@@ -1,5 +1,5 @@
 {% macro card(type = false, lang = 'en', surtitle = false, title = false, url = false, illustration = false, content = false, meta = false, lazy = true) %}
-  <li class="card-list__item">
+  <li>
     <article class="card {{ type or '' }} h-entry" lang="{{ lang }}">
       {% if illustration %}
         <img
