@@ -7,12 +7,14 @@
   {% endset %}
 
   {% set meta %}
-  {{ meta(note, permalink=true) }}
+  {{ meta(note, permalink=false) }}
   {% endset %}
 
   {{ card(
     type = 'note',
     lang = note.data.lang,
+    title = note.data.body.title,
+    url = note.url,
     content = content,
     meta = meta)
   }}

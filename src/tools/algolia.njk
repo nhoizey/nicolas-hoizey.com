@@ -105,12 +105,12 @@ permalink: /tools/algolia.json
 ,
 {% for entry in collections.notes %}
   {%- set absoluteEntryUrl -%}{{- pkg.homepage -}}{{- entry.url -}}{%- endset -%}
-  {%- set metaHtml %}{{ meta(entry, true) }}{%- endset -%}
+  {%- set metaHtml %}{{ meta(entry, false) }}{%- endset -%}
   {
     "type": "notes",
     "lang": "{{ entry.data.lang }}",
     "surtitle": "",
-    "title": "",
+    "title": "{{ entry.data.body.title }}",
 		"date": {{ entry.date | timestamp }},
 		"date.lvl0": "{{ entry.date | year }}",
 		"date.lvl1": "{{ entry.date | year }} > {{ entry.date | month }}",

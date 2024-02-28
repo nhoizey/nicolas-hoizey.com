@@ -55,7 +55,7 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
     <p class="page__surtitle">{{ authors.html | safe }}</p>
   {% endif %}
 
-  <h1 class="page__title p-name{%- if layout == 'note' or layout == 'billets' %} visually-hidden{%- endif -%}">{{ body.title | orphans | safe }}</h1>
+  <h1 class="page__title p-name">{{ body.title | orphans | safe }}</h1>
 
   {% set item = {
     data: {
