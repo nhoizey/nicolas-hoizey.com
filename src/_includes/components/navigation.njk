@@ -16,8 +16,6 @@
           <a href="{{ url }}">{{ type }}</a>
         </li>
       {% endfor %}
-    </ul>
-    <ul class="tools" role="list">
       <li class="tools__search navigation__archives" {% if page.url != false and '/archives/' in page.url %}aria-current="page"{% endif %}>
         <a href="/archives/">{% icon "search", "Search" %}<span>archives</span></a>
       </li>

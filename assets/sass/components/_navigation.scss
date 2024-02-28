@@ -31,23 +31,21 @@
     display: none;
   }
 
-  .wrap {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap: 0.5rem;
-    justify-content: space-between;
-  }
-
   ul {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 0.2em;
+    padding-inline-start: 0;
 
-    margin: 0;
-    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(5, min-content) 1fr min-content;
+    justify-items: start;
+    gap: 0.5em;
 
     list-style-type: none;
+  }
+
+  li:nth-last-child(-n + 2) {
+    justify-self: end;
+
   }
 
   li {
@@ -90,21 +88,16 @@
     }
   }
 
-  .tools {
-    color: var(--color-primary);
-
-    svg {
-      fill: transparent;
-      stroke: currentColor;
-      stroke-width: 2px;
-
-    }
-    polyline {
-      fill: none;
-      stroke: currentColor;
-      stroke-width: 2px;
-    }
+  svg {
+    fill: transparent;
+    stroke: currentColor;
+    stroke-width: 2px;
   }
+  // polyline {
+  //   fill: none;
+  //   stroke: currentColor;
+  //   stroke-width: 2px;
+  // }
 }
 
 .no-js .tools__search svg {
