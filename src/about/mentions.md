@@ -6,6 +6,10 @@ lang: fr
 
 # Mentions générales
 
+## 2024
+
+Le **27 février 2024**, Matthias Ott me cite dans [le numéro 10 de sa newsletter “Own Your Web”](https://buttondown.email/ownyourweb/archive/issue-10/) au sujet de ma catégorie [Links](/links/) et de mon [article à propos du bookmarklet]({% link_to "a-bookmarklet-to-create-a-new-link-content-markdown-on-github" %}) permettant de les créer.
+
 ## 2020
 
 Le **20 octobre 2020**, Hubert Sablonnière me fait l'incroyable honneur de [me nommer "the French Jeremy Keith"](https://www.hsablonniere.com/once-upon-a-blog--9849zg/)… ☺️
