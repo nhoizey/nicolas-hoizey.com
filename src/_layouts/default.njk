@@ -23,12 +23,8 @@
             <a class="h-card" href="/" rel="me" title="Homepage">Nicolas Hoizey</a>
           </p>
         {% endif %}
-        <ul class="elsewhere">
-          <li {% if page.url != false and '/feeds/' in page.url %}aria-current="page"{% endif %}>
-            <a href="/feeds/" title="Link to my page about feeds">{% icon "feeds", "Feeds" %}</a>
-          </li>
-          <li><a href="https://mamot.fr/@nhoizey" title="Link to my Mastodon profile" rel="me">{% icon "mastodon", "Link to my Mastodon profile" %}</a></li>
-        </ul>
+        <a href="/feeds/" title="Subscribe to my feeds" {% if page.url != false and '/feeds/' in page.url %}aria-current="page"{% endif %}>{% icon "feed", "Subscribe to my feeds" %}</a>
+        <a href="https://mamot.fr/@nhoizey" title="See my Mastodon profile" rel="me">{% icon "mastodon", "See my Mastodon profile" %}</a>
       </div>
     </header>
 
