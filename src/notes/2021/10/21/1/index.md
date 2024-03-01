@@ -1,6 +1,6 @@
 ---
 date: 2021-10-21 14:32:53 +02:00
-tags: []
+tags: [A Book Apart, book]
 ---
 
 OMG, free shipping today on @abookapart on orders over $75, even international! 😍
