@@ -7,4 +7,4 @@ I'm really sad to read that [A Book Apart](https://abookapart.com/) is [ceasing 
 
 I still have some of these to read… 😅
 
-![My huge collection of books from A Book Apart](my-huge-collection-of-books-from-a-book-apart.jpeg)
+![My huge collection of books from A Book Apart](my-huge-collection-of-books-from-a-book-apart.jpg)
