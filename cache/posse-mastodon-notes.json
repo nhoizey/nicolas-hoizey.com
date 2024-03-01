@@ -1269,5 +1269,24 @@
       "https://mamot.fr/users/nhoizey/statuses/111941846764248854"
     ],
     "lastTootTimestamp": 1708097027188
+  },
+  "https://nicolas-hoizey.com/notes/2024/03/01/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2024/03/01/1/",
+    "url": "https://nicolas-hoizey.com/notes/2024/03/01/1/",
+    "lang": "en",
+    "title": "💬 Note from 1 March 2024, 16:56",
+    "date_published": "2024-03-01T15:56:03Z",
+    "content_text": "I'm really sad to read that A Book Apart is ceasing its publishing activity, which for almost 15 years has built up a collection of must-have reference books.\n\nI still have some of these to read… 😅\n\n#ABookApart #book\n\n⚓️ https://nicolas-hoizey.com/notes/2024/03/01/1/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2024/03/01/1/my-huge-collection-of-books-from-a-book-apart.jpg",
+        "mime_type": "image/jpg",
+        "title": "My huge collection of books from A Book Apart"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112021839000411363"
+    ],
+    "lastTootTimestamp": 1709317611860
   }
 }
