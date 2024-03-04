@@ -42,6 +42,9 @@
     "mastodon": "@slightlyoff@toot.cafe",
     "site": "https://infrequently.org/"
   },
+  "Alice Thudt": {
+    "site": "https://www.alicethudt.de/"
+  },
   "Alistair Shepherd": {
     "mastodon": "@accudio@mastodon.scot",
     "twitter": "accudio",
@@ -236,6 +239,10 @@
   "Dion Almaer": {
     "site": "https://blog.almaer.com/",
     "mastodon": "@dalmaer@indieweb.social"
+  },
+  "Dominikus Baur": {
+    "site": "https://do.minik.us/",
+    "mastodon": "@dominikus@vis.social"
   },
   "Donnie D'Amato": {
     "twitter": "donniedamato",
