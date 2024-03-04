@@ -1,22 +1,26 @@
 @use 'global/utilities';
 
 .welcome {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 5vw;
 
   margin-top: 3vw;
   margin-bottom: 3vw;
-  @extend %clearfix;
+
+  & > * {
+    margin: 0;
+  }
+}
+
+.welcome__text {
+  --flow-space: 3rem;
   @extend %flow;
+
+  font-size: var(--font-size-l);
 }
 
 .welcome__name {
   color: var(--color-primary);
   font-size: var(--font-size-xxl);
-
-  @media (min-width: 20em) {
-    margin-top: 0;
-  }
-}
-
-.welcome__text {
-  font-size: var(--font-size-l);
 }

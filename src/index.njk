@@ -32,14 +32,11 @@ JSON-LD for:
 <div class="page">
 
   <div class="welcome h-card">
-    {% markdown %}![](/assets/me/nicolas-hoizey.jpg){.portrait}{.logo}{% endmarkdown %}
-    <p class="welcome__name">Hi, I'm <strong class="p-name">Nicolas Hoizey</strong>.</p>
-    <p class="welcome__text p-note">
-      Passionate about the Web, I co-founded
-      <a href="https://www.clever-age.com/en/" class="p-org h-card">Clever Age</a>, a full-service agency covering the entire digital production chain.
-      <br />
-      I have <a href="/tags/">many other interests</a>, including <a href="https://nicolas-hoizey.photo">photography</a>.
-    </p>
+    <div class="welcome__text">
+      <p class="welcome__name">Hi, I'm <strong class="p-name">Nicolas Hoizey</strong>.</p>
+      <p class="p-note">I'm passionate about the Web and <a href="https://nicolas-hoizey.photo">photography</a>, but I also have <a href="/tags/">many other interests</a>.</p>
+    </div>
+    {% markdown %}![](/assets/me/nicolas-hoizey.jpg){.portrait}{% endmarkdown %}
   </div>
 
   {% from "macros/articleCard.njk" import articleCard %}
