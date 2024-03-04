@@ -161,7 +161,6 @@ module.exports = {
     sizes:
       '(min-width: 66.7rem) 14.4rem, (min-width: 30rem) calc(22.5vw - .6rem), (min-width: 20rem) calc(30vw - .6rem), calc(45vw - .6rem)',
     figure: 'never',
-    classes: ['logo'],
   },
   small_logo: {
     fallbackWidth: 100,
