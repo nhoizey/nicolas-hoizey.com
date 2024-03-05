@@ -2736,5 +2736,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112039118142028422"
     ],
     "lastTootTimestamp": 1709581270556
+  },
+  "https://nicolas-hoizey.com/links/2024/03/05/emo-emote-portrait-alive/": {
+    "id": "https://nicolas-hoizey.com/links/2024/03/05/emo-emote-portrait-alive/",
+    "url": "https://nicolas-hoizey.com/links/2024/03/05/emo-emote-portrait-alive/",
+    "lang": "en",
+    "title": "🔗 EMO: Emote Portrait Alive",
+    "date_published": "2024-03-05T14:20:11Z",
+    "content_text": "🔗 “EMO: Emote Portrait Alive”\n\n#audio #video #AI \n\n⚓️ https://nicolas-hoizey.com/links/2024/03/05/emo-emote-portrait-alive/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://humanaigc.github.io/emote-portrait-alive/",
+        "mime_type": "image/png",
+        "title": "Screenshot of EMO: Emote Portrait Alive"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112044780548965661"
+    ],
+    "lastTootTimestamp": 1709667672081
   }
 }
