@@ -1276,7 +1276,7 @@
     "lang": "en",
     "title": "💬 Note from 1 March 2024, 16:56",
     "date_published": "2024-03-01T15:56:03Z",
-    "content_text": "I'm really sad to read that A Book Apart is ceasing its publishing activity, which for almost 15 years has built up a collection of must-have reference books.\n\nI still have some of these to read… 😅\n\n#ABookApart #book\n\n⚓️ https://nicolas-hoizey.com/notes/2024/03/01/1/",
+    "content_text": "I'm really sad to read that @abookapart@front-end.social is ceasing its publishing activity, which for almost 15 years has built up a collection of must-have reference books.\n\nI still have some of these to read… 😅\n\n#book\n\n⚓️ https://nicolas-hoizey.com/notes/2024/03/01/1/",
     "attachments": [
       {
         "url": "https://nicolas-hoizey.com/notes/2024/03/01/1/my-huge-collection-of-books-from-a-book-apart.jpg",
@@ -1288,5 +1288,18 @@
       "https://mamot.fr/users/nhoizey/statuses/112021839000411363"
     ],
     "lastTootTimestamp": 1709317611860
+  },
+  "https://nicolas-hoizey.com/notes/2024/03/08/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2024/03/08/1/",
+    "url": "https://nicolas-hoizey.com/notes/2024/03/08/1/",
+    "lang": "en",
+    "title": "💬 Note from 8 March 2024, 00:27",
+    "date_published": "2024-03-07T23:27:16Z",
+    "content_text": "Wow, #Pagefind search is so easy to add to an existing static site!\n\nI'm trying it for my photography site: https://nicolas-hoizey.photo/search/\n\nAdding the indexer in the build script and the client JS for the UI required less than half an hour. 😍\n\nThanks @cloudcannon@techhub.social ! 🙏\n\n#search\n\n⚓️ https://nicolas-hoizey.com/notes/2024/03/08/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112057042259417252"
+    ],
+    "lastTootTimestamp": 1709854770954
   }
 }
