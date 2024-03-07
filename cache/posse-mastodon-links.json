@@ -2755,5 +2755,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112044780548965661"
     ],
     "lastTootTimestamp": 1709667672081
+  },
+  "https://nicolas-hoizey.com/links/2024/03/07/how-many-bytes-is-normal-for-a-web-font-a-study-using-google-fonts/": {
+    "id": "https://nicolas-hoizey.com/links/2024/03/07/how-many-bytes-is-normal-for-a-web-font-a-study-using-google-fonts/",
+    "url": "https://nicolas-hoizey.com/links/2024/03/07/how-many-bytes-is-normal-for-a-web-font-a-study-using-google-fonts/",
+    "lang": "en",
+    "title": "🔗 How many bytes is “normal” for a web font: a study using Google fonts",
+    "date_published": "2024-03-07T11:46:59Z",
+    "content_text": "🔗 “How many bytes is “normal” for a web font: a study using Google fonts”\n\n#font #WebPerf \n\n⚓️ https://nicolas-hoizey.com/links/2024/03/07/how-many-bytes-is-normal-for-a-web-font-a-study-using-google-fonts/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.phpied.com/bytes-normal-web-font-study-google-fonts/",
+        "mime_type": "image/png",
+        "title": "Screenshot of How many bytes is “normal” for a web font: a study using Google fonts"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112054688749834533"
+    ],
+    "lastTootTimestamp": 1709818859209
   }
 }
