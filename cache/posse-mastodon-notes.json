@@ -1301,5 +1301,18 @@
       "https://mamot.fr/users/nhoizey/statuses/112057042259417252"
     ],
     "lastTootTimestamp": 1709854770954
+  },
+  "https://nicolas-hoizey.com/notes/2024/03/12/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2024/03/12/1/",
+    "url": "https://nicolas-hoizey.com/notes/2024/03/12/1/",
+    "lang": "en",
+    "title": "💬 Note from 12 March 2024, 09:28",
+    "date_published": "2024-03-12T08:28:49Z",
+    "content_text": "Happy #INP day! 🎉\n\n#WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2024/03/12/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112081814250347880"
+    ],
+    "lastTootTimestamp": 1710232761482
   }
 }
