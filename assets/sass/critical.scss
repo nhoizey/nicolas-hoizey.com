@@ -642,30 +642,3 @@ ins {
   color: darkgreen;
   text-decoration: none;
 }
-
-// ************************************************************
-// Animate <mark> on scroll
-// https://frontendmasters.com/blog/highlight-text-when-a-user-scrolls-down-to-that-piece-of-text/
-// ************************************************************
-
-article mark {
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  background-image: linear-gradient(yellow, yellow);
-
-  animation: mark_it linear;
-  animation-fill-mode: forwards;
-  animation-timeline: view();
-  animation-iteration-count: 1;
-  animation-range: contain -20% contain 30%;
-}
-
-@keyframes mark_it {
-  0% {
-    background-size: 0 100%;
-  }
-  100% {
-    background-size: 100% 100%;
-  }
-}
