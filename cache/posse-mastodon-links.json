@@ -2778,5 +2778,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112054688749834533"
     ],
     "lastTootTimestamp": 1709818859209
+  },
+  "https://nicolas-hoizey.com/links/2024/03/14/arguments-for-opening-links-in-a-new-tab-or-window/": {
+    "id": "https://nicolas-hoizey.com/links/2024/03/14/arguments-for-opening-links-in-a-new-tab-or-window/",
+    "url": "https://nicolas-hoizey.com/links/2024/03/14/arguments-for-opening-links-in-a-new-tab-or-window/",
+    "lang": "en",
+    "title": "🔗 Arguments for opening links in a new tab or window",
+    "date_published": "2024-03-14T16:28:26Z",
+    "content_text": "🔗 “Arguments for opening links in a new tab or window” by @grigs@front-end.social\n\n#accessibility #UX \n\n⚓️ https://nicolas-hoizey.com/links/2024/03/14/arguments-for-opening-links-in-a-new-tab-or-window/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://cloudfour.com/thinks/arguments-for-opening-links-in-a-new-tab-or-window/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Arguments for opening links in a new tab or window"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112095032835061717"
+    ],
+    "lastTootTimestamp": 1710434461065
   }
 }
