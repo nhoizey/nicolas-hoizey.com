@@ -2797,5 +2797,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112095032835061717"
     ],
     "lastTootTimestamp": 1710434461065
+  },
+  "https://nicolas-hoizey.com/links/2024/03/15/links-worth-sharing/": {
+    "id": "https://nicolas-hoizey.com/links/2024/03/15/links-worth-sharing/",
+    "url": "https://nicolas-hoizey.com/links/2024/03/15/links-worth-sharing/",
+    "lang": "en",
+    "title": "🔗 Links Worth Sharing",
+    "date_published": "2024-03-15T17:48:35Z",
+    "content_text": "🔗 “Links Worth Sharing” by @matthiasott@mastodon.social\n\n#IndieWeb \n\n⚓️ https://nicolas-hoizey.com/links/2024/03/15/links-worth-sharing/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://matthiasott.com/notes/links-worth-sharing",
+        "mime_type": "image/png",
+        "title": "Screenshot of Links Worth Sharing"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112101403865941672"
+    ],
+    "lastTootTimestamp": 1710531675301
   }
 }
