@@ -2819,5 +2819,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112150240922827681"
     ],
     "lastTootTimestamp": 1711276869685
+  },
+  "https://nicolas-hoizey.com/links/2024/03/26/the-business-case-for-digital-accessibility/": {
+    "id": "https://nicolas-hoizey.com/links/2024/03/26/the-business-case-for-digital-accessibility/",
+    "url": "https://nicolas-hoizey.com/links/2024/03/26/the-business-case-for-digital-accessibility/",
+    "lang": "en",
+    "title": "🔗 The Business Case for Digital Accessibility",
+    "date_published": "2024-03-26T13:23:45Z",
+    "content_text": "🔗 “The Business Case for Digital Accessibility”\n\n#accessibility \n\n⚓️ https://nicolas-hoizey.com/links/2024/03/26/the-business-case-for-digital-accessibility/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.w3.org/WAI/business-case/",
+        "mime_type": "image/png",
+        "title": "Screenshot of The Business Case for Digital Accessibility"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112162275253044608"
+    ],
+    "lastTootTimestamp": 1711460498958
   }
 }
