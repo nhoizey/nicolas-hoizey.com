@@ -2838,5 +2838,40 @@
       "https://mamot.fr/users/nhoizey/statuses/112162275253044608"
     ],
     "lastTootTimestamp": 1711460498958
+  },
+  "https://nicolas-hoizey.com/links/2024/03/26/identifying-font-subsetting-opportunities-with-web-font-analyzer/": {
+    "id": "https://nicolas-hoizey.com/links/2024/03/26/identifying-font-subsetting-opportunities-with-web-font-analyzer/",
+    "url": "https://nicolas-hoizey.com/links/2024/03/26/identifying-font-subsetting-opportunities-with-web-font-analyzer/",
+    "lang": "en",
+    "title": "🔗 Identifying Font Subsetting Opportunities with Web Font Analyzer",
+    "date_published": "2024-03-26T16:29:46Z",
+    "content_text": "🔗 “Identifying Font Subsetting Opportunities with Web Font Analyzer” by @paulcalvano@webperf.social\n\n#WebPerf #font \n\n⚓️ https://nicolas-hoizey.com/links/2024/03/26/identifying-font-subsetting-opportunities-with-web-font-analyzer/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://paulcalvano.com/2024-02-16-identifying-font-subsetting-opportunities/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Identifying Font Subsetting Opportunities with Web Font Analyzer"
+      }
+    ],
+    "toots": []
+  },
+  "https://nicolas-hoizey.com/links/2024/03/26/view-transitions-handling-aspect-ratio-changes/": {
+    "id": "https://nicolas-hoizey.com/links/2024/03/26/view-transitions-handling-aspect-ratio-changes/",
+    "url": "https://nicolas-hoizey.com/links/2024/03/26/view-transitions-handling-aspect-ratio-changes/",
+    "lang": "en",
+    "title": "🔗 View transitions: Handling aspect ratio changes",
+    "date_published": "2024-03-26T16:10:51Z",
+    "content_text": "🔗 “View transitions: Handling aspect ratio changes” by @jaffathecake@mastodon.social\n\n#ViewTransitions #CSS #animation \n\n⚓️ https://nicolas-hoizey.com/links/2024/03/26/view-transitions-handling-aspect-ratio-changes/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://jakearchibald.com/2024/view-transitions-handling-aspect-ratio-changes/",
+        "mime_type": "image/png",
+        "title": "Screenshot of View transitions: Handling aspect ratio changes"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112163690563693668"
+    ],
+    "lastTootTimestamp": 1711482094919
   }
 }
