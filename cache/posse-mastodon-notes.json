@@ -1327,5 +1327,18 @@
       "https://mamot.fr/users/nhoizey/statuses/112122977487840646"
     ],
     "lastTootTimestamp": 1710860862645
+  },
+  "https://nicolas-hoizey.com/notes/2024/03/29/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2024/03/29/1/",
+    "url": "https://nicolas-hoizey.com/notes/2024/03/29/1/",
+    "lang": "en",
+    "title": "💬 Note from 29 March 2024, 19:28",
+    "date_published": "2024-03-29T18:28:37Z",
+    "content_text": "People using my GitHub Action to #POSSE from a content feed to Mastodon, if you're setting `ignoreFirstRun: true`, did you have one of these issues?\n\n- Issue with long `delayTootsSameItem`: https://github.com/nhoizey/github-action-feed-to-mastodon/issues/61\n- Issue with priority of old items: https://github.com/nhoizey/github-action-feed-to-mastodon/issues/63\n\n#GitHub #Mastodon\n\n⚓️ https://nicolas-hoizey.com/notes/2024/03/29/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112180541499523661"
+    ],
+    "lastTootTimestamp": 1711739219737
   }
 }
