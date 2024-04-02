@@ -2876,5 +2876,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112163690563693668"
     ],
     "lastTootTimestamp": 1711482094919
+  },
+  "https://nicolas-hoizey.com/links/2024/04/02/how-we-re-approaching-theming-with-modern-css/": {
+    "id": "https://nicolas-hoizey.com/links/2024/04/02/how-we-re-approaching-theming-with-modern-css/",
+    "url": "https://nicolas-hoizey.com/links/2024/04/02/how-we-re-approaching-theming-with-modern-css/",
+    "lang": "en",
+    "title": "🔗 How we’re approaching theming with modern CSS",
+    "date_published": "2024-04-02T10:26:04Z",
+    "content_text": "🔗 “How we’re approaching theming with modern CSS” by @belldotbz@mastodon.social\n\n#CSS \n\n⚓️ https://nicolas-hoizey.com/links/2024/04/02/how-we-re-approaching-theming-with-modern-css/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://piccalil.li/blog/how-were-approaching-theming-with-modern-css/",
+        "mime_type": "image/png",
+        "title": "Screenshot of How we’re approaching theming with modern CSS"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112201201879078568"
+    ],
+    "lastTootTimestamp": 1712054472212
   }
 }
