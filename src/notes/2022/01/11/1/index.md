@@ -1,6 +1,6 @@
 ---
 date: 2022-01-11 14:48:21 +01:00
-tags: [responsive, image]
+tags: [responsive, image, Container Queries]
 ---
 
 Year 2022: [the year of Container Queries](https://www.bram.us/2021/12/27/css-in-2022/#the-hotlist--container-queries)
