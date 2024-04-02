@@ -2914,5 +2914,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112201910671436266"
     ],
     "lastTootTimestamp": 1712065287510
+  },
+  "https://nicolas-hoizey.com/links/2024/04/02/an-interactive-guide-to-css-container-queries/": {
+    "id": "https://nicolas-hoizey.com/links/2024/04/02/an-interactive-guide-to-css-container-queries/",
+    "url": "https://nicolas-hoizey.com/links/2024/04/02/an-interactive-guide-to-css-container-queries/",
+    "lang": "en",
+    "title": "🔗 An Interactive Guide to CSS Container Queries",
+    "date_published": "2024-04-02T15:56:21Z",
+    "content_text": "🔗 “An Interactive Guide to CSS Container Queries” by @shadeed9@front-end.social\n\n#CSS #ContainerQueries \n\n⚓️ https://nicolas-hoizey.com/links/2024/04/02/an-interactive-guide-to-css-container-queries/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://ishadeed.com/article/css-container-query-guide#news-section",
+        "mime_type": "image/png",
+        "title": "Screenshot of An Interactive Guide to CSS Container Queries"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112203324931072238"
+    ],
+    "lastTootTimestamp": 1712086867347
   }
 }
