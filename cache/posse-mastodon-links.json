@@ -2933,5 +2933,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112203324931072238"
     ],
     "lastTootTimestamp": 1712086867347
+  },
+  "https://nicolas-hoizey.com/links/2024/04/03/javascript-visualized-promise-execution/": {
+    "id": "https://nicolas-hoizey.com/links/2024/04/03/javascript-visualized-promise-execution/",
+    "url": "https://nicolas-hoizey.com/links/2024/04/03/javascript-visualized-promise-execution/",
+    "lang": "en",
+    "title": "🔗 JavaScript Visualized - Promise Execution",
+    "date_published": "2024-04-03T11:44:56Z",
+    "content_text": "🔗 “JavaScript Visualized - Promise Execution”\n\n#JavaScript \n\n⚓️ https://nicolas-hoizey.com/links/2024/04/03/javascript-visualized-promise-execution/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.lydiahallie.com/blog/promise-execution",
+        "mime_type": "image/png",
+        "title": "Screenshot of JavaScript Visualized - Promise Execution"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112207571517970621"
+    ],
+    "lastTootTimestamp": 1712151665096
   }
 }
