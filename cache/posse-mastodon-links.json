@@ -2835,9 +2835,10 @@
       }
     ],
     "toots": [
-      "https://mamot.fr/users/nhoizey/statuses/112162275253044608"
+      "https://mamot.fr/users/nhoizey/statuses/112162275253044608",
+      "https://mamot.fr/users/nhoizey/statuses/112210461478671447"
     ],
-    "lastTootTimestamp": 1711460498958
+    "lastTootTimestamp": 1712195762446
   },
   "https://nicolas-hoizey.com/links/2024/03/26/identifying-font-subsetting-opportunities-with-web-font-analyzer/": {
     "id": "https://nicolas-hoizey.com/links/2024/03/26/identifying-font-subsetting-opportunities-with-web-font-analyzer/",
