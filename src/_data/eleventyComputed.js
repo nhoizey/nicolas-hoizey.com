@@ -173,17 +173,7 @@ function ogImageTitle(data) {
   if (data.page.url === '/') {
     return data.pkg.title;
   }
-  switch (data.layout) {
-    case 'article':
-    case 'link':
-    case 'talk':
-      return removeEmojis(title(data));
-    case 'note':
-      return removeEmojis(data.page.excerpt);
-    case 'billet':
-      return removeEmojis(data.page.excerpt);
-  }
-  return '';
+  return removeEmojis(title(data));
 }
 
 function ogImageTagline(data) {
