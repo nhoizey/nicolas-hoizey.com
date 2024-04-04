@@ -1353,5 +1353,18 @@
       "https://mamot.fr/users/nhoizey/statuses/112203553999895824"
     ],
     "lastTootTimestamp": 1712090362692
+  },
+  "https://nicolas-hoizey.com/notes/2024/04/04/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2024/04/04/1/",
+    "url": "https://nicolas-hoizey.com/notes/2024/04/04/1/",
+    "lang": "en",
+    "title": "💬 Note from 4 April 2024, 16:46",
+    "date_published": "2024-04-04T14:46:17Z",
+    "content_text": "Most mentions of the magical CSS `object-fit: cover;` in development tutorials should be accompanied by a warning: in most situations, it means the browser will download an image that is larger than required (at least in one direction), and optimization on the server side could be a better option.\n\n#CSS #image #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2024/04/04/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112213530749494220"
+    ],
+    "lastTootTimestamp": 1712242595745
   }
 }
