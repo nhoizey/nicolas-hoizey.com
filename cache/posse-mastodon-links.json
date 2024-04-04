@@ -2855,9 +2855,10 @@
       }
     ],
     "toots": [
-      "https://mamot.fr/users/nhoizey/statuses/112165159183070285"
+      "https://mamot.fr/users/nhoizey/statuses/112165159183070285",
+      "https://mamot.fr/users/nhoizey/statuses/112213942114055224"
     ],
-    "lastTootTimestamp": 1711504504258
+    "lastTootTimestamp": 1712248872717
   },
   "https://nicolas-hoizey.com/links/2024/03/26/view-transitions-handling-aspect-ratio-changes/": {
     "id": "https://nicolas-hoizey.com/links/2024/03/26/view-transitions-handling-aspect-ratio-changes/",
