@@ -2974,5 +2974,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112218895882059505"
     ],
     "lastTootTimestamp": 1712324461210
+  },
+  "https://nicolas-hoizey.com/links/2024/04/05/an-adventure-in-small-scale/": {
+    "id": "https://nicolas-hoizey.com/links/2024/04/05/an-adventure-in-small-scale/",
+    "url": "https://nicolas-hoizey.com/links/2024/04/05/an-adventure-in-small-scale/",
+    "lang": "en",
+    "title": "🔗 An Adventure in Small Scale",
+    "date_published": "2024-04-05T15:36:33Z",
+    "content_text": "🔗 “An Adventure in Small Scale” by @avanaut@mastodon.art\n\n#Lego #photography \n\n⚓️ https://nicolas-hoizey.com/links/2024/04/05/an-adventure-in-small-scale/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://avanaut.com/adventures-in-small-scale",
+        "mime_type": "image/png",
+        "title": "Screenshot of An Adventure in Small Scale"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112220311557133082"
+    ],
+    "lastTootTimestamp": 1712346062676
   }
 }
