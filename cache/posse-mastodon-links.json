@@ -2993,5 +2993,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112220311557133082"
     ],
     "lastTootTimestamp": 1712346062676
+  },
+  "https://nicolas-hoizey.com/links/2024/04/09/models-all-the-way-down/": {
+    "id": "https://nicolas-hoizey.com/links/2024/04/09/models-all-the-way-down/",
+    "url": "https://nicolas-hoizey.com/links/2024/04/09/models-all-the-way-down/",
+    "lang": "en",
+    "title": "🔗 Models All The Way Down",
+    "date_published": "2024-04-09T20:10:23Z",
+    "content_text": "🔗 “Models All The Way Down”\n\n#AI #LLM \n\n⚓️ https://nicolas-hoizey.com/links/2024/04/09/models-all-the-way-down/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://knowingmachines.org/models-all-the-way",
+        "mime_type": "image/png",
+        "title": "Screenshot of Models All The Way Down"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112243669080173889"
+    ],
+    "lastTootTimestamp": 1712702470175
   }
 }
