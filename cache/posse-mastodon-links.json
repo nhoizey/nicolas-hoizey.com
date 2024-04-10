@@ -3012,5 +3012,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112243669080173889"
     ],
     "lastTootTimestamp": 1712702470175
+  },
+  "https://nicolas-hoizey.com/links/2024/04/10/shogun-s-visual-style/": {
+    "id": "https://nicolas-hoizey.com/links/2024/04/10/shogun-s-visual-style/",
+    "url": "https://nicolas-hoizey.com/links/2024/04/10/shogun-s-visual-style/",
+    "lang": "en",
+    "title": "🔗 Shōgun’s Visual Style",
+    "date_published": "2024-04-10T07:38:14Z",
+    "content_text": "🔗 “Shōgun’s Visual Style” by @markllobrera@mastodon.social\n\n#movie \n\n⚓️ https://nicolas-hoizey.com/links/2024/04/10/shogun-s-visual-style/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.markllobrera.com/posts/shogun-visual-style/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Shōgun’s Visual Style"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112246500553490980"
+    ],
+    "lastTootTimestamp": 1712745675049
   }
 }
