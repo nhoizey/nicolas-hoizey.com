@@ -2915,9 +2915,10 @@
       }
     ],
     "toots": [
-      "https://mamot.fr/users/nhoizey/statuses/112201910671436266"
+      "https://mamot.fr/users/nhoizey/statuses/112201910671436266",
+      "https://mamot.fr/users/nhoizey/statuses/112251453702183192"
     ],
-    "lastTootTimestamp": 1712065287510
+    "lastTootTimestamp": 1712821254112
   },
   "https://nicolas-hoizey.com/links/2024/04/02/an-interactive-guide-to-css-container-queries/": {
     "id": "https://nicolas-hoizey.com/links/2024/04/02/an-interactive-guide-to-css-container-queries/",
