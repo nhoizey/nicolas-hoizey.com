@@ -2935,9 +2935,10 @@
       }
     ],
     "toots": [
-      "https://mamot.fr/users/nhoizey/statuses/112203324931072238"
+      "https://mamot.fr/users/nhoizey/statuses/112203324931072238",
+      "https://mamot.fr/users/nhoizey/statuses/112252870022431391"
     ],
-    "lastTootTimestamp": 1712086867347
+    "lastTootTimestamp": 1712842865419
   },
   "https://nicolas-hoizey.com/links/2024/04/03/javascript-visualized-promise-execution/": {
     "id": "https://nicolas-hoizey.com/links/2024/04/03/javascript-visualized-promise-execution/",
