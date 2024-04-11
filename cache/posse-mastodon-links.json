@@ -2895,9 +2895,10 @@
       }
     ],
     "toots": [
-      "https://mamot.fr/users/nhoizey/statuses/112201201879078568"
+      "https://mamot.fr/users/nhoizey/statuses/112201201879078568",
+      "https://mamot.fr/users/nhoizey/statuses/112250098726600712"
     ],
-    "lastTootTimestamp": 1712054472212
+    "lastTootTimestamp": 1712800578839
   },
   "https://nicolas-hoizey.com/links/2024/04/02/67-weird-debugging-tricks-your-browser-doesn-t-want-you-to-know/": {
     "id": "https://nicolas-hoizey.com/links/2024/04/02/67-weird-debugging-tricks-your-browser-doesn-t-want-you-to-know/",
