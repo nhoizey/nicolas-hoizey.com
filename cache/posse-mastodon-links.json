@@ -3037,5 +3037,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112246500553490980"
     ],
     "lastTootTimestamp": 1712745675049
+  },
+  "https://nicolas-hoizey.com/links/2024/04/17/hardest-problem-in-computer-science-centering-things/": {
+    "id": "https://nicolas-hoizey.com/links/2024/04/17/hardest-problem-in-computer-science-centering-things/",
+    "url": "https://nicolas-hoizey.com/links/2024/04/17/hardest-problem-in-computer-science-centering-things/",
+    "lang": "en",
+    "title": "🔗 Hardest Problem in Computer Science: Centering Things",
+    "date_published": "2024-04-17T12:38:17Z",
+    "content_text": "🔗 “Hardest Problem in Computer Science: Centering Things”\n\n#CSS #font \n\n⚓️ https://nicolas-hoizey.com/links/2024/04/17/hardest-problem-in-computer-science-centering-things/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://tonsky.me/blog/centering/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Hardest Problem in Computer Science: Centering Things"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112286843061939795"
+    ],
+    "lastTootTimestamp": 1713361252848
   }
 }
