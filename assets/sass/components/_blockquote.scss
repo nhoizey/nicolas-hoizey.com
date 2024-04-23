@@ -8,6 +8,7 @@ blockquote:not(.tweet-card) {
   margin-right: 0;
   margin-left: 0;
   padding: 1em;
+  border-inline-start: 2px solid var(--color-primary);
 
   color: var(--color-primary);
   font-size: var(--font-size-l);
