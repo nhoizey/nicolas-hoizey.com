@@ -3058,5 +3058,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112286843061939795"
     ],
     "lastTootTimestamp": 1713361252848
+  },
+  "https://nicolas-hoizey.com/links/2024/04/17/react-solid-htmx/": {
+    "id": "https://nicolas-hoizey.com/links/2024/04/17/react-solid-htmx/",
+    "url": "https://nicolas-hoizey.com/links/2024/04/17/react-solid-htmx/",
+    "lang": "en",
+    "title": "🔗 React, Solid, htmx",
+    "date_published": "2024-04-17T18:43:41Z",
+    "content_text": "🔗 “React, Solid, htmx”\n\n#HTMX #React #Solid #JavaScript #HTML \n\n⚓️ https://nicolas-hoizey.com/links/2024/04/17/react-solid-htmx/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://bobaekang.com/blog/react-solid-htmx/",
+        "mime_type": "image/png",
+        "title": "Screenshot of React, Solid, htmx"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112320109634610247"
+    ],
+    "lastTootTimestamp": 1713868860489
   }
 }
