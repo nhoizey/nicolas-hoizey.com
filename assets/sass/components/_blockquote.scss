@@ -4,11 +4,12 @@
 blockquote:not(.tweet-card) {
   position: relative;
 
-  min-height: 3em;
-  margin-right: 0;
-  margin-left: 0;
-  padding: 1em;
-  border-inline-start: 2px solid var(--color-primary);
+  min-height: 3rem;
+
+  margin: 3rem 0;
+  padding-inline-start: 2rem;
+  padding-inline-end: 1rem;
+  border-inline-start: .3rem solid var(--color-primary);
 
   color: var(--color-primary);
   font-size: var(--font-size-l);
@@ -26,16 +27,15 @@ blockquote:not(.tweet-card) {
 
   &::before {
     position: absolute;
-    top: -0.5rem;
-    left: -0.5rem;
-    z-index: -1;
+    top: -0.1rem;
+    left: -1.1rem;
 
-    content: functions.unicode('201C');
+    content: functions.unicode('275D');
 
-    color: var(--color-primary-lighter-7);
-    opacity: 0.7;
+    color: var(--color-primary);
+    background-color: white;
 
-    font-size: 9em;
+    font-size: 2em;
     font-style: normal;
     line-height: 1;
   }
