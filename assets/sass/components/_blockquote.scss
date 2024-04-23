@@ -6,7 +6,8 @@ blockquote:not(.tweet-card) {
 
   min-height: 3rem;
 
-  margin: 3rem 0;
+  margin-block: 3rem;
+  margin-inline-start: .75rem;
   padding-inline-start: 2rem;
   padding-inline-end: 1rem;
   border-inline-start: .3rem solid var(--color-primary);
