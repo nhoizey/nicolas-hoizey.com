@@ -3077,5 +3077,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112320109634610247"
     ],
     "lastTootTimestamp": 1713868860489
+  },
+  "https://nicolas-hoizey.com/links/2024/04/24/tracker-beeper/": {
+    "id": "https://nicolas-hoizey.com/links/2024/04/24/tracker-beeper/",
+    "url": "https://nicolas-hoizey.com/links/2024/04/24/tracker-beeper/",
+    "lang": "en",
+    "title": "🔗 Tracker Beeper",
+    "date_published": "2024-04-24T12:30:37Z",
+    "content_text": "🔗 “Tracker Beeper” by @bert_hubert@fosstodon.org\n\n#privacy #Google \n\n⚓️ https://nicolas-hoizey.com/links/2024/04/24/tracker-beeper/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://berthub.eu/articles/posts/tracker-beeper/?ref=axbom.com",
+        "mime_type": "image/png",
+        "title": "Screenshot of Tracker Beeper"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112326479737034729"
+    ],
+    "lastTootTimestamp": 1713966060531
   }
 }
