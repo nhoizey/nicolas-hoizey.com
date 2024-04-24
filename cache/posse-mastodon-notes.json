@@ -1366,5 +1366,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112213530749494220"
     ],
     "lastTootTimestamp": 1712242595745
+  },
+  "https://nicolas-hoizey.com/notes/2024/04/24/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2024/04/24/1/",
+    "url": "https://nicolas-hoizey.com/notes/2024/04/24/1/",
+    "lang": "en",
+    "title": "💬 Note from 24 April 2024, 15:49",
+    "date_published": "2024-04-24T13:49:26Z",
+    "content_text": "Should I please Lighthouse with modern image formats, or my visitors with progressive rendering of large images in my photography site? 🤔\n\nOf course, this would be much easier with genaralized JPEG XL support, both modern and allowing progressive… 🤷‍♂️\n\n#image #JPEGXL #Lighthouse #photography #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2024/04/24/1/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2024/04/24/1/lighthouse-images-next-gen-formats.jpg",
+        "mime_type": "image/jpg",
+        "title": "screenshot of Lighthouse score in SpeedCurve, with a recommendation to use modern image formats"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112326658364078502"
+    ],
+    "lastTootTimestamp": 1713968786156
   }
 }
