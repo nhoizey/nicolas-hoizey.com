@@ -239,7 +239,7 @@ module.exports = {
     // find caniuse shortcodes
     toot = toot.replace(/\{% caniuse "([^)]+)" %\}/, 'https://caniuse.com/$1');
 
-    // Remove some espacings
+    // Remove some escapings
     toot = toot.replace(/\\\+/gm, '+');
 
     // Normalize line feeds
