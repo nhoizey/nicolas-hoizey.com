@@ -79,6 +79,12 @@ const shortMessageLinks = (shortMessage) => {
   return shortMessage;
 };
 
+const shortMessageMark = (shortMessage) => {
+  // only keep the mark text
+  shortMessage = shortMessage.replace(/<\/?mark>/g, '');
+  return shortMessage;
+};
+
 const shortMessageStrike = (shortMessage) => {
   // replace <del>blah blah</del> by b̶̶l̶a̶h̶ ̶b̶l̶a̶h̶
   shortMessage = shortMessage.replace(
@@ -122,6 +128,7 @@ module.exports = {
     toot = shortMessageRemoveImage(toot);
     toot = shortMessageLinks(toot);
     toot = shortMessageStrike(toot);
+    toot = shortMessageMark(toot);
 
     toot = entities.decodeHTML(toot);
 
