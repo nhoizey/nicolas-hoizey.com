@@ -18,17 +18,14 @@ permalink: /feeds/mastodon/links2.json
 {%- endfor -%}
 {%- endif %}\n\n{%- endset -%}
     {%- set contentStartLength = contentStart | length -%}
-    {%- set contentEnd -%}\n\n{% for tag in entry.data.tags -%}#{{ tag | tagToHashtag }} {% endfor -%}{% endset %}
-    {%- set contentEndLength = contentEnd | length -%}
-    {%- set contentLength = contentStartLength + contentEndLength -%}
-    {%- set contentMiddle = entry.template.frontMatter.content | noteToToot(entry.data.tags) | truncate(450 - contentLength, false, '…') | cleanForJson | safe %}
+    {%- set contentEnd = entry.template.frontMatter.content | noteToToot(entry.data.tags) | truncate(450 - contentStartLength, false, '…') | cleanForJson | safe %}
     {
       "id": "{{ absoluteEntryUrl }}",
       "url": "{{ absoluteEntryUrl }}",
       "lang": "{{ entry.data.lang }}",
       "title": "🔗 {{ entry.data.title | escapeQuotes | safe }}",
       "date_published": "{{ entry.date | rssDate }}",
-      "content_text": "{{- contentStart | safe -}}{{- contentMiddle | safe -}}{{- contentEnd | safe -}}\n\n⚓️ {{ absoluteEntryUrl }}",
+      "content_text": "{{- contentStart | safe -}}{{- contentEnd | safe -}}\n\n⚓️ {{ absoluteEntryUrl }}",
       "attachments": [
         {
           "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/{{ entry.data.link }}",
