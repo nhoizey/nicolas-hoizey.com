@@ -24,80 +24,6 @@ const shortMessageCode = (shortMessage) => {
   return shortMessage;
 };
 
-const tweetHashtagTohandle = (tweet) => {
-  // convert hashtags to Twitter accounts
-  let handles = {
-    '#Algolia': '@algolia',
-    '#AlwaysData': '@alwaysdata',
-    '#CanIUse': '@caniuse',
-    '#Chrome': '@googlechrome',
-    '#Cloudflare': '@CloudflareDev',
-    '#Cloudinary': '@cloudinary',
-    '#CodePen': '@CodePen',
-    '#Coil': '@Coil',
-    '#Dareboost': '@Dareboost',
-    '#Eleventy': '@eleven_ty',
-    '#esviji': '@esviji',
-    '#Edge': '@MicrosoftEdge',
-    '#EveryLayout': '@layoutplusplus',
-    '#Fastly': '@fastly',
-    '#Firefox': '@firefox',
-    '#Flickr': '@Flickr',
-    '#Formula1': '@F1',
-    '#Gandi': '@gandi_net',
-    '#GitHub': '@github',
-    '#IFTTT': '@IFTTT',
-    '#Jekyll': '@jekyllrb',
-    '#Jest': '@fbjest',
-    '#Lego': '@LEGO_Group',
-    '#Leonardo': '@Leonardo_Color',
-    '#Lighthouse': '@____lighthouse',
-    '#Mapbox': '@Mapbox',
-    '#Mastodon': '@joinmastodon',
-    '#Matomo': '@matomo_org',
-    '#MDN': '@MozDevNet',
-    '#Netlify': '@Netlify',
-    '#Notist': '@benotist',
-    '#npm': '@npmjs',
-    '#Pinboard': '@Pinboard',
-    '#Rollup': '@RollupJS',
-    '#Setapp': '@setapp',
-    '#SpeedCurve': '@SpeedCurve',
-    '#Svelte': '@sveltejs',
-    '#Tailwind': '@tailwindcss',
-    '#Treo': '@__treo',
-    '#Unsplash': '@unsplash',
-    '#Uphold': '@UpholdInc',
-    '#VSCode': '@code',
-    '#webhint': '@webhintio',
-    '#Workbox': '@workboxjs',
-    '#WebPageTest': '@RealWebPageTest',
-  };
-  for (const tag in handles) {
-    tweet = tweet.replaceAll(tag, handles[tag]);
-  }
-
-  // Add zero width space to CSS At-rules
-  // https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule
-  [
-    'charset',
-    'import',
-    'namespace',
-    'media',
-    'supports',
-    'page',
-    'font-face',
-    'keyframes',
-    'counter-style',
-    'property',
-    'layer',
-  ].forEach((atRule) => {
-    tweet = tweet.replace(`@${atRule}`, `@​${atRule}`);
-  });
-
-  return tweet;
-};
-
 const tootHashtagTohandle = (toot, tags) => {
   // Remove tags from the list if they're already in the content as hashtags
   const hashTags = tags
@@ -183,40 +109,6 @@ module.exports = {
     }
 
     return JSON.stringify(attachments);
-  },
-  noteToTweet: (content, url) => {
-    tweet = content.trim();
-    tweet = shortMessageCode(tweet);
-
-    // remove bold and italics
-    tweet = tweet.replace(/\*+([^\*\n]+)\*+/g, '$1');
-
-    tweet = tweetHashtagTohandle(tweet);
-
-    tweet = shortMessageRemoveImage(tweet);
-    tweet = shortMessageLinks(tweet);
-    tweet = shortMessageStrike(tweet);
-
-    tweet = entities.decodeHTML(tweet);
-
-    // escape unicode
-    tweet = tweet.replace(/\\([0-9A-F])/gm, '\\\\$1');
-
-    // find caniuse shortcodes
-    tweet = tweet.replace(
-      /\{% caniuse \\"([^)]+)\\" %\}/,
-      'https://caniuse.com/$1'
-    );
-
-    // Normalize line feeds
-    tweet = tweet.replace(/\n/gm, '\\n');
-    tweet = tweet.replace(/(\\n){3,}/gm, '\\n\\n');
-    tweet = tweet.replace(/^(\\n)*/gm, '');
-    tweet = tweet.replace(/(\\n)*$/gm, '');
-
-    tweet = tweet.replace(/"/gm, '\\"');
-
-    return tweet;
   },
   noteToToot: (content, tags) => {
     toot = content.trim();
