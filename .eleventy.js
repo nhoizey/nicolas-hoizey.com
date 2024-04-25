@@ -230,24 +230,44 @@ module.exports = function (eleventyConfig) {
     md.render(excerptContent);
     let excerpt = md.plainText.trim();
 
-    excerpt = excerpt.replace(/{%(((?!(%})).|\n)+)%}/gm, ''); // remove short codes
-    excerpt = excerpt.replace(/{{(((?!(}})).|\n)+)}}/gm, ''); // remove nunjucks variables
-    excerpt = excerpt.replace(/{#(((?!(#})).|\n)+)#}/gm, ''); // remove nunjucks comments
-    excerpt = excerpt.replace(/<style>(((?!(<\/style>)).|\n)+)<\/style>/gm, ''); // remove inline CSS
+    // remove short codes
+    excerpt = excerpt.replace(/{%(((?!(%})).|\n)+)%}/gm, '');
+
+    // remove nunjucks variables
+    excerpt = excerpt.replace(/{{(((?!(}})).|\n)+)}}/gm, '');
+
+    // remove nunjucks comments
+    excerpt = excerpt.replace(/{#(((?!(#})).|\n)+)#}/gm, '');
+
+    // remove inline CSS
+    excerpt = excerpt.replace(/<style>(((?!(<\/style>)).|\n)+)<\/style>/gm, '');
+
+    // remove JSON+LD
     excerpt = excerpt.replace(
       /<script type="application\/ld\+json">(((?!(<\/script>)).|\n)+)<\/script>/gm,
       ''
-    ); // remove JSON+LD
-    excerpt = excerpt.replace(/(<\/h[1-6]>)/gm, '. $1'); // add a dot at the end of headings
+    );
+
+    // add a dot at the end of headings
+    excerpt = excerpt.replace(/(<\/h[1-6]>)/gm, '. $1');
+
+    // remove HTML tags
     excerpt = excerpt.replace(
       /<\/?([a-z][a-z0-9]*)\b[^>]*>|<!--[\s\S]*?-->/gm,
       ''
-    ); // remove HTML tags
-    excerpt = excerpt.replace(/(\[\^[^\]]+\])/gm, ''); // remove Markdown footnotes
-    excerpt = excerpt.replace(/\[([^\]]+)\]\(\)/gm, '$1'); // remove Markdown links without URL (from {% link_to %} for example)
-    excerpt = excerpt.replace(/ +(\.|,)/gm, '$1'); // remove space before punctuation
+    );
 
-    excerpt = excerpt.replace(/#ONEFENCE#/g, '`'); // restore fences
+    // remove Markdown footnotes
+    excerpt = excerpt.replace(/(\[\^[^\]]+\])/gm, '');
+
+    // remove Markdown links without URL (from {% link_to %} for example)
+    excerpt = excerpt.replace(/\[([^\]]+)\]\(\)/gm, '$1');
+
+    // remove space before punctuation
+    excerpt = excerpt.replace(/ +(\.|,)/gm, '$1');
+
+    // restore fences
+    excerpt = excerpt.replace(/#ONEFENCE#/g, '`');
 
     if (!leadFound && excerpt.length > 150) {
       // Keep only 145 characters and an ellipsis if there was no lead
