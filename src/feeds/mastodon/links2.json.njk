@@ -1,0 +1,42 @@
+---
+layout: null
+permalink: /feeds/mastodon/links2.json
+---
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Links - Nicolas Hoizey",
+  "home_page_url": "{{ pkg.homepage }}/links/",
+  "feed_url": "{{ pkg.homepage }}/feeds/mastodon/links2.json",
+  "items": [
+  {% for entry in collections.links | limit(20) %}
+    {%- set absoluteEntryUrl -%}{{- pkg.homepage -}}{{- entry.url -}}{%- endset -%}
+    {%- set contentStart -%}🔗 “{{ entry.data.title | escapeQuotes(true) | safe }}”{% set by = false -%}
+{%- if entry.data.authors -%}
+{%- for author in entry.data.authors -%}
+{%- set authorData = people[author] -%}
+{%- if authorData.mastodon -%}{%- if by == false %} by{%- set by = true -%}{%- endif %} {{ authorData.mastodon }}{% endif -%}
+{%- endfor -%}
+{%- endif %}\n\n{%- endset -%}
+    {%- set contentStartLength = contentStart | length -%}
+    {%- set contentEnd -%}\n\n{% for tag in entry.data.tags -%}#{{ tag | tagToHashtag }} {% endfor -%}{% endset %}
+    {%- set contentEndLength = contentEnd | length -%}
+    {%- set contentLength = contentStartLength + contentEndLength -%}
+    {%- set contentMiddle = entry.template.frontMatter.content | noteToToot(entry.data.tags) | truncate(450 - contentLength, false, '…') | cleanForJson | safe %}
+    {
+      "id": "{{ absoluteEntryUrl }}",
+      "url": "{{ absoluteEntryUrl }}",
+      "lang": "{{ entry.data.lang }}",
+      "title": "🔗 {{ entry.data.title | escapeQuotes | safe }}",
+      "date_published": "{{ entry.date | rssDate }}",
+      "content_text": "{{- contentStart | safe -}}{{- contentMiddle | safe -}}{{- contentEnd | safe -}}\n\n⚓️ {{ absoluteEntryUrl }}",
+      "attachments": [
+        {
+          "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/{{ entry.data.link }}",
+          "mime_type": "image/png",
+          "title": "Screenshot of {{ entry.data.title}}"
+        }
+      ]
+    }{%- if not loop.last -%},{%- endif -%}
+  {% endfor %}
+  ]
+}
