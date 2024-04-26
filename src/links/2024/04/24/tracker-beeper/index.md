@@ -2,7 +2,7 @@
 date: 2024-04-24 12:30:37 +00:00
 title: "Tracker Beeper"
 lang: en
-link: https://berthub.eu/articles/posts/tracker-beeper/?ref=axbom.com
+link: https://berthub.eu/articles/posts/tracker-beeper/
 authors:
   - "Bert Hubert"
 tags: [privacy, Google]
