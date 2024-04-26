@@ -148,7 +148,6 @@ const mdToToot = (title, content, tags, url, link = '', authors = []) => {
         const mastodonAuthors = authors.map(
           (author) => people[author]?.mastodon || author
         );
-        console.dir(mastodonAuthors);
         toot +=
           mastodonAuthors.slice(0, -1).join(', ') +
           ' and ' +
@@ -174,13 +173,14 @@ const mdToToot = (title, content, tags, url, link = '', authors = []) => {
       );
     } else {
       // Shorten the content part
-      cleanContent = cleanContent.substring(
-        0,
-        cleanContent.lastIndexOf(
-          ' ',
-          TOOT_MAX_LENGTH - tootLength - hashTags.length
-        )
-      );
+      cleanContent =
+        cleanContent.substring(
+          0,
+          cleanContent.lastIndexOf(
+            ' ',
+            TOOT_MAX_LENGTH - tootLength - hashTags.length
+          )
+        ) + '…';
     }
   }
 
