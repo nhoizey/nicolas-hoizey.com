@@ -10,13 +10,14 @@ permalink: /feeds/mastodon/notes.json
   "items": [
   {% for entry in collections.notes | limit(20) %}
     {%- set absoluteEntryUrl -%}{{- pkg.homepage -}}{{- entry.url -}}{%- endset -%}
+    {%- set title -%}💬 Note from {{ entry.date | formattedDateTime }}{%- endset -%}
     {
       "id": "{{ absoluteEntryUrl }}",
       "url": "{{ absoluteEntryUrl }}",
       "lang": "{{ entry.data.lang }}",
-      "title": "💬 Note from {{ entry.date | formattedDateTime }}",
+      "title": "{{ title }}",
       "date_published": "{{ entry.date | rssDate }}",
-      "content_text": "{{ entry.template.frontMatter.content | noteToToot(entry.data.tags) | safe }}\n\n⚓️ {{ absoluteEntryUrl }}",
+      "content_text": "{{ title | mdToToot(entry.template.frontMatter.content, entry.data.tags, absoluteEntryUrl) | safe }}",
       "attachments": {{ entry.template.frontMatter.content | imagesAsAttachments(absoluteEntryUrl) | safe }}
     }{%- if not loop.last -%},{%- endif -%}
   {% endfor %}

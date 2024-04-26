@@ -2,9 +2,11 @@ const twitter = require('twitter-text');
 const slugifyString = require('../../_utils/slugify');
 const path = require('path');
 const entities = require('entities');
+const people = require('../../_data/people.json');
 
 const { tagToHashtag } = require('./string.js');
 
+const TOOT_MAX_LENGTH = 450;
 const MARKDOWN_IMAGE_REGEX = /!\[([^\]]*)\]\(([^\) ]+)( [^\)]+)?\)({.[^}]+})?/g;
 
 function htmlEntities(str) {
@@ -16,7 +18,7 @@ function htmlEntities(str) {
     .replace(/"/g, '&quot;');
 }
 
-const shortMessageCode = (shortMessage) => {
+const tootCode = (shortMessage) => {
   // Deal with inline code
   shortMessage = shortMessage.replace(/`([^`]+)`/g, (correspondance, code) => {
     return '`' + htmlEntities(code) + '`';
@@ -60,32 +62,28 @@ const tootHashtagTohandle = (toot, tags) => {
     toot = toot.replace(`@${atRule}`, `@​${atRule}`);
   });
 
-  if (hashTags.length > 0) {
-    toot = toot.concat('\n\n', hashTags.join(' '));
-  }
-
-  return toot;
+  return { tootwithHandles: toot, hashTags: hashTags.join(' ') };
 };
 
-const shortMessageRemoveImage = (shortMessage) => {
+const tootRemoveImage = (shortMessage) => {
   // remove markdown images
   shortMessage = shortMessage.replace(MARKDOWN_IMAGE_REGEX, '');
   return shortMessage;
 };
 
-const shortMessageLinks = (shortMessage) => {
+const tootLinks = (shortMessage) => {
   // only keep the links text
   shortMessage = shortMessage.replace(/\[([^\]]+)\]\(([^\)]+)\)/g, '$1');
   return shortMessage;
 };
 
-const shortMessageMark = (shortMessage) => {
+const tootMark = (shortMessage) => {
   // only keep the mark text
   shortMessage = shortMessage.replace(/<\/?mark>/g, '');
   return shortMessage;
 };
 
-const shortMessageStrike = (shortMessage) => {
+const tootStrike = (shortMessage) => {
   // replace <del>blah blah</del> by b̶̶l̶a̶h̶ ̶b̶l̶a̶h̶
   shortMessage = shortMessage.replace(
     /<del>([^<]+)<\/del>/g,
@@ -97,6 +95,98 @@ const shortMessageStrike = (shortMessage) => {
     }
   );
   return shortMessage;
+};
+
+const mdToToot = (title, content, tags, url, link = '', authors = []) => {
+  let cleanContent = content.trim();
+
+  cleanContent = tootCode(cleanContent);
+
+  // remove bold and italics
+  cleanContent = cleanContent.replace(/\*+([^\*\n]+)\*+/g, '$1');
+
+  let { tootwithHandles, hashTags } = tootHashtagTohandle(cleanContent, tags);
+
+  cleanContent = tootRemoveImage(tootwithHandles);
+  cleanContent = tootLinks(cleanContent);
+  cleanContent = tootStrike(cleanContent);
+  cleanContent = tootMark(cleanContent);
+
+  cleanContent = entities.decodeHTML(cleanContent);
+
+  // escape unicode
+  cleanContent = cleanContent.replace(/\\([0-9A-F])/gm, '\\\\$1');
+
+  // find caniuse shortcodes
+  cleanContent = cleanContent.replace(
+    /\{% caniuse "([^)]+)" %\}/,
+    'https://caniuse.com/$1'
+  );
+
+  // Remove some escapings
+  cleanContent = cleanContent.replace(/\\\+/gm, '+');
+
+  // Normalize line feeds
+  cleanContent = cleanContent.replace(/\n/gm, '\\n');
+  cleanContent = cleanContent.replace(/(\\n){3,}/gm, '\\n\\n');
+  cleanContent = cleanContent.replace(/^(\\n)*/gm, '');
+  cleanContent = cleanContent.replace(/(\\n)*$/gm, '');
+
+  cleanContent = cleanContent.replace(/"/gm, '\\"');
+
+  let toot = title;
+  let tootLength = toot.length;
+
+  if (link !== '') {
+    // This is a link
+    const authorsNumber = authors.length;
+    if (authorsNumber > 0) {
+      toot += ' by ';
+      if (authorsNumber === 1) {
+        toot += people[author]?.mastodon || author;
+      } else {
+        const mastodonAuthors = authors.map(
+          (author) => people[author]?.mastodon || author
+        );
+        console.dir(mastodonAuthors);
+        toot +=
+          mastodonAuthors.slice(0, -1).join(', ') +
+          ' and ' +
+          mastodonAuthors.slice(-1);
+      }
+    }
+    tootLength = toot.length;
+
+    toot += `
+
+${link}`;
+    // A link is always counted as 23 characters:
+    // https://docs.joinmastodon.org/user/posting/#links
+    tootLength += 25;
+  }
+
+  if (tootLength + cleanContent.length + hashTags.length > TOOT_MAX_LENGTH) {
+    // the content must be cut
+    if (tootLength + hashTags.length > TOOT_MAX_LENGTH) {
+      // Even without content it's too long
+      cleanContent = '';
+      hashTags = hashTags.substring(
+        0,
+        hashTags.lastIndexOf(' ', TOOT_MAX_LENGTH - tootLength)
+      );
+    } else {
+      // Shorten the content part
+      cleanContent = cleanContent.substring(
+        0,
+        cleanContent.lastIndexOf(
+          ' ',
+          TOOT_MAX_LENGTH - tootLength - hashTags.length
+        )
+      );
+    }
+  }
+
+  return toot + '\n\n' + cleanContent + '\n\n' + hashTags + '\n\n⚓️ ' + url;
 };
 
 module.exports = {
@@ -116,41 +206,8 @@ module.exports = {
 
     return JSON.stringify(attachments);
   },
-  noteToToot: (content, tags) => {
-    toot = content.trim();
-    toot = shortMessageCode(toot);
-
-    // remove bold and italics
-    toot = toot.replace(/\*+([^\*\n]+)\*+/g, '$1');
-
-    toot = tootHashtagTohandle(toot, tags);
-
-    toot = shortMessageRemoveImage(toot);
-    toot = shortMessageLinks(toot);
-    toot = shortMessageStrike(toot);
-    toot = shortMessageMark(toot);
-
-    toot = entities.decodeHTML(toot);
-
-    // escape unicode
-    toot = toot.replace(/\\([0-9A-F])/gm, '\\\\$1');
-
-    // find caniuse shortcodes
-    toot = toot.replace(/\{% caniuse "([^)]+)" %\}/, 'https://caniuse.com/$1');
-
-    // Remove some escapings
-    toot = toot.replace(/\\\+/gm, '+');
-
-    // Normalize line feeds
-    toot = toot.replace(/\n/gm, '\\n');
-    toot = toot.replace(/(\\n){3,}/gm, '\\n\\n');
-    toot = toot.replace(/^(\\n)*/gm, '');
-    toot = toot.replace(/(\\n)*$/gm, '');
-
-    toot = toot.replace(/"/gm, '\\"');
-
-    return toot;
-  },
+  mdToToot: (title, content, tags, url, link = '', authors = []) =>
+    mdToToot(title, content, tags, url, link, authors),
   noteToHtml: (content) => {
     let hashtags = twitter.extractHashtags(twitter.htmlEscape(content));
     hashtags.forEach((hashtag) => {

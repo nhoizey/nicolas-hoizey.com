@@ -1,31 +1,23 @@
 ---
 layout: null
-permalink: /feeds/mastodon/links2.json
+permalink: /feeds/mastodon/links3.json
 ---
 {
   "version": "https://jsonfeed.org/version/1",
   "title": "Links - Nicolas Hoizey",
   "home_page_url": "{{ pkg.homepage }}/links/",
-  "feed_url": "{{ pkg.homepage }}/feeds/mastodon/links2.json",
+  "feed_url": "{{ pkg.homepage }}/feeds/mastodon/links3.json",
   "items": [
   {% for entry in collections.links | limit(20) %}
     {%- set absoluteEntryUrl -%}{{- pkg.homepage -}}{{- entry.url -}}{%- endset -%}
-    {%- set contentStart -%}🔗 “{{ entry.data.title | escapeQuotes(true) | safe }}”{% set by = false -%}
-{%- if entry.data.authors -%}
-{%- for author in entry.data.authors -%}
-{%- set authorData = people[author] -%}
-{%- if authorData.mastodon -%}{%- if by == false %} by{%- set by = true -%}{%- endif %} {{ authorData.mastodon }}{% endif -%}
-{%- endfor -%}
-{%- endif %}\n\n{%- endset -%}
-    {%- set contentStartLength = contentStart | length -%}
-    {%- set contentEnd = entry.template.frontMatter.content | noteToToot(entry.data.tags) | truncate(450 - contentStartLength, false, '…') | cleanForJson | safe %}
+    {%- set title -%}🔗 {{ entry.data.title | escapeQuotes | safe }}{%- endset -%}
     {
       "id": "{{ absoluteEntryUrl }}",
       "url": "{{ absoluteEntryUrl }}",
       "lang": "{{ entry.data.lang }}",
-      "title": "🔗 {{ entry.data.title | escapeQuotes | safe }}",
+      "title": "{{ title }}",
       "date_published": "{{ entry.date | rssDate }}",
-      "content_text": "{{- contentStart | safe -}}{{- contentEnd | safe -}}\n\n⚓️ {{ absoluteEntryUrl }}",
+      "content_text": "{{- title | mdToToot(entry.template.frontMatter.content, entry.data.tags, entry.absoluteEntryUrl, data.link, entry.data.authors) | safe -}}",
       "attachments": [
         {
           "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/{{ entry.data.link }}",
