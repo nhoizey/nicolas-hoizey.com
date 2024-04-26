@@ -6,7 +6,7 @@ const people = require('../../_data/people.json');
 
 const { tagToHashtag } = require('./string.js');
 
-const TOOT_MAX_LENGTH = 450;
+const TOOT_MAX_LENGTH = 460;
 const MARKDOWN_IMAGE_REGEX = /!\[([^\]]*)\]\(([^\) ]+)( [^\)]+)?\)({.[^}]+})?/g;
 
 function htmlEntities(str) {
