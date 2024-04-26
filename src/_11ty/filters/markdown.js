@@ -156,7 +156,7 @@ const mdToToot = (title, content, tags, url, link = '', authors = []) => {
     }
     tootLength = toot.length;
 
-    toot += `\n\n${link}`;
+    toot += '\\n\\n' + link;
     // A link is always counted as 23 characters:
     // https://docs.joinmastodon.org/user/posting/#links
     tootLength += 25;
