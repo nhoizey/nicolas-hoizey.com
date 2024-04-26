@@ -1,16 +1,16 @@
 ---
 layout: null
-permalink: /feeds/mastodon/links3.json
+permalink: /feeds/mastodon/links2.json
 ---
 {
   "version": "https://jsonfeed.org/version/1",
   "title": "Links - Nicolas Hoizey",
   "home_page_url": "{{ pkg.homepage }}/links/",
-  "feed_url": "{{ pkg.homepage }}/feeds/mastodon/links3.json",
+  "feed_url": "{{ pkg.homepage }}/feeds/mastodon/links2.json",
   "items": [
   {% for entry in collections.links | limit(20) %}
     {%- set absoluteEntryUrl -%}{{- pkg.homepage -}}{{- entry.url -}}{%- endset -%}
-    {%- set title -%}🔗 {{ entry.data.title | escapeQuotes | safe }}{%- endset -%}
+    {%- set title -%}🔗 “{{ entry.data.title | escapeQuotes | safe }}”{%- endset -%}
     {
       "id": "{{ absoluteEntryUrl }}",
       "url": "{{ absoluteEntryUrl }}",
