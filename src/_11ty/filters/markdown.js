@@ -157,9 +157,7 @@ const mdToToot = (title, content, tags, url, link = '', authors = []) => {
     }
     tootLength = toot.length;
 
-    toot += `
-
-${link}`;
+    toot += `\n\n${link}`;
     // A link is always counted as 23 characters:
     // https://docs.joinmastodon.org/user/posting/#links
     tootLength += 25;
@@ -186,7 +184,9 @@ ${link}`;
     }
   }
 
-  return toot + '\n\n' + cleanContent + '\n\n' + hashTags + '\n\n⚓️ ' + url;
+  return (
+    toot + '\\n\\n' + cleanContent + '\\n\\n' + hashTags + '\\n\\n⚓️ ' + url
+  );
 };
 
 module.exports = {
