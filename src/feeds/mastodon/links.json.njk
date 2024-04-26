@@ -10,7 +10,7 @@ permalink: /feeds/mastodon/links.json
   "items": [
   {% for entry in collections.links | limit(20) %}
     {%- set absoluteEntryUrl -%}{{- pkg.homepage -}}{{- entry.url -}}{%- endset -%}
-    {%- set title -%}🔗 “{{ entry.data.title | escapeQuotes | safe }}”{%- endset -%}
+    {%- set title -%}“{{ entry.data.title | escapeQuotes | safe }}”{%- endset -%}
     {
       "id": "{{ absoluteEntryUrl }}",
       "url": "{{ absoluteEntryUrl }}",
