@@ -3055,9 +3055,10 @@
       }
     ],
     "toots": [
-      "https://mamot.fr/users/nhoizey/statuses/112286843061939795"
+      "https://mamot.fr/users/nhoizey/statuses/112286843061939795",
+      "https://mamot.fr/users/nhoizey/statuses/112335033059110778"
     ],
-    "lastTootTimestamp": 1713361252848
+    "lastTootTimestamp": 1714096573869
   },
   "https://nicolas-hoizey.com/links/2024/04/17/react-solid-htmx/": {
     "id": "https://nicolas-hoizey.com/links/2024/04/17/react-solid-htmx/",
