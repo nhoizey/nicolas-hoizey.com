@@ -143,7 +143,7 @@ const mdToToot = (title, content, tags, url, link = '', authors = []) => {
     if (authorsNumber > 0) {
       toot += ' by ';
       if (authorsNumber === 1) {
-        toot += people[authors[0]]?.mastodon || author[0];
+        toot += people[authors[0]]?.mastodon || authors[0];
       } else {
         const mastodonAuthors = authors.map(
           (author) => people[author]?.mastodon || author
