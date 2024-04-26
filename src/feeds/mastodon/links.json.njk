@@ -10,20 +10,14 @@ permalink: /feeds/mastodon/links.json
   "items": [
   {% for entry in collections.links | limit(20) %}
     {%- set absoluteEntryUrl -%}{{- pkg.homepage -}}{{- entry.url -}}{%- endset -%}
+    {%- set title -%}🔗 “{{ entry.data.title | escapeQuotes | safe }}”{%- endset -%}
     {
       "id": "{{ absoluteEntryUrl }}",
       "url": "{{ absoluteEntryUrl }}",
       "lang": "{{ entry.data.lang }}",
-      "title": "🔗 {{ entry.data.title | escapeQuotes | safe }}",
+      "title": "{{ title }}",
       "date_published": "{{ entry.date | rssDate }}",
-      "content_text": "🔗 “{{ entry.data.title | escapeQuotes(true) | safe }}”{% set by = false -%}
-{%- if entry.data.authors -%}
-{%- for author in entry.data.authors -%}
-{%- set authorData = people[author] -%}
-{%- if authorData.mastodon -%}{%- if by == false %} by{%- set by = true -%}{%- endif %} {{ authorData.mastodon }}{% endif -%}
-{%- endfor -%}
-{%- endif %}\n\n{% for tag in entry.data.tags -%}#{{ tag | tagToHashtag }} {% endfor -%}
-\n\n⚓️ {{ absoluteEntryUrl }}",
+      "content_text": "{{- title | mdToToot(entry.template.frontMatter.content, entry.data.tags, entry.absoluteEntryUrl, data.link, entry.data.authors) | safe -}}",
       "attachments": [
         {
           "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/{{ entry.data.link }}",
