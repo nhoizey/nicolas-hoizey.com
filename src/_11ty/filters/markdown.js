@@ -97,7 +97,7 @@ const tootStrike = (shortMessage) => {
   return shortMessage;
 };
 
-const mdToToot = (title, content, tags, url, link = '', authors = []) => {
+const cleanMarkdown = (content, tags) => {
   let cleanContent = content.trim();
 
   cleanContent = tootCode(cleanContent);
@@ -134,35 +134,46 @@ const mdToToot = (title, content, tags, url, link = '', authors = []) => {
 
   cleanContent = cleanContent.replace(/"/gm, '\\"');
 
-  let toot = title;
-  let tootLength = toot.length;
+  return { cleanContent: cleanContent, hashTags: hashTags };
+};
 
-  if (link !== '') {
-    // MARK: this is a link
-    const authorsNumber = authors.length;
-    if (authorsNumber > 0) {
-      toot += ' by ';
-      if (authorsNumber === 1) {
-        toot += people[authors[0]]?.mastodon || authors[0];
-      } else {
-        const mastodonAuthors = authors.map(
-          (author) => people[author]?.mastodon || author
-        );
-        toot +=
-          mastodonAuthors.slice(0, -1).join(', ') +
-          ' and ' +
-          mastodonAuthors.slice(-1);
+const mdToToot = (type, title, content, tags, url, link = '', authors = []) => {
+  let toot;
+  let tootLength = 0;
+  const authorsNumber = authors.length;
+  let mastodonAuthors;
+
+  switch (type) {
+    case 'note':
+      toot = '';
+      break;
+    case 'link':
+      toot = title;
+      if (authorsNumber > 0) {
+        toot += ' by ';
+        if (authorsNumber === 1) {
+          toot += people[authors[0]]?.mastodon || authors[0];
+        } else {
+          mastodonAuthors = authors.map(
+            (author) => people[author]?.mastodon || author
+          );
+          toot +=
+            mastodonAuthors.slice(0, -1).join(', ') +
+            ' and ' +
+            mastodonAuthors.slice(-1);
+        }
       }
-    }
-    tootLength = toot.length;
+      tootLength = toot.length;
 
-    toot += '\\n\\n🔗 ' + link;
-    // A link is always counted as 23 characters:
-    // https://docs.joinmastodon.org/user/posting/#links
-    tootLength += 25;
+      toot += '\\n\\n🔗 ' + link + '\\n\\n';
+
+      // A link is always counted as 23 characters:
+      // https://docs.joinmastodon.org/user/posting/#links
+      tootLength += 29;
   }
 
-  // MARK: long content
+  let { cleanContent, hashTags } = cleanMarkdown(content, tags);
+
   if (tootLength + cleanContent.length + hashTags.length > TOOT_MAX_LENGTH) {
     // the content must be cut
     if (tootLength + hashTags.length > TOOT_MAX_LENGTH) {
@@ -185,9 +196,7 @@ const mdToToot = (title, content, tags, url, link = '', authors = []) => {
     }
   }
 
-  return (
-    toot + '\\n\\n' + cleanContent + '\\n\\n' + hashTags + '\\n\\n⚓️ ' + url
-  );
+  return toot + cleanContent + '\\n\\n' + hashTags + '\\n\\n⚓️ ' + url;
 };
 
 module.exports = {
@@ -207,8 +216,8 @@ module.exports = {
 
     return JSON.stringify(attachments);
   },
-  mdToToot: (title, content, tags, url, link = '', authors = []) =>
-    mdToToot(title, content, tags, url, link, authors),
+  mdToToot: (type, title, content, tags, url, link = '', authors = []) =>
+    mdToToot(type, title, content, tags, url, link, authors),
   noteToHtml: (content) => {
     let hashtags = twitter.extractHashtags(twitter.htmlEscape(content));
     hashtags.forEach((hashtag) => {

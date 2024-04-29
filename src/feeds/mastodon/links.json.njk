@@ -17,7 +17,7 @@ permalink: /feeds/mastodon/links.json
       "lang": "{{ entry.data.lang }}",
       "title": "{{ title }}",
       "date_published": "{{ entry.date | rssDate }}",
-      "content_text": "{{- title | mdToToot(entry.template.frontMatter.content, entry.data.tags, absoluteEntryUrl, entry.data.link, entry.data.authors) | safe -}}",
+      "content_text": "{{- 'link' | mdToToot(title, entry.template.frontMatter.content, entry.data.tags, absoluteEntryUrl, entry.data.link, entry.data.authors) | safe -}}",
       "attachments": [
         {
           "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/{{ entry.data.link }}",
