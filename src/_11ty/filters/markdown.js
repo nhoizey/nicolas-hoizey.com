@@ -138,7 +138,7 @@ const mdToToot = (title, content, tags, url, link = '', authors = []) => {
   let tootLength = toot.length;
 
   if (link !== '') {
-    // This is a link
+    // MARK: this is a link
     const authorsNumber = authors.length;
     if (authorsNumber > 0) {
       toot += ' by ';
@@ -162,6 +162,7 @@ const mdToToot = (title, content, tags, url, link = '', authors = []) => {
     tootLength += 25;
   }
 
+  // MARK: long content
   if (tootLength + cleanContent.length + hashTags.length > TOOT_MAX_LENGTH) {
     // the content must be cut
     if (tootLength + hashTags.length > TOOT_MAX_LENGTH) {
