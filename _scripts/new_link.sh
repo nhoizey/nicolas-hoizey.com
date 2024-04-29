@@ -53,4 +53,4 @@ EOF
 
 echo "$body" > "$link"
 
-/opt/homebrew/bin/macdown "$link" &
+/opt/homebrew/bin/code "$link" &

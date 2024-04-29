@@ -39,4 +39,4 @@ EOF
 fi
 
 open "$folder"
-/opt/homebrew/bin/macdown "$billet" &
+/opt/homebrew/bin/code "$billet" &
