@@ -5,11 +5,11 @@ lang:       fr
 tags:       [me, blog]
 ---
 
-Avec l'âge, pas d'échappatoire, on devient gâteux, et les dinosaures du Web francophone semblent déjà l'être, à ruminer collectivement sur le passé, le classique « c'était mieux avant » sur le bout de la langue. Et en plus ça sent la redite cette histoire de [labellisation « dinoblogueur »](http://embruns.net/logbook/2008/06/08.html#006563) !
+Avec l'âge, pas d'échappatoire, on devient gâteux, et les dinosaures du Web francophone semblent déjà l'être, à ruminer collectivement sur le passé, le classique « c'était mieux avant » sur le bout de la langue. Et en plus ça sent la redite cette histoire de [labellisation « dinoblogueur »](http://embruns.net/logbook/2008/06/08.html#006563) !
 
-Déjà, en juillet 2004, le même [Laurent Gloaguen](http://fr.wikipedia.org/wiki/Laurent_Gloaguen)[^1] nous proposait de participer à une [petite histoire de la blogosphère](http://embruns.net/carnet/blogosphere/petite-histoire-blogosphere.html)[^2], dans laquelle était [oublié Gastero Prod](/2004/08/gastero-prod-ecarte-de-la-blog-story.html).
+Déjà, en juillet 2004, le même [Laurent Gloaguen](http://fr.wikipedia.org/wiki/Laurent_Gloaguen)[^1] nous proposait de participer à une [petite histoire de la blogosphère](http://embruns.net/carnet/blogosphere/petite-histoire-blogosphere.html)[^2], dans laquelle était [oublié Gastero Prod]({% link_to "gastero-prod-ecarte-de-la-blog-story" %}).
 
-Alors pourquoi réécrire la même histoire aujourd'hui, mais avec une terminologie différente, si ce n'est pour s'auto applaudir/féliciter/complimenter/congratuler/etc.[^3] ? Parce que le prétexte du calcul d'antériorité par rapport à un tel « [étalon](http://loiclemeur.com/)[^4] », c'est bien gentil, mais ça laisse à penser qu'avoir commencé à bloguer avant lui est un gage de qualité, alors que franchement, personne ne l'a attendu pour publier n'importe quoi sur le Web.
+Alors pourquoi réécrire la même histoire aujourd'hui, mais avec une terminologie différente, si ce n'est pour s'auto applaudir/féliciter/complimenter/congratuler/etc.[^3] ? Parce que le prétexte du calcul d'antériorité par rapport à un tel « [étalon](http://loiclemeur.com/)[^4] », c'est bien gentil, mais ça laisse à penser qu'avoir commencé à bloguer avant lui est un gage de qualité, alors que franchement, personne ne l'a attendu pour publier n'importe quoi sur le Web.
 
 Mais cette nouvelle preuve de l'ethnocentrisme de la blogosphère francophone[^5] est pour moi un bon prétexte de regarder aussi en arrière, et notamment me demander à nouveau ce qui permet d'identifier un blog.
 
@@ -35,7 +35,7 @@ Bon, de toute façon on voit bien que des dinoblogueurs bien moins anciens que m
 
 [^3]: Rayez les mentions inutiles
 
-[^4]: Bin oui, [furoncle](http://www.myspace.com/) était déjà pris [ici](/2006/03/halte-au-vol-de-bande-passante.html)…
+[^4]: Bin oui, [furoncle](http://www.myspace.com/) était déjà pris [ici]({% link_to "halte-au-vol-de-bande-passante" %})…
 
 [^5]: Qui ne doit rien avoir à envier à celle d'autres cultures
 
