@@ -1,0 +1,296 @@
+{
+  "https://nicolas-hoizey.com/billets/2024/04/29/": {
+    "id": "https://nicolas-hoizey.com/billets/2024/04/29/",
+    "url": "https://nicolas-hoizey.com/billets/2024/04/29/",
+    "lang": "fr",
+    "title": "📓  Billet du 29 April 2024, 23:25",
+    "date_published": "2024-04-29T21:25:29Z",
+    "content_text": "Pfiouuu… mon billet précédent date du 3 juin 2022. Quand je vous disais que je ne serais peut-être pas très prolixe… 😁\n\nCe soir avait lieu la 42e édition du rassemblement Paris Carnet, plus de 20 ans après la première édition du 6 août 2003. Je ne vais pas paraphraser, l'histoire des débuts de Paris Carnet avait été bien résumée par Laurent Gloaguen pour la 50e édition.\n\nBref, peu importe le numéro, ce n'était que ma seconde…\n\n#blog #rencontre\n\n⚓️ https://nicolas-hoizey.com/billets/2024/04/29/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1714430336748
+  },
+  "https://nicolas-hoizey.com/billets/2022/06/03/": {
+    "id": "https://nicolas-hoizey.com/billets/2022/06/03/",
+    "url": "https://nicolas-hoizey.com/billets/2022/06/03/",
+    "lang": "fr",
+    "title": "📓  Billet du 3 June 2022, 10:28",
+    "date_published": "2022-06-03T08:28:58Z",
+    "content_text": "Ça y est, je suis inscrit pour Paris Web 2022 ! 🎉\n\nJ'ai hâte d'y revoir mes compères habituel·le·s, rencontrer de nouvelles personnes, et bien sûr assister à des conférences de haut vol.\n\nRendez-vous le 6 octobre !\n\n#ParisWeb\n\n⚓️ https://nicolas-hoizey.com/billets/2022/06/03/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1714430336748
+  },
+  "https://nicolas-hoizey.com/billets/2022/05/18/": {
+    "id": "https://nicolas-hoizey.com/billets/2022/05/18/",
+    "url": "https://nicolas-hoizey.com/billets/2022/05/18/",
+    "lang": "fr",
+    "title": "📓  Billet du 18 May 2022, 00:33",
+    "date_published": "2022-05-17T22:33:41Z",
+    "content_text": "J'avais prévenu que je ne serai pas forcément très prolixe dans ce journal, la preuve est faite, mon billet précédent a plus de 2 mois… 😅\n\nQuoi qu'il en soit, je ne pouvais pas laisser passer une occasion de remercier deux grands messieurs du Web qui ont des bifurcations de carrière ces jours-ci :\n\nKarl quitte Mozilla où il a initialement bossé sur Firefox OS — petit ange parti trop vite — puis beaucoup œuvré pour l'amélioration de la…\n\n#Web\n\n⚓️ https://nicolas-hoizey.com/billets/2022/05/18/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1714430336748
+  },
+  "https://nicolas-hoizey.com/billets/2022/03/11/": {
+    "id": "https://nicolas-hoizey.com/billets/2022/03/11/",
+    "url": "https://nicolas-hoizey.com/billets/2022/03/11/",
+    "lang": "fr",
+    "title": "📓  Billet du 11 March 2022, 19:51",
+    "date_published": "2022-03-11T18:51:52Z",
+    "content_text": "J'ai commencé le 19 février à partager quelques photos de Géorgie datant de 2018, quelques jours seulement avant l'invasion de l'Ukraine par la Russie, le 24 février 2022.\n\nLes relations étant tendues depuis longtemps entre la Géorgie et la Russie, je crains une nouvelle attaque de la Géorgie — entre autres —, si l'Ukraine tombe aux mains du cinglé Poutine, qui serait alors encouragé dans sa folie de conquête territoriale.\n\nMauvais timing.…\n\n#photography\n\n⚓️ https://nicolas-hoizey.com/billets/2022/03/11/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1714430336748
+  },
+  "https://nicolas-hoizey.com/billets/2022/03/08/": {
+    "id": "https://nicolas-hoizey.com/billets/2022/03/08/",
+    "url": "https://nicolas-hoizey.com/billets/2022/03/08/",
+    "lang": "fr",
+    "title": "📓  Billet du 8 March 2022, 14:02",
+    "date_published": "2022-03-08T13:02:22Z",
+    "content_text": "Bon sang, Karl ne voit pas mes images ! 😱\n\nAprès différents tests dans Chrome 99.0.4844.51 et Firefox 98.0, je constate que j'arrive à avoir le même comportement dans Firefox avec µMatrix (que je découvre) et sa configuration par défaut, et un rechargement de page sans cache permet d'afficher les images. Le test est « réussi » plusieurs fois.\n\nMais après avoir désactivé puis réactivé µMatrix, je n'ai plus le problème… Arrêt/relance de Firefox,…\n\n#image\n\n⚓️ https://nicolas-hoizey.com/billets/2022/03/08/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/billets/2022/03/08/erreur-chargement-image-umatrix.jpg",
+        "mime_type": "image/jpg",
+        "title": "La copie d'écran de Karl avec un message particulier dans la console"
+      }
+    ],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1714430336748
+  },
+  "https://nicolas-hoizey.com/billets/2022/02/25/": {
+    "id": "https://nicolas-hoizey.com/billets/2022/02/25/",
+    "url": "https://nicolas-hoizey.com/billets/2022/02/25/",
+    "lang": "fr",
+    "title": "📓  Billet du 25 February 2022, 18:17",
+    "date_published": "2022-02-25T17:17:05Z",
+    "content_text": "Oh oui, oh oui, Véro veut se lancer à son tour dans les Webmentions pour son site !\n\nAprès Nicolas et Franck, ça fait plaisir, notamment après que j'ai dit mi-janvier « il va falloir que nous nous mettions tous plus sérieusement à Webmention ».\n\n#Webmention\n\n⚓️ https://nicolas-hoizey.com/billets/2022/02/25/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1714430336748
+  },
+  "https://nicolas-hoizey.com/billets/2022/02/24/": {
+    "id": "https://nicolas-hoizey.com/billets/2022/02/24/",
+    "url": "https://nicolas-hoizey.com/billets/2022/02/24/",
+    "lang": "fr",
+    "title": "📓  Billet du 24 February 2022, 15:54",
+    "date_published": "2022-02-24T14:54:01Z",
+    "content_text": "Je ne me suis jamais penché sur le sujet de la retraite sérieusement, ayant juste en tête qu'elle est encore loin.\n\nJ'ai découvert par hasard aujourd'hui, grâce au site de l'Assurance Retraite indiqué par Julien, que j'en suis à exactement 100 trimestres comptabilisés… mais seulement 96 cotisés.\n\nSachant qu'à ce jour il m'en faut 171 pour bénéficier d'une retraite à taux plein, cela confirme que j'en suis encore bien loin, il va falloir attendre…\n\n#life\n\n⚓️ https://nicolas-hoizey.com/billets/2022/02/24/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1714430336748
+  },
+  "https://nicolas-hoizey.com/billets/2022/02/23/": {
+    "id": "https://nicolas-hoizey.com/billets/2022/02/23/",
+    "url": "https://nicolas-hoizey.com/billets/2022/02/23/",
+    "lang": "fr",
+    "title": "📓  Billet du 23 February 2022, 01:10",
+    "date_published": "2022-02-23T00:10:52Z",
+    "content_text": "Je commence à me dire qu'il n'était pas pertinent d'adopter cette présentation uniforme sous forme de recherche pré-filtrée de toutes mes pages par type de contenu.\n\nC'est génial fonctionnellement pour la page d'archives, mais ça m'empêche d'apporter quelques — ou beaucoup de — spécificités de présentation à certains types de contenus. Je pense notamment à ces billets, qui manquent du coup de personnalité.\n\nJe sens que je vais tenter de…\n\n#Algolia\n\n⚓️ https://nicolas-hoizey.com/billets/2022/02/23/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1714430336748
+  },
+  "https://nicolas-hoizey.com/billets/2022/02/22/": {
+    "id": "https://nicolas-hoizey.com/billets/2022/02/22/",
+    "url": "https://nicolas-hoizey.com/billets/2022/02/22/",
+    "lang": "fr",
+    "title": "📓  Billet du 22 February 2022, 22:07",
+    "date_published": "2022-02-22T21:07:53Z",
+    "content_text": "Cool, Véro lance une nouvelle section dans son site pour des petites notes, ça laisse espérer plus de régularité dans les publications. 🎉\n\n---\n\nJ'ai eu deux bonnes idées ce soir pour améliorer la gestion du code de mon site photo:\n- mettre un hook Git `pre-push` pour éviter d'envoyer en ligne des photos sans date\n- mettre en place Git Large File Storage (aka `git-lfs`) pour les photos d'origine, qui sont trop volumineuses pour le Git de…\n\n#IndieWeb\n\n⚓️ https://nicolas-hoizey.com/billets/2022/02/22/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1714430336748
+  },
+  "https://nicolas-hoizey.com/billets/2022/02/19/": {
+    "id": "https://nicolas-hoizey.com/billets/2022/02/19/",
+    "url": "https://nicolas-hoizey.com/billets/2022/02/19/",
+    "lang": "fr",
+    "title": "📓  Billet du 19 February 2022, 23:55",
+    "date_published": "2022-02-19T22:55:02Z",
+    "content_text": "Maintenant que j'ai publié toute ma série \"miniature\" de l'expo de la semaine dernière, à partir de ce soir, je vous emmène dans un nouveau voyage.\n\nCette fois, on va à Tbilisi, capitale de la Géorgie, où nous avons eu la chance d'être invités à un mariage il y a quelques années. Très belle ville chargée d'histoire(s), très accueillante.\n\nÇa se passe sur mon site photo bien sûr.\n\n#photography\n\n⚓️ https://nicolas-hoizey.com/billets/2022/02/19/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1714430336748
+  },
+  "https://nicolas-hoizey.com/billets/2022/02/18/": {
+    "id": "https://nicolas-hoizey.com/billets/2022/02/18/",
+    "url": "https://nicolas-hoizey.com/billets/2022/02/18/",
+    "lang": "fr",
+    "title": "📓  Billet du 18 February 2022, 23:54",
+    "date_published": "2022-02-18T22:54:02Z",
+    "content_text": "Karl partage une vidéo impressionnante de motorisation d'une voiture à l'échelle 1/87 (on dit \"HO\" chez les pros du modélisme ferroviaire) :\n\nhttps://www.youtube.com/watch?v=-vxaDFuZ44g\n\nC'est incroyable ce qu'on arrive à faire avec du talent et des outils adaptés… 😍\n\nDe mon côté, je pratique aussi l'échelle HO (non, pas « à chaud »), mais sans le côté bricolage, comme vous avez pu le voir avec ma participation à la dernière exposition…\n\n#miniature\n\n⚓️ https://nicolas-hoizey.com/billets/2022/02/18/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/billets/2022/02/18/my-photos-on-the-wall.jpg",
+        "mime_type": "image/jpg",
+        "title": "Mes photos sur un des murs de l'exposition"
+      }
+    ],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1714430336748
+  },
+  "https://nicolas-hoizey.com/billets/2022/02/14/": {
+    "id": "https://nicolas-hoizey.com/billets/2022/02/14/",
+    "url": "https://nicolas-hoizey.com/billets/2022/02/14/",
+    "lang": "fr",
+    "title": "📓  Billet du 14 February 2022, 21:58",
+    "date_published": "2022-02-14T20:58:03Z",
+    "content_text": "Karl indique que mettre à jour les données de compatibilité sur MDN est simple. Mathieu m'avait donné le même lien. C'est sûr, quand on sait que c'est dans le dépôt `browser-compat-data`, ça aide.\n\nEn fait, c'est expliqué dans la page \"Compatibility tables and the browser compatibility data repository (BCD)\", que l'on peut trouver dans la section \"Other task types\" de la page \"Contributing to MDN\", qui est liée depuis le README que je pointais…\n\n#MDN\n\n⚓️ https://nicolas-hoizey.com/billets/2022/02/14/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1714430336748
+  },
+  "https://nicolas-hoizey.com/billets/2022/02/11/": {
+    "id": "https://nicolas-hoizey.com/billets/2022/02/11/",
+    "url": "https://nicolas-hoizey.com/billets/2022/02/11/",
+    "lang": "fr",
+    "title": "📓  Billet du 11 February 2022, 11:49",
+    "date_published": "2022-02-11T10:49:06Z",
+    "content_text": "Comme je disais, c'est pas toujours simple de chercher l'indépendance des grosses plateformes.\n\nFranck a découvert un bug dans l'implémentation des Webmentions sur Dotclear. J'en profite pour saluer le travail incroyable que Franck fait pour maintenir et faire évoluer Dotclear, un CMS libre, depuis des années.\n\n---\n\nÀ part ça, j'ai enfin viré Google Analytics de ce site ! Cela faisait déjà quelque temps que je…\n\n#Webmention #Google #analytics #Matomo\n\n⚓️ https://nicolas-hoizey.com/billets/2022/02/11/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1714430336748
+  },
+  "https://nicolas-hoizey.com/billets/2022/02/10/": {
+    "id": "https://nicolas-hoizey.com/billets/2022/02/10/",
+    "url": "https://nicolas-hoizey.com/billets/2022/02/10/",
+    "lang": "fr",
+    "title": "📓  Billet du 10 February 2022, 22:56",
+    "date_published": "2022-02-10T21:56:48Z",
+    "content_text": "J'ai bien fait en lançant ces billets d'annoncer que je ne serais probablement pas très prolixe…\n\nEn tout cas, cela me fait rudement plaisir de voir arriver d'autres blogueurs dans l'univers de Webmention, comme Nicolas.\n\nMalheureusement, c'est aussi l'occasion de constater, une fois de plus, que tout cela est très séduisant « sur le papier », mais bien trop compliqué encore à mettre en place, même pour des personnes avec des…\n\n#Webmention #IndieWeb\n\n⚓️ https://nicolas-hoizey.com/billets/2022/02/10/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1714430336748
+  },
+  "https://nicolas-hoizey.com/billets/2022/01/25/": {
+    "id": "https://nicolas-hoizey.com/billets/2022/01/25/",
+    "url": "https://nicolas-hoizey.com/billets/2022/01/25/",
+    "lang": "fr",
+    "title": "📓  Billet du 25 January 2022, 19:46",
+    "date_published": "2022-01-25T18:46:22Z",
+    "content_text": "J'ai beau essayer de toujours penser à mettre en route ce qu'il me faut pour géolocaliser mes photos de voyages, j'oublie parfois. Et là, c'est le drame. 😭\n\nOu pas ! Merci beaucoup à Google Maps, et surtout Street View et la vue 3D, avec lesquels j'arrive souvent à retrouver un lieu précis de prise de vue, ce qui me permet de mettre à jour la photo dans Lightroom.\n\nDu coup, vous pouvez maintenant aller voir la photo et son emplacement…\n\n#photography #map\n\n⚓️ https://nicolas-hoizey.com/billets/2022/01/25/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/billets/2022/01/25/la-photo-non-geolocalisee-dans-lightroom.jpg",
+        "mime_type": "image/jpg",
+        "title": "La photo non géolocalisée, dans Lightroom"
+      },
+      {
+        "url": "https://nicolas-hoizey.com/billets/2022/01/25/google-maps-street-view.jpg",
+        "mime_type": "image/jpg",
+        "title": "Street View à l'emplacement exact de ma photo"
+      },
+      {
+        "url": "https://nicolas-hoizey.com/billets/2022/01/25/google-maps-3d.jpg",
+        "mime_type": "image/jpg",
+        "title": "La vue 3D de Google Maps"
+      }
+    ],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1714430336748
+  },
+  "https://nicolas-hoizey.com/billets/2022/01/21/": {
+    "id": "https://nicolas-hoizey.com/billets/2022/01/21/",
+    "url": "https://nicolas-hoizey.com/billets/2022/01/21/",
+    "lang": "fr",
+    "title": "📓  Billet du 21 January 2022, 18:01",
+    "date_published": "2022-01-21T17:01:38Z",
+    "content_text": "Bon bin voilà… 💉 + 💉 + 💉 + 🦠 🤷‍♂️\n\nBien content d'être vacciné pour que l'effet soit le plus léger possible !\n\nMais ça fait quand même trois jours que je suis au ralenti, c'est pas totalement bénin quand même.\n\nProtégez-vous !\n\n#health\n\n⚓️ https://nicolas-hoizey.com/billets/2022/01/21/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1714430336748
+  },
+  "https://nicolas-hoizey.com/billets/2022/01/18/": {
+    "id": "https://nicolas-hoizey.com/billets/2022/01/18/",
+    "url": "https://nicolas-hoizey.com/billets/2022/01/18/",
+    "lang": "fr",
+    "title": "📓  Billet du 18 January 2022, 23:32",
+    "date_published": "2022-01-18T22:32:45Z",
+    "content_text": "Maintenant que mes photos sont enfin prêtes, j'ai hâte que commence l'exposition « Regards multiples » de mon Photo Club à Draveil.\n\nUne de mes photos déjà connue se trouve sur cette affiche :\n\nMais elle ne sera finalement pas exposée ! 😅\n\nElle est bien dans le thème que j'ai choisi, des saynète avec figurines miniatures, mais elle n'étant pas pertinente dans la série finale.\n\nJe conserve l'exclusivité des nouvelles photos pour…\n\n#photography\n\n⚓️ https://nicolas-hoizey.com/billets/2022/01/18/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/billets/2022/01/18/affiche-exposition-photo-regards-multiples.jpg",
+        "mime_type": "image/jpg",
+        "title": "L'affiche de l'exposition photo « Regards multiples »"
+      }
+    ],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1714430336748
+  },
+  "https://nicolas-hoizey.com/billets/2022/01/17/": {
+    "id": "https://nicolas-hoizey.com/billets/2022/01/17/",
+    "url": "https://nicolas-hoizey.com/billets/2022/01/17/",
+    "lang": "fr",
+    "title": "📓  Billet du 17 January 2022, 00:18",
+    "date_published": "2022-01-16T23:18:29Z",
+    "content_text": "Étrange hasard, magie de la sérendipité, je lisais « ainsi va la vie, en attendant le tsunami » chez Karl juste quelques minutes après avoir publié mon billet à propos de l'éruption du Hunga Tonga et du tsunami qu'elle a provoqué.\n\nJ'ai toujours 2 à 3 semaines de retard dans la lecture des flux RSS/Atom auxquels je suis abonné. C'est la principale force des flux justement, permettre d'être en décalage, loin de l'urgence et du FOMO des…\n\n#tsunami #feed\n\n⚓️ https://nicolas-hoizey.com/billets/2022/01/17/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1714430336748
+  },
+  "https://nicolas-hoizey.com/billets/2022/01/16/": {
+    "id": "https://nicolas-hoizey.com/billets/2022/01/16/",
+    "url": "https://nicolas-hoizey.com/billets/2022/01/16/",
+    "lang": "fr",
+    "title": "📓  Billet du 16 January 2022, 23:53",
+    "date_published": "2022-01-16T22:53:27Z",
+    "content_text": "L'impressionnante éruption du Hunga Tonga dans le Pacifique, et surtout les alertes au tsunami qui ont suivi dans plusieurs pays, ont été l'occasion d'expliquer aux enfants ce qu'est un tsunami, ce qu'il peut impliquer.\n\nLes nombreuses images et vidéos du tsunami survenu au Japon le 11 mars 2011, et de ses impacts (dont la catastrophe de Fukushima), ont malheureusement très bien illustré le propos.\n\nNous sommes vraiment peu de chose face à la…\n\n#tsunami\n\n⚓️ https://nicolas-hoizey.com/billets/2022/01/16/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1714430336748
+  },
+  "https://nicolas-hoizey.com/billets/2022/01/15/": {
+    "id": "https://nicolas-hoizey.com/billets/2022/01/15/",
+    "url": "https://nicolas-hoizey.com/billets/2022/01/15/",
+    "lang": "fr",
+    "title": "📓  Billet du 15 January 2022, 23:47",
+    "date_published": "2022-01-15T22:47:24Z",
+    "content_text": "David s'est jeté à l'eau et a lancé son propre site photo et vidéo ! 🎉\n\nAaah, ces fabuleux paysages du Québec… 😍\n\nEt la maîtrise déjà acquise pour les vidéos, je suis bluffé.\n\nMes discussions avec les autres membres de mon club photo, qui publient plutôt sur Instagram ou Facebook, me rappellent systématiquement que nous avons bien de la chance de connaître les arcanes du Web et pouvoir en façoner le matériau pour construire notre…\n\n#photo #IndieWeb\n\n⚓️ https://nicolas-hoizey.com/billets/2022/01/15/",
+    "attachments": [],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1714430336748
+  }
+}
