@@ -14,9 +14,10 @@ permalink: /feeds/mastodon/billets.json
       "id": "{{ absoluteEntryUrl }}",
       "url": "{{ absoluteEntryUrl }}",
       "lang": "{{ entry.data.lang }}",
-      "title": "📓 {{ entry.data.body.title }}",
+      "title": "📓  Billet du {{ entry.date | formattedDateTime }}",
       "date_published": "{{ entry.date | rssDate }}",
-      "content_text": "📓 {{ entry.data.page.excerpt | truncateHtml(180) | striptags | cleanForJson | safe }}\n\n⚓️ {{ absoluteEntryUrl }}",
+      "content_text": "{{- 'billet' | mdToToot('', entry.template.frontMatter.content, entry.data.tags, absoluteEntryUrl) | safe -}}",
+      {# "content_text": "📓 {{ entry.data.page.excerpt | truncateHtml(180) | striptags | cleanForJson | safe }}\n\n⚓️ {{ absoluteEntryUrl }}", #}
       "attachments": {{ entry.template.frontMatter.content | imagesAsAttachments(absoluteEntryUrl) | safe }}
     }{%- if not loop.last -%},{%- endif -%}
   {% endfor %}

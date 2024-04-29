@@ -145,6 +145,7 @@ const mdToToot = (type, title, content, tags, url, link = '', authors = []) => {
 
   switch (type) {
     case 'note':
+    case 'billet':
       toot = '';
       break;
     case 'link':

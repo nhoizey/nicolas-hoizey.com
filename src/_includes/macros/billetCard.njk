@@ -7,13 +7,15 @@
   {% endset %}
 
   {% set meta %}
-  {{ meta(billet, permalink=true) }}
+  {{ meta(billet, permalink=false) }}
   {% endset %}
 
   {{ card(
     type = 'billet',
     lang = billet.data.lang,
+    title = billet.data.body.title,
     url = billet.url,
     content = content,
-    meta = meta) }}
+    meta = meta)
+  }}
 {% endmacro %}
