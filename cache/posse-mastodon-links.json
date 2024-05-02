@@ -3136,5 +3136,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112366824264815544"
     ],
     "lastTootTimestamp": 1714581669190
+  },
+  "https://nicolas-hoizey.com/links/2024/05/02/speedcurve-new-rum-attribution-and-subparts-for-interaction-to-next-paint/": {
+    "id": "https://nicolas-hoizey.com/links/2024/05/02/speedcurve-new-rum-attribution-and-subparts-for-interaction-to-next-paint/",
+    "url": "https://nicolas-hoizey.com/links/2024/05/02/speedcurve-new-rum-attribution-and-subparts-for-interaction-to-next-paint/",
+    "lang": "en",
+    "title": "“SpeedCurve | NEW: RUM attribution and subparts for Interaction to Next Paint!”",
+    "date_published": "2024-05-02T10:52:18Z",
+    "content_text": "“SpeedCurve | NEW: RUM attribution and subparts for Interaction to Next Paint!” by @cliff@webperf.social\n\n🔗 https://www.speedcurve.com/blog/rum-attribution-subparts-interaction-to-next-paint/\n\n> In addition to advanced settings, navigation types, and page attributes, we've just released more diagnostic detail for the latest flavor in Core Web Vitals: Interaction to Next Paint (INP).\n\nThis looks great, will use it ASAP for client sites!\n\n#SpeedCurve #WebPerf #INP #RUM\n\n⚓️ https://nicolas-hoizey.com/links/2024/05/02/speedcurve-new-rum-attribution-and-subparts-for-interaction-to-next-paint/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.speedcurve.com/blog/rum-attribution-subparts-interaction-to-next-paint/",
+        "mime_type": "image/png",
+        "title": "Screenshot of SpeedCurve | NEW: RUM attribution and subparts for Interaction to Next Paint!"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112371777634182033"
+    ],
+    "lastTootTimestamp": 1714657251589
   }
 }
