@@ -1127,7 +1127,7 @@
     "lang": "en",
     "title": "💬 Note from 21 December 2023, 11:38",
     "date_published": "2023-12-21T10:38:14Z",
-    "content_text": "💬 Note from 21 December 2023, 11:38\n\n> I believe that some companies get blinded by new tech, get high on their own supply, and that can result in work that is destructive instead of restorative. — <https://aftermath.site/true-lies-4k-uhd-blu-ray-james-cameron-peter-jackson-park-road-post>\n\nIs that a metaphor for the overuse of JavaScript frameworks/libraries where plain old HTML/CSS/JS would be much better?\n\n#cinema #movie\n\n⚓️ https://nicolas-hoizey.com/notes/2023/12/21/1/",
+    "content_text": "> I believe that some companies get blinded by new tech, get high on their own supply, and that can result in work that is destructive instead of restorative. — <https://aftermath.site/true-lies-4k-uhd-blu-ray-james-cameron-peter-jackson-park-road-post>\n\nIs that a metaphor for the overuse of JavaScript frameworks/libraries where plain old HTML/CSS/JS would be much better?\n\n#cinema #movie\n\n⚓️ https://nicolas-hoizey.com/notes/2023/12/21/1/",
     "attachments": [],
     "toots": [
       "https://mamot.fr/users/nhoizey/statuses/111618074740116077"
@@ -1140,7 +1140,7 @@
     "lang": "en",
     "title": "💬 Note from 9 January 2024, 09:40",
     "date_published": "2024-01-09T08:40:40Z",
-    "content_text": "💬 Note from 9 January 2024, 09:40\n\nIs it worth it maintaining a #TWA version of my responsive puzzle game esviji in Google Play Store?\n\nhttps://play.google.com/store/apps/details?id=com.esviji.twa\n\nGoogle requires periodic “artificial life support” to check the app is still relevant: API version update, app links from websites, developer account, etc.\n\nThe #PWA version has been available and installable on its own domain for…\n\n#esviji #game #store\n\n⚓️ https://nicolas-hoizey.com/notes/2024/01/09/1/",
+    "content_text": "Is it worth it maintaining a #TWA version of my responsive puzzle game esviji in Google Play Store?\n\nhttps://play.google.com/store/apps/details?id=com.esviji.twa\n\nGoogle requires periodic “artificial life support” to check the app is still relevant: API version update, app links from websites, developer account, etc.\n\nThe #PWA version has been available and installable on its own domain for years,\nwithout any required…\n\n#esviji #game #store\n\n⚓️ https://nicolas-hoizey.com/notes/2024/01/09/1/",
     "attachments": [],
     "toots": [
       "https://mamot.fr/users/nhoizey/statuses/111725382793296937"
@@ -1153,7 +1153,7 @@
     "lang": "en",
     "title": "💬 Note from 9 January 2024, 23:25",
     "date_published": "2024-01-09T22:25:09Z",
-    "content_text": "💬 Note from 9 January 2024, 23:25\n\nOMG! OMG! OMG! 😱\n\nI have to finish reading the 3rd volume of The Three-Body Problem)[^actually] before the series starts, it looks awesome! 😍\n\nhttps://www.youtube.com/watch?v=mogSbMD6EcY\n\n[^actually]: Actually, the awesome novel series is titled Remembrance of Earth's Past, The Three-Body Problem is the first volume.\n\n#book #series #TV\n\n⚓️ https://nicolas-hoizey.com/notes/2024/01/09/2/",
+    "content_text": "OMG! OMG! OMG! 😱\n\nI have to finish reading the 3rd volume of The Three-Body Problem) before the series starts, it looks awesome! 😍\n\nhttps://www.youtube.com/watch?v=mogSbMD6EcY\n\n#book #series #TV\n\n⚓️ https://nicolas-hoizey.com/notes/2024/01/09/2/",
     "attachments": [],
     "toots": [
       "https://mamot.fr/users/nhoizey/statuses/111728383545900430"
@@ -1166,7 +1166,7 @@
     "lang": "en",
     "title": "💬 Note from 21 January 2024, 13:15",
     "date_published": "2024-01-21T12:15:59Z",
-    "content_text": "💬 Note from 21 January 2024, 13:15\n\n- 5047 photos taken in a few minutes (up to 40 fps in burst mode 🤯)\n- 251 deemed good enough after initial triage\n- only 1 will be shared... 😅\n\n#wildlife #photography\n\n\n\n⚓️ https://nicolas-hoizey.com/notes/2024/01/21/1/",
+    "content_text": "- 5047 photos taken in a few minutes (up to 40 fps in burst mode 🤯)\n- 251 deemed good enough after initial triage\n- only 1 will be shared... 😅\n\n#wildlife #photography\n\n\n\n⚓️ https://nicolas-hoizey.com/notes/2024/01/21/1/",
     "attachments": [],
     "toots": [
       "https://mamot.fr/users/nhoizey/statuses/111806817739211587"
@@ -1179,7 +1179,7 @@
     "lang": "en",
     "title": "💬 Note from 13 January 2024, 01:00",
     "date_published": "2024-01-13T00:00:47Z",
-    "content_text": "💬 Note from 13 January 2024, 01:00\n\nI added new ways to browse my photography website built with @eleventy@fosstodon.org.\n\nThere were already galleries, like the list of countries I visited in Europe for example: https://nicolas-hoizey.photo/galleries/travels/europe/\n\nNow, you can also see all photos from Europe at once, with 3 different sorting orders:\n- newest first\n- oldest first\n- by popularity (a secret mix of favorites/likes from…\n\n#photography\n\n⚓️ https://nicolas-hoizey.com/notes/2024/01/13/1/",
+    "content_text": "I added new ways to browse my photography website built with @eleventy@fosstodon.org.\n\nThere were already galleries, like the list of countries I visited in Europe for example: https://nicolas-hoizey.photo/galleries/travels/europe/\n\nNow, you can also see all photos from Europe at once, with 3 different sorting orders:\n- newest first\n- oldest first\n- by popularity (a secret mix of favorites/likes from Flickr, Pixelfed and webmentions, and…\n\n#photography\n\n⚓️ https://nicolas-hoizey.com/notes/2024/01/13/1/",
     "attachments": [],
     "toots": [
       "https://mamot.fr/users/nhoizey/statuses/111806893369756602"
@@ -1192,7 +1192,7 @@
     "lang": "en",
     "title": "💬 Note from 24 January 2024, 13:55",
     "date_published": "2024-01-24T12:55:29Z",
-    "content_text": "💬 Note from 24 January 2024, 13:55\n\nOk, so…\n\n- scheduled #GitHub Actions\n- + POSSE to @Mastodon@mastodon.social / #Pixelfed\n- + auto Git commit/push of cache for next run\n- + GitHub branch protection\n- = handle with care… 😅\n\n#Actions #POSSE\n\n⚓️ https://nicolas-hoizey.com/notes/2024/01/24/1/",
+    "content_text": "Ok, so…\n\n- scheduled #GitHub Actions\n- + POSSE to @Mastodon@mastodon.social / #Pixelfed\n- + auto Git commit/push of cache for next run\n- + GitHub branch protection\n- = handle with care… 😅\n\n#Actions #POSSE\n\n⚓️ https://nicolas-hoizey.com/notes/2024/01/24/1/",
     "attachments": [],
     "toots": [
       "https://mamot.fr/users/nhoizey/statuses/111811259586681775"
@@ -1205,7 +1205,7 @@
     "lang": "en",
     "title": "💬 Note from 1 February 2024, 02:01",
     "date_published": "2024-02-01T01:01:19Z",
-    "content_text": "💬 Note from 1 February 2024, 02:01\n\nTag pages on my photographie site can now be\nsorted by dates and popularity, just like galleries.\n\nFor example, here are the \"night\" photos sorted by popularity:\nhttps://nicolas-hoizey.photo/tags/night/by-popularity/\n\nThis is all static HTML generated with @eleventy@fosstodon.org, no need for any JavaScript here.\n\n#photography #tag\n\n⚓️ https://nicolas-hoizey.com/notes/2024/02/01/1/",
+    "content_text": "Tag pages on my photographie site can now be\nsorted by dates and popularity, just like galleries.\n\nFor example, here are the \"night\" photos sorted by popularity:\nhttps://nicolas-hoizey.photo/tags/night/by-popularity/\n\nThis is all static HTML generated with @eleventy@fosstodon.org, no need for any JavaScript here.\n\n#photography #tag\n\n⚓️ https://nicolas-hoizey.com/notes/2024/02/01/1/",
     "attachments": [],
     "toots": [
       "https://mamot.fr/users/nhoizey/statuses/111853633958130266"
@@ -1218,7 +1218,7 @@
     "lang": "en",
     "title": "💬 Note from 1 February 2024, 10:34",
     "date_published": "2024-02-01T09:34:02Z",
-    "content_text": "💬 Note from 1 February 2024, 10:34\n\nJudging by this @speedcurve@webperf.social graph comparing TTFB from last 3 months to the 3 months before, it looks like TTFB has improved lately with #Netlify, while it has degraded with #Cloudflare:\n\nI'm currently using Cloudflare in front of Netlify, but I'm not sure it's worth it anymore. 🤔\n\n#TTFB\n\n⚓️ https://nicolas-hoizey.com/notes/2024/02/01/2/",
+    "content_text": "Judging by this @speedcurve@webperf.social graph comparing TTFB from last 3 months to the 3 months before, it looks like TTFB has improved lately with #Netlify, while it has degraded with #Cloudflare:\n\nI'm currently using Cloudflare in front of Netlify, but I'm not sure it's worth it anymore. 🤔\n\n#TTFB\n\n⚓️ https://nicolas-hoizey.com/notes/2024/02/01/2/",
     "attachments": [
       {
         "url": "https://nicolas-hoizey.com/notes/2024/02/01/2/speedcurve-ttfb-cloudflare-netlify.png",
@@ -1237,7 +1237,7 @@
     "lang": "en",
     "title": "💬 Note from 8 February 2024, 20:23",
     "date_published": "2024-02-08T19:23:55Z",
-    "content_text": "💬 Note from 8 February 2024, 20:23\n\nAs I was checking once again if @cloudcannon@techhub.social had finaly added a starter plan in its pricing page, I just saw that there is a (new?) partner program starting at $10 for one single user! 😲\n\nhttps://cloudcannon.com/partner-program/\n\nBut I guess I can't join as an individual… 🤔\n\n#CMS\n\n⚓️ https://nicolas-hoizey.com/notes/2024/02/08/1/",
+    "content_text": "As I was checking once again if @cloudcannon@techhub.social had finaly added a starter plan in its pricing page, I just saw that there is a (new?) partner program starting at $10 for one single user! 😲\n\nhttps://cloudcannon.com/partner-program/\n\nBut I guess I can't join as an individual… 🤔\n\n#CMS\n\n⚓️ https://nicolas-hoizey.com/notes/2024/02/08/1/",
     "attachments": [],
     "toots": [
       "https://mamot.fr/users/nhoizey/statuses/111897621099338044"
@@ -1250,7 +1250,7 @@
     "lang": "en",
     "title": "💬 Note from 8 February 2024, 22:06",
     "date_published": "2024-02-08T21:06:06Z",
-    "content_text": "💬 Note from 8 February 2024, 22:06\n\nThere are now 68 Twitter archives mapped in `tweetback-canonical`, which means links to the original tweets in other tweetback archives are transformed to links to their archived versions! 💾\n\nhttps://github.com/tweetback/tweetback-canonical/blob/main/mapping.js\n\n`tweetback-canonical` is a dependency of `tweetback`, so if you use tweetback and want to have all these mappings, you need to update your copy and…\n\n#tweetback\n\n⚓️ https://nicolas-hoizey.com/notes/2024/02/08/2/",
+    "content_text": "There are now 68 Twitter archives mapped in `tweetback-canonical`, which means links to the original tweets in other tweetback archives are transformed to links to their archived versions! 💾\n\nhttps://github.com/tweetback/tweetback-canonical/blob/main/mapping.js\n\n`tweetback-canonical` is a dependency of `tweetback`, so if you use tweetback and want to have all these mappings, you need to update your copy and rebuild your archives.\n\n#tweetback\n\n⚓️ https://nicolas-hoizey.com/notes/2024/02/08/2/",
     "attachments": [],
     "toots": [
       "https://mamot.fr/users/nhoizey/statuses/111897959098535049"
@@ -1263,7 +1263,7 @@
     "lang": "en",
     "title": "💬 Note from 16 February 2024, 16:07",
     "date_published": "2024-02-16T15:07:35Z",
-    "content_text": "💬 Note from 16 February 2024, 16:07\n\nDear photographers using Adobe Lightroom, is there a way to search for photos based on the content of EXIF/IPTC fields that are not available in the metadata filters of the Library Filter bar?\n\nI want to build a dynamic collection of images that don't have informations in the recently supported alternative text field, for accessibility.\n\n#accessibility #Lightroom #photography\n\n⚓️ https://nicolas-hoizey.com/notes/2024/02/16/1/",
+    "content_text": "Dear photographers using Adobe Lightroom, is there a way to search for photos based on the content of EXIF/IPTC fields that are not available in the metadata filters of the Library Filter bar?\n\nI want to build a dynamic collection of images that don't have informations in the recently supported alternative text field, for accessibility.\n\n#accessibility #Lightroom #photography\n\n⚓️ https://nicolas-hoizey.com/notes/2024/02/16/1/",
     "attachments": [],
     "toots": [
       "https://mamot.fr/users/nhoizey/statuses/111941846764248854"
@@ -1276,7 +1276,7 @@
     "lang": "en",
     "title": "💬 Note from 1 March 2024, 16:56",
     "date_published": "2024-03-01T15:56:03Z",
-    "content_text": "💬 Note from 1 March 2024, 16:56\n\nI'm really sad to read that @abookapart@front-end.social is ceasing its publishing activity, which for almost 15 years has built up a collection of must-have reference books.\n\nI still have some of these to read… 😅\n\n#book\n\n⚓️ https://nicolas-hoizey.com/notes/2024/03/01/1/",
+    "content_text": "I'm really sad to read that @abookapart@front-end.social is ceasing its publishing activity, which for almost 15 years has built up a collection of must-have reference books.\n\nI still have some of these to read… 😅\n\n#book\n\n⚓️ https://nicolas-hoizey.com/notes/2024/03/01/1/",
     "attachments": [
       {
         "url": "https://nicolas-hoizey.com/notes/2024/03/01/1/my-huge-collection-of-books-from-a-book-apart.jpg",
@@ -1295,7 +1295,7 @@
     "lang": "en",
     "title": "💬 Note from 8 March 2024, 00:27",
     "date_published": "2024-03-07T23:27:16Z",
-    "content_text": "💬 Note from 8 March 2024, 00:27\n\nWow, #Pagefind search is so easy to add to an existing static site!\n\nI'm trying it for my photography site: https://nicolas-hoizey.photo/search/\n\nAdding the indexer in the build script and the client JS for the UI required less than half an hour. 😍\n\nThanks @cloudcannon@techhub.social ! 🙏\n\n#search\n\n⚓️ https://nicolas-hoizey.com/notes/2024/03/08/1/",
+    "content_text": "Wow, #Pagefind search is so easy to add to an existing static site!\n\nI'm trying it for my photography site: https://nicolas-hoizey.photo/search/\n\nAdding the indexer in the build script and the client JS for the UI required less than half an hour. 😍\n\nThanks @cloudcannon@techhub.social ! 🙏\n\n#search\n\n⚓️ https://nicolas-hoizey.com/notes/2024/03/08/1/",
     "attachments": [],
     "toots": [
       "https://mamot.fr/users/nhoizey/statuses/112057042259417252"
@@ -1308,7 +1308,7 @@
     "lang": "en",
     "title": "💬 Note from 12 March 2024, 09:28",
     "date_published": "2024-03-12T08:28:49Z",
-    "content_text": "💬 Note from 12 March 2024, 09:28\n\nHappy #INP day! 🎉\n\n#WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2024/03/12/1/",
+    "content_text": "Happy #INP day! 🎉\n\n#WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2024/03/12/1/",
     "attachments": [],
     "toots": [
       "https://mamot.fr/users/nhoizey/statuses/112081814250347880"
@@ -1321,7 +1321,7 @@
     "lang": "en",
     "title": "💬 Note from 19 March 2024, 15:32",
     "date_published": "2024-03-19T14:32:26Z",
-    "content_text": "💬 Note from 19 March 2024, 15:32\n\n🎧 Guts « Aimer sans amour »\n\nhttps://songwhip.com/guts/aimer-sans-amour\n\n#music\n\n⚓️ https://nicolas-hoizey.com/notes/2024/03/19/1/",
+    "content_text": "🎧 Guts « Aimer sans amour »\n\nhttps://songwhip.com/guts/aimer-sans-amour\n\n#music\n\n⚓️ https://nicolas-hoizey.com/notes/2024/03/19/1/",
     "attachments": [],
     "toots": [
       "https://mamot.fr/users/nhoizey/statuses/112122977487840646"
@@ -1347,7 +1347,7 @@
     "lang": "en",
     "title": "💬 Note from 2 April 2024, 22:26",
     "date_published": "2024-04-02T20:26:27Z",
-    "content_text": "💬 Note from 2 April 2024, 22:26\n\nThere is now a search feature on my photography site! 🔍\n\nFor example: https://nicolas-hoizey.photo/search/?q=lamine\n\nIt is powered by the great pagefind project, thanks @bglw@fosstodon.org and @cloudcannon@techhub.social! 🙏\n\n#Pagefind #photography #search\n\n⚓️ https://nicolas-hoizey.com/notes/2024/04/02/1/",
+    "content_text": "There is now a search feature on my photography site! 🔍\n\nFor example: https://nicolas-hoizey.photo/search/?q=lamine\n\nIt is powered by the great pagefind project, thanks @bglw@fosstodon.org and @cloudcannon@techhub.social! 🙏\n\n#Pagefind #photography #search\n\n⚓️ https://nicolas-hoizey.com/notes/2024/04/02/1/",
     "attachments": [],
     "toots": [
       "https://mamot.fr/users/nhoizey/statuses/112203553999895824"
@@ -1360,7 +1360,7 @@
     "lang": "en",
     "title": "💬 Note from 4 April 2024, 16:46",
     "date_published": "2024-04-04T14:46:17Z",
-    "content_text": "💬 Note from 4 April 2024, 16:46\n\nMost mentions of the magical CSS `object-fit: cover;` in development tutorials should be accompanied by a warning: in most situations, it means the browser will download an image that is larger than required (at least in one direction), and optimization on the server side could be a better option.\n\n#CSS #image #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2024/04/04/1/",
+    "content_text": "Most mentions of the magical CSS `object-fit: cover;` in development tutorials should be accompanied by a warning: in most situations, it means the browser will download an image that is larger than required (at least in one direction), and optimization on the server side could be a better option.\n\n#CSS #image #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2024/04/04/1/",
     "attachments": [],
     "toots": [
       "https://mamot.fr/users/nhoizey/statuses/112213530749494220"
@@ -1373,7 +1373,7 @@
     "lang": "en",
     "title": "💬 Note from 24 April 2024, 15:49",
     "date_published": "2024-04-24T13:49:26Z",
-    "content_text": "💬 Note from 24 April 2024, 15:49\n\nShould I please Lighthouse with modern image formats, or my visitors with progressive rendering of large images in my photography site? 🤔\n\nOf course, this would be much easier with genaralized JPEG XL support, both modern and allowing progressive… 🤷‍♂️\n\n#image #JPEGXL #Lighthouse #photography #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2024/04/24/1/",
+    "content_text": "Should I please Lighthouse with modern image formats, or my visitors with progressive rendering of large images in my photography site? 🤔\n\nOf course, this would be much easier with genaralized JPEG XL support, both modern and allowing progressive… 🤷‍♂️\n\n#image #JPEGXL #Lighthouse #photography #WebPerf\n\n⚓️ https://nicolas-hoizey.com/notes/2024/04/24/1/",
     "attachments": [
       {
         "url": "https://nicolas-hoizey.com/notes/2024/04/24/1/lighthouse-images-next-gen-formats.jpg",
@@ -1392,11 +1392,24 @@
     "lang": "en",
     "title": "💬 Note from 29 April 2024, 10:19",
     "date_published": "2024-04-29T08:19:45Z",
-    "content_text": "💬 Note from 29 April 2024, 10:19\n\nIf you want to your #Wordpress content on @Mastodon@mastodon.social, you can either\n\n- use the https://wordpress.org/plugins/activitypub/ plugin: “With the ActivityPub plugin installed, your WordPress blog itself function as a federated profile, along with profiles for each author”\n\n- push the content to any existing Mastodon account by using my GitHub Action, with help from the new docs written by…\n\n#GitHub\n\n⚓️ https://nicolas-hoizey.com/notes/2024/04/29/1/",
+    "content_text": "If you want to your #Wordpress content on @Mastodon@mastodon.social, you can either\n\n- use the https://wordpress.org/plugins/activitypub/ plugin: “With the ActivityPub plugin installed, your WordPress blog itself function as a federated profile, along with profiles for each author”\n\n- push the content to any existing Mastodon account by using my GitHub Action, with help from the new docs written by @Julianoe@mastodon.xyz :…\n\n#GitHub\n\n⚓️ https://nicolas-hoizey.com/notes/2024/04/29/1/",
     "attachments": [],
     "toots": [
       "https://mamot.fr/users/nhoizey/statuses/112353556192450383"
     ],
     "lastTootTimestamp": 1714379214452
+  },
+  "https://nicolas-hoizey.com/notes/2024/05/06/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2024/05/06/1/",
+    "url": "https://nicolas-hoizey.com/notes/2024/05/06/1/",
+    "lang": "en",
+    "title": "💬 Note from 6 May 2024, 22:48",
+    "date_published": "2024-05-06T20:48:32Z",
+    "content_text": "Having fun building several similar sites with @eleventy@fosstodon.org, editing content with @cloudcannon@techhub.social, assembling pages with Bookshop components shared from a common repository/site with Site Mounting.\n\nThis is really awesome! 😍\n\n\n\n⚓️ https://nicolas-hoizey.com/notes/2024/05/06/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112396244844276028"
+    ],
+    "lastTootTimestamp": 1715030591570
   }
 }
