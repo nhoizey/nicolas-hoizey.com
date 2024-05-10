@@ -3135,9 +3135,10 @@
       }
     ],
     "toots": [
-      "https://mamot.fr/users/nhoizey/statuses/112366824264815544"
+      "https://mamot.fr/users/nhoizey/statuses/112366824264815544",
+      "https://mamot.fr/users/nhoizey/statuses/112415661524599838"
     ],
-    "lastTootTimestamp": 1714581669190
+    "lastTootTimestamp": 1715326866618
   },
   "https://nicolas-hoizey.com/links/2024/05/02/speedcurve-new-rum-attribution-and-subparts-for-interaction-to-next-paint/": {
     "id": "https://nicolas-hoizey.com/links/2024/05/02/speedcurve-new-rum-attribution-and-subparts-for-interaction-to-next-paint/",
