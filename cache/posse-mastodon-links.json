@@ -3159,5 +3159,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112419968559555565"
     ],
     "lastTootTimestamp": 1715392586782
+  },
+  "https://nicolas-hoizey.com/links/2024/05/11/i-want-it-all-but-it-is-impossible/": {
+    "id": "https://nicolas-hoizey.com/links/2024/05/11/i-want-it-all-but-it-is-impossible/",
+    "url": "https://nicolas-hoizey.com/links/2024/05/11/i-want-it-all-but-it-is-impossible/",
+    "lang": "en",
+    "title": "“I want it all but, it is impossible”",
+    "date_published": "2024-05-11T07:34:11Z",
+    "content_text": "“I want it all but, it is impossible” by @anarodrigues@front-end.social\n\n🔗 https://ohhelloana.blog/i-want-it-all/\n\n> I need to work and live life outside of consumption and entertainment.\n\nSame.\n\n#life\n\n⚓️ https://nicolas-hoizey.com/links/2024/05/11/i-want-it-all-but-it-is-impossible/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://ohhelloana.blog/i-want-it-all/",
+        "mime_type": "image/png",
+        "title": "Screenshot of I want it all but, it is impossible"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112421324873404060"
+    ],
+    "lastTootTimestamp": 1715413282450
   }
 }
