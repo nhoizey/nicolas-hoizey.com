@@ -3178,5 +3178,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112421324873404060"
     ],
     "lastTootTimestamp": 1715413282450
+  },
+  "https://nicolas-hoizey.com/links/2024/05/11/towards-a-quieter-friendlier-web/": {
+    "id": "https://nicolas-hoizey.com/links/2024/05/11/towards-a-quieter-friendlier-web/",
+    "url": "https://nicolas-hoizey.com/links/2024/05/11/towards-a-quieter-friendlier-web/",
+    "lang": "en",
+    "title": "“Towards a quieter, friendlier web”",
+    "date_published": "2024-05-11T10:18:49Z",
+    "content_text": "“Towards a quieter, friendlier web” by @cory@social.lol\n\n🔗 https://coryd.dev/posts/2024/towards-a-quieter-friendlier-web/\n\n> Be kind, be honest and engage on your own terms. Walk away from anything that doesn't serve you and don't be afraid to craft a browsing experience that best suits you. A healthier web is one that's slower, friendly and serves you. Eschew things that make demands of you, insist or impose upon your time and attention.\n\n#society #life #Web\n\n⚓️ https://nicolas-hoizey.com/links/2024/05/11/towards-a-quieter-friendlier-web/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://coryd.dev/posts/2024/towards-a-quieter-friendlier-web/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Towards a quieter, friendlier web"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112422739560598945"
+    ],
+    "lastTootTimestamp": 1715434868904
   }
 }
