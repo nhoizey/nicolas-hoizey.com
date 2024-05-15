@@ -3197,5 +3197,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112422739560598945"
     ],
     "lastTootTimestamp": 1715434868904
+  },
+  "https://nicolas-hoizey.com/links/2024/05/15/subsetting-xyz-type-foundries-that-allow-font-subsetting/": {
+    "id": "https://nicolas-hoizey.com/links/2024/05/15/subsetting-xyz-type-foundries-that-allow-font-subsetting/",
+    "url": "https://nicolas-hoizey.com/links/2024/05/15/subsetting-xyz-type-foundries-that-allow-font-subsetting/",
+    "lang": "en",
+    "title": "“Subsetting.xyz — Type foundries that allow font subsetting”",
+    "date_published": "2024-05-15T07:28:49Z",
+    "content_text": "“Subsetting.xyz — Type foundries that allow font subsetting” by @jfrankl@mastodon.social\n\n🔗 https://subsetting.xyz/\n\n> Subsetting removes unused characters from a font to reduce file size. For example, you might not use math symbols like ≤ and ∫, and removing them could make your website load faster. However, some type distributors impose licenses that restrict subsetting. Use this website to find fonts that support subsetting.\n\n#font #WebPerf\n\n⚓️ https://nicolas-hoizey.com/links/2024/05/15/subsetting-xyz-type-foundries-that-allow-font-subsetting/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://subsetting.xyz/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Subsetting.xyz — Type foundries that allow font subsetting"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112443973213154043"
+    ],
+    "lastTootTimestamp": 1715758868701
   }
 }
