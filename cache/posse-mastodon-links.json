@@ -3046,7 +3046,7 @@
     "lang": "en",
     "title": "“Hardest Problem in Computer Science: Centering Things”",
     "date_published": "2024-04-17T12:38:17Z",
-    "content_text": "“Hardest Problem in Computer Science: Centering Things” by Nikita Prokopov\n\n🔗 https://tonsky.me/blog/centering/\n\n> Even if it’s hard. Even if tools make it inconvenient. Even if you have to search for solutions. Together, I trust, we can find our way back to putting one rectangle inside another rectangle without messing it up.\n> \n> I, for one, want to live in a world of beautiful well-balanced UIs. I trust that you do, too.\n> \n> It’s all worth it in…\n\n#CSS #font\n\n⚓️ https://nicolas-hoizey.com/links/2024/04/17/hardest-problem-in-computer-science-centering-things/",
+    "content_text": "“Hardest Problem in Computer Science: Centering Things” by @nikitonsky@mastodon.online\n\n🔗 https://tonsky.me/blog/centering/\n\n> Even if it’s hard. Even if tools make it inconvenient. Even if you have to search for solutions. Together, I trust, we can find our way back to putting one rectangle inside another rectangle without messing it up.\n> \n> I, for one, want to live in a world of beautiful well-balanced UIs. I trust that you do, too.\n> \n> It’s all…\n\n#CSS #font\n\n⚓️ https://nicolas-hoizey.com/links/2024/04/17/hardest-problem-in-computer-science-centering-things/",
     "attachments": [
       {
         "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://tonsky.me/blog/centering/",
@@ -3216,5 +3216,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112443973213154043"
     ],
     "lastTootTimestamp": 1715758868701
+  },
+  "https://nicolas-hoizey.com/links/2024/05/15/going-to-the-cinema-is-a-data-visualization-problem/": {
+    "id": "https://nicolas-hoizey.com/links/2024/05/15/going-to-the-cinema-is-a-data-visualization-problem/",
+    "url": "https://nicolas-hoizey.com/links/2024/05/15/going-to-the-cinema-is-a-data-visualization-problem/",
+    "lang": "en",
+    "title": "“Going to the cinema is a data visualization problem”",
+    "date_published": "2024-05-15T09:24:05Z",
+    "content_text": "“Going to the cinema is a data visualization problem” by @nikitonsky@mastodon.online\n\n🔗 https://tonsky.me/blog/allekinos/\n\n> So I decided to take matters into my own hands and build a cinema selection website I always dreamed of.\n\nI love it! 🍿\n\n#cinema #movie\n\n⚓️ https://nicolas-hoizey.com/links/2024/05/15/going-to-the-cinema-is-a-data-visualization-problem/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://tonsky.me/blog/allekinos/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Going to the cinema is a data visualization problem"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112445388373127161"
+    ],
+    "lastTootTimestamp": 1715780462327
   }
 }
