@@ -3237,5 +3237,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112445388373127161"
     ],
     "lastTootTimestamp": 1715780462327
+  },
+  "https://nicolas-hoizey.com/links/2024/05/20/new-field-insights-for-debugging-inp/": {
+    "id": "https://nicolas-hoizey.com/links/2024/05/20/new-field-insights-for-debugging-inp/",
+    "url": "https://nicolas-hoizey.com/links/2024/05/20/new-field-insights-for-debugging-inp/",
+    "lang": "en",
+    "title": "“New field insights for debugging INP”",
+    "date_published": "2024-05-20T10:06:12Z",
+    "content_text": "“New field insights for debugging INP” by Jeremy Wagner\n\n🔗 https://www.youtube.com/watch?v=xfjumh8ySRY\n\n> Interaction to Next Paint (INP) is a Core Web Vital that measures how responsive a page is to interactions. Due to INP's scope, it can be difficult to identify why some interactions are slow. Learn how to use new Chrome APIs that provide detailed information on the causes behind slow interactions, and how to collect insights from your website's…\n\n#INP #WebPerf #CoreWebVitals\n\n⚓️ https://nicolas-hoizey.com/links/2024/05/20/new-field-insights-for-debugging-inp/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.youtube.com/watch?v=xfjumh8ySRY",
+        "mime_type": "image/png",
+        "title": "Screenshot of New field insights for debugging INP"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112473699824170087"
+    ],
+    "lastTootTimestamp": 1716212460770
   }
 }
