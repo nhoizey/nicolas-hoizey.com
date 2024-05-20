@@ -3195,9 +3195,10 @@
       }
     ],
     "toots": [
-      "https://mamot.fr/users/nhoizey/statuses/112422739560598945"
+      "https://mamot.fr/users/nhoizey/statuses/112422739560598945",
+      "https://mamot.fr/users/nhoizey/statuses/112470937492283844"
     ],
-    "lastTootTimestamp": 1715434868904
+    "lastTootTimestamp": 1716170310970
   },
   "https://nicolas-hoizey.com/links/2024/05/15/subsetting-xyz-type-foundries-that-allow-font-subsetting/": {
     "id": "https://nicolas-hoizey.com/links/2024/05/15/subsetting-xyz-type-foundries-that-allow-font-subsetting/",
