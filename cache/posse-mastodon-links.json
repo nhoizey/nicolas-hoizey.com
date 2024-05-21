@@ -3271,7 +3271,10 @@
         "title": "Screenshot of Frozen nudity"
       }
     ],
-    "toots": []
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112479363274136333"
+    ],
+    "lastTootTimestamp": 1716298878168
   },
   "https://nicolas-hoizey.com/links/2024/05/21/netbeep-chrome-extension-to-play-sounds-on-network-requests-depending-on-request-type-and-file-size/": {
     "id": "https://nicolas-hoizey.com/links/2024/05/21/netbeep-chrome-extension-to-play-sounds-on-network-requests-depending-on-request-type-and-file-size/",
