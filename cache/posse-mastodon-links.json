@@ -3235,9 +3235,10 @@
       }
     ],
     "toots": [
-      "https://mamot.fr/users/nhoizey/statuses/112445388373127161"
+      "https://mamot.fr/users/nhoizey/statuses/112445388373127161",
+      "https://mamot.fr/users/nhoizey/statuses/112493584425441458"
     ],
-    "lastTootTimestamp": 1715780462327
+    "lastTootTimestamp": 1716515875741
   },
   "https://nicolas-hoizey.com/links/2024/05/20/new-field-insights-for-debugging-inp/": {
     "id": "https://nicolas-hoizey.com/links/2024/05/20/new-field-insights-for-debugging-inp/",
