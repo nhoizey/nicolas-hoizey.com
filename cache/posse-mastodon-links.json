@@ -3316,5 +3316,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112523952947465316"
     ],
     "lastTootTimestamp": 1716979262590
+  },
+  "https://nicolas-hoizey.com/links/2024/05/29/web-components-considered-harmful/": {
+    "id": "https://nicolas-hoizey.com/links/2024/05/29/web-components-considered-harmful/",
+    "url": "https://nicolas-hoizey.com/links/2024/05/29/web-components-considered-harmful/",
+    "lang": "en",
+    "title": "““Web components” considered harmful”",
+    "date_published": "2024-05-29T11:50:29Z",
+    "content_text": "““Web components” considered harmful” by @mayank@front-end.social\n\n🔗 https://www.mayank.co/blog/web-components-considered-harmful\n\n> This is a branding problem as much as it is an education problem. Neither the HTML standard nor the DOM standard mentions the term “web components” anywhere. And yet it’s present everywhere in documentation and learning material.\n\n#WebComponents\n\n⚓️ https://nicolas-hoizey.com/links/2024/05/29/web-components-considered-harmful/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.mayank.co/blog/web-components-considered-harmful",
+        "mime_type": "image/png",
+        "title": "Screenshot of “Web components” considered harmful"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112524661054617049"
+    ],
+    "lastTootTimestamp": 1716990067451
   }
 }
