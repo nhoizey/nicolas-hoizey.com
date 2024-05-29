@@ -1411,5 +1411,18 @@
       "https://mamot.fr/users/nhoizey/statuses/112396244844276028"
     ],
     "lastTootTimestamp": 1715030591570
+  },
+  "https://nicolas-hoizey.com/notes/2024/05/29/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2024/05/29/1/",
+    "url": "https://nicolas-hoizey.com/notes/2024/05/29/1/",
+    "lang": "en",
+    "title": "💬 Note from 29 May 2024, 18:40",
+    "date_published": "2024-05-29T16:40:13Z",
+    "content_text": "How should I read the values for `box-shadow-position` in the formal syntax of `box-shadow` on MDN?\n\nIt says `<box-shadow-position> = [ outset | inset ]` which I read as: the value is either `outset` or `inset`. But I know `outset` is not supported. It is the default behavior, not the default value.\n\nMaybe I need a documentation of these formal syntaxes… 😅\n\n#CSS #MDN\n\n⚓️ https://nicolas-hoizey.com/notes/2024/05/29/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112525709284282875"
+    ],
+    "lastTootTimestamp": 1717006062160
   }
 }
