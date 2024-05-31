@@ -1424,5 +1424,18 @@
       "https://mamot.fr/users/nhoizey/statuses/112525709284282875"
     ],
     "lastTootTimestamp": 1717006062160
+  },
+  "https://nicolas-hoizey.com/notes/2024/05/31/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2024/05/31/1/",
+    "url": "https://nicolas-hoizey.com/notes/2024/05/31/1/",
+    "lang": "en",
+    "title": "💬 Note from 31 May 2024, 10:40",
+    "date_published": "2024-05-31T08:40:44Z",
+    "content_text": "Please, please, please… check on the sites you build that using <kbd>Command</kbd>[command] + <kbd>click</kbd>[click] always opens links in a new tab, even if you used some JavaScript to build a dumb Web link!\n\n[command]: <kbd>Command</kbd> on a Mac, but I guess <kbd>Control</kbd> on Windows and Linux?\n\n[click]: Check the <kbd>click</kbd> both with mouses and trackpads!\n\nI see too many sites where <kbd>Cmd</kbd> + <kbd>click</kbd> opens the link…\n\n#UX\n\n⚓️ https://nicolas-hoizey.com/notes/2024/05/31/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112535381006623978"
+    ],
+    "lastTootTimestamp": 1717153640952
   }
 }
