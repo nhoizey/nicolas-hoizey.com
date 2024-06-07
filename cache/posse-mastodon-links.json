@@ -3338,5 +3338,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112572861586485806"
     ],
     "lastTootTimestamp": 1717725549200
+  },
+  "https://nicolas-hoizey.com/links/2024/06/07/why-lighthouse-performance-score-doesn-t-work/": {
+    "id": "https://nicolas-hoizey.com/links/2024/06/07/why-lighthouse-performance-score-doesn-t-work/",
+    "url": "https://nicolas-hoizey.com/links/2024/06/07/why-lighthouse-performance-score-doesn-t-work/",
+    "lang": "en",
+    "title": "“Why Lighthouse Performance Score Doesn’t Work”",
+    "date_published": "2024-06-07T07:30:49Z",
+    "content_text": "“Why Lighthouse Performance Score Doesn’t Work” by @fox@front-end.social\n\n🔗 https://calibreapp.com/blog/downsides-of-performance-score\n\n> There is some correlation between the [Lighthouse] Performance Score and how well your site will do for real users. Still, lab testing alone doesn’t capture all speed issues (similarly, field testing might prove inadequate in showcasing other speed problems). That’s why relying on Performance Score is not a bulletproof strategy. We…\n\n#WebPerf #Lighthouse\n\n⚓️ https://nicolas-hoizey.com/links/2024/06/07/why-lighthouse-performance-score-doesn-t-work/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://calibreapp.com/blog/downsides-of-performance-score",
+        "mime_type": "image/png",
+        "title": "Screenshot of Why Lighthouse Performance Score Doesn’t Work"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112574205864235914"
+    ],
+    "lastTootTimestamp": 1717746061281
   }
 }
