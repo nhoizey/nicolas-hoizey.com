@@ -3315,9 +3315,10 @@
       }
     ],
     "toots": [
-      "https://mamot.fr/users/nhoizey/statuses/112523952947465316"
+      "https://mamot.fr/users/nhoizey/statuses/112523952947465316",
+      "https://mamot.fr/users/nhoizey/statuses/112575621712923545"
     ],
-    "lastTootTimestamp": 1716979262590
+    "lastTootTimestamp": 1717767665401
   },
   "https://nicolas-hoizey.com/links/2024/05/29/web-components-considered-harmful/": {
     "id": "https://nicolas-hoizey.com/links/2024/05/29/web-components-considered-harmful/",
