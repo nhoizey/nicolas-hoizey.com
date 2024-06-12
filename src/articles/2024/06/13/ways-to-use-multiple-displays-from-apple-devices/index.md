@@ -22,7 +22,7 @@ A bit of history:
 
 So yes, a Mac computer can now both send and receive a video and audio stream, so **any compatible Mac display can be used to extend another Mac's display**.
 
-My work computer is a MacBook Air M2, on which I can plug [only one external display](https://support.apple.com/guide/macbook-air/use-an-external-display-apd8cdd74f57/mac). Enough most of the time. But when I'm home, I can extend the display to my personal MacStudio's display! Having three displays to organize the many windows I need when I'm doing development is really handy.
+My work computer is a MacBook Air M2, on which I can plug [only one external display](https://support.apple.com/guide/macbook-air/use-an-external-display-apd8cdd74f57/mac). Enough most of the time. But when I'm home, I can extend the display to my personal MacStudio's display! **Having three displays to organize the many windows I need when I'm doing development is really handy**.
 
 ## Requirements
 
