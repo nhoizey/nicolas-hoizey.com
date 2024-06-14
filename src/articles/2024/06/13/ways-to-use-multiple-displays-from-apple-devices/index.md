@@ -28,13 +28,13 @@ My work computer is a MacBook Air M2, on which I can plug [only one external dis
 
 ## Requirements
 
-Using an Apple device as an AirPlay sender requires:
+Using an Apple device as an **AirPlay sender** requires:
 - On an iPhone, iPad, iPod Touch, or Apple TV:
   - iOS 4.2+ for AirPlay
   - iOS/iPadOS/tvOS 11.4 for AirPlay 2
 - On a Mac: OS X Moutain Lion 10.8+
 
-Using an Apple Mac or iPad as an AirPlay receiver requires:
+Using an Apple Mac or iPad as an **AirPlay receiver** requires:
 - On an Apple TV: iOS/tvOS 4.2+
 - On a Mac: macOS Monterey
 
