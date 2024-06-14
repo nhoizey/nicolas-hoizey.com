@@ -38,6 +38,7 @@ Using an Apple Mac or iPad as an AirPlay receiver requires:
 
 ## Links
 
+- Apple's marketing page: [AirPlay](https://www.apple.com/airplay/)
 - Wikipedia: [AirPlay](https://en.wikipedia.org/wiki/AirPlay)
 
 # Sidecar
@@ -67,11 +68,19 @@ Sidecar requires:
 
 **Universal Control allows multiple Macs and iPads to be controlled with a single mouse and keyboard**.
 
+Here's Apple's Craig Federighi showing Universal Control with a MacBook, an iPad and an iMac:
+
+<iframe src="https://share.newsroom.apple/newsroom/embed/videos/?embedvideoid=16c6216cd7013aa33917b5a16d78839a" width="1280" height="720" title="Universal Control Demo Video" allowfullscreen></iframe>
+
 I use it at home every time I'm working from home, using the keyboard and trackpad of my work MacBook Air to also control my personal MacStudio, and sometimes even my iPad mini, when I don't use them as extended displays with AirPlay/Sidecar.
 
 With Universal Control, I can even copy a file from one computer to another just by drag-and-dropping it from one display to the other.
 
 It really feels magical.
+
+And a great news is that [you can use both Sidecar and Universal Control at the same time](https://www.macrumors.com/2022/03/15/universal-control-sidecar-work-same-time-macos/)!
+
+![Screenshot of macOS displays preferences, with external devices connected with either Universal Control or Sidecar](macrumors-universal-control-sidecar.jpg "Image from the linked article on MacRumors")
 
 ## Requirements
 
