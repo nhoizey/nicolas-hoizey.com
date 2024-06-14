@@ -20,7 +20,7 @@ A bit of history:
 - In 2010, Apple then introduced AirPlay in iOS 4.2, to stream both audio and video from an iPhone, iPad or iPod Touch to an Apple TV.
 - In 2012, with OS X Mountain Lion 10.8, Apple allowed to also use AirPlay on a Mac, to stream the sound of the computer, not just the one from iTunes.
 - Then in 2018, Apple releases AirPlay 2 on iOS 11.4.
-- And finaly, the most important for this article, Apple adds in macOS Monterey 12 the capability for Mac computers to receive an AirPlay stream.
+- And finaly, the most important for this article, **Apple adds in macOS Monterey 12 the capability for Mac computers to receive an AirPlay stream**.
 
 So yes, a Mac computer can now both send and receive a video and audio stream, so **any compatible Mac display can be used to extend another Mac's display**.
 
@@ -44,6 +44,8 @@ Using an Apple Mac or iPad as an AirPlay receiver requires:
 - Wikipedia: [AirPlay](https://en.wikipedia.org/wiki/AirPlay)
 
 # Sidecar
+
+![Photo of a woman using her Apple Pencil on an iPad, used as an extended display for a MacBook](apple-macos-catalina-sidecar.jpg){.onethird}
 
 Sidecar allows **using an iPad as a secondary display for a Mac**.
 
