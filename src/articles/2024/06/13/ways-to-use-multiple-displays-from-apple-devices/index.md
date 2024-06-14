@@ -13,6 +13,8 @@ I will try to keep it short, and provide links to know more about the features a
 
 # Airplay
 
+![An iPhone streaming Game of Thrones to a TV with AirPlay 2](apple-airplay-2.jpg){.onethird}
+
 A bit of history:
 - In 2004, Apple introduced AirTunes in iTunes 4.6, allowing to stream music from iTunes on a Mac to an [AirPort Express](https://en.wikipedia.org/wiki/AirPort_Express) device, plugged to speakers or other audio devices.
 - In 2010, Apple then introduced AirPlay in iOS 4.2, to stream both audio and video from an iPhone, iPad or iPod Touch to an Apple TV.
