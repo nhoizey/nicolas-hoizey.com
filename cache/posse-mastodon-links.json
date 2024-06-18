@@ -3359,5 +3359,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112623043165251283"
     ],
     "lastTootTimestamp": 1718491259466
+  },
+  "https://nicolas-hoizey.com/links/2024/06/18/speculative-rules-api-a-new-iteration-in-the-pre-loading-journey/": {
+    "id": "https://nicolas-hoizey.com/links/2024/06/18/speculative-rules-api-a-new-iteration-in-the-pre-loading-journey/",
+    "url": "https://nicolas-hoizey.com/links/2024/06/18/speculative-rules-api-a-new-iteration-in-the-pre-loading-journey/",
+    "lang": "en",
+    "title": "“Speculative Rules API – a new iteration in the pre-loading journey”",
+    "date_published": "2024-06-18T10:41:16Z",
+    "content_text": "“Speculative Rules API – a new iteration in the pre-loading journey” by @boostmarks@hachyderm.io\n\n🔗 https://boris.schapira.dev/notes/2024-06-speculative-rules-en/\n\n> The Speculative Rules API is the latest development in a long-standing narrative. The issues I’ve discussed were already inherent in previous solutions. The Speculative Rules API merely incorporates this behavior directly into the browser, which has certain advantages over JavaScript.\n\n#WebPerf\n\n⚓️ https://nicolas-hoizey.com/links/2024/06/18/speculative-rules-api-a-new-iteration-in-the-pre-loading-journey/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://boris.schapira.dev/notes/2024-06-speculative-rules-en/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Speculative Rules API – a new iteration in the pre-loading journey"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112637906764318863"
+    ],
+    "lastTootTimestamp": 1718718059863
   }
 }
