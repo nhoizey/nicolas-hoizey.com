@@ -1431,11 +1431,24 @@
     "lang": "en",
     "title": "💬 Note from 31 May 2024, 10:40",
     "date_published": "2024-05-31T08:40:44Z",
-    "content_text": "Please, please, please… check on the sites you build that using <kbd>Command</kbd>[command] + <kbd>click</kbd>[click] always opens links in a new tab, even if you used some JavaScript to build a dumb Web link!\n\n[command]: <kbd>Command</kbd> on a Mac, but I guess <kbd>Control</kbd> on Windows and Linux?\n\n[click]: Check the <kbd>click</kbd> both with mouses and trackpads!\n\nI see too many sites where <kbd>Cmd</kbd> + <kbd>click</kbd> opens the link…\n\n#UX\n\n⚓️ https://nicolas-hoizey.com/notes/2024/05/31/1/",
+    "content_text": "Please, please, please… check on the sites you build that using <kbd>Command</kbd>  + <kbd>click</kbd>  always opens links in a new tab, even if you used some JavaScript to build a dumb Web link!\n\nI see too many sites where <kbd>Cmd</kbd> + <kbd>click</kbd> opens the link in the current tab, so when browsing a list of links, if I want to open them in new tabs (for example to compare products), I need to use right click and then select the \"open link…\n\n#UX\n\n⚓️ https://nicolas-hoizey.com/notes/2024/05/31/1/",
     "attachments": [],
     "toots": [
       "https://mamot.fr/users/nhoizey/statuses/112535381006623978"
     ],
     "lastTootTimestamp": 1717153640952
+  },
+  "https://nicolas-hoizey.com/notes/2024/06/20/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2024/06/20/1/",
+    "url": "https://nicolas-hoizey.com/notes/2024/06/20/1/",
+    "lang": "en",
+    "title": "💬 Note from 20 June 2024, 14:39",
+    "date_published": "2024-06-20T12:39:19Z",
+    "content_text": "About https://techhub.social/@cloudcannon/112604279395366912\n\n> Alex […] shares how using CloudCannon for client sites boosts performance and efficiency 🚀\n\nI love @cloudcannon@techhub.social's efficiency. 👍\n\nBut with an SSG, #WebPerf depends on the way you build pages. Good SSGs — as @eleventy@fosstodon.org — don't force anything so performance is really just the result of developer's work.\n\nThe CMS should have no impact. 🤷‍♂️\n\n\n\n⚓️ https://nicolas-hoizey.com/notes/2024/06/20/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112649572062020752"
+    ],
+    "lastTootTimestamp": 1718896058149
   }
 }
