@@ -3378,5 +3378,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112637906764318863"
     ],
     "lastTootTimestamp": 1718718059863
+  },
+  "https://nicolas-hoizey.com/links/2024/06/20/flow-charts-with-css-anchor-positioning/": {
+    "id": "https://nicolas-hoizey.com/links/2024/06/20/flow-charts-with-css-anchor-positioning/",
+    "url": "https://nicolas-hoizey.com/links/2024/06/20/flow-charts-with-css-anchor-positioning/",
+    "lang": "en",
+    "title": "“Flow Charts with CSS Anchor Positioning”",
+    "date_published": "2024-06-20T12:15:59Z",
+    "content_text": "“Flow Charts with CSS Anchor Positioning” by Cory Rylan\n\n🔗 https://coryrylan.com/blog/flow-charts-with-css-anchor-positioning\n\n> With the introduction of the CSS Anchor Position API in Chrome 125, it's never been easier to position an element relative to another element. This is a great way to manage complex positioning use cases like popovers and tooltips.\n> \n> However, CSS Anchor Posititioning can be used for more than just popovers and tooltips, it can be used to create basic flow chart…\n\n#CSS\n\n⚓️ https://nicolas-hoizey.com/links/2024/06/20/flow-charts-with-css-anchor-positioning/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://coryrylan.com/blog/flow-charts-with-css-anchor-positioning",
+        "mime_type": "image/png",
+        "title": "Screenshot of Flow Charts with CSS Anchor Positioning"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112649232217268361"
+    ],
+    "lastTootTimestamp": 1718890872544
   }
 }
