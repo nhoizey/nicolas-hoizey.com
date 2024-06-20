@@ -85,6 +85,12 @@ const tootFootnotes = (shortMessage) => {
   return shortMessage;
 };
 
+const tootAbbr = (shortMessage) => {
+  // remove abbr
+  shortMessage = shortMessage.replace(/\n\n\*\[[^\]]+\]:[^\n]+/g, '');
+  return shortMessage;
+};
+
 const tootMark = (shortMessage) => {
   // only keep the mark text
   shortMessage = shortMessage.replace(/<\/?mark>/g, '');
@@ -118,6 +124,7 @@ const cleanMarkdown = (content, tags) => {
   cleanContent = tootRemoveImage(tootwithHandles);
   cleanContent = tootLinks(cleanContent);
   cleanContent = tootFootnotes(cleanContent);
+  cleanContent = tootAbbr(cleanContent);
   cleanContent = tootStrike(cleanContent);
   cleanContent = tootMark(cleanContent);
 
