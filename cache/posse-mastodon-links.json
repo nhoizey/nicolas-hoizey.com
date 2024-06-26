@@ -3397,5 +3397,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112649232217268361"
     ],
     "lastTootTimestamp": 1718890872544
+  },
+  "https://nicolas-hoizey.com/links/2024/06/26/web-performance-guide/": {
+    "id": "https://nicolas-hoizey.com/links/2024/06/26/web-performance-guide/",
+    "url": "https://nicolas-hoizey.com/links/2024/06/26/web-performance-guide/",
+    "lang": "en",
+    "title": "“Web Performance Guide”",
+    "date_published": "2024-06-26T08:01:11Z",
+    "content_text": "“Web Performance Guide” by @speedcurve@webperf.social\n\n🔗 https://www.speedcurve.com/web-performance-guide/\n\n> New to the world of web performance? Welcome! Here's everything you need to know to master website monitoring, analytics, and diagnostics. Learn how to deliver a fast, joyous experience to all your users.\n\n#SpeedCurve #WebPerf\n\n⚓️ https://nicolas-hoizey.com/links/2024/06/26/web-performance-guide/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.speedcurve.com/web-performance-guide/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Web Performance Guide"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112682497461818892"
+    ],
+    "lastTootTimestamp": 1719398459916
   }
 }
