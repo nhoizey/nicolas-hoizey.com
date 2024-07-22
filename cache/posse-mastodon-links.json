@@ -3417,5 +3417,56 @@
       "https://mamot.fr/users/nhoizey/statuses/112682497461818892"
     ],
     "lastTootTimestamp": 1719398459916
+  },
+  "https://nicolas-hoizey.com/links/2024/07/22/practical-svg/": {
+    "id": "https://nicolas-hoizey.com/links/2024/07/22/practical-svg/",
+    "url": "https://nicolas-hoizey.com/links/2024/07/22/practical-svg/",
+    "lang": "en",
+    "title": "“Practical SVG”",
+    "date_published": "2024-07-22T20:00:45Z",
+    "content_text": "“Practical SVG” by @chriscoyier@front-end.social\n\n🔗 https://practical-svg.chriscoyier.net/\n\n> I wrote this book back in 2016. SVG wasn't new then, but it was starting to catch on a little bit more for front-end developers. I thought, and still think, SVG is a great tool for a lot of things on the web, and wanted to help keep that trend going.\n\n#SVG #book\n\n⚓️ https://nicolas-hoizey.com/links/2024/07/22/practical-svg/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://practical-svg.chriscoyier.net/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Practical SVG"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112832036470446872"
+    ],
+    "lastTootTimestamp": 1721680244090
+  },
+  "https://nicolas-hoizey.com/links/2024/07/21/fit-to-width-text-a-new-technique/": {
+    "id": "https://nicolas-hoizey.com/links/2024/07/21/fit-to-width-text-a-new-technique/",
+    "url": "https://nicolas-hoizey.com/links/2024/07/21/fit-to-width-text-a-new-technique/",
+    "lang": "en",
+    "title": "“Fit-to-Width Text: A New Technique”",
+    "date_published": "2024-07-21T09:15:54Z",
+    "content_text": "“Fit-to-Width Text: A New Technique” by @kizu@front-end.social\n\n🔗 https://kizu.dev/fit-to-width/\n\n> Registered custom properties are now available in all modern browsers. Using some pre-existing techniques based on them and complex container query length units, I solved a years-long problem of fitting text to the width of a container, hopefully paving the path towards a proper native implementation.\n\n#CSS\n\n⚓️ https://nicolas-hoizey.com/links/2024/07/21/fit-to-width-text-a-new-technique/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://kizu.dev/fit-to-width/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Fit-to-Width Text: A New Technique"
+      }
+    ],
+    "toots": []
+  },
+  "https://nicolas-hoizey.com/links/2024/07/03/highlighting-blogging-on-mastodon/": {
+    "id": "https://nicolas-hoizey.com/links/2024/07/03/highlighting-blogging-on-mastodon/",
+    "url": "https://nicolas-hoizey.com/links/2024/07/03/highlighting-blogging-on-mastodon/",
+    "lang": "en",
+    "title": "“Highlighting Blogging on Mastodon”",
+    "date_published": "2024-07-03T07:11:59Z",
+    "content_text": "“Highlighting Blogging on Mastodon” by @matthiasott@mastodon.social\n\n🔗 https://matthiasott.com/notes/highlighting-blogging-on-mastodon\n\n> With this new author byline, a direct connection between the article and the corresponding fediverse accounts is established that increases the visibility of authors and their accounts a lot.\n\n#Mastodon #opengraph\n\n⚓️ https://nicolas-hoizey.com/links/2024/07/03/highlighting-blogging-on-mastodon/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://matthiasott.com/notes/highlighting-blogging-on-mastodon",
+        "mime_type": "image/png",
+        "title": "Screenshot of Highlighting Blogging on Mastodon"
+      }
+    ],
+    "toots": []
   }
 }
