@@ -3474,5 +3474,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112833332253157730"
     ],
     "lastTootTimestamp": 1721700016203
+  },
+  "https://nicolas-hoizey.com/links/2024/07/23/this-site-goes-up-to-eleventy/": {
+    "id": "https://nicolas-hoizey.com/links/2024/07/23/this-site-goes-up-to-eleventy/",
+    "url": "https://nicolas-hoizey.com/links/2024/07/23/this-site-goes-up-to-eleventy/",
+    "lang": "en",
+    "title": "“This site goes up to Eleventy”",
+    "date_published": "2024-07-23T10:10:36Z",
+    "content_text": "“This site goes up to Eleventy” by @beep@follow.ethanmarcotte.com\n\n🔗 https://ethanmarcotte.com/wrote/eleventy/\n\n> I don’t want to suggest that my experience was bumpy, mind you — far from it! Overall, I am delighted by how easy it was to move a decade’s worth of material over to Eleventy. And now that I’ve moved things over, here are some of the things I’m most excited about:\n> 1. It’s fast […]\n> 1. Eleventy feels like a playground […]\n> 1. I feel like I have a…\n\n#Eleventy\n\n⚓️ https://nicolas-hoizey.com/links/2024/07/23/this-site-goes-up-to-eleventy/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://ethanmarcotte.com/wrote/eleventy/",
+        "mime_type": "image/png",
+        "title": "Screenshot of This site goes up to Eleventy"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112836087816525697"
+    ],
+    "lastTootTimestamp": 1721742062732
   }
 }
