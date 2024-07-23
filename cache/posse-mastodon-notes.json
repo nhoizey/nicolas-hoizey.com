@@ -1450,5 +1450,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112649572062020752"
     ],
     "lastTootTimestamp": 1718896058149
+  },
+  "https://nicolas-hoizey.com/notes/2024/07/23/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2024/07/23/1/",
+    "url": "https://nicolas-hoizey.com/notes/2024/07/23/1/",
+    "lang": "en",
+    "title": "💬 Note from 23 July 2024, 09:47",
+    "date_published": "2024-07-23T07:47:42Z",
+    "content_text": "Wait, is “Bad Boys: Ride or Die” really the best movie in the Bad Boys franchise, as Letterboxd users seem to think?\n\nHere's the franchise ranked by decreasing average rating: https://letterboxd.com/films/in/bad-boys-collection/by/rating/size/large/\n\nI really didn't like the 3rd, so I wasn't planning on seeing the 4th, but I might reconsider.\n\n#cinema #movie\n\n⚓️ https://nicolas-hoizey.com/notes/2024/07/23/1/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2024/07/23/1/bad-boys-movie-franchise-in-letterboxd.jpg",
+        "mime_type": "image/jpg",
+        "title": "Screenshot of the Bad Boys movie franchise in Letterboxd: 4, 1, 2, 3"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112834782741959446"
+    ],
+    "lastTootTimestamp": 1721722148859
   }
 }
