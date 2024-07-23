@@ -1469,5 +1469,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112834782741959446"
     ],
     "lastTootTimestamp": 1721722148859
+  },
+  "https://nicolas-hoizey.com/notes/2024/07/23/2/": {
+    "id": "https://nicolas-hoizey.com/notes/2024/07/23/2/",
+    "url": "https://nicolas-hoizey.com/notes/2024/07/23/2/",
+    "lang": "en",
+    "title": "💬 Note from 23 July 2024, 10:27",
+    "date_published": "2024-07-23T08:27:40Z",
+    "content_text": "I really wish @PixelFed@pixelfed.social added a mention of the account we reply too, in comments.\n\nThis is a reply to @accudio@mastodon.scot from my Pixelfed account @nhoizey@pixelfed.social , but it looks like a brand new toot in Mastodon.\n\nhttps://pixelfed.social/p/nhoizey/721278831324593543\n\n#Mastodon #Pixelfed\n\n⚓️ https://nicolas-hoizey.com/notes/2024/07/23/2/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2024/07/23/2/screenshot-pixelfed-reply-comment-in-mastodon.jpg",
+        "mime_type": "image/jpg",
+        "title": "Screenshot of a Pixelfed reply comment in Mastodon"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112834968379408820"
+    ],
+    "lastTootTimestamp": 1721724981526
   }
 }
