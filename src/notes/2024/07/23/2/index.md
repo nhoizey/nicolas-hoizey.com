@@ -9,4 +9,4 @@ This is a reply to @accudio@mastodon.scot from my Pixelfed account @nhoizey@pixe
 
 https://pixelfed.social/p/nhoizey/721278831324593543
 
-![Screenshot of a Pixelfed reply comment in Mastodon](screenshot-pixelfed-reply-comment-in-mastodon.jpg)
+![Screenshot of a Pixelfed reply comment in Mastodon](screenshot-pixelfed-reply-comment-in-mastodon.jpg){.onehalf}
