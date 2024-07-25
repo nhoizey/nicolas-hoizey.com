@@ -10,6 +10,6 @@ tags: [Eleventy]
 
 > I don’t want to suggest that my experience was bumpy, mind you — far from it! Overall, <mark>I am *delighted* by how easy it was to move a decade’s worth of material over to Eleventy</mark>. And now that I’ve moved things over, here are some of the things I’m most excited about:
 > 1. It’s fast […]
-> 1. Eleventy feels like a playground […]
-> 1. I feel like I have a blog I can extend […]
-> 1. Eleventy is powered by its community […]
+> 2. Eleventy feels like a playground […]
+> 3. I feel like I have a blog I can extend […]
+> 4. Eleventy is powered by its community […]
