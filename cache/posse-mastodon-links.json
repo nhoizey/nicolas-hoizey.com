@@ -3435,9 +3435,10 @@
       }
     ],
     "toots": [
-      "https://mamot.fr/users/nhoizey/statuses/112832036470446872"
+      "https://mamot.fr/users/nhoizey/statuses/112832036470446872",
+      "https://mamot.fr/users/nhoizey/statuses/112880678768133174"
     ],
-    "lastTootTimestamp": 1721680244090
+    "lastTootTimestamp": 1722422466677
   },
   "https://nicolas-hoizey.com/links/2024/07/21/fit-to-width-text-a-new-technique/": {
     "id": "https://nicolas-hoizey.com/links/2024/07/21/fit-to-width-text-a-new-technique/",
@@ -3483,7 +3484,7 @@
     "lang": "en",
     "title": "“This site goes up to Eleventy”",
     "date_published": "2024-07-23T10:10:36Z",
-    "content_text": "“This site goes up to Eleventy” by @beep@follow.ethanmarcotte.com\n\n🔗 https://ethanmarcotte.com/wrote/eleventy/\n\n> I don’t want to suggest that my experience was bumpy, mind you — far from it! Overall, I am delighted by how easy it was to move a decade’s worth of material over to Eleventy. And now that I’ve moved things over, here are some of the things I’m most excited about:\n> 1. It’s fast […]\n> 1. Eleventy feels like a playground […]\n> 1. I feel like I have a…\n\n#Eleventy\n\n⚓️ https://nicolas-hoizey.com/links/2024/07/23/this-site-goes-up-to-eleventy/",
+    "content_text": "“This site goes up to Eleventy” by @beep@follow.ethanmarcotte.com\n\n🔗 https://ethanmarcotte.com/wrote/eleventy/\n\n> I don’t want to suggest that my experience was bumpy, mind you — far from it! Overall, I am delighted by how easy it was to move a decade’s worth of material over to Eleventy. And now that I’ve moved things over, here are some of the things I’m most excited about:\n> 1. It’s fast […]\n> 2. Eleventy feels like a playground […]\n> 3. I feel like I have a…\n\n#Eleventy\n\n⚓️ https://nicolas-hoizey.com/links/2024/07/23/this-site-goes-up-to-eleventy/",
     "attachments": [
       {
         "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://ethanmarcotte.com/wrote/eleventy/",
