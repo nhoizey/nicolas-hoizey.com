@@ -3455,9 +3455,10 @@
       }
     ],
     "toots": [
-      "https://mamot.fr/users/nhoizey/statuses/112834673250476145"
+      "https://mamot.fr/users/nhoizey/statuses/112834673250476145",
+      "https://mamot.fr/users/nhoizey/statuses/112883510146674174"
     ],
-    "lastTootTimestamp": 1721720478163
+    "lastTootTimestamp": 1722465670086
   },
   "https://nicolas-hoizey.com/links/2024/07/03/highlighting-blogging-on-mastodon/": {
     "id": "https://nicolas-hoizey.com/links/2024/07/03/highlighting-blogging-on-mastodon/",
