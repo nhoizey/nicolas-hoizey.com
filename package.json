@@ -49,14 +49,14 @@
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-    "@babel/core": "^7.24.9",
-    "@babel/preset-env": "^7.25.0",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
     "@jlengstorf/get-share-image": "^0.8.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@rollup/plugin-replace": "^3.1.0",
     "@sindresorhus/slugify": "^1.1.2",
     "atomic-algolia": "^0.3.19",
-    "autoprefixer": "^10.4.19",
+    "autoprefixer": "^10.4.20",
     "babel-loader": "^8.3.0",
     "bent": "^7.3.12",
     "bookmarklet": "^3.0.0",
@@ -136,6 +136,6 @@
   "private": true,
   "dependencies": {
     "algoliasearch": "^4.24.0",
-    "instantsearch.js": "^4.73.2"
+    "instantsearch.js": "^4.73.3"
   }
 }
