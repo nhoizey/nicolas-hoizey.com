@@ -1488,5 +1488,18 @@
       "https://mamot.fr/users/nhoizey/statuses/112834968379408820"
     ],
     "lastTootTimestamp": 1721724981526
+  },
+  "https://nicolas-hoizey.com/notes/2024/08/08/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2024/08/08/1/",
+    "url": "https://nicolas-hoizey.com/notes/2024/08/08/1/",
+    "lang": "en",
+    "title": "💬 Note from 8 August 2024, 16:22",
+    "date_published": "2024-08-08T14:22:43Z",
+    "content_text": "I've finally picked up my ticket to attend the @WeLoveSpeed@piaille.fr conference on September 17 in Nantes, France.\n\nI can't wait to attend some inspiring conferences, and meet lots of people passionate about #WebPerf, including some I've been in contact with for years only through social networks!\n\nCheck out this list of speakers and talks:\nhttps://www.welovespeed.com/en/2024/speakers/\n\n#conference\n\n⚓️ https://nicolas-hoizey.com/notes/2024/08/08/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112927261856685197"
+    ],
+    "lastTootTimestamp": 1723133268178
   }
 }
