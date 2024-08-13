@@ -3518,5 +3518,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112948627956440801"
     ],
     "lastTootTimestamp": 1723459288994
+  },
+  "https://nicolas-hoizey.com/links/2024/08/13/how-can-firefox-create-the-best-support-for-web-apps-on-the-desktop/": {
+    "id": "https://nicolas-hoizey.com/links/2024/08/13/how-can-firefox-create-the-best-support-for-web-apps-on-the-desktop/",
+    "url": "https://nicolas-hoizey.com/links/2024/08/13/how-can-firefox-create-the-best-support-for-web-apps-on-the-desktop/",
+    "lang": "en",
+    "title": "“How can Firefox create the best support for web apps on the desktop?”",
+    "date_published": "2024-08-13T08:13:28Z",
+    "content_text": "“How can Firefox create the best support for web apps on the desktop?” by David Rubino\n\n🔗 https://connect.mozilla.org/t5/discussions/how-can-firefox-create-the-best-support-for-web-apps-on-the/m-p/60561\n\n> we’re taking a fresh look at Progressive Web Apps (PWAs), which have long been a top request from our Mozilla Connect community. Today I want to share a concept that aims to address some of this feedback.\n\n#Firefox #PWA\n\n⚓️ https://nicolas-hoizey.com/links/2024/08/13/how-can-firefox-create-the-best-support-for-web-apps-on-the-desktop/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://connect.mozilla.org/t5/discussions/how-can-firefox-create-the-best-support-for-web-apps-on-the/m-p/60561",
+        "mime_type": "image/png",
+        "title": "Screenshot of How can Firefox create the best support for web apps on the desktop?"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112954291645496764"
+    ],
+    "lastTootTimestamp": 1723545710004
   }
 }
