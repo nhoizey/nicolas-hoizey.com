@@ -3537,5 +3537,40 @@
       "https://mamot.fr/users/nhoizey/statuses/112954291645496764"
     ],
     "lastTootTimestamp": 1723545710004
+  },
+  "https://nicolas-hoizey.com/links/2024/08/19/blog-posts-vs-social-posts/": {
+    "id": "https://nicolas-hoizey.com/links/2024/08/19/blog-posts-vs-social-posts/",
+    "url": "https://nicolas-hoizey.com/links/2024/08/19/blog-posts-vs-social-posts/",
+    "lang": "en",
+    "title": "“Blog Posts vs. Social Posts”",
+    "date_published": "2024-08-19T16:25:32Z",
+    "content_text": "“Blog Posts vs. Social Posts” by @jimniels@mastodon.social\n\n🔗 https://blog.jim-nielsen.com/2024/blog-vs-social-posts/\n\n> Blog posts are like these little robot evangelists you release out into the world on your behalf. They work tirelessly, 24/7, spreading your thoughts and garnering attention as time marches forward.\n> \n> Social posts die with the passage of time, whereas blog posts gain life from it!\n\n#blog #socialNetwork\n\n⚓️ https://nicolas-hoizey.com/links/2024/08/19/blog-posts-vs-social-posts/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://blog.jim-nielsen.com/2024/blog-vs-social-posts/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Blog Posts vs. Social Posts"
+      }
+    ],
+    "toots": []
+  },
+  "https://nicolas-hoizey.com/links/2024/08/19/learn-grid-now-container-queries-can-wait/": {
+    "id": "https://nicolas-hoizey.com/links/2024/08/19/learn-grid-now-container-queries-can-wait/",
+    "url": "https://nicolas-hoizey.com/links/2024/08/19/learn-grid-now-container-queries-can-wait/",
+    "lang": "en",
+    "title": "“Learn Grid Now, Container Queries Can Wait”",
+    "date_published": "2024-08-19T15:20:41Z",
+    "content_text": "“Learn Grid Now, Container Queries Can Wait” by @mia@front-end.social\n\n🔗 https://www.oddbird.net/2024/06/13/css-layout/\n\n> There’s no rush to rip out all your media queries, and replace them with containers. You’ll be fine waiting for widely available support and your next scheduled re-factor.\n> \n> But if you’re still avoiding grid – whatever your reasons – you are, in fact, missing out. CSS grid is one of the best features in CSS, and one of the biggest time-savers…\n\n#CSS #Grid\n\n⚓️ https://nicolas-hoizey.com/links/2024/08/19/learn-grid-now-container-queries-can-wait/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.oddbird.net/2024/06/13/css-layout/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Learn Grid Now, Container Queries Can Wait"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/112989683214340103"
+    ],
+    "lastTootTimestamp": 1724085742500
   }
 }
