@@ -117,7 +117,7 @@
     "stylelint-order": "^6.0.4",
     "stylelint-semantic-groups": "^1.2.1",
     "svgstore": "^3.0.1",
-    "truncate-html": "^1.1.1",
+    "truncate-html": "^1.1.2",
     "twitter": "^1.7.1",
     "twitter-text": "^3.1.0",
     "workbox-broadcast-update": "^6.6.1",
