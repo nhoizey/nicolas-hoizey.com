@@ -3515,9 +3515,10 @@
       }
     ],
     "toots": [
-      "https://mamot.fr/users/nhoizey/statuses/112948627956440801"
+      "https://mamot.fr/users/nhoizey/statuses/112948627956440801",
+      "https://mamot.fr/users/nhoizey/statuses/112997539791154216"
     ],
-    "lastTootTimestamp": 1723459288994
+    "lastTootTimestamp": 1724205624436
   },
   "https://nicolas-hoizey.com/links/2024/08/13/how-can-firefox-create-the-best-support-for-web-apps-on-the-desktop/": {
     "id": "https://nicolas-hoizey.com/links/2024/08/13/how-can-firefox-create-the-best-support-for-web-apps-on-the-desktop/",
