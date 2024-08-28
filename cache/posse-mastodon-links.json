@@ -3555,9 +3555,10 @@
       }
     ],
     "toots": [
-      "https://mamot.fr/users/nhoizey/statuses/112991093455901488"
+      "https://mamot.fr/users/nhoizey/statuses/112991093455901488",
+      "https://mamot.fr/users/nhoizey/statuses/113039224290477962"
     ],
-    "lastTootTimestamp": 1724107261089
+    "lastTootTimestamp": 1724841679362
   },
   "https://nicolas-hoizey.com/links/2024/08/19/learn-grid-now-container-queries-can-wait/": {
     "id": "https://nicolas-hoizey.com/links/2024/08/19/learn-grid-now-container-queries-can-wait/",
