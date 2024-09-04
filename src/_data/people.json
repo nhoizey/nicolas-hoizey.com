@@ -954,21 +954,6 @@
     "twitter": "thoughtworks",
     "site": "https://www.thoughtworks.com/"
   },
-  "Tom MacWright": {
-    "mastodon": "@tmcw@mastodon.social",
-    "site": "https://macwright.com/"
-  },
-  "Tomas Pueyo": {
-    "site": "https://unchartedterritories.tomaspueyo.com/"
-  },
-  "Tyce Clee": {
-    "twitter": "iamtyce",
-    "site": "http://www.iamtyce.com/"
-  },
-  "Tyler Gaw": {
-    "mastodon": "@tylergaw@mastodon.social",
-    "site": "https://tylergaw.com"
-  },
   "Tim Berners-Lee": {
     "twitter": "timberners_lee"
   },
@@ -983,6 +968,13 @@
   "Tom Greenwood": {
     "twitter": "eatwholegrain",
     "site": "https://www.wholegraindigital.com/"
+  },
+  "Tom MacWright": {
+    "mastodon": "@tmcw@mastodon.social",
+    "site": "https://macwright.com/"
+  },
+  "Tomas Pueyo": {
+    "site": "https://unchartedterritories.tomaspueyo.com/"
   },
   "Toni Sagristà": {
     "mastodon": "@jumpinglangur@mastodon.social",
@@ -1004,6 +996,14 @@
   },
   "Tutorspree": {
     "site": "http://www.tutorspree.com/about"
+  },
+  "Tyce Clee": {
+    "twitter": "iamtyce",
+    "site": "http://www.iamtyce.com/"
+  },
+  "Tyler Gaw": {
+    "mastodon": "@tylergaw@mastodon.social",
+    "site": "https://tylergaw.com"
   },
   "Tyler Sticka": {
     "twitter": "tylersticka",
