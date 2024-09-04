@@ -3579,5 +3579,24 @@
       "https://mamot.fr/users/nhoizey/statuses/113038515193830889"
     ],
     "lastTootTimestamp": 1724830859376
+  },
+  "https://nicolas-hoizey.com/links/2024/09/04/gifs-are-forever-let-s-make-them-better/": {
+    "id": "https://nicolas-hoizey.com/links/2024/09/04/gifs-are-forever-let-s-make-them-better/",
+    "url": "https://nicolas-hoizey.com/links/2024/09/04/gifs-are-forever-let-s-make-them-better/",
+    "lang": "en",
+    "title": "“GIFs Are Forever, Let’s Make Them Better”",
+    "date_published": "2024-09-04T16:42:43Z",
+    "content_text": "“GIFs Are Forever, Let’s Make Them Better” by @tylersticka@mastodon.social\n\n🔗 https://www.youtube.com/watch?v=VhOEcA-Ne44\n\n> Everyone loves animated GIFs, right? Not if you have finite bandwidth, a shaky network connection or motion sensitivity! But fear not… modern browsers make it easier than ever to level up our GIF game!\n\nGreat talk by Tyler at CascadiaJS 2024!\n\nIf you prefer text over video, Tyler wrote earlier on CloudFour blog…\n\n#GIF #video #accessibility #Cloudinary\n\n⚓️ https://nicolas-hoizey.com/links/2024/09/04/gifs-are-forever-let-s-make-them-better/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.youtube.com/watch?v=VhOEcA-Ne44",
+        "mime_type": "image/png",
+        "title": "Screenshot of GIFs Are Forever, Let’s Make Them Better"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113081692061284950"
+    ],
+    "lastTootTimestamp": 1725489686113
   }
 }
