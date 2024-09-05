@@ -1,14 +1,15 @@
 {% from "macros/meta.njk" import meta %}
 {% from "macros/card.njk" import card %}
 
-{% macro linkCard(link, lazy = true) %}
-  {% set thumbUrl = 'https://image.thum.io/get/width/1200/crop/800/noanimate/' %}
+{% macro linkCard(link, screenshots, lazy = true) %}
+  {% set encodedUrl = link.data.link | url_encode %}
+  {% set thumbUrl = screenshots.prefix + encodedUrl + screenshots.suffix %}
 
   {% set illustration = {
-    src: thumbUrl + link.data.link,
+    src: thumbUrl,
     alt: "screenshot of " + link.data.title,
-    width: 1200,
-    height: 800
+    width: 1024,
+    height: 1024
   } %}
 
   {% set surtitle = false %}

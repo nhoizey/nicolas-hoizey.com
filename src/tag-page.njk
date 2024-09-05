@@ -42,9 +42,9 @@ permalink: /tags/{{ tag.slug }}/
       {{ articleCard(item) }}
     {% elif item.data.layout == "link" %}
       {% if loop.index > 5 %}
-        {{ linkCard(item) }}
+        {{ linkCard(item, screenshots) }}
       {% else %}
-        {{ linkCard(item, false) }}
+        {{ linkCard(item, screenshots, false) }}
       {% endif %}
     {% elif item.data.layout == "note" %}
       {{ noteCard(item) }}

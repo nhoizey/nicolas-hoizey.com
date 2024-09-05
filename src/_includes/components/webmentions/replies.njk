@@ -18,9 +18,9 @@
         {% if webmention.url %}
           <img
             class="page__illustration"
-            src="https://image.thum.io/get/width/1200/crop/800/noanimate/{{ webmention.url }}"
-            width="300"
-            height="200"
+            src="{{ screenshots.prefix }}{{ webmention.url | url_encode }}{{ screenshots.suffix }}"
+            width="1024"
+            height="1024"
             alt="Page screenshot"
             loading="lazy"
             decoding="async"

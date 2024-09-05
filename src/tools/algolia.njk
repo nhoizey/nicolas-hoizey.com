@@ -79,6 +79,9 @@ permalink: /tools/algolia.json
   {%- endif -%}
   {%- endset -%}
   {%- set metaHtml %}{{ meta(entry) }}{%- endset -%}
+  {% set encodedUrl = entry.data.link | url_encode %}
+  {% set thumbUrl = screenshots.prefix + encodedUrl + screenshots.suffix %}
+
   {
     "type": "links",
     "lang": "{{ entry.data.lang }}",
@@ -90,7 +93,7 @@ permalink: /tools/algolia.json
 		"date.lvl2": "{{ entry.date | year }} > {{ entry.date | month }} > {{ entry.date | day }}",
 		"url": "{{ absoluteEntryUrl }}",
 		"objectID": "{{ absoluteEntryUrl }}",
-    "illustration": "{% archiveIllustration 'https://image.thum.io/get/width/1200/crop/800/noanimate/' + entry.data.link, 1200, 800, 'screenshot of ' + entry.data.title | escapeQuotes | safe %}",
+    "illustration": "{% archiveIllustration thumbUrl, 1024, 1024, 'screenshot of ' + entry.data.title | escapeQuotes | safe %}",
 		"content": {{ entry.templateContent | cleanForAlgolia | striptags | jsonify | safe }},
     "excerpt": {{ entry.data.page.excerpt | markdown | jsonify | safe }},
 		"tags": [

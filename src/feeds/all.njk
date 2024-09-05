@@ -32,6 +32,7 @@ permalink: /feeds/all.xml
       <id>{{ absoluteEntryUrl }}</id>
       <content type="html">
         {% if entry.data.layout == 'link' %}
+          {%- set thumbUrl -%}{{ screenshots.prefix }}{{ entry.data.link | url_encode }}{{ screenshots.suffix }}{%- endset -%}
           &lt;p&gt;
           {% if entry.data.authors %}
               {%- for author in entry.data.authors -%}
@@ -44,7 +45,7 @@ permalink: /feeds/all.xml
           {% endif %}
           &lt;a href="{{ entry.data.link }}"&gt;{{ entry.data.link }}&lt;/a&gt;
           &lt;/p&gt;
-          &lt;figure&gt;&lt;img src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_300,h_200/http://image.thum.io/get/width/1200/crop/800/noanimate/{{ entry.data.link }}" width="300" height="200" /&gt;&lt;/figure&gt;
+          &lt;figure&gt;&lt;img src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_300,h_300/{{ thumbUrl | url_encode }}" width="300" height="300" /&gt;&lt;/figure&gt;
         {% endif %}
         {% if entry.data.layout == 'billet' and entry.data.photo %}
           &lt;div style="max-width: 33%; float: right; margin: 0 0 1em 1em;"&gt;

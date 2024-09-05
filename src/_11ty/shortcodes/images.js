@@ -10,12 +10,16 @@ module.exports = {
   alt='${alt}'
   width='${width}'
   height='${height}'
-  src='https://res.cloudinary.com/nho/image/fetch/q_auto,f_auto,w_300,c_limit/${src}'
+  src='https://res.cloudinary.com/nho/image/fetch/q_auto,f_auto,w_300,c_limit/${encodeURIComponent(
+    src
+  )}'
   srcset='`;
     image += [220, 465, 710, 955, 1200]
       .map(
         (resizeWidth) =>
-          `https://res.cloudinary.com/nho/image/fetch/q_auto,f_auto,w_${resizeWidth},c_limit/${src} ${resizeWidth}w`
+          `https://res.cloudinary.com/nho/image/fetch/q_auto,f_auto,w_${resizeWidth},c_limit/${encodeURIComponent(
+            src
+          )} ${resizeWidth}w`
       )
       .join(',');
     image += `'

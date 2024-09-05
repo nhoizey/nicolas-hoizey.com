@@ -18,6 +18,7 @@ permalink: /feeds/links.xml
 {% block entries %}
   {% for entry in collections.links | limit(20) %}
     {%- set absoluteEntryUrl -%}{{- pkg.homepage -}}{{- entry.url -}}{%- endset -%}
+    {%- set thumbUrl -%}{{ screenshots.prefix }}{{ entry.data.link | url_encode }}{{ screenshots.suffix }}{%- endset -%}
     <entry>
       <link href="{{ absoluteEntryUrl }}"/>
       <title>{{ entry.data.title }}</title>
@@ -36,7 +37,7 @@ permalink: /feeds/links.xml
         {% endif %}
         &lt;a href="{{ entry.data.link }}"&gt;{{ entry.data.link }}&lt;/a&gt;
         &lt;/p&gt;
-        &lt;figure&gt;&lt;img src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_300,h_200/http://image.thum.io/get/width/1200/crop/800/noanimate/{{ entry.data.link }}" width="300" height="200" /&gt;&lt;/figure&gt;
+        &lt;figure&gt;&lt;img src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_300,h_300/{{ thumbUrl | url_encode }}" width="300" height="300" /&gt;&lt;/figure&gt;
         {{ entry.templateContent | cleanDeepLinks | htmlToAbsoluteUrls(absoluteEntryUrl) }}
       </content>
       {%- for tag in entry.tags -%}

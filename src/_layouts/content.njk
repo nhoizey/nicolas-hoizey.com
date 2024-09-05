@@ -77,9 +77,9 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
     {% if layout == 'link' %}
       <img
         alt="Screenshot of “{{ title }}”"
-        width="1200"
-        height="800"
-        src="https://image.thum.io/get/width/1200/crop/800/noanimate/{{ link }}"
+        width="1024"
+        height="1024"
+        src="{{ screenshots.prefix }}{{ link | url_encode }}{{ screenshots.suffix }}"
         class="page__illustration u-photo"
         crossorigin="anonymous"
         data-responsiver="page__illustration"
@@ -155,7 +155,7 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
         {{ articleCard(item) }}
       {% endif %}
       {% if item.data.layout == 'link' %}
-        {{ linkCard(item) }}
+        {{ linkCard(item, screenshots) }}
       {% endif %}
       {% if item.data.layout == 'note' %}
         {{ noteCard(item) }}

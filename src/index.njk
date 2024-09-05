@@ -52,7 +52,7 @@ JSON-LD for:
         {{ articleCard(item) }}
       {% endif %}
       {% if item.data.layout == 'link' %}
-        {{ linkCard(item, false) }}
+        {{ linkCard(item, screenshots, false) }}
       {% endif %}
       {% if item.data.layout == 'note' %}
         {{ noteCard(item) }}
