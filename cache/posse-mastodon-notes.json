@@ -1514,5 +1514,24 @@
       "https://mamot.fr/users/nhoizey/statuses/112953688760822876"
     ],
     "lastTootTimestamp": 1723536510705
+  },
+  "https://nicolas-hoizey.com/notes/2024/09/06/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2024/09/06/1/",
+    "url": "https://nicolas-hoizey.com/notes/2024/09/06/1/",
+    "lang": "en",
+    "title": "💬 Note from 6 September 2024, 12:35",
+    "date_published": "2024-09-06T10:35:20Z",
+    "content_text": "I'm not using @eleventy@fosstodon.org's screenshot service for my links content, thanks a lot @zachleat@zachleat.com!\n\nBut…\n\n…it looks like many screenshots fail, so I get the default image — Eleventy's logo —, as you can see in my #Cloudinary Library… 😅\n\n#screenshot\n\n⚓️ https://nicolas-hoizey.com/notes/2024/09/06/1/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2024/09/06/1/eleventy-screenshot-in-cloudinary-library.png",
+        "mime_type": "image/png",
+        "title": "Screenshot of my Cloudinary Library with multiple identical images of Eleventy logo"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113090415886948286"
+    ],
+    "lastTootTimestamp": 1725622801110
   }
 }
