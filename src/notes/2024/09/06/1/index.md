@@ -7,6 +7,6 @@ I'm now using #Eleventy's [screenshot service](https://www.11ty.dev/docs/service
 
 But…
 
-![Screenshot of my Cloudinary Library with multiple identical images of Eleventy logo](eleventy-screenshot-in-cloudinary-library.png)
+![Screenshot of my Cloudinary Library with multiple identical images of Eleventy logo](eleventy-screenshot-in-cloudinary-library.png){.twothirds}
 
 …it looks like many screenshots fail, so I get the default image — Eleventy's logo —, as you can see in my #Cloudinary Library… 😅
