@@ -3249,7 +3249,7 @@
     "content_text": "“New field insights for debugging INP” by Jeremy Wagner\n\n🔗 https://www.youtube.com/watch?v=xfjumh8ySRY\n\n> Interaction to Next Paint (INP) is a Core Web Vital that measures how responsive a page is to interactions. Due to INP's scope, it can be difficult to identify why some interactions are slow. Learn how to use new Chrome APIs that provide detailed information on the causes behind slow interactions, and how to collect insights from your website's…\n\n#INP #WebPerf #CoreWebVitals\n\n⚓️ https://nicolas-hoizey.com/links/2024/05/20/new-field-insights-for-debugging-inp/",
     "attachments": [
       {
-        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.youtube.com/watch?v=xfjumh8ySRY",
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dxfjumh8ySRY/large/_wait:3/",
         "mime_type": "image/png",
         "title": "Screenshot of New field insights for debugging INP"
       }
@@ -3269,7 +3269,7 @@
     "content_text": "“Frozen nudity” by Emile Horizon\n\n🔗 https://www.flickr.com/photos/55604440@N02/53734012593/\n\n> The axiom nudity = money, is very sick and I’m afraid this will have consequence with the time on many levels of our culture. And obviously, internet with this logic of censoring/making pay will ruin something in Arts, when free porn will remain out of control and available everywhere. It means that anyone will have more chance to meet nudity in raw porn stuff,…\n\n#photography #Flickr #society #art\n\n⚓️ https://nicolas-hoizey.com/links/2024/05/21/frozen-nudity/",
     "attachments": [
       {
-        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.flickr.com/photos/55604440@N02/53734012593/",
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.flickr.com%2Fphotos%2F55604440%40N02%2F53734012593%2F/large/_wait:3/",
         "mime_type": "image/png",
         "title": "Screenshot of Frozen nudity"
       }
@@ -3289,7 +3289,7 @@
     "content_text": "“netbeep: Chrome extension to play sounds on network requests, depending on request type and file size” by @combatwombat@hachyderm.io\n\n🔗 https://github.com/combatwombat/netbeep?tab=readme-ov-file\n\n> Chrome extension to play sounds on network requests depending on content type and domain. Higher pitch for bigger files.\n\nReminds me a lot of Tracker Beeper!\n\n#Chrome #extension #privacy\n\n⚓️ https://nicolas-hoizey.com/links/2024/05/21/netbeep-chrome-extension-to-play-sounds-on-network-requests-depending-on-request-type-and-file-size/",
     "attachments": [
       {
-        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://github.com/combatwombat/netbeep?tab=readme-ov-file",
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fgithub.com%2Fcombatwombat%2Fnetbeep%3Ftab%3Dreadme-ov-file/large/_wait:3/",
         "mime_type": "image/png",
         "title": "Screenshot of netbeep: Chrome extension to play sounds on network requests, depending on request type and file size"
       }
@@ -3309,7 +3309,7 @@
     "content_text": "“An even faster Microsoft Edge” by Microsoft Edge Team\n\n🔗 https://blogs.windows.com/msedgedev/2024/05/28/an-even-faster-microsoft-edge/\n\n> JavaScript must be downloaded, then run through a JIT compiler (even if you don’t use it), and then executed, and all this must be done before any of the JavaScript can start rendering the UI. This introduces a lot of delay before users can see the UI, especially on low-end devices.\n\n#WebPerf\n\n⚓️ https://nicolas-hoizey.com/links/2024/05/29/an-even-faster-microsoft-edge/",
     "attachments": [
       {
-        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://blogs.windows.com/msedgedev/2024/05/28/an-even-faster-microsoft-edge/",
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fblogs.windows.com%2Fmsedgedev%2F2024%2F05%2F28%2Fan-even-faster-microsoft-edge%2F/large/_wait:3/",
         "mime_type": "image/png",
         "title": "Screenshot of An even faster Microsoft Edge"
       }
@@ -3329,7 +3329,7 @@
     "content_text": "““Web components” considered harmful” by @mayank@front-end.social\n\n🔗 https://www.mayank.co/blog/web-components-considered-harmful\n\n> This is a branding problem as much as it is an education problem. Neither the HTML standard nor the DOM standard mentions the term “web components” anywhere. And yet it’s present everywhere in documentation and learning material.\n\n#WebComponents\n\n⚓️ https://nicolas-hoizey.com/links/2024/05/29/web-components-considered-harmful/",
     "attachments": [
       {
-        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.mayank.co/blog/web-components-considered-harmful",
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.mayank.co%2Fblog%2Fweb-components-considered-harmful/large/_wait:3/",
         "mime_type": "image/png",
         "title": "Screenshot of “Web components” considered harmful"
       }
@@ -3349,7 +3349,7 @@
     "content_text": "“Why Lighthouse Performance Score Doesn’t Work” by @fox@front-end.social\n\n🔗 https://calibreapp.com/blog/downsides-of-performance-score\n\n> There is some correlation between the [Lighthouse] Performance Score and how well your site will do for real users. Still, lab testing alone doesn’t capture all speed issues (similarly, field testing might prove inadequate in showcasing other speed problems). That’s why relying on Performance Score is not a bulletproof strategy. We…\n\n#WebPerf #Lighthouse\n\n⚓️ https://nicolas-hoizey.com/links/2024/06/07/why-lighthouse-performance-score-doesn-t-work/",
     "attachments": [
       {
-        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://calibreapp.com/blog/downsides-of-performance-score",
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fcalibreapp.com%2Fblog%2Fdownsides-of-performance-score/large/_wait:3/",
         "mime_type": "image/png",
         "title": "Screenshot of Why Lighthouse Performance Score Doesn’t Work"
       }
@@ -3369,7 +3369,7 @@
     "content_text": "“Speculative Rules API – a new iteration in the pre-loading journey” by @boostmarks@hachyderm.io\n\n🔗 https://boris.schapira.dev/notes/2024-06-speculative-rules-en/\n\n> The Speculative Rules API is the latest development in a long-standing narrative. The issues I’ve discussed were already inherent in previous solutions. The Speculative Rules API merely incorporates this behavior directly into the browser, which has certain advantages over JavaScript.\n\n#WebPerf\n\n⚓️ https://nicolas-hoizey.com/links/2024/06/18/speculative-rules-api-a-new-iteration-in-the-pre-loading-journey/",
     "attachments": [
       {
-        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://boris.schapira.dev/notes/2024-06-speculative-rules-en/",
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fboris.schapira.dev%2Fnotes%2F2024-06-speculative-rules-en%2F/large/_wait:3/",
         "mime_type": "image/png",
         "title": "Screenshot of Speculative Rules API – a new iteration in the pre-loading journey"
       }
@@ -3389,7 +3389,7 @@
     "content_text": "“Flow Charts with CSS Anchor Positioning” by Cory Rylan\n\n🔗 https://coryrylan.com/blog/flow-charts-with-css-anchor-positioning\n\n> With the introduction of the CSS Anchor Position API in Chrome 125, it's never been easier to position an element relative to another element. This is a great way to manage complex positioning use cases like popovers and tooltips.\n> \n> However, CSS Anchor Posititioning can be used for more than just popovers and tooltips, it can be used to create basic flow chart…\n\n#CSS\n\n⚓️ https://nicolas-hoizey.com/links/2024/06/20/flow-charts-with-css-anchor-positioning/",
     "attachments": [
       {
-        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://coryrylan.com/blog/flow-charts-with-css-anchor-positioning",
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fcoryrylan.com%2Fblog%2Fflow-charts-with-css-anchor-positioning/large/_wait:3/",
         "mime_type": "image/png",
         "title": "Screenshot of Flow Charts with CSS Anchor Positioning"
       }
@@ -3409,7 +3409,7 @@
     "content_text": "“Web Performance Guide” by @speedcurve@webperf.social\n\n🔗 https://www.speedcurve.com/web-performance-guide/\n\n> New to the world of web performance? Welcome! Here's everything you need to know to master website monitoring, analytics, and diagnostics. Learn how to deliver a fast, joyous experience to all your users.\n\n#SpeedCurve #WebPerf\n\n⚓️ https://nicolas-hoizey.com/links/2024/06/26/web-performance-guide/",
     "attachments": [
       {
-        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.speedcurve.com/web-performance-guide/",
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.speedcurve.com%2Fweb-performance-guide%2F/large/_wait:3/",
         "mime_type": "image/png",
         "title": "Screenshot of Web Performance Guide"
       }
@@ -3429,7 +3429,7 @@
     "content_text": "“Practical SVG” by @chriscoyier@front-end.social\n\n🔗 https://practical-svg.chriscoyier.net/\n\n> I wrote this book back in 2016. SVG wasn't new then, but it was starting to catch on a little bit more for front-end developers. I thought, and still think, SVG is a great tool for a lot of things on the web, and wanted to help keep that trend going.\n\n#SVG #book\n\n⚓️ https://nicolas-hoizey.com/links/2024/07/22/practical-svg/",
     "attachments": [
       {
-        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://practical-svg.chriscoyier.net/",
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fpractical-svg.chriscoyier.net%2F/large/_wait:3/",
         "mime_type": "image/png",
         "title": "Screenshot of Practical SVG"
       }
@@ -3449,7 +3449,7 @@
     "content_text": "“Fit-to-Width Text: A New Technique” by @kizu@front-end.social\n\n🔗 https://kizu.dev/fit-to-width/\n\n> Registered custom properties are now available in all modern browsers. Using some pre-existing techniques based on them and complex container query length units, I solved a years-long problem of fitting text to the width of a container, hopefully paving the path towards a proper native implementation.\n\n#CSS\n\n⚓️ https://nicolas-hoizey.com/links/2024/07/21/fit-to-width-text-a-new-technique/",
     "attachments": [
       {
-        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://kizu.dev/fit-to-width/",
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fkizu.dev%2Ffit-to-width%2F/large/_wait:3/",
         "mime_type": "image/png",
         "title": "Screenshot of Fit-to-Width Text: A New Technique"
       }
@@ -3469,7 +3469,7 @@
     "content_text": "“Highlighting Blogging on Mastodon” by @matthiasott@mastodon.social\n\n🔗 https://matthiasott.com/notes/highlighting-blogging-on-mastodon\n\n> With this new author byline, a direct connection between the article and the corresponding fediverse accounts is established that increases the visibility of authors and their accounts a lot.\n\n#Mastodon #opengraph\n\n⚓️ https://nicolas-hoizey.com/links/2024/07/03/highlighting-blogging-on-mastodon/",
     "attachments": [
       {
-        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://matthiasott.com/notes/highlighting-blogging-on-mastodon",
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fmatthiasott.com%2Fnotes%2Fhighlighting-blogging-on-mastodon/large/_wait:3/",
         "mime_type": "image/png",
         "title": "Screenshot of Highlighting Blogging on Mastodon"
       }
@@ -3489,7 +3489,7 @@
     "content_text": "“This site goes up to Eleventy” by @beep@follow.ethanmarcotte.com\n\n🔗 https://ethanmarcotte.com/wrote/eleventy/\n\n> I don’t want to suggest that my experience was bumpy, mind you — far from it! Overall, I am delighted by how easy it was to move a decade’s worth of material over to Eleventy. And now that I’ve moved things over, here are some of the things I’m most excited about:\n> 1. It’s fast […]\n> 2. Eleventy feels like a playground […]\n> 3. I feel like I have a…\n\n#Eleventy\n\n⚓️ https://nicolas-hoizey.com/links/2024/07/23/this-site-goes-up-to-eleventy/",
     "attachments": [
       {
-        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://ethanmarcotte.com/wrote/eleventy/",
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fethanmarcotte.com%2Fwrote%2Feleventy%2F/large/_wait:3/",
         "mime_type": "image/png",
         "title": "Screenshot of This site goes up to Eleventy"
       }
@@ -3509,7 +3509,7 @@
     "content_text": "“Have It All: External, Styleable, & Scalable SVG” by @scottjehl@mstdn.social\n\n🔗 https://scottjehl.com/posts/svgtopia/\n\n> here I'll demonstrate a 4th approach that I think hits the center of the venn diagram for External, Styleable, and Scalable SVG.\n\n#SVG #CSS\n\n⚓️ https://nicolas-hoizey.com/links/2024/08/12/have-it-all-external-styleable-scalable-svg/",
     "attachments": [
       {
-        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://scottjehl.com/posts/svgtopia/",
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fscottjehl.com%2Fposts%2Fsvgtopia%2F/large/_wait:3/",
         "mime_type": "image/png",
         "title": "Screenshot of Have It All: External, Styleable, &amp; Scalable SVG"
       }
@@ -3529,7 +3529,7 @@
     "content_text": "“How can Firefox create the best support for web apps on the desktop?” by David Rubino\n\n🔗 https://connect.mozilla.org/t5/discussions/how-can-firefox-create-the-best-support-for-web-apps-on-the/m-p/60561\n\n> we’re taking a fresh look at Progressive Web Apps (PWAs), which have long been a top request from our Mozilla Connect community. Today I want to share a concept that aims to address some of this feedback.\n\n#Firefox #PWA\n\n⚓️ https://nicolas-hoizey.com/links/2024/08/13/how-can-firefox-create-the-best-support-for-web-apps-on-the-desktop/",
     "attachments": [
       {
-        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://connect.mozilla.org/t5/discussions/how-can-firefox-create-the-best-support-for-web-apps-on-the/m-p/60561",
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fconnect.mozilla.org%2Ft5%2Fdiscussions%2Fhow-can-firefox-create-the-best-support-for-web-apps-on-the%2Fm-p%2F60561/large/_wait:3/",
         "mime_type": "image/png",
         "title": "Screenshot of How can Firefox create the best support for web apps on the desktop?"
       }
@@ -3549,7 +3549,7 @@
     "content_text": "“Blog Posts vs. Social Posts” by @jimniels@mastodon.social\n\n🔗 https://blog.jim-nielsen.com/2024/blog-vs-social-posts/\n\n> Blog posts are like these little robot evangelists you release out into the world on your behalf. They work tirelessly, 24/7, spreading your thoughts and garnering attention as time marches forward.\n> \n> Social posts die with the passage of time, whereas blog posts gain life from it!\n\n#blog #socialNetwork\n\n⚓️ https://nicolas-hoizey.com/links/2024/08/19/blog-posts-vs-social-posts/",
     "attachments": [
       {
-        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://blog.jim-nielsen.com/2024/blog-vs-social-posts/",
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fblog.jim-nielsen.com%2F2024%2Fblog-vs-social-posts%2F/large/_wait:3/",
         "mime_type": "image/png",
         "title": "Screenshot of Blog Posts vs. Social Posts"
       }
@@ -3569,7 +3569,7 @@
     "content_text": "“Learn Grid Now, Container Queries Can Wait” by @mia@front-end.social\n\n🔗 https://www.oddbird.net/2024/06/13/css-layout/\n\n> There’s no rush to rip out all your media queries, and replace them with containers. You’ll be fine waiting for widely available support and your next scheduled re-factor.\n> \n> But if you’re still avoiding grid – whatever your reasons – you are, in fact, missing out. CSS grid is one of the best features in CSS, and one of the biggest time-savers…\n\n#CSS #Grid\n\n⚓️ https://nicolas-hoizey.com/links/2024/08/19/learn-grid-now-container-queries-can-wait/",
     "attachments": [
       {
-        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.oddbird.net/2024/06/13/css-layout/",
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.oddbird.net%2F2024%2F06%2F13%2Fcss-layout%2F/large/_wait:3/",
         "mime_type": "image/png",
         "title": "Screenshot of Learn Grid Now, Container Queries Can Wait"
       }
@@ -3589,7 +3589,7 @@
     "content_text": "“GIFs Are Forever, Let’s Make Them Better” by @tylersticka@mastodon.social\n\n🔗 https://www.youtube.com/watch?v=VhOEcA-Ne44\n\n> Everyone loves animated GIFs, right? Not if you have finite bandwidth, a shaky network connection or motion sensitivity! But fear not… modern browsers make it easier than ever to level up our GIF game!\n\nGreat talk by Tyler at CascadiaJS 2024!\n\nIf you prefer text over video, Tyler wrote earlier on CloudFour blog…\n\n#GIF #video #accessibility #Cloudinary\n\n⚓️ https://nicolas-hoizey.com/links/2024/09/04/gifs-are-forever-let-s-make-them-better/",
     "attachments": [
       {
-        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.youtube.com/watch?v=VhOEcA-Ne44",
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DVhOEcA-Ne44/large/_wait:3/",
         "mime_type": "image/png",
         "title": "Screenshot of GIFs Are Forever, Let’s Make Them Better"
       }
@@ -3608,7 +3608,7 @@
     "content_text": "“The Dev Tools Performance Monitor Panel” by @davatron5000@mastodon.social\n\n🔗 https://daverupert.com/2024/09/dev-tools-performance-monitor-panel/\n\n> The Performance Monitor collects performance data in realtime and puts it on a graph. It’s handy for detecting performance problems at a high-level. If your CPU, memory, DOM node count, or event listeners only go up while clicking around, you probably have a leak in your code.\n\n#WebPerf #Chrome #DevTools\n\n⚓️ https://nicolas-hoizey.com/links/2024/09/05/the-dev-tools-performance-monitor-panel/",
     "attachments": [
       {
-        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://daverupert.com/2024/09/dev-tools-performance-monitor-panel/",
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fdaverupert.com%2F2024%2F09%2Fdev-tools-performance-monitor-panel%2F/large/_wait:3/",
         "mime_type": "image/png",
         "title": "Screenshot of The Dev Tools Performance Monitor Panel"
       }
@@ -3627,11 +3627,14 @@
     "content_text": "“Discovering Third Party Performance Risks” by @paulcalvano@webperf.social\n\n🔗 https://paulcalvano.com/2024-09-03-discovering-third-party-performance-risks/\n\n> […] a tool called Third Party Explorer, which leverages WebpageTest data to help analyze a third party’s impact on a page load. The idea behind this tool is that some of the insights already collected during a WebPageTest measurement may enable you to prioritize a list of domains to evaluate proactively.\n\n#WebPerf #WebPageTest\n\n⚓️ https://nicolas-hoizey.com/links/2024/09/05/discovering-third-party-performance-risks/",
     "attachments": [
       {
-        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://paulcalvano.com/2024-09-03-discovering-third-party-performance-risks/",
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fpaulcalvano.com%2F2024-09-03-discovering-third-party-performance-risks%2F/large/_wait:3/",
         "mime_type": "image/png",
         "title": "Screenshot of Discovering Third Party Performance Risks"
       }
     ],
-    "toots": []
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113088148168824083"
+    ],
+    "lastTootTimestamp": 1725588198480
   }
 }
