@@ -14,4 +14,4 @@ tags: [advertisement, blog, fun]
 
 Seriously, go read these advices and try not to ROFL.
 
-*[ROFL]: [Rolling On Floor Laughing](https://www.urbandictionary.com/define.php?term=ROFL)
+*[ROFL]: Rolling On Floor Laughing
