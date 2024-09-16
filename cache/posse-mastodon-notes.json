@@ -1529,7 +1529,22 @@
         "title": "Screenshot of my Cloudinary Library with multiple identical images of Eleventy logo"
       }
     ],
-    "toots": ["https://mamot.fr/users/nhoizey/statuses/113090415886948286"],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113090415886948286"
+    ],
     "lastTootTimestamp": 1725622801110
+  },
+  "https://nicolas-hoizey.com/notes/2024/09/16/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2024/09/16/1/",
+    "url": "https://nicolas-hoizey.com/notes/2024/09/16/1/",
+    "lang": "en",
+    "title": "💬 Note from 16 September 2024, 23:37",
+    "date_published": "2024-09-16T21:37:13Z",
+    "content_text": "I have to admit that I'm often sad when I read “Font Awesome” in the code of projects I'm auditing for performance. A fairly heavy font is often loaded to display a few icons, whereas we've known for a long time that SVG is generally more suitable.\n\nBut the arrival of Web Awesome, and my enduring admiration for @zachleat@zachleat.com and @leaverou@front-end.social (and their creations) means that their arrival at Font Awesome may…\n\n#Eleventy #FontAwesome\n\n⚓️ https://nicolas-hoizey.com/notes/2024/09/16/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113149698058657364"
+    ],
+    "lastTootTimestamp": 1726527375350
   }
 }
