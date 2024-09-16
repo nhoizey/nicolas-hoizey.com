@@ -1521,7 +1521,7 @@
     "lang": "en",
     "title": "💬 Note from 6 September 2024, 12:35",
     "date_published": "2024-09-06T10:35:20Z",
-    "content_text": "I'm not using @eleventy@fosstodon.org's screenshot service for my links content, thanks a lot @zachleat@zachleat.com!\n\nBut…\n\n…it looks like many screenshots fail, so I get the default image — Eleventy's logo —, as you can see in my #Cloudinary Library… 😅\n\n#screenshot\n\n⚓️ https://nicolas-hoizey.com/notes/2024/09/06/1/",
+    "content_text": "I'm now using @eleventy@fosstodon.org's screenshot service for my links content, thanks a lot @zachleat@zachleat.com!\n\nBut…\n\n…it looks like many screenshots fail, so I get the default image — Eleventy's logo —, as you can see in my #Cloudinary Library… 😅\n\n#screenshot\n\n⚓️ https://nicolas-hoizey.com/notes/2024/09/06/1/",
     "attachments": [
       {
         "url": "https://nicolas-hoizey.com/notes/2024/09/06/1/eleventy-screenshot-in-cloudinary-library.png",
@@ -1533,5 +1533,18 @@
       "https://mamot.fr/users/nhoizey/statuses/113090415886948286"
     ],
     "lastTootTimestamp": 1725622801110
+  },
+  "https://nicolas-hoizey.com/notes/2024/09/16/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2024/09/16/1/",
+    "url": "https://nicolas-hoizey.com/notes/2024/09/16/1/",
+    "lang": "en",
+    "title": "💬 Note from 16 September 2024, 23:37",
+    "date_published": "2024-09-16T21:37:13Z",
+    "content_text": "I have to admit that I'm often horrified when I read “Font Awesome” in the source code of projects I'm auditing for performance. Quite often, a fairly heavy font is loaded to display 3 or 4 icons, whereas we've known for a long time that SVG is generally much more suitable.\n\nBut my growing interest in Web Components has prompted me to observe the arrival of Web Awesome, and my enduring admiration for @zachleat@zachleat.com and…\n\n#Eleventy #FontAwesome\n\n⚓️ https://nicolas-hoizey.com/notes/2024/09/16/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113149462760911705"
+    ],
+    "lastTootTimestamp": 1726523784911
   }
 }
