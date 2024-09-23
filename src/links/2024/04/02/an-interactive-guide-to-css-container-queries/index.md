@@ -5,7 +5,7 @@ lang: en
 link: https://ishadeed.com/article/css-container-query-guide#news-section
 authors:
   - "Ahmad Shadeed"
-tags: [CSS, Container Queries]
+tags: [CSS, container queries]
 ---
 
 Ahmad Shadeed once again offers us a very detailed and interactive article - a true work of art!

@@ -5,7 +5,7 @@ lang: en
 link: https://johannesodland.github.io/2023/02/26/cropping-images-with-css-while-keeping-a-focal-point-in-the-center.html
 authors:
   - "Johannes Odland"
-tags: [image, WebPerf, CSS, Container Queries]
+tags: [image, WebPerf, CSS, container queries]
 ---
 
 This is a lovely way to deal with image crop and focal point with CSS only! 😍
