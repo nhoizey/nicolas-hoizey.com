@@ -23,7 +23,7 @@ jobs:
           token: ${{ secrets.PAT }}
 
       - name: POSSE ${{ env.TYPE }} to Mastodon 🦣
-        uses: nhoizey/github-action-jsonfeed-to-mastodon@v1
+        uses: nhoizey/github-action-feed-to-mastodon@canary
         with:
           feedUrl: 'https://nicolas-hoizey.com/feeds/mastodon/${{ env.TYPE }}.json'
           mastodonInstance: ${{ secrets.MASTODON_INSTANCE }}
