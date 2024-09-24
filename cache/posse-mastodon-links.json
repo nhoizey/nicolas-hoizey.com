@@ -3651,7 +3651,10 @@
         "title": "Screenshot of Is the sticky thing stuck? Is the snappy item snapped? A look at state queries in CSS"
       }
     ],
-    "toots": []
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113192113653971623"
+    ],
+    "lastTootTimestamp": 1727174585877
   },
   "https://nicolas-hoizey.com/links/2024/09/23/syndicating-an-rss-feed-to-mastodon-using-a-cloudflare-worker/": {
     "id": "https://nicolas-hoizey.com/links/2024/09/23/syndicating-an-rss-feed-to-mastodon-using-a-cloudflare-worker/",
