@@ -3705,7 +3705,10 @@
         "title": "Screenshot of Masonry and good defaults"
       }
     ],
-    "toots": []
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113193533502610736"
+    ],
+    "lastTootTimestamp": 1727196251043
   },
   "https://nicolas-hoizey.com/links/2024/09/20/why-apple-uses-jpeg-xl-in-the-iphone-16-and-what-it-means-for-your-photos/": {
     "id": "https://nicolas-hoizey.com/links/2024/09/20/why-apple-uses-jpeg-xl-in-the-iphone-16-and-what-it-means-for-your-photos/",
@@ -3792,5 +3795,37 @@
       "https://mamot.fr/users/nhoizey/statuses/113187828003199604"
     ],
     "lastTootTimestamp": 1727109192063
+  },
+  "https://nicolas-hoizey.com/links/2024/09/24/why-copilot-is-making-programmers-worse-at-programming/": {
+    "id": "https://nicolas-hoizey.com/links/2024/09/24/why-copilot-is-making-programmers-worse-at-programming/",
+    "url": "https://nicolas-hoizey.com/links/2024/09/24/why-copilot-is-making-programmers-worse-at-programming/",
+    "lang": "en",
+    "title": "“Why Copilot is Making Programmers Worse at Programming”",
+    "date_published": "2024-09-24T12:36:44Z",
+    "content_text": "“Why Copilot is Making Programmers Worse at Programming” by Darren Horrocks\n\n🔗 https://www.darrenhorrocks.co.uk/why-copilot-making-programmers-worse-at-programming/\n\n> If you as the developer do not understand the code, do not understand how you got to where you are, do not understand how to solve the problem yourself. Copying and pasting code from a LLM, and being spoon fed the answer, is not going to make you a better programmer. Its going to make you reliant on the robot, and you will never be able to do…\n\n#AI #LLM\n\n⚓️ https://nicolas-hoizey.com/links/2024/09/24/why-copilot-is-making-programmers-worse-at-programming/",
+    "attachments": [
+      {
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.darrenhorrocks.co.uk%2Fwhy-copilot-making-programmers-worse-at-programming%2F/large/_wait:3/20240906/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Why Copilot is Making Programmers Worse at Programming"
+      }
+    ],
+    "toots": []
+  },
+  "https://nicolas-hoizey.com/links/2024/09/24/introducing-tods-a-typographic-and-opentype-default-stylesheet/": {
+    "id": "https://nicolas-hoizey.com/links/2024/09/24/introducing-tods-a-typographic-and-opentype-default-stylesheet/",
+    "url": "https://nicolas-hoizey.com/links/2024/09/24/introducing-tods-a-typographic-and-opentype-default-stylesheet/",
+    "lang": "en",
+    "title": "“Introducing TODS – a typographic and OpenType default stylesheet”",
+    "date_published": "2024-09-24T12:29:06Z",
+    "content_text": "“Introducing TODS – a typographic and OpenType default stylesheet” by @Richr@mastodon.social\n\n🔗 https://clagnut.com/blog/2433\n\n> The idea is to set sensible typographic defaults for use on prose (a column of text), making particular use of the font features provided by OpenType. The main principle is that it can be used as starting point for all projects, so doesn't include design-specific aspects such as font choice, type scale or…\n\n#CSS #font #typography #reset\n\n⚓️ https://nicolas-hoizey.com/links/2024/09/24/introducing-tods-a-typographic-and-opentype-default-stylesheet/",
+    "attachments": [
+      {
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fclagnut.com%2Fblog%2F2433/large/_wait:3/20240906/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Introducing TODS – a typographic and OpenType default stylesheet"
+      }
+    ],
+    "toots": []
   }
 }
