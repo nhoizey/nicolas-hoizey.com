@@ -3734,7 +3734,10 @@
         "title": "Screenshot of How to Monetize a Blog"
       }
     ],
-    "toots": []
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113191397593979044"
+    ],
+    "lastTootTimestamp": 1727163659666
   },
   "https://nicolas-hoizey.com/links/2024/09/09/the-state-of-es5-on-the-web/": {
     "id": "https://nicolas-hoizey.com/links/2024/09/09/the-state-of-es5-on-the-web/",
