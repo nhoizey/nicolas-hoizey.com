@@ -3759,7 +3759,10 @@
         "title": "Screenshot of The State of ES5 on the Web"
       }
     ],
-    "toots": []
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113194940459298567"
+    ],
+    "lastTootTimestamp": 1727217719549
   },
   "https://nicolas-hoizey.com/links/2024/09/08/cookie-status-current-status-of-browser-tracking-prevention/": {
     "id": "https://nicolas-hoizey.com/links/2024/09/08/cookie-status-current-status-of-browser-tracking-prevention/",
