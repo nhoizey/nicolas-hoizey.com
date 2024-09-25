@@ -216,6 +216,10 @@
     "mastodon": "@cloudcannon@techhub.social",
     "site": "https://cloudcannon.com/"
   },
+  "Cloudflare": {
+    "mastodon": "@cloudflare@noc.social",
+    "site": "https://www.cloudflare.com/"
+  },
   "Cody Lindley": {
     "twitter": "codylindley"
   },
