@@ -3839,5 +3839,40 @@
       "https://mamot.fr/users/nhoizey/statuses/113198481511398662"
     ],
     "lastTootTimestamp": 1727271751673
+  },
+  "https://nicolas-hoizey.com/links/2024/09/25/jpeg-vs-avif-the-battle-of-compression/": {
+    "id": "https://nicolas-hoizey.com/links/2024/09/25/jpeg-vs-avif-the-battle-of-compression/",
+    "url": "https://nicolas-hoizey.com/links/2024/09/25/jpeg-vs-avif-the-battle-of-compression/",
+    "lang": "en",
+    "title": "“JPEG VS AVIF - The Battle of Compression”",
+    "date_published": "2024-09-25T15:11:35Z",
+    "content_text": "“JPEG VS AVIF - The Battle of Compression” by kliksphilip\n\n🔗 https://www.youtube.com/watch?v=SzsM4HMKmEI\n\n> In this super thorough study I test one single HD image and come to vast sweeping conclusions about JPEG XL and AVIF. But that's still one image comparison more than most people do! :)\n\nI love the idea of JPEG XL “creating a sandwich of superiority around the middling AVIF”! 😍\n\n#image #WebPerf #AVIF #JPEGXL\n\n⚓️ https://nicolas-hoizey.com/links/2024/09/25/jpeg-vs-avif-the-battle-of-compression/",
+    "attachments": [
+      {
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DSzsM4HMKmEI/large/_wait:3/20240906/",
+        "mime_type": "image/png",
+        "title": "Screenshot of JPEG VS AVIF - The Battle of Compression"
+      }
+    ],
+    "toots": []
+  },
+  "https://nicolas-hoizey.com/links/2024/09/25/introducing-speed-brain-helping-web-pages-load-45-faster/": {
+    "id": "https://nicolas-hoizey.com/links/2024/09/25/introducing-speed-brain-helping-web-pages-load-45-faster/",
+    "url": "https://nicolas-hoizey.com/links/2024/09/25/introducing-speed-brain-helping-web-pages-load-45-faster/",
+    "lang": "en",
+    "title": "“Introducing Speed Brain: helping web pages load 45% faster”",
+    "date_published": "2024-09-25T14:39:56Z",
+    "content_text": "“Introducing Speed Brain: helping web pages load 45% faster” by @cloudflare@noc.social, Alex Krivit and Suleman Ahmad\n\n🔗 https://blog.cloudflare.com/introducing-speed-brain/\n\n> With the initial release of Speed Brain, we have designed a solution with important side effect prevention guardrails that completely removes the chance of stale prefetch configuration, and minimizes the risk of incorrect prefetching. This opinionated configuration is…\n\n#Cloudflare #WebPerf #SpeculationRules\n\n⚓️ https://nicolas-hoizey.com/links/2024/09/25/introducing-speed-brain-helping-web-pages-load-45-faster/",
+    "attachments": [
+      {
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fblog.cloudflare.com%2Fintroducing-speed-brain%2F/large/_wait:3/20240906/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Introducing Speed Brain: helping web pages load 45% faster"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113200603250436599"
+    ],
+    "lastTootTimestamp": 1727304126880
   }
 }
