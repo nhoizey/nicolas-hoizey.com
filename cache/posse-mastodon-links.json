@@ -3670,7 +3670,10 @@
         "title": "Screenshot of Syndicating an RSS feed to Mastodon using a Cloudflare worker"
       }
     ],
-    "toots": []
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113195749747716241"
+    ],
+    "lastTootTimestamp": 1727230068263
   },
   "https://nicolas-hoizey.com/links/2024/09/23/the-department-of-energy-wants-you-to-know-your-conservation-efforts-are-making-a-difference/": {
     "id": "https://nicolas-hoizey.com/links/2024/09/23/the-department-of-energy-wants-you-to-know-your-conservation-efforts-are-making-a-difference/",
