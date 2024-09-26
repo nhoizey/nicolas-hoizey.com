@@ -589,6 +589,10 @@
   "Lydia Hallie": {
     "site": "https://www.lydiahallie.com/"
   },
+  "m4dz": {
+    "twitter": "m4d_z",
+    "site": "https://m4dz.net/"
+  },
   "Maarten Van Hoof": {
     "twitter": "mrtnvh",
     "site": "https://mrtnvh.com/"
@@ -1072,8 +1076,7 @@
   "Ziemek Bućko": {
     "twitter": "ziemek_bucko"
   },
-  "m4dz": {
-    "twitter": "m4d_z",
-    "site": "https://m4dz.net/"
+  "Zsolt Ero": {
+    "site": "https://blog.hyperknot.com/"
   }
 }
