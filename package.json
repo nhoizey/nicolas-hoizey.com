@@ -101,14 +101,14 @@
     "prettier-plugin-jinja-template": "^1.5.0",
     "require-dir": "^1.2.0",
     "rimraf": "^4.4.1",
-    "rollup": "^2.79.1",
+    "rollup": "^2.79.2",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-entrypoint-hashmanifest": "^0.1.2",
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-visualizer": "^5.12.0",
     "sanitize-html": "^2.13.0",
-    "sass": "^1.79.3",
+    "sass": "^1.79.4",
     "stylelint": "^15.11.0",
     "stylelint-config-idiomatic-order": "^9.0.0",
     "stylelint-config-prettier": "^9.0.5",
@@ -136,6 +136,6 @@
   "private": true,
   "dependencies": {
     "algoliasearch": "^4.24.0",
-    "instantsearch.js": "^4.74.1"
+    "instantsearch.js": "^4.74.2"
   }
 }
