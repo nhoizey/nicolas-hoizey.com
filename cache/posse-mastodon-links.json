@@ -3874,5 +3874,24 @@
       "https://mamot.fr/users/nhoizey/statuses/113200603250436599"
     ],
     "lastTootTimestamp": 1727304126880
+  },
+  "https://nicolas-hoizey.com/links/2024/09/26/openfreemap/": {
+    "id": "https://nicolas-hoizey.com/links/2024/09/26/openfreemap/",
+    "url": "https://nicolas-hoizey.com/links/2024/09/26/openfreemap/",
+    "lang": "en",
+    "title": "“OpenFreeMap”",
+    "date_published": "2024-09-26T08:26:22Z",
+    "content_text": "“OpenFreeMap” by Zsolt Ero\n\n🔗 https://openfreemap.org/\n\n> OpenFreeMap lets you display custom maps on your website and apps for free.\n> \n> You can either self-host or use our public instance. Everything is open-source, including the full production setup — there’s no ‘open-core’ model here. Check out our GitHub. The map data comes from OpenStreetMap.\n> \n> Using our public instance is completely free: there are no limits on the number of…\n\n#map #openSource\n\n⚓️ https://nicolas-hoizey.com/links/2024/09/26/openfreemap/",
+    "attachments": [
+      {
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fopenfreemap.org%2F/large/_wait:3/20240906/",
+        "mime_type": "image/png",
+        "title": "Screenshot of OpenFreeMap"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113229743540296270"
+    ],
+    "lastTootTimestamp": 1727748772375
   }
 }
