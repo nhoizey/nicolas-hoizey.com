@@ -2,7 +2,7 @@
 title:      "Chronique d'une licence non annoncée"
 date: 2002-12-20 12:00:00 +02:00
 lang:       fr
-tags:       [development, PHP, phpHeaven, opensource]
+tags:       [development, PHP, phpHeaven, open source]
 ---
 
 La [version 3 de la licence de PHP](http://www.php.net/license/3_0.txt) est sortie. Vous ne le saviez pas ? Normal, elle est un peu passée en douceur, sans faire de bruit.

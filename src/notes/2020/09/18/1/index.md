@@ -1,6 +1,6 @@
 ---
 date: 2020-09-18 10:44:19 +02:00
-tags: [Hacktoberfest, GitHub, opensource]
+tags: [Hacktoberfest, GitHub, open source]
 ---
 
 Are you ready for #Hacktoberfest?

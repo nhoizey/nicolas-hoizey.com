@@ -2,7 +2,7 @@
 title:      "Open XML Translator : Clever Age réalise pour Microsoft Corp. un plugin permettant à Word 2007 d'utiliser le format OpenDocument (ODF) d'OpenOffice "
 date: 2006-07-06 12:00:00 +02:00
 lang:       fr
-tags:       [standards, Clever Age, Microsoft, opensource]
+tags:       [standards, Clever Age, Microsoft, open source]
 ---
 
 L'annonce est enfin officielle[^c1], Microsoft Corp. sponsorise [Clever Age](http://www.clever-age.com/) qui conçoit et développe un plugin pour Word 2007 qui permettra d'exploiter dans celui-ci le format standard OpenDocument.

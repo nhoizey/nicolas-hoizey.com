@@ -2,7 +2,7 @@
 title:      "Le Journal du Net présente phpMyChat !"
 date: 2001-02-21 12:00:00 +02:00
 lang:       fr
-tags:       [me, development, PHP, phpHeaven, opensource, phpMyChat]
+tags:       [me, development, PHP, phpHeaven, open source, phpMyChat]
 ---
 
 # phpMyChat : le chat en open source

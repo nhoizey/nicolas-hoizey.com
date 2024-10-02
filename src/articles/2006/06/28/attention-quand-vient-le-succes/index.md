@@ -2,7 +2,7 @@
 title:      "Attention quand vient le succès…"
 date: 2006-06-28 12:00:00 +02:00
 lang:       fr
-tags:       [PHP, opensource, DotClear]
+tags:       [PHP, open source, DotClear]
 ---
 
 Alors que je m'interroge sur un éventuel [abandon de SPIP au profit de DotClear](/2006/06/faut-il-que-j-abandonne-spip-pour-dotclear.html), surtout avec [la première beta de DotClear 2.0 enfin disponible](http://www.dotclear.net/forum/viewtopic.php?id=19175), je dois avouer que le [modèle de mail à envoyer aux hébergeurs ne disposant pas de PHP5](http://www.dotclear.net/forum/viewtopic.php?id=19176)[^1] proposé à ceux qui veulent adopter DotClear 2.0 me laisse rêveur…
