@@ -74,7 +74,16 @@ const tootRemoveImage = (shortMessage) => {
 
 const tootLinks = (shortMessage) => {
   // only keep the links text
-  shortMessage = shortMessage.replace(/\[([^\]]+)\]\(([^\)]+)\)/g, '$1');
+  shortMessage = shortMessage.replace(
+    /\[([^\]]+)\]\(([^\)]+|[^\(]+\([^\)]+\)[^\)]*)\)([^\)])/g,
+    '$1$3'
+  );
+
+  // Only work in PCRE2, for links with ")" like [Observer effect](https://en.wikipedia.org/wiki/Observer_effect_(physics))
+  // shortMessage = shortMessage.replace(
+  //   /\[([^][]+)\](\(((?:[^()]+|(?2))+)\))/g,
+  //   '$1'
+  // );
   return shortMessage;
 };
 
