@@ -3,7 +3,7 @@ date: 2024-09-06 12:35:20 +02:00
 tags: [screenshot, Eleventy, Cloudinary]
 ---
 
-I'm now using #Eleventy's [screenshot service](https://www.11ty.dev/docs/services/screenshots/) for my [links]({% link_to "/links/" %}) content, thanks a lot @zachleat@zachleat.com!
+I'm now using #Eleventy's [screenshot service](https://www.11ty.dev/docs/services/screenshots/) for my [links](/links/) content, thanks a lot @zachleat@zachleat.com!
 
 But…
 
