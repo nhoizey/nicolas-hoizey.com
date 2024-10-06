@@ -3819,7 +3819,10 @@
         "title": "Screenshot of Why Copilot is Making Programmers Worse at Programming"
       }
     ],
-    "toots": []
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113261475361231744"
+    ],
+    "lastTootTimestamp": 1728232961527
   },
   "https://nicolas-hoizey.com/links/2024/09/24/introducing-tods-a-typographic-and-opentype-default-stylesheet/": {
     "id": "https://nicolas-hoizey.com/links/2024/09/24/introducing-tods-a-typographic-and-opentype-default-stylesheet/",
@@ -3900,7 +3903,7 @@
     "lang": "en",
     "title": "“I wasted a day on CSS selector performance to make a website load 2ms faster”",
     "date_published": "2024-10-02T06:31:37Z",
-    "content_text": "“I wasted a day on CSS selector performance to make a website load 2ms faster” by @trys@mastodon.social\n\n🔗 https://www.trysmudford.com/blog/i-spent-a-day-making-the-website-go-2ms-faster/\n\n> It was at this point that the second penny dropped and I realised I’d been duped by a graphing misunderstanding and my own enthusiasm for improving frontend performance.\n\nThis is the Observer effect), “the disturbance of an observed system by the act of observation”.\n\nI've been fooled several times by…\n\n#WebPerf #DevTools\n\n⚓️ https://nicolas-hoizey.com/links/2024/10/02/i-wasted-a-day-on-css-selector-performance-to-make-a-website-load-2ms-faster/",
+    "content_text": "“I wasted a day on CSS selector performance to make a website load 2ms faster” by @trys@mastodon.social\n\n🔗 https://www.trysmudford.com/blog/i-spent-a-day-making-the-website-go-2ms-faster/\n\n> It was at this point that the second penny dropped and I realised I’d been duped by a graphing misunderstanding and my own enthusiasm for improving frontend performance.\n\nThis is the Observer effect, “the disturbance of an observed system by the act of observation”.\n\nI've been fooled several times by…\n\n#WebPerf #DevTools\n\n⚓️ https://nicolas-hoizey.com/links/2024/10/02/i-wasted-a-day-on-css-selector-performance-to-make-a-website-load-2ms-faster/",
     "attachments": [
       {
         "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.trysmudford.com%2Fblog%2Fi-spent-a-day-making-the-website-go-2ms-faster%2F/large/_wait:3/20240906/",
