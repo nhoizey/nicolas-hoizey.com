@@ -5,7 +5,7 @@ lang: en
 link: https://quii.dev/HTMX_is_the_Future
 authors:
   - "Chris James"
-tags: [HTMX, REST, architecture, SPA]
+tags: [htmx, REST, architecture, SPA]
 ---
 
 > Unlike SPAs, HTMX **doesn't throw away the architectural approach of REST**; it augments the browser, **improving its hypermedia capabilities** and making it simpler to deliver a rich client experience without having to write much JavaScript if any at all.
