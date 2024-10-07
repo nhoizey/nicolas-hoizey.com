@@ -3811,7 +3811,7 @@
     "lang": "en",
     "title": "“Why Copilot is Making Programmers Worse at Programming”",
     "date_published": "2024-09-24T12:36:44Z",
-    "content_text": "“Why Copilot is Making Programmers Worse at Programming” by Darren Horrocks\n\n🔗 https://www.darrenhorrocks.co.uk/why-copilot-making-programmers-worse-at-programming/\n\n> If you as the developer do not understand the code, do not understand how you got to where you are, do not understand how to solve the problem yourself. Copying and pasting code from a LLM, and being spoon fed the answer, is not going to make you a better programmer. Its going to make you reliant on the robot, and you will never be able to do…\n\n#AI #LLM\n\n⚓️ https://nicolas-hoizey.com/links/2024/09/24/why-copilot-is-making-programmers-worse-at-programming/",
+    "content_text": "“Why Copilot is Making Programmers Worse at Programming” by Darren Horrocks\n\n🔗 https://www.darrenhorrocks.co.uk/why-copilot-making-programmers-worse-at-programming/\n\n> If you as the developer do not understand the code, do not understand how you got to where you are, do not understand how to solve the problem yourself. Copying and pasting code from a LLM, and being spoon fed the answer, is not going to make you a better programmer. Its going to make you reliant on the robot, and you will never be…\n\n#AI #LLM #Copilot\n\n⚓️ https://nicolas-hoizey.com/links/2024/09/24/why-copilot-is-making-programmers-worse-at-programming/",
     "attachments": [
       {
         "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.darrenhorrocks.co.uk%2Fwhy-copilot-making-programmers-worse-at-programming%2F/large/_wait:3/20240906/",
@@ -3915,5 +3915,72 @@
       "https://mamot.fr/users/nhoizey/statuses/113238243761541697"
     ],
     "lastTootTimestamp": 1727878475511
+  },
+  "https://nicolas-hoizey.com/links/2024/10/07/devs-gaining-little-if-anything-from-ai-coding-assistants/": {
+    "id": "https://nicolas-hoizey.com/links/2024/10/07/devs-gaining-little-if-anything-from-ai-coding-assistants/",
+    "url": "https://nicolas-hoizey.com/links/2024/10/07/devs-gaining-little-if-anything-from-ai-coding-assistants/",
+    "lang": "en",
+    "title": "“Devs gaining little (if anything) from AI coding assistants”",
+    "date_published": "2024-10-07T21:17:28Z",
+    "content_text": "“Devs gaining little (if anything) from AI coding assistants” by Grant Gross\n\n🔗 https://www.cio.com/article/3540579/devs-gaining-little-if-anything-from-ai-coding-assistants.html\n\n> “It becomes increasingly more challenging to understand and debug the AI-generated code, and troubleshooting becomes so resource-intensive that it is easier to rewrite the code from scratch than fix it,” says [Ivan Gekht].\n\n#AI #LLM #Copilot\n\n⚓️ https://nicolas-hoizey.com/links/2024/10/07/devs-gaining-little-if-anything-from-ai-coding-assistants/",
+    "attachments": [
+      {
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.cio.com%2Farticle%2F3540579%2Fdevs-gaining-little-if-anything-from-ai-coding-assistants.html/large/_wait:3/20240906/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Devs gaining little (if anything) from AI coding assistants"
+      }
+    ],
+    "toots": []
+  },
+  "https://nicolas-hoizey.com/links/2024/10/07/separating-content-and-presentation-moving-past-fud/": {
+    "id": "https://nicolas-hoizey.com/links/2024/10/07/separating-content-and-presentation-moving-past-fud/",
+    "url": "https://nicolas-hoizey.com/links/2024/10/07/separating-content-and-presentation-moving-past-fud/",
+    "lang": "en",
+    "title": "“Separating content and presentation: Moving past FUD”",
+    "date_published": "2024-10-07T21:07:24Z",
+    "content_text": "“Separating content and presentation: Moving past FUD” by Michael Andrews\n\n🔗 https://storyneedle.com/separating-content-and-presentation-moving-past-fud/\n\n> The biggest barrier to the universal adoption of content-presentation separation is poor implementation. Bad tools, weak requirements, and immature knowledge all contribute to poor implementations, which seem to validate the expectation that separation can’t be done.\n\n#content #presentation #CMS #UX\n\n⚓️ https://nicolas-hoizey.com/links/2024/10/07/separating-content-and-presentation-moving-past-fud/",
+    "attachments": [
+      {
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fstoryneedle.com%2Fseparating-content-and-presentation-moving-past-fud%2F/large/_wait:3/20240906/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Separating content and presentation: Moving past FUD"
+      }
+    ],
+    "toots": []
+  },
+  "https://nicolas-hoizey.com/links/2024/10/07/a-local-first-case-study/": {
+    "id": "https://nicolas-hoizey.com/links/2024/10/07/a-local-first-case-study/",
+    "url": "https://nicolas-hoizey.com/links/2024/10/07/a-local-first-case-study/",
+    "lang": "en",
+    "title": "“A Local-First Case Study”",
+    "date_published": "2024-10-07T20:35:56Z",
+    "content_text": "“A Local-First Case Study” by @jakelazaroff@mastodon.social\n\n🔗 https://jakelazaroff.com/words/a-local-first-case-study/\n\n> It helps a lot that various libraries in the ecosystem compose well. Just snapping together ProseMirror, Yjs and Y-Sweet gave me a collaborative rich text editor with shared cursors. Adding in `yjs-indexeddb` made it work offline. This was all mostly out of the box, with very little setup; the degree to which everything Just Works is…\n\n#PWA #ServiceWorker #offline\n\n⚓️ https://nicolas-hoizey.com/links/2024/10/07/a-local-first-case-study/",
+    "attachments": [
+      {
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fjakelazaroff.com%2Fwords%2Fa-local-first-case-study%2F/large/_wait:3/20240906/",
+        "mime_type": "image/png",
+        "title": "Screenshot of A Local-First Case Study"
+      }
+    ],
+    "toots": []
+  },
+  "https://nicolas-hoizey.com/links/2024/10/07/building-a-single-page-app-with-htmx/": {
+    "id": "https://nicolas-hoizey.com/links/2024/10/07/building-a-single-page-app-with-htmx/",
+    "url": "https://nicolas-hoizey.com/links/2024/10/07/building-a-single-page-app-with-htmx/",
+    "lang": "en",
+    "title": "“Building a Single-Page App with htmx”",
+    "date_published": "2024-10-07T20:18:42Z",
+    "content_text": "“Building a Single-Page App with htmx” by @jakelazaroff@mastodon.social\n\n🔗 https://jakelazaroff.com/words/building-a-single-page-app-with-htmx/\n\n> It’s a simple proof of concept todo list. Once the page is loaded, there is no additional communication with a server. Everything happens locally on the client.\n> \n> How does that work, given that htmx is focused on managing hypermedia exchanges over the network?\n> \n> With one simple trick: the “server-side” code runs in a service…\n\n#ServiceWorker #htmx\n\n⚓️ https://nicolas-hoizey.com/links/2024/10/07/building-a-single-page-app-with-htmx/",
+    "attachments": [
+      {
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fjakelazaroff.com%2Fwords%2Fbuilding-a-single-page-app-with-htmx%2F/large/_wait:3/20240906/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Building a Single-Page App with htmx"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113268552402198166"
+    ],
+    "lastTootTimestamp": 1728340948610
   }
 }
