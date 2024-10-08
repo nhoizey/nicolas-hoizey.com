@@ -3962,7 +3962,10 @@
         "title": "Screenshot of A Local-First Case Study"
       }
     ],
-    "toots": []
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113270669640887840"
+    ],
+    "lastTootTimestamp": 1728373255114
   },
   "https://nicolas-hoizey.com/links/2024/10/07/building-a-single-page-app-with-htmx/": {
     "id": "https://nicolas-hoizey.com/links/2024/10/07/building-a-single-page-app-with-htmx/",
