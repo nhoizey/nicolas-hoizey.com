@@ -3991,5 +3991,24 @@
       "https://mamot.fr/users/nhoizey/statuses/113268552402198166"
     ],
     "lastTootTimestamp": 1728340948610
+  },
+  "https://nicolas-hoizey.com/links/2024/10/18/spas-theory-versus-practice/": {
+    "id": "https://nicolas-hoizey.com/links/2024/10/18/spas-theory-versus-practice/",
+    "url": "https://nicolas-hoizey.com/links/2024/10/18/spas-theory-versus-practice/",
+    "lang": "en",
+    "title": "“SPAs: theory versus practice”",
+    "date_published": "2024-10-18T11:45:04Z",
+    "content_text": "“SPAs: theory versus practice” by @nolan@toot.cafe\n\n🔗 https://nolanlawson.com/2022/06/27/spas-theory-versus-practice/\n\n> An expert developer can stand up on a conference stage and show off the amazing scores for their site (perfect performance! perfect accessibility! perfect SEO!), and then an excited conference-goer returns to their team, convinces them to use the same tooling, and two years later they’ve built a monstrosity.\n\n#SPA #MPA #JavaScript\n\n⚓️ https://nicolas-hoizey.com/links/2024/10/18/spas-theory-versus-practice/",
+    "attachments": [
+      {
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fnolanlawson.com%2F2022%2F06%2F27%2Fspas-theory-versus-practice%2F/large/_wait:3/20240906/",
+        "mime_type": "image/png",
+        "title": "Screenshot of SPAs: theory versus practice"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113329427802144205"
+    ],
+    "lastTootTimestamp": 1729269833525
   }
 }
