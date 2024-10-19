@@ -1546,5 +1546,18 @@
       "https://mamot.fr/users/nhoizey/statuses/113149698058657364"
     ],
     "lastTootTimestamp": 1726527375350
+  },
+  "https://nicolas-hoizey.com/notes/2024/10/19/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2024/10/19/1/",
+    "url": "https://nicolas-hoizey.com/notes/2024/10/19/1/",
+    "lang": "en",
+    "title": "💬 Note from 19 October 2024, 19:52",
+    "date_published": "2024-10-19T17:52:25Z",
+    "content_text": "Looks like I finaly managed to migrate #Pack11ty, my plugin and template/starter for @eleventy@fosstodon.org to v3! 🥳\n\nIncluding replacing all CJS with #ESM, the most difficult part.\n\nPreview: https://11ty3--pack11ty.netlify.app/\n\nCode in branches `11ty3`:\n- the plugin with most features: https://github.com/nhoizey/eleventy-plugin-pack11ty/tree/11ty3\n- the project template/starter with content and “design”:…\n\n\n\n⚓️ https://nicolas-hoizey.com/notes/2024/10/19/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113335503632274725"
+    ],
+    "lastTootTimestamp": 1729362543305
   }
 }
