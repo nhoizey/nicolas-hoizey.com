@@ -4010,5 +4010,24 @@
       "https://mamot.fr/users/nhoizey/statuses/113329427802144205"
     ],
     "lastTootTimestamp": 1729269833525
+  },
+  "https://nicolas-hoizey.com/links/2024/10/21/html-for-people/": {
+    "id": "https://nicolas-hoizey.com/links/2024/10/21/html-for-people/",
+    "url": "https://nicolas-hoizey.com/links/2024/10/21/html-for-people/",
+    "lang": "en",
+    "title": "“HTML for People”",
+    "date_published": "2024-10-21T07:55:01Z",
+    "content_text": "“HTML for People” by @bw@social.lol\n\n🔗 https://htmlforpeople.com/\n\n> anyone should be able to make a website with HTML if they want. This book will teach you how to do just that. It doesn’t require any previous experience making websites or coding. I will cover everything you need to know to get started in an approachable and friendly way.\n\n#HTML #CSS #tutorial\n\n⚓️ https://nicolas-hoizey.com/links/2024/10/21/html-for-people/",
+    "attachments": [
+      {
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fhtmlforpeople.com%2F/large/_wait:3/20240906/",
+        "mime_type": "image/png",
+        "title": "Screenshot of HTML for People"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113350657169619481"
+    ],
+    "lastTootTimestamp": 1729593767950
   }
 }
