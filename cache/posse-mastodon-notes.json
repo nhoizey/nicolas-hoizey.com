@@ -1559,5 +1559,24 @@
       "https://mamot.fr/users/nhoizey/statuses/113335503632274725"
     ],
     "lastTootTimestamp": 1729362543305
+  },
+  "https://nicolas-hoizey.com/notes/2024/10/26/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2024/10/26/1/",
+    "url": "https://nicolas-hoizey.com/notes/2024/10/26/1/",
+    "lang": "en",
+    "title": "💬 Note from 26 October 2024, 21:45",
+    "date_published": "2024-10-26T19:45:00Z",
+    "content_text": "My photography site is now built with @eleventy@fosstodon.org v3, all JavaScript code is migrated to #ESM, and common features I use in all my Eleventy project are now provided by the #Pack11ty plugin.\n\nDoesn't “3,632 additions and 23,478 deletions” sound like a big improvement?\n\nMuch less specific code to maintain in the future! 🥳\n\n- My site: https://nicolas-hoizey.photo/\n- Pack11ty: https://pack11ty.dev/\n\n#photography\n\n⚓️ https://nicolas-hoizey.com/notes/2024/10/26/1/",
+    "attachments": [
+      {
+        "url": "https://nicolas-hoizey.com/notes/2024/10/26/1/github-pull-request-eleventy-v3.jpg",
+        "mime_type": "image/jpg",
+        "title": "GitHub Pull Request showing 167 changed files with 3,632 additions and 23,478 deletions"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113375483911665761"
+    ],
+    "lastTootTimestamp": 1729972594007
   }
 }
