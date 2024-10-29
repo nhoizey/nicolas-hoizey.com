@@ -4029,5 +4029,24 @@
       "https://mamot.fr/users/nhoizey/statuses/113350657169619481"
     ],
     "lastTootTimestamp": 1729593767950
+  },
+  "https://nicolas-hoizey.com/links/2024/10/29/web-font-file-size-study-a-variable-font-addition/": {
+    "id": "https://nicolas-hoizey.com/links/2024/10/29/web-font-file-size-study-a-variable-font-addition/",
+    "url": "https://nicolas-hoizey.com/links/2024/10/29/web-font-file-size-study-a-variable-font-addition/",
+    "lang": "en",
+    "title": "“Web font file size study: a variable font addition”",
+    "date_published": "2024-10-29T09:45:14Z",
+    "content_text": "“Web font file size study: a variable font addition” by Stoyan Stefanov\n\n🔗 https://www.phpied.com/web-font-file-size-study-a-variable-font-addition/\n\n> The sum is smaller than the parts. A variable font that has both normal and heavy (bold) weight (and also everything in between) is slightly smaller than two regular fonts.\n\n#font #variable #WebPerf\n\n⚓️ https://nicolas-hoizey.com/links/2024/10/29/web-font-file-size-study-a-variable-font-addition/",
+    "attachments": [
+      {
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.phpied.com%2Fweb-font-file-size-study-a-variable-font-addition%2F/large/_wait:3/20240906/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Web font file size study: a variable font addition"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113391000524583095"
+    ],
+    "lastTootTimestamp": 1730209358677
   }
 }
