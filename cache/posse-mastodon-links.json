@@ -4036,7 +4036,7 @@
     "lang": "en",
     "title": "“Web font file size study: a variable font addition”",
     "date_published": "2024-10-29T09:45:14Z",
-    "content_text": "“Web font file size study: a variable font addition” by Stoyan Stefanov\n\n🔗 https://www.phpied.com/web-font-file-size-study-a-variable-font-addition/\n\n> The sum is smaller than the parts. A variable font that has both normal and heavy (bold) weight (and also everything in between) is slightly smaller than two regular fonts.\n\n#font #variable #WebPerf\n\n⚓️ https://nicolas-hoizey.com/links/2024/10/29/web-font-file-size-study-a-variable-font-addition/",
+    "content_text": "“Web font file size study: a variable font addition” by @stoyan@indieweb.social\n\n🔗 https://www.phpied.com/web-font-file-size-study-a-variable-font-addition/\n\n> The sum is smaller than the parts. A variable font that has both normal and heavy (bold) weight (and also everything in between) is slightly smaller than two regular fonts.\n\n#font #variable #WebPerf\n\n⚓️ https://nicolas-hoizey.com/links/2024/10/29/web-font-file-size-study-a-variable-font-addition/",
     "attachments": [
       {
         "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.phpied.com%2Fweb-font-file-size-study-a-variable-font-addition%2F/large/_wait:3/20240906/",
@@ -4048,5 +4048,24 @@
       "https://mamot.fr/users/nhoizey/statuses/113391000524583095"
     ],
     "lastTootTimestamp": 1730209358677
+  },
+  "https://nicolas-hoizey.com/links/2024/10/30/i-pierced-my-fucking-nose/": {
+    "id": "https://nicolas-hoizey.com/links/2024/10/30/i-pierced-my-fucking-nose/",
+    "url": "https://nicolas-hoizey.com/links/2024/10/30/i-pierced-my-fucking-nose/",
+    "lang": "en",
+    "title": "“I pierced my fucking nose”",
+    "date_published": "2024-10-30T11:30:07Z",
+    "content_text": "“I pierced my fucking nose” by @keenan@social.lol\n\n🔗 https://gkeenan.co/avgb/i-pierced-my-fucking-nose/\n\n> Sometimes things change and your dumb old thoughts need to be buried so you can just move on and be you. Sometimes things that seemed so big and important for so long, aren't, actually. Sometimes it's nice to just reconcile with your past self and say, \"You know what? Get out of the way. I know better now. Also quit being so fucking serious about shit that…\n\n#life #society\n\n⚓️ https://nicolas-hoizey.com/links/2024/10/30/i-pierced-my-fucking-nose/",
+    "attachments": [
+      {
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fgkeenan.co%2Favgb%2Fi-pierced-my-fucking-nose%2F/large/_wait:3/20240906/",
+        "mime_type": "image/png",
+        "title": "Screenshot of I pierced my fucking nose"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113400903256557491"
+    ],
+    "lastTootTimestamp": 1730360462409
   }
 }
