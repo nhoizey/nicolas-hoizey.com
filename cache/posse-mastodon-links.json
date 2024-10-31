@@ -4067,5 +4067,40 @@
       "https://mamot.fr/users/nhoizey/statuses/113400903256557491"
     ],
     "lastTootTimestamp": 1730360462409
+  },
+  "https://nicolas-hoizey.com/links/2024/10/31/should-masonry-be-part-of-css-grid/": {
+    "id": "https://nicolas-hoizey.com/links/2024/10/31/should-masonry-be-part-of-css-grid/",
+    "url": "https://nicolas-hoizey.com/links/2024/10/31/should-masonry-be-part-of-css-grid/",
+    "lang": "en",
+    "title": "“Should masonry be part of CSS grid?”",
+    "date_published": "2024-10-31T16:03:02Z",
+    "content_text": "“Should masonry be part of CSS grid?” by @shadeed9@front-end.social\n\n🔗 https://ishadeed.com/article/css-grid-masonry/\n\n> An exploration of examples showing masonry as both a part of CSS Grid and as its own display type.\n\nAhmad provides compeling use cases and code examples showing that making masonry layout “just” a specific use case for CSS Grid could be the best choice.\n\nSo… that's not what I thought a month ago… 😅\n\nAnyway, the most important part in…\n\n#CSS #Grid #Masonry\n\n⚓️ https://nicolas-hoizey.com/links/2024/10/31/should-masonry-be-part-of-css-grid/",
+    "attachments": [
+      {
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fishadeed.com%2Farticle%2Fcss-grid-masonry%2F/large/_wait:3/20240906/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Should masonry be part of CSS grid?"
+      }
+    ],
+    "toots": []
+  },
+  "https://nicolas-hoizey.com/links/2024/10/31/select-the-last-occurrence-of-an-element-in-the-whole-document/": {
+    "id": "https://nicolas-hoizey.com/links/2024/10/31/select-the-last-occurrence-of-an-element-in-the-whole-document/",
+    "url": "https://nicolas-hoizey.com/links/2024/10/31/select-the-last-occurrence-of-an-element-in-the-whole-document/",
+    "lang": "en",
+    "title": "“Select the last occurrence of an element in the whole document”",
+    "date_published": "2024-10-31T15:10:26Z",
+    "content_text": "“Select the last occurrence of an element in the whole document” by @css@front-end.social\n\n🔗 https://css-tip.com/last-element-dom/\n\nOh CSS… 😍\n\n#CSS\n\n⚓️ https://nicolas-hoizey.com/links/2024/10/31/select-the-last-occurrence-of-an-element-in-the-whole-document/",
+    "attachments": [
+      {
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fcss-tip.com%2Flast-element-dom%2F/large/_wait:3/20240906/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Select the last occurrence of an element in the whole document"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113403039174304651"
+    ],
+    "lastTootTimestamp": 1730393053942
   }
 }
