@@ -108,7 +108,7 @@
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-visualizer": "^5.12.0",
     "sanitize-html": "^2.13.1",
-    "sass": "^1.80.4",
+    "sass": "^1.80.6",
     "stylelint": "^15.11.0",
     "stylelint-config-idiomatic-order": "^9.0.0",
     "stylelint-config-prettier": "^9.0.5",
