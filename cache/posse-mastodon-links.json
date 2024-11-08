@@ -4105,5 +4105,56 @@
       "https://mamot.fr/users/nhoizey/statuses/113403039174304651"
     ],
     "lastTootTimestamp": 1730393053942
+  },
+  "https://nicolas-hoizey.com/links/2024/11/07/goodbye-twitter/": {
+    "id": "https://nicolas-hoizey.com/links/2024/11/07/goodbye-twitter/",
+    "url": "https://nicolas-hoizey.com/links/2024/11/07/goodbye-twitter/",
+    "lang": "en",
+    "title": "“Goodbye, Twitter”",
+    "date_published": "2024-11-07T20:59:58Z",
+    "content_text": "“Goodbye, Twitter” by @brad_frost@mastodon.social\n\n🔗 https://bradfrost.com/blog/post/goodbye-twitter/\n\n> It’s not lost on me that more than at any other point in history our relationships to each other are sculpted by the whims of a handful of commercial companies. I continue to own my own presence on my own website, and want to do some work to beef up my Indie Web self a bit.\n\n#Twitter #IndieWeb\n\n⚓️ https://nicolas-hoizey.com/links/2024/11/07/goodbye-twitter/",
+    "attachments": [
+      {
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fbradfrost.com%2Fblog%2Fpost%2Fgoodbye-twitter%2F/large/_wait:3/20240906/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Goodbye, Twitter"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113444885070540446"
+    ],
+    "lastTootTimestamp": 1731031571637
+  },
+  "https://nicolas-hoizey.com/links/2024/11/06/x-is-a-white-supremacist-site/": {
+    "id": "https://nicolas-hoizey.com/links/2024/11/06/x-is-a-white-supremacist-site/",
+    "url": "https://nicolas-hoizey.com/links/2024/11/06/x-is-a-white-supremacist-site/",
+    "lang": "en",
+    "title": "“X Is a White-Supremacist Site”",
+    "date_published": "2024-11-06T22:38:47Z",
+    "content_text": "“X Is a White-Supremacist Site” by @cwarzel@sfba.social\n\n🔗 https://www.theatlantic.com/technology/archive/2024/11/x-white-supremacist-site/680538/\n\n> None of this is accidental. The output of a platform tells you what it is designed to do: In X’s case, all of this is proof of a system engineered to give voice to hateful ideas and reward those who espouse them. If one is to judge X by its main exports, then X, as it exists now under Musk, is a white-supremacist website.\n\n#Twitter\n\n⚓️ https://nicolas-hoizey.com/links/2024/11/06/x-is-a-white-supremacist-site/",
+    "attachments": [
+      {
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.theatlantic.com%2Ftechnology%2Farchive%2F2024%2F11%2Fx-white-supremacist-site%2F680538%2F/large/_wait:3/20240906/",
+        "mime_type": "image/png",
+        "title": "Screenshot of X Is a White-Supremacist Site"
+      }
+    ],
+    "toots": []
+  },
+  "https://nicolas-hoizey.com/links/2024/11/03/bluesky-and-enshittification/": {
+    "id": "https://nicolas-hoizey.com/links/2024/11/03/bluesky-and-enshittification/",
+    "url": "https://nicolas-hoizey.com/links/2024/11/03/bluesky-and-enshittification/",
+    "lang": "en",
+    "title": "“Bluesky and enshittification”",
+    "date_published": "2024-11-03T00:27:29Z",
+    "content_text": "“Bluesky and enshittification” by @pluralistic@mamot.fr\n\n🔗 https://pluralistic.net/2024/11/02/ulysses-pact/#tie-yourself-to-a-federated-mast\n\n> I don't know why Bluesky hasn't added the federation systems that would enable freedom of exit to its service. Perhaps there are excellent technical reasons to prioritize rolling out the other systems they've created so far. Frankly, it doesn't matter. So long as Bluesky can be a trap, I won't let myself be tempted. My rule – I don't join a service…\n\n#Bluesky #socialNetwork\n\n⚓️ https://nicolas-hoizey.com/links/2024/11/03/bluesky-and-enshittification/",
+    "attachments": [
+      {
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fpluralistic.net%2F2024%2F11%2F02%2Fulysses-pact%2F%23tie-yourself-to-a-federated-mast/large/_wait:3/20240906/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Bluesky and enshittification"
+      }
+    ],
+    "toots": []
   }
 }
