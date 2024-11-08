@@ -4156,5 +4156,40 @@
       }
     ],
     "toots": []
+  },
+  "https://nicolas-hoizey.com/links/2024/11/08/my-anti-overlay-client-letter/": {
+    "id": "https://nicolas-hoizey.com/links/2024/11/08/my-anti-overlay-client-letter/",
+    "url": "https://nicolas-hoizey.com/links/2024/11/08/my-anti-overlay-client-letter/",
+    "lang": "en",
+    "title": "“My anti-overlay client letter”",
+    "date_published": "2024-11-08T16:35:18Z",
+    "content_text": "“My anti-overlay client letter” by @accudio@mastodon.scot\n\n🔗 https://alistairshepherd.uk/writing/accessibility-overlays-email/\n\n> I despise accessibility overlays, and get really quite upset when they're mentioned in a serious context. Unfortunately, getting increasingly upset and angry doesn't do a very good job of informing clients about why they're often a bad idea and why they shouldn't be trusted.\n\n#accessibility\n\n⚓️ https://nicolas-hoizey.com/links/2024/11/08/my-anti-overlay-client-letter/",
+    "attachments": [
+      {
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Falistairshepherd.uk%2Fwriting%2Faccessibility-overlays-email%2F/large/_wait:3/20240906/",
+        "mime_type": "image/png",
+        "title": "Screenshot of My anti-overlay client letter"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113448334967492504"
+    ],
+    "lastTootTimestamp": 1731084212896
+  },
+  "https://nicolas-hoizey.com/links/2024/11/08/tactile-controls-why-buttons-are-making-a-comeback/": {
+    "id": "https://nicolas-hoizey.com/links/2024/11/08/tactile-controls-why-buttons-are-making-a-comeback/",
+    "url": "https://nicolas-hoizey.com/links/2024/11/08/tactile-controls-why-buttons-are-making-a-comeback/",
+    "lang": "en",
+    "title": "“Tactile Controls: Why Buttons Are Making a Comeback”",
+    "date_published": "2024-11-08T11:53:31Z",
+    "content_text": "“Tactile Controls: Why Buttons Are Making a Comeback” by Gwendolyn Rak\n\n🔗 https://spectrum.ieee.org/touchscreens\n\n> When I’m driving, it’s actually unsafe for my car to be operated in that way [with a touchscreen]. It’s hard to generalize and say, buttons are always easy and good, and touchscreens are difficult and bad, or vice versa. Buttons tend to offer you a really limited range of possibilities in terms of what you can do. Maybe that…\n\n#car #screen #UX #accessibility\n\n⚓️ https://nicolas-hoizey.com/links/2024/11/08/tactile-controls-why-buttons-are-making-a-comeback/",
+    "attachments": [
+      {
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fspectrum.ieee.org%2Ftouchscreens/large/_wait:3/20240906/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Tactile Controls: Why Buttons Are Making a Comeback"
+      }
+    ],
+    "toots": []
   }
 }
