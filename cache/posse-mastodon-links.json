@@ -3855,12 +3855,15 @@
     "content_text": "“JPEG VS AVIF - The Battle of Compression” by kliksphilip\n\n🔗 https://www.youtube.com/watch?v=SzsM4HMKmEI\n\n> In this super thorough study I test one single HD image and come to vast sweeping conclusions about JPEG XL and AVIF. But that's still one image comparison more than most people do! :)\n\nI love the idea of JPEG XL “creating a sandwich of superiority around the middling AVIF”! 😍\n\n#image #WebPerf #AVIF #JPEGXL\n\n⚓️ https://nicolas-hoizey.com/links/2024/09/25/jpeg-vs-avif-the-battle-of-compression/",
     "attachments": [
       {
-        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DSzsM4HMKmEI/large/_wait:3/20240906/",
-        "mime_type": "image/png",
-        "title": "Screenshot of JPEG VS AVIF - The Battle of Compression"
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fimg.youtube.com%2Fvi%2FSzsM4HMKmEI%2Fmaxresdefault.jpg/large/_wait:3/20240906/",
+        "mime_type": "image/jpeg",
+        "title": "Thumbnail of YouTube video JPEG VS AVIF - The Battle of Compression"
       }
     ],
-    "toots": []
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113529828189243775"
+    ],
+    "lastTootTimestamp": 1732327700730
   },
   "https://nicolas-hoizey.com/links/2024/09/25/introducing-speed-brain-helping-web-pages-load-45-faster/": {
     "id": "https://nicolas-hoizey.com/links/2024/09/25/introducing-speed-brain-helping-web-pages-load-45-faster/",
@@ -4188,6 +4191,38 @@
         "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fspectrum.ieee.org%2Ftouchscreens/large/_wait:3/20240906/",
         "mime_type": "image/png",
         "title": "Screenshot of Tactile Controls: Why Buttons Are Making a Comeback"
+      }
+    ],
+    "toots": []
+  },
+  "https://nicolas-hoizey.com/links/2024/11/13/why-the-guardian-is-no-longer-posting-on-x/": {
+    "id": "https://nicolas-hoizey.com/links/2024/11/13/why-the-guardian-is-no-longer-posting-on-x/",
+    "url": "https://nicolas-hoizey.com/links/2024/11/13/why-the-guardian-is-no-longer-posting-on-x/",
+    "lang": "en",
+    "title": "“Why the Guardian is no longer posting on X”",
+    "date_published": "2024-11-13T13:45:04Z",
+    "content_text": "“Why the Guardian is no longer posting on X” by The Guardian\n\n🔗 https://www.theguardian.com/media/2024/nov/13/why-the-guardian-is-no-longer-posting-on-x\n\n> Thankfully, we can do this because our business model does not rely on viral content tailored to the whims of the social media giants’ algorithms – instead we’re funded directly by our readers.\n\n#Twitter #socialNetwork #society\n\n⚓️ https://nicolas-hoizey.com/links/2024/11/13/why-the-guardian-is-no-longer-posting-on-x/",
+    "attachments": [
+      {
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.theguardian.com%2Fmedia%2F2024%2Fnov%2F13%2Fwhy-the-guardian-is-no-longer-posting-on-x/large/_wait:3/20240906/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Why the Guardian is no longer posting on X"
+      }
+    ],
+    "toots": []
+  },
+  "https://nicolas-hoizey.com/links/2024/11/08/dump-twitter/": {
+    "id": "https://nicolas-hoizey.com/links/2024/11/08/dump-twitter/",
+    "url": "https://nicolas-hoizey.com/links/2024/11/08/dump-twitter/",
+    "lang": "en",
+    "title": "“Dump Twitter”",
+    "date_published": "2024-11-08T20:29:30Z",
+    "content_text": "“Dump Twitter” by @TimothyNoah@journa.host\n\n🔗 https://newrepublic.com/article/188156/liberals-dump-musk-leave-twitter\n\n> Why is anybody who deplores Trump’s reelection and Musk’s own degradation of public discourse with racism, antisemitism, misogyny, union-busting, endorsements of violence, the spreading of hateful untruths, and all-around vulgarity still playing in Musk’s sandbox? If you hate such things, why do you still maintain an account on Twitter?\n\n#Twitter #society\n\n⚓️ https://nicolas-hoizey.com/links/2024/11/08/dump-twitter/",
+    "attachments": [
+      {
+        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fnewrepublic.com%2Farticle%2F188156%2Fliberals-dump-musk-leave-twitter/large/_wait:3/20240906/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Dump Twitter"
       }
     ],
     "toots": []
