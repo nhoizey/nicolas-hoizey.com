@@ -18,7 +18,14 @@ permalink: /feeds/links.xml
 {% block entries %}
   {% for entry in collections.links | limit(20) %}
     {%- set absoluteEntryUrl -%}{{- pkg.homepage -}}{{- entry.url -}}{%- endset -%}
-    {%- set thumbUrl -%}{{ screenshots.prefix }}{{ entry.data.link | url_encode }}{{ screenshots.suffix }}{%- endset -%}
+    {%- if "youtube.com" in entry.data.link -%}
+      {# Use the poster image for YouTube videos #}
+      {%- set youtubeId = entry.data.link | split("v=") | last -%}
+      {%- set urlToScreenshot = "https://img.youtube.com/vi/" ~ youtubeId ~ "/maxresdefault.jpg" -%}
+    {%- else -%}
+      {%- set urlToScreenshot = entry.data.link -%}
+    {%- endif -%}
+    {%- set thumbUrl -%}{{ screenshots.prefix }}{{ urlToScreenshot | url_encode }}{{ screenshots.suffix }}{%- endset -%}
     <entry>
       <link href="{{ absoluteEntryUrl }}"/>
       <title>{{ entry.data.title }}</title>

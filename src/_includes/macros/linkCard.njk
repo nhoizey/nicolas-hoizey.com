@@ -2,7 +2,15 @@
 {% from "macros/card.njk" import card %}
 
 {% macro linkCard(link, screenshots, lazy = true) %}
-  {% set encodedUrl = link.data.link | url_encode %}
+  {%- if "youtube.com" in link.data.link -%}
+    {# Use the poster image for YouTube videos #}
+    {%- set youtubeId = link.data.link | split("v=") | last -%}
+    {%- set urlToScreenshot = "https://img.youtube.com/vi/" ~ youtubeId ~ "/maxresdefault.jpg" -%}
+  {%- else -%}
+    {%- set urlToScreenshot = link.data.link -%}
+  {%- endif -%}
+
+  {% set encodedUrl = urlToScreenshot | url_encode %}
   {% set thumbUrl = screenshots.prefix + encodedUrl + screenshots.suffix %}
 
   {% set illustration = {

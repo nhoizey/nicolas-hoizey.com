@@ -79,7 +79,14 @@ permalink: /tools/algolia.json
   {%- endif -%}
   {%- endset -%}
   {%- set metaHtml %}{{ meta(entry) }}{%- endset -%}
-  {% set encodedUrl = entry.data.link | url_encode %}
+  {%- if "youtube.com" in entry.data.link -%}
+    {# Use the poster image for YouTube videos #}
+    {%- set youtubeId = entry.data.link | split("v=") | last -%}
+    {%- set urlToScreenshot = "https://img.youtube.com/vi/" ~ youtubeId ~ "/maxresdefault.jpg" -%}
+  {%- else -%}
+    {%- set urlToScreenshot = entry.data.link -%}
+  {%- endif -%}
+  {% set encodedUrl = urlToScreenshot | url_encode %}
   {% set thumbUrl = screenshots.prefix + encodedUrl + screenshots.suffix %}
 
   {

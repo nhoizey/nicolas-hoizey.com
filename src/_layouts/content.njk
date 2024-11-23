@@ -75,11 +75,18 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
 
   <div class="page__body e-content">
     {% if layout == 'link' %}
+      {%- if "youtube.com" in link -%}
+        {# Use the poster image for YouTube videos #}
+        {%- set youtubeId = link | split("v=") | last -%}
+        {%- set urlToScreenshot = "https://img.youtube.com/vi/" ~ youtubeId ~ "/maxresdefault.jpg" -%}
+      {%- else -%}
+        {%- set urlToScreenshot = link -%}
+      {%- endif -%}
       <img
         alt="Screenshot of “{{ title }}”"
         width="1024"
         height="1024"
-        src="{{ screenshots.prefix }}{{ link | url_encode }}{{ screenshots.suffix }}"
+        src="{{ screenshots.prefix }}{{ urlToScreenshot | url_encode }}{{ screenshots.suffix }}"
         class="page__illustration u-photo"
         crossorigin="anonymous"
         data-responsiver="page__illustration"

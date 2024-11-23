@@ -2,7 +2,7 @@
 date: 2020-01-29 13:53:58 +02:00
 title: "Humans can't read URLs. How can we fix it?"
 lang: en
-link: https://youtu.be/0-wB1VY3Nrc
+link: https://www.youtube.com/watch?v=0-wB1VY3Nrc
 authors:
   - "Jake Archibald"
   - "Surma"
