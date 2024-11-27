@@ -25,7 +25,10 @@ permalink: /feeds/links.xml
     {%- else -%}
       {%- set urlToScreenshot = entry.data.link -%}
     {%- endif -%}
-    {%- set thumbUrl -%}{{ screenshots.prefix }}{{ urlToScreenshot | url_encode }}{{ screenshots.suffix }}{%- endset -%}
+    {% if screenshots.encodeUrl %}
+      {% set urlToScreenshot = urlToScreenshot | url_encode %}
+    {% endif %}
+    {%- set thumbUrl -%}{{ screenshots.prefix }}{{ urlToScreenshot }}{{ screenshots.suffix }}{%- endset -%}
     <entry>
       <link href="{{ absoluteEntryUrl }}"/>
       <title>{{ entry.data.title }}</title>
@@ -44,7 +47,7 @@ permalink: /feeds/links.xml
         {% endif %}
         &lt;a href="{{ entry.data.link }}"&gt;{{ entry.data.link }}&lt;/a&gt;
         &lt;/p&gt;
-        &lt;figure&gt;&lt;img src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_300,h_300/{{ thumbUrl | url_encode }}" width="300" height="300" /&gt;&lt;/figure&gt;
+        &lt;figure&gt;&lt;img src="https://res.cloudinary.com/nho/image/fetch/c_fill,f_auto,q_auto,w_300,h_200/{{ thumbUrl | url_encode }}" width="300" height="200" /&gt;&lt;/figure&gt;
         {{ entry.templateContent | cleanDeepLinks | htmlToAbsoluteUrls(absoluteEntryUrl) }}
       </content>
       {%- for tag in entry.tags -%}

@@ -1,4 +1,7 @@
 {
-  "prefix": "https://v1.screenshot.11ty.dev/",
-  "suffix": "/large/20241127/"
+  "prefix": "https://image.thum.io/get/width/1200/crop/800/noanimate/",
+  "suffix": "",
+  "encodeUrl": false,
+  "width": 1200,
+  "height": 800
 }

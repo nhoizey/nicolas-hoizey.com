@@ -86,8 +86,10 @@ permalink: /tools/algolia.json
   {%- else -%}
     {%- set urlToScreenshot = entry.data.link -%}
   {%- endif -%}
-  {% set encodedUrl = urlToScreenshot | url_encode %}
-  {% set thumbUrl = screenshots.prefix + encodedUrl + screenshots.suffix %}
+  {% if screenshots.encodeUrl %}
+    {% set urlToScreenshot = urlToScreenshot | url_encode %}
+  {% endif %}
+  {% set thumbUrl = screenshots.prefix + urlToScreenshot + screenshots.suffix %}
 
   {
     "type": "links",
@@ -100,7 +102,7 @@ permalink: /tools/algolia.json
 		"date.lvl2": "{{ entry.date | year }} > {{ entry.date | month }} > {{ entry.date | day }}",
 		"url": "{{ absoluteEntryUrl }}",
 		"objectID": "{{ absoluteEntryUrl }}",
-    "illustration": "{% archiveIllustration thumbUrl, 1024, 1024, 'screenshot of ' + entry.data.title | escapeQuotes | safe %}",
+    "illustration": "{% archiveIllustration thumbUrl, screenshots.width, screenshots.height, 'screenshot of ' + entry.data.title | escapeQuotes | safe %}",
 		"content": {{ entry.templateContent | cleanForAlgolia | striptags | jsonify | safe }},
     "excerpt": {{ entry.data.page.excerpt | markdown | jsonify | safe }},
 		"tags": [

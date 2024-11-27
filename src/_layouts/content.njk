@@ -82,11 +82,14 @@ https://developers.google.com/search/docs/data-types/breadcrumbs
       {%- else -%}
         {%- set urlToScreenshot = link -%}
       {%- endif -%}
+      {% if screenshots.encodeUrl %}
+        {% set urlToScreenshot = urlToScreenshot | url_encode %}
+      {% endif %}
       <img
         alt="Screenshot of “{{ title }}”"
-        width="1024"
-        height="1024"
-        src="{{ screenshots.prefix }}{{ urlToScreenshot | url_encode }}{{ screenshots.suffix }}"
+        width="{{ screenshots.width }}"
+        height="{{ screenshots.height }}"
+        src="{{ screenshots.prefix }}{{ urlToScreenshot }}{{ screenshots.suffix }}"
         class="page__illustration u-photo"
         crossorigin="anonymous"
         data-responsiver="page__illustration"

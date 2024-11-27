@@ -22,12 +22,19 @@ permalink: /feeds/mastodon/links.json
         {
           {%- if "youtube.com" in entry.data.link -%}
             {%- set youtubeId = entry.data.link | split("v=") | last -%}
-            {%- set youtubeThumbnail = "https://img.youtube.com/vi/" ~ youtubeId ~ "/maxresdefault.jpg" -%}
-            "url": "{{ screenshots.prefix }}{{ youtubeThumbnail | url_encode }}{{ screenshots.suffix }}",
+            {%- set urlToScreenshot = "https://img.youtube.com/vi/" ~ youtubeId ~ "/maxresdefault.jpg" -%}
+            {% if screenshots.encodeUrl %}
+              {% set urlToScreenshot = urlToScreenshot | url_encode %}
+            {% endif %}
+            "url": "{{ screenshots.prefix }}{{ urlToScreenshot }}{{ screenshots.suffix }}",
             "mime_type": "image/jpeg",
             "title": "Thumbnail of YouTube video {{ entry.data.title }}"
           {%- else -%}
-            "url": "{{ screenshots.prefix }}{{ entry.data.link | url_encode }}{{ screenshots.suffix }}",
+            {%- set urlToScreenshot = entry.data.link -%}
+            {% if screenshots.encodeUrl %}
+              {% set urlToScreenshot = urlToScreenshot | url_encode %}
+            {% endif %}
+            "url": "{{ screenshots.prefix }}{{ urlToScreenshot }}{{ screenshots.suffix }}",
             "mime_type": "image/png",
             "title": "Screenshot of {{ entry.data.title}}"
           {%- endif -%}

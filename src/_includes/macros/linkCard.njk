@@ -10,14 +10,16 @@
     {%- set urlToScreenshot = link.data.link -%}
   {%- endif -%}
 
-  {% set encodedUrl = urlToScreenshot | url_encode %}
-  {% set thumbUrl = screenshots.prefix + encodedUrl + screenshots.suffix %}
+  {% if screenshots.encodeUrl %}
+    {% set urlToScreenshot = urlToScreenshot | url_encode %}
+  {% endif %}
+  {% set thumbUrl = screenshots.prefix + urlToScreenshot + screenshots.suffix %}
 
   {% set illustration = {
     src: thumbUrl,
     alt: "screenshot of " + link.data.title,
-    width: 1024,
-    height: 1024
+    width: screenshots.width,
+    height: screenshots.height
   } %}
 
   {% set surtitle = false %}
