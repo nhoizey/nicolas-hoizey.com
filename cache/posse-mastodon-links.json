@@ -3912,7 +3912,7 @@
     "content_text": "“I wasted a day on CSS selector performance to make a website load 2ms faster” by @trys@mastodon.social\n\n🔗 https://www.trysmudford.com/blog/i-spent-a-day-making-the-website-go-2ms-faster/\n\n> It was at this point that the second penny dropped and I realised I’d been duped by a graphing misunderstanding and my own enthusiasm for improving frontend performance.\n\nThis is the Observer effect, “the disturbance of an observed system by the act of observation”.\n\nI've been fooled several times by…\n\n#WebPerf #DevTools\n\n⚓️ https://nicolas-hoizey.com/links/2024/10/02/i-wasted-a-day-on-css-selector-performance-to-make-a-website-load-2ms-faster/",
     "attachments": [
       {
-        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.trysmudford.com%2Fblog%2Fi-spent-a-day-making-the-website-go-2ms-faster%2F/large/_wait:3/20240906/",
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.trysmudford.com/blog/i-spent-a-day-making-the-website-go-2ms-faster/",
         "mime_type": "image/png",
         "title": "Screenshot of I wasted a day on CSS selector performance to make a website load 2ms faster"
       }
@@ -3931,7 +3931,7 @@
     "content_text": "“Devs gaining little (if anything) from AI coding assistants” by Grant Gross\n\n🔗 https://www.cio.com/article/3540579/devs-gaining-little-if-anything-from-ai-coding-assistants.html\n\n> “It becomes increasingly more challenging to understand and debug the AI-generated code, and troubleshooting becomes so resource-intensive that it is easier to rewrite the code from scratch than fix it,” says [Ivan Gekht].\n\n#AI #LLM #Copilot\n\n⚓️ https://nicolas-hoizey.com/links/2024/10/07/devs-gaining-little-if-anything-from-ai-coding-assistants/",
     "attachments": [
       {
-        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.cio.com%2Farticle%2F3540579%2Fdevs-gaining-little-if-anything-from-ai-coding-assistants.html/large/_wait:3/20240906/",
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.cio.com/article/3540579/devs-gaining-little-if-anything-from-ai-coding-assistants.html",
         "mime_type": "image/png",
         "title": "Screenshot of Devs gaining little (if anything) from AI coding assistants"
       }
@@ -3947,7 +3947,7 @@
     "content_text": "“Separating content and presentation: Moving past FUD” by Michael Andrews\n\n🔗 https://storyneedle.com/separating-content-and-presentation-moving-past-fud/\n\n> The biggest barrier to the universal adoption of content-presentation separation is poor implementation. Bad tools, weak requirements, and immature knowledge all contribute to poor implementations, which seem to validate the expectation that separation can’t be done.\n\n#content #presentation #CMS #UX\n\n⚓️ https://nicolas-hoizey.com/links/2024/10/07/separating-content-and-presentation-moving-past-fud/",
     "attachments": [
       {
-        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fstoryneedle.com%2Fseparating-content-and-presentation-moving-past-fud%2F/large/_wait:3/20240906/",
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://storyneedle.com/separating-content-and-presentation-moving-past-fud/",
         "mime_type": "image/png",
         "title": "Screenshot of Separating content and presentation: Moving past FUD"
       }
@@ -3966,7 +3966,7 @@
     "content_text": "“A Local-First Case Study” by @jakelazaroff@mastodon.social\n\n🔗 https://jakelazaroff.com/words/a-local-first-case-study/\n\n> It helps a lot that various libraries in the ecosystem compose well. Just snapping together ProseMirror, Yjs and Y-Sweet gave me a collaborative rich text editor with shared cursors. Adding in `yjs-indexeddb` made it work offline. This was all mostly out of the box, with very little setup; the degree to which everything Just Works is…\n\n#PWA #ServiceWorker #offline\n\n⚓️ https://nicolas-hoizey.com/links/2024/10/07/a-local-first-case-study/",
     "attachments": [
       {
-        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fjakelazaroff.com%2Fwords%2Fa-local-first-case-study%2F/large/_wait:3/20240906/",
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://jakelazaroff.com/words/a-local-first-case-study/",
         "mime_type": "image/png",
         "title": "Screenshot of A Local-First Case Study"
       }
@@ -3985,7 +3985,7 @@
     "content_text": "“Building a Single-Page App with htmx” by @jakelazaroff@mastodon.social\n\n🔗 https://jakelazaroff.com/words/building-a-single-page-app-with-htmx/\n\n> It’s a simple proof of concept todo list. Once the page is loaded, there is no additional communication with a server. Everything happens locally on the client.\n> \n> How does that work, given that htmx is focused on managing hypermedia exchanges over the network?\n> \n> With one simple trick: the “server-side” code runs in a service…\n\n#ServiceWorker #htmx\n\n⚓️ https://nicolas-hoizey.com/links/2024/10/07/building-a-single-page-app-with-htmx/",
     "attachments": [
       {
-        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fjakelazaroff.com%2Fwords%2Fbuilding-a-single-page-app-with-htmx%2F/large/_wait:3/20240906/",
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://jakelazaroff.com/words/building-a-single-page-app-with-htmx/",
         "mime_type": "image/png",
         "title": "Screenshot of Building a Single-Page App with htmx"
       }
@@ -4004,7 +4004,7 @@
     "content_text": "“SPAs: theory versus practice” by @nolan@toot.cafe\n\n🔗 https://nolanlawson.com/2022/06/27/spas-theory-versus-practice/\n\n> An expert developer can stand up on a conference stage and show off the amazing scores for their site (perfect performance! perfect accessibility! perfect SEO!), and then an excited conference-goer returns to their team, convinces them to use the same tooling, and two years later they’ve built a monstrosity.\n\n#SPA #MPA #JavaScript\n\n⚓️ https://nicolas-hoizey.com/links/2024/10/18/spas-theory-versus-practice/",
     "attachments": [
       {
-        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fnolanlawson.com%2F2022%2F06%2F27%2Fspas-theory-versus-practice%2F/large/_wait:3/20240906/",
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://nolanlawson.com/2022/06/27/spas-theory-versus-practice/",
         "mime_type": "image/png",
         "title": "Screenshot of SPAs: theory versus practice"
       }
@@ -4023,7 +4023,7 @@
     "content_text": "“HTML for People” by @bw@social.lol\n\n🔗 https://htmlforpeople.com/\n\n> anyone should be able to make a website with HTML if they want. This book will teach you how to do just that. It doesn’t require any previous experience making websites or coding. I will cover everything you need to know to get started in an approachable and friendly way.\n\n#HTML #CSS #tutorial\n\n⚓️ https://nicolas-hoizey.com/links/2024/10/21/html-for-people/",
     "attachments": [
       {
-        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fhtmlforpeople.com%2F/large/_wait:3/20240906/",
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://htmlforpeople.com/",
         "mime_type": "image/png",
         "title": "Screenshot of HTML for People"
       }
@@ -4042,7 +4042,7 @@
     "content_text": "“Web font file size study: a variable font addition” by @stoyan@indieweb.social\n\n🔗 https://www.phpied.com/web-font-file-size-study-a-variable-font-addition/\n\n> The sum is smaller than the parts. A variable font that has both normal and heavy (bold) weight (and also everything in between) is slightly smaller than two regular fonts.\n\n#font #variable #WebPerf\n\n⚓️ https://nicolas-hoizey.com/links/2024/10/29/web-font-file-size-study-a-variable-font-addition/",
     "attachments": [
       {
-        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.phpied.com%2Fweb-font-file-size-study-a-variable-font-addition%2F/large/_wait:3/20240906/",
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.phpied.com/web-font-file-size-study-a-variable-font-addition/",
         "mime_type": "image/png",
         "title": "Screenshot of Web font file size study: a variable font addition"
       }
@@ -4061,7 +4061,7 @@
     "content_text": "“I pierced my fucking nose” by @keenan@social.lol\n\n🔗 https://gkeenan.co/avgb/i-pierced-my-fucking-nose/\n\n> Sometimes things change and your dumb old thoughts need to be buried so you can just move on and be you. Sometimes things that seemed so big and important for so long, aren't, actually. Sometimes it's nice to just reconcile with your past self and say, \"You know what? Get out of the way. I know better now. Also quit being so fucking serious about shit that…\n\n#life #society\n\n⚓️ https://nicolas-hoizey.com/links/2024/10/30/i-pierced-my-fucking-nose/",
     "attachments": [
       {
-        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fgkeenan.co%2Favgb%2Fi-pierced-my-fucking-nose%2F/large/_wait:3/20240906/",
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://gkeenan.co/avgb/i-pierced-my-fucking-nose/",
         "mime_type": "image/png",
         "title": "Screenshot of I pierced my fucking nose"
       }
@@ -4080,7 +4080,7 @@
     "content_text": "“Should masonry be part of CSS grid?” by @shadeed9@front-end.social\n\n🔗 https://ishadeed.com/article/css-grid-masonry/\n\n> An exploration of examples showing masonry as both a part of CSS Grid and as its own display type.\n\nAhmad provides compeling use cases and code examples showing that making masonry layout “just” a specific use case for CSS Grid could be the best choice.\n\nSo… that's not what I thought a month ago… 😅\n\nAnyway, the most important part in…\n\n#CSS #Grid #Masonry\n\n⚓️ https://nicolas-hoizey.com/links/2024/10/31/should-masonry-be-part-of-css-grid/",
     "attachments": [
       {
-        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fishadeed.com%2Farticle%2Fcss-grid-masonry%2F/large/_wait:3/20240906/",
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://ishadeed.com/article/css-grid-masonry/",
         "mime_type": "image/png",
         "title": "Screenshot of Should masonry be part of CSS grid?"
       }
@@ -4099,7 +4099,7 @@
     "content_text": "“Select the last occurrence of an element in the whole document” by @css@front-end.social\n\n🔗 https://css-tip.com/last-element-dom/\n\nOh CSS… 😍\n\n#CSS\n\n⚓️ https://nicolas-hoizey.com/links/2024/10/31/select-the-last-occurrence-of-an-element-in-the-whole-document/",
     "attachments": [
       {
-        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fcss-tip.com%2Flast-element-dom%2F/large/_wait:3/20240906/",
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://css-tip.com/last-element-dom/",
         "mime_type": "image/png",
         "title": "Screenshot of Select the last occurrence of an element in the whole document"
       }
@@ -4118,7 +4118,7 @@
     "content_text": "“Goodbye, Twitter” by @brad_frost@mastodon.social\n\n🔗 https://bradfrost.com/blog/post/goodbye-twitter/\n\n> It’s not lost on me that more than at any other point in history our relationships to each other are sculpted by the whims of a handful of commercial companies. I continue to own my own presence on my own website, and want to do some work to beef up my Indie Web self a bit.\n\n#Twitter #IndieWeb\n\n⚓️ https://nicolas-hoizey.com/links/2024/11/07/goodbye-twitter/",
     "attachments": [
       {
-        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fbradfrost.com%2Fblog%2Fpost%2Fgoodbye-twitter%2F/large/_wait:3/20240906/",
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://bradfrost.com/blog/post/goodbye-twitter/",
         "mime_type": "image/png",
         "title": "Screenshot of Goodbye, Twitter"
       }
@@ -4137,7 +4137,7 @@
     "content_text": "“X Is a White-Supremacist Site” by @cwarzel@sfba.social\n\n🔗 https://www.theatlantic.com/technology/archive/2024/11/x-white-supremacist-site/680538/\n\n> None of this is accidental. The output of a platform tells you what it is designed to do: In X’s case, all of this is proof of a system engineered to give voice to hateful ideas and reward those who espouse them. If one is to judge X by its main exports, then X, as it exists now under Musk, is a white-supremacist website.\n\n#Twitter\n\n⚓️ https://nicolas-hoizey.com/links/2024/11/06/x-is-a-white-supremacist-site/",
     "attachments": [
       {
-        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.theatlantic.com%2Ftechnology%2Farchive%2F2024%2F11%2Fx-white-supremacist-site%2F680538%2F/large/_wait:3/20240906/",
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.theatlantic.com/technology/archive/2024/11/x-white-supremacist-site/680538/",
         "mime_type": "image/png",
         "title": "Screenshot of X Is a White-Supremacist Site"
       }
@@ -4153,7 +4153,7 @@
     "content_text": "“Bluesky and enshittification” by @pluralistic@mamot.fr\n\n🔗 https://pluralistic.net/2024/11/02/ulysses-pact/#tie-yourself-to-a-federated-mast\n\n> I don't know why Bluesky hasn't added the federation systems that would enable freedom of exit to its service. Perhaps there are excellent technical reasons to prioritize rolling out the other systems they've created so far. Frankly, it doesn't matter. So long as Bluesky can be a trap, I won't let myself be tempted. My rule – I don't join a service…\n\n#Bluesky #socialNetwork\n\n⚓️ https://nicolas-hoizey.com/links/2024/11/03/bluesky-and-enshittification/",
     "attachments": [
       {
-        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fpluralistic.net%2F2024%2F11%2F02%2Fulysses-pact%2F%23tie-yourself-to-a-federated-mast/large/_wait:3/20240906/",
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://pluralistic.net/2024/11/02/ulysses-pact/#tie-yourself-to-a-federated-mast",
         "mime_type": "image/png",
         "title": "Screenshot of Bluesky and enshittification"
       }
@@ -4169,7 +4169,7 @@
     "content_text": "“My anti-overlay client letter” by @accudio@mastodon.scot\n\n🔗 https://alistairshepherd.uk/writing/accessibility-overlays-email/\n\n> I despise accessibility overlays, and get really quite upset when they're mentioned in a serious context. Unfortunately, getting increasingly upset and angry doesn't do a very good job of informing clients about why they're often a bad idea and why they shouldn't be trusted.\n\n#accessibility\n\n⚓️ https://nicolas-hoizey.com/links/2024/11/08/my-anti-overlay-client-letter/",
     "attachments": [
       {
-        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Falistairshepherd.uk%2Fwriting%2Faccessibility-overlays-email%2F/large/_wait:3/20240906/",
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://alistairshepherd.uk/writing/accessibility-overlays-email/",
         "mime_type": "image/png",
         "title": "Screenshot of My anti-overlay client letter"
       }
@@ -4188,7 +4188,7 @@
     "content_text": "“Tactile Controls: Why Buttons Are Making a Comeback” by Gwendolyn Rak\n\n🔗 https://spectrum.ieee.org/touchscreens\n\n> When I’m driving, it’s actually unsafe for my car to be operated in that way [with a touchscreen]. It’s hard to generalize and say, buttons are always easy and good, and touchscreens are difficult and bad, or vice versa. Buttons tend to offer you a really limited range of possibilities in terms of what you can do. Maybe that…\n\n#car #screen #UX #accessibility\n\n⚓️ https://nicolas-hoizey.com/links/2024/11/08/tactile-controls-why-buttons-are-making-a-comeback/",
     "attachments": [
       {
-        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fspectrum.ieee.org%2Ftouchscreens/large/_wait:3/20240906/",
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://spectrum.ieee.org/touchscreens",
         "mime_type": "image/png",
         "title": "Screenshot of Tactile Controls: Why Buttons Are Making a Comeback"
       }
@@ -4204,7 +4204,7 @@
     "content_text": "“Why the Guardian is no longer posting on X” by The Guardian\n\n🔗 https://www.theguardian.com/media/2024/nov/13/why-the-guardian-is-no-longer-posting-on-x\n\n> Thankfully, we can do this because our business model does not rely on viral content tailored to the whims of the social media giants’ algorithms – instead we’re funded directly by our readers.\n\n#Twitter #socialNetwork #society\n\n⚓️ https://nicolas-hoizey.com/links/2024/11/13/why-the-guardian-is-no-longer-posting-on-x/",
     "attachments": [
       {
-        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.theguardian.com%2Fmedia%2F2024%2Fnov%2F13%2Fwhy-the-guardian-is-no-longer-posting-on-x/large/_wait:3/20240906/",
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.theguardian.com/media/2024/nov/13/why-the-guardian-is-no-longer-posting-on-x",
         "mime_type": "image/png",
         "title": "Screenshot of Why the Guardian is no longer posting on X"
       }
@@ -4220,9 +4220,44 @@
     "content_text": "“Dump Twitter” by @TimothyNoah@journa.host\n\n🔗 https://newrepublic.com/article/188156/liberals-dump-musk-leave-twitter\n\n> Why is anybody who deplores Trump’s reelection and Musk’s own degradation of public discourse with racism, antisemitism, misogyny, union-busting, endorsements of violence, the spreading of hateful untruths, and all-around vulgarity still playing in Musk’s sandbox? If you hate such things, why do you still maintain an account on Twitter?\n\n#Twitter #society\n\n⚓️ https://nicolas-hoizey.com/links/2024/11/08/dump-twitter/",
     "attachments": [
       {
-        "url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fnewrepublic.com%2Farticle%2F188156%2Fliberals-dump-musk-leave-twitter/large/_wait:3/20240906/",
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://newrepublic.com/article/188156/liberals-dump-musk-leave-twitter",
         "mime_type": "image/png",
         "title": "Screenshot of Dump Twitter"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113555925309747803"
+    ],
+    "lastTootTimestamp": 1732725911265
+  },
+  "https://nicolas-hoizey.com/links/2024/11/26/the-end-of-the-twitter-era/": {
+    "id": "https://nicolas-hoizey.com/links/2024/11/26/the-end-of-the-twitter-era/",
+    "url": "https://nicolas-hoizey.com/links/2024/11/26/the-end-of-the-twitter-era/",
+    "lang": "en",
+    "title": "“The End of The Twitter Era”",
+    "date_published": "2024-11-26T19:05:08Z",
+    "content_text": "“The End of The Twitter Era” by @sandofsky@mastodon.social\n\n🔗 https://www.sandofsky.com/end-of-twitter/\n\n> Bluesky claims to be billionaire proof, which is either hopelessly naive or deliberately smarmy. Claims that their platform is open and decentralized are mostly bullshit.\n\n#Twitter #Mastodon #Bluesky #socialNetwork\n\n⚓️ https://nicolas-hoizey.com/links/2024/11/26/the-end-of-the-twitter-era/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.sandofsky.com/end-of-twitter/",
+        "mime_type": "image/png",
+        "title": "Screenshot of The End of The Twitter Era"
+      }
+    ],
+    "toots": []
+  },
+  "https://nicolas-hoizey.com/links/2024/11/26/google-ios-app-page-annotation/": {
+    "id": "https://nicolas-hoizey.com/links/2024/11/26/google-ios-app-page-annotation/",
+    "url": "https://nicolas-hoizey.com/links/2024/11/26/google-ios-app-page-annotation/",
+    "lang": "en",
+    "title": "“Google iOS App Page Annotation”",
+    "date_published": "2024-11-26T11:03:30Z",
+    "content_text": "“Google iOS App Page Annotation” by @rustybrick@c.im\n\n🔗 https://www.seroundtable.com/google-ios-app-page-annotation-38451.html\n\n> this will lead to people going to your site, then Google injecting links on your site that will lead your website visits to Google Search.\n> \n> Like Google hasn't taken enough away from you... Now Google is taking users who are on your website and taking them to search. They will likely never find their way back to your website again.\n\nWTF Google! 😡\n\n#SEO #Google\n\n⚓️ https://nicolas-hoizey.com/links/2024/11/26/google-ios-app-page-annotation/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.seroundtable.com/google-ios-app-page-annotation-38451.html",
+        "mime_type": "image/png",
+        "title": "Screenshot of Google iOS App Page Annotation"
       }
     ],
     "toots": []
