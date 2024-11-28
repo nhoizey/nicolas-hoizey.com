@@ -4145,7 +4145,10 @@
         "title": "Screenshot of X Is a White-Supremacist Site"
       }
     ],
-    "toots": []
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113560167057003408"
+    ],
+    "lastTootTimestamp": 1732790635106
   },
   "https://nicolas-hoizey.com/links/2024/11/03/bluesky-and-enshittification/": {
     "id": "https://nicolas-hoizey.com/links/2024/11/03/bluesky-and-enshittification/",
