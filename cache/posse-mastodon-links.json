@@ -4284,5 +4284,24 @@
       "https://mamot.fr/users/nhoizey/statuses/113559449929597448"
     ],
     "lastTootTimestamp": 1732779692622
+  },
+  "https://nicolas-hoizey.com/links/2024/11/29/yes-progressive-enhancement-is-a-fucking-moral-argument/": {
+    "id": "https://nicolas-hoizey.com/links/2024/11/29/yes-progressive-enhancement-is-a-fucking-moral-argument/",
+    "url": "https://nicolas-hoizey.com/links/2024/11/29/yes-progressive-enhancement-is-a-fucking-moral-argument/",
+    "lang": "en",
+    "title": "“Yes, progressive enhancement is a fucking moral argument”",
+    "date_published": "2024-11-29T13:45:45Z",
+    "content_text": "“Yes, progressive enhancement is a fucking moral argument” by @awfulwoman@indieweb.social\n\n🔗 https://awfulwoman.com/posts/2016/progressive-enhancement/\n\n> I know that progressive enhancement is harder than just jumping straight in and coding your app in whatever your favourite framework is. But guess what? Being a responsible adult is hard. Caring for others is hard. This fucking world is hard. It’s up to each of us to make it easier for each other.\n> \n> If I ever…\n\n#progressiveEnhancement\n\n⚓️ https://nicolas-hoizey.com/links/2024/11/29/yes-progressive-enhancement-is-a-fucking-moral-argument/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://awfulwoman.com/posts/2016/progressive-enhancement/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Yes, progressive enhancement is a fucking moral argument"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113567247395316447"
+    ],
+    "lastTootTimestamp": 1732898672516
   }
 }
