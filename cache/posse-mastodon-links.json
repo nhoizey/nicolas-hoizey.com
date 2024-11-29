@@ -4089,9 +4089,10 @@
       }
     ],
     "toots": [
-      "https://mamot.fr/users/nhoizey/statuses/113405273787857997"
+      "https://mamot.fr/users/nhoizey/statuses/113405273787857997",
+      "https://mamot.fr/users/nhoizey/statuses/113565113815631620"
     ],
-    "lastTootTimestamp": 1730427151383
+    "lastTootTimestamp": 1732866116661
   },
   "https://nicolas-hoizey.com/links/2024/10/31/select-the-last-occurrence-of-an-element-in-the-whole-document/": {
     "id": "https://nicolas-hoizey.com/links/2024/10/31/select-the-last-occurrence-of-an-element-in-the-whole-document/",
