@@ -4074,9 +4074,10 @@
       }
     ],
     "toots": [
-      "https://mamot.fr/users/nhoizey/statuses/113400903256557491"
+      "https://mamot.fr/users/nhoizey/statuses/113400903256557491",
+      "https://mamot.fr/users/nhoizey/statuses/113571486709926846"
     ],
-    "lastTootTimestamp": 1730360462409
+    "lastTootTimestamp": 1732963359341
   },
   "https://nicolas-hoizey.com/links/2024/10/31/should-masonry-be-part-of-css-grid/": {
     "id": "https://nicolas-hoizey.com/links/2024/10/31/should-masonry-be-part-of-css-grid/",
