@@ -3975,9 +3975,10 @@
       }
     ],
     "toots": [
-      "https://mamot.fr/users/nhoizey/statuses/113270669640887840"
+      "https://mamot.fr/users/nhoizey/statuses/113270669640887840",
+      "https://mamot.fr/users/nhoizey/statuses/113572907157638579"
     ],
-    "lastTootTimestamp": 1728373255114
+    "lastTootTimestamp": 1732985033622
   },
   "https://nicolas-hoizey.com/links/2024/10/07/building-a-single-page-app-with-htmx/": {
     "id": "https://nicolas-hoizey.com/links/2024/10/07/building-a-single-page-app-with-htmx/",
