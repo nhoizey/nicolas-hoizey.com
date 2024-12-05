@@ -4312,5 +4312,24 @@
       "https://mamot.fr/users/nhoizey/statuses/113567247395316447"
     ],
     "lastTootTimestamp": 1732898672516
+  },
+  "https://nicolas-hoizey.com/links/2024/12/05/authors-together/": {
+    "id": "https://nicolas-hoizey.com/links/2024/12/05/authors-together/",
+    "url": "https://nicolas-hoizey.com/links/2024/12/05/authors-together/",
+    "lang": "en",
+    "title": "“Authors Together”",
+    "date_published": "2024-12-05T16:41:54Z",
+    "content_text": "“Authors Together” by A Book Apart authors\n\n🔗 https://authors-together.org/\n\n> In 2024, A Book Apart closed its doors after publishing a much-loved collection of more than 50 brief books for people who make websites. The rights to each book have reverted to the authors — hi, that's us — and we've put together this semi-official directory to help you find our books in their new homes.\n\n#book #ABookApart\n\n⚓️ https://nicolas-hoizey.com/links/2024/12/05/authors-together/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://authors-together.org/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Authors Together"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113601915604583876"
+    ],
+    "lastTootTimestamp": 1733427667417
   }
 }
