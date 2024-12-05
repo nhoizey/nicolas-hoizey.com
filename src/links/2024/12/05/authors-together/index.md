@@ -4,7 +4,7 @@ title: "Authors Together"
 lang: en
 link: https://authors-together.org/
 authors:
-  - ""
+  - "A Book Apart authors"
 tags: [book, A Book Apart]
 ---
 
