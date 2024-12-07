@@ -1,6 +1,6 @@
 ---
 date: 2024-03-01 16:56:03 +01:00
-tags: [ABookApart, book]
+tags: [A Book Apart, book]
 ---
 
 I'm really sad to read that #ABookApart is [ceasing its publishing activity](https://abookapart.com/blogs/press/a-new-chapter-for-a-book-apart), which for almost 15 years has built up a collection of must-have reference books.
