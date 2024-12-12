@@ -4340,5 +4340,24 @@
       "https://mamot.fr/users/nhoizey/statuses/113601915604583876"
     ],
     "lastTootTimestamp": 1733427667417
+  },
+  "https://nicolas-hoizey.com/links/2024/12/12/ethical-web-principles/": {
+    "id": "https://nicolas-hoizey.com/links/2024/12/12/ethical-web-principles/",
+    "url": "https://nicolas-hoizey.com/links/2024/12/12/ethical-web-principles/",
+    "lang": "en",
+    "title": "“Ethical Web Principles”",
+    "date_published": "2024-12-12T09:30:55Z",
+    "content_text": "“Ethical Web Principles” by W3C\n\n🔗 https://www.w3.org/TR/ethical-web-principles/\n\n> The web should be a platform that helps people and provides a positive social benefit. As we continue to evolve the web platform, we must therefore consider the consequences of our work. The following document sets out ethical principles that will drive W3C's continuing work in this direction.\n\n#ethics #Web #W3C\n\n⚓️ https://nicolas-hoizey.com/links/2024/12/12/ethical-web-principles/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.w3.org/TR/ethical-web-principles/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Ethical Web Principles"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113640860811433768"
+    ],
+    "lastTootTimestamp": 1734021924114
   }
 }
