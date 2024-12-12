@@ -5,7 +5,7 @@ lang: en
 link: https://shkspr.mobi/blog/2022/12/the-ethics-of-syndicating-comments-using-webmentions/
 authors:
   - ""
-tags: [IndieWeb, Webmention, privacy]
+tags: [IndieWeb, Webmention, privacy, ethics]
 ---
 
 > This is a complicated problem. I want to see what people are writing in public about my posts. I also want to direct people to the conversations which are happening elsewhere on the web. But people - quite rightly - might not want their content permanently stored by my site.
