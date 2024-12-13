@@ -4,6 +4,8 @@ title: "Ethical Web Principles"
 lang: en
 link: https://www.w3.org/TR/ethical-web-principles/
 authors:
+  - "Daniel Appelquist"
+  - "Hadley Beeman"
   - "W3C"
 tags: [ethics, Web, W3C]
 ---

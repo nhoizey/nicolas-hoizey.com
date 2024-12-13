@@ -255,6 +255,10 @@
   "Cory Rylan": {
     "site": "https://coryrylan.com/"
   },
+  "Daniel Appelquist": {
+    "mastodon": "@torgo@mastodon.social",
+    "site": "https://torgo.com/"
+  },
   "Daniel Miessler": {
     "twitter": "danielmiessler",
     "site": "https://danielmiessler.com/"
@@ -366,6 +370,9 @@
   },
   "Grant Gross": {
     "site": "https://www.grantgross.com/"
+  },
+  "Hadley Beeman": {
+    "mastodon": "@hadleybeeman@w3c.social"
   },
   "HTTP Archive": {
     "twitter": "HTTPArchive",
@@ -1096,6 +1103,10 @@
   "Vincent De Oliveira": {
     "twitter": "iamvdo",
     "site": "https://iamvdo.me/"
+  },
+  "W3C": {
+    "site": "https://www.w3.org/",
+    "mastodon": "@w3c@w3c.social"
   },
   "Xiao Zhuo Jia": {
     "twitter": "XiaoZhuoJia",
