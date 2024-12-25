@@ -4381,5 +4381,24 @@
       "https://mamot.fr/users/nhoizey/statuses/113695343006109205"
     ],
     "lastTootTimestamp": 1734853256499
+  },
+  "https://nicolas-hoizey.com/links/2024/12/25/lens-meta-tag-checker-robb-s-version/": {
+    "id": "https://nicolas-hoizey.com/links/2024/12/25/lens-meta-tag-checker-robb-s-version/",
+    "url": "https://nicolas-hoizey.com/links/2024/12/25/lens-meta-tag-checker-robb-s-version/",
+    "lang": "en",
+    "title": "“Lens: Meta Tag Checker (Robb&#39;s Version)”",
+    "date_published": "2024-12-25T21:43:43Z",
+    "content_text": "“Lens: Meta Tag Checker (Robb's Version)” by @robb@social.lol\n\n🔗 https://rknight.me/blog/lens-meta-tag-checker-robbs-version/\n\n> There are a few ways people like to check the meta tags on their sites. […] as the old developer saying goes, none of them did exactly what I wanted so I built my own.\n\n#SEO\n\n⚓️ https://nicolas-hoizey.com/links/2024/12/25/lens-meta-tag-checker-robb-s-version/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://rknight.me/blog/lens-meta-tag-checker-robbs-version/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Lens: Meta Tag Checker (Robb&#39;s Version)"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113715869427851371"
+    ],
+    "lastTootTimestamp": 1735166464765
   }
 }
