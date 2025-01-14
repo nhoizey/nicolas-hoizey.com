@@ -4401,5 +4401,24 @@
       "https://mamot.fr/users/nhoizey/statuses/113764003814718688"
     ],
     "lastTootTimestamp": 1735900937210
+  },
+  "https://nicolas-hoizey.com/links/2025/01/14/mattrbld/": {
+    "id": "https://nicolas-hoizey.com/links/2025/01/14/mattrbld/",
+    "url": "https://nicolas-hoizey.com/links/2025/01/14/mattrbld/",
+    "lang": "en",
+    "title": "“Mattrbld”",
+    "date_published": "2025-01-14T09:15:36Z",
+    "content_text": "“Mattrbld” by @mattrbld@indieapps.space and @amxmln@mastodon.design\n\n🔗 https://mattrbld.com/\n\n> Mattrbld is a headless content management system for teams and individuals who don’t want to be locked into a specific platform or framework. It offers a fast and flexible way to create, edit and manage content while giving developers complete control over the shape of the data, so they are free to use any frontend technologies they…\n\n#CMS #Markdown #JAMstack\n\n⚓️ https://nicolas-hoizey.com/links/2025/01/14/mattrbld/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://mattrbld.com/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Mattrbld"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113826287841929385"
+    ],
+    "lastTootTimestamp": 1736851316077
   }
 }
