@@ -54,6 +54,10 @@
     "twitter": "accudio",
     "site": "https://alistairshepherd.uk/"
   },
+  "Amadeus Maximilan": {
+    "site": "https://amxmln.com/",
+    "mastodon": "@amxmln@mastodon.design"
+  },
   "Amelia Wattenberger": {
     "twitter": "wattenberger",
     "site": "https://wattenberger.com/"
@@ -710,6 +714,10 @@
     "twitter": "m_ott",
     "mastodon": "@matthiasott@mastodon.social",
     "site": "https://matthiasott.com/"
+  },
+  "Mattrbld": {
+    "site": "https://mattrbld.com/",
+    "mastodon": "@mattrbld@indieapps.space"
   },
   "Max Böck": {
     "twitter": "mxbck",
