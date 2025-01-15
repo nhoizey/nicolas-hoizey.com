@@ -4420,5 +4420,24 @@
       "https://mamot.fr/users/nhoizey/statuses/113826287841929385"
     ],
     "lastTootTimestamp": 1736851316077
+  },
+  "https://nicolas-hoizey.com/links/2025/01/15/stop-human-approval-in-pull-requests-a-case-for-better-collaboration/": {
+    "id": "https://nicolas-hoizey.com/links/2025/01/15/stop-human-approval-in-pull-requests-a-case-for-better-collaboration/",
+    "url": "https://nicolas-hoizey.com/links/2025/01/15/stop-human-approval-in-pull-requests-a-case-for-better-collaboration/",
+    "lang": "en",
+    "title": "“Stop Human Approval in Pull Requests: A case for better collaboration”",
+    "date_published": "2025-01-15T09:35:54Z",
+    "content_text": "“Stop Human Approval in Pull Requests: A case for better collaboration” by @yvg@indieweb.social\n\n🔗 https://yves.vg/blog/stop-human-approval-in-pull-requests-for-better-collaboration.html\n\n> Human approval in PRs delays delivery, does not ensure quality, creates friction, diminishes ownership, and leads to enormous context switching.\n> \n> Automation and a culture of real-time collaboration, in which everyone assumes best intentions, can replace the need for human approval in its…\n\n#Git #collaboration #development\n\n⚓️ https://nicolas-hoizey.com/links/2025/01/15/stop-human-approval-in-pull-requests-a-case-for-better-collaboration/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://yves.vg/blog/stop-human-approval-in-pull-requests-for-better-collaboration.html",
+        "mime_type": "image/png",
+        "title": "Screenshot of Stop Human Approval in Pull Requests: A case for better collaboration"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113831949975264093"
+    ],
+    "lastTootTimestamp": 1736937713342
   }
 }
