@@ -4458,5 +4458,24 @@
       "https://mamot.fr/users/nhoizey/statuses/113843275141905851"
     ],
     "lastTootTimestamp": 1737110521723
+  },
+  "https://nicolas-hoizey.com/links/2025/01/20/the-issue-with-ai/": {
+    "id": "https://nicolas-hoizey.com/links/2025/01/20/the-issue-with-ai/",
+    "url": "https://nicolas-hoizey.com/links/2025/01/20/the-issue-with-ai/",
+    "lang": "en",
+    "title": "“The issue with AI”",
+    "date_published": "2025-01-20T14:46:45Z",
+    "content_text": "“The issue with AI” by @nitot@framapiaf.org\n\n🔗 https://www.standblog.org/blog/post/2025/01/16/The-issue-with-AI\n\n> Accelerating AI may sound exciting but it’s also is accelerating destruction of life. Which is very annoying as I’m very impressed by AI, like many people!\n\n#AI #society\n\n⚓️ https://nicolas-hoizey.com/links/2025/01/20/the-issue-with-ai/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.standblog.org/blog/post/2025/01/16/The-issue-with-AI",
+        "mime_type": "image/png",
+        "title": "Screenshot of The issue with AI"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/113861681173473066"
+    ],
+    "lastTootTimestamp": 1737391375434
   }
 }
