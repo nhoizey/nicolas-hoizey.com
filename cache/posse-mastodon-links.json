@@ -4417,9 +4417,10 @@
       }
     ],
     "toots": [
-      "https://mamot.fr/users/nhoizey/statuses/113826287841929385"
+      "https://mamot.fr/users/nhoizey/statuses/113826287841929385",
+      "https://mamot.fr/users/nhoizey/statuses/113875215029466133"
     ],
-    "lastTootTimestamp": 1736851316077
+    "lastTootTimestamp": 1737597885680
   },
   "https://nicolas-hoizey.com/links/2025/01/15/stop-human-approval-in-pull-requests-a-case-for-better-collaboration/": {
     "id": "https://nicolas-hoizey.com/links/2025/01/15/stop-human-approval-in-pull-requests-a-case-for-better-collaboration/",
