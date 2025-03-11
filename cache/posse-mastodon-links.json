@@ -4481,5 +4481,24 @@
       "https://mamot.fr/users/nhoizey/statuses/113910511132747532"
     ],
     "lastTootTimestamp": 1738136461570
+  },
+  "https://nicolas-hoizey.com/links/2025/03/11/why-extracting-data-from-pdfs-is-still-a-nightmare-for-data-experts/": {
+    "id": "https://nicolas-hoizey.com/links/2025/03/11/why-extracting-data-from-pdfs-is-still-a-nightmare-for-data-experts/",
+    "url": "https://nicolas-hoizey.com/links/2025/03/11/why-extracting-data-from-pdfs-is-still-a-nightmare-for-data-experts/",
+    "lang": "en",
+    "title": "“Why extracting data from PDFs is still a nightmare for data experts”",
+    "date_published": "2025-03-11T14:19:58Z",
+    "content_text": "“Why extracting data from PDFs is still a nightmare for data experts” by Benj Edwards\n\n🔗 https://arstechnica.com/ai/2025/03/why-extracting-data-from-pdfs-is-still-a-nightmare-for-data-experts/\n\n> Despite their promise, LLMs introduce several new problems to document processing. Among them, they can introduce confabulations or hallucinations (plausible-sounding but incorrect information), accidentally follow instructions in the text (thinking they are part of a user prompt), or just generally misinterpret the data.\n\n#AI #OCR #LLM #PDF\n\n⚓️ https://nicolas-hoizey.com/links/2025/03/11/why-extracting-data-from-pdfs-is-still-a-nightmare-for-data-experts/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://arstechnica.com/ai/2025/03/why-extracting-data-from-pdfs-is-still-a-nightmare-for-data-experts/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Why extracting data from PDFs is still a nightmare for data experts"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/114144804561211782"
+    ],
+    "lastTootTimestamp": 1741711495470
   }
 }
