@@ -1578,5 +1578,18 @@
       "https://mamot.fr/users/nhoizey/statuses/113375483911665761"
     ],
     "lastTootTimestamp": 1729972594007
+  },
+  "https://nicolas-hoizey.com/notes/2025/03/14/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2025/03/14/1/",
+    "url": "https://nicolas-hoizey.com/notes/2025/03/14/1/",
+    "lang": "en",
+    "title": "💬 Note from 14 March 2025, 13:28",
+    "date_published": "2025-03-14T12:28:33Z",
+    "content_text": "Having fun with Google Calendar events and #Obsidian meeting notes:\n\nAutomation:\n- Sync in Apple Calendar\n- Apple Shortcuts to export today's events (1 ICS file per event 🤷‍♂️)\n- Node script to merge events in one single ICS file\n- Apache server to make ICS file available to HTTP clients\n\nIn Obsidian:\n- “New note” in relevant folder\n- Templater plugin choses the right template\n- Templater script uses ICS plugin to get events, select the current…\n\n\n\n⚓️ https://nicolas-hoizey.com/notes/2025/03/14/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/114160870449024594"
+    ],
+    "lastTootTimestamp": 1741956641502
   }
 }
