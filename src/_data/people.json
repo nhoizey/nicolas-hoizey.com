@@ -284,6 +284,10 @@
     "site": "https://daverupert.com/",
     "mastodon": "@davatron5000@mastodon.social"
   },
+  "Dave Stewart": {
+    "site": "https://davestewart.co.uk/",
+    "mastodon": "@davestewart@fosstodon.org"
+  },
   "Dave Winer": {
     "site": "http://davewiner.com/",
     "mastodon": "@davew@mastodon.social"
