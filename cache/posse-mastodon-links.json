@@ -4500,5 +4500,24 @@
       "https://mamot.fr/users/nhoizey/statuses/114144804561211782"
     ],
     "lastTootTimestamp": 1741711495470
+  },
+  "https://nicolas-hoizey.com/links/2025/03/14/the-work-is-never-just-the-work/": {
+    "id": "https://nicolas-hoizey.com/links/2025/03/14/the-work-is-never-just-the-work/",
+    "url": "https://nicolas-hoizey.com/links/2025/03/14/the-work-is-never-just-the-work/",
+    "lang": "en",
+    "title": "“The work is never just “the work””",
+    "date_published": "2025-03-14T16:10:39Z",
+    "content_text": "“The work is never just “the work”” by @davestewart@fosstodon.org\n\n🔗 https://davestewart.co.uk/blog/the-work-is-never-just-the-work/\n\n> Without a proper audit it is impossible to properly quantify how long work takes over the longer term, but given the breakdowns above “double it and double it again” doesn’t seem so farfetched; at the very least it makes a good first marker to sanity-check your next estimation, be it a sprint or a project.\n\n#project\n\n⚓️ https://nicolas-hoizey.com/links/2025/03/14/the-work-is-never-just-the-work/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://davestewart.co.uk/blog/the-work-is-never-just-the-work/",
+        "mime_type": "image/png",
+        "title": "Screenshot of The work is never just “the work”"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/114161787253604843"
+    ],
+    "lastTootTimestamp": 1741970630801
   }
 }
