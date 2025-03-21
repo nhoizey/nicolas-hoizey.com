@@ -4520,5 +4520,24 @@
       "https://mamot.fr/users/nhoizey/statuses/114161787253604843"
     ],
     "lastTootTimestamp": 1741970630801
+  },
+  "https://nicolas-hoizey.com/links/2025/03/20/reimagining-fluid-typography/": {
+    "id": "https://nicolas-hoizey.com/links/2025/03/20/reimagining-fluid-typography/",
+    "url": "https://nicolas-hoizey.com/links/2025/03/20/reimagining-fluid-typography/",
+    "lang": "en",
+    "title": "“Reimagining Fluid Typography”",
+    "date_published": "2025-03-20T12:45:18Z",
+    "content_text": "“Reimagining Fluid Typography” by @mia@front-end.social\n\n🔗 https://www.oddbird.net/2025/02/12/fluid-type/\n\n> Never do pixel math with `em` and `rem` units. That’s where we went wrong, by assuming that `16px == 1em` is a reliable fact.\n\nIt reminds me a lot of what I was pretty vocal about a few years ago, including “People don't change the default 16px font size in their browser (You wish!)” and “Users DO change font size”.\n\nBut I don't understand how this code…\n\n#font #CSS #em\n\n⚓️ https://nicolas-hoizey.com/links/2025/03/20/reimagining-fluid-typography/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.oddbird.net/2025/02/12/fluid-type/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Reimagining Fluid Typography"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/114201915454600379"
+    ],
+    "lastTootTimestamp": 1742582938644
   }
 }
