@@ -4560,5 +4560,24 @@
       "https://mamot.fr/users/nhoizey/statuses/114263002855668015"
     ],
     "lastTootTimestamp": 1743515058342
+  },
+  "https://nicolas-hoizey.com/links/2025/04/01/defending-tailwind/": {
+    "id": "https://nicolas-hoizey.com/links/2025/04/01/defending-tailwind/",
+    "url": "https://nicolas-hoizey.com/links/2025/04/01/defending-tailwind/",
+    "lang": "en",
+    "title": "“Defending Tailwind”",
+    "date_published": "2025-04-01T14:58:31Z",
+    "content_text": "“Defending Tailwind” by @donniedamato@mastodon.social\n\n🔗 https://blog.damato.design/posts/defending-tailwind/\n\n> The fact is folks who use Tailwind aren’t thinking about responsibility and scale in this way. They are thinking how can I push this out as fast as possible. And Tailwind is great for that. Educating on best practices is always hard. In the year 2025, I still see people struggling with responsive design techniques.\n\n#CSS #Tailwind\n\n⚓️ https://nicolas-hoizey.com/links/2025/04/01/defending-tailwind/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://blog.damato.design/posts/defending-tailwind/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Defending Tailwind"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/114263714315110317"
+    ],
+    "lastTootTimestamp": 1743525914365
   }
 }
