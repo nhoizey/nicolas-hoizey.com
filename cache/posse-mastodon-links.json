@@ -4541,5 +4541,24 @@
       "https://mamot.fr/users/nhoizey/statuses/114250249292193955"
     ],
     "lastTootTimestamp": 1743320454383
+  },
+  "https://nicolas-hoizey.com/links/2025/04/01/item-flow-part-1-a-new-unified-concept-for-layout/": {
+    "id": "https://nicolas-hoizey.com/links/2025/04/01/item-flow-part-1-a-new-unified-concept-for-layout/",
+    "url": "https://nicolas-hoizey.com/links/2025/04/01/item-flow-part-1-a-new-unified-concept-for-layout/",
+    "lang": "en",
+    "title": "“Item Flow, Part 1: A new unified concept for layout”",
+    "date_published": "2025-04-01T12:21:33Z",
+    "content_text": "“Item Flow, Part 1: A new unified concept for layout” by @jensimmons@front-end.social, Saron Yitbarek, Elika Etemad and Brandon Stewart\n\n🔗 https://webkit.org/blog/16587/item-flow-part-1-a-new-unified-concept-for-layout/\n\n> As we worked through the details, we started to get excited. Suddenly new features for Flexbox and Grid that people have wanted for years had an obvious home. Things seemed to click together elegantly. New capabilities emerged\n\nThis is really an exciting…\n\n#CSS #Masonry #Grid #Flexbox\n\n⚓️ https://nicolas-hoizey.com/links/2025/04/01/item-flow-part-1-a-new-unified-concept-for-layout/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://webkit.org/blog/16587/item-flow-part-1-a-new-unified-concept-for-layout/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Item Flow, Part 1: A new unified concept for layout"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/114263002855668015"
+    ],
+    "lastTootTimestamp": 1743515058342
   }
 }
