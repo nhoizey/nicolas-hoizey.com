@@ -4579,5 +4579,24 @@
       "https://mamot.fr/users/nhoizey/statuses/114263714315110317"
     ],
     "lastTootTimestamp": 1743525914365
+  },
+  "https://nicolas-hoizey.com/links/2025/04/08/css-custom-properties-vs-sass-variables-a-pragmatic-guide/": {
+    "id": "https://nicolas-hoizey.com/links/2025/04/08/css-custom-properties-vs-sass-variables-a-pragmatic-guide/",
+    "url": "https://nicolas-hoizey.com/links/2025/04/08/css-custom-properties-vs-sass-variables-a-pragmatic-guide/",
+    "lang": "en",
+    "title": "“CSS Custom Properties vs. Sass Variables: A Pragmatic Guide”",
+    "date_published": "2025-04-08T12:27:32Z",
+    "content_text": "“CSS Custom Properties vs. Sass Variables: A Pragmatic Guide” by @sturobson@front-end.social\n\n🔗 https://www.alwaystwisted.com/articles/css-vs-sass\n\n> The interplay between Sass variables and CSS custom properties should be a strategic partnership. Over nearly a decade of evolving web practices, one truth persists: robust systems balance rigidity with adaptability. Sass anchors the immutable, CSS custom properties breathe life into any required fluidity.\n\n#CSS #Sass #customProperties\n\n⚓️ https://nicolas-hoizey.com/links/2025/04/08/css-custom-properties-vs-sass-variables-a-pragmatic-guide/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.alwaystwisted.com/articles/css-vs-sass",
+        "mime_type": "image/png",
+        "title": "Screenshot of CSS Custom Properties vs. Sass Variables: A Pragmatic Guide"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/114302637962652523"
+    ],
+    "lastTootTimestamp": 1744119842070
   }
 }
