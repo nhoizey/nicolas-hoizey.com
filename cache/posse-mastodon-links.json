@@ -4577,9 +4577,10 @@
       }
     ],
     "toots": [
-      "https://mamot.fr/users/nhoizey/statuses/114263714315110317"
+      "https://mamot.fr/users/nhoizey/statuses/114263714315110317",
+      "https://mamot.fr/users/nhoizey/statuses/114312540828009638"
     ],
-    "lastTootTimestamp": 1743525914365
+    "lastTootTimestamp": 1744270947806
   },
   "https://nicolas-hoizey.com/links/2025/04/08/css-custom-properties-vs-sass-variables-a-pragmatic-guide/": {
     "id": "https://nicolas-hoizey.com/links/2025/04/08/css-custom-properties-vs-sass-variables-a-pragmatic-guide/",
