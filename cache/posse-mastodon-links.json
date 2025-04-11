@@ -4619,5 +4619,24 @@
       "https://mamot.fr/users/nhoizey/statuses/114318914101573813"
     ],
     "lastTootTimestamp": 1744368196224
+  },
+  "https://nicolas-hoizey.com/links/2025/04/11/googler-ex-googler/": {
+    "id": "https://nicolas-hoizey.com/links/2025/04/11/googler-ex-googler/",
+    "url": "https://nicolas-hoizey.com/links/2025/04/11/googler-ex-googler/",
+    "lang": "en",
+    "title": "“G̶o̶o̶g̶l̶e̶r̶… ex-Googler.”",
+    "date_published": "2025-04-11T20:11:20Z",
+    "content_text": "“G̶o̶o̶g̶l̶e̶r̶… ex-Googler.” by @argyleink@front-end.social\n\n🔗 https://nerdy.dev/ex-googler\n\n> Last night, my role at Google was eliminated. I'm quite sick to my stomach, extremely sad, and even more angry.\n\nThe way Google handled Adam's firing is really awful. 😡\n\n#Google\n\n⚓️ https://nicolas-hoizey.com/links/2025/04/11/googler-ex-googler/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://nerdy.dev/ex-googler",
+        "mime_type": "image/png",
+        "title": "Screenshot of G̶o̶o̶g̶l̶e̶r̶… ex-Googler."
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/114321745131837710"
+    ],
+    "lastTootTimestamp": 1744411394350
   }
 }
