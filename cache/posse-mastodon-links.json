@@ -4600,5 +4600,24 @@
       "https://mamot.fr/users/nhoizey/statuses/114302637962652523"
     ],
     "lastTootTimestamp": 1744119842070
+  },
+  "https://nicolas-hoizey.com/links/2025/04/11/tailwind-s-apply-feature-is-better-than-it-sounds/": {
+    "id": "https://nicolas-hoizey.com/links/2025/04/11/tailwind-s-apply-feature-is-better-than-it-sounds/",
+    "url": "https://nicolas-hoizey.com/links/2025/04/11/tailwind-s-apply-feature-is-better-than-it-sounds/",
+    "lang": "en",
+    "title": "“Tailwind&#39;s @apply Feature is Better Than it Sounds”",
+    "date_published": "2025-04-11T07:45:28Z",
+    "content_text": "“Tailwind's @apply Feature is Better Than it Sounds” by Zell Liew\n\n🔗 https://css-tricks.com/tailwinds-apply-feature-is-better-than-it-sounds/\n\n> Tailwind’s utilities are very powerful by themselves, but they’re even more powerful if you allow yourself to use `@apply` (and allow yourself to detach from traditional Tailwind advice). By doing this, you gain access to Tailwind as a tool instead of it being a dogmatic approach.\n\n#CSS #Sass #Tailwind\n\n⚓️ https://nicolas-hoizey.com/links/2025/04/11/tailwind-s-apply-feature-is-better-than-it-sounds/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://css-tricks.com/tailwinds-apply-feature-is-better-than-it-sounds/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Tailwind&#39;s @apply Feature is Better Than it Sounds"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/114318914101573813"
+    ],
+    "lastTootTimestamp": 1744368196224
   }
 }
