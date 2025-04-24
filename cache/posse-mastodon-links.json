@@ -4641,5 +4641,40 @@
       "https://mamot.fr/users/nhoizey/statuses/114369875350072274"
     ],
     "lastTootTimestamp": 1745145803201
+  },
+  "https://nicolas-hoizey.com/links/2025/04/24/optical-size-tweaking-for-dark-mode/": {
+    "id": "https://nicolas-hoizey.com/links/2025/04/24/optical-size-tweaking-for-dark-mode/",
+    "url": "https://nicolas-hoizey.com/links/2025/04/24/optical-size-tweaking-for-dark-mode/",
+    "lang": "en",
+    "title": "“Optical Size tweaking for dark mode”",
+    "date_published": "2025-04-24T08:43:28Z",
+    "content_text": "“Optical Size tweaking for dark mode” by @markboulton@typo.social\n\n🔗 https://markboulton.co.uk/journal/optical-sizing-for-dark-mode/\n\n> Most type considerations for dark mode are exclusively colour. Changing the foreground and background on a toggle or by the user’s OS preferences. But, it shouldn’t stop there. Typographic considerations for dark mode should extend to line height and spacing, font weight, and finally, optical size.\n> \n> Light type on a dark background on a…\n\n#font #darkMode\n\n⚓️ https://nicolas-hoizey.com/links/2025/04/24/optical-size-tweaking-for-dark-mode/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://markboulton.co.uk/journal/optical-sizing-for-dark-mode/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Optical Size tweaking for dark mode"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/114392520610010661"
+    ],
+    "lastTootTimestamp": 1745491342414
+  },
+  "https://nicolas-hoizey.com/links/2025/04/24/ikea-s-web-fonts/": {
+    "id": "https://nicolas-hoizey.com/links/2025/04/24/ikea-s-web-fonts/",
+    "url": "https://nicolas-hoizey.com/links/2025/04/24/ikea-s-web-fonts/",
+    "lang": "en",
+    "title": "“IKEA’s web fonts”",
+    "date_published": "2025-04-24T08:35:20Z",
+    "content_text": "“IKEA’s web fonts” by @robinwhittleton@front-end.social\n\n🔗 https://www.robinwhittleton.com/2025/04/23/ikea-web-fonts/\n\n> The font project is owned by the design system team at IKEA, but working with fonts is quite a specialist skill and we wanted to cast a wide net, so from the start it has been an innerSource project that anyone internally can contribute to.\n\nExcellent article on how IKEA had to create their own font for certain characters, and how they made it available to…\n\n#font #IKEA\n\n⚓️ https://nicolas-hoizey.com/links/2025/04/24/ikea-s-web-fonts/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.robinwhittleton.com/2025/04/23/ikea-web-fonts/",
+        "mime_type": "image/png",
+        "title": "Screenshot of IKEA’s web fonts"
+      }
+    ],
+    "toots": []
   }
 }
