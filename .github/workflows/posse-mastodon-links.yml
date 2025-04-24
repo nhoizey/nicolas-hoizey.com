@@ -1,8 +1,9 @@
 name: '🔗 → 🐘 POSSE links to Mastodon'
 on:
   schedule:
-    # https://crontab.guru/#37_1/3_*_*_*
-    - cron: '37 1/3 * * *'
+    # https://crontab.guru/#37_7/3_*_*_*
+    # At minute 37 past every 3rd hour from 9 through 23. (GMT+2)
+    - cron: '37 7/3 * * *'
   workflow_dispatch:
 
 env:

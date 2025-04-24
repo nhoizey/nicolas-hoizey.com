@@ -1,8 +1,9 @@
 name: '🖋 → 🐘 POSSE articles to Mastodon'
 on:
   schedule:
-    # https://crontab.guru/#13/37_*_*_*_*
-    - cron: '13/37 * * * *'
+    # https://crontab.guru/#53_6/4_*_*_*
+    # At minute 53 past every 4th hour from 8 through 23. (GMT+2)
+    - cron: '53 6/4 * * *'
   workflow_dispatch:
 
 env:

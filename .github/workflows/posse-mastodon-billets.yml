@@ -1,8 +1,9 @@
 name: '📓 → 🐘 POSSE billets to Mastodon'
 on:
   # schedule:
-  # https://crontab.guru/#9/37_*_*_*_*
-  # - cron: "9/37 * * * *"
+  # https://crontab.guru/#18_7/3_*_*_*
+  # At minute 18 past every 3rd hour from 9 through 23. (GMT+2)
+  # - cron: "18 7/3 * * *"
   workflow_dispatch:
 
 env:
