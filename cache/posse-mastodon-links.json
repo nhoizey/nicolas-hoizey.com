@@ -4679,5 +4679,24 @@
       "https://mamot.fr/users/nhoizey/statuses/114393233248747232"
     ],
     "lastTootTimestamp": 1745502216410
+  },
+  "https://nicolas-hoizey.com/links/2025/04/25/synology-for-photographers/": {
+    "id": "https://nicolas-hoizey.com/links/2025/04/25/synology-for-photographers/",
+    "url": "https://nicolas-hoizey.com/links/2025/04/25/synology-for-photographers/",
+    "lang": "en",
+    "title": "“Synology for Photographers”",
+    "date_published": "2025-04-25T10:40:00Z",
+    "content_text": "“Synology for Photographers” by Will Yarborough\n\n🔗 https://www.youtube.com/playlist?list=PLYl5sY0sL98ifl2M-TM7KMmH438ROmlZh\n\n> This is a series [of video tutorials] designed to get photographers up and running using Synology NAS! Starting with locally editing files and going all the way to remote editing...\n\n#photography #NAS #Synology #Lightroom\n\n⚓️ https://nicolas-hoizey.com/links/2025/04/25/synology-for-photographers/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://img.youtube.com/vi/https://www.youtube.com/playlist?list=PLYl5sY0sL98ifl2M-TM7KMmH438ROmlZh/maxresdefault.jpg",
+        "mime_type": "image/jpeg",
+        "title": "Thumbnail of YouTube video Synology for Photographers"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/114398889385951667"
+    ],
+    "lastTootTimestamp": 1745588522210
   }
 }
