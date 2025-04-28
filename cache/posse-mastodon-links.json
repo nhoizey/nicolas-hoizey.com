@@ -4698,5 +4698,24 @@
       "https://mamot.fr/users/nhoizey/statuses/114398889385951667"
     ],
     "lastTootTimestamp": 1745588522210
+  },
+  "https://nicolas-hoizey.com/links/2025/04/28/don-t-let-your-voice-be-flattened-by-the-uber-theme/": {
+    "id": "https://nicolas-hoizey.com/links/2025/04/28/don-t-let-your-voice-be-flattened-by-the-uber-theme/",
+    "url": "https://nicolas-hoizey.com/links/2025/04/28/don-t-let-your-voice-be-flattened-by-the-uber-theme/",
+    "lang": "en",
+    "title": "“Don&#39;t let your voice be flattened by the über theme”",
+    "date_published": "2025-04-28T15:17:31Z",
+    "content_text": "“Don't let your voice be flattened by the über theme” by @davatron5000@mastodon.social\n\n🔗 https://daverupert.com/2025/04/ubertheme/\n\n> consider for a moment that I can’t tell you the last Medium post I’ve read because they’re all the same to me. […] I can’t tell you a single person who writes on Medium.\n\n#blog #Medium\n\n⚓️ https://nicolas-hoizey.com/links/2025/04/28/don-t-let-your-voice-be-flattened-by-the-uber-theme/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://daverupert.com/2025/04/ubertheme/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Don&#39;t let your voice be flattened by the über theme"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/114416587719509406"
+    ],
+    "lastTootTimestamp": 1745858577374
   }
 }
