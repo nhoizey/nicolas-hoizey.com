@@ -4717,5 +4717,24 @@
       "https://mamot.fr/users/nhoizey/statuses/114416587719509406"
     ],
     "lastTootTimestamp": 1745858577374
+  },
+  "https://nicolas-hoizey.com/links/2025/04/29/people-can-change/": {
+    "id": "https://nicolas-hoizey.com/links/2025/04/29/people-can-change/",
+    "url": "https://nicolas-hoizey.com/links/2025/04/29/people-can-change/",
+    "lang": "en",
+    "title": "“People can change”",
+    "date_published": "2025-04-29T10:41:41Z",
+    "content_text": "“People can change” by @annie@social.lol\n\n🔗 https://anniemueller.com/posts/people-can-change\n\n> It is right to ask ourselves to change, too. There are a few things in my life, in my heart, that are non-negotiable. The rest is up for discussion. It is good to require ourselves to be humble and curious and willing to learn. It is good to say things like I don’t know. I was wrong. I’m sorry. I’m learning. I could have done better. I will do better.\n\n#society\n\n⚓️ https://nicolas-hoizey.com/links/2025/04/29/people-can-change/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://anniemueller.com/posts/people-can-change",
+        "mime_type": "image/png",
+        "title": "Screenshot of People can change"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/114421554323400144"
+    ],
+    "lastTootTimestamp": 1745934361809
   }
 }
