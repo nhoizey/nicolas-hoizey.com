@@ -4739,5 +4739,24 @@
       "https://mamot.fr/users/nhoizey/statuses/114421554323400144"
     ],
     "lastTootTimestamp": 1745934361809
+  },
+  "https://nicolas-hoizey.com/links/2025/05/07/view-transitions-break-incremental-rendering/": {
+    "id": "https://nicolas-hoizey.com/links/2025/05/07/view-transitions-break-incremental-rendering/",
+    "url": "https://nicolas-hoizey.com/links/2025/05/07/view-transitions-break-incremental-rendering/",
+    "lang": "en",
+    "title": "“View Transitions Break Incremental Rendering”",
+    "date_published": "2025-05-07T07:20:47Z",
+    "content_text": "“View Transitions Break Incremental Rendering” by @eeeps@front-end.social\n\n🔗 https://ericportis.com/posts/2023/view-transitions-break-incremental-rendering/\n\n> Instead of showing users that this thing is the same as that thing, we’ve told them, perhaps with extra motion/panache, that even though these the two things might seem the same, they are in fact distinct. It’s like shaking your head “no” while telling someone “yes”.\n\n#ViewTransitions #WebPerf\n\n⚓️ https://nicolas-hoizey.com/links/2025/05/07/view-transitions-break-incremental-rendering/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://ericportis.com/posts/2023/view-transitions-break-incremental-rendering/",
+        "mime_type": "image/png",
+        "title": "Screenshot of View Transitions Break Incremental Rendering"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/114465414607002926"
+    ],
+    "lastTootTimestamp": 1746603616537
   }
 }
