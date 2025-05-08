@@ -4737,9 +4737,10 @@
       }
     ],
     "toots": [
-      "https://mamot.fr/users/nhoizey/statuses/114421554323400144"
+      "https://mamot.fr/users/nhoizey/statuses/114421554323400144",
+      "https://mamot.fr/users/nhoizey/statuses/114471077838964204"
     ],
-    "lastTootTimestamp": 1745934361809
+    "lastTootTimestamp": 1746690030582
   },
   "https://nicolas-hoizey.com/links/2025/05/07/view-transitions-break-incremental-rendering/": {
     "id": "https://nicolas-hoizey.com/links/2025/05/07/view-transitions-break-incremental-rendering/",
