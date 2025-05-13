@@ -4760,5 +4760,40 @@
       "https://mamot.fr/users/nhoizey/statuses/114465414607002926"
     ],
     "lastTootTimestamp": 1746603616537
+  },
+  "https://nicolas-hoizey.com/links/2025/05/13/bias-in-design-systems/": {
+    "id": "https://nicolas-hoizey.com/links/2025/05/13/bias-in-design-systems/",
+    "url": "https://nicolas-hoizey.com/links/2025/05/13/bias-in-design-systems/",
+    "lang": "en",
+    "title": "“Bias in Design Systems”",
+    "date_published": "2025-05-13T16:12:38Z",
+    "content_text": "“Bias in Design Systems” by @bencallahan@mastodon.social\n\n🔗 https://bencallahan.com/bias-in-design-systems\n\n> Your design system is an idea. Every asset you build will require compromise of some kind. […] You have to think of your design system as a concept that is made tangible through the assets and tooling your org needs at a given moment in time. But those tools and frameworks come and go. Your design system needs to remain.\n\n#DesignSystem\n\n⚓️ https://nicolas-hoizey.com/links/2025/05/13/bias-in-design-systems/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://bencallahan.com/bias-in-design-systems",
+        "mime_type": "image/png",
+        "title": "Screenshot of Bias in Design Systems"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/114501528782120886"
+    ],
+    "lastTootTimestamp": 1747154675177
+  },
+  "https://nicolas-hoizey.com/links/2025/05/13/a-web-component-ui-library-for-people-who-love-html/": {
+    "id": "https://nicolas-hoizey.com/links/2025/05/13/a-web-component-ui-library-for-people-who-love-html/",
+    "url": "https://nicolas-hoizey.com/links/2025/05/13/a-web-component-ui-library-for-people-who-love-html/",
+    "lang": "en",
+    "title": "“A Web Component UI library for people who love HTML”",
+    "date_published": "2025-05-13T15:57:37Z",
+    "content_text": "“A Web Component UI library for people who love HTML” by @cferdinandi@mastodon.social\n\n🔗 https://gomakethings.com/a-web-component-ui-library-for-people-who-love-html/\n\n> A lot of libraries approach Web Components with a React mindset, and treat them more like an implementation detail than a feature.\n> \n> Instead of leaning on HTML to provide a baseline experience, styling it with CSS, and then enhancing it with JS when supported, they use JavaScript for everything.\n> \n> That works, but it…\n\n#WebComponents\n\n⚓️ https://nicolas-hoizey.com/links/2025/05/13/a-web-component-ui-library-for-people-who-love-html/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://gomakethings.com/a-web-component-ui-library-for-people-who-love-html/",
+        "mime_type": "image/png",
+        "title": "Screenshot of A Web Component UI library for people who love HTML"
+      }
+    ],
+    "toots": []
   }
 }
