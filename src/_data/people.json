@@ -113,6 +113,10 @@
     "twitter": "Baymard",
     "site": "https://baymard.com/"
   },
+	"Ben Callahan": {
+		"site": "https://bencallahan.com/",
+		"mastodon": "@bencallahan@mastodon.social"
+	},
   "Ben Francis": {
     "twitter": "bfrancis"
   },
