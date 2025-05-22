@@ -4777,9 +4777,10 @@
       }
     ],
     "toots": [
-      "https://mamot.fr/users/nhoizey/statuses/114501528782120886"
+      "https://mamot.fr/users/nhoizey/statuses/114501528782120886",
+      "https://mamot.fr/users/nhoizey/statuses/114551066322662539"
     ],
-    "lastTootTimestamp": 1747154675177
+    "lastTootTimestamp": 1747910558048
   },
   "https://nicolas-hoizey.com/links/2025/05/13/a-web-component-ui-library-for-people-who-love-html/": {
     "id": "https://nicolas-hoizey.com/links/2025/05/13/a-web-component-ui-library-for-people-who-love-html/",
