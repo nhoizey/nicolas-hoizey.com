@@ -1591,5 +1591,18 @@
       "https://mamot.fr/users/nhoizey/statuses/114160870449024594"
     ],
     "lastTootTimestamp": 1741956641502
+  },
+  "https://nicolas-hoizey.com/notes/2025/05/30/1/": {
+    "id": "https://nicolas-hoizey.com/notes/2025/05/30/1/",
+    "url": "https://nicolas-hoizey.com/notes/2025/05/30/1/",
+    "lang": "en",
+    "title": "💬 Note from 30 May 2025, 12:53",
+    "date_published": "2025-05-30T10:53:12Z",
+    "content_text": "#TIL the `Object Name` field in #IPTC contains the title but truncated at 64 characters, whereas the `ImageTitle` field in #XMP or `Title`field in #DublinCore contain the full title. 🤷‍♂️\n\nWhen you want to find the needle in the haystack… hum wait, no, a field in a photo metadata, there's #ExifTool: https://exiftool.org/TagNames/\n\n#photography\n\n⚓️ https://nicolas-hoizey.com/notes/2025/05/30/1/",
+    "attachments": [],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/114596813249613051"
+    ],
+    "lastTootTimestamp": 1748608600701
   }
 }
