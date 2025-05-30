@@ -4801,5 +4801,24 @@
       "https://mamot.fr/users/nhoizey/statuses/114553892513135978"
     ],
     "lastTootTimestamp": 1747953682232
+  },
+  "https://nicolas-hoizey.com/links/2025/05/30/ai-video-just-took-a-startling-leap-in-realism-are-we-doomed/": {
+    "id": "https://nicolas-hoizey.com/links/2025/05/30/ai-video-just-took-a-startling-leap-in-realism-are-we-doomed/",
+    "url": "https://nicolas-hoizey.com/links/2025/05/30/ai-video-just-took-a-startling-leap-in-realism-are-we-doomed/",
+    "lang": "en",
+    "title": "“AI video just took a startling leap in realism. Are we doomed?”",
+    "date_published": "2025-05-30T10:16:04Z",
+    "content_text": "“AI video just took a startling leap in realism. Are we doomed?” by Benj Edwards\n\n🔗 https://arstechnica.com/ai/2025/05/ai-video-just-took-a-startling-leap-in-realism-are-we-doomed/\n\n> As these tools become more powerful and affordable, skepticism in media will grow. But the question isn't whether we can trust what we see and hear. It's whether we can trust who's showing it to us. In an era where anyone can generate a realistic video of anything for $1.50, the credibility of the source becomes our primary…\n\n#AI #video #society\n\n⚓️ https://nicolas-hoizey.com/links/2025/05/30/ai-video-just-took-a-startling-leap-in-realism-are-we-doomed/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://arstechnica.com/ai/2025/05/ai-video-just-took-a-startling-leap-in-realism-are-we-doomed/",
+        "mime_type": "image/png",
+        "title": "Screenshot of AI video just took a startling leap in realism. Are we doomed?"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/114597076603591556"
+    ],
+    "lastTootTimestamp": 1748612619322
   }
 }
