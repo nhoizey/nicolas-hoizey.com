@@ -12,13 +12,13 @@
   "background_color": "#865aad",
   "icons": [
     {
-      "src": "/assets/me/nicolas-hoizey-maskable-192px.png",
+      "src": "/assets/me/nicolas-hoizey-2019-maskable-192px.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/assets/me/nicolas-hoizey-maskable-512px.png",
+      "src": "/assets/me/nicolas-hoizey-2019-maskable-512px.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
