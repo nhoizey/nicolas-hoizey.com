@@ -333,6 +333,10 @@
     "mastodon": "@elaina@mastodon.lol",
     "site": "https://www.elainanatario.com/"
   },
+	"Elena Rossini": {
+		"site": "https://elenarossini.com/",
+		"mastodon": "@_elena@mastodon.social"
+	},
   "Elie Sloïm": {
     "twitter": "ElieSl",
     "site": "https://www.opquast.com/"
@@ -912,6 +916,9 @@
     "mastodon": "@Richr@mastodon.social",
     "site": "https://clagnut.com/"
   },
+	"Riyen Patel": {
+		"mastodoon": "@patel.riyen@pixelfed.social"
+	},
   "Rob O'Leary": {
     "site": "https://www.roboleary.net/"
   },
@@ -973,6 +980,9 @@
     "twitter": "sammorrisdesign",
     "site": "https://sammorr.is/"
   },
+	"Samuel Aaberg": {
+		"mastodon": "@samaaberg@mastodon.social"
+	},
   "Sara Soueidan": {
     "twitter": "SaraSoueidan",
     "site": "https://www.sarasoueidan.com/"
