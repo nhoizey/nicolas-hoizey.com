@@ -4821,5 +4821,24 @@
       "https://mamot.fr/users/nhoizey/statuses/114646607058463915"
     ],
     "lastTootTimestamp": 1749368393922
+  },
+  "https://nicolas-hoizey.com/links/2025/06/18/introducing-the-fediverse/": {
+    "id": "https://nicolas-hoizey.com/links/2025/06/18/introducing-the-fediverse/",
+    "url": "https://nicolas-hoizey.com/links/2025/06/18/introducing-the-fediverse/",
+    "lang": "en",
+    "title": "“Introducing the Fediverse”",
+    "date_published": "2025-06-18T06:49:17Z",
+    "content_text": "“Introducing the Fediverse” by @_elena@mastodon.social, @samaaberg@mastodon.social and Riyen Patel\n\n🔗 https://elenarossini.com/portfolio/introducing-the-fediverse/\n\n> Introducing the Fediverse: a New Era of Social Media is a 4-minute video explainer about the Fediverse, a galaxy of interconnected, free, open-source social networks.\n> \n> Watch now to discover a whole new world of social media, where privacy is respected, users are empowered, and Big Tech has no…\n\n#Fediverse #Mastodon #Pixelfed\n\n⚓️ https://nicolas-hoizey.com/links/2025/06/18/introducing-the-fediverse/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://elenarossini.com/portfolio/introducing-the-fediverse/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Introducing the Fediverse"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/114703234863749294"
+    ],
+    "lastTootTimestamp": 1750232465682
   }
 }
