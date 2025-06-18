@@ -6,7 +6,7 @@ lang: en
 
 ![](/assets/me/nicolas-hoizey-2019.jpg){.portrait}{.logo}
 ::: lead
-I am **passionate about [the Web](#i-love-the-web) and [photography](#i-love-photography)**, among [many interests](/tags/).
+I have been **passionate about [the Web](#i-love-the-web) since 1996**. I also love **photography** (here's [my photography portfolio](https://nicolas-hoizey.photo)), and have [many other interests](/tags/).
 :::
 
 # I love the Web
@@ -15,7 +15,7 @@ I am passionate about the Web, which I discovered in 1996 during my graduate stu
 
 [^sites]: I try to put back online all the old sites whose sources I have kept or found, like [Ciné Files](https://archives.nicolas-hoizey.com/1998-cine-files/) dating from 1998…
 
-As a professional, I am **co-founder (in 2001) and director of innovation at [Clever Age](http://www.clever-age.com/)**, where I mainly advise on Web architecture (e-commerce, content management, collaborative tools, etc.) and *front end* expertise, including [Progressive Web Apps](/tags/pwa/), [Responsive Web Design](/tags/rwd/) and [Web Performance](/tags/webperf/). I also run some seminars and training courses on these topics.
+As a professional, I am a **co-founder at [Clever Age](http://www.clever-age.com/)** (in 2001), where I mainly advise on Web architecture (e-commerce, content management, collaborative tools, etc.) and *front end* expertise, including [Progressive Web Apps](/tags/pwa/), [Responsive Web Design](/tags/rwd/) and [Web Performance](/tags/webperf/). I also run some seminars and training courses on these topics.
 
 ::: info
 If you're more interested in technical stuff, you can learn more [about this website](/about/the-website.html).
