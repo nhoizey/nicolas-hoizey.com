@@ -61,7 +61,7 @@
     "bent": "^7.3.12",
     "bookmarklet": "^3.0.0",
     "chalk": "^4.1.2",
-    "cheerio": "1.0.0-rc.12",
+    "cheerio": "^1.1.0",
     "cross-env": "^7.0.3",
     "cssnano": "^5.1.15",
     "dotenv": "^10.0.0",
