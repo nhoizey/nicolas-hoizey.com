@@ -4841,5 +4841,24 @@
       "https://mamot.fr/users/nhoizey/statuses/114752075511792732"
     ],
     "lastTootTimestamp": 1750977714841
+  },
+  "https://nicolas-hoizey.com/links/2025/07/08/writing-code-was-never-the-bottleneck/": {
+    "id": "https://nicolas-hoizey.com/links/2025/07/08/writing-code-was-never-the-bottleneck/",
+    "url": "https://nicolas-hoizey.com/links/2025/07/08/writing-code-was-never-the-bottleneck/",
+    "lang": "en",
+    "title": "“Writing Code Was Never The Bottleneck”",
+    "date_published": "2025-07-08T11:44:07Z",
+    "content_text": "“Writing Code Was Never The Bottleneck” by Pedro Tavares\n\n🔗 https://ordep.dev/posts/writing-code-was-never-the-bottleneck\n\n> The marginal cost of adding new software is approaching zero, especially with LLMs. But what is the price of understanding, testing, and trusting that code? Higher than ever.\n\n#AI #LLM #development\n\n⚓️ https://nicolas-hoizey.com/links/2025/07/08/writing-code-was-never-the-bottleneck/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://ordep.dev/posts/writing-code-was-never-the-bottleneck",
+        "mime_type": "image/png",
+        "title": "Screenshot of Writing Code Was Never The Bottleneck"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/114817922064820744"
+    ],
+    "lastTootTimestamp": 1751982453486
   }
 }
