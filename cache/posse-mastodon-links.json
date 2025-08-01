@@ -4861,5 +4861,24 @@
       "https://mamot.fr/users/nhoizey/statuses/114867443404016322"
     ],
     "lastTootTimestamp": 1752738089137
+  },
+  "https://nicolas-hoizey.com/links/2025/08/01/spotify-used-to-seem-like-a-necessary-evil-for-musicians-now-it-just-seems-evil/": {
+    "id": "https://nicolas-hoizey.com/links/2025/08/01/spotify-used-to-seem-like-a-necessary-evil-for-musicians-now-it-just-seems-evil/",
+    "url": "https://nicolas-hoizey.com/links/2025/08/01/spotify-used-to-seem-like-a-necessary-evil-for-musicians-now-it-just-seems-evil/",
+    "lang": "en",
+    "title": "“Spotify used to seem like a necessary evil for musicians. Now it just seems evil”",
+    "date_published": "2025-08-01T12:38:57Z",
+    "content_text": "“Spotify used to seem like a necessary evil for musicians. Now it just seems evil” by David Bridie\n\n🔗 https://www.theguardian.com/music/2025/jul/31/spotify-musicians-david-bridie-ntwnfb\n\n> We can’t keep handing our creativity, our loyalty and our cash to amoral tech giants who see music as content and war as business. I’d rather earn nothing than profit from destruction. As Deerhoof succinctly put it in their statement on leaving Spotify: “If the price of ‘discoverability’ is letting…\n\n#Spotify #music #society\n\n⚓️ https://nicolas-hoizey.com/links/2025/08/01/spotify-used-to-seem-like-a-necessary-evil-for-musicians-now-it-just-seems-evil/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.theguardian.com/music/2025/jul/31/spotify-musicians-david-bridie-ntwnfb",
+        "mime_type": "image/png",
+        "title": "Screenshot of Spotify used to seem like a necessary evil for musicians. Now it just seems evil"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/114953824451813613"
+    ],
+    "lastTootTimestamp": 1754056159368
   }
 }
