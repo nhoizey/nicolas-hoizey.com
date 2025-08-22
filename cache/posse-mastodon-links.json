@@ -4881,5 +4881,24 @@
       "https://mamot.fr/users/nhoizey/statuses/115003334207384552"
     ],
     "lastTootTimestamp": 1754811618292
+  },
+  "https://nicolas-hoizey.com/links/2025/08/22/an-interactive-guide-to-svg-paths/": {
+    "id": "https://nicolas-hoizey.com/links/2025/08/22/an-interactive-guide-to-svg-paths/",
+    "url": "https://nicolas-hoizey.com/links/2025/08/22/an-interactive-guide-to-svg-paths/",
+    "lang": "en",
+    "title": "“An Interactive Guide to SVG Paths”",
+    "date_published": "2025-08-22T08:39:54Z",
+    "content_text": "“An Interactive Guide to SVG Paths” by @joshwcomeau@bird.makeup\n\n🔗 https://www.joshwcomeau.com/svg/interactive-guide-to-paths/\n\n> The SVG `<path>` element is notoriously tricky. When I first encountered it, I found it totally inscrutable. Its syntax isn’t quite as bad as Regex, but it has the same sort of “what on earth?” vibes.\n> \n> At the same time, `<path>` elements are also incredibly useful. They’re the only way to create curved shapes in SVG, beyond full ellipses. And once you…\n\n#SVG\n\n⚓️ https://nicolas-hoizey.com/links/2025/08/22/an-interactive-guide-to-svg-paths/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.joshwcomeau.com/svg/interactive-guide-to-paths/",
+        "mime_type": "image/png",
+        "title": "Screenshot of An Interactive Guide to SVG Paths"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/115071996784645430"
+    ],
+    "lastTootTimestamp": 1755859326050
   }
 }
