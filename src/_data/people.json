@@ -401,10 +401,9 @@
   "Hadley Beeman": {
     "mastodon": "@hadleybeeman@w3c.social"
   },
-  "HTTP Archive": {
-    "twitter": "HTTPArchive",
-    "site": "https://httparchive.org/"
-  },
+	"Harley Turan": {
+		"site": "https://hturan.com/"
+	},
   "Harry Roberts": {
     "mastodon": "@csswizardry@webperf.social",
     "twitter": "csswizardry",
@@ -432,6 +431,10 @@
   },
   "Hidde de Vries": {
     "twitter": "hdv"
+  },
+  "HTTP Archive": {
+    "twitter": "HTTPArchive",
+    "site": "https://httparchive.org/"
   },
   "Hubert Sablonnière": {
     "twitter": "hsablonniere",
