@@ -4901,5 +4901,24 @@
       "https://mamot.fr/users/nhoizey/statuses/115122238273119376"
     ],
     "lastTootTimestamp": 1756625950348
+  },
+  "https://nicolas-hoizey.com/links/2025/08/24/exploring-exif/": {
+    "id": "https://nicolas-hoizey.com/links/2025/08/24/exploring-exif/",
+    "url": "https://nicolas-hoizey.com/links/2025/08/24/exploring-exif/",
+    "lang": "en",
+    "title": "“Exploring EXIF”",
+    "date_published": "2025-08-24T09:57:17Z",
+    "content_text": "“Exploring EXIF” by Harley Turan\n\n🔗 https://hturan.com/writing/exploring-exif\n\n> Any app that can access your photo library can, with enough effort, determine your address, where you shop, where your friends live, where you go on holiday, where you work, and when you go to bed. This is without looking at anything within the images themselves.\n\n#photography #privacy\n\n⚓️ https://nicolas-hoizey.com/links/2025/08/24/exploring-exif/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://hturan.com/writing/exploring-exif",
+        "mime_type": "image/png",
+        "title": "Screenshot of Exploring EXIF"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/115125781475256866"
+    ],
+    "lastTootTimestamp": 1756680015296
   }
 }
