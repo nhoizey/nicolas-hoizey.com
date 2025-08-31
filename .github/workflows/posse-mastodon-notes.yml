@@ -1,9 +1,9 @@
 name: '💬 → 🐘 POSSE notes to Mastodon'
 on:
   schedule:
-    # https://crontab.guru/#3/7_5-23_*_*_*
-    # At every 7th minute from 3 through 59 past every hour from 7 through 23. (GMT+2)
-    - cron: '3/7 5-23 * * *'
+    # https://crontab.guru/#3/17_5-23_*_*_*
+    # At every 17th minute from 3 through 59 past every hour from 7 through 23. (GMT+2)
+    - cron: '3/17 5-23 * * *'
   workflow_dispatch:
 
 env:
