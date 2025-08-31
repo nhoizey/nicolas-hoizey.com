@@ -43,7 +43,8 @@
     "fix:sass": "stylelint --fix 'assets/**/*.scss'",
     "bookmarklets:link": "bookmarklet --demo assets/js/bookmarklets/new-link.js src/tools/bookmarklets/new-link.html",
     "bookmarklets:note": "bookmarklet --demo assets/js/bookmarklets/new-note.js src/tools/bookmarklets/new-note.html",
-    "bookmarklets": "npm-run-all --parallel bookmarklets:*"
+    "bookmarklets": "npm-run-all --parallel bookmarklets:*",
+		"deploy": "rsync -azh --info=progress2 --stats ./_site/ nhoizey@ssh-nhoizey.alwaysdata.net:/home/nhoizey/www/nicolas-hoizey.com/_site/"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
