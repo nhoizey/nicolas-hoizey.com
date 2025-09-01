@@ -44,7 +44,7 @@
     "bookmarklets:link": "bookmarklet --demo assets/js/bookmarklets/new-link.js src/tools/bookmarklets/new-link.html",
     "bookmarklets:note": "bookmarklet --demo assets/js/bookmarklets/new-note.js src/tools/bookmarklets/new-note.html",
     "bookmarklets": "npm-run-all --parallel bookmarklets:*",
-		"deploy": "rsync -azh --info=progress2 --stats ./_site/ nhoizey@ssh-nhoizey.alwaysdata.net:/home/nhoizey/www/nicolas-hoizey.com/_site/"
+    "deploy": "rsync -azh --info=progress2 --stats ./_site/ nhoizey@ssh-nhoizey.alwaysdata.net:/home/nhoizey/www/nicolas-hoizey.com/_site/"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
@@ -104,7 +104,7 @@
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-visualizer": "^5.14.0",
     "sanitize-html": "^2.17.0",
-    "sass": "^1.90.0",
+    "sass": "^1.91.0",
     "svgstore": "^3.0.1",
     "truncate-html": "^1.2.2",
     "twitter": "^1.7.1",
