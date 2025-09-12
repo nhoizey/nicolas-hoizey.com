@@ -4921,5 +4921,24 @@
       "https://mamot.fr/users/nhoizey/statuses/115173916922289442"
     ],
     "lastTootTimestamp": 1757414503929
+  },
+  "https://nicolas-hoizey.com/links/2025/09/12/why-you-should-get-back-into-rss-curation/": {
+    "id": "https://nicolas-hoizey.com/links/2025/09/12/why-you-should-get-back-into-rss-curation/",
+    "url": "https://nicolas-hoizey.com/links/2025/09/12/why-you-should-get-back-into-rss-curation/",
+    "lang": "en",
+    "title": "“Why you should get (back) into RSS curation”",
+    "date_published": "2025-09-12T15:27:34Z",
+    "content_text": "“Why you should get (back) into RSS curation” by James Folta\n\n🔗 https://lithub.com/why-you-should-get-back-into-rss-curation/\n\n> It feels like riding a bike: fast enough to get somewhere, but slow that the ride is enjoyable. And like reading, you control the frame rate, and can stop, slow down, or go back in your feed if you need to. Which is unlike the stationary bike of social media, where some red-pilled millionaire engineer is cranking a dial to make you peddle faster.\n\n#RSS #feed\n\n⚓️ https://nicolas-hoizey.com/links/2025/09/12/why-you-should-get-back-into-rss-curation/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://lithub.com/why-you-should-get-back-into-rss-curation/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Why you should get (back) into RSS curation"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/115192316489505490"
+    ],
+    "lastTootTimestamp": 1757695259066
   }
 }
