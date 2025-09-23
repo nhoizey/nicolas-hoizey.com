@@ -4960,5 +4960,24 @@
       "https://mamot.fr/users/nhoizey/statuses/115253189700051994"
     ],
     "lastTootTimestamp": 1758624110556
+  },
+  "https://nicolas-hoizey.com/links/2025/09/23/benjamin-button-reviews-macos/": {
+    "id": "https://nicolas-hoizey.com/links/2025/09/23/benjamin-button-reviews-macos/",
+    "url": "https://nicolas-hoizey.com/links/2025/09/23/benjamin-button-reviews-macos/",
+    "lang": "en",
+    "title": "“Benjamin Button Reviews macOS”",
+    "date_published": "2025-09-23T09:47:47Z",
+    "content_text": "“Benjamin Button Reviews macOS” by @rakhim@mastodon.online\n\n🔗 https://rakhim.exotext.com/benjamin-button-reviews-macos\n\n> Apple's first desktop operating system was Tahoe. Like any first version, it had a lot of issues. Users and critics flooded the web with negative reviews. While mostly stable under the hood, the outer shell — the visual user interface — was jarringly bad. Without much experience in desktop UX, Apple's first OS looked like a Fisher-Price toy: heavily…\n\n#macOS #UX #design\n\n⚓️ https://nicolas-hoizey.com/links/2025/09/23/benjamin-button-reviews-macos/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://rakhim.exotext.com/benjamin-button-reviews-macos",
+        "mime_type": "image/png",
+        "title": "Screenshot of Benjamin Button Reviews macOS"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/115253901893051485"
+    ],
+    "lastTootTimestamp": 1758634977762
   }
 }
