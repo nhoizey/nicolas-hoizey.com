@@ -4981,5 +4981,24 @@
       "https://mamot.fr/users/nhoizey/statuses/115304145357460601"
     ],
     "lastTootTimestamp": 1759401632198
+  },
+  "https://nicolas-hoizey.com/links/2025/10/02/idea-nonverbal-algorithm-assembly-instructions/": {
+    "id": "https://nicolas-hoizey.com/links/2025/10/02/idea-nonverbal-algorithm-assembly-instructions/",
+    "url": "https://nicolas-hoizey.com/links/2025/10/02/idea-nonverbal-algorithm-assembly-instructions/",
+    "lang": "en",
+    "title": "“IDEA – nonverbal algorithm assembly instructions”",
+    "date_published": "2025-10-02T17:04:25Z",
+    "content_text": "“IDEA – nonverbal algorithm assembly instructions” by Sándor P. Fekete and @blinry@chaos.social\n\n🔗 https://idea-instructions.com/\n\n> IDEA is a series of nonverbal algorithm assembly instructions [in the style of IKEA]\n\n#documentation\n\n⚓️ https://nicolas-hoizey.com/links/2025/10/02/idea-nonverbal-algorithm-assembly-instructions/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://idea-instructions.com/",
+        "mime_type": "image/png",
+        "title": "Screenshot of IDEA – nonverbal algorithm assembly instructions"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/115306264376728314"
+    ],
+    "lastTootTimestamp": 1759433965941
   }
 }
