@@ -139,6 +139,10 @@
     "site": "https://blakewatson.com/",
     "mastodon": "@bw@social.lol"
   },
+	"blinry": {
+		"site": "https://blinry.org/",
+		"mastodon": "@blinry@chaos.social"
+	},
   "Bobae Kang": {
     "site": "https://bobaekang.com/"
   },
@@ -995,6 +999,9 @@
   },
 	"Samuel Aaberg": {
 		"mastodon": "@samaaberg@mastodon.social"
+	},
+	"Sándor P. Fekete": {
+		"site": "https://www.ibr.cs.tu-bs.de/users/fekete/"
 	},
   "Sara Soueidan": {
     "twitter": "SaraSoueidan",
