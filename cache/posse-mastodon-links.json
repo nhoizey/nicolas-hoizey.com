@@ -5000,5 +5000,24 @@
       "https://mamot.fr/users/nhoizey/statuses/115306264376728314"
     ],
     "lastTootTimestamp": 1759433965941
+  },
+  "https://nicolas-hoizey.com/links/2025/10/03/google-on-why-google-search-console-lcp-is-not-wrong/": {
+    "id": "https://nicolas-hoizey.com/links/2025/10/03/google-on-why-google-search-console-lcp-is-not-wrong/",
+    "url": "https://nicolas-hoizey.com/links/2025/10/03/google-on-why-google-search-console-lcp-is-not-wrong/",
+    "lang": "en",
+    "title": "“Google On Why Google Search Console LCP Is Not Wrong”",
+    "date_published": "2025-10-03T13:36:58Z",
+    "content_text": "“Google On Why Google Search Console LCP Is Not Wrong” by @rustybrick@c.im and @tunetheweb@webperf.social\n\n🔗 https://www.seroundtable.com/google-search-console-lcp-not-wrong-40205.html\n\n> Caching should be a \"cherry on top\" to boost speed, rather than the only reason you have a fast site.\n\n#WebPerf #LCP #GoogleSearchConsole\n\n⚓️ https://nicolas-hoizey.com/links/2025/10/03/google-on-why-google-search-console-lcp-is-not-wrong/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.seroundtable.com/google-search-console-lcp-not-wrong-40205.html",
+        "mime_type": "image/png",
+        "title": "Screenshot of Google On Why Google Search Console LCP Is Not Wrong"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/115311925733463529"
+    ],
+    "lastTootTimestamp": 1759520351272
   }
 }
