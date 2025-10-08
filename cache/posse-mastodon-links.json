@@ -5038,5 +5038,24 @@
       "https://mamot.fr/users/nhoizey/statuses/115333881107218154"
     ],
     "lastTootTimestamp": 1759855363687
+  },
+  "https://nicolas-hoizey.com/links/2025/10/07/a-cartoonist-s-review-of-ai-art/": {
+    "id": "https://nicolas-hoizey.com/links/2025/10/07/a-cartoonist-s-review-of-ai-art/",
+    "url": "https://nicolas-hoizey.com/links/2025/10/07/a-cartoonist-s-review-of-ai-art/",
+    "lang": "en",
+    "title": "“A cartoonist&#39;s review of AI art”",
+    "date_published": "2025-10-07T17:09:19Z",
+    "content_text": "“A cartoonist's review of AI art” by @oatmeal@mastodon.social\n\n🔗 https://theoatmeal.com/comics/ai_art\n\n> AI art might eventually have the right number of fingers, but it'll never have a heart.\n\n#AI #art\n\n⚓️ https://nicolas-hoizey.com/links/2025/10/07/a-cartoonist-s-review-of-ai-art/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://theoatmeal.com/comics/ai_art",
+        "mime_type": "image/png",
+        "title": "Screenshot of A cartoonist&#39;s review of AI art"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/115337408839863349"
+    ],
+    "lastTootTimestamp": 1759909192718
   }
 }
