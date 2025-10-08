@@ -634,6 +634,10 @@
   "Laurel Schwulst": {
     "site": "https://laurelschwulst.com/"
   },
+	"Lea Verou": {
+		"site": "https://lea.verou.me/",
+		"mastodon": "@leaverou@front-end.social"
+	},
   "Leanne Renard": {
     "site": "https://leannerenard.co.uk/",
     "mastodon": "@leannecodes@mastodon.social"
