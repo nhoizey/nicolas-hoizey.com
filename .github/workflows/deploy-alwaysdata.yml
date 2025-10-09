@@ -1,0 +1,59 @@
+# https://zellwk.com/blog/github-actions-deploy/
+
+name: Deploy to AlwaysData
+
+on:
+  push:
+    branches: ['main']
+  workflow_dispatch:
+
+env:
+  ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
+  ALGOLIA_READ_ONLY_API_KEY: ${{ secrets.ALGOLIA_READ_ONLY_API_KEY }}
+
+concurrency:
+  group: deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      # - name: Install SSH Key
+      #   uses: shimataro/ssh-key-action@v2
+      #   with:
+      #     key: ${{ secrets.SSH_PRIVATE_KEY }}
+      #     known_hosts: ${{ secrets.SSH_HOST }}
+
+      # - name: Adding Known Hosts
+      #   run: ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+
+      # - name: Deploy to AlwaysData
+      #   run: rsync -azh --info=progress2 --stats ./_site/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/nhoizey/www/nicolas-hoizey.photo/
+
+      - name: Rsync
+        uses: burnett01/rsync-deployments@7.1.0
+        with:
+          switches: -azh --info=progress2 --stats
+          path: _site/
+          # remote_path: /home/nhoizey/www/nicolas-hoizey.com/
+          remote_path: ${{ secrets.RSYNC_REMOTE_PATH }}
+          remote_host: ${{ secrets.RSYNC_REMOTE_HOST }}
+          remote_user: ${{ secrets.RSYNC_REMOTE_USER }}
+          remote_key: ${{ secrets.RSYNC_REMOTE_PRIVATE_KEY }}
