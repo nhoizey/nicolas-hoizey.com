@@ -5057,5 +5057,40 @@
       "https://mamot.fr/users/nhoizey/statuses/115337408839863349"
     ],
     "lastTootTimestamp": 1759909192718
+  },
+  "https://nicolas-hoizey.com/links/2025/10/09/stop-ignoring-the-browser-the-biggest-frontend-shift-in-a-decade/": {
+    "id": "https://nicolas-hoizey.com/links/2025/10/09/stop-ignoring-the-browser-the-biggest-frontend-shift-in-a-decade/",
+    "url": "https://nicolas-hoizey.com/links/2025/10/09/stop-ignoring-the-browser-the-biggest-frontend-shift-in-a-decade/",
+    "lang": "en",
+    "title": "“Stop Ignoring the Browser: The Biggest Frontend Shift in a Decade”",
+    "date_published": "2025-10-09T07:55:44Z",
+    "content_text": "“Stop Ignoring the Browser: The Biggest Frontend Shift in a Decade” by Alexander Williams\n\n🔗 https://thenewstack.io/stop-ignoring-the-browser-the-biggest-frontend-shift-in-a-decade/\n\n> Frameworks once saved the web from its own incompetence. Today, they’re starting to look like middlemen at a party the browser now hosts. If you’re still writing code as if the browser can’t handle it, you’re ignoring the most important shift in frontend development in twenty years.\n\n#Web #framework #standards\n\n⚓️ https://nicolas-hoizey.com/links/2025/10/09/stop-ignoring-the-browser-the-biggest-frontend-shift-in-a-decade/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://thenewstack.io/stop-ignoring-the-browser-the-biggest-frontend-shift-in-a-decade/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Stop Ignoring the Browser: The Biggest Frontend Shift in a Decade"
+      }
+    ],
+    "toots": []
+  },
+  "https://nicolas-hoizey.com/links/2025/10/08/in-the-economy-of-user-effort-be-a-bargain-not-a-scam/": {
+    "id": "https://nicolas-hoizey.com/links/2025/10/08/in-the-economy-of-user-effort-be-a-bargain-not-a-scam/",
+    "url": "https://nicolas-hoizey.com/links/2025/10/08/in-the-economy-of-user-effort-be-a-bargain-not-a-scam/",
+    "lang": "en",
+    "title": "“In the economy of user effort, be a bargain, not a scam”",
+    "date_published": "2025-10-08T13:37:20Z",
+    "content_text": "“In the economy of user effort, be a bargain, not a scam” by @leaverou@front-end.social\n\n🔗 https://lea.verou.me/blog/2025/user-effort/\n\n> Treat user effort as a currency. To create a product users love, design the tradeoff curve of use case complexity to user effort with the same care you design your pricing scheme.\n\n#UX\n\n⚓️ https://nicolas-hoizey.com/links/2025/10/08/in-the-economy-of-user-effort-be-a-bargain-not-a-scam/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://lea.verou.me/blog/2025/user-effort/",
+        "mime_type": "image/png",
+        "title": "Screenshot of In the economy of user effort, be a bargain, not a scam"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/115343786846666252"
+    ],
+    "lastTootTimestamp": 1760006513354
   }
 }
