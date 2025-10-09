@@ -9,6 +9,7 @@ on:
 
 env:
   ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
+  ALGOLIA_INDEX_NAME: ${{ secrets.ALGOLIA_INDEX_NAME }}
   ALGOLIA_READ_ONLY_API_KEY: ${{ secrets.ALGOLIA_READ_ONLY_API_KEY }}
 
 concurrency:
