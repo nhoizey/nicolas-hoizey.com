@@ -43,7 +43,6 @@ jobs:
         with:
           switches: --archive --checksum --compress --delete-after --no-inc-recursive --human-readable --stats
           path: _site/
-          # remote_path: /home/nhoizey/www/nicolas-hoizey.com/
           remote_path: ${{ secrets.RSYNC_REMOTE_PATH }}
           remote_host: ${{ secrets.RSYNC_REMOTE_HOST }}
           remote_user: ${{ secrets.RSYNC_REMOTE_USER }}
