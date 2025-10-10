@@ -41,7 +41,7 @@ jobs:
       - name: Rsync
         uses: burnett01/rsync-deployments@7.1.0
         with:
-          switches: -azh --info=progress2 --stats
+          switches: --quiet --archive --checksum --compress --delete-after --no-inc-recursive --human-readable --stats
           path: _site/
           # remote_path: /home/nhoizey/www/nicolas-hoizey.com/
           remote_path: ${{ secrets.RSYNC_REMOTE_PATH }}
