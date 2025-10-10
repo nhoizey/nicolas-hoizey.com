@@ -4,7 +4,6 @@ title: "About old movie directors like Ridley Scott embracing AI"
 lang: en
 link: https://www.reddit.com/r/blankies/comments/1o2qtj1/comment/nipuz6z/
 authors:
-  - ""
 tags: [AI, cinema]
 ---
 
