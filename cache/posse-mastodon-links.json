@@ -5116,5 +5116,24 @@
       "https://mamot.fr/users/nhoizey/statuses/115349447503644071"
     ],
     "lastTootTimestamp": 1760092888179
+  },
+  "https://nicolas-hoizey.com/links/2025/10/13/the-lifeblood-of-the-web/": {
+    "id": "https://nicolas-hoizey.com/links/2025/10/13/the-lifeblood-of-the-web/",
+    "url": "https://nicolas-hoizey.com/links/2025/10/13/the-lifeblood-of-the-web/",
+    "lang": "en",
+    "title": "“The Lifeblood of the Web”",
+    "date_published": "2025-10-13T09:48:07Z",
+    "content_text": "“The Lifeblood of the Web” by @matthiasott@mastodon.social\n\n🔗 https://matthiasott.com/notes/the-lifeblood-of-the-web\n\n> The real value of in-person conferences lies in what happens between the talks — in the conversations you have, the people you meet, and the friends you make.\n\nSo true, I was so happy to be back at Paris Web a few weeks ago, held for the 20th time!\n\n#conference\n\n⚓️ https://nicolas-hoizey.com/links/2025/10/13/the-lifeblood-of-the-web/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://matthiasott.com/notes/the-lifeblood-of-the-web",
+        "mime_type": "image/png",
+        "title": "Screenshot of The Lifeblood of the Web"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/115366438114650567"
+    ],
+    "lastTootTimestamp": 1760352144256
   }
 }
