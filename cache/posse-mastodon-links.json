@@ -5136,5 +5136,24 @@
       "https://mamot.fr/users/nhoizey/statuses/115366438114650567"
     ],
     "lastTootTimestamp": 1760352144256
+  },
+  "https://nicolas-hoizey.com/links/2025/10/16/the-present-and-potential-future-of-progressive-image-rendering/": {
+    "id": "https://nicolas-hoizey.com/links/2025/10/16/the-present-and-potential-future-of-progressive-image-rendering/",
+    "url": "https://nicolas-hoizey.com/links/2025/10/16/the-present-and-potential-future-of-progressive-image-rendering/",
+    "lang": "en",
+    "title": "“The present and potential future of progressive image rendering”",
+    "date_published": "2025-10-16T11:05:45Z",
+    "content_text": "“The present and potential future of progressive image rendering” by @jaffathecake@mastodon.social\n\n🔗 https://jakearchibald.com/2025/present-and-future-of-progressive-image-rendering/\n\n> So if the browser manages to download 6 kB then stalls, then AVIF can produce a better result. But since the AVIF rendering is only two-pass, if the browser has say 50 kB, then the JPEG XL rendering is much better.\n\n#image #WebPerf\n\n⚓️ https://nicolas-hoizey.com/links/2025/10/16/the-present-and-potential-future-of-progressive-image-rendering/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://jakearchibald.com/2025/present-and-future-of-progressive-image-rendering/",
+        "mime_type": "image/png",
+        "title": "Screenshot of The present and potential future of progressive image rendering"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/115384141086969108"
+    ],
+    "lastTootTimestamp": 1760622270097
   }
 }
