@@ -440,6 +440,10 @@
     "twitter": "HTTPArchive",
     "site": "https://httparchive.org/"
   },
+	"Hubert Guillaud": {
+		"site": "https://hubertguillaud.wordpress.com/",
+		"mastodon": "@hubertguillaud@pouet.chapril.org"
+	},
   "Hubert Sablonnière": {
     "twitter": "hsablonniere",
     "site": "https://www.hsablonniere.com/"
