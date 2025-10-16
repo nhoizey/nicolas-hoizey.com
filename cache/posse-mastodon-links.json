@@ -5155,5 +5155,24 @@
       "https://mamot.fr/users/nhoizey/statuses/115384141086969108"
     ],
     "lastTootTimestamp": 1760622270097
+  },
+  "https://nicolas-hoizey.com/links/2025/10/16/l-ia-pour-faire-regner-la-terreur/": {
+    "id": "https://nicolas-hoizey.com/links/2025/10/16/l-ia-pour-faire-regner-la-terreur/",
+    "url": "https://nicolas-hoizey.com/links/2025/10/16/l-ia-pour-faire-regner-la-terreur/",
+    "lang": "fr",
+    "title": "“L&#39;IA pour faire régner la terreur”",
+    "date_published": "2025-10-16T14:07:21Z",
+    "content_text": "“L'IA pour faire régner la terreur” by @hubertguillaud@pouet.chapril.org\n\n🔗 https://danslesalgorithmes.net/2025/10/09/a-lia-pour-faire-regner-la-terreur/\n\n> L’éclatement à venir de la bulle de l’IA n’explique par pourquoi l’information est inondée de merde, n’explique pas pourquoi les erreurs des systèmes du social vont continuer. La dénonciation de la bulle et de la hype est finalement « étroitement technique, trop axée sur l’identification des mensonges, plutôt que sur l’identification des…\n\n#IA #society\n\n⚓️ https://nicolas-hoizey.com/links/2025/10/16/l-ia-pour-faire-regner-la-terreur/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://danslesalgorithmes.net/2025/10/09/a-lia-pour-faire-regner-la-terreur/",
+        "mime_type": "image/png",
+        "title": "Screenshot of L&#39;IA pour faire régner la terreur"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/115386245874135594"
+    ],
+    "lastTootTimestamp": 1760654386636
   }
 }
