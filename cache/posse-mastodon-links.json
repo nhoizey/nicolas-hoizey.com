@@ -5179,5 +5179,24 @@
       "https://mamot.fr/users/nhoizey/statuses/115386245874135594"
     ],
     "lastTootTimestamp": 1760654386636
+  },
+  "https://nicolas-hoizey.com/links/2025/10/24/solved-by-modern-css-section-layout/": {
+    "id": "https://nicolas-hoizey.com/links/2025/10/24/solved-by-modern-css-section-layout/",
+    "url": "https://nicolas-hoizey.com/links/2025/10/24/solved-by-modern-css-section-layout/",
+    "lang": "en",
+    "title": "“Solved By Modern CSS: Section Layout”",
+    "date_published": "2025-10-24T11:25:28Z",
+    "content_text": "“Solved By Modern CSS: Section Layout” by @shadeed9@front-end.social\n\n🔗 https://ishadeed.com/article/modern-css-section-layout/\n\n> In this article, I took a typical section design and made it more dynamic with container queries, has, clamp, and grid. It’s an example of the potential of modern CSS, and this was just one section.\n\nYet another awesome article from Ahmad showing actual useful usage of modern CSS. Let's hope people designing in Figma see this and…\n\n#CSS #containerQueries\n\n⚓️ https://nicolas-hoizey.com/links/2025/10/24/solved-by-modern-css-section-layout/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://ishadeed.com/article/modern-css-section-layout/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Solved By Modern CSS: Section Layout"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/115429438724824633"
+    ],
+    "lastTootTimestamp": 1761313457215
   }
 }
