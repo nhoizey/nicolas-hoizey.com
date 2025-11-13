@@ -5220,5 +5220,24 @@
       "https://mamot.fr/users/nhoizey/statuses/115503052317532749"
     ],
     "lastTootTimestamp": 1762436711507
+  },
+  "https://nicolas-hoizey.com/links/2025/11/13/perfecting-baseline/": {
+    "id": "https://nicolas-hoizey.com/links/2025/11/13/perfecting-baseline/",
+    "url": "https://nicolas-hoizey.com/links/2025/11/13/perfecting-baseline/",
+    "lang": "en",
+    "title": "“Perfecting Baseline”",
+    "date_published": "2025-11-13T13:04:51Z",
+    "content_text": "“Perfecting Baseline” by @patrickbrosset@mas.to\n\n🔗 https://piccalil.li/blog/perfecting-baseline/\n\n> Baseline can definitely be perfected. Now that we have an initial definition, and now that adoption has grown, we can improve Baseline based on real user feedback and have even greater impact.\n\n#standards #browser #accessibility\n\n⚓️ https://nicolas-hoizey.com/links/2025/11/13/perfecting-baseline/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://piccalil.li/blog/perfecting-baseline/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Perfecting Baseline"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/115542692916886606"
+    ],
+    "lastTootTimestamp": 1763041579043
   }
 }
