@@ -5240,5 +5240,40 @@
       "https://mamot.fr/users/nhoizey/statuses/115542692916886606"
     ],
     "lastTootTimestamp": 1763041579043
+  },
+  "https://nicolas-hoizey.com/links/2025/11/15/kagi-small-web/": {
+    "id": "https://nicolas-hoizey.com/links/2025/11/15/kagi-small-web/",
+    "url": "https://nicolas-hoizey.com/links/2025/11/15/kagi-small-web/",
+    "lang": "en",
+    "title": "“Kagi Small Web”",
+    "date_published": "2025-11-15T10:16:28Z",
+    "content_text": "“Kagi Small Web” by @kagihq@mastodon.social\n\n🔗 https://blog.kagi.com/small-web\n\n> Kagi Small Web offers a fresh approach by promoting recently published content from the “small web.” We gather new content, published within the last week, from a handpicked list of blogs and surface it in multiple ways\n\n#Web\n\n⚓️ https://nicolas-hoizey.com/links/2025/11/15/kagi-small-web/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://blog.kagi.com/small-web",
+        "mime_type": "image/png",
+        "title": "Screenshot of Kagi Small Web"
+      }
+    ],
+    "toots": []
+  },
+  "https://nicolas-hoizey.com/links/2025/11/15/i-know-you-don-t-want-them-to-want-ai-but/": {
+    "id": "https://nicolas-hoizey.com/links/2025/11/15/i-know-you-don-t-want-them-to-want-ai-but/",
+    "url": "https://nicolas-hoizey.com/links/2025/11/15/i-know-you-don-t-want-them-to-want-ai-but/",
+    "lang": "en",
+    "title": "“I know you don’t want them to want AI, but…”",
+    "date_published": "2025-11-15T10:05:33Z",
+    "content_text": "“I know you don’t want them to want AI, but…” by @anildash@me.dm\n\n🔗 https://www.anildash.com/2025/11/14/wanting-not-to-want-ai/\n\n> Judging by what I see in the comments on the posts about Firefox’s potential AI feature integrations, the apparent path that critics are recommending as an alternative browser is “I’ll yell at you until you stop using ChatGPT”. Consider this post my official notice: that strategy hasn’t worked. And it is not going to work. The only thing that…\n\n#AI #Firefox #Mozilla\n\n⚓️ https://nicolas-hoizey.com/links/2025/11/15/i-know-you-don-t-want-them-to-want-ai-but/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.anildash.com/2025/11/14/wanting-not-to-want-ai/",
+        "mime_type": "image/png",
+        "title": "Screenshot of I know you don’t want them to want AI, but…"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/115553286818101497"
+    ],
+    "lastTootTimestamp": 1763203229153
   }
 }
