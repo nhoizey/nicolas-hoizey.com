@@ -5281,5 +5281,24 @@
       "https://mamot.fr/users/nhoizey/statuses/115601417791952646"
     ],
     "lastTootTimestamp": 1763937649524
+  },
+  "https://nicolas-hoizey.com/links/2025/12/03/a-new-or-rather-old-approach-to-typography-on-the-web/": {
+    "id": "https://nicolas-hoizey.com/links/2025/12/03/a-new-or-rather-old-approach-to-typography-on-the-web/",
+    "url": "https://nicolas-hoizey.com/links/2025/12/03/a-new-or-rather-old-approach-to-typography-on-the-web/",
+    "lang": "en",
+    "title": "“A new (or rather, old) approach to typography on the web”",
+    "date_published": "2025-12-03T09:04:58Z",
+    "content_text": "“A new (or rather, old) approach to typography on the web” by Alvin Leung, Taha Hossain, Shen Gao, Ben Giannis and Rafi Rizky\n\n🔗 https://www.daybreak.studio/writing/adaline-typography\n\n> The strongest type systems are opinionated. They respond thoughtfully to the environment they inhabit, carrying a voice that cannot be captured by easy standardization. Crafted with care, they open a rich visual dialogue between words, meaning, and the reader.\n\n#Web #typography #CSS #DesignSystem\n\n⚓️ https://nicolas-hoizey.com/links/2025/12/03/a-new-or-rather-old-approach-to-typography-on-the-web/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.daybreak.studio/writing/adaline-typography",
+        "mime_type": "image/png",
+        "title": "Screenshot of A new (or rather, old) approach to typography on the web"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/115655946720541834"
+    ],
+    "lastTootTimestamp": 1764769694957
   }
 }
