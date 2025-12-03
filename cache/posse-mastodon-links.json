@@ -5300,5 +5300,24 @@
       "https://mamot.fr/users/nhoizey/statuses/115655946720541834"
     ],
     "lastTootTimestamp": 1764769694957
+  },
+  "https://nicolas-hoizey.com/links/2025/12/03/just-fucking-use-html/": {
+    "id": "https://nicolas-hoizey.com/links/2025/12/03/just-fucking-use-html/",
+    "url": "https://nicolas-hoizey.com/links/2025/12/03/just-fucking-use-html/",
+    "lang": "en",
+    "title": "“Just fucking use HTML”",
+    "date_published": "2025-12-03T17:41:42Z",
+    "content_text": "“Just fucking use HTML” by @kyrylosilin@mastodon.social\n\n🔗 https://justfuckingusehtml.com/\n\n> Newsflash, asshole: the web was doing just fine before your bloated frameworks crawled out of the sewer. You're out here dropping ten grand on some fancy-ass framework like it's a Gucci purse, just to haul around the same shitty groceries you could've carried in a plastic bag from 1995. Why the hell are you jumping through all these hoops when HTML's been sitting…\n\n#HTML\n\n⚓️ https://nicolas-hoizey.com/links/2025/12/03/just-fucking-use-html/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://justfuckingusehtml.com/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Just fucking use HTML"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/115657331249010812"
+    ],
+    "lastTootTimestamp": 1764790821166
   }
 }
