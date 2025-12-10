@@ -5319,5 +5319,24 @@
       "https://mamot.fr/users/nhoizey/statuses/115657331249010812"
     ],
     "lastTootTimestamp": 1764790821166
+  },
+  "https://nicolas-hoizey.com/links/2025/12/10/fascintern-media/": {
+    "id": "https://nicolas-hoizey.com/links/2025/12/10/fascintern-media/",
+    "url": "https://nicolas-hoizey.com/links/2025/12/10/fascintern-media/",
+    "lang": "en",
+    "title": "“Fascintern Media”",
+    "date_published": "2025-12-10T13:58:25Z",
+    "content_text": "“Fascintern Media” by @robin@mastodon.social\n\n🔗 https://berjon.com/fascintern-media/\n\n> Based on conversations I've had with people who still maintain an active presence there (and I'm not counting journalists who don't post but read it for coverage purposes), my conclusion is that non-fascists who stay on X do so for a simple reason: they have a completely faulty understanding of how power works in the digital sphere and operate according to mental models…\n\n#X #society\n\n⚓️ https://nicolas-hoizey.com/links/2025/12/10/fascintern-media/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://berjon.com/fascintern-media/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Fascintern Media"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/115696282888059632"
+    ],
+    "lastTootTimestamp": 1765385176040
   }
 }
