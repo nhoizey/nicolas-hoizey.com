@@ -5361,5 +5361,56 @@
       "https://mamot.fr/users/nhoizey/statuses/115801731079863918"
     ],
     "lastTootTimestamp": 1766994187720
+  },
+  "https://nicolas-hoizey.com/links/2026/01/11/furious-ai-users-say-their-prompts-are-being-plagiarized/": {
+    "id": "https://nicolas-hoizey.com/links/2026/01/11/furious-ai-users-say-their-prompts-are-being-plagiarized/",
+    "url": "https://nicolas-hoizey.com/links/2026/01/11/furious-ai-users-say-their-prompts-are-being-plagiarized/",
+    "lang": "en",
+    "title": "“Furious AI Users Say Their Prompts Are Being Plagiarized”",
+    "date_published": "2026-01-11T13:59:18Z",
+    "content_text": "“Furious AI Users Say Their Prompts Are Being Plagiarized” by Joe Wilkins\n\n🔗 https://futurism.com/artificial-intelligence/ai-prompt-plagiarism-art\n\n> Some power users of generative AI have grown so comfortable with their new tools — especially image-generating ones — that they now feel entitled to the specific prompts they use to churn out slop, as if the entire technology wasn’t based on the work of human artists that had been ingested without consent.\n\n#AI\n\n⚓️ https://nicolas-hoizey.com/links/2026/01/11/furious-ai-users-say-their-prompts-are-being-plagiarized/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://futurism.com/artificial-intelligence/ai-prompt-plagiarism-art",
+        "mime_type": "image/png",
+        "title": "Screenshot of Furious AI Users Say Their Prompts Are Being Plagiarized"
+      }
+    ],
+    "toots": []
+  },
+  "https://nicolas-hoizey.com/links/2026/01/09/not-all-browser-apis-are-web-apis/": {
+    "id": "https://nicolas-hoizey.com/links/2026/01/09/not-all-browser-apis-are-web-apis/",
+    "url": "https://nicolas-hoizey.com/links/2026/01/09/not-all-browser-apis-are-web-apis/",
+    "lang": "en",
+    "title": "“Not All Browser APIs Are “Web” APIs”",
+    "date_published": "2026-01-09T11:03:12Z",
+    "content_text": "“Not All Browser APIs Are “Web” APIs” by @Kilian@mastodon.social\n\n🔗 https://polypane.app/blog/not-all-browser-apis-are-web-apis/\n\n> The web is a level playing field. The web is open. The web is for everyone.\n> \n> It's a nice idea.\n> \n> But with the above APIs, the web is not a level playing field. Big players have the resources to build and maintain the services these APIs depend on. They can afford to offer them for free to their users because they have other ways…\n\n#standards #browser #API\n\n⚓️ https://nicolas-hoizey.com/links/2026/01/09/not-all-browser-apis-are-web-apis/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://polypane.app/blog/not-all-browser-apis-are-web-apis/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Not All Browser APIs Are “Web” APIs"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/115918511250102065"
+    ],
+    "lastTootTimestamp": 1768776111736
+  },
+  "https://nicolas-hoizey.com/links/2025/12/22/8-million-users-ai-conversations-sold-for-profit-by-privacy-extensions/": {
+    "id": "https://nicolas-hoizey.com/links/2025/12/22/8-million-users-ai-conversations-sold-for-profit-by-privacy-extensions/",
+    "url": "https://nicolas-hoizey.com/links/2025/12/22/8-million-users-ai-conversations-sold-for-profit-by-privacy-extensions/",
+    "lang": "en",
+    "title": "“8 Million Users&#39; AI Conversations Sold for Profit by “Privacy” Extensions”",
+    "date_published": "2025-12-22T09:01:38Z",
+    "content_text": "“8 Million Users' AI Conversations Sold for Profit by “Privacy” Extensions” by Idan Dardikman\n\n🔗 https://www.koi.ai/blog/urban-vpn-browser-extension-ai-conversations-data-collection\n\n> Midway through the conversation, I paused. I realized how much I'd shared: not just this decision, but months of conversations-personal dilemmas, health questions, financial details, work frustrations, things I hadn't told anyone else. I'd developed a level of candor with my AI assistant that I don't have…\n\n#AI #extension #Chrome #Google\n\n⚓️ https://nicolas-hoizey.com/links/2025/12/22/8-million-users-ai-conversations-sold-for-profit-by-privacy-extensions/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.koi.ai/blog/urban-vpn-browser-extension-ai-conversations-data-collection",
+        "mime_type": "image/png",
+        "title": "Screenshot of 8 Million Users&#39; AI Conversations Sold for Profit by “Privacy” Extensions"
+      }
+    ],
+    "toots": []
   }
 }
