@@ -1,6 +1,6 @@
 ---
 date: 2025-12-22 09:01:38 +00:00
-title: "8 Million Users' AI Conversations Sold for Profit by "Privacy" Extensions"
+title: "8 Million Users' AI Conversations Sold for Profit by “Privacy” Extensions"
 lang: en
 link: https://www.koi.ai/blog/urban-vpn-browser-extension-ai-conversations-data-collection
 authors:
