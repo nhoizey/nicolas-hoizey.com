@@ -5377,9 +5377,10 @@
       }
     ],
     "toots": [
-      "https://mamot.fr/users/nhoizey/statuses/115920646308305526"
+      "https://mamot.fr/users/nhoizey/statuses/115920646308305526",
+      "https://mamot.fr/users/nhoizey/statuses/115969484359127799"
     ],
-    "lastTootTimestamp": 1768808690124
+    "lastTootTimestamp": 1769553899646
   },
   "https://nicolas-hoizey.com/links/2026/01/09/not-all-browser-apis-are-web-apis/": {
     "id": "https://nicolas-hoizey.com/links/2026/01/09/not-all-browser-apis-are-web-apis/",
