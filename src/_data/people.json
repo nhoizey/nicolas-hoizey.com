@@ -574,6 +574,10 @@
     "mastodon": "@collinsworth@mastodon.sandwich.net",
     "site": "https://joshcollinsworth.com/"
   },
+	"Josh Tumath": {
+		"site": "https://www.joshtumath.uk/",
+		"mastodon": "@joshtumath@mastodon.social"
+	},
   "Josh W. Comeau": {
     "mastodon": "@joshwcomeau@bird.makeup",
     "twitter": "joshwcomeau",
