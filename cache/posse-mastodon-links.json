@@ -5421,5 +5421,24 @@
       "https://mamot.fr/users/nhoizey/statuses/115971602376598474"
     ],
     "lastTootTimestamp": 1769586218008
+  },
+  "https://nicolas-hoizey.com/links/2026/01/28/try-text-scaling-support-in-chrome-canary/": {
+    "id": "https://nicolas-hoizey.com/links/2026/01/28/try-text-scaling-support-in-chrome-canary/",
+    "url": "https://nicolas-hoizey.com/links/2026/01/28/try-text-scaling-support-in-chrome-canary/",
+    "lang": "en",
+    "title": "“Try text scaling support in Chrome Canary”",
+    "date_published": "2026-01-28T09:41:26Z",
+    "content_text": "“Try text scaling support in Chrome Canary” by @joshtumath@mastodon.social\n\n🔗 https://www.joshtumath.uk/posts/2026-01-27-try-text-scaling-support-in-chrome-canary/\n\n> Just like how the `<meta name=viewport>` tag tells the browser that your website is designed to work for small viewport sizes, the `<meta name=text-scale>` tells the browser, 'Hey, I've designed my website to still work if the user increases their OS text size.'\n\n#accessibility #em #rem #CSS\n\n⚓️ https://nicolas-hoizey.com/links/2026/01/28/try-text-scaling-support-in-chrome-canary/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.joshtumath.uk/posts/2026-01-27-try-text-scaling-support-in-chrome-canary/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Try text scaling support in Chrome Canary"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/115972328949313826"
+    ],
+    "lastTootTimestamp": 1769597304626
   }
 }
