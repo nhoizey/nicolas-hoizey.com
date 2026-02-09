@@ -5441,5 +5441,24 @@
       "https://mamot.fr/users/nhoizey/statuses/116020459298786208"
     ],
     "lastTootTimestamp": 1770331715480
+  },
+  "https://nicolas-hoizey.com/links/2026/02/09/webspace-invaders/": {
+    "id": "https://nicolas-hoizey.com/links/2026/02/09/webspace-invaders/",
+    "url": "https://nicolas-hoizey.com/links/2026/02/09/webspace-invaders/",
+    "lang": "en",
+    "title": "“Webspace Invaders”",
+    "date_published": "2026-02-09T15:46:29Z",
+    "content_text": "“Webspace Invaders” by @matthiasott@mastodon.social\n\n🔗 https://matthiasott.com/articles/webspace-invaders\n\n> We built the web on optimistic assumptions. We assumed good faith. We assumed people would respect robots.txt because we all understood we were building something great together. We created these protocols and conventions because we believed in mutual respect and shared purpose. The Web was supposed to be for everyone.\n> \n> But when training data becomes worth billions…\n\n#AI\n\n⚓️ https://nicolas-hoizey.com/links/2026/02/09/webspace-invaders/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://matthiasott.com/articles/webspace-invaders",
+        "mime_type": "image/png",
+        "title": "Screenshot of Webspace Invaders"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/116042435012542680"
+    ],
+    "lastTootTimestamp": 1770667038279
   }
 }
