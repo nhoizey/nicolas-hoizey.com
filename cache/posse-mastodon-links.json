@@ -5460,5 +5460,24 @@
       "https://mamot.fr/users/nhoizey/statuses/116042435012542680"
     ],
     "lastTootTimestamp": 1770667038279
+  },
+  "https://nicolas-hoizey.com/links/2026/02/11/overview-of-css-only-scrolling-shadows-and-content-fading-techniques/": {
+    "id": "https://nicolas-hoizey.com/links/2026/02/11/overview-of-css-only-scrolling-shadows-and-content-fading-techniques/",
+    "url": "https://nicolas-hoizey.com/links/2026/02/11/overview-of-css-only-scrolling-shadows-and-content-fading-techniques/",
+    "lang": "en",
+    "title": "“Overview of CSS-only scrolling shadows and content fading techniques”",
+    "date_published": "2026-02-11T10:45:26Z",
+    "content_text": "“Overview of CSS-only scrolling shadows and content fading techniques” by @isellsoap@mastodon.social\n\n🔗 https://isellsoap.net/articles/overview-css-scrolling-shadows-and-content-fading-techniques/\n\n> When content overflows and the scrollbar is insufficient or intentionally hidden, visual cues such as scroll shadows or fading effects signal that additional material extends beyond the visible region.\n> \n> This is an overview of five CSS techniques for implementing these cues, for both vertical and horizontal scrolling.\n\n#CSS\n\n⚓️ https://nicolas-hoizey.com/links/2026/02/11/overview-of-css-only-scrolling-shadows-and-content-fading-techniques/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://isellsoap.net/articles/overview-css-scrolling-shadows-and-content-fading-techniques/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Overview of CSS-only scrolling shadows and content fading techniques"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/116051627574526933"
+    ],
+    "lastTootTimestamp": 1770807305644
   }
 }
