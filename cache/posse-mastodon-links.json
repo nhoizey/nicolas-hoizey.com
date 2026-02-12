@@ -5479,5 +5479,24 @@
       "https://mamot.fr/users/nhoizey/statuses/116051627574526933"
     ],
     "lastTootTimestamp": 1770807305644
+  },
+  "https://nicolas-hoizey.com/links/2026/02/12/backseat-software/": {
+    "id": "https://nicolas-hoizey.com/links/2026/02/12/backseat-software/",
+    "url": "https://nicolas-hoizey.com/links/2026/02/12/backseat-software/",
+    "lang": "en",
+    "title": "“Backseat Software”",
+    "date_published": "2026-02-12T12:39:03Z",
+    "content_text": "“Backseat Software” by @anyware@mastodon.social\n\n🔗 https://blog.mikeswanson.com/backseat-software/\n\n> let’s make software that respects your attention, does its job well, and lets you get on with your life. That’s what good software used to feel like and what it could feel like again. Good software is a tool that you operate, not a channel that operates on you.\n\n#UX\n\n⚓️ https://nicolas-hoizey.com/links/2026/02/12/backseat-software/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://blog.mikeswanson.com/backseat-software/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Backseat Software"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/116058017619047388"
+    ],
+    "lastTootTimestamp": 1770904809952
   }
 }
