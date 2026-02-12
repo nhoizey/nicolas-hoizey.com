@@ -33,9 +33,7 @@ jobs:
           cacheTimestampFile: 'posse-mastodon-${{ env.TYPE }}-timestamp.json'
           # 3 hours between links
           globalDelayToots: 180
-          nbTootsPerItem: 2
-          # 8.5 days between same links
-          delayTootsSameItem: 12240
+          nbTootsPerItem: 1
 
       - name: Pull any changes from Git 📥
         run: git pull
