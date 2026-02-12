@@ -832,6 +832,10 @@
     "twitter": "MikeRiethmuller",
     "site": "https://www.madebymike.com.au/"
   },
+	"Mike Swanson": {
+		"site": "https://blog.mikeswanson.com/",
+		"mastodon": "@anyware@mastodon.social"
+	},
   "Miriam Suzanne": {
     "mastodon": "@mia@front-end.social",
     "twitter": "mirisuzanne",
