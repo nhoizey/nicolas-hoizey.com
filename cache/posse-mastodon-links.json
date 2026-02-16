@@ -5498,5 +5498,24 @@
       "https://mamot.fr/users/nhoizey/statuses/116058017619047388"
     ],
     "lastTootTimestamp": 1770904809952
+  },
+  "https://nicolas-hoizey.com/links/2026/02/16/the-logo-soup-problem-and-how-to-solve-it/": {
+    "id": "https://nicolas-hoizey.com/links/2026/02/16/the-logo-soup-problem-and-how-to-solve-it/",
+    "url": "https://nicolas-hoizey.com/links/2026/02/16/the-logo-soup-problem-and-how-to-solve-it/",
+    "lang": "en",
+    "title": "“The logo soup problem (and how to solve it)”",
+    "date_published": "2026-02-16T14:43:11Z",
+    "content_text": "“The logo soup problem (and how to solve it)” by Rostislav Melkumyan\n\n🔗 https://www.sanity.io/blog/the-logo-soup-problem\n\n> A deep dive into the math behind making mismatched brand logos actually look good together. And a tiny React library that does it for you.\n\nI wish it was a vanilla JavaScript solution, not limited to React…\n\n#design #JavaScript\n\n⚓️ https://nicolas-hoizey.com/links/2026/02/16/the-logo-soup-problem-and-how-to-solve-it/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.sanity.io/blog/the-logo-soup-problem",
+        "mime_type": "image/png",
+        "title": "Screenshot of The logo soup problem (and how to solve it)"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/116081352347505817"
+    ],
+    "lastTootTimestamp": 1771260869663
   }
 }
