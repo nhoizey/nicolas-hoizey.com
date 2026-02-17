@@ -5517,5 +5517,40 @@
       "https://mamot.fr/users/nhoizey/statuses/116081352347505817"
     ],
     "lastTootTimestamp": 1771260869663
+  },
+  "https://nicolas-hoizey.com/links/2026/02/17/unsung-heroes-flickr-s-urls-scheme/": {
+    "id": "https://nicolas-hoizey.com/links/2026/02/17/unsung-heroes-flickr-s-urls-scheme/",
+    "url": "https://nicolas-hoizey.com/links/2026/02/17/unsung-heroes-flickr-s-urls-scheme/",
+    "lang": "en",
+    "title": "“Unsung heroes: Flickr’s URLs scheme”",
+    "date_published": "2026-02-17T15:50:16Z",
+    "content_text": "“Unsung heroes: Flickr’s URLs scheme” by @mwichary@mastodon.online\n\n🔗 https://unsung.aresluna.org/unsung-heroes-flickrs-urls-scheme/\n\n> This might seem silly. The user interface of URLs? Who types in or edits URLs by hand? But keyboards are still the most efficient entry device. If a place you’re going is where you’ve already been, typing a few letters might get you there much faster than waiting for pages to load, clicking, and so on. It might get you there even faster than sifting…\n\n#Flickr #URL\n\n⚓️ https://nicolas-hoizey.com/links/2026/02/17/unsung-heroes-flickr-s-urls-scheme/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://unsung.aresluna.org/unsung-heroes-flickrs-urls-scheme/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Unsung heroes: Flickr’s URLs scheme"
+      }
+    ],
+    "toots": []
+  },
+  "https://nicolas-hoizey.com/links/2026/02/17/a-newbie-s-guide-to-self-hosting-with-yunohost/": {
+    "id": "https://nicolas-hoizey.com/links/2026/02/17/a-newbie-s-guide-to-self-hosting-with-yunohost/",
+    "url": "https://nicolas-hoizey.com/links/2026/02/17/a-newbie-s-guide-to-self-hosting-with-yunohost/",
+    "lang": "en",
+    "title": "“A newbie&#39;s guide to self-hosting with YunoHost”",
+    "date_published": "2026-02-17T15:46:20Z",
+    "content_text": "“A newbie's guide to self-hosting with YunoHost” by @_elena@mastodon.social\n\n🔗 https://blog.elenarossini.com/a-newbies-guide-to-self-hosting-with-yunohost/\n\n> Here is a four-part guide showing non-technical people how to get started self-hosting essential internet services with the YunoHost system.\n\n#openSource\n\n⚓️ https://nicolas-hoizey.com/links/2026/02/17/a-newbie-s-guide-to-self-hosting-with-yunohost/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://blog.elenarossini.com/a-newbies-guide-to-self-hosting-with-yunohost/",
+        "mime_type": "image/png",
+        "title": "Screenshot of A newbie&#39;s guide to self-hosting with YunoHost"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/116087020595647757"
+    ],
+    "lastTootTimestamp": 1771347360280
   }
 }
