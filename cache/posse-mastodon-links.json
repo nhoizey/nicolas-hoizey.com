@@ -5532,7 +5532,10 @@
         "title": "Screenshot of Unsung heroes: Flickr’s URLs scheme"
       }
     ],
-    "toots": []
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/116088413007789777"
+    ],
+    "lastTootTimestamp": 1771368606776
   },
   "https://nicolas-hoizey.com/links/2026/02/17/a-newbie-s-guide-to-self-hosting-with-yunohost/": {
     "id": "https://nicolas-hoizey.com/links/2026/02/17/a-newbie-s-guide-to-self-hosting-with-yunohost/",
