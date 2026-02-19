@@ -5574,5 +5574,24 @@
       "https://mamot.fr/users/nhoizey/statuses/116093376908314188"
     ],
     "lastTootTimestamp": 1771444349906
+  },
+  "https://nicolas-hoizey.com/links/2026/02/19/de-spa-a-mpa-reprendre-en-main-la-performance/": {
+    "id": "https://nicolas-hoizey.com/links/2026/02/19/de-spa-a-mpa-reprendre-en-main-la-performance/",
+    "url": "https://nicolas-hoizey.com/links/2026/02/19/de-spa-a-mpa-reprendre-en-main-la-performance/",
+    "lang": "fr",
+    "title": "“De SPA à MPA : reprendre en main la performance”",
+    "date_published": "2026-02-19T10:47:32Z",
+    "content_text": "“De SPA à MPA : reprendre en main la performance” by Raphaël Dardeau\n\n🔗 https://medium.com/lequipe-tech/de-spa-%C3%A0-mpa-reprendre-en-main-la-performance-500c506d2983\n\n> Avec une SPA, la performance dépend d’un temps d’exécution global de l’application, alors qu’avec une MPA, elle découle directement du travail réellement nécessaire pour afficher la page. En résumé, passer de SPA à MPA a été, pour notre site web, une réduction de la complexité là où elle n’apportait plus de valeur,…\n\n#WebPerf #CoreWebVitals #SPA #MPA #JavaScript\n\n⚓️ https://nicolas-hoizey.com/links/2026/02/19/de-spa-a-mpa-reprendre-en-main-la-performance/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://medium.com/lequipe-tech/de-spa-%C3%A0-mpa-reprendre-en-main-la-performance-500c506d2983",
+        "mime_type": "image/png",
+        "title": "Screenshot of De SPA à MPA : reprendre en main la performance"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/116097649917232622"
+    ],
+    "lastTootTimestamp": 1771509550841
   }
 }
