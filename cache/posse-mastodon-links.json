@@ -5593,5 +5593,24 @@
       "https://mamot.fr/users/nhoizey/statuses/116097649917232622"
     ],
     "lastTootTimestamp": 1771509550841
+  },
+  "https://nicolas-hoizey.com/links/2026/03/01/ai-policy/": {
+    "id": "https://nicolas-hoizey.com/links/2026/03/01/ai-policy/",
+    "url": "https://nicolas-hoizey.com/links/2026/03/01/ai-policy/",
+    "lang": "en",
+    "title": "“A.I. Policy”",
+    "date_published": "2026-03-01T09:16:09Z",
+    "content_text": "“A.I. Policy” by @chriskirknielsen@front-end.social\n\n🔗 https://chriskirknielsen.com/ai-policy/\n\n> I wanted to outline my take on “artificial intelligence” on this page as a more “pinned statement”, albeit non-exhaustive. While “A.I.” is a misnomer (which tends to amalgamate large language models, neural networks, and machine learning), that ship has sailed, so I will refer to it as such from here on out.\n\n#AI\n\n⚓️ https://nicolas-hoizey.com/links/2026/03/01/ai-policy/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://chriskirknielsen.com/ai-policy/",
+        "mime_type": "image/png",
+        "title": "Screenshot of A.I. Policy"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/116153510681451997"
+    ],
+    "lastTootTimestamp": 1772361918447
   }
 }
