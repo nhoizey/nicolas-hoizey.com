@@ -254,6 +254,10 @@
     "twitter": "moonlearning",
     "site": "https://www.moonlearning.io/"
   },
+	"Christopher Kirk-Nielsen": {
+		"site": "https://chriskirknielsen.com/",
+		"mastodon": "@chriskirknielsen@front-end.social"
+	},
   "Cliff Crocker": {
     "mastodon": "@cliff@webperf.social"
   },
