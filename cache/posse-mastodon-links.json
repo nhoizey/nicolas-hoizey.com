@@ -5612,5 +5612,24 @@
       "https://mamot.fr/users/nhoizey/statuses/116153510681451997"
     ],
     "lastTootTimestamp": 1772361918447
+  },
+  "https://nicolas-hoizey.com/links/2026/03/12/templater-snippets-for-obsidian/": {
+    "id": "https://nicolas-hoizey.com/links/2026/03/12/templater-snippets-for-obsidian/",
+    "url": "https://nicolas-hoizey.com/links/2026/03/12/templater-snippets-for-obsidian/",
+    "lang": "en",
+    "title": "“Templater snippets (for Obsidian)”",
+    "date_published": "2026-03-12T12:53:13Z",
+    "content_text": "“Templater snippets (for Obsidian)” by Zach Young\n\n🔗 https://zachyoung.dev/posts/templater-snippets\n\n> Snippets I’ve written for the Templater Obsidian plugin.\n\n#Obsidian\n\n⚓️ https://nicolas-hoizey.com/links/2026/03/12/templater-snippets-for-obsidian/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://zachyoung.dev/posts/templater-snippets",
+        "mime_type": "image/png",
+        "title": "Screenshot of Templater snippets (for Obsidian)"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/116217938913065422"
+    ],
+    "lastTootTimestamp": 1773345015333
   }
 }
