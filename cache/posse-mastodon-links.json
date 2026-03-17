@@ -5631,5 +5631,24 @@
       "https://mamot.fr/users/nhoizey/statuses/116217938913065422"
     ],
     "lastTootTimestamp": 1773345015333
+  },
+  "https://nicolas-hoizey.com/links/2026/03/17/the-49mb-web-page/": {
+    "id": "https://nicolas-hoizey.com/links/2026/03/17/the-49mb-web-page/",
+    "url": "https://nicolas-hoizey.com/links/2026/03/17/the-49mb-web-page/",
+    "lang": "en",
+    "title": "“The 49MB Web Page”",
+    "date_published": "2026-03-17T16:07:52Z",
+    "content_text": "“The 49MB Web Page” by Shubham Bose\n\n🔗 https://thatshubham.com/blog/news-audit\n\n> Good UX is highly desired and once you get it right, it feels almost natural, intuitive. The current state of news UI assumes that the reader is an adversary to be trapped and monetized. Choosing between a profitable publication and a fast, accessible user experience is not an either-or decision. I guarantee you the engineers at these publications hate this as much as we do, but…\n\n#UX #WebPerf\n\n⚓️ https://nicolas-hoizey.com/links/2026/03/17/the-49mb-web-page/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://thatshubham.com/blog/news-audit",
+        "mime_type": "image/png",
+        "title": "Screenshot of The 49MB Web Page"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/116245570193550332"
+    ],
+    "lastTootTimestamp": 1773766635137
   }
 }
