@@ -5650,5 +5650,56 @@
       "https://mamot.fr/users/nhoizey/statuses/116245570193550332"
     ],
     "lastTootTimestamp": 1773766635137
+  },
+  "https://nicolas-hoizey.com/links/2026/03/30/obs-js-context-aware-web-performance-for-everyone/": {
+    "id": "https://nicolas-hoizey.com/links/2026/03/30/obs-js-context-aware-web-performance-for-everyone/",
+    "url": "https://nicolas-hoizey.com/links/2026/03/30/obs-js-context-aware-web-performance-for-everyone/",
+    "lang": "en",
+    "title": "“Obs.js – context-aware web performance for everyone”",
+    "date_published": "2026-03-30T14:02:42Z",
+    "content_text": "“Obs.js – context-aware web performance for everyone” by @csswizardry@webperf.social\n\n🔗 https://csswizardry.com/Obs.js/demo/\n\n> Obs.js reads a handful of browser signals (Navigator and Battery APIs) to infer connection strength, battery status, and device capability. It exposes those signals as CSS classes on the `<html>` element, and as properties on window.obs, so you can adapt delivery accordingly: serve lower-resolution media, forgo web fonts, disable…\n\n#WebPerf\n\n⚓️ https://nicolas-hoizey.com/links/2026/03/30/obs-js-context-aware-web-performance-for-everyone/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://csswizardry.com/Obs.js/demo/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Obs.js – context-aware web performance for everyone"
+      }
+    ],
+    "toots": []
+  },
+  "https://nicolas-hoizey.com/links/2026/03/30/low-and-mid-tier-mobile-for-the-real-world-2025/": {
+    "id": "https://nicolas-hoizey.com/links/2026/03/30/low-and-mid-tier-mobile-for-the-real-world-2025/",
+    "url": "https://nicolas-hoizey.com/links/2026/03/30/low-and-mid-tier-mobile-for-the-real-world-2025/",
+    "lang": "en",
+    "title": "“Low- and Mid-Tier Mobile for the Real World (2025)”",
+    "date_published": "2026-03-30T13:30:08Z",
+    "content_text": "“Low- and Mid-Tier Mobile for the Real World (2025)” by @csswizardry@webperf.social\n\n🔗 https://csswizardry.com/2025/08/low-and-mid-tier-mobile-for-the-real-world-2025/\n\n> It’s important to remember that ‘low-tier’ does not mean old. Likewise, ‘mid-tier’ does not mean ‘a flagship from 2018’. They are a device class in their own right and it’s perfectly possible for your users to be using brand new low-tier devices. As such, we needn’t look to the past for our benchmarks.\n\n#WebPerf #mobile #device\n\n⚓️ https://nicolas-hoizey.com/links/2026/03/30/low-and-mid-tier-mobile-for-the-real-world-2025/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://csswizardry.com/2025/08/low-and-mid-tier-mobile-for-the-real-world-2025/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Low- and Mid-Tier Mobile for the Real World (2025)"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/116318514185130827"
+    ],
+    "lastTootTimestamp": 1774879672133
+  },
+  "https://nicolas-hoizey.com/links/2026/03/30/endgame-for-the-open-web/": {
+    "id": "https://nicolas-hoizey.com/links/2026/03/30/endgame-for-the-open-web/",
+    "url": "https://nicolas-hoizey.com/links/2026/03/30/endgame-for-the-open-web/",
+    "lang": "en",
+    "title": "“Endgame for the Open Web”",
+    "date_published": "2026-03-30T13:05:08Z",
+    "content_text": "“Endgame for the Open Web” by @anildash@me.dm\n\n🔗 https://www.anildash.com/2026/03/27/endgame-open-web/\n\n> The threat to the open web is far more profound than just some platforms that are under siege. The most egregious harm is the way that the generosity and grace of the people who keep the web open is being abused and exploited.\n\n#AI\n\n⚓️ https://nicolas-hoizey.com/links/2026/03/30/endgame-for-the-open-web/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.anildash.com/2026/03/27/endgame-open-web/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Endgame for the Open Web"
+      }
+    ],
+    "toots": []
   }
 }
