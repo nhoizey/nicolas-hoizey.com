@@ -5726,5 +5726,24 @@
       "https://mamot.fr/users/nhoizey/statuses/116377206094304550"
     ],
     "lastTootTimestamp": 1775775239604
+  },
+  "https://nicolas-hoizey.com/links/2026/04/10/ephemeral-media/": {
+    "id": "https://nicolas-hoizey.com/links/2026/04/10/ephemeral-media/",
+    "url": "https://nicolas-hoizey.com/links/2026/04/10/ephemeral-media/",
+    "lang": "en",
+    "title": "“Ephemeral Media”",
+    "date_published": "2026-04-10T18:16:43Z",
+    "content_text": "“Ephemeral Media” by @tylersticka@mastodon.social\n\n🔗 https://tylersticka.com/journal/ephemeral-media/\n\n> […] I’m a fan of physical media. You buy the work once, you get a nice little souvenir to enjoy, lend to a friend or sell to someone else. As long as you possess the artifact, you’re free to access its contents whenever you’d like… be it paper, tape, cartridge, disc or diskette.\n> \n> That’s the idea, anyway. The reality can be surprisingly complicated.\n\n#music #movie #game\n\n⚓️ https://nicolas-hoizey.com/links/2026/04/10/ephemeral-media/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://tylersticka.com/journal/ephemeral-media/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Ephemeral Media"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/116384993369354944"
+    ],
+    "lastTootTimestamp": 1775894063991
   }
 }
