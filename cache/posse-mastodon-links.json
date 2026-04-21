@@ -5745,5 +5745,24 @@
       "https://mamot.fr/users/nhoizey/statuses/116384993369354944"
     ],
     "lastTootTimestamp": 1775894063991
+  },
+  "https://nicolas-hoizey.com/links/2026/04/21/the-importance-of-people-who-care/": {
+    "id": "https://nicolas-hoizey.com/links/2026/04/21/the-importance-of-people-who-care/",
+    "url": "https://nicolas-hoizey.com/links/2026/04/21/the-importance-of-people-who-care/",
+    "lang": "en",
+    "title": "“The importance of people who care”",
+    "date_published": "2026-04-21T12:21:29Z",
+    "content_text": "“The importance of people who care” by @rachelandrew@front-end.social\n\n🔗 https://rachelandrew.co.uk/archives/2026/04/21/the-importance-of-people-who-care/\n\n> Design systems and editorial style guides need people who care. They need people who care about the small details, who obsess over consistency. They need people who are willing to push back, and who are happy to say no to the endless requests to ignore the guidelines just this one time. Yes, we’re sometimes very annoying to people who…\n\n#DesignSystem #quality\n\n⚓️ https://nicolas-hoizey.com/links/2026/04/21/the-importance-of-people-who-care/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://rachelandrew.co.uk/archives/2026/04/21/the-importance-of-people-who-care/",
+        "mime_type": "image/png",
+        "title": "Screenshot of The importance of people who care"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/116443103288423070"
+    ],
+    "lastTootTimestamp": 1776780750963
   }
 }
