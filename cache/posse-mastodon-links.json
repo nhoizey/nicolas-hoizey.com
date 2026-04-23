@@ -5764,5 +5764,24 @@
       "https://mamot.fr/users/nhoizey/statuses/116443103288423070"
     ],
     "lastTootTimestamp": 1776780750963
+  },
+  "https://nicolas-hoizey.com/links/2026/04/22/the-decline-of-webpagetest-after-the-catchpoint-era/": {
+    "id": "https://nicolas-hoizey.com/links/2026/04/22/the-decline-of-webpagetest-after-the-catchpoint-era/",
+    "url": "https://nicolas-hoizey.com/links/2026/04/22/the-decline-of-webpagetest-after-the-catchpoint-era/",
+    "lang": "en",
+    "title": "“The Decline of WebPageTest After the Catchpoint Era”",
+    "date_published": "2026-04-22T15:34:34Z",
+    "content_text": "“The Decline of WebPageTest After the Catchpoint Era” by @innoweb@mastodon.social\n\n🔗 https://www.innoweb.com.au/blog/the-slow-demise-of-webpagetest\n\n> The spirit of openness, clarity, and technical depth that defined it has been overshadowed by commercialisation and integration. I understand how this happens - it’s a familiar story for beloved tools after acquisition - but that doesn’t make it any less disappointing.\n\n#WebPageTest #WebPerf\n\n⚓️ https://nicolas-hoizey.com/links/2026/04/22/the-decline-of-webpagetest-after-the-catchpoint-era/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.innoweb.com.au/blog/the-slow-demise-of-webpagetest",
+        "mime_type": "image/png",
+        "title": "Screenshot of The Decline of WebPageTest After the Catchpoint Era"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/116453663461019394"
+    ],
+    "lastTootTimestamp": 1776941886418
   }
 }
