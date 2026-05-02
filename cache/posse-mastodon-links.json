@@ -5783,5 +5783,24 @@
       "https://mamot.fr/users/nhoizey/statuses/116453663461019394"
     ],
     "lastTootTimestamp": 1776941886418
+  },
+  "https://nicolas-hoizey.com/links/2026/04/30/scroll-driven-animations/": {
+    "id": "https://nicolas-hoizey.com/links/2026/04/30/scroll-driven-animations/",
+    "url": "https://nicolas-hoizey.com/links/2026/04/30/scroll-driven-animations/",
+    "lang": "en",
+    "title": "“Scroll-Driven Animations”",
+    "date_published": "2026-04-30T08:12:03Z",
+    "content_text": "“Scroll-Driven Animations” by @joshwcomeau@bird.makeup\n\n🔗 https://www.joshwcomeau.com/animation/scroll-driven-animations/\n\n> The CSSWG deserves a lot of credit, in my opinion, for repurposing/extending CSS keyframe animations for scroll-driven animations. Rather than invent an entirely new thing from scratch, they built it on top of existing structures, which means a bunch of our pre-existing skills and knowledge can immediately be applied!\n\n#CSS #animations\n\n⚓️ https://nicolas-hoizey.com/links/2026/04/30/scroll-driven-animations/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.joshwcomeau.com/animation/scroll-driven-animations/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Scroll-Driven Animations"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/116506735084041279"
+    ],
+    "lastTootTimestamp": 1777751695209
   }
 }
