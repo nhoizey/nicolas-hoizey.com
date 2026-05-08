@@ -5802,5 +5802,24 @@
       "https://mamot.fr/users/nhoizey/statuses/116506735084041279"
     ],
     "lastTootTimestamp": 1777751695209
+  },
+  "https://nicolas-hoizey.com/links/2026/05/07/lazy-and-prompt/": {
+    "id": "https://nicolas-hoizey.com/links/2026/05/07/lazy-and-prompt/",
+    "url": "https://nicolas-hoizey.com/links/2026/05/07/lazy-and-prompt/",
+    "lang": "en",
+    "title": "“Lazy and Prompt”",
+    "date_published": "2026-05-07T15:47:25Z",
+    "content_text": "“Lazy and Prompt” by @matthiasott@mastodon.social\n\n🔗 https://matthiasott.com/notes/lazy-and-prompt\n\n> The story of Chrome 148 is that Google – in the very same release – shipped the Prompt API, a feature that was met with explicit opposition from both Mozilla and WebKit, that the W3C TAG raised deep concerns about, and that the web community has been vocally and overwhelmingly against.\n\n#Google #Chrome #AI\n\n⚓️ https://nicolas-hoizey.com/links/2026/05/07/lazy-and-prompt/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://matthiasott.com/notes/lazy-and-prompt",
+        "mime_type": "image/png",
+        "title": "Screenshot of Lazy and Prompt"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/116539381315290238"
+    ],
+    "lastTootTimestamp": 1778249837057
   }
 }
