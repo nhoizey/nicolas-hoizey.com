@@ -5821,5 +5821,24 @@
       "https://mamot.fr/users/nhoizey/statuses/116539381315290238"
     ],
     "lastTootTimestamp": 1778249837057
+  },
+  "https://nicolas-hoizey.com/links/2026/05/11/ai-fatigue-is-real-and-nobody-talks-about-it/": {
+    "id": "https://nicolas-hoizey.com/links/2026/05/11/ai-fatigue-is-real-and-nobody-talks-about-it/",
+    "url": "https://nicolas-hoizey.com/links/2026/05/11/ai-fatigue-is-real-and-nobody-talks-about-it/",
+    "lang": "en",
+    "title": "“AI fatigue is real and nobody talks about it”",
+    "date_published": "2026-05-11T08:07:41Z",
+    "content_text": "“AI fatigue is real and nobody talks about it” by Siddhant Khare\n\n🔗 https://siddhantkhare.com/writing/ai-fatigue-is-real\n\n> If you're an engineer who uses AI daily - for design reviews, code generation, debugging, documentation, architecture decisions - and you've noticed that you're somehow more tired than before AI existed, this post is for you. You're not imagining it. You're not weak. You're experiencing something real that the industry is aggressively pretending doesn't exist.…\n\n#AI\n\n⚓️ https://nicolas-hoizey.com/links/2026/05/11/ai-fatigue-is-real-and-nobody-talks-about-it/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://siddhantkhare.com/writing/ai-fatigue-is-real",
+        "mime_type": "image/png",
+        "title": "Screenshot of AI fatigue is real and nobody talks about it"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/116556409985039969"
+    ],
+    "lastTootTimestamp": 1778509673975
   }
 }
