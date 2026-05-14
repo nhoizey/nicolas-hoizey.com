@@ -5840,5 +5840,40 @@
       "https://mamot.fr/users/nhoizey/statuses/116556409985039969"
     ],
     "lastTootTimestamp": 1778509673975
+  },
+  "https://nicolas-hoizey.com/links/2026/05/14/browsers-treat-big-sites-differently/": {
+    "id": "https://nicolas-hoizey.com/links/2026/05/14/browsers-treat-big-sites-differently/",
+    "url": "https://nicolas-hoizey.com/links/2026/05/14/browsers-treat-big-sites-differently/",
+    "lang": "en",
+    "title": "“Browsers Treat Big Sites Differently”",
+    "date_published": "2026-05-14T10:15:40Z",
+    "content_text": "“Browsers Treat Big Sites Differently” by Den Odell\n\n🔗 https://denodell.com/blog/browsers-treat-big-sites-differently\n\n> Standards were supposed to eliminate browser-specific code. We dug ourselves out of the IE era, celebrated, and then built exactly the same hole again around a different browser. Only now the browser-specific code lives in the browsers that aren’t dominant, patching over a web built for the one that is.\n\n#browser #standards #Chrome #Safari #Firefox\n\n⚓️ https://nicolas-hoizey.com/links/2026/05/14/browsers-treat-big-sites-differently/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://denodell.com/blog/browsers-treat-big-sites-differently",
+        "mime_type": "image/png",
+        "title": "Screenshot of Browsers Treat Big Sites Differently"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/116572658463098302"
+    ],
+    "lastTootTimestamp": 1778757606055
+  },
+  "https://nicolas-hoizey.com/links/2026/05/14/macbook-neo-deep-dive-benchmarks-wafer-economics-and-the-8gb-gamble/": {
+    "id": "https://nicolas-hoizey.com/links/2026/05/14/macbook-neo-deep-dive-benchmarks-wafer-economics-and-the-8gb-gamble/",
+    "url": "https://nicolas-hoizey.com/links/2026/05/14/macbook-neo-deep-dive-benchmarks-wafer-economics-and-the-8gb-gamble/",
+    "lang": "en",
+    "title": "“MacBook Neo Deep Dive: Benchmarks, Wafer Economics, and the 8GB Gamble”",
+    "date_published": "2026-05-14T10:06:16Z",
+    "content_text": "“MacBook Neo Deep Dive: Benchmarks, Wafer Economics, and the 8GB Gamble” by J.D. Hodges\n\n🔗 https://www.jdhodges.com/blog/macbook-neo-benchmarks-analysis/\n\n> The MacBook Neo is a genuinely impressive piece of engineering at an unprecedented Apple price point, strategically timed to exploit a market in crisis. The A18 Pro is not a compromise chip. It is the same core architecture as the M4, running at M3-to-M4 class performance for single-threaded work. Apple reused mature iPhone…\n\n#Mac #Apple\n\n⚓️ https://nicolas-hoizey.com/links/2026/05/14/macbook-neo-deep-dive-benchmarks-wafer-economics-and-the-8gb-gamble/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.jdhodges.com/blog/macbook-neo-benchmarks-analysis/",
+        "mime_type": "image/png",
+        "title": "Screenshot of MacBook Neo Deep Dive: Benchmarks, Wafer Economics, and the 8GB Gamble"
+      }
+    ],
+    "toots": []
   }
 }
