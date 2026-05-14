@@ -329,7 +329,8 @@
     "mastodon": "@DRoss@hachyderm.io"
   },
 	"Den Odell": {
-		"site": "https://denodell.com/"
+		"site": "https://denodell.com/",
+		"mastodon": "@denodell@mastodon.social"
 	},
   "Dion Almaer": {
     "site": "https://blog.almaer.com/",
