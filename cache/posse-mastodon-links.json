@@ -5897,5 +5897,40 @@
       "https://mamot.fr/users/nhoizey/statuses/116719261422664954"
     ],
     "lastTootTimestamp": 1780994589694
+  },
+  "https://nicolas-hoizey.com/links/2026/06/09/core-mobile-vitals-understand-how-your-users-feel-about-your-app/": {
+    "id": "https://nicolas-hoizey.com/links/2026/06/09/core-mobile-vitals-understand-how-your-users-feel-about-your-app/",
+    "url": "https://nicolas-hoizey.com/links/2026/06/09/core-mobile-vitals-understand-how-your-users-feel-about-your-app/",
+    "lang": "en",
+    "title": "“Core Mobile Vitals: Understand how your users feel about your app”",
+    "date_published": "2026-06-09T09:07:43Z",
+    "content_text": "“Core Mobile Vitals: Understand how your users feel about your app” by @tammy@webperf.social\n\n🔗 https://embrace.io/blog/core-mobile-vitals/\n\n> if you ask a mobile team “is your app healthy?”, you’ll probably get a 20-minute technical briefing that involves crash rates, ANRs, Apdex scores, CPU utilization, and a handful of other metrics that make total sense to engineers and mean absolutely nothing to everyone else in the building.\n> \n> To be clear, those…\n\n#WebPerf #mobile\n\n⚓️ https://nicolas-hoizey.com/links/2026/06/09/core-mobile-vitals-understand-how-your-users-feel-about-your-app/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://embrace.io/blog/core-mobile-vitals/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Core Mobile Vitals: Understand how your users feel about your app"
+      }
+    ],
+    "toots": []
+  },
+  "https://nicolas-hoizey.com/links/2026/06/09/store-speed-and-conversion-what-the-data-shows/": {
+    "id": "https://nicolas-hoizey.com/links/2026/06/09/store-speed-and-conversion-what-the-data-shows/",
+    "url": "https://nicolas-hoizey.com/links/2026/06/09/store-speed-and-conversion-what-the-data-shows/",
+    "lang": "en",
+    "title": "“Store Speed and Conversion: What the Data Shows”",
+    "date_published": "2026-06-09T08:52:13Z",
+    "content_text": "“Store Speed and Conversion: What the Data Shows” by Mateusz Krzeszowiak\n\n🔗 https://www.shopify.com/enterprise/blog/store-speed-conversion\n\n> Speed matters—but it's one of many variables. Our data shows a clear correlation between performance and conversion, though not direct causation. Every store is different, and factors like product catalog, marketing, and where your store is in its journey all play a role.\n\n#WebPerf #Shopify\n\n⚓️ https://nicolas-hoizey.com/links/2026/06/09/store-speed-and-conversion-what-the-data-shows/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.shopify.com/enterprise/blog/store-speed-conversion",
+        "mime_type": "image/png",
+        "title": "Screenshot of Store Speed and Conversion: What the Data Shows"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/116720615724732283"
+    ],
+    "lastTootTimestamp": 1781015254697
   }
 }
