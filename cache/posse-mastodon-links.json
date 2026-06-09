@@ -5847,7 +5847,7 @@
     "lang": "en",
     "title": "“Browsers Treat Big Sites Differently”",
     "date_published": "2026-05-14T10:15:40Z",
-    "content_text": "“Browsers Treat Big Sites Differently” by Den Odell\n\n🔗 https://denodell.com/blog/browsers-treat-big-sites-differently\n\n> Standards were supposed to eliminate browser-specific code. We dug ourselves out of the IE era, celebrated, and then built exactly the same hole again around a different browser. Only now the browser-specific code lives in the browsers that aren’t dominant, patching over a web built for the one that is.\n\n#browser #standards #Chrome #Safari #Firefox\n\n⚓️ https://nicolas-hoizey.com/links/2026/05/14/browsers-treat-big-sites-differently/",
+    "content_text": "“Browsers Treat Big Sites Differently” by @denodell@mastodon.social\n\n🔗 https://denodell.com/blog/browsers-treat-big-sites-differently\n\n> Standards were supposed to eliminate browser-specific code. We dug ourselves out of the IE era, celebrated, and then built exactly the same hole again around a different browser. Only now the browser-specific code lives in the browsers that aren’t dominant, patching over a web built for the one that is.\n\n#browser #standards #Chrome #Safari #Firefox\n\n⚓️ https://nicolas-hoizey.com/links/2026/05/14/browsers-treat-big-sites-differently/",
     "attachments": [
       {
         "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://denodell.com/blog/browsers-treat-big-sites-differently",
@@ -5878,5 +5878,24 @@
       "https://mamot.fr/users/nhoizey/statuses/116573385669643205"
     ],
     "lastTootTimestamp": 1778768702319
+  },
+  "https://nicolas-hoizey.com/links/2026/06/09/the-speed-of-trust-how-slow-pages-hurt-your-brand/": {
+    "id": "https://nicolas-hoizey.com/links/2026/06/09/the-speed-of-trust-how-slow-pages-hurt-your-brand/",
+    "url": "https://nicolas-hoizey.com/links/2026/06/09/the-speed-of-trust-how-slow-pages-hurt-your-brand/",
+    "lang": "en",
+    "title": "“The speed of trust: How slow pages hurt your brand”",
+    "date_published": "2026-06-09T08:30:46Z",
+    "content_text": "“The speed of trust: How slow pages hurt your brand” by @tammy@webperf.social\n\n🔗 https://www.speedcurve.com/blog/brand-perception/\n\n> Never underestimate the fragility of trust online. Users are constantly evaluating whether a site feels safe enough to enter personal details and complete transactions. Slow load times or janky interactions can subtly undermine that trust. When pages lag, people start to question other things […]\n\n#WebPerf\n\n⚓️ https://nicolas-hoizey.com/links/2026/06/09/the-speed-of-trust-how-slow-pages-hurt-your-brand/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.speedcurve.com/blog/brand-perception/",
+        "mime_type": "image/png",
+        "title": "Screenshot of The speed of trust: How slow pages hurt your brand"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/116719261422664954"
+    ],
+    "lastTootTimestamp": 1780994589694
   }
 }
