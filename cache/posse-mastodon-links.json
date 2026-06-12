@@ -5935,5 +5935,24 @@
       "https://mamot.fr/users/nhoizey/statuses/116720615724732283"
     ],
     "lastTootTimestamp": 1781015254697
+  },
+  "https://nicolas-hoizey.com/links/2026/06/12/ai-economics-for-dummies/": {
+    "id": "https://nicolas-hoizey.com/links/2026/06/12/ai-economics-for-dummies/",
+    "url": "https://nicolas-hoizey.com/links/2026/06/12/ai-economics-for-dummies/",
+    "lang": "en",
+    "title": "“AI Economics for Dummies”",
+    "date_published": "2026-06-12T13:24:51Z",
+    "content_text": "“AI Economics for Dummies” by Andrew Singleton\n\n🔗 https://www.mcsweeneys.net/articles/ai-economics-for-dummies\n\n> As AI companies get ready to go public and we get a deeper look at their inner workings, it’s only natural to have questions about their finances, like “Do they make money?” and “How?” Here are a few examples to help the average layperson understand the business side of AI.\n\n#AI #society\n\n⚓️ https://nicolas-hoizey.com/links/2026/06/12/ai-economics-for-dummies/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.mcsweeneys.net/articles/ai-economics-for-dummies",
+        "mime_type": "image/png",
+        "title": "Screenshot of AI Economics for Dummies"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/116737604975409347"
+    ],
+    "lastTootTimestamp": 1781274490103
   }
 }
