@@ -5954,5 +5954,24 @@
       "https://mamot.fr/users/nhoizey/statuses/116737604975409347"
     ],
     "lastTootTimestamp": 1781274490103
+  },
+  "https://nicolas-hoizey.com/links/2026/06/18/look-just-fucking-use-mastodon-already/": {
+    "id": "https://nicolas-hoizey.com/links/2026/06/18/look-just-fucking-use-mastodon-already/",
+    "url": "https://nicolas-hoizey.com/links/2026/06/18/look-just-fucking-use-mastodon-already/",
+    "lang": "en",
+    "title": "“Look, just fucking use Mastodon already”",
+    "date_published": "2026-06-18T11:24:08Z",
+    "content_text": "“Look, just fucking use Mastodon already” by @arilin@mast.giants-club.net\n\n🔗 https://giants-club.net/articles/just-use-mastodon/\n\n> Who could have predicted Bluesky could ever have run that risk? I mean, apart from everyone warning us that it was launched by weirdo alt-right blockchain-shilling AI-loving shitbird Jack Dorsey, and that their current CEO came from a weirdo alt-right blockchain-shilling AI-loving shitbird background. You know. Besides them.\n\n#Mastodon #Bluesky\n\n⚓️ https://nicolas-hoizey.com/links/2026/06/18/look-just-fucking-use-mastodon-already/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://giants-club.net/articles/just-use-mastodon/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Look, just fucking use Mastodon already"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/116770974133217075"
+    ],
+    "lastTootTimestamp": 1781783663009
   }
 }
