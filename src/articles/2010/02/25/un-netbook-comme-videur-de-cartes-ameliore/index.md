@@ -11,7 +11,7 @@ Je ne suis pas le seul à m'intéresser au sujet, comme le montre cette vidéo d
 
 https://vimeo.com/7731894
 
-J'envisage donc de plus en plus cet achat pour très prochainement — déçu qu'Apple sorte un iPad plutôt qu'un [MacBook Helium](/2008/09/a-quand-un-macbook-helium-pour-concurrencer-les-asus-eee-pc-msi-wind-et-autres-medion-akoya.html) — et je m'intéresse pour l'instant à cette alternative :
+J'envisage donc de plus en plus cet achat pour très prochainement — déçu qu'Apple sorte un iPad plutôt qu'un [MacBook Helium](/2008/09/24/a-quand-un-macbook-helium-pour-concurrencer-les-netbooks/) — et je m'intéresse pour l'instant à cette alternative :
 
 - soit un classique Netbook 10" pas trop encombrant, mais plutôt du genre costaud avec une coque métal plutôt que plastique et confortable en usage photo, comme le [HP Mini 5102](http://h10010.www1.hp.com/wwpc/fr/fr/sm/WF05a/321957-321957-64295-3955550-3955550-4094022.html)[^1] avec 2 Go de RAM et résolution 1366x768, mais sans l'option écran tactile qui ajoute du poids et de l'épaisseur[^2]
 - soit un ultraportable 8" — en fait un Netbook sans le côté *Low Cost* — comme le [Sony Vaio P-Series](http://www.sony.fr/product/vn-p-series), avec une résolution de 1600x768, 2 Go de RAM, etc.
