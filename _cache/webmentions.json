@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-09-10T00:08:55.427Z",
+  "lastFetched": "2026-09-10T12:05:06.359Z",
   "webmentions": [
     {
       "type": "entry",
@@ -194422,6 +194422,69 @@
       "wm-protocol": "webmention",
       "like-of": "https://nicolas-hoizey.com/notes/2021/12/15/1/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "PurpleGengar",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/8e31c439aa5c007286e6f669358b704364084490b033a60b538564be63f817b8.png",
+        "url": "https://lgbtqia.space/@Purplegengar25"
+      },
+      "url": "https://mamot.fr/@nhoizey/117246322383008661#favorited-by-116540212141335351",
+      "published": "2026-09-10T10:57:46Z",
+      "wm-received": "2026-09-10T10:57:46Z",
+      "wm-id": 2030871,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117246322383008661/116540212141335351",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/10/i-changed-my-license/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/10/i-changed-my-license/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "nicod, rebooteux ????????????⬜",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/8239edeaf85d0cd480541bcaec927a22296a2a9cb71a244348b55bacdfd49ef2.png",
+        "url": "https://diaspodon.fr/@nicod"
+      },
+      "url": "https://diaspodon.fr/@nicod/117246413249683529",
+      "published": "2026-09-10T11:04:48+00:00",
+      "wm-received": "2026-09-10T11:24:56Z",
+      "wm-id": 2030875,
+      "wm-source": "https://brid.gy/comment/mastodon/@nhoizey@mamot.fr/117246322383008661/117246413410484412",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/10/i-changed-my-license/",
+      "wm-protocol": "webmention",
+      "content": {
+        "content-type": "text/html",
+        "value": "<p><span class=\"h-card\"><a href=\"https://mamot.fr/@nhoizey\" class=\"u-url\">@<span>nhoizey</span></a></span> Merci, je n'avais jamais entendu parler de la EUPL.</p>\n<a class=\"u-mention\" href=\"https://bergie.iki.fi/blog/eupl/\"></a>",
+        "html": "<a href=\"https://mamot.fr/@nhoizey\">@nhoizey</a> Merci, je n'avais jamais entendu parler de la EUPL.",
+        "text": "@nhoizey Merci, je n'avais jamais entendu parler de la EUPL."
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2026/09/10/i-changed-my-license/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "nicod, rebooteux ????????????⬜",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/8239edeaf85d0cd480541bcaec927a22296a2a9cb71a244348b55bacdfd49ef2.png",
+        "url": "https://diaspodon.fr/@nicod"
+      },
+      "url": "https://mamot.fr/@nhoizey/117246322383008661#reblogged-by-497269",
+      "published": "2026-09-10T11:24:58Z",
+      "wm-received": "2026-09-10T11:24:58Z",
+      "wm-id": 2030876,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117246322383008661/497269",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/10/i-changed-my-license/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/09/10/i-changed-my-license/",
+      "wm-property": "repost-of",
       "wm-private": false
     }
   ]
