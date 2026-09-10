@@ -5992,5 +5992,24 @@
       "https://mamot.fr/users/nhoizey/statuses/116801275403772478"
     ],
     "lastTootTimestamp": 1782246023731
+  },
+  "https://nicolas-hoizey.com/links/2026/09/10/i-changed-my-license/": {
+    "id": "https://nicolas-hoizey.com/links/2026/09/10/i-changed-my-license/",
+    "url": "https://nicolas-hoizey.com/links/2026/09/10/i-changed-my-license/",
+    "lang": "en",
+    "title": "“I changed my license”",
+    "date_published": "2026-09-10T08:20:57Z",
+    "content_text": "“I changed my license” by Henri Bergius\n\n🔗 https://bergie.iki.fi/blog/eupl/\n\n> Over the years it has been clear that we in the “open source” camp (as opposed to the “free software” camp) were wrong all along. We won the debate, and gained little for users or developers. All that our efforts did was to make it easier for big corporations build things more cheaply and for billionaires to become trillionaires.\n> \n> And so it is time to stop messing about…\n\n#openSource\n\n⚓️ https://nicolas-hoizey.com/links/2026/09/10/i-changed-my-license/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://bergie.iki.fi/blog/eupl/",
+        "mime_type": "image/png",
+        "title": "Screenshot of I changed my license"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/117246322383008661"
+    ],
+    "lastTootTimestamp": 1789036901811
   }
 }
