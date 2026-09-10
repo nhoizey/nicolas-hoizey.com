@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-09-10T12:05:06.359Z",
+  "lastFetched": "2026-09-10T18:04:19.412Z",
   "webmentions": [
     {
       "type": "entry",
@@ -194485,6 +194485,63 @@
       "wm-protocol": "webmention",
       "repost-of": "https://nicolas-hoizey.com/links/2026/09/10/i-changed-my-license/",
       "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tyler Sticka",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/a3e8f10c9190a71c8b5813cb592445962f91252468058abbac98ecff88025553.png",
+        "url": "https://social.lol/@tylersticka"
+      },
+      "url": "https://mamot.fr/@nhoizey/117246322383008661#favorited-by-110651355078160221",
+      "published": "2026-09-10T14:21:36Z",
+      "wm-received": "2026-09-10T14:21:36Z",
+      "wm-id": 2030895,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117246322383008661/110651355078160221",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/10/i-changed-my-license/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/10/i-changed-my-license/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Landa :graz:",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/9dabeaa82a6d36835629d2b8110dfea00efa8e654692ce83243a7d1a9f40318a.jpg",
+        "url": "https://graz.social/@Landa"
+      },
+      "url": "https://mamot.fr/@nhoizey/117246322383008661#favorited-by-108267611015985911",
+      "published": "2026-09-10T14:22:03Z",
+      "wm-received": "2026-09-10T14:22:03Z",
+      "wm-id": 2030896,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117246322383008661/108267611015985911",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/10/i-changed-my-license/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/10/i-changed-my-license/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "roarrrr",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/d6fc8c0e23442adfab0e3de1c85378265557cb62eb9aedfa762b254c59debb76.jpg",
+        "url": "https://pixelfed.social/flaps015"
+      },
+      "url": "https://mamot.fr/@nhoizey/117246322383008661#favorited-by-114891269374305316",
+      "published": "2026-09-10T15:32:30Z",
+      "wm-received": "2026-09-10T15:32:30Z",
+      "wm-id": 2030906,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117246322383008661/114891269374305316",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/10/i-changed-my-license/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/10/i-changed-my-license/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
