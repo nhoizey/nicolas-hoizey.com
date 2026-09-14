@@ -6011,5 +6011,24 @@
       "https://mamot.fr/users/nhoizey/statuses/117246322383008661"
     ],
     "lastTootTimestamp": 1789036901811
+  },
+  "https://nicolas-hoizey.com/links/2026/09/14/the-case-against-jpeg-xl/": {
+    "id": "https://nicolas-hoizey.com/links/2026/09/14/the-case-against-jpeg-xl/",
+    "url": "https://nicolas-hoizey.com/links/2026/09/14/the-case-against-jpeg-xl/",
+    "lang": "en",
+    "title": "“The case against JPEG XL”",
+    "date_published": "2026-09-14T12:25:11Z",
+    "content_text": "“The case against JPEG XL” by @gianni@disobey.net\n\n🔗 https://giannirosato.com/blog/post/case-against-jxl/\n\n> JPEG XL isn't useless; it is genuinely compelling technology for use cases beyond the Web. I'm just not personally convinced we need it in browsers any time soon.\n\n#WebPerf #image #JPEGXL #AVIF\n\n⚓️ https://nicolas-hoizey.com/links/2026/09/14/the-case-against-jpeg-xl/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://giannirosato.com/blog/post/case-against-jxl/",
+        "mime_type": "image/png",
+        "title": "Screenshot of The case against JPEG XL"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/117269683318559812"
+    ],
+    "lastTootTimestamp": 1789393361454
   }
 }
