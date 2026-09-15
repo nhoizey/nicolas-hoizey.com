@@ -320,6 +320,10 @@
     "site": "http://davewiner.com/",
     "mastodon": "@davew@mastodon.social"
   },
+	"David Gerard": {
+		"site": "https://davidgerard.co.uk/",
+		"mastodon": "@davidgerard@circumstances.run"
+	},
   "David Heinemeier Hansson": {
     "twitter": "dhh"
   },
