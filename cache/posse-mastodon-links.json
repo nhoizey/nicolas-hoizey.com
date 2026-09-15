@@ -6065,5 +6065,24 @@
       "https://mamot.fr/users/nhoizey/statuses/117274636690561662"
     ],
     "lastTootTimestamp": 1789468943748
+  },
+  "https://nicolas-hoizey.com/links/2026/09/15/ai-2040-plan-a/": {
+    "id": "https://nicolas-hoizey.com/links/2026/09/15/ai-2040-plan-a/",
+    "url": "https://nicolas-hoizey.com/links/2026/09/15/ai-2040-plan-a/",
+    "lang": "en",
+    "title": "“AI 2040: Plan A”",
+    "date_published": "2026-09-15T12:22:01Z",
+    "content_text": "“AI 2040: Plan A” by \n\n🔗 https://ai-2040.com/\n\n> On the default path, the next presidential term will see AIs that are far beyond human level, created entirely by AIs, themselves created entirely by other AIs, without any human in the loop since several generations back. Will those AIs be obedient, aligned, etc.? Why? Who will control them if so? How exactly is all of this supposed to end well?\n\n#AI\n\n⚓️ https://nicolas-hoizey.com/links/2026/09/15/ai-2040-plan-a/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://ai-2040.com/",
+        "mime_type": "image/png",
+        "title": "Screenshot of AI 2040: Plan A"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/117275346162261916"
+    ],
+    "lastTootTimestamp": 1789479769484
   }
 }
