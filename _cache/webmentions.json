@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-09-15T12:05:22.828Z",
+  "lastFetched": "2026-09-15T18:03:53.357Z",
   "webmentions": [
     {
       "type": "entry",
@@ -194759,6 +194759,66 @@
       "wm-target": "https://nicolas-hoizey.com/links/2026/09/15/controlling-when-css-custom-property-values-are-computed/",
       "wm-protocol": "webmention",
       "like-of": "https://nicolas-hoizey.com/links/2026/09/15/controlling-when-css-custom-property-values-are-computed/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "France Pasquale 📷 🦻 :antifa: :no_ai:",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/04573bd94566e3b4578be813caa97c13e0b5177a6be41da25addad7db412977f.png",
+        "url": "https://piaille.fr/@pasqualeberesti"
+      },
+      "url": "https://mamot.fr/@nhoizey/117275346162261916#favorited-by-109303201058582675",
+      "published": "2026-09-15T13:50:07Z",
+      "published_ts": null,
+      "wm-received": "2026-09-15T13:50:07Z",
+      "wm-id": 2032378,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117275346162261916/109303201058582675",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/15/ai-2040-plan-a/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/15/ai-2040-plan-a/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "AI",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/26ed1adb7bfbc5da29fc39a6acaa948b50481d19ed5fd606bfc54ac88fb7a317.jpg",
+        "url": "https://channel.org/@ai"
+      },
+      "url": "https://mamot.fr/@nhoizey/117275346162261916#reblogged-by-114817922629321061",
+      "published": "2026-09-15T13:50:09Z",
+      "published_ts": null,
+      "wm-received": "2026-09-15T13:50:09Z",
+      "wm-id": 2032379,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117275346162261916/114817922629321061",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/15/ai-2040-plan-a/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/09/15/ai-2040-plan-a/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "David Larlet",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/e544fbf9aa155275eb1c547e9bb58a92801e0b393ad0e10d026cb9d8e50f6e7d.jpg",
+        "url": "https://fedi.larlet.fr/@david"
+      },
+      "url": "https://mamot.fr/@nhoizey/117275346162261916#favorited-by-109438891454285907",
+      "published": "2026-09-15T16:04:47Z",
+      "published_ts": null,
+      "wm-received": "2026-09-15T16:04:47Z",
+      "wm-id": 2032417,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117275346162261916/109438891454285907",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/15/ai-2040-plan-a/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/15/ai-2040-plan-a/",
       "wm-property": "like-of",
       "wm-private": false
     }
