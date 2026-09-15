@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-09-15T06:06:20.420Z",
+  "lastFetched": "2026-09-15T12:05:22.828Z",
   "webmentions": [
     {
       "type": "entry",
@@ -194719,6 +194719,46 @@
       "wm-target": "https://nicolas-hoizey.com/links/2026/09/14/the-case-against-jpeg-xl/",
       "wm-protocol": "webmention",
       "like-of": "https://nicolas-hoizey.com/links/2026/09/14/the-case-against-jpeg-xl/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jake Archibald",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/56a7b9670b9b37f1c4e931af0245613c01e536e8d43eb454edafaa8262d9b485.jpg",
+        "url": "https://mastodon.social/@jaffathecake"
+      },
+      "url": "https://mamot.fr/@nhoizey/117274636690561662#favorited-by-5044",
+      "published": "2026-09-15T10:44:46Z",
+      "published_ts": null,
+      "wm-received": "2026-09-15T10:44:46Z",
+      "wm-id": 2032316,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117274636690561662/5044",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/15/controlling-when-css-custom-property-values-are-computed/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/15/controlling-when-css-custom-property-values-are-computed/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Benoît Launay",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/00f0d16c5d5a303ea2b3ff3a84f2b4c5e533663da46eab738561d0802a05f701.png",
+        "url": "https://mamot.fr/@Nephou"
+      },
+      "url": "https://mamot.fr/@nhoizey/117274636690561662#favorited-by-20251",
+      "published": "2026-09-15T11:17:03Z",
+      "published_ts": null,
+      "wm-received": "2026-09-15T11:17:03Z",
+      "wm-id": 2032320,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117274636690561662/20251",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/15/controlling-when-css-custom-property-values-are-computed/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/15/controlling-when-css-custom-property-values-are-computed/",
       "wm-property": "like-of",
       "wm-private": false
     }
