@@ -6030,5 +6030,40 @@
       "https://mamot.fr/users/nhoizey/statuses/117269683318559812"
     ],
     "lastTootTimestamp": 1789393361454
+  },
+  "https://nicolas-hoizey.com/links/2026/09/15/students-who-don-t-use-ai-are-ahead-on-every-measure/": {
+    "id": "https://nicolas-hoizey.com/links/2026/09/15/students-who-don-t-use-ai-are-ahead-on-every-measure/",
+    "url": "https://nicolas-hoizey.com/links/2026/09/15/students-who-don-t-use-ai-are-ahead-on-every-measure/",
+    "lang": "en",
+    "title": "“Students who don’t use AI are ahead on every measure”",
+    "date_published": "2026-09-15T09:50:52Z",
+    "content_text": "“Students who don’t use AI are ahead on every measure” by @davidgerard@circumstances.run\n\n🔗 https://pivot-to-ai.com/2026/09/08/students-who-dont-use-ai-are-ahead-on-every-measure/\n\n> In the same way that we do not become fit by watching sports but by doing sports, learning does not occur through the consumption of content, but as a productive cognitive struggle of the mind with new material.\n\n#AI\n\n⚓️ https://nicolas-hoizey.com/links/2026/09/15/students-who-don-t-use-ai-are-ahead-on-every-measure/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://pivot-to-ai.com/2026/09/08/students-who-dont-use-ai-are-ahead-on-every-measure/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Students who don’t use AI are ahead on every measure"
+      }
+    ],
+    "toots": []
+  },
+  "https://nicolas-hoizey.com/links/2026/09/15/controlling-when-css-custom-property-values-are-computed/": {
+    "id": "https://nicolas-hoizey.com/links/2026/09/15/controlling-when-css-custom-property-values-are-computed/",
+    "url": "https://nicolas-hoizey.com/links/2026/09/15/controlling-when-css-custom-property-values-are-computed/",
+    "lang": "en",
+    "title": "“Controlling when CSS custom property values are computed”",
+    "date_published": "2026-09-15T09:46:56Z",
+    "content_text": "“Controlling when CSS custom property values are computed” by @jaffathecake@mastodon.social\n\n🔗 https://jakearchibald.com/2026/css-custom-property-compute-time/\n\n> When and how CSS custom property values are calculated might not be what you expect, and it has a big impact on your styles.\n\n#CSS\n\n⚓️ https://nicolas-hoizey.com/links/2026/09/15/controlling-when-css-custom-property-values-are-computed/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://jakearchibald.com/2026/css-custom-property-compute-time/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Controlling when CSS custom property values are computed"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/117274636690561662"
+    ],
+    "lastTootTimestamp": 1789468943748
   }
 }
