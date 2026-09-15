@@ -3,8 +3,6 @@ date: 2026-09-15 12:22:01 +00:00
 title: "AI 2040: Plan A"
 lang: en
 link: https://ai-2040.com/
-authors:
-  - ""
 tags: [AI]
 ---
 
