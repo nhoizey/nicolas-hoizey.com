@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-09-15T00:09:40.956Z",
+  "lastFetched": "2026-09-15T06:06:20.420Z",
   "webmentions": [
     {
       "type": "entry",
@@ -194696,6 +194696,26 @@
       "wm-received": "2026-09-14T21:35:54Z",
       "wm-id": 2032186,
       "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117269683318559812/109303353215325198",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/14/the-case-against-jpeg-xl/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/14/the-case-against-jpeg-xl/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Olliew",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/34dc415be8fd1d2bd830fc27db8d1300547d611cdeba97959a375be7b6c8483c.jpg",
+        "url": "https://indieweb.social/@Olliew"
+      },
+      "url": "https://mamot.fr/@nhoizey/117269683318559812#favorited-by-109744320439033984",
+      "published": "2026-09-15T03:50:57Z",
+      "published_ts": null,
+      "wm-received": "2026-09-15T03:50:57Z",
+      "wm-id": 2032246,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117269683318559812/109744320439033984",
       "wm-target": "https://nicolas-hoizey.com/links/2026/09/14/the-case-against-jpeg-xl/",
       "wm-protocol": "webmention",
       "like-of": "https://nicolas-hoizey.com/links/2026/09/14/the-case-against-jpeg-xl/",
