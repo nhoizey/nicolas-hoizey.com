@@ -6045,7 +6045,10 @@
         "title": "Screenshot of Students who don’t use AI are ahead on every measure"
       }
     ],
-    "toots": []
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/117276754436287344"
+    ],
+    "lastTootTimestamp": 1789501258085
   },
   "https://nicolas-hoizey.com/links/2026/09/15/controlling-when-css-custom-property-values-are-computed/": {
     "id": "https://nicolas-hoizey.com/links/2026/09/15/controlling-when-css-custom-property-values-are-computed/",
@@ -6072,7 +6075,7 @@
     "lang": "en",
     "title": "“AI 2040: Plan A”",
     "date_published": "2026-09-15T12:22:01Z",
-    "content_text": "“AI 2040: Plan A” by \n\n🔗 https://ai-2040.com/\n\n> On the default path, the next presidential term will see AIs that are far beyond human level, created entirely by AIs, themselves created entirely by other AIs, without any human in the loop since several generations back. Will those AIs be obedient, aligned, etc.? Why? Who will control them if so? How exactly is all of this supposed to end well?\n\n#AI\n\n⚓️ https://nicolas-hoizey.com/links/2026/09/15/ai-2040-plan-a/",
+    "content_text": "“AI 2040: Plan A”\n\n🔗 https://ai-2040.com/\n\n> On the default path, the next presidential term will see AIs that are far beyond human level, created entirely by AIs, themselves created entirely by other AIs, without any human in the loop since several generations back. Will those AIs be obedient, aligned, etc.? Why? Who will control them if so? How exactly is all of this supposed to end well?\n\n#AI\n\n⚓️ https://nicolas-hoizey.com/links/2026/09/15/ai-2040-plan-a/",
     "attachments": [
       {
         "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://ai-2040.com/",
