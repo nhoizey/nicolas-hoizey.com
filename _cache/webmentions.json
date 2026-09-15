@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-09-11T18:04:04.171Z",
+  "lastFetched": "2026-09-15T00:09:40.956Z",
   "webmentions": [
     {
       "type": "entry",
@@ -194579,6 +194579,126 @@
       "wm-target": "https://nicolas-hoizey.com/links/2026/09/10/i-changed-my-license/",
       "wm-protocol": "webmention",
       "like-of": "https://nicolas-hoizey.com/links/2026/09/10/i-changed-my-license/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "roarrrr",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/345f242958d71ce1ca040954cc4e025302905b9a0384e36e16d5d4242e664811.jpg",
+        "url": "https://pixelfed.social/flaps015"
+      },
+      "url": "https://mamot.fr/@nhoizey/117269683318559812#favorited-by-114891269374305316",
+      "published": "2026-09-14T14:31:56Z",
+      "published_ts": null,
+      "wm-received": "2026-09-14T14:31:56Z",
+      "wm-id": 2032029,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117269683318559812/114891269374305316",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/14/the-case-against-jpeg-xl/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/14/the-case-against-jpeg-xl/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Pep",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/c3a212c0943cdce9dd3ac62e3ba83bbc4d87f3121929897eaab726054a92bd82.jpg",
+        "url": "https://mstdn.nrkn.fr/@Pep"
+      },
+      "url": "https://mamot.fr/@nhoizey/117269683318559812#favorited-by-70427",
+      "published": "2026-09-14T14:59:25Z",
+      "published_ts": null,
+      "wm-received": "2026-09-14T14:59:25Z",
+      "wm-id": 2032043,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117269683318559812/70427",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/14/the-case-against-jpeg-xl/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/14/the-case-against-jpeg-xl/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Will Browar 👨🏻‍💻",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/7719d95b97f1d033c73b29249015bc3eb43252475bf5a9b9db59061fd7c0f50d.jpg",
+        "url": "https://hachyderm.io/@wbrowar"
+      },
+      "url": "https://mamot.fr/@nhoizey/117269683318559812#favorited-by-109778596975374496",
+      "published": "2026-09-14T16:30:00Z",
+      "published_ts": null,
+      "wm-received": "2026-09-14T16:30:00Z",
+      "wm-id": 2032073,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117269683318559812/109778596975374496",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/14/the-case-against-jpeg-xl/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/14/the-case-against-jpeg-xl/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Gianni Rosato",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/b2d1fe14bb72fea63add18df56f83690435fdafe4780d7dd670562d0c2c52086.jpg",
+        "url": "https://disobey.net/@gianni"
+      },
+      "url": "https://mamot.fr/@nhoizey/117269683318559812#reblogged-by-109360775664623044",
+      "published": "2026-09-14T21:09:32Z",
+      "published_ts": null,
+      "wm-received": "2026-09-14T21:09:32Z",
+      "wm-id": 2032173,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117269683318559812/109360775664623044",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/14/the-case-against-jpeg-xl/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/09/14/the-case-against-jpeg-xl/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Gianni Rosato",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/b2d1fe14bb72fea63add18df56f83690435fdafe4780d7dd670562d0c2c52086.jpg",
+        "url": "https://disobey.net/@gianni"
+      },
+      "url": "https://mamot.fr/@nhoizey/117269683318559812#favorited-by-109360775664623044",
+      "published": "2026-09-14T21:09:32Z",
+      "published_ts": null,
+      "wm-received": "2026-09-14T21:09:32Z",
+      "wm-id": 2032172,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117269683318559812/109360775664623044",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/14/the-case-against-jpeg-xl/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/14/the-case-against-jpeg-xl/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Eric Portis",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/6b3b9bc7dd2b1579c5120214de95fac1f65d50c215f38f3253cf8c43cf33a361.jpg",
+        "url": "https://front-end.social/@eeeps"
+      },
+      "url": "https://mamot.fr/@nhoizey/117269683318559812#favorited-by-109303353215325198",
+      "published": "2026-09-14T21:35:54Z",
+      "published_ts": null,
+      "wm-received": "2026-09-14T21:35:54Z",
+      "wm-id": 2032186,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117269683318559812/109303353215325198",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/14/the-case-against-jpeg-xl/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/14/the-case-against-jpeg-xl/",
       "wm-property": "like-of",
       "wm-private": false
     }
