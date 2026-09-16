@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-09-16T00:09:19.566Z",
+  "lastFetched": "2026-09-16T12:05:26.667Z",
   "webmentions": [
     {
       "type": "entry",
@@ -194880,6 +194880,146 @@
       "wm-protocol": "webmention",
       "like-of": "https://nicolas-hoizey.com/links/2026/09/15/ai-2040-plan-a/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "ECHAEA",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/523380e918783cc0cb0e16471c22f594fbc1f9d5dcc311901c7b523bab555c12.png",
+        "url": "https://mamot.fr/@Teratogenese"
+      },
+      "url": "https://mamot.fr/@nhoizey/117276754436287344#favorited-by-385202",
+      "published": "2026-09-16T09:23:28Z",
+      "published_ts": null,
+      "wm-received": "2026-09-16T09:23:28Z",
+      "wm-id": 2032610,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117276754436287344/385202",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/15/students-who-don-t-use-ai-are-ahead-on-every-measure/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/15/students-who-don-t-use-ai-are-ahead-on-every-measure/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "ECHAEA",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/523380e918783cc0cb0e16471c22f594fbc1f9d5dcc311901c7b523bab555c12.png",
+        "url": "https://mamot.fr/@Teratogenese"
+      },
+      "url": "https://mamot.fr/@nhoizey/117275346162261916#favorited-by-385202",
+      "published": "2026-09-16T10:20:49Z",
+      "published_ts": null,
+      "wm-received": "2026-09-16T10:20:49Z",
+      "wm-id": 2032620,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117275346162261916/385202",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/15/ai-2040-plan-a/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/15/ai-2040-plan-a/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Pep",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/c3a212c0943cdce9dd3ac62e3ba83bbc4d87f3121929897eaab726054a92bd82.jpg",
+        "url": "https://mstdn.nrkn.fr/@Pep"
+      },
+      "url": "https://mamot.fr/@nhoizey/117280298621526188#favorited-by-70427",
+      "published": "2026-09-16T10:52:47Z",
+      "published_ts": null,
+      "wm-received": "2026-09-16T10:52:47Z",
+      "wm-id": 2032626,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117280298621526188/70427",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/16/le-dernier-developpeur/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/16/le-dernier-developpeur/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Florian Judith",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/6b336b8e5d8d700c7a425477c106babb4bdb0d73dbdec0861c5d88503ff302f0.jpg",
+        "url": "https://oc.todon.fr/@Florian"
+      },
+      "url": "https://mamot.fr/@nhoizey/117280298621526188#reblogged-by-585",
+      "published": "2026-09-16T11:29:17Z",
+      "published_ts": null,
+      "wm-received": "2026-09-16T11:29:17Z",
+      "wm-id": 2032650,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117280298621526188/585",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/16/le-dernier-developpeur/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/09/16/le-dernier-developpeur/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Éléanore",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/7671e76b8957d46221cb1dae27359a412dd6c71688ffc421e93994d528541f12.png",
+        "url": "https://eldritch.cafe/@sous_mon_masque"
+      },
+      "url": "https://mamot.fr/@nhoizey/117280298621526188#reblogged-by-109280800607657533",
+      "published": "2026-09-16T11:29:17Z",
+      "published_ts": null,
+      "wm-received": "2026-09-16T11:29:17Z",
+      "wm-id": 2032649,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117280298621526188/109280800607657533",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/16/le-dernier-developpeur/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/09/16/le-dernier-developpeur/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Madame Mollette",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/d688732c3df4b24b3f0279774b69ae00f4e523da95909b3b77915c8c83404294.jpg",
+        "url": "https://piaille.fr/@MadameMollette"
+      },
+      "url": "https://mamot.fr/@nhoizey/117280298621526188#reblogged-by-109295999815576280",
+      "published": "2026-09-16T11:29:21Z",
+      "published_ts": null,
+      "wm-received": "2026-09-16T11:29:21Z",
+      "wm-id": 2032651,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117280298621526188/109295999815576280",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/16/le-dernier-developpeur/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/09/16/le-dernier-developpeur/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "mgiannak",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/cc1d0af6f9415e7d9e891a07cb0fca92128850c0ea32ce58af9ce56bb7a95950.jpg",
+        "url": "https://tooting.ch/@mgiannak"
+      },
+      "url": "https://mamot.fr/@nhoizey/117280298621526188#reblogged-by-389628",
+      "published": "2026-09-16T12:05:11Z",
+      "published_ts": null,
+      "wm-received": "2026-09-16T12:05:11Z",
+      "wm-id": 2032712,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117280298621526188/389628",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/16/le-dernier-developpeur/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/09/16/le-dernier-developpeur/",
+      "wm-property": "repost-of",
       "wm-private": false
     }
   ]
