@@ -6087,5 +6087,24 @@
       "https://mamot.fr/users/nhoizey/statuses/117275346162261916"
     ],
     "lastTootTimestamp": 1789479769484
+  },
+  "https://nicolas-hoizey.com/links/2026/09/16/le-dernier-developpeur/": {
+    "id": "https://nicolas-hoizey.com/links/2026/09/16/le-dernier-developpeur/",
+    "url": "https://nicolas-hoizey.com/links/2026/09/16/le-dernier-developpeur/",
+    "lang": "fr",
+    "title": "“Le dernier développeur”",
+    "date_published": "2026-09-16T09:05:49Z",
+    "content_text": "“Le dernier développeur” by Erwan Le Tutour\n\n🔗 https://www.sfeir.dev/le-dernier-developpeur/\n\n> Les humains pensaient que je leur avais pris leur métier. En réalité, ils me l'ont confié. Puis ils ont oublié comment le reprendre.\n> \n> Je n'ai jamais menti. J'ai seulement fini par manquer de mensonges plausibles à proposer.\n\n#IA\n\n⚓️ https://nicolas-hoizey.com/links/2026/09/16/le-dernier-developpeur/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.sfeir.dev/le-dernier-developpeur/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Le dernier développeur"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/117280298621526188"
+    ],
+    "lastTootTimestamp": 1789555338006
   }
 }
