@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-09-15T18:03:53.357Z",
+  "lastFetched": "2026-09-16T00:09:19.566Z",
   "webmentions": [
     {
       "type": "entry",
@@ -194816,6 +194816,66 @@
       "wm-received": "2026-09-15T16:04:47Z",
       "wm-id": 2032417,
       "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117275346162261916/109438891454285907",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/15/ai-2040-plan-a/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/15/ai-2040-plan-a/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "nicod, rebooteux 🟥🟧🟨⬜",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/8239edeaf85d0cd480541bcaec927a22296a2a9cb71a244348b55bacdfd49ef2.png",
+        "url": "https://diaspodon.fr/@nicod"
+      },
+      "url": "https://mamot.fr/@nhoizey/117276754436287344#reblogged-by-497269",
+      "published": "2026-09-15T20:37:01Z",
+      "published_ts": null,
+      "wm-received": "2026-09-15T20:37:01Z",
+      "wm-id": 2032499,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117276754436287344/497269",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/15/students-who-don-t-use-ai-are-ahead-on-every-measure/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/09/15/students-who-don-t-use-ai-are-ahead-on-every-measure/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Noah Liebman",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/e2d621b39879d96dde7984fa7a5976e5758f1d01122789b81a4b7740cfcdfe8c.jpg",
+        "url": "https://mastodon.social/@noleli"
+      },
+      "url": "https://mamot.fr/@nhoizey/117276754436287344#favorited-by-108111",
+      "published": "2026-09-15T20:37:01Z",
+      "published_ts": null,
+      "wm-received": "2026-09-15T20:37:01Z",
+      "wm-id": 2032498,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117276754436287344/108111",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/15/students-who-don-t-use-ai-are-ahead-on-every-measure/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/15/students-who-don-t-use-ai-are-ahead-on-every-measure/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Poujol 𝖱u𝗌𝗍 ✅",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/dc039b1145d8ec5ec1a87e12fd4c8766caeaa0e4cfe3e07dc08df21d9e595dd0.png",
+        "url": "https://mstdn.jp/@poujolrost"
+      },
+      "url": "https://mamot.fr/@nhoizey/117275346162261916#favorited-by-76360",
+      "published": "2026-09-16T00:02:41Z",
+      "published_ts": null,
+      "wm-received": "2026-09-16T00:02:41Z",
+      "wm-id": 2032524,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117275346162261916/76360",
       "wm-target": "https://nicolas-hoizey.com/links/2026/09/15/ai-2040-plan-a/",
       "wm-protocol": "webmention",
       "like-of": "https://nicolas-hoizey.com/links/2026/09/15/ai-2040-plan-a/",
