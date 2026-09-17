@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-09-17T00:08:53.405Z",
+  "lastFetched": "2026-09-17T12:05:23.562Z",
   "webmentions": [
     {
       "type": "entry",
@@ -195959,6 +195959,26 @@
       "wm-target": "https://nicolas-hoizey.com/links/2026/09/15/students-who-don-t-use-ai-are-ahead-on-every-measure/",
       "wm-protocol": "webmention",
       "like-of": "https://nicolas-hoizey.com/links/2026/09/15/students-who-don-t-use-ai-are-ahead-on-every-measure/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "roarrrr",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/345f242958d71ce1ca040954cc4e025302905b9a0384e36e16d5d4242e664811.jpg",
+        "url": "https://pixelfed.social/flaps015"
+      },
+      "url": "https://mamot.fr/@nhoizey/117285964537071168#favorited-by-114891269374305316",
+      "published": "2026-09-17T11:08:28Z",
+      "published_ts": null,
+      "wm-received": "2026-09-17T11:08:28Z",
+      "wm-id": 2033116,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117285964537071168/114891269374305316",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/17/a-human-artist-s-defense-of-ai-art/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/17/a-human-artist-s-defense-of-ai-art/",
       "wm-property": "like-of",
       "wm-private": false
     }
