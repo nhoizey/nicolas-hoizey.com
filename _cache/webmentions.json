@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-09-16T18:04:09.749Z",
+  "lastFetched": "2026-09-17T00:08:53.405Z",
   "webmentions": [
     {
       "type": "entry",
@@ -195840,6 +195840,126 @@
       "wm-protocol": "webmention",
       "repost-of": "https://nicolas-hoizey.com/links/2026/09/15/students-who-don-t-use-ai-are-ahead-on-every-measure/",
       "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ko-Fan Chen 陳克帆",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/f4f6c5dd746288bb09b381b2864a93a57e3970389e769fbc8b0d69ba51b550b6.png",
+        "url": "https://biologists.social/@kofanchen"
+      },
+      "url": "https://mamot.fr/@nhoizey/117276754436287344#reblogged-by-114743637263595797",
+      "published": "2026-09-16T18:27:47Z",
+      "published_ts": null,
+      "wm-received": "2026-09-16T18:27:47Z",
+      "wm-id": 2032920,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117276754436287344/114743637263595797",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/15/students-who-don-t-use-ai-are-ahead-on-every-measure/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/09/15/students-who-don-t-use-ai-are-ahead-on-every-measure/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Raptor's Nest (He/Him)",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/4b78a6e09b76f9037d2b59fdd18a883a5d6c7ed9e4b06175a3a45671b7691ec0.png",
+        "url": "https://ecoevo.social/@drmambobob"
+      },
+      "url": "https://mamot.fr/@nhoizey/117276754436287344#reblogged-by-109483051467940119",
+      "published": "2026-09-16T18:27:48Z",
+      "published_ts": null,
+      "wm-received": "2026-09-16T18:27:48Z",
+      "wm-id": 2032921,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117276754436287344/109483051467940119",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/15/students-who-don-t-use-ai-are-ahead-on-every-measure/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/09/15/students-who-don-t-use-ai-are-ahead-on-every-measure/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Joachim",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/0d6318a7e0e97c3d3b72939529884d8262539d6aa84329db96ddc3533cf51b22.jpg",
+        "url": "https://boitam.eu/@joachim"
+      },
+      "url": "https://mamot.fr/@nhoizey/117276754436287344#favorited-by-1041",
+      "published": "2026-09-16T18:57:41Z",
+      "published_ts": null,
+      "wm-received": "2026-09-16T18:57:41Z",
+      "wm-id": 2032931,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117276754436287344/1041",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/15/students-who-don-t-use-ai-are-ahead-on-every-measure/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/15/students-who-don-t-use-ai-are-ahead-on-every-measure/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Fred",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/6d682b319c20fba11bcd0d5d12ce5d0f26914de319fc9eef23eeb5a0450c41e8.jpg",
+        "url": "https://ruhr.social/@laubblaeser"
+      },
+      "url": "https://mamot.fr/@nhoizey/117276754436287344#favorited-by-109303039735111500",
+      "published": "2026-09-16T20:03:43Z",
+      "published_ts": null,
+      "wm-received": "2026-09-16T20:03:43Z",
+      "wm-id": 2032948,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117276754436287344/109303039735111500",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/15/students-who-don-t-use-ai-are-ahead-on-every-measure/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/15/students-who-don-t-use-ai-are-ahead-on-every-measure/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Flit 🦊 🔥",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/8dd7bfde4169da21ee6fd57514aa2b26a0bdb5e0553c50149594b93dfff0f5a7.png",
+        "url": "https://guild.pmdcollab.org/@flit"
+      },
+      "url": "https://mamot.fr/@nhoizey/117276754436287344#favorited-by-109553516077998968",
+      "published": "2026-09-16T22:08:00Z",
+      "published_ts": null,
+      "wm-received": "2026-09-16T22:08:00Z",
+      "wm-id": 2032975,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117276754436287344/109553516077998968",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/15/students-who-don-t-use-ai-are-ahead-on-every-measure/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/15/students-who-don-t-use-ai-are-ahead-on-every-measure/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "\"Mutant Rob\" Robert Rothenberg",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/bf1ba9982222d5461ee632a9b4bde8430fc37959d2e79e215460a05a47117530.jpg",
+        "url": "https://infosec.exchange/@rrwo"
+      },
+      "url": "https://mamot.fr/@nhoizey/117276754436287344#favorited-by-114388752883384737",
+      "published": "2026-09-16T22:36:52Z",
+      "published_ts": null,
+      "wm-received": "2026-09-16T22:36:52Z",
+      "wm-id": 2032979,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117276754436287344/114388752883384737",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/15/students-who-don-t-use-ai-are-ahead-on-every-measure/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/15/students-who-don-t-use-ai-are-ahead-on-every-measure/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
