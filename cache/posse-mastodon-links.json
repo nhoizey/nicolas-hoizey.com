@@ -6106,5 +6106,24 @@
       "https://mamot.fr/users/nhoizey/statuses/117280298621526188"
     ],
     "lastTootTimestamp": 1789555338006
+  },
+  "https://nicolas-hoizey.com/links/2026/09/17/a-human-artist-s-defense-of-ai-art/": {
+    "id": "https://nicolas-hoizey.com/links/2026/09/17/a-human-artist-s-defense-of-ai-art/",
+    "url": "https://nicolas-hoizey.com/links/2026/09/17/a-human-artist-s-defense-of-ai-art/",
+    "lang": "en",
+    "title": "“A Human Artist&#39;s Defense of AI Art”",
+    "date_published": "2026-09-17T09:06:54Z",
+    "content_text": "“A Human Artist's Defense of AI Art” by Asher Perlman\n\n🔗 https://asherperlman.substack.com/p/a-human-artists-defense-of-ai-art\n\n> The truth is: human-made art had a nice, long run. I understand you might still bristle at AI-generated content for other reasons, like its environmental impact or the aforementioned fact that it is literally theft. But as an artist, I have to admit that the quality is now super human. AI art, I give you three thumbs up.\n\n(This is a satire.)\n\n#AI\n\n⚓️ https://nicolas-hoizey.com/links/2026/09/17/a-human-artist-s-defense-of-ai-art/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://asherperlman.substack.com/p/a-human-artists-defense-of-ai-art",
+        "mime_type": "image/png",
+        "title": "Screenshot of A Human Artist&#39;s Defense of AI Art"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/117285964537071168"
+    ],
+    "lastTootTimestamp": 1789641792969
   }
 }
