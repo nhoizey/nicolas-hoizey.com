@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-09-17T12:05:23.562Z",
+  "lastFetched": "2026-09-19T00:09:09.970Z",
   "webmentions": [
     {
       "type": "entry",
@@ -195980,6 +195980,46 @@
       "wm-protocol": "webmention",
       "like-of": "https://nicolas-hoizey.com/links/2026/09/17/a-human-artist-s-defense-of-ai-art/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "grenobleluttes",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/b4076e8e78d306f6a00f4d0baba1ee5764f2c58c47d41a1c1366293b07c4ae2c.jpg",
+        "url": "https://kolektiva.social/@grenobleluttes"
+      },
+      "url": "https://mamot.fr/@nhoizey/117280298621526188#favorited-by-111500922075211700",
+      "published": "2026-09-18T19:30:25Z",
+      "published_ts": null,
+      "wm-received": "2026-09-18T19:30:25Z",
+      "wm-id": 2033488,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117280298621526188/111500922075211700",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/16/le-dernier-developpeur/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/16/le-dernier-developpeur/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "grenobleluttes",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/b4076e8e78d306f6a00f4d0baba1ee5764f2c58c47d41a1c1366293b07c4ae2c.jpg",
+        "url": "https://kolektiva.social/@grenobleluttes"
+      },
+      "url": "https://mamot.fr/@nhoizey/117280298621526188#reblogged-by-111500922075211700",
+      "published": "2026-09-18T19:30:26Z",
+      "published_ts": null,
+      "wm-received": "2026-09-18T19:30:26Z",
+      "wm-id": 2033489,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117280298621526188/111500922075211700",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/16/le-dernier-developpeur/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/09/16/le-dernier-developpeur/",
+      "wm-property": "repost-of",
       "wm-private": false
     }
   ]
