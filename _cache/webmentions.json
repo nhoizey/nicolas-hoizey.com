@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-09-19T00:09:09.970Z",
+  "lastFetched": "2026-09-22T18:04:34.149Z",
   "webmentions": [
     {
       "type": "entry",
@@ -196020,6 +196020,35 @@
       "wm-protocol": "webmention",
       "repost-of": "https://nicolas-hoizey.com/links/2026/09/16/le-dernier-developpeur/",
       "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://avatars.webmention.io/cdn.masto.host/68e6f1617572bd4c2158727e6c1693ec1d0ab76e3f29f51d93c5895ee2c8e6b0.jpg",
+        "url": "https://mamot.fr/@nhoizey"
+      },
+      "url": "https://mamot.fr/@nhoizey/117315690269825120",
+      "published": "2026-09-22T16:42:51+00:00",
+      "published_ts": 1790095371,
+      "wm-received": "2026-09-22T16:58:39Z",
+      "wm-id": 2034491,
+      "wm-source": "https://brid.gy/post/mastodon/@zachleat@fediverse.zachleat.com/117315690387659482",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/22/ai-make-the-website-good/",
+      "wm-protocol": "webmention",
+      "photo": [
+        "https://static.mamot.fr/media_attachments/files/117/315/690/172/866/906/original/0e447bb7883b953d.png"
+      ],
+      "content": {
+        "content-type": "text/html",
+        "value": "<p>““AI, make the website good”” by <span class=\"h-card\"><a href=\"https://fediverse.zachleat.com/@zachleat\" class=\"u-url\">@<span>zachleat</span></a></span></p><p>🔗 <a href=\"https://www.zachleat.com/web/ai-websites/\"><span>https://www.</span><span>zachleat.com/web/ai-websites/</span><span></span></a></p><p>&gt; I’m always left wondering (suspecting the answer with hopeful optimism that my hunch is wrong this time): do these workflow improvements actually improve how people (technical or otherwise) experience software? Certainly we have more software. But is it better? I don’t know.</p><p><a href=\"https://mamot.fr/tags/AI\">#<span>AI</span></a> <a href=\"https://mamot.fr/tags/WebPerf\">#<span>WebPerf</span></a> <a href=\"https://mamot.fr/tags/UX\">#<span>UX</span></a></p><p>⚓️ <a href=\"https://nicolas-hoizey.com/links/2026/09/22/ai-make-the-website-good/\"><span>https://</span><span>nicolas-hoizey.com/links/2026/</span><span>09/22/ai-make-the-website-good/</span></a></p>\n<a class=\"p-category\" href=\"https://fediverse.zachleat.com/tags/ai\">ai</a>\n<a class=\"p-category\" href=\"https://fediverse.zachleat.com/tags/ux\">ux</a>\n<a class=\"p-category\" href=\"https://fediverse.zachleat.com/tags/webperf\">webperf</a>\n<a class=\"u-mention\" href=\"https://mamot.fr/tags/AI\"></a>\n<a class=\"u-mention\" href=\"https://mamot.fr/tags/UX\"></a>\n<a class=\"u-mention\" href=\"https://mamot.fr/tags/WebPerf\"></a>\n<a class=\"u-mention\" href=\"https://nicolas-hoizey.com/links/2026/09/22/ai-make-the-website-good/\"></a>\n<a class=\"u-mention\" href=\"https://www.zachleat.com/web/ai-websites/\"></a>",
+        "html": "““AI, make the website good”” by <a href=\"https://fediverse.zachleat.com/@zachleat\">@zachleat</a>🔗 <a href=\"https://www.zachleat.com/web/ai-websites/\">https://www.zachleat.com/web/ai-websites/</a>&gt; I’m always left wondering (suspecting the answer with hopeful optimism that my hunch is wrong this time): do these workflow improvements actually improve how people (technical or otherwise) experience software? Certainly we have more software. But is it better? I don’t know.<a href=\"https://mamot.fr/tags/AI\">#AI</a> <a href=\"https://mamot.fr/tags/WebPerf\">#WebPerf</a> <a href=\"https://mamot.fr/tags/UX\">#UX</a>⚓️ <a href=\"https://nicolas-hoizey.com/links/2026/09/22/ai-make-the-website-good/\">https://nicolas-hoizey.com/links/2026/09/22/ai-make-the-website-good/</a><br /><a href=\"https://fediverse.zachleat.com/tags/ai\">ai</a><br /><a href=\"https://fediverse.zachleat.com/tags/ux\">ux</a><br /><a href=\"https://fediverse.zachleat.com/tags/webperf\">webperf</a>",
+        "text": "““AI, make the website good”” by @zachleat\n\n🔗 https://www.zachleat.com/web/ai-websites/\n\n> I’m always left wondering (suspecting the answer with hopeful optimism that my hunch is wrong this time): do these workflow improvements actually improve how people (technical or otherwise) experience software? Certainly we have more software. But is it better? I don’t know.\n\n#AI #WebPerf #UX\n\n⚓️ https://nicolas-hoizey.com/links/2026/09/22/ai-make-the-website-good/\nai\nux\nwebperf"
+      },
+      "mention-of": "https://nicolas-hoizey.com/links/2026/09/22/ai-make-the-website-good/",
+      "wm-property": "mention-of",
       "wm-private": false
     }
   ]
