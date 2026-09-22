@@ -6125,5 +6125,24 @@
       "https://mamot.fr/users/nhoizey/statuses/117285964537071168"
     ],
     "lastTootTimestamp": 1789641792969
+  },
+  "https://nicolas-hoizey.com/links/2026/09/22/show-keystrokes-keystroke-shortcut-visualizer-custom-element/": {
+    "id": "https://nicolas-hoizey.com/links/2026/09/22/show-keystrokes-keystroke-shortcut-visualizer-custom-element/",
+    "url": "https://nicolas-hoizey.com/links/2026/09/22/show-keystrokes-keystroke-shortcut-visualizer-custom-element/",
+    "lang": "en",
+    "title": "“&lt;show-keystrokes&gt; – Keystroke &amp; Shortcut Visualizer Custom Element”",
+    "date_published": "2026-09-22T11:42:49Z",
+    "content_text": "“<show-keystrokes> – Keystroke & Shortcut Visualizer Custom Element” by @bramus@front-end.social\n\n🔗 https://show-keystrokes.netlify.app/\n\n> A zero-dependency custom element that visualizes live keystrokes, keyboard shortcuts (<kbd>CMD</kbd> + <kbd>A</kbd>, <kbd>SHIFT</kbd> + <kbd>CMD</kbd> + <kbd>T</kbd>, <kbd>SHIFT</kbd> + <kbd>ENTER</kbd>), and navigational keys (<kbd>→</kbd>, <kbd>SHIFT</kbd> + <kbd>TAB</kbd>) with macOS & Windows support and stylable…\n\n#development\n\n⚓️ https://nicolas-hoizey.com/links/2026/09/22/show-keystrokes-keystroke-shortcut-visualizer-custom-element/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://show-keystrokes.netlify.app/",
+        "mime_type": "image/png",
+        "title": "Screenshot of &lt;show-keystrokes&gt; – Keystroke &amp; Shortcut Visualizer Custom Element"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/117314980740397134"
+    ],
+    "lastTootTimestamp": 1790084545070
   }
 }
