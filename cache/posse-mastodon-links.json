@@ -6144,5 +6144,24 @@
       "https://mamot.fr/users/nhoizey/statuses/117314980740397134"
     ],
     "lastTootTimestamp": 1790084545070
+  },
+  "https://nicolas-hoizey.com/links/2026/09/22/ai-make-the-website-good/": {
+    "id": "https://nicolas-hoizey.com/links/2026/09/22/ai-make-the-website-good/",
+    "url": "https://nicolas-hoizey.com/links/2026/09/22/ai-make-the-website-good/",
+    "lang": "en",
+    "title": "““AI, make the website good””",
+    "date_published": "2026-09-22T14:32:52Z",
+    "content_text": "““AI, make the website good”” by @zachleat@zachleat.com\n\n🔗 https://www.zachleat.com/web/ai-websites/\n\n> I’m always left wondering (suspecting the answer with hopeful optimism that my hunch is wrong this time): do these workflow improvements actually improve how people (technical or otherwise) experience software? Certainly we have more software. But is it better? I don’t know.\n\n#AI #WebPerf #UX\n\n⚓️ https://nicolas-hoizey.com/links/2026/09/22/ai-make-the-website-good/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.zachleat.com/web/ai-websites/",
+        "mime_type": "image/png",
+        "title": "Screenshot of “AI, make the website good”"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/117315690269825120"
+    ],
+    "lastTootTimestamp": 1790095371652
   }
 }
