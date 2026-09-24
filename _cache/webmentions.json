@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-09-22T18:04:34.149Z",
+  "lastFetched": "2026-09-24T00:08:37.237Z",
   "webmentions": [
     {
       "type": "entry",
@@ -196049,6 +196049,86 @@
       },
       "mention-of": "https://nicolas-hoizey.com/links/2026/09/22/ai-make-the-website-good/",
       "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Max ☕",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/2473d23e03bf4612eaddf2369a96c292d23b3c9572403066a4051915eae28dcd.png",
+        "url": "https://mas.to/@_max"
+      },
+      "url": "https://mamot.fr/@nhoizey/117315690269825120#reblogged-by-109845372544025401",
+      "published": "2026-09-23T18:47:58Z",
+      "published_ts": null,
+      "wm-received": "2026-09-23T18:47:58Z",
+      "wm-id": 2034816,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117315690269825120/109845372544025401",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/22/ai-make-the-website-good/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/09/22/ai-make-the-website-good/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Max ☕",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/2473d23e03bf4612eaddf2369a96c292d23b3c9572403066a4051915eae28dcd.png",
+        "url": "https://mas.to/@_max"
+      },
+      "url": "https://mamot.fr/@nhoizey/117315690269825120#favorited-by-109845372544025401",
+      "published": "2026-09-23T18:47:58Z",
+      "published_ts": null,
+      "wm-received": "2026-09-23T18:47:58Z",
+      "wm-id": 2034815,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117315690269825120/109845372544025401",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/22/ai-make-the-website-good/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/22/ai-make-the-website-good/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "AI",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/96e2912cc805b7d29f79e234250e14299797a9a74e1af7ab53d8ced478ca669b.jpg",
+        "url": "https://channel.org/@ai"
+      },
+      "url": "https://mamot.fr/@nhoizey/117315690269825120#reblogged-by-114817922629321061",
+      "published": "2026-09-23T18:47:59Z",
+      "published_ts": null,
+      "wm-received": "2026-09-23T18:47:59Z",
+      "wm-id": 2034817,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117315690269825120/114817922629321061",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/22/ai-make-the-website-good/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/09/22/ai-make-the-website-good/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "0gust1",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/e70a10d949d10bcaeeb04e414722a1b1a4ebe74df0a18a0035094cf2d547a0d1.png",
+        "url": "https://merveilles.town/@0gust1"
+      },
+      "url": "https://mamot.fr/@nhoizey/117314980740397134#favorited-by-163764",
+      "published": "2026-09-23T18:48:09Z",
+      "published_ts": null,
+      "wm-received": "2026-09-23T18:48:09Z",
+      "wm-id": 2034826,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117314980740397134/163764",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/22/show-keystrokes-keystroke-shortcut-visualizer-custom-element/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/22/show-keystrokes-keystroke-shortcut-visualizer-custom-element/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
