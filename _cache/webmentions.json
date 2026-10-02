@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-09-24T00:08:37.237Z",
+  "lastFetched": "2026-10-02T00:10:24.955Z",
   "webmentions": [
     {
       "type": "entry",
@@ -196128,6 +196128,136 @@
       "wm-target": "https://nicolas-hoizey.com/links/2026/09/22/show-keystrokes-keystroke-shortcut-visualizer-custom-element/",
       "wm-protocol": "webmention",
       "like-of": "https://nicolas-hoizey.com/links/2026/09/22/show-keystrokes-keystroke-shortcut-visualizer-custom-element/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Fabrice Gangler",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/08fc2606b5e9f3b0d5f9a8d672f743c29cc5e3ae002aa8371ee1930a76394b28.jpg",
+        "url": "https://mastodon.social/@dzc34"
+      },
+      "url": "https://mamot.fr/@nhoizey/117367355944671702#reblogged-by-109252563886728795",
+      "published": "2026-10-01T21:57:23Z",
+      "published_ts": null,
+      "wm-received": "2026-10-01T21:57:23Z",
+      "wm-id": 2037168,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117367355944671702/109252563886728795",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/30/sites-web-publics/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/09/30/sites-web-publics/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Fabrice Gangler",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/08fc2606b5e9f3b0d5f9a8d672f743c29cc5e3ae002aa8371ee1930a76394b28.jpg",
+        "url": "https://mastodon.social/@dzc34"
+      },
+      "url": "https://mamot.fr/@nhoizey/117367355944671702#favorited-by-109252563886728795",
+      "published": "2026-10-01T21:57:23Z",
+      "published_ts": null,
+      "wm-received": "2026-10-01T21:57:23Z",
+      "wm-id": 2037167,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117367355944671702/109252563886728795",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/30/sites-web-publics/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/30/sites-web-publics/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "somcak",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/975b75f385d553185c1c75fcf8022ed6757947944d752aec2e540c5a2bb340aa.jpg",
+        "url": "https://beige.party/@somcak"
+      },
+      "url": "https://mamot.fr/@nhoizey/117368068647228671#favorited-by-112241516935585845",
+      "published": "2026-10-01T22:53:05Z",
+      "published_ts": null,
+      "wm-received": "2026-10-01T22:53:05Z",
+      "wm-id": 2037179,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117368068647228671/112241516935585845",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/01/designing-what-i-cannot-see-a-blind-maker-s-journey-with-3d-printing/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/01/designing-what-i-cannot-see-a-blind-maker-s-journey-with-3d-printing/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ewen Bell 📸",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/88a6aa80a1cc01b8467ce9372eb172cbdc715fe7f1a5bd04ff3666d2c5ed4811.jpg",
+        "url": "https://social.ewenbell.com/users/ewen"
+      },
+      "url": "https://social.ewenbell.com/objects/45cbdee1-3c62-42fd-966f-73f1f292751c",
+      "published": "2026-10-01T23:01:52+00:00",
+      "published_ts": 1790895712,
+      "wm-received": "2026-10-01T23:20:09Z",
+      "wm-id": 2037183,
+      "wm-source": "https://brid.gy/comment/mastodon/@nhoizey@mamot.fr/117368068647228671/117368142248108733",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/01/designing-what-i-cannot-see-a-blind-maker-s-journey-with-3d-printing/",
+      "wm-protocol": "webmention",
+      "photo": [
+        "https://social.ewenbell.com/media/c2/11/ce/c211ce278957d142ec596e23f024a42fae2bec7a42b786ba2ffdbfc53cd83bf1.jpg",
+        "https://social.ewenbell.com/media/7a/91/9f/7a919f91c691bdaf4aca1a12ad508e18c853ac8fc72f13afa3c286ef214ce01e.jpg"
+      ],
+      "content": {
+        "content-type": "text/html",
+        "value": "<span class=\"h-card\"><a class=\"u-url\" href=\"https://mamot.fr/@nhoizey\">@<span>nhoizey</span></a></span> <br /><br />Is the failed screenshot a reference to net accessibility, or just an error?\n  <a class=\"u-mention\" href=\"https://cults3d.com/en/blog/articles/designing-what-i-cannot-see-blind-maker-3d-printing\"></a>",
+        "html": "<a href=\"https://mamot.fr/@nhoizey\">@nhoizey</a> <br /><br />Is the failed screenshot a reference to net accessibility, or just an error?",
+        "text": "@nhoizey \n\nIs the failed screenshot a reference to net accessibility, or just an error?"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2026/10/01/designing-what-i-cannot-see-a-blind-maker-s-journey-with-3d-printing/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ewen Bell 📸",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/88a6aa80a1cc01b8467ce9372eb172cbdc715fe7f1a5bd04ff3666d2c5ed4811.jpg",
+        "url": "https://social.ewenbell.com/users/ewen"
+      },
+      "url": "https://mamot.fr/@nhoizey/117368068647228671#favorited-by-114646450789715986",
+      "published": "2026-10-01T23:20:09Z",
+      "published_ts": null,
+      "wm-received": "2026-10-01T23:20:09Z",
+      "wm-id": 2037184,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117368068647228671/114646450789715986",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/01/designing-what-i-cannot-see-a-blind-maker-s-journey-with-3d-printing/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/01/designing-what-i-cannot-see-a-blind-maker-s-journey-with-3d-printing/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tyler Sticka",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/a3e8f10c9190a71c8b5813cb592445962f91252468058abbac98ecff88025553.png",
+        "url": "https://social.lol/@tylersticka"
+      },
+      "url": "https://mamot.fr/@nhoizey/117368068647228671#favorited-by-110651355078160221",
+      "published": "2026-10-01T23:20:09Z",
+      "published_ts": null,
+      "wm-received": "2026-10-01T23:20:09Z",
+      "wm-id": 2037182,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117368068647228671/110651355078160221",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/01/designing-what-i-cannot-see-a-blind-maker-s-journey-with-3d-printing/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/01/designing-what-i-cannot-see-a-blind-maker-s-journey-with-3d-printing/",
       "wm-property": "like-of",
       "wm-private": false
     }
