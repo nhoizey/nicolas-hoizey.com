@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-02T12:05:43.534Z",
+  "lastFetched": "2026-10-02T18:04:49.204Z",
   "webmentions": [
     {
       "type": "entry",
@@ -196699,6 +196699,126 @@
       "wm-protocol": "webmention",
       "like-of": "https://nicolas-hoizey.com/links/2026/10/01/designing-what-i-cannot-see-a-blind-maker-s-journey-with-3d-printing/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "AI",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/96e2912cc805b7d29f79e234250e14299797a9a74e1af7ab53d8ced478ca669b.jpg",
+        "url": "https://channel.org/@ai"
+      },
+      "url": "https://mamot.fr/@nhoizey/117371615413053977#reblogged-by-114817922629321061",
+      "published": "2026-10-02T13:51:07Z",
+      "published_ts": null,
+      "wm-received": "2026-10-02T13:51:07Z",
+      "wm-id": 2037343,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117371615413053977/114817922629321061",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/29/anthropic-s-ipo-pitch-includes-a-warning-about-human-extinction/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/09/29/anthropic-s-ipo-pitch-includes-a-warning-about-human-extinction/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "arcturus@pixelfed.social",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/2f027161f557520e166dbd694661ec04e8b36183b988d6c8df505aa9d948d88d.jpg",
+        "url": "https://pixelfed.social/arcturus"
+      },
+      "url": "https://mamot.fr/@nhoizey/117370213723570256#favorited-by-113513794052763932",
+      "published": "2026-10-02T16:21:34Z",
+      "published_ts": null,
+      "wm-received": "2026-10-02T16:21:34Z",
+      "wm-id": 2037369,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117370213723570256/113513794052763932",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "OutOfSpace - 不割席",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/684964c7e2b85c8fc8b361b83be9b0878ba06440f290b9cf5af04fce73d63610.jpg",
+        "url": "https://berlin.social/@OutOfSpace"
+      },
+      "url": "https://mamot.fr/@nhoizey/117368068647228671#reblogged-by-114211517540076616",
+      "published": "2026-10-02T16:53:26Z",
+      "published_ts": null,
+      "wm-received": "2026-10-02T16:53:26Z",
+      "wm-id": 2037376,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117368068647228671/114211517540076616",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/01/designing-what-i-cannot-see-a-blind-maker-s-journey-with-3d-printing/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/10/01/designing-what-i-cannot-see-a-blind-maker-s-journey-with-3d-printing/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "s427",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/d693e7218a3931618fa7001e0403e1abceb720f7a4fd00172bc038e3ed694df3.jpg",
+        "url": "https://lou.lt/@s427"
+      },
+      "url": "https://mamot.fr/@nhoizey/117370213723570256#reblogged-by-109275280901542502",
+      "published": "2026-10-02T17:29:14Z",
+      "published_ts": null,
+      "wm-received": "2026-10-02T17:29:14Z",
+      "wm-id": 2037397,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117370213723570256/109275280901542502",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "gebastel :blobhaj_hearttrans:",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/3c653000cdcec6a0bb5d685211f9611680ba8b91dba921f2d0eb0fb5ea637097.png",
+        "url": "https://norden.social/@gebastel"
+      },
+      "url": "https://mamot.fr/@nhoizey/117370213723570256#favorited-by-117195137945618476",
+      "published": "2026-10-02T17:58:31Z",
+      "published_ts": null,
+      "wm-received": "2026-10-02T17:58:31Z",
+      "wm-id": 2037400,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117370213723570256/117195137945618476",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "gebastel :blobhaj_hearttrans:",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/3c653000cdcec6a0bb5d685211f9611680ba8b91dba921f2d0eb0fb5ea637097.png",
+        "url": "https://norden.social/@gebastel"
+      },
+      "url": "https://mamot.fr/@nhoizey/117370213723570256#reblogged-by-117195137945618476",
+      "published": "2026-10-02T17:58:34Z",
+      "published_ts": null,
+      "wm-received": "2026-10-02T17:58:34Z",
+      "wm-id": 2037401,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117370213723570256/117195137945618476",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-property": "repost-of",
       "wm-private": false
     }
   ]
