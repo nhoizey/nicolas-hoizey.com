@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-02T00:10:24.955Z",
+  "lastFetched": "2026-10-02T12:05:43.534Z",
   "webmentions": [
     {
       "type": "entry",
@@ -196255,6 +196255,446 @@
       "wm-received": "2026-10-01T23:20:09Z",
       "wm-id": 2037182,
       "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117368068647228671/110651355078160221",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/01/designing-what-i-cannot-see-a-blind-maker-s-journey-with-3d-printing/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/01/designing-what-i-cannot-see-a-blind-maker-s-journey-with-3d-printing/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Devin Prater :blind:",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/4df6da15ed6f9904a80ff55bf27feeb165244b43b929ad22a23a0a40f0b3e089.jpg",
+        "url": "https://tweesecake.social/@pixelate"
+      },
+      "url": "https://mamot.fr/@nhoizey/117368068647228671#reblogged-by-111674875804348679",
+      "published": "2026-10-02T06:23:10Z",
+      "published_ts": null,
+      "wm-received": "2026-10-02T06:23:10Z",
+      "wm-id": 2037221,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117368068647228671/111674875804348679",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/01/designing-what-i-cannot-see-a-blind-maker-s-journey-with-3d-printing/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/10/01/designing-what-i-cannot-see-a-blind-maker-s-journey-with-3d-printing/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "ellianoa",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/f74ade15cc471bca55232850efd3accb5e6b37ac89603a8f68710eb357e619a5.png",
+        "url": "https://kind.social/@ellianoa"
+      },
+      "url": "https://mamot.fr/@nhoizey/117368068647228671#reblogged-by-115952075302995115",
+      "published": "2026-10-02T06:23:11Z",
+      "published_ts": null,
+      "wm-received": "2026-10-02T06:23:11Z",
+      "wm-id": 2037222,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117368068647228671/115952075302995115",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/01/designing-what-i-cannot-see-a-blind-maker-s-journey-with-3d-printing/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/10/01/designing-what-i-cannot-see-a-blind-maker-s-journey-with-3d-printing/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Christophe Le Bot",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/dbdea168b6a8b3eb8fae660dc30bbfbf48275205d8ab7fb7d6ec1aa0cca651a1.jpg",
+        "url": "https://piaille.fr/@clebot"
+      },
+      "url": "https://mamot.fr/@nhoizey/117367355944671702#reblogged-by-109366937401789147",
+      "published": "2026-10-02T06:52:32Z",
+      "published_ts": null,
+      "wm-received": "2026-10-02T06:52:32Z",
+      "wm-id": 2037226,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117367355944671702/109366937401789147",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/30/sites-web-publics/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/09/30/sites-web-publics/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Abie",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/0a0136f8af2755ed7a3e20ae761128a54f40852485c3719f44ae2feeb875e115.jpg",
+        "url": "https://eldritch.cafe/@temptoetiam"
+      },
+      "url": "https://mamot.fr/@nhoizey/117370213723570256#reblogged-by-113380333993783195",
+      "published": "2026-10-02T07:56:34Z",
+      "published_ts": null,
+      "wm-received": "2026-10-02T07:56:34Z",
+      "wm-id": 2037247,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117370213723570256/113380333993783195",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jaakko Niemi",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/a0f3017c8557cdbc1f3dff2f36028a60b02f87ddd2e195e08ec4c1263c59d5ea.jpg",
+        "url": "https://mastodon.social/@liiwi"
+      },
+      "url": "https://mamot.fr/@nhoizey/117370213723570256#favorited-by-109542052748211975",
+      "published": "2026-10-02T07:56:34Z",
+      "published_ts": null,
+      "wm-received": "2026-10-02T07:56:34Z",
+      "wm-id": 2037246,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117370213723570256/109542052748211975",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "mpsi",
+        "photo": "https://static.mamot.fr/cache/accounts/avatars/114/822/463/208/589/874/original/8a836f41502ad86f.jpeg",
+        "url": "https://toot.lv/@mpsi"
+      },
+      "url": "https://mamot.fr/@nhoizey/117370213723570256#favorited-by-114822463208589874",
+      "published": "2026-10-02T07:56:34Z",
+      "published_ts": null,
+      "wm-received": "2026-10-02T07:56:34Z",
+      "wm-id": 2037245,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117370213723570256/114822463208589874",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jaakko Niemi",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/a0f3017c8557cdbc1f3dff2f36028a60b02f87ddd2e195e08ec4c1263c59d5ea.jpg",
+        "url": "https://mastodon.social/@liiwi"
+      },
+      "url": "https://mamot.fr/@nhoizey/117370213723570256#reblogged-by-109542052748211975",
+      "published": "2026-10-02T07:56:36Z",
+      "published_ts": null,
+      "wm-received": "2026-10-02T07:56:36Z",
+      "wm-id": 2037248,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117370213723570256/109542052748211975",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "oldguycrusty",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/203118d8926e2646acc14b7a24a38321efc6073bc3b240d5f23cb52290cba98b.jpg",
+        "url": "https://mastodon.world/@oldguycrusty"
+      },
+      "url": "https://mamot.fr/@nhoizey/117370213723570256#reblogged-by-109478801302255175",
+      "published": "2026-10-02T07:56:37Z",
+      "published_ts": null,
+      "wm-received": "2026-10-02T07:56:37Z",
+      "wm-id": 2037249,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117370213723570256/109478801302255175",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jonathan Schofield",
+        "photo": "https://static.mamot.fr/cache/accounts/avatars/109/331/285/584/394/677/original/43592d8d3fe6edf6.jpg",
+        "url": "https://mastodon.social/@urlyman"
+      },
+      "url": "https://mamot.fr/@nhoizey/117370213723570256#reblogged-by-109331285584394677",
+      "published": "2026-10-02T07:56:41Z",
+      "published_ts": null,
+      "wm-received": "2026-10-02T07:56:41Z",
+      "wm-id": 2037250,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117370213723570256/109331285584394677",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "AI",
+        "photo": "https://static.mamot.fr/cache/accounts/avatars/114/817/922/629/321/061/original/b3c12e075940c6dd.jpeg",
+        "url": "https://channel.org/@ai"
+      },
+      "url": "https://mamot.fr/@nhoizey/117370213723570256#reblogged-by-114817922629321061",
+      "published": "2026-10-02T07:56:42Z",
+      "published_ts": null,
+      "wm-received": "2026-10-02T07:56:42Z",
+      "wm-id": 2037251,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117370213723570256/114817922629321061",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "bituur esztreym",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/5a472e432f6ca4e8019dca974a792f9c26971c15b5e3a6f441c03d412375b1de.png",
+        "url": "https://pouet.chapril.org/@bituur_esztreym"
+      },
+      "url": "https://mamot.fr/@nhoizey/117370213723570256#reblogged-by-109245624017323941",
+      "published": "2026-10-02T08:50:00Z",
+      "published_ts": null,
+      "wm-received": "2026-10-02T08:50:00Z",
+      "wm-id": 2037270,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117370213723570256/109245624017323941",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "the esoteric programmer",
+        "photo": "https://avatars.webmention.io/mamot.fr/db1d635fb4356e493a52ae26f48c9f875d733a757cb82141ea43b0221d79f2d5.png",
+        "url": "https://social.stealthy.club/@esoteric_programmer"
+      },
+      "url": "https://mamot.fr/@nhoizey/117368068647228671#reblogged-by-111925395241527963",
+      "published": "2026-10-02T08:50:02Z",
+      "published_ts": null,
+      "wm-received": "2026-10-02T08:50:02Z",
+      "wm-id": 2037271,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117368068647228671/111925395241527963",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/01/designing-what-i-cannot-see-a-blind-maker-s-journey-with-3d-printing/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/10/01/designing-what-i-cannot-see-a-blind-maker-s-journey-with-3d-printing/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Kim Spence-Jones 🇬🇧😷",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/fe0998797d78724929575a85c6a7dce2f197a0daca302dbe71be9cb4c1fb705b.jpg",
+        "url": "https://mastodon.social/@KimSJ"
+      },
+      "url": "https://mamot.fr/@nhoizey/117370213723570256#favorited-by-110470269376893268",
+      "published": "2026-10-02T09:51:50Z",
+      "published_ts": null,
+      "wm-received": "2026-10-02T09:51:50Z",
+      "wm-id": 2037292,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117370213723570256/110470269376893268",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Kevin Russell",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/83c40372d3a7103da341f0c60d201aff89409babca929f9d269791b05f804ff4.jpg",
+        "url": "https://mstdn.social/@kevinrns"
+      },
+      "url": "https://mamot.fr/@nhoizey/117370213723570256#reblogged-by-109565561019881683",
+      "published": "2026-10-02T09:51:51Z",
+      "published_ts": null,
+      "wm-received": "2026-10-02T09:51:51Z",
+      "wm-id": 2037294,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117370213723570256/109565561019881683",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Kevin Russell",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/83c40372d3a7103da341f0c60d201aff89409babca929f9d269791b05f804ff4.jpg",
+        "url": "https://mstdn.social/@kevinrns"
+      },
+      "url": "https://mamot.fr/@nhoizey/117370213723570256#favorited-by-109565561019881683",
+      "published": "2026-10-02T09:51:51Z",
+      "published_ts": null,
+      "wm-received": "2026-10-02T09:51:51Z",
+      "wm-id": 2037293,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117370213723570256/109565561019881683",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Herman 🇪🇺🇺🇦🇾🇪🍋",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/6cc77e69dc4641eb64c795ebdea2ca50522a36a913eb06cb54f1d679a8b8257a.jpg",
+        "url": "https://mastodon.world/@Herman"
+      },
+      "url": "https://mamot.fr/@nhoizey/117370213723570256#reblogged-by-109303217013835655",
+      "published": "2026-10-02T09:51:54Z",
+      "published_ts": null,
+      "wm-received": "2026-10-02T09:51:54Z",
+      "wm-id": 2037296,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117370213723570256/109303217013835655",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Krystyna",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/5f141d6c2ea284b51aed38766175afec37a500c5d63c6211bdd3e3eb1ad30e66.jpg",
+        "url": "https://toad.social/@krystyna"
+      },
+      "url": "https://mamot.fr/@nhoizey/117370213723570256#reblogged-by-112316955161339061",
+      "published": "2026-10-02T09:51:54Z",
+      "published_ts": null,
+      "wm-received": "2026-10-02T09:51:54Z",
+      "wm-id": 2037295,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117370213723570256/112316955161339061",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "I_was_saying_boo_urns",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/5f901a3661c23c118288e5ece3f461c2a4218ed6e06783f17df36d99e61b1883.png",
+        "url": "https://mastodon.social/@BooUrns"
+      },
+      "url": "https://mamot.fr/@nhoizey/117370213723570256#reblogged-by-110855583374069279",
+      "published": "2026-10-02T10:25:12Z",
+      "published_ts": null,
+      "wm-received": "2026-10-02T10:25:12Z",
+      "wm-id": 2037298,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117370213723570256/110855583374069279",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Steve aka mdlbear",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/7a125d49f4f632572d2fe98563f3003dd0e7ac60f3e3768f789079f8b365d1a3.png",
+        "url": "https://indieweb.social/@ssavitzky"
+      },
+      "url": "https://mamot.fr/@nhoizey/117370213723570256#reblogged-by-109888154119392013",
+      "published": "2026-10-02T10:25:12Z",
+      "published_ts": null,
+      "wm-received": "2026-10-02T10:25:12Z",
+      "wm-id": 2037297,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117370213723570256/109888154119392013",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Darek Kay",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/4c3c24cf5afaf1eb9ab89c16719b1a6e976fd2823959b028cbac96094a2eff5a.jpg",
+        "url": "https://fosstodon.org/@darekkay"
+      },
+      "url": "https://mamot.fr/@nhoizey/117370213723570256#favorited-by-333611",
+      "published": "2026-10-02T10:54:25Z",
+      "published_ts": null,
+      "wm-received": "2026-10-02T10:54:25Z",
+      "wm-id": 2037304,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117370213723570256/333611",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Allison Meloy",
+        "photo": "https://avatars.webmention.io/mamot.fr/db1d635fb4356e493a52ae26f48c9f875d733a757cb82141ea43b0221d79f2d5.png",
+        "url": "https://caneandable.social/@technocounselor"
+      },
+      "url": "https://mamot.fr/@nhoizey/117368068647228671#reblogged-by-113223673263960912",
+      "published": "2026-10-02T11:30:29Z",
+      "published_ts": null,
+      "wm-received": "2026-10-02T11:30:29Z",
+      "wm-id": 2037313,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117368068647228671/113223673263960912",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/01/designing-what-i-cannot-see-a-blind-maker-s-journey-with-3d-printing/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/10/01/designing-what-i-cannot-see-a-blind-maker-s-journey-with-3d-printing/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Allison Meloy",
+        "photo": "https://avatars.webmention.io/mamot.fr/db1d635fb4356e493a52ae26f48c9f875d733a757cb82141ea43b0221d79f2d5.png",
+        "url": "https://caneandable.social/@technocounselor"
+      },
+      "url": "https://mamot.fr/@nhoizey/117368068647228671#favorited-by-113223673263960912",
+      "published": "2026-10-02T11:30:29Z",
+      "published_ts": null,
+      "wm-received": "2026-10-02T11:30:29Z",
+      "wm-id": 2037312,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117368068647228671/113223673263960912",
       "wm-target": "https://nicolas-hoizey.com/links/2026/10/01/designing-what-i-cannot-see-a-blind-maker-s-journey-with-3d-printing/",
       "wm-protocol": "webmention",
       "like-of": "https://nicolas-hoizey.com/links/2026/10/01/designing-what-i-cannot-see-a-blind-maker-s-journey-with-3d-printing/",
