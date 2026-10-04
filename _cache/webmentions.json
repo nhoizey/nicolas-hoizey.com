@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-02T18:04:49.204Z",
+  "lastFetched": "2026-10-04T00:54:12.914Z",
   "webmentions": [
     {
       "type": "entry",
@@ -196819,6 +196819,26 @@
       "wm-protocol": "webmention",
       "repost-of": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
       "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Caroline Toews",
+        "photo": "https://avatars.webmention.io/mamot.fr/db1d635fb4356e493a52ae26f48c9f875d733a757cb82141ea43b0221d79f2d5.png",
+        "url": "https://allovertheplace.ca/@technolass"
+      },
+      "url": "https://mamot.fr/@nhoizey/117368068647228671#favorited-by-113657806588729347",
+      "published": "2026-10-03T19:17:16Z",
+      "published_ts": null,
+      "wm-received": "2026-10-03T19:17:16Z",
+      "wm-id": 2037698,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117368068647228671/113657806588729347",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/01/designing-what-i-cannot-see-a-blind-maker-s-journey-with-3d-printing/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/01/designing-what-i-cannot-see-a-blind-maker-s-journey-with-3d-printing/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
