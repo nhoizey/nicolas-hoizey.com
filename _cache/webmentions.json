@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-04T00:54:12.914Z",
+  "lastFetched": "2026-10-04T13:46:56.907Z",
   "webmentions": [
     {
       "type": "entry",
@@ -196839,6 +196839,26 @@
       "wm-protocol": "webmention",
       "like-of": "https://nicolas-hoizey.com/links/2026/10/01/designing-what-i-cannot-see-a-blind-maker-s-journey-with-3d-printing/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "PerfectGreg",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/2766f514ab335bddca2d60ab561ca1453bbabb541fc6b895a980a89d9ee00e47.png",
+        "url": "https://piaille.fr/@PerfectGreg"
+      },
+      "url": "https://mamot.fr/@nhoizey/117370213723570256#reblogged-by-109681337074317650",
+      "published": "2026-10-04T12:14:22Z",
+      "published_ts": null,
+      "wm-received": "2026-10-04T12:14:22Z",
+      "wm-id": 2037795,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117370213723570256/109681337074317650",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
+      "wm-property": "repost-of",
       "wm-private": false
     }
   ]
