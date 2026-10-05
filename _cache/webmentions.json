@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-04T13:46:56.907Z",
+  "lastFetched": "2026-10-05T06:12:34.793Z",
   "webmentions": [
     {
       "type": "entry",
@@ -196859,6 +196859,26 @@
       "wm-protocol": "webmention",
       "repost-of": "https://nicolas-hoizey.com/links/2026/09/28/people-training-openai-s-ai-fired-for-using-ai-to-train-the-ai/",
       "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "RockyC",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/a1f25c9bc184b3986db2318c95c7eac6a9d318c0ba698cbe2f0fc2af54b9c5d7.jpg",
+        "url": "https://fosstodon.org/@RockyC"
+      },
+      "url": "https://mamot.fr/@nhoizey/117368068647228671#favorited-by-109331626845785401",
+      "published": "2026-10-05T01:01:58Z",
+      "published_ts": null,
+      "wm-received": "2026-10-05T01:01:58Z",
+      "wm-id": 2037887,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117368068647228671/109331626845785401",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/01/designing-what-i-cannot-see-a-blind-maker-s-journey-with-3d-printing/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/01/designing-what-i-cannot-see-a-blind-maker-s-journey-with-3d-printing/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
