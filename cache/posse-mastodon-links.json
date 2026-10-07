@@ -6239,5 +6239,24 @@
       "https://mamot.fr/users/nhoizey/statuses/117370213723570256"
     ],
     "lastTootTimestamp": 1790927333520
+  },
+  "https://nicolas-hoizey.com/links/2026/10/07/recursion-is-dead-and-html-killed-it/": {
+    "id": "https://nicolas-hoizey.com/links/2026/10/07/recursion-is-dead-and-html-killed-it/",
+    "url": "https://nicolas-hoizey.com/links/2026/10/07/recursion-is-dead-and-html-killed-it/",
+    "lang": "en",
+    "title": "“Recursion is DEAD and HTML killed it”",
+    "date_published": "2026-10-07T11:07:46Z",
+    "content_text": "“Recursion is DEAD and HTML killed it” by @davatron5000@mastodon.social\n\n🔗 https://daverupert.com/2026/10/html-recursion/\n\n> The rule of thumb I came up with is that `<?marker>` might be a pattern to reach for any time where you want important content to show up first and then you kind of don’t care when other content shows up below the fold.\n\n#HTML\n\n⚓️ https://nicolas-hoizey.com/links/2026/10/07/recursion-is-dead-and-html-killed-it/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://daverupert.com/2026/10/html-recursion/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Recursion is DEAD and HTML killed it"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/117399932515291579"
+    ],
+    "lastTootTimestamp": 1791380806326
   }
 }
