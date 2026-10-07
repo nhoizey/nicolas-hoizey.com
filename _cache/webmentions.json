@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-05T06:12:34.793Z",
+  "lastFetched": "2026-10-07T18:04:46.626Z",
   "webmentions": [
     {
       "type": "entry",
@@ -196879,6 +196879,66 @@
       "wm-protocol": "webmention",
       "like-of": "https://nicolas-hoizey.com/links/2026/10/01/designing-what-i-cannot-see-a-blind-maker-s-journey-with-3d-printing/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ewen Bell 📸",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/88a6aa80a1cc01b8467ce9372eb172cbdc715fe7f1a5bd04ff3666d2c5ed4811.jpg",
+        "url": "https://social.ewenbell.com/users/ewen"
+      },
+      "url": "https://mamot.fr/@nhoizey/117399932515291579#favorited-by-114646450789715986",
+      "published": "2026-10-07T14:02:58Z",
+      "published_ts": null,
+      "wm-received": "2026-10-07T14:02:58Z",
+      "wm-id": 2038376,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117399932515291579/114646450789715986",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/07/recursion-is-dead-and-html-killed-it/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/07/recursion-is-dead-and-html-killed-it/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Seth :ally_always:",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/d8e6f2cdc1718842a0d6c74f6b83a99ea32088eaa6e2c69eb428e4d0fafdfc63.png",
+        "url": "https://encryptr.net/@PhillyCodeHound"
+      },
+      "url": "https://mamot.fr/@nhoizey/117399932515291579#favorited-by-115340303852344912",
+      "published": "2026-10-07T14:35:08Z",
+      "published_ts": null,
+      "wm-received": "2026-10-07T14:35:08Z",
+      "wm-id": 2038377,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117399932515291579/115340303852344912",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/07/recursion-is-dead-and-html-killed-it/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/07/recursion-is-dead-and-html-killed-it/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Seth :ally_always:",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/d8e6f2cdc1718842a0d6c74f6b83a99ea32088eaa6e2c69eb428e4d0fafdfc63.png",
+        "url": "https://encryptr.net/@PhillyCodeHound"
+      },
+      "url": "https://mamot.fr/@nhoizey/117399932515291579#reblogged-by-115340303852344912",
+      "published": "2026-10-07T14:35:11Z",
+      "published_ts": null,
+      "wm-received": "2026-10-07T14:35:11Z",
+      "wm-id": 2038378,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117399932515291579/115340303852344912",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/07/recursion-is-dead-and-html-killed-it/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/10/07/recursion-is-dead-and-html-killed-it/",
+      "wm-property": "repost-of",
       "wm-private": false
     }
   ]
