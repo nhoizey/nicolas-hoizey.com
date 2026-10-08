@@ -6258,5 +6258,24 @@
       "https://mamot.fr/users/nhoizey/statuses/117399932515291579"
     ],
     "lastTootTimestamp": 1791380806326
+  },
+  "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/": {
+    "id": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
+    "url": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
+    "lang": "en",
+    "title": "“Standards In Progress: Making Video Posters Accessible, Responsive, and an Element”",
+    "date_published": "2026-10-08T16:23:49Z",
+    "content_text": "“Standards In Progress: Making Video Posters Accessible, Responsive, and an Element” by @scottjehl@mstdn.social\n\n🔗 https://scottjehl.com/posts/responsive-accessible-poster/\n\n> I'm showing just a sampling of the available markup here of course–you might want to coordinate multiple art-directed video and picture sources for example, or load eagerly instead of lazily, and add captions for the video. But broadly, by piggybacking on the features…\n\n#WebPerf #accessibility #responsive #HTML #video\n\n⚓️ https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://scottjehl.com/posts/responsive-accessible-poster/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Standards In Progress: Making Video Posters Accessible, Responsive, and an Element"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/117406312025206343"
+    ],
+    "lastTootTimestamp": 1791478150140
   }
 }
