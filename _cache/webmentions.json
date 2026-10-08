@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-07T18:04:46.626Z",
+  "lastFetched": "2026-10-08T18:04:36.883Z",
   "webmentions": [
     {
       "type": "entry",
@@ -196939,6 +196939,26 @@
       "wm-protocol": "webmention",
       "repost-of": "https://nicolas-hoizey.com/links/2026/10/07/recursion-is-dead-and-html-killed-it/",
       "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Scott Jehl",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/11a7482b10dafe56809db4c39a89431dee6d55225dd4ac6bec19886f8fa40b94.png",
+        "url": "https://mstdn.social/@scottjehl"
+      },
+      "url": "https://mamot.fr/@nhoizey/117406312025206343#favorited-by-109298158044798128",
+      "published": "2026-10-08T17:34:15Z",
+      "published_ts": null,
+      "wm-received": "2026-10-08T17:34:15Z",
+      "wm-id": 2038607,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117406312025206343/109298158044798128",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
