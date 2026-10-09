@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-09T12:05:35.252Z",
+  "lastFetched": "2026-10-09T18:04:37.511Z",
   "webmentions": [
     {
       "type": "entry",
@@ -197098,6 +197098,66 @@
       "wm-target": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
       "wm-protocol": "webmention",
       "repost-of": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "J.R. Cruciani",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/571d6495796451e1a0e74f577e7c632549a85ab1eb6b2aa01f38de70dfbf84e9.png",
+        "url": "https://masto.impermanente.es/@jrcruciani"
+      },
+      "url": "https://mamot.fr/@nhoizey/117411262290311407#reblogged-by-115499295580831419",
+      "published": "2026-10-09T14:06:52Z",
+      "published_ts": null,
+      "wm-received": "2026-10-09T14:06:52Z",
+      "wm-id": 2038966,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117411262290311407/115499295580831419",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/09/the-people-holding-up-the-internet/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/10/09/the-people-holding-up-the-internet/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Louis-Olivier Brassard",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/5207a34212f0d33d16add1ba8a023c83f4d9354120b46cee2886c377071a07ca.jpg",
+        "url": "https://mastodon.quebec/@loupbrun"
+      },
+      "url": "https://mamot.fr/@nhoizey/117411262290311407#favorited-by-113090946169767386",
+      "published": "2026-10-09T14:32:24Z",
+      "published_ts": null,
+      "wm-received": "2026-10-09T14:32:24Z",
+      "wm-id": 2038975,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117411262290311407/113090946169767386",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/09/the-people-holding-up-the-internet/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/09/the-people-holding-up-the-internet/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "ad2ien",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/1ca61d52e4d3c6b4305983da4aed14c346aeb319a5ee855effae2fab913b2c1c.png",
+        "url": "https://mastoot.fr/@ad2ien"
+      },
+      "url": "https://mamot.fr/@nhoizey/117411262290311407#reblogged-by-111047120043161707",
+      "published": "2026-10-09T15:07:58Z",
+      "published_ts": null,
+      "wm-received": "2026-10-09T15:07:58Z",
+      "wm-id": 2038992,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117411262290311407/111047120043161707",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/09/the-people-holding-up-the-internet/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/10/09/the-people-holding-up-the-internet/",
       "wm-property": "repost-of",
       "wm-private": false
     }
