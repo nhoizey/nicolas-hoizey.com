@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-08T18:04:36.883Z",
+  "lastFetched": "2026-10-09T00:10:42.430Z",
   "webmentions": [
     {
       "type": "entry",
@@ -196955,6 +196955,46 @@
       "wm-received": "2026-10-08T17:34:15Z",
       "wm-id": 2038607,
       "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117406312025206343/109298158044798128",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jessica Leuchter",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/7778297737cfba298ffca6ea04511787e10b5a1bc4cc68bd1b84ef4a3c91c104.jpg",
+        "url": "https://gram.social/jessica_photography"
+      },
+      "url": "https://mamot.fr/@nhoizey/117406312025206343#favorited-by-117037978448038952",
+      "published": "2026-10-08T18:07:18Z",
+      "published_ts": null,
+      "wm-received": "2026-10-08T18:07:18Z",
+      "wm-id": 2038627,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117406312025206343/117037978448038952",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ρꙩujol 𝖱u𝗌𝗍 ✅",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/dc039b1145d8ec5ec1a87e12fd4c8766caeaa0e4cfe3e07dc08df21d9e595dd0.png",
+        "url": "https://mstdn.jp/@poujolrost"
+      },
+      "url": "https://mamot.fr/@nhoizey/117406312025206343#favorited-by-76360",
+      "published": "2026-10-08T23:11:19Z",
+      "published_ts": null,
+      "wm-received": "2026-10-08T23:11:19Z",
+      "wm-id": 2038754,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117406312025206343/76360",
       "wm-target": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
       "wm-protocol": "webmention",
       "like-of": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
