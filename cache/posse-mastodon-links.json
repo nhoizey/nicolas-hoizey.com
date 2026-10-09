@@ -6277,5 +6277,24 @@
       "https://mamot.fr/users/nhoizey/statuses/117406312025206343"
     ],
     "lastTootTimestamp": 1791478150140
+  },
+  "https://nicolas-hoizey.com/links/2026/10/09/the-people-holding-up-the-internet/": {
+    "id": "https://nicolas-hoizey.com/links/2026/10/09/the-people-holding-up-the-internet/",
+    "url": "https://nicolas-hoizey.com/links/2026/10/09/the-people-holding-up-the-internet/",
+    "lang": "en",
+    "title": "“The people holding up the internet”",
+    "date_published": "2026-10-09T12:01:33Z",
+    "content_text": "“The people holding up the internet” by Data Drop\n\n🔗 https://sheets.works/data-viz/holding-up-the-internet\n\n> Billions of phones run on code looked after by a handful of people. We counted them from the code itself.\n\n#Internet #openSource\n\n⚓️ https://nicolas-hoizey.com/links/2026/10/09/the-people-holding-up-the-internet/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://sheets.works/data-viz/holding-up-the-internet",
+        "mime_type": "image/png",
+        "title": "Screenshot of The people holding up the internet"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/117411262290311407"
+    ],
+    "lastTootTimestamp": 1791553684967
   }
 }
