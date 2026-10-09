@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-09T00:10:42.430Z",
+  "lastFetched": "2026-10-09T06:06:41.831Z",
   "webmentions": [
     {
       "type": "entry",
@@ -196995,6 +196995,86 @@
       "wm-received": "2026-10-08T23:11:19Z",
       "wm-id": 2038754,
       "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117406312025206343/76360",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Thomas Steiner :chrome:",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/bfc6c0c43c877e20f52745c3797f2df8b399c676f61af5b28b562461b499f345.jpg",
+        "url": "https://toot.cafe/@tomayac"
+      },
+      "url": "https://mamot.fr/@nhoizey/117406312025206343#reblogged-by-85577",
+      "published": "2026-10-09T05:25:58Z",
+      "published_ts": null,
+      "wm-received": "2026-10-09T05:25:58Z",
+      "wm-id": 2038801,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117406312025206343/85577",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Thibaultmol 🌈",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/af8724ec31023f6f2b67e26e5d1a5898113428faf11a40b61010e62cf5ef520c.png",
+        "url": "https://en.osm.town/@thibaultmol"
+      },
+      "url": "https://mamot.fr/@nhoizey/117406312025206343#favorited-by-109292077019428463",
+      "published": "2026-10-09T05:53:52Z",
+      "published_ts": null,
+      "wm-received": "2026-10-09T05:53:52Z",
+      "wm-id": 2038806,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117406312025206343/109292077019428463",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Thibaultmol 🌈",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/af8724ec31023f6f2b67e26e5d1a5898113428faf11a40b61010e62cf5ef520c.png",
+        "url": "https://en.osm.town/@thibaultmol"
+      },
+      "url": "https://mamot.fr/@nhoizey/117406312025206343#reblogged-by-109292077019428463",
+      "published": "2026-10-09T05:53:53Z",
+      "published_ts": null,
+      "wm-received": "2026-10-09T05:53:53Z",
+      "wm-id": 2038808,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117406312025206343/109292077019428463",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Iacopo Moles",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/209c40fbc65dc14ba4702ec4d0ef7c1aeb8fe0a624c4f6226313eaf0394eaab7.jpg",
+        "url": "https://mastodon.social/@icpmoles"
+      },
+      "url": "https://mamot.fr/@nhoizey/117406312025206343#favorited-by-479965",
+      "published": "2026-10-09T05:53:53Z",
+      "published_ts": null,
+      "wm-received": "2026-10-09T05:53:53Z",
+      "wm-id": 2038807,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117406312025206343/479965",
       "wm-target": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
       "wm-protocol": "webmention",
       "like-of": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
