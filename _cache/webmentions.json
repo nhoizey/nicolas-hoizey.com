@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-09T06:06:41.831Z",
+  "lastFetched": "2026-10-09T12:05:35.252Z",
   "webmentions": [
     {
       "type": "entry",
@@ -197079,6 +197079,26 @@
       "wm-protocol": "webmention",
       "like-of": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Eugene Alvin Villar 🇵🇭",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/6178c364ed7707bc29ede5b61e9659cda9a9091df88d8ee7f665fd6d1da56f04.jpg",
+        "url": "https://en.osm.town/@seav"
+      },
+      "url": "https://mamot.fr/@nhoizey/117406312025206343#reblogged-by-109296627852209011",
+      "published": "2026-10-09T11:00:37Z",
+      "published_ts": null,
+      "wm-received": "2026-10-09T11:00:37Z",
+      "wm-id": 2038834,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117406312025206343/109296627852209011",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
+      "wm-property": "repost-of",
       "wm-private": false
     }
   ]
