@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-11T06:05:58.094Z",
+  "lastFetched": "2026-10-11T12:05:21.046Z",
   "webmentions": [
     {
       "type": "entry",
@@ -197199,6 +197199,46 @@
       "wm-protocol": "webmention",
       "like-of": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "piet the bunny <3",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/f34e2298c64ca77fcefa824b6b3aaa1702265a063118964ea98ba98ee324cbd1.jpg",
+        "url": "https://pixelfed.social/flaps015"
+      },
+      "url": "https://mamot.fr/@nhoizey/117421861509650835#favorited-by-114891269374305316",
+      "published": "2026-10-11T11:04:32Z",
+      "published_ts": null,
+      "wm-received": "2026-10-11T11:04:32Z",
+      "wm-id": 2039401,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117421861509650835/114891269374305316",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "david",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/9276fa37c2bd4cbecd7328305657f9856c71352f9dbedff87ef63bdf9ae923f4.png",
+        "url": "https://piaille.fr/@davidou"
+      },
+      "url": "https://mamot.fr/@nhoizey/117421861509650835#reblogged-by-110361645942779875",
+      "published": "2026-10-11T11:04:32Z",
+      "published_ts": null,
+      "wm-received": "2026-10-11T11:04:32Z",
+      "wm-id": 2039400,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117421861509650835/110361645942779875",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-property": "repost-of",
       "wm-private": false
     }
   ]
