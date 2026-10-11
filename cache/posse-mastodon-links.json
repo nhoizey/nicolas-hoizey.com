@@ -6296,5 +6296,24 @@
       "https://mamot.fr/users/nhoizey/statuses/117411262290311407"
     ],
     "lastTootTimestamp": 1791553684967
+  },
+  "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/": {
+    "id": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+    "url": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+    "lang": "en",
+    "title": "“Cartographers of North Korea :: 북한의 지도 제작자”",
+    "date_published": "2026-10-11T08:40:32Z",
+    "content_text": "“Cartographers of North Korea :: 북한의 지도 제작자” by Wonyoung So\n\n🔗 https://cartographers-nk.wonyoung.so/\n\n> An analysis of the OpenStreetMap data in North Korea:\n> Who are the contributors? How and Why did they contribute to North Korea?\n\n#map\n\n⚓️ https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://cartographers-nk.wonyoung.so/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Cartographers of North Korea :: 북한의 지도 제작자"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/117421861509650835"
+    ],
+    "lastTootTimestamp": 1791715416175
   }
 }
