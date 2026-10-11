@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-09T18:04:37.511Z",
+  "lastFetched": "2026-10-11T00:11:25.575Z",
   "webmentions": [
     {
       "type": "entry",
@@ -197159,6 +197159,26 @@
       "wm-protocol": "webmention",
       "repost-of": "https://nicolas-hoizey.com/links/2026/10/09/the-people-holding-up-the-internet/",
       "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "stoyan",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/870904022e4c77ee3a14e8e529d893191731889dcb00e049ee835eab30c3cf0a.png",
+        "url": "https://indieweb.social/@stoyan"
+      },
+      "url": "https://mamot.fr/@nhoizey/117406312025206343#favorited-by-109364896638240670",
+      "published": "2026-10-10T23:03:42Z",
+      "published_ts": null,
+      "wm-received": "2026-10-10T23:03:42Z",
+      "wm-id": 2039332,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117406312025206343/109364896638240670",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
