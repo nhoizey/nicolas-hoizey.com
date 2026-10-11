@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-11T12:05:21.046Z",
+  "lastFetched": "2026-10-11T18:04:41.120Z",
   "webmentions": [
     {
       "type": "entry",
@@ -197238,6 +197238,86 @@
       "wm-target": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
       "wm-protocol": "webmention",
       "repost-of": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "sipuedo",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/5a413958df10a598461993b50bc3dc0fd672524492f7f0bc92b01cb30506b2c0.jpg",
+        "url": "https://mastodon.social/@sipuedo"
+      },
+      "url": "https://mamot.fr/@nhoizey/117421861509650835#favorited-by-113732381869388144",
+      "published": "2026-10-11T12:31:43Z",
+      "published_ts": null,
+      "wm-received": "2026-10-11T12:31:43Z",
+      "wm-id": 2039418,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117421861509650835/113732381869388144",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Axel Leroy",
+        "photo": "https://static.mamot.fr/cache/accounts/avatars/117/054/810/314/785/437/original/6789bc06b2003628.jpeg",
+        "url": "https://gts.leroy.sh/@axel"
+      },
+      "url": "https://mamot.fr/@nhoizey/117421861509650835#reblogged-by-117054810314785437",
+      "published": "2026-10-11T13:00:58Z",
+      "published_ts": null,
+      "wm-received": "2026-10-11T13:00:58Z",
+      "wm-id": 2039423,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117421861509650835/117054810314785437",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tyler Sticka",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/a3e8f10c9190a71c8b5813cb592445962f91252468058abbac98ecff88025553.png",
+        "url": "https://social.lol/@tylersticka"
+      },
+      "url": "https://mamot.fr/@nhoizey/117421861509650835#favorited-by-110651355078160221",
+      "published": "2026-10-11T13:56:59Z",
+      "published_ts": null,
+      "wm-received": "2026-10-11T13:56:59Z",
+      "wm-id": 2039430,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117421861509650835/110651355078160221",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mathias 🏳️‍🌈",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/8b6ed2bc5793008febf492a494b245201d96200a2ba3fb5be1577fb01395bb63.png",
+        "url": "https://snabelen.no/@Luuni"
+      },
+      "url": "https://mamot.fr/@nhoizey/117406312025206343#reblogged-by-111753996212092874",
+      "published": "2026-10-11T16:11:57Z",
+      "published_ts": null,
+      "wm-received": "2026-10-11T16:11:57Z",
+      "wm-id": 2039446,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117406312025206343/111753996212092874",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
       "wm-property": "repost-of",
       "wm-private": false
     }
