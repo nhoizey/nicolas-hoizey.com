@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-12T00:11:46.420Z",
+  "lastFetched": "2026-10-12T06:11:43.750Z",
   "webmentions": [
     {
       "type": "entry",
@@ -197459,6 +197459,66 @@
       "wm-protocol": "webmention",
       "like-of": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Kai",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/26ebc284d84906633b9609ab94de41039849e5ae857329029503d8bb975dc3bc.jpg",
+        "url": "https://mastodon.social/@Schweinepriester"
+      },
+      "url": "https://mamot.fr/@nhoizey/117421861509650835#favorited-by-109377519798719301",
+      "published": "2026-10-12T00:44:17Z",
+      "published_ts": null,
+      "wm-received": "2026-10-12T00:44:17Z",
+      "wm-id": 2039628,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117421861509650835/109377519798719301",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "sublimer@あすてろいどん鯖管",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/a11b42bd3b1361ebea56008a826cfca7ceb924f19a6f716c102d5351f9bdb6fa.png",
+        "url": "https://mstdn.sublimer.me/@sublimer"
+      },
+      "url": "https://mamot.fr/@nhoizey/117421861509650835#favorited-by-203709",
+      "published": "2026-10-12T01:41:50Z",
+      "published_ts": null,
+      "wm-received": "2026-10-12T01:41:50Z",
+      "wm-id": 2039638,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117421861509650835/203709",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "sublimer@あすてろいどん鯖管",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/a11b42bd3b1361ebea56008a826cfca7ceb924f19a6f716c102d5351f9bdb6fa.png",
+        "url": "https://mstdn.sublimer.me/@sublimer"
+      },
+      "url": "https://mamot.fr/@nhoizey/117421861509650835#reblogged-by-203709",
+      "published": "2026-10-12T01:41:51Z",
+      "published_ts": null,
+      "wm-received": "2026-10-12T01:41:51Z",
+      "wm-id": 2039639,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117421861509650835/203709",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-property": "repost-of",
       "wm-private": false
     }
   ]
