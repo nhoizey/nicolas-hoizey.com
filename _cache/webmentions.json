@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-11T18:04:41.120Z",
+  "lastFetched": "2026-10-12T00:11:46.420Z",
   "webmentions": [
     {
       "type": "entry",
@@ -197319,6 +197319,146 @@
       "wm-protocol": "webmention",
       "repost-of": "https://nicolas-hoizey.com/links/2026/10/08/standards-in-progress-making-video-posters-accessible-responsive-and-an-element/",
       "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "wissotsky",
+        "photo": "https://static.mamot.fr/cache/accounts/avatars/112/608/720/280/650/982/original/816c68d1fea592b8.jpg",
+        "url": "https://kolektiva.social/@wissotsky"
+      },
+      "url": "https://mamot.fr/@nhoizey/117421861509650835#favorited-by-112608720280650982",
+      "published": "2026-10-11T20:00:19Z",
+      "published_ts": null,
+      "wm-received": "2026-10-11T20:00:19Z",
+      "wm-id": 2039531,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117421861509650835/112608720280650982",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Thomas Griesbaum",
+        "photo": "https://static.mamot.fr/cache/accounts/avatars/110/446/243/166/607/682/original/239c39d534a643c4.jpg",
+        "url": "https://mstdn.io/@tencate"
+      },
+      "url": "https://mamot.fr/@nhoizey/117421861509650835#reblogged-by-110446243166607682",
+      "published": "2026-10-11T20:00:19Z",
+      "published_ts": null,
+      "wm-received": "2026-10-11T20:00:19Z",
+      "wm-id": 2039530,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117421861509650835/110446243166607682",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Joe Steinbring :thisisfine:",
+        "photo": "https://static.mamot.fr/cache/accounts/avatars/109/274/496/022/312/530/original/5f4091750711546b.png",
+        "url": "https://toot.works/@joe"
+      },
+      "url": "https://mamot.fr/@nhoizey/117421861509650835#reblogged-by-109274496022312530",
+      "published": "2026-10-11T20:00:20Z",
+      "published_ts": null,
+      "wm-received": "2026-10-11T20:00:20Z",
+      "wm-id": 2039532,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117421861509650835/109274496022312530",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Christian Niklas",
+        "photo": "https://static.mamot.fr/cache/accounts/avatars/109/308/917/728/997/061/original/16cb262d92cfa686.jpg",
+        "url": "https://indieweb.social/@websident"
+      },
+      "url": "https://mamot.fr/@nhoizey/117421861509650835#reblogged-by-109308917728997061",
+      "published": "2026-10-11T20:00:21Z",
+      "published_ts": null,
+      "wm-received": "2026-10-11T20:00:21Z",
+      "wm-id": 2039534,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117421861509650835/109308917728997061",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Thomas Steiner :chrome:",
+        "photo": "https://static.mamot.fr/cache/accounts/avatars/000/085/577/original/2075f773b91f6a63.jpeg",
+        "url": "https://toot.cafe/@tomayac"
+      },
+      "url": "https://mamot.fr/@nhoizey/117421861509650835#reblogged-by-85577",
+      "published": "2026-10-11T20:00:21Z",
+      "published_ts": null,
+      "wm-received": "2026-10-11T20:00:21Z",
+      "wm-id": 2039533,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117421861509650835/85577",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "mariuz",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/3deb9a8204db274993712856a740427ca80c09d3ab7ac749013b1ae8f86af49b.jpg",
+        "url": "https://mastodon.social/@mariuz"
+      },
+      "url": "https://mamot.fr/@nhoizey/117421861509650835#favorited-by-109537214816854690",
+      "published": "2026-10-11T20:56:53Z",
+      "published_ts": null,
+      "wm-received": "2026-10-11T20:56:53Z",
+      "wm-id": 2039553,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117421861509650835/109537214816854690",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Simeon Nedkov",
+        "photo": "https://static.mamot.fr/cache/accounts/avatars/109/352/764/417/477/812/original/2d0d6710ce122046.jpeg",
+        "url": "https://indiehackers.social/@simeon"
+      },
+      "url": "https://mamot.fr/@nhoizey/117421861509650835#favorited-by-109352764417477812",
+      "published": "2026-10-11T20:56:53Z",
+      "published_ts": null,
+      "wm-received": "2026-10-11T20:56:53Z",
+      "wm-id": 2039552,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117421861509650835/109352764417477812",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
