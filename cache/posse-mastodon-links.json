@@ -6315,5 +6315,24 @@
       "https://mamot.fr/users/nhoizey/statuses/117421861509650835"
     ],
     "lastTootTimestamp": 1791715416175
+  },
+  "https://nicolas-hoizey.com/links/2026/10/13/alignment-in-css-grid-lanes/": {
+    "id": "https://nicolas-hoizey.com/links/2026/10/13/alignment-in-css-grid-lanes/",
+    "url": "https://nicolas-hoizey.com/links/2026/10/13/alignment-in-css-grid-lanes/",
+    "lang": "en",
+    "title": "“Alignment in CSS Grid Lanes”",
+    "date_published": "2026-10-13T12:56:18Z",
+    "content_text": "“Alignment in CSS Grid Lanes” by @patrickbrosset@mas.to\n\n🔗 https://patrickbrosset.com/articles/2026-06-19-alignment-in-css-grid-lanes/\n\n> […] here is the really interesting part, aligning individual items along the stacking axis.\n> \n> At first sight, this might seem surprising. After all, CSS Grid Lanes fills any available space along the stacking axis. That's the whole point, right? When a lane is shorter than the other lanes, the next item to be placed goes in that lane, filling the…\n\n#CSS #GridLanes\n\n⚓️ https://nicolas-hoizey.com/links/2026/10/13/alignment-in-css-grid-lanes/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://patrickbrosset.com/articles/2026-06-19-alignment-in-css-grid-lanes/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Alignment in CSS Grid Lanes"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/117433929927389794"
+    ],
+    "lastTootTimestamp": 1791899565654
   }
 }
