@@ -5,7 +5,7 @@ lang: en
 link: https://patrickbrosset.com/articles/2026-06-19-alignment-in-css-grid-lanes/
 authors:
   - "Patrick Brosset"
-tags: [CSS, CSS Grid Lanes]
+tags: [CSS, Grid Lanes]
 ---
 
 > […] here is the really interesting part, aligning individual items along the stacking axis.
