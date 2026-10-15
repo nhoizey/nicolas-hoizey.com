@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-12T06:11:43.750Z",
+  "lastFetched": "2026-10-15T12:05:19.366Z",
   "webmentions": [
     {
       "type": "entry",
@@ -197519,6 +197519,270 @@
       "wm-protocol": "webmention",
       "repost-of": "https://nicolas-hoizey.com/links/2026/10/11/cartographers-of-north-korea/",
       "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "France Pasquale 📷 🦻 :antifa: :no_ai:",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/04573bd94566e3b4578be813caa97c13e0b5177a6be41da25addad7db412977f.png",
+        "url": "https://piaille.fr/@pasqualeberesti"
+      },
+      "url": "https://piaille.fr/@pasqualeberesti/117433937953453923",
+      "published": "2026-10-13T13:54:48+00:00",
+      "published_ts": 1791899688,
+      "wm-received": "2026-10-15T06:56:08Z",
+      "wm-id": 2040968,
+      "wm-source": "https://brid.gy/comment/mastodon/@nhoizey@mamot.fr/117433929927389794/117433938008292423",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/13/alignment-in-css-grid-lanes/",
+      "wm-protocol": "webmention",
+      "content": {
+        "content-type": "text/html",
+        "value": "<p><span class=\"h-card\"><a href=\"https://mamot.fr/@nhoizey\" class=\"u-url\">@<span>nhoizey</span></a></span> je me souviens, d'une époque, disons 1997, où le html était simple. 😂</p>\n  <a class=\"u-mention\" href=\"https://patrickbrosset.com/articles/2026-06-19-alignment-in-css-grid-lanes/\"></a>",
+        "html": "<a href=\"https://mamot.fr/@nhoizey\">@nhoizey</a> je me souviens, d'une époque, disons 1997, où le html était simple. 😂",
+        "text": "@nhoizey je me souviens, d'une époque, disons 1997, où le html était simple. 😂"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2026/10/13/alignment-in-css-grid-lanes/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/68e6f1617572bd4c2158727e6c1693ec1d0ab76e3f29f51d93c5895ee2c8e6b0.jpg",
+        "url": "https://mamot.fr/@nhoizey"
+      },
+      "url": "https://mamot.fr/@nhoizey/117434028177623032",
+      "published": "2026-10-13T14:17:44+00:00",
+      "published_ts": 1791901064,
+      "wm-received": "2026-10-15T06:56:10Z",
+      "wm-id": 2040969,
+      "wm-source": "https://brid.gy/comment/mastodon/@nhoizey@mamot.fr/117433929927389794/117434028177623032",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/13/alignment-in-css-grid-lanes/",
+      "wm-protocol": "webmention",
+      "content": {
+        "content-type": "text/html",
+        "value": "<p><span class=\"h-card\"><a href=\"https://piaille.fr/@pasqualeberesti\" class=\"u-url\">@<span>pasqualeberesti</span></a></span> simple mais dangereux, avec `&lt;marquee&gt;` notamment… 😅</p>\n  <a class=\"u-mention\" href=\"https://patrickbrosset.com/articles/2026-06-19-alignment-in-css-grid-lanes/\"></a>",
+        "html": "<a href=\"https://piaille.fr/@pasqualeberesti\">@pasqualeberesti</a> simple mais dangereux, avec `&lt;marquee&gt;` notamment… 😅",
+        "text": "@pasqualeberesti simple mais dangereux, avec `<marquee>` notamment… 😅"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2026/10/13/alignment-in-css-grid-lanes/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "France Pasquale 📷 🦻 :antifa: :no_ai:",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/04573bd94566e3b4578be813caa97c13e0b5177a6be41da25addad7db412977f.png",
+        "url": "https://piaille.fr/@pasqualeberesti"
+      },
+      "url": "https://piaille.fr/@pasqualeberesti/117434051119441445",
+      "published": "2026-10-13T14:23:34+00:00",
+      "published_ts": 1791901414,
+      "wm-received": "2026-10-15T06:56:08Z",
+      "wm-id": 2040966,
+      "wm-source": "https://brid.gy/comment/mastodon/@nhoizey@mamot.fr/117433929927389794/117434051160220621",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/13/alignment-in-css-grid-lanes/",
+      "wm-protocol": "webmention",
+      "content": {
+        "content-type": "text/html",
+        "value": "<p><span class=\"h-card\"><a href=\"https://mamot.fr/@nhoizey\" class=\"u-url\">@<span>nhoizey</span></a></span> alors, vu les navigateurs qu'on avait, genre NCSA qui figeait une page sur 2, je sais pas si y avait du danger. en plus, y avait pas de pub, pas réseaux sociaux, c'était simple quoi 😉</p>\n  <a class=\"u-mention\" href=\"https://patrickbrosset.com/articles/2026-06-19-alignment-in-css-grid-lanes/\"></a>",
+        "html": "<a href=\"https://mamot.fr/@nhoizey\">@nhoizey</a> alors, vu les navigateurs qu'on avait, genre NCSA qui figeait une page sur 2, je sais pas si y avait du danger. en plus, y avait pas de pub, pas réseaux sociaux, c'était simple quoi 😉",
+        "text": "@nhoizey alors, vu les navigateurs qu'on avait, genre NCSA qui figeait une page sur 2, je sais pas si y avait du danger. en plus, y avait pas de pub, pas réseaux sociaux, c'était simple quoi 😉"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2026/10/13/alignment-in-css-grid-lanes/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Hoizey",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/68e6f1617572bd4c2158727e6c1693ec1d0ab76e3f29f51d93c5895ee2c8e6b0.jpg",
+        "url": "https://mamot.fr/@nhoizey"
+      },
+      "url": "https://mamot.fr/@nhoizey/117434116342119436",
+      "published": "2026-10-13T14:40:10+00:00",
+      "published_ts": 1791902410,
+      "wm-received": "2026-10-15T06:56:08Z",
+      "wm-id": 2040967,
+      "wm-source": "https://brid.gy/comment/mastodon/@nhoizey@mamot.fr/117433929927389794/117434116342119436",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/13/alignment-in-css-grid-lanes/",
+      "wm-protocol": "webmention",
+      "content": {
+        "content-type": "text/html",
+        "value": "<p><span class=\"h-card\"><a href=\"https://piaille.fr/@pasqualeberesti\" class=\"u-url\">@<span>pasqualeberesti</span></a></span> il y avait déjà The (virtual) Baguette de mémoire !</p>\n  <a class=\"u-mention\" href=\"https://patrickbrosset.com/articles/2026-06-19-alignment-in-css-grid-lanes/\"></a>",
+        "html": "<a href=\"https://piaille.fr/@pasqualeberesti\">@pasqualeberesti</a> il y avait déjà The (virtual) Baguette de mémoire !",
+        "text": "@pasqualeberesti il y avait déjà The (virtual) Baguette de mémoire !"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2026/10/13/alignment-in-css-grid-lanes/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "David Gerard",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/3050ba37a5e3ead75cc3d1803f21cfe3046c85b1f1b97937c086d8431b4468df.png",
+        "url": "https://circumstances.run/@davidgerard"
+      },
+      "url": "https://mamot.fr/@nhoizey/117438847312874686#favorited-by-109339545162415556",
+      "published": "2026-10-15T06:55:41Z",
+      "published_ts": null,
+      "wm-received": "2026-10-15T06:55:41Z",
+      "wm-id": 2040950,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117438847312874686/109339545162415556",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/14/the-ai-photoshop-clones-interface-mockups-that-don-t-work/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/14/the-ai-photoshop-clones-interface-mockups-that-don-t-work/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Maxime Hurtrel",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/21f8b69e50f78d77df3ec094bd61fc42d5815175742f0ddfa0dcba6f6a131da7.jpg",
+        "url": "https://mastodon.social/@crazyman"
+      },
+      "url": "https://mamot.fr/@nhoizey/117438847312874686#favorited-by-110905502974684565",
+      "published": "2026-10-15T06:55:41Z",
+      "published_ts": null,
+      "wm-received": "2026-10-15T06:55:41Z",
+      "wm-id": 2040949,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117438847312874686/110905502974684565",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/14/the-ai-photoshop-clones-interface-mockups-that-don-t-work/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/14/the-ai-photoshop-clones-interface-mockups-that-don-t-work/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nightskiier",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/9c6b9e6c151c74cd95d68b58f5fd48e82b4b853b7add1d6cde5212c00a5423df.png",
+        "url": "https://mastodon.social/@nightskiier"
+      },
+      "url": "https://mamot.fr/@nhoizey/117438847312874686#favorited-by-117275081622631853",
+      "published": "2026-10-15T06:55:41Z",
+      "published_ts": null,
+      "wm-received": "2026-10-15T06:55:41Z",
+      "wm-id": 2040948,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117438847312874686/117275081622631853",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/14/the-ai-photoshop-clones-interface-mockups-that-don-t-work/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/14/the-ai-photoshop-clones-interface-mockups-that-don-t-work/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Maxime Hurtrel",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/21f8b69e50f78d77df3ec094bd61fc42d5815175742f0ddfa0dcba6f6a131da7.jpg",
+        "url": "https://mastodon.social/@crazyman"
+      },
+      "url": "https://mamot.fr/@nhoizey/117438847312874686#reblogged-by-110905502974684565",
+      "published": "2026-10-15T06:55:43Z",
+      "published_ts": null,
+      "wm-received": "2026-10-15T06:55:43Z",
+      "wm-id": 2040952,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117438847312874686/110905502974684565",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/14/the-ai-photoshop-clones-interface-mockups-that-don-t-work/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/10/14/the-ai-photoshop-clones-interface-mockups-that-don-t-work/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Marien 🦆🦆",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/e02122a7b4e628c2f97694a3dfb0d3189c2dd4a98d22d97513f8e3462c37c948.jpg",
+        "url": "https://tutut.delire.party/@marien"
+      },
+      "url": "https://mamot.fr/@nhoizey/117438847312874686#favorited-by-40737",
+      "published": "2026-10-15T06:55:43Z",
+      "published_ts": null,
+      "wm-received": "2026-10-15T06:55:43Z",
+      "wm-id": 2040951,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117438847312874686/40737",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/14/the-ai-photoshop-clones-interface-mockups-that-don-t-work/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/14/the-ai-photoshop-clones-interface-mockups-that-don-t-work/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Thain",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/8481bd280f5af4895279b8c3a59a0951f712d4c5f6325af01e8592324e4421fd.jpg",
+        "url": "https://mastodon.social/@Thain"
+      },
+      "url": "https://mamot.fr/@nhoizey/117438847312874686#reblogged-by-14996",
+      "published": "2026-10-15T06:55:47Z",
+      "published_ts": null,
+      "wm-received": "2026-10-15T06:55:47Z",
+      "wm-id": 2040953,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117438847312874686/14996",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/14/the-ai-photoshop-clones-interface-mockups-that-don-t-work/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/10/14/the-ai-photoshop-clones-interface-mockups-that-don-t-work/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "AI",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/96e2912cc805b7d29f79e234250e14299797a9a74e1af7ab53d8ced478ca669b.jpg",
+        "url": "https://channel.org/@ai"
+      },
+      "url": "https://mamot.fr/@nhoizey/117438847312874686#reblogged-by-114817922629321061",
+      "published": "2026-10-15T06:55:48Z",
+      "published_ts": null,
+      "wm-received": "2026-10-15T06:55:48Z",
+      "wm-id": 2040954,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117438847312874686/114817922629321061",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/14/the-ai-photoshop-clones-interface-mockups-that-don-t-work/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/10/14/the-ai-photoshop-clones-interface-mockups-that-don-t-work/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Patrick Brosset",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/3f01a406e262c5a71f408a5c8d9e33bd33dafdf0121ce29db6fb80337aad3c68.jpg",
+        "url": "https://mas.to/@patrickbrosset"
+      },
+      "url": "https://mamot.fr/@nhoizey/117433929927389794#favorited-by-109304360806264189",
+      "published": "2026-10-15T06:56:10Z",
+      "published_ts": null,
+      "wm-received": "2026-10-15T06:56:10Z",
+      "wm-id": 2040970,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117433929927389794/109304360806264189",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/13/alignment-in-css-grid-lanes/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/13/alignment-in-css-grid-lanes/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
