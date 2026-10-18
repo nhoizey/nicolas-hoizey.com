@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-15T12:05:19.366Z",
+  "lastFetched": "2026-10-18T18:03:40.144Z",
   "webmentions": [
     {
       "type": "entry",
@@ -197782,6 +197782,26 @@
       "wm-target": "https://nicolas-hoizey.com/links/2026/10/13/alignment-in-css-grid-lanes/",
       "wm-protocol": "webmention",
       "like-of": "https://nicolas-hoizey.com/links/2026/10/13/alignment-in-css-grid-lanes/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mia jordan",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/a7309b860a2afa1e9971a1e5ab76efe83792f074849febc8e41969759b0c89fa.jpg",
+        "url": "https://pixelfed.social/mia4743"
+      },
+      "url": "https://mamot.fr/@nhoizey/117438847312874686#favorited-by-117462498696005609",
+      "published": "2026-10-18T15:18:31Z",
+      "published_ts": null,
+      "wm-received": "2026-10-18T15:18:31Z",
+      "wm-id": 2041894,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117438847312874686/117462498696005609",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/14/the-ai-photoshop-clones-interface-mockups-that-don-t-work/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/14/the-ai-photoshop-clones-interface-mockups-that-don-t-work/",
       "wm-property": "like-of",
       "wm-private": false
     }
