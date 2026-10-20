@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-20T00:09:23.241Z",
+  "lastFetched": "2026-10-20T06:05:46.133Z",
   "webmentions": [
     {
       "type": "entry",
@@ -197895,6 +197895,46 @@
       "wm-protocol": "webmention",
       "like-of": "https://nicolas-hoizey.com/articles/2001/05/24/une-introduction-a-pear/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jim Nelson",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/a61ee9ba760dc46ac533cfa9a40821ac6db20a0ae8001933abc6adb118fcbe92.jpg",
+        "url": "https://mastodon.archive.org/@jim"
+      },
+      "url": "https://mamot.fr/@nhoizey/117469610587809078#reblogged-by-109327231618205470",
+      "published": "2026-10-20T00:42:28Z",
+      "published_ts": null,
+      "wm-received": "2026-10-20T00:42:28Z",
+      "wm-id": 2042302,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117469610587809078/109327231618205470",
+      "wm-target": "https://nicolas-hoizey.com/articles/2001/05/24/une-introduction-a-pear/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/articles/2001/05/24/une-introduction-a-pear/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jim Nelson",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/a61ee9ba760dc46ac533cfa9a40821ac6db20a0ae8001933abc6adb118fcbe92.jpg",
+        "url": "https://mastodon.archive.org/@jim"
+      },
+      "url": "https://mamot.fr/@nhoizey/117469610587809078#reblogged-by-109327231618205470",
+      "published": "2026-10-20T00:42:28Z",
+      "published_ts": null,
+      "wm-received": "2026-10-20T00:42:28Z",
+      "wm-id": 2042301,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117469610587809078/109327231618205470",
+      "wm-target": "https://nicolas-hoizey.com/articles/2001/10/12/guide-du-debutant-pour-pear-db/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/articles/2001/10/12/guide-du-debutant-pour-pear-db/",
+      "wm-property": "repost-of",
       "wm-private": false
     }
   ]
