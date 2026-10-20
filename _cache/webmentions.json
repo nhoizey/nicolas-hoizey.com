@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-18T18:03:40.144Z",
+  "lastFetched": "2026-10-20T00:09:23.241Z",
   "webmentions": [
     {
       "type": "entry",
@@ -197802,6 +197802,98 @@
       "wm-target": "https://nicolas-hoizey.com/links/2026/10/14/the-ai-photoshop-clones-interface-mockups-that-don-t-work/",
       "wm-protocol": "webmention",
       "like-of": "https://nicolas-hoizey.com/links/2026/10/14/the-ai-photoshop-clones-interface-mockups-that-don-t-work/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Gina Peter Banyard",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/0c90cad8e7734aaa90ba0665ad4f39e4d9931da230d0f9a40f07021304ea4761.jpg",
+        "url": "https://phpc.social/@Girgias"
+      },
+      "url": "https://phpc.social/@Girgias/117470160818688273",
+      "published": "2026-10-19T23:26:45+00:00",
+      "published_ts": 1792452405,
+      "wm-received": "2026-10-19T23:37:32Z",
+      "wm-id": 2042294,
+      "wm-source": "https://brid.gy/comment/mastodon/@nhoizey@mamot.fr/117469610587809078/117470160889193470",
+      "wm-target": "https://nicolas-hoizey.com/articles/2001/05/24/une-introduction-a-pear/",
+      "wm-protocol": "webmention",
+      "content": {
+        "content-type": "text/html",
+        "value": "<p><span class=\"h-card\"><a href=\"https://mamot.fr/@nhoizey\" class=\"u-url\">@<span>nhoizey</span></a></span> incroyable ! Mais bon après y a de bonnes raisons pourquoi on veut s'en débarrasser (principalement car c'est pas maintenu et qu'on a pas accès au serveur alors que ça utilise un sous domaine de PHP.net)</p>",
+        "html": "<a href=\"https://mamot.fr/@nhoizey\">@nhoizey</a> incroyable ! Mais bon après y a de bonnes raisons pourquoi on veut s'en débarrasser (principalement car c'est pas maintenu et qu'on a pas accès au serveur alors que ça utilise un sous domaine de PHP.net)",
+        "text": "@nhoizey incroyable ! Mais bon après y a de bonnes raisons pourquoi on veut s'en débarrasser (principalement car c'est pas maintenu et qu'on a pas accès au serveur alors que ça utilise un sous domaine de PHP.net)"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/articles/2001/05/24/une-introduction-a-pear/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Gina Peter Banyard",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/0c90cad8e7734aaa90ba0665ad4f39e4d9931da230d0f9a40f07021304ea4761.jpg",
+        "url": "https://phpc.social/@Girgias"
+      },
+      "url": "https://phpc.social/@Girgias/117470160818688273",
+      "published": "2026-10-19T23:26:45+00:00",
+      "published_ts": 1792452405,
+      "wm-received": "2026-10-19T23:37:31Z",
+      "wm-id": 2042293,
+      "wm-source": "https://brid.gy/comment/mastodon/@nhoizey@mamot.fr/117469610587809078/117470160889193470",
+      "wm-target": "https://nicolas-hoizey.com/articles/2001/10/12/guide-du-debutant-pour-pear-db/",
+      "wm-protocol": "webmention",
+      "content": {
+        "content-type": "text/html",
+        "value": "<p><span class=\"h-card\"><a href=\"https://mamot.fr/@nhoizey\" class=\"u-url\">@<span>nhoizey</span></a></span> incroyable ! Mais bon après y a de bonnes raisons pourquoi on veut s'en débarrasser (principalement car c'est pas maintenu et qu'on a pas accès au serveur alors que ça utilise un sous domaine de PHP.net)</p>",
+        "html": "<a href=\"https://mamot.fr/@nhoizey\">@nhoizey</a> incroyable ! Mais bon après y a de bonnes raisons pourquoi on veut s'en débarrasser (principalement car c'est pas maintenu et qu'on a pas accès au serveur alors que ça utilise un sous domaine de PHP.net)",
+        "text": "@nhoizey incroyable ! Mais bon après y a de bonnes raisons pourquoi on veut s'en débarrasser (principalement car c'est pas maintenu et qu'on a pas accès au serveur alors que ça utilise un sous domaine de PHP.net)"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/articles/2001/10/12/guide-du-debutant-pour-pear-db/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Bertrand Mansion",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/82fa3240de61b33665c763f42bb37fdf919b821ba9186e597f7a4956f120c13d.jpg",
+        "url": "https://mamot.fr/@golgote"
+      },
+      "url": "https://mamot.fr/@nhoizey/117469610587809078#favorited-by-353385",
+      "published": "2026-10-20T00:08:17Z",
+      "published_ts": null,
+      "wm-received": "2026-10-20T00:08:17Z",
+      "wm-id": 2042296,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117469610587809078/353385",
+      "wm-target": "https://nicolas-hoizey.com/articles/2001/10/12/guide-du-debutant-pour-pear-db/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/articles/2001/10/12/guide-du-debutant-pour-pear-db/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Bertrand Mansion",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/82fa3240de61b33665c763f42bb37fdf919b821ba9186e597f7a4956f120c13d.jpg",
+        "url": "https://mamot.fr/@golgote"
+      },
+      "url": "https://mamot.fr/@nhoizey/117469610587809078#favorited-by-353385",
+      "published": "2026-10-20T00:08:17Z",
+      "published_ts": null,
+      "wm-received": "2026-10-20T00:08:17Z",
+      "wm-id": 2042295,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117469610587809078/353385",
+      "wm-target": "https://nicolas-hoizey.com/articles/2001/05/24/une-introduction-a-pear/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/articles/2001/05/24/une-introduction-a-pear/",
       "wm-property": "like-of",
       "wm-private": false
     }
