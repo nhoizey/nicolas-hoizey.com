@@ -6353,5 +6353,24 @@
       "https://mamot.fr/users/nhoizey/statuses/117438847312874686"
     ],
     "lastTootTimestamp": 1791974599018
+  },
+  "https://nicolas-hoizey.com/links/2026/10/22/jpeg-xl-vs-avif-for-web-use-cases/": {
+    "id": "https://nicolas-hoizey.com/links/2026/10/22/jpeg-xl-vs-avif-for-web-use-cases/",
+    "url": "https://nicolas-hoizey.com/links/2026/10/22/jpeg-xl-vs-avif-for-web-use-cases/",
+    "lang": "en",
+    "title": "“JPEG XL vs AVIF for web use-cases”",
+    "date_published": "2026-10-22T14:18:24Z",
+    "content_text": "“JPEG XL vs AVIF for web use-cases” by @jaffathecake@mastodon.social\n\n🔗 https://jakearchibald.com/2026/jpeg-xl-vs-avif/\n\n> I'll go into full detail, with examples and benchmarks, but for those of you who don't have the time, here are [2 of] the headlines:\n> \n> - For lossy photos on the web, AVIF almost always produces smaller files than JPEG XL.\n> - […]\n> - For lossless, JPEG XL is the clear winner.\n\nJake provides extremely detailed information,…\n\n#WebPerf #image #JPEGXL #AVIF\n\n⚓️ https://nicolas-hoizey.com/links/2026/10/22/jpeg-xl-vs-avif-for-web-use-cases/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
+        "mime_type": "image/png",
+        "title": "Screenshot of JPEG XL vs AVIF for web use-cases"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/117485570618182295"
+    ],
+    "lastTootTimestamp": 1792687540226
   }
 }
