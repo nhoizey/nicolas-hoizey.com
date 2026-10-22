@@ -45,6 +45,13 @@ JSON-LD for:
   {% from "macros/billetCard.njk" import billetCard %}
   {% from "macros/talkCard.njk" import talkCard %}
 
+  <h2>Noteworthy articles</h2>
+  <ol class="cards-list">
+  {% for article in collections.promotedArticles %}
+    {{ articleCard(article) }}
+  {% endfor %}
+  </ol>
+
   <h2>Latest contents</h2>
   <ol class="cards-list">
     {% for item in collections.archives | limit(5) %}
@@ -64,13 +71,6 @@ JSON-LD for:
         {{ talkCard(item) }}
       {% endif %}
     {% endfor %}
-  </ol>
-
-  <h2>Older noteworthy articles</h2>
-  <ol class="cards-list">
-  {% for article in collections.promotedArticles %}
-    {{ articleCard(article) }}
-  {% endfor %}
   </ol>
 
   {% set cssFilename = "tagscloud.css" %}
