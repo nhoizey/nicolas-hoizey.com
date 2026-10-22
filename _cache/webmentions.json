@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-20T06:05:46.133Z",
+  "lastFetched": "2026-10-22T18:04:19.775Z",
   "webmentions": [
     {
       "type": "entry",
@@ -197934,6 +197934,106 @@
       "wm-target": "https://nicolas-hoizey.com/articles/2001/10/12/guide-du-debutant-pour-pear-db/",
       "wm-protocol": "webmention",
       "repost-of": "https://nicolas-hoizey.com/articles/2001/10/12/guide-du-debutant-pour-pear-db/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "0gust1",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/3dbd3ed9bda680063d6fd737c6c230ffd3bb3fdb785ca4b8d8ca6c03937fd6de.png",
+        "url": "https://merveilles.town/@0gust1"
+      },
+      "url": "https://mamot.fr/@nhoizey/117485570618182295#favorited-by-163764",
+      "published": "2026-10-22T16:59:47Z",
+      "published_ts": null,
+      "wm-received": "2026-10-22T16:59:47Z",
+      "wm-id": 2043245,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117485570618182295/163764",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/22/jpeg-xl-vs-avif-for-web-use-cases/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/22/jpeg-xl-vs-avif-for-web-use-cases/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "piet the bunny <3",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/f34e2298c64ca77fcefa824b6b3aaa1702265a063118964ea98ba98ee324cbd1.jpg",
+        "url": "https://pixelfed.social/flaps015"
+      },
+      "url": "https://mamot.fr/@nhoizey/117485570618182295#favorited-by-114891269374305316",
+      "published": "2026-10-22T17:00:24Z",
+      "published_ts": null,
+      "wm-received": "2026-10-22T17:00:24Z",
+      "wm-id": 2043248,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117485570618182295/114891269374305316",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/22/jpeg-xl-vs-avif-for-web-use-cases/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/22/jpeg-xl-vs-avif-for-web-use-cases/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jake Archibald",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/56a7b9670b9b37f1c4e931af0245613c01e536e8d43eb454edafaa8262d9b485.jpg",
+        "url": "https://mastodon.social/@jaffathecake"
+      },
+      "url": "https://mamot.fr/@nhoizey/117485570618182295#favorited-by-5044",
+      "published": "2026-10-22T17:31:25Z",
+      "published_ts": null,
+      "wm-received": "2026-10-22T17:31:25Z",
+      "wm-id": 2043254,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117485570618182295/5044",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/22/jpeg-xl-vs-avif-for-web-use-cases/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/22/jpeg-xl-vs-avif-for-web-use-cases/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tobias Baldauf",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/6d7b7c3414751940b1e4d0dab4fb344f29d07dd0111bd5de3590eca70d44eca9.jpg",
+        "url": "https://social.tchncs.de/@tbaldauf"
+      },
+      "url": "https://mamot.fr/@nhoizey/117485570618182295#favorited-by-388794",
+      "published": "2026-10-22T17:31:25Z",
+      "published_ts": null,
+      "wm-received": "2026-10-22T17:31:25Z",
+      "wm-id": 2043253,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117485570618182295/388794",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/22/jpeg-xl-vs-avif-for-web-use-cases/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/22/jpeg-xl-vs-avif-for-web-use-cases/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tobias Baldauf",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/6d7b7c3414751940b1e4d0dab4fb344f29d07dd0111bd5de3590eca70d44eca9.jpg",
+        "url": "https://social.tchncs.de/@tbaldauf"
+      },
+      "url": "https://mamot.fr/@nhoizey/117485570618182295#reblogged-by-388794",
+      "published": "2026-10-22T17:31:32Z",
+      "published_ts": null,
+      "wm-received": "2026-10-22T17:31:32Z",
+      "wm-id": 2043255,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117485570618182295/388794",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/22/jpeg-xl-vs-avif-for-web-use-cases/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/10/22/jpeg-xl-vs-avif-for-web-use-cases/",
       "wm-property": "repost-of",
       "wm-private": false
     }
