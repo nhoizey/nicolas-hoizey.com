@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-22T18:04:19.775Z",
+  "lastFetched": "2026-10-23T12:04:56.546Z",
   "webmentions": [
     {
       "type": "entry",
@@ -198035,6 +198035,66 @@
       "wm-protocol": "webmention",
       "repost-of": "https://nicolas-hoizey.com/links/2026/10/22/jpeg-xl-vs-avif-for-web-use-cases/",
       "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Julian Somesan",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/d0ab846d1a26823712585bf6653a25e2826ef88bb6ea9c5c597c5be1eaf412f2.png",
+        "url": "https://phpc.social/@julian"
+      },
+      "url": "https://mamot.fr/@nhoizey/117489806196914544#favorited-by-110310520324409845",
+      "published": "2026-10-23T11:05:21Z",
+      "published_ts": null,
+      "wm-received": "2026-10-23T11:05:21Z",
+      "wm-id": 2043471,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117489806196914544/110310520324409845",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/23/there-isn-t-an-easy-exploit-for-this-php-vulnerability/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/23/there-isn-t-an-easy-exploit-for-this-php-vulnerability/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "DCoder 🇱🇹❤🇺🇦",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/621a4847238f414d0f8cff0216968c4cb93066c67259257f5c4918160bd86172.png",
+        "url": "https://ohai.social/@dcoderlt"
+      },
+      "url": "https://mamot.fr/@nhoizey/117489806196914544#favorited-by-109382901955527009",
+      "published": "2026-10-23T11:05:21Z",
+      "published_ts": null,
+      "wm-received": "2026-10-23T11:05:21Z",
+      "wm-id": 2043470,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117489806196914544/109382901955527009",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/23/there-isn-t-an-easy-exploit-for-this-php-vulnerability/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/23/there-isn-t-an-easy-exploit-for-this-php-vulnerability/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Sascha",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/3d8b5a8b64d4d1c8be02c789adf4fdd96d11886f141399870cf0300fd45432ff.jpg",
+        "url": "https://mastodon.social/@sascha_evo"
+      },
+      "url": "https://mamot.fr/@nhoizey/117489806196914544#favorited-by-117490014001987677",
+      "published": "2026-10-23T11:37:14Z",
+      "published_ts": null,
+      "wm-received": "2026-10-23T11:37:14Z",
+      "wm-id": 2043484,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117489806196914544/117490014001987677",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/23/there-isn-t-an-easy-exploit-for-this-php-vulnerability/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/23/there-isn-t-an-easy-exploit-for-this-php-vulnerability/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
