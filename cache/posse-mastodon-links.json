@@ -6372,5 +6372,24 @@
       "https://mamot.fr/users/nhoizey/statuses/117485570618182295"
     ],
     "lastTootTimestamp": 1792687540226
+  },
+  "https://nicolas-hoizey.com/links/2026/10/23/there-isn-t-an-easy-exploit-for-this-php-vulnerability/": {
+    "id": "https://nicolas-hoizey.com/links/2026/10/23/there-isn-t-an-easy-exploit-for-this-php-vulnerability/",
+    "url": "https://nicolas-hoizey.com/links/2026/10/23/there-isn-t-an-easy-exploit-for-this-php-vulnerability/",
+    "lang": "en",
+    "title": "“There isn&#39;t an easy exploit for this PHP vulnerability”",
+    "date_published": "2026-10-23T08:29:47Z",
+    "content_text": "“There isn't an easy exploit for this PHP vulnerability” by Elias Taylor\n\n🔗 https://eliastaylor.com/noexploit/\n\n> The strangest thing is that so many people have independently made this extraordinarily weird defect in judgement. That is because they haven't independently made this decision. Claude/Etc. has done all of the judgement for them, hence the bizarre distribution in logical errors.\n> \n> There's something important to be said here about…\n\n#PHP #AI #security\n\n⚓️ https://nicolas-hoizey.com/links/2026/10/23/there-isn-t-an-easy-exploit-for-this-php-vulnerability/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://eliastaylor.com/noexploit/",
+        "mime_type": "image/png",
+        "title": "Screenshot of There isn&#39;t an easy exploit for this PHP vulnerability"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/117489806196914544"
+    ],
+    "lastTootTimestamp": 1792752169884
   }
 }
