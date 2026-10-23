@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-23T12:04:56.546Z",
+  "lastFetched": "2026-10-23T18:04:10.046Z",
   "webmentions": [
     {
       "type": "entry",
@@ -198095,6 +198095,26 @@
       "wm-protocol": "webmention",
       "like-of": "https://nicolas-hoizey.com/links/2026/10/23/there-isn-t-an-easy-exploit-for-this-php-vulnerability/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Carlos 🔻",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/83e37b5e004f18b53df6d655fa25b2edaee63256f61a6550048ba73f04b3878f.jpg",
+        "url": "https://framapiaf.org/@cpereira"
+      },
+      "url": "https://mamot.fr/@nhoizey/117489806196914544#reblogged-by-130169",
+      "published": "2026-10-23T12:12:18Z",
+      "published_ts": null,
+      "wm-received": "2026-10-23T12:12:18Z",
+      "wm-id": 2043497,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117489806196914544/130169",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/23/there-isn-t-an-easy-exploit-for-this-php-vulnerability/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/10/23/there-isn-t-an-easy-exploit-for-this-php-vulnerability/",
+      "wm-property": "repost-of",
       "wm-private": false
     }
   ]
