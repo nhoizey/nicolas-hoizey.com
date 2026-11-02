@@ -6406,7 +6406,10 @@
         "title": "Screenshot of A select should tell you something"
       }
     ],
-    "toots": []
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/117548537685053449"
+    ],
+    "lastTootTimestamp": 1793648341269
   },
   "https://nicolas-hoizey.com/links/2026/11/02/the-minifier-benchmarks-project-comparing-web-page-minification-results-html-css-js/": {
     "id": "https://nicolas-hoizey.com/links/2026/11/02/the-minifier-benchmarks-project-comparing-web-page-minification-results-html-css-js/",
