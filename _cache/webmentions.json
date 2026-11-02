@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-23T18:04:10.046Z",
+  "lastFetched": "2026-11-02T18:02:53.233Z",
   "webmentions": [
     {
       "type": "entry",
@@ -198114,6 +198114,106 @@
       "wm-target": "https://nicolas-hoizey.com/links/2026/10/23/there-isn-t-an-easy-exploit-for-this-php-vulnerability/",
       "wm-protocol": "webmention",
       "repost-of": "https://nicolas-hoizey.com/links/2026/10/23/there-isn-t-an-easy-exploit-for-this-php-vulnerability/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tyler Sticka",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/a3e8f10c9190a71c8b5813cb592445962f91252468058abbac98ecff88025553.png",
+        "url": "https://social.lol/@tylersticka"
+      },
+      "url": "https://mamot.fr/@nhoizey/117547120569907183#favorited-by-110651355078160221",
+      "published": "2026-11-02T14:54:25Z",
+      "published_ts": null,
+      "wm-received": "2026-11-02T14:54:25Z",
+      "wm-id": 2046527,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117547120569907183/110651355078160221",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/30/for-love-of-typography/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/10/30/for-love-of-typography/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Saneef H. Ansari",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/599eb9df9d64dadea2d33745f76d1910b2caa6b1cf84e6ebf38197af2dfeeb34.jpg",
+        "url": "https://front-end.social/@saneef"
+      },
+      "url": "https://mamot.fr/@nhoizey/117547120569907183#reblogged-by-109382355204329562",
+      "published": "2026-11-02T15:25:09Z",
+      "published_ts": null,
+      "wm-received": "2026-11-02T15:25:09Z",
+      "wm-id": 2046540,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117547120569907183/109382355204329562",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/10/30/for-love-of-typography/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/10/30/for-love-of-typography/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Adam DJ Brett",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/1aa233391d76671160107c90cafcfd26336ea684dbd60a5bcaaf609f3bf0f341.jpg",
+        "url": "https://hcommons.social/@adjb"
+      },
+      "url": "https://mamot.fr/@nhoizey/117547828904492669#favorited-by-109591563201549457",
+      "published": "2026-11-02T16:53:55Z",
+      "published_ts": null,
+      "wm-received": "2026-11-02T16:53:55Z",
+      "wm-id": 2046577,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117547828904492669/109591563201549457",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/11/02/the-minifier-benchmarks-project-comparing-web-page-minification-results-html-css-js/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/11/02/the-minifier-benchmarks-project-comparing-web-page-minification-results-html-css-js/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Adam DJ Brett",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/1aa233391d76671160107c90cafcfd26336ea684dbd60a5bcaaf609f3bf0f341.jpg",
+        "url": "https://hcommons.social/@adjb"
+      },
+      "url": "https://mamot.fr/@nhoizey/117547828904492669#reblogged-by-109591563201549457",
+      "published": "2026-11-02T16:53:55Z",
+      "published_ts": null,
+      "wm-received": "2026-11-02T16:53:55Z",
+      "wm-id": 2046576,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117547828904492669/109591563201549457",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/11/02/the-minifier-benchmarks-project-comparing-web-page-minification-results-html-css-js/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/11/02/the-minifier-benchmarks-project-comparing-web-page-minification-results-html-css-js/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jens Oliver Meiert",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/06785d0ce7f1e34561b574a25ba969bdb1931e27639c6812b04adccd71876839.png",
+        "url": "https://mas.to/@j9t"
+      },
+      "url": "https://mamot.fr/@nhoizey/117547828904492669#reblogged-by-109296672032209217",
+      "published": "2026-11-02T17:51:14Z",
+      "published_ts": null,
+      "wm-received": "2026-11-02T17:51:14Z",
+      "wm-id": 2046590,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117547828904492669/109296672032209217",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/11/02/the-minifier-benchmarks-project-comparing-web-page-minification-results-html-css-js/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/11/02/the-minifier-benchmarks-project-comparing-web-page-minification-results-html-css-js/",
       "wm-property": "repost-of",
       "wm-private": false
     }
