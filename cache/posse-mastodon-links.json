@@ -6391,5 +6391,56 @@
       "https://mamot.fr/users/nhoizey/statuses/117489806196914544"
     ],
     "lastTootTimestamp": 1792752169884
+  },
+  "https://nicolas-hoizey.com/links/2026/11/02/a-select-should-tell-you-something/": {
+    "id": "https://nicolas-hoizey.com/links/2026/11/02/a-select-should-tell-you-something/",
+    "url": "https://nicolas-hoizey.com/links/2026/11/02/a-select-should-tell-you-something/",
+    "lang": "en",
+    "title": "“A select should tell you something”",
+    "date_published": "2026-11-02T13:19:06Z",
+    "content_text": "“A select should tell you something” by Ahmad El-Alfy\n\n🔗 https://alfy.blog/2026/10/27/a-select-should-tell-you-something.html\n\n> We finally can style a select. The bigger change is what an option can hold. Until now, an option was one line of plain text, so everything a person needed to decide had to fit in a label or be left out. Now an option can carry the thing people actually decide with: a preview, a number, a job title, a warning. They stop reading and working things out, and…\n\n#HTML #CSS #UX\n\n⚓️ https://nicolas-hoizey.com/links/2026/11/02/a-select-should-tell-you-something/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://alfy.blog/2026/10/27/a-select-should-tell-you-something.html",
+        "mime_type": "image/png",
+        "title": "Screenshot of A select should tell you something"
+      }
+    ],
+    "toots": []
+  },
+  "https://nicolas-hoizey.com/links/2026/11/02/the-minifier-benchmarks-project-comparing-web-page-minification-results-html-css-js/": {
+    "id": "https://nicolas-hoizey.com/links/2026/11/02/the-minifier-benchmarks-project-comparing-web-page-minification-results-html-css-js/",
+    "url": "https://nicolas-hoizey.com/links/2026/11/02/the-minifier-benchmarks-project-comparing-web-page-minification-results-html-css-js/",
+    "lang": "en",
+    "title": "“The Minifier Benchmarks Project · Comparing Web Page Minification Results (HTML, CSS, JS)”",
+    "date_published": "2026-11-02T13:06:03Z",
+    "content_text": "“The Minifier Benchmarks Project · Comparing Web Page Minification Results (HTML, CSS, JS)” by @j9t@mas.to\n\n🔗 https://j9t.github.io/minifier-benchmarks/?ref=frontenddogma.com\n\n> The Minifier Benchmarks Project is a community-maintained collection of web page minification benchmarks, stewarded by Jens Oliver Meiert ([context](https://dev.to/j9t/on-the-need-for-neutral-maintained-minifier-metrics-5715)). It enables to compare available tools, inspect tests, and make benchmarks and minifiers…\n\n#WebPerf\n\n⚓️ https://nicolas-hoizey.com/links/2026/11/02/the-minifier-benchmarks-project-comparing-web-page-minification-results-html-css-js/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://j9t.github.io/minifier-benchmarks/?ref=frontenddogma.com",
+        "mime_type": "image/png",
+        "title": "Screenshot of The Minifier Benchmarks Project · Comparing Web Page Minification Results (HTML, CSS, JS)"
+      }
+    ],
+    "toots": []
+  },
+  "https://nicolas-hoizey.com/links/2026/10/30/for-love-of-typography/": {
+    "id": "https://nicolas-hoizey.com/links/2026/10/30/for-love-of-typography/",
+    "url": "https://nicolas-hoizey.com/links/2026/10/30/for-love-of-typography/",
+    "lang": "en",
+    "title": "“For love (of typography)”",
+    "date_published": "2026-10-30T09:22:05Z",
+    "content_text": "“For love (of typography)” by @mwichary@mastodon.online\n\n🔗 https://unsung.aresluna.org/for-love-of-typography/\n\n> Something didn’t sit right with me, though. One of the accusations in that last fight was “you don’t respond to my texts,” which didn’t feel right to me – and, as a matter of fact, it was me who felt that way.\n\n#mobile #typography #iPhone\n\n⚓️ https://nicolas-hoizey.com/links/2026/10/30/for-love-of-typography/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://unsung.aresluna.org/for-love-of-typography/",
+        "mime_type": "image/png",
+        "title": "Screenshot of For love (of typography)"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/117547120569907183"
+    ],
+    "lastTootTimestamp": 1793626717769
   }
 }
