@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-11-02T18:02:53.233Z",
+  "lastFetched": "2026-11-03T00:05:51.402Z",
   "webmentions": [
     {
       "type": "entry",
@@ -198214,6 +198214,66 @@
       "wm-target": "https://nicolas-hoizey.com/links/2026/11/02/the-minifier-benchmarks-project-comparing-web-page-minification-results-html-css-js/",
       "wm-protocol": "webmention",
       "repost-of": "https://nicolas-hoizey.com/links/2026/11/02/the-minifier-benchmarks-project-comparing-web-page-minification-results-html-css-js/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jens Oliver Meiert",
+        "photo": "https://static.mamot.fr/cache/accounts/avatars/109/296/672/032/209/217/original/6884fbbb90358921.png",
+        "url": "https://mas.to/@j9t"
+      },
+      "url": "https://mamot.fr/@nhoizey/117547828904492669#favorited-by-109296672032209217",
+      "published": "2026-11-02T19:13:50Z",
+      "published_ts": null,
+      "wm-received": "2026-11-02T19:13:50Z",
+      "wm-id": 2046615,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117547828904492669/109296672032209217",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/11/02/the-minifier-benchmarks-project-comparing-web-page-minification-results-html-css-js/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/11/02/the-minifier-benchmarks-project-comparing-web-page-minification-results-html-css-js/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Koos",
+        "photo": "https://static.mamot.fr/cache/accounts/avatars/113/941/694/377/143/769/original/45849074bfebc576.webp",
+        "url": "https://mastodon.green/@koos"
+      },
+      "url": "https://mamot.fr/@nhoizey/117548537685053449#favorited-by-113941694377143769",
+      "published": "2026-11-02T20:09:15Z",
+      "published_ts": null,
+      "wm-received": "2026-11-02T20:09:15Z",
+      "wm-id": 2046627,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117548537685053449/113941694377143769",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/11/02/a-select-should-tell-you-something/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/11/02/a-select-should-tell-you-something/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Koos",
+        "photo": "https://static.mamot.fr/cache/accounts/avatars/113/941/694/377/143/769/original/45849074bfebc576.webp",
+        "url": "https://mastodon.green/@koos"
+      },
+      "url": "https://mamot.fr/@nhoizey/117548537685053449#reblogged-by-113941694377143769",
+      "published": "2026-11-02T20:09:15Z",
+      "published_ts": null,
+      "wm-received": "2026-11-02T20:09:15Z",
+      "wm-id": 2046626,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117548537685053449/113941694377143769",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/11/02/a-select-should-tell-you-something/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/11/02/a-select-should-tell-you-something/",
       "wm-property": "repost-of",
       "wm-private": false
     }
