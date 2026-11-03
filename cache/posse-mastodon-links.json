@@ -6448,5 +6448,24 @@
       "https://mamot.fr/users/nhoizey/statuses/117547120569907183"
     ],
     "lastTootTimestamp": 1793626717769
+  },
+  "https://nicolas-hoizey.com/links/2026/11/02/our-css-isn-t-opinionated-enough/": {
+    "id": "https://nicolas-hoizey.com/links/2026/11/02/our-css-isn-t-opinionated-enough/",
+    "url": "https://nicolas-hoizey.com/links/2026/11/02/our-css-isn-t-opinionated-enough/",
+    "lang": "en",
+    "title": "“Our CSS isn’t opinionated enough”",
+    "date_published": "2026-11-02T20:20:30Z",
+    "content_text": "“Our CSS isn’t opinionated enough” by Craig Abbott\n\n🔗 https://www.craigabbott.co.uk/blog/2026/our-css-isnt-opinionated-enough/\n\n> We’ve built and pushed a “best practice” way of working where appearance and semantic meaning are completely decoupled. Then, we’re weirdly surprised that people are constantly shipping products with the styles and semantics completely decoupled!\n\n#CSS\n\n⚓️ https://nicolas-hoizey.com/links/2026/11/02/our-css-isn-t-opinionated-enough/",
+    "attachments": [
+      {
+        "url": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.craigabbott.co.uk/blog/2026/our-css-isnt-opinionated-enough/",
+        "mime_type": "image/png",
+        "title": "Screenshot of Our CSS isn’t opinionated enough"
+      }
+    ],
+    "toots": [
+      "https://mamot.fr/users/nhoizey/statuses/117551367528836575"
+    ],
+    "lastTootTimestamp": 1793691521242
   }
 }
