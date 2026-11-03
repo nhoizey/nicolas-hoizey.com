@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-11-03T00:05:51.402Z",
+  "lastFetched": "2026-11-03T12:03:02.326Z",
   "webmentions": [
     {
       "type": "entry",
@@ -198275,6 +198275,92 @@
       "wm-protocol": "webmention",
       "repost-of": "https://nicolas-hoizey.com/links/2026/11/02/a-select-should-tell-you-something/",
       "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Pinpin",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/2a59b73fefac473e8d09b576193759c068e9fde353244ad2557d52d99d2ce9ba.jpg",
+        "url": "https://bdx.town/users/pinpin"
+      },
+      "url": "https://mamot.fr/@nhoizey/117551367528836575#reblogged-by-114395237069909286",
+      "published": "2026-11-03T07:44:34Z",
+      "published_ts": null,
+      "wm-received": "2026-11-03T07:44:34Z",
+      "wm-id": 2046761,
+      "wm-source": "https://brid.gy/repost/mastodon/@nhoizey@mamot.fr/117551367528836575/114395237069909286",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/11/02/our-css-isn-t-opinionated-enough/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://nicolas-hoizey.com/links/2026/11/02/our-css-isn-t-opinionated-enough/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jonathan Schofield",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/8daee2e43ad5db5086664e27fc4d6189ae1546a92801fbd0ce6e3e5f384f3f58.jpg",
+        "url": "https://mastodon.social/@urlyman"
+      },
+      "url": "https://mastodon.social/@urlyman/117551406073652058",
+      "published": "2026-11-03T07:48:29+00:00",
+      "published_ts": 1793692109,
+      "wm-received": "2026-11-03T08:15:44Z",
+      "wm-id": 2046773,
+      "wm-source": "https://brid.gy/comment/mastodon/@nhoizey@mamot.fr/117551367528836575/117551407353501960",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/11/02/our-css-isn-t-opinionated-enough/",
+      "wm-protocol": "webmention",
+      "content": {
+        "content-type": "text/html",
+        "value": "<p><span class=\"h-card\"><a href=\"https://mamot.fr/@nhoizey\" class=\"u-url\">@<span>nhoizey</span></a></span> yes to this.</p><p>Though I think the best practice comes from the rigour of authoring semantic html in the first place. It’s not reasonably CSS’s job to instil that rigour. </p><p>I’ve always started with the html pattern that fits the content, and let my css codify that pattern</p>\n  <a class=\"u-mention\" href=\"https://www.craigabbott.co.uk/blog/2026/our-css-isnt-opinionated-enough/\"></a>",
+        "html": "<a href=\"https://mamot.fr/@nhoizey\">@nhoizey</a> yes to this.Though I think the best practice comes from the rigour of authoring semantic html in the first place. It’s not reasonably CSS’s job to instil that rigour. I’ve always started with the html pattern that fits the content, and let my css codify that pattern",
+        "text": "@nhoizey yes to this.\n\nThough I think the best practice comes from the rigour of authoring semantic html in the first place. It’s not reasonably CSS’s job to instil that rigour. \n\nI’ve always started with the html pattern that fits the content, and let my css codify that pattern"
+      },
+      "in-reply-to": "https://nicolas-hoizey.com/links/2026/11/02/our-css-isn-t-opinionated-enough/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jonathan Schofield",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/8daee2e43ad5db5086664e27fc4d6189ae1546a92801fbd0ce6e3e5f384f3f58.jpg",
+        "url": "https://mastodon.social/@urlyman"
+      },
+      "url": "https://mamot.fr/@nhoizey/117551367528836575#favorited-by-109331285584394677",
+      "published": "2026-11-03T08:15:44Z",
+      "published_ts": null,
+      "wm-received": "2026-11-03T08:15:44Z",
+      "wm-id": 2046772,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117551367528836575/109331285584394677",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/11/02/our-css-isn-t-opinionated-enough/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/11/02/our-css-isn-t-opinionated-enough/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "alienlebarge :prami_winky:",
+        "photo": "https://avatars.webmention.io/static.mamot.fr/dc148c07f5d156fe3affd44cd5ce53756d815202c5fdddd332ed2667dd51d218.png",
+        "url": "https://social.lol/@alienlebarge"
+      },
+      "url": "https://mamot.fr/@nhoizey/117551367528836575#favorited-by-109431839880288473",
+      "published": "2026-11-03T09:12:56Z",
+      "published_ts": null,
+      "wm-received": "2026-11-03T09:12:56Z",
+      "wm-id": 2046781,
+      "wm-source": "https://brid.gy/like/mastodon/@nhoizey@mamot.fr/117551367528836575/109431839880288473",
+      "wm-target": "https://nicolas-hoizey.com/links/2026/11/02/our-css-isn-t-opinionated-enough/",
+      "wm-protocol": "webmention",
+      "like-of": "https://nicolas-hoizey.com/links/2026/11/02/our-css-isn-t-opinionated-enough/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
