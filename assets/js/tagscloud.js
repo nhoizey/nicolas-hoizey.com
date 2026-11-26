@@ -18,10 +18,10 @@ const updateLabel = () => {
   let newMinLog = 100;
   tags.forEach((tag) => {
     if (parseInt(tag.dataset.number, 10) >= currentValue) {
-      tag.style.display = 'inline-block';
+      tag.closest("li").style.display = 'inline-block';
       newMinLog = Math.min(newMinLog, tag.style.getPropertyValue('--log'));
     } else {
-      tag.style.display = 'none';
+      tag.closest("li").style.display = 'none';
     }
   });
   cloud.style.setProperty('--min-log', newMinLog);
