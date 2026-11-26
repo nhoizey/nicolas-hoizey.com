@@ -326,6 +326,10 @@
     "site": "http://davewiner.com/",
     "mastodon": "@davew@mastodon.social"
   },
+	"David Bushell": {
+		"site": "https://dbushell.com/",
+		"mastodon": "@db@social.lol"
+	},
 	"David Gerard": {
 		"site": "https://davidgerard.co.uk/",
 		"mastodon": "@davidgerard@circumstances.run"
